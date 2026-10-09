@@ -21,7 +21,7 @@ listing:
   <div class="wrap">
     <div>
       <div class="id-row">
-        <img class="portrait" src="assets/bruno.jpg" alt="Bruno Schivinski" width="140" height="140">
+        <img class="portrait" src="assets/bruno.jpg" alt="Bruno Schivinski" width="152" height="190">
         <h1>Bruno Schivinski</h1>
       </div>
       <p class="role">Associate Professor of Marketing (profesor uczelni), Department of Marketing,

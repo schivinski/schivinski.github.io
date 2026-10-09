@@ -36,11 +36,12 @@ cannot access the article itself.
 | 6 | Results chart | Only with real numbers from the article |
 | 7 | The question | The gap the paper addresses |
 | 8 | Implications | Practical implications, Theoretical implications |
-| 9 | Questions this paper answers | Three questions phrased as people ask them, each answered with the citation |
-| 10 | Key concepts | Short definitions of the paper's main constructs |
-| 11 | Open science | Full text, preregistration, data, materials, scale items (only links that exist) |
-| 12 | How to cite | APA 7 only (no BibTeX on the page) |
-| 13 | Related publications | Bruno's own related papers |
+| 9 | Limitations and future research | Two or three points from the paper; future-research gaps attract citations |
+| 10 | Questions this paper answers | Three or four questions phrased as people ask them, each answered with numbers and the citation |
+| 11 | Key concepts | Short definitions of the paper's main constructs |
+| 12 | Open science and materials | Full text, preregistration, supplementary data, data, plus the study materials (stimuli, messages, scale items, measures) so others can reuse and cite them |
+| 13 | How to cite | APA 7 only (no BibTeX on the page) |
+| 14 | Related publications | Bruno's own related papers, preferably those the article cites |
 
 Sections with no confirmed content are left out rather than shown empty.
 
@@ -66,15 +67,17 @@ Sections with no confirmed content are left out rather than shown empty.
 ## Data file fields
 
 `status, title, doi, journal, issn, publisher, volume, issue, article_number or pages,
-published (YYYY-MM), published_label, open_access, licence, licence_url, pdf_url,
-authors (given, family, orcid, me), cite_short, badges, keywords, in_brief, findings
+published (YYYY-MM), published_label, online (YYYY-MM-DD), open_access, licence, licence_url, pdf_url,
+authors (given, family, orcid, affiliation, me), cite_short, badges, keywords, in_brief, findings
 (headline, text), glance (label, value), design_figure (file, caption), results (title,
-unit, note, groups of bars), question, implications (practical, theoretical), faq (q, a),
-concepts (term, definition), open_science (label, note, url), related (DOIs)`
+unit, note, groups of bars), question, implications (practical, theoretical), limitations, faq (q, a),
+concepts (term, definition), materials (label, text), materials_note, open_science (label, note, url;
+url optional), related (DOIs)`
 
 ## Before locking a page
 
-- [ ] Every number checked against the article
+- [ ] Every number checked against the article (test statistics, percentages, sample sizes)
+- [ ] Study materials reproduced only where the licence allows, with attribution
 - [ ] Author names and spelling match the published version
 - [ ] Preregistration, data and materials links added if they exist
 - [ ] Bruno has read every section

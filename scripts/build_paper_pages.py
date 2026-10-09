@@ -60,7 +60,8 @@ def plain(text: str) -> str:
 def results_svg(r: dict) -> str:
     rows = []
     for g in r["groups"]:
-        rows.append(("group", g["name"], None, False))
+        if g.get("name"):
+            rows.append(("group", g["name"], None, False))
         rows += [("bar", b["label"], float(b["value"]), b.get("highlight", False)) for b in g["bars"]]
     unit = r.get("unit", "%")
     vmax = max(v for k, _, v, _ in rows if k == "bar")
@@ -92,7 +93,8 @@ def head_layer(d: dict, slug: str, url: str) -> str:
         "@context": "https://schema.org", "@type": "ScholarlyArticle",
         "headline": d["title"], "name": d["title"], "url": url,
         "author": [{"@type": "Person", "name": f"{a['given']} {a['family']}", "givenName": a["given"],
-                    "familyName": a["family"], **({"sameAs": f"https://orcid.org/{a['orcid']}"} if a.get("orcid") else {})}
+                    "familyName": a["family"], **({"sameAs": f"https://orcid.org/{a['orcid']}"} if a.get("orcid") else {}),
+                    **({"affiliation": [{"@type": "Organization", "name": n} for n in a["affiliation"]]} if a.get("affiliation") else {})}
                    for a in authors],
         "datePublished": d["published"],
         "isPartOf": {"@type": "PublicationVolume", "volumeNumber": str(d.get("volume", "")),
@@ -112,10 +114,17 @@ def head_layer(d: dict, slug: str, url: str) -> str:
               "mainEntity": [{"@type": "Question", "name": f["q"],
                               "acceptedAnswer": {"@type": "Answer", "text": plain(f["a"])}} for f in d.get("faq", [])]}
     meta = [f'<meta name="citation_title" content="{esc(d["title"])}">']
-    meta += [f'<meta name="citation_author" content="{esc(a["family"])}, {esc(a["given"])}">' for a in authors]
+    for a in authors:
+        meta.append(f'<meta name="citation_author" content="{esc(a["family"])}, {esc(a["given"])}">')
+        if a.get("orcid"):
+            meta.append(f'<meta name="citation_author_orcid" content="https://orcid.org/{esc(a["orcid"])}">')
+        for inst in a.get("affiliation", []):
+            meta.append(f'<meta name="citation_author_institution" content="{esc(inst)}">')
     meta += [f'<meta name="citation_publication_date" content="{d["published"].replace("-", "/")}">',
              f'<meta name="citation_journal_title" content="{esc(d["journal"])}">',
              f'<meta name="citation_doi" content="{esc(d["doi"])}">']
+    if d.get("online"):
+        meta.append(f'<meta name="citation_online_date" content="{d["online"].replace("-", "/")}">')
     for key, tag in [("issn", "citation_issn"), ("volume", "citation_volume"), ("issue", "citation_issue"),
                      ("publisher", "citation_publisher")]:
         if d.get(key):
@@ -193,6 +202,10 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
   <div><h3>Theoretical implications</h3><p>{imp["theoretical"]}</p></div>
 </div></section>''')
 
+    if d.get("limitations"):
+        out.append('<section class="paper-section"><h2>Limitations and future research</h2><ul class="limits">'
+                   + "".join(f"<li>{x}</li>" for x in d["limitations"]) + "</ul></section>")
+
     if d.get("faq"):
         out.append('<section class="paper-section"><h2>Questions this paper answers</h2><div class="faq">' + "".join(
             f'<div class="faq-item"><h3>{esc(f["q"])}</h3><p>{f["a"]}</p></div>' for f in d["faq"]) + "</div></section>")
@@ -201,11 +214,19 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
         out.append('<section class="paper-section"><h2>Key concepts</h2><dl class="concepts">' + "".join(
             f'<div><dt>{esc(c["term"])}</dt><dd>{c["definition"]}</dd></div>' for c in d["concepts"]) + "</dl></section>")
 
-    if d.get("open_science"):
-        out.append('<section class="paper-section"><h2>Open science</h2><ul class="open-list">' + "".join(
-            f'<li><a href="{esc(o["url"])}">{esc(o["label"])}</a>'
-            + (f' <span>{esc(o["note"])}</span>' if o.get("note") else "") + "</li>"
-            for o in d["open_science"] if o.get("url")) + "</ul></section>")
+    if d.get("open_science") or d.get("materials"):
+        sec = '<section class="paper-section"><h2>Open science and materials</h2>'
+        if d.get("open_science"):
+            sec += '<ul class="open-list">' + "".join(
+                (f'<li><a href="{esc(o["url"])}">{esc(o["label"])}</a>' if o.get("url") else f'<li><strong>{esc(o["label"])}</strong>')
+                + (f' <span>{esc(o["note"])}</span>' if o.get("note") else "") + "</li>"
+                for o in d["open_science"]) + "</ul>"
+        if d.get("materials"):
+            sec += '<h3 class="materials-title">Study materials</h3><dl class="materials">' + "".join(
+                f'<div><dt>{esc(m["label"])}</dt><dd>{m["text"]}</dd></div>' for m in d["materials"]) + "</dl>"
+            if d.get("materials_note"):
+                sec += f'<p class="licence">{esc(d["materials_note"])}</p>'
+        out.append(sec + "</section>")
 
     out.append(f'''<section class="paper-section"><h2>How to cite</h2>
 <p class="cite-block" id="cite-apa">{apa(d)}</p>''' + (

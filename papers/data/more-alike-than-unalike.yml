@@ -1,4 +1,5 @@
 # Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Food Quality and Preference 148 (2027) 106122 (PDF supplied by Bruno, 9 Oct 2026)
 # Status: draft (set to "locked" once Bruno approves every statement)
 status: draft
 
@@ -11,118 +12,171 @@ volume: "148"
 article_number: "106122"
 published: "2027-02"
 published_label: "February 2027"
+online: "2026-09-23"
 open_access: true
 licence: "CC BY-NC-ND 4.0"
 licence_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
 
 authors:
-  - { given: "Marcelo", family: "Cardenas", orcid: "0000-0002-3748-338X" }
-  - { given: "Juan Jose", family: "Cardenas", orcid: "0000-0001-6653-7992" }
-  - { given: "Bruno", family: "Schivinski", orcid: "0000-0002-4095-1922", me: true }
-  - { given: "Tobias", family: "Otterbring", orcid: "0000-0002-0283-8777" }
+  - given: "Marcelo"
+    family: "Cardenas"
+    orcid: "0000-0002-3748-338X"
+    affiliation: ["RMIT University", "University of Agder"]
+  - given: "Juan Jose"
+    family: "Cardenas"
+    orcid: "0000-0001-6653-7992"
+    affiliation: ["RMIT University", "University of Agder"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Gdańsk University of Technology"]
+    me: true
+  - given: "Tobias"
+    family: "Otterbring"
+    orcid: "0000-0002-0283-8777"
+    affiliation: ["University of Agder", "KTH Royal Institute of Technology"]
 
 cite_short: "Cardenas et al., 2027"
-badges: ["Preregistered", "Field experiment", "Ecuador and Norway"]
+badges: ["Preregistered", "Field experiment", "Real choice", "Ecuador and Norway"]
 keywords:
   - sustainable consumption
   - social influence
   - authority principle
   - commitment and consistency
-  - cross-cultural consumer behaviour
-  - field experiment
   - fairtrade
+  - cross-cultural consumer behaviour
+  - WEIRD samples
+  - Latin America
+  - field experiment
   - pro-environmental behaviour
-  - Ecuador
-  - Norway
 
 in_brief: >-
-  A message built on authority made people more likely to choose the sustainable product, and it worked just as
-  well in Ecuador as in Norway. In a field experiment with 346 people, the authority message outperformed both a
-  commitment-and-consistency message and no message at all.
+  When a message said that sustainability experts recommend choosing sustainably, 57% of people picked the
+  fairtrade chocolate, against 34% with no message. The authority message worked equally well in Ecuador and
+  Norway, two countries usually assumed to respond to persuasion differently.
 
 findings:
-  - headline: "Persuasion messages increased sustainable choices."
+  - headline: "Social influence messages increased sustainable choices."
     text: >-
-      In a preregistered field experiment with 346 consumers in Ecuador and Norway, messages based on the authority
-      and commitment-and-consistency principles together increased the likelihood of choosing a fairtrade-labelled
-      chocolate over an unlabelled one, compared with a no-message control (Cardenas et al., 2027).
-  - headline: "Country made no difference."
-    text: >-
-      Contrary to the preregistered prediction, the effectiveness of the social influence messages did not differ
-      between Ecuador and Norway (Cardenas et al., 2027).
+      In a preregistered field experiment with 346 people in Quito (Ecuador) and Kristiansand (Norway), 48.1% of
+      those who received a social influence message chose a fairtrade-labelled chocolate, compared with 33.9% of
+      those who received no message, &chi;&sup2;(1) = 6.25, <i>p</i> = .008, <i>d</i> = 0.27 (Cardenas et al., 2027).
   - headline: "Authority did most of the work."
     text: >-
-      The authority message was considerably more effective than both the commitment-and-consistency message and
-      the control in both countries, regardless of participants' trust in authorities or their need for consistency
-      (Cardenas et al., 2027).
+      A message stating that sustainability experts recommend choosing sustainably led 57.3% of participants to
+      choose the fairtrade chocolate, compared with 38.6% after a commitment-and-consistency message,
+      &chi;&sup2;(1) = 8.06, <i>p</i> = .003, <i>d</i> = 0.38 (Cardenas et al., 2027).
+  - headline: "Culture did not change the effect."
+    text: >-
+      Contrary to the preregistered prediction that authority would work better in collectivist Ecuador and
+      commitment-and-consistency in individualistic Norway, country did not moderate the effect of the messages
+      (<i>b</i> = 0.02, <i>p</i> = .966), and there was no main effect of country (Cardenas et al., 2027).
+  - headline: "The effect held against a less attractive product."
+    text: >-
+      A validation study (N = 44) showed that the fairtrade chocolate was seen as more sustainable than the
+      alternative (M = 4.73 vs. 3.86 on a 7-point scale) but less appealing in brand, expected taste and packaging,
+      making the choice a conservative test of the messages (Cardenas et al., 2027).
 
 glance:
-  - { label: "Design", value: "Preregistered behavioural field experiment" }
-  - { label: "Participants", value: "346 adults: 208 in Ecuador, 138 in Norway" }
-  - { label: "Conditions", value: "No message (control), an authority message, or a commitment-and-consistency message, randomly assigned" }
-  - { label: "Outcome", value: "A real choice between a fairtrade-labelled and an unlabelled chocolate" }
-  - { label: "Analysis", value: "Chi-square test of choice by condition; moderation by country (PROCESS Model 1)" }
+  - { label: "Design", value: "Preregistered 3 &times; 2 between-subjects field experiment" }
+  - { label: "Participants", value: "346 adults recruited in city centres and on university campuses: 208 in Quito, Ecuador, and 138 in Kristiansand, Norway (autumn 2025)" }
+  - { label: "Conditions", value: "No message (control), an authority message, or a commitment-and-consistency message at the top of a paper-and-pencil survey" }
+  - { label: "Outcome", value: "Real choice of a study gift: one of two chocolates at the same price, one carrying a salient fairtrade label" }
+  - { label: "Analysis", value: "Chi-square tests with orthogonal contrasts; moderation by country with PROCESS Model 1" }
+  - { label: "Validation", value: "Separate study (N = 44) confirming the fairtrade chocolate was seen as more sustainable but less attractive on all other dimensions" }
 
 design_figure:
   file: figures/more-alike-than-unalike-design.svg
   caption: >-
-    Study design. Within each country, participants were randomly assigned to one of three conditions and then made
-    a real choice between two chocolates.
+    Study design. Within each country, participants were randomly assigned to one of three survey versions and then
+    chose one of two chocolates as a thank-you gift.
 
-# Results chart: fill from the paper's results table. Leave empty until real numbers are confirmed.
-results: null
-#  title: "Share choosing the fairtrade chocolate"
-#  unit: "%"
-#  note: "Percentages from Table X of the article."
-#  groups:
-#    - name: "Ecuador"
-#      bars: [ { label: "Control", value: 0 }, { label: "Authority", value: 0, highlight: true }, { label: "Commitment and consistency", value: 0 } ]
+results:
+  title: "Share of participants choosing the fairtrade chocolate"
+  unit: "%"
+  note: "Both countries combined (N = 346), as reported in Figure 1 and Table 3 of the article. Country did not moderate the effect."
+  groups:
+    - name: ""
+      bars:
+        - { label: "Control (no message)", value: 33.9 }
+        - { label: "Commitment and consistency", value: 38.6 }
+        - { label: "Authority", value: 57.3, highlight: true }
 
 question: >-
-  Most research on nudging people towards sustainable choices comes from Western countries, with very little from
-  Latin America. That leaves an open question for anyone designing a sustainability message: does a persuasion
-  principle that works in one culture work in another with different values? We tested two well-established
-  principles of social influence, authority and commitment-and-consistency, side by side in Ecuador and Norway.
+  Most behavioural research uses samples from Western, educated, industrialised, rich and democratic (WEIRD)
+  societies; samples from Latin America remain rare. Classic accounts of culture predict that authority appeals
+  should persuade more in collectivist, high power-distance countries, and commitment-and-consistency appeals more in
+  individualistic ones. We tested both principles side by side in Ecuador, traditionally classed as collectivist, and
+  Norway, traditionally classed as individualistic, using a real product choice rather than stated intentions.
 
 implications:
   practical: >-
-    Retailers, brands and public agencies that want shoppers to pick the more sustainable product can use an
-    authority-based message at the point of choice. The same type of message raised fairtrade choices in both
-    Ecuador and Norway, so a single principle can underpin campaigns in markets with very different cultural
-    profiles.
+    Brands, retailers and public agencies can raise sustainable choices with authority messages, provided the source
+    fits the behaviour: sustainability experts, trusted organisations or government officials rather than celebrities
+    or sports stars. Showing the authority making the sustainable choice, and matching the source to the audience,
+    should strengthen the effect where trust in such authorities is moderate to high. The same principle applies
+    to policy campaigns towards Sustainable Development Goal 12, for example environmental officials recommending
+    reusable cups at airports and stations.
   theoretical: >-
-    Social influence principles are not interchangeable: authority outperformed commitment-and-consistency, and
-    neither trust in authorities nor need for consistency explained the difference. The absence of country
-    moderation questions the assumption that persuasion effects are culturally contingent, using rare field evidence
-    from Latin America.
+    The authority principle generalised across two countries assumed to hold very different cultural values,
+    extending laboratory evidence of similar obedience to authority across cultures to a behavioural field setting.
+    The absence of the predicted cultural difference adds to work questioning the individualism&ndash;collectivism
+    and East&ndash;West dichotomies; Latin American consumers, for instance, often show independent self-construals
+    usually linked to individualism.
+
+limitations:
+  - "The samples differed in age (mean 26 in Ecuador, 40 in Norway), mirroring national age profiles; results held when controlling for age."
+  - "The authority source fitted the target behaviour, while the commitment message relied on passive commitment and was less concrete, which may have widened the gap between the two conditions."
+  - "Future studies could test the fit between authority source and behaviour, active versus passive commitment, the mechanisms behind the authority effect, and other world regions, including qualitative designs."
 
 faq:
   - q: "Do authority messages increase sustainable product choices?"
     a: >-
-      Yes. In a preregistered field experiment in Ecuador and Norway (N = 346), an authority-based message was the
-      most effective of the messages tested at getting people to choose a fairtrade-labelled product over an
-      unlabelled one (Cardenas et al., 2027).
+      Yes. In a preregistered field experiment in Ecuador and Norway (N = 346), 57.3% of people who were told that
+      sustainability experts recommend choosing sustainably picked a fairtrade-labelled chocolate, compared with
+      38.6% after a commitment-based message and 33.9% with no message (Cardenas et al., 2027).
   - q: "Does culture change how persuasion principles affect sustainable consumption?"
     a: >-
-      Not in this study. The effects of authority and commitment-and-consistency messages on fairtrade choice did
-      not differ between Ecuador and Norway, two countries with very different cultural values (Cardenas et al., 2027).
-  - q: "Is commitment and consistency as effective as authority for promoting fairtrade choices?"
+      Not in this study. Country did not moderate the effect of authority versus commitment-and-consistency messages
+      on fairtrade choices in Ecuador and Norway, despite their different cultural profiles (Cardenas et al., 2027).
+  - q: "Which works better for promoting fairtrade choices: authority or commitment and consistency?"
     a: >-
-      No. The authority message was considerably more effective than the commitment-and-consistency message in
-      both countries (Cardenas et al., 2027).
+      Authority. The authority message produced a substantially higher fairtrade choice rate than the
+      commitment-and-consistency message in both countries, &chi;&sup2;(1) = 8.06, <i>d</i> = 0.38 (Cardenas et al., 2027).
+  - q: "What kind of authority should brands use to promote sustainable products?"
+    a: >-
+      A source whose expertise fits the behaviour, such as sustainability experts, trusted organisations or
+      government officials, rather than celebrities or sports stars (Cardenas et al., 2027).
 
 concepts:
   - term: "Authority principle"
     definition: "People are more likely to follow a recommendation when it comes from a source they see as a credible expert or institution."
   - term: "Commitment and consistency principle"
     definition: "Once people commit to a position, they tend to act in line with it so that they appear, and feel, consistent."
-  - term: "Sustainable choice (in this study)"
-    definition: "Choosing the fairtrade-labelled chocolate rather than the unlabelled one."
+  - term: "Contextually aligned authority"
+    definition: "An authority whose expertise matches the behaviour being encouraged, here sustainability experts recommending sustainable choices (the match-up effect)."
+  - term: "WEIRD samples"
+    definition: "Research participants from Western, educated, industrialised, rich and democratic societies, who dominate behavioural science despite being a small share of the world's population."
+
+materials:
+  - label: "Authority message"
+    text: "&ldquo;Dear citizen, to protect our planet from accelerated climate change, sustainability experts strongly recommend citizens to choose sustainably.&rdquo;"
+  - label: "Commitment-and-consistency message"
+    text: "&ldquo;Dear citizen, don't you also want the best for our planet? Then make sustainable choices!&rdquo;"
+  - label: "Choice task"
+    text: "Two chocolates priced the same ($8 per package), one with a highly salient fairtrade label, offered as a thank-you gift after the survey."
+  - label: "Measures"
+    text: "Trust in authorities (three items, van Dijke &amp; Verboon, 2010), need for consistency (single item), need to belong (single item) and ecological dominance orientation, on 7-point scales."
+materials_note: "Messages reproduced from the article (CC BY-NC-ND 4.0); they were adapted from Baca-Motes et al. (2013) and Whittler and Manolis (2015)."
 
 open_science:
   - { label: "Full text", note: "Free to read under CC BY-NC-ND 4.0", url: "https://doi.org/10.1016/j.foodqual.2026.106122" }
-  # - { label: "Preregistration", note: "", url: "" }   # add from the article's preregistration statement
-  # - { label: "Data and materials", note: "", url: "" }
+  - { label: "Preregistration (AsPredicted)", note: "One deviation reported: extra campus data collection after rain limited city-centre recruitment in Kristiansand", url: "https://aspredicted.org/mddr-v7mz.pdf" }
+  - { label: "Supplementary data", note: "Available with the article on the publisher's site", url: "https://doi.org/10.1016/j.foodqual.2026.106122" }
+  - { label: "Data", note: "Available from the authors on request" }
 
 related:
   - "10.1108/jpbm-09-2025-6337"
+  - "10.1002/cb.1833"
+  - "10.1002/cb.1988"
+  - "10.1016/j.jclepro.2024.143452"

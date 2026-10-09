@@ -152,9 +152,9 @@ a:hover { color: $amber-text; }
 /* ---------- home: portrait ---------- */
 .id-row { display: flex; align-items: center; gap: 1.4rem; margin-bottom: 1rem; }
 .id-row h1 { margin: 0; }
-.portrait { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; flex: none;
-  box-shadow: 0 0 0 3px $ink, 0 0 0 5px rgba($amber, .85); }
-@media (max-width: 560px) { .id-row { flex-direction: column; align-items: flex-start; } .portrait { width: 112px; height: 112px; } }
+.portrait { width: 152px; height: 190px; border-radius: 4px; object-fit: cover; flex: none;
+  outline: 1px solid rgba(255,255,255,.22); outline-offset: 6px; }
+@media (max-width: 560px) { .id-row { flex-direction: column; align-items: flex-start; } .portrait { width: 120px; height: 150px; } }
 
 /* ---------- publication list: link to paper pages ---------- */
 .pub-more { font-size: .8rem; font-weight: 600; color: $ink; background: rgba($amber, .22); border-radius: 999px; padding: .05rem .55rem; }
@@ -229,3 +229,9 @@ a:hover { color: $amber-text; }
 .open-list li a, .related li a { font-weight: 600; }
 .open-list li span, .related li span { display: block; color: $muted; font-size: .9rem; }
 .figure-title { font-size: 1.1rem; margin: 0 0 .8rem; }
+.limits { padding-left: 1.2rem; margin: 0; display: grid; gap: .5rem; }
+.materials-title { font-size: 1.15rem; margin: 1.6rem 0 .7rem; }
+.materials { margin: 0; display: grid; gap: .8rem; background: $surface; border: 1px solid $rule; border-radius: 6px; padding: 1rem 1.2rem; }
+.materials dt { font-size: .82rem; font-weight: 600; color: $amber-text; }
+.materials dd { margin: .1rem 0 0; }
+.open-list li strong { font-weight: 600; color: $ink; }
