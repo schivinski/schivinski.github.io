@@ -14,7 +14,7 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: About
+        text: Home
       - href: publications.qmd
         text: Publications
       - href: teaching.qmd
@@ -22,16 +22,15 @@ website:
       - href: watch/index.qmd
         text: Marketing Watch
     right:
-      - icon: mortarboard-fill
+      - text: "Google Scholar"
         href: https://scholar.google.pl/citations?user=f-iKGD8AAAAJ
-        aria-label: Google Scholar
       - text: "ORCID"
         href: https://orcid.org/0000-0002-4095-1922
   page-footer:
-    left: "© Bruno Schivinski"
+    left: "Bruno Schivinski, Department of Marketing, Gdańsk University of Technology"
     right:
-      - text: "Gdańsk University of Technology"
-        href: https://pg.edu.pl
+      - text: "Email"
+        href: mailto:bruno.schivinski@pg.edu.pl
       - text: "RSS"
         href: watch/index.xml
 
@@ -39,6 +38,6 @@ format:
   html:
     theme:
       light: [flatly, styles.scss]
+    title-block-banner: true
     toc: false
     smooth-scroll: true
-    link-external-newwindow: false

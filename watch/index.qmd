@@ -4,11 +4,8 @@ subtitle: "New marketing research and practice, every week"
 listing:
   contents: posts
   sort: "date desc"
-  type: default
-  categories: true
+  template: ../_templates/watch-list.ejs
   feed: true
-  fields: [date, title, description, categories]
-page-layout: full
 ---
 
 Each digest collects new papers from leading marketing and consumer research

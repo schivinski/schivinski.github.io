@@ -1,8 +1,7 @@
 ---
 title: "Publications"
+subtitle: "Journal articles, chapters and papers, newest first"
 page-layout: article
 ---
 
-::: {#publications}
 {{< include _generated/publications.md >}}
-:::

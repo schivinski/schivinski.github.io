@@ -1,34 +1,150 @@
 /*-- scss:defaults --*/
-$primary: #7a1f2b;            // deep claret
-$body-color: #22252a;
-$link-color: $primary;
-$navbar-bg: #ffffff;
-$navbar-fg: #22252a;
-$navbar-hl: $primary;
-$footer-bg: #f6f4f1;
-$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
-$headings-font-family: "Source Serif 4", Georgia, serif;
-$headings-font-weight: 600;
+// Layout concept: a deep-ink band carries identity (nav + page heads), with
+// Gdańsk amber as the single accent; reading areas stay bright and quiet.
+$ink:        #15203b;   // navy ink: nav, hero, page heads, footer
+$ink-soft:   #26335a;   // raised surfaces on ink
+$amber:      #e0a12a;   // Gdańsk amber: the one accent (on ink)
+$amber-text: #8a5a00;   // amber dark enough for text on white
+$paper:      #f6f7f9;   // cool page ground
+$surface:    #ffffff;
+$text:       #1d2433;
+$muted:      #5b6476;
+$rule:       #dde1e8;
+
+$body-bg: $paper;
+$body-color: $text;
+$link-color: $ink;
+$primary: $ink;
+$navbar-bg: $ink;
+$navbar-fg: #d9deea;
+$navbar-hl: #ffffff;
+$footer-bg: $ink;
+$footer-fg: #c9d0e0;
+$font-family-sans-serif: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Newsreader", Georgia, "Times New Roman", serif;
+$headings-font-weight: 500;
+$border-color: $rule;
 
 /*-- scss:rules --*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap");
 
-body { font-size: 1.02rem; line-height: 1.65; }
-.navbar { border-bottom: 1px solid #e7e3dd; }
-.navbar-brand .navbar-title { font-family: $headings-font-family; font-weight: 600; }
-h2 { margin-top: 2.2rem; padding-bottom: .3rem; border-bottom: 1px solid #e7e3dd; }
-h3 { font-size: 1.05rem; color: #6b6f76; font-family: $font-family-sans-serif; margin-top: 1.4rem; }
+body { font-size: 1.0625rem; line-height: 1.65; font-feature-settings: "kern"; }
+h1, h2, h3 { text-wrap: balance; letter-spacing: -0.01em; }
+a { text-decoration-color: rgba($amber, .9); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+a:hover { color: $amber-text; }
+:focus-visible { outline: 3px solid $amber; outline-offset: 2px; }
 
-.small-note { font-size: .88rem; color: #6b6f76; }
+/* ---------- navigation ---------- */
+.navbar { padding-block: .55rem; }
+.navbar-brand .navbar-title { font-family: $headings-font-family; font-size: 1.3rem; font-weight: 500; color: #fff; }
+.navbar .nav-link { font-weight: 500; }
+.navbar .nav-link.active { box-shadow: inset 0 -2px 0 $amber; }
 
-/* publication list */
-#publications ul { padding-left: 0; list-style: none; }
-#publications li { margin: 0 0 .85rem; padding-left: .9rem; border-left: 2px solid #e7e3dd; }
-#publications li:hover { border-left-color: $primary; }
+/* ---------- page heads on inner pages (title-block-banner) ---------- */
+.quarto-title-banner { background: $ink; color: #fff; padding-block: 2.6rem 2.2rem; }
+.quarto-title-banner .title { font-size: clamp(2.2rem, 4vw, 3rem); font-weight: 500; color: #fff; }
+.quarto-title-banner .subtitle { color: #c9d0e0; font-size: 1.1rem; margin-top: .35rem; }
 
-/* about page */
-.lede { font-size: 1.15rem; color: #3b3f45; }
-.profile-links a { display: inline-block; margin: 0 .9rem .5rem 0; font-weight: 500; }
+/* ---------- home ---------- */
+.home-hero { background: $ink; color: #e8ebf3; padding-block: 3.5rem 3.75rem; }
+.home-hero .wrap { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 3.5rem; align-items: center; }
+.home-hero h1 { color: #fff; font-size: clamp(2.6rem, 5.4vw, 4.2rem); font-weight: 500; line-height: 1.02; margin: 0 0 1rem; }
+.home-hero .role { color: #c9d0e0; font-size: 1.05rem; margin: 0 0 1.6rem; max-width: 38rem; }
+.home-hero .thesis { font-family: $headings-font-family; font-size: clamp(1.25rem, 2.2vw, 1.55rem); line-height: 1.4; color: #fff; max-width: 34rem; margin: 0 0 1.8rem; }
+.home-hero .links { display: flex; flex-wrap: wrap; gap: .6rem; }
+.home-hero .links a { color: #fff; text-decoration: none; border: 1px solid rgba(255,255,255,.28); border-radius: 999px; padding: .38rem .95rem; font-size: .95rem; font-weight: 500; }
+.home-hero .links a:hover { border-color: $amber; color: $amber; }
 
-/* digest disclosure */
-.ai-note { font-size: .85rem; color: #6b6f76; border-top: 1px solid #e7e3dd; margin-top: 2.5rem; padding-top: .8rem; }
+/* signature figure: levels of engagement with brand-related social media content */
+.cobra { margin: 0; }
+.cobra svg { width: 100%; height: auto; display: block; }
+.cobra figcaption { color: #aeb7cb; font-size: .86rem; line-height: 1.5; margin-top: .9rem; max-width: 30rem; }
+
+.wrap { max-width: 1120px; margin-inline: auto; padding-inline: 24px; }
+.home-section { padding-block: 3.2rem 1rem; }
+.home-section > .wrap > h2 { font-size: 1.9rem; margin: 0 0 1.4rem; }
+.section-head { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; margin-bottom: 1.4rem; }
+.section-head h2 { font-size: 1.9rem; margin: 0; }
+.section-head a { font-weight: 500; }
+
+.themes { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.75rem; }
+.theme { border-top: 3px solid $ink; padding-top: 1rem; }
+.theme h3 { font-size: 1.22rem; margin: 0 0 .5rem; }
+.theme p { color: $muted; font-size: .97rem; margin: 0; }
+
+.home-split { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 3rem; }
+.watch-panel { background: $surface; border: 1px solid $rule; border-radius: 6px; padding: 1.5rem 1.6rem; align-self: start; }
+.watch-panel h2 { font-size: 1.5rem; margin: 0 0 .4rem; }
+.watch-panel p { color: $muted; font-size: .97rem; }
+
+/* ---------- publications ---------- */
+.pub-tools { position: sticky; top: 0; z-index: 5; background: $paper; padding-block: 1rem .6rem; border-bottom: 1px solid $rule; margin-bottom: 1rem; }
+.pub-search { display: block; }
+.pub-search input { width: 100%; font: inherit; padding: .7rem 1rem; border: 1px solid $rule; border-radius: 6px; background: $surface; color: $text; }
+.pub-search input:focus { outline: 3px solid rgba($amber, .55); border-color: $ink; }
+.chips { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .8rem; }
+.chip { font: inherit; font-size: .9rem; font-weight: 500; border: 1px solid $rule; background: $surface; color: $text; border-radius: 999px; padding: .32rem .85rem; cursor: pointer; }
+.chip-n { color: $muted; font-variant-numeric: tabular-nums; margin-left: .15rem; }
+.chip[aria-pressed="true"] { background: $ink; border-color: $ink; color: #fff; }
+.chip[aria-pressed="true"] .chip-n { color: $amber; }
+.pub-count { color: $muted; font-size: .88rem; margin: .7rem 0 0; }
+.pub-empty { color: $muted; padding: 2rem 0; }
+
+.pub-year { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 1.5rem; padding-block: 1.4rem; border-top: 1px solid $rule; }
+.pub-year:first-child { border-top: 0; }
+.pub-year .year { border: 0; padding: 0; font-family: $headings-font-family; font-size: 2rem; font-weight: 500; color: $ink; margin: 0; line-height: 1.1; font-variant-numeric: tabular-nums; position: sticky; top: 9.5rem; align-self: start; }
+.pub-items { display: grid; gap: 1.35rem; }
+.pub-title { font-family: $headings-font-family; font-size: 1.2rem; font-weight: 500; line-height: 1.35; margin: 0 0 .3rem; }
+.pub-title a { text-decoration: none; color: $ink; }
+.pub-title a:hover { text-decoration: underline; color: $ink; }
+.pub-authors { margin: 0 0 .25rem; font-size: .95rem; color: $text; }
+.pub-authors strong { font-weight: 600; }
+.pub-meta { margin: 0; font-size: .9rem; color: $muted; display: flex; flex-wrap: wrap; gap: .35rem .9rem; align-items: baseline; }
+.pub-venue { font-style: italic; }
+.pub-type { font-size: .8rem; font-weight: 500; color: $amber-text; }
+
+.recent-pubs { display: grid; gap: 1.4rem; }
+.recent-pubs .pub { padding-bottom: 1.3rem; border-bottom: 1px solid $rule; }
+.recent-pubs .pub:last-child { border-bottom: 0; }
+
+/* ---------- teaching ---------- */
+.courses { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-top: 1.5rem; }
+.course { background: $surface; border: 1px solid $rule; border-radius: 6px; padding: 1.3rem 1.4rem; }
+.course h2 { font-size: 1.35rem; margin: 0 0 .6rem; border: 0; padding: 0; }
+.course ul { list-style: none; padding: 0; margin: 0; display: grid; gap: .45rem; }
+.course li { font-size: .93rem; color: $muted; line-height: 1.45; }
+.course li strong { color: $text; font-weight: 600; }
+
+/* ---------- Marketing Watch ---------- */
+.watch-list { display: grid; gap: 0; }
+.watch-item { display: grid; grid-template-columns: 8.5rem minmax(0, 1fr); gap: 1.5rem; padding-block: 1.25rem; border-top: 1px solid $rule; }
+.watch-item:first-child { border-top: 0; }
+.watch-item time { color: $muted; font-size: .92rem; font-variant-numeric: tabular-nums; padding-top: .2rem; }
+.watch-item h3 { font-size: 1.3rem; margin: 0 0 .3rem; }
+.watch-item h3 a { text-decoration: none; color: $ink; }
+.watch-item h3 a:hover { text-decoration: underline; }
+.watch-item p { margin: 0; color: $muted; }
+.watch-panel .watch-item { grid-template-columns: 1fr; gap: .2rem; padding-block: .9rem; }
+
+.ai-note { font-size: .88rem; color: $muted; border-top: 1px solid $rule; margin-top: 2.5rem; padding-top: .9rem; }
+
+/* ---------- footer ---------- */
+.nav-footer { padding-block: 1.4rem; }
+.nav-footer a { color: #fff; }
+
+/* ---------- small screens ---------- */
+@media (max-width: 860px) {
+  .home-hero .wrap, .home-split { grid-template-columns: 1fr; gap: 2.2rem; }
+  .themes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .courses { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .themes { grid-template-columns: 1fr; }
+  .pub-year { grid-template-columns: 1fr; gap: .6rem; }
+  .pub-year .year { position: static; font-size: 1.6rem; }
+  .watch-item { grid-template-columns: 1fr; gap: .2rem; }
+  .pub-tools { position: static; }
+}
+
+/* headings inside designed sections carry no rule */
+.home-section h2, .watch-panel h2, .section-head h2 { border-bottom: 0; padding-bottom: 0; }

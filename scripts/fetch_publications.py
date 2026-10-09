@@ -6,7 +6,8 @@ site at the next weekly build. No API key is needed.
 
 Outputs
   data/publications.json        cached copy (used as fallback if ORCID is down)
-  _generated/publications.md    markdown included by publications.qmd
+  _generated/publications.md    publication list included by publications.qmd
+  _generated/recent.md          latest articles shown on the home page
 """
 from __future__ import annotations
 
@@ -26,14 +27,6 @@ CACHE = ROOT / "data" / "publications.json"
 OUT = ROOT / "_generated" / "publications.md"
 HIDE = ROOT / "data" / "hide.txt"  # one DOI or exact title per line to suppress
 
-SECTIONS = [
-    ("journal-article", "Journal articles"),
-    ("book-chapter", "Book chapters"),
-    ("book", "Books"),
-    ("conference-paper", "Conference papers"),
-    ("preprint", "Working papers and preprints"),
-]
-OTHER = "Other outputs"
 
 
 def get(url: str) -> dict:
@@ -125,49 +118,115 @@ def enrich_authors(pubs: list[dict]) -> None:
             print(f"  Crossref lookup failed for {p['doi']}: {e}", file=sys.stderr)
 
 
+TYPE_LABEL = {
+    "journal-article": "Journal article",
+    "book-chapter": "Book chapter",
+    "book": "Book",
+    "conference-paper": "Conference paper",
+    "preprint": "Working paper",
+}
+FILTERS = [("all", "All"), ("journal-article", "Journal articles"), ("book-chapter", "Book chapters"),
+           ("conference-paper", "Conference papers"), ("preprint", "Working papers"), ("other", "Other")]
+
+
+def esc(x: str) -> str:
+    return html.escape(x or "", quote=True)
+
+
 def fmt_authors(authors: list[str]) -> str:
     out = []
     for a in authors:
-        a = html.escape(a)
-        out.append(f"**{a}**" if "schivinski" in a.lower() else a)
+        out.append(f"<strong>{esc(a)}</strong>" if "schivinski" in a.lower() else esc(a))
     if len(out) > 8:
         out = out[:7] + ["…", out[-1]]
     return ", ".join(out)
 
 
-def render(pubs: list[dict]) -> str:
+def kind(p: dict) -> str:
+    return p["type"] if p["type"] in TYPE_LABEL else "other"
+
+
+def entry(p: dict, heading: str = "h3") -> str:
+    title = esc(p["title"].rstrip("."))
+    if p["url"]:
+        title = f'<a href="{esc(p["url"])}">{title}</a>'
+    authors = f'<p class="pub-authors">{fmt_authors(p["authors"])}</p>' if p["authors"] else ""
+    venue = f'<span class="pub-venue">{esc(p["venue"])}</span>' if p["venue"] else ""
+    label = TYPE_LABEL.get(p["type"], "Other output")
+    search = esc(" ".join([p["title"], p["venue"], " ".join(p["authors"]), str(p["year"] or "")]).lower())
+    return (f'<article class="pub" data-type="{kind(p)}" data-search="{search}">'
+            f'<{heading} class="pub-title">{title}</{heading}>{authors}'
+            f'<p class="pub-meta">{venue}<span class="pub-type">{label}</span></p></article>')
+
+
+def visible(pubs: list[dict]) -> list[dict]:
     hidden = set()
     if HIDE.exists():
         hidden = {l.strip().lower() for l in HIDE.read_text().splitlines() if l.strip() and not l.startswith("#")}
-    pubs = [p for p in pubs if (p["doi"] or "").lower() not in hidden and p["title"].lower() not in hidden]
+    return [p for p in pubs if (p["doi"] or "").lower() not in hidden and p["title"].lower() not in hidden]
 
-    known = {k for k, _ in SECTIONS}
-    blocks = []
-    toc = []
-    for kind, label in SECTIONS + [(None, OTHER)]:
-        items = [p for p in pubs if (p["type"] == kind if kind else p["type"] not in known)]
-        if not items:
-            continue
-        anchor = re.sub(r"[^a-z]+", "-", label.lower()).strip("-")
-        toc.append(f"[{label}](#{anchor}) ({len(items)})")
-        lines = [f"## {label} {{#{anchor}}}", ""]
-        year = object()
-        for p in items:
-            if p["year"] != year:
-                year = p["year"]
-                lines += ["", f"### {year or 'Undated'}", ""]
-            title = html.escape(p["title"].rstrip("."))
-            title = f"[{title}]({p['url']})" if p["url"] else title
-            parts = [fmt_authors(p["authors"])] if p["authors"] else []
-            parts.append(title)
-            if p["venue"]:
-                parts.append(f"*{html.escape(p['venue'])}*")
-            lines.append("- " + " ".join(x.rstrip(".") + "." for x in parts))
-        blocks.append("\n".join(lines))
-    header = (f"{len(pubs)} outputs · " + " · ".join(toc) + "\n\n"
-              ":::{.small-note}\nThis list updates automatically every week from my "
-              f"[ORCID record](https://orcid.org/{ORCID}).\n:::\n")
-    return header + "\n\n" + "\n\n".join(blocks) + "\n"
+
+def render(pubs: list[dict]) -> str:
+    pubs = visible(pubs)
+    counts = {k: sum(1 for p in pubs if kind(p) == k) for k, _ in FILTERS[1:]}
+    counts["all"] = len(pubs)
+    chips = "".join(
+        f'<button type="button" class="chip" data-filter="{k}" aria-pressed="{"true" if k == "all" else "false"}">'
+        f'{lab} <span class="chip-n">{counts[k]}</span></button>'
+        for k, lab in FILTERS if counts.get(k))
+    years, groups = [], {}
+    for p in pubs:
+        y = p["year"] or "Undated"
+        if y not in groups:
+            years.append(y)
+            groups[y] = []
+        groups[y].append(entry(p))
+    body = "".join(
+        f'<section class="pub-year"><h2 class="year">{y}</h2><div class="pub-items">{"".join(groups[y])}</div></section>'
+        for y in years)
+    return f"""```{{=html}}
+<div class="pub-tools">
+  <label class="pub-search" for="pub-q"><span class="visually-hidden">Search publications</span>
+    <input id="pub-q" type="search" placeholder="Search by title, journal, co-author or year" autocomplete="off"></label>
+  <div class="chips" role="group" aria-label="Filter by type">{chips}</div>
+  <p class="pub-count" aria-live="polite"><span id="pub-shown">{len(pubs)}</span> of {len(pubs)} outputs, updated weekly from
+    <a href="https://orcid.org/{ORCID}">ORCID</a></p>
+</div>
+<div id="pub-list">{body}</div>
+<p id="pub-empty" class="pub-empty" hidden>No publications match. Clear the search or choose another type.</p>
+<script>
+(function () {{
+  var q = document.getElementById('pub-q'), chips = document.querySelectorAll('.chip'),
+      shown = document.getElementById('pub-shown'), empty = document.getElementById('pub-empty'), type = 'all';
+  function apply() {{
+    var term = q.value.trim().toLowerCase(), n = 0;
+    document.querySelectorAll('.pub-year').forEach(function (sec) {{
+      var any = false;
+      sec.querySelectorAll('.pub').forEach(function (el) {{
+        var ok = (type === 'all' || el.dataset.type === type) && (!term || el.dataset.search.indexOf(term) > -1);
+        el.hidden = !ok; if (ok) {{ any = true; n++; }}
+      }});
+      sec.hidden = !any;
+    }});
+    shown.textContent = n; empty.hidden = n > 0;
+  }}
+  chips.forEach(function (c) {{ c.addEventListener('click', function () {{
+    type = c.dataset.filter;
+    chips.forEach(function (o) {{ o.setAttribute('aria-pressed', o === c ? 'true' : 'false'); }});
+    apply();
+  }}); }});
+  q.addEventListener('input', apply);
+}})();
+</script>
+```
+"""
+
+
+def render_recent(pubs: list[dict], n: int = 4) -> str:
+    items = [p for p in visible(pubs) if p["type"] == "journal-article" and p["authors"]][:n]
+    return "```{=html}\n<div class=\"recent-pubs\">" + "".join(
+        entry(p, "h3").replace('<article class="pub"', f'<article class="pub" data-year="{p["year"]}"', 1)
+        for p in items) + "</div>\n```\n"
 
 
 def main() -> int:
@@ -185,6 +244,7 @@ def main() -> int:
         pubs = json.loads(CACHE.read_text())
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(render(pubs))
+    (OUT.parent / "recent.md").write_text(render_recent(pubs))
     return 0
 
 

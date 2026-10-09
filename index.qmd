@@ -1,46 +1,117 @@
 ---
-title: "Bruno Schivinski"
-subtitle: "Associate Professor (profesor uczelni), Department of Marketing, Gdańsk University of Technology"
-page-layout: article
+pagetitle: "Bruno Schivinski"
+page-layout: custom
+title-block-banner: false
+title-block-style: none
 listing:
   id: latest
   contents: watch/posts
   sort: "date desc"
   max-items: 3
-  type: table
-  fields: [date, title]
-  sort-ui: false
-  filter-ui: false
+  template: _templates/watch-list.ejs
 ---
 
-<!-- DRAFT BIO: written from public information. Replace with your own wording. -->
+<!-- DRAFT COPY: written from public information. Edit freely. -->
 
-::: {.lede}
-I study how consumers engage with brands and with each other in digital media,
-combining consumer behaviour, marketing psychology and quantitative methods.
-:::
+```{=html}
+<section class="home-hero">
+  <div class="wrap">
+    <div>
+      <h1>Bruno Schivinski</h1>
+      <p class="role">Associate Professor of Marketing (profesor uczelni), Department of Marketing,
+        Faculty of Management and Economics, Gdańsk University of Technology</p>
+      <p class="thesis">I study how people engage with brands, and with each other, in digital media.</p>
+      <nav class="links" aria-label="Profiles">
+        <a href="publications.html">Publications</a>
+        <a href="https://scholar.google.pl/citations?user=f-iKGD8AAAAJ">Google Scholar</a>
+        <a href="https://orcid.org/0000-0002-4095-1922">ORCID</a>
+        <a href="https://mostwiedzy.pl/pl/bruno-schivinski,813976-1">MOST Wiedzy</a>
+        <a href="mailto:bruno.schivinski@pg.edu.pl">Email</a>
+      </nav>
+    </div>
+    <figure class="cobra">
+      <svg viewBox="0 0 460 252" role="img" aria-labelledby="cobra-t">
+        <title id="cobra-t">Three levels of engagement with brand-related social media content: consuming, contributing and creating</title>
+        <g font-family="Newsreader, Georgia, serif" font-size="21" fill="#ffffff">
+          <text x="0" y="22">Creating</text>
+          <text x="0" y="104">Contributing</text>
+          <text x="0" y="186">Consuming</text>
+        </g>
+        <g font-family="Hanken Grotesk, Arial, sans-serif" font-size="13.5" fill="#aeb7cb">
+          <text x="460" y="22" text-anchor="end">posting and producing brand content</text>
+          <text x="460" y="104" text-anchor="end">liking, commenting, sharing</text>
+          <text x="460" y="186" text-anchor="end">reading, watching, following</text>
+        </g>
+        <rect x="0" y="34"  width="150" height="34" rx="3" fill="#e0a12a"/>
+        <rect x="0" y="116" width="290" height="34" rx="3" fill="#e0a12a" fill-opacity=".62"/>
+        <rect x="0" y="198" width="460" height="34" rx="3" fill="#e0a12a" fill-opacity=".32"/>
+      </svg>
+      <figcaption>Consumers' engagement with brand-related social media content moves from consuming,
+        to contributing, to creating. From Schivinski, Christodoulides and Dabrowski (2016),
+        <em>Journal of Advertising Research</em>. Bar lengths are illustrative.</figcaption>
+    </figure>
+  </div>
+</section>
 
-My research focuses on social media brand communication and consumer engagement,
-consumer-based brand equity, and digital consumer behaviour, including problematic
-gaming and other behavioural risks online. Most of my work uses survey-based
-structural equation modelling.
+<section class="home-section">
+  <div class="wrap">
+    <h2>Research</h2>
+    <div class="themes">
+      <div class="theme">
+        <h3>Social media and brand engagement</h3>
+        <p>How consumers consume, contribute to and create brand-related content online, and what that does for brands.</p>
+      </div>
+      <div class="theme">
+        <h3>Brands and consumer choice</h3>
+        <p>Consumer-based brand equity, store brands, the need for uniqueness, global consumer culture and sustainable choices.</p>
+      </div>
+      <div class="theme">
+        <h3>Digital behaviour and wellbeing</h3>
+        <p>Gaming disorder and behavioural risks online, studied with psychometric and machine-learning methods.</p>
+      </div>
+      <div class="theme">
+        <h3>Measurement and methods</h3>
+        <p>Scale development and structural equation modelling for survey-based research.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-I am a profesor uczelni in the Department of Marketing (Katedra Marketingu),
-Faculty of Management and Economics, Gdańsk University of Technology, where I teach
-marketing courses in English at Bachelor's and Master's levels.
+<section class="home-section">
+  <div class="wrap home-split">
+    <div>
+      <div class="section-head">
+        <h2>Recent publications</h2>
+        <a href="publications.html">All publications</a>
+      </div>
+```
 
-::: {.profile-links}
-[Publications](publications.qmd)
-[Google Scholar](https://scholar.google.pl/citations?user=f-iKGD8AAAAJ)
-[ORCID](https://orcid.org/0000-0002-4095-1922)
-[MOST Wiedzy](https://mostwiedzy.pl/pl/bruno-schivinski,813976-1)
-[Email](mailto:bruno.schivinski@pg.edu.pl)
-:::
+{{< include _generated/recent.md >}}
 
-## Latest from Marketing Watch
-
-A weekly digest of new marketing research and practice, drafted with AI and
-reviewed by me before publication.
+```{=html}
+    </div>
+    <div class="watch-panel">
+      <h2>Marketing Watch</h2>
+      <p>A weekly digest of new marketing research and practice, drafted with AI and reviewed by me before publication.</p>
+```
 
 ::: {#latest}
 :::
+
+```{=html}
+      <p><a href="watch/index.html">All digests</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Teaching</h2>
+      <a href="teaching.html">Courses</a>
+    </div>
+    <p>I teach Marketing, Essentials of Marketing, International Consumer Behaviour and E-marketing and
+      Trend Analysis, in English, to management and data engineering students at Gdańsk University of Technology.</p>
+  </div>
+</section>
+```

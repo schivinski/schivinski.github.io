@@ -1,25 +1,36 @@
 ---
 title: "Teaching"
+subtitle: "Courses taught in English at Gdańsk University of Technology"
 ---
 
-I teach marketing courses in English at Gdańsk University of Technology, in the
-Faculty of Management and Economics and in the Faculty of Electronics,
-Telecommunications and Informatics.
+<!-- Course list from MOST Wiedzy (2025–2027). Add a one-line description to each course when you have time. -->
 
-<!-- Course list from MOST Wiedzy (2025–2027). Add a one-line description under
-     each course when you have time. -->
-
-## Marketing
-*Management (taught in English), Faculty of Management and Economics*<br>
-*Data Engineering, Faculty of Electronics, Telecommunications and Informatics*
-
-## Essentials of Marketing
-*Management (taught in English), Faculty of Management and Economics*
-
-## International Consumer Behaviour
-*Management (taught in English), International Business Management specialisation,
-Faculty of Management and Economics*
-
-## E-marketing and Trend Analysis
-*Data Engineering, Big Data in Business Management stream, Faculty of Electronics,
-Telecommunications and Informatics*
+```{=html}
+<div class="courses">
+  <section class="course">
+    <h2>Marketing</h2>
+    <ul>
+      <li><strong>Management (in English)</strong><br>Faculty of Management and Economics</li>
+      <li><strong>Data Engineering</strong><br>Faculty of Electronics, Telecommunications and Informatics</li>
+    </ul>
+  </section>
+  <section class="course">
+    <h2>International Consumer Behaviour</h2>
+    <ul>
+      <li><strong>Management (in English), International Business Management</strong><br>Faculty of Management and Economics</li>
+    </ul>
+  </section>
+  <section class="course">
+    <h2>E-marketing and Trend Analysis</h2>
+    <ul>
+      <li><strong>Data Engineering, Big Data in Business Management</strong><br>Faculty of Electronics, Telecommunications and Informatics</li>
+    </ul>
+  </section>
+  <section class="course">
+    <h2>Essentials of Marketing</h2>
+    <ul>
+      <li><strong>Management (in English)</strong><br>Faculty of Management and Economics</li>
+    </ul>
+  </section>
+</div>
+```
