@@ -59,6 +59,9 @@ jobs:
       - name: Render site
         run: quarto render
 
+      - name: Remove draft downloads from public builds
+        run: python scripts/strip_drafts.py
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

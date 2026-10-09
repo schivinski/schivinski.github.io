@@ -1,0 +1,80 @@
+[[AdvancedFormat]]
+
+[[Block:Introduction]]
+
+[[Question:DB]]
+This survey is about the content related to brands that you come across on social media, such as Facebook, Instagram, YouTube, TikTok, X, blogs and online forums. People engage with this content in different ways: some read or watch it (consuming), some like, comment on or share it (contributing), and some post their own content about a brand (creating). There are no right or wrong answers.
+
+[[Block:Brand]]
+
+[[Question:TE:SingleLine]]
+[[ID:BRAND]]
+Please type the name of a brand that you actively follow on social media.
+
+[[Question:DB]]
+You will answer the following questions about this brand. Wherever you see [BRAND], think of the brand you named.
+
+[[Block:Consumption]]
+
+[[Question:Matrix]]
+[[ID:CONS]]
+Think about [BRAND]. How often do you do each of the following? Select “Not at all” if you never do it.
+[[Choices]]
+I read posts related to [BRAND] on social media.
+I read fan page(s) related to [BRAND] on social networking sites.
+I watch pictures/graphics related to [BRAND].
+I follow blogs related to [BRAND].
+I follow [BRAND] on social networking sites.
+[[Answers]]
+0 - Not at all
+1 - Not very often
+2
+3
+4
+5
+6
+7 - Very often
+
+[[Block:Contribution]]
+
+[[Question:Matrix]]
+[[ID:CONT]]
+Think about [BRAND]. How often do you do each of the following? Select “Not at all” if you never do it.
+[[Choices]]
+I comment on videos related to [BRAND].
+I comment on posts related to [BRAND].
+I comment on pictures/graphics related to [BRAND].
+I share [BRAND] related posts.
+I “Like” pictures/graphics related to [BRAND].
+I “Like” posts related to [BRAND].
+[[Answers]]
+0 - Not at all
+1 - Not very often
+2
+3
+4
+5
+6
+7 - Very often
+
+[[Block:Creation]]
+
+[[Question:Matrix]]
+[[ID:CREA]]
+Think about [BRAND]. How often do you do each of the following? Select “Not at all” if you never do it.
+[[Choices]]
+I initiate posts related to [BRAND] on blogs.
+I initiate posts related to [BRAND] on social networking sites.
+I post pictures/graphics related to [BRAND].
+I post videos that show [BRAND].
+I write posts related to [BRAND] on forums.
+I write reviews related to [BRAND].
+[[Answers]]
+0 - Not at all
+1 - Not very often
+2
+3
+4
+5
+6
+7 - Very often

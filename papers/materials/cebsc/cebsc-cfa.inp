@@ -1,0 +1,29 @@
+TITLE:    CEBSC scale: three-factor CFA and hierarchical model
+! Please cite: Schivinski, Christodoulides & Dabrowski (2016),
+! Journal of Advertising Research 56(1), 64-80.
+! https://doi.org/10.2501/JAR-2016-004   Materials: schivinski.github.io
+
+DATA:     FILE = cebsc.dat;          ! replace with your data file
+
+VARIABLE: NAMES = cons1-cons5 cont1-cont6 crea1-crea6;
+          USEVARIABLES = cons1-cons5 cont1-cont6 crea1-crea6;
+          MISSING = ALL (-99);
+
+ANALYSIS: ESTIMATOR = MLR;           ! robust maximum likelihood, as in the article
+
+MODEL:
+  CONS BY cons1-cons5;
+  CONT BY cont1-cont6;
+  CREA BY crea1-crea6;
+
+          ! Hierarchical model (Figure 2): remove the two "!" below to estimate it
+          ! CONT ON CONS;
+          ! CREA ON CONT;
+
+OUTPUT:   STANDARDIZED MODINDICES;
+
+! Mediation test (Table 2): run as a separate analysis with
+!   ANALYSIS: ESTIMATOR = ML; BOOTSTRAP = 5000;
+!   MODEL:    (factors as above) CONT ON CONS; CREA ON CONT CONS;
+!   MODEL INDIRECT: CREA IND CONS;
+!   OUTPUT:   STANDARDIZED CINTERVAL(BCBOOTSTRAP);

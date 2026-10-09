@@ -1,0 +1,414 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Advertising Research 56(1), 64-80 (PDF supplied by Bruno, 9 Oct 2026)
+# Status: draft (set to "locked" once Bruno approves every statement)
+status: draft
+
+title: "Measuring consumers’ engagement with brand-related social-media content: Development and validation of a scale that identifies levels of social-media engagement with brands"
+doi: "10.2501/JAR-2016-004"
+journal: "Journal of Advertising Research"
+issn: "0021-8499"
+publisher: "Advertising Research Foundation (now Taylor & Francis)"
+volume: "56"
+issue: "1"
+pages: "64–80"
+published: "2016-03"
+published_label: "March 2016"
+online: "2016-02-12"
+open_access: false
+
+aam:
+  file: "schivinski-christodoulides-dabrowski-2016-jar-accepted-manuscript.pdf"
+  statement: >-
+    This is an Accepted Manuscript of an article published in Journal of Advertising Research, 56(1), 64–80, March
+    2016, published by the Advertising Research Foundation and now available from Taylor & Francis:
+    https://doi.org/10.2501/JAR-2016-004
+
+authors:
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Nottingham Trent University"]
+    me: true
+  - given: "George"
+    family: "Christodoulides"
+    affiliation: ["Birkbeck, University of London"]
+  - given: "Dariusz"
+    family: "Dabrowski"
+    affiliation: ["Gdansk University of Technology"]
+
+cite_short: "Schivinski, Christodoulides & Dabrowski, 2016"
+badges: ["Scale development", "17 items, 3 dimensions", "N = 2,252 + 416", "Free to use with citation"]
+keywords:
+  # Article's own focus
+  - consumer engagement
+  - brand-related social-media content
+  - consumers' online brand-related activities (COBRAs)
+  - CEBSC scale
+  - consumption, contribution and creation
+  - scale development
+  - scale validation
+  # What the scale measures
+  - social media engagement scale
+  - customer engagement measurement
+  - brand engagement on social media
+  - user-generated content (UGC)
+  - electronic word-of-mouth (eWOM)
+  - liking, sharing and commenting
+  - online consumer behaviour
+  - social media metrics
+  # Theory
+  - hierarchy of effects
+  - uses and gratifications
+  - brand equity
+  - brand attitude
+  - nomological validity
+  # Method
+  - confirmatory factor analysis
+  - structural equation modelling
+  - mediation analysis
+  - netnography
+  - online focus groups
+  - survey questionnaire
+  - Likert scale
+  # Context and application
+  - Poland
+  - Facebook
+  - social media marketing
+  - advertising effectiveness
+  - brand management
+  - questionnaire items
+
+in_brief: >-
+  A 17-item scale measures how consumers engage with brand-related content on social media at three levels:
+  consuming it, contributing to it and creating it. Developed with three qualitative studies and validated with
+  2,668 consumers, the scale also shows that engagement builds step by step, from consumption to contribution to
+  creation.
+
+scale:
+  name: "Consumer’s Engagement with Brand-Related Social-Media Content (CEBSC) scale"
+  short: "CEBSC"
+  summary: >-
+    Seventeen items in three dimensions (consumption 5, contribution 6, creation 6). Respondents name a brand they
+    follow on social media and report how often they do each activity for that brand. Takes about three minutes. Free
+    to use in research and practice; please cite the article.
+  facts:
+    - { label: "Items", value: "17 (consumption 5, contribution 6, creation 6)" }
+    - { label: "Response format", value: "7-point scale from 1 = not very often to 7 = very often, plus “not at all” coded 0" }
+    - { label: "Scoring", value: "Mean of the items in each dimension (range 0–7); higher scores mean higher engagement" }
+    - { label: "Reliability", value: "Cronbach’s α = 0.88 to 0.95; composite reliability = 0.88 to 0.95 across studies" }
+    - { label: "Validated with", value: "2,252 consumers and 299 brands (Study 4); 416 consumers (Study 5); Poland" }
+  response_labels: ["Not at all", "Not very often", "", "", "", "", "", "Very often"]
+  response_codes: [0, 1, 2, 3, 4, 5, 6, 7]
+  introduction: >-
+    This survey is about the content related to brands that you come across on social media, such as Facebook,
+    Instagram, YouTube, TikTok, X, blogs and online forums. People engage with this content in different ways: some
+    read or watch it (consuming), some like, comment on or share it (contributing), and some post their own content
+    about a brand (creating). There are no right or wrong answers.
+  brand_question: "Please type the name of a brand that you actively follow on social media."
+  brand_note: "You will answer the following questions about this brand. Wherever you see [BRAND], think of the brand you named."
+  block_instruction: "How often do you do each of the following? Select “Not at all” if you never do it."
+  dimensions:
+    - code: "CONS"
+      name: "Consumption"
+      definition: "Passive engagement: reading, watching and following brand-related content."
+      items:
+        - { id: "CONS1", text: "I read posts related to [BRAND] on social media." }
+        - { id: "CONS2", text: "I read fan page(s) related to [BRAND] on social networking sites." }
+        - { id: "CONS3", text: "I watch pictures/graphics related to [BRAND]." }
+        - { id: "CONS4", text: "I follow blogs related to [BRAND]." }
+        - { id: "CONS5", text: "I follow [BRAND] on social networking sites." }
+    - code: "CONT"
+      name: "Contribution"
+      definition: "Interaction with content created by the brand or by others: liking, sharing and commenting."
+      items:
+        - { id: "CONT1", text: "I comment on videos related to [BRAND]." }
+        - { id: "CONT2", text: "I comment on posts related to [BRAND]." }
+        - { id: "CONT3", text: "I comment on pictures/graphics related to [BRAND]." }
+        - { id: "CONT4", text: "I share [BRAND] related posts." }
+        - { id: "CONT5", text: "I “Like” pictures/graphics related to [BRAND]." }
+        - { id: "CONT6", text: "I “Like” posts related to [BRAND]." }
+    - code: "CREA"
+      name: "Creation"
+      definition: "Producing and publishing one’s own brand-related content: posts, pictures, videos and reviews."
+      items:
+        - { id: "CREA1", text: "I initiate posts related to [BRAND] on blogs." }
+        - { id: "CREA2", text: "I initiate posts related to [BRAND] on social networking sites." }
+        - { id: "CREA3", text: "I post pictures/graphics related to [BRAND]." }
+        - { id: "CREA4", text: "I post videos that show [BRAND]." }
+        - { id: "CREA5", text: "I write posts related to [BRAND] on forums." }
+        - { id: "CREA6", text: "I write reviews related to [BRAND]." }
+  administration:
+    - "Ask respondents to name a brand they actively follow on social media, and insert that brand name into every item (for example with piped text in Qualtrics)."
+    - "Present each dimension in its own block, on a separate page."
+    - "Randomise the order of the three blocks, and the order of items within each block, to avoid order effects (as in the original study)."
+    - "Each respondent answers for one brand only."
+    - "The items work for any platform. To study a single platform, name it in the instructions rather than changing the item wording."
+    - "For use in another language, translate and back-translate the items, and check measurement invariance before comparing groups or countries."
+  scoring:
+    - "Code responses 0 (not at all) and 1 to 7 (not very often to very often)."
+    - "Compute one score per dimension as the mean of its items: consumption = mean(CONS1–CONS5); contribution = mean(CONT1–CONT6); creation = mean(CREA1–CREA6)."
+    - "Higher scores mean higher engagement. In the original data, average engagement was highest for consumption (M = 3.68), then contribution (M = 2.65), then creation (M = 2.02)."
+    - "Any cut-off for low or high engagement is arbitrary because the scale is metric; the original study used the bottom and top 10% as thresholds."
+    - "For latent-variable models, specify three correlated factors, or the hierarchical model consumption → contribution → creation (Figure 2)."
+  intro_note: >-
+    The item wording, response format, coding and administration procedure come from the article. The welcome text, brand
+    question and block instruction are suggested wording based on the procedure the article describes; adapt them to your
+    study.
+  downloads:
+    - { label: "Questionnaire (PDF, print-ready)", file: "materials/cebsc/cebsc-questionnaire.pdf" }
+    - { label: "Qualtrics import file (.txt)", file: "materials/cebsc/cebsc-qualtrics-import.txt" }
+    - { label: "Item codebook (.csv)", file: "materials/cebsc/cebsc-codebook.csv" }
+    - { label: "R script: scoring and CFA with lavaan (.R)", file: "materials/cebsc/cebsc-analysis.R" }
+    - { label: "Mplus input: CFA and hierarchical model (.inp)", file: "materials/cebsc/cebsc-cfa.inp" }
+
+findings:
+  - headline: "Three distinct levels of engagement."
+    text: >-
+      Confirmatory factor analysis supported a three-factor, 17-item structure of consumption, contribution and creation
+      of brand-related social-media content (robust ML: &chi;&sup2;(115) = 557.47, CFI = 0.95, TLI = 0.94, RMSEA = 0.05,
+      SRMR = 0.06; validation sample n = 1,126) (Schivinski, Christodoulides &amp; Dabrowski, 2016).
+  - headline: "A reliable and valid measure."
+    text: >-
+      Composite reliabilities were 0.88 (consumption), 0.92 (contribution) and 0.93 (creation), with average variance
+      extracted above the shared variance between dimensions, supporting convergent and discriminant validity
+      (Schivinski, Christodoulides &amp; Dabrowski, 2016).
+  - headline: "Engagement builds step by step."
+    text: >-
+      Consumption predicted contribution (&beta; = 0.61) and contribution predicted creation (&beta; = 0.81); the direct
+      effect of consumption on creation became non-significant once contribution was included (indirect &beta; = 0.49),
+      indicating full mediation (Schivinski, Christodoulides &amp; Dabrowski, 2016).
+  - headline: "Related to brand equity and brand attitude."
+    text: >-
+      In a new sample of 416 consumers, all three dimensions correlated positively with brand equity (r = 0.23 to 0.40)
+      and brand attitude (r = 0.14 to 0.37) (Schivinski, Christodoulides &amp; Dabrowski, 2016).
+  - headline: "Most consumers consume more than they create."
+    text: >-
+      Average engagement was highest for consumption (M = 3.68), then contribution (M = 2.65) and creation (M = 2.02),
+      on a 0–7 scale (Schivinski, Christodoulides &amp; Dabrowski, 2016).
+
+glance:
+  - { label: "Design", value: "Five studies: online focus groups, online depth interviews, netnography, scale development (Study 4) and validation (Study 5)" }
+  - { label: "Qualitative studies", value: "25 focus-group participants, 32 interviewees and a netnography produced a pool of 35 items" }
+  - { label: "Scale development", value: "2,578 Polish consumers recruited online; 2,252 valid responses about 299 brands, split into calibration and validation samples of 1,126" }
+  - { label: "Validation", value: "New sample of 416 Polish consumers; brand equity (Yoo &amp; Donthu, 2001) and brand attitude as nomological variables" }
+  - { label: "Analysis", value: "Exploratory and confirmatory factor analysis, structural equation modelling and bootstrapped mediation (Mplus 7.2, robust maximum likelihood)" }
+
+figures:
+  - file: figures/schivinski-christodoulides-dabrowski-2016-cfa.svg
+    title: "Figure 1. Confirmatory factor analysis: three-factor CEBSC framework"
+    caption: >-
+      Standardised loadings and factor correlations, validation sample (n = 1,126). &chi;&sup2;(115) = 557.47, CFI = 0.95,
+      TLI = 0.94, RMSEA = 0.05, SRMR = 0.06; robust maximum likelihood; all coefficients significant (p &lt; 0.001);
+      * path fixed to 1 for identification. Item labels as printed in the article’s figure; the final item wording is in the
+      questionnaire above.
+  - file: figures/schivinski-christodoulides-dabrowski-2016-hierarchy.svg
+    title: "Figure 2. Hierarchical relationship of the three dimensions"
+    caption: >-
+      Standardised coefficients (standard errors), validation sample (n = 1,126); &chi;&sup2;(115) = 557.47, CFI = 0.95,
+      TLI = 0.94, RMSEA = 0.05, SRMR = 0.06; all coefficients significant (p &lt; 0.001).
+
+question: >-
+  Consumers engage with brands on social media in many ways, from reading a post to liking it to publishing their own.
+  The Consumer’s Online Brand-Related Activities (COBRAs) framework grouped these into consumption, contribution and
+  creation, but there was no validated instrument to measure them. We developed and validated one, and tested whether the
+  three levels form a hierarchy in which people move from consuming to contributing to creating.
+
+implications:
+  practical: >-
+    Managers can use the scale to audit and track social-media programmes, and each item points to a concrete activity
+    they can encourage. Because engagement builds from consumption to contribution to creation, brands should keep
+    producing content their audiences will consume, which in turn invites liking, commenting and sharing, and then
+    user-generated content. The three dimensions are best used together; individual subscales suit studies focused on one
+    activity, such as content creation.
+  theoretical: >-
+    The study turns the COBRAs framework into a validated measurement instrument and defines engagement with brand-related
+    social-media content as a behavioural construct. It shows a hierarchy among the dimensions, with contribution fully
+    mediating the link between consumption and creation, and supports nomological validity through positive correlations
+    with brand equity and brand attitude. The scale can serve as a dependent variable for studying the drivers of
+    engagement.
+
+limitations:
+  - "The list of brand-related activities (Appendix A) is not exhaustive; new activities will appear as platforms change, and the instrument should be updated accordingly."
+  - "The data were not controlled for past brand usage, which future studies could use as a moderator."
+  - "The research was conducted in one country (Poland); replications should test the scale’s equivalence across nations and cultures."
+  - "Future research could combine the scale with other behavioural variables in latent class analysis to identify engagement segments, and use multilevel models to compare industries and brands."
+
+faq:
+  - q: "How can I measure consumer engagement with brands on social media?"
+    a: >-
+      The 17-item CEBSC scale measures engagement with brand-related social-media content at three levels: consumption
+      (5 items), contribution (6 items) and creation (6 items), using a 0–7 frequency scale (Schivinski, Christodoulides
+      &amp; Dabrowski, 2016).
+  - q: "What are COBRAs?"
+    a: >-
+      Consumers’ online brand-related activities: the ways people engage with brand-related content online, grouped into
+      consuming, contributing and creating. Muntinga, Moorman and Smit (2011) introduced the framework, and Schivinski,
+      Christodoulides and Dabrowski (2016) developed the scale that measures it.
+  - q: "Is the CEBSC scale reliable?"
+    a: >-
+      Yes. Composite reliabilities were 0.88 to 0.93 in the validation sample and Cronbach’s alpha ranged from 0.88 to 0.94
+      in a second study of 416 consumers (Schivinski, Christodoulides &amp; Dabrowski, 2016).
+  - q: "Do consumers move from consuming brand content to creating it?"
+    a: >-
+      The evidence supports a hierarchy: consumption predicts contribution (&beta; = 0.61), contribution predicts creation
+      (&beta; = 0.81), and contribution fully mediates the link between consumption and creation (Schivinski,
+      Christodoulides &amp; Dabrowski, 2016).
+
+concepts:
+  - term: "Consumer’s online brand-related activities (COBRAs)"
+    definition: "A set of brand-related online activities on the part of the consumer that vary in the degree to which the consumer interacts with social media and engages in the consumption, contribution, and creation of media content (definition from the article)."
+  - term: "Consumption"
+    definition: "The minimum level of engagement: reading, watching and following brand-related content, whether created by firms or by users."
+  - term: "Contribution"
+    definition: "Peer-to-peer and peer-to-content interactions about brands, such as liking, commenting and sharing, without creating new content."
+  - term: "Creation"
+    definition: "The strongest level of engagement: producing and publishing brand-related content, which can in turn be consumed and contributed to by others."
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Free full text, including all tables, figures and appendices", url: "manuscripts/schivinski-christodoulides-dabrowski-2016-jar-accepted-manuscript.pdf" }
+  - { label: "Published version", note: "Journal of Advertising Research (subscription)", url: "https://doi.org/10.2501/JAR-2016-004" }
+
+tables:
+  - id: "1"
+    title: "Reliability and Validity of the Consumer’s Engagement With Brand-Related Social-Media Content (CEBSC) Scale"
+    columns: ["", "α", "CR", "AVE", "MSV", "CONT", "CONS", "CREA"]
+    rows:
+      - ["CONT", "0.92", "0.92", "0.65", "0.59", "<i>0.80</i>", "", ""]
+      - ["CONS", "0.88", "0.88", "0.54", "0.42", "0.65", "<i>0.77</i>", ""]
+      - ["CREA", "0.93", "0.93", "0.68", "0.59", "0.77", "0.51", "<i>0.83</i>"]
+    note: "The square root of the average variance extracted values appears in italics. CR = composite reliability; AVE = average variance extracted; MSV = maximum shared squared variance; CONT = contribution; CONS = consumption; CREA = creation."
+  - id: "2"
+    title: "Mediation Analysis"
+    columns: ["Hypothesis", "Direct β without mediator", "Direct β with mediator", "Indirect β", "Mediation type observed"]
+    align: ["left", "right", "right", "right", "left"]
+    rows:
+      - ["Partial mediation Consumption→Contribution→Creation", "0.51***", "0.02 (n.s.)", "0.49***", "Full mediation"]
+    note: "Bootstrapping sample = 5,000. *** p > 0.001; n.s. = nonsignificant."
+  - id: "3"
+    title: "Reliability and Validity Scores of the CEBSC Scale"
+    collapsed: true
+    columns: ["", "α", "CR", "AVE", "MSV", "BEQ", "CONS", "CONT", "CREA", "BA"]
+    rows:
+      - ["BEQ", "0.93", "0.93", "0.70", "0.57", "<i>0.84</i>", "", "", "", ""]
+      - ["CONS", "0.88", "0.92", "0.66", "0.42", "0.40", "<i>0.81</i>", "", "", ""]
+      - ["CONT", "0.92", "0.92", "0.67", "0.61", "0.27", "0.65", "<i>0.82</i>", "", ""]
+      - ["CREA", "0.95", "0.95", "0.75", "0.61", "0.23", "0.50", "0.78", "<i>0.87</i>", ""]
+      - ["BA", "0.94", "0.94", "0.84", "0.57", "0.76", "0.37", "0.20", "0.14", "<i>0.92</i>"]
+    note: "The square root of the average variance extracted values appears in italics. CR = composite reliability; AVE = average variance extracted; MSV = maximum shared squared variance; BEQ = brand equity; CONS = consumption; CONT = contribution; CREA = creation; BA = brand attitudes."
+  - id: "4"
+    title: "Correlation Analysis Outcomes across the CEBSC Scale, Brand Equity, and Brand Attitudes"
+    collapsed: true
+    columns: ["Correlated factors", "Estimate", "<i>SE</i>", "<i>t</i>-value"]
+    rows:
+      - ["Consumption/Contribution", "0.65", "0.02", "27.75"]
+      - ["Consumption/Creation", "0.50", "0.03", "19.18"]
+      - ["Contribution/Creation", "0.78", "0.01", "53.58"]
+      - ["Consumption/Brand equity", "0.40", "0.04", "9.09"]
+      - ["Contribution/Brand equity", "0.27", "0.04", "6.27"]
+      - ["Creation/Brand equity", "0.23", "0.04", "5.41"]
+      - ["Consumption/Brand attitude", "0.37", "0.03", "9.69"]
+      - ["Contribution/Brand attitude", "0.20", "0.04", "5.22"]
+      - ["Creation/Brand attitude", "0.14", "0.04", "3.59"]
+      - ["Brand equity/Brand attitude", "0.76", "0.03", "25.32"]
+    note: "χ²(288) = 600.95, CFI = 0.96, TLI = 0.95, RMSEA = 0.05, SRMR = 0.06; p < 0.001; Estimator = robust maximum-likelihood; n = 416."
+  - id: "B"
+    title: "Mean Scores for the Three Dimensions of the CEBSC Scale by Industry (benchmarks)"
+    section: scale
+    columns: ["Industry", "<i>n</i>", "Consumption <i>M</i>", "<i>SD</i>", "Contribution <i>M</i>", "<i>SD</i>", "Creation <i>M</i>", "<i>SD</i>"]
+    rows:
+      - ["Alcoholic beverages", "128", "3.78", "1.50", "3.10", "1.53", "2.22", "1.28"]
+      - ["Nonalcoholic beverages", "225", "2.99", "1.48", "2.44", "1.35", "1.82", "1.16"]
+      - ["Amusement and recreation", "196", "3.76", "1.58", "2.96", "1.51", "2.06", "1.38"]
+      - ["Apparel and accessories", "205", "4.49", "1.51", "2.86", "1.70", "2.10", "1.54"]
+      - ["Automotive", "106", "4.70", "1.60", "2.83", "1.74", "2.78", "2.41"]
+      - ["Food and kindred products", "152", "4.33", "1.29", "3.07", "1.31", "2.13", "1.33"]
+      - ["Hi-tech", "609", "3.43", "1.49", "2.50", "1.43", "1.98", "1.30"]
+      - ["Mobile operators", "324", "3.24", "1.38", "2.26", "1.26", "1.71", "1.22"]
+      - ["Perfumes and cosmetics", "151", "3.91", "1.43", "2.57", "1.56", "1.85", "1.11"]
+      - ["Services", "156", "4.69", "1.63", "3.36", "1.78", "2.59", "1.66"]
+    note: "N = 2,252 (full data set). Use these as reference values when comparing your own sample, keeping in mind the Polish 2014 context."
+  - id: "C"
+    title: "Descriptive Statistics, Factor Loadings and Explained Variance for the Items of the CEBSC Scale"
+    collapsed: true
+    columns: ["Item", "", "Calibration λ", "R²", "M (SD)", "Validation λ", "R²", "M (SD)", "Full λ", "R²", "M (SD)", "Study 5 λ", "R²", "M (SD)"]
+    align: ["left", "left", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["Consumption", "", "", "", "", "", "", "", "", "", "", "", "", ""] }
+      - ["Cons1", "I read posts related to Brand X on social media.", "0.83", "0.68", "3.79 (1.99)", "0.82", "0.68", "3.89 (1.94)", "0.83", "0.68", "3.84 (1.97)", "0.87", "0.75", "3.72 (2.06)"]
+      - ["Cons2", "I read fan page(s) related to Brand X on social networking sites.", "0.83", "0.69", "3.78 (2.06)", "0.84", "0.71", "3.90 (2.05)", "0.84", "0.70", "3.84 (2.05)", "0.85", "0.72", "3.67 (2.14)"]
+      - ["Cons3", "I watch pictures/graphics related to Brand X.", "0.64", "0.41", "4.22 (1.89)", "0.66", "0.43", "4.34 (1.90)", "0.66", "0.44", "4.28 (1.90)", "0.77", "0.60", "3.87 (2.01)"]
+      - ["Cons4", "I follow blogs related to Brand X.", "0.63", "0.39", "2.70 (1.88)", "0.63", "0.40", "2.81 (1.90)", "0.64", "0.41", "2.76 (1.90)", "0.69", "0.48", "2.69 (1.97)"]
+      - ["Cons5", "I follow Brand X on social networking sites.", "0.87", "0.76", "3.66 (2.04)", "0.86", "0.74", "3.76 (1.97)", "0.86", "0.74", "3.71 (2.01)", "0.87", "0.76", "3.49 (2.05)"]
+      - { group: true, cells: ["Contribution", "", "", "", "", "", "", "", "", "", "", "", "", ""] }
+      - ["Contr1", "I comment on videos related to Brand X.", "0.85", "0.73", "2.16 (1.63)", "0.84", "0.71", "2.27 (1.72)", "0.85", "0.72", "2.22 (1.68)", "0.83", "0.69", "2.37 (1.83)"]
+      - ["Contr2", "I comment on posts related to Brand X.", "0.87", "0.76", "2.35 (1.69)", "0.90", "0.80", "2.43 (1.76)", "0.88", "0.78", "2.39 (1.73)", "0.90", "0.81", "2.51 (1.93)"]
+      - ["Contr3", "I comment on pictures/graphics related to Brand X.", "0.87", "0.75", "2.17 (1.68)", "0.86", "0.74", "2.26 (1.71)", "0.87", "0.75", "2.22 (1.70)", "0.86", "0.74", "2.42 (1.85)"]
+      - ["Contr4", "I share Brand X related posts.", "0.89", "0.79", "2.43 (1.76)", "0.88", "0.78", "2.52 (1.80)", "0.89", "0.79", "2.47 (1.78)", "0.90", "0.80", "2.59 (1.95)"]
+      - ["Contr5", "I “Like” pictures/graphics related to Brand X.", "0.62", "0.39", "3.34 (2.00)", "0.63", "0.40", "3.40 (2.02)", "0.63", "0.39", "3.37 (2.01)", "0.68", "0.46", "3.33 (2.17)"]
+      - ["Contr6", "I “Like” posts related to Brand X.", "0.67", "0.45", "3.20 (1.98)", "0.67", "0.44", "3.28 (1.99)", "0.67", "0.44", "3.24 (1.98)", "0.73", "0.53", "3.30 (2.10)"]
+      - { group: true, cells: ["Creation", "", "", "", "", "", "", "", "", "", "", "", "", ""] }
+      - ["Creat1", "I initiate posts related to Brand X on blogs.", "0.89", "0.78", "1.94 (1.55)", "0.90", "0.78", "1.95 (1.52)", "0.89", "0.80", "1.95 (1.54)", "0.91", "0.82", "2.21 (1.76)"]
+      - ["Creat2", "I initiate posts related to Brand X on social networking sites.", "0.87", "0.76", "2.01 (1.58)", "0.90", "0.76", "2.17 (1.70)", "0.89", "0.79", "2.09 (1.64)", "0.89", "0.79", "2.35 (1.83)"]
+      - ["Creat3", "I post pictures/graphics related to Brand X.", "0.87", "0.76", "1.98 (1.54)", "0.82", "0.76", "2.19 (1.67)", "0.84", "0.71", "2.08 (1.61)", "0.89", "0.79", "2.29 (1.80)"]
+      - ["Creat4", "I post videos that show Brand X.", "0.83", "0.69", "1.96 (1.53)", "0.85", "0.69", "2.11 (1.60)", "0.84", "0.71", "2.03 (1.57)", "0.86", "0.73", "2.27 (1.80)"]
+      - ["Creat5", "I write posts related to Brand X on forums.", "0.80", "0.65", "1.96 (1.53)", "0.80", "0.65", "2.11 (1.60)", "0.80", "0.64", "2.04 (1.57)", "0.85", "0.72", "2.29 (1.79)"]
+      - ["Creat6", "I write reviews related to Brand X.", "0.75", "0.57", "1.91 (1.52)", "0.69", "0.57", "2.04 (1.61)", "0.72", "0.52", "1.97 (1.56)", "0.82", "0.68", "2.16 (1.74)"]
+    note: "Calibration sample (n = 1,126): χ²(115) 564.31, CFI = 0.95, TLI = 0.95, RMSEA = 0.05, SRMR = 0.06; Validation sample (n = 1,126): χ²(115) 557.47, CFI = 0.95, TLI = 0.94, RMSEA = 0.05, SRMR = 0.06; Full data set (n = 2,252): χ²(115) 719.47, CFI = 0.93, TLI = 0.92, RMSEA = 0.05, SRMR = 0.05; Study 5 (n = 416): χ²(313) = 651.71, CFI = 0.95, TLI = 0.95, RMSEA = 0.05, SRMR = 0.06; p < 0.001; Estimator = robust maximum-likelihood."
+  - id: "A"
+    title: "Activities Pertinent to Each Dimension of the “Consumer’s Online Brand-Related Activities” Framework"
+    collapsed: true
+    columns: ["Activity", "Sources"]
+    align: ["left", "left"]
+    rows:
+      - { group: true, cells: ["Consumption", ""] }
+      - ["To download brand-related widgets/applications", "d, e"]
+      - ["To follow a brand on social networking sites", "a, b, c, d"]
+      - ["To follow brand-related blogs", "c, d, e"]
+      - ["To listen to brand-related audio", "e, *"]
+      - ["To play brand-related games", "d, e"]
+      - ["To read brand-related emails", "c, ***"]
+      - ["To read brand-related fan page(s) on social networking sites", "a, b, c, d"]
+      - ["To read brand-related posts on social media", "a, b, c"]
+      - ["To read brand-related reviews", "a, b, c, d, e, ***"]
+      - ["To read other people’s comments about a brand on social media", "a, b, c, d, e, ***"]
+      - ["To send brand-related virtual card", "e, *"]
+      - ["To watch brand-related ads (e.g., banners, YouTube ads)", "d, ***"]
+      - ["To watch brand-related pictures/graphics", "a, b, c, d, e"]
+      - ["To watch brand-related videos", "b, c, e, ***"]
+      - { group: true, cells: ["Contribution", ""] }
+      - ["To add brand-related videos to favorites", "c, d, ***"]
+      - ["To click on brand-related ads", "d, ***"]
+      - ["To comment on brand-related pictures/graphics", "a, b, c, d, e"]
+      - ["To comment on brand-related posts", "c, d, e"]
+      - ["To comment on brand-related videos", "a, b, c, d, e"]
+      - ["To engage in brand-related conversations", "e, *"]
+      - ["To forward brand-related emails to my friends/family", "c, **"]
+      - ["To join a brand-related profile on social networking sites", "e, *"]
+      - ["To “Like” brand-related fan pages", "a, b, c, d, ***"]
+      - ["To “Like” brand-related pictures/graphics", "a, b, c, d"]
+      - ["To “Like” brand-related posts", "b, c, d"]
+      - ["To “Like” brand-related videos", "a, b, c, d, ***"]
+      - ["To participate in online contests/drawings sponsored by a brand", "d, **"]
+      - ["To rate brand-related products", "e, *"]
+      - ["To share brand-related pictures/graphics", "a, b, c, d, ***"]
+      - ["To share brand-related posts", "a, b, c, d"]
+      - ["To share brand-related videos", "a, b, c, d, **"]
+      - ["To take part in brand-related online events", "b, d, **"]
+      - { group: true, cells: ["Creation", ""] }
+      - ["To create brand-related audio", "e, *"]
+      - ["To create brand-related hashtags „#” on social networking sites", "c, ***"]
+      - ["To create brand-related posts", "e, *"]
+      - ["To initiate brand-related posts on blogs", "a, b, c, d, e"]
+      - ["To initiate brand-related posts on social networking sites", "a, b, c, d"]
+      - ["To post brand-related pictures/graphics", "a, b, c, e"]
+      - ["To post brand-related videos", "b, c, d, e"]
+      - ["To post pictures exposing self and a brand", "b, c, d, ***"]
+      - ["To write brand-related posts on forums", "c, d"]
+      - ["To write brand-related reviews", "c, d, e"]
+    note: "a Activity detected during Study 1 (bulletin board – consumption); b Activity detected during Study 1 (bulletin board – creation); c Activity detected during Study 2 (in-depth interviews); d Activity detected during Study 3 (netnography); e Activity previously reported in literature; * Item not identified during the qualitative procedures; ** Item removed from the analysis during the exploratory factor analysis; *** Item removed from the analysis during the confirmatory factor analysis."
+
+related:
+  - "10.1080/13527266.2013.871323"
+  - "10.1080/0965254x.2019.1572641"
+  - "10.1016/j.jbusres.2019.08.045"
+  - "10.1108/jrim-02-2014-0007"

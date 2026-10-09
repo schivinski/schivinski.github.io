@@ -62,6 +62,22 @@ def inline(t: str) -> str:
     return "".join(out)
 
 
+SMALL = {"a", "an", "and", "as", "at", "by", "for", "in", "of", "on", "or", "the", "to", "with", "vs", "via"}
+
+
+def titlecase(t: str) -> str:
+    """'QUALITATIVE EXPLORATION' or 'Item Reduction And Reliability' -> 'Qualitative Exploration', 'Item Reduction and Reliability'."""
+    words = t.split(" ")
+    out = []
+    for i, w in enumerate(words):
+        core = w.strip("*")
+        core_new = core.capitalize() if t.isupper() and core.isalpha() else core
+        if i > 0 and core_new.lower() in SMALL and not out[-1].endswith(":"):
+            core_new = core_new.lower()
+        out.append(w.replace(core, core_new) if core else w)
+    return " ".join(out)
+
+
 def apa_plain(d: dict) -> str:
     def initials(g):
         return " ".join(p[0] + "." for p in re.split(r"[\s-]+", g) if p)
@@ -113,7 +129,12 @@ def typst_table(t: dict, size: str = "8.5pt") -> str:
     cells.append("table.hline(stroke: 0.8pt),")
     align = "(" + ", ".join(amap[a] for a in aligns) + ",)"
     note = f"\n#text(size: 8pt)[{inline(t['note'])}]" if t.get("note") else ""
-    return (f"#block(breakable: true)[\n#text(size: 9.5pt)[#strong[Table {esc(t['id'])}.] {inline(t['title'])}]\n"
+    if t.get("label"):
+        cap = f"#text(size: 9.5pt)[#strong[{esc(t['label'])}] #linebreak() {inline(t['title'])}]"
+    else:
+        cap = f"#text(size: 9.5pt)[#strong[Table {esc(t['id'])}.] {inline(t['title'])}]"
+    breakable = "true" if len(t["rows"]) > 18 else "false"
+    return (f"#block(breakable: {breakable})[\n{cap}\n"
             f"#v(4pt)\n#set par(justify: false, first-line-indent: 0em)\n#text(size: {size})[#table(columns: ({', '.join(widths)}), align: {align}, stroke: none, "
             f"inset: (x: 4pt, y: 3.2pt),\n" + "\n".join(cells) + f"\n)]{note}\n]\n#v(12pt)\n")
 
@@ -145,7 +166,10 @@ def build(slug: str) -> Path:
 
     authors_line = ", ".join(f"{a['given']} {a['family']}" for a in d["authors"])
     year = d["published"][:4]
-    running = f"{d['authors'][0]['family']}{' and ' + d['authors'][1]['family'] if len(d['authors']) == 2 else ' et al.'} ({year}), accepted manuscript"
+    fam = [a["family"] for a in d["authors"]]
+    who = fam[0] if len(fam) == 1 else (" and ".join(fam) if len(fam) == 2 else
+                                        (f"{', '.join(fam[:-1])} and {fam[-1]}" if len(fam) == 3 else f"{fam[0]} et al."))
+    running = f"{who} ({year}), accepted manuscript"
 
     T = []
     T.append(f'''#set document(title: "{esc(d["title"])}", author: ({", ".join('"' + a["given"] + " " + a["family"] + '"' for a in d["authors"])}))
@@ -188,7 +212,27 @@ Downloaded from #link("{SITE}/papers/{slug}.html")[schivinski.github.io]]
 ''')
 
     first_after_heading = True
+    bullet = cfg.get("item_bullet", "")
+    tc = titlecase if cfg.get("titlecase_headings") else (lambda x: x)
+    in_highlights = False
     for kind, text in blocks:
+        if in_highlights and kind != "highlight":
+            T.append("]\n#v(0.6em)\n")
+            in_highlights = False
+        if kind == "highlight":
+            if not in_highlights:
+                T.append(f"#block(width: 100%, inset: (x: 12pt, y: 10pt), stroke: (left: 2pt + rgb(\"#8a5a00\")), "
+                         f"fill: rgb(\"#f6f7f9\"))[#set par(first-line-indent: 0em); #set text(size: 10pt); "
+                         f"#strong[{esc(cfg.get('highlights_title', 'Highlights'))}]\n")
+                in_highlights = True
+            T.append(f"#pad(left: 0.4em)[#par(hanging-indent: 1em)[•#h(0.5em){inline(text)}]]\n")
+            continue
+        if kind == "table":
+            T.append("#v(0.4em)\n" + typst_table(tables[text.lstrip("T")]))
+            continue
+        if kind == "about":
+            T.append(f"#par(first-line-indent: 0em)[#text(size: 10pt)[{inline(text)}]]\n\n")
+            continue
         if kind == "title":
             T.append(f"#align(left)[#text(size: 15pt, weight: \"bold\", hyphenate: false)[{inline(text)}]]\n#v(0.6em)\n")
         elif kind == "authors":
@@ -204,20 +248,21 @@ Downloaded from #link("{SITE}/papers/{slug}.html")[schivinski.github.io]]
             T.append(f"#pad(x: 1.2cm)[#set par(first-line-indent: 0em); #set text(size: 10pt); "
                      f"#strong[Keywords:] {inline(text)}]\n#v(0.6em)\n")
         elif kind == "h2":
-            T.append(f"= {inline(text)}\n")
+            T.append(f"= {inline(tc(text))}\n")
             first_after_heading = True
-            if text == "References":
+            if text.lower() == "references":
                 T.append("#set par(first-line-indent: 0em, hanging-indent: 1.2em, spacing: 0.55em)\n#set text(size: 9.5pt)\n")
             continue
         elif kind == "h3":
-            T.append(f"== {inline(text)}\n")
+            T.append(f"== {inline(tc(text))}\n")
             first_after_heading = True
             continue
         elif kind == "p":
             pre = "#par(first-line-indent: 0em)[" if first_after_heading else ""
             T.append(f"{pre}{inline(text)}{']' if pre else ''}\n\n")
         elif kind == "item":
-            T.append(f"#pad(left: 1.2em)[#par(first-line-indent: 0em, hanging-indent: 1.6em)[{inline(text)}]]\n")
+            mark = f"{bullet}#h(0.5em)" if bullet else ""
+            T.append(f"#pad(left: 1.2em)[#par(first-line-indent: 0em, hanging-indent: {'0.9em' if bullet else '1.6em'})[{mark}{inline(text)}]]\n")
         elif kind == "hyp":
             T.append(f"#pad(left: 1.2em, right: 1.2em)[#par(first-line-indent: 0em)[{inline(text)}]]\n")
         elif kind == "figure":
@@ -230,11 +275,14 @@ Downloaded from #link("{SITE}/papers/{slug}.html")[schivinski.github.io]]
 
     # appendix tables
     if cfg.get("appendix_tables"):
-        T.append("#set par(hanging-indent: 0em)\n#set text(size: 11pt)\n#pagebreak()\n= Appendix\n")
+        T.append("#set par(hanging-indent: 0em)\n#set text(size: 11pt)\n#pagebreak()\n"
+                 + (f"= {esc(cfg.get('appendix_heading', 'Appendix'))}\n" if cfg.get("appendix_heading", "Appendix") else ""))
         for tid in cfg["appendix_tables"]:
             t = tables[tid]
+            if t.get("newpage"):
+                T.append("#pagebreak()\n")
             if t.get("landscape"):
-                T.append(f"#page(flipped: true)[\n{typst_table(t, size='8pt')}]\n")
+                T.append(f"#page(flipped: true)[\n{typst_table(t, size=t.get('size', '8pt'))}]\n")
             else:
                 T.append(typst_table(t))
 

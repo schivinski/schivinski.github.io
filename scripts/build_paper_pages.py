@@ -114,6 +114,91 @@ def table_html(t: dict) -> str:
     return f'<div class="table-block"><h3 class="table-title">{cap}</h3>{table}</div>'
 
 
+
+# ---------- measurement scale toolkit ----------
+def scale_plain(sc: dict) -> str:
+    """The questionnaire as plain text, for the copy button."""
+    labels, codes = sc["response_labels"], sc["response_codes"]
+    anchors = "; ".join(f"{c} = {l}" if l else str(c) for c, l in zip(codes, labels))
+    lines = [sc["name"], "", "INTRODUCTION", plain(sc["introduction"]), "",
+             "PART 1. YOUR BRAND", plain(sc["brand_question"]), "[open text answer]", plain(sc["brand_note"]), ""]
+    for i, dim in enumerate(sc["dimensions"], start=2):
+        lines += [f"PART {i}. {dim['name'].upper()}", plain(sc["block_instruction"]), f"Response options: {anchors}", ""]
+        lines += [f"{it['id']}. {plain(it['text'])}" for it in dim["items"]]
+        lines.append("")
+    lines += ["Replace [BRAND] with the brand the respondent named. Present each part on its own page and "
+              "randomise the order of parts and of items within each part.", "",
+              "Source: " + sc.get("cite_line", "")]
+    return "\n".join(lines).strip() + "\n"
+
+
+def scale_items_plain(sc: dict) -> str:
+    out = []
+    for dim in sc["dimensions"]:
+        out.append(f"{dim['name']} ({dim['code']})")
+        out += [f"{it['id']}\t{plain(it['text'])}" for it in dim["items"]]
+        out.append("")
+    return "\n".join(out).strip() + "\n"
+
+
+def scale_html(d: dict, tables: list) -> str:
+    sc = d["scale"]
+    labels, codes = sc["response_labels"], sc["response_codes"]
+    facts = "".join(f'<div><dt>{esc(f["label"])}</dt><dd>{f["value"]}</dd></div>' for f in sc.get("facts", []))
+    dl = "".join(f'<li><a class="kit-file" href="{esc(x["file"])}" download><span class="kit-ext">'
+                 f'{esc(Path(x["file"]).suffix.lstrip(".").upper())}</span><span>{esc(x["label"])}</span></a></li>'
+                 for x in sc.get("downloads", []))
+    head_cells = "".join(f'<th scope="col"><span class="q-code">{c}</span>'
+                         + (f'<span class="q-anchor">{esc(l)}</span>' if l else "") + "</th>"
+                         for c, l in zip(codes, labels))
+    dot = '<td><span class="q-dot" aria-hidden="true"></span></td>' * len(codes)
+    parts = []
+    for i, dim in enumerate(sc["dimensions"], start=2):
+        rows = "".join(f'<tr><th scope="row"><span class="q-id">{esc(it["id"])}</span>{esc(it["text"])}</th>{dot}</tr>'
+                       for it in dim["items"])
+        parts.append(
+            '<div class="q-part">'
+            f'<h4>Part {i}. {esc(dim["name"])} <span class="q-dim">{esc(dim["definition"])}</span></h4>'
+            f'<p class="q-instr">{esc(sc["block_instruction"])}</p>'
+            '<div class="table-scroll"><table class="q-table"><thead><tr>'
+            f'<th scope="col" class="q-itemcol">Item</th>{head_cells}</tr></thead>'
+            f'<tbody>{rows}</tbody></table></div></div>')
+    admin = "".join(f"<li>{x}</li>" for x in sc.get("administration", []))
+    scoring = "".join(f"<li>{x}</li>" for x in sc.get("scoring", []))
+    bench = "".join(table_html(t) for t in tables)
+    return (
+        '<section class="paper-section scale-kit" id="use-the-scale">'
+        '<h2>Use the scale</h2>'
+        f'<p class="scale-name">{esc(sc["name"])}</p>'
+        f'<p>{sc["summary"]}</p>'
+        f'<dl class="glance scale-facts">{facts}</dl>'
+        '<h3>Ready-to-use files</h3>'
+        f'<ul class="kit-files">{dl}</ul>'
+        '<div class="paper-actions kit-copy">'
+        '<button type="button" class="btn btn-primary-ink" data-copy="q-text">Copy the full questionnaire</button>'
+        '<button type="button" class="btn btn-line" data-copy="q-items">Copy the item list</button>'
+        '<span class="copy-status" role="status" aria-live="polite"></span></div>'
+        f'<pre class="copy-source" id="q-text" aria-hidden="true">{esc(scale_plain(sc))}</pre>'
+        f'<pre class="copy-source" id="q-items" aria-hidden="true">{esc(scale_items_plain(sc))}</pre>'
+        '<h3>The questionnaire</h3>'
+        '<div class="questionnaire">'
+        '<div class="q-part q-intro"><h4>Introduction <span class="q-tag">suggested wording</span></h4>'
+        f'<p>{esc(sc["introduction"])}</p></div>'
+        '<div class="q-part"><h4>Part 1. Your brand <span class="q-tag">suggested wording</span></h4>'
+        f'<p class="q-instr">{esc(sc["brand_question"])}</p>'
+        '<div class="q-textbox" aria-hidden="true">Brand name</div>'
+        f'<p class="q-note">{esc(sc["brand_note"])}</p></div>'
+        + "".join(parts) +
+        '</div>'
+        f'<p class="licence">{esc(sc.get("intro_note", ""))}</p>'
+        '<div class="implications">'
+        f'<div><h3>How to administer</h3><ul class="limits">{admin}</ul></div>'
+        f'<div><h3>How to score</h3><ul class="limits">{scoring}</ul></div>'
+        '</div>'
+        f'{bench}'
+        '</section>')
+
+
 # ---------- page ----------
 def head_layer(d: dict, slug: str, url: str) -> str:
     authors = d["authors"]
@@ -136,6 +221,14 @@ def head_layer(d: dict, slug: str, url: str) -> str:
         "about": [{"@type": "DefinedTerm", "name": k} for k in d.get("keywords", [])],
         "isAccessibleForFree": bool(d.get("open_access")),
     }
+    if d.get("scale"):
+        sc = d["scale"]
+        ld_article["hasPart"] = [{
+            "@type": "CreativeWork", "name": sc["name"], "alternateName": sc.get("short"),
+            "description": plain(sc["summary"]), "url": f"{url}#use-the-scale", "isAccessibleForFree": True,
+            "keywords": "measurement scale, questionnaire, survey instrument",
+            "encoding": [{"@type": "MediaObject", "name": x["label"], "contentUrl": f"{SITE}/papers/{x['file']}"}
+                         for x in sc.get("downloads", [])]}]
     if d.get("article_number"):
         ld_article["pagination"] = str(d["article_number"])
     if d.get("licence_url"):
@@ -208,6 +301,8 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
     else:
         actions = f'<a class="btn btn-primary-ink" href="https://doi.org/{esc(d["doi"])}">Read the article</a>'
         aam_note = ""
+    if d.get("scale"):
+        actions += '<a class="btn btn-line btn-scale" href="#use-the-scale">Use the scale</a>'
     badges = (['<li class="badge badge-open">Open access</li>'] if d.get("open_access") else []) + \
              [f'<li class="badge">{esc(b)}</li>' for b in d.get("badges", [])]
     out.append(f'''<div class="paper-head">
@@ -227,6 +322,11 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
     out.append('<section class="paper-section"><h2>Key findings</h2><ol class="findings">' + "".join(
         f'<li><strong>{f["headline"]}</strong> {f["text"]}</li>' for f in d["findings"]) + "</ol></section>")
 
+    scale_tables = [t for t in d.get("tables", []) if t.get("section") == "scale"]
+    if d.get("scale"):
+        d["scale"].setdefault("cite_line", plain(apa(d)).replace("&amp;", "&"))
+        out.append(scale_html(d, scale_tables))
+
     out.append('<section class="paper-section"><h2>At a glance</h2><dl class="glance">' + "".join(
         f'<div><dt>{esc(g["label"])}</dt><dd>{g["value"]}</dd></div>' for g in d["glance"]) + "</dl></section>")
 
@@ -243,7 +343,7 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
                    f'<div class="figure-scroll">{results_svg(r)}</div>'
                    f'<figcaption>{r.get("note", "")}</figcaption></figure>')
 
-    web_tables = [t for t in d.get("tables", []) if t.get("web", True)]
+    web_tables = [t for t in d.get("tables", []) if t.get("web", True) and t.get("section") != "scale"]
     if web_tables:
         out.append('<section class="paper-section"><h2>Tables</h2>'
                    + "".join(table_html(t) for t in web_tables) + "</section>")
@@ -303,10 +403,10 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
     out.append('<p class="back-link"><a href="../publications.html">All publications</a></p>')
     out.append('''<script>
 (function () {
-  var status = document.querySelector('.copy-status');
   document.querySelectorAll('[data-copy]').forEach(function (btn) {
     btn.addEventListener('click', function () {
-      var el = document.getElementById(btn.dataset.copy), text = el.innerText.trim();
+      var status = btn.parentNode.querySelector('.copy-status');
+      var el = document.getElementById(btn.dataset.copy), text = (el.tagName === 'PRE' ? el.textContent : el.innerText).trim();
       function done(m) { status.textContent = m; setTimeout(function () { status.textContent = ''; }, 2500); }
       function fallback() { var r = document.createRange(); r.selectNodeContents(el);
         var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); done('Selected. Press Ctrl+C or ⌘C to copy.'); }
@@ -361,6 +461,9 @@ def build_llms(papers: list[dict]) -> None:
     ]
     for p in papers:
         free = (f" Free accepted manuscript: {SITE}/papers/manuscripts/{p['aam']['file']}" if p.get("aam") else "")
+        if p.get("scale"):
+            free += (f" Ready-to-use questionnaire, Qualtrics import file, codebook and R/Mplus scripts for the "
+                     f"{p['scale']['name']}: {p['url']}#use-the-scale")
         lines.append(f"- [{p['title']}]({p['url']}): {plain(p['in_brief'])} Citation: {p['cite_short']}, "
                      f"{p['journal']}, https://doi.org/{p['doi']}.{free}")
     (ROOT / "llms.txt").write_text("\n".join(lines) + "\n")

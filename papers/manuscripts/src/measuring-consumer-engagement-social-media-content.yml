@@ -1,0 +1,27 @@
+text: measuring-consumer-engagement-social-media-content.blocks.txt
+affiliation_line: Nottingham Trent University; Birkbeck, University of London; Gdańsk University of Technology (affiliations at the time of publication)
+title_page_footer: Re-typeset from the published text by the authors; the publisher's typesetting and layout have been removed.
+titlecase_headings: true
+item_bullet: "•"
+highlights_title: Management slant
+appendix_heading: ""
+figures:
+  fig1:
+    svg: figures/schivinski-christodoulides-dabrowski-2016-cfa.svg
+  fig2:
+    svg: figures/schivinski-christodoulides-dabrowski-2016-hierarchy.svg
+appendix_tables: [A, B, C]
+table_overrides:
+  A:
+    label: Appendix A
+  B:
+    label: Appendix B
+    title: Mean Scores for the Three Dimensions of the CEBSC Scale by Industry
+    note: "Note: N = 2,252 (full data set)."
+  C:
+    label: Appendix C
+    landscape: true
+    title: Descriptive Statistics for the Items of the CEBSC Scale, Factor Loadings (Completely Standardized Lambda X), and Explained Variance on Each Item (R^{2}) for the Final Three-Factor 17-Item Model
+    note: "Note: Calibration sample: χ²(115) 564.31, CFI = 0.95, TLI = 0.95, RMSEA = 0.05, SRMR = 0.06; Validation sample: χ²(115) 557.47, CFI = 0.95, TLI = 0.94, RMSEA = 0.05, SRMR = 0.06; Full data set: χ²(115) 719.47, CFI = 0.93, TLI = 0.92, RMSEA = 0.05, SRMR = 0.05; Study 5: χ²(313) = 651.71, CFI = 0.95, TLI = 0.95, RMSEA = 0.05, SRMR = 0.06; p < 0.001; Estimator = robust maximum-likelihood."
+    widths: [auto, 1fr, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto]
+    size: 7.5pt

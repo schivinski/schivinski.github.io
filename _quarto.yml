@@ -10,6 +10,7 @@ project:
     - robots.txt
     - llms.txt
     - "papers/manuscripts/*.pdf"
+    - "papers/materials/**"
 
 website:
   title: "Bruno Schivinski"

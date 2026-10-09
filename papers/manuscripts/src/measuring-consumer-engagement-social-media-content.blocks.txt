@@ -1,0 +1,651 @@
+@@title@@ Measuring Consumers’ Engagement With Brand-Related Social-Media Content: Development and Validation of a Scale that Identifies Levels of Social-Media Engagement with Brands
+
+@@authors@@ Bruno Schivinski, George Christodoulides, and Dariusz Dabrowski
+
+@@affil@@ Bruno Schivinski, Nottingham Trent University; George Christodoulides, Birkbeck, University of London; Dariusz Dabrowski, Gdansk University of Technology
+
+@@abstract@@ The purpose of the current study was to develop a scale to measure the consumer’s engagement with brand-related social-media content, based on three dimensions established in the framework of an earlier theoretical construct, “Consumer’s Online Brand-Related Activities” (Muntinga, Moorman, and Smit, 2011). Qualitative techniques were used to generate an initial pool of items that captured different levels of consumer engagement with consumption, contribution, and creation of brand-related social-media content. Quantitative data from a survey of 2,252 consumers across Poland then was collected in two phases to calibrate and validate the ensuing scale, measuring participants’ engagement, with nearly 300 brands spanning a range of industries. Results confirmed the structure and psychometric properties of the scale.
+
+@@highlight@@ Advertisers can use the authors’ “Consumers’ Engagement With Brand-Related Social-Media Content” scale as an instrument for auditing and tracking the effectiveness of social media marketing strategies.
+
+@@highlight@@ Each individual item of the reported scale provides advertisers with specific brand-related social-media activities they could pursue.
+
+@@highlight@@ Brand equity and brand attitudes correlate positively and significantly with individual brand-related social-media activities.
+
+@@h2@@ INTRODUCTION
+
+@@p@@ Social networking sites such as Facebook, YouTube, and Twitter have become increasingly important in consumers’ lives and influence their communication habits. With consumers deeply engaging in social media, an increasing share of communication is occurring in these new environments (Berthon, Pitt, and Campbell, 2008).
+
+@@p@@ In contrast with the static websites in the early days of the Internet, the interactive nature of social media ultimately has changed how consumers engage with brands. When using social media on a regular basis, consumers come into contact with myriad brands and products by reading, writing, watching, commenting, “Liking,” sharing, and so forth.
+
+@@p@@ Despite the growing amount of research on consumers’ engagement with brands on social media, the authors of the current paper believe that operationalization of this factor is largely fragmented and still is at a nascent stage (Schultz and Peltier, 2013). The goal of the current study is to fill the measurement gap regarding consumers’ engagement with brand-related content on social media by developing— and validating—a scale that differentiates between the levels and types of engagement with brands on social media.
+
+@@p@@ A 2014 study addressed the need for an instrument to capture consumers’ engagement with brands on social media by developing a scale to measure such engagement in a brand community (Hollebeek, Glynn, and Brodie, 2014). The current scale took the concept a step further by
+
+@@item@@ measuring engagement with brand-related social-media content rather than engagement with the brand *per se*;
+
+@@item@@ defining and measuring “engagement” as a behavioral construct rather than an affective/cognitive and behavioral one.
+
+@@p@@ The current scale, furthermore, demonstrates conceptual divergence from a metric proposal introduced for customer engagement on Facebook (Oviedo-Garcia, Munoz-Exposito, Castellanos-Verdugo, and Shancho-Mejias, 2014). Specifically, the authors
+
+@@item@@ adopted a pencil-and-paper survey approach instead of a calculation of fixed parameters based on mathematical formulas;
+
+@@item@@ focused on the consumer and not on the organizational perspective;
+
+@@item@@ emphasized a more comprehensive range of brand-related activities, which makes the current scale a flexible instrument independent of Facebook metrics (*e.g.*, number of “Likes,” comments, shares, posts, and other clicks).
+
+@@p@@ The current research drew on an earlier behavioral construct that encompasses consumer activities pertaining to brand-related content on social media (Muntinga, Moorman, and Smit, 2011), known as the “Consumer’s Online Brand-Related Activities” framework.
+
+@@p@@ Considering the increasing role of brand communication on social media, the authors believe researchers and practitioners should have a measurement instrument that not only covers a vast range of brand-related social-media activities but also differentiates across levels of media engagement from a consumer’s point of view. This study is a first step in that direction.
+
+@@p@@ The authors have extended the earlier framework by introducing—and describing its systematic development and validation—a “Consumer’s Engagement With Brand-Related Social-Media Content” (CEBSC) scale. In support of that program, the authors used a combination of qualitative and quantitative research methods.
+
+@@p@@ The following research objectives, therefore, were proposed:
+
+@@item@@ **RO1:** To identify and categorize individual Consumer’s Online Brand-Related Activities;
+
+@@item@@ **RO2:** To test the factorial validity of scores from the authors’ CEBSC scale;
+
+@@item@@ **RO3:** To test whether a hierarchical relationship existed among the dimensions of the framework;
+
+@@item@@ **RO4:** To validate the psychometric properties of the scale with nomological network constructs.
+
+@@h2@@ LITERATURE REVIEW
+
+@@h3@@ Consumers’ Online Brand-Related Activities
+
+@@p@@ Consumers’ interests in brands on the Internet began in the 1990s, when people started using bulletin boards on sites such as Yahoo and AOL to share their preferences for and opinions about products (Kozinets, 2001).
+
+@@p@@ The development of Internet technology supported a new dimension of consumer involvement with brands on social media (Li and Bernoff, 2011). Online environments such as blogs, wikis, media-sharing sites, social-networking sites, and other social-media–based websites have significantly extended the manner and depth of consumer–brand interactions (Christodoulides, 2009).
+
+@@p@@ Consumers use an array of tools and resources on social media to engage with brands. Nevertheless, different brand-related activities on social media may entail different levels of engagement. For instance,
+
+@@item@@ When consumers see a picture or watch a movie displaying a Harley-Davidson motorcycle, they are consuming brand-related media;
+
+@@item@@ When consumers engage with media by commenting on a post or “Liking” a piece of content, they are moving from the stage of “observer” to a “media contributor”;
+
+@@item@@ When consumers decide to upload a picture of their new Chuck Taylor All-Star sneakers on Facebook, they are creating brand-related content.
+
+@@p@@ These three levels of consumer engagement with brands on social media appeared in an earlier model’s “Consumer’s Online Brand-Related Activities” framework (Muntinga *et al.*, 2011) as consumption, contribution, and creation dimensions.
+
+@@p@@ The current authors believe they have extended the literature on social media, user-generated content, and engagement. They describe their scale as a “pencil-and-paper-type instrument” that allows theoreticians and practitioners to gauge different levels of consumers’ engagement with brand-related content on social media.
+
+@@p@@ Conceptually, this research draws from earlier work. In one exploratory study, boundaries were defined according to the level of consumer engagement with user-generated media and suggested that people engage with such media in three ways (Shao, 2009):
+
+@@item@@ by consuming,
+
+@@item@@ by participating, and
+
+@@item@@ by producing brand-related media.
+
+@@p@@ Scholars further investigated consumers’ motivations for engaging in online brand-related activities by validating the theoretical Consumer’s Online Brand-Related Activities framework (Muntinga *et al.*, 2011). In that study, the researchers had analyzed the online activities of 20 consumers who had used instant-message interviews and suggested three dimensions of analysis: “consumption,” “contribution,” and “creation.” Although that study’s authors had introduced the framework of the Consumer’s Online Brand-Related Activities theory, they did not provide a formal definition of it.
+
+@@p@@ To guide their enhancement, conceptualization, and measurement of the framework, the current authors, therefore, proposed their own definition:
+
+@@p@@ “A set of brand-related online activities on the part of the consumer that vary in the degree to which the consumer interacts with social media and engages in the consumption, contribution, and creation of media content.”
+
+@@p@@ The consuming dimension has its roots in marketing literature and includes consumers’ participation in networks and online brand communities (*e.g.*, Armstrong and Hagel, 1996; Dholakia, Bagozzi, and Pearo, 2004; Kozinets, 1999; Muniz and O’Guinn, 2001). This type of Consumer’s Online Brand-Related Activities program represents a minimum level of engagement and refers to consumers who passively consume brand-related media without participating (Muntinga *et al.*, 2011; Shao, 2009).
+
+@@p@@ The consumption of brand-related content includes both firm-created and user-generated media, and, therefore, no distinction of communication sources is anticipated. This is the most frequent type of online brand-related activity among consumers (Muntinga *et al.*, 2011).
+
+@@p@@ The contributing dimension includes both peer-to-peer and peer-to-content interactions about brands (Shao, 2009). This dimension does not include actual creation but rather reflects consumers’ contribution to brand-related content through participation in media previously created by either a company or another individual.
+
+@@p@@ Because of its interactive nature, the contributing dimension has gained popularity among practitioners and brand researchers (Dickinson-Delaporte and Kerr, 2014). Research on this type of consumer online brand-related activity can be traced back to studies on brand-related electronic word of mouth (*e.g.*, Chevalier and Mayzlin, 2006; Dellarocas, Zhang, and Awad, 2007; Hennig-Thurau, Gwinner, Walsh, and Gremler, 2004; Hung and Li, 2007) and online customer reviews (*e.g.*, Ho-Dac, Carson, and Moore, 2013; Zhu and Zhang, 2010).
+
+@@p@@ More recently, researchers have given attention to consumers who “Like” brands (*e.g.*, Nelson-Field, Riebe, and Sharp, 2012; Wallace, Buil, De Chernatony, and Hogan, 2014) or share brand-related content on social media (*e.g.*, Belk, 2014; Brettel, Reich, Gavilanes, and Flatten*,* 2015; Craig, Greene, and Versaci, 2015; Shi, Rui, and Whinston, 2014).
+
+@@p@@ Finally, the creating dimension involves consumers’ creation and online publication of brand-related content. Studies on consumer involvement in the creation of brand-related content are grounded in product cocreation (*e.g.*, Füller, Bartl, Ernst, and Mühlbacher, 2006; Füller, Mühlbacher, Matzler, and Jawecki, 2009; Prahalad and Ramaswamy, 2002) and consumer empowerment (*e.g.*, Pires, Stanton, and Rita, 2006; Wathieu, Brenner, Carmon, Chattopadhay *et al.*, 2002; Wright, Newman, and Dennis, 2006).
+
+@@p@@ More recent studies have focused on user-generated content (*e.g.*, Berthon *et al.*, 2008; Bruhn, Schoenmueller, and Schäfer, 2012; Christodoulides, Jevons, and Bonhomme, 2012; Daugherty, Eastin, and Bright, 2008; Hautz, Füller, Hutter, and Thürridl, 2013; Schivinski and Dabrowski, 2014, 2015).
+
+@@p@@ The creating dimension, therefore, represents the strongest level of online brand-related engagement (Muntinga *et al.*, 2011) in that the content consumers generate may be a stimulus for further consumption and/or contribution by other peers.
+
+@@p@@ From this discussion, note that the same person may act as a consumer, contributor, and creator of content for the same brand concurrently or successively, depending on situational factors. Likewise, the same consumer may choose to contribute for one brand but only consume content for another brand. Consequently, by including the above three dimensions into the Consumer’s Online Brand-Related Activities framework, researchers may gain a richer understanding of the phenomena.
+
+@@p@@ In this context, the authors articulate Consumers’ Online Brand-Related Activities as a three-factor framework and expect its three constituent dimensions to be positively correlated.
+
+@@h2@@ METHODOLOGY
+
+@@p@@ To reach the four anticipated research objectives, the authors followed a multistage process of scale development and validation (*e.g*., Churchill, 1979). Five studies—three qualitative and two quantitative—were conducted in Poland.
+
+@@p@@ To accomplish **RO1**, three qualitative studies were designed to extend the preliminary set of Consumer’s Online Brand-Related Activities reported in the literature (Li and Bernoff, 2011; Muntinga *et al.,* 2011), consequently aiming for a broader exploration of individual activities, for which the authors used
+
+@@item@@ Study 1: online focus groups;
+
+@@item@@ Study 2: online depth interviews;
+
+@@item@@ Study 3: netnography..
+
+@@p@@ The outcomes of the qualitative studies served as a basis to achieve the subsequent research objectives. Therefore, the authors prepared an initial pool of items that was used to further develop the CEBSC scale.
+
+@@p@@ Two quantitative studies followed:
+
+@@item@@ Study 4: This study was designed to address both **RO2** and **RO3**. The authors calibrated and tested the measurement instrument with a confirmatory factor analysis and further subjected it to a *post hoc* analysis to investigate whether a hierarchical relationship indeed existed among the Consumer’s Online Brand-Related Activities framework dimensions;
+
+@@item@@ Study 5: Finally, to achieve **RO4**, an additional data collection (with a new sample of consumers) was used to verify the structure and psychometric properties of the scale and established the criterion-related validity of the instrument (with brand equity and brand attitudes).
+
+@@p@@ For an extensive list of activities pertinent to each dimension of the Consumer’s Online Brand-Related Activities framework (*i.e.*, consumption, contribution, creation) considered in the five studies, see Appendix A.
+
+@@h2@@ QUALITATIVE EXPLORATION
+
+@@h3@@ Study 1: Online Focus Groups
+
+@@p@@ The purpose of Study 1 was to elaborate on the brand-related social-media activities previously reported in the literature (Li and Bernoff, 2011; Muntinga *et al.*, 2011).
+
+@@p@@ To that end, the authors administrated two online focus groups (bulletin boards) using the service Google Groups for a two-week period. In total, 25 respondents participated in the study and were divided into two groups:
+
+@@item@@ 12 respondents who passively consumed (bulletin board 1: consumption);
+
+@@item@@ 13 who created brand-related content (bulletin board 2: creation)
+
+@@p@@ The current authors believe that activities pertinent to the contributing dimension should emerge spontaneously because it intermediates the consuming and creating dimensions. The division of respondents— according to their level of engagement with brands on social media—helps better capture the content domain, thus addressing the primary purpose of the study (*i.e.,* further exploration of Consumer’s Online Brand-Related Activities theory). For this exploratory step, the authors used an asynchronous method of online focus groups with bulletin boards (Fox *et al.*, 2007).
+
+@@p@@ To participate in bulletin board 1, the respondents needed to use the Internet daily and actively follow brands on social media. The same criteria were required for participation in bulletin board 2, plus respondents needed to have created at least three pieces of content for at least one brand. Those who did not fulfill these criteria were not allowed to take part in the studies.
+
+@@p@@ Respondents’ ages ranged from 18 to 34 years. The respondents affirmed that they spent from two to five hours online daily. The majority of respondents (47 percent) declared using at least one social-media channel; 33 percent “frequently” used two services; the remaining used three or more services. The sample was evenly distributed according to gender.
+
+@@p@@ Both bulletin boards were administered daily by one moderator. The role of the moderator was to post new entries and motivate the respondents to engage in the discussion. The moderator also provided explanation to respondents in case of doubts, though without solving any of the tasks for them.
+
+@@p@@ Throughout the study, the respondents were asked such exploratory questions as:
+
+@@item@@ “What sort of activities [things] do you do on social media that involve brands?”
+
+@@item@@ “Can you name activities that motivate Internet users to be engaged with a brand?”
+
+@@h3@@ Study 1 Results
+
+@@p@@ The outcomes of Study 1 included activities belonging to the three types of consumer online brand-related activities (*i.e.*, consumption, contribution, and creation). Activities the respondents mentioned included
+
+@@item@@ following a brand on social media;
+
+@@item@@ watching brand-related videos, picture, and images;
+
+@@item@@ commenting on brand-related posts; and
+
+@@item@@ writing brand-related content on blogs.
+
+@@p@@ Although the outcomes of Study 1 closely matched the activities reported previously in the literature, the authors wanted to confirm and complement the list of consumer online brand-related activities using a synchronous data collection method.
+
+@@h3@@ Study 2: Online Depth Interviews
+
+@@p@@ The goals of Study 2 were
+
+@@item@@ to confirm the previous list of consumer online brand-related activities with a different sample of Internet users through a synchronous data collection method, and
+
+@@item@@ to discover activities that remained undetected in Study 1.
+
+@@p@@ In total, 32 consumers were interviewed by means of online instant messaging-based software. To recruit respondents, the authors used similar criteria to those in Study 1. The sample also had a similar structure to that in Study 1.
+
+@@p@@ Three interviewers received training and were informed about the research objectives and goals. During the interviews, the respondents were asked to recall the brands they followed on social media and give examples of activities they took part in according to the given level of online brand-related engagement (*i.e.*, consumption, contribution, and creation).
+
+@@h3@@ Study 2 Results
+
+@@p@@ The results generated from Study 2 enhanced the outcomes from Study 1. As expected, the online depth interviews uncovered activities that were not previously detected with the asynchronous research method, including
+
+@@item@@ subscribing to a brand-related video channel,
+
+@@item@@ commenting on a brand-related fan page, and
+
+@@item@@ publishing a brand-related picture of a product.
+
+@@p@@ The results of both Studies 1 and 2 provided an extensive list of consumer online brand-related activities that the respondents could recall from memory. The authors, therefore, designed a subsequent study to cover online brand-related activities that were possibly forgotten by the respondents using a less obtrusive research method.
+
+@@h3@@ Study 3: Netnography
+
+@@p@@ This study’s objectives were to:
+
+@@item@@ verify whether the activities obtained from the literature and Studies 1 and 2 were commonly found across social-media channels, and
+
+@@item@@ identify activities that the respondents could not recall from memory.
+
+@@p@@ To reach the given objectives, the current authors applied netnography, a technique they believe is far less obtrusive than the ones used previously, mainly because it entails observing consumers’ online behavior in a context not established by the researcher (Kozinets, 2002).
+
+@@p@@ Five researchers were trained to perform the netnography; none had access to the outcomes of the first and second stages of the research. The investigators were instructed to observe actions on the Internet and generate a list of consumer online brand-related activities.
+
+@@p@@ The observations were held across social-media channels the respondents had listed during Studies 1 and 2. At the end of the procedure, the authors reviewed the outcomes of the investigations and generated a single list.
+
+@@h3@@ Study 3 Results
+
+@@p@@ As expected, the results of Study 3 rendered a more extensive list of activities than the previous two studies. Activities such as downloading brand-related widgets, clicking on brand-related advertisements, and rating a branded product were included in the final Consumer’s Online Brand-Related Activities typology.
+
+@@p@@ The outcomes of the three qualitative studies collectively made up an initial pool of 35 items to measure Consumer’s Online Brand-Related Activities along the lines of the current framework’s three dimensions:
+
+@@item@@ The consuming dimension was measured with 12 items. This scale measures the level of users’ engagement in passive consumption of media by reading, watching, and following brands on social media.
+
+@@item@@ The contributing dimension was measured with 15 items. This scale captures the intermediary level of consumers’ engagement with a brand on social media. Activities that belong to this level require consumers to interact with the brand by “Liking,” sharing, and commenting.
+
+@@item@@ The creating dimension was measured by eight items. This scale captures the highest level of consumer engagement with brands on social media by creating content in the form of texts, images, and videos.
+
+@@h2@@ QUANTITATIVE ANALYSIS
+
+@@h3@@ Study 4: Scale Development, Calibration, And *Post Hoc* Analysis
+
+@@p@@ A robust fourth study entailed developing, calibrating, and testing the authors’ CEBSC scale. The authors also performed a *post hoc* analysis that assessed the hierarchical relationships of the consumption, contribution, and creation dimensions.
+
+@@h3@@ Scale Development: Item Reduction And Reliability
+
+@@p@@ For Study 4, the authors developed a questionnaire from the initial item pool. Respondents were asked to indicate their level of agreement with each of the 35 statements using a 7-point Likert scale anchored by “not very often” and “very often.” The respondents could also select the option “not at all” (coded as 0).
+
+@@p@@ A sample of 48 undergraduate business students pretested the questionnaire. All the students mentioned that they follow brands in different social-media channels. Minor changes to the order and wording of questions were made after the pretest.
+
+@@p@@ The main data collection was conducted online. Rather than using probability sampling during the recruiting process, the authors recruited respondents by extending invitations in several social-media channels, online forums, and discussion groups. They weighted the final sample demographically to ensure that its characteristics represent the Internet users in Poland (Fulgoni, 2014; GUS Central Statistical Office, 2012).
+
+@@p@@ The authors made no *a priori* behavioral distinction between respondents in the sampling strategy (*i.e.*, consumers, contributors, and creators of brand-related social-media content), to avoid a skewed distribution of the sample and to ensure that the final instrument could be used with typical consumers independent of their level of engagement with a brand.
+
+@@p@@ The invitation to the survey consisted of informative text highlighting the broad topic of the study. After clicking on the survey’s link, respondents were redirected to the questionnaire. The survey was divided into blocks:
+
+@@item@@ The introduction presented an explanatory description of the general objectives of the study and distinguished among the three types of consumer online brand-related activities;
+
+@@item@@ The second block consisted of demographic questions;
+
+@@item@@ The third block asked the respondents to enter a brand they actively followed on social media. Examples of engagement with brands on social media were briefly described. The respondents were also informed that they would be using the chosen brand throughout the survey;
+
+@@item@@ To capture the CEBSC scale dimensions, three additional blocks were individually presented to the respondents; each contained the scale for a single dimension. The authors randomized the order of the blocks and the scale within each block to avoid systematic order effects.
+
+@@p@@ A sample of 2,578 Polish consumers participated in the study. Invalid and incomplete questionnaires were rejected (12.65 percent), resulting in 2,252 valid questionnaires (87.35 percent). Women represented 59.6 percent of the respondents. The age of the respondents ranged from 18 to 62 years, with a median age of 26 to 29 years (53.8 percent). The education level of the sample ranged from primary school to higher education, with a median of at least some college education. Total daily Internet usage ranged from up to one hour to more than six hours, with a median Internet usage of up to two hours daily.
+
+@@p@@ In total, the authors analyzed 299 brands spanning a range of industries, including amusement and recreation, apparel and accessories, automotive, beverages, food, hi-tech, mobile operators, and perfumes and cosmetics.
+
+@@p@@ To verify the levels of consumers’ engagement with brands on social media, the authors computed the mean scores for the three dimensions of the CEBSC scale. On average, respondents reported higher levels of consumption engagement (*M* = 3.68, *SD* = 1.60) than contribution engagement (*M* = 2.65, *SD* = 1.52) and creation engagement (*M* = 2.02, *SD* = 1.36; See Appendix B).
+
+@@p@@ For managerial relevance, the authors evaluated the levels of consumer engagement with consumption, contribution, and creation of brand-related social-media content along a continuum, specifically:
+
+@@item@@ The lower (higher) the score in the CEBSC scale dimension, the lower (higher) is the individual’s engagement.
+
+@@p@@ Because the CEBSC scale is a metric instrument, any threshold fixed to determine low–high levels of consumer engagement is arbitrary (Vernette and Hamdi-Kidar, 2013). Therefore, to assess the sample’s proportion of low–high consumers, contributors, and creators of brand-related social-media content, the authors opted to use the first upper and lower deciles as a threshold (top 10 percent and 90 percent). The proportion of low and high consumers partaking in brand-related social-media content was
+
+@@item@@ 12.7 percent and 7.9 percent;
+
+@@item@@ that of contributors was 18.9 percent and 8.4 percent;
+
+@@item@@ that of creators was 40.8 percent and 9.5 percent, respectively.
+
+@@p@@ The authors then randomly split the usable sample into calibration and validation samples (Churchill, 1979; Cudeck and Browne, 1983; Gerbing and Anderson, 1988). Each sample consisted of 1,126 consumers. The calibration sample served to develop the scale, and the validation sample served to verify its dimensionality, as well as establishing its psychometric properties (See Appendix C).
+
+@@p@@ The authors performed an exploratory factor analysis with the maximum-likelihood estimation method and Promax orthogonal factor rotation using IBM SPSS software package version 21.0 (IBM Corp., Armonk, NY). Factor extraction followed the MINEIGEN criterion (*i.e.*, all factors with eigenvalues >1). The Kaiser–Meyer– Olkin measure of sampling adequacy value was 0.97, with a significant chi-square value for the Bartlett test of sphericity, χ² = 25243.07, *p* < 0.001, indicating that sufficient correlations exist among the variables (Hair, Black, Babin, and Anderson, 2014). Thus, the exploratory factor analysis was appropriate for the data.
+
+@@p@@ Four items had cross-loading issues and failed to exhibit a simple factor structure; therefore, they were removed from the analysis. The final structure of the CEBSC scale included 31 items, which reflected a three-factor solution and accounted for 55.33 percent of the total variance. The internal consistency (Cronbach’s alpha) of the measurement instrument was as follows:
+
+@@item@@ consumption α = 0.90 (12 items),
+
+@@item@@ contribution α = 0.93 (11 items), and
+
+@@item@@ creation α = 0.94 (8 items).
+
+@@p@@ The Cronbach’s alpha value for each of the three dimensions demonstrates the internal consistency of the scales (Nunnally, 1978). The correlations between the CEBSC scale dimensions were positive and significant (consumption–creation: *r* = 0.72; contribution–creation: *r* = 0.65; consumption–contribution: *r* = 0.50).
+
+@@h3@@ Scale Calibration and Testing: Confirmatory Factor Analysis
+
+@@p@@ Using the highly technical measurement procedure known as “confirmatory factor analysis,” the researchers calibrated and tested their CEBSC scale. The procedure involved using specialized software and indexing to check the hypothesized three-factor (consumption, contribution, and creation) structure of the scale and to analyze the covariance matrix.
+
+@@p@@ All latent variables were included in a single multifactorial confirmatory factor model in M*plus* 7.2 software. The maximum-likelihood estimation method was used, and the goodness-of-fit scores of the model were evaluated using the following:
+
+@@item@@ the chi-square test statistic
+
+@@item@@ the comparative fit index (CFI)
+
+@@item@@ the Tucker–Lewis index (TLI)
+
+@@item@@ the root mean square error of approximation (RMSEA)
+
+@@item@@ the standardized root mean square residual (SRMR).
+
+@@p@@ Values greater than 0.90 for CFI and TLI and values of 0.08 or lower for RMSEA or SRMR indicate good model fit (Hu and Bentler, 1999).
+
+@@h3@@ Calibration and Testing Results
+
+@@p@@ The results of the confirmatory factor analysis showed that the three-factor, 31-item model had a poor fit to the data: χ²(430) = 3643.40, CFI = 0.87, TLI = 0.86, RMSEA = 0.08, and SRMR = 0.06.
+
+@@p@@ The next step involved identifying the areas of misfit in the model: To assess the possible model misspecification, the authors examined the standardized loadings of the items and modification indices (Hair *et al.*, 2014). The authors proceeded by eliminating 14 items:
+
+@@item@@ the standard loadings of which were below the 0.5 cutoff;
+
+@@item@@ that demonstrated cross-loading issues that were not detected during the exploratory factor analysis;
+
+@@item@@ that yielded high modification index values.
+
+@@p@@ After the authors ran the diagnostics and eliminated the problematic items, the ensuing three-factor 17-item model yielded a good fit: χ²(115) = 859.26, CFI = 0.95, TLI = 0.94, RMSEA = 0.07, and SRMR = 0.06.
+
+@@p@@ As it is common with rating scales, the assumption of multivariate normality was violated (the data indicated multivariate kurtosis). Hence, the authors also conducted an alternative confirmatory factor analysis using the robust maximum-likelihood estimation method. The model yielded good goodness-of-fit values: χ²(115) = 557.47, CFI = 0.95, TLI = 0.94, RMSEA = 0.05, and SRMR = 0.06.
+
+@@p@@ The next step was to calculate the construct reliabilities of the three dimensions of CEBSC scale. The reliability was
+
+@@item@@ 0.88 for consumption
+
+@@item@@ 0.92 for contribution
+
+@@item@@ 0.93 for creation.
+
+@@p@@ These values exceeded the threshold of 0.7 (Hair *et al.*, 2014), thus demonstrating the internal consistency of the three subscales. All loading estimates were statistically significant and greater than 0.63. The *t* values ranged from 30.92 to 105.56 (*p* < 0.001). These results provide evidence of convergent validity (Hair *et al.*, 2014).
+
+@@p@@ In terms of discriminant validity, the authors calculated the average variance extracted (AVE) for each construct. The AVE values were
+
+@@item@@ 0.54 (consumption)
+
+@@item@@ 0.65 (contribution)
+
+@@item@@ 0.68 (creation).
+
+@@p@@ The authors then compared the AVE values with the square of the estimated correlation between constructs [maximum shared squared variance (MSV); Hair *et al.*, 2014]. The AVE values were greater than the MSV values, thus confirming discriminant validity.
+
+@@p@@ Finally, the correlations between the Consumer’s Online Brand-Related Activities dimensions were as follows:
+
+@@item@@ contribution/creation: *r* = 0.77
+
+@@item@@ consumption/contribution: *r* = 0.65
+
+@@item@@ consumption/creation: *r* = 0.51.
+
+@@p@@ The correlations were positive and significant (See Table 1 and Figure 1).
+
+@@table@@ T1
+
+@@figure@@ fig1|Figure 1. Confirmatory Factor Analysis: Three-Factor CEBSC Framework
+
+@@h3@@ *Post Hoc* Analysis: Hierarchical Relationship of Dimensions
+
+@@p@@ The next stage of the analysis was to investigate whether a hierarchical relationship existed among the dimensions of the Consumer’s Online Brand-Related Activities framework.
+
+@@p@@ The authors followed the traditional hierarchy-of-effects model (Lavidge and Steiner, 1961). Thus, the evolution of the CEBSC can be described as a learning process by which people’s consumption of brand-related content leads to contributions, which in turn lead to creation (See Figure 2).
+
+@@figure@@ fig2|Figure 2. Structural Equation Model: CEBSC Scale Post Hoc Analysis
+
+@@h3@@ *Post Hoc* Analysis Results
+
+@@p@@ All latent variables of CEBSC scale were included in a single multifactorial structural equation model in M*plus* 7.2 software with robust maximum-likelihood estimator. The results of the analysis revealed that the model had a good fit to the data. The goodness-of-fit scores were
+
+@@item@@ χ²(115) = 557.47
+
+@@item@@ CFI = 0.95
+
+@@item@@ TLI = 0.94
+
+@@item@@ RMSEA = 0.05
+
+@@item@@ SRMR = 0.06.
+
+@@p@@ The results further showed that a hierarchical relationship existed among the Consumer’s Online Brand-Related Activities dimensions:
+
+@@item@@ consumption → contribution (β = 0.61, *p* = 30.00) and contribution → creation (β = 0.81, *p* = 33.59).
+
+@@p@@ In addition, the authors computed the indirect effects to test for the mediating effects of the contributing dimension. To test for the inference of indirect effects, the authors applied a bias-corrected bootstrapping (5,000) resampling procedure with 99 percent confidence interval (Hayes, 2013; Muthén and Muthén, 2012). The results showed that the direct effect between consumption and creation becomes nonsignificant when contribution is included in the model as a mediator (See Table 2).
+
+@@table@@ T2
+
+@@h2@@ STUDY 5: SCALE VALIDATION
+
+@@p@@ The last objective of this research was to further validate the authors’ CEBSC scale by examining whether it behaves as expected in relation to constructs in its nomological network. Study 5 thus explored the psychometric properties of the scale with two important variables that capture consumers’ perceptions of brands:
+
+@@item@@ brand equity
+
+@@item@@ brand attitudes.
+
+@@p@@ Consumers’ engagement with a brand likely will lead to better brand knowledge and, consequently, brand equity (Aaker, 1997; Keller, 1993). At the same time, the prospect of high-equity brands more likely will motivate consumers to undertake online brand-related activities such as user-generated content (Christodoulides *et al.*, 2012). Furthermore, brand-related social-media content from both consumers and firms positively influences consumers’ perceptions of brand equity and their brand attitudes (Bruhn *et al.*, 2012; Schivinski and Dabrowski, 2014).
+
+@@p@@ Therefore, the two constructs (brand equity and brand attitudes) should be significantly and positively correlated with the CEBSC scale.
+
+@@p@@ A new sample of 416 Polish consumers participated in Study 5. The structure of the sample and the scores of consumption, contribution, and creation for each individual closely matched those from Study 4. The same recruitment techniques were used.
+
+@@p@@ To capture brand equity, the authors used six items adapted from previous research (Yoo and Donthu, 2001). This scale measures the added value of a branded product in comparison with an unbranded product with the same characteristics.
+
+@@p@@ Three items adapted from the works of Low and Lamb (2000) and Villarejo-Ramos and Sánchez-Franco (2005) measured brand attitudes.
+
+@@h3@@ Study 5 Results
+
+@@p@@ All latent variables were included in a single multifactorial confirmatory model in M*plus* 7.2. The confirmatory factor analysis was performed using the robust maximum-likelihood estimator. The model demonstrated a good fit, as evidenced by the following goodness-of-fit values: χ²(288) = 600.95, CFI = 0.96, TLI = 0.95, RMSEA = 0.05, and SRMR = 0.06.
+
+@@p@@ The Cronbach’s alpha values for each scale ranged from 0.88 to 0.94. Composite reliabilities ranged from 0.92 to 0.94. These values exceeded the threshold of 0.7, indicating the internal consistency of the scales. All factor loading estimates were statistically significant and ranged from 0.70 to 0.95 (*p* < 0.001; See Appendix C).
+
+@@p@@ The average variance extracted and maximum shared squared variance values also were calculated for each subscale. The average variance extracted values ranged from 0.66 to 0.84 and were greater than the maximum shared squared variance values (See Table 3).
+
+@@table@@ T3
+
+@@p@@ The results from the confirmatory factor analysis in Study 5 demonstrate that the CEBSC scale is a reliable and robust measurement instrument. The outcomes of the correlation analysis across this scale, brand equity, and brand attitudes ranged from 0.14 to 0.78 with *t* values between 3.59 and 53.58 (*p* < 0.001; See Table 4).
+
+@@table@@ T4
+
+@@h2@@ CONCLUSIONS
+
+@@h3@@ General Discussion and Theoretical Contributions
+
+@@p@@ The Consumer’s Online Brand-Related Activities framework (Muntinga *et al.*, 2011) is a behavioral construct that contains the consumer’s engagement with brands on social media. The authors of the current paper believe their study is the first of its kind to approach the scale development of that framework.
+
+@@p@@ To guide in the development of a parsimonious, valid, and reliable scale to measure the consumer’s engagement with brands on social media, the authors established four research objectives (RO1–RO4). To reach the given objectives, they used a combination of qualitative and quantitative research methods.
+
+@@h3@@ Research Objective 1
+
+@@p@@ **RO1** was intended to identify and categorize individual Consumer’s Online Brand-Related Activities, which were not reported previously in literature (Li and Bernoff, 2011; Muntinga *et al.*, 2011). The authors carried out a literature search on the subject, complemented by asynchronous (online focus groups), synchronous (online depth interviews), and nonobtrusive qualitative research methods (netnography).
+
+@@p@@ The overall contribution of RO1 to literature results was a comprehensive typology of online activities encompassing three different levels of CEBSC.
+
+@@h3@@ Research Objective 2
+
+@@p@@ **RO2** was set to test the factorial validity of scores from the CEBSC scale. The authors used exploratory and confirmatory statistics to analyze the brand-related social-media behavior of 2,252 Polish consumers across 299 brands spanning a range of industries.
+
+@@p@@ The accomplishment of RO2 contributes to the literature with a robust and reliable scale to measure the consumer’s consumption, contribution, and creation of brand-related social-media content.
+
+@@h3@@ Research Objective 3
+
+@@p@@ **RO3** was designed to test whether a hierarchical relationship existed among the CEBSC scale dimensions. The authors ran a *post hoc* analysis with structural equation modeling. The results suggested a hierarchical relationship among the consumption, contribution, and creation dimensions.
+
+@@p@@ These findings contribute to the literature on online brand communication in three ways:
+
+@@item@@ from a macro perspective, by empirically showing that consumers engage in higher levels of online brand-related activities as a result of a learning process;
+
+@@item@@ from a micro perspective, by identifying the consuming dimension as an antecedent of consumers’ engagement in the contribution of brand-related content on social media and the contributing dimension as an antecedent of user-generated content;
+
+@@item@@ by demonstrating that the contributing dimension is a mediator between the consuming and creating dimensions
+
+@@h3@@ Research Objective 4
+
+@@p@@ **RO4** was anticipated to validate the psychometric properties of the current scale with two nomological network variables (*i.e.*, brand equity and brand attitudes). The authors analyzed the brand-related social-media behavior and brand perceptions of 416 Polish consumers using confirmatory statistics.
+
+@@p@@ The outcomes from RO4 contribute to the literature by corroborating with findings from previous research, which indicated that brand equity and brand attitudes correlate positively and significantly with individual brand-related social-media activities.
+
+@@p@@ In summary, the results empirically demonstrate that the authors’ CEBSC scale is a three-factor construct that includes the consumption, contribution, and creation dimensions suggested in the earlier framework.
+
+@@p@@ These three dimensions capture lower to higher levels of brand-related social-media engagement. Furthermore, this wide scope of the scale highlights its broad usability to quantify and measure consumers’ behavior toward brands on social media.
+
+@@p@@ Further employment of the CEBSC scale may facilitate theoretical development in the domains of marketing, advertising, branding, consumer behavior, and other research fields, the authors believe. The scale can be used to measure the construct’s effects on outcome variables such as
+
+@@item@@ brand extension
+
+@@item@@ purchase intention
+
+@@item@@ price premium.
+
+@@p@@ Applying the measurement instrument in such a manner, the authors believe, will generate knowledge about the influence of consumption, contribution, and creation of brand-related social-media content on various consumer responses.
+
+@@p@@ In contrast, the earlier Consumer’s Online Brand-Related Activities is a behavioral framework. The advantage of the current CEBSC scale is that it can be implemented in structural models as dependent variables. Using this approach, scholars might test several variables to assess the drivers of the Consumer’s Online Brand-Related Activities framework. This information would be of significant value to theory in the pursuit of answers to important questions, such as:
+
+@@item@@ Why do consumers engage in brand-related social-media activities?
+
+@@item@@ What types of brands most likely would induce consumers to engage in social media?
+
+@@item@@ What kinds of marketing activities influence consumers’ engagement with brand-related content on social media?
+
+@@p@@ The authors believe this is the first study to *holistically* examine consumption, contribution, and creation of brand-related social-media content under a single framework. At first glance, the data suggest that lower levels of engagement (consumption) are associated with higher levels of brand equity or more favorable brand attitudes (compared with creation). This finding, however, likely is due to a suppression effect, given that the number of people who consume brand-related content on social media is significantly higher than the number of people who contribute and create.
+
+@@h3@@ Managerial Contributions
+
+@@p@@ Although companies are using social-media channels as part of their marketing and advertising communication strategies, research on consumer behavior related to brands on social media is nascent (Araujo *et al.*, 2015; Burmann, 2010; Fulgoni and Lipsman, 2015; Yadav and Pavlou, 2014).
+
+@@p@@ But before managers can more confidently employ social-media marketing and branding, they need to understand how consumers behave and interact with brands on those channels.
+
+@@p@@ The CEBSC scale should assist in this matter. This research provides clear guidance on what constitutes the Consumer’s Online Brand-Related Activities framework (*i.e.*, the consuming, contributing, and creating dimensions) and which online activities define those dimensions. The dimensions of the CEBSC scale give managers the conceptual instrument to delineate consumers’ social-media behavior toward brands according to their level of engagement.
+
+@@p@@ Additionally, the underlying subscales (in this case, each individual item in a dimension) provide managers with specific brand-related social-media activities they could pursue.
+
+@@p@@ When managing the presence of brands online and executing social-media marketing strategies, managers can use the CEBSC scale to audit and track the effectiveness of these programs. When using it systematically, managers not only can evaluate the success of their social-media marketing strategies but also take corrective action when necessary. The parsimony of the scale is intended to facilitate such practical applications.
+
+@@p@@ Because Consumer’s Online Brand-Related Activities is a holistic framework, managers should administer its three dimensions simultaneously. By using the current authors’ CEBSC scale holistically, greater insights can be gleaned into consumers’ social-media behavior toward brands. The subscales also may be used individually when, for example, researchers or practitioners wish to focus on a specific type of activity, such as consumers’ brand-related social-media content creation.
+
+@@p@@ Advertisers should closely monitor social-media channels and the brand-related activities consumers are more intensely engaging in, while also trying to stimulate the activities they want consumers to be more active with.
+
+@@p@@ This point is consistent with the view that the full integration of the three levels of CEBSC scale into social-media communication strategies will benefit brands. For example, the consumption of firm-created and user-generated brand-related social-media communication influences consumer mindsets and, thus, behavior (Bruhn *et al.*, 2012; Schivinski and Dabrowski, 2014).
+
+@@p@@ Consumers’ contribution of brand-related content is a key metric for evaluating the success of social-media marketing efforts (Nelson-Field *et al.*, 2012) and plays an important role in the process of communication message acceptance (Coulter and Roggeveen, 2012).
+
+@@p@@ Finally, the creation of user-generated content shapes traditional advertising policies (Krishnamurthy and Dou, 2008) and leads to positive consumer acceptance (Pornpitakpan, 2004).
+
+@@p@@ Furthermore, the current scale’s original framework—Consumer’s Online Brand-Related Activities—assumes a hierarchical structure. Practitioners should continue their social-media branding agendas by being present on social-media channels and by continuously producing engaging brand-related content that their target audiences likely will consume. Doing so likely will induce consumers to engage further by commenting, “Liking,” and even sharing the brand-related content consumed.
+
+@@p@@ By engaging in the contributing dimension, consumers may successively begin creating user-generated content by initiating posts, writing product reviews, or posting brand-related videos and pictures. The hierarchical structure of the framework also is supported by the indication that the contribution dimension serves as a mediator between the consumption and creation of brand-related social-media content.
+
+@@h2@@ LIMITATIONS AND FURTHER RESEARCH
+
+@@p@@ Although this research makes a significant contribution to the measurement of consumers’ engagement with brand-related social media content, it is not without limitations. As such, the restrictions of this research can provide guidelines for future studies.
+
+@@item@@ The list of Consumer’s Online Brand-Related Activities (Appendix A) presented in this study is not exhaustive. With the constant changes and adaptations of websites and web services, new activities pertinent to the three dimensions of CEBSC scale likely will emerge. Researchers should continue searching for new trends on social media and adjusting the instrument in line with technological changes.
+
+@@item@@ The data in Studies 4 and 5 were not factored for consumers’ past brand usage. Although the scores of consumption, contribution, and creation for each respondent were provided, the results presented should be interpreted with care. Further research should address this limitation. In addition, scholars should use the brand usage variable for moderation and conditional process analysis. Such analyses would answer questions such as how previous brand usage influences consumers’ scores of engagement with brand-related social-media content.
+
+@@item@@ Finally, this research was conducted in a single country. Although social-media channels are similar across the globe, the authors encourage other researchers to undertake replication studies in other countries to assess the equivalence of the CEBSC scale across nations and cultures.
+
+@@p@@ Researchers also could use a combination of the CEBSC scale and other behavioral variables in a latent class analysis (Goodman, 1974) to classify consumers who engage in brand-related social-media activities into homogeneous subgroups and, thus, to explore a typology of consumers according to their level and type of engagement in online brand-related activities.
+
+@@p@@ Assuming that consumers’ perceptions of social-media communication differ across industries, researchers also could implement the CEBSC scale to explore in greater depth patterns of similarities and differences within the consumption, contribution, and creation of brand-related social-media content. Researchers could use a multilevel approach to the data to perform analysis between (industries) and within (brands) groups.
+
+@@h2@@ ABOUT THE AUTHORS
+
+@@about@@ Bruno Schivinski is a sociologist and lecturer in marketing at Nottingham Trent University. He consults for online service providers, websites, and scientific institutions such as the Polish Ministry of Science and Higher Education (MNiSW) and the National Science Centre (NCN). Schivinski specializes in online consumer behavior, social-media marketing, online branding, and user-generated content. His work can be found in such journals as the *Journal of Research of Interactive Marketing* and the *Journal of Marketing Communications*. This research was conducted while he worked at the Gdansk University of Technology in Poland.
+
+@@about@@ George Christodoulides is a professor of marketing and assistant dean at Birkbeck, University of London. His research interests include brand management and digital marketing, particularly brand equity conceptualization and measurement, and the impact of digital and social media on consumer-brand relationships. Christodoulides’ work has been published in *European Journal of Marketing*, *Marketing Theory*, *Journal of Advertising Research (JAR)*, *Industrial Marketing Management*, and *International Marketing Review*. He is associate editor of *International Marketing Review* and serves on the editorial advisory boards of six other academic journals.
+
+@@about@@ Dariusz Dabrowski is chair and associate professor of marketing at Gdansk University of Technology, Faculty of Management and Economics. His research focuses on online consumer behavior, relationship marketing, and new-product development. Dabrowski is the author of *Informacje Rynkowe w Rozwoju Nowych Produktów* (Information Market in New Product Development), Wydawnictwo PG, Gdansk 2009, and has consulted for the Polish Ministry of Science and Higher Education (MNiSW) and the National Science Centre (NCN). His research has appeared in *Social Sciences*, *Journal of Marketing Communications*, and *Journal of Research in Interactive Marketing*, among other journals.
+
+@@h2@@ ACKNOWLEDGMENTS
+
+@@p@@ The authors would like to thank Geoffrey Precourt (*JAR* editor-in-chief) and Nanette Burns (managing editor)—as well as Jenni Romaniuk (co-executive editor/international) and the two anonymous reviewers—for their constructive feedback throughout the review process, which influenced the final version of the article. The authors would also like to thank Francesca Cooley for her assistance in translation preparing the original manuscript. This research was supported by the National Science Centre in Poland (Preludium 4 – UMO-2012/07/N/HS4/02790).
+
+@@h2@@ REFERENCES
+
+@@ref@@ Aaker, J. L. “Dimensions of Brand Personality.” *Journal of Marketing Research* 34, 3 (1997): 347–356.
+
+@@ref@@ Araujo, T., P. Neijens, and R. Vliegenthart. “What Motivates Consumers to Re-Tweet Brand Content? The Impact of Information, Emotion, and Traceability on Pass-Along Behavior.” *Journal of Advertising Research* 53, 3 (2015): 1–12.
+
+@@ref@@ Armstrong, A., and J. Hagel III. “The Real Value of On-Line Communities.” *Harvard Business Review* 74, May–June (1996): 134–141.
+
+@@ref@@ Belk, R. “You Are What You Can Access: Sharing and Collaborative Consumption Online.” *Journal of Business Research* 67, 8 (2014): 1595–1600.
+
+@@ref@@ Berthon, P. R., L. Pitt, and C. Campbell. “Ad Lib: When Customers Create the Ad.” *California Management Review* 50, 4 (2008): 6–31.
+
+@@ref@@ Brettel, M., J.-C. Reich, J. M. Gavilanes, and T. C. Flatten. “What Drives Advertising Success on Facebook? An Advertising-Effectiveness Model: Measuring the Effects on Sales of ‘Likes’ and Other Social-Network Stimuli.” *Journal of Advertising Research* 52, 2 (2015): 162–175.
+
+@@ref@@ Bruhn, M., V. Schoenmueller, and D. B. Schäfer. “Are Social Media Replacing Traditional Media in Terms of Brand Equity Creation?” *Management Research Review* 35, 9 (2012): 770–790.
+
+@@ref@@ Burmann, C. “A Call for ‘User-Generated Branding.’” *Journal of Brand Management* 18, 1 (2010): 1–4.
+
+@@ref@@ Chevalier, J., and D. Mayzlin. “The Effect of Word of Mouth on Sales: Online Book Reviews.” *Journal of Marketing Research* 43, 3 (2006): 345–354.
+
+@@ref@@ Christodoulides, G. “Branding in the Post-Internet Era.” *Marketing Theory* 9, 1 (2009): 141–144.
+
+@@ref@@ Christodoulides, G., C. Jevons, and J. Bonhomme. “Memo to Marketers: Quantitative Evidence for Change. How User-Generated Content Really Affects Brands.” *Journal of Advertising Research* 52, 1 (2012): 53–64.
+
+@@ref@@ Churchill, G. A. “A Paradigm for Developing Better Measures of Marketing Constructs.” *Journal of Marketing Research* 16, 1 (1979): 64–73.
+
+@@ref@@ Coulter, K. S., and A. Roggeveen. “‘Like It or Not’: Consumer Responses to Word-of-Mouth Communication in On-Line Social Networks.” *Management Research Review* 35, 9 (2012): 878–899.
+
+@@ref@@ Craig, C. S., W. H. Greene, and A. Versaci. “E-Word of Mouth: Early Predictor of Audience Engagement: How Pre-Release ‘E-WOM’ Drives Box-Office Outcomes of Movies.” *Journal of Advertising Research* 52, 2 (2015): 62–72.
+
+@@ref@@ Cudeck, R., and M. Browne. “Cross-Validation of Covariance Structures.” *Multivariate Behavioral Research* 18, 2 (1983): 147–167.
+
+@@ref@@ Daugherty, T., M. Eastin, and L. Bright. “Exploring Consumer Motivations for Creating User-Generated Content.” *Journal of Interactive Advertising* 8, 2 (2008): 16–25.
+
+@@ref@@ Dellarocas, C., X. Zhang, and N. F. Awad. “Exploring the Value of Online Product Reviews in Forecasting Sales: The Case of Motion Pictures.” *Journal of Interactive Marketing* 21, 4 (2007): 23–45.
+
+@@ref@@ Dholakia, U. M., R. P. Bagozzi, and L. K. Pearo. “A Social Influence Model of Consumer Participation in Network- and Small-Group-Based Virtual Communities.” *International Journal of Research in Marketing* 21, 3 (2004): 241–263.
+
+@@ref@@ Dickinson-Delaporte, S., and G. Kerr. “Agency-Generated Research of Consumer-Generated Content: The Risks, Best Practices, and Ethics.” *Journal of Advertising Research* 54, 4 (2014): 469–478.
+
+@@ref@@ Fox, F. E., M. Morris, and N. Rumsey. “Doing Synchronous Online Focus Groups With Young People: Methodological Reflections.” *Qualitative Health Research*, 17, 4 (2007): 539–547.
+
+@@ref@@ Fulgoni, G. “Uses and Misuses of Online-Survey Panels in Digital Research: Digging Past the Surface.” *Journal of Advertising Research* 54, 2 (2014): 133–137.
+
+@@ref@@ Fulgoni, G., and A. Lipsman. “Digital Word of Mouth and Its Offline Amplification: A Holistic Approach to Leveraging and Amplifying All Forms of WOM.” *Journal of Advertising Research* 55, 2 (2015): 18–21.
+
+@@ref@@ Füller, J., M. Bartl, H. Ernst, and H. Mühlbacher. “Community Based Innovation: How to Integrate Members of Virtual Communities Into New Product Development.” *Electronic Commerce Research* 6, 1 (2006): 57–73.
+
+@@ref@@ Füller, J., H. Mühlbacher, K. Matzler, and G. Jawecki. “Consumer Empowerment through Internet-Based Co-creation.” *Journal of Management Information Systems* 26, 3 (2009): 71–102.
+
+@@ref@@ Gerbing, D., and J. Anderson. “An Updated Paradigm for Scale Development Incorporating Unidimensionality and Its Assessment.” *Journal of Marketing Research* 25, 2 (1988): 186–193.
+
+@@ref@@ Goodman, L. A. “Exploratory Latent Structure Analysis Using Both Indentifiable and Unidentifiable Models.” *Biometrika* 61, 2 (1974): 215–231.
+
+@@ref@@ Gus Central Statistical Office. *Demographic Yearbook of Poland: Branch Yearbooks*. Warsaw, Poland: Zakład Wydawnictw Statystycznych, 2012.
+
+@@ref@@ Hair, J. F., Jr., W. C. Black, B. J. Babin, and R. E. Anderson. *Multivariate Data Analysis*, 7th ed. Harlow, England: Pearson Education Limited, 2014.
+
+@@ref@@ Hautz, J., J. Füller, K. Hutter, and C. Thürridl. “Let Users Generate Your Video Ads? The Impact of Video Source and Quality on Consumers’ Perceptions and Intended Behaviors.” *Journal of Interactive Marketing* 28, 1 (2013): 1–15.
+
+@@ref@@ Hayes, A. *Introduction to Mediation, Moderation, and Conditional Process Analysis*. New York, NY: Guilford Press, 2013.
+
+@@ref@@ Hennig-Thurau, T., K. P. Gwinner, G. Walsh, and D. D. Gremler. “Electronic Word-of-Mouth via Consumer-Opinion Platforms: What Motivates Consumers to Articulate Themselves on the Internet?” *Journal of Interactive Marketing* 18, 1 (2004): 38–52.
+
+@@ref@@ Ho-Dac, N., S. Carson, and W. Moore. “The Effects of Positive and Negative Online Customer Reviews: Do Brand Strength and Category Maturity Matter?” *Journal of Marketing* 77, November (2013): 37–53.
+
+@@ref@@ Hollebeek, L. D., M. S. Glynn, and R. J. Brodie. “Consumer Brand Engagement in Social Media: Conceptualization, Scale Development and Validation.” *Journal of Interactive Marketing* 28, 2 (2014): 149–165.
+
+@@ref@@ Hu, L.-T., and P. M. Bentler. “Cutoff Criteria for Fit Indexes in Covariance Structure Analysis: Conventional Criteria Versus New Alternatives.” *Structural Equation Modeling* 6, 1 (1999): 1–55.
+
+@@ref@@ Hung, K. H., and S. Y. Li. “The Influence of eWom on Virtual Consumer Communities: Social Capital, Consumer Learning, and Behavioral Outcomes.” *Journal of Advertising Research* 47, 4 (2007): 485–495.
+
+@@ref@@ Keller, K. L. “Conceptualizing, Measuring, and Managing Customer-Based Brand Equity.” *Journal of Marketing* 57, January (1993): 1–22.
+
+@@ref@@ Kozinets, R. V. “E-Tribalized Marketing? The Strategic Implications of Virtual Communities of Consumption.” *European Management Journal* 17, 3 (1999): 252–264.
+
+@@ref@@ Kozinets, R. V. “Utopian Enterprise: Articulating the Meanings of Star Trek’s Culture of Consumption.” *Journal of Consumer Research* 28, June (2001): 67–88.
+
+@@ref@@ Kozinets, R. V. “The Field Behind the Screen: Using Netnography for Marketing Research in Online Communities.” *Journal of Marketing Research* 39, 1 (2002): 61–72.
+
+@@ref@@ Krishnamurthy, S., and W. Dou. “Advertising with User-Generated Content: A Framework and Research Agenda.” *Journal of Interactive Advertising* 8, 2 (2008): 1–4.
+
+@@ref@@ Lavidge, S. W., and G. A. Steiner. “A Model for Predictive Measurements of Advertising Effectiviness.” *Journal of Marketing* 25, 6 (1961): 59–62.
+
+@@ref@@ Li, C., and J. Bernoff. *Groundswell: Winning in a World Transformed by Social Technologies.* Boston, MA: Harvard Business Review Press, 2011.
+
+@@ref@@ Low, G., and C. Lamb Jr. “The Measurement and Dimensionality of Brand Associations.” *Journal of Product & Brand Management* 9, 6 (2000): 350–370.
+
+@@ref@@ Muniz, A. M., Jr., and T. C. O’Guinn. “Brand Community.” *Journal of Consumer Research* 27, March (2001): 412–433.
+
+@@ref@@ Muntinga, D. G., M. Moorman, and E. G. Smit. “Introducting COBRAs: Exploring Motivations for Brand-Related Social Media Use.” *International Journal of Advertising* 30, 1 (2011): 13–46.
+
+@@ref@@ Muthén, L., and B. Muthén. *Statistical Analysis with Latent Variables: Mplus User’s Guide*, 7th ed. Los Angeles, CA: Muthén & Muthén, 2012.
+
+@@ref@@ Nelson-Field, K., E. Riebe, and B. Sharp. “What’s Not to ‘Like?’ Can a Facebook Fan Base Give a Brand the Advertising Reach it Needs?” *Journal of Advertising Research* 52, 2 (2012): 262–269.
+
+@@ref@@ Nunnally, J. *Psychometrical Theory*, 2nd ed. New York, NY: McGraw-Hill, 1978.
+
+@@ref@@ Oviedo-Garcia, M., M. Munoz-Exposito, M. Castellanos-Verdugo, and M. Shancho-Mejias. “Metric Proposal for Customer Engagement in Facebook.” *Journal of Research in Interactive Marketing* 8, 4 (2014): 327–344.
+
+@@ref@@ Pires, G. D., J. Stanton, and P. Rita. “The Internet, Consumer Empowerment and Marketing Strategies.” *European Journal of Marketing* 40, 9/10 (2006): 936–949.
+
+@@ref@@ Pornpitakpan, C. “The Persuasiveness of Source Credibility: A Critical Review of Five Decades’ Evidence.” *Journal of Applied Social Psychology* 34, 2 (2004): 243–281.
+
+@@ref@@ Prahalad, C. K., and V. Ramaswamy. “The Co-Creation Connection.” *Strategy and Business* 27, (2002): 1–12.
+
+@@ref@@ Schivinski, B., and D. Dabrowski. “The Effect of Social Media Communication on Consumer Perceptions of Brands.” *Journal of Marketing Communications*, ahead of print (2014): 1–26. DOI: 10.1080/13527266.2013.871323
+
+@@ref@@ Schivinski, B., and D. Dabrowski. “The Impact of Brand Communication on Brand Equity through Facebook.” *Journal of Research in Interactive Marketing* 9, 1 (2015): 31–53.
+
+@@ref@@ Schultz, D. E., and J. Peltier. “Social Media’s Slippery Slope: Challenges, Opportunities, and Future Research Directions.” *Journal of Research in Interactive Marketing* 7, 2 (2013): 86–89.
+
+@@ref@@ Shao, G. “Understanding the Appeal of User-Generated Media: A Uses and Gratification Perspective.” *Internet Research* 19, 1 (2009): 7–25.
+
+@@ref@@ Shi, Z., H. Rui, and A. Whinston. “Content Sharing in a Social Broadcasting Environment: Evidence From Twitter.” *MIS Quarterly* 38, 1 (2014): 123–142.
+
+@@ref@@ Vernette, E., and L. Hamdi-Kidar. “Co-Creation With Consumers: Who Has the Competence and Wants to Cooperate?” *International Journal of Market Research* 55, 4 (2013): 2–20.
+
+@@ref@@ Villarejo-Ramos, A. F., and M. J. Sánchez-Franco. “The Impact of Marketing Communication and Price Promotion on Brand Equity.” *Journal of Brand Management* 12, 6 (2005): 431–444.
+
+@@ref@@ Wallace, E., I. Buil, L. De Chernatony, and M. Hogan. “Who ‘Likes’ You . . . and Why? A Typology of Facebook Fans: From ‘Fan’-atics and Self-Expressives to Utilitarians and Authentics.” *Journal of Advertising Research* 54, 1 (2014): 92–109.
+
+@@ref@@ Wathieu, L., L. Brenner, Z. Carmon, A. Chattopadhay, K. Wertenbroch, A. Drolet, J. Gourville, A. V. Muthukrishnan, et al. “Consumer Control and Empowerment: A Primer.” *Marketing Letters* 13, 3 (2002): 297–305.
+
+@@ref@@ Wright, L., A. Newman, and C. Dennis. “Enhancing Consumer Empowerment.” *European Journal of Marketing* 40, 9/10 (2006): 925–935.
+
+@@ref@@ Yadav, M., and P. Pavlou. “Marketing in Computer-Mediated Environments: Research Synthesis and New Directions.” *Journal of Marketing* 78, 1 (2014): 20–40.
+
+@@ref@@ Yoo, B., and N. Donthu. “Developing and Validating a Multidimensional Consumer-Based Brand Equity Scale.” *Journal of Business Research* 52, 1 (2001): 1–14.
+
+@@ref@@ Zhu, F., and X. (Michael) Zhang. “Impact of Online Consumer Reviews on Sales: The Moderating Role of Product and Consumer Characteristics.” *Journal of Marketing* 74, 2 (2010): 133–148.
