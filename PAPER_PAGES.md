@@ -53,8 +53,11 @@ differs. Many originals were lost, so each one is regenerated from the published
   inconsistencies; flag those to Bruno rather than silently changing them.
 - On the page, the download button is the first action under the article details, so it is visible
   without scrolling; the PDF is also exposed to Google Scholar through `citation_pdf_url`.
-- Use as many of the paper's figures and tables as possible on the page itself, as HTML (tables) and
-  SVG (figures), so they can be read, quoted and cited without the PDF. Long tables can be collapsed.
+- Use the paper's figures and the tables people cite on the page itself, as HTML (tables) and SVG
+  (figures), so they can be read, quoted and cited without the PDF. Long tables can be collapsed.
+- Leave highly technical tables (e.g. invariance and model-comparison fit statistics) in the
+  manuscript only; readers who need them download the PDF.
+- Older papers may contain reporting mistakes; keep them as published and flag them to Bruno.
 
 ## Page sections, in order
 

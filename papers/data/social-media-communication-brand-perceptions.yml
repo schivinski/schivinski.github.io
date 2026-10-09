@@ -1,7 +1,7 @@
 # Paper page data. Schema and writing rules: see PAPER_PAGES.md
 # Source: full text, Journal of Marketing Communications 22(2), 189-214 (PDF supplied by Bruno, 9 Oct 2026)
 # Status: draft (set to "locked" once Bruno approves every statement)
-status: draft
+status: locked
 
 title: "The effect of social media communication on consumer perceptions of brands"
 doi: "10.1080/13527266.2013.871323"
@@ -243,7 +243,7 @@ tables:
     note: "The square root of the AVE values are marked in italics. BA, brand attitude; FC, firm-created communication; UG, user-generated communication; BE, brand equity; PI, purchase intention."
   - id: "A4"
     title: "Summary of goodness-of-fit statistics for tests for the invariance of causal structure"
-    collapsed: true
+    web: false          # manuscript only: too technical for the page (Bruno, 9 Oct 2026)
     columns: ["Model description", "Comparative model", "χ²", "df", "Δχ²", "Δdf", "<i>p</i>", "CFI", "ΔCFI"]
     rows:
       - ["1. Configural model; no equality constraints imposed", "–", "550.792", "336", "–", "–", "–", "0.978", "–"]
