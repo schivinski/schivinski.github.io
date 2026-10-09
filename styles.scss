@@ -216,3 +216,16 @@ a:hover { color: $amber-text; }
 /* design figure: keep text legible on phones by scrolling sideways inside the figure */
 .figure-scroll { overflow-x: auto; }
 @media (max-width: 640px) { .figure-scroll svg { min-width: 620px; } }
+
+/* ---------- paper pages: FAQ, concepts, open science, related ---------- */
+.faq { display: grid; gap: 1rem; }
+.faq-item { background: $surface; border: 1px solid $rule; border-radius: 6px; padding: 1rem 1.2rem; }
+.faq-item h3 { font-size: 1.12rem; margin: 0 0 .35rem; }
+.faq-item p { margin: 0; }
+.concepts { margin: 0; display: grid; gap: .9rem; }
+.concepts dt { font-family: $headings-font-family; font-size: 1.08rem; font-weight: 600; color: $ink; }
+.concepts dd { margin: .1rem 0 0; color: $text; }
+.open-list, .related { list-style: none; padding: 0; margin: 0; display: grid; gap: .6rem; }
+.open-list li a, .related li a { font-weight: 600; }
+.open-list li span, .related li span { display: block; color: $muted; font-size: .9rem; }
+.figure-title { font-size: 1.1rem; margin: 0 0 .8rem; }

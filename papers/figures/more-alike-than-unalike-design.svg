@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 292" role="img" aria-labelledby="design-t design-d">
+    <title id="design-t">Study design</title>
+    <desc id="design-d">Participants in Ecuador (208) and Norway (138) were randomly assigned to a control, authority or commitment-and-consistency condition, then chose between a fairtrade-labelled and an unlabelled chocolate.</desc>
+    <g font-family="Hanken Grotesk, Arial, sans-serif" font-size="13" fill="#5b6476">
+      <text x="20" y="18">Country</text>
+      <text x="290" y="18">Randomly assigned message</text>
+      <text x="566" y="18">Behaviour</text>
+    </g>
+    <g fill="none" stroke="#9aa3b5" stroke-width="1.5">
+      <path d="M200 92 H240 M200 212 H240 M240 92 V212 M240 152 H262 M262 64 V240 M262 64 H290 M262 152 H290 M262 240 H290"/>
+      <path d="M500 64 H530 M500 152 H530 M500 240 H530 M530 64 V240 M530 152 H566"/>
+    </g>
+    <g font-family="Hanken Grotesk, Arial, sans-serif">
+      <rect x="20" y="62" width="180" height="60" rx="6" fill="#ffffff" stroke="#15203b" stroke-width="1.5"/>
+      <text x="36" y="88" font-size="17" font-weight="600" fill="#15203b">Ecuador</text>
+      <text x="36" y="108" font-size="13" fill="#5b6476">208 participants</text>
+      <rect x="20" y="182" width="180" height="60" rx="6" fill="#ffffff" stroke="#15203b" stroke-width="1.5"/>
+      <text x="36" y="208" font-size="17" font-weight="600" fill="#15203b">Norway</text>
+      <text x="36" y="228" font-size="13" fill="#5b6476">138 participants</text>
+
+      <rect x="290" y="38" width="210" height="52" rx="6" fill="#ffffff" stroke="#9aa3b5" stroke-width="1.5"/>
+      <text x="306" y="69" font-size="15" fill="#1d2433">Control (no message)</text>
+      <rect x="290" y="126" width="210" height="52" rx="6" fill="#f8e7c2" stroke="#e0a12a" stroke-width="2"/>
+      <text x="306" y="150" font-size="15" font-weight="600" fill="#15203b">Authority message</text>
+      <text x="306" y="168" font-size="12" fill="#8a5a00">most effective in both countries</text>
+      <rect x="290" y="214" width="210" height="52" rx="6" fill="#ffffff" stroke="#9aa3b5" stroke-width="1.5"/>
+      <text x="306" y="245" font-size="13.5" fill="#1d2433">Commitment and consistency</text>
+
+      <rect x="566" y="104" width="140" height="96" rx="6" fill="#15203b"/>
+      <text x="580" y="130" font-size="14" font-weight="600" fill="#ffffff">Chooses one</text>
+      <text x="580" y="152" font-size="13" fill="#e0a12a">Fairtrade-labelled</text>
+      <text x="580" y="170" font-size="13" fill="#c9d0e0">or unlabelled</text>
+      <text x="580" y="188" font-size="13" fill="#c9d0e0">chocolate</text>
+    </g>
+  </svg>

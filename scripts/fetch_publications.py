@@ -127,14 +127,14 @@ TYPE_LABEL = {
 SHOWN_TYPES = set(TYPE_LABEL)   # working papers, preprints and other outputs are left off the site
 FILTERS = [("all", "All"), ("journal-article", "Journal articles"), ("book-chapter", "Book chapters"),
            ("book", "Books"), ("conference-paper", "Conference papers")]
-PAPERS_DIR = ROOT / "papers"   # one page per paper; front matter `paper-doi:` links it to the list
+PAPERS_DIR = ROOT / "papers"   # one page per paper, built from papers/data/<slug>.yml
 
 
 def paper_pages() -> dict:
-    """Map DOI -> site path for papers that have their own page."""
+    """Map DOI -> site path for papers that have their own page (papers/data/<slug>.yml)."""
     pages = {}
-    for f in sorted(PAPERS_DIR.glob("*.qmd")):
-        m = re.search(r"^paper-doi:\s*\"?([^\"\n]+)\"?\s*$", f.read_text(), re.M)
+    for f in sorted((PAPERS_DIR / "data").glob("*.yml")):
+        m = re.search(r'^doi:\s*"?([^"\n]+)"?\s*$', f.read_text(), re.M)
         if m:
             pages[m.group(1).strip().lower()] = f"papers/{f.stem}.html"
     return pages

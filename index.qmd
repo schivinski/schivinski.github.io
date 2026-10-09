@@ -3,6 +3,9 @@ pagetitle: "Bruno Schivinski"
 page-layout: custom
 title-block-banner: false
 title-block-style: none
+include-in-header:
+  text: |
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Bruno Schivinski", "givenName": "Bruno", "familyName": "Schivinski", "url": "https://schivinski.github.io/", "jobTitle": "Associate Professor of Marketing (profesor uczelni)", "affiliation": {"@type": "CollegeOrUniversity", "name": "Gdańsk University of Technology", "alternateName": "Politechnika Gdańska", "sameAs": "https://ror.org/014837179", "department": {"@type": "Organization", "name": "Department of Marketing, Faculty of Management and Economics"}}, "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": "0000-0002-4095-1922"}, "sameAs": ["https://orcid.org/0000-0002-4095-1922", "https://scholar.google.pl/citations?user=f-iKGD8AAAAJ", "https://mostwiedzy.pl/pl/bruno-schivinski,813976-1"], "knowsAbout": ["consumer behaviour", "consumer engagement with brand-related social media content", "consumers' online brand-related activities (COBRAs)", "brand equity", "sustainable consumption", "gaming disorder", "structural equation modelling", "scale development", "marketing psychology", "digital marketing"]}</script>
 listing:
   id: latest
   contents: watch/posts

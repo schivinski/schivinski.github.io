@@ -35,8 +35,14 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install Python packages
+        run: pip install pyyaml
+
       - name: Pull publications from ORCID
         run: python scripts/fetch_publications.py
+
+      - name: Build paper pages and llms.txt
+        run: python scripts/build_paper_pages.py
 
       - name: Save refreshed publication cache
         if: github.event_name == 'workflow_dispatch' && inputs.publish

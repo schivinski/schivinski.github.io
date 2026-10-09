@@ -6,12 +6,17 @@ project:
     - "watch/**/*.qmd"
     - "papers/*.qmd"
     - "!README.md"
+  resources:
+    - robots.txt
+    - llms.txt
 
 website:
   title: "Bruno Schivinski"
   description: "Consumer behaviour, marketing psychology and digital media research."
   site-url: "https://schivinski.github.io"
   favicon: assets/favicon.svg
+  open-graph: true
+  twitter-card: true
   navbar:
     left:
       - href: index.qmd

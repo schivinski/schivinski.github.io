@@ -1,0 +1,80 @@
+# How paper pages are made
+
+Agreed with Bruno, 9 October 2026. This is the working guide for every paper page on
+schivinski.github.io. Pages are built one paper at a time; the next paper starts only
+after Bruno locks the current one.
+
+## Goal
+
+Each page should make the paper easy to understand, easy to cite and easy to find, for
+people and for machines (search engines and AI assistants), including readers who
+cannot access the article itself.
+
+## Workflow for one paper
+
+1. **Source.** Work from the full text of the article (PDF from Bruno, or the open-access
+   version). Never invent or estimate numbers, materials or links; leave a field empty
+   until it is confirmed.
+2. **Data file.** Create `papers/data/<slug>.yml` (copy an existing one). The slug is a
+   short lowercase version of the title, e.g. `more-alike-than-unalike`.
+3. **Figure.** Draw the study design (or the model) as an SVG in `papers/figures/`.
+4. **Build.** `scripts/build_paper_pages.py` generates the page, the Google Scholar tags,
+   the structured data and the `llms.txt` entry. Never edit `papers/<slug>.qmd` by hand.
+5. **Review.** Bruno checks every statement in the private preview. Status stays `draft`
+   until he approves; then set `status: locked`.
+6. **Publish.** Only after approval, through the manual publish run.
+
+## Page sections, in order
+
+| # | Section | Purpose |
+|---|---|---|
+| 1 | Header: authors (ORCID links, Bruno in bold), journal reference, badges, "Read the article", "Copy citation" | Identity and access |
+| 2 | In brief | Two-sentence plain-language takeaway |
+| 3 | Key findings | Self-contained, citable sentences, each ending with the citation, e.g. "(Cardenas et al., 2027)", with numbers where the paper reports them |
+| 4 | At a glance | Design, participants, conditions or variables, outcome, analysis |
+| 5 | Design or model figure | Drawn as SVG, never a screenshot |
+| 6 | Results chart | Only with real numbers from the article |
+| 7 | The question | The gap the paper addresses |
+| 8 | Implications | Practical implications, Theoretical implications |
+| 9 | Questions this paper answers | Three questions phrased as people ask them, each answered with the citation |
+| 10 | Key concepts | Short definitions of the paper's main constructs |
+| 11 | Open science | Full text, preregistration, data, materials, scale items (only links that exist) |
+| 12 | How to cite | APA 7 only (no BibTeX on the page) |
+| 13 | Related publications | Bruno's own related papers |
+
+Sections with no confirmed content are left out rather than shown empty.
+
+## Writing rules
+
+- Plain, specific academic English (British spelling). No marketing tone, no filler,
+  no rhetorical flourishes.
+- Every finding states who, where, how many, and what was found, and carries its citation
+  inside the sentence so it stays attributed when quoted.
+- Only claims the paper makes. Hedge where the paper hedges.
+- Write summaries in our own words; do not copy the abstract.
+
+## Machine-readable layer (generated automatically)
+
+- Google Scholar / Zotero `citation_*` meta tags (add `pdf_url` when a legal full text is hosted).
+- schema.org `ScholarlyArticle` (authors with ORCID, journal, DOI, licence, keywords) and
+  `FAQPage` from the questions section.
+- Open Graph and Twitter cards for link previews.
+- Entry in `llms.txt`, the site guide for AI tools.
+- Site-wide: `robots.txt` welcomes search and AI crawlers; the home page carries a schema.org
+  `Person` profile linking ORCID, Google Scholar and MOST Wiedzy.
+
+## Data file fields
+
+`status, title, doi, journal, issn, publisher, volume, issue, article_number or pages,
+published (YYYY-MM), published_label, open_access, licence, licence_url, pdf_url,
+authors (given, family, orcid, me), cite_short, badges, keywords, in_brief, findings
+(headline, text), glance (label, value), design_figure (file, caption), results (title,
+unit, note, groups of bars), question, implications (practical, theoretical), faq (q, a),
+concepts (term, definition), open_science (label, note, url), related (DOIs)`
+
+## Before locking a page
+
+- [ ] Every number checked against the article
+- [ ] Author names and spelling match the published version
+- [ ] Preregistration, data and materials links added if they exist
+- [ ] Bruno has read every section
