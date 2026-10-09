@@ -64,7 +64,7 @@ def fetch() -> list[dict]:
 
     pubs, seen = [], set()
     for w in works:
-        title = (((w.get("title") or {}).get("title") or {}).get("value") or "").strip()
+        title = html.unescape((((w.get("title") or {}).get("title") or {}).get("value") or "")).strip()
         if not title:
             continue
         doi = ext_id(w, "doi")
@@ -84,7 +84,7 @@ def fetch() -> list[dict]:
             "title": title,
             "year": int(year) if year and year.isdigit() else None,
             "type": w.get("type") or "other",
-            "venue": ((w.get("journal-title") or {}).get("value") or "").strip(),
+            "venue": html.unescape(((w.get("journal-title") or {}).get("value") or "")).strip(),
             "authors": authors,
             "doi": doi,
             "url": url,
