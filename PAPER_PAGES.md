@@ -28,7 +28,7 @@ cannot access the article itself.
 
 | # | Section | Purpose |
 |---|---|---|
-| 1 | Header: authors (ORCID links, Bruno in bold), journal reference, badges, "Read the article", "Copy citation" | Identity and access |
+| 1 | Header: authors (ORCID links, Bruno in bold), journal reference, study badges, keywords, "Read the article", "Copy citation" | Identity, access and search terms |
 | 2 | In brief | Two-sentence plain-language takeaway |
 | 3 | Key findings | Self-contained, citable sentences, each ending with the citation, e.g. "(Cardenas et al., 2027)", with numbers where the paper reports them |
 | 4 | At a glance | Design, participants, conditions or variables, outcome, analysis |
@@ -44,6 +44,22 @@ cannot access the article itself.
 | 14 | Related publications | Bruno's own related papers, preferably those the article cites |
 
 Sections with no confirmed content are left out rather than shown empty.
+
+## Keywords
+
+Badges describe the study (open access, preregistered, design, setting). Keywords are the
+search terms, shown on the page and in the metadata. Aim for 25 to 40 per paper, grouped as:
+
+1. the article's own author keywords;
+2. what the study is about, including the everyday synonyms people search
+   (e.g. "green consumer behaviour" alongside "pro-environmental behaviour");
+3. theories and constructs;
+4. culture, country or population;
+5. method;
+6. application areas (marketing practice, policy, SDGs).
+
+Every keyword must describe something the paper actually covers; no unrelated popular
+terms and no near-identical repeats.
 
 ## Writing rules
 

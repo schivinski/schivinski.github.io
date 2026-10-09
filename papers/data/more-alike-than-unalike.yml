@@ -39,17 +39,47 @@ authors:
 cite_short: "Cardenas et al., 2027"
 badges: ["Preregistered", "Field experiment", "Real choice", "Ecuador and Norway"]
 keywords:
-  - sustainable consumption
-  - social influence
-  - authority principle
-  - commitment and consistency
-  - fairtrade
-  - cross-cultural consumer behaviour
+  # Article's own keywords
   - WEIRD samples
   - Latin America
-  - field experiment
+  - authority principle
+  - commitment and consistency
+  - sustainability
+  - fairtrade
+  # What the study is about
+  - sustainable consumption
+  - sustainable food choice
   - pro-environmental behaviour
-
+  - green consumer behaviour
+  - ethical consumption
+  - fairtrade label
+  - sustainability labels
+  - eco-labels
+  - chocolate
+  # Theory
+  - social influence
+  - persuasion
+  - Cialdini's principles of persuasion
+  - expert endorsement
+  - source credibility
+  - match-up effect
+  - nudging
+  # Culture
+  - cross-cultural consumer behaviour
+  - individualism and collectivism
+  - power distance
+  - majority world
+  - Ecuador
+  - Norway
+  # Method
+  - field experiment
+  - preregistered study
+  - behavioural choice
+  # Application
+  - sustainability marketing
+  - social marketing
+  - point-of-purchase messaging
+  - SDG 12 responsible consumption
 in_brief: >-
   When a message said that sustainability experts recommend choosing sustainably, 57% of people picked the
   fairtrade chocolate, against 34% with no message. The authority message worked equally well in Ecuador and

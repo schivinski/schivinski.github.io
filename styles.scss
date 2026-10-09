@@ -235,3 +235,10 @@ a:hover { color: $amber-text; }
 .materials dt { font-size: .82rem; font-weight: 600; color: $amber-text; }
 .materials dd { margin: .1rem 0 0; }
 .open-list li strong { font-weight: 600; color: $ink; }
+
+/* ---------- paper keywords ---------- */
+.paper-keywords { display: flex; gap: .7rem; align-items: baseline; margin: -.3rem 0 1.2rem; }
+.paper-keywords .kw-label { font-size: .8rem; font-weight: 600; color: $amber-text; flex: none; }
+.paper-keywords ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .3rem .35rem; }
+.paper-keywords li { font-size: .78rem; color: $muted; background: rgba($ink, .05); border-radius: 4px; padding: .1rem .5rem; }
+@media (max-width: 560px) { .paper-keywords { flex-direction: column; gap: .35rem; } }

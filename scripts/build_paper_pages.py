@@ -104,6 +104,7 @@ def head_layer(d: dict, slug: str, url: str) -> str:
         "sameAs": f"https://doi.org/{d['doi']}",
         "abstract": abstract, "description": plain(d["in_brief"]),
         "keywords": ", ".join(d.get("keywords", [])), "inLanguage": "en",
+        "about": [{"@type": "DefinedTerm", "name": k} for k in d.get("keywords", [])],
         "isAccessibleForFree": bool(d.get("open_access")),
     }
     if d.get("article_number"):
@@ -163,12 +164,16 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
     elif d.get("pages"):
         ref += f", pages {esc(d['pages'])}"
     ref += f", {esc(d.get('published_label', d['published'][:4]))}"
+    kw = d.get("keywords", [])
+    kw_html = ('<div class="paper-keywords"><span class="kw-label">Keywords</span><ul>'
+               + "".join(f"<li>{esc(k)}</li>" for k in kw) + "</ul></div>") if kw else ""
     badges = (['<li class="badge badge-open">Open access</li>'] if d.get("open_access") else []) + \
              [f'<li class="badge">{esc(b)}</li>' for b in d.get("badges", [])]
     out.append(f'''<div class="paper-head">
   <p class="paper-authors">{", ".join(names)}</p>
   <p class="paper-ref">{ref}</p>
   <ul class="badges" aria-label="Article features">{"".join(badges)}</ul>
+  {kw_html}
   <div class="paper-actions">
     <a class="btn btn-primary-ink" href="https://doi.org/{esc(d['doi'])}">Read the article</a>
     <button type="button" class="btn btn-line" data-copy="cite-apa">Copy citation</button>
