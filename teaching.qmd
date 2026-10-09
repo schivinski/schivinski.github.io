@@ -1,0 +1,16 @@
+---
+title: "Teaching"
+---
+
+<!-- TO COMPLETE: add course titles, level (BA/MA) and semester.
+     Copy the block below for each course. -->
+
+I teach marketing courses in English at Bachelor's and Master's levels in the
+Faculty of Management and Economics, Gdańsk University of Technology.
+
+<!--
+## Course title
+*Level · Semester*
+
+One or two sentences on what the course covers.
+-->

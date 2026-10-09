@@ -1,0 +1,27 @@
+# Marketing Watch configuration (agreed 2026-10-09).
+# The weekly digest draft is built from these sources and opened as a pull
+# request; nothing is published until Bruno merges it.
+
+cadence: weekly            # drafted Monday, live after approval
+items_per_digest: [5, 8]
+summary_length: "2-3 sentences, own words, link to original, no reproduced abstracts"
+language: en
+scope:
+  - consumer behaviour
+  - digital and social media
+  - AI in marketing
+  - branding
+
+journals:                  # ISSNs checked against Crossref
+  - { name: Journal of Marketing,                          issn: [0022-2429, 1547-7185] }
+  - { name: Journal of Marketing Research,                 issn: [0022-2437, 1547-7193] }
+  - { name: Journal of Consumer Research,                  issn: [0093-5301, 1537-5277] }
+  - { name: Journal of the Academy of Marketing Science,   issn: [0092-0703, 1552-7824] }
+  - { name: Journal of Consumer Psychology,                issn: [1057-7408, 1532-7663] }
+  - { name: International Journal of Research in Marketing, issn: [0167-8116] }
+  - { name: European Journal of Marketing,                 issn: [0309-0566, 1758-7123] }
+  - { name: Journal of Interactive Marketing,              issn: [1094-9968, 1520-6653] }
+  - { name: Journal of Advertising,                        issn: [0091-3367, 1557-7805] }
+  - { name: Psychology & Marketing,                        issn: [0742-6046, 1520-6793] }
+
+practice_feeds: []         # trade outlets with RSS; to be added

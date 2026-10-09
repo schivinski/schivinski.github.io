@@ -1,0 +1,46 @@
+---
+title: "Bruno Schivinski"
+subtitle: "Associate Professor (profesor uczelni), Department of Marketing, Gdańsk University of Technology"
+page-layout: article
+listing:
+  id: latest
+  contents: watch/posts
+  sort: "date desc"
+  max-items: 3
+  type: table
+  fields: [date, title]
+  sort-ui: false
+  filter-ui: false
+---
+
+<!-- DRAFT BIO: written from public information. Replace with your own wording. -->
+
+::: {.lede}
+I study how consumers engage with brands and with each other in digital media,
+combining consumer behaviour, marketing psychology and quantitative methods.
+:::
+
+My research focuses on social media brand communication and consumer engagement,
+consumer-based brand equity, and digital consumer behaviour, including problematic
+gaming and other behavioural risks online. Most of my work uses survey-based
+structural equation modelling.
+
+I am a profesor uczelni in the Department of Marketing (Katedra Marketingu),
+Faculty of Management and Economics, Gdańsk University of Technology, where I teach
+marketing courses in English at Bachelor's and Master's levels.
+
+::: {.profile-links}
+[Publications](publications.qmd)
+[Google Scholar](https://scholar.google.pl/citations?user=f-iKGD8AAAAJ)
+[ORCID](https://orcid.org/0000-0002-4095-1922)
+[MOST Wiedzy](https://mostwiedzy.pl/pl/bruno-schivinski,813976-1)
+[Email](mailto:bruno.schivinski@pg.edu.pl)
+:::
+
+## Latest from Marketing Watch
+
+A weekly digest of new marketing research and practice, drafted with AI and
+reviewed by me before publication.
+
+::: {#latest}
+:::

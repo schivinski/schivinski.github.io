@@ -1,0 +1,8 @@
+---
+title: "Publications"
+page-layout: article
+---
+
+::: {#publications}
+{{< include _generated/publications.md >}}
+:::

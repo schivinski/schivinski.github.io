@@ -1,0 +1,2 @@
+# Publications to hide from the website (they stay on ORCID).
+# One DOI (e.g. 10.1108/jpbm-09-2025-6337) or one exact title per line.

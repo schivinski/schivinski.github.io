@@ -1,0 +1,34 @@
+/*-- scss:defaults --*/
+$primary: #7a1f2b;            // deep claret
+$body-color: #22252a;
+$link-color: $primary;
+$navbar-bg: #ffffff;
+$navbar-fg: #22252a;
+$navbar-hl: $primary;
+$footer-bg: #f6f4f1;
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-family: "Source Serif 4", Georgia, serif;
+$headings-font-weight: 600;
+
+/*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap");
+
+body { font-size: 1.02rem; line-height: 1.65; }
+.navbar { border-bottom: 1px solid #e7e3dd; }
+.navbar-brand .navbar-title { font-family: $headings-font-family; font-weight: 600; }
+h2 { margin-top: 2.2rem; padding-bottom: .3rem; border-bottom: 1px solid #e7e3dd; }
+h3 { font-size: 1.05rem; color: #6b6f76; font-family: $font-family-sans-serif; margin-top: 1.4rem; }
+
+.small-note { font-size: .88rem; color: #6b6f76; }
+
+/* publication list */
+#publications ul { padding-left: 0; list-style: none; }
+#publications li { margin: 0 0 .85rem; padding-left: .9rem; border-left: 2px solid #e7e3dd; }
+#publications li:hover { border-left-color: $primary; }
+
+/* about page */
+.lede { font-size: 1.15rem; color: #3b3f45; }
+.profile-links a { display: inline-block; margin: 0 .9rem .5rem 0; font-weight: 500; }
+
+/* digest disclosure */
+.ai-note { font-size: .85rem; color: #6b6f76; border-top: 1px solid #e7e3dd; margin-top: 2.5rem; padding-top: .8rem; }

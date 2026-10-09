@@ -1,0 +1,17 @@
+---
+title: "Marketing Watch"
+subtitle: "New marketing research and practice, every week"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
+  fields: [date, title, description, categories]
+page-layout: full
+---
+
+Each digest collects new papers from leading marketing and consumer research
+journals, plus notable developments in marketing practice, with short summaries
+and links to the originals. Digests are drafted with AI assistance and reviewed by
+me before they are published.

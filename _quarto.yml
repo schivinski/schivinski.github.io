@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "watch/**/*.qmd"
+    - "!README.md"
+
+website:
+  title: "Bruno Schivinski"
+  description: "Consumer behaviour, marketing psychology and digital media research."
+  site-url: "https://schivinski.github.io"
+  favicon: assets/favicon.svg
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: watch/index.qmd
+        text: Marketing Watch
+    right:
+      - icon: mortarboard-fill
+        href: https://scholar.google.pl/citations?user=f-iKGD8AAAAJ
+        aria-label: Google Scholar
+      - text: "ORCID"
+        href: https://orcid.org/0000-0002-4095-1922
+  page-footer:
+    left: "© Bruno Schivinski"
+    right:
+      - text: "Gdańsk University of Technology"
+        href: https://pg.edu.pl
+      - text: "RSS"
+        href: watch/index.xml
+
+format:
+  html:
+    theme:
+      light: [flatly, styles.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: false
