@@ -59,6 +59,28 @@ differs. Many originals were lost, so each one is regenerated from the published
   manuscript only; readers who need them download the PDF.
 - Older papers may contain reporting mistakes; keep them as published and flag them to Bruno.
 
+## Scale papers: the "Use the scale" toolkit
+
+When a paper develops or validates a measurement scale, the page gets a ready-to-use toolkit so other
+researchers can run the scale the same day (and cite it):
+
+- A `scale` block in the data file: name, short name, summary, facts, response labels and codes,
+  introduction, brand (or target) question, block instruction, dimensions with item IDs and final item
+  wording, administration and scoring guidance, `intro_note`, and `downloads`.
+- Item wording comes from the article's final item list (appendix), with the target written as a
+  placeholder such as `[BRAND]`. Welcome text, screening questions and instructions that the article does
+  not print are labelled "suggested wording" on the page and in the files.
+- `scripts/build_scale_kit.py <slug>` writes, from that one item list, into `papers/materials/<short>/`:
+  a print-ready questionnaire PDF, a Qualtrics Advanced Format import file, a CSV codebook, an R script
+  (scoring, reliability, CFA with lavaan, hierarchical model, bootstrap mediation where relevant) and an
+  Mplus input file. Run the R script on simulated data before release.
+- The page shows a "Use the scale" button in the header and a section after Key findings with the
+  files, "Copy the full questionnaire" and "Copy the item list" buttons, a rendered questionnaire,
+  administration and scoring lists, and any benchmark table (tables marked `section: scale`).
+- The scale is also described in the JSON-LD (`hasPart`, with the download files) and in `llms.txt`.
+- Draft downloads (manuscript and materials) are removed from public builds by
+  `scripts/strip_drafts.py` until the page is locked.
+
 ## Page sections, in order
 
 | # | Section | Purpose |
@@ -123,7 +145,7 @@ authors (given, family, orcid, affiliation, me), cite_short, badges, keywords, i
 (headline, text), glance (label, value), design_figure (file, caption), results (title,
 unit, note, groups of bars), question, implications (practical, theoretical), limitations, faq (q, a),
 concepts (term, definition), materials (label, text), materials_note, figures (file, title, caption),
-tables (id, title, columns, align, rows, note, collapsed, web), aam (file, statement), open_science (label, note, url;
+tables (id, title, columns, align, rows, note, collapsed, web, section), aam (file, statement), scale (see above), open_science (label, note, url;
 url optional), related (DOIs)`
 
 ## Before locking a page
