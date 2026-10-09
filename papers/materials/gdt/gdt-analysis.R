@@ -12,6 +12,9 @@ library(lavaan)
 
 dat <- read.csv("your_data.csv")
 
+# Keep eligible respondents (screen: 0 = No; 1 = Yes)
+dat <- subset(dat, screen == 1)
+
 items <- list(
   gaming_disorder = c("gdt1", "gdt2", "gdt3", "gdt4")
 )

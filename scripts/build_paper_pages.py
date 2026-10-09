@@ -143,7 +143,9 @@ def scale_plain(sc: dict) -> str:
     for kind, title, x in scale_parts(sc):
         lines.append(title.upper())
         if kind == "pre":
-            lines += [plain(x["text"]), "[Yes / No]" if x["type"] == "yesno" else "[open text answer]"]
+            opts = x.get("options", [{"code": 1, "label": "Yes"}, {"code": 2, "label": "No"}])
+            lines += [plain(x["text"]), ("[" + " / ".join(f"{o['label']} = {o['code']}" for o in opts) + "]")
+                      if x["type"] == "yesno" else "[open text answer]"]
             if x.get("note"):
                 lines.append(plain(x["note"]))
             lines.append("")
@@ -184,7 +186,10 @@ def scale_html(d: dict, tables: list) -> str:
              f'<p>{esc(intro["text"])}</p></div>']
     for kind, title, x in scale_parts(sc):
         if kind == "pre":
-            answer = ('<div class="q-yesno" aria-hidden="true"><span class="q-dot"></span> Yes <span class="q-dot"></span> No</div>'
+            opts = x.get("options", [{"code": 1, "label": "Yes"}, {"code": 2, "label": "No"}])
+            answer = ('<div class="q-yesno" aria-hidden="true">' + "".join(
+                f'<span class="q-opt"><span class="q-dot"></span> {esc(o["label"])} <span class="q-optcode">({o["code"]})</span></span>'
+                for o in opts) + '</div>'
                       if x["type"] == "yesno" else '<div class="q-textbox" aria-hidden="true">Type your answer</div>')
             who = "<strong>For researchers:</strong> " if x.get("note_audience") == "researcher" else ""
             note = f'<p class="q-note">{who}{esc(x["note"])}</p>' if x.get("note") else ""

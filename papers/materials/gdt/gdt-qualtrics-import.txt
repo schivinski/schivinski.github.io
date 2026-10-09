@@ -11,8 +11,8 @@ The questions below are about your gaming activity during the past year (i.e., l
 [[ID:SCREEN]]
 Have you played any video game in the past 12 months?
 [[Choices]]
-Yes
 No
+Yes
 
 [[Block:Gaming disorder]]
 

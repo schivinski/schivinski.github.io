@@ -290,10 +290,10 @@ def render_top(pubs: list[dict], cites: dict, n: int = 10) -> str:
             f'<h3 class="pub-title"><a href="{esc(href)}">{esc(p["title"].rstrip("."))}</a></h3>'
             f'<p class="pub-meta"><span class="pub-venue">{esc(p["venue"])}</span>'
             f'<span class="top-year">{p["year"]}</span>'
-            f'<span class="top-cites">{cites[doi]:,} citations</span>{more}</p></div></li>')
-    return ("```{=html}\n<ol class=\"top-papers\">" + "".join(items) + "</ol>\n"
-            "<p class=\"top-note\">Ranked by citations recorded by Crossref, which counts fewer citations than "
-            "Google Scholar.</p>\n```\n")
+            f'{more}</p></div></li>')
+    # Citation counts are used for ranking only and not shown: Crossref counts run far below Google Scholar's,
+    # and Google Scholar cannot be queried from the build.
+    return "```{=html}\n<ol class=\"top-papers\">" + "".join(items) + "</ol>\n```\n"
 
 
 def main() -> int:

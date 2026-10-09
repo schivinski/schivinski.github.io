@@ -65,6 +65,11 @@ def ascii_only(t: str) -> str:
              .replace("“", '"').replace("”", '"').encode("ascii", "ignore").decode())
 
 
+def yesno_options(pq: dict) -> list:
+    """Answer options of a yes/no question as (code, label); order as listed."""
+    return [(o["code"], o["label"]) for o in pq.get("options", [{"code": 1, "label": "Yes"}, {"code": 2, "label": "No"}])]
+
+
 def score_word(s: dict) -> str:
     return "sum" if s.get("score") == "sum" else "mean"
 
@@ -98,6 +103,10 @@ def build(slug: str) -> list[Path]:
         w = csv.writer(f)
         w.writerow(["variable", "dimension", "item_text", "label_in_article", "loading_in_article",
                     "response_coding", "score"])
+        for pq in s.get("pre_questions", []):
+            pcode = "; ".join(f"{c} = {l}" for c, l in yesno_options(pq)) if pq["type"] == "yesno" else "open text"
+            keep = (f"keep respondents with {var(pq['id'])} = {pq['keep']}" if "keep" in pq else "")
+            w.writerow([var(pq["id"]), pq["title"], pq["text"], "", "", pcode, keep])
         for dm in dims:
             first, last = var(dm["items"][0]["id"]), var(dm["items"][-1]["id"])
             for it in dm["items"]:
@@ -112,7 +121,8 @@ def build(slug: str) -> list[Path]:
     for pq in s.get("pre_questions", []):
         q += [f"[[Block:{pq['title']}]]", ""]
         if pq["type"] == "yesno":
-            q += ["[[Question:MC:SingleAnswer:Vertical]]", f"[[ID:{pq['id']}]]", pq["text"], "[[Choices]]", "Yes", "No", ""]
+            q += ["[[Question:MC:SingleAnswer:Vertical]]", f"[[ID:{pq['id']}]]", pq["text"], "[[Choices]]"]
+            q += [l for c, l in yesno_options(pq)] + [""]
         else:
             q += ["[[Question:TE:SingleLine]]", f"[[ID:{pq['id']}]]", pq["text"], ""]
         if pq.get("note") and pq.get("note_audience") != "researcher":
@@ -152,7 +162,7 @@ def build(slug: str) -> list[Path]:
 library(lavaan)
 
 dat <- read.csv("your_data.csv")
-
+{"".join(chr(10) + "# Keep eligible respondents (" + var(pq["id"]) + ": " + "; ".join(f"{c} = {l}" for c, l in yesno_options(pq)) + ")" + chr(10) + "dat <- subset(dat, " + var(pq["id"]) + " == " + str(pq["keep"]) + ")" + chr(10) for pq in s.get("pre_questions", []) if "keep" in pq)}
 items <- list(
   {item_lists}
 )
@@ -225,8 +235,8 @@ OUTPUT:   STANDARDIZED MODINDICES;
     for pq in s.get("pre_questions", []):
         part += 1
         answer = ("#box(width: 70%, height: 18pt, stroke: (bottom: 0.6pt))" if pq["type"] == "text" else
-                  "#box(width: 9pt, height: 9pt, radius: 50%, stroke: 0.6pt) Yes #h(2em) "
-                  "#box(width: 9pt, height: 9pt, radius: 50%, stroke: 0.6pt) No")
+                  " #h(2em) ".join(f"#box(width: 9pt, height: 9pt, radius: 50%, stroke: 0.6pt) {typ_esc(l)}"
+                                   for c, l in yesno_options(pq)))
         who = "For researchers: " if pq.get("note_audience") == "researcher" else ""
         note = f"#v(4pt)\n#text(size: 9.5pt, style: \"italic\")[{typ_esc(who + pq['note'])}]" if pq.get("note") else ""
         pre_typ.append(f'''#text(size: 12pt, weight: "bold")[Part {part - 1}. {typ_esc(pq["title"])}]

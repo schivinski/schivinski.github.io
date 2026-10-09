@@ -2,7 +2,7 @@
 # Source: full text, International Journal of Mental Health and Addiction 19(2), 508-528 (open access, CC BY 4.0;
 # PDF supplied by Bruno, 10 Oct 2026)
 # Status: draft (set to "locked" once Bruno approves every statement)
-status: draft
+status: locked
 
 title: "Measurement and conceptualization of gaming disorder according to the World Health Organization framework: The development of the Gaming Disorder Test"
 doi: "10.1007/s11469-019-00088-z"
@@ -140,8 +140,10 @@ scale:
       type: yesno
       source: article
       text: "Have you played any video game in the past 12 months?"
-      note: "Respondents who answer “No” do not continue. This is the eligibility question used in the article."
+      note: "Code No = 0 and Yes = 1 (in Qualtrics, set these as recode values). Respondents who answer “No” do not continue. This is the eligibility question used in the article."
       note_audience: researcher
+      options: [{ code: 0, label: "No" }, { code: 1, label: "Yes" }]
+      keep: 1
   block_instruction: "Please indicate how often the following issues occurred on average over the past twelve months until today."
   block_instruction_source: article
   dimensions:
