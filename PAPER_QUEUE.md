@@ -9,7 +9,7 @@ Crossref and run lower than Google Scholar's. Only journal articles get full pag
 | # | Year | Paper | Journal | Cited | Status |
 |---|---|---|---|---|---|
 | 1 | 2016 | The effect of social media communication on consumer perceptions of brands | Journal of Marketing Communications | 560 | locked (`social-media-communication-brand-perceptions`) |
-| 2 | 2016 | Measuring consumers’ engagement with brand-related social-media content: Development an… | Journal of Advertising Research | 472 |  |
+| 2 | 2016 | Measuring consumers’ engagement with brand-related social-media content: Development an… | Journal of Advertising Research | 472 | locked (`measuring-consumer-engagement-social-media-content`) |
 | 3 | 2021 | Measurement and Conceptualization of Gaming Disorder According to the World Health Orga… | International Journal of Mental Health and Addiction | 234 |  |
 | 4 | 2015 | The impact of brand communication on brand equity through Facebook | Journal of Research in Interactive Marketing | 185 |  |
 | 5 | 2019 | Psychopathological symptoms and gaming motives in disordered gaming—a psychometric comp… | Journal of Clinical Medicine | 122 |  |
