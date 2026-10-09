@@ -23,7 +23,9 @@ All pages are plain text and can be edited directly on github.com (pencil icon):
 | Marketing Watch digests | `watch/posts/<date>-<slug>/index.qmd` |
 | Colours and fonts | `styles.scss` |
 
-Every saved change rebuilds and republishes the site automatically (about 2 minutes).
+**Review mode (current):** saving a change only *builds* the site, to check
+nothing is broken. To publish, open **Actions → Build and publish site → Run
+workflow**, tick *Publish to schivinski.github.io*, and run it.
 
 ## Marketing Watch
 

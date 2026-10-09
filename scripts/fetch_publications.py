@@ -15,6 +15,7 @@ import json
 import re
 import sys
 import time
+import unicodedata
 import urllib.request
 from pathlib import Path
 
@@ -39,7 +40,9 @@ def get(url: str) -> dict:
     req = urllib.request.Request(url, headers={"Accept": "application/json",
                                                "User-Agent": "schivinski.github.io site builder"})
     with urllib.request.urlopen(req, timeout=60) as r:
-        return json.load(r)
+        # some ORCID records store Polish letters in decomposed form (s + accent);
+        # normalise so search and sorting treat "ś" as one character
+        return json.loads(unicodedata.normalize("NFC", r.read().decode("utf-8")))
 
 
 def norm_title(t: str) -> str:
