@@ -20,6 +20,6 @@ marketing practice: platforms, advertising, brands and AI.
 **How it is made.** Summaries are drafted with AI assistance from each item's
 public metadata, written in our own words, and linked to the original source. I
 review every digest before it goes online. Summaries are not a substitute for
-reading the paper; if you spot an error, please [let me know](mailto:bruno.schivinski@pg.edu.pl).
+reading the original paper.
 
 You can follow new digests through the [RSS feed](../../index.xml).

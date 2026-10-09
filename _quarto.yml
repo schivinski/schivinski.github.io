@@ -4,6 +4,7 @@ project:
   render:
     - "*.qmd"
     - "watch/**/*.qmd"
+    - "papers/*.qmd"
     - "!README.md"
 
 website:
@@ -29,8 +30,6 @@ website:
   page-footer:
     left: "Bruno Schivinski, Department of Marketing, Gdańsk University of Technology"
     right:
-      - text: "Email"
-        href: mailto:bruno.schivinski@pg.edu.pl
       - text: "RSS"
         href: watch/index.xml
 

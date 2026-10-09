@@ -148,3 +148,71 @@ a:hover { color: $amber-text; }
 
 /* headings inside designed sections carry no rule */
 .home-section h2, .watch-panel h2, .section-head h2 { border-bottom: 0; padding-bottom: 0; }
+
+/* ---------- home: portrait ---------- */
+.id-row { display: flex; align-items: center; gap: 1.4rem; margin-bottom: 1rem; }
+.id-row h1 { margin: 0; }
+.portrait { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; flex: none;
+  box-shadow: 0 0 0 3px $ink, 0 0 0 5px rgba($amber, .85); }
+@media (max-width: 560px) { .id-row { flex-direction: column; align-items: flex-start; } .portrait { width: 112px; height: 112px; } }
+
+/* ---------- publication list: link to paper pages ---------- */
+.pub-more { font-size: .8rem; font-weight: 600; color: $ink; background: rgba($amber, .22); border-radius: 999px; padding: .05rem .55rem; }
+
+/* ---------- paper pages ---------- */
+.paper-head { padding-bottom: 1.6rem; border-bottom: 1px solid $rule; margin-bottom: 1.8rem; }
+.paper-authors { font-size: 1.08rem; margin: 0 0 .3rem; }
+.paper-authors a { color: $text; text-decoration-color: $rule; }
+.paper-authors a:hover { text-decoration-color: $amber; }
+.paper-ref { color: $muted; margin: 0 0 1rem; }
+.badges { list-style: none; padding: 0; margin: 0 0 1.2rem; display: flex; flex-wrap: wrap; gap: .45rem; }
+.badge { font-size: .82rem; font-weight: 500; color: $ink; border: 1px solid $rule; background: $surface; border-radius: 999px; padding: .2rem .7rem; }
+.badge-open { border-color: $amber; background: rgba($amber, .16); }
+.paper-actions { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+.btn-primary-ink { background: $ink; color: #fff !important; border: 1px solid $ink; text-decoration: none; }
+.btn-primary-ink:hover { background: $ink-soft; color: #fff; }
+.btn-line { background: $surface; color: $ink; border: 1px solid $rule; }
+.btn-line:hover { border-color: $ink; }
+.paper-actions .btn { font-weight: 500; border-radius: 6px; padding: .5rem 1rem; }
+.copy-status { color: $amber-text; font-size: .9rem; font-weight: 500; }
+
+.paper-lede { font-family: $headings-font-family; font-size: 1.42rem; line-height: 1.45; color: $ink; margin: 0 0 2.2rem; }
+.paper-section { margin-bottom: 2.2rem; }
+.paper-section h2 { font-size: 1.5rem; border: 0; padding: 0; margin: 0 0 .8rem; }
+.glance { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin: 0; background: $surface; border: 1px solid $rule; border-radius: 6px; }
+.glance > div { padding: .9rem 1.1rem; border-top: 1px solid $rule; }
+.glance > div:nth-child(-n+2) { border-top: 0; }
+.glance > div:nth-child(odd) { border-right: 1px solid $rule; }
+.glance > div:last-child:nth-child(odd) { grid-column: 1 / -1; border-right: 0; }
+.glance dt { font-size: .82rem; font-weight: 600; color: $amber-text; margin-bottom: .15rem; }
+.glance dd { margin: 0; font-size: .97rem; line-height: 1.45; }
+
+.paper-figure { margin: 0 0 2.4rem; background: $surface; border: 1px solid $rule; border-radius: 6px; padding: 1.2rem 1.2rem 1rem; }
+.paper-figure svg { width: 100%; height: auto; display: block; }
+.paper-figure figcaption { color: $muted; font-size: .9rem; margin-top: .7rem; }
+
+.findings { padding-left: 1.3rem; display: grid; gap: .8rem; margin: 0; }
+.findings li::marker { font-family: $headings-font-family; font-weight: 600; color: $amber-text; }
+.implications { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+.implications > div { border-top: 3px solid $ink; padding-top: .8rem; }
+.implications h3 { font-size: 1.12rem; margin: 0 0 .4rem; }
+.implications p { margin: 0; color: $text; }
+
+.cite-block { background: $surface; border: 1px solid $rule; border-radius: 6px; padding: 1rem 1.1rem; font-size: .95rem; }
+.cite-bib { font-size: .8rem; background: $surface; border: 1px solid $rule; border-radius: 6px; padding: 1rem 1.1rem; overflow-x: auto; white-space: pre; }
+.licence { color: $muted; font-size: .88rem; }
+.back-link { margin-top: 2.5rem; font-weight: 500; }
+
+@media (max-width: 640px) {
+  .glance, .implications { grid-template-columns: 1fr; }
+  .glance > div { border-right: 0 !important; border-top: 1px solid $rule !important; }
+  .glance > div:first-child { border-top: 0 !important; }
+  .paper-lede { font-size: 1.22rem; }
+}
+
+/* Quarto pads <section> elements itself; restate section spacing with an id to win */
+#quarto-content .home-hero { padding-block: 3.25rem 3.75rem; }
+#quarto-content .home-section { padding-block: 3.2rem 1rem; }
+/* design figure: keep text legible on phones by scrolling sideways inside the figure */
+.figure-scroll { overflow-x: auto; }
+@media (max-width: 640px) { .figure-scroll svg { min-width: 620px; } }

@@ -123,10 +123,24 @@ TYPE_LABEL = {
     "book-chapter": "Book chapter",
     "book": "Book",
     "conference-paper": "Conference paper",
-    "preprint": "Working paper",
 }
+SHOWN_TYPES = set(TYPE_LABEL)   # working papers, preprints and other outputs are left off the site
 FILTERS = [("all", "All"), ("journal-article", "Journal articles"), ("book-chapter", "Book chapters"),
-           ("conference-paper", "Conference papers"), ("preprint", "Working papers"), ("other", "Other")]
+           ("book", "Books"), ("conference-paper", "Conference papers")]
+PAPERS_DIR = ROOT / "papers"   # one page per paper; front matter `paper-doi:` links it to the list
+
+
+def paper_pages() -> dict:
+    """Map DOI -> site path for papers that have their own page."""
+    pages = {}
+    for f in sorted(PAPERS_DIR.glob("*.qmd")):
+        m = re.search(r"^paper-doi:\s*\"?([^\"\n]+)\"?\s*$", f.read_text(), re.M)
+        if m:
+            pages[m.group(1).strip().lower()] = f"papers/{f.stem}.html"
+    return pages
+
+
+PAGES: dict = {}
 
 
 def esc(x: str) -> str:
@@ -148,11 +162,17 @@ def kind(p: dict) -> str:
 
 def entry(p: dict, heading: str = "h3") -> str:
     title = esc(p["title"].rstrip("."))
-    if p["url"]:
+    page = PAGES.get((p["doi"] or "").lower())
+    if page:
+        title = f'<a href="{page}">{title}</a>'
+    elif p["url"]:
         title = f'<a href="{esc(p["url"])}">{title}</a>'
     authors = f'<p class="pub-authors">{fmt_authors(p["authors"])}</p>' if p["authors"] else ""
     venue = f'<span class="pub-venue">{esc(p["venue"])}</span>' if p["venue"] else ""
     label = TYPE_LABEL.get(p["type"], "Other output")
+    if page:
+        label += '</span><span class="pub-more">Summary and figures'
+
     search = esc(" ".join([p["title"], p["venue"], " ".join(p["authors"]), str(p["year"] or "")]).lower())
     return (f'<article class="pub" data-type="{kind(p)}" data-search="{search}">'
             f'<{heading} class="pub-title">{title}</{heading}>{authors}'
@@ -163,7 +183,8 @@ def visible(pubs: list[dict]) -> list[dict]:
     hidden = set()
     if HIDE.exists():
         hidden = {l.strip().lower() for l in HIDE.read_text().splitlines() if l.strip() and not l.startswith("#")}
-    return [p for p in pubs if (p["doi"] or "").lower() not in hidden and p["title"].lower() not in hidden]
+    return [p for p in pubs if p["type"] in SHOWN_TYPES
+            and (p["doi"] or "").lower() not in hidden and p["title"].lower() not in hidden]
 
 
 def render(pubs: list[dict]) -> str:
@@ -189,8 +210,7 @@ def render(pubs: list[dict]) -> str:
   <label class="pub-search" for="pub-q"><span class="visually-hidden">Search publications</span>
     <input id="pub-q" type="search" placeholder="Search by title, journal, co-author or year" autocomplete="off"></label>
   <div class="chips" role="group" aria-label="Filter by type">{chips}</div>
-  <p class="pub-count" aria-live="polite"><span id="pub-shown">{len(pubs)}</span> of {len(pubs)} outputs, updated weekly from
-    <a href="https://orcid.org/{ORCID}">ORCID</a></p>
+  <p class="pub-count" aria-live="polite">Showing <span id="pub-shown">{len(pubs)}</span> of {len(pubs)} publications</p>
 </div>
 <div id="pub-list">{body}</div>
 <p id="pub-empty" class="pub-empty" hidden>No publications match. Clear the search or choose another type.</p>
@@ -242,6 +262,7 @@ def main() -> int:
         if not CACHE.exists():
             return 1
         pubs = json.loads(CACHE.read_text())
+    PAGES.update(paper_pages())
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(render(pubs))
     (OUT.parent / "recent.md").write_text(render_recent(pubs))

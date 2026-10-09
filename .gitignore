@@ -6,3 +6,6 @@ __pycache__/
 
 /.quarto/
 **/*.quarto_ipynb
+
+# portrait kept local until approved for publication
+assets/bruno.jpg
