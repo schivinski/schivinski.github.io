@@ -2,15 +2,24 @@
 title: "Teaching"
 ---
 
-<!-- TO COMPLETE: add course titles, level (BA/MA) and semester.
-     Copy the block below for each course. -->
+I teach marketing courses in English at Gdańsk University of Technology, in the
+Faculty of Management and Economics and in the Faculty of Electronics,
+Telecommunications and Informatics.
 
-I teach marketing courses in English at Bachelor's and Master's levels in the
-Faculty of Management and Economics, Gdańsk University of Technology.
+<!-- Course list from MOST Wiedzy (2025–2027). Add a one-line description under
+     each course when you have time. -->
 
-<!--
-## Course title
-*Level · Semester*
+## Marketing
+*Management (taught in English), Faculty of Management and Economics*<br>
+*Data Engineering, Faculty of Electronics, Telecommunications and Informatics*
 
-One or two sentences on what the course covers.
--->
+## Essentials of Marketing
+*Management (taught in English), Faculty of Management and Economics*
+
+## International Consumer Behaviour
+*Management (taught in English), International Business Management specialisation,
+Faculty of Management and Economics*
+
+## E-marketing and Trend Analysis
+*Data Engineering, Big Data in Business Management stream, Faculty of Electronics,
+Telecommunications and Informatics*
