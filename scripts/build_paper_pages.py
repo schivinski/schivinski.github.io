@@ -297,13 +297,13 @@ def build_llms(papers: list[dict]) -> None:
         "> Associate Professor of Marketing at Gdańsk University of Technology, Poland. "
         "Research on consumer engagement with brands in digital and social media, brand equity and consumer choice, "
         "digital behaviour and wellbeing, and measurement with structural equation modelling. "
-        f"ORCID: https://orcid.org/{ME['orcid']}",
+        f"ORCID: https://orcid.org/{ME['orcid']}. LinkedIn: https://www.linkedin.com/in/bruno-schivinski-b2baa044",
         "",
         "## Main pages",
         f"- [Home]({SITE}/index.html): research themes, recent publications, teaching",
         f"- [Publications]({SITE}/publications.html): full list of journal articles, book chapters and conference papers",
         f"- [Teaching]({SITE}/teaching.html): teaching in marketing, consumer behaviour, digital marketing and research methods",
-        f"- [Consultancy]({SITE}/consultancy.html): consumer and brand research, digital marketing, sustainability messaging, research methods training",
+        f"- [Consultancy]({SITE}/consultancy.html): advice on digital marketing and online consumer behaviour",
         f"- [Marketing Watch]({SITE}/watch/index.html): weekly digest of new marketing research and practice",
         "",
         "## Paper summaries",
