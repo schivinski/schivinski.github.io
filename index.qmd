@@ -5,7 +5,7 @@ title-block-banner: false
 title-block-style: none
 include-in-header:
   text: |
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Bruno Schivinski", "givenName": "Bruno", "familyName": "Schivinski", "url": "https://schivinski.github.io/", "jobTitle": "Associate Professor of Marketing (profesor uczelni)", "affiliation": {"@type": "CollegeOrUniversity", "name": "Gdańsk University of Technology", "alternateName": "Politechnika Gdańska", "sameAs": "https://ror.org/014837179", "department": {"@type": "Organization", "name": "Department of Marketing, Faculty of Management and Economics"}}, "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": "0000-0002-4095-1922"}, "sameAs": ["https://orcid.org/0000-0002-4095-1922", "https://scholar.google.pl/citations?user=f-iKGD8AAAAJ", "https://mostwiedzy.pl/pl/bruno-schivinski,813976-1"], "knowsAbout": ["consumer behaviour", "consumer engagement with brand-related social media content", "consumers' online brand-related activities (COBRAs)", "brand equity", "sustainable consumption", "gaming disorder", "structural equation modelling", "scale development", "marketing psychology", "digital marketing"]}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Bruno Schivinski", "givenName": "Bruno", "familyName": "Schivinski", "url": "https://schivinski.github.io/", "jobTitle": "Associate Professor of Marketing", "affiliation": {"@type": "CollegeOrUniversity", "name": "Gdańsk University of Technology", "alternateName": "Politechnika Gdańska", "sameAs": "https://ror.org/014837179", "department": {"@type": "Organization", "name": "Department of Marketing, Faculty of Management and Economics"}}, "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": "0000-0002-4095-1922"}, "sameAs": ["https://orcid.org/0000-0002-4095-1922", "https://scholar.google.pl/citations?user=f-iKGD8AAAAJ", "https://mostwiedzy.pl/pl/bruno-schivinski,813976-1"], "knowsAbout": ["consumer behaviour", "consumer engagement with brand-related social media content", "consumers' online brand-related activities (COBRAs)", "brand equity", "sustainable consumption", "gaming disorder", "structural equation modelling", "scale development", "marketing psychology", "digital marketing"]}</script>
 listing:
   id: latest
   contents: watch/posts
@@ -24,7 +24,7 @@ listing:
         <img class="portrait" src="assets/bruno.jpg" alt="Bruno Schivinski" width="140" height="140">
         <h1>Bruno Schivinski</h1>
       </div>
-      <p class="role">Associate Professor of Marketing (profesor uczelni), Department of Marketing,
+      <p class="role">Associate Professor of Marketing, Department of Marketing,
         Faculty of Management and Economics, Gdańsk University of Technology</p>
       <p class="thesis">I study how people engage with brands, and with each other, in digital media.</p>
       <nav class="links" aria-label="Profiles">
@@ -52,7 +52,7 @@ listing:
       </svg>
       <figcaption>Consumers' engagement with brand-related social media content moves from consuming,
         to contributing, to creating. From Schivinski, Christodoulides and Dabrowski (2016),
-        <em>Journal of Advertising Research</em>. Bar lengths are illustrative.</figcaption>
+        <em>Journal of Advertising Research</em>.</figcaption>
     </figure>
   </div>
 </section>
@@ -112,10 +112,12 @@ listing:
   <div class="wrap">
     <div class="section-head">
       <h2>Teaching</h2>
-      <a href="teaching.html">Courses</a>
+      <a href="teaching.html">More on teaching</a>
     </div>
-    <p>I teach Marketing, Essentials of Marketing, International Consumer Behaviour and E-marketing and
-      Trend Analysis, in English, to management and data engineering students at Gdańsk University of Technology.</p>
+    <!-- DRAFT: broad teaching statement for Bruno to edit -->
+    <p>I teach marketing, consumer behaviour, digital marketing and research methods at bachelor's and master's level,
+      and run training in quantitative methods such as structural equation modelling. My teaching draws directly on my
+      research, so students work with current evidence on how consumers think, choose and engage with brands.</p>
   </div>
 </section>
 ```

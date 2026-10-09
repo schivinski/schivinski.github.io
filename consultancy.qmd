@@ -1,0 +1,50 @@
+---
+title: "Consultancy"
+subtitle: "Consumer and marketing research for organisations"
+---
+
+<!-- DRAFT for Bruno to review: areas are drawn from his published expertise; confirm each before publishing.
+     Missing: how organisations should contact him, and any engagements he is happy to name. -->
+
+I work with companies, agencies and public institutions on questions where rigorous consumer research changes the
+decision: how people engage with a brand, which message will move them, and whether a measure can be trusted.
+
+```{=html}
+<div class="offer-grid">
+  <section class="offer">
+    <h2>Consumer and brand research</h2>
+    <p>Survey design and analysis to measure brand equity, consumer engagement and the drivers of choice, using
+      validated scales and structural equation modelling.</p>
+  </section>
+  <section class="offer">
+    <h2>Social media and digital marketing</h2>
+    <p>Measuring how audiences consume, contribute to and create brand-related content, and what that engagement
+      does for the brand.</p>
+  </section>
+  <section class="offer">
+    <h2>Sustainability and behaviour change</h2>
+    <p>Designing and testing messages that move consumers towards more sustainable choices, grounded in
+      field-experimental evidence.</p>
+  </section>
+  <section class="offer">
+    <h2>Research methods training</h2>
+    <p>Workshops and masterclasses for research and analytics teams on survey research, scale development and
+      structural equation modelling.</p>
+  </section>
+  <section class="offer">
+    <h2>Research evaluation and expert review</h2>
+    <p>Expert assessment of research proposals and projects for funding bodies and scientific institutions.</p>
+  </section>
+</div>
+```
+
+## How I work
+
+```{=html}
+<dl class="formats">
+  <div><dt>Advisory</dt><dd>Short engagements to frame the question and choose the right evidence.</dd></div>
+  <div><dt>Research projects</dt><dd>Study design, data collection, analysis and a clear report with recommendations.</dd></div>
+  <div><dt>Workshops and training</dt><dd>Sessions tailored to a team's data and decisions.</dd></div>
+  <div><dt>Expert review</dt><dd>Independent assessment of research, measures or proposals.</dd></div>
+</dl>
+```

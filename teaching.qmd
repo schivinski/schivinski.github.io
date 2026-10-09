@@ -1,23 +1,29 @@
 ---
 title: "Teaching"
-subtitle: "Courses taught in English at Gdańsk University of Technology"
+subtitle: "Marketing, consumer behaviour, digital marketing and research methods"
 ---
 
-<!-- Course list from MOST Wiedzy (2025–2027). Add a one-line description to each course when you have time. -->
+<!-- DRAFT: broad statement for Bruno to edit. Course list from MOST Wiedzy (2025–2027). -->
+
+I teach marketing, consumer behaviour, digital marketing and research methods at bachelor's and master's level,
+and run training in quantitative methods such as structural equation modelling. My teaching draws directly on my
+research, so students work with current evidence on how consumers think, choose and engage with brands.
+
+## Current courses at Gdańsk University of Technology
 
 ```{=html}
 <div class="courses">
   <section class="course">
     <h2>Marketing</h2>
     <ul>
-      <li><strong>Management (in English)</strong><br>Faculty of Management and Economics</li>
+      <li><strong>Management</strong><br>Faculty of Management and Economics</li>
       <li><strong>Data Engineering</strong><br>Faculty of Electronics, Telecommunications and Informatics</li>
     </ul>
   </section>
   <section class="course">
     <h2>International Consumer Behaviour</h2>
     <ul>
-      <li><strong>Management (in English), International Business Management</strong><br>Faculty of Management and Economics</li>
+      <li><strong>Management, International Business Management</strong><br>Faculty of Management and Economics</li>
     </ul>
   </section>
   <section class="course">
@@ -29,7 +35,7 @@ subtitle: "Courses taught in English at Gdańsk University of Technology"
   <section class="course">
     <h2>Essentials of Marketing</h2>
     <ul>
-      <li><strong>Management (in English)</strong><br>Faculty of Management and Economics</li>
+      <li><strong>Management</strong><br>Faculty of Management and Economics</li>
     </ul>
   </section>
 </div>

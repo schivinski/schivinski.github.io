@@ -25,6 +25,8 @@ website:
         text: Publications
       - href: teaching.qmd
         text: Teaching
+      - href: consultancy.qmd
+        text: Consultancy
       - href: watch/index.qmd
         text: Marketing Watch
     right:
