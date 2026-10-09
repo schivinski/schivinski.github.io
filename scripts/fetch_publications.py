@@ -252,6 +252,50 @@ def render_recent(pubs: list[dict], n: int = 4) -> str:
         for p in items) + "</div>\n```\n"
 
 
+CITES = ROOT / "data" / "citations.json"
+
+
+def citation_counts(pubs: list[dict], refresh: bool) -> dict:
+    """Crossref 'cited by' counts per DOI, cached in data/citations.json; refreshed on public builds."""
+    cache = json.loads(CITES.read_text()) if CITES.exists() else {}
+    if refresh:
+        sys.path.insert(0, str(Path(__file__).parent))
+        from build_queue import crossref_count
+        import time
+        for p in pubs:
+            doi = (p.get("doi") or "").lower()
+            if doi and p["type"] == "journal-article":
+                try:
+                    n = crossref_count(doi)
+                    if n is not None:
+                        cache[doi] = n
+                    time.sleep(0.15)
+                except Exception:
+                    pass
+        CITES.write_text(json.dumps(cache, indent=1, sort_keys=True))
+    return cache
+
+
+def render_top(pubs: list[dict], cites: dict, n: int = 10) -> str:
+    arts = [p for p in visible(pubs) if p["type"] == "journal-article" and cites.get((p["doi"] or "").lower())]
+    arts.sort(key=lambda p: (-cites[(p["doi"] or "").lower()], -(p["year"] or 0)))
+    items = []
+    for i, p in enumerate(arts[:n], start=1):
+        doi = (p["doi"] or "").lower()
+        page = PAGES.get(doi)
+        href = page or p["url"] or f"https://doi.org/{doi}"
+        more = '<span class="pub-more">Summary and figures</span>' if page else ""
+        items.append(
+            f'<li class="top-item"><span class="top-rank" aria-hidden="true">{i}</span><div>'
+            f'<h3 class="pub-title"><a href="{esc(href)}">{esc(p["title"].rstrip("."))}</a></h3>'
+            f'<p class="pub-meta"><span class="pub-venue">{esc(p["venue"])}</span>'
+            f'<span class="top-year">{p["year"]}</span>'
+            f'<span class="top-cites">{cites[doi]:,} citations</span>{more}</p></div></li>')
+    return ("```{=html}\n<ol class=\"top-papers\">" + "".join(items) + "</ol>\n"
+            "<p class=\"top-note\">Ranked by citations recorded by Crossref, which counts fewer citations than "
+            "Google Scholar.</p>\n```\n")
+
+
 def main() -> int:
     try:
         pubs = fetch()
@@ -269,6 +313,8 @@ def main() -> int:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(render(pubs))
     (OUT.parent / "recent.md").write_text(render_recent(pubs))
+    cites = citation_counts(pubs, refresh=os.environ.get("PUBLISH") == "1" or "--refresh-citations" in sys.argv)
+    (OUT.parent / "top.md").write_text(render_top(pubs, cites))
     return 0
 
 

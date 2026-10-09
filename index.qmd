@@ -83,6 +83,20 @@ listing:
 </section>
 
 <section class="home-section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Most cited papers</h2>
+      <a href="publications.html">All publications</a>
+    </div>
+```
+
+{{< include _generated/top.md >}}
+
+```{=html}
+  </div>
+</section>
+
+<section class="home-section">
   <div class="wrap home-split">
     <div>
       <div class="section-head">
