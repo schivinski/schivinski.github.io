@@ -8,7 +8,7 @@ Crossref and run lower than Google Scholar's. Only journal articles get full pag
 
 | # | Year | Paper | Journal | Cited | Status |
 |---|---|---|---|---|---|
-| 1 | 2016 | The effect of social media communication on consumer perceptions of brands | Journal of Marketing Communications | 560 |  |
+| 1 | 2016 | The effect of social media communication on consumer perceptions of brands | Journal of Marketing Communications | 560 | locked (`social-media-communication-brand-perceptions`) |
 | 2 | 2016 | Measuring consumers’ engagement with brand-related social-media content: Development an… | Journal of Advertising Research | 472 |  |
 | 3 | 2021 | Measurement and Conceptualization of Gaming Disorder According to the World Health Orga… | International Journal of Mental Health and Addiction | 234 |  |
 | 4 | 2015 | The impact of brand communication on brand equity through Facebook | Journal of Research in Interactive Marketing | 185 |  |
@@ -37,7 +37,7 @@ Crossref and run lower than Google Scholar's. Only journal articles get full pag
 
 | # | Year | Paper | Journal | Cited | Status |
 |---|---|---|---|---|---|
-| 20 | 2027 | More alike than unalike: Contextually aligned authority arguments amplify sustainable c… | Food Quality and Preference | 0 | draft (`more-alike-than-unalike`) |
+| 20 | 2027 | More alike than unalike: Contextually aligned authority arguments amplify sustainable c… | Food Quality and Preference | 0 | locked (`more-alike-than-unalike`) |
 | 21 | 2026 | Individualism and the desire for unique consumer products: the roles of need for unique… | Journal of Product & Brand Management | 1 |  |
 | 22 | 2026 | Language of change in online narratives of recovery from disordered gaming | Scientific Reports | 2 |  |
 | 23 | 2026 | Machine learning of digital traces to detect risk for behavioural addictions online | Nature Reviews Psychology | 0 |  |
