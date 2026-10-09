@@ -99,14 +99,27 @@ scale:
     - { label: "Validated with", value: "2,252 consumers and 299 brands (Study 4); 416 consumers (Study 5); Poland" }
   response_labels: ["Not at all", "Not very often", "", "", "", "", "", "Very often"]
   response_codes: [0, 1, 2, 3, 4, 5, 6, 7]
-  introduction: >-
-    This survey is about the content related to brands that you come across on social media, such as Facebook,
-    Instagram, YouTube, TikTok, X, blogs and online forums. People engage with this content in different ways: some
-    read or watch it (consuming), some like, comment on or share it (contributing), and some post their own content
-    about a brand (creating). There are no right or wrong answers.
-  brand_question: "Please type the name of a brand that you actively follow on social media."
-  brand_note: "You will answer the following questions about this brand. Wherever you see [BRAND], think of the brand you named."
+  score: mean
+  introduction:
+    label: "Introduction"
+    source: suggested
+    text: >-
+      This survey is about the content related to brands that you come across on social media, such as Facebook,
+      Instagram, YouTube, TikTok, X, blogs and online forums. People engage with this content in different ways: some
+      read or watch it (consuming), some like, comment on or share it (contributing), and some post their own content
+      about a brand (creating). There are no right or wrong answers.
+  pre_questions:
+    - id: BRAND
+      title: "Your brand"
+      type: text
+      source: suggested
+      text: "Please type the name of a brand that you actively follow on social media."
+      note: "You will answer the following questions about this brand. Wherever you see [BRAND], think of the brand you named."
+  block_prefix: "Think about [BRAND]."
   block_instruction: "How often do you do each of the following? Select “Not at all” if you never do it."
+  block_instruction_source: suggested
+  placeholder: "[BRAND]"
+  codebook_from_table: { id: "C", label_col: 0, loading_col: 5 }
   dimensions:
     - code: "CONS"
       name: "Consumption"
@@ -154,6 +167,47 @@ scale:
     The item wording, response format, coding and administration procedure come from the article. The welcome text, brand
     question and block instruction are suggested wording based on the procedure the article describes; adapt them to your
     study.
+  admin_box: >-
+    Present each part on its own page; randomise the order of Parts 2 to 4 and of the items within each part. Replace
+    [BRAND] with the brand the respondent named. Code answers 0 to 7 as shown; each dimension score is the mean of its
+    items. Introduction and brand question are suggested wording; item wording and response format are as published.
+  analysis:
+    title: "CEBSC scale: three-factor CFA and hierarchical model"
+    r_options: 'estimator = "MLR"'
+    estimator_note: "robust maximum likelihood, as in the article"
+    r_extra: |
+
+      # 4. Hierarchical model: consumption -> contribution -> creation (Figure 2)
+      model_hier <- paste(model_cfa, "
+        contribution ~ consumption
+        creation     ~ contribution
+      ")
+      fit_hier <- sem(model_hier, data = dat, estimator = "MLR")
+      summary(fit_hier, fit.measures = TRUE, standardized = TRUE)
+
+      # 5. Mediation: does contribution mediate consumption -> creation? (Table 2)
+      model_med <- paste(model_cfa, "
+        contribution ~ a * consumption
+        creation     ~ b * contribution + c * consumption
+        indirect := a * b
+        total    := c + a * b
+      ")
+      fit_med <- sem(model_med, data = dat, se = "bootstrap", bootstrap = 5000)
+      parameterEstimates(fit_med, boot.ci.type = "bca.simple", level = 0.99, standardized = TRUE)
+    mplus_estimator: "MLR"
+    mplus_estimator_note: "robust maximum likelihood, as in the article"
+    mplus_extra: |
+
+      ! Hierarchical model (Figure 2): remove the two "!" below to estimate it
+      ! CONT ON CONS;
+      ! CREA ON CONT;
+    mplus_notes: |
+
+      ! Mediation test (Table 2): run as a separate analysis with
+      !   ANALYSIS: ESTIMATOR = ML; BOOTSTRAP = 5000;
+      !   MODEL:    (factors as above) CONT ON CONS; CREA ON CONT CONS;
+      !   MODEL INDIRECT: CREA IND CONS;
+      !   OUTPUT:   STANDARDIZED CINTERVAL(BCBOOTSTRAP);
   downloads:
     - { label: "Questionnaire (PDF, print-ready)", file: "materials/cebsc/cebsc-questionnaire.pdf" }
     - { label: "Qualtrics import file (.txt)", file: "materials/cebsc/cebsc-qualtrics-import.txt" }

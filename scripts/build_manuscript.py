@@ -46,7 +46,7 @@ def inline(t: str) -> str:
     t = html.unescape(t)
     t = re.sub(r"<i>(.*?)</i>", r"*\1*", t)
     t = re.sub(r"<sup>(.*?)</sup>", r"^{\1}", t)
-    tokens = re.split(r"(\*\*.+?\*\*|\*[^*]+?\*|\^\{[^}]*\})", t)
+    tokens = re.split(r"(\*\*.+?\*\*|\*[^*]+?\*|\^\{[^}]*\}|_\{[^}]*\})", t)
     out = []
     for tok in tokens:
         if not tok:
@@ -57,6 +57,8 @@ def inline(t: str) -> str:
             out.append(f"#emph[{esc(tok[1:-1])}]")
         elif tok.startswith("^{"):
             out.append(f"#super[{esc(tok[2:-1])}]")
+        elif tok.startswith("_{"):
+            out.append(f"#sub[{esc(tok[2:-1])}]")
         else:
             out.append(esc(tok))
     return "".join(out)
@@ -169,7 +171,7 @@ def build(slug: str) -> Path:
     fam = [a["family"] for a in d["authors"]]
     who = fam[0] if len(fam) == 1 else (" and ".join(fam) if len(fam) == 2 else
                                         (f"{', '.join(fam[:-1])} and {fam[-1]}" if len(fam) == 3 else f"{fam[0]} et al."))
-    running = f"{who} ({year}), accepted manuscript"
+    running = f"{who} ({year}), {cfg.get('running_label', 'accepted manuscript')}"
 
     T = []
     T.append(f'''#set document(title: "{esc(d["title"])}", author: ({", ".join('"' + a["given"] + " " + a["family"] + '"' for a in d["authors"])}))
@@ -185,7 +187,7 @@ def build(slug: str) -> Path:
 // ---------------- title page
 #set par(first-line-indent: 0em)
 #v(1.2cm)
-#text(size: 10pt, weight: "bold", fill: rgb("#8a5a00"), tracking: 0.04em)[Accepted manuscript]
+#text(size: 10pt, weight: "bold", fill: rgb("#8a5a00"), tracking: 0.04em)[{esc(cfg.get("title_page_label", "Accepted manuscript"))}]
 #v(0.5em)
 #text(size: 19pt, weight: "bold", hyphenate: false)[{esc(d["title"])}]
 #v(0.8em)
@@ -201,8 +203,7 @@ def build(slug: str) -> Path:
   #v(0.9em)
   {inline(d["aam"]["statement"]).replace(esc("https://doi.org/" + d["doi"]), f'#link("https://doi.org/{d["doi"]}")[https:\\/\\/doi.org\\/{esc(d["doi"])}]')}
   #v(0.9em)
-  This is the authors' accepted manuscript. Its content is that of the published article; it differs only in
-  formatting and pagination. Please cite the published version.
+  {esc(cfg.get("title_page_note", "This is the authors' accepted manuscript. Its content is that of the published article; it differs only in formatting and pagination. Please cite the published version."))}
 ]
 #v(1fr)
 #text(size: 8.5pt, fill: rgb("#5b6476"))[{inline(cfg.get("title_page_footer", ""))}
@@ -229,6 +230,9 @@ Downloaded from #link("{SITE}/papers/{slug}.html")[schivinski.github.io]]
             continue
         if kind == "table":
             T.append("#v(0.4em)\n" + typst_table(tables[text.lstrip("T")]))
+            continue
+        if kind == "pagebreak":
+            T.append("#pagebreak()\n")
             continue
         if kind == "about":
             T.append(f"#par(first-line-indent: 0em)[#text(size: 10pt)[{inline(text)}]]\n\n")

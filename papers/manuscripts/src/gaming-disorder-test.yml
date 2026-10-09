@@ -1,0 +1,28 @@
+text: gaming-disorder-test.blocks.txt
+title_page_label: Open access article
+running_label: open access (CC BY 4.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article; it differs only in formatting and
+  pagination. Please cite the published version.
+affiliation_line: University of Tasmania; Birkbeck, University of London; Ulm University; Beijing University of Civil Engineering and Architecture; University of Electronic Science and Technology of China; University of Cologne (affiliations at the time of publication)
+title_page_footer: Re-typeset from the published open access text under CC BY 4.0; the publisher's typesetting and layout have been removed.
+figures:
+  fig1:
+    svg: figures/pontes-et-al-2021-gdt-mimic.svg
+  fig2:
+    svg: figures/pontes-et-al-2021-gdt-nomological.svg
+table_overrides:
+  "1":
+    title: Chinese and British samples, sociodemographic characteristics and related gaming behaviors
+    widths: [1fr, auto, auto, auto]
+  Q:
+    label: " "
+    title: ""
+    columns: ["", "Never", "Rarely", "Sometimes", "Often", "Very Often"]
+    align: [left, center, center, center, center, center]
+    widths: [1fr, auto, auto, auto, auto, auto]
+    rows:
+      - ["1. I have had difficulties controlling my gaming activity.", "○", "○", "○", "○", "○"]
+      - ["2. I have given increasing priority to gaming over other life interests and daily activities.", "○", "○", "○", "○", "○"]
+      - ["3. I have continued gaming despite the occurrence of negative consequences.", "○", "○", "○", "○", "○"]
+      - ["4. I have experienced significant problems in life (e.g., personal, family, social, education, occupational) due to the severity of my gaming behavior.", "○", "○", "○", "○", "○"]

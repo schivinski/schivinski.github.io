@@ -65,8 +65,11 @@ When a paper develops or validates a measurement scale, the page gets a ready-to
 researchers can run the scale the same day (and cite it):
 
 - A `scale` block in the data file: name, short name, summary, facts, response labels and codes,
-  introduction, brand (or target) question, block instruction, dimensions with item IDs and final item
-  wording, administration and scoring guidance, `intro_note`, and `downloads`.
+  `score` (mean or sum), `introduction` {label, text, source}, optional `pre_questions` (screening or
+  target questions: text or yes/no, with respondent or researcher notes), `block_instruction`, optional
+  `block_prefix`, dimensions with item IDs, final item wording and article labels/loadings, administration
+  and scoring guidance, `intro_note`, `admin_box` (PDF), `analysis` (paper-specific R and Mplus models),
+  and `downloads`. `source: article | suggested` decides whether a "suggested wording" tag is shown.
 - Item wording comes from the article's final item list (appendix), with the target written as a
   placeholder such as `[BRAND]`. Welcome text, screening questions and instructions that the article does
   not print are labelled "suggested wording" on the page and in the files.
@@ -80,6 +83,14 @@ researchers can run the scale the same day (and cite it):
 - The scale is also described in the JSON-LD (`hasPart`, with the download files) and in `llms.txt`.
 - Draft downloads (manuscript and materials) are removed from public builds by
   `scripts/strip_drafts.py` until the page is locked.
+
+## Open access papers
+
+When the article is open access under a licence that allows redistribution (e.g. CC BY), the clean PDF
+is a re-typeset copy of the published article rather than an accepted manuscript: label it "Open access
+article", state the licence, the original source and "changes made: re-typeset", and set `aam.button`
+and `aam.note` so the page says "Download the full text (PDF)". Check the licence before hosting (CC BY-ND
+and NC licences allow verbatim non-commercial copies; re-typesetting under ND needs care).
 
 ## Page sections, in order
 

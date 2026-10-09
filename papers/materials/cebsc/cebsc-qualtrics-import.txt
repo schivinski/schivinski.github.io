@@ -5,7 +5,7 @@
 [[Question:DB]]
 This survey is about the content related to brands that you come across on social media, such as Facebook, Instagram, YouTube, TikTok, X, blogs and online forums. People engage with this content in different ways: some read or watch it (consuming), some like, comment on or share it (contributing), and some post their own content about a brand (creating). There are no right or wrong answers.
 
-[[Block:Brand]]
+[[Block:Your brand]]
 
 [[Question:TE:SingleLine]]
 [[ID:BRAND]]

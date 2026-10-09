@@ -1,0 +1,32 @@
+[[AdvancedFormat]]
+
+[[Block:Introduction]]
+
+[[Question:DB]]
+The questions below are about your gaming activity during the past year (i.e., last 12 months). Here, gaming activity means any gaming-related activity that has been played either from a computer/laptop or from a gaming console or any other kind of device (e.g., mobile phone, tablet) both online and/or offline.
+
+[[Block:Screening]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:SCREEN]]
+Have you played any video game in the past 12 months?
+[[Choices]]
+Yes
+No
+
+[[Block:Gaming disorder]]
+
+[[Question:Matrix]]
+[[ID:GD]]
+Please indicate how often the following issues occurred on average over the past twelve months until today.
+[[Choices]]
+I have had difficulties controlling my gaming activity.
+I have given increasing priority to gaming over other life interests and daily activities.
+I have continued gaming despite the occurrence of negative consequences.
+I have experienced significant problems in life (e.g., personal, family, social, education, occupational) due to the severity of my gaming behavior.
+[[Answers]]
+1 - Never
+2 - Rarely
+3 - Sometimes
+4 - Often
+5 - Very often

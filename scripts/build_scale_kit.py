@@ -7,6 +7,16 @@ Reads papers/data/<slug>.yml (`scale` block) and writes, into papers/<download d
   questionnaire PDF (print-ready, via Typst), Qualtrics Advanced Format import file,
   item codebook (CSV), R/lavaan script, Mplus input.
 All files are generated from the same item list, so they cannot drift apart.
+
+`scale` block (see PAPER_PAGES.md):
+  name, short, summary, facts, response_labels, response_codes, score (mean | sum),
+  introduction {label, text, source: article | suggested},
+  pre_questions [{id, title, text, type: text | yesno, note, source}],
+  block_instruction, block_instruction_source, block_prefix, placeholder,
+  dimensions [{code, name, definition, items [{id, text, label_in_article, loading}]}],
+  codebook_from_table {id, label_col, loading_col}   (optional: fill article labels from a table)
+  administration, scoring, intro_note, admin_box, downloads,
+  analysis {r_options, r_extra, mplus_estimator, mplus_extra, mplus_notes, title}
 """
 from __future__ import annotations
 
@@ -31,70 +41,104 @@ def apa_text(d: dict) -> str:
             f"{d['pages']}. https://doi.org/{d['doi']}")
 
 
+def short_authors(d: dict, sep_last: str = " and ") -> str:
+    fam = [a["family"] for a in d["authors"]]
+    if len(fam) == 1:
+        return fam[0]
+    if len(fam) == 2:
+        return f"{fam[0]}{sep_last}{fam[1]}"
+    if len(fam) == 3:
+        return f"{fam[0]}, {fam[1]}{sep_last}{fam[2]}"
+    return f"{fam[0]} et al."
+
+
 def var(item_id: str) -> str:
     return item_id.lower()
 
 
 def typ_esc(t: str) -> str:
-    return "".join("\\" + c if c in '\\#$@*_`<>[]~/=+-"\'' else c for c in t)
+    return "".join("\\" + c if c in '\\#$@*_`<>[]~/=+-"\'' else c for c in str(t))
+
+
+def ascii_only(t: str) -> str:
+    return (t.replace("–", "-").replace("—", "-").replace("’", "'").replace("‘", "'")
+             .replace("“", '"').replace("”", '"').encode("ascii", "ignore").decode())
+
+
+def score_word(s: dict) -> str:
+    return "sum" if s.get("score") == "sum" else "mean"
 
 
 def build(slug: str) -> list[Path]:
     d = yaml.safe_load((ROOT / "papers" / "data" / f"{slug}.yml").read_text())
     s = d["scale"]
+    an = s.get("analysis", {})
+    stem = s.get("file_stem", s["short"].lower())
     out_dir = ROOT / "papers" / Path(s["downloads"][0]["file"]).parent
     out_dir.mkdir(parents=True, exist_ok=True)
     cite = apa_text(d)
     page_url = f"{SITE}/papers/{slug}.html"
-    labels = s["response_labels"]
-    codes = s["response_codes"]
-    dims = s["dimensions"]
+    labels, codes, dims = s["response_labels"], s["response_codes"], s["dimensions"]
+    flat = [it for dm in dims for it in dm["items"]]
+    coding = "; ".join(f"{c} = {l}" if l else str(c) for c, l in zip(codes, labels))
     written = []
 
-    # Appendix C wording for the codebook (original labels)
-    tbl_c = next((t for t in d.get("tables", []) if t["id"] == "C"), None)
-    orig = {}
-    if tbl_c:
-        rows = [r for r in tbl_c["rows"] if not isinstance(r, dict)]
-        flat = [it for dm in dims for it in dm["items"]]
+    # article labels and loadings, optionally from a table in the data file
+    cft = s.get("codebook_from_table")
+    if cft:
+        t = next(t for t in d.get("tables", []) if t["id"] == cft["id"])
+        rows = [r for r in t["rows"] if not isinstance(r, dict)]
         for it, r in zip(flat, rows):
-            orig[it["id"]] = (r[0], r[1], r[5])   # label, wording, validation loading
+            it.setdefault("label_in_article", r[cft["label_col"]])
+            it.setdefault("loading", r[cft["loading_col"]])
 
     # ---------------- codebook
-    p = out_dir / f"{s['short'].lower()}-codebook.csv"
+    p = out_dir / f"{stem}-codebook.csv"
     with p.open("w", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["variable", "dimension", "item_text", "label_in_article", "validation_loading",
+        w.writerow(["variable", "dimension", "item_text", "label_in_article", "loading_in_article",
                     "response_coding", "score"])
         for dm in dims:
+            first, last = var(dm["items"][0]["id"]), var(dm["items"][-1]["id"])
             for it in dm["items"]:
-                o = orig.get(it["id"], ("", "", ""))
-                w.writerow([var(it["id"]), dm["name"], it["text"], o[0], o[2],
-                            "; ".join(f"{c} = {l or c}" for c, l in zip(codes, labels)),
-                            f"{dm['name'].lower()} = mean of {var(dm['items'][0]['id'])}-{var(dm['items'][-1]['id'])}"])
+                w.writerow([var(it["id"]), dm["name"], it["text"], it.get("label_in_article", ""),
+                            it.get("loading", ""), coding,
+                            f"{dm['name'].lower()} = {score_word(s)} of {first}-{last}"])
     written.append(p)
 
     # ---------------- Qualtrics Advanced Format
-    q = ["[[AdvancedFormat]]", "", "[[Block:Introduction]]", "", "[[Question:DB]]", s["introduction"].strip(), "",
-         "[[Block:Brand]]", "", "[[Question:TE:SingleLine]]", "[[ID:BRAND]]", s["brand_question"], "",
-         "[[Question:DB]]", s["brand_note"], ""]
+    intro = s["introduction"]
+    q = ["[[AdvancedFormat]]", "", "[[Block:Introduction]]", "", "[[Question:DB]]", intro["text"].strip(), ""]
+    for pq in s.get("pre_questions", []):
+        q += [f"[[Block:{pq['title']}]]", ""]
+        if pq["type"] == "yesno":
+            q += ["[[Question:MC:SingleAnswer:Vertical]]", f"[[ID:{pq['id']}]]", pq["text"], "[[Choices]]", "Yes", "No", ""]
+        else:
+            q += ["[[Question:TE:SingleLine]]", f"[[ID:{pq['id']}]]", pq["text"], ""]
+        if pq.get("note") and pq.get("note_audience") != "researcher":
+            q += ["[[Question:DB]]", pq["note"], ""]
+    prefix = (s.get("block_prefix", "") + " ") if s.get("block_prefix") else ""
     for dm in dims:
         q += [f"[[Block:{dm['name']}]]", "", "[[Question:Matrix]]", f"[[ID:{dm['code']}]]",
-              f"Think about [BRAND]. {s['block_instruction']}", "[[Choices]]"]
+              f"{prefix}{s['block_instruction']}", "[[Choices]]"]
         q += [it["text"] for it in dm["items"]]
-        q += ["[[Answers]]"]
-        q += [f"{c} - {l}" if l else str(c) for c, l in zip(codes, labels)]
-        q += [""]
-    p = out_dir / f"{s['short'].lower()}-qualtrics-import.txt"
+        q += ["[[Answers]]"] + [f"{c} - {l}" if l else str(c) for c, l in zip(codes, labels)] + [""]
+    p = out_dir / f"{stem}-qualtrics-import.txt"
     p.write_text("\n".join(q).rstrip() + "\n")
     written.append(p)
 
     # ---------------- R / lavaan
     lines_cfa = "\n".join(
-        f"  {dm['name'].lower():<13}=~ " + " + ".join(var(i["id"]) for i in dm["items"]) for dm in dims)
+        f"  {dm['name'].lower().replace(' ', '_'):<13}=~ " + " + ".join(var(i["id"]) for i in dm["items"]) for dm in dims)
     item_lists = ",\n  ".join(
-        f"{dm['name'].lower()} = c({', '.join(repr(var(i['id'])).replace(chr(39), chr(34)) for i in dm['items'])})"
+        f"{dm['name'].lower().replace(' ', '_')} = c({', '.join(chr(34) + var(i['id']) + chr(34) for i in dm['items'])})"
         for dm in dims)
+    fn = "rowSums" if s.get("score") == "sum" else "rowMeans"
+    lo, hi = min(codes), max(codes)
+    n_items = [len(dm["items"]) for dm in dims]
+    rng = (f"range {lo * n_items[0]}-{hi * n_items[0]}" if s.get("score") == "sum" and len(dims) == 1
+           else f"range {lo}-{hi}")
+    model_word = {1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five"}.get(len(dims), str(len(dims))) + "-factor"
     r = f'''# {s["name"]}
 # Scoring, reliability and confirmatory factor analysis in R (lavaan).
 #
@@ -103,7 +147,7 @@ def build(slug: str) -> list[Path]:
 #
 # Data: one row per respondent, item columns named as in the codebook
 # ({", ".join(var(dm["items"][0]["id"]) + "-" + var(dm["items"][-1]["id"]) for dm in dims)}),
-# coded 0 = not at all, 1 = not very often ... 7 = very often.
+# coded {coding}.
 
 library(lavaan)
 
@@ -113,22 +157,22 @@ items <- list(
   {item_lists}
 )
 
-# 1. Dimension scores: mean of the items in each dimension (range 0-7)
-for (dim in names(items)) dat[[paste0(dim, "_score")]] <- rowMeans(dat[items[[dim]]])
+# 1. Scores: {score_word(s)} of the items ({rng})
+for (dim in names(items)) dat[[paste0(dim, "_score")]] <- {fn}(dat[items[[dim]]])
 summary(dat[paste0(names(items), "_score")])
 
-# 2. Cronbach's alpha per dimension
+# 2. Cronbach's alpha
 cronbach_alpha <- function(x) {{
   x <- na.omit(x); k <- ncol(x)
   k / (k - 1) * (1 - sum(apply(x, 2, var)) / var(rowSums(x)))
 }}
 sapply(items, function(v) cronbach_alpha(dat[v]))
 
-# 3. Three-factor CFA (robust maximum likelihood, as in the article)
+# 3. {model_word} CFA ({an.get("estimator_note", "as in the article")})
 model_cfa <- "
 {lines_cfa}
 "
-fit_cfa <- cfa(model_cfa, data = dat, estimator = "MLR")
+fit_cfa <- cfa(model_cfa, data = dat, {an.get("r_options", 'estimator = "MLR"')})
 summary(fit_cfa, fit.measures = TRUE, standardized = TRUE)
 
 # Composite reliability (CR) and average variance extracted (AVE)
@@ -137,80 +181,77 @@ do.call(rbind, lapply(split(loadings, loadings$lhs), function(x) {{
   l <- x$est.std
   data.frame(factor = x$lhs[1], CR = sum(l)^2 / (sum(l)^2 + sum(1 - l^2)), AVE = mean(l^2))
 }}))
-
-# 4. Hierarchical model: consumption -> contribution -> creation (Figure 2)
-model_hier <- paste(model_cfa, "
-  contribution ~ consumption
-  creation     ~ contribution
-")
-fit_hier <- sem(model_hier, data = dat, estimator = "MLR")
-summary(fit_hier, fit.measures = TRUE, standardized = TRUE)
-
-# 5. Mediation: does contribution mediate consumption -> creation? (Table 2)
-model_med <- paste(model_cfa, "
-  contribution ~ a * consumption
-  creation     ~ b * contribution + c * consumption
-  indirect := a * b
-  total    := c + a * b
-")
-fit_med <- sem(model_med, data = dat, se = "bootstrap", bootstrap = 5000)
-parameterEstimates(fit_med, boot.ci.type = "bca.simple", level = 0.99, standardized = TRUE)
+{an.get("r_extra", "").rstrip()}
 '''
-    p = out_dir / f"{s['short'].lower()}-analysis.R"
+    p = out_dir / f"{stem}-analysis.R"
     p.write_text(r)
     written.append(p)
 
-    # ---------------- Mplus
+    # ---------------- Mplus (ASCII only, lines under 90 characters)
     all_vars = " ".join(f"{var(dm['items'][0]['id'])}-{var(dm['items'][-1]['id'])}" for dm in dims)
     by = "\n".join(f"  {dm['code']} BY {var(dm['items'][0]['id'])}-{var(dm['items'][-1]['id'])};" for dm in dims)
-    mp = f'''TITLE:    {s["short"]} scale: three-factor CFA and hierarchical model
-! Please cite: {d["authors"][0]["family"]}, {d["authors"][1]["family"]} & {d["authors"][2]["family"]} ({d["published"][:4]}),
-! {d["journal"]} {d["volume"]}({d["issue"]}), {d["pages"].replace("–", "-")}.
+    mp = f'''TITLE:    {ascii_only(an.get("title", s["short"] + " scale: CFA"))}
+! Please cite: {ascii_only(short_authors(d, " & "))} ({d["published"][:4]}),
+! {ascii_only(d["journal"])} {d["volume"]}({d["issue"]}), {ascii_only(d["pages"])}.
 ! https://doi.org/{d["doi"]}   Materials: schivinski.github.io
 
-DATA:     FILE = cebsc.dat;          ! replace with your data file
+DATA:     FILE = {stem}.dat;          ! replace with your data file
 
 VARIABLE: NAMES = {all_vars};
           USEVARIABLES = {all_vars};
           MISSING = ALL (-99);
 
-ANALYSIS: ESTIMATOR = MLR;           ! robust maximum likelihood, as in the article
+ANALYSIS: ESTIMATOR = {an.get("mplus_estimator", "MLR")};{("           ! " + ascii_only(an["mplus_estimator_note"])) if an.get("mplus_estimator_note") else ""}
 
 MODEL:
 {by}
-
-          ! Hierarchical model (Figure 2): remove the two "!" below to estimate it
-          ! CONT ON CONS;
-          ! CREA ON CONT;
+{chr(10).join(("          " + l) if l.strip() else "" for l in ascii_only(an.get("mplus_extra", "")).rstrip().split(chr(10)))}
 
 OUTPUT:   STANDARDIZED MODINDICES;
-
-! Mediation test (Table 2): run as a separate analysis with
-!   ANALYSIS: ESTIMATOR = ML; BOOTSTRAP = 5000;
-!   MODEL:    (factors as above) CONT ON CONS; CREA ON CONT CONS;
-!   MODEL INDIRECT: CREA IND CONS;
-!   OUTPUT:   STANDARDIZED CINTERVAL(BCBOOTSTRAP);
+{ascii_only(an.get("mplus_notes", "")).rstrip()}
 '''
-    p = out_dir / f"{s['short'].lower()}-cfa.inp"
+    for ln in mp.splitlines():
+        assert len(ln) <= 90, f"Mplus line over 90 characters: {ln}"
+    p = out_dir / f"{stem}-cfa.inp"
     p.write_text(mp)
     written.append(p)
 
     # ---------------- questionnaire PDF (Typst)
     n_pts = len(codes)
     head_cells = ", ".join(f"[#text(size: 7.5pt)[{typ_esc(l) if l else c}]]" for c, l in zip(codes, labels))
+    col_w = "2.6em" if n_pts > 6 else "3.6em"
+    part = 1
+    pre_typ = []
+    for pq in s.get("pre_questions", []):
+        part += 1
+        answer = ("#box(width: 70%, height: 18pt, stroke: (bottom: 0.6pt))" if pq["type"] == "text" else
+                  "#box(width: 9pt, height: 9pt, radius: 50%, stroke: 0.6pt) Yes #h(2em) "
+                  "#box(width: 9pt, height: 9pt, radius: 50%, stroke: 0.6pt) No")
+        who = "For researchers: " if pq.get("note_audience") == "researcher" else ""
+        note = f"#v(4pt)\n#text(size: 9.5pt, style: \"italic\")[{typ_esc(who + pq['note'])}]" if pq.get("note") else ""
+        pre_typ.append(f'''#text(size: 12pt, weight: "bold")[Part {part - 1}. {typ_esc(pq["title"])}]
+#v(2pt)
+{typ_esc(pq["text"])}
+#v(6pt)
+{answer}
+{note}
+#v(16pt)
+''')
     blocks_typ = []
-    for i, dm in enumerate(dims):
+    for dm in dims:
+        part += 1
         rows = []
         for it in dm["items"]:
             rows.append(f"[#text(size: 7.5pt, fill: rgb(\"#5b6476\"))[{it['id']}]], [{typ_esc(it['text'])}], "
                         + ", ".join(["[#box(width: 9pt, height: 9pt, radius: 50%, stroke: 0.6pt)]"] * n_pts) + ",")
+        title = f"Part {part - 1}. {typ_esc(dm['name'])}" if len(dims) > 1 or pre_typ else typ_esc(dm["name"])
         blocks_typ.append(f'''
 #block(breakable: false)[
-#text(size: 12pt, weight: "bold")[Part {i + 2}. {typ_esc(dm["name"])}]
+#text(size: 12pt, weight: "bold")[{title}]
 #v(2pt)
-#text(size: 9.5pt)[Think about the brand you named. {typ_esc(s["block_instruction"])}]
+#text(size: 9.5pt)[{typ_esc(prefix + s["block_instruction"])}]
 #v(6pt)
-#table(columns: (auto, 1fr, {", ".join(["2.6em"] * n_pts)}), align: (left + horizon, left + horizon, {", ".join(["center + horizon"] * n_pts)}),
+#table(columns: (auto, 1fr, {", ".join([col_w] * n_pts)}), align: (left + horizon, left + horizon, {", ".join(["center + horizon"] * n_pts)}),
   stroke: (x, y) => if y == 0 {{ (bottom: 0.7pt) }} else {{ (bottom: 0.3pt + rgb("#dde1e8")) }}, inset: (x: 4pt, y: 6pt),
   [], [], {head_cells},
   {chr(10).join(rows)}
@@ -218,9 +259,10 @@ OUTPUT:   STANDARDIZED MODINDICES;
 ]
 #v(14pt)
 ''')
+    scoring_note = s.get("scoring_note_pdf", "")
     t = f'''#set document(title: "{typ_esc(s["name"])}")
 #set page(paper: "a4", margin: (x: 2cm, top: 2cm, bottom: 2.2cm),
-  footer: [#set text(size: 7.5pt, fill: rgb("#5b6476")); {typ_esc(s["short"])} scale, {typ_esc(d["authors"][0]["family"])}, {typ_esc(d["authors"][1]["family"])} and {typ_esc(d["authors"][2]["family"])} ({d["published"][:4]}). Materials: {typ_esc(page_url)} #h(1fr) #context counter(page).display()])
+  footer: [#set text(size: 7.5pt, fill: rgb("#5b6476")); {typ_esc(s["short"])}, {typ_esc(short_authors(d))} ({d["published"][:4]}). Materials: {typ_esc(page_url)} #h(1fr) #context counter(page).display()])
 #set text(font: ("Libertinus Serif", "New Computer Modern"), size: 10.5pt)
 #set par(justify: false, leading: 0.7em)
 
@@ -232,31 +274,22 @@ OUTPUT:   STANDARDIZED MODINDICES;
   #set text(size: 8.5pt)
   #strong[Please cite.] {typ_esc(cite)}
   #v(3pt)
-  #strong[Administration.] Present each part on its own page; randomise the order of Parts 2 to 4 and of the items within
-  each part. Replace [BRAND] with the brand the respondent named. Code answers 0 to 7 as shown; each dimension score is
-  the mean of its items. Introduction and brand question are suggested wording; item wording and response format are as
-  published.
+  #strong[Administration.] {typ_esc(s["admin_box"].strip())}
 ]
 #v(12pt)
 
-#text(size: 12pt, weight: "bold")[Introduction]
+#text(size: 12pt, weight: "bold")[{typ_esc(intro.get("label", "Introduction"))}]
 #v(2pt)
-{typ_esc(s["introduction"].strip())}
+{typ_esc(intro["text"].strip())}
 #v(12pt)
 
-#text(size: 12pt, weight: "bold")[Part 1. Your brand]
-#v(2pt)
-{typ_esc(s["brand_question"])}
-#v(4pt)
-#box(width: 70%, height: 18pt, stroke: (bottom: 0.6pt))
-#v(4pt)
-#text(size: 9.5pt, style: "italic")[{typ_esc(s["brand_note"])}]
-#v(16pt)
+{"".join(pre_typ)}
 {"".join(blocks_typ)}
+{("#v(4pt)" + chr(10) + "#text(size: 12pt, weight: " + chr(34) + "bold" + chr(34) + ")[Scoring]" + chr(10) + "#v(2pt)" + chr(10) + typ_esc(scoring_note.strip())) if scoring_note else ""}
 '''
-    typ = out_dir / f"{s['short'].lower()}-questionnaire.typ"
+    typ = out_dir / f"{stem}-questionnaire.typ"
     typ.write_text(t)
-    pdf = out_dir / f"{s['short'].lower()}-questionnaire.pdf"
+    pdf = out_dir / f"{stem}-questionnaire.pdf"
     subprocess.run(["quarto", "typst", "compile", str(typ), str(pdf)], check=True)
     typ.unlink()
     written.append(pdf)

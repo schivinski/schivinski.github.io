@@ -1,0 +1,390 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, International Journal of Mental Health and Addiction 19(2), 508-528 (open access, CC BY 4.0;
+# PDF supplied by Bruno, 10 Oct 2026)
+# Status: draft (set to "locked" once Bruno approves every statement)
+status: draft
+
+title: "Measurement and conceptualization of gaming disorder according to the World Health Organization framework: The development of the Gaming Disorder Test"
+doi: "10.1007/s11469-019-00088-z"
+journal: "International Journal of Mental Health and Addiction"
+issn: "1557-1874"
+publisher: "Springer Nature"
+volume: "19"
+issue: "2"
+pages: "508–528"
+published: "2021-04"
+published_label: "April 2021 (online 3 June 2019)"
+online: "2019-06-03"
+open_access: true
+licence: "CC BY 4.0"
+licence_url: "https://creativecommons.org/licenses/by/4.0/"
+
+aam:
+  file: "pontes-et-al-2021-ijmha-gaming-disorder-test.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article (CC BY 4.0), re-typeset as a clean PDF with the same content as the published version. Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution 4.0 International License
+    (http://creativecommons.org/licenses/by/4.0/). Originally published in International Journal of Mental Health and
+    Addiction, 19(2), 508–528 (first online 3 June 2019), https://doi.org/10.1007/s11469-019-00088-z. Changes made:
+    the text has been re-typeset; content is unchanged.
+
+authors:
+  - given: "Halley M."
+    family: "Pontes"
+    orcid: "0000-0001-8020-7623"
+    affiliation: ["University of Tasmania"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Birkbeck, University of London"]
+    me: true
+  - given: "Cornelia"
+    family: "Sindermann"
+    affiliation: ["Ulm University"]
+  - given: "Mei"
+    family: "Li"
+    affiliation: ["Beijing University of Civil Engineering and Architecture"]
+  - given: "Benjamin"
+    family: "Becker"
+    affiliation: ["University of Electronic Science and Technology of China"]
+  - given: "Min"
+    family: "Zhou"
+    affiliation: ["University of Cologne"]
+  - given: "Christian"
+    family: "Montag"
+    affiliation: ["Ulm University", "University of Electronic Science and Technology of China"]
+
+cite_short: "Pontes et al., 2021"
+badges: ["Scale development", "4 items, ICD-11 criteria", "China and UK, N = 560", "Free to use with citation"]
+keywords:
+  # Article's own keywords
+  - gaming disorder
+  - Gaming Disorder Test (GDT)
+  - ICD-11
+  - videogame addiction
+  - behavioural addictions
+  # What the scale measures
+  - video game addiction
+  - gaming addiction
+  - problematic gaming
+  - disordered gaming
+  - Internet gaming disorder
+  - WHO diagnostic criteria
+  - impaired control over gaming
+  - priority given to gaming
+  - continued gaming despite negative consequences
+  - screening questionnaire
+  # Constructs and related measures
+  - loneliness
+  - depression
+  - time spent gaming
+  - IGDS9-SF
+  - DSM-5
+  - nomological validity
+  # Method
+  - scale development
+  - psychometric validation
+  - confirmatory factor analysis
+  - MIMIC model
+  - structural equation modelling
+  - convergent and discriminant validity
+  - concurrent validity
+  - cross-cultural adaptation
+  - back-translation
+  # Population and setting
+  - Chinese gamers
+  - British gamers
+  - China
+  - United Kingdom
+  - university students
+  # Application
+  - mental health assessment
+  - clinical psychology
+  - public health
+  - digital wellbeing
+
+in_brief: >-
+  The Gaming Disorder Test (GDT) is a four-item questionnaire that measures gaming disorder as the World Health
+  Organization defines it in ICD-11. In 560 gamers from China and the United Kingdom, the four items formed a single
+  reliable factor, related as expected to loneliness, depression and weekly gaming time, and correlated strongly with an
+  established measure of Internet gaming disorder.
+
+scale:
+  name: "Gaming Disorder Test (GDT)"
+  short: "GDT"
+  summary: >-
+    Four items, one for each feature of gaming disorder in ICD-11: impaired control, increasing priority given to gaming,
+    continued gaming despite negative consequences, and significant problems in life. Respondents report how often each
+    occurred over the past 12 months. Takes under a minute. Free to use in research and practice; please cite the
+    article.
+  facts:
+    - { label: "Items", value: "4 (one dimension), mapped onto the ICD-11 criteria" }
+    - { label: "Response format", value: "1 = never, 2 = rarely, 3 = sometimes, 4 = often, 5 = very often; past 12 months" }
+    - { label: "Scoring", value: "Sum of the four items (range 4–20); higher scores mean more severe gaming disorder" }
+    - { label: "Reliability", value: "Cronbach’s α = 0.84 overall (China 0.87, UK 0.84); composite reliability = 0.85 to 0.87" }
+    - { label: "Validated with", value: "560 gamers: 236 in China (Mandarin version) and 324 in the UK (English version)" }
+  response_labels: ["Never", "Rarely", "Sometimes", "Often", "Very often"]
+  response_codes: [1, 2, 3, 4, 5]
+  score: sum
+  introduction:
+    label: "Instructions"
+    source: article
+    text: >-
+      The questions below are about your gaming activity during the past year (i.e., last 12 months). Here, gaming
+      activity means any gaming-related activity that has been played either from a computer/laptop or from a gaming
+      console or any other kind of device (e.g., mobile phone, tablet) both online and/or offline.
+  pre_questions:
+    - id: SCREEN
+      title: "Screening"
+      type: yesno
+      source: article
+      text: "Have you played any video game in the past 12 months?"
+      note: "Respondents who answer “No” do not continue. This is the eligibility question used in the article."
+      note_audience: researcher
+  block_instruction: "Please indicate how often the following issues occurred on average over the past twelve months until today."
+  block_instruction_source: article
+  dimensions:
+    - code: "GD"
+      name: "Gaming disorder"
+      definition: "Items 1 to 3 map onto the three ICD-11 core criteria; item 4 captures significant impairment in life."
+      items:
+        - { id: "GDT1", text: "I have had difficulties controlling my gaming activity.", label_in_article: "GDT item 1 (impaired control)", loading: "0.73" }
+        - { id: "GDT2", text: "I have given increasing priority to gaming over other life interests and daily activities.", label_in_article: "GDT item 2 (increased priority)", loading: "0.79" }
+        - { id: "GDT3", text: "I have continued gaming despite the occurrence of negative consequences.", label_in_article: "GDT item 3 (continuation despite negative consequences)", loading: "0.79" }
+        - { id: "GDT4", text: "I have experienced significant problems in life (e.g., personal, family, social, education, occupational) due to the severity of my gaming behavior.", label_in_article: "GDT item 4 (significant problems in life)", loading: "0.74" }
+  administration:
+    - "Ask the screening question first; the article included only people who had played a video game in the past 12 months."
+    - "Keep the 12-month time frame: ICD-11 requires the gaming pattern to be evident over at least 12 months."
+    - "The items cover online and offline gaming on any device (computer, console, phone, tablet)."
+    - "The GDT measures the severity of gaming disorder; it does not diagnose it. A diagnosis needs a clinical assessment."
+    - "English and Mandarin versions were tested in the article. For other languages, translate and back-translate the items, and check measurement invariance before comparing groups or countries."
+  scoring:
+    - "Code responses 1 (never) to 5 (very often)."
+    - "Total score = sum of GDT1 to GDT4 (range 4–20); higher scores mean more severe gaming disorder."
+    - "For research classification, an item is endorsed when answered 4 (often) or 5 (very often). Respondents who endorse all four items can be classified as potentially disordered gamers."
+    - "In the original data the mean total score was 6.89 (SD = 3.17), and 1.8% of gamers endorsed all four items (China 1.7%, UK 1.9%)."
+    - "For latent-variable models, specify one factor with the four items. The article added weekly gaming time, gender and age as covariates (MIMIC model, Figure 1)."
+  intro_note: >-
+    The instructions, items, response format and scoring are as published in the article’s appendix (only the spelling
+    of “occurred” is corrected). The screening question is the eligibility question described in the article’s method.
+  copy_footer: >-
+    Scoring: sum the four items (4–20). An item is endorsed when answered 4 (often) or 5 (very often); endorsing all
+    four items classifies a potentially disordered gamer for research purposes.
+  admin_box: >-
+    Ask the screening question first and keep the 12-month time frame. Code answers 1 to 5; the total score is the sum
+    of the four items (4 to 20). An item is endorsed when answered 4 or 5; endorsing all four items classifies a
+    potentially disordered gamer for research purposes. The GDT measures severity and does not replace a clinical
+    diagnosis. Instructions, items and response format are as published.
+  analysis:
+    title: "GDT: one-factor CFA and MIMIC model"
+    r_options: 'estimator = "ML", missing = "fiml"'
+    estimator_note: "maximum likelihood with full information for missing data (FIML), as in the article"
+    r_extra: |
+
+      # 4. Criteria endorsed and research classification (article's appendix)
+      endorsed <- dat[items$gaming_disorder] >= 4      # answered "often" or "very often"
+      dat$gdt_criteria <- rowSums(endorsed)            # number of criteria endorsed, 0-4
+      dat$gdt_disordered <- dat$gdt_criteria == 4      # all four criteria endorsed
+      table(dat$gdt_disordered)
+      prop.table(table(dat$gdt_disordered))
+
+      # 5. MIMIC model (Figure 1): weekly gaming time, gender and age predicting gaming disorder.
+      #    Needs columns weekly_hours, gender (0/1) and age.
+      model_mimic <- paste(model_cfa, "
+        gaming_disorder ~ weekly_hours + gender + age
+      ")
+      fit_mimic <- sem(model_mimic, data = dat, estimator = "ML", missing = "fiml",
+                       se = "bootstrap", bootstrap = 5000)
+      summary(fit_mimic, fit.measures = TRUE, standardized = TRUE)
+
+      # 6. Concurrent validity (Table 3): correlation with the IGDS9-SF total score, if collected
+      # cor.test(dat$gaming_disorder_score, dat$igds9sf_total)
+    mplus_estimator: "ML"
+    mplus_estimator_note: "add BOOTSTRAP = 5000; for bootstrapped SEs"
+    mplus_extra: |
+
+      ! MIMIC model (Figure 1): add weekly_hours, gender and age to
+      ! NAMES and USEVARIABLES, then remove the "!" below
+      ! GD ON weekly_hours gender age;
+    mplus_notes: |
+
+      ! Total score = sum of gdt1-gdt4 (4-20). An item is endorsed when answered
+      ! 4 or 5; endorsing all four items classifies a potentially disordered gamer.
+  downloads:
+    - { label: "Questionnaire (PDF, print-ready)", file: "materials/gdt/gdt-questionnaire.pdf" }
+    - { label: "Qualtrics import file (.txt)", file: "materials/gdt/gdt-qualtrics-import.txt" }
+    - { label: "Item codebook (.csv)", file: "materials/gdt/gdt-codebook.csv" }
+    - { label: "R script: scoring, classification, CFA and MIMIC model (.R)", file: "materials/gdt/gdt-analysis.R" }
+    - { label: "Mplus input: CFA and MIMIC model (.inp)", file: "materials/gdt/gdt-cfa.inp" }
+
+findings:
+  - headline: "One factor, four items."
+    text: >-
+      A confirmatory factor analysis with covariates (MIMIC model) supported a single gaming disorder factor in 560 gamers
+      (&chi;&sup2;(11) = 46.22, CFI = 0.97, TLI = 0.94, RMSEA = 0.07, SRMR = 0.03), with standardised loadings of 0.73 to
+      0.79 and similar results in the Chinese and British samples (Pontes et al., 2021).
+  - headline: "Reliable in China and the UK."
+    text: >-
+      Cronbach’s alpha was 0.84 overall, 0.87 in China and 0.84 in the UK; composite reliability was 0.85 to 0.87 and
+      average variance extracted 0.59 to 0.63, supporting convergent and discriminant validity (Pontes et al., 2021).
+  - headline: "Agrees with an established measure."
+    text: >-
+      GDT scores correlated r = 0.82 to 0.83 with the Internet Gaming Disorder Scale–Short-Form (IGDS9-SF) in the
+      overall, Chinese and British samples (bootstrapped 95% BCa confidence intervals), indicating strong concurrent
+      validity (Pontes et al., 2021).
+  - headline: "Linked to loneliness, depression and gaming time."
+    text: >-
+      Gaming disorder correlated with loneliness (r = 0.45) and depression (r = 0.47), and weekly time spent gaming
+      predicted it (&beta; = 0.41); the model explained 23% of the variance in gaming disorder (Pontes et al., 2021).
+  - headline: "Few gamers met all four criteria."
+    text: >-
+      1.8% of gamers endorsed all four criteria (China 1.7%, UK 1.9%), with no significant difference between countries
+      (Pontes et al., 2021).
+
+glance:
+  - { label: "Design", value: "Cross-sectional online survey to develop and validate a new scale in two countries" }
+  - { label: "Participants", value: "560 gamers aged 18–49 who had played video games in the past 12 months: 236 university students in Beijing, China, and 324 university students in the East Midlands and Greater London, UK" }
+  - { label: "Measures", value: "GDT; Internet Gaming Disorder Scale–Short-Form (IGDS9-SF); three-item UCLA Loneliness Scale; Patient Health Questionnaire (PHQ-9); weekly gaming time, gender and age" }
+  - { label: "Development", value: "Items written with experts to map the ICD-11 criteria; Mandarin version by forward and back translation; pilot with 47 gamers" }
+  - { label: "Analysis", value: "Confirmatory factor analysis with covariates (MIMIC), structural equation modelling of the nomological network, reliability (&alpha;, CR), convergent and discriminant validity (AVE), bootstrapped correlations; FIML estimation in R (lavaan)" }
+
+figures:
+  - file: figures/pontes-et-al-2021-gdt-mimic.svg
+    title: "Figure 1. Factor structure of the GDT with covariates (MIMIC model)"
+    caption: >-
+      Standardised loadings of the four GDT items on one gaming disorder factor, with weekly time spent gaming, gender and
+      age as predictors; overall sample (top) and Chinese and British samples (bottom). <sup>f</sup> loading fixed for
+      identification; values in circles as printed in the article; dotted grey paths are non-significant; ** p &lt; 0.01;
+      *** p &lt; 0.001. Overall fit: &chi;&sup2;(11) = 46.22, CFI = 0.97, TLI = 0.94, RMSEA = 0.07, SRMR = 0.03.
+  - file: figures/pontes-et-al-2021-gdt-nomological.svg
+    title: "Figure 2. Gaming disorder, loneliness and depression (nomological network)"
+    caption: >-
+      Correlations between gaming disorder, loneliness and depression, with weekly time spent gaming, gender and age
+      predicting gaming disorder; overall sample (top) and Chinese and British samples (bottom). Overall fit:
+      &chi;&sup2;(130) = 480.66, CFI = 0.92, TLI = 0.91, RMSEA = 0.06, SRMR = 0.06; *** p &lt; 0.001.
+
+question: >-
+  In 2018 the World Health Organization recognised gaming disorder in the 11th revision of the International
+  Classification of Diseases (ICD-11), defined by impaired control over gaming, increasing priority given to gaming, and
+  continued gaming despite negative consequences, with significant impairment in life. Existing questionnaires followed
+  the nine criteria for Internet gaming disorder in the DSM-5, which differ from the WHO framework. There was no
+  standardised tool to measure gaming disorder as the WHO defines it. This study developed one and tested it in China and
+  the United Kingdom.
+
+implications:
+  practical: >-
+    Researchers, clinicians and public-health teams get a brief, free tool aligned with the official WHO definition. With
+    four items it fits large surveys and epidemiological studies, and the endorsement rule (answering “often” or “very
+    often” to all four items) gives a consistent way to identify potentially disordered gamers for research. English and
+    Mandarin versions are available. The GDT measures severity; it is not a diagnostic instrument and does not replace
+    clinical assessment.
+  theoretical: >-
+    The study gives empirical support to the WHO’s conceptualisation of gaming disorder as a single construct built on
+    impaired control, increased priority and continuation despite harm, plus significant impairment. Unlike the DSM-5
+    framework, the WHO criteria leave out withdrawal and tolerance, so prevalence and diagnostic properties may differ
+    between the two frameworks. The positive links with loneliness and depression place the GDT within the expected
+    nomological network of mental-health constructs.
+
+limitations:
+  - "Both samples were convenience samples of university students, so the findings may not represent all Chinese and British gamers."
+  - "All measures were self-reports collected online, which can be affected by social desirability and recall bias."
+  - "No clinical sample was included, so robust diagnostic cut-off points could not be established; future research should test the GDT with clinically diagnosed individuals."
+  - "Future studies should test the GDT in more culturally diverse samples and age groups, and use larger samples and methods such as latent profile analysis to establish its diagnostic properties."
+
+faq:
+  - q: "How can I measure gaming disorder according to the WHO ICD-11 criteria?"
+    a: >-
+      The Gaming Disorder Test (GDT) has four items that map onto the ICD-11 criteria: impaired control, increasing
+      priority given to gaming, continued gaming despite negative consequences, and significant problems in life. Answers
+      refer to the past 12 months, on a scale from 1 (never) to 5 (very often) (Pontes et al., 2021).
+  - q: "How is the Gaming Disorder Test scored?"
+    a: >-
+      Sum the four items for a total score from 4 to 20, with higher scores meaning more severe gaming disorder. For
+      research classification, an item is endorsed when answered 4 (often) or 5 (very often); respondents who endorse all
+      four items can be classified as potentially disordered gamers (Pontes et al., 2021).
+  - q: "What is the difference between the GDT and the IGDS9-SF?"
+    a: >-
+      The IGDS9-SF follows the nine DSM-5 criteria for Internet gaming disorder; the GDT follows the WHO’s ICD-11
+      framework for gaming disorder, which has fewer criteria and no withdrawal or tolerance. The two scales correlated
+      r = 0.82 to 0.83 in Chinese and British gamers (Pontes et al., 2021).
+  - q: "How common is gaming disorder among gamers?"
+    a: >-
+      In a sample of 560 Chinese and British university gamers, 1.8% endorsed all four GDT criteria (China 1.7%, UK
+      1.9%), with no significant difference between countries (Pontes et al., 2021).
+  - q: "Is the GDT reliable?"
+    a: >-
+      Yes. Cronbach’s alpha was 0.84 overall, 0.87 in China and 0.84 in the UK, with composite reliability of 0.85 to
+      0.87 (Pontes et al., 2021).
+
+concepts:
+  - term: "Gaming disorder (ICD-11)"
+    definition: "A pattern of persistent or recurrent online or offline gaming marked by impaired control over gaming, increasing priority given to gaming over other interests and daily activities, and continuation or escalation despite negative consequences, severe enough to cause significant impairment, normally over at least 12 months."
+  - term: "Internet gaming disorder (DSM-5)"
+    definition: "A tentative condition in Section III of the DSM-5, defined by five or more of nine criteria over 12 months, including withdrawal and tolerance, which the ICD-11 definition does not include."
+  - term: "MIMIC model"
+    definition: "A multiple-indicator multiple-causes model: a confirmatory factor analysis in which observed covariates (here weekly gaming time, gender and age) predict the latent factor."
+  - term: "Concurrent validity"
+    definition: "The degree to which a new measure correlates with an established measure of the same construct administered at the same time; the article treats r ≥ 0.75 as sufficient."
+  - term: "Nomological validity"
+    definition: "Evidence that a measure relates to other constructs as theory predicts; here, gaming disorder correlated positively with loneliness and depression."
+
+open_science:
+  - { label: "Clean full text (PDF)", note: "Open access article, re-typeset; includes all tables, figures and the questionnaire", url: "manuscripts/pontes-et-al-2021-ijmha-gaming-disorder-test.pdf" }
+  - { label: "Published version", note: "International Journal of Mental Health and Addiction (open access, CC BY 4.0)", url: "https://doi.org/10.1007/s11469-019-00088-z" }
+
+tables:
+  - id: "1"
+    title: "Chinese and British samples, sociodemographic characteristics and related gaming behaviors"
+    collapsed: true
+    columns: ["Variables", "Overall", "Chinese", "British"]
+    rows:
+      - ["Sample size (<i>n</i>)", "560", "236", "324"]
+      - ["Gender (male, %)", "271 (48.4)", "111 (47)", "160 (49.4)"]
+      - ["Age (years) (mean, SD)", "23.6 (7.09)", "19.22 (1.57)", "26.74 (7.88)"]
+      - ["Relationship status (in a relationship, %)", "237 (42.3)", "66 (28)", "171 (52.8)"]
+      - ["Weekly time spent gaming (mean, SD)", "12.69 (12.05)", "11.56 (13.22)", "13.51 (11.03)"]
+      - ["Percentage of time spent on weekend (%)", "46.15", "49.76", "43.52"]
+      - ["Experienced significant problems due to gaming (yes, %)", "36 (6.4)", "21 (8.9)", "15 (4.6)"]
+      - ["Depression severity (mean, SD)", "17.05 (5.9)", "14.75 (4.82)", "18.72 (6.21)"]
+      - ["Loneliness severity (mean, SD)", "6.51 (2.6)", "5.91 (2.36)", "6.95 (2.68)"]
+      - ["Gaming disorder severity (mean, SD)", "6.89 (3.17)", "6.17 (2.91)", "7.42 (3.25)"]
+      - ["Gaming disorder prevalence (<i>n</i>, %)", "10 (1.8)", "4 (1.7)", "6 (1.9)"]
+      - { group: true, cells: ["Item-related descriptive statistics (mean, SD)", "", "", ""] }
+      - ["GDT item 1", "1.85 (0.94)", "1.87 (0.96)", "1.84 (0.93)"]
+      - ["GDT item 2", "1.98 (1.06)", "1.56 (0.86)", "2.29 (1.08)"]
+      - ["GDT item 3", "1.69 (1.04)", "1.43 (0.85)", "1.89 (1.13)"]
+      - ["GDT item 4", "1.36 (0.76)", "1.31 (0.76)", "1.40 (0.76)"]
+    note: "<i>SD</i>, standard deviation; <i>GDT</i>, Gaming Disorder Test"
+  - id: "2"
+    title: "Reliability, convergent, and discriminant validity of the Gaming Disorder Test (GDT)"
+    columns: ["", "α", "CR", "AVE", "(1)", "(2)", "(3)"]
+    rows:
+      - { group: true, cells: ["Overall", "", "", "", "", "", ""] }
+      - ["(1) Loneliness", "0.84", "0.85", "0.66", "<i>0.81</i>", "", ""]
+      - ["(2) Depression", "0.90", "0.90", "0.52", "0.75", "<i>0.72</i>", ""]
+      - ["(3) GDT", "0.84", "0.85", "0.59", "0.45", "0.47", "<i>0.77</i>"]
+      - { group: true, cells: ["Chinese", "", "", "", "", "", ""] }
+      - ["(1) Loneliness", "0.82", "0.84", "0.63", "<i>0.79</i>", "", ""]
+      - ["(2) Depression", "0.87", "0.87", "0.46", "0.74", "<i>0.68</i>", ""]
+      - ["(3) GDT", "0.87", "0.87", "0.63", "0.38", "0.47", "<i>0.79</i>"]
+      - { group: true, cells: ["British", "", "", "", "", "", ""] }
+      - ["(1) Loneliness", "0.85", "0.86", "0.67", "<i>0.82</i>", "", ""]
+      - ["(2) Depression", "0.90", "0.90", "0.53", "0.72", "<i>0.73</i>", ""]
+      - ["(3) GDT", "0.84", "0.85", "0.59", "0.45", "0.41", "<i>0.77</i>"]
+    note: "The square root of the Average Variance Extracted for each construct is in italics"
+  - id: "3"
+    title: "Bootstrapped correlation matrix with 95% bias-corrected and accelerated confidence interval between the GDT and IGDS9-SF scores across all samples"
+    columns: ["Measure (sample)", "GDT", "BCa 95% CI", "<i>R</i>^{2}"]
+    rows:
+      - ["IGDS9-SF (overall)", "0.83**", "0.78; 0.86", "0.68"]
+      - ["IGDS9-SF (China)", "0.82**", "0.75; 0.88", "0.67"]
+      - ["IGDS9-SF (UK)", "0.82**", "0.77; 0.86", "0.67"]
+    note: "<i>IGDS9-SF</i>, Internet Gaming Disorder Scale—Short-Form; <i>GDT</i>, Gaming Disorder Test; <i>R</i>^{2}, R-squared. Bootstrap results are based on 5.000 bootstrap samples. **Correlation is significant at the 0.01 level"
+
+related:
+  - "10.1016/j.abrep.2018.06.004"
+  - "10.3390/jcm8101691"
+  - "10.3390/jcm8101730"
+  - "10.1016/j.socscimed.2022.114721"
+  - "10.1016/j.abrep.2021.100391"

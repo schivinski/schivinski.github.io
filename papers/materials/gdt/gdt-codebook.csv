@@ -1,0 +1,5 @@
+variable,dimension,item_text,label_in_article,loading_in_article,response_coding,score
+gdt1,Gaming disorder,I have had difficulties controlling my gaming activity.,GDT item 1 (impaired control),0.73,1 = Never; 2 = Rarely; 3 = Sometimes; 4 = Often; 5 = Very often,gaming disorder = sum of gdt1-gdt4
+gdt2,Gaming disorder,I have given increasing priority to gaming over other life interests and daily activities.,GDT item 2 (increased priority),0.79,1 = Never; 2 = Rarely; 3 = Sometimes; 4 = Often; 5 = Very often,gaming disorder = sum of gdt1-gdt4
+gdt3,Gaming disorder,I have continued gaming despite the occurrence of negative consequences.,GDT item 3 (continuation despite negative consequences),0.79,1 = Never; 2 = Rarely; 3 = Sometimes; 4 = Often; 5 = Very often,gaming disorder = sum of gdt1-gdt4
+gdt4,Gaming disorder,"I have experienced significant problems in life (e.g., personal, family, social, education, occupational) due to the severity of my gaming behavior.",GDT item 4 (significant problems in life),0.74,1 = Never; 2 = Rarely; 3 = Sometimes; 4 = Often; 5 = Very often,gaming disorder = sum of gdt1-gdt4

@@ -116,19 +116,44 @@ def table_html(t: dict) -> str:
 
 
 # ---------- measurement scale toolkit ----------
+def _tag(src: str) -> str:
+    return ' <span class="q-tag">suggested wording</span>' if src == "suggested" else ""
+
+
+def scale_parts(sc: dict) -> list:
+    """Ordered questionnaire parts: (kind, title, payload)."""
+    parts, n = [], 0
+    for pq in sc.get("pre_questions", []):
+        n += 1
+        parts.append(("pre", f"Part {n}. {pq['title']}", pq))
+    for dim in sc["dimensions"]:
+        n += 1
+        title = f"Part {n}. {dim['name']}" if n > 1 or len(sc["dimensions"]) > 1 else dim["name"]
+        parts.append(("dim", title, dim))
+    return parts
+
+
 def scale_plain(sc: dict) -> str:
     """The questionnaire as plain text, for the copy button."""
     labels, codes = sc["response_labels"], sc["response_codes"]
     anchors = "; ".join(f"{c} = {l}" if l else str(c) for c, l in zip(codes, labels))
-    lines = [sc["name"], "", "INTRODUCTION", plain(sc["introduction"]), "",
-             "PART 1. YOUR BRAND", plain(sc["brand_question"]), "[open text answer]", plain(sc["brand_note"]), ""]
-    for i, dim in enumerate(sc["dimensions"], start=2):
-        lines += [f"PART {i}. {dim['name'].upper()}", plain(sc["block_instruction"]), f"Response options: {anchors}", ""]
-        lines += [f"{it['id']}. {plain(it['text'])}" for it in dim["items"]]
-        lines.append("")
-    lines += ["Replace [BRAND] with the brand the respondent named. Present each part on its own page and "
-              "randomise the order of parts and of items within each part.", "",
-              "Source: " + sc.get("cite_line", "")]
+    intro = sc["introduction"]
+    prefix = (sc.get("block_prefix", "") + " ") if sc.get("block_prefix") else ""
+    lines = [sc["name"], "", intro.get("label", "Introduction").upper(), plain(intro["text"]), ""]
+    for kind, title, x in scale_parts(sc):
+        lines.append(title.upper())
+        if kind == "pre":
+            lines += [plain(x["text"]), "[Yes / No]" if x["type"] == "yesno" else "[open text answer]"]
+            if x.get("note"):
+                lines.append(plain(x["note"]))
+            lines.append("")
+        else:
+            lines += [plain(prefix + sc["block_instruction"]), f"Response options: {anchors}", ""]
+            lines += [f"{it['id']}. {plain(it['text'])}" for it in x["items"]]
+            lines.append("")
+    if sc.get("copy_footer"):
+        lines += [plain(sc["copy_footer"]), ""]
+    lines.append("Source: " + sc.get("cite_line", ""))
     return "\n".join(lines).strip() + "\n"
 
 
@@ -144,6 +169,7 @@ def scale_items_plain(sc: dict) -> str:
 def scale_html(d: dict, tables: list) -> str:
     sc = d["scale"]
     labels, codes = sc["response_labels"], sc["response_codes"]
+    prefix = (sc.get("block_prefix", "") + " ") if sc.get("block_prefix") else ""
     facts = "".join(f'<div><dt>{esc(f["label"])}</dt><dd>{f["value"]}</dd></div>' for f in sc.get("facts", []))
     dl = "".join(f'<li><a class="kit-file" href="{esc(x["file"])}" download><span class="kit-ext">'
                  f'{esc(Path(x["file"]).suffix.lstrip(".").upper())}</span><span>{esc(x["label"])}</span></a></li>'
@@ -152,17 +178,28 @@ def scale_html(d: dict, tables: list) -> str:
                          + (f'<span class="q-anchor">{esc(l)}</span>' if l else "") + "</th>"
                          for c, l in zip(codes, labels))
     dot = '<td><span class="q-dot" aria-hidden="true"></span></td>' * len(codes)
-    parts = []
-    for i, dim in enumerate(sc["dimensions"], start=2):
-        rows = "".join(f'<tr><th scope="row"><span class="q-id">{esc(it["id"])}</span>{esc(it["text"])}</th>{dot}</tr>'
-                       for it in dim["items"])
-        parts.append(
-            '<div class="q-part">'
-            f'<h4>Part {i}. {esc(dim["name"])} <span class="q-dim">{esc(dim["definition"])}</span></h4>'
-            f'<p class="q-instr">{esc(sc["block_instruction"])}</p>'
-            '<div class="table-scroll"><table class="q-table"><thead><tr>'
-            f'<th scope="col" class="q-itemcol">Item</th>{head_cells}</tr></thead>'
-            f'<tbody>{rows}</tbody></table></div></div>')
+    wide = " q-table-wide" if len(codes) > 6 else ""
+    intro = sc["introduction"]
+    parts = [f'<div class="q-part q-intro"><h4>{esc(intro.get("label", "Introduction"))}{_tag(intro.get("source"))}</h4>'
+             f'<p>{esc(intro["text"])}</p></div>']
+    for kind, title, x in scale_parts(sc):
+        if kind == "pre":
+            answer = ('<div class="q-yesno" aria-hidden="true"><span class="q-dot"></span> Yes <span class="q-dot"></span> No</div>'
+                      if x["type"] == "yesno" else '<div class="q-textbox" aria-hidden="true">Type your answer</div>')
+            who = "<strong>For researchers:</strong> " if x.get("note_audience") == "researcher" else ""
+            note = f'<p class="q-note">{who}{esc(x["note"])}</p>' if x.get("note") else ""
+            parts.append(f'<div class="q-part"><h4>{esc(title)}{_tag(x.get("source"))}</h4>'
+                         f'<p class="q-instr">{esc(x["text"])}</p>{answer}{note}</div>')
+        else:
+            rows = "".join(f'<tr><th scope="row"><span class="q-id">{esc(it["id"])}</span>{esc(it["text"])}</th>{dot}</tr>'
+                           for it in x["items"])
+            parts.append(
+                '<div class="q-part">'
+                f'<h4>{esc(title)} <span class="q-dim">{esc(x.get("definition", ""))}</span></h4>'
+                f'<p class="q-instr">{esc(prefix + sc["block_instruction"])}{_tag(sc.get("block_instruction_source"))}</p>'
+                f'<div class="table-scroll"><table class="q-table{wide}"><thead><tr>'
+                f'<th scope="col" class="q-itemcol">Item</th>{head_cells}</tr></thead>'
+                f'<tbody>{rows}</tbody></table></div></div>')
     admin = "".join(f"<li>{x}</li>" for x in sc.get("administration", []))
     scoring = "".join(f"<li>{x}</li>" for x in sc.get("scoring", []))
     bench = "".join(table_html(t) for t in tables)
@@ -181,15 +218,7 @@ def scale_html(d: dict, tables: list) -> str:
         f'<pre class="copy-source" id="q-text" aria-hidden="true">{esc(scale_plain(sc))}</pre>'
         f'<pre class="copy-source" id="q-items" aria-hidden="true">{esc(scale_items_plain(sc))}</pre>'
         '<h3>The questionnaire</h3>'
-        '<div class="questionnaire">'
-        '<div class="q-part q-intro"><h4>Introduction <span class="q-tag">suggested wording</span></h4>'
-        f'<p>{esc(sc["introduction"])}</p></div>'
-        '<div class="q-part"><h4>Part 1. Your brand <span class="q-tag">suggested wording</span></h4>'
-        f'<p class="q-instr">{esc(sc["brand_question"])}</p>'
-        '<div class="q-textbox" aria-hidden="true">Brand name</div>'
-        f'<p class="q-note">{esc(sc["brand_note"])}</p></div>'
-        + "".join(parts) +
-        '</div>'
+        f'<div class="questionnaire">{"".join(parts)}</div>'
         f'<p class="licence">{esc(sc.get("intro_note", ""))}</p>'
         '<div class="implications">'
         f'<div><h3>How to administer</h3><ul class="limits">{admin}</ul></div>'
@@ -294,9 +323,10 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
     aam = d.get("aam")
     if aam:
         actions = (f'<a class="btn btn-primary-ink btn-download" href="manuscripts/{esc(aam["file"])}" download>'
-                   f'Download the accepted manuscript (PDF)</a>'
+                   f'{esc(aam.get("button", "Download the accepted manuscript (PDF)"))}</a>'
                    f'<a class="btn btn-line" href="https://doi.org/{esc(d["doi"])}">Published version</a>')
-        aam_note = ('<p class="aam-note">Free full text: the authors&rsquo; accepted manuscript, identical in content '
+        aam_note = (f'<p class="aam-note">{esc(aam["note"])}</p>' if aam.get("note") else
+                    '<p class="aam-note">Free full text: the authors&rsquo; accepted manuscript, identical in content '
                     'to the published article. Please cite the published version.</p>')
     else:
         actions = f'<a class="btn btn-primary-ink" href="https://doi.org/{esc(d["doi"])}">Read the article</a>'

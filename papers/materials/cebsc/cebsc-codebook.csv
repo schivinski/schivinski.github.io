@@ -1,18 +1,18 @@
-variable,dimension,item_text,label_in_article,validation_loading,response_coding,score
-cons1,Consumption,I read posts related to [BRAND] on social media.,Cons1,0.82,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,consumption = mean of cons1-cons5
-cons2,Consumption,I read fan page(s) related to [BRAND] on social networking sites.,Cons2,0.84,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,consumption = mean of cons1-cons5
-cons3,Consumption,I watch pictures/graphics related to [BRAND].,Cons3,0.66,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,consumption = mean of cons1-cons5
-cons4,Consumption,I follow blogs related to [BRAND].,Cons4,0.63,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,consumption = mean of cons1-cons5
-cons5,Consumption,I follow [BRAND] on social networking sites.,Cons5,0.86,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,consumption = mean of cons1-cons5
-cont1,Contribution,I comment on videos related to [BRAND].,Contr1,0.84,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,contribution = mean of cont1-cont6
-cont2,Contribution,I comment on posts related to [BRAND].,Contr2,0.90,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,contribution = mean of cont1-cont6
-cont3,Contribution,I comment on pictures/graphics related to [BRAND].,Contr3,0.86,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,contribution = mean of cont1-cont6
-cont4,Contribution,I share [BRAND] related posts.,Contr4,0.88,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,contribution = mean of cont1-cont6
-cont5,Contribution,I “Like” pictures/graphics related to [BRAND].,Contr5,0.63,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,contribution = mean of cont1-cont6
-cont6,Contribution,I “Like” posts related to [BRAND].,Contr6,0.67,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,contribution = mean of cont1-cont6
-crea1,Creation,I initiate posts related to [BRAND] on blogs.,Creat1,0.90,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,creation = mean of crea1-crea6
-crea2,Creation,I initiate posts related to [BRAND] on social networking sites.,Creat2,0.90,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,creation = mean of crea1-crea6
-crea3,Creation,I post pictures/graphics related to [BRAND].,Creat3,0.82,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,creation = mean of crea1-crea6
-crea4,Creation,I post videos that show [BRAND].,Creat4,0.85,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,creation = mean of crea1-crea6
-crea5,Creation,I write posts related to [BRAND] on forums.,Creat5,0.80,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,creation = mean of crea1-crea6
-crea6,Creation,I write reviews related to [BRAND].,Creat6,0.69,0 = Not at all; 1 = Not very often; 2 = 2; 3 = 3; 4 = 4; 5 = 5; 6 = 6; 7 = Very often,creation = mean of crea1-crea6
+variable,dimension,item_text,label_in_article,loading_in_article,response_coding,score
+cons1,Consumption,I read posts related to [BRAND] on social media.,Cons1,0.82,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,consumption = mean of cons1-cons5
+cons2,Consumption,I read fan page(s) related to [BRAND] on social networking sites.,Cons2,0.84,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,consumption = mean of cons1-cons5
+cons3,Consumption,I watch pictures/graphics related to [BRAND].,Cons3,0.66,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,consumption = mean of cons1-cons5
+cons4,Consumption,I follow blogs related to [BRAND].,Cons4,0.63,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,consumption = mean of cons1-cons5
+cons5,Consumption,I follow [BRAND] on social networking sites.,Cons5,0.86,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,consumption = mean of cons1-cons5
+cont1,Contribution,I comment on videos related to [BRAND].,Contr1,0.84,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,contribution = mean of cont1-cont6
+cont2,Contribution,I comment on posts related to [BRAND].,Contr2,0.90,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,contribution = mean of cont1-cont6
+cont3,Contribution,I comment on pictures/graphics related to [BRAND].,Contr3,0.86,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,contribution = mean of cont1-cont6
+cont4,Contribution,I share [BRAND] related posts.,Contr4,0.88,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,contribution = mean of cont1-cont6
+cont5,Contribution,I “Like” pictures/graphics related to [BRAND].,Contr5,0.63,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,contribution = mean of cont1-cont6
+cont6,Contribution,I “Like” posts related to [BRAND].,Contr6,0.67,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,contribution = mean of cont1-cont6
+crea1,Creation,I initiate posts related to [BRAND] on blogs.,Creat1,0.90,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,creation = mean of crea1-crea6
+crea2,Creation,I initiate posts related to [BRAND] on social networking sites.,Creat2,0.90,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,creation = mean of crea1-crea6
+crea3,Creation,I post pictures/graphics related to [BRAND].,Creat3,0.82,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,creation = mean of crea1-crea6
+crea4,Creation,I post videos that show [BRAND].,Creat4,0.85,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,creation = mean of crea1-crea6
+crea5,Creation,I write posts related to [BRAND] on forums.,Creat5,0.80,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,creation = mean of crea1-crea6
+crea6,Creation,I write reviews related to [BRAND].,Creat6,0.69,0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often,creation = mean of crea1-crea6

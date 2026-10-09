@@ -1,0 +1,24 @@
+TITLE:    GDT: one-factor CFA and MIMIC model
+! Please cite: Pontes et al. (2021),
+! International Journal of Mental Health and Addiction 19(2), 508-528.
+! https://doi.org/10.1007/s11469-019-00088-z   Materials: schivinski.github.io
+
+DATA:     FILE = gdt.dat;          ! replace with your data file
+
+VARIABLE: NAMES = gdt1-gdt4;
+          USEVARIABLES = gdt1-gdt4;
+          MISSING = ALL (-99);
+
+ANALYSIS: ESTIMATOR = ML;           ! add BOOTSTRAP = 5000; for bootstrapped SEs
+
+MODEL:
+  GD BY gdt1-gdt4;
+
+          ! MIMIC model (Figure 1): add weekly_hours, gender and age to
+          ! NAMES and USEVARIABLES, then remove the "!" below
+          ! GD ON weekly_hours gender age;
+
+OUTPUT:   STANDARDIZED MODINDICES;
+
+! Total score = sum of gdt1-gdt4 (4-20). An item is endorsed when answered
+! 4 or 5; endorsing all four items classifies a potentially disordered gamer.

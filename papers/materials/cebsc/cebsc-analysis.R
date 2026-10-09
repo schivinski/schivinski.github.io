@@ -6,7 +6,7 @@
 #
 # Data: one row per respondent, item columns named as in the codebook
 # (cons1-cons5, cont1-cont6, crea1-crea6),
-# coded 0 = not at all, 1 = not very often ... 7 = very often.
+# coded 0 = Not at all; 1 = Not very often; 2; 3; 4; 5; 6; 7 = Very often.
 
 library(lavaan)
 
@@ -18,11 +18,11 @@ items <- list(
   creation = c("crea1", "crea2", "crea3", "crea4", "crea5", "crea6")
 )
 
-# 1. Dimension scores: mean of the items in each dimension (range 0-7)
+# 1. Scores: mean of the items (range 0-7)
 for (dim in names(items)) dat[[paste0(dim, "_score")]] <- rowMeans(dat[items[[dim]]])
 summary(dat[paste0(names(items), "_score")])
 
-# 2. Cronbach's alpha per dimension
+# 2. Cronbach's alpha
 cronbach_alpha <- function(x) {
   x <- na.omit(x); k <- ncol(x)
   k / (k - 1) * (1 - sum(apply(x, 2, var)) / var(rowSums(x)))
