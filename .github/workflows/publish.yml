@@ -1,11 +1,20 @@
 name: Build and publish site
 
+# REVIEW MODE: pushes only *build* the site (to check nothing is broken).
+# Nothing is published unless Bruno runs this workflow by hand from the
+# Actions tab with "Publish to schivinski.github.io" ticked.
+# The weekly schedule is switched off until the site is approved.
 on:
   push:
     branches: [main]
-  schedule:
-    - cron: "17 2 * * 1"   # Mondays 02:17 UTC: refresh publications from ORCID
+  # schedule:
+  #   - cron: "17 2 * * 1"   # Mondays 02:17 UTC: refresh publications from ORCID
   workflow_dispatch:
+    inputs:
+      publish:
+        description: "Publish to schivinski.github.io"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -30,6 +39,7 @@ jobs:
         run: python scripts/fetch_publications.py
 
       - name: Save refreshed publication cache
+        if: github.event_name == 'workflow_dispatch' && inputs.publish
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -47,6 +57,7 @@ jobs:
 
   deploy:
     needs: build
+    if: github.event_name == 'workflow_dispatch' && inputs.publish
     runs-on: ubuntu-latest
     environment:
       name: github-pages
