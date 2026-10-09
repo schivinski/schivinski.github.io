@@ -1,0 +1,270 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Marketing Communications 22(2), 189-214 (PDF supplied by Bruno, 9 Oct 2026)
+# Status: draft (set to "locked" once Bruno approves every statement)
+status: draft
+
+title: "The effect of social media communication on consumer perceptions of brands"
+doi: "10.1080/13527266.2013.871323"
+journal: "Journal of Marketing Communications"
+issn: "1352-7266"
+publisher: "Taylor & Francis"
+volume: "22"
+issue: "2"
+pages: "189–214"
+published: "2016-03"
+published_label: "2016 (online January 2014)"
+online: "2014-01-20"
+open_access: false
+
+aam:
+  file: "schivinski-dabrowski-2016-jmc-accepted-manuscript.pdf"
+  statement: >-
+    This is an Accepted Manuscript of an article published by Taylor & Francis in Journal of Marketing
+    Communications on 20 January 2014, available online: https://doi.org/10.1080/13527266.2013.871323
+
+authors:
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Gdańsk University of Technology"]
+    me: true
+  - given: "Dariusz"
+    family: "Dabrowski"
+    affiliation: ["Gdańsk University of Technology"]
+
+cite_short: "Schivinski & Dabrowski, 2016"
+badges: ["504 Facebook users", "60 brands, 3 industries", "Structural equation modelling", "Poland"]
+keywords:
+  # Article's own keywords
+  - social media
+  - brand equity
+  - brand attitude
+  - purchase intention
+  - Facebook
+  - user-generated content
+  # What the study is about
+  - social media communication
+  - firm-created content
+  - brand-generated content
+  - electronic word-of-mouth (eWOM)
+  - brand fan pages
+  - social media marketing
+  - consumer-based brand equity
+  - consumer perceptions of brands
+  - online consumer behaviour
+  - brand communication
+  # Theory and measures
+  - schema theory
+  - overall brand equity scale
+  - attitude–intention relationship
+  - source credibility
+  # Method
+  - structural equation modelling (SEM)
+  - confirmatory factor analysis
+  - multigroup analysis
+  - measurement invariance
+  - survey research
+  # Context
+  - Poland
+  - Central Europe
+  - non-alcoholic beverages
+  - clothing brands
+  - mobile network operators
+  # Application
+  - social media strategy
+  - content marketing
+  - integrated marketing communications
+  - brand management
+
+in_brief: >-
+  What consumers post about a brand on Facebook raised both brand equity and brand attitude, while what the brand
+  posted itself improved attitudes only. In a survey of 504 Facebook users following 60 brands, brand attitude was
+  the strongest route to purchase intention.
+
+findings:
+  - headline: "User-generated content builds brand equity and brand attitude."
+    text: >-
+      In a survey of 504 Facebook users in Poland who followed 60 brands, user-generated social media communication
+      had positive effects on brand equity (&beta; = 0.24, <i>p</i> &lt; .001) and on brand attitude
+      (&beta; = 0.29, <i>p</i> &lt; .001) (Schivinski &amp; Dabrowski, 2016).
+  - headline: "Firm-created content shapes attitudes, not brand equity."
+    text: >-
+      Social media communication created by the brand itself improved brand attitude (&beta; = 0.38,
+      <i>p</i> &lt; .001) but had no significant effect on brand equity (&beta; = &minus;0.04, <i>p</i> = .45)
+      (Schivinski &amp; Dabrowski, 2016).
+  - headline: "Brand attitude is the main route to purchase intention."
+    text: >-
+      Brand attitude increased brand equity (&beta; = 0.62) and purchase intention (&beta; = 0.60), and brand
+      equity increased purchase intention (&beta; = 0.32), all <i>p</i> &lt; .001; the effect of brand attitude on
+      purchase intention was almost twice that of brand equity (Schivinski &amp; Dabrowski, 2016).
+  - headline: "The model works across industries, with differences in strength."
+    text: >-
+      The measurement model was equivalent across non-alcoholic beverages, clothing and mobile network operators
+      (&Delta;CFI = 0.000); &chi;&sup2; difference tests showed that brand attitude had a stronger effect on brand
+      equity for non-alcoholic beverages, where it was also the strongest driver of purchase intention
+      (Schivinski &amp; Dabrowski, 2016).
+
+glance:
+  - { label: "Design", value: "Online survey; confirmatory factor analysis and structural equation modelling (AMOS 21, maximum likelihood)" }
+  - { label: "Participants", value: "504 Facebook users in Poland (59.9% women; 78% aged 15&ndash;25), recruited through brand fan pages, March&ndash;April 2013" }
+  - { label: "Brands", value: "60 brands the participants followed on Facebook: non-alcoholic beverages (n = 141), clothing (n = 184), mobile network operators (n = 179)" }
+  - { label: "Measures", value: "Firm-created and user-generated social media communication (4 items each), overall brand equity (Yoo &amp; Donthu, 2001), brand attitude and purchase intention (3 items each); 7-point scales" }
+  - { label: "Model fit", value: "&chi;&sup2;/df = 2.21, CFI = 0.98, TLI = 0.98, AGFI = 0.92, SRMR = 0.02, RMSEA = 0.04" }
+  - { label: "Robustness", value: "Multigroup invariance tests across the three industries" }
+
+figures:
+  - file: figures/schivinski-dabrowski-2016-model.svg
+    title: "Figure 1. Proposed conceptual framework"
+    caption: "Hypothesised effects of firm-created and user-generated social media communication on brand equity, brand attitude and purchase intention."
+  - file: figures/schivinski-dabrowski-2016-estimates.svg
+    title: "Figure 2. Standardised estimates for the model"
+    caption: "Standardised path coefficients from the structural equation model (N = 504). * <i>p</i> &le; .001; n.s. = not significant."
+
+question: >-
+  Brands now communicate on social media, but much of the brand content consumers see there is created by other
+  consumers. Little was known about how these two sources, content the brand controls and content users generate,
+  shape how consumers perceive brands, or whether the effects differ by industry. We asked how firm-created and
+  user-generated social media communication influence consumers' perceptions and behaviour, overall and across
+  industries.
+
+implications:
+  practical: >-
+    Social media should complement traditional advertising rather than replace it. Brand posts work best when they
+    build positive associations and attitudes, which then carry through to brand equity and purchase intention.
+    Because consumers find other users' content more credible, managers should encourage it, listen to it and respond
+    to it, and be ready to manage negative content on unregulated brand pages. Strategies that invite user content,
+    as in the beverage brands studied, were linked to the strongest attitude effects.
+  theoretical: >-
+    The study separates firm-created from user-generated social media communication as distinct antecedents of
+    consumer-based brand equity and brand attitude, and shows that user-generated content is the stronger of the two.
+    Firm-created content reached brand equity only through brand attitude in the model, which points to attitude as
+    the key mechanism for brand-controlled messages. The measurement model held across three industries and can be
+    reused in other settings.
+
+limitations:
+  - "Only one platform (Facebook) and three industries were studied; communication differs across social media channels."
+  - "The sample was Polish and mostly young, so results may not generalise to other cultures."
+  - "Future research could include all leading platforms, more industries, social media advertising spend, and types of users such as prosumers and lead users."
+
+faq:
+  - q: "Does user-generated content affect brand equity?"
+    a: >-
+      Yes. In a survey of 504 Facebook users following 60 brands, user-generated social media communication increased
+      both brand equity (&beta; = 0.24) and brand attitude (&beta; = 0.29) (Schivinski &amp; Dabrowski, 2016).
+  - q: "Does a brand's own social media content increase brand equity?"
+    a: >-
+      Not directly. Firm-created social media communication improved brand attitude (&beta; = 0.38) but had no
+      significant direct effect on brand equity (&beta; = &minus;0.04, <i>p</i> = .45) (Schivinski &amp; Dabrowski, 2016).
+  - q: "Is brand attitude or brand equity more important for purchase intention on social media?"
+    a: >-
+      Brand attitude. Its effect on purchase intention (&beta; = 0.60) was almost twice that of brand equity
+      (&beta; = 0.32) (Schivinski &amp; Dabrowski, 2016).
+  - q: "Do the effects of social media communication differ by industry?"
+    a: >-
+      The model held across non-alcoholic beverages, clothing and mobile network operators, but brand attitude had a
+      stronger effect on brand equity and purchase intention for non-alcoholic beverage brands (Schivinski &amp;
+      Dabrowski, 2016).
+
+concepts:
+  - term: "Firm-created social media communication"
+    definition: "Brand content on social media that the company creates and fully controls, treated in the study as a form of advertising."
+  - term: "User-generated social media communication"
+    definition: "Brand-related content created by consumers, outside the company's control."
+  - term: "Consumer-based brand equity"
+    definition: "The added value consumers attach to a branded product compared with an unbranded one with the same characteristics; measured with the overall brand equity scale of Yoo and Donthu (2001)."
+  - term: "Brand attitude"
+    definition: "A consumer's overall evaluation of a brand."
+  - term: "Measurement invariance"
+    definition: "Evidence that a measurement model works the same way across groups, here three industries, so that comparisons between them are meaningful."
+
+materials:
+  - label: "Screening questions"
+    text: "&lsquo;How often do you receive newsfeeds from the brands you have &ldquo;Liked&rdquo;?&rsquo;; &lsquo;Do you read the newsfeed from Brand X?&rsquo;; &lsquo;Do you check what other people post about Brand X?&rsquo;"
+  - label: "Scale items"
+    text: "All 18 items with standardised loadings are in Table A1 below (English versions; the survey was administered in Polish after back-translation)."
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Free full text, including all tables and figures", url: "manuscripts/schivinski-dabrowski-2016-jmc-accepted-manuscript.pdf" }
+  - { label: "Published version", note: "Journal of Marketing Communications (subscription)", url: "https://doi.org/10.1080/13527266.2013.871323" }
+
+tables:
+  - id: "A1"
+    title: "List of constructs and measurements used"
+    columns: ["Constructs and measurements", "Standardised loading", "CA", "CR", "Based on"]
+    align: ["left", "right", "right", "right", "left"]
+    rows:
+      - { group: true, cells: ["Firm-created social media communication", "", "0.951", "0.951", "Tsiros, Mittal, and Ross 2004; Mägi 2003; Schivinski and Dabrowski 2013"] }
+      - ["[FC1] I am satisfied with the company’s social media communications for [brand]", "0.92", "", "", ""]
+      - ["[FC2] The level of the company’s social media communications for [brand] meets my expectations", "0.92", "", "", ""]
+      - ["[FC3] The company’s social media communications for [brand] are very attractive", "0.93", "", "", ""]
+      - ["[FC4] This company’s social media communications for [brand] perform well, when compared with the social media communications of other companies", "0.87", "", "", ""]
+      - { group: true, cells: ["User-generated social media communication", "", "0.930", "0.931", "Tsiros, Mittal, and Ross 2004; Mägi 2003; Schivinski and Dabrowski 2013"] }
+      - ["[UG1] I am satisfied with the content generated on social media sites by other users about [brand]", "0.90", "", "", ""]
+      - ["[UG2] The level of the content generated on social media sites by other users about [brand] meets my expectations", "0.92", "", "", ""]
+      - ["[UG3] The content generated by other users about [brand] is very attractive", "0.82", "", "", ""]
+      - ["[UG4] The content generated on social media sites by other users about [brand] performs well, when compared with other brands", "0.86", "", "", ""]
+      - { group: true, cells: ["Overall brand equity", "", "0.920", "0.921", "Yoo and Donthu 2001"] }
+      - ["[OBE1] It makes sense to buy [brand] instead of any other brand, even if they are the same", "0.91", "", "", ""]
+      - ["[OBE2] Even if another brand has the same feature as [brand], I would prefer to buy [brand]", "0.87", "", "", ""]
+      - ["[OBE3] If there is another brand as good as [brand], I prefer to buy [brand]", "0.89", "", "", ""]
+      - ["[OBE4] If another brand is not different from [brand] in any way, it seems smarter to purchase [brand]^{a}", "0.62", "", "", ""]
+      - { group: true, cells: ["Brand attitude", "", "0.971", "0.971", "Low and Lamb 2000; Villarejo-Ramos and Sánchez-Franco 2005"] }
+      - ["[BA1] I have a pleasant idea of [brand]", "0.92", "", "", ""]
+      - ["[BA2] [Brand] has a good reputation", "0.94", "", "", ""]
+      - ["[BA3] I associate positive characteristics with [brand]", "0.97", "", "", ""]
+      - { group: true, cells: ["Brand purchase intention", "", "0.945", "0.946", "Yoo, Donthu, and Lee 2000; Shukla 2011"] }
+      - ["[PI1] I would buy this product/brand rather than any other brands available", "0.89", "", "", ""]
+      - ["[PI2] I am willing to recommend that others buy this product/brand", "0.94", "", "", ""]
+      - ["[PI3] I intend to purchase this product/brand in the future", "0.89", "", "", ""]
+    note: "CA, Cronbach’s alpha; CR, composite reliability. Seven-point scales (1 = strongly disagree, 7 = strongly agree). ^{a} Item excluded from the analysis."
+  - id: "A3"
+    title: "Structural results"
+    columns: ["Hypothesis", "Path", "<i>p</i>", "<i>t</i>", "&beta;", "Result"]
+    align: ["left", "left", "right", "right", "right", "center"]
+    rows:
+      - ["H1a", "Firm-created social media → brand equity", "0.45", "−0.75", "−0.04", "Not supported"]
+      - ["H1b", "User-generated social media → brand equity", "0.001", "4.64", "0.24", "Supported"]
+      - ["H2", "Brand attitude → brand equity", "0.001", "13.88", "0.62", "Supported"]
+      - ["H3a", "Firm-created social media → brand attitude", "0.001", "6.87", "0.38", "Supported"]
+      - ["H3b", "User-generated social media → brand attitude", "0.001", "5.27", "0.29", "Supported"]
+      - ["H4", "Brand equity → purchase intention", "0.001", "7.45", "0.32", "Supported"]
+      - ["H5", "Brand attitude → purchase intention", "0.001", "14.29", "0.60", "Supported"]
+    note: "<i>t</i> ≥ 4.64, <i>p</i> ≤ 0.001; cmin/df = 2.21; CFI = 0.98; AGFI = 0.92; SRMR = 0.02; TLI = 0.98; RMSEA = 0.04."
+  - id: "A2"
+    title: "Convergent and discriminant validity"
+    collapsed: true
+    columns: ["", "CR", "AVE", "MSV", "ASV", "BA", "FC", "UG", "BE", "PI"]
+    rows:
+      - ["BA", "0.971", "0.919", "0.686", "0.464", "<i>0.958</i>", "", "", "", ""]
+      - ["FC", "0.951", "0.829", "0.482", "0.325", "0.577", "<i>0.911</i>", "", "", ""]
+      - ["UG", "0.931", "0.771", "0.482", "0.342", "0.551", "0.694", "<i>0.878</i>", "", ""]
+      - ["BE", "0.921", "0.795", "0.564", "0.409", "0.730", "0.485", "0.552", "<i>0.891</i>", ""]
+      - ["PI", "0.946", "0.854", "0.686", "0.445", "0.828", "0.501", "0.529", "0.751", "<i>0.924</i>"]
+    note: "The square root of the AVE values are marked in italics. BA, brand attitude; FC, firm-created communication; UG, user-generated communication; BE, brand equity; PI, purchase intention."
+  - id: "A4"
+    title: "Summary of goodness-of-fit statistics for tests for the invariance of causal structure"
+    collapsed: true
+    columns: ["Model description", "Comparative model", "χ²", "df", "Δχ²", "Δdf", "<i>p</i>", "CFI", "ΔCFI"]
+    rows:
+      - ["1. Configural model; no equality constraints imposed", "–", "550.792", "336", "–", "–", "–", "0.978", "–"]
+      - { group: true, cells: ["2. Measurement model", "", "", "", "", "", "", "", ""] }
+      - ["(Model 2A) All factor loadings constrained equal with exception of OBE2", "2A versus 1", "578.05", "358", "27.258", "22", "0.202", "0.978", "0.000"]
+      - { group: true, cells: ["3. Structural model", "", "", "", "", "", "", "", ""] }
+      - ["(Model 3A^{a}) Model 2A with all structural path weights constrained equal", "3A versus 1", "606.971", "370", "56.179", "34", "0.010", "0.976", "0.002"]
+      - ["(Model 3B) Model 2A with structural path between FC and BA constrained equal", "3B versus 1", "580.992", "360", "30.2", "24", "0.178", "0.978", "0.000"]
+      - ["(Model 3C) Model 3B with structural path between UG and BA constrained equal", "3C versus 1", "585.563", "362", "34.771", "26", "0.117", "0.978", "0.000"]
+      - ["(Model 3D) Model 3C with structural path between UG and BE constrained equal", "3D versus 1", "588.22", "364", "37.428", "28", "0.110", "0.977", "0.001"]
+      - ["(Model 3E^{a}) Model 3D with structural path between BA and BE constrained equal", "3E versus 1", "600.704", "366", "49.912", "30", "0.013", "0.976", "0.002"]
+      - ["(Model 3F^{a}) Model 3C with structural path between BA and BE^{b,c} constrained equal", "3F versus 1", "595.048", "365", "44.256", "29", "0.035", "0.977", "0.001"]
+      - ["(Model 3G) Model 3C with structural path between BA and BE^{c} constrained equal", "3G versus 1", "588.22", "364", "37.428", "28", "0.110", "0.977", "0.001"]
+      - ["(Model 3H^{a}) Model 3G with structural path between BE and PI constrained equal", "3H versus 1", "593.224", "366", "42.432", "30", "0.066", "0.977", "0.001"]
+      - ["(Model 3I) Model 3G with structural path between BE and PI^{b,c} constrained equal", "3I versus 1", "589.656", "365", "38.864", "29", "0.104", "0.977", "0.001"]
+      - ["(Model 3J^{a}) Model 3I with structural path between BA and PI constrained equal", "3J versus 1", "594.076", "367", "43.284", "31", "0.07", "0.977", "0.001"]
+      - ["(Model 3K) Model 3I with structural path between BA and PI^{b,c} constrained equal", "3K versus 1", "590.38", "366", "39.588", "30", "0.113", "0.977", "0.001"]
+    note: "Δχ², difference in χ² values between models; Δdf, difference in number of degrees of freedom between models; ΔCFI, difference in CFI values between models; FC, firm-created communication; UG, user-generated communication; BE, brand equity; BA, brand attitude; PI, purchase intention. ^{a} Model noninvariant considering the Δχ² test. ^{b} Clothing industry. ^{c} Mobile operators industry."
+
+related:
+  - "10.2501/jar-2016-004"
+  - "10.1108/jrim-02-2014-0007"
+  - "10.1080/0965254x.2019.1572641"
+  - "10.1016/j.jbusres.2019.08.045"

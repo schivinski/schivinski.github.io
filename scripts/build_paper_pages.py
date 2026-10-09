@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -85,6 +86,34 @@ def results_svg(r: dict) -> str:
             f'font-family="Hanken Grotesk, Arial, sans-serif">{"".join(parts)}</svg>')
 
 
+# ---------- tables ----------
+def cell(x) -> str:
+    x = "" if x is None else str(x)
+    return re.sub(r"\^\{([^}]*)\}", r"<sup>\1</sup>", x)
+
+
+def table_html(t: dict) -> str:
+    cols = t["columns"]
+    aligns = t.get("align", ["left"] + ["right"] * (len(cols) - 1))
+    head = "".join(f'<th scope="col" class="a-{aligns[i]}">{cell(c)}</th>' for i, c in enumerate(cols))
+    rows = []
+    for r in t["rows"]:
+        if isinstance(r, dict):
+            cells = r["cells"]
+            cls = ' class="row-group"' if r.get("group") else ""
+        else:
+            cells, cls = r, ""
+        tds = "".join(f'<td class="a-{aligns[i]}">{cell(c)}</td>' for i, c in enumerate(cells))
+        rows.append(f"<tr{cls}>{tds}</tr>")
+    cap = f'Table {esc(t["id"])}. {esc(t["title"])}'
+    note = f'<p class="table-note">{cell(t["note"])}</p>' if t.get("note") else ""
+    table = (f'<div class="table-scroll"><table class="data-table" id="table-{esc(t["id"])}">'
+             f'<thead><tr>{head}</tr></thead><tbody>{"".join(rows)}</tbody></table></div>{note}')
+    if t.get("collapsed"):
+        return f'<details class="table-block"><summary>{cap}</summary>{table}</details>'
+    return f'<div class="table-block"><h3 class="table-title">{cap}</h3>{table}</div>'
+
+
 # ---------- page ----------
 def head_layer(d: dict, slug: str, url: str) -> str:
     authors = d["authors"]
@@ -132,7 +161,9 @@ def head_layer(d: dict, slug: str, url: str) -> str:
             meta.append(f'<meta name="{tag}" content="{esc(d[key])}">')
     if d.get("article_number"):
         meta.append(f'<meta name="citation_firstpage" content="{esc(d["article_number"])}">')
-    if d.get("pdf_url"):
+    if d.get("aam"):
+        meta.append(f'<meta name="citation_pdf_url" content="{SITE}/papers/manuscripts/{esc(d["aam"]["file"])}">')
+    elif d.get("pdf_url"):
         meta.append(f'<meta name="citation_pdf_url" content="{esc(d["pdf_url"])}">')
     meta.append(f'<meta name="citation_keywords" content="{esc("; ".join(d.get("keywords", [])))}">')
     meta.append(f'<meta name="description" content="{esc(plain(d["in_brief"]))}">')
@@ -167,18 +198,29 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
     kw = d.get("keywords", [])
     kw_html = ('<div class="paper-keywords"><span class="kw-label">Keywords</span><ul>'
                + "".join(f"<li>{esc(k)}</li>" for k in kw) + "</ul></div>") if kw else ""
+    aam = d.get("aam")
+    if aam:
+        actions = (f'<a class="btn btn-primary-ink btn-download" href="manuscripts/{esc(aam["file"])}" download>'
+                   f'Download the accepted manuscript (PDF)</a>'
+                   f'<a class="btn btn-line" href="https://doi.org/{esc(d["doi"])}">Published version</a>')
+        aam_note = ('<p class="aam-note">Free full text: the authors&rsquo; accepted manuscript, identical in content '
+                    'to the published article. Please cite the published version.</p>')
+    else:
+        actions = f'<a class="btn btn-primary-ink" href="https://doi.org/{esc(d["doi"])}">Read the article</a>'
+        aam_note = ""
     badges = (['<li class="badge badge-open">Open access</li>'] if d.get("open_access") else []) + \
              [f'<li class="badge">{esc(b)}</li>' for b in d.get("badges", [])]
     out.append(f'''<div class="paper-head">
   <p class="paper-authors">{", ".join(names)}</p>
   <p class="paper-ref">{ref}</p>
   <ul class="badges" aria-label="Article features">{"".join(badges)}</ul>
-  {kw_html}
   <div class="paper-actions">
-    <a class="btn btn-primary-ink" href="https://doi.org/{esc(d['doi'])}">Read the article</a>
+    {actions}
     <button type="button" class="btn btn-line" data-copy="cite-apa">Copy citation</button>
     <span class="copy-status" role="status" aria-live="polite"></span>
   </div>
+  {aam_note}
+  {kw_html}
 </div>''')
     out.append(f'<p class="paper-lede">{d["in_brief"]}</p>')
 
@@ -188,16 +230,23 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
     out.append('<section class="paper-section"><h2>At a glance</h2><dl class="glance">' + "".join(
         f'<div><dt>{esc(g["label"])}</dt><dd>{g["value"]}</dd></div>' for g in d["glance"]) + "</dl></section>")
 
-    if d.get("design_figure"):
-        svg = (ROOT / "papers" / d["design_figure"]["file"]).read_text()
-        out.append(f'<figure class="paper-figure"><div class="figure-scroll">{svg}</div>'
-                   f'<figcaption>{d["design_figure"]["caption"]}</figcaption></figure>')
+    figs = d.get("figures") or ([d["design_figure"]] if d.get("design_figure") else [])
+    for fg in figs:
+        svg = (ROOT / "papers" / fg["file"]).read_text()
+        title = f'<h3 class="figure-title">{esc(fg["title"])}</h3>' if fg.get("title") else ""
+        out.append(f'<figure class="paper-figure">{title}<div class="figure-scroll">{svg}</div>'
+                   f'<figcaption>{fg["caption"]}</figcaption></figure>')
 
     r = d.get("results")
     if r:
         out.append(f'<figure class="paper-figure"><h3 class="figure-title">{esc(r["title"])}</h3>'
                    f'<div class="figure-scroll">{results_svg(r)}</div>'
                    f'<figcaption>{r.get("note", "")}</figcaption></figure>')
+
+    web_tables = [t for t in d.get("tables", []) if t.get("web", True)]
+    if web_tables:
+        out.append('<section class="paper-section"><h2>Tables</h2>'
+                   + "".join(table_html(t) for t in web_tables) + "</section>")
 
     out.append(f'<section class="paper-section"><h2>The question</h2><p>{d["question"]}</p></section>')
 
@@ -311,8 +360,9 @@ def build_llms(papers: list[dict]) -> None:
         "to common questions. Cite the original article (DOI) when using these findings.",
     ]
     for p in papers:
+        free = (f" Free accepted manuscript: {SITE}/papers/manuscripts/{p['aam']['file']}" if p.get("aam") else "")
         lines.append(f"- [{p['title']}]({p['url']}): {plain(p['in_brief'])} Citation: {p['cite_short']}, "
-                     f"{p['journal']}, https://doi.org/{p['doi']}")
+                     f"{p['journal']}, https://doi.org/{p['doi']}.{free}")
     (ROOT / "llms.txt").write_text("\n".join(lines) + "\n")
 
 
@@ -320,6 +370,12 @@ def main() -> int:
     pubs_file = ROOT / "data" / "publications.json"
     pubs = {(p.get("doi") or "").lower(): p for p in json.loads(pubs_file.read_text())} if pubs_file.exists() else {}
     files = sorted(DATA.glob("*.yml"))
+    if os.environ.get("PUBLISH") == "1":
+        # public builds: only pages Bruno has approved ("locked"); drafts stay in the private preview
+        files = [f for f in files if (yaml.safe_load(f.read_text()) or {}).get("status") == "locked"]
+        for stale in (ROOT / "papers").glob("*.qmd"):
+            if stale.stem not in {f.stem for f in files}:
+                stale.unlink()
     pages = {}
     for f in files:
         d = yaml.safe_load(f.read_text())

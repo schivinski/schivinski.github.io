@@ -27,9 +27,34 @@ cannot access the article itself.
 3. **Figure.** Draw the study design (or the model) as an SVG in `papers/figures/`.
 4. **Build.** `scripts/build_paper_pages.py` generates the page, the Google Scholar tags,
    the structured data and the `llms.txt` entry. Never edit `papers/<slug>.qmd` by hand.
-5. **Review.** Bruno checks every statement in the private preview. Status stays `draft`
-   until he approves; then set `status: locked`.
-6. **Publish.** Only after approval, through the manual publish run.
+5. **Accepted manuscript.** Generate a clean PDF from the published PDF Bruno uploads (see below).
+6. **Review.** Bruno checks the page in the private preview and the manuscript PDF. Status stays
+   `draft` until he approves.
+7. **Publish straight away.** When Bruno accepts, set `status: locked` and run the publish workflow
+   immediately. Public builds (manual publish and the Monday ORCID refresh) include only locked pages;
+   drafts never go live.
+
+## Accepted manuscripts (free full text)
+
+Bruno's accepted manuscripts are identical in content to the published versions; only the formatting
+differs. Many originals were lost, so each one is regenerated from the published PDF:
+
+- Extract the full text, figures and tables; remove every trace of the publisher's layout (running
+  heads, logos, page furniture, copyright lines, publisher typesetting).
+- Typeset a single clean PDF (`scripts/build_manuscript.py <slug>`), with figures redrawn as vector
+  graphics and tables re-typed.
+- Title page, standard for every paper: "Accepted manuscript" label, title, authors, affiliation, a
+  "To cite this article" box with the full APA reference and DOI, the publisher's required
+  acknowledgement statement, and a note that this is the authors' accepted manuscript, differing from
+  the published article only in formatting and pagination.
+- Check the publisher's self-archiving policy for each paper and use its exact acknowledgement wording
+  (Taylor & Francis: personal website allowed at any time after publication).
+- Reproduce the text, tables and statistics exactly as published, including any typos or reporting
+  inconsistencies; flag those to Bruno rather than silently changing them.
+- On the page, the download button is the first action under the article details, so it is visible
+  without scrolling; the PDF is also exposed to Google Scholar through `citation_pdf_url`.
+- Use as many of the paper's figures and tables as possible on the page itself, as HTML (tables) and
+  SVG (figures), so they can be read, quoted and cited without the PDF. Long tables can be collapsed.
 
 ## Page sections, in order
 
@@ -39,8 +64,8 @@ cannot access the article itself.
 | 2 | In brief | Two-sentence plain-language takeaway |
 | 3 | Key findings | Self-contained, citable sentences, each ending with the citation, e.g. "(Cardenas et al., 2027)", with numbers where the paper reports them |
 | 4 | At a glance | Design, participants, conditions or variables, outcome, analysis |
-| 5 | Design or model figure | Drawn as SVG, never a screenshot |
-| 6 | Results chart | Only with real numbers from the article |
+| 5 | Figures | Every figure of the paper redrawn as SVG (design, model, results), never a screenshot |
+| 6 | Results chart and tables | Real numbers only; the paper's tables as HTML (long ones collapsed) |
 | 7 | The question | The gap the paper addresses |
 | 8 | Implications | Practical implications, Theoretical implications |
 | 9 | Limitations and future research | Two or three points from the paper; future-research gaps attract citations |
@@ -94,7 +119,8 @@ published (YYYY-MM), published_label, online (YYYY-MM-DD), open_access, licence,
 authors (given, family, orcid, affiliation, me), cite_short, badges, keywords, in_brief, findings
 (headline, text), glance (label, value), design_figure (file, caption), results (title,
 unit, note, groups of bars), question, implications (practical, theoretical), limitations, faq (q, a),
-concepts (term, definition), materials (label, text), materials_note, open_science (label, note, url;
+concepts (term, definition), materials (label, text), materials_note, figures (file, title, caption),
+tables (id, title, columns, align, rows, note, collapsed, web), aam (file, statement), open_science (label, note, url;
 url optional), related (DOIs)`
 
 ## Before locking a page

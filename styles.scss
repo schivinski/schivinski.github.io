@@ -257,3 +257,20 @@ a:hover { color: $amber-text; }
 .offer-grid-3 .offer:last-child:nth-child(odd) { grid-column: auto; }
 .consult-contact { font-weight: 500; }
 @media (max-width: 860px) { .offer-grid-3 { grid-template-columns: 1fr; } }
+
+/* ---------- paper pages: manuscript download, tables ---------- */
+.btn-download { background: $amber !important; border-color: $amber !important; color: $ink !important; font-weight: 600 !important; }
+.btn-download:hover { background: #cf9220 !important; }
+.aam-note { font-size: .86rem; color: $muted; margin: .7rem 0 0; }
+.paper-head .paper-keywords { margin: 1.1rem 0 0; }
+.table-block { margin: 0 0 1.8rem; }
+.table-title { font-size: 1.08rem; margin: 0 0 .6rem; }
+details.table-block summary { cursor: pointer; font-family: $headings-font-family; font-size: 1.08rem; font-weight: 600; color: $ink; padding: .2rem 0; }
+details.table-block[open] summary { margin-bottom: .6rem; }
+.table-scroll { overflow-x: auto; background: $surface; border: 1px solid $rule; border-radius: 6px; }
+.data-table { width: 100%; border-collapse: collapse; font-size: .88rem; font-variant-numeric: tabular-nums; }
+.data-table th { background: rgba($ink, .05); font-weight: 600; color: $ink; padding: .5rem .7rem; border-bottom: 1px solid $rule; white-space: nowrap; }
+.data-table td { padding: .42rem .7rem; border-top: 1px solid rgba($rule, .7); vertical-align: top; }
+.data-table .a-right { text-align: right; } .data-table .a-center { text-align: center; } .data-table .a-left { text-align: left; }
+.data-table tr.row-group td { background: rgba($amber, .09); font-weight: 600; color: $ink; }
+.table-note { font-size: .82rem; color: $muted; margin: .5rem 0 0; }

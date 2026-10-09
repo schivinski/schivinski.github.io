@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import re
 import sys
 import time
@@ -134,6 +135,8 @@ def paper_pages() -> dict:
     """Map DOI -> site path for papers that have their own page (papers/data/<slug>.yml)."""
     pages = {}
     for f in sorted((PAPERS_DIR / "data").glob("*.yml")):
+        if os.environ.get("PUBLISH") == "1" and not re.search(r"^status:\s*locked", f.read_text(), re.M):
+            continue
         m = re.search(r'^doi:\s*"?([^"\n]+)"?\s*$', f.read_text(), re.M)
         if m:
             pages[m.group(1).strip().lower()] = f"papers/{f.stem}.html"

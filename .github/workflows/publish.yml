@@ -1,14 +1,14 @@
 name: Build and publish site
 
-# REVIEW MODE: pushes only *build* the site (to check nothing is broken).
-# Nothing is published unless Bruno runs this workflow by hand from the
-# Actions tab with "Publish to schivinski.github.io" ticked.
-# The weekly schedule is switched off until the site is approved.
+# Pushes only *build* the site, to check nothing is broken.
+# The site is published (a) by a manual run with "Publish" ticked, after Bruno approves
+# a change, and (b) every Monday, to refresh the publication list from ORCID.
+# Public builds include only paper pages marked "locked"; drafts never go live.
 on:
   push:
     branches: [main]
-  # schedule:
-  #   - cron: "17 2 * * 1"   # Mondays 02:17 UTC: refresh publications from ORCID
+  schedule:
+    - cron: "17 2 * * 1"   # Mondays 02:17 UTC: refresh publications from ORCID and republish
   workflow_dispatch:
     inputs:
       publish:
@@ -28,6 +28,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      PUBLISH: ${{ (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.publish)) && '1' || '0' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -45,7 +47,7 @@ jobs:
         run: python scripts/build_paper_pages.py
 
       - name: Save refreshed publication cache
-        if: github.event_name == 'workflow_dispatch' && inputs.publish
+        if: env.PUBLISH == '1'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -63,7 +65,7 @@ jobs:
 
   deploy:
     needs: build
-    if: github.event_name == 'workflow_dispatch' && inputs.publish
+    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.publish)
     runs-on: ubuntu-latest
     environment:
       name: github-pages

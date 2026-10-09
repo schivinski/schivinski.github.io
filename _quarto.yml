@@ -9,6 +9,7 @@ project:
   resources:
     - robots.txt
     - llms.txt
+    - "papers/manuscripts/*.pdf"
 
 website:
   title: "Bruno Schivinski"

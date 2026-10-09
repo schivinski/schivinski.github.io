@@ -1,7 +1,7 @@
 # Paper page data. Schema and writing rules: see PAPER_PAGES.md
 # Source: full text, Food Quality and Preference 148 (2027) 106122 (PDF supplied by Bruno, 9 Oct 2026)
 # Status: draft (set to "locked" once Bruno approves every statement)
-status: draft
+status: locked
 
 title: "More alike than unalike: Contextually aligned authority arguments amplify sustainable choices across cultures"
 doi: "10.1016/j.foodqual.2026.106122"
