@@ -62,7 +62,8 @@ courses:
       - cite: "Mogaji, E. (2021). *Introduction to advertising: Understanding and managing the advertising process*. Routledge."
         cover: "assets/textbooks/mogaji-introduction-to-advertising.jpg"
         url: "https://www.routledge.com/Introduction-to-Advertising-Understanding-and-Managing-the-Advertising/Mogaji/p/book/9780367441999"
-    taught: []
+    taught:
+      - { inst: gdansk-tech, years: "2012–2015" }
 
   - id: consumer-behaviour
     area: "Marketing"
@@ -128,7 +129,7 @@ courses:
   - id: principles-of-marketing
     area: "Marketing"
     title: "Principles of Marketing"
-    levels: ["Undergraduate"]
+    levels: ["Undergraduate", "Master's"]
     summary: >-
       The foundations of marketing: creating customer value and engagement, understanding markets and buyers, and
       designing the marketing mix. Students work in teams to write and present a complete marketing plan for a real
@@ -154,9 +155,9 @@ courses:
         cover: "assets/textbooks/armstrong-kotler-marketing-an-introduction-16e.jpg"
         url: "https://www.pearson.com/en-gb/subject-catalog/p/marketing-an-introduction-global-edition/P200000013770/9781292753492"
     taught:
-      - { inst: gdansk-tech, as: "Essentials of Marketing", programme: "Management", years: "2025–present" }
-      - { inst: gdansk-tech, as: "Marketing", programme: "Management", years: "2025–present" }
-      - { inst: gdansk-tech, as: "Marketing", programme: "Data Engineering", years: "2025–present" }
+      - { inst: gdansk-tech, as: "Essentials of Marketing", programme: "Management (bachelor's)", years: "2025–present" }
+      - { inst: gdansk-tech, as: "Marketing", programme: "Management (master's)", years: "2025–present" }
+      - { inst: gdansk-tech, as: "Marketing", programme: "Data Engineering (bachelor's)", years: "2025–present" }
 
   # ---------------- Research methods ----------------
   - id: marketing-research
@@ -183,7 +184,7 @@ courses:
     textbooks:
       - cite: "Iacobucci, D., & Churchill, G. A. (2015). *Marketing research: Methodological foundations* (11th ed.). Earlie Lite Books."
     taught:
-      - { inst: gdansk-tech, as: "Marketing Research" }
+      - { inst: gdansk-tech, as: "Marketing Research", programme: "Bachelor's programmes" }
 
   - id: multivariate-research-methods
     area: "Research methods"
@@ -206,7 +207,7 @@ courses:
       - cite: "Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2019). *Multivariate data analysis* (8th ed.). Cengage."
         cover: "assets/textbooks/hair-black-babin-anderson-mda-8e.jpg"
     taught:
-      - { inst: gdansk-tech, as: "Multivariate Research Methods", programme: "Doctoral School" }
+      - { inst: gdansk-tech, as: "Multivariate Research Methods", programme: "Doctoral School, years 1–2" }
 
   - id: structural-equation-modelling
     area: "Research methods"
@@ -237,4 +238,4 @@ courses:
         cover: "assets/textbooks/jose-statistical-mediation-moderation.jpg"
         url: "https://www.guilford.com/books/Doing-Statistical-Mediation-and-Moderation/Paul-Jose/9781462508150"
     taught:
-      - { inst: gdansk-tech, as: "Structural Equation Modelling", programme: "Doctoral School" }
+      - { inst: gdansk-tech, as: "Structural Equation Modelling", programme: "Doctoral School, years 1–2" }

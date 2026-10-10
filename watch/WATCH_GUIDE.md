@@ -19,9 +19,9 @@ Issue 1 (`watch/issues/2026-01-12-generative-ai-ad-images.yml`) is the template:
    - `faq`: 4–5 questions people actually ask; answers stand alone and include the evidence.
    - `keywords`: 8–12 search phrases. `topics`: 2–3 categories (AI, Advertising, Social media, UGC, Influencers,
      Personalization, Privacy, Retail, Service, Search, Creative, Research methods).
-4. **Make the picture**: an original illustration, `scripts/mw/img_issueNN.py` → `watch/images/issue-NN-<slug>.jpg`
-   (1600×900) and `-og.jpg` (1200×630). House style: deep navy ground, amber accent, soft grain, one idea that
-   shows the paper's mechanism. No third-party images, no logos, no real people.
+4. **Pick the picture**: a high-quality photograph of the paper's subject (issue 1: a car), not an illustration.
+   Source from Unsplash (free Unsplash Licence; avoid Unsplash+), prefer images without prominent logos, credit the
+   photographer in the caption. Save `watch/images/issue-NN-<slug>.jpg` (1600×900) and `-og.jpg` (1200×630).
 5. **Build and check**: `python scripts/build_paper_pages.py && python scripts/build_watch.py && quarto render`.
    Look at desktop and 390 px mobile (no horizontal scroll), confirm the JSON-LD parses.
 6. **Publish**: commit, push, dispatch the publish workflow. The first build stamps `published:` (the real date) into
