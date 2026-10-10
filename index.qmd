@@ -124,7 +124,7 @@ listing:
     </div>
     <div class="watch-panel">
       <h2>Marketing Watch</h2>
-      <p>A weekly digest of new marketing research and practice, drafted with AI and reviewed by me before publication.</p>
+      <p>A weekly digest of new marketing research for practitioners: what it means for strategy, how to apply it, and what to expect.</p>
 ```
 
 ::: {#latest}
