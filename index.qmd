@@ -98,7 +98,7 @@ listing:
 <section class="home-section">
   <div class="wrap">
     <div class="section-head">
-      <h2>Most cited papers</h2>
+      <h2>Most cited marketing papers</h2>
       <a href="publications.html">All publications</a>
     </div>
 ```

@@ -246,10 +246,11 @@ def render(pubs: list[dict]) -> str:
 
 
 def highlighted_dois() -> set:
-    import yaml
-    if not HIGHLIGHTS.exists():
-        return set()
-    return {h["doi"].lower() for h in (yaml.safe_load(HIGHLIGHTS.read_text()) or [])}
+    """DOIs shown in the highlights block (chosen in main before the recent list is written)."""
+    return HIGHLIGHTED_NOW
+
+
+HIGHLIGHTED_NOW: set = set()
 
 
 def render_recent(pubs: list[dict], n: int = 4) -> str:
@@ -285,47 +286,139 @@ def citation_counts(pubs: list[dict], refresh: bool) -> dict:
     return cache
 
 
+SCHOLAR = ROOT / "data" / "scholar.yml"
+EXTRA = ROOT / "data" / "extra_publications.yml"
+TOPICS = ROOT / "data" / "topics.yml"
+METRICS = ROOT / "data" / "metrics.json"
+
+
+def with_extras(pubs: list[dict]) -> list[dict]:
+    """Add works that are on Crossref/Scholar but missing from ORCID (data/extra_publications.yml)."""
+    import yaml
+    if not EXTRA.exists():
+        return pubs
+    have = {(p["doi"] or "").lower() for p in pubs if p["doi"]}
+    add = [e for e in (yaml.safe_load(EXTRA.read_text()) or []) if e["doi"].lower() not in have]
+    return sorted(pubs + add, key=lambda p: (-(p["year"] or 0), p["title"].lower()))
+
+
+def pub_key(p: dict) -> str:
+    """DOI, or t:<normalised title> for works without one (same key as scholar.yml and metrics.json)."""
+    return (p["doi"] or "").lower() or "t:" + re.sub(r"[^a-z0-9 ]", "", re.sub(r"\s+", " ", p["title"].lower().replace("’", "'"))).strip()[:80]
+
+
+def scholar_snapshot() -> dict:
+    """Google Scholar counts (data/scholar.yml, from scripts/parse_scholar_pdf.py); empty if absent."""
+    import yaml
+    if not SCHOLAR.exists():
+        return {}
+    return yaml.safe_load(SCHOLAR.read_text()) or {}
+
+
+def topics() -> dict:
+    import yaml
+    return (yaml.safe_load(TOPICS.read_text()) or {}) if TOPICS.exists() else {}
+
+
+_MARKETING = re.compile(r"brand|market|consumer|advertis|engagement|social.media|buying|purchase|retail|influenc|cool|customer|"
+                        r"commerce|tourism|loyalty|word-of-mouth|city|marek|marki|konsument|reklam", re.I)
+_NOT_MARKETING = re.compile(r"gaming|gambl|gamer|disorder|religio|well-?being|psychometric|item response|loneliness|personality|"
+                            r"depress|avatar|food waste|packaging|nutri|diet|health|fortnite|streamer|many.analysts|proteus|"
+                            r"network analys|date labelling|wine", re.I)
+
+
+def is_marketing(p: dict) -> bool:
+    """Marketing paper? Keyword rule, overridden by data/topics.yml (marketing / not_marketing lists of DOIs or keys)."""
+    t = topics()
+    k = pub_key(p)
+    if k in {x.lower() for x in t.get("marketing", [])}:
+        return True
+    if k in {x.lower() for x in t.get("not_marketing", [])}:
+        return False
+    return bool(_MARKETING.search(p["title"] + " " + p["venue"])) and not _NOT_MARKETING.search(p["title"])
+
+
+def scholar_count(p: dict, cites: dict) -> int:
+    gs = {k.lower(): v for k, v in (scholar_snapshot().get("papers") or {}).items()}
+    k = pub_key(p)
+    return gs[k] if k in gs else (cites.get((p["doi"] or "").lower()) or 0)
+
+
 def top_papers(pubs: list[dict], cites: dict, n: int = 10) -> list[dict]:
-    arts = [p for p in visible(pubs) if p["type"] == "journal-article" and cites.get((p["doi"] or "").lower())]
-    arts.sort(key=lambda p: (-cites[(p["doi"] or "").lower()], -(p["year"] or 0)))
+    """The n most cited MARKETING journal articles (Google Scholar counts where the snapshot has them, else Crossref)."""
+    arts = [p for p in visible(pubs) if p["type"] == "journal-article" and is_marketing(p) and scholar_count(p, cites)]
+    arts.sort(key=lambda p: (-scholar_count(p, cites), -(p["year"] or 0)))
     return arts[:n]
 
 
 HIGHLIGHTS = ROOT / "data" / "highlighted.yml"
+RECENT_YEARS = 8        # auto-picked highlights must be this recent (older papers rarely gain citations)
 
 
-def render_highlights(pubs: list[dict], top: list[dict]) -> str:
-    """2-3 hand-picked papers (data/highlighted.yml) that are not among the most cited."""
+def pick_highlights(pubs: list[dict], top: list[dict], cites: dict) -> list[dict]:
+    """Up to `slots` papers: the pinned ones, then the marketing papers closest to lifting Bruno's h-index.
+
+    Candidates come from data/metrics.json (written by citation_metrics.py): papers below the next h threshold, ordered by
+    the expected time to reach it (citations still needed / recent citations per month; if the pace is unknown, by
+    citations needed). Papers in the top 10 or older than RECENT_YEARS are skipped."""
+    import datetime
     import yaml
-    if not HIGHLIGHTS.exists():
-        return ""
-    by_doi = {(p["doi"] or "").lower(): p for p in visible(pubs)}
-    top_dois = {(p["doi"] or "").lower() for p in top}
-    cards = []
-    for h in yaml.safe_load(HIGHLIGHTS.read_text()) or []:
-        doi = h["doi"].lower()
-        p = by_doi.get(doi)
-        if not p or doi in top_dois:
-            print(f"highlight skipped ({'in top 10' if p else 'not found'}): {doi}", file=sys.stderr)
+    cfg = (yaml.safe_load(HIGHLIGHTS.read_text()) or {}) if HIGHLIGHTS.exists() else {}
+    slots = int(cfg.get("slots", 3))
+    by_key = {pub_key(p): p for p in visible(pubs)}
+    top_keys = {pub_key(p) for p in top}
+    chosen, used = [], set()
+
+    def add(key, why, blurb=None, venue=None):
+        p = by_key.get(key)
+        if not p or key in top_keys or key in used or len(chosen) >= slots:
+            if not p:
+                print(f"highlight skipped (not found): {key}", file=sys.stderr)
+            return
+        used.add(key)
+        chosen.append({"p": p, "why": why, "venue": venue or p["venue"],
+                       "blurb": blurb or (cfg.get("blurbs") or {}).get(key, "")})
+
+    for h in cfg.get("pinned") or []:
+        add(h["doi"].lower(), "pinned", h.get("blurb"), h.get("venue"))
+    m = json.loads(METRICS.read_text()) if METRICS.exists() else {}
+    never = {x.lower() for x in cfg.get("never", [])}
+    oldest = datetime.date.today().year - RECENT_YEARS
+    for c in m.get("h_candidates", []):
+        k = c["key"]
+        p = by_key.get(k)
+        if k in never or not p or not is_marketing(p) or (p["year"] or 0) < oldest:
             continue
+        add(k, "h-index")
+    for k in cfg.get("fallback") or []:          # hand-picked papers if too few candidates qualify
+        add(k.lower(), "fallback")
+    return chosen
+
+
+def render_highlights(pubs: list[dict], top: list[dict], cites: dict) -> str:
+    cards = []
+    for c in pick_highlights(pubs, top, cites):
+        p = c["p"]
+        doi = (p["doi"] or "").lower()
         page = PAGES.get(doi)
-        href = page or f"https://doi.org/{doi}"
+        href = page or p["url"] or f"https://doi.org/{doi}"
         more = '<span class="pub-more">Summary and figures</span>' if page else ""
+        blurb = f'<p class="hl-blurb">{esc(c["blurb"])}</p>' if c["blurb"] else ""
         cards.append(
-            f'<article class="hl-card"><p class="hl-meta"><span class="pub-venue">{esc(h.get("venue", p["venue"]))}</span> {p["year"]}</p>'
-            f'<h3 class="hl-title"><a href="{esc(href)}">{esc(p["title"].rstrip("."))}</a></h3>'
-            f'<p class="hl-blurb">{esc(h.get("blurb", ""))}</p>{more}</article>')
-        if len(cards) == 3:
-            break
+            f'<article class="hl-card"><p class="hl-meta"><span class="pub-venue">{esc(c["venue"])}</span> {p["year"]}</p>'
+            f'<h3 class="hl-title"><a href="{esc(href)}">{esc(p["title"].rstrip("."))}</a></h3>{blurb}{more}</article>')
     if not cards:
         return ""
     return "```{=html}\n<div class=\"hl-grid\">" + "".join(cards) + "</div>\n```\n"
 
 
 def render_top(pubs: list[dict], cites: dict, n: int = 10) -> str:
+    snap = scholar_snapshot()
+    gs = {k.lower(): v for k, v in (snap.get("papers") or {}).items()}
     items = []
     for i, p in enumerate(top_papers(pubs, cites, n), start=1):
         doi = (p["doi"] or "").lower()
+        count = f'<span class="top-cites">{gs[pub_key(p)]:,} citations</span>' if pub_key(p) in gs else ""
         page = PAGES.get(doi)
         href = page or p["url"] or f"https://doi.org/{doi}"
         more = '<span class="pub-more">Summary and figures</span>' if page else ""
@@ -333,11 +426,15 @@ def render_top(pubs: list[dict], cites: dict, n: int = 10) -> str:
             f'<li class="top-item"><span class="top-rank" aria-hidden="true">{i}</span><div>'
             f'<h3 class="pub-title"><a href="{esc(href)}">{esc(p["title"].rstrip("."))}</a></h3>'
             f'<p class="pub-meta"><span class="pub-venue">{esc(p["venue"])}</span>'
-            f'<span class="top-year">{p["year"]}</span>'
+            f'<span class="top-year">{p["year"]}</span>{count}'
             f'{more}</p></div></li>')
-    # Citation counts are used for ranking only and not shown: Crossref counts run far below Google Scholar's,
-    # and Google Scholar cannot be queried from the build.
-    return "```{=html}\n<ol class=\"top-papers\">" + "".join(items) + "</ol>\n```\n"
+    note = ""
+    if gs:
+        import datetime
+        d = datetime.date.fromisoformat(str(snap["as_of"]))
+        note = (f'<p class="top-note">Marketing papers, ranked by citations on <a href="{esc(snap.get("profile", ""))}">Google Scholar</a>, '
+                f'{d.strftime("%B %Y")}.</p>')
+    return "```{=html}\n<ol class=\"top-papers\">" + "".join(items) + "</ol>\n" + note + "\n```\n"
 
 
 def main() -> int:
@@ -353,13 +450,16 @@ def main() -> int:
         if not CACHE.exists():
             return 1
         pubs = json.loads(CACHE.read_text())
+    pubs = with_extras(pubs)
     PAGES.update(paper_pages())
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(render(pubs))
-    (OUT.parent / "recent.md").write_text(render_recent(pubs))
     cites = citation_counts(pubs, refresh=os.environ.get("PUBLISH") == "1" or "--refresh-citations" in sys.argv)
+    top = top_papers(pubs, cites)
+    HIGHLIGHTED_NOW.update((c["p"]["doi"] or "").lower() for c in pick_highlights(pubs, top, cites))
+    (OUT.parent / "recent.md").write_text(render_recent(pubs))
     (OUT.parent / "top.md").write_text(render_top(pubs, cites))
-    (OUT.parent / "highlighted.md").write_text(render_highlights(pubs, top_papers(pubs, cites)))
+    (OUT.parent / "highlighted.md").write_text(render_highlights(pubs, top, cites))
     return 0
 
 

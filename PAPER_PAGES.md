@@ -166,3 +166,15 @@ url optional), related (DOIs)`
 - [ ] Author names and spelling match the published version
 - [ ] Preregistration, data and materials links added if they exist
 - [ ] Bruno has read every section
+
+## Home page: top 10, highlights and the h-index booster
+
+- **Top 10** = the ten most cited *marketing* journal articles by Google Scholar count (`data/scholar.yml`). Marketing is decided by a
+  keyword rule in `scripts/fetch_publications.py`; `data/topics.yml` forces a paper in or out.
+- **Highlights** (`data/highlighted.yml`): `pinned` papers first (currently the Gaming Disorder Test), then the marketing papers
+  from the last 8 years that are closest to lifting the Scholar h-index (`data/metrics.json`, written weekly by
+  `scripts/citation_metrics.py`). Top-10 papers are never highlighted. Add a one-sentence blurb per paper under `blurbs`.
+- **Scholar snapshot**: print the full Scholar profile to PDF and run `python scripts/parse_scholar_pdf.py scholar.pdf YYYY-MM-DD`.
+  It rewrites `data/scholar.yml` and lists Scholar rows that are not on the site in `data/scholar_unmatched.md`. Between snapshots the
+  weekly job adds the growth measured by OpenAlex (Crossref as fallback) to each snapshot count.
+- Works on Crossref/Scholar but missing from ORCID go in `data/extra_publications.yml`.

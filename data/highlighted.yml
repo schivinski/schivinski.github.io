@@ -1,10 +1,22 @@
-# Highlighted papers on the home page: 2 or 3 recent, high-quality marketing papers that deserve more readers.
-# A paper that is (or becomes) one of the 10 most cited is left out automatically.
-# blurb: one plain sentence on what the paper shows (no hype).
-- doi: "10.1108/jpbm-04-2025-5959"
-  venue: "Journal of Product & Brand Management"
-  blurb: "A survey of 537 consumers who follow their city on social media shows that city branding shapes cognitive, emotional and behavioural engagement, partly through how cool the city brand is seen to be."
-- doi: "10.1108/jpbm-09-2025-6337"
-  blurb: "In 662 non-British consumers living in the UK, individualism raised the need for uniqueness and, through it, the desire for unique products, an effect amplified by acculturation to global consumer culture."
-- doi: "10.1080/13527266.2022.2109056"
-  blurb: "How brands should answer online complaints before they become firestorms: an apology works best overall, while corrective actions perform as well for specific complaint triggers."
+# Highlighted papers on the home page (at most `slots`).
+# 1. `pinned` papers always come first.
+# 2. The remaining slots are filled automatically each week with the MARKETING papers (published in the last 8 years)
+#    that are closest to lifting Bruno's Google Scholar h-index: fewest citations still needed to reach h + 1 and
+#    fastest recent growth (see scripts/citation_metrics.py and data/metrics.json). Papers in the top 10 are skipped.
+# 3. `fallback` papers are used if too few candidates qualify. `never` papers are never auto-picked.
+# `blurbs` holds one plain sentence per paper (by DOI) for the auto-picked cards; a card without a blurb shows none.
+slots: 3
+pinned:
+  - doi: "10.1007/s11469-019-00088-z"
+    blurb: "A free four-item test of gaming disorder built on the World Health Organization (ICD-11) criteria, validated with 560 gamers in China and the UK."
+never: []
+fallback:
+  - "10.1108/jpbm-04-2025-5959"
+  - "10.1108/jpbm-09-2025-6337"
+  - "10.1080/13527266.2022.2109056"
+blurbs:
+  "10.7206/cemj.2658-0845.1": "A survey of 777 consumers of Polish online restaurants shows that positive online reviews lift every dimension of brand equity, while negative reviews mainly hurt perceived quality and brand loyalty."
+  "10.1080/13527266.2022.2152077": "In an experiment with 428 consumers, hedonic beauty brands were seen as high-status, and utilitarian brands could earn the same status when they were seen as popular."
+  "10.1108/jpbm-04-2025-5959": "A survey of 537 consumers who follow their city on social media shows that city branding shapes cognitive, emotional and behavioural engagement, partly through how cool the city brand is seen to be."
+  "10.1108/jpbm-09-2025-6337": "In 662 non-British consumers living in the UK, individualism raised the need for uniqueness and, through it, the desire for unique products, an effect amplified by acculturation to global consumer culture."
+  "10.1080/13527266.2022.2109056": "How brands should answer online complaints before they become firestorms: an apology works best overall, while corrective actions perform as well for specific complaint triggers."

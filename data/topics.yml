@@ -1,0 +1,7 @@
+# Topic overrides for the home page. The keyword rule in scripts/fetch_publications.py decides first;
+# list a DOI (or t:<title key>) here to force a paper in or out of "marketing".
+marketing:
+  - "10.1371/journal.pone.0296162"     # place branding
+  - "10.1371/journal.pone.0273927"     # gendered wording in health-promotion leaflets (social marketing)
+not_marketing:
+  - "10.3389/fpsyg.2020.617140"        # problematic social media use (psychology)
