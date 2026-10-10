@@ -37,6 +37,18 @@ institutions:
       - "Faculty of Electronics, Telecommunications and Informatics"
       - "Doctoral School"
 
+  - id: rmit
+    name: "RMIT University"
+    short: "RMIT"
+    country: "Melbourne, Australia"
+    url: "https://www.rmit.edu.au"
+    logo: "assets/logos/rmit-university.svg"
+    roles:
+      - { title: "Associate Professor in Advertising", years: "2025–2026" }
+      - { title: "Senior Lecturer in Advertising", years: "2019–2024" }
+    units:
+      - "School of Media and Communication"
+
 courses:
   # ---------------- Marketing ----------------
   - id: advertising
@@ -126,6 +138,33 @@ courses:
     taught:
       - { inst: gdansk-tech, as: "E-marketing and Trend Analysis", programme: "Data Engineering (Big Data in Business Management)", years: "2025–present" }
 
+  - id: international-advertising
+    area: "Marketing"
+    title: "International Advertising"
+    levels: ["Master's"]
+    summary: >-
+      How culture shapes advertising and global brand communication. Students analyse cultural values and
+      communication styles across markets, examine the international business and media environment, and design and
+      evaluate advertising strategies for brands competing internationally.
+    outline:
+      - "The paradoxes of global marketing communications"
+      - "Global branding"
+      - "Values and culture"
+      - "Dimensions of national culture"
+      - "Culture and consumer behaviour"
+      - "Researching and applying cultural values"
+      - "Culture and communication"
+      - "Culture and the media"
+      - "Culture and advertising appeals"
+      - "Culture and executional style"
+      - "From value paradox to international advertising strategy"
+    textbooks:
+      - cite: "de Mooij, M. (2021). *Global marketing and advertising: Understanding cultural paradoxes* (6th ed.). Sage."
+        cover: "assets/textbooks/demooij-global-marketing-advertising-6e.jpg"
+        url: "https://collegepublishing.sagepub.com/products/274128"
+    taught:
+      - { inst: rmit, programme: "Master's, School of Media and Communication" }
+
   - id: principles-of-marketing
     area: "Marketing"
     title: "Principles of Marketing"
@@ -208,6 +247,36 @@ courses:
         cover: "assets/textbooks/hair-black-babin-anderson-mda-8e.jpg"
     taught:
       - { inst: gdansk-tech, as: "Multivariate Research Methods", programme: "Doctoral School, years 1–2" }
+
+  - id: research-methods-media-communication
+    area: "Research methods"
+    title: "Research Methods in Media and Communication"
+    levels: ["Master's"]
+    summary: >-
+      How to design and carry out a research project in media and communication, from research question and proposal
+      to data analysis. Students learn quantitative analysis hands-on in both IBM SPSS Statistics and R, and finish
+      with a research plan for their capstone project.
+    outline:
+      - "Research problems, questions and proposals"
+      - "Finding and evaluating the literature"
+      - "Research design and the logic of statistics"
+      - "Data, variables and visualisation in SPSS and R"
+      - "Bias, assumptions and data screening"
+      - "Correlation"
+      - "Linear regression"
+      - "Comparing two means"
+      - "Moderation and mediation"
+      - "Comparing several means: ANOVA, ANCOVA and factorial designs"
+      - "Exploratory factor analysis and reliability"
+      - "Categorical outcomes: chi-square and logistic regression"
+      - "Writing the research plan"
+    textbooks:
+      - cite: "Field, A. (2024). *Discovering statistics using IBM SPSS Statistics* (6th ed.). Sage."
+        cover: "assets/textbooks/field-discovering-statistics-spss-6e.jpg"
+      - cite: "Field, A., Miles, J., & Field, Z. (2012). *Discovering statistics using R*. Sage."
+        cover: "assets/textbooks/field-miles-field-discovering-statistics-r.jpg"
+    taught:
+      - { inst: rmit, programme: "Master's, School of Media and Communication" }
 
   - id: structural-equation-modelling
     area: "Research methods"
