@@ -1,5 +1,5 @@
 ```{=html}
 <div class="watch-list">
-<% for (const item of items) { %><article class="watch-item" <%= metadataAttrs(item) %>><time datetime="<%- item.date %>"><%= item.date %></time><div><h3><a href="<%- item.path %>"><%= item.title %></a></h3><% if (item.description) { %><p><%= item.description %></p><% } %></div></article>
+<% for (const item of items) { %><article class="watch-item" <%= metadataAttrs(item) %>><% if (item.image) { %><a class="watch-thumb" href="<%- item.path %>" tabindex="-1" aria-hidden="true"><img src="<%- item.image %>" alt="" loading="lazy" width="1200" height="630"></a><% } %><div><p class="watch-meta"><% if (item.issue) { %>Issue <%= item.issue %> · <% } %>Week of <time datetime="<%- item.date %>"><%= item.date %></time></p><h3><a href="<%- item.path %>"><%= item.title %></a></h3><% if (item.description) { %><p><%= item.description %></p><% } %></div></article>
 <% } %></div>
 ```

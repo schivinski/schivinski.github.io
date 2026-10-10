@@ -10,6 +10,7 @@ listing:
   id: latest
   contents: watch/posts
   sort: "date desc"
+  date-format: "D MMMM YYYY"
   max-items: 3
   template: _templates/watch-list.ejs
 ---

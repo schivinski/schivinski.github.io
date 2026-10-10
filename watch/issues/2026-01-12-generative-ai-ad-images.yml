@@ -1,0 +1,204 @@
+# Marketing Watch issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 1
+week_of: "2026-01-12"            # the week this issue covers (shown on the page, orders the archive)
+slug: generative-ai-ad-images
+published: "2026-10-10"
+status: live
+
+title: "Can generative AI make better ad images? What a Journal of Marketing study found"
+short_title: "Generative AI images that actually engage"
+dek: >-
+  Trained on the best-rated ads in its category, an open-source image model produced ads that beat
+  conventionally made ones with consumers and on Meta. Here is how it worked, how to apply it, and where it fails.
+description: >-
+  Fine-tuned on top-rated ads, generative AI made ad images that beat conventional ads in pretests and
+  lifted Meta click-through by 49%. How to apply it, and when it fails.
+keywords: [generative AI advertising, AI-generated ads, AI ad creative, Stable Diffusion fine-tuning, ad pretesting,
+  AIDA, click-through rate, brand personality, visual advertising, creative testing, Journal of Marketing]
+topics: [AI, Advertising, Creative]
+
+image:
+  file: issue-01-generative-ai-ad-images.jpg
+  og: issue-01-generative-ai-ad-images-og.jpg
+  alt: "A grid of small sunset landscapes that turn from grey noise on the left into finished images on the right, one framed in amber"
+  caption: "Image models start from noise and refine it into a picture; trained on what works, they can turn out many usable variants. Illustration made for Marketing Watch."
+
+short_answer: >-
+  Yes, for mainstream products. When researchers fine-tuned an open-source image model on the 30 best-rated car
+  ads in a set of 543, the ads it produced scored higher with consumers than conventional ads and earned a 49%
+  higher click-through rate than the brand's own ads on Meta. Plain prompting did not get there, and the approach
+  failed for a highly distinctive product.
+
+takeaways:
+  - "Fine-tuned AI ads scored 4.55 out of 7 on attention, interest, desire and action, against 3.79 for conventional car ads; 47 of 50 AI ads beat the conventional average."
+  - "On Meta, AI ads drew a 2.04% click-through rate against 1.37% for the brand's real ads (28,775 impressions); on Taboola, 1.41% against 0.64%."
+  - "What made the difference was training on the category's best-performing ads. Prompting an off-the-shelf model, or training on random ads, did no better than the brand's own ads."
+  - "It worked for an unknown brand and for sunscreen, not only cars. It did not work for a niche, highly differentiated car, and it could not make ads funny."
+
+paper:
+  doi: "10.1177/00222429251356993"
+  title: "Picture perfect: Engaging customers with visual generative AI"
+  authors: ["Heitmann, M.", "Jansen, T. P. J.", "Reisenbichler, M.", "Schweidel, D. A."]
+  authors_full: ["Mark Heitmann", "Tijmen P. J. Jansen", "Martin Reisenbichler", "David A. Schweidel"]
+  year: 2026
+  journal: "Journal of Marketing"
+  volume: "90"
+  issue: "4"
+  pages: "74–96"
+  online: "2026-01-09"
+  open_access: true
+  licence: "CC BY 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Mark Heitmann, Tijmen Jansen, Martin Reisenbichler and David Schweidel asked a question many marketing teams
+      are asking: can an image model produce ads that work as well as ads made the conventional way? Their answer
+      comes from seven studies, mostly on cars, with checks on sunscreen and dog care.
+
+      They started from 211,429 online ads and found 543 paid car ads. 572 potential car buyers rated these ads on
+      the four classic funnel stages: attention, interest, desire and action (AIDA), on 1–7 scales. The team then
+      took the 30 best-rated ads, added about two dozen product photos of the Polestar 3 (a car the model had never
+      seen), and fine-tuned the open-source model Stable Diffusion on both. Each concept got its own trigger word,
+      so a single prompt could ask for "a high-AIDA web banner ad of a Polestar 3".
+
+      The model then produced 50 ads with no human editing and no prompt crafting. Another 569 car buyers rated
+      them alongside the competitors' ads and Polestar's own ads, more than 20,000 ratings in all.
+    facts:
+      - ["Data", "543 paid car ads, rated by 572 car buyers"]
+      - ["Model", "Stable Diffusion 2.1, fine-tuned on the 30 top-rated ads plus 23 product photos"]
+      - ["Output", "50 AI ads, used as generated"]
+      - ["Tests", "7 studies; surveys with 127 to 998 people each, plus Meta and Taboola field tests"]
+
+  - h: "What they found"
+    body: |
+      The AI ads won on average. They scored 4.55 against 3.79 for competitors' ads and 3.80 for Polestar's own
+      ads. Only 3 of the 50 AI ads fell below the conventional average, so a randomly picked AI ad was very likely
+      to be at least as good as a typical human-made one. The best human-made ad (5.57) still beat the average AI
+      ad, but the best AI ad scored higher still (6.00).
+
+      This was not just prettier pictures. The researchers scored every image for aesthetic quality: the most
+      beautiful conventional ads scored lower on AIDA than the AI ads, and aesthetics explained only about 15% of
+      the AI advantage. People were also more willing to share the AI ads (4.84 against 3.98 for competitors).
+    chart: aida
+
+  - h: "Did it work outside the survey?"
+    body: |
+      Yes. In a four-day A/B test on Meta, five AI ads and five real Polestar ads ran with the same caption, the same
+      audience (US adults aged 25 to 65 interested in cars) and a $5 daily budget per ad. The AI ads drew more
+      clicks: 2.04% against 1.37%, a 49% lift. A second test on Taboola showed the same pattern (1.41% against 0.64%).
+      The authors note that field tests give less control than surveys and that results will vary by platform.
+    chart: ctr
+
+  - h: "How you use the AI matters more than which AI"
+    body: |
+      The most useful finding for practice comes from Study 4. The team compared four ways of using the same model.
+      Simply prompting it for "an engaging web banner ad" scored 3.99. Training it on randomly chosen ads from the
+      category scored 3.82, about the market average. Training it on the best ads while also telling it to avoid the
+      worst ones scored 4.21. Only training on the best-rated ads reached 4.61, the one approach that beat the
+      brand's own ads (4.35).
+
+      In other words, the model has to learn what works with your customers, not just what ads in your category
+      look like. That takes one round of consumer ratings at the start; after that, new variants cost almost nothing.
+    chart: approaches
+
+  - h: "Brand personality and targeting"
+    body: |
+      The model can also carry a brand image. Adding about 24 Flickr images tagged "rugged" or "luxurious" to the
+      training produced ads that looked more rugged (4.91 against 4.09 for Polestar's ads) or more luxurious (5.44
+      against 4.50), with no loss on the funnel measures.
+
+      There is a catch for targeting. Rugged-style ads did nothing for the average viewer (4.95 against 4.84), but
+      they lifted brand liking among people who want a rugged car and lowered it among people who do not. A
+      personality-tuned version should go to the segment that values that trait, not to everyone.
+
+how_to:
+  - ["Collect your category's ads", "Gather a few hundred current paid ads in your category: yours and competitors'. Remove text and logos so the model learns imagery, not words."]
+  - ["Rate them once with real customers", "Ask target customers to rate each ad on attention, interest, desire and action (1–7). Five or more ratings per ad were enough in this study."]
+  - ["Keep the top 30", "Fine-tune on the 30 best-rated ads, not on a random sample and not on a mix of best and worst. This was the decisive step."]
+  - ["Teach it your product", "Add 11 to 24 clean product photos from several angles, background removed, so the product is drawn accurately."]
+  - ["Add a brand trait if you need one", "For a personality such as rugged or luxurious, add about two dozen images that express it, under its own trigger word."]
+  - ["Generate many, check, then test live", "Produce dozens of variants, screen out distortions, and A/B test the best against your current creative before scaling."]
+
+expect:
+  - "**A better average, not a guaranteed winner.** AI ads beat the typical conventional ad by about 0.75 points on a 7-point scale; your best human ads can still win."
+  - "**Lower cost per variant.** The authors cite $2,000 to $4,000 for a simple stock-based ad and up to $50,000 for a professional shoot. After the one-off rating and training, extra variants cost little, which helps fight ad fatigue."
+  - "**A click-through lift worth testing, not banking.** The 49% lift came from a small four-day test with one car. Treat it as a reason to run your own A/B test."
+  - "**Stable settings.** The same training settings worked for cars and sunscreen, so the process can be standardised once set up."
+
+limits:
+  - "**Distinctive products.** For the Smart Fortwo, a niche two-seater sold on surprise and city agility, AI ads scored slightly below the real ads (3.62 against 3.81). The model learns the category average; it cannot invent an unusual angle."
+  - "**Humour and surprise.** Trained on funny dog-care ads, the model kept good funnel scores but could not make ads funny. Pedigree's real humorous ad was recognised more often than its AI version (85% against 70%)."
+  - "**Sameness.** AI ads in a category looked alike: similar roads for cars, the same Monstera leaves in sunscreen ads. If every competitor trains on the same winners, ads may converge and lose impact."
+  - "**Fit with the goal.** The model improves what it is trained on. It did not raise recall or recognition beyond conventional ads, because it was never trained on them."
+
+faq:
+  - q: "Can generative AI make ads that perform better than human-made ads?"
+    a: "In this Journal of Marketing study, yes on average: fine-tuned AI ads scored 4.55 out of 7 on attention, interest, desire and action, against 3.79 for conventional car ads, and earned a 49% higher click-through rate on Meta than the brand's real ads. The best human-made ads can still beat the average AI ad."
+  - q: "Is prompting an image generator enough to get good ads?"
+    a: "Not in this study. Prompting Stable Diffusion for an engaging banner ad scored 3.99, below the brand's own ads (4.35). Only fine-tuning the model on the 30 best-rated ads in the category beat them (4.61)."
+  - q: "How much data do you need to fine-tune an image model for ads?"
+    a: "The researchers used the 30 top-rated ads from a set of 543 rated by consumers, 11 to 24 product photos, and about 24 images per brand personality trait. The consumer ratings are collected once."
+  - q: "When does AI-generated advertising not work?"
+    a: "It worked less well for a highly differentiated niche product, could not create humour, and tended to produce similar-looking ads. It suits mainstream products and goals built on familiarity and trust."
+  - q: "Does it only work for well-known brands?"
+    a: "No. AI ads for NIO, a brand unknown to the study's participants, scored 4.94 against 4.02 for NIO's real ads, and AI sunscreen ads beat both competitors and the brand's own ads."
+
+also:
+  - doi: "10.1080/00913367.2025.2593660"
+    title: "The power of real: Exploring the effects of AI-generated vs. real models in advertising considering female consumers"
+    authors: "Khodakarami, F., Peter, P. C., & Cornelis, E."
+    journal: "Journal of Advertising"
+    year: 2026
+    text: >-
+      The counterpoint to this week's lead: in three experiments, women rated a model as less attractive, and liked
+      the ad less, when a disclaimer said the model was AI-generated rather than real. The label triggered resistance
+      and made the model feel more distant, for Gen Z and Gen X women alike. If you use AI-generated people and must
+      disclose it, test how your audience reacts to the label itself.
+  - doi: "10.1002/mar.70102"
+    title: "Can AI models be used to generate high-quality pictorial stimuli for consumer behavior change interventions?"
+    authors: "Chen, Q., Greene, D., Liang, Y., Portmann, M., & Dolnicar, S."
+    journal: "Psychology & Marketing"
+    year: 2026
+    text: >-
+      In an online experiment with 995 people, images made by AI models were rated more accurate, more appealing and
+      more emotionally clear than images made by human designers, and people struggled to tell them apart. ChatGPT-4o
+      was best at consistent sets in a simple style; complex emotions such as envy were still hard to draw. Useful for
+      teams that need many controlled visual variants for testing.
+
+charts:
+  aida:
+    title: "Average rating across attention, interest, desire and action"
+    scale: [1, 7]
+    unit: "out of 7"
+    bars:
+      - ["Competitors' car ads (543)", 3.79]
+      - ["Polestar's own ads (10)", 3.80]
+      - ["AI ads, fine-tuned on top ads (50)", 4.55, true]
+    source: "Study 1, 569 potential car buyers, 1–7 scales."
+  ctr:
+    title: "Click-through rate in live tests, real ads vs AI ads"
+    scale: [0, 3]
+    unit: "%"
+    decimals: 2
+    bars:
+      - ["Meta: Polestar's own ads", 1.37]
+      - ["Meta: AI ads", 2.04, true]
+      - ["Taboola: Polestar's own ads", 0.64]
+      - ["Taboola: AI ads", 1.41, true]
+    source: "Study 3. Meta: 28,775 impressions, 496 clicks, 1–4 February 2025."
+  approaches:
+    title: "Same model, four ways of using it: average funnel rating"
+    scale: [1, 7]
+    unit: "out of 7"
+    bars:
+      - ["Competitors' ads", 3.48]
+      - ["Trained on random category ads", 3.82]
+      - ["Prompted, no ad training", 3.99]
+      - ["Trained on best and worst ads", 4.21]
+      - ["Polestar's own ads", 4.35]
+      - ["Trained on the best-rated ads", 4.61, true]
+    source: "Study 4, 359 potential car buyers, 1–7 scales."
+
+related_pages: []                # paper pages on this site worth linking (slugs)

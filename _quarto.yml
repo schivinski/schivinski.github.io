@@ -11,6 +11,7 @@ project:
     - llms.txt
     - "papers/manuscripts/*.pdf"
     - "papers/materials/**"
+    - "watch/images/**"
 
 website:
   title: "Bruno Schivinski"

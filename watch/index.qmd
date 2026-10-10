@@ -4,6 +4,7 @@ subtitle: "Marketing research for practitioners, every week"
 listing:
   contents: posts
   sort: "date desc"
+  date-format: "D MMMM YYYY"
   template: ../_templates/watch-list.ejs
   feed: true
 ---

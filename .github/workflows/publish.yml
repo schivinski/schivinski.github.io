@@ -52,6 +52,9 @@ jobs:
       - name: Build paper pages and llms.txt
         run: python scripts/build_paper_pages.py
 
+      - name: Build Marketing Watch issues
+        run: python scripts/build_watch.py
+
       - name: Save refreshed publication cache
         if: env.PUBLISH == '1'
         run: |
