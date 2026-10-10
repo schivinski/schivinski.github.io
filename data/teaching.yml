@@ -76,7 +76,7 @@ institutions:
     url: "https://www.bbk.ac.uk"
     logo: "assets/logos/birkbeck-university-of-london.png"
     roles:
-      - { title: "Lecturer in Marketing", years: "2017–2019" }
+      - { title: "Lecturer in Marketing (B)", years: "2017–2019" }
     units:
       - "Department of Management (now Birkbeck Business School)"
 
@@ -96,7 +96,7 @@ institutions:
     url: "https://upsa.edu.gh"
     logo: "assets/logos/university-of-professional-studies-accra.png"
     roles:
-      - { title: "Visiting Professor", years: "2018–2024" }
+      - { title: "Visiting Professor of Marketing", years: "2018–2024" }
     units:
       - "Office of Doctoral Programmes"
 
@@ -165,6 +165,9 @@ courses:
       - cite: "Solomon, M. R., & Russell, C. A. (2024). *Consumer behavior: Buying, having, and being* (14th ed., global ed.). Pearson."
         cover: "assets/textbooks/solomon-russell-consumer-behavior-14e.jpg"
         url: "https://www.pearson.com/en-gb/subject-catalog/p/consumer-behavior-global-edition/P200000010092/9781292452340"
+      - cite: "Sethna, Z., & Blythe, J. (2019). *Consumer behaviour* (4th ed.). Sage."
+        cover: "assets/textbooks/sethna-blythe-consumer-behaviour-4e.jpg"
+        url: "https://study.sagepub.com/sethnaandblythe4e"
     taught:
       - { inst: gdansk-tech, as: "International Consumer Behaviour", programme: "Management (International Business Management)", years: "2025–present" }
       - { inst: ftu, as: "Consumer Behavior in Services", programme: "Advanced Program in International Business Management (bachelor's, taught in English)", years: "2025" }
@@ -319,6 +322,9 @@ courses:
       - cite: "Armstrong, G., Kotler, P., & Balasubramanian, S. (2025). *Marketing: An introduction* (16th ed., global ed.). Pearson."
         cover: "assets/textbooks/armstrong-kotler-marketing-an-introduction-16e.jpg"
         url: "https://www.pearson.com/en-gb/subject-catalog/p/marketing-an-introduction-global-edition/P200000013770/9781292753492"
+      - cite: "Kotler, P., Armstrong, G., & Balasubramanian, S. (2026). *Principles of marketing* (20th ed.). Pearson."
+        cover: "assets/textbooks/kotler-armstrong-principles-of-marketing-20e.jpg"
+        url: "https://www.pearson.com/en-us/subject-catalog/p/principles-of-marketing/P200000013361/9780135413524"
     taught:
       - { inst: gdansk-tech, as: "Essentials of Marketing", programme: "Management (bachelor's)", years: "2025–present" }
       - { inst: gdansk-tech, as: "Marketing", programme: "Management (master's)", years: "2025–present" }
@@ -376,10 +382,17 @@ courses:
       - "Descriptive and bivariate analysis"
       - "Multivariate analysis, including cluster analysis"
       - "Qualitative interviews and projective techniques"
+      - "Netnography and online qualitative research"
       - "Observation and survey procedures"
       - "Research ethics and the research report"
     textbooks:
       - cite: "Iacobucci, D., & Churchill, G. A. (2015). *Marketing research: Methodological foundations* (11th ed.). Earlie Lite Books."
+      - cite: "Babbie, E. R. (2021). *The practice of social research* (15th ed.). Cengage."
+        cover: "assets/textbooks/babbie-practice-social-research-15e.jpg"
+        url: "https://www.cengage.com/c/the-practice-of-social-research-15e-babbie/9780357360767/"
+      - cite: "Kozinets, R. V. (2020). *Netnography: The essential guide to qualitative social media research* (3rd ed.). Sage."
+        cover: "assets/textbooks/kozinets-netnography-3e.jpg"
+        url: "https://www.sagepub.com/shop/buy-a-book/netnography-3-260905"
     taught:
       - { inst: gdansk-tech, as: "Marketing Research", programme: "Bachelor's programmes" }
       - { inst: ntu, as: "Customer Insight through Marketing Research", programme: "MSc Marketing suite", years: "2015–2017" }
@@ -404,6 +417,9 @@ courses:
     textbooks:
       - cite: "Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2019). *Multivariate data analysis* (8th ed.). Cengage."
         cover: "assets/textbooks/hair-black-babin-anderson-mda-8e.jpg"
+      - cite: "Kline, R. B. (2023). *Principles and practice of structural equation modeling* (5th ed.). Guilford Press."
+        cover: "assets/textbooks/kline-principles-practice-sem-5e.jpg"
+        url: "https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910"
     taught:
       - { inst: gdansk-tech, as: "Multivariate Research Methods", programme: "Doctoral School, years 1–2", years: "2025" }
 
@@ -445,8 +461,8 @@ courses:
     levels: ["Undergraduate", "Master's"]
     summary: >-
       How to design and carry out a business research project with both numbers and words. Students analyse survey
-      data hands-on in IBM SPSS Statistics and R, and plan, conduct, transcribe and analyse their own in-depth
-      interviews.
+      data hands-on in IBM SPSS Statistics and R, plan, conduct, transcribe and analyse their own in-depth
+      interviews, and study online communities through netnography.
     outline:
       - "Research questions, design and ethics"
       - "The logic of statistics: samples, estimation and significance"
@@ -459,6 +475,7 @@ courses:
       - "Conducting in-depth interviews"
       - "Transcribing interviews"
       - "Analysing interview data: coding and meaning"
+      - "Netnography: qualitative research on social media"
       - "Validity, generalisation and reporting"
     textbooks:
       - cite: "Field, A. (2024). *Discovering statistics using IBM SPSS Statistics* (6th ed.). Sage."
@@ -468,6 +485,9 @@ courses:
       - cite: "Brinkmann, S., & Kvale, S. (2015). *InterViews: Learning the craft of qualitative research interviewing* (3rd ed.). Sage."
         cover: "assets/textbooks/brinkmann-kvale-interviews-3e.jpg"
         url: "https://www.sagepub.com/shop/buy-a-book/interviews-3-239402"
+      - cite: "Kozinets, R. V. (2020). *Netnography: The essential guide to qualitative social media research* (3rd ed.). Sage."
+        cover: "assets/textbooks/kozinets-netnography-3e.jpg"
+        url: "https://www.sagepub.com/shop/buy-a-book/netnography-3-260905"
     taught:
       - { inst: birkbeck, as: "Research Methods in Management", programme: "Bachelor's and master's (marketing and management)", years: "2017–2019" }
       - { inst: regents, as: "Marketing Research", programme: "BA (Hons) Global Management, year 2", years: "2018–2019" }
