@@ -1,9 +1,10 @@
-# Highlighted papers on the home page: 2 or 3 recent, high-quality papers that deserve more readers.
+# Highlighted papers on the home page: 2 or 3 recent, high-quality marketing papers that deserve more readers.
 # A paper that is (or becomes) one of the 10 most cited is left out automatically.
 # blurb: one plain sentence on what the paper shows (no hype).
-- doi: "10.1016/j.foodqual.2026.106122"
-  blurb: "In a field experiment in Ecuador and Norway, 57% chose fairtrade chocolate when told sustainability experts recommend it, against 34% with no message."
-- doi: "10.1038/s44159-026-00604-8"
-  blurb: "How machine learning applied to people’s digital traces can help detect risk for behavioural addictions online."
 - doi: "10.1108/jpbm-04-2025-5959"
+  venue: "Journal of Product & Brand Management"
   blurb: "A survey of 537 consumers who follow their city on social media shows that city branding shapes cognitive, emotional and behavioural engagement, partly through how cool the city brand is seen to be."
+- doi: "10.1108/jpbm-09-2025-6337"
+  blurb: "In 662 non-British consumers living in the UK, individualism raised the need for uniqueness and, through it, the desire for unique products, an effect amplified by acculturation to global consumer culture."
+- doi: "10.1080/13527266.2022.2109056"
+  blurb: "How brands should answer online complaints before they become firestorms: an apology works best overall, while corrective actions perform as well for specific complaint triggers."

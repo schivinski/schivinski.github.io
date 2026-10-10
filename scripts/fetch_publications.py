@@ -312,7 +312,7 @@ def render_highlights(pubs: list[dict], top: list[dict]) -> str:
         href = page or f"https://doi.org/{doi}"
         more = '<span class="pub-more">Summary and figures</span>' if page else ""
         cards.append(
-            f'<article class="hl-card"><p class="hl-meta"><span class="pub-venue">{esc(p["venue"])}</span> {p["year"]}</p>'
+            f'<article class="hl-card"><p class="hl-meta"><span class="pub-venue">{esc(h.get("venue", p["venue"]))}</span> {p["year"]}</p>'
             f'<h3 class="hl-title"><a href="{esc(href)}">{esc(p["title"].rstrip("."))}</a></h3>'
             f'<p class="hl-blurb">{esc(h.get("blurb", ""))}</p>{more}</article>')
         if len(cards) == 3:
