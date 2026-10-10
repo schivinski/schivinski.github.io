@@ -23,5 +23,6 @@ practical questions about how people discover, engage with and choose brands onl
     <p>Consumer research designed to give reliable answers, from survey design to the analysis of engagement.</p>
   </section>
 </div>
-<p class="consult-contact">To discuss a project, get in touch on <a href="https://www.linkedin.com/in/bruno-schivinski-b2baa044">LinkedIn</a>.</p>
 ```
+
+{{< include _request-form-consultancy.qmd >}}

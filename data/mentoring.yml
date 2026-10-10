@@ -8,7 +8,7 @@ description: >-
   research, expert review of proposals, manuscripts and grants, SEM mentoring and ongoing mentorship. Prices in euros.
 
 # Web3Forms access key (public by design; it only lets the form send to the owner's inbox).
-web3forms_key: "PASTE-WEB3FORMS-ACCESS-KEY"
+web3forms_key: "038b5e33-d810-4d74-ae01-ec9aaa0ee259"
 
 intro: >-
   Whether one question is holding you back or you are building a research career, I offer focused one-to-one support
@@ -189,3 +189,8 @@ form:
   success: "Request sent. You will hear back within two working days."
   error: "Your request could not be sent. Check your connection and try again."
   button: "Send request"
+
+# Same form on the Consultancy page (service preselected).
+consultancy_form:
+  title: "Discuss a project"
+  lede: "Tell me about your organisation and the question you need answered. I will reply within two working days."
