@@ -163,7 +163,7 @@ courses:
         cover: "assets/textbooks/demooij-global-marketing-advertising-6e.jpg"
         url: "https://collegepublishing.sagepub.com/products/274128"
     taught:
-      - { inst: rmit, programme: "Master's, School of Media and Communication" }
+      - { inst: rmit, programme: "Master's, School of Media and Communication", years: "2024, 2025" }
 
   - id: principles-of-marketing
     area: "Marketing"
@@ -276,7 +276,7 @@ courses:
       - cite: "Field, A., Miles, J., & Field, Z. (2012). *Discovering statistics using R*. Sage."
         cover: "assets/textbooks/field-miles-field-discovering-statistics-r.jpg"
     taught:
-      - { inst: rmit, programme: "Master's, School of Media and Communication" }
+      - { inst: rmit, programme: "Master's, School of Media and Communication", years: "2021, 2024, 2025" }
 
   - id: structural-equation-modelling
     area: "Research methods"
