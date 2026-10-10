@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 """Build teaching.qmd from data/teaching.yml.
 
-Page: intro, a logo strip of the institutions, one section per institution (logo, roles, units, course cards grouped by
-level, each linked to the official course card), and an invitation block. JSON-LD: Person with hasOccupation entries
-and one schema.org Course per course (provider, level, credits, hours, language, syllabus link).
+Page: intro; logo strip; course portfolio grouped by area (alphabetical within each area), each course with its core
+textbook(s) and cover, a chapter-based outline, levels, role, and where it was taught; institutions with roles; an
+invitation block. JSON-LD: ProfilePage, Person, and one schema.org Course per course (with textbooks as `workExample`
+-style citations and a CourseInstance per institution where it was taught).
 """
 from __future__ import annotations
 
 import html
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -22,118 +24,129 @@ def esc(x) -> str:
     return html.escape(str(x or ""), quote=True)
 
 
-def course_card(c: dict, inst: dict) -> str:
-    status = '<span class="tc-status now">Teaching now</span>' if c.get("status") == "current" else \
-        '<span class="tc-status">Previously taught</span>'
-    meta = [esc(c.get("programme", ""))]
-    if c.get("ects"):
-        meta.append(f'{c["ects"]:g} ECTS')
-    if c.get("hours"):
-        meta.append(f'{sum(c["hours"].values()):g} contact hours')
-    meta.append("English")
-    hours = ""
-    if c.get("hours"):
-        hours = '<p class="tc-hours">' + " · ".join(f"{k} {v:g} h" for k, v in c["hours"].items()) \
-                + (f' · {esc(c["delivery"])}' if c.get("delivery") else "") + "</p>"
-    body = ""
-    if c.get("aim"):
-        body += f'<p class="tc-aim">{esc(c["aim"])}</p>'
-    if c.get("project"):
-        body += f'<p class="tc-project"><strong>What students do:</strong> {esc(c["project"])}</p>'
-    if c.get("topics"):
-        body += ('<details class="tc-topics"><summary>Topics</summary><ul>'
-                 + "".join(f"<li>{esc(t)}</li>" for t in c["topics"]) + "</ul></details>")
-    foot = []
-    if c.get("assessment"):
-        foot.append(f'<span><strong>Assessment:</strong> {esc(c["assessment"])}</span>')
-    if c.get("role"):
-        foot.append(f'<span><strong>Role:</strong> {esc(c["role"])}</span>')
-    code = f'<span class="tc-code">{esc(c["code"])}</span>' if c.get("code") else ""
-    link = (f'<a class="tc-card-link" href="{esc(c["card"])}">Official course card (PDF)</a>' if c.get("card") else "")
-    return (f'<article class="tc-course" id="{inst["id"]}-{esc(c["title"].lower().replace(" ", "-"))}-{esc(c.get("code", "x")).lower()}">'
-            f'<div class="tc-top">{status}{code}</div>'
-            f'<h4>{esc(c["title"])}</h4><p class="tc-meta">{" · ".join(m for m in meta if m)}</p>{hours}{body}'
-            + (f'<p class="tc-foot">{"".join(foot)}</p>' if foot else "") + link + "</article>")
+def md(x: str) -> str:
+    return re.sub(r"\*(.+?)\*", r"<em>\1</em>", esc(x.strip()))
 
 
-def institution(inst: dict) -> str:
-    roles = "".join(f'<li><span class="tr-title">{esc(r["title"])}</span><span class="tr-years">{esc(r["years"])}</span></li>'
-                    for r in inst.get("roles", []))
-    units = "".join(f"<li>{esc(u)}</li>" for u in inst.get("units", []))
-    groups = ""
-    for g in inst.get("groups", []):
-        groups += (f'<h3 class="tc-level">{esc(g["level"])}</h3><div class="tc-grid">'
-                   + "".join(course_card(c, inst) for c in g["courses"]) + "</div>")
-    return (f'<section class="t-inst" id="{inst["id"]}">'
-            f'<header class="t-inst-head"><img class="t-logo" src="{esc(inst["logo"])}" alt="{esc(inst["logo_alt"])}" '
-            f'width="240" height="146" loading="lazy">'
-            f'<div><h2>{esc(inst["name"])}</h2><p class="t-inst-sub">{esc(inst.get("local_name", ""))}'
-            f'{" · " if inst.get("local_name") else ""}{esc(inst["country"])}</p>'
-            f'<p class="t-inst-sum">{esc(inst.get("summary", ""))}</p></div></header>'
-            f'<div class="t-inst-facts"><div><h3>Roles</h3><ul class="t-roles">{roles}</ul></div>'
-            f'<div><h3>Teaching in</h3><ul class="t-units">{units}</ul></div></div>'
-            f"{groups}</section>")
+def plain(x: str) -> str:
+    return re.sub(r"\*", "", x).strip()
 
 
-def jsonld(d: dict) -> str:
-    courses = []
-    for inst in d["institutions"]:
-        prov = {"@type": "CollegeOrUniversity", "name": inst["name"], "url": inst.get("url"),
-                "alternateName": inst.get("local_name")}
-        for g in inst.get("groups", []):
-            for c in g["courses"]:
-                item = {"@type": "Course", "name": c["title"], "provider": prov, "inLanguage": "en",
-                        "educationalLevel": g["level"],
-                        "instructor": {"@type": "Person", "@id": f"{SITE}/#bruno", "name": "Bruno Schivinski"}}
-                if c.get("code"):
-                    item["courseCode"] = c["code"]
-                if c.get("aim"):
-                    item["description"] = c["aim"].strip()
-                if c.get("ects"):
-                    item["numberOfCredits"] = {"@type": "StructuredValue", "value": c["ects"], "unitText": "ECTS"}
-                if c.get("topics"):
-                    item["teaches"] = c["topics"]
-                if c.get("card"):
-                    item["syllabusSections"] = {"@type": "Syllabus", "name": "Official course card", "url": c["card"]}
-                if c.get("hours"):
-                    item["hasCourseInstance"] = {"@type": "CourseInstance", "courseMode": "onsite",
-                                                 "courseWorkload": f"PT{int(sum(c['hours'].values()))}H",
-                                                 "instructor": {"@id": f"{SITE}/#bruno"}}
-                courses.append(item)
+def book(b: dict) -> str:
+    title = re.search(r"\*(.+?)\*", b["cite"])
+    t = title.group(1) if title else b["cite"]
+    if b.get("cover"):
+        img = f'<img src="{esc(b["cover"])}" alt="Cover of {esc(t)}" loading="lazy" width="150" height="210">'
+    else:  # no cover available: typographic stand-in
+        img = f'<div class="tb-plain" role="img" aria-label="{esc(t)}"><span>{esc(t)}</span></div>'
+    inner = f'<figure class="tb">{img}<figcaption>{md(b["cite"])}</figcaption></figure>'
+    return f'<a class="tb-link" href="{esc(b["url"])}">{inner}</a>' if b.get("url") else inner
+
+
+def course(c: dict, insts: dict, role: str) -> str:
+    levels = "".join(f'<span class="cp-level">{esc(l)}</span>' for l in c.get("levels", []))
+    taught = ""
+    if c.get("taught"):
+        rows = []
+        for t in c["taught"]:
+            i = insts[t["inst"]]
+            bits = [f'<strong>{esc(i["short"])}</strong>']
+            if t.get("as") and t["as"] != c["title"]:
+                bits.append(f'as “{esc(t["as"])}”')
+            if t.get("programme"):
+                bits.append(f'· {esc(t["programme"])}')
+            if t.get("years"):
+                bits.append(f'· {esc(t["years"])}')
+            rows.append(f'<li><img src="{esc(i["logo"])}" alt="" width="40" height="24">'
+                        f'<span>{" ".join(bits)}</span></li>')
+        taught = f'<div class="cp-taught"><h4>Taught at</h4><ul>{"".join(rows)}</ul></div>'
+    outline = ('<details class="cp-outline"><summary>Course outline</summary><ol>'
+               + "".join(f"<li>{esc(o)}</li>" for o in c.get("outline", [])) + "</ol></details>")
+    books = "".join(book(b) for b in c.get("textbooks", []))
+    label = "Core textbook" if len(c.get("textbooks", [])) == 1 else "Core textbooks"
+    return (f'<article class="cp-course" id="{esc(c["id"])}">'
+            f'<div class="cp-main"><div class="cp-levels">{levels}</div><h3>{esc(c["title"])}</h3>'
+            f'<p class="cp-role">{esc(role)}</p><p class="cp-sum">{esc(c["summary"].strip())}</p>{outline}{taught}</div>'
+            f'<div class="cp-books"><h4>{label}</h4><div class="cp-book-row">{books}</div></div></article>')
+
+
+def institution(i: dict, courses: list) -> str:
+    roles = "".join(f'<li><span>{esc(r["title"])}</span><span class="tr-years">{esc(r["years"])}</span></li>'
+                    for r in i.get("roles", []))
+    taught = sorted({c["title"] for c in courses if any(t["inst"] == i["id"] for t in c.get("taught", []))})
+    links = ", ".join(f'<a href="#{next(c["id"] for c in courses if c["title"] == t)}">{esc(t)}</a>' for t in taught)
+    return (f'<article class="t-inst" id="{esc(i["id"])}"><img class="t-logo" src="{esc(i["logo"])}" '
+            f'alt="{esc(i["name"])} logo" width="220" height="134" loading="lazy">'
+            f'<div><h3>{esc(i["name"])}</h3><p class="t-inst-sub">{esc(i.get("local_name", ""))}'
+            f'{" · " if i.get("local_name") else ""}{esc(i["country"])}</p><ul class="t-roles">{roles}</ul>'
+            f'<p class="t-inst-units">{esc(" · ".join(i.get("units", [])))}</p>'
+            + (f'<p class="t-inst-courses"><strong>Courses:</strong> {links}</p>' if links else "")
+            + "</div></article>")
+
+
+def jsonld(d: dict, insts: dict) -> str:
+    items = []
+    for c in d["courses"]:
+        it = {"@type": "Course", "@id": f"{SITE}/teaching.html#{c['id']}", "name": c["title"],
+              "description": plain(c["summary"]), "inLanguage": "en", "educationalLevel": ", ".join(c.get("levels", [])),
+              "teaches": c.get("outline", []),
+              "instructor": {"@id": f"{SITE}/#bruno"}}
+        provs = []
+        for t in c.get("taught", []):
+            i = insts[t["inst"]]
+            provs.append({"@type": "CourseInstance", "name": t.get("as", c["title"]), "courseMode": "onsite",
+                          "instructor": {"@id": f"{SITE}/#bruno"},
+                          "location": {"@type": "CollegeOrUniversity", "name": i["name"], "url": i.get("url")}})
+        if c.get("taught"):
+            i0 = insts[c["taught"][0]["inst"]]
+            it["provider"] = {"@type": "CollegeOrUniversity", "name": i0["name"], "url": i0.get("url")}
+            it["hasCourseInstance"] = provs
+        it["citation"] = [plain(b["cite"]) for b in c.get("textbooks", [])]
+        items.append(it)
     person = {"@type": "Person", "@id": f"{SITE}/#bruno", "name": "Bruno Schivinski", "url": f"{SITE}/",
               "jobTitle": "Associate Professor of Marketing",
               "worksFor": {"@type": "CollegeOrUniversity", "name": "Gdańsk University of Technology"},
-              "hasOccupation": {"@type": "Occupation", "name": "University professor of marketing",
-                                "skills": "Marketing, consumer behaviour, digital marketing, structural equation modelling, multivariate research methods"}}
+              "knowsAbout": [c["title"] for c in d["courses"]]}
     page = {"@type": "ProfilePage", "url": f"{SITE}/teaching.html", "name": "Teaching – Bruno Schivinski",
             "mainEntity": {"@id": f"{SITE}/#bruno"}}
-    ld = {"@context": "https://schema.org", "@graph": [page, person] + courses}
-    return '    <script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False) + "</script>\n"
+    return ('    <script type="application/ld+json">'
+            + json.dumps({"@context": "https://schema.org", "@graph": [page, person] + items}, ensure_ascii=False)
+            + "</script>\n")
 
 
 def main() -> int:
     d = yaml.safe_load((ROOT / "data" / "teaching.yml").read_text())
-    strip = "".join(f'<a href="#{i["id"]}" class="t-strip-item"><img src="{esc(i["logo"])}" alt="{esc(i["name"])}" '
+    insts = {i["id"]: i for i in d["institutions"]}
+    role = d.get("role", "")
+    strip = "".join(f'<a href="#{esc(i["id"])}" class="t-strip-item"><img src="{esc(i["logo"])}" alt="{esc(i["name"])}" '
                     f'loading="lazy"></a>' for i in d["institutions"])
-    n_courses = sum(len(g["courses"]) for i in d["institutions"] for g in i.get("groups", []))
-    desc = ("Courses Bruno Schivinski teaches in marketing, consumer behaviour, digital marketing and research methods, "
-            "with official course cards; open to visiting teaching and guest lectures.")
-    fm = {"title": "Teaching",
-          "subtitle": "Marketing, consumer behaviour, digital marketing and research methods, taught in English from bachelor's to doctoral level",
-          "description": desc, "page-layout": "full", "body-classes": "teaching-page"}
+    nav = "".join(f'<a href="#{esc(c["id"])}">{esc(c["title"])}</a>'
+                  for a in d["areas"] for c in sorted([c for c in d["courses"] if c["area"] == a], key=lambda c: c["title"]))
+    portfolio = ""
+    for a in d["areas"]:
+        cs = sorted([c for c in d["courses"] if c["area"] == a], key=lambda c: c["title"])
+        portfolio += (f'<h3 class="cp-area">{esc(a)}</h3>' + "".join(course(c, insts, role) for c in cs))
     inv = d.get("invite", {})
-    invite = (f'<section class="t-invite"><h2>{esc(inv.get("title"))}</h2><p>{esc(inv.get("text"))}</p>'
-              f'<a class="btn-invite" href="{esc(inv["link"]["url"])}">{esc(inv["link"]["label"])}</a></section>'
-              if inv else "")
+    invite = (f'<section class="t-invite"><h2>{esc(inv["title"])}</h2><p>{esc(inv["text"])}</p>'
+              f'<a class="btn-invite" href="{esc(inv["link"]["url"])}">{esc(inv["link"]["label"])}</a></section>') if inv else ""
     body = (f'<div class="t-wrap"><p class="t-intro">{esc(d["intro"])}</p>'
             f'<nav class="t-strip" aria-label="Institutions">{strip}</nav>'
-            + "".join(institution(i) for i in d["institutions"]) + invite + "</div>")
+            f'<section class="t-portfolio"><h2>Course portfolio</h2><nav class="cp-nav" aria-label="Courses">{nav}</nav>'
+            f'{portfolio}</section>'
+            f'<section class="t-insts"><h2>Where I have taught</h2>'
+            + "".join(institution(i, d["courses"]) for i in d["institutions"]) + f"</section>{invite}</div>")
+    fm = {"title": "Teaching",
+          "subtitle": "Marketing, consumer behaviour, digital marketing, advertising and research methods, taught in English from bachelor's to doctoral level",
+          "description": ("Course portfolio of Bruno Schivinski: marketing, consumer behaviour, digital marketing, advertising, "
+                          "marketing research, multivariate methods and structural equation modelling, with core textbooks "
+                          "and course outlines. Open to visiting teaching and guest lectures."),
+          "page-layout": "full", "body-classes": "teaching-page"}
     text = ("---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)
-            + "include-in-header:\n  text: |\n" + jsonld(d) + "---\n\n"
+            + "include-in-header:\n  text: |\n" + jsonld(d, insts) + "---\n\n"
             + "<!-- GENERATED from data/teaching.yml by scripts/build_teaching.py. Edit the data file. -->\n\n"
             + "```{=html}\n" + body + "\n```\n")
     (ROOT / "teaching.qmd").write_text(text)
-    print(f"Teaching page: {len(d['institutions'])} institution(s), {n_courses} course(s)")
+    print(f"Teaching page: {len(d['institutions'])} institution(s), {len(d['courses'])} course(s)")
     return 0
 
 

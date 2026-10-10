@@ -422,44 +422,49 @@ main section h2 { margin-top: 2.4rem; }
 /* ---------- Teaching page ---------- */
 .teaching-page main.content { max-width: none; }
 .t-wrap { max-width: 72rem; margin: 0 auto; }
+.t-wrap h2 { font-size: 2rem; margin: 2.8rem 0 1rem; border: 0; }
 .t-intro { font-family: $headings-font-family; font-size: 1.32rem; line-height: 1.55; color: $ink; max-width: 50rem; margin: .5rem 0 2rem; }
-.t-strip { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; padding: 1.2rem 0 2.2rem; border-bottom: 1px solid $rule; margin-bottom: 2.5rem; }
+.t-strip { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; padding: 0 0 2rem; border-bottom: 1px solid $rule; }
 .t-strip-item { display: flex; align-items: center; justify-content: center; background: $surface; border: 1px solid $rule; border-radius: 8px; padding: .8rem 1.2rem; height: 5.5rem; }
 .t-strip-item img { max-height: 3.8rem; max-width: 11rem; width: auto; }
 .t-strip-item:hover { border-color: $amber; }
-.t-inst { margin-bottom: 3.5rem; }
-.t-inst-head { display: grid; grid-template-columns: 15rem minmax(0, 1fr); gap: 2rem; align-items: center; margin-bottom: 1.6rem; }
-.t-logo { width: 100%; height: auto; background: $surface; border: 1px solid $rule; border-radius: 10px; padding: 1.2rem 1.4rem; }
-.t-inst-head h2 { margin: 0 0 .2rem; font-size: 2rem; border: 0; }
+.cp-nav { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 1.5rem; }
+.cp-nav a { font-size: .88rem; text-decoration: none; color: $ink; border: 1px solid $rule; background: $surface; border-radius: 999px; padding: .25rem .8rem; }
+.cp-nav a:hover { border-color: $amber; }
+.cp-area { font-family: $font-family-sans-serif; font-size: .82rem; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: $muted; margin: 2.2rem 0 .9rem; }
+.cp-course { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 22rem); gap: 2rem; background: $surface; border: 1px solid $rule; border-radius: 12px; padding: 1.6rem 1.8rem; margin-bottom: 1.1rem; scroll-margin-top: 5rem; }
+.cp-levels { display: flex; gap: .4rem; margin-bottom: .5rem; }
+.cp-level { font-size: .75rem; font-weight: 600; color: $ink; background: rgba($amber, .25); border-radius: 999px; padding: .1rem .65rem; }
+.cp-course h3 { font-size: 1.65rem; margin: 0 0 .15rem; }
+.cp-role { color: $muted; font-size: .92rem; margin: 0 0 .8rem; }
+.cp-sum { font-size: 1rem; line-height: 1.6; }
+.cp-outline summary { cursor: pointer; font-weight: 600; color: $ink; font-size: .95rem; margin-bottom: .4rem; }
+.cp-outline ol { columns: 2; column-gap: 2rem; font-size: .9rem; padding-left: 1.3rem; margin-bottom: .8rem; }
+.cp-outline li { break-inside: avoid; margin-bottom: .2rem; }
+.cp-taught h4, .cp-books h4 { font-family: $font-family-sans-serif; font-size: .78rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: $muted; margin: .8rem 0 .5rem; }
+.cp-taught ul { list-style: none; padding: 0; margin: 0; }
+.cp-taught li { display: flex; gap: .7rem; align-items: center; padding: .35rem 0; border-top: 1px solid $rule; font-size: .92rem; }
+.cp-taught li:first-child { border-top: 0; }
+.cp-taught img { width: 2.5rem; height: auto; flex: none; }
+.cp-books h4 { margin-top: 0; }
+.cp-book-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr)); gap: .9rem; }
+.tb { margin: 0; }
+.tb img, .tb-plain { width: 100%; aspect-ratio: 5 / 7; object-fit: cover; border-radius: 4px; box-shadow: 0 6px 16px rgba(21, 32, 59, .18); display: block; }
+.tb-plain { background: linear-gradient(160deg, $ink, $ink-soft); color: #fff; display: flex; align-items: flex-end; padding: .8rem; font-family: $headings-font-family; font-size: 1rem; line-height: 1.2; border-top: 6px solid $amber; }
+.tb figcaption { font-size: .78rem; color: $muted; line-height: 1.35; margin-top: .5rem; }
+.tb-link { text-decoration: none; color: inherit; }
+.tb-link:hover figcaption { color: $ink; }
+.t-insts .t-inst { display: grid; grid-template-columns: 13rem minmax(0, 1fr); gap: 1.8rem; align-items: start; background: $surface; border: 1px solid $rule; border-radius: 12px; padding: 1.4rem 1.6rem; margin-bottom: 1rem; scroll-margin-top: 5rem; }
+.t-logo { width: 100%; height: auto; }
+.t-inst h3 { font-size: 1.5rem; margin: 0 0 .1rem; }
 .t-inst-sub { color: $muted; margin: 0 0 .6rem; }
-.t-inst-sum { margin: 0; font-size: 1.05rem; }
-.t-inst-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; margin-bottom: 1.4rem; }
-.t-inst-facts > div { background: $surface; border: 1px solid $rule; border-radius: 8px; padding: 1rem 1.2rem; }
-.t-inst-facts h3, .tc-level { font-family: $font-family-sans-serif; font-size: .8rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: $muted; margin: 0 0 .6rem; }
-.t-roles, .t-units { list-style: none; padding: 0; margin: 0; }
-.t-roles li { display: flex; justify-content: space-between; gap: 1rem; padding: .3rem 0; border-top: 1px solid $rule; }
-.t-roles li:first-child, .t-units li:first-child { border-top: 0; }
-.t-units li { padding: .3rem 0; border-top: 1px solid $rule; }
+.t-roles { list-style: none; padding: 0; margin: 0 0 .6rem; max-width: 34rem; }
+.t-roles li { display: flex; justify-content: space-between; gap: 1rem; padding: .25rem 0; border-top: 1px solid $rule; }
+.t-roles li:first-child { border-top: 0; }
 .tr-years { color: $muted; white-space: nowrap; font-variant-numeric: tabular-nums; }
-.tc-level { margin: 2rem 0 .8rem; }
-.tc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr)); gap: 1rem; }
-.tc-course { background: $surface; border: 1px solid $rule; border-radius: 10px; padding: 1.2rem 1.3rem; display: flex; flex-direction: column; }
-.tc-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: .5rem; }
-.tc-status { font-size: .75rem; font-weight: 600; color: $muted; background: $paper; border-radius: 999px; padding: .1rem .6rem; }
-.tc-status.now { color: $ink; background: rgba($amber, .25); }
-.tc-code { font-size: .75rem; color: $muted; font-variant-numeric: tabular-nums; }
-.tc-course h4 { font-size: 1.3rem; margin: 0 0 .2rem; }
-.tc-meta { color: $muted; font-size: .9rem; margin: 0 0 .2rem; }
-.tc-hours { color: $muted; font-size: .85rem; margin: 0 0 .7rem; }
-.tc-aim { font-size: .95rem; margin-bottom: .6rem; }
-.tc-project { font-size: .93rem; background: $paper; border-left: 3px solid $amber; padding: .55rem .75rem; border-radius: 0 6px 6px 0; }
-.tc-topics summary { cursor: pointer; font-size: .9rem; font-weight: 600; color: $ink; margin: .2rem 0 .4rem; }
-.tc-topics ul { display: flex; flex-wrap: wrap; gap: .35rem; list-style: none; padding: 0; margin: 0 0 .6rem; }
-.tc-topics li { font-size: .8rem; border: 1px solid $rule; border-radius: 999px; padding: .05rem .55rem; }
-.tc-foot { font-size: .85rem; color: $muted; display: grid; gap: .2rem; margin: .4rem 0 .6rem; }
-.tc-card-link { margin-top: auto; font-size: .88rem; font-weight: 600; }
-.t-invite { background: $ink; color: #e8ebf3; border-radius: 12px; padding: 2rem 2.2rem; margin: 1rem 0 2rem; }
-.t-invite h2 { color: #fff; margin-top: 0; border: 0; }
+.t-inst-units, .t-inst-courses { font-size: .9rem; color: $muted; margin: .2rem 0; }
+.t-invite { background: $ink; color: #e8ebf3; border-radius: 12px; padding: 2rem 2.2rem; margin: 2.5rem 0 2rem; }
+.t-invite h2 { color: #fff; margin-top: 0; }
 .btn-invite { display: inline-block; background: $amber; color: $ink; font-weight: 600; text-decoration: none; border-radius: 999px; padding: .55rem 1.3rem; margin-top: .4rem; }
-@media (max-width: 760px) { .t-inst-head, .t-inst-facts { grid-template-columns: 1fr; } .t-logo { max-width: 14rem; } .tc-grid { grid-template-columns: 1fr; } }
+@media (max-width: 860px) { .cp-course, .t-insts .t-inst { grid-template-columns: 1fr; } .cp-outline ol { columns: 1; } .t-logo { max-width: 12rem; } }
 .teaching-page .quarto-title .description { display: none !important; }

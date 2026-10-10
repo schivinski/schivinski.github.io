@@ -1,12 +1,15 @@
 # Teaching page data. Built into teaching.qmd by scripts/build_teaching.py (edit this file, not the page).
-# One entry per institution, newest first. Course facts come from each university's official course cards.
+# Two lists: `institutions` (where Bruno has taught; logo + roles) and `courses` (the portfolio, grouped by area,
+# alphabetical within each area). Each course names its core textbook(s) and lists where it was taught (`taught`),
+# so a new university is added by appending to `institutions` and to the `taught` lists of the courses it offered.
 
 intro: >-
-  I teach marketing, consumer behaviour, digital marketing and quantitative research methods, in English, from
-  first-year undergraduates to doctoral candidates. My courses are built around real market problems: students write
-  complete marketing plans, design digital strategies with the SOSTAC model, and analyse how culture, technology and
-  social influence shape what people buy. At doctoral level I teach the methods I use in my own research,
-  multivariate analysis and structural equation modelling.
+  I teach marketing, consumer behaviour, digital marketing, advertising and quantitative research methods, in English,
+  from first-year undergraduates to doctoral candidates. My courses follow leading international textbooks and are built
+  around real market problems: students write complete marketing plans, design digital marketing strategies, run their
+  own marketing research and, at doctoral level, estimate and test structural equation models with their own data.
+
+role: "Course coordinator and instructor"
 
 invite:
   title: "Visiting teaching and guest lectures"
@@ -14,6 +17,8 @@ invite:
     I welcome invitations to teach as a visiting professor, run intensive courses, give guest lectures, and lead
     doctoral workshops on structural equation modelling and survey research methods.
   link: { label: "Contact me on LinkedIn", url: "https://www.linkedin.com/in/bruno-schivinski-b2baa044" }
+
+areas: ["Marketing", "Research methods"]
 
 institutions:
   - id: gdansk-tech
@@ -23,112 +28,213 @@ institutions:
     country: "Poland"
     url: "https://pg.edu.pl/en"
     logo: "assets/logos/gdansk-university-of-technology.svg"
-    logo_alt: "Gdańsk University of Technology logo"
     roles:
-      - { title: "Associate Professor of Marketing (profesor uczelni)", years: "2025–present" }
+      - { title: "Associate Professor of Marketing", years: "2025–present" }
       - { title: "Lecturer in Marketing", years: "2014–2015" }
       - { title: "Sessional Lecturer", years: "2012–2014" }
     units:
-      - "Department of Marketing, Faculty of Management and Economics"
+      - "Faculty of Management and Economics"
       - "Faculty of Electronics, Telecommunications and Informatics"
       - "Doctoral School"
+
+courses:
+  # ---------------- Marketing ----------------
+  - id: advertising
+    area: "Marketing"
+    title: "Advertising"
+    levels: ["Undergraduate"]
     summary: >-
-      I lead undergraduate marketing and consumer behaviour courses for management and data-engineering students, all
-      taught in English, and teach research methods in the university's Doctoral School.
-    groups:
-      - level: "Doctoral"
-        courses:
-          - title: "Structural Equation Modelling"
-            status: "current"
-            programme: "Doctoral School"
-          - title: "Multivariate Research Methods"
-            status: "previous"
-            programme: "Doctoral School"
-      - level: "Undergraduate (first-cycle)"
-        courses:
-          - title: "Essentials of Marketing"
-            code: "PG_00061167"
-            status: "current"
-            role: "Course leader"
-            programme: "Management"
-            faculty: "Faculty of Management and Economics"
-            ects: 5
-            hours: { Lecture: 30, Tutorial: 15 }
-            delivery: "Blended (30 hours online)"
-            aim: >-
-              To prepare students to plan and implement marketing activities on their own, based on marketing principles,
-              environmental analysis and customer behaviour, with an emphasis on creativity and social responsibility.
-            project: "Teams build a complete marketing plan for a real company and a new product, from market analysis and SWOT to strategy, action programmes, budget and controls, and present it."
-            topics: [Marketing management, Segmentation, Marketing mix, Product and price, Distribution, Promotion,
-                     Digital marketing, Content and social media marketing, Services marketing, Brand management,
-                     Social responsibility]
-            assessment: "Written exam 60%, marketing plan project and presentation 40%"
-            card: "https://ects.pg.edu.pl/en/subjects/388713/card.pdf"
-          - title: "Marketing"
-            code: "PG_00071704"
-            status: "current"
-            role: "Course leader"
-            programme: "Management"
-            faculty: "Faculty of Management and Economics"
-            ects: 3
-            hours: { Lecture: 30, Tutorial: 15 }
-            aim: >-
-              To prepare students to plan and implement marketing activities on their own, and to communicate marketing
-              analyses and recommendations clearly, including on digital marketing and AI.
-            project: "Teams present a selected company and a new product, then develop and present a full marketing plan: market, product and competition review, SWOT, objectives, strategy, action programmes, budgets and control."
-            topics: [Marketing management, Segmentation strategy, Marketing mix, Product management careers, Pricing,
-                     Distribution channels, Marketing communications in the digital age, Content and social media marketing,
-                     Services marketing, Branding, Marketing ethics]
-            assessment: "Written exam 60%, marketing plan project and presentation 40%"
-            card: "https://ects.pg.edu.pl/en/subjects/397115/card.pdf"
-          - title: "International Consumer Behaviour"
-            code: "PG_00061347"
-            status: "current"
-            role: "Course leader"
-            programme: "Management, International Business Management specialisation"
-            faculty: "Faculty of Management and Economics"
-            ects: 4
-            hours: { Lecture: 15, Tutorial: 30 }
-            aim: >-
-              To prepare students to analyse consumer behaviour across countries and cultures, using decision-making
-              models and the cultural, social and economic forces that shape consumption, with a responsible and ethical
-              approach to global markets.
-            project: "Case studies of consumer decisions in international markets, psychographic and cultural segment profiles, and debates on the ethics of influencing buyers and on sustainable consumption."
-            topics: [Consumer well-being, Perception, Learning and memory, Personality and the self, Motivation and values,
-                     Attitudes, Decision making, Social influence, Online cultures, Gamification, Social class and lifestyle,
-                     Culture of consumption]
-            assessment: "Final test 60%, tutorial test 40%"
-            card: "https://ects.pg.edu.pl/en/subjects/376613/card.pdf"
-          - title: "E-marketing and Trend Analysis"
-            code: "PG_00045374"
-            status: "current"
-            role: "Course leader"
-            programme: "Data Engineering, Big Data in Business Management"
-            faculty: "Faculty of Electronics, Telecommunications and Informatics"
-            ects: 5
-            hours: { Lecture: 30, Laboratory: 30 }
-            aim: >-
-              To prepare students to plan and run e-marketing activities with analytical tools, campaign planning
-              models such as SOSTAC, and methods for measuring the effectiveness of digital communication.
-            project: "In the lab, students design a new website and app: market research, mission and goals, audiences, competitor and supplier analysis, Business Model Canvas, TOWS/SWOT, site strategy and sitemap, ending in a SOSTAC marketing strategy."
-            topics: [Digital business models, Digital marketing plans, Online consumer behaviour, Customer perception and motivation,
-                     Social media marketing, Customer experience, Building traffic, Integrated contact strategies,
-                     Digital marketing trends]
-            assessment: "Final written exam 60%, project 40%"
-            card: "https://ects.pg.edu.pl/en/subjects/373030/card.pdf"
-          - title: "Marketing"
-            code: "PG_00045361"
-            status: "current"
-            role: "Course leader"
-            programme: "Data Engineering"
-            faculty: "Faculty of Electronics, Telecommunications and Informatics"
-            ects: 2
-            hours: { Lecture: 15, Tutorial: 15 }
-            aim: >-
-              To give engineering students the marketing foundations to collect and integrate market data from several
-              sources, analyse complex market problems and turn them into strategic recommendations.
-            project: "Case-study tasks on segmentation, product levels and marketing strategy, with a final presentation of the analysis."
-            topics: [Marketing concepts and systems, Marketing environment, Segmentation and targeting, Marketing research,
-                     Customer behaviour, Product, price, place and promotion, Marketing planning and strategy]
-            assessment: "Written test 70%, case tasks 20%, presentation 10%"
-            card: "https://ects.pg.edu.pl/en/subjects/384050/card.pdf"
+      How advertising works and how it is managed: the theories behind persuasive messages, the work of agencies and
+      creative teams, traditional and digital media, audiences and their values, regulation, and how to measure whether
+      an advertisement worked.
+    outline:
+      - "Advertising as a message from the brand"
+      - "Theories behind the message"
+      - "Advertising agencies and how they work"
+      - "Creative elements of advertisements"
+      - "Traditional media"
+      - "Digital and emerging media"
+      - "Advertising and audience values"
+      - "Offensive advertising and regulation"
+      - "Evaluating advertising effectiveness"
+      - "The future of advertising"
+    textbooks:
+      - cite: "Mogaji, E. (2021). *Introduction to advertising: Understanding and managing the advertising process*. Routledge."
+        cover: "assets/textbooks/mogaji-introduction-to-advertising.jpg"
+        url: "https://www.routledge.com/Introduction-to-Advertising-Understanding-and-Managing-the-Advertising/Mogaji/p/book/9780367441999"
+    taught: []
+
+  - id: consumer-behaviour
+    area: "Marketing"
+    title: "Consumer Behaviour"
+    levels: ["Undergraduate"]
+    summary: >-
+      Why people buy, use and dispose of products, and how culture, identity and social groups shape those choices.
+      Students apply psychological and sociological models to real brands and international markets.
+    outline:
+      - "Buying, having and being: introduction to consumer behaviour"
+      - "Consumer ethics, the marketplace and the planet"
+      - "Perception and meaning"
+      - "Learning, memory and knowledge"
+      - "Motivation and values"
+      - "Attitudes and how to change them"
+      - "Decision making"
+      - "Buying, using and disposing"
+      - "Identity and the self"
+      - "Personality, lifestyles and values"
+      - "Social and cultural identity"
+      - "Groups and social influence"
+      - "Social class and status"
+      - "Culture and consumption"
+    textbooks:
+      - cite: "Solomon, M. R., & Russell, C. A. (2024). *Consumer behavior: Buying, having, and being* (14th ed., global ed.). Pearson."
+        cover: "assets/textbooks/solomon-russell-consumer-behavior-14e.jpg"
+        url: "https://www.pearson.com/en-gb/subject-catalog/p/consumer-behavior-global-edition/P200000010092/9781292452340"
+    taught:
+      - { inst: gdansk-tech, as: "International Consumer Behaviour", programme: "Management (International Business Management)", years: "2025–present" }
+
+  - id: digital-marketing
+    area: "Marketing"
+    title: "Digital Marketing"
+    levels: ["Undergraduate"]
+    summary: >-
+      How to plan, run and measure digital marketing: online consumer behaviour, digital research, segmentation and
+      positioning, the online marketing mix, and owned, paid and earned media. Students build a complete digital
+      marketing plan for a new website or app.
+    outline:
+      - "Digital marketing: past, present and future"
+      - "Strategic digital marketing and performance metrics"
+      - "The digital marketing plan"
+      - "Global digital marketing"
+      - "Ethical and legal issues"
+      - "Digital marketing research"
+      - "Consumer behaviour online"
+      - "Segmentation, targeting, differentiation and positioning"
+      - "Product and price online"
+      - "The internet for distribution"
+      - "Owned media"
+      - "Paid media"
+      - "Earned media"
+      - "Customer relationship management"
+    textbooks:
+      - cite: "Frost, R., Fox, A. K., & Daugherty, T. (2023). *eMarketing: Digital marketing strategy* (9th ed.). Routledge."
+        cover: "assets/textbooks/frost-fox-daugherty-emarketing-9e.jpg"
+        url: "https://www.routledge.com/product/isbn/9781032161495"
+      - cite: "Eagle, L., Dahl, S., Czarnecka, B., & Lloyd, J. (2015). *Marketing communications*. Routledge."
+        cover: "assets/textbooks/eagle-marketing-communications-2015.jpg"
+    taught:
+      - { inst: gdansk-tech, as: "E-marketing and Trend Analysis", programme: "Data Engineering (Big Data in Business Management)", years: "2025–present" }
+
+  - id: principles-of-marketing
+    area: "Marketing"
+    title: "Principles of Marketing"
+    levels: ["Undergraduate"]
+    summary: >-
+      The foundations of marketing: creating customer value and engagement, understanding markets and buyers, and
+      designing the marketing mix. Students work in teams to write and present a complete marketing plan for a real
+      company and a new product.
+    outline:
+      - "Creating customer value and engagement"
+      - "Company and marketing strategy"
+      - "The marketing environment"
+      - "Marketing information and customer insights"
+      - "Consumer and business buyer behaviour"
+      - "Segmentation, targeting and positioning"
+      - "Products, services and brands"
+      - "New products and the product life cycle"
+      - "Pricing"
+      - "Marketing channels, retailing and wholesaling"
+      - "Advertising and public relations"
+      - "Personal selling and sales promotion"
+      - "Digital marketing"
+      - "The global marketplace"
+      - "Sustainable marketing, social responsibility and ethics"
+    textbooks:
+      - cite: "Armstrong, G., Kotler, P., & Balasubramanian, S. (2025). *Marketing: An introduction* (16th ed., global ed.). Pearson."
+        cover: "assets/textbooks/armstrong-kotler-marketing-an-introduction-16e.jpg"
+        url: "https://www.pearson.com/en-gb/subject-catalog/p/marketing-an-introduction-global-edition/P200000013770/9781292753492"
+    taught:
+      - { inst: gdansk-tech, as: "Essentials of Marketing", programme: "Management", years: "2025–present" }
+      - { inst: gdansk-tech, as: "Marketing", programme: "Management", years: "2025–present" }
+      - { inst: gdansk-tech, as: "Marketing", programme: "Data Engineering", years: "2025–present" }
+
+  # ---------------- Research methods ----------------
+  - id: marketing-research
+    area: "Research methods"
+    title: "Marketing Research"
+    levels: ["Undergraduate"]
+    summary: >-
+      How to plan and carry out a marketing research project from problem to report. Students test a new product concept
+      with their own survey: they design the questionnaire, choose the sample, collect and code the data, analyse it and
+      write up the results.
+    outline:
+      - "The nature and types of marketing research"
+      - "The research process and research design"
+      - "Measurement and levels of measurement"
+      - "Questionnaire design"
+      - "Measuring attitudes"
+      - "Sampling"
+      - "Data editing, coding and preparation"
+      - "Descriptive and bivariate analysis"
+      - "Multivariate analysis, including cluster analysis"
+      - "Qualitative interviews and projective techniques"
+      - "Observation and survey procedures"
+      - "Research ethics and the research report"
+    textbooks:
+      - cite: "Iacobucci, D., & Churchill, G. A. (2015). *Marketing research: Methodological foundations* (11th ed.). Earlie Lite Books."
+    taught:
+      - { inst: gdansk-tech, as: "Marketing Research" }
+
+  - id: multivariate-research-methods
+    area: "Research methods"
+    title: "Multivariate Research Methods"
+    levels: ["Doctoral"]
+    summary: >-
+      Doctoral training in the multivariate techniques most used in social-science and business research, from data
+      screening to factor analysis, regression-based models and an introduction to structural equation modelling.
+    outline:
+      - "Overview of multivariate methods"
+      - "Examining your data: missing values, outliers and assumptions"
+      - "Exploratory factor analysis"
+      - "Cluster analysis"
+      - "Multiple regression"
+      - "MANOVA"
+      - "Discriminant analysis and logistic regression"
+      - "Introduction to structural equation modelling"
+      - "Confirmatory factor analysis"
+    textbooks:
+      - cite: "Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2019). *Multivariate data analysis* (8th ed.). Cengage."
+        cover: "assets/textbooks/hair-black-babin-anderson-mda-8e.jpg"
+    taught:
+      - { inst: gdansk-tech, as: "Multivariate Research Methods", programme: "Doctoral School" }
+
+  - id: structural-equation-modelling
+    area: "Research methods"
+    title: "Structural Equation Modelling"
+    levels: ["Doctoral"]
+    summary: >-
+      A doctoral course on specifying, estimating, testing and reporting structural equation models: measurement models,
+      structural paths, model fit, group comparisons and measurement invariance, and mediation and moderation.
+    outline:
+      - "SEM: promise, problems and reporting standards"
+      - "Data preparation and software"
+      - "Causal models and path analysis"
+      - "Estimation, model testing and fit"
+      - "Comparing models and groups"
+      - "Confirmatory factor analysis"
+      - "Structural regression models"
+      - "Mediation and moderation"
+      - "Moderated mediation and mediated moderation"
+      - "Measurement invariance"
+      - "Best practices in SEM"
+    textbooks:
+      - cite: "Kline, R. B. (2023). *Principles and practice of structural equation modeling* (5th ed.). Guilford Press."
+        cover: "assets/textbooks/kline-principles-practice-sem-5e.jpg"
+        url: "https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910"
+      - cite: "Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2019). *Multivariate data analysis* (8th ed.). Cengage."
+        cover: "assets/textbooks/hair-black-babin-anderson-mda-8e.jpg"
+      - cite: "Jose, P. E. (2013). *Doing statistical mediation and moderation*. Guilford Press."
+        cover: "assets/textbooks/jose-statistical-mediation-moderation.jpg"
+        url: "https://www.guilford.com/books/Doing-Statistical-Mediation-and-Moderation/Paul-Jose/9781462508150"
+    taught:
+      - { inst: gdansk-tech, as: "Structural Equation Modelling", programme: "Doctoral School" }
