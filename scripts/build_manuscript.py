@@ -235,6 +235,10 @@ Downloaded from #link("{SITE}/papers/{slug}.html")[schivinski.github.io]]
             else:
                 T.append("#v(0.4em)\n" + typst_table(t))
             continue
+        if kind == "h4":
+            T.append(f"#block(above: 1em, below: 0.5em)[#text(size: 10.5pt)[{inline(text)}]]\n")
+            first_after_heading = True
+            continue
         if kind == "pagebreak":
             T.append("#pagebreak()\n")
             continue

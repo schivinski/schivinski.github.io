@@ -9,10 +9,10 @@ Crossref and run lower than Google Scholar's. Only journal articles get full pag
 | # | Year | Paper | Journal | Cited | Status |
 |---|---|---|---|---|---|
 | 1 | 2016 | The effect of social media communication on consumer perceptions of brands | Journal of Marketing Communications | 560 | locked (`social-media-communication-brand-perceptions`) |
-| 2 | 2016 | Measuring consumers’ engagement with brand-related social-media content: Development an… | Journal of Advertising Research | 472 | locked (`measuring-consumer-engagement-social-media-content`) |
-| 3 | 2021 | Measurement and Conceptualization of Gaming Disorder According to the World Health Orga… | International Journal of Mental Health and Addiction | 234 |  |
-| 4 | 2015 | The impact of brand communication on brand equity through Facebook | Journal of Research in Interactive Marketing | 185 |  |
-| 5 | 2019 | Psychopathological symptoms and gaming motives in disordered gaming—a psychometric comp… | Journal of Clinical Medicine | 122 |  |
+| 2 | 2016 | Measuring consumers’ engagement with brand-related social-media content: Development an… | Journal of Advertising Research | 473 | locked (`measuring-consumer-engagement-social-media-content`) |
+| 3 | 2021 | Measurement and Conceptualization of Gaming Disorder According to the World Health Orga… | International Journal of Mental Health and Addiction | 236 | locked (`gaming-disorder-test`) |
+| 4 | 2015 | The impact of brand communication on brand equity through Facebook | Journal of Research in Interactive Marketing | 185 | locked (`brand-communication-brand-equity-facebook`) |
+| 5 | 2019 | Psychopathological symptoms and gaming motives in disordered gaming—a psychometric comp… | Journal of Clinical Medicine | 122 | locked (`gaming-motives-who-apa`) |
 | 6 | 2022 | The interplay between time spent gaming and disordered gaming: A large-scale world-wide… | Social Science & Medicine | 102 |  |
 | 7 | 2020 | Exploring the Role of Social Media Use Motives, Psychological Well-Being, Self-Esteem, … | Frontiers in Psychology | 85 |  |
 | 8 | 2022 | A many-analysts approach to the relation between religiosity and well-being | Religion, Brain & Behavior | 82 |  |
@@ -27,7 +27,7 @@ Crossref and run lower than Google Scholar's. Only journal articles get full pag
 | 12 | 2022 | Effects of social media brand-related content on fashion products buying behaviour – a … | Journal of Product & Brand Management | 49 |  |
 | 13 | 2020 | Social media brand engagement in the context of collaborative consumption: the case of … | Journal of Brand Management | 61 |  |
 | 14 | 2019 | Influencing COBRAs: the effects of brand equity on the consumer’s propensity to engage … | Journal of Strategic Marketing | 61 |  |
-| 15 | 2019 | THE INFLUENCE OF SOCIAL MEDIA COMMUNICATION ON CONSUMER’S ATTITUDES AND BEHAVIORAL INTE… |  |  |  |
+| 15 | 2019 | THE INFLUENCE OF SOCIAL MEDIA COMMUNICATION ON CONSUMER’S ATTITUDES AND BEHAVIORAL INTE… |  | 35 |  |
 | 16 | 2018 | Psychometric assessment of the Internet Gaming Disorder diagnostic criteria: An Item Re… | Addictive Behaviors Reports | 64 |  |
 | 17 | 2015 | Badanie aktywności online polskich konsumentów dotyczącej marek | e-mentor | 1 |  |
 | 18 | 2015 | Wpływ aktywności online polskich konsumentów dotyczącej marek na kapitał marki bazujący… | e-mentor | 1 |  |
@@ -58,10 +58,10 @@ Crossref and run lower than Google Scholar's. Only journal articles get full pag
 | 38 | 2024 | “What Are You Eating?” Is the Influence of Fortnite Streamers Expanding Beyond the Game? | Journal of Electronic Gaming and Esports | 4 |  |
 | 39 | 2023 | Consumer Perceptions of Food Packaging in Its Role in Fighting Food Waste | Sustainability | 45 |  |
 | 40 | 2023 | Many analysts and few incentives | Religion Brain and Behavior | 5 |  |
-| 41 | 2023 | Problematic Online Behaviors Among Gamers: the Links Between Problematic Gaming, Gambli… | International Journal of Mental Health and Addiction | 43 |  |
+| 41 | 2023 | Problematic Online Behaviors Among Gamers: the Links Between Problematic Gaming, Gambli… | International Journal of Mental Health and Addiction | 44 |  |
 | 42 | 2023 | The effect of social media communication on intention to vaccinate against COVID-19: A … | Journal of Marketing Communications | 4 |  |
 | 43 | 2022 | Correction to: Problematic Online Behaviors Among Gamers: the Links Between Problematic… | International Journal of Mental Health and Addiction | 1 |  |
-| 44 | 2022 | Disordered gaming, loneliness, and family harmony in gamers before and during the COVID… | Addictive Behaviors Reports |  |  |
+| 44 | 2022 | Disordered gaming, loneliness, and family harmony in gamers before and during the COVID… | Addictive Behaviors Reports | 22 |  |
 | 45 | 2022 | Improving the Health of Emerging Adult Gamers—A Scoping Review of Influences | Nutrients | 16 |  |
 | 46 | 2022 | Individualism/collectivism and perceived consumer effectiveness: The moderating role of… | Journal of Consumer Behaviour | 31 |  |
 | 47 | 2022 | Investigating gaming disorder and individual differences in gaming motives among profes… | Addictive Behaviors | 26 |  |
@@ -71,14 +71,14 @@ Crossref and run lower than Google Scholar's. Only journal articles get full pag
 | 51 | 2021 | Empirical evidence for robust personality-gaming disorder associations from a large-sca… | PLOS ONE | 22 |  |
 | 52 | 2021 | Is the proposed distinction of gaming disorder into a predominantly online vs. offline … | Addictive Behaviors Reports | 26 |  |
 | 53 | 2021 | Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scopi… | Nutrients | 15 |  |
-| 54 | 2020 | How values of individualism and collectivism influence impulsive buying and money budge… | Journal of Consumer Behaviour |  |  |
+| 54 | 2020 | How values of individualism and collectivism influence impulsive buying and money budge… | Journal of Consumer Behaviour | 39 |  |
 | 55 | 2020 | Proteus Effect Profiles: How Do They Relate with Disordered Gaming Behaviours? | Psychiatric Quarterly | 28 |  |
 | 56 | 2019 | Do Consumers Acculturated to Global Consumer Culture Buy More Impulsively? The Moderati… | Journal of Global Marketing | 34 |  |
 | 57 | 2019 | Laxer Clinical Criteria for Gaming Disorder May Hinder Future Efforts to Devise an Effi… | Journal of Clinical Medicine | 28 |  |
 | 58 | 2019 | The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish R… | Central European Management Journal | 11 |  |
 | 59 | 2018 | An empirical analysis of the nine Internet Gaming Disorder criteria | Journal of Behavioral Addictions | 1 |  |
 | 60 | 2017 | Antecedents and consequences of brand loyalty | Handel Wewnętrzny |  |  |
-| 61 | 2017 | Antecedents of consumer-based store brand equity - conceptual model | Annales Universitatis Mariae Curie-Skłodowska, sectio H, Oeconomia |  |  |
+| 61 | 2017 | Antecedents of consumer-based store brand equity - conceptual model | Annales Universitatis Mariae Curie-Skłodowska, sectio H, Oeconomia | 0 |  |
 | 62 | 2017 | Brand trust as a mediator between perceived risk and electronic word-of-mouth | Handel Wewnętrzny |  |  |
 | 63 | 2017 | Literature review on conceptualisation of online consumer engagement | Handel Wewnętrzny |  |  |
 | 64 | 2017 | Wymiary kapitału marki jako moderatory związku pomiędzy kapitałem marki bazującym na ko… | Handel Wewnętrzny |  |  |

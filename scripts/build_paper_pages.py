@@ -66,7 +66,7 @@ def results_svg(r: dict) -> str:
         rows += [("bar", b["label"], float(b["value"]), b.get("highlight", False)) for b in g["bars"]]
     unit = r.get("unit", "%")
     vmax = max(v for k, _, v, _ in rows if k == "bar")
-    scale_max = 100.0 if unit == "%" else vmax * 1.1
+    scale_max = float(r["max"]) if r.get("max") else (100.0 if unit == "%" else vmax * 1.1)
     W, LAB, BAR, ROW, GH = 720, 230, 420, 34, 30
     y, parts = 6, []
     for kind, label, v, hl in rows:
