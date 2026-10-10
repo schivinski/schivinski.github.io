@@ -110,9 +110,9 @@
    "key": "10.1016/j.fufo.2025.100577",
    "count": 32,
    "need": 2,
-   "per_month": 0.0,
-   "velocity_source": "none",
-   "months_to_cross": null,
+   "per_month": 1.65,
+   "velocity_source": "openalex",
+   "months_to_cross": 1.2,
    "year": 2025,
    "title": "Consumer perceptions of date labelling and storage advice and its relationship with food waste: A systematic scoping review of the academic & grey literature"
   },
@@ -120,11 +120,71 @@
    "key": "10.1371/journal.pone.0261380",
    "count": 30,
    "need": 4,
-   "per_month": 0.0,
-   "velocity_source": "none",
-   "months_to_cross": null,
+   "per_month": 0.27,
+   "velocity_source": "openalex",
+   "months_to_cross": 14.9,
    "year": 2021,
    "title": "Empirical evidence for robust personality-gaming disorder associations from a large-scale international investigation applying the APA and WHO frameworks"
+  },
+  {
+   "key": "10.1016/j.jpsychires.2023.12.038",
+   "count": 25,
+   "need": 9,
+   "per_month": 0.53,
+   "velocity_source": "openalex",
+   "months_to_cross": 17.0,
+   "year": 2024,
+   "title": "Translating the user-avatar bond into depression risk: A preliminary machine learning study"
+  },
+  {
+   "key": "10.3390/nu14112226",
+   "count": 26,
+   "need": 8,
+   "per_month": 0.35,
+   "velocity_source": "openalex",
+   "months_to_cross": 22.7,
+   "year": 2022,
+   "title": "Improving the Health of Emerging Adult Gamers—A Scoping Review of Influences"
+  },
+  {
+   "key": "10.1080/13527266.2022.2152077",
+   "count": 23,
+   "need": 11,
+   "per_month": 0.38,
+   "velocity_source": "openalex",
+   "months_to_cross": 28.9,
+   "year": 2024,
+   "title": "What if utilitarian products are regarded as high-status? The moderate role of iconic and popular as two dimensions of brand Coolness"
+  },
+  {
+   "key": "10.1016/j.abrep.2022.100449",
+   "count": 24,
+   "need": 10,
+   "per_month": 0.29,
+   "velocity_source": "openalex",
+   "months_to_cross": 34.8,
+   "year": 2022,
+   "title": "Online Gambling Disorder Questionnaire (OGD-Q): An item response theory examination"
+  },
+  {
+   "key": "10.7206/cemj.2658-0845.1",
+   "count": 25,
+   "need": 9,
+   "per_month": 0.1,
+   "velocity_source": "openalex",
+   "months_to_cross": 88.2,
+   "year": 2019,
+   "title": "The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish Restaurant Sector"
+  },
+  {
+   "key": "10.3390/nu13082895",
+   "count": 25,
+   "need": 9,
+   "per_month": 0.04,
+   "velocity_source": "openalex",
+   "months_to_cross": 240.4,
+   "year": 2021,
+   "title": "Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scoping Review"
   },
   {
    "key": "t:usergenerated images and its impact on consumerbased brand equity and on purchas",
@@ -135,66 +195,6 @@
    "months_to_cross": null,
    "year": 2015,
    "title": "User-generated images and its impact on consumer-based brand equity and on purchase intention"
-  },
-  {
-   "key": "10.3390/nu14112226",
-   "count": 26,
-   "need": 8,
-   "per_month": 0.0,
-   "velocity_source": "none",
-   "months_to_cross": null,
-   "year": 2022,
-   "title": "Improving the Health of Emerging Adult Gamers—A Scoping Review of Influences"
-  },
-  {
-   "key": "10.1016/j.jpsychires.2023.12.038",
-   "count": 25,
-   "need": 9,
-   "per_month": 0.0,
-   "velocity_source": "none",
-   "months_to_cross": null,
-   "year": 2024,
-   "title": "Translating the user-avatar bond into depression risk: A preliminary machine learning study"
-  },
-  {
-   "key": "10.3390/nu13082895",
-   "count": 25,
-   "need": 9,
-   "per_month": 0.0,
-   "velocity_source": "none",
-   "months_to_cross": null,
-   "year": 2021,
-   "title": "Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scoping Review"
-  },
-  {
-   "key": "10.7206/cemj.2658-0845.1",
-   "count": 25,
-   "need": 9,
-   "per_month": 0.0,
-   "velocity_source": "none",
-   "months_to_cross": null,
-   "year": 2019,
-   "title": "The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish Restaurant Sector"
-  },
-  {
-   "key": "10.1016/j.abrep.2022.100449",
-   "count": 24,
-   "need": 10,
-   "per_month": 0.0,
-   "velocity_source": "none",
-   "months_to_cross": null,
-   "year": 2022,
-   "title": "Online Gambling Disorder Questionnaire (OGD-Q): An item response theory examination"
-  },
-  {
-   "key": "10.1080/13527266.2022.2152077",
-   "count": 23,
-   "need": 11,
-   "per_month": 0.0,
-   "velocity_source": "none",
-   "months_to_cross": null,
-   "year": 2024,
-   "title": "What if utilitarian products are regarded as high-status? The moderate role of iconic and popular as two dimensions of brand Coolness"
   }
  ]
 }
