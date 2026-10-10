@@ -62,6 +62,7 @@ institutions:
       - { title: "Visiting Professor of Marketing", years: "2025–2026" }
     units:
       - "Faculty of Business Administration"
+      - "Advanced Program in International Business Management, run with California State University, Fullerton"
 
   - id: birkbeck
     name: "Birkbeck, University of London"
@@ -150,7 +151,7 @@ courses:
         url: "https://www.pearson.com/en-gb/subject-catalog/p/consumer-behavior-global-edition/P200000010092/9781292452340"
     taught:
       - { inst: gdansk-tech, as: "International Consumer Behaviour", programme: "Management (International Business Management)", years: "2025–present" }
-      - { inst: ftu, as: "Customer Psychology and Behavior", programme: "Bachelor's, marketing", years: "2025" }
+      - { inst: ftu, as: "Consumer Behavior in Services", programme: "Advanced Program in International Business Management (bachelor's, taught in English)", years: "2025" }
       - { inst: ntu, as: "The Customer Experience", programme: "MSc Marketing suite", years: "2015–2017" }
 
   - id: digital-marketing
@@ -184,7 +185,7 @@ courses:
         cover: "assets/textbooks/eagle-marketing-communications-2015.jpg"
     taught:
       - { inst: gdansk-tech, as: "E-marketing and Trend Analysis", programme: "Data Engineering (Big Data in Business Management)", years: "2025–present" }
-      - { inst: ftu, as: "Digital Marketing", programme: "Bachelor's, marketing", years: "2025" }
+      - { inst: ftu, programme: "Advanced Program in International Business Management (bachelor's, taught in English)", years: "2025" }
 
   - id: international-advertising
     area: "Marketing"
@@ -241,7 +242,7 @@ courses:
         cover: "assets/textbooks/baack-czarnecka-baack-international-marketing-2e.jpg"
         url: "https://www.sagepub.com/shop/buy-a-book/international-marketing-2-258004"
     taught:
-      - { inst: ftu, as: "International Marketing", programme: "Bachelor's, marketing", years: "2025" }
+      - { inst: ftu, as: "Multinational Marketing Strategy", programme: "Advanced Program in International Business Management (bachelor's, taught in English)", years: "2025" }
 
   - id: marketing-planning-strategy
     area: "Marketing"
@@ -270,7 +271,7 @@ courses:
         cover: "assets/textbooks/dawes-marketing-planning-strategy.jpg"
         url: "https://www.sagepub.com/shop/buy-a-book/marketing-planning-strategy-1-276813"
     taught:
-      - { inst: ftu, as: "Marketing Planning and Strategies", programme: "Bachelor's, marketing", years: "2025" }
+      - { inst: ftu, programme: "Advanced Program in International Business Management (bachelor's, taught in English)", years: "2025" }
       - { inst: ntu, as: "Strategic Marketing and the Global Environment", programme: "MSc Marketing suite", years: "2015–2017" }
 
   - id: principles-of-marketing
@@ -356,7 +357,7 @@ courses:
       - cite: "Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2019). *Multivariate data analysis* (8th ed.). Cengage."
         cover: "assets/textbooks/hair-black-babin-anderson-mda-8e.jpg"
     taught:
-      - { inst: gdansk-tech, as: "Multivariate Research Methods", programme: "Doctoral School, years 1–2" }
+      - { inst: gdansk-tech, as: "Multivariate Research Methods", programme: "Doctoral School, years 1–2", years: "2025" }
 
   - id: research-methods
     area: "Research methods"
