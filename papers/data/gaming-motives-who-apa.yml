@@ -1,0 +1,330 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Clinical Medicine 8(10), 1691 (open access, CC BY 4.0; PDF supplied by Bruno, 10 Oct 2026)
+# Status: locked on Bruno's instruction to publish without review ("follow the current style")
+status: locked
+
+title: "Psychopathological symptoms and gaming motives in disordered gaming—A psychometric comparison between the WHO and APA diagnostic frameworks"
+doi: "10.3390/jcm8101691"
+journal: "Journal of Clinical Medicine"
+issn: "2077-0383"
+publisher: "MDPI"
+volume: "8"
+issue: "10"
+article_number: "1691"
+published: "2019-10"
+published_label: "15 October 2019"
+online: "2019-10-15"
+open_access: true
+licence: "CC BY 4.0"
+licence_url: "https://creativecommons.org/licenses/by/4.0/"
+
+aam:
+  file: "montag-schivinski-et-al-2019-jcm-gaming-motives.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article (CC BY 4.0), re-typeset as a clean PDF with the same content as the published version. Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution 4.0 International License
+    (http://creativecommons.org/licenses/by/4.0/). Originally published in Journal of Clinical Medicine, 8(10), 1691
+    (15 October 2019), https://doi.org/10.3390/jcm8101691. Changes made: the text has been re-typeset; content is
+    unchanged.
+
+authors:
+  - given: "Christian"
+    family: "Montag"
+    orcid: "0000-0001-8112-0837"
+    affiliation: ["Ulm University"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University", "University of Tasmania"]
+    me: true
+  - given: "Rayna"
+    family: "Sariyska"
+    affiliation: ["Ulm University"]
+  - given: "Christopher"
+    family: "Kannen"
+    affiliation: ["Independent researcher"]
+  - given: "Zsolt"
+    family: "Demetrovics"
+    orcid: "0000-0001-5604-7551"
+    affiliation: ["ELTE Eötvös Loránd University"]
+  - given: "Halley M."
+    family: "Pontes"
+    orcid: "0000-0001-8020-7623"
+    affiliation: ["University of Tasmania"]
+
+cite_short: "Montag et al., 2019"
+badges: ["1,429 German gamers", "WHO vs APA frameworks", "Mediation analysis", "Open data (OSF)"]
+keywords:
+  # Article's own keywords
+  - gaming disorder
+  - internet gaming disorder
+  - World Health Organization
+  - American Psychiatric Association
+  # What the paper is about
+  - ICD-11
+  - DSM-5
+  - diagnostic frameworks
+  - prevalence of gaming disorder
+  - video game addiction
+  - problematic gaming
+  - gaming motives
+  - escape motive
+  - escapism
+  - competition motive
+  - coping motive
+  - psychopathological symptoms
+  - depression
+  - loneliness
+  - attention problems
+  # Measures
+  - Gaming Disorder Test (GDT)
+  - Internet Gaming Disorder Scale–Short-Form (IGDS9-SF)
+  - Motives for Online Gaming Questionnaire (MOGQ)
+  - PHQ-9
+  - UCLA Loneliness Scale
+  # Method
+  - structural equation modelling
+  - mediation analysis
+  - bootstrapping
+  - online survey
+  # Population and application
+  - German gamers
+  - Germany
+  - self-medication hypothesis
+  - clinical assessment
+  - behavioural addictions
+  - mental health
+
+in_brief: >-
+  In 1,429 German gamers, 3.28% met the World Health Organization (WHO) criteria for gaming disorder and 5.74% met the
+  American Psychiatric Association (APA) criteria for Internet gaming disorder, a significant difference. Yet the two
+  frameworks told the same story about why: depression, loneliness and attention problems were linked to disordered
+  gaming mainly through the escape motive.
+
+findings:
+  - headline: "The WHO framework is more conservative."
+    text: >-
+      3.28% of 1,429 German gamers met the WHO criteria for gaming disorder (Gaming Disorder Test) and 5.74% met the APA
+      criteria for Internet gaming disorder (IGDS9-SF); the difference was significant (&chi;&sup2; = 798.32, df = 1,
+      p &le; 0.001) (Montag et al., 2019).
+  - headline: "Escape is the strongest motive behind disordered gaming."
+    text: >-
+      Gaming to escape had the largest direct effect on disordered gaming under both frameworks (&beta; = 0.44 WHO,
+      0.47 APA, p &lt; 0.001), followed by competition (&beta; = 0.16 and 0.21) (Montag et al., 2019).
+  - headline: "Skill development and recreation motives are protective."
+    text: >-
+      Playing to develop skills (&beta; = −0.09 WHO, −0.08 APA) and for recreation (&beta; = −0.14 WHO, −0.09 APA) was
+      linked to fewer disordered gaming symptoms under both frameworks (Montag et al., 2019).
+  - headline: "Psychopathology works through gaming motives."
+    text: >-
+      Depression, loneliness and attention problems were linked to disordered gaming mainly through the escape motive;
+      for example, the indirect effect of depression through escape was &beta; = 0.36 (WHO) and 0.39 (APA), p &lt; 0.001
+      (Montag et al., 2019).
+  - headline: "The two frameworks largely agree."
+    text: >-
+      Direct, indirect and total effects were highly comparable across the WHO and APA frameworks; total effects were
+      slightly stronger under the APA framework (depression &beta; = 0.39 vs 0.49) (Montag et al., 2019).
+
+glance:
+  - { label: "Design", value: "Cross-sectional online survey; study registered on the Open Science Framework with the dataset made freely available" }
+  - { label: "Participants", value: "1,429 German gamers recruited through www.gaming-disorder.org (80% male; mean age 29.74, SD = 12.37; range 12–82)" }
+  - { label: "Disordered gaming", value: "WHO framework: Gaming Disorder Test (GDT, 4 items); APA framework: Internet Gaming Disorder Scale–Short-Form (IGDS9-SF, 9 items)" }
+  - { label: "Predictors and mediators", value: "Depression (PHQ-9), loneliness (UCLA Loneliness Scale, version 3), attention problems; seven gaming motives (MOGQ): social, escape, competition, coping, skill development, fantasy, recreation" }
+  - { label: "Analysis", value: "Two structural equation mediation models (one per framework) controlling for weekly gaming time, age and gender; ML estimation with 5,000 bootstrap samples (Mplus 8.3)" }
+
+results:
+  title: "Prevalence of disordered gaming by diagnostic framework"
+  unit: "%"
+  max: 8
+  note: "Share of the 1,429 gamers classified as disordered gamers under each framework (Table 1 of the article). The difference was statistically significant."
+  groups:
+    - name: ""
+      bars:
+        - { label: "WHO framework (GDT)", value: 3.28, highlight: true }
+        - { label: "APA framework (IGDS9-SF)", value: 5.74 }
+
+figures:
+  - file: figures/montag-et-al-2019-model.svg
+    title: "Figure 1. The mediation model tested"
+    caption: >-
+      Depression, loneliness and attention problems predict seven gaming motives, which in turn predict disordered gaming;
+      direct paths from each symptom to disordered gaming were also estimated. The model was run twice, once with the WHO
+      measure (GDT) and once with the APA measure (IGDS9-SF), controlling for weekly gaming time, age and gender. Drawn
+      from the article’s Methods; the article itself has no figures. The highlighted path (escape) had the largest effect.
+  - file: figures/montag-et-al-2019-motive-effects.svg
+    title: "Figure 2. Direct effects of gaming motives on disordered gaming, WHO vs APA"
+    caption: >-
+      Standardised direct effects (&beta;) from Table 2 of the article. WHO model: &chi;&sup2;(986) = 5488.32, CFI = 0.91,
+      TLI = 0.90, RMSEA = 0.05; APA model: &chi;&sup2;(1226) = 6941.63, CFI = 0.90, TLI = 0.90, RMSEA = 0.05.
+
+question: >-
+  The APA (DSM-5, 2013) and the WHO (ICD-11, 2019) define disordered gaming differently: the APA proposes nine criteria
+  for Internet gaming disorder, of which five must be met, while the WHO defines gaming disorder through impaired
+  control, increasing priority given to gaming and continued gaming despite negative consequences. Researchers did not
+  know whether the two frameworks produce different prevalence rates, or whether they lead to the same conclusions about
+  how mental-health symptoms and gaming motives relate to disordered gaming.
+
+implications:
+  practical: >-
+    Prevalence estimates depend on the diagnostic framework and tool, so studies and health reports should state which
+    one they use and avoid comparing rates across frameworks. In treatment, clinicians should look at why clients play
+    (especially gaming to escape negative feelings) rather than only at how much time they spend gaming; time spent can
+    instead track progress in therapy. Helping clients understand their life goals and gaming motives may reduce urges
+    and cravings.
+  theoretical: >-
+    The study supports the conceptual and psychometric feasibility of the WHO framework for gaming disorder and its
+    measurement with the German GDT, since results closely matched the established APA framework. It shows that gaming
+    motives mediate the link between psychopathological symptoms and disordered gaming regardless of framework, and
+    frames the role of the escape motive within the self-medication hypothesis of addictive disorders.
+
+limitations:
+  - "The cross-sectional design does not allow causal inferences about gaming motives and symptoms."
+  - "The convenience sample of German gamers, recruited through mass-media advertising, may be affected by self-selection, so prevalence rates may not generalise to all German gamers or other cultures."
+  - "Self-reports can be affected by memory recall bias and social desirability."
+  - "Future research should study specific populations (e.g., professional and e-sports gamers, clinical groups such as people with autism spectrum disorder), use longitudinal designs, and distinguish positive and negative forms of escapism."
+
+faq:
+  - q: "Do the WHO and APA criteria give different prevalence rates for gaming disorder?"
+    a: >-
+      Yes. In 1,429 German gamers, 3.28% met the WHO criteria (Gaming Disorder Test) and 5.74% met the APA criteria
+      (IGDS9-SF), a statistically significant difference (Montag et al., 2019).
+  - q: "Which gaming motive is most strongly linked to gaming disorder?"
+    a: >-
+      Escape: playing to avoid real-life problems had the largest direct effect on disordered gaming under both the WHO
+      (&beta; = 0.44) and APA (&beta; = 0.47) frameworks (Montag et al., 2019).
+  - q: "Can some gaming motives protect against gaming disorder?"
+    a: >-
+      Playing for skill development and for recreation was associated with fewer disordered gaming symptoms under both
+      frameworks (&beta; between −0.08 and −0.14) (Montag et al., 2019).
+  - q: "How are depression and loneliness related to gaming disorder?"
+    a: >-
+      Depression, loneliness and attention problems were associated with disordered gaming, largely through the escape
+      motive: people with more symptoms play more to escape, which in turn predicts more disordered gaming (Montag et al.,
+      2019).
+
+concepts:
+  - term: "Gaming disorder (WHO, ICD-11)"
+    definition: "A pattern of gaming marked by impaired control, increasing priority given to gaming over other interests and activities, and continuation despite negative consequences, with significant impairment over 12 months."
+  - term: "Internet gaming disorder (APA, DSM-5)"
+    definition: "A condition proposed for further research in the DSM-5, diagnosed when five or more of nine criteria (such as preoccupation, withdrawal, tolerance and loss of control) are met over 12 months."
+  - term: "Gaming motives"
+    definition: "The reasons people play; the Motives for Online Gaming Questionnaire measures seven: social, escape, competition, coping, skill development, fantasy and recreation."
+  - term: "Self-medication hypothesis"
+    definition: "The idea that people engage in addictive behaviours to relieve painful emotional states, used in the article to explain the role of the escape motive."
+
+open_science:
+  - { label: "Clean full text (PDF)", note: "Open access article, re-typeset; includes all tables", url: "manuscripts/montag-schivinski-et-al-2019-jcm-gaming-motives.pdf" }
+  - { label: "Published version", note: "Journal of Clinical Medicine (open access, CC BY 4.0)", url: "https://doi.org/10.3390/jcm8101691" }
+  - { label: "Study registration and data (OSF)", note: "Open Science Framework project with the freely available dataset", url: "https://osf.io/ntyhr/" }
+  - { label: "Supplementary file", note: "Psychometric properties of the German GDT and IGDS9-SF", url: "https://www.mdpi.com/2077-0383/8/10/1691/s1" }
+  - { label: "Gaming Disorder Test: ready-to-use toolkit", note: "Questionnaire, Qualtrics file, codebook and R/Mplus scripts", url: "gaming-disorder-test.html#use-the-scale" }
+
+tables:
+  - id: "1"
+    title: "Main sociodemographic characteristics and related gaming behaviors among the sample"
+    collapsed: true
+    columns: ["", "N = 1429"]
+    rows:
+      - ["Gender (Male, %)", "1229 (80)"]
+      - ["Age, Years (Mean, SD)", "29.74 (12.37)"]
+      - ["Relationship Status (in a Relationship, %)", "749 (52.41)"]
+      - ["Employment Status (Unemployed, %)", "986 (68.99)"]
+      - ["Time Spent Gaming on Weekdays (Mean, SD)", "19.15 (14.69)"]
+      - ["Time Spent Gaming on Weekends (%)", "42"]
+      - ["Preferred Mode of Play (online, %)", "798 (55.84)"]
+      - ["In-game Social Membership (Participation, %)", "548 (38.34)"]
+      - ["Intention to Become a Professional Gamer (yes, %)", "82 (5.74)"]
+      - ["Experienced Significant Problems due to Gaming (yes, %)", "150 (10.5)"]
+      - ["Attention Problems (Mean, SD)", "6.43 (2.52)"]
+      - ["Depression Severity (Mean, SD)", "13.58 (4.13)"]
+      - ["Loneliness Severity (Mean, SD)", "6.12 (2.98)"]
+      - ["GD Symptom Severity (Mean, SD)", "8.46 (3.42)"]
+      - ["IGD Symptom Severity (Mean, SD)", "19.36 (6.62)"]
+      - ["GD Prevalence (n, %)", "47 (3.28)"]
+      - ["IGD Prevalence (n, %)", "82 (5.74)"]
+      - { group: true, cells: ["Item-Related Descriptive Statistics (Mean, SD)", ""] }
+      - ["GDT item 1", "2.29 (1.04)"]
+      - ["GDT item 2", "2.60 (1.09)"]
+      - ["GDT item 3", "1.95 (1.09)"]
+      - ["GDT item 4", "1.62 (.92)"]
+      - ["IGDS9-SF item 1", "2.53 (1.15)"]
+      - ["IGDS9-SF item 2", "1.71 (1.01)"]
+      - ["IGDS9-SF item 3", "1.94 (1.07)"]
+      - ["IGDS9-SF item 4", "1.90 (1.06)"]
+      - ["IGDS9-SF item 5", "1.89 (1.11)"]
+      - ["IGDS9-SF item 6", "1.83 (1.09)"]
+      - ["IGDS9-SF item 7", "1.61 (.96)"]
+      - ["IGDS9-SF item 8", "2.21 (1.21)"]
+      - ["IGDS9-SF item 9", "1.34 (.80)"]
+  - id: "2"
+    title: "Summary of the mediation analysis according to the World Health Organization (WHO) framework for Gaming Disorder (GD) and American Psychiatric Association (APA) framework for Internet Gaming Disorder (IGD)"
+    collapsed: true
+    columns: ["", "GD β", "GD <i>t</i>-value", "GD <i>p</i>-value", "IGD β", "IGD <i>t</i>-value", "IGD <i>p</i>-value"]
+    rows:
+      - { group: true, cells: ["Direct effects", "", "", "", "", "", ""] }
+      - ["Depression → Social", "0.37", "11.96", "0.001", "0.37", "12.03", "0.001"]
+      - ["Depression → Escape", "0.81", "48.88", "0.001", "0.81", "49.40", "0.001"]
+      - ["Depression → Competition", "0.28", "9.78", "0.001", "0.28", "9.84", "0.001"]
+      - ["Depression → Coping", "0.61", "24.29", "0.001", "0.61", "24.43", "0.001"]
+      - ["Depression → Skill development", "0.34", "11.67", "0.001", "0.34", "11.72", "0.001"]
+      - ["Depression → Fantasy", "0.62", "26.33", "0.001", "0.62", "26.57", "0.001"]
+      - ["Depression → Recreation", "0.30", "9.67", "0.001", "0.30", "9.75", "0.001"]
+      - ["Loneliness → Social", "0.17", "5.43", "0.001", "0.17", "5.50", "0.001"]
+      - ["Loneliness → Escape", "0.52", "21.85", "0.001", "0.52", "22.13", "0.001"]
+      - ["Loneliness → Competition", "0.12", "4.26", "0.001", "0.13", "4.36", "0.001"]
+      - ["Loneliness → Coping", "0.33", "11.36", "0.001", "0.33", "11.44", "0.001"]
+      - ["Loneliness → Skill development", "0.14", "4.99", "0.001", "0.15", "5.02", "0.001"]
+      - ["Loneliness → Fantasy", "0.42", "15.93", "0.001", "0.42", "16.05", "0.001"]
+      - ["Loneliness → Recreation", "0.08", "2.59", "0.01", "0.08", "2.66", "0.01"]
+      - ["Attention → Social", "0.66", "27.37", "0.001", "0.66", "27.30", "0.001"]
+      - ["Attention → Escape", "0.67", "28.86", "0.001", "0.67", "29.03", "0.001"]
+      - ["Attention → Competition", "0.51", "20.26", "0.001", "0.51", "20.23", "0.001"]
+      - ["Attention → Coping", "0.78", "38.85", "0.001", "0.78", "38.89", "0.001"]
+      - ["Attention → Skill development", "0.66", "30.78", "0.001", "0.66", "30.67", "0.001"]
+      - ["Attention → Fantasy", "0.68", "30.19", "0.001", "0.68", "30.27", "0.001"]
+      - ["Attention → Recreation", "0.65", "28.42", "0.001", "0.65", "28.35", "0.001"]
+      - ["Social → GD", "0.03", "1.02", "0.30", "0.04", "1.40", "0.16"]
+      - ["Escape → GD", "0.44", "10.47", "0.001", "0.47", "12.28", "0.001"]
+      - ["Competition → GD", "0.16", "5.397", "0.001", "0.21", "7.42", "0.001"]
+      - ["Coping → GD", "0.07", "1.74", "0.08", "0.08", "2.10", "0.03"]
+      - ["Skill development → GD", "−0.09", "−2.78", "0.005", "−0.08", "−2.76", "0.006"]
+      - ["Fantasy → GD", "0.01", "0.035", "0.97", "0.05", "1.39", "0.16"]
+      - ["Recreation → GD", "−0.14", "−4.28", "0.001", "−0.09", "−2.90", "0.004"]
+      - { group: true, cells: ["Indirect effects", "", "", "", "", "", ""] }
+      - ["Depression → Social → GD", "0.01", "1.02", "0.30", "0.01", "1.38", "0.16"]
+      - ["Depression → Escape → GD", "0.36", "9.86", "0.001", "0.39", "11.43", "0.001"]
+      - ["Depression → Competition → GD", "0.04", "4.71", "0.001", "0.06", "5.93", "0.001"]
+      - ["Depression → Coping → GD", "0.04", "1.73", "0.08", "0.05", "2.08", "0.03"]
+      - ["Depression → Skill development → GD", "−0.03", "−2.69", "0.007", "−0.03", "−2.67", "0.01"]
+      - ["Depression → Fantasy → GD", "0.01", "0.035", "0.97", "0.03", "1.39", "0.16"]
+      - ["Depression → Recreation → GD", "−0.04", "−3.88", "0.001", "−0.02", "−2.77", "0.006"]
+      - ["Loneliness → Social → GD", "0.01", "1.02", "0.30", "0.01", "1.42", "0.15"]
+      - ["Loneliness → Escape → GD", "0.21", "9.35", "0.001", "0.23", "10.74", "0.001"]
+      - ["Loneliness → Competition → GD", "0.02", "3.37", "0.001", "0.02", "3.77", "0.001"]
+      - ["Loneliness → Coping → GD", "0.02", "2.08", "0.03", "0.03", "2.57", "0.01"]
+      - ["Loneliness → Skill development → GD", "−0.01", "−2.36", "0.01", "−0.01", "−2.36", "0.01"]
+      - ["Loneliness → Fantasy → GD", "0.01", "0.56", "0.57", "0.02", "1.96", "0.05"]
+      - ["Loneliness → Recreation → GD", "−0.01", "−2.24", "0.02", "−0.01", "−2.00", "0.04"]
+      - ["Attention problems → Social → GD", "0.01", "0.64", "0.52", "0.02", "0.82", "0.41"]
+      - ["Attention problems → Escape → GD", "0.28", "9.32", "0.001", "0.30", "10.80", "0.001"]
+      - ["Attention problems → Competition → GD", "0.09", "5.16", "0.001", "0.11", "6.80", "0.001"]
+      - ["Attention problems → Coping → GD", "0.07", "2.02", "0.01", "0.08", "2.28", "0.02"]
+      - ["Attention problems → Skill development → GD", "−0.07", "−2.84", "0.01", "−0.07", "−2.98", "0.003"]
+      - ["Attention problems → Fantasy → GD", "0.01", "0.23", "0.81", "0.03", "1.54", "0.12"]
+      - ["Attention problems → Recreation → GD", "−0.11", "−4.34", "0.001", "−0.07", "−3.23", "0.001"]
+      - { group: true, cells: ["Total effects", "", "", "", "", "", ""] }
+      - ["Depression → GD", "0.39", "16.03", "0.001", "0.49", "22.07", "0.001"]
+      - ["Loneliness → GD", "0.24", "12.81", "0.001", "0.31", "15.92", "0.001"]
+      - ["Attention → GD", "0.28", "9.82", "0.001", "0.41", "15.72", "0.001"]
+      - { group: true, cells: ["Controls", "", "", "", "", "", ""] }
+      - ["Age → GD", "−0.08", "−3.33", "0.001", "−0.09", "−3.90", "0.001"]
+      - ["Gender → GD", "−0.06", "−2.53", "0.01", "−0.03", "−1.55", "0.11"]
+      - ["Gaming time → GD", "0.25", "9.43", "0.001", "0.22", "8.94", "0.001"]
+
+related:
+  - "10.1007/s11469-019-00088-z"
+  - "10.3390/jcm8101730"
+  - "10.1016/j.abrep.2018.06.004"
+  - "10.1016/j.socscimed.2022.114721"
+  - "10.1016/j.addbeh.2022.107416"
