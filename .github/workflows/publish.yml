@@ -55,6 +55,9 @@ jobs:
       - name: Build Marketing Watch issues
         run: python scripts/build_watch.py
 
+      - name: Build teaching page
+        run: python scripts/build_teaching.py
+
       - name: Save refreshed publication cache
         if: env.PUBLISH == '1'
         run: |

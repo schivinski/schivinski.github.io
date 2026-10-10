@@ -418,3 +418,48 @@ main section h2 { margin-top: 2.4rem; }
 .cred-n { font-family: $headings-font-family; font-size: 1.75rem; color: $ink; line-height: 1; }
 .cred-l { color: $muted; font-size: .92rem; line-height: 1.35; }
 @media (max-width: 900px) { .about-grid { grid-template-columns: 1fr; gap: 1.5rem; } .cred-tiles { margin-top: 0; } }
+
+/* ---------- Teaching page ---------- */
+.teaching-page main.content { max-width: none; }
+.t-wrap { max-width: 72rem; margin: 0 auto; }
+.t-intro { font-family: $headings-font-family; font-size: 1.32rem; line-height: 1.55; color: $ink; max-width: 50rem; margin: .5rem 0 2rem; }
+.t-strip { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; padding: 1.2rem 0 2.2rem; border-bottom: 1px solid $rule; margin-bottom: 2.5rem; }
+.t-strip-item { display: flex; align-items: center; justify-content: center; background: $surface; border: 1px solid $rule; border-radius: 8px; padding: .8rem 1.2rem; height: 5.5rem; }
+.t-strip-item img { max-height: 3.8rem; max-width: 11rem; width: auto; }
+.t-strip-item:hover { border-color: $amber; }
+.t-inst { margin-bottom: 3.5rem; }
+.t-inst-head { display: grid; grid-template-columns: 15rem minmax(0, 1fr); gap: 2rem; align-items: center; margin-bottom: 1.6rem; }
+.t-logo { width: 100%; height: auto; background: $surface; border: 1px solid $rule; border-radius: 10px; padding: 1.2rem 1.4rem; }
+.t-inst-head h2 { margin: 0 0 .2rem; font-size: 2rem; border: 0; }
+.t-inst-sub { color: $muted; margin: 0 0 .6rem; }
+.t-inst-sum { margin: 0; font-size: 1.05rem; }
+.t-inst-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; margin-bottom: 1.4rem; }
+.t-inst-facts > div { background: $surface; border: 1px solid $rule; border-radius: 8px; padding: 1rem 1.2rem; }
+.t-inst-facts h3, .tc-level { font-family: $font-family-sans-serif; font-size: .8rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: $muted; margin: 0 0 .6rem; }
+.t-roles, .t-units { list-style: none; padding: 0; margin: 0; }
+.t-roles li { display: flex; justify-content: space-between; gap: 1rem; padding: .3rem 0; border-top: 1px solid $rule; }
+.t-roles li:first-child, .t-units li:first-child { border-top: 0; }
+.t-units li { padding: .3rem 0; border-top: 1px solid $rule; }
+.tr-years { color: $muted; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.tc-level { margin: 2rem 0 .8rem; }
+.tc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr)); gap: 1rem; }
+.tc-course { background: $surface; border: 1px solid $rule; border-radius: 10px; padding: 1.2rem 1.3rem; display: flex; flex-direction: column; }
+.tc-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: .5rem; }
+.tc-status { font-size: .75rem; font-weight: 600; color: $muted; background: $paper; border-radius: 999px; padding: .1rem .6rem; }
+.tc-status.now { color: $ink; background: rgba($amber, .25); }
+.tc-code { font-size: .75rem; color: $muted; font-variant-numeric: tabular-nums; }
+.tc-course h4 { font-size: 1.3rem; margin: 0 0 .2rem; }
+.tc-meta { color: $muted; font-size: .9rem; margin: 0 0 .2rem; }
+.tc-hours { color: $muted; font-size: .85rem; margin: 0 0 .7rem; }
+.tc-aim { font-size: .95rem; margin-bottom: .6rem; }
+.tc-project { font-size: .93rem; background: $paper; border-left: 3px solid $amber; padding: .55rem .75rem; border-radius: 0 6px 6px 0; }
+.tc-topics summary { cursor: pointer; font-size: .9rem; font-weight: 600; color: $ink; margin: .2rem 0 .4rem; }
+.tc-topics ul { display: flex; flex-wrap: wrap; gap: .35rem; list-style: none; padding: 0; margin: 0 0 .6rem; }
+.tc-topics li { font-size: .8rem; border: 1px solid $rule; border-radius: 999px; padding: .05rem .55rem; }
+.tc-foot { font-size: .85rem; color: $muted; display: grid; gap: .2rem; margin: .4rem 0 .6rem; }
+.tc-card-link { margin-top: auto; font-size: .88rem; font-weight: 600; }
+.t-invite { background: $ink; color: #e8ebf3; border-radius: 12px; padding: 2rem 2.2rem; margin: 1rem 0 2rem; }
+.t-invite h2 { color: #fff; margin-top: 0; border: 0; }
+.btn-invite { display: inline-block; background: $amber; color: $ink; font-weight: 600; text-decoration: none; border-radius: 999px; padding: .55rem 1.3rem; margin-top: .4rem; }
+@media (max-width: 760px) { .t-inst-head, .t-inst-facts { grid-template-columns: 1fr; } .t-logo { max-width: 14rem; } .tc-grid { grid-template-columns: 1fr; } }
+.teaching-page .quarto-title .description { display: none !important; }

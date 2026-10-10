@@ -1,0 +1,134 @@
+# Teaching page data. Built into teaching.qmd by scripts/build_teaching.py (edit this file, not the page).
+# One entry per institution, newest first. Course facts come from each university's official course cards.
+
+intro: >-
+  I teach marketing, consumer behaviour, digital marketing and quantitative research methods, in English, from
+  first-year undergraduates to doctoral candidates. My courses are built around real market problems: students write
+  complete marketing plans, design digital strategies with the SOSTAC model, and analyse how culture, technology and
+  social influence shape what people buy. At doctoral level I teach the methods I use in my own research,
+  multivariate analysis and structural equation modelling.
+
+invite:
+  title: "Visiting teaching and guest lectures"
+  text: >-
+    I welcome invitations to teach as a visiting professor, run intensive courses, give guest lectures, and lead
+    doctoral workshops on structural equation modelling and survey research methods.
+  link: { label: "Contact me on LinkedIn", url: "https://www.linkedin.com/in/bruno-schivinski-b2baa044" }
+
+institutions:
+  - id: gdansk-tech
+    name: "Gdańsk University of Technology"
+    local_name: "Politechnika Gdańska"
+    short: "Gdańsk Tech"
+    country: "Poland"
+    url: "https://pg.edu.pl/en"
+    logo: "assets/logos/gdansk-university-of-technology.svg"
+    logo_alt: "Gdańsk University of Technology logo"
+    roles:
+      - { title: "Associate Professor of Marketing (profesor uczelni)", years: "2025–present" }
+      - { title: "Lecturer in Marketing", years: "2014–2015" }
+      - { title: "Sessional Lecturer", years: "2012–2014" }
+    units:
+      - "Department of Marketing, Faculty of Management and Economics"
+      - "Faculty of Electronics, Telecommunications and Informatics"
+      - "Doctoral School"
+    summary: >-
+      I lead undergraduate marketing and consumer behaviour courses for management and data-engineering students, all
+      taught in English, and teach research methods in the university's Doctoral School.
+    groups:
+      - level: "Doctoral"
+        courses:
+          - title: "Structural Equation Modelling"
+            status: "current"
+            programme: "Doctoral School"
+          - title: "Multivariate Research Methods"
+            status: "previous"
+            programme: "Doctoral School"
+      - level: "Undergraduate (first-cycle)"
+        courses:
+          - title: "Essentials of Marketing"
+            code: "PG_00061167"
+            status: "current"
+            role: "Course leader"
+            programme: "Management"
+            faculty: "Faculty of Management and Economics"
+            ects: 5
+            hours: { Lecture: 30, Tutorial: 15 }
+            delivery: "Blended (30 hours online)"
+            aim: >-
+              To prepare students to plan and implement marketing activities on their own, based on marketing principles,
+              environmental analysis and customer behaviour, with an emphasis on creativity and social responsibility.
+            project: "Teams build a complete marketing plan for a real company and a new product, from market analysis and SWOT to strategy, action programmes, budget and controls, and present it."
+            topics: [Marketing management, Segmentation, Marketing mix, Product and price, Distribution, Promotion,
+                     Digital marketing, Content and social media marketing, Services marketing, Brand management,
+                     Social responsibility]
+            assessment: "Written exam 60%, marketing plan project and presentation 40%"
+            card: "https://ects.pg.edu.pl/en/subjects/388713/card.pdf"
+          - title: "Marketing"
+            code: "PG_00071704"
+            status: "current"
+            role: "Course leader"
+            programme: "Management"
+            faculty: "Faculty of Management and Economics"
+            ects: 3
+            hours: { Lecture: 30, Tutorial: 15 }
+            aim: >-
+              To prepare students to plan and implement marketing activities on their own, and to communicate marketing
+              analyses and recommendations clearly, including on digital marketing and AI.
+            project: "Teams present a selected company and a new product, then develop and present a full marketing plan: market, product and competition review, SWOT, objectives, strategy, action programmes, budgets and control."
+            topics: [Marketing management, Segmentation strategy, Marketing mix, Product management careers, Pricing,
+                     Distribution channels, Marketing communications in the digital age, Content and social media marketing,
+                     Services marketing, Branding, Marketing ethics]
+            assessment: "Written exam 60%, marketing plan project and presentation 40%"
+            card: "https://ects.pg.edu.pl/en/subjects/397115/card.pdf"
+          - title: "International Consumer Behaviour"
+            code: "PG_00061347"
+            status: "current"
+            role: "Course leader"
+            programme: "Management, International Business Management specialisation"
+            faculty: "Faculty of Management and Economics"
+            ects: 4
+            hours: { Lecture: 15, Tutorial: 30 }
+            aim: >-
+              To prepare students to analyse consumer behaviour across countries and cultures, using decision-making
+              models and the cultural, social and economic forces that shape consumption, with a responsible and ethical
+              approach to global markets.
+            project: "Case studies of consumer decisions in international markets, psychographic and cultural segment profiles, and debates on the ethics of influencing buyers and on sustainable consumption."
+            topics: [Consumer well-being, Perception, Learning and memory, Personality and the self, Motivation and values,
+                     Attitudes, Decision making, Social influence, Online cultures, Gamification, Social class and lifestyle,
+                     Culture of consumption]
+            assessment: "Final test 60%, tutorial test 40%"
+            card: "https://ects.pg.edu.pl/en/subjects/376613/card.pdf"
+          - title: "E-marketing and Trend Analysis"
+            code: "PG_00045374"
+            status: "current"
+            role: "Course leader"
+            programme: "Data Engineering, Big Data in Business Management"
+            faculty: "Faculty of Electronics, Telecommunications and Informatics"
+            ects: 5
+            hours: { Lecture: 30, Laboratory: 30 }
+            aim: >-
+              To prepare students to plan and run e-marketing activities with analytical tools, campaign planning
+              models such as SOSTAC, and methods for measuring the effectiveness of digital communication.
+            project: "In the lab, students design a new website and app: market research, mission and goals, audiences, competitor and supplier analysis, Business Model Canvas, TOWS/SWOT, site strategy and sitemap, ending in a SOSTAC marketing strategy."
+            topics: [Digital business models, Digital marketing plans, Online consumer behaviour, Customer perception and motivation,
+                     Social media marketing, Customer experience, Building traffic, Integrated contact strategies,
+                     Digital marketing trends]
+            assessment: "Final written exam 60%, project 40%"
+            card: "https://ects.pg.edu.pl/en/subjects/373030/card.pdf"
+          - title: "Marketing"
+            code: "PG_00045361"
+            status: "current"
+            role: "Course leader"
+            programme: "Data Engineering"
+            faculty: "Faculty of Electronics, Telecommunications and Informatics"
+            ects: 2
+            hours: { Lecture: 15, Tutorial: 15 }
+            aim: >-
+              To give engineering students the marketing foundations to collect and integrate market data from several
+              sources, analyse complex market problems and turn them into strategic recommendations.
+            project: "Case-study tasks on segmentation, product levels and marketing strategy, with a final presentation of the analysis."
+            topics: [Marketing concepts and systems, Marketing environment, Segmentation and targeting, Marketing research,
+                     Customer behaviour, Product, price, place and promotion, Marketing planning and strategy]
+            assessment: "Written test 70%, case tasks 20%, presentation 10%"
+            card: "https://ects.pg.edu.pl/en/subjects/384050/card.pdf"
