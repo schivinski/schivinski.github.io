@@ -245,8 +245,17 @@ def render(pubs: list[dict]) -> str:
 """
 
 
+def highlighted_dois() -> set:
+    import yaml
+    if not HIGHLIGHTS.exists():
+        return set()
+    return {h["doi"].lower() for h in (yaml.safe_load(HIGHLIGHTS.read_text()) or [])}
+
+
 def render_recent(pubs: list[dict], n: int = 4) -> str:
-    items = [p for p in visible(pubs) if p["type"] == "journal-article" and p["authors"]][:n]
+    skip = highlighted_dois()          # already featured above
+    items = [p for p in visible(pubs) if p["type"] == "journal-article" and p["authors"]
+             and (p["doi"] or "").lower() not in skip][:n]
     return "```{=html}\n<div class=\"recent-pubs\">" + "".join(
         entry(p, "h3").replace('<article class="pub"', f'<article class="pub" data-year="{p["year"]}"', 1)
         for p in items) + "</div>\n```\n"
@@ -276,11 +285,46 @@ def citation_counts(pubs: list[dict], refresh: bool) -> dict:
     return cache
 
 
-def render_top(pubs: list[dict], cites: dict, n: int = 10) -> str:
+def top_papers(pubs: list[dict], cites: dict, n: int = 10) -> list[dict]:
     arts = [p for p in visible(pubs) if p["type"] == "journal-article" and cites.get((p["doi"] or "").lower())]
     arts.sort(key=lambda p: (-cites[(p["doi"] or "").lower()], -(p["year"] or 0)))
+    return arts[:n]
+
+
+HIGHLIGHTS = ROOT / "data" / "highlighted.yml"
+
+
+def render_highlights(pubs: list[dict], top: list[dict]) -> str:
+    """2-3 hand-picked papers (data/highlighted.yml) that are not among the most cited."""
+    import yaml
+    if not HIGHLIGHTS.exists():
+        return ""
+    by_doi = {(p["doi"] or "").lower(): p for p in visible(pubs)}
+    top_dois = {(p["doi"] or "").lower() for p in top}
+    cards = []
+    for h in yaml.safe_load(HIGHLIGHTS.read_text()) or []:
+        doi = h["doi"].lower()
+        p = by_doi.get(doi)
+        if not p or doi in top_dois:
+            print(f"highlight skipped ({'in top 10' if p else 'not found'}): {doi}", file=sys.stderr)
+            continue
+        page = PAGES.get(doi)
+        href = page or f"https://doi.org/{doi}"
+        more = '<span class="pub-more">Summary and figures</span>' if page else ""
+        cards.append(
+            f'<article class="hl-card"><p class="hl-meta"><span class="pub-venue">{esc(p["venue"])}</span> {p["year"]}</p>'
+            f'<h3 class="hl-title"><a href="{esc(href)}">{esc(p["title"].rstrip("."))}</a></h3>'
+            f'<p class="hl-blurb">{esc(h.get("blurb", ""))}</p>{more}</article>')
+        if len(cards) == 3:
+            break
+    if not cards:
+        return ""
+    return "```{=html}\n<div class=\"hl-grid\">" + "".join(cards) + "</div>\n```\n"
+
+
+def render_top(pubs: list[dict], cites: dict, n: int = 10) -> str:
     items = []
-    for i, p in enumerate(arts[:n], start=1):
+    for i, p in enumerate(top_papers(pubs, cites, n), start=1):
         doi = (p["doi"] or "").lower()
         page = PAGES.get(doi)
         href = page or p["url"] or f"https://doi.org/{doi}"
@@ -315,6 +359,7 @@ def main() -> int:
     (OUT.parent / "recent.md").write_text(render_recent(pubs))
     cites = citation_counts(pubs, refresh=os.environ.get("PUBLISH") == "1" or "--refresh-citations" in sys.argv)
     (OUT.parent / "top.md").write_text(render_top(pubs, cites))
+    (OUT.parent / "highlighted.md").write_text(render_highlights(pubs, top_papers(pubs, cites)))
     return 0
 
 

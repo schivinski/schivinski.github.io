@@ -334,3 +334,15 @@ details.table-block[open] summary { margin-bottom: .6rem; }
 .q-table:not(.q-table-wide) .q-itemcol { width: 50%; }
 .q-opt { display: inline-flex; align-items: center; gap: .4rem; margin-right: 1.4rem; }
 .q-optcode { color: $muted; font-size: .8rem; }
+
+// ---------- home: highlighted papers ----------
+.hl-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem; }
+.hl-card { background: $surface; border: 1px solid $rule; border-top: 3px solid $amber; border-radius: 6px; padding: 1rem 1.1rem 1.1rem; display: flex; flex-direction: column; gap: .45rem; }
+.hl-meta { margin: 0; font-size: .82rem; color: $muted; }
+.hl-meta .pub-venue { font-style: italic; }
+.hl-title { font-size: 1.08rem; line-height: 1.35; margin: 0; }
+.hl-title a { color: $ink; text-decoration: none; }
+.hl-title a:hover { text-decoration: underline; text-decoration-color: $amber; }
+.hl-blurb { margin: 0; font-size: .92rem; color: $text; line-height: 1.5; }
+.hl-card .pub-more { align-self: flex-start; margin-top: auto; }
+@media (max-width: 991.98px) { .hl-grid { grid-template-columns: 1fr; } }

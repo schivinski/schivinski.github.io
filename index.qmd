@@ -85,6 +85,19 @@ listing:
 <section class="home-section">
   <div class="wrap">
     <div class="section-head">
+      <h2>Highlighted papers</h2>
+    </div>
+```
+
+{{< include _generated/highlighted.md >}}
+
+```{=html}
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="wrap">
+    <div class="section-head">
       <h2>Most cited papers</h2>
       <a href="publications.html">All publications</a>
     </div>

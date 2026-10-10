@@ -1,0 +1,9 @@
+# Highlighted papers on the home page: 2 or 3 recent, high-quality papers that deserve more readers.
+# A paper that is (or becomes) one of the 10 most cited is left out automatically.
+# blurb: one plain sentence on what the paper shows (no hype).
+- doi: "10.1016/j.foodqual.2026.106122"
+  blurb: "In a field experiment in Ecuador and Norway, 57% chose fairtrade chocolate when told sustainability experts recommend it, against 34% with no message."
+- doi: "10.1038/s44159-026-00604-8"
+  blurb: "How machine learning applied to people’s digital traces can help detect risk for behavioural addictions online."
+- doi: "10.1108/jpbm-04-2025-5959"
+  blurb: "A survey of 537 consumers who follow their city on social media shows that city branding shapes cognitive, emotional and behavioural engagement, partly through how cool the city brand is seen to be."
