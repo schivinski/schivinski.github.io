@@ -233,7 +233,7 @@ courses:
   - id: international-marketing
     area: "Marketing"
     title: "International Marketing"
-    levels: ["Undergraduate"]
+    levels: ["Undergraduate", "Master's"]
     summary: >-
       How firms take their products to foreign markets. Students weigh culture, language, political and legal systems,
       economic systems and technology, choose countries and entry modes, and adapt the marketing mix (product, price,
@@ -258,6 +258,7 @@ courses:
         cover: "assets/textbooks/baack-czarnecka-baack-international-marketing-2e.jpg"
         url: "https://www.sagepub.com/shop/buy-a-book/international-marketing-2-258004"
     taught:
+      - { inst: gdansk-tech, programme: "Master's", years: "2012–2015" }
       - { inst: ftu, as: "Multinational Marketing Strategy", programme: "Advanced Program in International Business Management (bachelor's, taught in English)", years: "2025" }
 
   - id: marketing-planning-strategy
