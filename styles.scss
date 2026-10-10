@@ -402,3 +402,19 @@ main section h2 { margin-top: 2.4rem; }
 .mw-sr { position: absolute !important; width: 1px !important; height: 1px !important; overflow: hidden !important; clip: rect(0 0 0 0) !important; white-space: nowrap; }
 .mw-chart { position: relative; }
 .mw-cite a, .mw-page main a { overflow-wrap: anywhere; }
+
+/* ---------- About (home) ---------- */
+.home-about { background: $surface; border-bottom: 1px solid $rule; }
+.about-grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 3rem; align-items: start; }
+.about-text p { font-size: 1.05rem; line-height: 1.65; }
+.bio-copy { color: $muted; font-size: .92rem !important; display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.copy-bio { border: 1px solid $rule; background: $paper; color: $ink; border-radius: 999px; padding: .3rem .85rem; font-size: .88rem; font-weight: 500; }
+.copy-bio:hover { border-color: $amber; }
+.cred-tiles { list-style: none; padding: 0; margin: 3.2rem 0 0; display: grid; gap: .8rem; }
+.cred-tiles li { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 1rem; align-items: center; padding: .9rem 1.1rem; border: 1px solid $rule; border-radius: 8px; background: $paper; }
+.cred-tiles li:first-child { background: $ink; border-color: $ink; }
+.cred-tiles li:first-child .cred-n { color: $amber; }
+.cred-tiles li:first-child .cred-l { color: #d9deea; }
+.cred-n { font-family: $headings-font-family; font-size: 1.75rem; color: $ink; line-height: 1; }
+.cred-l { color: $muted; font-size: .92rem; line-height: 1.35; }
+@media (max-width: 900px) { .about-grid { grid-template-columns: 1fr; gap: 1.5rem; } .cred-tiles { margin-top: 0; } }

@@ -437,6 +437,24 @@ def render_top(pubs: list[dict], cites: dict, n: int = 10) -> str:
     return "```{=html}\n<ol class=\"top-papers\">" + "".join(items) + "</ol>\n" + note + "\n```\n"
 
 
+def render_credentials(pubs: list[dict]) -> str:
+    """Credential tiles for the home page: Scholar totals (data/scholar.yml), journal articles, top 2% listing."""
+    import datetime
+    snap = scholar_snapshot()
+    t = snap.get("totals") or {}
+    arts = sum(1 for p in visible(pubs) if p["type"] == "journal-article")
+    month = datetime.date.fromisoformat(str(snap["as_of"])).strftime("%B %Y") if snap.get("as_of") else ""
+    tiles = [("Top 2%", "most-cited scientists in marketing worldwide, Stanford–Elsevier ranking, 2023–2026")]
+    if t:
+        tiles.append((f"{t['citations']:,}", f"citations on Google Scholar ({month})"))
+        tiles.append((str(t["h_index"]), "h-index on Google Scholar"))
+    tiles.append((str(arts), "journal articles"))
+    tiles.append(("5", "countries taught in: Poland, UK, Australia, Ghana, Vietnam"))
+    return ("```{=html}\n<ul class=\"cred-tiles\">" + "".join(
+        f'<li><span class="cred-n">{esc(n)}</span><span class="cred-l">{esc(l)}</span></li>' for n, l in tiles)
+        + "</ul>\n```\n")
+
+
 def main() -> int:
     try:
         pubs = fetch()
@@ -459,6 +477,7 @@ def main() -> int:
     HIGHLIGHTED_NOW.update((c["p"]["doi"] or "").lower() for c in pick_highlights(pubs, top, cites))
     (OUT.parent / "recent.md").write_text(render_recent(pubs))
     (OUT.parent / "top.md").write_text(render_top(pubs, cites))
+    (OUT.parent / "credentials.md").write_text(render_credentials(pubs))
     (OUT.parent / "highlighted.md").write_text(render_highlights(pubs, top, cites))
     return 0
 

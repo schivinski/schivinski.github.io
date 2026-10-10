@@ -5,7 +5,7 @@ title-block-banner: false
 title-block-style: none
 include-in-header:
   text: |
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Bruno Schivinski", "givenName": "Bruno", "familyName": "Schivinski", "url": "https://schivinski.github.io/", "jobTitle": "Associate Professor of Marketing", "affiliation": {"@type": "CollegeOrUniversity", "name": "Gdańsk University of Technology", "alternateName": "Politechnika Gdańska", "sameAs": "https://ror.org/014837179", "department": {"@type": "Organization", "name": "Department of Marketing, Faculty of Management and Economics"}}, "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": "0000-0002-4095-1922"}, "sameAs": ["https://orcid.org/0000-0002-4095-1922", "https://scholar.google.pl/citations?user=f-iKGD8AAAAJ", "https://mostwiedzy.pl/pl/bruno-schivinski,813976-1", "https://www.linkedin.com/in/bruno-schivinski-b2baa044"], "knowsAbout": ["consumer behaviour", "consumer engagement with brand-related social media content", "consumers' online brand-related activities (COBRAs)", "brand equity", "sustainable consumption", "gaming disorder", "structural equation modelling", "scale development", "marketing psychology", "digital marketing"]}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Bruno Schivinski", "givenName": "Bruno", "familyName": "Schivinski", "url": "https://schivinski.github.io/", "jobTitle": "Associate Professor of Marketing", "affiliation": {"@type": "CollegeOrUniversity", "name": "Gdańsk University of Technology", "alternateName": "Politechnika Gdańska", "sameAs": "https://ror.org/014837179", "department": {"@type": "Organization", "name": "Department of Marketing, Faculty of Management and Economics"}}, "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": "0000-0002-4095-1922"}, "sameAs": ["https://orcid.org/0000-0002-4095-1922", "https://scholar.google.pl/citations?user=f-iKGD8AAAAJ", "https://mostwiedzy.pl/pl/bruno-schivinski,813976-1", "https://www.linkedin.com/in/bruno-schivinski-b2baa044"], "award": "Top 2% most-cited scientists worldwide in marketing, Stanford University–Elsevier ranking (2023, 2024, 2025, 2026)", "description": "Associate Professor of Marketing at Gdańsk University of Technology, studying consumer engagement with brands in digital and social media and how data-driven and AI-enabled technologies shape consumer behaviour.", "alumniOf": [{"@type": "CollegeOrUniversity", "name": "Gdańsk University of Technology"}, {"@type": "CollegeOrUniversity", "name": "Maria Curie-Skłodowska University"}], "knowsAbout": ["social media marketing", "advertising", "artificial intelligence in marketing", "consumer behaviour", "consumer engagement with brand-related social media content", "consumers' online brand-related activities (COBRAs)", "brand equity", "sustainable consumption", "gaming disorder", "structural equation modelling", "scale development", "marketing psychology", "digital marketing"]}</script>
 listing:
   id: latest
   contents: watch/posts
@@ -56,6 +56,41 @@ listing:
         to contributing, to creating. From Schivinski, Christodoulides and Dabrowski (2016),
         <em>Journal of Advertising Research</em>.</figcaption>
     </figure>
+  </div>
+</section>
+
+<section class="home-section home-about" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>About</h2>
+        <p>Bruno Schivinski is Associate Professor of Marketing at Gdańsk University of Technology, Poland. He studies
+          how people engage with brands in digital and social media, and how data-driven and AI-enabled technologies
+          shape consumer decisions, engagement and wellbeing. He is best known for his work on consumers' online
+          brand-related activities: how people consume, contribute to and create brand-related content, and what
+          that does for brands.</p>
+        <p>He previously held posts at RMIT University in Melbourne, as Senior Lecturer and then Associate Professor in
+          Advertising, and taught marketing at Birkbeck, University of London, Regent's University London and Nottingham
+          Trent University. He has been Visiting Professor of Marketing at the University of Professional Studies,
+          Accra, and Foreign Trade University, Hanoi. His research combines behavioural theory with advanced
+          quantitative methods, from structural equation modelling and scale development to machine learning.</p>
+        <p>He has been named among the world's top 2% most-cited scientists in marketing in the Stanford
+          University–Elsevier ranking every year from 2023 to 2026, and has advised research councils and policy
+          bodies including the Australian Research Council, the UK Economic and Social Research Council, the Swiss
+          National Science Foundation, and Poland's Ministry of Science and Higher Education and National Science
+          Centre.</p>
+        <p class="bio-copy">For event and course organisers:
+          <button type="button" class="copy-bio" data-target="bio-short">Copy short bio</button>
+          <button type="button" class="copy-bio" data-target="bio-long">Copy full bio</button></p>
+        <template id="bio-short">Bruno Schivinski (PhD) is Associate Professor of Marketing at Gdańsk University of Technology, Poland. He studies how people engage with brands in digital and social media, and how data-driven and AI-enabled technologies shape consumer decisions, engagement and wellbeing. He has been named among the world's top 2% most-cited scientists in marketing (Stanford University–Elsevier ranking) every year from 2023 to 2026.</template>
+        <template id="bio-long">Bruno Schivinski (PhD) is Associate Professor of Marketing at Gdańsk University of Technology, Poland. He studies how people engage with brands in digital and social media, and how data-driven and AI-enabled technologies shape consumer decisions, engagement and wellbeing. He is best known for his work on consumers' online brand-related activities: how people consume, contribute to and create brand-related content, and what that does for brands. He previously held posts at RMIT University in Melbourne, as Senior Lecturer and then Associate Professor in Advertising, and taught marketing at Birkbeck, University of London, Regent's University London and Nottingham Trent University. He has been Visiting Professor of Marketing at the University of Professional Studies, Accra, and Foreign Trade University, Hanoi. His research combines behavioural theory with advanced quantitative methods, from structural equation modelling and scale development to machine learning, and has appeared in journals including the Journal of Advertising Research, Journal of Business Research, Industrial Marketing Management and Journal of Marketing Communications. He has been named among the world's top 2% most-cited scientists in marketing in the Stanford University–Elsevier ranking every year from 2023 to 2026, and has advised research councils and policy bodies including the Australian Research Council, the UK Economic and Social Research Council, the Swiss National Science Foundation, and Poland's Ministry of Science and Higher Education and National Science Centre. More: https://schivinski.github.io</template>
+      </div>
+```
+
+{{< include _generated/credentials.md >}}
+
+```{=html}
+    </div>
   </div>
 </section>
 
@@ -149,4 +184,16 @@ listing:
       research, so students work with current evidence on how consumers think, choose and engage with brands.</p>
   </div>
 </section>
+```
+
+```{=html}
+<script>
+document.querySelectorAll('.copy-bio').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var t = document.getElementById(b.dataset.target).innerHTML.trim();
+    var done = function () { var o = b.textContent; b.textContent = 'Copied'; setTimeout(function () { b.textContent = o; }, 1600); };
+    if (navigator.clipboard) { navigator.clipboard.writeText(t).then(done); }
+  });
+});
+</script>
 ```
