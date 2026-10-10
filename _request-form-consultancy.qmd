@@ -40,13 +40,7 @@
     var key = form.dataset.key;
     var data = Object.fromEntries(new FormData(form).entries());
     if (data.botcheck) return;
-    if (!key || key.indexOf('PASTE') === 0) {  // form service not configured yet: hand over to the visitor's email app
-      var to = ['bruno', 'schivinski'].join('.') + '@' + ['gmail', 'com'].join('.');
-      var body = ['Name: ' + data.name, 'Email: ' + data.email, 'I am a: ' + data.role, 'Service: ' + data.service,
-        'Institution: ' + (data.institution || ''), 'Country: ' + data.country, 'Deadline: ' + (data.deadline || ''), '', data.message].join('\n');
-      location.href = 'mailto:' + to + '?subject=' + encodeURIComponent('Website request: ' + data.service) + '&body=' + encodeURIComponent(body);
-      status.textContent = 'Your email app should open with the request ready to send.'; status.classList.add('is-ok'); return;
-    }
+    if (!key) { status.textContent = form.dataset.error; status.classList.add('is-error'); return; }
     delete data.botcheck;
     data.access_key = key;
     data.subject = 'Website request: ' + data.service + ' (' + data.name + ')';
