@@ -445,11 +445,6 @@ def render_credentials(pubs: list[dict]) -> str:
     arts = sum(1 for p in visible(pubs) if p["type"] == "journal-article")
     month = datetime.date.fromisoformat(str(snap["as_of"])).strftime("%B %Y") if snap.get("as_of") else ""
     tiles = [("Top 2%", "most-cited scientists in marketing worldwide, Stanford–Elsevier ranking, 2023–2026")]
-    if t:
-        tiles.append((f"{t['citations']:,}", f"citations on Google Scholar ({month})"))
-        tiles.append((str(t["h_index"]), "h-index on Google Scholar"))
-    tiles.append((str(arts), "journal articles"))
-    tiles.append(("5", "countries taught in: Poland, UK, Australia, Ghana, Vietnam"))
     return ("```{=html}\n<ul class=\"cred-tiles\">" + "".join(
         f'<li><span class="cred-n">{esc(n)}</span><span class="cred-l">{esc(l)}</span></li>' for n, l in tiles)
         + "</ul>\n```\n")

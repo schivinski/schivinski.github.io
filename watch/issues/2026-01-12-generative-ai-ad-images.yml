@@ -21,8 +21,8 @@ topics: [AI, Advertising, Creative]
 image:
   file: issue-01-generative-ai-ad-images.jpg
   og: issue-01-generative-ai-ad-images-og.jpg
-  alt: "A grid of small sunset landscapes that turn from grey noise on the left into finished images on the right, one framed in amber"
-  caption: "Image models start from noise and refine it into a picture; trained on what works, they can turn out many usable variants. Illustration made for Marketing Watch."
+  alt: "A grid of small car advertisements that turn from grey noise on the left into finished ads on the right, the best one framed in amber"
+  caption: "Image models start from noise and refine it into a picture. Trained on the best-rated car ads, they turn out many usable ad variants. Illustration made for Marketing Watch."
 
 short_answer: >-
   Yes, for mainstream products. When researchers fine-tuned an open-source image model on the 30 best-rated car
