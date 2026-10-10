@@ -156,8 +156,8 @@ scale:
       name: "Brand loyalty"
       definition: "Commitment to keep buying from the brand."
       items:
-        - { id: "BL1", text: "The prospect of lower prices would make me switch to another company.", label_in_article: "BL1", loading: "0.93" }
-        - { id: "BL2", text: "If it were possible to do so without problems, I would choose another company.", label_in_article: "BL2", loading: "0.92" }
+        - { id: "BL1", text: "The prospect of lower prices would make me switch to another company.", label_in_article: "BL1 (reverse-scored)", loading: "0.93", reverse: true }
+        - { id: "BL2", text: "If it were possible to do so without problems, I would choose another company.", label_in_article: "BL2 (reverse-scored)", loading: "0.92", reverse: true }
         - { id: "BL3", text: "I intend to remain the company’s customer.", label_in_article: "BL3", loading: "0.92" }
     - code: "PQ"
       r_name: "pq"
@@ -176,7 +176,7 @@ scale:
   scoring:
     - "Code responses 1 (strongly disagree) to 7 (strongly agree)."
     - "Compute one score per construct as the mean of its items: firm-created = mean(FC1–FC4); user-generated = mean(UG1–UG4); brand awareness/associations = mean(BAS1–BAS4); brand loyalty = mean(BL1–BL3); perceived quality = mean(PQ1–PQ3)."
-    - "BL1 and BL2 are worded against loyalty (switching to another company). The article does not say whether they were reverse-scored; check their direction in your data before computing the loyalty score."
+    - "BL1 and BL2 are reverse-scored (as in the original study): recode them as 8 − x before computing the brand loyalty score, so that higher scores mean higher loyalty. They are marked R in the questionnaire above."
     - "In the original data, item means ranged from 4.42 to 5.22 for the communication items and from 5.58 to 6.78 for the brand equity items (Table AI)."
     - "For latent-variable models, specify five correlated factors, then the structural model in Figure 2."
   intro_note: >-
@@ -228,6 +228,7 @@ scale:
       ! PQ ON FC UG BAW;
     mplus_notes: |
 
+      ! BL1 and BL2 are reverse-scored: recode them as 8 - x before the analysis.
       ! Industry comparison (Table III): add the grouping variable, e.g.
       !   GROUPING = industry (1 = beverages 2 = clothing 3 = mobile);
       ! and compare labelled paths with MODEL TEST or MODEL CONSTRAINT.

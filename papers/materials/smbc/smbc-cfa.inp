@@ -25,6 +25,7 @@ MODEL:
 
 OUTPUT:   STANDARDIZED MODINDICES;
 
+! BL1 and BL2 are reverse-scored: recode them as 8 - x before the analysis.
 ! Industry comparison (Table III): add the grouping variable, e.g.
 !   GROUPING = industry (1 = beverages 2 = clothing 3 = mobile);
 ! and compare labelled paths with MODEL TEST or MODEL CONSTRAINT.

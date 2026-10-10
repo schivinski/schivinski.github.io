@@ -163,7 +163,7 @@ def scale_items_plain(sc: dict) -> str:
     out = []
     for dim in sc["dimensions"]:
         out.append(f"{dim['name']} ({dim['code']})")
-        out += [f"{it['id']}\t{plain(it['text'])}" for it in dim["items"]]
+        out += [f"{it['id']}\t{plain(it['text'])}" + ("\t(reverse-scored)" if it.get("reverse") else "") for it in dim["items"]]
         out.append("")
     return "\n".join(out).strip() + "\n"
 
@@ -196,7 +196,7 @@ def scale_html(d: dict, tables: list) -> str:
             parts.append(f'<div class="q-part"><h4>{esc(title)}{_tag(x.get("source"))}</h4>'
                          f'<p class="q-instr">{esc(x["text"])}</p>{answer}{note}</div>')
         else:
-            rows = "".join(f'<tr><th scope="row"><span class="q-id">{esc(it["id"])}</span>{esc(it["text"])}</th>{dot}</tr>'
+            rows = "".join(f'<tr><th scope="row"><span class="q-id">{esc(it["id"])}{"<sup title=&quot;reverse-scored&quot;>R</sup>" if it.get("reverse") else ""}</span>{esc(it["text"])}</th>{dot}</tr>'
                            for it in x["items"])
             parts.append(
                 '<div class="q-part">'

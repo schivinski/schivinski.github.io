@@ -91,6 +91,11 @@ def build(slug: str) -> list[Path]:
     labels, codes, dims = s["response_labels"], s["response_codes"], s["dimensions"]
     flat = [it for dm in dims for it in dm["items"]]
     coding = "; ".join(f"{c} = {l}" if l else str(c) for c, l in zip(codes, labels))
+    lo, hi = min(codes), max(codes)
+    rev = [var(it["id"]) for it in flat if it.get("reverse")]
+    rev_r = (f"# Reverse-score items worded in the opposite direction ({', '.join(rev)}), as in the article\n"
+             f"rev <- c({', '.join(chr(34) + v + chr(34) for v in rev)})\n"
+             f"dat[rev] <- {lo + hi} - dat[rev]\n\n") if rev else ""
     written = []
 
     # article labels and loadings, optionally from a table in the data file
@@ -107,16 +112,17 @@ def build(slug: str) -> list[Path]:
     with p.open("w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["variable", "dimension", "item_text", "label_in_article", "loading_in_article",
-                    "response_coding", "score"])
+                    "response_coding", "reverse_scored", "score"])
         for pq in s.get("pre_questions", []):
             pcode = "; ".join(f"{c} = {l}" for c, l in yesno_options(pq)) if pq["type"] == "yesno" else "open text"
             keep = (f"keep respondents with {var(pq['id'])} = {pq['keep']}" if "keep" in pq else "")
-            w.writerow([var(pq["id"]), pq["title"], pq["text"], "", "", pcode, keep])
+            w.writerow([var(pq["id"]), pq["title"], pq["text"], "", "", pcode, "", keep])
         for dm in dims:
             first, last = var(dm["items"][0]["id"]), var(dm["items"][-1]["id"])
             for it in dm["items"]:
                 w.writerow([var(it["id"]), dm["name"], it["text"], it.get("label_in_article", ""),
                             it.get("loading", ""), coding,
+                            f"yes: recode as {lo + hi} - x before scoring" if it.get("reverse") else "no",
                             f"{dm['name'].lower()} = {score_word(s)} of {first}-{last}"])
     written.append(p)
 
@@ -168,7 +174,7 @@ library(lavaan)
 
 dat <- read.csv("your_data.csv")
 {"".join(chr(10) + "# Keep eligible respondents (" + var(pq["id"]) + ": " + "; ".join(f"{c} = {l}" for c, l in yesno_options(pq)) + ")" + chr(10) + "dat <- subset(dat, " + var(pq["id"]) + " == " + str(pq["keep"]) + ")" + chr(10) for pq in s.get("pre_questions", []) if "keep" in pq)}
-items <- list(
+{rev_r}items <- list(
   {item_lists}
 )
 

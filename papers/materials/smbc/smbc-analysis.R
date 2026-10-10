@@ -12,6 +12,10 @@ library(lavaan)
 
 dat <- read.csv("your_data.csv")
 
+# Reverse-score items worded in the opposite direction (bl1, bl2), as in the article
+rev <- c("bl1", "bl2")
+dat[rev] <- 8 - dat[rev]
+
 items <- list(
   fc = c("fc1", "fc2", "fc3", "fc4"),
   ug = c("ug1", "ug2", "ug3", "ug4"),
