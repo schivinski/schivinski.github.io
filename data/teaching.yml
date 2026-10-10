@@ -5,12 +5,17 @@
 
 intro: >-
   I teach marketing, consumer behaviour, digital and international marketing, advertising and research methods, in
-  English, from first-year undergraduates to doctoral candidates, at universities in Poland, Australia, Vietnam and the
-  United Kingdom. My courses follow leading international textbooks and are built around real market problems: students
-  write complete marketing plans, design digital marketing strategies, run their own surveys and in-depth interviews
-  and, at doctoral level, estimate and test structural equation models with their own data.
+  English, from first-year undergraduates to doctoral candidates, at universities in Poland, Australia, Vietnam, Ghana
+  and the United Kingdom. Every course pairs a leading international textbook with teaching materials I develop myself
+  (lecture notes, datasets, case studies, exercises and assessments) drawn from my own research and current practice.
+  Courses are built around real market problems: students write complete marketing plans, design digital marketing
+  strategies, run their own surveys and in-depth interviews and, at doctoral level, estimate and test structural
+  equation models with their own data.
 
 role: "Course coordinator and instructor"
+
+# Shown under the textbooks of every course.
+materials: "Plus my own lecture notes, datasets, case studies and exercises."
 
 invite:
   title: "Visiting teaching and guest lectures"
@@ -83,6 +88,17 @@ institutions:
     logo: "assets/logos/regents-university-london.svg"
     roles:
       - { title: "Lecturer in Marketing", years: "2018–2019" }
+
+  - id: upsa
+    name: "University of Professional Studies, Accra"
+    short: "UPSA"
+    country: "Accra, Ghana"
+    url: "https://upsa.edu.gh"
+    logo: "assets/logos/university-of-professional-studies-accra.png"
+    roles:
+      - { title: "Visiting Professor", years: "2018–2024" }
+    units:
+      - "Office of Doctoral Programmes"
 
   - id: ntu
     name: "Nottingham Trent University"
@@ -309,6 +325,37 @@ courses:
       - { inst: ntu, as: "Principles of Marketing", programme: "MSc Marketing suite", years: "2015–2017" }
 
   # ---------------- Research methods ----------------
+  - id: applied-statistics
+    area: "Research methods"
+    title: "Applied Statistics"
+    levels: ["Doctoral"]
+    summary: >-
+      A doctoral grounding in the statistics behind business research: exploring and screening data, testing hypotheses
+      and reporting effect sizes, regression, comparing groups and modelling categorical outcomes. Every analysis is run
+      hands-on in IBM SPSS Statistics and R.
+    outline:
+      - "Why statistics: the research process"
+      - "Statistical models, estimation and the standard error"
+      - "Hypothesis testing, effect sizes and statistical power"
+      - "Working in IBM SPSS Statistics and R"
+      - "Exploring and visualising data"
+      - "Bias, outliers and assumptions"
+      - "Non-parametric tests"
+      - "Correlation"
+      - "The linear model: multiple regression"
+      - "Comparing two means"
+      - "Moderation and mediation"
+      - "ANOVA, ANCOVA and factorial designs"
+      - "Repeated-measures and mixed designs"
+      - "Categorical outcomes: chi-square and logistic regression"
+    textbooks:
+      - cite: "Field, A. (2024). *Discovering statistics using IBM SPSS Statistics* (6th ed.). Sage."
+        cover: "assets/textbooks/field-discovering-statistics-spss-6e.jpg"
+      - cite: "Field, A., Miles, J., & Field, Z. (2012). *Discovering statistics using R*. Sage."
+        cover: "assets/textbooks/field-miles-field-discovering-statistics-r.jpg"
+    taught:
+      - { inst: upsa, programme: "PhD programmes", years: "2019–2021" }
+
   - id: marketing-research
     area: "Research methods"
     title: "Marketing Research"
@@ -358,6 +405,38 @@ courses:
         cover: "assets/textbooks/hair-black-babin-anderson-mda-8e.jpg"
     taught:
       - { inst: gdansk-tech, as: "Multivariate Research Methods", programme: "Doctoral School, years 1–2", years: "2025" }
+
+  - id: quantitative-research-methods
+    area: "Research methods"
+    title: "Quantitative Research Methods"
+    levels: ["Doctoral"]
+    summary: >-
+      How to design, run and publish quantitative research at doctoral level: turning theory into hypotheses, designing
+      surveys and experiments, building valid measures, and testing models with regression, factor analysis and
+      structural equation modelling.
+    outline:
+      - "The logic of quantitative research"
+      - "From theory to hypotheses and conceptual models"
+      - "Research design: surveys and experiments"
+      - "Measurement and questionnaire design"
+      - "Sampling and data collection"
+      - "Data screening and preparation"
+      - "Reliability and validity"
+      - "Regression and group comparisons"
+      - "Exploratory and confirmatory factor analysis"
+      - "Structural equation modelling"
+      - "Mediation and moderation"
+      - "Reporting quantitative research for publication"
+    textbooks:
+      - cite: "Field, A. (2024). *Discovering statistics using IBM SPSS Statistics* (6th ed.). Sage."
+        cover: "assets/textbooks/field-discovering-statistics-spss-6e.jpg"
+      - cite: "Kline, R. B. (2023). *Principles and practice of structural equation modeling* (5th ed.). Guilford Press."
+        cover: "assets/textbooks/kline-principles-practice-sem-5e.jpg"
+        url: "https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910"
+      - cite: "Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2019). *Multivariate data analysis* (8th ed.). Cengage."
+        cover: "assets/textbooks/hair-black-babin-anderson-mda-8e.jpg"
+    taught:
+      - { inst: upsa, programme: "PhD programmes", years: "2019–2024" }
 
   - id: research-methods
     area: "Research methods"
@@ -451,4 +530,4 @@ courses:
         cover: "assets/textbooks/jose-statistical-mediation-moderation.jpg"
         url: "https://www.guilford.com/books/Doing-Statistical-Mediation-and-Moderation/Paul-Jose/9781462508150"
     taught:
-      - { inst: gdansk-tech, as: "Structural Equation Modelling", programme: "Doctoral School, years 1–2" }
+      - { inst: gdansk-tech, as: "Structural Equation Modelling", programme: "Doctoral School, years 1–2", years: "2026" }

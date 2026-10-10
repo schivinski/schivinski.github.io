@@ -448,6 +448,7 @@ main section h2 { margin-top: 2.4rem; }
 .cp-taught li:first-child { border-top: 0; }
 .cp-taught img { width: 4.2rem; height: 1.9rem; object-fit: contain; object-position: left center; flex: none; }
 .cp-books h4 { margin-top: 0; }
+.cp-own { font-size: .82rem; line-height: 1.45; color: $muted; margin: .7rem 0 0; padding-top: .55rem; border-top: 1px dashed $rule; max-width: 25rem; }
 .cp-book-row { display: grid; grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr)); gap: .9rem; }
 .tb { margin: 0; }
 .tb img, .tb-plain { width: 100%; aspect-ratio: 5 / 7; object-fit: cover; border-radius: 4px; box-shadow: 0 6px 16px rgba(21, 32, 59, .18); display: block; }

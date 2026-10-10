@@ -43,7 +43,7 @@ def book(b: dict) -> str:
     return f'<a class="tb-link" href="{esc(b["url"])}">{inner}</a>' if b.get("url") else inner
 
 
-def course(c: dict, insts: dict, role: str) -> str:
+def course(c: dict, insts: dict, role: str, materials: str = "") -> str:
     levels = "".join(f'<span class="cp-level">{esc(l)}</span>' for l in c.get("levels", []))
     taught = ""
     if c.get("taught"):
@@ -64,10 +64,12 @@ def course(c: dict, insts: dict, role: str) -> str:
                + "".join(f"<li>{esc(o)}</li>" for o in c.get("outline", [])) + "</ol></details>")
     books = "".join(book(b) for b in c.get("textbooks", []))
     label = "Core textbook" if len(c.get("textbooks", [])) == 1 else "Core textbooks"
+    own = f'<p class="cp-own">{esc(materials)}</p>' if materials else ""
     return (f'<article class="cp-course" id="{esc(c["id"])}">'
             f'<div class="cp-main"><div class="cp-levels">{levels}</div><h3>{esc(c["title"])}</h3>'
             f'<p class="cp-role">{esc(role)}</p><p class="cp-sum">{esc(c["summary"].strip())}</p>{outline}{taught}</div>'
-            f'<div class="cp-books"><h4>{label}</h4><div class="cp-book-row">{books}</div></div></article>')
+            f'<div class="cp-books"><h4>{label}</h4><div class="cp-book-row">{books}</div>'
+            f'{own}</div></article>')
 
 
 def institution(i: dict, courses: list) -> str:
@@ -125,7 +127,7 @@ def main() -> int:
     portfolio = ""
     for a in d["areas"]:
         cs = sorted([c for c in d["courses"] if c["area"] == a], key=lambda c: c["title"])
-        portfolio += (f'<h3 class="cp-area">{esc(a)}</h3>' + "".join(course(c, insts, role) for c in cs))
+        portfolio += (f'<h3 class="cp-area">{esc(a)}</h3>' + "".join(course(c, insts, role, d.get("materials", "")) for c in cs))
     inv = d.get("invite", {})
     invite = (f'<section class="t-invite"><h2>{esc(inv["title"])}</h2><p>{esc(inv["text"])}</p>'
               f'<a class="btn-invite" href="{esc(inv["link"]["url"])}">{esc(inv["link"]["label"])}</a></section>') if inv else ""
@@ -137,9 +139,9 @@ def main() -> int:
             + "".join(institution(i, d["courses"]) for i in d["institutions"]) + f"</section>{invite}</div>")
     fm = {"title": "Teaching",
           "subtitle": "Marketing, consumer behaviour, digital marketing, advertising and research methods, taught in English from bachelor's to doctoral level",
-          "description": ("Course portfolio of Bruno Schivinski: marketing, consumer behaviour, digital marketing, advertising, "
-                          "marketing research, multivariate methods and structural equation modelling, with core textbooks "
-                          "and course outlines. Open to visiting teaching and guest lectures."),
+          "description": ("Course portfolio of Bruno Schivinski: marketing, consumer behaviour, digital and international "
+                          "marketing, advertising, research methods, applied statistics and structural equation modelling, "
+                          "taught in Poland, Australia, Vietnam, Ghana and the UK. Open to visiting teaching."),
           "page-layout": "full", "body-classes": "teaching-page"}
     text = ("---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)
             + "include-in-header:\n  text: |\n" + jsonld(d, insts) + "---\n\n"
