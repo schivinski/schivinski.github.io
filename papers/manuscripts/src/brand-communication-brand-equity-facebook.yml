@@ -1,0 +1,23 @@
+text: brand-communication-brand-equity-facebook.blocks.txt
+affiliation_line: Department of Marketing, Gdańsk University of Technology, Gdańsk, Poland
+title_page_footer: Re-typeset from the published text by the authors; the publisher's typesetting and layout have been removed.
+titlecase_headings: false
+figures:
+  fig1:
+    svg: figures/schivinski-dabrowski-2015-model.svg
+  fig2:
+    svg: figures/schivinski-dabrowski-2015-estimates.svg
+table_overrides:
+  I:
+    widths: [auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto]
+  II:
+    widths: [1fr, auto, auto, auto, auto]
+  III:
+    landscape: true
+    size: 7.5pt
+    columns: ["Path", "Non-alc. bev. unstd. β", "std. β", "p-value", "Clothing unstd. β", "std. β", "p-value", "Mobile unstd. β", "std. β", "p-value", "B × C z-value", "B × M z-value", "C × M z-value"]
+    widths: [auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto]
+  AI:
+    label: "Table AI."
+    columns: ["Constructs and measurements", "Loading", "t-value", "Mean", "SD", "Authors"]
+    widths: [2.4fr, auto, auto, auto, auto, 1.2fr]

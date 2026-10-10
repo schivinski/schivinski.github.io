@@ -1,0 +1,393 @@
+@@title@@ The impact of brand communication on brand equity through Facebook
+
+@@authors@@ Bruno Schivinski and Dariusz Dabrowski
+
+@@affil@@ Department of Marketing, Gdansk University of Technology, Gdansk, Poland
+
+@@affil@@ Received 2 February 2014; revised 23 June 2014 and 3 September 2014; accepted 10 September 2014
+
+@@abstract@@ **Purpose** – The purpose of this article is to fill the gap in the discussion of the ways in which firm-created and user-generated social media brand communication impacts consumer-based brand equity (CBBE) metrics through Facebook.
+
+@@abstractpart@@ **Design/methodology/approach** – We evaluated 302 data sets that were generated through a standardized online survey to investigate the impact of firm-created and user-generated social media brand communication on brand awareness/associations, perceived quality and brand loyalty across 60 brands within three different industries: non-alcoholic beverages, clothing and mobile network providers. We applied a structural equation modeling technique to investigate the effects of social media communication on consumers’ perception of brand equity metrics, as well as in an examination of industry-specific differences.
+
+@@abstractpart@@ **Findings** – The results of our empirical studies showed that both firm-created and user-generated social media brand communication influence brand awareness/associations; whereas user-generated social media brand communication had a positive impact on brand loyalty and perceived brand quality. Additionally, there are significant differences between the industries being investigated.
+
+@@abstractpart@@ **Originality/value** – This article is pioneering in that it exposes the effects of two different types of social media communication (i.e. firm-created and user-generated social media brand communication) on CBBE metrics, a topic of relevance for both marketers and scholars in the era of social media. Additionally, it differentiates the effects of social media brand communication across industries, which indicate that practitioners should implement social media strategies according to industry specifics to lever CBBE metrics.
+
+@@keywords@@ Social media marketing, Facebook, Social networking sites, Structural equation modeling, Marketing communication, Brand equity
+
+@@abstractpart@@ **Paper type** Research paper
+
+@@small@@ This research was supported by the Faculty of Management and Economics and the Department of Marketing at Gdansk University of Technology (DS 020352) and by the National Science Centre (NCN) in Poland (Preludium 4 - UMO-2012/07/N/HS4/02790). The authors would like to thank James Gaskin from Brigham Young University and Jacek Buczny from the University of Social Sciences and Humanities for their detailed and insightful comments concerning the SEM procedures used in this article. The authors would also like to thank Maria Szpakowska, Julita Wasilczuk and Krzysztof Leja for their support, which made it possible for them to achieve their research objectives. Special thanks to Adam Okonski for the language edition. Nevertheless, the authors would like to thank Debra Zahay and the three anonymous reviewers for their generous and insightful guidance.
+
+@@h2@@ Introduction
+
+@@p@@ By taking advantage of Web 2.0 technologies, companies are using social network sites (hereafter: SNS) to promote and relay information about their brands (Kaplan and Haenlein, 2012). With the number of people accessing the Internet exceeding 34 per cent of the world’s population (Internet World Stats, 2013), and 1.2 billion monthly active users accessing the social network site Facebook (Facebook, 2013), brands such as Starbucks, Zara and Orange seek to connect with customers and enhance their brand communication using social media channels. Social media is changing traditional marketing communication. Internet users are gradually shaping brand communication that was previously controlled and administered by marketers. The traditional one-way communication is now multi-dimensional, two-way and peer-to-peer communication (Berthon *et al.*, 2008). Addressing to the modern changes in marketing communication, this article provides a better understanding of the effects of a firm-created and user-generated brand communication through the most popular SNS on the Internet – Facebook. The differentiation between the two types of social media communication is of great importance as one is controlled by the firm, whereas the other is independent of the company’s control.
+
+@@p@@ The fast growth in popularity of social media across consumers and companies has opened a vast research field for scholars. For the past few years researchers have been investigating the ways in which social media influences the consumers perceptions of brands by studying relevant topics such as electronic word-of-mouth (eWOM; e.g. Bambauer-Sachse and Mangold, 2011), social media advertising (e.g. Bruhn *et al.*, 2012), online reviews (e.g. Karakaya and Barnes, 2010), brand communities and fan pages (e.g. Algesheimer *et al.*, 2005) and user-generated content (UGC; e.g. Muñiz and Schau, 2007). Regardless of the growing number of empirical research on the topic of social media communication and brand management, thus far, no study has reported the influence of social media brand communication on the consumer-based brand equity (CBBE) metrics. To address this research void, we developed a conceptual model to investigate the effects of firm-created and user-generated social media brand communication on brand awareness/associations, perceived quality and brand loyalty.
+
+@@p@@ Additionally, social media brand communication may vary in terms of strategy adopted by practitioners and content generated by consumers, with regard to industry-specific differences. Although the topic of social media communication is well reported in literature (e.g. Wang and Li, 2012; Winer, 2009) to date, no study has differentiated between the effects of social media communication on brand equity metrics taking industry-specific differences into account. This article addresses this knowledge gap.
+
+@@p@@ To investigate the two literature gaps outlined above, we formulated the following research question: How do firm-created and user-generated social media brand communication impact the dimensions of CBBE, overall and with regard to industry-specific differences? Therefore, to guide us with answering these research questions, we have formulated two research objectives:
+
+@@item@@ (1) to identify the effects of firm-created and user-generated social media brand communication on the metrics of CBBE; and
+
+@@item@@ (2) to observe the effective impact of the two types of social media brand communication on the metrics of CBBE across three industries.
+
+@@p@@ To identify the effects of firm-created and user-generated social media brand communication on brand equity metrics, we used a structural equation modeling (SEM) technique. To test the conceptual model, we analyzed 302 data sets generated through a standardized online-survey on Facebook, generating a total of 60 brands across the non-alcoholic beverages, clothing and mobile network provider industries. In addition, we applied a critical ratio difference method (CRDIFF) to test the proposed model for the differences of effective impact across the industries under investigation.
+
+@@p@@ To summarize, the resulting contribution of this article to literature related to brand management is twofold. First, the findings of the influence of firm-created and user-generated social media brand communication on brand awareness/associations; and the influence of user-generated social media brand communication on brand loyalty and perceived brand quality. Second, although just as important, the results of the industry comparison, which indicate that marketers should adopt social media strategies according to industry specifics to build brand equity.
+
+@@p@@ This paper is organized as follows. The first section presents a literature review, a description of the conceptual framework, and the hypotheses of this study. The second section presents our data sources and empirical model, as well as our estimations. In the third section, we introduce the outline for the quantitative empirical analysis used to verify the suggested model. The last section provides a summary and discussion of our results, in addition to recommendations for practitioners to benefit from our advances and to create effective social media brand communication strategies. Suggestions for further research are also included in this article.
+
+@@h2@@ Conceptual framework and hypotheses
+
+@@h3@@ Social media and brand communication
+
+@@p@@ The latest interactive technologies are changing lifestyle patterns and corporate innovative praxis. Organizations have begun to understand the importance of the Internet and have taken control of it, demonstrating both interest and involvement in online communities (Berthon *et al.*, 2012). The ascendency of Web 2.0 technologies has led the Internet users to a wealth of online exposure, the most important of which is social media (Chen *et al.*, 2012).
+
+@@p@@ Social media channels offer both firms and customers new ways of engaging with each other. Companies hope to engage with loyal consumers and influence individuals’ perceptions about their products, spread information and learn from and about their audience (Brodie *et al.*, 2013). Among traditional sources of communication, social media have been established as mass phenomena with a wide demographic appeal (Kaplan and Haenlein, 2010). One of the reasons for such rapid popularity of social media among companies is the viral dissemination of information via the Internet. Additionally, the social media provide opportunities for Internet users to create and share content (Kaplan and Haenlein, 2012). The content created by Internet users involves different topics, including brands and products, making companies no longer the primary source of brand communication (Berthon *et al.*, 2008). Studies have shown that consumers consider social media as more trustworthy sources of information than the traditional instruments of marketing communications used by companies (Karakaya and Barnes, 2010). Thus, marketing and brand managers may assume that brand communication will increase through user-generated social media communication (Smith *et al.*, 2012).
+
+@@p@@ To examine the impact of social media brand communications, it is necessary to distinguish between two different forms of them:
+
+@@item@@ (1) firm-created; and
+
+@@item@@ (2) user-generated social media communication (Godes and Mayzlin, 2009).
+
+@@p@@ This distinction between communication sources is relevant because firm-created social media communication is under the management of companies, while user-generated social media communication is independent of the firm’s control (Vanden Bergh *et al.*, 2011).
+
+@@p@@ Academic researchers in the topic of firm-created social media brand communication mainly focus on WOM and eWOM studies (Balasubramanian and Mahajan, 2001; Chu and Kim, 2011). Firm-created WOM may be perceived as a fusion between traditional advertising and consumer WOM, characterized as being firm-initiated but consumer-implemented (Godes and Mayzlin, 2009). Moreover, in WOM literature, there is a consensus that online communication between customers is an influential source of information dissemination (Dellarocas *et al.*, 2007). Social media channels are a cost-effective and an alternative way for companies to access and gather consumer-to-consumer communication (Godes and Mayzlin, 2004). Although this type of social media communication is increasing in popularity, it is still considered to be a new practice among marketers (Nielsen, 2013).
+
+@@p@@ On the other hand, the Internet has empowered proactive consumer behavior (Burmann and Arnhold, 2008). User-generated social media brand communication has gained popularity among consumers as a result of the growth of online brand communities and SNS (Gangadharbatla, 2008). This type of social media communication has been referred to in literature such as vigilant marketing (Muñiz and Schau, 2007), user-generated branding (Burmann, 2010) and UGC (Daugherty *et al.*, 2008). In this study, we adopted the UGC terminology. According to the definition provided by the Organisation for Economic Co-Operation and Development (OECD, 2007), UGC is defined as the following:
+
+@@item@@ • content that is made publicly available over the Internet;
+
+@@item@@ • content that reflects a certain amount of creative effort; and
+
+@@item@@ • content created outside professional routines and practices.
+
+@@p@@ Previous studies of UGC suggested that customers participate in the process of content creation for a variety of reasons such as self-promotion, intrinsic enjoyment and hope of changing public perceptions (Berthon *et al.*, 2008). In this study, emphasis is placed on brand-related UGC, focusing on content generated by users on Facebook and its impact on brand equity metrics.
+
+@@p@@ Throughout this article, firm-created and user-generated social media communications are considered to be independent variables and are expected to positively influence brand equity metrics. A conceptual framework of our study is presented in Figure 1.
+
+@@figure@@ fig1|Figure 1. Conceptual framework
+
+@@h3@@ Consumer-based brand equity
+
+@@p@@ Brand equity is an essential concept for modern organizations, and it has been the subject of interest and academic investigation for over a decade. Despite receiving substantial attention among scholars, there is no consensus about which are the best measures to capture this multi-faceted construct (Mackay, 2001; Raggio and Leone, 2007). Part of the reason for the existence of a plurality of definitions and different approaches adopted to measure the construct from both the financial and the consumer perspectives (Christodoulides and de Chernatony, 2010). The firm-based brand equity focuses the value of a brand to the company (e.g. Simon and Sullivan, 1993), whereas the CBBE emphasizes the conceptualization and measurement on individual consumers (Leone *et al.*, 2006). Although the different approaches and research streams, there is an agreement in that brand equity denotes the added value endowed by the brand to the product (Farquhar, 1989, p. RC7).
+
+@@p@@ Two main frameworks emerge from the literature on the conceptualization of the CBBE. Keller (1993, p. 2) defines brand equity as “the differential effect of brand knowledge on consumer response to the marketing of the brand”. The conceptualization introduced by Keller focuses on brand knowledge and involves two components – brand awareness and brand image. On the other hand, Aaker (1991) provides one of the most generally accepted and comprehensive conceptualization of the phenomena. The author defines brand equity as:
+
+@@quote@@ […] a set of assets and liabilities linked to a brand, its name and symbol, that add to or subtract from the value provided by a product or service to a firm and/or that firm’s customers (p. 15).
+
+@@p@@ These assets are brand awareness, brand associations, perceived quality, brand loyalty and other proprietary assets.
+
+@@p@@ In this study, we draw on four of Aaker’s five core brand equity metrics, i.e. brand awareness, brand associations, perceived quality and brand loyalty. The fifth dimension (other proprietary brand assets) is usually omitted in brand equity research, as it is not related to the consumer’s perspective (Christodoulides and de Chernatony, 2010).
+
+@@p@@ In line with past conceptualizations and operationalizations of Aaker’s framework (e.g. Baldauf *et al.*, 2009; Gil *et al.*, 2007; Pappu *et al.*, 2006, 2007; Yasin *et al.*, 2007; Yoo and Donthu, 2001; Zeugner Roth *et al.*, 2008), we conceptualize CBBE as a multidimensional construct consisting of three reflective first-order factors: brand awareness/associations, perceived quality and brand loyalty. Differently from Arnett *et al.* (2003), who merge the three dimensions to form an overall index, we specify CBBE as a latent model. This specification is appropriate, as the CBBE dimensions inter-relate. Additionally, the use of an aggregate formative index may fail in representing an accurate explanation of the interactions among the dimensions from a measurement theory perspective (Arnett *et al.*, 2003).
+
+@@h3@@ Effects on brand awareness/associations
+
+@@p@@ Aaker (1996, p. 10) defines brand awareness as the “strength of a brand’s presence in the consumers’ mind”. In other words, brand awareness refers to a customer’s ability to recognize or recall a brand in its product category (Aaker, 1991; Pappu *et al.*, 2005). Brand associations can be understood as “whatever that consumer relates to brand. It can include consumer image-making, profile of the product, consumer’s conditions, corporate awareness, brand characteristics, signs and symbols” (Aaker and Joachimsthaler, 2000). However, empirical evidence show that brand awareness and brand associations can be combined into a particular dimension named brand awareness/associations (Yoo *et al.*, 2000).
+
+@@p@@ Communication stimuli trigger a positive effect in the customer as recipient; therefore, brand communication is positively correlated with brand equity, as long as the message leads to a satisfactory customer reaction to the product in question, compared to a similar non-branded product (Yoo *et al.*, 2000). Brand awareness with strong associations, forms a specific brand image (Yoo *et al.*, 2000). Brand associations consist of multiple ideas, episodes, instances and facts that comprise a network of brand knowledge (Yoo *et al.*, 2000). These associations are crucial to marketers and managers in brand positioning and differentiation practices, as well as creating positive attitudes toward brands (Low and Lamb, 2000). Additionally, brand associations are stronger when they are based on many experiences or exposures to communications, rather than a few (Aaker, 1991).
+
+@@p@@ Previous researches have reported that brand communication improves brand equity by increasing the probability that a brand will be incorporated into the customer’s consideration set, thus shortening the process of brand decision-making and turning that choice into a habit (Yoo *et al.*, 2000). Bruhn *et al.* (2012), in the context of social media brand communication, also noticed that perception of communication positively influences an individual’s perception of brands. A similar effect was also detected by Hutter *et al.* (2013) that found a strong correlation between the consumer’s engagement with a Facebook brand fan page and their perceptions of brand awareness. Therefore, we assume that a positive evaluation of firm-created and user-generated social media brand communication will positively influence the consumer’s perception of brand awareness/associations. Hence, we have formulated the following hypotheses:
+
+@@hyp@@ *H1a*. A positive evaluation of firm-created social media brand communication positively influences brand awareness/associations.
+
+@@hyp@@ *H1b*. A positive evaluation of user-generated social media brand communication positively influences brand awareness/associations.
+
+@@h3@@ Effects on brand loyalty
+
+@@p@@ Brand loyalty is:
+
+@@quote@@ […] a deeply held commitment to rebuy or repatronise a preferred product or service consistently in the future, despite situational influences and marketing efforts having the potential to cause switching behavior (Oliver, 1997, p. 392).
+
+@@p@@ Brand loyalty indicates the motivation to be loyal to a brand, and it is reflected when consumers select the brand as their first choice (Yoo and Donthu, 2001). In consumer preferences, brand loyalty is a significant source of advantage in many markets, as it builds up switching costs, which makes individuals reluctant to try new brands (Aaker, 1991). One of the roles of advertising is to encourage consumers to be loyal to the brands they are familiar with (Yoo and Donthu, 2001).
+
+@@p@@ Researchers have reported the effects of advertising on brand loyalty to be either positive or negative, with regards to the circumstances consumers are exposed to them. According to an extended hierarchy of effects model, Yoo *et al.* (2000) found that advertising spending is positively related to brand loyalty because it reinforces brand associations and attitudes toward the brand. Similar effects were reported by Ha *et al.* (2011), who investigated the influence of advertising spending on brand loyalty, with mediating roles played by store image, perceived quality and consumer’s satisfaction. On the other hand, evidence was found that advertising counteracts the propensities of brand loyalty toward repeat purchasing, therefore, reducing switching costs in this market (Shum, 2004).
+
+@@p@@ In the context of social media brand communication, Bruhn *et al.* (2013) noticed that the quality of peer interactions in brand communities (i.e. Facebook brand fan page) has a positive impact on functional, experiential and symbolic brand community benefits, consequently levering brand loyalty. Therefore, we expect firm-created social media brand communication to positively influence the consumer’s perception of brand loyalty. A negative impact of advertising on brand loyalty seems not to be plausible, due to the characteristics of the Facebook advertising system. The users on the SNS when clicking the option “Like” have agreed to receive the advertising from a brand page; hence, it works as a voluntary and deliberate action.
+
+@@p@@ Additionally, brand loyalty is based on customer’s interactions with the company (Palmatier *et al.*, 2007). This relationship can be a direct one or moderated by the values individuals receive from interactions with the firm. Though, we suggest that not only firm-created social media brand communication impact brand loyalty, but that also user-generated social media brand communication. Differently from firm-created social media brand communication, UGC is thought to be unbiased because other consumers adopt the message as credible and trustworthy (Christodoulides *et al.*, 2012), thus serving as a validator of a brand’s attractiveness. We assume consumers whom are exposed to UGC from other peers regarding brands with which they share a common interest, will be considered to be trustworthy and reliable, providing influence and a positive perception of the brand, thus loyalty. Hence, we postulate:
+
+@@hyp@@ *H2a*. A positive evaluation of firm-created social media brand communication positively influences brand loyalty.
+
+@@hyp@@ *H2b*. A positive evaluation of user-generated social media brand communication positively influences brand loyalty.
+
+@@h3@@ Effects on perceived quality
+
+@@p@@ Perceived quality can be defined as “the consumer’s perception of the overall quality or superiority of a product or service with respect to its intended purpose, relative to alternatives” (Aaker, 1991, p. 85). Consumers use advertising as an extrinsic cue to judge the quality of products (Rao and Monroe, 1989). Researchers also reported positive relations between perceived advertising spend and perceived quality (e.g. Kirmani and Wright, 1989; Villarejo-Ramos and Sánchez-Franco, 2005). Therefore, consumers generally perceive highly advertised brands as higher quality brands (Yoo *et al.*, 2000). In the SNS context, we assume that similarly to traditional media, consumers will associate the quality of the firm-created social media brand communication with the quality of the brand itself.
+
+@@p@@ On the other hand, user-generated social media brand communication has become an important source of information to consumers. It complements or even substitutes other forms of business-to-consumer and consumer-to-consumer about product quality (Li and Bernoff, 2011). Chevalier and Mayzlin (2006) examined effects of UGC (online product reviews) on relative sales of books at two online services. They examined factors such as offline promotion, the quality of books and the popularity of the author. Their results show that online reviews significantly affect other consumers’ perception of product quality. Riegner (2007) also indicated that online UGC are an important means whereby customers obtain information about products or service quality. Consequently, we assume that consumers will interpret UGC to be a derivative from other peer’s satisfaction of product and brand quality, therefore, influencing their own perceptions of brand quality. Based on the above discussion, we hypothesize:
+
+@@hyp@@ *H3a*. A positive evaluation of firm-created social media brand communication positively influences perceived quality.
+
+@@hyp@@ *H3b*. A positive evaluation of user-generated social media brand communication positively influences perceived quality.
+
+@@h3@@ Relationships among CBBE dimensions
+
+@@p@@ This research uses the traditional hierarchy of effects model, also known as the standard learning hierarchy (Ajzen and Fishbein, 1975, 1980) to instigate the causal order among the dimensions of CBBE. This framework represents the evolution of CBBE as a consumer learning process. The process of building brand equity begins with increasing the consumers’ awareness of the brand and consequently creating brand associations in their memories (Aaker, 1991; Yoo and Donthu, 2001). Once an individual has learned about the brand and associates it in memories to specific brand associations, the continuous contact with the brand consequently will influence the consumer’s perception of brand quality and attitudinal brand loyalty (Aaker, 1991; Yoo and Donthu, 2001). In the context of brand communication through social media, we assume that the relationship among CBBE dimensions will hold. Thus, the following hypotheses are advanced:
+
+@@hyp@@ *H4*. Brand awareness/associations positively influences brand loyalty.
+
+@@hyp@@ *H5*. Brand awareness/associations positively influences perceived quality.
+
+@@h2@@ Methodology
+
+@@h3@@ Sample and procedure
+
+@@p@@ To examine the impact of social media brand communication on CBBE metrics, three different industries were used in this study, namely, non-alcoholic beverages, clothing and mobile network providers. The industry selection was based on considerations regarding relevance and variance criteria. The industries differed in their social media engagement according to estimated expenses on social media brand communication and in the extent to which they manage social media proactively in Poland (IAB-Polska, 2013). For each industry, the respondent indicated a brand that he or she has “Liked” on Facebook. When Facebook users “Like” a page (e.g. a brand or product page), they automatically start to receive content created by its administrator and other users who also have used the option “Like” for the same page. Therefore, it is assumed that consumers have been exposed to social media communication from both companies and users from the companies they have “Liked” on the social network site.
+
+@@p@@ To collect the data, we used a standardized online survey on Facebook. The link to the survey was posted several times on brand fan pages inviting respondents to take part in the study. All the brand fan pages chosen belonged to one of the three product categories included in this study. Moreover, to qualify to the study, the brand fan pages needed to have positive scores on criteria such as the frequency of social media communication (i.e. firm-created and user-generated) on those channels – minimum of two posts per week; the firm-created social media brand communication should be perceived as advertising and generate brand benefits; and finally the brand page should have a minimum of 500 subscriptions. Brand pages that did not meet the above criteria were not included into the data set.
+
+@@p@@ The invitation to the survey informed about the topic of the study and also asked the respondents to share the post with their Facebook friends who also receive content from the same brand fan page. To ensure that the respondents distinguished between the two social media communication, we gave short examples of each type. Additionally, we controlled for brand communication bias outside of Facebook by inserting three screening questions. Those questions asked the respondents about the frequency with which they receive from the brands they have “Liked”; if they read those newsfeeds; and whether they checked what other peers post about that brand. We did not include respondents into the data set who fail to pass the screening process. In total, 331 questionnaires were collected. For the analysis, we considered only fully completed surveys, thus no data were imputed. After excluding the incomplete questionnaires, a total of 308 entries across 60 brands were further analyzed. The next procedure was the data screening and the detection of univariate outliers. During this step, six questionnaires were excluded from the analyses, resulting in a total of 302 valid questionnaires. The questionnaire was administered in Polish. To ensure that the original items were translated correctly, a back-translation process was used (Craig and Douglas, 2000).
+
+@@p@@ All questions in the survey were identical to those in the original version, except for the brand names. The majority of the items in this study were adapted from relevant literature and measured using a 7-point Likert scale, ranging from “strongly disagree” (1) to “strongly agree” (7). Brand awareness/associations were measured using a four-item scale adopted from Yoo *et al.* (2000) and Villarejo-Ramos and Sánchez-Franco (2005). Brand loyalty was measured by using three items adapted from Walsh *et al.* (2009). Perceived quality was measured by using three items adapted from Yoo *et al.* (2000). Finally, firm-created and user-generated social media communication were measured by using three items adopted from Mägi (2003), Tsiros *et al.* (2004) and Bruhn *et al.* (2012), and two new items from the authors. The complete list of items can be found in Table A1.
+
+@@p@@ The profile of the sample represented the Polish population, which are using social media frequently (Brzozowska-Woś, 2012; IAB-Polska, 2013). Females represented 56.7 per cent of respondents. The majority of the respondents were young people and their age ranged from 15 to 19 years old (23.5 per cent); 20 to 24 years old (59.7 per cent); 25 to 35 years old (15.3 per cent); and the remainders were 36 to 46 years old. Considering the level of education of the researched sample, 35.7 per cent of the respondents had at least some college education; 52.9 per cent had accomplished a high school diploma; and the remainders had a secondary school leaving certificate. The total monthly household income ranged from approximately 300 USD to approximately 810 USD to 24.3 per cent of the sample; 27.7 per cent declared to have from approximately 810 USD to approximately 1460 USD; and the remainders declared an income ranging from approximately 1460 USD and higher.
+
+@@h3@@ Measurement procedures
+
+@@p@@ We utilized reflective measurements to evaluate the conceptual model. To assure the reliability and validity of the measurements, we used Cronbach’s alpha and confirmatory factor analysis (CFA). The constructs used in our analysis yielded alpha coefficients in the range from 0.83 to 0.94. Additionally, we performed an exploratory factor analysis with maximum likelihood method and Promax rotation. A total of five factors were extracted, and 74.99 per cent of the total variance was explained. All factor loadings exceed the 0.70 level, as suggested in literature (Hair *et al.*, 2010), with the exception of item BAS2 which scored 0.63. There was no evidence of cross-loadings among the items.
+
+@@p@@ The next stage was to validate the scales used to measure the latent variables. All independent and dependent latent variables were included in one single multifactorial CFA model in AMOS 21.0 software. To establish convergent and discriminant validity, we used the following measures: composite reliability (CR), average variance extracted (AVE), maximum shared squared variance (MSV) and average shared squared variance (ASV). The CR values ranged from 0.85 to 0.94, which exceeded the recommended 0.70 threshold value (Bagozzi and Yi, 1988). The AVE of the constructs showed values higher than the acceptable value of 0.50 (Fornell and Larcker, 1981), ranging from 0.58 to 0.85. All the CR values were greater than the AVE values. The measured values for MSV and ASV were lower than the AVE values (Hair *et al.*, 2010). Reliability and validity outcomes resulting from the CFA are presented in Table I.
+
+@@table@@ I
+
+@@p@@ The CFA model yielded a good fit. The χ^{2}/df (Cmin/df) value was 1.54, the comparative fit index (CFI) value was 0.98, the Tucker–Lewis index (TLI) was 0.98, the root mean square error of approximation (RMSEA) value was 0.04; 90 per cent confidence interval (C.I.) 0.03, 0.05 and the standardized root mean square residual (SRMR) value was 0.03. All the values were within the range of the permitted threshold (Hair *et al.*, 2010).
+
+@@p@@ To test the hypothesis, we used SEM in AMOS 21.0. The model led to a good fit. The Cmin/df value was 2.53, the CFI value was 0.95, the TLI value was 0.94, the RMSEA value was 0.07; 90 per cent C.I. 0.06, 0.08 and the SRMR value was 0.07.
+
+@@h2@@ Results and implications
+
+@@h3@@ Main effects of the study
+
+@@p@@ Presented in Table II is a summary of statistics related to the estimations and test of the hypotheses. Firm-created social media brand communication showed to positively influence the brand awareness/associations, which confirmed hypotheses *H1a* (β = 0.14; *t*-value = 2.30; *p*-value = 0.02). Therefore, this type of social media communication showed no positive influence on brand loyalty and on perceived quality, thus rejecting *H2a* (β = −0.08; *t*-value = −1.40; *p*-value = 0.15) and *H3a* (β = −0.03; *t*-value = −0.50; *p*-value = 0.61). User-generated social media brand communication on Facebook had a positive effect on the three dimensions of brand equity, brand awareness/associations, brand loyalty and perceived quality, which supported *H1b* (β = 0.12; *t*-value = 1.93; *p*-value = 0.05), *H2b* (β = 0.24; *t*-value = 3.94; *p*-value = 0.001) and *H3b* (β = 0.26; *t*-value = 4.19; *p*-value = 0.001).
+
+@@table@@ II
+
+@@p@@ Finally, brand awareness/association showed to positively influence brand loyalty and perceived quality, which supported *H4* (β = 0.13; *t*-value = 2.11; *p*-value = 0.03) and *H5* (β = 0.22; *t*-value = 3.45; *p*-value = 0.001). Figure 2 presents the parameter estimates for the final structural model.
+
+@@figure@@ fig2|Figure 2. Parameter estimates for final structural model. Notes: * < 0.05; ** < 0.01; *** < 0.001
+
+@@h3@@ Results of the industry comparison
+
+@@p@@ To test for significant differences between social media communication across the three industries under study (i.e. non-alcoholic beverages, clothing and mobile network providers), we applied the CRDIFF. We preferred the CRDIFF method over the traditional χ^{2} difference test (Δχ^{2}) for the following reasons:
+
+@@item@@ • the Δχ^{2} test yields only differences of parameters of models without showing the estimate sizes; and
+
+@@item@@ • the CRDIFF method presents both the unstandardized and standardized estimates with two-tailed confidence intervals.
+
+@@p@@ Therefore, to achieve the objectives of this study, we have agreed that pairwise parameter comparisons would better explain the phenomena than the test for the invariance of a causal structure.
+
+@@p@@ The model used for the CRDIFF analysis is the same as that shown in Figure 2, with the difference that the paths from firm-created social media brand communication to brand loyalty and to perceived quality were removed from the analysis, therefore, leaving only the statistically significant structural paths under investigation. The next step before proceeding with the analysis was to split the samples according to the industry types, consequently resulting in sample A (non-alcoholic beverages industry; *n* = 99), sample B (clothing industry; *n* = 99) and sample C (mobile network providers industry; *n* = 104). The multi-group analysis was executed with AMOS 21.0 using ML estimation method and the Emulisrel6 option. Of major interest in testing for multi-group differences are the goodness-of-fit statistics. The multi-group model led to a good fit. The Cmin/df value was 1.75, the CFI value was 0.93, the TLI value was 0.92, the RMSEA value was 0.05; 90 per cent C.I. 0.04, 0.05 and the SRMR value was 0.07.
+
+@@p@@ A summary of the findings are presented in Table III. Concerning the effects of social media brand communication on brand equity metrics, we tested four paths. The test of the FC → BAW/BAS path yielded stronger effects to the non-alcoholic beverages industry (β = 0.31; *p*-value = 0.003) in comparison with the mobile network providers industry (β = 0.23; *p*-value = 0.026; *z*-value = −0.377). Firm-created social media brand communication showed no significant effect on brand awareness/associations for the clothing industry (*p*-value = 0.435). The second path to be tested was UG → BAW/BAS. This path showed to be significant only to the clothing industry (β = 0.19; *p*-value = 0.090). User-generated social media brand communication yielded no significant effects on brand awareness/associations for the non-alcoholic beverages industry (*p*-value = 0.843) and for the mobile network operators (*p*-value = 0.996). The third path to be tested was UG → BL. User-generated social media brand communication showed to have a stronger effect on brand loyalty to the non-alcoholic beverages industry (β = 0.26; *p*-value = 0.011) compared to the mobile network providers industry (β = 0.18; *p*-value = 0.079; *z*-value = −0.644). This effect also was not detected for the clothing industry (*p*-value = 0.142). The fourth path was UG → PQ. The effect of user-generated social media communication on perceived quality showed to be very strong to the mobile network providers industry (β = 0.51; *p*-value = 0.001); however, it was not statistically significant for the non-alcoholic beverages industry (*p*-value = 0.162), nor for the clothing industry (*p*-value = 0.488).
+
+@@table@@ III
+
+@@p@@ Concerning the relationships among CBBE dimensions, we analyzed two paths. The test of BAW/BAS → PQ path yielded stronger effects to the non-alcoholic beverages industry (β = 0.47; *p*-value = 0.001) in comparison with the clothing industry (β = 0.20; *p*-value = 0.078; *z*-value = −1.944). No correlations between brand awareness/ associations and perceived quality were detected for the mobile network provider industry (*p*-value = 0.338). Finally, the test of BAW/BAS → BL path showed to be statistically significant only for the clothing industry (β = 0.19; *p*-value = 0.070). The structural path between brand awareness/associations and brand loyalty was not statistically significant for the non-alcoholic beverages industry (*p*-value = 0.152) and for the mobile network providers industry (*p*-value = 0.319).
+
+@@h2@@ Summary and discussion
+
+@@p@@ Marketers have included SNSs in their media channel considerations. Web 2.0 and social media tools allow marketing managers to have deeper interactions with consumers in ways that previous media could not deliver. However, due to the short period of time in researches and the fast changing technologies, the effects of social media communication on brands is not fully comprehended. This study offers important contributions to current body of literature on the topic of social media brand communication. Our findings provide conceptual insights into how different types of social media brand communication foster CBBE metrics while also investigating industry-specific differences.
+
+@@p@@ The examination of the impact of social media communication on CBBE constructs demonstrates that firm-created social media brand communication influences only brand awareness/associations (β = 0.14). Despite the growing expenditures in social media marketing, consumers are reluctant to internalize the value that firms are creating. This type of social media communication showed not to directly influence brand loyalty and perceived quality. In contrast, user-generated social media brand communication positively influences brand awareness/associations (β = 0.12), brand loyalty (β = 0.24) and perceived quality (β = 0.26). The positive evaluation of this type of communication is captured by consumers to be trustworthy and reliable, therefore, diminishing their prospect of brand-switching behavior. Our results also demonstrate that consumers rely heavily on the opinions of family, friends and other users regarding the quality of the services provided by these firms. Another relevant aspect of these findings is the source of credibility. The distinction between firm-created and user-generated social media brand communication reveals that consumers consciously differentiate between these sources of information, thereby confirming the findings of Bruhn *et al.* (2012).
+
+@@p@@ We added the relationships among CBBE dimensions to the conceptual model. Deriving from the effects of social media brand communication on brand awareness/ associations (FC → BAW/BAS: β = 0.14 and UG → BAW/BAS: β = 0.12), it is noticeable that the increase of brand associations/awareness impacts both the brand loyalty (β = 0.13) and perceived quality (β = 0.22). These findings confirm that the relationships among CBBE dimensions hold in the context of brand communication through social media, hence strengthening the framework that represents the evolution of CBBE as a consumer learning process (Aaker, 1991; Yoo and Donthu, 2001). In this context, it is recommended that companies to give continuity to their social media advertising, while encouraging consumers to engage into the creation of brand-related content.
+
+@@p@@ Another relevant contribution of our research is the juxtaposition concerning the effects of social media brand communication on CBBE metrics in different industries. We used the CRDIFF to show the differences in the effects of social media brand communication across the non-alcoholic beverages, clothing and mobile network providers industries. Differences across the industries were detected, as consumers do not evaluate brands from different industries and product categories in the same manner (Burmann and Arnhold, 2008). Therefore, social media brand communication should be implemented and tailored according to industry specifics.
+
+@@p@@ The results show that consumers of non-alcoholic beverages brands are stimulated by social media brand communication from both the firm and peers. Here, firm-created social media brand communication is perceived as advertising and generate brand awareness and positive associations (β = 0.31). This effect results of the most common social media communication strategy explored by the brands of this industry, i.e. to build brand awareness and positive brand associations by intensively working on a combination of images and texts that emphasize and reinforce the psychological aspects of consuming the product/brand and its benefits. Additionally, UGC impacted the consumers’ perception of brand loyalty (β = 0.26). Brands such as Coca-Cola, Pepsi and Starbucks engage consumers to constantly create brand-related content and interact with the brand. One can point out the numerous Facebook users who openly declare their preference on the brand’s Facebook profile (e.g. “I love Coca-Cola”, “I can’t live in a world without Pepsi” or “Starbucks rocks!”). Considering the relationships among CBBE dimensions for the non-alcoholic beverages brands, brand awareness/ associations affected only perceived quality (β = 0.44). It should be noticed that there were no direct effects found between social media brand communication and perceived quality; however, firm-created social media brand communication influences brand awareness/associations, which subsequently affects the consumer’s perceptions of brand quality. Bearing in mind the results outlined above, a good social media brand communication practice for this industry is to focus on firm-created communication such as creative and visually appealing advertising such as pictures and videos to increase the consumers brand awareness and associations, while heavily investing on psychological gratifications for valuable user-generated communication (e.g. liking and commenting content, and reposting and sharing content), which subsequently influence brand loyalty.
+
+@@p@@ In the clothing industry, social media brand communication does not impact CBBE metrics, with the exception of the effects of user-generated social media brand communication on brand awareness/associations (β = 0.19). These findings can be explained by exploring in more detail the most common strategies used by brands of this industry. Most of the brands belonging to the clothing industry use social media to provide information about new products and seasonal trends. In addition, practitioners use their Facebook brand profiles to spawn sales promotions (e.g. coupons and discounts) among consumers. As evidenced in our results, this social media brand communication technique should be improved and adapted to directly build brand awareness/associations. A close look to the findings for relationships among CBBE dimensions reveals that brand awareness/associations drive both the perceived quality (β = 0.20) and brand loyalty (β = 0.19). Drawing from these findings, marketers from the clothing industry should consider a different approach to their social media brand communication. We suggest practitioners to apply similar advertisement techniques as used in magazines and television, such as attractive illustrations and videos that emphasize the brand as a part of the individual’s lifestyle and personality. Such an advertising approach may influence brand associations, therefore, increasing the consumers’ perceptions of quality and brand loyalty.
+
+@@p@@ Finally, in the mobile network provider industry, firm-created social media brand communication positively impacted brand awareness/association (β = 0.23). On the other hand, user-generated social media brand communication influenced both the brand loyalty (β = 0.18) and perceived quality (β = 0.51). It is important to notice, that brand awareness/associations neither affected the perceived quality nor the brand loyalty. Based upon these findings, practitioners belonging to this sector should take a different approach than the previous industries. As a characteristic of this industry, consumers are buying mainly medium- and long-term services, thus UGC plays a distinguishing role in their perception of brand equity metrics. Here, marketers should emphasize the creation of positive brand-related social media content by their clients. Focus should be placed on the advantages that a mobile network provider brand offers to their clients and to communication tactics that enhance the role of the consumer in the creation of brand-related content. Additionally, marketers should stimulate UGC by promoting exclusive SNS campaigns (i.e. discounts, raffles of tickets to the movies and theater, VIP tickets for concerts and mass events) that require users to directly engage with the fan page and other consumers.
+
+@@p@@ In summary, social media platforms provide unlimited ways for consumers to interact, express, share and create content about brands and products. Thus, the joint implementation of firm-created and user-generated social media brand communication offer numerous opportunities for increasing brand equity metrics. Brand managers should incorporate social media brand communication as part of their marketing communication agenda. Practitioners must recognize that SNSs are an essential aspect of the Internet, and many consumers use them in their daily routines. SNS offer firms the opportunity to engage with consumers and even to influence their conversations (Amichai-Hamburger, 2008). Furthermore, practitioners should integrate the findings of this study into their social media strategies to enhance the performance of their brands.
+
+@@p@@ There are some limitations of our study that can provide guidelines for future research. We suggest that all leading SNSs be analyzed to gain a broader understanding of social media communication, as they differs across channels (Smith *et al.*, 2012). This type of analysis would provide scholars and practitioners a better understanding of the nuances of social media communication.
+
+@@p@@ Moreover, a broader range of industries should be examined in future studies. This type of research would give an indication of how consumers perceive brands of different industries in social media platforms. For a broader understanding of the benefits that social media brand communication can have on brand equity, future research should also relate social media brand communication to company financial performance indicators.
+
+@@p@@ Further research could also benefit from the implementation of Keller’s CBBE framework (Keller, 1993, 2009). For this research, we recommend measuring brand knowledge as a second-order factor consisting of brand awareness and brand image. Additionally, one should consider controlling for the effects or differences in brand equity across brands. The outcomes of such research may contribute to advance knowledge on the topic of social media brand communication, while giving a different perspective on how it influences the CBBE.
+
+@@p@@ Other aspects of user-generated social media brand communication could also be studied in further researches. A typology of the Internet users as prosumers (Toffler, 1980), lead users (von Hippel, 1986) and open source (von Krogh and von Hippel, 2006) should be controlled to demonstrate the level of consumers involved with brand-related UGC.
+
+@@p@@ Additionally, we used small number of items to measure each construct of the structural model presented in this article. Researchers should consider the addition of items in the measurement model when replicating this study. Finally, a Polish sample was used in this research, making it difficult to generalize the results to other countries. The majority of social media users in Poland are still young people; therefore, one should take social, economic and cultural differences into account when replicating this study. Future research in this field should be conducted in different countries to a produce a stronger validation and generalization of the findings.
+
+@@h2@@ References
+
+@@ref@@ Aaker, D.A. (1991), *Managing Brand Equity: Capitalizing on the Value of a Brand Name*, The Free Press, New York, NY.
+
+@@ref@@ Aaker, D.A. (1996), “Measuring brand equity across products and markets”, *CA Management Review*, Vol. 38 No. 3, pp. 102-120.
+
+@@ref@@ Aaker, D.A. and Joachimsthaler, E. (2000), *Brand Leadership, Building Assets in the*, Free Press, New York, NY.
+
+@@ref@@ Ajzen, I. and Fishbein, M. (1975), *Belief, Attitude, Intention and Behavior: An Introduction to Theory and Research*, Addison-Wesley, Reading, MA.
+
+@@ref@@ Ajzen, I. and Fishbein, M. (1980), *Understanding Attitudes and Predicting Social Behaviour*, Prentice Hall, Englewood Cliffs, NJ.
+
+@@ref@@ Algesheimer, R., Dholakia, U.M. and Herrmann, A. (2005), “The social influence of brand community: evidence from European car clubs”, *Journal of Marketing*, Vol. 69 No. 3, pp. 19-34.
+
+@@ref@@ Amichai-Hamburger, Y. (2008), “Internet empowerment”, *Computers in Human Behavior*, Vol. 24 No. 5, pp. 1773-1775.
+
+@@ref@@ Arnett, D.B., Laverie, D.A. and Meiers, A. (2003), “Developing parsimonious retailer equity indexes using partial least squares analysis: a method and applications”, *Journal of Retailing*, Vol. 79 No. 3, pp. 161-170.
+
+@@ref@@ Bagozzi, R.P. and Yi, Y. (1988), “On the evaluation of structural equation models”, *Journal of the Academy of Marketing Science*, Vol. 16 No. 1, pp. 74-94.
+
+@@ref@@ Balasubramanian, S. and Mahajan, V. (2001), “The economic leverage of the virtual community”, *International Journal of Electronic Commerce*, Vol. 5 No. 3, pp. 103-138.
+
+@@ref@@ Baldauf, A., Cravens, K.S., Diamantopoulos, A. and Zeugner-Roth, K.P. (2009), “The impact of product-country image and marketing efforts on retailer-perceived brand equity: an empirical analysis”, *Journal of Retailing*, Vol. 85 No. 4, pp. 437-452.
+
+@@ref@@ Bambauer-Sachse, S. and Mangold, S. (2011), “Brand equity dilution through negative online word-of-mouth communication”, *Journal of Retailing and Consumer Services*, Elsevier, Vol. 18 No. 1, pp. 38-45.
+
+@@ref@@ Berthon, P.R., Pitt, L. and Campbell, C. (2008), “Ad lib: when customers create the ad”, *CA Management Review*, Vol. 50 No. 4, pp. 6-31.
+
+@@ref@@ Berthon, P.R., Pitt, L.F., Plangger, K. and Shapiro, D. (2012), “Marketing meets Web 2.0, social media, and creative consumers: implications for international marketing strategy”, *Business Horizons*, Vol. 55 No. 3, pp. 261-271.
+
+@@ref@@ Brodie, R.J., Ilic, A., Juric, B. and Hollebeek, L. (2013), “Consumer engagement in a virtual brand community: an exploratory analysis”, *Journal of Business Research*, Vol. 66 No. 8, pp. 105-114.
+
+@@ref@@ Bruhn, M., Schoenmueller, V. and Schäfer, D.B. (2012), “Are social media replacing traditional media in terms of brand equity creation?”, *Management Research Review*, Vol. 35 No. 9, pp. 770-790.
+
+@@ref@@ Bruhn, M., Schnebelen, S. and Schäfer, D. (2013), “Antecedents and consequences of the quality of e-customer-to-customer interactions in B2B brand communities”, *Industrial Marketing Management, Elsevier B.V.*, Vol. 43 No. 1.
+
+@@ref@@ Brzozowska-Woś, M. (2012), “Media społecznościowe a wizerunek marki”, *Journal of Management and Finance*, Vol. 11 Nos 1/1, pp. 53-64.
+
+@@ref@@ Burmann, C. (2010), “A call for ‘user-generated branding’”, *Journal of Brand Management*, Vol. 18 No. 1, pp. 1-4.
+
+@@ref@@ Burmann, C. and Arnhold, U. (2008), *User Generated Branding: State of the Art of Research*, LIT Verlag, Munster, DE.
+
+@@ref@@ Chen, S.C., Yen, D.C. and Hwang, M.I. (2012), “Factors influencing the continuance intention to the usage of Web 2.0: an empirical study”, *Computers in Human Behavior*, Vol. 28 No. 3, pp. 933-941.
+
+@@ref@@ Chevalier, J. and Mayzlin, D. (2006), “The effect of word of mouth on sales: online book reviews”, *Journal of Marketing Research*, Vol. 43 No. 3, pp. 345-354.
+
+@@ref@@ Christodoulides, G. and de Chernatony, L. (2010), “Consumer-based brand equity conceptualisation and measurement: a literature review”, *International Journal of Market Research*, Vol. 52 No. 1, pp. 43-65.
+
+@@ref@@ Christodoulides, G., Jevons, C. and Bonhomme, J. (2012), “Memo to marketers: quantitative evidence for change: how user-generated content really affects brands”, *Journal of Advertising Research*, Vol. 52 No. 1, pp. 53-64.
+
+@@ref@@ Chu, S.C. and Kim, Y. (2011), “Determinants of consumer engagement in electronic word-of-mouth (eWOM) in social networking sites”, *International Journal of Advertising*, Vol. 30 No. 1, pp. 47-75.
+
+@@ref@@ Craig, C. and Douglas, S. (2000), *International Marketing Research*, 2nd ed, John Wiley & Sons, Chichester.
+
+@@ref@@ Daugherty, T., Eastin, M. and Bright, L. (2008), “Exploring consumer motivations for creating user-generated content”, *Journal of Interactive Advertising*, Vol. 8 No. 2, pp. 16-25.
+
+@@ref@@ Dellarocas, C., Zhang, X. and Awad, N.F. (2007), “Exploring the value of online product reviews in forecasting sales: the case of motion pictures”, *Journal of Interactive Marketing*, Elsevier, Vol. 21 No. 4, pp. 23-45.
+
+@@ref@@ Facebook (2013), “Facebook annual report”, pp. 3-91.
+
+@@ref@@ Farquhar, P.H. (1989), “Managing brand equity”, *Marketing Research*, Vol. 1 No. 3, pp. 24-33.
+
+@@ref@@ Fornell, C. and Larcker, D. (1981), “Evaluating structural equation models with unobservable variables and measurement error”, *Journal of Marketing Research*, Vol. 18 No. 1, pp. 39-50.
+
+@@ref@@ Gangadharbatla, H. (2008), “Facebook me: collective self-esteem, need to belong, and internet self-efficacy as predictors of the iGeneration’s attitudes toward social networking sites”, *Journal of Interactive Advertising*, Vol. 8 No. 2, pp. 3-28.
+
+@@ref@@ Gil, R.B., Andrés, E.F. and Salinas, E.M. (2007), “Family as a source of consumer-based brand equity”, *Journal of Product & Brand Management*, Vol. 16 No. 3, pp. 188-199.
+
+@@ref@@ Godes, D. and Mayzlin, D. (2004), “Using online conversations to study word-of-mouth communication”, *Marketing Science*, Vol. 23 No. 4, pp. 545-560.
+
+@@ref@@ Godes, D. and Mayzlin, D. (2009), “Firm-created word-of-mouth communication: evidence from a field test”, *Marketing Science*, Vol. 28 No. 4, pp. 721-739.
+
+@@ref@@ Ha, H.Y., John, J., Janda, S. and Muthaly, S. (2011), “The effects of advertising spending on brand loyalty in services”, *European Journal of Marketing*, Vol. 45 No. 4, pp. 673-691.
+
+@@ref@@ Hair, J.F. Jr., Black, Wi.C., Babin, B.J. and Anderson, R.E. (2010), *Multivariate Data Analysis: A Global Perspective, Vectors*, 7th Ed, Pearson Prentice Hall, Upper Saddle River, NJ.
+
+@@ref@@ Hutter, K., Hautz, J., Dennhardt, S. and Füller, J. (2013), “The impact of user interactions in social media on brand awareness and purchase intention: the case of MINI on Facebook”, *Journal of Product & Brand Management*, Vol. 22 No. 5, pp. 342-351.
+
+@@ref@@ IAB-Polska (2013), “E-konsumenci consumer journey online: wpływ internetu na proces zakupowy produktów i usług”, No. 8, Warsaw, pp. 2-36.
+
+@@ref@@ Internet World Stats (2013), “World internet users statistics usage and world population stats”, available at: www.internetworldstats.com/stats.htm
+
+@@ref@@ Kaplan, A.M. and Haenlein, M. (2010), “Users of the world, unite! The challenges and opportunities of social media”, *Business Horizons*, Vol. 53 No. 1, pp. 59-68.
+
+@@ref@@ Kaplan, A.M. and Haenlein, M. (2012), “The britney spears universe: social media and viral marketing at its best”, *Business Horizons*, Vol. 55 No. 1, pp. 27-31.
+
+@@ref@@ Karakaya, F. and Barnes, N.G. (2010), “Impact of online reviews of customer care experience on brand or company selection”, *Journal of Consumer Marketing*, Vol. 27 No. 5, pp. 447-457.
+
+@@ref@@ Keller, K.L. (1993), “Conceptualizing, measuring, and managing customer-based brand equity”, *Journal of Marketing*, Vol. 57 No. 1, pp. 1-22.
+
+@@ref@@ Keller, K.L. (2009), “Building strong brands in a modern marketing communications environment”, *Journal of Marketing Communications*, Vol. 15 No. 2-3, pp. 139-155.
+
+@@ref@@ Kirmani, A. and Wright, P. (1989), “Money talks: perceived advertising expense and expected product quality”, *Journal of Consumer Research*, Vol. 16 No. 3, pp. 344-353.
+
+@@ref@@ Leone, R.P., Rao, V.R., Keller, K.L., Luo, A.M., McAlister, L. and Srivastava, R. (2006), “Linking brand equity to customer equity”, *Journal of Service Research*, Vol. 9 No. 2, pp. 125-138.
+
+@@ref@@ Li, C. and Bernoff, J. (2011), *Groundswell: Winning in a World Transformed by Social Technologies*, Harvard Business Review Press, Boston, M.A.
+
+@@ref@@ Low, G. and Lamb, C. Jr. (2000), “The measurement and dimensionality of brand associations”, *Journal of Product & Brand Management*, Vol. 9 No. 6, pp. 350-370.
+
+@@ref@@ Mackay, M.M. (2001), “Evaluation of brand equity measures: further empirical results”, *Journal of Product & Brand Management*, Vol. 10 No. 1, pp. 38-51.
+
+@@ref@@ Mägi, A.W. (2003), “Share of wallet in retailing: the effects of customer satisfaction, loyalty cards and shopper characteristics”, *Journal of Retailing*, Vol. 79 No. 2, pp. 97-106.
+
+@@ref@@ Muñiz, A.M. and Schau, H.J. (2007), “Vigilante marketing and consumer-created communications”, *Journal of Advertising*, Vol. 36 No. 3, pp. 35-50.
+
+@@ref@@ Nielsen (2013), “Paid social media advertising: industry update and best practices”, available at: www.nielsen.com/content/dam/corporate/us/en/reports-downloads/2013Reports/Nielsen-Paid-Social-Media-Adv-Report-2013.pdf
+
+@@ref@@ OECD (2007), “Participative web and user-created content: Web 2.0 wikis and social networking”, Organisation for Economic Co-operation and Development, Paris, available at: http://dl.acm.org/citation.cfm?id=1554640
+
+@@ref@@ Oliver, R. (1997), *Satisfaction: A Behavioral Perspective on the Consumer*, McGraw-Hill, New York, NY.
+
+@@ref@@ Palmatier, R.W., Scheer, L.K. and Stennkamp, J.B.E.M. (2007), “Customer loyalty to whom? Managing the benefits and risks of salesperson-owned loyalty”, *Journal of Marketing Research*, Vol. 44 No. 2, pp. 185-199.
+
+@@ref@@ Pappu, R., Quester, P.G. and Cooksey, R.W. (2005), “Consumer-based brand equity: improving the measurement – empirical evidence”, *Journal of Product & Brand Management*, Vol. 14 No. 3, pp. 143-154.
+
+@@ref@@ Pappu, R., Quester, P.G. and Cooksey, R.W. (2006), “Consumer-based brand equity and country-of-origin relationships: some empirical evidence”, *European Journal of Marketing*, Vol. 40 Nos 5/6, pp. 696-717.
+
+@@ref@@ Pappu, R., Quester, P.G. and Cooksey, R.W. (2007), “Country image and consumer-based brand equity: relationships and implications for international marketing”, *Journal of International Business Studies*, Vol. 38 No. 5, pp. 726-745.
+
+@@ref@@ Raggio, R.D. and Leone, R.P. (2007), “The theoretical separation of brand equity and brand value: managerial implications for strategic planning”, *Journal of Brand Management*, Vol. 14 No. 5, pp. 380-395.
+
+@@ref@@ Rao, A.R. and Monroe, K.B. (1989), “The effect of price, brand name, and store name on buyers’ perceptions of product quality: an integrative review”, *Journal of Marketing Research*, Vol. 36 No. 2, pp. 351-358.
+
+@@ref@@ Riegner, C. (2007), “Word of mouth on the web: the impact of Web 2.0 on consumer purchase decisions”, *Journal of Advertising Research*, Vol. 47 No. 4, pp. 436-447.
+
+@@ref@@ Shum, M. (2004), “Does advertising overcome brand loyalty? Evidence from the breakfast-cereals market”, *Journal of Economics & Management Strategy*, Vol. 13 No. 2, pp. 241-272.
+
+@@ref@@ Simon, C.J. and Sullivan, M.W. (1993), “The measurement and determinants of brand equity: a financial approach”, *Marketing Science*, Vol. 12 No. 1, pp. 28-52.
+
+@@ref@@ Smith, A.N., Fischer, E. and Yongjian, C. (2012), “How does brand-related user-generated content differ across YouTube, Facebook, and Twitter?”, *Journal of Interactive Marketing*, Vol. 26 No. 2, pp. 102-113.
+
+@@ref@@ Toffler, A. (1980), *The Third Wave*, Morrow, New York, NY.
+
+@@ref@@ Tsiros, M., Mittal, V. and Ross, W.T. Jr. (2004), “The role of attributions in customer satisfaction: a reexamination”, *Journal of Consumer Research*, Vol. 31 No. 2, pp. 476-483.
+
+@@ref@@ Vanden Bergh, B.G., Lee, M., Quilliam, E.T. and Hove, T. (2011), “The multidimensional nature and brand impact of user-generated ad parodies in social media”, *International Journal of Advertising*, Vol. 30 No. 1, pp. 103-131.
+
+@@ref@@ Villarejo-Ramos, A.F. and Sánchez-Franco, M.J. (2005), “The impact of marketing communication and price promotion on brand equity”, *Journal of Brand Management*, Vol. 12 No. 6, pp. 431-444.
+
+@@ref@@ Von Hippel, E. (1986), “Lead users: a source of novel product concepts”, *Management Science*, Vol. 32 No. 7, pp. 791-805.
+
+@@ref@@ Von Krogh, G. and von Hippel, E. (2006), “The promise of research on open source software”, *Management Science*, Vol. 52 No. 7, pp. 975-983.
+
+@@ref@@ Walsh, G., Mitchell, V.-W., Jackson, P.R. and Beatty, S.E. (2009), “Examining the antecedents and consequences of corporate reputation: a customer perspective”, *British Journal of Management*, Vol. 20 No. 2, pp. 187-203.
+
+@@ref@@ Wang, W.T. and Li, H.M. (2012), “Factors influencing mobile services adoption: a brand-equity perspective”, *Internet Research*, Vol. 22 No. 2, pp. 142-179.
+
+@@ref@@ Winer, R.S. (2009), “New communications approaches in marketing: issues and research directions”, *Journal of Interactive Marketing*, Vol. 23 No. 2, pp. 108-117.
+
+@@ref@@ Yasin, N., Noor, M. and Mohamad, O. (2007), “Does image of country-of-origin matter to brand equity?”, *Journal of Product & Brand Management*, Vol. 16 No. 1, pp. 38-48.
+
+@@ref@@ Yoo, B. and Donthu, N. (2001), “Developing and validating a multidimensional consumer-based brand equity scale”, *Journal of Business Research*, Vol. 52 No. 1, pp. 1-14.
+
+@@ref@@ Yoo, B., Donthu, N. and Lee, S. (2000), “An examination of selected marketing mix elements and brand equity”, *Journal of the Academy of Marketing Science*, Vol. 28 No. 2, pp. 195-211.
+
+@@ref@@ Zeugner Roth, K.P., Diamantopoulos, A. and Montesinos, M.Á. (2008), “Home country image, country brand equity and consumers’ product preferences: an empirical study”, *Management International Review*, Vol. 48 No. 5, pp. 577-602.
+
+@@h2@@ Further reading
+
+@@ref@@ Mangold, W.G. and Faulds, D.J. (2009), “Social media: the new hybrid element of the promotion mix”, *Business Horizons*, Vol. 52 No. 4, pp. 357-365.
+
+@@pagebreak@@
+
+@@h2@@ Appendix
+
+@@table@@ AI
+
+@@h2@@ About the authors
+
+@@about@@ Bruno Schivinski is a Sociologist and a Research Associate at the Gdansk University of Technology. He graduated from Maria Curie-Skłodowska University with a BS in management and marketing. He also has a Master’s degree in sociology with a concentration in marketing research. He is an Internet professional with more than 13 years of experience. He has attracted funding from prestigious external organizations, including the Ministry of Science and Higher Education (MNiSW) and the National Science Centre (NCN) in Poland. His research has been published in leading marketing journals in Poland and abroad and various conference proceedings. Bruno Schivinski is the corresponding author.
+
+@@about@@ Dariusz Dabrowski is a Marketing and Research Professor. He is the chair of the Marketing Department at the Faculty of Management and Economics at the Gdansk University of Technology. His research focuses on consumer behavior, marketing relations and the development of new products. He is the author of published books, he regularly presents research at conferences and he has published more than 70 articles and other publications. He has received awards for his research and has worked on research funded by the Ministry of Science and Higher Education (MNiSW) and the National Science Centre (NCN) in Poland. His work has appeared in leading management and marketing journals and other scholarly venues.

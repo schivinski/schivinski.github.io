@@ -1,0 +1,30 @@
+TITLE:    SMBC: five-factor CFA and structural model
+! Please cite: Schivinski & Dabrowski (2015),
+! Journal of Research in Interactive Marketing 9(1), 31-53.
+! https://doi.org/10.1108/JRIM-02-2014-0007   Materials: schivinski.github.io
+
+DATA:     FILE = smbc.dat;          ! replace with your data file
+
+VARIABLE: NAMES = fc1-fc4 ug1-ug4 bas1-bas4 bl1-bl3 pq1-pq3;
+          USEVARIABLES = fc1-fc4 ug1-ug4 bas1-bas4 bl1-bl3 pq1-pq3;
+          MISSING = ALL (-99);
+
+ANALYSIS: ESTIMATOR = ML;           ! maximum likelihood, as in the article
+
+MODEL:
+  FC BY fc1-fc4;
+  UG BY ug1-ug4;
+  BAW BY bas1-bas4;
+  BL BY bl1-bl3;
+  PQ BY pq1-pq3;
+
+          ! Structural model (Figure 2): remove the "!" below
+          ! BAW ON FC UG;
+          ! BL ON FC UG BAW;
+          ! PQ ON FC UG BAW;
+
+OUTPUT:   STANDARDIZED MODINDICES;
+
+! Industry comparison (Table III): add the grouping variable, e.g.
+!   GROUPING = industry (1 = beverages 2 = clothing 3 = mobile);
+! and compare labelled paths with MODEL TEST or MODEL CONSTRAINT.

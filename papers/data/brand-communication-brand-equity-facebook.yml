@@ -1,0 +1,428 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Research in Interactive Marketing 9(1), 31-53 (PDF supplied by Bruno, 10 Oct 2026)
+# Status: draft (set to "locked" once Bruno approves every statement)
+status: draft
+
+title: "The impact of brand communication on brand equity through Facebook"
+doi: "10.1108/JRIM-02-2014-0007"
+journal: "Journal of Research in Interactive Marketing"
+issn: "2040-7122"
+publisher: "Emerald Group Publishing"
+volume: "9"
+issue: "1"
+pages: "31–53"
+published: "2015-03"
+published_label: "March 2015"
+online: "2015-03-09"
+open_access: false
+
+aam:
+  file: "schivinski-dabrowski-2015-jrim-accepted-manuscript.pdf"
+  statement: >-
+    This author accepted manuscript is deposited under a Creative Commons Attribution Non-commercial 4.0
+    International (CC BY-NC) licence. This means that anyone may distribute, adapt, and build upon the work for
+    non-commercial purposes, subject to full attribution. If you wish to use this manuscript for commercial purposes,
+    please contact permissions@emerald.com. Published version: Journal of Research in Interactive Marketing, 9(1),
+    31–53, Emerald Group Publishing, https://doi.org/10.1108/JRIM-02-2014-0007
+
+authors:
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Gdansk University of Technology"]
+    me: true
+  - given: "Dariusz"
+    family: "Dabrowski"
+    affiliation: ["Gdansk University of Technology"]
+
+cite_short: "Schivinski & Dabrowski, 2015"
+badges: ["302 Facebook users", "60 brands, 3 industries", "Structural equation modelling", "Poland"]
+keywords:
+  # Article's own keywords
+  - social media marketing
+  - Facebook
+  - social networking sites
+  - structural equation modelling
+  - marketing communication
+  - brand equity
+  # What the paper is about
+  - firm-created social media communication
+  - user-generated content (UGC)
+  - brand-related user-generated content
+  - social media brand communication
+  - brand fan pages
+  - electronic word-of-mouth (eWOM)
+  - consumer-based brand equity (CBBE)
+  - brand awareness
+  - brand associations
+  - brand loyalty
+  - perceived quality
+  # Theory
+  - Aaker brand equity model
+  - hierarchy of effects
+  - consumer learning hierarchy
+  - advertising effects on brand equity
+  # Method
+  - online survey
+  - confirmatory factor analysis
+  - multi-group analysis
+  - critical ratio difference test (CRDIFF)
+  - AMOS
+  # Context
+  - Poland
+  - non-alcoholic beverages
+  - clothing brands
+  - mobile network providers
+  - industry differences
+  # Application
+  - social media strategy
+  - brand management
+  - digital marketing
+  - content marketing
+
+in_brief: >-
+  In a survey of 302 Polish Facebook users who had “Liked” 60 brands in three industries, content that other users post
+  about a brand raised brand awareness and associations, brand loyalty and perceived quality, while content the brand
+  posts itself raised only awareness and associations. The effects differed between non-alcoholic beverages, clothing and
+  mobile network providers.
+
+scale:
+  name: "Social media brand communication and brand equity measures"
+  short: "SMBC"
+  section_title: "Use the measures"
+  file_stem: "smbc"
+  summary: >-
+    The full set of measures used in the article: firm-created and user-generated social media brand communication
+    (four items each), brand awareness/associations (four items), brand loyalty (three items) and perceived quality
+    (three items), 18 items in total. Respondents name a brand they follow on Facebook and answer on a seven-point
+    agreement scale. Free to use in research and practice; please cite the article.
+  facts:
+    - { label: "Items", value: "18 in five constructs: firm-created (4) and user-generated (4) social media communication, brand awareness/associations (4), brand loyalty (3), perceived quality (3)" }
+    - { label: "Response format", value: "7-point Likert scale from 1 = strongly disagree to 7 = strongly agree" }
+    - { label: "Scoring", value: "Mean of the items in each construct (range 1–7)" }
+    - { label: "Reliability", value: "Cronbach’s α = 0.84 to 0.95; composite reliability = 0.85 to 0.95; AVE = 0.59 to 0.86" }
+    - { label: "Validated with", value: "302 Facebook users in Poland, 60 brands in three industries" }
+  response_labels: ["Strongly disagree", "", "", "", "", "", "Strongly agree"]
+  response_codes: [1, 2, 3, 4, 5, 6, 7]
+  score: mean
+  introduction:
+    label: "Introduction"
+    source: suggested
+    text: >-
+      This survey is about a brand you follow on Facebook. Brands post their own content on their Facebook pages, such
+      as photos, videos and news from the company. Other Facebook users also post content about brands, such as
+      comments, photos and reviews. There are no right or wrong answers.
+  pre_questions:
+    - id: BRAND
+      title: "Your brand"
+      type: text
+      source: suggested
+      text: "Please type the name of a brand that you have “Liked” on Facebook."
+      note: "You will answer the following questions about this brand. Wherever you see [brand], think of the brand you named."
+  block_prefix: "Think about [brand]."
+  block_instruction: "Please indicate how much you agree or disagree with each statement."
+  block_instruction_source: suggested
+  placeholder: "[brand]"
+  dimensions:
+    - code: "FC"
+      r_name: "fc"
+      name: "Firm-created social media communication"
+      definition: "Brand communication on social media created and managed by the company."
+      items:
+        - { id: "FC1", text: "I am satisfied with the company’s social media communications for [brand].", label_in_article: "FC1", loading: "0.90" }
+        - { id: "FC2", text: "The level of the company’s social media communications for [brand] meets my expectations.", label_in_article: "FC2", loading: "0.91" }
+        - { id: "FC3", text: "The company’s social media communications for [brand] are very attractive.", label_in_article: "FC3 (new item)", loading: "0.91" }
+        - { id: "FC4", text: "This company’s social media communications for [brand] perform well, when compared with the social media communications of other companies.", label_in_article: "FC4", loading: "0.88" }
+    - code: "UG"
+      r_name: "ug"
+      name: "User-generated social media communication"
+      definition: "Content about the brand created and posted by other social media users, outside the company’s control."
+      items:
+        - { id: "UG1", text: "I am satisfied with the content generated on social media sites by other users about [brand].", label_in_article: "UG1", loading: "0.89" }
+        - { id: "UG2", text: "The level of the content generated on social media sites by other users about [brand] meets my expectations.", label_in_article: "UG2", loading: "0.91" }
+        - { id: "UG3", text: "The content generated by other users about [brand] is very attractive.", label_in_article: "UG3 (new item)", loading: "0.81" }
+        - { id: "UG4", text: "The content generated on social media sites by other users about [brand] performs well, when compared with other brands.", label_in_article: "UG4", loading: "0.85" }
+    - code: "BAW"
+      r_name: "baw"
+      name: "Brand awareness/associations"
+      definition: "How easily consumers recognise and recall the brand and the associations it brings to mind."
+      items:
+        - { id: "BAS1", text: "I easily recognize [brand].", label_in_article: "BAS1", loading: "0.75" }
+        - { id: "BAS2", text: "Several characteristics of [brand] instantly come to my mind.", label_in_article: "BAS2", loading: "0.63" }
+        - { id: "BAS3", text: "I can quickly recall the symbol or logo of [brand].", label_in_article: "BAS3", loading: "0.74" }
+        - { id: "BAS4", text: "I can recognize [brand] among other competing brands.", label_in_article: "BAS4 (printed as “X”)", loading: "0.93" }
+    - code: "BL"
+      r_name: "bl"
+      name: "Brand loyalty"
+      definition: "Commitment to keep buying from the brand."
+      items:
+        - { id: "BL1", text: "The prospect of lower prices would make me switch to another company.", label_in_article: "BL1", loading: "0.93" }
+        - { id: "BL2", text: "If it were possible to do so without problems, I would choose another company.", label_in_article: "BL2", loading: "0.92" }
+        - { id: "BL3", text: "I intend to remain the company’s customer.", label_in_article: "BL3", loading: "0.92" }
+    - code: "PQ"
+      r_name: "pq"
+      name: "Perceived quality"
+      definition: "The consumer’s judgement of the brand’s overall quality."
+      items:
+        - { id: "PQ1", text: "Most of the products of [brand] are of great quality.", label_in_article: "PQ1", loading: "0.86" }
+        - { id: "PQ2", text: "The likelihood that [brand] is reliable is very high.", label_in_article: "PQ2", loading: "0.91" }
+        - { id: "PQ3", text: "Products of [brand] are worth their price.", label_in_article: "PQ3", loading: "0.81" }
+  administration:
+    - "Ask respondents to name a brand they have “Liked” on Facebook, and insert that name into every item (for example with piped text in Qualtrics)."
+    - "Give a short example of each type of content (posts by the brand, posts by other users) so that respondents can tell firm-created and user-generated communication apart, as in the original study."
+    - "The original study also screened respondents on how often they receive brand content and read what other users post about the brand; include similar screening questions if exposure matters for your study."
+    - "The items work for other social networks: replace “social media sites” with the platform you study, keeping the rest of the wording."
+    - "For use in another language, translate and back-translate the items (the original was administered in Polish) and check measurement invariance before comparing groups."
+  scoring:
+    - "Code responses 1 (strongly disagree) to 7 (strongly agree)."
+    - "Compute one score per construct as the mean of its items: firm-created = mean(FC1–FC4); user-generated = mean(UG1–UG4); brand awareness/associations = mean(BAS1–BAS4); brand loyalty = mean(BL1–BL3); perceived quality = mean(PQ1–PQ3)."
+    - "BL1 and BL2 are worded against loyalty (switching to another company). The article does not say whether they were reverse-scored; check their direction in your data before computing the loyalty score."
+    - "In the original data, item means ranged from 4.42 to 5.22 for the communication items and from 5.58 to 6.78 for the brand equity items (Table AI)."
+    - "For latent-variable models, specify five correlated factors, then the structural model in Figure 2."
+  intro_note: >-
+    Item wording, response format and sources are as published in the article’s Table AI (BAS4 printed “X” for the brand
+    name; here it reads [brand]). The introduction, brand question and instruction are suggested wording based on the
+    procedure the article describes.
+  admin_box: >-
+    Replace [brand] with the brand the respondent named. Present each construct in its own block. Code answers 1 to 7;
+    each construct score is the mean of its items. Introduction and brand question are suggested wording; item wording
+    and response format are as published.
+  analysis:
+    title: "SMBC: five-factor CFA and structural model"
+    r_options: 'estimator = "ML"'
+    estimator_note: "maximum likelihood, as in the article (AMOS 21.0)"
+    r_extra: |
+
+      # 4. Structural model (Figure 2): H1a-H5
+      model_sem <- paste(model_cfa, "
+        baw ~ fc + ug
+        bl  ~ fc + ug + baw
+        pq  ~ fc + ug + baw
+      ")
+      fit_sem <- sem(model_sem, data = dat, estimator = "ML")
+      summary(fit_sem, fit.measures = TRUE, standardized = TRUE)
+
+      # 5. Industry comparison (Table III): multi-group model with a column 'industry' (three groups).
+      #    The paths from firm-created communication to loyalty and quality are dropped, as in the article.
+      #    Each labelled path gets a z-test of the difference between industries (comparable to CRDIFF).
+      model_mg <- paste(model_cfa, "
+        baw ~ c(a1, a2, a3) * fc + c(b1, b2, b3) * ug
+        bl  ~ c(c1, c2, c3) * ug + c(d1, d2, d3) * baw
+        pq  ~ c(e1, e2, e3) * ug + c(f1, f2, f3) * baw
+        fc_baw_12 := a1 - a2
+        fc_baw_13 := a1 - a3
+        fc_baw_23 := a2 - a3
+        ug_pq_12  := e1 - e2
+        ug_pq_13  := e1 - e3
+        ug_pq_23  := e2 - e3
+      ")
+      fit_mg <- sem(model_mg, data = dat, group = "industry", estimator = "ML")
+      subset(parameterEstimates(fit_mg), op == ":=")
+    mplus_estimator: "ML"
+    mplus_estimator_note: "maximum likelihood, as in the article"
+    mplus_extra: |
+
+      ! Structural model (Figure 2): remove the "!" below
+      ! BAW ON FC UG;
+      ! BL ON FC UG BAW;
+      ! PQ ON FC UG BAW;
+    mplus_notes: |
+
+      ! Industry comparison (Table III): add the grouping variable, e.g.
+      !   GROUPING = industry (1 = beverages 2 = clothing 3 = mobile);
+      ! and compare labelled paths with MODEL TEST or MODEL CONSTRAINT.
+  downloads:
+    - { label: "Questionnaire (PDF, print-ready)", file: "materials/smbc/smbc-questionnaire.pdf" }
+    - { label: "Qualtrics import file (.txt)", file: "materials/smbc/smbc-qualtrics-import.txt" }
+    - { label: "Item codebook (.csv)", file: "materials/smbc/smbc-codebook.csv" }
+    - { label: "R script: scoring, CFA, structural and multi-group models (.R)", file: "materials/smbc/smbc-analysis.R" }
+    - { label: "Mplus input: CFA and structural model (.inp)", file: "materials/smbc/smbc-cfa.inp" }
+
+findings:
+  - headline: "Brand-posted content builds awareness only."
+    text: >-
+      Firm-created social media communication had a positive effect on brand awareness/associations (&beta; = 0.14,
+      p = 0.02) but no significant effect on brand loyalty (&beta; = −0.08, p = 0.15) or perceived quality
+      (&beta; = −0.03, p = 0.61) among 302 Facebook users (Schivinski &amp; Dabrowski, 2015).
+  - headline: "User-generated content strengthens all three dimensions."
+    text: >-
+      User-generated social media communication had positive effects on brand awareness/associations (&beta; = 0.12,
+      p = 0.05), brand loyalty (&beta; = 0.24, p = 0.001) and perceived quality (&beta; = 0.26, p = 0.001)
+      (Schivinski &amp; Dabrowski, 2015).
+  - headline: "Awareness leads to loyalty and perceived quality."
+    text: >-
+      Brand awareness/associations had positive effects on brand loyalty (&beta; = 0.13, p = 0.03) and perceived quality
+      (&beta; = 0.22, p = 0.001), consistent with a hierarchy-of-effects view of brand equity (Schivinski &amp; Dabrowski,
+      2015).
+  - headline: "Effects differ by industry."
+    text: >-
+      The effect of firm-created communication on brand awareness/associations was largest for non-alcoholic beverages
+      (&beta; = 0.31, p = 0.003) and not significant for clothing, while user-generated communication affected perceived
+      quality strongly for mobile network providers (&beta; = 0.51, p = 0.001), significantly more than in the other two
+      industries (Schivinski &amp; Dabrowski, 2015).
+  - headline: "Valid and reliable measures."
+    text: >-
+      The five-factor measurement model fitted well (&chi;&sup2;/df = 1.54, CFI = 0.98, TLI = 0.98, RMSEA = 0.04,
+      SRMR = 0.03), with composite reliabilities of 0.85 to 0.95 and average variance extracted of 0.59 to 0.86
+      (Schivinski &amp; Dabrowski, 2015).
+
+glance:
+  - { label: "Design", value: "Online survey posted on Facebook brand fan pages; structural equation modelling and multi-group comparison across industries" }
+  - { label: "Participants", value: "302 Polish Facebook users (56.7% women; most aged 15–35) who had “Liked” one of 60 brands" }
+  - { label: "Industries", value: "Non-alcoholic beverages (n = 99), clothing (n = 99) and mobile network providers (n = 104)" }
+  - { label: "Measures", value: "7-point Likert scales: firm-created and user-generated social media communication (4 items each), brand awareness/associations (4), brand loyalty (3), perceived quality (3)" }
+  - { label: "Analysis", value: "Exploratory and confirmatory factor analysis, structural equation modelling and critical ratio difference (CRDIFF) tests in AMOS 21.0" }
+
+figures:
+  - file: figures/schivinski-dabrowski-2015-model.svg
+    title: "Figure 1. Conceptual framework"
+    caption: >-
+      Firm-created and user-generated social media brand communication are expected to influence brand
+      awareness/associations (H1a, H1b), brand loyalty (H2a, H2b) and perceived quality (H3a, H3b); brand
+      awareness/associations is expected to influence brand loyalty (H4) and perceived quality (H5).
+  - file: figures/schivinski-dabrowski-2015-estimates.svg
+    title: "Figure 2. Parameter estimates for the final structural model"
+    caption: >-
+      Standardised coefficients; dashed grey paths are not significant (n.s.). * p &lt; 0.05; ** p &lt; 0.01;
+      *** p &lt; 0.001. Model fit: Cmin/df = 2.53, CFI = 0.95, TLI = 0.94, RMSEA = 0.07, SRMR = 0.07.
+
+question: >-
+  Brands use Facebook to communicate with consumers, and consumers post their own content about brands on the same
+  platform. Research had studied eWOM, online reviews and brand communities, but no study had examined how firm-created
+  and user-generated social media communication each affect the dimensions of consumer-based brand equity: brand
+  awareness/associations, perceived quality and brand loyalty. Nor had any study compared these effects across
+  industries.
+
+implications:
+  practical: >-
+    Posting brand content builds awareness and associations, but on its own it does not make consumers more loyal or
+    raise their view of quality; content from other users does. Managers should therefore keep publishing their own
+    content while encouraging consumers to create and share brand content, for example through exclusive campaigns,
+    contests and offers that require users to engage with the fan page. Strategies should be tailored by industry: in the
+    study, firm content worked best for non-alcoholic beverages, while user content shaped perceived quality most for
+    mobile network providers.
+  theoretical: >-
+    The study separates two sources of social media brand communication and shows that they affect consumer-based
+    brand equity differently: user-generated communication influences all three dimensions, firm-created communication
+    only awareness/associations. It supports the hierarchy-of-effects view in which awareness/associations precede
+    loyalty and perceived quality, and shows that industry moderates the effects of social media communication on brand
+    equity.
+
+limitations:
+  - "Only Facebook was studied; future research should compare the leading social networks, as brand communication differs across channels."
+  - "Only three industries were examined; a broader range would show how consumers perceive brands from different industries on social media."
+  - "Each construct was measured with a small number of items; replications should consider adding items."
+  - "The sample was Polish and mostly young, which limits generalisation; studies in other countries should account for social, economic and cultural differences."
+  - "Future research could use Keller’s brand equity framework, control for differences between brands, and link social media communication to company financial performance."
+
+faq:
+  - q: "Does user-generated content on social media affect brand equity?"
+    a: >-
+      Yes. In a study of 302 Facebook users, user-generated social media communication had positive effects on brand
+      awareness/associations (&beta; = 0.12), brand loyalty (&beta; = 0.24) and perceived quality (&beta; = 0.26)
+      (Schivinski &amp; Dabrowski, 2015).
+  - q: "Does a brand’s own Facebook content make consumers more loyal?"
+    a: >-
+      Not directly. Firm-created social media communication raised brand awareness/associations (&beta; = 0.14) but had
+      no significant effect on brand loyalty or perceived quality; it can affect them indirectly, because awareness
+      influences loyalty and perceived quality (Schivinski &amp; Dabrowski, 2015).
+  - q: "Do the effects of social media communication differ by industry?"
+    a: >-
+      Yes. The effect of firm-created communication on awareness/associations was largest for non-alcoholic beverages
+      (&beta; = 0.31), and user-generated communication shaped perceived quality much more for mobile network providers
+      (&beta; = 0.51) than for the other industries (Schivinski &amp; Dabrowski, 2015).
+  - q: "How can I measure firm-created and user-generated social media communication?"
+    a: >-
+      With two four-item scales adapted from Mägi (2003), Tsiros et al. (2004) and Bruhn et al. (2012), each with one new
+      item, answered on a 7-point agreement scale; both had composite reliability above 0.90 (Schivinski &amp; Dabrowski,
+      2015).
+
+concepts:
+  - term: "Firm-created social media communication"
+    definition: "Brand communication on social media that is created and controlled by the company, for example posts on the brand’s Facebook page."
+  - term: "User-generated social media communication"
+    definition: "Brand-related content made publicly available online by users, reflecting some creative effort and created outside professional routines and practices (the OECD definition of user-generated content used in the article)."
+  - term: "Consumer-based brand equity (CBBE)"
+    definition: "The value a brand holds in consumers’ minds; the article measures three of Aaker’s dimensions: brand awareness/associations, perceived quality and brand loyalty."
+  - term: "Critical ratio difference (CRDIFF) test"
+    definition: "A pairwise test of whether a path coefficient differs between groups in a multi-group structural model, reported with z-values."
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Free full text, including all tables, figures and the measures", url: "manuscripts/schivinski-dabrowski-2015-jrim-accepted-manuscript.pdf" }
+  - { label: "Published version", note: "Journal of Research in Interactive Marketing (Emerald)", url: "https://doi.org/10.1108/JRIM-02-2014-0007" }
+
+tables:
+  - id: "I"
+    title: "Correlation matrix and indicators of reliability and validity"
+    columns: ["Constructs and measurements", "α", "CR", "AVE", "MSV", "ASV", "UG", "BAW/BAS", "FC", "PQ", "BL"]
+    rows:
+      - ["UG", "0.946", "0.920", "0.744", "0.325", "0.123", "<i>0.863</i>", "", "", "", ""]
+      - ["BAW/BAS", "0.836", "0.849", "0.589", "0.067", "0.043", "0.198", "<i>0.767</i>", "", "", ""]
+      - ["FC", "0.944", "0.944", "0.809", "0.325", "0.099", "0.570", "0.206", "<i>0.899</i>", "", ""]
+      - ["PQ", "0.891", "0.897", "0.744", "0.148", "0.080", "0.285", "0.259", "0.156", "<i>0.863</i>", ""]
+      - ["BL", "0.924", "0.947", "0.856", "0.148", "0.056", "0.219", "0.155", "0.072", "0.385", "<i>0.925</i>"]
+    note: "Notes: The square root of the average variance extracted (AVE) values are marked in italics; FC = firm-created social media communication; UG = user-generated social media communication; BAW/BAS = brand awareness/associations; BL = brand loyalty; PQ = perceived quality"
+  - id: "II"
+    title: "Standardized structural coefficients of the model"
+    columns: ["Hypothesis", "β", "<i>t</i>-value", "<i>p</i>-value", "Acceptance or rejection"]
+    align: ["left", "right", "right", "right", "left"]
+    rows:
+      - ["<i>H1a</i>. Firm-created social media → Brand awareness/associations", "0.14", "2.30", "0.02", "Accepted"]
+      - ["<i>H1b</i>. User-generated social media → Brand awareness/associations", "0.12", "1.93", "0.05", "Accepted"]
+      - ["<i>H2a</i>. Firm-created social media → Brand loyalty", "−0.08", "−1.40", "0.15", "Rejected"]
+      - ["<i>H2b</i>. User-generated social media → Brand loyalty", "0.24", "3.94", "0.001", "Accepted"]
+      - ["<i>H3a</i>. Firm-created social media → Perceived quality", "−0.03", "−0.50", "0.61", "Rejected"]
+      - ["<i>H3b</i>. User-generated social media → Perceived quality", "0.26", "4.19", "0.001", "Accepted"]
+      - ["<i>H4</i>. Brand awareness/associations → Brand loyalty", "0.13", "2.11", "0.03", "Accepted"]
+      - ["<i>H5</i>. Brand awareness/associations → Perceived quality", "0.22", "3.45", "0.001", "Accepted"]
+    note: "Notes: Cmin/df = 2.53; CFI = 0.95; TLI = 0.94; RMSEA = 0.07 (90 % C.I. 0.06, 0.08); SRMR = 0.07"
+  - id: "III"
+    title: "Results of the industry comparison"
+    collapsed: true
+    landscape: true
+    columns: ["Path", "Beverages unstd. β", "Beverages std. β", "<i>p</i>", "Clothing unstd. β", "Clothing std. β", "<i>p</i>", "Mobile unstd. β", "Mobile std. β", "<i>p</i>", "B × C <i>z</i>", "B × M <i>z</i>", "C × M <i>z</i>"]
+    rows:
+      - ["FC → BAW/BAS", "0.126", "0.312", "0.003", "0.043", "0.085", "0.435", "0.103", "0.235", "0.026", "−1.192", "−0.377", "0.827"]
+      - ["UG → BAW/BAS", "−0.009", "−0.021", "0.843", "0.116", "0.190", "0.090", "0.000", "−0.001", "0.996", "1.524", "0.146", "−1.472"]
+      - ["UG → BL", "0.270", "0.262", "0.011", "0.171", "0.160", "0.142", "0.176", "0.186", "0.079", "−0.626", "−0.644", "0.031"]
+      - ["UG → PQ", "0.093", "0.137", "0.162", "0.064", "0.077", "0.488", "0.465", "0.519", "0.001", "−0.247", "3.259***", "3.045***"]
+      - ["BAW/BAS → PQ", "0.737", "0.470", "0.001", "0.277", "0.202", "0.078", "0.217", "0.091", "0.338", "−1.944*", "−1.809*", "−0.217"]
+      - ["BAW/BAS → BL", "0.360", "0.151", "0.152", "0.350", "0.199", "0.070", "0.265", "0.105", "0.319", "−0.031", "−0.259", "−0.259"]
+    note: "Notes: FC = firm-created social media brand communication; UG = user-generated social media brand communication; BAW/BAS = brand awareness/associations; BL = brand loyalty; PQ = perceived quality; B = non-alcoholic beverages industry; C = clothing industry; M = mobile network providers; Cmin/df = 1.75; CFI = 0.93; TLI = 0.92; RMSEA = 0.05 90 per cent C.I. 0.04 0.05; SRMR = 0.07; * < 0.05; *** < 0.001"
+  - id: "AI"
+    title: "List of constructs and measurements used"
+    collapsed: true
+    columns: ["Constructs and measurements", "Standardized factor loading", "<i>t</i>-value", "Mean", "SD", "Authors"]
+    align: ["left", "right", "right", "right", "right", "left"]
+    rows:
+      - { group: true, cells: ["Firm-created social media communication", "", "", "", "", "Mägi (2003); Tsiros et al. (2004); Bruhn et al. (2012)"] }
+      - ["[FC1] I am satisfied with the company’s social media communications for [brand]", "0.90", "22.31", "5.22", "1.29", ""]
+      - ["[FC2] The level of the company’s social media communications for [brand] meets my expectations", "0.91", "23.13", "5.18", "1.32", ""]
+      - ["[FC3] The company’s social media communications for [brand] are very attractive*", "0.91", "22.96", "5.02", "1.31", ""]
+      - ["[FC4] This company’s social media communications for [brand] perform well, when compared with the social media communications of other companies", "0.88", "^{a}", "5.07", "1.23", ""]
+      - { group: true, cells: ["User-generated social media communication", "", "", "", "", "Mägi (2003); Tsiros et al. (2004); Bruhn et al. (2012)"] }
+      - ["[UG1] I am satisfied with the content generated on social media sites by other users about [brand]", "0.89", "17.41", "4.73", "1.29", ""]
+      - ["[UG2] The level of the content generated on social media sites by other users about [brand] meets my expectations", "0.91", "17.83", "4.71", "1.24", ""]
+      - ["[UG3] The content generated by other users about [brand] is very attractive*", "0.81", "^{a}", "4.42", "1.34", ""]
+      - ["[UG4] The content generated on social media sites by other users about [brand] performs well, when compared with other brands", "0.85", "18.68", "4.70", "1.22", ""]
+      - { group: true, cells: ["Brand awareness/association", "", "", "", "", "Yoo et al. (2000); Villarejo-Ramos and Sánchez-Franco (2005)"] }
+      - ["[BAS1] I easily recognize [brand]", "0.75", "14.66", "6.78", "0.47", ""]
+      - ["[BAS2] Several characteristics of [brand] instantly come to my mind", "0.63", "11.27", "6.35", "0.64", ""]
+      - ["[BAS3] I can quickly recall the symbol or logo of [brand]", "0.74", "14.35", "6.63", "0.55", ""]
+      - ["[BAS4] I can recognize X among other competing brands", "0.93", "^{a}", "6.65", "0.54", ""]
+      - { group: true, cells: ["Brand loyalty", "", "", "", "", "Walsh et al. (2009)"] }
+      - ["[BL1] The prospect of lower prices would make me switch to another company", "0.93", "28.01", "5.72", "1.15", ""]
+      - ["[BL2] If it were possible to do so without problems, I would choose another company", "0.92", "27.89", "5.60", "1.10", ""]
+      - ["[BL3] I intend to remain the company’s customer", "0.92", "^{a}", "5.58", "1.15", ""]
+      - { group: true, cells: ["Perceived quality", "", "", "", "", "Yoo et al. (2000)"] }
+      - ["[PQ1] Most of the products of [brand] are of great quality", "0.86", "16.76", "5.84", "0.99", ""]
+      - ["[PQ2] The likelihood that [brand] is reliable is very high", "0.91", "17.39", "5.67", "0.97", ""]
+      - ["[PQ3] Products of [brand] are worth their price", "0.81", "^{a}", "5.63", "1.11", ""]
+    note: "Notes: *New item from the authors; ^{a}path constrained to 1 for model specification"
+
+related:
+  - "10.1080/13527266.2013.871323"
+  - "10.2501/jar-2016-004"
+  - "10.1080/0965254x.2019.1572641"
+  - "10.1016/j.jbusres.2019.08.045"
+  - "10.1108/jpbm-05-2021-3468"

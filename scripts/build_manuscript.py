@@ -229,10 +229,24 @@ Downloaded from #link("{SITE}/papers/{slug}.html")[schivinski.github.io]]
             T.append(f"#pad(left: 0.4em)[#par(hanging-indent: 1em)[•#h(0.5em){inline(text)}]]\n")
             continue
         if kind == "table":
-            T.append("#v(0.4em)\n" + typst_table(tables[text.lstrip("T")]))
+            t = tables[text.lstrip("T")] if text.lstrip("T") in tables else tables[text]
+            if t.get("landscape"):
+                T.append(f"#page(flipped: true)[\n{typst_table(t, size=t.get('size', '8pt'))}]\n")
+            else:
+                T.append("#v(0.4em)\n" + typst_table(t))
             continue
         if kind == "pagebreak":
             T.append("#pagebreak()\n")
+            continue
+        if kind == "abstractpart":
+            T.append(f"#pad(x: 1.2cm)[#set par(first-line-indent: 0em); #set text(size: 10pt); {inline(text)}]\n")
+            continue
+        if kind == "quote":
+            T.append(f"#pad(left: 1.2cm, right: 1.2cm)[#set par(first-line-indent: 0em); #set text(size: 10pt); {inline(text)}]\n")
+            first_after_heading = True
+            continue
+        if kind == "small":
+            T.append(f"#v(0.4em)\n#par(first-line-indent: 0em)[#text(size: 9pt)[{inline(text)}]]\n#v(0.6em)\n")
             continue
         if kind == "about":
             T.append(f"#par(first-line-indent: 0em)[#text(size: 10pt)[{inline(text)}]]\n\n")
@@ -254,6 +268,8 @@ Downloaded from #link("{SITE}/papers/{slug}.html")[schivinski.github.io]]
         elif kind == "h2":
             T.append(f"= {inline(tc(text))}\n")
             first_after_heading = True
+            if text.lower() != "references":
+                T.append("#set par(hanging-indent: 0em, spacing: 0.9em)\n#set text(size: 11pt)\n")
             if text.lower() == "references":
                 T.append("#set par(first-line-indent: 0em, hanging-indent: 1.2em, spacing: 0.55em)\n#set text(size: 9.5pt)\n")
             continue

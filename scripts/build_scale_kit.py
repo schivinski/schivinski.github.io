@@ -52,6 +52,11 @@ def short_authors(d: dict, sep_last: str = " and ") -> str:
     return f"{fam[0]} et al."
 
 
+def rname(dm: dict) -> str:
+    """Name of a dimension in R/lavaan code."""
+    return dm.get("r_name") or re.sub(r"[^a-z0-9]+", "_", dm["name"].lower()).strip("_")
+
+
 def var(item_id: str) -> str:
     return item_id.lower()
 
@@ -139,9 +144,9 @@ def build(slug: str) -> list[Path]:
 
     # ---------------- R / lavaan
     lines_cfa = "\n".join(
-        f"  {dm['name'].lower().replace(' ', '_'):<13}=~ " + " + ".join(var(i["id"]) for i in dm["items"]) for dm in dims)
+        f"  {rname(dm):<13}=~ " + " + ".join(var(i["id"]) for i in dm["items"]) for dm in dims)
     item_lists = ",\n  ".join(
-        f"{dm['name'].lower().replace(' ', '_')} = c({', '.join(chr(34) + var(i['id']) + chr(34) for i in dm['items'])})"
+        f"{rname(dm)} = c({', '.join(chr(34) + var(i['id']) + chr(34) for i in dm['items'])})"
         for dm in dims)
     fn = "rowSums" if s.get("score") == "sum" else "rowMeans"
     lo, hi = min(codes), max(codes)

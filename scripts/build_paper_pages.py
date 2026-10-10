@@ -210,7 +210,7 @@ def scale_html(d: dict, tables: list) -> str:
     bench = "".join(table_html(t) for t in tables)
     return (
         '<section class="paper-section scale-kit" id="use-the-scale">'
-        '<h2>Use the scale</h2>'
+        f'<h2>{esc(sc.get("section_title", "Use the scale"))}</h2>'
         f'<p class="scale-name">{esc(sc["name"])}</p>'
         f'<p>{sc["summary"]}</p>'
         f'<dl class="glance scale-facts">{facts}</dl>'
@@ -337,7 +337,7 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
         actions = f'<a class="btn btn-primary-ink" href="https://doi.org/{esc(d["doi"])}">Read the article</a>'
         aam_note = ""
     if d.get("scale"):
-        actions += '<a class="btn btn-line btn-scale" href="#use-the-scale">Use the scale</a>'
+        actions += f'<a class="btn btn-line btn-scale" href="#use-the-scale">{esc(d["scale"].get("section_title", "Use the scale"))}</a>'
     badges = (['<li class="badge badge-open">Open access</li>'] if d.get("open_access") else []) + \
              [f'<li class="badge">{esc(b)}</li>' for b in d.get("badges", [])]
     out.append(f'''<div class="paper-head">
