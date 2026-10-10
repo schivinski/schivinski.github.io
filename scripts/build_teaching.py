@@ -57,7 +57,7 @@ def course(c: dict, insts: dict, role: str) -> str:
                 bits.append(f'· {esc(t["programme"])}')
             if t.get("years"):
                 bits.append(f'· {esc(t["years"])}')
-            rows.append(f'<li><img src="{esc(i["logo"])}" alt="" width="40" height="24">'
+            rows.append(f'<li><img src="{esc(i.get("mark", i["logo"]))}" alt="" width="40" height="24">'
                         f'<span>{" ".join(bits)}</span></li>')
         taught = f'<div class="cp-taught"><h4>Taught at</h4><ul>{"".join(rows)}</ul></div>'
     outline = ('<details class="cp-outline"><summary>Course outline</summary><ol>'
