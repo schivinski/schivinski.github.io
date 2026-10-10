@@ -215,7 +215,7 @@ def jsonld(d: dict, url: str) -> str:
 
 def build(d: dict, prev_next: tuple) -> dict:
     slug = d["slug"]
-    url = f"{SITE}/watch/posts/{slug}/"
+    url = f"{SITE}/watch/posts/{slug}/index.html"
     fm = {
         "title": d["title"],
         "subtitle": plain(d["dek"]),
