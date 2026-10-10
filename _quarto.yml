@@ -31,6 +31,8 @@ website:
         text: Teaching
       - href: consultancy.qmd
         text: Consultancy
+      - href: mentoring.qmd
+        text: Mentoring
       - href: watch/index.qmd
         text: Marketing Watch
     right:

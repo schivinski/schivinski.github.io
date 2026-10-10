@@ -1,0 +1,191 @@
+# Research mentoring page. Built into mentoring.qmd by scripts/build_mentoring.py (edit this file, not the page).
+# Prices in euros. Icons are Lucide (ISC licence) files in assets/icons/<name>.svg.
+
+title: "Research mentoring and PhD coaching"
+subtitle: "One-to-one support for doctoral candidates, early-career researchers and academic staff"
+description: >-
+  Research mentoring and PhD coaching with Bruno Schivinski, a top 2% marketing scientist: research clinics, AI for
+  research, expert review of proposals, manuscripts and grants, SEM mentoring and ongoing mentorship. Prices in euros.
+
+# Web3Forms access key (public by design; it only lets the form send to the owner's inbox).
+web3forms_key: "PASTE-WEB3FORMS-ACCESS-KEY"
+
+intro: >-
+  Whether one question is holding you back or you are building a research career, I offer focused one-to-one support
+  drawn from more than a decade of teaching research methods and publishing in leading marketing journals. Sessions
+  run online, wherever you are.
+
+credentials:
+  - { icon: award, text: "Named among the world's top 2% most-cited scientists in marketing (Stanford–Elsevier, 2023–2026)" }
+  - { icon: globe, text: "Research methods taught from master's to doctoral level in Europe, Australia, Asia and Africa" }
+  - { icon: landmark, text: "Adviser to research funders, including the ARC, ESRC, SNSF and NCN" }
+
+plans_title: "Choose your support"
+plans_lede: >-
+  Five ways to work together. Each has a clear price range: where your request sits within it depends on the scope
+  and complexity of the task, and you receive a fixed quote before anything starts.
+
+plans:
+  - id: clinic
+    name: "Research Clinic"
+    icon: message-circle-question
+    for: "One focused question that is holding your research back."
+    min: 150
+    max: 250
+    unit: "per session"
+    low: "A focused question with a short pre-read"
+    high: "Complex analysis output or a longer document"
+    includes:
+      - "60-minute one-to-one video session"
+      - "Pre-read of up to 10 pages sent in advance"
+      - "Written summary of advice and next steps"
+      - "One follow-up question by email"
+    cta: "Book a clinic"
+
+  - id: ai
+    name: "AI for Research"
+    icon: sparkles
+    for: "Using AI tools productively and responsibly across your research workflow."
+    min: 350
+    max: 550
+    unit: "two-session programme"
+    low: "Getting started with the core tools"
+    high: "A custom workflow for a complex project"
+    includes:
+      - "Two 75-minute one-to-one sessions"
+      - "Literature discovery, qualitative coding, analysis code and writing"
+      - "Disclosure, journal policies and research integrity"
+      - "A personal AI research playbook built around your project"
+    cta: "Book AI for Research"
+
+  - id: review
+    name: "Expert Review"
+    icon: file-search
+    for: "Reviewer-level feedback on a proposal, chapter, manuscript or grant before it goes out."
+    min: 400
+    max: 2500
+    unit: "per document"
+    tiers:
+      - { label: "PhD proposal or thesis chapter", min: 400, max: 700 }
+      - { label: "Journal manuscript (up to 10,000 words)", min: 600, max: 1200 }
+      - { label: "National grant (e.g. NCN, ARC, ESRC)", min: 800, max: 1500 }
+      - { label: "ERC or Horizon Europe proposal", min: 1500, max: 2500 }
+    includes:
+      - "Written report on contribution, theory, method and risks"
+      - "Comments throughout the document"
+      - "60-minute debrief call"
+      - "Turnaround agreed in advance"
+    cta: "Request a review"
+
+  - id: sem
+    name: "Methods & SEM Mentoring"
+    badge: "Signature service"
+    icon: network
+    for: "Designing and analysing a quantitative study with confidence, from survey to structural model."
+    min: 900
+    max: 1800
+    unit: "per package"
+    low: "Four sessions on a standard survey model"
+    high: "Six sessions on complex models, such as invariance or moderated mediation"
+    includes:
+      - "Four to six one-to-one sessions over 6–8 weeks"
+      - "Survey design, measurement and sampling"
+      - "Review of your analysis plan"
+      - "CFA, SEM, invariance, mediation and moderation"
+      - "Hands-on in AMOS, Mplus, lavaan, SPSS or R"
+      - "Reporting to journal standards"
+    cta: "Start SEM mentoring"
+
+  - id: mentorship
+    name: "Research Mentorship"
+    icon: compass
+    for: "Ongoing guidance as you build a publication record and a research career."
+    min: 450
+    max: 800
+    unit: "per month, minimum three months"
+    low: "Doctoral candidates and early-career researchers"
+    high: "Senior staff, grant and promotion strategy"
+    includes:
+      - "Two 60-minute sessions a month"
+      - "Email feedback between sessions"
+      - "Publication strategy and journal targeting"
+      - "Responding to reviewers and editors"
+      - "Grant, promotion and career planning"
+    cta: "Start mentorship"
+
+pricing:
+  - icon: sliders-horizontal
+    title: "Priced by scope"
+    text: "Your price within each range reflects the scope and complexity of the task: document length, methodological difficulty and deadline."
+  - icon: receipt-euro
+    title: "A fixed quote before you commit"
+    text: "After a free 15-minute intro call you receive a written quote. The price agreed is the price you pay."
+  - icon: heart-handshake
+    title: "Fair rates for early-career researchers"
+    text: "Doctoral candidates are quoted at the lower end of each range. Researchers based in lower- and middle-income countries receive a reduced rate."
+pricing_note: "Prices in euros. VAT is added where applicable. Invoices can be issued to individuals, universities or research grants."
+
+institutions:
+  icon: presentation
+  title: "Workshops for universities and doctoral schools"
+  text: >-
+    Half-day and full-day training for doctoral schools, departments and research groups, online or in person:
+    structural equation modelling, publishing in top marketing journals, and AI for research.
+  prices:
+    - { label: "Half day", from: 1200 }
+    - { label: "Full day", from: 2000 }
+  note: "Travel is added for in-person delivery."
+  cta: "Request a workshop quote"
+
+steps_title: "How it works"
+steps:
+  - { icon: send, title: "Send a request", text: "Tell me about your project and the support you need. It takes two minutes." }
+  - { icon: video, title: "Free 15-minute intro call", text: "We agree what you need and whether I am the right person to help." }
+  - { icon: receipt-euro, title: "Fixed quote and dates", text: "You receive a written quote and proposed session dates." }
+  - { icon: calendar-check, title: "Start working together", text: "Sessions run online by video call, at times that suit your time zone." }
+
+principles_title: "How I work"
+principles:
+  - icon: pen-off
+    title: "Mentoring, not ghostwriting"
+    text: "You remain the author of your work. I do not write theses, papers or assessed work, or analyse data for assessment on your behalf. Mentoring does not lead to co-authorship."
+  - icon: lock
+    title: "Confidential"
+    text: "Your ideas, drafts and data stay private. They are never shared or reused."
+  - icon: shield-check
+    title: "No conflicts of interest"
+    text: "I do not offer paid mentoring to students I teach, supervise or examine, or advise on applications to funding calls I am reviewing."
+
+faq:
+  - q: "Who is this for?"
+    a: "Master's and doctoral candidates, early-career researchers and academic staff in marketing, business, management and the social sciences, especially anyone working with survey data and structural equation models."
+  - q: "How do sessions work?"
+    a: "All sessions run online by video call (Zoom, Microsoft Teams or Google Meet), in English. Materials are shared in advance so that session time goes on your questions."
+  - q: "How is my price set within the range?"
+    a: "By the scope and complexity of the task: document length, methodological difficulty, deadline and the preparation needed. You receive a fixed written quote before anything starts."
+  - q: "Can my university or grant pay?"
+    a: "Yes. Invoices can be issued to universities, research projects and grant holders as well as to individuals."
+  - q: "When do I pay, and can I reschedule?"
+    a: "Payment is due before the first session. Sessions can be rescheduled free of charge up to 48 hours in advance."
+  - q: "Which software do you work with?"
+    a: "IBM SPSS Statistics and AMOS, Mplus, and R (including lavaan), as well as current AI tools for literature search, coding and writing support."
+  - q: "Do you help with qualitative research?"
+    a: "Yes. The Research Clinic and Expert Review cover in-depth interview studies and netnography as well as quantitative designs."
+
+form:
+  title: "Request a session"
+  lede: "Tell me what you need and I will reply within two working days."
+  roles: ["Master's student", "Doctoral candidate", "Early-career researcher", "Academic staff", "University or doctoral school", "Organisation"]
+  services:
+    - { value: "Free 15-minute intro call", id: intro }
+    - { value: "Research Clinic", id: clinic }
+    - { value: "AI for Research", id: ai }
+    - { value: "Expert Review", id: review }
+    - { value: "Methods & SEM Mentoring", id: sem }
+    - { value: "Research Mentorship", id: mentorship }
+    - { value: "Workshop for my institution", id: workshop }
+    - { value: "Consultancy project", id: consultancy }
+  privacy: "Sent securely through Web3Forms. Your details are used only to reply to your request and are never shared."
+  success: "Request sent. You will hear back within two working days."
+  error: "Your request could not be sent. Check your connection and try again."
+  button: "Send request"

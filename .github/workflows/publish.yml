@@ -58,6 +58,9 @@ jobs:
       - name: Build teaching page
         run: python scripts/build_teaching.py
 
+      - name: Build mentoring page
+        run: python scripts/build_mentoring.py
+
       - name: Save refreshed publication cache
         if: env.PUBLISH == '1'
         run: |
