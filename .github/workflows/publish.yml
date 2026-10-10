@@ -85,3 +85,19 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  indexnow:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: artifact
+      - name: Notify Bing via IndexNow
+        continue-on-error: true
+        run: |
+          mkdir -p _site && tar -xf artifact/artifact.tar -C _site
+          sleep 60
+          python scripts/indexnow.py

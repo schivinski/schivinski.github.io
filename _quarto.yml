@@ -8,6 +8,7 @@ project:
     - "!README.md"
   resources:
     - robots.txt
+    - "316433b063da86628eea6ac290ebe7f0.txt"
     - llms.txt
     - "papers/manuscripts/*.pdf"
     - "papers/materials/**"
@@ -45,6 +46,9 @@ website:
 
 format:
   html:
+    include-in-header:
+      text: |
+        <meta name="google-site-verification" content="07UIUFLSbcPDJm263G7oL8BCvnbHfhs0M4NEzCxbc0E" />
     theme:
       light: [flatly, styles.scss]
     title-block-banner: true
