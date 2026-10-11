@@ -1,0 +1,180 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 14
+week_of: "2026-04-13"            # the week this issue covers (shown on the page, orders the archive)
+slug: personalization-embarrassment
+published: "2026-10-11"
+status: live
+
+title: "Can personalization embarrass your customers? What a Journal of Interactive Marketing study found"
+short_title: "When \"just for you\" backfires"
+dek: >-
+  "Based on your last purchase" sounds helpful until the purchase is weight-loss pills or a tween playlist. Three
+  studies show that announcing personalization for products people would rather not be linked to makes them like the
+  brand less.
+description: >-
+  A "recommended for you" weight-loss refill lowered ratings of the pharmacy from 3.79 to 3.02 out of 7. When
+  personalization embarrasses customers, and what to do.
+keywords: [personalization, personalized marketing, personalized recommendations, embarrassment, creepy marketing,
+  sensitive products, stigmatized products, recommendation systems, personalized advertising, customer experience,
+  Journal of Interactive Marketing]
+topics: [Personalization, Privacy, Retail]
+
+image:
+  file: issue-14-personalization-embarrassment.jpg
+  og: issue-14-personalization-embarrassment-og.jpg
+  alt: "A woman in a black jumper sits in a colourful armchair, hiding her face in both hands"
+  caption: "Some recommendations people would rather not be seen getting. Photo: Ivan Aleksic on Unsplash."
+
+short_answer: >-
+  Yes, when the product is one people would rather not be linked to. Shoppers buying weight-loss medicine rated an online
+  pharmacy 3.02 out of 7 when it greeted them with a personalized refill reminder, against 3.79 without it; for
+  headache pills, personalization made no difference. Students liked a music service less when its "personalized"
+  playlists were called "Tween Party". The cause was embarrassment, not privacy worries. The fix is to tailor quietly
+  in sensitive categories rather than announce it.
+
+takeaways:
+  - "Buying weight-loss medicine, people rated a pharmacy 3.02 out of 7 when it announced a personalized refill, against 3.79 when they found the product themselves."
+  - "For headache medicine, personalization made no difference (4.89 against 4.98)."
+  - "Students liked a music service less when it labelled the same songs as a personalized \"Tween Party\" playlist (4.47 against 5.13), but not as \"College Party\"."
+  - "Embarrassment, not privacy concern or fear of being identified, explained the drop."
+
+paper:
+  doi: "10.1177/10949968251397987"
+  title: "Uncomfortably yours: When personalization repels customers"
+  authors: ["Yi, J. J.", "Warren, C."]
+  authors_full: ["John J. Yi", "Caleb Warren"]
+  year: 2026
+  journal: "Journal of Interactive Marketing"
+  volume: "61"
+  issue: "3"
+  pages: "275–290"
+  online: "2026-03-29"
+  open_access: false
+  licence: ""
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Most marketers treat personalization as a safe bet: it saves customers effort and makes offers more relevant. But
+      every personalized message is also a mirror. It tells customers what the brand knows about them, and sometimes
+      that is something they would rather not see. Seven in ten Spotify users, the authors note, say they are
+      embarrassed by their annual "Wrapped" summary.
+
+      John Yi (Le Moyne College) and Caleb Warren (University of Arizona) tested when that mirror backfires, using
+      three studies with different kinds of personalization: an online pharmacy, a music streaming service and a real
+      Google display ad campaign. In each, they varied whether the marketing was presented as personalized and whether
+      it pointed to something people would rather not be associated with.
+    facts:
+      - ["Study 1", "398 US adults with a BMI over 30 shopping at a mock online pharmacy for weight-loss or headache medicine"]
+      - ["Study 2", "291 US undergraduates using a test music service that recommended playlists"]
+      - ["Study 3", "A 12-day Google display ad campaign shown to people who had searched for acne terms: 324,014 impressions"]
+      - ["Measured", "Ratings of the business (1 to 7), embarrassment, privacy concern, and clicks in the field"]
+
+  - h: "The online pharmacy"
+    body: |
+      Participants returned to an online pharmacy to buy either weight-loss medicine or headache medicine. Half were
+      greeted with a personalized page: "Based on your last purchase, we think you will need this. It's time for your
+      monthly refill! Personalized recommendations, just for you." The other half found the product by browsing the
+      menu.
+
+      For headache medicine, the greeting made no difference. For weight-loss medicine, it backfired: people rated the
+      pharmacy 3.02 out of 7 with personalization against 3.79 without, even though it saved them clicks. The reason was
+      embarrassment. Concern about privacy and about being identified did not explain the drop.
+    chart: pharmacy
+
+  - h: "The playlist and the ad"
+    body: |
+      In the second study, students chose between artists, then saw two recommended playlists with exactly the same
+      songs. Only the names changed: "Almost Sweet 16" and "Tween Party Music", or "Almost 21" and "College Party". When
+      the service said the playlists were personalized, students liked it less if the names suggested tween taste (4.47
+      against 5.13 out of 7). With the college names, personalization did no harm.
+
+      The field test ran Google display ads to people who had searched for acne terms. One ad offered "10 ways to fix
+      your acne"; the other, "10 ways to maintain your perfect skin". Each said it was either "shown to you based on
+      your past Google searches" or shown to a random selection of visitors. Saying the acne ad was personalized cut
+      clicks by 28.5%, while saying the clear-skin ad was personalized raised them by 31%. The difference between these
+      two patterns was statistically reliable, though each comparison on its own was not, as clicks were very rare.
+    chart: clicks
+
+  - h: "Beyond the pharmacy shelf"
+    body: |
+      The study tested medicine, music and skin care, but the risk applies to any category people do not want reflected
+      back at them. My reading, not tested in the paper, is that this includes debt and payday loans, hair loss, hearing
+      aids and incontinence, alcohol, gambling, dating, diet products and guilty-pleasure viewing, and also year-in-review
+      recaps, "because you watched" rows and named email subject lines that can be seen on a lock screen.
+
+      The flip side matters too. Personalization that points to an identity people are proud of, healthy, stylish or
+      green, can work in your favour, as the clear-skin ad suggests. The question is not whether to personalize, but
+      when to say so.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List your sensitive categories", "Go through your range and flag the products, content and services customers might not want reflected back: weight, skin, age-related needs, money trouble, alcohol, guilty pleasures."]
+  - ["Separate tailoring from telling", "In the studies, the harm came from telling people the offer was personalized. Decide, category by category, where you will personalize openly and where you will tailor quietly."]
+  - ["Drop the \"just for you\" labels", "In sensitive categories, show tailored items under neutral headings such as \"new\", \"popular\" or \"trending\" instead of \"Top picks for you\" or \"Based on your last purchase\"."]
+  - ["Keep names and history out of sight", "Avoid first names and purchase references in sensitive messages, and think about where they appear, such as email subject lines and phone notifications others can see."]
+  - ["Watch for quiet exits", "As the authors suggest, monitor sessions that end or customers who unsubscribe right after a personalized offer in a sensitive category, and A/B test labelled against unlabelled versions."]
+  - ["Stay honest when asked", "Not shouting \"just for you\" is different from hiding personalization. Keep \"why am I seeing this\" explanations truthful, and never claim an offer is not personalized when it is."]
+
+expect:
+  - "**No penalty in neutral categories.** Personalized service for headache medicine, and \"College Party\" playlists, did no harm."
+  - "**A clear drop in sensitive ones.** Ratings of the pharmacy fell by about three-quarters of a point on a 7-point scale for weight-loss medicine."
+  - "**A possible boost for flattering identities.** The personalized clear-skin ad drew 31% more clicks, though that result was only marginally reliable."
+  - "**Privacy fixes will not solve it.** In Study 1 the drop came from embarrassment, not privacy concern, so better data policies alone will not help."
+
+limits:
+  - "**Mostly imagined or lab settings.** Two of the three studies used simulated shopping or a test service, with US adults and students."
+  - "**Little real benefit from personalization.** The personalized versions saved at most a click or two, so the studies do not show what happens when personalization offers real value."
+  - "**A weak field signal.** The ads drew only 249 clicks from 324,014 impressions, and the individual comparisons were not statistically reliable."
+  - "**Some effects were marginal.** In Study 1 the overall interaction just missed the usual significance threshold, though the weight-loss comparison itself was clear."
+
+faq:
+  - q: "Can personalized marketing backfire?"
+    a: "Yes. In a 2026 Journal of Interactive Marketing study, people buying weight-loss medicine rated an online pharmacy lower when it showed a personalized refill reminder (3.02 against 3.79 out of 7), because it embarrassed them. For headache medicine, personalization made no difference (Yi and Warren, 2026)."
+  - q: "Why does personalization sometimes feel uncomfortable?"
+    a: "Besides privacy worries, personalized marketing can remind people of something about themselves they would rather not see, such as a health condition or a taste they are embarrassed by. That embarrassment makes them like the brand less."
+  - q: "Should brands stop personalizing for sensitive products?"
+    a: "Not necessarily. The authors suggest still tailoring offers but not announcing it, for example showing items under \"trending\" rather than \"picked for you\", while never claiming that an offer is not personalized."
+  - q: "Does saying an ad is personalized change click-through rates?"
+    a: "In a field test with acne searchers, saying an acne ad was personalized cut clicks by 28.5%, while saying a clear-skin ad was personalized raised them by 31%. Clicks were rare, so these figures are indicative."
+  - q: "Is the problem with personalization just privacy?"
+    a: "No. In the pharmacy study, embarrassment explained the drop in evaluations, while privacy concern and perceived anonymity did not."
+
+also:
+  - doi: "10.1016/j.ijresmar.2025.03.002"
+    title: "The impact of the General Data Protection Regulation (GDPR) on online tracking"
+    authors: "Miller, K. M., Lukic, K., & Skiera, B."
+    journal: "International Journal of Research in Marketing"
+    year: 2026
+    text: >-
+      Tracking 294 publishers over 32 months, the authors find that online tracking grew everywhere after 2018, but
+      less for EU publishers covered by the GDPR: about four fewer trackers per publisher, a 14.8% reduction. The cut
+      came mostly from privacy-invasive trackers that collect and share personal data, while advertising trackers were
+      barely affected. Regulation has trimmed the riskiest data flows, not ad tracking as a whole.
+
+charts:
+  pharmacy:
+    title: "Rating of the online pharmacy, by product and personalization"
+    scale: [1, 7]
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["Headache pills, browsing", 4.98]
+      - ["Headache pills, personalized", 4.89]
+      - ["Weight-loss pills, browsing", 3.79]
+      - ["Weight-loss pills, personalized", 3.02, true]
+    source: "Study 1: 398 US adults with a BMI over 30. Average of attitude, revisit intention and satisfaction."
+  clicks:
+    title: "Click-through rate on Google display ads for acne searchers"
+    scale: [0, 0.1]
+    step: 0.02
+    unit: "%"
+    decimals: 3
+    bars:
+      - ["Clear-skin ad, random", 0.070]
+      - ["Clear-skin ad, personalized", 0.092]
+      - ["Acne ad, random", 0.084]
+      - ["Acne ad, personalized", 0.060, true]
+    source: "Study 3: 324,014 impressions and 249 clicks over 12 days in December 2020."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
