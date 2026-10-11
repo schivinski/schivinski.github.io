@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-10",
+ "as_of": "2026-10-11",
  "scholar_snapshot": "2026-10-10",
  "baseline": "2026-10-10",
  "h_index": 33,
@@ -132,7 +132,7 @@
    "need": 9,
    "per_month": 0.53,
    "velocity_source": "openalex",
-   "months_to_cross": 17.0,
+   "months_to_cross": 17.1,
    "year": 2024,
    "title": "Translating the user-avatar bond into depression risk: A preliminary machine learning study"
   },
@@ -152,7 +152,7 @@
    "need": 11,
    "per_month": 0.38,
    "velocity_source": "openalex",
-   "months_to_cross": 28.9,
+   "months_to_cross": 29.0,
    "year": 2024,
    "title": "What if utilitarian products are regarded as high-status? The moderate role of iconic and popular as two dimensions of brand Coolness"
   },
@@ -172,7 +172,7 @@
    "need": 9,
    "per_month": 0.1,
    "velocity_source": "openalex",
-   "months_to_cross": 88.2,
+   "months_to_cross": 88.4,
    "year": 2019,
    "title": "The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish Restaurant Sector"
   },
@@ -182,7 +182,7 @@
    "need": 9,
    "per_month": 0.04,
    "velocity_source": "openalex",
-   "months_to_cross": 240.4,
+   "months_to_cross": 243.3,
    "year": 2021,
    "title": "Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scoping Review"
   },
