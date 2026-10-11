@@ -39,25 +39,48 @@ def rng(a: int, b: int) -> str:
     return f"€{a:,}–{b:,}"
 
 
+def variants(p: dict) -> list[dict]:
+    """A plan is either one offer or several audience tabs (e.g. individuals / universities)."""
+    return p["tabs"] if p.get("tabs") else [dict(p, id="", service=p["id"])]
+
+
 def plan(p: dict) -> str:
     sig = " mt-plan-signature" if p.get("badge") else ""
     badge = f'<span class="mt-badge">{esc(p["badge"])}</span>' if p.get("badge") else ""
-    rows = p.get("tiers") or [{"label": p["low"], "min": p["min"]}, {"label": p["high"], "min": p["max"]}]
+    vs = variants(p)
+    tabbed = len(vs) > 1
+
     def amt(t):
         return rng(t["min"], t["max"]) if "max" in t else eur(t["min"])
-    aria = "Price by document type" if p.get("tiers") else "What moves the price"
-    scale = (f'<div class="mt-scale"><div class="mt-track" aria-hidden="true"></div><ul class="mt-tiers" aria-label="{aria}">'
-             + "".join(f'<li><span>{esc(t["label"])}</span><span class="mt-tier-p">{amt(t)}</span></li>' for t in rows)
-             + "</ul></div>")
-    incl = "".join(f"<li>{icon('check', 'mt-tick')}<span>{esc(i)}</span></li>" for i in p["includes"])
+
+    def part(v, k, html_):
+        if not tabbed:
+            return html_
+        return f'<div data-tab="{esc(v["id"])}"{"" if k == 0 else " hidden"}>{html_}</div>'
+
+    fors, prices, bodies, ctas = [], [], [], []
+    for k, v in enumerate(vs):
+        rows = v.get("tiers") or [{"label": v["low"], "min": v["min"]}, {"label": v["high"], "min": v["max"]}]
+        aria = "Price by document type" if v.get("tiers") else "What moves the price"
+        scale = (f'<div class="mt-scale"><div class="mt-track" aria-hidden="true"></div><ul class="mt-tiers" aria-label="{aria}">'
+                 + "".join(f'<li><span>{esc(t["label"])}</span><span class="mt-tier-p">{amt(t)}</span></li>' for t in rows)
+                 + "</ul></div>")
+        incl = "".join(f"<li>{icon('check', 'mt-tick')}<span>{esc(i)}</span></li>" for i in v["includes"])
+        fors.append(part(v, k, f'<p class="mt-for">{esc(v["for"])}</p>'))
+        prices.append(part(v, k, f'<p class="mt-price"><span class="mt-amount">{rng(v["min"], v["max"])}</span>'
+                                  f'<span class="mt-unit">{esc(v["unit"])}</span></p>'))
+        bodies.append(part(v, k, f'{scale}<ul class="mt-incl">{incl}</ul>'))
+        ctas.append(part(v, k, f'<a class="mt-btn mt-plan-cta" href="#request" data-service="{esc(v["service"])}">{esc(v["cta"])}</a>'))
+    toggle = ""
+    if tabbed:
+        toggle = ('<div class="mt-toggle" role="group" aria-label="Who is it for">'
+                  + "".join(f'<button type="button" data-tab="{esc(v["id"])}" aria-pressed="{"true" if k == 0 else "false"}">'
+                            f'{esc(v["label"])}</button>' for k, v in enumerate(vs)) + "</div>")
     return (f'<article class="mt-plan{sig}" id="plan-{esc(p["id"])}">{badge}'
             f'<div class="mt-plan-head"><span class="mt-plan-icon">{icon(p["icon"])}</span>'
-            f'<h3>{esc(p["name"])}</h3></div>'
-            f'<p class="mt-for">{esc(p["for"])}</p>'
-            f'<p class="mt-price"><span class="mt-amount">{rng(p["min"], p["max"])}</span>'
-            f'<span class="mt-unit">{esc(p["unit"])}</span></p>'
-            f'<div class="mt-body">{scale}<ul class="mt-incl">{incl}</ul></div>'
-            f'<a class="mt-btn mt-plan-cta" href="#request" data-service="{esc(p["id"])}">{esc(p["cta"])}</a></article>')
+            f'<h3>{esc(p["name"])}</h3>{toggle}</div>'
+            f'<div class="mt-cell">{"".join(fors)}</div><div class="mt-cell">{"".join(prices)}</div>'
+            f'<div class="mt-body">{"".join(bodies)}</div><div class="mt-cell mt-cta-cell">{"".join(ctas)}</div></article>')
 
 
 def form(d: dict, title: str | None = None, lede: str | None = None, default: str = "") -> str:
@@ -100,6 +123,15 @@ SCRIPT = r'''<script>
     a.addEventListener('click', function () { choose(a.dataset.service); setTimeout(function () { document.getElementById('f-name').focus({preventScroll: true}); }, 450); });
   });
   choose(form.dataset.default);
+  document.querySelectorAll('.mt-toggle').forEach(function (g) {
+    var card = g.closest('.mt-plan');
+    g.querySelectorAll('button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+        card.querySelectorAll('div[data-tab]').forEach(function (el) { el.hidden = el.dataset.tab !== b.dataset.tab; });
+      });
+    });
+  });
   var q = new URLSearchParams(location.search).get('service'); if (q) choose(q);
   var status = form.querySelector('.mt-status'), btn = form.querySelector('button[type=submit]');
   form.addEventListener('submit', function (e) {
@@ -133,14 +165,16 @@ def jsonld(d: dict) -> str:
               "jobTitle": "Associate Professor of Marketing"}
     offers = []
     for p in d["plans"]:
-        offers.append({"@type": "Offer", "name": p["name"], "description": p["for"], "url": f"{PAGE}#plan-{p['id']}",
-                       "itemOffered": {"@type": "Service", "name": p["name"], "description": "; ".join(p["includes"])},
-                       "priceSpecification": {"@type": "PriceSpecification", "minPrice": p["min"], "maxPrice": p["max"],
-                                              "priceCurrency": "EUR", "unitText": p["unit"]}})
-    inst = d["institutions"]
-    offers.append({"@type": "Offer", "name": inst["title"], "description": inst["text"].strip(),
-                   "priceSpecification": {"@type": "PriceSpecification", "minPrice": inst["prices"][0]["from"],
-                                          "priceCurrency": "EUR", "unitText": "per half day"}})
+        for v in variants(p):
+            name = p["name"] + (f' ({v["label"]})' if v.get("label") else "")
+            offers.append({"@type": "Offer", "name": name, "description": v["for"], "url": f"{PAGE}#plan-{p['id']}",
+                           "itemOffered": {"@type": "Service", "name": name, "description": "; ".join(v["includes"])},
+                           "priceSpecification": {"@type": "PriceSpecification", "minPrice": v["min"], "maxPrice": v["max"],
+                                                  "priceCurrency": "EUR", "unitText": v["unit"]}})
+    for x in d["institutions"]["prices"]:
+        offers.append({"@type": "Offer", "name": x["label"], "description": d["institutions"]["text"].strip(),
+                       "priceSpecification": {"@type": "PriceSpecification", "minPrice": x["min"], "maxPrice": x["max"],
+                                              "priceCurrency": "EUR"}})
     graph = [
         {"@type": "Service", "@id": f"{PAGE}#service", "name": d["title"], "url": PAGE,
          "serviceType": ["Research mentoring", "PhD coaching", "Academic coaching", "Structural equation modelling consultation",
@@ -166,7 +200,6 @@ def main() -> None:
             '<a class="mt-btn mt-btn-ghost" href="#request" data-service="intro">Book a free 15-minute intro call</a></div>'
             f'<ul class="mt-creds">{creds}</ul></section>')
     plans = (f'<section class="mt-plans" aria-labelledby="plans-title"><h2 id="plans-title">{esc(d["plans_title"])}</h2>'
-             f'<p class="mt-lede">{esc(d["plans_lede"].strip())}</p>'
              '<p class="mt-swipe">Swipe to compare all five.</p>'
              f'<div class="mt-plan-grid">{"".join(plan(p) for p in d["plans"])}</div></section>')
     pricing = ('<section class="mt-pricing" aria-label="How pricing works"><ul>'
@@ -176,12 +209,13 @@ def main() -> None:
     i = d["institutions"]
     inst = (f'<section class="mt-inst"><span class="mt-plan-icon mt-inv">{icon(i["icon"])}</span><div class="mt-inst-body">'
             f'<h2>{esc(i["title"])}</h2><p>{esc(i["text"].strip())}</p></div><div class="mt-inst-price">'
-            + "".join(f'<p><span>{esc(x["label"])}</span><strong>from {eur(x["from"])}</strong></p>' for x in i["prices"])
+            + "".join(f'<p><span>{esc(x["label"])}</span><strong>{rng(x["min"], x["max"])}</strong></p>' for x in i["prices"])
             + f'<p class="mt-small">{esc(i["note"])}</p>'
             f'<a class="mt-btn mt-btn-amber" href="#request" data-service="workshop">{esc(i["cta"])}</a></div></section>')
     steps = (f'<section class="mt-steps"><h2>{esc(d["steps_title"])}</h2><ol>'
-             + "".join(f'<li><span class="mt-step-ico">{icon(s["icon"])}</span><h3>{esc(s["title"])}</h3><p>{esc(s["text"])}</p></li>'
-                       for s in d["steps"]) + "</ol></section>")
+             + "".join(f'<li><div class="mt-step-top"><span class="mt-step-n">{n}</span>{icon(s["icon"])}</div>'
+                       f'<h3>{esc(s["title"])}</h3><p>{esc(s["text"])}</p></li>'
+                       for n, s in enumerate(d["steps"], 1)) + "</ol></section>")
     princ = (f'<section class="mt-principles"><h2>{esc(d["principles_title"])}</h2><ul>'
              + "".join(f'<li><span class="mt-plan-icon mt-soft">{icon(x["icon"])}</span><div><h3>{esc(x["title"])}</h3>'
                        f'<p>{esc(x["text"])}</p></div></li>' for x in d["principles"]) + "</ul></section>")

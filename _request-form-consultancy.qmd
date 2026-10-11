@@ -10,7 +10,7 @@
 <div class="mt-field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" required></div>
 <div class="mt-field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
 <div class="mt-field"><label for="f-role">I am a</label><select id="f-role" name="role" required><option value="">Choose one</option><option>Master&#x27;s student</option><option>Doctoral candidate</option><option>Early-career researcher</option><option>Academic staff</option><option>University or doctoral school</option><option>Organisation</option></select></div>
-<div class="mt-field"><label for="f-service">Service</label><select id="f-service" name="service" required><option value="">Choose a service</option><option value="Free 15-minute intro call" data-id="intro">Free 15-minute intro call</option><option value="Research Clinic" data-id="clinic">Research Clinic</option><option value="AI for Research" data-id="ai">AI for Research</option><option value="Expert Review" data-id="review">Expert Review</option><option value="Methods &amp; SEM Mentoring" data-id="sem">Methods &amp; SEM Mentoring</option><option value="Research Mentorship" data-id="mentorship">Research Mentorship</option><option value="Workshop for my institution" data-id="workshop">Workshop for my institution</option><option value="Consultancy project" data-id="consultancy">Consultancy project</option></select></div>
+<div class="mt-field"><label for="f-service">Service</label><select id="f-service" name="service" required><option value="">Choose a service</option><option value="Free 15-minute intro call" data-id="intro">Free 15-minute intro call</option><option value="Research Clinic" data-id="clinic">Research Clinic</option><option value="AI for Research" data-id="ai">AI for Research</option><option value="Expert Review" data-id="review">Expert Review</option><option value="Methods &amp; SEM Mentoring" data-id="sem">Methods &amp; SEM Mentoring</option><option value="Research Mentorship" data-id="mentorship">Research Mentorship</option><option value="SEM course for my institution" data-id="sem-course">SEM course for my institution</option><option value="Workshop for my institution" data-id="workshop">Workshop for my institution</option><option value="Consultancy project" data-id="consultancy">Consultancy project</option></select></div>
 <div class="mt-field"><label for="f-inst">Institution <span class="mt-opt">(optional)</span></label><input id="f-inst" name="institution" autocomplete="organization"></div>
 <div class="mt-field"><label for="f-country">Country</label><input id="f-country" name="country" autocomplete="country-name" required></div>
 <div class="mt-field mt-wide"><label for="f-msg">Your project and what you need</label>
@@ -31,6 +31,15 @@
     a.addEventListener('click', function () { choose(a.dataset.service); setTimeout(function () { document.getElementById('f-name').focus({preventScroll: true}); }, 450); });
   });
   choose(form.dataset.default);
+  document.querySelectorAll('.mt-toggle').forEach(function (g) {
+    var card = g.closest('.mt-plan');
+    g.querySelectorAll('button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        g.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+        card.querySelectorAll('div[data-tab]').forEach(function (el) { el.hidden = el.dataset.tab !== b.dataset.tab; });
+      });
+    });
+  });
   var q = new URLSearchParams(location.search).get('service'); if (q) choose(q);
   var status = form.querySelector('.mt-status'), btn = form.querySelector('button[type=submit]');
   form.addEventListener('submit', function (e) {

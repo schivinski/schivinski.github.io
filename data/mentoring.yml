@@ -21,20 +21,17 @@ credentials:
   - { icon: landmark, text: "Adviser to research funders, including the ARC, ESRC, SNSF and NCN" }
 
 plans_title: "Choose your support"
-plans_lede: >-
-  Five ways to work together. Each has a clear price range: where your request sits within it depends on the scope
-  and complexity of the task, and you receive a fixed quote before anything starts.
 
 plans:
   - id: clinic
     name: "Research Clinic"
     icon: message-circle-question
-    for: "One focused question that is holding your research back."
+    for: "Expert advice at any stage of your research, from shaping a question and choosing a design to interpreting results or answering reviewers."
     min: 150
     max: 250
     unit: "per session"
-    low: "A focused question with a short pre-read"
-    high: "Complex analysis output or a longer document"
+    low: "One topic with a short pre-read"
+    high: "Several issues, complex analyses or a longer document"
     includes:
       - "60-minute one-to-one video session"
       - "Pre-read of up to 10 pages sent in advance"
@@ -81,20 +78,42 @@ plans:
     name: "Methods & SEM Mentoring"
     badge: "Signature service"
     icon: network
-    for: "Designing and analysing a quantitative study with confidence, from survey to structural model."
-    min: 900
-    max: 1800
-    unit: "per package"
-    low: "Four sessions on a standard survey model"
-    high: "Six sessions on complex models, such as invariance or moderated mediation"
-    includes:
-      - "Four to six one-to-one sessions over 6–8 weeks"
-      - "Survey design, measurement and sampling"
-      - "Review of your analysis plan"
-      - "CFA, SEM, invariance, mediation and moderation"
-      - "Hands-on in AMOS, Mplus, lavaan, SPSS or R"
-      - "Reporting to journal standards"
-    cta: "Start SEM mentoring"
+    tabs:
+      - id: ind
+        label: "Individuals"
+        for: "Personalised one-to-one training built around your own study, data and research questions, from survey design to a publishable structural model."
+        min: 900
+        max: 1800
+        unit: "per personalised package"
+        low: "Four sessions on a standard survey model"
+        high: "Six sessions on complex models, such as invariance or moderated mediation"
+        includes:
+          - "A learning plan tailored to your study and level"
+          - "Four to six one-to-one sessions over 6–8 weeks"
+          - "Worked on your own data and model, not textbook examples"
+          - "Review of your measurement model and analysis plan"
+          - "CFA, SEM, invariance, mediation and moderation in AMOS, Mplus, lavaan, SPSS or R"
+          - "Annotated syntax and output to keep, and guidance on reporting to journal standards"
+        cta: "Start SEM mentoring"
+        service: sem
+      - id: uni
+        label: "Universities"
+        for: "A two-day, 12-hour SEM course for doctoral schools, departments and research groups, on site or online."
+        min: 2000
+        max: 4000
+        unit: "per two-day course (12 hours)"
+        low: "Online delivery, Central and Eastern Europe and lower-income countries"
+        high: "On site in Western Europe, the UK, Australia or North America"
+        includes:
+          - "12 hours over two days: lectures and hands-on labs"
+          - "From measurement models and CFA to full structural models"
+          - "Measurement invariance, mediation and moderation"
+          - "Taught in AMOS, Mplus or R (lavaan), matched to your group"
+          - "Course materials, datasets and syntax for every participant"
+          - "Can be set up as a credit-bearing doctoral course"
+          - "Travel, accommodation and per diem covered by the host"
+        cta: "Request the SEM course"
+        service: sem-course
 
   - id: mentorship
     name: "Research Mentorship"
@@ -127,15 +146,16 @@ pricing_note: "Prices in euros. VAT is added where applicable. Invoices can be i
 
 institutions:
   icon: presentation
-  title: "Workshops for universities and doctoral schools"
+  title: "Courses and workshops for universities"
   text: >-
-    Half-day and full-day training for doctoral schools, departments and research groups, online or in person:
-    structural equation modelling, publishing in top marketing journals, and AI for research.
+    Training for doctoral schools, departments and research groups, on site or online: the two-day structural equation
+    modelling course, publishing in top marketing journals, and AI for research.
   prices:
-    - { label: "Half day", from: 1200 }
-    - { label: "Full day", from: 2000 }
-  note: "Travel is added for in-person delivery."
-  cta: "Request a workshop quote"
+    - { label: "Two-day SEM course (12 hours)", min: 2000, max: 4000 }
+    - { label: "Full-day workshop (6 hours)", min: 1000, max: 2000 }
+    - { label: "Half-day workshop (3 hours)", min: 500, max: 1200 }
+  note: "Travel, accommodation and per diem are covered by the host institution. Reduced rates for online delivery, Central and Eastern Europe and lower-income countries."
+  cta: "Request a course or workshop"
 
 steps_title: "How it works"
 steps:
@@ -183,6 +203,7 @@ form:
     - { value: "Expert Review", id: review }
     - { value: "Methods & SEM Mentoring", id: sem }
     - { value: "Research Mentorship", id: mentorship }
+    - { value: "SEM course for my institution", id: sem-course }
     - { value: "Workshop for my institution", id: workshop }
     - { value: "Consultancy project", id: consultancy }
   privacy: "Sent securely through Web3Forms. Your details are used only to reply to your request and are never shared."

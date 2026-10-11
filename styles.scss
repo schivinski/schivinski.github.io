@@ -501,6 +501,7 @@ main section h2 { margin-top: 2.4rem; }
 
 /* plans */
 .mt-plans { padding: 2.4rem 0 1rem; border-top: 1px solid $rule; }
+.mt-plans > h2 { margin-bottom: 2rem; }
 .mt-lede { color: $muted; max-width: 46rem; margin: 0 0 1.8rem; }
 .mt-swipe { display: none; }
 .mt-plan-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); grid-auto-rows: auto; gap: 0 1rem;
@@ -534,6 +535,14 @@ main section h2 { margin-top: 2.4rem; }
 .mt-plan-signature .mt-tick { color: $amber; }
 .mt-plan-signature .mt-plan-cta { background: $amber; color: $ink; }
 .mt-plan-signature .mt-plan-cta:hover { background: #f0b545; }
+// audience toggle (Individuals / Universities)
+.mt-toggle { display: inline-flex; padding: 3px; border-radius: 999px; background: rgba($ink, .08); align-self: flex-start; }
+.mt-toggle button { font: inherit; font-size: .8rem; font-weight: 600; border: 0; background: transparent; color: inherit; padding: .32rem .8rem; border-radius: 999px; cursor: pointer; }
+.mt-toggle button[aria-pressed="true"] { background: $ink; color: #fff; }
+.mt-plan-signature .mt-toggle { background: rgba(255,255,255,.12); }
+.mt-plan-signature .mt-toggle button { color: #d9deea; }
+.mt-plan-signature .mt-toggle button[aria-pressed="true"] { background: $amber; color: $ink; }
+.mt-cta-cell { align-self: end; }
 
 /* how pricing works */
 .mt-pricing { padding: 1.6rem 0 2.6rem; }
@@ -549,17 +558,17 @@ main section h2 { margin-top: 2.4rem; }
 .mt-inst h2 { color: #fff; font-size: 1.6rem; margin-bottom: .4rem; }
 .mt-inst p { margin: 0; max-width: 40rem; }
 .mt-plan-icon.mt-inv { background: $amber; color: $ink; width: 3.2rem; height: 3.2rem; }
-.mt-inst-price { display: grid; gap: .4rem; min-width: 15rem; }
+.mt-inst-price { display: grid; gap: .4rem; min-width: 20rem; }
 .mt-inst-price p { display: flex; justify-content: space-between; gap: 1rem; }
 .mt-inst-price strong { font-family: $headings-font-family; font-size: 1.25rem; font-weight: 500; color: #fff; }
 .mt-inst-price .mt-small { color: #aeb7cc; display: block; margin-bottom: .5rem; }
 
 /* steps (a real sequence, so numbered) */
 .mt-steps { padding: 0 0 3rem; }
-.mt-steps ol { list-style: none; counter-reset: st; padding: 0; margin: 1.2rem 0 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem; }
-.mt-steps li { counter-increment: st; position: relative; padding: 1.1rem 0 0; border-top: 1px solid $rule; }
-.mt-step-ico { display: inline-flex; color: $ink; margin-bottom: .6rem; }
-.mt-steps li::before { content: counter(st); position: absolute; top: 1.05rem; right: 0; font-family: $headings-font-family; font-size: 1.6rem; color: $amber-text; line-height: 1; }
+.mt-steps ol { list-style: none; padding: 0; margin: 1.2rem 0 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem; }
+.mt-steps li { padding: 1.1rem 0 0; border-top: 1px solid $rule; }
+.mt-step-top { display: flex; align-items: center; gap: .65rem; color: $ink; margin-bottom: .7rem; }
+.mt-step-n { display: inline-grid; place-items: center; width: 1.9rem; height: 1.9rem; border-radius: 50%; background: $ink; color: #fff; font-weight: 600; font-size: .92rem; }
 .mt-steps h3 { font-size: 1.05rem; margin-bottom: .3rem; }
 .mt-steps p { font-size: .92rem; color: $muted; margin: 0; }
 
@@ -606,7 +615,7 @@ main section h2 { margin-top: 2.4rem; }
   .mt-plan-grid { grid-template-columns: none; grid-template-rows: repeat(5, auto); grid-auto-flow: column; grid-auto-columns: 86%; overflow-x: auto; scroll-snap-type: x mandatory;
     padding: .9rem 1rem 0; margin: 0 -1rem; scroll-padding-left: 1rem; -webkit-overflow-scrolling: touch; }
   .mt-plan { scroll-snap-align: start; }
-  .mt-swipe { display: block; font-size: .85rem; color: $muted; margin: -1rem 0 .2rem; }
+  .mt-swipe { display: block; font-size: .85rem; color: $muted; margin: -1.2rem 0 .4rem; }
   .mt-steps ol, .mt-form { grid-template-columns: 1fr; }
   .mt-ctas .mt-btn { width: 100%; }
 }
