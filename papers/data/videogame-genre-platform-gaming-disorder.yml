@@ -1,0 +1,407 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Behavioral Addictions 15(2), 735-745 (open access, CC BY-NC 4.0; PDF supplied by Bruno, 12 Oct 2026)
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "The role of videogame genre and platform in gaming disorder tendencies: A large-scale world-wide study of gamers' preferences"
+doi: "10.1556/2006.2026.00022"
+journal: "Journal of Behavioral Addictions"
+issn: "2062-5871"
+publisher: "Akadémiai Kiadó"
+volume: "15"
+issue: "2"
+pages: "735-745"
+published: "2026-07"
+published_label: "July 2026"
+online: "2026-05-18"
+open_access: true
+licence: "CC BY-NC 4.0"
+licence_url: "https://creativecommons.org/licenses/by-nc/4.0/"
+
+aam:
+  file: "marengo-schivinski-et-al-2026-jba-genre-platform.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the published open access article (CC BY-NC 4.0). Only the publisher's download stamp has been removed; the content is unchanged."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution-NonCommercial 4.0
+    International License (https://creativecommons.org/licenses/by-nc/4.0/). Originally published in Journal of
+    Behavioral Addictions, 15(2), 735-745, https://doi.org/10.1556/2006.2026.00022. Changes made: the publisher's
+    per-page download stamp has been removed; the content is unchanged.
+
+authors:
+  - given: "Davide"
+    family: "Marengo"
+    orcid: "0000-0002-7107-0810"
+    affiliation: ["University of Turin"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University", "Gdańsk University of Technology"]
+    me: true
+  - given: "Halley M."
+    family: "Pontes"
+    orcid: "0000-0001-8020-7623"
+    affiliation: ["Birkbeck, University of London"]
+  - given: "Christian"
+    family: "Montag"
+    orcid: "0000-0001-8112-0837"
+    affiliation: ["University of Macau"]
+
+cite_short: "Marengo et al., 2026"
+badges: ["116,047 gamers", "181 countries", "WHO and APA frameworks", "Machine learning"]
+keywords:
+  # Article's own keywords
+  - gaming disorder
+  - internet gaming disorder
+  - gaming genres
+  - gaming device
+  - multiplayer game
+  # What the study is about
+  - video game genre
+  - game preferences
+  - gaming platform
+  - console gaming
+  - PC gaming
+  - mobile gaming
+  - massively multiplayer online games
+  - MMORPG
+  - shooter games
+  - puzzle games
+  - problematic gaming
+  - video game addiction
+  - screen time
+  - esports
+  # Theory and frameworks
+  - ICD-11
+  - DSM-5
+  - WHO diagnostic framework
+  - APA diagnostic framework
+  - structural characteristics of games
+  - social reinforcement
+  # Measures
+  - Internet Gaming Disorder Scale–Short-Form (IGDS9-SF)
+  - Gaming Disorder Test (GDT)
+  - RAWG database
+  # Method
+  - large-scale survey
+  - cross-sectional study
+  - rank-biserial correlation
+  - Random Forest
+  - machine learning prediction
+  # Population and application
+  - international sample
+  - Electronic Sports League
+  - ethical game design
+  - prevention
+  - public health
+  - responsible gaming
+
+in_brief: >-
+  In 116,047 gamers worldwide, the games people preferred were related to their gaming disorder tendencies in the
+  same way under both the WHO and the APA diagnostic frameworks: multiplayer titles and desktop or laptop play went
+  with higher scores, while puzzle and platformer preferences went with lower ones. The associations were consistent
+  but small, and genre and multiplayer tags predicted individual scores poorly, so game characteristics explain only
+  a limited part of gaming disorder risk.
+
+findings:
+  - headline: "Multiplayer capability was the most consistent game-related correlate."
+    text: >-
+      Across 116,047 gamers, preferring a game with multiplayer features was positively associated with gaming
+      disorder tendencies under both frameworks (<em>r</em><sub>rb</sub> = .11 for the APA measure and .11 for the
+      WHO measure) (Marengo et al., 2026).
+  - headline: "Puzzle and platformer preferences pointed the other way."
+    text: >-
+      A preference for puzzle games (<em>r</em><sub>rb</sub> = −.17 under both frameworks) and platformer games
+      (−.14 APA, −.15 WHO) was negatively associated with gaming disorder tendencies in the overall sample
+      (Marengo et al., 2026).
+  - headline: "Computer gamers scored higher than console and mobile gamers."
+    text: >-
+      Participants preferring desktop or laptop computers reported higher gaming disorder scores (both 2.03 on the
+      APA measure and 2.28 on the WHO measure) than those preferring consoles (1.92 and 2.12) or small devices
+      (1.99 and 2.24), with all differences small in size (Marengo et al., 2026).
+  - headline: "Among console gamers, shooters and casual games also mattered."
+    text: >-
+      Within the console subgroup, gaming disorder tendencies were positively associated with multiplayer
+      (<em>r</em><sub>rb</sub> = .11 APA, .12 WHO), massively multiplayer (.11, .09), casual (.11, .11) and shooter
+      (.11, .10) game preferences (Marengo et al., 2026).
+  - headline: "Game characteristics predicted individual scores poorly."
+    text: >-
+      Random Forest models using all genre tags and the multiplayer indicator reached a correlation between
+      predicted and observed scores of only <em>R</em> = .14 (APA) and .15 (WHO) overall, falling to .08 and .10
+      among small-device users (Marengo et al., 2026).
+  - headline: "Game preferences differed sharply by device."
+    text: >-
+      82.00% of desktop gamers preferred a game with multiplayer features against 65.99% of small-device gamers;
+      shooters were preferred by 36.14% of console gamers and 16.68% of small-device gamers; strategy games by
+      3.99% of console gamers and 34.74% of laptop gamers (Marengo et al., 2026).
+  - headline: "Older and more educated gamers preferred cognitively oriented genres."
+    text: >-
+      Age was positively associated with preferring board (<em>r</em><sub>rb</sub> = .315), card (.195), puzzle
+      (.191), adventure (.189) and role-playing games (.158), and negatively with arcade (−.302), multiplayer
+      (−.202), action (−.178) and shooter games (−.176); education level followed the same pattern
+      (Marengo et al., 2026).
+  - headline: "The two diagnostic frameworks converged."
+    text: >-
+      The IGDS9-SF and the GDT correlated strongly with each other (Spearman ρ = .71, <em>p</em> &lt; .001) and
+      produced highly similar patterns of association with every game characteristic examined (Marengo et al., 2026).
+
+glance:
+  - { label: "Design", value: "Cross-sectional online survey run in 2019 as part of the Electronic Sports League's \"Smart Gaming\" campaign, with no financial incentive and personalised feedback on gaming behaviour for participants" }
+  - { label: "Participants", value: "116,047 gamers (92.9% male; mean age 24.12, SD = 7.44, range 12–80; 23.34 hours of gaming per week), retained from 188,775 initial responses across 181 countries" }
+  - { label: "Game characteristics", value: "Each participant's favourite game, entered as free text, was matched to the RAWG database (over 618,000 games) for genre tags and a binary multiplayer indicator; preferred device was self-reported (desktop 57.0%, console 27.1%, laptop 12.3%, mobile 3.5%)" }
+  - { label: "Outcomes", value: "Gaming disorder tendencies measured twice: the Internet Gaming Disorder Scale–Short-Form (IGDS9-SF, nine DSM-5 criteria, α = .83) and the Gaming Disorder Test (GDT, four ICD-11 criteria, α = .76)" }
+  - { label: "Analysis", value: "Rank-biserial correlations (Somers' D), Spearman correlations, Phi coefficients, Kruskal–Wallis tests and binomial generalized linear models with Bonferroni-corrected comparisons (SPSS 23); Random Forest regression with 100 trees and out-of-bag accuracy (WEKA 3.8.6)" }
+
+results:
+  title: "How well game genre and multiplayer tags predicted gaming disorder scores"
+  unit: ""
+  max: 1
+  note: "Out-of-bag correlation (R) between predicted and observed scores in the Random Forest models (Table 3 of the article). A value of 1 would be perfect prediction and 0 none, so game characteristics on their own carry little information about any individual gamer."
+  groups:
+    - name: "APA framework (IGDS9-SF)"
+      bars:
+        - { label: "Overall", value: 0.14, highlight: true }
+        - { label: "Consoles", value: 0.13 }
+        - { label: "Desktop", value: 0.12 }
+        - { label: "Laptop", value: 0.10 }
+        - { label: "Small devices", value: 0.08 }
+    - name: "WHO framework (GDT)"
+      bars:
+        - { label: "Overall", value: 0.15, highlight: true }
+        - { label: "Consoles", value: 0.13 }
+        - { label: "Desktop", value: 0.13 }
+        - { label: "Laptop", value: 0.11 }
+        - { label: "Small devices", value: 0.10 }
+
+figures:
+  - file: figures/marengo-et-al-2026-design.svg
+    title: "Figure 1. How the analytic sample was built and what was measured"
+    caption: >-
+      Drawn from the article's Methods. The survey was advertised through the Electronic Sports League from 2019;
+      only pre-COVID-19 responses from 2019 were included. Exclusions removed implausible ages and playing times,
+      invented game titles, non-gamers, entries that could not be matched to the RAWG database, and 74 duplicates.
+  - file: figures/marengo-et-al-2026-gd-by-device.svg
+    title: "Figure 2. Mean gaming disorder scores by preferred device, under both frameworks"
+    caption: >-
+      Values from Table 2 of the article. Both instruments use a 1 to 5 response scale, and the axis starts at the
+      scale minimum. Desktop and laptop gamers did not differ from each other on either measure; both scored higher
+      than console gamers. Kruskal–Wallis tests: IGDS9-SF χ²(3) = 706.65, GDT χ²(3) = 999.33, both p &lt; .001.
+  - file: figures/marengo-et-al-2026-genres-by-device.svg
+    title: "Figure 3. Preferred game genres by device"
+    caption: >-
+      Model-estimated marginal percentages from Table 2 of the article, for the 17 genres retained in the analyses.
+      Console gamers were more likely to prefer action, adventure, fighting, platformer, shooter and sports games;
+      desktop and laptop gamers preferred multiplayer, massively multiplayer, indie and role-playing games; small-device
+      gamers showed the highest prevalence of arcade, card, casual and puzzle games.
+
+question: >-
+  Gaming disorder is recognised by the World Health Organization in the ICD-11 and included as a condition for
+  further study by the American Psychiatric Association in the DSM-5, but the two frameworks differ in scope and
+  emphasis. Earlier studies of which games are associated with disordered gaming disagree with one another, point
+  to different high-risk genres, and rarely examine genre, multiplayer capability and device preference together.
+  It was therefore unclear whether game characteristics relate to gaming disorder in the same way under both
+  frameworks, and how much of an individual's risk such characteristics can account for.
+
+implications:
+  practical: >-
+    Prevention and ethical design efforts can be directed at the features most consistently associated with
+    disordered gaming, in particular multiplayer and massively multiplayer environments, which combine social
+    reinforcement, persistent worlds and few natural stopping points. At the same time, the weak predictive accuracy
+    argues against screening or profiling individual players on the basis of the genre or platform they prefer:
+    these variables describe groups, not people. Because preferences differ sharply by device, prevention messages
+    and platform-level safeguards may need to be tailored to console, computer and mobile audiences separately.
+  theoretical: >-
+    The study shows that the WHO and APA frameworks yield highly similar patterns of association with game-related
+    variables, supporting their convergent validity despite differing criteria. It also indicates that broad
+    industry genre labels and a binary multiplayer indicator are too coarse to capture the psychologically relevant
+    properties of games, and that future work should examine specific structural characteristics and mechanics, such
+    as avatar customisation and virtual simulation elements, in interaction with individual traits.
+
+limitations:
+  - "All measures were self-reported, including the favourite game and weekly playing time; objective behavioural data would give a more detailed picture of gaming behaviour."
+  - "Multiplayer status was taken from RAWG tags as a broad yes/no indicator, so games designed around multiplayer interaction were not distinguished from games in which multiplayer is optional or secondary."
+  - "Genre categories come from an industry database rather than a theoretical taxonomy, and the same game can fall into several genres, which limits how precisely genre-related associations can be interpreted."
+  - "The sample was predominantly male (92.9%) and recruited through gaming-focused platforms and the ESL portal, which may have reduced participation among casual gamers; the data are also cross-sectional and were collected in 2019."
+  - "Future research should use more granular classifications of multiplayer configurations, more balanced samples, longitudinal and clinical designs, and should examine structural features that cut across genres alongside personality traits."
+
+faq:
+  - q: "Are multiplayer games associated with gaming disorder?"
+    a: >-
+      Yes, modestly. In 116,047 gamers, preferring a game with multiplayer features was associated with higher gaming
+      disorder scores under both the APA and the WHO frameworks (<em>r</em><sub>rb</sub> = .11 in both cases), and the
+      association was strongest among console gamers (Marengo et al., 2026).
+  - q: "Which game genres are linked to lower gaming disorder tendencies?"
+    a: >-
+      Puzzle games (<em>r</em><sub>rb</sub> = −.17 under both frameworks), platformer games (−.14 APA, −.15 WHO) and,
+      among small-device users, board games (−.28 on the WHO measure) were all associated with lower scores
+      (Marengo et al., 2026).
+  - q: "Do PC gamers show more gaming disorder symptoms than console or mobile gamers?"
+    a: >-
+      On average, slightly. Desktop and laptop gamers scored 2.03 on the APA measure and 2.28 on the WHO measure,
+      against 1.92 and 2.12 for console gamers and 1.99 and 2.24 for small-device gamers, on 1 to 5 scales. The
+      differences were statistically reliable in a sample of this size but small, and are best read as emerging
+      patterns rather than clinically decisive effects (Marengo et al., 2026).
+  - q: "Can gaming disorder risk be predicted from the games someone plays?"
+    a: >-
+      Not at the level of the individual. Random Forest models using all genre tags and the multiplayer indicator
+      achieved correlations between predicted and observed scores of only .14 (APA) and .15 (WHO), falling to .08
+      among small-device users (Marengo et al., 2026).
+  - q: "Do the WHO and APA frameworks give the same answers about game preferences?"
+    a: >-
+      Yes. The two instruments correlated strongly (ρ = .71) and produced highly similar patterns of association with
+      genre, multiplayer capability and device, which supports their convergent validity (Marengo et al., 2026).
+  - q: "What games do console, computer and mobile gamers prefer?"
+    a: >-
+      Console gamers most often preferred action (78.46%), adventure (31.44%), shooter (36.14%), sports (9.13%) and
+      fighting games (5.70%); desktop and laptop gamers preferred massively multiplayer (29.99% and 25.28%),
+      role-playing (43.03% and 45.89%), indie and strategy games; small-device gamers showed the highest prevalence of
+      arcade (11.18%), casual (10.97%), card (5.40%) and puzzle games (3.65%) (Marengo et al., 2026).
+
+concepts:
+  - term: "Gaming disorder (WHO, ICD-11)"
+    definition: "A pattern of gaming behaviour marked by impaired control over gaming, increasing priority given to gaming over other activities, and continuation despite negative consequences, with significant impairment in important areas of functioning."
+  - term: "Internet gaming disorder (APA, DSM-5)"
+    definition: "A condition proposed for further study in the DSM-5, indicated when five or more of nine criteria, such as preoccupation, withdrawal, tolerance and loss of control, are met over a 12-month period."
+  - term: "Multiplayer capability"
+    definition: "Whether a game includes features allowing play with or against other people. Here it is a binary indicator taken from the RAWG database, which does not distinguish multiplayer-by-design titles from games where multiplayer is optional."
+  - term: "Game genre"
+    definition: "A broad grouping of games by shared themes, mechanics and player expectations. The article treats genre as a pragmatic descriptive framework rather than a precise analytical unit, and takes the labels from an external industry database to limit researcher discretion."
+  - term: "Rank-biserial correlation (Somers' D)"
+    definition: "A non-parametric measure of association between a binary variable, such as whether a game is tagged multiplayer, and an ordinal or non-normally distributed outcome, such as a gaming disorder score."
+  - term: "Random Forest"
+    definition: "A machine-learning method that combines many decision trees. It can capture non-linear relationships and interactions between predictors without the analyst specifying them in advance, and here was used to test how much of the gaming disorder score genre and multiplayer tags can account for."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Published open access article, CC BY-NC 4.0", url: "manuscripts/marengo-schivinski-et-al-2026-jba-genre-platform.pdf" }
+  - { label: "Published version", note: "Journal of Behavioral Addictions (open access, CC BY-NC 4.0)", url: "https://doi.org/10.1556/2006.2026.00022" }
+  - { label: "Game classification source", note: "RAWG, the community-powered video game database used for genre and multiplayer tags", url: "https://rawg.io/" }
+  - { label: "Gaming Disorder Test: ready-to-use toolkit", note: "Questionnaire, Qualtrics file, codebook and R/Mplus scripts for the WHO-based measure", url: "gaming-disorder-test.html#use-the-scale" }
+
+tables:
+  - id: "1"
+    title: "Associations between game characteristics and demographic variables (age, gender, education level)"
+    collapsed: true
+    columns: ["", "Age <i>r</i><sub>rb</sub>", "<i>p</i>", "Gender φ", "<i>p</i>", "Education <i>r</i><sub>rb</sub>", "<i>p</i>"]
+    rows:
+      - ["Multiplayer capability", "−.202", "&lt;.001", "−.058", "&lt;.001", "−.127", "&lt;.001"]
+      - { group: true, cells: ["Genre", "", "", "", "", "", ""] }
+      - ["Action", "−.178", "&lt;.001", "−.051", "&lt;.001", "−.099", "&lt;.001"]
+      - ["Adventure", ".189", "&lt;.001", ".031", "&lt;.001", ".093", "&lt;.001"]
+      - ["Arcade", "−.302", "&lt;.001", ".016", "&lt;.001", "−.225", "&lt;.001"]
+      - ["Board games", ".315", "&lt;.001", "−.008", ".009", ".215", "&lt;.001"]
+      - ["Card games", ".195", "&lt;.001", "−.014", "&lt;.001", ".157", "&lt;.001"]
+      - ["Casual games", "−.062", "&lt;.001", ".101", "&lt;.001", "−.030", "&lt;.001"]
+      - ["Fighting", "−.040", "&lt;.001", "−.019", "&lt;.001", "−.011", ".270"]
+      - ["Indie", "−.026", "&lt;.001", "−.006", ".037", "−.051", "&lt;.001"]
+      - ["Massively multiplayer", ".094", "&lt;.001", ".001", ".799", ".024", "&lt;.001"]
+      - ["Platformer", ".077", "&lt;.001", ".013", "&lt;.001", ".052", "&lt;.001"]
+      - ["Puzzle", ".191", "&lt;.001", ".041", "&lt;.001", ".132", "&lt;.001"]
+      - ["Racing", ".001", ".971", "−.037", "&lt;.001", "−.014", ".161"]
+      - ["RPG", ".158", "&lt;.001", ".065", "&lt;.001", ".074", "&lt;.001"]
+      - ["Shooter", "−.176", "&lt;.001", "−.051", "&lt;.001", "−.100", "&lt;.001"]
+      - ["Simulation", "−.024", "&lt;.001", ".010", ".001", "−.037", "&lt;.001"]
+      - ["Sports", "−.030", "&lt;.001", "−.053", "&lt;.001", ".002", ".818"]
+      - ["Strategy", "−.025", "&lt;.001", "−.002", ".509", "−.009", ".020"]
+    note: "Gender is coded Female = 1, Male = 0. Table 1 of the article."
+  - id: "2"
+    title: "Prevalence of game characteristics and mean gaming disorder score by preferred gaming device"
+    collapsed: true
+    columns: ["", "Console (N = 31,435)", "Desktop (N = 66,188)", "Laptop (N = 14,311)", "Small device (N = 4,113)"]
+    rows:
+      - { group: true, cells: ["Gaming disorder, mean (SD)", "", "", "", ""] }
+      - ["IGDS9-SF (APA)", "1.92 (0.68)", "2.03 (0.70)", "2.03 (0.70)", "1.99 (0.74)"]
+      - ["GDT (WHO)", "2.12 (0.77)", "2.28 (0.81)", "2.28 (0.80)", "2.24 (0.84)"]
+      - { group: true, cells: ["Game characteristics, %", "", "", "", ""] }
+      - ["Multiplayer capability", "70.52", "82.00", "80.98", "65.99"]
+      - ["Action", "78.46", "76.48", "74.12", "59.81"]
+      - ["Adventure", "31.44", "16.14", "13.00", "21.47"]
+      - ["Arcade", "2.16", "3.03", "4.10", "11.18"]
+      - ["Board games", "0.11", "0.57", "0.92", "0.51"]
+      - ["Card games", "0.42", "1.51", "2.60", "5.40"]
+      - ["Casual games", "3.32", "5.84", "6.02", "10.97"]
+      - ["Fighting", "5.70", "1.30", "1.14", "2.12"]
+      - ["Indie", "5.26", "11.74", "11.92", "5.66"]
+      - ["Massively multiplayer", "13.97", "29.99", "25.28", "15.29"]
+      - ["Platformer", "2.68", "0.94", "1.37", "1.43"]
+      - ["Puzzle", "0.51", "0.30", "0.41", "3.65"]
+      - ["RPG", "32.05", "43.03", "45.89", "38.12"]
+      - ["Racing", "3.05", "2.78", "1.89", "1.14"]
+      - ["Shooter", "36.14", "31.20", "24.31", "16.68"]
+      - ["Simulation", "13.86", "11.88", "14.01", "11.23"]
+      - ["Sports", "9.13", "3.52", "2.99", "3.87"]
+      - ["Strategy", "3.99", "25.85", "34.74", "33.77"]
+    note: "Percentages are model-estimated marginal means from binomial generalized linear models; all omnibus tests p &lt; .001. Table 2 of the article; the article also marks which pairs of devices do not differ significantly."
+  - id: "3"
+    title: "Rank-biserial correlations between game characteristics and gaming disorder tendencies"
+    collapsed: true
+    columns: ["", "Console", "Desktop", "Laptop", "Small devices", "Overall"]
+    rows:
+      - { group: true, cells: ["IGDS9-SF (APA framework)", "", "", "", "", ""] }
+      - ["Action", ".07", ".01", ".05", ".01", ".03"]
+      - ["Adventure", "−.05", "−.06", "−.07", "−.05", "−.07"]
+      - ["Arcade", "−.07", ".00", ".00", "−.05", "−.01"]
+      - ["Board", "−.02", ".00", "−.06", "−.14", ".00"]
+      - ["Card", "−.02", "−.02", "−.01", ".05", ".01"]
+      - ["Casual", ".11", ".04", "−.01", "−.09", ".05"]
+      - ["Fighting", ".00", "−.05", ".02", ".00", "−.05"]
+      - ["Indie", ".01", "−.03", "−.07", "−.05", "−.01"]
+      - ["Massively multiplayer", ".11", ".06", ".04", ".10", ".08"]
+      - ["Multiplayer", ".11", ".09", ".08", ".06", ".11"]
+      - ["Platformer", "−.12", "−.12", "−.16", "−.02", "−.14"]
+      - ["Puzzle", "−.11", "−.12", "−.24", "−.22", "−.17"]
+      - ["Racing", "−.07", "−.08", "−.12", "−.11", "−.08"]
+      - ["RPG", "−.04", ".03", ".04", ".05", ".03"]
+      - ["Shooter", ".11", ".00", "−.02", ".04", ".03"]
+      - ["Simulation", "−.03", "−.07", "−.09", "−.07", "−.06"]
+      - ["Sports", "−.06", "−.05", "−.10", "−.07", "−.08"]
+      - ["Strategy", ".01", ".03", ".06", ".03", ".06"]
+      - { group: true, cells: ["GDT (WHO framework)", "", "", "", "", ""] }
+      - ["Action", ".04", ".01", ".05", ".01", ".02"]
+      - ["Adventure", "−.07", "−.07", "−.09", "−.03", "−.09"]
+      - ["Arcade", "−.04", ".01", ".01", "−.03", ".00"]
+      - ["Board", ".07", ".03", "−.06", "−.28", ".03"]
+      - ["Card", ".03", ".01", "−.02", ".06", ".03"]
+      - ["Casual", ".11", ".03", ".00", "−.07", ".05"]
+      - ["Fighting", ".01", "−.05", "−.03", ".02", "−.05"]
+      - ["Indie", ".02", "−.03", "−.04", "−.03", "−.01"]
+      - ["Massively multiplayer", ".09", ".05", ".05", ".10", ".08"]
+      - ["Multiplayer", ".12", ".09", ".07", ".06", ".11"]
+      - ["Platformer", "−.11", "−.15", "−.10", "−.10", "−.15"]
+      - ["Puzzle", "−.14", "−.10", "−.20", "−.25", "−.17"]
+      - ["Racing", "−.07", "−.07", "−.10", "−.14", "−.08"]
+      - ["RPG", "−.05", ".03", ".04", ".03", ".02"]
+      - ["Shooter", ".10", ".00", "−.01", ".03", ".02"]
+      - ["Simulation", ".01", "−.06", "−.09", "−.02", "−.05"]
+      - ["Sports", "−.01", "−.04", "−.07", "−.04", "−.05"]
+      - ["Strategy", "−.01", ".04", ".05", ".01", ".07"]
+    note: "Values as printed in Figure 3 of the article (N = 116,047). The article marks significant correlations in bold; with a sample of this size, even very small correlations reach significance, so the authors discuss only those reaching |.10|."
+  - id: "A1"
+    title: "Demographic characteristics of the final analytic sample"
+    collapsed: true
+    columns: ["Characteristic", "Value"]
+    rows:
+      - ["Sample size", "N = 116,047"]
+      - ["Sex: male", "n = 107,854 (92.9%)"]
+      - ["Sex: female", "n = 8,193 (7.1%)"]
+      - ["Age, years", "M = 24.12, SD = 7.44, range 12–80"]
+      - ["Aged 16 or older", "n = 108,241 (93.3%)"]
+      - ["Aged 12–15, with parental consent", "n = 7,626 (6.6%)"]
+      - ["Education: less than high school", "11.4%"]
+      - ["Education: high school graduate", "37.0%"]
+      - ["Education: college diploma", "17.1%"]
+      - ["Education: bachelor's degree", "22.3%"]
+      - ["Education: master's degree", "11.1%"]
+      - ["Education: PhD or higher", "1.1%"]
+      - ["Preferred device: desktop PC", "57.0%"]
+      - ["Preferred device: console", "27.1%"]
+      - ["Preferred device: laptop PC", "12.3%"]
+      - ["Preferred device: mobile devices", "3.5%"]
+      - ["Weekly gaming time, hours", "M = 23.34, SD = 16.63"]
+    note: "Appendix Table A1 of the article."
+
+related:
+  - "10.3390/jcm8101691"
+  - "10.1007/s11469-019-00088-z"
+  - "10.1016/j.socscimed.2022.114721"
+  - "10.1016/j.addbeh.2022.107416"
+  - "10.1016/j.abrep.2018.06.004"

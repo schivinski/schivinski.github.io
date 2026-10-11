@@ -1,0 +1,220 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 17
+week_of: "2026-05-04"            # the week this issue covers (shown on the page, orders the archive)
+slug: gaming-device-audience
+status: live
+
+title: "Is \"gamers\" one audience? What a study of 116,047 players found"
+short_title: "Four screens, four audiences: reading the gaming channel"
+dek: >-
+  A survey built to study problem gaming also produced something marketers rarely get: a map of 116,047 players,
+  what they play, and the device they play it on. The four groups barely overlap.
+description: >-
+  Shooters are the favourite of 36% of console players and 17% of phone players; strategy games 35% on laptops and
+  4% on consoles. How to read the gaming channel, from 116,047 players.
+keywords: [gaming marketing, in-game advertising, audience segmentation, media planning, esports, game genres,
+  console versus PC, mobile gaming, player engagement, responsible marketing, gaming disorder, brand safety,
+  Journal of Behavioral Addictions]
+topics: [Advertising, Research methods]
+
+image:
+  file: issue-17-gaming-device-audience.jpg
+  og: issue-17-gaming-device-audience-og.jpg
+  alt: "Two players side by side at curved monitors in a dark gaming club, their faces and keyboards lit by the screens"
+  caption: "Same room, same hour, often very different games. Photo: Raman Shaunia on Unsplash."
+
+short_answer: >-
+  No. Among 116,047 players from across the world, the machine someone chose predicted what they played far better
+  than anything else on file. Shooters were the favourite game of 36% of console players and 17% of phone players.
+  Strategy games ran the other way: 35% on laptops, 4% on consoles. Four in five preferred games had multiplayer
+  in them, and those players reported the heaviest and most troubled play. Yet the same tags were close to useless
+  for judging any one person, which is the part most media plans get backwards.
+
+takeaways:
+  - "Action was the common ground: it sat on about three in four favourite games on consoles and computers, and on 60% of them on phones."
+  - "Massively multiplayer worlds were the pick of 30% of desktop players and 14% of console players."
+  - "Phones were the least social screen: 66% of their players' favourites had multiplayer, against 82% on desktops."
+  - "Game tags barely predicted any individual's score on the gaming-disorder scales (R from .08 to .15), so they describe crowds, not people."
+
+paper:
+  doi: "10.1556/2006.2026.00022"
+  title: "The role of videogame genre and platform in gaming disorder tendencies: A large-scale world-wide study of gamers' preferences"
+  authors: ["Marengo, D.", "Schivinski, B.", "Pontes, H. M.", "Montag, C."]
+  authors_full: ["Davide Marengo", "Bruno Schivinski", "Halley M. Pontes", "Christian Montag"]
+  year: 2026
+  journal: "Journal of Behavioral Addictions"
+  volume: 15
+  issue: 2
+  pages: "735-745"
+  online: "2026-05-18"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Disclosure before we start: I am one of the four authors, so take the enthusiasm with a pinch of salt.
+
+      Davide Marengo (University of Turin), Halley Pontes (Birkbeck, University of London), Christian Montag
+      (University of Macau) and I wanted to know whether the kind of game someone loves says anything about how
+      much trouble their gaming causes them. The survey ran in 2019 through the Electronic Sports League as part
+      of a healthy-gaming campaign, with no payment on offer; players got a personal read-out of their own habits
+      instead. After cleaning, 116,047 people were left.
+
+      Everyone named their current favourite game in a free-text box. Those titles were matched to RAWG, a public
+      database of more than 618,000 games, which supplied the genre tags and a yes/no flag for multiplayer. Each
+      player also reported the device they mostly use, how long they play, and answered two standard questionnaires
+      on disordered gaming, one built on the American psychiatric criteria and one on the World Health Organization's.
+    facts:
+      - ["People", "116,047 players, from an opening pool of 188,775 responses across 181 countries"]
+      - ["Who they were", "Average age 24.1 (range 12 to 80), 92.9% male, 51.6% educated beyond school"]
+      - ["Time on the hobby", "23.3 hours a week on average"]
+      - ["Devices", "Desktop 57.0%, console 27.1%, laptop 12.3%, phone or tablet 3.5%"]
+      - ["Game classification", "Genre tags and a multiplayer flag pulled from the RAWG database"]
+
+  - h: "Four screens, four shopping lists"
+    body: |
+      Start with the common ground. Action tags sat on most of the favourites named on every screen. Below that line
+      the four groups pull apart.
+
+      Console players leaned into things you can watch someone do: shooters (36%), adventure (31%), sports (9%) and
+      fighting games (6%), the last at more than four times the rate found on any computer. Desktop and laptop
+      players went for worlds that keep running: massively multiplayer games (30% and 25%), role-playing games
+      (43% and 46%), indie titles (12% on both) and strategy, which climbed from 4% on consoles to 26% on desktops
+      and 35% on laptops. Phone and tablet players were the quiet opposite: arcade (11%), casual (11%), card games
+      (5%) and puzzles (4%), each several times higher than anywhere else.
+
+      These are the favourite titles of real people, not a panel's claimed interests, which makes the contrast
+      useful. A sponsorship, a product placement or an in-game media buy that treats all four groups as "gamers"
+      is buying four different rooms with one brief.
+    chart: shooters
+
+  - h: "Age lives in the genre, not in the channel"
+    body: |
+      Marketers often reach for gaming when the brief says young. The data inside the channel is more interesting
+      than that. Older players in this sample drifted towards board games, card games, puzzles, adventure and
+      role-playing titles; younger ones towards action, arcade and shooters, and towards anything with other
+      people in it.
+
+      Education tracked the same line. Players with a degree were more likely to pick board, card and puzzle games
+      and less likely to pick action, arcade and shooters. Women, who made up 7% of this particular sample, showed
+      a mild pull towards casual games and nothing else worth reporting.
+
+      So the age read comes from the genre, not from the fact that someone games at all. A puzzle app and a shooter
+      sit in the same industry and sell to different decades.
+
+  - h: "Almost nobody is playing alone"
+    body: |
+      Multiplayer was the rule rather than the exception: 78% of the favourite games had it. The habit was strongest
+      on computers and weakest on phones, and it was not a fringe of hardcore titles either, since even casual and
+      card games now routinely ship with someone else in them.
+
+      It is also where the weight sits. Players whose favourite game had multiplayer scored higher on both
+      disordered-gaming scales, and on consoles the pattern was sharpest, with multiplayer, massively multiplayer,
+      casual and shooter preferences all tilting upwards. Puzzles and platformers tilted the other way. The
+      differences were small in statistical terms, but they ran in the same direction under both diagnostic systems
+      and across 116,047 people.
+
+      For anyone buying attention in games, that is a double message. The audience you most want is sitting in
+      social, never-ending titles, and those are the same titles where a minority of players are struggling. Pushing
+      spend or urgency at that group is a risk worth naming out loud in the plan.
+    chart: multiplayer
+
+  - h: "Past the console"
+    body: |
+      Here is the finding that travels furthest. When the team fed every genre tag and the multiplayer flag into a
+      machine-learning model and asked it to predict an individual's disordered-gaming score, it managed almost
+      nothing: a correlation between .08 and .15 between predicted and actual scores. The labels describe the crowd
+      well and the person badly.
+
+      Reading past what the paper set out to test, that gap is the shape of most audience data. Device, genre,
+      platform, channel: these are strong group facts and weak personal ones. They are good enough to decide where
+      a campaign runs and what it looks like, and nowhere near good enough to decide what one customer is like, how
+      much they can afford or whether they are in trouble.
+
+      The same split applies well outside games. Streaming services, fitness apps, trading platforms and betting
+      products all sort their users by the surface they use and then draw conclusions about individuals from it. The
+      first half of that move is sound. The second half, on this evidence, is wishful.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Pick the device before the genre", "Decide which screen your audience is on first. The split in this sample came from an esports platform and is PC-heavy, so use your own or your partner's data for the real mix."]
+  - ["Name the genre in the brief", "Write \"console shooters\" or \"mobile puzzle players\", never \"gamers\". Every number in this study moves once you change the genre."]
+  - ["Build for the second player", "Most favourites in this sample were games with other people in them. Creative, offers and mechanics written for a person alone miss how the thing is actually played."]
+  - ["Offer a mirror instead of a prize", "This survey collected 188,775 responses with no money, no draw and no discount. What it handed back was a summary of how each person actually plays. Useful self-knowledge is a currency most brands underuse."]
+  - ["Set the age read from the genre", "Board, card and puzzle titles skew older and more educated; action, arcade and shooters skew younger. Use the genre, not the channel, to pitch tone and product."]
+  - ["Measure crowds and leave people alone", "Report by device and genre, where the signal is real. Do not score individual players from their game tags, and watch spend among your heaviest multiplayer users rather than chasing it."]
+
+expect:
+  - "**Large gaps between devices, small gaps between people.** Genre splits of 20 or 30 points are normal here; the differences in individual behaviour behind them are slight."
+  - "**Mobile is a different business.** Arcade, casual and card games were several times more popular on small screens than anywhere else, and shooters far less."
+  - "**Your own mix will not match this one.** The sample is 93% male and PC-heavy, recruited through competitive gaming."
+  - "**Both measuring systems agree.** The WHO and American criteria produced the same pattern, so the findings do not hinge on which questionnaire you trust."
+
+limits:
+  - "**A 2019 snapshot.** Data were collected before the pandemic; mobile gaming in particular has changed a great deal since."
+  - "**An esports crowd, not the market.** Recruitment through the Electronic Sports League drew competitive PC players and very few casual ones."
+  - "**Blunt tags.** Genre labels and a yes/no multiplayer flag come from a community database, so a game with an optional co-op mode counts the same as a persistent online world."
+  - "**A snapshot, not a cause.** Everything is self-reported and measured at one moment, so nothing here shows that a genre creates heavy play rather than attracting it."
+
+faq:
+  - q: "Which device do most gamers use?"
+    a: "In this sample, 57.0% preferred a desktop computer, 27.1% a console, 12.3% a laptop and 3.5% a phone or tablet. Recruitment ran through a competitive gaming platform, so the mix leans towards PCs and away from the mobile-heavy picture most market reports show (Marengo et al., 2026)."
+  - q: "Do console and PC players want different games?"
+    a: "Clearly. Role-playing games were the favourite of 43% of desktop players against 32% of console players; adventure titles ran the other way, 31% on consoles against 16% on desktops; and fighting games were around four times as common on consoles as on either kind of computer."
+  - q: "How many hours a week do committed gamers play?"
+    a: "An average of 23.3 hours in this sample, which is a working half-week and a reminder of how much attention the channel holds."
+  - q: "Is multiplayer gaming more risky than single-player?"
+    a: "On average, slightly. Favourites with multiplayer in them went with higher scores on both gaming-disorder questionnaires, while puzzle and platformer fans scored lower. Every one of these associations was small."
+  - q: "Can you spot a problem gamer from the games they choose?"
+    a: "No. A model handed the full set of tags for someone's favourite game predicted their score at a correlation of .15 at the very best, and .08 among phone players, which is close to nothing when the question is about one person."
+
+also:
+  - doi: "10.1108/jpbm-03-2025-5866"
+    title: "Online brand advocacy and video game consumers"
+    authors: "Pourazad, N., Abedin, E., & Burgess, J."
+    journal: "Journal of Product & Brand Management"
+    year: 2026
+    text: >-
+      More than 23,000 Reddit discussions from the Call of Duty and Battlefield communities were mined for the ways
+      players stick up for the game they love. Six kinds of advocacy came out, from defending the brand to showing
+      off knowledge of it. The two communities argued in different registers, one about story and the other about
+      technical craft, and both produced the same intensity of support.
+  - doi: "10.1287/opre.2023.0026"
+    title: "Algorithms for loot box design"
+    authors: "Han, J., Ryan, C., & Tong, X."
+    journal: "Operations Research"
+    year: 2026
+    text: >-
+      Setting a price and drop odds for a randomised reward turns out to be a hard optimisation problem. The authors
+      show when it can be solved exactly, when a good approximation is available, and how item values and rarity
+      translate into a workable design. Anyone selling mystery boxes, blind packs or gacha pulls is making these
+      choices already, usually by feel.
+
+charts:
+  shooters:
+    title: "Share whose favourite game is a shooter, by preferred device"
+    scale: [0, 40]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Console", 36.1, true]
+      - ["Desktop computer", 31.2]
+      - ["Laptop", 24.3]
+      - ["Phone or tablet", 16.7]
+    source: "Table 2: 116,047 players, estimated marginal means from the published models."
+  multiplayer:
+    title: "Share whose favourite game has multiplayer features"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Desktop computer", 82.0, true]
+      - ["Laptop", 81.0]
+      - ["Console", 70.5]
+      - ["Phone or tablet", 66.0]
+    source: "Table 2: multiplayer tag taken from the RAWG entry for each player's favourite game."
+
+related_pages: [videogame-genre-platform-gaming-disorder]   # paper pages on this site worth linking (slugs)
