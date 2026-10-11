@@ -37,23 +37,23 @@ INK, AMBER, BAR, MUTED, RULE = "#15203b", "#e0a12a", "#aab3c5", "#5b6476", "#dde
 
 
 
-PHASES = [("Ready", "Decide and prepare"), ("Set", "Build it"), ("Go", "Launch and measure")]
+PHASES = [("Ready", "Decide and prepare"), ("Set", "Build it"), ("Market", "Launch and measure")]
 
 
 def how_to_html(steps: list) -> str:
-    """'How to apply it in 3 steps': six steps grouped as Ready (1-2), Set (3-4), Go (5-6)."""
+    """'Ready. Set. Market.' (Marketing in 3 steps): six points grouped in pairs under Ready, Set and Market."""
     if len(steps) != 6:  # fallback: plain numbered list
         return ('<section id="how-to-apply-it"><h2>How to apply it</h2><ol class="mw-steps">'
                 + "".join(f"<li><strong>{esc(a)}.</strong> {md(b)}</li>" for a, b in steps) + "</ol></section>")
-    out = ['<section id="how-to-apply-it" class="mw-howto"><h2>How to apply it in 3 steps</h2>'
-           '<p class="mw-rsg-strap" aria-hidden="true">Ready <span>·</span> Set <span>·</span> Go</p><div class="mw-rsg">']
+    out = ['<section id="how-to-apply-it" class="mw-howto"><p class="mw-rsg-kicker">Marketing in 3 steps</p>'
+           '<h2>Ready. Set. Market.</h2><div class="mw-rsg">']
     for i, (name, sub) in enumerate(PHASES):
         pair = steps[2 * i: 2 * i + 2]
         out.append(f'<div class="mw-phase"><div class="mw-phase-dot" aria-hidden="true">{i + 1}</div>'
                    f'<div class="mw-phase-tag"><span class="mw-phase-name">{name}</span>'
                    f'<span class="mw-phase-sub">{sub}</span></div>'
-                   f'<ol class="mw-rsg-steps" start="{2 * i + 1}">'
-                   + "".join(f"<li><strong>{esc(a)}.</strong> {md(b)}</li>" for a, b in pair) + "</ol></div>")
+                   f'<ul class="mw-rsg-steps">'
+                   + "".join(f"<li><strong>{esc(a)}.</strong> {md(b)}</li>" for a, b in pair) + "</ul></div>")
     out.append("</div></section>")
     return "".join(out)
 

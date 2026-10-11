@@ -113,7 +113,7 @@ sections:
       they lifted brand liking among people who want a rugged car and lowered it among people who do not. A
       personality-tuned version should go to the segment that values that trait, not to everyone.
 
-how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Go (launch, measure)
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
   - ["Collect your category's ads", "Gather a few hundred current paid ads in your category: yours and competitors'. Remove text and logos so the model learns imagery, not words."]
   - ["Rate them once with real customers", "Ask target customers to rate each ad on attention, interest, desire and action (1–7). Five or more ratings per ad were enough in this study."]
   - ["Train on the top 30 only", "Fine-tune on the 30 best-rated ads, not on a random sample and not on a mix of best and worst. This was the decisive step."]

@@ -104,7 +104,7 @@ sections:
       paying about twice as much.
     chart: recs
 
-how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Go (launch, measure)
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
   - ["Tag products as treats or practical", "Add a hedonic or utilitarian tag to each product category. The authors used two human coders and a generative AI model to settle disagreements; a quick internal rating works as a start."]
   - ["Watch indulgent carts in your analytics", "Track abandonment by the share of indulgent items in the cart. Treat-heavy carts are a natural target for basket reminders and guilt-reducing messages."]
   - ["Steer recommendations toward practical items", "When a cart is mostly indulgent, show useful add-ons such as accessories, refills, basics or care products, rather than more treats. Keep the cart's share of indulgent items low if the suggestion is added."]

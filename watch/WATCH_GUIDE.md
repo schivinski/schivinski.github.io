@@ -19,9 +19,9 @@ Issue 1 (`watch/issues/2026-01-12-generative-ai-ad-images.yml`) is the template:
    - `short_answer`: 50–80 words that answer the title directly (this is what search and AI engines quote).
    - `takeaways`: 4 bullets, each with a number.
    - `sections`: what they did (with a facts box), what they found, field evidence, the key practical insight; 1–3 charts.
-   - `how_to`: exactly 6 concrete steps, ordered for the "How to apply it in 3 steps" block: 1–2 **Ready** (decide and
-     prepare: where it fits, what to choose or check), 3–4 **Set** (build it: the execution), 5–6 **Go** (launch and
-     measure: roll out, test, monitor). The builder groups them in pairs. `expect`: realistic outcomes, costs and caveats. `limits`: when it fails.
+   - `how_to`: exactly 6 concrete steps, ordered for the "Ready. Set. Market." block (kicker: Marketing in 3 steps): 1–2 **Ready** (decide and
+     prepare: where it fits, what to choose or check), 3–4 **Set** (build it: the execution), 5–6 **Market** (launch and
+     measure: roll out, test, monitor). The builder groups them in pairs, shown as bullets (no numbers).* `expect`: realistic outcomes, costs and caveats. `limits`: when it fails.
    - `faq`: 4–5 questions people actually ask; answers stand alone and include the evidence.
    - `keywords`: 8–12 search phrases. `topics`: 2–3 categories (AI, Advertising, Social media, UGC, Influencers,
      Personalization, Privacy, Retail, Service, Search, Creative, Research methods).

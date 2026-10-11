@@ -109,7 +109,7 @@ sections:
       authors warn that AI negotiators could quietly erode customer and supplier relationships.
     chart: relationship
 
-how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Go (launch, measure)
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
   - ["Keep people for relationship deals", "Use AI for high-volume, low-stakes, one-off negotiations, and keep human negotiators, or human review, where repeat business and trust matter most."]
   - ["Measure more than the deal", "When piloting AI in sales, procurement or pricing negotiations, track satisfaction, trust and willingness to deal again, not just margin and close rate."]
   - ["Avoid purely mechanical bargaining logic", "Predictable rules, such as conceding near a deadline, invite exploitation. Some human-like variability protected earnings in this study."]
