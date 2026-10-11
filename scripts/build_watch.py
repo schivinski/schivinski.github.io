@@ -199,7 +199,6 @@ def body(d: dict, prev_next: tuple) -> str:
         nav.append(f'<a class="mw-next" href="../{nxt["slug"]}/index.html"><span>Next issue</span>{esc(nxt["short_title"])}</a>')
     if nav:
         out.append('<nav class="mw-pn" aria-label="More issues">' + "".join(nav) + "</nav>")
-    out.append(f'<p class="mw-published">Published {long_date(d["published"])}.</p>')
     return "\n".join(out)
 
 
@@ -222,7 +221,7 @@ def jsonld(d: dict, url: str) -> str:
          "abstract": plain(d["short_answer"]),
          "image": [{"@type": "ImageObject", "url": img_url, "width": 1200, "height": 630},
                    {"@type": "ImageObject", "url": hero, "width": 1600, "height": 900}],
-         "datePublished": d["published"], "dateModified": d.get("modified", d["published"]),
+         "datePublished": d["week_of"], "dateModified": d.get("modified", d["week_of"]),
          "author": AUTHOR, "publisher": {"@id": AUTHOR["@id"]},
          "isPartOf": {"@type": "Blog", "name": "Marketing in 3", "url": f"{SITE}/watch/index.html"},
          "articleSection": "Marketing in 3", "position": d["issue"],
@@ -243,7 +242,7 @@ def jsonld(d: dict, url: str) -> str:
             f'<meta name="keywords" content="{esc(", ".join(d["keywords"]))}">',
             f'<meta name="author" content="Bruno Schivinski">',
             f'<meta property="og:type" content="article">',
-            f'<meta property="article:published_time" content="{d["published"]}">',
+            f'<meta property="article:published_time" content="{d["week_of"]}">',
             f'<meta property="article:author" content="Bruno Schivinski">',
             f'<meta property="article:section" content="Marketing in 3">',
             f'<link rel="canonical" href="{url}">']
@@ -302,9 +301,6 @@ def main() -> int:
     for f in files:
         d = yaml.safe_load(f.read_text())
         d["_file"] = f.name
-        if "published" not in d:          # first build: stamp the real publication date into the data file
-            d["published"] = dt.date.today().isoformat()
-            f.write_text(f.read_text().replace("status:", f'published: "{d["published"]}"\nstatus:', 1))
         if os.environ.get("PUBLISH") == "1" and d.get("status") != "live":
             continue
         data.append(d)

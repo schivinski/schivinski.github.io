@@ -9,6 +9,7 @@ project:
   post-render:
     - scripts/style_feed.py
     - scripts/add_icons.py
+    - scripts/fix_watch_dates.py
   resources:
     - robots.txt
     - favicon.ico

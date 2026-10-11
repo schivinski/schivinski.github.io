@@ -1,6 +1,6 @@
 # Marketing in 3: how an issue is made
 
-The series was renamed from "Marketing Watch" to **Marketing in 3** on 11 Oct 2026 (Bruno's choice: catchy, easy to
+The series was renamed from "Marketing Watch" to **Marketing in 3** (Bruno's choice: catchy, easy to
 remember, extends to merch and products; the "3" is not explained on the site). URLs stay under `/watch/` so links and
 the RSS feed (`/watch/index.xml`, subscribe page `/watch/subscribe.html`) keep working.
 
@@ -27,21 +27,21 @@ Issue 1 (`watch/issues/2026-01-12-generative-ai-ad-images.yml`) is the template:
      Personalization, Privacy, Retail, Service, Search, Creative, Research methods).
 4. **Pick the picture**: a striking, high-quality photograph of the paper's subject (issue 1: a car), not an illustration.
    It must stop the scroll: bold colour, strong light, close crop and a clear focal point, editorial or advertising quality
-   (Bruno, 11 Oct 2026: "sexy looking photos that entice the viewer"). Avoid bland stock scenes and generic office shots.
+   (Bruno: "sexy looking photos that entice the viewer"). Avoid bland stock scenes and generic office shots.
    Source from Unsplash (free Unsplash Licence; avoid Unsplash+), prefer images without prominent logos, credit the
    photographer in the caption. Save `watch/images/issue-NN-<slug>.jpg` (1600×900) and `-og.jpg` (1200×630).
 5. **Build and check**: `python scripts/build_paper_pages.py && python scripts/build_watch.py && quarto render`.
    Look at desktop and 390 px mobile (no horizontal scroll), confirm the JSON-LD parses.
-6. **Publish**: commit, push, dispatch the publish workflow. The first build stamps `published:` (the real date) into
-   the data file; never change it afterwards.
+6. **Publish**: commit, push, dispatch the publish workflow.
 
 ## Writing rules
 - Plain English for practitioners; no jargon without a gloss. Short paragraphs.
 - Every number traceable to the paper (study number in the chart source line). Never invent effect sizes.
 - Say what was *not* shown (limits, small tests, one category).
 - Our words only: no reproduced abstracts, figures or ad images from the paper. Charts are redrawn from reported numbers.
-- Dates: `week_of` is the week the issue covers (shown as "Week of …" and used to order the archive);
-  `published` is the real publication date (in the JSON-LD and at the foot of the page).
+- Dates: `week_of` is the issue's only date. It is shown as "Week of …", orders the archive and is used everywhere
+  else (JSON-LD, Open Graph, RSS, sitemap via `scripts/fix_watch_dates.py`). Never add or show any other publication
+  or build date on the site (Bruno's standing rule: the series reads as if it has run weekly all along).
 
 ## What makes the pages findable
 Question-style title and H2s, answer-first summary, FAQ block, descriptive image alt text, BlogPosting + FAQPage +
