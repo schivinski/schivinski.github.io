@@ -1,0 +1,199 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 12
+week_of: "2026-03-30"            # the week this issue covers (shown on the page, orders the archive)
+slug: ai-search-engines
+published: "2026-10-11"
+status: live
+
+title: "Will AI search kill search ads? What a Journal of Advertising Research study found"
+short_title: "AI search takes the questions, Google keeps the keywords"
+dek: >-
+  Researchers recorded every search 52 people made on Google and Gemini for a day. Shopping stayed on Google, advice
+  moved to AI, AI queries were nearly three times longer, and AI answers rarely led to a click.
+description: >-
+  People used AI search for 54% of advice searches but 6% of shopping searches, and clicked in 12% of AI searches vs 59%
+  on Google. What it means for search ads.
+keywords: [AI search, generative engine optimization, GEO, search engine advertising, SEO, pay per click, long-tail
+  keywords, Google Gemini, AI Overviews, search behaviour, zero-click search, Journal of Advertising Research]
+topics: [AI, Search, Advertising]
+
+image:
+  file: issue-12-ai-search-engines.jpg
+  og: issue-12-ai-search-engines-og.jpg
+  alt: "Close-up of a dark screen with an AI chat box reading 'Ask anything' and a blurred greeting above it"
+  caption: "One box, any question, and fewer links to click. Photo: Zulfugar Karimov on Unsplash."
+
+short_answer: >-
+  Not yet, but it is changing what search ads can reach. In a study that recorded people's real searches, 76% still
+  went to Google, and almost all shopping searches did. But people chose AI search for more than half of their advice
+  questions, typed queries nearly three times longer there (11 words against 4), and clicked a link in only 12% of AI
+  searches, against 59% on Google. Short keywords look safe for now; long, specific questions are moving to AI.
+
+takeaways:
+  - "Three in four searches still went to Google, and 94% of shopping searches did."
+  - "For advice questions, such as which product suits a need, people chose AI search 54% of the time."
+  - "AI queries averaged 11 words against 4 on Google; only 5% of AI searches were short two-word terms, against 35% on Google."
+  - "People clicked a result in 59% of Google searches but only 12% of AI searches."
+
+paper:
+  doi: "10.1080/00218499.2025.2589501"
+  title: "Consumer engagement with AI-powered search engines: Implications for the future of search advertising research and practice"
+  authors: ["Garlough-Shah, G.", "Park, J. I.", "Hayati, S. A.", "Kang, D.", "Huh, J."]
+  authors_full: ["Gabriel Garlough-Shah", "Jong Inn Park", "Shirley Anugrah Hayati", "Dongyeop Kang", "Jisu Huh"]
+  year: 2026
+  journal: "Journal of Advertising Research"
+  volume: "66"
+  issue: "3"
+  pages: "402–420"
+  online: "2026-03-18"
+  open_access: false
+  licence: ""
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Search advertising is built on two habits: people type short keywords, and then they click links. AI search
+      engines, which write an answer instead of listing pages, could break both. Most claims about this so far have
+      been guesses, so Gabriel Garlough-Shah (Northwestern University) and colleagues at the University of Minnesota
+      watched what people actually do.
+
+      They built a Chrome extension that logged every search, result and click. US adults who had used both kinds of
+      search engine in the past three months searched as they normally would for 24 hours, using Google and Google
+      Gemini. Each search was then sorted by what the person wanted: facts (information), something to buy or a
+      product to look up (shopping), or a recommendation or judgement (advice), such as "what should I consider when
+      buying a car?".
+    facts:
+      - ["People", "52 US adults (average age 36), recruited through Prolific, who regularly used both kinds of search"]
+      - ["Searches", "848 real searches logged between October 2023 and November 2024, about 16 per person"]
+      - ["Engines", "Google (traditional search) and Google Gemini (AI search)"]
+      - ["Measured", "Which engine people chose, how many words they typed, and whether they clicked a result"]
+
+  - h: "Shopping stays on Google, advice moves to AI"
+    body: |
+      Overall, 76% of searches went to Google. The split depended on what people wanted. For shopping searches,
+      people used Google 94% of the time; for information, 76%. For advice they leaned the other way, choosing AI
+      search 54% of the time.
+
+      Some of that advice was commercial. Questions such as "what brands are best for architectural shingles?" or
+      "what is the best dog food for a Shetland sheepdog?" went to the AI. Product-related searches on AI search were
+      still only about 5% of all searches, but they show the comparing-and-choosing stage of buying starting to move.
+    chart: choice
+
+  - h: "Longer questions, fewer clicks"
+    body: |
+      People searched differently on AI. Queries averaged 11 words on Gemini against 4 on Google, and the gap held
+      for every type of search: even shopping queries were twice as long on AI (7.4 words against 3.5). Short
+      "head" terms of two words or fewer, the expensive keywords advertisers bid on most, made up 35% of Google
+      searches but under 5% of AI searches.
+
+      Clicks dropped sharply. People clicked a result in 59% of Google searches and 12% of AI searches, so Google
+      produced about 14 times as many clicks. On Google, shopping and advice searches led to the most clicks; on AI
+      search, every type stayed low, because the answer itself was often enough.
+    chart: clicks
+
+  - h: "What it means for search advertising"
+    body: |
+      The authors draw three conclusions. First, bidding on short head terms on Google is unlikely to suffer soon,
+      because people still type those into Google. The long tail, longer and more specific phrases, is where volume
+      may leak to AI. Second, keyword matching fits AI search poorly: an ad bought on "best drills" matches badly with
+      "what are the best drills for a contractor who works long days, needs to be mobile and works with dense
+      materials". Targeting will need to follow intent, not just words. Third, with so few clicks, pay-per-click may
+      not be the right model for ads inside AI answers.
+
+      For now, the authors say, the most practical lever is making content that AI engines pick up and describe
+      correctly, often called generative engine optimisation, and making websites easy for AI to read.
+
+  - h: "Beyond the search box"
+    body: |
+      This is not only a search-advertising problem. My reading, not tested in the paper, is that any brand content
+      that used to earn a visit, such as buying guides, comparison pages, FAQs and how-to articles, now risks being
+      summarised in an answer the customer never clicks through. The upside is that AI search takes the long,
+      situation-rich questions, which reveal far more about the customer than a two-word keyword.
+
+      Google has meanwhile been putting AI answers into its ordinary results pages, so the line
+      between "Google" and "AI search" is already blurring. The pattern to watch is the one the study shows clearly:
+      people go to AI when they want a judgement, not a list.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your search terms by intent", "Split your keywords and landing pages into shopping, information and advice. The advice group, such as \"best X for Y\" and \"should I\", is the one most likely to move to AI search."]
+  - ["Ask the AI what it says about you", "Put the long questions your customers ask into the main AI search tools. Record whether your brand appears, how it is described and which pages are cited as sources."]
+  - ["Write for long, specific questions", "Create pages that answer real situations: who the product suits, the trade-offs and how it compares. People typed 11-word questions into AI search; give the engine something specific to quote."]
+  - ["Make your site easy for AI to read", "Keep product facts, prices, availability, specifications and reviews in clear, well-structured pages, so AI engines can find and repeat them accurately."]
+  - ["Hold short keywords, review the long tail", "Keep bidding on proven short terms on Google, where people still type them. Watch long-tail volume and cost each month, and move budget if those searches decline."]
+  - ["Measure more than clicks", "Only 12% of AI searches led to a click. Track how often AI answers mention or cite you, and follow branded searches and direct visits, rather than judging AI visibility by traffic alone."]
+
+expect:
+  - "**Google remains the shopping channel for now.** In this study 94% of shopping searches went to Google."
+  - "**Fewer visits from AI answers.** About one AI search in eight led to a click, so visibility there will not show up as much traffic."
+  - "**Gradual pressure on the long tail.** Long, specific searches are the ones moving to AI, so their volume and cost on Google may shift first."
+  - "**Less control over your message.** AI engines rewrite what brands say, and the same question can get a different answer each time."
+
+limits:
+  - "**A small group.** The findings come from 52 people, with heavy drop-out from the original 694 surveyed, so they show patterns, not market shares."
+  - "**One day of searching, while being watched.** People knew their searches were recorded, used a fresh browser profile and were observed for only 24 hours."
+  - "**Fast-moving products.** The data were collected in 2023–2024 with Gemini as a separate tool; AI answers now also appear inside ordinary search pages."
+  - "**Machine-coded intent.** Each search's purpose was classified by GPT-4, which matched human coders about 87% of the time."
+
+faq:
+  - q: "Are people using AI search instead of Google?"
+    a: "Partly. In a 2026 Journal of Advertising Research study that logged real searches, 76% still went to Google and 24% to Google Gemini. People chose AI search for 54% of advice questions but only 6% of shopping searches (Garlough-Shah et al., 2026)."
+  - q: "What kinds of searches do people do on AI search engines?"
+    a: "Mostly questions where they want a judgement or recommendation, such as which product suits a specific need. These queries are long: AI searches averaged 11 words, against 4 on Google."
+  - q: "Do people click links in AI search results?"
+    a: "Rarely. In the study, 12% of AI searches led to a click on a result, against 59% of Google searches, so Google produced about 14 times as many searches with a click (275 against 19)."
+  - q: "How will AI search affect search advertising?"
+    a: "The authors expect short keywords on Google to hold up in the near term, while long-tail keywords lose volume to AI. Keyword matching and pay-per-click fit AI answers poorly, so new ad formats and intent-based targeting are likely."
+  - q: "What is generative engine optimisation (GEO)?"
+    a: "Making your content easy for AI search engines to find, understand and cite accurately, the AI-era counterpart of SEO. The authors suggest it, along with making websites easier for AI to read, as the most practical step for brands today."
+
+also:
+  - doi: "10.1287/mksc.2023.0611"
+    title: "Applying large language models to sponsored search advertising"
+    authors: "Reisenbichler, M., Reutterer, T., & Schweidel, D. A."
+    journal: "Marketing Science"
+    year: 2026
+    text: >-
+      In two field settings, the authors built a tool on top of an open-source language model to write search ads, with
+      a person reviewing the output. Its ads beat those written by people alone and by standard AI models on clicks,
+      but better-performing ads could also raise the cost per click. AI copywriting for search pays when a human stays
+      in the loop and you watch costs as well as clicks.
+  - doi: "10.1002/mar.70105"
+    title: "Optimizing monetization strategies for generative AI firms: Implications for search engagement"
+    authors: "Rosendo-Ríos, V., & Shukla, P."
+    journal: "Psychology & Marketing"
+    year: 2026
+    text: >-
+      Four experiments with 1,063 people tested what happens when an AI chat service adds a cheaper, ad-supported plan.
+      With one ad-supported option, free users upgraded but paying subscribers downgraded. Offering two ad-supported
+      options kept subscribers while still moving free users up. How much the ads interrupted in time, not how much
+      screen they took, shaped the response. If ads come to AI search, how they are packaged and timed matters.
+
+charts:
+  choice:
+    title: "Share of searches done on AI search, by what people wanted"
+    scale: [0, 60]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Shopping", 6.3]
+      - ["Information", 23.8]
+      - ["Advice", 53.6, true]
+    source: "848 searches by 52 US adults over 24 hours; the rest went to Google (16 of 253, 102 of 429 and 89 of 166 searches)."
+  clicks:
+    title: "Share of searches that ended in a click on a result"
+    scale: [0, 80]
+    step: 20
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Google, shopping", 69.2]
+      - ["Google, advice", 66.2]
+      - ["Google, information", 51.8]
+      - ["AI search, shopping", 14.3, true]
+      - ["AI search, information", 13.9, true]
+      - ["AI search, advice", 9.7, true]
+    source: "623 searches logged before Gemini changed how it displays links. The AI shopping figure rests on only 14 searches."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
