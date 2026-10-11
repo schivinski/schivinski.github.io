@@ -1,0 +1,195 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 6
+week_of: "2026-02-16"            # the week this issue covers (shown on the page, orders the archive)
+slug: cart-abandonment
+published: "2026-10-11"
+status: live
+
+title: "Why do shoppers abandon online carts? What a Journal of Consumer Research study found"
+short_title: "Treats in the cart, guilt at checkout"
+dek: >-
+  Carts full of treats get abandoned more than carts full of practical items, because indulgence feels harder to
+  justify. Across almost 15 million items and four experiments, one fix stood out: recommend something practical.
+description: >-
+  Carts with more indulgent items are abandoned more often. Recommending a practical add-on cut abandonment from 4.61
+  to 3.64 out of 7. Here is how to use it.
+keywords: [cart abandonment, why shoppers abandon carts, reduce cart abandonment, e-commerce conversion, product
+  recommendations, hedonic vs utilitarian products, shopping guilt, checkout optimisation, cross-selling, Amazon,
+  Journal of Consumer Research]
+topics: [Retail, Personalization, AI]
+
+image:
+  file: issue-06-cart-abandonment.jpg
+  og: issue-06-cart-abandonment-og.jpg
+  alt: "An empty supermarket trolley left alone in a dim underground car park under cold fluorescent lights"
+  caption: "More than 70% of online carts are left behind. Photo: James Watson on Unsplash."
+
+short_answer: >-
+  Partly because of what is in them. Carts with a higher share of indulgent (hedonic) items, such as chocolates,
+  scented candles or novelty T-shirts, were more likely to be abandoned than carts of practical (utilitarian) items.
+  The whole cart feels more indulgent, and buying it feels more guilt-inducing. Recommending a practical add-on reverses
+  this: shoppers saw the cart as less indulgent, felt less guilty and were less likely to abandon it, even if they
+  added the extra item.
+
+takeaways:
+  - "In a four-item cart, swapping practical items for indulgent ones raised the likelihood of abandoning it from 4.41 to 5.07 out of 7, and raised guilt from 2.66 to 3.71."
+  - "Field data from two online stores, with almost 15 million items bought or abandoned, showed the same pattern: the higher the share of indulgent items, the more often carts were abandoned."
+  - "Recommending a practical item (\"One more item you need\") cut abandonment of a cart holding one treat from 4.61 to 3.64; recommending another treat cut it only to 4.18."
+  - "The practical recommendation worked even when shoppers assumed the item was added, which roughly doubled what they would pay."
+
+paper:
+  doi: "10.1093/jcr/ucag002"
+  title: "The effect of online cart composition on cart abandonment"
+  authors: ["Hadar, L.", "Steinhart, Y.", "Appel, G.", "Shani, Y."]
+  authors_full: ["Liat Hadar", "Yael Steinhart", "Gil Appel", "Yaniv Shani"]
+  year: 2026
+  journal: "Journal of Consumer Research"
+  online: "2026-02-04"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      More than 70% of online shopping carts are abandoned, by industry estimates, and the lost revenue runs into
+      billions a year. Most fixes target the checkout: hidden costs, slow delivery, long forms. Liat Hadar, Yael
+      Steinhart and Yaniv Shani (Tel Aviv University) and Gil Appel (George Washington University) looked instead at
+      what is in the cart.
+
+      They separated hedonic products, bought for pleasure (chocolate truffles, a scented candle, a decorative pillow),
+      from utilitarian products, bought for a practical job (protein bars, emergency candles, a water bottle). Decades
+      of research show that indulgent purchases are harder to justify and make people feel guilty. The question was
+      whether a cart works the same way: does a cart with more treats feel like a guiltier purchase as a whole?
+    facts:
+      - ["Field data", "14.5 million items in 9.8 million sessions at a multicategory online store (2019–2020) and 179,472 sessions at an outdoor gear store (2017–2019)"]
+      - ["Experiments", "4 online experiments with 1,670 US adults, plus 2 more in the web appendix; one preregistered"]
+      - ["Measures", "Real purchase or abandonment in the field; likelihood of abandoning the cart and each item, guilt, and how indulgent the cart felt in the experiments"]
+      - ["Classification", "Product categories rated hedonic or utilitarian by two coders, with a generative AI model resolving disagreements"]
+
+  - h: "What they found"
+    body: |
+      In both stores, carts with a higher ratio of hedonic to utilitarian items were more likely to be abandoned, after
+      accounting for cart value, number of items, items viewed, session length and time of day.
+
+      The experiments showed why. Shoppers imagined an Amazon cart of four items at about $10 each. With three or four
+      indulgent items, they rated themselves more likely to abandon it (5.07 out of 7) than with one or none (4.42 and
+      4.41). The more treats, the more indulgent the whole cart felt and the guiltier people expected to feel buying it,
+      and that chain explained the abandonment. The same held for each item: a practical item was more likely to be
+      dropped when it sat in a cart full of treats. Value for money did not change, so it was not about price.
+    chart: cart
+
+  - h: "Guilt, not necessity"
+    body: |
+      One alternative is that practical items are simply needed, so people keep them. A third experiment ruled this
+      out. A cart with a tote bag plus two indulgent items (faux succulents and a card game) was more likely to be
+      abandoned (5.32) than the same tote bag plus two neutral items (snack bars and a phone stand; 4.73). The
+      difference came from the indulgent items, not from losing a necessity.
+
+      Guilt followed the same pattern: shoppers expected to feel guiltier buying carts with three or four indulgent
+      items (3.56 and 3.71 out of 7) than carts with one or none (2.73 and 2.66).
+    chart: guilt
+
+  - h: "The fix: recommend something practical"
+    body: |
+      Because shoppers judge the cart as a whole, what a store recommends can change how the cart feels. Shoppers with a
+      scented candle and chocolate truffles in their Walmart cart who were shown protein bars and an exercise T-shirt
+      under "People who buy these products frequently buy these items as well" felt less guilty (2.85 against 3.32) and
+      were less likely to abandon the cart (4.38 against 4.86).
+
+      A second test compared recommendations directly. With a tea sampler in the cart, recommending a water bottle
+      ("One more item you need…") lowered abandonment to 3.64, from 4.61 with no recommendation. Recommending a box of
+      chocolates ("One more item to indulge yourself…") helped far less (4.18). Only the practical item made the cart
+      feel less indulgent. It worked whether or not shoppers assumed the bottle had been added, even though that meant
+      paying about twice as much.
+    chart: recs
+
+how_to:
+  - ["Tag products as treats or practical", "Add a hedonic or utilitarian tag to each product category. The authors used two human coders and a generative AI model to settle disagreements; a quick internal rating works as a start."]
+  - ["Steer recommendations toward practical items", "When a cart is mostly indulgent, show useful add-ons such as accessories, refills, basics or care products, rather than more treats. Keep the cart's share of indulgent items low if the suggestion is added."]
+  - ["Use practical framing in the label", "\"One more item you need\" outperformed \"One more item to indulge yourself\". Labels that signal usefulness help the cart feel justified."]
+  - ["Watch indulgent carts in your analytics", "Track abandonment by the share of indulgent items in the cart. Treat-heavy carts are a natural target for basket reminders and guilt-reducing messages."]
+  - ["Discount the treat, not the basics", "The authors suggest that discounts framed on the indulgent item can ease the guilt of buying it, drawing on earlier research on mixed bundles."]
+  - ["A/B test it", "Compare your current recommendation logic with a version that favours practical items for treat-heavy carts, and measure checkout completion and basket value."]
+
+expect:
+  - "**Fewer abandoned carts.** In the experiments, a practical recommendation reduced abandonment likelihood by about 0.5 to 1.0 points on a 7-point scale."
+  - "**Bigger baskets, not smaller.** The effect held even when shoppers assumed the recommended item was in the cart, so the fix can raise order value as well as conversion."
+  - "**Small shifts in real data.** In the field data the effect was consistent but modest, alongside the usual drivers such as price, delivery and browsing without intent."
+  - "**Low cost.** It uses the recommendation engine you already have; only the selection logic and wording change."
+
+limits:
+  - "**Imagined carts.** The experiments used hypothetical carts of $10 items; the effect of recommendations on real checkouts was not tested in the field."
+  - "**Correlational field data.** The store data show an association, not cause, and the share of indulgent items was low (13% and 2% of items)."
+  - "**Wording may matter.** Labels such as \"items you need\" might make shoppers see themselves as sensible buyers; neutral labels like \"related items\" are untested."
+  - "**Online only.** Whether the same happens with physical trolleys in store is unknown."
+
+faq:
+  - q: "Why do customers abandon online shopping carts?"
+    a: "Besides checkout problems such as extra costs, one reason is the cart's contents. A Journal of Consumer Research study found that carts with a higher share of indulgent items are abandoned more often, because the whole cart feels indulgent and buying it triggers guilt (Hadar et al., 2026)."
+  - q: "How can product recommendations reduce cart abandonment?"
+    a: "By suggesting practical items. When a cart held an indulgent item, recommending a practical add-on cut the likelihood of abandoning it from 4.61 to 3.64 out of 7, while recommending another treat cut it only to 4.18."
+  - q: "What is the difference between hedonic and utilitarian products?"
+    a: "Hedonic products are bought for pleasure and enjoyment, such as chocolates, scented candles or decorative pillows. Utilitarian products are bought to do a practical job, such as protein bars, a water bottle or trash bags."
+  - q: "Does adding more items to the cart increase abandonment?"
+    a: "Not if the added item is practical. Shoppers who assumed a recommended practical item had been added were still less likely to abandon the cart, even though the total price roughly doubled."
+  - q: "Do people feel guilty about online shopping?"
+    a: "Yes, especially for indulgent purchases. In the study, expected guilt rose from 2.66 out of 7 for a cart of practical items to 3.71 for a cart of indulgent items, and guilt explained the higher abandonment."
+
+also:
+  - doi: "10.1177/10949968261423544"
+    title: "Theory of machine: Lay beliefs about algorithmic data processing drive recommendation acceptance"
+    authors: "Kozah, A. E., & Valenzuela, A."
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Consumers hold their own theories about what data an AI uses to recommend products, and these beliefs shape
+      whether they take the advice. Across a pilot and four studies, people distinguished three kinds of data and were
+      less accepting when the data seemed to threaten their individuality or its processing felt unacceptable. How you
+      explain the data behind a recommendation can matter as much as the recommendation itself.
+  - doi: "10.1177/10949968261417676"
+    title: "Navigating a changing privacy landscape: The effect of data requests on the acquisition, retention, and deletion of consumers' information"
+    authors: "Kumar, S., Miller, E. G., & Milne, G. R."
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Across six experiments, people shared the least personal information when asked whether a firm could keep their
+      data, and more when offered the option to delete it; in one study the delete option produced 54% more shared data
+      than the keep option. Keep requests leave the action with the firm, which makes people feel vulnerable. Offering
+      visible delete controls can increase, not reduce, what customers share.
+
+charts:
+  cart:
+    title: "Likelihood of abandoning a four-item cart, by number of indulgent items"
+    scale: [1, 7]
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["0 indulgent, 4 practical", 4.41]
+      - ["1 indulgent, 3 practical", 4.42]
+      - ["3 indulgent, 1 practical", 5.07, true]
+      - ["4 indulgent, 0 practical", 5.07, true]
+    source: "Study 2, 601 US adults, imagined Amazon cart of four items at $9–11 each, 1–7 scale."
+  guilt:
+    title: "Expected guilt about buying the cart, by number of indulgent items"
+    scale: [1, 7]
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["0 indulgent", 2.66]
+      - ["1 indulgent", 2.73]
+      - ["3 indulgent", 3.56, true]
+      - ["4 indulgent", 3.71, true]
+    source: "Study 2, 601 US adults, 1–7 scale."
+  recs:
+    title: "Likelihood of abandoning a cart holding a tea sampler, by recommendation shown"
+    scale: [1, 7]
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["No recommendation", 4.61]
+      - ["Treat suggested (chocolates)", 4.18]
+      - ["Practical item suggested (water bottle)", 3.64, true]
+    source: "Study 4B, 457 US adults, 1–7 scale. Labels shown: \"One more item to indulge yourself\" and \"One more item you need\"."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
