@@ -1,0 +1,182 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 9
+week_of: "2026-03-09"            # the week this issue covers (shown on the page, orders the archive)
+slug: social-media-feed-testing
+published: "2026-10-11"
+status: live
+
+title: "Does the content around your social media ad matter? What a Journal of Marketing study found"
+short_title: "Test your ads in the feed, not on a slide"
+dek: >-
+  People meet your ad between memes, news and friends' posts, yet most ads are tested alone. A free tool that
+  recreates a scrollable feed shows how bad neighbours hurt your brand and why holding attention beats ad position.
+description: >-
+  The same airline ad scored lower (4.31 vs 4.82 out of 7) when placed among flood posts. How to pretest social ads in
+  a realistic feed, for free.
+keywords: [brand safety social media, ad context effects, pretest social media ads, social media ad testing, feed
+  experiments, ad recall, attention, dwell time, ad placement, A/B testing limits, Journal of Marketing]
+topics: [Social media, Advertising, Research methods]
+
+image:
+  file: issue-09-social-media-feed-testing.jpg
+  og: issue-09-social-media-feed-testing-og.jpg
+  alt: "A row of people sitting side by side, each scrolling through a smartphone, with one hand and phone in sharp focus"
+  caption: "Every ad competes with everything else in the feed. Photo: Robin Worrall on Unsplash."
+
+short_answer: >-
+  Yes. When the same airline ad for flights to Brazil appeared among posts about deadly floods in Brazil instead of
+  ordinary Brazil content, people rated the airline lower (4.31 against 4.82 out of 7), and the damage grew the longer
+  they looked at the ad. In a second test, ads higher up the feed were remembered more, but only because people spent
+  more time on them. The researchers released a free tool, DICE, that lets brands and researchers test ads inside a
+  realistic scrollable feed before launch.
+
+takeaways:
+  - "An airline ad placed among posts about a flood disaster in the destination lowered brand attitude from 4.82 to 4.31 out of 7, with the same ad in the same position."
+  - "The harm appeared only when people looked at the ad for more than about 2.3 seconds; those who scrolled straight past were unaffected."
+  - "Ads further up a feed were recalled more, but attention explained the effect: once time spent on the ad was counted, position no longer mattered."
+  - "Likes and comments are a poor test signal: only 11% of people liked any of the five ads in a 40-post feed, and 1% replied to one."
+
+paper:
+  doi: "10.1177/00222429251371702"
+  title: "DICE: Advancing social media research through digital in-context experiments"
+  authors: ["Roggenkamp, H.", "Boegershausen, J.", "Hildebrand, C."]
+  authors_full: ["Hauke Roggenkamp", "Johannes Boegershausen", "Christian Hildebrand"]
+  year: 2026
+  journal: "Journal of Marketing"
+  volume: "90"
+  issue: "5"
+  pages: "149–166"
+  online: "2026-02-27"
+  open_access: true
+  licence: "CC BY 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Most social media ads, and most academic studies of them, are tested as a single post: a screenshot shown on its
+      own. But people meet ads in a feed, scrolling past friends' updates, memes, news and other brands' ads. Platform
+      A/B tests are no clean alternative either: the platforms' algorithms show each ad version to different kinds of
+      people, which the authors call divergent delivery, so the comparison is no longer random.
+
+      Hauke Roggenkamp (ETH Zurich), Johannes Boegershausen (Rotterdam School of Management) and Christian Hildebrand
+      (University of St. Gallen) built DICE, Digital In-Context Experiments: a free, open-source app that recreates a
+      scrollable feed in the style of X or LinkedIn. Researchers or brands decide exactly which posts appear and in
+      what order, and the app records how long each post stays on screen (dwell time), plus likes and comments, before
+      handing people on to a survey. They demonstrated it with two studies and interviewed nine marketing managers.
+    facts:
+      - ["Tool", "DICE, a free, open-source app with a no-code setup (dice-app.org); feeds are built from a spreadsheet of posts"]
+      - ["Study 1", "982 US adults, a feed with an airline ad among ordinary or disaster-related posts"]
+      - ["Study 2", "300 US adults under 36, a 40-post feed of memes with five tech-brand ads in random positions"]
+      - ["Measures", "Dwell time per post, likes and comments in the feed, brand attitude, and brand recall"]
+      - ["Interviews", "Nine managers from consumer goods, apparel, food delivery and agencies"]
+
+  - h: "Bad neighbours hurt your brand"
+    body: |
+      Brand safety is the risk of ads appearing next to content that damages the brand, something industry reports say
+      up to 75% of brands have experienced. Testing it on a real platform would risk the very damage it measures.
+
+      In the first study, the same sponsored post from the airline KLM, promoting flights to Brazil, sat fifth in a
+      feed. For half the participants the other posts were ordinary content about Brazil; for the other half they were
+      real posts about the severe flooding in Brazil at the time. People who saw the ad among the flood posts rated
+      KLM lower: 4.31 against 4.82 out of 7.
+
+      Attention made the difference. The more time people spent on the ad, the bigger the penalty from the unsafe
+      context. For people who looked at it for less than about 2.3 seconds, the context had no detectable effect.
+    chart: safety
+
+  - h: "Attention, not position, drives recall"
+    body: |
+      In the second study, five real ads from Apple, Bose, Nintendo, Samsung and Whoop were mixed at random into a feed
+      of 35 memes. Ads placed higher in the feed were more likely to be recalled afterwards. But the reason was
+      attention: ads higher up were looked at for longer, and once the time spent on each ad was taken into account,
+      position no longer predicted recall. Time on the ad explained about half of the position effect.
+
+      Clicks and reactions told much less. Without any prompt to engage, fewer than half of participants liked any post
+      at all, about one in ten liked an ad, and only four people out of 300 replied to one.
+    chart: engagement
+
+  - h: "What managers saw in it"
+    body: |
+      The managers interviewed saw three uses: more transparent insight than platform A/B tests, which "always keep some
+      information to themselves"; a safe sandbox to pretest high-stakes campaigns before spending on media; and a way to
+      compare the brand's own posts against strong influencer and user-generated content. They also valued the
+      behavioural data as a complement to traditional ad copy surveys.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Judge ads in a feed, not alone", "A single screenshot exaggerates how much attention an ad gets. Review creative the way people meet it: between other posts, on a phone, scrolling."]
+  - ["List the contexts you want to avoid", "Decide which topics would hurt your brand next to your ad, such as disasters, conflict or news involving your destination or category, and turn them into exclusion lists for your media buying."]
+  - ["Build a test feed", "Use the free DICE app or a similar mock-up: load your ad, competitors' ads and typical organic posts, randomise their order, and send a link to a panel that matches your target audience."]
+  - ["Track attention and recall, not likes", "Measure how long people stay on your ad and whether they remember the brand afterwards. In-feed likes and comments are too rare to compare versions."]
+  - ["Pause next to bad news", "When a crisis dominates feeds, review or pause campaigns that could appear beside it, especially creative that holds attention, where an unsafe context hurts most."]
+  - ["Read platform A/B tests with care", "Platform tests show each version to different people, so a winner may reflect who saw it rather than the creative. Use feed pretests alongside them to check what really works."]
+
+expect:
+  - "**Context effects are real but moderate.** An unsafe context lowered brand attitude by half a point on a 7-point scale, a meaningful but not dramatic effect."
+  - "**Smaller effects than in single-post tests.** The authors warn that realistic feeds produce smaller, noisier effects, so feed tests need larger samples."
+  - "**Attention as the key metric.** Time on the ad predicted recall better than where it appeared in the feed."
+  - "**Low cost.** The app is free and open source; the main cost is paying a panel of respondents."
+
+limits:
+  - "**Not people's own feeds.** Participants scroll a feed built by the researcher and know they are in a study, without personalised algorithms or real friends."
+  - "**Demonstrations, not definitive tests.** The two case studies were designed to show what the tool can do, not to settle questions about brand safety or ad position."
+  - "**Dwell time is a proxy.** Very short dwell times reliably signal inattention, but longer ones do not always mean more attention."
+  - "**One platform style.** The studies used an X-style feed with US participants; results may differ on video-first platforms such as TikTok or Instagram Reels."
+
+faq:
+  - q: "Does the content around an ad affect how people see the brand?"
+    a: "Yes. In a Journal of Marketing study, the same airline ad was rated lower when it appeared among posts about a flood disaster than among ordinary posts (4.31 against 4.82 out of 7), and the effect grew the longer people looked at the ad (Roggenkamp et al., 2026)."
+  - q: "How can I pretest social media ads in a realistic way?"
+    a: "Place them in a scrollable feed with other posts rather than showing them alone. The free DICE app (dice-app.org) builds such feeds from a spreadsheet, randomises post order and records how long each post stays on screen."
+  - q: "Does ad position in a social media feed matter?"
+    a: "Ads higher in the feed were recalled more, but only because people spent more time on them. Once attention was taken into account, position no longer predicted recall."
+  - q: "Are platform A/B tests reliable for comparing ads?"
+    a: "Not fully. Platforms' algorithms deliver each ad version to different types of users, so differences can reflect the audience rather than the creative. Controlled feed tests can complement them."
+  - q: "What is brand safety on social media?"
+    a: "The risk that ads appear next to content that harms the brand, such as disaster news, hate speech or violence. Industry reports suggest up to 75% of brands have faced it."
+
+also:
+  - doi: "10.1177/10949968251385925"
+    title: "Employee influencers: Leveraging employee advocacy for social media success"
+    authors: "De Kerpel, L., Van Kerckhove, A., Roose, G., & De Kerpel, L."
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Content shared by employees often travels further than posts on official brand pages, but only if employees
+      choose to post it. Using data from an employee advocacy platform and from LinkedIn, the authors show that visual
+      features such as format and image type shape both whether employees share a post and how their networks respond,
+      and that the two do not always want the same thing. Design advocacy content for the sharer as well as the audience.
+  - doi: "10.1177/10949968251393224"
+    title: "Including subjective language or not? How product recommendation language shapes influencers' impact"
+    authors: "Xie, K., Zhang, M., Cai, S., & Wang, Y."
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Analysing 58,659 influencer product posts and running an experiment, the authors find that adding personal,
+      subjective language to objective product facts raised engagement and purchase likelihood, because the post felt
+      more relevant. The benefit shrank for influencers with very large followings and for experience goods. Ask
+      smaller creators to say what they think, not just what the product does.
+
+charts:
+  safety:
+    title: "Attitude toward the airline after the same ad, by the posts around it"
+    scale: [1, 7]
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["Ordinary posts about Brazil", 4.82]
+      - ["Posts about the Brazil floods", 4.31, true]
+    source: "Case Study 1, 982 US adults; the KLM ad was always fifth in the feed. 1–7 scale."
+  engagement:
+    title: "Share of people who reacted in a 40-post feed"
+    scale: [0, 60]
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Liked any post", 48.0]
+      - ["Replied to any post", 10.0]
+      - ["Liked one of the five ads", 10.7, true]
+      - ["Replied to one of the ads", 1.3, true]
+    source: "Case Study 2, 300 US adults under 36, no incentive to engage (144, 30, 32 and 4 people)."
+
+related_pages: [measuring-consumer-engagement-social-media-content]   # paper pages on this site worth linking (slugs)
