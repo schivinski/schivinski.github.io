@@ -110,11 +110,11 @@ sections:
       also drove enjoyment and intention to follow.
     chart: crowd
 
-how_to:
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Go (launch, measure)
   - ["Go live for moments that build relationships", "Product launches, behind-the-scenes sessions, founder or expert Q&As, live shopping and community events are where connection matters most. The studies suggest a recording of the same session will not create the same pull."]
+  - ["Plan freely", "A rehearsed, scripted live session still produced the lift. You do not need risky improvisation; you need real time and a visible human."]
   - ["Make liveness obvious", "The lift came from believing the stream was live. Use the platform's live badge, say the date and time on screen, refer to what is happening now, and avoid formats that look edited."]
   - ["Keep a person on camera", "Put the host's face in view throughout. For demos, slides or gameplay, use picture-in-picture so viewers can see the presenter's reactions alongside the product."]
-  - ["Plan freely", "A rehearsed, scripted live session still produced the lift. You do not need risky improvisation; you need real time and a visible human."]
   - ["Think twice about big viewer counters", "Show audience numbers when you want a sense of community, but do not expect a large crowd to make people feel closer to the host. Small, intimate sessions can engage more."]
   - ["Test live against recorded", "Run the same content live and as a recording and compare watch time, follows, sign-ups or sales. Expect a smaller lift for how-to and training content, where viewers mainly want information."]
 

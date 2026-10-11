@@ -113,13 +113,13 @@ sections:
       they lifted brand liking among people who want a rugged car and lowered it among people who do not. A
       personality-tuned version should go to the segment that values that trait, not to everyone.
 
-how_to:
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Go (launch, measure)
   - ["Collect your category's ads", "Gather a few hundred current paid ads in your category: yours and competitors'. Remove text and logos so the model learns imagery, not words."]
   - ["Rate them once with real customers", "Ask target customers to rate each ad on attention, interest, desire and action (1–7). Five or more ratings per ad were enough in this study."]
-  - ["Keep the top 30", "Fine-tune on the 30 best-rated ads, not on a random sample and not on a mix of best and worst. This was the decisive step."]
-  - ["Teach it your product", "Add 11 to 24 clean product photos from several angles, background removed, so the product is drawn accurately."]
-  - ["Add a brand trait if you need one", "For a personality such as rugged or luxurious, add about two dozen images that express it, under its own trigger word."]
-  - ["Generate many, check, then test live", "Produce dozens of variants, screen out distortions, and A/B test the best against your current creative before scaling."]
+  - ["Train on the top 30 only", "Fine-tune on the 30 best-rated ads, not on a random sample and not on a mix of best and worst. This was the decisive step."]
+  - ["Teach it your product and brand", "Add 11 to 24 clean product photos from several angles, background removed, so the product is drawn accurately. For a personality such as rugged or luxurious, add about two dozen images that express it, under its own trigger word."]
+  - ["Generate many, then screen", "Produce dozens of variants and screen out distortions, odd details and anything off-brand before anyone sees them."]
+  - ["Test live before scaling", "A/B test the best AI images against your current creative on the platforms you use, and scale only what wins on click-through."]
 
 expect:
   - "**A better average, not a guaranteed winner.** AI ads beat the typical conventional ad by about 0.75 points on a 7-point scale; your best human ads can still win."

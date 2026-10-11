@@ -119,12 +119,12 @@ sections:
       with the reviewer.
     chart: words
 
-how_to:
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Go (launch, measure)
   - ["Reply to positive reviews", "Most positive reviews get no answer. A well-worded reply beat no reply in this research, so answering praise is an easy way to stand out from similarly rated competitors."]
   - ["Open with thanks", "Start with a short token of appreciation (\"Thank you!\"). It signals that you agree with the reviewer, which readers expect."]
   - ["Scale down the praise one step", "Answer \"fantastic\" with \"good\" or \"satisfying\", not with the same superlative and not with a neutral word such as \"alright\" or \"reasonable\"."]
   - ["Or credit someone who was part of it", "Thank the reviewer (\"It was a pleasure to serve you\") or a contributor who shaped the experience (\"Our local suppliers are a big help\"). Do not use it to promote unrelated staff or departments."]
-  - ["Do not stop at flattery", "\"You made us blush!\" or \"You're too kind\" show discomfort with praise but do not pass on any credit, and did not help."]
+  - ["Check each reply passes on credit", "\"You made us blush!\" or \"You're too kind\" show discomfort with praise but do not pass on any credit, and did not help. Edit them out before posting."]
   - ["Brief your team and test", "Write two or three approved templates for each type of review, ask whoever manages your listings to use them, and check whether replies attract more \"helpful\" votes."]
 
 expect:

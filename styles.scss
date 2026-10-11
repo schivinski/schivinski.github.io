@@ -649,3 +649,27 @@ main section h2 { margin-top: 2.4rem; }
 .mw-support-btn { background: $amber; color: $ink !important; font-weight: 700; text-decoration: none; padding: .65rem 1.2rem; border-radius: 999px; white-space: nowrap; }
 .mw-support-btn:hover { background: #f0b542; }
 @media (max-width: 600px) { .mw-support { grid-template-columns: auto 1fr; } .mw-support-btn { grid-column: 1 / -1; text-align: center; } }
+
+/* Marketing in 3: "How to apply it in 3 steps" (Ready · Set · Go) */
+.mw-rsg-strap { font-family: $headings-font-family; font-size: 1.15rem; font-weight: 600; letter-spacing: .02em; color: $amber-text; margin: -.4rem 0 1.4rem; }
+.mw-rsg-strap span { color: $rule; margin: 0 .3rem; }
+.mw-rsg { position: relative; counter-reset: rsg; }
+.mw-phase:not(:last-child)::after { content: ""; position: absolute; left: calc(1.25rem - 1px); top: 2.5rem; bottom: 0; width: 2px; background: $amber; opacity: .45; }
+.mw-phase { position: relative; display: grid; grid-template-columns: 2.5rem 8.5rem 1fr; gap: 0 1rem; align-items: start; padding-bottom: 1.6rem; }
+.mw-phase:last-child { padding-bottom: 0; }
+.mw-phase-dot { position: relative; z-index: 1; width: 2.5rem; height: 2.5rem; border-radius: 50%; background: $amber; color: $ink; font-family: $headings-font-family; font-weight: 700; font-size: 1.25rem; display: grid; place-items: center; box-shadow: 0 0 0 5px $paper; }
+.mw-phase-tag { padding-top: .2rem; }
+.mw-phase-name { display: block; font-family: $headings-font-family; font-size: 1.45rem; font-weight: 700; color: $ink; line-height: 1.1; }
+.mw-phase-sub { display: block; font-size: .8rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: $muted; margin-top: .25rem; }
+.mw-rsg-steps { list-style: none; margin: 0; padding: .2rem 0 .2rem 1.2rem; border-left: 3px solid $amber; }
+.mw-rsg-steps li { counter-increment: rsg; position: relative; padding: 0 0 .9rem 2.4rem; }
+.mw-rsg-steps li:last-child { padding-bottom: 0; }
+.mw-rsg-steps li::before { content: counter(rsg); position: absolute; left: 0; top: -.05rem; width: 1.7rem; height: 1.7rem; border-radius: 50%; background: $ink; color: #fff; font-weight: 600; font-size: .85rem; display: grid; place-items: center; }
+@media (max-width: 640px) {
+  .mw-phase { grid-template-columns: 2.5rem 1fr; gap: .5rem .9rem; }
+  .mw-phase-tag { grid-column: 2; padding-top: .35rem; }
+  .mw-rsg-steps { grid-column: 2; padding-left: .8rem; }
+  .mw-rsg-steps li { padding-left: 2.2rem; }
+  .mw-phase-name { display: inline; font-size: 1.3rem; margin-right: .5rem; }
+  .mw-phase-sub { display: inline; }
+}

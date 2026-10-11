@@ -109,13 +109,13 @@ sections:
       authors warn that AI negotiators could quietly erode customer and supplier relationships.
     chart: relationship
 
-how_to:
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Go (launch, measure)
+  - ["Keep people for relationship deals", "Use AI for high-volume, low-stakes, one-off negotiations, and keep human negotiators, or human review, where repeat business and trust matter most."]
   - ["Measure more than the deal", "When piloting AI in sales, procurement or pricing negotiations, track satisfaction, trust and willingness to deal again, not just margin and close rate."]
   - ["Avoid purely mechanical bargaining logic", "Predictable rules, such as conceding near a deadline, invite exploitation. Some human-like variability protected earnings in this study."]
   - ["Disclose that it is AI", "Presenting the bot as a person did not improve how people felt, so there is little to gain from hiding it. Rules such as the EU AI Act's transparency duties also require telling people when they deal with an AI."]
-  - ["Keep people for relationship deals", "Use AI for high-volume, low-stakes, one-off negotiations, and keep human negotiators, or human review, where repeat business and trust matter most."]
-  - ["Make bots remember", "The authors point to memory across rounds as the missing piece: AI that recognises and responds to the other party's signals over time may close the relationship gap."]
   - ["Test with your own counterparts", "Run controlled pilots with real customers or suppliers before scaling, and compare outcomes and satisfaction against human negotiators."]
+  - ["Make bots remember", "The authors point to memory across rounds as the missing piece: AI that recognises and responds to the other party's signals over time may close the relationship gap."]
 
 expect:
   - "**Better deals per negotiation.** The best bot earned about 18% to 21% more than people playing the same role."

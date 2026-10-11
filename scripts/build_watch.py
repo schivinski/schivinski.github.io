@@ -36,6 +36,27 @@ INK, AMBER, BAR, MUTED, RULE = "#15203b", "#e0a12a", "#aab3c5", "#5b6476", "#dde
 
 
 
+
+PHASES = [("Ready", "Decide and prepare"), ("Set", "Build it"), ("Go", "Launch and measure")]
+
+
+def how_to_html(steps: list) -> str:
+    """'How to apply it in 3 steps': six steps grouped as Ready (1-2), Set (3-4), Go (5-6)."""
+    if len(steps) != 6:  # fallback: plain numbered list
+        return ('<section id="how-to-apply-it"><h2>How to apply it</h2><ol class="mw-steps">'
+                + "".join(f"<li><strong>{esc(a)}.</strong> {md(b)}</li>" for a, b in steps) + "</ol></section>")
+    out = ['<section id="how-to-apply-it" class="mw-howto"><h2>How to apply it in 3 steps</h2>'
+           '<p class="mw-rsg-strap" aria-hidden="true">Ready <span>·</span> Set <span>·</span> Go</p><div class="mw-rsg">']
+    for i, (name, sub) in enumerate(PHASES):
+        pair = steps[2 * i: 2 * i + 2]
+        out.append(f'<div class="mw-phase"><div class="mw-phase-dot" aria-hidden="true">{i + 1}</div>'
+                   f'<div class="mw-phase-tag"><span class="mw-phase-name">{name}</span>'
+                   f'<span class="mw-phase-sub">{sub}</span></div>'
+                   f'<ol class="mw-rsg-steps" start="{2 * i + 1}">'
+                   + "".join(f"<li><strong>{esc(a)}.</strong> {md(b)}</li>" for a, b in pair) + "</ol></div>")
+    out.append("</div></section>")
+    return "".join(out)
+
 def support_card() -> str:
     """'Buy me a pint' card from watch/support.yml; empty until a support URL is set."""
     f = ROOT / "watch" / "support.yml"
@@ -143,8 +164,7 @@ def body(d: dict, prev_next: tuple) -> str:
         if s.get("chart"):
             out.append(chart_svg(charts[s["chart"]], f"chart-{s['chart']}"))
         out.append("</section>")
-    out.append('<section id="how-to-apply-it"><h2>How to apply it</h2><ol class="mw-steps">'
-               + "".join(f"<li><strong>{esc(a)}.</strong> {md(b)}</li>" for a, b in d["how_to"]) + "</ol></section>")
+    out.append(how_to_html(d["how_to"]))
     out.append('<section id="what-to-expect"><h2>What to expect</h2><ul class="mw-list">'
                + "".join(f"<li>{md(x)}</li>" for x in d["expect"]) + "</ul></section>")
     out.append('<section id="where-it-does-not-work"><h2>Where it does not work</h2><ul class="mw-list">'

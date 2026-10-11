@@ -108,11 +108,11 @@ sections:
       statistically significant on their own, but the size of the gap matched the large-scale data.
     chart: requests
 
-how_to:
-  - ["Send review requests on weekdays", "Schedule post-purchase, post-stay or post-service review emails, texts and app prompts for Monday to Friday. Weekday requests drew more responses and slightly better ratings."]
-  - ["Mind public holidays too", "Holidays behaved like weekends. Avoid sending requests on public holidays in your customers' country or region."]
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Go (launch, measure)
   - ["Protect listings with few reviews", "A single weekend 1-star review can pull a three-review product from 4 to 3.25 stars. Prioritise weekday requests for new or niche products, locations and job listings."]
   - ["Watch employer reviews closely", "Employer and workplace platforms showed the largest effect. HR teams prompting staff to review on Glassdoor, Indeed or kununu should do it on working days."]
+  - ["Send review requests on weekdays", "Schedule post-purchase, post-stay or post-service review emails, texts and app prompts for Monday to Friday. Weekday requests drew more responses and slightly better ratings."]
+  - ["Mind public holidays too", "Holidays behaved like weekends. Avoid sending requests on public holidays in your customers' country or region."]
   - ["Read weekend reviews in context", "When monitoring ratings, compare weekday and weekend averages before reacting. A dip after a weekend may reflect who reviewed, not a fall in quality."]
   - ["For platforms: show the pattern", "The authors suggest platforms could show ratings by day of the week or let users filter weekday and weekend reviews, as some already show the star distribution."]
 
