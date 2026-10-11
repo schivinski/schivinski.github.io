@@ -640,3 +640,12 @@ main section h2 { margin-top: 2.4rem; }
   .mt-ctas .mt-btn { width: 100%; }
 }
 @media (prefers-reduced-motion: reduce) { .mt-btn { transition: none; } }
+
+/* Marketing in 3: "Buy me a pint" support card (shown when watch/support.yml has a URL) */
+.mw-support { display: grid; grid-template-columns: auto 1fr auto; gap: 1rem 1.2rem; align-items: center; background: $ink; color: #fff; border-radius: 10px; padding: 1.2rem 1.4rem; margin: 0 0 1.6rem; }
+.mw-support p { margin: 0; font-size: .98rem; line-height: 1.5; color: #e7eaf1; }
+.mw-support-icon { width: 2.8rem; height: 2.8rem; border-radius: 50%; background: $ink-soft; color: $amber; display: grid; place-items: center; }
+.mw-support-icon svg { width: 1.4rem; height: 1.4rem; }
+.mw-support-btn { background: $amber; color: $ink !important; font-weight: 700; text-decoration: none; padding: .65rem 1.2rem; border-radius: 999px; white-space: nowrap; }
+.mw-support-btn:hover { background: #f0b542; }
+@media (max-width: 600px) { .mw-support { grid-template-columns: auto 1fr; } .mw-support-btn { grid-column: 1 / -1; text-align: center; } }

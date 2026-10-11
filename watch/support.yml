@@ -1,0 +1,7 @@
+# "Buy me a pint" support card, shown at the end of every Marketing in 3 issue.
+# The card stays hidden while `url` is empty. Paste the Ko-fi page address to switch it on.
+url: ""
+button: "Buy me a pint"
+text: >-
+  If this issue saved you a meeting or sharpened a campaign, buy me a pint. It keeps Marketing in 3 free, weekly
+  and ad-free.

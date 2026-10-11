@@ -35,6 +35,20 @@ AUTHOR = {
 INK, AMBER, BAR, MUTED, RULE = "#15203b", "#e0a12a", "#aab3c5", "#5b6476", "#dde1e8"
 
 
+
+def support_card() -> str:
+    """'Buy me a pint' card from watch/support.yml; empty until a support URL is set."""
+    f = ROOT / "watch" / "support.yml"
+    cfg = yaml.safe_load(f.read_text(encoding="utf-8")) if f.exists() else {}
+    url = (cfg or {}).get("url") or ""
+    if not url:
+        return ""
+    icon = (ROOT / "assets" / "icons" / "beer.svg").read_text(encoding="utf-8")
+    icon = re.sub(r"<!--.*?-->", "", icon, flags=re.S).strip().replace("<svg", '<svg aria-hidden="true"', 1)
+    return (f'<div class="mw-support" role="complementary" aria-label="Support Marketing in 3"><div class="mw-support-icon">{icon}</div>'
+            f'<p>{esc(cfg.get("text", ""))}</p>'
+            f'<a class="mw-support-btn" href="{esc(url)}" target="_blank" rel="noopener">{esc(cfg.get("button", "Buy me a pint"))}</a></div>')
+
 def esc(x) -> str:
     return html.escape(str(x or ""), quote=True)
 
@@ -153,6 +167,7 @@ def body(d: dict, prev_next: tuple) -> str:
                'Technology. He studies how consumers engage with brands in digital and social media.</p>'
                '<p><a href="../../../index.html">About Bruno</a> · <a href="../../index.html">All Marketing in 3 issues</a> · '
                '<a href="../../subscribe.html">Subscribe</a></p></div></div>')
+    out.append(support_card())
     prev, nxt = prev_next
     nav = []
     if prev:
