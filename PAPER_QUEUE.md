@@ -25,8 +25,8 @@ otherwise Crossref. Only journal articles get full pages.
 | # | Year | Paper | Journal | Cited | Status |
 |---|---|---|---|---|---|
 | 11 | 2021 | Measurement and Conceptualization of Gaming Disorder According to the World Health Orga… | International Journal of Mental Health and Addiction | 419 | locked (`gaming-disorder-test`) |
-| 12 | 2019 | The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish R… | Central European Management Journal | 25 |  |
-| 13 | 2024 | What if utilitarian products are regarded as high-status? The moderate role of iconic a… | Journal of Marketing Communications | 23 |  |
+| 12 | 2024 | What if utilitarian products are regarded as high-status? The moderate role of iconic a… | Journal of Marketing Communications | 23 | locked (`utilitarian-products-high-status-brand-coolness`) |
+| 13 | 2025 | City branding’s influence on social media engagement: the cool factor | Journal of Product and Brand Management | 6 |  |
 
 ## Newest to oldest (68)
 
@@ -39,41 +39,41 @@ otherwise Crossref. Only journal articles get full pages.
 | 18 | 2026 | The role of videogame genre and platform in gaming disorder tendencies: A large-scale w… | Journal of Behavioral Addictions | 0 |  |
 | 19 | 2026 | Wine Online and Digital Decanting: Naturalness Effects in Large-Scale Consumer Reviews … | Wine Economics and Policy | 0 |  |
 | 20 | 2025 | A longitudinal analysis of the network structure of internet gaming disorder and its as… | Behaviour and Information Technology | 6 |  |
-| 21 | 2025 | City branding’s influence on social media engagement: the cool factor | Journal of Product and Brand Management | 6 |  |
-| 22 | 2025 | Consumer perceptions of date labelling and storage advice and its relationship with foo… | Future Foods | 32 |  |
-| 23 | 2025 | Online flow experience: The contribution of distinct depressive profiles. | Canadian Journal of Behavioural Science | 1 |  |
-| 24 | 2025 | The Internet Gaming Disorder Scale 9-Short Form: longitudinal measurement invariance ac… | Clinical Psychologist | 4 |  |
-| 25 | 2024 | Circular practices in the hospitality sector regarding food waste | Journal of Cleaner Production | 68 |  |
-| 26 | 2024 | Emerging adult gamers and their diet – a socio-ecological approach to improve health be… | Journal of Social Marketing | 10 |  |
-| 27 | 2024 | Exploring the role of brand experience in driving consumer emotions and engagement with… | Scientific Papers of Silesian University of Technology Organization and Management Series | 0 |  |
-| 28 | 2024 | In the eye of the (fire)storm: better safe or sorry? Crisis communication strategies fo… | Journal of Marketing Communications | 38 |  |
-| 29 | 2024 | Machine Learning(s) in gaming disorder through the user-avatar bond: A step towards con… | Journal of Behavioral Addictions | 2 |  |
-| 30 | 2024 | Place branding: Religion in shaping the three-dimensional essence of a city brand throu… | Plos One | 13 |  |
-| 31 | 2024 | Smart TV Users and Interfaces: Who’s in Control? | International Journal of Communication | 8 |  |
-| 32 | 2024 | Translating the user-avatar bond into depression risk: A preliminary machine learning s… | Journal of Psychiatric Research | 25 |  |
-| 33 | 2024 | “What Are You Eating?” Is the Influence of Fortnite Streamers Expanding Beyond the Game? | Journal of Electronic Gaming and Esports | 8 |  |
-| 34 | 2023 | Consumer Perceptions of Food Packaging in Its Role in Fighting Food Waste | Sustainability | 57 |  |
-| 35 | 2023 | Many analysts and few incentives | Religion Brain and Behavior | 9 |  |
-| 36 | 2023 | Problematic Online Behaviors Among Gamers: the Links Between Problematic Gaming, Gambli… | International Journal of Mental Health and Addiction | 86 |  |
-| 37 | 2023 | The effect of social media communication on intention to vaccinate against COVID-19: A … | Journal of Marketing Communications | 4 |  |
-| 38 | 2022 | A many-analysts approach to the relation between religiosity and well-being | Religion, Brain & Behavior | 169 |  |
-| 39 | 2022 | Correction to: Problematic Online Behaviors Among Gamers: the Links Between Problematic… | International Journal of Mental Health and Addiction | 1 |  |
-| 40 | 2022 | Disordered gaming, loneliness, and family harmony in gamers before and during the COVID… | Addictive Behaviors Reports | 51 |  |
-| 41 | 2022 | Improving the Health of Emerging Adult Gamers—A Scoping Review of Influences | Nutrients | 26 |  |
-| 42 | 2022 | Individualism/collectivism and perceived consumer effectiveness: The moderating role of… | Journal of Consumer Behaviour | 50 |  |
-| 43 | 2022 | Investigating gaming disorder and individual differences in gaming motives among profes… | Addictive Behaviors | 38 |  |
-| 44 | 2022 | Masculine men do not like feminine wording: The effectiveness of gendered wording in he… | PLOS ONE | 10 |  |
-| 45 | 2022 | Network analyses of internet gaming disorder symptoms and their links with different ty… | BMC Psychiatry | 64 |  |
-| 46 | 2022 | Online Gambling Disorder Questionnaire (OGD-Q): An item response theory examination | Addictive Behaviors Reports | 24 |  |
-| 47 | 2022 | The interplay between time spent gaming and disordered gaming: A large-scale world-wide… | Social Science & Medicine | 174 |  |
-| 48 | 2021 | Empirical evidence for robust personality-gaming disorder associations from a large-sca… | PLOS ONE | 30 |  |
-| 49 | 2021 | Is the proposed distinction of gaming disorder into a predominantly online vs. offline … | Addictive Behaviors Reports | 55 |  |
-| 50 | 2021 | Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scopi… | Nutrients | 25 |  |
-| 51 | 2020 | Exploring the Role of Social Media Use Motives, Psychological Well-Being, Self-Esteem, … | Frontiers in Psychology | 236 |  |
-| 52 | 2020 | How values of individualism and collectivism influence impulsive buying and money budge… | Journal of Consumer Behaviour | 85 |  |
-| 53 | 2020 | Proteus Effect Profiles: How Do They Relate with Disordered Gaming Behaviours? | Psychiatric Quarterly | 46 |  |
-| 54 | 2019 | Laxer Clinical Criteria for Gaming Disorder May Hinder Future Efforts to Devise an Effi… | Journal of Clinical Medicine | 49 |  |
-| 55 | 2019 | Psychopathological symptoms and gaming motives in disordered gaming—a psychometric comp… | Journal of Clinical Medicine | 175 | locked (`gaming-motives-who-apa`) |
+| 21 | 2025 | Consumer perceptions of date labelling and storage advice and its relationship with foo… | Future Foods | 32 |  |
+| 22 | 2025 | Online flow experience: The contribution of distinct depressive profiles. | Canadian Journal of Behavioural Science | 1 |  |
+| 23 | 2025 | The Internet Gaming Disorder Scale 9-Short Form: longitudinal measurement invariance ac… | Clinical Psychologist | 4 |  |
+| 24 | 2024 | Circular practices in the hospitality sector regarding food waste | Journal of Cleaner Production | 68 |  |
+| 25 | 2024 | Emerging adult gamers and their diet – a socio-ecological approach to improve health be… | Journal of Social Marketing | 10 |  |
+| 26 | 2024 | Exploring the role of brand experience in driving consumer emotions and engagement with… | Scientific Papers of Silesian University of Technology Organization and Management Series | 0 |  |
+| 27 | 2024 | In the eye of the (fire)storm: better safe or sorry? Crisis communication strategies fo… | Journal of Marketing Communications | 38 |  |
+| 28 | 2024 | Machine Learning(s) in gaming disorder through the user-avatar bond: A step towards con… | Journal of Behavioral Addictions | 2 |  |
+| 29 | 2024 | Place branding: Religion in shaping the three-dimensional essence of a city brand throu… | Plos One | 13 |  |
+| 30 | 2024 | Smart TV Users and Interfaces: Who’s in Control? | International Journal of Communication | 8 |  |
+| 31 | 2024 | Translating the user-avatar bond into depression risk: A preliminary machine learning s… | Journal of Psychiatric Research | 25 |  |
+| 32 | 2024 | “What Are You Eating?” Is the Influence of Fortnite Streamers Expanding Beyond the Game? | Journal of Electronic Gaming and Esports | 8 |  |
+| 33 | 2023 | Consumer Perceptions of Food Packaging in Its Role in Fighting Food Waste | Sustainability | 57 |  |
+| 34 | 2023 | Many analysts and few incentives | Religion Brain and Behavior | 9 |  |
+| 35 | 2023 | Problematic Online Behaviors Among Gamers: the Links Between Problematic Gaming, Gambli… | International Journal of Mental Health and Addiction | 86 |  |
+| 36 | 2023 | The effect of social media communication on intention to vaccinate against COVID-19: A … | Journal of Marketing Communications | 4 |  |
+| 37 | 2022 | A many-analysts approach to the relation between religiosity and well-being | Religion, Brain & Behavior | 169 |  |
+| 38 | 2022 | Correction to: Problematic Online Behaviors Among Gamers: the Links Between Problematic… | International Journal of Mental Health and Addiction | 1 |  |
+| 39 | 2022 | Disordered gaming, loneliness, and family harmony in gamers before and during the COVID… | Addictive Behaviors Reports | 51 |  |
+| 40 | 2022 | Improving the Health of Emerging Adult Gamers—A Scoping Review of Influences | Nutrients | 26 |  |
+| 41 | 2022 | Individualism/collectivism and perceived consumer effectiveness: The moderating role of… | Journal of Consumer Behaviour | 50 |  |
+| 42 | 2022 | Investigating gaming disorder and individual differences in gaming motives among profes… | Addictive Behaviors | 38 |  |
+| 43 | 2022 | Masculine men do not like feminine wording: The effectiveness of gendered wording in he… | PLOS ONE | 10 |  |
+| 44 | 2022 | Network analyses of internet gaming disorder symptoms and their links with different ty… | BMC Psychiatry | 64 |  |
+| 45 | 2022 | Online Gambling Disorder Questionnaire (OGD-Q): An item response theory examination | Addictive Behaviors Reports | 24 |  |
+| 46 | 2022 | The interplay between time spent gaming and disordered gaming: A large-scale world-wide… | Social Science & Medicine | 174 |  |
+| 47 | 2021 | Empirical evidence for robust personality-gaming disorder associations from a large-sca… | PLOS ONE | 30 |  |
+| 48 | 2021 | Is the proposed distinction of gaming disorder into a predominantly online vs. offline … | Addictive Behaviors Reports | 55 |  |
+| 49 | 2021 | Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scopi… | Nutrients | 25 |  |
+| 50 | 2020 | Exploring the Role of Social Media Use Motives, Psychological Well-Being, Self-Esteem, … | Frontiers in Psychology | 236 |  |
+| 51 | 2020 | How values of individualism and collectivism influence impulsive buying and money budge… | Journal of Consumer Behaviour | 85 |  |
+| 52 | 2020 | Proteus Effect Profiles: How Do They Relate with Disordered Gaming Behaviours? | Psychiatric Quarterly | 46 |  |
+| 53 | 2019 | Laxer Clinical Criteria for Gaming Disorder May Hinder Future Efforts to Devise an Effi… | Journal of Clinical Medicine | 49 |  |
+| 54 | 2019 | Psychopathological symptoms and gaming motives in disordered gaming—a psychometric comp… | Journal of Clinical Medicine | 175 | locked (`gaming-motives-who-apa`) |
+| 55 | 2019 | The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish R… | Central European Management Journal | 25 |  |
 | 56 | 2019 | The influence of interpersonal motivation on polish consumers’ online brand-related act… | Argumenta Oeconomica | 5 |  |
 | 57 | 2019 | THE INFLUENCE OF SOCIAL MEDIA COMMUNICATION ON CONSUMER’S ATTITUDES AND BEHAVIORAL INTE… |  | 66 |  |
 | 58 | 2018 | An empirical analysis of the nine Internet Gaming Disorder criteria | Journal of Behavioral Addictions | 0 |  |

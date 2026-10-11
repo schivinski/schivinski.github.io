@@ -9,14 +9,15 @@ slots: 3
 pinned:
   - doi: "10.1007/s11469-019-00088-z"
     blurb: "A free four-item test of gaming disorder built on the World Health Organization (ICD-11) criteria, validated with 560 gamers in China and the UK."
-never: []
+never:
+  - "10.7206/cemj.2658-0845.1"   # Central European Management Journal 2019: not Q1 (Bruno, 11 Oct 2026)
 fallback:
   - "10.1108/jpbm-04-2025-5959"
   - "10.1108/jpbm-09-2025-6337"
   - "10.1080/13527266.2022.2109056"
 blurbs:
   "10.7206/cemj.2658-0845.1": "A survey of 777 consumers of Polish online restaurants shows that positive online reviews lift every dimension of brand equity, while negative reviews mainly hurt perceived quality and brand loyalty."
-  "10.1080/13527266.2022.2152077": "In an experiment with 428 consumers, hedonic beauty brands were seen as high-status, and utilitarian brands could earn the same status when they were seen as popular."
+  "10.1080/13527266.2022.2152077": "In an experiment with 428 participants, a meme for a hedonic beauty brand was seen as more high-status than one for a utilitarian brand, and how popular the brand seemed shaped the size of that gap."
   "10.1108/jpbm-04-2025-5959": "A survey of 537 consumers who follow their city on social media shows that city branding shapes cognitive, emotional and behavioural engagement, partly through how cool the city brand is seen to be."
   "10.1108/jpbm-09-2025-6337": "In 662 non-British consumers living in the UK, individualism raised the need for uniqueness and, through it, the desire for unique products, an effect amplified by acculturation to global consumer culture."
   "10.1080/13527266.2022.2109056": "How brands should answer online complaints before they become firestorms: an apology works best overall, while corrective actions perform as well for specific complaint triggers."

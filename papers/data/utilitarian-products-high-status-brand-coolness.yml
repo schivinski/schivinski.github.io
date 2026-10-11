@@ -1,0 +1,273 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Marketing Communications 30(4), 508-528 (open access, CC BY-NC-ND 4.0; PDF supplied by Bruno, 11 Oct 2026)
+# Status: locked on Bruno's instruction to publish straight away after the page is built (11 Oct 2026)
+status: locked
+
+title: "What if utilitarian products are regarded as high-status? The moderate role of iconic and popular as two dimensions of brand coolness"
+doi: "10.1080/13527266.2022.2152077"
+journal: "Journal of Marketing Communications"
+issn: "1352-7266"
+publisher: "Taylor & Francis"
+volume: "30"
+issue: "4"
+pages: "508–528"
+published: "2024-05"
+published_label: "2024 (online 1 December 2022)"
+online: "2022-12-01"
+open_access: true
+licence: "CC BY-NC-ND 4.0"
+licence_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+# CC BY-NC-ND allows verbatim, non-commercial copies only, so the hosted PDF is the publisher's open access file,
+# unchanged (no re-typesetting).
+aam:
+  file: "aleem-loureiro-schivinski-aguiar-2024-jmc-open-access.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article exactly as published (CC BY-NC-ND 4.0). Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives
+    4.0 International License (http://creativecommons.org/licenses/by-nc-nd/4.0/). Published by Informa UK Limited,
+    trading as Taylor & Francis Group, in Journal of Marketing Communications, 30(4), 508-528,
+    https://doi.org/10.1080/13527266.2022.2152077. Reproduced without changes.
+
+authors:
+  - given: "Aihoor"
+    family: "Aleem"
+    orcid: "0000-0002-3707-5511"
+    affiliation: ["ISCTE-Instituto Universitário de Lisboa"]
+  - given: "Sandra Maria Correia"
+    family: "Loureiro"
+    affiliation: ["ISCTE-Instituto Universitário de Lisboa"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Marta"
+    family: "Aguiar"
+    affiliation: ["ISCTE-Instituto Universitário de Lisboa"]
+
+cite_short: "Aleem et al., 2024"
+badges: ["Online experiment", "428 participants", "Pre-tested stimuli", "Moderation analysis (PROCESS)"]
+keywords:
+  # Article's own keywords
+  - brand coolness
+  - iconic
+  - popular
+  - high-status
+  - meme
+  # What the study is about
+  - internet memes
+  - image macros
+  - meme marketing
+  - social media marketing
+  - brand communication
+  - status consumption
+  - status signalling
+  - mass cool brands
+  - luxury brands
+  - hedonic products
+  - utilitarian products
+  - hedonic versus utilitarian consumption
+  - beauty brands
+  - cosmetics marketing
+  - consumer perceptions of brands
+  # Theory and constructs
+  - status consumption theory
+  - symbolic consumption
+  - dimensions of brand coolness
+  - brand popularity
+  - iconic brands
+  # Method
+  - online experiment
+  - between-subjects design
+  - moderation analysis
+  - PROCESS macro (Model 1)
+  - Amazon Mechanical Turk
+  - stimulus pre-test
+  # Application
+  - social media content strategy
+  - digital marketing communications
+  - brand positioning
+  - viral marketing
+
+in_brief: >-
+  A meme for a hedonic beauty brand (Dior) was seen as more high-status than the same meme for a utilitarian brand
+  (Colgate), and the gap grew the more popular and iconic the brand was perceived to be. In an online experiment with
+  428 participants, perceived popularity moderated the effect most strongly, which the authors read as a route to
+  status for everyday utilitarian brands.
+
+findings:
+  - headline: "Popularity widens the status gap between hedonic and utilitarian brand memes."
+    text: >-
+      In an online experiment with 428 Amazon Mechanical Turk participants who saw the same internet meme for either a
+      hedonic (Dior) or a utilitarian (Colgate) beauty brand, perceived brand popularity moderated the effect of meme
+      type on high-status perceptions (interaction &beta; = 0.59, <i>SE</i> = 0.11, 95% CI [0.38, 0.80]); the
+      hedonic meme's advantage rose from 0.46 at low popularity to 1.05 at the mean and 1.63 at high popularity
+      (Aleem et al., 2024).
+  - headline: "When a brand is not seen as iconic, hedonic and utilitarian memes look equally high-status."
+    text: >-
+      Perceived iconicity also moderated the effect of meme type on high-status perceptions (&beta; = 0.43,
+      <i>SE</i> = 0.11, 95% CI [0.22, 0.64]). At low iconicity (&minus;1 SD) the two memes did not differ (0.32,
+      95% CI [&minus;0.08, 0.72]); at high iconicity (+1 SD) the hedonic meme scored 1.23 higher (95% CI [0.83, 1.63])
+      (Aleem et al., 2024).
+  - headline: "Brands seen as popular or iconic are also seen as high-status."
+    text: >-
+      Across the 428 participants, high-status perceptions correlated with perceived popularity (<i>r</i> = .55) and
+      perceived iconicity (<i>r</i> = .56), both <i>p</i> &lt; .001, and popularity and iconicity correlated with each
+      other (<i>r</i> = .77) (Aleem et al., 2024).
+  - headline: "Utilitarian brands are not shut out of high status."
+    text: >-
+      The authors conclude that hedonic brands are perceived as high-status when they are also seen as iconic and
+      popular, and that utilitarian brands can be associated with high status through the popular dimension of brand
+      coolness; the iconic hypothesis (H1) was partially supported and the popular hypothesis (H2) fully supported
+      (Aleem et al., 2024).
+
+glance:
+  - { label: "Design", value: "Between-subjects online experiment with two conditions (utilitarian vs hedonic brand meme), after a stimulus pre-test" }
+  - { label: "Pre-test", value: "186 MTurk participants classified eight personal beauty brands; Colgate was seen as utilitarian by 98.4% (n = 183) and Dior as hedonic by 89.9% (n = 167)" }
+  - { label: "Participants", value: "428 Amazon Mechanical Turk participants (50.9% women), 214 per condition; survey in English" }
+  - { label: "Stimuli", value: "The same &lsquo;Lolcat&rsquo; meme image, made with the Imgflip generator, with the brand logo and a brand-specific caption" }
+  - { label: "Measures", value: "Three dimensions of brand coolness (Warren et al., 2019) on 5-point scales: iconic (2 items, Spearman&rsquo;s &rho; = 0.75), popular (4 items, &alpha; = 0.92) and high-status (4 items, &alpha; = 0.87)" }
+  - { label: "Analysis", value: "Moderation with PROCESS Model 1 (Hayes, 2018) in IBM SPSS 28, 10,000 bootstrap samples; controls for age, gender and purchase frequency of Colgate and Dior" }
+
+figures:
+  - file: figures/aleem-et-al-2024-model.svg
+    title: "Figure 1. Conceptual model"
+    caption: "Iconic (H1) and popular (H2) brand coolness as moderators of the effect of meme type (utilitarian vs hedonic) on high-status perception. Each moderator was tested in a separate model with the same controls."
+  - file: figures/aleem-et-al-2024-conditional-effects.svg
+    title: "Figure 2. Effect of meme type at low, mean and high levels of each moderator"
+    caption: "Conditional effects of the hedonic (vs utilitarian) meme on high-status perception, with bootstrap 95% confidence intervals, at one standard deviation below the mean, at the mean and one standard deviation above it. Redrawn from Table 3 of the article (N = 428). Positive values mean the hedonic meme was rated more high-status."
+
+tables:
+  - id: "2"
+    title: "Descriptive statistics and correlations across variables"
+    columns: ["", "&alpha;", "<i>M</i>", "<i>SD</i>", "1", "2", "3"]
+    align: ["left", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["1. BC &ndash; High-status", "0.87", "3.02", "1.08", "&ndash;", "0.55***", "0.56***"]
+      - ["2. BC &ndash; Popular", "0.92", "3.36", "0.99", "&ndash;", "&ndash;", "0.77***"]
+      - ["3. BC &ndash; Iconic", "0.75^{†}", "3.13", "1.06", "&ndash;", "&ndash;", "&ndash;"]
+      - ["Gender", "&ndash;", "&ndash;", "&ndash;", "&minus;0.13*", "&minus;0.03", "&minus;0.02"]
+      - ["Age", "&ndash;", "1.06", "1.07", "&minus;0.21**", "0.06", "0.07"]
+      - ["Colgate purchase frequency", "&ndash;", "1.24", "1.54", "&minus;0.15*", "0.03", "&minus;0.01"]
+      - ["Dior purchase frequency", "&ndash;", "0.78", "1.58", "&minus;0.06", "0.06", "0.05"]
+    note: "BC = brand coolness; * <i>p</i> &lt; 0.05; ** <i>p</i> &lt; 0.01; *** <i>p</i> &lt; 0.001; <i>M</i> = mean; <i>SD</i> = standard deviation. ^{†} Spearman&rsquo;s &rho; for the two-item scale. As published."
+  - id: "3"
+    title: "Moderation results, with iconic and popular as moderators (PROCESS Model 1)"
+    columns: ["Outcome: high-status", "&beta;", "<i>SE</i>", "<i>t</i>", "<i>p</i>", "Boot LLCI", "Boot ULCI"]
+    align: ["left", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["Model 1: iconic as moderator", "", "", "", "", "", ""] }
+      - ["Age", "&minus;0.01", "0.09", "&minus;0.10", "0.92", "&minus;0.19", "0.17"]
+      - ["Gender", "0.04", "0.14", "0.32", "0.75", "&minus;0.23", "0.32"]
+      - ["Colgate purchase frequency", "0.01", "0.04", "0.18", "0.86", "&minus;0.08", "0.09"]
+      - ["Dior purchase frequency", "0.01", "0.04", "0.22", "0.82", "&minus;0.07", "0.09"]
+      - ["Type of internet meme", "0.77***", "0.17", "4.61", "0.00", "0.44", "1.10"]
+      - ["Iconic", "0.57***", "0.05", "10.93", "0.00", "0.47", "0.67"]
+      - ["Type of internet meme &times; iconic", "0.43***", "0.11", "3.99", "0.001", "0.22", "0.64"]
+      - ["Effect of meme type at <i>M</i> &minus; 1 <i>SD</i>", "0.32", "0.20", "1.58", "0.11", "&minus;0.08", "0.72"]
+      - ["Effect of meme type at <i>M</i>", "0.77***", "0.17", "4.61", "0.00", "0.44", "1.10"]
+      - ["Effect of meme type at <i>M</i> + 1 <i>SD</i>", "1.23***", "0.20", "6.00", "0.00", "0.83", "1.63"]
+      - { group: true, cells: ["Model 2: popular as moderator", "", "", "", "", "", ""] }
+      - ["Age", "0.09", "0.08", "1.15", "0.25", "&minus;0.07", "0.26"]
+      - ["Gender", "0.09", "0.13", "0.75", "0.45", "&minus;0.16", "0.35"]
+      - ["Colgate purchase frequency", "0.01", "0.04", "0.28", "0.78", "&minus;0.07", "0.09"]
+      - ["Dior purchase frequency", "&minus;0.01", "0.04", "&minus;0.32", "0.75", "&minus;0.09", "0.07"]
+      - ["Type of internet meme", "1.05***", "0.16", "6.56", "0.00", "0.73", "1.36"]
+      - ["Popular", "0.66***", "0.05", "12.39", "0.00", "0.56", "0.77"]
+      - ["Type of internet meme &times; popular", "0.59***", "0.11", "5.44", "0.00", "0.38", "0.80"]
+      - ["Effect of meme type at <i>M</i> &minus; 1 <i>SD</i>", "0.46*", "0.19", "2.43", "0.02", "0.09", "0.84"]
+      - ["Effect of meme type at <i>M</i>", "1.05***", "0.16", "6.56", "0.00", "0.73", "1.36"]
+      - ["Effect of meme type at <i>M</i> + 1 <i>SD</i>", "1.63***", "0.19", "8.41", "0.00", "1.25", "2.01"]
+    note: "* <i>p</i> &lt; .05; ** <i>p</i> &lt; .01; *** <i>p</i> &lt; .001. <i>SE</i> = standard error; Boot LLCI/ULCI = lower and upper limits of the bootstrap 95% confidence interval (10,000 samples); <i>M</i> = moderator mean-centred, &plusmn; 1 <i>SD</i>. Values as published."
+
+question: >-
+  Brands increasingly talk to consumers through internet memes, and being seen as cool helps brands, but research had
+  not looked at how individual dimensions of brand coolness shape consumer perceptions, nor connected memes with brand
+  coolness. Status is usually linked with hedonic and luxury products. We asked: when comparing familiar utilitarian
+  and hedonic brands, how does being popular or iconic strengthen or weaken perceptions that the brand is
+  high-status?
+
+implications:
+  practical: >-
+    Popularity is one of the strongest influences on how brands are perceived, so brands can use digital channels,
+    memes included, to build it. Memes are cheap, adaptable and easy to share, which raises the chance of content
+    spreading. Managers can match coolness dimensions to the type of product: for hedonic products, communication that
+    stresses an iconic message (for example in messaging apps, photos or video); for utilitarian products, messages
+    framed around popularity (bought by many) or exclusivity (bought by few). Because many other factors shape
+    decisions on social media, target information should be kept up to date.
+  theoretical: >-
+    The study is presented as the first to link internet memes with brand coolness and the first to test specific
+    coolness dimensions across hedonic and utilitarian products. It shows that utilitarian brands are not excluded from
+    status: perceived popularity conditions how far product type shapes status perceptions, and the iconic and popular
+    dimensions strengthen the link between hedonic products and high status. Popular, iconic and high-status emerge as
+    core dimensions for mass cool brands.
+
+limitations:
+  - "Only one meme (the &lsquo;Lolcat&rsquo; image) was tested; the study should be repeated with other types of memes."
+  - "Only personal beauty brands were studied; the design can be applied to services, food or technology."
+  - "Personal values differ by culture, so future work could test whether the links between meme type, coolness dimensions and status vary across cultures, and how memes relate to perceived sustainability, conspicuous consumption and different generations."
+
+faq:
+  - q: "Can a utilitarian brand be seen as high-status?"
+    a: >-
+      The authors conclude that it can, through the popular dimension of brand coolness. In their experiment with 428
+      participants, the status gap between a hedonic (Dior) and a utilitarian (Colgate) brand meme depended on how
+      popular the brand was seen to be: 0.46 at low popularity, 1.05 at the mean and 1.63 at high popularity
+      (Aleem et al., 2024).
+  - q: "Does being seen as iconic make a brand high-status?"
+    a: >-
+      Perceived iconicity correlated with high-status perceptions (<i>r</i> = .56) and moderated the effect of product
+      type (&beta; = 0.43, 95% CI [0.22, 0.64]): hedonic and utilitarian brand memes were rated equally high-status when
+      the brand was seen as low in iconicity, and the hedonic meme was rated 1.23 higher when iconicity was high
+      (Aleem et al., 2024).
+  - q: "What are the dimensions of brand coolness?"
+    a: >-
+      Following Warren et al. (2019), cool brands can be useful, aesthetically appealing, energetic, original,
+      authentic, rebellious, high-status, subcultural, iconic and popular. Aleem et al. (2024) focused on the three
+      dimensions linked with mass cool brands: popular, iconic and high-status.
+  - q: "How were brand coolness dimensions measured?"
+    a: >-
+      With items adapted from Warren et al. (2019) on 5-point agreement scales: iconic (2 items, Spearman&rsquo;s
+      &rho; = 0.75), popular (4 items, &alpha; = 0.92) and high-status (4 items, &alpha; = 0.87) (Aleem et al., 2024).
+
+concepts:
+  - term: "Brand coolness"
+    definition: "Consumers&rsquo; perception that a brand is cool; a subjective, positive and changing quality made up of up to ten dimensions (Warren et al., 2019)."
+  - term: "High-status (brand coolness dimension)"
+    definition: "The perception that a brand is associated with prestige, social class and sophistication: chic, glamorous, sophisticated, ritzy."
+  - term: "Iconic (brand coolness dimension)"
+    definition: "The perception that a brand reflects people&rsquo;s values and beliefs and is recognised as a cultural symbol."
+  - term: "Popular (brand coolness dimension)"
+    definition: "The perception that a brand is fashionable, in style and liked or accepted by most people."
+  - term: "Hedonic versus utilitarian products"
+    definition: "Hedonic products are bought mainly for pleasure and sensory experience (here, Dior make-up); utilitarian products for function and practical use (here, Colgate toothpaste)."
+  - term: "Internet meme (image macro)"
+    definition: "An image, usually humorous, with a short caption, copied and spread online with slight variations; image macros are the most common form."
+
+materials:
+  - label: "Stimuli"
+    text: "The same &lsquo;Lolcat&rsquo; meme image for both conditions, with the brand logo and caption: hedonic (Dior) &lsquo;When your makeup looks good all day long&rsquo;; utilitarian (Colgate) &lsquo;When the fresh taste of mint stays in your mouth all day long&rsquo;. The images are shown in Figure A1 of the article."
+  - label: "Pre-test brands"
+    text: "Utilitarian: Colgate Total toothpaste, Pantene shampoo, Nivea deodorant, Dove body wash. Hedonic: O.P.I nail polish, Chanel perfume, Dior eye shadow, Colour WoW hairspray."
+  - label: "Iconic (2 items)"
+    text: "&lsquo;This brand is a cultural symbol&rsquo;; &lsquo;This brand is iconic&rsquo;."
+  - label: "Popular (4 items)"
+    text: "&lsquo;This brand is liked by most people&rsquo;; &lsquo;This brand is in style&rsquo;; &lsquo;This brand is popular&rsquo;; &lsquo;This brand is widely accepted&rsquo;."
+  - label: "High-status (4 items)"
+    text: "&lsquo;This brand is chic&rsquo;; &lsquo;This brand is glamorous&rsquo;; &lsquo;This brand is sophisticated&rsquo;; &lsquo;This brand is ritzy&rsquo;."
+  - label: "Response scale"
+    text: "5-point Likert-type scale from 1 &lsquo;Strongly disagree&rsquo; to 5 &lsquo;Strongly agree&rsquo;; purchase frequency on a 5-point scale from 1 &lsquo;Never&rsquo; to 5 &lsquo;Very often&rsquo;."
+materials_note: "Brand coolness items from Warren et al. (2019), as adapted in the article. The meme images are not reproduced here."
+
+open_science:
+  - { label: "Full text (PDF)", note: "The open access article as published, CC BY-NC-ND 4.0", url: "manuscripts/aleem-loureiro-schivinski-aguiar-2024-jmc-open-access.pdf" }
+  - { label: "Published version", note: "Journal of Marketing Communications (open access)", url: "https://doi.org/10.1080/13527266.2022.2152077" }
+
+related:
+  - "10.1108/jpbm-04-2025-5959"
+  - "10.1057/s41262-020-00207-5"
+  - "10.1080/08911762.2019.1600094"
+  - "10.1080/13527266.2013.871323"
+  - "10.2501/jar-2016-004"
