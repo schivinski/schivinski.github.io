@@ -1,0 +1,204 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 5
+week_of: "2026-02-09"            # the week this issue covers (shown on the page, orders the archive)
+slug: live-streaming-liveness-lift
+published: "2026-10-11"
+status: live
+
+title: "Should brands go live? What a Journal of Marketing study found about live streaming"
+short_title: "The liveness lift: why people stay for live video"
+dek: >-
+  Same video, same content, one difference: viewers were told it was live. That alone made them feel closer to the
+  person on screen, keep watching and want to follow. What it means for launches, demos, live shopping and Q&As.
+description: >-
+  Telling viewers a video was live made them more likely to keep watching (5.19 vs 3.59 out of 7) and to follow the
+  creator. When going live pays off.
+keywords: [live streaming marketing, should brands go live, live video engagement, live vs recorded video, live
+  shopping, livestream commerce, webinars, product launch live stream, social presence, creator marketing, Twitch,
+  Journal of Marketing]
+topics: [Social media, Creative, Influencers]
+
+image:
+  file: issue-05-live-streaming-liveness-lift.jpg
+  og: issue-05-live-streaming-liveness-lift-og.jpg
+  alt: "A metal guitarist headbangs on a small club stage, long hair flying in a blur under red light, with another long-haired musician thrashing in the foreground"
+  caption: "Being there, even through a screen. Photo: Evgeniy Smersh on Unsplash."
+
+short_answer: >-
+  Often, yes. In five experiments with more than 3,000 viewers, simply believing a video was live, with nothing else
+  changed, made people feel more present and more connected to the person on screen. They enjoyed it more, were more
+  likely to keep watching and more willing to follow and subscribe. The lift was strongest when the person's face was
+  visible, and it did not depend on suspense. The studies used music streams; the authors expect the effect to be
+  weaker when viewers only want information.
+
+takeaways:
+  - "Told that an identical clip was live, viewers chose to keep watching it rather than switch to The Simpsons far more often (5.19 against 3.59 on a 1–7 scale)."
+  - "Believing the stream was live raised the sense of \"being there\" (5.19 against 4.17), and that feeling explained the extra connection and engagement."
+  - "Show a face. When only the performer's hands were visible, the live advantage for continued viewing disappeared (4.31 against 4.08)."
+  - "Planned content worked as well as spontaneous content: the lift came from connection, not from suspense or surprise."
+
+paper:
+  doi: "10.1177/00222429261421488"
+  title: "The liveness lift: Viewing live streams creates connection and enhances engagement in amateur music performances"
+  authors: ["Duani, N.", "Barasch, A.", "Ward, A. F."]
+  authors_full: ["Nofar Duani", "Alixandra Barasch", "Adrian F. Ward"]
+  year: 2026
+  journal: "Journal of Marketing"
+  online: "2026-01-26"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Live streaming is no longer a niche: viewers spent around 34 billion hours watching live streams in 2024, and
+      platforms such as Twitch, TikTok, YouTube and Instagram push creators and brands to go live. Meta paid more than
+      US$50 million to creators when it launched Facebook Live. But does live content work better than the same content
+      recorded, and if so, why?
+
+      Nofar Duani (University of Southern California), Alixandra Barasch (University of Colorado Boulder) and Adrian
+      Ward (University of Texas at Austin) tested this with amateur music performances. Viewers watched real Twitch
+      streams, a real band's YouTube concert either live or the next day, and, in the tightest tests, the very same clip
+      of a singer presented as either live or recorded. Only the label changed: a live badge, the current date and a
+      progress bar that could not be skipped forward.
+    facts:
+      - ["Experiments", "5 online experiments with 3,034 viewers, 395 to 945 each"]
+      - ["Platforms", "Twitch's music channel, a live YouTube concert by the band Sunny and the Black Pack, and a purpose-built streaming page"]
+      - ["Measures", "Sense of presence, connection to the performer and to other viewers, enjoyment, choice to keep watching, and willingness to follow, subscribe and join the fan community"]
+      - ["Open data", "Data, code, materials and preregistrations on OSF"]
+
+  - h: "What they found"
+    body: |
+      Liveness itself made a difference. On Twitch, people who watched a live stream felt more connected (56.7 against
+      49.6 out of 100) and enjoyed it more (48.8 against 43.5) than people choosing among the same channel's recorded
+      streams. With the band's identical concert, the live audience enjoyed it more (57.2 against 51.8).
+
+      When everything except the word "live" was held constant, the effects grew. Viewers who thought the clip was live
+      felt more present in the scene, closer to the singer, and more willing to watch more of her videos, follow her on
+      social media, subscribe and join her fan community. Offered the choice of two more minutes of the same video or a
+      clip from The Simpsons, they were far more likely to stay.
+    chart: lift
+
+  - h: "Why live feels different"
+    body: |
+      For most of human history, seeing something as it happened meant being there. The authors argue that this link
+      is so ingrained that watching in real time makes people feel present in the scene, and feeling present with
+      someone makes people feel connected to them, much as strangers bond by sharing a moment in the same room.
+
+      The data back this chain: knowing the stream was live raised presence, presence raised connection to the
+      performer, and connection drove enjoyment, continued viewing and following. It was not about suspense. Telling
+      viewers that the band's set was planned in advance, rather than spontaneous, did not remove the lift.
+
+  - h: "Show a face"
+    body: |
+      The lift depends on seeing the person. When viewers saw the singer's face, believing the video was live made them
+      much more likely to keep watching (4.89 against 3.69). When the same song played over a shot of only the
+      musician's hands on a keyboard, liveness made almost no difference (4.31 against 4.08). A face gives viewers enough
+      of the scene to feel they are in it.
+    chart: face
+
+  - h: "Bigger audiences are not more intimate"
+    body: |
+      Viewer counters can backfire. Varying the "watching now" counter from 0 to about 1,000 did not change the live
+      advantage, which held at every audience size, but people felt closest to the performer and most willing to follow
+      when they thought they were watching alone or with few others. A large visible crowd made the experience feel
+      less personal.
+
+      Other viewers matter in a different way. When the band streamed on YouTube with a live chat and viewer count, live
+      viewers felt much more connected to the other viewers (41.1 against 28.7 out of 100), and that sense of community
+      also drove enjoyment and intention to follow.
+    chart: crowd
+
+how_to:
+  - ["Go live for moments that build relationships", "Product launches, behind-the-scenes sessions, founder or expert Q&As, live shopping and community events are where connection matters most. The studies suggest a recording of the same session will not create the same pull."]
+  - ["Make liveness obvious", "The lift came from believing the stream was live. Use the platform's live badge, say the date and time on screen, refer to what is happening now, and avoid formats that look edited."]
+  - ["Keep a person on camera", "Put the host's face in view throughout. For demos, slides or gameplay, use picture-in-picture so viewers can see the presenter's reactions alongside the product."]
+  - ["Plan freely", "A rehearsed, scripted live session still produced the lift. You do not need risky improvisation; you need real time and a visible human."]
+  - ["Think twice about big viewer counters", "Show audience numbers when you want a sense of community, but do not expect a large crowd to make people feel closer to the host. Small, intimate sessions can engage more."]
+  - ["Test live against recorded", "Run the same content live and as a recording and compare watch time, follows, sign-ups or sales. Expect a smaller lift for how-to and training content, where viewers mainly want information."]
+
+expect:
+  - "**More viewers who stay.** Continued viewing was the clearest effect: 5.19 against 3.59 out of 7 when only the live label differed."
+  - "**More follows and subscriptions.** Willingness to watch more, follow, subscribe and join a fan community rose by about 0.8 points out of 7."
+  - "**Modest enjoyment gains in the wild.** On real platforms, enjoyment rose by about 5 points out of 100, and the effect on following the real band was only marginal."
+  - "**Little extra cost.** The effect came from the content being live, not from bigger production budgets; the authors suggest that heavy polish may even reduce the intimacy that drives it."
+
+limits:
+  - "**Music only.** All five experiments used amateur music performances. Effects for product demos, webinars, live shopping or corporate events are expected but untested."
+  - "**Information-seekers may not care.** The authors caution that viewers of how-to, cooking or training streams who mainly want skills may get less of the lift."
+  - "**Amateur, not polished.** It is unknown whether highly produced or celebrity streams benefit in the same way."
+  - "**Short clips, self-reports.** Viewers watched one to a few minutes, and presence and connection were self-reported; continued viewing was a real but short-term choice."
+
+faq:
+  - q: "Is live video more engaging than recorded video?"
+    a: "Yes, in a Journal of Marketing study. When viewers were told an identical clip was live rather than recorded, they felt more connected to the person on screen, were more likely to keep watching (5.19 against 3.59 out of 7) and more willing to follow and subscribe (Duani et al., 2026)."
+  - q: "Why do people prefer live streams?"
+    a: "Watching something as it happens makes people feel they are there. That sense of presence makes them feel connected to the person on screen, and connection drives enjoyment, continued viewing and following. The effect did not depend on suspense or spontaneity."
+  - q: "Should brands use live streaming?"
+    a: "For content where connection matters, such as launches, behind-the-scenes sessions, Q&As and live shopping, the evidence favours going live with a visible host. The research used music streams, so brands should test live against recorded versions of their own content."
+  - q: "Does showing the presenter's face matter in live video?"
+    a: "Yes. When viewers could see a performer's face, liveness clearly increased continued viewing (4.89 against 3.69 out of 7). When only the performer's hands were shown, the live advantage disappeared (4.31 against 4.08)."
+  - q: "Do bigger live audiences increase engagement?"
+    a: "Not with the host. The live advantage held for audiences of 0 to about 1,000, but viewers felt closest to the performer and most willing to follow when they believed few others were watching."
+
+also:
+  - doi: "10.1177/10949968261425234"
+    title: "Selling together: A signaling perspective on co-livestreaming effectiveness"
+    authors: "Yang, Z., Zhang, L., Cao, X., & Lu, H."
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Livestreams in which an influencer sells alongside a brand representative brought more sales and more new
+      followers than influencer-only streams, in sales data and three experiments. A brand rep on screen signals that
+      the brand stands behind the influencer, which makes the influencer more credible. The benefit shrinks when the
+      influencer or the brand is already very popular, so co-streaming pays most for smaller names.
+  - doi: "10.1108/ejm-09-2024-0783"
+    title: "When the thrill lingers: How post-purchase flow consciousness shapes live-stream shopping engagement"
+    authors: "Yuan, D.-H., Deng, R., & Lin, Z."
+    journal: "European Journal of Marketing"
+    year: 2026
+    text: >-
+      Shoppers who look back on a live-stream purchase and recognise how absorbed they were feel less regret, enjoy
+      the purchase more and engage more with the seller afterwards, across an experiment, a survey and a second
+      experiment. The effect was stronger under strict return policies. Follow-up messages that remind buyers of the
+      fun of the stream can protect against buyer's remorse.
+
+charts:
+  lift:
+    title: "Same clip of a singer, presented as live or recorded"
+    scale: [1, 7]
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["Felt present: recorded", 4.17]
+      - ["Felt present: live", 5.19, true]
+      - ["Felt connected to her: recorded", 4.18]
+      - ["Felt connected to her: live", 4.90, true]
+      - ["Want to follow, subscribe: recorded", 3.59]
+      - ["Want to follow, subscribe: live", 4.36, true]
+    source: "Experiment 3a, 398 regular live-stream viewers, identical 57-second clip, 1–7 scales."
+  face:
+    title: "Choice to keep watching the same video rather than switch, by what viewers could see"
+    scale: [1, 7]
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["Face visible, recorded", 3.69]
+      - ["Face visible, live", 4.89, true]
+      - ["Only hands visible, recorded", 4.08]
+      - ["Only hands visible, live", 4.31]
+    source: "Experiment 4, 945 adults, 1 = switch to a Simpsons clip, 7 = keep watching; the hands-only difference was not significant."
+  crowd:
+    title: "Willingness to follow and subscribe, by number of other viewers shown"
+    scale: [1, 7]
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["No one else watching", 4.38, true]
+      - ["About 10 others", 3.51]
+      - ["About 100 others", 3.56]
+      - ["About 1,000 others", 3.39]
+    source: "Experiment 3b, 395 adults, live and recorded conditions combined; the live advantage held at every audience size."
+
+related_pages: [measuring-consumer-engagement-social-media-content]   # paper pages on this site worth linking (slugs)

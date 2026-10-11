@@ -8,8 +8,11 @@ project:
     - "!README.md"
   post-render:
     - scripts/style_feed.py
+    - scripts/add_icons.py
   resources:
     - robots.txt
+    - favicon.ico
+    - "assets/*.png"
     - "316433b063da86628eea6ac290ebe7f0.txt"
     - llms.txt
     - "papers/manuscripts/*.pdf"
