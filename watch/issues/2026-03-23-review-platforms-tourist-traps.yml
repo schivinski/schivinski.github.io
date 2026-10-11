@@ -1,0 +1,202 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 11
+week_of: "2026-03-23"            # the week this issue covers (shown on the page, orders the archive)
+slug: review-platforms-tourist-traps
+published: "2026-10-11"
+status: live
+
+title: "Do online reviews put tourist traps out of business? What a Marketing Science study found"
+short_title: "Reviews close tourist traps and lift the hidden gems"
+dek: >-
+  When the EU scrapped roaming charges, tourists in Rome could check Tripadvisor on the street for free. Well-rated
+  restaurants sold more, poorly rated ones were twice as likely to close, and those that survived hired better staff.
+description: >-
+  After EU roaming fees ended, low-rated restaurants in Rome were twice as likely to close and high-rated ones sold 5.6%
+  more. What reviews do to quality.
+keywords: [online reviews, Tripadvisor, tourist traps, restaurant ratings, online reputation, review platforms and
+  quality, service quality, hospitality marketing, word of mouth, hidden gems, reputation management, Marketing Science]
+topics: [UGC, Service, Retail]
+
+image:
+  file: issue-11-review-platforms-tourist-traps.jpg
+  og: issue-11-review-platforms-tourist-traps-og.jpg
+  alt: "A narrow cobbled street in Rome at night, draped in ivy, with café tables set out under a white awning and warm street lamps"
+  caption: "The hidden gem a few steps off the main square. Photo: Mariano Alvarez on Unsplash."
+
+short_answer: >-
+  Yes, in part. When the EU abolished mobile roaming charges in June 2017, European tourists in Rome could check
+  Tripadvisor for free while out. Over the next two and a half years, restaurants near tourist sights with good ratings
+  grew their revenue by up to 5.6%, while poorly rated ones saw their chance of closing double. Low-rated restaurants
+  that stayed open hired more experienced staff, paid higher wages and raised their ratings.
+
+takeaways:
+  - "After free mobile data, high-rated restaurants near tourist sights grew revenue by 5.6% and mid-rated ones by 3.6%; low-rated ones gained nothing."
+  - "The chance of a low-rated restaurant closing doubled, and in the most touristy areas the share of low-rated restaurants fell by 3.75 percentage points."
+  - "Surviving low- and mid-rated restaurants became 8% to 16% more likely to hire staff with restaurant experience, and their ratings rose by 0.08 to 0.10 stars."
+  - "The biggest winners were well-rated restaurants a short walk from the sights, not those right in front of them."
+
+paper:
+  doi: "10.1287/mksc.2023.0482"
+  title: "The end of tourist traps: The impact of review platforms on quality upgrading"
+  authors: ["Donati, D."]
+  authors_full: ["Dante Donati"]
+  year: 2026
+  journal: "Marketing Science"
+  volume: "45"
+  issue: "2"
+  pages: "386–427"
+  online: "2025-04-28"
+  open_access: true
+  licence: "CC BY 4.0"
+
+sections:
+  - h: "What the researcher did"
+    body: |
+      A tourist trap survives because visitors cannot tell good from bad before they sit down, and rarely come back.
+      Reviews should fix that, but proving it is hard: restaurants that get good reviews may simply have been good
+      already.
+
+      Dante Donati (Columbia Business School) used a natural experiment. On 15 June 2017 the EU abolished roaming
+      charges, so European visitors could use mobile data abroad at no extra cost. Overnight, checking Tripadvisor on
+      the street became free for them, but not for Italians or for visitors from outside the EU. After the change, EU
+      reviewers became 1.4 times more likely to post from a phone rather than a computer.
+
+      He matched about 3 million Tripadvisor reviews to official social security and company records for restaurants
+      across the province of Rome, so he could see revenues, staff, wages, hiring and closures, not just ratings. He
+      then compared restaurants that tourists could easily reach with those they could not, before and after the change,
+      separately for restaurants rated below, around and above 4 stars.
+    facts:
+      - ["Setting", "Restaurants in the province of Rome, 2015–2019, around the EU roaming abolition of June 2017"]
+      - ["Data", "About 3 million Tripadvisor reviews matched to employer and tax records; 4,628 restaurants rated before the change"]
+      - ["Rating groups", "Low (below 3.85), mid (3.85 to 4.25) and high (4.25 and above), roughly below, around and above 4 stars as displayed"]
+      - ["Measured", "Revenue, staff numbers, closures, openings, hiring of experienced workers, wages and later ratings"]
+
+  - h: "Good ratings started paying off"
+    body: |
+      Once tourists could check reviews freely, demand moved toward better-rated places. Among restaurants that tourists
+      could easily reach, revenue rose by about 5% overall, roughly 28,500 euros a year for an average restaurant.
+      High-rated restaurants gained 5.6%, and 8% in the first year alone. Mid-rated ones gained 3.6% and grew their
+      staff by 10%. Low-rated restaurants gained nothing.
+
+      High-rated restaurants added little staff, which suggests they were already full. Their revenue per employee rose
+      by 4.3%, a sign that some of them raised prices once reviews vouched for their quality.
+
+      Location mattered in a surprising way. The well-rated restaurants that gained most were not those facing the
+      monuments but those tucked a short walk away, the kind tourists find by checking a map and reviews on their phone.
+      Restaurants in the most visible spots saw no clear gain.
+    chart: revenue
+
+  - h: "Tourist traps closed, survivors upgraded"
+    body: |
+      For poorly rated restaurants, the monthly chance of closing doubled after the change. Mid- and high-rated
+      restaurants were no more likely to close. Counting new openings as well, in the most touristy neighbourhoods the
+      share of low-rated restaurants fell by 3.75 percentage points while the share of high-rated ones rose by 4.6
+      points.
+
+      The low-rated restaurants that stayed open invested in quality, and the evidence comes from payroll records, not
+      just reviews. They became 8% more likely to hire someone with restaurant experience (16% for mid-rated ones) and
+      less likely to hire newcomers, and their daily wages rose by about 1 euro, or 2%. Their ratings then improved by
+      about 0.1 stars, even when reviews from EU tourists were left out of the count. High-rated restaurants changed
+      little.
+    chart: ratings
+
+  - h: "What it adds up to"
+    body: |
+      Scaling the results to Italy as a whole, Donati estimates that giving every customer cheap access to reviews would
+      raise restaurant revenue by about 1.5% and employment by about 1.4%, around 174 million euros and 13,400 jobs,
+      while raising closures by 0.4 percentage points a year. These are rough, back-of-the-envelope figures based on
+      several assumptions, but the direction is clear: easier access to reviews made the whole market more
+      quality-driven.
+
+  - h: "Beyond the restaurant table"
+    body: |
+      Restaurants are a classic experience good: you only know the quality after paying. So are hotels, tradespeople,
+      clinics, salons, holiday rentals, courses and many business services. My reading, not tested in the paper, is
+      that the same pattern is likely wherever reviews suddenly become easier to see at the moment of choice, for
+      example when maps, AI assistants and search results start summarising ratings for you. Good providers that were
+      hard to find gain; weak providers that lived on location, passing trade or one-off customers lose their cover.
+
+      The study also shows what works for those on the wrong side of the ratings: not more marketing, but better
+      people and better service, which then show up in the reviews.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Find out where you really stand", "Check your average rating and recent reviews on the platforms your customers use, against the businesses they compare you with. In this study, the line that mattered was roughly 4 stars as displayed."]
+  - ["Expect your cover to disappear", "If you rely on location, one-off customers or a captive audience, assume that sooner or later every customer will check your reviews before buying, through maps, search or an AI assistant. Plan for that day now."]
+  - ["Fix quality with people", "The restaurants that recovered hired experienced staff and paid them more. Put money into skilled, stable front-line people and the service they deliver before you put it into promotion."]
+  - ["Make good places easy to find", "Well-rated places a short walk from the sights gained most. Keep your map listing, opening hours, photos and directions complete and accurate so people who check their phone can actually reach you."]
+  - ["Price your reputation carefully", "Highly rated restaurants appear to have raised prices once reviews vouched for them. If your ratings are strong and you are full, test modest price rises, and watch whether ratings and repeat visits hold."]
+  - ["Track ratings as a business result", "Follow your rolling rating each month next to revenue and staff turnover, and reply to reviews. Treat a falling rating as an early warning, because in this study revenue followed reputation."]
+
+expect:
+  - "**Gains are modest but real.** Revenue rose by about 4% to 6% for restaurants rated around or above 4 stars that tourists could reach."
+  - "**A short-lived boost at the top.** High-rated restaurants gained 8% in the first year, but the longer-term gain was smaller and not statistically clear."
+  - "**Upgrading costs money.** Low-rated survivors paid about 2% more in daily wages to hire experienced staff."
+  - "**Slow change in the market.** Closures of low-rated restaurants picked up only about a year after the change, and the mix of restaurants kept shifting over time."
+
+limits:
+  - "**One city, one sector.** The study covers restaurants in the province of Rome, a city full of one-time visitors, where the effect of reviews may be unusually strong."
+  - "**Only some customers were affected.** Only EU tourists got cheaper data, so the estimates capture the effect of a partial shift, and the Italy-wide figures rely on several assumptions."
+  - "**Prices were not observed.** The evidence that high-rated restaurants raised prices comes from revenue per employee and regional price data, so it is suggestive."
+  - "**Ratings are an imperfect measure of quality.** Ratings may also have risen because different people were reviewing, though the gains for low-rated restaurants held when EU reviews were left out."
+
+faq:
+  - q: "Do online reviews drive bad restaurants out of business?"
+    a: "Evidence from Rome says they help. When EU roaming charges ended in 2017 and tourists could check Tripadvisor for free, the chance of a low-rated restaurant near tourist sights closing doubled, while mid- and high-rated restaurants were unaffected (Donati, 2026, Marketing Science)."
+  - q: "How much do good online ratings increase restaurant revenue?"
+    a: "In this study, restaurants rated 4.25 or higher that tourists could easily reach grew annual revenue by 5.6% after free mobile data made reviews easier to check, and mid-rated ones by 3.6%. Low-rated restaurants saw no gain."
+  - q: "Do businesses improve quality because of online reviews?"
+    a: "Yes. Low- and mid-rated restaurants in Rome became 8% to 16% more likely to hire workers with restaurant experience, paid higher wages, and saw their Tripadvisor ratings rise by about 0.1 stars."
+  - q: "Is a prime location still an advantage when customers use reviews?"
+    a: "Less than before. The well-rated restaurants that gained most were a short walk from tourist sights, not those directly in front of them, suggesting tourists used reviews and maps to find hidden gems."
+  - q: "Can a business with good reviews charge more?"
+    a: "The study suggests so. Revenue per employee in high-rated restaurants rose by 4.3% after the change, and restaurant prices rose slightly in provinces with major tourist sights, consistent with some price increases."
+
+also:
+  - doi: "10.1287/mksc.2023.0552"
+    title: "Safety reviews on Airbnb: An information tale"
+    authors: "Culotta, A., Jin, G. Z., Sun, Y., & Wagman, L."
+    journal: "Marketing Science"
+    year: 2026
+    text: >-
+      Using Airbnb listings and official crime data from five US cities, the authors show that guest reviews mentioning
+      the safety of the neighbourhood reduce bookings. Their simulations suggest a platform could earn more by hiding
+      such reviews, at the expense of guests who do not adjust their expectations. These reviews track crime more closely
+      in low-income and minority areas, so hiding or highlighting them affects neighbourhoods unevenly. What a platform
+      chooses to show is a marketing decision with ethical weight.
+  - doi: "10.1016/j.jretai.2026.02.005"
+    title: "Standing out from adjacent reviews: How content similarity affects review helpfulness"
+    authors: "Gao, B., Wang, J., Liu, S., & Cui, N."
+    journal: "Journal of Retailing"
+    year: 2026
+    text: >-
+      Analysing about 3 million Tripadvisor hotel reviews, plus experiments, the authors find that a review is rated less
+      helpful when the reviews just before and after it say much the same thing, because it feels less unique. The
+      penalty is stronger for hedonic products and weaker for well-known reviewers. Platforms and retailers can make
+      their review pages more useful by ordering reviews so that different experiences sit side by side.
+
+charts:
+  revenue:
+    title: "Change in annual revenue after free roaming, by rating"
+    scale: [0, 8]
+    step: 2
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Low rated (below 3.85)", 0.7]
+      - ["Mid rated (3.85 to 4.25)", 3.6]
+      - ["High rated (4.25 and above)", 5.6, true]
+    source: "Restaurants tourists could easily reach vs others, 2015–2018. The low-rated change is not statistically different from zero."
+  ratings:
+    title: "Change in Tripadvisor rating after free roaming, by rating"
+    scale: [0, 0.12]
+    step: 0.02
+    unit: "stars"
+    decimals: 2
+    bars:
+      - ["Low rated (below 3.85)", 0.095, true]
+      - ["Mid rated (3.85 to 4.25)", 0.079, true]
+      - ["High rated (4.25 and above)", 0.014]
+    source: "Five-month average rating, 2015–2018. The high-rated change is not statistically different from zero."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
