@@ -1,0 +1,204 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 7
+week_of: "2026-02-23"            # the week this issue covers (shown on the page, orders the archive)
+slug: weekend-effect-online-reviews
+published: "2026-10-11"
+status: live
+
+title: "Are online reviews worse on weekends? What a Journal of Marketing Research study found"
+short_title: "Why weekend reviews are harsher, and when to ask for one"
+dek: >-
+  Across almost 400 million reviews on 33 platforms, from Amazon to Glassdoor, reviews written on Saturdays and Sundays
+  were more negative. Not because people are grumpier at weekends, but because different people write them.
+description: >-
+  Weekend reviews carry fewer 5-star ratings and more 1–3 star ratings, across 33 platforms. Why it happens, and why
+  you should ask for reviews on weekdays.
+keywords: [weekend effect online reviews, when to ask for reviews, review request timing, online ratings, Google
+  reviews, Amazon reviews, Glassdoor, Yelp, reputation management, review solicitation, Journal of Marketing Research]
+topics: [UGC, Service, Retail]
+
+image:
+  file: issue-07-weekend-effect-reviews.jpg
+  og: issue-07-weekend-effect-reviews-og.jpg
+  alt: "A young woman lies in bed in the dark, her face lit by the glow of the phone she holds above her"
+  caption: "Weekend reviewers are a different crowd. Photo: Kajetan Sumila on Unsplash."
+
+short_answer: >-
+  Yes, slightly but consistently. Across almost 400 million reviews on 33 platforms, reviews submitted on weekends had a
+  3% smaller share of 5-star ratings and a 6% larger share of 1- to 3-star ratings than weekday reviews, even for the
+  same product or business. The main reason is who writes them: people who review only at weekends rate lower and
+  appear less socially connected. Businesses that send review requests on weekdays can avoid part of the effect.
+
+takeaways:
+  - "Weekend reviews were more negative on 26 of 33 platforms, by 0.04 stars on average and by up to a third of a star for employer reviews."
+  - "About one reviewer in six (17%) reviews only at weekends, and these reviewers give lower ratings than people who review only on weekdays."
+  - "Reviews requested by email and written at the weekend averaged 3.69 stars, against 3.86 for those written on weekdays."
+  - "Small differences matter for products with few reviews: for up to 6% of products with three or four reviews, leaving out weekend reviewers would lift the average by half a star."
+
+paper:
+  doi: "10.1177/00222437251391808"
+  title: "The weekend effect in online reviews"
+  authors: ["Bayerl, A.", "Schoenmueller, V.", "Goldenberg, J.", "Stahl, F."]
+  authors_full: ["Andreas Bayerl", "Verena Schoenmueller", "Jacob Goldenberg", "Florian Stahl"]
+  year: 2026
+  journal: "Journal of Marketing Research"
+  volume: "63"
+  issue: "2"
+  pages: "211–233"
+  online: "2026-02-12"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      People are generally happier at weekends, and social media posts are more positive on Saturdays and Sundays. So
+      when the authors asked managers at review platforms, most expected weekend reviews to be kinder. Andreas Bayerl
+      (Erasmus University Rotterdam), Verena Schoenmueller (ESADE), Jacob Goldenberg (Reichman University) and Florian
+      Stahl (University of Mannheim) checked.
+
+      They gathered almost 400 million reviews of more than 20 million products, businesses, films and employers,
+      written by more than 60 million people on 33 platforms in Europe, the Americas, Asia and Africa. They then tested
+      where the effect comes from and ran five studies on what businesses can do about it, including a randomised test
+      of review requests and a preregistered field experiment.
+    facts:
+      - ["Data", "Almost 400 million reviews on 33 platforms, including Amazon, Google, Yelp, Tripadvisor, Booking.com, Trustpilot, Glassdoor, Indeed, IMDb and Sephora"]
+      - ["Categories", "E-commerce and products; travel, restaurants and experiences; employers and workplace software; entertainment; professional services"]
+      - ["Request studies", "282,881 emailed and 76,323 ad-prompted employer reviews, lawyer reviews, a randomised test with 1,000 people, and a field experiment with 12,500 users"]
+      - ["Analysis", "Model-free comparisons, regressions with product and reviewer fixed effects, public holidays as a test, and text analysis of review language"]
+
+  - h: "What they found"
+    body: |
+      Reviews written on Saturdays and Sundays were more negative on 26 of the 33 platforms (79%). The average gap was
+      0.04 stars, but the shape matters more than the average: weekends brought 3% fewer 5-star reviews and 6% more
+      1-, 2- and 3-star reviews, relative to weekdays.
+
+      The effect was largest for employer reviews: on the German employer site kununu, weekend reviews were a third of
+      a star lower, and Glassdoor and Indeed also showed it. It appeared on Amazon, Google, Yelp and Tripadvisor, held
+      for the same product or business reviewed on different days, and followed local weekends: on the Iranian
+      marketplace BaSalam the worst day was Friday, and for businesses in Israel it was Saturday. Public holidays had
+      the same effect as weekends on 11 of 14 platforms.
+    chart: platforms
+
+  - h: "Who writes weekend reviews"
+    body: |
+      The authors tested several explanations: worse products being reviewed at weekends, crowded restaurants giving
+      worse service, people having more time or a different mood. None fully explained the pattern. The strongest
+      driver was who writes the reviews.
+
+      Across platforms, 64% of reviewers reviewed only on weekdays, 19% on both, and 17% only at weekends. The gap
+      between weekend-only and weekday-only reviewers was about twice as large as the change in a mixed reviewer's own
+      ratings from weekday to weekend, and more consistent across platforms. Weekend-only reviewers used fewer words
+      about friends, family and social life, more words of sadness, and had fewer friends on Yelp and Dianping. The
+      authors read this as a sign that people who review only at weekends are less socially connected.
+    chart: who
+
+  - h: "What this means for review requests"
+    body: |
+      Businesses cannot choose who reviews them, but they can choose when to ask. On kununu, reviews prompted by an
+      email and written at the weekend averaged 3.69 stars, against 3.86 for those written on weekdays; reviews
+      prompted by social media ads showed the same gap (3.42 against 3.59).
+
+      In a randomised test, 1,000 people were invited to review a restaurant, software and a hotel either on a
+      Wednesday or a Saturday. More of the Wednesday group took part (406 against 296), the Saturday respondents felt
+      slightly more socially disconnected and had written fewer reviews before, and their ratings were 0.05 stars
+      lower. A preregistered field
+      experiment with 12,500 users of a software review platform pointed the same way. Both tests were too small to be
+      statistically significant on their own, but the size of the gap matched the large-scale data.
+    chart: requests
+
+how_to:
+  - ["Send review requests on weekdays", "Schedule post-purchase, post-stay or post-service review emails, texts and app prompts for Monday to Friday. Weekday requests drew more responses and slightly better ratings."]
+  - ["Mind public holidays too", "Holidays behaved like weekends. Avoid sending requests on public holidays in your customers' country or region."]
+  - ["Protect listings with few reviews", "A single weekend 1-star review can pull a three-review product from 4 to 3.25 stars. Prioritise weekday requests for new or niche products, locations and job listings."]
+  - ["Watch employer reviews closely", "Employer and workplace platforms showed the largest effect. HR teams prompting staff to review on Glassdoor, Indeed or kununu should do it on working days."]
+  - ["Read weekend reviews in context", "When monitoring ratings, compare weekday and weekend averages before reacting. A dip after a weekend may reflect who reviewed, not a fall in quality."]
+  - ["For platforms: show the pattern", "The authors suggest platforms could show ratings by day of the week or let users filter weekday and weekend reviews, as some already show the star distribution."]
+
+expect:
+  - "**A small shift per review.** The average gap is 0.04 stars, so timing will not transform a rating on its own."
+  - "**Bigger effects where reviews are few.** For up to 6% of products with three or four reviews, the weekend reviewers alone cost half a star, a difference known to move demand."
+  - "**Better rankings.** On Amazon software, one extra 1-star review moved a typical three-review product from rank 938 to 1,114 out of 1,962."
+  - "**More responses.** In the randomised test, weekday invitations produced more completed reviews than weekend invitations (406 against 296 out of 500 each)."
+
+limits:
+  - "**Why, not fully known.** Temporal self-selection is the best-supported explanation, but the authors can only speculate about why weekend-only reviewers are harsher."
+  - "**Small experiments.** The randomised request test and the field experiment matched the expected gap but lacked the sample size for statistical significance."
+  - "**Not universal.** Five platforms showed a small reversed effect, including Rotten Tomatoes, Coursera and the doctor-review site Jameda."
+  - "**Weekdays vary too.** Some platforms rated highest on Thursdays; differences between weekdays were not studied in detail."
+
+faq:
+  - q: "Are online reviews more negative on weekends?"
+    a: "Yes. Across almost 400 million reviews on 33 platforms, weekend reviews had a 3% smaller share of 5-star ratings and a 6% larger share of 1- to 3-star ratings than weekday reviews, an average gap of 0.04 stars (Bayerl et al., 2026)."
+  - q: "When is the best time to ask customers for a review?"
+    a: "On a weekday. In a Journal of Marketing Research study, reviews requested by email and written at weekends averaged 3.69 stars against 3.86 on weekdays, and weekday invitations drew more responses."
+  - q: "Why are weekend reviews lower?"
+    a: "Mainly because different people write them. About 17% of reviewers review only at weekends; they give lower ratings than weekday reviewers and show signs of being less socially connected, such as fewer social words in their reviews and fewer friends on Yelp."
+  - q: "Which review sites show the biggest weekend effect?"
+    a: "Employer review sites. On kununu, weekend reviews were a third of a star lower than weekday reviews, and Glassdoor and Indeed showed the same pattern. Product and restaurant sites showed smaller gaps."
+  - q: "Do public holidays affect review ratings?"
+    a: "Yes. On 11 of 14 platforms where holidays could be identified, reviews written on public holidays were lower, by about as much as weekend reviews."
+
+also:
+  - doi: "10.1177/10949968251380114"
+    title: "Age-related effects on electronic word-of-mouth persuasion"
+    authors: "Gambicorti, A., Peluso, A. M., & Pino, G."
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Older consumers are less persuaded by online reviews than younger ones. Across three studies, prompting people
+      aged 65 and over to feel younger, through instructions or communication cues, increased their sense of control
+      and made reviews more persuasive. With ageing populations moving online, how reviews are presented to older
+      shoppers matters, though the authors note the ethical limits of such cues.
+  - doi: "10.1108/ejm-09-2023-0668"
+    title: "More than meets the eye: Visual salience in online word of mouth and consumer decision-making"
+    authors: "He, S. X., & Wen, N."
+    journal: "European Journal of Marketing"
+    year: 2026
+    text: >-
+      How a rating distribution looks changes what people choose. Across four studies with 583 participants, when the
+      ends of the rating bar chart stood out visually, shoppers favoured products with more mixed reviews as average
+      ratings rose; colour gradients had the same effect. Review displays are not neutral: the design of the star
+      histogram can steer choices.
+
+charts:
+  platforms:
+    title: "How many stars lower weekend reviews are than weekday reviews"
+    scale: [0, 0.4]
+    step: 0.1
+    unit: "stars"
+    decimals: 2
+    bars:
+      - ["kununu (employers, Germany)", 0.33, true]
+      - ["Olist (e-commerce, Brazil)", 0.19]
+      - ["Trustpilot", 0.09]
+      - ["Glassdoor", 0.05]
+      - ["Google", 0.05]
+      - ["Tripadvisor", 0.03]
+      - ["Yelp", 0.03]
+      - ["Amazon", 0.01]
+    source: "Average weekday rating minus average weekend rating, 1–5 scale, selected platforms from Table 1 of the article."
+  who:
+    title: "When reviewers write their reviews"
+    scale: [0, 100]
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Only on weekdays", 64]
+      - ["On weekdays and weekends", 19]
+      - ["Only at weekends", 17, true]
+    source: "Average share of reviewers across the datasets with reviewer IDs."
+  requests:
+    title: "Average rating of requested employer reviews, by day written"
+    scale: [1, 5]
+    unit: "stars"
+    decimals: 2
+    bars:
+      - ["Emailed request, weekday", 3.86]
+      - ["Emailed request, weekend", 3.69, true]
+      - ["Social media ad, weekday", 3.59]
+      - ["Social media ad, weekend", 3.42, true]
+    source: "kununu, 282,881 email-prompted and 76,323 ad-prompted reviews (Studies 1 and 2 of the managerial section)."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
