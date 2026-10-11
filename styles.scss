@@ -40,6 +40,28 @@ a:hover { color: $amber-text; }
 .navbar .nav-link { font-weight: 500; }
 .navbar .nav-link.active { box-shadow: inset 0 -2px 0 $amber; }
 
+/* Marketing in 3: make the series link stand out in the top bar.
+   Quarto rewrites nav hrefs at load (watch/index.html -> /watch/), keeping the original in data-original-href. */
+.navbar .nav-link.mw-nav-pop,
+.navbar .nav-link[data-original-href$="watch/index.html"],
+.navbar .nav-link[href$="watch/index.html"] {
+  color: #f2b84b;
+  font-weight: 600;
+  border: 1px solid rgba(242, 184, 75, .55);
+  border-radius: 999px;
+  padding: .32rem .85rem !important;
+  margin-block: .2rem;
+  margin-inline-start: .35rem;
+  background: rgba(242, 184, 75, .10);
+  transition: background .15s ease, color .15s ease;
+  &:hover, &:focus-visible { color: $ink; background: #f2b84b; }
+  &.active { box-shadow: none; color: $ink; background: #f2b84b; }
+}
+@media (max-width: 991.98px) {
+  .navbar .nav-link[data-original-href$="watch/index.html"],
+  .navbar .nav-link[href$="watch/index.html"] { display: inline-block; margin: .25rem 0; }
+}
+
 /* ---------- page heads on inner pages (title-block-banner) ---------- */
 .quarto-title-banner { background: $ink; color: #fff; padding-block: 2.6rem 2.2rem; }
 .quarto-title-banner .title { font-size: clamp(2.2rem, 4vw, 3rem); font-weight: 500; color: #fff; }
