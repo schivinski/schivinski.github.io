@@ -180,7 +180,8 @@ def body(d: dict, prev_next: tuple) -> str:
                              for a in d["also"]) + "</div></section>")
     oa = (f' Open access ({esc(p["licence"])}): free to read at the publisher.' if p.get("open_access") else "")
     out.append(f'<section id="source" class="mw-source"><h2>Source</h2><p class="mw-cite">{apa(p)}</p>'
-               f'<p class="mw-note">This brief is written for practitioners from the published article.{oa} '
+               f'<p class="mw-note">This brief is written for practitioners from '
+               f'{esc(d.get("source_basis", "the published article"))}.{oa} '
                f'Numbers are as reported by the authors; read the article for full methods.</p></section>')
     out.append('<div class="mw-author"><img src="../../../assets/bruno.jpg" alt="Bruno Schivinski" width="64" height="64">'
                '<div><p><strong>Bruno Schivinski</strong> is Associate Professor of Marketing at Gdańsk University of '

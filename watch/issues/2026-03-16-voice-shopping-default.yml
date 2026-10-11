@@ -1,0 +1,203 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 10
+week_of: "2026-03-16"            # the week this issue covers (shown on the page, orders the archive)
+slug: voice-shopping-default
+published: "2026-10-11"
+status: live
+source_basis: >-
+  the authors' accepted manuscript (pre-print) of the article, so wording and figures may differ slightly in the final
+  typeset version
+
+title: "Do shoppers just take the first product an AI assistant offers? What a Journal of Interactive Marketing study found"
+short_title: "When the assistant speaks first, it sells"
+dek: >-
+  Ask a voice assistant for batteries and it reads out one product at a time. Half of shoppers bought the very first
+  one, and the brand placed first won most of the sales, whether it was the retailer's own label or the market leader.
+description: >-
+  Half of 484 voice shoppers bought the first product Alexa offered. What that means for brands, retailers and any
+  AI assistant that recommends one option at a time.
+keywords: [voice commerce, voice shopping, Alexa, AI shopping assistant, default effect, choice architecture, private
+  label, national brands, decision satisfaction, delegation to AI, conversational commerce, Journal of Interactive Marketing]
+topics: [AI in marketing, Retail, Consumer behaviour]
+
+image:
+  file: issue-10-voice-shopping-default.jpg
+  og: issue-10-voice-shopping-default-og.jpg
+  alt: "Close-up of a round smart speaker on a wooden desk, its light ring glowing blue and green"
+  caption: "On a speaker there is no shelf, only the next suggestion. Photo: Lazar Gugleta on Unsplash."
+
+short_answer: >-
+  Often, yes. When 484 people bought AA batteries by talking to Alexa, half bought the first product it read out and
+  81% bought one of the first three. Whichever brand was placed first won most of the sales: 55% bought the store brand
+  when it came first, 61% bought Duracell when it came first. People who heard fewer options were happier with their
+  choice and more willing to let the assistant decide next time, but overall few were ready to hand over the decision.
+
+takeaways:
+  - "Half of the shoppers bought the first batteries the assistant offered, and 81% bought one of the first three."
+  - "The brand read out first took most of the sales: 54.5% bought the store brand when it led and 61.2% bought Duracell when it led, against about 2% when the other one led."
+  - "Shoppers who heard fewer options were more satisfied with their decision and more willing to trust the assistant's recommendations and let it choose next time."
+  - "Appetite for a full hand-over was still low: willingness to let Alexa decide averaged 2.71 out of 7."
+
+paper:
+  doi: "10.1177/10949968251400616"
+  title: "AI-assisted shopping on voice assistants: The efficiency–autonomy consumer decision trade-off"
+  authors: ["Mari, A.", "Mandelli, A.", "Algesheimer, R."]
+  authors_full: ["Alex Mari", "Andreina Mandelli", "René Algesheimer"]
+  year: 2026
+  journal: "Journal of Interactive Marketing"
+  volume: "61"
+  issue: "3"
+  pages: "327–344"
+  online: "2026-03-04"
+  open_access: false
+  licence: ""
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      On a screen you see the whole shelf. On a voice assistant you hear one product, then a question: "Do you want me
+      to order this?" To hear anything else, you have to say no, and remember what came before. Alex Mari (American
+      University of Bahrain), Andreina Mandelli (SDA Bocconi) and René Algesheimer (University of Zurich) wanted to know
+      what this does to choice.
+
+      They built an Alexa shopping app that copied the voice, wording and flow of Amazon's own voice shopping. In
+      one-to-one video sessions, each participant sat alone with an Amazon Echo and bought a pack of four AA batteries
+      by searching for the category, then saying "yes" or "no" to each suggestion. The first suggestion was set by the
+      researchers: Amazon's own brand, AmazonBasics, or Duracell, at either the cheapest or the most expensive price.
+      Every later suggestion was drawn at random from 35 brands and five prices, all with identical product
+      descriptions. Participants could keep what they bought.
+    facts:
+      - ["Participants", "484 people recruited through two Swiss universities, average age 25; 85% rarely or never used a voice assistant"]
+      - ["Task", "Buy one 4-pack of AA batteries by voice on an Amazon Echo, searching by category, not brand"]
+      - ["First offer", "AmazonBasics or Duracell, at CHF 4.95 or CHF 6.95 (121 people in each of the four groups)"]
+      - ["Measured", "How many options each person heard, what they bought, decision satisfaction, and willingness to let the assistant choose and to trust its suggestions"]
+
+  - h: "The first option wins"
+    body: |
+      Half of the shoppers (50%) said yes to the very first product, and 81% bought one of the first three. On average
+      people heard about two and a half options before buying.
+
+      The brand placed first did most of the selling. When AmazonBasics led, 54.5% bought AmazonBasics; when Duracell
+      led, 61.2% bought Duracell. Each brand was bought by only about 2% of people when the other one went first. Price
+      behaved the same way: when the first offer was the cheapest price, 71% paid the cheapest price; when it was the
+      premium price, 61% paid the premium price.
+
+      Brand equity still showed. Duracell, which more participants already knew, kept more buyers when it came first
+      than the store brand did (61% against 55%).
+    chart: brand
+
+  - h: "Fewer options, happier shoppers"
+    body: |
+      Research on screen-based shopping often finds that a very short list can leave people less satisfied with their
+      choice. Here the pattern ran the other way. The more options people heard, the less satisfied they were with
+      their decision, and the less willing they were to let the assistant decide for them or to trust its suggestions
+      next time. Those who accepted the first offer were the most satisfied. Satisfaction explained only a small part
+      of the link to trust and delegation.
+
+      But nobody should read this as consumers handing over the keys. On a 1 to 7 scale, willingness to let Alexa
+      choose averaged 2.71 and trust in its suggestions 3.29, both below the midpoint. Decision satisfaction sat just
+      above it, at 4.06.
+    chart: attitudes
+
+  - h: "Brand, price and the retailer's own label"
+    body: |
+      Whether the first offer was the store brand or Duracell, cheap or premium, made no clear difference to how
+      satisfied people were or how willing they were to rely on the assistant. One pattern did stand out: people were
+      more willing to let the assistant choose when brand and price matched what they would expect, Duracell at the
+      premium price or AmazonBasics at the low price. The authors suggest a mismatch, such as a cheap leading brand,
+      may look suspicious.
+
+      For the retailer, leading with its own label paid slightly: shoppers paid CHF 5.92 per pack on average when
+      AmazonBasics came first, against CHF 5.81 when Duracell did. The authors' explanation is that people who turned
+      down the less familiar store brand then settled for the next good-enough option rather than hunting for a
+      bargain.
+
+  - h: "Beyond the smart speaker"
+    body: |
+      This study is about batteries on Alexa, but the set-up it tests is spreading: an assistant that offers one
+      answer at a time and waits for a yes. AI chat assistants that recommend "the best option", shopping agents
+      built into retail apps, in-car assistants, and AI search summaries that name one product all work this way.
+      My reading, not tested in the paper, is that the same logic is likely to apply wherever choices are low-stakes
+      and alternatives are hard to compare: the first suggestion does most of the selling, and the brand that is not
+      in it barely gets heard.
+
+      That shifts the marketing question from "how do we stand out on the shelf?" to "how do we become the answer?"
+      for brands, and to "how do we use that power without losing trust?" for whoever runs the assistant.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Map your one-answer moments", "List where your customers now get a single suggestion instead of a shelf: voice speakers, AI chat and shopping assistants, in-car systems, auto-reorder and AI search summaries. In those places, the first slot is the shelf."]
+  - ["Decide whether you can win the first slot", "In this study, being read out first was worth more than half of the sales. Work out what puts a product there in each channel, such as retailer agreements, stock, ratings and clear product data, and where it is out of reach, plan for being the strong second option."]
+  - ["Keep brand and price consistent", "People were more willing to rely on the assistant when a leading brand came at a premium price and a value brand at a low price. Avoid offers that clash with what customers expect of the brand, such as deep-discounting a premium name in a first recommendation."]
+  - ["Make the first offer easy to say yes to", "If you run the assistant, put a genuinely good fit first and describe it in a few clear words with the price. Satisfaction and future trust were highest among people who accepted the first offer, so a poor first pick is costly."]
+  - ["Start with low-stakes repeat buys", "Willingness to let an assistant choose was low overall. Launch assisted ordering on simple, repeat categories such as refills and household basics before asking customers to delegate bigger decisions."]
+  - ["Track first-offer acceptance", "Measure how often orders go to the first suggestion, how many options people hear before buying, and whether they come back to order again. Report these by category, and check that your defaults would look fair if customers or regulators saw how they were set."]
+
+expect:
+  - "**A strong first-offer effect for everyday items.** About half of buyers took the first product and four in five bought one of the first three."
+  - "**Defaults steer price as well as brand.** When the first offer was cheap, most people paid the cheapest price; when it was premium, most paid the premium price."
+  - "**Small revenue gains, not windfalls.** Leading with the store brand raised the average price paid by CHF 0.11 per pack."
+  - "**Slow growth in trust.** Satisfied shoppers were more open to delegating, but willingness to let the assistant choose stayed below the midpoint."
+
+limits:
+  - "**Association, not proof of cause.** The researchers set the first offer, but people chose how many options to hear, so the link between fewer options and satisfaction may partly reflect who stops early."
+  - "**One low-stakes product.** Batteries are cheap and similar. For expensive, emotional or complex purchases, hearing only one option may well leave people less satisfied."
+  - "**First-time, unpersonalised use.** Most participants were young, new to voice shopping and could not ask for a brand by name, and the assistant knew nothing about their past purchases."
+  - "**No comparison with screens.** The study did not include a website, a chat interface or another assistant, so it cannot say how much of the effect is due to voice itself."
+
+faq:
+  - q: "Do people just buy the first product a voice assistant recommends?"
+    a: "For simple products, often. When 484 people bought AA batteries through Alexa, half bought the first option read out and 81% bought one of the first three (Mari et al., 2026, Journal of Interactive Marketing)."
+  - q: "Does offering fewer options make shoppers more satisfied?"
+    a: "In this voice-shopping study, yes: people who heard fewer options were more satisfied with their decision. This differs from some screen-based research, and it was shown for a cheap, everyday product, not for major purchases."
+  - q: "Do voice assistants favour store brands?"
+    a: "The study did not test how Alexa really ranks products. It showed that whichever brand is placed first, store brand or market leader, wins most of the sales, which is why the authors note concerns raised by the European Commission about retailers promoting their own labels."
+  - q: "How can a brand get recommended by an AI shopping assistant?"
+    a: "The paper does not test this. My inference: the factors that decide the first suggestion in each channel, such as retailer relationships, availability, ratings and complete product data, now matter as much as shelf placement, because the first suggestion does most of the selling."
+  - q: "Are consumers willing to let AI assistants shop for them?"
+    a: "Not yet, in this sample. On a 1 to 7 scale, willingness to let Alexa decide averaged 2.71 and trust in its recommendations 3.29, although both were higher among people who were satisfied with their first voice purchase."
+
+also:
+  - doi: "10.1108/jrim-05-2025-0276"
+    title: "Design matters! The impact of design affordance of conversational virtual shopping assistants on consumers' recommendation adoption"
+    authors: "Han, X., Li, S., Liu, H., Li, H., & Zhang, M."
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2026
+    text: >-
+      Interviews, three online experiments and an eye-tracking study show that shoppers are more likely to follow a
+      virtual shopping assistant's recommendation when it answers with more than text alone, such as images alongside
+      words, and when it looks warm rather than coolly competent, because the advice then feels more valuable.
+  - doi: "10.1108/jrim-06-2025-0311"
+    title: "I'm learning and improving! The impact of chatbot learning evidence on customer tolerance of chatbot service failure"
+    authors: "Liu, W., Qiu, X., Ma, K., & Jiang, Z."
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2026
+    text: >-
+      Across four experiments, customers were more forgiving of a chatbot's mistakes when it showed evidence that it
+      learns, especially in numbers rather than words, because they felt less frustrated. The evidence worked best when
+      shared after the failure. A short "here is how I have improved" message can soften a chatbot slip.
+
+charts:
+  brand:
+    title: "Share who bought each brand, by which brand Alexa offered first"
+    scale: [0, 70]
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["AmazonBasics, offered first", 54.5, true]
+      - ["AmazonBasics, Duracell first", 2.1]
+      - ["Duracell, offered first", 61.2, true]
+      - ["Duracell, AmazonBasics first", 2.1]
+    source: "484 shoppers, 242 per first-offer brand. Later options were drawn at random from 35 brands."
+  attitudes:
+    title: "How shoppers felt after one voice purchase (average)"
+    scale: [1, 7]
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["Satisfied with the decision", 4.06]
+      - ["Would trust its suggestions", 3.29]
+      - ["Would let Alexa choose", 2.71, true]
+    source: "484 shoppers; 1 = strongly disagree, 7 = strongly agree. The midpoint is 4."
+
+related_pages: [utilitarian-products-high-status-brand-coolness]   # paper pages on this site worth linking (slugs)
