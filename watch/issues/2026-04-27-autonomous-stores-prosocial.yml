@@ -1,0 +1,195 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 16
+week_of: "2026-04-27"            # the week this issue covers (shown on the page, orders the archive)
+slug: autonomous-stores-prosocial
+status: live
+
+title: "Do checkout-free stores make shoppers less generous? What a Journal of Marketing study found"
+short_title: "No cashier, less kindness: the hidden cost of autonomous stores"
+dek: >-
+  Ask shoppers whether skipping the cashier changes how charitable they feel and most will laugh it off. Nine
+  experiments suggest they're wrong, and point to some easy fixes.
+description: >-
+  Shoppers leaving a staff-free store pledged about 40% fewer volunteer hours than those leaving a staffed one. Why it
+  happens, and three fixes.
+keywords: [autonomous stores, cashierless stores, self-checkout, retail automation, prosocial behavior, charitable
+  giving, social connectedness, service robots, cause-related marketing, store design, Journal of Marketing]
+topics: [AI, Retail, Service]
+
+image:
+  file: issue-16-autonomous-stores-prosocial.jpg
+  og: issue-16-autonomous-stores-prosocial-og.jpg
+  alt: "A low view along an empty supermarket aisle at night, chilled-drink fridges glowing behind glass and reflected in the polished floor"
+  caption: "Everything you need, and nobody to talk to. Photo: Eduardo Soares on Unsplash."
+
+short_answer: >-
+  Yes, a little, and it adds up. Across nine experiments in Singapore, the US, the UK and China, people who had just
+  been in an AI-run store, hotel or restaurant gave less time and money to good causes than people served by staff.
+  Outside two real convenience stores, shoppers from the staff-free one pledged about 40% fewer volunteer hours. The
+  missing human contact left them feeling less connected to others. Shopping with family, explaining how the tech
+  helps customers, and charity appeals that stress what the giver gets back all closed the gap.
+
+takeaways:
+  - "Shoppers didn't see it coming: 76% said a staff-free store would make no difference to their willingness to donate."
+  - "Even a humanoid robot receptionist didn't help: 45% agreed to do a longer, more useful hotel survey after meeting the robot, against 61% after meeting a person."
+  - "In a real autonomous store, one line saying the technology was there to make shopping easier lifted volunteer pledges from 0.28 to 0.59 hours a month."
+  - "A Red Cross appeal framed as \"benefits for you and your family\" worked as well after an AI store as after a staffed one."
+
+paper:
+  doi: "10.1177/00222429261445436"
+  title: "Automated versus human-operated: Impact of AI-driven autonomous stores on prosocial behavior"
+  authors: ["Liu, X. J.", "Hoang, C.", "Ng, S."]
+  authors_full: ["Xiaoyan (Jenny) Liu", "Chi Hoang", "Sharon Ng"]
+  year: 2026
+  journal: "Journal of Marketing"
+  online: "2026-04-13"
+  open_access: false
+  licence: ""
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Cashierless shops, robot hotel desks and smart-shelf supermarkets are spreading fast, and most studies of them
+      ask one thing: do customers like them? Usually they do. Xiaoyan (Jenny) Liu (Southwestern University of Finance
+      and Economics), Chi Hoang (ESCP Business School) and Sharon Ng (Nanyang Technological University) asked a
+      different question: what happens to people after they walk out?
+
+      Their focus was everyday kindness: writing a note to an orphan, volunteering a few hours, dropping money in a
+      charity tin. They ran nine experiments, three of them in real places, comparing an AI-run version of a store,
+      hotel or restaurant with the same place run by staff. Then they tested what brings generosity back.
+    facts:
+      - ["Studies", "Nine experiments, including field studies at two neighbouring convenience stores and a campus hotel in Singapore"]
+      - ["People", "About 3,200 participants across four countries"]
+      - ["Settings", "Grocery and convenience stores, a hotel with a humanoid robot, and a robot-staffed restaurant"]
+      - ["Generosity measured by", "Letters written, volunteer hours pledged, donation amounts and choosing a longer, more helpful survey"]
+
+  - h: "Fewer people, less giving"
+    body: |
+      The neatest test happened on a university campus in Singapore, where one retail brand runs two convenience
+      stores side by side, with the same layout and the same prices. One has staff; the other has none. Researchers
+      waited outside both and invited shoppers to sign up as student buddies. People coming out of the staffed shop
+      offered far more of their time, a gap that held after accounting for age, gender and shopping habits.
+
+      Online, the pattern repeated. Americans who imagined a trip to an AI-equipped grocery store wrote shorter
+      encouraging letters to children supported by a charity than those who imagined a staffed store or simply
+      recalled their last shop. A follow-up hotel study compared self-service check-in kiosks, a robot and a human
+      desk: both machine versions led to smaller donations, and the robot was no improvement on the kiosk.
+    chart: hours
+
+  - h: "Why: the missing small talk"
+    body: |
+      A quick hello at the till seems trivial, but it reminds us we're part of a community. In a UK study, people who
+      pictured an autonomous grocery store felt far less connected to others (2.83 against 4.64, out of 7),
+      and were less keen to buy a £1 felt flower made by orphans for charity. That loss of connection, not a sense of
+      threat from the technology, explained the drop.
+
+      Two checks back this up. When participants were first nudged to think about how much they rely on other people,
+      a robot-run restaurant no longer dented their wish to volunteer for the Salvation Army. And people didn't simply
+      dislike the automated stores: they often rated them as highly as, or higher than, the staffed ones.
+
+  - h: "Three ways to win the warmth back"
+    body: |
+      **Shop together.** Chinese participants who pictured shopping alone in an AI store were less willing to
+      volunteer with older neighbours (7.08 against 7.69, out of 9). Picture the same trip with family, and
+      the gap disappeared.
+
+      **Say who the technology is for.** Back at the Singapore stores, some shoppers in the autonomous shop saw a short
+      message, adapted from the retailer's own press release, saying the system was introduced to make shopping faster
+      and easier for customers. Their volunteer pledges climbed back to the level of the staffed store. A UK replication
+      with donations in pounds showed the same thing.
+
+      **Ask donors what's in it for them.** A charity appeal stressing benefits to the whole community lost ground after
+      an AI store visit (6.79 against 7.39 out of 9). The same first-aid-kit project, pitched as protecting "you and
+      your family", did not.
+    chart: framing
+
+  - h: "Far from the checkout"
+    body: |
+      The authors studied shops, a hotel and a restaurant, but the same trade-off shows up anywhere a person has been
+      replaced by a screen. Taking our own step past the data: app-only banks, contactless hotel stays, parcel lockers,
+      chatbot-only customer service and self-checkout lanes all remove the small human moments this study points to.
+
+      That matters for more than charity tins. Brands that run cause campaigns, round-up-at-the-till schemes or
+      community programmes through automated channels may be asking for generosity at exactly the moment people feel
+      least connected. And for retailers who sell themselves as "part of the neighbourhood", the human touch may be
+      doing more work than the efficiency case suggests.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Map the human moments you are removing", "List every point where a customer used to talk to a person, from greeting to payment to help, and note which ones automation will take away."]
+  - ["Keep one light human touch", "Decide which single contact point stays human, such as a host at the door or a staff member on the floor. The authors point to Booths, a British grocer that brought human cashiers back."]
+  - ["Design for shopping together", "Make autonomous formats friendlier to groups and families with shared baskets, group offers or seating, so customers bring their own connection with them."]
+  - ["Explain the tech in customer terms", "On signs, apps and receipts, say how the system helps shoppers: open late, no queues, quicker in and out. Avoid language about cost savings or efficiency."]
+  - ["Rewrite appeals near automated touchpoints", "If you run donation prompts, round-ups or charity partnerships in self-service channels, lead with what the giver gains, such as feeling good or protecting their own family."]
+  - ["Measure giving, not just satisfaction", "Track charity round-ups, volunteer sign-ups or community participation before and after automating, next to your usual customer metrics."]
+
+expect:
+  - "**Small dips, many customers.** The drop per person was modest, but across thousands of daily visits it can noticeably shrink donations and sign-ups."
+  - "**Satisfaction surveys will miss it.** Customers rated the automated stores just as well, so the cost hides from the usual dashboards."
+  - "**Charity partners may feel it first.** The authors expect collection tins and sign-up desks next to autonomous stores to do worse unless the appeal is reworked."
+  - "**Fixes are cheap.** A message, an appeal tweak or a group offer costs little compared with restaffing a store."
+
+limits:
+  - "**Mostly imagined shopping trips.** Six of the nine studies asked people to picture a store; only the Singapore studies used real ones."
+  - "**Young, local field samples.** The real-store studies involved university students on one campus."
+  - "**Short-term only.** Generosity was measured minutes after the visit; whether the effect lasts, or fades with habit, is unknown."
+  - "**Mostly intentions.** Several measures were stated willingness to give rather than money actually handed over."
+
+faq:
+  - q: "Do cashierless or self-checkout stores make people less generous?"
+    a: "Somewhat. That's the conclusion of nine experiments published in the Journal of Marketing. For example, people who imagined shopping in an AI-run grocery store wrote encouraging letters of about 29 words to children in care, against 32 to 34 words for those picturing a staffed store or recalling their last shop (Liu, Hoang and Ng, 2026)."
+  - q: "Why would store staffing affect charitable giving?"
+    a: "Brief exchanges with staff make people feel connected to others. Without them, that feeling drops, and a weaker sense of connection makes people less inclined to help."
+  - q: "Would a friendly humanoid robot solve the problem?"
+    a: "No. In the hotel studies, a robot receptionist and a self-service kiosk both led to less helpful behaviour than a human receptionist."
+  - q: "How can retailers keep the efficiency without the social cost?"
+    a: "Encourage shopping with family or friends, explain the technology as something that serves customers, and keep at least one human contact point in the journey."
+  - q: "How should charities fundraise near automated stores?"
+    a: "Lead with what donors gain, such as protection for their own family or the good feeling of giving. In the study, that framing removed the gap; the authors also found appeals inviting people to take the recipient's perspective helped."
+
+also:
+  - doi: "10.1016/j.jretai.2026.04.002"
+    title: "Smart mobile advertising at the point of purchase: Digital shopping cart displays increase sales"
+    authors: "Streicher, M. C., Büttner, O. B., & Estes, Z."
+    journal: "Journal of Retailing"
+    year: 2026
+    text: >-
+      In a real store, ads on screens built into shopping carts raised both how much and how often shoppers bought the
+      advertised products, and also lifted sales of other products in the same category. Ads placed centrally on the
+      screen worked about as well as ads matched to the aisle the shopper was in. The cart itself has become a media
+      channel, right where the decision happens.
+  - doi: "10.1177/10946705261432142"
+    title: "Speaking like home: How regional language adaptations in robots enhance trust and willingness to pay"
+    authors: "van Doorn, J., & Telussa, G."
+    journal: "Journal of Service Research"
+    year: 2026
+    text: >-
+      Older people preferred service robots that spoke their regional dialect rather than the national language, and
+      caregivers would pay about 30% more for a companion robot that could do so. The dialect also raised trust among
+      the general public, but only when the voice sounded humanlike; with a robotic voice it backfired. Local
+      language wins hearts, provided the machine sounds like a person.
+
+charts:
+  hours:
+    title: "Volunteer hours pledged per month by shoppers leaving each store"
+    scale: [0, 3]
+    step: 0.5
+    unit: "hours"
+    decimals: 2
+    bars:
+      - ["Staffed convenience store", 2.79]
+      - ["Staff-free convenience store", 1.60, true]
+    source: "Study 1b: 131 shoppers approached outside two neighbouring stores of one brand in Singapore."
+  framing:
+    title: "Amount people would donate to feed low-income families, by store (UK)"
+    scale: [0, 4]
+    step: 1
+    unit: "pounds"
+    decimals: 2
+    bars:
+      - ["Staffed store", 3.05]
+      - ["AI store, no explanation", 1.88, true]
+      - ["AI store, framed as helping customers", 2.69]
+    source: "Study 5b: 451 UK adults, donations of £0 to £10 after imagining a shopping trip."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
