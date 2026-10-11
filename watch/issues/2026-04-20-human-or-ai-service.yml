@@ -8,9 +8,8 @@ status: live
 title: "When do customers choose AI over human staff? What a Journal of Marketing study found"
 short_title: "When the front line all looks alike, some customers choose the bot"
 dek: >-
-  Ten studies show that Black and other non-White customers turn to AI tellers, kiosks and interviewers when every
-  employee in sight is White, to avoid being judged. White customers showed no such shift. Visible diversity cues
-  largely removed the effect.
+  Picture walking into a bank where every teller is White and you are not. For a lot of people in that spot, the robot
+  teller in the corner suddenly looks like the easier option.
 description: >-
   Facing all-White staff, 50% of non-White customers chose a digital kiosk, against 36% with non-White staff. What it
   means for service design and AI options.
@@ -26,17 +25,17 @@ image:
   caption: "For some customers, the robot feels like the safer choice. Photo: Alex Knight on Unsplash."
 
 short_answer: >-
-  When they expect to be judged for who they are. Across ten US studies, Black and other non-White customers were
-  more likely to choose an AI interviewer, robot teller or digital kiosk when the human staff (or other customers) were
-  all White: in one bank study, 50% chose the kiosk against 36% when staff were non-White. Concern about being judged
-  on their race drove the shift. White customers showed no such change, and diversity statements or minority ownership
-  largely removed the effect.
+  When they expect to be judged for who they are. In ten US studies, Black and other non-White customers leaned
+  towards a machine instead of a person whenever the people around them were all White. At one bank, half
+  of non-White men picked the kiosk when the staff were all White, against just over a third when the staff were
+  non-White too. White customers didn't budge either way. Signs that a business values diversity took most of the effect
+  away.
 
 takeaways:
-  - "Facing an all-White bank staff, 50% of non-White men chose a digital kiosk over a human teller, against 36% when the staff were non-White."
-  - "White men's choice did not change with the staff's race (37.5% against 38.8%)."
-  - "In a real job ad shown at historically Black colleges, choosing an AI interviewer rose from 35% to 49% when the pictured interviewers were all White."
-  - "73% of non-White consumers surveyed had worried about being judged on their identity in service settings, yet 72% of managers were unaware of this."
+  - "With real paid work on offer, students at historically Black colleges picked an AI interviewer 49% of the time when the pictured panel was all White, against 35% when it was Black."
+  - "On Facebook, a financial advice ad fronted by a chatbot got twice the clicks of one fronted by White male advisers (0.63% against 0.30%) in mostly Black neighbourhoods."
+  - "An all-White investment team pushed choice of the AI adviser from 9% to 26%, unless the firm also showed a diversity statement."
+  - "73% of non-White consumers surveyed had worried about being judged on their identity when buying services; 72% of managers had no idea."
 
 paper:
   doi: "10.1177/00222429261444284"
@@ -52,16 +51,17 @@ paper:
 sections:
   - h: "What the researchers did"
     body: |
-      Most research finds that customers prefer a human to a machine. Yeseul Kim (University of Bath), Dipayan Biswas
-      (University of South Florida), Courtney Szocs (Penn State) and Khalia Jenkins (American University) asked whether
-      that holds for everyone. Black and other non-White consumers in the US often report slower, colder or more
-      suspicious service. When everyone behind the counter is White, being "the only one" can bring that experience to
-      mind. Would an AI option then feel safer?
+      Ask people whether they'd rather be served by a person or a machine and most pick the person. Yeseul Kim
+      (University of Bath), Dipayan Biswas (University of South Florida), Courtney Szocs (Penn State) and Khalia
+      Jenkins (American University) wanted to know who the exceptions are, and when.
 
-      They ran ten studies, including three in the field: a real paid job ad shared at historically Black colleges and
-      through community networks, and a Facebook ad campaign. The others were controlled online experiments set in
-      banks, apartment leasing, investment advice and job interviews. Each time, people chose between a human and an
-      algorithmic provider: an AI interviewer, a robot teller or a digital kiosk.
+      Their starting point is uncomfortable but well documented: in US banks, shops and rental offices, Black customers
+      often wait longer, get less warmth and face more suspicion. Being the only non-White person in the room can bring
+      all of that to mind. The question was whether, in that moment, a machine starts to look safer than a person.
+
+      The team ran ten studies. Two were real job adverts with paid work at the end, one was a Facebook ad campaign,
+      and the rest were online experiments set in banks, rental offices and an investment firm. Every time, people
+      chose between a human and an algorithm: an AI interviewer, a robot teller or a digital kiosk.
     facts:
       - ["Studies", "Ten US studies with nearly 4,000 participants, plus a Facebook ad campaign"]
       - ["Settings", "Banking, apartment leasing, investment advice and job interviews"]
@@ -70,81 +70,79 @@ sections:
 
   - h: "Identity, not technology, drives the switch"
     body: |
-      In the real job ad, applicants from historically Black colleges chose the AI interviewer 49% of the time when the
-      pictured interviewers were all White men, against 35% when they were Black. A second field version found 37%
-      against 15%. In an online bank study, Black participants shown a branch full of White customers chose the robot
-      teller 38% of the time, against 22% in a mixed branch.
+      The first job advert, posted at historically Black colleges, set the pattern. A second run, shared through Black
+      community networks, showed an even steeper jump: from 15% to 37% choosing the AI interviewer. Online, Black participants looking at a bank full of
+      White customers chose the robot teller 38% of the time; in a mixed crowd, 22%.
 
-      The reason was concern about being judged. Non-White participants who were told they felt like a minority at the
-      bank were more worried that staff would judge them on their race (3.79 against 2.57 out of 7), and that worry
-      explained their move to the robot teller.
+      What tipped the balance was a specific worry. When non-White participants were told they felt out of place at a
+      bank, their concern that staff would size them up by race rose from 2.57 to 3.79 on a 7-point scale, and that
+      concern explained the move towards the robot.
 
-      White customers did not react the same way. When a bank's staff were all non-White, White men chose the kiosk no
-      more often than when the staff were White. So this is not simply people preferring staff who look like them.
+      It isn't just people wanting staff who look like them. White men in the bank study said they felt less similar to
+      non-White employees, yet they went to the kiosk no more often (38.8% against 37.5%). Feeling different only
+      mattered for people who had reason to expect unfair treatment.
     chart: kiosk
 
   - h: "The same pattern in real ads"
     body: |
-      In a Facebook campaign for financial advice, ads ran in mostly Black and mostly White neighbourhoods in US cities.
-      In the mostly Black areas, the ad featuring a chatbot drew twice the click-through rate of the ad featuring only
-      White male advisers (0.63% against 0.30%), and the ad with a diverse team did almost as well as the chatbot
-      (0.58%). In the mostly White areas, the all-White ad drew the most clicks.
-
-      The authors stress that, overall, most people still chose humans. The shift was relative, from roughly a third to
-      roughly half in the strongest cases.
+      The Facebook ads ran for one day at a time in mostly Black and mostly White US neighbourhoods. Where most
+      residents were Black, a diverse advice team did almost as well as the chatbot. Where most were White, the ranking
+      flipped: the all-White team drew the most clicks and the chatbot fell behind. One image, two very different
+      audiences.
     chart: clicks
 
   - h: "Signals of inclusion change the picture"
     body: |
-      The effect faded when customers had less reason to fear judgment. After recalling a time they felt like a
-      minority, participants applying for an apartment lease chose an AI interviewer 52% of the time, against 36% in
-      the control group; for a social club catering to diverse interests, it made no clear difference. At a bank described as minority-owned, the shift towards a robot
-      teller was much smaller (24% to 32%, against 30% to 52% otherwise). And at an investment firm, an all-White team raised choice of the AI adviser from 9% to
-      26% when the firm showed a generic mission statement, but not when it showed a diversity statement (19% against
-      17%).
+      The pull towards machines weakened wherever judgment felt less likely. Applying to lease a flat, people who had
+      just recalled a time they stood out as a minority chose an AI interviewer 52% of the time, against 36% in the
+      control group. Applying to a social club for people with mixed interests, that same reminder made no real
+      difference.
+
+      Telling people the bank was minority-owned did something similar. The jump towards the robot teller shrank to
+      eight points (24% to 32%), against twenty-two (30% to 52%) without that line. And at the investment firm, a
+      short diversity statement was enough to cancel out the effect of an all-White team.
 
   - h: "Beyond the bank branch"
     body: |
-      The study looks at race and ethnicity in the US, but the authors suggest the same mechanism may apply to other
-      groups who expect to be judged, for example by sexual orientation or wealth. My reading, not tested in the paper,
-      is that it applies wherever a customer might feel judged as a type rather than served as a person: healthcare,
-      insurance claims, debt advice, car sales, luxury retail or job applications.
+      The authors studied race and ethnicity in the US, and they suggest that other groups who expect to be judged,
+      by sexual orientation or by wealth for example, may react the same way. Going a step further than the paper, the
+      same logic could hold at a GP's front desk, an insurance claims line, a debt advice service, a car dealership or
+      a luxury boutique: anywhere a customer might feel assessed as a type rather than helped as a person.
 
-      It also reframes how to read channel data. When a group of customers heavily uses self-service, chatbots or
-      apps, the reason may not be convenience; it may be what they expect at the counter. That is a signal about your
-      front line, not just about digital adoption.
+      It also changes how to read your channel data. If one group of customers sticks to the app, the kiosk or the
+      chatbot, convenience may not be the whole story. They may be telling you something about the counter.
 
 how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
-  - ["Ask the customers you may be missing", "72% of managers surveyed did not know their customers worried about being judged on their identity. Talk to and survey customers from different backgrounds about how your service feels, not only how fast it is."]
-  - ["Look at your front line through their eyes", "Check who customers actually see at branches, in ads, on team pages and in interview panels. A uniform team can make some customers feel singled out before anyone says a word."]
-  - ["Offer a no-judgment option", "Give customers a genuine choice of channel, such as a kiosk, an app or an AI assistant, for tasks like applications, quotes and account opening, especially in finance, housing and hiring."]
-  - ["Show inclusion clearly", "Diversity statements, visibly diverse teams and ownership signals reduced the shift in these studies. Put them where customers decide: on the door, the landing page and the booking screen."]
-  - ["Audit the AI as well as the humans", "Customers saw AI as less judgmental, but algorithms can carry bias too. Test chatbots, scoring tools and kiosks for unequal outcomes before you present them as the fair option."]
-  - ["Read channel choice as feedback", "Track which customer groups choose self-service or AI and why. A sharp skew may be telling you about your front-line experience, and should prompt service training, not just more automation."]
+  - ["Ask before you assume", "Most managers in the survey had no idea this worry existed. Talk to customers from different backgrounds about how your service feels, not just how quickly it works."]
+  - ["See the front line as a newcomer would", "Walk through the branch, the website team page, the ad creative and the interview panel. Note who is visible at each point a customer decides whether to come in."]
+  - ["Offer a judgment-free route", "Let people complete sensitive tasks, such as loan applications, rental applications and first interviews, through a kiosk, an app or an AI assistant if they prefer."]
+  - ["Make inclusion visible", "A diversity statement or a clear signal of ownership changed behaviour in these studies. Place it on the door, the landing page and the booking screen, where the choice is made."]
+  - ["Check the machine for bias too", "Customers may see AI as neutral, but scoring tools and chatbots can treat groups unequally. Test outcomes by group before you offer AI as the fair alternative."]
+  - ["Track uptake by customer group", "Report kiosk, app and chatbot use by segment and by location. A sudden skew is a cue to look at training and staffing, not only at the technology."]
 
 expect:
-  - "**Humans still win overall.** Even in the strongest conditions, about half of customers still chose the human provider."
-  - "**A shift of 10 to 20 percentage points.** That was the typical rise in choosing the AI option when customers' identity was made salient."
-  - "**No change for White customers.** Offering an AI option did not alter White customers' choices in response to staff composition."
-  - "**Cues work.** A diversity statement or minority ownership largely removed the shift, a low-cost step for any service brand."
+  - "**Most people still want a person.** Even in the strongest conditions, about half of the customers stayed with the human option."
+  - "**Shifts of roughly 10 to 20 points.** That was the usual size of the swing towards the machine when customers felt they stood out."
+  - "**The payoff is in high-stakes services.** Banking, renting and hiring showed the effect; a relaxed social setting did not."
+  - "**Cheap to try.** An extra channel and a visible statement cost far less than restructuring a team, and both are easy to A/B test."
 
 limits:
-  - "**US, race and ethnicity only.** The studies focus on Black and other non-White consumers in the United States; other groups and countries were not tested."
-  - "**Mostly hypothetical choices.** Most studies were online scenarios; only the job ads and the Facebook campaign involved real behaviour."
-  - "**Perception, not fairness.** People saw AI as less judgmental, but the study did not test whether the AI options were actually fairer."
-  - "**Some effects were modest.** A few comparisons were only marginally significant, and the ad click-through rates were very low."
+  - "**US, race and ethnicity only.** Other identities and countries were not tested."
+  - "**Mostly hypothetical choices.** Only the job adverts and the Facebook campaign recorded what people actually did."
+  - "**Perceived fairness, not actual fairness.** The study didn't check whether the AI options treated people more equally."
+  - "**Some results were marginal.** A few comparisons only just reached significance, and click-through rates on the ads were very low."
 
 faq:
   - q: "Do minority customers prefer AI customer service?"
-    a: "Not in general, but more so in some situations. In a 2026 Journal of Marketing study, Black and other non-White customers were more likely to choose an AI or robot provider when all the human staff were White, for example 50% against 36% for a bank kiosk (Kim et al., 2026)."
-  - q: "Why would customers choose a robot over a human employee?"
-    a: "To avoid being judged on their identity. Non-White participants who felt like a minority at a bank worried more about being judged on their race, and that worry explained their shift towards the robot teller."
-  - q: "Do White customers react the same way?"
-    a: "No. In the study, White men did not choose the kiosk more often when the bank's staff were all non-White, so the effect is not simply a preference for staff who look like you."
-  - q: "How can service businesses reduce this concern?"
-    a: "Visible signals of inclusion helped. A diversity statement, a minority-owned business or a context with diverse customers largely removed the shift towards AI providers."
-  - q: "Should companies replace diverse hiring with AI options?"
-    a: "The authors present AI options as a way to serve customers who worry about judgment, especially where diverse hiring is hard. Their own results show diverse teams and inclusion cues also work, and algorithms can carry their own biases."
+    a: "Generally no, but the gap narrows when the staff are all White. In one online bank study, the robot teller's share rose from about one in five to nearly two in five once the other customers in the branch were all White (Kim et al., 2026, Journal of Marketing)."
+  - q: "Why would someone pick a robot over a person?"
+    a: "To avoid being stereotyped. Feeling out of place raised worries that staff would judge them by race, and those worries, not a liking for technology, explained the switch."
+  - q: "Isn't this just people preferring staff who look like them?"
+    a: "No. White men noticed the difference just as clearly, yet stuck with the human teller, so the effect depends on expecting unfair treatment, not on difference alone."
+  - q: "Is AI actually fairer than human staff?"
+    a: "Not necessarily. The authors cite cases where lending chatbots rated Black borrowers as riskier. Customers may still see AI as less judgmental, which is a perception to respect, not a guarantee."
+  - q: "What can a business do without changing its staff?"
+    a: "Offer a self-service or AI route for sensitive tasks and show clear signs of inclusion, such as a diversity statement. Both reduced the pull towards machines in the studies."
 
 also:
   - doi: "10.1177/10949968251408781"
@@ -154,8 +152,8 @@ also:
     year: 2026
     text: >-
       Four experiments show that advertising AI as "better than humans" can backfire by stirring fears about AI
-      threatening humanity, especially among people already anxious about AI. The authors also test a reassuring
-      message that softens the reaction. If you sell AI on superiority, pair the claim with reassurance about its role.
+      threatening humanity, especially among people already anxious about AI. A short reassuring message alongside the
+      claim softened the reaction. Bragging rights for your AI come with a cost, so add the reassurance.
   - doi: "10.1007/s11747-025-01136-y"
     title: "Keeping it real in human eyes: Receptivity to human vs. AI in luxury authentication and the role of perceived perspective similarity"
     authors: "Ma, X., Jin, F., & Dai, X."
@@ -164,8 +162,8 @@ also:
     text: >-
       Across eight studies, buyers and sellers preferred luxury goods authenticated by human experts over AI, because
       they felt human experts see the item the way they do. The preference weakened when the purchase was less about
-      social status, the product was not positioned as luxury, or the branding was discreet. For status goods, keep a
-      human in the authentication story.
+      social status, the product was not positioned as luxury, or the branding was discreet. Status shoppers want a
+      human eye on the goods, even when the machine may be just as good.
 
 charts:
   kiosk:
