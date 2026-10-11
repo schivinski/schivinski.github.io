@@ -19,7 +19,9 @@ Issue 1 (`watch/issues/2026-01-12-generative-ai-ad-images.yml`) is the template:
    - `faq`: 4–5 questions people actually ask; answers stand alone and include the evidence.
    - `keywords`: 8–12 search phrases. `topics`: 2–3 categories (AI, Advertising, Social media, UGC, Influencers,
      Personalization, Privacy, Retail, Service, Search, Creative, Research methods).
-4. **Pick the picture**: a high-quality photograph of the paper's subject (issue 1: a car), not an illustration.
+4. **Pick the picture**: a striking, high-quality photograph of the paper's subject (issue 1: a car), not an illustration.
+   It must stop the scroll: bold colour, strong light, close crop and a clear focal point, editorial or advertising quality
+   (Bruno, 11 Oct 2026: "sexy looking photos that entice the viewer"). Avoid bland stock scenes and generic office shots.
    Source from Unsplash (free Unsplash Licence; avoid Unsplash+), prefer images without prominent logos, credit the
    photographer in the caption. Save `watch/images/issue-NN-<slug>.jpg` (1600×900) and `-og.jpg` (1200×630).
 5. **Build and check**: `python scripts/build_paper_pages.py && python scripts/build_watch.py && quarto render`.
