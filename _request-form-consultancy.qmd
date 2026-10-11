@@ -3,7 +3,7 @@
 ```{=html}
 <section class="mt-request" id="request" aria-labelledby="request-title">
 <div class="mt-request-intro"><span class="mt-plan-icon"><svg class="mt-ico" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" > <rect width="20" height="16" x="2" y="4" rx="2" /> <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /> </svg></span><h2 id="request-title">Discuss a project</h2>
-<p>Tell me about your organisation and the question you need answered. I will reply within two working days.</p><p class="mt-small">Sent securely through Web3Forms. Your details are used only to reply to your request and are never shared.</p></div>
+<p>Tell me about your organisation and the question you need answered. I will reply within two working days.</p></div>
 <form class="mt-form" id="mt-form" novalidate data-key="038b5e33-d810-4d74-ae01-ec9aaa0ee259" data-default="consultancy"
   data-success="Request sent. You will hear back within two working days." data-error="Your request could not be sent. Check your connection and try again.">
 <input type="checkbox" name="botcheck" class="mt-hp" tabindex="-1" autocomplete="off" aria-hidden="true">

@@ -206,7 +206,6 @@ form:
     - { value: "SEM course for my institution", id: sem-course }
     - { value: "Workshop for my institution", id: workshop }
     - { value: "Consultancy project", id: consultancy }
-  privacy: "Sent securely through Web3Forms. Your details are used only to reply to your request and are never shared."
   success: "Request sent. You will hear back within two working days."
   error: "Your request could not be sent. Check your connection and try again."
   button: "Send request"

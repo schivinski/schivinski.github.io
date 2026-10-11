@@ -92,7 +92,7 @@ def form(d: dict, title: str | None = None, lede: str | None = None, default: st
                        for s in f["services"])
     return f'''<section class="mt-request" id="request" aria-labelledby="request-title">
 <div class="mt-request-intro"><span class="mt-plan-icon">{icon("mail")}</span><h2 id="request-title">{esc(title)}</h2>
-<p>{esc(lede)}</p><p class="mt-small">{esc(f["privacy"])}</p></div>
+<p>{esc(lede)}</p></div>
 <form class="mt-form" id="mt-form" novalidate data-key="{esc(d["web3forms_key"])}" data-default="{esc(default)}"
   data-success="{esc(f["success"])}" data-error="{esc(f["error"])}">
 <input type="checkbox" name="botcheck" class="mt-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
