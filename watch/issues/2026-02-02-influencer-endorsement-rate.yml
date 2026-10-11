@@ -1,0 +1,197 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 4
+week_of: "2026-02-02"            # the week this issue covers (shown on the page, orders the archive)
+slug: influencer-endorsement-rate
+published: "2026-10-11"
+status: live
+
+title: "How many sponsored posts is too many for an influencer? What a Journal of Marketing study found"
+short_title: "Why half-sponsored influencers get the least engagement"
+dek: >-
+  The usual advice is to avoid influencers who post lots of ads. Four studies with Instagram, Twitter and Douyin
+  data say otherwise: engagement is lowest for influencers stuck in the middle, not for the ones who sponsor the most.
+description: >-
+  Influencers who post mostly ads or almost none get the most engagement; those at around 40–50% sponsored get the
+  least. How to pick influencers by endorsement rate.
+keywords: [influencer endorsement rate, how many sponsored posts, influencer selection, sponsored posts engagement,
+  influencer marketing, too many ads influencer, choosing influencers, Instagram influencers, TikTok influencers,
+  Douyin, authenticity, Journal of Marketing]
+topics: [Influencers, Social media, Advertising]
+
+image:
+  file: issue-04-influencer-endorsement-rate.jpg
+  og: issue-04-influencer-endorsement-rate-og.jpg
+  alt: "A young woman sits cross-legged on the floor of a bright living room, talking to a camera on a tripod in front of a teal sofa"
+  caption: "What share of an influencer's posts should be ads? Photo: Vitaly Gariev on Unsplash."
+
+short_answer: >-
+  There is no single safe number, but the middle is the worst place to be. Across four studies, engagement with an
+  influencer's sponsored posts followed a U-shape: highest for influencers who rarely post ads and for those who post
+  mostly ads, and lowest for those in between, at around 40% to 50% sponsored on Instagram and 52% on Douyin. Mixed
+  feeds make followers suspect manipulation without yet signalling that brands value the influencer.
+
+takeaways:
+  - "When an influencer showed 2 sponsored posts out of 5, only 21.7% of followers shared the next ad, against 41.8% with no prior ads and 44.4% with 4 out of 5."
+  - "On Instagram, engagement bottomed out when 39% to 48% of an influencer's posts were sponsored; on Douyin, at 52%."
+  - "Influencers who post ads all the time are not a lost cause: those above 73% sponsored on Instagram kept about 90% of the best engagement."
+  - "Influencers who often talk about the product type in their own unpaid posts, or who endorse many different brands, are hurt less by a mixed feed."
+
+paper:
+  doi: "10.1177/00222429261422744"
+  title: "Endorsement rate in influencer marketing"
+  authors: ["Li, Y.", "Gao, A. Y.", "Gu, F. F.", "Leung, F. F."]
+  authors_full: ["Yijing Li", "Angela Yi Gao", "Flora F. Gu", "Fine F. Leung"]
+  year: 2026
+  journal: "Journal of Marketing"
+  online: "2026-01-27"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      A common rule in influencer marketing is to avoid creators whose feeds are full of ads, because followers tire of
+      sponsored content. Yet many ad-heavy influencers keep strong engagement. Yijing Li, Flora Gu and Fine Leung (Hong
+      Kong Polytechnic University) and Angela Yi Gao (Lingnan University) set out to measure what actually happens.
+
+      They studied the endorsement rate: the share of an influencer's posts that are brand-sponsored. After 12
+      interviews with influencers and agency staff, they analysed sponsored posts from Australian Instagram influencers
+      and five years of Douyin (Chinese TikTok) videos, and ran two experiments in which they changed only how many of an
+      influencer's recent posts were sponsored.
+    facts:
+      - ["Field data", "6,869 sponsored Instagram posts from 4,908 Australian influencers; 533,092 Douyin videos (147,877 sponsored) from 1,000 influencers"]
+      - ["Experiments", "168 US adults (Twitter cooking influencer) and 208 students in Hong Kong (Instagram fashion influencer, preregistered)"]
+      - ["Measures", "Likes, comments, reposts, real shares to Instagram stories, and comments that praise or question the influencer"]
+      - ["Interviews", "12 influencers and agency representatives"]
+
+  - h: "What they found"
+    body: |
+      Engagement does not fall steadily as ads pile up. It falls, then rises again. On Instagram, likes and comments on
+      a sponsored post were lowest when 39% to 48% of the influencer's past posts had been sponsored, and higher on
+      either side. On Douyin, where the average influencer is far more commercial (61% sponsored against 16% on
+      Instagram), reposts bottomed out at 52%.
+
+      The experiment with real behaviour made the pattern concrete. Students saw five posts from a fashion influencer
+      with none, two or four sponsored, then the influencer's ad for a duffel bag. To enter a prize draw they had to
+      share it on their own Instagram story. 41.8% did so when the earlier posts were all organic, and 44.4% when four
+      of five were sponsored, but only 21.7% when two of five were.
+    chart: share
+
+  - h: "Why the middle hurts"
+    body: |
+      Two perceptions pull against each other. As the share of ads rises, followers increasingly suspect the
+      influencer is trying to manipulate them. That suspicion rises steeply at first and then levels off, because a
+      mostly sponsored feed makes the influencer's commercial role clear and accepted. At the same time, many sponsored
+      posts signal that brands value the influencer. That benefit is small at first and grows quickly once ads dominate.
+
+      In the Twitter experiment, suspicion of manipulation jumped from 4.62 to 5.29 (out of 7) between no ads and two of
+      five, then rose less, to 5.69. Belief that brands recognise the influencer barely moved at first (4.81 to 4.99),
+      then jumped to 5.74. The influencer in the middle gets the cost without the benefit. Comments on Douyin showed the
+      same: remarks praising the influencer's brand deals grew with the endorsement rate, and comments questioning their
+      motives grew and then flattened.
+    chart: perceptions
+
+  - h: "What makes a mixed feed less risky"
+    body: |
+      Two things from an influencer's history softened the dip on Douyin. The first is organic product mentions: if the
+      influencer often talks about the same type of product in unpaid posts, a sponsored post for it looks like genuine
+      interest rather than a paid job. The second is brand consistency: an influencer who has endorsed the same brand
+      many times gains less from a high endorsement rate, because repeat deals with one brand do not signal broad market
+      demand.
+
+      The money is real. On Douyin, each repost of a sponsored video went with about 22 units sold. For an influencer
+      on the downward side of the curve, a 5% rise in endorsement rate meant 4.4% fewer reposts, roughly US$2,800 in
+      lost sales per post; on the upward side it meant 4.9% more reposts, about US$3,200 in extra sales.
+    chart: dip
+
+how_to:
+  - ["Check the endorsement rate before you sign", "Count the sponsored posts in an influencer's last 50 to 100 posts or 12 months. It is visible to anyone and quick to calculate, and it predicts engagement with your post."]
+  - ["Prefer a clear position", "Pick either organic creators with very few ads (under about 5% sponsored) or professional endorsers whose feeds are mostly ads (over about 70% on Instagram). Treat creators in the 40% to 50% range as the weakest bet."]
+  - ["Know your platform", "Instagram influencers average 16% sponsored, so most sit on the safe low side. On Douyin and similar commerce-heavy platforms the average (61%) sits near the dip, so check each candidate."]
+  - ["Look for genuine interest in your category", "Scan the influencer's unpaid posts. If they already talk about products like yours, your sponsored post will look natural, even with a mixed feed."]
+  - ["Watch for one-brand dependence", "An influencer who mostly endorses the same brand gains less credibility from their sponsorship record. A varied list of past partners signals that the market values them."]
+  - ["Advise creators on the move", "Influencers moving from organic to sponsored content should grow sponsorships within their own passion area and across several brands, so they pass through the middle quickly."]
+
+expect:
+  - "**Noticeable differences in engagement.** In the sharing experiment, the influencer with a mixed feed got half the shares (21.7% against 41.8% and 44.4%)."
+  - "**Small steps add up.** On Douyin, a 5% change in endorsement rate shifted reposts by about 4% to 5%, worth roughly US$2,800 to US$3,200 in sales per sponsored video."
+  - "**Room at both ends.** Influencers under 6% or over 73% sponsored on Instagram kept about 90% of the peak engagement at their end of the curve."
+  - "**Softer dips for good matches.** The penalty for a mixed feed shrank when the influencer already talked about the product type unpaid."
+
+limits:
+  - "**Engagement, not sales.** Most results are likes, comments, reposts and shares. The sales figures are an estimate based on the data provider's average sales per repost."
+  - "**Two field platforms.** The field data come from Australian Instagram and Chinese Douyin influencers. Turning points differ by platform and may differ again on TikTok, YouTube or LinkedIn."
+  - "**Small numbers in the lab.** The experiments showed five posts with zero, two or four sponsored. Real feeds are longer, and \"2 out of 4\" may not feel like \"10 out of 20\"."
+  - "**Disclosure rules.** Sponsored posts were identified by ad labels and links. Influencers who hide sponsorships were not captured."
+
+faq:
+  - q: "How many sponsored posts should an influencer have?"
+    a: "Either very few or most of them. In a Journal of Marketing study, engagement with sponsored posts was highest for influencers with almost no ads and for those whose feeds were mostly ads, and lowest at around 40% to 50% sponsored on Instagram and 52% on Douyin (Li et al., 2026)."
+  - q: "Do too many sponsored posts hurt an influencer's engagement?"
+    a: "Not necessarily. Engagement falls as ads increase from zero, but rises again once ads dominate the feed, because followers then see the influencer as a professional endorser whom brands value. Influencers above 73% sponsored on Instagram kept about 90% of the peak engagement."
+  - q: "What is an influencer's endorsement rate?"
+    a: "The share of an influencer's posts that are brand-sponsored. For example, an influencer with 20 sponsored posts out of 100 has an endorsement rate of 20%."
+  - q: "Why do influencers with a mix of ads and organic posts get less engagement?"
+    a: "Their followers start to suspect manipulative intent, but the feed is not yet commercial enough to show that many brands value the influencer. They pay the cost of advertising without the credibility benefit."
+  - q: "How should brands choose influencers using sponsored post history?"
+    a: "Calculate each candidate's endorsement rate, prefer clearly organic creators or clearly professional endorsers, check whether the influencer talks about your product type in unpaid posts, and favour those who have worked with a range of brands."
+
+also:
+  - doi: "10.1080/00913367.2025.2602465"
+    title: "Human vs. artificial intelligence: The role of agent knowledge in consumer responses to AI influencers, moderated by interactivity and mediated by anthropomorphism"
+    authors: "Kim, W., Lee, D., & Ham, C.-D."
+    journal: "Journal of Advertising"
+    year: 2026
+    text: >-
+      In two experiments, consumers who understood how algorithms work responded less favourably to an AI influencer's
+      product recommendations and were less willing to buy. The penalty appeared only when the AI influencer was highly
+      interactive, and how human-like it seemed explained the effect. Making a virtual influencer chattier will not win
+      over algorithm-savvy audiences.
+  - doi: "10.1108/ejm-04-2025-0283"
+    title: "Amplifying (or buffering) the blow: How influencer signals shape brand cancellation outcomes"
+    authors: "Demsar, V., Saldanha, N., Sands, S., & Ferraro, C."
+    journal: "European Journal of Marketing"
+    year: 2026
+    text: >-
+      Across three experiments, influencers who amplified a call to cancel a brand damaged trust, credibility and
+      purchase intention more than ordinary peers saying the same thing, while influencers who defended the brand
+      improved evaluations and reduced participation in the boycott. Building relationships with influencers before a
+      crisis gives brands allies when one hits.
+
+charts:
+  share:
+    title: "Followers who shared the influencer's sponsored post on their own Instagram story"
+    scale: [0, 50]
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["No earlier posts sponsored (0 of 5)", 41.8]
+      - ["Some earlier posts sponsored (2 of 5)", 21.7, true]
+      - ["Most earlier posts sponsored (4 of 5)", 44.4]
+    source: "Study 3, 208 students in Hong Kong, real shares to enter a prize draw for the promoted bag; preregistered."
+  perceptions:
+    title: "What followers thought of the influencer, by share of sponsored posts"
+    scale: [1, 7]
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["Suspect manipulation: 0 of 5 sponsored", 4.62]
+      - ["Suspect manipulation: 2 of 5 sponsored", 5.29, true]
+      - ["Suspect manipulation: 4 of 5 sponsored", 5.69]
+      - ["Valued by brands: 0 of 5 sponsored", 4.81]
+      - ["Valued by brands: 2 of 5 sponsored", 4.99, true]
+      - ["Valued by brands: 4 of 5 sponsored", 5.74]
+    source: "Study 2, 168 US adults viewing a cooking influencer's posts on Twitter, 1–7 scales."
+  dip:
+    title: "Share of sponsored posts at which engagement was lowest"
+    scale: [0, 100]
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Instagram, likes", 39.3]
+      - ["Instagram, comments", 47.5]
+      - ["Douyin, reposts", 51.9, true]
+    source: "Studies 1 and 4, turning points of the U-shaped curves. Average endorsement rate: 16% on Instagram, 61% on Douyin."
+
+related_pages: [measuring-consumer-engagement-social-media-content]   # paper pages on this site worth linking (slugs)
