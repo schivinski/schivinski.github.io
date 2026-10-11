@@ -167,7 +167,9 @@ def body(d: dict, prev_next: tuple) -> str:
                'Technology. He studies how consumers engage with brands in digital and social media.</p>'
                '<p><a href="../../../index.html">About Bruno</a> · <a href="../../index.html">All Marketing in 3 issues</a> · '
                '<a href="../../subscribe.html">Subscribe</a></p></div></div>')
-    out.append(support_card())
+    card = support_card()
+    if card:
+        out.append(card)
     prev, nxt = prev_next
     nav = []
     if prev:
