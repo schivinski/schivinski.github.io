@@ -33,9 +33,6 @@ description: "Get each new issue of Marketing in 3 in your feed reader as soon a
       <li><strong>Read new issues there.</strong> Each issue shows its headline, summary and image, with a link to
         the full article on this site.</li>
     </ol>
-    <p class="mw-sub-note">Opened the feed address in your browser and saw code? That is normal: the address is
-      meant for reader apps, not for reading directly. <a href="index.html">Browse all issues</a> on the site
-      instead.</p>
   </section>
 </div>
 
