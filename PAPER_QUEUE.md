@@ -12,7 +12,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 1 | 2016 | The effect of social media communication on consumer perceptions of brands | Journal of Marketing Communications | 2124 | locked (`social-media-communication-brand-perceptions`) |
 | 2 | 2016 | Measuring consumers’ engagement with brand-related social-media content: Development an… | Journal of Advertising Research | 1094 | locked (`measuring-consumer-engagement-social-media-content`) |
 | 3 | 2015 | The impact of brand communication on brand equity through Facebook | Journal of Research in Interactive Marketing | 968 | locked (`brand-communication-brand-equity-facebook`) |
-| 4 | 2018 | Reflections on “social media: Influencing customer satisfaction in B2B sales” and a res… | Industrial Marketing Management | 158 |  |
+| 4 | 2018 | Reflections on “social media: Influencing customer satisfaction in B2B sales” and a res… | Industrial Marketing Management | 158 | locked (`social-media-b2b-sales-research-agenda`) |
 | 5 | 2019 | Influencing COBRAs: the effects of brand equity on the consumer’s propensity to engage … | Journal of Strategic Marketing | 155 |  |
 | 6 | 2021 | Eliciting brand-related social media engagement: A conditional inference tree framework | Journal of Business Research | 150 |  |
 | 7 | 2020 | Social media brand engagement in the context of collaborative consumption: the case of … | Journal of Brand Management | 113 |  |

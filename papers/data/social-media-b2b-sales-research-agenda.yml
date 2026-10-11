@@ -1,0 +1,207 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text (in-press version supplied by Bruno, 11 Oct 2026); final details from Crossref: 75, 31-36 (Nov 2018).
+# Conceptual article (target and position article): no data, so findings are the article's arguments.
+# Status: locked on Bruno's standing instruction to publish straight away (11 Oct 2026)
+status: locked
+
+title: "Reflections on “social media: Influencing customer satisfaction in B2B sales” and a research agenda"
+doi: "10.1016/j.indmarman.2018.03.009"
+journal: "Industrial Marketing Management"
+issn: "0019-8501"
+publisher: "Elsevier"
+volume: "75"
+pages: "31–36"
+published: "2018-11"
+published_label: "November 2018 (accepted 21 March 2018)"
+open_access: false
+
+aam:
+  file: "nunan-sibai-schivinski-christodoulides-2018-imm-accepted-manuscript.pdf"
+  statement: >-
+    © 2018. This manuscript version is made available under the CC BY-NC-ND 4.0 licence
+    (https://creativecommons.org/licenses/by-nc-nd/4.0/). The published version is available in Industrial Marketing
+    Management, 75, 31-36, https://doi.org/10.1016/j.indmarman.2018.03.009
+
+authors:
+  - given: "Daniel"
+    family: "Nunan"
+    orcid: "0000-0002-3913-0131"
+    affiliation: ["Birkbeck, University of London"]
+  - given: "Olivier"
+    family: "Sibai"
+    affiliation: ["Birkbeck, University of London"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Birkbeck, University of London"]
+    me: true
+  - given: "George"
+    family: "Christodoulides"
+    affiliation: ["Birkbeck, University of London"]
+
+cite_short: "Nunan et al., 2018"
+badges: ["Target and position article", "Literature review", "Research agenda", "B2B"]
+keywords:
+  # Article's own keywords
+  - social media
+  - B2B
+  - value creation
+  - sales
+  # What the article is about
+  - business-to-business marketing
+  - B2B social media marketing
+  - social selling
+  - personal selling
+  - sales process
+  - salespeople's social media use
+  - buyer–seller relationships
+  - customer satisfaction
+  - B2B customer engagement
+  - industrial marketing
+  - LinkedIn for sales
+  # Theory and concepts
+  - adaptive selling
+  - social media adoption
+  - technology acceptance model
+  - customer relationship management (CRM)
+  - return on investment (ROI) of social media
+  - social media metrics
+  - competitive intelligence
+  - digital exclusion
+  - data privacy and security
+  # Method
+  - literature review
+  - research agenda
+  - commentary
+  # Application
+  - sales management
+  - social media policy
+  - sales technology
+
+in_brief: >-
+  Research shows that social media helps B2B sales mainly indirectly, by building relationships rather than closing
+  deals. Reviewing a key study by Agnihotri et al. (2016) and the literature around it, this article sets out five
+  research themes still open: adoption, platform roles, customer engagement, return on investment and risk.
+
+findings:
+  - headline: "Social media adds value to B2B sales indirectly, through relationships."
+    text: >-
+      Reviewing research on social media in business-to-business sales, Nunan et al. (2018) conclude that a consensus
+      has emerged: the value of social media lies mainly in building and maintaining buyer–seller relationships rather
+      than in closing deals directly.
+  - headline: "Customer satisfaction should be measured from the buyer's side."
+    text: >-
+      Nunan et al. (2018) argue that Agnihotri et al. (2016) assessed customer satisfaction through salespeople's own
+      perceptions, which may inflate results, and that research should survey B2B buyers to reflect the dyadic nature
+      of buyer–salesperson interaction.
+  - headline: "Research on social media in B2B sales falls into five streams."
+    text: >-
+      Nunan et al. (2018) organise the literature into five streams: the value social media creates in sales
+      relationships, the practices that create it, the drivers of adoption by salespeople, why it creates value, and
+      the conditions under which it does, placing Agnihotri et al. (2016) in the fourth.
+  - headline: "Five themes set the research agenda."
+    text: >-
+      Nunan et al. (2018) propose five themes for future research on social media in B2B sales: patterns of adoption,
+      the roles of different platforms across the sales process, B2B customer engagement, modelling return on
+      investment, and the risks of social media for sales relationships and firms, with 17 specific research challenges.
+  - headline: "Measuring ROI is hampered by who controls the data."
+    text: >-
+      Nunan et al. (2018) note a paradox: social media generates more data than ever, but the platforms control it and
+      offer metrics built for consumer advertising, not the account-level measures B2B sales needs, so researchers
+      fall back on self-reported surveys.
+
+glance:
+  - { label: "Article type", value: "Target and position article: a critical commentary on Agnihotri, Dingus, Hu and Krush (2016), <i>Industrial Marketing Management</i>, 53, 172&ndash;180" }
+  - { label: "Approach", value: "Narrative review of research on social media in B2B sales, organised into five research streams" }
+  - { label: "Output", value: "A research agenda of five themes and 17 research challenges" }
+  - { label: "Focus", value: "Salespeople's and buyers' use of social media within the business-to-business sales process" }
+
+figures:
+  - file: figures/nunan-et-al-2018-research-agenda.svg
+    title: "Figure 1. From what is known to what to study next"
+    caption: "Five streams of research on social media in B2B sales (Section 3 of the article), with Agnihotri et al. (2016) in the fourth, and the five themes of the proposed research agenda (Section 4). Diagram drawn for this page; the article has no figures."
+
+tables:
+  - id: "1"
+    title: "Research challenges by theme"
+    columns: ["Theme", "Research challenges"]
+    align: ["left", "left"]
+    web: true
+    rows:
+      - ["1. Patterns of social media adoption", "Barriers and enablers to salespeople's adoption of social media; models for multi-platform use and its synergistic effect on sales; the impact of legal and regulatory differences (e.g. access restrictions in China); the role of demographic and cultural factors."]
+      - ["2. Role of platforms in the sales process", "Integrating personal social media channels with formal sales technology; normative tools for choosing the most effective form of social media at each sales stage; how use and effectiveness differ by transaction size and relationship stage."]
+      - ["3. B2B customer engagement", "Conceptualising and measuring B2B customer engagement via social media, with its antecedents and consequences; its role when social media replaces face-to-face interaction; its role when used alongside face-to-face interaction."]
+      - ["4. Modelling the ROI of social media", "Metrics for ROI within the practical limits of data on proprietary platforms; accounting for use across devices and platforms; linking engagement metrics (clicks, shares, likes) to financial outcomes."]
+      - ["5. Risks of social media in B2B sales", "Fraud risks; risks of personal accounts giving access to sensitive data through hacking, espionage or competitive intelligence; enforceable organisational policies on salespeople's use; wider ethical issues, including public versus private identities and the use of big data."]
+    note: "Summarised from Section 4 of the article."
+
+question: >-
+  Research on social media in business-to-business settings lags far behind consumer research, even though buyers
+  use social media to search, compare and connect with salespeople. Agnihotri et al. (2016) were among the first to
+  show empirically how salespeople's social media use leads to customer satisfaction. We critically appraised their
+  study, placed it within the fast-growing literature on social media in B2B sales, and asked what remains unknown.
+
+implications:
+  practical: >-
+    Sales managers should treat social media as a relationship tool rather than a direct sales channel, combine it
+    with CRM systems and face-to-face meetings, and train salespeople in its use. Because adoption is led by employees
+    and customers rather than imposed by the firm, managers need clear and enforceable policies on how salespeople use
+    personal accounts, how information is shared, and how risks such as fraud, data leaks and competitive intelligence
+    gathering are controlled. Firms should also expect to build their own measures of return on investment, since
+    platform metrics are designed for advertising.
+  theoretical: >-
+    The article organises research on social media in B2B sales into five streams and identifies gaps in each. It
+    calls for buyer-side and dyadic data rather than salesperson self-reports, and for formal theory, such as the
+    technology acceptance model, the elaboration likelihood model or engagement marketing theory, to explain how
+    information communicated through social media turns into customer satisfaction. It extends consumer engagement
+    to B2B settings, where engagement spans several platforms and depends on groups rather than individuals.
+
+limitations:
+  - "The article is a commentary and review rather than an empirical study; its claims rest on the literature available in early 2018."
+  - "Future research should test the role of social media in B2B sales with data from buyers as well as salespeople, and across countries, platforms and stages of the sales relationship."
+  - "The agenda lists 17 research challenges, from measuring return on investment to the risks of personal social media accounts in sales."
+
+faq:
+  - q: "How does social media create value in B2B sales?"
+    a: >-
+      Mainly indirectly. Reviewing the research, Nunan et al. (2018) conclude that social media creates value in B2B
+      sales by building and maintaining buyer–seller relationships, for example by helping salespeople communicate
+      faster, respond to customers and adapt their selling, rather than by closing deals directly.
+  - q: "What are the main research gaps on social media in B2B sales?"
+    a: >-
+      Nunan et al. (2018) identify five themes: patterns of adoption by salespeople and buyers, the roles of different
+      platforms across the sales process, B2B customer engagement, modelling the return on investment of social media,
+      and the risks of social media for sales relationships and firms.
+  - q: "Why is the ROI of social media hard to measure in B2B?"
+    a: >-
+      Because the platforms control the data and provide metrics built for consumer advertising, while B2B sales needs
+      account-level data that is often unavailable to marketers, so measurement relies on self-reported surveys
+      (Nunan et al., 2018).
+  - q: "What risks does social media bring to B2B sales?"
+    a: >-
+      Nunan et al. (2018) point to misinformation, fraud, identity theft, malware and corporate espionage, the
+      difficulty of controlling platforms salespeople adopt on their own, the blurring of personal and business
+      communication, and stress from interruptions.
+
+concepts:
+  - term: "Social selling"
+    definition: "Salespeople's use of social media to identify prospects, communicate with buyers and build relationships throughout the sales process."
+  - term: "Adaptive selling"
+    definition: "A salesperson's ability to change their behaviour to fit the selling situation; social media is argued to strengthen it by improving access to information and communication."
+  - term: "B2B customer engagement"
+    definition: "Engagement of business customers that, unlike online consumer engagement, spans several platforms and channels and depends on groups rather than single individuals."
+  - term: "Return on investment (ROI) of social media"
+    definition: "The financial return from social media activity; hard to estimate in B2B sales because the metrics needed are held by platforms."
+  - term: "Target and position article"
+    definition: "An Industrial Marketing Management format in which authors critically appraise an influential article and set out where the field should go next."
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Free full text, CC BY-NC-ND 4.0", url: "manuscripts/nunan-sibai-schivinski-christodoulides-2018-imm-accepted-manuscript.pdf" }
+  - { label: "Published version", note: "Industrial Marketing Management (subscription)", url: "https://doi.org/10.1016/j.indmarman.2018.03.009" }
+  - { label: "Article discussed", note: "Agnihotri, Dingus, Hu & Krush (2016), Industrial Marketing Management, 53, 172–180", url: "https://doi.org/10.1016/j.indmarman.2015.09.003" }
+
+related:
+  - "10.2501/jar-2016-004"
+  - "10.1080/13527266.2013.871323"
+  - "10.1108/jrim-02-2014-0007"
+  - "10.1016/j.jbusres.2019.08.045"
