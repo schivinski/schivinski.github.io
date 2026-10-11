@@ -387,6 +387,26 @@ main section h2 { margin-top: 2.4rem; }
 .mw-also h3 a { color: $ink; text-decoration-color: $rule; }
 .mw-also-src, .mw-also-au { color: $muted; font-size: .85rem; margin: 0; }
 .mw-also-au { margin-bottom: .6rem; }
+
+/* Marketing Watch: subscribe page */
+.mw-sub { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2.2rem; margin-top: .5rem; }
+.mw-sub-copy input { width: 100%; }
+.mw-sub-card { background: $surface; border: 1px solid $rule; border-top: 4px solid $amber; border-radius: 10px; padding: 1.6rem 1.6rem 1.4rem; box-shadow: 0 6px 24px rgba(21, 32, 59, .06); }
+.mw-sub-icon { width: 2.8rem; height: 2.8rem; border-radius: 50%; background: $ink; color: $amber; display: grid; place-items: center; margin-bottom: .9rem; }
+.mw-sub-icon svg { width: 1.35rem; height: 1.35rem; }
+.mw-sub-card h2, .mw-sub-how h2 { margin: 0 0 .5rem; font-size: 1.45rem; border: 0; }
+.mw-sub-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin: 1.1rem 0 1.4rem; }
+.mw-sub-btn { display: inline-block; background: $ink; color: #fff !important; text-decoration: none; font-weight: 600; padding: .65rem 1.2rem; border-radius: 999px; }
+.mw-sub-btn:hover { background: $ink-soft; }
+.mw-sub-label { display: block; font-size: .8rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: $muted; margin-bottom: .35rem; }
+.mw-sub-copy { display: flex; border: 1px solid $rule; border-radius: 8px; overflow: hidden; background: $paper; }
+.mw-sub-copy input { flex: 1; min-width: 0; border: 0; background: transparent; padding: .6rem .8rem; font-family: SFMono-Regular, Menlo, Consolas, monospace; font-size: .9rem; color: $ink; }
+.mw-sub-copy button { display: inline-flex; align-items: center; gap: .4rem; border: 0; border-left: 1px solid $rule; background: $surface; color: $ink; font-weight: 600; padding: 0 1rem; cursor: pointer; }
+.mw-sub-copy button:hover { background: $amber; }
+.mw-sub-copy button svg { width: 1rem; height: 1rem; }
+.mw-sub-note { color: $muted; font-size: .92rem; margin-top: .6rem; }
+.mw-subscribe-line { margin-top: .4rem; }
+.mw-subscribe-line a { font-weight: 600; }
 .mw-source .mw-cite { padding-left: 1.6rem; text-indent: -1.6rem; }
 .mw-note { color: $muted; font-size: .9rem; }
 .mw-author { display: flex; gap: 1rem; align-items: flex-start; border-top: 1px solid $rule; border-bottom: 1px solid $rule; padding: 1.3rem 0; margin: 2.4rem 0 1.4rem; }

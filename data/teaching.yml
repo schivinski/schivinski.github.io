@@ -202,6 +202,7 @@ courses:
         url: "https://www.routledge.com/product/isbn/9781032161495"
       - cite: "Eagle, L., Dahl, S., Czarnecka, B., & Lloyd, J. (2015). *Marketing communications*. Routledge."
         cover: "assets/textbooks/eagle-marketing-communications-2015.jpg"
+        url: "https://www.routledge.com/Marketing-Communications/Eagle-Czarnecka-Dahl-Lloyd/p/book/9781003089292"
     taught:
       - { inst: gdansk-tech, as: "E-marketing and Trend Analysis", programme: "Data Engineering (Big Data in Business Management)", years: "2025–present" }
       - { inst: ftu, programme: "Advanced Program in International Business Management (bachelor's, taught in English)", years: "2025" }
@@ -358,8 +359,10 @@ courses:
     textbooks:
       - cite: "Field, A. (2024). *Discovering statistics using IBM SPSS Statistics* (6th ed.). Sage."
         cover: "assets/textbooks/field-discovering-statistics-spss-6e.jpg"
+        url: "https://collegepublishing.sagepub.com/products/285130"
       - cite: "Field, A., Miles, J., & Field, Z. (2012). *Discovering statistics using R*. Sage."
         cover: "assets/textbooks/field-miles-field-discovering-statistics-r.jpg"
+        url: "https://www.sagepub.com/shop/buy-a-book/discovering-statistics-using-r-1-236067"
     taught:
       - { inst: upsa, programme: "PhD programmes", years: "2019–2021" }
 
@@ -417,6 +420,7 @@ courses:
     textbooks:
       - cite: "Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2019). *Multivariate data analysis* (8th ed.). Cengage."
         cover: "assets/textbooks/hair-black-babin-anderson-mda-8e.jpg"
+        url: "https://www.cengage.uk/c/co/9781473756540"
       - cite: "Kline, R. B. (2023). *Principles and practice of structural equation modeling* (5th ed.). Guilford Press."
         cover: "assets/textbooks/kline-principles-practice-sem-5e.jpg"
         url: "https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910"
@@ -447,11 +451,13 @@ courses:
     textbooks:
       - cite: "Field, A. (2024). *Discovering statistics using IBM SPSS Statistics* (6th ed.). Sage."
         cover: "assets/textbooks/field-discovering-statistics-spss-6e.jpg"
+        url: "https://collegepublishing.sagepub.com/products/285130"
       - cite: "Kline, R. B. (2023). *Principles and practice of structural equation modeling* (5th ed.). Guilford Press."
         cover: "assets/textbooks/kline-principles-practice-sem-5e.jpg"
         url: "https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910"
       - cite: "Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2019). *Multivariate data analysis* (8th ed.). Cengage."
         cover: "assets/textbooks/hair-black-babin-anderson-mda-8e.jpg"
+        url: "https://www.cengage.uk/c/co/9781473756540"
     taught:
       - { inst: upsa, programme: "PhD programmes", years: "2019–2024" }
 
@@ -480,8 +486,10 @@ courses:
     textbooks:
       - cite: "Field, A. (2024). *Discovering statistics using IBM SPSS Statistics* (6th ed.). Sage."
         cover: "assets/textbooks/field-discovering-statistics-spss-6e.jpg"
+        url: "https://collegepublishing.sagepub.com/products/285130"
       - cite: "Field, A., Miles, J., & Field, Z. (2012). *Discovering statistics using R*. Sage."
         cover: "assets/textbooks/field-miles-field-discovering-statistics-r.jpg"
+        url: "https://www.sagepub.com/shop/buy-a-book/discovering-statistics-using-r-1-236067"
       - cite: "Brinkmann, S., & Kvale, S. (2015). *InterViews: Learning the craft of qualitative research interviewing* (3rd ed.). Sage."
         cover: "assets/textbooks/brinkmann-kvale-interviews-3e.jpg"
         url: "https://www.sagepub.com/shop/buy-a-book/interviews-3-239402"
@@ -517,8 +525,10 @@ courses:
     textbooks:
       - cite: "Field, A. (2024). *Discovering statistics using IBM SPSS Statistics* (6th ed.). Sage."
         cover: "assets/textbooks/field-discovering-statistics-spss-6e.jpg"
+        url: "https://collegepublishing.sagepub.com/products/285130"
       - cite: "Field, A., Miles, J., & Field, Z. (2012). *Discovering statistics using R*. Sage."
         cover: "assets/textbooks/field-miles-field-discovering-statistics-r.jpg"
+        url: "https://www.sagepub.com/shop/buy-a-book/discovering-statistics-using-r-1-236067"
     taught:
       - { inst: rmit, programme: "Master's, School of Media and Communication", years: "2021, 2024, 2025" }
 
@@ -553,6 +563,7 @@ courses:
         url: "https://www.routledge.com/product/isbn/9781848728394"
       - cite: "Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2019). *Multivariate data analysis* (8th ed.). Cengage."
         cover: "assets/textbooks/hair-black-babin-anderson-mda-8e.jpg"
+        url: "https://www.cengage.uk/c/co/9781473756540"
       - cite: "Jose, P. E. (2013). *Doing statistical mediation and moderation*. Guilford Press."
         cover: "assets/textbooks/jose-statistical-mediation-moderation.jpg"
         url: "https://www.guilford.com/books/Doing-Statistical-Mediation-and-Moderation/Paul-Jose/9781462508150"

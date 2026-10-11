@@ -6,6 +6,8 @@ project:
     - "watch/**/*.qmd"
     - "papers/*.qmd"
     - "!README.md"
+  post-render:
+    - scripts/style_feed.py
   resources:
     - robots.txt
     - "316433b063da86628eea6ac290ebe7f0.txt"
@@ -13,6 +15,7 @@ project:
     - "papers/manuscripts/*.pdf"
     - "papers/materials/**"
     - "watch/images/**"
+    - "watch/feed.xsl"
 
 website:
   title: "Bruno Schivinski"
@@ -43,8 +46,8 @@ website:
   page-footer:
     left: "Bruno Schivinski, Department of Marketing, Gdańsk University of Technology"
     right:
-      - text: "RSS"
-        href: watch/index.xml
+      - text: "Subscribe to Marketing Watch"
+        href: watch/subscribe.qmd
 
 format:
   html:

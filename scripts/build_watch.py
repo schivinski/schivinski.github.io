@@ -152,7 +152,7 @@ def body(d: dict, prev_next: tuple) -> str:
                '<div><p><strong>Bruno Schivinski</strong> is Associate Professor of Marketing at Gdańsk University of '
                'Technology. He studies how consumers engage with brands in digital and social media.</p>'
                '<p><a href="../../../index.html">About Bruno</a> · <a href="../../index.html">All Marketing Watch issues</a> · '
-               '<a href="../../index.xml">RSS feed</a></p></div></div>')
+               '<a href="../../subscribe.html">Subscribe</a></p></div></div>')
     prev, nxt = prev_next
     nav = []
     if prev:

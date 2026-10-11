@@ -6,8 +6,14 @@ listing:
   sort: "date desc"
   date-format: "D MMMM YYYY"
   template: ../_templates/watch-list.ejs
-  feed: true
+  feed:
+    title: "Marketing Watch | Bruno Schivinski"
+    description: "New research from the leading marketing journals, translated for practitioners: what each study found, how to use it, and what results to expect."
 ---
 
 New research from the leading marketing journals, translated for practitioners: what each study found, how to
 use it in your strategy, and what results to expect.
+
+::: {.mw-subscribe-line}
+[Subscribe to new issues](subscribe.qmd) by RSS, in Feedly, Inoreader or any feed reader.
+:::
