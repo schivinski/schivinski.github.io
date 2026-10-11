@@ -1,5 +1,9 @@
 # Marketing in 3: how an issue is made
 
+The series was renamed from "Marketing Watch" to **Marketing in 3** on 11 Oct 2026 (Bruno's choice: catchy, easy to
+remember, extends to merch and products; the "3" is not explained on the site). URLs stay under `/watch/` so links and
+the RSS feed (`/watch/index.xml`, subscribe page `/watch/subscribe.html`) keep working.
+
 One issue per call, in the order of `watch/PLAN_2026.md` (Project doc `claude/marketing-watch-2026-plan.md`).
 Issue 1 (`watch/issues/2026-01-12-generative-ai-ad-images.yml`) is the template: copy its structure and tone.
 
