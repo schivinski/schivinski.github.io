@@ -1,0 +1,213 @@
+# Marketing Watch issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 3
+week_of: "2026-01-26"            # the week this issue covers (shown on the page, orders the archive)
+slug: meme-marketing
+published: "2026-10-11"
+status: live
+
+title: "Does meme marketing work? What a Journal of Marketing study found"
+short_title: "When brand memes sell, and when they flop"
+dek: >-
+  A meme ad more than doubled click-through in a real campaign and lifted return on ad spend. Six studies show why
+  memes work, and two conditions that switch the effect off: the meme's age and the product you sell.
+description: >-
+  In a field test, a meme ad doubled click-through (1.40% against 0.65%) and raised ROAS from 1.14 to 1.52. Memes
+  work only when mature and for mainstream products.
+keywords: [meme marketing, internet memes, brand memes, does meme marketing work, social media marketing,
+  click-through rate, ROAS, meme life cycle, self-brand connection, psychological ownership, Journal of Marketing]
+topics: [Social media, Advertising, UGC]
+
+image:
+  file: issue-03-meme-marketing.jpg
+  og: issue-03-meme-marketing-og.jpg
+  alt: "Four friends around a café table with coffee cups, laughing together at something on one of their phones"
+  caption: "Memes work because people feel they own them together. Photo: Vitaly Gariev on Unsplash."
+
+short_answer: >-
+  Yes, under two conditions. Across six studies, posts and ads built on an internet meme earned more likes, more
+  clicks, more orders and higher purchase intentions than the same message without the meme. In a real WeChat
+  campaign, the meme ad's click-through rate was 1.40% against 0.65%, and its return on ad spend 1.52 against 1.14.
+  Memes work because consumers feel the meme belongs to them and other internet users, and that feeling transfers to
+  the brand. The effect appeared only for memes at their peak (mature, widely recognised) and for mainstream
+  products, not niche ones.
+
+takeaways:
+  - "In a real A/B test on WeChat Moments, a grocery ad using the meme \"Laomo, I want to eat fish tonight\" got 115% more clicks per impression and a 44% higher conversion rate than a standard ad for the same fish."
+  - "Across 900,139 posts from 2,981 brands on Weibo, posts with a meme earned at least 10% more likes, and more comments and reposts."
+  - "Timing decides it. Using a meme at its peak raised purchase intention (6.42 against 5.69 out of 9); using it while it was new, still growing or fading did nothing."
+  - "Memes sell mainstream products, not niche ones. A meme campaign raised intention to watch a mainstream action film (5.10 against 4.09) but not an art-house film (3.90 against 4.16)."
+
+paper:
+  doi: "10.1177/00222429261417674"
+  title: "From owning to connecting: Understanding and leveraging the effect of internet meme marketing"
+  authors: ["Wang, L.", "Li, X.", "Wang, Q.", "Su, L."]
+  authors_full: ["Lu Wang", "Xueni (Shirley) Li", "Qiyuan Wang", "Lei Su"]
+  year: 2026
+  journal: "Journal of Marketing"
+  online: "2026-01-13"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Brands from Delta Air Lines to DreamWorks join meme trends, and industry reports suggest firms now put 5% to 10%
+      of their marketing budgets into meme marketing, some startups as much as 30% to 40%. Yet there was little evidence
+      on whether it works. In a survey of 100 US digital marketers by the authors, the main difficulties were choosing
+      the right meme and pairing it with the right product.
+
+      Lu Wang (Zhongnan University of Economics and Law), Xueni (Shirley) Li (Hong Kong Baptist University), Qiyuan
+      Wang (Hong Kong Polytechnic University) and Lei Su (City University of Hong Kong) define meme marketing by four
+      features: it is created together by brands and internet users, it follows a template, it draws on shared culture,
+      and it spreads by imitation and remixing. They tested it with brand posts on Weibo, a paid field experiment on
+      WeChat, and five online experiments with nearly 4,000 people in China and the US, using text, image and video
+      memes.
+    facts:
+      - ["Field data", "900,139 Weibo posts from 2,981 brands (October 2021 to October 2022), 879 of them using one of 13 memes"]
+      - ["Field experiment", "A/B test of two paid ads for a Chinese grocery platform on WeChat Moments, RMB 5,000 each"]
+      - ["Experiments", "5 online experiments, 600 to 1,561 people each, two of them preregistered"]
+      - ["Measures", "Likes, comments and reposts; clicks, orders and return on ad spend; purchase intention, shared ownership of the message, self–brand connection"]
+      - ["Open data", "Data and materials posted on ResearchBox (#3608)"]
+
+  - h: "What they found in a real campaign"
+    body: |
+      Working with Dingdong, a large online grocery retailer in China, the authors ran two WeChat ads for freshwater
+      fish with identical images and budgets. One used the tagline of a popular meme, "Laomo, I want to eat fish
+      tonight"; the other read "High-quality fresh freshwater fish". Ads were paid per click, so the more attractive ad
+      needed fewer impressions to use up its budget.
+
+      The meme ad needed half the impressions (140,152 against 283,413) to get slightly more clicks (1,958 against
+      1,845). Its click-through rate was 1.40% against 0.65%, close to the 0.60% industry average. More of those clicks
+      became orders (8.27% against 5.75%), so the meme ad brought in more revenue (RMB 7,624 against 5,698) for the
+      same spend: a return on ad spend of 1.52 against 1.14.
+
+      The Weibo data point the same way. With each brand compared with itself, posts with a meme got at least 10% more
+      likes, plus more comments and reposts, and the result held with matched posts, an instrumental variable and posts
+      matched on meaning.
+    chart: ctr
+
+  - h: "Why memes work"
+    body: |
+      A meme belongs to everybody who has used it. The authors call this shared psychological ownership: the sense that
+      "we", the internet users, made this. When a brand speaks in a meme, people feel they own the message with others,
+      and that feeling turns into a closer connection between themselves and the brand.
+
+      Two experiments showed this. On a simulated social media feed in China (1,000 people), a back-support brand's
+      post was more likely to be liked (5.40 against 4.60 out of 9) and its product more wanted (6.08 against 5.60) when
+      a third of the feed used the meme the post borrowed. With 600 US adults, a fictitious sportswear brand using the
+      line "There are five types of fitness enthusiasts…" was felt to be more shared property (4.98 against 3.97), felt
+      closer to the self (3.45 against 2.52) and was more wanted (4.79 against 4.20). Ownership and connection, in that
+      order, explained the effect. Mood, the quality of the post and how familiar the brand was did not.
+
+  - h: "Catch the meme at its peak"
+    body: |
+      Memes have a life cycle: introduction, growth, maturity and decline. With 1,561 US adults, a bedding brand used a
+      line from a TV series ("I come to our beddings for only three things: cozy, cozy, and cozy") at each of the four
+      stages. Only when the meme was mature, widely recognised and used by many people, did the meme post beat a
+      standard post (6.42 against 5.69 out of 9). A new meme has not yet been shared enough for anyone to feel they own
+      it; a fading one no longer gives that feeling. Ownership and self–brand connection rose only at maturity too.
+    chart: lifecycle
+
+  - h: "Mainstream products only"
+    body: |
+      With 797 US adults, a video meme (two cats chatting) was used to promote either a mainstream action film or a
+      niche art-house film with the same title. The meme raised intention to watch the mainstream film (5.10 against
+      4.09 out of 9) but not the niche one (3.90 against 4.16). Memes draw their power from mass culture, which suits
+      mass-market products; niche products appeal to people who want to stand apart, and borrowed mass culture works
+      against that.
+
+      One in four participants (23.6%) had seen the cat meme before. Prior exposure did not change the result, but the
+      authors stress that people must recognise a meme as a meme for any of this to work: in the feed experiment, 98% of
+      people spotted it.
+    chart: product
+
+how_to:
+  - ["Pick a mature meme", "Use memes that many people already recognise and remix, not ones that are just emerging or already fading. Judge maturity by how many people create their own versions, how consistent the template is and how recognisable it is to your audience, not by views alone."]
+  - ["Check recognition first", "The effect depends on people seeing the post as a meme. If your target audience would not recognise the template, run a quick check or choose another."]
+  - ["Keep it for mainstream products", "Memes worked for a grocery staple, a back-support product, sportswear, bedding and a blockbuster film, but not for a niche art film. For premium, artistic or subcultural brands, use other tactics."]
+  - ["Borrow the template, add your product", "Keep the meme's structure intact and slot the product in (\"There are five types of fitness enthusiasts…\"). The winning ads changed one line of copy and nothing else."]
+  - ["Keep the tone soft", "Meme posts work as conversation rather than promotion. Post them on owned channels and let people share and remix them, which brings earned reach on top."]
+  - ["Measure it like any ad", "A/B test a meme version against your standard copy and track click-through, conversion and return on ad spend, as in the field experiment."]
+
+expect:
+  - "**More clicks for the same budget.** In the field test, click-through more than doubled (1.40% against 0.65%) and the meme ad needed half the impressions to spend its budget."
+  - "**Better return, not just engagement.** Conversion rose from 5.75% to 8.27% and return on ad spend from 1.14 to 1.52."
+  - "**Modest lifts in surveys.** In the experiments, purchase intention rose by about half a point to one point on a 9-point scale (effect sizes d = .23 to .44)."
+  - "**Engagement on organic posts.** On Weibo, meme posts earned at least 10% more likes than the same brand's other posts, and more comments and reposts."
+
+limits:
+  - "**One field test.** The click and revenue evidence comes from a single A/B test of two ads in China. The authors' estimate that meme marketing could add US$212 billion in revenue is a rough extrapolation, not a finding."
+  - "**Simulated life cycles.** The meme's stage was described to participants rather than observed over time, and the memes and brands in most experiments were made up."
+  - "**Risky memes untested.** Political or sensitive memes, memes that clash with a brand's persona, and platform rules on meme use were not studied."
+  - "**Platform-specific formats.** TikTok challenges and similar formats follow platform logic that may change the effect; combining memes with influencers is also untested."
+
+faq:
+  - q: "Does meme marketing work?"
+    a: "Yes, under two conditions. In a Journal of Marketing study, a meme ad on WeChat more than doubled click-through (1.40% against 0.65%) and raised return on ad spend from 1.14 to 1.52, and meme posts on Weibo got at least 10% more likes. The effect appeared only for mature, widely recognised memes and for mainstream products."
+  - q: "Why are memes effective in marketing?"
+    a: "Because people feel memes belong to everyone who uses them. When a brand speaks in a meme, consumers feel they share ownership of the message, and this strengthens their connection with the brand, which raises purchase intention (Wang et al., 2026)."
+  - q: "When should brands use a meme?"
+    a: "At its peak. In an experiment with 1,561 people, a brand post using a meme raised purchase intention only when the meme was mature (6.42 against 5.69 out of 9), not when it was new, still growing or in decline."
+  - q: "Does meme marketing work for niche or luxury brands?"
+    a: "Not in this research. A meme campaign raised intention to watch a mainstream action film (5.10 against 4.09 out of 9) but had no effect for a niche art-house film (3.90 against 4.16). Memes rely on mass culture, which suits mainstream products."
+  - q: "What is meme marketing?"
+    a: "A digital marketing practice in which brands use internet memes to promote products. It is co-created by brands and internet users, follows a recognisable template, draws on shared culture and spreads through imitation and remixing."
+
+also:
+  - doi: "10.1108/ejm-02-2025-0103"
+    title: "Holiday marketing of retailers on social media: Impact of post appeals and humor on advertising communication effectiveness"
+    authors: "Kuo, Y.-F., Lin, W.-C., Liao, J.-Z., & Liu, H.-H."
+    journal: "European Journal of Marketing"
+    year: 2026
+    text: >-
+      Analysing holiday Facebook posts from seven Taiwanese retailers (2021 to 2023) and running follow-up experiments,
+      the authors find that image-building posts beat sales-driven ones, and that humour helps, most of all in
+      sales-driven posts, where clever, cognitive humour works better than purely feel-good humour. If a holiday post has
+      to push a promotion, make it witty.
+  - doi: "10.1002/mar.70108"
+    title: "Humor heals: Examining meme tone and victim framing in donation-driven content"
+    authors: "Kim, M., & Koksal, A."
+    journal: "Psychology & Marketing"
+    year: 2026
+    text: >-
+      Donations usually fall as the number of victims rises, a pattern known as compassion fade. Across three
+      experiments, humorous meme-style posts kept donation intentions up for appeals about many victims, where serious
+      posts lost ground. For charities, a light meme tone can soften compassion fade rather than trivialise the cause.
+
+charts:
+  ctr:
+    title: "Click-through rate of two WeChat ads for the same fish"
+    scale: [0, 1.6]
+    unit: "%"
+    decimals: 2
+    bars:
+      - ["Industry average", 0.60]
+      - ["Standard ad (\"High-quality fresh fish\")", 0.65]
+      - ["Meme ad (\"Laomo, I want to eat fish\")", 1.40, true]
+    source: "Study 2a, field A/B test on WeChat Moments, RMB 5,000 per ad; industry average as cited by the authors."
+  lifecycle:
+    title: "Purchase intention when the brand used the meme at each stage"
+    scale: [1, 9]
+    unit: "out of 9"
+    decimals: 2
+    bars:
+      - ["Standard post (no meme)", 5.69]
+      - ["Meme just introduced", 5.38]
+      - ["Meme growing", 5.74]
+      - ["Meme at maturity", 6.42, true]
+      - ["Meme in decline", 5.45]
+    source: "Study 3, 1,561 US adults, 1–9 scale. The standard post is the maturity-stage comparison; standard posts did not differ across stages."
+  product:
+    title: "Intention to watch a film promoted with or without a meme"
+    scale: [1, 9]
+    unit: "out of 9"
+    decimals: 2
+    bars:
+      - ["Mainstream film, no meme", 4.09]
+      - ["Mainstream film, meme", 5.10, true]
+      - ["Niche film, no meme", 4.16]
+      - ["Niche film, meme", 3.90]
+    source: "Study 4, 797 US adults, video meme \"Two cats conversation\", 1–9 scale; the niche difference was not significant."
+
+related_pages: [measuring-consumer-engagement-social-media-content]   # paper pages on this site worth linking (slugs)
