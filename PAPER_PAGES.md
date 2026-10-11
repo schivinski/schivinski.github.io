@@ -91,6 +91,8 @@ is a re-typeset copy of the published article rather than an accepted manuscript
 article", state the licence, the original source and "changes made: re-typeset", and set `aam.button`
 and `aam.note` so the page says "Download the full text (PDF)". Check the licence before hosting (CC BY-ND
 and NC licences allow verbatim non-commercial copies; re-typesetting under ND needs care).
+Under a NoDerivatives licence (CC BY-ND, CC BY-NC-ND), host the publisher's PDF unchanged instead of a re-typeset copy
+(first case: Aleem et al., 2024, JMC, 11 Oct 2026).
 
 ## Page sections, in order
 
