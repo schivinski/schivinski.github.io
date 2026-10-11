@@ -1,0 +1,223 @@
+# Marketing Watch issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 2
+week_of: "2026-01-19"            # the week this issue covers (shown on the page, orders the archive)
+slug: responding-to-positive-reviews
+published: "2026-10-11"
+status: live
+
+title: "How should a business reply to a positive review? What a Journal of Marketing study found"
+short_title: "How to answer customers who praise you online"
+dek: >-
+  "Thank you!" is not enough, and repeating the praise can backfire. Across six experiments, replies that gently
+  downplayed the compliment made people like the business more and pick it more often. Here is the wording that works.
+description: >-
+  Replying to a 5-star review by downplaying the praise made 60.8% of people choose that business over one that
+  repeated the compliment. Wording that works, and what to avoid.
+keywords: [how to respond to positive reviews, reply to 5-star review, review response examples, managerial responses,
+  online reviews, Google reviews, word of mouth, reputation management, humility in marketing, review response template,
+  Journal of Marketing]
+topics: [UGC, Service, Social media]
+
+image:
+  file: issue-02-responding-to-positive-reviews.jpg
+  og: issue-02-responding-to-positive-reviews-og.jpg
+  alt: "A chef pours sauce over a plated dish of duck and potato on a white plate, lit by a single spotlight against a dark kitchen"
+  caption: "The study's main test: replies to a restaurant review that said \"Dinner was fantastic!\". Photo: Urban Gyllström on Unsplash."
+
+short_answer: >-
+  Say thank you, then gently downplay the compliment: scale down the praise ("We're glad your dinner was good") or
+  credit someone who helped ("Our local suppliers are a big help"). In six experiments, this kind of reply made
+  readers rate the business more highly than no reply, a plain "Thank you!" or a reply that repeated the praise, and
+  60.8% chose the business that downplayed over one that repeated the compliment. It works because it signals
+  humility.
+
+takeaways:
+  - "Choosing between two coffee shops with equally good reviews, 60.8% of 199 people picked the one whose owner downplayed the compliment rather than repeating it."
+  - "Most firms reply the wrong way: of 500 replies to positive Google reviews, 91.4% said thank you and 35.6% repeated the praise, but only 7.8% scaled it down and 11.8% credited the reviewer."
+  - "Downplaying made readers more willing to vote the reply useful (2.18 out of 3, against 1.67 for a plain thank you), which matters for platforms that rank responses."
+  - "It only works with a real shift of credit to someone who was involved: \"You made us blush!\", praising staff the reviewer never met, or a lukewarm word such as \"alright\" did not help, and \"alright\" hurt."
+
+paper:
+  doi: "10.1177/00222429251408347"
+  title: "Giving thanks: How managers should respond to compliments in positive word of mouth"
+  authors: ["Lafreniere, K. C.", "Moore, S. G.", "Soltani, M."]
+  authors_full: ["Katherine C. Lafreniere", "Sarah G. Moore", "Mohamad Soltani"]
+  year: 2026
+  journal: "Journal of Marketing"
+  online: "2026-01-12"
+  open_access: true
+  licence: "CC BY 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Katherine Lafreniere, Sarah Moore and Mohamad Soltani of the University of Alberta started from a gap between
+      advice and evidence. Review platforms tell managers to thank the reviewer and repeat something positive from the
+      review. Earlier academic studies found that replies to positive reviews can hurt ratings and revenue, and
+      suggested a short "thank you" at most.
+
+      The authors argue that a positive review is a compliment, and that people expect compliments to be answered the
+      way they are in everyday conversation: agree with the speaker, but stay humble. In a pilot with 602 people,
+      82.7% said a positive review is the same as complimenting the business, and they expected more gratitude and
+      more humility from a manager answering a review than from a brand advertising or posting on social media.
+
+      They then coded 500 real replies to 4- and 5-star reviews on Google Local, and ran six experiments with 3,986
+      participants in total, mostly using one restaurant review ("Dinner was fantastic!") and testing different
+      replies from the owner.
+    facts:
+      - ["Field data", "500 managerial replies to positive Google Local reviews, coded by two independent coders"]
+      - ["Experiments", "6 online experiments, 199 to 1,436 people each"]
+      - ["Measures", "Choice between businesses, evaluation of the business, willingness to vote the reply useful, perceived humility of the owner"]
+      - ["Open data", "Surveys, data and analyses posted on ResearchBox"]
+
+  - h: "What firms reply today"
+    body: |
+      Replies to reviews are becoming common: 21.1% of Google Local reviews posted in 2020 had a reply from the firm,
+      up from 8.5% in 2016. Yet only 15.21% of positive reviews get one, so most praise goes unanswered.
+
+      When firms do reply, they follow the industry script. Almost every reply said thank you (91.4%) and a third
+      repeated the compliment (35.6%). Very few downplayed it: 7.8% scaled down the praise, 11.8% credited the
+      reviewer, and none credited a supplier or another third party.
+    chart: coding
+
+  - h: "What they found"
+    body: |
+      Replies that downplayed the compliment beat every alternative. In the first experiment (455 students), the
+      restaurant was rated 4.07 out of 5 when the owner wrote "Thank you! We're glad your dinner was satisfying. We try
+      our best, but our local suppliers are a big help", against 3.87 with no reply, 3.88 with a plain "Thank you!" and
+      3.90 with "We loved hearing that your dinner was fantastic!". Readers were also more willing to vote the
+      downplaying reply useful (2.18 against 1.67 and 1.90 out of 3).
+
+      Each technique works on its own. With 1,000 adults, scaling down the praise ("We're glad you had a good night"),
+      crediting the reviewer ("It was a pleasure to serve you. You made our job easy") and crediting suppliers all beat
+      a plain thank you.
+    chart: evaluation
+
+  - h: "Does it change who customers choose?"
+    body: |
+      Yes. In a test with real stakes, 199 people saw two coffee shops with equally glowing reviews and picked one to
+      win a $25 gift card for. One owner downplayed the compliment ("Thank you! We try our best, though our local
+      suppliers sure help!"), the other repeated it ("Thank you for saying that our coffee, staff, and atmosphere are
+      outstanding!"). Both replies had the same number of words. 60.8% chose the shop that downplayed, whichever
+      review it was attached to, and that shop was rated more favourably (4.40 against 4.20).
+
+      The reason is humility. Readers saw the downplaying owner as more humble (3.55 against 2.90 out of 4) and as closer
+      to how an owner ideally should respond, and these perceptions fully explained the better evaluations.
+    chart: choice
+
+  - h: "Three ways to get it wrong"
+    body: |
+      The last three experiments show that downplaying works only when readers can tell the owner is genuinely passing
+      on credit.
+
+      Saying you are flattered is not enough. "Thank you! You made us blush!" did no better than a plain thank you.
+      Credit has to go to someone involved. Crediting the suppliers lifted evaluations (4.17), but crediting "our
+      hostesses" for a comment about the appetisers did not (3.76). And the scaled-down word must still be positive. In
+      the largest experiment (1,436 people), "We're glad your dinner was satisfying" beat repeating the praise (4.07
+      against 3.99), but "We're glad your night was alright" made things worse (3.70): readers read it as disagreement
+      with the reviewer.
+    chart: words
+
+how_to:
+  - ["Reply to positive reviews", "Most positive reviews get no answer. A well-worded reply beat no reply in this research, so answering praise is an easy way to stand out from similarly rated competitors."]
+  - ["Open with thanks", "Start with a short token of appreciation (\"Thank you!\"). It signals that you agree with the reviewer, which readers expect."]
+  - ["Scale down the praise one step", "Answer \"fantastic\" with \"good\" or \"satisfying\", not with the same superlative and not with a neutral word such as \"alright\" or \"reasonable\"."]
+  - ["Or credit someone who was part of it", "Thank the reviewer (\"It was a pleasure to serve you\") or a contributor who shaped the experience (\"Our local suppliers are a big help\"). Do not use it to promote unrelated staff or departments."]
+  - ["Do not stop at flattery", "\"You made us blush!\" or \"You're too kind\" show discomfort with praise but do not pass on any credit, and did not help."]
+  - ["Brief your team and test", "Write two or three approved templates for each type of review, ask whoever manages your listings to use them, and check whether replies attract more \"helpful\" votes."]
+
+expect:
+  - "**Small, reliable lifts.** Evaluation gains were around 0.2 points on a 5-point scale, but they repeated across six experiments, and in a direct choice the downplaying business won 61 to 39."
+  - "**More engagement with your replies.** People were clearly more willing to vote downplaying replies useful, which can push them up on platforms that rank responses."
+  - "**Little cost.** The winning replies were one or two sentences long. Length was held constant in two experiments, so the effect is not about effort."
+  - "**Better than staying silent.** Earlier research found that replies to praise can hurt; here a downplaying reply did better than no reply at all."
+
+limits:
+  - "**Simulated settings.** Most experiments used a restaurant or coffee-shop scenario online, with students or CloudResearch panels. Results may differ for other categories and real review pages."
+  - "**Readers, not reviewers.** The studies measured people reading reviews. How the reviewer feels about a downplayed reply is not yet known; early evidence suggests crediting the reviewer matters most to them."
+  - "**Mixed reviews.** The advice is for clearly positive reviews. 3- and 4-star reviews that mix praise and criticism need a reply that addresses both."
+  - "**Personal brands.** When the business is one person, such as a trainer or artist, the norms may differ."
+
+faq:
+  - q: "How should a business respond to a positive review?"
+    a: "Thank the reviewer, then downplay the compliment: scale down the praise one step (\"We're glad dinner was good\") or credit someone involved, such as the reviewer or a supplier. In a Journal of Marketing study, these replies improved evaluations of the business and readers' engagement compared with no reply, a plain thank you, or repeating the compliment."
+  - q: "Is it bad to repeat the customer's compliment in a review reply?"
+    a: "It is less effective. When two coffee shops had equally positive reviews, 60.8% of people chose the shop whose owner downplayed the compliment over the one whose owner repeated it, and they rated it higher (4.40 against 4.20 out of 5)."
+  - q: "Is a simple \"thank you\" enough when replying to a 5-star review?"
+    a: "It is safe but not the best option. In Experiment 1a, a plain \"Thank you!\" gave the same evaluation as no reply (3.88 against 3.87 out of 5), while a reply that thanked and downplayed the praise scored 4.07."
+  - q: "Why does downplaying a compliment work?"
+    a: "Readers see the manager as more humble, and humility is what people expect when someone receives a compliment. In the study, perceived humility and closeness to the ideal response fully explained the better evaluations."
+  - q: "What should managers avoid when replying to positive reviews?"
+    a: "Saying \"You made us blush!\" without passing on credit, praising staff who were not part of the reviewer's experience, and using a neutral word such as \"alright\", which readers took as disagreeing with the reviewer and which lowered evaluations (3.70 against 3.99 for repeating the praise)."
+
+also:
+  - doi: "10.1080/00913367.2025.2609287"
+    title: "Can aggressive humor pay off in brand-to-brand dialogues on social media?"
+    authors: "Béal, M., & Nguyen, N."
+    journal: "Journal of Advertising"
+    year: 2026
+    text: >-
+      Brands roasting rivals on social media is usually advised against, yet some do it to great effect. Across four
+      experiments, mocking a rival worked as well as friendly humour with people who identify with the brand doing the
+      teasing, but it stopped their goodwill spilling over to the rival, and it made the rival's own fans feel less
+      superior and think less of the rival. Aggressive banter is a tool for rallying your own base, not for winning
+      over your competitor's customers.
+  - doi: "10.1177/10949968251366265"
+    title: "Artificial intelligence chatbots versus human agents in customer satisfaction: The role of warmth and competence"
+    authors: "Zhang, Y., Özsomer, A., Gürhan Canlı, Z., & Baghirov, F."
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Using 887 real chat transcripts from an investment firm and an experiment with 989 people, the authors find that
+      AI chatbots satisfy customers more in transactional, task-focused chats because they come across as competent,
+      while human agents do better in relational conversations because they come across as warm, which also helped
+      retention. Route routine queries to the bot and relationship moments to people.
+
+charts:
+  coding:
+    title: "What firms write in replies to positive Google reviews"
+    scale: [0, 100]
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Say thank you", 91.4]
+      - ["Invite the reviewer back", 38.8]
+      - ["Repeat the compliment", 35.6]
+      - ["Explain service protocol", 14.6]
+      - ["Credit the reviewer (downplay)", 11.8, true]
+      - ["Scale down the praise (downplay)", 7.8, true]
+      - ["Credit a third party (downplay)", 0.0, true]
+    source: "500 managerial replies to 4- and 5-star Google Local reviews; categories overlap. Table 3 of the article."
+  evaluation:
+    title: "Rating of the restaurant after reading the review and the owner's reply"
+    scale: [1, 5]
+    unit: "out of 5"
+    decimals: 2
+    bars:
+      - ["No reply", 3.87]
+      - ["\"Thank you!\"", 3.88]
+      - ["Thank you + repeat the compliment", 3.90]
+      - ["Thank you + downplay the compliment", 4.07, true]
+    source: "Experiment 1a, 455 students, 1–5 scale."
+  choice:
+    title: "Which coffee shop did people choose?"
+    scale: [0, 100]
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Owner repeated the compliment", 39.2]
+      - ["Owner downplayed the compliment", 60.8, true]
+    source: "Experiment 2, 199 adults choosing a shop for a $25 gift card draw; replies of equal length."
+  words:
+    title: "How far to scale down the praise for \"Dinner was fantastic!\""
+    scale: [1, 5]
+    unit: "out of 5"
+    decimals: 2
+    bars:
+      - ["Neutral (\"alright\")", 3.70]
+      - ["Same praise (\"fantastic\")", 3.99]
+      - ["Scaled down (\"satisfying\")", 4.07, true]
+    source: "Experiment 5, 1,436 adults, three wordings per level, 1–5 scale."
+
+related_pages: []                # paper pages on this site worth linking (slugs)

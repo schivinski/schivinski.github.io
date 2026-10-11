@@ -81,7 +81,7 @@ def chart_svg(c: dict, cid: str) -> str:
     g = []
     # recessive grid
     span = hi - lo
-    step = 1 if span > 4 else 0.5
+    step = c.get("step") or (20 if span > 60 else 10 if span > 20 else 1 if span > 4 else 0.5)
     v = lo
     while v <= hi + 1e-9:
         g.append(f'<line x1="{x(v):.1f}" y1="4" x2="{x(v):.1f}" y2="{H - 26}" stroke="{RULE}" stroke-width="1"/>'
