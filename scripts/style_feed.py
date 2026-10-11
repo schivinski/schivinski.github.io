@@ -1,4 +1,4 @@
-"""Quarto post-render step: link the Marketing Watch RSS feed to watch/feed.xsl.
+"""Quarto post-render step: link the Marketing in 3 RSS feed to watch/feed.xsl.
 
 Feed readers ignore the stylesheet; browsers use it to show a readable page with subscribe instructions
 instead of raw XML. Safe to run when the feed was not rendered (partial renders)."""

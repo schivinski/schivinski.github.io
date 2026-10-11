@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Makes the Marketing Watch RSS feed readable when someone opens it in a browser.
+<!-- Makes the Marketing in 3 RSS feed readable when someone opens it in a browser.
      Feed readers ignore this file. Linked from watch/index.xml by scripts/style_feed.py. -->
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:media="http://search.yahoo.com/mrss/">
@@ -10,7 +10,7 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="robots" content="noindex"/>
-        <title>Marketing Watch RSS feed</title>
+        <title>Marketing in 3 RSS feed</title>
         <style>
           *{box-sizing:border-box}
           body{margin:0;background:#f6f7f9;color:#15203b;font-family:"Hanken Grotesk",Arial,Helvetica,sans-serif;line-height:1.55}
@@ -31,7 +31,7 @@
       </head>
       <body>
         <header><div class="w">
-          <h1>Marketing Watch</h1>
+          <h1>Marketing in 3</h1>
           <p>New marketing research, translated for practitioners. By Bruno Schivinski.</p>
         </div></header>
         <main class="w">
@@ -52,7 +52,7 @@
               </div>
             </article>
           </xsl:for-each>
-          <p class="meta"><a href="index.html">All Marketing Watch issues on the website</a></p>
+          <p class="meta"><a href="index.html">All Marketing in 3 issues on the website</a></p>
         </main>
       </body>
     </html>

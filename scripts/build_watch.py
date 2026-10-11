@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Marketing Watch issue pages from watch/issues/<week>-<slug>.yml.
+"""Build Marketing in 3 issue pages from watch/issues/<week>-<slug>.yml.
 
 Each data file becomes watch/posts/<slug>/index.qmd with:
   * a practitioner page: short answer, takeaways, findings with charts, how to apply, what to expect, limits,
@@ -113,7 +113,7 @@ def chart_svg(c: dict, cid: str) -> str:
 def body(d: dict, prev_next: tuple) -> str:
     p = d["paper"]
     img = d["image"]
-    out = [f'<p class="mw-kicker">Marketing Watch · Issue {d["issue"]} · Week of {long_date(d["week_of"])}</p>',
+    out = [f'<p class="mw-kicker">Marketing in 3 · Issue {d["issue"]} · Week of {long_date(d["week_of"])}</p>',
            f'<figure class="mw-hero"><img src="../../images/{esc(img["file"])}" alt="{esc(img["alt"])}" '
            f'width="1600" height="900" fetchpriority="high"><figcaption>{esc(img["caption"])}</figcaption></figure>',
            f'<section class="mw-answer" aria-label="Short answer"><h2>The short answer</h2><p>{md(d["short_answer"])}</p></section>',
@@ -151,7 +151,7 @@ def body(d: dict, prev_next: tuple) -> str:
     out.append('<div class="mw-author"><img src="../../../assets/bruno.jpg" alt="Bruno Schivinski" width="64" height="64">'
                '<div><p><strong>Bruno Schivinski</strong> is Associate Professor of Marketing at Gdańsk University of '
                'Technology. He studies how consumers engage with brands in digital and social media.</p>'
-               '<p><a href="../../../index.html">About Bruno</a> · <a href="../../index.html">All Marketing Watch issues</a> · '
+               '<p><a href="../../../index.html">About Bruno</a> · <a href="../../index.html">All Marketing in 3 issues</a> · '
                '<a href="../../subscribe.html">Subscribe</a></p></div></div>')
     prev, nxt = prev_next
     nav = []
@@ -186,8 +186,8 @@ def jsonld(d: dict, url: str) -> str:
                    {"@type": "ImageObject", "url": hero, "width": 1600, "height": 900}],
          "datePublished": d["published"], "dateModified": d.get("modified", d["published"]),
          "author": AUTHOR, "publisher": {"@id": AUTHOR["@id"]},
-         "isPartOf": {"@type": "Blog", "name": "Marketing Watch", "url": f"{SITE}/watch/index.html"},
-         "articleSection": "Marketing Watch", "position": d["issue"],
+         "isPartOf": {"@type": "Blog", "name": "Marketing in 3", "url": f"{SITE}/watch/index.html"},
+         "articleSection": "Marketing in 3", "position": d["issue"],
          "keywords": ", ".join(d["keywords"]), "inLanguage": "en", "wordCount": words,
          "about": [lead] + [{"@type": "Thing", "name": t} for t in d.get("topics", [])],
          "citation": [lead] + [scholarly(a["doi"], a["title"], [a["authors"]], a["journal"], a["year"]) for a in d.get("also", [])],
@@ -197,7 +197,7 @@ def jsonld(d: dict, url: str) -> str:
                         for f in d["faq"]]},
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{SITE}/index.html"},
-            {"@type": "ListItem", "position": 2, "name": "Marketing Watch", "item": f"{SITE}/watch/index.html"},
+            {"@type": "ListItem", "position": 2, "name": "Marketing in 3", "item": f"{SITE}/watch/index.html"},
             {"@type": "ListItem", "position": 3, "name": d["short_title"], "item": url}]},
     ]
     ld = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)
@@ -207,7 +207,7 @@ def jsonld(d: dict, url: str) -> str:
             f'<meta property="og:type" content="article">',
             f'<meta property="article:published_time" content="{d["published"]}">',
             f'<meta property="article:author" content="Bruno Schivinski">',
-            f'<meta property="article:section" content="Marketing Watch">',
+            f'<meta property="article:section" content="Marketing in 3">',
             f'<link rel="canonical" href="{url}">']
     meta += [f'<meta property="article:tag" content="{esc(k)}">' for k in d["keywords"][:8]]
     return "\n".join("    " + m for m in meta) + "\n"
@@ -247,9 +247,9 @@ def build(d: dict, prev_next: tuple) -> dict:
 def llms(built: list[dict]) -> None:
     f = ROOT / "llms.txt"
     txt = f.read_text() if f.exists() else ""
-    txt = txt.split("\n## Marketing Watch issues")[0].rstrip("\n") + "\n"
+    txt = txt.split("\n## Marketing in 3 issues")[0].rstrip("\n") + "\n"
     if built:
-        txt += ("\n## Marketing Watch issues\nWeekly briefs that translate new research from leading marketing journals "
+        txt += ("\n## Marketing in 3 issues\nWeekly briefs that translate new research from leading marketing journals "
                 "for practitioners: what the study found, how to apply it, what to expect. Cite the original article.\n")
         for d in sorted(built, key=lambda x: x["week_of"], reverse=True):
             p = d["paper"]
@@ -278,7 +278,7 @@ def main() -> int:
                 stale.unlink()
     built = [build(d, (data[i - 1] if i else None, data[i + 1] if i + 1 < len(data) else None)) for i, d in enumerate(data)]
     llms(built)
-    print(f"Built {len(built)} Marketing Watch issue(s)")
+    print(f"Marketing in 3: built {len(built)} issue(s)")
     return 0
 
 

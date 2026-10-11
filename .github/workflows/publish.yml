@@ -52,7 +52,7 @@ jobs:
       - name: Build paper pages and llms.txt
         run: python scripts/build_paper_pages.py
 
-      - name: Build Marketing Watch issues
+      - name: Build Marketing in 3 issues
         run: python scripts/build_watch.py
 
       - name: Build teaching page

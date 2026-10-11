@@ -1,4 +1,4 @@
-# Marketing Watch: how an issue is made
+# Marketing in 3: how an issue is made
 
 One issue per call, in the order of `watch/PLAN_2026.md` (Project doc `claude/marketing-watch-2026-plan.md`).
 Issue 1 (`watch/issues/2026-01-12-generative-ai-ad-images.yml`) is the template: copy its structure and tone.

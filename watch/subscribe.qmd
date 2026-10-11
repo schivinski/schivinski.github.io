@@ -1,6 +1,6 @@
 ---
-title: "Subscribe to Marketing Watch"
-description: "Get each new issue of Marketing Watch in your feed reader as soon as it is published: copy the feed address, or follow it on Feedly or Inoreader in one click."
+title: "Subscribe to Marketing in 3"
+description: "Get each new issue of Marketing in 3 in your feed reader as soon as it is published: copy the feed address, or follow it on Feedly or Inoreader in one click."
 ---
 
 ```{=html}

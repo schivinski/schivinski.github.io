@@ -115,7 +115,7 @@ a:hover { color: $amber-text; }
 .course li { font-size: .93rem; color: $muted; line-height: 1.45; }
 .course li strong { color: $text; font-weight: 600; }
 
-/* ---------- Marketing Watch ---------- */
+/* ---------- Marketing in 3 ---------- */
 .watch-list { display: grid; gap: 0; }
 .watch-item { display: grid; grid-template-columns: 15rem minmax(0, 1fr); gap: 1.5rem; padding-block: 1.4rem; border-top: 1px solid $rule; align-items: start; }
 .watch-item:not(:has(.watch-thumb)) { grid-template-columns: minmax(0, 1fr); }
@@ -354,7 +354,7 @@ details.table-block[open] summary { margin-bottom: .6rem; }
 .hl-card .pub-more { align-self: flex-start; margin-top: auto; }
 @media (max-width: 991.98px) { .hl-grid { grid-template-columns: 1fr; } }
 
-/* ---------- Marketing Watch issue pages ---------- */
+/* ---------- Marketing in 3 issue pages ---------- */
 .mw-kicker { font-size: .85rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: $amber-text; margin: 0 0 1rem; }
 .mw-hero { margin: 0 0 2rem; }
 .mw-hero img { width: 100%; height: auto; border-radius: 8px; display: block; }
@@ -388,7 +388,7 @@ main section h2 { margin-top: 2.4rem; }
 .mw-also-src, .mw-also-au { color: $muted; font-size: .85rem; margin: 0; }
 .mw-also-au { margin-bottom: .6rem; }
 
-/* Marketing Watch: subscribe page */
+/* Marketing in 3: subscribe page */
 .mw-sub { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2.2rem; margin-top: .5rem; }
 .mw-sub-copy input { width: 100%; }
 .mw-sub-card { background: $surface; border: 1px solid $rule; border-top: 4px solid $amber; border-radius: 10px; padding: 1.6rem 1.6rem 1.4rem; box-shadow: 0 6px 24px rgba(21, 32, 59, .06); }

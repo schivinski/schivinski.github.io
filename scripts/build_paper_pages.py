@@ -490,7 +490,7 @@ def build_llms(papers: list[dict]) -> None:
         f"- [Teaching]({SITE}/teaching.html): teaching in marketing, consumer behaviour, digital marketing and research methods",
         f"- [Consultancy]({SITE}/consultancy.html): advice on digital marketing and online consumer behaviour",
         f"- [Mentoring]({SITE}/mentoring.html): research mentoring and PhD coaching: research clinics, AI for research, expert review of proposals, manuscripts and grants, SEM mentoring, ongoing mentorship (prices in EUR)",
-        f"- [Marketing Watch]({SITE}/watch/index.html): weekly digest of new marketing research and practice",
+        f"- [Marketing in 3]({SITE}/watch/index.html): weekly digest of new marketing research and practice",
         "",
         "## Paper summaries",
         "Each page gives the citation, key findings stated with their source, study design, implications and answers "

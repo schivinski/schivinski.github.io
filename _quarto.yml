@@ -37,7 +37,7 @@ website:
       - href: mentoring.qmd
         text: Mentoring
       - href: watch/index.qmd
-        text: Marketing Watch
+        text: Marketing in 3
     right:
       - text: "Google Scholar"
         href: https://scholar.google.pl/citations?user=f-iKGD8AAAAJ
@@ -46,7 +46,7 @@ website:
   page-footer:
     left: "Bruno Schivinski, Department of Marketing, Gdańsk University of Technology"
     right:
-      - text: "Subscribe to Marketing Watch"
+      - text: "Subscribe to Marketing in 3"
         href: watch/subscribe.qmd
 
 format:

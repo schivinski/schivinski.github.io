@@ -1,4 +1,4 @@
-# Marketing Watch issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
 # Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
 issue: 2
 week_of: "2026-01-19"            # the week this issue covers (shown on the page, orders the archive)

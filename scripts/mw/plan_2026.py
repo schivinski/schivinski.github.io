@@ -56,7 +56,7 @@ def cite(k):
     x=P(k); t=re.sub(r"^(EXPRESS|Frontiers|Practice Paper—?):\s*","",re.sub(r"\s+"," ",x["title"]).strip())
     au=x["authors"]; a=(au[0].split()[-1]+(" et al." if len(au)>2 else (" & "+au[1].split()[-1] if len(au)==2 else ""))) if au else "—"
     return f"{t} — {a}, *{x['journal']}* ({d(x)}) · [doi](https://doi.org/{x['doi']})"
-L=["# Marketing Watch: 2026 issue map","",
+L=["# Marketing in 3: 2026 issue map","",
 "Weekly issues from 12 January to 5 October 2026 (39 issues). Each issue has one **lead paper** (the practitioner brief: what the study found, how to apply it, what to expect) and two shorter **also new** items.",
 "Papers come from 15 top marketing and advertising journals (plus EJM, Psychology & Marketing and JRIM for some supporting items), screened for digital marketing, UGC and AI.",
 "No paper is placed in an issue dated before it appeared online.","",

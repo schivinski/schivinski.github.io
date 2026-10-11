@@ -157,7 +157,7 @@ listing:
 ```{=html}
     </div>
     <div class="watch-panel">
-      <h2>Marketing Watch</h2>
+      <h2>Marketing in 3</h2>
       <p>A weekly digest of new marketing research for practitioners: what it means for strategy, how to apply it, and what to expect.</p>
 ```
 

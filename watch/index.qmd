@@ -1,5 +1,5 @@
 ---
-title: "Marketing Watch"
+title: "Marketing in 3"
 subtitle: "Marketing research for practitioners, every week"
 listing:
   contents: posts
@@ -7,7 +7,7 @@ listing:
   date-format: "D MMMM YYYY"
   template: ../_templates/watch-list.ejs
   feed:
-    title: "Marketing Watch | Bruno Schivinski"
+    title: "Marketing in 3 | Bruno Schivinski"
     description: "New research from the leading marketing journals, translated for practitioners: what each study found, how to use it, and what results to expect."
 ---
 

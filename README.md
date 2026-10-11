@@ -20,14 +20,14 @@ All pages are plain text and can be edited directly on github.com (pencil icon):
 |---|---|
 | About | `index.qmd` |
 | Teaching | `teaching.qmd` |
-| Marketing Watch digests | `watch/posts/<date>-<slug>/index.qmd` |
+| Marketing in 3 digests | `watch/posts/<date>-<slug>/index.qmd` |
 | Colours and fonts | `styles.scss` |
 
 **Review mode (current):** saving a change only *builds* the site, to check
 nothing is broken. To publish, open **Actions → Build and publish site → Run
 workflow**, tick *Publish to schivinski.github.io*, and run it.
 
-## Marketing Watch
+## Marketing in 3
 
 Weekly digests are drafted by Claude from the sources in `watch/sources.yml` and
 arrive as a **pull request**. Nothing is published until the pull request is merged.
