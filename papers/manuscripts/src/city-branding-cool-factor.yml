@@ -1,0 +1,26 @@
+text: city-branding-cool-factor.blocks.txt
+title_page_label: Open access article
+running_label: open access (CC BY 4.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article; it differs only in formatting and
+  pagination. Please cite the published version.
+affiliation_line: RMIT University; Foreign Trade University and Gdańsk University of Technology; London South Bank University; Instituto Universitário de Lisboa (ISCTE-IUL) (affiliations at the time of publication)
+title_page_footer: Re-typeset from the published open access text under CC BY 4.0; the publisher's typesetting and layout have been removed.
+figures:
+  fig1:
+    svg: figures/schivinski-et-al-2025-city-coolness-model.svg
+appendix_tables:
+  - AI
+appendix_heading: Appendix
+table_overrides:
+  "1":
+    landscape: true
+    size: 7.5pt
+    widths: [1fr, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto]
+  "2":
+    widths: [1fr, auto, auto, auto]
+    size: 8pt
+  "AI":
+    label: "Table AI"
+    widths: [1fr, auto, auto, auto, auto, auto]
+    size: 8pt

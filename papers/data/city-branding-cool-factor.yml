@@ -1,0 +1,1054 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Product & Brand Management (open access, CC BY 4.0; online-first PDF supplied by Bruno,
+# 11 Oct 2026); issue details from Crossref: 35(1), 99-115 (2026).
+# Status: locked on Bruno's instruction to publish straight away after the page is built (11 Oct 2026)
+status: locked
+
+title: "City branding’s influence on social media engagement: the cool factor"
+doi: "10.1108/JPBM-04-2025-5959"
+journal: "Journal of Product & Brand Management"
+issn: "1061-0421"
+publisher: "Emerald Publishing"
+volume: "35"
+issue: "1"
+pages: "99–115"
+published: "2026-01"
+published_label: "2026 (online 13 October 2025)"
+online: "2025-10-13"
+open_access: true
+licence: "CC BY 4.0"
+licence_url: "https://creativecommons.org/licenses/by/4.0/"
+
+aam:
+  file: "schivinski-et-al-2026-jpbm-city-branding-cool-factor.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article (CC BY 4.0), re-typeset as a clean PDF with the same content as the published version. Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution 4.0 International License
+    (http://creativecommons.org/licenses/by/4.0/). Originally published by Emerald Publishing Limited in Journal of
+    Product & Brand Management, 35(1), 99-115, https://doi.org/10.1108/JPBM-04-2025-5959. Changes made: the text has
+    been re-typeset; content is unchanged.
+
+authors:
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Xiufang (Leah)"
+    family: "Li"
+    orcid: "0000-0002-6404-5916"
+    affiliation: ["RMIT University"]
+  - given: "Abdullah M."
+    family: "Alahmari"
+    orcid: "0000-0003-4287-9810"
+    affiliation: ["RMIT University"]
+  - given: "Quynh Phuong"
+    family: "Nguyen"
+    orcid: "0009-0008-3395-4739"
+    affiliation: ["Foreign Trade University", "Gdańsk University of Technology"]
+  - given: "Barbara"
+    family: "Czarnecka"
+    orcid: "0000-0002-8314-1727"
+    affiliation: ["London South Bank University"]
+  - given: "Sandra Maria Correira"
+    family: "Loureiro"
+    orcid: "0000-0001-8362-4430"
+    affiliation: ["Instituto Universitário de Lisboa (ISCTE-IUL)"]
+
+cite_short: "Schivinski et al., 2026"
+badges: ["537 residents", "Saudi Arabia", "Structural equation modelling", "Mediation analysis"]
+keywords:
+  # Article's own keywords
+  - city branding
+  - perceived city brand coolness
+  - social media engagement
+  - city attributes
+  # What the study is about
+  - place branding
+  - destination branding
+  - brand coolness
+  - cool cities
+  - city brand image
+  - residents' engagement with their city
+  - city-related social media engagement
+  - user-generated content
+  - city marketing
+  - smart city branding
+  # Theory and constructs
+  - physical attributes of a city
+  - functional attributes of a city
+  - city brand personality
+  - individual value
+  - social value
+  - cognitive engagement
+  - emotional engagement
+  - behavioural engagement
+  - consumer brand engagement
+  - place attachment
+  # Context
+  - Saudi Arabia
+  - Saudi Vision 2030
+  - Middle East
+  # Method
+  - structural equation modelling (SEM)
+  - second-order factor model
+  - mediation analysis
+  - bias-corrected bootstrap
+  - survey research
+  - Mplus
+  # Application
+  - urban governance and communication
+  - tourism marketing
+  - social media strategy for cities
+
+in_brief: >-
+  Residents who see their city as cool pay more attention to it on social media and interact with it more, but they
+  do not engage with it more emotionally. In a survey of 537 residents of Saudi cities who follow their city online, a
+  city&rsquo;s functional attributes, such as jobs, transport, safety and public services, did most to make it seem cool.
+
+findings:
+  - headline: "Functional attributes do most to make a city seem cool."
+    text: >-
+      In a survey of 537 residents of Saudi Arabian cities who follow their city on social media, all four city branding
+      aspects raised perceived city brand coolness: functional attributes (&beta; = 0.42), individual value (0.31) and
+      social value (0.26), all <i>p</i> &le; .001, and physical attributes (0.09, <i>p</i> = .04)
+      (Schivinski et al., 2026).
+  - headline: "A cool city drives attention and action on social media."
+    text: >-
+      Perceived city brand coolness increased cognitive engagement (&beta; = 0.62) and behavioural engagement
+      (&beta; = 0.54), both <i>p</i> &le; .001, such as reading, liking, sharing and posting about the city, but not
+      emotional engagement (&beta; = &minus;0.24, <i>p</i> = .17) (Schivinski et al., 2026).
+  - headline: "Coolness carries every city attribute through to engagement."
+    text: >-
+      All four aspects had significant indirect effects through coolness on cognitive engagement (functional 0.26, 95%
+      CI [0.12, 0.51]; individual value 0.19; social value 0.16; physical 0.05) and on behavioural engagement
+      (functional 0.23, 95% CI [0.09, 0.45]; individual value 0.17; social value 0.14; physical 0.04), with every
+      confidence interval excluding zero (Schivinski et al., 2026).
+  - headline: "A cool city is not necessarily a loved city."
+    text: >-
+      None of the indirect effects on emotional engagement was significant (for example functional attributes
+      &minus;0.10, 95% CI [&minus;0.28, 0.02]); emotional engagement was instead linked directly to the city&rsquo;s
+      physical attributes (&beta; = 0.30, <i>p</i> &lt; .001) (Schivinski et al., 2026).
+  - headline: "Social value matters most for paying attention to the city online."
+    text: >-
+      Social value, how much residents care about what others think of their city and its residents, had the largest
+      total effect on cognitive engagement (&beta; = 0.67, <i>p</i> &le; .001), partly through coolness and mostly
+      directly (&beta; = 0.51) (Schivinski et al., 2026).
+
+glance:
+  - { label: "Design", value: "Cross-sectional online survey (Qualtrics); covariance-based structural equation modelling in Mplus 8.3 with a robust maximum likelihood (MLM) estimator; indirect effects tested with 5,000 bias-corrected bootstrap resamples" }
+  - { label: "Participants", value: "537 residents of Saudi Arabian cities who actively follow their city on social media (55.3% women; 50.6% aged 25&ndash;34), recruited over four weeks through social media channels and forums; survey in English" }
+  - { label: "City branding aspects", value: "Physical attributes (4 items; Merrilees et al., 2009), functional attributes (5 items; Shen et al., 2019), and personality traits measured as individual value (3 items) and social value (4 items; Hennigs et al., 2012)" }
+  - { label: "Mediator", value: "Perceived city brand coolness: a second-order factor of usefulness (4 items), high status (4), popularity (3) and subculture (4), adapted from Loureiro et al. (2020)" }
+  - { label: "Outcomes", value: "Cognitive (5 items; Dessart et al., 2016), emotional (4 items; Harrigan et al., 2017) and behavioural (11 items; Schivinski et al., 2016) engagement with the city on social media; 5-point scales; age and gender as controls" }
+  - { label: "Model fit", value: "Measurement model MLM&chi;&sup2;(1031) = 1887.19, CFI = 0.92, TLI = 0.91, RMSEA = 0.03, SRMR = 0.04; structural model ML&chi;&sup2;(1061) = 2070.62, CFI = 0.91, TLI = 0.90, RMSEA = 0.04, SRMR = 0.05" }
+
+figures:
+  - file: figures/schivinski-et-al-2025-city-coolness-model.svg
+    title: "Figure 1. The mediating role of city brand coolness"
+    caption: "Conceptual model: four city branding aspects (H1&ndash;H4) influence cognitive, emotional and behavioural engagement with the city on social media through perceived city brand coolness."
+  - file: figures/schivinski-et-al-2025-city-coolness-estimates.svg
+    title: "Figure 2. Estimated paths through city brand coolness"
+    caption: "Estimates of the a and b paths from Table 2 of the article (N = 537). * <i>p</i> &lt; .05; *** <i>p</i> &le; .001; dashed = not significant. Direct paths, controls (age, gender) and the second-order structure of coolness are not shown."
+
+results:
+  title: "Indirect effects of city branding aspects through perceived coolness"
+  unit: ""
+  note: "Indirect effects with 95% bias-corrected bootstrap confidence intervals excluding zero, from Table 2 of the article (N = 537). None of the indirect effects on emotional engagement was significant."
+  groups:
+    - name: "Cognitive engagement"
+      bars:
+        - { label: "Functional attributes", value: 0.26, highlight: true }
+        - { label: "Individual value", value: 0.19 }
+        - { label: "Social value", value: 0.16 }
+        - { label: "Physical attributes", value: 0.05 }
+    - name: "Behavioural engagement"
+      bars:
+        - { label: "Functional attributes", value: 0.23, highlight: true }
+        - { label: "Individual value", value: 0.17 }
+        - { label: "Social value", value: 0.14 }
+        - { label: "Physical attributes", value: 0.04 }
+
+tables:
+- id: '1'
+  title: 'Construct reliability and discriminant validity: confirmatory factor analysis'
+  collapsed: true
+  columns:
+  - Construct
+  - '&alpha;'
+  - '&omega;'
+  - CR
+  - AVE
+  - <i>1</i>
+  - <i>2</i>
+  - <i>3</i>
+  - <i>4</i>
+  - <i>5</i>
+  - <i>6</i>
+  - <i>7</i>
+  - <i>8</i>
+  - <i>9</i>
+  - <i>10</i>
+  - <i>11</i>
+  rows:
+  - - Physical attributes (1)
+    - '0.83'
+    - '0.86'
+    - '0.82'
+    - '0.54'
+    - <i>0.73</i>
+    - 0.18***
+    - 0.22**
+    - 0.34***
+    - 0.24***
+    - 0.30***
+    - 0.35***
+    - 0.28***
+    - 0.28***
+    - 0.32***
+    - 0.29***
+  - - Functional attributes (2)
+    - '0.73'
+    - '0.76'
+    - '0.86'
+    - '0.56'
+    - ''
+    - <i>0.75</i>
+    - 0.70***
+    - 0.44***
+    - 0.69***
+    - 0.65***
+    - 0.43***
+    - 0.46***
+    - 0.47***
+    - '0.01'
+    - 0.21***
+  - - Individual value (3)
+    - '0.76'
+    - '0.76'
+    - '0.76'
+    - '0.51'
+    - ''
+    - ''
+    - <i>0.71</i>
+    - 0.44***
+    - 0.71***
+    - 0.59***
+    - 0.45***
+    - 0.38***
+    - 0.41***
+    - 0.11**
+    - 0.17***
+  - - Social value (4)
+    - '0.72'
+    - '0.75'
+    - '0.81'
+    - '0.52'
+    - ''
+    - ''
+    - ''
+    - <i>0.72</i>
+    - 0.49***
+    - 0.56***
+    - 0.32***
+    - 0.58***
+    - 0.66***
+    - 0.17***
+    - 0.34***
+  - - Useful (5)
+    - '0.81'
+    - '0.82'
+    - '0.82'
+    - '0.53'
+    - ''
+    - ''
+    - ''
+    - ''
+    - <i>0.73</i>
+    - 0.65***
+    - 0.52***
+    - 0.59***
+    - 0.53***
+    - '0.06'
+    - 0.26***
+  - - High status (6)
+    - '0.79'
+    - '0.81'
+    - '0.81'
+    - '0.53'
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <i>0.73</i>
+    - 0.71***
+    - 0.67***
+    - 0.63***
+    - '0.04'
+    - 0.38***
+  - - Popular (7)
+    - '0.78'
+    - '0.79'
+    - '0.79'
+    - '0.55'
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <i>0.74</i>
+    - 0.47***
+    - 0.42***
+    - '0.08'
+    - 0.27***
+  - - Subcultural (8)
+    - '0.77'
+    - '0.79'
+    - '0.82'
+    - '0.53'
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <i>0.73</i>
+    - 0.63***
+    - '0.04'
+    - 0.32***
+  - - Cognitive engagement (9)
+    - '0.80'
+    - '0.86'
+    - '0.88'
+    - '0.60'
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <i>0.77</i>
+    - '0.11'
+    - 0.38***
+  - - Emotional engagement (10)
+    - '0.79'
+    - '0.82'
+    - '0.81'
+    - '0.51'
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <i>0.71</i>
+    - 0.42***
+  - - Behavioral engagement (11)
+    - '0.94'
+    - '0.94'
+    - '0.94'
+    - '0.59'
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - <i>0.77</i>
+  - - Age
+    - –
+    - –
+    - –
+    - –
+    - −0.02
+    - '0.01'
+    - '0.03'
+    - −0.01
+    - −0.01
+    - '0.03'
+    - '0.03'
+    - −0.03
+    - −0.03
+    - '0.04'
+    - '0.05'
+  - - Gender
+    - –
+    - –
+    - –
+    - –
+    - '0.02'
+    - 0.15**
+    - 0.34***
+    - '0.01'
+    - 0.21***
+    - 0.12**
+    - 0.11**
+    - 0.07*
+    - '0.02'
+    - −0.01
+    - −0.10**
+  note: '&alpha; = Cronbach&rsquo;s alpha, &omega; = McDonald&rsquo;s omega, CR = composite reliability, AVE = average variance extracted. The square root of the AVE values is marked in italic. ∗∗∗ <i>p</i> &lt; 0.001; ∗∗ <i>p</i> &lt; 0.01; ∗ <i>p</i> &lt; 0.05.'
+- id: '2'
+  title: Structural results
+  collapsed: true
+  columns:
+  - Hypotheses
+  - Estimate
+  - LCI 2.5%
+  - UCI 2.5%
+  rows:
+  - group: true
+    cells:
+    - Indirect effects
+    - ''
+    - ''
+    - ''
+  - - '<i>H1a</i>: Physical attributes → City brand coolness → Cognitive engagement'
+    - '0.05'
+    - '0.01'
+    - '0.14'
+  - - '<i>H1b</i>: Physical attributes → City brand coolness → Emotional engagement'
+    - −0.02
+    - −0.08
+    - '0.01'
+  - - '<i>H1c</i>: Physical attributes → City brand coolness → Behavioral engagement'
+    - '0.04'
+    - '0.01'
+    - '0.13'
+  - - '<i>H2a</i>: Functional attributes → City brand coolness → Cognitive engagement'
+    - '0.26'
+    - '0.12'
+    - '0.51'
+  - - '<i>H2b</i>: Functional attributes → City brand coolness → Emotional engagement'
+    - −0.10
+    - −0.28
+    - '0.02'
+  - - '<i>H2c</i>: Functional attributes → City brand coolness → Behavioral engagement'
+    - '0.23'
+    - '0.09'
+    - '0.45'
+  - - '<i>H3a</i>: Individual value → City brand coolness → Cognitive engagement'
+    - '0.19'
+    - '0.07'
+    - '0.41'
+  - - '<i>H3b</i>: Individual value → City brand coolness → Emotional engagement'
+    - −0.07
+    - −0.25
+    - '0.01'
+  - - '<i>H3c</i>: Individual value → City brand coolness → Behavioral engagement'
+    - '0.17'
+    - '0.06'
+    - '0.38'
+  - - '<i>H4a</i>: Social value → City brand coolness → Cognitive engagement'
+    - '0.16'
+    - '0.08'
+    - '0.31'
+  - - '<i>H4b</i>: Social value → City brand coolness → Emotional engagement'
+    - −0.06
+    - −0.21
+    - '0.01'
+  - - '<i>H4c</i>: Social value → City brand coolness → Behavioral engagement'
+    - '0.14'
+    - '0.05'
+    - '0.31'
+  - group: true
+    cells:
+    - Direct effects
+    - Estimate
+    - <i>t</i>-value
+    - <i>p</i>-value
+  - - 'a path 1: Physical attributes → City brand coolness'
+    - '0.09'
+    - '1.89'
+    - '0.04'
+  - - 'a path 2: Functional attributes → City brand coolness'
+    - '0.42'
+    - '5.46'
+    - '0.001'
+  - - 'a path 3: Individual value → City brand coolness'
+    - '0.31'
+    - '3.85'
+    - '0.001'
+  - - 'a path 4: Social value → City brand coolness'
+    - '0.26'
+    - '3.94'
+    - '0.001'
+  - - 'b path 1: City brand coolness → Cognitive engagement'
+    - '0.62'
+    - '3.52'
+    - '0.001'
+  - - 'b path 2: City brand coolness → Emotional engagement'
+    - −0.24
+    - −1.35
+    - '0.17'
+  - - 'b path 3: City brand coolness → Behavioral engagement'
+    - '0.54'
+    - '3.05'
+    - '0.001'
+  - - 'c′ path 1: Physical attributes → Cognitive engagement'
+    - −0.03
+    - −0.49
+    - '0.62'
+  - - 'c′ path 2: Physical attributes → Emotional engagement'
+    - '0.30'
+    - '4.68'
+    - '0.001'
+  - - 'c′ path 3: Physical attributes → Behavioral engagement'
+    - '0.15'
+    - '2.51'
+    - '0.01'
+  - - 'c′ path 4: Functional attributes → Cognitive engagement'
+    - −0.08
+    - −0.66
+    - '0.50'
+  - - 'c′ path 5: Functional attributes → Emotional engagement'
+    - −0.05
+    - −0.47
+    - '0.63'
+  - - 'c′ path 6: Functional attributes → Behavioral engagement'
+    - −0.13
+    - −1.15
+    - '0.24'
+  - - 'c′ path 7: Individual value → Cognitive engagement'
+    - −0.21
+    - −1.67
+    - '0.09'
+  - - 'c′ path 8: Individual value → Emotional engagement'
+    - '0.21'
+    - '1.54'
+    - '0.12'
+  - - 'c′ path 9: Individual value → Behavioral engagement'
+    - −0.18
+    - −1.34
+    - '0.17'
+  - - 'c′ path 10: Social value → Cognitive engagement'
+    - '0.51'
+    - '6.01'
+    - '0.001'
+  - - 'c′ path 11: Social value → Emotional engagement'
+    - '0.15'
+    - '1.57'
+    - '0.11'
+  - - 'c′ path 12: Social value → Behavioral engagement'
+    - '0.09'
+    - '1.08'
+    - '0.28'
+  - group: true
+    cells:
+    - Total effects (c path) and control variables
+    - Estimate
+    - <i>t</i>-value
+    - <i>p</i>-value
+  - - Physical attributes → Cognitive engagement
+    - '0.02'
+    - '0.41'
+    - '0.67'
+  - - Physical attributes → Emotional engagement
+    - '0.28'
+    - '4.37'
+    - '0.001'
+  - - Physical attributes → Behavioral engagement
+    - '0.20'
+    - '3.45'
+    - '0.001'
+  - - Functional attributes → Cognitive engagement
+    - '0.18'
+    - '2.03'
+    - '0.04'
+  - - Functional attributes → Emotional engagement
+    - −0.16
+    - −1.64
+    - '0.09'
+  - - Functional attributes → Behavioral engagement
+    - '0.09'
+    - '0.97'
+    - '0.33'
+  - - Individual value → Cognitive engagement
+    - −0.01
+    - −0.16
+    - '0.81'
+  - - Individual value → Emotional engagement
+    - '0.13'
+    - '1.17'
+    - '0.24'
+  - - Individual value → Behavioral engagement
+    - −0.01
+    - −0.06
+    - '0.94'
+  - - Social value → Cognitive engagement
+    - '0.67'
+    - '10.01'
+    - '0.001'
+  - - Social value → Emotional engagement
+    - '0.09'
+    - '1.17'
+    - '0.24'
+  - - Social value → Behavioral engagement
+    - '0.23'
+    - '3.30'
+    - '0.001'
+  - - Gender → Cognitive engagement
+    - '0.01'
+    - '0.06'
+    - '0.93'
+  - - Gender → Emotional engagement
+    - −0.04
+    - −0.74
+    - '0.45'
+  - - Gender → Behavioral engagement
+    - −0.11
+    - −2.35
+    - '0.01'
+  - - Age → Cognitive engagement
+    - −0.02
+    - −0.61
+    - '0.54'
+  - - Age → Emotional engagement
+    - '0.01'
+    - '0.05'
+    - '0.95'
+  - - Age → Behavioral engagement
+    - '0.04'
+    - '1.15'
+    - '0.24'
+  note: LCI &ndash; UCI 2.5% denotes lower and upper confidence interval estimates (95% bias-corrected bootstrap, 5,000 resamples).
+- id: AI
+  title: Descriptive statistics
+  collapsed: true
+  columns:
+  - Constructs and measurements
+  - Mean
+  - <i>SD</i>
+  - Kurtosis
+  - Skewness
+  - Loading
+  rows:
+  - group: true
+    cells:
+    - Physical and functional attributes and individual and social values
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+  - - (CITY) has pleasant weather
+    - '4.00'
+    - '0.66'
+    - −0.70
+    - −0.01
+    - '0.72'
+  - - (CITY) has beautiful scenery
+    - '4.10'
+    - '0.69'
+    - −0.29
+    - −0.30
+    - '0.71'
+  - - (CITY) has interesting historical sites
+    - '4.11'
+    - '0.65'
+    - −0.37
+    - −0.20
+    - '0.76'
+  - - (CITY) has lovely architecture
+    - '4.08'
+    - '0.63'
+    - −0.05
+    - −0.20
+    - '0.75'
+  - - (CITY) has good job opportunities
+    - '3.92'
+    - '0.84'
+    - '0.61'
+    - −0.81
+    - '0.73'
+  - - (CITY) has good transportation
+    - '3.99'
+    - '0.87'
+    - '0.04'
+    - −0.72
+    - '0.71'
+  - - (CITY) has a compelling government
+    - '4.12'
+    - '0.81'
+    - '1.09'
+    - −1.03
+    - '0.81'
+  - - (CITY) is a safe place to live
+    - '4.07'
+    - '0.89'
+    - '0.49'
+    - −0.91
+    - '0.79'
+  - - (CITY) has good cultural events
+    - '3.89'
+    - '0.84'
+    - '0.71'
+    - −0.86
+    - '0.72'
+  - - I am satisfied with living in (CITY)
+    - '4.21'
+    - '0.70'
+    - '2.85'
+    - −1.09
+    - '0.75'
+  - - I do and feel excited about living in (CITY)
+    - '4.16'
+    - '0.72'
+    - '2.66'
+    - −1.10
+    - '0.71'
+  - - I believe living in (CITY) is significant to me
+    - '4.12'
+    - '0.71'
+    - '0.75'
+    - −0.60
+    - '0.70'
+  - - To me, my friends’ perceptions of (CITY) are essential
+    - '3.94'
+    - '0.59'
+    - '0.30'
+    - −0.14
+    - '0.74'
+  - - I pay attention to what types of residents live in (CITY)
+    - '3.86'
+    - '0.69'
+    - −0.36
+    - −0.07
+    - '0.73'
+  - - It is important to know what others think of people who live in (CITY)
+    - '3.92'
+    - '0.67'
+    - '0.15'
+    - −0.27
+    - '0.73'
+  - - I determine where I live in (CITY) based on other impressions
+    - '3.73'
+    - '0.83'
+    - '0.25'
+    - −0.54
+    - '0.71'
+  - group: true
+    cells:
+    - 'City brand coolness: useful, high value, popular, subcultural'
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+  - - (CITY) is useful
+    - '4.22'
+    - '0.64'
+    - −0.14
+    - −0.37
+    - '0.74'
+  - - (CITY) is helpful
+    - '4.16'
+    - '0.66'
+    - '1.33'
+    - −0.61
+    - '0.70'
+  - - (CITY) is valuable
+    - '4.15'
+    - '0.65'
+    - '0.79'
+    - −0.49
+    - '0.76'
+  - - (CITY) is extraordinary
+    - '4.02'
+    - '0.76'
+    - '0.63'
+    - −0.61
+    - '0.72'
+  - - (CITY) is chic
+    - '4.02'
+    - '0.75'
+    - −0.01
+    - −0.48
+    - '0.74'
+  - - (CITY) is glamorous
+    - '4.12'
+    - '0.76'
+    - '0.60'
+    - −0.71
+    - '0.70'
+  - - (CITY) is sophisticated
+    - '3.90'
+    - '0.82'
+    - −0.23
+    - −0.40
+    - '0.76'
+  - - (CITY) is ritzy
+    - '3.90'
+    - '0.72'
+    - −0.16
+    - −0.26
+    - '0.71'
+  - - Most people like (CITY)
+    - '4.13'
+    - '0.71'
+    - −0.18
+    - −0.44
+    - '0.76'
+  - - (CITY) is trendy
+    - '4.11'
+    - '0.73'
+    - '0.30'
+    - −0.54
+    - '0.77'
+  - - (CITY) is a popular city
+    - '4.18'
+    - '0.71'
+    - '0.06'
+    - −0.56
+    - '0.71'
+  - - (CITY) makes people who live in it different from other people
+    - '3.94'
+    - '0.77'
+    - '0.11'
+    - −0.51
+    - '0.71'
+  - - Living in (CITY) makes me stand apart from others
+    - '3.99'
+    - '0.83'
+    - −0.08
+    - −0.58
+    - '0.77'
+  - - Living in (CITY) helps people to stand apart from the crowd
+    - '3.83'
+    - '0.83'
+    - −0.22
+    - −0.42
+    - '0.74'
+  - - People who live in (CITY) are unique
+    - '3.91'
+    - '0.81'
+    - −0.07
+    - −0.47
+    - '0.70'
+  - group: true
+    cells:
+    - 'Social media engagement: Cognitive, emotional, behavioral engagement'
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+  - - I pay a lot of attention to (CITY) on social media
+    - '3.57'
+    - '0.89'
+    - −0.56
+    - −0.41
+    - '0.80'
+  - - Things posted on social related to (CITY) grab my attention
+    - '3.65'
+    - '0.91'
+    - −0.47
+    - −0.41
+    - '0.79'
+  - - When interacting with (CITY) residents on social media, I forget everything else around me
+    - '3.58'
+    - '0.92'
+    - −0.44
+    - −0.35
+    - '0.75'
+  - - Time flies when I am interacting with (CITY) residents on social media
+    - '3.51'
+    - '0.91'
+    - −0.59
+    - −0.27
+    - '0.74'
+  - - When interacting with (CITY) residents on social media, it is difficult to detach myself
+    - '3.76'
+    - '0.93'
+    - −0.24
+    - −0.61
+    - '0.79'
+  - - When someone criticizes (CITY) on social media, it feels like a personal insult
+    - '4.54'
+    - '0.74'
+    - '2.04'
+    - −1.61
+    - '0.73'
+  - - When I talk about (CITY), I usually say “we” rather than “they”
+    - '4.45'
+    - '0.72'
+    - '1.33'
+    - −1.24
+    - '0.70'
+  - - The successes of (CITY) are my successes
+    - '4.48'
+    - '0.73'
+    - '1.20'
+    - −1.30
+    - '0.74'
+  - - When someone praises (CITY), it feels like a personal compliment
+    - '4.53'
+    - '0.70'
+    - '2.01'
+    - −1.50
+    - '0.71'
+  - - I follow (CITY) on social media
+    - '4.06'
+    - '0.83'
+    - '0.03'
+    - −0.63
+    - '0.83'
+  - - When I am spending time online, I like to read (CITY) posts on social media
+    - '4.08'
+    - '0.83'
+    - −0.02
+    - −0.62
+    - '0.82'
+  - - When I am online, I usually click on (CITY) ads
+    - '4.08'
+    - '0.83'
+    - −0.11
+    - −0.60
+    - '0.78'
+  - - When I am online, I usually comment on (CITY) posts
+    - '4.07'
+    - '0.88'
+    - −0.68
+    - −0.48
+    - '0.77'
+  - - When I am online, I usually join (CITY) profile on social media
+    - '4.03'
+    - '0.85'
+    - −0.32
+    - −0.51
+    - '0.77'
+  - - When I am online, I usually like (CITY) residents’ pages
+    - '3.97'
+    - '0.91'
+    - −0.80
+    - −0.35
+    - '0.80'
+  - - When I am online, I usually like (CITY) posts
+    - '4.06'
+    - '0.87'
+    - −0.29
+    - −0.61
+    - '0.77'
+  - - When I am online, I usually share (CITY) posts
+    - '4.03'
+    - '0.83'
+    - −0.20
+    - −0.56
+    - '0.70'
+  - - It is common for me to create hashtags about (CITY)
+    - '4.02'
+    - '0.82'
+    - −0.18
+    - −0.53
+    - '0.74'
+  - - It is common for me to create posts about (CITY)
+    - '3.99'
+    - '0.88'
+    - −0.59
+    - −0.45
+    - '0.71'
+  - - It is common for me to write reviews about (CITY)
+    - '4.04'
+    - '0.84'
+    - −0.41
+    - −0.50
+    - '0.75'
+  note: Five-point scales (1 = strongly disagree, 5 = strongly agree). (CITY) is replaced by the name of the respondent&rsquo;s city.
+
+question: >-
+  Research has documented which city attributes matter and that cities use social media, but little was known about
+  how a city&rsquo;s attributes translate into residents&rsquo; engagement with it online, or whether brand coolness,
+  well studied for product brands, works the same way for places. We asked whether residents&rsquo; perception that
+  their city is cool explains how physical attributes, functional attributes and the city&rsquo;s personality
+  (individual and social value) lead to cognitive, emotional and behavioural engagement on social media.
+
+implications:
+  practical: >-
+    City governments and place marketers should treat city attributes as signals that together build a cool image,
+    then use that image to drive engagement. Physical attributes work through authenticity, for example by branding
+    historic or artistic districts as cultural hubs; functional attributes by presenting efficient services and
+    infrastructure as evidence of a progressive, innovative city; and personality by offering residents ways to express
+    themselves and a sense of community through festivals and local projects. Interactive content such as gamified
+    apps or virtual tours suits cognitive engagement, and campaigns that invite residents to share their own &lsquo;cool
+    city&rsquo; moments with a hashtag suit behavioural engagement. Coolness should not be relied on to build love for a
+    city: emotional bonds call for strategies built on personal memories, shared heritage and social ties.
+  theoretical: >-
+    The study extends brand coolness from products to places, showing that physical, functional, individual and
+    social attributes of a city combine into one perception of coolness. It identifies coolness as a psychological
+    mechanism that turns city attributes into cognitive and behavioural engagement on social media, rather than
+    assuming a direct link between attributes and engagement. The absence of effects on emotional engagement separates
+    coolness, a perception of being trendy and desirable, from affective place attachment.
+
+limitations:
+  - "The data are self-reported and cross-sectional, so causal relationships and change over time cannot be established."
+  - "The sample comes from one country, Saudi Arabia, during the rapid state-led development of Vision 2030; the survey was in English and recruited online, which may have favoured more educated and affluent residents."
+  - "Future research could test the model in Western cities, where branding is often more bottom-up, run cross-cultural comparisons, and examine how the four dimensions of coolness (usefulness, high status, popularity and subculture) work individually."
+
+faq:
+  - q: "What makes a city seem cool to its residents?"
+    a: >-
+      In a survey of 537 residents of Saudi cities, functional attributes such as jobs, transport, safety, government
+      and cultural events had the largest effect on perceived city brand coolness (&beta; = 0.42), followed by
+      individual value (0.31), social value (0.26) and physical attributes such as weather, scenery and architecture
+      (0.09) (Schivinski et al., 2026).
+  - q: "Does a cool city brand increase engagement on social media?"
+    a: >-
+      Yes, for attention and action. Perceived coolness increased residents&rsquo; cognitive engagement with their city
+      on social media (&beta; = 0.62) and behavioural engagement such as liking, sharing and posting (&beta; = 0.54), but
+      not emotional engagement (Schivinski et al., 2026).
+  - q: "Is a cool city also a loved city?"
+    a: >-
+      Not necessarily. Coolness had no significant effect on emotional engagement (&beta; = &minus;0.24, <i>p</i> = .17),
+      and none of the city attributes affected emotional engagement through coolness; emotional engagement was linked
+      directly to physical attributes (&beta; = 0.30) (Schivinski et al., 2026).
+  - q: "How can city marketers use coolness on social media?"
+    a: >-
+      By curating physical, functional and personality attributes as signals of coolness, using interactive content
+      such as gamified apps or virtual tours to hold attention, and inviting residents to create and share their own
+      content about the city to drive behavioural engagement (Schivinski et al., 2026).
+
+concepts:
+  - term: "City branding aspects"
+    definition: "The components through which a city is branded: physical attributes (weather, scenery, historical sites, architecture), functional attributes (jobs, transport, government, safety, cultural events) and personality traits, measured here as individual and social value."
+  - term: "Perceived city brand coolness"
+    definition: "The extent to which residents see their city as attractive, desirable and cool; modelled as a second-order factor of usefulness, high status, popularity and subculture."
+  - term: "City-related social media engagement"
+    definition: "Residents&rsquo; engagement with their city on social media, in three forms: cognitive (attention and absorption), emotional (feelings and attachment) and behavioural (following, liking, commenting, sharing and creating content)."
+  - term: "Individual and social value"
+    definition: "The city&rsquo;s personality as experienced by residents: individual value is personal satisfaction and meaning from living there; social value is the importance of how others see the city and its residents."
+  - term: "Indirect-only mediation"
+    definition: "A pattern in which an attribute affects engagement only through the mediator (coolness), with no significant direct or total effect."
+
+materials:
+  - label: "Screening questions"
+    text: "Whether participants had actively used social media in the past six months, whether they actively engaged with and followed their city on social media, and on which platform (e.g. Facebook, Instagram, X)."
+  - label: "Scale items"
+    text: "All items, with means, standard deviations and factor loadings, are in Table AI below; (CITY) is replaced with the name of the respondent&rsquo;s city."
+  - label: "Pilot"
+    text: "A pilot study with Saudi residents who follow their city on social media, and a review by three experienced marketing scholars, were used to check face validity."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Open access article (CC BY 4.0), re-typeset", url: "manuscripts/schivinski-et-al-2026-jpbm-city-branding-cool-factor.pdf" }
+  - { label: "Published version", note: "Journal of Product & Brand Management (open access)", url: "https://doi.org/10.1108/JPBM-04-2025-5959" }
+  - { label: "Ethics approval", note: "RMIT University (ID: 24941)" }
+
+related:
+  - "10.1080/13527266.2022.2152077"
+  - "10.1371/journal.pone.0296162"
+  - "10.1016/j.jbusres.2019.08.045"
+  - "10.2501/jar-2016-004"
+  - "10.3727/152599518x15403853721268"
+  - "10.1108/jpbm-05-2021-3468"

@@ -26,7 +26,7 @@ otherwise Crossref. Only journal articles get full pages.
 |---|---|---|---|---|---|
 | 11 | 2021 | Measurement and Conceptualization of Gaming Disorder According to the World Health Orga… | International Journal of Mental Health and Addiction | 419 | locked (`gaming-disorder-test`) |
 | 12 | 2024 | What if utilitarian products are regarded as high-status? The moderate role of iconic a… | Journal of Marketing Communications | 23 | locked (`utilitarian-products-high-status-brand-coolness`) |
-| 13 | 2025 | City branding’s influence on social media engagement: the cool factor | Journal of Product and Brand Management | 6 |  |
+| 13 | 2025 | City branding’s influence on social media engagement: the cool factor | Journal of Product and Brand Management | 6 | locked (`city-branding-cool-factor`) |
 
 ## Newest to oldest (68)
 

@@ -82,6 +82,7 @@ def titlecase(t: str) -> str:
 
 def apa_plain(d: dict) -> str:
     def initials(g):
+        g = re.sub(r"\s*\([^)]*\)", "", g)
         return " ".join(p[0] + "." for p in re.split(r"[\s-]+", g) if p)
     names = [f"{a['family']}, {initials(a['given'])}" for a in d["authors"]]
     auth = names[0] if len(names) == 1 else ", ".join(names[:-1]) + ", & " + names[-1]
@@ -189,7 +190,7 @@ def build(slug: str) -> Path:
 #v(1.2cm)
 #text(size: 10pt, weight: "bold", fill: rgb("#8a5a00"), tracking: 0.04em)[{esc(cfg.get("title_page_label", "Accepted manuscript"))}]
 #v(0.5em)
-#text(size: 19pt, weight: "bold", hyphenate: false)[{esc(d["title"])}]
+#block[#set par(justify: false); #text(size: 19pt, weight: "bold", hyphenate: false)[{esc(d["title"])}]]
 #v(0.8em)
 #text(size: 12pt)[{esc(authors_line)}]
 #v(0.2em)

@@ -31,6 +31,7 @@ def esc(x) -> str:
 
 
 def initials(given: str) -> str:
+    given = re.sub(r"\s*\([^)]*\)", "", given)          # drop nicknames such as "(Leah)"
     return " ".join(p[0] + "." for p in re.split(r"[\s-]+", given) if p)
 
 
