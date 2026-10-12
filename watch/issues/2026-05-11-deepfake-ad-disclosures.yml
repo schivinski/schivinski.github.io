@@ -1,0 +1,218 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 18
+week_of: "2026-05-11"            # the week this issue covers (shown on the page, orders the archive)
+slug: deepfake-ad-disclosures
+status: live
+
+title: "Can a label stop a deepfaked ad from fooling people? What a Journal of Advertising study found"
+short_title: "\"This ad is deepfaked\" is not a warning. It is a fact nobody acts on"
+dek: >-
+  Swap a celebrity's face into an ad and viewers cannot tell. Three experiments tested what you have to write
+  underneath before the penny drops, and the usual wording is not it.
+description: >-
+  A plain "this ad is deepfaked" label changed nothing. Adding one sentence about what that means cut perceived
+  truthfulness from 3.33 to 2.41, without costing a single sale.
+keywords: [deepfakes, AI-generated advertising, synthetic media, disclosure labels, advertising transparency,
+  perceived realism, perceived factuality, consumer protection, AI disclosure, virtual influencers, celebrity
+  endorsement, advertising regulation, Journal of Advertising]
+topics: [AI, Advertising]
+
+image:
+  file: issue-18-deepfake-ad-disclosures.jpg
+  og: issue-18-deepfake-ad-disclosures-og.jpg
+  alt: "A photograph of a face seen through warped glass, the features smeared into streaks while the mouth stays sharp and open, mid-word"
+  caption: "A mouth saying words the face never said. Photo: Altin Ferreira on Unsplash."
+
+short_answer: >-
+  Only if the label finishes the thought. A plain warning that an ad has been deepfaked left viewers exactly where
+  they started: they still rated the ad as realistic, still liked it the same, still clicked through at the same
+  rate. Adding one sentence that drew the conclusion for them — this is not a real scene — pulled perceived
+  truthfulness down from 3.33 to 2.41 on a seven-point scale. And it did that without
+  denting choice of the advertised product, which is the part that makes it usable in practice.
+
+takeaways:
+  - "Undisclosed, a deepfaked ad was indistinguishable from the real one: viewers rated it 3.61 for looking synthetic, against 3.73 for the genuine ad."
+  - "The usual style of label moved nothing at all: realism 4.85 with it against 4.84 without, and no change in liking or click-through."
+  - "Spelling out the consequence worked: perceived truthfulness fell from 3.33 with no label to 2.41, and 2.68 when a line about being misled was added."
+  - "Across all three studies, the share choosing the advertised product never moved, so transparency here cost nothing."
+
+paper:
+  doi: "10.1080/00913367.2024.2306415"
+  title: "Realistic portrayals of untrue information: The effects of deepfaked ads and different types of disclosures"
+  authors: ["Karpinska-Krakowiak, M.", "Eisend, M."]
+  authors_full: ["Malgorzata (Mags) Karpinska-Krakowiak", "Martin Eisend"]
+  year: 2025
+  journal: "Journal of Advertising"
+  volume: 54
+  issue: 3
+  pages: "432-442"
+  online: "2024-02-07"
+  open_access: true
+  licence: "CC BY 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      A deepfake puts a face into footage it was never in. Malgorzata Karpinska-Krakowiak (University of Lodz) and
+      Martin Eisend (European University Viadrina and Copenhagen Business School) set out to test whether the labels
+      the industry reaches for protect anybody at all.
+
+      They built their own deepfaked ads. In the first, a perfume commercial starring Charlize Theron was altered so
+      that Margot Robbie appeared to be the one on the catwalk, selling an invented brand. In the second, a food
+      delivery ad fronted by Kim Kardashian had her face replaced with a stranger's. Then they attached different
+      wording under each ad and put it in front of fresh samples of British adults.
+
+      The clever part is what they measured. Earlier research on retouched photographs asked whether a label makes an
+      image look less realistic, and the answer is almost always no. The authors split that idea in two: how real a
+      thing looks, and whether people believe it actually happened. A deepfake is designed to be the first without
+      being the second, so the second is the only one a label can hope to shift.
+    facts:
+      - ["Studies", "Three online experiments, with fresh samples each time"]
+      - ["People", "121, then 308, then 300 UK adults recruited through Prolific"]
+      - ["Ads", "A deepfaked perfume ad, a deepfaked food delivery ad and a deepfaked chocolate ad, all for invented brands"]
+      - ["Labels tested", "None, a plain statement of the swap, that statement plus what it means for the ad, and that plus what it means for the viewer"]
+      - ["Outcomes", "How realistic the ad looked, whether it was believed to be truthful, liking of the ad, and whether people clicked to buy"]
+
+  - h: "The fake is invisible until you say so"
+    body: |
+      First the uncomfortable baseline. When the deepfaked perfume ad carried no label, viewers rated how synthetic
+      it looked at 3.61. The untouched original scored 3.73. In other words, people were no more suspicious of the
+      doctored ad than of the real one, and if anything slightly less. Only when a disclaimer appeared did the rating
+      jump to 5.71.
+
+      So detection is not happening on its own. Whatever protection exists has to come from the words underneath.
+
+      Then the bad news about those words. The label used in this first study was the sort you see in the wild: a
+      byline explaining that the post contains synthetically generated images, with some elements swapped in from
+      other sources. It made no difference to anything that mattered. Realism came out at 4.85 with the label and
+      4.84 without. Liking of the ad, and the decision to click through and buy, were equally untouched.
+
+  - h: "Finish the sentence"
+    body: |
+      The second experiment is where the paper earns its keep. Four versions of the same deepfaked delivery ad went
+      out. One had nothing underneath. One had the plain statement: the face of the original actress has been swapped
+      with somebody else's. A third added a consequence for the ad itself — so it does not portray reality, it is
+      fake. A fourth added a consequence for the viewer — the goal is to mislead you into thinking you are watching
+      reality.
+
+      Belief in the ad's truthfulness barely moved between no label and the plain one, 3.33 against 3.20. Both of the
+      versions that carried a consequence pulled it down sharply, to 2.41 and 2.68, and they were not meaningfully
+      different from each other. The third study repeated the pattern with a different product.
+
+      How realistic the ad looked never shifted in any condition, exactly as predicted. A well-made fake looks well
+      made whatever you write beneath it. What you can change is whether people think it happened.
+    chart: factuality
+
+  - h: "It does not cost you the sale"
+    body: |
+      Here is the objection every marketer raises, and the answer the authors anticipated. If a disclosure teaches
+      people the ad is untrue, surely it wrecks the ad.
+
+      It did not. In the second study, the share of people who clicked to buy ran from 13.5% with no label to 17.9%
+      with the plain one, 15.8% and 15.0% with the two stronger ones. Statistically that is a flat line. The third
+      study, with a chocolate brand, produced the same flat line at a higher level.
+
+      Underneath, two forces were cancelling out: believing the ad less pushed liking down and buying with it, while
+      the disclosure itself nudged choice up a little, perhaps because candour reads as confidence. The authors treat
+      that cancellation as the point rather than a disappointment. A label that informs people without hurting the
+      campaign is one a brand will actually agree to run.
+    chart: choice
+
+  - h: "Who the label leaves behind"
+    body: |
+      The third study added the catch. The stronger labels worked best on people who expected advertising to tell the
+      truth in the first place. On people who assume ads are embellished anyway, the warning landed on ground that
+      was already conceded and changed little.
+
+      That is an awkward result for policy. The consumers best served by transparency rules are the trusting ones;
+      the cynical are left where they were, which is not the same as being protected. Nor does scepticism help you
+      spot a deepfake, as the first study showed.
+
+      Reaching past what these experiments tested, the lesson generalises to every label now being bolted onto
+      synthetic media: the AI tags on social platforms, the small print under a cloned voice in a radio spot, the
+      badge on a virtual influencer's profile. Naming the technique tells people what was done. It does not tell them
+      what to do with that knowledge. The sentence that changes behaviour is the one after the disclosure, and almost
+      nobody writes it.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Settle the synthetic question first", "Decide whether your campaign puts a real person's likeness, or a convincing stand-in for one, into something they never did. Everything below applies only once the answer is yes."]
+  - ["Write the consequence, not the method", "Naming the technique describes a process. Telling someone the scene never happened hands them a conclusion they can use, and only the second kind of wording changed what people believed."]
+  - ["Keep the label to two sentences", "What has been altered, then what that means. The extra line about intent to mislead added nothing over the simpler consequence, so there is no case for a paragraph."]
+  - ["Put it where the ad is, not in the terms", "These labels ran as a byline directly beneath the creative. A disclosure buried in a policy page or a profile bio was never what was tested, and would not have been seen."]
+  - ["Run it knowing the sales risk is small", "Across three experiments, purchase choice did not move. Pilot the wording on one campaign and watch the conversion rate yourself before the argument is had in the abstract."]
+  - ["Measure whether they understood, not whether they saw", "Ask a sample whether they think the ad shows something that really happened. Noticing the label is not the same as drawing the conclusion from it."]
+
+expect:
+  - "**No change in how real it looks.** Perceived realism held steady across every label in every study, so do not judge a disclosure by whether the ad still looks convincing."
+  - "**A shift in belief, not in behaviour.** The wording moved what people thought was true; clicking to buy stayed flat."
+  - "**Diminishing returns on words.** The consequence for the ad did the work; adding the personal warning on top was no better."
+  - "**Smaller effects on sceptics.** Audiences who already assume advertising is embellished respond least to being told it is."
+
+limits:
+  - "**Invented brands, single exposures.** Participants saw one still social post for a fictitious product, not a campaign from a brand they have feelings about."
+  - "**British samples only, and one of them all women.** The first study ran with 121 women aged 18 to 60; the later two were mixed but still UK-based Prolific panels."
+  - "**Belief in these ads was low to start with.** Perceived truthfulness sat below the midpoint everywhere, so the labels were pushing an already sceptical audience further."
+  - "**Clicks in a survey, not purchases.** Choice was a two-button decision inside the questionnaire, with no money involved and no time to reconsider."
+
+faq:
+  - q: "Can people tell when an ad has been deepfaked?"
+    a: "No. With no label attached, a deepfaked perfume ad was rated no more synthetic-looking than the genuine ad it was built from, and viewers liked it just as much (Karpinska-Krakowiak and Eisend, 2025, Journal of Advertising)."
+  - q: "Does labelling an ad as AI-generated protect consumers?"
+    a: "Not in the form usually used. A byline explaining that images were synthetically generated left perceived realism, ad liking and click-through unchanged. Only labels that stated the consequence of the manipulation reduced belief in the ad."
+  - q: "What should a deepfake disclosure actually say?"
+    a: "Two things: what was altered, and what follows from it. The version that worked named the face swap and then stated plainly that the scene is not real."
+  - q: "Will disclosing a deepfake hurt the campaign?"
+    a: "On this evidence, no. Purchase choice was statistically unchanged across every disclosure condition in all three experiments, even though the stronger labels lowered how truthful the ad seemed."
+  - q: "Why does a disclosure not make the ad look less realistic?"
+    a: "Because realism and truth are separate judgments. Production quality is visible and a label cannot argue with it; whether the thing really happened is a belief, and that is what the wording can change."
+
+also:
+  - doi: "10.1002/mar.70154"
+    title: "Narrative positioning of a fake human: The credibility of virtual influencers in their communication styles"
+    authors: "Sokolova, K., Perez, C., & Besson, E."
+    journal: "Psychology & Marketing"
+    year: 2026
+    text: >-
+      An analysis of 391 virtual influencers on X found four distinct ways they write, separated mainly by which
+      pronouns they lean on. Posts addressed to the audience made the character feel more human, and that feeling,
+      rather than the wording itself, carried credibility and intention to act. Whether the influencer was a person
+      or a construct mattered less than who the sentences were pointed at.
+  - doi: "10.1002/mar.70170"
+    title: "Liking without endorsing: Consumer dilemmas in responses to AI-generated music"
+    authors: "Edelblum, A., & Poe, J."
+    journal: "Psychology & Marketing"
+    year: 2026
+    text: >-
+      People expect to enjoy AI-written music less than human-written music, and then, having listened, rate it about
+      the same. The penalty survives in wordier forms such as writing, but not in sound. It does not translate into
+      acceptance either: listeners still replayed and shared it less, enjoying something they would rather not stand
+      behind.
+
+charts:
+  factuality:
+    title: "Did viewers believe the ad showed something real? Mean score by label"
+    scale: [0, 7]
+    step: 1
+    unit: "points"
+    decimals: 2
+    bars:
+      - ["No label", 3.33]
+      - ["Plain statement of the swap", 3.20]
+      - ["Plus what it means for the ad", 2.41, true]
+      - ["Plus what it means for you", 2.68, true]
+    source: "Study 2: 308 UK adults, perceived factuality on a seven-point scale; the two highlighted labels differ from the first two but not from each other."
+  choice:
+    title: "Share who clicked to buy the advertised product, by label"
+    scale: [0, 25]
+    step: 5
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["No label", 13.5]
+      - ["Plain statement of the swap", 17.9]
+      - ["Plus what it means for the ad", 15.8]
+      - ["Plus what it means for you", 15.0]
+    source: "Study 2: the differences are not statistically significant, which is the finding that matters here."
+
+related_pages: []   # paper pages on this site worth linking (slugs)

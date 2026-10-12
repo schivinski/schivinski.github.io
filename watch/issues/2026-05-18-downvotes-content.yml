@@ -1,7 +1,7 @@
 # Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
 # Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
-issue: 18
-week_of: "2026-05-11"            # the week this issue covers (shown on the page, orders the archive)
+issue: 19
+week_of: "2026-05-18"            # the week this issue covers (shown on the page, orders the archive)
 slug: downvotes-content
 status: live
 
