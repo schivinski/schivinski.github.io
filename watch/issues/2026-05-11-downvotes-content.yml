@@ -1,0 +1,209 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 18
+week_of: "2026-05-11"            # the week this issue covers (shown on the page, orders the archive)
+slug: downvotes-content
+status: live
+
+title: "Does a dislike button shut people up? What a Journal of Marketing Research study found"
+short_title: "The dislike button that made people post more, and shout less"
+dek: >-
+  Every platform that has flirted with a downvote has feared the same two outcomes: contributors go quiet, or they
+  dig in. Two months of Reddit data say neither happens.
+description: >-
+  A noticeable drop in reputation made Reddit users 8.5 points more likely to post the next day and softened their
+  strongest opinions. What that means for ratings, scores and community design.
+keywords: [downvotes, dislike button, negative feedback, user-generated content, online communities, community
+  management, platform design, reputation systems, karma, echo chambers, polarization, social media strategy,
+  content moderation, Journal of Marketing Research]
+topics: [Social media, UGC]
+
+image:
+  file: issue-18-downvotes-content.jpg
+  og: issue-18-downvotes-content-og.jpg
+  alt: "A man in a blue shirt and tortoiseshell glasses holds a thumbs-down gesture towards the camera against a wall of bold colour blocks"
+  caption: "The feedback nobody asks for, and the one that changes behaviour. Photo: Vitaly Gariev on Unsplash."
+
+short_answer: >-
+  It does the opposite. Over two months of Reddit activity, a visible knock to someone's reputation made them 8.5
+  percentage points more likely to comment the next day, against a baseline of 29%. Nobody backed out of the
+  community that had just voted them down; they added activity elsewhere on top. And when their original post had carried a strong opinion, the next one on the same subject was
+  measurably milder. The pattern fits people repairing a score rather than learning a lesson.
+
+takeaways:
+  - "A more noticeable drop in reputation lifted the chance of commenting the next day by 8.5 percentage points, from a base of 29%."
+  - "All of that extra activity turned up in other communities (+11 points); posting in the place where the downvotes landed did not fall."
+  - "Strong opinions got softer. Above a level of intensity reached by about a third of comments, the writer came back noticeably more measured on that topic."
+  - "Win the reputation back and the energy goes: users who recovered their lost standing the next day posted less again."
+
+paper:
+  doi: "10.1177/00222437261417657"
+  title: "The effect of downvotes on content creation: Evidence from social media"
+  authors: ["Deolankar, V.", "Fong, J.", "Sriram, S."]
+  authors_full: ["Varad Deolankar", "Jessica Fong", "S. Sriram"]
+  year: 2026
+  journal: "Journal of Marketing Research"
+  volume: 63
+  issue: 4
+  pages: "767-787"
+  online: "2026-04-13"
+  open_access: false
+  licence: ""
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      YouTube, X and TikTok have all tested letting people register a thumbs down, and all have worried about the
+      same side effects. Varad Deolankar (National University of Singapore) with Jessica Fong and S. Sriram
+      (both University of Michigan) went looking for evidence on a platform that has had the button for years.
+
+      They picked 50 subreddits, took the 500 most recent people to start a thread in each, then tracked everything
+      those users did anywhere on Reddit for 61 days over the turn of 2024. That gave 1.9 million comments spread
+      across about 32,000 communities, each one's score checked daily for a fortnight after it was posted.
+
+      The hard part is proving cause. People who are fired up post more and attract more downvotes, so the two move
+      together for reasons that have nothing to do with the button. The authors found a way round it borrowed from
+      pricing research: the same loss feels bigger when the leading digit changes. A reputation score sliding from 103
+      to 99 stings in a way that 104 to 100 does not, even though both lost four points. Comparing those two cases
+      isolates the effect of noticing.
+    facts:
+      - ["Platform", "Reddit, 23 December 2023 to 22 February 2024"]
+      - ["Users tracked", "17,525, followed across every community they posted in, not just the ones they were found in"]
+      - ["Content", "1.9 million comments; 97.6% of everything people posted was a comment rather than a new thread"]
+      - ["How often this happens", "Of the comments that got any reaction on a given day, 48% were being pushed down"]
+      - ["The trick", "A change in the leading digit of a user's score, which makes the same loss feel larger"]
+
+  - h: "Nobody went quiet"
+    body: |
+      The average person in the sample commented on 29% of days. After a knock to their score that crossed one of
+      those digit thresholds, that figure rose by 8.5 points, and the number of comments they wrote rose too. Praise
+      worked almost identically: a noticeable gain added 9.3 points.
+
+      That symmetry is the interesting bit. Being pushed down and being pushed up are not opposites here. Both are
+      evidence that somebody is out there reading, and both pull people back to the keyboard the following day.
+
+      A placebo check supports the reading. When a score drifted within five points of a threshold without crossing
+      it, nothing happened. The reaction is to the loss being noticed, not to its size.
+    chart: posting
+
+  - h: "They move along, not out"
+    body: |
+      The fear behind the dislike button is that it sorts people into rooms where everyone already agrees. If a downvote
+      drove people away from the room where it happened, the button would be an echo-chamber machine.
+
+      The data splits the extra posting three ways: back into the same thread, into the same community but a different
+      thread, or into a different community altogether. Only the third moved. Crucially, the first two did not drop
+      either. People did not retreat from the room that had just told them they were wrong; they just also went and
+      said something somewhere else.
+
+      For anyone running a brand community, a forum or a review section, that is the reassuring half of the paper. A
+      negative signal is not an exit signal.
+    chart: where
+
+  - h: "The loudest posts came back quieter"
+    body: |
+      Volume is one thing, tone another. The authors ran every comment through Google's language API, which picks out
+      the topics in a piece of text and scores how strongly the writer feels about each one. Then they followed each
+      user to the next time they wrote about the same topic.
+
+      Mild posts that got downvoted came back slightly sharper, as if the writer had decided to make the point
+      properly this time. Strong posts came back softer, and the stronger the original, the bigger the climbdown. The
+      turning point sits at a level of intensity that about a third of all comments exceed, so this is not a corner
+      case.
+
+      It also held in the places where you would least expect it. The authors sorted some 98 subreddit topics into
+      controversial and ordinary, using an AI classifier, and the softening was at least as strong in the political
+      and contentious ones.
+
+  - h: "What the button is really doing"
+    body: |
+      One test gives the game away. When a user's score dipped below a threshold and then climbed back above it the
+      next day, the extra posting disappeared. People were not learning what the crowd wanted; they were repairing a
+      number they could see.
+
+      That reframes the finding for anyone who runs a scoring system of their own, which is most of us now: seller
+      ratings, driver scores, loyalty tiers, credit-style dashboards, streak counters, internal league tables. Push the argument one step past the evidence and
+      the lesson is less about negativity than about visibility. A score has to be public and cumulative before a dent in it is worth repairing, and where the number
+      sits relative to a round figure changes how big the dent feels.
+
+      The practical corollary is uncomfortable. If you want the behaviour, you have to let people feel the loss. If you
+      cushion every setback, smooth the score, or hide it behind a weekly summary, the thing that drove the response
+      is gone.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Separate the two fears", "Write down what you are actually afraid of before debating a dislike button: fewer contributions, or a nastier tone. In this study, neither got worse."]
+  - ["Check that you have a reputation to dent", "The effect runs through a visible, cumulative score. If your community has no public standing to lose, expect none of this to transfer."]
+  - ["Make the number legible", "Show the running total where people see it, in whole figures. A score that only appears in a monthly digest cannot be defended day to day."]
+  - ["Design the thresholds on purpose", "Crossing a round number did the work here. Set tier boundaries, badge cut-offs and progress markers where you want people to feel movement, and know that you are using the same lever."]
+  - ["Give the stung somewhere to go", "The extra energy went to neighbouring communities. If your space has no adjacent room, the equivalent user has nowhere to take it but off your platform."]
+  - ["Track tone as well as volume", "Report the strength of language in contributions, not just how many arrive. The real effect of negative feedback in this study was on how hard people pushed, not on whether they turned up."]
+
+expect:
+  - "**A next-day effect, not a lasting one.** The lift showed up the day after and the day after that, then faded."
+  - "**Praise and criticism pull in the same direction.** Both increased activity, so a dislike button is not the mirror image of a like button."
+  - "**The tone effect depends on where you start.** Mild contributors sharpened up slightly; strong ones backed off."
+  - "**Most reactions are ordinary.** Only a small share of scores ever cross a threshold or flip sign, so the dramatic cases are rare even when the average effect is real."
+
+limits:
+  - "**One platform, one window.** Reddit over 61 days, among users picked for being recently active, which skews towards the committed."
+  - "**Only the net number is visible.** Reddit shows upvotes minus downvotes, so nobody, the authors included, can tell ten downvotes from eleven upvotes and twenty-one downvotes."
+  - "**Votes only, no words.** Replies and private messages were not observed, and they may be doing some of the work attributed to votes here."
+  - "**Polarization was not measured.** The study tracks how one person's tone changes, not whether the conversation around them calms down."
+
+faq:
+  - q: "Do downvotes stop people from posting?"
+    a: "No. Across 17,525 Reddit users tracked for two months, a reputation loss that was hard to miss raised next-day commenting by roughly a third relative to the 29% baseline, and raised the number of comments written too (Deolankar, Fong and Sriram, 2026, Journal of Marketing Research)."
+  - q: "Do downvotes push people into echo chambers?"
+    a: "There was no sign of it. Users kept posting in the community that had downvoted them at the same rate as before, and added activity in other communities on top."
+  - q: "Does negative feedback make people more extreme?"
+    a: "Not when they started out strong. Forceful comments that were voted down were followed by distinctly more measured writing when the user returned to that topic. Only the mildest posts came back a little sharper."
+  - q: "Why would a small drop in points change anyone's behaviour?"
+    a: "Because of how it is read rather than how big it is. A fall that changed the leading digit of the score shifted behaviour, while the same size of fall that did not change it had no effect at all."
+  - q: "What does this mean for a brand running its own community?"
+    a: "A visible score that members can lose and rebuild is the active ingredient. Adding a downward vote is less risky than most teams assume, and the metric worth watching afterwards is the tone of what gets written, not the volume."
+
+also:
+  - doi: "10.1177/00222437261445841"
+    title: "Separating the artist from the art: Social media boycotts, platform sanctions, and music consumption"
+    authors: "Winkler, D., Wlömert, N., & Liaukonytė, J."
+    journal: "Journal of Marketing Research"
+    year: 2026
+    text: >-
+      When R. Kelly's music fell off the big streaming playlists after calls for a boycott, listening collapsed. It
+      looks like a consumer revolt and mostly was not one: separating songs that were removed from those that stayed,
+      the authors trace the fall to lost visibility rather than to people choosing differently. Pulling a product from
+      the shelf and changing minds are not the same thing.
+  - doi: "10.1007/s11747-026-01147-3"
+    title: "How should content creators narrate their content? The impact of emotionality flips on audience engagement"
+    authors: "Ghasemi, H., Astvansh, V., & Sepehri, A."
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2026
+    text: >-
+      Across 33,598 podcast episodes, 3,381 TED talks and two experiments, audiences stayed with content whose
+      emotional line kept changing direction rather than holding a steady mood. Arousal is the reason: each flip wakes
+      the listener up. The effect is strongest for easy-to-follow material.
+
+charts:
+  posting:
+    title: "Extra chance of commenting the next day, in percentage points"
+    scale: [0, 12]
+    step: 2
+    unit: "percentage points"
+    decimals: 1
+    bars:
+      - ["A noticeable drop in score", 8.5, true]
+      - ["A noticeable rise in score", 9.3]
+    source: "Table 3: 961,602 user-days, against a baseline 29% chance of commenting on any given day."
+  where:
+    title: "Where the extra commenting went, in percentage points"
+    scale: [0, 12]
+    step: 2
+    unit: "percentage points"
+    decimals: 1
+    bars:
+      - ["A different community", 11.1, true]
+      - ["Same community, new thread", 0.4]
+      - ["The same thread", 0.0]
+    source: "Table 7: only the first is statistically significant; the other two are indistinguishable from no change, which is the point."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
