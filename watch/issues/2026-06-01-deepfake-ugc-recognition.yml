@@ -1,0 +1,212 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 21
+week_of: "2026-06-01"            # the week this issue covers (shown on the page, orders the archive)
+slug: deepfake-ugc-recognition
+status: draft   # flipped to live as soon as the hero image lands
+
+title: "What happens when viewers spot the AI actor themselves? What a Journal of Retailing and Consumer Services study found"
+short_title: "Caught, not told: the worst way for an AI actor to be found out"
+dek: >-
+  Brands are hiring AI avatars to play delighted customers. The question is no longer whether anyone notices. It is
+  who gets to say it first, you or them.
+description: >-
+  Viewers who worked out the actor was AI rated the ad 2.83 against 4.59. Being told afterwards hurt far less, and
+  priming people made them twice as likely to notice.
+keywords: [deepfake advertising, AI avatars, UGC-style ads, synthetic influencers, AI disclosure, consumer betrayal,
+  expectancy violation, persuasion knowledge, ad authenticity, short-form video advertising, AI media literacy,
+  Journal of Retailing and Consumer Services]
+topics: [AI, Advertising, UGC]
+
+image:
+  file: issue-21-deepfake-ugc-recognition.jpg
+  og: issue-21-deepfake-ugc-recognition-og.jpg
+  alt: "A young woman's face lit by the glow of a phone held just off camera, her eyes narrowed in doubt as she watches something on screen"
+  caption: "The second the ad stops working. Image generated with AI for this issue."
+
+short_answer: >-
+  They punish you for it. Across three American studies, more than half of viewers worked out on their own that the
+  presenter in a customer-style video advert was an AI avatar, and those who did scored the ad 2.83 out of 7 against
+  4.59 among the people who never noticed. Being told afterwards was a bigger surprise but a far gentler one,
+  because the technology still read as clever. A short briefing beforehand made spotting it markedly more likely,
+  which is the warning in the whole paper.
+
+takeaways:
+  - "No prompting was needed: 103 of the 187 people in the first study called the presenter out as synthetic on their own."
+  - "Intention to buy fell as well, from 3.52 to 2.81, so this is not only a question of how the ad was liked."
+  - "Viewers who were told afterwards found the technique far more novel, 4.16 against 3.18, and that is what cushioned them."
+  - "A short briefing beforehand took recognition from 46% to 58%, with the ad itself left exactly as it was."
+
+paper:
+  doi: "10.1016/j.jretconser.2025.104535"
+  title: "Caught in the act: Natural recognition of deepfake UGC ad, expectancy violation and consumer responses"
+  authors: ["Yang, J.", "Lee, S. S."]
+  authors_full: ["Jing Yang", "Susanna S. Lee"]
+  year: 2026
+  journal: "Journal of Retailing and Consumer Services"
+  volume: 88
+  pages: "104535"
+  online: "2025-09-30"
+  open_access: false
+  licence: ""
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      The cheapest performer in advertising right now is an invented one, filmed talking about a product nobody ever
+      bought, in the style of a customer who cannot wait to tell you about it. Jing Yang and Susanna Lee, both at
+      Boston University, went looking for what happens at the moment the illusion fails.
+
+      They built two of these ads on a commercial platform, using the same AI avatar, a woman in her twenties or
+      thirties. One was a 15 second vertical video about customisable family portraits, loose enough to pass as
+      lifestyle content. The other was a 30 second piece for a real deodorant brand, built like a straight product
+      review. Both were deliberately good rather than flawless, which a separate check confirmed.
+
+      Then they sorted viewers by how they found out. Some never twigged. Some worked it out on their own, which the
+      authors call natural recognition. Some were told afterwards. A third study asked whether a short briefing
+      beforehand changes how many people spot it, which is the closest thing here to a forecast.
+    facts:
+      - ["People", "187, then 196, then 238 American adults, each study with fresh participants"]
+      - ["Ads", "Two vertical videos made with the same AI avatar, one for family portraits and one for a deodorant brand"]
+      - ["The three routes", "Never noticed, worked it out unprompted, or told after watching"]
+      - ["Measured", "How surprised they were and in which direction, whether they felt betrayed, what they thought of the ad, and whether they would buy"]
+      - ["Third study", "Half the viewers were briefed beforehand that brands make ads this way"]
+
+  - h: "More than half worked it out"
+    body: |
+      Start with how leaky this format already is. A clear majority of the first study's viewers worked out that the
+      presenter was synthetic with no prompt at all. Not a minority of experts, ordinary people watching a short
+      video.
+
+      What happened to those people is the finding. Their opinion of the ad sat at 2.83 out of 7, while viewers who
+      took the presenter at face value gave 4.59, and intention to buy dropped alongside it. The gap in attitude was
+      the larger of the two, which fits the authors' account of the mechanism: the ad broke a promise rather than
+      failing to sell.
+
+      That promise is specific to the format. A polished brand film is expected to be staged, so nothing is violated
+      when it looks it. A person talking into a phone about a product they bought is supposed to be a person, and
+      viewers who discover otherwise report feeling lied to, not merely unimpressed.
+    chart: reactions
+
+  - h: "Being told is softer than finding out"
+    body: |
+      The second study is the counterintuitive one. Viewers who missed it entirely and were then informed registered
+      a bigger jolt, rating the revelation as further from what they expected, 4.08 against 3.57. By the logic of
+      surprise alone they should have reacted worse. They did not.
+
+      The reason sits in a second measure. People who were told found the whole thing considerably more novel, and
+      novelty pulled the sting out of the surprise. Told about it, the reaction is closer to
+      "I had no idea they could do that". Catching it yourself produces something nearer to "they thought I would
+      not notice".
+
+      The practical reading is uncomfortable for anyone planning a campaign around this. The gentler path depends on
+      the audience finding the technique impressive, which is a wasting asset. Novelty by definition does not survive
+      becoming normal.
+
+  - h: "Every month makes it worse"
+    body: |
+      The third study is the one to show your head of brand. Half the viewers read a short description of how
+      advertisers make these videos, plus a post from someone who had made one, before they watched anything. That
+      briefing alone took the share who spotted the avatar from 46% to 58%.
+
+      Nothing about the ad changed. Only what the audience knew. The authors treat this as a stand in for the real
+      world, where the same knowledge arrives for free through news coverage, platform labels and people posting
+      about it.
+
+      So the economics of the tactic point one way. The pool of viewers who will take your synthetic customer at
+      face value is the largest it will ever be today, and the penalty you pay when the rest of them catch on is
+      already measurable.
+    chart: priming
+
+  - h: "Where this hurts most"
+    body: |
+      The damage is concentrated in formats that promise a real human experience. Testimonials, reviews, unboxing,
+      influencer endorsements, before and after stories. Those are precisely the places where AI avatars are cheapest
+      to use and most tempting, and they are the places where being caught costs the most.
+
+      Stretching the finding past what was tested, the same logic should hold wherever authenticity is the product
+      rather than the packaging. A founder's note that was never written by the founder, a customer service reply
+      signed by a name with nobody behind it, a case study built from a composite client. None of these were studied
+      here, and all of them carry the same structure: a promise of a person, and a reveal waiting to happen.
+
+      The authors' own recommendation is blunt and worth repeating. If you are going to use synthetic people in a
+      format that implies a real one, say so before the audience finds out, because the version where they tell you
+      is the expensive one.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your creative into promises and performances", "Go through the brief and mark every execution where the audience is meant to believe a real customer or employee is speaking. Those need a disclosure. Stylised brand films and obvious fiction do not."]
+  - ["Write the disclosure line before the shoot is booked", "Agree the exact wording at brief stage, so it is composed into the frame and the script rather than stuck on at final approval, when nobody wants to lose three seconds of airtime."]
+  - ["Say it in the first three seconds", "Put the label on screen before the presenter starts talking, and in the opening line of the caption. A disclosure that arrives after the pitch reads as a confession rather than a courtesy."]
+  - ["Name which part is synthetic", "Specify whether the person, the voice, the script or the whole scene was generated. A bare mention of AI leaves the viewer to assume the worst, and the worst assumption is usually that you were hiding the rest."]
+  - ["Screen it with 100 people and ask if the person is real", "Before launch, show the finished cut to a sample from the target audience and ask one question: is the presenter a real person. Treat a high recognition rate as a sign the format is spent, not as a cue to polish the avatar."]
+  - ["Watch comments for the language of being fooled", "Track mentions of fake, AI, bot and scam on your own posts weekly, and report them next to reach. A rise there is the early signal that the audience has caught up, and the point to retire the format."]
+
+expect:
+  - "**A majority will notice sooner than you think.** Most of the viewers in these tests identified the avatar unprompted, with no special expertise."
+  - "**Attitude falls further than intent.** The hit to how people feel about the ad is larger than the hit to whether they would buy, so brand tracking will show it before sales do."
+  - "**Disclosure buys you a milder reaction, not a free pass.** Telling people still surprises them. It just lands as interesting rather than deceitful."
+  - "**The cushion is temporary.** The softer response depends on the technique still feeling new, which it will not for much longer."
+
+limits:
+  - "**American panel participants only.** All three studies recruited United States adults online, and detection rates vary with familiarity, which varies by market."
+  - "**Who noticed was not assigned.** People sorted themselves into spotting it or not, so those groups may differ in media literacy or scepticism as well as in what they saw."
+  - "**Two ads, one avatar.** Both videos used the same synthetic presenter, and recognition rates depend heavily on the quality of the specific render."
+  - "**One viewing, in a survey.** Nothing here tells you what repeated exposure does, or how a brand recovers after being caught."
+
+faq:
+  - q: "Do consumers notice when an ad uses an AI avatar?"
+    a: "Most of them did here. Watching a short customer-style video, a clear majority of participants identified the presenter as machine-made without being asked to look for it (Yang and Lee, 2026, Journal of Retailing and Consumer Services)."
+  - q: "How much damage does it do when they notice?"
+    a: "Attitude towards the ad fell by more than a point and a half on a seven-point scale, and willingness to buy dropped with it, although by a smaller margin."
+  - q: "Is it better to disclose that an ad uses AI, or hope nobody notices?"
+    a: "Disclose. Viewers who were informed afterwards reacted far less harshly than those who caught it themselves, because the technique still struck them as novel rather than sneaky."
+  - q: "Why does being caught feel worse than being told?"
+    a: "Because the format promises a real person. Spotting the deception yourself triggers a sense of betrayal, while a disclosure lets people process the same fact as a piece of clever technology."
+  - q: "Will AI avatars keep working as awareness grows?"
+    a: "The evidence points the other way. Simply explaining the practice beforehand made people substantially better at catching it, and that same awareness is now spreading through news coverage and platform labels without anyone's help."
+
+also:
+  - doi: "10.1002/mar.70175"
+    title: "More than saying \"it's AI\": How role disclosure transparency in AI-generated ads influences persuasion"
+    authors: "Le, K., Khan, H., Li, F., & Kunz, W."
+    journal: "Psychology & Marketing"
+    year: 2026
+    text: >-
+      Four studies on what a disclosure should actually contain. Spelling out the role AI played in making the ad
+      raised the credibility of the production process, and that lifted attitudes towards the ad. The effect was
+      stronger when the disclosure looked like a response to rules rather than a boast about innovation.
+  - doi: "10.1177/10949968261460868"
+    title: "Digital disposal: Self-perceptions of online inauthenticity promote social media abandonment"
+    authors: "Dagogo-Jack, S., Nakos, K., & Kaju, A."
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Five studies find that people who feel they are being fake on social media become more willing to delete the
+      account entirely. The mechanism is self-threat, with deletion as the way to resolve it. A useful counterpoint
+      for platforms that measure authenticity only as something audiences demand of brands.
+
+charts:
+  reactions:
+    title: "How viewers rated the ad, by whether they spotted the AI actor"
+    scale: [0, 7]
+    step: 1
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["Attitude: did not notice", 4.59]
+      - ["Attitude: spotted it", 2.83, true]
+      - ["Would buy: did not notice", 3.52]
+      - ["Would buy: spotted it", 2.81, true]
+    source: "Study 1: 187 US adults, of whom 103 identified the presenter as synthetic without being prompted."
+  priming:
+    title: "Share who spotted the AI actor, with and without a short briefing first"
+    scale: [0, 70]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Briefed beforehand", 58.3, true]
+      - ["No briefing", 45.8]
+    source: "Study 3: 238 US adults, half of whom read a short description of how brands make these ads."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
