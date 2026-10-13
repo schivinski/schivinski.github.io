@@ -37,8 +37,16 @@ Issue 1 (`watch/issues/2026-01-12-generative-ai-ad-images.yml`) is the template:
 4. **Pick the picture**: a striking, high-quality photograph of the paper's subject (issue 1: a car), not an illustration.
    It must stop the scroll: bold colour, strong light, close crop and a clear focal point, editorial or advertising quality
    (Bruno: "sexy looking photos that entice the viewer"). Avoid bland stock scenes and generic office shots.
-   Source from Unsplash (free Unsplash Licence; avoid Unsplash+), prefer images without prominent logos, credit the
-   photographer in the caption. Save `watch/images/issue-NN-<slug>.jpg` (1600×900) and `-og.jpg` (1200×630).
+   **Ask Bruno for a generated image whenever the shot would be better made than found** (Bruno, 13 October 2026): write
+   him a prompt and he renders it in Gemini (Nano Banana). Always ask when the subject has to look like an advertising
+   model, when a real identifiable face would sit under a headline that makes a claim about that person, or when nothing
+   on Unsplash is good enough. A prompt specifies photographic style and camera, subject and styling, light and colour,
+   mood and gaze, 16:9 horizontal with headroom for the 1600×900 and 1200×630 crops, and no text, logos or watermarks.
+   A generated image is credited in the caption as made with AI, never passed off as a photograph.
+   Otherwise source from Unsplash (free Unsplash Licence; avoid Unsplash+), prefer images without prominent logos, don't
+   reuse an earlier issue's subject, credit the photographer in the caption. The Unsplash Licence covers the
+   photographer's copyright, not the model's likeness, so avoid putting an identifiable real face next to a headline that
+   makes a claim about that person. Save `watch/images/issue-NN-<slug>.jpg` (1600×900) and `-og.jpg` (1200×630).
 5. **Build and check**: `python scripts/build_paper_pages.py && python scripts/build_watch.py && quarto render`.
    Look at desktop and 390 px mobile (no horizontal scroll), confirm the JSON-LD parses.
 6. **Publish**: commit, push, dispatch the publish workflow.
