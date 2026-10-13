@@ -1,0 +1,210 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+# Held as a draft until the series reaches this week (Bruno, 13 Oct 2026). Drafts are excluded from public builds.
+issue: 36
+week_of: "2026-09-14"            # the week this issue covers (shown on the page, orders the archive)
+slug: synthetic-person-disclosure
+status: draft
+
+title: "Should an AI model be labelled as a person who does not exist? What a Journal of Marketing Communications study found"
+short_title: "The label that buys honesty, then spends it on artificiality"
+dek: >-
+  Brands are filling their feeds with people who were never born. This study followed what trust does once the
+  audience finds out, and whether saying so up front softens the blow.
+description: >-
+  A detailed "this person does not exist" label cut the sense of being manipulated and raised the sense of
+  artificiality. The two effects cancelled out, except among younger viewers.
+keywords: [AI-generated models, synthetic influencers, AI disclosure, advertising transparency, consumer trust,
+  persuasion knowledge, perceived manipulative intent, syntheticness, Instagram advertising, virtual models,
+  generative AI in advertising, Journal of Marketing Communications]
+topics: [AI, Advertising, Social media]
+
+image:
+  file: issue-36-synthetic-person-disclosure.jpg
+  og: issue-36-synthetic-person-disclosure-og.jpg
+  alt: "Extreme close-up of a shop mannequin's face, with painted eyebrows and lashes, looking just past the camera"
+  caption: "Convincing at a glance, nobody at all. Photo: Keith Bond on Unsplash."
+
+short_answer: >-
+  It helps less than you would hope. Across 606 people shown a brand's Instagram post, trust fell in every group once
+  they were told the model in the picture was generated. The tag brands actually use, a bare mention of AI, changed nothing. The fuller
+  label, the one naming the person as somebody who does not exist, set off two forces that almost cancel each other.
+  It softened the suspicion that the brand was pulling a trick, which protected trust, and it made the image feel
+  more artificial, which cost about as much. Only among younger viewers did the protective side win.
+
+takeaways:
+  - "Trust fell in all three groups once the AI origin was revealed, from 3.78 to 3.05 with no label and from 3.41 to 2.93 with the fullest one."
+  - "The short tag most platforms ask for made no measurable difference to how far trust fell."
+  - "The detailed label cut the sense of being manipulated, worth 0.19 points of protected trust, and raised the sense of artificiality, costing 0.16."
+  - "The protective half worked only for younger viewers. Among older ones the effect on perceived manipulation was not significant."
+
+paper:
+  doi: "10.1080/13527266.2026.2729146"
+  title: "This person does not exist: Detailed AI disclosure and trust in synthetic visual brand posts"
+  authors: ["Zimand-Sheiner, D.", "Kol, O.", "Levy, S."]
+  authors_full: ["Dorit Zimand-Sheiner", "Ofrit Kol", "Shalom Levy"]
+  year: 2026
+  journal: "Journal of Marketing Communications"
+  online: "2026-09-10"
+  open_access: false
+  licence: ""
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      The faces in social advertising are increasingly nobody. A generative model produces a person who looks real
+      enough to scroll past, and the brand never has to book a shoot or sign a release. Dorit Zimand-Sheiner, Ofrit
+      Kol and Shalom Levy, all at Ariel University, wanted to know what that costs a brand once the audience works
+      it out.
+
+      They built one Instagram post for a brand, with a photorealistic woman made in a generative image tool, and
+      showed it to 606 people in three versions. One carried no label. One carried the tag you see in the wild,
+      "AI-generated". The third spelled it out: AI-generated, and the person shown does not exist.
+
+      Then came the clever bit. Everyone rated how much they trusted the message. They were taken through a block of
+      unrelated questions to break the spell. Finally they were shown the post again and told plainly that the image
+      was made by AI, and rated their trust a second time. The question is not what a label does on first sight. It
+      is what the label does to you later, when you find out.
+    facts:
+      - ["People", "606 experienced social media users in Israel, aged 18 to 70, average age 41"]
+      - ["Groups", "200 saw no label, 204 saw \"AI-generated\", 202 saw the fuller version naming a person who does not exist"]
+      - ["Stimulus", "One brand's Instagram post with one photorealistic synthetic woman"]
+      - ["Measured twice", "Trust in the message before, and again after being told the image was AI"]
+      - ["Also measured", "Whether the brand came across as manipulative, and how synthetic the picture seemed"]
+
+  - h: "Everybody loses something"
+    body: |
+      Start with the blunt finding. Learning that a photographic-looking model was generated knocked trust down in
+      every single group, including the people who had been told so from the beginning. Forewarned is not immunised.
+
+      The size of the fall is where the labels separate. Without a label, trust dropped by 0.73 points on a
+      seven-point scale. The generic tag barely moved it, at 0.65, and that difference is statistically nothing. The
+      detailed label brought the fall down to 0.48, which the authors themselves treat with caution, because it only
+      reaches significance under a one-sided test they had not planned in advance.
+
+      Worth noting too: the group with the fullest label started lower, at 3.41 against 3.78. Saying up front that the
+      model is invented costs you trust before anybody has found anything out.
+    chart: drop
+
+  - h: "Two forces, pulling opposite ways"
+    body: |
+      The headline comparison is modest, but the machinery underneath is the useful part. The detailed label works
+      through two channels at once, and they point in opposite directions.
+
+      On one side, the fuller wording made the brand look less like it was trying to pull something. People given the
+      whole story were less inclined to read manipulation into the post when the AI origin came up, and that protects
+      trust. On the other side, the very same sentence made the picture feel markedly more artificial, and the more
+      artificial it felt, the further trust fell.
+
+      In numbers, the protective route is worth about 0.19 points of trust and the corrosive route costs about 0.16.
+      They very nearly cancel. That is why honesty here looks so disappointing in the aggregate: the brand genuinely
+      earns credit for candour, then hands most of it straight back by telling people the face is a fabrication.
+    chart: paths
+
+  - h: "The label is for the young"
+    body: |
+      One split in the data matters for media planning. The protective half of the mechanism, the part that stops
+      people reading manipulation into the post, held up strongly among younger respondents and faded to nothing
+      among older ones.
+
+      The artificiality half showed no such pattern. Young and old alike read the image as more manufactured once the
+      label said so. Age changed only whether people gave the brand any credit for saying so.
+
+      There is a second hint in the controls. Better educated respondents saw more artificiality and lost more trust,
+      which the authors flag as exploratory rather than tested. If it holds, the audiences most likely to notice what
+      you have done are also the ones least likely to forgive it.
+
+  - h: "A trade-off, not a fix"
+    body: |
+      Most transparency advice assumes the question is whether to disclose. This result reframes it as a question of
+      what the disclosure says, and shows that more specific is not automatically safer. Naming the practice calms
+      suspicion. Naming the absence of a real human makes the picture feel like a rendering.
+
+      Stepping outside what was tested here, the shape of the trade-off suggests where synthetic models belong and
+      where they do not. The cost falls hardest wherever the image is doing the work of evidence, which is to say
+      testimonials, before and after shots, anything implying that a real customer stood there. It falls lightest
+      where the figure is obviously decorative, a stylised brand world nobody mistakes for reportage.
+
+      The other reading is about regulation. Rules being drafted now tend to ask only whether AI involvement is
+      declared. These findings say the wording inside the declaration changes the outcome, and that a brand forced to
+      state the person is imaginary is being asked to pay a price that a brand tagging the post "AI-generated" is
+      not.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Write a one-page rule on where invented people may appear", "List the formats that may use a generated human and the ones that may not, putting testimonials, customer stories, before and after images and anything implying a real buyer on the forbidden side. Get it signed off once, by brand and legal together, rather than argued per campaign."]
+  - ["Pull the age profile of every placement you are buying", "Ask the platform or the agency for the age split before the plan is locked. Where the audience skews older, budget for the label costing you more goodwill than it earns, and consider a real model for that placement instead."]
+  - ["Put the disclosure in the first line of the caption", "Write it in the brand's own voice, in one short sentence, at the top of the caption where it is read rather than at the end with the hashtags. Say the figure was created and is not a real person, in those plain words."]
+  - ["Keep everything else in the post verifiable", "Pair a generated face with real prices, real specifications and a real demonstration, so the invented element is the model and nothing else. One synthetic claim beside a synthetic person is what turns a creative choice into a credibility problem."]
+  - ["Test two questions on 200 people before you scale", "Show the finished post to a sample of the target audience and ask whether the brand seems to be trying to manipulate them, and how artificial the post feels. Rewrite the wording and retest if either reading is worse than your previous campaign."]
+  - ["Cap how much of the feed is invented", "Set a ceiling, for example no more than one post in five, on content built around a generated person, and report it monthly beside engagement. Real faces in the rest of the feed are what keep the invented ones from redefining the account."]
+
+expect:
+  - "**A trust cost either way.** Revealing a synthetic model lowers trust whether you labelled it or not, so the decision is about managing the loss rather than avoiding it."
+  - "**The bare marker is decoration.** Tagging a post as made with AI satisfies a rule and shifts nothing a customer feels."
+  - "**Younger audiences reward candour.** The goodwill from a fuller label shows up among younger viewers and fades with age."
+  - "**A smaller starting point.** Spelling out that the person is invented lowers trust from the first impression, before anybody investigates."
+
+limits:
+  - "**One post, one brand, one face.** Everything rests on a single stimulus, so the size of these effects may not carry to other categories or other kinds of synthetic figure."
+  - "**One country, one panel.** Participants were recruited to match the profile of Instagram users in Israel, and responses to AI content vary a good deal across cultures."
+  - "**A staged reveal.** People were told about the AI origin inside the same session, which is more attention than the discovery would usually get in a feed."
+  - "**The headline gap is fragile.** The difference in trust loss between the fullest label and no label survives only on a one-tailed test that was not planned in advance, and the authors say so plainly."
+
+faq:
+  - q: "Does labelling an AI model protect a brand's credibility?"
+    a: "Only partly. Across 606 viewers, a detailed label reduced the sense that the brand was being manipulative but increased how artificial the image felt, and the two effects were close to equal in size (Zimand-Sheiner, Kol and Levy, 2026, Journal of Marketing Communications)."
+  - q: "Is a generic \"AI-generated\" tag enough?"
+    a: "For perception, no. The generic tag produced the same loss of trust as showing no label at all once viewers learned the image was synthetic."
+  - q: "What happens to trust when people find out a model was AI?"
+    a: "It falls in every case. The drop was about three quarters of a point for viewers who had seen no label, and roughly half a point for those given the fullest explanation, with the fully warned group starting from a lower level of trust to begin with."
+  - q: "Do younger and older consumers react differently to AI disclosure?"
+    a: "Yes, on one side of the mechanism. The drop in perceived manipulation held among younger respondents and disappeared among older ones. Both age groups found the picture equally synthetic once the wording made it explicit."
+  - q: "Where should brands avoid synthetic human models?"
+    a: "Wherever the picture is standing in for evidence. The cost of disclosure is heaviest when the image implies a real person had the experience, as in testimonials and customer stories, and lightest when the figure is plainly decorative."
+
+also:
+  - doi: "10.1007/s11747-026-01198-6"
+    title: "Introducing the special issue on influencer marketing with extension into synthetic word of mouth: How AI shapes the future of influencer marketing"
+    authors: "Haenlein, M., Kannan, P. K., Muller, E., & Wahid, R."
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2026
+    text: >-
+      A framework paper for what the authors call synthetic word of mouth, meaning recommendation in which a machine
+      has a hand in writing, carrying, judging or acting on the message. Their useful contribution is degree of
+      syntheticity, broken into narrative, voice, appearance and consumption. It gives a vocabulary for the thing
+      everyone is now buying without a name for it.
+  - doi: "10.1177/10949968261487442"
+    title: "The AI-driven scam economy: Persuasion knowledge, consumer vulnerability, and empowerment"
+    authors: "Hermann, E., Trieb, A., Puntoni, S., Schweidel, D., & Wilbur, K."
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Online scams are recast here as malicious persuasion, with AI supplying the simplicity, the sophistication and
+      the scale. The authors argue that regulation alone cannot keep up, and that consumers need practical ability
+      to recognise and resist these attempts, report what happens to them and recover afterwards. Worth reading
+      beside anything your own brand is doing with synthetic media.
+
+charts:
+  drop:
+    title: "How far trust fell once viewers learned the model was generated"
+    scale: [0, 1]
+    step: 0.25
+    unit: "points"
+    decimals: 2
+    bars:
+      - ["No label", 0.73]
+      - ["\"AI-generated\" tag", 0.65]
+      - ["Person does not exist", 0.48, true]
+    source: "606 participants, trust measured on a seven-point scale before and after the reveal."
+  paths:
+    title: "The two effects of the detailed label, in points of trust"
+    scale: [0, 0.3]
+    step: 0.1
+    unit: "points"
+    decimals: 2
+    bars:
+      - ["Protects: feels less manipulative", 0.19, true]
+      - ["Costs: feels more artificial", 0.16]
+    source: "Indirect effects from the mediation model, each with a confidence interval clear of zero."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
