@@ -138,12 +138,12 @@ sections:
       first half of that move is sound. The second half, on this evidence, is wishful.
 
 how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
-  - ["Pick the device before the genre", "Decide which screen your audience is on first. The split in this sample came from an esports platform and is PC-heavy, so use your own or your partner's data for the real mix."]
-  - ["Name the genre in the brief", "Write \"console shooters\" or \"mobile puzzle players\", never \"gamers\". Every number in this study moves once you change the genre."]
-  - ["Build for the second player", "Most favourites in this sample were games with other people in them. Creative, offers and mechanics written for a person alone miss how the thing is actually played."]
-  - ["Offer a mirror instead of a prize", "This survey collected 188,775 responses with no money, no draw and no discount. What it handed back was a summary of how each person actually plays. Useful self-knowledge is a currency most brands underuse."]
-  - ["Set the age read from the genre", "Board, card and puzzle titles skew older and more educated; action, arcade and shooters skew younger. Use the genre, not the channel, to pitch tone and product."]
-  - ["Measure crowds and leave people alone", "Report by device and genre, where the signal is real. Do not score individual players from their game tags, and watch spend among your heaviest multiplayer users rather than chasing it."]
+  - ["Split the audience by device before anything else", "Get the console, PC and mobile breakdown for the specific titles or creators you are buying, from the publisher or the platform's own reporting. Treat the three as separate audiences with separate budgets."]
+  - ["Name the genre in the brief", "Write \"console shooters\" or \"mobile puzzle players\" into the brief, never \"gamers\". Pick the genre from where your product actually fits, and let it set the tone, the length and the humour."]
+  - ["Build the activation for two people, not one", "Assume the player has someone alongside them: a co-op mode, a referral code that needs a second player, a reward that unlocks in a party. Solo-player mechanics leave most of the audience out."]
+  - ["Set the age and tone from the genre, not the channel", "Write to the genre's own demographic: puzzle, board and card audiences skew older and more educated, action and shooter audiences younger. Never let \"it's gaming\" be the reason a campaign is written young."]
+  - ["Offer a mirror instead of a prize", "Give players something about themselves — their stats, their year in review, a personalised ranking — in place of a discount or a draw. It costs little and earns better data than an incentive does."]
+  - ["Report by device and genre, and never score a player", "Build the dashboard around device and genre segments, where the differences are real. Do not profile individuals from the games they play, and cap spend prompts to the heaviest-playing segment."]
 
 expect:
   - "**Large gaps between devices, small gaps between people.** Genre splits of 20 or 30 points are normal here; the differences in individual behaviour behind them are slight."

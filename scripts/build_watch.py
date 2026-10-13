@@ -57,22 +57,27 @@ def how_to_html(steps: list) -> str:
     out.append("</div></section>")
     return "".join(out)
 
-def related_pages_html(slugs: list) -> str:
-    """Links to paper pages on this site, from the slugs listed in `related_pages`."""
-    items = []
-    for s in slugs:
-        f = ROOT / "papers" / "data" / f"{s}.yml"
+def related_pages_html(slugs: list, lead_doi: str = "") -> str:
+    """Paper pages on this site: the lead paper's own page first, then any other related pages."""
+    lead, rest = [], []
+    for sl in slugs:
+        f = ROOT / "papers" / "data" / f"{sl}.yml"
         if not f.exists():
             continue
         p = yaml.safe_load(f.read_text(encoding="utf-8")) or {}
         if p.get("status") != "locked":
             continue
-        items.append(f'<li><a href="../../../papers/{esc(s)}.html">{esc(p.get("title", s))}</a>'
-                     f'<span>{esc(p.get("journal", ""))}</span></li>')
-    if not items:
-        return ""
-    return ('<section id="on-this-site" class="mw-related"><h2>The paper, in full, on this site</h2>'
-            f'<ul>{"".join(items)}</ul></section>')
+        item = (f'<li><a href="../../../papers/{esc(sl)}.html">{esc(p.get("title", sl))}</a>'
+                f'<span>{esc(p.get("journal", ""))}</span></li>')
+        (lead if str(p.get("doi", "")).lower() == str(lead_doi).lower() else rest).append(item)
+    out = []
+    if lead:
+        out.append('<section id="on-this-site" class="mw-related"><h2>The paper, in full, on this site</h2>'
+                   f'<ul>{"".join(lead)}</ul></section>')
+    if rest:
+        out.append('<section id="related-research" class="mw-related"><h2>Related research on this site</h2>'
+                   f'<ul>{"".join(rest)}</ul></section>')
+    return "".join(out)
 
 
 def support_card() -> str:
@@ -201,7 +206,7 @@ def body(d: dict, prev_next: tuple) -> str:
                f'<p class="mw-note">This brief is written for practitioners from '
                f'{esc(d.get("source_basis", "the published article"))}.{oa} '
                f'Numbers are as reported by the authors; read the article for full methods.</p></section>')
-    out.append(related_pages_html(d.get("related_pages") or []))
+    out.append(related_pages_html(d.get("related_pages") or [], p.get("doi", "")))
     out.append('<div class="mw-author"><img src="../../../assets/bruno.jpg" alt="Bruno Schivinski" width="64" height="64">'
                '<div><p><strong>Bruno Schivinski</strong> is Associate Professor of Marketing at Gdańsk University of '
                'Technology. He studies how consumers engage with brands in digital and social media.</p>'

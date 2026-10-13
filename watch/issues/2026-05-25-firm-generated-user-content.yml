@@ -1,0 +1,214 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 20
+week_of: "2026-05-25"            # the week this issue covers (shown on the page, orders the archive)
+slug: firm-generated-user-content
+status: live
+
+title: "Should brands write the posts their customers share? What a Journal of Marketing study found"
+short_title: "Write the post for them and they will send it"
+dek: >-
+  A birthday week, and a reason to go back to the subject I have spent most of my career on. Word of mouth was
+  supposed to be the one channel brands could not touch. That is no longer quite true.
+description: >-
+  Handing customers a ready-made post lifted sharing from 0.4% to 2.1% in a real gym campaign, and quietly stopped
+  unhappy customers posting at all. How to use it, and where it gets uncomfortable.
+keywords: [user-generated content, firm-generated user content, word of mouth, eWOM, social media sharing, customer
+  advocacy, review solicitation, brand communication, customer satisfaction, authenticity, CRM, Journal of Marketing]
+topics: [UGC, Social media, Advertising]
+
+image:
+  file: issue-20-firm-generated-user-content.jpg
+  og: issue-20-firm-generated-user-content-og.jpg
+  alt: "Overhead view of two hands holding a phone above a table of brunch plates, framing the food on the screen"
+  caption: "The moment a brand would like to write for you. Photo: Eaters Collective on Unsplash."
+
+short_answer: >-
+  On the evidence here, yes, and more carefully than most do. Giving customers a finished post to send, instead of
+  asking them to write one, raised sharing from 0.4% to 2.1% among real gym members and from 1.4% to 3.4% in a
+  second field test. The wording decides who answers: warm, enthusiastic text pulled satisfied customers up to
+  roughly half, while the flat factual wording most brands use did almost nothing. Unhappy customers handed the same
+  warm text mostly went quiet instead of hitting back.
+
+takeaways:
+  - "In a real gym campaign, a ready-made post was clicked through by 2.1% of members against 0.4% asked to write their own."
+  - "Among satisfied customers, enthusiastic wording lifted sharing to 50.7%, against 20.7% for a blank box."
+  - "Flat, factual wording — the kind most brands supply — reached 30.7% and was no better than asking people to write their own."
+  - "Among dissatisfied customers, the most glowing version cut sharing to 8.6%, below the 23.5% who would have written something themselves."
+
+paper:
+  doi: "10.1177/00222429251331483"
+  title: "Putting words in their mouths: Firm-generated user content and consumer sharing behavior"
+  authors: ["Beck, J. M.", "Voorhees, C. M.", "Fombelle, P. W.", "Lemon, K. N."]
+  authors_full: ["Jonathan M. Beck", "Clay M. Voorhees", "Paul W. Fombelle", "Katherine N. Lemon"]
+  year: 2026
+  journal: "Journal of Marketing"
+  volume: 90
+  issue: 2
+  pages: "135-156"
+  online: "2025-07-15"
+  open_access: false
+  licence: ""
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      A personal note before the research. My birthday fell on the Sunday just gone, and birthdays make you sentimental
+      about where you started. Most of my own work has circled one question: what happens to a brand when the people
+      talking about it are not the brand. So this week's paper landed well.
+
+      Jonathan Beck (University of Mississippi), Clay Voorhees (University of Alabama), Paul Fombelle (Northeastern
+      University) and Katherine Lemon (Boston College) have put a name to something that has crept into practice
+      without much scrutiny: firm-generated user content. Not an ad, and not a customer's own words either. It is the
+      post the brand writes and the customer sends from their own account.
+
+      They ran six studies. Two were live campaigns that tracked whether people actually clicked through to post. One
+      measured what a thousand people really published on X after being handed a suggested line. The rest worked out
+      why, by varying how enthusiastic the supplied wording was and how happy the customer had been.
+    facts:
+      - ["Field tests", "A gym emailing 966 active members, and 999 people shown a film trailer"]
+      - ["Experiments", "Scenarios covering a wine aerator, a food delivery order and a suitcase, with 1,300 participants in total"]
+      - ["Live posting study", "1,003 people watched a deliberately poor short film, then had their real posts tracked"]
+      - ["What was varied", "Blank box or ready-made text, how warm that text was, and whether the experience had gone well"]
+      - ["What was measured", "Whether they shared, what they edited, and the tone of what finally went up"]
+
+  - h: "A blank box is the obstacle"
+    body: |
+      The first test was a real campaign. A city gym emailed its members asking them to say something supportive on
+      social media. Half got a link to an empty posting box. Half got the same email with a finished sentence
+      recommending the gym, ready to send. Click-throughs went from 0.4% to 2.1%.
+
+      Those numbers look tiny until you remember what they are: click rates on a marketing email, where anything above
+      3% is unusual. Five times as many people took the step. The second field test, built around a film trailer,
+      moved the same way, from 1.4% to 3.4%.
+
+      Nothing here is about persuasion. The customers who shared already liked the gym. What changed was the cost of
+      doing something about it, and most goodwill never converts because writing a sentence in public is more effort
+      than it looks.
+
+  - h: "Enthusiasm is the dial"
+    body: |
+      So what should the supplied sentence say? The second study put four versions in front of people who had just had
+      a good experience: an empty box, a flat statement of fact, a warm line, and an outright gushing one.
+
+      The flat version is roughly what brands write today, and it barely beat the blank box. Both of the warmer
+      versions nearly doubled sharing. The difference between warm and gushing was small, which matters, because the
+      gushing one carries a cost that shows up in the next section.
+
+      A second effect runs alongside. People overwhelmingly send the supplied text as written, so whatever tone the
+      brand chooses is the tone that ends up in public. Where customers wrote their own words, the posts came out
+      noticeably cooler.
+    chart: sharing
+
+  - h: "The unhappy customer quietly declines"
+    body: |
+      Now the same four versions, sent to people whose experience had gone badly. The pattern inverts. The glowing
+      line, which worked best on happy customers, cut sharing to roughly a third of what a blank box produced.
+
+      The reason is simple enough to recognise from your own inbox. For a satisfied customer, a ready-made line is a
+      favour: it says what they already think. For a dissatisfied one, it is a sentence that does not fit, and the
+      mismatch is uncomfortable enough that most people drop it rather than rewrite it.
+
+      The live study is the reassuring part. Of the unhappy viewers who did go ahead and post, four in five sent the
+      supplied line untouched, and the fifth softened it rather than sharpening it. Nobody turned it into an attack.
+      So the fear that this hands angry customers a megaphone did not materialise; what it does instead is thin out
+      their presence in the feed.
+    chart: dissatisfied
+
+  - h: "The part that should make you pause"
+    body: |
+      Here is where I have to take my marketer's hat off. The entire value of user-generated content rests on readers
+      believing it came from a user. It persuades precisely because it is not controlled by the brand, which is why my
+      own work has always treated firm-created and user-generated communication as two different animals that do
+      different things to brand equity.
+
+      A tactic that works this well erases that line. Scale it across a customer base and the brand's mentions stop
+      being evidence and start being distribution. The authors raise the same worry, and note that it may eventually
+      call for the kind of labelling that sponsored posts already carry.
+
+      Going beyond what their studies tested: the practical limit is probably self-correcting. If every mention of
+      your brand reads like the same sentence, readers will notice, and the channel will lose the credibility you were
+      borrowing. Which argues for using this where the enthusiasm is genuine, varying the words, and treating the
+      number of supplied posts against spontaneous ones as a metric worth watching rather than maximising.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Fire the ask off a completed, successful moment", "Trigger the request from an event in your data, not a calendar slot: order delivered, course finished, stay checked out, warranty registered. Send it within 48 hours, while the experience is still fresh."]
+  - ["Put a satisfaction gate in front of it", "Send the ready-made post only to customers whose last rating or survey sits in your top band. Route everyone else to a private feedback form, and suppress anyone with an open complaint."]
+  - ["Write it as the customer would, warmly", "First person, under 25 words, naming the product and one specific detail they would have noticed, with a clear note of enthusiasm. Skip the neutral, factual sentence; it performs like no suggestion at all."]
+  - ["Make posting one tap, and leave it editable", "Pre-fill the text and any link so the share sheet opens ready to send, and keep the box editable. Never auto-post on someone's behalf."]
+  - ["Rotate at least ten versions", "Generate a pool of variants, differing in the detail they mention and the phrasing, and assign a different one to each customer so your brand's mentions do not read as one script."]
+  - ["Watch the ratio, not just the rate", "Report share rate alongside the proportion of your brand mentions that came from supplied text. When supplied posts start to crowd out spontaneous ones, cut the volume. Add a disclosure line wherever platform or advertising rules require it."]
+
+expect:
+  - "**Small percentages, real volume.** Share rates move by a point or two, which against a large customer base is a meaningful lift in mentions."
+  - "**A warmer public record.** Supplied text travels mostly unedited, so the average tone of what gets posted rises."
+  - "**Fewer negative posts, not more.** Unhappy customers tend to opt out rather than rewrite, and those who do post soften rather than attack."
+  - "**A credibility budget you are spending.** Every supplied post trades a little of the independence that makes this channel work."
+
+limits:
+  - "**Short posts only.** This was tested on single-sentence social posts, not reviews, ratings or anything long enough to need a personal voice."
+  - "**One suggestion at a time.** Every test offered a single ready-made line; offering a menu to choose from was not tried."
+  - "**No long-run evidence.** Nothing here shows what repeated asks do to trust in the brand or in the channel over months."
+  - "**Mostly US scenario-based samples.** Four of the six studies asked people to imagine an experience rather than live one, with the two field tests run in a single country."
+
+faq:
+  - q: "Does giving customers a pre-written post actually increase sharing?"
+    a: "Yes, by a multiple rather than a margin. A live gym campaign got five times the click-through when members were handed a finished message instead of an empty posting box, and a separate field test more than doubled (Beck et al., 2026, Journal of Marketing)."
+  - q: "What should the pre-written post say?"
+    a: "Something warm and specific, written in the customer's voice. Neutral factual wording, which is what most brands currently supply, performed no better than leaving the box empty."
+  - q: "Will unhappy customers use a pre-written post against the brand?"
+    a: "It did not happen here. Dissatisfied customers shared less often than they would have written on their own, four in five who shared sent the supplied line unchanged, and the minority who edited it made it milder rather than hostile."
+  - q: "Why does a ready-made post work?"
+    a: "Two different reasons depending on the customer. For satisfied ones it removes the effort of composing something; for dissatisfied ones it creates a mismatch with their experience, which is why they step away instead."
+  - q: "Is this ethical?"
+    a: "It sits in grey territory. Readers treat posts from customers as independent evidence, and supplying the words quietly removes that independence. The authors themselves flag the risk to consumer trust and suggest that disclosure rules may eventually be needed."
+
+also:
+  - doi: "10.1177/00222437261423540"
+    title: "Welfare implications of democratization in content creation: Generative AI and beyond"
+    authors: "Zou, T., Shi, Z., & Wu, Y."
+    journal: "Journal of Marketing Research"
+    year: 2026
+    text: >-
+      A modelling paper on what happens when tools let anyone produce content that passes for professional. A small
+      narrowing of the quality gap can leave everybody worse off, flooding the market and crowding out the good
+      material; a large one lifts both audiences and creators. Platforms that filter well raise welfare, yet are also
+      where democratisation is most likely to hurt.
+  - doi: "10.1177/10949968261457050"
+    title: "Sociopolitical activism, brand personality, and social media engagement"
+    authors: "Mahmood, A., & Morales, J."
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Ten years and 1.7 million posts from 269 corporate accounts, split into social and political causes. Social
+      causes earned more engagement on average; political ones paid off only for brands already seen as competent at
+      what they do. Activism is not one thing, and the right to speak on the harder subjects appears to be earned
+      elsewhere.
+
+charts:
+  sharing:
+    title: "Satisfied customers: share of them posting, by what the brand supplied"
+    scale: [0, 60]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Gushing wording", 52.7]
+      - ["Warm wording", 50.7, true]
+      - ["Flat, factual wording", 30.7]
+      - ["Blank box", 20.7]
+    source: "Study 2: 561 participants who had just had a good experience with the product."
+  dissatisfied:
+    title: "Dissatisfied customers: the same four options, reversed"
+    scale: [0, 60]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Blank box", 23.5]
+      - ["Warm wording", 21.7]
+      - ["Flat, factual wording", 17.4]
+      - ["Gushing wording", 8.6, true]
+    source: "Study 2: the same experiment, among participants whose experience had gone badly."
+
+related_pages: [social-media-communication-brand-perceptions, measuring-consumer-engagement-social-media-content, brand-communication-brand-equity-facebook]

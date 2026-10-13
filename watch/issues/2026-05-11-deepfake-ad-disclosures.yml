@@ -136,12 +136,12 @@ sections:
       nobody writes it.
 
 how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
-  - ["Settle the synthetic question first", "Decide whether your campaign puts a real person's likeness, or a convincing stand-in for one, into something they never did. Everything below applies only once the answer is yes."]
-  - ["Write the consequence, not the method", "Naming the technique describes a process. Telling someone the scene never happened hands them a conclusion they can use, and only the second kind of wording changed what people believed."]
-  - ["Keep the label to two sentences", "What has been altered, then what that means. The extra line about intent to mislead added nothing over the simpler consequence, so there is no case for a paragraph."]
-  - ["Put it where the ad is, not in the terms", "These labels ran as a byline directly beneath the creative. A disclosure buried in a policy page or a profile bio was never what was tested, and would not have been seen."]
-  - ["Run it knowing the sales risk is small", "Across three experiments, purchase choice did not move. Pilot the wording on one campaign and watch the conversion rate yourself before the argument is had in the abstract."]
-  - ["Measure whether they understood, not whether they saw", "Ask a sample whether they think the ad shows something that really happened. Noticing the label is not the same as drawing the conclusion from it."]
+  - ["List every asset with a synthetic person in it", "Go through the campaign and mark anything where a face, voice or body is generated, swapped, de-aged or cloned, including AI stock models and archive footage of people who did not film the ad. That list is what needs a label."]
+  - ["Agree the wording before production, not at trafficking", "Settle one standard sentence with legal and brand now, so nobody is drafting it the night before launch and quietly shortening it to a technical term."]
+  - ["Write two lines: what changed, then what it means", "Name the alteration, then draw the conclusion for the viewer: the person in this film was generated, so the scene never happened. Keep both lines under 20 words in total and out of technical language."]
+  - ["Put it on the creative itself", "Place the line directly beneath the post, burn it into the first and last three seconds of video, and read it aloud in audio. A profile bio, a campaign landing page or the terms will not be seen."]
+  - ["Launch it on one campaign and watch conversion weekly", "Run the labelled version on a single live campaign for a month and track conversion against the previous period, so the internal argument is settled with your own numbers rather than in the abstract."]
+  - ["Test whether they understood, not whether they noticed", "Ask 100 people from the target audience one question: did this show something that really happened? If a meaningful share still say yes, the wording is not doing its job, so rewrite the second line and retest."]
 
 expect:
   - "**No change in how real it looks.** Perceived realism held steady across every label in every study, so do not judge a disclosure by whether the ad still looks convincing."

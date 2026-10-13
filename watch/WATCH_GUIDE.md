@@ -21,7 +21,16 @@ Issue 1 (`watch/issues/2026-01-12-generative-ai-ad-images.yml`) is the template:
    - `sections`: what they did (with a facts box), what they found, field evidence, the key practical insight; 1–3 charts.
    - `how_to`: exactly 6 concrete steps, ordered for the "Ready. Set. Market." block (kicker: Marketing in 3 steps): 1–2 **Ready** (decide and
      prepare: where it fits, what to choose or check), 3–4 **Set** (build it: the execution), 5–6 **Market** (launch and
-     measure: roll out, test, monitor). The builder groups them in pairs, shown as bullets (no numbers).* `expect`: realistic outcomes, costs and caveats. `limits`: when it fails.
+     measure: roll out, test, monitor). The builder groups them in pairs, shown as bullets (no numbers).
+     **These six are the implementation, not a recap** (Bruno, 13 October 2026). The rest of the page explains the study; this
+     block has to work on its own for a reader who skipped straight to it and wants to act today. So:
+     - Write every step as an instruction to the reader, in the imperative: "Draft three versions…", "Send it within 48 hours…".
+     - No references back to the paper: no "in this study", "the authors found", "the researchers point to", no sample sizes,
+       no statistics, no citing the brands the paper used as examples. The evidence lives in the sections above.
+     - Each step names the thing to do, where it happens and, where it matters, how much or how often. Prefer a number the
+       reader can act on (how many versions, how many hours, which channel) over a number from the results table.
+     - A reader should be able to run all six without having read a word of the rest of the page.
+     * `expect`: realistic outcomes, costs and caveats. `limits`: when it fails.
    - `faq`: 4–5 questions people actually ask; answers stand alone and include the evidence.
    - `keywords`: 8–12 search phrases. `topics`: 2–3 categories (AI, Advertising, Social media, UGC, Influencers,
      Personalization, Privacy, Retail, Service, Search, Creative, Research methods).

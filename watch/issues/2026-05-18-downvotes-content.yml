@@ -131,12 +131,12 @@ sections:
       is gone.
 
 how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
-  - ["Separate the two fears", "Write down what you are actually afraid of before debating a dislike button: fewer contributions, or a nastier tone. In this study, neither got worse."]
-  - ["Check that you have a reputation to dent", "The effect runs through a visible, cumulative score. If your community has no public standing to lose, expect none of this to transfer."]
-  - ["Make the number legible", "Show the running total where people see it, in whole figures. A score that only appears in a monthly digest cannot be defended day to day."]
-  - ["Design the thresholds on purpose", "Crossing a round number did the work here. Set tier boundaries, badge cut-offs and progress markers where you want people to feel movement, and know that you are using the same lever."]
-  - ["Give the stung somewhere to go", "The extra energy went to neighbouring communities. If your space has no adjacent room, the equivalent user has nowhere to take it but off your platform."]
-  - ["Track tone as well as volume", "Report the strength of language in contributions, not just how many arrive. The real effect of negative feedback in this study was on how hard people pushed, not on whether they turned up."]
+  - ["Decide what the score is for before you add a vote button", "Write down the behaviour you want more of, and check that your community has a visible, cumulative standing a member could lose. Without one, a downvote is just an insult with no mechanism behind it."]
+  - ["Name the two risks and set a kill switch", "Agree in advance what would make you remove the feature — a drop in weekly contributors, or a rise in reported abuse — and the threshold for each, so the decision is not made in the middle of a row."]
+  - ["Show the running total where people act", "Put the member's score next to the post button and on their profile, as a whole number updated the moment a vote lands. A figure that only appears in a monthly digest cannot be defended day to day."]
+  - ["Place tier boundaries on purpose", "Set badge and level thresholds at round numbers, and show how far someone sits from the next one. Crossing a boundary is what people notice, so decide where you want that to happen rather than letting the maths choose."]
+  - ["Open an adjacent room", "Give members somewhere else inside your community to post after a rough thread: a second channel, a beginners' space, a different topic. Without one, the energy leaves the platform instead of moving across it."]
+  - ["Report tone next to volume", "Add a monthly read of how strongly members are writing, by sampling 50 posts or scoring sentiment automatically, and put it beside the post count. Volume alone will hide the change you are actually causing."]
 
 expect:
   - "**A next-day effect, not a lasting one.** The lift showed up the day after and the day after that, then faded."
