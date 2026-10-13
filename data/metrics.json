@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-12",
+ "as_of": "2026-10-13",
  "scholar_snapshot": "2026-10-10",
  "baseline": "2026-10-10",
  "h_index": 33,
@@ -110,7 +110,7 @@
    "key": "10.1016/j.fufo.2025.100577",
    "count": 32,
    "need": 2,
-   "per_month": 1.65,
+   "per_month": 1.64,
    "velocity_source": "openalex",
    "months_to_cross": 1.2,
    "year": 2025,
@@ -130,7 +130,7 @@
    "key": "10.1016/j.jpsychires.2023.12.038",
    "count": 25,
    "need": 9,
-   "per_month": 0.53,
+   "per_month": 0.52,
    "velocity_source": "openalex",
    "months_to_cross": 17.1,
    "year": 2024,
@@ -152,7 +152,7 @@
    "need": 11,
    "per_month": 0.38,
    "velocity_source": "openalex",
-   "months_to_cross": 29.1,
+   "months_to_cross": 29.2,
    "year": 2024,
    "title": "What if utilitarian products are regarded as high-status? The moderate role of iconic and popular as two dimensions of brand Coolness"
   },
@@ -162,7 +162,7 @@
    "need": 10,
    "per_month": 0.29,
    "velocity_source": "openalex",
-   "months_to_cross": 34.9,
+   "months_to_cross": 35.0,
    "year": 2022,
    "title": "Online Gambling Disorder Questionnaire (OGD-Q): An item response theory examination"
   },
@@ -172,7 +172,7 @@
    "need": 9,
    "per_month": 0.1,
    "velocity_source": "openalex",
-   "months_to_cross": 88.6,
+   "months_to_cross": 88.8,
    "year": 2019,
    "title": "The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish Restaurant Sector"
   },
@@ -182,7 +182,7 @@
    "need": 9,
    "per_month": 0.04,
    "velocity_source": "openalex",
-   "months_to_cross": 246.4,
+   "months_to_cross": 249.5,
    "year": 2021,
    "title": "Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scoping Review"
   },
