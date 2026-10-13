@@ -65,6 +65,9 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 - **No repeats inside an issue.** Give each fact one home. Plan a quick "fact ledger" before writing: the short answer,
   each takeaway, each section, the FAQ and "what to expect" should each carry different numbers or a new angle. If a
   point must come back (e.g. in the FAQ for search), say it in different words and only when it is needed.
+- **No dashes in the prose** (Bruno, 13 October 2026): do not use em dashes or en dashes as punctuation inside a
+  sentence, and do not set an aside between dashes. Rewrite with commas, or split into two sentences. Hyphens in
+  compound words ("user-generated") and number ranges in tables and chart labels are unaffected.
 - **Changes apply forward only** (Bruno, 13 October 2026): when a rule here changes, it governs the next issue and
   everything after it. Never go back and rework published issues to match, unless Bruno asks for a retrofit.
 - **No copy-paste feel across issues.** Keep the structure, but vary the sentences. Before publishing, compare the new
