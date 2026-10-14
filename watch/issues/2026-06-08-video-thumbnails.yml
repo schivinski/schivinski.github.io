@@ -3,7 +3,7 @@
 issue: 22
 week_of: "2026-06-08"            # the week this issue covers (shown on the page, orders the archive)
 slug: video-thumbnails
-status: draft   # held for Bruno's review, and awaiting its hero image
+status: live
 
 title: "What makes someone click on a video thumbnail? What a Journal of the Academy of Marketing Science study found"
 short_title: "Busy enough to be interesting, tidy enough to be read"
@@ -22,8 +22,8 @@ topics: [UGC, Creative, Social media]
 image:
   file: issue-22-video-thumbnails.jpg
   og: issue-22-video-thumbnails-og.jpg
-  alt: "A dark room lit by a wall of small glowing rectangles of colour, one of them noticeably brighter than the rest"
-  caption: "Every thumbnail is competing with every other one. Image generated with AI for this issue."
+  alt: "A cluster of screens suspended in a dark hall, each showing a different scene, with people silhouetted watching from below"
+  caption: "Every picture competing with every other picture, a second each. Photo: Maxim Hopman on Unsplash."
 
 short_answer: >-
   Two things, and they pull against each other. Across 22,958 real thumbnails and two experiments, pictures with a
