@@ -25,6 +25,10 @@ Issue 1 (`watch/issues/2026-01-12-generative-ai-ad-images.yml`) is the template:
      **These six are the implementation, not a recap** (Bruno, 13 October 2026). The rest of the page explains the study; this
      block has to work on its own for a reader who skipped straight to it and wants to act today. So:
      - Write every step as an instruction to the reader, in the imperative: "Draft three versions…", "Send it within 48 hours…".
+     - **Plain English, as plain as it can be made** (Bruno, 14 October 2026): short sentences, everyday words, one
+       instruction per sentence. Give a number the reader can count (three or four elements, seven days, 100 people) and,
+       where possible, a test they can run for themselves ("shrink it on screen until it is the size of a stamp"). Someone
+       who skipped the whole article should be able to follow all six without rereading a line. Issue 22 is the model.
      - No references back to the paper: no "in this study", "the authors found", "the researchers point to", no sample sizes,
        no statistics, no citing the brands the paper used as examples. The evidence lives in the sections above.
      - Each step names the thing to do, where it happens and, where it matters, how much or how often. Prefer a number the
