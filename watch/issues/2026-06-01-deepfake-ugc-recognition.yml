@@ -3,7 +3,7 @@
 issue: 21
 week_of: "2026-06-01"            # the week this issue covers (shown on the page, orders the archive)
 slug: deepfake-ugc-recognition
-status: draft   # flipped to live as soon as the hero image lands
+status: live
 
 title: "What happens when viewers spot the AI actor themselves? What a Journal of Retailing and Consumer Services study found"
 short_title: "Caught, not told: the worst way for an AI actor to be found out"
@@ -21,7 +21,7 @@ topics: [AI, Advertising, UGC]
 image:
   file: issue-21-deepfake-ugc-recognition.jpg
   og: issue-21-deepfake-ugc-recognition-og.jpg
-  alt: "A young woman's face lit by the glow of a phone held just off camera, her eyes narrowed in doubt as she watches something on screen"
+  alt: "AI-generated image of a woman in a dark room, her face lit by the cold glow of the screen she is studying, wearing a wary, unconvinced expression"
   caption: "The second the ad stops working. Image generated with AI for this issue."
 
 short_answer: >-
