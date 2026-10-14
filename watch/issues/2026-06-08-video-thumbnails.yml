@@ -1,0 +1,206 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 22
+week_of: "2026-06-08"            # the week this issue covers (shown on the page, orders the archive)
+slug: video-thumbnails
+status: draft   # held for Bruno's review, and awaiting its hero image
+
+title: "What makes someone click on a video thumbnail? What a Journal of the Academy of Marketing Science study found"
+short_title: "Busy enough to be interesting, tidy enough to be read"
+dek: >-
+  Nearly 23,000 thumbnails, measured by machine, and two design rules that run in opposite directions. For one of
+  them the middle is the best place to be. For the other it is the worst.
+description: >-
+  Thumbnails with a middling amount going on won the clicks at 5.48 out of 7. Middling colour harmony lost them at
+  3.41. Two dials, pulling opposite ways.
+
+keywords: [video thumbnails, YouTube thumbnails, click-through rate, visual complexity, visual design, user-generated
+  video, content marketing, creator economy, attention, image design, short-form video, Journal of the Academy of
+  Marketing Science]
+topics: [UGC, Creative, Social media]
+
+image:
+  file: issue-22-video-thumbnails.jpg
+  og: issue-22-video-thumbnails-og.jpg
+  alt: "A dark room lit by a wall of small glowing rectangles of colour, one of them noticeably brighter than the rest"
+  caption: "Every thumbnail is competing with every other one. Image generated with AI for this issue."
+
+short_answer: >-
+  Two things, and they pull against each other. Across 22,958 real thumbnails and two experiments, pictures with a
+  moderate amount going on beat both the sparse and the crowded ones by a wide margin. Colour harmony then behaved
+  the other way round: fully matched worked, completely clashing worked, and the compromise between them scored
+  3.41 out of 7, the worst result anywhere in the study. Aim for the middle on how much you put in the frame, and
+  avoid the middle on how well it hangs together.
+
+takeaways:
+  - "A middling amount of detail won: 5.48 out of 7 for clicking, against 4.11 for sparse and 4.49 for crowded."
+  - "Colour harmony split the other way: 5.30 when every element matched, 4.89 when none did, and only 3.41 in between."
+  - "The two settings did not interact, so a thumbnail can be tuned on one without disturbing the other."
+  - "It made no difference whether the creator chose the image or the platform picked it automatically."
+
+paper:
+  doi: "10.1007/s11747-026-01152-6"
+  title: "Thumbnail power: Visual cues and video popularity on UGV platforms"
+  authors: ["Fang, J.", "Zheng, Q.", "Liao, M.", "Han, L.", "Liu, L."]
+  authors_full: ["Jiaming Fang", "Qiqi Zheng", "Miyan Liao", "Lintong Han", "Lu Liu"]
+  year: 2026
+  journal: "Journal of the Academy of Marketing Science"
+  volume: 54
+  pages: "815-837"
+  online: "2026-04-15"
+  open_access: false
+  licence: ""
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      A thumbnail is the only part of a video most people ever see. Jiaming Fang, Qiqi Zheng, Miyan Liao, Lintong
+      Han and Lu Liu, working across three Chinese universities, set out to find what separates the ones that get
+      clicked from the ones that do not.
+
+      They scraped 22,958 videos from Bilibili, the Chinese platform closest to YouTube, across eight categories
+      from cookery to science, and tracked each one daily for a month. Then they turned the thumbnails over to two
+      trained models. One scored how much was going on in each picture: the number of objects, the colours, the
+      edges, the clutter. The other scored how well the colours and textures in a picture fitted together.
+
+      Popularity combined views, comments, likes, shares and saves. To check that the correlations meant something, they then built nine thumbnails of their
+      own, varying the same two qualities, and put them in front of 423 people browsing a mocked-up page.
+    facts:
+      - ["Thumbnails", "22,958 videos tracked daily for 31 days on Bilibili"]
+      - ["Categories", "Eight, from study and finance to cute pets, comedy and science"]
+      - ["Two qualities measured", "How much detail a picture holds, and how well its colours agree"]
+      - ["Popularity", "A combined measure of watching and reacting, with views counted only after five seconds"]
+      - ["Experiments", "423 people shown nine made-up thumbnails, then 322 more in a second test"]
+
+  - h: "Busy is better, up to a point"
+    body: |
+      The first rule is the one people half expect. More going on in a thumbnail earns more clicks, right up until
+      it does not. The curve rises and then falls, and the top of it sits in the middle.
+
+      In the experiment, the middling version was clicked far more readily than either extreme, and the margin was
+      wide. A nearly empty thumbnail gives the eye nothing to catch on. A packed one asks for more work than anyone
+      browsing is willing to do, so they scroll on.
+
+      This holds in the real data too, across all 22,958 videos, and it holds whether a human chose the frame or the
+      platform picked one automatically. That last point is worth sitting with. The same rule applies to the default
+      frame your platform grabs, which is the thumbnail most small creators and most brands are quietly running with.
+    chart: complexity
+
+  - h: "With harmony, the middle is the worst place"
+    body: |
+      The second rule is the surprise. Colour harmony does not simply help. Thumbnails where everything matched did
+      well, and so did thumbnails where nothing matched at all. The ones that lost were the half-hearted middle.
+
+      Two different things are going on. A harmonious picture is easy and pleasant to take in, so it reads fast. A
+      clashing one is jarring enough to be interesting, which stops the scroll for a different reason. A picture
+      that is neither does neither job.
+
+      The authors tested whether the two rules interfere with each other and found that they do not. You can set the
+      amount of detail and the degree of harmony separately, which makes this one of the rare design findings you
+      can act on without a trade-off.
+    chart: harmony
+
+  - h: "Who this matters most for"
+    body: |
+      The effects were sharpest for two kinds of video. Useful ones, where the viewer wants to learn or decide
+      something, mattered more than entertainment. So did typical ones, meaning videos that look like everything
+      else in their category, where the thumbnail is the only thing doing the separating.
+
+      Viewer type mattered too. People who were already interested in the subject reacted more strongly to how busy
+      the picture was. For them a crowded thumbnail is genuinely more work, because they are actually reading it
+      rather than glancing past.
+
+      Interestingly, that pattern did not repeat for harmony. Whether a picture hangs together seems to register the
+      same way for everyone, interested or not, which fits the idea that harmony is processed almost instantly while
+      detail has to be worked through.
+
+  - h: "Beyond the thumbnail"
+    body: |
+      The study is about video, but the situation it describes is everywhere: a grid of competing images, a second
+      of attention each, one of them has to win. Product listings on a marketplace, creative variants in an ad
+      carousel, app icons on a crowded store page, the hero image at the top of an email.
+
+      Going past what was actually tested, the two rules translate neatly. Give the eye three or four things to look
+      at rather than one or ten. Then decide whether your picture is going to be the calm one or the loud one in the
+      grid, and commit, because the version that hedges is the version that gets scrolled past.
+
+      The caveat worth carrying is cultural. This is Chinese data, and interfaces there run busier than Western ones
+      by habit. The shape of the curves should travel. The exact place the peak sits probably does not.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Start with one video", "Pick your best performing video, or the next one you are about to post. Change one thumbnail at a time. If you change five at once you will never know which change worked."]
+  - ["Count what is in the picture", "Open your current thumbnail and count the separate things in it. A face, a product, a word, a background, an arrow. One or two is too bare. Six or more is a mess. Three or four is the target."]
+  - ["Build it to three or four parts", "Make a new version with three or four clear things in it and nothing else. Cut the rest. Then shrink it on your screen until it is the size of a stamp. If you cannot tell what it is at that size, it is still too busy."]
+  - ["Pick calm or loud, not in between", "Decide which one you are making. Calm means every colour in the picture goes together. Loud means one colour clearly fights the others. Both work. A picture that is a bit of each is the one people skip."]
+  - ["Swap it and wait a week", "Change the picture and leave the title exactly as it is. Give it seven days. Then compare clicks with the week before, or with a similar video you did not touch."]
+  - ["Keep the ones that win", "Save every thumbnail that beat the one before it in a folder. After ten of them you will see your own pattern, and you can stop guessing."]
+
+expect:
+  - "**A click effect, not a watch effect.** This changes who starts the video. It does nothing for what happens after that, which is still down to the content."
+  - "**Bigger gains on useful videos.** How-to, review and explainer content responds more than entertainment."
+  - "**Most of the outcome is elsewhere.** The models explained roughly a sixth of why some videos do better, so the thumbnail is a real lever and a small one."
+  - "**Default frames are costing you.** The automatic frame a platform grabs follows the same rules and usually lands badly on both."
+
+limits:
+  - "**One platform, one country.** All the real-world data came from Bilibili in China, where interfaces and tastes run busier than in Europe or the United States."
+  - "**Machines judged the pictures.** Detail and harmony were scored by trained models rather than by people, so the measures are consistent but not quite what a human eye would call busy or tidy."
+  - "**A month of data.** Videos were tracked for 31 consecutive days, which says nothing about how a thumbnail performs over a longer life."
+  - "**Made-up thumbnails in the experiments.** The causal tests used nine constructed images on a simulated page, not real videos competing in a real feed."
+
+faq:
+  - q: "What makes a good video thumbnail?"
+    a: "A moderate amount of detail and a decisive choice on colour. In a browsing test, pictures holding a moderate amount were clicked a good deal more often than either sparse or crowded ones, and the same shape showed up across nearly 23,000 live videos (Fang et al., 2026, Journal of the Academy of Marketing Science)."
+  - q: "Should a thumbnail be simple or detailed?"
+    a: "Neither extreme. Too little and there is nothing to catch the eye. Too much and the viewer has to work, so they scroll past. Three or four clear elements is the practical version of the finding."
+  - q: "Do colours in a thumbnail need to match?"
+    a: "Either fully or not at all. Both extremes were clicked more than the compromise, which came last by a wide margin. Harmony reads as pleasant, clashing reads as interesting, and halfway reads as nothing at all."
+  - q: "Does it matter if the platform picks the thumbnail automatically?"
+    a: "The same rules applied to automatically selected frames as to ones creators chose, which means a default frame is usually an unmanaged risk rather than a neutral choice."
+  - q: "Which videos benefit most from thumbnail work?"
+    a: "Practical, information-led videos, and videos that sit in a crowded category where everything looks alike. In both cases the picture is doing most of the work of standing out."
+
+also:
+  - doi: "10.1177/00222437261460880"
+    title: "The three-dimensional effect in logo design: When depth cues improve brand purchase likelihood"
+    authors: "Togawa, T., & Onzo, N."
+    journal: "Journal of Marketing Research"
+    year: 2026
+    text: >-
+      Logos drawn with depth, through shading and perspective, raised purchase likelihood by reading as more real
+      and so more trustworthy. The gain only appeared in visually simple surroundings and for physical products.
+      Put the same logo in a busy layout or on something abstract and the advantage disappears.
+  - doi: "10.1002/mar.70180"
+    title: "From real to artificial: How profile image realism shapes warmth, competence, and trade outcomes in swapping platforms"
+    authors: "Alhouti, S., Pierre, L., & Liu, X."
+    journal: "Psychology & Marketing"
+    year: 2026
+    text: >-
+      On a swapping platform, people with realistic profile pictures traded more, and the effect was strongest where
+      the listing itself gave little away. A third study swapped in AI-made portraits and found they persuaded less
+      once other information was plentiful. When buyers cannot check the facts, they read the face.
+
+charts:
+  complexity:
+    title: "How likely people were to click, by how much was in the thumbnail"
+    scale: [0, 7]
+    step: 1
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["Almost nothing in it", 4.11]
+      - ["A middling amount", 5.48, true]
+      - ["Packed", 4.49]
+    source: "Experiment with 423 people shown nine constructed thumbnails on a simulated browsing page."
+  harmony:
+    title: "How likely people were to click, by how well the thumbnail fitted together"
+    scale: [0, 7]
+    step: 1
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["Nothing matches", 4.89]
+      - ["Somewhere in between", 3.41, true]
+      - ["Everything matches", 5.30]
+    source: "The same experiment: the lowest score belongs to the middle, not to either extreme."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
