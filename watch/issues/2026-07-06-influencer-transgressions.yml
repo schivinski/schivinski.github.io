@@ -254,10 +254,10 @@ charts:
     unit: "out of 7"
     decimals: 2
     bars:
-      - ["The influencer, when headlines named her", 1.89, true]
-      - ["The influencer, when they named the company", 2.25]
-      - ["The company, when headlines named it", 2.18]
-      - ["The company, when they named the influencer", 2.39]
+      - ["The influencer, when she was named", 1.89, true]
+      - ["The influencer, when the brand was named", 2.25]
+      - ["The company, when it was named", 2.18]
+      - ["The company, when the influencer was named", 2.39]
     source: "Study 5a: 298 participants. The headlines were identical in wording, tone and severity; only the name changed."
   remedy:
     title: "Consumer attitudes to the influencer after each kind of response, out of 7"

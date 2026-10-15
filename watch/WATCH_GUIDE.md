@@ -73,6 +73,15 @@ canonical URL, Open Graph/Twitter large image, RSS, sitemap, and an llms.txt ent
 
 If the issue is written from an accepted manuscript or pre-print, add `source_basis:` to the issue YAML (e.g. "the authors' accepted manuscript (pre-print) of the article, so wording and figures may differ slightly in the final typeset version"). It replaces "the published article" in the Source note. Still take volume, issue, pages and licence from Crossref. First used in issue 10.
 
+## Charts
+
+- `scripts/build_watch.py` sizes the label column from the longest bar label (about 7px per character) and widens the
+  whole viewBox to match, so long labels no longer clip at the left edge. Fixed 15 October 2026 after Bruno spotted it
+  on issue 26; 14 charts going back to issue 1 had been quietly cut off and were repaired by the same rebuild.
+- Even so, keep bar labels short. Anything past about 35 characters shrinks the bars on screen, because the SVG scales
+  to the card width. Put the detail in the chart title or the source line instead of the label.
+- The value label only shows a unit when `unit` is `%`. For any other unit, put it in the chart title.
+
 ## Freshness rules (Bruno, standing)
 - **No repeats inside an issue.** Give each fact one home. Plan a quick "fact ledger" before writing: the short answer,
   each takeaway, each section, the FAQ and "what to expect" should each carry different numbers or a new angle. If a

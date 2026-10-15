@@ -132,8 +132,12 @@ def chart_svg(c: dict, cid: str) -> str:
     """Horizontal bar chart, one series; the highlighted bar(s) in amber, values labelled at the bar end."""
     lo, hi = c["scale"]
     dec = c.get("decimals", 2)
-    W, LAB, ROW, PAD = 680, 250, 40, 70
-    plot = W - LAB - PAD
+    ROW, PAD, PLOT = 40, 70, 360
+    # The label column has to fit the longest label, or the text is clipped at the left edge of the viewBox.
+    # Roughly 7px per character at font-size 13.5 in Hanken Grotesk, which slightly over-estimates on purpose.
+    LAB = max(250, int(max(len(str(b[0])) for b in c["bars"]) * 7.0) + 24)
+    W = LAB + PLOT + PAD
+    plot = PLOT
     H = ROW * len(c["bars"]) + 34
     x = lambda v: LAB + (v - lo) / (hi - lo) * plot
     g = []
