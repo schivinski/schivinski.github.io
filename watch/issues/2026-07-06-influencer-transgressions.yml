@@ -1,0 +1,274 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 26
+week_of: "2026-07-06"            # the week this issue covers (shown on the page, orders the archive)
+slug: influencer-transgressions
+status: live
+
+title: "When a brand and an influencer get caught together, who gets punished? What a Journal of the Academy of Marketing Science study found"
+short_title: "The brand walks. The influencer burns."
+dek: >-
+  A famous Italian Christmas cake, a charity donation that never happened, and fines for both parties. Then 80,000
+  tweets showing the public went after only one of them, for a reason the researchers did not expect.
+
+description: >-
+  In the Ferragni and Balocco case, 96% of journalists' tweets were about the influencer. Consumers followed the
+  press, and the brand barely got mentioned.
+
+keywords: [influencer marketing, brand transgression, influencer scandal, crisis response, media legitimacy,
+  consumer backlash, parasocial identification, Chiara Ferragni, Balocco, reputation management, brand safety,
+  Journal of the Academy of Marketing Science]
+topics: [Influencers, Advertising, Social media]
+
+image:
+  file: issue-26-influencer-transgressions.jpg
+  og: issue-26-influencer-transgressions-og.jpg
+  alt: "A studio microphone on a boom arm, lit from behind in warm orange, with the room behind it out of focus"
+  caption: "The research says this is the way back, and the tougher the person holding it, the better. Photo: Panagiotis Falcos on Unsplash."
+
+short_answer: >-
+  The influencer, by a wide margin, and not because consumers worked out who was more to blame. Journalists decide
+  first. In the case the authors studied, the press wrote almost entirely about the influencer and wrote about her
+  more harshly, consumer sentiment followed a day later, and attitudes toward the company barely moved. Neither
+  fame nor money explained it. What did was identification: people see something of themselves in an influencer, so
+  when the influencer is disgraced they push her away to protect their own self-image. Nobody identifies with a
+  confectionery company.
+
+takeaways:
+  - "Consumers barely discussed the brand. Of 80,314 tweets about the case, 79,078 were about the influencer and 1,236 about the company."
+  - "Fame did not explain it. Swapping an influencer with 304 million followers for one with 114,000 changed nothing, and nor did swapping a $45 million net worth for $50,000."
+  - "Of four candidate explanations tested side by side, only identification survived. Journalists' self-interest, accountability and schadenfreude were all ruled out."
+  - "Journalists restored most legitimacy to an influencer who sat down with a hostile interviewer: 4.12, against 3.38 for a friendly one and 3.34 for a post to followers."
+
+paper:
+  doi: "10.1007/s11747-026-01155-3"
+  title: "From influence to infamy: Responses to company-influencer transgressions"
+  authors: ["Nanni, A.", "Ulqinaku, A.", "Giannetti, V."]
+  authors_full: ["Anastasia Nanni", "Aulona Ulqinaku", "Verdiana Giannetti"]
+  year: 2026
+  journal: "Journal of the Academy of Marketing Science"
+  volume: 54
+  issue: 3
+  pages: "641-662"
+  online: "2026-05-22"
+  open_access: true
+  licence: "CC BY 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Anastasia Nanni of Aalto, Aulona Ulqinaku of LIUC and Verdiana Giannetti of Leeds picked a question the
+      literature had skipped. Research on scandals assumes one culprit: either the brand did something wrong, or the
+      celebrity did. But an influencer campaign is made jointly, the brand hands over a good deal of control, and
+      when the result deceives people nobody can say cleanly whose fault it was. So who does the public punish?
+
+      Their starting case is a good one. For Christmas 2022 the Italian influencer Chiara Ferragni worked with the
+      confectioner Balocco on a special edition pandoro. The packaging and the posts both said a share of the money
+      would go to the Regina Margherita children's hospital in Turin. In December 2023 investigators found that a
+      €50,000 donation had been made up front, before the cake went on sale, and that not a cent of the money from
+      actual sales ever reached the hospital. Both parties were fined for misleading advertising.
+
+      The authors took 80,314 consumer tweets from before the collaboration and after the fines, then added 20,120
+      tweets from journalists and news outlets, two surveys of practising journalists and editors, and six experiments
+      using invented brands and invented influencers. They also took the unusual step of publishing a theory they
+      had to abandon: they expected blame to follow power, and it did not.
+    facts:
+      - ["The case", "Chiara Ferragni and Balocco, a Christmas pandoro sold on a charity claim, fined in December 2023"]
+      - ["Consumer data", "80,314 tweets, comparing January to October 2022 against December 2023 to July 2024"]
+      - ["Press data", "20,120 tweets from accounts verified as journalists or news outlets"]
+      - ["Journalists surveyed", "200 working journalists and editors in the US and UK, plus 225 more in a later study"]
+      - ["Experiments", "Six, using fictional influencers and brands, with consumers recruited in Britain and America"]
+
+  - h: "The influencer takes it"
+    body: |
+      The design here is simple and clean. Tweets about Ferragni are the treatment group, tweets about Balocco are
+      the control, and the comparison is how sentiment in each group changed from before the collaboration to after
+      the fines.
+
+      Sentiment fell for both, as you would expect once a fraud is in the news. It fell considerably further for the
+      influencer. That result survived clustering the errors by user, adding controls for gender, country and
+      follower count, adding user fixed effects, and matching treated and control users. Under the strictest
+      specification the gap was larger, not smaller.
+
+      The sheer imbalance in what people chose to talk about tells its own story, and it is in the takeaways above.
+      Nobody was tweeting about the biscuit company.
+
+  - h: "Not fame, and not money"
+    body: |
+      The obvious explanation is attribution: whoever looks most in charge gets the blame. The authors tested the
+      two versions of that and both failed.
+
+      The first was prominence. They built a fictional charity-fraud scenario and swapped the cast: a hugely famous
+      influencer or a small one, paired with a huge beauty retailer or a small brand. Four combinations, 401 people.
+      Prominence made no difference to attitudes toward either party, on its own or in combination.
+
+      The second was money, on the theory that the party with deeper pockets carries more responsibility. In a
+      second experiment the influencer was either a multimillionaire paired with a tiny startup, or nearly broke and
+      paired with a market leader. Attitudes toward the influencer did not shift at all. Attitudes toward the
+      company shifted slightly, but in a way that made no sense as an explanation, since it moved the same amount
+      whichever party had the money.
+
+      This is the part of the paper I respect most. Having lost both of their theories, the authors say so in print
+      and go back to the data rather than quietly reframing the paper around whatever turned up significant.
+
+  - h: "The press decides first"
+    body: |
+      What they had overlooked is that almost nobody learns about a scandal from the parties involved. They learn
+      about it from the press. And the question is not how much coverage there is, which tracks fame, but who the
+      coverage is about.
+
+      In the journalist tweets the split was not close. Having established that, the authors checked whether it was
+      a quirk of one Italian story by giving a fresh panel of reporters and editors an invented transgression by an
+      invented influencer and an invented company, with no follower counts and a deliberately gender-neutral name,
+      and asking them to write a headline and say who they would cover. Most chose the influencer. Their headlines
+      skewed negative, and the negative ones came disproportionately from the journalists who had chosen the
+      influencer.
+
+      Then they asked those journalists to explain themselves, and clustered the answers. Most of the reasoning came
+      down to the audience relating to a person rather than an organisation. Some was frank about traffic: a person
+      gives the story a face. One cluster the authors labelled gloating, and the quotes in it are unsparing about
+      how much more fun it is to watch a named human fall than a faceless company.
+
+      One more result closes the loop. Taking the daily average sentiment of journalists and consumers, journalists'
+      sentiment on one day predicted consumers' sentiment the next. The press was not reporting the mood. It was
+      setting it.
+    chart: attention
+
+  - h: "Change one name in the headline"
+    body: |
+      To prove that coverage is doing the work rather than merely accompanying it, the authors wrote a set of
+      headlines about an invented scandal and showed them to 298 people. Every headline was identical in wording,
+      tone and severity. The only thing that changed between conditions was which party was named in them.
+
+      That single edit moved how people judged the influencer, and left their judgement of the brand statistically
+      untouched. Being named is what costs you, and it costs an influencer in a way it does not cost a brand.
+
+      Why only the influencer? A follow-up with 301 people put four explanations in the same model, each drawn from
+      what the journalists had said: that consumers see through journalists' self-interest, that influencers are
+      held more accountable, that people enjoy the downfall, and that people identify with the influencer. Only
+      identification carried the effect. The measure is a neat one, a set of overlapping circles where you pick how
+      much of you overlaps with them. Media criticism shrank that overlap for the influencer, and the smaller the
+      overlap, the harsher the attitude.
+
+      So the mechanism is self-protective rather than moral. You liked her, you saw a bit of yourself in her, and
+      now she is in the paper for stealing from a children's hospital. The cheapest way to feel decent again is to
+      decide you were never really a fan.
+    chart: asymmetry
+
+  - h: "The way back is the interview you least want"
+    body: |
+      The final pair of studies is the practical payoff, and the answer is counterintuitive enough to be worth the
+      whole paper.
+
+      Three responses were tested, differing only in how much control the influencer keeps. Post to your own
+      followers and you keep all of it. Sit with a sympathetic journalist and you keep some. Sit with a journalist
+      who has been hard on you and you keep almost none.
+
+      Shown each version, 225 journalists were markedly less willing to tear into the influencer who had faced the
+      hostile interviewer, and markedly less generous to the one who had posted to followers. The numbers are in the
+      takeaways. Then 302 consumers saw coverage of each response, and their attitudes followed the same order.
+
+      The lesson runs against every instinct in crisis communications, where the standing advice is to control the
+      message, speak directly to your audience, and avoid anyone looking for a scalp. On this evidence, controlling
+      the message is exactly what makes it worthless. Submitting to scrutiny is the costly signal, and a costly
+      signal is the only kind that gets believed.
+
+      A note for brands, since most readers here sit on that side. The finding that the press shields you is not a
+      licence. It is a description of a risk you are handing to someone else, and the authors are blunt that it
+      should push companies toward better vetting, clearer contracts and shared accountability rather than relief.
+      My own view, going past what was tested: if your partner takes the beating for a campaign your legal team
+      approved, you will not get a third campaign out of anyone good.
+    chart: remedy
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Check every claim before it goes out", "Go through the post and find each claim a stranger could check: the donation, the health benefit, the percentage. Get the document that proves each one. If a claim has no document, cut the claim."]
+  - ["Agree who speaks if it goes wrong", "Before the campaign starts, write down who makes the first statement, how fast, and who approves it. Put it in the contract. Deciding this during a crisis takes days you do not have."]
+  - ["Put the proof inside the post", "Say the exact amount and the exact date. \"We gave £40,000 on 3 March\" cannot be misread. \"A share of proceeds\" can, and that is the sentence that gets you fined."]
+  - ["Send your partner the paperwork", "Give the influencer the figures, the dates and the receipts at the start. They will be the one answering questions, and they should not have to ring you first."]
+  - ["Take the hardest interview on offer", "If it breaks, go to the outlet that has been toughest on you. Do not go only to the friendly one, and do not just post to your own followers. The tougher the questioner, the more credit you get back."]
+  - ["Watch the press, not the comments", "Track what journalists are saying each day, not the replies under your posts. Coverage today tells you what the public will think tomorrow, so it is your early warning."]
+
+expect:
+  - "**The brand gets off lighter than it deserves.** Coverage concentrates on the person, and feeling toward the company shifts very little. Plan for the asymmetry rather than being relieved by it."
+  - "**Your partner may not come back.** An influencer who absorbs the damage for a campaign you signed off has every reason to decline the next one, and to tell others why."
+  - "**A friendly interview buys less than you think.** It sat between the hostile interview and the own-channel post on both journalist and consumer measures, closer to doing nothing."
+  - "**Legal clearance is not reputational clearance.** Both parties in the case had approved the wording. The fines and the backlash arrived anyway."
+
+limits:
+  - "**One real case, and an Italian one.** A beloved national figure, a Christmas product and a children's hospital. The experiments used invented actors and English-speaking panels, but the field evidence rests on a single story."
+  - "**The field data stays correlational.** The before-and-after design is well defended and the controls are thorough, but nobody randomised who got investigated."
+  - "**Attitudes, not sales.** Every experiment measures how people feel about the parties. None follows the money, the unfollows or the next quarter's revenue."
+  - "**It is about shared blame specifically.** Where fault is unambiguous, the older research on brand scandals and celebrity scandals is the better guide."
+
+faq:
+  - q: "When a brand and an influencer are both caught deceiving consumers, who takes the blame?"
+    a: "The influencer, and by a long way. Across a real Italian case and six experiments, consumer sentiment and attitudes dropped far more for the influencer than the company, and in some tests the company was not measurably affected at all (Nanni, Ulqinaku & Giannetti, 2026, Journal of the Academy of Marketing Science)."
+  - q: "Why does the influencer get the backlash rather than the brand?"
+    a: "Because the press writes about the person and because people identify with a person. Journalists in the study covered the influencer more and more harshly, and that coverage shrank how much consumers felt they had in common with her. Distancing themselves is how they stay comfortable with their own taste. A confectioner has no such hold on anyone."
+  - q: "Is it because influencers are more famous, or because companies have more money?"
+    a: "Neither, on this evidence. Both were tested directly by swapping a very famous influencer for an obscure one and by moving a large fortune from one party to the other. Neither manipulation changed how consumers judged the influencer."
+  - q: "What should an influencer do after a scandal like this?"
+    a: "Give an interview to whichever reporter has been toughest on them. In the tests this restored the most legitimacy with the press and produced the best consumer attitudes, beating both a sympathetic interview and a statement posted to their own followers, which came last."
+  - q: "Does the brand get away with it?"
+    a: "Largely, in terms of public attitudes, which is the uncomfortable finding here. The authors are careful to say this is not an invitation to offload risk onto a partner: it is an argument for vetting collaborators properly, writing shared accountability into contracts and planning the crisis response jointly before anything goes out."
+
+also:
+  - doi: "10.1016/j.jbusres.2026.116067"
+    title: "How moral brand transgressions impact perceptions of social media message credibility"
+    authors: "Connors, S., & Hingston, S. T."
+    journal: "Journal of Business Research"
+    year: 2026
+    text: >-
+      People say they do not trust social media as a news source, and yet brands get mauled there anyway. These
+      authors show the discount is selective. Learning about a moral failing on social media feels about as credible
+      as reading it in the news, while a merely functional failing gets the usual scepticism, and the credibility
+      that survives turns into outrage and a desire to see the brand punished. The channel you can dismiss stops
+      being dismissible the moment the story is about ethics.
+  - doi: "10.1007/s11747-025-01134-0"
+    title: "Beyond youth: The optimal age for influencer credibility and marketing success"
+    authors: "Galle, C., Lau, V., & Dost, F."
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2026
+    text: >-
+      Four preregistered studies find an inverted U for how old an influencer looks: the very young and the very old
+      both underperform, and the middle wins. The reason is a trade-off, since looking older raises credibility and
+      lowers attractiveness, and engagement needs both. AI disclosure, gender and the age of the audience all bend
+      the curve. Since apparent age is now something a creator can edit, it has quietly become a media-buying
+      variable.
+
+charts:
+  attention:
+    title: "Share of journalists' tweets about the case that named each party"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["The company", 4]
+      - ["The influencer", 96, true]
+    source: "Study 3: 20,120 tweets from accounts verified as journalists or news outlets, over the same window as the consumer data."
+  asymmetry:
+    title: "Consumer attitudes to each party when the headlines named one of them, out of 7"
+    scale: [0, 7]
+    step: 1
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["The influencer, when headlines named her", 1.89, true]
+      - ["The influencer, when they named the company", 2.25]
+      - ["The company, when headlines named it", 2.18]
+      - ["The company, when they named the influencer", 2.39]
+    source: "Study 5a: 298 participants. The headlines were identical in wording, tone and severity; only the name changed."
+  remedy:
+    title: "Consumer attitudes to the influencer after each kind of response, out of 7"
+    scale: [0, 7]
+    step: 1
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["A post to their own followers", 2.37]
+      - ["An interview with a friendly journalist", 2.70]
+      - ["An interview with a critical journalist", 2.78, true]
+    source: "Study 6b: 302 participants shown coverage of each response. Figures read from the paper's Figure 3."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
