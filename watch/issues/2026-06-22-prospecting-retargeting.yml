@@ -1,0 +1,250 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 24
+week_of: "2026-06-22"            # the week this issue covers (shown on the page, orders the archive)
+slug: prospecting-retargeting
+status: live
+
+title: "Does retargeting actually sell anything? What a Journal of Interactive Marketing study found"
+short_title: "The dashboard said 7.47. The experiment said nothing."
+dek: >-
+  A mattress company let two researchers move $5.7 million of its ad budget around 210 American media markets, then
+  counted the orders. Chasing people who had already visited the site produced no measurable sales at all.
+
+description: >-
+  Facebook reported a return of 7.47 on retargeting. A field experiment across 210 markets found the retargeting
+  budget could be cut to zero without losing a single order.
+
+keywords: [retargeting, prospecting ads, display advertising, attribution, return on ad spend, geo experiment,
+  incrementality testing, Facebook ads, Google Display Network, media budget allocation, frequency capping,
+  Journal of Interactive Marketing]
+topics: [Advertising, Research methods, Retail]
+
+image:
+  file: issue-24-prospecting-retargeting.jpg
+  og: issue-24-prospecting-retargeting-og.jpg
+  alt: "A busy pedestrian crossing photographed from directly above, with dozens of people walking in different directions and long hard shadows across the asphalt"
+  caption: "The audience that actually moved the numbers: people who had never been to the site. Photo: Ryoji Iwata on Unsplash."
+
+short_answer: >-
+  In the only experiment of its kind, no. Two researchers took over the display budget of a large mattress company
+  and randomly varied spending across 210 American media markets for two months, $5.7 million in all. Ads shown to
+  people who had never visited the site moved orders reliably on both Google and Facebook. Ads shown to previous
+  visitors moved nothing, at any budget level, not even going from nothing to half the usual spend. The platforms,
+  meanwhile, were reporting retargeting as the best money the company spent.
+
+takeaways:
+  - "Markets where Google retargeting was switched off entirely grew orders by 12.6%. Markets kept at the full budget grew 13.8%."
+  - "Prospecting behaved as advertising should: Facebook markets at zero grew 6.3%, markets at full spend grew 16.9%."
+  - "Someone who clicked a prospecting ad stayed in the retargeting pool for 45 days and took around two weeks to buy. The last ad they clicked got the credit."
+  - "At a 50% contribution margin the model puts the right Facebook prospecting budget at $2.46 million. The company was spending $3.53 million."
+
+paper:
+  doi: "10.1177/10949968261422740"
+  title: "Prospecting Versus Retargeting: Insights from a Geography-Based Field Experiment"
+  authors: ["Larson, J. S.", "Dotson, J. P."]
+  authors_full: ["Jeffrey S. Larson", "Jeffrey P. Dotson"]
+  year: 2026
+  journal: "Journal of Interactive Marketing"
+  volume: 61
+  issue: 3
+  pages: "257-274"
+  online: "2026-05-08"
+  open_access: false
+  licence: ""
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Almost nobody gets to run this experiment, because almost nobody will let a researcher switch off a working ad
+      channel. Jeffrey Larson and Jeffrey Dotson, both at Brigham Young University, persuaded a large
+      direct-to-consumer mattress company to let them do exactly that.
+
+      The setup is the kind of thing an agency talks about and never builds. They split the United States by Nielsen
+      media market, 210 of them, and assigned each market to one of 19 budget recipes. A recipe set the spend
+      separately for four things: Google ads to strangers, Google ads to previous site visitors, Facebook ads to
+      strangers, Facebook ads to previous visitors. Some markets got nothing in a channel, some got half the usual
+      budget, some the usual amount, some half again as much. Then everything ran untouched for nearly two months
+      while the orders came in.
+
+      In the industry's language, ads to strangers are prospecting and ads to previous visitors are retargeting. The
+      company, like the three agency heads the authors interviewed, was certain retargeting was the better buy. It
+      was certain enough that it refused to let the researchers raise the prospecting budget above normal, on the
+      grounds that spending more there would dilute the targeting.
+    facts:
+      - ["Design", "19 budget recipes assigned across 210 US media markets, about 10 markets per recipe"]
+      - ["Budget moved", "$5.7 million of display spend over nearly two months, against roughly $58 million of sales"]
+      - ["Four channels", "Google and Facebook, each split in two: ads to strangers, ads to people who had already been to the site"]
+      - ["Levels tested", "Nothing, half, normal, and half again, so saturation could be seen as well as lift"]
+      - ["Category", "Direct-to-consumer mattresses, average online order around $1,000"]
+
+  - h: "What the platforms were reporting"
+    body: |
+      Start with the numbers the company was actually managing to. During the experiment itself, the two platforms
+      reported their own returns on every dollar: Facebook claimed its retargeting ads were returning more than
+      three times what its prospecting ads returned, and Google reported retargeting ahead too.
+
+      Those figures had shaped years of decisions. They are also the reason the industry treats the combination of
+      prospecting and retargeting as a one-two punch, with retargeting doing the finishing. The belief is not
+      unreasonable on its face. Someone who has been to your website has told you something real about their
+      interest, and nobody in the prospecting pool has told you anything at all.
+
+      There was a quieter warning sign in the data, and the company had not read it. In the markets told to spend
+      half again as much on retargeting, the platforms could not actually spend the money. The pool of previous
+      visitors simply did not generate enough impressions to absorb it. A budget that cannot be spent is a budget
+      that was already too big.
+    chart: reported
+
+  - h: "What happened to the orders"
+    body: |
+      Now the part the platforms cannot see. Because budgets were set by geography and the company had never run
+      regional campaigns before, the markets work as controls for each other, and the order counts can simply be
+      compared.
+
+      On prospecting, more money meant more orders, cleanly and in both channels. On retargeting, nothing. Not a
+      smaller effect, nothing measurable at all, in either channel, at any level.
+
+      The detail that kills the obvious objection is the step from nothing to half. If retargeting were merely
+      oversold, if the company were buying the tenth impression when the second would have done, then cutting the
+      budget in half should still have hurt less than cutting it entirely, and the markets at half spend should sit
+      somewhere in between. They do not. Going from no retargeting at all to half the usual retargeting produced no
+      improvement that came anywhere near significance.
+
+      Two further results are worth having. Advertising in no channel changed how much people spent once they
+      decided to buy, only whether they bought. And the experiment was built to detect synergy between prospecting
+      and retargeting, the idea that prospecting fills the pool that retargeting then converts. No such interaction
+      showed up, though the authors are careful to say the test was underpowered even at this budget.
+    chart: measured
+
+  - h: "Why the dashboard was wrong"
+    body: |
+      The authors' explanation is mechanical, and once you see it you cannot unsee it. Someone sees a prospecting
+      ad, clicks, lands on the website, and does not buy, because nobody buys a mattress in an afternoon. For the
+      next fortnight they are shown retargeting ads constantly, and the ads work the way a shopfront works: they
+      recognise the product they are already thinking about, so sooner or later they click one. Then they buy. The
+      platform looks at that final click and awards itself the sale.
+
+      Retargeting, on this reading, is not causing purchases. It is standing next to them. And the longer the
+      purchase cycle, the more reliably it gets to stand there, which means the bias is worst in precisely the
+      categories where the stakes are highest.
+
+      There is a second reason, less about measurement and more about what an ad is for. If advertising works mostly
+      by telling people things they did not know, then the retargeting pool is the worst audience you have, because
+      they already went to your website and read it. The prospecting pool is the only group left who can still learn
+      something. That logic also puts a question mark over any channel that targets people the platform has already
+      judged likely to buy. The authors name Google's Performance Max as the obvious candidate for the same
+      flattering arithmetic.
+
+  - h: "What it costs, and what to do"
+    body: |
+      Turn the elasticities into money and the picture is uncomfortable for the budget as it stood. One extra order
+      cost far more through Facebook prospecting than through Google prospecting, and during the experiment Google
+      prospecting was the smallest of the four budgets at $0.76 million.
+
+      Run the same arithmetic on the other side and it says Google prospecting, which had been running at $1.79
+      million before the experiment, should have been somewhere near $4.14 million. More than double, into the
+      channel that was getting the least.
+
+      The authors are realistic about most firms not being able to run a test like this, so their fallback
+      recommendation is a single setting: frequency caps. Cap the retargeting and the spend falls without the
+      returns falling, since the returns were not there. Cap the prospecting and the same budget reaches more people
+      instead of the same people more often, which is what you want if information rather than persuasion is doing
+      the work.
+
+      One finding that the authors flag and I would underline: Google prospecting ads also lifted the company's
+      Amazon sales, where it had no ads at all and sold only its cheap accessories. People saw an ad, went looking,
+      and bought where they already had an account. Nothing in any dashboard would ever have shown that.
+    chart: cost
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Write down the two numbers", "Open your ad accounts and find what you spent last month on people who have already visited your site, and what you spent on people who have not. Write the two numbers side by side. Most teams have never seen them that way."]
+  - ["Check how long people take to buy", "Find the gap between a first visit and a purchase. If it is longer than a few days, the ads shown during that gap are collecting credit they did not earn."]
+  - ["Cap how often you chase people", "Set a frequency cap on your retargeting: three or four times a week per person, no more. Make the change this week. Your spend will drop straight away."]
+  - ["Move that money to strangers", "Put everything the cap saves into reaching people who have never been to your site. Move it in one go. Dripping it across both audiences tells you nothing."]
+  - ["Switch it off in a few cities", "Pick five cities. Turn retargeting off completely there for a month and change nothing else. Leave five similar cities running as they are."]
+  - ["Count orders, not return on spend", "Add up total orders in the five test cities and compare them with the five you left alone. Ignore the return-on-spend figure in your dashboard, because that is the number you are testing."]
+
+expect:
+  - "**A smaller bill before you see anything else.** Capping retargeting cuts spend immediately. The orders are the slow part, so give it a month before judging."
+  - "**Your reports will look worse while your business does not.** Credit moves away from the channel that was claiming it, so reported returns fall even if total orders hold or rise."
+  - "**Prospecting pays off on a delay.** Here the typical gap between first visit and purchase was a fortnight, so a week of data will show you the cost and none of the benefit."
+  - "**It changes who buys, not how much they spend.** No channel in this experiment shifted order value, so do not expect a bigger basket out of a budget move."
+
+limits:
+  - "**One advertiser, one category.** A high-priced mattress bought after weeks of thinking. Cheap, impulsive, repeat purchases may behave differently, and the authors say so."
+  - "**Collected in 2019.** Before Apple's tracking prompt and the wider privacy changes, which have since made retargeting pools smaller and blunter rather than better."
+  - "**The budget only went down.** The client refused to let prospecting rise above normal, so the case for spending much more there is an extrapolation from the measured elasticity, not a tested result."
+  - "**No synergy found is not no synergy.** The test for prospecting feeding retargeting had standard errors wide enough that only an enormous effect would have registered."
+
+faq:
+  - q: "Does retargeting work?"
+    a: "In the one large field experiment that has measured it against sales rather than clicks, no. Turning retargeting off entirely in a randomly assigned set of American media markets left order volumes indistinguishable from markets running it at full budget (Larson & Dotson, 2026, Journal of Interactive Marketing). That is one advertiser in one category, so it is a warning rather than a verdict."
+  - q: "Why does my dashboard show such a high return on retargeting?"
+    a: "Because a retargeting ad is usually the last ad a buyer clicks, and the platform credits the last click. Someone who visited your site weeks ago and is already going to buy will see and click your retargeting ads in between, which makes the channel look decisive when it is merely present."
+  - q: "Should I stop retargeting completely?"
+    a: "Nothing here shows retargeting does harm, only that it was not adding sales in this case, and it was absorbing a budget that could not even be fully spent. The proportionate move is an aggressive frequency cap rather than a shutdown, with the saved money redirected and the result measured."
+  - q: "Is prospecting on Google or Facebook better value?"
+    a: "In this experiment Google prospecting had both the stronger effect on orders and by far the smallest budget, which is the combination that makes a channel underfunded. Facebook prospecting worked too, but each extra order cost roughly three times as much."
+  - q: "How can I test this on my own account without a research team?"
+    a: "Use geography. Switch the channel off in a handful of similar cities, leave comparable cities untouched, hold everything else constant for a month, and compare total orders rather than platform-reported returns. That is the whole method, and it needs no modelling."
+
+also:
+  - doi: "10.1287/mksc.2024.0813"
+    title: "Automated Targeted Bidding for Sponsored Ads on E-Commerce Platforms"
+    authors: "Saremi, E., & Subramanian, U."
+    journal: "Marketing Science"
+    year: 2026
+    text: >-
+      A modelling paper on what happens when a marketplace bids for sponsored slots automatically, adjusting each bid
+      to how likely a given shopper looks to buy. Sellers respond by raising their prices, competition for placements
+      softens, and conversion rates can fall even as the targeting gets sharper. The platform tends to lose ad
+      revenue and gain commission, so whether it comes out ahead depends on its commission rate. Sharper targeting is
+      not the same as a healthier marketplace.
+  - doi: "10.1080/00218499.2026.2654851"
+    title: "Why Some Shoppable Ads Persuade: Expectancy Violations and Ad Value Across Streaming TV and Social Media"
+    authors: "Ji, A., Nelson, M. R., & Sun, R."
+    journal: "Journal of Advertising Research"
+    year: 2026
+    text: >-
+      Ads you can buy from directly surprise people, and the surprise cuts both ways: interviews turned up praise for
+      convenience and information alongside complaints about intrusion. Across streaming television and social media
+      the format read as more unexpected and more negative overall, yet it landed better on streaming than in a
+      social feed. Where the viewer came looking for information, the reaction turned positive.
+
+charts:
+  reported:
+    title: "What each platform reported it returned, per dollar spent, during the experiment"
+    scale: [0, 8]
+    step: 1
+    unit: "x"
+    decimals: 2
+    bars:
+      - ["Google, ads to strangers", 0.99]
+      - ["Google, ads to past visitors", 1.27]
+      - ["Facebook, ads to strangers", 2.21]
+      - ["Facebook, ads to past visitors", 7.47, true]
+    source: "The platforms' own attribution during the experimental period. Facebook retargeting spent $1.5m, Google retargeting $1.2m."
+  measured:
+    title: "Measured effect of each channel on order volume (advertising elasticity)"
+    scale: [0, 0.2]
+    step: 0.05
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Google, ads to strangers", 0.153, true]
+      - ["Facebook, ads to strangers", 0.091, true]
+      - ["Facebook, past visitors (not detectable)", 0.033]
+      - ["Google, past visitors (not detectable)", 0.008]
+    source: "Model 1, aggregated to the 19 experimental conditions. The two prospecting figures were significant at p = .001; neither retargeting figure came close."
+  cost:
+    title: "Extra advertising spend needed to produce one more order, in dollars"
+    scale: [0, 800]
+    step: 200
+    unit: "$"
+    decimals: 0
+    bars:
+      - ["Google, ads to strangers", 216, true]
+      - ["Facebook, ads to strangers", 717]
+    source: "Applied to the pre-experiment spending levels. Average online order value was about $1,000."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
