@@ -1,0 +1,256 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 23
+week_of: "2026-06-15"            # the week this issue covers (shown on the page, orders the archive)
+slug: review-photo-quality
+status: live
+
+title: "Why do five-star reviews come with better photos? What a Journal of Marketing Research study found"
+short_title: "Nobody styles a photo of a bad cookie"
+dek: >-
+  Six studies, three hidden cameras and two cookies that looked identical. People photograph what they like with
+  care and what they hate in a hurry, and that quiet difference decides which reviews a platform pushes up the page.
+description: >-
+  Judges called 72.3% of the photos in positive Amazon reviews well composed, against 39.7% of those in negative
+  ones. Nobody stages a complaint.
+
+keywords: [user-generated photos, review photos, online reviews, review helpfulness, visual UGC, customer photos,
+  image quality, Amazon reviews, Yelp reviews, word of mouth, review valence, Journal of Marketing Research]
+topics: [UGC, Creative, Retail]
+
+image:
+  file: issue-23-review-photo-quality.jpg
+  og: issue-23-review-photo-quality-og.jpg
+  alt: "A phone held over a styled plate of tacos, the dish filling the camera screen in sharp colour while the real plate blurs behind it"
+  caption: "The part of a review nobody studies: the thirty seconds before the shutter. Photo: Karolin Baitinger (Bakd&Raw) on Unsplash."
+
+short_answer: >-
+  Because people put real effort into photographing something they are pleased with, and almost none into
+  photographing something that annoyed them. Six studies tracked that effort directly, including hidden cameras in a
+  lab and nearly 670,000 real reviews. On Amazon, independent judges called 72.3% of the pictures in positive
+  reviews well composed, against 39.7% of the pictures in negative ones. Better pictures then read as more helpful,
+  which quietly lifts the reviews that need the help least.
+
+takeaways:
+  - "Ten props sat on each desk for staging the shot. People worked 4.64 of them into the picture of the cookie they liked, and 2.97 into the shot of the one they disliked."
+  - "On Yelp, 83.8% of photos in positive restaurant reviews were judged well composed, against 55.3% in negative ones."
+  - "Negative reviewers crop tighter: 66% of their photos showed a whole shoe, against 75% for positive reviewers."
+  - "Amazon reviews carrying a photo averaged 5.27 helpful votes. Reviews without one averaged 0.57."
+
+paper:
+  doi: "10.1177/00222437261450925"
+  title: "Picture This: How Review Valence Shapes the Quality and Helpfulness of User-Generated Photos"
+  authors: ["Xue, J.", "Melumad, S."]
+  authors_full: ["Jiani Xue", "Shiri Melumad"]
+  year: 2026
+  journal: "Journal of Marketing Research"
+  online: "2026-05-04"
+  open_access: true
+  licence: "CC BY 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Plenty of research asks what a photo does to a review once it is posted. Almost none asks where the photo came
+      from. Jiani Xue, writing as an independent researcher, and Shiri Melumad of the Wharton School went after the
+      thirty seconds before the shutter.
+
+      Their argument is simple enough to state in a line. Taking a decent picture is work, you have to frame it,
+      clear the clutter, find the light, and people are willing to do that work for something they like and not for
+      something they resent. So the pictures attached to praise come out better than the pictures attached to
+      complaints, and because better pictures read as more useful, the whole review inherits the difference.
+
+      They tested it six ways: a large online experiment where people photographed their own clothes, a lab study
+      where the product was held visually identical and the participants were filmed without knowing it, two studies
+      where strangers rated the resulting pictures, and finally two very large piles of real reviews from Amazon and
+      Yelp. Picture quality was never judged by the authors. It came from independent human raters, from MUSIQ, a
+      deep learning scorer trained on smartphone photography, and from GPT-4o prompted to react like an ordinary
+      shopper.
+    facts:
+      - ["Studies", "Six: two on effort, two on how observers react, two on real review data"]
+      - ["People in the lab and online", "4,218 across the controlled studies, from Prolific, CloudResearch and a university lab"]
+      - ["Real reviews analysed", "348,108 Amazon reviews of 500 products, plus 321,829 Yelp reviews of 186 Los Angeles restaurants"]
+      - ["Photos rated", "Over 100,000 by algorithm, thousands more by recruited human judges"]
+      - ["Three ways to score a picture", "Human judges, the MUSIQ deep learning model, and GPT-4o acting as a shopper"]
+
+  - h: "One thing you love, one thing you regret buying"
+    body: |
+      The first study asked 1,313 people to do the same task twice. Find a piece of clothing or an accessory you are
+      really happy with, write a review of it, photograph it. Then do it again for something you are really unhappy
+      with. Same person, same phone, same room, so the only thing that moved was how they felt about the object in
+      front of them.
+
+      Effort moved with the feeling. Asked how much care they had taken, whether they staged the shot, whether they
+      minded about quality, they came out at 4.65 out of seven for the garment they were pleased with and 4.18 for
+      the garment they regretted. They also took more frames before settling on one, 2.12 against 1.95.
+
+      Then the pictures went out to independent judges who had no idea which review each came from. They rated the
+      photos of liked items higher, 3.56 against 3.29. Small numbers, and the same direction turned up in both
+      machine scores. A real gap, running quietly through everyone's camera roll.
+
+  - h: "The cookie test"
+    body: |
+      This is the study worth retelling at dinner. 144 students were sat at desks with two cookies in front
+      of them, labelled A and B. The cookies looked the same. One had been baked to taste good, the other baked to
+      taste bad. On each desk was a box of props from a fictional bakery: pinecones, dried leaves, dried flowers,
+      decorative paper.
+
+      Participants tasted, wrote a review, then photographed each cookie for the review. What they were not told
+      until afterwards was that three cameras were filming the desk. A research assistant later sat with a stopwatch
+      and timed, for each cookie, how long each person had their phone camera open.
+
+      The gap was not subtle. Self reported effort came in at 4.10 for the good cookie and 2.88 for the bad one, and
+      the stopwatch backed it up. Judges then called 58.9% of the good cookie photos well composed against 30.1% of
+      the bad cookie photos, which is the part that matters most. The two cookies were visually identical. Nobody can
+      argue the better pictures came out better because the subject was prettier.
+    chart: time
+
+  - h: "Why a better picture is a more useful picture"
+    body: |
+      So far this is a story about photographers. The next two studies turn it around and look at the person
+      scrolling.
+
+      347 observers were shown photos of shoes taken for real positive and negative reviews, with the review text
+      above each one. They rated the positive-review photos higher on overall quality, 4.25 against 3.73, and, more
+      interestingly, reported more trust in the person who took them, 4.92 against 4.72. Helpfulness followed the
+      same line, 5.40 against 5.14. Two things are happening at once: a well made picture is easier to take in, and
+      visible effort makes the reviewer look like someone worth listening to.
+
+      The obvious objection is that nice shoes photograph nicely. So the authors took twenty photos that judges had
+      already agreed were good, half showing attractive shoes and half unattractive ones, and ran each through
+      PowerPoint to make a degraded twin: blurred, off centre, exposure pushed around. Fresh observers rated one
+      image each for helpfulness.
+
+      Degrading the picture cost it a lot of helpfulness. How appealing the shoes were made no difference at all,
+      and it did not interact with image quality either. The craft of the photograph was doing the work, not the
+      product in it.
+    chart: degraded
+
+  - h: "Nearly 670,000 reviews say the same thing"
+    body: |
+      Then the field data, and here the scale changes completely. Eight years of Amazon reviews covering shoes, bags
+      and hats, of which 24,996 came with at least one product photo. Nineteen years of Yelp reviews covering
+      restaurants across greater Los Angeles, of which 82,472 came with photos.
+
+      Both datasets replicated the pattern on every measure. Star ratings and GPT-scored picture quality moved
+      together on Amazon, a correlation of .34, and on Yelp, .21. The MUSIQ scores leaned the same way, 63.23 for
+      positive Amazon reviews against 61.26 for negative ones. Human judges, shown a sample with no idea where each
+      picture came from, agreed.
+
+      The last study asks what this does to a ranking. Reviews with photos collect more helpful votes, that much was
+      already known. And negative reviews have always collected more helpful votes than positive ones, which is also
+      old news. The new finding is what happens when you put those two facts together. On Amazon, adding photos to
+      the picture did not just weaken the old negative relationship between star rating and helpfulness. It flipped
+      it. Among reviews with images, the more positive the review, the more helpful votes it got. On Yelp the same
+      interaction appeared but was not strong enough to reverse anything, only to soften it.
+    chart: pleasing
+
+  - h: "What a review page is actually showing you"
+    body: |
+      Put the chain together: a happier customer takes more care, more care makes a better picture, a better picture
+      reads as more helpful and more trustworthy, more helpful votes buy a higher position on the page. Nobody
+      designed that. It falls out of how people feel about holding a camera.
+
+      Two consequences follow for anyone running a review page or reading one. The first is a measurement problem.
+      If your platform ranks on helpful votes, it is partly ranking on how motivated your reviewers felt, and that
+      favours the praise. The second is a judgement problem, and it is the one I would put on a wall. A blurry,
+      badly lit, awkwardly cropped photo of a fault is not weak evidence. It is evidence that nobody bothered to
+      dress it up. The polish of a picture tells you about the mood of the person holding the phone, not about
+      whether the product works.
+
+      Going beyond what was tested here, the same logic should reach any user content you solicit: unboxing clips,
+      before and after shots, case study photos from clients. The material you get back will be prettiest from the
+      people who needed least convincing. There is also a note for service teams, since Yelp reviewers wrote about
+      three times as many words as Amazon reviewers, 81.74 against 28.05. Where the experience is complicated,
+      people fall back on language, and the photo carries less of the load.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Ask the happy customers", "Pull a list of everyone who gave you four or five stars in the last 30 days. Ask only those people for a photo. Asking an unhappy customer for one gets you a bad photo or no photo."]
+  - ["Decide the one shot you want", "Write down the picture you want in a single sentence. Say what is in it and where it is. If you need two sentences, you are asking for two photos, so pick one."]
+  - ["Show them one example", "Put one good photo straight into the request. People copy what they can see. A description on its own gets you something else."]
+  - ["Give three rules and stop", "Tell them: daylight, plain surface, the whole product in the frame. Three rules. Any more and they stop reading."]
+  - ["Send it within three days", "Send the request within three days of the purchase or the visit, while they still feel good about it. Wait two weeks and the feeling has gone flat."]
+  - ["Count what comes back each month", "Count how many photos you get per hundred requests. Change one line of the request next month, and only one, so you know what moved the number."]
+
+expect:
+  - "**The gallery you build will flatter you.** Your best pictures will come from your most satisfied customers, so the page will look better than your average experience actually is."
+  - "**Photo requests convert poorly in absolute terms.** You are asking for work, not a click. Measure per hundred requests and expect a small number."
+  - "**Polish is not proof.** A good-looking photo earns trust the facts behind it may not deserve. Train your team to read a scrappy complaint photo as undressed, not as unfounded."
+  - "**It will not soften the words.** The process behind writing a review runs separately from the one behind photographing it, so a photo request does not improve the text that comes with it."
+
+limits:
+  - "**A short list of categories.** Clothes, shoes, bags, hats, cookies and restaurant meals. Nothing here tests services with no physical object to photograph."
+  - "**Quality was scored, not experienced.** Pictures were rated by recruited judges and two algorithms, which is consistent and repeatable but not the same as a shopper glancing at a thumbnail for a second."
+  - "**The field patterns are associations.** The causal claims rest on the experiments. Amazon and Yelp add scale and realism, with controls, not proof of cause."
+  - "**Helpful votes are not sales.** Every outcome measured here is a judgement of helpfulness or a vote, never a purchase, a return or a refund."
+
+faq:
+  - q: "Why are the photos in positive reviews better than the photos in negative reviews?"
+    a: "Because the person taking them is willing to do more work. Across six studies, people who felt positive about a product staged the shot more, took more frames and spent longer with the camera open, and the resulting pictures were rated higher by judges who did not know which review they came from (Xue & Melumad, 2026, Journal of Marketing Research)."
+  - q: "Do photos make an online review more helpful?"
+    a: "Yes, consistently. Yelp reviews carrying at least one photo averaged 2.05 useful votes against 0.68 for reviews without one, and the same gap appeared in the Amazon data. The size of the benefit depends on how good the photo is."
+  - q: "Should a brand ask customers to add photos to their reviews?"
+    a: "Yes, and the people most likely to deliver a usable picture are the ones already pleased with you. The practical catch is that this skews your visual evidence towards praise, so a thin and scruffy photo record on a complaint is not a sign the complaint is weak."
+  - q: "Does a better photo make the reviewer seem more trustworthy?"
+    a: "It does. Observers rated the people who took higher-quality photos as more worth listening to, and that trust was one of the two routes by which picture quality raised perceived helpfulness. The other was simply that a well-composed picture is easier to process."
+  - q: "Is it just that nicer products photograph better?"
+    a: "No, and two studies were built to rule that out. One used two cookies that looked identical and differed only in taste. The other took the same photographs and degraded copies of them, and found that image quality drove perceived helpfulness while the appeal of the product shown made no difference."
+
+also:
+  - doi: "10.1108/jrim-07-2025-0437"
+    title: "When reviews tell the truth: the power of verified purchase ratings"
+    authors: "Kim, D., & Park, K."
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2026
+    text: >-
+      Before a platform started marking which reviews came from people who had actually bought the thing, star
+      ratings were a poor guide to box office takings. After it did, they started to track. Verification seems to
+      make reviewers more measured, and the badge counted for most where buyers had little else to go on. In a
+      category nobody can judge before purchase, the badge may be carrying more weight than the stars.
+  - doi: "10.1016/j.ijresmar.2026.04.004"
+    title: "Passive voice in consumer complaints reveals fault attribution and predicts escalation"
+    authors: "Sepehri, A., Duclos, R., & Berger, J."
+    journal: "International Journal of Research in Marketing"
+    year: 2026
+    text: >-
+      Across more than 160,000 complaints filed with the US Consumer Financial Protection Bureau, the people who
+      wrote in the passive voice, as in "my account was charged", were markedly likelier to reject the resolution
+      they were offered. Experiments explain why: passive constructions increase as blame shifts from the customer
+      to the company. The grammar is a tell, and a machine can read it, so a service queue could be triaged on it
+      before anyone picks up a phone.
+
+charts:
+  time:
+    title: "Seconds spent with the camera open, by how the cookie tasted"
+    scale: [0, 25]
+    step: 5
+    unit: " seconds"
+    decimals: 2
+    bars:
+      - ["The cookie that tasted bad", 13.70]
+      - ["The cookie that tasted good", 19.88, true]
+    source: "Study 2: 118 usable recordings, timed by a research assistant from three camera angles."
+  degraded:
+    title: "How helpful observers found a photo, before and after it was degraded"
+    scale: [0, 7]
+    step: 1
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["The same picture, blurred and off centre", 3.52]
+      - ["The picture as taken", 4.89, true]
+    source: "Study 3b: 401 observers, one image each, 20 original photos and 20 degraded twins."
+  pleasing:
+    title: "Share of review photos judges called pleasing to look at"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Amazon, negative review", 24.0, true]
+      - ["Amazon, positive review", 67.0]
+      - ["Yelp, negative review", 38.8]
+      - ["Yelp, positive review", 73.5]
+    source: "Study 4a: 1,200 photos sampled from each platform, rated by recruited judges blind to the review."
+
+related_pages: [measuring-consumer-engagement-social-media-content, social-media-communication-brand-perceptions]
