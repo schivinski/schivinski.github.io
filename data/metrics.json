@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-14",
+ "as_of": "2026-10-15",
  "scholar_snapshot": "2026-10-10",
  "baseline": "2026-10-10",
  "h_index": 33,
@@ -28,7 +28,7 @@
   "10.1016/j.jclepro.2024.143452": 69,
   "10.3727/152599518x15403853721268": 66,
   "10.1186/s12888-022-03708-6": 64,
-  "10.3390/su15031917": 58,
+  "10.3390/su15031917": 59,
   "10.1016/j.abrep.2021.100391": 55,
   "10.1016/j.abrep.2022.100426": 51,
   "10.1002/cb.1988": 50,
@@ -61,7 +61,7 @@
   "t:implementing secondorder cfa model for the factorial validity of brand equity": 9,
   "t:smart tv users and interfaces whos in control": 8,
   "10.1123/jege.2023-0033": 8,
-  "10.1080/0144929x.2025.2504510": 6,
+  "10.1080/0144929x.2025.2504510": 7,
   "10.1108/jpbm-04-2025-5959": 6,
   "10.15611/aoe.2019.2.09": 5,
   "t:wymiary kapitau marki jako moderatory zwizku pomidzy kapitaem marki bazujcym na ": 5,
@@ -152,7 +152,7 @@
    "need": 11,
    "per_month": 0.37,
    "velocity_source": "openalex",
-   "months_to_cross": 29.4,
+   "months_to_cross": 29.5,
    "year": 2024,
    "title": "What if utilitarian products are regarded as high-status? The moderate role of iconic and popular as two dimensions of brand Coolness"
   },
@@ -162,7 +162,7 @@
    "need": 10,
    "per_month": 0.29,
    "velocity_source": "openalex",
-   "months_to_cross": 35.0,
+   "months_to_cross": 35.1,
    "year": 2022,
    "title": "Online Gambling Disorder Questionnaire (OGD-Q): An item response theory examination"
   },
@@ -172,7 +172,7 @@
    "need": 9,
    "per_month": 0.1,
    "velocity_source": "openalex",
-   "months_to_cross": 89.0,
+   "months_to_cross": 89.2,
    "year": 2019,
    "title": "The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish Restaurant Sector"
   },
@@ -182,7 +182,7 @@
    "need": 9,
    "per_month": 0.04,
    "velocity_source": "openalex",
-   "months_to_cross": 252.7,
+   "months_to_cross": 256.0,
    "year": 2021,
    "title": "Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scoping Review"
   },
