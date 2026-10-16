@@ -1,0 +1,258 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 27
+week_of: "2026-07-13"            # the week this issue covers (shown on the page, orders the archive)
+slug: bad-review-experience
+status: live
+
+title: "Can a bad review make your product worse? What a Journal of Marketing Research study found"
+short_title: "The review keeps working after the sale"
+dek: >-
+  Everyone knows a bad review costs you the sale. This one shows it also ruins the thing for the people who buy
+  anyway. Good reviews, meanwhile, do nothing at all to make the experience better.
+
+description: >-
+  People who read bad reviews before listening paid $17.29 to see a show, against $20.45 for people who read none.
+  The review changes the experience, not just the purchase.
+
+keywords: [negative reviews, online reviews, consumer experience, negativity bias, review management, word of mouth,
+  customer satisfaction, product experience, review response, post-purchase experience, willingness to pay,
+  Journal of Marketing Research]
+topics: [UGC, Retail, Service]
+
+image:
+  file: issue-27-bad-review-experience.jpg
+  og: issue-27-bad-review-experience-og.jpg
+  alt: "A pair of eyeglasses held up in front of an optician's eye chart, the letters sharp through the lenses and blurred everywhere else"
+  caption: "The authors' own phrase for it is a negative lens. Once it is on, everything you look at wears it. Photo: David Travis on Unsplash."
+
+short_answer: >-
+  Yes, for the customer who buys it anyway. Across five experiments and six more in the appendix, people who read
+  negative reviews before using a product enjoyed it less than people who used the same product having read
+  nothing. Not merely rated it lower, enjoyed it less, which the authors establish with a design that separates the
+  two. Positive reviews did not work in reverse: people who read them had the same experience as people who read
+  none. Bad reviews are the only ones that follow the customer home.
+
+takeaways:
+  - "Shown part of a ventriloquist show, people who had read bad reviews would pay $17.29 to see the rest. People who read none would pay $20.45."
+  - "Even readers who saw the bad reviews only after finishing the book rated it 2.87 out of 5, against 3.41 for those who saw none."
+  - "One bad review among three good ones dragged ratings from 3.58 to 3.32. One good review among three bad ones moved nothing, 2.60 against 2.61."
+  - "The effect survived a full day's gap: reviews read 24 hours before the experience still cost the product 3.06 against 3.81."
+
+paper:
+  doi: "10.1177/00222437261457045"
+  title: "Haunted by a Bad Review: The Afterlife of Reading (Negative) Reviews in Consumer Experience"
+  authors: ["Yadin, D.", "Munichor, N.", "Williams, E. F.", "Stockheim, I."]
+  authors_full: ["Dena Yadin", "Nira Munichor", "Elanor F. Williams", "Inbal Stockheim"]
+  year: 2026
+  journal: "Journal of Marketing Research"
+  online: "2026-05-26"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Research on reviews stops at the till. We know a great deal about how reviews move purchases and almost
+      nothing about what they do afterwards, because of an unspoken assumption that once you have the thing in your
+      hands, your own senses take over.
+
+      Dena Yadin, Nira Munichor, Elanor Williams and Inbal Stockheim went looking for the afterlife. Their setup is
+      the same every time and it is the right one: everybody gets the identical product, and the only thing that
+      differs is which reviews they read first. Any difference in how much they enjoy it therefore belongs to the
+      reviews and not to the thing itself.
+
+      Across the main studies people watched music clips, read a book excerpt, listened to a holiday song and
+      watched part of a ventriloquist act. The supplementary studies add earbuds, a virtual tour and an origami kit.
+      The reviews were real, written by earlier participants who had genuinely rated the same material, which
+      matters: these are not researcher-written caricatures of a bad review.
+
+      Their survey work also establishes that this is not a rare situation. Most people read reviews after buying,
+      after being given something as a gift, and during or after using a product.
+    facts:
+      - ["Main studies", "Five, plus six supplementary replications and several more reported in the appendix"]
+      - ["People", "4,291 across the five main studies alone, recruited through Prolific"]
+      - ["Design", "Everyone experiences the identical product; only the reviews they read beforehand change"]
+      - ["Reviews used", "Real reviews written by earlier participants, shown with a two-star or four-star average"]
+      - ["Measured", "Star rating, a five-item enjoyment index, what people recalled, what they wrote, and what they would pay"]
+
+  - h: "Bad reviews work. Good ones do not."
+    body: |
+      Study one put 719 people in front of one of two music clips, one pretested as better and one as worse, after
+      showing them five negative reviews, five positive reviews, or nothing at all.
+
+      Those who saw the negative set came away liking the clip less than the group shown no reviews at all. The
+      positive set landed its readers exactly where that no-review group sat, with a gap nowhere near significance. That
+      lopsidedness is the finding the whole paper is built on.
+
+      It held for the good clip and the bad clip alike, with no interaction between them, and that is what rules out
+      the comfortable explanation. If this were about expectations being met or missed you would expect
+      bad reviews attached to a good product to produce a pleasant surprise. They did not. The experience bends
+      towards the review rather than away from it.
+
+      Six supplementary studies then tried to break it and failed. Framing the product as useful or as fun, letting
+      people choose it or assigning it, matching the positive and negative reviews word for word so only the valence
+      differed, using one-star and five-star extremes, and inserting delays of minutes and then of a full day. Every
+      one reproduced the same shape.
+    chart: asymmetry
+
+  - h: "It is the experience, not the write-up"
+    body: |
+      Here is the obvious objection, and the authors take it seriously enough to build a study around it. Maybe
+      nobody's experience changed at all. Maybe people simply adjust what they say to match what everyone else
+      said.
+
+      So study two gave 999 people the same book excerpt and varied only when the bad reviews appeared: before
+      choosing a book, after choosing but before reading, halfway through, or after finishing and just before giving
+      a rating. That last group cannot have had their reading experience altered, since the reading was over. Any
+      drop in their ratings is pure reporting.
+
+      Their ratings did drop, which tells you conformity is real. But they dropped less than everyone else's. The
+      people who read the reviews before or during their reading came out at 2.60 to 2.68, while the people who read
+      them at the end came out at 2.87. Reporting explains part of this and cannot explain all of it.
+
+      One more thing worth lifting out of that study. Reading the reviews halfway through was as damaging as reading
+      them at the start. The lens fits at any point you put it on.
+
+  - h: "One is enough"
+    body: |
+      In the real world reviews are mixed, and the practical question is whether one bad one among several good ones
+      actually matters. Study three, with 597 people, answered it cleanly by holding the set size at four and
+      changing only the fourth review.
+
+      Swapping one of four positive reviews for a negative one pulled ratings down measurably. Swapping one of four
+      negative reviews for a positive one did nothing whatsoever. The two conditions came out a hundredth of a point
+      apart.
+
+      That is negativity dominance in its purest form, and it is the result I would put in front of anyone who
+      believes a wall of five-star reviews provides cover. It does not. The one-star review in the middle of it is
+      still doing its work on the person who buys.
+
+  - h: "What is actually going on"
+    body: |
+      Study four explains the mechanism, and the measure is elegantly simple. After listening to a holiday song,
+      376 people were asked to quickly list five things they remembered about it, then to mark each one as something
+      they liked or disliked.
+
+      Everybody listed five things. What changed was how many of them were complaints. The people who had read
+      negative reviews filled more of their five slots with things they disliked, and that proportion statistically
+      carried the effect through to how much they said they enjoyed the song.
+
+      So the reviews are not planting an opinion. They are redirecting attention. You go in primed to notice the
+      thin vocal and the cheap drum machine, you duly notice them, and a song made of the same notes as everyone
+      else's comes out worse. The authors call it a negative lens, and the lens is made of what you are looking for.
+
+      There is a second-order effect here that marketers should sit with. Everyone in these studies wrote a review of
+      their own afterwards, and the ones primed by complaints wrote harsher ones. The thing feeds itself.
+    chart: recall
+
+  - h: "The fix costs one sentence"
+    body: |
+      Study five is the practical one, and the intervention is almost insultingly cheap. 1,600 people read either
+      positive or negative reviews before hearing the song. Half of them were additionally told, in advance, that
+      reviews can colour an experience and asked to reach their own verdict.
+
+      For the half who had seen the complaints, that single prompt recovered a good share of the loss. Among the
+      people who read positive reviews it changed nothing at all, which is what makes it safe to deploy: it cannot
+      cost you anything on the products whose reviews are already good.
+
+      Timing is the catch. The prompt has to arrive before the impression forms, not after, because negativity is
+      famously hard to dislodge once it has taken hold. In practice that means the gap between the order and the
+      first use, which for most businesses is the confirmation email, the packaging insert or the first screen of an
+      app.
+
+      Going past what was tested, the implication for review management is broader than it looks. The usual
+      cost-benefit on replying to a bad review is about the next prospect reading the thread. This paper says
+      there is a second bill arriving: the people who read it, bought anyway, and will now enjoy your product less
+      and write a worse review because of it. That changes which reviews are worth answering and how quickly.
+    chart: remedy
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Read what your buyers actually read", "Open your own product page as a shopper would. Note the three reviews shown first. Those are the ones doing the work, not your average score."]
+  - ["Sort the complaints into two piles", "Go through those reviews and mark each complaint as a fact you can fix, like it arrived late or the strap broke, or a matter of taste, like too sweet or too loud. The first pile is a product job. The second pile needs the steps below."]
+  - ["Write one line inviting them to judge", "Put a single sentence in the order confirmation or on the box. Tell the customer that other people's opinions are only opinions and ask them to make up their own mind. One sentence. Do not mention any review and do not sound defensive."]
+  - ["Answer the worst review in public", "Reply underneath the most visible negative review in two or three lines, naming what you changed. The next person reads the complaint and the answer at the same moment."]
+  - ["Send the line before they open the box", "The message only works in the gap between buying and first use. Once they have tried it, the impression is set and the line is wasted."]
+  - ["Track returns and second orders", "Watch returns, refunds and repeat purchase on the products carrying the worst visible reviews. Damage done after the sale shows up there, never in your conversion rate."]
+
+expect:
+  - "**Good reviews will not do the opposite job.** Collecting more five-star reviews protects the sale, but it buys you nothing in the experience itself. Only the bad ones carry over."
+  - "**The harm reaches people who never bought.** Anyone who reads the reviews and then uses the product, a guest, a gift recipient, a colleague, carries the same lens in."
+  - "**It compounds through the next review.** Readers of negative reviews wrote more negative reviews themselves, which is how one complaint becomes a trend line."
+  - "**The prompt is free to try and hard to get wrong.** It helped where the reviews were bad and did nothing where they were good, so the downside in the tests was zero."
+
+limits:
+  - "**Short experiences, not long ownership.** Music clips, a book excerpt, a song, part of a show, earbuds and an origami kit. Nothing here runs over the months of living with a purchase."
+  - "**Mostly self-reported enjoyment.** The willingness-to-pay study is the one behavioural outcome. The rest is what people say about the experience, however carefully the design separates that from the experience."
+  - "**Online panels throughout.** Prolific participants given a product to try, not shoppers spending their own money in a shop."
+  - "**The fix was tested in the lab, in one line.** Nobody has yet run it as a real packaging insert or confirmation email, where tone and placement will matter."
+
+faq:
+  - q: "Do negative reviews affect people who have already bought the product?"
+    a: "Yes. Hand two groups the identical product and let only one group see the complaints beforehand, and that group comes away liking it less. The pattern held whether they picked the product or were assigned it, and whether the complaints arrived minutes or a full day earlier (Yadin, Munichor, Williams & Stockheim, 2026, Journal of Marketing Research)."
+  - q: "Do positive reviews improve the experience in the same way?"
+    a: "No, and the lopsidedness is the heart of the paper. Glowing reviews left enjoyment sitting exactly where it would have been with no reviews at all, across every study here. Praise sells the thing. It does not improve the thing."
+  - q: "Is this just people repeating what the reviews said?"
+    a: "Partly, and the researchers measured how much. One group met the complaints only once the reading was over, so nothing about their experience could have shifted, and their scores still fell. But they fell less than for everyone who met them earlier, leaving a gap that conformity cannot account for."
+  - q: "Why do bad reviews change the experience?"
+    a: "They redirect attention. Asked for five details about a song they had just heard, listeners primed by complaints filled more of those slots with faults, and that shift in what they noticed is what carried through to enjoyment. A review hands you something to look for rather than an opinion to hold."
+  - q: "What can a brand actually do about it?"
+    a: "Invite the buyer to form their own view, and do it early. One sentence to that effect, delivered before the experience began, clawed back much of the loss in testing while doing nothing where the reviews were already favourable. The hard part is placement, since it must arrive in the gap before they try the thing."
+
+also:
+  - doi: "10.1016/j.ijresmar.2026.05.003"
+    title: "\"I'm definitely on my best behavior now!\" Two-sided online review systems as a driver for desirable customer behaviors"
+    authors: "Marder, B. L., Angell, R. J., Erz, A., & Lavertu, L."
+    journal: "International Journal of Research in Marketing"
+    year: 2026
+    text: >-
+      When the driver can rate you back, you behave better. Eight experiments find customers on two-sided review
+      platforms are more courteous, more polite and easier to deal with, because the prospect of being reviewed
+      raises how they think they are coming across. The effect needs one condition: the customer has to intend to use
+      the platform again. A rating of the customer is a behaviour tool as much as a reputation one.
+  - doi: "10.1108/jrim-11-2025-0738"
+    title: "Human or artificial? How AI review labeling shapes trust and consumer interaction in food delivery platforms"
+    authors: "Zhong, Z., & Ha, H.-Y."
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2026
+    text: >-
+      Two experiments on food delivery find that labelling a review as AI-assisted lowers trust in it and, through
+      that, purchase intention. Holding the review text constant and varying only the disclosure produced the same
+      drop, so the label is doing the damage rather than the writing. The penalty was heavier on premium-priced
+      items in the first experiment, where a higher price means more to lose.
+
+charts:
+  asymmetry:
+    title: "How much people enjoyed the same music clip, by what they read first, out of 7"
+    scale: [0, 7]
+    step: 1
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["Five negative reviews", 3.03, true]
+      - ["Five positive reviews", 3.65]
+      - ["No reviews at all", 3.77]
+    source: "Study 1: 719 participants, five-item enjoyment index. The gap between positive reviews and none was not significant."
+  recall:
+    title: "Share of the five remembered details that were complaints"
+    scale: [0, 50]
+    step: 10
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["After negative reviews", 38, true]
+      - ["After positive reviews", 27]
+      - ["After no reviews", 22]
+    source: "Study 4: 376 participants listed five things they recalled about a song, then marked each as liked or disliked."
+  remedy:
+    title: "Enjoyment after negative reviews, with and without a prompt to judge for yourself, out of 7"
+    scale: [0, 7]
+    step: 1
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["No prompt", 3.07]
+      - ["Prompted to decide for themselves", 3.59, true]
+    source: "Study 5: 1,600 participants. The same prompt made no difference to people who had read positive reviews."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
