@@ -26,6 +26,9 @@ def main() -> None:
         return m.group(1) + weeks[slug] + m.group(3) if slug in weeks else m.group(0)
 
     xml = re.sub(r"(<loc>[^<]*/watch/posts/([^/<]+)/index\.html</loc>\s*<lastmod>)[^<]*(</lastmod>)", fix, xml)
+    # Every page declares a canonical without "index.html", so the sitemap has to agree. A <loc> whose
+    # canonical points somewhere else is treated as a duplicate and can be dropped from the index.
+    xml = re.sub(r"(<loc>[^<]*/)index\.html(</loc>)", r"\1\2", xml)
     SITEMAP.write_text(xml)
 
 

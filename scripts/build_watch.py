@@ -280,7 +280,7 @@ def jsonld(d: dict, url: str) -> str:
 
 def build(d: dict, prev_next: tuple) -> dict:
     slug = d["slug"]
-    url = f"{SITE}/watch/posts/{slug}/index.html"
+    url = f"{SITE}/watch/posts/{slug}/"   # clean directory URL: what gets shared, and what the sitemap lists
     fm = {
         "title": d["title"],
         "subtitle": plain(d["dek"]),
