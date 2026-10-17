@@ -1,4 +1,4 @@
-"""Post-render: add a "Buy me a pint" link to the site footer, next to "Subscribe to Marketing in 3".
+"""Post-render: add a "Buy me a coffee or a pint" link to the site footer, next to "Subscribe to Marketing in 3".
 
 Reads watch/support.yml and does nothing while its `url` is empty, so the footer only changes once the Ko-fi
 page exists. The link opens Ko-fi in a new tab and is counted in GoatCounter as `support`."""
@@ -14,7 +14,7 @@ cfg = yaml.safe_load((ROOT / "watch" / "support.yml").read_text(encoding="utf-8"
 url = cfg.get("url") or ""
 if url:
     item = (f'<li class="nav-item mw-footer-support"><a class="nav-link" href="{html.escape(url)}" target="_blank" '
-            f'rel="noopener"><p>{html.escape(cfg.get("button", "Buy me a pint"))}</p></a></li>')
+            f'rel="noopener"><p>{html.escape(cfg.get("link") or cfg.get("button", "Buy me a pint"))}</p></a></li>')
     marker = '<div class="nav-footer-right">\n      <ul class="footer-items list-unstyled">'
     n = 0
     for f in out.rglob("*.html"):

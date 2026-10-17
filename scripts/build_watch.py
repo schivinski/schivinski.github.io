@@ -185,17 +185,32 @@ def support_cfg() -> dict:
 
 
 def support_card(where: str = "issue", text_key: str = "text") -> str:
-    """'Buy me a pint' card from watch/support.yml; empty until a support URL is set."""
+    """'Buy me a coffee or a pint' card from watch/support.yml; empty until a support URL is set."""
     cfg = support_cfg()
     url = cfg.get("url") or ""
     if not url:
         return ""
-    icon = (ROOT / "assets" / "icons" / "beer.svg").read_text(encoding="utf-8")
-    icon = re.sub(r"<!--.*?-->", "", icon, flags=re.S).strip().replace("<svg", '<svg aria-hidden="true"', 1)
-    return (f'<div class="mw-support" role="complementary" aria-label="Support Marketing in 3"><div class="mw-support-icon">{icon}</div>'
+
+    def svg(name: str) -> str:
+        f = ROOT / "assets" / "icons" / f"{name}.svg"
+        if not f.exists():
+            return ""
+        t = re.sub(r"<!--.*?-->", "", f.read_text(encoding="utf-8"), flags=re.S).strip()
+        return t.replace("<svg", '<svg aria-hidden="true" focusable="false"', 1)
+
+    opts = cfg.get("options") or [{"label": cfg.get("button", "Buy me a pint"), "icon": "beer", "primary": True}]
+    btns = []
+    for o in opts:
+        cls = "mw-support-btn" + (" mw-support-btn-main" if o.get("primary") else "")
+        price = f'<span class="mw-support-price">{esc(o["price"])}</span>' if o.get("price") else ""
+        note = f'<span class="mw-support-note">{esc(o["note"])}</span>' if o.get("note") else ""
+        btns.append(f'<a class="{cls}" href="{esc(url)}" target="_blank" rel="noopener">'
+                    f'{svg(o.get("icon", ""))}<span class="mw-support-label">{esc(o["label"])}</span>{price}{note}</a>')
+    return (f'<div class="mw-support" role="complementary" aria-label="Support Marketing in 3">'
+            f'<div class="mw-support-icon">{svg("beer")}</div>'
             f'<p>{esc(cfg.get(text_key) or cfg.get("text", ""))}</p>'
-            f'<a class="mw-support-btn" href="{esc(url)}" target="_blank" rel="noopener">'
-            f'{esc(cfg.get("button", "Buy me a pint"))}</a></div>')
+            f'<div class="mw-support-btns">{"".join(btns)}</div>'
+            + (f'<p class="mw-support-hint">{esc(cfg["hint"])}</p>' if cfg.get("hint") else "") + '</div>')
 
 def esc(x) -> str:
     return html.escape(str(x or ""), quote=True)
@@ -441,7 +456,7 @@ def write_topics(data: list) -> None:
     if cfg.get("url"):
         line = (f'<p class="mw-support-line">{esc(cfg.get("line", ""))} '
                 f'<a href="{esc(cfg["url"])}" target="_blank" rel="noopener">'
-                f'{esc(cfg.get("button", "Buy me a pint"))}</a></p>')
+                f'{esc(cfg.get("link") or cfg.get("button", "Buy me a pint"))}</a></p>')
     (gen / "support-line.md").write_text("```{=html}\n" + line + "\n```\n" if line else "\n")
     sub_card = support_card("subscribe", "text_subscribe")
     (gen / "support-card.md").write_text("```{=html}\n" + sub_card + "\n```\n" if sub_card else "\n")

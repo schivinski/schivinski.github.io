@@ -110,5 +110,69 @@ is the expensive one.</p>
 
 <section id="keep-reading" class="mw-more"><h2>Keep reading</h2><p class="mw-more-topics">More issues on <a href="../../topics/ai.html">AI</a> · <a href="../../topics/advertising.html">Advertising</a> · <a href="../../topics/ugc.html">UGC</a></p><div class="watch-list"><article class="watch-item"><a class="watch-thumb" href="../../posts/synthetic-person-disclosure/index.html" tabindex="-1" aria-hidden="true"><img src="../../images/web/issue-36-synthetic-person-disclosure-640.webp" alt="" loading="lazy" decoding="async" width="640" height="336"></a><div><p class="watch-meta">Issue 36 · Week of <time datetime="2026-09-14">14 September 2026</time></p><h3><a href="../../posts/synthetic-person-disclosure/index.html">The label that buys honesty, then spends it on artificiality</a></h3><p>A detailed &quot;this person does not exist&quot; label cut the sense of being manipulated and raised the sense of artificiality. The two effects cancelled out, except among younger viewers.</p></div></article><article class="watch-item"><a class="watch-thumb" href="../../posts/generative-ai-consumer-reviews/index.html" tabindex="-1" aria-hidden="true"><img src="../../images/web/issue-32-generative-ai-consumer-reviews-640.webp" alt="" loading="lazy" decoding="async" width="640" height="336"></a><div><p class="watch-meta">Issue 32 · Week of <time datetime="2026-08-17">17 August 2026</time></p><h3><a href="../../posts/generative-ai-consumer-reviews/index.html">When ChatGPT went dark, reviews got shorter</a></h3><p>When Italy blocked ChatGPT for four weeks, hotel reviews written on desktop fell 2% in number and 9% in length. AI help is quietly reshaping reviews.</p></div></article><article class="watch-item"><a class="watch-thumb" href="../../posts/llm-review-sentiment/index.html" tabindex="-1" aria-hidden="true"><img src="../../images/web/issue-30-llm-review-sentiment-640.webp" alt="" loading="lazy" decoding="async" width="640" height="336"></a><div><p class="watch-meta">Issue 30 · Week of <time datetime="2026-08-03">3 August 2026</time></p><h3><a href="../../posts/llm-review-sentiment/index.html">When an AI misreads a review, readers do too</a></h3><p>A language model guessed the star rating of 28,900 reviews from the text alone. When it missed, human readers missed too, and found the review less helpful.</p></div></article></div></section>
 <div class="mw-author"><img src="../../../assets/bruno.jpg" alt="Bruno Schivinski" width="64" height="64"><div><p><strong>Bruno Schivinski</strong> is Associate Professor of Marketing at Gdańsk University of Technology. He studies how consumers engage with brands in digital and social media.</p><p><a href="../../../index.html">About Bruno</a> · <a href="../../index.html">All Marketing in 3 issues</a> · <a href="../../subscribe.html">Subscribe</a></p></div></div>
+<div class="mw-support" role="complementary" aria-label="Support Marketing in 3"><div class="mw-support-icon"><svg aria-hidden="true" focusable="false"
+  class="lucide lucide-beer"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M17 11h1a3 3 0 0 1 0 6h-1" />
+  <path d="M9 12v6" />
+  <path d="M13 12v6" />
+  <path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 2 11 2s2 1.5 3 1.5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z" />
+  <path d="M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8" />
+</svg></div><p>If this issue saved you a meeting or sharpened a campaign, say thanks with a euro, or buy me a coffee or a pint if it really helped. It keeps Marketing in 3 free, weekly and ad-free.</p><div class="mw-support-btns"><a class="mw-support-btn" href="https://ko-fi.com/marketingin3" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false"
+  class="lucide lucide-heart"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+</svg><span class="mw-support-label">A thank you</span><span class="mw-support-price">€1</span></a><a class="mw-support-btn" href="https://ko-fi.com/marketingin3" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false"
+  class="lucide lucide-coffee"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M10 2v2" />
+  <path d="M14 2v2" />
+  <path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1" />
+  <path d="M6 2v2" />
+</svg><span class="mw-support-label">A coffee</span><span class="mw-support-price">€2</span></a><a class="mw-support-btn mw-support-btn-main" href="https://ko-fi.com/marketingin3" target="_blank" rel="noopener"><svg aria-hidden="true" focusable="false"
+  class="lucide lucide-beer"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M17 11h1a3 3 0 0 1 0 6h-1" />
+  <path d="M9 12v6" />
+  <path d="M13 12v6" />
+  <path d="M14 7.5c-1 0-1.44.5-3 .5s-2-.5-3-.5-1.72.5-2.5.5a2.5 2.5 0 0 1 0-5c.78 0 1.57.5 2.5.5S9.44 2 11 2s2 1.5 3 1.5 1.72-.5 2.5-.5a2.5 2.5 0 0 1 0 5c-.78 0-1.5-.5-2.5-.5Z" />
+  <path d="M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8" />
+</svg><span class="mw-support-label">A pint</span><span class="mw-support-price">€5</span></a></div><p class="mw-support-hint">Opens Ko-fi: pick 1, 2 or 5 to match the button.</p></div>
 <nav class="mw-pn" aria-label="More issues"><a class="mw-prev" href="../firm-generated-user-content/index.html"><span>Previous issue</span>Write the post for them and they will send it</a><a class="mw-next" href="../video-thumbnails/index.html"><span>Next issue</span>Busy enough to be interesting, tidy enough to be read</a></nav>
 ```
