@@ -31,7 +31,7 @@
 ]
 #v(1fr)
 #text(size: 8.5pt, fill: rgb("#5b6476"))[Re\-typeset from the published open access text under CC BY 4\.0; the publisher\'s typesetting and layout have been removed\.
-Downloaded from #link("https://schivinski.github.io/papers/gaming-disorder-test.html")[schivinski.github.io]]
+Downloaded from #link("https://schivinski.com/papers/gaming-disorder-test.html")[schivinski.com]]
 #pagebreak()
 #set par(first-line-indent: 1.2em)
 #align(left)[#text(size: 15pt, weight: "bold", hyphenate: false)[Measurement and Conceptualization of Gaming Disorder According to the World Health Organization Framework: the Development of the Gaming Disorder Test]]

@@ -5,7 +5,7 @@ import json, re, sys, urllib.request
 from pathlib import Path
 
 KEY = "316433b063da86628eea6ac290ebe7f0"
-HOST = "schivinski.github.io"
+HOST = "schivinski.com"
 sitemap = Path(__file__).resolve().parent.parent / "_site" / "sitemap.xml"
 urls = re.findall(r"<loc>(.*?)</loc>", sitemap.read_text()) if sitemap.exists() else []
 if not urls:

@@ -22,7 +22,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "papers" / "data"
-SITE = "https://schivinski.github.io"
+SITE = "https://schivinski.com"
 ME = {"name": "Bruno Schivinski", "orcid": "0000-0002-4095-1922"}
 
 

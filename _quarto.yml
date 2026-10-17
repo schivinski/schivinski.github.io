@@ -25,7 +25,7 @@ project:
 website:
   title: "Bruno Schivinski"
   description: "Consumer behaviour, marketing psychology and digital media research."
-  site-url: "https://schivinski.github.io"
+  site-url: "https://schivinski.com"
   favicon: assets/favicon.svg
   open-graph: true
   twitter-card: true

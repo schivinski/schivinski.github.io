@@ -32,7 +32,7 @@
 ]
 #v(1fr)
 #text(size: 8.5pt, fill: rgb("#5b6476"))[Re\-typeset from the published text by the authors; the publisher\'s typesetting and layout have been removed\.
-Downloaded from #link("https://schivinski.github.io/papers/social-media-communication-brand-perceptions.html")[schivinski.github.io]]
+Downloaded from #link("https://schivinski.com/papers/social-media-communication-brand-perceptions.html")[schivinski.com]]
 #pagebreak()
 #set par(first-line-indent: 1.2em)
 #align(left)[#text(size: 15pt, weight: "bold", hyphenate: false)[The effect of social media communication on consumer perceptions of brands]]

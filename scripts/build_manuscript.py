@@ -26,7 +26,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE = "https://schivinski.github.io"
+SITE = "https://schivinski.com"
 
 
 # ---------------------------------------------------------------- text helpers
@@ -208,7 +208,7 @@ def build(slug: str) -> Path:
 ]
 #v(1fr)
 #text(size: 8.5pt, fill: rgb("#5b6476"))[{inline(cfg.get("title_page_footer", ""))}
-Downloaded from #link("{SITE}/papers/{slug}.html")[schivinski.github.io]]
+Downloaded from #link("{SITE}/papers/{slug}.html")[schivinski.com]]
 #pagebreak()
 #set par(first-line-indent: 1.2em)
 ''')

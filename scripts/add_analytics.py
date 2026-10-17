@@ -21,7 +21,7 @@ MARK = "goatcounter-snippet"
 
 SNIPPET = """<script id="%(mark)s">
 (function () {
-  if (location.hostname !== 'schivinski.github.io') return;
+  if (location.hostname !== 'schivinski.com' && location.hostname !== 'www.schivinski.com') return;
   var s = document.createElement('script');
   s.async = true;
   s.src = 'https://gc.zgo.at/count.js';

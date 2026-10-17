@@ -29,7 +29,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE = "https://schivinski.github.io"
+SITE = "https://schivinski.com"
 
 
 def apa_text(d: dict) -> str:
@@ -214,7 +214,7 @@ do.call(rbind, lapply(split(loadings, loadings$lhs), function(x) {{
     mp = f'''TITLE:    {ascii_only(an.get("title", s["short"] + " scale: CFA"))}
 ! Please cite: {ascii_only(short_authors(d, " & "))} ({d["published"][:4]}),
 ! {ascii_only(d["journal"])} {d["volume"]}({d["issue"]}), {ascii_only(d["pages"])}.
-! https://doi.org/{d["doi"]}   Materials: schivinski.github.io
+! https://doi.org/{d["doi"]}   Materials: schivinski.com
 
 DATA:     FILE = {stem}.dat;          ! replace with your data file
 

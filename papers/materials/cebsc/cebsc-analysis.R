@@ -2,7 +2,7 @@
 # Scoring, reliability and confirmatory factor analysis in R (lavaan).
 #
 # Please cite: Schivinski, B., Christodoulides, G., & Dabrowski, D. (2016). Measuring consumers’ engagement with brand-related social-media content: Development and validation of a scale that identifies levels of social-media engagement with brands. Journal of Advertising Research, 56(1), 64–80. https://doi.org/10.2501/JAR-2016-004
-# Scale page and materials: https://schivinski.github.io/papers/measuring-consumer-engagement-social-media-content.html
+# Scale page and materials: https://schivinski.com/papers/measuring-consumer-engagement-social-media-content.html
 #
 # Data: one row per respondent, item columns named as in the codebook
 # (cons1-cons5, cont1-cont6, crea1-crea6),

@@ -31,7 +31,7 @@
 ]
 #v(1fr)
 #text(size: 8.5pt, fill: rgb("#5b6476"))[Re\-typeset from the published open access text under CC BY 4\.0; the publisher\'s typesetting and layout have been removed\.
-Downloaded from #link("https://schivinski.github.io/papers/city-branding-cool-factor.html")[schivinski.github.io]]
+Downloaded from #link("https://schivinski.com/papers/city-branding-cool-factor.html")[schivinski.com]]
 #pagebreak()
 #set par(first-line-indent: 1.2em)
 #align(left)[#text(size: 15pt, weight: "bold", hyphenate: false)[City branding’s influence on social media engagement: the cool factor]]

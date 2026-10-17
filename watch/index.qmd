@@ -12,7 +12,7 @@ listing:
 description: "Marketing in 3: one peer-reviewed marketing study a week, explained in plain English with what to do about it. Published research on advertising, social media, AI and consumer behaviour."
 include-in-header:
   text: |
-    <link rel="canonical" href="https://schivinski.github.io/watch/" />
+    <link rel="canonical" href="https://schivinski.com/watch/" />
 ---
 
 New research from the leading marketing journals, translated for practitioners: what each study found, how to

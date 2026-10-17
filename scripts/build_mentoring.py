@@ -16,7 +16,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE = "https://schivinski.github.io"
+SITE = "https://schivinski.com"
 PAGE = f"{SITE}/mentoring.html"
 
 
@@ -145,7 +145,7 @@ SCRIPT = r'''<script>
     delete data.botcheck;
     data.access_key = key;
     data.subject = 'Website request: ' + data.service + ' (' + data.name + ')';
-    data.from_name = 'schivinski.github.io';
+    data.from_name = 'schivinski.com';
     btn.disabled = true; status.textContent = 'Sending…';
     fetch('https://api.web3forms.com/submit', {method: 'POST', headers: {'Content-Type': 'application/json', 'Accept': 'application/json'}, body: JSON.stringify(data)})
       .then(function (r) { return r.json(); })

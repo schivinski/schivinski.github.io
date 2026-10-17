@@ -32,7 +32,7 @@
 ]
 #v(1fr)
 #text(size: 8.5pt, fill: rgb("#5b6476"))[Re\-typeset from the published text by the authors; the publisher\'s typesetting and layout have been removed\.
-Downloaded from #link("https://schivinski.github.io/papers/measuring-consumer-engagement-social-media-content.html")[schivinski.github.io]]
+Downloaded from #link("https://schivinski.com/papers/measuring-consumer-engagement-social-media-content.html")[schivinski.com]]
 #pagebreak()
 #set par(first-line-indent: 1.2em)
 #align(left)[#text(size: 15pt, weight: "bold", hyphenate: false)[Measuring Consumers’ Engagement With Brand\-Related Social\-Media Content: Development and Validation of a Scale that Identifies Levels of Social\-Media Engagement with Brands]]

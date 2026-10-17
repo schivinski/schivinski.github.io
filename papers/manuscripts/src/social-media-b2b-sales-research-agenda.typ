@@ -31,7 +31,7 @@
 ]
 #v(1fr)
 #text(size: 8.5pt, fill: rgb("#5b6476"))[Accepted manuscript regenerated from the published text; the publisher\'s typesetting and layout have been removed\.
-Downloaded from #link("https://schivinski.github.io/papers/social-media-b2b-sales-research-agenda.html")[schivinski.github.io]]
+Downloaded from #link("https://schivinski.com/papers/social-media-b2b-sales-research-agenda.html")[schivinski.com]]
 #pagebreak()
 #set par(first-line-indent: 1.2em)
 #v(0.4em)

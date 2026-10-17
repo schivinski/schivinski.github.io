@@ -3,7 +3,7 @@ title: "Subscribe to Marketing in 3"
 description: "Get each new issue of Marketing in 3 in your feed reader as soon as it is published: copy the feed address, or follow it on Feedly or Inoreader in one click."
 include-in-header:
   text: |
-    <link rel="canonical" href="https://schivinski.github.io/watch/subscribe.html" />
+    <link rel="canonical" href="https://schivinski.com/watch/subscribe.html" />
 ---
 
 ```{=html}
@@ -13,12 +13,12 @@ include-in-header:
     <h2 id="sub-feed">Add the feed to your reader</h2>
     <p>Pick your reader below, or copy the feed address and paste it into any app that follows RSS feeds.</p>
     <div class="mw-sub-actions">
-      <a class="mw-sub-btn" href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fschivinski.github.io%2Fwatch%2Findex.xml" rel="noopener" target="_blank">Follow on Feedly</a>
-      <a class="mw-sub-btn" href="https://www.inoreader.com/?add_feed=https%3A%2F%2Fschivinski.github.io%2Fwatch%2Findex.xml" rel="noopener" target="_blank">Follow on Inoreader</a>
+      <a class="mw-sub-btn" href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fschivinski.com%2Fwatch%2Findex.xml" rel="noopener" target="_blank">Follow on Feedly</a>
+      <a class="mw-sub-btn" href="https://www.inoreader.com/?add_feed=https%3A%2F%2Fschivinski.com%2Fwatch%2Findex.xml" rel="noopener" target="_blank">Follow on Inoreader</a>
     </div>
     <label class="mw-sub-label" for="feed-url">Feed address</label>
     <div class="mw-sub-copy">
-      <input id="feed-url" type="text" readonly value="https://schivinski.github.io/watch/index.xml">
+      <input id="feed-url" type="text" readonly value="https://schivinski.com/watch/index.xml">
       <button type="button" id="copy-feed"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg><span>Copy</span></button>
     </div>
   </section>

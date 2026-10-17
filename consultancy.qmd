@@ -4,7 +4,7 @@ subtitle: "Digital marketing and online consumer behaviour"
 description: "Marketing research consultancy with Bruno Schivinski: survey design, structural equation modelling, brand and social media measurement, and evidence reviews for practitioners."
 include-in-header:
   text: |
-    <link rel="canonical" href="https://schivinski.github.io/consultancy.html" />
+    <link rel="canonical" href="https://schivinski.com/consultancy.html" />
 ---
 
 <!-- Placeholder: generic version agreed 9 Oct 2026. Full text to be developed with Bruno after the site is finished. -->

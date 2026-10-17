@@ -1,7 +1,7 @@
 TITLE:    SMBC: five-factor CFA and structural model
 ! Please cite: Schivinski & Dabrowski (2015),
 ! Journal of Research in Interactive Marketing 9(1), 31-53.
-! https://doi.org/10.1108/JRIM-02-2014-0007   Materials: schivinski.github.io
+! https://doi.org/10.1108/JRIM-02-2014-0007   Materials: schivinski.com
 
 DATA:     FILE = smbc.dat;          ! replace with your data file
 

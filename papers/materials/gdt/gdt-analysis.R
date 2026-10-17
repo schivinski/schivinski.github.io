@@ -2,7 +2,7 @@
 # Scoring, reliability and confirmatory factor analysis in R (lavaan).
 #
 # Please cite: Pontes, H. M., Schivinski, B., Sindermann, C., Li, M., Becker, B., Zhou, M., & Montag, C. (2021). Measurement and conceptualization of gaming disorder according to the World Health Organization framework: The development of the Gaming Disorder Test. International Journal of Mental Health and Addiction, 19(2), 508–528. https://doi.org/10.1007/s11469-019-00088-z
-# Scale page and materials: https://schivinski.github.io/papers/gaming-disorder-test.html
+# Scale page and materials: https://schivinski.com/papers/gaming-disorder-test.html
 #
 # Data: one row per respondent, item columns named as in the codebook
 # (gdt1-gdt4),

@@ -2,7 +2,7 @@
 # Scoring, reliability and confirmatory factor analysis in R (lavaan).
 #
 # Please cite: Schivinski, B., & Dabrowski, D. (2015). The impact of brand communication on brand equity through Facebook. Journal of Research in Interactive Marketing, 9(1), 31–53. https://doi.org/10.1108/JRIM-02-2014-0007
-# Scale page and materials: https://schivinski.github.io/papers/brand-communication-brand-equity-facebook.html
+# Scale page and materials: https://schivinski.com/papers/brand-communication-brand-equity-facebook.html
 #
 # Data: one row per respondent, item columns named as in the codebook
 # (fc1-fc4, ug1-ug4, bas1-bas4, bl1-bl3, pq1-pq3),
