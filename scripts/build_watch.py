@@ -179,18 +179,23 @@ def related_pages_html(slugs: list, lead_doi: str = "") -> str:
     return "".join(out)
 
 
-def support_card() -> str:
-    """'Buy me a pint' card from watch/support.yml; empty until a support URL is set."""
+def support_cfg() -> dict:
     f = ROOT / "watch" / "support.yml"
-    cfg = yaml.safe_load(f.read_text(encoding="utf-8")) if f.exists() else {}
-    url = (cfg or {}).get("url") or ""
+    return (yaml.safe_load(f.read_text(encoding="utf-8")) if f.exists() else {}) or {}
+
+
+def support_card(where: str = "issue", text_key: str = "text") -> str:
+    """'Buy me a pint' card from watch/support.yml; empty until a support URL is set."""
+    cfg = support_cfg()
+    url = cfg.get("url") or ""
     if not url:
         return ""
     icon = (ROOT / "assets" / "icons" / "beer.svg").read_text(encoding="utf-8")
     icon = re.sub(r"<!--.*?-->", "", icon, flags=re.S).strip().replace("<svg", '<svg aria-hidden="true"', 1)
     return (f'<div class="mw-support" role="complementary" aria-label="Support Marketing in 3"><div class="mw-support-icon">{icon}</div>'
-            f'<p>{esc(cfg.get("text", ""))}</p>'
-            f'<a class="mw-support-btn" href="{esc(url)}" target="_blank" rel="noopener">{esc(cfg.get("button", "Buy me a pint"))}</a></div>')
+            f'<p>{esc(cfg.get(text_key) or cfg.get("text", ""))}</p>'
+            f'<a class="mw-support-btn" href="{esc(url)}" target="_blank" rel="noopener">'
+            f'{esc(cfg.get("button", "Buy me a pint"))}</a></div>')
 
 def esc(x) -> str:
     return html.escape(str(x or ""), quote=True)
@@ -430,6 +435,16 @@ def write_topics(data: list) -> None:
     gen = ROOT / "watch" / "_generated"
     gen.mkdir(exist_ok=True)
     (gen / "topic-bar.md").write_text("```{=html}\n" + topic_bar(counts, None, "") + "\n```\n")
+    # "Buy me a pint": empty files while watch/support.yml has no url, so nothing shows
+    cfg = support_cfg()
+    line = ""
+    if cfg.get("url"):
+        line = (f'<p class="mw-support-line">{esc(cfg.get("line", ""))} '
+                f'<a href="{esc(cfg["url"])}" target="_blank" rel="noopener">'
+                f'{esc(cfg.get("button", "Buy me a pint"))}</a></p>')
+    (gen / "support-line.md").write_text("```{=html}\n" + line + "\n```\n" if line else "\n")
+    sub_card = support_card("subscribe", "text_subscribe")
+    (gen / "support-card.md").write_text("```{=html}\n" + sub_card + "\n```\n" if sub_card else "\n")
     TOPICS_DIR.mkdir(exist_ok=True)
     keep = set()
     for t, n in counts.items():

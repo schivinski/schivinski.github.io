@@ -12,6 +12,7 @@ project:
     - scripts/add_analytics.py
     - scripts/fix_watch_dates.py
     - scripts/link_topics.py
+    - scripts/add_support.py
   resources:
     - robots.txt
     - favicon.ico

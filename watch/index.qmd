@@ -23,3 +23,5 @@ use it in your strategy, and what results to expect.
 ::: {.mw-subscribe-line}
 [Subscribe to new issues](subscribe.qmd) by RSS, in Feedly, Inoreader or any feed reader.
 :::
+
+{{< include _generated/support-line.md >}}

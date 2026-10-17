@@ -735,3 +735,8 @@ main section h2 { margin-top: 2.4rem; }
   .mw-more .watch-item p:not(.watch-meta) { display: none; }
 }
 .mw-hero picture { display: block; }
+
+/* "Buy me a pint" (watch/support.yml) */
+.mw-support-line { color: $muted; font-size: .95rem; margin: -.4rem 0 1.2rem; }
+.mw-support-line a { font-weight: 600; color: $amber-text; }
+.mw-sub + .mw-support, .mw-sub ~ .mw-support { margin-top: 1.6rem; }

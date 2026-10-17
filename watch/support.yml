@@ -1,7 +1,15 @@
-# "Buy me a pint" support card, shown at the end of every Marketing in 3 issue.
-# The card stays hidden while `url` is empty. Paste the Ko-fi page address to switch it on.
+# "Buy me a pint": reader support for Marketing in 3, through Ko-fi.
+# Everything stays hidden while `url` is empty. Paste the Ko-fi page address to switch it on everywhere:
+#   * a card at the end of every issue (`text`);
+#   * a card on the Subscribe page (`text_subscribe`);
+#   * a line under the intro of the Marketing in 3 page (`line` + the button text as the link);
+#   * a "Buy me a pint" link in the site footer (scripts/add_support.py).
+# Clicks show in GoatCounter as the event `support`, with the page they came from.
 url: ""
 button: "Buy me a pint"
 text: >-
   If this issue saved you a meeting or sharpened a campaign, buy me a pint. It keeps Marketing in 3 free, weekly
   and ad-free.
+text_subscribe: >-
+  Marketing in 3 is free, weekly and ad-free. If it earns its place in your feed, a pint helps keep it that way.
+line: "Free and ad-free, kept going by readers."

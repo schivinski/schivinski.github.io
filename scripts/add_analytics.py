@@ -6,6 +6,7 @@ Besides page views it records these clicks as events (shown in GoatCounter with 
   download/<file>      PDF downloads (accepted manuscripts and other PDFs)
   materials/<path>     scale toolkit files (questionnaire, Qualtrics, R, Mplus, codebook)
   article/<doi>        "Read the article" / "Published version" links to the publisher
+  support              a "Buy me a pint" click through to Ko-fi
   outbound/<host>      any other link that leaves the site (Scholar, ORCID, LinkedIn, ...)
   copy/<what>          "Copy citation", "Copy the full questionnaire", "Copy the item list"
   feed                 RSS feed links
@@ -51,6 +52,7 @@ SNIPPET = """<script id="%(mark)s">
       return;
     }
     if (url.protocol !== 'http:' && url.protocol !== 'https:') return;
+    if (/(^|\\.)ko-fi\\.com$/.test(url.host)) { send('support', label(a) + ' (' + page + ')'); return; }
     if (/(^|\\.)doi\\.org$/.test(url.host)) send('article/' + p.replace(/^\\//, ''), label(a) + ' (' + page + ')');
     else send('outbound/' + url.host.replace(/^www\\./, ''), label(a) + ' (' + page + ')');
   }, true);

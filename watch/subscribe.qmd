@@ -52,3 +52,5 @@ include-in-header:
 })();
 </script>
 ```
+
+{{< include _generated/support-card.md >}}
