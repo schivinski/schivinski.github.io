@@ -1,0 +1,216 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 31
+week_of: "2026-08-10"            # the week this issue covers (shown on the page, orders the archive)
+slug: chatbot-goal-formation
+status: live
+
+title: "Should a shopping chatbot guess what you want? What a Psychology & Marketing study found"
+short_title: "When a smart chatbot is too smart"
+dek: >-
+  A chatbot that reads your browsing and jumps ahead is a gift when you know what you want. When you are still
+  looking around, a lot of people would rather talk to the plain one.
+
+description: >-
+  Among shoppers still browsing, 80% chatted with a plain chatbot and only 51% with a personalized one. Shoppers with a clear goal reversed.
+
+keywords: [chatbot personalization, AI chatbot marketing, personalized chatbot, customer journey, goal formation,
+  consumer autonomy, browsing behaviour, e-commerce chatbot, decision stages, interdependent self, consumer
+  control, Psychology & Marketing]
+topics: [AI, Personalization, Service]
+
+image:
+  file: issue-31-chatbot-goal-formation.jpg
+  og: issue-31-chatbot-goal-formation-og.jpg
+  alt: "A hand-painted wooden signpost with arrows pointing in several directions, in yellow, red, black and blue, against a soft grey sky"
+  caption: "Which way should I go? Sometimes the answer is that nobody should tell you yet. Photo: Steve Adams on Unsplash."
+
+short_answer: >-
+  Not always. Across five experiments, shoppers who were only looking around were less willing to use a chatbot that
+  tailored itself to their behaviour than a plain one. With a clear goal, the preference reversed. The cause was a lost
+  sense of being in charge, not privacy worry, and letting shoppers choose what the bot used removed the problem.
+
+takeaways:
+  - "Among browsers, 80% chatted with a low-personalization bot and 51% with a high-personalization one. Among shoppers with a goal, it flipped: 88% against 61%."
+  - "Given a choice while browsing, 60% picked the low-personalization chatbot. With a purchase in mind, 77% picked the high-personalization one."
+  - "While browsing, the personalized bot cut shoppers' felt freedom to decide from 5.78 to 4.96 out of 7. For buyers it barely moved."
+  - "When shoppers could choose what information the bot used, intention to use it came back: 5.78 against 5.31 when the bot decided."
+
+paper:
+  doi: "10.1002/mar.70189"
+  title: "Do Not Think Ahead of Me: High-Personalization Chatbots Can Backfire During the Goal Formation Stage"
+  authors: ["Chen, X.", "Huang, M.", "Xie, X."]
+  authors_full: ["Xingyu Chen", "Minxue Huang", "Xiaodong Xie"]
+  year: 2026
+  journal: "Psychology & Marketing"
+  volume: "43"
+  issue: "10"
+  pages: "2623-2636"
+  online: "2026-06-15"
+  open_access: false
+  licence: ""
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      The usual advice on chatbots is that more personalization is better. A bot that watches what you look at, greets
+      you with it and steers you to the right page sounds like the whole point of using AI in customer service.
+
+      Xingyu Chen, Minxue Huang and Xiaodong Xie, at two universities in Wuhan, suspected the advice depends on where
+      the shopper is in the journey. Early on, people are exploring with no purchase in mind. Later, they know what they
+      want and need to finish. The team called these the goal formation stage and the goal fulfilment stage.
+
+      Their prediction was that a bot which narrows things down on its own would feel helpful in the second stage and
+      confining in the first. They tested it in five experiments with Chinese students and online panel participants,
+      using two versions of the same chatbot. The high-personalization one used what the shopper had just browsed and
+      greeted them by product. The low-personalization one gave a general greeting and general help.
+
+      Same bot, same information behind it, same rating. Only the level of personalization changed, along with whether
+      the shopper was browsing or buying.
+    facts:
+      - ["Studies", "Five experiments with participants in China"]
+      - ["People", "Studies 1a and 1b used university students (163 and 161). Studies 2 to 4 used online panels (319, 310 and 309)"]
+      - ["Stage", "Browsing with no purchase in mind, or looking for something to buy now"]
+      - ["Chatbots", "High personalization (names what you browsed) against low (general greeting), same rating and same product information"]
+      - ["Outcomes", "Whether people used the bot, which bot they chose, and how likely they were to use it on a seven point scale"]
+
+  - h: "The same bot, opposite reactions"
+    body: |
+      Study 1a used a realistic shopping site in a lab. Some students chose items to browse but not buy, such as hats and
+      cups. Others chose items they wanted to buy right then. A chatbot then appeared on the side of the page, either
+      the personalized or the plain version, and the researchers watched whether people talked to it.
+
+      Browsers talked to the plain bot 80% of the time and to the personalized one 51% of the time. Buyers went the other
+      way, with 88% using the personalized bot against 61% for the plain one.
+
+      Study 1b let a fresh group pick between the two bots. Browsing shoppers chose the plain one about 60% of the time.
+      Shoppers who needed to replace a broken camera chose the personalized one about 77% of the time.
+
+      The same feature that earned the second group's trust cost the first group an audience. The paper's point is not that
+      personalization is bad, but that it has a stage where it fits and a stage where it does not.
+    chart: usage
+
+  - h: "It is about freedom, not privacy"
+    body: |
+      The obvious explanation is privacy. A bot that names what you browsed shows it has been watching. Study 2, with 319
+      people, tested that and found nothing in it. Neither privacy concern nor how involved people were with the product explained the
+      result.
+
+      What did differ was a feeling of being free to make their own decision. People were asked how much they agreed with
+      statements such as "my decision will not be limited by using the chatbot". While browsing, the personalized bot
+      pushed that sense of autonomy down from 5.78 to 4.96 out of 7. With a goal in mind, the two bots felt about the same.
+
+      That drop in autonomy then explained the drop in people's intention to use the bot, which went from 5.79 for the
+      plain bot to 4.97 for the personalized one. For buyers, the personalized bot came out ahead, 5.92 against 5.26.
+
+      The authors' reading is simple. Browsing is a time for roaming. A bot that jumps in with a narrowed list feels like
+      it is deciding what you may want.
+    chart: autonomy
+
+  - h: "Some people mind less"
+    body: |
+      Study 3 asked whether everyone feels this the same way. The team nudged people to think of themselves either as
+      independent individuals or as part of a group, by having them write a short essay about "who I am" or "who we are".
+
+      Among browsing shoppers facing the personalized chatbot, those in the group mindset were more willing to use
+      it, 5.00 against 4.17 out of 7. With the plain bot, the two groups did not differ.
+
+      The authors tie this to the idea that people who see themselves as connected to others are more open to guidance
+      and less protective of their own independence. That is a lab nudge on one sample, not a market segment, but it
+      points at a real source of variation.
+
+  - h: "Give the control back"
+    body: |
+      Study 4 is the practical one. The team asked what happens if the shopper, not the bot, decides what information
+      the bot uses. In one version, the bot introduced services automatically. In the other, it asked the shopper what they
+      wanted to know about.
+
+      Handing over the choice brought intention to use the personalized bot back up, 5.78 against 5.31, and it did so by
+      restoring the sense of being in charge. For the plain bot, who chose made no difference.
+
+      So the fix is not to switch personalization off for browsers. It is to make the personalization something the
+      shopper steers. The paper floats ideas such as a slider from precision to serendipity, a switch for behaviour
+      tracking and options to exclude categories, though it did not test those exact designs.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your visitors into two kinds", "Browsers have no product in mind. Buyers do. Open your last 100 visits and mark each one. Browsers hop between categories or are visiting for the first time. Buyers go straight to one item or to the basket."]
+  - ["Read your bot's first message", "Open your chatbot as a new visitor. Read its opening line. If it names something the visitor just looked at, call it a sharp opener. If it is general, call it a broad opener. Note which one you use for browsers today."]
+  - ["Give browsers a broad opener", "For browsers, start with an open line like: \"Looking around? Here are three popular places to start.\" Show a spread of categories, not one narrowed list. Do not name what they just viewed."]
+  - ["Give buyers a sharp opener", "For buyers, start with their item: \"Still thinking about the blue jacket? Here is the size guide and the delivery date.\" Keep it to one thing they can act on."]
+  - ["Put the controls in the chat window", "Add one switch to the chat: \"Use my browsing to tailor this: on or off.\" Add a short list of topics they can tick. Let them decide what the bot is allowed to use."]
+  - ["Test the openers for two weeks", "Show the broad opener to half your browsers and the sharp one to the other half. Count how many start a chat and how many go on to buy. Keep the winner for browsers, then repeat the test for buyers."]
+
+expect:
+  - "**Fewer browser chats if you narrow too early.** A sharp opener can lose the browsers you most want to reach. A broad one keeps the door open."
+  - "**Buyers will still welcome the sharp bot.** The preference reversed once people had a goal, so do not strip personalization out everywhere."
+  - "**Sorting visitors will be rough at first.** The paper lists signals such as first visits, browsing across categories and basket views, but did not test a working detector. Expect to tune it."
+  - "**A switch is cheap to try.** Control was the part of the design that restored willingness to use the bot, and it costs little to add and measure."
+
+limits:
+  - "**Mostly imagined or lab situations.** Participants browsed a mock site or pictured a scenario. Real shoppers, with real money and real distractions, may react differently."
+  - "**Chinese students and online panels.** All samples came from China. The authors note that self-construal and responses to personalization may differ across cultures."
+  - "**Intentions and one lab behaviour.** The studies measure willingness to use a bot and whether people chatted with it, not sales or satisfaction afterwards."
+  - "**Stage was set by the researchers.** Participants were assigned to browsing or buying. How reliably a site can spot the stage from behaviour is still an open question."
+
+faq:
+  - q: "Do consumers like highly personalized chatbots?"
+    a: "It depends on the stage. In five experiments, shoppers still exploring used and preferred plain chatbots over highly personalized ones, while shoppers with a clear purchase goal preferred the personalized ones (Chen, Huang & Xie, 2026, Psychology & Marketing)."
+  - q: "When does chatbot personalization backfire?"
+    a: "Early in the journey, when shoppers have no specific purchase in mind and want to look around freely. A bot that names what you browsed and narrows the options can feel like it is deciding for you."
+  - q: "Is it about privacy?"
+    a: "Not in these studies. Privacy worry did not explain the result. What did was a lower sense of autonomy, the feeling of being free to make your own decision."
+  - q: "Does it depend on who the shopper is?"
+    a: "To some extent. Somewhat. In one experiment, a group-minded mindset made browsing shoppers more accepting of the personalized bot than an individualist one did. It comes from a single lab sample."
+  - q: "How can a brand reduce the backlash?"
+    a: "Give the shopper control. When shoppers chose what information the chatbot used, instead of the bot deciding automatically, their intention to use the personalized bot recovered. A broad opening for browsers and a sharp one for buyers fits the same finding."
+
+also:
+  - doi: "10.1177/10946705261447627"
+    title: "Haste Makes Waste: How Faster Responses after Data Collection Trigger Consumer Privacy Concerns and Reduce Positive Reactions"
+    authors: "Lv, He, Wang, & Wang"
+    journal: "Journal of Service Research"
+    year: 2026
+    text: >-
+      Field data and four experiments show that replying to a customer faster than they expect, right after you collect
+      their data, makes people think the firm is eager to use the information. That raises privacy concerns and softens
+      positive reactions. The effect faded when the firm warned customers a data-based message was coming, when the
+      service mattered little to them, and in service recovery. If your system replies instantly to data, add a short
+      heads up or build in a pause.
+  - doi: "10.1002/mar.70209"
+    title: "Caught Between Convenience and Autonomy: Psychological Dilemmas in Consumers' Use of AI-Enabled Personalization"
+    authors: "Tiwari"
+    journal: "Psychology & Marketing"
+    year: 2026
+    text: >-
+      Three studies on AI personalization find that trust cues raise willingness to adopt it and ease privacy concerns,
+      that human-like AI builds empathy but can also increase feelings of isolation, and that perceived autonomy is the
+      link between convenience and adoption. When autonomy drops, people push back and use the tool less. Design for
+      trust and for the user staying in charge.
+
+charts:
+  usage:
+    title: "Share of shoppers who chatted with each chatbot"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Browsing, plain chatbot", 80]
+      - ["Browsing, personalized chatbot", 51, true]
+      - ["Buying, plain chatbot", 61]
+      - ["Buying, personalized chatbot", 88, true]
+    source: "Study 1a: 163 university students on a mock shopping site, with each person seeing one chatbot."
+  autonomy:
+    title: "Felt freedom to decide, out of 7"
+    scale: [0, 7]
+    step: 1
+    unit: "out of 7"
+    decimals: 2
+    bars:
+      - ["Browsing, plain chatbot", 5.78]
+      - ["Browsing, personalized chatbot", 4.96, true]
+      - ["Buying, plain chatbot", 5.46]
+      - ["Buying, personalized chatbot", 5.42]
+    source: "Study 2: 319 participants. Only the browsing difference was statistically significant."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
