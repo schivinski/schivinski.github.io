@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-16",
+ "as_of": "2026-10-17",
  "scholar_snapshot": "2026-10-10",
  "baseline": "2026-10-10",
  "h_index": 33,
@@ -152,7 +152,7 @@
    "need": 11,
    "per_month": 0.37,
    "velocity_source": "openalex",
-   "months_to_cross": 29.6,
+   "months_to_cross": 29.7,
    "year": 2024,
    "title": "What if utilitarian products are regarded as high-status? The moderate role of iconic and popular as two dimensions of brand Coolness"
   },
@@ -162,7 +162,7 @@
    "need": 10,
    "per_month": 0.28,
    "velocity_source": "openalex",
-   "months_to_cross": 35.1,
+   "months_to_cross": 35.2,
    "year": 2022,
    "title": "Online Gambling Disorder Questionnaire (OGD-Q): An item response theory examination"
   },
@@ -172,7 +172,7 @@
    "need": 9,
    "per_month": 0.1,
    "velocity_source": "openalex",
-   "months_to_cross": 89.4,
+   "months_to_cross": 89.6,
    "year": 2019,
    "title": "The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish Restaurant Sector"
   },
@@ -182,7 +182,7 @@
    "need": 9,
    "per_month": 0.03,
    "velocity_source": "openalex",
-   "months_to_cross": 259.3,
+   "months_to_cross": 262.8,
    "year": 2021,
    "title": "Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scoping Review"
   },
