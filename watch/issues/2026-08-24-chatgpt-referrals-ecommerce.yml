@@ -1,0 +1,223 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 33
+week_of: "2026-08-24"            # the week this issue covers (shown on the page, orders the archive)
+slug: chatgpt-referrals-ecommerce
+status: live
+
+title: "Is ChatGPT a real traffic source for online shops? What a Marketing Science study found"
+dek: >-
+  A year after ChatGPT began linking to online shops, researchers followed its visitors through 973 e-commerce sites.
+  The channel is tiny, and its shoppers convert better than paid social but worse than almost everything else.
+short_title: "ChatGPT sends few shoppers, and they buy less often"
+
+description: >-
+  Across 973 online shops and $20 billion in sales, ChatGPT referrals made up under 0.2% of traffic and converted below most channels.
+
+keywords: [ChatGPT referrals, LLM traffic, e-commerce channels, conversion rate, average order value, revenue per session,
+  generative engine optimization, AI search, last-click attribution, product complexity, digital channels, Marketing Science]
+topics: [AI, Retail, Search]
+
+image:
+  file: issue-33-chatgpt-referrals-ecommerce.jpg
+  og: issue-33-chatgpt-referrals-ecommerce-og.jpg
+  alt: "An open laptop on a wooden desk in warm sunlight, with a phone and a closed tablet beside it and a plant behind"
+  caption: "Where a shopper asks matters as much as what they ask. This study tracks the ones who start with a chatbot. Photo: Jakub Żerdzicki on Unsplash."
+
+short_answer: >-
+  Not yet. A year after launch, visitors sent by ChatGPT were fewer than 0.2% of traffic. They converted
+  more often than paid social visitors but less often than every other channel, and they spent less per visit. The picture
+  is better for complex products and is improving over time. For most shops it is a small channel worth watching
+  rather than a new engine for sales.
+
+takeaways:
+  - "Across 973 sites, ChatGPT sent under 0.2% of traffic, about 200 times less than Google's organic search."
+  - "Compared with ChatGPT visitors, organic search visitors were 13% more likely to buy and affiliate visitors 86% more likely. Only paid social did worse."
+  - "In complex categories such as finance, vehicles and business services, ChatGPT's share of traffic was 4.6 times higher and its conversion rate beat several traditional channels."
+  - "Over the year, conversion rose while order values fell, so revenue per visit improved only modestly."
+
+paper:
+  doi: "10.1287/mksc.2025.0489"
+  title: "Frontiers: ChatGPT Referrals to E-Commerce Websites: How Do LLMs Compare Against Traditional Channels?"
+  authors: ["Kaiser, M.", "Schulze, C."]
+  authors_full: ["Maximilian Kaiser", "Christian Schulze"]
+  year: 2026
+  journal: "Marketing Science"
+  volume: "45"
+  issue: "4"
+  pages: "699-715"
+  online: "2026-04-21"
+  open_access: true
+  licence: "CC BY 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      In August 2024, ChatGPT began adding links to online shops when a user showed they wanted to buy something. Ask for an
+      espresso machine and you get a comparison and buy links for your country. These links are organic, not paid for
+      by advertisers. Marketers called it a new channel before anyone knew how well it worked.
+
+      Maximilian Kaiser, at the University of Hamburg and the analytics firm Grips Intelligence, and Christian Schulze, at
+      Frankfurt School of Finance & Management, got inside the analytics accounts of 973 online shops. They could see which
+      channel brought each visitor and what the visitor did next, for a full year.
+
+      They compared ChatGPT referrals with eight established channels: paid search, organic search, direct, email,
+      referral sites, affiliates, paid social and a catch-all "other". They looked at money (how many visits end in a
+      purchase, how large the order is, how much a visit earns) and at behaviour (bounces, time on site, pages viewed).
+    facts:
+      - ["Period", "August 2024 to July 2025, with the main analysis on the six months to early August 2025"]
+      - ["Shops", "973 e-commerce websites across 24 categories and every continent, with $20 billion in yearly revenue"]
+      - ["Volume", "More than 50,000 purchases from ChatGPT referrals, against 164 million from traditional channels"]
+      - ["Measure", "Last-click attribution: the channel of the final visit before purchase gets the credit"]
+      - ["Method", "Regression models that account for how few ChatGPT visits each shop receives in a week"]
+
+  - h: "A small channel that buys less often"
+    body: |
+      Start with scale. ChatGPT supplied less than 0.2% of all visits in the data. Over the six month main window it sent
+      about 4 million visits, where paid search sent about 1.5 billion. More than nine in ten of the AI-driven visits came
+      from ChatGPT. Perplexity, Gemini, Copilot and the rest were negligible.
+
+      Next, quality. The raw numbers look bad for ChatGPT, but they mislead. Half of the weekly ChatGPT figures contained
+      zero purchases, so simple averages are a poor guide. After the authors accounted for how many visits sat behind
+      each number, and for differences between shops, devices and months, the gaps narrowed. ChatGPT visitors still
+      converted less often than every channel except paid social.
+
+      The chart shows the odds of a visit ending in a purchase, with ChatGPT set to 100. Paid social comes in at 47,
+      about half as likely. Organic search is 13% higher. Affiliate visitors are nearly twice as likely.
+    chart: conversion
+
+  - h: "People stay briefly but they do not leave at once"
+    body: |
+      Engagement tells a mixed story. ChatGPT visitors bounced less than visitors from most channels. Email visitors were 20%
+      more likely to leave after one page, and organic search visitors 13% less likely. So the traffic is not junk, in the
+      sense of arriving by mistake.
+
+      Those visitors looked at fewer pages than every channel except paid social. Time on site landed in the middle.
+      Probably ChatGPT has already done the comparing, so the visitor arrives with a specific
+      product in mind and has less to browse.
+
+      Revenue per visit tells the same story as conversion. ChatGPT earned more per visit than paid social and less than
+      the other seven channels. Average order value was noisier, and for some channels the difference was not
+      statistically reliable.
+
+  - h: "Complex products fare better"
+    body: |
+      The study then asked where ChatGPT works best. The authors sorted shops by how complex their products are. Finance,
+      vehicles, business and consumer services, law and government, and jobs counted as complex. News, sport and
+      entertainment counted as simple.
+
+      On complex sites, ChatGPT's share of traffic was 4.6 times higher. Its conversion rate also beat paid social,
+      referral, email, organic search and direct traffic, and its revenue per visit moved closer to search. On simple sites
+      the gap was widest. Their explanation is that a chatbot adds most when the buyer has a lot of information to
+      weigh and adds friction when the purchase is routine.
+
+      They also split shops by how tech-savvy their visitors are. Where visitors skew toward technology fans, ChatGPT's
+      traffic share was 3.8 times higher. Where visitors are younger, it was 5.5 times higher. In both groups the conversion
+      gap to other channels shrank.
+
+      This part of the study is exploratory. The split uses shop-level categories, not individual shoppers, so it points to
+      a likely explanation without proving it.
+    chart: share
+
+  - h: "Conversion up, order values down"
+    body: |
+      The channel changed during the year. Conversion at ChatGPT visits climbed steadily, while conversion at other channels
+      held steady apart from holiday peaks. Order values moved the other way. Average order value from ChatGPT drifted
+      down, which offset much of the conversion gain.
+
+      The net result was a modest rise in revenue per visit. The authors projected the trend forward. In most scenarios,
+      ChatGPT's conversion rate gets close to organic search within another year without matching it. Revenue per visit matches organic search only
+      under the most optimistic projection. They stress that projections are uncertain.
+
+      The same pairing, higher conversion and lower order value, shows up in the shops with the most tech-savvy visitors.
+      That is why the authors point to growing skill with chatbots as the likely driver: people who use them well buy more often,
+      and they buy cheaper things.
+
+      Early industry reports had pointed in opposite directions, from conversion rates several times higher than search to
+      rates lower than other channels. This study is the first of its size and sides with the cautious end.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Find your AI referrals", "In your web analytics, open the report that lists visits by source. Filter for sources from AI chat tools such as ChatGPT. Write down visits, orders and revenue for the last 90 days."]
+  - ["Compare with two other channels", "Make a table with three rows: AI chat, organic search and email. For each, list visits, conversion rate and revenue per visit. If AI chat has fewer than 30 orders, treat its rate as noise and wait another month."]
+  - ["Check where those visitors land", "List the ten pages that receive the most AI chat visits. Open each on your phone. Each should show a price, stock status and a clear buy button without scrolling."]
+  - ["Make complex products easy to compare", "Pick your five products that need the most explaining. On each page add a short comparison table and a plain-language summary of who it suits. A chatbot can quote clear facts, and a shopper arrives ready to decide."]
+  - ["Tag your own links", "Where you can influence the link, such as a link you share in a chat or newsletter, add a tracking tag so the source shows separately in your reports. Check the next day that it appears."]
+  - ["Review monthly on three numbers", "Each month, record conversion rate, average order value and revenue per visit for AI chat. If conversion rises while order value falls, check which products those buyers choose before you increase effort on the channel."]
+
+expect:
+  - "**Small numbers, so patience.** Even a busy shop may see only a handful of AI-referred orders a week, which makes monthly figures swing."
+  - "**Better results in considered purchases.** Expect the strongest results where buyers compare many details, and weaker ones for routine buys."
+  - "**Cheaper baskets for now.** The trend in the data was more orders of lower value. Do not read a rising conversion rate as growth in revenue."
+  - "**Credit shows up late.** Last-click reports give ChatGPT credit only when it was the final visit, so earlier influence stays hidden."
+
+limits:
+  - "**Descriptive, not causal.** The study shows how channels compare. It cannot say that ChatGPT causes shoppers to buy less or more than they otherwise would."
+  - "**Last-click credit.** A shopper who researches in ChatGPT and buys later through search is counted as search. That understates the chat channel's role in discovery."
+  - "**A young channel.** The data stop in mid 2025. Instant checkout, shopping agents and paid ads in ChatGPT arrived afterwards and could change the picture."
+  - "**Data from one firm.** The data were supplied by Grips Intelligence, which employs the first author, and shops that share analytics may differ from those that do not."
+
+faq:
+  - q: "How much traffic does ChatGPT send to online shops?"
+    a: "Very little so far. Across 973 shops in a year, it supplied under 0.2% of visits, about 200 times less than Google's organic search (Kaiser & Schulze, 2026, Marketing Science)."
+  - q: "Do ChatGPT visitors convert better than visitors from search?"
+    a: "Not on average. Organic search visitors were about 13% more likely to buy than ChatGPT visitors. Paid social was the only channel that did worse than ChatGPT."
+  - q: "Which products suit ChatGPT referrals?"
+    a: "Complex ones. In categories such as finance, vehicles and business services, ChatGPT's share of traffic was 4.6 times higher and its conversion rate beat several established channels."
+  - q: "Will ChatGPT referrals keep improving?"
+    a: "The trend was upward for conversion and downward for order value. Projections say conversion approaches organic search within a year, without a guarantee, and new features could change the path."
+  - q: "Why do industry reports disagree with this study?"
+    a: "Earlier reports covered far fewer sites and gave answers that ranged widely. This study covers 973 shops and adjusts for how few ChatGPT visits each shop receives, which makes simple averages unreliable."
+
+also:
+  - doi: "10.1002/mar.70165"
+    title: "The AI Agent in the Room: Rethinking Consumer Decision-Making in the Age of Autonomous AI"
+    authors: "Bilgihan, Ostinelli, Lorenz, & Zhang"
+    journal: "Psychology & Marketing"
+    year: 2026
+    text: >-
+      An editorial that defines an AI agent by three features: autonomy, memory that adapts, and links to other tools. It
+      separates advisory agents, which recommend, from transactional agents, which buy for you. Mapping six years of
+      research, the authors find most studies look at reactions to recommendations and few look at how people prompt
+      agents or how trust builds. Plan for a customer who may no longer make the final click.
+  - doi: "10.1002/mar.70185"
+    title: "Beyond Black Boxes: AI Certification Labels Increase Adoption through Trust"
+    authors: "de Almeida, Glaum, Hildred, & Scott"
+    journal: "Psychology & Marketing"
+    year: 2026
+    text: >-
+      Across three studies, a simple "trustworthy AI" certification label raised both thinking-based and
+      feeling-based trust in an AI system and the intention to use it, with thinking-based trust carrying the effect. Labels that listed the
+      principles behind the certificate did better, and seeing labelled systems lowered trust in unlabelled ones. If you
+      want people to rely on an AI feature, show them why it can be trusted.
+
+charts:
+  conversion:
+    title: "Likelihood that a visit ends in a purchase, ChatGPT = 100"
+    scale: [0, 200]
+    step: 50
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Paid social", 47]
+      - ["ChatGPT", 100, true]
+      - ["Organic search", 113]
+      - ["Referral sites", 124]
+      - ["Email", 132]
+      - ["Direct", 133]
+      - ["Other", 144]
+      - ["Paid search", 145]
+      - ["Affiliate", 186]
+    source: "Table 3, six month data. Regression coefficients on conversion, converted to relative likelihood against ChatGPT (e.g. +13% for organic search, +86% for affiliate, 53% lower for paid social)."
+  share:
+    title: "How many times higher ChatGPT's traffic share is"
+    scale: [0, 6]
+    step: 1
+    unit: ""
+    decimals: 1
+    bars:
+      - ["Complex vs simple products", 4.6, true]
+      - ["Top vs bottom tech-savvy shops", 3.8]
+      - ["Younger vs older visitor shops", 5.5]
+    source: "Sections 6.1 and 6.2: complex against simple product categories, top against bottom quartile of technophile visitors, and younger against older visitors."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
