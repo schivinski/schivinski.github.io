@@ -1,30 +1,23 @@
 # Reader support for Marketing in 3, through Ko-fi (ko-fi.com/marketingin3, paid out to PayPal).
-# Ko-fi has one item at one price: it is set to EUR 1 in Ko-fi's settings and the supporter chooses the quantity,
-# so 1 = a thank-you, 2 = a coffee, 5 = a pint.
+# Ko-fi has one item, a coffee set to EUR 3 in Ko-fi's settings. Clicking a support link opens Ko-fi inside the page
+# (a dialog with Ko-fi's embedded widget, scripts/add_support.py); the plain link is the fallback.
 # Everything stays hidden while `url` is empty. With a url it shows:
 #   * a card at the end of every issue (`text`) and on the Subscribe page (`text_subscribe`), with one button
-#     per option below;
+#     per option below (only one now);
 #   * a line on the Marketing in 3 page (`line` + `link`) and a footer link on every page
 #     (`link`, scripts/add_support.py).
 # Clicks show in GoatCounter as the event `support`, with the button and the page they came from.
 url: "https://ko-fi.com/marketingin3"
-link: "Buy me a coffee or a pint"
+link: "Buy me a coffee"
 options:
-  - label: "A thank you"
-    price: "€1"
-    icon: heart
-  - label: "A coffee"
-    price: "€2"
+  - label: "Buy me a coffee"
+    price: "€3"
     icon: coffee
-  - label: "A pint"
-    price: "€5"
-    icon: beer
     primary: true
 text: >-
-  If this issue saved you a meeting or sharpened a campaign, say thanks with a euro, or buy me a coffee or a pint if it really helped. It
+  If this issue saved you a meeting or sharpened a campaign, buy me a coffee. It
   keeps Marketing in 3 free, weekly and ad-free.
 text_subscribe: >-
-  Marketing in 3 is free, weekly and ad-free. If it earns its place in your feed, a thank-you, a coffee or a pint helps keep it
+  Marketing in 3 is free, weekly and ad-free. If it earns its place in your feed, a coffee helps keep it
   that way.
-hint: "Opens Ko-fi: pick 1, 2 or 5 to match the button."
 line: "Free and ad-free, kept going by readers."
