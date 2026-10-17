@@ -760,3 +760,20 @@ main section h2 { margin-top: 2.4rem; }
 .mw-kofi-wait { position: absolute; inset: 0; display: grid; place-items: center; margin: 0; color: $muted; }
 .mw-kofi-frame { position: relative; display: block; width: 100%; height: 712px; border: 0; background: #fff; }
 .mw-kofi-foot { margin: 0; padding: .5rem 1rem; font-size: .85rem; text-align: center; border-top: 1px solid #e3e6ee; }
+
+// Pilot: round-avatar coffee prompt placed mid-issue
+.mw-coffee { display: flex; align-items: center; gap: 1.1rem; margin: 2rem 0; padding: .9rem 1.2rem .9rem .9rem; background: #fbf3e2; border: 1px solid #efdcae; border-radius: 999px; }
+.mw-coffee-avatar { width: 4.6rem; height: 4.6rem; flex: none; border-radius: 50%; object-fit: cover; border: 3px solid $amber; background: #4a3b27; }
+.mw-coffee-text { flex: 1 1 auto; min-width: 0; }
+.mw-coffee-text p { margin: 0; font-size: .95rem; line-height: 1.4; color: $muted; }
+.mw-coffee-text .mw-coffee-title { font-family: $headings-font-family; font-size: 1.15rem; font-weight: 600; color: $ink; margin-bottom: .1rem; }
+.mw-coffee-btn { flex: none; display: inline-flex; align-items: center; gap: .5rem; padding: .6rem 1.1rem; border-radius: 999px; background: $amber; color: $ink !important; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.mw-coffee-btn:hover { background: #f0b542; }
+.mw-coffee-btn svg { width: 1.1rem; height: 1.1rem; }
+.mw-coffee-price::before { content: "·"; margin-right: .45rem; opacity: .6; }
+@media (max-width: 640px) {
+  .mw-coffee { flex-wrap: wrap; border-radius: 2.4rem; padding: 1rem; gap: .8rem 1rem; }
+  .mw-coffee-avatar { width: 3.8rem; height: 3.8rem; }
+  .mw-coffee-text { flex-basis: calc(100% - 5rem); }
+  .mw-coffee-btn { flex: 1 1 100%; justify-content: center; }
+}

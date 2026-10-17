@@ -21,3 +21,8 @@ text_subscribe: >-
   Marketing in 3 is free, weekly and ad-free. If it earns its place in your feed, a coffee helps keep it
   that way.
 line: "Free and ad-free, kept going by readers."
+# Pilot: issues listed here show the round-avatar prompt in the middle of the issue (after the how-to) instead of
+# the card at the bottom. Remove `pilot` once the design is agreed and the bottom card is replaced everywhere.
+pilot: [meme-marketing]
+inline_title: "Found this useful?"
+inline_text: "Marketing in 3 is free, weekly and ad-free. A coffee keeps it that way."

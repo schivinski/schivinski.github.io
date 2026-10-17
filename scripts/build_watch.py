@@ -212,6 +212,31 @@ def support_card(where: str = "issue", text_key: str = "text") -> str:
             f'<div class="mw-support-btns">{"".join(btns)}</div>'
             + (f'<p class="mw-support-hint">{esc(cfg["hint"])}</p>' if cfg.get("hint") else "") + '</div>')
 
+def support_inline(slug: str) -> str:
+    """Pilot: a compact round-avatar prompt placed mid-issue (after the how-to), instead of the card at the bottom.
+    Only for slugs listed under `pilot` in watch/support.yml; the link opens Ko-fi in the on-site dialog."""
+    cfg = support_cfg()
+    url = cfg.get("url") or ""
+    if not url or slug not in (cfg.get("pilot") or []):
+        return ""
+    o = (cfg.get("options") or [{}])[0]
+    price = f'<span class="mw-coffee-price">{esc(o["price"])}</span>' if o.get("price") else ""
+    return ('<div class="mw-coffee" role="complementary" aria-label="Support Marketing in 3">'
+            '<img class="mw-coffee-avatar" src="../../../assets/support/bruno-coffee.webp" alt="" width="96" height="96" loading="lazy">'
+            f'<div class="mw-coffee-text"><p class="mw-coffee-title">{esc(cfg.get("inline_title", "Useful?"))}</p>'
+            f'<p>{esc(cfg.get("inline_text", ""))}</p></div>'
+            f'<a class="mw-coffee-btn" href="{esc(url)}" target="_blank" rel="noopener">'
+            f'{svg_icon("coffee")}<span>{esc(o.get("label", "Buy me a coffee"))}</span>{price}</a></div>')
+
+
+def svg_icon(name: str) -> str:
+    f = ROOT / "assets" / "icons" / f"{name}.svg"
+    if not f.exists():
+        return ""
+    t = re.sub(r"<!--.*?-->", "", f.read_text(encoding="utf-8"), flags=re.S).strip()
+    return t.replace("<svg", '<svg aria-hidden="true" focusable="false"', 1)
+
+
 def esc(x) -> str:
     return html.escape(str(x or ""), quote=True)
 
@@ -321,6 +346,9 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
             out.append(chart_svg(charts[s["chart"]], f"chart-{s['chart']}"))
         out.append("</section>")
     out.append(how_to_html(d["how_to"]))
+    inline = support_inline(d["slug"])
+    if inline:
+        out.append(inline)
     out.append('<section id="what-to-expect"><h2>What to expect</h2><ul class="mw-list">'
                + "".join(f"<li>{md(x)}</li>" for x in d["expect"]) + "</ul></section>")
     out.append('<section id="where-it-does-not-work"><h2>Where it does not work</h2><ul class="mw-list">'
@@ -346,7 +374,7 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
                'Technology. He studies how consumers engage with brands in digital and social media.</p>'
                '<p><a href="../../../index.html">About Bruno</a> · <a href="../../index.html">All Marketing in 3 issues</a> · '
                '<a href="../../subscribe.html">Subscribe</a></p></div></div>')
-    card = support_card()
+    card = "" if inline else support_card()
     if card:
         out.append(card)
     prev, nxt = prev_next

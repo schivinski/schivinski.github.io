@@ -19,6 +19,7 @@ project:
     - "assets/*.png"
     - "assets/fonts/*"
     - "assets/share/**"
+    - "assets/support/*"
     - "316433b063da86628eea6ac290ebe7f0.txt"
     - llms.txt
     - "papers/manuscripts/*.pdf"
