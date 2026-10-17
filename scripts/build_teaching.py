@@ -57,7 +57,7 @@ def course(c: dict, insts: dict, role: str, materials: str = "") -> str:
                 bits.append(f'· {esc(t["programme"])}')
             if t.get("years"):
                 bits.append(f'· {esc(t["years"])}')
-            rows.append(f'<li><img src="{esc(i.get("mark", i["logo"]))}" alt="" width="40" height="24">'
+            rows.append(f'<li><img src="{esc(i.get("mark", i["logo"]))}" alt="{esc(i["name"])}" width="40" height="24" loading="lazy">'
                         f'<span>{" ".join(bits)}</span></li>')
         taught = f'<div class="cp-taught"><h4>Taught at</h4><ul>{"".join(rows)}</ul></div>'
     outline = ('<details class="cp-outline"><summary>Course outline</summary><ol>'
@@ -142,9 +142,11 @@ def main() -> int:
           "description": ("Course portfolio of Bruno Schivinski: marketing, consumer behaviour, digital and international "
                           "marketing, advertising, research methods, applied statistics and structural equation modelling, "
                           "taught in Poland, Australia, Vietnam, Ghana and the UK. Open to visiting teaching."),
-          "page-layout": "full", "body-classes": "teaching-page"}
+          "page-layout": "full", "body-classes": "teaching-page",
+          "image": "assets/share/site.png", "image-alt": "Bruno Schivinski, Associate Professor of Marketing"}
     text = ("---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)
-            + "include-in-header:\n  text: |\n" + jsonld(d, insts) + "---\n\n"
+            + "include-in-header:\n  text: |\n" + jsonld(d, insts)
+            + '    <link rel="canonical" href="https://schivinski.com/teaching.html">\n' + "---\n\n"
             + "<!-- GENERATED from data/teaching.yml by scripts/build_teaching.py. Edit the data file. -->\n\n"
             + "```{=html}\n" + body + "\n```\n")
     (ROOT / "teaching.qmd").write_text(text)

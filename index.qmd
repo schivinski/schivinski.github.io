@@ -16,7 +16,7 @@ listing:
   date-format: "D MMMM YYYY"
   max-items: 3
   template: _templates/watch-list.ejs
-description: "Bruno Schivinski, Associate Professor of Marketing at Gdańsk University of Technology. Research on consumer engagement with brands in digital and social media, and the weekly Marketing in 3 research series."
+description: "Bruno Schivinski, Associate Professor of Marketing at Gdańsk University of Technology: consumer engagement with brands on social media, and Marketing in 3."
 ---
 
 <!-- DRAFT COPY: written from public information. Edit freely. -->

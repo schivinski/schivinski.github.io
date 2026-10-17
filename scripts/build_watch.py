@@ -33,6 +33,105 @@ AUTHOR = {
                "https://www.linkedin.com/in/bruno-schivinski-b2baa044"],
 }
 INK, AMBER, BAR, MUTED, RULE = "#15203b", "#e0a12a", "#aab3c5", "#5b6476", "#dde1e8"
+TOPICS_DIR = ROOT / "watch" / "topics"
+WEB = ROOT / "watch" / "images" / "web"   # WebP copies made by scripts/make_watch_images.py
+
+# Topic pages (watch/topics/<slug>.html): the page title and the search description for each topic.
+TOPIC_INFO = {
+    "AI": ("AI in marketing: research for practitioners",
+           "What new research says about AI in marketing, from generative AI ads to chatbots and AI service, "
+           "explained in plain English with steps to apply it."),
+    "Advertising": ("Advertising research for practitioners",
+                    "New peer-reviewed advertising research, explained in plain English: what works in digital "
+                    "ads, how to apply it and what results to expect."),
+    "Social media": ("Social media marketing research for practitioners",
+                     "Social media marketing studies from the leading journals, explained for practitioners: "
+                     "engagement, content, memes, live streams and what to do next."),
+    "UGC": ("User-generated content (UGC) research for practitioners",
+            "Research on user-generated content, online reviews and customer photos, explained in plain English "
+            "with practical steps for brands and platforms."),
+    "Influencers": ("Influencer marketing research for practitioners",
+                    "What peer-reviewed studies say about influencer marketing: endorsement rates, scandals and "
+                    "credibility, with steps you can apply to campaigns."),
+    "Personalization": ("Personalization research for practitioners",
+                        "New research on personalization and targeting in marketing, explained in plain English: "
+                        "when it pays, when it backfires and how to apply it."),
+    "Privacy": ("Consumer privacy research for practitioners",
+                "Marketing research on consumer privacy and data use, explained for practitioners, with practical "
+                "steps for collecting and using customer data well."),
+    "Retail": ("Retail and e-commerce research for practitioners",
+               "Retail and e-commerce studies from the top marketing journals, explained in plain English: carts, "
+               "stores, returns and what retailers can do next."),
+    "Service": ("Customer service research for practitioners",
+                "Research on customer service, frontline staff and service technology, explained in plain English "
+                "with steps managers can apply."),
+    "Search": ("Search and search advertising research for practitioners",
+               "New research on search engines, AI search and search advertising, explained for marketers, with "
+               "practical steps and realistic expectations."),
+    "Creative": ("Creative and content research for practitioners",
+                 "What new research says about ad creative, images, video and content design, explained in plain "
+                 "English with steps to apply it."),
+    "Research methods": ("Marketing research methods for practitioners",
+                         "New methods for testing marketing ideas, from in-feed experiments to field tests, "
+                         "explained in plain English for practitioners."),
+}
+
+
+def topic_slug(t: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
+
+
+def thumb_src(d: dict, prefix: str) -> str:
+    """Card image: the light WebP thumbnail when it exists, otherwise the Open Graph JPEG."""
+    stem = d["image"]["og"].rsplit(".", 1)[0].removesuffix("-og")
+    if (WEB / f"{stem}-640.webp").exists():
+        return f"{prefix}images/web/{stem}-640.webp"
+    return f"{prefix}images/{d['image']['og']}"
+
+
+def card(d: dict, prefix: str) -> str:
+    """One issue as a list card; prefix is the path from the page to watch/ (e.g. '../')."""
+    href = f"{prefix}posts/{d['slug']}/index.html"
+    return (f'<article class="watch-item"><a class="watch-thumb" href="{href}" tabindex="-1" aria-hidden="true">'
+            f'<img src="{thumb_src(d, prefix)}" alt="" loading="lazy" decoding="async" width="640" height="336"></a>'
+            f'<div><p class="watch-meta">Issue {d["issue"]} · Week of <time datetime="{d["week_of"]}">'
+            f'{long_date(d["week_of"])}</time></p><h3><a href="{href}">{esc(d["short_title"])}</a></h3>'
+            f'<p>{esc(plain(d["description"]))}</p></div></article>')
+
+
+def topic_counts(data: list) -> dict:
+    counts: dict = {}
+    for d in data:
+        for t in d.get("topics", []):
+            counts[t] = counts.get(t, 0) + 1
+    return counts
+
+
+def topic_bar(counts: dict, current: str | None, prefix: str) -> str:
+    """Topic filter: 'All issues' plus one link per topic, each opening that topic's page."""
+    items = [f'<a class="chip" href="{prefix}index.html"{" aria-current=\"page\"" if current is None else ""}>'
+             f'All issues</a>']
+    for t in sorted(counts, key=lambda k: (-counts[k], k)):
+        cur = ' aria-current="page"' if t == current else ""
+        items.append(f'<a class="chip" href="{prefix}topics/{topic_slug(t)}.html"{cur}>{esc(t)}'
+                     f'<span class="chip-n">{counts[t]}</span></a>')
+    return ('<nav class="mw-topicbar" aria-label="Browse issues by topic"><p class="mw-topicbar-label">Browse by topic</p>'
+            f'<div class="chips">{"".join(items)}</div></nav>')
+
+
+def keep_reading(d: dict, data: list) -> str:
+    """Up to three other issues that share the most topics with this one (newest first on ties)."""
+    mine = set(d.get("topics", []))
+    scored = [(len(mine & set(o.get("topics", []))), o["week_of"], o) for o in data if o["slug"] != d["slug"]]
+    scored = [s for s in scored if s[0] > 0]
+    scored.sort(key=lambda s: (s[0], s[1]), reverse=True)
+    picks = [s[2] for s in scored[:3]]
+    if not picks:
+        return ""
+    links = " · ".join(f'<a href="../../topics/{topic_slug(t)}.html">{esc(t)}</a>' for t in d.get("topics", []))
+    return ('<section id="keep-reading" class="mw-more"><h2>Keep reading</h2>'
+            f'<p class="mw-more-topics">More issues on {links}</p>'
+            '<div class="watch-list">' + "".join(card(o, "../../") for o in picks) + "</div></section>")
 
 
 
@@ -172,12 +271,22 @@ def chart_svg(c: dict, cid: str) -> str:
             f'<p class="mw-chart-src">{esc(c.get("source", ""))}</p></figure>')
 
 
-def body(d: dict, prev_next: tuple) -> str:
+def hero_html(img: dict) -> str:
+    """Hero photo: WebP at two widths when available (much lighter), with the original JPEG as fallback."""
+    stem = img["file"].rsplit(".", 1)[0]
+    tag = (f'<img src="../../images/{esc(img["file"])}" alt="{esc(img["alt"])}" width="1600" height="900" '
+           f'fetchpriority="high" decoding="async">')
+    if (WEB / f"{stem}-960.webp").exists() and (WEB / f"{stem}-1600.webp").exists():
+        return (f'<picture><source type="image/webp" sizes="(max-width: 900px) 100vw, 900px" '
+                f'srcset="../../images/web/{stem}-960.webp 960w, ../../images/web/{stem}-1600.webp 1600w">{tag}</picture>')
+    return tag
+
+
+def body(d: dict, prev_next: tuple, data: list) -> str:
     p = d["paper"]
     img = d["image"]
     out = [f'<p class="mw-kicker">Marketing in 3 · Issue {d["issue"]} · Week of {long_date(d["week_of"])}</p>',
-           f'<figure class="mw-hero"><img src="../../images/{esc(img["file"])}" alt="{esc(img["alt"])}" '
-           f'width="1600" height="900" fetchpriority="high"><figcaption>{esc(img["caption"])}</figcaption></figure>',
+           f'<figure class="mw-hero">{hero_html(img)}<figcaption>{esc(img["caption"])}</figcaption></figure>',
            f'<section class="mw-answer" aria-label="Short answer"><h2>The short answer</h2><p>{md(d["short_answer"])}</p></section>',
            '<section class="mw-takeaways"><h2>Key takeaways</h2><ul>'
            + "".join(f"<li>{md(t)}</li>" for t in d["takeaways"]) + "</ul></section>"]
@@ -211,6 +320,7 @@ def body(d: dict, prev_next: tuple) -> str:
                f'{esc(d.get("source_basis", "the published article"))}.{oa} '
                f'Numbers are as reported by the authors; read the article for full methods.</p></section>')
     out.append(related_pages_html(d.get("related_pages") or [], p.get("doi", "")))
+    out.append(keep_reading(d, data))
     out.append('<div class="mw-author"><img src="../../../assets/bruno.jpg" alt="Bruno Schivinski" width="64" height="64">'
                '<div><p><strong>Bruno Schivinski</strong> is Associate Professor of Marketing at Gdańsk University of '
                'Technology. He studies how consumers engage with brands in digital and social media.</p>'
@@ -278,7 +388,7 @@ def jsonld(d: dict, url: str) -> str:
     return "\n".join("    " + m for m in meta) + "\n"
 
 
-def build(d: dict, prev_next: tuple) -> dict:
+def build(d: dict, prev_next: tuple, data: list) -> dict:
     slug = d["slug"]
     url = f"{SITE}/watch/posts/{slug}/"   # clean directory URL: what gets shared, and what the sitemap lists
     fm = {
@@ -298,15 +408,75 @@ def build(d: dict, prev_next: tuple) -> dict:
         "page-layout": "article",
         "body-classes": "mw-page",
         "issue": d["issue"],
+        # light card image for the list templates (absolute, because listings do not rewrite custom fields)
+        "thumb": "/watch/" + thumb_src(d, ""),
     }
     text = ("---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)
             + "include-in-header:\n  text: |\n" + jsonld(d, url) + "---\n\n"
             + f"<!-- GENERATED from watch/issues/{d['_file']} by scripts/build_watch.py. Edit the data file. -->\n\n"
-            + "```{=html}\n" + body(d, prev_next) + "\n```\n")
+            + "```{=html}\n" + body(d, prev_next, data) + "\n```\n")
     out = POSTS / slug
     out.mkdir(parents=True, exist_ok=True)
     (out / "index.qmd").write_text(text)
     return {**d, "url": url}
+
+
+def write_topics(data: list) -> None:
+    """One page per topic (watch/topics/<slug>.qmd) listing every issue on it, plus the topic bar for the
+    main Marketing in 3 page (watch/_generated/topic-bar.md). Topic chips on issue pages link to these pages
+    (scripts/link_topics.py)."""
+    counts = topic_counts(data)
+    newest = sorted(data, key=lambda x: x["week_of"], reverse=True)
+    gen = ROOT / "watch" / "_generated"
+    gen.mkdir(exist_ok=True)
+    (gen / "topic-bar.md").write_text("```{=html}\n" + topic_bar(counts, None, "") + "\n```\n")
+    TOPICS_DIR.mkdir(exist_ok=True)
+    keep = set()
+    for t, n in counts.items():
+        slug = topic_slug(t)
+        keep.add(f"{slug}.qmd")
+        title, desc = TOPIC_INFO.get(t, (f"{t}: marketing research for practitioners",
+                                          f"New marketing research on {t.lower()}, explained in plain English for "
+                                          "practitioners, with steps to apply it and what to expect."))
+        url = f"{SITE}/watch/topics/{slug}.html"
+        items = [d for d in newest if t in d.get("topics", [])]
+        extra = [d for d in newest if d not in items][: max(0, 3 - len(items))]
+        ld = {"@context": "https://schema.org", "@graph": [
+            {"@type": "CollectionPage", "@id": url, "url": url, "name": title, "description": desc,
+             "isPartOf": {"@type": "Blog", "name": "Marketing in 3", "url": f"{SITE}/watch/"},
+             "about": {"@type": "Thing", "name": t}, "inLanguage": "en", "author": {"@id": AUTHOR["@id"]},
+             "mainEntity": {"@type": "ItemList", "numberOfItems": len(items), "itemListElement": [
+                 {"@type": "ListItem", "position": i + 1, "url": f"{SITE}/watch/posts/{d['slug']}/", "name": d["title"]}
+                 for i, d in enumerate(items)]}},
+            {"@type": "BreadcrumbList", "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{SITE}/"},
+                {"@type": "ListItem", "position": 2, "name": "Marketing in 3", "item": f"{SITE}/watch/"},
+                {"@type": "ListItem", "position": 3, "name": t, "item": url}]}]}
+        fm = {"title": title, "description": desc, "page-layout": "article", "body-classes": "mw-topic-page",
+              "image": f"../images/{items[0]['image']['og']}",
+              "open-graph": {"title": title, "description": desc, "image": f"../images/{items[0]['image']['og']}",
+                             "image-width": 1200, "image-height": 630},
+              "twitter-card": {"title": title, "description": desc, "card-style": "summary_large_image",
+                               "image": f"../images/{items[0]['image']['og']}"}}
+        word = "issue" if n == 1 else "issues"
+        body_html = (f'<p class="mw-kicker"><a href="../index.html">Marketing in 3</a> · Topic</p>'
+                     f'<p class="mw-topic-intro">{n} {word} of Marketing in 3 on <strong>{esc(t)}</strong>, newest first. '
+                     f'Each one explains a new peer-reviewed study in plain English, with steps to apply it.</p>'
+                     + topic_bar(counts, t, "../")
+                     + '<div class="watch-list">' + "".join(card(d, "../") for d in items) + "</div>")
+        if extra:
+            body_html += ('<section class="mw-more"><h2>More recent issues</h2><div class="watch-list">'
+                          + "".join(card(d, "../") for d in extra) + "</div></section>")
+        text = ("---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)
+                + "include-in-header:\n  text: |\n"
+                + f'    <link rel="canonical" href="{url}">\n'
+                + f'    <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n'
+                + "---\n\n<!-- GENERATED by scripts/build_watch.py from the issue topics. Do not edit. -->\n\n"
+                + "```{=html}\n" + body_html + "\n```\n")
+        (TOPICS_DIR / f"{slug}.qmd").write_text(text)
+    for stale in TOPICS_DIR.glob("*.qmd"):
+        if stale.name not in keep and "GENERATED by scripts/build_watch.py" in stale.read_text():
+            stale.unlink()
 
 
 def llms(built: list[dict]) -> None:
@@ -338,7 +508,9 @@ def main() -> int:
         for stale in POSTS.glob("*/index.qmd"):
             if stale.parent.name not in keep and (stale.read_text().find("GENERATED from watch/issues") >= 0):
                 stale.unlink()
-    built = [build(d, (data[i - 1] if i else None, data[i + 1] if i + 1 < len(data) else None)) for i, d in enumerate(data)]
+    built = [build(d, (data[i - 1] if i else None, data[i + 1] if i + 1 < len(data) else None), data)
+             for i, d in enumerate(data)]
+    write_topics(data)
     llms(built)
     print(f"Marketing in 3: built {len(built)} issue(s)")
     return 0

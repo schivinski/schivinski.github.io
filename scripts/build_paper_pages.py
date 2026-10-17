@@ -58,6 +58,19 @@ def plain(text: str) -> str:
     return re.sub(r"<[^>]+>", "", text or "").strip()
 
 
+def short_desc(text: str, limit: int = 158) -> str:
+    """Search-result description: the whole text if it fits, else its first sentence, else cut at a word.
+    Search engines show about 155 to 160 characters; the full 'In brief' stays in the page and the JSON-LD."""
+    t = re.sub(r"\s+", " ", plain(text))
+    if len(t) <= limit:
+        return t
+    first = re.split(r"(?<=[.!?])\s", t, maxsplit=1)[0]
+    if 70 <= len(first) <= limit:
+        return first
+    cut = t[: limit - 1].rsplit(" ", 1)[0].rstrip(" ,;:")
+    return cut + "…"
+
+
 # ---------- results chart ----------
 def results_svg(r: dict) -> str:
     rows = []
@@ -294,7 +307,7 @@ def head_layer(d: dict, slug: str, url: str) -> str:
     elif d.get("pdf_url"):
         meta.append(f'<meta name="citation_pdf_url" content="{esc(d["pdf_url"])}">')
     meta.append(f'<meta name="citation_keywords" content="{esc("; ".join(d.get("keywords", [])))}">')
-    meta.append(f'<meta name="description" content="{esc(plain(d["in_brief"]))}">')
+    meta.append(f'<meta name="description" content="{esc(short_desc(d["in_brief"]))}">')
     meta.append(f'<link rel="canonical" href="{url}">')
     meta.append('<script type="application/ld+json">' + json.dumps(ld_article, ensure_ascii=False) + "</script>")
     if d.get("faq"):
@@ -464,9 +477,16 @@ def build_page(path: Path, pubs: dict, pages: dict) -> dict:
         "pagetitle": d["title"],
         "paper-doi": d["doi"],
         "page-layout": "article",
-        "open-graph": {"description": plain(d["in_brief"])},
-        "twitter-card": {"description": plain(d["in_brief"])},
+        "open-graph": {"description": short_desc(d["in_brief"], 200)},
+        "twitter-card": {"description": short_desc(d["in_brief"], 200)},
     }
+    card = ROOT / "assets" / "share" / "papers" / f"{slug}.png"   # made by scripts/make_share_cards.py
+    if card.exists():
+        img = f"../assets/share/papers/{slug}.png"
+        fm["image"] = img
+        fm["image-alt"] = f"{d['title']} ({d['journal']})"
+        fm["open-graph"].update({"image": img, "image-width": 1200, "image-height": 630})
+        fm["twitter-card"].update({"image": img, "card-style": "summary_large_image"})
     text = ("---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)
             + "include-in-header:\n  text: |\n" + head_layer(d, slug, url) + "---\n\n"
             + "<!-- GENERATED from papers/data/" + path.name + " by scripts/build_paper_pages.py. Edit the data file, not this page. -->\n\n"

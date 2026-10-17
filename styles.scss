@@ -26,7 +26,11 @@ $headings-font-weight: 500;
 $border-color: $rule;
 
 /*-- scss:rules --*/
-@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap");
+/* Fonts are self-hosted (assets/fonts, SIL Open Font Licence): no request to Google, nothing blocking the first paint. */
+@font-face { font-family: "Hanken Grotesk"; font-style: normal; font-display: swap; font-weight: 100 900; src: url("/assets/fonts/hanken-grotesk-latin.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Hanken Grotesk"; font-style: normal; font-display: swap; font-weight: 100 900; src: url("/assets/fonts/hanken-grotesk-latin-ext.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Newsreader"; font-style: normal; font-display: swap; font-weight: 200 800; src: url("/assets/fonts/newsreader-latin.woff2") format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Newsreader"; font-style: normal; font-display: swap; font-weight: 200 800; src: url("/assets/fonts/newsreader-latin-ext.woff2") format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
 
 body { font-size: 1.0625rem; line-height: 1.65; font-feature-settings: "kern"; }
 h1, h2, h3 { text-wrap: balance; letter-spacing: -0.01em; }
@@ -703,3 +707,31 @@ main section h2 { margin-top: 2.4rem; }
   .mw-phase-name { display: inline; font-size: 1.3rem; margin-right: .5rem; }
   .mw-phase-sub { display: inline; }
 }
+
+/* ---------- Marketing in 3: topics ---------- */
+/* topic labels on an issue are links to the topic's page (scripts/link_topics.py) */
+.quarto-title-block .quarto-categories .mw-topic-chip { display: inline-block; padding: .25em .75em; margin: 0 .4em .35em 0;
+  font-size: .65em; text-transform: uppercase; letter-spacing: .03em; color: inherit; text-decoration: none;
+  border: 1px solid currentColor; border-radius: .25rem; opacity: .8; transition: opacity .15s, background-color .15s, border-color .15s; }
+.quarto-title-block .quarto-categories .mw-topic-chip:hover,
+.quarto-title-block .quarto-categories .mw-topic-chip:focus-visible { opacity: 1; border-color: $amber; background: rgba($amber, .22); color: inherit; }
+.mw-topicbar { margin: 1.4rem 0 1.6rem; }
+.mw-topicbar-label { font-size: .8rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: $muted; margin: 0 0 .1rem; }
+.mw-topicbar .chips { margin-top: .5rem; }
+.mw-topicbar a.chip { text-decoration: none; display: inline-flex; align-items: baseline; gap: .3rem; }
+.mw-topicbar a.chip:hover { border-color: $amber; color: $ink; }
+.mw-topicbar a.chip[aria-current="page"] { background: $ink; border-color: $ink; color: #fff; }
+.mw-topicbar a.chip[aria-current="page"] .chip-n { color: $amber; }
+.mw-topic-intro { font-size: 1.05rem; color: $text; max-width: 46rem; }
+.mw-topic-page .mw-kicker a { color: inherit; text-decoration: none; }
+.mw-topic-page .mw-kicker a:hover { text-decoration: underline; }
+.mw-more { margin-top: 2.4rem; }
+.mw-more-topics { color: $muted; font-size: .95rem; margin: -.2rem 0 .4rem; }
+.mw-more .watch-item { grid-template-columns: 11rem minmax(0, 1fr); gap: 1.1rem; padding-block: 1rem; }
+.mw-more .watch-item h3 { font-size: 1.12rem; }
+.mw-more .watch-item p:not(.watch-meta) { font-size: .93rem; }
+@media (max-width: 640px) {
+  .mw-more .watch-item { grid-template-columns: 7rem minmax(0, 1fr); }
+  .mw-more .watch-item p:not(.watch-meta) { display: none; }
+}
+.mw-hero picture { display: block; }

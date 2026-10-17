@@ -38,6 +38,10 @@ Issue 1 (`watch/issues/2026-01-12-generative-ai-ad-images.yml`) is the template:
    - `faq`: 4–5 questions people actually ask; answers stand alone and include the evidence.
    - `keywords`: 8–12 search phrases. `topics`: 2–3 categories (AI, Advertising, Social media, UGC, Influencers,
      Personalization, Privacy, Retail, Service, Search, Creative, Research methods).
+     Topics are the clickable labels on the issue: each opens `watch/topics/<topic>.html`, the page listing every
+     issue on that topic, and drives the "Keep reading" picks and the topic bar on the Marketing in 3 page. Reuse the
+     existing topic names exactly; a new name creates a new topic page (add its title and description to
+     `TOPIC_INFO` in `scripts/build_watch.py`).
 4. **Pick the picture**: a striking, high-quality photograph of the paper's subject (issue 1: a car), not an illustration.
    It must stop the scroll: bold colour, strong light, close crop and a clear focal point, editorial or advertising quality
    (Bruno: "sexy looking photos that entice the viewer"). Avoid bland stock scenes and generic office shots.
@@ -51,6 +55,8 @@ Issue 1 (`watch/issues/2026-01-12-generative-ai-ad-images.yml`) is the template:
    reuse an earlier issue's subject, credit the photographer in the caption. The Unsplash Licence covers the
    photographer's copyright, not the model's likeness, so avoid putting an identifiable real face next to a headline that
    makes a claim about that person. Save `watch/images/issue-NN-<slug>.jpg` (1600×900) and `-og.jpg` (1200×630).
+   Then run `python scripts/make_watch_images.py` and commit the new files in `watch/images/web/`: these light WebP
+   copies are what readers actually download (cards and hero), the JPEGs stay as share images and fallback.
 5. **Build and check**: `python scripts/build_paper_pages.py && python scripts/build_watch.py && quarto render`.
    Look at desktop and 390 px mobile (no horizontal scroll), confirm the JSON-LD parses.
 6. **Publish**: commit, push, dispatch the publish workflow.

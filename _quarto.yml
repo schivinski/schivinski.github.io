@@ -11,10 +11,13 @@ project:
     - scripts/add_icons.py
     - scripts/add_analytics.py
     - scripts/fix_watch_dates.py
+    - scripts/link_topics.py
   resources:
     - robots.txt
     - favicon.ico
     - "assets/*.png"
+    - "assets/fonts/*"
+    - "assets/share/**"
     - "316433b063da86628eea6ac290ebe7f0.txt"
     - llms.txt
     - "papers/manuscripts/*.pdf"
@@ -27,6 +30,8 @@ website:
   description: "Consumer behaviour, marketing psychology and digital media research."
   site-url: "https://schivinski.com"
   favicon: assets/favicon.svg
+  # default link-preview image (scripts/make_share_cards.py); pages with their own image override it
+  image: assets/share/site.png
   open-graph: true
   twitter-card: true
   navbar:
@@ -59,8 +64,13 @@ format:
     include-in-header:
       text: |
         <meta name="google-site-verification" content="07UIUFLSbcPDJm263G7oL8BCvnbHfhs0M4NEzCxbc0E" />
+        <link rel="preload" href="/assets/fonts/hanken-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="/assets/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
     theme:
       light: [flatly, styles.scss]
     title-block-banner: true
     toc: false
     smooth-scroll: true
+    # No page uses equations. Without this, a dollar sign in a listing description makes Quarto load
+    # MathJax and a render-blocking polyfill from two outside servers on the home and Marketing in 3 pages.
+    html-math-method: plain

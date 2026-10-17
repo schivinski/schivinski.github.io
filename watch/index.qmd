@@ -18,6 +18,8 @@ include-in-header:
 New research from the leading marketing journals, translated for practitioners: what each study found, how to
 use it in your strategy, and what results to expect.
 
+{{< include _generated/topic-bar.md >}}
+
 ::: {.mw-subscribe-line}
 [Subscribe to new issues](subscribe.qmd) by RSS, in Feedly, Inoreader or any feed reader.
 :::

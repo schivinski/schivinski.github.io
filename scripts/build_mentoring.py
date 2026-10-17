@@ -226,7 +226,8 @@ def main() -> None:
     fm = {"title": d["title"], "subtitle": d["subtitle"], "description": d["description"].strip(),
           "page-layout": "full", "body-classes": "mentoring-page"}
     text = ("---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)
-            + "include-in-header:\n  text: |\n" + jsonld(d) + "---\n\n"
+            + "include-in-header:\n  text: |\n" + jsonld(d)
+            + '    <link rel="canonical" href="https://schivinski.com/mentoring.html">\n' + "---\n\n"
             + "<!-- GENERATED from data/mentoring.yml by scripts/build_mentoring.py. Edit the data file. -->\n\n"
             + "```{=html}\n" + body + "\n```\n")
     (ROOT / "mentoring.qmd").write_text(text)

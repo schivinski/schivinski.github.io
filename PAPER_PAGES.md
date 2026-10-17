@@ -27,6 +27,9 @@ cannot access the article itself.
 3. **Figure.** Draw the study design (or the model) as an SVG in `papers/figures/`.
 4. **Build.** `scripts/build_paper_pages.py` generates the page, the Google Scholar tags,
    the structured data and the `llms.txt` entry. Never edit `papers/<slug>.qmd` by hand.
+   Run `python scripts/make_share_cards.py` once for a new paper and commit `assets/share/papers/<slug>.png`: it is
+   the link-preview image when the page is shared (LinkedIn, X, WhatsApp). The search description is the first
+   sentence of `in_brief` (cut to about 158 characters), so make that sentence stand on its own.
 5. **Accepted manuscript.** Generate a clean PDF from the published PDF Bruno uploads (see below).
 6. **Review.** Bruno checks the page in the private preview and the manuscript PDF. Status stays
    `draft` until he approves.
