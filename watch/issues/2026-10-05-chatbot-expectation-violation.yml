@@ -1,0 +1,183 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 39
+week_of: "2026-10-05"            # the week this issue covers (shown on the page, orders the archive)
+slug: chatbot-expectation-violation
+status: live
+
+title: "What happens when a brand's chatbot lets customers down? What a Journal of Product & Brand Management study found"
+dek: >-
+  A failed chatbot chat damages two things at once, the brand and the bot. A survey of 238 people and 36 interviews show
+  they cause different reactions, which need different responses.
+short_title: "When the chatbot fails, the brand takes the blame"
+
+description: >-
+  A survey of 238 people and 36 interviews show a failed brand chatbot hurts feelings and trust through the brand, and behaviour through the bot.
+
+keywords: [chatbots, negative brand engagement, expectation violation, customer service, service failure, brand trust, negative word of mouth,
+  disengagement, branded chatbots, customer experience, Journal of Product & Brand Management]
+topics: [AI, Service]
+
+image:
+  file: issue-39-chatbot-expectation-violation.jpg
+  og: issue-39-chatbot-expectation-violation-og.jpg
+  alt: "An empty airport baggage carousel with a stainless steel edge and a tiled floor, with more empty carousels stretching into the background"
+  caption: "An empty carousel and nobody to ask. The study's scenario was a lost bag and a chatbot that could not help. Photo: Mark Stuckey on Unsplash."
+
+short_answer: >-
+  The damage splits in two. When people feel the brand let them down, they respond with stronger feelings and doubts about the brand's
+  intentions. When they feel the chatbot let them down, they act, by recommending it less, complaining or warning others. A
+  bad chat can also push people to quiet withdrawal and indifference. In interviews, people with a good history with the brand were more
+  likely to complain privately and constructively.
+
+takeaways:
+  - "After a failed chat, a bigger fall in trust in the brand went with more negative feelings and more doubts about the brand. It had no clear link to behaviour."
+  - "A bigger fall in confidence in the chatbot went with more action against the brand, both helpful (feedback) and harmful (warning others)."
+  - "Negative engagement is not always loud. Some interviewees went numb, saying they felt nothing and simply would not use the brand again."
+  - "Interviewees who had a good history with the brand were more likely to complain in private and offer feedback."
+
+paper:
+  doi: "10.1108/JPBM-03-2025-5889"
+  title: "Unpacking negative brand engagement: the role of brand and chatbot expectation violation"
+  authors: ["El Midaoui, Y.", "Dessart, L.", "Standaert, W."]
+  authors_full: ["Youssra El Midaoui", "Laurence Dessart", "Willem Standaert"]
+  year: 2026
+  journal: "Journal of Product & Brand Management"
+  volume: "35"
+  issue: "7"
+  pages: "921-936"
+  online: "2026-04-01"
+  open_access: false
+  licence: ""
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Brands now put chatbots in front of customers at the moment they most need help, such as a changed flight, a lost bag or
+      a refund. When the bot fails, the customer has been let down twice, once by the machine and once by the company that put it there.
+      The researchers at HEC Liège asked whether those two letdowns lead to different reactions.
+
+      They used two linked studies. The first was a survey in which Belgian adults imagined losing their luggage on a flight and
+      asking a well-known mid-priced Belgian airline's chatbot for help. The bot gave poor answers again and again, shown in a
+      scripted chat. People rated how much they trusted the brand and how much they expected from the chatbot before the scenario, and
+      again afterwards. The drop in each was the measure of how far the brand or the bot had let them down.
+
+      The second was a set of interviews with 36 people who had actually had a bad branded chatbot experience in travel. This
+      was meant to show what the reactions looked like in real life.
+    facts:
+      - ["Survey", "238 Belgian residents who knew the airline, recruited through a panel in August 2024"]
+      - ["Scenario", "A lost bag and a chatbot that repeatedly failed to help"]
+      - ["Interviews", "36 people from 14 nationalities, 22 women and 14 men, nearly 24 hours of transcripts"]
+      - ["Measures", "Trust in the brand and expectations of the chatbot, before and after, plus emotional, cognitive and behavioural reactions"]
+      - ["Analysis", "Structural equation modelling for the survey, thematic coding for the interviews"]
+
+  - h: "Two letdowns, two kinds of reaction"
+    body: |
+      Both expectations fell after the failed chat. What differed was where the damage showed up.
+
+      People whose trust in the brand fell the most reported more negative feeling and more negative thinking about the
+      brand. They felt more anger and frustration, and they were more doubtful about the brand's intentions. The brand drop was linked more
+      strongly to the thinking than to the feeling.
+
+      People whose confidence in the chatbot fell the most behaved differently. They were more likely to take action against the brand,
+      with intentions such as warning others, complaining or recommending it less. The same drop was also linked to more helpful action,
+      such as giving feedback. The harmful side was slightly stronger.
+
+      The pairing was clean. Brand letdown did not clearly predict behaviour, and chatbot letdown did not clearly predict feelings
+      or thoughts. The authors read this as the brand being a relationship and the chatbot being a tool. When a relationship
+      is damaged, people feel and think. When a tool fails, they act.
+    chart: paths
+
+  - h: "What it looks like up close"
+    body: |
+      The interviews added a view the survey could not. Negative engagement came in an active form and a passive form, sometimes in the same person.
+
+      Customers with high expectations of the brand, such as those who thought of it as premium or who were loyal, tended to react
+      with anger and a feeling of unfairness. Others who felt abandoned in a moment of need went the other way. They said they felt nothing
+      toward the brand any more and just would not deal with it again.
+
+      Their thinking showed the same split. Some became cynical and believed the chatbot exists to wear customers down so they give up
+      on refunds, and that the brand, not the technology, was to blame. Others simply lost confidence in the whole support system.
+
+      Behaviour varied too. Most interviewees wanted to warn others publicly. A smaller group with a good history with the brand stayed
+      measured. They complained privately, told a few close people, and left the door open for a future booking.
+
+  - h: "What to do with it"
+    body: |
+      The authors' advice follows the split. Set honest expectations before the chat starts, for example by saying what the bot can and
+      cannot do and presenting it as an assistant and not as a stand-in for a person. That limits how far the chatbot's reputation falls, and
+      it keeps a bot failure from becoming a brand failure.
+
+      After a failure, match the response to the reaction. Angry customers need a fast, personal apology and a human. Quiet,
+      withdrawn customers need someone to reach out, because they will not complain and may not return. Customers who offer feedback should be
+      thanked and shown what changed.
+
+      The consistent theme was a route to a human. Interviewees who were still positive about the brand said the chatbot should not be the only door.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Read ten failed chats", "Pull ten recent chat logs where the customer ended unhappy, and write down what the customer expected the bot to do and what it did instead. Look for the same gap in at least three of them."]
+  - ["Say what the bot can and cannot do", "Open every chat with one line, such as \"I can track orders and answer delivery questions. For refunds I will pass you to a person.\" Use plain words and give a number for how soon a person will follow."]
+  - ["Add an easy way to a human", "Place a \"talk to a person\" button in the first screen of the chat, and also after any second unhelpful reply. Test that it works at three different times of day."]
+  - ["Plan two follow-ups", "Write one for angry customers, with a named person, an apology and a fix within one working day. Write another for customers who went quiet, with a short check-in message a week later and an offer to help."]
+  - ["Invite feedback after a failure", "After any chat that ends in a handover, ask one question: \"What should we have done better?\" Reply to every answer within three working days."]
+  - ["Track who comes back", "Each month, count what share of customers who had a failed chat bought from you again within 60 days. Compare those who got a follow-up with those who did not."]
+
+expect:
+  - "**Fewer surprises.** A clear statement of what the bot does tends to reduce the letdown, so fewer failures feel like betrayals."
+  - "**Silence needs watching.** Customers who withdraw will not show up in complaint counts, so look at repeat purchases as well."
+  - "**Two owners.** Brand and digital teams need to agree on promises and bot capabilities together, or gaps will keep opening."
+  - "**Handover decides the outcome.** How fast a person steps in matters more than how clever the bot is."
+
+limits:
+  - "**An imagined scenario.** The survey asked people to picture a lost bag and a failed chat, and measured what they said they would do, not what they did."
+  - "**One airline, one country.** The scenario used a Belgian mid-priced airline and Belgian residents, and the interviews were all in travel and tourism."
+  - "**Small effects.** The links between violation and reaction were modest, in the range of 0.15 to 0.22 on a standardised scale."
+  - "**No chatbot design tests.** The study did not vary the bot's name, avatar, tone or disclosure, which may change expectations."
+
+faq:
+  - q: "Does a bad chatbot experience hurt the brand?"
+    a: "Yes, in this study it did. Customers who had been let down by the chatbot were more willing to warn others and complain, and those let down by the brand felt more anger and doubt (El Midaoui, Dessart & Standaert, 2026, Journal of Product & Brand Management)."
+  - q: "Do customers blame the bot or the company?"
+    a: "Both, and for different things. Trust in the brand drove feelings and thoughts, and confidence in the chatbot drove actions. In interviews, many people held the brand responsible for the bot it chose to deploy."
+  - q: "What is negative brand engagement?"
+    a: "Unfavourable thoughts, feelings and actions toward a brand after a bad event. It can be active, such as anger and public complaints, or passive, such as indifference and quietly leaving."
+  - q: "Can a failed chatbot chat lead to constructive feedback?"
+    a: "Sometimes. The survey linked chatbot letdown to helpful action as well as harmful action, and interviewees with a good history with the brand were more likely to complain privately and suggest improvements."
+  - q: "How can a company limit the damage?"
+    a: "Set expectations about what the chatbot can do before the chat, give an easy route to a human, and respond differently to angry customers and to those who simply withdraw."
+
+also:
+  - doi: "10.1002/mar.70159"
+    title: "When and How Does Generative AI Outperform Human Agents in Service Recovery?"
+    authors: "Olya, Nazifi, Taheri, & Li"
+    journal: "Psychology & Marketing"
+    year: 2026
+    text: >-
+      In six studies set in live-streaming contexts, generative AI produced higher repurchase intention than human agents after a single
+      failure, and humans did better after a second one. High empathy brought AI level with humans on repeat failures, and compensation put
+      it ahead. Use AI for a first slip and a person for a second.
+  - doi: "10.1177/10946705261460013"
+    title: "Managing Critical Frontline Agent-Customer Interactions: The Role of Service Recovery Explanations Across Artificial Intelligence and Human Agents"
+    authors: "Fürst, Trißler, & Friedrich"
+    journal: "Journal of Service Research"
+    year: 2026
+    text: >-
+      Across three main studies and three supplementary ones, explaining a service recovery decision raised satisfaction and choice by
+      making the agent seem more competent and warm. Rationales beat excuses and justifications, specific explanations beat general ones, and
+      explanations from AI agents could be more impactful than those from humans. Explain the decision, specifically.
+
+charts:
+  paths:
+    title: "Link between a fall in expectations and each kind of negative engagement (path coefficient x 100)"
+    scale: [0, 30]
+    step: 5
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Brand letdown to feelings", 15, true]
+      - ["Brand letdown to thinking", 22, true]
+      - ["Chatbot letdown to helpful action", 18]
+      - ["Chatbot letdown to harmful action", 20]
+    source: "Study 1, Table 3, standardised paths from the structural model (N = 238). Only the four significant paths are shown. Brand letdown to behaviour and chatbot letdown to feelings or thinking were not significant."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
