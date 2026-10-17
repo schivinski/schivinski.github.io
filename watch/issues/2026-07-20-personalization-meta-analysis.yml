@@ -1,0 +1,258 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 28
+week_of: "2026-07-20"            # the week this issue covers (shown on the page, orders the archive)
+slug: personalization-meta-analysis
+status: live
+
+title: "Does personalization work, or does it creep people out? What a Journal of Marketing meta-analysis found"
+short_title: "Personalization works. Half-hearted does not."
+dek: >-
+  The privacy backlash everyone warns about is hard to find in 290 studies. What the data does show is a trap:
+  a little personalization is the weakest position, and the best results sit at the far end.
+
+description: >-
+  A meta-analysis of 1,536 results from 290 studies finds personalization lifts responses with almost no backlash.
+  Moderate levels do worst.
+
+keywords: [personalization, personalized marketing, personalization privacy paradox, privacy concerns, marketing
+  meta-analysis, psychographic data, targeted advertising, data-driven advertising, customer data, privacy
+  cynicism, personalized email, Journal of Marketing]
+topics: [Personalization, Privacy, Advertising]
+
+image:
+  file: issue-28-personalization-meta-analysis.jpg
+  og: issue-28-personalization-meta-analysis-og.jpg
+  alt: "A steel sewing needle in close-up with a bright red thread pulled through its eye, against a blurred background of red, yellow and green"
+  caption: "Threading the needle: the message has to be stitched to the person, and half a stitch holds nothing. Photo: Immo Wegmann on Unsplash."
+
+short_answer: >-
+  Yes, and the backlash is smaller than most marketers fear. A Journal of Marketing meta-analysis pooling 1,536
+  results found that personalization reliably improves how people respond (average correlation .23),
+  while privacy worry, irritation and ad avoidance did not measurably rise. Data tied to who people are, such as
+  interests and values, beats age, location and browsing history. And the curve is J-shaped: the weakest results
+  sit in the middle, not at the top.
+
+takeaways:
+  - "Across 290 studies, personalization raised positive responses (average correlation .23) and left negative ones at zero (.02)."
+  - "Stated intentions rose (.22). Measured behaviour on its own, such as clicks and orders, averaged .02, which cannot be told apart from zero."
+  - "Personalizing on age, location or past behaviour weakened the effect. Personalizing on interests and values did not."
+  - "A curve fitted the data better than a straight line in 9 of 10 tests: the weakest results sat in the middle of the personalization scale."
+
+paper:
+  doi: "10.1177/00222429261460888"
+  title: "Personalization in Marketing Communication: A Meta-Analysis"
+  authors: ["Eisend, M.", "Niewiadomska, D.", "van Noort, G."]
+  authors_full: ["Martin Eisend", "Dominika Niewiadomska", "Guda van Noort"]
+  year: 2026
+  journal: "Journal of Marketing"
+  online: "2026-06-05"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Ask whether personalization works and you get two stories. In one, a message that speaks to you feels relevant
+      and gets a better hearing. In the other, it feels like being watched and you push back. The field calls this
+      the personalization paradox, and individual studies have found support for both sides.
+
+      Martin Eisend, Dominika Niewiadomska and Guda van Noort did what a meta-analysis does: they gathered the
+      studies and pooled the results. They searched four databases, followed the citations of every relevant paper
+      and also took in working papers, theses and conference papers, so that studies with dull results were not
+      left out.
+
+      A study counted if it compared a personalized message with a plain one, or asked people how personalized a
+      message felt. Each result was turned into a correlation. Responses were sorted into two groups. Success means
+      people liked the ad, trusted the brand, clicked or said they would buy. Failure means they avoided the ad,
+      grew suspicious, felt it was intrusive or worried about privacy.
+
+      The team then coded the studies by what data the message used, where it ran, who saw it and how it was shown.
+      They also fitted curves to see how the effect changes as personalization goes up. Last, they surveyed 198
+      marketing professionals to find out what practitioners believe.
+    facts:
+      - ["Scope", "1,536 effect sizes from 290 studies in 229 papers"]
+      - ["Search", "Papers and unpublished work up to 2024, across EBSCO, ScienceDirect, ProQuest and Google Scholar"]
+      - ["Measure", "Correlation between personalization and each response"]
+      - ["Two outcome groups", "Success (liking, trust, clicks, buying) and failure (avoidance, suspicion, intrusiveness, privacy worry)"]
+      - ["Practitioner survey", "198 marketing professionals, asked what they believe and what they do"]
+
+  - h: "It works, and the backlash barely shows"
+    body: |
+      Take the success side first. Across 937 results, the average link between personalization and a positive
+      response was .23. That is a medium effect, big enough to see in a campaign. The strongest gains were in
+      credibility, loyalty, positive emotion, the value people see in an offer and willingness to pass it on. Trust
+      moved less.
+
+      Now the failure side, where the paradox says the damage should be. Privacy concerns, intrusiveness, avoidance
+      and suspicion all sat within a hair of zero, and none was statistically different from it. One measure did
+      move: negative emotion, at .14. But it rests on only eight results from five datasets, so I would not build a
+      policy on it.
+
+      The authors also checked whether backlash was quietly eating the gains. It was not. Whatever backlash existed
+      accounted for between 2.6% and 3.5% of the total effect.
+
+      So where does the fear come from? Partly from studies that did find backlash, which are real and get quoted.
+      The pooled picture says they are the exception, and that in the average study the ad worked.
+    chart: outcomes
+
+  - h: "Better than advertising in general"
+    body: |
+      An earlier meta-analysis of advertising as a whole, co-written by Eisend, gives a yardstick. Against it,
+      personalized messages did better on every measure the two share: 52% stronger on attitudes, 37% on behaviour,
+      45% on emotion, and 175% and 179% on cognitive responses and credibility.
+
+      Those percentages sound large because the baseline is modest. A correlation of .33 on attitudes means
+      personalization explains about 11% of the variation in how people feel about the ad. For credibility it is
+      about 26%.
+
+      Now the part that does not match the headline. When the researchers looked only at what people actually did
+      (clicks, opens, choices, purchases), the average effect was .02 across 150 results, and that is
+      indistinguishable from zero. Purchase intentions, the answer to a survey question, were up at .22.
+
+      Read that as a warning about measurement. Personalization reliably changes what people think and say. Whether it
+      changes what they do depends on the setting, and the pooled studies cannot tell you which.
+    chart: versus_ads
+
+  - h: "What you personalize with decides the result"
+    body: |
+      The coders sorted the data behind each message into types: demographic (age, gender), geographic (location),
+      behavioural (browsing and purchase history), socioeconomic (income, social ties) and psychographic
+      (personality, values, interests).
+
+      Personalizing on demographic, geographic or behavioural data produced weaker effects. Psychographic data did
+      not. The authors' reading is that this kind of data is tied to the customer's sense of self, so the message feels
+      like it is about them. Age, location and last week's clicks describe a person without being them.
+
+      How you got the data matters too. Messages built on data inferred from behaviour did worse than messages built
+      on what customers stated. Effects were stronger when people actively handed over the information, and
+      backlash fell when they were told their data was being collected and used.
+
+      Then what did not matter. Channel made no significant difference, whether the message ran on social media or elsewhere, online or
+      offline. Gender, age and student status did not either. That goes against the common belief that
+      older customers push back harder.
+
+      One setup effect deserves a flag. Studies in which participants merely imagined a personalized message
+      showed stronger effects than studies that showed a real one. Hypothetical scenarios flatter personalization.
+
+  - h: "A J, not a hill"
+    body: |
+      The best known model of the paradox is a hill. A little personalization helps, a lot creeps people out, so
+      aim for the middle. Five competing curves were set out in the paper, and the team tested which one the data
+      fit.
+
+      The hill lost. The data fit a J. Plotted against how personalized the message was, success results dipped as
+      personalization rose from low to moderate, then climbed to their best at the high end. Failure results made the
+      mirror image. In nine of ten statistical tests, a curve fitted better than a straight line.
+
+      The authors' explanation is privacy cynicism. A little personalization feels creepy. A lot of it tells the
+      customer the data collection is everywhere and nothing can be done about it, and resignation lowers the
+      resistance. They did not measure that directly, so treat it as their best reading and not a finding.
+
+      The practical message in the paper is blunt: favour high levels of personalization and avoid moderate ones. My
+      own picture of the moderate zone is a message that knows your name and one product you looked at. The paper does not
+      define it that way, but that is the weakest place to stand.
+
+  - h: "Where marketers' habits and the evidence part ways"
+    body: |
+      The survey of 198 practitioners shows how far habit sits from the evidence. About two thirds expected
+      positive effects and one third expected mixed ones. Most said they mainly use demographic, geographic and
+      behavioural data, mostly on social media and email. Many run moderate levels of personalization while believing
+      high levels work best.
+
+      Respondents also said they value transparency and underuse it. On a seven-point scale they rated the paper's findings
+      on data types and levels as surprising (3.96 to 4.95). They rated those same findings as useful (5.49 to 6.22).
+
+      It is a small survey of professionals recruited through an online panel, so take it as a sketch and not a census.
+      But the gap it points to, between the data most teams hold and the data that works best, is the practical core
+      of the paper.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List what you personalize with today", "Write down every piece of customer data your messages use. Next to each one, write how you got it: the customer told you, or you worked it out from what they did."]
+  - ["Sort it into three piles", "Pile one is who they are, like age, gender and city. Pile two is what they did, like pages viewed and past orders. Pile three is what they care about, like interests, goals and taste. Plan to lean on pile three."]
+  - ["Ask for pile three", "Add one question at sign up or at the first order: \"What are you shopping for?\" Give four or five answers to pick from and let them choose up to three. Use those answers in the next message you send."]
+  - ["Build three versions of one message", "Version A is the same for everyone. Version B adds a name and one thing they looked at. Version C uses what they told you they care about and reads as if it was written for one person. Make C feel personal, not like a template."]
+  - ["Tell them why they are seeing it", "Add one plain line at the bottom of the personal versions: \"You are seeing this because you told us you like hiking.\" Say where the information came from, in words a friend would use."]
+  - ["Test for seven days, then count orders", "Send A, B and C on the same day to three groups of equal size. After seven days, compare orders, clicks, unsubscribes and spam complaints for each. Judge by orders per 1,000 people. If C beats B, make C your default. Do not settle on B."]
+
+expect:
+  - "**Bigger lifts in what people say than in what they do.** Opinions and intentions move easily. Clicks and orders move less, so judge your test on orders and not on how people say they feel."
+  - "**The middle is the expensive trap.** Half-hearted personalization costs the same data work as the real thing and lands in the weakest part of the curve. Either commit or keep the message plain."
+  - "**Published averages are a ceiling, not a promise.** Effects were smaller in newer studies and smaller again in unpublished ones, so plan for less than the headline number."
+  - "**Your own result will differ.** The studies disagreed with each other a great deal, and the statistical tests for that disagreement were highly significant. Your list, product and channel will land somewhere in the spread."
+
+limits:
+  - "**Averages across very different studies.** Products, channels, scenarios and measures varied widely. An average tells you where to start testing, not what will happen to you."
+  - "**Correlation, not cause.** The moderator results show which kinds of studies found bigger effects. The authors say plainly that this cannot prove that the data type itself caused the difference."
+  - "**The J rests on a subset.** Under four in ten studies reported how personalized their message was. Only 335 of the 943 success results and 71 of the 188 failure results could be used to draw the curve."
+  - "**Publication bias is not ruled out for the success results.** The funnel plot checks flagged asymmetry, and unpublished studies showed smaller effects. Studies run to 2024, so newer AI-driven personalization is barely covered."
+
+faq:
+  - q: "Does personalization work in marketing?"
+    a: "On average, yes. Pooled studies show positive effects on attitudes, credibility, loyalty and purchase intentions, with an average correlation of .23. Measured behaviour was the weak spot, close to zero, so test on orders in your own setting (Eisend, Niewiadomska & van Noort, 2026, Journal of Marketing)."
+  - q: "Does personalization cause privacy backlash?"
+    a: "Barely, in the pooled data. The measures of worry, irritation, avoidance and distrust were all statistically indistinguishable from zero, with one small exception on negative feelings. Individual studies do find backlash, but it is not what the average looks like."
+  - q: "What kind of customer data works best for personalization?"
+    a: "Data tied to who the customer is: interests, values and personality. Age, location and browsing history gave weaker results. Information customers gave you directly beat information you inferred from their behaviour, and telling them you use it reduced backlash."
+  - q: "How much personalization is too much?"
+    a: "The evidence points at the middle, not the top. Results follow a J shape: persuasion is weakest at moderate levels and strongest at the highest. The authors suggest that heavy personalization produces resignation about data collection, which lowers resistance, though they did not test that directly."
+  - q: "Do older customers or certain channels respond differently to personalization?"
+    a: "Not in this analysis. Neither the channel nor the audience's gender, age or student status changed how well personalization worked significantly, and older audiences were not more resistant."
+
+also:
+  - doi: "10.1080/00913367.2026.2676600"
+    title: "Too Sensitive, Too Much? Triggers and Consequences of Perceived Surveillance in Digital Data-Driven Advertising"
+    authors: "Zhang, Strycharz, Boerman, Araujo, & Voorveld"
+    journal: "Journal of Advertising"
+    year: 2026
+    text: >-
+      An online experiment with 1,256 people varied how sensitive the data behind an ad was and how many types of
+      data it used. Ads built on sensitive data, or on several kinds of data, made people feel more watched. Adding
+      more data on top of sensitive data did not make it worse. Feeling watched lowered attitudes to the ad, the brand
+      and the platform, but did not raise privacy resignation. If you must use sensitive data, the amount matters less
+      than the fact you used it.
+  - doi: "10.1177/00222437261455302"
+    title: "Where Should Firms Implement Differential Privacy in Targeting? Implications for Profitability"
+    authors: "Ponte, Boot, Reutterer, & Wieringa"
+    journal: "Journal of Marketing Research"
+    year: 2026
+    text: >-
+      Differential privacy adds controlled noise so a targeting decision cannot reveal who is behind it. A field
+      experiment with 747,975 customers shows the placement matters. Applying the protection at the moment of the
+      targeting decision earned about five times the profit of the alternatives, and both approaches stayed
+      profitable under strong protection. If your team is adding privacy protection to targeting, ask where in the
+      workflow it goes before asking how much to add.
+
+charts:
+  outcomes:
+    title: "How strongly personalization lifts each response (correlation, 0 to 1)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: "r"
+    decimals: 2
+    bars:
+      - ["Credibility", 0.51]
+      - ["Loyalty", 0.43]
+      - ["Positive emotion", 0.40]
+      - ["Value of the offer", 0.39]
+      - ["Word of mouth", 0.38]
+      - ["Trust", 0.23]
+      - ["Purchase intention", 0.22]
+      - ["Actual clicks and purchases", 0.02, true]
+    source: "Eisend et al. (2026), Table 6, adjusted correlations. The last bar was not statistically different from zero."
+  versus_ads:
+    title: "Personalized messages against advertising in general (correlation, 0 to 1)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: "r"
+    decimals: 2
+    bars:
+      - ["Attitude, personalized", 0.33, true]
+      - ["Attitude, advertising in general", 0.21]
+      - ["Behaviour, personalized", 0.27, true]
+      - ["Behaviour, advertising in general", 0.20]
+      - ["Credibility, personalized", 0.51, true]
+      - ["Credibility, advertising in general", 0.18]
+    source: "Eisend et al. (2026), Table 9. Weighted as in the earlier advertising meta-analysis, so the figures differ from the paper's main table."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
