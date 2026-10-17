@@ -212,19 +212,19 @@ def support_card(where: str = "issue", text_key: str = "text") -> str:
             f'<div class="mw-support-btns">{"".join(btns)}</div>'
             + (f'<p class="mw-support-hint">{esc(cfg["hint"])}</p>' if cfg.get("hint") else "") + '</div>')
 
-def support_inline(slug: str) -> str:
-    """Pilot: a compact round-avatar prompt placed mid-issue (after the how-to), instead of the card at the bottom.
-    Only for slugs listed under `pilot` in watch/support.yml; the link opens Ko-fi in the on-site dialog."""
+def support_inline(prefix: str = "../../../", text_key: str = "inline_text") -> str:
+    """The round-avatar coffee prompt: mid-issue (after the how-to) and on the Subscribe page. `prefix` is the
+    relative path to the site root. The link opens Ko-fi in the on-site dialog (scripts/add_support.py)."""
     cfg = support_cfg()
     url = cfg.get("url") or ""
-    if not url or slug not in (cfg.get("pilot") or []):
+    if not url:
         return ""
     o = (cfg.get("options") or [{}])[0]
     price = f'<span class="mw-coffee-price">{esc(o["price"])}</span>' if o.get("price") else ""
     return ('<div class="mw-coffee" role="complementary" aria-label="Support Marketing in 3">'
-            '<img class="mw-coffee-avatar" src="../../../assets/support/bruno-coffee.webp" alt="" width="96" height="96" loading="lazy">'
+            f'<img class="mw-coffee-avatar" src="{prefix}assets/support/bruno-coffee.webp" alt="" width="96" height="96" loading="lazy">'
             f'<div class="mw-coffee-text"><p class="mw-coffee-title">{esc(cfg.get("inline_title", "Useful?"))}</p>'
-            f'<p>{esc(cfg.get("inline_text", ""))}</p></div>'
+            f'<p>{esc(cfg.get(text_key) or cfg.get("inline_text", ""))}</p></div>'
             f'<a class="mw-coffee-btn" href="{esc(url)}" target="_blank" rel="noopener">'
             f'{svg_icon("coffee")}<span>{esc(o.get("label", "Buy me a coffee"))}</span>{price}</a></div>')
 
@@ -346,7 +346,7 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
             out.append(chart_svg(charts[s["chart"]], f"chart-{s['chart']}"))
         out.append("</section>")
     out.append(how_to_html(d["how_to"]))
-    inline = support_inline(d["slug"])
+    inline = support_inline()
     if inline:
         out.append(inline)
     out.append('<section id="what-to-expect"><h2>What to expect</h2><ul class="mw-list">'
@@ -486,7 +486,7 @@ def write_topics(data: list) -> None:
                 f'<a href="{esc(cfg["url"])}" target="_blank" rel="noopener">'
                 f'{esc(cfg.get("link") or cfg.get("button", "Buy me a pint"))}</a></p>')
     (gen / "support-line.md").write_text("```{=html}\n" + line + "\n```\n" if line else "\n")
-    sub_card = support_card("subscribe", "text_subscribe")
+    sub_card = support_inline("../", "inline_text_subscribe")
     (gen / "support-card.md").write_text("```{=html}\n" + sub_card + "\n```\n" if sub_card else "\n")
     TOPICS_DIR.mkdir(exist_ok=True)
     keep = set()
