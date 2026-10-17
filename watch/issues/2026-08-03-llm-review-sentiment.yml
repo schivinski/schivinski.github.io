@@ -1,0 +1,203 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 30
+week_of: "2026-08-03"            # the week this issue covers (shown on the page, orders the archive)
+slug: llm-review-sentiment
+status: live
+
+title: "Can AI read a review the way its writer meant it? What a Marketing Letters study found"
+short_title: "When an AI misreads a review, readers do too"
+dek: >-
+  A language model read 28,900 product reviews and guessed each star rating. Most guesses were right. The misses
+  are the interesting part, because they point to reviews that people also struggle to read.
+
+description: >-
+  A language model guessed the star rating of 28,900 reviews from the text alone. When it missed, human readers missed too,
+  and found the review less helpful.
+
+keywords: [large language models, sentiment analysis, online reviews, review helpfulness, star ratings, hedonic products,
+  utilitarian products, search goods, experience goods, zero-shot classification, customer reviews, review ranking,
+  Marketing Letters]
+topics: [AI, UGC, Research methods]
+
+image:
+  file: issue-30-llm-review-sentiment.jpg
+  og: issue-30-llm-review-sentiment-og.jpg
+  alt: "Five yellow star-shaped erasers in a diagonal row across a pink and blue background"
+  caption: "A star rating is a one-number summary of a paragraph of text. This study asks how well a machine can run that summary backwards. Photo: Towfiqu barbhuiya on Unsplash."
+
+short_answer: >-
+  Quite well, but not perfectly, and the misses are useful. A general-purpose language model, with no special training,
+  guessed the author's star rating from review text alone. It matched the author closely overall. Where it
+  missed, ordinary readers also misjudged the rating, and they rated the review as less helpful. So a model's confusion can
+  work as an early warning for reviews that are hard to read.
+
+takeaways:
+  - "Without any training, the model's star guesses tracked the authors' real ratings closely (a correlation of .76), and only about 1 in 20 was two or more stars away."
+  - "The model found pleasure purchases easier than practical ones, because their writers use plainly opinionated words."
+  - "In an experiment with 1,063 people, the model's miss predicted the readers' miss, and the readers' miss predicted lower helpfulness ratings."
+  - "On the platform data the helpfulness link was strongest for goods you must try to judge. In the experiment it was strongest for goods you can judge before buying."
+
+paper:
+  doi: "10.1007/s11002-026-09824-7"
+  title: "Using LLMs as sentiment analyzers to predict review helpfulness: first insights to open the black box"
+  authors: ["Winter, C. G. H.", "Zacharias, N. A.", "Hartwig, M."]
+  authors_full: ["Christian G. H. Winter", "Nicolas A. Zacharias", "Mattis Hartwig"]
+  year: 2026
+  journal: "Marketing Letters"
+  volume: "37"
+  pages: "Article 30"
+  online: "2026-05-22"
+  open_access: true
+  licence: "CC BY 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Most online stores show two things for a review: a star rating and some text. Usually they agree. When they do not,
+      something has gone wrong, and either the writer or the reader may be to blame.
+
+      Christian Winter, Nicolas Zacharias and Mattis Hartwig, at Friedrich Schiller University Jena and the German
+      Research Center for Artificial Intelligence, turned that idea into a test. They gave a general-purpose language model
+      (GPT-4) the text of each review, hid the stars, and asked it to guess the rating. The gap between the guess and the
+      stars the author really gave became their measure of how hard a review is to read.
+
+      Three studies followed. The first asked how well the model reads reviews and for which products it struggles.
+      The second asked whether the gap predicts how many helpful votes a review gets. The third was an experiment that
+      asked real readers to guess the stars themselves, to see why.
+    facts:
+      - ["Reviews", "28,900 reviews with text, from the first page of results for 12 product searches on a global shopping platform"]
+      - ["Products", "Sorted as pleasure or practical, and as easy or hard to judge before buying, using an earlier classification"]
+      - ["The model", "GPT-4, used as it comes, with no training or tuning and a low creativity setting"]
+      - ["Experiment", "1,063 U.S. adults on Prolific, each shown one of 400 reviews with the stars hidden"]
+      - ["Helpfulness", "Helpful votes on the platform; a five-point helpfulness rating in the experiment"]
+
+  - h: "The model reads most reviews well"
+    body: |
+      Start with the plain result. The model's guesses and the authors' real ratings moved together closely. Across all
+      reviews, the guess tracked the real rating with a correlation of .76.
+
+      It was not perfect, and that is what makes the next step possible. Roughly 37% of reviews were given a different
+      number of stars than the author chose, and about 5% were off by two stars or more. Most misses were by one star, the
+      kind of difference between a 4 and a 5 that people themselves disagree about.
+
+      The team also checked whether a simpler setup does the job. Using the model as it comes did about as well as, or better than, four common
+      approaches that need to be trained on labelled reviews first. That matters for a small firm without a data
+      science team, because there is nothing to train.
+    chart: match
+
+  - h: "Pleasure purchases were easier, not harder"
+    body: |
+      The authors expected the opposite. Machines are often said to struggle with feelings, and pleasure purchases such as makeup
+      or a phone are bought on feelings. They predicted more misses for those.
+
+      They found fewer. Reviews of pleasure products were read more accurately than reviews of practical products such as
+      a printer or a vacuum cleaner. The likely reason is the style of the text. People writing about pleasure products
+      lean on openly personal, evaluative words like "great" and "love it". A follow-up check found those reviews were
+      indeed more subjective. Reading difficulty was no different between the two groups.
+
+      Misses were also more common for one-star reviews, for longer reviews and for more recent ones. A long angry
+      review can mix praise, complaint and sarcasm in one paragraph, which is hard for anyone to score. The authors
+      suggest the meaning of a star may also drift over time.
+
+  - h: "A miss can flag a hard-to-read review"
+    body: |
+      Now the main question. If the model struggles with a review, do people?
+
+      On the platform data, the gap did not predict helpful votes on its own. Once the authors separated goods you can judge
+      before you buy from goods you only know by using them, a pattern appeared. For goods you must try, a bigger gap
+      went with fewer helpful votes. That fits the idea that when you cannot check the product yourself, you lean harder on
+      reviews that are clear.
+
+      The experiment tested the reason. Readers who saw a review the model had misjudged were more likely to misjudge
+      it themselves. Misjudging, in turn, led them to rate the review as less helpful. The whole effect ran through
+      the readers' own confusion. Once their misreading was counted, the model's miss added nothing.
+
+      In other words, the model is not detecting quality directly. It is picking up on text whose message is muddled,
+      and muddled text is what readers dislike.
+
+  - h: "Two studies, two answers on which goods"
+    body: |
+      The two studies disagree on one detail, and the authors say so openly.
+
+      In the platform data, the link between the model's miss and helpfulness was stronger for goods you must try to judge.
+      In the experiment, the effect of the model's miss on helpfulness, through readers' confusion, showed up for goods
+      you can judge before buying and not for the other group.
+
+      The authors do not settle it. A reasonable reading is that the clean answer is the shared one: when the model
+      misses, readers tend to miss, and that costs helpfulness. Treat any claim about which kind of product is hit harder
+      as open.
+
+      The platform data also carries a built-in limit. More than half of the reviews, 15,529 of 28,900, had no helpful votes at
+      all, so a missing vote can mean unhelpful or simply unread. The team used a statistical model built for that, and the
+      experiment avoids the problem.
+    # no chart here
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Pull a sample of 200 reviews", "Export your most recent 200 reviews with the star rating and the text. Put the text in one column and the stars in another. Cover the star column when you start step 2."]
+  - ["Ask an AI tool to guess the stars", "Paste each review into a chat tool with this instruction: \"Read this review and reply with one number from 1 to 5, the star rating the writer most likely gave.\" Do not show it the real stars. Write each guess next to the real rating."]
+  - ["Mark the misses", "Count how many guesses match exactly. Then mark every review where the guess is two or more stars away from the real rating. Those marked reviews are your hard-to-read ones."]
+  - ["Read the marked reviews yourself", "Read ten of them. Sort each into one cause: mixed praise and complaint, sarcasm, a rating that looks like a mistake, or a long ramble. Write down which cause is most common."]
+  - ["Fix what you can control", "If wrong-star reviews are common, add one line to your review request: \"In one sentence, tell us why you chose that many stars.\" If sarcasm or mixed reviews dominate, reply to those first with a question that clears it up."]
+  - ["Check whether it pays", "After four weeks, repeat the guess test on the new reviews. Compare the share of marked reviews that get a helpful vote with the share of unmarked ones. If marked reviews do worse, show unmarked ones first on your page."]
+
+expect:
+  - "**A cheap first screen.** An off-the-shelf AI tool can sort reviews into clear and muddled without any setup, so a small team can try it in an afternoon."
+  - "**Clear reviews get more votes.** The study links muddled text to lower helpfulness, so clear reviews are the ones worth showing first."
+  - "**Most misses are small.** Expect many one-star differences. The signal is in the two-star gaps."
+  - "**Different results by product.** Practical products produced more misses than pleasure products, so set your bar by category."
+
+limits:
+  - "**One model, one platform, one moment.** The team used GPT-4 on reviews from one shopping platform. Newer models may behave differently, though a later, smaller model gave the same results."
+  - "**The reason is inferred.** The authors argue that muddled text raises the effort of reading, but they did not test effort directly."
+  - "**The experiment is artificial.** Guessing a hidden star rating is a device to isolate the mechanism, not something readers do while shopping."
+  - "**Votes are a thin signal.** More than half the reviews had no helpful votes, and the two studies disagree on which kind of product the effect is stronger for."
+
+faq:
+  - q: "Can a large language model tell the star rating from a review's text?"
+    a: "Mostly. Used with no training, GPT-4's guesses tracked authors' real ratings closely, with only about 1 in 20 guesses two or more stars away (Winter, Zacharias & Hartwig, 2026, Marketing Letters)."
+  - q: "Is an AI sentiment tool less accurate on emotional reviews?"
+    a: "Not here. The tool did better on pleasure products than on practical ones, probably because their writers use openly evaluative words. Do not assume emotional text is harder for the tool."
+  - q: "Why would an AI's mistake predict a less helpful review?"
+    a: "The mistakes seem to track muddled writing. When the model misread a review, human readers were more likely to misread it too, and that confusion is what lowered helpfulness ratings."
+  - q: "Do I need to train a model to score my reviews?"
+    a: "No. The approach used an existing model as it comes, with a one-line instruction. In the benchmark it scored on par with four common methods that need labelled training data."
+  - q: "Can I use this to remove reviews from my page?"
+    a: "It is not built for that. A model's miss shows that a review is hard to read, not that it is false or low in value. Use it to decide which reviews to reply to or show first, not which ones to hide."
+
+also:
+  - doi: "10.1177/10949968261447298"
+    title: "The Impact of Follower-Based Status Change on Influencer Content Creation: Evidence from a Regression Discontinuity Approach"
+    authors: "Zhong, Wu, Sun, & Chen"
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      A Chinese platform gives influencers "mid-tier" status once they pass 50,000 followers. Comparing creators just
+      above and below that line, gaining the status led to more sponsored posts but not more organic ones, and neither
+      kind got more engagement. The extra sponsorship came through the agencies that manage creators and hand out deals
+      by status. Where status is a gate to brand deals, a follower count can matter more than the content.
+  - doi: "10.1177/00222429261466254"
+    title: "Preference Filtering: When Customers Share Narrow Preferences with Algorithms"
+    authors: "Gai, Leung, & Klesse"
+    journal: "Journal of Marketing"
+    year: 2026
+    text: >-
+      Asked to pick interests for recommendations, customers share a narrower set with an algorithm than with a human
+      curator, because they expect the algorithm to weigh everything equally. Across 12 studies with 8,824 people,
+      this looks sensible at the time but leads to poorer recommendations later. Two studies on video-streaming sites
+      show that easing the filtering increased engagement. If you ask for preferences, show what the choices will be used for.
+
+charts:
+  match:
+    title: "How the model's star guess compared with the author's rating"
+    scale: [0, 80]
+    step: 20
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Same stars", 63, true]
+      - ["One star off", 32]
+      - ["Two or more stars off", 5]
+    source: "Study 1, 28,900 reviews. 37% misclassified and about 5% two or more points apart; the one-star group is the remainder."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
