@@ -1,0 +1,215 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 37
+week_of: "2026-09-21"            # the week this issue covers (shown on the page, orders the archive)
+slug: virtual-influencer-meta-analysis
+status: live
+
+title: "Do virtual influencers work? What a Journal of the Academy of Marketing Science meta-analysis found"
+dek: >-
+  Across 210 experiments and about 91,000 consumers, computer-generated influencers beat humans on novelty and
+  trail them on trust. How lifelike the character looks decides which of the two does the persuading.
+short_title: "Virtual influencers: novelty or trust, not both"
+
+description: >-
+  A meta-analysis of 210 experiments finds virtual influencers win on novelty, lose on credibility, and that how human they look decides which one matters.
+
+keywords: [virtual influencers, AI influencers, influencer marketing, meta-analysis, anthropomorphism, credibility, novelty,
+  endorsement, computer-generated influencers, social media marketing, Journal of the Academy of Marketing Science]
+topics: [Influencers, AI, Social media]
+
+image:
+  file: issue-37-virtual-influencer-meta-analysis.jpg
+  og: issue-37-virtual-influencer-meta-analysis-og.jpg
+  alt: "A black and white photo of a shop window mannequin with a smooth, featureless face and a sleeveless patterned top, with clothes on hangers behind"
+  caption: "A figure that looks human without being one. How far a virtual influencer goes in that direction turns out to matter. Photo: Hennie Stander on Unsplash."
+
+short_answer: >-
+  They work differently from human influencers, and it depends on the design. Compared with human endorsers, virtual influencers
+  drew similar engagement, more novelty, and less credibility, weaker attitudes and weaker purchase intentions. The
+  more human they look, the more they win by being believable. The more cartoon-like they look, the more they win by
+  being new. And as people get used to them, the novelty fades while believability gains ground.
+
+takeaways:
+  - "Compared with human influencers, virtual ones rated lower on credibility, brand and ad attitudes and purchase intention, with no clear difference in engagement."
+  - "They did score higher on novelty. Cartoon-like characters had a much larger novelty boost than lifelike ones."
+  - "Lifelike characters persuade mainly through credibility. Cartoon-like ones persuade mainly through novelty."
+  - "Over time, the novelty advantage shrank by about two thirds across studies, while the credibility penalty roughly halved."
+
+paper:
+  doi: "10.1007/s11747-026-01186-w"
+  title: "Virtual influencer marketing: A meta-analytic review"
+  authors: ["Barari, M.", "Eisend, M.", "Kulczynski, A."]
+  authors_full: ["Mahmoud Barari", "Martin Eisend", "Alex Kulczynski"]
+  year: 2026
+  journal: "Journal of the Academy of Marketing Science"
+  volume: "54"
+  issue: "5"
+  pages: "1209-1233"
+  online: "2026-07-28"
+  open_access: true
+  licence: "CC BY 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Virtual influencers are computer-generated characters with their own social media accounts and brand deals. Some look
+      almost like real people. Others are cartoons. Dozens of experiments have asked whether they sell as well as humans, and the answers
+      have disagreed. Some find they are better, some equal, some worse.
+
+      The authors searched every database they could find through the end of 2025 and kept only experiments that compared a virtual
+      influencer with a human one. That left 110 papers, 210 separate experiments and 643 measured effects, covering 91,058 consumers.
+      They put the results on a common scale and then asked what explains the differences between studies.
+
+      They tested two ideas. The first is that how human the character looks changes how it persuades. The second is that
+      novelty, which pulls in attention at first, wears off as people get used to the characters. They also
+      surveyed 204 marketing professionals for a practitioner view.
+    facts:
+      - ["Papers", "110 papers reporting 210 experiments and 643 effect sizes"]
+      - ["Consumers", "91,058 across all the experiments"]
+      - ["Comparison", "A virtual influencer against a human influencer, almost always"]
+      - ["Search", "1,289 papers screened from major databases, searched to the end of 2025"]
+      - ["Practitioner check", "A survey of 204 marketing and communication professionals"]
+
+  - h: "Novelty up, credibility down"
+    body: |
+      On average, virtual influencers did worse than human ones on the outcomes that matter to a sale. They were rated less credible,
+      and produced weaker attitudes toward the ad and the brand and weaker intentions to buy. The gap was largest for
+      credibility.
+
+      Engagement was the exception. Likes, comments and shares showed no reliable difference. Virtual influencers can
+      hold an audience without persuading it as well.
+
+      The one clear advantage was novelty. Virtual influencers came across as newer and more unusual, which people respond to.
+
+      So the old question of whether virtual influencers are better or worse than humans has no single answer.
+      They trade trust for freshness, and the question is how much of each a campaign needs.
+
+  - h: "How human it looks changes how it persuades"
+    body: |
+      The more useful finding is about design. The authors split characters into highly lifelike ones and low-likeness ones, such as
+      cartoons and obvious characters.
+
+      Lifelike influencers lost less credibility and gained less novelty. Their credibility shortfall was less than half the
+      cartoon-like one, and their novelty boost about a third of it. Credibility
+      also carried more weight in shaping attitudes for lifelike characters, while novelty carried more weight for
+      cartoon-like ones.
+
+      Put simply, a lifelike character is judged as if it were a person, using the usual yardsticks of
+      expertise and trustworthiness. A stylised character is judged as a curiosity, and it persuades by being interesting.
+    chart: design
+
+  - h: "What to pair with which"
+    body: |
+      The authors then looked at which campaign choices fit which design. Lifelike characters did better with these:
+
+      - a character presented as acting on its own
+      - a brand positioned as futuristic
+      - a new, unfamiliar product
+      - rational messages
+      - emphasis on touch, taste or smell
+
+      Cartoon-like characters did better with the opposite choices: no claim of independence, a traditional brand, a familiar
+      product, emotional messages, and emphasis on sight and sound.
+
+      The logic is fit. Touch and taste claims need a character that could plausibly have a body to experience them, and sight and
+      sound claims do not. Several other factors made no difference to the result, including whether the brand sells function or
+      experience, whether the tone is entertaining or informative, and whether the product is high or low involvement.
+      So many everyday campaign choices do not need to be tuned to the character's look.
+
+      Professionals in the survey agreed on the general picture: they rated virtual influencers best on novelty and worst on
+      credibility and purchase intention.
+
+  - h: "Novelty wears off"
+    body: |
+      The last test was over time. The authors compared earlier studies with more recent ones. The novelty advantage was
+      much smaller in the recent group, as people tend to habituate to anything new.
+
+      The credibility shortfall also eased. In recent studies, a virtual influencer's credibility gap was roughly half what it was
+      earlier, and credibility did more to shape attitudes. The authors suggest that as the characters become familiar,
+      people judge them less as a novelty and more as a source of recommendations.
+
+      The practical consequence is that a campaign built mainly on novelty has a shelf life. A character that persuades by being unusual
+      will need something besides novelty as audiences get used to it.
+    chart: time
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Choose one goal", "Write one sentence stating what the campaign is for: to be trusted or to get noticed. If you write both, pick the one you would give up the other for."]
+  - ["Match the character to the goal", "If the goal is trust, pick a lifelike character. If the goal is attention, pick a stylised or cartoon-like one. Show your shortlist to five colleagues and ask which one they would believe."]
+  - ["Check the product and brand fit", "Lifelike suits a new product or a forward-looking brand. A stylised character suits a familiar product or a traditional brand. If your answers split, go with the product."]
+  - ["Write the message to suit", "For a lifelike character, lead with facts and, where it fits, touch, taste or smell. For a stylised one, lead with feeling and use sight and sound. Draft one post each way."]
+  - ["Test two versions", "Show each version to a separate, equal audience of at least 1,000 people. Compare engagement and ask one trust question afterwards, such as \"How much do you trust this recommendation, from 1 to 7?\"."]
+  - ["Check again after eight weeks", "Repeat the trust question and the engagement count with the same character. If attention falls while trust holds, plan a new angle before novelty runs out."]
+
+expect:
+  - "**Attention without conversion.** Expect engagement to look like a human campaign's while purchase intentions lag."
+  - "**A fading edge.** The novelty advantage shrinks as audiences see more of these characters, so plan fresh content."
+  - "**Design is the big lever.** The look of the character is the main choice, and it is hard to change once a character is chosen."
+  - "**Many small choices do not matter.** Tone, involvement and narrative voice did not interact with the design, so spend your testing time elsewhere."
+
+limits:
+  - "**Experiments, not sales.** The studies measure attitudes, intentions and engagement in controlled settings, not purchases or long-term brand value."
+  - "**Mostly human comparisons.** Almost every experiment compared a virtual influencer with a human, so the results say less about virtual influencers versus other kinds of ads."
+  - "**A young field.** The earlier and recent groups differ in more than time, such as the characters and platforms used."
+  - "**Survey is small.** The 204 professionals offer a perspective, not a test of the effects."
+
+faq:
+  - q: "Are virtual influencers as effective as human influencers?"
+    a: "On engagement, about equal. On credibility, attitudes and purchase intention, they did worse, and on novelty they did better. That is the pattern across 210 experiments (Barari, Eisend & Kulczynski, 2026, Journal of the Academy of Marketing Science)."
+  - q: "Should a virtual influencer look more human?"
+    a: "It depends on the goal. A lifelike character does better where trust and credibility matter. A stylised one does better where attention matters. Neither design wins everywhere."
+  - q: "Does the novelty of virtual influencers last?"
+    a: "Not fully. The novelty advantage was much smaller in recent studies than in earlier ones, while the credibility gap narrowed."
+  - q: "Which products suit a virtual influencer?"
+    a: "New products suit lifelike characters, and familiar products suit stylised ones. Touch, taste and smell claims fit lifelike characters better, while sight and sound claims fit both."
+  - q: "How reliable are these results?"
+    a: "They rest on a large set of experiments and checks across journals and published or unpublished papers. They are still lab-style measures of attitudes and intentions, and not of actual sales."
+
+also:
+  - doi: "10.1007/s11747-026-01185-x"
+    title: "What drives virtual influencers' impact?"
+    authors: "Cascio Rizzo, Villarroel Ordenes, & Berger"
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2026
+    text: >-
+      Posts that show a virtual influencer with a human they seem to interact with drew more engagement and choice than posts with
+      a human who is merely present. The mechanism is that the social tie makes the character seem more human and so more
+      trustworthy. The boost was larger for less humanlike characters and absent when the companion was another virtual figure.
+      If you use a virtual influencer, show it in company.
+  - doi: "10.1080/00218499.2026.2620892"
+    title: "A Meta-Analytic Comparison of Human Influencers and Virtual Influencers Across Different Levels of Human-Likeness: Is Humanness More Persuasive?"
+    authors: "Chu, Looi, & Liu"
+    journal: "Journal of Advertising Research"
+    year: 2026
+    text: >-
+      A second meta-analysis, of 46 experiments, finds virtual influencers matched humans on behavioural intentions and actual
+      behaviour while trailing on attitudes. They fell short when follower counts were low or hidden and caught up when the
+      count was high. Human-like characters beat anime-like ones on source perceptions and behavioural intentions. Show a large follower count.
+
+charts:
+  design:
+    title: "Virtual vs human influencer, by look of the character (correlation x 100)"
+    scale: [0, 60]
+    step: 10
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Novelty boost, lifelike", 21, true]
+      - ["Novelty boost, cartoon-like", 58]
+      - ["Credibility shortfall, lifelike", 9, true]
+      - ["Credibility shortfall, cartoon-like", 22]
+    source: "Table 9, MASEM paths from virtual influencer to novelty and to credibility, high versus low anthropomorphism. Credibility bars show the size of the shortfall against human influencers."
+  time:
+    title: "Virtual vs human influencer, earlier and recent studies (correlation x 100)"
+    scale: [0, 60]
+    step: 10
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Novelty boost, earlier studies", 58, true]
+      - ["Novelty boost, recent studies", 20]
+      - ["Credibility shortfall, earlier", 25, true]
+      - ["Credibility shortfall, recent", 12]
+    source: "Table 10, MASEM paths from virtual influencer to novelty and to credibility, earlier versus recent period. Credibility bars show the size of the shortfall against human influencers."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
