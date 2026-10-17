@@ -1,0 +1,199 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 34
+week_of: "2026-08-31"            # the week this issue covers (shown on the page, orders the archive)
+slug: agentic-marketing-relationships
+status: live
+
+title: "What happens to customer relationships when AI agents do the buying? What a Journal of Marketing paper argues"
+dek: >-
+  When shoppers send an AI agent to search, compare and order for them, your brand is judged by a machine as well as by a person.
+  A new Journal of Marketing framework says how to keep the relationship working, and gives six numbers to track.
+short_title: "When your customer's AI agent does the shopping"
+
+description: >-
+  Customers are starting to delegate shopping to AI agents. A Journal of Marketing framework sets out five things firms must get right, and six KPIs.
+
+keywords: [agentic AI, AI agents, B2A2C marketing, relationship marketing, customer delegation, customer lifetime value,
+  trust, machine-readable commerce, agent-to-agent exchange, customer-agent relationship marketing, Journal of Marketing]
+topics: [AI, Retail, Service]
+
+image:
+  file: issue-34-agentic-marketing-relationships.jpg
+  og: issue-34-agentic-marketing-relationships-og.jpg
+  alt: "A robotic hand and a human hand reaching toward each other against a bright blue background, in pink and blue colour"
+  caption: "A firm used to deal with a person. Now a person's agent may arrive first. Photo (a 3D render): Cash Macanaya on Unsplash."
+
+short_answer: >-
+  The relationship stops being a line between you and the customer and becomes a triangle that includes the customer's
+  AI agent. The authors argue that in this setting trust has to exist before satisfaction can, and that five jobs decide
+  whether the relationship survives: keep the agent aligned with what the customer wants, explain decisions truthfully, give back
+  value for data, be reachable by agents, and keep learning. This is a theory paper, not a test, and its propositions are untested.
+
+takeaways:
+  - "The paper names a new setting, business-to-agent-to-customer marketing, where firms and customers each act through AI agents."
+  - "It proposes five mechanisms that keep such relationships healthy: calibration, accountability, reciprocity, mediation and adaptivity."
+  - "Trust comes first. A customer must trust the delegated system enough to hand over a decision before satisfaction can build up."
+  - "The authors offer six measures, from the share of decisions delegated to how often a customer overrides the agent, and call them proposals still to be validated."
+
+paper:
+  doi: "10.1177/00222429261481116"
+  title: "Agentic AI and the New Architecture of Marketing Relationships"
+  authors: ["Pattabhiramaiah, A.", "Mende, M.", "Gao, H.", "Sridhar, S."]
+  authors_full: ["Adithya Pattabhiramaiah", "Martin Mende", "Huachao Gao", "Shrihari Sridhar"]
+  year: 2026
+  journal: "Journal of Marketing"
+  online: "2026-08-21"
+  open_access: false
+  licence: ""
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Most marketing research tests a claim with data. This paper does something different, because the thing it studies is only
+      just arriving. AI agents are software that can search, compare, negotiate and buy for a person without being told each
+      step. The authors ask what that does to the idea of a customer relationship, and they build a theory to answer.
+
+      Adithya Pattabhiramaiah (Georgia Tech), Martin Mende (Arizona State), Huachao Gao and Shrihari Sridhar (Texas A&M)
+      followed a six step method for building new marketing theory. They name the new situation, show why existing
+      theories cannot explain it, create new concepts, state propositions, and then tie the theory to practice.
+
+      To keep it grounded, they interviewed seven senior executives in technology, retail and financial services. Quotes from
+      those interviews appear alongside each idea. There is no experiment and no dataset here. The propositions are
+      for future research to test, as the authors note.
+    facts:
+      - ["Type of paper", "Conceptual theory building, not an empirical test"]
+      - ["Evidence used", "Structured interviews with seven senior executives in technology, retail and financial services"]
+      - ["New setting", "Business-to-agent-to-customer (B2A2C) marketing"]
+      - ["New theory", "Customer-agent relationship marketing, called CARMA"]
+      - ["Outputs", "Eight propositions, six proposed KPIs and a readiness assessor for firms"]
+
+  - h: "A third party joins the sale"
+    body: |
+      Classic relationship marketing pictures a firm and a customer building trust through repeated contact. The paper's
+      point is that this picture is changing. A customer's agent may do the searching, filter your offer and place the
+      order. Your own side may be run by agents too, so agents can end up talking to agents.
+
+      The authors describe three features of this setting. The first is delegation: the customer keeps the preferences
+      but the agent makes the decisions. The second is multiplicity: several agents, each serving a different party, with
+      different goals. The third is infrastructure: the technical standards and rules that decide who can interact with whom.
+
+      Each feature creates a problem. Delegation raises the risk that the agent misreads what the customer wants. Many agents
+      raise the risk of unfair deals and murky blame. Shared infrastructure raises the risk that a firm is simply not
+      reachable and drops out of the options an agent considers.
+
+      Influence changes too. A person can be moved by a story, a face or a sense of belonging. An agent responds to checkable
+      performance records, clear terms and data in a format it can read. The paper says brands now have two audiences to
+      persuade, the human and the machine.
+
+  - h: "Five jobs that keep the relationship alive"
+    body: |
+      The framework gives a name to the work that each problem requires, and the authors argue that all five are needed together.
+
+      Calibration keeps the agent's decisions in line with what the customer actually wants. Accountability means
+      decisions can be traced and explained, so it is clear who is responsible when something goes wrong. Reciprocity means the
+      customer gets value in return for the data taken from them. Mediation means the firm is reachable through
+      the standards and safeguards that agents rely on, such as identity checks and ways to settle disputes. Adaptivity means
+      the whole system keeps learning as tastes and conditions change.
+
+      Without them, each one fails in its own way. Calibration failures produce decisions that miss. A lack of accountability
+      leaves customers unsure who to blame. Without reciprocity, a firm looks like it is extracting data for nothing. Without
+      mediation, it is shut out. Without adaptivity, the agent works from stale preferences.
+
+      The paper states this as a proposition: where delegation is high and these mechanisms are missing, relationship quality,
+      loyalty and customer lifetime value should all suffer.
+
+  - h: "Trust before satisfaction"
+    body: |
+      One of the more striking claims reverses the usual order. Relationship marketing treats satisfaction as the thing that
+      builds trust over repeated experiences. But if a customer lets an agent act for them, the first question is whether the
+      system is trustworthy enough to act at all. Satisfaction follows as confirmation.
+
+      The authors also argue that where trust comes from depends on the firm. Established brands can lend their reputation to
+      their agents. Smaller firms, which lack that reputation, may gain more by joining trusted networks with verified agents
+      and clear ways to get redress.
+
+      Which of the five jobs matters most depends on the context, they say. For routine, low-stakes purchases, such as regular
+      reorders, calibration and keeping up to date matter most. For high-stakes decisions such as health or finance,
+      explanations and fair treatment of data matter more. They also warn of backfires. Too much tuning to past behaviour can
+      flatten the variety that makes browsing in fashion or travel worthwhile, and opening your systems to agents before you have built
+      trust can leave you competing on price alone.
+
+      Over time, as agents get smarter, calibration and updating get easier. Accountability, reciprocity and reachability
+      become more important, not less.
+
+  - h: "Six numbers to watch"
+    body: |
+      The paper turns the theory into measures. One shows how much delegation is happening, and five track the five jobs.
+
+      Delegation rate is the share of decisions handed to an agent. For a firm it is the share of orders placed by customers'
+      agents. Override rate is how often a delegated decision has to be corrected or reversed, which signals poor calibration.
+      Disclosure accuracy asks whether the reasons given for a decision match the real drivers. The data reciprocity index
+      compares the value returned to a customer with the value taken from their data. Infrastructure coverage is the share
+      of important safeguards a firm has in place, such as identity checks, consent management and dispute handling.
+      Model refresh frequency counts how often the system is materially updated.
+
+      The authors illustrate with a grocery retailer. A household moves to a plant-based diet, but its shopping agent keeps
+      ordering the old basket, because the retailer's record of the household's preferences has not been updated. The
+      customer overrides the basket three weeks in a row. An ordinary report would show only a lost customer. The override
+      rate shows the problem sooner, and refreshing the preference record repairs it.
+
+      The measures are proposed, not validated, and the authors say the bands they suggest for delegation levels are
+      starting points. They also built an online readiness tool that scores a firm on each dimension.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Count your agent orders", "Look at your last 90 days of orders. Count the ones placed through an automated assistant, an API or a connected app rather than by a person at a keyboard. Divide by total orders and write down the percentage."]
+  - ["Publish the facts agents need", "List price, stock, delivery time and return rules for your 20 best sellers. Put them in a structured product feed or structured data on the page, not only in prose. Test it by running each page through a structured data checker and fixing every error."]
+  - ["Track how often customers undo the suggestion", "For any feature that reorders or recommends automatically, count how often customers change or cancel what it chose. Check the count every week. If more than one in five choices is changed, review the preferences it is using."]
+  - ["Check that explanations are true", "Each month, pull 20 automated decisions. Compare the reason shown to the customer with the real reason in your system. Fix any pair that does not match."]
+  - ["Match every data request to a benefit", "List each piece of data you ask customers for. Beside each, write what the customer gets back, such as a saving, time or more control. Drop the data request if the second column is empty."]
+  - ["Schedule a refresh", "Put a quarterly date in the calendar to update preference rules and product data. Compare the override count before and after each refresh, and keep the schedule that brings it down."]
+
+expect:
+  - "**A slow build, then a sudden one.** Most firms will see a small share of agent orders at first. The authors suggest measuring it early, before it is large enough to hurt."
+  - "**Invisible losses.** Customers can drop out because an agent skipped you, not because they were unhappy. Normal satisfaction scores will not show it."
+  - "**More weight on facts.** Prices, terms and guarantees need to be clear and readable by machines, because agents rank on what they can verify."
+  - "**Two audiences, one brand.** You will still need a story for people who keep the final say, and clean data for the agents that serve them."
+
+limits:
+  - "**No data test.** The paper is a theory with eight propositions. None has been tested yet, so treat the claims as informed hypotheses."
+  - "**Seven interviews.** The executive interviews illustrate the ideas, but seven people in three industries are not a representative sample."
+  - "**The measures are unvalidated.** The authors call the six KPIs proposals, and the suggested delegation bands as illustrative starting points."
+  - "**Fast-moving subject.** Agent products, standards and consumer habits are changing quickly, so parts of the framework may date."
+
+faq:
+  - q: "What is B2A2C marketing?"
+    a: "Business-to-agent-to-customer marketing is the paper's term for sales where a firm and a customer each use AI agents to search, negotiate and transact, so the exchange runs through three parties instead of two (Pattabhiramaiah, Mende, Gao & Sridhar, 2026, Journal of Marketing)."
+  - q: "Is there evidence behind the framework?"
+    a: "Only partly. It rests on existing research and on interviews with seven senior executives. It proposes eight testable statements, but it reports no experiment or dataset."
+  - q: "What are the five parts of the framework?"
+    a: "Calibration, accountability, reciprocity, mediation and adaptivity. They cover alignment with the customer's wishes, truthful explanations, fair return for data, being reachable by agents, and continuous learning."
+  - q: "Why would trust come before satisfaction?"
+    a: "Because a customer must decide to let an agent act before there is any experience to be satisfied with. The paper argues that this threshold of trust works as a gateway, and satisfaction then confirms it."
+  - q: "How can a small firm prepare for customer agents?"
+    a: "Start by measuring how many orders already come through agents, then make your prices, stock, delivery and return terms available in a structured form. Agents rank firms on what they can verify."
+
+also:
+  - doi: "10.1080/00913367.2026.2717524"
+    title: "From Advertisements to Ad Agents: A Relational Inference Framework for Agentic Advertising"
+    authors: "Wu"
+    journal: "Journal of Advertising"
+    year: 2026
+    text: >-
+      Generative AI can keep persuading across platforms and across days, so people may stop seeing separate ads and start
+      seeing one persistent source. The article proposes that consumers infer an "ad agent" from this coordination, and judge it on
+      three feelings: whether it seems to understand them, recognise them, and feel like more than a human. Those judgments shape perceived
+      authenticity and trust. Advertisers should judge a campaign as one continuing relationship, not a string of impressions.
+  - doi: "10.1177/10946705261433842"
+    title: "Shopper AI: Integrating Capabilities and Parasocial Skills"
+    authors: "Kennedy, He, & Sarantopoulos"
+    journal: "Journal of Service Research"
+    year: 2026
+    text: >-
+      Two-thirds of consumers are unhappy with AI shopping assistants, citing pushy upselling and poor understanding. The authors
+      build a taxonomy of 14 features in two groups, capabilities such as knowledge and privacy, and social skills such as
+      empathy and emotion recognition. Improving one feature can help or hurt another. Before adding a feature, check what it does to the others.
+
+charts: {}
+
+related_pages: []   # paper pages on this site worth linking (slugs)
