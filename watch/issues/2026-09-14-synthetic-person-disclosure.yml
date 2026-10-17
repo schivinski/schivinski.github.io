@@ -1,10 +1,10 @@
 # Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
 # Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
-# Held as a draft until the series reaches this week (Bruno, 13 Oct 2026). Drafts are excluded from public builds.
+# Held as a draft until the series reached this week (Bruno, 13 Oct 2026); published once issue 35 was live.
 issue: 36
 week_of: "2026-09-14"            # the week this issue covers (shown on the page, orders the archive)
 slug: synthetic-person-disclosure
-status: draft
+status: live
 
 title: "Should an AI model be labelled as a person who does not exist? What a Journal of Marketing Communications study found"
 short_title: "The label that buys honesty, then spends it on artificiality"
