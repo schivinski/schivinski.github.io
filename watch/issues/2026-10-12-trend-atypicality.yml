@@ -1,0 +1,195 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 40
+week_of: "2026-10-12"            # the week this issue covers (shown on the page, orders the archive)
+slug: trend-atypicality
+status: live
+
+title: "How closely should a brand copy a trend? What a Journal of Marketing study of 85,000 TikTok videos found"
+dek: >-
+  Brands and creators jump on trends to get noticed. Across a large video analysis, three experiments and a creator field test,
+  the version with a twist beat the faithful copy.
+short_title: "Trend videos with a twist beat close copies"
+
+description: >-
+  An analysis of 85,000 TikTok dance videos plus three experiments finds that putting your own spin on a trend earns more likes than copying it closely.
+
+keywords: [trend-following, atypicality, TikTok, short video, social media engagement, video analytics, content strategy, creators,
+  brand content, social media marketing, Journal of Marketing]
+topics: [Social media, Creative]
+
+image:
+  file: issue-40-trend-atypicality.jpg
+  og: issue-40-trend-atypicality-og.jpg
+  alt: "A smartphone on a tripod in a dark studio, its screen showing a camera app ready to record, with a blurred red and white shape in the foreground"
+  caption: "Same trend, same camera. What matters is what you do differently in front of it. Photo: Roman Manshin on Unsplash."
+
+short_answer: >-
+  Put your own spin on it. Across 85,000 TikTok dance-trend videos, those that differed more from the rest of the trend earned more
+  likes per view, even for the same creator. Experiments confirmed that the difference was the cause, and a test with 38 real creators
+  agreed. The edge appears once viewers have seen the trend enough to spot the twist, and it came from deviations later in the video.
+
+takeaways:
+  - "More atypical videos earned more likes per view. Among the videos in the study, the most atypical earned about 112 likes per 1,000 views, against about 92 for the most typical."
+  - "The advantage grew as a trend got older and more videos were out there. In an experiment, the twist only paid off when viewers had seen the trend first."
+  - "Twists in the last part of a video went with more engagement, and twists in the first seconds did not."
+  - "Viewers did not get bored of the standard version. They saw the twisted one as more unique and its creator as more creative."
+
+paper:
+  doi: "10.1177/00222429261466668"
+  title: "How Closely Should You Follow a Trend? Atypicality and Engagement on Social Media"
+  authors: ["Bravin, M.", "Clegg, M.", "Hofstetter, R.", "Pouly, M.", "Berger, J."]
+  authors_full: ["Marc Bravin", "Melanie Clegg", "Reto Hofstetter", "Marc Pouly", "Jonah Berger"]
+  year: 2026
+  journal: "Journal of Marketing"
+  volume: "90"
+  issue: "5"
+  pages: "187-204"
+  online: "2026-07-17"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Following a trend is one of the most common ways brands and creators try to get seen on short-video platforms. The question
+      is how to do it. Copy the dance move for move and ride the wave, or add your own twist? Content creators asked by the
+      authors were split. About half said to stay close to the trend, and about a quarter said to deviate.
+
+      The team, from Swiss universities and Wharton, needed a way to measure how different one video is from others in a trend. They
+      built a video-analysis tool, MUVID, that turns each video, with its sound and movement, into a set of numbers. A video's atypicality is then
+      how far those numbers sit from earlier videos in the same trend.
+
+      They applied it to more than 85,000 TikTok dance videos grouped into around 1,500 trends, then ran three experiments, one of
+      them a field test with real creators, to check whether the pattern was cause and not coincidence.
+    facts:
+      - ["Data", "86,244 TikTok dance videos in 1,548 trends, uploaded between 2015 and 2022"]
+      - ["Measure", "Distance of each video from earlier videos in its own trend, and likes divided by views"]
+      - ["Controls", "Creator, trend and month effects, plus video quality, dance quality and creator size"]
+      - ["Experiments", "Two online studies with 201 and 494 adults, and a field test with 38 TikTok creators"]
+      - ["Tool", "MUVID is open source and has a web app for measuring video similarity"]
+
+  - h: "More different, more liked"
+    body: |
+      In the large dataset, the more a video differed from its trend, the more likes it earned per view. Videos more than one standard
+      deviation more atypical than average earned about 112 likes per 1,000 views. Average ones earned about 101, and the most
+      typical earned about 92.
+
+      The link held when the authors compared a creator with themselves, which rules out simply being a talented or popular creator.
+      It also held after allowing for video and dance quality, and across other checks such as matching typical and atypical videos on
+      their traits.
+
+      The effect per video is small. One standard deviation of extra atypicality went with about 2.5% higher odds that a viewer liked
+      the video. The authors point out that on a platform with huge volume it adds up. For a creator with 15,000 views per
+      video, shifting from a typical to an atypical video meant roughly 69 extra likes.
+    chart: likes
+
+  - h: "The twist needs an audience that knows the trend"
+    body: |
+      You can only see a difference if you know what the normal version looks like. The authors predicted that atypicality would pay
+      off more when viewers had seen lots of videos from the trend. In the data it did. The more videos a trend had already collected,
+      the stronger the link with engagement.
+
+      An experiment tested this directly. Participants saw five videos from a trend, or five unrelated videos, and then a focal video that either
+      copied the dance or used a different one. After the trend videos, 34% chose to engage with the atypical version against 18% for the
+      typical one. With no trend exposure, the two were level at about 17%.
+
+      A follow-up asked why. Viewers did not tire of the standard version. They simply judged the twisted version as more unique, and
+      its creator as more creative.
+    chart: exposure
+
+  - h: "Where in the video to deviate"
+    body: |
+      The authors split each video into its first and last five seconds. Atypicality in the last part was linked to more
+      engagement. Atypicality in the opening seconds was not.
+
+      Their reading is that viewers first need to recognise the trend, and a surprise only lands after the pattern has been
+      established. The authors describe this as suggestive and worth a dedicated experiment.
+
+  - h: "A field test with real creators"
+    body: |
+      In the first experiment, 201 online participants watched five faithful trend videos and one focal video. Among those who saw an atypical
+      version of the focal video, 24% chose to engage, against about 13% for the typical version.
+
+      The final test went to the platform itself. Thirty-eight creators each made two videos for two trends, one in the typical
+      style and one with a twist, posting them about three days apart. With creator effects held constant, the atypical videos had about 10%
+      higher odds of a like per view. This was the weakest result in the paper, and it came from small videos, averaging 783 views.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Pick a trend your audience already knows", "Choose one that has been around for at least a few weeks and that your own followers have already seen. Check by scrolling its page and counting how many videos from different accounts use it."]
+  - ["Map the standard version", "Watch twenty videos of the trend and write down the elements nearly all of them share, such as setting, moves, outfit, camera angle and ending."]
+  - ["Choose one twist", "Change one element, no more. Keep the part that makes the trend recognisable, and make the change something a viewer can spot in a second."]
+  - ["Save the twist for the end", "Open the video the way everyone else does, then break away in the final few seconds. Film one version with the twist at the start and one with it at the end."]
+  - ["Make a faithful version too", "Film a straight copy with the same person, location, lighting and caption. Post the copy and the twist about three days apart, and swap which goes first the next time."]
+  - ["Compare likes per view", "After a week, divide likes by views for each video. Repeat with three different trends before you change your approach, and keep the twist if it wins at least two of the three."]
+
+expect:
+  - "**A modest gain per video.** The average lift is small, so look for it over many posts and not in a single result."
+  - "**A bigger edge on mature trends.** The longer a trend runs, the more a copy blends in."
+  - "**Recognisable twists only.** A change that viewers cannot spot as a difference gives no advantage."
+  - "**Quality still matters.** The twist helped when dance and video quality were held equal, and it will not rescue a poor video."
+
+limits:
+  - "**One kind of trend.** All the videos were dance trends on TikTok. Other formats, such as transformations or brand challenges, were not tested."
+  - "**Likes are not sales.** The outcome is likes per view, with no data on follows, clicks or purchases."
+  - "**Small field test.** The creator experiment had 38 creators and modest views, and its result was borderline."
+  - "**Data from 2015 to 2022.** Platform algorithms and audience habits may have moved on since."
+
+faq:
+  - q: "Should brands copy TikTok trends exactly?"
+    a: "Not in this evidence. Videos that put their own spin on a trend earned more likes per view than close copies, and experiments suggest the twist caused the difference (Bravin, Clegg, Hofstetter, Pouly & Berger, 2026, Journal of Marketing)."
+  - q: "How different does a trend video need to be?"
+    a: "The paper found the benefit even for moderate deviations. The twist needs to be noticeable to viewers who know the trend, and the authors did not test how far is too far."
+  - q: "When in a video should the twist come?"
+    a: "Later. Deviations in the final seconds were linked to more engagement and deviations in the opening seconds were not, though the authors call this suggestive."
+  - q: "Does this work for a new trend?"
+    a: "Less well. The advantage grew with the number of videos in a trend, and in an experiment it disappeared when viewers had not seen the trend first."
+  - q: "What is MUVID?"
+    a: "An open-source video analysis tool the authors built. It turns videos into numbers that capture picture, movement and sound, so you can measure how similar two videos are. A web app lets you upload videos and see how typical each one is."
+
+also:
+  - doi: "10.1016/j.ijresmar.2025.07.005"
+    title: "Breaking the mold: how visual atypicality shapes brand-generated image virality"
+    authors: "Adam & Yang"
+    journal: "International Journal of Research in Marketing"
+    year: 2026
+    text: >-
+      Using machine learning on 60,669 apparel images and 4,087 car images, plus an experiment, this study finds that visually atypical
+      brand images spread further for low-heritage brands because they entertain, and spread less for high-heritage brands because they clash with
+      expectations. Check your brand's age before you break the mould.
+  - doi: "10.1080/00218499.2026.2670019"
+    title: "How to Make Advertising on Social Media Memorable: Stand Out or Get Lost"
+    authors: "Walter, Stocchi, Ward, & Romaniuk"
+    journal: "Journal of Advertising Research"
+    year: 2026
+    text: >-
+      Two online experiments on in-feed ads find that image-based creative earns higher ad recall than text-based creative, and that
+      text-based creative lowers correct brand recall. Pairing creative type against the type of brand element, for example text creative
+      with a visual brand asset, recovers some of the loss, especially among non-buyers and for larger brands. Lead with an image.
+
+charts:
+  likes:
+    title: "Likes per 1,000 views, by how atypical the video is"
+    scale: [0, 120]
+    step: 20
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Least atypical", 91.5]
+      - ["Average", 100.8]
+      - ["Most atypical", 112.4, true]
+    source: "Study 1, model-free comparison. Least and most atypical are more than 1 SD below and above the average within a trend."
+  exposure:
+    title: "Share choosing to engage with the focal video"
+    scale: [0, 40]
+    step: 10
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Typical, trend not seen", 17, false]
+      - ["Atypical, trend not seen", 17, false]
+      - ["Typical, trend seen", 18, false]
+      - ["Atypical, trend seen", 34, true]
+    source: "Study 3, 494 online participants. Without trend exposure 17.4% versus 16.8%; with exposure 17.6% versus 34.2%."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
