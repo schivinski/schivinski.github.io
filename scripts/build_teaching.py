@@ -139,9 +139,7 @@ def main() -> int:
             + "".join(institution(i, d["courses"]) for i in d["institutions"]) + f"</section>{invite}</div>")
     fm = {"title": "Teaching",
           "subtitle": "Marketing, consumer behaviour, digital marketing, advertising and research methods, taught in English from bachelor's to doctoral level",
-          "description": ("Course portfolio of Bruno Schivinski: marketing, consumer behaviour, digital and international "
-                          "marketing, advertising, research methods, applied statistics and structural equation modelling, "
-                          "taught in Poland, Australia, Vietnam, Ghana and the UK. Open to visiting teaching."),
+          "description": "Bruno Schivinski's courses in marketing, consumer behaviour, advertising, research methods and SEM, taught in five countries. Open to visiting teaching.",
           "page-layout": "full", "body-classes": "teaching-page",
           "image": "assets/share/site.png", "image-alt": "Bruno Schivinski, Associate Professor of Marketing"}
     text = ("---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)

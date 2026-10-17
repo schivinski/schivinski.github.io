@@ -9,7 +9,7 @@ listing:
   feed:
     title: "Marketing in 3 | Bruno Schivinski"
     description: "New research from the leading marketing journals, translated for practitioners: what each study found, how to use it, and what results to expect."
-description: "Marketing in 3: one peer-reviewed marketing study a week, explained in plain English with what to do about it. Published research on advertising, social media, AI and consumer behaviour."
+description: "One peer-reviewed marketing study a week, explained in plain English with what to do about it: advertising, social media, AI and consumer behaviour."
 include-in-header:
   text: |
     <link rel="canonical" href="https://schivinski.com/watch/" />
