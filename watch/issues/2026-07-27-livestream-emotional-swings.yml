@@ -1,0 +1,227 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 29
+week_of: "2026-07-27"            # the week this issue covers (shown on the page, orders the archive)
+slug: livestream-emotional-swings
+status: live
+
+title: "Do a livestream host's mood swings hurt sales? What a Journal of the Academy of Marketing Science study found"
+short_title: "Mood swings win likes and lose sales"
+dek: >-
+  Hosts who change expression often keep the chat busy. They also sell less. In 12,949 real product pitches, the
+  same swing that drew people in pushed them away from the checkout.
+
+description: >-
+  In 12,949 live product pitches, a sharp swing from happy to upset, or back, cut expected sales to about a tenth.
+  Product chat softened the drop.
+
+keywords: [livestream commerce, live shopping, live stream selling, influencer marketing, emotional expression,
+  facial expression, viewer engagement, sales conversion, Douyin, live commerce chat, host behaviour, Journal of the
+  Academy of Marketing Science]
+topics: [Influencers, Social media, Retail]
+
+image:
+  file: issue-29-livestream-emotional-swings.jpg
+  og: issue-29-livestream-emotional-swings-og.jpg
+  alt: "A phone and a tablet on tripods in a living room, the tablet showing a live production dashboard with a timer, a blurred host and warm lights in the background"
+  caption: "Behind the camera, the host is also watching a dashboard. This paper asks what the host's own face does to it. Photo: Libby Penner on Unsplash."
+
+short_answer: >-
+  Yes, and in a way that is easy to miss. In a study of 12,949 live product pitches, the more often a host's face
+  changed mood, the more reactions came in up to a point, yet unit sales kept falling. The worst swings were full
+  reversals. When viewers' chat stayed on the product, the damage shrank, and most of it landed within three minutes.
+
+takeaways:
+  - "Reactions peaked at about 1.5 to 1.8 mood changes a minute and then fell. Sales fell across the whole range."
+  - "A full swing from one end of the mood scale to the other left expected sales at roughly 10 to 12% of baseline when it happened now and then."
+  - "With product talk at about 63% of the chat, expected sales stayed at 70% of baseline. At about 7%, they fell to 14%."
+  - "The sales drop began in the first minute after a swing, and most of it landed in the next three."
+
+paper:
+  doi: "10.1007/s11747-026-01169-x"
+  title: "Emotional valence transitions in livestreaming: Elevate engagement but sabotage sales"
+  authors: ["Meng, S.", "Mathmann, F.", "Wang, D."]
+  authors_full: ["Sichen Meng", "Frank Mathmann", "Di Wang"]
+  year: 2026
+  journal: "Journal of the Academy of Marketing Science"
+  volume: "54"
+  issue: "4"
+  pages: "1101-1121"
+  online: "2026-06-10"
+  open_access: true
+  licence: "CC BY 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Live shopping is one of the few places where you can watch a seller's face and the sales ledger at the same
+      time, second by second. Most research on influencers looks at a finished post and asks whether the tone was
+      positive or negative. A livestream host does not hold one tone. Over a ten minute pitch the face moves from
+      bright to flat to concerned and back.
+
+      Sichen Meng, Frank Mathmann and Di Wang, at Queensland University of Technology, tracked that movement on
+      Douyin, China's version of TikTok, across 19 days in the summer of 2024. They scraped livestreams from
+      accounts across the top product categories and split each into pitches, meaning one uninterrupted
+      promotion of one product.
+
+      Facial recognition software read the host's expression in every frame and sorted it into positive (happy),
+      neutral, or negative (sad, fearful, angry or disgusted). A change of mood counted only if the new expression
+      held for at least three seconds, so a passing flicker did not count. The team then counted mood changes per
+      minute and set them against three outcomes: likes, comments and units sold.
+
+      They checked the software against two human coders on 500 pitches and the two agreed closely.
+    facts:
+      - ["Platform", "Douyin, live commerce, 17 June to 5 July 2024"]
+      - ["Sample", "1,308 livestreams from 125 accounts, cut to 12,949 pitches from 95 accounts after quality checks"]
+      - ["Detail", "80,600 minute-level observations, with 21 million comments and 13 million likes"]
+      - ["Measure", "Host facial expression sorted into positive, neutral and negative, with a mood change counted when it lasted three seconds"]
+      - ["Outcomes", "Likes, comments and units sold, each tracked per pitch and per minute"]
+
+  - h: "Chat and sales want different things"
+    body: |
+      The average host changed mood about 1.8 times a minute. That is a lot more than it sounds like when you watch
+      a good seller, and the range was wide, from none to sixteen.
+
+      Likes and comments followed a hill. They climbed with each extra mood change, topped out near the 1.5 to 1.8
+      mark and then dropped. The team's guess is that a few swings give viewers something to react to, while
+      too many make the stream tiring to follow.
+
+      Sales did not follow the hill. They fell from the first swing and kept falling. The model's predicted sales
+      curve loses most of its height before the rate even reaches one change a minute, and it never recovers within
+      the range of the data.
+
+      So the two outcomes pull in opposite directions. A host who plays to the chat can be doing it at the cost of
+      the till, and a dashboard that watches likes and comments alone will read that as success.
+
+      One caution on size. Sales per pitch were wildly uneven: the average was 1,455 units and the middle pitch sold
+      44. The pattern is about what happens across many pitches, not a promise for any single one.
+
+  - h: "The reversal is the expensive swing"
+    body: |
+      The team then split the mood changes into six kinds: positive to neutral, neutral to positive, positive to
+      negative, negative to positive, neutral to negative and negative to neutral. A reversal means crossing from one end to the other.
+
+      Only the two reversals did serious damage to sales, along with a smaller drop for positive to neutral. The
+      softer changes that pass through neutral were not statistically distinguishable from no change.
+
+      Reversals were also the swings that drew the most chat. Upset to happy more than doubled expected comments at low
+      to moderate frequencies. That is the same pattern as before, at a sharper angle: the move that gets people typing
+      is the one that costs the sale.
+
+      The authors read this through attention. A sudden reversal makes viewers ask what just happened, so they turn to
+      the chat to work it out. While they do that, they are not looking at the product.
+    chart: reversals
+
+  - h: "Chat about the product protects the sale"
+    body: |
+      Viewers are not passive. Their comments change what everyone else is looking at. The team sorted comments into
+      product talk (features, price, promotions, delivery) and everything else, and asked whether the share of product talk
+      changed how much a mood swing cost.
+
+      It did. At one mood change a minute, a stream where product talk was high, about 63% of the chat, kept expected
+      sales at 70% of baseline. A stream where it was low, about 7%, kept 14%. Five times the sales left, for the same
+      host behaviour.
+
+      The effect showed up for sales and not reliably for likes or comments. That fits the story: product talk pulls
+      attention back to the item, and attention on the item is what sales need.
+
+      A host cannot control the chat, but can steer it by asking for and answering product questions. That is a
+      decision, not a personality trait, and it is easier to change than a face. The paper recommends this, though it
+      did not test the steering itself.
+    chart: comments
+
+  - h: "The three minute window"
+    body: |
+      The last test looked at timing. The team followed each pitch minute by minute and asked what happens next when
+      mood changes pick up.
+
+      The answer was fast. Sales dipped hardest in the very next minute, stayed down in the second and third, and then crept
+      back toward normal. The chat did the opposite: comments spiked in the first minute and faded within about twelve.
+
+      The order matters too. Mood changes came before the drop in sales and the burst of comments. Sales did not
+      predict later mood changes. That is the strongest evidence in the paper that the face leads and the till follows,
+      though without an experiment it is still short of proof.
+
+      Put together, it suggests a loss that is the sum of many short episodes, not one bad moment. A host who swings every
+      thirty seconds is opening a three minute hole each time.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Pick one job for each stream", "Before you go live, decide whether this stream is for chat or for selling. Write one word on a card next to the camera. Chat streams are for questions, games and fun. Selling streams are for orders."]
+  - ["Count how often your face swings", "Record ten minutes of your last stream and watch it with the sound off. Each time your face goes from happy to flat, or flat to upset, or back, make a mark. Divide by ten. That is your swings per minute."]
+  - ["Hold one mood while you present", "When you start showing an item, pick a calm and warm face and keep it until you finish. Never jump from happy to upset, or from upset to happy, in the middle of a pitch. Save big reactions for the gaps between items."]
+  - ["Invite product questions", "Pin one line to the chat: \"Ask me about size, price or delivery.\" Answer every product question out loud, and read the question first so everyone sees it."]
+  - ["Slow down after a swing", "If your face did swing, take a breath, say the product name and price, and read out one product question. Do that for the next three minutes."]
+  - ["Keep two scores for each stream", "After every stream, write down chat messages and orders in two separate columns. Over four weeks, compare streams where you held one mood with streams where you did not. Keep the habits that raise orders, not just chat."]
+
+expect:
+  - "**A quieter chat, and that is fine.** Holding one mood in selling streams may cut the likes and comments you get. Judge selling streams on orders."
+  - "**Chat streams can stay lively.** For streams meant to build an audience, moderate variety held up engagement best in the data. The advice is to match the face to the job, not to go flat."
+  - "**Product chat is a suggestion, not a proven fix.** The study shows product talk goes with smaller losses. That asking for it raises it, and that this protects sales, has not been tested as an experiment."
+  - "**The averages hide big differences.** A few huge pitches drive the sales figures, so compare streams over weeks, not one against another."
+
+limits:
+  - "**One platform in one country.** All the data come from Douyin in China across 19 days. The authors point out that cultural norms for showing emotion could differ elsewhere, including on English language platforms."
+  - "**Faces only.** The measure captures facial expression sorted into three moods. Tone of voice, the words used and the host's real feelings are not in it."
+  - "**Strong association, not proof.** The team had no experiment and no clean instrument, so the results should be read as strong associations. The timing results support the direction, but they do not settle it."
+  - "**No viewer level data.** The authors could not see who watched, so viewers who like a lively host may be choosing those streams in the first place."
+
+faq:
+  - q: "Do a livestream host's facial expressions affect sales?"
+    a: "Yes. On Douyin, hosts whose expression changed mood more often sold fewer units, even while likes and comments were rising. The sales effect showed up at every level of mood change in the data (Meng, Mathmann & Wang, 2026, Journal of the Academy of Marketing Science)."
+  - q: "Which emotional change hurts sales most?"
+    a: "The sharp ones, going from happy to upset or from upset to happy. Those left expected sales near a tenth of baseline. Shifts that pass through a neutral face were mostly no different from no change, with one smaller dip when a happy face went flat."
+  - q: "How long does the sales drop last after a mood swing?"
+    a: "Mostly within about three minutes, starting in the very next minute, and then it fades. Comments spike briefly in the same window and settle after roughly twelve minutes."
+  - q: "How can a live seller reduce the damage?"
+    a: "Keep the chat on the product. When product talk was a large share of the comments, the sales penalty was much smaller. Asking viewers for product questions and answering them aloud is the simplest way to move the share."
+  - q: "Is more engagement on a livestream always good for sales?"
+    a: "No. In this data the two moved apart: reactions had a sweet spot while sales had none. A stream built to gather reactions and a stream built to sell may need different on-camera behaviour."
+
+also:
+  - doi: "10.1177/10949968261464927"
+    title: "Salesperson Attractiveness Beyond Looks in Livestreaming E-commerce: Mixed Method of Multimodal Machine Learning and Explainable AI"
+    authors: "Wen, Xu, Huang, & Liao"
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Attractiveness in a livestream seller is more than looks. Using 1,933 livestream videos, the authors trained a
+      model on what the seller says, how it sounds and how they look, and it predicted attractiveness ratings with 92%
+      accuracy. Attractiveness then had a U-shaped relationship with sales, stronger for experience products than for
+      search products. If you pick or train hosts, judge the whole performance, voice and words included, not only
+      appearance.
+  - doi: "10.1108/jrim-12-2025-0776"
+    title: "Catwalks and sales: fashion shows in live streaming"
+    authors: "Sun & Zhao"
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2026
+    text: >-
+      Fashion streamers who walk in front of the camera sell more, up to a point. In 7,005 video clips from 298
+      Douyin sessions, sales followed an inverted U with the number of catwalks, peaking at nearly three catwalks per
+      100 seconds. A verbal introduction softened the penalty when there were too few or too many. If you sell clothing
+      live, pace your catwalks and explain the piece while you move.
+
+charts:
+  reversals:
+    title: "Expected sales after each kind of mood change, as a share of baseline"
+    scale: [0, 50]
+    step: 10
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Upset to happy", 10, true]
+      - ["Happy to upset", 12, true]
+      - ["Happy to neutral", 37]
+    source: "Table 4, converted from the paper's estimates for a unit rise in the log transition rate. The three other kinds of change (neutral to happy, neutral to upset, upset to neutral) were not statistically significant and are left out."
+  comments:
+    title: "Expected sales at one mood change a minute, as a share of baseline"
+    scale: [0, 80]
+    step: 20
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Little product talk in chat", 14]
+      - ["Average product talk in chat", 31]
+      - ["Mostly product talk in chat", 70, true]
+    source: "Figure 5. Low and high are one standard deviation below and above the average share of product comments, roughly 7% and 63% of the chat."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
