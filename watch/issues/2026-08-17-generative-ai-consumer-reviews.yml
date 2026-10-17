@@ -1,0 +1,219 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 32
+week_of: "2026-08-17"            # the week this issue covers (shown on the page, orders the archive)
+slug: generative-ai-consumer-reviews
+status: live
+
+title: "Is ChatGPT changing the reviews people write? What an International Journal of Research in Marketing study found"
+short_title: "When ChatGPT went dark, reviews got shorter"
+dek: >-
+  In spring 2023 Italy switched ChatGPT off for a month. Reviews written on computers came in thinner and a touch
+  harsher. A natural experiment shows what AI help is already doing to the text your customers read.
+
+description: >-
+  When Italy blocked ChatGPT for four weeks, hotel reviews written on desktop fell 2% in number and 9% in length.
+  AI help is quietly reshaping reviews.
+
+keywords: [generative AI reviews, ChatGPT online reviews, AI-written reviews, review length, review volume,
+  TripAdvisor reviews, user-generated content, online word of mouth, review quality, natural experiment,
+  difference-in-differences, International Journal of Research in Marketing]
+topics: [AI, UGC, Service]
+
+image:
+  file: issue-32-generative-ai-consumer-reviews.jpg
+  og: issue-32-generative-ai-consumer-reviews-og.jpg
+  alt: "A quiet hotel room with a made bed, a blue throw across the foot, a lamp and an armchair, with soft light coming through sheer curtains"
+  caption: "Every hotel review starts as a stay and ends as a few paragraphs of text. This study asks who, or what, helped write them. Photo: Wes Hicks on Unsplash."
+
+short_answer: >-
+  Yes, a little, and mostly on computers. During a four week ChatGPT block in Italy, desktop hotel reviews there thinned out
+  against four neighbouring countries: slightly fewer reviews, noticeably shorter ones, a touch less opinion and
+  slightly lower stars. The effects are modest and the study
+  covers one country and one month, but it is a rare clean test.
+
+takeaways:
+  - "Under the block, reviews written on computers fell about 2% in number and 9% in length, against hotels in countries with no ban."
+  - "Phone reviews did not drop the same way. The ChatGPT app was awkward to use at the time, so most AI help happened on computers."
+  - "In a survey of reviewers, 63% of 95 Americans and 32% of 88 Italians had used AI to help write one, mainly to save effort."
+  - "Desktop star ratings slipped by under a tenth of a star during the block, and the wording was a little less subjective."
+
+paper:
+  doi: "10.1016/j.ijresmar.2026.06.002"
+  title: "The impact of generative artificial intelligence on consumer reviews: Insights from a quasi-experiment"
+  authors: ["Gu, W. K. M.", "Spann, M."]
+  authors_full: ["Weilong K. M. Gu", "Martin Spann"]
+  year: 2026
+  journal: "International Journal of Research in Marketing"
+  online: "2026-06-09"
+  open_access: true
+  licence: "CC BY 4.0"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Everyone suspects that AI is helping write reviews. Almost nobody can show it, because you cannot see who used
+      a chatbot, and because people who use one differ from people who do not.
+
+      Weilong Gu and Martin Spann, at LMU Munich, found an accident that does the job. On 1 April 2023, Italy's data
+      protection authority blocked ChatGPT over privacy concerns. It stayed blocked for four weeks. Nothing similar
+      happened in Germany, France, Spain or Greece, which makes them a natural comparison group.
+
+      The team took TripAdvisor reviews of hotels in popular Italian cities and of hotels in similar cities across the
+      four other countries. They looked at four weeks before the block, the four weeks of the block and four weeks
+      after. The question was simple. Did reviews in Italy change, compared with the others, exactly when the tool
+      disappeared and again when it came back?
+
+      They split reviews by the device they were written on, because ChatGPT was easier to use on a computer than on a
+      phone. They then ran a survey to see how real reviewers use these tools.
+    facts:
+      - ["The event", "ChatGPT blocked in Italy from 1 to 28 April 2023, available everywhere else in the study"]
+      - ["Hotels", "1,930 in Italy (Milan, Rome, Florence, Venice, Naples) and 2,979 in Germany, France, Spain and Greece"]
+      - ["Data", "TripAdvisor reviews over 12 weeks: 4 before, 4 during and 4 after, 117,816 hotel-week-device observations"]
+      - ["Reviews kept", "Only those written during the stay month, which dropped about 20% of reviews"]
+      - ["Survey", "95 Americans and 88 Italians who had written reviews, recruited through Prolific"]
+
+  - h: "On computers, reviews got fewer and shorter"
+    body: |
+      Look at all reviews together and almost nothing happens. The number of reviews did not change in a way that could
+      be told from chance. That is why the device split matters.
+
+      Written on a computer, reviews in Italy fell by about 2% during the block, against the other countries. The
+      reviews that were written were about 9% shorter in characters. When ChatGPT came back, the gap in review numbers closed.
+
+      On phones the pattern did not appear, and if anything it ran the other way. The authors note that the
+      ChatGPT app was still new and, by user reports at the time, awkward to use. If few people were using it on a
+      phone, taking it away would change little.
+
+      Neither number is large. A 2% dip in volume is hard to spot on any single hotel page. The 9% drop in length is
+      more noticeable, but it is the size of a sentence, not a rewrite. The finding is that the direction is
+      consistent and that it was caused by the tool, not that every review is machine made.
+    chart: drop
+
+  - h: "Why believe it?"
+    body: |
+      A natural experiment is only as good as its comparison. The team ran four checks.
+
+      First, before the block, hotels in Italy and elsewhere moved in parallel, so the groups were comparable. Second,
+      they ran a pretend block on an earlier period when nothing happened, and found no effect, which is what you want.
+      Third, they stretched the window to eight weeks after the block and swapped in hotel-level controls. Fourth, they
+      matched hotels on price, star rating and chain and compared like with like. The effect on desktop stayed.
+
+      The weekly picture agrees. The gap opens when the block begins, drifts back toward zero over the month and is
+      gone after.
+
+      What the design cannot rule out is slippage. Some Italians may have used a VPN, and some may have been abroad. Both
+      would shrink the measured effect, so if anything the real one could be a little larger.
+
+  - h: "A lazier tool, or a better one?"
+    body: |
+      The authors' preferred explanation is effort. Writing a review is a small chore, and a chatbot makes it easier. Take it
+      away and some people write less or skip it.
+
+      Two pieces of evidence point that way. First, ratings on desktop slipped about 0.07 of a star during the block, which fits
+      the idea that the more effort it takes, the grumpier the reviewer. Second, the survey. Among respondents who had used
+      AI to help write reviews, most said it saved effort and time, and many said it improved the writing. Only a minority
+      pasted the AI's text in unchanged. Most edited it lightly or used it for ideas.
+
+      This is the weakest link in the paper, and the authors say so. Effort was not measured directly. The ratings dip and
+      the survey fit the story without proving it.
+    chart: reasons
+
+  - h: "What the text looks like"
+    body: |
+      Beyond counts and length, the team scored the language. They measured how negative the harshest reviews were,
+      using one and two star reviews only, and how subjective the text was, meaning opinion versus fact.
+
+      With ChatGPT available, reviews on desktop were more subjective. The very negative reviews were a little more
+      negative too, though only by a sliver. For scale, the change was 0.0004 on a scale where "I did not like the hotel
+      room" scores about 0.26. Statistically visible, practically tiny.
+
+      Their reading is that AI help lets people say what they feel more fluently, and that lets more of the feeling in.
+      That matches earlier work on AI generated text being more emotional. It is a plausible story and not a tested one.
+
+      For anyone reading reviews to make a decision, the takeaway is cautious. AI-assisted reviews are longer and more
+      opinionated. Longer and more opinionated is a different thing from accurate or honest, and this study did not test that.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Write down your baseline", "Count the reviews you got each week for the last twelve weeks. Work out the average length of a review in words. Write both numbers down. You will compare against them later."]
+  - ["Give long reviews an owner", "Pick one person to read every review longer than 150 words. Set a deadline of two working days. Long reviews carry the detail you can act on."]
+  - ["Keep a topic tally", "Make a short list of topics people mention, such as staff, price, cleanliness, noise and speed. Each week, tally how often each one comes up in complaints. Fix the one at the top first."]
+  - ["Ask for one specific thing", "In your request for a review, add one line: \"Tell us one thing we got right and one thing we could fix.\" A clear question gets more useful detail, with or without AI help."]
+  - ["Judge the content, not the polish", "Do not hide or challenge a review because it reads smoothly. Check only whether the stay or purchase happened and whether the facts are right. Report a review only if it describes something that did not happen."]
+  - ["Compare against your baseline each month", "Every month, check review count, average length and star rating against your baseline. If length jumps but the detail does not, read ten reviews by hand before you change anything."]
+
+expect:
+  - "**More text, not more truth.** AI help made reviews a bit longer and more opinionated. The study did not test whether they became more accurate."
+  - "**A slow shift, not a flood.** The effects were around 2% for volume and 9% for length in a month when the tool was new. Bigger changes depend on how many reviewers adopt it."
+  - "**Slightly kinder ratings.** Ratings dipped about 0.07 of a star when the tool was blocked, so AI help may nudge ratings up a touch."
+  - "**More to read, and more to sort.** Longer reviews hold more detail for you and more to filter for readers. Platforms and brands will want summaries."
+
+limits:
+  - "**One country, one month, 2023.** ChatGPT was only months old, and the ban lasted four weeks. Habits and tools have moved since."
+  - "**Hotels on one platform.** TripAdvisor hotel stays may not carry over to restaurants, products or other review sites."
+  - "**The mechanism is inferred.** Effort reduction fits the evidence but was not measured. The survey is 183 people who had written reviews, a small sample."
+  - "**No view of fakes or who writes.** Data are hotel-week totals, so the team could not see individual reviewers or tell fake reviews from real ones."
+
+faq:
+  - q: "Does ChatGPT change the online reviews people write?"
+    a: "A little, according to a natural experiment. While the tool was blocked in Italy, computer-written hotel reviews there came out slightly fewer and clearly shorter than in neighbouring countries, with a bit less opinion and slightly lower ratings (Gu & Spann, 2026, International Journal of Research in Marketing)."
+  - q: "How did the researchers know ChatGPT was the cause?"
+    a: "They used a natural experiment. Italy's block was sudden, temporary and unrelated to hotels, and neighbouring countries offered a comparison. The gap appeared when the block began and faded when it ended, and a pretend block in an earlier period showed nothing."
+  - q: "Do AI-assisted reviews tend to be longer?"
+    a: "Yes, in this data. Without the tool, desktop reviews lost about a tenth of their length. In the survey, most users who had tried AI for reviews said it saved time and effort, and many said it improved their writing."
+  - q: "How common is it to use AI to write reviews?"
+    a: "Fairly common among people who write them, though the survey was small. Reviewers in the United States reported using it far more than reviewers in Italy, and most users edited the output or took ideas from it rather than pasting it in unchanged."
+  - q: "Should businesses be worried about AI-written reviews?"
+    a: "The study gives no sign that AI help makes reviews fake, because it did not look at authenticity. It shows reviews getting longer and a bit more emotional. Judge reviews on whether the experience happened and the facts are right, not on how polished they read."
+
+also:
+  - doi: "10.1007/s11002-026-09824-7"
+    title: "Using LLMs as sentiment analyzers to predict review helpfulness: first insights to open the black box"
+    authors: "Winter, Zacharias, & Hartwig"
+    journal: "Marketing Letters"
+    year: 2026
+    text: >-
+      Can a language model read a review the way its author meant it? On 28,900 product reviews and an experiment with
+      1,063 people, the model's accuracy depended on how emotional the review was, as it often is for pleasure
+      purchases. When the model's reading disagreed with the star rating, the review was judged less helpful, more so for
+      products you can judge before buying. If you use an AI tool to score your reviews, check its misses on the
+      emotional ones first.
+  - doi: "10.1177/10949968261466970"
+    title: "Bridging Research and Practice: Strategies for Managing Negative Online Reviews"
+    authors: "Shugan & Xie"
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      A map of 17 strategies firms use against negative reviews, drawn from research, practice, law and regulation and
+      grouped into three: respond to the review, rebalance the overall picture, and manage visibility. Research
+      concentrates on the first two. The third, which includes search result engineering and decoy sites, is least studied
+      and can suppress positive signals as well as negative ones. Choose a response before a tactic, and be wary of
+      the third group.
+
+charts:
+  drop:
+    title: "Drop in desktop reviews while ChatGPT was blocked in Italy"
+    scale: [0, 12]
+    step: 3
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Number of reviews", 2]
+      - ["Length of each review", 9, true]
+    source: "Table 3 and Table 4, desktop reviews in Italy against Germany, France, Spain and Greece, during the four week block."
+  reasons:
+    title: "Why reviewers use AI to help, among those who had"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Improve the writing, U.S.", 85, true]
+      - ["Improve the writing, Italy", 50]
+      - ["Save time, U.S.", 80, true]
+      - ["Save time, Italy", 71]
+      - ["Reduce effort, U.S.", 73, true]
+      - ["Reduce effort, Italy", 68]
+    source: "Survey of 95 U.S. and 88 Italian reviewers recruited through Prolific (Table 7). Share agreeing, among those who had used AI tools to write reviews."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
