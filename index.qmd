@@ -67,7 +67,7 @@ description: "Bruno Schivinski, Associate Professor of Marketing at Gdańsk Univ
   <div class="wrap">
     <div class="m3-head">
       <div class="m3-intro">
-        <p class="m3-kicker">New issue every Monday · free · ad-free</p>
+        <p class="m3-kicker">New issue every Monday</p>
         <h2 id="m3-h">Marketing in 3</h2>
         <p class="m3-lead">One peer-reviewed marketing study a week, explained in plain English: what it found,
           how to use it in your strategy, and what results to expect.</p>
