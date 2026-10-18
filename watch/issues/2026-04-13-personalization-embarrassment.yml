@@ -51,6 +51,12 @@ paper:
   online: "2026-03-29"
   open_access: false
   licence: ""
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "John J. Yi"
+      affiliation: "Madden College of Business & Economics, Le Moyne College, USA"
+      orcid: "0000-0002-0473-0129"
+    - name: "Caleb Warren"
+      affiliation: "Eller College of Management, University of Arizona, USA"
 
 sections:
   - h: "What the researchers did"

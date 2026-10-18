@@ -49,6 +49,19 @@ paper:
   online: "2026-05-26"
   open_access: true
   licence: "CC BY-NC 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Dena Yadin"
+      affiliation: "Northeastern University"
+      orcid: "0000-0002-6465-9408"
+    - name: "Nira Munichor"
+      affiliation: "Bar-Ilan University"
+      orcid: "0000-0001-5575-3040"
+    - name: "Elanor F. Williams"
+      affiliation: "Washington University"
+      orcid: "0000-0003-2713-7405"
+    - name: "Inbal Stockheim"
+      affiliation: "College of Law and Business"
+      orcid: "0000-0002-3865-9615"
 
 sections:
   - h: "What the researchers did"

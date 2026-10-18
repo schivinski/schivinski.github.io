@@ -49,6 +49,15 @@ paper:
   online: "2025-07-15"
   open_access: false
   licence: ""
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Jonathan M. Beck"
+      affiliation: "University of Kansas, USA"
+      orcid: "0000-0001-7954-6425"
+    - name: "Clay M. Voorhees"
+      orcid: "0000-0002-1673-8953"
+    - name: "Paul W. Fombelle"
+    - name: "Katherine N. Lemon"
+      affiliation: "Boston College, USA"
 
 sections:
   - h: "What the researchers did"

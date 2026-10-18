@@ -47,6 +47,11 @@ paper:
   online: "2026-01-26"
   open_access: true
   licence: "CC BY-NC 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Nofar Duani"
+      orcid: "0000-0002-9928-8336"
+    - name: "Alixandra Barasch"
+    - name: "Adrian F. Ward"
 
 sections:
   - h: "What the researchers did"

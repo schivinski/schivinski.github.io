@@ -48,6 +48,18 @@ paper:
   online: "2026-03-18"
   open_access: false
   licence: ""
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Gabriel Garlough-Shah"
+      affiliation: "Northwestern University"
+      orcid: "0009-0007-5818-4382"
+    - name: "Jong Inn Park"
+      affiliation: "University of Minnesota-Twin Cities"
+    - name: "Shirley Anugrah Hayati"
+      affiliation: "University of Minnesota-Twin Cities"
+    - name: "Dongyeop Kang"
+      affiliation: "University of Minnesota-Twin Cities"
+    - name: "Jisu Huh"
+      affiliation: "University of Minnesota-Twin Cities"
 
 sections:
   - h: "What the researchers did"

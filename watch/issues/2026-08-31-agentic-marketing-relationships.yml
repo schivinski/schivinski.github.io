@@ -46,6 +46,18 @@ paper:
   online: "2026-08-21"
   open_access: false
   licence: ""
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Adithya Pattabhiramaiah"
+      affiliation: "Georgia Tech"
+      orcid: "0000-0002-0501-9937"
+    - name: "Martin Mende"
+      affiliation: "Arizona State University"
+    - name: "Huachao Gao"
+      affiliation: "Texas A&M University"
+      orcid: "0000-0001-8168-3875"
+    - name: "Shrihari Sridhar"
+      affiliation: "Texas A&M University"
+      orcid: "0000-0002-6612-1871"
 
 sections:
   - h: "What the researchers did"

@@ -48,6 +48,19 @@ paper:
   online: "2026-01-09"
   open_access: true
   licence: "CC BY 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Mark Heitmann"
+      affiliation: "University of Hamburg, Germany, Nova School of Business and Economics, Universidade NOVA de Lisboa, Campus de Carcavelos, Portugal"
+      orcid: "0000-0002-0883-6860"
+    - name: "Tijmen P. J. Jansen"
+      affiliation: "University of Hamburg, Germany"
+      orcid: "0009-0008-0779-9413"
+    - name: "Martin Reisenbichler"
+      affiliation: "Vienna University of Economics and Business, Austria"
+      orcid: "0009-0007-0128-9685"
+    - name: "David A. Schweidel"
+      affiliation: "Goizueta Business School, Emory University, USA"
+      orcid: "0000-0003-2665-3272"
 
 sections:
   - h: "What the researchers did"

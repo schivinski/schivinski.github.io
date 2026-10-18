@@ -46,6 +46,13 @@ paper:
   online: "2026-01-27"
   open_access: true
   licence: "CC BY-NC 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Yijing Li"
+    - name: "Angela Yi Gao"
+    - name: "Flora F. Gu"
+      orcid: "0000-0002-0560-2014"
+    - name: "Fine F. Leung"
+      orcid: "0000-0002-7988-2944"
 
 sections:
   - h: "What the researchers did"

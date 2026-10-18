@@ -51,6 +51,12 @@ paper:
   online: "2026-03-04"
   open_access: false
   licence: ""
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Alex Mari"
+      orcid: "0000-0003-4803-5096"
+    - name: "Andreina Mandelli"
+    - name: "René Algesheimer"
+      orcid: "0000-0002-3293-7928"
 
 sections:
   - h: "What the researchers did"

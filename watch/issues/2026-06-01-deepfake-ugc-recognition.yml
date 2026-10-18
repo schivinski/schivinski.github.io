@@ -49,6 +49,13 @@ paper:
   online: "2025-09-30"
   open_access: false
   licence: ""
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Jing Yang"
+      affiliation: "Department of Mass Communication, Advertising and Public Relations, College of Communication, Boston University, Boston, MA, USA"
+      orcid: "0000-0001-6393-5012"
+    - name: "Susanna S. Lee"
+      affiliation: "Department of Mass Communication, Advertising and Public Relations, College of Communication, Boston University, Boston, MA, USA"
+      orcid: "0000-0002-5366-9512"
 
 sections:
   - h: "What the researchers did"

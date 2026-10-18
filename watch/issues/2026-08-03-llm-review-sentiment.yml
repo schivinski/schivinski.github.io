@@ -50,6 +50,14 @@ paper:
   online: "2026-05-22"
   open_access: true
   licence: "CC BY 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Christian G. H. Winter"
+      affiliation: "Faculty of Economics and Business Administration, Friedrich Schiller University Jena, Jena, Germany"
+      orcid: "0000-0002-4878-8744"
+    - name: "Nicolas A. Zacharias"
+      affiliation: "Faculty of Economics and Business Administration, Friedrich Schiller University Jena, Jena, Germany"
+    - name: "Mattis Hartwig"
+      affiliation: "Deutsches Forschungszentrum für Künstliche Intelligenz GmbH (DFKI), Lübeck, Germany"
 
 sections:
   - h: "What the researchers did"

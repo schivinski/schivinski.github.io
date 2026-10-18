@@ -49,6 +49,16 @@ paper:
   online: "2026-03-17"
   open_access: false
   licence: ""
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Mengxin Wang"
+      affiliation: "Naveen Jindal School of Management, The University of Texas at Dallas, Richardson"
+      orcid: "0000-0002-3378-9402"
+    - name: "Dennis J. Zhang"
+      affiliation: "Olin School of Business"
+      orcid: "0000-0002-4544-775X"
+    - name: "Heng Zhang"
+      affiliation: "Olin School of Business"
+      orcid: "0000-0002-4544-775X"
 
 sections:
   - h: "What the researchers did"

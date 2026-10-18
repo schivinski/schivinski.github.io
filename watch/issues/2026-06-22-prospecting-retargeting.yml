@@ -52,6 +52,10 @@ paper:
   online: "2026-05-08"
   open_access: false
   licence: ""
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Jeffrey S. Larson"
+    - name: "Jeffrey P. Dotson"
+      orcid: "0000-0002-2782-4267"
 
 sections:
   - h: "What the researchers did"

@@ -47,6 +47,13 @@ paper:
   online: "2026-05-04"
   open_access: true
   licence: "CC BY 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Jiani Xue"
+      affiliation: "USA"
+      orcid: "0000-0003-4723-2338"
+    - name: "Shiri Melumad"
+      affiliation: "The Wharton School, University of Pennsylvania, USA"
+      orcid: "0000-0003-0104-6003"
 
 sections:
   - h: "What the researchers did"

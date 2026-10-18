@@ -49,6 +49,16 @@ paper:
   online: "2026-06-05"
   open_access: true
   licence: "CC BY-NC 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Martin Eisend"
+      affiliation: "University of Vienna"
+      orcid: "0000-0003-2564-6417"
+    - name: "Dominika Niewiadomska"
+      affiliation: "European University Viadrina"
+      orcid: "0009-0009-7807-8055"
+    - name: "Guda van Noort"
+      affiliation: "University of Amsterdam"
+      orcid: "0000-0002-6314-1455"
 
 sections:
   - h: "What the researchers did"

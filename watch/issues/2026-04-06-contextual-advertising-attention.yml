@@ -48,6 +48,12 @@ paper:
   online: "2026-03-29"
   open_access: false
   licence: ""
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Jianping Ye"
+      orcid: "0000-0002-9997-8011"
+    - name: "Michel Wedel"
+      orcid: "0000-0002-1244-4923"
+    - name: "Rik Pieters"
 
 sections:
   - h: "What the researchers did"

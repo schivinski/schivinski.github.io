@@ -49,6 +49,14 @@ paper:
   online: "2026-06-15"
   open_access: false
   licence: ""
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Xingyu Chen"
+      affiliation: "Evergrande School of Management Wuhan University of Science and Technology Wuhan China"
+      orcid: "0000-0001-9843-4242"
+    - name: "Minxue Huang"
+      affiliation: "Economics and Management School Wuhan University Wuhan China"
+    - name: "Xiaodong Xie"
+      affiliation: "Economics and Management School Wuhan University Wuhan China"
 
 sections:
   - h: "What the researchers did"

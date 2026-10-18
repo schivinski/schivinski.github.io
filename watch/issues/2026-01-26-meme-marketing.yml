@@ -47,6 +47,15 @@ paper:
   online: "2026-01-13"
   open_access: true
   licence: "CC BY-NC 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Lu Wang"
+      orcid: "0000-0002-1460-2593"
+    - name: "Xueni (Shirley) Li"
+      orcid: "0000-0002-0040-2208"
+    - name: "Qiyuan Wang"
+      orcid: "0000-0002-1460-2593"
+    - name: "Lei Su"
+      orcid: "0000-0002-7743-3520"
 
 sections:
   - h: "What the researchers did"

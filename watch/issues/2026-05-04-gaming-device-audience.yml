@@ -50,6 +50,19 @@ paper:
   online: "2026-05-18"
   open_access: true
   licence: "CC BY-NC 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Davide Marengo"
+      affiliation: "Department of Psychology, University of Turin, Turin, Italy"
+      orcid: "0000-0002-7107-0810"
+    - name: "Bruno Schivinski"
+      affiliation: "School of Media and Communication, Royal Melbourne Institute of Technology, Melbourne, Australia; Gdansk University of Technology, Gdansk, Poland"
+      orcid: "0000-0002-4095-1922"
+    - name: "Halley M. Pontes"
+      affiliation: "School of Psychological Sciences, Birkbeck, University of London, United Kingdom"
+      orcid: "0000-0001-8020-7623"
+    - name: "Christian Montag"
+      affiliation: "Centre for Cognitive and Brain Sciences, Institute of Collaborative Innovation, University of Macau, Macau SAR, China; Department of Computer and Information Science, Faculty of Science and Technology, University of Macau, Macau SAR, China"
+      orcid: "0000-0001-8112-0837"
 
 sections:
   - h: "What the researchers did"

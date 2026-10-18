@@ -49,6 +49,13 @@ paper:
   online: "2026-04-21"
   open_access: true
   licence: "CC BY 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Maximilian Kaiser"
+      affiliation: "University of Hamburg, Germany; and Grips Intelligence, Germany"
+      orcid: "0009-0007-4329-161X"
+    - name: "Christian Schulze"
+      affiliation: "Frankfurt School of Finance & Management, Germany"
+      orcid: "0000-0001-5731-4068"
 
 sections:
   - h: "What the researchers did"

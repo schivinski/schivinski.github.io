@@ -48,6 +48,19 @@ paper:
   online: "2026-02-12"
   open_access: true
   licence: "CC BY-NC 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Andreas Bayerl"
+      affiliation: "Erasmus School of Economics, Erasmus University Rotterdam"
+      orcid: "0000-0002-7248-5444"
+    - name: "Verena Schoenmueller"
+      affiliation: "Erasmus School of Economics, Erasmus University Rotterdam"
+      orcid: "0000-0001-6285-1415"
+    - name: "Jacob Goldenberg"
+      affiliation: "Reichman University, Israel, Columbia Business School, Columbia University, USA"
+      orcid: "0009-0001-3631-4533"
+    - name: "Florian Stahl"
+      affiliation: "Mannheim Business School, University of Mannheim, Germany"
+      orcid: "0000-0002-2846-3424"
 
 sections:
   - h: "What the researchers did"

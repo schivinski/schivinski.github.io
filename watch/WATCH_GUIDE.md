@@ -101,7 +101,14 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   `affiliation`, `sameAs` and an ORCID `identifier`, which is what lets a search on an author's name surface the issue.
 - **Every external link opens in a new tab.** `scripts/external_links.py` (post-render) adds `target="_blank"` and
   `rel="noopener"` to any link that leaves schivinski.com, site-wide.
-- Trialled on issue 40 at Bruno's request. Other published issues keep their text (forward-only rule) unless he asks.
+- Trialled on issue 40, then approved. On 18 October 2026 Bruno asked for the same author data on issues 1-39. It was
+  filled from the publisher (Crossref) and ORCID registries, not from the PDFs: an ORCID is kept only when Crossref lists
+  it for that author, or when OpenAlex lists it and that ORCID record carries the paper's DOI; otherwise no link. Where a
+  registry gave no affiliation the field is empty. If Bruno spots a wrong affiliation or iD on an old issue, fix the
+  `researchers:` block in its YAML.
+- **From issue 41, the `description` starts with the first author** ("Boluki et al. find that ..."), still 140-160
+  characters. It feeds the search snippet, the share preview and the structured data, so a search that pairs an author's
+  name with a topic can match, and it adds nothing to the length of the page itself.
 
 ## Freshness rules (Bruno, standing)
 - **No repeats inside an issue.** Give each fact one home. Plan a quick "fact ledger" before writing: the short answer,

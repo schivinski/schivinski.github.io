@@ -49,6 +49,13 @@ paper:
   online: "2026-04-01"
   open_access: false
   licence: ""
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Youssra El Midaoui"
+      affiliation: "University of Liège HEC Liège Management School, Liège"
+    - name: "Laurence Dessart"
+      affiliation: "University of Liège HEC Liège Management School, Liège"
+    - name: "Willem Standaert"
+      affiliation: "University of Liège HEC Liège Management School, Liège"
 
 sections:
   - h: "What the researchers did"

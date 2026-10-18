@@ -47,6 +47,19 @@ paper:
   online: "2026-02-04"
   open_access: true
   licence: "CC BY-NC 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Liat Hadar"
+      affiliation: "Coller School of Management, Tel Aviv University, Israel"
+      orcid: "0000-0002-4218-6881"
+    - name: "Yael Steinhart"
+      affiliation: "Coller School of Management, Tel Aviv University, Israel"
+      orcid: "0000-0001-6814-0753"
+    - name: "Gil Appel"
+      affiliation: "Coller School of Management, Tel Aviv University, Israel"
+      orcid: "0000-0001-7859-3908"
+    - name: "Yaniv Shani"
+      affiliation: "Coller School of Management, Tel Aviv University, Israel"
+      orcid: "0000-0001-8777-8162"
 
 sections:
   - h: "What the researchers did"

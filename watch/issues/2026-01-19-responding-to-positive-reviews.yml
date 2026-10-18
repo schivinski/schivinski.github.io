@@ -47,6 +47,16 @@ paper:
   online: "2026-01-12"
   open_access: true
   licence: "CC BY 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Katherine C. Lafreniere"
+      affiliation: "Alberta School of Business, University of Alberta, Canada"
+      orcid: "0000-0003-3252-4389"
+    - name: "Sarah G. Moore"
+      affiliation: "Alberta School of Business, University of Alberta, Canada"
+      orcid: "0000-0002-8832-1444"
+    - name: "Mohamad Soltani"
+      affiliation: "Alberta School of Business, University of Alberta, Canada"
+      orcid: "0000-0002-7189-625X"
 
 sections:
   - h: "What the researchers did"

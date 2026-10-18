@@ -53,6 +53,14 @@ paper:
   online: "2026-05-22"
   open_access: true
   licence: "CC BY 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Anastasia Nanni"
+      affiliation: "Aalto University, Espoo, Finland"
+    - name: "Aulona Ulqinaku"
+      affiliation: "Università Carlo Cattaneo – LIUC, Castellanza (Varese), Italy"
+    - name: "Verdiana Giannetti"
+      affiliation: "Leeds University Business School, University of Leeds, Leeds, UK"
+      orcid: "0000-0001-5703-789X"
 
 sections:
   - h: "What the researchers did"

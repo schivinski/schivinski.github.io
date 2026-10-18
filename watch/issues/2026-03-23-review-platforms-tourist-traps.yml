@@ -48,6 +48,10 @@ paper:
   online: "2025-04-28"
   open_access: true
   licence: "CC BY 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Dante Donati"
+      affiliation: "Columbia Business School, New York"
+      orcid: "0000-0001-9661-7299"
 
 sections:
   - h: "What the researcher did"

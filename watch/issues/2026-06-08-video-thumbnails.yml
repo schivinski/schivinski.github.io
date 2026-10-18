@@ -50,6 +50,17 @@ paper:
   online: "2026-04-15"
   open_access: false
   licence: ""
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Jiaming Fang"
+      affiliation: "School of Economics and Management, University of Electronic Science and Technology of China, West Hi-Tech Zone, Chengdu, Sichuan, PR China"
+    - name: "Qiqi Zheng"
+      affiliation: "School of Economics and Management, University of Electronic Science and Technology of China, West Hi-Tech Zone, Chengdu, Sichuan, PR China"
+    - name: "Miyan Liao"
+      affiliation: "Research Center for Enterprise Management, Chongqing Technology and Business University, Nan’an District, Chongqing, PR China"
+    - name: "Lintong Han"
+      affiliation: "School of Economics and Management, University of Electronic Science and Technology of China, West Hi-Tech Zone, Chengdu, Sichuan, PR China"
+    - name: "Lu Liu"
+      affiliation: "Business School, Henan University, Kaifeng, Henan, PR China"
 
 sections:
   - h: "What the researchers did"

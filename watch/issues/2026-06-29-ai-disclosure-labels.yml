@@ -49,6 +49,16 @@ paper:
   online: "2026-05-07"
   open_access: true
   licence: "CC BY-NC 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Stephan Carney"
+      affiliation: "Marshall School of Business, University of Southern California, USA"
+      orcid: "0009-0006-2611-2811"
+    - name: "Ignacio Riveros"
+      affiliation: "Marshall School of Business, University of Southern California, USA"
+      orcid: "0000-0002-5358-544X"
+    - name: "Stephanie M. Tully"
+      affiliation: "Marshall School of Business, University of Southern California, USA"
+      orcid: "0000-0002-7179-7729"
 
 sections:
   - h: "What the researchers did"

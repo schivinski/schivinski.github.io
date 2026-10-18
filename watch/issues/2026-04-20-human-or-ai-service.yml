@@ -47,6 +47,19 @@ paper:
   online: "2026-04-08"
   open_access: false
   licence: ""
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Yeseul Kim"
+      affiliation: "University of Bath"
+      orcid: "0009-0002-0276-3768"
+    - name: "Dipayan Biswas"
+      affiliation: "University of South Florida"
+      orcid: "0000-0002-6015-8585"
+    - name: "Courtney Szocs"
+      affiliation: "Pennsylvania State University"
+      orcid: "0000-0001-7028-3286"
+    - name: "Khalia Jenkins"
+      affiliation: "American University"
+      orcid: "0009-0004-1348-3977"
 
 sections:
   - h: "What the researchers did"

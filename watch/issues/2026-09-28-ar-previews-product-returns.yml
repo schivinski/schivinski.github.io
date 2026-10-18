@@ -46,6 +46,18 @@ paper:
   online: "2026-07-24"
   open_access: true
   licence: "CC BY 4.0"
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Minghao Li"
+      affiliation: "Digital Governance Laboratory, Fuyao University of Science and Technology, China"
+      orcid: "0000-0002-7381-8300"
+    - name: "Bo Huang"
+      affiliation: "Nottingham University Business School China, University of Nottingham Ningbo China, Ningbo, Zhejiang, China"
+      orcid: "0000-0002-9339-5085"
+    - name: "Ruizhi Yuan"
+      affiliation: "Nottingham University Business School China, University of Nottingham Ningbo China, Ningbo, Zhejiang, China"
+      orcid: "0000-0002-0556-4839"
+    - name: "Ruolan Chen"
+      affiliation: "Nottingham University Business School China, University of Nottingham Ningbo China, Ningbo, Zhejiang, China"
 
 sections:
   - h: "What the researchers did"

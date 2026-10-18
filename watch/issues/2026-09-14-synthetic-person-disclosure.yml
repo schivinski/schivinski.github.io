@@ -48,6 +48,13 @@ paper:
   online: "2026-09-10"
   open_access: false
   licence: ""
+  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+    - name: "Dorit Zimand-Sheiner"
+      affiliation: "Ariel University"
+    - name: "Ofrit Kol"
+      affiliation: "Ariel University"
+    - name: "Shalom Levy"
+      affiliation: "Ariel University"
 
 sections:
   - h: "What the researchers did"
