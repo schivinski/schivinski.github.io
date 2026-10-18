@@ -49,20 +49,24 @@ paper:
   online: "2026-04-01"
   open_access: false
   licence: ""
-  researchers:   # from the publisher and ORCID registries; affiliation where the registries list one
+  researchers:   # names and affiliation as printed in the paper; ORCID iDs matched by name and University of Liège affiliation in the ORCID registry
     - name: "Youssra El Midaoui"
-      affiliation: "University of Liège HEC Liège Management School, Liège"
+      affiliation: "HEC Liège Management School, University of Liège, Belgium"
+      orcid: "0009-0005-5593-7305"
     - name: "Laurence Dessart"
-      affiliation: "University of Liège HEC Liège Management School, Liège"
+      affiliation: "HEC Liège Management School, University of Liège, Belgium"
+      orcid: "0000-0003-3926-9739"
     - name: "Willem Standaert"
-      affiliation: "University of Liège HEC Liège Management School, Liège"
+      affiliation: "HEC Liège Management School, University of Liège, Belgium"
+      orcid: "0000-0003-4756-8085"
 
 sections:
   - h: "What the researchers did"
     body: |
       Brands now put chatbots in front of customers at the moment they most need help, such as a changed flight, a lost bag or
       a refund. When the bot fails, the customer has been let down twice, once by the machine and once by the company that put it there.
-      The researchers at HEC Liège asked whether those two letdowns lead to different reactions.
+      Youssra El Midaoui, Laurence Dessart and Willem Standaert, from HEC Liège Management School at the University of Liège in
+      Belgium, asked whether those two letdowns lead to different reactions.
 
       They used two linked studies. The first was a survey in which Belgian adults imagined losing their luggage on a flight and
       asking a well-known mid-priced Belgian airline's chatbot for help. The bot gave poor answers again and again, shown in a
