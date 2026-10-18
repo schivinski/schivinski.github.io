@@ -1,0 +1,210 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 41
+week_of: "2026-10-19"            # the week this issue covers (shown on the page, orders the archive)
+slug: visual-consistency-influencers
+status: live
+
+title: "Should every influencer in a campaign share the same look? What a Journal of the Academy of Marketing Science study of 182 campaigns found"
+dek: >-
+  Briefing a dozen creators on one campaign raises an old question: should their pictures match, or should each person do their own thing?
+  An agency's records from 182 Instagram campaigns suggest the answer depends on where the content appears.
+short_title: "Matching looks suit posts, a mix suits stories"
+
+description: >-
+  Boluki et al. studied 1,812 Instagram posts and stories from 182 influencer campaigns: matching looks suit posts, while stories do better with a mix.
+
+keywords: [influencer marketing, visual consistency, Instagram posts and stories, influencer briefs, image analysis, social media engagement,
+  campaign creative, micro and macro influencers, visual strategy, content strategy, Journal of the Academy of Marketing Science]
+topics: [Influencers, Social media, Creative]
+
+image:
+  file: issue-41-visual-consistency.jpg
+  og: issue-41-visual-consistency-og.jpg
+  alt: "A wall of large oval discs in cream, orange, red, blue and mint hanging in a grid in front of a concrete building"
+  caption: "One shape, one palette, and room to vary the colour. Photo: Austin on Unsplash."
+
+short_answer: >-
+  Keep feed posts matched, and loosen up for stories. In 707 sponsored Instagram posts, those whose look lined up with other posts in
+  the same campaign earned more likes. In 1,105 stories the picture was mixed: some cues earned clicks by staying the same, others by
+  changing. A brief that picked which cues to match and which to vary beat both "everyone match" and "everyone be different".
+
+takeaways:
+  - "Posts did better when a campaign's images matched on brightness, colour complexity, number of faces, face size and diagonal layout. Brightness mattered most."
+  - "Stories were a blend. Keeping the person's presence and any on-image text steady went with more clicks, and so did changing the setting, the activity and the colour temperature."
+  - "Creators with 100,000 or more followers and product campaigns leaned toward matching posts. Smaller creators and service campaigns did better with a mix."
+  - "In simulations, a brief that decided cue by cue what to keep and what to change beat one-size-fits-all advice, with predicted gains of about 1% for posts and 7% for stories. These are model scenarios, not tested results."
+
+paper:
+  doi: "10.1007/s11747-026-01188-8"
+  title: "Visual strategies in influencer marketing campaigns: The role of consistency"
+  authors: ["Boluki, A.", "Shehu, E.", "Bijmolt, T. H. A."]
+  authors_full: ["Ali Boluki", "Edlira Shehu", "Tammo H. A. Bijmolt"]
+  year: 2026
+  journal: "Journal of the Academy of Marketing Science"
+  volume: "54"
+  issue: "4"
+  pages: "1166-1189"
+  online: "2026-08-05"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # names and affiliation as printed in the paper; ORCID iDs as deposited by the publisher (the paper itself prints none)
+    - name: "Ali Boluki"
+      affiliation: "Department of Marketing, University of Groningen, Netherlands"
+      orcid: "0009-0005-7490-9326"
+    - name: "Edlira Shehu"
+      affiliation: "Department of Marketing, University of Groningen, Netherlands"
+      orcid: "0000-0002-1807-0731"
+    - name: "Tammo H. A. Bijmolt"
+      affiliation: "Department of Marketing, University of Groningen, Netherlands"
+      orcid: "0000-0003-4941-5998"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Influencer campaigns often put many creators on one brief. One camp says everyone should match, so the campaign is recognised at a
+      glance. Another says creators should have free rein, so every post feels fresh. The authors point to a big beauty launch built on the
+      first idea and a fashion hashtag campaign built on the second, and both drew strong engagement.
+
+      The Groningen team tested the question on the pictures themselves. An influencer-marketing agency shared its campaign records,
+      including numbers that only agencies and creators can see, such as clicks on stories. For every post and story, the team measured
+      how the image looked in four areas that photographers use to describe a picture: colour, complexity, composition and content. They
+      then scored how closely each item matched the others in its own campaign.
+    facts:
+      - ["Data", "707 sponsored Instagram posts and 1,105 stories from 182 campaigns, run between 2018 and 2023"]
+      - ["Source", "One global agency, covering 91 brands and 539 influencers, all awareness campaigns"]
+      - ["Outcomes", "Likes in the first week for posts, and all clicks during the 24 hours a story is live"]
+      - ["Measures", "22 visual features plus 25 measures of how much each differs across a campaign, 47 in all"]
+      - ["Analysis", "A regression that keeps only the features that help predict engagement, with controls for followers, impressions, gender, timing and product category"]
+
+  - h: "Posts: a matching look earned more likes"
+    body: |
+      Feed posts stay on a profile, so they get seen as a set. When the posts in one campaign looked alike, they earned more likes. Five
+      cues carried the effect: how bright the images were, how many colours and tones they used, how many faces appeared, how large the face
+      was in the frame, and how strongly the layout ran along a diagonal.
+
+      Brightness was the strongest. A 10% closer match on brightness went with about 1.4% more likes, and colour complexity followed
+      at about 1.1%. The authors suggest a shared look helps viewers file posts as one campaign without effort, which leaves more
+      attention for the content.
+
+      The look of each post counted as well. Posts did better when they were darker, showed more faces, had a strong diagonal and
+      pictured the influencer's whole body. They did worse when a face filled the frame or text sat over the image. Their reading is a nudge away
+      from close-up selfies.
+    chart: posts
+
+  - h: "Stories: keep the person steady, change the scene"
+    body: |
+      Stories disappear after a day, and the results were less tidy. A few cues paid off when kept constant and a few when changed.
+
+      The steady ones were the share of the person shown, where text sat, and the diagonal and colour complexity of the layout. Matching 10% more closely on
+      how much of the person was in frame went with about 5% more clicks. The cues that did better when they varied were
+      the spread of light and dark in the image, how big the main subject was, what was going on, the colour temperature and the location.
+      Variety in light and dark showed the largest link, at about 7%.
+
+      On their own, brighter, more colourful stories with more objects and more of the influencer's body drew more clicks. The authors
+      add that stories are usually watched full-screen and often without a caption, which leaves the visuals to do the work.
+
+  - h: "It depends on who posts and what is sold"
+    body: |
+      The team split the data by creator size, using 100,000 followers as the line. For creators at or above it, matching helped across the
+      board: all five post cues leaned toward consistency, with nothing pulling the other way. For smaller creators, posts were mixed. Three
+      cues did better with variety and two did better when they matched. Smaller creators' stories leaned toward variety.
+
+      Product type changed things too. Posts for physical products rewarded a consistent look on all five cues. Posts for services were
+      mixed, with face count and face size doing better when they varied. The explanation offered is that a service has nothing to hold
+      up to the camera, so it needs varied scenes and experiences to feel real. For stories, product campaigns tilted toward variety, and
+      service campaigns split about evenly.
+
+  - h: "What a smarter brief could earn"
+    body: |
+      To see what this means for a brief, the authors ran simulations that compared four ways of instructing creators against the
+      campaigns as they actually ran. One focused only on the look of each image. One told everyone to match. One told everyone to
+      differ. The fourth used the study's findings to choose, cue by cue and format by format, what to keep the same and what to vary.
+
+      The fourth did best for both formats. For stories it predicted about 7% more clicks, against about 3.5% for a looks-only brief.
+      For posts the figures were about 1% and 0.4%. Telling everyone to differ was the weakest, and for posts it predicted about 0.5%
+      fewer likes.
+
+      The authors stress that the data are observational and the numbers are model-implied. They advise testing any brief with a pilot
+      before treating the gains as real. The agency that supplied the data is already using the findings in its own briefs.
+    chart: briefing
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List what makes your look yours", "Write down five things a stranger would notice across your images, such as brightness, colour palette, how many people appear, how close the camera is and where any text sits. Be specific enough that two people would agree on the list."]
+  - ["Split the list in two", "Mark two or three items as must match and the rest as free choice. A good must-match item is one you could check by eye in a second, such as the number of people in frame."]
+  - ["Brief posts and stories separately", "Write one page for feed posts, with the must-match items, and another for stories, with a shorter list. Give each creator three example images that show the look you mean."]
+  - ["Say where to be different", "Tell creators plainly what is theirs to change, such as the location, the activity or the time of day, so that variety looks intended and does not feel like a slip."]
+  - ["Test the set before you pay for more", "When the first posts are up, put them in a grid on one screen and show it to five colleagues for three seconds. Ask which images belong to the same campaign. If fewer than four of the five can tell, tighten the must-match list."]
+  - ["Compare against your last campaign", "Divide likes by impressions for posts and clicks by impressions for stories, for this campaign and your last one. Keep the new lists if both numbers rise or hold, and change only one item at a time when you adjust."]
+
+expect:
+  - "**Small gains on posts.** The predicted lift is around one percent, so judge it across a whole campaign and not on a single image."
+  - "**Bigger swings on stories.** The model sees more room to gain there, which makes stories the better place to run your first test."
+  - "**Short lists work better than long ones.** Only a handful of cues carried the effect, so you do not need to police every pixel."
+  - "**Different advice by creator.** What suits a creator with a huge following can be wrong for a small one, so adjust the brief to the person."
+
+limits:
+  - "**Observational data.** The study shows links and cannot prove that matching causes more likes or clicks. The authors call for field experiments."
+  - "**One agency, one platform.** All campaigns were on Instagram, came from a single agency and mostly promoted fast-moving consumer goods."
+  - "**Only the first frame of a story.** Full story sequences, captions and reels were out of view."
+  - "**No cost or sales data.** Engagement is measured in likes and clicks, so the study cannot say what a better look is worth in profit."
+
+faq:
+  - q: "Should every influencer in a campaign post in the same style?"
+    a: "For feed posts, largely yes on a few cues. For stories, partly. Posts that matched within a campaign earned more likes, while stories did best when some cues stayed fixed and others changed (Boluki, Shehu & Bijmolt, 2026, Journal of the Academy of Marketing Science)."
+  - q: "Which cues should a brief lock down?"
+    a: "For posts, start with brightness and colour complexity, then faces and layout direction. For stories, how fully the person appears on screen and the position of any text."
+  - q: "What can creators change freely in stories?"
+    a: "The setting, the activity, the colour temperature, the size of the main subject and the contrast between light and dark areas all did better with variety."
+  - q: "Does follower count change the advice?"
+    a: "It did. Larger creators gained from matching posts, while smaller creators did better with a blend of matching and variety."
+  - q: "Do classic photography rules matter here?"
+    a: "Not once the other features were counted. The rule of thirds, depth of field and technical image quality dropped out of the final models for both posts and stories."
+
+also:
+  - doi: "10.1007/s11747-026-01183-z"
+    title: "To swear or not to swear: Exploring the role of profanity in influencer marketing"
+    authors: "Moghadam & Mahajan"
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2026
+    text: >-
+      Machine-learning analysis of influencer videos finds that swearing lowers engagement, most of all in categories where it is not the norm,
+      and more when the creator is female, the post is sponsored or the content is otherwise polite. A creator's swearing history softens the hit,
+      except where swearing is unusual, and there repeating it can make reactions worse.
+  - doi: "10.1007/s11747-026-01171-3"
+    title: "From gaming to politics: The impact of political chatter by social media influencers on consumer engagement with non-political content"
+    authors: "Moghadam"
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2026
+    text: >-
+      Across 43,892 videos from 200 gaming creators, political talk in non-political content lowered engagement. The drop was smaller when the creator
+      showed sadness or anger, used humour, or spoke to viewers used to the chatter, and larger when the creator's morals clashed with the audience's.
+
+charts:
+  posts:
+    title: "Posts: likes gained from a closer campaign match, per 10% closer"
+    scale: [0, 2]
+    step: 0.5
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Brightness", 1.39, true]
+      - ["Colour complexity", 1.09, false]
+      - ["Number of faces", 0.6, false]
+      - ["Face size", 0.4, false]
+      - ["Diagonal layout", 0.4, false]
+    source: "Posts model, size of the link between each consistency measure and likes, for a 10% change in how closely posts in a campaign match. Whole-sample estimates."
+  briefing:
+    title: "Stories: predicted change in clicks under four briefing styles"
+    scale: [0, 8]
+    step: 2
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Everyone differs", 1.89, false]
+      - ["Everyone matches", 2.03, false]
+      - ["Looks only", 3.52, false]
+      - ["Cue-by-cue brief", 6.98, true]
+    source: "Monte Carlo simulation against the actual campaign data. Model-implied scenarios from observational data, not tested results."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
