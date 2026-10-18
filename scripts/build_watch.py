@@ -327,11 +327,73 @@ def hero_html(img: dict) -> str:
     return tag
 
 
+ORCID_ICON = ('<svg class="mw-orcid" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">'
+              '<circle cx="12" cy="12" r="12" fill="#A6CE39"/><text x="12" y="16.2" font-size="10.5" font-weight="700" '
+              'font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="#fff">iD</text></svg>')
+
+
+def orcid_url(o: str) -> str:
+    o = (o or "").strip()
+    if not o:
+        return ""
+    return o if o.startswith("http") else f"https://orcid.org/{o}"
+
+
+def researchers(p: dict) -> list:
+    """The paper's authors as printed in the paper: name, affiliation (as published), ORCID when the author has one."""
+    return [r for r in (p.get("researchers") or []) if r.get("name")]
+
+
+def name_list(names: list) -> str:
+    return names[0] if len(names) == 1 else ", ".join(names[:-1]) + " and " + names[-1]
+
+
+def study_by_html(p: dict) -> str:
+    rs = researchers(p)
+    if not rs:
+        return ""
+    links = [f'<a href="#the-researchers">{esc(r["name"])}</a>' for r in rs]
+    return f'<p class="mw-study-by">Research by {name_list(links)} · <em>{esc(p["journal"])}</em></p>'
+
+
+def researchers_html(p: dict) -> str:
+    rs = researchers(p)
+    if not rs:
+        return ""
+    items = []
+    for r in rs:
+        url = orcid_url(r.get("orcid", ""))
+        name = (f'<a href="{esc(url)}" target="_blank" rel="noopener" title="ORCID profile of {esc(r["name"])}">'
+                f'{esc(r["name"])} {ORCID_ICON}<span class="mw-sr"> (ORCID profile)</span></a>' if url
+                else f'<span class="mw-r-name">{esc(r["name"])}</span>')
+        aff = f'<span class="mw-r-aff">{esc(r["affiliation"])}</span>' if r.get("affiliation") else ""
+        items.append(f'<li>{name}{aff}</li>')
+    return ('<section id="the-researchers" class="mw-researchers"><h2>The researchers</h2>'
+            f'<p class="mw-note">The study behind this issue, with each author\'s institution as published in '
+            f'<em>{esc(p["journal"])}</em>. Names link to the authors\' ORCID profiles.</p>'
+            '<ul>' + "".join(items) + '</ul></section>')
+
+
+def person_ld(r) -> dict:
+    if isinstance(r, str):
+        return {"@type": "Person", "name": r}
+    out = {"@type": "Person", "name": r["name"]}
+    if r.get("affiliation"):
+        out["affiliation"] = {"@type": "Organization", "name": r["affiliation"]}
+    url = orcid_url(r.get("orcid", ""))
+    if url:
+        out["@id"] = url
+        out["sameAs"] = url
+        out["identifier"] = {"@type": "PropertyValue", "propertyID": "ORCID", "value": url.rsplit("/", 1)[-1]}
+    return out
+
+
 def body(d: dict, prev_next: tuple, data: list) -> str:
     p = d["paper"]
     img = d["image"]
     out = [f'<p class="mw-kicker">Marketing in 3 · Issue {d["issue"]} · Week of {long_date(d["week_of"])}</p>',
            f'<figure class="mw-hero">{hero_html(img)}<figcaption>{esc(img["caption"])}</figcaption></figure>',
+           study_by_html(p),
            f'<section class="mw-answer" aria-label="Short answer"><h2>The short answer</h2><p>{md(d["short_answer"])}</p></section>',
            '<section class="mw-takeaways"><h2>Key takeaways</h2><ul>'
            + "".join(f"<li>{md(t)}</li>" for t in d["takeaways"]) + "</ul></section>"]
@@ -362,6 +424,7 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
                              f'<h3><a href="https://doi.org/{esc(a["doi"])}">{esc(a["title"])}</a></h3>'
                              f'<p class="mw-also-au">{esc(a["authors"])}</p><p>{md(a["text"])}</p></article>'
                              for a in d["also"]) + "</div></section>")
+    out.append(researchers_html(p))
     oa = (f' Open access ({esc(p["licence"])}): free to read at the publisher.' if p.get("open_access") else "")
     out.append(f'<section id="source" class="mw-source"><h2>Source</h2><p class="mw-cite">{apa(p)}</p>'
                f'<p class="mw-note">This brief is written for practitioners from '
@@ -396,10 +459,10 @@ def jsonld(d: dict, url: str) -> str:
     def scholarly(doi, title, authors, journal, year):
         return {"@type": "ScholarlyArticle", "name": title, "headline": title, "sameAs": f"https://doi.org/{doi}",
                 "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": doi},
-                "author": [{"@type": "Person", "name": a} for a in authors],
+                "author": [person_ld(a) for a in authors],
                 "datePublished": str(year), "isPartOf": {"@type": "Periodical", "name": journal}}
 
-    lead = scholarly(p["doi"], p["title"], p.get("authors_full", p["authors"]), p["journal"], p["year"])
+    lead = scholarly(p["doi"], p["title"], researchers(p) or p.get("authors_full", p["authors"]), p["journal"], p["year"])
     words = len(re.findall(r"\w+", json.dumps(d, ensure_ascii=False)))
     graph = [
         {"@type": "BlogPosting", "@id": f"{url}#article", "mainEntityOfPage": url, "url": url,

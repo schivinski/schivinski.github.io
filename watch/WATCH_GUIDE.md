@@ -88,6 +88,21 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   to the card width. Put the detail in the chart title or the source line instead of the label.
 - The value label only shows a unit when `unit` is `%`. For any other unit, put it in the chart title.
 
+## The researchers and external links (Bruno, 18 October 2026, from issue 41 on)
+- **Name the study's authors with their institutions and ORCID.** Add `researchers:` under `paper:`, one entry per author
+  in byline order: `name` as printed in the paper, `affiliation` as printed in the paper's affiliation footnote (department,
+  institution, country), `orcid` as the bare iD (`0000-0002-...`). Draft it with `python scripts/paper_authors.py <doi>`,
+  then check every line against the PDF: the paper wins. An ORCID printed in the paper beats the registries (issue 40
+  showed OpenAlex holding a different iD for one author than the one the paper prints). Leave `orcid: ""` when no
+  source lists one; the name then shows unlinked.
+- The builder turns this into a "Research by ..." line under the hero (names jump to the list), a "The researchers"
+  section before the Source (names link to ORCID, institution underneath) and `Person` entries with `affiliation`,
+  `sameAs` and ORCID `identifier` in the JSON-LD, so a search on an author's name can surface the issue.
+- Mention the authors by name and institution in the first section too, in plain prose.
+- **Every external link opens in a new tab.** `scripts/external_links.py` (post-render) adds `target="_blank"` and
+  `rel="noopener"` to any link that leaves schivinski.com, site-wide, so nothing needs to be done by hand.
+- Published issues 1-40 have no `researchers:` block (forward-only rule) unless Bruno asks for a retrofit.
+
 ## Freshness rules (Bruno, standing)
 - **No repeats inside an issue.** Give each fact one home. Plan a quick "fact ledger" before writing: the short answer,
   each takeaway, each section, the FAQ and "what to expect" should each carry different numbers or a new angle. If a
