@@ -63,6 +63,29 @@ description: "Bruno Schivinski, Associate Professor of Marketing at Gdańsk Univ
   </div>
 </section>
 
+<section class="home-m3" id="marketing-in-3" aria-labelledby="m3-h">
+  <div class="wrap">
+    <div class="m3-head">
+      <div class="m3-intro">
+        <p class="m3-kicker">New issue every Monday · free · ad-free</p>
+        <h2 id="m3-h">Marketing in 3</h2>
+        <p class="m3-lead">One peer-reviewed marketing study a week, explained in plain English: what it found,
+          how to use it in your strategy, and what results to expect.</p>
+      </div>
+      <div class="m3-actions">
+        <a class="m3-btn m3-btn-main" href="watch/index.html">All issues</a>
+        <a class="m3-btn" href="watch/subscribe.html">Subscribe</a>
+      </div>
+    </div>
+```
+
+::: {#latest}
+:::
+
+```{=html}
+  </div>
+</section>
+
 <section class="home-section home-about" id="about">
   <div class="wrap">
     <div class="about-grid">
@@ -146,29 +169,16 @@ description: "Bruno Schivinski, Associate Professor of Marketing at Gdańsk Univ
 </section>
 
 <section class="home-section">
-  <div class="wrap home-split">
-    <div>
-      <div class="section-head">
-        <h2>Recent publications</h2>
-        <a href="publications.html">All publications</a>
-      </div>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Recent publications</h2>
+      <a href="publications.html">All publications</a>
+    </div>
 ```
 
 {{< include _generated/recent.md >}}
 
 ```{=html}
-    </div>
-    <div class="watch-panel">
-      <h2>Marketing in 3</h2>
-      <p>A weekly digest of new marketing research for practitioners: what it means for strategy, how to apply it, and what to expect.</p>
-```
-
-::: {#latest}
-:::
-
-```{=html}
-      <p><a href="watch/index.html">All digests</a></p>
-    </div>
   </div>
 </section>
 
