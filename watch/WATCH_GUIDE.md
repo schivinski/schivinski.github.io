@@ -99,6 +99,13 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   FAQ; the surnames inside the study's own citation, e.g. "(Bravin, Clegg & Berger, 2026, Journal of Marketing)"; and
   each name in the Source reference. Links get a thin green underline. The JSON-LD lists each author as a `Person` with
   `affiliation`, `sameAs` and an ORCID `identifier`, which is what lets a search on an author's name surface the issue.
+- **Revised 19 October 2026 (Bruno), from issue 42 onwards.** (1) The first section opens by naming the authors with their
+  universities, in the style of issue 22: "Jiaming Fang, Qiqi Zheng, Miyan Liao, Lintong Han and Lu Liu, working across three
+  Chinese universities, set out to ...". Write each name exactly as in `researchers:`; the builder links the first mention of
+  each full name to ORCID. Do not write "the Groningen team"-style openers without the names. (2) Citations are plain: the FAQ
+  citation "(Boluki, Shehu & Bijmolt, 2026, Journal ...)" and the Source reference carry no author links, only the DOI link.
+  The builder now does this for every issue except 41, which stays as published (issues 1-40 were switched at no cost by the
+  rebuild; their prose openers were not rewritten).
 - **Every external link opens in a new tab.** `scripts/external_links.py` (post-render) adds `target="_blank"` and
   `rel="noopener"` to any link that leaves schivinski.com, site-wide.
 - Trialled on issue 40, then approved. On 18 October 2026 Bruno asked for the same author data on issues 1-39. It was

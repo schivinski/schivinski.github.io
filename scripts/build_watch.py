@@ -339,7 +339,7 @@ def researchers(p: dict) -> list:
     return [r for r in (p.get("researchers") or []) if r.get("name")]
 
 
-def link_names(html: str, p: dict, used: set, cite_only: bool = False) -> str:
+def link_names(html: str, p: dict, used: set, cite_only: bool = False, cites: bool = True) -> str:
     """Put an ORCID link on authors' names where the text already names them (Bruno, 18 October 2026).
 
     Full names ("Jonah Berger") are linked at their first mention in the prose; surnames are linked inside the study's own
@@ -375,7 +375,7 @@ def link_names(html: str, p: dict, used: set, cite_only: bool = False) -> str:
                 sur = r["name"].split()[-1]
                 inner = re.sub(r"(?<![\w>-])" + re.escape(sur) + r"(?![\w-])", lambda x: a(r, x.group(0)), inner, count=1)
             return inner
-        return re.sub(r"\([^()]*?\b" + re.escape(year) + r"\b[^()]*?\)", cite, text) if year else text
+        return re.sub(r"\([^()]*?\b" + re.escape(year) + r"\b[^()]*?\)", cite, text) if (year and cites) else text
 
     out, depth = [], 0
     for part in re.split(r"(<[^>]+>)", html):
@@ -392,11 +392,11 @@ def link_names(html: str, p: dict, used: set, cite_only: bool = False) -> str:
     return "".join(out)
 
 
-def apa_linked(p: dict) -> str:
-    """APA reference with each author linked to ORCID when the issue lists one."""
+def apa_linked(p: dict, cites: bool = True) -> str:
+    """APA reference; authors link to ORCID only where the issue still uses linked citations (issue 41)."""
     html = apa(p)
     rs = researchers(p)
-    if not rs:
+    if not rs or not cites:
         return html
     for au, r in zip(p["authors"], rs):
         url = orcid_url(r.get("orcid", ""))
@@ -423,15 +423,16 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
     p = d["paper"]
     img = d["image"]
     used = set()
+    cites = d["issue"] == 41   # Bruno, 19 Oct 2026: citations are plain (DOI link only); issue 41 was left as published
     out = [f'<p class="mw-kicker">Marketing in 3 · Issue {d["issue"]} · Week of {long_date(d["week_of"])}</p>',
            f'<figure class="mw-hero">{hero_html(img)}<figcaption>{esc(img["caption"])}</figcaption></figure>',
-           f'<section class="mw-answer" aria-label="Short answer"><h2>The short answer</h2><p>{link_names(md(d["short_answer"]), p, used)}</p></section>',
+           f'<section class="mw-answer" aria-label="Short answer"><h2>The short answer</h2><p>{link_names(md(d["short_answer"]), p, used, cites=cites)}</p></section>',
            '<section class="mw-takeaways"><h2>Key takeaways</h2><ul>'
            + "".join(f"<li>{md(t)}</li>" for t in d["takeaways"]) + "</ul></section>"]
     charts = d.get("charts", {})
     for s in d["sections"]:
         sid = re.sub(r"[^a-z0-9]+", "-", s["h"].lower()).strip("-")
-        out.append(f'<section id="{sid}"><h2>{esc(s["h"])}</h2>{link_names(paras(s["body"]), p, used)}')
+        out.append(f'<section id="{sid}"><h2>{esc(s["h"])}</h2>{link_names(paras(s["body"]), p, used, cites=cites)}')
         if s.get("facts"):
             out.append('<dl class="mw-facts">' + "".join(f"<div><dt>{esc(k)}</dt><dd>{md(v)}</dd></div>"
                                                           for k, v in s["facts"]) + "</dl>")
@@ -447,7 +448,7 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
     out.append('<section id="where-it-does-not-work"><h2>Where it does not work</h2><ul class="mw-list">'
                + "".join(f"<li>{md(x)}</li>" for x in d["limits"]) + "</ul></section>")
     out.append('<section id="questions"><h2>Questions marketers ask</h2>'
-               + "".join(f'<div class="mw-faq"><h3>{esc(f["q"])}</h3><p>{link_names(md(f["a"]), p, used)}</p></div>' for f in d["faq"])
+               + "".join(f'<div class="mw-faq"><h3>{esc(f["q"])}</h3><p>{link_names(md(f["a"]), p, used, cites=cites)}</p></div>' for f in d["faq"])
                + "</section>")
     if d.get("also"):
         out.append('<section id="also-new"><h2>Also new this week</h2><div class="mw-also">'
@@ -456,7 +457,7 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
                              f'<p class="mw-also-au">{esc(a["authors"])}</p><p>{md(a["text"])}</p></article>'
                              for a in d["also"]) + "</div></section>")
     oa = (f' Open access ({esc(p["licence"])}): free to read at the publisher.' if p.get("open_access") else "")
-    out.append(f'<section id="source" class="mw-source"><h2>Source</h2><p class="mw-cite">{apa_linked(p)}</p>'
+    out.append(f'<section id="source" class="mw-source"><h2>Source</h2><p class="mw-cite">{apa_linked(p, cites)}</p>'
                f'<p class="mw-note">This brief is written for practitioners from '
                f'{esc(d.get("source_basis", "the published article"))}.{oa} '
                f'Numbers are as reported by the authors; read the article for full methods.</p></section>')
