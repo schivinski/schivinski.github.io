@@ -88,20 +88,20 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   to the card width. Put the detail in the chart title or the source line instead of the label.
 - The value label only shows a unit when `unit` is `%`. For any other unit, put it in the chart title.
 
-## The researchers and external links (Bruno, 18 October 2026, from issue 41 on)
-- **Name the study's authors with their institutions and ORCID.** Add `researchers:` under `paper:`, one entry per author
-  in byline order: `name` as printed in the paper, `affiliation` as printed in the paper's affiliation footnote (department,
-  institution, country), `orcid` as the bare iD (`0000-0002-...`). Draft it with `python scripts/paper_authors.py <doi>`,
-  then check every line against the PDF: the paper wins. An ORCID printed in the paper beats the registries (issue 40
-  showed OpenAlex holding a different iD for one author than the one the paper prints). Leave `orcid: ""` when no
-  source lists one; the name then shows unlinked.
-- The builder turns this into a "Research by ..." line under the hero (names jump to the list), a "The researchers"
-  section before the Source (names link to ORCID, institution underneath) and `Person` entries with `affiliation`,
-  `sameAs` and ORCID `identifier` in the JSON-LD, so a search on an author's name can surface the issue.
-- Mention the authors by name and institution in the first section too, in plain prose.
+## Authors' names link to ORCID; external links open in a new tab (Bruno, 18 October 2026)
+- **No new byline or author section** (Bruno: the issue does not grow). The text stays as before: authors named where
+  the prose, the FAQ citation and the Source already name them; universities mentioned in the prose as in earlier issues.
+- Add `researchers:` under `paper:`, one entry per author in byline order: `name` as printed in the paper,
+  `affiliation` as printed in its affiliation footnote, `orcid` as the bare iD. Draft it with
+  `python scripts/paper_authors.py <doi>`, then check every line against the PDF; the paper wins (for issue 40 OpenAlex
+  held a different iD for one author than the one the paper prints). Leave `orcid: ""` when none is listed.
+- The builder then links, to the author's ORCID: the first mention of each full name in the short answer, sections or
+  FAQ; the surnames inside the study's own citation, e.g. "(Bravin, Clegg & Berger, 2026, Journal of Marketing)"; and
+  each name in the Source reference. Links get a thin green underline. The JSON-LD lists each author as a `Person` with
+  `affiliation`, `sameAs` and an ORCID `identifier`, which is what lets a search on an author's name surface the issue.
 - **Every external link opens in a new tab.** `scripts/external_links.py` (post-render) adds `target="_blank"` and
-  `rel="noopener"` to any link that leaves schivinski.com, site-wide, so nothing needs to be done by hand.
-- Published issues 1-40 have no `researchers:` block (forward-only rule) unless Bruno asks for a retrofit.
+  `rel="noopener"` to any link that leaves schivinski.com, site-wide.
+- Trialled on issue 40 at Bruno's request. Other published issues keep their text (forward-only rule) unless he asks.
 
 ## Freshness rules (Bruno, standing)
 - **No repeats inside an issue.** Give each fact one home. Plan a quick "fact ledger" before writing: the short answer,

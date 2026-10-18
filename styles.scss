@@ -434,15 +434,8 @@ main section h2 { margin-top: 2.4rem; }
 .mw-sub-note { color: $muted; font-size: .92rem; margin-top: .6rem; }
 .mw-subscribe-line { margin-top: .4rem; }
 .mw-subscribe-line a { font-weight: 600; }
-.mw-study-by { color: $muted; font-size: .92rem; margin: -.4rem 0 1.2rem; }
-.mw-study-by a { color: $ink; font-weight: 600; text-decoration: none; border-bottom: 1px solid $rule; }
-.mw-study-by a:hover { border-bottom-color: $amber; }
-.mw-researchers ul { list-style: none; padding: 0; margin: .8rem 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: .7rem 1.4rem; }
-.mw-researchers li { border-left: 3px solid $amber; padding: .1rem 0 .1rem .8rem; }
-.mw-researchers li a, .mw-r-name { font-weight: 600; color: $ink; text-decoration: none; display: inline-flex; align-items: center; gap: .35rem; }
-.mw-researchers li a:hover { text-decoration: underline; }
-.mw-orcid { flex: none; vertical-align: middle; }
-.mw-r-aff { display: block; color: $muted; font-size: .88rem; line-height: 1.4; margin-top: .15rem; }
+.mw-orcid-link { color: inherit; text-decoration: underline; text-decoration-color: #A6CE39; text-decoration-thickness: 2px; text-underline-offset: 2px; }
+.mw-orcid-link:hover { text-decoration-color: currentColor; }
 .mw-source .mw-cite { padding-left: 1.6rem; text-indent: -1.6rem; }
 .mw-note { color: $muted; font-size: .9rem; }
 .mw-related ul { list-style: none; padding: 0; margin: 0; }

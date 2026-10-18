@@ -48,6 +48,22 @@ paper:
   online: "2026-07-17"
   open_access: true
   licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the paper (byline, affiliation footnotes, ORCID iDs at the end of the article)
+    - name: "Marc Bravin"
+      affiliation: "Lucerne School of Computer Science and Information Technology, Lucerne University of Applied Sciences and Arts, Switzerland"
+      orcid: "0000-0001-5806-9172"
+    - name: "Melanie Clegg"
+      affiliation: "Department of Marketing, Faculty of Business and Economics, University of Lausanne, Switzerland"
+      orcid: "0000-0003-0767-5046"
+    - name: "Reto Hofstetter"
+      affiliation: "Institute for Marketing and Customer Insight, University of St. Gallen, Switzerland"
+      orcid: "0009-0005-8308-0433"
+    - name: "Marc Pouly"
+      affiliation: "Lucerne School of Computer Science and Information Technology, Lucerne University of Applied Sciences and Arts, Switzerland"
+      orcid: "0000-0002-9520-4799"
+    - name: "Jonah Berger"
+      affiliation: "The Wharton School, University of Pennsylvania, USA"
+      orcid: "0000-0002-2669-8211"
 
 sections:
   - h: "What the researchers did"

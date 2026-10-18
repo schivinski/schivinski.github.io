@@ -327,11 +327,6 @@ def hero_html(img: dict) -> str:
     return tag
 
 
-ORCID_ICON = ('<svg class="mw-orcid" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">'
-              '<circle cx="12" cy="12" r="12" fill="#A6CE39"/><text x="12" y="16.2" font-size="10.5" font-weight="700" '
-              'font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="#fff">iD</text></svg>')
-
-
 def orcid_url(o: str) -> str:
     o = (o or "").strip()
     if not o:
@@ -344,34 +339,70 @@ def researchers(p: dict) -> list:
     return [r for r in (p.get("researchers") or []) if r.get("name")]
 
 
-def name_list(names: list) -> str:
-    return names[0] if len(names) == 1 else ", ".join(names[:-1]) + " and " + names[-1]
+def link_names(html: str, p: dict, used: set, cite_only: bool = False) -> str:
+    """Put an ORCID link on authors' names where the text already names them (Bruno, 18 October 2026).
+
+    Full names ("Jonah Berger") are linked at their first mention in the prose; surnames are linked inside the study's own
+    citation, e.g. "(Bravin, Clegg & Berger, 2026, Journal of Marketing)". Text inside existing links and tags is left alone.
+    Nothing is added to the page: only names that are already there become links.
+    """
+    rs = [r for r in researchers(p) if orcid_url(r.get("orcid", ""))]
+    if not rs:
+        return html
+    year = str(p.get("year", ""))
+
+    def a(r, text):
+        return (f'<a class="mw-orcid-link" href="{esc(orcid_url(r["orcid"]))}" '
+                f'title="{esc(r["name"])} on ORCID">{text}</a>')
+
+    def sub_text(text: str) -> str:
+        if not cite_only:
+            hits = []
+            for r in rs:
+                key = ("full", r["name"])
+                m = None if key in used else re.search(r"(?<![\w-])" + re.escape(r["name"]) + r"(?![\w-])", text)
+                if m:
+                    hits.append((m.start(), m.end(), r))
+                    used.add(key)
+            if hits:  # link full names (right to left keeps offsets valid) and leave this text node's citations as they are
+                for st, en, r in sorted(hits, key=lambda h: -h[0]):
+                    text = text[:st] + a(r, text[st:en]) + text[en:]
+                return text
+
+        def cite(m):
+            inner = m.group(0)
+            for r in rs:
+                sur = r["name"].split()[-1]
+                inner = re.sub(r"(?<![\w>-])" + re.escape(sur) + r"(?![\w-])", lambda x: a(r, x.group(0)), inner, count=1)
+            return inner
+        return re.sub(r"\([^()]*?\b" + re.escape(year) + r"\b[^()]*?\)", cite, text) if year else text
+
+    out, depth = [], 0
+    for part in re.split(r"(<[^>]+>)", html):
+        if part.startswith("<"):
+            if re.match(r"<a\b", part, re.I):
+                depth += 1
+            elif re.match(r"</a\s*>", part, re.I):
+                depth = max(0, depth - 1)
+            out.append(part)
+        elif depth == 0 and part.strip():
+            out.append(sub_text(part))
+        else:
+            out.append(part)
+    return "".join(out)
 
 
-def study_by_html(p: dict) -> str:
+def apa_linked(p: dict) -> str:
+    """APA reference with each author linked to ORCID when the issue lists one."""
+    html = apa(p)
     rs = researchers(p)
     if not rs:
-        return ""
-    links = [f'<a href="#the-researchers">{esc(r["name"])}</a>' for r in rs]
-    return f'<p class="mw-study-by">Research by {name_list(links)} · <em>{esc(p["journal"])}</em></p>'
-
-
-def researchers_html(p: dict) -> str:
-    rs = researchers(p)
-    if not rs:
-        return ""
-    items = []
-    for r in rs:
+        return html
+    for au, r in zip(p["authors"], rs):
         url = orcid_url(r.get("orcid", ""))
-        name = (f'<a href="{esc(url)}" target="_blank" rel="noopener" title="ORCID profile of {esc(r["name"])}">'
-                f'{esc(r["name"])} {ORCID_ICON}<span class="mw-sr"> (ORCID profile)</span></a>' if url
-                else f'<span class="mw-r-name">{esc(r["name"])}</span>')
-        aff = f'<span class="mw-r-aff">{esc(r["affiliation"])}</span>' if r.get("affiliation") else ""
-        items.append(f'<li>{name}{aff}</li>')
-    return ('<section id="the-researchers" class="mw-researchers"><h2>The researchers</h2>'
-            f'<p class="mw-note">The study behind this issue, with each author\'s institution as published in '
-            f'<em>{esc(p["journal"])}</em>. Names link to the authors\' ORCID profiles.</p>'
-            '<ul>' + "".join(items) + '</ul></section>')
+        if url and esc(au) in html:
+            html = html.replace(esc(au), f'<a class="mw-orcid-link" href="{esc(url)}" title="{esc(r["name"])} on ORCID">{esc(au)}</a>', 1)
+    return html
 
 
 def person_ld(r) -> dict:
@@ -391,16 +422,16 @@ def person_ld(r) -> dict:
 def body(d: dict, prev_next: tuple, data: list) -> str:
     p = d["paper"]
     img = d["image"]
+    used = set()
     out = [f'<p class="mw-kicker">Marketing in 3 · Issue {d["issue"]} · Week of {long_date(d["week_of"])}</p>',
            f'<figure class="mw-hero">{hero_html(img)}<figcaption>{esc(img["caption"])}</figcaption></figure>',
-           study_by_html(p),
-           f'<section class="mw-answer" aria-label="Short answer"><h2>The short answer</h2><p>{md(d["short_answer"])}</p></section>',
+           f'<section class="mw-answer" aria-label="Short answer"><h2>The short answer</h2><p>{link_names(md(d["short_answer"]), p, used)}</p></section>',
            '<section class="mw-takeaways"><h2>Key takeaways</h2><ul>'
            + "".join(f"<li>{md(t)}</li>" for t in d["takeaways"]) + "</ul></section>"]
     charts = d.get("charts", {})
     for s in d["sections"]:
         sid = re.sub(r"[^a-z0-9]+", "-", s["h"].lower()).strip("-")
-        out.append(f'<section id="{sid}"><h2>{esc(s["h"])}</h2>{paras(s["body"])}')
+        out.append(f'<section id="{sid}"><h2>{esc(s["h"])}</h2>{link_names(paras(s["body"]), p, used)}')
         if s.get("facts"):
             out.append('<dl class="mw-facts">' + "".join(f"<div><dt>{esc(k)}</dt><dd>{md(v)}</dd></div>"
                                                           for k, v in s["facts"]) + "</dl>")
@@ -416,7 +447,7 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
     out.append('<section id="where-it-does-not-work"><h2>Where it does not work</h2><ul class="mw-list">'
                + "".join(f"<li>{md(x)}</li>" for x in d["limits"]) + "</ul></section>")
     out.append('<section id="questions"><h2>Questions marketers ask</h2>'
-               + "".join(f'<div class="mw-faq"><h3>{esc(f["q"])}</h3><p>{md(f["a"])}</p></div>' for f in d["faq"])
+               + "".join(f'<div class="mw-faq"><h3>{esc(f["q"])}</h3><p>{link_names(md(f["a"]), p, used)}</p></div>' for f in d["faq"])
                + "</section>")
     if d.get("also"):
         out.append('<section id="also-new"><h2>Also new this week</h2><div class="mw-also">'
@@ -424,9 +455,8 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
                              f'<h3><a href="https://doi.org/{esc(a["doi"])}">{esc(a["title"])}</a></h3>'
                              f'<p class="mw-also-au">{esc(a["authors"])}</p><p>{md(a["text"])}</p></article>'
                              for a in d["also"]) + "</div></section>")
-    out.append(researchers_html(p))
     oa = (f' Open access ({esc(p["licence"])}): free to read at the publisher.' if p.get("open_access") else "")
-    out.append(f'<section id="source" class="mw-source"><h2>Source</h2><p class="mw-cite">{apa(p)}</p>'
+    out.append(f'<section id="source" class="mw-source"><h2>Source</h2><p class="mw-cite">{apa_linked(p)}</p>'
                f'<p class="mw-note">This brief is written for practitioners from '
                f'{esc(d.get("source_basis", "the published article"))}.{oa} '
                f'Numbers are as reported by the authors; read the article for full methods.</p></section>')
