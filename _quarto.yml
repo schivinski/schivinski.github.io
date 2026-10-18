@@ -57,7 +57,7 @@ website:
       - text: "ORCID"
         href: https://orcid.org/0000-0002-4095-1922
   page-footer:
-    left: "Bruno Schivinski, Department of Marketing, Gdańsk University of Technology"
+    left: "Bruno Schivinski"
     right:
       - text: "Subscribe to Marketing in 3"
         href: watch/subscribe.qmd
