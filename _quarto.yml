@@ -10,6 +10,7 @@ project:
     - scripts/style_feed.py
     - scripts/add_icons.py
     - scripts/add_analytics.py
+    - scripts/add_ga4.py
     - scripts/fix_watch_dates.py
     - scripts/link_topics.py
     - scripts/add_support.py
