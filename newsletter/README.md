@@ -1,7 +1,8 @@
 # Marketing in 3 by email
 
 Readers sign up on the site, confirm by email, and get each new issue on the Monday it is published.
-Everything runs on Amazon SES in Frankfurt (eu-central-1) plus this repository; there is no newsletter service.
+Everything runs on Amazon SES in Sydney (ap-southeast-2) plus this repository; there is no newsletter service.
+The AWS project uses the new AWS experience, which allows one Region per project, so everything lives in ap-southeast-2.
 
 ## How it fits together
 
@@ -20,7 +21,7 @@ which Porkbun forwards to him.
 ## First-time setup
 
 1. **AWS account** (Bruno): create it at aws.amazon.com, choose the paid plan (the sign-up credits still apply),
-   then switch the console region to **Europe (Frankfurt)**.
+   then switch the console region to **Asia Pacific (Sydney)**.
 2. **Run the setup** (Bruno): open CloudShell (the `>_` icon in the console's top bar) and paste:
    ```
    git clone --depth 1 https://github.com/schivinski/schivinski.github.io && bash schivinski.github.io/newsletter/aws/deploy.sh
@@ -41,7 +42,7 @@ Nothing. Each Monday's publish emails the new issue once. The run summary shows 
 - **A send stopped part-way**: run `resume`. Nobody gets the issue twice.
 - **Pause sending**: set `send: false`. **Hide the forms**: empty `endpoint`.
 
-## Data requests (CloudShell, Frankfurt region)
+## Data requests (CloudShell, Sydney region)
 
 ```bash
 L=marketing-in-3

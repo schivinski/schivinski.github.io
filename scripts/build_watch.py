@@ -661,9 +661,11 @@ def write_topics(data: list) -> None:
         privacy = (
             '<details class="mw-email-privacy"><summary>How your address is handled</summary>'
             '<p>Bruno Schivinski runs Marketing in 3 and is responsible for your data. Your email address is used for '
-            'one thing: sending you each new issue. It is stored with Amazon Web Services in Frankfurt, Germany, '
+            'one thing: sending you each new issue. It is stored with Amazon Web Services in Sydney, Australia, '
             'is never sold or shared, and is deleted from the list as soon as you unsubscribe. A record of when you '
-            'confirmed is kept as proof of your consent. Every email has an unsubscribe link.</p>'
+            'confirmed is kept as proof of your consent. Every email has an unsubscribe link. Amazon processes the data '
+            'for Marketing in 3 under its data processing terms, which include the EU Standard Contractual Clauses '
+            'for transfers outside the European Economic Area.</p>'
             '<p>The legal basis is your consent (GDPR Article 6(1)(a)), which you can withdraw at any time. To see, '
             'correct or delete what is held about you, reply to any issue or write to '
             '<a href="mailto:issues@marketingin3.com">issues@marketingin3.com</a>. You can also complain to your '

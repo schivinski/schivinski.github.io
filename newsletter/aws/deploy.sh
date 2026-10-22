@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
-# Sets up (or updates) everything Marketing in 3 needs in AWS. Run it in AWS CloudShell, in the
-# Europe (Frankfurt) region, with:
+# Sets up (or updates) everything Marketing in 3 needs in AWS, in the project's Region (Asia Pacific, Sydney).
+# The new AWS experience allows one Region per project. Run it in AWS CloudShell, or anywhere signed in with
+# `aws login` (set AWS_PROFILE), with:
 #
 #   git clone --depth 1 https://github.com/schivinski/schivinski.github.io && bash schivinski.github.io/newsletter/aws/deploy.sh
 #
 # Safe to run again: it updates what is there and never deletes the subscriber list.
 set -euo pipefail
 
-REGION="eu-central-1"
+REGION="${AWS_REGION_OVERRIDE:-ap-southeast-2}"
 STACK="marketing-in-3"
 HERE="$(cd "$(dirname "$0")" && pwd)"
 export AWS_DEFAULT_REGION="$REGION" AWS_PAGER=""

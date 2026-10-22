@@ -290,7 +290,7 @@ def main() -> int:
         ready = bool(cfg.get("endpoint") and cfg.get("aws_role_arn"))
         with open(os.environ["GITHUB_OUTPUT"], "a") as h:
             h.write(f"ready={'true' if ready else 'false'}\nsend={'true' if cfg.get('send') else 'false'}\n"
-                    f"role={cfg.get('aws_role_arn', '')}\nregion={cfg.get('region', 'eu-central-1')}\n")
+                    f"role={cfg.get('aws_role_arn', '')}\nregion={cfg.get('region', 'ap-southeast-2')}\n")
         return 0
 
     issues = live_issues()
