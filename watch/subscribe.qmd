@@ -6,6 +6,8 @@ include-in-header:
     <link rel="canonical" href="https://schivinski.com/watch/subscribe.html" />
 ---
 
+{{< include _generated/email-card.md >}}
+
 ```{=html}
 <div class="mw-sub">
   <section class="mw-sub-card" aria-labelledby="sub-feed">

@@ -1,0 +1,71 @@
+name: Marketing in 3 email
+
+# Manual tools for the email list (Actions -> Marketing in 3 email -> Run workflow).
+# The weekly send itself runs on its own after each publish (publish.yml, job "newsletter").
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "What to do"
+        type: choice
+        default: test
+        options:
+          - test              # one copy of the current (or chosen) issue to issues@marketingin3.com
+          - preview           # build the email and attach it to the run, send nothing
+          - send-issue        # email the chosen issue to the whole list (once per issue)
+          - resume            # finish a send that stopped part-way
+          - update-signup-function
+      issue:
+        description: "Issue number (optional; default is the current week's issue)"
+        type: string
+        default: ""
+  push:
+    branches: [main]
+    paths: ["newsletter/lambda/**"]
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml boto3
+      - id: cfg
+        run: python newsletter/send_issue.py --github-output
+      - if: steps.cfg.outputs.ready == 'true'
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ steps.cfg.outputs.role }}
+          aws-region: ${{ steps.cfg.outputs.region }}
+      - name: Run
+        env:
+          ACTION: ${{ github.event_name == 'push' && 'update-signup-function' || inputs.action }}
+          ISSUE: ${{ inputs.issue }}
+          READY: ${{ steps.cfg.outputs.ready }}
+        run: |
+          ARGS=""
+          if [ -n "$ISSUE" ]; then ARGS="--issue $ISSUE"; fi
+          if [ "$ACTION" = "preview" ]; then python newsletter/send_issue.py --preview $ARGS; exit 0; fi
+          if [ "$READY" != "true" ]; then echo "Email is not set up yet (watch/newsletter.yml)."; exit 0; fi
+          case "$ACTION" in
+            test)       python newsletter/send_issue.py --test $ARGS ;;
+            send-issue) if [ -z "$ISSUE" ]; then echo "Give an issue number to send."; exit 1; fi
+                        python newsletter/send_issue.py $ARGS ;;
+            resume)     python newsletter/send_issue.py --resume $ARGS ;;
+            update-signup-function)
+              cd newsletter/lambda && python -m zipfile -c /tmp/fn.zip handler.py
+              aws lambda update-function-code --function-name marketing-in-3-signup --zip-file fileb:///tmp/fn.zip >/dev/null
+              aws lambda wait function-updated --function-name marketing-in-3-signup
+              echo "Signup function updated." ;;
+          esac
+      - if: inputs.action == 'preview'
+        uses: actions/upload-artifact@v4
+        with:
+          name: email-preview
+          path: newsletter/out/

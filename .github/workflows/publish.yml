@@ -107,3 +107,27 @@ jobs:
           mkdir -p _site && tar -xf artifact/artifact.tar -C _site
           sleep 60
           python scripts/indexnow.py
+
+  # Marketing in 3 by email: after the site is live, email the current week's issue (once).
+  # Does nothing until watch/newsletter.yml has the AWS settings; see newsletter/README.md.
+  newsletter:
+    needs: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml boto3
+      - id: cfg
+        run: python newsletter/send_issue.py --github-output
+      - if: steps.cfg.outputs.ready == 'true'
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ steps.cfg.outputs.role }}
+          aws-region: ${{ steps.cfg.outputs.region }}
+      - name: Email the new issue
+        run: python newsletter/send_issue.py

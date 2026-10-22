@@ -1,0 +1,254 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: >-
+  Marketing in 3 email subscriptions. Sends from marketingin3.com through Amazon SES, keeps the subscriber list in
+  an SES contact list (SES handles unsubscribes), runs the signup form through a small Lambda function, and lets the
+  site's GitHub repository send the weekly issue without any stored passwords. Deploy with newsletter/aws/deploy.sh.
+
+Parameters:
+  Domain:
+    Type: String
+    Default: marketingin3.com
+    Description: Domain the newsletter is sent from (DKIM-signed).
+  FromAddress:
+    Type: String
+    Default: issues@marketingin3.com
+  FromName:
+    Type: String
+    Default: Marketing in 3
+  SiteUrl:
+    Type: String
+    Default: https://schivinski.com
+    Description: The website the signup form lives on (allowed to call the signup function).
+  GitHubRepo:
+    Type: String
+    Default: schivinski/schivinski.github.io
+  CreateGitHubOidcProvider:
+    Type: String
+    Default: "true"
+    AllowedValues: ["true", "false"]
+    Description: Set to false only if this AWS account already has the GitHub Actions identity provider.
+  HashSalt:
+    Type: String
+    NoEcho: true
+    MinLength: 32
+    Description: Random secret used to hash IP addresses for rate limiting (deploy.sh generates it).
+
+Conditions:
+  MakeOidc: !Equals [!Ref CreateGitHubOidcProvider, "true"]
+
+Resources:
+  # ---------- Sending identity ----------
+  Identity:
+    Type: AWS::SES::EmailIdentity
+    Properties:
+      EmailIdentity: !Ref Domain
+      DkimSigningAttributes:
+        NextSigningKeyLength: RSA_2048_BIT
+      MailFromAttributes:
+        MailFromDomain: !Sub "mail.${Domain}"
+        BehaviorOnMxFailure: USE_DEFAULT_VALUE
+      ConfigurationSetAttributes:
+        ConfigurationSetName: !Ref ConfigSet
+
+  ConfigSet:
+    Type: AWS::SES::ConfigurationSet
+    Properties:
+      Name: marketing-in-3
+      ReputationOptions:
+        ReputationMetricsEnabled: true
+      SendingOptions:
+        SendingEnabled: true
+      SuppressionOptions:
+        SuppressedReasons: [BOUNCE, COMPLAINT]
+
+  # The subscriber list. SES adds the unsubscribe link and the one-click unsubscribe header to every issue and
+  # keeps this list up to date when people leave.
+  ContactList:
+    Type: AWS::SES::ContactList
+    Properties:
+      ContactListName: marketing-in-3
+      Description: Marketing in 3 readers who confirmed their subscription.
+      Topics:
+        - TopicName: weekly
+          DisplayName: Marketing in 3, the weekly issue
+          Description: One new peer-reviewed marketing study each week, explained for practitioners.
+          DefaultSubscriptionStatus: OPT_OUT
+
+  # ---------- Pending confirmations, consent records, send log, rate limits ----------
+  Table:
+    Type: AWS::DynamoDB::Table
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
+    Properties:
+      TableName: marketing-in-3
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - { AttributeName: pk, AttributeType: S }
+        - { AttributeName: sk, AttributeType: S }
+      KeySchema:
+        - { AttributeName: pk, KeyType: HASH }
+        - { AttributeName: sk, KeyType: RANGE }
+      TimeToLiveSpecification:
+        AttributeName: expires
+        Enabled: true
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: true
+      SSESpecification:
+        SSEEnabled: true
+
+  # ---------- Signup function ----------
+  FunctionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal: { Service: lambda.amazonaws.com }
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: signup
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: [dynamodb:GetItem, dynamodb:PutItem, dynamodb:UpdateItem, dynamodb:DeleteItem]
+                Resource: !GetAtt Table.Arn
+              - Effect: Allow
+                Action: [ses:SendEmail]
+                Resource:
+                  - !Sub "arn:aws:ses:${AWS::Region}:${AWS::AccountId}:identity/*"
+                  - !Sub "arn:aws:ses:${AWS::Region}:${AWS::AccountId}:configuration-set/${ConfigSet}"
+              - Effect: Allow
+                Action: [ses:CreateContact, ses:UpdateContact, ses:GetContact]
+                Resource: !Sub "arn:aws:ses:${AWS::Region}:${AWS::AccountId}:contact-list/${ContactList}"
+
+  FunctionLogs:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: /aws/lambda/marketing-in-3-signup
+      RetentionInDays: 30
+
+  Function:
+    Type: AWS::Lambda::Function
+    DependsOn: FunctionLogs
+    Properties:
+      FunctionName: marketing-in-3-signup
+      Description: Marketing in 3 signup form (subscribe and confirm).
+      Runtime: python3.12
+      Architectures: [arm64]
+      Handler: handler.handler
+      MemorySize: 256
+      Timeout: 10
+      Role: !GetAtt FunctionRole.Arn
+      Environment:
+        Variables:
+          TABLE: !Ref Table
+          CONTACT_LIST: !Ref ContactList
+          TOPIC: weekly
+          FROM_ADDRESS: !Sub "${FromName} <${FromAddress}>"
+          REPLY_TO: !Ref FromAddress
+          CONFIG_SET: !Ref ConfigSet
+          SITE_URL: !Ref SiteUrl
+          HASH_SALT: !Ref HashSalt
+      # Placeholder: deploy.sh (and later the GitHub workflow) uploads newsletter/lambda/handler.py.
+      Code:
+        ZipFile: |
+          def handler(event, context):
+              return {"statusCode": 503, "body": "not deployed yet"}
+
+  FunctionUrl:
+    Type: AWS::Lambda::Url
+    Properties:
+      TargetFunctionArn: !GetAtt Function.Arn
+      AuthType: NONE
+      Cors:
+        AllowOrigins: [!Ref SiteUrl]
+        AllowMethods: [POST]
+        AllowHeaders: [content-type]
+        MaxAge: 86400
+
+  FunctionUrlPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref Function
+      Action: lambda:InvokeFunctionUrl
+      Principal: "*"
+      FunctionUrlAuthType: NONE
+
+  FunctionInvokePermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref Function
+      Action: lambda:InvokeFunction
+      Principal: "*"
+      InvokedViaFunctionUrl: true
+
+  # ---------- GitHub Actions access (no stored keys) ----------
+  GitHubOidc:
+    Type: AWS::IAM::OIDCProvider
+    Condition: MakeOidc
+    Properties:
+      Url: https://token.actions.githubusercontent.com
+      ClientIdList: [sts.amazonaws.com]
+
+  GitHubRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: marketing-in-3-github
+      Description: Lets the website repository send Marketing in 3 issues and update the signup function.
+      MaxSessionDuration: 3600
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Federated: !Sub "arn:aws:iam::${AWS::AccountId}:oidc-provider/token.actions.githubusercontent.com"
+            Action: sts:AssumeRoleWithWebIdentity
+            Condition:
+              StringEquals:
+                token.actions.githubusercontent.com:aud: sts.amazonaws.com
+                token.actions.githubusercontent.com:sub: !Sub "repo:${GitHubRepo}:ref:refs/heads/main"
+      Policies:
+        - PolicyName: send-issues
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action: [ses:SendEmail]
+                Resource:
+                  - !Sub "arn:aws:ses:${AWS::Region}:${AWS::AccountId}:identity/*"
+                  - !Sub "arn:aws:ses:${AWS::Region}:${AWS::AccountId}:configuration-set/${ConfigSet}"
+                  - !Sub "arn:aws:ses:${AWS::Region}:${AWS::AccountId}:contact-list/${ContactList}"
+              - Effect: Allow
+                Action: [ses:ListContacts, ses:GetContactList]
+                Resource: !Sub "arn:aws:ses:${AWS::Region}:${AWS::AccountId}:contact-list/${ContactList}"
+              - Effect: Allow
+                Action: [ses:GetAccount]
+                Resource: "*"
+              - Effect: Allow
+                Action: [dynamodb:GetItem, dynamodb:PutItem, dynamodb:UpdateItem]
+                Resource: !GetAtt Table.Arn
+                Condition:
+                  ForAllValues:StringLike:
+                    dynamodb:LeadingKeys: ["sent#*"]
+              - Effect: Allow
+                Action: [lambda:UpdateFunctionCode, lambda:GetFunction]
+                Resource: !GetAtt Function.Arn
+
+Outputs:
+  SignupEndpoint:
+    Description: Goes into watch/newsletter.yml as `endpoint`.
+    Value: !GetAtt FunctionUrl.FunctionUrl
+  GitHubRoleArn:
+    Description: Goes into watch/newsletter.yml as `aws_role_arn`.
+    Value: !GetAtt GitHubRole.Arn
+  DkimRecords:
+    Description: Three CNAME records for Porkbun (name -> value).
+    Value: !Join
+      - "   |   "
+      - - !Join [" -> ", [!GetAtt Identity.DkimDNSTokenName1, !GetAtt Identity.DkimDNSTokenValue1]]
+        - !Join [" -> ", [!GetAtt Identity.DkimDNSTokenName2, !GetAtt Identity.DkimDNSTokenValue2]]
+        - !Join [" -> ", [!GetAtt Identity.DkimDNSTokenName3, !GetAtt Identity.DkimDNSTokenValue3]]

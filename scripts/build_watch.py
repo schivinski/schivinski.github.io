@@ -229,6 +229,76 @@ def support_inline(prefix: str = "../../../", text_key: str = "inline_text") -> 
             f'{svg_icon("coffee")}<span>{esc(o.get("label", "Buy me a coffee"))}</span>{price}</a></div>')
 
 
+def newsletter_cfg() -> dict:
+    f = ROOT / "watch" / "newsletter.yml"
+    return (yaml.safe_load(f.read_text(encoding="utf-8")) if f.exists() else {}) or {}
+
+
+# Messages the email form shows. Keys match the Lambda function's replies (newsletter/lambda/handler.py) and the
+# ?check=1 style flags it redirects to when JavaScript is off.
+EMAIL_MSGS = {
+    "check": "Almost done. Check your inbox for an email from issues@marketingin3.com and tap the link to confirm.",
+    "invalid": "That email address does not look right. Please check it and try again.",
+    "slow": "Too many tries in a short time. Please wait a few minutes and try again.",
+    "busy": "Too many tries in a short time. Please wait a few minutes and try again.",
+    "error": "Something went wrong. Please try again in a moment.",
+    "undeliverable": "That address cannot receive email from us. Please try another one.",
+    "confirming": "Confirming your subscription…",
+    "ok": "You are subscribed. The next issue arrives in your inbox on Monday.",
+    "expired": "This confirmation link has expired or was already used. Enter your address again for a fresh one.",
+}
+
+EMAIL_JS = """<script>(function(){if(window.m3Email)return;window.m3Email=1;
+var M=%s;
+function ep(f){return f.getAttribute('action').replace(/\\/subscribe$/,'');}
+function say(f,k){var s=f.querySelector('.mw-email-status');if(!s)return;s.textContent=M[k]||M.error;
+s.className='mw-email-status is-'+(k==='ok'||k==='check'?'ok':(k==='confirming'?'wait':'bad'));}
+function gc(e){try{if(window.goatcounter&&goatcounter.count)goatcounter.count({path:e,title:e,event:true});}catch(x){}}
+document.querySelectorAll('form.mw-email').forEach(function(f){
+var src=f.querySelector('input[name=source]');if(src)src.value=location.pathname;
+f.addEventListener('submit',function(e){if(!window.fetch)return;e.preventDefault();
+var b=f.querySelector('button');b.disabled=true;
+var data={email:f.email.value,website:f.website.value,source:location.pathname};
+fetch(f.getAttribute('action'),{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(data)})
+.then(function(r){return r.json().catch(function(){return {status:'error'};});})
+.then(function(j){say(f,j.status);if(j.status==='check'){f.classList.add('is-done');gc('email-subscribe');}})
+.catch(function(){say(f,'error');}).then(function(){b.disabled=false;});});});
+var q=new URLSearchParams(location.search),f=document.querySelector('form.mw-email');if(!f)return;
+['check','invalid','slow','error'].forEach(function(k){if(q.get(k))say(f,k);});
+var t=q.get('t');if(t){say(f,'confirming');
+fetch(ep(f)+'/confirm',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({t:t})})
+.then(function(r){return r.json().catch(function(){return {status:'error'};});})
+.then(function(j){say(f,j.status);if(j.status==='ok'){f.classList.add('is-done');gc('email-confirmed');}
+if(history.replaceState)history.replaceState(null,'',location.pathname+'#email');})
+.catch(function(){say(f,'error');});}
+})();</script>"""
+
+
+def email_form(variant: str = "inline") -> str:
+    """The email signup form (watch/newsletter.yml); empty while no signup endpoint is set.
+    variant "inline": the band in every issue next to the coffee prompt; "card": the Subscribe page."""
+    cfg = newsletter_cfg()
+    endpoint = (cfg.get("endpoint") or "").strip().rstrip("/")
+    if not endpoint:
+        return ""
+    t = cfg.get("form") or {}
+    fid = f"m3-email-{variant}"
+    title = esc(t.get("title", "Get it by email"))
+    head = (f'<div class="mw-sub-icon" aria-hidden="true">{svg_icon("mail")}</div><h2 id="email">{title}</h2>'
+            if variant == "card" else f'<p class="mw-email-title">{title}</p>')
+    return (f'<form class="mw-email mw-email-{variant}" action="{esc(endpoint)}/subscribe" method="post">'
+            f'<div class="mw-email-text">{head}<p>{esc(t.get("text", ""))}</p></div>'
+            f'<div class="mw-email-row"><label class="visually-hidden" for="{fid}">Email address</label>'
+            f'<input id="{fid}" type="email" name="email" required autocomplete="email" inputmode="email" '
+            f'placeholder="you@example.com" maxlength="254">'
+            f'<input class="mw-hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">'
+            f'<input type="hidden" name="source" value="">'
+            f'<button type="submit">{esc(t.get("button", "Subscribe"))}</button></div>'
+            f'<p class="mw-email-status" role="status" aria-live="polite"></p>'
+            f'<p class="mw-email-note">{esc(t.get("privacy", ""))}</p></form>'
+            + EMAIL_JS % json.dumps(EMAIL_MSGS, ensure_ascii=False))
+
+
 def svg_icon(name: str) -> str:
     f = ROOT / "assets" / "icons" / f"{name}.svg"
     if not f.exists():
@@ -443,6 +513,9 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
     inline = support_inline()
     if inline:
         out.append(inline)
+    form = email_form("inline")   # email signup next to the coffee prompt; empty until watch/newsletter.yml has an endpoint
+    if form:
+        out.append(form)
     out.append('<section id="what-to-expect"><h2>What to expect</h2><ul class="mw-list">'
                + "".join(f"<li>{md(x)}</li>" for x in d["expect"]) + "</ul></section>")
     out.append('<section id="where-it-does-not-work"><h2>Where it does not work</h2><ul class="mw-list">'
@@ -582,6 +655,23 @@ def write_topics(data: list) -> None:
     (gen / "support-line.md").write_text("```{=html}\n" + line + "\n```\n" if line else "\n")
     sub_card = support_inline("../", "inline_text_subscribe")
     (gen / "support-card.md").write_text("```{=html}\n" + sub_card + "\n```\n" if sub_card else "\n")
+    # Email signup card for the Subscribe page (empty until watch/newsletter.yml has an endpoint)
+    form = email_form("card")
+    if form:
+        privacy = (
+            '<details class="mw-email-privacy"><summary>How your address is handled</summary>'
+            '<p>Bruno Schivinski runs Marketing in 3 and is responsible for your data. Your email address is used for '
+            'one thing: sending you each new issue. It is stored with Amazon Web Services in Frankfurt, Germany, '
+            'is never sold or shared, and is deleted from the list as soon as you unsubscribe. A record of when you '
+            'confirmed is kept as proof of your consent. Every email has an unsubscribe link.</p>'
+            '<p>The legal basis is your consent (GDPR Article 6(1)(a)), which you can withdraw at any time. To see, '
+            'correct or delete what is held about you, reply to any issue or write to '
+            '<a href="mailto:issues@marketingin3.com">issues@marketingin3.com</a>. You can also complain to your '
+            'data protection authority; in Poland that is the UODO.</p></details>')
+        card_html = (f'<section class="mw-sub-card mw-email-card" aria-labelledby="email">{form}{privacy}</section>')
+        (gen / "email-card.md").write_text("```{=html}\n" + card_html + "\n```\n")
+    else:
+        (gen / "email-card.md").write_text("\n")
     TOPICS_DIR.mkdir(exist_ok=True)
     keep = set()
     for t, n in counts.items():
