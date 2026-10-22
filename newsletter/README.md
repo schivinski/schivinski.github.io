@@ -11,38 +11,35 @@ The AWS project uses the new AWS experience, which allows one Region per project
 | Signup forms | `scripts/build_watch.py` (`email_form`), `watch/subscribe.qmd` | Card on the Subscribe page, band in every issue under the coffee prompt. Hidden while `endpoint` in `watch/newsletter.yml` is empty. |
 | Signup function | `newsletter/lambda/handler.py` (AWS Lambda) | `/subscribe` sends a confirmation email; `/confirm` (called by the Subscribe page from the link in that email) adds the address to the list and records consent. Honeypot field, rate limits, no raw IPs stored. |
 | Subscriber list | SES contact list `marketing-in-3`, topic `weekly` | SES adds the unsubscribe link and one-click unsubscribe header to every issue and removes people who leave. Bounces and complaints are suppressed automatically. |
-| Weekly send | `newsletter/send_issue.py`, job `newsletter` in `.github/workflows/publish.yml` | After each publish: if an issue is dated this week, its page is live and it has not been sent, email it to the list. Issues filled in for earlier weeks are never emailed. |
-| Manual tools | `.github/workflows/newsletter.yml` | Test copy to issues@marketingin3.com, preview, send a given issue, resume a stopped send, update the signup function. |
-| AWS setup | `newsletter/aws/stack.yml`, `newsletter/aws/deploy.sh` | One CloudFormation stack. GitHub reaches AWS through a trust link (OIDC), so no keys are stored anywhere. |
+| Weekly email | `newsletter/send_issue.py --export` (publish workflow) | Each build writes this week's email, ready to send, to `/watch/email/latest.json` on the site. Only an issue dated this week gets in, so issues filled in for earlier weeks are never emailed. |
+| Sender | `newsletter/lambda/sender.py` (AWS Lambda, hourly) | Reads that file every hour; if it holds an issue not yet sent and `send` is on, emails it to the list once. A send that runs out of time is finished next hour, nobody gets it twice. |
+| AWS setup | `newsletter/aws/stack.yml`, `newsletter/aws/deploy.sh` | One CloudFormation stack. GitHub has no AWS access at all (the AWS project does not allow GitHub sign-in links), so nothing secret is stored in the repo or on GitHub. |
 
-Settings live in `watch/newsletter.yml`. Bruno's private address appears nowhere: tests go to issues@marketingin3.com,
-which Porkbun forwards to him.
+Settings live in `watch/newsletter.yml` (forms on/off, sending on/off) and the stack (sender address, test address,
+speed). Bruno's private address appears nowhere: tests go to issues@marketingin3.com, which Porkbun forwards to him.
 
 ## First-time setup
 
-1. **AWS account** (Bruno): create it at aws.amazon.com, choose the paid plan (the sign-up credits still apply),
-   then switch the console region to **Asia Pacific (Sydney)**.
-2. **Run the setup** (Bruno): open CloudShell (the `>_` icon in the console's top bar) and paste:
-   ```
-   git clone --depth 1 https://github.com/schivinski/schivinski.github.io && bash schivinski.github.io/newsletter/aws/deploy.sh
-   ```
-   It prints the signup endpoint, the GitHub role and the DNS records. Paste that output to Claude.
+1. **AWS project** (done): new AWS experience, selected Region Asia Pacific (Sydney).
+2. **Run the setup**: `bash newsletter/aws/deploy.sh` from anywhere signed in with `aws login` (or CloudShell). It prints
+   the signup endpoint and the DNS records. Safe to re-run; it also uploads code changes to both functions.
 3. **DNS at Porkbun** for marketingin3.com: the 3 DKIM CNAMEs, the MX and TXT on `mail`, and the DMARC TXT that
-   deploy.sh prints. Also add email forwarding `issues@marketingin3.com` → Bruno's inbox.
-4. **Production access**: SES console → Account dashboard → Request production access (text in the setup notes).
-   Until approved, SES can only send to verified addresses, which includes anything @marketingin3.com, so tests work.
-5. **Switch on**: put `endpoint` and `aws_role_arn` into `watch/newsletter.yml` (forms appear), run
-   *Marketing in 3 email → test*, check the copy, then set `send: true`.
+   deploy.sh prints. Also email forwarding `issues@marketingin3.com` to Bruno's inbox.
+4. **Production access**: SES console (Sydney) → Account dashboard → Request production access. Until approved, SES
+   only sends to verified addresses, which includes anything @marketingin3.com, so tests work.
+5. **Switch on**: put `endpoint` into `watch/newsletter.yml` (forms appear), send a test, then set `send: true`.
 
 ## Day to day
 
-Nothing. Each Monday's publish emails the new issue once. The run summary shows counts only.
+Nothing. A Monday issue is emailed within the hour after its page goes live.
 
-- **Test or preview an issue**: Actions → *Marketing in 3 email* → Run workflow → `test` or `preview` (+ issue number).
-- **A send stopped part-way**: run `resume`. Nobody gets the issue twice.
-- **Pause sending**: set `send: false`. **Hide the forms**: empty `endpoint`.
+- **Test email** (one copy to issues@marketingin3.com): Lambda console → `marketing-in-3-sender` → Test with
+  `{"test": true}`, or `aws lambda invoke --function-name marketing-in-3-sender --payload '{"test":true}' --cli-binary-format raw-in-base64-out out.json`.
+- **Check without sending**: payload `{"dry_run": true}` reports the issue and the number of readers.
+- **Preview locally**: `python newsletter/send_issue.py --preview [--issue N]` writes the email to `newsletter/out/`.
+- **Pause sending**: `send: false`. **Hide the forms**: empty `endpoint`.
 
-## Data requests (CloudShell, Sydney region)
+## Data requests (CloudShell or `aws login`, Sydney region)
 
 ```bash
 L=marketing-in-3

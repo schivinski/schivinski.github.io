@@ -1,25 +1,16 @@
-# Marketing in 3 by email (Amazon SES). How it works and how to set it up: newsletter/README.md
+# Marketing in 3 by email (Amazon SES, Sydney). How it works and how to set it up: newsletter/README.md
 #
 # Everything stays hidden and nothing is sent while `endpoint` is empty. Once AWS is set up:
 #   * endpoint     -> the signup forms appear on the Subscribe page and in every issue (next to the coffee prompt);
-#   * send: true   -> each new issue goes out by email once its page is live (publish workflow, job "newsletter").
-# Test emails go to `test_to`, which forwards to Bruno's inbox, so his own address never appears in this public repo.
+#   * send: true   -> each new issue is emailed once its page is live. Every build publishes this week's email at
+#                     /watch/email/latest.json, and the sender in AWS checks it every hour.
+# Sender address, test address and sending speed are set in AWS (newsletter/aws/stack.yml).
 
 endpoint: ""                 # signup function URL (deploy.sh prints it), e.g. https://xxxx.lambda-url.ap-southeast-2.on.aws/
-aws_role_arn: ""             # role the GitHub workflow uses (deploy.sh prints it)
-region: ap-southeast-2       # the AWS project allows only this Region
-send: false                  # false = the Monday job only reports what it would send
+send: false                  # false = nothing goes to the list (test emails still work)
 
-from: "Marketing in 3 <issues@marketingin3.com>"
-reply_to: issues@marketingin3.com
-test_to: issues@marketingin3.com
-contact_list: marketing-in-3
-topic: weekly
-config_set: marketing-in-3
-max_per_second: 8            # stays under the SES sending rate
-
-# An issue is emailed only if its "week of" date is the current week, so issues filled in for earlier weeks
-# never go out by email. Each issue is sent once (recorded in AWS).
+# An issue is emailed only if its "week of" date is the current week (Melbourne time), so issues filled in for
+# earlier weeks never go out by email. Each issue is sent once (recorded in AWS).
 window_days_before: 2
 window_days_after: 6
 

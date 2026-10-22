@@ -23,9 +23,6 @@ else
   echo "First run: creating everything."
   SALT="$(python3 -c 'import secrets; print(secrets.token_hex(32))')"
   PARAMS+=("HashSalt=$SALT")
-  if aws iam list-open-id-connect-providers --output text | grep -q "token.actions.githubusercontent.com"; then
-    PARAMS+=("CreateGitHubOidcProvider=false")
-  fi
 fi
 
 DEPLOY=(aws cloudformation deploy --stack-name "$STACK" --template-file "$HERE/stack.yml"
@@ -33,22 +30,22 @@ DEPLOY=(aws cloudformation deploy --stack-name "$STACK" --template-file "$HERE/s
 if [ "${#PARAMS[@]}" -gt 0 ]; then DEPLOY+=(--parameter-overrides "${PARAMS[@]}"); fi
 "${DEPLOY[@]}"
 
-echo "Uploading the signup function."
+echo "Uploading the signup and sender functions."
 TMP="$(mktemp -d)"
-( cd "$HERE/../lambda" && python3 -m zipfile -c "$TMP/fn.zip" handler.py )
-aws lambda update-function-code --function-name marketing-in-3-signup --zip-file "fileb://$TMP/fn.zip" >/dev/null
-aws lambda wait function-updated --function-name marketing-in-3-signup
+( cd "$HERE/../lambda" && python3 -m zipfile -c "$TMP/fn.zip" handler.py sender.py )
+for FN in marketing-in-3-signup marketing-in-3-sender; do
+  aws lambda update-function-code --function-name "$FN" --zip-file "fileb://$TMP/fn.zip" >/dev/null
+  aws lambda wait function-updated --function-name "$FN"
+done
 rm -rf "$TMP"
 
 out() { aws cloudformation describe-stacks --stack-name "$STACK" --query "Stacks[0].Outputs[?OutputKey=='$1'].OutputValue" --output text; }
 ENDPOINT="$(out SignupEndpoint)"
-ROLE="$(out GitHubRoleArn)"
 DOMAIN="marketingin3.com"
 
 echo
 echo "================ DONE. Copy everything below into the chat with Claude ================"
 echo "endpoint: $ENDPOINT"
-echo "aws_role_arn: $ROLE"
 echo
 echo "DNS records to add at Porkbun for $DOMAIN (Host is what goes before .$DOMAIN):"
 aws sesv2 get-email-identity --email-identity "$DOMAIN" \

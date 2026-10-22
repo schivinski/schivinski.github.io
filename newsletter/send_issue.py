@@ -1,33 +1,22 @@
 #!/usr/bin/env python3
-"""Email the current Marketing in 3 issue to everyone on the list (Amazon SES).
+"""Build the Marketing in 3 email for the current issue.
 
-Run by the publish workflow after the site is deployed (job "newsletter"), and by hand through the
-"Marketing in 3 email" workflow for tests. Settings: watch/newsletter.yml.
+  python newsletter/send_issue.py --export             write watch/email/latest.json (run in every site build)
+  python newsletter/send_issue.py --preview [--issue N] write the email to newsletter/out/ to look at
 
-  python newsletter/send_issue.py --preview            build the email for the current issue into newsletter/out/
-  python newsletter/send_issue.py --preview --issue 41 the same for a given issue
-  python newsletter/send_issue.py --test [--issue N]   send one copy to `test_to` (works in the SES sandbox)
-  python newsletter/send_issue.py                      send the current week's issue to the list, once
-  python newsletter/send_issue.py --resume             finish a send that stopped part-way
+The site publishes watch/email/latest.json; the sender function in AWS (newsletter/lambda/sender.py) reads it every
+hour and emails a new issue to the list once. GitHub therefore needs no AWS access.
 
-Rules:
-  * Only an issue whose "week of" is the current week is emailed (window in newsletter.yml), so issues added for
-    earlier weeks never go out. Its page must already be live.
-  * Each issue is sent once: the first run records it in DynamoDB (sent#<issue>) before sending anything.
-  * Every email carries SES's unsubscribe link and one-click unsubscribe header (list management), and SES will
-    not deliver to anyone who has left the list or bounced.
-  * Nothing about subscribers is printed or stored here; logs show counts only.
+The file holds an issue only if its "week of" is the current week (window in watch/newsletter.yml), so issues added
+for earlier weeks are never emailed. It also carries `send` from watch/newsletter.yml, the on/off switch.
 """
 from __future__ import annotations
 
 import argparse
 import datetime as dt
 import html
-import os
-import re
+import json
 import sys
-import time
-import urllib.request
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -170,168 +159,44 @@ def build_email(d: dict, unsubscribe: str = "{{amazonSESUnsubscribeUrl}}") -> tu
     return subject, body, "\n".join(lines) + "\n"
 
 
-# ------------------------------------------------------------------ sending
-def wait_until_live(d: dict, minutes: int = 10) -> bool:
-    url = issue_url(d, campaign=False)
-    deadline = time.time() + minutes * 60
-    while True:
-        try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "m3-newsletter"}), timeout=20) as r:
-                if r.status == 200:
-                    return True
-        except Exception:
-            pass
-        if time.time() > deadline:
-            return False
-        time.sleep(30)
-
-
-def subscribers(ses, cfg: dict) -> list[str]:
-    emails, token = [], None
-    while True:
-        kw = dict(ContactListName=cfg["contact_list"], PageSize=1000,
-                  Filter={"FilteredStatus": "OPT_IN",
-                          "TopicFilter": {"TopicName": cfg["topic"], "UseDefaultIfPreferenceUnavailable": False}})
-        if token:
-            kw["NextToken"] = token
-        r = ses.list_contacts(**kw)
-        emails += [c["EmailAddress"] for c in r.get("Contacts", []) if not c.get("UnsubscribeAll")]
-        token = r.get("NextToken")
-        if not token:
-            return sorted(set(emails))
-
-
-def send_one(ses, cfg: dict, to: str, subject: str, body: str, text: str, listed: bool = True) -> None:
-    kw = dict(FromEmailAddress=cfg["from"], Destination={"ToAddresses": [to]}, ReplyToAddresses=[cfg["reply_to"]],
-              ConfigurationSetName=cfg["config_set"],
-              Content={"Simple": {"Subject": {"Data": subject, "Charset": "UTF-8"},
-                                  "Body": {"Html": {"Data": body, "Charset": "UTF-8"},
-                                           "Text": {"Data": text, "Charset": "UTF-8"}}}})
-    if listed:
-        kw["ListManagementOptions"] = {"ContactListName": cfg["contact_list"], "TopicName": cfg["topic"]}
-    ses.send_email(**kw)
-
-
-def summary(msg: str) -> None:
-    print(msg)
-    f = os.environ.get("GITHUB_STEP_SUMMARY")
-    if f:
-        with open(f, "a", encoding="utf-8") as h:
-            h.write(msg + "\n")
-
-
-def run_list(cfg: dict, d: dict, resume: bool, db=None, ses=None) -> int:
-    from botocore.exceptions import ClientError
-    if db is None:
-        import boto3
-        db, ses = boto3.client("dynamodb", region_name=cfg["region"]), boto3.client("sesv2", region_name=cfg["region"])
-    key = {"pk": {"S": f"sent#{d['issue']}"}, "sk": {"S": "-"}}
-    now = str(int(time.time()))
-    after = ""
-    try:
-        db.put_item(TableName=cfg["table"], Item={**key, "status": {"S": "sending"}, "started": {"N": now},
-                                                  "slug": {"S": d["slug"]}},
-                    ConditionExpression="attribute_not_exists(pk)")
-    except ClientError as e:
-        if e.response["Error"]["Code"] != "ConditionalCheckFailedException":
-            raise
-        item = db.get_item(TableName=cfg["table"], Key=key, ConsistentRead=True)["Item"]
-        if not resume or item["status"]["S"] != "sending":
-            summary(f"Issue {d['issue']} was already emailed ({item['status']['S']}). Nothing sent.")
-            return 0
-        after = item.get("last", {}).get("S", "")
-        summary(f"Resuming issue {d['issue']}.")
-
-    subject, body, text = build_email(d)
-    people = [p for p in subscribers(ses, cfg) if p > after]
-    gap = 1.0 / float(cfg.get("max_per_second", 8))
-    sent = failed = 0
-    for i, to in enumerate(people):
-        t0 = time.time()
-        for attempt in range(5):
-            try:
-                send_one(ses, cfg, to, subject, body, text)
-                sent += 1
-                break
-            except ClientError as e:
-                code = e.response["Error"]["Code"]
-                if code in ("TooManyRequestsException", "Throttling", "ThrottlingException", "LimitExceededException"):
-                    time.sleep(2 ** attempt)
-                    continue
-                failed += 1     # e.g. an address SES refuses; SES records bounces and complaints itself
-                print(f"skipped one address: {code}")
-                break
-        if i % 50 == 49:
-            db.update_item(TableName=cfg["table"], Key=key, UpdateExpression="SET #l = :l",
-                           ExpressionAttributeNames={"#l": "last"}, ExpressionAttributeValues={":l": {"S": to}})
-        time.sleep(max(0.0, gap - (time.time() - t0)))
-    db.update_item(TableName=cfg["table"], Key=key,
-                   UpdateExpression="SET #s = :s, sent_n = :n, failed_n = :f, finished = :t",
-                   ExpressionAttributeNames={"#s": "status"},
-                   ExpressionAttributeValues={":s": {"S": "done"}, ":n": {"N": str(sent)},
-                                              ":f": {"N": str(failed)}, ":t": {"N": str(int(time.time()))}})
-    summary(f"Issue {d['issue']} emailed: {sent} sent, {failed} skipped.")
-    return 0
+def export(cfg: dict, today: dt.date) -> dict:
+    d = current_issue(live_issues(), cfg, today)
+    out = {"generated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "issue": None,
+           "send": bool(cfg.get("send")) and bool(cfg.get("endpoint"))}
+    if d:
+        subject, body, text = build_email(d)
+        out.update({"issue": d["issue"], "slug": d["slug"], "week_of": d["week_of"], "url": issue_url(d, False),
+                    "subject": subject, "html": body, "text": text})
+    f = ROOT / "watch" / "email" / "latest.json"
+    f.parent.mkdir(parents=True, exist_ok=True)
+    f.write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
+    return out
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--issue", type=int)
-    ap.add_argument("--preview", action="store_true", help="write the email to newsletter/out/, send nothing")
-    ap.add_argument("--test", action="store_true", help="send one copy to test_to")
-    ap.add_argument("--resume", action="store_true")
-    ap.add_argument("--today", help="pretend today is this date (YYYY-MM-DD), for checks")
-    ap.add_argument("--github-output", action="store_true", help="write enabled/role/region for the workflow")
+    ap.add_argument("--preview", action="store_true")
+    ap.add_argument("--export", action="store_true")
+    ap.add_argument("--today", help="pretend today is this date (YYYY-MM-DD)")
     a = ap.parse_args()
     cfg = config()
-    cfg.setdefault("table", "marketing-in-3")
-
-    if a.github_output:
-        ready = bool(cfg.get("endpoint") and cfg.get("aws_role_arn"))
-        with open(os.environ["GITHUB_OUTPUT"], "a") as h:
-            h.write(f"ready={'true' if ready else 'false'}\nsend={'true' if cfg.get('send') else 'false'}\n"
-                    f"role={cfg.get('aws_role_arn', '')}\nregion={cfg.get('region', 'ap-southeast-2')}\n")
-        return 0
-
-    issues = live_issues()
     today = dt.date.fromisoformat(a.today) if a.today else dt.datetime.now(TZ).date()
-    if a.issue:
-        d = next((x for x in issues if x["issue"] == a.issue), None)
-        if not d:
-            summary(f"No live issue {a.issue}.")
-            return 1
-    else:
-        d = current_issue(issues, cfg, today)
-        if not d:
-            summary(f"No issue for the week of {today.isoformat()}: nothing to email.")
-            return 0
-
-    if a.preview:
-        OUT.mkdir(exist_ok=True)
-        subject, body, text = build_email(d, unsubscribe="#unsubscribe")
-        (OUT / f"issue-{d['issue']}.html").write_text(body, encoding="utf-8")
-        (OUT / f"issue-{d['issue']}.txt").write_text(f"Subject: {subject}\n\n{text}", encoding="utf-8")
-        print(f"Preview of issue {d['issue']} ({subject}) in {OUT}")
+    if a.export:
+        out = export(cfg, today)
+        print(f"Email export: issue {out['issue'] or 'none'} for the week of {today.isoformat()}, send={out['send']}")
         return 0
-
-    if a.test:
-        import boto3
-        ses = boto3.client("sesv2", region_name=cfg["region"])
-        subject, body, text = build_email(d, unsubscribe=f"{SITE}/watch/subscribe.html")
-        send_one(ses, cfg, cfg["test_to"], "[Test] " + subject, body, text, listed=False)
-        summary(f"Test email for issue {d['issue']} sent to {cfg['test_to']}.")
-        return 0
-
-    if not (cfg.get("endpoint") and cfg.get("aws_role_arn")):
-        summary("Email is not set up yet (watch/newsletter.yml). Nothing sent.")
-        return 0
-    if a.issue is None and not a.resume and not cfg.get("send"):
-        summary(f"Sending is switched off (send: false). Issue {d['issue']} would have gone out.")
-        return 0
-    if not wait_until_live(d):
-        summary(f"The page for issue {d['issue']} is not live yet. Nothing sent; run the workflow again later.")
+    issues = live_issues()
+    d = next((x for x in issues if x["issue"] == a.issue), None) if a.issue else current_issue(issues, cfg, today)
+    if not d:
+        print("No issue to preview.")
         return 1
-    return run_list(cfg, d, a.resume)
+    OUT.mkdir(exist_ok=True)
+    subject, body, text = build_email(d, unsubscribe="#unsubscribe")
+    (OUT / f"issue-{d['issue']}.html").write_text(body, encoding="utf-8")
+    (OUT / f"issue-{d['issue']}.txt").write_text(f"Subject: {subject}\n\n{text}", encoding="utf-8")
+    print(f"Preview of issue {d['issue']} ({subject}) in {OUT}")
+    return 0
 
 
 if __name__ == "__main__":

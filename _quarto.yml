@@ -28,6 +28,7 @@ project:
     - "papers/materials/**"
     - "watch/images/**"
     - "watch/feed.xsl"
+    - "watch/email/latest.json"
 
 website:
   title: "Bruno Schivinski"

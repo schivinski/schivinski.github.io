@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path[:0] = [str(ROOT / "newsletter" / "lambda"), str(ROOT / "newsletter")]
 import handler  # noqa: E402
 import send_issue  # noqa: E402
+import sender  # noqa: E402
 
 
 def err(code):
@@ -48,10 +49,12 @@ class FakeDB:
         self.items.pop(self._k(Key), None)
 
     def update_item(self, TableName, Key, UpdateExpression, ExpressionAttributeValues=None,
-                    ExpressionAttributeNames=None, ReturnValues=None):
+                    ExpressionAttributeNames=None, ReturnValues=None, ConditionExpression=None):
         k = self._k(Key)
         it = self.items.setdefault(k, {"pk": Key["pk"], "sk": Key["sk"]})
         v = ExpressionAttributeValues or {}
+        if ConditionExpression == "beat = :old" and it.get("beat") != v[":old"]:
+            raise err("ConditionalCheckFailedException")
         if UpdateExpression.startswith("ADD n"):
             it["n"] = {"N": str(int(it.get("n", {"N": "0"})["N"]) + 1)}
             it.setdefault("expires", v[":exp"])
@@ -189,16 +192,16 @@ def test_routes(fakes):
     assert handler.handler(ev("/nope", {}))["statusCode"] == 404
 
 
-# ------------------------------------------------------------------ weekly sender
+# ------------------------------------------------------------------ weekly email (build side) and sender (AWS)
 ISSUES = send_issue.live_issues()
-CFG = {**send_issue.config(), "table": "marketing-in-3", "max_per_second": 1000}
+CFG = send_issue.config()
 
 
 def test_only_the_current_week_is_emailed():
     latest = ISSUES[-1]
     wk = dt.date.fromisoformat(latest["week_of"])
     assert send_issue.current_issue(ISSUES, CFG, wk)["issue"] == latest["issue"]
-    assert send_issue.current_issue(ISSUES, CFG, wk - dt.timedelta(days=1))["issue"] == latest["issue"]  # Sunday UTC
+    assert send_issue.current_issue(ISSUES, CFG, wk - dt.timedelta(days=1))["issue"] == latest["issue"]
     assert send_issue.current_issue(ISSUES, CFG, wk + dt.timedelta(days=6))["issue"] == latest["issue"]
     assert send_issue.current_issue(ISSUES, CFG, wk + dt.timedelta(days=30)) is None
 
@@ -209,35 +212,77 @@ def test_email_content():
     assert subject == d["short_title"]
     assert "{{amazonSESUnsubscribeUrl}}" in body and "{{amazonSESUnsubscribeUrl}}" in text
     assert f"utm_campaign=issue-{d['issue']}" in body
-    assert "—" not in body and "–" not in body       # no em or en dashes (house style)
-    assert "—" not in text and "–" not in text
+    assert "\u2014" not in body and "\u2013" not in body       # no em or en dashes (house style)
+
+
+def test_export_only_sends_when_switched_on(tmp_path, monkeypatch):
+    monkeypatch.setattr(send_issue, "ROOT", tmp_path)
+    wk = dt.date.fromisoformat(ISSUES[-1]["week_of"])
+    assert send_issue.export({**CFG, "send": True, "endpoint": ""}, wk)["send"] is False
+    out = send_issue.export({**CFG, "send": True, "endpoint": "https://x"}, wk)
+    assert out["send"] is True and out["issue"] == ISSUES[-1]["issue"] and "html" in out
+    assert send_issue.export(CFG, wk + dt.timedelta(days=40))["issue"] is None
+
+
+def email():
+    d = ISSUES[-1]
+    subject, body, text = send_issue.build_email(d)
+    return {"issue": d["issue"], "slug": d["slug"], "subject": subject, "html": body, "text": text, "send": True}
 
 
 def test_sends_once_to_everyone_with_unsubscribe():
     db, ses = FakeDB(), FakeSES(contacts=["a@x.co", "b@x.co", "c@x.co", "d@x.co", "e@x.co"])
     ses.contacts["e@x.co"]["UnsubscribeAll"] = True
-    d = ISSUES[-1]
-    send_issue.run_list(CFG, d, resume=False, db=db, ses=ses)
-    to = [m["Destination"]["ToAddresses"][0] for m in ses.sent]
+    m = email()
+    r = sender.send_issue(db, ses, m)
+    assert r["result"] == "done" and r["sent"] == 4
+    to = [x["Destination"]["ToAddresses"][0] for x in ses.sent]
     assert to == ["a@x.co", "b@x.co", "c@x.co", "d@x.co"]
-    assert all(m["ListManagementOptions"] == {"ContactListName": "marketing-in-3", "TopicName": "weekly"} for m in ses.sent)
-    rec = db.items[(f"sent#{d['issue']}", "-")]
-    assert rec["status"]["S"] == "done" and rec["sent_n"]["N"] == "4"
-
-    send_issue.run_list(CFG, d, resume=False, db=db, ses=ses)   # second run: nothing
+    assert all(x["ListManagementOptions"] == {"ContactListName": "marketing-in-3", "TopicName": "weekly"} for x in ses.sent)
+    assert sender.send_issue(db, ses, m)["result"] == "already sent or in progress"   # next hourly run
     assert len(ses.sent) == 4
 
 
-def test_resume_continues_after_last_address():
-    db, ses = FakeDB(), FakeSES(contacts=["a@x.co", "b@x.co", "c@x.co"])
-    d = ISSUES[-1]
-    db.items[(f"sent#{d['issue']}", "-")] = {"pk": {"S": f"sent#{d['issue']}"}, "sk": {"S": "-"},
-                                             "status": {"S": "sending"}, "last": {"S": "a@x.co"}}
-    send_issue.run_list(CFG, d, resume=True, db=db, ses=ses)
-    assert [m["Destination"]["ToAddresses"][0] for m in ses.sent] == ["b@x.co", "c@x.co"]
+def test_a_send_that_runs_out_of_time_is_finished_next_hour(monkeypatch):
+    monkeypatch.setattr(sender, "MAX_PER_SECOND", 10 ** 6)
+    db, ses = FakeDB(), FakeSES(contacts=[f"p{i:02d}@x.co" for i in range(10)])
+    m = email()
+    calls = {"n": 0}
+    def left():                       # plenty of time for 4 emails, then the run is nearly out
+        calls["n"] += 1
+        return 10 ** 9 if calls["n"] <= 4 else 0
+    assert sender.send_issue(db, ses, m, left)["result"] == "paused"
+    assert len(ses.sent) == 4
+    r = sender.send_issue(db, ses, m)
+    assert r["result"] == "done" and len(ses.sent) == 10
+    assert len({x["Destination"]["ToAddresses"][0] for x in ses.sent}) == 10      # nobody twice
+
+
+def test_a_busy_send_is_not_doubled():
+    db, ses = FakeDB(), FakeSES(contacts=["a@x.co"])
+    m = email()
+    import time as _t
+    db.items[(f"sent#{m['issue']}", "-")] = {"pk": {"S": f"sent#{m['issue']}"}, "sk": {"S": "-"},
+                                            "status": {"S": "sending"}, "started": {"N": str(int(_t.time()))},
+                                            "beat": {"N": str(int(_t.time()))}}
+    assert sender.send_issue(db, ses, m)["result"] == "already sent or in progress"
+    assert ses.sent == []
 
 
 def test_a_refused_address_does_not_stop_the_send():
     db, ses = FakeDB(), FakeSES(contacts=["a@x.co", "b@x.co"], fail={"a@x.co": "MessageRejected"})
-    send_issue.run_list(CFG, ISSUES[-1], resume=False, db=db, ses=ses)
-    assert [m["Destination"]["ToAddresses"][0] for m in ses.sent] == ["b@x.co"]
+    r = sender.send_issue(db, ses, email())
+    assert r["sent"] == 1 and r["failed"] == 1
+
+
+def test_handler_switches(monkeypatch):
+    ses = FakeSES(contacts=["a@x.co"])
+    monkeypatch.setattr(sender.boto3, "client", lambda name: ses if name == "sesv2" else FakeDB())
+    m = email()
+    monkeypatch.setattr(sender, "fetch_email", lambda: {**m, "send": False})
+    assert "switched off" in sender.handler({})["result"] and ses.sent == []
+    assert sender.handler({"test": True})["result"] == "test sent"
+    assert ses.sent[-1]["Destination"]["ToAddresses"] == ["issues@marketingin3.com"]
+    assert ses.sent[-1]["Content"]["Simple"]["Subject"]["Data"].startswith("[Test] ")
+    monkeypatch.setattr(sender, "fetch_email", lambda: {"issue": None})
+    assert sender.handler({})["result"] == "no issue this week"
