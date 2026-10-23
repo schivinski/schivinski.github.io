@@ -262,6 +262,49 @@ Resources:
       Principal: events.amazonaws.com
       SourceArn: !GetAtt SenderSchedule.Arn
 
+  # ---------- Delivery reports: every send, delivery, bounce, complaint, delay and unsubscribe, kept 30 days ----------
+  # SES -> EventBridge (default bus) -> CloudWatch Logs group /aws/events/marketing-in-3-ses.
+  # Events include the recipient address, so the log is kept for 30 days only.
+  SesEventDestination:
+    Type: AWS::SES::ConfigurationSetEventDestination
+    Properties:
+      ConfigurationSetName: !Ref ConfigSet
+      EventDestination:
+        Name: to-eventbridge
+        Enabled: true
+        MatchingEventTypes: [SEND, DELIVERY, BOUNCE, COMPLAINT, REJECT, DELIVERY_DELAY, RENDERING_FAILURE, SUBSCRIPTION]
+        EventBridgeDestination:
+          EventBusArn: !Sub "arn:aws:events:${AWS::Region}:${AWS::AccountId}:event-bus/default"
+
+  SesEventLogs:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: /aws/events/marketing-in-3-ses
+      RetentionInDays: 30
+
+  SesEventLogsPolicy:
+    Type: AWS::Logs::ResourcePolicy
+    Properties:
+      PolicyName: marketing-in-3-ses-events
+      PolicyDocument: !Sub |
+        {"Version": "2012-10-17", "Statement": [{"Effect": "Allow",
+          "Principal": {"Service": ["events.amazonaws.com", "delivery.logs.amazonaws.com"]},
+          "Action": ["logs:CreateLogStream", "logs:PutLogEvents"],
+          "Resource": "${SesEventLogs.Arn}"}]}
+
+  SesEventRule:
+    Type: AWS::Events::Rule
+    DependsOn: SesEventLogsPolicy
+    Properties:
+      Name: marketing-in-3-ses-events
+      Description: Marketing in 3 email events to CloudWatch Logs.
+      EventPattern:
+        source: [aws.ses]
+      State: ENABLED
+      Targets:
+        - Id: logs
+          Arn: !GetAtt SesEventLogs.Arn
+
 Outputs:
   SignupEndpoint:
     Description: Goes into watch/newsletter.yml as `endpoint`.

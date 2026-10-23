@@ -13,6 +13,7 @@ The AWS project uses the new AWS experience, which allows one Region per project
 | Subscriber list | SES contact list `marketing-in-3`, topic `weekly` | SES adds the unsubscribe link and one-click unsubscribe header to every issue and removes people who leave. Bounces and complaints are suppressed automatically. |
 | Weekly email | `newsletter/send_issue.py --export` (publish workflow) | Each build writes this week's email, ready to send, to `/watch/email/latest.json` on the site. Only an issue dated this week gets in, so issues filled in for earlier weeks are never emailed. |
 | Sender | `newsletter/lambda/sender.py` (AWS Lambda, hourly) | Reads that file every hour; if it holds an issue not yet sent and `send` is on, emails it to the list once. A send that runs out of time is finished next hour, nobody gets it twice. |
+| Delivery reports | CloudWatch Logs `/aws/events/marketing-in-3-ses` (30 days) | Every send, delivery, bounce, complaint, delay and unsubscribe, with the receiving server's reply. Read with `aws logs tail /aws/events/marketing-in-3-ses --since 1h`. |
 | AWS setup | `newsletter/aws/stack.yml`, `newsletter/aws/deploy.sh` | One CloudFormation stack. GitHub has no AWS access at all (the AWS project does not allow GitHub sign-in links), so nothing secret is stored in the repo or on GitHub. |
 
 Settings live in `watch/newsletter.yml` (forms on/off, sending on/off) and the stack (sender address, test address,
@@ -28,6 +29,12 @@ speed). Bruno's private address appears nowhere: tests go to issues@marketingin3
 4. **Production access**: SES console (Sydney) → Account dashboard → Request production access. Until approved, SES
    only sends to verified addresses, which includes anything @marketingin3.com, so tests work.
 5. **Switch on**: put `endpoint` into `watch/newsletter.yml` (forms appear), send a test, then set `send: true`.
+
+## Production access
+
+Requested 22 Oct 2026 (case 179264342000179) and denied, most likely because marketingin3.com was not yet verified.
+A new request through the API is refused while that case stands (ConflictException), so the reply goes on the case
+in the AWS Support Center. Until approved, SES only sends to addresses @marketingin3.com, so the forms stay hidden.
 
 ## Day to day
 
