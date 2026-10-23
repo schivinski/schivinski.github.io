@@ -284,5 +284,6 @@ def test_handler_switches(monkeypatch):
     assert sender.handler({"test": True})["result"] == "test sent"
     assert ses.sent[-1]["Destination"]["ToAddresses"] == ["issues@marketingin3.com"]
     assert ses.sent[-1]["Content"]["Simple"]["Subject"]["Data"].startswith("[Test] ")
+    assert ses.sent[-1]["ListManagementOptions"]["ContactListName"] == "marketing-in-3"
     monkeypatch.setattr(sender, "fetch_email", lambda: {"issue": None})
     assert sender.handler({})["result"] == "no issue this week"

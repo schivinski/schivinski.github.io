@@ -151,7 +151,8 @@ def handler(event, context=None):
         return {"result": "no issue this week"}
     ses = boto3.client("sesv2")
     if event.get("test"):
-        send_one(ses, TEST_TO, m, listed=False, subject_prefix="[Test] ")
+        # Sent through the list (TEST_TO is subscribed), so SES fills in the real unsubscribe link and header.
+        send_one(ses, TEST_TO, m, subject_prefix="[Test] ")
         return {"result": "test sent", "issue": m["issue"], "to": TEST_TO}
     if not m.get("send"):
         return {"result": "sending is switched off (send: false in watch/newsletter.yml)", "issue": m["issue"]}
