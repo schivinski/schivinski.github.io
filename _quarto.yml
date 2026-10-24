@@ -61,6 +61,8 @@ website:
   page-footer:
     left: "Bruno Schivinski"
     right:
+      - text: "Privacy"
+        href: privacy.qmd
       - text: "Subscribe to Marketing in 3"
         href: watch/subscribe.qmd
 

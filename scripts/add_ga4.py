@@ -1,12 +1,21 @@
 """Quarto post-render step: add Google Analytics 4 (measurement ID G-JPC5W7TFHD) to every page.
 
 GoatCounter (add_analytics.py) stays the cookie-free primary counter. GA4 runs beside it for the
-fuller picture in Google's reports and in Supermetrics, and is set up privacy-first:
-  - Consent Mode defaults to denied for analytics and all ad storage, so GA4 sets no cookies and
-    only sends cookieless pings (no banner exists to grant consent; nothing ever flips it to granted).
-  - Google signals and ad personalisation are off.
-  - It only loads on the live domain, so local previews and test builds are never counted.
-If a cookie banner is ever added, update analytics_storage to 'granted' on acceptance for full GA4 data.
+fuller picture (user flow, paths, returning visitors) in Google's reports, in Looker Studio and in
+Supermetrics. Consent is handled per visitor:
+
+  * Consent Mode starts with everything denied, so nothing is stored before a decision is made.
+  * Visitors whose time zone is in Europe (a proxy for the EU, EEA and UK that needs no IP lookup
+    and no third-party geolocation call) are shown a banner and are counted only if they accept.
+  * Everyone else has analytics_storage granted on load. They can opt out on /privacy.html, which
+    clears the stored choice.
+  * The choice is remembered in localStorage under mw-consent-v1. Clearing it asks again.
+  * Google Signals and ad personalisation stay off, so the data is never used for ad targeting.
+  * It only loads on the live domain, so local previews and test builds are never counted.
+
+Accepting fires an extra page_view, because the automatic one has already gone out cookieless and
+would otherwise be missing from the reports for that first page.
+
 Pages with their own include-in-header replace the site-wide one, so the snippet is inserted here,
 after rendering, like add_analytics.py."""
 import os
@@ -16,9 +25,10 @@ out = Path(os.environ.get("QUARTO_PROJECT_OUTPUT_DIR", "_site"))
 GA_ID = "G-JPC5W7TFHD"
 MARK = "ga4-snippet"
 
-SNIPPET = """<script id="%(mark)s">
+SNIPPET = """<script id="__MARK__">
 (function () {
   if (location.hostname !== 'schivinski.com' && location.hostname !== 'www.schivinski.com') return;
+  var KEY = 'mw-consent-v1';
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
   window.gtag = gtag;
@@ -28,14 +38,49 @@ SNIPPET = """<script id="%(mark)s">
     ad_user_data: 'denied',
     ad_personalization: 'denied'
   });
+
+  var saved = null;
+  try { saved = localStorage.getItem(KEY); } catch (e) {}
+  var tz = '';
+  try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+  var mustAsk = tz.indexOf('Europe/') === 0;
+
+  function grant() { gtag('consent', 'update', {analytics_storage: 'granted'}); }
+  if (saved === 'granted' || (!mustAsk && saved !== 'denied')) grant();
+
   gtag('js', new Date());
-  gtag('config', '%(id)s', {allow_google_signals: false, allow_ad_personalization_signals: false});
+  gtag('config', '__ID__', {allow_google_signals: false, allow_ad_personalization_signals: false});
   var s = document.createElement('script');
   s.async = true;
-  s.src = 'https://www.googletagmanager.com/gtag/js?id=%(id)s';
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=__ID__';
   document.head.appendChild(s);
+
+  if (!mustAsk || saved) return;
+  function ask() {
+    var bar = document.createElement('div');
+    bar.className = 'mw-consent';
+    bar.setAttribute('role', 'dialog');
+    bar.setAttribute('aria-label', 'Analytics cookies');
+    bar.innerHTML = '<p>Count this visit in Google Analytics? It tells me which issues people read. '
+      + 'Analytics only: no advertising, no profiling, nothing shared with advertisers. '
+      + '<a href="/privacy.html">How I handle data</a></p>'
+      + '<div class="mw-consent-btns">'
+      + '<button type="button" class="mw-consent-btn mw-consent-no">No thanks</button>'
+      + '<button type="button" class="mw-consent-btn mw-consent-yes">Accept</button>'
+      + '</div>';
+    document.body.appendChild(bar);
+    function choose(v) {
+      try { localStorage.setItem(KEY, v); } catch (e) {}
+      if (v === 'granted') { grant(); gtag('event', 'page_view'); }
+      if (bar.parentNode) bar.parentNode.removeChild(bar);
+    }
+    bar.querySelector('.mw-consent-yes').addEventListener('click', function () { choose('granted'); });
+    bar.querySelector('.mw-consent-no').addEventListener('click', function () { choose('denied'); });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', ask);
+  else ask();
 })();
-</script>""" % {"mark": MARK, "id": GA_ID}
+</script>""".replace("__MARK__", MARK).replace("__ID__", GA_ID)
 
 n = 0
 for f in out.rglob("*.html"):
