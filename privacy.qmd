@@ -7,10 +7,6 @@ include-in-header:
     <link rel="canonical" href="https://schivinski.com/privacy.html" />
 ---
 
-This site runs no advertising, builds no profiles and sells nothing to anyone. What follows is everything it
-collects and why. If something here is unclear, [ask me](mailto:bruno.schivinski@pg.edu.pl) and I will fix the
-wording.
-
 ## Visitor statistics
 
 Two things count visits, and both are set up to collect as little as possible.
@@ -37,7 +33,7 @@ are not stored. Delivery reports from Amazon, which sends the email, are kept fo
 messages arrived.
 
 Every issue has an unsubscribe link, which takes effect immediately. If you want your address and its consent record
-deleted outright rather than unsubscribed, email me and I will remove both.
+deleted outright rather than unsubscribed, send a request through the [contact form](consultancy.html#request) and I will remove both.
 
 ## Reader support
 
@@ -52,7 +48,7 @@ nothing about you at all, which is why I recommend it if you would rather not be
 ## Your rights
 
 Under the GDPR you can ask what I hold about you, ask for it to be corrected or deleted, and withdraw consent at any
-time. Email <bruno.schivinski@pg.edu.pl> and I will answer. The analytics data above cannot be traced back to an
+time. Send a request through the [contact form](consultancy.html#request) and I will answer. The analytics data above cannot be traced back to an
 individual, so for that there is nothing personal to retrieve, but your newsletter record can be exported or deleted
 on request.
 
