@@ -455,12 +455,28 @@ main section h2 { margin-top: 2.4rem; }
 .copy-bio { border: 1px solid $rule; background: $paper; color: $ink; border-radius: 999px; padding: .3rem .85rem; font-size: .88rem; font-weight: 500; }
 .copy-bio:hover { border-color: $amber; }
 .cred-tiles { list-style: none; padding: 0; margin: 3.2rem 0 0; display: grid; gap: .8rem; }
-.cred-tiles li { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 1rem; align-items: center; padding: .9rem 1.1rem; border: 1px solid $rule; border-radius: 8px; background: $paper; }
-.cred-tiles li:first-child { background: $ink; border-color: $ink; }
-.cred-tiles li:first-child .cred-n { color: $amber; }
-.cred-tiles li:first-child .cred-l { color: #d9deea; }
+.cred-tiles > li { display: grid; grid-template-columns: 6.5rem minmax(0, 1fr); gap: 1rem; align-items: center; padding: .9rem 1.1rem; border: 1px solid $rule; border-radius: 8px; background: $paper; }
+.cred-tiles > li.cred-top { background: $ink; border-color: $ink; }
+.cred-top .cred-n { color: $amber; }
+.cred-top .cred-l { color: #d9deea; }
+.cred-link { display: block; margin-top: .35rem; font-size: .8rem; color: $amber; text-decoration: none; }
+.cred-link:hover { text-decoration: underline; }
 .cred-n { font-family: $headings-font-family; font-size: 1.75rem; color: $ink; line-height: 1; }
 .cred-l { color: $muted; font-size: .92rem; line-height: 1.35; }
+.cred-tiles > li.si { display: block; background: #fff; border-top: 3px solid $amber; padding: .95rem 1.1rem 1rem; }
+.si-head { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+.si-head img { height: 38px; width: auto; display: block; }
+.si-head a { font-size: .8rem; color: $amber-text; text-decoration: none; white-space: nowrap; }
+.si-head a:hover { text-decoration: underline; }
+.si-lede { margin: .7rem 0 .45rem; font-size: .92rem; line-height: 1.35; color: $muted; }
+.si-rows { list-style: none; margin: 0; padding: 0; border-top: 1px solid $rule; }
+.si-rows li { display: grid; grid-template-columns: 4.6rem minmax(0, 1fr); gap: .9rem; align-items: center; padding: .6rem 0; border-bottom: 1px solid $rule; }
+.si-p { font-family: $headings-font-family; font-size: 1.55rem; line-height: 1; color: $ink; white-space: nowrap; }
+.si-p small { display: block; font-family: $font-family-sans-serif; font-size: .78rem; font-weight: 600; color: $amber-text; letter-spacing: .04em; text-transform: uppercase; margin-bottom: 2px; }
+.si-t { font-size: .9rem; line-height: 1.3; }
+.si-w { display: block; font-size: .74rem; font-weight: 500; color: $muted; margin-top: 2px; }
+.si-foot { margin: .6rem 0 0; font-size: .76rem; color: $muted; line-height: 1.35; }
+@media (max-width: 520px) { .si-rows li { grid-template-columns: 4.2rem minmax(0, 1fr); } }
 @media (max-width: 900px) { .about-grid { grid-template-columns: 1fr; gap: 1.5rem; } .cred-tiles { margin-top: 0; } }
 
 /* ---------- Teaching page ---------- */

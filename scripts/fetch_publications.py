@@ -444,10 +444,30 @@ def render_credentials(pubs: list[dict]) -> str:
     t = snap.get("totals") or {}
     arts = sum(1 for p in visible(pubs) if p["type"] == "journal-article")
     month = datetime.date.fromisoformat(str(snap["as_of"])).strftime("%B %Y") if snap.get("as_of") else ""
-    tiles = [("Top 2%", "most-cited scientists in marketing worldwide, Stanford–Elsevier ranking, 2023–2026")]
-    return ("```{=html}\n<ul class=\"cred-tiles\">" + "".join(
-        f'<li><span class="cred-n">{esc(n)}</span><span class="cred-l">{esc(l)}</span></li>' for n, l in tiles)
-        + "</ul>\n```\n")
+    topsci = "https://topscinet.com/scientist_profile/Schivinski,%20Bruno/2015/?stype=single_year"
+    si_profile = "https://scholarlyindex.com/scholars/SI-4b99ffc14b3555d2aa0e17d40374d0a5"
+    # Scholarly Index "Top1000 Scholar" rankings (marketing topics only), lowest top-percent first.
+    si_rows = [
+        ("1.8", "Digital Marketing and Social Media", "Lifetime", 744, 42164),
+        ("2.8", "Consumer Behavior in Brand Consumption and Identification", "Lifetime", 740, 26469),
+        ("11.9", "Consumer Behavior in Brand Consumption and Identification", "2021–2025", 871, 7364),
+        ("16.5", "Marketing and Advertising Strategies", "Lifetime", 580, 3530),
+    ]
+    rows = "".join(
+        f'<li><span class="si-p"><small>Top</small>{p}%</span><span class="si-t">{esc(t)}</span></li>'
+        for p, t, w, r, n in si_rows)
+    return (
+        "```{=html}\n<ul class=\"cred-tiles\">"
+        '<li class="cred-top"><span class="cred-n">Top 2%</span><span class="cred-l">'
+        "most-cited scientists in marketing worldwide, Stanford–Elsevier ranking, 2023–2026"
+        f'<a class="cred-link" href="{topsci}">Profile and certificates on TopSciNet ↗</a></span></li>'
+        '<li class="si"><div class="si-head">'
+        '<img src="assets/logos/scholarly-index-top1000.svg" alt="Scholarly Index Top1000 Scholar" height="38">'
+        f'<a href="{si_profile}">View profile ↗</a></div>'
+        '<p class="si-lede">World top 1,000 in four marketing research rankings</p>'
+        f'<ul class="si-rows">{rows}</ul>'
+        '<p class="si-foot">World rank and percentile among scholars in each research topic. '
+        "Scholarly Index, 2026 edition.</p></li></ul>\n```\n")
 
 
 def main() -> int:
