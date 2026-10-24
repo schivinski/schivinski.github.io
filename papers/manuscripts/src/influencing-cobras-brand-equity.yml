@@ -1,0 +1,578 @@
+text: influencing-cobras-brand-equity.blocks.txt
+affiliation_line: Birkbeck, University of London; XXS Amsterdam; Nottingham Trent University; Maria Curie Skłodowska University
+title_page_footer: Re-typeset from the published text by the authors; the publisher's typesetting and layout have been removed.
+figures:
+  fig1:
+    svg: figures/schivinski-et-al-2021-cobras-model.svg
+  fig2:
+    svg: figures/schivinski-et-al-2021-cobras-estimates.svg
+appendix_tables:
+- A1
+- A2
+table_overrides:
+  '1':
+    title: Standardized structural coefficients of the model.
+    columns:
+    - Hypothesis
+    - β
+    - '*t*'
+    - '*p*'
+    - Acceptance or rejection
+    align:
+    - left
+    - right
+    - right
+    - right
+    - center
+    widths:
+    - 1fr
+    - auto
+    - auto
+    - auto
+    - auto
+    rows:
+    - group: true
+      cells:
+      - Macro-relationship perspective ^{☩}
+      - ''
+      - ''
+      - ''
+      - ''
+    - - H1. Overall CBBE → Overall COBRA
+      - '0.30'
+      - '5.24'
+      - '***'
+      - +
+    - - Gender → Overall COBRA
+      - −0.06
+      - −1.18
+      - '0.23'
+      - ''
+    - - Age → Overall COBRA
+      - −0.09
+      - −2.10
+      - '**'
+      - ''
+    - - Social media usage → Overall COBRA
+      - '0.06'
+      - '1.19'
+      - '0.23'
+      - ''
+    - group: true
+      cells:
+      - Micro-relationship perspective ^{†}
+      - ''
+      - ''
+      - ''
+      - ''
+    - - H2a. Brand awareness → Brand associations
+      - '0.36'
+      - '4.87'
+      - '***'
+      - +
+    - - H2b. Brand awareness → Perceived quality
+      - '0.35'
+      - '5.55'
+      - '***'
+      - +
+    - - H2c. Brand associations → Brand loyalty
+      - '0.26'
+      - '3.45'
+      - '***'
+      - +
+    - - H2d. Perceived quality → Brand loyalty
+      - '0.52'
+      - '5.92'
+      - '***'
+      - +
+    - - H3a. Brand associations → Consumption
+      - '0.21'
+      - '3.21'
+      - '***'
+      - +
+    - - H3b. Brand associations → Contribution
+      - '0.13'
+      - '2.14'
+      - '**'
+      - +
+    - - H3c. Brand associations → Creation
+      - '0.03'
+      - '0.04'
+      - '0.96'
+      - '-'
+    - - H4a. Brand loyalty → Consumption
+      - '0.33'
+      - '4.63'
+      - '***'
+      - +
+    - - H4b. Brand loyalty → Contribution
+      - '0.32'
+      - '5.13'
+      - '***'
+      - +
+    - - H4c. Brand loyalty → Creation
+      - '0.32'
+      - '5.63'
+      - '***'
+      - +
+    - - H5a. Perceived quality → Consumption
+      - −0.13
+      - −2.87
+      - '***'
+      - +
+    - - H5b. Perceived quality → Contribution
+      - −0.11
+      - −1.78
+      - '*'
+      - +
+    - - H5c. Perceived quality → Creation
+      - −0.09
+      - −0.97
+      - '0.24'
+      - '-'
+    - - Gender → Consumption
+      - −0.09
+      - −1.91
+      - '**'
+      - ''
+    - - Gender → Contribution
+      - −0.10
+      - −1.94
+      - '**'
+      - ''
+    - - Gender → Creation
+      - −0.14
+      - −2.60
+      - '***'
+      - ''
+    - - Age → Consumption
+      - −0.16
+      - −3.72
+      - '***'
+      - ''
+    - - Age → Contribution
+      - −0.08
+      - −2.01
+      - '**'
+      - ''
+    - - Age → Creation
+      - −0.06
+      - −1.52
+      - '0.12'
+      - ''
+    - - Social media usage → Consumption
+      - '0.11'
+      - '2.10'
+      - '**'
+      - ''
+    - - Social media usage → Contribution
+      - '0.06'
+      - '1.24'
+      - '0.21'
+      - ''
+    - - Social media usage → Creation
+      - '0.01'
+      - '0.23'
+      - '0.82'
+      - ''
+    note: '☩Higher-order structural equation mixture model. MLRχ^{2}(654) = 1355.82, CFI = 0.92, TLI = 0.91, RMSEA = 0.05 [90% C.I. 0.05–0.06]; †Lower-order structural equation mixture model: MLRχ^{2}(640)
+      = 1522.45, CFI = 0.90, TLI = 0.90, RMSEA = 0.05 [90% C.I. 0.05–0.06]; *** *p* < 0.001, ** *p* < 0.05 * *p* < 0.10; Gender (ref:female = 1); n = 414. The random part of the model was specified that
+      the slope in the linear regression of CBBE on COBRAs from both macro- and micro-relationship perspectives varies across brands'
+  A1:
+    title: Descriptive statistics for the items of the conceptual model, factor loadings (completely standardized lambda X – (λ_{x})^{b}), and explained variance on each item (*R*^{2}).
+    columns:
+    - ''
+    - (λ_{x})^{b}
+    - '*R*^{2}'
+    - '*t*-value'
+    - Mean
+    - SD
+    - Skewness
+    - Kurtosis
+    - Authors
+    align:
+    - left
+    - right
+    - right
+    - right
+    - right
+    - right
+    - right
+    - right
+    - left
+    widths:
+    - 1fr
+    - auto
+    - auto
+    - auto
+    - auto
+    - auto
+    - auto
+    - auto
+    - 1.6cm
+    rows:
+    - - '**COBRAs FRAMEWORK**'
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - group: true
+      cells:
+      - Consumption
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - I read posts related to Brand X on social media.
+      - '0.87'
+      - '0.75'
+      - '76.36'
+      - '3.54'
+      - '2.06'
+      - '0.21'
+      - −1.25
+      - Schivinski et al., 2016
+    - - I read fan page(s) related to Brand X on social networking sites.
+      - '0.86'
+      - '0.74'
+      - '64.64'
+      - '3.55'
+      - '2.11'
+      - '0.22'
+      - −1.32
+      - ''
+    - - I watch pictures/graphics related to Brand X.
+      - '0.71'
+      - '0.51'
+      - '38.26'
+      - '4.01'
+      - '2.09'
+      - −0.13
+      - −1.31
+      - ''
+    - - I follow blogs related to Brand X.
+      - '0.60'
+      - '0.35'
+      - '25.20'
+      - '2.39'
+      - '1.72'
+      - '1.10'
+      - '0.15'
+      - ''
+    - - I follow Brand X on social networking sites.
+      - '0.88'
+      - '0.78'
+      - '78.63'
+      - '3.38'
+      - '2.04'
+      - '0.33'
+      - −1.21
+      - ''
+    - group: true
+      cells:
+      - Contribution
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - I comment on videos related to Brand X.
+      - '0.83'
+      - '0.69'
+      - '43.88'
+      - '1.91'
+      - '1.51'
+      - '1.85'
+      - '2.76'
+      - ''
+    - - I comment on posts related to Brand X.
+      - '0.88'
+      - '0.77'
+      - '69.86'
+      - '2.09'
+      - '1.59'
+      - '1.48'
+      - '1.44'
+      - ''
+    - - I comment on pictures/graphics related to Brand X.
+      - '0.86'
+      - '0.75'
+      - '60.30'
+      - '1.93'
+      - '1.51'
+      - '1.74'
+      - '2.32'
+      - ''
+    - - I share Brand X related posts.
+      - '0.87'
+      - '0.74'
+      - '54.88'
+      - '2.15'
+      - '1.65'
+      - '1.42'
+      - '1.04'
+      - ''
+    - - I ‘Like’ pictures/graphics related to Brand X.
+      - '0.65'
+      - '0.42'
+      - '35.82'
+      - '3.11'
+      - '2.07'
+      - '0.53'
+      - −1.10
+      - ''
+    - - I ‘Like’ posts related to Brand X.
+      - '0.70'
+      - '0.49'
+      - '47.71'
+      - '3.00'
+      - '2.02'
+      - '0.62'
+      - −0.95
+      - ''
+    - group: true
+      cells:
+      - Creation
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - I initiate posts related to Brand X on blogs.
+      - '0.73'
+      - '0.52'
+      - '27.04'
+      - '1.76'
+      - '1.42'
+      - '2.09'
+      - '3.73'
+      - ''
+    - - I initiate posts related to Brand X on social networking sites.
+      - '0.82'
+      - '0.68'
+      - '40.60'
+      - '1.84'
+      - '1.53'
+      - '1.99'
+      - '3.13'
+      - ''
+    - - I post pictures/graphics related to Brand X.
+      - '0.88'
+      - '0.79'
+      - '72.40'
+      - '1.84'
+      - '1.43'
+      - '1.93'
+      - '3.21'
+      - ''
+    - - I post videos that show Brand X.
+      - '0.80'
+      - '0.65'
+      - '31.47'
+      - '1.80'
+      - '1.40'
+      - '1.85'
+      - '2.82'
+      - ''
+    - - I write posts related to Brand X on forums.
+      - '0.88'
+      - '0.77'
+      - '75.56'
+      - '1.84'
+      - '1.45'
+      - '1.87'
+      - '2.78'
+      - ''
+    - - I write reviews related to Brand X.
+      - '0.80'
+      - '0.65'
+      - '44.42'
+      - '1.74'
+      - '1.45'
+      - '2.12'
+      - '3.77'
+      - ''
+    - - '**CBBE FRAMEWORK**'
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - group: true
+      cells:
+      - Brand awareness
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - I have heard of this brand.
+      - '0.71'
+      - '0.51'
+      - '16.58'
+      - '6.48'
+      - '1.08'
+      - −2.48
+      - '6.51'
+      - Christodoulides et al., 2015
+    - - I am quite familiar with this brand.
+      - '0.69'
+      - '0.47'
+      - '17.08'
+      - '6.70'
+      - '0.95'
+      - −3.53
+      - '12.66'
+      - ''
+    - - I can recognize this brand among other brands.
+      - '0.81'
+      - '0.66'
+      - '27.54'
+      - '6.66'
+      - '0.91'
+      - −3.17
+      - '10.94'
+      - ''
+    - group: true
+      cells:
+      - Brand associations
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - This brand has strong associations.
+      - '0.87'
+      - '0.76'
+      - '72.95'
+      - '6.05'
+      - '1.25'
+      - −1.47
+      - '1.96'
+      - ''
+    - - This brand has favorable associations.
+      - '0.85'
+      - '0.72'
+      - '52.21'
+      - '5.88'
+      - '1.38'
+      - −1.19
+      - '0.84'
+      - ''
+    - - It is clear what this brand stands for.
+      - '0.77'
+      - '0.60'
+      - '40.28'
+      - '5.99'
+      - '1.22'
+      - −1.33
+      - '1.67'
+      - ''
+    - group: true
+      cells:
+      - Perceived quality
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - This brand is good quality.
+      - '0.76'
+      - '0.57'
+      - '35.91'
+      - '5.57'
+      - '1.57'
+      - −1.02
+      - '0.38'
+      - ''
+    - - This brand has excellent features.
+      - '0.76'
+      - '0.58'
+      - '40.97'
+      - '5.22'
+      - '1.71'
+      - −0.85
+      - −0.06
+      - ''
+    - - Compared to other brands in its category, this brand is of very high quality.
+      - '0.81'
+      - '0.66'
+      - '49.83'
+      - '5.88'
+      - '1.25'
+      - −1.07
+      - '0.61'
+      - ''
+    - group: true
+      cells:
+      - Brand loyalty
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - I feel loyal to this brand.
+      - '0.93'
+      - '0.86'
+      - '132.76'
+      - '4.60'
+      - '1.96'
+      - −0.44
+      - −0.92
+      - ''
+    - - This brand is my first choice.
+      - '0.89'
+      - '0.80'
+      - '99.59'
+      - '4.58'
+      - '1.94'
+      - −0.45
+      - −0.88
+      - ''
+    - - I am committed to this brand.
+      - '0.75'
+      - '0.56'
+      - '48.13'
+      - '4.08'
+      - '2.09'
+      - −0.01
+      - −1.29
+      - ''
+    size: 7pt
+    note: ''
+  A2:
+    title: Reliability and validity of the conceptual model of CBBE effects on COBRAs.
+    note: α = Cronbach’s alpha; CR = composite reliability; AVE = average variance extracted; FD = factor determinacy; MSV = maximum shared squared variance. Robust maximum-likelihood estimation method
+      (MLR) χ^{2}(544) = 1113.41, comparative fit index (CFI) = 0.93, Tucker–Lewis index (TLI) = 0.92, root mean square error of approximation (RMSEA) = 0.05 (90% CI [0.04–0.05]); n = 414. t-value for correlations
+      are in parenthesis. The square root of the AVE values are in italics.
+    landscape: true
+    size: 7.5pt

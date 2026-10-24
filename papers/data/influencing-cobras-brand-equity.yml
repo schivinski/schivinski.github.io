@@ -1,0 +1,326 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Strategic Marketing 29(1), 1-23 (PDF supplied by Bruno, 24 Oct 2026)
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Influencing COBRAs: the effects of brand equity on the consumer’s propensity to engage with brand-related content on social media"
+doi: "10.1080/0965254X.2019.1572641"
+journal: "Journal of Strategic Marketing"
+issn: "0965-254X"
+publisher: "Taylor & Francis"
+volume: "29"
+issue: "1"
+pages: "1–23"
+published: "2021-01"
+published_label: "2021 (online February 2019)"
+online: "2019-02-10"
+open_access: false
+
+aam:
+  file: "schivinski-muntinga-pontes-lukasik-2021-jsm-accepted-manuscript.pdf"
+  statement: >-
+    This is an Accepted Manuscript of an article published by Taylor & Francis in Journal of Strategic Marketing
+    on 10 February 2019, available online: https://doi.org/10.1080/0965254X.2019.1572641
+
+authors:
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Birkbeck, University of London"]
+    me: true
+  - given: "Daan G."
+    family: "Muntinga"
+    affiliation: ["XXS Amsterdam"]
+  - given: "Halley M."
+    family: "Pontes"
+    orcid: "0000-0001-8020-7623"
+    affiliation: ["Nottingham Trent University"]
+  - given: "Przemyslaw"
+    family: "Lukasik"
+    orcid: "0000-0003-4498-7348"
+    affiliation: ["Maria Curie-Skłodowska University"]
+
+cite_short: "Schivinski et al., 2021"
+badges: ["414 social media users", "51 brands", "Structural equation mixture modelling", "Poland"]
+keywords:
+  # Article's own keywords
+  - consumer-based brand equity
+  - online brand-related activities
+  - COBRAs
+  - social media
+  - engagement
+  - online consumer behaviour
+  # What the study is about
+  - consumer brand engagement
+  - behavioural engagement
+  - social media brand engagement
+  - brand-related social media content
+  - user-generated content
+  - electronic word-of-mouth (eWOM)
+  - content consumption, contribution and creation
+  - brand loyalty
+  - brand associations
+  - perceived quality
+  - brand awareness
+  - social media marketing
+  # Theory and measures
+  - Aaker brand equity model
+  - hierarchy of effects
+  - theory of reasoned action
+  - negativity effect
+  - prospect theory
+  - CEBSC scale
+  # Context
+  - Poland
+  - social media users
+  # Method
+  - structural equation mixture modelling
+  - higher-order factor model
+  - confirmatory factor analysis
+  - robust maximum likelihood (MLR)
+  - Mplus
+  - survey research
+  # Application
+  - social media strategy
+  - brand management
+  - brand equity measurement
+  - online reputation management
+
+in_brief: >-
+  Brand equity drives how much consumers read, share and create brand content on social media, and brand loyalty is
+  its strongest driver. In a survey of 414 social media users in Poland following 51 brands, lower perceived quality
+  went with more reading and commenting, not less.
+
+findings:
+  - headline: "Overall brand equity drives engagement with brand content."
+    text: >-
+      In a survey of 414 social media users in Poland, each rating one of 51 brands they followed, overall
+      consumer-based brand equity increased overall engagement with brand-related social media content (&beta; = 0.30,
+      <i>t</i> = 5.24, <i>p</i> &lt; .001), controlling for age, gender and social media usage (Schivinski et al., 2021).
+  - headline: "Brand loyalty is the only dimension that drives content creation."
+    text: >-
+      Brand loyalty increased the consumption (&beta; = 0.33), contribution (&beta; = 0.32) and creation
+      (&beta; = 0.32) of brand-related social media content, all <i>p</i> &lt; .001; it was the only brand equity
+      dimension with a significant effect on creating content (Schivinski et al., 2021).
+  - headline: "Brand associations drive reading and commenting, not creating."
+    text: >-
+      Brand associations increased the consumption (&beta; = 0.21, <i>p</i> &lt; .001) and contribution
+      (&beta; = 0.13, <i>p</i> &lt; .05) of brand-related social media content, but had no effect on its creation
+      (<i>p</i> = .96) (Schivinski et al., 2021).
+  - headline: "Lower perceived quality goes with more engagement."
+    text: >-
+      Perceived quality had a negative effect on the consumption of brand-related social media content
+      (&beta; = &minus;0.13, <i>t</i> = &minus;2.87) and a weaker, marginal negative effect on contribution
+      (&beta; = &minus;0.11, <i>t</i> = &minus;1.78, <i>p</i> &lt; .10), and no effect on creation; the study did not
+      measure whether this engagement was positive or negative (Schivinski et al., 2021).
+  - headline: "Brand equity dimensions follow a learning sequence."
+    text: >-
+      Brand awareness increased brand associations (&beta; = 0.36) and perceived quality (&beta; = 0.35), which in turn
+      increased brand loyalty (&beta; = 0.26 and &beta; = 0.52), all <i>p</i> &lt; .001, supporting a
+      cognitive&ndash;affective&ndash;conative structure of consumer-based brand equity (Schivinski et al., 2021).
+  - headline: "Younger consumers engage more."
+    text: >-
+      Age had a negative effect on overall engagement with brand-related social media content (&beta; = &minus;0.09,
+      <i>p</i> &lt; .05), and on consumption (&beta; = &minus;0.16) and contribution (&beta; = &minus;0.08) at the
+      dimension level (Schivinski et al., 2021).
+
+glance:
+  - { label: "Design", value: "Cross-sectional online survey (Qualtrics); confirmatory factor analysis and structural equation mixture modelling in Mplus 7.2 (robust maximum likelihood), with brands as latent classes" }
+  - { label: "Participants", value: "414 valid questionnaires from 489 social media users in Poland (59.7% women; 47.6% aged 22&ndash;25; 45.4% online 2&ndash;4 hours a day), recruited on social media channels, online forums and discussion groups, with no incentive" }
+  - { label: "Brands", value: "51 brands across industries and product categories (e.g. Pepsi, Zara, Chanel, Apple); each respondent rated one brand they had actively followed on social media for at least four months" }
+  - { label: "Measures", value: "Brand awareness, brand associations, perceived quality and brand loyalty (3 items each; Christodoulides et al., 2015; 1&ndash;7 agreement); consumption (5 items), contribution (6) and creation (6) of brand-related social media content (CEBSC scale; Schivinski et al., 2016; 0 = not at all, 1&ndash;7 frequency); Polish, back-translated" }
+  - { label: "Models", value: "Macro: higher-order CBBE predicting higher-order COBRAs. Micro: the four brand equity dimensions in sequence, predicting each of the three COBRAs. Controls: age, gender, social media usage" }
+  - { label: "Model fit", value: "CFA: MLR &chi;&sup2;(539) = 1122.36, CFI = 0.93, TLI = 0.92, RMSEA = 0.05. Macro model: &chi;&sup2;(654) = 1355.82, CFI = 0.92, TLI = 0.91, RMSEA = 0.05. Micro model: &chi;&sup2;(640) = 1522.45, CFI = 0.90, TLI = 0.90, RMSEA = 0.05" }
+
+figures:
+  - file: figures/schivinski-et-al-2021-cobras-model.svg
+    title: "Figure 1. Conceptual framework"
+    caption: >-
+      Macro-relationship perspective (top): overall consumer-based brand equity (CBBE) predicts overall consumers'
+      online brand-related activities (COBRAs). Micro-relationship perspective (bottom): the four brand equity
+      dimensions in sequence, each predicting consumption, contribution and creation. The Brands circle and dashed line
+      show the random part of the structural equation mixture model.
+  - file: figures/schivinski-et-al-2021-cobras-estimates.svg
+    title: "Figure 2. Parameter estimates for the final structural models"
+    caption: >-
+      Standardised loadings (&lambda;) and path coefficients (&beta;), N = 414. *** <i>p</i> &lt; .001,
+      ** <i>p</i> &lt; .05, * <i>p</i> &lt; .10; n.s. = not significant (dashed grey). Gender coded female = 1.
+
+question: >-
+  Companies want consumers to read, share and create content about their brands on social media, and research had
+  looked at the content people engage with and at personal drivers such as motivations and tie strength. What the
+  brand itself contributes was largely unknown: why consumers engage with some brands and leave others untouched. We
+  asked whether consumers' perceptions of a brand, captured as consumer-based brand equity, explain how much they
+  consume, contribute and create brand-related content on social media, overall and dimension by dimension.
+
+implications:
+  practical: >-
+    Social media managers should build positive brand associations, not only stress functional product features, to
+    raise reading, liking and commenting. Loyal customers are a smaller group on social media but the only one that
+    covers the whole range of activity, including creating content, so they are worth reaching directly. Because
+    consumers who see a brand's quality as low consume and contribute more brand content, brands should monitor how
+    quality is perceived and step in early to contain negative information. The two models can also serve as an audit
+    tool: the overall score shows how well a brand triggers social media activity, the dimension scores show which
+    part of brand equity drives it, and the same survey can benchmark competing brands beyond platform metrics such as
+    likes and shares.
+  theoretical: >-
+    The study links two frameworks that had been studied apart, consumer-based brand equity and COBRAs, and identifies
+    brand-specific drivers of behavioural engagement on social media. It supports modelling Aaker's brand equity as a
+    learning sequence from awareness to attitudes to loyalty. At the dimension level, associations relate to lower and
+    medium levels of engagement, loyalty to all levels, and perceived quality negatively to consumption and
+    contribution, which fits the view that negative product information has higher diagnostic value. The most active
+    level, creating content, responded to loyalty only.
+
+limitations:
+  - "Brand equity was measured with Aaker's framework only; other conceptualisations, such as Keller's brand knowledge model, could map further antecedents of COBRAs."
+  - "Past brand usage was not measured; it could moderate the effects, as social media followers tend to be loyal customers."
+  - "Differences between brand types and industries were not tested; a multilevel design could show how engagement varies at brand and industry level."
+  - "COBRAs do not capture the valence of engagement; future surveys and experiments could measure whether content is positive or negative across media types."
+
+faq:
+  - q: "Does brand equity increase engagement on social media?"
+    a: >-
+      Yes. In a survey of 414 social media users in Poland following 51 brands, overall consumer-based brand equity
+      increased overall engagement with brand-related social media content (&beta; = 0.30, <i>p</i> &lt; .001)
+      (Schivinski et al., 2021).
+  - q: "What makes consumers create content about a brand on social media?"
+    a: >-
+      Of the brand equity dimensions tested, only brand loyalty predicted creating brand-related content
+      (&beta; = 0.32, <i>p</i> &lt; .001); brand associations and perceived quality had no effect on creation
+      (Schivinski et al., 2021).
+  - q: "Do people engage more with brands they think are low quality?"
+    a: >-
+      For lower levels of engagement, yes. Perceived quality had a negative effect on consuming (&beta; = &minus;0.13)
+      and, marginally, on contributing to (&beta; = &minus;0.11, <i>p</i> &lt; .10) brand-related content, but no
+      effect on creating it; the study did not measure whether that engagement was positive or negative (Schivinski
+      et al., 2021).
+  - q: "Are younger consumers more engaged with brands on social media?"
+    a: >-
+      Yes. Age had a negative effect on overall engagement with brand-related social media content (&beta; =
+      &minus;0.09) and on consuming (&beta; = &minus;0.16) and contributing to it (&beta; = &minus;0.08) (Schivinski et
+      al., 2021).
+
+concepts:
+  - term: "Consumers' online brand-related activities (COBRAs)"
+    definition: "Brand-related activities on social media that range from passive to active: consuming, contributing to and creating brand-related content (Muntinga, Moorman &amp; Smit, 2011)."
+  - term: "Consumption, contribution and creation"
+    definition: "The three COBRA levels: consumption is reading, watching and following brand content; contribution is liking, commenting on and sharing it; creation is posting one's own brand-related content, reviews and videos."
+  - term: "Consumer-based brand equity (CBBE)"
+    definition: "The perceptions, attitudes, knowledge and behaviour that let a brand earn more volume or margin than it could without its name; measured here through brand awareness, brand associations, perceived quality and brand loyalty (Aaker, 1991)."
+  - term: "Perceived quality"
+    definition: "The consumer's judgement about a product's overall excellence or superiority (Zeithaml, 1988)."
+  - term: "Negativity effect"
+    definition: "The tendency to give negative information more weight than positive information when forming evaluations of a product or brand."
+  - term: "Structural equation mixture model"
+    definition: "A structural equation model in which parameters, here factor means and path slopes, are allowed to vary across classes, here the 51 brands."
+
+materials:
+  - label: "Screening question"
+    text: "Respondents named a brand they had actively followed on social media for at least four months; that brand was used throughout the survey."
+  - label: "Scale items"
+    text: "All 29 items with loadings and descriptive statistics are in Table A1 below (English versions; the survey was administered in Polish after back-translation)."
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Free full text, including all tables and figures", url: "manuscripts/schivinski-muntinga-pontes-lukasik-2021-jsm-accepted-manuscript.pdf" }
+  - { label: "Published version", note: "Journal of Strategic Marketing (subscription)", url: "https://doi.org/10.1080/0965254X.2019.1572641" }
+  - { label: "COBRA scale (CEBSC)", note: "The engagement measure used here, with a ready-to-use questionnaire, on its own page", url: "measuring-consumer-engagement-social-media-content.html" }
+
+tables:
+  - id: "1"
+    title: "Standardised structural coefficients of the model"
+    columns: ["Path", "&beta;", "<i>t</i>", "<i>p</i>", "Result"]
+    align: ["left", "right", "right", "right", "center"]
+    rows:
+      - { group: true, cells: ["Macro-relationship perspective", "", "", "", ""] }
+      - ["H1. Overall CBBE → overall COBRAs", "0.30", "5.24", "***", "Supported"]
+      - ["Gender → overall COBRAs", "−0.06", "−1.18", "0.23", ""]
+      - ["Age → overall COBRAs", "−0.09", "−2.10", "**", ""]
+      - ["Social media usage → overall COBRAs", "0.06", "1.19", "0.23", ""]
+      - { group: true, cells: ["Micro-relationship perspective", "", "", "", ""] }
+      - ["H2a. Brand awareness → brand associations", "0.36", "4.87", "***", "Supported"]
+      - ["H2b. Brand awareness → perceived quality", "0.35", "5.55", "***", "Supported"]
+      - ["H2c. Brand associations → brand loyalty", "0.26", "3.45", "***", "Supported"]
+      - ["H2d. Perceived quality → brand loyalty", "0.52", "5.92", "***", "Supported"]
+      - ["H3a. Brand associations → consumption", "0.21", "3.21", "***", "Supported"]
+      - ["H3b. Brand associations → contribution", "0.13", "2.14", "**", "Supported"]
+      - ["H3c. Brand associations → creation", "0.03", "0.04", "0.96", "Not supported"]
+      - ["H4a. Brand loyalty → consumption", "0.33", "4.63", "***", "Supported"]
+      - ["H4b. Brand loyalty → contribution", "0.32", "5.13", "***", "Supported"]
+      - ["H4c. Brand loyalty → creation", "0.32", "5.63", "***", "Supported"]
+      - ["H5a. Perceived quality → consumption", "−0.13", "−2.87", "***", "Supported"]
+      - ["H5b. Perceived quality → contribution", "−0.11", "−1.78", "*", "Supported"]
+      - ["H5c. Perceived quality → creation", "−0.09", "−0.97", "0.24", "Not supported"]
+      - ["Gender → consumption", "−0.09", "−1.91", "**", ""]
+      - ["Gender → contribution", "−0.10", "−1.94", "**", ""]
+      - ["Gender → creation", "−0.14", "−2.60", "***", ""]
+      - ["Age → consumption", "−0.16", "−3.72", "***", ""]
+      - ["Age → contribution", "−0.08", "−2.01", "**", ""]
+      - ["Age → creation", "−0.06", "−1.52", "0.12", ""]
+      - ["Social media usage → consumption", "0.11", "2.10", "**", ""]
+      - ["Social media usage → contribution", "0.06", "1.24", "0.21", ""]
+      - ["Social media usage → creation", "0.01", "0.23", "0.82", ""]
+    note: "Macro model (higher-order structural equation mixture model): MLR &chi;&sup2;(654) = 1355.82, CFI = 0.92, TLI = 0.91, RMSEA = 0.05 [90% CI 0.05&ndash;0.06]. Micro model (lower-order structural equation mixture model): MLR &chi;&sup2;(640) = 1522.45, CFI = 0.90, TLI = 0.90, RMSEA = 0.05 [90% CI 0.05&ndash;0.06]. *** <i>p</i> &lt; 0.001, ** <i>p</i> &lt; 0.05, * <i>p</i> &lt; 0.10. Gender (ref: female = 1); <i>n</i> = 414. The slope in the regression of COBRAs on CBBE was allowed to vary across brands in both models."
+  - id: "A1"
+    title: "Scale items: factor loadings, explained variance and descriptive statistics"
+    columns: ["Item", "&lambda;", "<i>R</i>&sup2;", "<i>t</i>", "Mean", "SD", "Skewness", "Kurtosis"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["COBRAs framework (Schivinski et al., 2016)", "", "", "", "", "", "", ""] }
+      - { group: true, cells: ["Consumption", "", "", "", "", "", "", ""] }
+      - ["I read posts related to Brand X on social media.", "0.87", "0.75", "76.36", "3.54", "2.06", "0.21", "−1.25"]
+      - ["I read fan page(s) related to Brand X on social networking sites.", "0.86", "0.74", "64.64", "3.55", "2.11", "0.22", "−1.32"]
+      - ["I watch pictures/graphics related to Brand X.", "0.71", "0.51", "38.26", "4.01", "2.09", "−0.13", "−1.31"]
+      - ["I follow blogs related to Brand X.", "0.60", "0.35", "25.20", "2.39", "1.72", "1.10", "0.15"]
+      - ["I follow Brand X on social networking sites.", "0.88", "0.78", "78.63", "3.38", "2.04", "0.33", "−1.21"]
+      - { group: true, cells: ["Contribution", "", "", "", "", "", "", ""] }
+      - ["I comment on videos related to Brand X.", "0.83", "0.69", "43.88", "1.91", "1.51", "1.85", "2.76"]
+      - ["I comment on posts related to Brand X.", "0.88", "0.77", "69.86", "2.09", "1.59", "1.48", "1.44"]
+      - ["I comment on pictures/graphics related to Brand X.", "0.86", "0.75", "60.30", "1.93", "1.51", "1.74", "2.32"]
+      - ["I share Brand X related posts.", "0.87", "0.74", "54.88", "2.15", "1.65", "1.42", "1.04"]
+      - ["I ‘Like’ pictures/graphics related to Brand X.", "0.65", "0.42", "35.82", "3.11", "2.07", "0.53", "−1.10"]
+      - ["I ‘Like’ posts related to Brand X.", "0.70", "0.49", "47.71", "3.00", "2.02", "0.62", "−0.95"]
+      - { group: true, cells: ["Creation", "", "", "", "", "", "", ""] }
+      - ["I initiate posts related to Brand X on blogs.", "0.73", "0.52", "27.04", "1.76", "1.42", "2.09", "3.73"]
+      - ["I initiate posts related to Brand X on social networking sites.", "0.82", "0.68", "40.60", "1.84", "1.53", "1.99", "3.13"]
+      - ["I post pictures/graphics related to Brand X.", "0.88", "0.79", "72.40", "1.84", "1.43", "1.93", "3.21"]
+      - ["I post videos that show Brand X.", "0.80", "0.65", "31.47", "1.80", "1.40", "1.85", "2.82"]
+      - ["I write posts related to Brand X on forums.", "0.88", "0.77", "75.56", "1.84", "1.45", "1.87", "2.78"]
+      - ["I write reviews related to Brand X.", "0.80", "0.65", "44.42", "1.74", "1.45", "2.12", "3.77"]
+      - { group: true, cells: ["CBBE framework (Christodoulides et al., 2015)", "", "", "", "", "", "", ""] }
+      - { group: true, cells: ["Brand awareness", "", "", "", "", "", "", ""] }
+      - ["I have heard of this brand.", "0.71", "0.51", "16.58", "6.48", "1.08", "−2.48", "6.51"]
+      - ["I am quite familiar with this brand.", "0.69", "0.47", "17.08", "6.70", "0.95", "−3.53", "12.66"]
+      - ["I can recognize this brand among other brands.", "0.81", "0.66", "27.54", "6.66", "0.91", "−3.17", "10.94"]
+      - { group: true, cells: ["Brand associations", "", "", "", "", "", "", ""] }
+      - ["This brand has strong associations.", "0.87", "0.76", "72.95", "6.05", "1.25", "−1.47", "1.96"]
+      - ["This brand has favorable associations.", "0.85", "0.72", "52.21", "5.88", "1.38", "−1.19", "0.84"]
+      - ["It is clear what this brand stands for.", "0.77", "0.60", "40.28", "5.99", "1.22", "−1.33", "1.67"]
+      - { group: true, cells: ["Perceived quality", "", "", "", "", "", "", ""] }
+      - ["This brand is good quality.", "0.76", "0.57", "35.91", "5.57", "1.57", "−1.02", "0.38"]
+      - ["This brand has excellent features.", "0.76", "0.58", "40.97", "5.22", "1.71", "−0.85", "−0.06"]
+      - ["Compared to other brands in its category, this brand is of very high quality.", "0.81", "0.66", "49.83", "5.88", "1.25", "−1.07", "0.61"]
+      - { group: true, cells: ["Brand loyalty", "", "", "", "", "", "", ""] }
+      - ["I feel loyal to this brand.", "0.93", "0.86", "132.76", "4.60", "1.96", "−0.44", "−0.92"]
+      - ["This brand is my first choice.", "0.89", "0.80", "99.59", "4.58", "1.94", "−0.45", "−0.88"]
+      - ["I am committed to this brand.", "0.75", "0.56", "48.13", "4.08", "2.09", "−0.01", "−1.29"]
+    note: "&lambda; = completely standardised loading; <i>R</i>&sup2; = explained variance of the item. COBRAs items: 1 = not very often, 7 = very often, with &lsquo;not at all&rsquo; coded 0. CBBE items: 1 = strongly disagree, 7 = strongly agree. Brand X is replaced by the brand the respondent follows."
+  - id: "A2"
+    title: "Reliability and validity of the measurement model"
+    collapsed: true
+    columns: ["", "&alpha;", "CR", "FD", "AVE", "MSV", "1", "2", "3", "4", "5", "6", "7"]
+    rows:
+      - ["1 – Creation", "0.93", "0.93", "0.97", "0.69", "0.60", "<i>0.83</i>", "", "", "", "", "", ""]
+      - ["2 – Brand associations", "0.93", "0.93", "0.96", "0.73", "0.62", "0.12 (2.81)", "<i>0.85</i>", "", "", "", "", ""]
+      - ["3 – Brand awareness", "0.86", "0.86", "0.92", "0.61", "0.10", "−0.24 (−3.89)", "0.32 (6.54)", "<i>0.78</i>", "", "", "", ""]
+      - ["4 – Consumption", "0.88", "0.87", "0.96", "0.58", "0.39", "0.48 (11.73)", "0.34 (7.66)", "0.05 (1.02)", "<i>0.76</i>", "", "", ""]
+      - ["5 – Contribution", "0.90", "0.90", "0.97", "0.62", "0.60", "0.77 (23.45)", "0.26 (6.29)", "−0.05 (−1.04)", "0.63 (19.35)", "<i>0.78</i>", "", ""]
+      - ["6 – Perceived quality", "0.89", "0.88", "0.93", "0.65", "0.62", "0.14 (3.03)", "0.79 (31.57)", "0.30 (7.01)", "0.25 (4.90)", "0.21 (4.86)", "<i>0.80</i>", ""]
+      - ["7 – Brand loyalty", "0.92", "0.92", "0.97", "0.72", "0.47", "0.27 (6.13)", "0.59 (17.63)", "0.16 (3.49)", "0.37 (8.13)", "0.34 (8.37)", "0.68 (22.74)", "<i>0.85</i>"]
+    note: "&alpha; = Cronbach&rsquo;s alpha; CR = composite reliability; FD = factor determinacy; AVE = average variance extracted; MSV = maximum shared squared variance. Robust maximum-likelihood estimation (MLR) &chi;&sup2;(544) = 1113.41, CFI = 0.93, TLI = 0.92, RMSEA = 0.05 (90% CI [0.04&ndash;0.05]); <i>n</i> = 414. <i>t</i>-values for correlations in parentheses. The square roots of the AVE values are in italics."
+
+related:
+  - "10.2501/jar-2016-004"
+  - "10.1080/13527266.2013.871323"
+  - "10.1108/jrim-02-2014-0007"
+  - "10.1016/j.jbusres.2019.08.045"
+  - "10.1057/s41262-020-00207-5"

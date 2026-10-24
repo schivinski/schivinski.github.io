@@ -13,7 +13,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 2 | 2016 | Measuring consumers’ engagement with brand-related social-media content: Development an… | Journal of Advertising Research | 1094 | locked (`measuring-consumer-engagement-social-media-content`) |
 | 3 | 2015 | The impact of brand communication on brand equity through Facebook | Journal of Research in Interactive Marketing | 968 | locked (`brand-communication-brand-equity-facebook`) |
 | 4 | 2018 | Reflections on “social media: Influencing customer satisfaction in B2B sales” and a res… | Industrial Marketing Management | 158 | locked (`social-media-b2b-sales-research-agenda`) |
-| 5 | 2019 | Influencing COBRAs: the effects of brand equity on the consumer’s propensity to engage … | Journal of Strategic Marketing | 155 |  |
+| 5 | 2019 | Influencing COBRAs: the effects of brand equity on the consumer’s propensity to engage … | Journal of Strategic Marketing | 155 | locked (`influencing-cobras-brand-equity`) |
 | 6 | 2021 | Eliciting brand-related social media engagement: A conditional inference tree framework | Journal of Business Research | 150 |  |
 | 7 | 2020 | Social media brand engagement in the context of collaborative consumption: the case of … | Journal of Brand Management | 113 |  |
 | 8 | 2022 | Effects of social media brand-related content on fashion products buying behaviour – a … | Journal of Product & Brand Management | 96 |  |
@@ -36,7 +36,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 15 | 2026 | Individualism and the desire for unique consumer products: the roles of need for unique… | Journal of Product & Brand Management | 1 |  |
 | 16 | 2026 | Language of change in online narratives of recovery from disordered gaming | Scientific Reports | 3 |  |
 | 17 | 2026 | Machine learning of digital traces to detect risk for behavioural addictions online | Nature Reviews Psychology | 0 |  |
-| 18 | 2026 | The role of videogame genre and platform in gaming disorder tendencies: A large-scale w… | Journal of Behavioral Addictions | 0 |  |
+| 18 | 2026 | The role of videogame genre and platform in gaming disorder tendencies: A large-scale w… | Journal of Behavioral Addictions | 0 | locked (`videogame-genre-platform-gaming-disorder`) |
 | 19 | 2026 | Wine Online and Digital Decanting: Naturalness Effects in Large-Scale Consumer Reviews … | Wine Economics and Policy | 0 |  |
 | 20 | 2025 | A longitudinal analysis of the network structure of internet gaming disorder and its as… | Behaviour and Information Technology | 6 |  |
 | 21 | 2025 | Consumer perceptions of date labelling and storage advice and its relationship with foo… | Future Foods | 32 |  |
