@@ -33,7 +33,7 @@ are not stored. Delivery reports from Amazon, which sends the email, are kept fo
 messages arrived.
 
 Every issue has an unsubscribe link, which takes effect immediately. If you want your address and its consent record
-deleted outright rather than unsubscribed, send a request through the [contact form](consultancy.html#request) and I will remove both.
+deleted outright rather than unsubscribed, email [hello@schivinski.com](mailto:hello@schivinski.com) and I will remove both.
 
 ## Reader support
 
@@ -48,7 +48,7 @@ nothing about you at all, which is why I recommend it if you would rather not be
 ## Your rights
 
 Under the GDPR you can ask what I hold about you, ask for it to be corrected or deleted, and withdraw consent at any
-time. Send a request through the [contact form](consultancy.html#request) and I will answer. The analytics data above cannot be traced back to an
+time. Email [hello@schivinski.com](mailto:hello@schivinski.com) and I will answer. The analytics data above cannot be traced back to an
 individual, so for that there is nothing personal to retrieve, but your newsletter record can be exported or deleted
 on request.
 
