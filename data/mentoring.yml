@@ -17,6 +17,8 @@ intro: >-
 credentials:
   - { icon: award, text: "Named among the world's top 2% most-cited scientists in marketing (Stanford–Elsevier, 2023–2026)" }
   - { icon: trophy, text: "Ranked in the Scholarly Index world top 1,000 in four marketing research topics, including the top 1.8% in Digital Marketing and Social Media" }
+  - { icon: medal, text: "Multi-award-winning researcher, recognised for research excellence throughout my career" }
+  - { icon: book-open-check, text: "Textbook and manuscript reviewer on research methods and marketing for publishers including SAGE and Routledge" }
   - { icon: globe, text: "Research methods taught from master's to doctoral level in Europe, Australia, Asia and Africa" }
   - { icon: landmark, text: "Adviser to research funders, including the ARC, ESRC, SNSF and NCN" }
 
