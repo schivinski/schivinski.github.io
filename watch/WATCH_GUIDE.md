@@ -131,3 +131,16 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   not tested in the paper, is that"; flag our own extrapolation in fresh words each time.
 - **Plain, conversational English.** Short sentences, everyday words, the occasional direct "you".
 - Also-new blurbs should end in a fresh line, not the same "Do X" formula every week.
+
+## Choosing papers from analytics (Bruno, 24 October 2026; from the 2 November monthly run)
+- Before picking each month's batch, pull the last 90 days from GA4 (property 560083062, schivinski.com, via the Supermetrics
+  connector) and GoatCounter as a cross-check: views, engaged time, scroll, returning readers per issue and topic; traffic
+  sources (organic search, LinkedIn, direct, referrals) and countries; search terms; and AI referrals (ChatGPT and other
+  assistants, already tracked).
+- Of each 4 papers: 2 **trend** papers on the topics that are performing best, and 2 **test** papers on adjacent topics that
+  could open a new readership while staying close to the active topics.
+- Score last month's test issues against the trend issues over their first 14 days. A test topic that holds up becomes a trend topic.
+- Write a brief one-page report (trends, test results, reasons for each paper), send it to Bruno in the chat and save it to
+  the project docs (claude/m3-reports/YYYY-MM.md), then book the calendar slot as before.
+- From January 2027 the series goes to two issues a week (Monday and Thursday). Batch size, date labels and how Bruno's own
+  papers fit are to be settled with him then.
