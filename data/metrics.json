@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-24",
+ "as_of": "2026-10-25",
  "scholar_snapshot": "2026-10-10",
  "baseline": "2026-10-10",
  "h_index": 33,
@@ -8,8 +8,8 @@
  "papers_at_threshold": 33,
  "counts": {
   "10.1080/13527266.2013.871323": 2125,
-  "10.2501/jar-2016-004": 1098,
-  "10.1108/jrim-02-2014-0007": 969,
+  "10.2501/jar-2016-004": 1099,
+  "10.1108/jrim-02-2014-0007": 970,
   "10.1007/s11469-019-00088-z": 419,
   "10.3389/fpsyg.2020.617140": 237,
   "10.3390/jcm8101691": 175,
@@ -25,7 +25,7 @@
   "10.1007/s11469-021-00590-3": 87,
   "10.1080/08911762.2019.1600094": 86,
   "10.1002/cb.1833": 85,
-  "10.1016/j.jclepro.2024.143452": 71,
+  "10.1016/j.jclepro.2024.143452": 72,
   "10.3727/152599518x15403853721268": 66,
   "10.1186/s12888-022-03708-6": 64,
   "10.3390/su15031917": 59,
@@ -152,7 +152,7 @@
    "need": 11,
    "per_month": 0.36,
    "velocity_source": "openalex",
-   "months_to_cross": 30.7,
+   "months_to_cross": 30.8,
    "year": 2024,
    "title": "What if utilitarian products are regarded as high-status? The moderate role of iconic and popular as two dimensions of brand Coolness"
   },
@@ -172,7 +172,7 @@
    "need": 9,
    "per_month": 0.1,
    "velocity_source": "openalex",
-   "months_to_cross": 91.0,
+   "months_to_cross": 91.2,
    "year": 2019,
    "title": "The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish Restaurant Sector"
   },
@@ -182,7 +182,7 @@
    "need": 9,
    "per_month": 0.03,
    "velocity_source": "openalex",
-   "months_to_cross": 289.9,
+   "months_to_cross": 294.2,
    "year": 2021,
    "title": "Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scoping Review"
   },
