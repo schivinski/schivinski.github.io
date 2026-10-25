@@ -1,0 +1,219 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 42
+week_of: "2026-10-26"            # the week this issue covers (shown on the page, orders the archive)
+slug: genai-creative-ideation
+status: live
+
+title: "Does generative AI make ad people more creative? What a Journal of Advertising Research experiment with 98 agency professionals found"
+dek: >-
+  Agencies are handing creative teams AI tools and hoping for better work. An experiment inside a large agency shows what changed when
+  copywriters, strategists and account people wrote taglines with and without it.
+short_title: "Prompt training doubled the ideas, not the quality"
+
+description: >-
+  Milano et al. tested 98 advertising professionals: generative AI doubled the number of tagline ideas, but only after prompt training, and quality stayed flat.
+
+keywords: [generative AI, creativity, advertising agencies, prompt engineering, prompt training, ideation, taglines, copywriting,
+  human-AI collaboration, creative process, Journal of Advertising Research]
+topics: [AI, Creative, Advertising]
+
+image:
+  file: issue-42-genai-ideation.jpg
+  og: issue-42-genai-ideation-og.jpg
+  alt: "A whiteboard covered in blue, green, pink and orange sticky notes with handwritten words and marker doodles, softly out of focus"
+  caption: "Plenty of ideas on the wall. Picking the right one is the harder part. Photo: Jakub Żerdzicki on Unsplash."
+
+short_answer: >-
+  Not on its own. Agency staff who used an AI chatbot after a short prompt-writing lesson came up with about twice as many tagline ideas
+  as colleagues working without it. Those who used the same tool with no lesson simply matched the people without AI. But the tagline each
+  person chose as their best was rated just as creative in every group. The AI widened the pool of ideas and did not help pick the winner.
+
+takeaways:
+  - "With prompt training, people produced about 20 tagline ideas in 25 minutes, against about 10 with no AI or with untrained AI use."
+  - "Access to the tool alone changed nothing. The gain appeared only after a short lesson on how to write prompts."
+  - "Expert judges rated the chosen taglines the same across all three groups, and the top ten were spread evenly between them."
+  - "Most people used the AI to churn out options. Only 2 of 67 asked it to help choose the best one."
+
+paper:
+  doi: "10.1080/00218499.2026.2702092"
+  title: "Human-GenAI Collaboration in Creative Ideation: A Study with Advertising Professionals"
+  authors: ["Milano, I. C.", "Bagatini, F. Z.", "Perin, M. G.", "Barros, L. S. G."]
+  authors_full: ["Isabella Carvalho Milano", "Francine Zanin Bagatini", "Marcelo Gattermann Perin", "Lucia Salmonson Guimarães Barros"]
+  year: 2026
+  journal: "Journal of Advertising Research"
+  online: "2026-09-01"
+  open_access: false
+  licence: ""
+  researchers:   # as printed in the paper (byline, about the authors, ORCID iDs listed at the end of the article)
+    - name: "Isabella Carvalho Milano"
+      affiliation: "FGV EAESP, São Paulo School of Business Administration, Fundação Getulio Vargas, Brazil"
+      orcid: "0009-0005-1688-0967"
+    - name: "Francine Zanin Bagatini"
+      affiliation: "FGV EAESP, São Paulo School of Business Administration, Fundação Getulio Vargas, Brazil"
+      orcid: "0000-0001-8759-0960"
+    - name: "Marcelo Gattermann Perin"
+      affiliation: "FGV EAESP, São Paulo School of Business Administration, Fundação Getulio Vargas, Brazil"
+      orcid: "0000-0001-9008-6802"
+    - name: "Lucia Salmonson Guimarães Barros"
+      affiliation: "FGV EAESP, São Paulo School of Business Administration, Fundação Getulio Vargas, Brazil"
+      orcid: "0000-0003-0960-0398"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Isabella Carvalho Milano, Francine Zanin Bagatini, Marcelo Gattermann Perin and Lucia Salmonson Guimarães Barros, of the FGV
+      business school in São Paulo, wanted to know why studies on AI and creativity keep disagreeing. Their hunch was that it depends
+      on how well people talk to the tool.
+
+      They ran the test inside the Brazilian office of a large multinational agency, during working hours. Staff from creative, content,
+      social media and account teams were split at random into three rooms. One group worked without AI. One used Google's Gemini chatbot
+      after a quick tour of its basics. The third used the same chatbot after a 20-minute lesson from a Google instructor on writing
+      structured prompts: give the AI a role, a goal, an audience, a tone and an output format.
+
+      Everyone got the same brief: a sportswear brand for older people needs a tagline. In 25 minutes they had to write as many taglines
+      as they could, pick their best and explain why.
+    facts:
+      - ["Participants", "98 advertising professionals, average age 31, about 11 years in the industry, 51% women"]
+      - ["Groups", "No AI (31), AI with basic instructions (33), AI after prompt training (34)"]
+      - ["Task", "A real-style creative brief for a fictional sportswear brand aimed at seniors, 25 minutes"]
+      - ["Judging", "Five senior advertising professionals, each with 15+ years' experience, rated every chosen tagline blind"]
+      - ["Extra data", "All prompts the AI groups wrote, plus timing, effort and self-rated creativity"]
+
+  - h: "Twice the ideas, but only with training"
+    body: |
+      The trained group wrote an average of about 20 taglines each. The other two groups wrote about 10. Half of the trained group beat
+      the overall average, against roughly one in five in each of the other rooms. One trained participant produced 100.
+
+      The untrained AI group is the surprise. With the same tool at hand, they wrote slightly fewer ideas than the people with no AI at
+      all. Simply giving a team a chatbot did nothing for output.
+
+      Trained prompts were also longer, about 1,370 characters against about 830, and in the trained group longer prompts went with
+      more ideas. Trained participants were also much more likely to give the AI a job title, such as copywriter or creative director,
+      and to ask for a set number of options.
+    chart: ideas
+
+  - h: "More ideas, same quality"
+    body: |
+      The judges scored each person's chosen tagline for creativity, novelty and fit with the brand. All three groups landed at about 2.5
+      out of 5, with no meaningful gap. The chatbot itself, asked to judge the same lines, also found no difference.
+
+      The best lines were spread across the groups too. Of the ten highest-rated taglines, four came from the room without AI and three
+      from each AI room. The top two, "Run in favor of time" and "Aging is an extreme sport", came from trained participants. The third,
+      "There is no finish line", came from someone working without AI.
+
+      Two other details stand out. In the trained group, people who spent longer generating ideas ended up with less creative picks.
+      And only in the no-AI group did people who saw themselves as creative actually produce higher-rated work.
+    chart: quality
+
+  - h: "How people actually used the AI"
+    body: |
+      The team read every prompt. Most were orders, such as "create" or "list", and few treated the AI as a partner. When the output
+      disappointed, people tended to reply with vague notes like "be more creative" or "improve the text", without saying what better
+      meant.
+
+      Most of all, people used the chatbot to make more options. Few asked it to help with the hard part: comparing ideas, finding their
+      weak spots or picking a winner.
+    chart: uses
+
+  - h: "Why quality did not move"
+    body: |
+      The authors offer two explanations. Under a deadline, people may settle for the first idea that seems good enough. And a longer
+      list makes choosing harder, as research on choice overload has long shown. Both happen after the ideas exist, in the human part of the
+      process.
+
+      Their advice to agencies is to train people in prompting, and to stretch AI use into the later stages. That means asking it to score
+      ideas against clear criteria such as originality, brand fit and clarity, to point out weaknesses and to suggest better versions. It
+      also means feeding in the team's own references and brand knowledge, so the output does not drift toward the same safe lines
+      everyone else gets.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Teach a prompt formula first", "Before the next brief, spend half an hour with your team on a five-part prompt: who the AI should act as, the goal, the audience, the tone and the format you want back. Have each person write one and share it."]
+  - ["Ask for a fixed number of options", "Tell the AI exactly how many lines you want, such as thirty, and the length limit. Specific counts give you a bigger pool to work from than an open request."]
+  - ["Give it your own material", "Paste in the brand's positioning, three customer quotes and two references you admire. The more of your thinking it has, the less generic the lines it returns."]
+  - ["Make it judge, not just write", "Ask the AI to score your shortlist against four criteria you choose, such as freshness, fit with the brand, relevance to the audience and clarity, and to name the main weakness of each top idea."]
+  - ["Replace vague feedback with rules", "Swap notes like make it better for instructions with limits, such as under six words, starts with a verb, no puns. Change one rule per round so you can see what each one does."]
+  - ["Compare against a human-only round", "On your next brief, have half the team start without AI for fifteen minutes. Ask two colleagues to rate the final picks blind from 1 to 5, and keep the AI routine only if its picks score at least as well."]
+
+expect:
+  - "**More options, quickly.** Trained staff can fill a long list in minutes, which frees time for the choosing."
+  - "**No automatic quality boost.** The best line still depends on human judgement, so plan for that step."
+  - "**A short learning curve.** One brief lesson made the difference here. No lesson meant no gain."
+  - "**A selection problem.** Bigger lists are harder to sift, so agree on criteria before you start generating."
+
+limits:
+  - "**One agency, one country.** All participants worked at a single Brazilian office, in a market known for strong creative work."
+  - "**One task under time pressure.** A single 25-minute tagline brief may not reflect weeks of iterative agency work."
+  - "**One AI model.** Only the free version of Gemini 2.5 Flash was used, and newer tools may behave differently."
+  - "**Judges did not fully agree.** Agreement between the five judges was moderate, which makes small quality differences hard to detect."
+
+faq:
+  - q: "Does generative AI make advertising people more creative?"
+    a: "It made them more productive, not more creative. Trained users produced roughly double the ideas, but the line they chose was rated no better than those of colleagues without AI (Milano, Bagatini, Perin & Barros, 2026, Journal of Advertising Research)."
+  - q: "Is giving staff access to an AI tool enough?"
+    a: "No. In this experiment, people with the chatbot but no training performed no better than people without it."
+  - q: "What did the prompt training cover?"
+    a: "A 20-minute session on structuring prompts: assign a role, state the aim and the audience, set the tone and constraints, and specify the format of the answer."
+  - q: "Where should agencies use AI next?"
+    a: "In the later stages. The authors suggest using it to compare ideas against criteria, spot weaknesses and refine options, which participants almost never did."
+  - q: "Did the chatbot judge the taglines like the experts?"
+    a: "It also found no difference between the groups, though it was more generous overall, scoring the lines close to 4 out of 5 where the human judges gave about 2.5."
+
+also:
+  - doi: "10.1007/s11747-026-01170-4"
+    title: "AI and human designers: How consumers see the genuine care in product design as more sustainable"
+    authors: "Duffek & Biswas"
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2026
+    text: >-
+      Across a series of studies, products designed by AI were seen as less sustainable than the same products designed by people, even though
+      AI can make greener design more efficient. The reason is a sense that no one cared: sustainability is tied to love and care, and removing the
+      human from the story removes that signal. Show the people behind the design.
+  - doi: "10.1080/00913367.2026.2733982"
+    title: "Reconceptualizing Advertising Measurement in the Age of Generative Artificial Intelligence"
+    authors: "Srinivasan, Liu-Thompkins, Malthouse, & Masłowska"
+    journal: "Journal of Advertising"
+    year: 2026
+    text: >-
+      A framework paper arguing that ad metrics were built for human-made, stable campaigns and miss what happens when AI co-creates the ads and
+      mediates the buyer's journey. It sorts which classic measures need rethinking, proposes new ones, and adds outcomes for employees, regulators,
+      investors and society.
+
+charts:
+  ideas:
+    title: "Average number of tagline ideas per person in 25 minutes"
+    scale: [0, 25]
+    step: 5
+    unit: ""
+    decimals: 1
+    bars:
+      - ["No AI", 9.84, false]
+      - ["AI, no training", 9.24, false]
+      - ["AI after prompt training", 20.18, true]
+    source: "98 advertising professionals randomly assigned to three groups (31, 33 and 34 people)."
+  quality:
+    title: "Expert creativity score of each person's chosen tagline (1 to 5)"
+    scale: [0, 5]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["No AI", 2.50, false]
+      - ["AI, no training", 2.49, false]
+      - ["AI after prompt training", 2.52, false]
+    source: "Mean of five senior judges rating creativity, novelty and appropriateness. Differences are not statistically meaningful."
+  uses:
+    title: "What the 67 AI users asked the chatbot to do (number of people)"
+    scale: [0, 60]
+    step: 10
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Generate ideas", 54, true]
+      - ["Write the justification", 38, false]
+      - ["Polish the justification", 14, false]
+      - ["Refine the ideas", 9, false]
+      - ["Pick the best idea", 2, false]
+    source: "Content analysis of all prompts from the two AI groups. People could use the AI for more than one purpose."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
