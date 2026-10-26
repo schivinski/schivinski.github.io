@@ -72,7 +72,7 @@ CSS = """<style id="mw-share-css">
 .mw-share-top .mw-share-label{margin:0}
 .mw-share-top .mw-share-status{margin:0;min-height:0}
 .mw-share-end{margin:2.6rem 0 1.2rem;padding:1.5rem 1.6rem;border-radius:14px;background:linear-gradient(135deg,#f3f6ff 0%,#fff6e6 100%);border:1px solid #dfe5f3}
-.mw-share-end h2{margin:0 0 .25rem;font-size:1.35rem;border:0;padding:0}
+.mw-share-end h2{color:#15203b;margin:0 0 .25rem;font-size:1.35rem;border:0;padding:0}
 .mw-share-end p.mw-share-lead{margin:0 0 1rem;color:#46506a;font-size:1rem}
 @media (max-width:560px){.mw-share-end{padding:1.1rem}.mw-share-end .mw-share-row li{flex:1 1 calc(50% - .5rem)}.mw-share-end .mw-share-btn{width:100%}}
 @media print{.mw-share,.mw-share-end{display:none}}
