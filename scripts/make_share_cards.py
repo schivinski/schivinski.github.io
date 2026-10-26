@@ -84,7 +84,7 @@ def site_card() -> None:
     d.text((x, 268), "Associate Professor of Marketing", font=font("hanken-grotesk", 34, 500), fill=WHITE)
     d.text((x, 314), "Gdańsk University of Technology", font=font("hanken-grotesk", 34, 400), fill=MUTED)
     d.text((x, 392), "Consumer engagement · digital and social media", font=font("hanken-grotesk", 28, 400), fill=MUTED)
-    d.text((x, 432), "Marketing in 3, weekly research briefs", font=font("hanken-grotesk", 28, 400), fill=MUTED)
+    d.text((x, 432), "Marketing in 3, new issues every Monday and Thursday", font=font("hanken-grotesk", 28, 400), fill=MUTED)
     d.text((x, 520), "schivinski.com", font=font("hanken-grotesk", 28, 600), fill=AMBER)
     OUT.mkdir(parents=True, exist_ok=True)
     im.save(OUT / "site.png", optimize=True)

@@ -128,8 +128,8 @@ INK, AMBER, MUTED, PAPER = "#15203b", "#e0a12a", "#5b6476", "#f6f4ef"
 def confirmation_email(link: str) -> tuple[str, str, str]:
     subject = "Confirm your Marketing in 3 subscription"
     text = ("Hello,\n\n"
-            "Someone, hopefully you, asked to receive Marketing in 3 by email: one new peer-reviewed marketing "
-            "study each week, explained for practitioners.\n\n"
+            "Someone, hopefully you, asked to receive Marketing in 3 by email: new peer-reviewed marketing "
+            "research every Monday and Thursday, explained for practitioners.\n\n"
             f"Confirm here: {link}\n\n"
             "The link works for 48 hours. If you did not ask for this, ignore this email and you will not hear "
             "from us again.\n\n"
@@ -144,7 +144,7 @@ def confirmation_email(link: str) -> tuple[str, str, str]:
 <p style="margin:0 0 6px;font-family:Arial,Helvetica,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:{MUTED};">Marketing in 3</p>
 <h1 style="margin:0 0 16px;font-size:26px;line-height:1.25;font-weight:600;">One click and you are in</h1></td></tr>
 <tr><td style="padding:0 32px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.55;color:#2a3246;">
-<p style="margin:0 0 16px;">Someone, hopefully you, asked to receive Marketing in 3 by email: one new peer-reviewed marketing study each week, explained for practitioners.</p>
+<p style="margin:0 0 16px;">Someone, hopefully you, asked to receive Marketing in 3 by email: new peer-reviewed marketing research every Monday and Thursday, explained for practitioners.</p>
 <p style="margin:0 0 24px;">Confirm and the next issue will land in your inbox.</p>
 <table role="presentation" cellpadding="0" cellspacing="0"><tr><td style="border-radius:999px;background:{AMBER};">
 <a href="{a}" style="display:inline-block;padding:13px 26px;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:700;color:{INK};text-decoration:none;border-radius:999px;">Confirm my subscription</a>

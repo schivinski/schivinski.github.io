@@ -17,6 +17,6 @@ window_days_after: 6
 # Wording shown with the forms.
 form:
   title: "Get it by email"
-  text: "One study a week, in your inbox on Monday. Free, no ads, unsubscribe anytime."
+  text: "New issues every Monday and Thursday, in your inbox. Free, no ads, unsubscribe anytime."
   button: "Subscribe"
   privacy: "Your address is used only to send Marketing in 3. You will get one email to confirm."

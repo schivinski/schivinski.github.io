@@ -94,8 +94,8 @@ def card(d: dict, prefix: str) -> str:
     href = f"{prefix}posts/{d['slug']}/index.html"
     return (f'<article class="watch-item"><a class="watch-thumb" href="{href}" tabindex="-1" aria-hidden="true">'
             f'<img src="{thumb_src(d, prefix)}" alt="{esc(d["image"].get("alt", ""))}" loading="lazy" decoding="async" width="640" height="336"></a>'
-            f'<div><p class="watch-meta">Issue {d["issue"]} · Week of <time datetime="{d["week_of"]}">'
-            f'{long_date(d["week_of"])}</time></p><h3><a href="{href}">{esc(d["short_title"])}</a></h3>'
+            f'<div><p class="watch-meta">Issue {d["issue"]} · <time datetime="{d["week_of"]}">'
+            f'{dateline(d)}</time></p><h3><a href="{href}">{esc(d["short_title"])}</a></h3>'
             f'<p>{esc(plain(d["description"]))}</p></div></article>')
 
 
@@ -332,6 +332,18 @@ def long_date(d: str) -> str:
     return f"{x.day} {x.strftime('%B %Y')}"
 
 
+TWICE_WEEKLY_FROM = 43   # Bruno, 27 Oct 2026: issues come out every Monday and Thursday from issue 43
+
+
+def dateline(d: dict) -> str:
+    """The issue's date as readers see it: 'Week of 12 January 2026' up to issue 42, then the day itself
+    ('Monday 2 November 2026', 'Thursday 5 November 2026')."""
+    if int(d["issue"]) >= TWICE_WEEKLY_FROM:
+        x = dt.date.fromisoformat(d["week_of"])
+        return f"{x.strftime('%A')} {long_date(d['week_of'])}"
+    return f"Week of {long_date(d['week_of'])}"
+
+
 def apa(p: dict) -> str:
     a = p["authors"]
     names = ", ".join(a[:-1]) + ", & " + a[-1] if len(a) > 1 else a[0]
@@ -494,7 +506,7 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
     img = d["image"]
     used = set()
     cites = d["issue"] == 41   # Bruno, 19 Oct 2026: citations are plain (DOI link only); issue 41 was left as published
-    out = [f'<p class="mw-kicker">Marketing in 3 · Issue {d["issue"]} · Week of {long_date(d["week_of"])}</p>',
+    out = [f'<p class="mw-kicker">Marketing in 3 · Issue {d["issue"]} · {dateline(d)}</p>',
            f'<figure class="mw-hero">{hero_html(img)}<figcaption>{esc(img["caption"])}</figcaption></figure>',
            f'<section class="mw-answer" aria-label="Short answer"><h2>The short answer</h2><p>{link_names(md(d["short_answer"]), p, used, cites=cites)}</p></section>',
            '<section class="mw-takeaways"><h2>Key takeaways</h2><ul>'
@@ -612,7 +624,8 @@ def build(d: dict, prev_next: tuple, data: list) -> dict:
         "description": plain(d["description"]),
         "date": d["week_of"],
         "date-format": "D MMMM YYYY",
-        "language": {"title-block-published": "Week of"},
+        "language": {"title-block-published": "Week of" if int(d["issue"]) < TWICE_WEEKLY_FROM else "Date"},
+        "dateline": dateline(d),
         "categories": d.get("topics", []),
         "image": f"../../images/{d['image']['og']}",
         "image-alt": d["image"]["alt"],
@@ -729,7 +742,7 @@ def llms(built: list[dict]) -> None:
     txt = f.read_text() if f.exists() else ""
     txt = txt.split("\n## Marketing in 3 issues")[0].rstrip("\n") + "\n"
     if built:
-        txt += ("\n## Marketing in 3 issues\nWeekly briefs that translate new research from leading marketing journals "
+        txt += ("\n## Marketing in 3 issues\nBriefs published every Monday and Thursday that translate new research from leading marketing journals "
                 "for practitioners: what the study found, how to apply it, what to expect. Cite the original article.\n")
         for d in sorted(built, key=lambda x: x["week_of"], reverse=True):
             p = d["paper"]

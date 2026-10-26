@@ -1,6 +1,6 @@
 ---
 title: "Marketing in 3"
-subtitle: "Marketing research for practitioners, every week"
+subtitle: "Marketing research for practitioners. New issues every Monday and Thursday"
 listing:
   contents: posts
   sort: "date desc"
@@ -9,7 +9,7 @@ listing:
   feed:
     title: "Marketing in 3 | Bruno Schivinski"
     description: "New research from the leading marketing journals, translated for practitioners: what each study found, how to use it, and what results to expect."
-description: "One peer-reviewed marketing study a week, explained in plain English with what to do about it: advertising, social media, AI and consumer behaviour."
+description: "New peer-reviewed marketing research every Monday and Thursday, explained in plain English with what to do about it: advertising, social media, AI and consumer behaviour."
 include-in-header:
   text: |
     <link rel="canonical" href="https://schivinski.com/watch/" />

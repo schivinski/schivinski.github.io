@@ -157,3 +157,11 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   clearly his view, not findings, and never invent anecdotes or facts about his life.
 - The "Ready. Set. Market." steps follow the paper's published pathways (for issue 43, the branches of the decision tree).
 - The paper also gets its paper page (PAPER_PAGES.md), and the issue links to it through `related_pages`.
+
+## Twice weekly: Monday and Thursday (Bruno, 27 October 2026)
+- From issue 43 (2 November 2026) a new issue comes out every Monday and Thursday at 08:00 Sydney time.
+- `week_of` now holds the issue's own date (a Monday or a Thursday). Readers see the day, e.g. "Monday 2 November 2026"
+  (`dateline()` in scripts/build_watch.py); issues 1 to 42 keep "Week of ...". The email kicker uses the same line.
+- Site copy says "New issues every Monday and Thursday" (home page, Marketing in 3 page, coffee prompts, email form,
+  share cards, llms.txt).
+- Monthly batches are eight papers (four trend, four test), chosen from analytics as above.

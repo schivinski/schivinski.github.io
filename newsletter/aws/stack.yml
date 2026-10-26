@@ -61,7 +61,7 @@ Resources:
       Topics:
         - TopicName: weekly
           DisplayName: Marketing in 3, the weekly issue
-          Description: One new peer-reviewed marketing study each week, explained for practitioners.
+          Description: New peer-reviewed marketing research every Monday and Thursday, explained for practitioners.
           DefaultSubscriptionStatus: OPT_OUT
 
   # ---------- Pending confirmations, consent records, send log, rate limits ----------

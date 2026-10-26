@@ -16,12 +16,12 @@ options:
     primary: true
 text: >-
   If this issue saved you a meeting or sharpened a campaign, buy me a coffee. It
-  keeps Marketing in 3 free, weekly and ad-free.
+  keeps Marketing in 3 free and ad-free, with new issues every Monday and Thursday.
 text_subscribe: >-
-  Marketing in 3 is free, weekly and ad-free. If it earns its place in your feed, a coffee helps keep it
+  Marketing in 3 is free and ad-free, with new issues every Monday and Thursday. If it earns its place in your feed, a coffee helps keep it
   that way.
 line: "Free and ad-free, kept going by readers."
 # The round-avatar prompt shown mid-issue (after the how-to) and on the Subscribe page.
 inline_title: "Found this useful?"
-inline_text: "Marketing in 3 is free, weekly and ad-free. A coffee keeps it that way."
-inline_text_subscribe: "Marketing in 3 is free, weekly and ad-free. If it earns its place in your feed, a coffee keeps it that way."
+inline_text: "Marketing in 3 is free and ad-free, with new issues every Monday and Thursday. A coffee keeps it that way."
+inline_text_subscribe: "Marketing in 3 is free and ad-free, with new issues every Monday and Thursday. If it earns its place in your feed, a coffee keeps it that way."

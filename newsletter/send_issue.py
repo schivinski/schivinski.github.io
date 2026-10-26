@@ -24,7 +24,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
-from build_watch import long_date, md, plain  # noqa: E402
+from build_watch import dateline, long_date, md, plain  # noqa: E402
 
 SITE = "https://schivinski.com"
 ISSUES = ROOT / "watch" / "issues"
@@ -70,7 +70,7 @@ def issue_url(d: dict, campaign: bool = True) -> str:
 def build_email(d: dict, unsubscribe: str = "{{amazonSESUnsubscribeUrl}}") -> tuple[str, str, str]:
     """(subject, html, text) for one issue. `unsubscribe` is SES's placeholder, filled in per reader."""
     url = issue_url(d)
-    kicker = f"Issue {d['issue']} · Week of {long_date(d['week_of'])}"
+    kicker = f"Issue {d['issue']} · {dateline(d)}"
     subject = d["short_title"]
     pre = plain(d["description"])
     img = d["image"]
