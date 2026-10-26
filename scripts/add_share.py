@@ -106,7 +106,7 @@ def block(url: str, title: str) -> str:
     items.append(f'<li><button type="button" class="mw-share-btn mw-share-native" style="--c:#8a5a00" data-share-native title="More sharing options" aria-label="More sharing options">{glyph("native")}<span>More</span></button></li>')
     attrs = f'data-url="{html.escape(url, quote=True)}" data-title="{html.escape(title, quote=True)}"'
     return (f'<aside class="mw-share" {attrs} aria-labelledby="mw-share-h"><h2 id="mw-share-h">Know someone who should read this?</h2>'
-            f'<p class="mw-share-lead">Send it to a colleague or post it to your network. One click opens the page ready to share.</p>'
+            f'<p class="mw-share-lead">Send it to a colleague or post it to your network.</p>'
             f'<ul class="mw-share-row" aria-label="Share this page">{"".join(items)}</ul>'
             f'<p class="mw-share-status" role="status" aria-live="polite"></p></aside>')
 
