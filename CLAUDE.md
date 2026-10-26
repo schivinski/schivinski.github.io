@@ -76,3 +76,17 @@ Constraints for each level:
 - MUST flag best practices and explain trade-offs
 - MUST still execute the user's choice if they disagree with a suggestion
 <!-- END AWS Agent Toolkit rules -->
+
+## Building the site (Quarto)
+
+MUST run this at the start of every session that will build, render or test the site (it is a no-op if Quarto is already installed):
+
+```
+bash scripts/setup-quarto.sh
+```
+
+The cloud sandbox starts without Quarto. Before rendering or testing any page change, run `bash scripts/setup-quarto.sh`
+(installs Quarto 1.10.19 and pyyaml; add `export PATH="$HOME/.local/bin:$PATH"` if `quarto` is not found afterwards).
+Full local build, in the order of `.github/workflows/publish.yml`: `python scripts/fetch_publications.py`,
+`python scripts/build_paper_pages.py`, `python scripts/build_watch.py`, `python scripts/build_teaching.py`,
+`python scripts/build_mentoring.py`, then `quarto render`. Preview `_site` with `python -m http.server`.
