@@ -165,3 +165,11 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 - Site copy says "New issues every Monday and Thursday" (home page, Marketing in 3 page, coffee prompts, email form,
   share cards, llms.txt).
 - Monthly batches are eight papers (four trend, four test), chosen from analytics as above.
+
+## Research focus: digital marketing only (Bruno, 27 October 2026)
+- Bruno no longer works on games or gamification; his research path is digital marketing. Issue 47 (in-game advertising,
+  16 November 2026) is the last gaming issue.
+- From the next batch, do not pick gaming, esports or gamification papers, even when analytics show traffic to his gaming
+  pages (for example the Gaming Disorder Test), unless the paper clearly sits in his digital marketing thread (for example
+  social media brand engagement or digital advertising that happens to use a game setting). Use test slots for other
+  digital marketing audiences instead.
