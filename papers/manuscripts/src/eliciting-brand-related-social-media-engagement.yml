@@ -1,0 +1,30 @@
+text: eliciting-brand-related-social-media-engagement.blocks.txt
+affiliation_line: RMIT University (affiliation at the time of publication)
+title_page_footer: Re-typeset from the published text by the author; the publisher's typesetting and layout have been removed.
+title_page_note: "This is the author's accepted manuscript. Its content is that of the published article; it differs only in formatting and pagination. Please cite the published version."
+figures:
+  fig1:
+    svg: figures/schivinski-2021-ctree.svg
+appendix_tables: [A1]
+table_overrides:
+  '1':
+    title: Construct reliability and validity outputs.
+    note: "Note: α = Cronbach's alpha, CR = composite reliability, AVE = average variance extracted; the square root of the AVE values is marked in italic. *** *p* < 0.001. ns. Non-significant."
+  '2':
+    title: The five patterns (rules) and subtypes of consumers, contributors, and creators of brand-related social media content.
+    columns: ["Rule#", "Pattern of brand-related social media behavioral engagement", "Consumption", "Contribution", "Creation", "Subtype"]
+    widths: ["auto", "1fr", "1fr", "1fr", "1fr", "1.2fr"]
+    size: 7pt
+    landscape: true
+    rows:
+      - ["1 (n = 625, node 6)", "Brand commitment (average/low; ≤4); Brand recognition (high; > 4); Favorable brand associations (average/high; > 3)", "Prevalence of: medium = 87.15% (n = 545), with: low = 11.60% (n = 72) and high = 1.25% (n = 8)", "Prevalence of: medium = 82.44% (n = 515), with: low = 15% (n = 94) and high = 2.56% (n = 16)", "Prevalence of: low = 54.13% (n = 338) with: medium = 43.33% (n = 271) and high = 2.54% (n = 16)", "Brand passionate. The individual moderately consumes and contributes to content. Occasionally gets involved with creation of social media content"]
+      - ["2 (n = 558, node 9)", "Brand commitment (high; > 4); Brand familiarity (high; > 4)", "Prevalence of: medium = 83.46% (n = 466), with: high = 11.10% (n = 62) and low = 5.44% (n = 30)", "Prevalence of: medium = 73.22% (n = 409), with: high = 21.17% (n = 118) and low = 5.54% (n = 31)", "Prevalence of: medium = 53.52% (n = 299), with: low = 28.52% (n = 159) and high = 17.96% (n = 100)", "Brand fan. Consumer is highly committed and pro-active towards COBRAs"]
+      - ["3 (n = 108, node 5)", "Brand commitment (average/low; ≤4); Brand recognition (high; > 4); Favorable brand associations (low; ≤3)", "Prevalence of: medium = 71.02% (n = 77), with: low = 27.98% (n = 30) and high = 1% (n = 1)", "Prevalence of: medium = 56.11% (n = 61), with: low = 42.59% (n = 46) and high = 1.3% (n = 1)", "Prevalence of: low = 65.9% (n = 71), with: medium = 34.09% (n = 37)", "Low engaged. User knows the brand. This subtype characterizes mainly low and medium engagement behavior"]
+      - ["4 (n = 41, node 3)", "Brand commitment (average/low; ≤4); Brand recognition (average/low; ≤4)", "Prevalence of: medium = 91.67% (n = 38), with: low = 8.33% (n = 3)", "Prevalence of: medium = 93.34% (n = 39), with: low = 6.66% (n = 3)", "Split behavior among: low = 33.32% (n = 14), medium = 33.33% (n = 14), high = 33.34% (n = 14).", "Brand curious. User is highly engaged with consumption, contribution, and creation of content when brand commitment and recognition are low"]
+      - ["5 (n = 24, node 8)", "Brand commitment (high; > 4); Brand familiarity (average/low; ≤4)", "Prevalence of: medium = 82.44% (n = 19), with: low = 17.56% (n = 4)", "Prevalence of: medium = 66.66% (n = 16), with split behavior among: low = 16.9% (n = 4) and high = 16.44% (n = 4)", "Prevalence of: low = 50% (n = 12), with: medium = 16% (n = 4) and high = 34% (n = 8)", "Prospect brand fan. Consumer is loyal to the brand, however, lacks breadth of familiarity with it (e.g., range of products). This subtype is prone to engage into higher levels of COBRAs"]
+    note: "Note: Scales ranged from 1 to 7 for both CBBE and COBRAs constructs."
+  A1:
+    label: Appendix
+    title: Descriptive statistics, factor loadings - completely standardized lambda X - (λ_{x})^{b}, and explained variance on each item (*R*^{2}).
+    size: 7pt
+    note: "Note: CONS = consumption, CONT = contribution, CREA = creation; BAW = brand awareness, BAS = brand associations, PQ = perceived quality, BL = brand loyalty. Scales ranged from 1 to 7 for both CBBE and COBRAs constructs."

@@ -1,0 +1,291 @@
+@@title@@ Eliciting brand-related social media engagement: A conditional inference tree framework
+
+@@authors@@ Bruno Schivinski
+
+@@affil@@ School of Media and Communication, RMIT University, 124 La Trobe St, Melbourne, Victoria 3000, Australia
+
+@@small@@ Received 22 August 2018; received in revised form 30 August 2019; accepted 31 August 2019
+
+@@abstract@@ This study presents a machine learning approach using conditional inference tree (Ctree) to determine cognitive patterns that elicit consumer engagement into social media. Using the Ctree algorithm, a predictive model was computed using self-reported data on consumers' perceptions of brand equity and engagement into brand-related social media behavior from a sample of 1356 individuals. The predictive modeling analysis revealed 5 different cognitive patterns (rules) that stimulate brand-related social media behavior. Each rule comprises behavioral engagement discriminating low, medium, and high levels of consumption, contribution, and creation of brand-related social media content. Furthermore, based on the different patterns, the analysis portrait a typology of 5 subtypes of consumers according to their behavior, which by complementing the predictive analysis information may be used to stimulate different levels of consumption, contribution, and creation of brand-related social media content.
+
+@@keywords@@ CBBE; COBRAs; Social media; Machine learning; Typology; Consumer brand engagement
+
+@@h2@@ 1. Introduction
+
+@@p@@ Consumer engagement with brands on social media has received increasing consideration over the last years because of its potential to influence behavior (Schivinski, Christodoulides, & Dabrowski, 2016). Executives aim to inspire and elicit consumers to voluntary interact with brand-related social media content (Hollebeek, Glynn, & Brodie, 2014), as this type of engagement is considered to be a critical element of online strategy and performance (Pansari & Kumar, 2017). In order to effectively engage consumers in brand-related social media activities, practitioners must understand the drivers of engagement with brands online. More specifically, executives must be equipped with knowledge of what type of consumers are actively engaging with brands on social media (Wallace, Buil, & de Chernatony, 2014) and their motivations (Muntinga, Moorman, & Smit, 2011).
+
+@@p@@ Notwithstanding the literature on consumer engagement on social media is rapidly accumulating, there are still knowledge gaps (Hughes, Swaminathan, & Brooks, 2019; Pansari & Kumar, 2017). In-depth insights from research that focus on the behavioral aspect of consumer brand engagement (CBE), investigating how the consumer's mindsets influence and drive brand-related social media behavior could deepen the existing understanding of CBE. To date, the literature on CBE has advanced theoretical propositions on what delineates consumer engagement (e.g., Barger, Peltier, & Schultz, 2016; Hollebeek, Srivastava, & Chen, 2016; Pansari & Kumar, 2017), whereas empirical research focused on aspects such as consumer-specific drivers of engagement e.g., tie strength, homophily, and motivations (Leckie, Nyadzayo, & Johnson, 2016; Muntinga et al., 2011), personality of “open-source” brands (Haarhoff & Kleyn, 2012), understanding of what unites brands that consumers talk about online (Lovett, Peres, & Shachar, 2013), the content that consumers engage with on social media (Ashley & Tuten, 2015; Hughes et al., 2019), firm-performance (Kumar & Pansari, 2016), purchase behavior (Malthouse, Calder, Kim, & Vandenbosch, 2016), mobile phone usage and preferences (Pagani & Malacarne, 2017), effectiveness of engagement marketing through consumer's psychological ownership and self-transformation (Harmeling, Moffett, Arnold, & Carlson, 2017), and understanding how brand-related social media engagement influence brand relationships (Gómez, Lopez, & Molina, 2019; Solem & Pedersen, 2016).
+
+@@p@@ Drawing from the established hierarchy-of-effects model, the current research contributes to the behavioral angle of the literature on CBE, by determining how different levels of consumers perceptions of brand equity elicit engagement on social media. For this mean, this research uses a machine learning algorithm – conditional inference tree (Ctree) to explore cognitive patterns (rules) that trigger brand-related engagement on social media in terms of reading, watching, clicking, sharing, liking, and creating brand-related content. Differently, from causal and directional predictive analysis on CBE, which investigates relationships and effects across variables, the Ctree algorithm isolates specific levels of individuals' perceptions and attitudes and reveal how they convert to different types behavior (Hothorn, Hornik, & Zeileis, 2006). In addition to the pattern analysis, this research portraits a E-mail address: bruno.schivinski@gmail.com. typology of subtypes of consumers according to their behavior, in terms of low, medium, and high levels of CBE, which may be used to elicit brand-related social media engagement.
+
+@@h2@@ 2. Theoretical background
+
+@@h3@@ 2.1. Consumer-based brand equity
+
+@@p@@ Consumer-based brand equity (CBBE) is one of the most relevant variables to study the consumer's perceptions of brands (Christodoulides, Cadogan, & Veloutsou, 2015). In the body of literature of brand equity, there is little agreement on a widely accepted definition of CBBE. The lack of a common delineation lead scholars to several different conceptualizations and dimensionalities of the construct (Christodoulides & de Chernatony, 2010). However, due to its easiness of assessment in social research (i.e., through the administration of a questionnaire) and flexible implementation into business practice, one of the most commonly adopted CBBE conceptualizations is Aaker's (1991) framework (Christodoulides et al., 2015).
+
+@@p@@ Aaker's (1991) CBBE framework has five dimensions, in which four are related to the consumer (i.e., brand awareness, brand associations, perceived quality, and brand loyalty) and one is linked to the firm (i.e., other proprietary assets, such as patents, trademarks, and channel relationships). Empirical research on consumer's perceptions usually omits the firm-related dimension (Christodoulides & de Chernatony, 2010). In line with Aaker's framework, this study defines CBBE as “a set of perceptions, attitudes, knowledge, and behavior on the part of consumers that results in increased utility and allows a brand to earn greater volume or greater margins than it could without the brand name” (Christodoulides & de Chernatony, 2010, p. 48). Hence, CBBE is operationalized as a four-dimensional framework consisting of brand awareness, brand associations, perceived quality, and brand loyalty.
+
+@@p@@ Brand awareness initiates the building process of CBBE and is defined as “the ability of a potential buyer to recognize or recall that a brand is a member of a certain product category” (Aaker, 1991, p. 61). It refers to the strength of a brand's presence in the mind of a consumer and it involves two core facets i.e., brand recalling and recognizing. Brand recall emerges with the ability of the customer to retrieve the brand from memory, whereas brand recognition happens when the consumer is able to differentiate a brand among other options (Aaker, 1991; Keller, 1993). The literature on CBBE is concise and it is agreed that brand awareness increases with the consumer's exposure to the brand (Foroudi, Jin, Gupta, Foroudi, & Kitchen, 2018), going from brand recognition, familiarity with the brand, to brand dominance (Aaker, 1991; Keller, 1993), which refers to the situation where a consumer can recall only one brand within a product category. Therefore, higher levels of awareness lead to stronger brand perceptions, which in turn drive equity as the consumers are more likely to choose a familiar brand over others with lesser awareness (Chatzipanagiotou, Veloutsou, & Christodoulides, 2016; Yoo & Donthu, 2001).
+
+@@p@@ Brand associations is defined as “anything linked in memory to a brand” (Aaker, 1991, p. 109). This is a perceptual dimension of CBBE and comprise both utilitarian and emotional meaning of the brand for consumers (Keller, 1993). The literature on brand equity indicates a strong connection between brand awareness and brand associations (Pappu, Quester, & Cooksey, 2005; Yoo & Donthu, 2001), where the former precedes the latter (Buil, Martínez, & de Chernatony, 2013). While brand awareness is related to the ability to recall and recognize, brand associations refers to the acquired connotations in the consumers' minds linked to a brand (Aaker, 1991; Keller, 1993). Brand associations develop from intangible characteristics of a product (Keller, 1993) and increase with the consumer's ability to differentiate a brand from competing brands in terms of distinctiveness, innovativeness, and prestige (Y.-P. Chen, Nelson, & Hsu, 2015). Companies, for obvious reasons, focus on building positive and favorable associations. Similar to brand awareness, brand associations also have a level of strength, which grows stronger when based on repeated usage, experiences, and exposure to the brand (Foroudi et al., 2018).
+
+@@p@@ Perceived quality is also a perceptional dimension of CBBE, and it is defined as “the consumer's judgment about a product's overall excellence or superiority” (Zeithaml, 1988, p. 3). Although the literature relates perceived quality to physical attributes of the product (Datta, Ailawadi, & Heerde, 2017), this CBBE dimension reflects the subjective evaluation of the brand and its products/services by the consumer (Aaker, 1991; Chatzipanagiotou et al., 2016). Perceived quality, in the consumers' minds, is usually related to brand components such as price, durability, features, appearance, and exclusiveness (Christodoulides et al., 2015). Therefore, it provides value to consumers, while differentiating the brand from competing brands (Yoo & Donthu, 2001). Literature indicates that when perceived quality is reinforced through warranties, prices, and brand information it drives competitive advantage (Tsiotsou, 2006) and reassures consumers about the reliability of the product and/or brand, reinforcing brand trust (Atilgan, Akinci, Aksoy, & Kaynak, 2009).
+
+@@p@@ Brand loyalty is the behavioral dimension of CBBE. It is defined as “a deeply held commitment to rebuy or repatronise a preferred product or service consistently in the future, despite situational influences and marketing efforts having potential to cause switching behavior” (Oliver, 1997, p. 392). In the literature, brand loyalty is acknowledged as a major component of brand equity and reflects the attachment that a customer has to a brand (Aaker, 1991). In terms of the CBBE building process, brand loyalty is a consequence of both brand associations and perceived quality (Buil et al., 2013), therefore, changes in the consumer's perceptions of quality and brand associations directly reflect on their levels of loyalty. Additionally, the higher/lower levels of this CBBE dimension denote the consumer's tendency to be more/less loyal to a brand, which consequently translate to the intention (or not) to (re)purchase the brand as a primary choice (Yoo & Donthu, 2001). The levels of loyalty (high/ low) are directly linked to the consumers' interactions with the brand, meaning that consumers must have had contact with the product and/or brand at least once (Foroudi et al., 2018).
+
+@@h3@@ 2.2. Consumers' online brand-related activities
+
+@@p@@ Despite being a relatively recent subject of investigation in the business literature, there are distinctive definitions and conceptualizations of consumer brand engagement (Dessart, Veloutsou, & Morgan-Thomas, 2016). The literature diverges into conceptualizations of engagement based on a multidimensional perspective englobing emotional, cognitive, and responsive aspects of the consumer involvement with brands (Brodie, Ilic, Juric, & Hollebeek, 2013; Dessart et al., 2016; Hollebeek et al., 2014); and conceptualizations based on targeting specific online activities or behaviors (Muntinga et al., 2011; Schivinski et al., 2016; van et al., 2010). Whereas the multidimensional perspective is suitable for research focusing on the overall understanding of consumer engagement (Dessart et al., 2016), the behavioral approach is recommended for research that has immediate managerial application (Schivinski & Dabrowski, 2016) as (i) practitioners tend to measure the effectiveness of their social media communication in terms of behavioral engagement such as likes, shares, comments, subscribes, and the like (Ashley & Tuten, 2015); (ii) brandrelated behavior is visible to other consumers and helps establishing the public enactment of the brand (Gensler, Völckner, Liu-Thompkins, & Wiertz, 2013); and (iii) the authenticity and credibility associated with user-generated content activities confers consumers influence at the expense of marketers (Schivinski & Dabrowski, 2016).
+
+@@p@@ The current study follows the later stream of research and therefore defines CBE as “customers' behavioral manifestations toward a brand or firm, beyond purchase, resulting from motivational drivers” (van et al., 2010, p. 254). The behavioral approach to CBE is used as a foundation for the analysis presented further in this paper, where the types of social media activities such as commenting, sharing, liking, initiating posts are used as proxy for engagement (Barger et al., 2016; Lamberton & Stephen, 2016; Schivinski et al., 2016).
+
+@@p@@ In line with the behavioral perspective of engagement, the concept of consumers' online brand-related activities (COBRAs) is defined as “a set of brand-related online activities on the part of the consumer that vary in the degree to which the consumer interacts with social media and engages in the consumption, contribution, and creation of media content” (Schivinski et al., 2016, p. 66). The COBRAs framework categorizes all consumer's activity on social media by considering behavioral engagement with brands as a passive-to-active concept, discriminating between three levels of behavior: consumption, contribution, and creation of brand-related content on social media.
+
+@@p@@ Consumption entails social media activities associated with a passive (minimum) level of engagement. Examples of consumption include to watch pictures on a brand's Instagram page, viewing and reading brandrelated posts on Facebook, without actively participating (Muntinga et al., 2011; Schivinski et al., 2016).
+
+@@p@@ Contribution, the mid level of engagement, involves interactions with peers and/or the brand and requires initiative at some extent from the consumer. Examples of contribution are sharing, commenting, and discussing commercials on YouTube, turning consumers into brand endorsers (Muntinga et al., 2011; Schivinski et al., 2016).
+
+@@p@@ Creation, the highest level of consumer engagement, conveys the act of actively producing, publishing, as well as co-developing brand-related content on social media. Examples of creation comprise initiating posts, publishing reviews, uploading user-generated media on Facebook (Muntinga et al., 2011; Schivinski et al., 2016).
+
+@@p@@ In the digital marketing context, COBRAs have a strategic role as social media has ultimately shifted how firms communicate with customers (Lamberton & Stephen, 2016), influencing the consumers perceptions and behavior towards brands (Schivinski & Dabrowski, 2016). In this regard, social media became one of the main credible sources of information during the decision-making process, with consumers relying on information from peers given their independency, credibility, and relevance (Hollebeek et al., 2014).
+
+@@h3@@ 2.3. CBBE and brand-related social media behavior
+
+@@p@@ This research draws from the traditional hierarchy-of-effects model to determine cognitive patterns of consumer engagement into consumption, contribution, and creation of brand-related social media content. The traditional hierarchy-of-effects model, also known as the standard learning hierarchy, follows the theory of reasoned action (TRA) (Ajzen & Fishbein, 1980; Fishbein & Ajzen, 1975) and postulates that attitudes and subjective norms influence intentions, driving behavior.
+
+@@p@@ In the context of brand equity, research has demonstrated that CBBE is an evolving process in the consumer's mind (Buil, Martínez, & de Chernatony, 2013b), which responds in a cognitive–affective–conative sequence i.e., to feel, to know, and to do (Lavidge and Steiner, 1961). Hence, CBBE is a learning process in which consumers' cognizance of the brand influences their attitudes and behavior in either online or offline contexts.
+
+@@p@@ The traditional hierarchy-of-effects model also holds in the contexts of CBE on social media. For instance, researchers have implemented the model to investigate social factors influencing social media usage (Chen, Yen, & Hwang, 2012), consumer's responses to social media viral marketing on purchase behavior (Gunawan & Huarng, 2015), and behavioral responses to ads on social media channels (Zhang & Mao, 2016). In line with the traditional hierarchy-of-effects model, consumers' beliefs about and associations with a brand result in brand-related social media engagement through consumption, contribution, and creation of content.
+
+@@h2@@ 3. Method
+
+@@h3@@ 3.1. Participants and procedures
+
+@@p@@ In the present study, a large and heterogeneous sample of social media users was recruited online using a twofold approach. First, administrators from several social media brand pages in Poland were individually contacted and invited to collaborate in the sample recruitment process by sharing the link of an online survey hosted on Qualtrics. com; second, the online link was shared on user-generated social media brand pages inviting respondents to take part in the survey. After the completion of the survey, respondents were also asked to share the online link on social media with family and friends. To incentive participation, ten Amazon vouchers in the value of $50 each were drawn at random among participants, which concluded the survey and wanted to participate in the raffle. As a characteristic of collecting online data, an assessment of how many social media users had access to the online link is not feasible; consequently, the response rate for the study was omitted.
+
+@@p@@ Participants' eligibility was initially verified by asking if they had accessed and used social media in the past six months, with those answering ‘no’ to this question being removed from the analysis. A total of 1593 participants were recruited. Overall, the sample's mean age was 29 years (SD = 8.7 years, range 18–52 years) and predominantly female (57.66%, n = 919). Additionally, the respondents were asked to declare a brand they follow on social media. No constraints were applied for inclusions of brands; therefore, respondents could take the survey based on any brand they actively follow on social media. This same brand was then used throughout the survey to capture CBBE and COBRAs.
+
+@@h3@@ 3.2. Measures
+
+@@p@@ To capture the consumer's perceptions of brands, the 12-item CBBE scale was implemented (Christodoulides et al., 2015). The measurement instrument measures CBBE as conceptualized by Aaker (1991), hence by assessing the consumer's levels of brand awareness, brand associations, perceived quality, and brand loyalty. For this study, the items of each CBBE subscale were answered using a 7-point scale ranging from 1 ‘Completely disagree’ to 7 ‘Completely agree’.
+
+@@p@@ The seventeen-item CESBC scale (Schivinski et al., 2016) was used to assesses the consumer's behavioral engagement with brands on social media. The items of each subscale (i.e., consumption, contribution, and creation) were answered using a 7-point scale ranging from 1 ‘Never’ to 7 ‘Very often’. Participants' total engagement scores are obtained by mean of the responses from each subscale, with higher scores indicating higher levels of engagement. Additionally, Schivinski et al. (2016) suggested to use the first upper and lower deciles as cut-offs to assess the sample's proportions of low-high consumers, contributors, and creators of brand-related social media content.
+
+@@h3@@ 3.3. Data management and analytic strategy
+
+@@p@@ Data management involved several steps to ensure the robustness of the estimations. First, Little's Missing Completely at Random (MCAR) test was implemented to verity the structure of the missing data. MCAR was tested using the package BaylorEdPsych (R Package for Baylor University Education Psychology Quantitative Course Version 0.5) in R system for statistical computing Version 3.4.2 “Short Summer” (https:// www.r-project.org). The hypothesis of the MCAR was rejected at 0.05 significance level (p = 0.78), indicating that the data was missing at random. A total of 221 (13.87%) cases were eliminated from the analyses due to missing values (i.e., ≥5 items) on the scales used in the study.
+
+@@p@@ As for the univariate normality assessment, none of the CBBE and CEBSC items had absolute values of Skewness > 3.0 and Kurtosis > 8.0 (Kline, 2011) (view Appendix). The data were screened for multivariate outliers using Mahalanobis distances and the critical value for each case based on the chi-square distribution values, resulting in the exclusion of 16 participants (1%). Following data cleaning procedures, data from 1356 participants (85.12%) was eligible for analyses. The number of brands in the analysis was 282 and encompasses several different industries including for instance alcoholic and non-alcoholic beverages, automobile, clothing, fashion and beauty, retail, services including hospitality and restaurants, sporting goods, among others.
+
+@@p@@ The subsequent statistical analyses were conducted using the packages psych (Procedures for Psychological, Psychometric, and Personality Research Version 1.78) (Revelle, 2015), lavaan (Latent Variable Analysis Version 0.5–23.1097) (Rosseel, 2012), and partykit package (A Toolkit for Recursive Partytioning Version 1.2–0) (Zeileis & Hothorn, 2014) in R system for statistical computing.
+
+@@h2@@ 4. Results
+
+@@h3@@ 4.1. Descriptive statistics
+
+@@p@@ In terms of sampling structure, there was a balanced gender distribution with females representing 56.7% (n = 769) of all participants. Participants' age ranged between 18 and 52 years, and the mean age observed was 29 years (SD = 8.5 years). The majority of the respondents had completed at least 1 year of college education, 47.49% (n = 644). The average time spent on social media was 17.8 h on weekdays (SD = 8.71 h) and 6.2 h on weekends (SD = 4.34 h), with an average of about 15 min per browsing session (SD = 12.51 min). Additionally, 97.78% (n = 1326) of respondents reported using smartphones to access social media. The majority of respondents (83.70% n = 1135) declared to use Facebook as the most frequently accessed social media channel. Finally, the proportion of low and high consumers partaking in brand-related social media content was 12.54% (nlow = 170) and 4.35% (nhigh = 59), that of contributors was 14.01% (nlow = 190) and 9.73% (nhigh = 132), and that of creators was 44.10% (nlow = 598) and 9.88% (nhigh = 134).
+
+@@h3@@ 4.2. Construct validity and dimensionality
+
+@@p@@ Prior to the validation of the predictive model, the data were tested against systematic response patterns i.e., Common Method Bias (CMB). CMB was calculated with the specification of a confirmatory factor analysis (CFA) model using the common latent factor method (Podsakoff, MacKenzie, Lee, & Podsakoff, 2003). The results from the analysis indicated that CMB does not pose a problem in the data (Podsakoff et al., 2003).
+
+@@p@@ Following the analysis, construct validity and dimensionality of the conceptual model of CBBE and COBRAs was investigated by performing a CFA with robust maximum likelihood estimation method (MLR). Conventional fit indices and thresholds were adopted in the present study to examine the goodness of fit of the model under analysis. They follow: χ2/ d.f.[1;4]; root mean square error of approximation (RMSEA) [0.05;0.08], RMSEA 90% confidence interval (CI) with the lower limit close to 0 and the upper limit below 0.08; standardized root mean square residual (SRMR) [0.05;0.08]; Comparative Fit Index (CFI); and Tucker-Lewis Fit Index (TLI) [0.90;0.95] (Hair, Black, Babin, & Anderson, 2014; Kline, 2011). The CFA yielded the following results: MLRχ2 (356) = 1343.12; χ2/df = 3.77; CFI = 0.92; TLI = 0.91; RMSEA = 0.06 [90% CI: 0.06–0.07]; SRMR = 0.06. These results evidence that CBBE and COBRAs integrate in a common framework.
+
+@@p@@ Overall, the CFA rendered acceptable standardized item loads (i.e., Meanλij ≥0.70, p < 0.001) (Hair et al., 2014; Kline, 2011), with no evidence of cross-loading across the items. The tests support convergent validity of the constructs used (Kline, 2011). A full description of items' statistics can be found at the Appendix.
+
+@@p@@ To assess discriminant validity, the average variance extracted (AVE) was computed for each latent variable. The AVE scores ranged from 0.59 to 0.75 and were above the acceptable threshold of 0.50 (Bagozzi & Yi, 1988). The square roots of the AVE scores were higher than the correlations across the factors. Those tests evidence discriminant validity (Kline, 2011).
+
+@@h3@@ 4.3. Reliability analysis
+
+@@p@@ The scales internal consistency was evaluated using different reliability coefficients i.e., reliability level estimated by Cronbach's alpha and composite reliability (CR). Both alpha and CR values ranged from 0.81 to 0.92. The values were well above the recommended 0.70 threshold evidencing excellent internal consistency of both CEBSC and CBBE subscales (Fornell & Larcker, 1981; Hair et al., 2014). Table 1 summarizes the reliability, validity, and CFA outputs.
+
+@@table@@ 1
+
+@@h3@@ 4.4. Conditional inference tree analysis
+
+@@p@@ Conditional inference tree (Ctree) is a non-parametric class of regression trees embedding tree-structured regression models into rule-based procedures. It characterizes the ability to deal with a large number of predictor variables, even in the presence of multifaceted interactions (Hothorn et al., 2006). The aim of the algorithm is to test the global null hypothesis of independence among the predictor variables and the outcome variables using a permutation test framework. If the hypothesis is rejected, the predictor variable with the strongest association to the outcome variable is chosen and a binary split to this variable is implemented. The data, therefore, is partitioned to smaller, homogeneous groups. The partitioning is repeated recursively until the hypothesis is rejected. Differently from other methods of exploring homogeneous groups within data (e.g., cluster-analysis), Ctree avoids selection bias during the splitting (Hothorn et al., 2006). In addition, the algorithm does not segment the data according to existing patterns in the data (e.g., specific attitudes or behavior), but it indicates a set of rules to be fulfilled in order to an output to occur. In the scientific literature the algorithm is used to predict behavior (Rehbein, Kliem, Baier, Mößle, & Petry, 2015; Rho et al., 2016), whereas its output is highly interpretable by nested if–then rules (e.g., if Predictor A ≥3 and Predictor B ≥4, then class = 1; if Predictor A ≥3 and Predictor B < 4, then class = 2; if Predictor A < 3 then class = 3).1
+
+@@note@@ ¹ In the example, the number 3 indicates the endorsement of predictor A (e.g., an item) by a respondent with a score of 3 or above.
+
+@@h3@@ 4.5. Results of the predictive model
+
+@@p@@ The model was estimated with 95% confidence interval and the minimum split for partitioning the data was set to 70 individuals (about 10% of the dataset). The model specified a particular CBBE parameter (i.e., subscale items) predicting COBRAs controlling for consumer's age, gender, social media usage, while accounting for brands. Additionally, the behavioral COBRAs were specified in terms of low, medium, and high engagement levels using the first upper and lower deciles as cutoffs (Schivinski et al., 2016).
+
+@@p@@ The Ctree algorithm identified predictive factors using the relative importance between variables. Four subcomponents of the brand equity dimensions and their importance rates were key predictors of brand-related social media behavior. More specifically, brand commitment item from the brand loyalty dimension; brand recognition and brand familiarity items from brand awareness dimension; and favorable associations item from the brand associations dimension. Therefore, the Ctree algorithm revealed five cognitive rules that must be attained in order to elicit social media brand-related behavior; such rules subsequently were used to portrait five subtypes of consumers based on their behavior.
+
+@@p@@ Rule #1 (n = 625) states that if brand commitment ≤4 (p < 0.001), brand recognition > 4 (p < 0.001), and favorable brand associations > 3 (p < 0.001) then subtype of consumer = brand passionate. Rule #2 (n = 558) states that if brand commitment > 4 (p < 0.001), and brand familiarity > 4 (p < 0.045) then subtype of consumer = brand fan. Rule #3 (n = 108) states that if brand commitment ≤4 (p < 0.001), brand recognition > 4 (p < 0.001), and favorable brand associations ≤3 (p < 0.001) then subtype of consumer = low engaged. Rule #4 (n = 41) states that if brand commitment ≤4 (p < 0.001), and brand recognition ≤4 (p < 0.001) then subtype of consumer = brand curious. Finally, rule #5 (n = 24) states that if brand commitment > 4 (p < 0.001), and brand familiarity ≤4 (p < 0.001) then subtype of consumer = prospect brand fan.
+
+@@p@@ For text succinctness and readability, the rules for consumer's behavioral engagement in brand-related social media content, and the prevalence levels in terms of low, medium, and high levels of consumption, contribution, and creation of content are summarized in Table 2 and discussed next. Fig. 1 depicts the results of the Ctree analysis.
+
+@@table@@ 2
+
+@@figure@@ fig1|Fig. 1. Conditional inference tree analysis predicting brand-related social media behavioral engagement. Note: Predictive Ctree model estimated with 95% confidence interval. Minimum split = 70. Controlling variables were age, gender, social media usage, and brands. Value on the path indicates the threshold ranging in the scale from 1 to 7 (e.g., > 4 indicates that consumer should endorse the respective item using the anchor of 5 or above). Bars show the share of each node at low, medium and high engagement (redrawn from Table 2). Brand commitment = [BL3] I am committed to this brand; Brand recognition = [BAW3] I can recognize this brand among other brands; Favorable associations = [BAS2] This brand has favorable associations; Brand familiarity = [BAW2] I am quite familiar with this brand.
+
+@@h2@@ 5. Conclusions and research implications
+
+@@h3@@ 5.1. Theoretical and managerial implications
+
+@@p@@ The current study provides valuable contributions to the behavioral angle of the literature on CBE. Drawing from the hierarchy-of-effects model, this research uses Ctree, a machine learning based algorithm, to explore cognitive patterns on how different levels of consumer-based brand equity elicit behavioral engagement on social media in terms of consuming, contributing, and creating brand-related content. Additionally, based on the pattern analysis, this paper also presents a typology of five subtypes of consumers according to their brand-related social media behavior. Although the application of marketing strategies following a behavioral segmentation might be easier to implement in practice, executives may use the patterns and typology to stimulate low, medium, and high levels of consumption, contribution, and creation of brand-related social media content. Suggestions on how to stimulate CBBE in a cognitive–affective–conative sequence to fulfill the requirements for each of the five rules and thus elicit brand-related social media engagement are described next.
+
+@@p@@ The most prominent pattern (rule #1) deriving from the consumer's perceptions of brand equity reveals the brand passionate subtype of consumer. This individual moderately consumes and contributes to brand-related social media content. Occasionally, the consumer gets involved with creation of brand-related social media content. To elicit consumer's engagement into COBRAs (following the brand passionate pattern) companies should tailor marketing strategies to activate specific CBBE subcomponents. More specifically, applied marketing techniques should aim at achieving average/low levels of brand commitment (derived from brand loyalty), high levels of brand recognition (derived from brand awareness), and average/high levels of favorable brand associations. For example, in case executives want to increase the consumer's commitment to a brand on social media, a shared sense of community in the brand page could be created or if already in practice, strongly explored. Research has evidenced that community membership and brand communication target groups of community members that serve as drivers of brand loyalty (Raïes, Mühlbacher, & Gavard- Perret, 2015). Therefore, tailored membership techniques (Kozinets, Valck, Wojnicki, & Wilner, 2010) aligned with positive brand-related communication (Schivinski & Dabrowski, 2015) should increase levels of brand commitment and positive associations. Brand recognition could be enhanced with adjustments on the content of the campaign to highlight other brand extensions and offers (Buil et al., 2013). Nevertheless, executives should be aware that online campaigns are often skewed towards individuals already experienced with the brand (Nelson-Field, Riebe, & Sharp, 2012). Hence, strategy should focus on a synergetic relationship between traditional and modern media types.
+
+@@p@@ The second most frequent behavioral type of consumer that emerged from the predictive analysis, was the brand fan. Rule #2 informs that this subtype of consumer is highly committed and engaged into all types of COBRAs. Executives may stimulate the brand fan pattern of engagement by applying marketing techniques focusing on achieving and maintaining high levels of brand commitment and high levels of brand familiarity (derived from brand awareness). Differently from rule #1, the brand fan subtype should be considered as an advanced consumer. Marketing techniques should build on frameworks such as the consumer-brand relationship (Gensler et al., 2013), therefore, focus is placed on existing consumer's preferences and the personalization of content. In terms of brand awareness, when consumers are highly familiar with a brand and thus have prior associations and attitudes (although consumers may not necessarily have past experiences related to it) the preexisting cognitive structure guides the interpretation and assimilation of any new content provided by the company (Ahluwalia, 2002). For instance, research evidenced that brand personification strategies in textual content are effective in eliciting higher order COBRAs (i.e., contribution and creation) (K.-J. Chen, Lin, Choi, & Hahm, 2015). Similarly, highly engaged consumers demonstrated anthropomorphic responses when interacting with brand-related social media content (K.-J. Chen et al., 2015; Zhang & Mao, 2016). Implementation of such strategy allows consumers to treat brands as humanlike social agents, thus allowing consumers to create positive emotions towards the brand.
+
+@@p@@ Rule #3 addresses the low engaged consumer subtype. This subtype characterizes mainly consumption and contribution COBRAs types with low and medium levels of behavioral engagement. The low engaged subtype portrays a consumer that highly recognizes the brand but at the same time shows average/low brand commitment and low brand associations. Executives may trigger this type of consumer if interested in the lower gamma of brand-related social media engagement. Such a scenario could include the implementation of brand-related social media campaigns for fast-moving consuming goods or into the B2B context in which the brand plays a minor role (Nunan, Sibai, Schivinski, & Christodoulides, 2018). When implementing rule #3, focus should be in the maintenance of brand recognitions (e.g., through advertising) and the benefits of the brand to support brand commitment. A challenge that executives may face when dealing with the low engaged consumer subtype is the management of marketing communication strategies that requires additional effort from the consumer in terms of high engagement. Additionally, rule #3 demonstrates a pathway to brands that suffer from lower associations, which after improved, lead to the scenario and consumer subtype previously described in rule #1.
+
+@@p@@ Rule #4 presents the brand curious subtype of consumer. Consumers that follow this pattern are highly engaged with consumption, contribution, and creation of content when brand commitment and brand recognition are low. This pattern indicates a consumer that is keen to learn more about the brand, explaining the intensity of consumption and contribution of brand-related social media content (Muntinga et al., 2011). Creation of content is trigged as a necessary mean to support the lower gamma of COBRAs. The brand curious pattern of engagement may be stimulated by marketing techniques directed to educate consumers about the brand and/or product. Considering the intensity of engagement with consumption and contribution COBRAs, executives may use interactive brand-related social media campaigns to stimulate crossmedia and multiple devices usage (e.g., smartphone, tablet, laptop). Research has evidenced that engagement using multiple devices develop brand memory and positive brand attitudes through attention and program involvement (Segijn, Voorveld, & Smit, 2017). Technological features that allow a common ground across the media and devices e.g., using #hashtags (Stathopoulou, Borel, Christodoulides, & West, 2017) could be exploited to help bridging COBRAs.
+
+@@p@@ Finally, the least prominent pattern (rule #5) identifies the prospect brand fan subtype. In this scenario, the consumer is loyal to the brand (high brand commitment) but lacks the breadth of brand familiarity. The levels of brand awareness are low and/or intermediary; hence, the consumer recognizes and is somewhat familiarized with the brand, but yet brand dominance was not reached. Niche and relatively new brands should benefit from this pattern. The high brand commitment indicates that the consumer has already perceived and adopted core brand values. The consumer may be using the brand to reflect exclusiveness and uniqueness, explaining the proneness of the prospect brand fan to engage in the creation of brand-related social media content (Tafesse, 2016). Executives may convert consumers that follow this pattern into brand fans by emphasizing communications aimed at increasing the consumer's familiarity with the brand and products (Langaro, Rita, & de Fátima Salgueiro, 2015). Once brand dominance is reached, the prospect brand fan should become a brand advocate and consequently follow the brand fan pattern of brand-related social media engagement.
+
+@@h3@@ 5.2. Limitations and future research
+
+@@p@@ Although carefully conducted, this research is not free of limitations. First, the Ctree algorithm is a machine learning approach to analyze the data, therefore, this research has an exploratory character. To challenge the findings at a confirmatory level it is recommended to further develop this research using an experimental design research approach with manipulation techniques.
+
+@@p@@ Another major limitation of the study is that consumers already followed a brand on social media. Therefore, the findings should be interpreted carefully and not generalized to the population (Nelson-Field et al., 2012). Similarly, data was collected in one single country. Further studies should replicate the analysis using samples from other cultural and economic backgrounds as distinctive behavioral patterns should emerge from different countries (Czarnecka, Brennan, & Keles, 2017), allowing for a more comprehensive understanding of the phenomenon. Additionally, this research evaluated behavioral outcomes of consumer engagement on social media without making a distinction on how such behavior differ across brands. Research has evidenced that although there is a similar overall pattern of consumer brand-related behavior on social media (Schivinski & Dabrowski, 2015, 2016), different types of behavior should be expected when contrasting high-low equity brands, industries, and business models. Therefore, the results presented in this paper should be carefully implemented and tailored according to needs.
+
+@@p@@ Future research is also necessary to understand how other brand-related constructs (e.g., image, attitude, love), or their combinations drive COBRAs. Such dimensions of branding could be combined with the emotional, cognitive, and responsive aspects of the consumer involvement with brands on social media (Brodie et al., 2013; Dessart et al., 2016; Hollebeek et al., 2014). A more complete mapping of the perceptive influence of brands on consumer's brand-related behavior on social media might be interesting for executives as they have more control over budget allocation and the possible outcomes of planned communication strategies.
+
+@@h2@@ Acknowledgements
+
+@@p@@ The author would also like to thank Professor Torsten Hothorn and Professor Achim Zeileis for their assistance in estimating the Ctree framework, Professor Kyung Hoon Kim and all the Team from GAMMA Tokyo, Chris Toronyi and Danielle Caplan for their help revising the manuscript, and specially the JBR reviewers that helped to shape the paper. Special thanks to Professor George Christodoulides for the inspiration in this project.
+
+@@h2@@ References
+
+@@ref@@ Aaker, D. A. (1991). Managing brand equity: Capitalizing on the value of a brand name. New York, New York, USA: The Free Press.
+
+@@ref@@ Ahluwalia, R. (2002). How prevalent is the negativity effect in consumer environments? Journal of Consumer Research, 29(2), 270–279. https://doi.org/10.1086/341576.
+
+@@ref@@ Ajzen, I., & Fishbein, M. (1980). Understanding attitudes and predicting social behaviour. Englewood Cliffs, NJ: Prentice Hall.
+
+@@ref@@ Ashley, C., & Tuten, T. (2015). Creative strategies in social media marketing: An exploratory study of branded social content and consumer engagement. Psychology & Marketing, 32(1), 15–27. https://doi.org/10.1002/mar.20761.
+
+@@ref@@ Atilgan, E., Akinci, S., Aksoy, S., & Kaynak, E. (2009). Customer-based brand equity for global brands: A multinational approach. Journal of Euromarketing, 18(2), 115–132. https://doi.org/10.1080/10496480903022253.
+
+@@ref@@ Bagozzi, R. P., & Yi, Y. (1988). On the evaluation of structural equation models. Journal of the Academy of Marketing Science, 16(1), 74–94. https://doi.org/10.1007/BF02723327.
+
+@@ref@@ Barger, V., Peltier, J., & Schultz, D. (2016). Social media and consumer engagement: A review and research agenda. Journal of Research in Interactive Marketing, 1–34. https://doi.org/10.1108/JRIM-06-2016-0065.
+
+@@ref@@ Brodie, R. J., Ilic, A., Juric, B., & Hollebeek, L. (2013). Consumer engagement in a virtual brand community: An exploratory analysis. Journal of Business Research, 66(8), 105–114. https://doi.org/10.1016/j.jbusres.2011.07.029.
+
+@@ref@@ Buil, I., Martínez, E., & de Chernatony, L. (2013). The influence of brand equity on consumer responses. Journal of Consumer Marketing, 30(1), 62–74. https://doi.org/10.1108/07363761311290849.
+
+@@ref@@ Chatzipanagiotou, K., Veloutsou, C., & Christodoulides, G. (2016). Decoding the complexity of the consumer-based brand equity process. Journal of Business Research. https://doi.org/10.1016/j.jbusres.2016.04.159.
+
+@@ref@@ Chen, K.-J., Lin, J.-S., Choi, J. H., & Hahm, J. M. (2015). Would you be my friend? An examination of global marketers’ brand personification strategies in social media. Journal of Interactive Advertising, 15(2), 97–110. https://doi.org/10.1080/15252019. 2015.1079508.
+
+@@ref@@ Chen, S.-C., Yen, D. C., & Hwang, M. I. (2012). Factors influencing the continuance intention to the usage of web 2.0: An empirical study. Computers in Human Behavior, 28(3), 933–941. https://doi.org/10.1016/j.chb.2011.12.014.
+
+@@ref@@ Chen, Y.-P., Nelson, L., & Hsu, M. (2015). From “where” to “what”: Distributed representations of brand associations in the human brain. Journal of Marketing Research, LII(August), 150514133929007. https://doi.org/10.1509/jmr.14.0606.
+
+@@ref@@ Christodoulides, G., Cadogan, J. W., & Veloutsou, C. (2015). Consumer-based brand equity measurement: Lessons learned from an international study. International Marketing Review, 32(3/4), 307–328. https://doi.org/10.1108/IMR-10-2013-0242.
+
+@@ref@@ Christodoulides, G., & de Chernatony, L. (2010). Consumer-based brand equity conceptualisation and measurement. International Journal of Market Research, 52(1), 43–66. https://doi.org/10.2501/S1470785310201053.
+
+@@ref@@ Czarnecka, B., Brennan, R., & Keles, S. (2017). Cultural meaning, advertising, and national culture: A four-country study. Journal of Global Marketing, 4–17. https://doi.org/10.1080/08911762.2017.1376364.
+
+@@ref@@ Datta, H., Ailawadi, K. L., & Van Heerde, H. J. (2017). How well does consumer-based brand equity align with sales-based brand equity and marketing-mix response? Journal of Marketing, 81(May), 1–20. https://doi.org/doi:https://doi.org/10.1509/jm.15.0340.
+
+@@ref@@ Dessart, L., Veloutsou, C., & Morgan-Thomas, A. (2016). Capturing consumer engagement: Duality, dimensionality and measurement. Journal of Marketing Management, 1–28. https://doi.org/10.1080/0267257X.2015.1130738.
+
+@@ref@@ Fishbein, M., & Ajzen, I. (1975). Belief, attitude, intention and behavior: An introduction to theory and research. Reading, MA: Addison-Wesley.
+
+@@ref@@ Fornell, C., & Larcker, D. (1981). Evaluating structural equation models with unobservable variables and measurement error. Journal of Marketing Research, 18(1), 39–50.
+
+@@ref@@ Foroudi, P., Jin, Z., Gupta, S., Foroudi, M. M., & Kitchen, P. J. (2018). Perceptional components of brand equity: Configuring the symmetrical and asymmetrical paths to brand loyalty and brand purchase intention. Journal of Business Research, (January), 0–1. https://doi.org/10.1016/j.jbusres.2018.01.031.
+
+@@ref@@ Gensler, S., Völckner, F., Liu-Thompkins, Y., & Wiertz, C. (2013). Managing brands in the social media environment. Journal of Interactive Marketing, 27(4), 242–256. https://doi.org/10.1016/j.intmar.2013.09.004.
+
+@@ref@@ Gómez, M., Lopez, C., & Molina, A. (2019). An integrated model of social media brand engagement. Computers in Human Behavior, 96, 196–206. https://doi.org/10.1016/j. chb.2019.01.026.
+
+@@ref@@ Gunawan, D. D., & Huarng, K.-H. (2015). Viral effects of social network and media on consumers’ purchase intention. Journal of Business Research, 68(11), 2237–2241. https://doi.org/10.1016/j.jbusres.2015.06.004.
+
+@@ref@@ Haarhoff, G., & Kleyn, N. (2012). Open source brands and their online brand personality. Journal of Brand Management, 20(2), 104–114. https://doi.org/10.1057/bm.2012.43.
+
+@@ref@@ Hair, J. F., Jr., Black, W. C., Babin, B. J., & Anderson, R. E. (2014). Multivariate data analysis (7th ed.). Harlow UK: Pearson Education Limited.
+
+@@ref@@ Harmeling, C. M., Moffett, J. W., Arnold, M. J., & Carlson, B. D. (2017). Toward a theory of customer engagement marketing. Journal of the Academy of Marketing Science, 45, 312–335. https://doi.org/10.1007/s11747-016-0509-2.
+
+@@ref@@ Hollebeek, L. D., Glynn, M. S., & Brodie, R. J. (2014). Consumer brand engagement in social media: Conceptualization, scale development and validation. Journal of Interactive Marketing, 28(2), 149–165. https://doi.org/10.1016/j.intmar.2013.12. 002.
+
+@@ref@@ Hollebeek, L. D., Srivastava, R. K., & Chen, T. (2016). S-D logic–informed customer engagement: Integrative framework, revised fundamental propositions, and application to CRM. Journal of the Academy of Marketing Science. https://doi.org/10.1007/s11747-016-0494-5.
+
+@@ref@@ Hothorn, T., Hornik, K., & Zeileis, A. (2006). Ctree: Conditional inference trees. Cran.At.R-Project.Org.
+
+@@ref@@ Hughes, C., Swaminathan, V., & Brooks, G. (2019). Driving brand engagement through online social influencers: An empirical investigation of sponsored blogging campaigns. Journal of Marketing, 1–19. https://doi.org/10.1177/0022242919854374.
+
+@@ref@@ van Doorn, J., Lemon, K. N., Mittal, V., Nass, S., Pick, D., Pirner, P., & Verhoef, P. C. (2010). Customer engagement behavior: Theoretical foundations and research directions. Journal of Service Research, 13(3), 253–266. https://doi.org/10.1177/1094670510375599.
+
+@@ref@@ Keller, K. L. (1993). Conceptualizing, measuring, and managing customer-based brand equity. Journal of Marketing, 57(January), 1–22. https://doi.org/10.2307/1252054.
+
+@@ref@@ Kline, R. B. (2011). Principles and practice of structural equation modeling (Third edit). New York, USA: The Guilford Press.
+
+@@ref@@ Kozinets, R. V., Valck, K. D., Wojnicki, A. C., & Wilner, S. J. S. (2010). Networked narratives: Understanding word-of-mouth marketing in online communities. Journal of Marketing, 74(March), 71–89.
+
+@@ref@@ Kumar, V., & Pansari, A. (2016). Competitive advantage through engagement. Journal of Marketing Research, 53(4), 497–514. https://doi.org/10.1509/jmr.15.0044.
+
+@@ref@@ Lamberton, C., & Stephen, A. T. (2016). A thematic exploration of digital, social media, and Mobile marketing: Research evolution from 2000 to 2015 and an agenda for future inquiry. Journal of Marketing, 80(6), 146–172. https://doi.org/10.1509/jm.15. 0415.
+
+@@ref@@ Langaro, D., Rita, P., & de Fátima Salgueiro, M. (2015). Do social networking sites contribute for building brands? Evaluating the impact of users’ participation on brand awareness and brand attitude. Journal of Marketing Communications, 7266(July 2015), 1–23. https://doi.org/10.1080/13527266.2015.1036100.
+
+@@ref@@ Lavidge, R. J., & Steiner, G. A. (1961). A model for predictive measurements of advertising effectiveness. Journal of Marketing, 25(6), 59–62. https://doi.org/10.2307/1248516.
+
+@@ref@@ Leckie, C., Nyadzayo, M. W., & Johnson, L. W. (2016). Antecedents of consumer brand engagement and brand loyalty. Journal of Marketing Management, 32(5–6), 558–578. https://doi.org/10.1080/0267257X.2015.1131735.
+
+@@ref@@ Lovett, M. J., Peres, R., & Shachar, R. (2013). On brands and word of mouth. Journal of Marketing Research, 50(4), 427–444. https://doi.org/10.1509/jmr.11.0458.
+
+@@ref@@ Malthouse, E. C., Calder, B. J., Kim, S. J., & Vandenbosch, M. (2016). Evidence that usergenerated content that produces engagement increases purchase behaviours. Journal of Marketing Management, 32(5–6), 427–444. https://doi.org/10.1080/0267257X. 2016.1148066.
+
+@@ref@@ Muntinga, D. G., Moorman, M., & Smit, E. G. (2011). Introducing COBRAs: Exploring motivations for brand-related social media use. International Journal of Advertising, 30(1), 13–46.
+
+@@ref@@ Nelson-Field, K., Riebe, E., & Sharp, B. (2012). What’s not to “like?” can a Facebook fan base give a brand the advertising reach it needs? Journal of Advertising Research, 52(2), 262–269. https://doi.org/10.2501/JAR-52-2-262-269.
+
+@@ref@@ Nunan, D., Sibai, O., Schivinski, B., & Christodoulides, G. (2018). Reflections on “social media: Influencing customer satisfaction in B2B sales” and a research agenda. Industrial Marketing Management, March. https://doi.org/10.1016/j.indmarman. 2018.03.009.
+
+@@ref@@ Oliver, R. (1997). Satisfaction: A behavioral perspective on the consumer. New York, New York, USA: McGraw-Hill.
+
+@@ref@@ Pagani, M., & Malacarne, G. (2017). Experiential engagement and active vs. passive behavior in Mobile location-based social networks: The moderating role of privacy. Journal of Interactive Marketing, 37, 133–148. https://doi.org/10.1016/j.intmar.2016. 10.001.
+
+@@ref@@ Pansari, A., & Kumar, V. (2017). Customer engagement: The construct, antecedents, and consequences. Journal of the Academy of Marketing Science, 45(3), 294–311. https://doi.org/10.1007/s11747-016-0485-6.
+
+@@ref@@ Pappu, R., Quester, P. G., & Cooksey, R. W. (2005). Consumer-based brand equity: Improving the measurement – Empirical evidence. Journal of Product & Brand Management, 14(3), 143–154. https://doi.org/10.1108/10610420510601012.
+
+@@ref@@ Podsakoff, P. M., MacKenzie, S. B., Lee, J.-Y., & Podsakoff, N. P. (2003). Common method biases in behavioral research: A critical review of the literature and recommended remedies. Journal of Applied Psychology, 88(5), 879–903.
+
+@@ref@@ Raïes, K., Mühlbacher, H., & Gavard-Perret, M.-L. (2015). Consumption community commitment: Newbies’ and longstanding members’ brand engagement and loyalty. Journal of Business Research, 68, 2634–2644. https://doi.org/10.1016/j.jbusres.2015. 04.007.
+
+@@ref@@ Rehbein, F., Kliem, S., Baier, D., Mößle, T., & Petry, N. M. (2015). Prevalence of internet gaming disorder in German adolescents: Diagnostic contribution of the nine DSM-5 criteria in a state-wide representative sample. Addiction, 110(5), 842–851. https://doi.org/10.1111/add.12849.
+
+@@ref@@ Revelle, W. (2015). Package “psych” - procedures for psychological, psychometric and personality research. R Package1–358. Retrieved from http://personality-project.org/r/psych-manual.pdf.
+
+@@ref@@ Rho, M. J., Jeong, J., Chun, J., Cho, H., Jung, D. J., Choi, I. Y., & Kim, D.-J. (2016). Predictors and patterns of problematic Internet game use using a decision tree model. Journal of Behavioral Addictions, 5(3), 1–10. https://doi.org/10.1556/2006.5.2016. 051.
+
+@@ref@@ Rosseel, Y. (2012). lavaan: An R package for structural equation modeling. Journal of Statistical Software, 48(2), 1–36. https://doi.org/10.18637/jss.v048.i02.
+
+@@ref@@ Schivinski, B., Christodoulides, G., & Dabrowski, D. (2016). Measuring consumers’ engagement with brand-related social-media content: Development and validation of a scale that identifies levels of social-media engagement with brands. Journal of Advertising Research, 56(1), 64–80. https://doi.org/10.2501/JAR-2016-004.
+
+@@ref@@ Schivinski, B., & Dabrowski, D. (2015). The impact of brand communication on brand equity through Facebook. Journal of Research in Interactive Marketing, 9(1), 31–53. https://doi.org/10.1108/JRIM-02-2014-0007.
+
+@@ref@@ Schivinski, B., & Dabrowski, D. (2016). The effect of social media communication on consumer perceptions of brands. Journal of Marketing Communications, 22(2), 189–214. https://doi.org/10.1080/13527266.2013.871323.
+
+@@ref@@ Segijn, C. M., Voorveld, H. A. M., & Smit, E. G. (2017). How related multiscreening could positively affect advertising outcomes. Journal of Advertising, 0(0), 1–18. https://doi. org/10.1080/00913367.2017.1372233.
+
+@@ref@@ Solem, B. A. A., & Pedersen, P. E. (2016). The effects of regulatory fit on customer brand engagement: An experimental study of service brand activities in social media. Journal of Marketing Management, 32(5–6), 445–468. https://doi.org/10.1080/0267257X.2016.1145723.
+
+@@ref@@ Stathopoulou, A., Borel, L., Christodoulides, G., & West, D. (2017). Consumer branded #hashtag engagement: Can creativity in TV advertising influence hashtag engagement? Psychology & Marketing, 34(4), 448–462. https://doi.org/10.1002/mar.
+
+@@ref@@ Tafesse, W. (2016). An experiential model of consumer engagement in social media. Journal of Product & Brand Management, 25(5), 424–434. https://doi.org/10.1108/JPBM-05-2015-0879.
+
+@@ref@@ Tsiotsou, R. (2006). The role of perceived product quality and overall satisfaction on purchase intentions. International Journal of Consumer Studies, 30(2), 207–217. https://doi.org/10.1111/j.1470-6431.2005.00477.x.
+
+@@ref@@ Wallace, E., Buil, I., & de Chernatony, L. (2014). Consumer engagement with self-expressive brands: Brand love and WOM outcomes. Journal of Product & Brand Management, 23(1), 33–42. https://doi.org/10.1108/JPBM-06-2013-0326.
+
+@@ref@@ Yoo, B., & Donthu, N. (2001). Developing and validating a multidimensional consumerbased brand equity scale. Journal of Business Research, 52(1), 1–14. https://doi.org/10.1016/S0148-2963(99)00098-3.
+
+@@ref@@ Zeileis, A., & Hothorn, T. (2014). partykit: A toolkit for recursive partytioning. Journal of Machine Learning Research, 16(Hothorn), 3905–3909. Retrieved from http://jmlr.org/papers/v16/hothorn15a.html.
+
+@@ref@@ Zeithaml, V. A. (1988). Consumer perceptions of Price, quality, and value: A means-end model and synthesis of evidence. Journal of Marketing, 52(July), 2–22.
+
+@@ref@@ Zhang, J., & Mao, E. (2016). From online motivations to Ad Clicks and to behavioral intentions: An empirical study of consumer response to social media advertising. Psychology & Marketing, 33(3), 155–164. https://doi.org/10.1002/mar.
+
+@@about@@ Bruno Schivinski, Ph.D., FHEA is a sociologist and senior lecturer in Advertising at RMIT University, Australia. He consults for online service providers, websites, and scientific institutions such as the Polish Ministry of Science and Higher Education (MNiSW) and the National Science Centre (NCN) in Poland. Dr. Schivinski is associate editor for SAGE Open and the Journal of Management and Business Administration–Central Europe. Dr. Schivinski specializes in quantitative research methods with focus on multivariate data analysis and generalization methods. His latest work can be found in the Journal of Advertising Research, Industrial Marketing Management, Journal of Strategic Marketing, Event Management, and Addictive Behaviors Reports. His personal website: https:// brunoschivinski.wordpress.com/.

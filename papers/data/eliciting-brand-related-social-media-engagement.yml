@@ -1,0 +1,289 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Business Research 130, 594-602 (PDF supplied by Bruno, 26 Oct 2026)
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Eliciting brand-related social media engagement: A conditional inference tree framework"
+doi: "10.1016/j.jbusres.2019.08.045"
+journal: "Journal of Business Research"
+issn: "0148-2963"
+publisher: "Elsevier"
+volume: "130"
+pages: "594–602"
+published: "2021-06"
+published_label: "2021 (online September 2019)"
+online: "2019-09-05"
+open_access: false
+
+aam:
+  file: "schivinski-2021-jbr-accepted-manuscript.pdf"
+  note: "Free full text: the author's accepted manuscript, identical in content to the published article and shared under CC BY-NC-ND 4.0. Please cite the published version."
+  statement: >-
+    © 2019. This manuscript version is made available under the CC-BY-NC-ND 4.0 license
+    https://creativecommons.org/licenses/by-nc-nd/4.0/. The published version is available at
+    https://doi.org/10.1016/j.jbusres.2019.08.045
+
+authors:
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+
+cite_short: "Schivinski, 2021"
+badges: ["1,356 social media users", "282 brands", "Machine learning (conditional inference tree)", "Poland"]
+keywords:
+  # Article's own keywords
+  - CBBE
+  - COBRAs
+  - social media
+  - machine learning
+  - typology
+  - consumer brand engagement
+  # What the study is about
+  - brand-related social media engagement
+  - behavioural engagement
+  - consumers' online brand-related activities
+  - content consumption, contribution and creation
+  - user-generated content
+  - brand commitment
+  - brand loyalty
+  - brand awareness
+  - brand recognition
+  - brand familiarity
+  - brand associations
+  - consumer segmentation
+  - consumer typology
+  - brand fans
+  # Theory and measures
+  - consumer-based brand equity
+  - Aaker brand equity model
+  - hierarchy of effects
+  - theory of reasoned action
+  - CEBSC scale
+  # Context
+  - Poland
+  - social media users
+  # Method
+  - conditional inference tree (Ctree)
+  - decision tree
+  - recursive partitioning
+  - partykit
+  - predictive modelling
+  - confirmatory factor analysis
+  - survey research
+  # Application
+  - social media strategy
+  - brand management
+  - customer engagement marketing
+  - audience segmentation
+
+in_brief: >-
+  Four things consumers think about a brand, how committed they are to it, whether they recognise it, how familiar it is
+  and whether its associations are favourable, sort social media users into five engagement patterns. A machine learning
+  tree on 1,356 users following 282 brands in Poland showed that brand commitment is the first dividing line.
+
+findings:
+  - headline: "Four brand equity items predict who engages with brand content."
+    text: >-
+      In a survey of 1,356 social media users in Poland, each rating a brand they followed (282 brands), a conditional
+      inference tree selected four of twelve brand equity items as predictors of consuming, contributing to and creating
+      brand-related social media content: brand commitment, brand recognition, brand familiarity and favourable brand
+      associations (Schivinski, 2021).
+  - headline: "Brand commitment is the first split."
+    text: >-
+      The tree first divided consumers at a score of 4 on a 1&ndash;7 agreement scale for &ldquo;I am committed to this
+      brand&rdquo; (<i>p</i> &lt; .001); committed consumers were then split by brand familiarity and less committed ones
+      by brand recognition and favourable associations (Schivinski, 2021).
+  - headline: "Most consumers are brand passionates."
+    text: >-
+      The largest group, the brand passionate (rule 1, <i>n</i> = 625), combined average or low commitment (&le; 4),
+      high brand recognition (&gt; 4) and favourable associations above 3; most of them consumed (87.15%) and contributed
+      to (82.44%) brand content at a medium level, while 54.13% created little content (Schivinski, 2021).
+  - headline: "Brand fans are the most active creators."
+    text: >-
+      Brand fans (rule 2, <i>n</i> = 558), with high commitment and high familiarity (both &gt; 4), had the largest shares
+      of high engagement: 21.17% contributed and 17.96% created brand content at a high level (Schivinski, 2021).
+  - headline: "Weak associations hold engagement down."
+    text: >-
+      Low engaged consumers (rule 3, <i>n</i> = 108) recognised the brand (&gt; 4) but rated its associations as
+      unfavourable (&le; 3); 65.9% created little or no brand content and 42.59% contributed at a low level
+      (Schivinski, 2021).
+  - headline: "Loyal consumers who know the brand less well create more."
+    text: >-
+      Prospect brand fans (rule 5, <i>n</i> = 24) were committed to the brand (&gt; 4) but less familiar with it
+      (&le; 4); 34% of them created brand content at a high level (Schivinski, 2021).
+
+glance:
+  - { label: "Design", value: "Cross-sectional online survey (Qualtrics); confirmatory factor analysis (lavaan, robust maximum likelihood) and a conditional inference tree (partykit) in R" }
+  - { label: "Participants", value: "1,593 social media users recruited through brand pages in Poland; 1,356 analysed after removing incomplete cases and outliers (56.7% women; mean age 29, SD 8.5, range 18&ndash;52; 97.78% used smartphones for social media)" }
+  - { label: "Brands", value: "282 brands across industries, including beverages, cars, clothing, fashion and beauty, retail, hospitality and sporting goods; each respondent rated a brand they follow on social media" }
+  - { label: "Measures", value: "Consumer-based brand equity: brand awareness, brand associations, perceived quality and brand loyalty (12 items; Christodoulides et al., 2015; 1&ndash;7 agreement). Consumption, contribution and creation of brand-related social media content (17 items, CEBSC scale; Schivinski et al., 2016; 1&ndash;7 frequency), split into low, medium and high at the upper and lower deciles" }
+  - { label: "Model", value: "Conditional inference tree with 95% confidence, minimum split of 70 cases, controlling for age, gender, social media usage and brands; five terminal nodes (rules)" }
+  - { label: "Model fit", value: "CFA: MLR &chi;&sup2;(356) = 1343.12, CFI = 0.92, TLI = 0.91, RMSEA = 0.06 [90% CI 0.06&ndash;0.07], SRMR = 0.06; &alpha; and CR 0.81&ndash;0.92; AVE 0.59&ndash;0.75" }
+
+results:
+  title: "Share of consumers in each engagement pattern"
+  unit: "%"
+  max: 50
+  note: "Size of the five terminal nodes of the conditional inference tree as a share of the 1,356 participants (Table 2 of the article)."
+  groups:
+    - name: ""
+      bars:
+        - { label: "Brand passionate (rule 1)", value: 46.1, highlight: true }
+        - { label: "Brand fan (rule 2)", value: 41.2 }
+        - { label: "Low engaged (rule 3)", value: 8.0 }
+        - { label: "Brand curious (rule 4)", value: 3.0 }
+        - { label: "Prospect brand fan (rule 5)", value: 1.8 }
+
+figures:
+  - file: figures/schivinski-2021-ctree.svg
+    title: "Figure 1. Conditional inference tree predicting brand-related social media engagement"
+    caption: >-
+      Each split uses one brand equity item on a 1&ndash;7 agreement scale (&gt; 4 means endorsing the item at 5 or
+      above). Terminal nodes show the share of consumers with low, medium and high consumption, contribution and creation
+      of brand-related social media content. Minimum split = 70; controls: age, gender, social media usage and brands.
+
+question: >-
+  Brands want people to read, share and create content about them on social media, and research had mapped what
+  engagement is and which personal motives drive it. Less was known about how a consumer's view of the brand itself turns
+  into engagement. I asked which levels of brand equity, item by item, lead consumers to consume, contribute to and create
+  brand-related content, and whether those patterns describe recognisable types of consumers.
+
+implications:
+  practical: >-
+    The five patterns give social media managers a way to plan engagement by what consumers think of the brand. For
+    brand passionates, the largest group, managers can build commitment through a shared sense of community on the brand
+    page and keep recognition high by featuring brand extensions and offers. Brand fans respond to personalised content
+    and humanised brand communication. For low engaged consumers, typical of fast-moving goods and business-to-business
+    markets, the first task is to improve brand associations. Brand curious consumers want to learn, so educational and
+    cross-device campaigns suit them, and prospect brand fans, often found among niche and newer brands, can be turned
+    into fans by widening their familiarity with the product range.
+  theoretical: >-
+    The study contributes to the behavioural view of consumer brand engagement by showing how specific levels of brand
+    equity translate into consuming, contributing and creating brand content, in line with the hierarchy-of-effects
+    model. Instead of estimating average effects across variables, the conditional inference tree isolates thresholds in
+    individual items and the combinations that lead to each level of engagement, and from those combinations it derives a
+    typology of five consumer subtypes. Brand commitment, from the loyalty dimension, emerged as the most important item.
+
+limitations:
+  - "The conditional inference tree is exploratory; experiments that manipulate brand equity are needed to confirm the patterns."
+  - "All respondents already followed the brand on social media, and data came from one country, so the patterns should not be generalised to all consumers or cultures."
+  - "Differences between brands, industries and high- and low-equity brands were not examined; other brand constructs, such as brand image, attitude or love, could also drive COBRAs."
+
+faq:
+  - q: "Which brand perceptions make people engage with brands on social media?"
+    a: >-
+      In a machine learning analysis of 1,356 social media users in Poland, four brand equity items predicted engagement:
+      brand commitment, brand recognition, brand familiarity and favourable brand associations, with commitment as the
+      first and most important split (Schivinski, 2021).
+  - q: "What are the five types of brand followers on social media?"
+    a: >-
+      Brand passionates (46% of the sample), brand fans (41%), low engaged consumers (8%), brand curious consumers (3%) and
+      prospect brand fans (2%), each defined by a combination of commitment, recognition, familiarity and associations
+      (Schivinski, 2021).
+  - q: "Who creates the most content about brands on social media?"
+    a: >-
+      Committed consumers. Among brand fans, highly committed and highly familiar with the brand, 17.96% created brand
+      content at a high level, and among prospect brand fans, committed but less familiar with the brand, 34% did
+      (Schivinski, 2021).
+  - q: "Why do some followers barely engage with a brand they know?"
+    a: >-
+      In this study, consumers who recognised the brand but rated its associations as unfavourable (3 or lower on a 1&ndash;7
+      scale) formed the low engaged group; 65.9% of them created little or no brand content (Schivinski, 2021).
+
+concepts:
+  - term: "Conditional inference tree (Ctree)"
+    definition: "A machine learning method that splits a sample step by step on the predictor most strongly associated with the outcome, using permutation tests to avoid selection bias; its results read as if&ndash;then rules (Hothorn, Hornik &amp; Zeileis, 2006)."
+  - term: "Consumers' online brand-related activities (COBRAs)"
+    definition: "Brand-related activities on social media, from passive to active: consuming, contributing to and creating brand-related content (Muntinga, Moorman &amp; Smit, 2011; Schivinski et al., 2016)."
+  - term: "Consumer-based brand equity (CBBE)"
+    definition: "The perceptions, attitudes, knowledge and behaviour that let a brand earn more volume or margin than it could without its name; measured here through brand awareness, associations, perceived quality and loyalty (Aaker, 1991)."
+  - term: "Brand commitment"
+    definition: "An item of the brand loyalty dimension (&ldquo;I am committed to this brand&rdquo;) and the first split in the tree."
+  - term: "Brand recognition and brand familiarity"
+    definition: "Two items of brand awareness: being able to pick the brand out among others, and knowing the brand well."
+  - term: "Rule"
+    definition: "A path from the top of the tree to a terminal node: the combination of item thresholds that defines one consumer subtype."
+
+materials:
+  - label: "Screening question"
+    text: "Respondents confirmed they had used social media in the past six months and named a brand they follow on social media; that brand was used throughout the survey."
+  - label: "Scale items"
+    text: "All 29 items with loadings and descriptive statistics are in Table A1 below."
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Free full text, including all tables and the tree, under CC BY-NC-ND 4.0", url: "manuscripts/schivinski-2021-jbr-accepted-manuscript.pdf" }
+  - { label: "Published version", note: "Journal of Business Research (subscription)", url: "https://doi.org/10.1016/j.jbusres.2019.08.045" }
+  - { label: "COBRA scale (CEBSC)", note: "The engagement measure used here, with a ready-to-use questionnaire, on its own page", url: "measuring-consumer-engagement-social-media-content.html" }
+
+tables:
+  - id: "2"
+    title: "The five patterns (rules) and subtypes of consumers, contributors and creators of brand-related social media content"
+    columns: ["Rule", "Pattern", "Consumption", "Contribution", "Creation", "Subtype"]
+    align: ["left", "left", "left", "left", "left", "left"]
+    rows:
+      - ["1 (<i>n</i> = 625, node 6)", "Brand commitment average/low (&le; 4); brand recognition high (&gt; 4); favourable associations average/high (&gt; 3)", "Medium 87.15%; low 11.60%; high 1.25%", "Medium 82.44%; low 15%; high 2.56%", "Low 54.13%; medium 43.33%; high 2.54%", "<b>Brand passionate.</b> Moderately consumes and contributes; occasionally creates content"]
+      - ["2 (<i>n</i> = 558, node 9)", "Brand commitment high (&gt; 4); brand familiarity high (&gt; 4)", "Medium 83.46%; high 11.10%; low 5.44%", "Medium 73.22%; high 21.17%; low 5.54%", "Medium 53.52%; low 28.52%; high 17.96%", "<b>Brand fan.</b> Highly committed and proactive towards COBRAs"]
+      - ["3 (<i>n</i> = 108, node 5)", "Brand commitment average/low (&le; 4); brand recognition high (&gt; 4); favourable associations low (&le; 3)", "Medium 71.02%; low 27.98%; high 1%", "Medium 56.11%; low 42.59%; high 1.3%", "Low 65.9%; medium 34.09%", "<b>Low engaged.</b> Knows the brand; mainly low and medium engagement"]
+      - ["4 (<i>n</i> = 41, node 3)", "Brand commitment average/low (&le; 4); brand recognition average/low (&le; 4)", "Medium 91.67%; low 8.33%", "Medium 93.34%; low 6.66%", "Split: low 33.32%; medium 33.33%; high 33.34%", "<b>Brand curious.</b> Engaged with all three COBRAs while commitment and recognition are low"]
+      - ["5 (<i>n</i> = 24, node 8)", "Brand commitment high (&gt; 4); brand familiarity average/low (&le; 4)", "Medium 82.44%; low 17.56%", "Medium 66.66%; low 16.9%; high 16.44%", "Low 50%; high 34%; medium 16%", "<b>Prospect brand fan.</b> Loyal but lacks breadth of familiarity; prone to higher COBRAs"]
+    note: "Scales ranged from 1 to 7 for both CBBE and COBRAs. Low, medium and high engagement were set at the upper and lower deciles (Schivinski et al., 2016)."
+  - id: "1"
+    title: "Construct reliability and validity"
+    collapsed: true
+    columns: ["Construct", "&alpha;", "CR", "AVE", "1", "2", "3", "4", "5", "6", "7"]
+    rows:
+      - ["1. Consumption", "0.88", "0.88", "0.60", "<i>0.77</i>", "", "", "", "", "", ""]
+      - ["2. Contribution", "0.91", "0.90", "0.62", "0.61***", "<i>0.79</i>", "", "", "", "", ""]
+      - ["3. Creation", "0.92", "0.92", "0.65", "0.48***", "0.70***", "<i>0.81</i>", "", "", "", ""]
+      - ["4. Brand awareness", "0.81", "0.81", "0.59", "0.04 ns", "&minus;0.03 ns", "&minus;0.16***", "<i>0.77</i>", "", "", ""]
+      - ["5. Brand associations", "0.90", "0.90", "0.75", "0.38***", "0.26***", "0.16***", "0.32***", "<i>0.87</i>", "", ""]
+      - ["6. Perceived quality", "0.83", "0.82", "0.60", "0.22***", "0.20***", "0.16***", "0.33***", "0.75***", "<i>0.77</i>", ""]
+      - ["7. Brand loyalty", "0.89", "0.89", "0.73", "0.37***", "0.38***", "0.32***", "0.17***", "0.61***", "0.66***", "<i>0.85</i>"]
+    note: "&alpha; = Cronbach&rsquo;s alpha; CR = composite reliability; AVE = average variance extracted. The square roots of the AVE values are in italics. *** <i>p</i> &lt; 0.001; ns = not significant."
+  - id: "A1"
+    title: "Scale items: factor loadings, explained variance and descriptive statistics"
+    collapsed: true
+    columns: ["Item", "&lambda;", "<i>R</i>&sup2;", "<i>t</i>", "Mean", "SD", "Skewness", "Kurtosis"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["COBRAs framework (Schivinski et al., 2016)", "", "", "", "", "", "", ""] }
+      - ["[CONS1] I read posts related to Brand X on social media.", "0.86", "0.72", "37.25", "3.52", "2.02", "0.16", "−1.23"]
+      - ["[CONS2] I read fan page(s) related to Brand X on social networking sites.", "0.86", "0.73", "36.66", "3.54", "2.11", "0.24", "−1.33"]
+      - ["[CONS3] I watch pictures/graphics related to Brand X.", "0.69", "0.48", "22.44", "3.93", "2.05", "−0.11", "−1.28"]
+      - ["[CONS4] I follow blogs related to Brand X.", "0.58", "0.36", "17.13", "2.33", "1.69", "1.13", "0.42"]
+      - ["[CONS5] I follow Brand X on social networking sites.", "0.86", "0.77", "37.56", "3.38", "2.01", "0.34", "−1.12"]
+      - ["[CONT1] I comment on videos related to Brand X.", "0.81", "0.66", "16.91", "1.87", "1.45", "1.87", "2.88"]
+      - ["[CONT2] I comment on posts related to Brand X.", "0.86", "0.75", "21.22", "2.03", "1.54", "1.53", "1.86"]
+      - ["[CONT3] I comment on pictures/graphics related to Brand X.", "0.86", "0.73", "18.73", "1.89", "1.49", "1.83", "2.99"]
+      - ["[CONT4] I share Brand X related posts.", "0.82", "0.72", "21.98", "2.09", "1.51", "1.87", "1.45"]
+      - ["[CONT5] I ‘Like’ pictures/graphics related to Brand X.", "0.67", "0.42", "22.79", "3.06", "2.01", "0.56", "−1.11"]
+      - ["[CONT6] I ‘Like’ posts related to Brand X.", "0.68", "0.47", "24.25", "2.66", "2.02", "0.68", "−0.92"]
+      - ["[CREA1] I initiate posts related to Brand X on blogs.", "0.70", "0.48", "13.10", "1.74", "1.31", "2.11", "3.72"]
+      - ["[CREA2] I initiate posts related to Brand X on social networking sites.", "0.79", "0.63", "15.98", "1.79", "1.47", "2.13", "3.41"]
+      - ["[CREA3] I post pictures/graphics related to Brand X.", "0.88", "0.77", "19.91", "1.83", "1.38", "1.86", "2.95"]
+      - ["[CREA4] I post videos that show Brand X.", "0.83", "0.68", "16.54", "1.72", "1.36", "1.89", "2.83"]
+      - ["[CREA5] I write posts related to Brand X on forums.", "0.86", "0.76", "19.18", "1.81", "1.41", "1.99", "2.85"]
+      - ["[CREA6] I write reviews related to Brand X.", "0.79", "0.61", "14.57", "1.69", "1.33", "2.11", "3.81"]
+      - { group: true, cells: ["CBBE framework (Christodoulides et al., 2015)", "", "", "", "", "", "", ""] }
+      - ["[BAW1] I have heard of this brand.", "0.69", "0.48", "9.72", "6.70", "1.01", "−2.54", "7.82"]
+      - ["[BAW2] I am quite familiar with this brand.", "0.78", "0.60", "11.84", "6.62", "0.95", "−2.21", "7.33"]
+      - ["[BAW3] I can recognize this brand among other brands.", "0.83", "0.71", "10.11", "6.71", "0.72", "−2.78", "6.45"]
+      - ["[BAS1] This brand has strong associations.", "0.89", "0.79", "22.92", "6.01", "1.22", "−1.45", "1.73"]
+      - ["[BAS2] This brand has favorable associations.", "0.83", "0.70", "22.01", "6.05", "1.45", "−1.23", "0.91"]
+      - ["[BAS3] It is clear what this brand stands for.", "0.88", "0.77", "25.87", "5.72", "1.55", "−1.11", "0.65"]
+      - ["[PQ1] This brand is good quality.", "0.75", "0.58", "20.45", "5.56", "1.59", "−0.99", "0.45"]
+      - ["[PQ2] This brand has excellent features.", "0.78", "0.61", "23.04", "5.17", "1.71", "−0.82", "−0.23"]
+      - ["[PQ3] Compared to other brands in its category, this brand is of very high quality.", "0.81", "0.65", "18.98", "5.88", "1.55", "−1.23", "0.61"]
+      - ["[BL1] I feel loyal to this brand.", "0.90", "0.83", "35.34", "4.58", "1.91", "−0.42", "−0.91"]
+      - ["[BL2] This brand is my first choice.", "0.89", "0.82", "33.69", "4.57", "1.93", "−0.44", "−1.02"]
+      - ["[BL3] I am committed to this brand.", "0.77", "0.59", "26.66", "4.25", "2.06", "−0.04", "−1.21"]
+    note: "&lambda; = completely standardised loading; <i>R</i>&sup2; = explained variance of the item. Scales ranged from 1 to 7 for both CBBE and COBRAs. CONS = consumption, CONT = contribution, CREA = creation; BAW = brand awareness, BAS = brand associations, PQ = perceived quality, BL = brand loyalty."
+
+related:
+  - "10.2501/jar-2016-004"
+  - "10.1080/0965254x.2019.1572641"
+  - "10.1108/jrim-02-2014-0007"
+  - "10.1080/13527266.2013.871323"
+  - "10.1016/j.indmarman.2018.03.009"

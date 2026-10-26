@@ -28,3 +28,4 @@
 | Psychopathological symptoms and gaming motives in disordered gaming—A  | montag-schivinski-et-al-2019-jcm-gaming-motives.pdf (open access) | full text public | — |
 | Measuring consumers’ engagement with brand-related social-media conten | schivinski-christodoulides-dabrowski-2016-jar-accepted-manuscript.pdf (accepted manuscript) | full text public | — |
 | The effect of social media communication on consumer perceptions of br | schivinski-dabrowski-2016-jmc-accepted-manuscript.pdf (accepted manuscript) | full text public | — |
+| Eliciting brand-related social media engagement: A conditional infer | schivinski-2021-jbr-accepted-manuscript.pdf (accepted manuscript) | not checked (ResearchGate blocks automated access) | Bruno to check; upload the AAM if the full text is not public |
