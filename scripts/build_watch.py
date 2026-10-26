@@ -93,7 +93,7 @@ def card(d: dict, prefix: str) -> str:
     """One issue as a list card; prefix is the path from the page to watch/ (e.g. '../')."""
     href = f"{prefix}posts/{d['slug']}/index.html"
     return (f'<article class="watch-item"><a class="watch-thumb" href="{href}" tabindex="-1" aria-hidden="true">'
-            f'<img src="{thumb_src(d, prefix)}" alt="" loading="lazy" decoding="async" width="640" height="336"></a>'
+            f'<img src="{thumb_src(d, prefix)}" alt="{esc(d["image"].get("alt", ""))}" loading="lazy" decoding="async" width="640" height="336"></a>'
             f'<div><p class="watch-meta">Issue {d["issue"]} · Week of <time datetime="{d["week_of"]}">'
             f'{long_date(d["week_of"])}</time></p><h3><a href="{href}">{esc(d["short_title"])}</a></h3>'
             f'<p>{esc(plain(d["description"]))}</p></div></article>')
