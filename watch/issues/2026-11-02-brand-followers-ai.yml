@@ -1,0 +1,208 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+# Bruno's own paper (JBR 2021). Template twist agreed 26 Oct 2026: a personal, reflective section on what the
+# findings mean in the age of AI; the steps follow the paths of the published tree.
+issue: 43
+week_of: "2026-11-02"            # the week this issue covers (shown on the page, orders the archive)
+slug: brand-followers-ai
+status: draft                    # set to live by the Monday 2 November run
+
+title: "Which brand followers actually join in, and does it still hold in the age of AI? A Journal of Business Research study of 1,356 social media users"
+dek: >-
+  A look back at my own machine learning study of people who follow brands online. Four things they believe about a brand
+  sort them into five very different kinds of follower, and the logic has aged better than the platforms.
+short_title: "Five kinds of brand follower, and why AI hasn't changed them"
+
+description: >-
+  Schivinski's machine learning study of 1,356 brand followers found five engagement patterns driven by commitment, and
+  they still matter in the age of AI.
+
+keywords: [brand engagement, social media engagement, brand followers, brand commitment, brand equity, COBRAs,
+  user-generated content, consumer segmentation, machine learning, decision tree, generative AI, Journal of Business Research]
+topics: [Social media, UGC, AI]
+
+image:
+  file: issue-43-brand-followers.jpg
+  og: issue-43-brand-followers-og.jpg
+  alt: "Four friends around a café table laughing as they look together at a photo on a smartphone, white coffee cups in front of them"
+  caption: "The feed changes. Why people lean in to look at a brand's post together has not. Photo: Vitaly Gariev on Unsplash."
+
+short_answer: >-
+  The followers who join in are the committed ones. In my survey of 1,356 people who follow brands on social media, a
+  decision tree found that four beliefs about a brand decide how much people read, share and post about it, and commitment
+  to the brand comes first. That produced five kinds of follower, from casual fans who mostly watch to committed fans who
+  create. Feeds are now ranked and partly written by AI, but those four beliefs are still what moves a person to act.
+
+takeaways:
+  - "Commitment splits followers first, and every later step depends on which side of that line someone sits."
+  - "Nearly half of followers are brand passionates: they know the brand and think well of it, watch and react, but rarely create."
+  - "The most active creators were committed followers, including a small group who love the brand but do not yet know its full range."
+  - "Followers who know the brand but rate its associations poorly stay quiet, which makes associations the lever to fix first."
+
+paper:
+  doi: "10.1016/j.jbusres.2019.08.045"
+  title: "Eliciting brand-related social media engagement: A conditional inference tree framework"
+  authors: ["Schivinski, B."]
+  authors_full: ["Bruno Schivinski"]
+  year: 2021
+  journal: "Journal of Business Research"
+  volume: "130"
+  pages: "594-602"
+  online: "2019-09-05"
+  open_access: false
+  licence: ""
+  researchers:   # as printed in the paper
+    - name: "Bruno Schivinski"
+      affiliation: "School of Media and Communication, RMIT University, Australia"
+      orcid: "0000-0002-4095-1922"
+
+sections:
+  - h: "What I did"
+    body: |
+      A note before we start: this issue covers my own paper. I'm Bruno Schivinski, and I ran the study while at RMIT
+      University's School of Media and Communication in Melbourne. With AI now part of almost every marketing conversation, it felt like the
+      right paper to revisit, so this time the series looks back as well as forward.
+
+      The question was simple. Brands want followers to read, comment, share and post about them. Most research at the time
+      looked at people's motives. I wanted to know how what people think of a brand turns into what they do with it on social
+      media, and whether those beliefs sort followers into recognisable types.
+
+      Brand pages in Poland shared my survey with their followers. Each person named a brand they follow and answered questions
+      about it: how well they know it, what they associate with it, how good they think it is and how loyal they are. They also
+      said how often they consume, contribute to and create content about it. Instead of averaging effects across everyone, I
+      used a machine learning method, a conditional inference tree, which keeps splitting people on the belief that best
+      separates them and ends with rules a manager can read.
+    facts:
+      - ["Sample", "1,356 social media users who follow a brand, 56.7% women, average age 29"]
+      - ["Brands", "282 brands, from drinks and cars to fashion, beauty, retail and hospitality"]
+      - ["Beliefs measured", "12 brand equity items: awareness, associations, perceived quality and loyalty, on 1 to 7 scales"]
+      - ["Behaviour measured", "17 items on consuming, contributing to and creating brand content, split into low, medium and high"]
+      - ["Method", "Conditional inference tree, controlling for age, gender, social media use and brand"]
+
+  - h: "Commitment comes first"
+    body: |
+      Out of twelve beliefs, the tree kept four. The first split was commitment, a single statement: "I am committed to this
+      brand". People who rated it 5 or above on the 7-point scale went one way, everyone else the other.
+
+      For the committed, the next question was familiarity: do they know the brand well? For the less committed, it was
+      recognition, then whether the brand's associations were favourable. Perceived quality, for all the attention brands give
+      it, did not make the cut.
+
+      Five end points came out of those splits. Brand passionates (625 people) recognise and like the brand without being
+      committed. Brand fans (558) are committed and familiar. Low engaged followers (108) recognise the brand but think little
+      of what it stands for. Brand curious followers (41) have neither commitment nor strong recognition. Prospect brand fans
+      (24) are committed but only partly familiar with the brand.
+    chart: types
+
+  - h: "Who creates, and who only watches"
+    body: |
+      Brand passionates are the quiet majority. Almost nine in ten consumed brand content at a medium level, and more than half
+      created little or nothing. They are the audience that watches, likes now and then, and moves on.
+
+      Brand fans did a bit of everything. About one in five contributed at a high level, by commenting and sharing, and almost
+      as many created content of their own.
+
+      The surprise was the small groups. A third of the brand curious created a lot, in what looked like learning by doing. And
+      among prospect brand fans, committed but still discovering the range, a third were heavy creators too. Low engaged
+      followers almost never created anything: two in three stayed at the bottom on creation.
+    chart: creators
+
+  - h: "Why I think this matters more in the age of AI"
+    body: |
+      I collected these data before generative AI was part of every marketing brief. Since then, feeds have been ranked by
+      recommendation systems, brand posts can be drafted by a model in seconds, and people ask chatbots about brands instead of
+      searching. It's fair to ask whether a survey of brand followers from that era still says anything useful.
+
+      My honest answer is yes, and for a simple reason. The technology decides what lands in front of someone. It does not
+      decide whether that person feels committed to the brand, recognises it, knows it well or likes what it stands for. Those
+      are human judgements, built slowly, and they are what turns seeing into joining in. When content becomes cheap and
+      endless, the scarce thing is not another post. It is a follower who cares enough to answer.
+
+      A second reason makes me fond of this paper now. Much of today's AI in marketing is a black box that scores
+      audiences without saying why. A tree like this one is machine learning you can read: if commitment is high and
+      familiarity is high, expect a fan. I'd still choose a model a manager can explain over one they have to trust.
+
+      What I would do differently is test it. The tree describes patterns. It cannot prove that raising commitment causes more
+      posting, and those people all already followed a brand in one country. If I ran it again, I would add AI-made brand
+      content to the mix and see whether committed followers respond to it the same way.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Ask the commitment question first", "Survey a sample of your followers with a single commitment statement, rated from 1 to 7. Treat 5 and above as committed and split everyone else into a second group."]
+  - ["Add three follow-up questions", "Ask the committed group how well they know your brand. Ask the rest whether they can pick your brand out among others and whether it has favourable associations, each on the same 1 to 7 scale."]
+  - ["Fix associations before asking for posts", "Where people recognise you but score your associations at 3 or below, run content about what the brand stands for, such as values, origin and people, before you ask them to share or create anything."]
+  - ["Turn passionates into members", "For followers who like you but are not committed, give them a reason to belong: a recurring community format, a members' perk or a weekly question, run for at least eight weeks."]
+  - ["Widen what committed followers know", "For committed followers who know only part of your brand, show the rest of the range in a short series, one product or service per post, and invite them to post their own use of it."]
+  - ["Track each group separately", "Every month, count comments, shares and posts from each group. Keep a tactic only if its group's activity rises in two months out of three, and re-run the survey every six months."]
+
+expect:
+  - "**A loud minority.** Most of your creation will come from committed followers, so treat them as partners rather than as an audience."
+  - "**A quiet majority that still counts.** Followers who watch and like are the largest group, and they need reasons to belong before they will post."
+  - "**Slow movement.** Commitment and associations change over months, not days, so judge the plan by the quarter."
+  - "**Less need for volume.** More posts will not move a follower who does not care, so spend effort on the beliefs first."
+
+limits:
+  - "**Patterns, not proof.** The tree finds combinations that go together and cannot show that changing a belief causes more engagement."
+  - "**Followers only, one country.** Everyone already followed a brand, and all were recruited through brand pages in Poland."
+  - "**Data from before generative AI.** The survey predates AI-made brand content, so how followers respond to it is untested."
+  - "**Small groups at the edges.** Two of the five types had fewer than 50 people, so their shares are less certain."
+
+faq:
+  - q: "What makes people engage with brands on social media?"
+    a: "In this study, four beliefs about the brand did: commitment, recognition, familiarity and favourable associations, with commitment the first and strongest split (Schivinski, 2021, Journal of Business Research)."
+  - q: "What are the five types of brand follower?"
+    a: "Brand passionates, brand fans, low engaged followers, brand curious followers and prospect brand fans. Passionates and fans together made up more than eight in ten of the people surveyed."
+  - q: "Who posts the most about brands?"
+    a: "Committed followers. Fans who know the brand well were consistent contributors, and committed followers who were still learning the range had the highest share of heavy creators."
+  - q: "Does this still apply now that AI writes and ranks content?"
+    a: "The study predates generative AI, so that part is my view rather than a finding. AI shapes what people see, but whether they act still depends on how they feel about the brand."
+  - q: "Can I use the questionnaire?"
+    a: "Yes. The brand equity and engagement items are listed on the paper page, together with a free copy of the accepted manuscript."
+
+also:
+  - doi: "10.1007/s11747-026-01198-6"
+    title: "Introducing the special issue on influencer marketing with extension into synthetic word of mouth: How AI shapes the future of influencer marketing"
+    authors: "Haenlein, Kannan, Muller, & Wahid"
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2026
+    text: >-
+      A conceptual paper on synthetic word of mouth, where AI helps create, carry, judge or act on what people say about products. It maps
+      AI onto source, message, channel and receiver, and proposes how far consumers perceive a recommendation as machine-made, from its story
+      and voice to its appearance.
+  - doi: "10.1108/jrim-04-2026-0303"
+    title: "Can AI outperform humans on Instagram? Evidence from engagement and growth metrics"
+    authors: "Freitas"
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2026
+    text: >-
+      Comparing 204 matched pairs of AI-run and human-run Instagram accounts, this study finds the same engagement rates and likes, and no gap
+      in comments. AI accounts did gain more followers per post, so synthetic creators help reach, while real conversation stays scarce for both.
+
+charts:
+  types:
+    title: "Share of followers in each pattern"
+    scale: [0, 50]
+    step: 10
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Brand passionate", 46.1, true]
+      - ["Brand fan", 41.2, true]
+      - ["Low engaged", 8.0, false]
+      - ["Brand curious", 3.0, false]
+      - ["Prospect brand fan", 1.8, false]
+    source: "Terminal nodes of the conditional inference tree, share of 1,356 participants (Table 2)."
+  creators:
+    title: "Share of each type creating brand content at a high level"
+    scale: [0, 40]
+    step: 10
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Low engaged", 0, false]
+      - ["Brand passionate", 2.54, false]
+      - ["Brand fan", 17.96, false]
+      - ["Brand curious", 33.34, true]
+      - ["Prospect brand fan", 34, true]
+    source: "Creation of brand-related social media content, high level set at the top decile (Table 2). Brand curious and prospect brand fan groups are small (41 and 24 people)."
+
+related_pages: [eliciting-brand-related-social-media-engagement]

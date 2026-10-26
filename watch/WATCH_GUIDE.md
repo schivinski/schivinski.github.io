@@ -57,6 +57,11 @@ Issue 1 (`watch/issues/2026-01-12-generative-ai-ad-images.yml`) is the template:
    makes a claim about that person. Save `watch/images/issue-NN-<slug>.jpg` (1600×900) and `-og.jpg` (1200×630).
    Then run `python scripts/make_watch_images.py` and commit the new files in `watch/images/web/`: these light WebP
    copies are what readers actually download (cards and hero), the JPEGs stay as share images and fallback.
+   **People every two or three issues** (Bruno, 26 October 2026): at least one hero in every run of three issues must show
+   people, so the series does not drift into abstract objects and keeps a personal connection with readers. Before picking
+   a hero, look at the last two issues; if neither shows people, this one must. Prefer a Gemini image from Bruno (send him
+   the prompt early); if none arrives in time, use a free Unsplash photo of people whose faces are not tied to a claim in
+   the headline, and say so in the report.
 5. **Build and check**: `python scripts/build_paper_pages.py && python scripts/build_watch.py && quarto render`.
    Look at desktop and 390 px mobile (no horizontal scroll), confirm the JSON-LD parses.
 6. **Publish**: commit, push, dispatch the publish workflow.
@@ -144,3 +149,11 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   the project docs (claude/m3-reports/YYYY-MM.md), then book the calendar slot as before.
 - From January 2027 the series goes to two issues a week (Monday and Thursday). Batch size, date labels and how Bruno's own
   papers fit are to be settled with him then.
+
+## Bruno's own papers, older work (Bruno, 26 October 2026)
+- When an issue covers one of Bruno's own papers that is not new, it keeps the template but is written in his first person,
+  with a disclosure line in the opening ("this issue covers my own paper"), and adds one personal, reflective section on
+  what the findings mean today (first used in issue 43: "Why I think this matters more in the age of AI"). Keep opinions
+  clearly his view, not findings, and never invent anecdotes or facts about his life.
+- The "Ready. Set. Market." steps follow the paper's published pathways (for issue 43, the branches of the decision tree).
+- The paper also gets its paper page (PAPER_PAGES.md), and the issue links to it through `related_pages`.
