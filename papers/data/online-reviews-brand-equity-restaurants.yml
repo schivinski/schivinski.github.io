@@ -1,0 +1,252 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Central European Management Journal 27(3), 2-27 (open access, CC BY-NC-ND 3.0; published PDF
+# supplied by Bruno, 28 Oct 2026). The article prints both authors' email addresses; they are left out here.
+# Figure 1 redrawn. Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "The effect of online reviews on consumer-based brand equity: Case-study of the Polish restaurant sector"
+doi: "10.7206/cemj.2658-0845.1"
+journal: "Central European Management Journal"
+issn: "2658-0845"
+publisher: "Kozminski University"
+volume: "27"
+issue: "3"
+pages: "2–27"
+published: "2019-09"
+published_label: "2019"
+online: "2019-09-30"
+open_access: true
+licence: "CC BY-NC-ND 3.0"
+licence_url: "https://creativecommons.org/licenses/by-nc-nd/3.0/"
+
+aam:
+  file: "brzozowska-wos-schivinski-2019-cemj-online-reviews-brand-equity.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article (CC BY-NC-ND 3.0), re-typeset as a clean PDF with the same content as the published version. Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs 3.0
+    license (https://creativecommons.org/licenses/by-nc-nd/3.0/). Originally published in Central European Management
+    Journal, 27(3), 2–27 (2019), https://doi.org/10.7206/cemj.2658-0845.1. The text has been re-typeset without changes
+    to its content; the authors' email addresses have been left out.
+
+authors:
+  - given: "Magdalena"
+    family: "Brzozowska-Woś"
+    orcid: "0000-0002-8433-0685"
+    affiliation: ["Gdansk University of Technology"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+
+cite_short: "Brzozowska-Woś & Schivinski, 2019"
+badges: ["777 Polish consumers", "Online survey", "Structural equation modelling", "Restaurants and food delivery", "Poland", "Open access"]
+keywords:
+  # Article's own keywords
+  - consumer-based brand equity
+  - eWOM
+  - restaurant sector
+  # What the study is about
+  - online reviews
+  - positive online reviews
+  - negative online reviews
+  - electronic word of mouth
+  - brand awareness
+  - brand associations
+  - perceived quality
+  - brand loyalty
+  - online meal delivery platforms
+  - food delivery apps
+  - restaurant marketing
+  - Pyszne.pl
+  # Theory and measures
+  - stimulus-organism-response (S-O-R) model
+  - Christodoulides et al. CBBE scale
+  - e-WOM scale (Goyette et al.)
+  # Method
+  - online survey
+  - snowball sampling
+  - confirmatory factor analysis
+  - structural equation modelling (SEM)
+  - Mplus
+  # Context
+  - Poland
+
+in_brief: >-
+  Good online reviews lift every part of a restaurant&rsquo;s brand equity, but bad reviews mainly hurt perceived
+  quality. In a survey of 777 Polish consumers who order meals online, positive reviews raised brand awareness,
+  associations, perceived quality and loyalty, while negative reviews lowered perceived quality and, weakly, loyalty.
+
+findings:
+  - headline: "Positive reviews strengthen every dimension of brand equity."
+    text: >-
+      Among 777 Polish consumers who order restaurant meals online, positive online reviews raised brand awareness
+      (&beta; = 0.39), brand associations (0.47), perceived quality (0.60) and brand loyalty (0.61)
+      (Brzozowska-Woś &amp; Schivinski, 2019).
+  - headline: "Negative reviews mainly damage perceived quality."
+    text: >-
+      Negative online reviews lowered perceived quality (&beta; = &minus;0.19, <i>p</i> &lt; .001) and showed a weak
+      negative link with loyalty (&beta; = &minus;0.10, <i>p</i> = .09) (Brzozowska-Woś &amp; Schivinski, 2019).
+  - headline: "Bad reviews do not change awareness or associations."
+    text: >-
+      Negative reviews had no effect on brand awareness (&beta; = 0.03) or brand associations (&beta; = &minus;0.01) of
+      the restaurant (Brzozowska-Woś &amp; Schivinski, 2019).
+  - headline: "Most diners check reviews before ordering."
+    text: >-
+      54.7% of respondents checked online reviews and ratings before ordering a meal, and 10.9% did so every time
+      (Brzozowska-Woś &amp; Schivinski, 2019).
+
+glance:
+  - { label: "Design", value: "Online survey (CAWI) with snowball sampling through social media and email; each respondent named a restaurant they order from online" }
+  - { label: "Participants", value: "777 valid responses from 1,023 Polish consumers who read restaurant reviews and order meals online (60.2% women; aged 18 to 64, median age group 18&ndash;24)" }
+  - { label: "Measures", value: "Positive and negative eWOM (three items each, adapted from Goyette et al., 2010); brand awareness, brand associations, perceived quality and brand loyalty (three items each, Christodoulides et al., 2015); 7-point scales" }
+  - { label: "Analysis", value: "Confirmatory factor analysis and structural equation modelling with robust maximum likelihood (MLR) in Mplus 7.2" }
+  - { label: "Model fit", value: "MLR &chi;&sup2;(120) = 548.82, CFI = 0.93, TLI = 0.91, RMSEA = 0.06" }
+
+figures:
+  - file: figures/brzozowska-wos-schivinski-2019-ewom-cbbe-estimates.svg
+    title: "Figure 1. The effects of eWOM on CBBE, with the estimates reported in Table 2"
+    caption: >-
+      Redrawn from Figure 1 of the article with the standardised coefficients of Table 2. Positive reviews (gold labels)
+      raise all four dimensions of brand equity; negative reviews lower perceived quality. Grey dashed paths are not
+      significant at <i>p</i> &lt; .05; <i>n</i> = 777.
+
+results:
+  title: "Effects of online reviews on the dimensions of brand equity"
+  unit: ""
+  max: 0.7
+  note: "Standardised coefficients from Table 2 of the article (n = 777). Negative reviews: perceived quality &minus;0.19 (p &lt; .001), loyalty &minus;0.10 (p = .09), awareness 0.03 and associations &minus;0.01 (n.s.)."
+  groups:
+    - name: "Positive online reviews"
+      bars:
+        - { label: "Brand loyalty", value: 0.61, display: "0.61", highlight: true }
+        - { label: "Perceived quality", value: 0.60, display: "0.60", highlight: true }
+        - { label: "Brand associations", value: 0.47, display: "0.47", highlight: true }
+        - { label: "Brand awareness", value: 0.39, display: "0.39", highlight: true }
+    - name: "Negative online reviews"
+      bars:
+        - { label: "Perceived quality", value: 0.19, display: "&minus;0.19" }
+        - { label: "Brand loyalty", value: 0.10, display: "&minus;0.10 (p = .09)" }
+
+question: >-
+  Consumers increasingly choose restaurants on online meal delivery platforms, where positive and negative reviews
+  appear side by side. Drawing on the stimulus-organism-response model, we asked how positive and negative online
+  reviews affect each dimension of consumer-based brand equity, brand awareness, brand associations, perceived quality
+  and brand loyalty, for restaurants that sell meals online in Poland.
+
+implications:
+  practical: >-
+    Restaurant managers should encourage satisfied customers to post reviews, since positive reviews build every part of
+    brand equity, and should monitor and respond to negative reviews, which mainly erode perceived quality. Review
+    management on delivery platforms can be part of the brand strategy of local and family-owned restaurants.
+  theoretical: >-
+    The study adds evidence on how positive and negative eWOM, presented together as on real platforms, relate to each
+    dimension of consumer-based brand equity, and shows an asymmetry: positive reviews matter for all dimensions,
+    negative reviews only for quality and loyalty.
+
+limitations:
+  - "The sample was not random and does not represent all Polish consumers."
+  - "The eWOM scales may need further development, and respondents may have chosen restaurants they like."
+  - "The quantity and quality of reviews were not studied directly."
+
+faq:
+  - q: "Do online reviews affect restaurant brand equity?"
+    a: >-
+      Yes. In 777 Polish consumers ordering meals online, positive reviews raised brand awareness, associations,
+      perceived quality and loyalty, and negative reviews lowered perceived quality (Brzozowska-Woś &amp; Schivinski,
+      2019).
+  - q: "Are negative reviews more harmful than positive reviews are helpful?"
+    a: >-
+      Not in this study: positive reviews had larger and broader effects (&beta; = 0.39 to 0.61) than negative reviews,
+      which mainly affected perceived quality (&beta; = &minus;0.19) (Brzozowska-Woś &amp; Schivinski, 2019).
+  - q: "What is consumer-based brand equity?"
+    a: >-
+      The value a brand has in consumers&rsquo; minds, usually measured through brand awareness, brand associations,
+      perceived quality and brand loyalty (Aaker, 1991).
+  - q: "How many people read reviews before ordering food online?"
+    a: >-
+      In this sample, 54.7% checked online reviews and ratings before ordering a meal, including 10.9% who always did
+      (Brzozowska-Woś &amp; Schivinski, 2019).
+
+concepts:
+  - term: "Electronic word of mouth (eWOM)"
+    definition: "Positive or negative statements about a product or company made by consumers and shared online, such as reviews and ratings."
+  - term: "Consumer-based brand equity (CBBE)"
+    definition: "The value of a brand from the consumer&rsquo;s perspective, built from brand awareness, brand associations, perceived quality and brand loyalty."
+  - term: "Stimulus-organism-response (S-O-R) model"
+    definition: "A model in which environmental stimuli shape internal evaluations, which in turn drive responses (Mehrabian &amp; Russell, 1974)."
+  - term: "Online meal delivery platform"
+    definition: "A service that lets consumers compare restaurants, read reviews and order meals for delivery online."
+
+materials:
+  - label: "Scale items"
+    text: "All 18 items with standardised loadings, <i>t</i>-values, means, standard deviations, skewness, kurtosis and R&sup2; are in Table A below."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Open access article re-typeset as a clean PDF, including the tables and appendix", url: "manuscripts/brzozowska-wos-schivinski-2019-cemj-online-reviews-brand-equity.pdf" }
+  - { label: "Published version", note: "Central European Management Journal (open access)", url: "https://doi.org/10.7206/cemj.2658-0845.1" }
+
+tables:
+  - id: "1"
+    title: "Reliability and validity scores of the conceptual model"
+    columns: ["Latent variable", "CR", "FD", "AVE", "1", "2", "3", "4", "5", "6"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["1. Negative eWOM", "0.80", "0.92", "0.58", "<i>0.76</i>", "(&minus;14.50)", "(&minus;6.55)", "(&minus;9.16)", "(&minus;14.49)", "(&minus;11.00)"]
+      - ["2. Positive eWOM", "0.82", "0.92", "0.60", "&minus;0.63", "<i>0.77</i>", "(12.58)", "(18.83)", "(22.82)", "(18.26)"]
+      - ["3. Brand awareness", "0.81", "0.93", "0.59", "&minus;0.29", "0.52", "<i>0.77</i>", "(15.48)", "(12.58)", "(9.09)"]
+      - ["4. Brand association", "0.77", "0.94", "0.53", "&minus;0.44", "0.69", "0.64", "<i>0.73</i>", "(25.35)", "(16.74)"]
+      - ["5. Perceived quality", "0.91", "0.96", "0.78", "&minus;0.56", "0.70", "0.52", "0.70", "<i>0.88</i>", "(24.51)"]
+      - ["6. Brand loyalty", "0.88", "0.95", "0.72", "&minus;0.46", "0.63", "0.35", "0.59", "0.65", "<i>0.85</i>"]
+    note: "Square roots of the average variance extracted on the diagonal (in italics); correlations below the diagonal, their <i>t</i>-values in brackets above it. CR = composite reliability, FD = factor determinacy, AVE = average variance extracted. MLR &chi;&sup2;(120) = 548.82, CFI = 0.93, TLI = 0.92 (0.91 in the text and Table 2), RMSEA = 0.06 (90% CI [0.06&ndash;0.07]); <i>n</i> = 777."
+  - id: "2"
+    title: "Standardized structural coefficients of the conceptual model"
+    columns: ["Hypothesis", "&beta;", "<i>t</i>", "<i>p</i>", "Acceptance/rejection"]
+    align: ["left", "right", "right", "right", "left"]
+    rows:
+      - ["H1a. Positive eWOM → Brand awareness", "0.39", "6.50", "0.001", "Accepted"]
+      - ["H2a. Positive eWOM → Brand associations", "0.47", "7.90", "0.001", "Accepted"]
+      - ["H3a. Positive eWOM → Perceived quality", "0.60", "8.62", "0.001", "Accepted"]
+      - ["H4a. Positive eWOM → Brand loyalty", "0.61", "8.27", "0.001", "Accepted"]
+      - ["H1b. Negative eWOM → Brand awareness", "0.03", "0.68", "0.49", "Rejected"]
+      - ["H2b. Negative eWOM → Brand associations", "&minus;0.01", "&minus;0.15", "0.87", "Rejected"]
+      - ["H3b. Negative eWOM → Perceived quality", "&minus;0.19", "&minus;3.22", "0.001", "Accepted"]
+      - ["H4b. Negative eWOM → Brand loyalty", "&minus;0.10", "&minus;1.67", "0.09", "Accepted"]
+    note: "MLR &chi;&sup2;(120) = 548.82, CFI = 0.93, TLI = 0.91, RMSEA = 0.06 (90% CI [0.06&ndash;0.07]); <i>n</i> = 777. Decisions as printed."
+  - id: "A"
+    title: "Descriptive statistics for constructs and measurements"
+    collapsed: true
+    columns: ["Construct and item", "Loading", "<i>t</i>", "Mean", "SD", "Skewness", "Kurtosis", "<i>R</i>&sup2;"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["Positive eWOM (adapted from Goyette et al., 2010)", "", "", "", "", "", "", ""] }
+      - ["Many people recommend this restaurant online.", "0.77", "32.44", "4.78", "2.02", "&minus;0.60", "&minus;0.89", "0.59"]
+      - ["People are proud to say to others that they are this restaurant&rsquo;s customer.", "0.73", "29.83", "4.31", "1.99", "&minus;0.27", "&minus;1.12", "0.53"]
+      - ["People have spoken favorably of this restaurant to others online.", "0.79", "33.11", "5.06", "1.98", "&minus;0.83", "&minus;0.55", "0.63"]
+      - { group: true, cells: ["Negative eWOM (adapted from Goyette et al., 2010)", "", "", "", "", "", "", ""] }
+      - ["Many people don&rsquo;t recommend this restaurant online.", "0.85", "39.88", "2.60", "1.98", "0.98", "&minus;0.34", "0.73"]
+      - ["People are not proud to say to others that they are this restaurant&rsquo;s customer.", "0.68", "22.84", "2.92", "2.03", "0.67", "&minus;0.87", "0.47"]
+      - ["People have spoken unfavorably of this restaurant to others online.", "0.80", "30.63", "2.44", "1.91", "1.10", "&minus;0.10", "0.64"]
+      - { group: true, cells: ["Brand awareness (adapted from Christodoulides et al., 2015)", "", "", "", "", "", "", ""] }
+      - ["I have heard of this restaurant.", "0.66", "22.42", "5.23", "1.73", "&minus;0.98", "0.01", "0.43"]
+      - ["I am quite familiar with this restaurant.", "0.82", "36.36", "5.48", "1.60", "&minus;1.16", "0.56", "0.68"]
+      - ["I can recognize this restaurant among other restaurants.", "0.83", "37.42", "5.77", "1.64", "&minus;1.48", "1.35", "0.70"]
+      - { group: true, cells: ["Brand associations (adapted from Christodoulides et al., 2015)", "", "", "", "", "", "", ""] }
+      - ["This restaurant has strong associations.", "0.64", "18.52", "5.27", "1.69", "&minus;0.93", "0.03", "0.41"]
+      - ["This restaurant has favorable associations.", "0.80", "37.96", "5.39", "1.75", "&minus;1.10", "0.21", "0.65"]
+      - ["It is clear what this restaurant stands for (e.g. image, values).", "0.74", "25.87", "5.53", "1.68", "&minus;1.15", "0.46", "0.55"]
+      - { group: true, cells: ["Perceived quality (adapted from Christodoulides et al., 2015)", "", "", "", "", "", "", ""] }
+      - ["This restaurant is good quality.", "0.89", "65.69", "5.46", "1.80", "&minus;1.20", "0.32", "0.80"]
+      - ["This restaurant has excellent features.", "0.86", "51.98", "5.11", "1.75", "&minus;0.94", "&minus;0.13", "0.75"]
+      - ["Compared to other restaurants in its category, this restaurant is of very high quality.", "0.90", "69.92", "5.22", "1.83", "&minus;0.96", "&minus;0.21", "0.82"]
+      - { group: true, cells: ["Brand loyalty (adapted from Christodoulides et al., 2015)", "", "", "", "", "", "", ""] }
+      - ["I feel loyal to this restaurant.", "0.86", "52.41", "4.36", "1.94", "&minus;0.35", "&minus;1.02", "0.75"]
+      - ["This restaurant is my first choice.", "0.77", "34.56", "4.56", "1.90", "&minus;0.49", "&minus;0.85", "0.59"]
+      - ["I am committed to this restaurant.", "0.91", "75.41", "4.47", "1.93", "&minus;0.44", "&minus;0.91", "0.82"]
+    note: "Standardised factor loadings; items rated from 1 = strongly disagree to 7 = strongly agree."
+
+related:
+  - "10.1016/j.jbusres.2019.08.045"
+  - "10.1108/jpbm-05-2021-3468"
+  - "10.3390/jcm8101730"

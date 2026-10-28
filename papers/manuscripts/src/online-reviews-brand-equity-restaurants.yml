@@ -1,0 +1,29 @@
+text: online-reviews-brand-equity-restaurants.blocks.txt
+affiliation_line: Gdansk University of Technology; RMIT University
+title_page_label: Open access article
+running_label: open access (CC BY-NC-ND 3.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article; it differs only in formatting and
+  pagination, and the authors' email addresses have been left out. Please cite the published version.
+title_page_footer: Re-typeset from the published open access article (CC BY-NC-ND 3.0); the publisher's typesetting and layout have been removed and Figure 1 redrawn.
+figures:
+  fig1:
+    svg: figures/brzozowska-wos-schivinski-2019-ewom-cbbe-model.svg
+table_overrides:
+  '1':
+    title: Reliability and validity scores of the conceptual model
+    columns: [Latent variables, CR, FD, AVE, '1', '2', '3', '4', '5', '6']
+    widths: [1fr, auto, auto, auto, auto, auto, auto, auto, auto, auto]
+    size: 8.5pt
+    note: '*Note*: The square root of the average variance extracted values appears in italics. *t*-values for correlations are reported in parenthesis. CR = composite reliability, FD = factor determinacy, AVE = average variance extracted. MLR*χ*^{2}_{(120)} = 548.82, CFI = 0.93, TLI = 0.92, and RMSEA = 0.06 (90% CI [0.06–0.07]); *n* = 777. *Source*: own elaboration.'
+  '2':
+    columns: [HYPOTHESIS, β, '*t*-value', '*p*-value', Acceptance/Rejection]
+    widths: [1fr, auto, auto, auto, auto]
+    size: 9pt
+    note: '*Note*: MLR*χ*^{2}_{(120)} = 548.82, CFI = 0.93, TLI = 0.91, and RMSEA = 0.06 (90% CI [0.06–0.07]); *n* = 777. *Source*: own elaboration.'
+  A:
+    title: Descriptive statistics for constructs and measurements
+    columns: [Constructs and measurements, Loading, '*t*', Mean, SD, Skew., Kurt., '*R*^{2}']
+    widths: [1fr, auto, auto, auto, auto, auto, auto, auto]
+    size: 8.5pt
+    note: 'Loading = standardised factor loading. *Source*: own elaboration.'

@@ -73,7 +73,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 52 | 2020 | Proteus Effect Profiles: How Do They Relate with Disordered Gaming Behaviours? | Psychiatric Quarterly | 46 |  |
 | 53 | 2019 | Laxer Clinical Criteria for Gaming Disorder May Hinder Future Efforts to Devise an Effi… | Journal of Clinical Medicine | 49 | locked (`laxer-criteria-gaming-disorder-ctree`) |
 | 54 | 2019 | Psychopathological symptoms and gaming motives in disordered gaming—a psychometric comp… | Journal of Clinical Medicine | 175 | locked (`gaming-motives-who-apa`) |
-| 55 | 2019 | The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish R… | Central European Management Journal | 25 |  |
+| 55 | 2019 | The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish R… | Central European Management Journal | 25 | locked (`online-reviews-brand-equity-restaurants`) |
 | 56 | 2019 | The influence of interpersonal motivation on polish consumers’ online brand-related act… | Argumenta Oeconomica | 5 |  |
 | 57 | 2019 | The Influence of Social Media Communication on Consumer's Attitudes and Behavioral Inte… | Event Management | 66 |  |
 | 58 | 2018 | An empirical analysis of the nine Internet Gaming Disorder criteria | Journal of Behavioral Addictions | 0 |  |
