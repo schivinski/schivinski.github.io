@@ -1,0 +1,262 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Marketing Communications 30(3), 301-317 (published version PDF supplied by Bruno,
+# 28 Oct 2026); issue details from Crossref. Figure 1 redrawn from the published plot.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "In the eye of the (fire)storm: better safe or sorry? Crisis communication strategies for managing virality of online negative brand-related content"
+doi: "10.1080/13527266.2022.2109056"
+journal: "Journal of Marketing Communications"
+issn: "1352-7266"
+publisher: "Routledge (Taylor & Francis)"
+volume: "30"
+issue: "3"
+pages: "301–317"
+published: "2024-04"
+published_label: "2024 (online 13 August 2022)"
+online: "2022-08-13"
+open_access: false
+
+aam:
+  file: "langaro-loureiro-schivinski-neves-2024-jmc-accepted-manuscript.pdf"
+  statement: >-
+    This is an Accepted Manuscript of an article published by Taylor &amp; Francis in Journal of Marketing
+    Communications on 13 August 2022, available online: https://doi.org/10.1080/13527266.2022.2109056
+
+authors:
+  - given: "Daniela"
+    family: "Langaro"
+    orcid: "0000-0002-1246-0720"
+    affiliation: ["ISCTE – University Institute of Lisbon"]
+  - given: "Sandra"
+    family: "Loureiro"
+    orcid: "0000-0001-8362-4430"
+    affiliation: ["ISCTE – University Institute of Lisbon"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Helder"
+    family: "Neves"
+    affiliation: ["ISCTE – University Institute of Lisbon"]
+
+cite_short: "Langaro et al., 2024"
+badges: ["564 Facebook users", "Online experiment", "Apology vs corrective action", "Moderation analysis", "Portugal"]
+keywords:
+  # Article's own keywords
+  - crisis management
+  - online firestorm
+  - SCCT
+  - situational crisis communication theory
+  - social media
+  # What the study is about
+  - online complaints
+  - negative word of mouth (e-WOM)
+  - virality
+  - brand attitude
+  - crisis response strategies
+  - apology
+  - corrective action
+  - Facebook brand pages
+  - brand reputation
+  - complaint handling
+  - unethical behaviour
+  - customer service failure
+  # Method
+  - online experiment
+  - Facebook look-alike posts
+  - fictitious brand
+  - paired t-test
+  - multiple regression
+  - moderation analysis (PROCESS)
+  - SPSS
+  - Portugal
+  # Application
+  - social media crisis response
+  - community management
+
+in_brief: >-
+  When an angry complaint about a brand starts spreading on Facebook, the brand's reply changes how people feel about
+  it, and better feelings make them less willing to share the complaint. In an online experiment with 564 Facebook
+  users in Portugal, an apology worked best overall, but for service failures and unprofessional communication a
+  corrective action did just as well.
+
+findings:
+  - headline: "A reply to the complaint lifts brand attitude."
+    text: >-
+      After reading a complaint on the brand&rsquo;s Facebook page, participants&rsquo; attitude towards the brand
+      averaged 2.21 out of 7; after the brand&rsquo;s reply it rose to 3.54 (<i>p</i> &lt; .001), for all three types of
+      incident (Langaro et al., 2024).
+  - headline: "A better brand attitude reduces the urge to share the complaint."
+    text: >-
+      Brand attitude after the reply lowered intentions to forward the negative post to others (&beta; = &minus;.178,
+      <i>p</i> &lt; .001), controlling for gender and age (Langaro et al., 2024).
+  - headline: "An apology works best in general."
+    text: >-
+      The type of reply moderated this effect (interaction &beta; = .262, <i>p</i> &lt; .05): after an apology, better
+      brand attitudes cut forwarding intentions far more steeply than after a corrective action (Langaro et al., 2024).
+  - headline: "For service and communication failures, both replies work."
+    text: >-
+      For complaints about core business problems (poor customer service) or unprofessional communication (deleted
+      comments), the moderation was not significant: apologies and corrective actions performed comparably
+      (Langaro et al., 2024).
+
+glance:
+  - { label: "Design", value: "Online experiment on Qualtrics: each participant saw one of three simulated Facebook complaints about a fictitious retailer (Lusoretail), rated the brand, saw a randomly assigned reply (apology or corrective action) and rated the brand again" }
+  - { label: "Participants", value: "564 Facebook users in Portugal recruited through Facebook (survey in Portuguese, back-translated); 58.3% men; ages 18 to 65 and over; 282 saw each reply" }
+  - { label: "Incidents", value: "Unethical behaviour (dumping waste in a river), a core business problem (unreachable customer service) and unprofessional communication (deleting critical comments), all high-arousal and with the firm in control (preventable crises)" }
+  - { label: "Measures", value: "Brand attitude: five 7-point semantic differential items (Spears &amp; Singh, 2004), &alpha; = 0.97. Intention to forward the negative post: two items (Chiu et al., 2007), &alpha; = 0.92" }
+  - { label: "Analysis", value: "Paired <i>t</i>-test (H1), multiple regression with gender and age as controls (H2) and moderation with PROCESS 3.5 (H3), in SPSS 25" }
+
+figures:
+  - file: figures/langaro-et-al-2024-firestorm-moderation.svg
+    title: "Figure 1. Moderation effects of the type of response strategy"
+    caption: >-
+      Redrawn from Figure 1 of the article (line end points read from the published plot). After an apology,
+      intentions to forward the negative post fall steeply as brand attitude improves; after a corrective action they
+      fall only slightly. Interaction &beta; = .262, <i>p</i> &lt; .05; <i>n</i> = 564.
+
+results:
+  title: "Brand attitude before and after the brand's reply"
+  unit: ""
+  max: 7
+  note: "Mean brand attitude on 7-point scales (Table 2 of the article, n = 564), and mean intention to forward the negative post."
+  groups:
+    - name: "Brand attitude"
+      bars:
+        - { label: "After the complaint", value: 2.21, display: "2.21" }
+        - { label: "After the brand's reply", value: 3.54, display: "3.54", highlight: true }
+    - name: "Intention to forward the complaint"
+      bars:
+        - { label: "After the reply (mean)", value: 3.69, display: "3.69" }
+
+question: >-
+  Online firestorms, sudden floods of complaints about a brand on social media, threaten reputation and sales, and
+  companies reply hoping to stop people from passing the complaint on. Situational crisis communication theory says
+  that when a crisis is preventable and the firm is to blame, it should accept responsibility, but it does not say
+  whether an apology or a corrective action works better, nor how the reply curbs sharing. We asked whether a reply
+  changes brand attitude, whether that brand attitude reduces intentions to forward the complaint, and whether apology
+  and corrective action differ in this effect.
+
+implications:
+  practical: >-
+    Brands should always reply to complaints that could escalate: almost a third of negative posts on social media get
+    no response at all. Because brand attitude carries the effect, community managers should craft replies that are
+    likeable, agreeable and appealing in wording and structure. In general an apology is the safer choice; when the
+    complaint is about a core business problem or unprofessional communication, an apology or a corrective action can
+    be chosen depending on what is operationally and legally convenient, which calls for careful protocols and
+    training.
+  theoretical: >-
+    The study extends situational crisis communication theory to online firestorms on social media and shows that it
+    fits this context. It identifies brand attitude as the mechanism through which matching response strategies curb
+    intentions to forward negative content, and it separates the effects of two accommodative strategies, apology and
+    corrective action, which the theory had treated as equivalent, showing that the type of incident matters.
+
+limitations:
+  - "Participants volunteered, so the sample consists mostly of frequent Facebook users."
+  - "The brand was fictitious, and the wording of the three complaints varied somewhat."
+  - "Future work could add crisis history, prior reputation and the volume of complaints, and test forgiveness and personal identification with the incident as mechanisms."
+
+faq:
+  - q: "Should a brand apologise or fix the problem during an online firestorm?"
+    a: >-
+      In general an apology worked best: in an experiment with 564 Facebook users, better brand attitude after an
+      apology reduced intentions to share the complaint more than after a corrective action. For service failures and
+      unprofessional communication both worked about as well (Langaro et al., 2024).
+  - q: "Does replying to a complaint on Facebook help a brand?"
+    a: >-
+      Yes. Brand attitude rose from 2.21 to 3.54 out of 7 after the brand replied, and better brand attitude lowered
+      intentions to forward the complaint (Langaro et al., 2024).
+  - q: "What is an online firestorm?"
+    a: >-
+      A sudden flood of negative comments and complaints about a brand or person on social media, often triggered by a
+      single complaint and amplified as others join in and share it.
+  - q: "What is situational crisis communication theory (SCCT)?"
+    a: >-
+      A theory that matches a firm&rsquo;s crisis response to how responsible the public thinks it is: the more
+      preventable the crisis, the more the reply should accept responsibility, for example by apologising or taking
+      corrective action (Coombs, 2007).
+
+concepts:
+  - term: "Online firestorm"
+    definition: "A sudden discharge of large numbers of negative messages about a brand on social media (Pfeffer, Zorbach &amp; Carley, 2014)."
+  - term: "Situational crisis communication theory (SCCT)"
+    definition: "A theory that matches crisis response strategies to the responsibility the public attributes to the organisation (Coombs, 2007)."
+  - term: "Apology"
+    definition: "A victim-centred response in which the organisation expresses remorse and accepts responsibility."
+  - term: "Corrective action"
+    definition: "A victim-centred response in which the organisation fixes the problem and commits to preventing it from happening again."
+  - term: "Brand attitude"
+    definition: "A consumer&rsquo;s overall evaluation of a brand, from bad to good and unappealing to appealing."
+  - term: "Negative e-WOM"
+    definition: "Negative electronic word of mouth: sharing or forwarding unfavourable brand-related content to others online."
+
+materials:
+  - label: "Complaints (stimuli)"
+    text: "Unethical behaviour: &lsquo;How are you capable of throwing waste &ndash; that you created &ndash; in the river that flows through the city? You are polluting the environment and affecting public health? DEPLORABLE and SHAMEFUL unethical practice!&rsquo; Core business problem: &lsquo;I have been trying to contact your customer service for over 2 weeks without success. There are other clients in the same situation! UNACCEPTABLE and OUTRAGEOUS business practice!&rsquo; Unprofessional communication: &lsquo;How were you capable of deleting my comment without responding to me? And apparently, I am not the only one complaining! INCOMPREHENSIBLE and UNFORGIVABLE communication practice!&rsquo;"
+  - label: "Replies (stimuli)"
+    text: "Apology: &lsquo;We are very sorry for what happened, and we assume responsibility. On behalf of Lusoretail, please accept our sincere apologies&rsquo;. Corrective action: &lsquo;We are already taking corrective actions to solve the problem immediately. In the future, actions will be taken to prevent an incident like this from happening again at Lusoretail&rsquo;."
+  - label: "Scale items"
+    text: "Brand attitude (7-point semantic differentials): unappealing/appealing, bad/good, unpleasant/pleasant, unfavorable/favorable, unlikable/likable. Intention to forward the negative post (1 = completely disagree, 7 = completely agree): &lsquo;This Facebook post is worth sharing with others&rsquo;; &lsquo;I will forward this Facebook post to others&rsquo;."
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Free full text, including the tables and figure", url: "manuscripts/langaro-loureiro-schivinski-neves-2024-jmc-accepted-manuscript.pdf" }
+  - { label: "Published version", note: "Journal of Marketing Communications (Taylor &amp; Francis)", url: "https://doi.org/10.1080/13527266.2022.2109056" }
+
+tables:
+  - id: "1"
+    title: "Detailed characterization of the sample"
+    collapsed: true
+    columns: ["Sample characterization", "Total sample"]
+    align: ["left", "right"]
+    rows:
+      - ["<i>N</i>", "564"]
+      - ["Gender: male | female", "329 (58.3%) | 235 (41.7%)"]
+      - { group: true, cells: ["Age", ""] }
+      - ["18–24", "124 (22.0%)"]
+      - ["25–34", "125 (22.2%)"]
+      - ["35–44", "139 (24.6%)"]
+      - ["45–54", "98 (17.4%)"]
+      - ["55–64", "58 (10.3%)"]
+      - ["65 and over", "20 (3.5%)"]
+      - { group: true, cells: ["Education", ""] }
+      - ["Basic education (9th grade)", "34 (6.0%)"]
+      - ["High school degree (12th grade)", "142 (25.2%)"]
+      - ["Bachelor&rsquo;s degree", "216 (38.3%)"]
+      - ["Master&rsquo;s degree", "143 (25.4%)"]
+      - ["PhD", "29 (5.1%)"]
+      - { group: true, cells: ["Profession", ""] }
+      - ["Unemployed", "38 (6.7%)"]
+      - ["Worker", "335 (59.4%)"]
+      - ["Student", "120 (21.3%)"]
+      - ["Student worker", "43 (7.6%)"]
+      - ["Retired", "28 (5.0%)"]
+      - { group: true, cells: ["Facebook usage", ""] }
+      - ["Less than once per week", "33 (5.9%)"]
+      - ["Once per week", "8 (1.4%)"]
+      - ["Two to three times per week", "57 (10.1%)"]
+      - ["Once per day", "141 (25.0%)"]
+      - ["Several times per day", "325 (57.6%)"]
+      - { group: true, cells: ["Average daily time spent on Facebook", ""] }
+      - ["Less than an hour", "147 (31.5%)"]
+      - ["1–2 hours", "116 (24.9%)"]
+      - ["2–3 hours", "111 (23.8%)"]
+      - ["3–4 hours", "58 (12.4%)"]
+      - ["More than 4 hours", "34 (7.3%)"]
+    note: "Values as printed in the article (decimal commas changed to points). The daily-time categories add up to 466, not 564."
+  - id: "2"
+    title: "Descriptive statistics and intercorrelations across variables"
+    columns: ["Variable", "&alpha;", "<i>M</i>", "<i>SD</i>", "1", "2", "3"]
+    align: ["left", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["1. Brand attitude before the response (BA PRE)", "0.97", "2.21", "1.27", "–", ".318**", "−.147**"]
+      - ["2. Brand attitude after the response (BA POST)", "0.97", "3.54", "1.29", ".318**", "–", "−.179**"]
+      - ["3. Intentions to forward negative e-WOM", "0.92", "3.69", "1.84", "−.147**", "−.179**", "–"]
+    note: "** <i>p</i> &lt; 0.001. Values as printed in the article."
+
+related:
+  - "10.1057/s41262-020-00207-5"
+  - "10.3727/152599518x15403853721268"
+  - "10.1080/13527266.2013.871323"
+  - "10.1016/j.jbusres.2019.08.045"

@@ -1,0 +1,15 @@
+text: crisis-communication-online-firestorms-apology.blocks.txt
+affiliation_line: ISCTE – University Institute of Lisbon; RMIT University
+title_page_footer: Re-typeset from the published text by the authors; the publisher's typesetting and layout have been removed and Figure 1 redrawn.
+figures:
+  fig1:
+    svg: figures/langaro-et-al-2024-firestorm-moderation.svg
+table_overrides:
+  '1':
+    title: Detailed characterization of the sample.
+    widths: [1fr, auto]
+    note: ''
+  '2':
+    title: Descriptive statistics and intercorrelations across variables.
+    widths: [1fr, auto, auto, auto, auto, auto, auto]
+    note: '** *p*-value < 0.001'
