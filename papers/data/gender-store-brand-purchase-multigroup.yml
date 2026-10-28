@@ -1,0 +1,225 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Prace Naukowe Uniwersytetu Ekonomicznego we Wrocławiu 337, 162-173 (2014), in Polish (PDF of the
+# volume's front matter and the article supplied by Bruno, 29 Oct 2026). The page is in English as Bruno asked: English
+# title and summary are the publisher's own; tables and scale items translated here. The publisher reserves all
+# rights (copying requires its written consent; the Lower Silesian Digital Library lists the item as "all rights
+# reserved"), so no copy or translation of the full text is hosted; the page links to the free PDF in that library.
+# Figure 1 redrawn with the estimates from Table 3.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "The importance of gender in the process of purchasing store brands – a multigroup analysis"
+title_original: "Znaczenie płci w procesie zakupu marek własnych sieci handlowych – analiza wielogrupowa"
+language: "Polish"
+language_code: "pl"
+language_note: "The English title and summary are the publisher&rsquo;s own; the tables and scale items were translated from Polish for this page."
+doi: "10.15611/pn.2014.337.16"
+journal: "Prace Naukowe Uniwersytetu Ekonomicznego we Wrocławiu"
+issn: "1899-3192"
+publisher: "Wrocław University of Economics Publishing House"
+volume: "337"
+issue_label: "no. 337"
+pages: "162–173"
+published: "2014"
+published_label: "2014"
+open_access: true
+pdf_url: "https://dbc.wroc.pl/dlibra/publication/28932/edition/26111/content"
+
+authors:
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Gdańsk University of Technology"]
+    me: true
+  - given: "Przemysław"
+    family: "Łukasik"
+    affiliation: ["Maria Curie-Skłodowska University in Lublin"]
+
+cite_short: "Schivinski & Łukasik, 2014"
+badges: ["582 Polish consumers", "Biedronka store brands", "Multigroup SEM", "Women vs men", "Article in Polish"]
+keywords:
+  # Article's own keywords
+  - store brands
+  - private label brands
+  - SEM
+  - multigroup analysis
+  - gender
+  # What the study is about
+  - perceived risk
+  - functional risk
+  - financial risk
+  - store image
+  - store brand price image
+  - store brand purchase intention
+  - measurement invariance
+  - critical ratio of differences
+  - AMOS
+  - discount stores
+  - Biedronka
+  - Polish consumers
+  - Poland
+
+in_brief: >-
+  Women and men buy a discount chain&rsquo;s own brands for partly different reasons. In a survey of 582 Polish
+  shoppers about Biedronka&rsquo;s store brands, perceived risk weighed more on women&rsquo;s purchase intentions, while
+  the brands&rsquo; low prices and value counted for more with men.
+
+findings:
+  - headline: "A better store image lowers the risk shoppers see in store brands."
+    text: >-
+      For both women and men, store image (layout and service) reduced the perceived functional and financial risk of
+      the chain&rsquo;s store brands; the standardised effect was larger for women (&minus;0.51) than for men
+      (&minus;0.40) (Schivinski &amp; Łukasik, 2014).
+  - headline: "Price image matters more to men."
+    text: >-
+      A favourable price image of store brands (low relative prices and perceived benefits) reduced perceived risk more
+      for men (&minus;0.44 vs &minus;0.32) and raised purchase intention more for men (0.42 vs 0.32) than for women
+      (Schivinski &amp; Łukasik, 2014).
+  - headline: "Perceived risk holds back purchase intention, especially for women."
+    text: >-
+      Store brand perceived risk lowered the intention to buy store brands in both groups, slightly more for women
+      (&minus;0.60) than for men (&minus;0.55) (Schivinski &amp; Łukasik, 2014).
+  - headline: "The structural paths were not equivalent across gender."
+    text: >-
+      The measurement model was equivalent for women and men, but chi-square difference tests showed that each of the
+      four structural paths differed between the groups (Schivinski &amp; Łukasik, 2014).
+
+glance:
+  - { label: "Design", value: "Nationwide online survey (CAWI) of Polish consumers about the store brands of the Biedronka discount chain; one respondent per computer" }
+  - { label: "Participants", value: "582 valid questionnaires from 652 respondents: 323 women and 259 men" }
+  - { label: "Measures", value: "7-point Likert scales, translated by collaborative and iterative translation: store image (layout, service; 8 items), store brand perceived risk (functional, financial; 7 items), store brand price image (relative price level, perceived benefits; 7 items) and purchase intention (5 items)" }
+  - { label: "Analysis", value: "EFA, CFA and multigroup structural equation modelling in AMOS 21.0: partial invariance (chi-square difference) tests and critical ratio of differences tests between women and men" }
+  - { label: "Language", value: "The article is in Polish, with an English summary. The tables and items on this page are translated from Polish." }
+
+figures:
+  - file: figures/schivinski-lukasik-2014-gender-store-brands-model.svg
+    title: "Figure 1. Conceptual model with the estimates for women and men"
+    caption: >-
+      Redrawn from Figure 1 of the article (the conceptual model), with the standardised estimates from Table 3. Labels
+      translated from Polish.
+
+question: >-
+  Store brands are a growing share of European retail, yet little was known about how women and men differ when they
+  buy them. We asked whether the effects of store image and store brand price image on store brand perceived risk, and
+  of price image and perceived risk on purchase intention, differ between women and men.
+
+implications:
+  practical: >-
+    For women, retailers should stress store attractiveness, a clear layout, easy navigation and customer service, and
+    work to reduce the functional and financial risk of their own brands. For men, communication should stress the
+    relative price advantage of store brands and the benefits of buying them.
+  theoretical: >-
+    The study tests a model of store image, price image, perceived risk and purchase intention for store brands across
+    gender with multigroup SEM, combining chi-square difference tests with critical ratio of differences tests to
+    describe the size of the differences.
+
+limitations:
+  - "Single retailer: all items referred to the store brands of the Biedronka discount chain."
+  - "Polish consumers only, surveyed online."
+  - "The critical ratios of the differences between women and men were small (|<i>z</i>| &le; 0.55 in Table 3), so the differences in the size of the effects are descriptive."
+
+faq:
+  - q: "Do women and men buy store brands for different reasons?"
+    a: >-
+      In 582 Polish shoppers, perceived risk weighed more on women&rsquo;s intentions to buy a discount chain&rsquo;s
+      own brands, while price image counted for more with men (Schivinski &amp; Łukasik, 2014).
+  - q: "How can retailers reduce the risk consumers see in store brands?"
+    a: >-
+      A better store image (layout and service) and a favourable price image both lowered the perceived functional
+      and financial risk of store brands (Schivinski &amp; Łukasik, 2014).
+  - q: "Is this article available in English?"
+    a: >-
+      The article is in Polish, with an English summary. This page summarises it in English, with the tables and scale
+      items translated.
+
+concepts:
+  - term: "Store brand"
+    definition: "A brand owned and sold by a retail chain (also called a private label)."
+  - term: "Store brand price image"
+    definition: "Consumers&rsquo; view of store brand prices, here the relative price level and the perceived benefits of buying store brands (Diallo, 2012)."
+  - term: "Multigroup analysis"
+    definition: "Estimating the same structural equation model in several groups and testing whether its parameters are equal across them."
+
+materials:
+  - label: "Scale items"
+    text: "All 27 items (translated from Polish) with the loadings for women and men are in Table A below (the article&rsquo;s appendix)."
+
+open_science:
+  - { label: "Published version (in Polish)", note: "Free PDF in the Lower Silesian Digital Library", url: "https://dbc.wroc.pl/dlibra/publication/28932/edition/26111/content" }
+  - { label: "DOI", note: "Prace Naukowe Uniwersytetu Ekonomicznego we Wrocławiu 337", url: "https://doi.org/10.15611/pn.2014.337.16" }
+
+tables:
+  - id: "1"
+    title: "Convergent and discriminant validity of the constructs"
+    columns: ["Construct", "&alpha;", "CR", "PI", "PB", "RP", "FIR", "FUR", "SR", "LA"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["Store brand purchase intention (PI)", "0.93", "0.94", "<i>0.87</i>", "", "", "", "", "", ""]
+      - ["Perceived benefits of store brands (PB)", "0.76", "0.78", "0.41", "<i>0.70</i>", "", "", "", "", ""]
+      - ["Relative price level of store brands (RP)", "0.87", "0.87", "0.40", "0.35", "<i>0.80</i>", "", "", "", ""]
+      - ["Financial risk (FIR)", "0.91", "0.76", "&minus;0.69", "&minus;0.29", "&minus;0.39", "<i>0.82</i>", "", "", ""]
+      - ["Functional risk (FUR)", "0.90", "0.90", "&minus;0.56", "&minus;0.16", "&minus;0.18", "0.70", "<i>0.83</i>", "", ""]
+      - ["Service (SR)", "0.90", "0.91", "0.29", "0.22", "0.28", "&minus;0.33", "&minus;0.27", "<i>0.84</i>", ""]
+      - ["Store layout (LA)", "0.73", "0.74", "0.32", "0.35", "0.33", "&minus;0.34", "&minus;0.33", "0.38", "<i>0.64</i>"]
+    note: "&alpha; = Cronbach&rsquo;s alpha; CR = composite reliability. Off-diagonal values are correlations between constructs; the square root of the AVE is on the diagonal (in italics). Values as printed."
+  - id: "2"
+    title: "Fit statistics of the models in the invariance tests"
+    columns: ["Model", "Compared with", "&chi;&sup2;", "df", "&Delta;&chi;&sup2;", "&Delta;df", "<i>p</i>"]
+    align: ["left", "left", "right", "right", "right", "right", "right"]
+    rows:
+      - ["1. Baseline model (no constraints)", "&ndash;", "1203.28", "628", "&ndash;", "&ndash;", "&ndash;"]
+      - ["2A. Measurement model: all second-order factor loadings constrained, except PI2, PI4 and PI5", "2A vs 1", "1225.75", "646", "22.47", "18", "0.21"]
+      - ["3A. Model 2A with all paths constrained", "3A vs 1", "1941.75", "654", "738.47", "26", "0.001"]
+      - ["3B. Model 2A with the store image &rarr; perceived risk path constrained", "3B vs 1", "1322.68", "648", "119.40", "20", "0.001"]
+      - ["3C. Model 2A with the price image &rarr; perceived risk path constrained", "3C vs 1", "1309.68", "648", "106.40", "20", "0.001"]
+      - ["3D. Model 2A with the price image &rarr; purchase intention path constrained", "3D vs 1", "1235.23", "648", "31.95", "20", "0.044"]
+      - ["3E. Model 2A with the perceived risk &rarr; purchase intention path constrained", "3E vs 1", "1295.91", "648", "92.63", "20", "0.001"]
+    note: "Models 3A to 3E are not equivalent across gender by the &Delta;&chi;&sup2; test. Values as printed (p printed as 0.001 where the text gives p &lt; .001)."
+  - id: "3"
+    title: "Estimates of the structural (baseline) model for women and men"
+    columns: ["Path", "Women: B", "Women: &beta;", "Men: B", "Men: &beta;", "<i>z</i>"]
+    align: ["left", "right", "right", "right", "right", "right"]
+    rows:
+      - ["Store image &rarr; perceived risk", "&minus;0.68**", "&minus;0.51", "&minus;0.65**", "&minus;0.40", "0.10"]
+      - ["Price image &rarr; perceived risk", "&minus;0.49**", "&minus;0.32", "&minus;0.57**", "&minus;0.44", "&minus;0.36"]
+      - ["Price image &rarr; purchase intention", "0.49**", "0.32", "0.55*", "0.42", "0.29"]
+      - ["Perceived risk &rarr; purchase intention", "&minus;0.61**", "&minus;0.60", "&minus;0.54**", "&minus;0.55", "0.55"]
+    note: "B = unstandardised and &beta; = standardised estimate. * <i>p</i> &lt; .01; ** <i>p</i> &lt; .001. <i>z</i> = critical ratio of differences between women and men. Values as printed."
+  - id: "A"
+    title: "Constructs and scale items (appendix)"
+    collapsed: true
+    columns: ["Construct", "Item", "Loading (women)", "<i>t</i> (women)", "Loading (men)", "<i>t</i> (men)"]
+    align: ["left", "left", "right", "right", "right", "right"]
+    rows:
+      - ["Store image: layout", "[LA1] The furnishings of Biedronka stores are visually attractive.", "0.49", "6.76", "0.69", "8.16"]
+      - ["Store image: layout", "[LA2] The store layout is clear.", "0.77", "8.06", "0.81", "8.56"]
+      - ["Store image: layout", "[LA3] In Biedronka it is easy to find products on promotion.", "0.51", "7.00", "0.54", "6.88"]
+      - ["Store image: layout", "[LA4] It is easy to move around Biedronka stores.", "0.61", "&ndash;", "0.61", "&ndash;"]
+      - ["Store image: service", "[SR1] Biedronka staff are well informed.", "0.79", "18.79", "0.71", "13.64"]
+      - ["Store image: service", "[SR2] Biedronka staff are polite.", "0.81", "19.69", "0.80", "16.76"]
+      - ["Store image: service", "[SR3] Biedronka staff are helpful when there is a problem.", "0.92", "25.00", "0.90", "20.46"]
+      - ["Store image: service", "[SR4] Biedronka staff can be relied on.", "0.89", "&ndash;", "0.90", "&ndash;"]
+      - ["Perceived risk: functional", "[FR1] I have doubts about the quality of Biedronka&rsquo;s store brands.*", "0.83", "16.45", "0.88", "13.42"]
+      - ["Perceived risk: functional", "[FR2] I suspect that the durability of this chain&rsquo;s store brands is insufficient.*", "0.86", "17.07", "0.87", "13.32"]
+      - ["Perceived risk: functional", "[FR3] I have doubts about the ingredients used to make Biedronka&rsquo;s store brands.*", "0.84", "16.53", "0.85", "13.05"]
+      - ["Perceived risk: functional", "[FR4] I have doubts about the truth of the information on the packaging of this chain&rsquo;s store brands.*", "0.78", "&ndash;", "0.71", "&ndash;"]
+      - ["Perceived risk: financial", "[FR1] I think buying Biedronka&rsquo;s store brands is a waste of money.*", "0.88", "19.34", "0.91", "19.67"]
+      - ["Perceived risk: financial", "[FR2] I worry that this chain&rsquo;s store brands are not worth the money spent.*", "0.92", "20.45", "0.89", "18.98"]
+      - ["Perceived risk: financial", "[FR3] I think buying Biedronka&rsquo;s store brands is not a wise way to spend money.*", "0.82", "&ndash;", "0.86", "&ndash;"]
+      - ["Price image: relative price level", "[RP1] In Biedronka I have found store brands at lower prices than those sold in other stores.", "0.65", "&ndash;", "0.70", "&ndash;"]
+      - ["Price image: relative price level", "[RP2] All of Biedronka&rsquo;s store brands seem cheaper than those sold in other stores.", "0.79", "11.97", "0.77", "11.37"]
+      - ["Price image: relative price level", "[RP3] I think store brands in Biedronka are low-priced compared with other stores.", "0.85", "12.63", "0.87", "12.51"]
+      - ["Price image: relative price level", "[RP4] When I buy store brands in Biedronka, I spend less money than I would in another store.", "0.84", "12.49", "0.88", "12.63"]
+      - ["Price image: perceived benefits", "[PB1] Store brands tempted me to buy more products in Biedronka than I needed.", "0.90", "13.15", "0.91", "11.83"]
+      - ["Price image: perceived benefits", "[PB2] Store brands made me want to buy products in Biedronka that I had not planned to buy.", "0.89", "&ndash;", "0.89", "&ndash;"]
+      - ["Price image: perceived benefits", "[PB3] Thanks to store brands I bought products cheaper than I had planned.", "0.39", "6.78", "0.38", "6.03"]
+      - ["Purchase intention", "[PI1] The chance that I will consider buying Biedronka&rsquo;s store brands is high.", "0.81", "&ndash;", "0.80", "&ndash;"]
+      - ["Purchase intention", "[PI2] Next time I will buy Biedronka&rsquo;s store brands.", "0.94", "21.14", "0.94", "18.41"]
+      - ["Purchase intention", "[PI3] I will consider buying Biedronka&rsquo;s store brands.", "0.82", "17.39", "0.81", "14.85"]
+      - ["Purchase intention", "[PI4] I will most probably buy Biedronka&rsquo;s store brands.", "0.92", "20.65", "0.94", "18.55"]
+      - ["Purchase intention", "[PI5] I will definitely buy Biedronka&rsquo;s store brands.", "0.82", "17.26", "0.79", "14.29"]
+    note: "Standardised loadings; &ndash; = fixed parameter. * Reverse-scored. Item codes as printed (the functional and financial risk items share the codes FR1 to FR3). The appendix also gives R&sup2; for each dimension (women / men): layout 0.23 / 0.55, service 0.49 / 0.29, functional risk 0.57 / 0.54, financial risk 0.86 / 0.76, relative price level 0.48 / 0.23, perceived benefits 0.30 / 0.30, purchase intention 0.59 / 0.68. Items translated from Polish."
+
+related:
+  - "10.17951/h.2015.49.3.117"
+  - "10.17951/h.2017.51.2.169"

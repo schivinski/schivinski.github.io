@@ -92,8 +92,8 @@ otherwise Crossref. Only journal articles get full pages.
 | 71 | 2015 | User-generated images and its impact on consumer-based brand equity and on purchase int… | Logistyka | 27 |  |
 | 72 | 2014 | Rozwój badań nad kapitałem marki bazującym na konsumencie -- przegląd literatury | Marketing i Rynek | 12 |  |
 | 73 | 2014 | The consumer-based brand equity inventory: scale construct and validation | Working Paper Series A, Gdansk University of Technology, Faculty of Management and Economics | 49 |  |
-| 74 | 2014 | Wpływ postrzeganego ryzyka oraz czynników wizerunkowych na zamiar zakupu marek własnych… | Marketing i Rynek | 11 |  |
-| 75 | 2014 | Znaczenie płci w procesie zakupu marek własnych sieci handlowych – analiza wielogrupowa | Prace Naukowe Uniwersytetu Ekonomicznego we Wrocławiu | 4 |  |
+| 74 | 2014 | The importance of gender in the process of purchasing store brands – a multigroup analysis | Prace Naukowe Uniwersytetu Ekonomicznego we Wrocławiu (article in Polish) | 4 | locked (`gender-store-brand-purchase-multigroup`) |
+| 75 | 2014 | Wpływ postrzeganego ryzyka oraz czynników wizerunkowych na zamiar zakupu marek własnych… | Marketing i Rynek | 11 |  |
 | 76 | 2013 | Effects of social media communication on brand equity and brand purchase intention | PhD Interdisciplinary Journal | 42 |  |
 | 77 | 2013 | Implementing second-order CFA model for the factorial validity of brand equity | PhD Interdisciplinary Journal | 9 |  |
 | 78 | 2012 | The concept of aida applied to online interactive advertisement: An YouTube case study | PhD interdisciplinary Journal | 0 |  |
