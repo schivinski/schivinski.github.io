@@ -1,0 +1,21 @@
+text: social-media-content-fashion-purchase-self-congruity.blocks.txt
+affiliation_line: RMIT University; The University of Queensland; London South Bank University; Regent’s University London; Victoria University
+title_page_footer: Re-typeset from the published text by the authors; the publisher's typesetting and layout have been removed.
+figures:
+  fig1:
+    svg: figures/schivinski-et-al-2022-fashion-model.svg
+  fig2:
+    svg: figures/schivinski-et-al-2022-fashion-slopes.svg
+table_overrides:
+  '1':
+    title: Descriptive statistics and intercorrelations across variables
+    columns: [Variables, α, '*M*', SD, '1', '2', '3', '4', '5']
+    widths: [1.6fr, auto, auto, auto, auto, auto, auto, auto, auto]
+    size: 8pt
+    note: '*Notes*: Sample FCC comprises effects of Column 1: *n* = 311; sample UGC comprises effects of Column 2: *n* = 311; overall sample comprises effects of Columns 3, 4 and 5: *n* = 622. <sup>***</sup>*p* < 0.001, <sup>*</sup>*p* < 0.10'
+  '2':
+    title: Mediation and moderated mediation analysis effects
+    columns: [Hypothesis and effects, 'FCC β', SE, '*t*-Value', '*p*-Value', 'UGC β', SE, '*t*-Value', '*p*-Value']
+    widths: [1fr, auto, auto, auto, auto, auto, auto, auto, auto]
+    size: 7.5pt
+    note: '*Notes*: FCC: firm-created social media brand-related content; UGC: user-generated social media brand-related content; CBBE: consumer-based brand equity; PI: purchase intention of fashion products; *M*: mean; SD: standard deviation; *ind.* β: indirect beta; CI: confidence interval; LL: lower limit; UL: upper limit; Boot = bootstrap; SE: standard error; Bootstrap sample size = 10,000'

@@ -34,7 +34,7 @@ def esc(t: str) -> str:
     """Escape plain text for Typst markup."""
     out = []
     for ch in t:
-        if ch in '\\#$@*_`<>[]~/=+-"\'().':
+        if ch in '\\#$@*_`<>[]~/=+-"\'().;':
             out.append("\\" + ch)
         else:
             out.append(ch)

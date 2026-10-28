@@ -1,0 +1,324 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Product & Brand Management 31(7), 1047-1062 (PDF supplied by Bruno, 28 Oct 2026)
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Effects of social media brand-related content on fashion products buying behaviour – a moderated mediation model"
+doi: "10.1108/JPBM-05-2021-3468"
+journal: "Journal of Product & Brand Management"
+issn: "1061-0421"
+publisher: "Emerald Publishing"
+volume: "31"
+issue: "7"
+pages: "1047–1062"
+published: "2022-08"
+published_label: "2022 (online March 2022)"
+online: "2022-03-08"
+open_access: false
+
+aam:
+  file: "schivinski-et-al-2022-jpbm-accepted-manuscript.pdf"
+  statement: >-
+    This author accepted manuscript is deposited under a Creative Commons Attribution Non-commercial 4.0
+    International (CC BY-NC) licence. This means that anyone may distribute, adapt, and build upon the work for
+    non-commercial purposes, subject to full attribution. If you wish to use this manuscript for commercial purposes,
+    please contact permissions@emerald.com. Published version: Journal of Product &amp; Brand Management, 31(7),
+    1047–1062, Emerald Publishing, https://doi.org/10.1108/JPBM-05-2021-3468
+
+authors:
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Nicolas"
+    family: "Pontes"
+    orcid: "0000-0002-7391-0908"
+    affiliation: ["The University of Queensland"]
+  - given: "Barbara"
+    family: "Czarnecka"
+    orcid: "0000-0002-8314-1727"
+    affiliation: ["London South Bank University"]
+  - given: "Wen"
+    family: "Mao"
+    orcid: "0000-0002-5628-7114"
+    affiliation: ["The University of Queensland"]
+  - given: "Jennifer"
+    family: "De Vita"
+    affiliation: ["Regent’s University London"]
+  - given: "Vasileios"
+    family: "Stavropoulos"
+    orcid: "0000-0001-6964-4662"
+    affiliation: ["Victoria University"]
+
+cite_short: "Schivinski et al., 2022"
+badges: ["622 social media users", "Fashion brands", "Moderated mediation", "PROCESS models 4 and 8", "USA"]
+keywords:
+  # Article's own keywords
+  - social media
+  - brand-related content
+  - brand equity
+  - self-congruity
+  - purchase intentions
+  - product endorsement
+  # What the study is about
+  - firm-created content (FCC)
+  - user-generated content (UGC)
+  - social media brand communication
+  - consumer-based brand equity (CBBE)
+  - fashion brands
+  - fashion marketing
+  - buying behaviour
+  - self-image
+  - self-congruity theory
+  - self-expression
+  - influencer marketing
+  - brand endorsement
+  - content marketing
+  # Theory and measures
+  - firm-created and user-generated content scales (Schivinski and Dabrowski)
+  - overall brand equity scale (Yoo and Donthu)
+  - self-congruity scale (Sirgy)
+  # Context
+  - United States
+  - Amazon Mechanical Turk (MTurk)
+  - Instagram
+  - Facebook
+  # Method
+  - moderated mediation
+  - conditional process analysis
+  - PROCESS macro (Hayes)
+  - bootstrapping
+  - between-subjects survey
+  - online survey
+  # Application
+  - social media strategy
+  - fashion brand management
+  - influencer selection
+  - integrated marketing communications
+
+in_brief: >-
+  A fashion brand's own posts build brand equity for every follower, but posts by other users do so only for people
+  who see themselves in the brand. In a survey of 622 US social media users who followed a fashion brand, brand equity
+  carried part of the effect of both kinds of content, and self-congruity amplified only the user-generated route.
+
+findings:
+  - headline: "Brand equity carries part of the effect of social media content on purchase intention."
+    text: >-
+      In a survey of 622 US social media users who followed a fashion brand, firm-created content increased
+      consumer-based brand equity (&beta; = 0.59) and user-generated content did too (&beta; = 0.45); brand equity in
+      turn raised purchase intention, giving significant indirect effects of 0.13 for both content types (95% CI
+      [0.06, 0.20] and [0.06, 0.21]) (Schivinski et al., 2022).
+  - headline: "Firm-created content also works directly, and more strongly than user-generated content."
+    text: >-
+      With brand equity in the model, the direct effect on purchase intention was 0.51 for firm-created content and
+      0.31 for user-generated content (both <i>p</i> &lt; .001); the total effects were 0.64 and 0.44
+      (Schivinski et al., 2022).
+  - headline: "User-generated content builds brand equity only for consumers who identify with the brand."
+    text: >-
+      The effect of user-generated content on brand equity was not significant at low self-congruity
+      (&beta; = 0.09, 95% CI [&minus;0.06, 0.25]), but rose to 0.29 at average and 0.49 at high self-congruity
+      (interaction &beta; = 0.32, <i>p</i> &lt; .001); the index of moderated mediation was 0.07 (95% CI [0.01, 0.14])
+      (Schivinski et al., 2022).
+  - headline: "Firm-created content works regardless of self-congruity."
+    text: >-
+      The indirect effect of firm-created content on purchase intention through brand equity was significant at low
+      (0.12), average (0.10) and high (0.08) self-congruity, and the index of moderated mediation was not significant
+      (&minus;0.03, 95% CI [&minus;0.07, 0.01]) (Schivinski et al., 2022).
+  - headline: "Self-congruity did not change the direct effect of either content type on purchase intention."
+    text: >-
+      The interaction of content type and self-congruity on purchase intention was not significant for firm-created
+      (&beta; = 0.01, <i>p</i> = .85) or user-generated content (&beta; = &minus;0.03, <i>p</i> = .54); self-congruity
+      worked through brand equity (Schivinski et al., 2022).
+
+glance:
+  - { label: "Design", value: "Online survey (Qualtrics) with a between-group design: each participant rated either firm-created or user-generated content about a fashion brand they followed; mediation (PROCESS model 4) and moderated mediation (model 8) with 10,000 bootstrap samples, IBM SPSS 26" }
+  - { label: "Participants", value: "622 US social media users who actively followed a fashion brand on social media, recruited on Amazon Mechanical Turk (311 per content type; mean age 36.45 years, 44.1% women); 948 recruited before data cleaning; 168 brands named, from sports brands to premium fashion" }
+  - { label: "Predictors", value: "Perceptions of firm-created and user-generated social media brand-related content (4 items each; Schivinski &amp; Dabrowski, 2016)" }
+  - { label: "Mediator and moderator", value: "Consumer-based brand equity (4 items; Yoo &amp; Donthu, 2001) and self-congruity (5 items; Sirgy et al., 1997)" }
+  - { label: "Outcome", value: "Purchase intention of fashion products (3 items; Yoo et al., 2000); all scales 1 = strongly disagree to 5 = strongly agree" }
+  - { label: "Controls", value: "Age, gender, social media platform and brand usage" }
+
+figures:
+  - file: figures/schivinski-et-al-2022-fashion-model.svg
+    title: "Figure 1. Conceptual model of the moderated mediation relationship"
+    caption: >-
+      Firm-created and user-generated social media brand-related content are expected to raise consumer-based brand
+      equity, which in turn increases the intention to purchase fashion products. Self-congruity (dashed arrows) is
+      expected to strengthen both the direct paths to purchase intention and the indirect paths through brand equity.
+  - file: figures/schivinski-et-al-2022-fashion-slopes.svg
+    title: "Figure 2. Self-congruity moderates the relation between social media brand-related content types and consumer-based brand equity"
+    caption: >-
+      Redrawn from Figure 2 of the article (end points read from the published plot). For firm-created content the
+      lines converge slightly (the effect on brand equity was a little smaller at high self-congruity); for user-generated content brand equity rises with content perceptions only when
+      self-congruity is average or high.
+
+results:
+  title: "Indirect effect of social media content on purchase intention through brand equity, by level of self-congruity"
+  unit: ""
+  max: 0.15
+  note: "Conditional indirect effects (ind. &beta;) at one standard deviation below the mean, at the mean and one standard deviation above the mean of self-congruity, from Table 2 of the article (n = 311 per content type). The user-generated effect at low self-congruity was not significant (95% CI [&minus;0.04, 0.10])."
+  groups:
+    - name: "Firm-created content"
+      bars:
+        - { label: "Low self-congruity", value: 0.12 }
+        - { label: "Average self-congruity", value: 0.10 }
+        - { label: "High self-congruity", value: 0.08 }
+    - name: "User-generated content"
+      bars:
+        - { label: "Low self-congruity", value: 0.02 }
+        - { label: "Average self-congruity", value: 0.07 }
+        - { label: "High self-congruity", value: 0.11, highlight: true }
+
+question: >-
+  Fashion brands now mix their own posts with content created by users and influencers, and consumers use fashion to
+  express who they are. Earlier research showed that both kinds of social media content shape brand perceptions and
+  purchase intentions, but little was known about how individual differences change these effects. Drawing on
+  self-congruity theory, we asked whether brand equity carries the effect of firm-created and user-generated content on
+  the intention to buy fashion products, and whether this depends on how closely the brand matches the consumer's
+  self-image.
+
+implications:
+  practical: >-
+    Fashion brands can keep relying on their own posts, ideally across several channels: firm-created content raised
+    brand equity and purchase intention whatever the consumer's self-congruity, so brands can convey their value without
+    tailoring every message to individual differences. User-generated content needs a match: it built brand equity only for
+    consumers who saw themselves in the brand, so brands that partner with users and influencers should look for
+    creators whose followers identify with the brand, disclose endorsements and align endorsed content with their own
+    posts.
+  theoretical: >-
+    The study brings self-congruity theory into research on social media brand communication. It shows that
+    consumer-based brand equity mediates the effect of both firm-created and user-generated content on purchase
+    intention, and that self-congruity moderates the indirect effect only for user-generated content. Consumers' fit
+    with the brand therefore decides how much other users' content counts, while the brand's own content works through
+    brand equity regardless of that fit.
+
+limitations:
+  - "One industry (fashion) and one country (the USA), with brand equity measured as an overall construct without its sub-dimensions; future studies should test other industries, sectors and cultures."
+  - "A survey of perceptions rather than an experiment; future work could manipulate the two content types in a controlled setting and add mediators such as consumers' online brand-related activities (COBRAs)."
+  - "Cross-sectional data; structural equation modelling with larger samples, generational cohorts and longitudinal designs could extend the findings."
+
+faq:
+  - q: "Does user-generated content increase purchase intentions for fashion brands?"
+    a: >-
+      Yes. Its direct effect on purchase intention was 0.31, and its indirect effect through brand equity depended on
+      self-congruity: 0.11 at high, 0.07 at average and not significant at low self-congruity (Schivinski et al., 2022).
+  - q: "Is firm-created or user-generated content more effective on social media for fashion brands?"
+    a: >-
+      In this study firm-created content had the larger total effect on purchase intention (0.64 vs 0.44) and worked for
+      all consumers, while user-generated content depended on self-congruity (Schivinski et al., 2022).
+  - q: "What is self-congruity and why does it matter for social media marketing?"
+    a: >-
+      Self-congruity is the match between a consumer's self-image and the brand's image. It amplified the effect of
+      user-generated content on brand equity, from 0.09 (not significant) at low to 0.49 at high self-congruity
+      (Schivinski et al., 2022).
+  - q: "Should fashion brands work with influencers?"
+    a: >-
+      The study suggests choosing creators whose followers identify with the brand, because other users' content raised
+      brand equity only when consumers felt the brand matched their self-image (Schivinski et
+      al., 2022).
+
+concepts:
+  - term: "Firm-created content (FCC)"
+    definition: "Brand-related content that a brand designs and posts on its own official social media pages, as part of its integrated marketing communications."
+  - term: "User-generated content (UGC)"
+    definition: "Brand-related content created and posted by consumers, influencers or other users, independent of the firm's control."
+  - term: "Consumer-based brand equity (CBBE)"
+    definition: "The added value consumers attach to a brand compared with an equivalent alternative, measured here as overall brand preference (Yoo &amp; Donthu, 2001)."
+  - term: "Self-congruity"
+    definition: "The congruity between a consumer's actual self-image and the image of a product or brand (Sirgy, 1982)."
+  - term: "Moderated mediation"
+    definition: "When an indirect (mediated) effect changes with the level of a third variable; here, whether the effect of content on purchase intention through brand equity depends on self-congruity."
+  - term: "Index of moderated mediation"
+    definition: "A single test of whether an indirect effect differs across levels of the moderator; a bootstrap confidence interval that excludes zero indicates moderated mediation (Hayes, 2018)."
+
+materials:
+  - label: "Brand recall"
+    text: "Participants named a fashion brand they actively followed on any social media platform, and were randomly shown questions on only one content type (firm-created or user-generated) for that brand."
+  - label: "Control checks"
+    text: "Brand familiarity (three items: familiar with, experienced with and knowledgeable about the brand; Kent &amp; Allen, 1994; &alpha; = 0.72) and confidence in recalling the brand's posts, e.g. “I am confident that I can remember social media posts created by [Fashion Brand]” (FCC) or “… posted by other users on [Social Media Platform]” (UGC)."
+  - label: "Scales"
+    text: "Firm-created and user-generated content (Schivinski &amp; Dabrowski, 2016), consumer-based brand equity (Yoo &amp; Donthu, 2001), self-congruity (Sirgy et al., 1997) and purchase intention (Yoo et al., 2000), all on 5-point agreement scales; the full method is in the accepted manuscript."
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Free full text, including both tables and figures", url: "manuscripts/schivinski-et-al-2022-jpbm-accepted-manuscript.pdf" }
+  - { label: "Published version", note: "Journal of Product &amp; Brand Management (Emerald)", url: "https://doi.org/10.1108/JPBM-05-2021-3468" }
+
+tables:
+  - id: "2"
+    title: "Mediation and moderated mediation analysis effects"
+    columns: ["Effect", "FCC &beta;", "SE", "<i>t</i>", "<i>p</i>", "UGC &beta;", "SE", "<i>t</i>", "<i>p</i>"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["H1. Mediation (Models 1a and 1b). Outcome: consumer-based brand equity", "", "", "", "", "", "", "", ""] }
+      - ["Age", "0.02", "0.01", "0.63", "0.52", "−0.03", "0.01", "−0.81", "0.41"]
+      - ["Gender (ref: female = 1)", "−0.07", "0.05", "−1.64", "0.10", "−0.03", "0.05", "−0.021", "0.83"]
+      - ["Social media platform", "0.01", "0.02", "0.04", "0.96", "0.09", "0.02", "1.91", "0.05"]
+      - ["Brand usage", "0.10", "0.03", "2.32", "0.02", "0.22", "0.03", "4.31", "0.001"]
+      - ["Social media brand-related content type", "0.59", "0.05", "12.61", "0.001", "0.45", "0.05", "8.95", "0.001"]
+      - { group: true, cells: ["Outcome: purchase intention", "", "", "", "", "", "", "", ""] }
+      - ["Age", "0.02", "0.01", "0.55", "0.57", "−0.01", "0.01", "−0.31", "0.75"]
+      - ["Gender (ref: female = 1)", "0.01", "0.04", "0.09", "0.92", "−0.05", "0.04", "−1.41", "0.15"]
+      - ["Social media platform", "0.03", "0.01", "1.01", "0.30", "−0.05", "0.01", "−1.27", "0.20"]
+      - ["Brand usage", "0.18", "0.02", "4.58", "0.001", "0.27", "0.03", "5.89", "0.001"]
+      - ["Social media brand-related content type", "0.51", "0.05", "10.40", "0.001", "0.31", "0.05", "6.34", "0.001"]
+      - ["Consumer-based brand equity", "0.22", "0.04", "4.68", "0.001", "0.28", "0.04", "5.79", "0.001"]
+      - { group: true, cells: ["Total effect", "&beta;", "SE", "<i>t</i>", "<i>p</i>", "&beta;", "SE", "<i>t</i>", "<i>p</i>"] }
+      - ["Content type on purchase intention", "0.64", "0.04", "15.68", "0.001", "0.44", "0.04", "9.59", "0.001"]
+      - { group: true, cells: ["Indirect effect", "ind. &beta;", "Boot SE", "LLCI", "ULCI", "ind. &beta;", "Boot SE", "LLCI", "ULCI"] }
+      - ["Content type → CBBE → purchase intention", "0.13", "0.03", "0.06", "0.20", "0.13", "0.03", "0.06", "0.21"]
+      - { group: true, cells: ["H2. Conditional process (Models 2a and 2b). Mediator model: consumer-based brand equity", "&beta;", "SE", "<i>t</i>", "<i>p</i>", "&beta;", "SE", "<i>t</i>", "<i>p</i>"] }
+      - ["Age", "0.01", "0.01", "0.43", "0.66", "−0.01", "0.01", "−0.32", "0.74"]
+      - ["Gender (ref: female = 1)", "−0.08", "0.04", "−1.76", "0.07", "−0.01", "0.05", "−0.24", "0.80"]
+      - ["Social media platform", "0.01", "0.02", "0.71", "0.47", "0.03", "0.02", "1.48", "0.13"]
+      - ["Brand usage", "0.07", "0.03", "2.28", "0.02", "0.12", "0.03", "3.43", "0.001"]
+      - ["Social media brand-related content type", "0.46", "0.05", "8.26", "0.001", "0.29", "0.06", "4.67", "0.001"]
+      - ["Self-congruity", "0.24", "0.04", "5.89", "0.001", "0.31", "0.05", "5.74", "0.001"]
+      - ["Content type × self-congruity", "−0.13", "0.06", "−2.11", "0.03", "0.32", "0.07", "4.39", "0.001"]
+      - { group: true, cells: ["Conditional direct effect on CBBE at values of self-congruity", "&beta;", "Boot SE", "LLCI", "ULCI", "&beta;", "Boot SE", "LLCI", "ULCI"] }
+      - ["<i>M</i> − 1 SD", "0.56", "0.07", "0.42", "0.70", "0.09", "0.08", "−0.06", "0.25"]
+      - ["<i>M</i>(0)", "0.46", "0.05", "0.35", "0.57", "0.29", "0.06", "0.17", "0.41"]
+      - ["<i>M</i> + 1 SD", "0.36", "0.07", "0.22", "0.51", "0.49", "0.07", "0.35", "0.63"]
+      - { group: true, cells: ["Dependent variable model: purchase intention", "&beta;", "SE", "<i>t</i>", "<i>p</i>", "&beta;", "SE", "<i>t</i>", "<i>p</i>"] }
+      - ["Age", "0.01", "0.01", "0.57", "0.56", "0.01", "0.01", "0.01", "0.99"]
+      - ["Gender (ref: female = 1)", "0.01", "0.04", "0.11", "0.91", "−0.08", "0.04", "−1.80", "0.07"]
+      - ["Social media platform", "0.01", "0.01", "0.97", "0.33", "−0.02", "0.01", "−1.41", "0.15"]
+      - ["Brand usage", "0.13", "0.02", "4.52", "0.001", "0.17", "0.03", "5.37", "0.001"]
+      - ["Social media brand-related content type", "0.54", "0.05", "9.96", "0.001", "0.26", "0.05", "4.73", "0.001"]
+      - ["Consumer-based brand equity", "0.22", "0.04", "4.47", "0.001", "0.23", "0.04", "4.87", "0.001"]
+      - ["Self-congruity", "−0.01", "0.03", "−0.22", "0.82", "0.12", "0.05", "2.57", "0.01"]
+      - ["Content type × self-congruity", "0.01", "0.05", "0.18", "0.85", "−0.03", "0.06", "−0.60", "0.54"]
+      - { group: true, cells: ["Conditional direct effect on purchase intention at values of self-congruity", "&beta;", "Boot SE", "LLCI", "ULCI", "&beta;", "Boot SE", "LLCI", "ULCI"] }
+      - ["<i>M</i> − 1 SD", "0.53", "0.06", "0.40", "0.66", "0.28", "0.07", "0.14", "0.42"]
+      - ["<i>M</i>(0)", "0.54", "0.05", "0.43", "0.64", "0.26", "0.05", "0.15", "0.37"]
+      - ["<i>M</i> + 1 SD", "0.54", "0.06", "0.41", "0.68", "0.24", "0.06", "0.11", "0.36"]
+      - { group: true, cells: ["Conditional indirect effect on purchase intention (mediator = CBBE)", "ind. &beta;", "Boot SE", "LLCI", "ULCI", "ind. &beta;", "Boot SE", "LLCI", "ULCI"] }
+      - ["<i>M</i> − 1 SD", "0.12", "0.03", "0.05", "0.20", "0.02", "0.03", "−0.04", "0.10"]
+      - ["<i>M</i>(0)", "0.10", "0.03", "0.04", "0.16", "0.07", "0.03", "0.01", "0.14"]
+      - ["<i>M</i> + 1 SD", "0.08", "0.02", "0.03", "0.14", "0.11", "0.03", "0.04", "0.20"]
+      - { group: true, cells: ["Index of moderated mediation", "Coeff.", "", "LLCI", "ULCI", "Coeff.", "", "LLCI", "ULCI"] }
+      - ["Index", "−0.03", "", "−0.07", "0.01", "0.07", "", "0.01", "0.14"]
+    note: "FCC = firm-created social media brand-related content (Models 1a and 2a, <i>n</i> = 311); UGC = user-generated social media brand-related content (Models 1b and 2b, <i>n</i> = 311). CBBE = consumer-based brand equity; <i>M</i> = mean of self-congruity (centred); SD = standard deviation; ind. &beta; = indirect beta; LLCI and ULCI = lower and upper limits of the 95% bootstrap confidence interval (10,000 samples). Values as printed in the article (0.001 means <i>p</i> &le; .001)."
+  - id: "1"
+    title: "Descriptive statistics and intercorrelations across variables"
+    collapsed: true
+    columns: ["Variable", "&alpha;", "<i>M</i>", "SD", "1", "2", "3", "4", "5"]
+    rows:
+      - ["1. Firm-created social media brand-related content", "0.71", "4.07", "0.52", "–", "", "", "", ""]
+      - ["2. User-generated social media brand-related content", "0.73", "3.97", "0.53", "–", "–", "", "", ""]
+      - ["3. Consumer-based brand equity", "0.75", "4.02", "0.58", "0.61<sup>***</sup>", "0.53<sup>***</sup>", "–", "", ""]
+      - ["4. Self-congruity", "0.90", "3.90", "0.65", "0.54<sup>***</sup>", "0.59<sup>***</sup>", "0.54<sup>***</sup>", "–", ""]
+      - ["5. Purchase intention of fashion products", "0.75", "4.22", "0.55", "0.70<sup>***</sup>", "0.57<sup>***</sup>", "0.58<sup>***</sup>", "0.47<sup>***</sup>", "–"]
+      - ["Gender (ref: female = 1)", "–", "–", "–", "0.03", "−0.02", "−0.06<sup>*</sup>", "0.02", "−0.06<sup>*</sup>"]
+      - ["Age", "–", "–", "–", "−0.09<sup>*</sup>", "0.01", "−0.02", "−0.06<sup>*</sup>", "−0.02"]
+      - ["Social media platform", "–", "–", "–", "−0.06", "−0.08", "0.01", "−0.06", "−0.05"]
+      - ["Brand usage (FCC; UGC)", "–", "3.86; 3.77", "0.76; 0.79", "0.30<sup>***</sup>", "0.38<sup>***</sup>", "0.29<sup>***</sup>; 0.39<sup>***</sup>", "0.22<sup>***</sup>; 0.38<sup>***</sup>", "0.40<sup>***</sup>; 0.51<sup>***</sup>"]
+    note: "Column 1: FCC sample, <i>n</i> = 311; column 2: UGC sample, <i>n</i> = 311; columns 3, 4 and 5: overall sample, <i>n</i> = 622. <sup>***</sup><i>p</i> &lt; 0.001, <sup>*</sup><i>p</i> &lt; 0.10."
+
+related:
+  - "10.1080/13527266.2013.871323"
+  - "10.1108/jrim-02-2014-0007"
+  - "10.2501/jar-2016-004"
+  - "10.1057/s41262-020-00207-5"
+  - "10.1080/0965254x.2019.1572641"
+  - "10.1016/j.jbusres.2019.08.045"
