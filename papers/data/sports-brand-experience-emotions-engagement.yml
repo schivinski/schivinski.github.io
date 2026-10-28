@@ -1,0 +1,270 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Scientific Papers of Silesian University of Technology, Organization and Management Series 204
+# (2024), pp. 553-574 (publisher PDF supplied by Bruno, 28 Oct 2026). The DOI resolves to the free publisher PDF; the
+# journal states no licence, so no re-typeset copy is hosted here. Month from the publisher's upload (October 2024).
+# Student note: wording approved by Bruno on 28 Oct 2026 (Giulio Mancuso, his master's student at RMIT).
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Exploring the role of brand experience in driving consumer emotions and engagement with sports brands in Australia"
+doi: "10.29119/1641-3466.2024.204.33"
+journal: "Scientific Papers of Silesian University of Technology. Organization and Management Series"
+issn: "1641-3466"
+publisher: "Silesian University of Technology Publishing House"
+volume: "204"
+pages: "553–574"
+published: "2024-10"
+published_label: "2024"
+open_access: true
+pdf_url: "https://managementpapers.polsl.pl/wp-content/uploads/2024/10/204-Schivinski-Mancuso-Brzozowska-Wo%C5%9B.pdf"
+
+student_note:
+  title: "A note from Bruno"
+  text: >-
+    This article grew out of Giulio Mancuso's master's research at RMIT University in Melbourne, which I had the
+    pleasure of supervising. Giulio took on a question that sits close to Australian life: when sports brands step off
+    the screen and into people's lives through events, activations and other real-world experiences, do those moments
+    create the emotional connection that keeps fans engaged? His project surveyed 610 Australians about their real-life
+    encounters with sports brands. It showed that richer brand experiences spark stronger emotional responses, and those
+    responses in turn deepen engagement with the brand. Working with Giulio was a real pleasure: he brought curiosity,
+    persistence and a genuine love of sport to the project. It is a proud moment to see a student's work published, and
+    I am delighted to share it here alongside Magdalena Brzozowska-Woś, who completed the author team.
+
+authors:
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Giulio"
+    family: "Mancuso"
+    orcid: "0009-0009-4843-3781"
+    affiliation: ["RMIT University"]
+  - given: "Magdalena"
+    family: "Brzozowska-Woś"
+    orcid: "0000-0002-8433-0685"
+    affiliation: ["Gdańsk University of Technology"]
+
+cite_short: "Schivinski, Mancuso & Brzozowska-Woś, 2024"
+badges: ["526 Australian consumers", "Sports brands", "Stimulus-organism-response", "Regression analysis", "Australia"]
+keywords:
+  # Article's own keywords
+  - experiential marketing
+  - brand experience
+  - emotional response
+  - brand engagement
+  - sports brands
+  # What the study is about
+  - consumer brand engagement
+  - sports marketing
+  - real-life advertising experiences
+  - brand activations
+  - live sports events
+  - emotional branding
+  - fan engagement
+  - customer experience
+  # Theory and measures
+  - stimulus-organism-response (S-O-R) model
+  - brand experience scale (Zarantonello and Schmitt)
+  - consumer brand engagement scale (Hollebeek et al.)
+  # Context
+  - Australia
+  - Australian sports industry
+  # Method
+  - online survey
+  - Qualtrics
+  - snowball sampling
+  - linear regression
+  - SPSS
+  # Application
+  - experiential marketing campaigns
+  - advertising strategy
+
+in_brief: >-
+  Sports brands that give people memorable real-life experiences make them feel more, and people who feel more engage
+  more with the brand. In a survey of 526 Australians who had a real-life advertising experience with a sports brand,
+  brand experience raised emotional response, which in turn raised consumer brand engagement.
+
+findings:
+  - headline: "Brand experiences stir emotions."
+    text: >-
+      Among 526 Australians who recalled a real-life advertising experience with a sports brand, a stronger brand
+      experience went with a stronger emotional response to the brand (&beta; = 0.39, <i>t</i> = 5.10, <i>p</i> = .001)
+      (Schivinski, Mancuso &amp; Brzozowska-Woś, 2024).
+  - headline: "Emotions drive engagement."
+    text: >-
+      Consumers who felt a stronger emotional response were more engaged with the sports brand, thinking about it,
+      feeling good when using it and choosing it over others (&beta; = 0.50, <i>t</i> = 7.11, <i>p</i> = .001); the model explained 27%
+      of the variance in engagement (Schivinski, Mancuso &amp; Brzozowska-Woś, 2024).
+  - headline: "Age and gender made no difference."
+    text: >-
+      Neither age nor gender had a significant effect on consumer brand engagement once emotional response was taken
+      into account (Schivinski, Mancuso &amp; Brzozowska-Woś, 2024).
+
+glance:
+  - { label: "Design", value: "Online survey on Qualtrics (CAWI), pretested with 30 people; non-random snowball sampling through social media and email; hypotheses tested with linear regression in SPSS" }
+  - { label: "Participants", value: "526 valid responses from 610 participants who had had a real-life advertising experience with a sports brand in Australia; 54.1% men, 45.2% women, 0.7% non-binary; aged 19 to 51; 74.7% from Victoria. Each rated one sports brand they named" }
+  - { label: "Stimulus", value: "Brand experience: 12 items covering sensory, affective, intellectual and behavioural experience (Zarantonello &amp; Schmitt, 2010)" }
+  - { label: "Organism", value: "Emotional response: 7 items, from happy and pleasantly surprised to annoyed and disappointed (Organ et al., 2015)" }
+  - { label: "Response", value: "Consumer brand engagement: 10 items on cognitive processing, affection and activation (Hollebeek et al., 2014)" }
+  - { label: "Controls", value: "Age and gender" }
+  - { label: "Reliability", value: "Cronbach&rsquo;s &alpha; = 0.76 (brand experience), 0.63 (emotional response), 0.75 (consumer brand engagement); all items on 5-point scales" }
+
+figures:
+  - file: figures/schivinski-et-al-2024-sports-brand-experience-model.svg
+    title: "Figure 1. The model, with the standardised estimates reported in the article"
+    caption: >-
+      Following the stimulus-organism-response model, brand experience (stimulus) raises emotional response
+      (organism), which raises consumer brand engagement (response). Standardised coefficients from Table 2 and
+      Figure 2 of the article; *** as printed in Figure 2; R&sup2; = 0.27; n.s. = not significant; <i>n</i> = 526.
+
+results:
+  title: "From brand experience to engagement"
+  unit: ""
+  max: 0.6
+  note: "Standardised coefficients from Table 2 and correlations from Table 1 of the article (n = 526). Age (0.13) and gender (0.01) had no significant effect on engagement."
+  groups:
+    - name: "Hypothesised paths"
+      bars:
+        - { label: "Experience → emotions (H1)", value: 0.39, highlight: true }
+        - { label: "Emotions → engagement (H2)", value: 0.50, display: "0.50", highlight: true }
+    - name: "Correlations (Table 1)"
+      bars:
+        - { label: "Experience and engagement", value: 0.47 }
+        - { label: "Emotions and engagement", value: 0.51 }
+
+question: >-
+  Sports brands invest heavily in experiences, from run clubs and training sessions to live events and activations,
+  in the hope of creating fans rather than customers. Earlier work had linked brand experience and emotions with
+  engagement in other settings, but little was known about how this works for sports brands in Australia, a country
+  where sport runs deep in the culture. Using the stimulus-organism-response model, we asked whether brand experience
+  increases consumers' emotional response to sports brands, and whether that emotional response increases consumer
+  brand engagement.
+
+implications:
+  practical: >-
+    Sports brands and their agencies should design holistic brand experiences, in which each touchpoint, from events and
+    activations to athletes and imagery, is built to evoke positive emotions, because those emotions are what turn an
+    experience into engagement. Experiential marketing deserves a larger share of the budget when the goal is lasting
+    relationships rather than one-off sales, and campaigns should be tailored to the emotionally charged nature of
+    Australian sport and to consumers' values and lifestyles.
+  theoretical: >-
+    The study applies the stimulus-organism-response model to sports brands, with brand experience as the stimulus,
+    emotional response as the organism and consumer brand engagement as the response. It adds evidence that emotions
+    are a key link between what consumers experience with a brand and how they engage with it, and extends
+    experiential marketing theory to the Australian sports industry.
+
+limitations:
+  - "The study covered only sports brands, so the findings may not apply to other industries."
+  - "Data were self-reported by a non-representative snowball sample that does not reflect the Australian population, which limits generalisation."
+  - "The emotional response scale had a Cronbach's alpha (0.63) below the usual 0.70 threshold."
+  - "Future work could test other industries, countries and variables such as brand loyalty, satisfaction or digital and social media engagement, and use more objective measures."
+
+faq:
+  - q: "Do brand experiences make consumers more engaged with sports brands?"
+    a: >-
+      Yes, through emotions. In a survey of 526 Australians, brand experience raised emotional response
+      (&beta; = 0.39), and emotional response raised consumer brand engagement (&beta; = 0.50)
+      (Schivinski, Mancuso &amp; Brzozowska-Woś, 2024).
+  - q: "Why do emotions matter for sports marketing?"
+    a: >-
+      Emotional response had the largest effect in the model (&beta; = 0.50): people who felt more strongly after a
+      brand experience thought about the brand more, felt better using it and chose it over other sports brands (Schivinski, Mancuso &amp; Brzozowska-Woś, 2024).
+  - q: "What is experiential marketing?"
+    a: >-
+      Marketing that creates direct, memorable encounters with a brand, such as events, activations or branded
+      training sessions like the Nike Run Club, rather than relying only on advertising messages.
+  - q: "Does age or gender change how engaged sports fans are?"
+    a: >-
+      Not in this study. Neither age nor gender had a significant effect on consumer brand engagement
+      (Schivinski, Mancuso &amp; Brzozowska-Woś, 2024).
+
+concepts:
+  - term: "Brand experience"
+    definition: "Sensations, feelings, thoughts and behaviours evoked by brand-related stimuli such as design, identity, packaging, communication and environments (Brakus et al., 2009)."
+  - term: "Emotional response"
+    definition: "The positive and negative emotions, such as happiness, excitement or disappointment, that consumers feel during or after an interaction with a brand."
+  - term: "Consumer brand engagement"
+    definition: "A consumer's cognitive, emotional and behavioural activity in brand interactions (Hollebeek et al., 2014)."
+  - term: "Stimulus-organism-response (S-O-R) model"
+    definition: "A framework in which an external stimulus affects a person's internal state, which in turn shapes their behavioural response (Mehrabian &amp; Russell, 1974)."
+  - term: "Experiential marketing"
+    definition: "Marketing that creates direct, memorable encounters between consumers and brands."
+
+materials:
+  - label: "Scale items"
+    text: "All 29 items for emotional response, brand experience and consumer brand engagement, with means, standard deviations, skewness and kurtosis, are in Table 3 below (all on 5-point scales)."
+  - label: "Screening question"
+    text: "&ldquo;Have you had a real-life advertising experience with a sports brand in Australia?&rdquo; Respondents then named one sports brand whose advertising they had experienced in real life and answered about that brand."
+  - label: "Data screening"
+    text: "Incomplete questionnaires, straight-lining (SD across items = 0) and low-variance responses (SD 0.1 to 0.5) were removed, along with univariate outliers, leaving 526 of 610 responses."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Free to read at the publisher", url: "https://doi.org/10.29119/1641-3466.2024.204.33" }
+
+tables:
+  - id: "1"
+    title: "Correlation matrix and indicators of reliability and validity"
+    columns: ["Construct", "&alpha;", "Mean", "SD", "1", "2", "3"]
+    align: ["left", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["1. Brand experience", "0.76", "3.41", "0.57", "1", "", ""]
+      - ["2. Emotional response", "0.63", "3.80", "0.60", "0.39**", "1", ""]
+      - ["3. Consumer brand engagement", "0.75", "3.62", "0.60", "0.47**", "0.51**", "1"]
+    note: "** Correlation significant at the 0.01 level. &alpha; = Cronbach&rsquo;s alpha; SD = standard deviation. Values as printed in the article."
+  - id: "2"
+    title: "Standardised coefficients of the model"
+    columns: ["Path", "&beta;", "<i>t</i>", "<i>p</i>", "Result", "VIF"]
+    align: ["left", "right", "right", "right", "left", "right"]
+    rows:
+      - ["H1. Brand experience → emotional response", "0.39", "5.10", "0.001", "Accepted", "1.02"]
+      - ["H2. Emotional response → consumer brand engagement", "0.50", "7.11", "0.001", "Accepted", "1.00"]
+      - { group: true, cells: ["Control variables", "", "", "", "", ""] }
+      - ["Age → consumer brand engagement", "0.13", "1.82", "0.71", "", ""]
+      - ["Gender → consumer brand engagement", "0.01", "−0.23", "0.81", "", ""]
+    note: "<i>n</i> = 526; VIF = variance inflation factor; R&sup2; = 0.27. Values as printed in Table 2 of the article."
+  - id: "3"
+    title: "Constructs, items and descriptive statistics"
+    collapsed: true
+    columns: ["Construct and item", "Mean", "SD", "Skew.", "Kurt."]
+    align: ["left", "right", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["Emotional response (adapted from Organ et al., 2015): &ldquo;Looking back at your last interaction with a sports brand experience, please indicate the extent to which you felt the following emotions&rdquo;", "", "", "", ""] }
+      - ["[ER1] Happy", "4.03", "0.83", "−0.78", "1.05"]
+      - ["[ER2] Pleasantly surprised", "3.73", "0.96", "−0.40", "0.04"]
+      - ["[ER3] Pleased", "3.68", "1.02", "−0.56", "−0.21"]
+      - ["[ER4] Excited", "3.91", "0.90", "−0.66", "0.28"]
+      - ["[ER5] Unfulfilled", "3.69", "1.20", "−0.60", "−0.53"]
+      - ["[ER6] Annoyed", "3.83", "1.07", "−0.63", "−0.42"]
+      - ["[ER7] Disappointed", "3.75", "1.19", "−0.71", "−0.41"]
+      - { group: true, cells: ["Brand experience (adapted from Zarantonello et al., 2010)", "", "", "", ""] }
+      - ["[BE1] I find BRAND X interesting in a sensory way", "3.62", "1.09", "−0.41", "−0.54"]
+      - ["[BE2] BRAND X makes a strong impression on my visual sense", "3.60", "1.09", "−0.60", "−0.24"]
+      - ["[BE3] BRAND X does not appeal to my senses", "3.36", "1.16", "−0.38", "−0.57"]
+      - ["[BE4] BRAND X induces feelings and sentiments", "3.56", "1.09", "−0.71", "−0.06"]
+      - ["[BE5] I do not have strong emotions for this BRAND X", "3.14", "1.25", "−0.23", "−0.96"]
+      - ["[BE6] BRAND X is an emotional brand", "3.66", "1.18", "−0.57", "−0.56"]
+      - ["[BE7] BRAND X stimulates my curiosity and problem solving", "3.21", "1.17", "−0.12", "−0.70"]
+      - ["[BE8] I engage in a lot of thinking when I encounter BRAND X", "3.13", "1.15", "−0.01", "−0.67"]
+      - ["[BE9] BRAND X does not make me think", "3.09", "1.21", "−0.13", "−0.79"]
+      - ["[BE10] I engage in physical actions and behaviours when I use BRAND X", "3.75", "1.08", "−0.63", "−0.39"]
+      - ["[BE11] BRAND X results in bodily experiences", "3.51", "1.02", "−0.38", "−0.31"]
+      - ["[BE12] BRAND X is not action-oriented", "3.38", "1.22", "−0.31", "−0.77"]
+      - { group: true, cells: ["Consumer brand engagement (adapted from Hollebeek et al., 2014)", "", "", "", ""] }
+      - ["[CBE1] Using BRAND X gets me to think about BRAND X", "3.32", "1.11", "−0.32", "−0.47"]
+      - ["[CBE2] I think about BRAND X a lot when I am using it", "3.21", "1.13", "−0.06", "−0.70"]
+      - ["[CBE3] Using BRAND X stimulates my interest in learning more about BRAND X", "3.13", "1.18", "−0.02", "−0.82"]
+      - ["[CBE4] I feel very positive when I use BRAND X", "3.88", "0.96", "−0.76", "0.31"]
+      - ["[CBE5] Using BRAND X makes me happy", "3.77", "1.00", "−0.78", "0.40"]
+      - ["[CBE6] I feel good when I use BRAND X", "3.82", "0.98", "−0.85", "0.65"]
+      - ["[CBE7] I am proud to use BRAND X", "3.77", "0.98", "−0.66", "0.21"]
+      - ["[CBE8] I use more BRAND X, compared to other sports brands", "3.79", "1.14", "−0.80", "−0.16"]
+      - ["[CBE9] Whenever I am wearing a sports brand, I usually use BRAND X", "3.63", "1.09", "−0.46", "−0.65"]
+      - ["[CBE10] BRAND X is one of the brands I usually wear when I wear sports brands", "3.90", "1.14", "−1.11", "0.57"]
+    note: "All items on 5-point scales: brand experience and engagement from 1 = strongly disagree to 5 = strongly agree; emotions from 1 = not at all to 5 = very much. BRAND X is the sports brand each respondent named. Items and values as printed in Table 3 (Appendix) of the article (capitalisation of &ldquo;Is&rdquo; standardised)."
+
+related:
+  - "10.15611/aoe.2019.2.09"
+  - "10.1057/s41262-020-00207-5"
+  - "10.1016/j.jbusres.2019.08.045"
+  - "10.2501/jar-2016-004"

@@ -79,13 +79,13 @@ def results_svg(r: dict) -> str:
     for g in r["groups"]:
         if g.get("name"):
             rows.append(("group", g["name"], None, False))
-        rows += [("bar", b["label"], float(b["value"]), b.get("highlight", False)) for b in g["bars"]]
+        rows += [("bar", b["label"], float(b["value"]), b.get("highlight", False), b.get("display")) for b in g["bars"]]
     unit = r.get("unit", "%")
-    vmax = max(v for k, _, v, _ in rows if k == "bar")
+    vmax = max(row[2] for row in rows if row[0] == "bar")
     scale_max = float(r["max"]) if r.get("max") else (100.0 if unit == "%" else vmax * 1.1)
     W, LAB, BAR, ROW, GH = 720, 230, 420, 34, 30
     y, parts = 6, []
-    for kind, label, v, hl in rows:
+    for kind, label, v, hl, *disp in rows:
         if kind == "group":
             parts.append(f'<text x="0" y="{y + 20}" font-size="15" font-weight="600" fill="#15203b">{esc(label)}</text>')
             y += GH
@@ -94,7 +94,7 @@ def results_svg(r: dict) -> str:
             fill = "#e0a12a" if hl else "#8b96ad"
             parts.append(f'<text x="12" y="{y + 20}" font-size="14" fill="#1d2433">{esc(label)}</text>')
             parts.append(f'<rect x="{LAB}" y="{y + 6}" width="{w:.1f}" height="20" rx="3" fill="{fill}"/>')
-            val = f"{v:g}{unit}"
+            val = (disp[0] if disp and disp[0] else f"{v:g}") + unit  # display: e.g. "0.50" to keep trailing zeros
             parts.append(f'<text x="{LAB + w + 8:.1f}" y="{y + 21}" font-size="14" font-weight="600" fill="#15203b">{esc(val)}</text>')
             y += ROW
     h = y + 6
@@ -369,6 +369,11 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
   {aam_note}
   {kw_html}
 </div>''')
+    sn = d.get("student_note")  # a short personal note about a student whose work the paper is
+    if sn:
+        out.append(f'<div class="student-note" role="note" aria-label="{esc(sn.get("title", "About this paper"))}">'
+                   f'<p class="student-note-label">{esc(sn.get("title", "About this paper"))}</p>'
+                   + "".join(f"<p>{x.strip()}</p>" for x in sn["text"].split("\n\n") if x.strip()) + "</div>")
     out.append(f'<p class="paper-lede">{d["in_brief"]}</p>')
 
     out.append('<section class="paper-section"><h2>Key findings</h2><ol class="findings">' + "".join(
