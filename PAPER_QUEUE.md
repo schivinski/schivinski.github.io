@@ -78,7 +78,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 57 | 2019 | The Influence of Social Media Communication on Consumer's Attitudes and Behavioral Inte… | Event Management | 66 | locked (`social-media-brand-sponsored-events`) |
 | 58 | 2018 | Psychometric assessment of the Internet Gaming Disorder diagnostic criteria: An Item Re… | Addictive Behaviors Reports | 156 | locked (`igds9sf-polish-item-response-theory`) |
 | 59 | 2017 | Antecedents and consequences of brand loyalty | Handel Wewnętrzny | 34 |  |
-| 60 | 2017 | Antecedents of consumer-based store brand equity - conceptual model | Annales Universitatis Mariae Curie-Skłodowska, sectio H, Oeconomia | 0 |  |
+| 60 | 2017 | Antecedents of consumer-based store brand equity - conceptual model | Annales Universitatis Mariae Curie-Skłodowska, sectio H, Oeconomia | 0 | locked (`store-brand-equity-antecedents-conceptual-model`) |
 | 61 | 2017 | Brand trust as a mediator between perceived risk and electronic word-of-mouth | Handel Wewnętrzny | 1 |  |
 | 62 | 2017 | Literature review on conceptualisation of online consumer engagement | Handel Wewnętrzny | 14 |  |
 | 63 | 2017 | Wymiary kapitału marki jako moderatory związku pomiędzy kapitałem marki bazującym na ko… | Handel Wewnętrzny | 5 |  |

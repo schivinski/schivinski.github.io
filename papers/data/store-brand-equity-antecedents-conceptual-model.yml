@@ -1,0 +1,163 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Annales Universitatis Mariae Curie-Skłodowska, sectio H Oeconomia 51(2), 169-175 (2017) (published
+# PDF supplied by Bruno, 28 Oct 2026). Written in English, with a Polish title and abstract. Open access under CC BY 4.0,
+# copyright with the authors (journal page). The PDF prints both authors' email addresses; they are left out here.
+# Figure 1 redrawn.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Antecedents of consumer-based store brand equity – conceptual model"
+doi: "10.17951/h.2017.51.2.169"
+journal: "Annales Universitatis Mariae Curie-Skłodowska, sectio H – Oeconomia"
+issn: "0459-9586"
+publisher: "Maria Curie-Skłodowska University Press"
+volume: "51"
+issue: "2"
+pages: "169–175"
+published: "2017-08"
+published_label: "2017"
+open_access: true
+licence: "CC BY 4.0"
+licence_url: "https://creativecommons.org/licenses/by/4.0/"
+
+aam:
+  file: "lukasik-schivinski-2017-annales-umcs-store-brand-equity.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article (CC BY 4.0), re-typeset as a clean PDF with the same content as the published version. Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution 4.0 International License
+    (https://creativecommons.org/licenses/by/4.0/). Originally published in Annales Universitatis Mariae
+    Curie-Skłodowska, sectio H – Oeconomia, 51(2), 169–175 (2017), https://doi.org/10.17951/h.2017.51.2.169.
+    Changes made: re-typeset, the authors' email addresses left out, and Figure 1 redrawn.
+
+authors:
+  - given: "Przemysław"
+    family: "Łukasik"
+    affiliation: ["Maria Curie-Skłodowska University in Lublin"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Nottingham Trent University"]
+    me: true
+
+cite_short: "Łukasik & Schivinski, 2017"
+badges: ["Conceptual model", "Research agenda", "Store brands", "Three retail formats"]
+keywords:
+  # Article's own keywords
+  - store brands
+  - private label brands
+  - antecedents
+  - brand equity
+  # What the study is about
+  - consumer-based store brand equity (SBBE)
+  - consumer-based brand equity (CBBE)
+  - retailer brands
+  - own brands
+  - advertising spend
+  - attitude toward the ad
+  - price promotions
+  - non-price promotions
+  - sales promotion
+  - brand awareness
+  - brand associations
+  - perceived quality
+  - brand loyalty
+  - discount stores
+  - hypermarkets
+  - delicatessens
+  # Theory
+  - Aaker brand equity model
+  - Buil, de Chernatony and Martínez (2013) framework
+  - literature review
+
+in_brief: >-
+  Store brands are no longer just cheap copies, yet little is known about how retailers&rsquo; advertising and
+  promotions build their brand equity. This paper proposes a model in which advertising spend, attitudes toward the
+  ads, price promotions and non-price promotions shape the awareness, associations, perceived quality and loyalty of
+  store brands, to be compared across discount stores, hypermarkets and delicatessens.
+
+findings:
+  - headline: "A model of how advertising and promotions build store brand equity."
+    text: >-
+      The model links four marketing communication antecedents (store brand advertising spend, attitudes toward store
+      brand advertisements, price promotions and non-price promotions) to the four dimensions of Aaker&rsquo;s brand
+      equity: awareness, associations, perceived quality and loyalty (Łukasik &amp; Schivinski, 2017).
+  - headline: "Advertising is expected to strengthen every dimension of store brand equity."
+    text: >-
+      Perceived advertising spend is hypothesised to raise store brand awareness, associations, perceived quality and
+      loyalty, and favourable attitudes toward the ads to raise awareness, associations and perceived quality
+      (Łukasik &amp; Schivinski, 2017).
+  - headline: "Price promotions may hurt store brands; non-price promotions may help."
+    text: >-
+      Because consumers read low prices as a sign of low quality, price promotions are hypothesised to lower store
+      brand perceived quality and associations, while non-price promotions such as gifts, samples and contests should
+      raise them (Łukasik &amp; Schivinski, 2017).
+  - headline: "The first store brand equity model to use all four of Aaker&rsquo;s dimensions."
+    text: >-
+      Previous store brand research measured brand equity with a single dimension; this framework adapts the national
+      brand model of Villarejo-Ramos and Sánchez-Franco (2005) and Buil et al. (2013) to store brands (Łukasik &amp;
+      Schivinski, 2017).
+
+glance:
+  - { label: "Type", value: "Conceptual paper: literature review, research question and hypotheses for a research project" }
+  - { label: "Research question", value: "How do store brand advertising and sales promotion affect store brand equity, overall and across retail formats?" }
+  - { label: "Antecedents", value: "Store brand advertising spend; attitudes toward store brand advertisements; store brand price promotions; store brand non-price promotions" }
+  - { label: "Outcomes", value: "Store brand awareness, associations, perceived quality and loyalty (Aaker, 1991)" }
+  - { label: "Retail formats", value: "Discount stores, hypermarkets and delicatessens" }
+
+figures:
+  - file: figures/lukasik-schivinski-2017-store-brand-equity-model.svg
+    title: "Figure 1. Conceptual model of antecedents of store brand equity"
+    caption: >-
+      Redrawn from Figure 1 of the article; path labels follow the hypotheses as worded in the text (H1&ndash;H4).
+      Red paths are hypothesised to be negative.
+
+question: >-
+  Store brands now compete with national brands on quality and image, but research has looked at them from the
+  perspective of retailers, manufacturers and consumers rather than as brands. Little evidence exists on how
+  advertising and sales promotion build consumer-based store brand equity, and previous studies measured it with a
+  single dimension. We propose a model to test these antecedents across three retail formats.
+
+implications:
+  practical: >-
+    Once tested, the model will show retailers how their advertising budget and promotional tools affect each part of
+    store brand equity, helping them design advertising campaigns and choose between price and non-price promotions
+    in each retail format.
+  theoretical: >-
+    The paper extends a national brand equity framework to store brands and proposes measuring store brand equity with
+    all four of Aaker&rsquo;s dimensions, opening a comparison between consumers&rsquo; perceptions of national brands
+    and store brands.
+
+limitations:
+  - "The paper presents a conceptual model and hypotheses; it reports no data."
+
+faq:
+  - q: "Does advertising build store brand equity?"
+    a: >-
+      This conceptual model hypothesises that perceived store brand advertising spend increases store brand awareness,
+      associations, perceived quality and loyalty (Łukasik &amp; Schivinski, 2017).
+  - q: "Do price promotions hurt store brands?"
+    a: >-
+      The model expects price promotions to lower store brand perceived quality and associations, because consumers
+      use price as a cue to quality, while non-price promotions should improve them (Łukasik &amp; Schivinski, 2017).
+  - q: "What is store brand equity?"
+    a: >-
+      The value consumers attach to a retailer&rsquo;s own brand, measured here through Aaker&rsquo;s four dimensions:
+      awareness, associations, perceived quality and loyalty.
+
+concepts:
+  - term: "Store brand"
+    definition: "A brand owned, managed and marketed by a retailer, also called a private label or own brand (Sprott &amp; Shimp, 2004)."
+  - term: "Consumer-based store brand equity (SBBE)"
+    definition: "The value of a store brand from the consumer&rsquo;s perspective, built from awareness, associations, perceived quality and loyalty."
+  - term: "Non-price promotion"
+    definition: "A sales promotion that does not reduce the price, such as free gifts, free samples, sweepstakes and contests."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Open access article re-typeset as a clean PDF, including the model", url: "manuscripts/lukasik-schivinski-2017-annales-umcs-store-brand-equity.pdf" }
+  - { label: "Published version", note: "Annales UMCS, sectio H – Oeconomia (open access)", url: "https://doi.org/10.17951/h.2017.51.2.169" }
+
+related:
+  - "10.7206/cemj.2658-0845.1"
+  - "10.1108/JRIM-02-2014-0007"
+  - "10.1080/0965254X.2019.1572641"

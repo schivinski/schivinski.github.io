@@ -1,0 +1,181 @@
+#set document(title: "Antecedents of consumer\-based store brand equity – conceptual model", author: ("Przemysław Łukasik", "Bruno Schivinski"))
+#set page(paper: "a4", margin: (x: 2.5cm, top: 2.6cm, bottom: 2.4cm),
+  header: context { if counter(page).get().first() > 1 [#set text(size: 8pt, fill: rgb("#5b6476")); Łukasik and Schivinski \(2017\), open access \(CC BY 4\.0\) #h(1fr) Annales Universitatis Mariae Curie\-Skłodowska, sectio H – Oeconomia] },
+  footer: context { set text(size: 8.5pt, fill: rgb("#5b6476")); h(1fr); counter(page).display(); h(1fr) })
+#set text(font: ("Libertinus Serif", "New Computer Modern", "DejaVu Sans"), size: 11pt, lang: "en")
+#set par(justify: true, leading: 0.78em, spacing: 0.9em, first-line-indent: 1.2em)
+#show heading.where(level: 1): it => block(above: 1.5em, below: 0.8em, text(size: 12.5pt, weight: "bold", it.body))
+#show heading.where(level: 2): it => block(above: 1.2em, below: 0.6em, text(size: 11pt, weight: "bold", style: "italic", it.body))
+#show link: set text(fill: rgb("#15203b"))
+
+// ---------------- title page
+#set par(first-line-indent: 0em)
+#v(1.2cm)
+#text(size: 10pt, weight: "bold", fill: rgb("#8a5a00"), tracking: 0.04em)[Open access article]
+#v(0.5em)
+#block[#set par(justify: false); #text(size: 19pt, weight: "bold", hyphenate: false)[Antecedents of consumer\-based store brand equity – conceptual model]]
+#v(0.8em)
+#text(size: 12pt)[Przemysław Łukasik, Bruno Schivinski]
+#v(0.2em)
+#text(size: 10pt, style: "italic")[Maria Curie\-Skłodowska University in Lublin\; Nottingham Trent University]
+#v(1.4cm)
+#block(width: 100%, inset: 14pt, radius: 3pt, stroke: 0.6pt + rgb("#dde1e8"), fill: rgb("#f6f7f9"))[
+  #set text(size: 10pt)
+  #strong[To cite this article]
+  #v(0.2em)
+  Łukasik, P\., & Schivinski, B\. (2017). Antecedents of consumer\-based store brand equity – conceptual model. #emph[Annales Universitatis Mariae Curie\-Skłodowska, sectio H – Oeconomia, 51]\(2\), 169–175. #link("https://doi.org/10.17951/h.2017.51.2.169")[https:\/\/doi.org\/10\.17951\/h\.2017\.51\.2\.169]
+  #v(0.9em)
+  Open access article distributed under the terms of the Creative Commons Attribution 4\.0 International License \(https:\/\/creativecommons\.org\/licenses\/by\/4\.0\/\)\. Originally published in Annales Universitatis Mariae Curie\-Skłodowska, sectio H – Oeconomia, 51\(2\), 169–175 \(2017\), #link("https://doi.org/10.17951/h.2017.51.2.169")[https:\/\/doi.org\/10\.17951\/h\.2017\.51\.2\.169]\. Changes made: re\-typeset, the authors\' email addresses left out, and Figure 1 redrawn\.
+  #v(0.9em)
+  This version reproduces the content of the published open access article\; it differs only in formatting and pagination, and the authors\' email addresses have been left out\. Please cite the published version\.
+]
+#v(1fr)
+#text(size: 8.5pt, fill: rgb("#5b6476"))[Re\-typeset from the published open access article \(CC BY 4\.0\)\; the publisher\'s typesetting and layout have been removed and Figure 1 redrawn\.
+Downloaded from #link("https://schivinski.com/papers/store-brand-equity-antecedents-conceptual-model.html")[schivinski.com]]
+#pagebreak()
+#set par(first-line-indent: 1.2em)
+#align(left)[#text(size: 15pt, weight: "bold", hyphenate: false)[Antecedents of Consumer\-Based Store Brand Equity – Conceptual Model]]
+#v(0.6em)
+#par(first-line-indent: 0em)[Przemysław Łukasik#super[1] and Bruno Schivinski#super[2]]
+#par(first-line-indent: 0em)[#text(size: 10pt, style: "italic")[#super[1]Maria Curie\-Skłodowska University in Lublin, Chair of Marketing, Lublin, Poland\; #super[2]Nottingham Trent University, Nottingham Business School, Department of Marketing, Nottingham, United Kingdom]]
+#pad(x: 1.2cm)[#set par(first-line-indent: 0em); #set text(size: 10pt); #strong[Abstract] #linebreak() The objective of this paper is to present a conceptual model of antecedents of store brand \(SB\) equity \(SBBE\) that aims to identify the effects of SB advertising spend, attitudes toward SB advertisements, SB price promotions, and SB non\-price promotions on the metrics of SBBE \(i\.e\. SB awareness, SB associations, SB perceived quality, and SB loyalty\), overall and with regard to retail format differences across three retail formats\. For this purpose an extensive literature review is introduced\. This paper provides key directions to brand managers regarding store brand assortment\. There is emphasized that the expected outcomes of this research project are not only of great importance to build the academic literature on SBs, but are also of immense value to practitioners and SB managers\.]
+#pad(x: 1.2cm)[#set par(first-line-indent: 0em); #set text(size: 10pt); #strong[Keywords:] store brands\; private label brands\; antecedents\; brand equity]
+#v(0.6em)
+#pad(x: 1.2cm)[#set par(first-line-indent: 0em); #set text(size: 10pt); #strong[JEL code:] M31]
+#pad(x: 1.2cm)[#set par(first-line-indent: 0em); #set text(size: 10pt); #strong[Antecedencje postrzeganego przez konsumenta kapitału marek własnych – model koncepcyjny\.] Celem artykułu była prezentacja koncepcyjnego modelu antecedencji postrzeganego przez konsumenta kapitału marek własnych \(KMW\), który zmierza do identyfikacji efektów postrzegania przez konsumenta wydatków reklamowych związanych z markami własnymi \(MW\), postawy względem reklamy MW oraz postrzegania przez konsumenta promocji cenowych i niecenowych MW na wymiary KMW zarówno ogółem, jak i w odniesieniu do trzech typów sklepów\. Realizacja tak postawionego celu wymagała przeprowadzenia wyczerpujących studiów literatury na ten temat\. Podkreślono znaczenie oczekiwanych wyników dla rozwoju literatury naukowej dotyczącej MW oraz dla praktyków i menedżerów MW\. #strong[Słowa kluczowe:] marki własne\; marki prywatne\; antecedencje\; kapitał marki\.]
+= Introduction
+#set par(hanging-indent: 0em, spacing: 0.9em)
+#set text(size: 11pt)
+#par(first-line-indent: 0em)[Even though the evolution of store brands \(SBs\) is a very important topic for scholars, the attention that it has received from researchers is still insufficient\. The most of academic research has not approached the SB phenomenon from a branding perspective but, mainly, from the perspective of retailers \[Raju et al\. 1995\; Gedenk and Neslin 1999\; Ailawadi and Harlam 2004\], manufacturers \[Hoch 1996\; Rajiv et al\. 2002\], consumers \[Baltas and Argouslidis 2007\; Ailawadi et al\. 2008\], or from the competitive interactions between them \[Sethuraman 1996\; Bonfer and Chintagunta 2004\]\. The presented research project aims at generating new insights from the branding perspective view, therefore filling knowledge gaps concerning this matter\.]
+
+Seeing that SBs were once considered to be as low\-price\/low\-quality alternatives, they are now able to compete successfully in the same territories that were traditionally dominated by NBs \[Kumar and Steenkamp 2007\]\. Retailers have improved the quality of SBs, repositioning their products, and trying to boost the image of their own brands in such a way that they are not perceived as simply a copy or imitation of national brands in order that they might acquire their own identity in the market \[Mieres et al\. 2006a,b\]\. Thus, the scientific problem to be solved by the proposed project is to evaluate factors that affect consumer\-based store brand equity \(SBBE\)\.
+
+The investigation of the antecedents of SBBE is considered to be a topic of great managerial and academic interest as evidenced by Sethuraman and Raju \[2012\] among many other scholars \[Steenkamp and Dekimpe 1997\; Garretson et al\. 2002\; Sayman et al\. 2002\; Ailawadi and Keller 2004\; de Wulf et al\. 2005\; Collins\-Dodd and Lindley 2003\; Kumar and Steenkamp 2007\; Beristain and Zorrilla 2011\; Cuneo 2012a,b\]\.
+
+It is also important to mention that the rationale for the variable choices of study resides upon little evidence on the effects of promotional tools on SBBE \[Cuneo et al\. 2012a,b\]\. Although the growing number of research on SBs, upon this date, the impacts of advertising and sales promotion on SBBE metrics were not well reported in literature\. Moreover, no previous research on SBBE have used Aaker’s four\-dimensional CBBE model in its entirety, limiting quantification of SBBE to only one single dimension \[e\.g\. Calvo\-Porral and Lévy\-Mangin 2014\]\.
+
+= 1\. Scientific problem
+#set par(hanging-indent: 0em, spacing: 0.9em)
+#set text(size: 11pt)
+#par(first-line-indent: 0em)[Store brands also known as private label brands, and own brands have drawn great academic and managerial attention in parallel with their rapidly growing market share \[Dursun et al\. 2011\]\. Store brands are owned, managed and marketed by a particular retailer, being present in numerous retailing formats and product categories \[Sprott and Shimp 2004\]\.]
+
+The main objective of this research project is to investigate the antecedents of SBBE\. To achieve the given research objectives, the focus is on two specific antecedents of SBBE i\.e\. advertising and sales promotion \(particularly SB advertising spend, attitudes toward SB advertisements, SB price promotions, and SB non\-price promotions\)\.
+
+Additionally, this research project was designed to cover and compare the antecedents across three distinguished retail formats offering SBs \(i\.e\. discount stores, hypermarkets, and delicatessen\)\. These three different types of retail differ in their SBs strategies, thus differences of effects should be expected\. A comparison on how consumers perceptions of brands differ between national brands and SBs is also intended on the conceptual model level\. To reach the objectives outlined above, the following research question was formulated, therefore:
+
+RQ: How do SB advertising and sales promotion impact on SBBE, overall and with regard to retail format differences?
+
+To guide on answering the research question, the following research objective emerged:
+
+RO: To identify the effects of SB advertising spend, attitudes toward SB advertisements, SB price promotions, and SB non\-price promotions on the metrics of SBBE, overall and with regard to retail format differences\.
+
+= 2\. Antecedents of SBBE
+#set par(hanging-indent: 0em, spacing: 0.9em)
+#set text(size: 11pt)
+#par(first-line-indent: 0em)[In line with the objective of this research project, to capture the antecedents of SBBE it was implemented the framework first presented by Villarejo\-Ramos and Sánchez\-Franco \[2005\] and later extended by Buil et al\. \[2013\]\. The adaptation of a framework that focuses on the consumer’s perceptions of national brands is appropriate to the SBs context for the following reasons: \(a\) the conceptual model is based on Aaker’s \[1991\] brand equity framework – one of the most disseminated constructs to measure brand equity from the consumer’s standpoint\; \(b\) it allows further comparisons between consumer’s perceptions of national brands and SBs\; and not less important \(c\) it strengthens the framework for an overall measurement of brands, therefore, contributing to the development of the modern discipline of brand management\. The framework of SBBE antecedents is presented in Figure 1\.]
+
+#figure(image("build/fig1.png", width: 100%), caption: none, kind: image, supplement: none)
+#align(center)[#text(size: 9.5pt)[Figure 1\. Conceptual model of antecedents of SBBE\. #emph[Source]: Authors’ own study based on Buil et al\. \[2013\], Villarejo\-Ramos and Sánchez\-Franco \[2005\], and Aaker \[1991\] \(redrawn\)\.]]
+#v(0.6em)
+The objective of this study is to identify the effects of SB advertising spend, attitudes toward SB advertisements, SB price promotions, and SB non\-price promotions on the metrics of SBBE \(i\.e\. SB awareness, SB associations, SB perceived quality, and SB loyalty\) across three retail formats\. Researchers suggest that advertising is successful in building consumer\-based brand equity \(CBBE\), since it has sustaining and accumulative effect on this asset \[Wang et al\. 2009\]\. Several researchers prove that perceptions of high advertising spend contribute to developing a more positive perception of brand quality \[Yoo et al\. 2000\; Moorthy and Hawkins 2005\], higher brand awareness \[Chu and Keh 2006\; Keller 2007\; Villarejo\-Ramos and Sánchez\-Franco 2005\;\], stronger brand associations \[Cobb\-Walgren et al\. 1995\; Keller 2007\] and brand loyalty \[Villarejo\-Ramos and Sánchez\-Franco 2005\]\. Additionally, the firm’s advertising strategy needs to be original and innovative to capture consumers’ attention, and, therefore, strengthen the consumer’s perceptions of brand equity \[Aaker 1991\; Yoo and Donthu 2001\]\. As retailers are boosting the image of SBs by relaying on the quality and intensity of advertising, it is expected that the higher the SB advertising spend and originality, the stronger the consumer’s perception of SB equity\. Therefore, it is postulated:
+
+#pad(left: 1.2em, right: 1.2em)[#par(first-line-indent: 0em)[#emph[H1]\. Consumer’s perceptions of SB advertising spend positively influence SB awareness \(H1a\), SB associations \(H1b\), SB perceived quality \(H1c\), and SB loyalty \(H1d\)\.\*]]
+#pad(left: 1.2em, right: 1.2em)[#par(first-line-indent: 0em)[#emph[H2]\. Consumers’ attitudes toward the advertisements undertaken for a SB positively influences SB awareness \(H2a\), SB associations \(H2b\), and SB perceived quality \(H2c\)\.]]
+Consumers use price as an extrinsic cue to infer product quality \[Rao and Monroe 1989\;\]\. Therefore, the reduction of prices by the use of promotions are likely to have a negative influence on the perceived quality of brands due to the reduction of the consumers internal reference price \[Jørgensen et al\. 2003\; DelVecchio et al\. 2006\]\. Moreover, researchers empirically proved that price promotions have a negative impact on brand image \[Montaner and Pina 2008\]\. On the other hand, non\-price promotions such as free gifts, free samples, sweepstakes and contests in communication strategies are becoming very popular among retailers \[Palazón and Delgado\-Ballester 2009\]\. Non\-price promotions do not influence individuals’ internal reference prices and consequently are less likely to create a negative influence on the consumer’s perceptions of brands \[Campbell and Diamond 1990\]\. Similarly, non\-price promotions help communicating distinctive brand attributes and contribute to improve brand equity \[Chu and Keh 2006\]\.
+
+In the context of SBs, it is expected a negative impact of price promotions on the consumer’s overall perceptions of SB product association and quality, as consumers tend to associate low prices with inferior product quality\. However, when retailers use non\-price promotions, a positive feeling should arise among consumers, consequently influencing on the consumer’s SB product association and SB perception of product quality\. Thus, the following hypotheses are assumed:
+
+#pad(left: 1.2em, right: 1.2em)[#par(first-line-indent: 0em)[#emph[H3]\. Consumers’ perceptions of SBs price promotions negatively influence SB perceived quality \(H3a\), and SB associations \(H3b\)\.]]
+#pad(left: 1.2em, right: 1.2em)[#par(first-line-indent: 0em)[#emph[H4]\. Consumers’ perceptions of SB non\-price promotions positively influence SB perceived quality \(H4a\), and SB associations \(H4b\)\.]]
+= Conclusions
+#set par(hanging-indent: 0em, spacing: 0.9em)
+#set text(size: 11pt)
+#par(first-line-indent: 0em)[The expected outcomes of this research project are not only of great importance to build the academic literature on SBs, but are also of immense value to practitioners and SB managers\. The findings of the antecedents of SBBE will show the effects of promotional activities on SB awareness, SB associations, SB perceived quality, and SB loyalty\. Retailers should benefit by more effectively articulating their advertising budget and strategies\. The knowledge on how strong promotional instruments affects SBBE can help practitioners on taking more accurate decisions on the design of advertising campaigns, therefore ensuring better results\. Finally, the results of three retail format comparisons will indicate which promotional strategies retailers should adopt to more efficiently build SBBE\.]
+
+= Bibliography
+#set par(hanging-indent: 0em, spacing: 0.9em)
+#set text(size: 11pt)
+Aaker, D\.A\., #emph[Managing Brand Equity\. Capitalizing on the Value of Brand Name], the Free Press, New York 1991\.
+
+Ailawadi, K\., Harlam, B\., #emph[An Empirical Analysis of the Determinants of Retail Margins: The Role of Store\-Brand Share], “Journal of Marketing”, vol\. 68, no\. 1, January 2004, pp\. 147–165\.
+
+Ailawadi, K\., Pauwels, K\., Steenkamp, J\.B\., #emph[Private Label Use and Store Loyalty], “Journal of Marketing”, vol\. 72, no\. 6, November 2008, pp\. 19–30\.
+
+Ailawadi, K\.L\., Keller K\.L\., #emph[Understanding Retail Branding: Conceptual Insights and Research Priorities], “Journal of Retailing”, vol\. 80, no\. 4, 2004, pp\. 331–342\.
+
+Baltas, G\., Argouslidis, P\., #emph[Consumer Characteristics and Demand for Store Brands], “Journal of Retail & Distribution Management”, vol\. 35, no\. 5, 2007, pp\. 328–341\.
+
+Beristain, J\., Zorrilla, P\., #emph[The Relationship Between Store Image and Store Brand Equity: A Conceptual Framework and Evidence From Hypermarkets], “Journal of Retailing and Consumer Services”, vol\. 18, no\. 6, 2011, pp\. 562–574\.
+
+Bonfer, A\., Chintagunta, P\., #emph[Store Brands: Who Buys Them and What Happens to Retail Prices When They Are Introduced?], “Review of Industrial Organization”, vol\. 24 no\. 2, 2004, pp\. 195–218\.
+
+Buil, I\., de Chernatony, L\., Martínez E\., #emph[Examining the Role of Advertising and Sales Promotions in Brand Equity Creation], “Journal of Business Research”, vol\. 66, no\. 1, 2013, pp\. 115–122\.
+
+Calvo\-Porral, C\., Lévy\-Mangin, J\-P\., #emph[Private Label Brands: Major Perspective of Two Customer\-Based Brand Equity Models], “The International Review of Retail, Distribution and Consumer Research”, vol\. 24, no\. 4, 2014, pp\. 431–452\.
+
+Campbell, L\., Diamond, W\., #emph[Framing and Sales Promotions: The Characteristics of a “Good Deal”], “Journal of Consumer Marketing”, vol\. 7, no\. 4, 1990, pp\. 25–231\.
+
+Chu, S\., Keh, H\.T\., #emph[Brand Value Creation: Analysis of the Interbrand\-Business Week Brand Value Rankings], “Marketing Letters”, vol\. 17, no\. 4, 2006, pp\. 323–331\.
+
+Cobb\-Walgren, C\., Ruble, C\.A\., Donthu, N\., #emph[Brand Equity, Brand Preference and Purchase Intent], “Journal of Advertising”, vol\. 24, no\. 3, 1995, pp\. 25–40\.
+
+Collins\-Dodd, C\., Lindley, T\., #emph[Store Brands and Retail Differentiation: The Influence of Store Image and Store Brand Attitude on Store Own Brand Perceptions], “Journal of Retailing and Consumer Services”, vol\. 10, no\. 6, 2003, pp\. 345–352\.
+
+Cuneo, A\., Lopez, P\., Yagüe J\.M\., #emph[Measuring Private Labels Brand Equity: A Consumer Perspective], “European Journal of Marketing”, vol\. 46, no\. 7\/8, 2012a, pp\. 952–964\.
+
+Cuneo, A\., Lopez, P\., Yagüe J\.M\., #emph[Private Label Brands: Measuring Equity Across Consumer Segments], “Journal of Product & Brand Management”, vol\. 21, no\. 6, 2012b, pp\. 428–438\.
+
+De Wulf, K\., Oderkerken\-Shroder, G\., Goedertier, F\., Van Ossel, G\., #emph[Consumer Perceptions of Store Brands Versus National Brands], “Journal of Consumer Marketing”, vol\. 22, no\. 4, 2005, pp\. 223–232\.
+
+DelVecchio, D\., Henard, D\.H\., Freling, T\.H\., #emph[The Effect of Sales Promotion on Post\-Promotion Brand Preference: A Meta\-Analysis], “Journal of Retailing”, vol\. 82, no\. 3, 2006, pp\. 203–213\.
+
+Dursun, İ\., Tümer Kabadayi, E\., Koçan Alan, A\., Sezen, B\., #emph[Store Brand Purchase Intention: Effects of Risk, Quality, Familiarity and Store Brand Shelf Space], “Journal of Global Strategic Management”, vol\. 5, no\. 2, 2011, pp\. 113–123\.
+
+Garretson, J\.A\., Fisher, D\., Burton, S\., #emph[Antecedents of Private Label Attitude and National Brands Pro\- motion Attitude: Similarities and Differences], “Journal of Retailing”, vol\. 78, no\. 2, 2002, pp\. 91–99\.
+
+Gedenk, K\., Neslin, S\., #emph[The Role of Retail Promotion in Determining Future Brand Loyalty: Its Effect on Purchase Event Feedback], “Journal of Retailing”, vol\. 75, no\. 4, 1999, pp\. 433–459\.
+
+Hoch, S\., How #emph[Should National Brands Think about Private Labels?], “MIT Sloan Management Review”, vol\. 37, January 1996, pp\. 89–102\.
+
+Jørgensen, S\., Taboubi, S\., Zaccour, G\., #emph[Retail Promotions with Negative Brand Effects: Is Cooperation Possible?], “European Journal of Operational Research”, vol\. 150, no\. 2, 2003, pp\. 395–405\.
+
+Keller, K\.L\., #emph[Strategic Brand Management: Building, Measuring, and Managing Brand Equity], \(3rd ed\.\), Prentice Hall, New York 2007\.
+
+Kumar, N\., Steenkamp, J\.\-B\.E\.M\., #emph[Private Label Strategy], Harvard Business School Press, Cambridge, MA 2007\.
+
+Mieres, C\. Martín, A\.M\.D\., Díaz Gutiérrez, A\.M\., Trespalacios, J\.A\., #emph[Influence of Perceived Risk on Store Brand Proneness], “International Journal of Retail & Distribution Management”, vol\. 34, no\. 10, 2006b, 761–772\.
+
+Mieres, C\., Martín, A\.M\.D\., Díaz Gutiérrez, A\.M\., Trespalacios, J\.A\., #emph[Antecedents of the Difference in Perceived Risk Between Store Brands and National Brands], “European Journal of Marketing”, vol\. 40, no\. 1\/2, 2006a, pp\. 61–82\.
+
+Montaner, T\., Pina, J\.M\., #emph[The Effect of Promotion Type and Benefit Congruency on Brand Image], “Journal of Applied Business Research”, vol\. 24, no\. 3, 2008, pp\. 15–28\.
+
+Moorthy, S\., Hawkins, S\.A\., #emph[Advertising Repetition and Quality Perception], “Journal of Business Research”, vol\. 58, no\. 3, 2005, pp\. 354–360\.
+
+Nielsen\/PLMA\. \(2012\)\. #emph[Private Label Market Share]\. #emph[Yearbook]\. www\.plmainternational\.com \(access: 5\.09\.2013\)\.
+
+Palazón, M\., Delgado\-Ballester, E\., #emph[Effectiveness of Price Discounts and Premium Promotions], “Psychology and Marketing”, vol\. 26, no\. 12, 2009, pp\. 1108–1129\.
+
+Rajiv, S\., Dutta, S\., Dhar, S\., Asymmetric Store Positioning and Promotional Advertising Strategies: Theory and Evidence, “Marketing Science”, vol\. 21, no\. 1, 2002, pp\. 74–96\.
+
+Raju, J\., Sethuraman, R\., Dhar, S\., #emph[The Introduction and Performance of Store Brands], “Management Science”, vol\. 41, no\. 6, 1995, pp\. 957–978\.
+
+Rao, A\.R\., Monroe, K\.B\., #emph[The Effect of Price, Brand Name, and Store Name on Buyers’ Perceptions of Product Quality: An Integrative Review], “Journal of Marketing Research”, vol\. 26, no\. 3, 1989, pp\. 351–357\.
+
+Sayman, S\., Hoch, S\., Raju, J\., #emph[Positioning of Store Brands], “Marketing Science”, vol\. 21, no\. 4, 2002, pp\. 378–397\.
+
+Sethuraman, R\., #emph[A Model of How Discounting High\-Priced Brands Affects the Sales of Low\-Priced Brands], “Journal of Market Research”, vol\. 33, no\. 4, 1996, pp\. 399–409\.
+
+Sethuraman, R\., Raju, J\., #emph[The Competition between National Brands and Store Brands: Models, Insights, Implications, and Future Research Directions], “Foundations and Trends® in Marketing”, vol\. 7, no\. 1, 2012, pp\. 1–108\.
+
+Sprott, D\.E\., Shimp, T\., #emph[Using Product Sampling to Augment the Perceived Quality of Store Brands], “Journal of Retailing”, vol\. 80, no\. 3, 2004, pp\. 305–15\.
+
+Steenkamp, J\.\-B\.E\.M\., Dekimpe, M\.G\., #emph[The Increasing Power of Store Brands: Building Loyalty and Market Share], “Long Range Planning”, vol\. 30, no\. 6, 1997, pp\. 917–930\.
+
+Villarejo\-Ramos, A\.F\., Sánchez\-Franco, M\.J\., #emph[The Impact of Marketing Communication and Price Promotion on Brand Equity], “Journal of Brand Management”, vol\. 12, no\. 6, 2005, pp\. 431–444\.
+
+Wang, F\., Zhang, X\.\-P\., Ouyang M\., #emph[Does Advertising Create Sustained Firm Value? The Capitalization of Brand Intangible], “Journal of the Academy of Marketing Science”, vol\. 37, no\. 2, 2009, pp\. 130–143\.
+
+Yoo, B\., Donthu, N\., #emph[Developing and Validating a Multidimensional Consumer\-Based Brand Equity Scale], “Journal of Business Research”, vol\. 52, no\. 1, 2001, pp\. 1–14\.
+
+Yoo, B\., Donthu, N\., Lee, S\., #emph[An Examination of Selected Marketing Mix Elements and Brand Equity], “Journal of the Academy of Marketing Science”, vol\. 28, no\. 2, 2000, pp\. 195–211\.
+

@@ -1,0 +1,11 @@
+text: store-brand-equity-antecedents-conceptual-model.blocks.txt
+affiliation_line: Maria Curie-Skłodowska University in Lublin; Nottingham Trent University
+title_page_label: Open access article
+running_label: open access (CC BY 4.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article; it differs only in formatting and
+  pagination, and the authors' email addresses have been left out. Please cite the published version.
+title_page_footer: Re-typeset from the published open access article (CC BY 4.0); the publisher's typesetting and layout have been removed and Figure 1 redrawn.
+figures:
+  fig1:
+    svg: figures/lukasik-schivinski-2017-store-brand-equity-model.svg
