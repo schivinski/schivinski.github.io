@@ -1,0 +1,25 @@
+text: social-media-covid-vaccination-intention.blocks.txt
+title_page_label: Open access article
+running_label: open access (CC BY-NC-ND 4.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article unchanged; only the format differs.
+  Please cite the published version.
+affiliation_line: RMIT University
+title_page_footer: Re-typeset from the published open access article (CC BY-NC-ND 4.0); the publisher's typesetting and layout have been removed.
+table_overrides:
+  '1':
+    title: Construct reliability and validity outputs.
+    size: 8pt
+    widths: [1fr, auto, auto, auto, auto, auto, auto, auto, auto, auto]
+    note: 'Note: SMC = Social media communication, Vaccine = COVID-19 vaccine; α = Cronbach’s alpha, CR = composite reliability, AVE = average variance extracted; The square root of the AVE values is reported in italic; GOF: ML*χ*^{2}_{(362)} = 800.50, CFI = 0.95, TLI = 0.94, RMSEA = 0.05 (90% CI = 0.04–0.05); *n* = 428.'
+  '2':
+    title: Structural results.
+    size: 8pt
+    columns: [Hypothesis, Beta, '*t*-value / 95% CI', '*p*-value']
+    note: 'Notes: SMC = Social media communication, Vaccine = COVID-19 vaccine; GOF: ML*χ*^{2}_{(364)} = 1286.66, CFI = 0.91, TLI = 0.90, and RMSEA = 0.06 (90% [CI 0.06–0.07]); Ind.Beta = indirect Beta, 95% CI = 95% confidence interval; Bootstrap sampling = 5000; apath = direct structural path from independent variable to mediator, bpath = direct structural path from mediator to dependent variable; *n* = 428.'
+  A:
+    label: Appendix A
+    title: Descriptive statistics for the constructs and measurements
+    size: 8pt
+    columns: [Constructs and measurements, 'Stand. factor loading (λ_{x})', Mean, SD, Skewness, Kurtosis]
+    note: '* Item removed from the analyses (see Confirmatory factor analysis).'

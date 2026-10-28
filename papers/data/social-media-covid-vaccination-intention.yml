@@ -1,0 +1,310 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Marketing Communications 31(1), 1-20 (online-first PDF supplied by Bruno, 28 Oct 2026);
+# issue details from Crossref. The version of record is now open access (hybrid, CC BY-NC-ND 4.0, per Crossref and
+# Unpaywall), so the text is re-typeset without changes; the article has no figures (the model below is drawn from Table 2).
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "The effect of social media communication on intention to vaccinate against COVID-19: A relationship mediated by perceptions of vaccine efficacy and safety"
+doi: "10.1080/13527266.2023.2191618"
+journal: "Journal of Marketing Communications"
+issn: "1352-7266"
+publisher: "Routledge (Taylor & Francis)"
+volume: "31"
+issue: "1"
+pages: "1–20"
+published: "2025-01"
+published_label: "2025 (online 27 March 2023)"
+online: "2023-03-27"
+open_access: true
+licence: "CC BY-NC-ND 4.0"
+licence_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+aam:
+  file: "park-schivinski-et-al-2023-jmc-covid-vaccination.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article (CC BY-NC-ND 4.0), re-typeset as a clean PDF with unchanged content. Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives
+    4.0 International License (https://creativecommons.org/licenses/by-nc-nd/4.0/). Originally published in Journal of
+    Marketing Communications, 31(1), 1–20 (online 27 March 2023), https://doi.org/10.1080/13527266.2023.2191618. Only
+    the format has changed: the text has been re-typeset; the content is unchanged.
+
+authors:
+  - given: "Dooyeon"
+    family: "Park"
+    affiliation: ["RMIT University"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Hilary"
+    family: "Duns-McKay"
+    affiliation: ["RMIT University"]
+  - given: "Bartholomew"
+    family: "Heeren"
+    affiliation: ["RMIT University"]
+  - given: "Elizabeth"
+    family: "McLachlan"
+    affiliation: ["RMIT University"]
+
+cite_short: "Park et al., 2023"
+badges: ["428 adults in Australia", "Online survey", "Structural equation modelling", "Mediation analysis", "COVID-19"]
+keywords:
+  # Article's own keywords
+  - COVID-19 vaccination
+  - social media
+  - perceived vaccine efficacy
+  - perceived vaccine safety
+  - risk perception
+  - intention to vaccinate
+  # What the study is about
+  - vaccine hesitancy
+  - health communication
+  - official sources on social media
+  - user-generated content
+  - source credibility
+  - misinformation
+  - public health campaigns
+  - social media communication (SMC)
+  # Theory and measures
+  - source credibility theory
+  - Oxford COVID-19 vaccine confidence and complacency scale
+  - social media communication scale (Schivinski and Dabrowski)
+  # Context
+  - Australia
+  - pandemic
+  # Method
+  - online survey
+  - structural equation modelling (SEM)
+  - mediation analysis
+  - bootstrapping
+  - confirmatory factor analysis
+  - lavaan
+  - R
+
+in_brief: >-
+  Positive views of vaccine information shared on social media go with a stronger intention to get vaccinated, because
+  they make the vaccine seem effective and safe. In a survey of 428 adults in Australia in 2021, this held for both
+  official sources and posts by ordinary users; fear of COVID-19 did not carry the effect.
+
+findings:
+  - headline: "Official vaccine information on social media goes with intention to vaccinate."
+    text: >-
+      Among 428 adults in Australia, positive evaluations of official sources&rsquo; social media communication about
+      COVID-19 vaccines had a total effect on intention to take the vaccine of &beta; = 0.28 (<i>p</i> = .001); the
+      direct effect, reported as positive in the article, was &beta; = 0.05 (<i>p</i> = 0.10) (Park et al., 2023).
+  - headline: "User-generated posts work only through beliefs about the vaccine."
+    text: >-
+      User-generated social media communication had no direct effect on intention (&beta; = &minus;0.01,
+      <i>p</i> = .87) but raised it indirectly through perceived vaccine efficacy (indirect &beta; = 0.08, <i>p</i> = .01)
+      and safety (0.02, <i>p</i> = .03): full mediation (Park et al., 2023).
+  - headline: "Perceived efficacy is the strongest route."
+    text: >-
+      Perceived vaccine efficacy was the strongest predictor of intention (&beta; = 0.57) and carried most of the effect
+      of official sources (indirect &beta; = 0.16, 95% CI 0.09&ndash;0.24); perceived safety added a smaller route
+      (0.04) (Park et al., 2023).
+  - headline: "Risk perception did not mediate."
+    text: >-
+      Official posts raised COVID-19 risk perception (&beta; = 0.20), but risk perception did not predict intention
+      (&beta; = 0.06, <i>p</i> = .14), so neither indirect path through it was significant (Park et al., 2023).
+
+glance:
+  - { label: "Design", value: "Cross-sectional online survey on Qualtrics, late August to early September 2021, shared on Facebook groups and pages (convenience and snowball sampling); structural equation model with mediation, 5,000 bootstrap draws, in R (lavaan)" }
+  - { label: "Participants", value: "428 adults living in Australia (from 554 responses; 126 with six or more missing items excluded), aged 16 to 79 (mean 46.2), 53.2% women, 51.6% from Victoria; 46.9% had two vaccine doses and 27.3% one" }
+  - { label: "Predictors", value: "Evaluations of official source and of user-generated social media communication about the vaccines, 4 items each (adapted from Schivinski &amp; Dabrowski, 2016), &alpha; = 0.87 and 0.90" }
+  - { label: "Mediators", value: "Perceived vaccine efficacy (8 items) and safety (5 of 6 items) from the Oxford COVID-19 vaccine confidence and complacency scale (Freeman et al., 2020); COVID-19 risk perception (5 of 6 items, adapted from Yang &amp; Cho, 2017)" }
+  - { label: "Outcome", value: "Intention to take a COVID-19 vaccine, including boosters (3 items, adapted from Huynh &amp; Senger, 2021), &alpha; = 0.85" }
+  - { label: "Controls", value: "Gender, age and time spent on social media (none significant)" }
+  - { label: "Model fit", value: "CFA: ML &chi;&sup2;(362) = 800.50, CFI = 0.95, TLI = 0.94, RMSEA = 0.05. Structural model: ML &chi;&sup2;(364) = 1286.66, CFI = 0.91, TLI = 0.90, RMSEA = 0.06; <i>R</i>&sup2; for intention = 0.73" }
+
+figures:
+  - file: figures/park-et-al-2023-vaccine-intention-model.svg
+    title: "The model, with the standardised estimates reported in Table 2"
+    caption: >-
+      Drawn from Table 2 of the article (the article has no figure). Grey dashed paths are not significant. The direct
+      effects of official source (&beta; = 0.05, <i>p</i> = .10) and user-generated social media communication
+      (&beta; = &minus;0.01, <i>p</i> = .87) on intention are not drawn. * <i>p</i> &lt; .05, ** <i>p</i> &lt; .01,
+      *** <i>p</i> &le; .001; <i>n</i> = 428.
+
+results:
+  title: "Indirect effects on intention to vaccinate"
+  unit: ""
+  max: 0.3
+  note: "Standardised indirect effects from Table 2 of the article (n = 428; 5,000 bootstrap draws). Paths through COVID-19 risk perception (0.01) were not significant."
+  groups:
+    - name: "Official source social media"
+      bars:
+        - { label: "Via perceived efficacy", value: 0.16, display: "0.16", highlight: true }
+        - { label: "Via perceived safety", value: 0.04, display: "0.04", highlight: true }
+        - { label: "Total effect", value: 0.28, display: "0.28" }
+    - name: "User-generated social media"
+      bars:
+        - { label: "Via perceived efficacy", value: 0.08, display: "0.08", highlight: true }
+        - { label: "Via perceived safety", value: 0.02, display: "0.02", highlight: true }
+        - { label: "Total effect (n.s.)", value: 0.09, display: "0.09" }
+
+question: >-
+  Social media can spread both accurate vaccine information and misinformation, and studies of its effect on
+  vaccination have been inconsistent, mostly treating all social media content as the same. During the 2021 COVID-19
+  vaccination campaign in Australia, we asked whether vaccine information from official sources (such as health
+  authorities, governments and news organisations) and from ordinary users relates differently to intention to
+  vaccinate, and whether perceived vaccine efficacy, perceived safety and risk perception explain the link.
+
+implications:
+  practical: >-
+    Health agencies should use social media actively: official sources&rsquo; credibility carries over to the platform,
+    making it an effective way to reach people looking for vaccine information. Messages should focus on how well and
+    how safely vaccines work rather than on fear of the disease, and communicators can encourage user-generated content
+    that shares accurate information about efficacy and safety, since even posts by ordinary users raise intention when
+    they shape those beliefs.
+  theoretical: >-
+    The study separates social media communication by source and shows that the source matters for vaccine intention,
+    which may explain the inconsistent findings of earlier studies that treated social media as one channel. It
+    identifies perceived vaccine efficacy and safety, not risk perception, as the beliefs through which social media
+    communication relates to intention to vaccinate.
+
+limitations:
+  - "The convenience and snowball sample recruited on Facebook may not represent the Australian population."
+  - "The data are cross-sectional, so causal links between social media communication and intention cannot be established."
+  - "Differences between groups (for example by vaccination status or country) were not examined; the availability of official sources on social media may vary by country."
+
+faq:
+  - q: "Does social media make people more willing to get vaccinated?"
+    a: >-
+      It depends on the source and on what people come to believe. Among 428 adults in Australia, positive views of
+      official vaccine information on social media went with a stronger intention to vaccinate, mostly because they
+      raised perceived vaccine efficacy and safety (Park et al., 2023).
+  - q: "Do posts by ordinary users affect vaccine intentions?"
+    a: >-
+      Not directly. User-generated social media communication had no direct effect, but it raised intention indirectly
+      by improving perceptions of how effective and safe the vaccine is (Park et al., 2023).
+  - q: "Does fear of COVID-19 explain vaccination intentions?"
+    a: >-
+      Not in this study: COVID-19 risk perception did not predict intention to vaccinate and did not mediate the
+      effects of social media communication (Park et al., 2023).
+  - q: "What should health campaigns on social media focus on?"
+    a: >-
+      The authors recommend focusing on vaccine efficacy and safety, using official sources&rsquo; credibility on social
+      media, and encouraging accurate user-generated content (Park et al., 2023).
+
+concepts:
+  - term: "Social media communication (SMC)"
+    definition: "Content about a topic shared on social media, here evaluated by how satisfied people are with it, whether it meets their expectations and how good its information is."
+  - term: "Official source vs user-generated SMC"
+    definition: "Content from health authorities, governments and news organisations versus content created by ordinary users such as family and friends."
+  - term: "Perceived vaccine efficacy"
+    definition: "The belief that a vaccine works to protect oneself and others."
+  - term: "Perceived vaccine safety"
+    definition: "The belief that a vaccine is safe, including views on how quickly it was developed and on its side effects."
+  - term: "Risk perception"
+    definition: "How likely and how severe a person believes catching a disease would be."
+  - term: "Vaccine hesitancy"
+    definition: "Delay in accepting, or refusal of, vaccination despite its availability."
+
+materials:
+  - label: "Scale items"
+    text: "All items, with standardised loadings, means, standard deviations, skewness and kurtosis, are in Table A below (all on 5-point agreement scales). Two items were removed for low loadings: &lsquo;Taking a COVID-19 vaccine will make me feel like a guinea pig&rsquo; (safety, &lambda; = 0.12) and &lsquo;Even if I fall ill with other ailments, I will avoid going to hospital because of COVID-19&rsquo; (risk, &lambda; = 0.05)."
+  - label: "Eligibility"
+    text: "Respondents had to live in Australia and be older than 16, the age from which COVID-19 vaccination was available at the time."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Open access article (CC BY-NC-ND 4.0), re-typeset", url: "manuscripts/park-schivinski-et-al-2023-jmc-covid-vaccination.pdf" }
+  - { label: "Published version", note: "Journal of Marketing Communications (Taylor &amp; Francis, open access)", url: "https://doi.org/10.1080/13527266.2023.2191618" }
+
+tables:
+  - id: "1"
+    title: "Construct reliability and validity outputs"
+    columns: ["Construct", "&alpha;", "CR", "AVE", "1", "2", "3", "4", "5", "6"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["1. Official source SMC", "0.87", "0.88", "0.66", "<i>0.81</i>", "", "", "", "", ""]
+      - ["2. User-generated SMC", "0.90", "0.90", "0.69", "0.40", "<i>0.83</i>", "", "", "", ""]
+      - ["3. Vaccine efficacy", "0.88", "0.83", "0.50", "0.33", "0.17", "<i>0.71</i>", "", "", ""]
+      - ["4. Vaccine safety", "0.84", "0.92", "0.61", "0.29", "0.21", "0.72", "<i>0.78</i>", "", ""]
+      - ["5. COVID-19 risk perception", "0.82", "0.86", "0.56", "0.23", "0.06", "0.74", "0.59", "<i>0.75</i>", ""]
+      - ["6. Intention to take COVID-19 vaccine", "0.85", "0.89", "0.73", "0.28", "0.14", "0.84", "0.60", "0.67", "<i>0.85</i>"]
+    note: "SMC = social media communication; &alpha; = Cronbach&rsquo;s alpha; CR = composite reliability; AVE = average variance extracted; square roots of the AVE on the diagonal (in italics). ML &chi;&sup2;(362) = 800.50, CFI = 0.95, TLI = 0.94, RMSEA = 0.05 (90% CI 0.04&ndash;0.05); <i>n</i> = 428. Values as printed in the article."
+  - id: "2"
+    title: "Structural results"
+    columns: ["Path", "&beta;", "<i>t</i> / 95% CI", "<i>p</i>"]
+    align: ["left", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["Direct effects", "", "", ""] }
+      - ["H1. Official source SMC → intention to take COVID-19 vaccine", "0.05", "1.63", "0.10"]
+      - ["H2. User-generated SMC → intention to take COVID-19 vaccine", "−0.01", "−0.16", "0.87"]
+      - ["a-path 1. Official source SMC → vaccine efficacy", "0.29", "5.97", "0.001"]
+      - ["a-path 2. Official source SMC → vaccine safety", "0.28", "5.89", "0.001"]
+      - ["a-path 3. Official source SMC → COVID-19 risk perception", "0.20", "4.15", "0.001"]
+      - ["a-path 4. User-generated SMC → vaccine efficacy", "0.14", "2.60", "0.01"]
+      - ["a-path 5. User-generated SMC → vaccine safety", "0.15", "2.94", "0.003"]
+      - ["a-path 6. User-generated SMC → COVID-19 risk perception", "0.04", "0.08", "0.94"]
+      - ["b-path 1. Vaccine efficacy → intention to take COVID-19 vaccine", "0.57", "10.29", "0.001"]
+      - ["b-path 2. Vaccine safety → intention to take COVID-19 vaccine", "0.15", "3.08", "0.001"]
+      - ["b-path 3. COVID-19 risk perception → COVID-19 vaccine intention", "0.06", "1.46", "0.14"]
+      - { group: true, cells: ["Indirect effects (indirect &beta;, 95% CI)", "", "", ""] }
+      - ["H3. Official source SMC → vaccine efficacy → intention", "0.16", "0.09–0.24", "0.001"]
+      - ["H4. Official source SMC → vaccine safety → intention", "0.04", "0.01–0.08", "0.005"]
+      - ["H5. Official source SMC → COVID-19 risk perception → intention", "0.01", "−0.01–0.03", "0.17"]
+      - ["H6. User-generated SMC → vaccine efficacy → intention", "0.08", "0.01–0.14", "0.01"]
+      - ["H7. User-generated SMC → vaccine safety → intention", "0.02", "0.01–0.04", "0.03"]
+      - ["H8. User-generated SMC → COVID-19 risk perception → intention", "0.01", "−0.01–0.01", "0.93"]
+      - { group: true, cells: ["Total effects", "", "", ""] }
+      - ["Official source SMC → intention to take COVID-19 vaccine", "0.28", "5.77", "0.001"]
+      - ["User-generated SMC → intention to take COVID-19 vaccine", "0.09", "1.88", "0.06"]
+      - { group: true, cells: ["Control variables", "", "", ""] }
+      - ["Age → intention to take COVID-19 vaccine", "−0.03", "−1.06", "0.28"]
+      - ["Gender → intention to take COVID-19 vaccine", "0.01", "0.27", "0.78"]
+      - ["Social media usage → intention to take COVID-19 vaccine", "−0.02", "−0.29", "0.80"]
+    note: "ML &chi;&sup2;(364) = 1286.66, CFI = 0.91, TLI = 0.90, RMSEA = 0.06 (90% CI 0.06&ndash;0.07); a-path = independent variable to mediator; b-path = mediator to dependent variable; 5,000 bootstrap draws; <i>n</i> = 428. Values as printed in the article."
+  - id: "A"
+    title: "Descriptive statistics for the constructs and measurements"
+    collapsed: true
+    columns: ["Construct and item", "&lambda;", "Mean", "SD", "Skew.", "Kurt."]
+    align: ["left", "right", "right", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["Official sources of social media communication", "", "", "", "", ""] }
+      - ["I am satisfied with their social media communications about the vaccines", "0.90", "2.80", "1.21", "0.04", "−0.96"]
+      - ["The level of their social media communication about the vaccines meets my expectations", "0.83", "2.86", "1.18", "−0.10", "−0.82"]
+      - ["The level of information they provide about the vaccines on social media is very good", "0.83", "2.79", "1.18", "0.05", "−0.92"]
+      - ["Official social media communications about the vaccines perform well when compared with other types of communications, e.g., TV, radio, newspapers", "0.70", "2.99", "1.19", "−0.07", "−0.78"]
+      - { group: true, cells: ["User-generated social media communication", "", "", "", "", ""] }
+      - ["I am satisfied with their social media communications about the vaccines", "0.90", "2.79", "1.11", "−0.03", "−0.60"]
+      - ["The level of their social media communication about the vaccines meets my expectations", "0.85", "2.86", "1.05", "−0.15", "−0.41"]
+      - ["The level of information they provide about the vaccines on social media is very good", "0.87", "2.72", "1.13", "0.04", "−0.66"]
+      - ["Social media communications about the vaccines from family and friends perform well when compared with official social media communications", "0.71", "2.76", "1.13", "−0.01", "−0.66"]
+      - { group: true, cells: ["Vaccine hesitancy: vaccine efficacy", "", "", "", "", ""] }
+      - ["It will be helpful for my community if I get a COVID-19 vaccine", "0.92", "4.57", "1.06", "−2.65", "5.93"]
+      - ["It will save lives if I get a COVID-19 vaccine", "0.93", "4.39", "1.13", "−2.04", "3.21"]
+      - ["It will be dangerous if people over 16 don&rsquo;t get a COVID-19 vaccine", "0.81", "4.21", "1.24", "−1.61", "1.45"]
+      - ["A COVID-19 vaccine will strengthen my immune system", "0.70", "3.98", "1.32", "−1.13", "0.08"]
+      - ["Taking a COVID-19 vaccine will give me greater freedom", "0.72", "4.32", "1.08", "−1.89", "3.01"]
+      - ["I think I will be infected with COVID-19 over the next 12 months", "0.62", "2.85", "1.08", "−0.01", "−0.60"]
+      - ["A COVID-19 vaccine will work for everyone", "0.68", "3.33", "1.32", "−0.36", "−1.08"]
+      - ["A COVID-19 vaccine will work for me", "0.84", "4.38", "1.06", "−1.92", "3.08"]
+      - { group: true, cells: ["Vaccine hesitancy: vaccine safety", "", "", "", "", ""] }
+      - ["The speed of developing and testing COVID-19 vaccines means they will be good", "0.62", "3.19", "1.17", "−0.21", "−0.44"]
+      - ["The speed of developing and testing COVID-19 vaccines means they will be safe", "0.66", "3.33", "1.24", "−0.27", "−0.71"]
+      - ["Getting a COVID-19 vaccine is a sign of personal strength", "0.72", "3.20", "1.28", "−0.31", "−0.74"]
+      - ["I expect that receiving a COVID-19 vaccine will be hardly noticeable", "0.75", "3.59", "1.23", "−0.49", "−0.80"]
+      - ["The side effects of a COVID-19 vaccine are mild", "0.78", "3.80", "1.22", "−0.90", "−0.15"]
+      - ["Taking a COVID-19 vaccine will make me feel like a guinea pig*", "–", "4.24", "1.22", "−1.43", "0.73"]
+      - { group: true, cells: ["COVID-19 risk perception", "", "", "", "", ""] }
+      - ["I think I will contract COVID-19 if I come into contact with a COVID-19 patient", "0.92", "3.93", "1.04", "−1.08", "0.87"]
+      - ["I think that I might contract COVID-19 even if I do not come into contact with a COVID-19 patient", "0.89", "2.33", "1.28", "0.57", "−0.89"]
+      - ["My health will be severely damaged if I contract COVID-19", "0.60", "3.77", "1.14", "−0.92", "0.22"]
+      - ["I think COVID-19 is more severe than any other respiratory disease", "0.62", "3.86", "1.28", "−0.97", "−0.19"]
+      - ["Even if I fall ill with other ailments, I will avoid going to hospital because of COVID-19*", "–", "2.09", "1.28", "0.83", "−0.68"]
+      - ["COVID-19 will inflict serious damage on my community", "0.67", "4.18", "1.15", "−1.49", "1.38"]
+      - { group: true, cells: ["Intention to take the COVID-19 vaccine", "", "", "", "", ""] }
+      - ["I intend to take a COVID-19 vaccine", "0.88", "4.66", "0.96", "−2.95", "7.74"]
+      - ["If I had the opportunity to take a COVID-19 vaccine today, I would take it", "0.81", "4.55", "1.13", "−2.45", "4.60"]
+      - ["I plan to take a COVID-19 vaccine", "0.88", "4.63", "0.99", "−2.80", "6.75"]
+    note: "&lambda; = standardised factor loading; * item removed from the analyses for a low loading. All items rated from 1 = strongly disagree to 5 = strongly agree. Items and values as printed in Appendix A of the article."
+
+related:
+  - "10.1080/13527266.2013.871323"
+  - "10.1080/13527266.2022.2109056"
+  - "10.1371/journal.pone.0273927"
+  - "10.3727/152599518x15403853721268"
