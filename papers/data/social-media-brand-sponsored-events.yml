@@ -1,0 +1,255 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Event Management 23(6), 835-853 (publisher PDF supplied by Bruno, 28 Oct 2026). Not open access;
+# Cognizant allows only the submitted version to be archived (Sherpa Romeo), so no full-text copy is hosted here.
+# The article prints Bruno's email address; it is not reproduced. Figures 1 and 2 redrawn.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "The influence of social media communication on consumer’s attitudes and behavioral intentions concerning brand-sponsored events"
+doi: "10.3727/152599518X15403853721268"
+journal: "Event Management"
+issn: "1525-9951"
+publisher: "Cognizant Communication Corporation"
+volume: "23"
+issue: "6"
+pages: "835–853"
+published: "2019-12"
+published_label: "2019"
+open_access: false
+
+authors:
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Birkbeck, University of London"]
+    me: true
+  - given: "Daniela"
+    family: "Langaro"
+    orcid: "0000-0002-1246-0720"
+    affiliation: ["ISCTE – University Institute of Lisbon"]
+  - given: "Christina"
+    family: "Shaw"
+    affiliation: ["Nottingham Business School, Nottingham Trent University"]
+
+cite_short: "Schivinski, Langaro & Shaw, 2019"
+badges: ["307 UK social media users", "Online survey", "Structural equation modelling", "Mediation analysis", "83 brands", "United Kingdom"]
+keywords:
+  # Article's own keywords
+  - social media
+  - event marketing
+  - brand attitude
+  - event attitude
+  - event participation
+  # What the study is about
+  - brand-sponsored events
+  - firm-created content
+  - user-generated content
+  - social media brand-related communication
+  - event attendance intention
+  - sponsorship
+  - secondary brand associations
+  - attitude–behavior relationship
+  # Theory and measures
+  - theory of reasoned action
+  - Schivinski & Dabrowski social media communication scale
+  # Method
+  - online survey
+  - confirmatory factor analysis
+  - structural equation modelling (SEM)
+  - bootstrapped indirect effects
+  - Mplus
+  # Context
+  - United Kingdom
+
+in_brief: >-
+  Social media content about a brand makes people more willing to go to the events that brand sponsors, mainly through
+  how they feel about the event. In a survey of 307 British social media users, firm-created and user-generated content
+  improved brand attitude, user-generated content also improved event attitude, and event attitude drove intentions to
+  participate.
+
+findings:
+  - headline: "Both types of social media content improve brand attitude."
+    text: >-
+      Positive evaluations of firm-created (&beta; = 0.32) and user-generated (&beta; = 0.30) social media brand-related
+      content predicted a more positive brand attitude (Schivinski, Langaro &amp; Shaw, 2019).
+  - headline: "Only user-generated content directly improves event attitude."
+    text: >-
+      User-generated content predicted attitude towards brand-sponsored events (&beta; = 0.24), while firm-created
+      content did not (&beta; = 0.12, <i>p</i> = .12) (Schivinski, Langaro &amp; Shaw, 2019).
+  - headline: "Event attitude, not brand attitude, drives intention to attend."
+    text: >-
+      Event attitude predicted intention to participate in a brand-sponsored event (&beta; = 0.34); brand attitude
+      shaped event attitude (&beta; = 0.33) but had no direct effect on intention (&beta; = 0.03) (Schivinski, Langaro
+      &amp; Shaw, 2019).
+  - headline: "Social media content reaches intentions through a chain of attitudes."
+    text: >-
+      Both content types increased intention to participate through brand attitude and then event attitude (indirect
+      &beta; = 0.03 each), with total effects of 0.09 for firm-created and 0.13 for user-generated content (Schivinski,
+      Langaro &amp; Shaw, 2019).
+
+glance:
+  - { label: "Design", value: "Online survey (Qualtrics) distributed through social media; each respondent named a brand they follow on social media, whose page met screening criteria" }
+  - { label: "Participants", value: "307 valid cases from 421 responses of British social media users aged 18 and over (58.4% women); 83 brands such as Adidas, O2, Tag Heuer and Virgin" }
+  - { label: "Measures", value: "Firm-created and user-generated social media content (four items each, Schivinski &amp; Dabrowski); brand and event attitude (three items each); intention to participate (three items, Lee et al., 2012); 7-point scales" }
+  - { label: "Analysis", value: "Confirmatory factor analysis, structural equation modelling (MLR) and bootstrapped mediation analysis (5,000 draws) in Mplus 7.2" }
+  - { label: "Model fit", value: "MLR &chi;&sup2;(111) = 181.38, CFI = 0.97, TLI = 0.96, RMSEA = 0.04" }
+
+figures:
+  - file: figures/schivinski-langaro-shaw-2019-events-model.svg
+    title: "Figure 1. Conceptual model of social media brand-related content, attitudes and intentional behaviour"
+    caption: >-
+      Redrawn from Figure 1 of the article. The model shows the direct effects (H1&ndash;H5) only; the mediation
+      hypotheses (H6&ndash;H10) are tested through these paths.
+  - file: figures/schivinski-langaro-shaw-2019-events-estimates.svg
+    title: "Figure 2. Standardised direct estimates for the conceptual model"
+    caption: >-
+      Redrawn from Figure 2 of the article, with <i>t</i> values in parentheses. The two non-significant paths, which
+      the article&rsquo;s figure leaves out, are added as grey dashed lines with their Table 2 values; <i>n</i> = 307.
+
+results:
+  title: "Direct effects in the structural model"
+  unit: ""
+  max: 0.4
+  note: "Standardised coefficients from Table 2 of the article (n = 307). FCC = firm-created content; UGC = user-generated content."
+  groups:
+    - name: "Effects on brand attitude"
+      bars:
+        - { label: "FCC", value: 0.32, display: "0.32", highlight: true }
+        - { label: "UGC", value: 0.30, display: "0.30", highlight: true }
+    - name: "Effects on event attitude"
+      bars:
+        - { label: "Brand attitude", value: 0.33, display: "0.33", highlight: true }
+        - { label: "UGC", value: 0.24, display: "0.24", highlight: true }
+        - { label: "FCC", value: 0.12, display: "0.12 (n.s.)" }
+    - name: "Effects on intention to participate"
+      bars:
+        - { label: "Event attitude", value: 0.34, display: "0.34", highlight: true }
+        - { label: "Brand attitude", value: 0.03, display: "0.03 (n.s.)" }
+
+question: >-
+  Brands spend more and more on sponsored events and promote them on social media, and social media communication was
+  thought to influence people&rsquo;s decision to attend events. This had not been tested. We asked whether firm-created
+  and user-generated social media brand-related content shape consumers&rsquo; attitudes towards the brand and the
+  event, and through them their intention to participate in brand-sponsored events.
+
+implications:
+  practical: >-
+    Social media communication is a positive driver of attendance at brand-sponsored events. Brands need to create
+    satisfying content and also encourage users, including influencers people identify with, to generate their own,
+    and should promote events with consistent messages before, during and after the event that present the brand as an
+    enabler of enjoyable, social experiences.
+  theoretical: >-
+    The study extends research on social media brand communication from purchase-related outcomes to a
+    non-transactional behaviour, event participation, and shows that event attitude is the key mediator between social
+    media content and attendance intentions, with stronger effects for user-generated content.
+
+limitations:
+  - "Results were not separated by social media platform or type of brand."
+  - "Event attitude was measured in general terms, not for specific event types such as music or sport."
+  - "Other constructs from the theory of reasoned action and its extensions were not included."
+
+faq:
+  - q: "Does social media make people more likely to attend brand-sponsored events?"
+    a: >-
+      Yes, indirectly. In 307 British social media users, positive evaluations of firm-created and user-generated brand
+      content raised intention to participate in brand-sponsored events through brand and event attitudes (total
+      effects &beta; = 0.09 and 0.13) (Schivinski, Langaro &amp; Shaw, 2019).
+  - q: "Is user-generated content more effective than firm-created content for events?"
+    a: >-
+      In this study, yes: only user-generated content directly improved attitude towards the event (&beta; = 0.24), and
+      it had the larger total effect on intention to attend (Schivinski, Langaro &amp; Shaw, 2019).
+  - q: "Does liking a brand make people attend its events?"
+    a: >-
+      Not directly. Brand attitude improved event attitude (&beta; = 0.33), and event attitude drove intention to attend
+      (&beta; = 0.34), but brand attitude had no direct effect on intention (Schivinski, Langaro &amp; Shaw, 2019).
+
+concepts:
+  - term: "Firm-created social media content"
+    definition: "Brand-related content that the company itself posts on social media, such as posts on its brand page."
+  - term: "User-generated social media content"
+    definition: "Brand-related content that consumers create and share on social media, independently of the company."
+  - term: "Brand-sponsored event"
+    definition: "An event, such as a concert or sports event, that a brand organises or sponsors to engage consumers."
+  - term: "Event attitude"
+    definition: "A consumer&rsquo;s overall evaluation of events sponsored by a brand."
+
+materials:
+  - label: "Scale items"
+    text: "All 17 items with standardised loadings, <i>t</i>-values, means, standard deviations, skewness, kurtosis and R&sup2; are in Table A below."
+
+open_science:
+  - { label: "Published version", note: "Event Management (Cognizant Communication)", url: "https://doi.org/10.3727/152599518X15403853721268" }
+
+tables:
+  - id: "1"
+    title: "Reliability and validity scores of the conceptual model"
+    columns: ["Construct", "CR", "FD", "AVE", "1", "2", "3", "4", "5"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["1. Firm-created social media communication", "0.89", "0.95", "0.67", "<i>0.81</i>", "", "", "", ""]
+      - ["2. User-generated social media communication", "0.87", "0.94", "0.63", "0.55", "<i>0.79</i>", "", "", ""]
+      - ["3. Brand attitude", "0.90", "0.95", "0.75", "0.49", "0.48", "<i>0.86</i>", "", ""]
+      - ["4. Event attitude", "0.91", "0.96", "0.78", "0.42", "0.47", "0.51", "<i>0.88</i>", ""]
+      - ["5. Intention to participate", "0.85", "0.95", "0.66", "0.12", "0.20", "0.21", "0.36", "<i>0.81</i>"]
+    note: "Square roots of the average variance extracted on the diagonal (in italics). CR = composite reliability; FD = factor determinacy; AVE = average variance extracted. MLR &chi;&sup2;(109) = 180.24, CFI = 0.97, TLI = 0.96, RMSEA = 0.04 (90% CI: 0.03&ndash;0.05); <i>n</i> = 307."
+  - id: "2"
+    title: "Standardized structural coefficients of the conceptual model"
+    columns: ["Hypothesis", "&beta;", "95% CI", "<i>t</i>", "<i>p</i>", "Acceptance/rejection"]
+    align: ["left", "right", "right", "right", "right", "left"]
+    rows:
+      - { group: true, span: true, cells: ["Direct effects"] }
+      - ["H1a. FCC → Brand attitude", "0.32", "", "3.73", "0.001", "Accepted"]
+      - ["H1b. UGC → Brand attitude", "0.30", "", "4.04", "0.001", "Accepted"]
+      - ["H2a. FCC → Event attitude", "0.12", "", "1.52", "0.12", "Rejected"]
+      - ["H2b. UGC → Event attitude", "0.24", "", "2.62", "0.01", "Accepted"]
+      - ["H3. Brand attitude → Event attitude", "0.33", "", "4.59", "0.001", "Accepted"]
+      - ["H4. Brand attitude → Intention to participate", "0.03", "", "0.48", "0.62", "Rejected"]
+      - ["H5. Event attitude → Intention to participate", "0.34", "", "4.29", "0.001", "Accepted"]
+      - { group: true, span: true, cells: ["Indirect effects (specific indirect &beta;)"] }
+      - ["H6a. FCC → Brand attitude → Intention to participate", "0.01", "[&minus;0.03,&nbsp;0.05]", "0.43", "0.66", "Rejected"]
+      - ["H6b. FCC → Event attitude → Intention to participate", "0.03", "[&minus;0.01,&nbsp;0.08]", "1.28", "0.19", "Rejected"]
+      - ["H7a. UGC → Brand attitude → Intention to participate", "0.01", "[&minus;0.03,&nbsp;0.05]", "0.41", "0.67", "Rejected"]
+      - ["H7b. UGC → Event attitude → Intention to participate", "0.08", "[0.02,&nbsp;0.13]", "2.25", "0.02", "Accepted"]
+      - ["H8a. FCC → Brand attitude → Event attitude", "0.12", "[0.04,&nbsp;0.19]", "2.77", "0.001", "Accepted"]
+      - ["H8b. UGC → Brand attitude → Event attitude", "0.11", "[0.02,&nbsp;0.20]", "2.21", "0.02", "Accepted"]
+      - ["H9a. FCC → Brand attitude → Event attitude → Intention to participate", "0.03", "[0.01,&nbsp;0.06]", "2.24", "0.02", "Accepted"]
+      - ["H9b. UGC → Brand attitude → Event attitude → Intention to participate", "0.03", "[0.01,&nbsp;0.05]", "1.81", "0.06", "Accepted"]
+      - ["H10. Brand attitude → Event attitude → Intention to participate", "0.12", "[0.04,&nbsp;0.20]", "2.68", "0.001", "Accepted"]
+      - { group: true, span: true, cells: ["Total effects"] }
+      - ["FCC → Intention to participate", "0.09", "[0.03,&nbsp;0.15]", "2.58", "0.01", ""]
+      - ["UGC → Intention to participate", "0.13", "[0.07,&nbsp;0.18]", "3.79", "0.001", ""]
+    note: "FCC = firm-created social media brand-related communication; UGC = user-generated social media brand-related communication. SEM model: MLR &chi;&sup2;(111) = 181.38, CFI = 0.97, TLI = 0.96, RMSEA = 0.04 (90% CI: 0.03&ndash;0.05); <i>n</i> = 307. Mediational model: ML &chi;&sup2;(111) = 248.30, CFI = 0.96, TLI = 0.95, RMSEA = 0.06 (90% CI: 0.05&ndash;0.07); 5,000 bootstrap draws. Decisions and <i>p</i>-values as printed."
+  - id: "A"
+    title: "Descriptive statistics for the constructs and measurements"
+    collapsed: true
+    columns: ["Construct and item", "Loading", "<i>t</i>", "Mean", "SD", "Skewness", "Kurtosis", "<i>R</i>&sup2;"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - { group: true, span: true, cells: ["Firm-created social media content (Schivinski &amp; Dabrowski, 2015)"] }
+      - ["I am satisfied with the company&rsquo;s social media communications for [Brand X]", "0.84", "28.15", "5.43", "1.40", "&minus;1.18", "1.17", "0.70"]
+      - ["The level of the company&rsquo;s social media communication for [Brand X] meets my expectations", "0.87", "34.86", "5.47", "1.41", "&minus;1.22", "1.21", "0.76"]
+      - ["The company&rsquo;s social media communications for [Brand X] are very attractive", "0.79", "27.37", "5.55", "1.47", "&minus;1.10", "0.81", "0.62"]
+      - ["The company&rsquo;s social media communications for [Brand X] perform well, when compared with the social media communications of other brands", "0.79", "25.22", "5.22", "1.49", "&minus;0.92", "0.53", "0.63"]
+      - { group: true, span: true, cells: ["User-generated social media content (Schivinski &amp; Dabrowski, 2015)"] }
+      - ["I am satisfied with the content generated on social media sites by other users about [Brand X]", "0.88", "46.44", "5.16", "1.31", "&minus;0.64", "0.30", "0.78"]
+      - ["The level of the content generated on social media sites by other users about [Brand X] meets my expectations", "0.79", "22.63", "5.18", "1.27", "&minus;0.69", "0.59", "0.63"]
+      - ["The content generated by other users about [Brand X] is very attractive", "0.79", "32.56", "5.05", "1.33", "&minus;0.46", "&minus;0.03", "0.63"]
+      - ["The content generated on social media sites by others users about [Brand X] performs well, when compared with other brands", "0.73", "15.10", "5.19", "1.33", "&minus;0.63", "0.16", "0.53"]
+      - { group: true, span: true, cells: ["Brand attitude (G. Low &amp; Lamb Jr., 2000; Villarejo-Ramos &amp; Sánchez-Franco, 2005)"] }
+      - ["I have a pleasant idea of [Brand X]", "0.85", "31.03", "6.09", "1.15", "&minus;1.58", "2.69", "0.73"]
+      - ["[Brand X] has a good reputation", "0.86", "31.07", "6.12", "1.34", "&minus;1.92", "3.56", "0.74"]
+      - ["I associate positive characteristics with [Brand X]", "0.90", "40.24", "5.99", "1.35", "&minus;1.68", "2.68", "0.82"]
+      - { group: true, span: true, cells: ["Event attitude (G. Low &amp; Lamb Jr., 2000; Villarejo-Ramos &amp; Sánchez-Franco, 2005)"] }
+      - ["I have a pleasant idea of an event that is sponsored by [Brand X]", "0.82", "28.58", "5.14", "1.59", "&minus;0.612", "&minus;0.19", "0.68"]
+      - ["An event sponsored by [Brand X] has a good reputation", "0.93", "51.50", "5.33", "1.49", "&minus;0.682", "&minus;0.07", "0.86"]
+      - ["I associate positive characteristics towards an event that is sponsored by [Brand X]", "0.90", "41.85", "5.50", "1.50", "&minus;0.91", "0.43", "0.81"]
+      - { group: true, span: true, cells: ["Intention to participate (Lee et al., 2012)"] }
+      - ["I will frequently attend events sponsored by [Brand X] I learn about on social media in the future", "0.60", "13.91", "4.06", "1.74", "&minus;0.31", "&minus;0.83", "0.36"]
+      - ["I am most likely to go to an event sponsored by [Brand X] after seeing events listed on social media", "0.89", "36.00", "4.25", "1.65", "&minus;0.40", "&minus;0.54", "0.79"]
+      - ["The social media event listing will solidify my decision to attend an event with [Brand X]", "0.91", "31.66", "4.24", "1.69", "&minus;0.41", "&minus;0.51", "0.83"]
+    note: "Standardised factor loadings; items rated from 1 = strongly disagree to 7 = strongly agree. Values as printed."
+
+related:
+  - "10.1080/13527266.2013.871323"
+  - "10.1108/JRIM-02-2014-0007"
+  - "10.2501/JAR-2016-004"
