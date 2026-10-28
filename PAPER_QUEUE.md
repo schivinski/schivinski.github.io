@@ -57,7 +57,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 36 | 2023 | The effect of social media communication on intention to vaccinate against COVID-19: A … | Journal of Marketing Communications | 4 |  |
 | 37 | 2022 | A many-analysts approach to the relation between religiosity and well-being | Religion, Brain & Behavior | 169 |  |
 | 38 | 2022 | Correction to: Problematic Online Behaviors Among Gamers: the Links Between Problematic… | International Journal of Mental Health and Addiction | 1 |  |
-| 39 | 2022 | Disordered gaming, loneliness, and family harmony in gamers before and during the COVID… | Addictive Behaviors Reports | 51 |  |
+| 39 | 2022 | Disordered gaming, loneliness, and family harmony in gamers before and during the COVID… | Addictive Behaviors Reports | 51 | locked (`disordered-gaming-loneliness-family-covid`) |
 | 40 | 2022 | Improving the Health of Emerging Adult Gamers—A Scoping Review of Influences | Nutrients | 26 |  |
 | 41 | 2022 | Individualism/collectivism and perceived consumer effectiveness: The moderating role of… | Journal of Consumer Behaviour | 50 |  |
 | 42 | 2022 | Investigating gaming disorder and individual differences in gaming motives among profes… | Addictive Behaviors | 38 |  |

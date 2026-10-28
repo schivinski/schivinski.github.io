@@ -1,0 +1,338 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Addictive Behaviors Reports 15 (2022) 100426 (open access, CC BY 4.0). Text and tables from the
+# version of record (Europe PMC full-text XML, PMC9001174); the journal pre-proof PDF supplied by Bruno (28 Oct 2026)
+# was used to check them. Figure 1 redrawn from the published plot.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Disordered gaming, loneliness, and family harmony in gamers before and during the COVID-19 pandemic"
+doi: "10.1016/j.abrep.2022.100426"
+journal: "Addictive Behaviors Reports"
+issn: "2352-8532"
+publisher: "Elsevier"
+volume: "15"
+article_number: "100426"
+published: "2022-06"
+published_label: "June 2022 (online 12 April 2022)"
+online: "2022-04-12"
+open_access: true
+licence: "CC BY 4.0"
+licence_url: "https://creativecommons.org/licenses/by/4.0/"
+
+aam:
+  file: "rozgonjuk-et-al-2022-abr-gaming-loneliness-covid.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article (CC BY 4.0), re-typeset as a clean PDF with the same content as the published version. Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution 4.0 International License
+    (https://creativecommons.org/licenses/by/4.0/). Originally published in Addictive Behaviors Reports, 15, 100426
+    (online 12 April 2022), https://doi.org/10.1016/j.abrep.2022.100426. Changes made: the text has been re-typeset and
+    Figure 1 redrawn; content is unchanged.
+
+authors:
+  - given: "Dmitri"
+    family: "Rozgonjuk"
+    orcid: "0000-0002-1612-2040"
+    affiliation: ["Ulm University", "University of Tartu"]
+  - given: "Halley M."
+    family: "Pontes"
+    orcid: "0000-0001-8020-7623"
+    affiliation: ["Birkbeck, University of London"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Christian"
+    family: "Montag"
+    orcid: "0000-0001-8112-0837"
+    affiliation: ["Ulm University"]
+
+cite_short: "Rozgonjuk et al., 2022"
+badges: ["897 gamers", "2019, 2020 and 2021", "Propensity score matching", "ANCOVA", "COVID-19"]
+keywords:
+  # Article's own keywords
+  - gaming disorder
+  - Internet gaming disorder
+  - loneliness
+  - family harmony
+  - COVID-19
+  - pandemic
+  # What the study is about
+  - disordered gaming
+  - problematic gaming
+  - video games and mental health
+  - gamers' well-being
+  - lockdowns and social isolation
+  - family functioning
+  - coping through gaming
+  # Theory and measures
+  - WHO ICD-11 gaming disorder
+  - APA DSM-5 Internet gaming disorder
+  - Gaming Disorder Test (GDT)
+  - Internet Gaming Disorder Scale – Short-Form (IGDS9-SF)
+  - Family Harmony Scale (FHS-5)
+  - UCLA Loneliness Scale (ULS-3)
+  # Method
+  - repeated cross-sectional survey
+  - propensity score matching
+  - analysis of covariance (ANCOVA)
+  - Spearman partial correlation
+  - Steiger test
+  - R
+  - international online survey
+
+in_brief: >-
+  Gamers reported more symptoms of disordered gaming during the COVID-19 pandemic than before it, while their
+  loneliness and family harmony did not change. In three matched samples of 299 gamers each (2019, 2020 and 2021),
+  disordered gaming also became more closely tied to loneliness and poorer family harmony, which suggests some gamers
+  may have played to cope.
+
+findings:
+  - headline: "Disordered gaming rose during the pandemic."
+    text: >-
+      Gaming Disorder scores rose from 8.96 in 2019 to 10.69 in 2020 and 11.18 in 2021 (<i>F</i> = 30.99,
+      <i>p</i> &lt; .001, &eta;&sup2;<sub>p</sub> = 0.065), and Internet Gaming Disorder scores from 18.29 to 21.92 and
+      22.80 (<i>F</i> = 30.00, <i>p</i> &lt; .001), medium-sized increases over 2019 (Cohen&rsquo;s <i>d</i> = 0.47 to
+      0.62) (Rozgonjuk et al., 2022).
+  - headline: "Loneliness and family harmony stayed level."
+    text: >-
+      Across the three matched samples of 299 gamers, loneliness (<i>p</i> = .342) and dysfunctional family harmony
+      (<i>p</i> = .576) did not differ between years, controlling for age and gender (Rozgonjuk et al., 2022).
+  - headline: "Disordered gaming became more closely tied to loneliness."
+    text: >-
+      The correlation between loneliness and Gaming Disorder grew from &rho; = 0.207 in 2019 to 0.393 in 2021
+      (<i>z</i> = 2.50, <i>p</i> = .013), and with Internet Gaming Disorder from 0.293 to 0.463 (<i>z</i> = 2.42,
+      <i>p</i> = .015) (Rozgonjuk et al., 2022).
+  - headline: "And to poorer family harmony in 2021."
+    text: >-
+      Gaming Disorder correlated more strongly with dysfunctional family harmony in 2021 (&rho; = 0.305) than in 2019
+      (0.121) or 2020 (0.122); for Internet Gaming Disorder the 2021 rise was significant only against 2020 (0.143 to
+      0.307, <i>p</i> = .035) (Rozgonjuk et al., 2022).
+
+glance:
+  - { label: "Design", value: "Repeated cross-sectional international online survey (Smart Gaming campaign, ESL) run in 2019, 2020 and 2021; three yearly samples matched by propensity scores; ANCOVAs with age and gender as covariates, Spearman partial correlations and Steiger tests in R 4.1.3" }
+  - { label: "Participants", value: "897 gamers aged 12 to 56 (299 per year), matched from 37,394 eligible respondents on age, gender, country, education, employment and relationship status; mean age 24.4 to 25.2, 82% to 86% men; most often from France, Italy, the USA, Spain and Poland" }
+  - { label: "Disordered gaming", value: "Gaming Disorder (WHO framework): Gaming Disorder Test, 4 items, &alpha; = 0.81 (Pontes et al., 2019). Internet Gaming Disorder (APA framework): IGDS9-SF, 9 items, &alpha; = 0.87 (Pontes &amp; Griffiths, 2015)" }
+  - { label: "Family harmony", value: "Family Harmony Scale, 5 items, scored so that higher means more dysfunctional family harmony, &alpha; = 0.90 (Kavikondala et al., 2016)" }
+  - { label: "Loneliness", value: "Three-item UCLA Loneliness Scale, &alpha; = 0.83 (Hughes et al., 2004)" }
+  - { label: "Ethics", value: "Approved by the research team&rsquo;s university ethics committee (PONTES 2018/95, Nottingham Trent University); anonymous participation with electronic informed consent" }
+
+figures:
+  - file: figures/rozgonjuk-et-al-2022-gaming-covid-means.svg
+    title: "Figure 1. Estimated marginal means (with 95% CIs) across years, controlled for age and gender"
+    caption: >-
+      Redrawn from Figure 1 of the article (points and intervals read from the published plot). Both measures of
+      disordered gaming were higher in 2020 and 2021 than in 2019; dysfunctional family harmony and loneliness did not
+      change. <i>N</i> = 299 gamers per year.
+
+results:
+  title: "Correlations of disordered gaming with loneliness and family harmony, by year"
+  unit: ""
+  max: 0.5
+  note: "Spearman partial correlations controlling for age, from Table 5 of the article (299 gamers per year)."
+  groups:
+    - name: "Gaming Disorder and loneliness"
+      bars:
+        - { label: "2019 (before the pandemic)", value: 0.207, display: "0.207" }
+        - { label: "2020", value: 0.346, display: "0.346", highlight: true }
+        - { label: "2021", value: 0.393, display: "0.393", highlight: true }
+    - name: "Internet Gaming Disorder and loneliness"
+      bars:
+        - { label: "2019 (before the pandemic)", value: 0.293, display: "0.293" }
+        - { label: "2020", value: 0.427, display: "0.427", highlight: true }
+        - { label: "2021", value: 0.463, display: "0.463", highlight: true }
+    - name: "Gaming Disorder and dysfunctional family harmony"
+      bars:
+        - { label: "2019 (before the pandemic)", value: 0.121, display: "0.121" }
+        - { label: "2020", value: 0.122, display: "0.122", highlight: true }
+        - { label: "2021", value: 0.305, display: "0.305", highlight: true }
+
+question: >-
+  Lockdowns and distancing during the COVID-19 pandemic pushed many people towards gaming, a pastime that can be
+  enjoyed without anyone physically present, and campaigns even encouraged it. At the same time, isolation can breed
+  loneliness and strain family life. Little was known about how gamers in particular fared. Comparing matched samples
+  of gamers surveyed before the pandemic (2019) and during its first two years (2020 and 2021), we asked whether
+  disordered gaming, loneliness and dysfunctional family harmony increased, and whether disordered gaming became more
+  strongly linked with loneliness and poor family harmony.
+
+implications:
+  practical: >-
+    Health professionals, families and the gaming industry should watch for rising disordered gaming among gamers in
+    times of crisis, and for gaming used to cope with loneliness or a difficult home life. Prevention and support can
+    target the link itself: gamers who feel lonely or whose family relations are strained are those for whom heavy
+    gaming is most closely tied to problems.
+  theoretical: >-
+    The study shows that a sub-population such as gamers may not follow the same pandemic trends as the general
+    population: loneliness and family harmony did not rise, yet disordered gaming did and became more closely tied to
+    both. It also shows that results can differ depending on whether the WHO (Gaming Disorder) or APA (Internet Gaming
+    Disorder) framework is used, supporting the study of both.
+
+limitations:
+  - "Data were self-reported in a cross-sectional online survey, so changes cannot be attributed causally to the pandemic."
+  - "Each year is a different sample of gamers; the same people were not followed over time."
+  - "Daily-life impairment was self-assessed; clinical interviews or objective gaming data would strengthen the findings."
+  - "The samples were mostly young men, matched on socio-demographics rather than representative of all gamers."
+
+faq:
+  - q: "Did gaming disorder increase during COVID-19?"
+    a: >-
+      Among gamers, yes. Matched samples of 299 gamers each showed higher Gaming Disorder and Internet Gaming Disorder
+      scores in 2020 and 2021 than in 2019, with medium effect sizes (Rozgonjuk et al., 2022).
+  - q: "Were gamers lonelier during the pandemic?"
+    a: >-
+      Not on average: loneliness and family harmony did not change significantly between 2019, 2020 and 2021. But
+      loneliness became more closely linked with disordered gaming, the correlation rising from about 0.2 to 0.4
+      (Rozgonjuk et al., 2022).
+  - q: "Do people game to cope with loneliness?"
+    a: >-
+      The stronger links between disordered gaming, loneliness and poor family harmony during the pandemic suggest that
+      some gamers may have used gaming to cope, although the cross-sectional data cannot prove this
+      (Rozgonjuk et al., 2022).
+  - q: "What is the difference between Gaming Disorder and Internet Gaming Disorder?"
+    a: >-
+      Gaming Disorder is the WHO&rsquo;s officially recognised diagnosis (ICD-11); Internet Gaming Disorder is the
+      APA&rsquo;s research diagnosis in the DSM-5. The study measured both and found broadly similar trends.
+
+concepts:
+  - term: "Gaming Disorder (GD)"
+    definition: "A pattern of gaming with impaired control, increasing priority over other activities and continuation despite harm, recognised by the World Health Organization in ICD-11."
+  - term: "Internet Gaming Disorder (IGD)"
+    definition: "A condition for further study in the American Psychiatric Association&rsquo;s DSM-5, defined by nine criteria such as preoccupation, withdrawal and loss of interest in other activities."
+  - term: "Family harmony"
+    definition: "How peaceful, functional and harmonious a person&rsquo;s family relationships are; reverse-scored here as dysfunctional family harmony."
+  - term: "Loneliness"
+    definition: "The distressing feeling that one&rsquo;s social relationships are lacking in number or quality."
+  - term: "Propensity score matching"
+    definition: "A method that pairs respondents from different groups who have similar characteristics, so the groups can be compared fairly."
+
+materials:
+  - label: "Eligibility"
+    text: "Respondents gave informed consent, were aged 12 to 80, proficient in English, had played video games in the past year, passed an attention check (denying play of a fictional game), were not professional gamers, and reported at most 119 hours of gaming a week and 48 hours at weekends."
+  - label: "Matching"
+    text: "From 47,503 eligible gamers, the analysis kept comparable ages (12 to 56) and countries with at least five respondents in 2020 and 2021 (37,394 gamers: 36,078 in 2019, 1,017 in 2020, 299 in 2021); the 2019 and 2020 samples were then matched to the 2021 sample by greedy nearest-neighbour propensity scores (seed 999)."
+  - label: "Supplementary material"
+    text: "The R packages used are listed in the article&rsquo;s supplementary data, available with the published version."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Open access article (CC BY 4.0), re-typeset", url: "manuscripts/rozgonjuk-et-al-2022-abr-gaming-loneliness-covid.pdf" }
+  - { label: "Published version", note: "Addictive Behaviors Reports (open access), with supplementary data", url: "https://doi.org/10.1016/j.abrep.2022.100426" }
+
+tables:
+- id: '1'
+  title: Sample socio-demographics grouped by each year
+  columns: [Variable, 2019 (<i>N</i> = 299), 2020 (<i>N</i> = 299), 2021 (<i>N</i> = 299)]
+  align: [left, right, right, right]
+  rows:
+  - group: true
+    cells: [Age, '', '', '']
+  - [Mean (SD), 24.45 (7.31), 24.37 (7.51), 25.23 (8.37)]
+  - group: true
+    cells: [Gender, '', '', '']
+  - [Male, 257 (85.95%), 251 (83.95%), 246 (82.27%)]
+  - [Female, 42 (14.05%), 48 (16.05%), 53 (17.73%)]
+  - group: true
+    cells: [Employment status, '', '', '']
+  - [Employed, 140 (46.82%), 134 (44.82%), 139 (46.49%)]
+  - group: true
+    cells: [Relationship status, '', '', '']
+  - [In a relationship, 115 (38.46%), 109 (36.45%), 114 (38.13%)]
+  - group: true
+    cells: [Education level, '', '', '']
+  - ['&lt; High school', 43 (14.38%), 46 (15.38%), 37 (12.37%)]
+  - [High school diploma, 150 (50.17%), 147 (49.16%), 157 (52.51%)]
+  - [College/university degree, 106 (35.45%), 106 (35.45%), 105 (35.12%)]
+  - group: true
+    cells: [Top five countries (by total N), '', '', '']
+  - [France, 33 (11.04%), 32 (10.070%), 31 (10.37%)]
+  - [Italy, 30 (10.03%), 33 (11.04%), 30 (10.03%)]
+  - [USA, 24 (8.03%), 29 (9.70%), 26 (8.70%)]
+  - [Spain, 22 (7.36%), 32 (10.70%), 21 (7.02%)]
+  - [Poland, 23 (7.69%), 22 (7.36%), 25 (8.36%)]
+  note: Values as printed in Table 1 of the article; samples matched by propensity scores on age, gender, country, education, employment and relationship status.
+- id: '2'
+  title: Descriptive statistics for key variables
+  columns: [Variable, 2019 <i>M</i>, 2019 <i>SD</i>, 2020 <i>M</i>, 2020 <i>SD</i>, 2021 <i>M</i>, 2021 <i>SD</i>]
+  align: [left, right, right, right, right, right, right]
+  rows:
+  - [GD, '8.96', '3.30', '10.69', '3.81', '11.18', '3.95']
+  - [IGD, '18.29', '6.54', '21.92', '8.01', '22.80', '8.09']
+  - [DFH, '12.76', '5.24', '13.10', '4.96', '12.67', '4.90']
+  - [Loneliness, '6.89', '2.80', '7.11', '2.82', '7.24', '2.83']
+  note: <i>M</i> = mean; <i>SD</i> = standard deviation; GD = Gaming Disorder; IGD = Internet Gaming Disorder; DFH = dysfunctional family harmony.
+- id: '3'
+  title: Results of analyses of covariance
+  columns: [Variable, SS, <i>df</i>, MS, <i>F</i>, <i>p</i>, '&eta;&sup2;<sub>p</sub>']
+  align: [left, right, right, right, right, right, right]
+  rows:
+  - group: true
+    cells: ['Outcome: Gaming Disorder (WHO framework)', '', '', '', '', '', '']
+  - [Year, '837.388', '2', '418.694', '30.986', '&lt;&nbsp;0.001', '0.065']
+  - [Age, '152.079', '1', '152.079', '11.255', '&lt;&nbsp;0.001', '0.012']
+  - [Gender, '0.972', '1', '0.972', '0.072', '0.789', '&lt;&nbsp;0.001']
+  - [Residuals, '12053.169', '892', '13.513', '', '', '']
+  - group: true
+    cells: ['Outcome: Internet Gaming Disorder (APA Framework)', '', '', '', '', '', '']
+  - [Year, '3445.648', '2', '1722.824', '30.000', '&lt;&nbsp;0.001', '0.063']
+  - [Age, '131.046', '1', '131.046', '2.282', '0.131', '0.003']
+  - [Gender, '3.156', '1', '3.156', '0.055', '0.815', '&lt;&nbsp;0.001']
+  - [Residuals, '51228.114', '892', '57.431', '', '', '']
+  - group: true
+    cells: ['Outcome: Loneliness', '', '', '', '', '', '']
+  - [Year, '16.922', '2', '8.461', '1.074', '0.342', '0.002']
+  - [Age, '11.898', '1', '11.898', '1.510', '0.219', '0.002']
+  - [Gender, '53.285', '1', '53.285', '6.762', '0.009', '0.008']
+  - [Residuals, '7029.120', '892', '7.880', '', '', '']
+  - group: true
+    cells: ['Outcome: Dysfunctional Family Harmony', '', '', '', '', '', '']
+  - [Year, '27.769', '2', '13.884', '0.552', '0.576', '0.001']
+  - [Age, '92.869', '1', '92.869', '3.689', '0.055', '0.004']
+  - [Gender, '149.283', '1', '149.283', '5.930', '0.015', '0.007']
+  - [Residuals, '22454.191', '892', '25.173', '', '', '']
+  note: SS = sum of squares; MS = mean square; &eta;&sup2;<sub>p</sub> = partial eta squared. Each outcome was tested in a separate ANCOVA with age and gender as covariates.
+- id: '4'
+  title: Outcome variable comparisons across years (controlled for age and gender)
+  columns: [Comparison, MD, SE, <i>t</i>, <i>p</i>, Cohen&rsquo;s <i>d</i>]
+  align: [left, right, right, right, right, right]
+  rows:
+  - group: true
+    cells: ['Outcome: Gaming Disorder', '', '', '', '', '']
+  - [2019–2020, −1.727, '0.301', −5.742, <b>&lt;&nbsp;0.001</b>, −0.470]
+  - [2019–2021, −2.269, '0.301', −7.534, <b>&lt;&nbsp;0.001</b>, −0.617]
+  - [2020–2021, −0.542, '0.301', −1.802, '0.072', −0.148]
+  - group: true
+    cells: ['Outcome: Internet Gaming Disorder', '', '', '', '', '']
+  - [2019–2020, −3.625, '0.620', −5.847, <b>&lt;&nbsp;0.001</b>, −0.478]
+  - [2019–2021, −4.546, '0.621', −7.323, <b>&lt;&nbsp;0.001</b>, −0.600]
+  - [2020–2021, −0.921, '0.621', −1.485, '0.138', −0.122]
+  - group: true
+    cells: ['Outcome: Loneliness', '', '', '', '', '']
+  - [2019–2020, −0.199, '0.230', −0.869, '0.771', −0.071]
+  - [2019–2021, −0.335, '0.230', −1.456, '0.437', −0.119]
+  - [2020–2021, −0.135, '0.230', −0.589, '0.771', −0.048]
+  - group: true
+    cells: ['Outcome: Dysfunctional Family Harmony', '', '', '', '', '']
+  - [2019–2020, −0.319, '0.410', −0.777, '0.952', −0.064]
+  - [2019–2021, '0.092', '0.411', '0.224', '0.952', '0.018']
+  - [2020–2021, '0.411', '0.411', '1.000', '0.952', '0.082']
+  note: In all comparisons <i>df</i> = 892. MD = mean difference (earlier minus later year); <i>p</i> values adjusted with Holm&rsquo;s method; significant differences in bold.
+- id: '5'
+  title: Spearman correlation coefficients and correlation differences test results
+  columns: [Variables, '&rho; 2019', '&rho; 2020', '&rho; 2021', <i>z</i> 2019–2020, <i>p</i>, <i>z</i> 2019–2021, <i>p</i>, <i>z</i> 2020–2021, <i>p</i>]
+  align: [left, right, right, right, right, right, right, right, right, right]
+  rows:
+  - [GD &amp; IGD, 0.751***, 0.800***, 0.802***, '1.501', '0.133', '1.569', '0.117', '0.068', '0.946']
+  - [GD &amp; DFH, 0.121*, 0.122*, 0.305***, '0.012', '0.990', '2.353', <b>0.019</b>, '2.341', <b>0.019</b>]
+  - [GD &amp; LON, '0.207', 0.346***, 0.393***, '1.835', '0.066', '2.498', <b>0.013</b>, '0.662', '0.508']
+  - [IGD &amp; DFH, '0.176', 0.143*, 0.307***, '0.412', '0.680', '1.696', '0.090', '2.108', <b>0.035</b>]
+  - [IGD &amp; LON, 0.293***, 0.427***, 0.463***, '1.878', '0.060', '2.424', <b>0.015</b>, '0.546', '0.585']
+  - [DFH &amp; LON, 0.253***, 0.224***, 0.311***, '0.374', '0.708', '0.767', '0.443', '1.141', '0.254']
+  note: 'GD = Gaming Disorder; IGD = Internet Gaming Disorder; DFH = dysfunctional family harmony; LON = loneliness. Spearman partial correlations controlling for age; <i>p</i> values for correlations corrected
+    with Holm&rsquo;s method for each year; <i>z</i> = Steiger test of the difference between two years. Significance marks as printed in the article: &ldquo;*** p &lt;.001, p &lt;.01, * p &lt;.01&rdquo;.
+    Significant differences in bold.'
+
+related:
+  - "10.1007/s11469-019-00088-z"
+  - "10.1556/2006.2026.00022"
+  - "10.3390/jcm8101691"
+  - "10.1007/s11469-021-00590-3"

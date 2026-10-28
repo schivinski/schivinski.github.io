@@ -1,0 +1,20 @@
+text: disordered-gaming-loneliness-family-covid.blocks.txt
+affiliation_line: Ulm University; University of Tartu; Birkbeck, University of London; RMIT University
+title_page_label: Open access article
+running_label: open access (CC BY 4.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article; it differs only in formatting and
+  pagination. Please cite the published version.
+title_page_footer: Re-typeset from the published open access article (CC BY 4.0); the publisher's typesetting and layout have been removed and Figure 1 redrawn.
+figures:
+  fig1:
+    svg: figures/rozgonjuk-et-al-2022-gaming-covid-means.svg
+table_overrides:
+  '5':
+    landscape: true
+    size: 8pt
+    widths: [1fr, auto, auto, auto, auto, auto, auto, auto, auto, auto]
+  '3':
+    size: 8pt
+  '4':
+    size: 8pt
