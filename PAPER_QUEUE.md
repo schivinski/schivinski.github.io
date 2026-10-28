@@ -59,7 +59,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 38 | 2022 | Correction to: Problematic Online Behaviors Among Gamers: the Links Between Problematic… | International Journal of Mental Health and Addiction | 1 |  |
 | 39 | 2022 | Disordered gaming, loneliness, and family harmony in gamers before and during the COVID… | Addictive Behaviors Reports | 51 | locked (`disordered-gaming-loneliness-family-covid`) |
 | 40 | 2022 | Improving the Health of Emerging Adult Gamers—A Scoping Review of Influences | Nutrients | 26 |  |
-| 41 | 2022 | Individualism/collectivism and perceived consumer effectiveness: The moderating role of… | Journal of Consumer Behaviour | 50 |  |
+| 41 | 2022 | Individualism/collectivism and perceived consumer effectiveness: The moderating role of… | Journal of Consumer Behaviour | 50 | locked (`individualism-collectivism-perceived-consumer-effectiveness`) |
 | 42 | 2022 | Investigating gaming disorder and individual differences in gaming motives among profes… | Addictive Behaviors | 38 |  |
 | 43 | 2022 | Masculine men do not like feminine wording: The effectiveness of gendered wording in he… | PLOS ONE | 10 |  |
 | 44 | 2022 | Network analyses of internet gaming disorder symptoms and their links with different ty… | BMC Psychiatry | 64 |  |
@@ -75,7 +75,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 54 | 2019 | Psychopathological symptoms and gaming motives in disordered gaming—a psychometric comp… | Journal of Clinical Medicine | 175 | locked (`gaming-motives-who-apa`) |
 | 55 | 2019 | The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish R… | Central European Management Journal | 25 |  |
 | 56 | 2019 | The influence of interpersonal motivation on polish consumers’ online brand-related act… | Argumenta Oeconomica | 5 |  |
-| 57 | 2019 | THE INFLUENCE OF SOCIAL MEDIA COMMUNICATION ON CONSUMER’S ATTITUDES AND BEHAVIORAL INTE… |  | 66 |  |
+| 57 | 2019 | The Influence of Social Media Communication on Consumer's Attitudes and Behavioral Inte… | Event Management | 66 |  |
 | 58 | 2018 | An empirical analysis of the nine Internet Gaming Disorder criteria | Journal of Behavioral Addictions | 0 |  |
 | 59 | 2018 | Psychometric assessment of the Internet Gaming Disorder diagnostic criteria: An Item Re… | Addictive Behaviors Reports | 156 |  |
 | 60 | 2017 | Antecedents and consequences of brand loyalty | Handel Wewnętrzny | 34 |  |

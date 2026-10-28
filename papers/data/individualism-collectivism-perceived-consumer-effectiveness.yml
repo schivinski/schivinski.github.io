@@ -1,0 +1,326 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Consumer Behaviour 21(2), 180-196 (published version PDF supplied by Bruno, 28 Oct 2026);
+# issue details from Crossref. Figures 2 and 3 redrawn (line end points read from the published plots).
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Individualism/collectivism and perceived consumer effectiveness: The moderating role of global–local identities in a post-transitional European economy"
+doi: "10.1002/cb.1988"
+journal: "Journal of Consumer Behaviour"
+issn: "1472-0817"
+publisher: "Wiley"
+volume: "21"
+issue: "2"
+pages: "180–196"
+published: "2022-03"
+published_label: "2022 (online 27 September 2021)"
+online: "2021-09-27"
+open_access: false
+
+aam:
+  file: "czarnecka-schivinski-2022-jcb-accepted-manuscript.pdf"
+  statement: >-
+    This is the peer reviewed version of the following article: Czarnecka, B., &amp; Schivinski, B. (2022).
+    Individualism/collectivism and perceived consumer effectiveness: The moderating role of global–local identities in a
+    post-transitional European economy. Journal of Consumer Behaviour, 21(2), 180–196, which has been published in
+    final form at https://doi.org/10.1002/cb.1988. This article may be used for non-commercial purposes in accordance
+    with Wiley Terms and Conditions for Use of Self-Archived Versions.
+
+authors:
+  - given: "Barbara"
+    family: "Czarnecka"
+    orcid: "0000-0002-8314-1727"
+    affiliation: ["London South Bank University"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+
+cite_short: "Czarnecka & Schivinski, 2022"
+badges: ["432 consumers in Poland", "Mall-intercept survey", "Structural equation modelling", "Moderation analysis", "Poland"]
+keywords:
+  # Article's own keywords
+  - collectivism
+  - global–local identity
+  - individualism
+  - perceived consumer effectiveness
+  # What the study is about
+  - sustainable consumption
+  - consumer self-efficacy
+  - ethical consumption
+  - green consumer behaviour
+  - vertical and horizontal individualism
+  - vertical and horizontal collectivism
+  - global identity
+  - local identity
+  - social identity
+  - cultural values
+  - post-transitional economies
+  # Theory and measures
+  - value congruence
+  - social identity theory
+  - Sivadas et al. individualism–collectivism scale
+  - global–local identity scale (Tu et al.)
+  # Context
+  - Poland
+  - Central and Eastern Europe
+  # Method
+  - stratified sampling
+  - mall-intercept survey
+  - structural equation modelling (SEM)
+  - moderation analysis
+  - robust maximum likelihood (MLR)
+  - lavaan
+
+in_brief: >-
+  Consumers who value responsibility for themselves or for their group are the ones who believe their shopping can
+  help the environment and society. In a survey of 432 consumers in Poland, vertical individualism and vertical
+  collectivism raised perceived consumer effectiveness, and local identity strengthened the link for vertical
+  collectivists.
+
+findings:
+  - headline: "Vertical individualists believe their purchases matter."
+    text: >-
+      Among 432 consumers in Poland, vertical individualism, the competitive, self-responsible orientation, raised
+      perceived consumer effectiveness, the belief that one&rsquo;s purchases affect the environment, society and
+      employees (&beta; = 0.17, <i>p</i> = .01) (Czarnecka &amp; Schivinski, 2022).
+  - headline: "So do vertical collectivists, against the hypothesis."
+    text: >-
+      Vertical collectivism, which stresses duty to one&rsquo;s group, was expected to lower perceived consumer
+      effectiveness but raised it (&beta; = 0.32, <i>p</i> &lt; .001); horizontal individualism (<i>p</i> = .55) and
+      horizontal collectivism (<i>p</i> = .28) had no effect (Czarnecka &amp; Schivinski, 2022).
+  - headline: "Local identity amplifies the effect for vertical collectivists."
+    text: >-
+      The stronger a vertical collectivist&rsquo;s local identity, the stronger their belief that their consumption
+      matters (interaction &beta; = 0.23, <i>p</i> &lt; .001), the opposite of the predicted weakening
+      (Czarnecka &amp; Schivinski, 2022).
+  - headline: "Global identity gives a weaker boost to vertical individualists."
+    text: >-
+      Global identity raised perceived consumer effectiveness directly (&beta; = 0.16, <i>p</i> = .001) and steepened the
+      link with vertical individualism (interaction &beta; = 0.07, <i>p</i> = .09), which the article reports as
+      support for its hypothesis; older consumers also scored higher (&beta; = 0.11) (Czarnecka &amp; Schivinski, 2022).
+
+glance:
+  - { label: "Design", value: "Pen-and-paper mall-intercept survey with stratified sampling by age, income and location: 18 randomly selected cities, towns and villages in Poland; structural equation modelling and latent moderation (5,000 bootstrap samples) in R (lavaan, MLR)" }
+  - { label: "Participants", value: "432 consumers in Poland; 55.1% women, mean age 31.7 (SD 10.2), 59.3% with a university degree, 71.3% employed; an even spread from rural areas, small towns and large cities" }
+  - { label: "Predictors", value: "Vertical and horizontal individualism (3 items each) and vertical and horizontal collectivism (4 items each; Sivadas et al., 2008), back-translated into Polish" }
+  - { label: "Moderators", value: "Global identity and local identity (4 items each; Tu et al., 2012)" }
+  - { label: "Outcome", value: "Perceived consumer effectiveness (4 items; Roberts, 1996; Kang et al., 2013), 7-point scale" }
+  - { label: "Controls", value: "Age and income" }
+  - { label: "Model fit", value: "CFA: MLR &chi;&sup2;(278) = 749.17, CFI = 0.94, TLI = 0.93, RMSEA = 0.06. Structural model: MLR &chi;&sup2;(383) = 3177.22, CFI = 0.91, TLI = 0.90, RMSEA = 0.06" }
+
+figures:
+  - file: figures/czarnecka-schivinski-2022-pce-model-estimates.svg
+    title: "Figure 1. Conceptual model, with the estimates reported in Table 2"
+    caption: >-
+      Four cultural values predict perceived consumer effectiveness; global identity was proposed to strengthen the
+      effects of individualism and local identity to weaken the (negative) effects of collectivism. Standardised
+      coefficients from Table 2 of the article; grey dashed paths are not significant. * <i>p</i> &le; .01,
+      *** <i>p</i> &le; .001 as printed; <i>n</i> = 432. The article reports only H3A and H4A of the moderation
+      hypotheses.
+  - file: figures/czarnecka-schivinski-2022-pce-moderation.svg
+    title: "Figures 2 and 3. The moderating roles of global and local identity"
+    caption: >-
+      Redrawn from Figures 2 and 3 of the article (line end points read from the published plots, which use a 1 to 5
+      axis). The effect of vertical individualism is steeper at high global identity; the effect of vertical
+      collectivism is much steeper at high local identity.
+
+results:
+  title: "What drives perceived consumer effectiveness"
+  unit: ""
+  max: 0.4
+  note: "Standardised coefficients from Table 2 of the article (n = 432). VC = vertical collectivism; VI = vertical individualism. Horizontal individualism (0.03) and horizontal collectivism (0.07) were not significant."
+  groups:
+    - name: "Cultural values"
+      bars:
+        - { label: "Vertical collectivism", value: 0.32, display: "0.32", highlight: true }
+        - { label: "Vertical individualism", value: 0.17, display: "0.17", highlight: true }
+    - name: "Identities and interactions"
+      bars:
+        - { label: "Local identity × VC", value: 0.23, display: "0.23", highlight: true }
+        - { label: "Global identity (direct)", value: 0.16, display: "0.16" }
+        - { label: "Global identity × VI", value: 0.07, display: "0.07 (p = .09)" }
+    - name: "Control"
+      bars:
+        - { label: "Age", value: 0.11, display: "0.11" }
+
+question: >-
+  Some consumers believe their individual purchases affect the environment, social issues and employee welfare, and
+  so are more likely to buy sustainably; others do not. Cultural values and social identities are thought to shape this
+  belief, known as perceived consumer effectiveness, but evidence from post-transitional economies is scarce. Drawing
+  on the idea of value congruence, we asked how vertical and horizontal individualism and collectivism relate to
+  perceived consumer effectiveness among Polish consumers, and whether global and local identities moderate these
+  relations.
+
+implications:
+  practical: >-
+    Marketers of green products and social marketers can segment consumers by vertical individualism and vertical
+    collectivism, which both go with a stronger belief that one&rsquo;s purchases matter, but for different reasons.
+    Messages to vertical individualists can stress personal responsibility and achievement, especially if framed
+    globally; messages to vertical collectivists can stress the impact on their group and community and draw on local
+    identity, for example through identity-based campaigns.
+  theoretical: >-
+    The study shows that the horizontal&ndash;vertical distinction in individualism and collectivism matters for
+    explaining perceived consumer effectiveness, and that global and local identities are meaningful moderators. Value
+    congruence explains the relations only partly: vertical collectivism, which was expected to lower the belief, raised
+    it. The study adds evidence from the understudied post-transitional economy of Poland.
+
+limitations:
+  - "The survey is cross-sectional and from one country, so causal claims and generalisation to other markets are limited."
+  - "Perceived consumer effectiveness is a belief, not observed sustainable behaviour."
+  - "Future work could replicate the study in other national contexts, study the motives behind the belief and link it to actual purchases."
+
+faq:
+  - q: "Which consumers believe their purchases can make a difference?"
+    a: >-
+      In a survey of 432 Polish consumers, those high in vertical individualism (personal responsibility and
+      competition) and in vertical collectivism (duty to one&rsquo;s group) had the strongest perceived consumer
+      effectiveness (Czarnecka &amp; Schivinski, 2022).
+  - q: "What is perceived consumer effectiveness?"
+    a: >-
+      The belief that one&rsquo;s consumption choices affect the natural environment, social and community issues and
+      employee welfare; it is a known driver of sustainable purchasing.
+  - q: "Does local identity matter for sustainable consumption beliefs?"
+    a: >-
+      Yes. Local identity strengthened the link between vertical collectivism and perceived consumer effectiveness
+      (interaction &beta; = 0.23), so locally rooted, group-minded consumers felt their purchases mattered most
+      (Czarnecka &amp; Schivinski, 2022).
+  - q: "What is the difference between vertical and horizontal individualism?"
+    a: >-
+      Vertical individualism combines independence with competition and status; horizontal individualism combines
+      independence with equality and uniqueness. Only the vertical form raised perceived consumer effectiveness.
+
+concepts:
+  - term: "Perceived consumer effectiveness (PCE)"
+    definition: "The belief that one&rsquo;s consumption choices affect the environment, social issues and employee welfare; also called consumer self-efficacy (Ellen et al., 1991)."
+  - term: "Vertical individualism"
+    definition: "Valuing independence together with competition and hierarchy between individuals."
+  - term: "Horizontal individualism"
+    definition: "Valuing independence and uniqueness among equals."
+  - term: "Vertical collectivism"
+    definition: "Placing group goals above one&rsquo;s own and accepting hierarchy and duty within the group."
+  - term: "Horizontal collectivism"
+    definition: "Seeing oneself as similar to others and stressing common goals, interdependence and sociability."
+  - term: "Global and local identity"
+    definition: "Identification with the world community and a global lifestyle, or with one&rsquo;s local community, habits and traditions (Tu et al., 2012)."
+  - term: "Value congruence"
+    definition: "The fit between a person&rsquo;s values and their beliefs or behaviours."
+
+materials:
+  - label: "Scale items"
+    text: "All 26 items with loadings, explained variance, means and standard deviations are in Table A1 below; reliability, validity and correlations are in Table B1."
+  - label: "Literature table"
+    text: "Table 1 below summarises 19 studies published since 2020 on perceived consumer effectiveness in different consumption contexts."
+  - label: "Data"
+    text: "Data files are available on request from the authors (data availability statement)."
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Free full text, including all tables, figures and appendices", url: "manuscripts/czarnecka-schivinski-2022-jcb-accepted-manuscript.pdf" }
+  - { label: "Published version", note: "Journal of Consumer Behaviour (Wiley)", url: "https://doi.org/10.1002/cb.1988" }
+
+tables:
+  - id: "1"
+    title: "Recent literature (published since 2020) examining the role of PCE in a variety of consumption contexts"
+    collapsed: true
+    columns: ["Study", "Research context", "Method", "Sample size", "Country", "Key findings"]
+    align: ["left", "left", "left", "right", "left", "left"]
+    rows:
+      - ["Al-Swidi and Saleh (2021)", "Determinants of green purchasing behaviour", "Online survey, convenience sampling, student sample", "251", "Qatar", "PCE is positively associated with self-reported green purchasing behaviour."]
+      - ["Alzubaidi et al. (2020)", "Factors affecting pro-environmental behaviours", "Online survey, convenience and snowballing", "611", "Saudi Arabia", "PCE was positively associated with behavioural intentions, but the association was weak."]
+      - ["Asadi et al. (2021)", "Intentions to use electric vehicles", "Online survey, purposive and convenience sampling", "177", "Malaysia", "PCE is a strong antecedent to personal norms."]
+      - ["Burhanudin et al. (2021)", "Banking services", "Survey experiment, mall intercept survey", "313", "Indonesia", "Guilt about bank&rsquo;s activities is associated with higher PCE. PCE is positively associated with attitude towards green banking. PCE is associated with increased negative word of mouth about banking projects that disregard natural environment. PCE is not directly related to intention to use green banking services, but it does affect the intention via negative word of mouth."]
+      - ["Ettinger et al. (2021)", "Effectiveness of corporate social responsibility communications", "Online survey experiment", "601", "Germany, Austria, Switzerland", "PCE mediates the relationship between type of CSR communication and attitudes towards hotels&rsquo; CSR communication."]
+      - ["Taufique and Islam (2021)", "Antecedents of green consumer behaviour", "Online survey, convenience sampling, student sample", "206", "Bangladesh", "PCE has a direct positive influence on self-reported green consumer behaviour."]
+      - ["Alsaad et al. (2020)", "Religiosity and ethical purchase intentions", "E-mail survey, student sample", "149", "Saudi Arabia", "Religiosity and idealism are positively associated with PCE. PCE mediates the effect of religiosity and moral obligation on ethical purchase intention."]
+      - ["Arias and Trujillo (2020)", "Self-reported recycling behaviour", "Face-to-face survey", "1286", "Colombia", "PCE is positively associated with the use of reusable shopping bags. PCE does not directly affect recycling behaviour but indirectly via the reported use of reusable bags."]
+      - ["Brusselaers et al. (2020)", "Drivers of eco-certified wood consumption", "Survey, student sample", "274", "Belgium", "PCE does not drive eco-certified wood consumption."]
+      - ["Escario et al. (2020)", "Recycling and reusing behaviour", "Face-to-face survey", "2487", "Spain", "PCE is positively associated with self-reported recycling, reusing and refusing behaviours."]
+      - ["Gautam (2020)", "Sustainable tourism and development", "Face-to-face survey, mall intercept", "227", "India (tourists in India)", "PCE was the most important determinant of purchase intentions."]
+      - ["Garg and Pandey (2020)", "Sustainable tourism", "Survey, convenience sample", "275", "India", "PCE is positively associated with intentions to adopt sustainable tourism practices."]
+      - ["Hosta and Zabkar (2020)", "Environmentally/socially responsible consumer behaviour", "Online survey, web-based national panel study", "426", "developed Central European country", "PCE has a positive influence on willingness to behave in environmentally and socially responsible way."]
+      - ["Nguyen and Pervan (2020)", "Perceptions of corporate social responsibility (CSR) and trust", "Pen-and-paper survey; mall-intercept", "407", "China", "PCE mediated the relationship between perceived retailer&rsquo;s CSR and consumer trust."]
+      - ["Palacios-González and Chamorro-Mera (2020)", "Market segmentation study", "Face-to-face and online survey, convenience sampling", "415", "Spain", "Consumers differ in their level of PCE."]
+      - ["Park and Lin (2020)", "Antecedents of purchase of recycled and upcycled fashion", "Survey", "2017", "Korea", "PCE positively associated with intention to purchase consumer recycled and upcycled products."]
+      - ["Si et al. (2020)", "Dockless bike sharing", "Online survey, purposive sampling", "633", "China", "PCE positively associated with willingness to participate in bike-sharing scheme."]
+      - ["Wang, Ali, et al. (2020)", "Biogas technology adoption", "Survey, purposive sampling", "191", "Pakistan", "PCE is positively related with consumers&rsquo; personal norms."]
+      - ["Waris and Hameed (2020)", "Intentions to purchase environmentally friendly household appliances", "Face-to-face survey, mall intercept convenience quota sample", "440", "Pakistan", "PCE was found to be an important antecedent of consumers&rsquo; purchase intention."]
+    note: "PCE = perceived consumer effectiveness. As printed in Table 1 of the article."
+  - id: "2"
+    title: "Standardised structural coefficients of the conceptual model"
+    columns: ["Path", "&beta;", "<i>t</i>", "<i>p</i>"]
+    align: ["left", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["Direct effects", "", "", ""] }
+      - ["H1A. Vertical individualism → perceived consumer effectiveness", "0.17", "2.86", ".01"]
+      - ["H1B. Horizontal individualism → perceived consumer effectiveness", "0.03", "0.58", ".55"]
+      - ["H2A. Vertical collectivism → perceived consumer effectiveness", "0.32", "4.66", ".001"]
+      - ["H2B. Horizontal collectivism → perceived consumer effectiveness", "0.07", "1.06", ".28"]
+      - { group: true, cells: ["Control variables", "", "", ""] }
+      - ["Age → perceived consumer effectiveness", "0.11", "2.40", ".01"]
+      - ["Income → perceived consumer effectiveness", "0.01", "0.20", ".83"]
+      - { group: true, cells: ["Moderation analysis", "", "", ""] }
+      - ["H3A. Vertical individualism → perceived consumer effectiveness | global identity", "0.07", "1.65", ".09"]
+      - ["H4A. Vertical collectivism → perceived consumer effectiveness | local identity", "0.23", "4.76", ".001"]
+      - { group: true, cells: ["Direct effects derived from the moderation analysis", "", "", ""] }
+      - ["Global identity → perceived consumer effectiveness", "0.16", "3.17", ".001"]
+      - ["Local identity → perceived consumer effectiveness", "0.04", "0.87", ".38"]
+    note: "MLR &chi;&sup2;(383) = 3177.22, CFI = 0.91, TLI = 0.90, RMSEA = 0.06 [90% CI 0.06&ndash;0.08]; <i>n</i> = 432. Values as printed in the article."
+  - id: "A1"
+    title: "Descriptive statistics, factor loadings (completely standardised lambda X) and explained variance on each item (R²)"
+    collapsed: true
+    columns: ["Construct and item", "&lambda;", "<i>R</i>&sup2;", "Mean (SD)"]
+    align: ["left", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["Vertical individualism (Sivadas et al., 2008)", "", "", ""] }
+      - ["I enjoy working in situations involving competition with others.", "0.83", "0.69", "4.63 (1.84)"]
+      - ["Competition is the law of nature.", "0.90", "0.81", "4.24 (1.70)"]
+      - ["Without competition it is not possible to have a good society.", "0.92", "0.84", "4.31 (1.64)"]
+      - { group: true, cells: ["Horizontal individualism (Sivadas et al., 2008)", "", "", ""] }
+      - ["I enjoy being unique and different from others in many ways.", "0.83", "0.68", "4.34 (1.64)"]
+      - ["I often &lsquo;do my own thing&rsquo;.", "0.87", "0.75", "4.24 (1.75)"]
+      - ["I am a unique individual.", "0.86", "0.74", "4.36 (1.72)"]
+      - { group: true, cells: ["Vertical collectivism (Sivadas et al., 2008)", "", "", ""] }
+      - ["I would do what would please my family, even if I detested that activity.", "0.88", "0.77", "5.00 (1.62)"]
+      - ["I usually sacrifice my self-interest for the benefit of my group.", "0.82", "0.68", "4.91 (1.52)"]
+      - ["Children should feel honoured if their parents receive a distinguished award.", "0.60", "0.37", "4.83 (1.55)"]
+      - ["I would sacrifice an activity that I enjoy very much if my family did not approve of it.", "0.59", "0.35", "4.71 (1.59)"]
+      - { group: true, cells: ["Horizontal collectivism (Sivadas et al., 2008)", "", "", ""] }
+      - ["My happiness depends very much on the happiness of those around me.", "0.67", "0.45", "5.21 (1.42)"]
+      - ["The well-being of my coworkers is important to me.", "0.80", "0.65", "4.93 (1.46)"]
+      - ["If a co-worker gets a prize, I would feel proud.", "0.73", "0.53", "5.01 (1.42)"]
+      - ["I feel good when I cooperate with others.", "0.63", "0.40", "5.18 (1.48)"]
+      - { group: true, cells: ["Global identity (Tu et al., 2012)", "", "", ""] }
+      - ["My heart mostly belongs to the whole world.", "0.91", "0.83", "3.47 (1.77)"]
+      - ["I believe people should be made more aware of how connected we are to the rest of the world.", "0.90", "0.81", "3.46 (1.66)"]
+      - ["I identify that I am a global citizen.", "0.89", "0.79", "3.45 (1.57)"]
+      - ["I care about knowing global events.", "0.82", "0.69", "3.27 (1.65)"]
+      - { group: true, cells: ["Local identity (Tu et al., 2012)", "", "", ""] }
+      - ["My heart mostly belongs to my local community.", "0.86", "0.74", "4.29 (1.58)"]
+      - ["I respect my local traditions.", "0.87", "0.75", "4.08 (1.62)"]
+      - ["I identify that I am a local citizen.", "0.93", "0.87", "4.48 (1.56)"]
+      - ["I care about knowing local events.", "0.91", "0.83", "3.95 (1.72)"]
+      - { group: true, cells: ["Perceived consumer effectiveness (Kang et al., 2013)", "", "", ""] }
+      - ["What I purchase as a consumer has an effect on the nation&rsquo;s environmental problems.", "0.77", "0.60", "5.55 (1.72)"]
+      - ["Each consumer&rsquo;s behaviour can have an effect on how companies treat their employees.", "0.86", "0.74", "5.06 (1.59)"]
+      - ["Since one consumer cannot have any effect on how companies behave towards the community, it does not make any difference what I do. (reverse scored)", "0.86", "0.75", "5.34 (1.43)"]
+      - ["Each consumer can have a positive effect on society by purchasing products sold by socially responsible companies.", "0.87", "0.77", "5.34 (1.34)"]
+    note: "As printed in Table A1 of the article, whose footnotes give the anchors as 1 = strongly disagree to 5 = strongly agree for the value and identity items and 1 to 7 for perceived consumer effectiveness; the text describes the value items as rated from 1 (never) to 7 (always)."
+  - id: "B1"
+    title: "Correlation matrix of the effects of the multifactorial CFA models"
+    columns: ["Construct", "&alpha;", "CR", "AVE", "1", "2", "3", "4", "5", "6", "7"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["1. Vertical individualism", "0.91", "0.91", "0.78", "<i>0.88</i>", "", "", "", "", "", ""]
+      - ["2. Horizontal individualism", "0.89", "0.88", "0.72", "0.24", "<i>0.85</i>", "", "", "", "", ""]
+      - ["3. Vertical collectivism", "0.82", "0.81", "0.53", "0.22", "0.19", "<i>0.73</i>", "", "", "", ""]
+      - ["4. Horizontal collectivism", "0.81", "0.80", "0.50", "0.28", "0.42", "0.35", "<i>0.71</i>", "", "", ""]
+      - ["5. Global identity", "0.89", "0.93", "0.77", "0.24", "0.13", "0.22", "0.21", "<i>0.88</i>", "", ""]
+      - ["6. Local identity", "0.94", "0.94", "0.79", "0.03", "0.15", "0.17", "0.09", "0.16", "<i>0.89</i>", ""]
+      - ["7. Perceived consumer effectiveness", "0.91", "0.90", "0.70", "0.23", "0.09", "0.25", "0.19", "0.21", "0.07", "<i>0.84</i>"]
+    note: "Square roots of the average variance extracted on the diagonal (in italics). &alpha; = Cronbach&rsquo;s alpha; CR = composite reliability; AVE = average variance extracted. MLR &chi;&sup2;(278) = 749.17, CFI = 0.94, TLI = 0.93, RMSEA = 0.06 [90% CI 0.06&ndash;0.07]; <i>n</i> = 432."
+
+related:
+  - "10.1002/cb.1833"
+  - "10.1080/08911762.2019.1600094"
+  - "10.1108/jpbm-09-2025-6337"
