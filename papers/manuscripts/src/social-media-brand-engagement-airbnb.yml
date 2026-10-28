@@ -1,0 +1,177 @@
+text: social-media-brand-engagement-airbnb.blocks.txt
+affiliation_line: RMIT University; ISCTE-IUL; University of Porto; University of North Texas
+title_page_footer: Re-typeset from the published text by the authors; the publisher's typesetting and layout have been removed.
+figures:
+  fig1:
+    svg: figures/schivinski-et-al-2020-airbnb-model.svg
+appendix_tables:
+- '3'
+table_overrides:
+  '1':
+    title: Construct reliability and validity outputs.
+    columns:
+    - Construct
+    - α
+    - CR
+    - FD
+    - AVE
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    note: α = Cronbach’s alpha, CR = composite reliability, FD = factor determinacy, AVE = average variance extracted; The square root of the AVE values is marked in italic. MLRχ^{2}(335) = 836.55, RMSEA
+      = .06 (90%CI = .05–.06), SRMR = .06, CFI = .93, TLI = .93; n = 449
+  '2':
+    title: Structural results.
+    columns:
+    - Hypothesis
+    - ''
+    - ''
+    - ''
+    rows:
+    - group: true
+      cells:
+      - Direct effects
+      - Beta
+      - t value
+      - p value
+    - - H1a. Functional brand image → consumption
+      - '.10'
+      - '1.13'
+      - '.25'
+    - - H1b. Functional brand image → contribution
+      - −.05
+      - −.57
+      - '.56'
+    - - H1c. Functional brand image → creation
+      - −.12
+      - −1.19
+      - '.23'
+    - - H2a. Hedonic brand image → consumption
+      - '.31'
+      - '3.51'
+      - '.001'
+    - - H2b. Hedonic brand image → contribution
+      - '.32'
+      - '3.32'
+      - '.001'
+    - - H2c. Hedonic brand image → creation
+      - '.33'
+      - '3.19'
+      - '.001'
+    - - apath1. Functional brand image → OBE
+      - '.67'
+      - '10.17'
+      - '.001'
+    - - apath2. Hedonic brand image → OBE
+      - '.15'
+      - '2.11'
+      - '.03'
+    - - bpath1. OBE → consumption
+      - '.22'
+      - '2.43'
+      - '.001'
+    - - bpath2. OBE → contribution
+      - '.19'
+      - '2.04'
+      - '.04'
+    - - bpath3. OBE → creation
+      - '.18'
+      - '1.89'
+      - '.05'
+    - group: true
+      cells:
+      - Indirect effects
+      - Indirect beta
+      - t value
+      - p value
+    - - c’ H3a. Functional brand image → OBE → consumption
+      - '.26'
+      - '6.64'
+      - '.001'
+    - - c’ H3b. Functional brand image → OBE → contribution
+      - '.16'
+      - '4.65'
+      - '.001'
+    - - c’ H3c. Functional brand image → OBE → creation
+      - '.13'
+      - '4.04'
+      - '.001'
+    - - c’ H4a. Hedonic brand image → OBE → consumption
+      - '.06'
+      - '2.14'
+      - '.03'
+    - - c’ H4b. Hedonic brand image → OBE → contribution
+      - '.04'
+      - '1.93'
+      - '.05'
+    - - c’ H4c. Hedonic brand image → OBE → creation
+      - '.03'
+      - '1.78'
+      - '.07'
+    - group: true
+      cells:
+      - Control variables
+      - Beta
+      - t value
+      - p value
+    - - Gender → consumption
+      - '.06'
+      - '1.49'
+      - '.13'
+    - - Gender → contribution
+      - '.00'
+      - '.00'
+      - '.99'
+    - - Gender → creation
+      - −.03
+      - −.61
+      - '.53'
+    - - Age → consumption
+      - '.06'
+      - '1.30'
+      - '.19'
+    - - Age → contribution
+      - '.11'
+      - '1.93'
+      - '.05'
+    - - Age → creation
+      - '.12'
+      - '1.93'
+      - '.05'
+    - - Social media usage → consumption
+      - '.11'
+      - '2.41'
+      - '.01'
+    - - Social media usage → contribution
+      - '.08'
+      - '1.75'
+      - '.07'
+    - - Social media usage → creation
+      - '.09'
+      - '1.67'
+      - '.09'
+    widths:
+    - 1fr
+    - auto
+    - auto
+    - auto
+    note: 'GOF values for the directional SEM: MLRχ^{2}(416) = 972.08, RMSEA = .05 (90%CI = .05–.06), SRMR = .06; CFI = .93, and TLI = .92; GOF for the mediational model: MLχ^{2}(416) = 1216.32, RMSEA =
+      .06 (90%CI = .06–.07), SRMR = .06, CFI = .93, TLI = .92; Bootstrap sampling = 5000; Gender reference: 1 = female; OBE = Overall brand equity; apath = direct structural path from independent variable
+      to mediator, bpath = direct structural path from mediator to dependent variable, c’ = indirect effect; n = 449'
+  '3':
+    title: Descriptive statistics, factor loadings—completely standardized lambda X (λ_{x})^{b}, and explained variance on each item (*R*^{2}).
+    columns:
+    - ''
+    - (λ_{x})^{b}
+    - '*R*^{2}'
+    - '*t* value'
+    - Mean
+    - SD
+    - Skew.
+    - Kurt.
+    note: ''
+    size: 7.5pt
+appendix_heading: Appendix

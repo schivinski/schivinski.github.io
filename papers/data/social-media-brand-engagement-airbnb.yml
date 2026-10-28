@@ -1,0 +1,331 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Brand Management 27(6), 645-661 (PDF supplied by Bruno, 28 Oct 2026)
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Social media brand engagement in the context of collaborative consumption: the case of AIRBNB"
+doi: "10.1057/s41262-020-00207-5"
+journal: "Journal of Brand Management"
+issn: "1350-231X"
+publisher: "Palgrave Macmillan (Springer Nature)"
+volume: "27"
+issue: "6"
+pages: "645–661"
+published: "2020-11"
+published_label: "2020 (online September 2020)"
+online: "2020-09-05"
+open_access: false
+
+aam:
+  file: "schivinski-langaro-fernandes-guzman-2020-jbm-accepted-manuscript.pdf"
+  statement: >-
+    This version of the article has been accepted for publication, after peer review (when applicable) and is subject
+    to Springer Nature’s AM terms of use, but is not the Version of Record and does not reflect post-acceptance
+    improvements, or any corrections. The Version of Record is available online at: https://doi.org/10.1057/s41262-020-00207-5
+
+authors:
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Daniela"
+    family: "Langaro"
+    orcid: "0000-0002-1246-0720"
+    affiliation: ["ISCTE-IUL"]
+  - given: "Teresa"
+    family: "Fernandes"
+    orcid: "0000-0001-5753-2188"
+    affiliation: ["University of Porto"]
+  - given: "Francisco"
+    family: "Guzmán"
+    orcid: "0000-0002-9215-8651"
+    affiliation: ["University of North Texas"]
+
+cite_short: "Schivinski et al., 2020"
+badges: ["449 social media users", "Airbnb", "Structural equation modelling", "Mediation analysis", "Poland"]
+keywords:
+  # Article's own keywords
+  - functional brand image
+  - hedonic brand image
+  - overall brand equity
+  - consumer brand engagement
+  - COBRAs
+  - Airbnb
+  # What the study is about
+  - social media brand engagement
+  - consumers' online brand-related activities
+  - behavioural engagement
+  - brand-related social media content
+  - user-generated content
+  - collaborative consumption
+  - sharing economy
+  - peer-to-peer accommodation
+  - hospitality branding
+  - tourism marketing
+  - brand image
+  - consumer-based brand equity
+  - brand co-creation
+  # Theory and measures
+  - utilitarian and hedonic value
+  - CEBSC scale
+  - overall brand equity scale (Yoo and Donthu)
+  # Context
+  - Poland
+  - social media users
+  - travellers
+  # Method
+  - structural equation modelling (SEM)
+  - mediation analysis
+  - bootstrapping
+  - confirmatory factor analysis
+  - robust maximum likelihood (MLR)
+  - Mplus
+  - survey research
+  # Application
+  - social media strategy
+  - brand management
+  - platform marketing
+  - hospitality industry
+
+in_brief: >-
+  On social media, people read, share and post about Airbnb because they find the brand attractive and full of
+  personality, not because they find it reliable. In a survey of 449 social media users in Poland who followed Airbnb,
+  reliability and trust drove engagement only by first raising brand equity.
+
+findings:
+  - headline: "A hedonic brand image drives engagement directly."
+    text: >-
+      In a survey of 449 social media users in Poland who followed and interacted with Airbnb, hedonic brand image
+      (seeing Airbnb as attractive, desirable and strong in character and personality) increased the consumption
+      (&beta; = 0.31), contribution (&beta; = 0.32) and creation (&beta; = 0.33) of Airbnb-related content on social
+      media, all <i>p</i> &le; .001 (Schivinski et al., 2020).
+  - headline: "A functional brand image works only through brand equity."
+    text: >-
+      Functional brand image (seeing Airbnb as reliable, credible and trustworthy) had no direct effect on consuming,
+      contributing or creating content (<i>p</i> = .25, .56 and .23), but it raised overall brand equity
+      (&beta; = 0.67, <i>p</i> &le; .001), and its indirect effects through brand equity were significant (0.26, 0.16 and
+      0.13, all <i>p</i> &le; .001): brand equity fully mediated the effect (Schivinski et al., 2020).
+  - headline: "Brand equity is driven mainly by function."
+    text: >-
+      Functional brand image had a much larger effect on Airbnb's overall brand equity (&beta; = 0.67) than hedonic
+      brand image (&beta; = 0.15, <i>p</i> = .03); brand equity in turn increased consumption (&beta; = 0.22),
+      contribution (&beta; = 0.19) and creation (&beta; = 0.18) of brand-related content (Schivinski et al., 2020).
+  - headline: "Brand equity adds only a little to the hedonic route."
+    text: >-
+      The indirect effects of hedonic brand image through brand equity were small (0.06, 0.04 and 0.03 for
+      consumption, contribution and creation; <i>p</i> = .03, .05 and .07), so the hedonic image worked mainly
+      directly, with partial mediation by brand equity (Schivinski et al., 2020).
+  - headline: "Heavier social media users consume more brand content."
+    text: >-
+      Time spent on social media increased the consumption of Airbnb-related content (&beta; = 0.11, <i>p</i> = .01),
+      older respondents contributed and created slightly more (&beta; = 0.11 and 0.12, <i>p</i> = .05), and gender had
+      no effect; results were the same when only respondents who had used Airbnb were analysed (Schivinski et al., 2020).
+
+glance:
+  - { label: "Design", value: "Online survey (Qualtrics); confirmatory factor analysis, structural equation modelling and bootstrap mediation analysis (5,000 draws) in Mplus 7.2 and SPSS 24" }
+  - { label: "Participants", value: "449 social media users in Poland who followed and interacted with Airbnb on social media (55.9% women; 79.5% had used Airbnb at least once), recruited on social media channels and travel forums; 530 recruited before data cleaning" }
+  - { label: "Brand", value: "Airbnb, the leading peer-to-peer platform for renting, swapping and lending accommodation" }
+  - { label: "Measures", value: "Functional brand image (3 items) and hedonic brand image (4 items; Bruhn et al., 2012), overall brand equity (4 items; Yoo &amp; Donthu, 2001), consumption, contribution and creation of brand-related content (17-item CEBSC scale; Schivinski et al., 2016); 7-point scales; Polish, translated and piloted" }
+  - { label: "Controls", value: "Gender, age and social media usage" }
+  - { label: "Model fit", value: "CFA: MLR &chi;&sup2;(335) = 836.55, CFI = 0.93, TLI = 0.93, RMSEA = 0.06, SRMR = 0.06. Structural model: MLR &chi;&sup2;(416) = 972.08, CFI = 0.93, TLI = 0.92, RMSEA = 0.05, SRMR = 0.06" }
+
+figures:
+  - file: figures/schivinski-et-al-2020-airbnb-model.svg
+    title: "Figure 1. The mediating role of brand equity between Airbnb brand image and COBRAs"
+    caption: >-
+      Simple arrows <i>a</i> are the direct paths from brand image to overall brand equity, <i>b</i> the paths from
+      brand equity to the three COBRA types, and <i>c</i> the direct paths from brand image to COBRAs. Dashed arrows are
+      the indirect (<i>c’</i>, mediated) effects. Gender, age and social media usage are controlled.
+  - file: figures/schivinski-et-al-2020-airbnb-estimates.svg
+    title: "Figure 2. Standardised estimates"
+    caption: >-
+      Drawn from Table 2 of the article (N = 449). Values on the direct and indirect paths are for consumption,
+      contribution and creation, in that order. *** <i>p</i> &le; .001, * <i>p</i> &le; .05, † <i>p</i> &lt; .10;
+      n.s. = not significant.
+
+results:
+  title: "What drives each type of engagement: direct hedonic effect vs functional effect through brand equity"
+  unit: ""
+  max: 0.4
+  note: "Standardised direct effects of hedonic brand image and indirect effects of functional brand image through overall brand equity, from Table 2 of the article (N = 449). The direct effects of functional brand image were not significant."
+  groups:
+    - name: "Consumption (reading, watching, following)"
+      bars:
+        - { label: "Hedonic image, direct", value: 0.31, highlight: true }
+        - { label: "Functional image, via equity", value: 0.26 }
+    - name: "Contribution (liking, commenting, sharing)"
+      bars:
+        - { label: "Hedonic image, direct", value: 0.32, highlight: true }
+        - { label: "Functional image, via equity", value: 0.16 }
+    - name: "Creation (posting, reviewing)"
+      bars:
+        - { label: "Hedonic image, direct", value: 0.33, highlight: true }
+        - { label: "Functional image, via equity", value: 0.13 }
+
+question: >-
+  Peer-to-peer accommodation brands such as Airbnb depend on users talking about them on social media, yet research on
+  consumer brand engagement had looked mostly at consumer-side drivers such as motivations and personality. Little was
+  known about how the brand itself drives engagement, especially in the sharing economy. We asked whether Airbnb's
+  functional and hedonic brand image lead consumers to consume, contribute and create brand-related content on social
+  media, and whether overall brand equity carries these effects.
+
+implications:
+  practical: >-
+    Platforms like Airbnb that want people to engage on social media should build a brand that feels attractive,
+    desirable and strong in personality, for example by linking it with people, events and places and by making it easy
+    for guests to share their stays as user-generated content. Reliability and trust still matter: they build brand
+    equity, which keeps guests coming back and supports engagement, but on their own they mostly lead to passive
+    reading rather than active posting. The two sides of the image complement each other.
+  theoretical: >-
+    The study shows that brand image affects social media engagement differently depending on its content: hedonic
+    associations act directly, while functional associations act only through overall brand equity. It extends the
+    nomological network of consumer brand engagement with firm-led, brand-related drivers in the sharing economy, and
+    suggests that attitudinal loyalty, captured by overall brand equity, is an important but not indispensable route to
+    engagement behaviour.
+
+limitations:
+  - "Respondents came from one country (Poland), so the results need replication in other countries and cultures."
+  - "Overall brand equity was the only mediator tested; self-brand identification and brand love are candidate mechanisms for future work."
+  - "Only one sharing-economy brand, Airbnb, was studied; future research could also compare engagement before and after the COVID-19 disruption to collaborative consumption."
+
+faq:
+  - q: "Why do people engage with Airbnb on social media?"
+    a: >-
+      Mainly because they see the brand as attractive, desirable and strong in personality. In a survey of 449 social
+      media users in Poland, hedonic brand image directly increased consuming (&beta; = 0.31), contributing
+      (&beta; = 0.32) and creating (&beta; = 0.33) Airbnb-related content (Schivinski et al., 2020).
+  - q: "Does trust in a sharing-economy brand increase social media engagement?"
+    a: >-
+      Only indirectly. Seeing Airbnb as reliable, credible and trustworthy had no direct effect on engagement, but it
+      raised brand equity (&beta; = 0.67), which in turn increased engagement; brand equity fully mediated the effect
+      (Schivinski et al., 2020).
+  - q: "Does brand equity lead to engagement on social media?"
+    a: >-
+      Yes. Overall brand equity increased the consumption (&beta; = 0.22), contribution (&beta; = 0.19) and creation
+      (&beta; = 0.18) of Airbnb-related content on social media (Schivinski et al., 2020).
+  - q: "What should a peer-to-peer platform do to get users posting about it?"
+    a: >-
+      Build its hedonic image. Functional associations mainly led to passive consumption of content, while active
+      contribution and creation were driven directly by a hedonic, attractive brand image (Schivinski et al., 2020).
+
+concepts:
+  - term: "Consumers' online brand-related activities (COBRAs)"
+    definition: "Behavioural engagement with brands on social media at three levels: consuming (reading, watching, following), contributing (liking, commenting, sharing) and creating (posting content, writing reviews) brand-related content."
+  - term: "Functional brand image"
+    definition: "Utilitarian, rational associations with a brand, such as reliability, competence, credibility and trust; they give the brand objective meaning."
+  - term: "Hedonic brand image"
+    definition: "Emotional and symbolic associations with a brand, such as being attractive, desirable and strong in character and personality; they give the brand subjective meaning."
+  - term: "Overall brand equity (OBE)"
+    definition: "A single-dimension measure of the added value consumers attach to a brand compared with an equivalent alternative (Yoo &amp; Donthu, 2001)."
+  - term: "Collaborative consumption"
+    definition: "Consumption in which access to goods and services is shared among peers and coordinated through community-based online services, favouring access over ownership."
+  - term: "Full and partial mediation"
+    definition: "Full mediation means a variable affects the outcome only through the mediator (here, functional image through brand equity); partial mediation means it also has a direct effect (here, hedonic image)."
+
+materials:
+  - label: "Screening questions"
+    text: "Respondents had to have used social media in the past six months, to follow (yes/no) and interact with (yes/no) Airbnb on social media and to name the platform(s); they were also asked whether they had ever used Airbnb to rent short-term lodging."
+  - label: "Scale items"
+    text: "All 24 items with loadings and descriptive statistics are in Table 3 below (English versions; the survey was administered in Polish after forward translation and a pilot with 49 respondents)."
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Free full text, including all tables and the figure", url: "manuscripts/schivinski-langaro-fernandes-guzman-2020-jbm-accepted-manuscript.pdf" }
+  - { label: "Published version", note: "Journal of Brand Management", url: "https://doi.org/10.1057/s41262-020-00207-5" }
+  - { label: "COBRA scale (CEBSC)", note: "The engagement measure used here, with a ready-to-use questionnaire, on its own page", url: "measuring-consumer-engagement-social-media-content.html" }
+
+tables:
+  - id: "2"
+    title: "Structural results"
+    columns: ["Path", "&beta;", "<i>t</i>", "<i>p</i>"]
+    align: ["left", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["Direct effects", "", "", ""] }
+      - ["H1a. Functional brand image → consumption", "0.10", "1.13", ".25"]
+      - ["H1b. Functional brand image → contribution", "−0.05", "−0.57", ".56"]
+      - ["H1c. Functional brand image → creation", "−0.12", "−1.19", ".23"]
+      - ["H2a. Hedonic brand image → consumption", "0.31", "3.51", ".001"]
+      - ["H2b. Hedonic brand image → contribution", "0.32", "3.32", ".001"]
+      - ["H2c. Hedonic brand image → creation", "0.33", "3.19", ".001"]
+      - ["a1. Functional brand image → OBE", "0.67", "10.17", ".001"]
+      - ["a2. Hedonic brand image → OBE", "0.15", "2.11", ".03"]
+      - ["b1. OBE → consumption", "0.22", "2.43", ".001"]
+      - ["b2. OBE → contribution", "0.19", "2.04", ".04"]
+      - ["b3. OBE → creation", "0.18", "1.89", ".05"]
+      - { group: true, cells: ["Indirect effects", "", "", ""] }
+      - ["H3a. Functional brand image → OBE → consumption", "0.26", "6.64", ".001"]
+      - ["H3b. Functional brand image → OBE → contribution", "0.16", "4.65", ".001"]
+      - ["H3c. Functional brand image → OBE → creation", "0.13", "4.04", ".001"]
+      - ["H4a. Hedonic brand image → OBE → consumption", "0.06", "2.14", ".03"]
+      - ["H4b. Hedonic brand image → OBE → contribution", "0.04", "1.93", ".05"]
+      - ["H4c. Hedonic brand image → OBE → creation", "0.03", "1.78", ".07"]
+      - { group: true, cells: ["Control variables", "", "", ""] }
+      - ["Gender → consumption", "0.06", "1.49", ".13"]
+      - ["Gender → contribution", "0.00", "0.00", ".99"]
+      - ["Gender → creation", "−0.03", "−0.61", ".53"]
+      - ["Age → consumption", "0.06", "1.30", ".19"]
+      - ["Age → contribution", "0.11", "1.93", ".05"]
+      - ["Age → creation", "0.12", "1.93", ".05"]
+      - ["Social media usage → consumption", "0.11", "2.41", ".01"]
+      - ["Social media usage → contribution", "0.08", "1.75", ".07"]
+      - ["Social media usage → creation", "0.09", "1.67", ".09"]
+    note: "Directional SEM: MLR &chi;&sup2;(416) = 972.08, RMSEA = 0.05 (90% CI 0.05&ndash;0.06), SRMR = 0.06, CFI = 0.93, TLI = 0.92. Mediation model: ML &chi;&sup2;(416) = 1216.32, RMSEA = 0.06 (90% CI 0.06&ndash;0.07), SRMR = 0.06, CFI = 0.93, TLI = 0.92; 5,000 bootstrap samples. Gender reference: 1 = female. OBE = overall brand equity; <i>n</i> = 449. <i>p</i> values as printed in the article (.001 means <i>p</i> &le; .001)."
+  - id: "3"
+    title: "Scale items: factor loadings, explained variance and descriptive statistics"
+    columns: ["Item", "&lambda;", "<i>R</i>&sup2;", "<i>t</i>", "Mean", "SD", "Skew.", "Kurt."]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["Overall brand equity", "", "", "", "", "", "", ""] }
+      - ["It makes sense to use Airbnb instead of any other brand, even if they are the same", ".85", ".72", "56.58", "5.04", "1.86", "−.74", "−.50"]
+      - ["Even if another brand has the same features as Airbnb, I would prefer to use Airbnb", ".72", ".52", "29.18", "4.41", "2.04", "−.24", "−1.21"]
+      - ["If there is another brand as good as Airbnb, I prefer to use Airbnb", ".88", ".77", "67.81", "5.21", "1.92", "−.89", "−.32"]
+      - ["If another brand is not different from Airbnb in any way, it seems smarter to use Airbnb", ".86", ".74", "60.42", "5.31", "1.78", "−1.04", ".15"]
+      - { group: true, cells: ["Functional brand image", "", "", "", "", "", "", ""] }
+      - ["Airbnb is reliable", ".92", ".85", "107.55", "5.71", "1.50", "−1.34", "1.29"]
+      - ["Airbnb is credible", ".93", ".87", "124.52", "5.77", "1.50", "−1.40", "1.44"]
+      - ["I trust Airbnb", ".94", ".89", "142.79", "5.69", "1.55", "−1.37", "1.28"]
+      - { group: true, cells: ["Hedonic brand image", "", "", "", "", "", "", ""] }
+      - ["Airbnb is attractive", ".90", ".82", "84.71", "5.67", "1.55", "−1.28", "1.05"]
+      - ["Airbnb is desirable", ".84", ".71", "54.19", "5.23", "1.78", "−.86", "−.28"]
+      - ["Airbnb is strong in character", ".92", ".86", "102.09", "5.48", "1.61", "−1.04", ".32"]
+      - ["Airbnb is strong in personality", ".90", ".81", "81.00", "5.41", "1.62", "−.97", ".23"]
+      - { group: true, cells: ["COBRAs: consumption", "", "", "", "", "", "", ""] }
+      - ["I read posts related to Airbnb on social media", ".86", ".75", "57.29", "3.80", "2.04", ".05", "−1.25"]
+      - ["I read fan page(s) related to Airbnb on social networking sites", ".86", ".74", "56.16", "3.79", "2.11", ".05", "−1.39"]
+      - ["I watch pictures/graphics related to Airbnb", ".77", ".59", "34.75", "3.99", "1.98", "−.02", "−1.14"]
+      - ["I follow blogs related to Airbnb", ".69", ".47", "24.74", "2.76", "1.97", ".82", "−.65"]
+      - ["I follow Airbnb on social networking sites", ".87", ".76", "60.32", "3.60", "2.03", ".17", "−1.25"]
+      - { group: true, cells: ["COBRAs: contribution", "", "", "", "", "", "", ""] }
+      - ["I comment on videos related to Airbnb", ".82", ".68", "48.04", "2.54", "1.92", ".97", "−.35"]
+      - ["I comment on posts related to Airbnb", ".89", ".80", "77.64", "2.44", "1.85", "1.07", "−.07"]
+      - ["I comment on pictures/graphics related to Airbnb", ".85", ".72", "56.42", "2.62", "1.96", ".97", "−.35"]
+      - ["I share Airbnb-related posts", ".89", ".79", "74.47", "3.36", "2.15", ".40", "−1.26"]
+      - ["I “Like” pictures/graphics related to Airbnb", ".71", ".50", "27.56", "3.34", "2.09", ".40", "−1.18"]
+      - ["I “Like” posts related to Airbnb", ".75", ".57", "33.39", "2.21", "1.77", "1.34", ".66"]
+      - { group: true, cells: ["COBRAs: creation", "", "", "", "", "", "", ""] }
+      - ["I initiate posts related to Airbnb on blogs", ".82", ".68", "48.99", "2.21", "1.77", "1.34", ".66"]
+      - ["I initiate posts related to Airbnb on social networking sites", ".88", ".78", "75.03", "2.34", "1.83", "1.20", ".19"]
+      - ["I post pictures/graphics related to Airbnb", ".88", ".78", "74.11", "2.29", "1.81", "1.25", ".32"]
+      - ["I post videos that show Airbnb", ".85", ".73", "59.03", "2.28", "1.80", "1.24", ".31"]
+      - ["I write posts related to Airbnb on forums", ".90", ".81", "85.33", "2.29", "1.79", "1.22", ".28"]
+      - ["I write reviews related to Airbnb", ".87", ".75", "65.18", "2.15", "1.74", "1.40", ".81"]
+    note: "&lambda; = completely standardised loading; <i>R</i>&sup2; = explained variance of the item. Brand equity and brand image: 1 = completely disagree, 7 = completely agree. COBRAs: 1 = never, 7 = very often."
+  - id: "1"
+    title: "Construct reliability and validity"
+    collapsed: true
+    columns: ["Construct", "&alpha;", "CR", "FD", "AVE", "1", "2", "3", "4", "5", "6"]
+    rows:
+      - ["1. Consumption", ".90", ".90", ".96", ".66", "<i>.81</i>", "", "", "", "", ""]
+      - ["2. Contribution", ".92", ".92", ".97", ".68", ".72", "<i>.82</i>", "", "", "", ""]
+      - ["3. Creation", ".95", ".95", ".97", ".76", ".59", ".78", "<i>.87</i>", "", "", ""]
+      - ["4. Overall brand equity", ".89", ".90", ".96", ".69", ".38", ".24", ".19", "<i>.83</i>", "", ""]
+      - ["5. Functional brand image", ".95", ".95", ".98", ".87", ".36", ".19", ".13", ".69", "<i>.93</i>", ""]
+      - ["6. Hedonic brand image", ".94", ".94", ".97", ".80", ".41", ".26", ".22", ".71", ".63", "<i>.89</i>"]
+    note: "&alpha; = Cronbach&rsquo;s alpha; CR = composite reliability; FD = factor determinacy; AVE = average variance extracted. Square roots of the AVE in italics. MLR &chi;&sup2;(335) = 836.55, RMSEA = 0.06 (90% CI 0.05&ndash;0.06), SRMR = 0.06, CFI = 0.93, TLI = 0.93; <i>n</i> = 449."
+
+related:
+  - "10.2501/jar-2016-004"
+  - "10.1080/0965254x.2019.1572641"
+  - "10.1080/13527266.2013.871323"
+  - "10.1016/j.jbusres.2019.08.045"
+  - "10.1108/jpbm-05-2021-3468"

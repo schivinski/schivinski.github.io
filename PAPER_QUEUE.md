@@ -15,7 +15,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 4 | 2018 | Reflections on “social media: Influencing customer satisfaction in B2B sales” and a res… | Industrial Marketing Management | 158 | locked (`social-media-b2b-sales-research-agenda`) |
 | 5 | 2019 | Influencing COBRAs: the effects of brand equity on the consumer’s propensity to engage … | Journal of Strategic Marketing | 155 | locked (`influencing-cobras-brand-equity`) |
 | 6 | 2021 | Eliciting brand-related social media engagement: A conditional inference tree framework | Journal of Business Research | 150 | locked (`eliciting-brand-related-social-media-engagement`) |
-| 7 | 2020 | Social media brand engagement in the context of collaborative consumption: the case of … | Journal of Brand Management | 113 |  |
+| 7 | 2020 | Social media brand engagement in the context of collaborative consumption: the case of … | Journal of Brand Management | 113 | locked (`social-media-brand-engagement-airbnb`) |
 | 8 | 2022 | Effects of social media brand-related content on fashion products buying behaviour – a … | Journal of Product & Brand Management | 96 |  |
 | 9 | 2024 | Influencer marketing effectiveness: giving competence, receiving credibility | Journal of Travel and Tourism Marketing | 92 |  |
 | 10 | 2019 | Do Consumers Acculturated to Global Consumer Culture Buy More Impulsively? The Moderati… | Journal of Global Marketing | 86 |  |
