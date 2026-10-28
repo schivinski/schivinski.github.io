@@ -1,0 +1,271 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, e-mentor 2(59), 77-85 (2015), in Polish (publisher PDF from e-mentor.edu.pl, 28 Oct 2026). The
+# page is in English as Bruno asked: English title and abstract from the journal's English page, items and tables
+# translated here. The journal states no open licence (reuse requests go to the editors), so no copy or translation
+# of the full text is hosted; the DOI leads to the free publisher PDF.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "The study of Polish consumer’s online brand-related activities"
+title_original: "Badanie aktywności online polskich konsumentów dotyczącej marek"
+language: "Polish"
+language_code: "pl"
+doi: "10.15219/em59.1174"
+journal: "e-mentor"
+issn: "1731-6758"
+publisher: "Foundation for the Promotion and Accreditation of Economic Education"
+issue: "59"
+volume: "2"
+pages: "77–85"
+published: "2015-04"
+published_label: "April 2015"
+open_access: true
+pdf_url: "https://www.e-mentor.edu.pl/_magazine/_pdf/59/art_77-85_Schivinski_Brzozowska_EM%202_59_2015.pdf"
+
+authors:
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Gdańsk University of Technology"]
+    me: true
+  - given: "Magdalena"
+    family: "Brzozowska-Woś"
+    orcid: "0000-0002-8433-0685"
+    affiliation: ["Gdańsk University of Technology"]
+
+cite_short: "Schivinski & Brzozowska-Woś, 2015"
+badges: ["2,253 Polish Internet users", "Online survey", "31 brand-related activities", "Gender differences", "Article in Polish"]
+keywords:
+  - consumer’s online brand-related activities
+  - COBRAs
+  - consuming, contributing and creating brand-related content
+  - social media
+  - brand engagement
+  - user-generated content
+  - gender differences
+  - Polish consumers
+  - Polish Internet users
+  - Web 2.0
+  - online survey
+  - Mann–Whitney U test
+  - Poland
+
+in_brief: >-
+  Polish Internet users mostly consume brand content online, such as looking at brand photos and ads and reading
+  reviews; far fewer comment, like or create content about brands. In a survey of 2,253 users, men created and
+  contributed more brand-related content than women, while women read more promotional emails and looked at more ads.
+
+findings:
+  - headline: "Consuming brand content is far more common than creating it."
+    text: >-
+      Among 2,253 Polish Internet users, consuming activities (mean scores up to 4.3 on a 1&ndash;7 scale) were more
+      frequent than contributing (up to 3.6) and creating activities (2.0 to 2.2), and for every creating activity more
+      than half of respondents answered &ldquo;never&rdquo; (Schivinski &amp; Brzozowska-Woś, 2015).
+  - headline: "Photos, ads and reviews draw the most attention."
+    text: >-
+      The most frequent consuming activities were looking at brand photos and graphics (mean 4.3), looking at the
+      brand&rsquo;s ads such as banners (4.2) and reading product reviews (4.1) (Schivinski &amp; Brzozowska-Woś, 2015).
+  - headline: "&ldquo;Liking&rdquo; is the main way consumers contribute."
+    text: >-
+      Among contributing activities, &ldquo;liking&rdquo; the brand&rsquo;s fan pages (mean 3.6), videos and posts (3.2)
+      was most frequent; commenting on brand content was rare (2.3 to 2.5) (Schivinski &amp; Brzozowska-Woś, 2015).
+  - headline: "Men create and contribute more brand content than women."
+    text: >-
+      Men scored significantly higher than women on all eight creating activities and on most contributing ones, for
+      example commenting on brand videos (2.57 vs 2.07), while women read more promotional emails (2.94 vs 2.73) and
+      looked at more ads (4.37 vs 4.04) (Schivinski &amp; Brzozowska-Woś, 2015).
+
+glance:
+  - { label: "Design", value: "Exploratory online survey of Polish Internet users, advertised on websites and social networking profiles (5 March to 4 June 2014), with two screening questions; each respondent named a brand they are active about online" }
+  - { label: "Participants", value: "2,253 valid questionnaires from 2,678 respondents (55.7% women; 61.1% aged 22&ndash;29); 311 brands" }
+  - { label: "Measures", value: "31 online brand-related activities: 12 consuming, 11 contributing and 8 creating, rated from 1 (never) to 7 (very often)" }
+  - { label: "Analysis", value: "Frequency distributions, means and Mann&ndash;Whitney <i>U</i> tests for differences between women and men" }
+  - { label: "Language", value: "The article is in Polish; the English abstract is on the journal&rsquo;s site. The activities and tables on this page are translated from Polish." }
+  - { label: "Funding", value: "National Science Centre (NCN), Poland, PRELUDIUM project UMO-2012/07/N/HS4/02790" }
+
+results:
+  title: "Most frequent online brand-related activities, by COBRA type"
+  unit: ""
+  max: 7
+  note: "Mean scores on a 1 (never) to 7 (very often) scale, from Tables 1, 3 and 5 of the article (n = 2,253); the three most frequent activities of each type."
+  groups:
+    - name: "Consuming"
+      bars:
+        - { label: "Brand photos and graphics", value: 4.3, display: "4.3", highlight: true }
+        - { label: "Brand ads (e.g., banners)", value: 4.2, display: "4.2", highlight: true }
+        - { label: "Product reviews", value: 4.1, display: "4.1", highlight: true }
+    - name: "Contributing"
+      bars:
+        - { label: "Like fan pages", value: 3.6, display: "3.6" }
+        - { label: "Like videos", value: 3.2, display: "3.2" }
+        - { label: "Like posts", value: 3.2, display: "3.2" }
+    - name: "Creating"
+      bars:
+        - { label: "Photos of self with product", value: 2.2, display: "2.2" }
+        - { label: "Share product photos", value: 2.2, display: "2.2" }
+        - { label: "Write reviews", value: 2.0, display: "2.0" }
+
+question: >-
+  Social media let consumers consume, contribute to and create content about brands, but no study had systematically
+  measured how often consumers in Poland engage in these consumer&rsquo;s online brand-related activities (COBRAs).
+  We asked how Polish Internet users divide their engagement across consuming, contributing and creating brand-related
+  content, and whether this differs between women and men.
+
+implications:
+  practical: >-
+    Brand managers should publish attractive visual content on their own sites and across social media and keep using
+    display advertising, which Polish consumers still notice. Campaigns can be targeted by gender (graphic and email
+    advertising for women; videos and blogs for men), and brands should add &ldquo;like&rdquo; and sharing tools,
+    run crowdsourcing initiatives and work with their most active consumers as ambassadors.
+  theoretical: >-
+    The results support Muntinga, Moorman and Smit&rsquo;s view that COBRAs run from consuming through contributing to
+    creating, with engagement falling at each level, and show gender differences at all three levels.
+
+limitations:
+  - "Social media channels (social networks, microblogs, blogs, forums) were not analysed separately."
+  - "The sample included only Polish consumers, and some brands operate only on the local market."
+  - "The study is exploratory; the next steps were a COBRA measurement instrument and the effect of COBRAs on brand equity."
+
+faq:
+  - q: "What do Polish consumers do online with brands?"
+    a: >-
+      Mostly consume brand content: they look at brand photos and ads and read product reviews. Liking brand content
+      is less common, and creating brand-related content is rare (Schivinski &amp; Brzozowska-Woś, 2015).
+  - q: "Are men or women more active with brands online?"
+    a: >-
+      In 2,253 Polish Internet users, men created and contributed more brand-related content, while women read more
+      promotional emails and looked at more ads (Schivinski &amp; Brzozowska-Woś, 2015).
+  - q: "What are COBRAs?"
+    a: >-
+      Consumer&rsquo;s online brand-related activities: consuming, contributing to and creating brand-related content
+      online (Muntinga, Moorman &amp; Smit, 2011).
+  - q: "Is this article available in English?"
+    a: >-
+      The article is in Polish, with an English abstract on the e-mentor website. This page summarises it in English,
+      with the activities and tables translated.
+
+concepts:
+  - term: "COBRAs"
+    definition: "Consumer&rsquo;s online brand-related activities, grouped into consuming, contributing and creating brand-related content."
+  - term: "Consuming COBRA type"
+    definition: "The lowest level of brand-related activity: passively reading, watching and following brand content."
+  - term: "Contributing COBRA type"
+    definition: "A medium level of activity: interacting with existing brand content by liking, commenting or rating, without creating original content."
+  - term: "Creating COBRA type"
+    definition: "The highest level of activity: producing and publishing brand-related content that others consume and share."
+
+materials:
+  - label: "Activities measured"
+    text: "All 31 activities (translated from Polish) with the distribution of answers, means and standard deviations are in Tables 1, 3 and 5; the comparisons between women and men are in Tables 2, 4 and 6."
+
+open_science:
+  - { label: "Published version (in Polish)", note: "e-mentor 2(59), free PDF on the journal&rsquo;s website", url: "https://doi.org/10.15219/em59.1174" }
+  - { label: "English abstract", note: "e-mentor English page", url: "https://www.e-mentor.edu.pl/eng/article/index/number/59/id/1174" }
+
+tables:
+  - id: "1"
+    title: "Level of consumers&rsquo; brand-related activity: consuming COBRA type"
+    columns: ["Activity", "1 (never)", "2", "3", "4", "5", "6", "7 (very often)", "Mean", "SD"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["I read reviews of products of the chosen brand.", "14.7", "10.6", "12.7", "15.5", "18.3", "16.3", "11.9", "4.1", "1.9"]
+      - ["I read promotional emails related to this brand.", "35.5", "17.4", "12.6", "12.3", "9.7", "7.4", "5.1", "2.9", "1.8"]
+      - ["I read other people&rsquo;s comments about this brand on social networking sites.", "15.7", "12.3", "15.2", "15.9", "17.3", "12.9", "10.7", "3.9", "1.9"]
+      - ["I read posts published by this brand on social networking sites.", "17.6", "12.9", "13.5", "15.4", "16.6", "12.8", "11.2", "3.9", "1.9"]
+      - ["I watch videos related to the chosen brand.", "20.4", "15.7", "13.3", "15.4", "14.2", "12.1", "8.9", "3.6", "1.9"]
+      - ["I view this brand&rsquo;s fan page (e.g., on Facebook).", "19.3", "13.5", "13.2", "11.9", "15.2", "13.8", "13.1", "3.9", "2.0"]
+      - ["I look at this brand&rsquo;s ads (e.g., banners).", "9.6", "10.0", "14.0", "19.7", "18.6", "15.8", "12.3", "4.2", "1.8"]
+      - ["I visit this brand&rsquo;s website to follow news.", "17.7", "13.9", "11.9", "14.6", "14.8", "13.4", "13.7", "3.9", "2.0"]
+      - ["I look at photos and other graphics related to the chosen brand.", "11.0", "10.9", "12.0", "16.7", "18.7", "15.6", "15.1", "4.3", "1.9"]
+      - ["I download applications (e.g., widgets) related to this brand.", "36.2", "14.6", "10.3", "12.5", "10.4", "8.1", "7.9", "3.0", "2.0"]
+      - ["I follow blogs related to the chosen brand.", "38.4", "18.4", "10.8", "11.1", "9.3", "6.5", "5.5", "2.8", "1.9"]
+      - ["I follow this brand on social networking sites.", "20.0", "14.3", "13.3", "14.6", "14.5", "12.0", "11.3", "3.7", "2.0"]
+    note: "Percentage of respondents at each level of the 7-point scale (1 = never, 7 = very often); mean and SD computed on the 1&ndash;7 scale; <i>n</i> = 2,253. Activities translated from Polish."
+  - id: "3"
+    title: "Level of consumers&rsquo; brand-related activity: contributing COBRA type"
+    columns: ["Activity", "1 (never)", "2", "3", "4", "5", "6", "7 (very often)", "Mean", "SD"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["I comment on videos related to this brand.", "51.6", "15.4", "10.6", "9.2", "6.5", "3.4", "3.3", "2.3", "1.7"]
+      - ["I comment on posts related to this brand.", "48.2", "15.4", "11.1", "10.5", "6.8", "4.1", "3.9", "2.4", "1.8"]
+      - ["I post comments on this brand&rsquo;s fan page.", "52.2", "15.6", "9.1", "9.6", "6.6", "3.3", "3.6", "2.3", "1.7"]
+      - ["I comment on photos and other graphics related to this brand.", "45.7", "16.5", "11.4", "9.9", "7.1", "4.7", "4.7", "2.5", "1.8"]
+      - ["I rate products of the chosen brand (e.g., giving stars or points, leaving opinions).", "34.3", "15.0", "12.8", "12.7", "10.5", "8.3", "6.4", "3.0", "1.9"]
+      - ["I &ldquo;like&rdquo; pictures of the chosen brand.", "27.6", "14.5", "11.8", "13.4", "13.0", "9.6", "10.1", "3.0", "1.9"]
+      - ["I &ldquo;like&rdquo; fan pages related to this brand.", "25.6", "11.3", "13.3", "12.6", "12.2", "11.2", "13.8", "3.6", "2.1"]
+      - ["I &ldquo;like&rdquo; videos of the chosen brand.", "31.5", "13.9", "13.8", "13.2", "11.5", "8.2", "7.9", "3.2", "2.0"]
+      - ["I &ldquo;like&rdquo; posts of the chosen brand.", "29.7", "14.4", "13.9", "12.5", "11.5", "9.2", "8.8", "3.2", "2.0"]
+      - ["I click on this brand&rsquo;s ads.", "30.5", "17.2", "13.8", "13.8", "12.3", "7.0", "5.4", "3.0", "1.9"]
+      - ["I add videos related to this brand to my &ldquo;favourites&rdquo;.", "54.9", "17.1", "8.5", "7.7", "4.9", "3.6", "3.3", "2.1", "1.7"]
+    note: "Percentage of respondents at each level of the 7-point scale (1 = never, 7 = very often); mean and SD computed on the 1&ndash;7 scale; <i>n</i> = 2,253. Activities translated from Polish."
+  - id: "5"
+    title: "Level of consumers&rsquo; brand-related activity: creating COBRA type"
+    columns: ["Activity", "1 (never)", "2", "3", "4", "5", "6", "7 (very often)", "Mean", "SD"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["I write reviews of this brand&rsquo;s products.", "60.9", "13.8", "8.0", "7.5", "4.7", "2.9", "2.2", "2.0", "1.6"]
+      - ["I post photos of myself with a product of the chosen brand.", "55.3", "12.6", "10.2", "8.8", "5.9", "4.2", "3.0", "2.2", "1.7"]
+      - ["I post photos of the chosen brand&rsquo;s products.", "56.3", "14.6", "9.5", "7.0", "5.9", "3.9", "2.8", "2.1", "1.7"]
+      - ["I share posts about this brand.", "55.3", "16.0", "9.1", "7.3", "6.2", "3.9", "2.2", "2.1", "1.6"]
+      - ["I share videos that show this brand.", "57.4", "13.7", "10.1", "8.4", "5.0", "3.2", "2.2", "2.1", "1.6"]
+      - ["I share entries about this brand.", "56.3", "15.9", "9.0", "7.8", "5.4", "3.4", "2.2", "2.1", "1.6"]
+      - ["I share photos or graphics that show the chosen brand&rsquo;s products.", "53.0", "14.8", "10.5", "7.6", "7.0", "4.0", "3.1", "2.2", "1.7"]
+      - ["I post entries about this brand on blogs and/or discussion forums.", "60.3", "13.4", "8.3", "7.4", "5.1", "3.2", "2.3", "2.0", "1.6"]
+    note: "Percentage of respondents at each level of the 7-point scale (1 = never, 7 = very often); mean and SD computed on the 1&ndash;7 scale; <i>n</i> = 2,253. Activities translated from Polish."
+  - id: "2"
+    title: "Average level of consumers&rsquo; online brand-related activity by gender: consuming COBRA type"
+    collapsed: true
+    columns: ["Activity", "Men: mean", "Men: SD", "Women: mean", "Women: SD", "<i>z</i>", "<i>p</i>"]
+    align: ["left", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["I read reviews of products of the chosen brand.", "4.24", "1.90", "3.98", "1.95", "&minus;3.02", "&lt; .001"]
+      - ["I read promotional emails related to this brand.", "2.73", "1.83", "2.94", "1.92", "&minus;2.50", "&lt; .01"]
+      - ["I read other people&rsquo;s comments about this brand on social networking sites.", "3.94", "1.90", "3.84", "1.93", "&minus;1.20", "0.23"]
+      - ["I read posts published by this brand on social networking sites.", "3.87", "1.95", "3.82", "1.98", "&minus;0.58", "0.56"]
+      - ["I watch videos related to the chosen brand.", "4.07", "1.95", "3.26", "1.90", "&minus;9.51", "&lt; .001"]
+      - ["I view this brand&rsquo;s fan page (e.g., on Facebook).", "3.77", "2.05", "3.88", "2.07", "&minus;1.22", "0.22"]
+      - ["I look at this brand&rsquo;s ads (e.g., banners).", "4.04", "1.77", "4.37", "1.82", "&minus;4.36", "&lt; .001"]
+      - ["I visit this brand&rsquo;s website to follow news.", "3.88", "1.96", "3.91", "2.09", "&minus;0.36", "0.71"]
+      - ["I look at photos and other graphics related to the chosen brand.", "4.36", "1.91", "4.24", "1.90", "&minus;1.50", "0.13"]
+      - ["I download applications (e.g., widgets) related to this brand.", "3.03", "2.02", "3.02", "2.04", "&minus;0.16", "0.86"]
+      - ["I follow blogs related to the chosen brand.", "2.98", "1.96", "2.61", "1.84", "&minus;4.49", "&lt; .001"]
+      - ["I follow this brand on social networking sites.", "3.76", "2.02", "3.67", "2.00", "&minus;1.04", "0.30"]
+    note: "Mann&ndash;Whitney <i>U</i> test; <i>n</i> = 2,253 (women = 1,343, men = 909); means on the 1&ndash;7 scale. Values as printed. Activities translated from Polish."
+  - id: "4"
+    title: "Average level of consumers&rsquo; online brand-related activity by gender: contributing COBRA type"
+    collapsed: true
+    columns: ["Activity", "Men: mean", "Men: SD", "Women: mean", "Women: SD", "<i>z</i>", "<i>p</i>"]
+    align: ["left", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["I comment on videos related to this brand.", "2.57", "1.79", "2.07", "1.58", "&minus;7.20", "&lt; .001"]
+      - ["I comment on posts related to this brand.", "2.62", "1.82", "2.26", "1.70", "&minus;4.94", "&lt; .001"]
+      - ["I post comments on this brand&rsquo;s fan page.", "2.53", "1.79", "2.09", "1.63", "&minus;6.57", "&lt; .001"]
+      - ["I comment on photos and other graphics related to this brand.", "2.72", "1.86", "2.34", "1.76", "&minus;5.32", "&lt; .001"]
+      - ["I rate products of the chosen brand (e.g., giving stars or points, leaving opinions).", "3.14", "1.94", "2.92", "1.96", "&minus;2.73", "&lt; .01"]
+      - ["I &ldquo;like&rdquo; pictures of the chosen brand.", "3.44", "2.02", "3.36", "2.08", "&minus;1.03", "0.30"]
+      - ["I &ldquo;like&rdquo; fan pages related to this brand.", "3.56", "2.07", "3.68", "2.18", "&minus;1.15", "0.25"]
+      - ["I &ldquo;like&rdquo; videos of the chosen brand.", "3.37", "2.00", "3.01", "1.97", "&minus;4.26", "&lt; .001"]
+      - ["I &ldquo;like&rdquo; posts of the chosen brand.", "3.26", "1.98", "3.24", "2.04", "&minus;0.42", "0.67"]
+      - ["I click on this brand&rsquo;s ads.", "2.94", "1.84", "3.09", "1.89", "&minus;1.82", "0.06"]
+      - ["I add videos related to this brand to my &ldquo;favourites&rdquo;.", "2.39", "1.76", "1.98", "1.56", "&minus;6.22", "&lt; .001"]
+    note: "Mann&ndash;Whitney <i>U</i> test; <i>n</i> = 2,253 (women = 1,343, men = 909); means on the 1&ndash;7 scale. Values as printed. Activities translated from Polish."
+  - id: "6"
+    title: "Average level of consumers&rsquo; online brand-related activity by gender: creating COBRA type"
+    collapsed: true
+    columns: ["Activity", "Men: mean", "Men: SD", "Women: mean", "Women: SD", "<i>z</i>", "<i>p</i>"]
+    align: ["left", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["I write reviews of this brand&rsquo;s products.", "2.13", "1.64", "1.90", "1.50", "&minus;3.41", "&lt; .001"]
+      - ["I post photos of myself with a product of the chosen brand.", "2.39", "1.78", "2.11", "1.65", "&minus;4.04", "&lt; .001"]
+      - ["I post photos of the chosen brand&rsquo;s products.", "2.40", "1.75", "1.97", "1.58", "&minus;6.39", "&lt; .001"]
+      - ["I share posts about this brand.", "2.40", "1.78", "1.96", "1.50", "&minus;5.84", "&lt; .001"]
+      - ["I share videos that show this brand.", "2.34", "1.71", "1.91", "1.48", "&minus;6.24", "&lt; .001"]
+      - ["I share entries about this brand.", "2.32", "1.70", "1.93", "1.49", "&minus;5.90", "&lt; .001"]
+      - ["I share photos or graphics that show the chosen brand&rsquo;s products.", "2.45", "1.80", "2.11", "1.62", "&minus;4.28", "&lt; .001"]
+      - ["I post entries about this brand on blogs and/or discussion forums.", "2.30", "1.76", "1.83", "1.44", "&minus;6.40", "&lt; .001"]
+    note: "Mann&ndash;Whitney <i>U</i> test; <i>n</i> = 2,253 (women = 1,343, men = 909); means on the 1&ndash;7 scale. Values as printed. Activities translated from Polish."
+
+related:
+  - "10.15611/aoe.2019.2.09"
+  - "10.2501/JAR-2016-004"
+  - "10.1080/13527266.2013.871323"

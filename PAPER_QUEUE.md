@@ -82,11 +82,11 @@ otherwise Crossref. Only journal articles get full pages.
 | 61 | 2017 | Brand trust as a mediator between perceived risk and electronic word-of-mouth | Handel Wewnętrzny | 1 |  |
 | 62 | 2017 | Literature review on conceptualisation of online consumer engagement | Handel Wewnętrzny | 14 |  |
 | 63 | 2017 | Wymiary kapitału marki jako moderatory związku pomiędzy kapitałem marki bazującym na ko… | Handel Wewnętrzny | 5 |  |
-| 64 | 2015 | Badanie aktywności online polskich konsumentów dotyczącej marek | e-mentor | 11 |  |
-| 65 | 2015 | Determinanty zakupu marek własnych sieci handlowych przez polskich konsumentów | Handel Wewnętrzny | 4 |  |
-| 66 | 2015 | Effects of Store Brand Perceived Risk on Buyers’ Behavior – Four Decades of Research Ov… | Annales Universitatis Mariae Curie-Skłodowska, sectio H, Oeconomia | 1 |  |
-| 67 | 2015 | Implementing the consumer-based brand equity scale for beer brands -- a Tyskie and Żywi… | Zeszyty Naukowe Uniwersytetu Szczecińskiego. Problemy Zarządzania, Finansów i Marketingu | 2 |  |
-| 68 | 2015 | Pomiar kapitału marek własnych detalistów | Annales Universitatis Mariae Curie-Skłodowska. Sectio H. Oeconomia | 2 |  |
+| 64 | 2015 | Determinanty zakupu marek własnych sieci handlowych przez polskich konsumentów | Handel Wewnętrzny | 4 |  |
+| 65 | 2015 | Effects of Store Brand Perceived Risk on Buyers’ Behavior – Four Decades of Research Ov… | Annales Universitatis Mariae Curie-Skłodowska, sectio H, Oeconomia | 1 |  |
+| 66 | 2015 | Implementing the consumer-based brand equity scale for beer brands -- a Tyskie and Żywi… | Zeszyty Naukowe Uniwersytetu Szczecińskiego. Problemy Zarządzania, Finansów i Marketingu | 2 |  |
+| 67 | 2015 | Pomiar kapitału marek własnych detalistów | Annales Universitatis Mariae Curie-Skłodowska. Sectio H. Oeconomia | 2 |  |
+| 68 | 2015 | The study of Polish consumer’s online brand-related activities | e-mentor (article in Polish) | 11 | locked (`polish-consumers-online-brand-related-activities`) |
 | 69 | 2015 | Typologia aktywnósci online konsumenta w zakresie marki | Marketing i Rynek | 4 |  |
 | 70 | 2015 | User-generated images and its impact on consumer-based brand equity and on purchase int… | Logistyka | 27 |  |
 | 71 | 2015 | Wpływ aktywności online polskich konsumentów dotyczącej marek na kapitał marki bazujący… | e-mentor | 1 |  |

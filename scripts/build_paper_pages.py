@@ -51,7 +51,8 @@ def apa(d: dict) -> str:
     loc = f", Article {esc(d['article_number'])}" if d.get("article_number") else (f", {esc(d['pages'])}" if d.get("pages") else "")
     if d.get("issue"):
         vol += f"({esc(d['issue'])})"
-    return (f"{apa_authors(d['authors'])} ({year}). {esc(d['title'])}. {vol}{loc}. "
+    title = (f"{esc(d['title_original'])} [{esc(d['title'])}]" if d.get("title_original") else esc(d["title"]))
+    return (f"{apa_authors(d['authors'])} ({year}). {title}. {vol}{loc}. "
             f"https://doi.org/{esc(d['doi'])}")
 
 
@@ -271,7 +272,7 @@ def head_layer(d: dict, slug: str, url: str) -> str:
         "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": d["doi"]},
         "sameAs": f"https://doi.org/{d['doi']}",
         "abstract": abstract, "description": plain(d["in_brief"]),
-        "keywords": ", ".join(d.get("keywords", [])), "inLanguage": "en",
+        "keywords": ", ".join(d.get("keywords", [])), "inLanguage": d.get("language_code", "en"),
         "about": [{"@type": "DefinedTerm", "name": k} for k in d.get("keywords", [])],
         "isAccessibleForFree": bool(d.get("open_access")),
     }
@@ -283,6 +284,9 @@ def head_layer(d: dict, slug: str, url: str) -> str:
             "keywords": "measurement scale, questionnaire, survey instrument",
             "encoding": [{"@type": "MediaObject", "name": x["label"], "contentUrl": f"{SITE}/papers/{x['file']}"}
                          for x in sc.get("downloads", [])]}]
+    if d.get("title_original"):
+        ld_article["headline"] = ld_article["name"] = d["title_original"]
+        ld_article["alternativeHeadline"] = d["title"]
     if d.get("article_number"):
         ld_article["pagination"] = str(d["article_number"])
     if d.get("licence_url"):
@@ -290,7 +294,9 @@ def head_layer(d: dict, slug: str, url: str) -> str:
     ld_faq = {"@context": "https://schema.org", "@type": "FAQPage",
               "mainEntity": [{"@type": "Question", "name": f["q"],
                               "acceptedAnswer": {"@type": "Answer", "text": plain(f["a"])}} for f in d.get("faq", [])]}
-    meta = [f'<meta name="citation_title" content="{esc(d["title"])}">']
+    meta = [f'<meta name="citation_title" content="{esc(d.get("title_original") or d["title"])}">']
+    if d.get("language_code"):
+        meta.append(f'<meta name="citation_language" content="{esc(d["language_code"])}">')
     for a in authors:
         meta.append(f'<meta name="citation_author" content="{esc(a["family"])}, {esc(a["given"])}">')
         if a.get("orcid"):
@@ -362,7 +368,7 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
              [f'<li class="badge">{esc(b)}</li>' for b in d.get("badges", [])]
     out.append(f'''<div class="paper-head">
   <p class="paper-authors">{", ".join(names)}</p>
-  <p class="paper-ref">{ref}</p>
+  <p class="paper-ref">{ref}</p>{(chr(10) + '  <p class="paper-ref paper-original">Article in ' + esc(d.get("language", "")) + '. Original title: <em>' + esc(d["title_original"]) + '</em></p>') if d.get("title_original") else ""}
   <ul class="badges" aria-label="Article features">{"".join(badges)}</ul>
   <div class="paper-actions">
     {actions}

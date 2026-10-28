@@ -156,7 +156,7 @@ terms and no near-identical repeats.
 ## Data file fields
 
 `status, title, doi, journal, issn, publisher, volume, issue, article_number or pages,
-published (YYYY-MM), published_label, online (YYYY-MM-DD), open_access, licence, licence_url, pdf_url,
+title_original + language + language_code (articles not in English: the page is in English, the APA citation gives the original title with the English title in brackets, and citation_title uses the original), published (YYYY-MM), published_label, online (YYYY-MM-DD), open_access, licence, licence_url, pdf_url,
 authors (given, family, orcid, affiliation, me), cite_short, badges, keywords, in_brief, findings
 (headline, text), glance (label, value), design_figure (file, caption), results (title,
 unit, note, groups of bars), question, implications (practical, theoretical), limitations, faq (q, a),
