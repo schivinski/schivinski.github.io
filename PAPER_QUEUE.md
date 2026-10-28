@@ -61,7 +61,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 40 | 2022 | Improving the Health of Emerging Adult Gamers—A Scoping Review of Influences | Nutrients | 26 |  |
 | 41 | 2022 | Individualism/collectivism and perceived consumer effectiveness: The moderating role of… | Journal of Consumer Behaviour | 50 | locked (`individualism-collectivism-perceived-consumer-effectiveness`) |
 | 42 | 2022 | Investigating gaming disorder and individual differences in gaming motives among profes… | Addictive Behaviors | 38 | locked (`gaming-motives-professional-gamers-esports`) |
-| 43 | 2022 | Masculine men do not like feminine wording: The effectiveness of gendered wording in he… | PLOS ONE | 10 |  |
+| 43 | 2022 | Masculine men do not like feminine wording: The effectiveness of gendered wording in he… | PLOS ONE | 10 | locked (`gendered-wording-health-promotion-leaflets`) |
 | 44 | 2022 | Network analyses of internet gaming disorder symptoms and their links with different ty… | BMC Psychiatry | 64 |  |
 | 45 | 2022 | Online Gambling Disorder Questionnaire (OGD-Q): An item response theory examination | Addictive Behaviors Reports | 24 |  |
 | 46 | 2022 | The interplay between time spent gaming and disordered gaming: A large-scale world-wide… | Social Science & Medicine | 174 |  |

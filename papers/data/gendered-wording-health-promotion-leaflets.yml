@@ -1,0 +1,387 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, PLOS ONE 17(10), e0273927 (open access, CC BY 4.0); text and tables from the Europe PMC
+# full-text XML (PMC9612536), checked against the published PDF supplied by Bruno, 28 Oct 2026. ORCIDs from OpenAlex.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Masculine men do not like feminine wording: The effectiveness of gendered wording in health promotion leaflets in the UK"
+doi: "10.1371/journal.pone.0273927"
+journal: "PLOS ONE"
+issn: "1932-6203"
+publisher: "Public Library of Science"
+volume: "17"
+issue: "10"
+article_number: "e0273927"
+published: "2022-10"
+published_label: "27 October 2022"
+online: "2022-10-27"
+open_access: true
+licence: "CC BY 4.0"
+licence_url: "https://creativecommons.org/licenses/by/4.0/"
+
+aam:
+  file: "baxter-czarnecka-schivinski-massaro-2022-plosone-gendered-wording.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article (CC BY 4.0), re-typeset as a clean PDF with the same content as the published version. Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution 4.0 International License
+    (https://creativecommons.org/licenses/by/4.0/). Originally published in PLOS ONE, 17(10), e0273927
+    (27 October 2022), https://doi.org/10.1371/journal.pone.0273927. Changes made: the text has been re-typeset;
+    content is unchanged.
+
+authors:
+  - given: "Katherine"
+    family: "Baxter"
+    orcid: "0000-0002-8507-234X"
+    affiliation: ["Liverpool Hope University"]
+  - given: "Barbara"
+    family: "Czarnecka"
+    orcid: "0000-0002-8314-1727"
+    affiliation: ["London South Bank University"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Maria Rita"
+    family: "Massaro"
+    affiliation: ["Independent researcher"]
+
+cite_short: "Baxter et al., 2022"
+badges: ["3 studies in the UK", "247 + 599 participants", "Survey experiments and interviews", "Mixed methods", "MANOVA", "United Kingdom"]
+keywords:
+  # What the study is about
+  - gendered wording
+  - agentic wording
+  - communal wording
+  - endorser gender
+  - health promotion
+  - health communication
+  - social marketing
+  - physical activity
+  - walking
+  - leaflets
+  - gender role identity
+  - masculinity
+  - femininity
+  - gender stereotypes
+  # Theory and measures
+  - message-audience congruence
+  - homophily theory
+  - Gender Trait Index
+  - attitude towards the ad
+  - advertising credibility
+  - behavioural intention
+  # Method
+  - mixed methods
+  - sequential design
+  - survey experiment
+  - mall-intercept survey
+  - semi-structured interviews
+  - directed content analysis
+  - MANOVA
+  # Context
+  - United Kingdom
+
+in_brief: >-
+  Whether a health leaflet uses &lsquo;masculine&rsquo; or &lsquo;feminine&rsquo; wording matters mainly for one
+  audience: masculine men. Across two survey experiments and interviews in the UK, masculine men rated leaflets with
+  communal, caring wording poorly, while women and less masculine men rated all versions positively.
+
+findings:
+  - headline: "Masculine men dislike communal wording."
+    text: >-
+      In Study 3 (<i>n</i> = 599), men whose dominant gender role identity was masculine gave the communal-wording
+      leaflets the lowest ratings of any group (attitude 3.38 and 3.65, against 5.3 to 6.2 for everyone else), whoever
+      the doctor endorsing it was (Baxter et al., 2022).
+  - headline: "Everyone else liked every leaflet."
+    text: >-
+      Women and feminine men evaluated all four leaflets positively, whether the wording was agentic or communal and
+      the endorser male or female; their ratings differed, but none was negative (Baxter et al., 2022).
+  - headline: "Men preferred the male doctor with agentic wording."
+    text: >-
+      In a mall-intercept experiment with 247 adults (Study 1), men rated the agentic leaflet with a male endorser more
+      positively than women did (4.32 vs 3.34, <i>p</i> &lt; .001) and reported higher intention to walk (3.33 vs 2.60,
+      <i>p</i> = .012); most men interviewed in Study 2 preferred this leaflet too (Baxter et al., 2022).
+  - headline: "Most women had no preference."
+    text: >-
+      In 20 semi-structured interviews, most women did not prefer either leaflet, and in Study 1 women&rsquo;s attitude
+      towards communal and agentic wording did not differ significantly from men&rsquo;s in most conditions
+      (Baxter et al., 2022).
+
+glance:
+  - { label: "Design", value: "Sequential mixed methods: a 2 (endorser gender) &times; 2 (agentic vs communal wording) &times; 2 (respondent gender) survey experiment, semi-structured interviews and an online survey experiment adding dominant gender role identity" }
+  - { label: "Stimuli", value: "Leaflets promoting walking 30 minutes a day, five days a week, endorsed by a male or female hospital doctor (&lsquo;Dr James Baxter&rsquo; or &lsquo;Dr Julie Baxter&rsquo;) of the fictitious campaign &lsquo;Life training&rsquo;; about 3.5% gendered words" }
+  - { label: "Study 1", value: "247 adults in Hertfordshire, England (49.4% women), pen-and-paper mall-intercept survey, November 2017 to March 2018" }
+  - { label: "Study 2", value: "20 semi-structured interviews (10 men, 10 women) with Study 1 volunteers, March to July 2018; directed qualitative content analysis" }
+  - { label: "Study 3", value: "599 UK adults (50.9% women, mean age 38.8), online Qualtrics survey, January to June 2019; gender role identity measured with the Gender Trait Index" }
+  - { label: "Outcomes", value: "Attitude towards the ad, behavioural intention to walk and, in Study 3, advertising credibility" }
+  - { label: "Analysis", value: "Three-way (Study 1) and four-way (Study 3) MANOVA with Bonferroni pairwise comparisons, IBM SPSS 26" }
+  - { label: "Ethics", value: "University of Bedfordshire Ethics Committee (BMRI/Ethics/Student/201718/001 for Studies 1 and 2; BMRI/Ethics/Staff/2018-19/006 for Study 3)" }
+
+figures:
+  - file: figures/baxter-et-al-2022-gendered-wording-attitude.svg
+    title: "Attitude towards the leaflet in Study 3, by gender and gender role identity"
+    caption: >-
+      Observed means from Table 6 of the article (drawn for this page; the article shows these values in Fig 3).
+      Masculine men rate both communal-wording leaflets low; every other group rates every leaflet positively.
+
+results:
+  title: "Communal wording: how each group rated the leaflet"
+  unit: ""
+  max: 7
+  note: "Study 3 attitude towards the ad (observed means, Table 6 of the article; n = 599). Agentic-wording leaflets were rated 4.4 to 6.1 by all groups."
+  groups:
+    - name: "Male doctor, communal wording"
+      bars:
+        - { label: "Masculine men", value: 3.38, display: "3.38", highlight: true }
+        - { label: "Feminine men", value: 5.34, display: "5.34" }
+        - { label: "Masculine women", value: 6.11, display: "6.11" }
+        - { label: "Feminine women", value: 6.21, display: "6.21" }
+    - name: "Female doctor, communal wording"
+      bars:
+        - { label: "Masculine men", value: 3.65, display: "3.65", highlight: true }
+        - { label: "Feminine men", value: 5.36, display: "5.36" }
+        - { label: "Masculine women", value: 6.10, display: "6.10" }
+        - { label: "Feminine women", value: 6.22, display: "6.22" }
+
+question: >-
+  Health campaigns often try to reach men and women with different messages, and research on job adverts suggests that
+  &lsquo;agentic&rsquo; (stereotypically masculine) and &lsquo;communal&rsquo; (stereotypically feminine) words can
+  attract or put off each gender. Drawing on message-audience congruence and homophily theory, we asked whether
+  gendered wording and the gender of the endorsing doctor change how British adults respond to a leaflet promoting
+  walking, and whether a person&rsquo;s gender role identity matters more than their gender.
+
+implications:
+  practical: >-
+    Public health bodies, social marketers and commercial providers such as gyms need not tailor leaflet wording to
+    women, who responded well to all versions. When targeting masculine men, they should avoid communal wording and
+    consider agentic wording with a male endorser. Anyone using gendered language should also weigh efforts to
+    promote gender-fair language and the risk of reinforcing gender expectations.
+  theoretical: >-
+    Gender-based congruence between message and audience was not needed for a leaflet to work, except for masculine
+    men. Dominant gender role identity explained preferences better than gender, which challenges the assumptions of
+    message-audience congruence and homophily for women, and suggests that changing gender roles shape how women respond
+    to gendered content.
+
+limitations:
+  - "Survey experiments and interviews raise questions of external validity, and the cross-sectional design and purposive sampling limit causal inference."
+  - "The leaflets were seen without competing material, and only a doctor endorser was used; the interview sample was small."
+  - "The findings come from the UK and may not generalise to other countries, languages, ethnic groups or behaviours."
+
+faq:
+  - q: "Does gendered wording make health leaflets more effective?"
+    a: >-
+      Mostly not. In three UK studies, women and feminine men rated leaflets positively whatever the wording; only
+      masculine men responded negatively, to communal wording (Baxter et al., 2022).
+  - q: "What is agentic and communal wording?"
+    a: >-
+      Agentic wording uses words stereotypically linked with men, such as decide, active, challenging, ambitious and
+      self-confident; communal wording uses words linked with women, such as choice, pleasant, gentle, cheerful and
+      communally.
+  - q: "How should health campaigns talk to masculine men?"
+    a: >-
+      Avoid communal, caring wording, which masculine men rated poorly (means of 3.38 and 3.65, against 5.3 or more for every other group), and
+      consider agentic wording presented by a male endorser (Baxter et al., 2022).
+  - q: "Do women prefer a female endorser?"
+    a: >-
+      Not clearly. Most women interviewed had no preference between a male and a female doctor, and women in Study 3
+      rated all four leaflets positively (Baxter et al., 2022).
+
+concepts:
+  - term: "Gendered wording"
+    definition: "The use of words stereotypically associated with men (agentic) or women (communal)."
+  - term: "Agentic and communal traits"
+    definition: "Agentic traits, such as ambition and assertiveness, are stereotypically linked with men; communal traits, such as warmth and care, with women."
+  - term: "Dominant gender role identity (DGRI)"
+    definition: "Whether a person scores higher on femininity or on masculinity on the Gender Trait Index."
+  - term: "Message-audience congruence"
+    definition: "The idea that messages work better when their content matches the characteristics of the audience."
+  - term: "Homophily theory"
+    definition: "The idea that people are more persuaded by, and relate more to, sources similar to themselves."
+
+materials:
+  - label: "Agentic leaflet (male endorser)"
+    text: "&lsquo;Hi, I am Dr James Baxter. I have been a hospital Dr for 15 years and I am now an avid walker. I recommend walking 30 minutes a day for 5 times a week as this can bring you lots of health benefits. Start walking soon! Making the decision to keep active is good for your mental health. Exercise promotes good mental health because it stimulates chemicals in your brain that leaves you feeling more self-confident and more relaxed than you were before you worked out. Exercise is also good for your physical health and for your weight. When you are physically fit you burn off calories. The more you exercise, the more calories you burn. This helps you maintain your ideal weight and keeps you looking good. Building walking into everything that you do is one of the best ways to get the workout you need. Challenge yourself and take the stairs at every chance you get. When you are driving, be ambitious and park in the car park or space that is the farthest from your destination. If you have been sitting for a long period of time, be determined to take some time to get up and walk around. The benefits are yours for the taking. All you need to do is start moving now either individually or even better walk with colleagues or friends! Start walking 30 minutes a day, 5 times a week!&rsquo;"
+  - label: "Communal leaflet (female endorser)"
+    text: "&lsquo;Hi, I am Dr Julie Baxter. I have been a hospital Dr for 15 years and I am now an avid walker. I recommend walking 30 minutes a day for 5 times a week as this can bring you lots of health benefits. Start walking soon! Making the choice to keep fit is good for your mental and emotional health. Exercise promotes good mental health because it stimulates chemicals in your brain that leaves you feeling more cheerful and more relaxed than you were before you worked out. Exercise is also good for your physical health and for your weight. When you are keeping fit you burn off calories. Understandably the more you exercise the more calories you burn. This helps you maintain your ideal weight and will give you a flatterable physique. Building gentle walking into everything that you do is one of the best ways to get the exercise you need. Take the stairs at every chance you get. When you are driving, park in the car park or space that is the farthest from your destination. If you have been sitting for a long period of time, be sure to take some time to get up and walk around. The benefits and pleasant effects are yours for the taking. All you need to do is start moving now on your own or even better walk communally with colleagues or friends! Start walking 30 minutes a day, 5 times a week!&rsquo;"
+  - label: "Leaflet design"
+    text: "Both leaflets carried the headline &lsquo;Walking Campaign: Benefits of Walking&rsquo;, a body diagram listing benefits (mental health, lifespan, heart health, weight, immunity, bones, balance) and the slogan &lsquo;Walking not only changes your BODY, it changes your MIND, your ATTITUDE and your MOOD&rsquo;. Wording transcribed from S1 and S2 Fig of the article."
+  - label: "Measures"
+    text: "Attitude towards the ad: six semantic differentials (irritating, boring, good, informative, objective, appropriate). Behavioural intention: likelihood of walking 30 minutes a day, 5 days a week (unlikely/likely, improbable/probable, impossible/possible, uncertain/certain). Advertising credibility: three items. Gender role identity: Gender Trait Index (8 femininity and 8 masculinity items)."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Open access article re-typeset as a clean PDF, including all tables and figures", url: "manuscripts/baxter-czarnecka-schivinski-massaro-2022-plosone-gendered-wording.pdf" }
+  - { label: "Data (LSBU Open Research)", note: "Study data; access on request", url: "https://openresearch.lsbu.ac.uk/item/8zz28" }
+  - { label: "Published version", note: "PLOS ONE (open access), with the leaflets as supporting information", url: "https://doi.org/10.1371/journal.pone.0273927" }
+
+tables:
+- id: '1'
+  title: Main effects and interactions of respondent’s gender, wording condition and endorser’s gender
+  columns: [Source of variation, Pillai&rsquo;s trace, <i>F</i>, <i>p</i>, Partial &eta;&sup2;]
+  align: [left, right, right, right, right]
+  rows:
+  - group: true
+    cells: [Main effects, '', '', '', '']
+  - [Endorser’s gender, '0.01', '1.71', '0.18', '0.01']
+  - [Wording, '0.02', '2.66', '0.07', '0.02']
+  - [Respondent’s gender, '0.04', '4.60', '0.01', '0.04']
+  - group: true
+    cells: [Interactions, '', '', '', '']
+  - [Endorser’s gender x Wording, '0.01', '1.68', '0.19', '0.01']
+  - [Endorser’s gender x Respondent’s gender, '0.00', '0.48', '0.62', '0.00']
+  - [Wording x Respondent’s gender, '0.08', '9.75', '0.00', '0.08']
+  - [Endorser’s gender x wording x Respondent’s gender, '0.02', '2.54', '0.08', '0.02']
+  note: <i>df</i> = 2, error <i>df</i> = 238.
+- id: '2'
+  title: Pairwise comparisons (estimated marginal means) with Bonferroni adjustments by gender, endorser’s gender, and wording condition
+  columns: [Endorser&rsquo;s gender, Wording, Respondent&rsquo;s gender, <i>M</i>, SE, <i>p</i>, 95% CI lower, 95% CI upper]
+  align: [left, left, left, right, right, right, right, right]
+  rows:
+  - group: true
+    cells: [Behavioural intention, '', '', '', '', '', '', '']
+  - [Male, Agentic, Male, '3.33', '0.29', '0.012', '0.16', '1.30']
+  - ['', '', Female, '2.60', '', '', '', '']
+  - ['', Communal, Male, '3.47', '0.30', '0.427', '&minus;0.35', '0.84']
+  - ['', '', Female, '3.23', '', '', '', '']
+  - [Female, Agentic, Male, '3.28', '0.29', '0.394', '&minus;0.32', '0.82']
+  - ['', '', Female, '3.03', '', '', '', '']
+  - ['', Communal, Male, '3.33', '0.29', '0.059', '&minus;0.02', '1.14']
+  - ['', '', Female, '2.76', '', '', '', '']
+  - group: true
+    cells: [Attitude towards ad, '', '', '', '', '', '', '']
+  - [Male, Agentic, Male, '4.32', '0.22', '0.000', '0.55', '1.41']
+  - ['', '', Female, '3.34', '', '', '', '']
+  - ['', Communal, Male, '3.86', '0.23', '0.056', '&minus;0.89', '0.01']
+  - ['', '', Female, '4.30', '', '', '', '']
+  - [Female, Agentic, Male, '4.13', '0.22', '0.209', '&minus;0.15', '0.70']
+  - ['', '', Female, '3.85', '', '', '', '']
+  - ['', Communal, Male, '4.17', '0.22', '0.444', '&minus;0.61', '0.27']
+  - ['', '', Female, '4.35', '', '', '', '']
+  note: Estimated marginal means; SE and <i>p</i> refer to the difference between men and women in each cell (Bonferroni-adjusted).
+- id: '3'
+  title: Descriptive means (Study 1)
+  columns: [Endorser, Wording, Respondent, Intention <i>M</i>, <i>SD</i>, Attitude <i>M</i>, <i>SD</i>]
+  align: [left, left, left, right, right, right, right]
+  rows:
+  - [Male, Agentic, Male (N = 31), '3.33', '1.28', '4.32', '1.00']
+  - ['', '', Female (N = 33), '2.60', '1.13', '3.34', '0.93']
+  - ['', Communal, Male (N = 30), '3.47', '1.30', '3.86', '0.82']
+  - ['', '', Female (N = 28), '3.23', '1.06', '4.30', '0.94']
+  - [Female, Agentic, Male (N = 33), '3.28', '0.98', '4.13', '0.88']
+  - ['', '', Female (N = 31), '3.03', '1.14', '3.85', '0.92']
+  - ['', Communal, Male (N = 31), '3.33', '1.23', '4.17', '0.76']
+  - ['', '', Female (N = 30), '2.76', '1.09', '4.35', '0.69']
+- id: '4'
+  title: 'Four-way multivariate analysis of variance (MANOVA) for the three sets of outcome measures: Behavioral intention, ad credibility, and attitude towards ad'
+  columns: [Source of variation, Pillai&rsquo;s trace, <i>F</i>, <i>p</i>, Partial &eta;&sup2;]
+  align: [left, right, right, right, right]
+  rows:
+  - group: true
+    cells: [Main effects, '', '', '', '']
+  - [Endorser’s gender, '0.02', '5.13', '0.002', '0.02']
+  - [Wording, '0.01', '3.01', '0.029', '0.01']
+  - [Respondent’s DGRI, '0.06', '12.29', '0.000', '0.06']
+  - [Respondent’s gender, '0.09', '20.12', '0.000', '0.09']
+  - group: true
+    cells: [Interactions, '', '', '', '']
+  - [Endorser’s gender x Wording, '0.02', '5.41', '0.001', '0.02']
+  - [Endorser’s gender x Respondent’s DGRI, '0.05', '10.12', '0.000', '0.05']
+  - [Endorser’s gender x Respondent’s gender, '0.03', '6.92', '0.000', '0.03']
+  - [Wording x Respondent’s DGRI, '0.09', '20.58', '0.000', '0.09']
+  - [Wording condition x Respondent’s Gender, '0.25', '64.65', '0.000', '0.25']
+  - [Respondent’s DGRI x Respondent’s gender, '0.00', '.72', '0.539', '0.00']
+  - [Endorser’s gender x Wording x Respondent’s DGRI, '0.02', '4.01', '0.008', '0.02']
+  - [Endorser’s gender x Wording x Respondent’s gender, '0.02', '4.24', '0.006', '0.02']
+  - [Endorser’s gender x Respondent’s DGRI x Respondent’s gender, '0.04', '8.89', '0.000', '0.04']
+  - [Wording x Respondent’s DGRI x Respondent’s gender, '0.13', '30.75', '0.000', '0.13']
+  - [Endorser’s gender x Wording x Respondent’s DGRI x Respondent’s gender, '0.11', '24.05', '0.000', '0.11']
+  note: <i>df</i> = 3, error <i>df</i> = 581.
+- id: '5'
+  title: Pairwise comparisons by respondent’s gender, dominant gender role identity (DGRI), endorser’s gender, and wording condition
+  columns: [Endorser&rsquo;s gender, Wording, Respondent&rsquo;s DGRI, Respondent&rsquo;s gender, <i>M</i>, SE, <i>p</i>, 95% CI lower, 95% CI upper]
+  align: [left, left, left, left, right, right, right, right, right]
+  rows:
+  - group: true
+    cells: [Attitude towards ad, '', '', '', '', '', '', '', '']
+  - [Female, Communal, Femininity, Male, '5.36', '0.25', '0.001', '&minus;1.36', '&minus;0.35']
+  - ['', '', '', Female, '6.22', '', '', '', '']
+  - ['', '', Masculinity, Male, '3.65', '0.25', '0.000', '&minus;2.95', '&minus;1.95']
+  - ['', '', '', Female, '6.10', '', '', '', '']
+  - ['', Agentic, Femininity, Male, '6.04', '0.26', '0.029', '0.05', '1.09']
+  - ['', '', '', Female, '5.46', '', '', '', '']
+  - ['', '', Masculinity, Male, '5.80', '0.25', '0.001', '0.34', '1.34']
+  - ['', '', '', Female, '4.96', '', '', '', '']
+  - [Male, Communal, Femininity, Male, '5.34', '0.26', '0.001', '&minus;1.40', '&minus;0.35']
+  - ['', '', '', Female, '6.21', '', '', '', '']
+  - ['', '', Masculinity, Male, '3.38', '0.26', '0.000', '&minus;3.25', '&minus;2.21']
+  - ['', '', '', Female, '6.11', '', '', '', '']
+  - ['', Agentic, Femininity, Male, '4.42', '0.25', '0.001', '&minus;1.35', '&minus;0.33']
+  - ['', '', '', Female, '5.27', '', '', '', '']
+  - ['', '', Masculinity, Male, '6.13', '0.26', '0.000', '0.92', '1.95']
+  - ['', '', '', Female, '4.69', '', '', '', '']
+  - group: true
+    cells: [Advert credibility, '', '', '', '', '', '', '', '']
+  - [Female, Communal, Femininity, Male, '5.12', '0.27', '0.000', '&minus;1.70', '&minus;0.64']
+  - ['', '', '', Female, '6.29', '', '', '', '']
+  - ['', '', Masculinity, Male, '3.36', '0.26', '0.000', '&minus;2.87', '&minus;1.82']
+  - ['', '', '', Female, '5.71', '', '', '', '']
+  - ['', Agentic, Femininity, Male, '5.74', '0.27', '0.34', '&minus;0.28', '0.81']
+  - ['', '', '', Female, '5.47', '', '', '', '']
+  - ['', '', Masculinity, Male, '6.05', '0.26', '0.000', '0.54', '1.58']
+  - ['', '', '', Female, '4.98', '', '', '', '']
+  - [Male, Communal, Femininity, Male, '5.24', '0.28', '0.001', '&minus;1.46', '&minus;0.35']
+  - ['', '', '', Female, '6.14', '', '', '', '']
+  - ['', '', Masculinity, Male, '2.83', '0.27', '0.000', '&minus;4.21', '&minus;3.11']
+  - ['', '', '', Female, '6.49', '', '', '', '']
+  - ['', Agentic, Femininity, Male, '4.44', '0.27', '0.004', '&minus;1.31', '&minus;0.24']
+  - ['', '', '', Female, '5.22', '', '', '', '']
+  - ['', '', Masculinity, Male, '6.37', '0.27', '0.000', '1.37', '2.45']
+  - ['', '', '', Female, '4.46', '', '', '', '']
+  - group: true
+    cells: [Behavioural intention, '', '', '', '', '', '', '', '']
+  - [Female, Communal, Femininity, Male, '3.37', '0.25', '0.614', '&minus;0.36', '0.61']
+  - ['', '', '', Female, '3.24', '', '', '', '']
+  - ['', '', Masculinity, Male, '2.33', '0.24', '0.004', '&minus;1.19', '&minus;0.22']
+  - ['', '', '', Female, '3.05', '', '', '', '']
+  - ['', Agentic, Femininity, Male, '1.81', '0.25', '0.000', '&minus;1.89', '&minus;0.88']
+  - ['', '', '', Female, '3.20', '', '', '', '']
+  - ['', '', Masculinity, Male, '3.36', '0.24', '0.003', '0.25', '1.22']
+  - ['', '', '', Female, '2.62', '', '', '', '']
+  - [Male, Communal, Femininity, Male, '3.62', '0.26', '0.942', '&minus;0.49', '0.52']
+  - ['', '', '', Female, '3.60', '', '', '', '']
+  - ['', '', Masculinity, Male, '2.31', '0.25', '0.702', '&minus;0.60', '0.40']
+  - ['', '', '', Female, '2.41', '', '', '', '']
+  - ['', Agentic, Femininity, Male, '3.92', '0.25', '0.000', '0.72', '1.71']
+  - ['', '', '', Female, '2.69', '', '', '', '']
+  - ['', '', Masculinity, Male, '3.03', '0.25', '0.503', '&minus;0.33', '0.67']
+  - ['', '', '', Female, '2.86', '', '', '', '']
+  note: Estimated marginal means; SE and <i>p</i> refer to the difference between men and women in each cell (Bonferroni-adjusted). Behavioural intention was measured on a 1&ndash;5 scale.
+  collapsed: true
+- id: '6'
+  title: Observed means for attitude towards ad, ad credibility, and behavioural intention (Study 3)
+  columns: [Endorser, Wording, DGRI, Respondent, Credibility <i>M</i>, <i>SD</i>, Attitude <i>M</i>, <i>SD</i>, Intention <i>M</i>, <i>SD</i>]
+  align: [left, left, left, left, right, right, right, right, right, right]
+  rows:
+  - [Female, Communal, Femininity, Male (N = 29), '5.12', '1.10', '5.36', '0.84', '3.37', '1.44']
+  - ['', '', '', Female (N = 45), '6.29', '0.99', '6.22', '1.11', '3.24', '1.20']
+  - ['', '', Masculinity, Male (N = 48), '3.36', '1.19', '3.65', '0.77', '2.33', '0.69']
+  - ['', '', '', Female (N = 29), '5.71', '0.70', '6.10', '0.71', '3.05', '0.60']
+  - ['', Agentic, Femininity, Male (N = 26), '5.74', '1.02', '6.04', '0.64', '1.81', '1.18']
+  - ['', '', '', Female (N = 46), '5.47', '1.48', '5.46', '1.36', '3.20', '0.86']
+  - ['', '', Masculinity, Male (N = 44), '6.05', '0.52', '5.80', '0.54', '3.36', '1.00']
+  - ['', '', '', Female (N = 31), '4.98', '1.44', '4.96', '1.17', '2.62', '1.05']
+  - [Male, Communal, Femininity, Male (N = 25), '5.24', '1.12', '5.34', '1.40', '3.62', '0.84']
+  - ['', '', '', Female (N = 47), '6.14', '1.00', '6.21', '1.08', '3.60', '1.00']
+  - ['', '', Masculinity, Male (N = 49), '2.82', '1.36', '3.38', '1.12', '2.31', '0.90']
+  - ['', '', '', Female (N = 25), '6.49', '0.44', '6.11', '0.66', '2.41', '0.79']
+  - ['', Agentic, Femininity, Male (N = 25), '4.44', '1.00', '4.42', '0.48', '3.92', '0.95']
+  - ['', '', '', Female (N = 56), '5.22', '1.30', '5.27', '1.66', '2.69', '1.25']
+  - ['', '', Masculinity, Male (N = 48), '6.37', '0.74', '6.13', '0.78', '3.03', '1.27']
+  - ['', '', '', Female (N = 26), '4.46', '1.71', '4.69', '1.43', '2.86', '1.24']
+  collapsed: true
+
+related:
+  - "10.1002/cb.1988"
+  - "10.1080/13527266.2023.2191618"
+  - "10.1016/j.foodqual.2026.106122"

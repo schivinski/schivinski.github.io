@@ -1,0 +1,45 @@
+text: gendered-wording-health-promotion-leaflets.blocks.txt
+affiliation_line: Liverpool Hope University; London South Bank University; RMIT University; Independent researcher
+title_page_label: Open access article
+running_label: open access (CC BY 4.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article; it differs only in formatting and
+  pagination. Please cite the published version.
+title_page_footer: Re-typeset from the published open access article (CC BY 4.0); the publisher's typesetting and layout have been removed.
+figures:
+  fig1:
+    png: manuscripts/src/img/baxter-et-al-2022-fig1.png
+  fig2:
+    png: manuscripts/src/img/baxter-et-al-2022-fig2.png
+  fig3:
+    png: manuscripts/src/img/baxter-et-al-2022-fig3.png
+  fig4:
+    png: manuscripts/src/img/baxter-et-al-2022-fig4.png
+  fig5:
+    png: manuscripts/src/img/baxter-et-al-2022-fig5.png
+table_overrides:
+  '1':
+    title: Main effects and interactions of respondent’s gender, wording condition and endorser’s gender
+    columns: [Source of variation, Pillai’s Trace, '*F*', Sig., Partial Eta Squared]
+    note: 'Df = 2, error df = 238.'
+  '2':
+    columns: [Endorser’s gender, Wording, Respondent’s gender, '*M*', Std. Error, '*p*-value', 95% CI lower bound, 95% CI upper bound]
+    size: 8.5pt
+    note: ' '
+  '3':
+    title: Descriptive means
+    columns: [Endorser’s gender, Wording, Respondent’s gender, Behavioural intention Mean, SD, Attitude towards ad Mean, SD]
+    size: 9pt
+  '4':
+    columns: [Source of variation, Pillai’s Trace, '*F*^{*}', '*p*-value', 'Partial *η*^{2}']
+    note: '^{*}Df = 3, DF error = 581.'
+    size: 9pt
+  '5':
+    columns: [Endorser’s gender, Wording condition, Respondent’s DGRI, Respondent’s gender, Mean, Std. Error, '*p*-value', 95% CI lower bound, 95% CI upper bound]
+    size: 8pt
+    note: '^{*}Behavioural intention was measured on a 1–5 scale.'
+  '6':
+    title: Observed means for attitude towards ad, ad credibility, and behavioural intention
+    columns: [Endorser’s gender, Wording, Respondent’s DGRI, Respondent’s gender, 'Ad credibility *M*', '*SD*', 'Attitude towards ad *M*', '*SD*', 'Behavioural intention *M*', '*SD*']
+    landscape: true
+    size: 8.5pt
