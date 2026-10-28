@@ -1,0 +1,322 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Cleaner Production 472 (2024), 143452 (published PDF supplied by Bruno, 28 Oct 2026).
+# Open access under CC BY-NC-ND 4.0. Under a NoDerivatives licence the publisher's PDF would have to be hosted
+# unchanged, and it prints both co-authors' email addresses, so no copy is hosted here; the page links to the free
+# published version. Figures 1 to 6 redrawn from the counts printed on them.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Circular practices in the hospitality sector regarding food waste"
+doi: "10.1016/j.jclepro.2024.143452"
+journal: "Journal of Cleaner Production"
+issn: "0959-6526"
+publisher: "Elsevier"
+volume: "472"
+article_number: "143452"
+published: "2024-09"
+published_label: "September 2024 (online 23 August 2024)"
+online: "2024-08-23"
+open_access: true
+licence: "CC BY-NC-ND 4.0"
+licence_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+authors:
+  - given: "Marcelo"
+    family: "Cardenas"
+    orcid: "0000-0002-3748-338X"
+    affiliation: ["RMIT University"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Linda"
+    family: "Brennan"
+    orcid: "0000-0002-1964-1487"
+    affiliation: ["RMIT University"]
+
+cite_short: "Cardenas et al., 2024"
+badges: ["Systematic literature review", "51 studies", "PRISMA", "Food waste", "Hospitality"]
+keywords:
+  # Article's own keywords
+  - circular economy
+  - sustainable behaviour
+  - food waste
+  - hospitality
+  - sustainability
+  # What the study is about
+  - circular practices
+  - food waste hierarchy
+  - food waste prevention
+  - plate waste
+  - restaurants
+  - hotels
+  - food surplus redistribution
+  - upcycled food
+  - nudges and environmental interventions
+  - SDG 12.3
+  - research agenda
+  # Theory
+  - theory of planned behaviour
+  # Method
+  - systematic literature review
+  - PRISMA
+  - SPIDER framework
+  - conventional content analysis
+  - Covidence
+
+in_brief: >-
+  Research on cutting food waste in restaurants, hotels and other hospitality businesses has grown fast since 2020 and
+  shows that circular practices work, but it concentrates on preventing, minimising and recycling waste and rarely
+  explains what drives customers to take part. This review of 51 studies maps the field and sets a research agenda.
+
+findings:
+  - headline: "Research on circular food waste practices in hospitality is recent."
+    text: >-
+      Of 51 studies published between 2014 and August 2023, 48 (94.1%) appeared from 2020 onwards, mostly in Q1
+      journals (84.3%), with Sustainability (9) and British Food Journal (6) publishing the most (Cardenas et al.,
+      2024).
+  - headline: "Circular practices reduce food waste and encourage sustainable customer behaviour."
+    text: >-
+      Practices such as smaller portions, menu planning, nudges, visual reminders, upcycled food, take-away of
+      leftovers and food redistribution reduce food waste; one communication intervention cut food waste by 30%
+      (Cardenas et al., 2024).
+  - headline: "Most research targets prevention, minimisation and recycling."
+    text: >-
+      Mapped onto the food waste hierarchy, the studies focus on preventing, minimising and recycling food waste, while
+      reusing, recovery and disposal practices receive far less attention (Cardenas et al., 2024).
+  - headline: "Who wastes food in hospitality differs by age, income and other traits."
+    text: >-
+      Younger, lower-educated, higher-income, single and travelling customers tend to waste more food, while
+      perceived behavioural control and social norms help customers reduce plate waste (Cardenas et al., 2024).
+  - headline: "Theory is used in only 37% of the studies."
+    text: >-
+      Nineteen of the 51 studies used a theory, most often the theory of planned behaviour (7 studies); the review
+      calls for broader theories, more explanatory research and studies in less-developed countries (Cardenas et al.,
+      2024).
+
+glance:
+  - { label: "Design", value: "Systematic literature review following PRISMA, with the SPIDER framework and conventional content analysis" }
+  - { label: "Search", value: "Nine databases (ProQuest, EBSCOhost, Scopus, Web of Science, Google Scholar, Emerald, Wiley, Sage, Taylor &amp; Francis); studies from 1 January 2014 to 22 August 2023" }
+  - { label: "Screening", value: "4,704 records; 1,350 duplicates removed; 3,354 screened by title and abstract; 69 full texts assessed; 51 studies included" }
+  - { label: "Analysis", value: "Profile of the studies (year, journal, country, establishment, design, research type) and eight themes, classified by the six levels of the food waste hierarchy" }
+
+question: >-
+  The hospitality sector produces about a quarter of global food waste, much of it avoidable, and SDG 12.3 aims to
+  halve retail and consumer food waste by 2030. Circular practices aim to prevent and reduce waste and keep food in
+  use. We asked what research exists on circular practices regarding food waste in hospitality, what it covers, which
+  practices and theories it uses, and what future research should address.
+
+implications:
+  practical: >-
+    Hospitality managers can choose practices along the food waste hierarchy, tailor interventions to customers&rsquo;
+    socio-demographic and psychosocial characteristics, communicate circular practices such as upcycled food and menu
+    planning to customers, and build a culture of sustainability through committed leadership, which also cuts costs.
+  theoretical: >-
+    The review organises the evidence by the food waste hierarchy, shows where research is missing (reuse, recovery,
+    disposal; less-developed countries; explanatory designs) and proposes a four-theme research agenda with mediators,
+    moderators, theories and evaluation strategies.
+
+limitations:
+  - "The search across nine databases may have missed relevant studies, including those not in English."
+  - "Grey literature was excluded."
+  - "The authors describe the review&rsquo;s scope as concentrated in developed nations, which may limit its applicability to less-developed contexts."
+
+faq:
+  - q: "What are circular practices for food waste in hospitality?"
+    a: >-
+      Practices that prevent, minimise, reuse, recycle, recover or dispose of food waste, such as menu planning,
+      portion control, creative use of ingredients, redistributing surplus food, and composting (Cardenas et al., 2024).
+  - q: "Do circular practices reduce food waste in restaurants and hotels?"
+    a: >-
+      Yes. A systematic review of 51 studies found that circular practices reduce food waste and encourage sustainable
+      behaviour among customers (Cardenas et al., 2024).
+  - q: "Which customers waste more food when eating out?"
+    a: >-
+      The studies reviewed suggest that younger customers, those with less education, higher incomes, single people
+      and tourists tend to waste more food (Cardenas et al., 2024).
+  - q: "What theories are used to study food waste in hospitality?"
+    a: >-
+      Only 37% of the 51 studies used a theory, most often the theory of planned behaviour; others include norm
+      activation theory, social cognitive theory and institutional theory (Cardenas et al., 2024).
+
+concepts:
+  - term: "Circular economy"
+    definition: "An economic model with a regenerative aim that keeps resources in use and prevents waste, rather than producing, using and discarding."
+  - term: "Food waste hierarchy"
+    definition: "A ranking of food waste practices from most to least preferred: prevention, minimisation, reusing, recycling, recovery and disposal (European Commission, 2017)."
+  - term: "Plate waste"
+    definition: "Food served to customers that is left uneaten and thrown away."
+  - term: "Systematic literature review"
+    definition: "A review that identifies, screens and synthesises all studies on a question through an explicit, reproducible search and selection procedure."
+
+open_science:
+  - { label: "Published version", note: "Journal of Cleaner Production (open access, CC BY-NC-ND 4.0)", url: "https://doi.org/10.1016/j.jclepro.2024.143452" }
+
+figures:
+  - file: figures/cardenas-et-al-2024-food-waste-slr-flow.svg
+    title: "Figure 1. Systematic literature review procedure"
+    caption: "Redrawn from Figure 1 of the article (PRISMA flow, produced in Covidence)."
+  - file: figures/cardenas-et-al-2024-food-waste-slr-years.svg
+    title: "Figure 2. Selected studies by year of publication"
+    caption: "Redrawn from Figure 2 of the article; 48 of the 51 studies appeared from 2020 onwards."
+  - file: figures/cardenas-et-al-2024-food-waste-slr-countries.svg
+    title: "Figure 3. Geographical scope of the selected studies"
+    caption: "Redrawn from Figure 3 of the article. Comparative studies used data from two or more countries."
+  - file: figures/cardenas-et-al-2024-food-waste-slr-establishments.svg
+    title: "Figure 4. Type of establishment studied"
+    caption: "Redrawn from Figure 4 of the article."
+  - file: figures/cardenas-et-al-2024-food-waste-slr-design.svg
+    title: "Figure 5. Research design of the selected studies"
+    caption: "Redrawn from Figure 5 of the article."
+  - file: figures/cardenas-et-al-2024-food-waste-slr-type.svg
+    title: "Figure 6. Research type of the selected studies"
+    caption: "Redrawn from Figure 6 of the article."
+
+tables:
+  - id: "1"
+    title: "Examples of practices in the food waste hierarchy"
+    columns: ["Sets of practices", "Examples"]
+    align: ["left", "left"]
+    rows:
+      - ["1. Prevention", "Just-in-time ordering systems (Lefadola et al., 2018); menu planning (Wu and Teng, 2022); rethinking purchasing strategies (e.g., timing, food quantities, types of food) (Filimonau et al., 2019)"]
+      - ["2. Minimisation", "Portion control (McGrath, 2021); reducing plate sizes (Papargyropoulou et al., 2019); limiting over preparing (Cicatiello and Franco, 2020); being aware of activities that can lead to ruined/unusable food (McGrath, 2021)"]
+      - ["3. Reusing", "Practices related to being creative with existing ingredients before buying new ones (Reynolds et al., 2020)"]
+      - ["4. Recycling", "Redistributing to charities (Giordano et al., 2020); secondary uses (Paltrinieri et al., 2022); pickling and preserving (Joardder, 2019)"]
+      - ["5. Recovery", "Sensory testing (Wellton and Öström, 2022); refreshing vegetables (Lombardi and Costantino, 2021)"]
+      - ["6. Disposal", "Life cycle analyses, regenerative disposal, composting (Soma, 2021)"]
+  - id: "5"
+    title: "Socio-demographic variables influencing food waste"
+    columns: ["Variable", "Study selection findings", "Reference"]
+    align: ["left", "left", "left"]
+    rows:
+      - ["Age", "Older people tend to waste less food than younger people.", "Gallagher et al., 2022; Pandey et al., 2023; Wang et al., 2021"]
+      - ["Education level", "Individuals with a higher education level are more likely to waste less food.", "Wang et al. (2021)"]
+      - ["Income", "Individuals who possess higher income tend to waste more food.", "Goodman-Smith et al., 2020; Secondi et al., 2020"]
+      - ["Gender", "Based on gender, individuals adopt different strategies to reduce food waste.", "Gallagher et al., 2022; Pandey et al., 2023"]
+      - ["Relationship status", "Single individuals are more likely to waste more food than people with married individuals.", "Secondi et al., 2020; Wang et al., 2021"]
+      - ["National identity", "National identity influences food waste behaviour. People tend to be less concerned about preventing food waste when travelling.", "Gallagher et al., 2022; Grasso et al., 2023; Orea-Giner and Fusté-Forné, 2023; Wang et al., 2021"]
+    note: "Some studies covered various socio-demographic variables and were listed in multiple columns."
+  - id: "6"
+    title: "Challenges in research agenda themes to guide future studies"
+    columns: ["Research agenda theme", "Research challenges"]
+    align: ["left", "left"]
+    rows:
+      - ["Theme 1: Increase the scope of food waste research", "Developing innovative study models to evaluate practices aimed at preventing food waste, to be applied and tested in diverse contexts. Conducting balanced comparative studies in both developed and less developed settings to ascertain the impact of circular practices on food waste reduction. Identifying context-specific factors that influence or impede food waste, thereby establishing a benchmark for comparative analyses with analogous countries."]
+      - ["Theme 2: Expanding the use of mediators and moderators", "Developing research models incorporating theoretical or practical input from different disciplines to expand understanding of circular practices and food waste. Analysing the food waste system to identify circular practices utilised in addressing food waste. Determining the necessary parameters for implementing circular practices to mitigate food waste, thereby guiding the implementation of these practices to achieve optimal results."]
+      - ["Theme 3: Enhance the evaluation of strategies to mitigating food waste", "Developing comprehensive study models, including actual implementation in hospitality contexts, to determine the relationship between circular practices and food waste. Retrieving the outcomes and insights from applying circular practices to reduce food waste to guide future applications and identify potential areas for improvement. Identifying the antecedents and consequences derived from the application of circular practices to assist the development of food waste reduction strategies."]
+      - ["Theme 4: Broadening the use of theories to conduct research", "Undertaking comprehensive system wide studies using a flexible theoretical framework to better understand food waste and develop effective strategies to tackle it. To identify elements of the food waste hierarchy that present the greatest opportunities for substantive change. Examining apposite theories to explore inter-multi-cross-disciplinary elements of food waste behaviour within the food waste system. Developing measurement and well-founded theoretical frameworks that can be sued to predict and influence food waste behaviours in multiple levels of the food waste system and the food waste hierarchy."]
+  - id: "4"
+    title: "Journals publishing articles about food waste and circular practices in the hospitality industry"
+    collapsed: true
+    columns: ["Scholarly journal", "Number of publications", "Journal rank", "SJR (2023)", "H-index (2023)"]
+    align: ["left", "right", "left", "right", "right"]
+    rows:
+      - ["British Food Journal", "6", "Q1", "0.8", "102"]
+      - ["Food Quality and Preference", "3", "Q1", "1.13", "152"]
+      - ["Foods", "3", "Q1", "0.87", "97"]
+      - ["Journal of Cleaner Production", "3", "Q1", "2.06", "309"]
+      - ["Journal of Foodservice Business Research", "2", "Q2", "0.57", "37"]
+      - ["Journal of Retailing and Consumer Services", "2", "Q1", "2.99", "143"]
+      - ["Resources, Conservation &amp; Recycling Advances", "2", "Q1", "2.03", "21"]
+      - ["Sustainability", "9", "Q1", "0.67", "169"]
+      - ["Agriculture", "1", "Q1", "0.61", "66"]
+      - ["Appetite", "1", "Q1", "1.27", "178"]
+      - ["Cogent Social Sciences", "1", "Q2", "0.68", "27"]
+      - ["Heliyon", "1", "Q1", "0.62", "88"]
+      - ["Industrial Marketing Management", "1", "Q1", "2.71", "177"]
+      - ["International Journal of Culture, Tourism and Hospitality Research", "1", "&ndash;", "&ndash;", "&ndash;"]
+      - ["International Journal of Hospitality Management", "1", "Q1", "2.92", "169"]
+      - ["International Journal of Sustainability in Higher Education", "1", "Q1", "0.83", "77"]
+      - ["Italian Sociological Review", "1", "Q2", "0.27", "9"]
+      - ["Journal of Food Products Marketing", "1", "Q2", "0.59", "40"]
+      - ["Journal of International Food and Agribusiness Marketing", "1", "Q2", "0.41", "31"]
+      - ["Journal of Marketing Research", "1", "Q1", "5.98", "202"]
+      - ["Journal of Services Marketing", "1", "Q1", "1.21", "124"]
+      - ["Journal of Small Business and Enterprise Development", "1", "Q1", "0.79", "86"]
+      - ["Journal of Sustainable Tourism", "1", "Q1", "2.82", "140"]
+      - ["Resources, Conservation &amp; Recycling", "1", "Q1", "2.77", "196"]
+      - ["Scandinavian Journal of Hospitality and Tourism", "1", "Q1", "0.99", "58"]
+      - ["Science of the Total Environment", "1", "Q1", "2", "353"]
+      - ["Sustainability: Science, Practice and Policy", "1", "Q1", "1.47", "36"]
+      - ["Waste Management", "1", "Q1", "1.73", "220"]
+      - ["World Food Policy", "1", "&ndash;", "&ndash;", "&ndash;"]
+      - ["Total", "51", "", "", ""]
+    note: "Journal rank, SJR and H-index from Scimago Journal and Country Rank (2023). Order as printed."
+  - id: "B"
+    title: "List of articles that met all inclusion criteria"
+    collapsed: true
+    columns: ["Study", "Geographical scope", "Research design", "Research type", "Journal"]
+    align: ["left", "left", "left", "left", "left"]
+    rows:
+      - ["Ahmed et al. (2021)", "Malaysia", "Qualitative", "Exploratory", "Sustainability"]
+      - ["Amicarelli et al. (2022)", "Comparative Study (Italy and Romania)", "Qualitative", "Exploratory", "International Journal of Culture, Tourism and Hospitality Research"]
+      - ["Auwalin et al. (2022)", "Indonesia", "Quantitative", "Descriptive and Explanatory", "Sustainability: Science, Practice and Policy"]
+      - ["Batat (2021)", "Lebanon", "Qualitative", "Exploratory", "Journal of Services Marketing"]
+      - ["Berti et al. (2021)", "Italy", "Qualitative", "Exploratory", "Agriculture"]
+      - ["Bhatt et al. (2021)", "United States", "Experiment", "Explanatory", "Journal of Food Products Marketing"]
+      - ["Börühan and Ozbiltekin-Pala (2022)", "Turkey", "Qualitative", "Exploratory", "British Food Journal"]
+      - ["Cordova-Buiza et al. (2022)", "Peru", "Quantitative", "Descriptive", "Sustainability"]
+      - ["Coskun and Yetkin Ozbuk (2020)", "Turkey", "Quantitative", "Explanatory", "Waste Management"]
+      - ["de Morais Watanabe et al. (2023)", "Comparative Study (Brazil and the United States)", "Quantitative", "Descriptive and Explanatory", "Journal of International Food and Agribusiness Marketing"]
+      - ["de Rezende Alvares et al. (2022)", "Brazil", "Mix Methods", "Descriptive", "World Food Policy"]
+      - ["de Visser-Amundson et al. (2021)", "Comparative Study (Netherlands and the United States)", "Experiment", "Explanatory", "Journal of Marketing Research"]
+      - ["de Visser-Amundson et al. (2023)", "Comparative Study (Netherlands and the United States)", "Experiment", "Explanatory", "Food Quality and Preference"]
+      - ["Demetriou (2022)", "Cyprus", "Qualitative", "Exploratory", "Cogent Social Sciences"]
+      - ["Di Pierro et al. (2023)", "Comparative Study (Italy, Sweden, Spain, United States, Singapore, France, and Belgium)", "Quantitative", "Exploratory", "Science of the Total Environment"]
+      - ["Erälinna and Szymoniuk (2021)", "Finland", "Mix Methods", "Explanatory", "Sustainability"]
+      - ["Filimonau and Ermolaev (2021)", "Russia", "Qualitative", "Exploratory", "Journal of Cleaner Production"]
+      - ["Fraccascia and Nastasi (2023)", "Italy", "Quantitative", "Exploratory", "Resources, Conservation and Recycling Advances"]
+      - ["Fragapane and Mortara (2022)", "Italy", "Qualitative", "Exploratory", "Italian Sociological Review"]
+      - ["Fraj-Andrés et al. (2023)", "Spain", "Qualitative", "Exploratory", "British Food Journal"]
+      - ["Gallagher et al. (2022)", "Comparative Study (Italy and Ireland)", "Quantitative", "Explanatory", "Food Quality and Preference"]
+      - ["Goh et al. (2022)", "Indonesia", "Qualitative", "Exploratory", "British Food Journal"]
+      - ["Goodman-Smith et al. (2020)", "New Zealand", "Quantitative", "Exploratory", "Sustainability"]
+      - ["Grasso et al. (2023)", "Comparative Study (China and the United States)", "Quantitative", "Exploratory", "Journal of Cleaner Production"]
+      - ["Gričar and Šugar (2021)", "Slovenia", "Quantitative", "Explanatory", "Sustainability"]
+      - ["Hellali and Koraï (2023)", "Canada", "Quantitative", "Explanatory", "Food Quality and Preference"]
+      - ["Higgins-Desbiolles and Wijesinghe (2019)", "Australia", "Qualitative", "Descriptive", "Journal of Sustainable Tourism"]
+      - ["Huang et al. (2023)", "Comparative Study (France, Germany, United Kingdom, Spain, Italy, Switzerland, Denmark, Sweden, Belgium, Netherlands, Norway, Slovenia, Ireland, Finland, Estonia, Portugal, Croatia, Austria, Luxembourg, Japan, Hong Kong, Taiwan, Thailand, China, Macau, South Korea, and the United States)", "Qualitative", "Exploratory", "Journal of Foodservices Business Research"]
+      - ["Iraldo et al. (2017)", "Italy", "Quantitative", "Explanatory", "Journal of Small Business and Enterprise Development"]
+      - ["Kattiyapornpong et al. (2023)", "Thailand", "Qualitative", "Exploratory", "Sustainability"]
+      - ["Kirmani et al. (2023)", "India", "Quantitative", "Explanatory", "Journal of Retailing and Consumer Services"]
+      - ["Ko and Hong (2023)", "Taiwan", "Mix Methods", "Exploratory", "International Journal of Sustainability in Higher Education"]
+      - ["Lopes et al. (2022)", "Portugal", "Quantitative", "Explanatory", "Sustainability"]
+      - ["Lu and Ko (2023)", "Taiwan", "Quantitative", "Exploratory", "Foods"]
+      - ["Mahasuweerachai and Suttikun (2022)", "Thailand", "Quantitative", "Explanatory", "Sustainability"]
+      - ["Makov et al. (2023)", "United Kingdom", "Quantitative", "Exploratory", "Resources, Conservation and Recycling"]
+      - ["Mars (2022)", "United States", "Qualitative", "Exploratory", "Sustainability"]
+      - ["Närvänen et al. (2021)", "Comparative Study (Finland, United Kingdom, Germany, and Bulgaria)", "Qualitative", "Exploratory", "Industrial Marketing Management"]
+      - ["Ng and Sia (2023)", "Malaysia", "Quantitative", "Explanatory", "International Journal of Hospitality Management"]
+      - ["O’Connor (2021)", "Australia", "Mix Methods", "Explanatory", "Resources, Conservation and Recycling Advances"]
+      - ["Orea-Giner and Fusté-Forné (2023)", "Comparative Study (Spain, Venezuela, Romania, and China)", "Qualitative", "Descriptive", "British Food Journal"]
+      - ["Pandey et al. (2023)", "Denmark", "Quantitative", "Exploratory", "Foods"]
+      - ["Paparella et al. (2023)", "Comparative Study (Italy, Denmark, Finland, United Kingdom, Portugal, Germany, France, Netherlands, United States, Bulgaria, and Canada)", "Qualitative", "Exploratory", "Heliyon"]
+      - ["Secondi et al. (2020)", "Italy", "Quantitative", "Exploratory", "British Food Journal"]
+      - ["Sert et al. (2018)", "Italy", "Qualitative", "Descriptive", "British Food Journal"]
+      - ["Smith and Harvey (2021)", "United Kingdom", "Qualitative", "Descriptive", "Appetite"]
+      - ["Sorin and Sivarajah (2021)", "Comparative Study (Denmark, Finland, and Norway)", "Qualitative", "Exploratory", "Scandinavian Journal of Hospitality and Tourism"]
+      - ["Stirnimann and Zizka (2022)", "Switzerland", "Qualitative", "Exploratory", "Journal of Foodservices Business Research"]
+      - ["Talwar et al. (2021)", "United States", "Mix Methods", "Explanatory", "Journal of Retailing and Consumer Services"]
+      - ["Tsai et al. (2020)", "China", "Quantitative", "Explanatory", "Foods"]
+      - ["Wang et al. (2021)", "China", "Quantitative", "Exploratory", "Journal of Cleaner Production"]
+  - id: "C"
+    title: "Classification of studies based on the food waste hierarchy"
+    collapsed: true
+    columns: ["Theme", "Prevention", "Minimisation", "Reusing", "Recycling", "Recovery", "Disposal"]
+    align: ["left", "left", "left", "left", "left", "left", "left"]
+    rows:
+      - ["(i) Factors contributing to food waste in the hospitality industry", "Amicarelli et al., 2022; Cordova-Buiza et al., 2022; Filimonau and Ermolaev, 2021; Huang et al., 2023", "Cordova-Buiza et al., 2022; Coskun and Yetkin Ozbuk, 2020; de Morais Watanabe et al., 2023; Goodman-Smith et al., 2020; Gričar and Šugar, 2021; Lu and Ko, 2023; Stirnimann and Zizka, 2022; Wang et al., 2021", "Gričar and Šugar, 2021; Wang et al., 2021", "", "Gričar and Šugar (2021)", ""]
+      - ["(ii) Socio-demographic factors and customer food waste in hospitality settings", "Gallagher et al., 2022; Goodman-Smith et al., 2020", "Orea-Giner and Fusté-Forné, 2023; Wang et al., 2021", "Gallagher et al., 2022; Orea-Giner and Fusté-Forné, 2023", "Goodman-Smith et al., 2020; Pandey et al., 2023; Secondi et al., 2020", "", ""]
+      - ["(iii) Psychosocial factors and customer food waste in hospitality settings", "de Visser-Amundson et al., 2023; Fraj-Andrés et al., 2023; Hellali and Koraï, 2023; Iraldo et al., 2017; Orea-Giner and Fusté-Forné, 2023; Paparella et al., 2023", "Coskun and Yetkin Ozbuk, 2020; Mahasuweerachai and Suttikun, 2022", "Gallagher et al. (2022)", "Fraccascia and Nastasi, 2023; Iraldo et al., 2017; Kirmani et al., 2023; Makov et al., 2023; Paparella et al., 2023; Talwar et al., 2021", "", ""]
+      - ["(iv) Social norms and customer food waste in hospitality settings", "Coskun and Yetkin Ozbuk, 2020; de Visser-Amundson et al., 2021; Grasso et al., 2023", "Börühan and Ozbiltekin-Pala, 2022; Eralinna and Szymoniuk, 2021; Tsai et al., 2020", "Gallagher et al. (2022)", "Fraccascia and Nastasi, 2023; Kirmani et al., 2023; Pandey et al., 2023", "", ""]
+      - ["(v) Factors influencing managers&rsquo; intentions to implement food waste reduction practices in hospitality settings", "Goh et al., 2022; Iraldo et al., 2017; Kattiyapornpong et al., 2023; Lu and Ko, 2023; Ng and Sia, 2023; Stirnimann and Zizka, 2022", "", "O&rsquo;Connor (2021)", "Batat, 2021; de Rezende Alvares et al., 2022; Demetriou, 2022; O&rsquo;Connor, 2021", "", ""]
+      - ["(vi) Encouraging food waste reduction by using environmental interventions", "Cordova-Buiza et al., 2022; Filimonau and Ermolaev, 2021; Mars, 2022", "Amicarelli et al., 2022; Eralinna and Szymoniuk, 2021; Filimonau and Ermolaev, 2021; Higgins-Desbiolles and Wijesinghe, 2019; Kattiyapornpong et al., 2023", "", "Di Pierro et al. (2023)", "", ""]
+      - ["(vii) Circular economy strategies to reduce food leftovers applied in the hospitality sector", "Ahmed et al., 2021; Amicarelli et al., 2022; Cordova-Buiza et al., 2022; de Morais Watanabe et al., 2023; de Visser-Amundson et al., 2021; Iraldo et al., 2017; Kattiyapornpong et al., 2023; Ko and Hong, 2023; Lopes et al., 2022; Mars, 2022; Ng and Sia, 2023; Stirnimann and Zizka, 2022", "Ahmed et al., 2021; de Morais Watanabe et al., 2023; Ko and Hong, 2023; Ng and Sia, 2023", "de Visser-Amundson et al., 2021; Lu and Ko, 2023", "Berti et al., 2021; Demetriou, 2022; Fragapane and Mortara, 2022; Higgins-Desbiolles and Wijesinghe, 2019; Kirmani et al., 2023; Makov et al., 2023; Smith and Harvey, 2021; Talwar et al., 2021", "de Rezende Alvares et al., 2022; de Visser-Amundson et al., 2021", "Ahmed et al., 2021; Börühan and Ozbiltekin-Pala, 2022; de Rezende Alvares et al., 2022; O&rsquo;Connor, 2021"]
+      - ["(iii) Theories used to study food waste in the hospitality sector [sic; theme viii]", "Ahmed et al., 2021; Coskun and Yetkin Ozbuk, 2020; Fraj-Andrés et al., 2023; Goh et al., 2022; Lu and Ko, 2023; Ng and Sia, 2023; Orea-Giner and Fusté-Forné, 2023", "Ahmed et al., 2021; Auwalin et al., 2022; Coskun and Yetkin Ozbuk, 2020; de Morais Watanabe et al., 2023; Mahasuweerachai and Suttikun, 2022; Ng and Sia, 2023; Orea-Giner and Fusté-Forné, 2023; Tsai et al., 2020", "Gallagher et al., 2022; Lu and Ko, 2023; O&rsquo;Connor, 2021; Orea-Giner and Fusté-Forné, 2023", "Berti et al., 2021; Fraccascia and Nastasi, 2023; Kirmani et al., 2023; O&rsquo;Connor, 2021; Pandey et al., 2023; Talwar et al., 2021", "", "Ahmed et al., 2021; O&rsquo;Connor, 2021"]
+    note: "Several studies covered different aspects of the food waste hierarchy and were listed across multiple columns. The last theme is numbered (iii) in the article; it is theme (viii)."
+
+related:
+  - "10.1016/j.foodqual.2026.106122"
+  - "10.1002/cb.1988"
+  - "10.36253/wep-19943"

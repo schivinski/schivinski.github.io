@@ -42,7 +42,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 21 | 2025 | Consumer perceptions of date labelling and storage advice and its relationship with foo… | Future Foods | 32 |  |
 | 22 | 2025 | Online flow experience: The contribution of distinct depressive profiles. | Canadian Journal of Behavioural Science | 1 |  |
 | 23 | 2025 | The Internet Gaming Disorder Scale 9-Short Form: longitudinal measurement invariance ac… | Clinical Psychologist | 4 |  |
-| 24 | 2024 | Circular practices in the hospitality sector regarding food waste | Journal of Cleaner Production | 68 |  |
+| 24 | 2024 | Circular practices in the hospitality sector regarding food waste | Journal of Cleaner Production | 68 | locked (`circular-practices-food-waste-hospitality`) |
 | 25 | 2024 | Emerging adult gamers and their diet – a socio-ecological approach to improve health be… | Journal of Social Marketing | 10 |  |
 | 26 | 2024 | Exploring the role of brand experience in driving consumer emotions and engagement with… | Scientific Papers of Silesian University of Technology Organization and Management Series | 0 | locked (`sports-brand-experience-emotions-engagement`) |
 | 27 | 2024 | In the eye of the (fire)storm: better safe or sorry? Crisis communication strategies fo… | Journal of Marketing Communications | 38 | locked (`crisis-communication-online-firestorms-apology`) |
