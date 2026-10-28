@@ -1,0 +1,292 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Travel & Tourism Marketing 41(3), 307-321 (open access, CC BY 4.0; PDF supplied by
+# Bruno, 28 Oct 2026); issue details from Crossref.
+# Status: locked on Bruno's instruction to publish when ready (28 Oct 2026)
+status: locked
+
+title: "Influencer marketing effectiveness: giving competence, receiving credibility"
+doi: "10.1080/10548408.2024.2317748"
+journal: "Journal of Travel & Tourism Marketing"
+issn: "1054-8408"
+publisher: "Routledge (Taylor & Francis)"
+volume: "41"
+issue: "3"
+pages: "307–321"
+published: "2024-03"
+published_label: "2024 (online 16 February 2024)"
+online: "2024-02-16"
+open_access: true
+licence: "CC BY 4.0"
+licence_url: "https://creativecommons.org/licenses/by/4.0/"
+
+aam:
+  file: "leite-pontes-schivinski-2024-jttm-influencer-credibility.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article (CC BY 4.0), re-typeset as a clean PDF with the same content as the published version. Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution 4.0 International License
+    (http://creativecommons.org/licenses/by/4.0/). © 2024 The Author(s). Originally published by Informa UK Limited,
+    trading as Taylor &amp; Francis Group, in Journal of Travel &amp; Tourism Marketing, 41(3), 307–321,
+    https://doi.org/10.1080/10548408.2024.2317748. Changes made: the text has been re-typeset; content is unchanged.
+
+authors:
+  - given: "Fernanda Polli"
+    family: "Leite"
+    orcid: "0000-0002-2857-5987"
+    affiliation: ["The University of Queensland"]
+  - given: "Nicolas"
+    family: "Pontes"
+    orcid: "0000-0002-7391-0908"
+    affiliation: ["The University of Queensland"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+
+cite_short: "Leite et al., 2024"
+badges: ["Experiment", "212 US social media users", "Travel influencers", "Moderated mediation", "Open access"]
+keywords:
+  # Article's own keywords
+  - travel influencer
+  - intimate self-disclosure
+  - congruence
+  - source credibility
+  - competence
+  - need fulfillment
+  - self-determination theory
+  - elaboration likelihood model
+  - influencer marketing effectiveness
+  - social media
+  # What the study is about
+  - influencer credibility
+  - content-expertise congruence
+  - influencer self-disclosure
+  - personal content on social media
+  - travel recommendations
+  - tourism marketing
+  - destination marketing
+  - Instagram influencers
+  - parasocial relationships
+  - sponsored content
+  - competence need fulfillment
+  # Theory and measures
+  - Ohanian source credibility scale
+  - attractiveness, trustworthiness and expertise
+  - basic psychological needs
+  # Context
+  - United States
+  - Amazon Mechanical Turk (MTurk)
+  - fictitious influencer
+  # Method
+  - between-subjects experiment
+  - moderated mediation
+  - PROCESS macro (Hayes, models 4 and 7)
+  - bootstrapping
+  - ANOVA
+  # Application
+  - influencer content strategy
+  - travel content creators
+  - influencer selection
+  - social media strategy
+
+in_brief: >-
+  When a travel influencer mixes intimate personal stories into travel tips, followers see her as less credible,
+  because the post no longer fits what she is known for. In an experiment with 212 US social media users, that
+  credibility loss was smaller among followers who felt the influencer made them more competent.
+
+findings:
+  - headline: "Intimate content lowers a travel influencer's credibility."
+    text: >-
+      In an experiment with 212 US social media users, travel tips that included intimate self-disclosure (a romance and
+      private memories from the trip) lowered the influencer's credibility from 5.14 to 4.54 on a 7-point scale,
+      <i>F</i>(1, 210) = 13.88, <i>p</i> &lt; .001 (Leite et al., 2024).
+  - headline: "The cause is a mismatch between the post and the influencer's expertise."
+    text: >-
+      Posts with intimate content were judged less congruent with the influencer's field of expertise (2.63 vs 3.63 on
+      a 5-point scale, &eta;<sub>p</sub>&sup2; = .17), and this loss of congruence carried the effect on credibility
+      (indirect effect <i>b</i> = &minus;0.79, 95% CI [&minus;1.07, &minus;0.54]) (Leite et al., 2024).
+  - headline: "Followers who feel more competent are less put off."
+    text: >-
+      The fulfilment of followers' competence needs softened the hit to congruence (interaction <i>b</i> = 0.18,
+      <i>p</i> = .03): the indirect loss of credibility shrank from &minus;0.95 at low competence to &minus;0.50 at
+      high competence (index of moderated mediation = 0.14, 95% CI [0.0006, 0.2986]) (Leite et al., 2024).
+  - headline: "Intimacy did not damage credibility beyond the loss of fit."
+    text: >-
+      Once content-expertise congruence was accounted for, the direct effect of intimate content on credibility was not
+      significant (<i>b</i> = 0.20, <i>p</i> &gt; .05), so the whole credibility cost ran through the perceived mismatch
+      (Leite et al., 2024).
+
+glance:
+  - { label: "Design", value: "Online between-subjects experiment with two conditions (travel recommendations with vs without intimate self-disclosure) and competence need fulfilment measured as a moderator; ANOVA and PROCESS models 4 and 7 with 5,000 bootstrap samples" }
+  - { label: "Participants", value: "212 US social media users recruited on Amazon Mechanical Turk (60.4% women; mean age 36.46 years), 104 in the intimate and 108 in the non-intimate condition; most used YouTube (82.5%), Facebook (82.1%) and Instagram (76.4%)" }
+  - { label: "Stimuli", value: "A fictitious female travel influencer, Sophia, posting tips about Thailand on Instagram (meeting locals, beaches); the intimate version added a romance and private memories from the trip" }
+  - { label: "Measures", value: "Influencer credibility (15 semantic differential items; Ohanian, 1990), content-expertise congruence (2 items; Escalas &amp; Bettman, 2017), competence need fulfilment (5 items; Thomson, 2006), perceived intimacy (3 items; Bazarova, 2012) and scenario realism" }
+  - { label: "Outcome", value: "Perceived credibility of the influencer (attractiveness, trustworthiness and expertise)" }
+
+figures:
+  - file: figures/leite-et-al-2024-influencer-model.svg
+    title: "Figure 1. Conceptual model"
+    caption: >-
+      Intimate travel recommendations are expected to lower the influencer's credibility (H1) by lowering the perceived
+      congruence between her content and her expertise (H2); the fulfilment of followers' competence needs is expected
+      to soften the effect of intimacy on congruence (H3, dashed arrow).
+  - file: figures/leite-et-al-2024-influencer-congruence.svg
+    title: "Figure 2. The effect of intimate content and competence need fulfilment on perceived congruence between the influencer's content and expertise"
+    caption: >-
+      Values as labelled in Figure 2 of the article. Intimate posts were seen as less congruent at every level of
+      competence need fulfilment, but the gap narrowed from 1.20 points at low to 0.64 points at high competence.
+  - file: figures/leite-et-al-2024-influencer-estimates.svg
+    title: "Figure 3. Moderated mediation analysis of the impact of intimate content and competence need fulfilment on the influencer's credibility via content-expertise congruence"
+    caption: >-
+      Unstandardised estimates from PROCESS model 7 (5,000 bootstrap samples, <i>n</i> = 212), as reported in Figure 3
+      of the article.
+
+results:
+  title: "What intimate content did to the influencer's credibility and fit"
+  unit: ""
+  max: 7
+  note: "Means by condition from the Results section of the article (n = 104 with intimate content, 108 without). Credibility was rated on 7-point scales and content-expertise congruence on a 5-point scale."
+  groups:
+    - name: "Influencer credibility (1–7)"
+      bars:
+        - { label: "Without intimate content", value: 5.14, highlight: true }
+        - { label: "With intimate content", value: 4.54 }
+    - name: "Content-expertise congruence (1–5)"
+      bars:
+        - { label: "Without intimate content", value: 3.63, highlight: true }
+        - { label: "With intimate content", value: 2.63 }
+
+question: >-
+  Travel influencers often share personal details alongside their recommendations, and earlier research had shown that
+  self-disclosure can build closeness with followers. But not every influencer can sustain close, reciprocal
+  relationships with a large audience, and studies disagreed on whether self-disclosure helps or hurts credibility. We
+  asked how intimate self-disclosure in travel recommendations affects an influencer's credibility, whether the fit
+  between the content and the influencer's expertise explains the effect, and whether followers who feel more competent
+  through the influencer react differently.
+
+implications:
+  practical: >-
+    Travel influencers and the destinations and brands that hire them should keep personal stories close to the
+    influencer's field: an intimate anecdote that drifts away from travel advice makes the post feel off-topic and
+    costs credibility. The cost is smaller among followers who feel more capable through the influencer, so content
+    that builds followers' skills and knowledge (detailed itineraries, cost breakdowns, safety advice, travel guides,
+    quizzes and challenges) helps influencers share personal stories without losing trust.
+  theoretical: >-
+    The study introduces content-expertise congruence, the fit between what an influencer posts and the expertise she
+    is known for, as the mechanism linking self-disclosure to credibility, and competence need fulfilment, drawn from
+    self-determination theory and the elaboration likelihood model, as a boundary condition. It shows that
+    self-disclosure affects credibility through how followers judge the content itself, not only through the
+    relationship they have with the influencer.
+
+limitations:
+  - "A fictitious influencer and a hypothetical scenario increase control but limit external validity; future studies could compare familiar and unfamiliar real influencers."
+  - "The intimate and non-intimate posts differed in length, a common feature of self-disclosure manipulations that should be ruled out in future designs."
+  - "Only a female influencer was shown; future research could test influencer gender and same-sex versus opposite-sex pairings."
+
+faq:
+  - q: "Should travel influencers share personal stories?"
+    a: >-
+      Only when the story fits their expertise. Intimate content unrelated to travel advice lowered credibility from
+      5.14 to 4.54 on a 7-point scale, because followers saw it as less congruent with what the influencer is known for
+      (Leite et al., 2024).
+  - q: "Why does oversharing hurt an influencer's credibility?"
+    a: >-
+      Because the post stops matching the influencer's field. Perceived content-expertise congruence fell from 3.63 to
+      2.63, and this drop carried the effect on credibility (indirect effect &minus;0.79) (Leite et al., 2024).
+  - q: "When do followers forgive intimate influencer content?"
+    a: >-
+      When the influencer makes them feel competent. The indirect credibility loss halved from &minus;0.95 among
+      followers low in competence need fulfilment to &minus;0.50 among those high in it (Leite et al., 2024).
+  - q: "What content builds an influencer's credibility?"
+    a: >-
+      Informative content that matches the influencer's expertise and builds followers' skills, such as itineraries,
+      cost breakdowns and safety advice; posts focused on travel tips were rated more congruent and more credible than
+      the same tips mixed with intimate details (Leite et al., 2024).
+
+concepts:
+  - term: "Intimate self-disclosure"
+    definition: "Sharing intimate, personal or private information about oneself, such as emotions, relationships and private memories, beyond surface-level facts."
+  - term: "Source credibility"
+    definition: "How attractive, trustworthy and expert a communicator is perceived to be (Ohanian, 1990)."
+  - term: "Content-expertise congruence"
+    definition: "The extent to which the content an influencer shares matches the field of expertise she is known for."
+  - term: "Competence need fulfilment"
+    definition: "The extent to which people feel a sense of mastery, achievement and effectiveness, here when seeing, hearing or thinking about the influencer (self-determination theory)."
+  - term: "Elaboration likelihood model"
+    definition: "A model of persuasion in which motivated people weigh the central message carefully, while less motivated people rely on peripheral cues."
+  - term: "Moderated mediation"
+    definition: "When an indirect (mediated) effect changes with the level of a third variable; here, the effect of intimacy on credibility through congruence depends on competence need fulfilment."
+
+materials:
+  - label: "Stimuli"
+    text: "Both versions of the influencer's Instagram travel tips (with and without intimate content) are reproduced in Table A1 below."
+  - label: "Scale items"
+    text: "All items for credibility, content-expertise congruence and competence need fulfilment, with loadings and reliability, are in Table A2 below."
+  - label: "Manipulation and realism checks"
+    text: "Perceived intimacy: three 7-point semantic differential items (e.g. non-intimate to intimate, impersonal to personal; Bazarova, 2012; &alpha; = 0.83). Realism: two 7-point items on whether the scenario was realistic or similar to posts seen before (Leite et al., 2022)."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Open access article (CC BY 4.0), re-typeset", url: "manuscripts/leite-pontes-schivinski-2024-jttm-influencer-credibility.pdf" }
+  - { label: "Published version", note: "Journal of Travel &amp; Tourism Marketing (open access)", url: "https://doi.org/10.1080/10548408.2024.2317748" }
+
+tables:
+  - id: "A2"
+    title: "Constructs, scales and items"
+    collapsed: true
+    columns: ["Construct and item", "Loading", "Cronbach’s &alpha;", "AVE", "CR"]
+    align: ["left", "right", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["Influencer credibility (Ohanian, 1990)", "", "0.95", "0.61", "0.96"] }
+      - ["Unattractive–Attractive", "0.68", "", "", ""]
+      - ["Not Classy–Classy", "0.63", "", "", ""]
+      - ["Ugly–Beautiful", "0.75", "", "", ""]
+      - ["Plain–Elegant", "0.47", "", "", ""]
+      - ["Not Sexy–Sexy", "0.78", "", "", ""]
+      - ["Undependable–Dependable", "0.70", "", "", ""]
+      - ["Dishonest–Honest", "0.64", "", "", ""]
+      - ["Unreliable–Reliable", "0.64", "", "", ""]
+      - ["Insincere–Sincere", "0.75", "", "", ""]
+      - ["Untrustworthy–Trustworthy", "0.86", "", "", ""]
+      - ["Not an expert–Expert", "0.85", "", "", ""]
+      - ["Inexperienced–Experienced", "0.95", "", "", ""]
+      - ["Unknowledgeable–Knowledgeable", "0.99", "", "", ""]
+      - ["Unqualified–Qualified", "0.98", "", "", ""]
+      - ["Unskilled–Skilled", "0.84", "", "", ""]
+      - { group: true, cells: ["Content-expertise congruence (adapted from Escalas &amp; Bettman, 2017)", "", "0.91", "0.59", "0.74"] }
+      - ["To what extent does the content shared by [influencer] in the posts match [influencer’s] field of knowledge?", "0.78", "", "", ""]
+      - ["Does the field of knowledge of [influencer] and the content of his/her posts fit together?", "0.76", "", "", ""]
+      - { group: true, cells: ["Competence need fulfillment (adapted from Thomson, 2006)", "", "0.93", "0.70", "0.92"] }
+      - ["Generally, [influencer] makes me feel very capable and effective.", "0.65", "", "", ""]
+      - ["[influencer] makes me feel adequate or competent.", "0.69", "", "", ""]
+      - ["I feel that I can successfully complete difficult tasks and projects.", "0.98", "", "", ""]
+      - ["I feel that I can take on and master hard challenges.", "0.89", "", "", ""]
+      - ["I feel very capable in what I do.", "0.93", "", "", ""]
+    note: "Credibility: 7-point semantic differential scales; congruence: 1 = not well at all, 5 = extremely well; competence need fulfillment: 1 = strongly disagree, 7 = strongly agree. Items as printed in the Appendix of the article."
+  - id: "A1"
+    title: "Manipulations: travel recommendations without and including intimate content"
+    collapsed: true
+    columns: ["Without intimate content", "Including intimate content"]
+    align: ["left", "left"]
+    rows:
+      - { group: true, cells: ["Influencer:", "Influencer:"] }
+      - ["Hey guys,", "Hey guys,"]
+      - ["This week I will be giving travel tips about Thailand.", "This week I will be giving travel tips about my recent trip to Thailand."]
+      - { group: true, cells: ["Tip 1 – Meeting local Thai people.", "Tip 1 – Meeting local Thai people."] }
+      - ["The best way to meet locals is through food.", "The best way I’ve found to meet locals is through food."]
+      - ["In Bangkok, for example, go to a local food stall or restaurant and you will find it easier to interact with locals.", "In Bangkok, for example, go to a local food stall or restaurant and you will find it easier to interact with locals."]
+      - ["You’ll get yourself amazed by being surrounded by locals.", "You’ll get yourself amazed by being surrounded by locals."]
+      - ["Meeting locals is the best thing you can possibly do!", "In one of my visits to one of these local restaurants, I met a guy who finally made me feel alive after years! No one has ever made my heart race like this guy. We’ve been seeing each other for a while, and we are planning to make it official! This was the best thing it has ever happened to me! OMG! I have never told this to anyone before!"]
+      - { group: true, cells: ["Tip 2 – Beaches in Thailand.", "Tip 2 – Beaches in Thailand."] }
+      - ["Koh Lipe Island is the best place to go to in Thailand.", "Koh Lipe Island is the best place to go to in Thailand."]
+      - ["Three days is enough to have an amazing experience in the island.", "I spent three days there. I had an amazing experience in the island."]
+      - ["No doubt the beaches will be the most beautiful you’ll ever see in your life.", "No doubt the beaches were the most beautiful I’ve ever seen in my life."]
+      - ["I strongly recommend you traveling to the island.", "The island reminds me of a special moment of my life, something very private that I’m going to reveal to you."]
+      - ["It’ll be the best experience you’ll ever have!", "My first sexual experience happened in an island … I was so comfortable and secure about my body that we ended up spending a wonderful night together. It was one of the best experiences I’ve ever had!"]
+    note: "Text of the two Instagram posts by the fictitious travel influencer, as printed in the Appendix of the article."
+
+related:
+  - "10.1057/s41262-020-00207-5"
+  - "10.1108/jpbm-05-2021-3468"
+  - "10.1371/journal.pone.0273927"
+  - "10.2501/jar-2016-004"

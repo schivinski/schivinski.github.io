@@ -1,0 +1,33 @@
+text: influencer-intimate-self-disclosure-credibility.blocks.txt
+title_page_label: Open access article
+running_label: open access (CC BY 4.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article; it differs only in formatting and
+  pagination. Please cite the published version.
+affiliation_line: The University of Queensland; RMIT University (affiliations at the time of publication)
+title_page_footer: Re-typeset from the published open access text under CC BY 4.0; the publisher's typesetting and layout have been removed.
+figures:
+  fig1:
+    svg: figures/leite-et-al-2024-influencer-model.svg
+  fig2:
+    svg: figures/leite-et-al-2024-influencer-congruence.svg
+  fig3:
+    svg: figures/leite-et-al-2024-influencer-estimates.svg
+appendix_tables:
+  - A1
+  - A2
+appendix_heading: Appendix
+table_overrides:
+  A1:
+    label: "Manipulations"
+    title: "Travel recommendations without and including intimate content"
+    widths: [1fr, 1fr]
+    size: 8.5pt
+    note: ''
+  A2:
+    label: "Constructs, scales, and items"
+    title: ""
+    columns: ["Constructs, Scales, and Items", "Factor Loading", "Cronbach’s α", "AVE", "CR"]
+    widths: [1fr, auto, auto, auto, auto]
+    size: 8.5pt
+    note: ''
