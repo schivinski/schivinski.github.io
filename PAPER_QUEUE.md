@@ -65,8 +65,8 @@ otherwise Crossref. Only journal articles get full pages.
 | 44 | 2022 | Network analyses of internet gaming disorder symptoms and their links with different ty… | BMC Psychiatry | 64 |  |
 | 45 | 2022 | Online Gambling Disorder Questionnaire (OGD-Q): An item response theory examination | Addictive Behaviors Reports | 24 |  |
 | 46 | 2022 | The interplay between time spent gaming and disordered gaming: A large-scale world-wide… | Social Science & Medicine | 174 | locked (`time-spent-gaming-disordered-gaming`) |
-| 47 | 2021 | Empirical evidence for robust personality-gaming disorder associations from a large-sca… | PLOS ONE | 30 |  |
-| 48 | 2021 | Is the proposed distinction of gaming disorder into a predominantly online vs. offline … | Addictive Behaviors Reports | 55 |  |
+| 47 | 2021 | Empirical evidence for robust personality-gaming disorder associations from a large-sca… | PLOS ONE | 30 | locked (`personality-gaming-disorder-apa-who`) |
+| 48 | 2021 | Is the proposed distinction of gaming disorder into a predominantly online vs. offline … | Addictive Behaviors Reports | 55 | locked (`online-offline-gaming-disorder-devices`) |
 | 49 | 2021 | Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scopi… | Nutrients | 25 |  |
 | 50 | 2020 | Exploring the Role of Social Media Use Motives, Psychological Well-Being, Self-Esteem, … | Frontiers in Psychology | 236 |  |
 | 51 | 2020 | How values of individualism and collectivism influence impulsive buying and money budge… | Journal of Consumer Behaviour | 85 |  |

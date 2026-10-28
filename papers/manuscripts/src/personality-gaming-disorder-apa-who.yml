@@ -1,0 +1,27 @@
+text: personality-gaming-disorder-apa-who.blocks.txt
+affiliation_line: Ulm University; RMIT University; Birkbeck, University of London
+title_page_label: Open access article
+running_label: open access (CC BY 4.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article; it differs only in formatting and
+  pagination. Please cite the published version.
+title_page_footer: Re-typeset from the published open access article (CC BY 4.0); the publisher's typesetting and layout have been removed.
+figures:
+  fig1:
+    png: manuscripts/src/img/montag-et-al-2021-fig1.png
+  fig2:
+    png: manuscripts/src/img/montag-et-al-2021-fig2.png
+table_overrides:
+  '1':
+    title: Descriptive statistics and gender-based analysis of relevant variables
+    columns: [Variables, Overall Sample mean (SD), Male Sample (mean, SD), Female Sample (mean, SD), '*t*-statistic (df)', '*p*', 'Bayes Factor (BF_{10})', 'Cohen’s d']
+    landscape: true
+    size: 8.5pt
+    note: 'Note: *t*-statistic = Welch’s *t*-test statistic; df = degrees of freedom; SD = standard deviation. Gaming Disorder as measured by the Gaming Disorder Test (GDT); Internet Gaming Disorder as measured by the Internet Gaming Disorder Scale–Short-Form (IGDS9-SF). Overall Sample: N = 50,925, Male Sample: n = 45,996, Female Sample: n = 4,929.'
+  '2':
+    size: 9pt
+    note: 'Note: All correlation coefficients remained statistically significant at *p* < .001 after applying Holm *p*-value correction. Gaming Disorder as measured by the Gaming Disorder Test (GDT); Internet Gaming Disorder as measured by the Internet Gaming Disorder Scale–Short-Form (IGDS9-SF).'
+  '3':
+    columns: [Predictors, '*B*', SE, β, '*t*-statistic', '*p*-value', 95% CI lower, 95% CI upper]
+    size: 8.5pt
+    note: 'Abbreviations: *B*: unstandardized regression coefficient; SE: standard error; β: standardized regression coefficient; R^{2}: R-squared. Gaming Disorder as measured by the Gaming Disorder Test (GDT); Internet Gaming Disorder as measured by the Internet Gaming Disorder Scale–Short-Form (IGDS9-SF).'

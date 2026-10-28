@@ -1,0 +1,274 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, PLOS ONE 16(12), e0261380 (open access, CC BY 4.0); text and tables from the Europe PMC
+# full-text XML (PMC8694446), checked against the published PDF supplied by Bruno, 28 Oct 2026. ORCIDs from OpenAlex.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Empirical evidence for robust personality-gaming disorder associations from a large-scale international investigation applying the APA and WHO frameworks"
+doi: "10.1371/journal.pone.0261380"
+journal: "PLOS ONE"
+issn: "1932-6203"
+publisher: "Public Library of Science"
+volume: "16"
+issue: "12"
+article_number: "e0261380"
+published: "2021-12"
+published_label: "22 December 2021"
+online: "2021-12-22"
+open_access: true
+licence: "CC BY 4.0"
+licence_url: "https://creativecommons.org/licenses/by/4.0/"
+
+aam:
+  file: "montag-kannen-schivinski-pontes-2021-plosone-personality-gaming-disorder.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article (CC BY 4.0), re-typeset as a clean PDF with the same content as the published version. Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution 4.0 International License
+    (https://creativecommons.org/licenses/by/4.0/). Originally published in PLOS ONE, 16(12), e0261380
+    (22 December 2021), https://doi.org/10.1371/journal.pone.0261380. Changes made: the text has been re-typeset;
+    content is unchanged.
+
+authors:
+  - given: "Christian"
+    family: "Montag"
+    orcid: "0000-0001-8112-0837"
+    affiliation: ["Ulm University"]
+  - given: "Christopher"
+    family: "Kannen"
+    orcid: "0000-0003-4242-0233"
+    affiliation: ["Ulm University"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Halley M."
+    family: "Pontes"
+    orcid: "0000-0001-8020-7623"
+    affiliation: ["Birkbeck, University of London"]
+
+cite_short: "Montag et al., 2021"
+badges: ["50,925 gamers", "150 countries", "Online survey", "Big Five personality", "WHO vs APA frameworks", "Open data (OSF)"]
+keywords:
+  # What the study is about
+  - gaming disorder
+  - internet gaming disorder
+  - disordered gaming
+  - personality
+  - Big Five
+  - conscientiousness
+  - neuroticism
+  - extraversion
+  - agreeableness
+  - openness
+  - time spent gaming
+  - individual differences
+  - addictive behaviours
+  - ICD-11
+  - DSM-5
+  - video games
+  # Theory and measures
+  - I-PACE model
+  - Big Five Inventory (BFI-44)
+  - Gaming Disorder Test (GDT)
+  - Internet Gaming Disorder Scale–Short-Form (IGDS9-SF)
+  # Method
+  - large-scale online survey
+  - cross-cultural study
+  - Bayesian t-tests
+  - multiple linear regression
+
+in_brief: >-
+  Gamers low in conscientiousness and high in neuroticism are the most likely to show symptoms of gaming disorder, and
+  this holds whether disorder is defined by the WHO or the APA. In 50,925 gamers from 150 countries, personality was
+  linked much more strongly to disordered gaming than to the number of hours spent gaming.
+
+findings:
+  - headline: "Low conscientiousness and high neuroticism go with gaming disorder."
+    text: >-
+      Among 50,925 gamers from 150 countries, gaming disorder symptoms correlated with low conscientiousness
+      (<i>r</i> = &minus;.37 under the WHO framework, &minus;.33 under the APA framework) and high neuroticism
+      (<i>r</i> = .27 and .33) (Montag et al., 2021).
+  - headline: "The links hold across both diagnostic frameworks."
+    text: >-
+      Controlling for age, gender and weekly gaming time, conscientiousness (&beta; = &minus;.28 WHO, &minus;.20 APA)
+      and neuroticism (&beta; = .14 WHO, .21 APA) remained the strongest personality predictors; the models explained
+      about 22% of the variance in symptoms (Montag et al., 2021).
+  - headline: "Personality says little about how long people play."
+    text: >-
+      Correlations between the Big Five traits and weekly time spent gaming were small (&minus;.12 to .07), so
+      personality matters for disordered gaming rather than for gaming time (Montag et al., 2021).
+  - headline: "Disordered gamers differ on every trait."
+    text: >-
+      Gamers meeting the WHO criteria (2.2% of the sample) or the APA criteria (5.5%) scored lower on conscientiousness,
+      agreeableness, extraversion and openness and higher on neuroticism than other gamers (all <i>p</i> &lt; .001)
+      (Montag et al., 2021).
+
+glance:
+  - { label: "Design", value: "Cross-sectional online survey on the platform do-i-play-too-much.com, part of the &lsquo;Smart Gaming&rsquo; campaign with the Electronic Sports League (ESL); May to December 2019 (before the COVID-19 pandemic)" }
+  - { label: "Participants", value: "50,925 gamers from 150 countries (90.3% men; mean age 24.9, SD 7.4), from 68,132 who took part" }
+  - { label: "Measures", value: "Big Five Inventory (BFI-44); Gaming Disorder Test (GDT, WHO framework); Internet Gaming Disorder Scale&ndash;Short-Form (IGDS9-SF, APA framework); weekly time spent gaming" }
+  - { label: "Analysis", value: "Welch&rsquo;s and Bayesian <i>t</i>-tests by gender, correlations with Holm correction and multiple linear regression, in R 4.0.4 and IBM SPSS" }
+  - { label: "Data quality", value: "Exclusions for age, consent, English proficiency, a sham game item (&lsquo;Semeron&rsquo;), not gaming in the past year and implausible gaming hours; long-string screening for careless responding" }
+  - { label: "Ethics", value: "Nottingham Trent University ethics committee (PONTES 2018/95)" }
+  - { label: "Data", value: "Aggregated data on the Open Science Framework (osf.io/ntyhr)" }
+
+figures:
+  - file: figures/montag-et-al-2021-personality-disordered-gaming.svg
+    title: "Figures 1 and 2. Personality of disordered and non-disordered gamers"
+    caption: >-
+      Redrawn from Figs 1 and 2 of the article (values as labelled on the published charts). Under both frameworks,
+      disordered gamers score markedly lower on conscientiousness and higher on neuroticism. All contrasts significant
+      at <i>p</i> &lt; .001.
+
+results:
+  title: "How strongly each trait correlates with gaming disorder symptoms"
+  unit: ""
+  max: 0.4
+  note: "Absolute correlations with Gaming Disorder Test scores (WHO framework; Table 2 of the article, N = 50,925). Neuroticism is positive; the other traits are negative."
+  groups:
+    - name: "Gaming disorder (WHO)"
+      bars:
+        - { label: "Conscientiousness (low)", value: 0.37, display: "&minus;.37", highlight: true }
+        - { label: "Neuroticism (high)", value: 0.27, display: ".27", highlight: true }
+        - { label: "Agreeableness (low)", value: 0.19, display: "&minus;.19" }
+        - { label: "Extraversion (low)", value: 0.16, display: "&minus;.16" }
+        - { label: "Openness (low)", value: 0.11, display: "&minus;.11" }
+    - name: "Weekly time spent gaming"
+      bars:
+        - { label: "Conscientiousness", value: 0.12, display: "&minus;.12" }
+        - { label: "Neuroticism", value: 0.07, display: ".07" }
+
+question: >-
+  Personality is thought to shape vulnerability to disordered gaming, but most studies used small, single-country
+  samples and only the APA framework, and none compared how personality relates to disordered gaming versus time spent
+  gaming. In a large, culturally diverse sample we asked whether the Big Five traits, especially low conscientiousness
+  and high neuroticism, relate to disordered gaming under both the WHO and APA frameworks, and whether they relate
+  differently to gaming time.
+
+implications:
+  practical: >-
+    Short screenings of conscientiousness and neuroticism could help identify gamers vulnerable to disordered gaming and
+    target prevention. Because personality relates to disordered gaming much more than to hours played, high gaming
+    engagement should not be confused with disorder.
+  theoretical: >-
+    The study confirms low conscientiousness and high neuroticism as robust correlates of disordered gaming across both
+    diagnostic frameworks and many countries, supporting the role of personality in models such as I-PACE, and shows
+    that disordered gaming and time spent gaming are distinct.
+
+limitations:
+  - "The cross-sectional design cannot show whether personality causes disordered gaming or results from it."
+  - "All measures are self-reports, and classifying disordered gaming from questionnaires needs clinical interviews to yield a diagnosis."
+  - "The English-language survey and the self-help platform may have biased the sample towards heavier or more vulnerable gamers, and few women took part."
+
+faq:
+  - q: "Which personality traits are linked to gaming disorder?"
+    a: >-
+      Low conscientiousness and high neuroticism, in a study of 50,925 gamers from 150 countries; lower agreeableness,
+      extraversion and openness showed weaker links (Montag et al., 2021).
+  - q: "Is personality related to how much people play video games?"
+    a: >-
+      Only weakly. Correlations between the Big Five traits and weekly gaming time ranged from &minus;.12 to .07, much
+      smaller than their correlations with disordered gaming (Montag et al., 2021).
+  - q: "How common was gaming disorder in this sample?"
+    a: >-
+      About 2.2% of gamers met the WHO criteria for gaming disorder and 5.5% met the APA criteria for Internet gaming
+      disorder (Montag et al., 2021).
+  - q: "Do men and women differ in disordered gaming?"
+    a: >-
+      In this sample, men and women did not differ meaningfully in disordered gaming scores, although men played more
+      hours and women scored higher on neuroticism (Montag et al., 2021).
+
+concepts:
+  - term: "Big Five personality traits"
+    definition: "Openness, conscientiousness, extraversion, agreeableness and neuroticism, the most widely used model of personality."
+  - term: "Conscientiousness"
+    definition: "A tendency to be organised, dependable, self-disciplined and goal-directed."
+  - term: "Neuroticism"
+    definition: "A tendency to experience negative emotions such as anxiety, worry and moodiness."
+  - term: "Gaming disorder (WHO)"
+    definition: "An ICD-11 diagnosis marked by impaired control over gaming, increasing priority given to gaming and continued gaming despite negative consequences, with significant impairment."
+  - term: "Internet gaming disorder (APA)"
+    definition: "A DSM-5 condition for further study, defined by at least five of nine criteria within 12 months."
+  - term: "I-PACE model"
+    definition: "The Interaction of Person-Affect-Cognition-Execution model of how addictive behaviours develop."
+
+materials:
+  - label: "Scoring"
+    text: "Disordered gaming (WHO): all four GDT items answered 4 = &lsquo;often&rsquo; or 5 = &lsquo;very often&rsquo;. Disordered gaming (APA): five of the nine IGDS9-SF items answered 4 or 5. BFI-44 items rated from 1 = &lsquo;disagree strongly&rsquo; to 5 = &lsquo;agree strongly&rsquo;."
+  - label: "Country-level results"
+    text: "Participant numbers per country and personality&ndash;disordered gaming correlations for each country with at least 1% of the sample are in S1 Data of the article."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Open access article re-typeset as a clean PDF, including all tables and figures", url: "manuscripts/montag-kannen-schivinski-pontes-2021-plosone-personality-gaming-disorder.pdf" }
+  - { label: "Data (OSF)", note: "Aggregated scale-level data", url: "https://osf.io/ntyhr/" }
+  - { label: "Published version", note: "PLOS ONE (open access), with S1 Data", url: "https://doi.org/10.1371/journal.pone.0261380" }
+
+tables:
+- id: '1'
+  title: Descriptive statistics and gender-based analysis of relevant variables
+  columns: [Variable, All, Men, Women, <i>t</i> (df), <i>p</i>, BF<sub>10</sub>, <i>d</i>]
+  align: [left, right, right, right, right, right, right, right]
+  rows:
+  - [Gaming Disorder, 9.05 (3.26), 9.05 (3.25), 9.01 (3.35), '&minus;0.84 (5960.1)', '.40', '&minus;3.73', '&minus;.01']
+  - [Internet Gaming Disorder, 18.25 (6.25), 18.23 (6.22), 18.43 (6.52), 2.03 (5931.2), '.04', '&minus;2.03', '.03']
+  - [Weekly Gaming Time (hours), 24.43 (16.94), 24.66 (16.89), 22.21 (17.23), '&minus;9.52 (5988.7)', '&lt;.001', '41.19', '&minus;.14']
+  - [Openness, 3.63 (0.58), 3.62 (0.58), 3.71 (0.60), 10.58 (5972.7), '&lt;.001', '51.74', '.16']
+  - [Conscientiousness, 3.21 (0.66), 3.21 (0.66), 3.15 (0.71), '&minus;6.13 (5880.1)', '&lt;.001', '14.70', '&minus;.09']
+  - [Extraversion, 2.75 (0.78), 2.77 (0.78), 2.63 (0.79), '&minus;11.84 (6009.3)', '&lt;.001', '65.88', '&minus;.17']
+  - [Agreeableness, 3.52 (0.62), 3.53 (0.61), 3.47 (0.67), '&minus;6.07 (5837.2)', '&lt;.001', '14.32', '&minus;.09']
+  - [Neuroticism, 2.94 (0.83), 2.88 (0.82), 3.44 (0.82), 45.45 (6011.8), '&lt;.001', '> 100', '.68']
+  note: Means with standard deviations in brackets. <i>t</i> = Welch&rsquo;s <i>t</i>-test statistic. Gaming disorder measured with the Gaming Disorder Test (GDT); Internet gaming disorder with the Internet Gaming Disorder Scale&ndash;Short-Form (IGDS9-SF).
+    BF<sub>10</sub> = Bayes factor; <i>d</i> = Cohen&rsquo;s <i>d</i>. Overall <i>N</i> = 50,925; men <i>n</i> = 45,996; women <i>n</i> = 4,929. Bayes factors as printed.
+- id: '2'
+  title: Associations between personality traits, disordered gaming, time spent gaming, age, and gender
+  columns: ['', Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism]
+  align: [left, right, right, right, right, right]
+  rows:
+  - [Gaming Disorder, '&minus;.11', '&minus;.37', '&minus;.16', '&minus;.19', '.27']
+  - [Internet Gaming Disorder, '&minus;.12', '&minus;.33', '&minus;.19', '&minus;.21', '.33']
+  - [Weekly Time Spent Gaming, '&minus;.10', '&minus;.12', '&minus;.10', '&minus;.09', '.07']
+  - [Age, '.11', '.17', '&minus;.01', '.09', '&minus;.04']
+  - [Gender, '.05', '&minus;.03', '&minus;.05', '&minus;.03', '.20']
+  note: All correlations remained significant at <i>p</i> &lt; .001 after Holm correction. Gaming disorder measured with the GDT; Internet gaming disorder with the IGDS9-SF.
+- id: '3'
+  title: Multiple linear regression of the relationship between disordered gaming and key individual differences predictors
+  columns: [Predictor, <i>B</i>, SE, '&beta;', <i>t</i>, <i>p</i>, 95% CI lower, 95% CI upper]
+  align: [left, right, right, right, right, right, right, right]
+  rows:
+  - group: true
+    cells: ['Outcome: Gaming Disorder', '', '', '', '', '', '', '']
+  - [(Intercept), '11.831', '.160', '&ndash;', '74.034', '&lt;.001', '11.517', '12.144']
+  - [Age, '&minus;.005', '.002', '&minus;.011', '&minus;2.674', '.008', '&minus;.008', '&minus;.001']
+  - [Gender, '.332', '.044', '.030', '7.535', '&lt;.001', '.246', '.419']
+  - [Weekly time spent gaming, '.046', '.001', '.240', '60.440', '&lt;.001', '.045', '.048']
+  - [Openness, '&minus;.051', '.023', '&minus;.009', '&minus;2.142', '.032', '&minus;.096', '&minus;.004']
+  - [Conscientiousness, '&minus;1.347', '.021', '&minus;.275', '&minus;63.041', '&lt;.001', '&minus;1.389', '&minus;1.305']
+  - [Extraversion, '&minus;.062', '.018', '&minus;.015', '&minus;3.395', '.001', '&minus;.098', '&minus;.026']
+  - [Agreeableness, '&minus;.276', '.022', '&minus;.052', '&minus;12.383', '&lt;.001', '&minus;.319', '&minus;.232']
+  - [Neuroticism, '.527', '.018', '.135', '29.502', '&lt;.001', '.492', '.562']
+  - group: true
+    cells: ['Variance explained by model: Adjusted R<sup>2</sup> = .223 (22.3%)', '', '', '', '', '', '', '']
+  - group: true
+    cells: ['Statistical significance of model: <i>F</i>(8, 50916) = 1826.904, <i>p</i> &lt; .001', '', '', '', '', '', '', '']
+  - group: true
+    cells: ['Outcome: Internet Gaming Disorder', '', '', '', '', '', '', '']
+  - [(Intercept), '20.136', '.306', '&ndash;', '65.761', '&lt;.001', '19.536', '20.736']
+  - [Age, '&minus;.002', '.003', '&minus;.003', '&minus;.673', '.501', '&minus;.009', '.004']
+  - [Gender, '.661', '.084', '.031', '7.826', '&lt;.001', '.496', '.827']
+  - [Weekly time spent gaming, '.089', '.001', '.242', '60.923', '&lt;.001', '.086', '.092']
+  - [Openness, '&minus;.149', '.045', '&minus;.014', '&minus;3.349', '&lt;.001', '&minus;.237', '&minus;.062']
+  - [Conscientiousness, '&minus;1.895', '.041', '&minus;.201', '&minus;46.284', '&lt;.001', '&minus;1.975', '&minus;1.815']
+  - [Extraversion, '&minus;.231', '.035', '&minus;.029', '&minus;6.596', '&lt;.001', '&minus;.300', '&minus;.163']
+  - [Agreeableness, '&minus;.587', '.043', '&minus;.058', '&minus;13.762', '&lt;.001', '&minus;.671', '&minus;.504']
+  - [Neuroticism, '1.607', '.034', '.214', '46.948', '&lt;.001', '1.540', '1.674']
+  - group: true
+    cells: ['Variance explained by model: Adjusted R<sup>2</sup> = .226 (22.6%)', '', '', '', '', '', '', '']
+  - group: true
+    cells: ['Statistical significance of model: <i>F</i>(8, 50916) = 1861.415, <i>p</i> &lt; .001', '', '', '', '', '', '', '']
+  note: '<i>B</i>: unstandardised coefficient; SE: standard error; &beta;: standardised coefficient. Gaming disorder measured with the GDT; Internet gaming disorder with the IGDS9-SF.'
+related:
+  - "10.1016/j.socscimed.2022.114721"
+  - "10.1016/j.addbeh.2022.107416"
+  - "10.3390/jcm8101691"
