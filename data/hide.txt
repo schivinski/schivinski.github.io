@@ -1,2 +1,4 @@
 # Publications to hide from the website (they stay on ORCID).
 # One DOI (e.g. 10.1108/jpbm-09-2025-6337) or one exact title per line.
+# Polish-title duplicate of 10.17951/h.2015.49.3.117 (same article, ORCID entry without DOI)
+Wpływ postrzeganego ryzyka związanego z markami własnymi na zachowania nabywców--przegląd czterech dekad badań

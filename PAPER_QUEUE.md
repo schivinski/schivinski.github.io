@@ -28,7 +28,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 12 | 2024 | What if utilitarian products are regarded as high-status? The moderate role of iconic a… | Journal of Marketing Communications | 23 | locked (`utilitarian-products-high-status-brand-coolness`) |
 | 13 | 2025 | City branding’s influence on social media engagement: the cool factor | Journal of Product and Brand Management | 6 | locked (`city-branding-cool-factor`) |
 
-## Newest to oldest (67)
+## Newest to oldest (66)
 
 | # | Year | Paper | Journal | Cited | Status |
 |---|---|---|---|---|---|
@@ -86,16 +86,15 @@ otherwise Crossref. Only journal articles get full pages.
 | 65 | 2015 | Effects of Store Brand Perceived Risk on Buyers’ Behavior – Four Decades of Research Ov… | Annales Universitatis Mariae Curie-Skłodowska, sectio H, Oeconomia | 1 | locked (`store-brand-perceived-risk-review`) |
 | 66 | 2015 | Implementing the consumer-based brand equity scale for beer brands -- a Tyskie and Żywi… | Zeszyty Naukowe Uniwersytetu Szczecińskiego. Problemy Zarządzania, Finansów i Marketingu | 2 |  |
 | 67 | 2015 | Pomiar kapitału marek własnych detalistów | Annales Universitatis Mariae Curie-Skłodowska. Sectio H. Oeconomia | 2 |  |
-| 68 | 2015 | The study of Polish consumer’s online brand-related activities | e-mentor (article in Polish) | 11 | locked (`polish-consumers-online-brand-related-activities`) |
-| 69 | 2015 | Typologia aktywnósci online konsumenta w zakresie marki | Marketing i Rynek | 4 |  |
-| 70 | 2015 | User-generated images and its impact on consumer-based brand equity and on purchase int… | Logistyka | 27 |  |
-| 71 | 2015 | Wpływ aktywności online polskich konsumentów dotyczącej marek na kapitał marki bazujący… | e-mentor | 1 |  |
-| 72 | 2015 | Wpływ postrzeganego ryzyka związanego z markami własnymi na zachowania nabywców--przegl… | Annales Universitatis Mariae Curie-Skłodowska, sectio H--Oeconomia | 0 |  |
-| 73 | 2014 | Rozwój badań nad kapitałem marki bazującym na konsumencie -- przegląd literatury | Marketing i Rynek | 12 |  |
-| 74 | 2014 | The consumer-based brand equity inventory: scale construct and validation | Working Paper Series A, Gdansk University of Technology, Faculty of Management and Economics | 49 |  |
-| 75 | 2014 | Wpływ postrzeganego ryzyka oraz czynników wizerunkowych na zamiar zakupu marek własnych… | Marketing i Rynek | 11 |  |
-| 76 | 2014 | Znaczenie płci w procesie zakupu marek własnych sieci handlowych – analiza wielogrupowa | Prace Naukowe Uniwersytetu Ekonomicznego we Wrocławiu | 4 |  |
-| 77 | 2013 | Effects of social media communication on brand equity and brand purchase intention | PhD Interdisciplinary Journal | 42 |  |
-| 78 | 2013 | Implementing second-order CFA model for the factorial validity of brand equity | PhD Interdisciplinary Journal | 9 |  |
-| 79 | 2012 | The concept of aida applied to online interactive advertisement: An YouTube case study | PhD interdisciplinary Journal | 0 |  |
-| 80 | 2011 | Publicity Available Lecture Webcasts: e-Learning or Promotion Tool? Case Study | Knowledge as Business Opportunity: Proceedings of the Management, Knowledge and Learning International Conference 2011 | 0 |  |
+| 68 | 2015 | The influence of Polish consumers’ online brand-related activity on brand equity | e-mentor (article in Polish) | 1 | locked (`cobra-consumer-based-brand-equity-poland`) |
+| 69 | 2015 | The study of Polish consumer’s online brand-related activities | e-mentor (article in Polish) | 11 | locked (`polish-consumers-online-brand-related-activities`) |
+| 70 | 2015 | Typologia aktywnósci online konsumenta w zakresie marki | Marketing i Rynek | 4 |  |
+| 71 | 2015 | User-generated images and its impact on consumer-based brand equity and on purchase int… | Logistyka | 27 |  |
+| 72 | 2014 | Rozwój badań nad kapitałem marki bazującym na konsumencie -- przegląd literatury | Marketing i Rynek | 12 |  |
+| 73 | 2014 | The consumer-based brand equity inventory: scale construct and validation | Working Paper Series A, Gdansk University of Technology, Faculty of Management and Economics | 49 |  |
+| 74 | 2014 | Wpływ postrzeganego ryzyka oraz czynników wizerunkowych na zamiar zakupu marek własnych… | Marketing i Rynek | 11 |  |
+| 75 | 2014 | Znaczenie płci w procesie zakupu marek własnych sieci handlowych – analiza wielogrupowa | Prace Naukowe Uniwersytetu Ekonomicznego we Wrocławiu | 4 |  |
+| 76 | 2013 | Effects of social media communication on brand equity and brand purchase intention | PhD Interdisciplinary Journal | 42 |  |
+| 77 | 2013 | Implementing second-order CFA model for the factorial validity of brand equity | PhD Interdisciplinary Journal | 9 |  |
+| 78 | 2012 | The concept of aida applied to online interactive advertisement: An YouTube case study | PhD interdisciplinary Journal | 0 |  |
+| 79 | 2011 | Publicity Available Lecture Webcasts: e-Learning or Promotion Tool? Case Study | Knowledge as Business Opportunity: Proceedings of the Management, Knowledge and Learning International Conference 2011 | 0 |  |

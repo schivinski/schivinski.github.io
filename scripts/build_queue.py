@@ -37,7 +37,11 @@ def crossref_count(doi: str):
 
 def main() -> int:
     refresh = "--refresh" in sys.argv
-    pubs = [p for p in json.loads(PUBS.read_text()) if p["type"] == "journal-article"]
+    hide = ROOT / "data" / "hide.txt"  # works hidden from the website are left out of the queue too
+    hidden = {l.strip().lower() for l in hide.read_text().splitlines()
+              if l.strip() and not l.startswith("#")} if hide.exists() else set()
+    pubs = [p for p in json.loads(PUBS.read_text()) if p["type"] == "journal-article"
+            and (p["doi"] or "").lower() not in hidden and p["title"].lower() not in hidden]
     cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
     for p in pubs:
         doi = (p.get("doi") or "").lower()

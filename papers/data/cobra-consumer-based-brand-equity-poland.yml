@@ -1,0 +1,225 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, e-mentor 5(62), 77-83 (December 2015), in Polish (publisher PDF supplied by Bruno, 29 Oct 2026).
+# The page is in English as Bruno asked: English title and abstract from the journal's English page, hypotheses,
+# tables and scale items translated here. The journal states no open licence, so no copy or translation of the full
+# text is hosted; the DOI leads to the free publisher PDF. Figure 1 drawn from the estimates in Table 2.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "The influence of Polish consumers’ online brand-related activity on brand equity"
+title_original: "Wpływ aktywności online polskich konsumentów dotyczącej marek na kapitał marki bazujący na konsumencie"
+language: "Polish"
+language_code: "pl"
+language_note: "The English title and abstract are the journal&rsquo;s own; the hypotheses, tables and scale items were translated from Polish for this page."
+doi: "10.15219/em62.1215"
+journal: "e-mentor"
+issn: "1731-6758"
+publisher: "Foundation for the Promotion and Accreditation of Economic Education"
+volume: "5"
+issue: "62"
+issue_label: "no. 5 (62)"
+pages: "77–83"
+published: "2015-12"
+published_label: "December 2015"
+open_access: true
+pdf_url: "https://www.e-mentor.edu.pl/_magazine/_pdf/62/art_77-83_Schivinski_Lukasik.pdf"
+
+authors:
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Nottingham Trent University"]
+    me: true
+  - given: "Przemysław"
+    family: "Łukasik"
+    affiliation: ["Maria Curie-Skłodowska University in Lublin"]
+
+cite_short: "Schivinski & Łukasik, 2015"
+badges: ["766 Polish social media users", "203 brands", "Structural equation modelling", "COBRA and brand equity", "Article in Polish"]
+keywords:
+  - consumer’s online brand-related activities
+  - COBRAs
+  - consumer-based brand equity
+  - CBBE
+  - social media
+  - brand engagement
+  - consuming, contributing and creating brand-related content
+  - brand awareness
+  - brand associations
+  - brand loyalty
+  - perceived quality
+  - second-order factor
+  - structural equation modelling
+  - Mplus
+  - Polish consumers
+  - Poland
+
+in_brief: >-
+  The more Polish social media users consume, contribute to and create content about a brand, the more they know
+  and like it, the more loyal they are and the higher they rate its quality. A survey of 766 users about 203 brands
+  showed that online brand-related activity has its strongest effect on brand loyalty.
+
+findings:
+  - headline: "Online brand-related activity raises brand awareness and associations."
+    text: >-
+      Consumers&rsquo; engagement in consuming, contributing and creating brand-related content (COBRA, modelled as
+      one second-order factor) had a positive effect on brand awareness/associations (&beta; = 0.27, <i>p</i> &lt; .001)
+      (Schivinski &amp; Łukasik, 2015).
+  - headline: "The strongest effect is on brand loyalty."
+    text: >-
+      COBRA had a positive effect on brand loyalty (&beta; = 0.42, <i>p</i> &lt; .001), the largest of the three
+      paths (Schivinski &amp; Łukasik, 2015).
+  - headline: "Brand-related activity also improves perceived quality."
+    text: >-
+      COBRA had a smaller positive effect on the brand&rsquo;s perceived quality (&beta; = 0.18, <i>p</i> &lt; .001)
+      (Schivinski &amp; Łukasik, 2015).
+  - headline: "Managers can grow brand equity by tracking how consumers engage."
+    text: >-
+      Systematically observing and analysing consumers&rsquo; online brand-related activities in social media
+      campaigns can be expected to raise overall brand equity, and in turn sales and profits (Schivinski &amp;
+      Łukasik, 2015).
+
+glance:
+  - { label: "Design", value: "Standardised online survey of Polish social media users; the sample reflects the profile of Polish social media users in January 2013 (Gemius)" }
+  - { label: "Participants", value: "766 valid questionnaires from 897 respondents (85.4%); 56.3% women; 57.2% aged 25&ndash;30; 203 brands (clothing and accessories, cars, beverages, computers, high tech, mobile operators)" }
+  - { label: "Measures", value: "COBRA: 15 items (5 consumption, 4 contribution, 6 creation) on a 7-point frequency scale with a &ldquo;never&rdquo; option coded 0; CBBE: brand awareness/associations (4 items), perceived quality (4) and brand loyalty (5) on 7-point Likert scales" }
+  - { label: "Hypotheses", value: "COBRA has a positive effect on brand awareness/associations (H1), brand loyalty (H2) and perceived quality (H3); all three supported" }
+  - { label: "Analysis", value: "Exploratory factor analysis (SPSS 21), confirmatory factor analysis and structural equation modelling (Mplus 7.2, MLM estimator), with COBRA as a second-order factor" }
+  - { label: "Language", value: "The article is in Polish; the English abstract is on the journal&rsquo;s site. The hypotheses, tables and items on this page are translated from Polish." }
+  - { label: "Funding", value: "National Science Centre (NCN), Poland, PRELUDIUM project UMO-2012/07/N/HS4/02790" }
+
+results:
+  title: "Effect of COBRA on the dimensions of consumer-based brand equity"
+  unit: ""
+  max: 0.5
+  note: "Standardised path estimates (&beta;) from Table 2 of the article; all p &lt; .001; N = 766."
+  groups:
+    - name: "COBRA &rarr;"
+      bars:
+        - { label: "Brand loyalty (H2)", value: 0.42, display: "0.42", highlight: true }
+        - { label: "Awareness/associations (H1)", value: 0.27, display: "0.27" }
+        - { label: "Perceived quality (H3)", value: 0.18, display: "0.18" }
+
+figures:
+  - file: figures/schivinski-lukasik-2015-cobra-cbbe-model.svg
+    title: "Figure 1. Structural model with the estimated paths"
+    caption: >-
+      Drawn for this page from the conceptual model (Figure 1 of the article) and the estimates in Table 2. Labels
+      translated from Polish.
+
+question: >-
+  Research shows that social media communication shapes how consumers perceive brands, but how consumers&rsquo; own
+  brand-related activity affects brand equity was less clear. We asked whether Polish consumers&rsquo; engagement in
+  consuming, contributing to and creating brand-related content in social media (COBRA) affects the dimensions of
+  their consumer-based brand equity (CBBE).
+
+implications:
+  practical: >-
+    Brand managers should build the COBRA model into the management of their social media campaigns: by
+    systematically observing and analysing how consumers consume, contribute to and create brand-related content, they
+    can expect higher brand equity, and in turn higher sales and profits.
+  theoretical: >-
+    Treating consuming, contributing and creating as one second-order COBRA construct, the study links consumers&rsquo;
+    brand-related social media activity to Aaker&rsquo;s brand equity dimensions, with awareness and associations
+    combined into one dimension as in Yoo and Donthu (2001).
+
+limitations:
+  - "The sample included only Polish consumers; the study should be repeated in other cultural, social and economic settings."
+  - "Differences between social media platforms were not taken into account."
+
+faq:
+  - q: "Does engaging with brands on social media increase brand equity?"
+    a: >-
+      In 766 Polish social media users, consuming, contributing to and creating brand-related content had positive
+      effects on brand awareness/associations, brand loyalty and perceived quality (Schivinski &amp; Łukasik, 2015).
+  - q: "Which part of brand equity does online brand-related activity affect most?"
+    a: >-
+      Brand loyalty (&beta; = 0.42), followed by brand awareness/associations (&beta; = 0.27) and perceived quality
+      (&beta; = 0.18) (Schivinski &amp; Łukasik, 2015).
+  - q: "What are COBRAs?"
+    a: >-
+      Consumer&rsquo;s online brand-related activities: consuming, contributing to and creating brand-related content
+      in social media (Muntinga, Moorman &amp; Smit, 2011).
+  - q: "Is this article available in English?"
+    a: >-
+      The article is in Polish, with an English abstract on the e-mentor website. This page summarises it in English,
+      with the hypotheses, tables and scale items translated.
+
+concepts:
+  - term: "COBRAs"
+    definition: "Consumer&rsquo;s online brand-related activities: consuming (reading, watching, following), contributing (liking, commenting) and creating (posting, sharing, reviewing) brand-related content."
+  - term: "Consumer-based brand equity"
+    definition: "The value a brand has in consumers&rsquo; minds; here measured by brand awareness/associations, perceived quality and brand loyalty (Aaker, 1991)."
+  - term: "Second-order factor"
+    definition: "A latent variable measured by other latent variables; here COBRA is formed by the consumption, contribution and creation factors."
+
+materials:
+  - label: "Scale items"
+    text: "All 28 items (translated from Polish) with their factor loadings are in Table A below (Annex A of the article)."
+
+open_science:
+  - { label: "Published version (in Polish)", note: "e-mentor 5(62), free PDF on the journal&rsquo;s website", url: "https://doi.org/10.15219/em62.1215" }
+  - { label: "English abstract", note: "e-mentor English page", url: "https://www.e-mentor.edu.pl/eng/article/index/number/62/id/1215" }
+
+tables:
+  - id: "1"
+    title: "Convergent and discriminant validity of the constructs"
+    columns: ["Construct", "&alpha;", "CR", "AVE", "MSV", "LOY", "CON", "CONT", "CRE", "PQ", "AW/AS"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["Brand loyalty (LOY)", "0.92", "0.92", "0.72", "0.44", "<i>0.85</i>", "", "", "", "", ""]
+      - ["Consumption (CON)", "0.88", "0.89", "0.63", "0.35", "0.37", "<i>0.79</i>", "", "", "", ""]
+      - ["Contribution (CONT)", "0.92", "0.92", "0.76", "0.64", "0.36", "0.59", "<i>0.87</i>", "", "", ""]
+      - ["Creation (CRE)", "0.93", "0.92", "0.68", "0.64", "0.36", "0.50", "0.80", "<i>0.82</i>", "", ""]
+      - ["Perceived quality (PQ)", "0.85", "0.86", "0.60", "0.53", "0.66", "0.20", "0.15", "0.16", "<i>0.78</i>", ""]
+      - ["Brand awareness/associations (AW/AS)", "0.92", "0.92", "0.72", "0.53", "0.57", "0.39", "0.24", "0.19", "0.73", "<i>0.85</i>"]
+    note: "&alpha; = Cronbach&rsquo;s alpha; CR = composite reliability; AVE = average variance extracted; MSV = maximum shared variance. Off-diagonal values are correlations between constructs; the square root of the AVE is on the diagonal (in italics). Abbreviations translated from Polish."
+  - id: "2"
+    title: "Results of the path analysis"
+    columns: ["Hypothesis", "&beta;", "<i>t</i>", "<i>p</i>", "Supported"]
+    align: ["left", "right", "right", "right", "center"]
+    rows:
+      - ["H1. COBRA &rarr; brand awareness/associations", "0.27", "9.71", "***", "Yes"]
+      - ["H2. COBRA &rarr; brand loyalty", "0.42", "15.09", "***", "Yes"]
+      - ["H3. COBRA &rarr; perceived quality", "0.18", "4.88", "***", "Yes"]
+    note: "*** <i>p</i> &lt; .001. MLM&chi;&sup2;(482) = 1429.06, CFI = 0.93, TLI = 0.93, RMSEA = 0.05 (90% CI 0.04&ndash;0.05), SRMR = 0.06 (as printed)."
+  - id: "A"
+    title: "Constructs and scale items (Annex A)"
+    collapsed: true
+    columns: ["Construct", "Item", "Loading", "SE", "<i>t</i>", "<i>R</i>&sup2;"]
+    align: ["left", "left", "right", "right", "right", "right"]
+    rows:
+      - ["Consumption", "I read posts published by this brand on social networking sites.", "0.87", "0.01", "76.31", "0.75"]
+      - ["Consumption", "I view this brand&rsquo;s pages (e.g., its Facebook fan page).", "0.86", "0.01", "62.62", "0.75"]
+      - ["Consumption", "I look at photos and other graphics related to the chosen brand.", "0.71", "0.02", "35.11", "0.50"]
+      - ["Consumption", "I follow blogs related to the chosen brand.", "0.60", "0.02", "25.07", "0.35"]
+      - ["Consumption", "I follow this brand on social networking sites.", "0.88", "0.01", "76.75", "0.78"]
+      - ["Contribution", "I comment on posts related to this brand.", "0.84", "0.01", "44.30", "0.70"]
+      - ["Contribution", "I post comments on this brand&rsquo;s page (fan page).", "0.88", "0.01", "69.45", "0.79"]
+      - ["Contribution", "I &ldquo;like&rdquo; the chosen brand&rsquo;s posts.", "0.88", "0.01", "62.05", "0.78"]
+      - ["Contribution", "I &ldquo;like&rdquo; pages (fan pages) related to this brand.", "0.87", "0.01", "56.14", "0.75"]
+      - ["Creation", "I write reviews of this brand&rsquo;s products.", "0.72", "0.02", "26.81", "0.52"]
+      - ["Creation", "I post photos of the chosen brand&rsquo;s products.", "0.82", "0.02", "40.26", "0.68"]
+      - ["Creation", "I share posts about this brand.", "0.88", "0.01", "69.69", "0.79"]
+      - ["Creation", "I share videos that show this brand.", "0.80", "0.02", "31.04", "0.65"]
+      - ["Creation", "I share entries about this brand on social networking sites.", "0.88", "0.01", "73.10", "0.77"]
+      - ["Creation", "I post entries about this brand on blogs and/or discussion forums.", "0.80", "0.01", "43.70", "0.65"]
+      - ["Brand awareness/associations", "I know this brand.", "0.87", "0.01", "71.08", "0.76"]
+      - ["Brand awareness/associations", "I can easily recognise this brand among other brands.", "0.85", "0.01", "52.49", "0.72"]
+      - ["Brand awareness/associations", "I have good memories of this brand.", "0.78", "0.01", "41.69", "0.60"]
+      - ["Brand awareness/associations", "The brand I chose has a good image.", "0.88", "0.01", "72.94", "0.77"]
+      - ["Perceived quality", "The chosen brand&rsquo;s products are of better quality than unbranded ones.", "0.75", "0.02", "71.08", "0.57"]
+      - ["Perceived quality", "Even though other brands&rsquo; products are good, I still think the brand I chose is better.", "0.76", "0.01", "40.65", "0.58"]
+      - ["Perceived quality", "This brand&rsquo;s products are of good quality.", "0.81", "0.01", "49.46", "0.66"]
+      - ["Perceived quality", "The products of the brand I chose are reliable.", "0.78", "0.02", "35.70", "0.61"]
+      - ["Brand loyalty", "I am faithful to the brand I chose.", "0.92", "0.00", "131.97", "0.86"]
+      - ["Brand loyalty", "I consider myself loyal to this brand.", "0.89", "0.00", "97.25", "0.80"]
+      - ["Brand loyalty", "I consider myself a fan of this brand.", "0.75", "0.01", "47.76", "0.57"]
+      - ["Brand loyalty", "I am attached to this brand.", "0.83", "0.01", "50.14", "0.70"]
+      - ["Brand loyalty", "If someone offers me a competing brand, I will still buy products of the brand I chose.", "0.81", "0.01", "48.22", "0.66"]
+    note: "Standardised loadings from the confirmatory factor analysis; values as printed. COBRA items rated from 1 (very rarely) to 7 (very often), with &ldquo;never&rdquo; coded 0; brand equity items from 1 (strongly disagree) to 7 (strongly agree). Items translated from Polish. Sources: Yoo and Donthu (2001) and Villarejo-Ramos and Sánchez-Franco (2005) for awareness/associations and perceived quality; Walsh et al. (2009) for loyalty."
+
+related:
+  - "10.15219/em59.1174"
+  - "10.1108/JRIM-02-2014-0007"
+  - "10.2501/JAR-2016-004"
