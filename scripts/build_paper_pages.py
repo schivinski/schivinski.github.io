@@ -451,8 +451,12 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
             continue
         href = pages.get(doi.lower(), f"https://doi.org/{doi}")
         href = href.replace("papers/", "") if href.startswith("papers/") else href
+        fam = [n.split(",")[0].strip() if "," in n else n.split()[-1] for n in p.get("authors", []) if n.strip()]
+        who = (fam[0] + " et al." if len(fam) > 3 else
+               (", ".join(fam[:-1]) + " &amp; " + fam[-1] if len(fam) > 1 else (fam[0] if fam else "")))
+        where = ", ".join(x for x in (esc(p.get("venue") or ""), str(p.get("year") or "")) if x)
         rel.append(f'<li><a href="{esc(href)}">{esc(p["title"].rstrip("."))}</a>'
-                   f'<span>{esc(p["venue"])}, {p["year"]}</span></li>')
+                   f'<span>{" · ".join(x for x in (who, where) if x)}</span></li>')
     if rel:
         out.append('<section class="paper-section"><h2>Related publications</h2><ul class="related">'
                    + "".join(rel) + "</ul></section>")

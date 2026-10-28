@@ -27,6 +27,8 @@ ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / "data" / "publications.json"
 OUT = ROOT / "_generated" / "publications.md"
 HIDE = ROOT / "data" / "hide.txt"  # one DOI or exact title per line to suppress
+META = ROOT / "data" / "crossref_meta.json"  # Crossref titles and venues used to repair ORCID records
+FIXES = ROOT / "data" / "metadata_fixes.yml"  # hand corrections by DOI or exact title (title, venue, authors)
 
 
 
@@ -91,8 +93,49 @@ def fetch() -> list[dict]:
             "url": url,
         })
     enrich_authors(pubs)
+    repair_metadata(pubs)
     pubs.sort(key=lambda p: (-(p["year"] or 0), p["title"].lower()))
     return pubs
+
+
+def _shouting(t: str) -> bool:
+    letters = [c for c in t if c.isalpha()]
+    return bool(letters) and sum(c.isupper() for c in letters) / len(letters) > 0.8
+
+
+def repair_metadata(pubs: list[dict]) -> None:
+    """ORCID sometimes holds titles in capitals or no venue. Take the title and venue from Crossref for those
+    records (cached in data/crossref_meta.json), then apply hand fixes from data/metadata_fixes.yml."""
+    cache = json.loads(META.read_text()) if META.exists() else {}
+    changed = False
+    for p in pubs:
+        doi = (p.get("doi") or "").lower()
+        if not doi or not (_shouting(p["title"]) or not p["venue"]):
+            continue
+        if doi not in cache:
+            try:
+                msg = get(f"https://api.crossref.org/works/{doi}")["message"]
+                cache[doi] = {"title": html.unescape((msg.get("title") or [""])[0]).strip(),
+                              "venue": html.unescape((msg.get("container-title") or [""])[0]).strip()}
+                changed = True
+                time.sleep(0.2)
+            except Exception as e:
+                print(f"  Crossref lookup failed for {doi}: {e}", file=sys.stderr)
+                continue
+        meta = cache[doi]
+        if _shouting(p["title"]) and meta.get("title") and not _shouting(meta["title"]):
+            p["title"] = meta["title"]
+        if not p["venue"] and meta.get("venue"):
+            p["venue"] = meta["venue"]
+    if changed:
+        META.write_text(json.dumps(cache, indent=1, ensure_ascii=False, sort_keys=True))
+    if FIXES.exists():
+        import yaml
+        fixes = yaml.safe_load(FIXES.read_text()) or {}
+        for p in pubs:
+            f = fixes.get((p.get("doi") or "").lower()) or fixes.get(p["title"])
+            if f:
+                p.update({k: v for k, v in f.items() if k in ("title", "venue", "authors", "year")})
 
 
 def enrich_authors(pubs: list[dict]) -> None:
