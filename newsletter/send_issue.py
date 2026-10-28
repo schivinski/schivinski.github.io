@@ -14,7 +14,6 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
-import html
 import json
 import sys
 from pathlib import Path
@@ -24,7 +23,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
-from build_watch import dateline, long_date, md, plain  # noqa: E402
+from build_watch import dateline, esc, long_date, md, plain  # noqa: E402
 
 SITE = "https://schivinski.com"
 ISSUES = ROOT / "watch" / "issues"
@@ -75,7 +74,7 @@ def build_email(d: dict, unsubscribe: str = "{{amazonSESUnsubscribeUrl}}") -> tu
     pre = plain(d["description"])
     img = d["image"]
     coffee = support_url()
-    e = lambda s: html.escape(str(s), quote=True)  # noqa: E731
+    e = esc  # escapes once even if the text already holds entities such as "&amp;"
 
     takeaways = "".join(
         f'<tr><td valign="top" style="padding:0 10px 12px 0;color:{AMBER};font-size:18px;line-height:1.4;">&#9679;</td>'
@@ -143,14 +142,14 @@ def build_email(d: dict, unsubscribe: str = "{{amazonSESUnsubscribeUrl}}") -> tu
 </td></tr>
 </table></td></tr></table></body></html>"""
 
-    lines = [f"MARKETING IN 3 · {kicker}", "", d["title"], "", plain(d["dek"]), "",
+    lines = [f"MARKETING IN 3 · {kicker}", "", plain(d["title"]), "", plain(d["dek"]), "",
              "THE SHORT ANSWER", plain(d["short_answer"]), "", "KEY TAKEAWAYS"]
     lines += [f"* {plain(t)}" for t in d["takeaways"]]
     lines += ["", f"Read the full issue: {issue_url(d)}",
               "Six steps to apply it, what results to expect, and where it does not work."]
     if d.get("also"):
         lines += ["", "ALSO NEW THIS WEEK"]
-        lines += [f"* {a['title']} ({a['authors']}, {a['journal']}, {a['year']}) https://doi.org/{a['doi']}"
+        lines += [f"* {plain(a['title'])} ({plain(a['authors'])}, {plain(a['journal'])}, {a['year']}) https://doi.org/{a['doi']}"
                   for a in d["also"]]
     if coffee:
         lines += ["", f"Marketing in 3 is free and ad-free. If it earns its place in your inbox, buy me a coffee: {coffee}"]

@@ -9,6 +9,7 @@ the new image (the publish workflow does not run it). Needs Pillow and fonttools
 """
 from __future__ import annotations
 
+import html
 import io
 import sys
 import textwrap
@@ -99,7 +100,7 @@ def paper_card(slug: str, p: dict) -> None:
     size = 64
     while True:
         tf = font("newsreader", size, 500)
-        lines = wrap(d, p["title"], tf, W - 180)
+        lines = wrap(d, html.unescape(p["title"]), tf, W - 180)
         if len(lines) <= 4 or size <= 40:
             break
         size -= 4
@@ -111,7 +112,7 @@ def paper_card(slug: str, p: dict) -> None:
         d.text((90, y), ln, font=tf, fill=WHITE)
         y += int(size * 1.18)
     jf = font("hanken-grotesk", 30, 500)
-    journal = f"{p.get('journal', '')}, {year}"
+    journal = f"{html.unescape(p.get('journal', ''))}, {year}"
     if d.textlength(journal, font=jf) > W - 180:
         journal = textwrap.shorten(journal, 60, placeholder="…")
     d.text((90, 478), journal, font=jf, fill=WHITE)

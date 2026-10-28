@@ -321,7 +321,8 @@ def md(text: str) -> str:
 
 
 def plain(text: str) -> str:
-    return re.sub(r"\s+", " ", re.sub(r"\*+", "", text)).strip()
+    """Text without markdown stars or HTML entities (for JSON-LD, meta tags, emails and llms.txt)."""
+    return html.unescape(re.sub(r"\s+", " ", re.sub(r"\*+", "", text or ""))).strip()
 
 
 def paras(text: str) -> str:
