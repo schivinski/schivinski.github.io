@@ -1,0 +1,23 @@
+text: time-spent-gaming-disordered-gaming.blocks.txt
+affiliation_line: Birkbeck, University of London; RMIT University; Ulm University
+title_page_label: Open access article
+running_label: open access (CC BY 4.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article; it differs only in formatting and
+  pagination. Please cite the published version.
+title_page_footer: Re-typeset from the published open access article (CC BY 4.0); the publisher's typesetting and layout have been removed and Fig. 1 redrawn.
+figures:
+  fig1:
+    svg: figures/pontes-et-al-2022-gaming-time-criteria.svg
+  fig2:
+    png: manuscripts/src/img/pontes-et-al-2022-fig2.png
+table_overrides:
+  '1':
+    title: Sociodemographic characteristics and related gaming behaviors
+    widths: [1fr, auto, auto, auto]
+    size: 8.5pt
+    note: 'Notes: SD: Standard Deviation; GDT: Gaming Disorder Test; IGDS9-SF: Internet Gaming Disorder Scale–Short-Form. CI = Confidence Interval.'
+  '2':
+    columns: [Number of criteria endorsed, '*n*', 'Mean^{†}', SD, df1/df2, 'Welch’s *F*-ratio', '*p*-value', 'ω^{2}']
+    size: 8.5pt
+    note: 'Notes: Dependent variable = weekly time spent gaming. ^{†}The estimates shown on this table were rounded up at the second decimal level. Means with different subscript letters (e.g., abc) indicate they are statistically different at the *p* < .00009 level (Games-Howell test with Bonferroni correction to account for Type 1 error). See Table 1 of the supplementary information for a full summary of the post hoc pairwise comparison testing on all levels of the independent variable using the Games-Howell test with Bonferroni correction.'

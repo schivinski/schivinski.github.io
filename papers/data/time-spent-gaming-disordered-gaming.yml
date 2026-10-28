@@ -1,0 +1,268 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Social Science & Medicine 296, 114721 (open access, CC BY 4.0; published PDF supplied by Bruno,
+# 28 Oct 2026). ORCIDs from OpenAlex; licence from Europe PMC/OpenAlex. Figure 1 redrawn from its printed data labels.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "The interplay between time spent gaming and disordered gaming: A large-scale world-wide study"
+doi: "10.1016/j.socscimed.2022.114721"
+journal: "Social Science & Medicine"
+issn: "0277-9536"
+publisher: "Elsevier"
+volume: "296"
+article_number: "114721"
+published: "2022-03"
+published_label: "March 2022 (online 12 January 2022)"
+online: "2022-01-12"
+open_access: true
+licence: "CC BY 4.0"
+licence_url: "https://creativecommons.org/licenses/by/4.0/"
+
+aam:
+  file: "pontes-schivinski-kannen-montag-2022-ssm-time-spent-gaming.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article (CC BY 4.0), re-typeset as a clean PDF with the same content as the published version. Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution 4.0 International License
+    (https://creativecommons.org/licenses/by/4.0/). Originally published in Social Science &amp; Medicine, 296, 114721
+    (2022), https://doi.org/10.1016/j.socscimed.2022.114721. Changes made: the text has been re-typeset and Fig. 1
+    redrawn; content is unchanged.
+
+authors:
+  - given: "Halley M."
+    family: "Pontes"
+    orcid: "0000-0001-8020-7623"
+    affiliation: ["Birkbeck, University of London"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Christopher"
+    family: "Kannen"
+    orcid: "0000-0003-4242-0233"
+    affiliation: ["Ulm University"]
+  - given: "Christian"
+    family: "Montag"
+    orcid: "0000-0001-8112-0837"
+    affiliation: ["Ulm University"]
+
+cite_short: "Pontes et al., 2022"
+badges: ["123,262 gamers", "168 countries", "Online survey", "WHO vs APA frameworks", "Welch ANOVA"]
+keywords:
+  # Article's own keywords
+  - time spent gaming
+  - gaming disorder
+  - American Psychiatric Association
+  - World Health Organization
+  # What the study is about
+  - internet gaming disorder
+  - disordered gaming
+  - gaming time
+  - screen time
+  - how much gaming is too much
+  - prevalence
+  - gender differences
+  - DSM-5
+  - ICD-11
+  - video games
+  - esports
+  # Measures
+  - Gaming Disorder Test (GDT)
+  - Internet Gaming Disorder Scale–Short-Form (IGDS9-SF)
+  # Method
+  - large-scale online survey
+  - cross-sectional design
+  - Welch ANOVA
+  - Games-Howell test
+  - international sample
+
+in_brief: >-
+  The more symptoms of gaming disorder gamers report, the more hours they play, but the 30 hours a week the American
+  Psychiatric Association mentions underestimates the time disordered gamers spend. In 123,262 gamers from 168
+  countries, disordered gamers played about 35 to 40 hours a week, and prevalence was 1.96% under the WHO framework and
+  4.97% under the APA framework.
+
+findings:
+  - headline: "Gaming disorder is rarer under the WHO definition than the APA one."
+    text: >-
+      Among 123,262 gamers from 168 countries, 1.96% met the World Health Organization criteria for gaming disorder,
+      compared with 4.97% under the American Psychiatric Association criteria for Internet gaming disorder
+      (Pontes et al., 2022).
+  - headline: "More symptoms go with more gaming time."
+    text: >-
+      Weekly gaming time rose steadily with the number of criteria endorsed, from about 19 hours with none to about 40
+      hours at the highest levels, in both frameworks; the number of criteria explained about 9% of the variance in
+      gaming time (&omega;&sup2; = 0.09) (Pontes et al., 2022).
+  - headline: "Disordered gamers play well over 30 hours a week."
+    text: >-
+      Gamers meeting the APA threshold of five criteria played 34.53 hours a week on average, and those meeting all four
+      WHO criteria 40.13 hours, so the APA&rsquo;s figure of at least 30 hours a week underestimates the time invested
+      in disordered gaming (Pontes et al., 2022).
+  - headline: "Women with many symptoms play longer than men."
+    text: >-
+      Men played more than women at low symptom levels, but women endorsing six or more APA criteria, or all four WHO
+      criteria, spent more time gaming than men with the same number of symptoms (Pontes et al., 2022).
+
+glance:
+  - { label: "Design", value: "Cross-sectional online survey, part of the &lsquo;Smart Gaming&rsquo; campaign with ESL Gaming, promoted online and offline; May to December 2019 (before the COVID-19 pandemic)" }
+  - { label: "Participants", value: "123,262 gamers aged 12 to 80 from 168 countries (92.7% men; mean age 24.4, SD 7.6), after cleaning an initial 182,586 responses" }
+  - { label: "Measures", value: "Gaming Disorder Test (GDT; WHO framework, four items) and Internet Gaming Disorder Scale&ndash;Short-Form (IGDS9-SF; APA framework, nine items); self-reported weekly time spent gaming" }
+  - { label: "Thresholds", value: "WHO: all four GDT items answered &lsquo;often&rsquo; or &lsquo;very often&rsquo;. APA: at least five of the nine IGDS9-SF criteria" }
+  - { label: "Analysis", value: "Prevalence with 95% confidence intervals, data visualisation by gender, and Welch one-way ANOVAs with Games-Howell contrasts (Bonferroni-corrected), in R 4.0.0 and IBM SPSS" }
+  - { label: "Data quality", value: "Exclusions for missing parental consent, age, not gaming in the past year, a sham game item (&lsquo;Semeron Online&rsquo;), implausible gaming hours and English proficiency; long-string screening for careless responding" }
+  - { label: "Ethics", value: "College Research Ethics Committee, Nottingham Trent University (2018/95)" }
+
+figures:
+  - file: figures/pontes-et-al-2022-gaming-time-criteria.svg
+    title: "Figure 1. Number of disordered gaming criteria and average weekly time spent gaming"
+    caption: >-
+      Redrawn from Fig. 1 of the article (values as printed on the published chart). Shaded areas mark the disordered
+      gaming range: five or more of nine APA criteria, or all four WHO criteria.
+
+results:
+  title: "Average weekly gaming time by number of WHO criteria endorsed"
+  unit: " h"
+  max: 45
+  note: "Mean weekly hours spent gaming, overall sample (Table 2 of the article, n = 123,262). All four criteria = gaming disorder under the WHO framework."
+  groups:
+    - name: "Gaming Disorder Test (WHO)"
+      bars:
+        - { label: "No criteria (n = 82,379)", value: 19.77, display: "19.8 h" }
+        - { label: "One (n = 24,494)", value: 27.31, display: "27.3 h" }
+        - { label: "Two (n = 9,687)", value: 31.28, display: "31.3 h" }
+        - { label: "Three (n = 4,284)", value: 34.74, display: "34.7 h" }
+        - { label: "All four (n = 2,418)", value: 40.13, display: "40.1 h", highlight: true }
+
+question: >-
+  Gaming disorder is now recognised by the World Health Organization, while the American Psychiatric Association lists
+  Internet gaming disorder as a condition for further study and suggests that affected gamers play at least 30 hours a
+  week. Little is known about how much gaming is too much. We examined how weekly gaming time relates to the number of
+  disordered gaming symptoms under both frameworks, how prevalence compares between them, and whether the pattern
+  differs for men and women.
+
+implications:
+  practical: >-
+    Clinicians should not rely on hours played alone: gaming time shares only about 10% of its variance with symptom
+    levels, and the 30-hour figure risks both unnecessary concern and over-diagnosis. Functional impairment is a better
+    guide. Screen-time guidance could distinguish gaming from other activities and take age into account, and the
+    gaming industry could share anonymised play-time data with independent researchers.
+  theoretical: >-
+    The study shows that prevalence estimates depend on the diagnostic framework, with the APA framework yielding more
+    than twice the WHO rate, and maps the link between symptom counts and gaming time across both frameworks and
+    genders in the largest survey sample to date, informing the refinement of diagnostic criteria.
+
+limitations:
+  - "Gaming time was self-reported and may not match actual play."
+  - "The design is cross-sectional and the sample non-clinical, so causal and diagnostic conclusions are limited."
+  - "Parents and guardians were not surveyed, and clinical studies of the WHO framework and the GDT are still scarce."
+
+faq:
+  - q: "How many hours of gaming a week is too much?"
+    a: >-
+      There is no single cut-off. In 123,262 gamers, those meeting gaming disorder criteria played on average 34.5
+      (APA) to 40.1 (WHO) hours a week, but gaming time explained only about 10% of the variation in symptoms, so
+      impairment matters more than hours (Pontes et al., 2022).
+  - q: "How common is gaming disorder?"
+    a: >-
+      In this world-wide sample of gamers, 1.96% met the WHO criteria for gaming disorder and 4.97% met the APA
+      criteria for Internet gaming disorder (Pontes et al., 2022).
+  - q: "What is the difference between gaming disorder and Internet gaming disorder?"
+    a: >-
+      Gaming disorder is the WHO&rsquo;s ICD-11 diagnosis, based on four features including impaired control and
+      continued gaming despite harm. Internet gaming disorder is the APA&rsquo;s DSM-5 condition for further study,
+      defined by five or more of nine criteria.
+  - q: "Do men and women differ in gaming time and disordered gaming?"
+    a: >-
+      Men played more at low symptom levels, but women with many symptoms played longer than men with the same number
+      of symptoms (Pontes et al., 2022).
+
+concepts:
+  - term: "Gaming disorder (WHO)"
+    definition: "An ICD-11 diagnosis (6C51) marked by impaired control over gaming, increasing priority given to gaming and continued gaming despite negative consequences, with significant impairment."
+  - term: "Internet gaming disorder (APA)"
+    definition: "A DSM-5 condition for further study, defined by at least five of nine criteria within 12 months."
+  - term: "Gaming Disorder Test (GDT)"
+    definition: "A four-item measure of gaming disorder based on the WHO framework (Pontes et al., 2021)."
+  - term: "IGDS9-SF"
+    definition: "The Internet Gaming Disorder Scale&ndash;Short-Form, a nine-item measure of the APA criteria (Pontes &amp; Griffiths, 2015)."
+  - term: "Welch&rsquo;s ANOVA"
+    definition: "A version of analysis of variance that does not assume equal variances across groups."
+
+materials:
+  - label: "Sham item"
+    text: "&lsquo;Have you played the game Semeron Online in the last 12 months?&rsquo; (yes/no), a fictitious game used to detect mischievous responding."
+  - label: "Supplementary material"
+    text: "Games-Howell pairwise comparisons for all levels and further details of the data visualisation are in the article&rsquo;s online supplementary data."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Open access article re-typeset as a clean PDF, including the tables and figures", url: "manuscripts/pontes-schivinski-kannen-montag-2022-ssm-time-spent-gaming.pdf" }
+  - { label: "Published version", note: "Social Science &amp; Medicine (open access), with the supplementary material", url: "https://doi.org/10.1016/j.socscimed.2022.114721" }
+
+tables:
+  - id: "1"
+    title: "Sociodemographic characteristics and related gaming behaviors"
+    collapsed: true
+    columns: ["Variable", "Overall", "Female", "Male"]
+    align: ["left", "right", "right", "right"]
+    rows:
+      - ["Sample size (<i>n</i>)", "123,262", "9,058 (7.34)", "114,204 (92.65)"]
+      - ["Age (years) (mean, SD)", "24.35 (7.57)", "24.34 (7.64)", "24.35 (7.57)"]
+      - ["Age category 12&ndash;19 (<i>n</i>, %)", "36,017 (29.21)", "2,404 (1.95)", "33,613 (27.26)"]
+      - ["Age category 20&ndash;39 (<i>n</i>, %)", "82,181 (66.67)", "6,273 (5.08)", "75,908 (61.58)"]
+      - ["Age category 40&ndash;59 (<i>n</i>, %)", "4,826 (3.91)", "343 (.27)", "4,483 (3.63)"]
+      - ["Age category 60 and above (<i>n</i>, %)", "238 (.19)", "38 (.03)", "200 (.16)"]
+      - ["Relationship status (not in a relationship, %)", "74,852 (60.72)", "4,333 (3.51)", "70,519 (57.21)"]
+      - ["Employment (not working, %)", "59,150 (47.98)", "4,901 (3.97)", "54,249 (44.01)"]
+      - ["Education (high school graduate diploma, %)", "45,192 (36.66)", "3,196 (2.59)", "41,996 (34.07)"]
+      - ["Weekly time spent gaming (mean, SD)", "23.09 (16.59)", "21.18 (17.02)", "23.24 (16.55)"]
+      - ["Percentage of time spent gaming on weekend (%)", "41.71", "43.53", "41.56"]
+      - ["Mostly played mode of video games (online, %)", "42,682 (34.62)", "2,506 (2.03)", "40,176 (32.59)"]
+      - ["Membership to an in-game social group (yes, %)", "39,091 (31.71)", "2,953 (2.39)", "36,138 (29.31)"]
+      - ["Gaming disorder prevalence&ndash;WHO (<i>n</i>, %, 95% CI)", "2,418 (1.96, 1.88&ndash;2.04)", "197 (.16, .14&ndash;.18)", "2,221 (1.80, 1.73&ndash;1.88)"]
+      - ["Gaming disorder prevalence&ndash;APA (<i>n</i>, %, 95% CI)", "6,127 (4.97, 4.85&ndash;5.09)", "551 (.45, .41&ndash;.49)", "5,576 (4.52, 4.41&ndash;4.64)"]
+      - ["Gaming disorder severity&ndash;WHO (GDT mean, SD)", "8.87 (3.19)", "8.92 (3.37)", "8.87 (3.18)"]
+      - ["Gaming disorder severity&ndash;APA (IGDS9-SF mean, SD)", "17.86 (6.23)", "18.26 (6.57)", "17.83 (6.20)"]
+      - { group: true, cells: ["Item-related descriptive statistics (mean, SD)", "", "", ""] }
+      - ["GDT item 1: Difficulties controlling gaming", "2.19 (1.01)", "2.21 (1.04)", "2.18 (1.01)"]
+      - ["GDT item 2: Increased priority to gaming", "2.68 (1.07)", "2.72 (1.11)", "2.68 (1.07)"]
+      - ["GDT item 3: Usage despite problems", "2.26 (1.19)", "2.25 (1.22)", "2.26 (1.19)"]
+      - ["GDT item 4: Experience of significant problem", "1.75 (.91)", "1.73 (.94)", "1.76 (.91)"]
+      - ["IGDS9-SF item 1: Preoccupation", "2.53 (1.19)", "2.40 (1.21)", "2.54 (1.19)"]
+      - ["IGDS9-SF item 2: Withdrawal symptoms", "1.80 (.99)", "1.89 (1.07)", "1.79 (.98)"]
+      - ["IGDS9-SF item 3: Tolerance", "2.12 (1.10)", "2.17 (1.15)", "2.11 (1.10)"]
+      - ["IGDS9-SF item 4: Difficulties controlling gaming", "1.81 (.98)", "1.80 (1.00)", "1.81 (.98)"]
+      - ["IGDS9-SF item 5: Loss of interest", "2.11 (1.14)", "2.18 (1.19)", "2.11 (1.13)"]
+      - ["IGDS9-SF item 6: Usage despite problems", "1.89 (1.11)", "1.88 (1.15)", "1.89 (1.11)"]
+      - ["IGDS9-SF item 7: Deception of others", "1.53 (.90)", "1.46 (.88)", "1.54 (.90)"]
+      - ["IGDS9-SF item 8: Playing to escape negative moods", "2.70 (1.26)", "3.13 (1.26)", "2.66 (1.25)"]
+      - ["IGDS9-SF item 9: Risking relationships and opportunities", "1.39 (.81)", "1.34 (.78)", "1.39 (.82)"]
+    note: "SD: Standard Deviation; GDT: Gaming Disorder Test; IGDS9-SF: Internet Gaming Disorder Scale&ndash;Short-Form. CI = Confidence Interval. As printed: the female and male percentages are shares of the whole sample, not of each gender."
+  - id: "2"
+    title: "Summary of the descriptive statistics and one-way Analysis of Variance (ANOVA) results"
+    columns: ["Number of criteria endorsed", "<i>n</i>", "Mean&dagger;", "SD", "df1/df2", "Welch&rsquo;s <i>F</i>", "<i>p</i>", "&omega;&sup2;"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["World Health Organization framework", "", "", "", "", "", "", ""] }
+      - ["0", "82,379<sup>a</sup>", "19.77<sup>a</sup>", "14.28", "4/10,609.14", "2,441.29", "&lt; .001", "0.09"]
+      - ["1", "24,494<sup>b</sup>", "27.31<sup>b</sup>", "17.19", "", "", "", ""]
+      - ["2", "9,687<sup>c</sup>", "31.28<sup>c</sup>", "19.02", "", "", "", ""]
+      - ["3", "4,284<sup>d</sup>", "34.74<sup>d</sup>", "20.42", "", "", "", ""]
+      - ["4", "2,418<sup>e</sup>", "40.13<sup>e</sup>", "23.42", "", "", "", ""]
+      - { group: true, cells: ["American Psychiatric Association framework", "", "", "", "", "", "", ""] }
+      - ["0", "64,659<sup>a</sup>", "18.98<sup>abc</sup>", "13.87", "9/5,338.64", "1,140.26", "&lt; .001", "0.09"]
+      - ["1", "27,684<sup>b</sup>", "24.41<sup>abc</sup>", "16.20", "", "", "", ""]
+      - ["2", "13,461<sup>c</sup>", "27.51<sup>abc</sup>", "17.41", "", "", "", ""]
+      - ["3", "7,286<sup>d</sup>", "29.71<sup>abc</sup>", "18.45", "", "", "", ""]
+      - ["4", "4,043<sup>e</sup>", "32.04<sup>abc</sup>", "19.11", "", "", "", ""]
+      - ["5", "2,460<sup>fg</sup>", "34.53<sup>ab</sup>", "20.75", "", "", "", ""]
+      - ["6", "1,553<sup>g</sup>", "36.67<sup>c</sup>", "21.27", "", "", "", ""]
+      - ["7", "1,028<sup>gh</sup>", "38.31<sup>bc</sup>", "22.60", "", "", "", ""]
+      - ["8", "607<sup>hi</sup>", "41.62<sup>a</sup>", "24.24", "", "", "", ""]
+      - ["9", "479<sup>ig</sup>", "41.19<sup>abc</sup>", "24.78", "", "", "", ""]
+    note: "Dependent variable = weekly time spent gaming (hours). &dagger;Rounded at the second decimal. Means with different superscript letters are described in the article as statistically different at <i>p</i> &lt; .00009 (Games-Howell test with Bonferroni correction); letters as printed."
+
+related:
+  - "10.1016/j.addbeh.2022.107416"
+  - "10.3390/jcm8101691"
+  - "10.1007/s11469-019-00088-z"

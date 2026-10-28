@@ -64,7 +64,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 43 | 2022 | Masculine men do not like feminine wording: The effectiveness of gendered wording in he… | PLOS ONE | 10 | locked (`gendered-wording-health-promotion-leaflets`) |
 | 44 | 2022 | Network analyses of internet gaming disorder symptoms and their links with different ty… | BMC Psychiatry | 64 |  |
 | 45 | 2022 | Online Gambling Disorder Questionnaire (OGD-Q): An item response theory examination | Addictive Behaviors Reports | 24 |  |
-| 46 | 2022 | The interplay between time spent gaming and disordered gaming: A large-scale world-wide… | Social Science & Medicine | 174 |  |
+| 46 | 2022 | The interplay between time spent gaming and disordered gaming: A large-scale world-wide… | Social Science & Medicine | 174 | locked (`time-spent-gaming-disordered-gaming`) |
 | 47 | 2021 | Empirical evidence for robust personality-gaming disorder associations from a large-sca… | PLOS ONE | 30 |  |
 | 48 | 2021 | Is the proposed distinction of gaming disorder into a predominantly online vs. offline … | Addictive Behaviors Reports | 55 |  |
 | 49 | 2021 | Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scopi… | Nutrients | 25 |  |
