@@ -1,0 +1,353 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Product & Brand Management (online-first version of record, PDF supplied by Bruno,
+# 28 Oct 2026); dates and ORCID iDs from Crossref. No volume, issue or page numbers yet (Crossref: online 23 July 2026).
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Individualism and the desire for unique consumer products: the roles of need for uniqueness and global acculturation"
+doi: "10.1108/JPBM-09-2025-6337"
+journal: "Journal of Product & Brand Management"
+issn: "1061-0421"
+publisher: "Emerald Publishing"
+published: "2026-07"
+published_label: "2026 (online 23 July 2026)"
+online: "2026-07-23"
+open_access: false
+
+aam:
+  file: "czarnecka-schivinski-baxter-2026-jpbm-accepted-manuscript.pdf"
+  statement: >-
+    This author accepted manuscript is deposited under a Creative Commons Attribution Non-commercial 4.0
+    International (CC BY-NC) licence. This means that anyone may distribute, adapt, and build upon the work for
+    non-commercial purposes, subject to full attribution. If you wish to use this manuscript for commercial purposes,
+    please contact permissions@emerald.com. Published version: Journal of Product &amp; Brand Management, Emerald
+    Publishing, https://doi.org/10.1108/JPBM-09-2025-6337
+
+authors:
+  - given: "Barbara"
+    family: "Czarnecka"
+    orcid: "0000-0002-8314-1727"
+    affiliation: ["London South Bank University"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Katherine"
+    family: "Baxter"
+    orcid: "0000-0002-8507-234X"
+    affiliation: ["Liverpool Hope University"]
+
+cite_short: "Czarnecka, Schivinski & Baxter, 2026"
+badges: ["504 non-British consumers in the UK", "35 nationalities", "Structural equation modelling", "Mediation and moderation", "United Kingdom"]
+keywords:
+  # Article's own keywords
+  - desire for unique consumer products
+  - cultural fit
+  - individualism
+  - need for uniqueness
+  - acculturation to global consumer culture (AGCC)
+  - uniqueness
+  - uniqueness motives
+  - self-congruity
+  # What the study is about
+  - vertical individualism
+  - horizontal individualism
+  - consumer need for uniqueness
+  - limited editions and customised products
+  - mass customisation
+  - global consumer culture
+  - immigrant consumers
+  - psychographic segmentation
+  - international product management
+  - status consumption
+  # Theory and measures
+  - cultural fit hypothesis
+  - congruity theory
+  - acculturation theory
+  - suppressor effect
+  - desire for unique consumer products scale (Lynn and Harris)
+  - horizontal and vertical individualism scale (Sivadas et al.)
+  - AGCC scale (Cleveland and Laroche)
+  # Context
+  - United Kingdom
+  - migrants
+  - cross-cultural consumer behaviour
+  # Method
+  - structural equation modelling (SEM)
+  - mediation analysis
+  - moderation analysis
+  - bootstrapping
+  - confirmatory factor analysis
+  - HTMT ratio
+  - lavaan
+  - survey research
+
+in_brief: >-
+  Individualistic consumers want rare, customised and unusual products because individualism raises their need to be
+  different, not directly. In a survey of 504 non-British consumers living in the UK, that need for uniqueness turned
+  into a stronger desire for unique products among people more immersed in global consumer culture.
+
+findings:
+  - headline: "Both kinds of individualism raise the need for uniqueness."
+    text: >-
+      Among 504 non-British consumers living in the UK, vertical individualism, the competitive and status-seeking
+      kind, increased the need for uniqueness (&beta; = 0.61, <i>p</i> &lt; .001), and horizontal individualism, the
+      kind that values independence among equals, increased it too (&beta; = 0.27, <i>p</i> &lt; .001)
+      (Czarnecka, Schivinski &amp; Baxter, 2026).
+  - headline: "The need for uniqueness drives the desire for unique products."
+    text: >-
+      Consumers with a higher need for uniqueness had a much stronger desire for rare, distinctive and customised
+      products (&beta; = 0.89, <i>p</i> &lt; .001); gender also predicted it (&beta; = 0.18, <i>p</i> = .003), while
+      education did not (Czarnecka, Schivinski &amp; Baxter, 2026).
+  - headline: "Individualism works only through the need for uniqueness."
+    text: >-
+      The indirect effects of vertical (&beta; = 0.54, 95% CI 0.34&ndash;0.72) and horizontal individualism
+      (&beta; = 0.24, 95% CI 0.05&ndash;0.36) on the desire for unique products were significant, while their direct
+      effects were not (<i>p</i> = .13 and .26): full, indirect-only mediation (Czarnecka, Schivinski &amp; Baxter, 2026).
+  - headline: "Horizontal individualism shows a suppressor effect."
+    text: >-
+      For horizontal individualism the indirect effect (&beta; = 0.24) was larger than the total effect (&beta; = 0.16,
+      <i>p</i> = .02): its pull towards unique products appears only once it is routed through the need for
+      uniqueness (Czarnecka, Schivinski &amp; Baxter, 2026).
+  - headline: "Global consumer culture amplifies the effect."
+    text: >-
+      Acculturation to global consumer culture strengthened the link between the need for uniqueness and the desire for
+      unique products (interaction unst. &beta; = 0.09, <i>p</i> = .04) and also raised that desire directly
+      (unst. &beta; = 0.39, <i>p</i> &lt; .001) (Czarnecka, Schivinski &amp; Baxter, 2026).
+
+glance:
+  - { label: "Design", value: "Online survey in English (2023, four months); confirmatory factor analysis and a structural equation model with mediation and moderation, maximum likelihood estimation and 5,000 bootstrap draws in R 4.4.1 (lavaan, semTools)" }
+  - { label: "Participants", value: "504 valid responses from 662 completed questionnaires: non-British residents of the UK who had moved from non-Anglo-Saxon countries, from 35 nationalities (Pakistan 6.9%, Poland 6.4%, India 4.4%, Nigeria 4.1%, Romania 3.5%); 56.2% women, mean age 32; recruited through an employment agency network, student volunteers, professional networks, LinkedIn and Facebook" }
+  - { label: "Predictors", value: "Vertical and horizontal individualism (4 items each; Sivadas et al., 2008)" }
+  - { label: "Mediator", value: "Need for uniqueness (4 items; Lynn &amp; Harris, 1997b)" }
+  - { label: "Moderator", value: "Acculturation to global consumer culture: 21 items in seven dimensions (Cleveland &amp; Laroche, 2007), a second-order factor, with a composite score used for the interaction" }
+  - { label: "Outcome", value: "Desire for unique consumer products (8 items; Lynn &amp; Harris, 1997a)" }
+  - { label: "Controls", value: "Gender and education" }
+  - { label: "Model fit", value: "CFA: ML &chi;&sup2;(834) = 2288.61, CFI = 0.91, TLI = 0.90, RMSEA = 0.05, SRMR = 0.05. Structural model: ML &chi;&sup2;(806) = 3092.44, CFI = 0.90, TLI = 0.90, RMSEA = 0.06" }
+
+figures:
+  - file: figures/czarnecka-et-al-2026-uniqueness-model-estimates.svg
+    title: "Figure 1. Conceptual model, with the estimates reported in Table 2"
+    caption: >-
+      Vertical and horizontal individualism (H1, H2) raise the need for uniqueness, which raises the desire for unique
+      consumer products (H3); the dashed connectors show the indirect effects (H4a, H4b), and acculturation to global
+      consumer culture (AGCC) moderates the last path (H5). Standardised coefficients except H5 and the direct AGCC
+      path (unstandardised). * <i>p</i> &lt; 0.05, ** <i>p</i> &lt; 0.01, *** <i>p</i> &lt; 0.001; n.s. = not
+      significant; <i>n</i> = 504.
+  - file: figures/czarnecka-et-al-2026-uniqueness-interaction.svg
+    title: "Figure 2. The moderating effect of acculturation to global consumer culture"
+    caption: >-
+      Redrawn from Figure 2 of the article (line end points read from the published plot). The desire for unique
+      consumer products rises with the need for uniqueness at both levels of AGCC, but more steeply for consumers
+      high in AGCC (interaction unst. &beta; = 0.09, <i>p</i> = 0.04).
+
+results:
+  title: "How individualism leads to the desire for unique products"
+  unit: ""
+  max: 1.0
+  note: "Standardised coefficients from Table 2 of the article (n = 504). All paths shown are significant; the direct effects of individualism on the desire for unique products (0.09 and −0.08) were not."
+  groups:
+    - name: "Effects on the need for uniqueness"
+      bars:
+        - { label: "Vertical individualism", value: 0.61, highlight: true }
+        - { label: "Horizontal individualism", value: 0.27, highlight: true }
+    - name: "Effect on the desire for unique products"
+      bars:
+        - { label: "Need for uniqueness", value: 0.89, highlight: true }
+    - name: "Indirect effects via the need for uniqueness"
+      bars:
+        - { label: "Vertical individualism", value: 0.54 }
+        - { label: "Horizontal individualism", value: 0.24 }
+    - name: "Total effects on the desire for unique products"
+      bars:
+        - { label: "Vertical individualism", value: 0.63 }
+        - { label: "Horizontal individualism", value: 0.16 }
+
+question: >-
+  Brands court consumers who want to stand out with limited editions, rare items and customisation, but segmenting
+  international markets by broad cultural labels often fails to predict who will want them. Drawing on the cultural
+  fit hypothesis, we asked how the cultural values of vertical and horizontal individualism lead to the desire for
+  unique consumer products, whether the personality trait of need for uniqueness carries that effect, and whether
+  acculturation to global consumer culture, with its abundance of global and customisable products, makes the link
+  stronger.
+
+implications:
+  practical: >-
+    Segment by values, traits and global orientation rather than by nationality alone. For vertical individualists,
+    position rare products as markers of status, with appeals to exclusivity and prestige (for example luxury watches or
+    limited-edition fashion capsules); for horizontal individualists, drop status appeals and frame uniqueness as
+    authentic self-expression, for example through mass-customisation platforms such as Nike By You or Converse's
+    design-your-own service. Launch the most unconventional and customisable lines first in cosmopolitan, globally
+    integrated markets, and lean on local cultural congruity where global acculturation is low.
+  theoretical: >-
+    The study extends the cultural fit hypothesis from person-organisation fit to product preferences and shows that a
+    personality trait, the need for uniqueness, actively transforms cultural values into consumption rather than
+    passively carrying them: horizontal individualism drives the desire for unique products only through it, a
+    suppressor effect. It also supports acculturation theory in a deterritorialised setting, with global consumer
+    culture acting as a behavioural enhancer of uniqueness seeking.
+
+limitations:
+  - "The survey is cross-sectional, so it cannot establish cause and effect or follow behaviour over time."
+  - "The sample consists only of non-British citizens living in the UK, who acculturate to the host country and to global consumer culture at once; replications with native consumers in their home countries are needed."
+  - "Respondents self-selected into an online survey, which may introduce bias."
+  - "Collectivism was left out by design; future work could test horizontal and vertical collectivism and compare public, value-expressive products with private, utilitarian ones."
+
+faq:
+  - q: "Do individualistic consumers prefer unique products?"
+    a: >-
+      Yes, but indirectly. Among 504 non-British consumers in the UK, vertical and horizontal individualism raised the
+      need for uniqueness, and that need in turn drove the desire for unique consumer products; individualism had no
+      significant direct effect (Czarnecka, Schivinski &amp; Baxter, 2026).
+  - q: "What is the difference between vertical and horizontal individualism?"
+    a: >-
+      Vertical individualists value autonomy together with competition and status; horizontal individualists value
+      autonomy and self-expression among equals. In this study vertical individualism had the stronger effect on the
+      need for uniqueness (&beta; = 0.61 against 0.27) (Czarnecka, Schivinski &amp; Baxter, 2026).
+  - q: "Does global consumer culture make people want more unique products?"
+    a: >-
+      It amplified the effect: the link between the need for uniqueness and the desire for unique products was
+      steeper for consumers more acculturated to global consumer culture (interaction unst. &beta; = 0.09,
+      <i>p</i> = .04), and acculturation also raised that desire directly (Czarnecka, Schivinski &amp; Baxter, 2026).
+  - q: "How should brands market unique products to different consumers?"
+    a: >-
+      The authors suggest status and exclusivity appeals for vertical individualists, self-expression and
+      customisation for horizontal individualists, and launching unconventional product lines first in globally
+      integrated markets (Czarnecka, Schivinski &amp; Baxter, 2026).
+
+concepts:
+  - term: "Desire for unique consumer products"
+    definition: "A consumer's motivation to seek out, acquire and own goods, services and experiences seen as rare, distinctive or uncommon (Lynn &amp; Harris, 1997a)."
+  - term: "Need for uniqueness"
+    definition: "A personality trait: the need to differentiate oneself from others and to be seen as one of a kind (Snyder &amp; Fromkin, 1980)."
+  - term: "Vertical individualism"
+    definition: "A cultural value orientation that combines personal autonomy with a desire for status and hierarchical competition."
+  - term: "Horizontal individualism"
+    definition: "A cultural value orientation that combines personal autonomy and self-expression with social equality."
+  - term: "Acculturation to global consumer culture (AGCC)"
+    definition: "How far a person has integrated global consumer culture into their identity, measured on seven dimensions such as cosmopolitanism, global mass media exposure and self-identification with global consumer culture (Cleveland &amp; Laroche, 2007)."
+  - term: "Cultural fit hypothesis"
+    definition: "The idea that people prefer products, brands and experiences that are congruent with their cultural values and personality traits."
+  - term: "Suppressor effect"
+    definition: "A pattern in which an indirect effect is larger than the total effect, because the direct effect runs in the opposite direction."
+
+materials:
+  - label: "Scale items"
+    text: "All 41 items for vertical and horizontal individualism, need for uniqueness, desire for unique consumer products and the seven AGCC dimensions, with loadings, means, standard deviations, skewness and kurtosis, are in Table A1 below."
+  - label: "Eligibility"
+    text: "Respondents had moved to the UK from non-Anglo-Saxon countries; all declared speaking English at home and/or at work. The questionnaire was pretested with 30 business students."
+  - label: "Data screening"
+    text: "Incomplete questionnaires and respondents with zero or very low standard deviation across all items (0.1 to 0.3) were excluded; no outliers were found (±3.29 SD on composite scores and Mahalanobis distances), leaving 504 of 662 responses (76.1%)."
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Free full text, including all tables, figures and the appendix", url: "manuscripts/czarnecka-schivinski-baxter-2026-jpbm-accepted-manuscript.pdf" }
+  - { label: "Published version", note: "Journal of Product & Brand Management (Emerald Publishing)", url: "https://doi.org/10.1108/JPBM-09-2025-6337" }
+
+tables:
+  - id: "1"
+    title: "Reliability and validity scores of the conceptual model"
+    columns: ["Construct", "&alpha;", "&omega;", "CR", "AVE", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["1. Vertical individualism", "0.87", "0.89", "0.87", "0.62", "<i>0.79</i>", "0.57", "0.72", "0.70", "0.37", "0.07", "0.26", "0.48", "0.48", "0.42", "0.43"]
+      - ["2. Horizontal individualism", "0.87", "0.90", "0.86", "0.61", "0.60***", "<i>0.78</i>", "0.56", "0.51", "0.41", "0.11", "0.42", "0.56", "0.35", "0.39", "0.23"]
+      - ["3. Need for uniqueness", "0.94", "0.94", "0.93", "0.78", "0.75***", "0.59***", "<i>0.88</i>", "0.86", "0.50", "0.08", "0.40", "0.55", "0.49", "0.54", "0.58"]
+      - ["4. Desire for unique consumer products", "0.90", "0.92", "0.89", "0.51", "0.81***", "0.57***", "0.89***", "<i>0.71</i>", "0.44", "0.19", "0.32", "0.41", "0.50", "0.59", "0.6"]
+      - ["5. Cosmopolitanism", "0.87", "0.88", "0.87", "0.70", "0.38***", "0.43***", "0.51***", "0.49***", "<i>0.84</i>", "0.03", "0.41", "0.62", "0.43", "0.34", "0.32"]
+      - ["6. Exposure to marketing activities", "0.74", "0.74", "0.75", "0.50", "0.10", "0.13*", "0.12*", "0.17**", "−0.03", "<i>0.71</i>", "0.04", "0.08", "0.15", "0.23", "0.36"]
+      - ["7. English language usage and exposure", "0.78", "0.78", "0.77", "0.53", "0.27***", "0.44***", "0.41***", "0.36***", "0.42***", "−0.11", "<i>0.73</i>", "0.45", "0.48", "0.26", "0.15"]
+      - ["8. Social interactions", "0.83", "0.85", "0.83", "0.64", "0.55***", "0.59***", "0.62***", "0.62***", "0.64***", "−0.05", "0.47***", "<i>0.80</i>", "0.45", "0.28", "0.23"]
+      - ["9. Global mass media exposure", "0.83", "0.84", "0.82", "0.61", "0.52***", "0.38***", "0.52***", "0.59***", "0.47***", "0.16**", "0.52***", "0.55***", "<i>0.78</i>", "0.47", "0.54"]
+      - ["10. Openness to and desire to emulate GCC", "0.78", "0.80", "0.82", "0.61", "0.50***", "0.42***", "0.58***", "0.66***", "0.35***", "0.21**", "0.30***", "0.42***", "0.47***", "<i>0.78</i>", "0.65"]
+      - ["11. Self-identification with GCC", "0.83", "0.85", "0.85", "0.66", "0.49***", "0.27***", "0.59***", "0.66***", "0.30***", "0.39***", "0.13*", "0.34***", "0.52***", "0.59***", "<i>0.81</i>"]
+    note: "Diagonal values (in italics) are the square roots of the average variance extracted (AVE); values below the diagonal are standardised Pearson correlations; values above the diagonal are heterotrait–monotrait (HTMT) ratios of correlations. CR = composite reliability; GCC = global consumer culture. ML &chi;&sup2;(834) = 2288.61, CFI = 0.91, TLI = 0.90, RMSEA = 0.05 (90% CI [0.05–0.06]); <i>n</i> = 504. * <i>p</i> &lt; 0.05, ** <i>p</i> &lt; 0.01, *** <i>p</i> &lt; 0.001. Values as printed in the article."
+  - id: "2"
+    title: "Standardized and unstandardized structural coefficients of the conceptual model"
+    columns: ["Path", "&beta;", "95% CI", "<i>t</i>", "<i>p</i>"]
+    align: ["left", "right", "right", "right", "right"]
+    rows:
+      - ["H1. Vertical individualism → need for uniqueness", "0.61", "", "10.49", "&lt;0.001"]
+      - ["H2. Horizontal individualism → need for uniqueness", "0.27", "", "4.31", "&lt;0.001"]
+      - ["H3. Need for uniqueness → desire for unique consumer products", "0.89", "", "21.17", "&lt;0.001"]
+      - { group: true, cells: ["Control variables", "", "", "", ""] }
+      - ["Gender (ref: 1 = female) → desire for unique consumer products", "0.18", "", "2.93", "0.003"]
+      - ["Education → desire for unique consumer products", "0.07", "", "1.01", "0.31"]
+      - { group: true, cells: ["Mediation analysis: indirect effects via need for uniqueness (specific indirect std. &beta;)", "", "", "", ""] }
+      - ["H4a. Vertical individualism → need for uniqueness → desire for unique consumer products", "0.54", "0.34–0.72", "9.71", "&lt;0.001"]
+      - ["H4b. Horizontal individualism → need for uniqueness → desire for unique consumer products", "0.24", "0.05–0.36", "4.27", "&lt;0.001"]
+      - { group: true, cells: ["Direct effects (controlling for the mediator)", "", "", "", ""] }
+      - ["Vertical individualism → desire for unique consumer products", "0.09", "−0.01–0.16", "1.52", "0.13"]
+      - ["Horizontal individualism → desire for unique consumer products", "−0.08", "−0.12–0.05", "−1.13", "0.26"]
+      - { group: true, cells: ["Total effects (direct and indirect effects)", "", "", "", ""] }
+      - ["Vertical individualism → desire for unique consumer products", "0.63", "0.47–0.77", "10.81", "&lt;0.001"]
+      - ["Horizontal individualism → desire for unique consumer products", "0.16", "0.02–0.35", "2.26", "0.02"]
+      - { group: true, cells: ["Moderation analysis (unst. &beta;)", "", "", "", ""] }
+      - ["H5. Need for uniqueness → desire for unique consumer products | AGCC", "0.09", "0.02–0.21", "2.02", "0.04"]
+      - { group: true, cells: ["Direct effect derived from the moderation analysis (unst. &beta;)", "", "", "", ""] }
+      - ["AGCC → desire for unique consumer products", "0.39", "0.17–0.61", "4.60", "&lt;0.001"]
+    note: "ML &chi;&sup2;(806) = 3092.44, CFI = 0.90, TLI = 0.90, RMSEA = 0.06 (90% CI [0.06–0.07]); AGCC = acculturation to global consumer culture; <i>n</i> = 504; 5,000 bootstrap draws. Values as printed in the article."
+  - id: "A1"
+    title: "Descriptive statistics: factor loadings, means, standard deviations, skewness and kurtosis"
+    collapsed: true
+    columns: ["Construct and item", "&lambda;", "Mean", "SD", "Skew.", "Kurt."]
+    align: ["left", "right", "right", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["AGCC – Cosmopolitanism", "", "", "", "", ""] }
+      - ["I am interested in learning more about people who live in other countries", "0.85", "3.98", "0.74", "−0.45", "0.40"]
+      - ["I like to learn about other ways of life", "0.85", "4.04", "0.69", "−0.41", "0.58"]
+      - ["I enjoy being with people from other countries to learn about their views and approaches", "0.81", "3.99", "0.76", "−0.46", "0.32"]
+      - { group: true, cells: ["AGCC – Exposure to marketing activities", "", "", "", "", ""] }
+      - ["In my city, there are many billboards, and advertising signs for foreign and global products", "0.66", "3.71", "0.94", "−0.90", "0.63"]
+      - ["It is quite common to see ads for foreign or global products in local media", "0.73", "3.71", "0.81", "−0.88", "1.08"]
+      - ["When I read a newspaper, I come across many advertisements for foreign or global products", "0.72", "3.89", "0.80", "−1.16", "2.24"]
+      - { group: true, cells: ["AGCC – English language usage and exposure", "", "", "", "", ""] }
+      - ["I feel very comfortable speaking in English", "0.83", "3.77", "0.95", "−0.36", "−0.54"]
+      - ["I often speak English with family or friends", "0.64", "3.74", "0.97", "−0.75", "0.28"]
+      - ["I speak English regularly", "0.72", "4.25", "0.63", "−0.63", "1.18"]
+      - { group: true, cells: ["AGCC – Social interactions", "", "", "", "", ""] }
+      - ["I prefer spending my vacations outside of the country that I live in", "0.56", "3.69", "0.88", "−0.12", "−0.44"]
+      - ["Visiting foreign countries is one of my favourite things", "0.91", "3.80", "1.02", "−0.43", "−0.70"]
+      - ["I often think about going to different countries and doing some travelling", "0.89", "3.92", "1.00", "−0.76", "−0.08"]
+      - { group: true, cells: ["AGCC – Global mass media exposure", "", "", "", "", ""] }
+      - ["I enjoy watching Hollywood films at the theatre", "0.72", "3.70", "0.90", "−0.44", "0.11"]
+      - ["I enjoy watching Hollywood movies that are in English", "0.87", "3.67", "0.89", "−0.22", "−0.37"]
+      - ["Some of my favourite actors/actresses are from Hollywood", "0.76", "3.58", "0.89", "−0.13", "−0.20"]
+      - { group: true, cells: ["AGCC – Openness to and desire to emulate GCC", "", "", "", "", ""] }
+      - ["I think people my age are basically the same around the world. For example, a 20-something in Nigeria is basically the same as a 20-something in the USA, Germany, or anywhere else", "0.66", "2.30", "0.97", "0.34", "−0.36"]
+      - ["I think that my lifestyle is almost the same as those of my age group in other countries", "0.83", "2.61", "0.92", "0.06", "−0.52"]
+      - ["I think my lifestyle is almost the same as those of people of my social class in other countries", "0.84", "2.80", "0.99", "0.00", "−0.64"]
+      - { group: true, cells: ["AGCC – Self-identification with global consumer culture", "", "", "", "", ""] }
+      - ["The way that I dress is influenced by the advertising activities of foreign or global companies", "0.85", "2.98", "1.10", "−0.18", "−0.86"]
+      - ["Advertising by foreign or global brands has a strong influence on my clothing choices", "0.89", "2.95", "1.13", "−0.24", "−0.91"]
+      - ["I pay attention to the fashions worn by people in my age-group that live in other countries", "0.70", "2.70", "1.16", "0.16", "−0.91"]
+      - { group: true, cells: ["Need for uniqueness", "", "", "", "", ""] }
+      - ["I prefer being different from other people", "0.91", "3.61", "1.24", "−0.98", "−0.22"]
+      - ["Being distinctive is important to me", "0.90", "3.54", "1.20", "−0.82", "−0.53"]
+      - ["I intentionally do things to make myself different from those around me", "0.88", "3.25", "1.37", "−0.49", "−1.23"]
+      - ["I have a need for uniqueness", "0.85", "3.42", "1.24", "−0.69", "−0.83"]
+      - { group: true, cells: ["Desire for unique consumer products", "", "", "", "", ""] }
+      - ["I am very attracted to rare objects", "0.76", "3.65", "0.97", "−1.18", "0.46"]
+      - ["I tend to be a fashion leader rather than follower", "0.78", "2.90", "1.37", "−0.22", "−1.56"]
+      - ["I am more likely to buy a product if it is scarce", "0.70", "3.26", "1.09", "−0.67", "−1.09"]
+      - ["I would prefer to have things custom-made than to have them ready-made", "0.63", "3.96", "1.05", "−1.27", "0.96"]
+      - ["I enjoy having things that others do not", "0.78", "3.77", "1.10", "−1.05", "0.19"]
+      - ["I often order custom features on the products I buy", "0.71", "2.61", "1.31", "0.11", "−1.59"]
+      - ["I like to try new products and services before others do", "0.70", "3.00", "1.32", "−0.30", "−1.45"]
+      - ["I enjoy shopping at stores that carry merchandise which is different and unusual", "0.67", "4.05", "0.85", "−1.54", "2.95"]
+      - { group: true, cells: ["Vertical individualism", "", "", "", "", ""] }
+      - ["It is important that I do my job better than others", "0.84", "3.43", "1.21", "−0.55", "−1.01"]
+      - ["Winning is everything", "0.83", "2.63", "1.40", "0.16", "−1.58"]
+      - ["Competition is the law of nature", "0.67", "3.34", "1.19", "−0.68", "−0.90"]
+      - ["When another person does better than I do, I get tense and aroused", "0.82", "2.91", "1.34", "−0.05", "−1.48"]
+      - { group: true, cells: ["Horizontal individualism", "", "", "", "", ""] }
+      - ["I often do “my own thing”", "0.84", "3.78", "0.99", "−0.60", "−0.30"]
+      - ["I rely on myself most of the time; I rarely rely on others", "0.73", "3.90", "0.86", "−0.49", "−0.26"]
+      - ["My personal identity, independent of others, is very important to me", "0.81", "3.74", "0.99", "−0.51", "−0.38"]
+      - ["I’d rather depend on myself than others", "0.75", "3.93", "0.82", "−0.36", "−0.38"]
+    note: "&lambda; = standardised factor loading. Items and values as printed in Table A1 of the article (capitalisation of English and Hollywood standardised). The article reports that the desire for unique consumer products was rated from 1 = strongly disagree to 5 = strongly agree, need for uniqueness and AGCC from 1 = strongly disagree to 7 = strongly agree, and individualism from 1 = never to 7 = always."
+
+related:
+  - "10.1080/08911762.2019.1600094"
+  - "10.1002/cb.1988"
+  - "10.1002/cb.1833"
+  - "10.1108/jpbm-05-2021-3468"

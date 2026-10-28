@@ -86,8 +86,12 @@ def apa_plain(d: dict) -> str:
         return " ".join(p[0] + "." for p in re.split(r"[\s-]+", g) if p)
     names = [f"{a['family']}, {initials(a['given'])}" for a in d["authors"]]
     auth = names[0] if len(names) == 1 else ", ".join(names[:-1]) + ", & " + names[-1]
-    vol = f"#emph[{esc(d['journal'])}, {esc(d['volume'])}]" + (f"\\({esc(d['issue'])}\\)" if d.get("issue") else "")
-    loc = f", Article {esc(d['article_number'])}" if d.get("article_number") else f", {esc(d.get('pages', ''))}"
+    if d.get("volume"):
+        vol = f"#emph[{esc(d['journal'])}, {esc(d['volume'])}]" + (f"\\({esc(d['issue'])}\\)" if d.get("issue") else "")
+    else:  # online-first article: no volume or pages yet
+        vol = f"#emph[{esc(d['journal'])}]. Advance online publication"
+    loc = (f", Article {esc(d['article_number'])}" if d.get("article_number")
+           else (f", {esc(d['pages'])}" if d.get("pages") else ""))
     return (f"{esc(auth)} ({d['published'][:4]}). {esc(d['title'])}. {vol}{loc}. "
             f"#link(\"https://doi.org/{d['doi']}\")[https:\\/\\/doi.org\\/{esc(d['doi'])}]")
 

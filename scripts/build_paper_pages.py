@@ -253,6 +253,8 @@ def scale_html(d: dict, tables: list) -> str:
 def head_layer(d: dict, slug: str, url: str) -> str:
     authors = d["authors"]
     abstract = plain(" ".join(f["text"] for f in d["findings"]))
+    periodical = {"@type": "Periodical", "name": plain(d["journal"]), "issn": d.get("issn"),
+                  "publisher": {"@type": "Organization", "name": plain(d.get("publisher") or "")}}
     ld_article = {
         "@context": "https://schema.org", "@type": "ScholarlyArticle",
         "headline": d["title"], "name": d["title"], "url": url,
@@ -261,9 +263,8 @@ def head_layer(d: dict, slug: str, url: str) -> str:
                     **({"affiliation": [{"@type": "Organization", "name": n} for n in a["affiliation"]]} if a.get("affiliation") else {})}
                    for a in authors],
         "datePublished": d["published"],
-        "isPartOf": {"@type": "PublicationVolume", "volumeNumber": str(d.get("volume", "")),
-                     "isPartOf": {"@type": "Periodical", "name": d["journal"], "issn": d.get("issn"),
-                                  "publisher": {"@type": "Organization", "name": d.get("publisher")}}},
+        "isPartOf": ({"@type": "PublicationVolume", "volumeNumber": str(d["volume"]), "isPartOf": periodical}
+                     if d.get("volume") else periodical),  # online-first articles have no volume yet
         "identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": d["doi"]},
         "sameAs": f"https://doi.org/{d['doi']}",
         "abstract": abstract, "description": plain(d["in_brief"]),

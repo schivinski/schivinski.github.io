@@ -1,0 +1,28 @@
+text: individualism-desire-unique-consumer-products.blocks.txt
+affiliation_line: London South Bank University; RMIT University; Gdansk University of Technology; Liverpool Hope University
+title_page_footer: Re-typeset from the published text by the authors; the publisher's typesetting and layout have been removed.
+figures:
+  fig1:
+    svg: figures/czarnecka-et-al-2026-uniqueness-model.svg
+  fig2:
+    svg: figures/czarnecka-et-al-2026-uniqueness-interaction.svg
+table_overrides:
+  '1':
+    title: Reliability and validity scores of the conceptual model
+    columns: [Construct, α, ω, CR, AVE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']
+    widths: [1fr, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto]
+    landscape: true
+    size: 7.5pt
+    note: '*Note(s)*: The diagonal values (in Italic) represent the square root of the average variance extracted (AVE). Values below the diagonal are the standardized Pearson correlations. Values above the diagonal represent the Heterotrait–monotrait (HTMT) ratio of correlations. CR = composite reliability. AVE = average variance extracted. ML*χ*^{2}_{(834)} = 2288.61, CFI = 0.91, TLI = 0.90 and RMSEA = 0.05 (90% CI [0.05–0.06]); *n* = 504. ^{*}*p* < 0.05, ^{**}*p* < 0.01, ^{***}*p* < 0.001. *Source(s)*: Authors’ own work'
+  '2':
+    title: Standardized and unstandardized structural coefficients of the conceptual model
+    columns: [Path structure, β, 95% CI, '*t*-value', '*p*-value']
+    widths: [1fr, auto, auto, auto, auto]
+    size: 8pt
+    note: '*Note(s)*: ML*χ*^{2}_{(806)} = 3092.44, CFI = 0.90, TLI = 0.90, and RMSEA = 0.06 (90% CI [0.06–0.07]); AGCC = Acculturation to global consumer culture. *n* = 504. Number of bootstrap draws = 5000. Std. β for paths, control variables, indirect, direct and total effects; unst. β for the moderation analysis. *Source(s)*: Authors’ own work'
+  A1:
+    title: 'Descriptive statistics: factor loading, mean and standard deviation (SD), skewness (Sk), kurtosis (kur)'
+    columns: [Measurements, '(λ_{x})^{b}', Mean, SD, Sk., Kur.]
+    widths: [1fr, auto, auto, auto, auto, auto]
+    size: 8pt
+    note: '*Source(s)*: Authors’ own work'
