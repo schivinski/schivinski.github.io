@@ -1,0 +1,221 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+# Bruno's own paper (co-authored, JPBM 2026), queued 28 Oct 2026 from the Marketing in 3 chat on Bruno's instruction:
+# "straight after the Leite issue". Written in his first person with a disclosure line and one reflective section
+# (guide: "Bruno's own papers"). NO author thank-you email for this issue (Bruno, 28 Oct 2026: never email authors when
+# the paper is his or co-authored by him). Paper page: city-branding-cool-factor (live).
+issue: 53
+week_of: "2026-12-07"            # the issue's own date (Monday)
+slug: city-coolness-social-media
+status: draft                    # set to live by the Monday 7 December run
+
+title: "What makes a city seem cool, and does it get residents posting? A Journal of Product & Brand Management survey of 537 people who follow their city online"
+dek: >-
+  A look back at a study I co-wrote with colleagues on how people see the city they live in. How well a place works did
+  most to make it feel cool, and a cool city got attention and action, but not affection.
+short_title: "A cool city gets attention and action, not affection"
+
+description: >-
+  Schivinski et al. surveyed 537 Saudi residents who follow their city online: practical strengths made it seem cool, which drew attention and action.
+
+keywords: [city branding, place branding, brand coolness, city brand coolness, social media engagement, residents,
+  user-generated content, destination marketing, functional attributes, structural equation modelling, Saudi Arabia,
+  Journal of Product & Brand Management]
+topics: [Social media, UGC]
+
+image:
+  file: issue-53-city-coolness.jpg
+  og: issue-53-city-coolness-og.jpg
+  alt: "People gathered at pavement tables outside a corner bar in warm evening sun, on a quiet city street lined with trees and apartment blocks"
+  caption: "Cool shows up on the street long before it shows up on a feed. Photo: Eirik Skarstein on Unsplash."
+
+short_answer: >-
+  Residents called their city cool mostly for how well it works day to day, more than for its scenery or landmarks. In my
+  survey of 537 people following their city's accounts, feeling that the city was cool led them to read, like, share
+  and post about it more. It did not make them feel more attached to it. For a place that wants attention and action, work
+  on the practical side first. For one that wants love, cool is the wrong tool.
+
+takeaways:
+  - "Practical strengths such as services, transport, jobs and clean streets did the most to make a city seem cool, and looks did the least."
+  - "A city seen as cool drew more reading and attention from its residents, and more sharing, liking and posting."
+  - "Cool did not buy emotional attachment. The one thing linked to feeling attached was how the city looks."
+  - "Caring what others think of the city had the biggest total pull on attention, and most of that pull was direct."
+
+paper:
+  doi: "10.1108/JPBM-04-2025-5959"
+  title: "City branding's influence on social media engagement: the cool factor"
+  authors: ["Schivinski, B.", "Li, X. (L.)", "Alahmari, A. M.", "Nguyen, Q. P.", "Czarnecka, B.", "Loureiro, S. M. C."]
+  authors_full: ["Bruno Schivinski", "Xiufang (Leah) Li", "Abdullah M. Alahmari", "Quynh Phuong Nguyen", "Barbara Czarnecka", "Sandra Maria Correira Loureiro"]
+  year: 2026
+  journal: "Journal of Product & Brand Management"
+  volume: "35"
+  issue: "1"
+  pages: "99-115"
+  online: "2025-10-13"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the paper
+    - name: "Bruno Schivinski"
+      affiliation: "RMIT University, Melbourne, Australia"
+      orcid: "0000-0002-4095-1922"
+    - name: "Xiufang (Leah) Li"
+      affiliation: "RMIT University, Melbourne, Australia"
+      orcid: "0000-0002-6404-5916"
+    - name: "Abdullah M. Alahmari"
+      affiliation: "RMIT University, Melbourne, Australia"
+      orcid: "0000-0003-4287-9810"
+    - name: "Quynh Phuong Nguyen"
+      affiliation: "Foreign Trade University, Hanoi, Vietnam, and Faculty of Management and Economics, Gdansk University of Technology, Gdansk, Poland"
+      orcid: "0009-0008-3395-4739"
+    - name: "Barbara Czarnecka"
+      affiliation: "London South Bank University, London, UK"
+      orcid: "0000-0002-8314-1727"
+    - name: "Sandra Maria Correira Loureiro"
+      affiliation: "Instituto Universitário de Lisboa (ISCTE-IUL), Lisbon, Portugal"
+      orcid: "0000-0001-8362-4430"
+
+sections:
+  - h: "What we did"
+    body: |
+      A note first: this issue covers a paper I co-wrote, and I am its first author. The team was Xiufang (Leah) Li and
+      Abdullah M. Alahmari of RMIT University in Melbourne, where I was based at the time, Quynh Phuong Nguyen of Foreign
+      Trade University in Hanoi and Gdańsk University of Technology, Barbara Czarnecka of London South Bank University and
+      Sandra Maria Correira Loureiro of ISCTE-IUL in Lisbon.
+
+      Cities now compete like brands, and residents are part of the audience. They look at their city's posts, take photos
+      of it and tell others what it is like. We wanted to know why some residents lean in and others scroll past. Our idea
+      was that a city's features do not move people directly. People first judge whether the place is cool, meaning
+      attractive, desirable and something they would like to be linked with, and that judgement drives what they do online.
+
+      We asked people in Saudi Arabia who follow their city on social media to rate it. Four things were measured: how the
+      city looks, how well it works, how well it fits who they are, and how much it matters to the people around them.
+      Then we asked how cool they thought it was and how much they paid attention to the city online, how attached they felt
+      and how often they liked, shared or posted about it.
+    facts:
+      - ["Sample", "537 residents of Saudi Arabian cities, 55.3% women, half aged 25 to 34"]
+      - ["Recruited", "Over four weeks through social media channels and forums, with an English-language online survey"]
+      - ["City features rated", "Physical (scenery, historic sites, architecture), functional (services, transport, business, shops, culture), individual value and social value"]
+      - ["Coolness", "Usefulness, high status, popularity and subculture, combined into one score for how cool the city seems"]
+      - ["Engagement", "Attention (cognitive), attachment (emotional) and actions such as liking, sharing and posting (behavioural)"]
+      - ["Method", "Structural equation modelling, with 5,000 bootstrap samples to test the indirect paths"]
+
+  - h: "A city that works is a city that seems cool"
+    body: |
+      All four features made residents more likely to call their city cool, but not equally. Functional strengths led by a
+      distance: clean surroundings, jobs and business, shops and cafes, transport, cultural activities and public services.
+      Next came how well the city fits a person's own taste and identity, then how much the place counts with others.
+      Looks came last, and only just made it as a real effect.
+
+      City marketing spends a lot on scenery and landmarks. In this survey, residents did not rate a city as cool because
+      it was pretty. They rated it as cool because it worked, and because it made them feel they belonged in it.
+    chart: drivers
+
+  - h: "Cool buys attention and action, not affection"
+    body: |
+      Once a city seemed cool, residents followed it more closely. They paid more attention to its posts and were more
+      likely to like, comment, share and post their own content about it. Coolness was the bridge: practical strengths had no
+      direct effect on either attention or action. They only worked because they made the city seem cool first.
+
+      Then came the surprise. Seeing the city as cool did nothing for how attached residents felt to it. The only thing
+      linked to emotional engagement was how the city looks, and that link ran directly, without passing through
+      coolness. So a city can seem cool without being loved, and it can be loved for its streets and skyline without being
+      thought cool.
+
+      One more result is worth noting. Residents who care what others think of their city paid it the most attention of all,
+      and most of that effect did not come through coolness.
+    chart: engagement
+
+  - h: "Why I think a cool city is a different job from a loved one"
+    body: |
+      What follows is my opinion, not something we measured. Cool is a quick, social judgement. People decide it in a glance
+      and pass it on in a post. Love is slow. It comes from memory, time and the people you know, which is why I read the
+      missing emotional link as sensible rather than disappointing. A city that chases cool and expects devotion has set
+      itself the wrong goal.
+
+      I also take a practical lesson. If how well a place works day to day does most to make it cool, then good city marketing
+      starts well before the post, in the quality of the transport, the services and the street. A campaign can only
+      repeat what residents already feel.
+
+      What I would test next is real behaviour. We asked people what they do, and we asked them once, in one country in a
+      period of fast change. I would like to see the same model in a city whose brand grew from the bottom up, with actual posting data
+      alongside the survey.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Score your place on four things", "Ask at least 30 people who know the place to rate it from 1 to 5 on how it looks, how well it runs, how well it fits people like them and how much it counts with their friends and neighbours. Note your lowest score."]
+  - ["Check how cool it seems", "In the same survey, ask people to rate from 1 to 5 how cool the place is. Record the average as your starting point."]
+  - ["Lead with how the place works", "Pick your strongest practical feature, such as transport, services, jobs or clean streets. Publish one post a week that shows it in use, from a resident's point of view."]
+  - ["Make it a place for people like them", "Feature residents telling their own stories, and run one local event a month where people can meet. This builds the sense of fit and belonging that also makes a place seem cool."]
+  - ["Ask for attention first, then action", "Start each campaign with an easy request, such as a poll or a question. Follow it a week later with a hashtag that invites people to share their own photos."]
+  - ["Track attention, action and feeling separately", "Each month, count views and reads, then shares and posts, then replies that express feelings. Repeat the cool rating every quarter. For feelings, add memory-based content such as old photos and local history."]
+
+expect:
+  - "**More attention, then more action.** A place that seems cool tends to be read first and shared second, so judge the plan on both."
+  - "**Reputation built on basics.** Residents credit the practical side first, so posts that show services working will carry more weight than pretty ones."
+  - "**No shortcut to loyalty.** Cool posts will not make people attached, so plan separate content for belonging and memory."
+  - "**Slow movement.** How people see a place changes over months, so repeat the rating each quarter and judge by the trend."
+
+limits:
+  - "**One country.** All the residents lived in Saudi Arabian cities during a period of rapid state-led development, so other places may differ."
+  - "**English-language online survey.** Recruiting online in English may have favoured better-educated and more affluent respondents."
+  - "**Reported, not observed.** People described their own behaviour and attitudes, and no real posting data was collected."
+  - "**Patterns, not proof.** Everyone answered once, so the survey cannot show that cool causes more engagement."
+
+faq:
+  - q: "What makes a city seem cool?"
+    a: "In this survey, the practical side did most: services, transport, jobs, shops and clean streets. How well a city fits a person and how much it counts with others came next, and looks came last (Schivinski et al., 2026, Journal of Product & Brand Management)."
+  - q: "Does a cool city get more social media engagement?"
+    a: "Yes, on two counts: attention and action. Residents who saw their city as cool followed it more closely and shared and posted more."
+  - q: "Do cool cities make residents feel more attached?"
+    a: "No. Calling the city cool did not raise emotional attachment. The one link to attachment in the study was the city's physical look."
+  - q: "Do the findings apply outside Saudi Arabia?"
+    a: "The study covers one country, so that is untested. The authors expect the process, from city features to coolness to engagement, to hold elsewhere, and say it needs checking in other cities and cultures."
+  - q: "Can I read the paper for free?"
+    a: "Yes. It is open access, and a free copy of the full text is on the paper page together with the survey items."
+
+also:
+  - doi: "10.1007/s11747-026-01181-1"
+    title: "Process and outcome frames in firms' environmental posts and consumer engagement"
+    authors: "Tran et al."
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2026
+    text: >-
+      Across seven studies, including a field experiment and over 12,000 environmental posts on X by 110 US firms, this
+      research compares posts that describe what a firm did with posts that state the result. Either frame raises engagement,
+      but mixing them backfires. A warm tone helps the "what we did" frame most, and a competent tone helps the "what we
+      achieved" frame win engagement with the firm itself.
+  - doi: "10.1080/02650487.2026.2700928"
+    title: "Can too many hashtags backfire? Understanding audiences' perceptions of hashtags on Instagram"
+    authors: "Jin & Kim"
+    journal: "International Journal of Advertising"
+    year: 2026
+    text: >-
+      In three experiments, Instagram posts stuffed with hashtags earned less favourable attitudes because they looked less
+      authentic. The penalty hit non-followers but not followers, and it faded when a post was clearly sponsored. A useful
+      check before you brief a hashtag campaign.
+
+charts:
+  drivers:
+    title: "How strongly each city feature made residents see the city as cool"
+    scale: [0, 0.5]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Functional (how well it works)", 0.42, true]
+      - ["Individual value (fits me)", 0.31, false]
+      - ["Social value (matters to others)", 0.26, false]
+      - ["Physical (how it looks)", 0.09, false]
+    source: "Standardised path coefficients from the structural model, N = 537. All four paths were statistically significant."
+  engagement:
+    title: "How each kind of engagement responded to a cool city"
+    scale: [0, 0.7]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Attention (cognitive)", 0.62, true]
+      - ["Action: like, share, post (behavioural)", 0.54, true]
+      - ["Attachment (emotional), no effect", 0.0, false]
+    source: "Standardised path coefficients, N = 537. The estimate for emotional engagement was -0.24 and not statistically different from zero, so it is shown as zero."
+
+related_pages: [city-branding-cool-factor]   # paper pages on this site worth linking (slugs)
