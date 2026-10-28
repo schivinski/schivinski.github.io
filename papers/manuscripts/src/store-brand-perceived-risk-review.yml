@@ -1,0 +1,18 @@
+text: store-brand-perceived-risk-review.blocks.txt
+affiliation_line: Maria Curie-Skłodowska University in Lublin; Gdańsk University of Technology
+title_page_label: Open access article
+running_label: open access (CC BY 4.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article; it differs only in formatting and
+  pagination, and the author's email address has been left out. Please cite the published version.
+title_page_footer: Re-typeset from the published open access article (CC BY 4.0); the publisher's typesetting and layout have been removed and Figure 1 redrawn.
+figures:
+  fig1:
+    svg: figures/lukasik-schivinski-2015-price-information-matrix.svg
+table_overrides:
+  '1':
+    title: Dimensions of Perceived Risk Associated with Shopping Behavior
+    columns: [Dimension of Risk, Definition, Cited Study]
+    widths: [auto, 1.4fr, 1fr]
+    size: 9pt
+    note: '*Source*: Tsiros, M., Heilman, C.M., 2005. The effect of expiration dates and perceived risk on purchasing behavior in grocery store in perishable categories. Journal of Marketing 69, p. 117.'

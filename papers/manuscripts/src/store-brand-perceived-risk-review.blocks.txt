@@ -1,0 +1,125 @@
+@@title@@ Effects of Store Brand Perceived Risk on Buyers’ Behavior – Four Decades of Research Overview
+
+@@authors@@ Przemysław Łukasik^{1} and Bruno Schivinski^{2}
+
+@@affil@@ ^{1}Maria Curie Skłodowska University, Marketing Department, Lublin, Poland; ^{2}Gdańsk University of Technology, Marketing Department, Gdańsk, Poland
+
+@@abstract@@ The aim of this paper is to present the concept of store brand perceived risk and the most important studies on its measurement that were being conducted for 40 years. For this purpose, an extensive literature review is introduced. Some aspects of the risk constructs and major effects of store brand perceived risk are emphasized. This paper provides key directions to brand managers regarding store brand assortment.
+
+@@keywords@@ store brands, private label brands, perceived risk
+
+@@abstractpart@@ **JEL Code:** M31
+
+@@abstractpart@@ **Wpływ postrzeganego ryzyka związanego z markami własnymi na zachowania nabywców – przegląd czterech dekad badań.** Celem artykułu jest prezentacja pojęcia postrzeganego przez konsumentów ryzyka związanego z markami własnymi oraz przegląd najważniejszych badań nad tym konstruktem, prowadzonych na przestrzeni ostatnich 40 lat. Realizacja tak postawionego celu wymagała przeprowadzenia wyczerpujących studiów literatury na ten temat. Wyjaśniono szereg aspektów pojęcia postrzeganego ryzyka oraz przedstawiono główne efekty oddziaływania postrzeganego ryzyka związanego z markami własnymi na zachowania nabywców. Artykuł dostarcza menedżerom marki wiedzy na temat głównych kierunków ich działań odnoszących się do zarządzania asortymentem marek własnych. **Słowa kluczowe:** marki własne, marki prywatne, postrzegane ryzyko.
+
+@@h2@@ Introduction
+
+@@p@@ The majority of undertaken research on the influence of store brand perceived risk on the consumers’ behavior concerned mainly producer’s brands. Albeit, the research advances in the last four decades on store brand perceived risk, research and literature gaps still remain. This article aims to review what we know about examining and measuring perceived risk of store-branded products. The article is organized as follows. First, some aspects of the risk constructs are emphasized, such as how it is defined and used in consumer and marketing research. Second, major effects of store brand perceived risk are introduced and next, the conclusion and highlighted implications are indicated.
+
+@@h2@@ 1. Concept of perceived risk
+
+@@p@@ Perceived risk, as a topic of research, has a long history in the marketing literature. The first author who proposed a concept of perceived risk was Bauer (1960 in Mitchell, 1999). His conceptualization was based on the assumption that perceived risk is the subjective category related both to consumers’ information acquisition and processing activity and to post-decision processes. In initial phase of researches on perceived risk, researchers focused on its two basic dimensions: the perception of consequences of certain behavior, and the probability of their occurrence (Arndt, 1967; Peter and Ryan, 1976). A similar approach was subsequently taken by Dowling and Staelin (1994) and also Narasimhan and Wilcox (1998).
+
+@@p@@ Researchers noticed that there were differences in risk within the type of product and the decision-making situation (Dowling, 1986). The marketing literature pointed out that the major types of perceived risk influencing consumer decision making process include (Jacoby and Kaplan, 1972; Dowling, 1986; Stone and Grønhaug, 1993): performance, financial, functional, physical, social, and psychological risk (Table 1). Roselius (1971) added one more dimension to the literature called ‘time risk’.
+
+@@table@@ 1
+
+@@p@@ When a consumer perceives uncertainties associated with a product with regard to the expected standard of quality, the performance risk emerges (Jacoby and Kaplan, 1972). According to Bettman (1973), consumers’ knowledge and experience with a product is a basis for their evaluations of performance risk. As a result, consumers may be doubtful and averse to buy store brands unlike national brands, especially when buyers are new to store brands.
+
+@@p@@ The potentiality that products or services are damaging or harmful to individuals’ health is called physical risk (Jacoby and Kaplan, 1972). Simpson and Lakner (1993) added that physical risk emerges when the product image does not seem as healthy as the consumer expects. Consequently, the likelihood to purchase as well as the quality perception may be negatively influenced by physical risk.
+
+@@p@@ When the selection or performance of the product negatively affects individuals’ self-perception, psychological risk will be created (Jacoby and Kaplan, 1972). So, this dimension of risk emerges when any psychological inconvenience caused by incomplete or inexact knowledge about e.g. new ingredients of a product is involved (Stone and Grønhaug, 1993).
+
+@@p@@ The perception of the uncertainty that other people may think less of a person as a result of buying a particular product is the reflection of social risk (Jacoby and Kaplan, 1972). Hence, there is a possibility that consumers who are using this product might not be accepted by consumer’s society members. Inversely, using this product may lead to positive social perceptions.
+
+@@p@@ Financial risk refers to the potentiality of fiscal losses caused by purchasing the products (Jacoby and Kaplan, 1972). Hutton and Wilkie (1980) argued that financial risk is perceived in relation to the possible fiscal expenditure engaged with the first payment and any consequent repair expenses related with purchasing a product. Moreover, when a buyer belongs to a low economic segment and he/she is considering a cheaper product, he/she may be aware of the cost relatively high in comparison with his/her income.
+
+@@p@@ When a consumer needs the time to change the product in case of poor performance or disability of the product to perform as expected and is forced to take action as a result of a doubtful buying, the time risk emerges. Hence, the decision-making process may be time-wasting for consumers (Roselius, 1971).
+
+@@p@@ With respect to perceived risk of store brands, an additional negative effect emerged resulting from frequent consumers’ comparisons of store brands with national brands. As a result, they choose national brands to decrease the probability of negative consequences of purchase (Horvat and Došen, 2013). Initially, researchers presented a comparative analysis of the perceived risk of generic and national brands and all conclude that buyers perceive more risk in generic alternatives than in national brands. Subsequently, as store brands surpassed the generic brands concerning the consumers’ favorable perception of them, store brands were incorporated into these comparisons.
+
+@@h2@@ 2. Effects of store brand perceived risk
+
+@@p@@ The first studies carried out in this area concerned a comparative analysis between generic and national brands. According to Bettman (1974), the key variables that discriminate generic from national brand buyers are uncertainty regarding store brand quality and perceptions of danger associated with generic brand purchase. Researches from Bearden and Mason (1978), Reindenbach *et al*. (1983), Toh and Heeren (1982), and Wu *et al*. (1984) proved that consumers perceive generic brand as more risky than their national alternatives. Dunn *et al*. (1986) found that consumers perceive the greatest performance risk with generic brands and highest financial risk with national brands. Moreover, it appeared that the risk perceptions cannot be generalized across brand types.
+
+@@p@@ Richardson *et al*. (1996) hypothesized that the increase of the store brand perceived risk leads to the reduction of consumers’ store brand proneness. Using a PLS Model with latent variables they found that that the perception of store brands as riskier alternatives in relation to the national brands has a negative impact on consumers’ purchase intentions with regard to store brands. According to Erdem *et al*. (2004), the reduction of difference in perceived quality and perceived risk between store brands and national brands may lead to increased likelihood of store brand purchase.
+
+@@p@@ Sinha and Batra (1999) examined the role of consumer price consciousness and as a result of consumer resistance to the prices of national brands. They proposed a framework for understanding consumer price consciousness to investigate the reasons of its variety across product categories, and how it may result in store brand purchase. The final results show that perceived category risk and perceived price unfairness of national brands in that category are significant antecedents of consumer price consciousness, and that variations in such price consciousness across categories is a significant reason why consumers are more prone to buying store brands in some categories than in others.
+
+@@p@@ The next step in research on the effects of perceived risk on store brand buyers’ behavior was to examine the effect of price on consumers’ judgement of store brands. Sheinin and Wagner (2003) explored the moderating effects of category risk and retail image on how consumers judge store brands. The study found that buyers’ use of price information varies by four decision-making contexts (Figure 1) and within each context three price levels: discount, expected, and premium was addressed. Category risk refers to the uncertainty perceived by consumers when purchasing a particular type of product (Shimp and Bearden, 1982) and retail image is based on a retailer’s utilitarian and symbolic attributes leading to consumers’ perception (e.g. Pessemier, 1980).
+
+@@figure@@ fig1|Figure 1. Use of price information and decision-making context. *Source*: own elaboration based on: Sheinin, D.A. & Wagner, J., Pricing store brands across categories and retailers, Journal of Product & Brand Management, 2003, Vol. 12, No. 4, pp. 213–215 (redrawn).
+
+@@p@@ The investigation of how store image factors affects consumer evaluation of store brands was also carried by Semeijn *et al*. (2004). Moreover, they examined the influence of various categories of perceived risk associated with product attributes. Three pairs of risks and product characteristics were taken into consideration: product complexity and functional risk, visibility of product usage and psychosocial risk, along with quality variance and financial risk. The results showed that the more likely the consumer perceived a particular retailer to be able to offer a specific store-branded product, the less likely the consumer formed a negative attitude towards such a product. In addition, Semeijn *et al*. (2004) proved that public usage of store brand reduced store brand purchase intention and as a result, when the variety of quality within product category was high, consumers would be more prone to buy national brands to reduce the financial risks associated with that purchase.
+
+@@p@@ Understanding of consumer behavior towards store brands is mainly based on studies of groceries and commodities bought from the local supermarket. The aim of study by Liljander *et al*. (2009) was to investigate drivers of consumers’ behavioral responses to an apparel store brand, and the role of perceived store image, along with perceived risk (with its functional, financial, and social dimensions). Results proved that the store image “quality” dimension (the reputation of the store concerning merchandise and service quality) negatively affected the perceived store brand financial risk. Moreover, store brand functional risk was negatively affected by the perceived quality of store-branded apparel and no effect was found on financial and psychosocial risk. Finally, perceived risk did not mediate the effect of perceived store brand quality on perceived store brand value.
+
+@@p@@ Finally, one of the hottest trends in store brand retailing are premium store brands (Kumar and Steenkamp, 2007). They are positioned at a higher level than standard store brands, and due to their unique features they are able to compete successfully with leading national brands (Geyskens *et al*., 2010). According to ter Braak *et al*. (2014), as the positioning of premium store brands is very different from the positioning of standard store brands, the role of the impact of purchase frequency and functional risk had to be reconsidered. In contrast to standard store brands, retailers introduce their premium store brand versions more in special-occasion categories (which typically have a longer interpurchase time). Moreover, while higher functional risk was found to deter standard store brand entry, it enhances the likelihood that a premium variant is introduced.
+
+@@h2@@ Conclusions
+
+@@p@@ Based on the evidence generated from this review, research has made significant progress towards the understanding of perceived risk with regarding store brands. Above all, there are several gaps in knowledge about how and to what extent the factors influence store brand perceived risk in different markets and different categories, thus suggesting topics for future research.
+
+@@p@@ Store brand perceived risks in the American and Western European markets attracted greater attention from researchers, in contrast to other markets (e.g. Eastern Europe). It is recommended to conduct store brand perceived risk studies in different countries to produce stronger generalization of the findings. Further research should also investigate how store brand perceived risk influences on store brand equity and its dimensions. Researchers could also investigate premium store brand perceived risk due to their growing importance. These findings should be considered by store brand managers when planning the assortment policy.
+
+@@h2@@ References
+
+@@ref@@ 1. Arndt J., *Role of product-related conversations in the diffusion of a new product*. Journal of Marketing Research, 1967, Vol. 4, No. 3. http://dx.doi.org/10.2307/3149462
+
+@@ref@@ 2. Bearden W., Mason J., *Consumer perceived risk and attitudes toward generically prescribed drugs*, Journal of Applied Psychology, 1978, Vol. 63, No. 6. http://dx.doi.org/10.1037/0021-9010.63.6.741
+
+@@ref@@ 3. Bettman J.R., *Relationships of Information-Processing Attitude Structures to Private Brand Purchasing Behavior*, Journal of Applied Psychology, 1974, Vol. 59, No. 1. http://dx.doi.org/10.1037/h0035817
+
+@@ref@@ 4. Dowling G.R., *Perceived risk: the concept and its measurement*, Psychology & Marketing, 1986, Vol. 3, No. 3. http://dx.doi.org/10.1002/mar.4220030307
+
+@@ref@@ 5. Dowling G.R., Staelin R., *A model of perceived risk and intended risk- handling activity*, Journal of Consumer Research, 1994, Vol. 21, No. 1. http://dx.doi.org/10.1086/209386
+
+@@ref@@ 6. Dunn M., Murphy P., Skelly G., *Research note: the influence of perceived risk on brand preference for supermarket products*, Journal of Retailing, 1986, Vol. 62, No. 2.
+
+@@ref@@ 7. Erdem T., Zhao Y., Valenzuela A., *Performance of store brands: a cross-country analysis of consumer store brands preferences, perceptions and risk*, Journal of Marketing Research, 2004, Vol. XLI. http://dx.doi.org/10.1509/jmkr.41.1.86.25087
+
+@@ref@@ 8. Geyskens I., Gielens K., Gijsbrechts E., *Proliferating Private-Label Portfolios: How Introducing Economy and Premium Private Labels Influences Brand Choice*, Journal of Marketing Research 2010, Vol. 47, No. 5. http://dx.doi.org/10.1509/jmkr.47.5.791
+
+@@ref@@ 9. Horvat S., Došen D.O., *Perceived Risk Influence on the Consumer Attitude to Private Labels in the Product’s Life Cycle Growth Stage*, Economic Business Review, 2013, Vol. 15, No. 4.
+
+@@ref@@ 10. Hutton B., Wilkie W.L., *Life Cycle Cost: A New Form of Consumer Information*, Journal of Consumer Research, 1980, Vol. 6, No. 4. http://dx.doi.org/10.1086/208778
+
+@@ref@@ 11. Jacoby J., Kaplan L.B., *The Components of Perceived Risk*, in Proceedings, Third Annual Conference of the Association for Consumer Research, M. Venkatesan, ed. College Park, MD: Association for Consumer Research, 1972.
+
+@@ref@@ 12. Kumar N., Steenkamp J.-B.E.M., *Private label stategy: How to meet the store brand challenge*, Boston: Harvard Business School Press 2007.
+
+@@ref@@ 13. Liljander V., Polsa P., van Riel A., *Modelling consumer responses to an apparel store brand: Store image as a risk reducer*, Journal of Retailing and Consumer Services, 2009, Vol. 16, No. 4. http://dx.doi.org/10.1016/j.jretconser.2009.02.005
+
+@@ref@@ 14. Mitchell V-W., *Consumer perceived risk: conceptualizations and models*, European Journal of Marketing, 1999, Vol. 33, No. 1/2. http://dx.doi.org/10.1108/03090569910249229
+
+@@ref@@ 15. Narasimhan C., Wilcox R.T., Private *Labels and the Channel Relationship: A Cross-Category Analysis*, Journal of Business, 1998, Vol. 71, No. 4. http://dx.doi.org/10.1086/209757
+
+@@ref@@ 16. Pessemier E.A., *Store image and positioning*, Journal of Retailing, 1980, Vol. 56, No. 1.
+
+@@ref@@ 17. Peter J.P., Ryan M.J., *An investigation of perceived risk at the brand level*, Journal of Marketing Research, 1976, Vol. 13, No. 2. http://dx.doi.org/10.2307/3150856
+
+@@ref@@ 18. Reindenbach R., Harrison M.C., Cooper M.B., *Generic products: low price and low quality and what this means to the shopper*, Akron Business & Economic Review, 1983, Vol. 14.
+
+@@ref@@ 19. Richardson P., Jain A., Dick A., *Household store brand proneness: a framework*, Journal of Retailing, 1996, Vol. 72, No. 2. http://dx.doi.org/10.1016/S0022-4359(96)90012-3
+
+@@ref@@ 20. Roselius T., *Consumer Rankings of Risk Reduction Methods*, Journal of Marketing, 1971, 35 (January). http://dx.doi.org/10.2307/1250565
+
+@@ref@@ 21. Semeijn J., Riel A., Ambrosini B., *Consumer evaluations of store brands: effects of store image and product attributes*, Journal of Retailing and Consumer Services, 2004, Vol. 11. http://dx.doi.org/10.1016/s0969-6989(03)00051-1
+
+@@ref@@ 22. Sheinin D.A., Wagner J., *Pricing store brands across categories and retailers*, Journal of Product & Brand Management, 2003, Vol. 12, No. 4. http://dx.doi.org/10.1108/10610420310485023
+
+@@ref@@ 23. Shimp T.A., Bearden W.O., *Warranty and other extrinsic cue effects on consumers’ risk perceptions*, Journal of Consumer Research, 1982, 9 (June). http://dx.doi.org/10.1086/208894
+
+@@ref@@ 24. Simpson L., Lakner H.B., *Perceived risk and mail order shopping for apparel*, Journal of Consumer Studies & Home Economics, 1993, Vol. 17, No. 4. http://dx.doi.org/10.1111/j.1470-6431.1993.tb00180.x
+
+@@ref@@ 25. Sinha I., Batra R., *The effect of consumer price consciousness on private label purchase*, International Journal of Research in Marketing, 1999, Vol. 16, No. 3. http://dx.doi.org/10.1016/S0167-8116(99)00013-0
+
+@@ref@@ 26. Stone R.N., Grønhaug K., *Perceived Risk: Further Considerations for the Marketing Discipline*, European Journal of Marketing, 1993, Vol. 27, No. 3. http://dx.doi.org/10.1108/03090569310026637
+
+@@ref@@ 27. ter Braak A., Geyskens I., Dekimpe M.G., *Taking private labels upmarket: Empirical generalizations on category drivers of premium private label introductions*, Journal of Retailing, 2014, Vol. 90, No. 2. http://dx.doi.org/10.1016/j.jretai.2014.01.003
+
+@@ref@@ 28. Toh R., Heeren S., *Perceived risks of generic grocery products and risk reduction strategies of con- sumers*, Akron Business and Economic Review, 1982, Vol. 13.
+
+@@ref@@ 29. Tsiros M., Heilman C.M., *The effect of expiration dates and perceived risk on purchasing behavior in grocery store perishable categories*, Journal of Marketing, 2005, Vol. 69, No. 2. http://dx.doi.org/10.1509/jmkg.69.2.114.60762
+
+@@ref@@ 30. Wu B., Holmes J., Alexander J., *Risk taking: its effect on selection of branded and generic grocery items*, Akron Business Review, 1984, Vol. 15, No. 3.

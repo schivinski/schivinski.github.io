@@ -83,7 +83,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 62 | 2017 | Literature review on conceptualisation of online consumer engagement | Handel Wewnętrzny | 14 |  |
 | 63 | 2017 | Wymiary kapitału marki jako moderatory związku pomiędzy kapitałem marki bazującym na ko… | Handel Wewnętrzny | 5 |  |
 | 64 | 2015 | Determinanty zakupu marek własnych sieci handlowych przez polskich konsumentów | Handel Wewnętrzny | 4 |  |
-| 65 | 2015 | Effects of Store Brand Perceived Risk on Buyers’ Behavior – Four Decades of Research Ov… | Annales Universitatis Mariae Curie-Skłodowska, sectio H, Oeconomia | 1 |  |
+| 65 | 2015 | Effects of Store Brand Perceived Risk on Buyers’ Behavior – Four Decades of Research Ov… | Annales Universitatis Mariae Curie-Skłodowska, sectio H, Oeconomia | 1 | locked (`store-brand-perceived-risk-review`) |
 | 66 | 2015 | Implementing the consumer-based brand equity scale for beer brands -- a Tyskie and Żywi… | Zeszyty Naukowe Uniwersytetu Szczecińskiego. Problemy Zarządzania, Finansów i Marketingu | 2 |  |
 | 67 | 2015 | Pomiar kapitału marek własnych detalistów | Annales Universitatis Mariae Curie-Skłodowska. Sectio H. Oeconomia | 2 |  |
 | 68 | 2015 | The study of Polish consumer’s online brand-related activities | e-mentor (article in Polish) | 11 | locked (`polish-consumers-online-brand-related-activities`) |

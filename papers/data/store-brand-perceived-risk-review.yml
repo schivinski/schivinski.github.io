@@ -1,0 +1,164 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Annales Universitatis Mariae Curie-Skłodowska, sectio H Oeconomia 49(3), 117-124 (2015) (published
+# PDF supplied by Bruno, 29 Oct 2026). Written in English, with a Polish title and abstract. Open access under CC BY 4.0,
+# copyright with the authors (journal page). The PDF header prints the DOI as 10.17951/h.2015.59.3.117, which does not
+# resolve; the registered DOI (Crossref, journal page) is 10.17951/h.2015.49.3.117. The PDF prints Przemysław Łukasik's
+# email address; it is left out here. Figure 1 redrawn.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Effects of store brand perceived risk on buyers’ behavior – four decades of research overview"
+doi: "10.17951/h.2015.49.3.117"
+journal: "Annales Universitatis Mariae Curie-Skłodowska, sectio H – Oeconomia"
+issn: "0459-9586"
+publisher: "Maria Curie-Skłodowska University Press"
+volume: "49"
+issue: "3"
+pages: "117–124"
+published: "2015-07"
+published_label: "2015"
+open_access: true
+licence: "CC BY 4.0"
+licence_url: "https://creativecommons.org/licenses/by/4.0/"
+
+aam:
+  file: "lukasik-schivinski-2015-annales-umcs-store-brand-perceived-risk.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article (CC BY 4.0), re-typeset as a clean PDF with the same content as the published version. Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution 4.0 International License
+    (https://creativecommons.org/licenses/by/4.0/). Originally published in Annales Universitatis Mariae
+    Curie-Skłodowska, sectio H – Oeconomia, 49(3), 117–124 (2015), https://doi.org/10.17951/h.2015.49.3.117.
+    Changes made: re-typeset, the author's email address left out, and Figure 1 redrawn.
+
+authors:
+  - given: "Przemysław"
+    family: "Łukasik"
+    affiliation: ["Maria Curie-Skłodowska University in Lublin"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Gdańsk University of Technology"]
+    me: true
+
+cite_short: "Łukasik & Schivinski, 2015"
+badges: ["Literature review", "Store brands", "Perceived risk", "Four decades of research"]
+keywords:
+  # Article's own keywords
+  - store brands
+  - private label brands
+  - perceived risk
+  # What the study is about
+  - generic brands
+  - national brands
+  - performance risk
+  - functional risk
+  - financial risk
+  - social risk
+  - psychological risk
+  - physical risk
+  - time risk
+  - store brand proneness
+  - store image
+  - category risk
+  - price-quality inference
+  - premium store brands
+  - private label purchase intention
+  - literature review
+
+in_brief: >-
+  Shoppers see store brands as riskier than national brands, and that risk lowers their willingness to buy them. This
+  review of forty years of research explains the types of perceived risk and how retailer image, category risk and
+  premium store brands change the picture.
+
+findings:
+  - headline: "Perceived risk has six main dimensions."
+    text: >-
+      Research distinguishes performance (functional), physical, psychological, social and financial risk, with time
+      risk added later, each describing a different possible loss from a poor purchase (Łukasik &amp; Schivinski,
+      2015).
+  - headline: "Store brands are perceived as riskier than national brands."
+    text: >-
+      Early studies found generic brands riskier than national brands; later work showed that perceiving store brands
+      as riskier reduces store brand proneness and purchase intentions (Łukasik &amp; Schivinski, 2015).
+  - headline: "Retailer image and category risk shape how buyers read store brand prices."
+    text: >-
+      In high-risk categories, higher store brand prices signal higher quality, and a high-image retailer raises store
+      brand evaluations; in low-risk categories at low-image retailers, price has no effect (Łukasik &amp; Schivinski,
+      2015).
+  - headline: "Premium store brands change the role of risk."
+    text: >-
+      High functional risk deters retailers from launching standard store brands but makes premium store brand
+      launches more likely (Łukasik &amp; Schivinski, 2015).
+
+glance:
+  - { label: "Type", value: "Narrative literature review of research on store brand perceived risk since the 1960s" }
+  - { label: "Topics", value: "Concept and dimensions of perceived risk; effects of store brand perceived risk on buyers&rsquo; behavior; premium store brands" }
+  - { label: "Gaps", value: "Few studies outside American and Western European markets; little research on perceived risk and store brand equity, or on premium store brands" }
+
+figures:
+  - file: figures/lukasik-schivinski-2015-price-information-matrix.svg
+    title: "Figure 1. Use of price information and decision-making context"
+    caption: >-
+      Redrawn from Figure 1 of the article, based on Sheinin and Wagner (2003). Cell text as printed.
+
+question: >-
+  Most research on how perceived risk affects consumers concerned manufacturers&rsquo; brands, and gaps remain for
+  store brands despite four decades of work. We reviewed what is known about the concept and measurement of perceived
+  risk for store-branded products and its main effects on buyers&rsquo; behavior.
+
+implications:
+  practical: >-
+    Store brand managers should consider perceived risk when planning their assortment, especially in high-risk
+    categories and where premium store brands can compete with leading national brands.
+  theoretical: >-
+    Future research should test store brand perceived risk outside American and Western European markets (e.g.,
+    Eastern Europe), link it to store brand equity and its dimensions, and study the perceived risk of premium store
+    brands.
+
+limitations:
+  - "A narrative review of selected studies, without a systematic search protocol."
+
+faq:
+  - q: "Why do consumers see store brands as risky?"
+    a: >-
+      Consumers compare store brands with national brands and doubt their quality, so they choose national brands to
+      reduce the chance of a poor purchase (Łukasik &amp; Schivinski, 2015).
+  - q: "What are the types of perceived risk in shopping?"
+    a: >-
+      Performance (functional), physical, psychological, social and financial risk, and time risk (Łukasik &amp;
+      Schivinski, 2015).
+  - q: "Does price affect how consumers judge store brands?"
+    a: >-
+      In high-risk categories, higher prices signal higher store brand quality; in low-risk categories, consumers do not
+      make price-based quality inferences (Sheinin &amp; Wagner, 2003; reviewed by Łukasik &amp; Schivinski, 2015).
+
+concepts:
+  - term: "Perceived risk"
+    definition: "The consumer&rsquo;s subjective uncertainty about the consequences of a purchase and the likelihood of a loss."
+  - term: "Store brand"
+    definition: "A brand owned and sold by a retailer, also called a private label; generic brands were their earliest, unbranded form."
+  - term: "Category risk"
+    definition: "The uncertainty consumers perceive when buying a particular type of product (Shimp &amp; Bearden, 1982)."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Open access article re-typeset as a clean PDF", url: "manuscripts/lukasik-schivinski-2015-annales-umcs-store-brand-perceived-risk.pdf" }
+  - { label: "Published version", note: "Annales UMCS, sectio H – Oeconomia (open access)", url: "https://doi.org/10.17951/h.2015.49.3.117" }
+
+tables:
+  - id: "1"
+    title: "Dimensions of perceived risk associated with shopping behavior"
+    columns: ["Dimension of risk", "Definition", "Cited study"]
+    align: ["left", "left", "left"]
+    rows:
+      - ["Performance (functional) risk", "The product does not perform as expected. The product does not meet standards of quality.", "Jacoby and Kaplan, 1972; Dunn, Murphy and Skelly, 1986"]
+      - ["Physical risk", "Consumers&rsquo; safety in using the product.", "Jacoby and Kaplan, 1972"]
+      - ["Psychological risk", "Poor product choice harms consumers&rsquo; ego.", "Jacoby and Kaplan, 1972; Roselius, 1971"]
+      - ["Social risk", "Product choice may result in embarrassment in front of family or friends; others will think less of a person as a result of a poor product choice.", "Dunn, Murphy and Skelly, 1986; Jacoby and Kaplan, 1972; Roselius, 1971"]
+      - ["Financial risk", "The product is not worth the financial price.", "Dunn, Murphy and Skelly, 1986; Jacoby and Kaplan, 1972; Roselius, 1971"]
+    note: "Source: Tsiros, M., Heilman, C.M., 2005. The effect of expiration dates and perceived risk on purchasing behavior in grocery store in perishable categories. Journal of Marketing 69, p. 117."
+
+related:
+  - "10.17951/h.2017.51.2.169"
+  - "10.7206/cemj.2658-0845.1"
+  - "10.1080/0965254X.2019.1572641"
