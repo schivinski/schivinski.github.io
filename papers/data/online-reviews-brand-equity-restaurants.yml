@@ -1,6 +1,8 @@
 # Paper page data. Schema and writing rules: see PAPER_PAGES.md
 # Source: full text, Central European Management Journal 27(3), 2-27 (open access, CC BY-NC-ND 3.0; published PDF
-# supplied by Bruno, 28 Oct 2026). The article prints both authors' email addresses; they are left out here.
+# supplied by Bruno, 28 Oct 2026). The article prints both authors' email addresses. Under a NoDerivatives licence
+# the publisher's PDF would have to be hosted unchanged (PAPER_PAGES.md), so no copy is hosted; the page links to the
+# free published version. A re-typeset copy without the emails was built (papers/manuscripts/src) but is not published.
 # Figure 1 redrawn. Status: locked on Bruno's standing instruction to publish straight away
 status: locked
 
@@ -18,16 +20,6 @@ online: "2019-09-30"
 open_access: true
 licence: "CC BY-NC-ND 3.0"
 licence_url: "https://creativecommons.org/licenses/by-nc-nd/3.0/"
-
-aam:
-  file: "brzozowska-wos-schivinski-2019-cemj-online-reviews-brand-equity.pdf"
-  button: "Download the full text (PDF)"
-  note: "Free full text: the open access article (CC BY-NC-ND 3.0), re-typeset as a clean PDF with the same content as the published version. Please cite the published version."
-  statement: >-
-    Open access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs 3.0
-    license (https://creativecommons.org/licenses/by-nc-nd/3.0/). Originally published in Central European Management
-    Journal, 27(3), 2–27 (2019), https://doi.org/10.7206/cemj.2658-0845.1. The text has been re-typeset without changes
-    to its content; the authors' email addresses have been left out.
 
 authors:
   - given: "Magdalena"
@@ -184,7 +176,6 @@ materials:
     text: "All 18 items with standardised loadings, <i>t</i>-values, means, standard deviations, skewness, kurtosis and R&sup2; are in Table A below."
 
 open_science:
-  - { label: "Full text (PDF)", note: "Open access article re-typeset as a clean PDF, including the tables and appendix", url: "manuscripts/brzozowska-wos-schivinski-2019-cemj-online-reviews-brand-equity.pdf" }
   - { label: "Published version", note: "Central European Management Journal (open access)", url: "https://doi.org/10.7206/cemj.2658-0845.1" }
 
 tables:

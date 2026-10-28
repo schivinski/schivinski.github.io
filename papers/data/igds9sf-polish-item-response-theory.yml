@@ -1,0 +1,375 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Addictive Behaviors Reports 8 (2018), 176-184 (published PDF supplied by Bruno, 28 Oct 2026;
+# tables and Polish items from the PMC version, PMC6251978). Open access under CC BY-NC-ND 4.0. Under a NoDerivatives
+# licence the publisher's PDF would have to be hosted unchanged, and it prints Bruno's personal and work email
+# addresses, so no copy is hosted here; the page links to the free published version. Figures 1 and 2 redrawn;
+# Figures 3 and 4 recomputed from the Table 2 parameters. Polish item 7 printed "erapeuci" (typo for "terapeuci"),
+# corrected in the scale kit only.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Psychometric assessment of the Internet Gaming Disorder diagnostic criteria: An Item Response Theory study"
+doi: "10.1016/j.abrep.2018.06.004"
+journal: "Addictive Behaviors Reports"
+issn: "2352-8532"
+publisher: "Elsevier"
+volume: "8"
+pages: "176–184"
+published: "2018-12"
+published_label: "2018"
+online: "2018-06-30"
+open_access: true
+licence: "CC BY-NC-ND 4.0"
+licence_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+authors:
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Birkbeck, University of London"]
+    me: true
+  - given: "Magdalena"
+    family: "Brzozowska-Woś"
+    orcid: "0000-0002-8433-0685"
+    affiliation: ["Gdańsk University of Technology"]
+  - given: "Erin M."
+    family: "Buchanan"
+    affiliation: ["Missouri State University"]
+  - given: "Mark D."
+    family: "Griffiths"
+    affiliation: ["Nottingham Trent University"]
+  - given: "Halley M."
+    family: "Pontes"
+    affiliation: ["Nottingham Trent University"]
+
+cite_short: "Schivinski et al., 2018"
+badges: ["3,222 Polish gamers", "Scale validation", "Item response theory", "Graded response model", "Poland"]
+keywords:
+  # Article's own keywords
+  - Internet Gaming Disorder
+  - video games
+  - DSM-5
+  - IGDS9-SF
+  - behavioral addictions
+  # What the study is about
+  - Polish IGDS9-SF
+  - Internet Gaming Disorder Scale–Short-Form
+  - nine IGD criteria
+  - diagnostic criteria weighting
+  - gaming disorder assessment
+  - escape criterion
+  - deception criterion
+  - cross-cultural adaptation
+  - scale translation
+  # Method
+  - online survey
+  - item response theory (IRT)
+  - graded response model
+  - confirmatory factor analysis
+  - MIMIC model
+  - test information curve
+  - mirt
+  - Mplus
+  # Context
+  - Poland
+  - gaming forums
+
+in_brief: >-
+  The Polish version of the nine-item Internet Gaming Disorder Scale–Short-Form is valid and reliable, and works
+  best for detecting above-average levels of disordered gaming. In 3,222 Polish gamers, item response theory showed
+  that the nine DSM-5 criteria do not carry equal weight: &ldquo;escape&rdquo;, &ldquo;deception&rdquo; and
+  &ldquo;continuation&rdquo; fitted worst.
+
+findings:
+  - headline: "The Polish IGDS9-SF measures one dimension reliably."
+    text: >-
+      In 3,222 Polish gamers, a one-factor model fitted well (CFI = 0.968, RMSEA = 0.043), with Cronbach&rsquo;s
+      &alpha; = 0.82, composite reliability = 0.87 and factor determinacy = 0.91 (Schivinski et al., 2018).
+  - headline: "The scale is most informative above the average level of disordered gaming."
+    text: >-
+      The test information curve peaked between 0 and 2 standard deviations above the mean, so the IGDS9-SF is best
+      suited to identifying gamers with higher levels of Internet Gaming Disorder (Schivinski et al., 2018).
+  - headline: "&ldquo;Escape&rdquo; is the weakest criterion."
+    text: >-
+      &ldquo;Escape&rdquo; had the lowest loading (0.47) and discrimination (&alpha; = 0.88) and the poorest item fit
+      (S-&chi;&sup2; = 177.50, <i>p</i> &lt; .001); &ldquo;continuation&rdquo; and &ldquo;deception&rdquo; also fitted
+      poorly (Schivinski et al., 2018).
+  - headline: "Preoccupation and withdrawal discriminate best."
+    text: >-
+      &ldquo;Preoccupation&rdquo; (&alpha; = 1.72) and &ldquo;withdrawal&rdquo; (&alpha; = 1.71) were the most
+      discriminating criteria, which suggests the nine DSM-5 criteria carry different diagnostic weight (Schivinski et
+      al., 2018).
+  - headline: "More time gaming at weekends goes with more disordered gaming."
+    text: >-
+      Time spent gaming at weekends (&beta; = 0.36), on weekdays (&beta; = 0.08) and per session (&beta; = 0.09)
+      predicted IGD scores, supporting criterion validity (Schivinski et al., 2018).
+
+glance:
+  - { label: "Design", value: "Online survey (Qualtrics) advertised through the three largest Polish gaming forums (gry-online.pl, gamesboard.pl, gamesfanatic.pl), March to May 2017" }
+  - { label: "Participants", value: "3,377 gamers who had played in the past 12 months (82.7% male; mean age 20, SD 4.3, range 12&ndash;49); 3,222 analysed after data cleaning" }
+  - { label: "Measures", value: "Polish IGDS9-SF (translated and back-translated, piloted with 52 gamers); weekday, weekend and per-session gaming time" }
+  - { label: "Analysis", value: "CFA (MLR) and MIMIC model in Mplus 7.2; reliability (&alpha;, CR, FD); graded response model in R (mirt), compared with a generalized partial credit model by AIC" }
+  - { label: "Model fit", value: "CFA &chi;&sup2;(27) = 188.75, CFI = 0.968, TLI = 0.958, RMSEA = 0.043, SRMR = 0.025" }
+
+scale:
+  name: "Polish Internet Gaming Disorder Scale–Short-Form (IGDS9-SF)"
+  short: "IGDS9-SF (Polish)"
+  file_stem: "igds9sf-pl"
+  summary: >-
+    The Polish version of the IGDS9-SF (Pontes &amp; Griffiths, 2015): nine items, one for each DSM-5 criterion of
+    Internet Gaming Disorder, answered for gaming over the past 12 months. Translated, back-translated and piloted in
+    this study and validated with 3,222 Polish gamers. Free to use in research; please cite this article and the
+    original IGDS9-SF.
+  facts:
+    - { label: "Items", value: "9 (one dimension), one per DSM-5 criterion; in Polish" }
+    - { label: "Response format", value: "1 = Nigdy (never), 2 = Rzadko (rarely), 3 = Czasami (sometimes), 4 = Często (often), 5 = Bardzo często (very often)" }
+    - { label: "Scoring", value: "Sum of the nine items (range 9–45); higher scores mean more severe disordered gaming" }
+    - { label: "Reliability", value: "Cronbach’s α = 0.82; composite reliability = 0.87; factor determinacy = 0.91" }
+    - { label: "Validated with", value: "3,222 Polish gamers recruited through gaming forums (82.7% male, mean age 20)" }
+  response_labels: ["Nigdy", "Rzadko", "Czasami", "Często", "Bardzo często"]
+  response_codes: [1, 2, 3, 4, 5]
+  score: sum
+  introduction:
+    label: "Instrukcje"
+    source: article
+    text: >-
+      Poniższe pytania dotyczą Twojej aktywności jako gracza podczas ostatniego roku (tzn. w ciągu ostatnich 12
+      miesięcy). Aktywność gracza oznacza każdą aktywność związaną z grą odtwarzaną z komputera / laptopa, konsoli do
+      gier lub innego urządzenia (np. telefonu komórkowego, tabletu itp.), zarówno online, jak i offline.
+  pre_questions:
+    - id: SCREEN
+      title: "Kwalifikacja"
+      type: yesno
+      source: suggested
+      text: "Czy w ciągu ostatnich 12 miesięcy grałeś/aś w gry wideo?"
+      note: "Suggested Polish wording of the eligibility question described in the article (“played videogames in the past 12 months”). Code Nie (no) = 0 and Tak (yes) = 1; respondents who answer Nie do not continue."
+      note_audience: researcher
+      options: [{ code: 0, label: "Nie" }, { code: 1, label: "Tak" }]
+      keep: 1
+  block_instruction: "Zaznacz jedną odpowiedź przy każdym pytaniu."
+  block_instruction_source: suggested
+  dimensions:
+    - code: "IGD"
+      name: "Internet Gaming Disorder"
+      r_name: "igd"
+      definition: "Items 1 to 9 follow the nine DSM-5 criteria: preoccupation, withdrawal, tolerance, loss of control, giving up other activities, continuation, deception, escape and negative consequences."
+      items:
+        - { id: "IGD1", text: "Czy czujesz się zatroskany/a swoim zachowaniem związanym z grami? (Kilka przykładów: Czy rozmyślasz o swojej wcześniejszej aktywności związanej z grami? Czy uważasz, że granie stało się dominującą aktywnością w Twoim życiu codziennym?)", label_in_article: "Item 1, preoccupation: Do you feel preoccupied with your gaming behavior?", loading: "0.73" }
+        - { id: "IGD2", text: "Czy czujesz większą drażliwość, niepokój, a nawet smutek podczas prób ograniczenia lub przerwania gry?", label_in_article: "Item 2, withdrawal: Do you feel more irritability, anxiety or even sadness when you try to either reduce or stop your gaming activity?", loading: "0.64" }
+        - { id: "IGD3", text: "Czy czujesz potrzebę spędzania coraz większej ilości czasu grając, w celu osiągnięcia satysfakcji lub przyjemności?", label_in_article: "Item 3, tolerance: Do you feel the need to spend increasing amount of time engaged gaming in order to achieve satisfaction or pleasure?", loading: "0.72" }
+        - { id: "IGD4", text: "Czy podejmowane próby ograniczenia lub zaprzestania aktywności związanej z grami kończą się niepowodzeniem?", label_in_article: "Item 4, loss of control: Do you systematically fail when trying to control or cease your gaming activity?", loading: "0.63" }
+        - { id: "IGD5", text: "Czy straciłeś/aś zainteresowanie poprzednim hobby lub innego typu rozrywką na skutek Twojego zaangażowania w gry?", label_in_article: "Item 5, give up other activities: Have you lost interests in previous hobbies and other entertainment activities as a result of your engagement with the game?", loading: "0.62" }
+        - { id: "IGD6", text: "Czy kontynuujesz granie pomimo wiedzy, że jest ono przyczyną Twoich problemów/nieporozumień z innymi ludźmi?", label_in_article: "Item 6, continuation: Have you continued your gaming activity despite knowing it was causing problems between you and other people?", loading: "0.78" }
+        - { id: "IGD7", text: "Czy kiedykolwiek oszukałeś/aś, okłamałeś/aś kogokolwiek (rodzina, znajomi, terapeuci, nauczyciele itp.) z powodu Twojej aktywności związanej z graniem?", label_in_article: "Item 7, deception: Have you deceived any of your family members, therapists or others because the amount of your gaming activity?", loading: "0.60" }
+        - { id: "IGD8", text: "Czy grasz po to by choć na krótki czas uciec od złego humoru lub by złagodzić negatywny nastrój bezradności, poczucia winy, niepokoju itp.?", label_in_article: "Item 8, escape: Do you play in order to temporarily escape or relieve a negative mood (e.g., helplessness, guilt, anxiety)?", loading: "0.47" }
+        - { id: "IGD9", text: "Czy przez swoją aktywność związaną z grami naraziłeś/aś się na istotne kłopoty w związku, w szkole/uczelni, w pracy?", label_in_article: "Item 9, negative consequences: Have you jeopardized or lost an important relationship, job or an educational or career opportunity because of your gaming activity?", loading: "0.63" }
+  administration:
+    - "Ask the screening question first; the article included only people who had played video games in the past 12 months."
+    - "Keep the 12-month time frame and the instructions, which cover online and offline gaming on any device."
+    - "The items, instructions and response labels are in Polish, as published in Appendix 1 of the article. For the English original, use Pontes and Griffiths (2015)."
+    - "The IGDS9-SF measures the severity of disordered gaming; it does not diagnose Internet Gaming Disorder. A diagnosis needs a clinical assessment."
+  scoring:
+    - "Code responses 1 (Nigdy) to 5 (Bardzo często)."
+    - "Total score = sum of IGD1 to IGD9 (range 9–45); higher scores mean more severe disordered gaming."
+    - "To classify gamers, count a criterion as endorsed only when answered 5 (Bardzo często, very often), as recommended by Pontes and Griffiths (2015); endorsing five or more of the nine criteria follows the DSM-5 threshold for disordered gaming."
+    - "In the article, item means ranged from 1.71 (item 5) to 2.88 (item 8), and the graded response model gave better fit than the generalized partial credit model."
+    - "For latent-variable models, specify one factor with the nine items (robust maximum likelihood, MLR, as in the article)."
+  intro_note: >-
+    The instructions, items and response labels are the Polish version published in Appendix 1 of the article; only the
+    spelling of “terapeuci” in item 7 is corrected (printed “erapeuci”). The screening question and the short
+    instruction above the items are suggested wording.
+  copy_footer: >-
+    Scoring: sum the nine items (9–45). A criterion is endorsed when answered 5 (Bardzo często); endorsing five or more
+    criteria follows the DSM-5 threshold for disordered gaming, for research purposes.
+  admin_box: >-
+    Ask the screening question first and keep the 12-month time frame. Code answers 1 to 5; the total score is the sum
+    of the nine items (9 to 45). A criterion is endorsed when answered 5 (Bardzo często); five or more endorsed criteria
+    follow the DSM-5 threshold, for research purposes. The scale measures severity and does not replace a clinical
+    diagnosis. Instructions, items and response labels are the Polish version published in the article.
+  analysis:
+    title: "Polish IGDS9-SF: one-factor CFA, MIMIC model and graded response model"
+    r_options: 'estimator = "MLR"'
+    estimator_note: "robust maximum likelihood (MLR), as in the article"
+    r_extra: |
+
+      # 4. Criteria endorsed and research classification (Pontes & Griffiths, 2015)
+      endorsed <- dat[items$igd] == 5                  # answered "Bardzo czesto" (very often)
+      dat$igd_criteria <- rowSums(endorsed)            # number of criteria endorsed, 0-9
+      dat$igd_disordered <- dat$igd_criteria >= 5      # DSM-5 threshold: five or more criteria
+      table(dat$igd_disordered)
+
+      # 5. MIMIC model (Figure 2): weekday, weekend and per-session gaming time predicting IGD.
+      #    Needs columns hours_weekdays, hours_weekend and hours_session.
+      if (all(c("hours_weekdays", "hours_weekend", "hours_session") %in% names(dat))) {
+        model_mimic <- paste(model_cfa, "
+          igd ~ hours_weekdays + hours_weekend + hours_session
+        ")
+        fit_mimic <- sem(model_mimic, data = dat, estimator = "MLR")
+        summary(fit_mimic, fit.measures = TRUE, standardized = TRUE, rsquare = TRUE)
+      }
+
+      # 6. Item response theory (Table 2, Figures 3 and 4): graded response model with mirt,
+      #    compared with a generalized partial credit model by AIC (lower is better)
+      library(mirt)
+      resp <- dat[items$igd]
+      grm  <- mirt(resp, 1, itemtype = "graded", verbose = FALSE)
+      gpcm <- mirt(resp, 1, itemtype = "gpcm", verbose = FALSE)
+      c(AIC_graded = extract.mirt(grm, "AIC"), AIC_gpcm = extract.mirt(gpcm, "AIC"))
+      coef(grm, IRTpars = TRUE, simplify = TRUE)$items   # a = discrimination, b1-b4 = thresholds
+      itemfit(grm)                                       # S-X2 item fit
+      q3 <- residuals(grm, type = "Q3")                  # local dependence: flag values above 0.20
+      plot(grm, type = "trace")                          # trace curves (Figure 3)
+      plot(grm, type = "info")                           # test information curve (Figure 4)
+    mplus_estimator: "MLR"
+    mplus_extra: |
+
+      ! MIMIC model (Figure 2): add hours_weekdays, hours_weekend and
+      ! hours_session to NAMES and USEVARIABLES, then remove the "!" below
+      ! IGD ON hours_weekdays hours_weekend hours_session;
+    mplus_notes: |
+
+      ! Total score = sum of igd1-igd9 (9-45). A criterion is endorsed when
+      ! answered 5 (very often); five or more criteria = DSM-5 threshold.
+      ! The graded response model was estimated in R (mirt); see the R script.
+  downloads:
+    - { label: "Questionnaire in Polish (PDF, print-ready)", file: "materials/igds9sf-pl/igds9sf-pl-questionnaire.pdf" }
+    - { label: "Qualtrics import file (.txt)", file: "materials/igds9sf-pl/igds9sf-pl-qualtrics-import.txt" }
+    - { label: "Item codebook with the English items (.csv)", file: "materials/igds9sf-pl/igds9sf-pl-codebook.csv" }
+    - { label: "R script: scoring, classification, CFA, MIMIC and graded response model (.R)", file: "materials/igds9sf-pl/igds9sf-pl-analysis.R" }
+    - { label: "Mplus input: CFA and MIMIC model (.inp)", file: "materials/igds9sf-pl/igds9sf-pl-cfa.inp" }
+
+figures:
+  - file: figures/schivinski-et-al-2018-igds9sf-pl-cfa.svg
+    title: "Figure 1. Confirmatory factor analysis of the nine IGDS9-SF items"
+    caption: >-
+      Redrawn from Figure 1 of the article. All nine criteria load on one Internet Gaming Disorder factor; only
+      &ldquo;escape&rdquo; (item 8) falls below 0.50. <i>N</i> = 3,222.
+  - file: figures/schivinski-et-al-2018-igds9sf-pl-mimic.svg
+    title: "Figure 2. Criterion-related validity: MIMIC model"
+    caption: >-
+      Redrawn from Figure 2 of the article. Gaming time at weekends, on weekdays and per session predicts Internet
+      Gaming Disorder (<i>R</i>&sup2; = .22); <i>N</i> = 3,222.
+  - file: figures/schivinski-et-al-2018-igds9sf-pl-trace-curves.svg
+    title: "Figure 3. Trace curves for the items of the IGDS9-SF"
+    caption: >-
+      Recomputed from the graded response model parameters in Table 2 (the article&rsquo;s Figure 3 shows the same
+      curves). Each panel gives the probability of each answer along the latent trait; &ldquo;very often&rdquo; becomes
+      the most likely answer only at high levels of disordered gaming. Item 8 (escape) has the flattest curves.
+  - file: figures/schivinski-et-al-2018-igds9sf-pl-information.svg
+    title: "Figure 4. Test information curve for the overall IGDS9-SF"
+    caption: >-
+      Recomputed from the parameters in Table 2. Information peaks between 0 and 2 standard deviations above the mean,
+      so the scale measures above-average levels of disordered gaming most precisely.
+
+results:
+  title: "Discrimination of the nine IGD criteria (graded response model)"
+  unit: ""
+  max: 2
+  note: "Discrimination parameters (&alpha;) from Table 2 of the article (N = 3,222); higher values distinguish better between gamers with lower and higher levels of disordered gaming."
+  groups:
+    - name: "DSM-5 criterion (IGDS9-SF item)"
+      bars:
+        - { label: "1 Preoccupation", value: 1.72, display: "1.72", highlight: true }
+        - { label: "2 Withdrawal", value: 1.71, display: "1.71", highlight: true }
+        - { label: "3 Tolerance", value: 1.60, display: "1.60" }
+        - { label: "6 Continuation", value: 1.59, display: "1.59" }
+        - { label: "9 Negative consequences", value: 1.56, display: "1.56" }
+        - { label: "4 Loss of control", value: 1.53, display: "1.53" }
+        - { label: "7 Deception", value: 1.48, display: "1.48" }
+        - { label: "5 Give up activities", value: 1.38, display: "1.38" }
+        - { label: "8 Escape", value: 0.88, display: "0.88" }
+
+question: >-
+  The American Psychiatric Association proposed nine criteria for Internet Gaming Disorder in the DSM-5 and asked for
+  more research on their clinical and empirical value. No study had applied polytomous item response theory to the
+  nine criteria. We developed the Polish version of the IGDS9-SF, tested its validity and reliability, and examined how
+  well each criterion distinguishes between gamers at different levels of disordered gaming.
+
+implications:
+  practical: >-
+    Researchers and clinicians can use the Polish IGDS9-SF to assess disordered gaming in Polish-speaking samples. The
+    scale is most precise for gamers above the average level of symptoms, which suits screening for problematic cases,
+    but scores should not be read as a diagnosis.
+  theoretical: >-
+    The nine DSM-5 criteria do not carry equal diagnostic weight: &ldquo;escape&rdquo; may work better as a motive for
+    gaming than as a symptom, &ldquo;deception&rdquo; depends on others being present, and &ldquo;continuation&rdquo;
+    may mark milder levels. These results can inform revisions of the IGD criteria.
+
+limitations:
+  - "Non-probability online sample with a high share of male gamers."
+  - "No information on the games or genres played."
+  - "Screening tools for low-prevalence disorders have low positive predictive values, which can inflate prevalence estimates."
+
+faq:
+  - q: "Is there a Polish version of the IGDS9-SF?"
+    a: >-
+      Yes. The Polish IGDS9-SF was translated, back-translated and piloted, and validated with 3,222 Polish gamers
+      (&alpha; = 0.82, composite reliability = 0.87) (Schivinski et al., 2018). The items are available on this page.
+  - q: "Are all nine DSM-5 criteria for Internet Gaming Disorder equally important?"
+    a: >-
+      No. In an item response theory analysis, preoccupation and withdrawal discriminated best, while escape,
+      deception and continuation fitted worst, suggesting different diagnostic weights (Schivinski et al., 2018).
+  - q: "How is the IGDS9-SF scored?"
+    a: >-
+      Sum the nine items, each answered from 1 (never) to 5 (very often), for a total of 9 to 45. For classification,
+      a criterion counts as endorsed when answered &ldquo;very often&rdquo; (Pontes &amp; Griffiths, 2015).
+  - q: "Is escape a symptom of gaming disorder?"
+    a: >-
+      Its role is unclear: &ldquo;escape&rdquo; was the weakest IGDS9-SF item in this study and is also one of the
+      main motives for playing, so it may be better treated as a motive than a diagnostic criterion (Schivinski et
+      al., 2018).
+
+concepts:
+  - term: "Internet Gaming Disorder (IGD)"
+    definition: "Persistent and recurrent gaming that leads to significant impairment or distress, proposed in the DSM-5 as a condition for further study, indicated by five or more of nine criteria over 12 months."
+  - term: "IGDS9-SF"
+    definition: "The nine-item Internet Gaming Disorder Scale–Short-Form (Pontes &amp; Griffiths, 2015), one item per DSM-5 criterion."
+  - term: "Graded response model"
+    definition: "An item response theory model for ordered answer categories that estimates each item&rsquo;s discrimination (&alpha;) and the thresholds (&beta;) between categories (Samejima)."
+  - term: "Test information curve"
+    definition: "A curve showing how precisely a test measures the latent trait at each level; higher information means smaller measurement error."
+
+materials:
+  - label: "Scale items"
+    text: "The nine Polish items, instructions and response labels (Appendix 1 of the article) are in the scale kit above; the English items with loadings and descriptive statistics are in Table 1."
+
+open_science:
+  - { label: "Published version", note: "Addictive Behaviors Reports (open access, CC BY-NC-ND 4.0)", url: "https://doi.org/10.1016/j.abrep.2018.06.004" }
+  - { label: "Free full text in PubMed Central", note: "PMC6251978", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6251978/" }
+
+tables:
+  - id: "1"
+    title: "Overall descriptive statistics across all items of the Polish IGDS9-SF"
+    columns: ["Item", "Loading", "<i>t</i>", "Mean (SD)", "Skewness", "Kurtosis", "<i>R</i>&sup2;"]
+    align: ["left", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["1. Do you feel preoccupied with your gaming behavior? (Example: Do you think gaming has become the dominant activity in your daily life?)", "0.73", "45.11", "2.12 (1.13)", "0.71", "&minus;0.42", "0.41"]
+      - ["2. Do you feel more irritability, anxiety or even sadness when you try to either reduce or stop your gaming activity?", "0.64", "41.50", "1.84 (1.01)", "1.15", "0.74", "0.39"]
+      - ["3. Do you feel the need to spend increasing amount of time engaged gaming in order to achieve satisfaction or pleasure?", "0.72", "44.09", "2.17 (1.13)", "0.73", "&minus;0.27", "0.39"]
+      - ["4. Do you systematically fail when trying to control or cease your gaming activity?", "0.63", "37.29", "1.91 (1.05)", "1.14", "0.70", "0.35"]
+      - ["5. Have you lost interests in previous hobbies and other entertainment activities as a result of your engagement with the game?", "0.62", "32.29", "1.71 (1.13)", "1.51", "1.19", "0.29"]
+      - ["6. Have you continued your gaming activity despite knowing it was causing problems between you and other people?", "0.78", "41.25", "2.15 (1.27)", "0.82", "&minus;0.49", "0.37"]
+      - ["7. Have you deceived any of your family members, therapists or others because the amount of your gaming activity?", "0.60", "36.33", "1.89 (1.03)", "0.96", "0.09", "0.33"]
+      - ["8. Do you play in order to temporarily escape or relieve a negative mood (e.g., helplessness, guilt, anxiety)?", "0.47", "21.49", "2.88 (1.21)", "&minus;0.08", "&minus;0.91", "0.14"]
+      - ["9. Have you jeopardized or lost an important relationship, job or an educational or career opportunity because of your gaming activity?", "0.63", "37.23", "1.84 (1.05)", "1.12", "0.40", "0.35"]
+    note: "Standardised factor loadings; <i>t</i> = <i>t</i>-test statistic; <i>N</i> = 3,222. Values as printed."
+  - id: "2"
+    title: "Item statistics for the graded response model across all items of the Polish IGDS9-SF"
+    columns: ["Item", "&alpha;", "&beta;1", "&beta;2", "&beta;3", "&beta;4", "S-&chi;&sup2;", "df", "<i>p</i>"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["Item 1", "1.72", "&minus;0.37", "0.54", "1.56", "2.65", "77.34", "83", "0.655"]
+      - ["Item 2", "1.71", "&minus;0.04", "1.02", "2.01", "2.92", "97.36", "83", "0.134"]
+      - ["Item 3", "1.60", "&minus;0.53", "0.55", "1.61", "2.57", "88.98", "84", "0.334"]
+      - ["Item 4", "1.53", "&minus;0.16", "1.01", "2.04", "2.84", "101.69", "88", "0.151"]
+      - ["Item 5", "1.38", "0.55", "1.24", "1.96", "2.85", "96.28", "91", "0.333"]
+      - ["Item 6", "1.59", "&minus;0.21", "0.61", "1.38", "2.22", "132.65", "84", "0.001"]
+      - ["Item 7", "1.48", "&minus;0.09", "0.91", "2.09", "3.39", "125.26", "87", "0.005"]
+      - ["Item 8", "0.88", "&minus;1.94", "&minus;0.82", "0.90", "2.94", "177.50", "85", "&lt; 0.001"]
+      - ["Item 9", "1.56", "0.06", "0.98", "1.99", "3.12", "112.32", "86", "0.030"]
+    note: "&alpha; = discrimination; &beta; = difficulty (threshold) parameters; S-&chi;&sup2; = generalized chi-square item fit statistic (Kang &amp; Chen, 2008; Orlando &amp; Thissen, 2000); <i>N</i> = 3,222."
+
+related:
+  - "10.3390/jcm8101730"
+  - "10.1007/s11469-019-00088-z"
+  - "10.1371/journal.pone.0261380"

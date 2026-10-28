@@ -1,0 +1,37 @@
+[[AdvancedFormat]]
+
+[[Block:Introduction]]
+
+[[Question:DB]]
+Poniższe pytania dotyczą Twojej aktywności jako gracza podczas ostatniego roku (tzn. w ciągu ostatnich 12 miesięcy). Aktywność gracza oznacza każdą aktywność związaną z grą odtwarzaną z komputera / laptopa, konsoli do gier lub innego urządzenia (np. telefonu komórkowego, tabletu itp.), zarówno online, jak i offline.
+
+[[Block:Kwalifikacja]]
+
+[[Question:MC:SingleAnswer:Vertical]]
+[[ID:SCREEN]]
+Czy w ciągu ostatnich 12 miesięcy grałeś/aś w gry wideo?
+[[Choices]]
+Nie
+Tak
+
+[[Block:Internet Gaming Disorder]]
+
+[[Question:Matrix]]
+[[ID:IGD]]
+Zaznacz jedną odpowiedź przy każdym pytaniu.
+[[Choices]]
+Czy czujesz się zatroskany/a swoim zachowaniem związanym z grami? (Kilka przykładów: Czy rozmyślasz o swojej wcześniejszej aktywności związanej z grami? Czy uważasz, że granie stało się dominującą aktywnością w Twoim życiu codziennym?)
+Czy czujesz większą drażliwość, niepokój, a nawet smutek podczas prób ograniczenia lub przerwania gry?
+Czy czujesz potrzebę spędzania coraz większej ilości czasu grając, w celu osiągnięcia satysfakcji lub przyjemności?
+Czy podejmowane próby ograniczenia lub zaprzestania aktywności związanej z grami kończą się niepowodzeniem?
+Czy straciłeś/aś zainteresowanie poprzednim hobby lub innego typu rozrywką na skutek Twojego zaangażowania w gry?
+Czy kontynuujesz granie pomimo wiedzy, że jest ono przyczyną Twoich problemów/nieporozumień z innymi ludźmi?
+Czy kiedykolwiek oszukałeś/aś, okłamałeś/aś kogokolwiek (rodzina, znajomi, terapeuci, nauczyciele itp.) z powodu Twojej aktywności związanej z graniem?
+Czy grasz po to by choć na krótki czas uciec od złego humoru lub by złagodzić negatywny nastrój bezradności, poczucia winy, niepokoju itp.?
+Czy przez swoją aktywność związaną z grami naraziłeś/aś się na istotne kłopoty w związku, w szkole/uczelni, w pracy?
+[[Answers]]
+1 - Nigdy
+2 - Rzadko
+3 - Czasami
+4 - Często
+5 - Bardzo często

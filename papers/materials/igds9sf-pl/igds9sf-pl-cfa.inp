@@ -1,0 +1,25 @@
+TITLE:    Polish IGDS9-SF: one-factor CFA, MIMIC model and graded response model
+! Please cite: Schivinski et al. (2018),
+! Addictive Behaviors Reports 8, 176-184.
+! https://doi.org/10.1016/j.abrep.2018.06.004   Materials: schivinski.com
+
+DATA:     FILE = igds9sf-pl.dat;          ! replace with your data file
+
+VARIABLE: NAMES = igd1-igd9;
+          USEVARIABLES = igd1-igd9;
+          MISSING = ALL (-99);
+
+ANALYSIS: ESTIMATOR = MLR;
+
+MODEL:
+  IGD BY igd1-igd9;
+
+          ! MIMIC model (Figure 2): add hours_weekdays, hours_weekend and
+          ! hours_session to NAMES and USEVARIABLES, then remove the "!" below
+          ! IGD ON hours_weekdays hours_weekend hours_session;
+
+OUTPUT:   STANDARDIZED MODINDICES;
+
+! Total score = sum of igd1-igd9 (9-45). A criterion is endorsed when
+! answered 5 (very often); five or more criteria = DSM-5 threshold.
+! The graded response model was estimated in R (mirt); see the R script.

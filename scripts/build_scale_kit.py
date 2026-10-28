@@ -37,8 +37,8 @@ def apa_text(d: dict) -> str:
         return " ".join(p[0] + "." for p in re.split(r"[\s-]+", g) if p)
     names = [f"{a['family']}, {initials(a['given'])}" for a in d["authors"]]
     auth = names[0] if len(names) == 1 else ", ".join(names[:-1]) + ", & " + names[-1]
-    return (f"{auth} ({d['published'][:4]}). {d['title']}. {d['journal']}, {d['volume']}({d['issue']}), "
-            f"{d['pages']}. https://doi.org/{d['doi']}")
+    return (f"{auth} ({d['published'][:4]}). {d['title']}. {d['journal']}, {d['volume']}({d.get('issue', '')}), "
+            f"{d['pages']}. https://doi.org/{d['doi']}").replace("()", "")
 
 
 def short_authors(d: dict, sep_last: str = " and ") -> str:
@@ -213,7 +213,7 @@ do.call(rbind, lapply(split(loadings, loadings$lhs), function(x) {{
     by = "\n".join(f"  {dm['code']} BY {var(dm['items'][0]['id'])}-{var(dm['items'][-1]['id'])};" for dm in dims)
     mp = f'''TITLE:    {ascii_only(an.get("title", s["short"] + " scale: CFA"))}
 ! Please cite: {ascii_only(short_authors(d, " & "))} ({d["published"][:4]}),
-! {ascii_only(d["journal"])} {d["volume"]}({d["issue"]}), {ascii_only(d["pages"])}.
+! {ascii_only(d["journal"])} {d["volume"]}{("(" + d["issue"] + ")") if d.get("issue") else ""}, {ascii_only(d["pages"])}.
 ! https://doi.org/{d["doi"]}   Materials: schivinski.com
 
 DATA:     FILE = {stem}.dat;          ! replace with your data file
