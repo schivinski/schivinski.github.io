@@ -1,0 +1,31 @@
+text: gaming-motives-professional-gamers-esports.blocks.txt
+affiliation_line: Ulm University; RMIT University; Birkbeck, University of London
+title_page_footer: Re-typeset from the published text by the authors; the publisher's typesetting and layout have been removed and Fig. 1 redrawn.
+figures:
+  fig1:
+    svg: figures/montag-et-al-2022-pro-gamer-motives.svg
+table_overrides:
+  '1':
+    title: Cronbach’s alpha for the investigated inventories in the three gamer groups
+    columns: [Measure, 'NPGwoP (*n* = 4,412)', 'NPGwP (*n* = 646)', 'PG (*n* = 129)']
+    widths: [1fr, auto, auto, auto]
+    size: 9pt
+  '2':
+    title: Descriptive statistics of the investigated variables in the three gamer groups including the MANOVA results
+    columns: [Variable, 'NPGwoP (*n* = 4,412)', 'NPGwP (*n* = 646)', 'PG (*n* = 129)', 'MANOVA^{*} *F*(2, 5151)', '*p*', 'η^{2}']
+    widths: [1fr, auto, auto, auto, auto, auto, auto]
+    size: 8pt
+    note: 'Values are *M* (*SD*). M: mean; SD: Standard Deviation; NPGwoP: non-professional gamer without a plan to become one; NPGwP: non-professional gamer with a plan to become a professional gamer; PG: professional gamer. ^{*}Please note that the MANOVA was run with a slightly smaller sample than the desciptive statistics show. N = 33 did not provide information on weekly time spent gaming (*n* = 1 from the NPGwP group and *n* = 32 from the NPGwoP group). Decimal commas in the published table are shown as points.'
+  '3':
+    title: Correlations between gaming motives, disordered gaming, and weekly time spent gaming (two sided test level provided)
+    columns: ['', Social, Escapism, Competition, Coping, Skill Development, Fantasy, Recreation, 'Weekly time spent gaming^{*}']
+    widths: [auto, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr]
+    landscape: true
+    size: 8pt
+    note: 'Cells show Spearman’s rho (*p*) for the correlation with the Gaming Disorder Test (GDT) in each group. NPGwoP: non-professional gamer without plan to become a professional gamer (*n* = 4,412); NPGwP: non-professional gamer with plan to become a professional gamer (*n* = 646); PG: professional gamer (*n* = 129); GDT = Gaming Disorder Test. ^{*}Please note that the sample size for the NPGwP (*n* = 645) and the NGwoP (*n* = 4380) sample is slightly smaller for this variable due to missing data.'
+  '4':
+    title: The results of the hierarchical regression model including stepwise method to predict the Gaming Disorder Test scores (please note that the regression model was run with n = 5154 participants due to a few participants not providing gaming hours per week)
+    columns: ['', 'Unstandardized *B*', Std. Error, Standardized Beta, '*t*-value', '*p*-value']
+    widths: [1fr, auto, auto, auto, auto, auto]
+    size: 8.5pt
+    note: 'Decimal commas in the published table are shown as points.'

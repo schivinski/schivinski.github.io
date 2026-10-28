@@ -1,0 +1,276 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Addictive Behaviors 134, 107416 (published version PDF supplied by Bruno, 28 Oct 2026);
+# ORCIDs from OpenAlex; issue details from Crossref. Figure 1 redrawn from the means in Table 2.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Investigating gaming disorder and individual differences in gaming motives among professional and non-professional gamers: An empirical study"
+doi: "10.1016/j.addbeh.2022.107416"
+journal: "Addictive Behaviors"
+issn: "0306-4603"
+publisher: "Elsevier"
+volume: "134"
+article_number: "107416"
+published: "2022-11"
+published_label: "November 2022 (online 28 June 2022)"
+online: "2022-06-28"
+open_access: false
+
+aam:
+  file: "montag-schivinski-kannen-pontes-2022-ab-accepted-manuscript.pdf"
+  note: "Free full text: the authors' accepted manuscript, identical in content to the published article and shared under CC BY-NC-ND 4.0. Please cite the published version."
+  statement: >-
+    © 2022. This manuscript version is made available under the CC-BY-NC-ND 4.0 license
+    https://creativecommons.org/licenses/by-nc-nd/4.0/. The published version is available at
+    https://doi.org/10.1016/j.addbeh.2022.107416
+
+authors:
+  - given: "Christian"
+    family: "Montag"
+    orcid: "0000-0001-8112-0837"
+    affiliation: ["Ulm University"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Christopher"
+    family: "Kannen"
+    orcid: "0000-0003-4242-0233"
+    affiliation: ["Ulm University"]
+  - given: "Halley M."
+    family: "Pontes"
+    orcid: "0000-0001-8020-7623"
+    affiliation: ["Birkbeck, University of London"]
+
+cite_short: "Montag et al., 2022"
+badges: ["5,187 gamers", "Professional and aspiring esports players", "Online survey", "MANOVA and regression", "Open data (OSF)"]
+keywords:
+  # Article's own keywords
+  - professional gamers
+  - esports
+  - gaming motives
+  - gaming disorder
+  - escapism
+  - Motives for Online Gaming Questionnaire
+  - Gaming Disorder Test
+  # What the study is about
+  - competitive gaming
+  - aspiring professional gamers
+  - disordered gaming
+  - problematic gaming
+  - gaming addiction
+  - ICD-11
+  - WHO framework
+  - video games
+  # Theory and measures
+  - MOGQ
+  - GDT
+  - interpersonal impairment hypothesis
+  - skill development motive
+  - competition motive
+  - coping motive
+  # Method
+  - online survey
+  - MANOVA
+  - Spearman correlations
+  - hierarchical regression
+  - open data
+
+in_brief: >-
+  Professional gamers and gamers who want to turn professional play for much the same reasons, and both groups score
+  higher than other gamers on every gaming motive except recreation. In a survey of 5,187 gamers, the escapism motive
+  went with gaming disorder symptoms most strongly in all three groups, and aspiring professionals had the highest rate
+  of disordered gaming.
+
+findings:
+  - headline: "Aspiring professionals play for the same reasons as professionals."
+    text: >-
+      In a survey of 5,187 gamers, professional gamers (<i>n</i> = 129) and non-professionals planning to turn
+      professional (<i>n</i> = 646) had very similar levels of all seven gaming motives (Montag et al., 2022).
+  - headline: "Both score higher than other gamers on all motives but recreation."
+    text: >-
+      Gamers without esports ambitions (<i>n</i> = 4,412) scored lower on the social, escapism, competition, coping,
+      skill development and fantasy motives; the largest gaps were for skill development (&eta;&sup2; = .056) and social
+      play (&eta;&sup2; = .054), while recreation was similar across groups (&eta;&sup2; = .002) (Montag et al., 2022).
+  - headline: "Escapism is the motive most tied to gaming disorder."
+    text: >-
+      In all three groups, gaming to escape everyday life correlated most strongly with Gaming Disorder Test scores
+      (&rho; = .40 to .44), and it was the strongest predictor in the regression (&beta; = .41), ahead of competition
+      (&beta; = .19) and weekly gaming time (&beta; = .23) (Montag et al., 2022).
+  - headline: "Aspiring professionals have the highest rate of disordered gaming."
+    text: >-
+      8.8% of aspiring professionals met the disordered gaming threshold, compared with 5.9% of other non-professionals
+      and 5.4% of professional gamers (&chi;&sup2; = 8.13, <i>p</i> &lt; .05) (Montag et al., 2022).
+
+glance:
+  - { label: "Design", value: "Cross-sectional online survey on the platform do-i-play-too-much.com, promoted by the esports company ESL Gaming, January 2020 to February 2022" }
+  - { label: "Participants", value: "5,187 gamers aged 12 to 77 (mean 23.9, SD 8.4); 89% men. 129 professional gamers, 646 non-professionals planning to become professional and 4,412 non-professionals without such a plan" }
+  - { label: "Measures", value: "Motives for Online Gaming Questionnaire (MOGQ; 27 items, seven motives: social, escapism, competition, coping, skill development, fantasy, recreation) and the Gaming Disorder Test (GDT; four items, WHO framework); weekly time spent gaming" }
+  - { label: "Analysis", value: "MANOVA with LSD contrasts, Spearman correlations by group, chi-square test of disordered gaming status and a stepwise hierarchical regression predicting GDT scores (IBM SPSS 26)" }
+  - { label: "Disordered gaming", value: "All four GDT items answered &lsquo;often&rsquo; or &lsquo;very often&rsquo;" }
+  - { label: "Ethics", value: "College Research Ethics Committee, Nottingham Trent University (2018/95)" }
+  - { label: "Data", value: "Open data on the Open Science Framework (osf.io/ntyhr)" }
+
+figures:
+  - file: figures/montag-et-al-2022-pro-gamer-motives.svg
+    title: "Figure 1. Gaming motives in the three gamer groups"
+    caption: >-
+      Mean MOGQ scores from Table 2 of the article, redrawn with the axis starting at zero (the published figure starts
+      at 3). Professional gamers and aspiring professionals score alike, and above non-professional gamers on every
+      motive except recreation. Recreation is measured with three items, the other motives with four.
+
+results:
+  title: "How strongly each motive goes with gaming disorder"
+  unit: ""
+  max: 0.5
+  note: "Spearman correlations between motive scores and Gaming Disorder Test scores in each group (Table 3 of the article). PG = professional gamers (n = 129); NPGwP = aspiring professionals (n = 646); NPGwoP = other non-professional gamers (n = 4,412)."
+  groups:
+    - name: "Escapism"
+      bars:
+        - { label: "PG", value: 0.396, display: ".40", highlight: true }
+        - { label: "NPGwP", value: 0.427, display: ".43", highlight: true }
+        - { label: "NPGwoP", value: 0.437, display: ".44", highlight: true }
+    - name: "Competition"
+      bars:
+        - { label: "PG", value: 0.233, display: ".23" }
+        - { label: "NPGwP", value: 0.277, display: ".28" }
+        - { label: "NPGwoP", value: 0.253, display: ".25" }
+    - name: "Coping"
+      bars:
+        - { label: "PG", value: 0.192, display: ".19" }
+        - { label: "NPGwP", value: 0.260, display: ".26" }
+        - { label: "NPGwoP", value: 0.254, display: ".25" }
+    - name: "Social"
+      bars:
+        - { label: "PG", value: 0.047, display: ".05 (n.s.)" }
+        - { label: "NPGwP", value: 0.034, display: ".03 (n.s.)" }
+        - { label: "NPGwoP", value: 0.148, display: ".15" }
+
+question: >-
+  Esports has grown into a billion-dollar industry, yet little is known about whether professional gamers play for
+  different reasons than other gamers, or whether their motives relate to gaming disorder in the same way. We compared
+  professional gamers, gamers intending to become professional and gamers without such ambitions on seven gaming
+  motives, and examined how these motives relate to gaming disorder as defined by the World Health Organization.
+
+implications:
+  practical: >-
+    Because escapism was the motive most linked to gaming disorder in every group, it can help flag gamers who may be
+    vulnerable, including those pursuing an esports career. Aspiring professionals had the highest rate of disordered
+    gaming, so esports organisations and education programmes could tell them that long hours of play carry risks, and
+    that it is possible to be a highly engaged gamer and keep a healthy lifestyle.
+  theoretical: >-
+    The study extends research on gaming motives to esports using the WHO framework for gaming disorder. Motive
+    profiles of professionals and aspiring professionals were alike, against the expectation that professionals would
+    score highest on skill development, competition and social motives. The links of the social and coping motives with
+    disordered gaming are discussed in light of the interpersonal impairment hypothesis.
+
+limitations:
+  - "The cross-sectional design prevents causal conclusions, and all data are self-reported."
+  - "The professional gamer group was small (n = 129), and non-professional gamers were about four years older than the other groups."
+  - "Gender could not be examined because few women took part (8 professional gamers were women); no performance data were available to judge professional success."
+
+faq:
+  - q: "Do professional gamers play for different reasons than other gamers?"
+    a: >-
+      Not compared with aspiring professionals: in a survey of 5,187 gamers, the two groups had similar motive
+      profiles. Both scored higher than gamers without esports ambitions on all motives except recreation
+      (Montag et al., 2022).
+  - q: "Which gaming motive is most linked to gaming disorder?"
+    a: >-
+      Escapism, gaming to get away from everyday life. It correlated most strongly with gaming disorder symptoms in
+      professional, aspiring and non-professional gamers alike (&rho; = .40 to .44; Montag et al., 2022).
+  - q: "Are esports players more at risk of gaming disorder?"
+    a: >-
+      In this sample, gamers aspiring to turn professional had the highest rate of disordered gaming (8.8%), while
+      professional gamers (5.4%) were similar to other gamers (5.9%) (Montag et al., 2022).
+  - q: "How was gaming disorder measured?"
+    a: >-
+      With the Gaming Disorder Test, a four-item measure based on the World Health Organization&rsquo;s ICD-11 criteria
+      for gaming disorder.
+
+concepts:
+  - term: "Gaming disorder"
+    definition: "A condition in ICD-11 (6C51) marked by impaired control over gaming, increasing priority given to gaming and continued gaming despite negative consequences, with significant impairment."
+  - term: "Esports"
+    definition: "Playing video games competitively, with organised teams and official international competitions."
+  - term: "Escapism motive"
+    definition: "Gaming to escape from everyday life and its problems."
+  - term: "Motives for Online Gaming Questionnaire (MOGQ)"
+    definition: "A 27-item measure of seven gaming motives: social, escapism, competition, coping, skill development, fantasy and recreation (Demetrovics et al., 2011)."
+  - term: "Interpersonal impairment hypothesis"
+    definition: "The idea that disordered gamers are more prone to interpersonal stress, such as conflict or social isolation (Cheng et al., 2018)."
+
+materials:
+  - label: "Measures"
+    text: "Motives for Online Gaming Questionnaire (Demetrovics et al., 2011), five-point scale from &lsquo;almost never/never&rsquo; to &lsquo;almost always/always&rsquo;; Gaming Disorder Test (Pontes et al., 2019), five-point scale from &lsquo;never&rsquo; to &lsquo;very often&rsquo;."
+  - label: "Supplementary material"
+    text: "LSD contrasts, MANCOVA results, skewness, kurtosis, normality tests and Pearson correlations are in the article&rsquo;s online supplementary data."
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Free full text, including all tables and the figure", url: "manuscripts/montag-schivinski-kannen-pontes-2022-ab-accepted-manuscript.pdf" }
+  - { label: "Data (OSF)", note: "Open Science Framework project with the dataset", url: "https://osf.io/ntyhr/" }
+  - { label: "Published version", note: "Addictive Behaviors (Elsevier), with the supplementary material", url: "https://doi.org/10.1016/j.addbeh.2022.107416" }
+
+tables:
+  - id: "1"
+    title: "Cronbach&rsquo;s alpha for the investigated inventories in the three gamer groups"
+    collapsed: true
+    columns: ["Measure", "NPGwoP (<i>n</i> = 4,412)", "NPGwP (<i>n</i> = 646)", "PG (<i>n</i> = 129)"]
+    align: ["left", "right", "right", "right"]
+    rows:
+      - ["Gaming Disorder Test", "0.82", "0.79", "0.75"]
+      - ["Social motive", "0.82", "0.81", "0.82"]
+      - ["Escape motive", "0.89", "0.88", "0.90"]
+      - ["Competition motive", "0.85", "0.82", "0.81"]
+      - ["Coping motive", "0.77", "0.78", "0.79"]
+      - ["Skill motive", "0.89", "0.85", "0.83"]
+      - ["Fantasy motive", "0.85", "0.82", "0.80"]
+      - ["Recreational motive", "0.70", "0.55", "0.69"]
+    note: "NPGwoP: non-professional gamer without a plan to become one; NPGwP: non-professional gamer with a plan to become a professional gamer; PG: professional gamer."
+  - id: "2"
+    title: "Descriptive statistics of the investigated variables in the three gamer groups including the MANOVA results"
+    columns: ["Variable", "NPGwoP (<i>n</i> = 4,412)", "NPGwP (<i>n</i> = 646)", "PG (<i>n</i> = 129)", "MANOVA* <i>F</i>(2, 5151)", "<i>p</i>", "&eta;&sup2;"]
+    align: ["left", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["Gaming Disorder Test scores", "10.04 (3.76)", "11.42 (3.84)", "10.60 (3.89)", "37.17", "&lt; .001", "0.014"]
+      - ["Weekly time spent gaming", "25.40 (18.14)", "31.39 (20.72)", "33.85 (24.88)", "39.59", "&lt; .001", "0.015"]
+      - ["Age", "24.58 (8.49)", "20.17 (7.16)", "20.67 (6.32)", "90.43", "&lt; .001", "0.034"]
+      - ["Social motive", "9.31 (4.30)", "12.20 (4.60)", "12.41 (4.74)", "147.70", "&lt; .001", "0.054"]
+      - ["Escape motive", "10.19 (4.80)", "11.98 (5.19)", "11.49 (5.26)", "40.38", "&lt; .001", "0.015"]
+      - ["Competition motive", "10.28 (4.47)", "12.76 (4.46)", "12.85 (4.59)", "101.98", "&lt; .001", "0.038"]
+      - ["Coping motive", "10.95 (3.94)", "12.72 (4.21)", "12.17 (4.48)", "58.99", "&lt; .001", "0.022"]
+      - ["Skill motive", "10.43 (4.71)", "13.61 (4.47)", "13.80 (4.52)", "153.47", "&lt; .001", "0.056"]
+      - ["Fantasy motive", "9.55 (4.69)", "11.11 (4.88)", "11.38 (4.68)", "37.84", "&lt; .001", "0.014"]
+      - ["Recreational motive", "12.59 (2.54)", "12.89 (2.18)", "12.53 (2.57)", "3.88", ".02", "0.002"]
+    note: "Means with standard deviations in brackets; the article prints decimal commas. *The MANOVA was run with a slightly smaller sample than the descriptive statistics show: 33 participants did not report weekly time spent gaming (1 from the NPGwP group and 32 from the NPGwoP group)."
+  - id: "3"
+    title: "Correlations between gaming motives, disordered gaming, and weekly time spent gaming"
+    collapsed: true
+    columns: ["Correlation with GDT", "Social", "Escapism", "Competition", "Coping", "Skill development", "Fantasy", "Recreation", "Weekly time spent gaming*"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["PG", ".047 (<i>p</i> = .595)", ".396 (<i>p</i> &lt; .001)", ".233 (<i>p</i> = .008)", ".192 (<i>p</i> = .029)", "&minus;.032 (<i>p</i> = .715)", ".191 (<i>p</i> = .030)", "&minus;.174 (<i>p</i> = .048)", ".187 (<i>p</i> = .034)"]
+      - ["NPGwP", ".034 (<i>p</i> = .386)", ".427 (<i>p</i> &lt; .001)", ".277 (<i>p</i> &lt; .001)", ".260 (<i>p</i> &lt; .001)", "&minus;.035 (<i>p</i> = .375)", ".258 (<i>p</i> &lt; .001)", ".034 (<i>p</i> = .387)", ".172 (<i>p</i> &lt; .001)"]
+      - ["NPGwoP", ".148 (<i>p</i> &lt; .001)", ".437 (<i>p</i> &lt; .001)", ".253 (<i>p</i> &lt; .001)", ".254 (<i>p</i> &lt; .001)", ".082 (<i>p</i> &lt; .001)", ".270 (<i>p</i> = .001)", ".055 (<i>p</i> &lt; .001)", ".333 (<i>p</i> &lt; .001)"]
+    note: "Spearman&rsquo;s rho with two-sided <i>p</i> values. GDT = Gaming Disorder Test. *Slightly smaller samples for this variable because of missing data (NPGwP <i>n</i> = 645; NPGwoP <i>n</i> = 4,380). The third row is labelled &lsquo;NGwoP&rsquo; in the article."
+  - id: "4"
+    title: "Hierarchical regression (stepwise) predicting Gaming Disorder Test scores"
+    columns: ["Predictor", "<i>B</i>", "SE", "&beta;", "<i>t</i>", "<i>p</i>"]
+    align: ["left", "right", "right", "right", "right", "right"]
+    rows:
+      - ["(Constant)", "7.232", "0.399", "", "18.138", "&lt; .001"]
+      - ["Gamer groups", "&minus;0.450", "0.120", "&minus;.044", "&minus;3.738", "&lt; .001"]
+      - ["Gender", "&minus;0.395", "0.144", "&minus;.033", "&minus;2.735", ".006"]
+      - ["Age", "0.006", "0.005", ".013", "1.083", ".279"]
+      - ["Weekly time spent gaming", "0.046", "0.002", ".226", "18.764", "&lt; .001"]
+      - ["Escapism", "0.320", "0.010", ".412", "32.821", "&lt; .001"]
+      - ["Competition", "0.161", "0.011", ".193", "14.418", "&lt; .001"]
+      - ["Skill development", "&minus;0.103", "0.011", "&minus;.131", "&minus;9.639", "&lt; .001"]
+      - ["Recreation", "&minus;0.077", "0.019", "&minus;.050", "&minus;4.043", "&lt; .001"]
+    note: "<i>n</i> = 5,154 (a few participants did not report weekly gaming hours). The model explained 30.4% of the variance in GDT scores, <i>F</i>(8, 5145) = 280.97, <i>p</i> &lt; .001."
+
+related:
+  - "10.3390/jcm8101691"
+  - "10.1007/s11469-019-00088-z"
+  - "10.1016/j.abrep.2022.100426"
