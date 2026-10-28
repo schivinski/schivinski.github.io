@@ -129,6 +129,9 @@ def typst_table(t: dict, size: str = "8.5pt") -> str:
     for r in t["rows"]:
         if isinstance(r, dict):
             row = r["cells"]
+            if r.get("group") and r.get("span"):
+                cells.append(f"table.cell(colspan: {len(t['columns'])})[#emph[{inline(row[0])}]],")
+                continue
             if r.get("group"):
                 cells.append(", ".join(f"[#emph[{inline(c)}]]" if i == 0 else f"[{inline(c)}]"
                                        for i, c in enumerate(row)) + ",")

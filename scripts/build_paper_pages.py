@@ -119,7 +119,10 @@ def table_html(t: dict) -> str:
             cls = ' class="row-group"' if r.get("group") else ""
         else:
             cells, cls = r, ""
-        tds = "".join(f'<td class="a-{aligns[i]}">{cell(c)}</td>' for i, c in enumerate(cells))
+        if isinstance(r, dict) and r.get("span"):
+            tds = f'<td class="a-left" colspan="{len(cols)}">{cell(cells[0])}</td>'
+        else:
+            tds = "".join(f'<td class="a-{aligns[i]}">{cell(c)}</td>' for i, c in enumerate(cells))
         rows.append(f"<tr{cls}>{tds}</tr>")
     cap = f'Table {esc(t["id"])}. {esc(t["title"])}'
     note = f'<p class="table-note">{cell(t["note"])}</p>' if t.get("note") else ""

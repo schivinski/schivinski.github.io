@@ -1,0 +1,313 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Frontiers in Psychology 11, 617140 (open access, CC BY 4.0); text and tables from the Europe PMC
+# full-text XML (PMC7772182), references from the published PDF supplied by Bruno, 28 Oct 2026. ORCIDs from OpenAlex.
+# The data availability statement names Bruno's work email in the article; it is left out here.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Exploring the role of social media use motives, psychological well-being, self-esteem, and affect in problematic social media use"
+doi: "10.3389/fpsyg.2020.617140"
+journal: "Frontiers in Psychology"
+issn: "1664-1078"
+publisher: "Frontiers"
+volume: "11"
+article_number: "617140"
+published: "2020-12"
+published_label: "16 December 2020"
+online: "2020-12-16"
+open_access: true
+licence: "CC BY 4.0"
+licence_url: "https://creativecommons.org/licenses/by/4.0/"
+
+aam:
+  file: "schivinski-et-al-2020-fpsyg-problematic-social-media-use.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article (CC BY 4.0), re-typeset as a clean PDF with the same content as the published version. Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution License (CC BY,
+    https://creativecommons.org/licenses/by/4.0/). Originally published in Frontiers in Psychology, 11, 617140
+    (16 December 2020), https://doi.org/10.3389/fpsyg.2020.617140. Changes made: the text has been re-typeset and an
+    email address removed from the data availability statement; content is otherwise unchanged.
+
+authors:
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University", "University of Tasmania"]
+    me: true
+  - given: "Magdalena"
+    family: "Brzozowska-Woś"
+    orcid: "0000-0002-8433-0685"
+    affiliation: ["Gdansk University of Technology"]
+  - given: "Ellena"
+    family: "Stansbury"
+    affiliation: ["Nottingham Trent University"]
+  - given: "Jason"
+    family: "Satel"
+    orcid: "0000-0002-5903-4104"
+    affiliation: ["University of Tasmania"]
+  - given: "Christian"
+    family: "Montag"
+    orcid: "0000-0001-8112-0837"
+    affiliation: ["Ulm University"]
+  - given: "Halley M."
+    family: "Pontes"
+    orcid: "0000-0001-8020-7623"
+    affiliation: ["University of Tasmania"]
+
+cite_short: "Schivinski et al., 2020"
+badges: ["584 social media users", "Online survey", "Stepwise regression", "Brief research report", "Open access"]
+keywords:
+  # Article's own keywords
+  - problematic social media use
+  - social media motives
+  - problematic behaviour
+  - well-being
+  - self-esteem
+  - affect
+  - problematic consumer behaviour
+  # What the study is about
+  - social media addiction
+  - social networking sites
+  - Facebook
+  - Instagram
+  - uses and gratifications
+  - intrapersonal motive
+  - surveillance motive
+  - negative affect
+  - positive affect
+  - psychological well-being
+  # Measures
+  - Bergen Social Media Addiction Scale (BSMAS)
+  - Rosenberg Self-Esteem Scale
+  - PANAS
+  - Scales of Psychological Well-Being
+  # Method
+  - online survey
+  - stepwise multiple linear regression
+  - convenience sample
+
+in_brief: >-
+  People who use social media to escape everyday problems or to record their own lives are the most likely to use it
+  problematically. In a survey of 584 adult users, this intrapersonal motive and negative affect were the strongest
+  predictors of problematic social media use, and 6.7% of users were classed as problematic.
+
+findings:
+  - headline: "Using social media for yourself predicts problematic use."
+    text: >-
+      Among 584 social media users, the intrapersonal motive (using social media to forget everyday complications, pass
+      time and record one&rsquo;s life) was the strongest predictor of problematic social media use (&beta; = 0.38)
+      (Schivinski et al., 2020).
+  - headline: "Negative affect also predicts problematic use."
+    text: >-
+      Negative affect (&beta; = 0.22), daily social media use (&beta; = 0.18) and the surveillance motive
+      (&beta; = 0.12) raised problematic use, and positive affect lowered it (&beta; = &minus;0.09); together they
+      explained about 37% of the variance, over and above age and gender (Schivinski et al., 2020).
+  - headline: "About one user in fifteen is a problematic user."
+    text: >-
+      6.68% (<i>n</i> = 39) of the sample scored 4 or more on all six items of the Bergen Social Media Addiction Scale
+      (Schivinski et al., 2020).
+  - headline: "Problematic users differ on well-being, self-esteem and motives."
+    text: >-
+      Problematic users used more platforms, reported more negative affect (<i>d</i> = 1.08) and stronger
+      intrapersonal motives (<i>d</i> = 1.07), and had lower psychological well-being and self-esteem than other users
+      (Schivinski et al., 2020).
+
+glance:
+  - { label: "Design", value: "Cross-sectional online survey (Qualtrics), advertised on Facebook, Twitter, Instagram and Snapchat, May to June 2017; no incentives" }
+  - { label: "Participants", value: "584 English-speaking social media users aged 18 or over (67.8% women; mean age 32.3, SD 12.6), from 759 respondents after excluding missing data" }
+  - { label: "Measures", value: "Bergen Social Media Addiction Scale; Scales of Psychological Well-Being (18 items); Rosenberg Self-Esteem Scale; social media use motives (adapted Motivation for Twitter Use Measure: surveillance, network expansion, intrapersonal motive, relationship maintenance); PANAS" }
+  - { label: "Problematic use", value: "Scores of 4 or more on all six BSMAS items (strict monothetic cut-off)" }
+  - { label: "Analysis", value: "Pearson correlations, Welch-type <i>t</i>-tests with Bonferroni correction, and stepwise multiple linear regression controlling for age and gender (IBM SPSS 26)" }
+  - { label: "Ethics", value: "School of Social Sciences Research Ethics Committee, Nottingham Trent University" }
+
+results:
+  title: "Predictors of problematic social media use"
+  unit: ""
+  max: 0.4
+  note: "Standardised coefficients in the final step of the stepwise regression (Table 4 of the article, n = 584); R&sup2; = .373. Positive affect had a negative coefficient (&minus;0.09)."
+  groups:
+    - name: "Final model"
+      bars:
+        - { label: "Intrapersonal motive", value: 0.38, display: "0.38", highlight: true }
+        - { label: "Negative affect", value: 0.22, display: "0.22", highlight: true }
+        - { label: "Daily social media use", value: 0.18, display: "0.18" }
+        - { label: "Surveillance motive", value: 0.12, display: "0.12" }
+        - { label: "Positive affect", value: 0.09, display: "&minus;0.09" }
+
+question: >-
+  Research on problematic social media use has focused mostly on Facebook, although people now use many platforms. We
+  examined which factors predict problematic use of social media in general: the motives for using social media,
+  psychological well-being, self-esteem, and positive and negative affect, over and above age, gender and patterns of
+  use.
+
+implications:
+  practical: >-
+    The motive for using social media, and especially using it to escape problems or pass time, may help identify
+    users at risk; negative affect was a strong predictor, which matters at times such as the COVID-19 pandemic when
+    exposure to distressing information on social media is high. Problematic users also reported lower self-esteem and
+    used more platforms.
+  theoretical: >-
+    The study links broad social media use motives, drawn from uses and gratifications research, to problematic social
+    media use across platforms, and supports the associations of problematic use with lower well-being and self-esteem
+    and with negative affect.
+
+limitations:
+  - "The cross-sectional design does not allow causal conclusions."
+  - "Self-reports may not reflect actual use, and the convenience, self-selected sample was relatively small."
+  - "The strict BSMAS cut-off lacks evidence of diagnostic accuracy, and only four social media use motives were examined."
+
+faq:
+  - q: "What predicts problematic social media use?"
+    a: >-
+      In a survey of 584 users, the strongest predictors were the intrapersonal motive (using social media to forget
+      everyday complications, pass time and record one&rsquo;s life) and negative affect, followed by daily use and the
+      surveillance motive (Schivinski et al., 2020).
+  - q: "How common is problematic social media use?"
+    a: >-
+      In this sample, 6.68% of users met a strict cut-off on the Bergen Social Media Addiction Scale; earlier studies
+      report rates from 1.6% to 18% (Schivinski et al., 2020).
+  - q: "Is self-esteem related to problematic social media use?"
+    a: >-
+      Yes. Problematic users had lower self-esteem (<i>d</i> = 0.57) and lower psychological well-being
+      (<i>d</i> = 0.61) than other users, although self-esteem did not remain in the final regression model
+      (Schivinski et al., 2020).
+  - q: "What is the Bergen Social Media Addiction Scale?"
+    a: >-
+      A six-item questionnaire measuring the core components of addiction applied to social media: salience, mood
+      modification, tolerance, withdrawal, conflict and relapse (Andreassen et al., 2016).
+
+concepts:
+  - term: "Problematic social media use (PSMU)"
+    definition: "Excessive, poorly controlled social media use that shows addiction-like symptoms and causes problems in daily life."
+  - term: "Intrapersonal motive"
+    definition: "Using social media to forget the complications of everyday life, remember what was done, pass time and record everyday life."
+  - term: "Surveillance motive"
+    definition: "Using social media to follow social issues, current affairs and professional information."
+  - term: "Positive and negative affect"
+    definition: "Trait-like tendencies to experience pleasant (enthusiasm, alertness) or unpleasant (distress, nervousness) emotions."
+
+materials:
+  - label: "Social media use motives"
+    text: "Adapted from the Motivation for Twitter Use Measure (Lee &amp; Kim, 2014) by replacing &lsquo;Twitter&rsquo; with &lsquo;social media&rsquo;: 14 items rated from 1 = strongly disagree to 7 = strongly agree, covering surveillance (5 items), network expansion (3), intrapersonal motive (4) and relationship maintenance (2)."
+  - label: "Data"
+    text: "The data set is not publicly available because of confidentiality limits set by the ethics committee; requests can be made to the first author."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Open access article re-typeset as a clean PDF, including all tables", url: "manuscripts/schivinski-et-al-2020-fpsyg-problematic-social-media-use.pdf" }
+  - { label: "Published version", note: "Frontiers in Psychology (open access)", url: "https://doi.org/10.3389/fpsyg.2020.617140" }
+
+tables:
+- id: '1'
+  title: Structure of the sample, social media (SM) patterns of use and preferences, and descriptive statistics (n = 584)
+  columns: [Variable, Value]
+  align: [left, right]
+  rows:
+  - ['Gender (female, %)', 396 (67.81)]
+  - ['Age (years) (<i>mean, SD</i>)', 32.28 (12.62)]
+  - ['Not in a relationship (<i>n</i>, %)', 157 (26.88)]
+  - group: true
+    cells: ['Most used SM platform (<i>n</i>, %)', '']
+  - [Facebook (including “Messenger”), 326 (55.82)]
+  - [Instagram, 117 (20.03)]
+  - [Twitter, 60 (10.27)]
+  - [Snapchat, 58 (9.93)]
+  - [Other, 23 (3.91)]
+  - group: true
+    cells: ['Number Of SM Platforms Used Daily, (<i>n</i>, %)', '']
+  - ['1', 227 (38.86)]
+  - ['2', 133 (22.77)]
+  - ['3', 131 (22.43)]
+  - ['4', 69 (11.81)]
+  - ['5', 19 (3.25)]
+  - [6 or more, 5 (0.85)]
+  - group: true
+    cells: ['Daily SM Use, (<i>n</i>, %)', '']
+  - [Very rarely, 24 (4.11)]
+  - [Rarely, 88 (15.07)]
+  - [Frequently, 155 (26.54)]
+  - [Very frequently, 203 (34.76)]
+  - ['Access to SM via smartphone (<i>n</i>, %)', 564 (96.58)]
+  - ['Daily SM occurrences (<i>mean, SD</i>)', 18.58 (63.30)]
+  - ['Minutes spent per each session (<i>mean, SD</i>)', 5.58 (38.76)]
+  - group: true
+    cells: ['Problematic SM use (<i>n</i>, %)', '']
+  - [Non-problematic SM use, 545 (93.32)]
+  - [Problematic SM use, 39 (6.68)]
+  - group: true
+    cells: [Descriptive Statistics for Overall Scale Scores, '']
+  - ['Problematic SM use (<i>mean, SD</i>)', 13.41 (4.98)]
+  - ['Psychological well-being (<i>mean, SD</i>)', 79.30 (12.24)]
+  - ['Self-esteem (<i>mean, SD</i>)', 28.33 (6.32)]
+  - ['SM use motivation: Surveillance (<i>mean, SD</i>)', 19.65 (5.98)]
+  - ['SM use motivation: Network expansion (<i>mean, SD</i>)', 12.59 (4.20)]
+  - ['SM use motivation: Intrapersonal motive (<i>mean, SD</i>)', 17.26 (5.18)]
+  - ['SM use motivation: Relationship maintenance (<i>mean, SD</i>)', 10.35 (2.70)]
+  - ['Positive Affect (<i>mean, SD</i>)', 31.42 (7.29)]
+  - ['Negative Affect (<i>mean, SD</i>)', 21.52 (7.52)]
+  note: Problematic SM use risk was computed using a strict monothetic cut-off approach, which considered scores &ge; 4 on all six items of the Bergen Social Media Addiction Scale (BSMAS).
+  collapsed: true
+- id: '2'
+  title: Correlation matrix across the main variables of the study (n = 584)
+  columns: ['', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  align: [left, right, right, right, right, right, right, right, right, right]
+  rows:
+  - [1. Problematic social media use, –, '&minus;0.30<sup>**</sup>', '&minus;0.27<sup>**</sup>', 0.25<sup>**</sup>, 0.29<sup>**</sup>, 0.51<sup>**</sup>, 0.31<sup>**</sup>, '&minus;0.08<sup>*</sup>', 0.37<sup>**</sup>]
+  - [2. Psychological well-being, '', –, 0.78<sup>**</sup>, '&minus;0.04', '&minus;0.09<sup>*</sup>', '&minus;0.22<sup>**</sup>', '0.01', 0.45<sup>**</sup>, '&minus;0.52<sup>**</sup>']
+  - [3. Self-esteem, '', '', –, '&minus;0.09<sup>*</sup>', '&minus;0.12<sup>**</sup>', '&minus;0.26<sup>**</sup>', '&minus;0.08', 0.38<sup>**</sup>, '&minus;0.55<sup>**</sup>']
+  - [4. Surveillance, '', '', '', –, 0.40<sup>**</sup>, 0.21<sup>**</sup>, 0.17<sup>**</sup>, 0.12<sup>**</sup>, 0.13<sup>**</sup>]
+  - [5. Network expansion, '', '', '', '', –, 0.47<sup>**</sup>, 0.49<sup>**</sup>, '&minus;0.01', 0.13<sup>**</sup>]
+  - [6. Intrapersonal motive, '', '', '', '', '', –, 0.50<sup>**</sup>, '&minus;0.03', 0.28<sup>**</sup>]
+  - [7. Relationship maintenance, '', '', '', '', '', '', –, 0.13<sup>**</sup>, 0.10<sup>*</sup>]
+  - [8. Positive affect, '', '', '', '', '', '', '', –, '&minus;0.08']
+  - [9. Negative affect, '', '', '', '', '', '', '', '', –]
+  - [Age, '&minus;0.29<sup>**</sup>', 0.12<sup>**</sup>, 0.19<sup>**</sup>, '&minus;0.13<sup>**</sup>', '&minus;0.10<sup>*</sup>', '&minus;0.28<sup>**</sup>', '&minus;0.16<sup>**</sup>', '&minus;0.09<sup>*</sup>', '&minus;0.25<sup>**</sup>']
+  - [Gender, '0.03', 0.12<sup>**</sup>, '&minus;0.02', '&minus;0.09<sup>*</sup>', '&minus;0.10<sup>**</sup>', '0.07', 0.15<sup>**</sup>, '&minus;0.01', '&minus;0.03']
+  note: 'Zero-order Pearson correlations; <sup>**</sup><i>p</i> &lt; .01, <sup>*</sup><i>p</i> &lt; .05 (two-tailed). Social media use motives: surveillance, network expansion, intrapersonal motive, relationship maintenance. Gender reference 1 = female.'
+  collapsed: true
+- id: '3'
+  title: Main differences across social media (SM) users presenting with low and high risk of problematic social media use (n = 584)
+  columns: [Measure, Low risk, High risk, <i>t</i>, df, Diff., CI lower, CI upper, <i>d</i>]
+  align: [left, right, right, right, right, right, right, right, right]
+  rows:
+  - [Number of SM platforms used, 2.15 (1.19), 2.90 (1.29), '&minus;3.48', '42.77', '&minus;0.74', '&minus;1.17', '&minus;0.31', '0.60']
+  - [Psychological well-being, 4.43 (0.66), 4.00 (0.73), '3.64', '42.66', '0.44', '0.20', '0.68', '0.61']
+  - [Self-esteem, 28.59 (6.19), 24.74 (7.19), '3.25', '42.12', '3.84', '1.46', '6.23', '0.57']
+  - [Surveillance, 19.43 (5.90), 22.69 (6.22), '&minus;3.17', '43.05', '&minus;3.26', '&minus;5.33', '&minus;1.19', '0.53']
+  - [Network expansion, 12.46 (4.19), 14.41 (3.91), '&minus;3.00', '44.47', '&minus;1.96', '&minus;3.27', '&minus;0.64', '0.48']
+  - [Intrapersonal motive, 16.92 (5.07), 22.03 (4.38), '&minus;6.95', '45.62', '&minus;5.11', '&minus;6.58', '&minus;3.63', '1.07']
+  - [Relationship maintenance, 10.28 (2.69), 11.38 (2.59), '&minus;2.56', '44.10', '&minus;1.10', '&minus;1.97', '&minus;0.24', '0.41']
+  - [Positive affect, 31.52 (7.22), 30.03 (8.18), '1.11', '42.35', '1.49', '&minus;1.23', '4.21', '0.19']
+  - [Negative affect, 20.96 (7.16), 29.31 (8.22), '&minus;6.17', '42.23', '&minus;8.34', '&minus;11.07', '&minus;5.62', '1.08']
+  note: Mean (SD). Low risk <i>n</i> = 545; high risk <i>n</i> = 39. Diff. = mean difference; <i>d</i> = Cohen&rsquo;s <i>d</i>. The article notes that results are statistically significant after Bonferroni correction (<i>p</i> &lt; .006). SD, standard deviation; df, degrees of freedom; CI, confidence interval.
+- id: '4'
+  title: The relationship between problematic social media use and key related predictors
+  columns: [Predictor, Step 1 <i>B</i>, Step 1 SE, Step 1 &beta;, Step 2 <i>B</i>, Step 2 SE, Step 2 &beta;, Step 3 <i>B</i>, Step 3 SE, Step 3 &beta;, Step 4 <i>B</i>, Step 4 SE, Step 4 &beta;, Step 5 <i>B</i>, Step 5 SE, Step 5 &beta;]
+  align: [left, right, right, right, right, right, right, right, right, right, right, right, right, right, right, right]
+  rows:
+  - [Intrapersonal motive, '0.50', '0.03', 0.51<sup>***</sup>, '0.43', '0.03', 0.43<sup>***</sup>, '0.39', '0.03', 0.40<sup>***</sup>, '0.37', '0.04', 0.38<sup>***</sup>, '0.37', '0.03', 0.38<sup>***</sup>]
+  - [Negative affect, '', '', '', '0.16', '0.02', 0.16<sup>***</sup>, '0.16', '0.02', 0.24<sup>***</sup>, '0.16', '0.02', 0.23<sup>***</sup>, '0.15', '0.02', 0.22<sup>***</sup>]
+  - [Daily social media use, '', '', '', '', '', '', '0.79', '0.14', 0.19<sup>***</sup>, '0.74', '0.14', 0.18<sup>***</sup>, '0.77', '0.14', 0.18<sup>***</sup>]
+  - [Surveillance, '', '', '', '', '', '', '', '', '', '0.09', '0.03', 0.10<sup>**</sup>, '0.10', '0.03', 0.12<sup>**</sup>]
+  - [Positive affect, '', '', '', '', '', '', '', '', '', '', '', '', '&minus;0.06', '0.02', '&minus;0.09<sup>**</sup>']
+  - group: true
+    cells: ['<i>R</i>&sup2;: .263 (26.3%); .320 (32%); .354 (35.4%); .364 (36.4%); .373 (37.3%)', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    span: true
+  - group: true
+    cells: ['&Delta;<i>R</i>&sup2; (steps 2&ndash;5): .057 (57%); .034 (34%); .010 (10%); .009 (0.9%)', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+    span: true
+  - group: true
+    cells: ['Model: <i>F</i>(1, 581) = 207.66<sup>***</sup>; <i>F</i>(2, 580) = 136.36<sup>***</sup>; <i>F</i>(3, 579) = 105.79<sup>***</sup>; <i>F</i>(4, 578) = 82.72<sup>***</sup>; <i>F</i>(5, 577) = 68.54<sup>***</sup>', '', '', '', '', '', '', '',
+      '', '', '', '', '', '', '', '']
+    span: true
+  - group: true
+    cells: ['Steps: &Delta;<i>F</i>(1, 580) = 48.20<sup>***</sup>; &Delta;<i>F</i>(1, 579) = 30.69<sup>***</sup>; &Delta;<i>F</i>(1, 578) = 9.08<sup>**</sup>; &Delta;<i>F</i>(1, 577) = 7.88<sup>**</sup>', '', '', '', '', '', '', '', '', '', '', '', '',
+      '', '', '']
+    span: true
+  collapsed: true
+  note: Stepwise multiple linear regression. <sup>***</sup><i>p</i> &lt; .001; <sup>**</sup><i>p</i> &lt; .05 (as defined in the article). The final model (step 5) excluded age and gender (control variables), psychological well-being, self-esteem, network
+    expansion and relationship maintenance. Percentages for &Delta;<i>R</i>&sup2; as printed.
+related:
+  - "10.1007/s11469-021-00590-3"
+  - "10.1371/journal.pone.0261380"
+  - "10.1016/j.jbusres.2019.08.045"

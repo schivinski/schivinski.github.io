@@ -1,0 +1,31 @@
+text: problematic-social-media-use-motives.blocks.txt
+affiliation_line: RMIT University; University of Tasmania; Gdansk University of Technology; Nottingham Trent University; Ulm University
+title_page_label: Open access article
+running_label: open access (CC BY 4.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article; it differs only in formatting and
+  pagination, and an email address has been removed from the data availability statement. Please cite the published version.
+title_page_footer: Re-typeset from the published open access article (CC BY 4.0); the publisher's typesetting and layout have been removed.
+table_overrides:
+  '1':
+    title: Structure of the sample, social media (SM) patterns of use and preferences, and descriptive statistics (n = 584)
+    columns: [Variable, '']
+    widths: [1fr, auto]
+    size: 9pt
+    note: '*Problematic SM use risk was computed using a strict monothetic cut-off approach, which considered scores ≥ 4 on all six items of the Bergen Social Media Addiction Scale (BSMAS).*'
+  '2':
+    title: Correlation matrix across the main variables of the study (n = 584)
+    columns: ['', '**1**', '**2**', '**3**', '**4**', '**5**', '**6**', '**7**', '**8**', '**9**']
+    widths: [1.8fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr]
+    size: 8pt
+    note: '*Social media use motivations subdimensions include surveillance, network expansion, intrapersonal motive, relationship maintenance*; ^{**}zero-order Pearson correlation (r) significant at the 0.01 level (two-tailed); ^{*}zero-order Pearson correlation (r) significant at the 0.05 level (two-tailed); Gender ref=1 female.'
+  '3':
+    title: Main differences across social media (SM) users presenting with low and high risk of problematic social media use (n = 584)
+    columns: [Measure, Low risk mean (SD), High risk mean (SD), t-statistic, df, Mean differences, CI lower, CI upper, 'Cohen''s d']
+    landscape: true
+    size: 8.5pt
+    note: '*Results are statistically significant after applying Bonferroni correction to account for potential Type I error (i.e., p < 0.006); SD, standard deviation; df, degrees of freedom; CI, confidence interval*.'
+  '4':
+    landscape: true
+    size: 7.5pt
+    note: '^{***}*p* < 0.001; ^{**}*p* < 0.05. The final model, i.e., Step 5 excluded the following variables due to low or non-significant predictive power: age and gender (control variables), psychological well-being, self-esteem, network expansion, and relationship maintenance. B, unstandardized regression coefficient; SE, standard error; β, standardized regression coefficient; R^{2}, R square; ΔR^{2}, R square change.'

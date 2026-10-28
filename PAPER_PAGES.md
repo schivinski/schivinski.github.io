@@ -161,7 +161,7 @@ authors (given, family, orcid, affiliation, me), cite_short, badges, keywords, i
 (headline, text), glance (label, value), design_figure (file, caption), results (title,
 unit, note, groups of bars), question, implications (practical, theoretical), limitations, faq (q, a),
 concepts (term, definition), materials (label, text), materials_note, figures (file, title, caption),
-tables (id, title, columns, align, rows, note, collapsed, web, section), student_note (title, text: a short personal note
+tables (id, title, columns, align, rows, note, collapsed, web, section; a row can be {group: true, cells, span: true} to span all columns), student_note (title, text: a short personal note
 above the summary when the paper comes from a student's thesis; Bruno approves the wording), aam (file, statement), scale (see above), open_science (label, note, url;
 url optional), related (DOIs)`
 

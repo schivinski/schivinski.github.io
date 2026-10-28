@@ -68,7 +68,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 47 | 2021 | Empirical evidence for robust personality-gaming disorder associations from a large-sca… | PLOS ONE | 30 | locked (`personality-gaming-disorder-apa-who`) |
 | 48 | 2021 | Is the proposed distinction of gaming disorder into a predominantly online vs. offline … | Addictive Behaviors Reports | 55 | locked (`online-offline-gaming-disorder-devices`) |
 | 49 | 2021 | Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scopi… | Nutrients | 25 |  |
-| 50 | 2020 | Exploring the Role of Social Media Use Motives, Psychological Well-Being, Self-Esteem, … | Frontiers in Psychology | 236 |  |
+| 50 | 2020 | Exploring the Role of Social Media Use Motives, Psychological Well-Being, Self-Esteem, … | Frontiers in Psychology | 236 | locked (`problematic-social-media-use-motives`) |
 | 51 | 2020 | How values of individualism and collectivism influence impulsive buying and money budge… | Journal of Consumer Behaviour | 85 |  |
 | 52 | 2020 | Proteus Effect Profiles: How Do They Relate with Disordered Gaming Behaviours? | Psychiatric Quarterly | 46 |  |
 | 53 | 2019 | Laxer Clinical Criteria for Gaming Disorder May Hinder Future Efforts to Devise an Effi… | Journal of Clinical Medicine | 49 |  |
