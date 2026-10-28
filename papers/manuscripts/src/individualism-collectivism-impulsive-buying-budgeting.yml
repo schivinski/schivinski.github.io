@@ -1,0 +1,31 @@
+text: individualism-collectivism-impulsive-buying-budgeting.blocks.txt
+affiliation_line: London South Bank University; RMIT University; University of Stavanger
+title_page_footer: Re-typeset from the published text by the authors; the publisher's typesetting and layout have been removed and Figure 1 redrawn.
+figures:
+  fig1:
+    svg: figures/czarnecka-et-al-2020-agcc-impulsive-model.svg
+table_overrides:
+  '1':
+    title: Nationalities included in the study
+    columns: [Country, Frequency, '%']
+    widths: [1fr, auto, auto]
+    size: 8.5pt
+  '2':
+    title: Reliability and validity scores of the conceptual model
+    columns: [Construct, Alpha, CR, AVE, '1', '2', '3', '4', '5', '6', '7']
+    widths: [1fr, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto]
+    landscape: true
+    size: 8.5pt
+    note: '*Note*: VI/HI = vertical/horizontal individualism; VC/HC = vertical/horizontal collectivism; gender ref: 0 = male. The square root of the average variance extracted values appears in italics. Cronbach''s alpha, CR, and AVE for AGCC were calculated for each individual dimension. FIML*χ*^{2}_{(896)} = 2,612.87, CFI = 0.91, TLI = 0.90, and RMSEA = 0.05 (90% CI [0.05–0.05]); ^{***}*p* < 0.001, ^{**}*p* < 0.01, ^{*}*p* < 0.10; *n* = 594. Abbreviations: CR, composite reliability; AVE, average variance extracted.'
+  '3':
+    title: Standardized structural coefficients
+    columns: [Hypothesis, β, '*t*-value', '*p*-value', Supported/not supported]
+    widths: [1fr, auto, auto, auto, auto]
+    size: 8.5pt
+    note: '*Note*: FIML*χ*^{2}_{(914)} = 2,401.98, CFI = 0.91, TLI = 0.90, and RMSEA = 0.05 (90% [CI 0.05–0.06]); Gender ref: male = 0; *n* = 594; number of bootstrap draws = 5,000. For the indirect effects, β is the specific indirect β.'
+  A1:
+    title: Descriptive statistics for the constructs and measurements
+    columns: [Constructs and measurements, Loading, Mean, SD, Skew., Kurt.]
+    widths: [1fr, auto, auto, auto, auto, auto]
+    size: 8pt
+    note: 'Loading = standardized factor loading; Skew. = skewness; Kurt. = kurtosis.'

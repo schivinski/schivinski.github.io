@@ -69,7 +69,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 48 | 2021 | Is the proposed distinction of gaming disorder into a predominantly online vs. offline … | Addictive Behaviors Reports | 55 | locked (`online-offline-gaming-disorder-devices`) |
 | 49 | 2021 | Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scopi… | Nutrients | 25 |  |
 | 50 | 2020 | Exploring the Role of Social Media Use Motives, Psychological Well-Being, Self-Esteem, … | Frontiers in Psychology | 236 | locked (`problematic-social-media-use-motives`) |
-| 51 | 2020 | How values of individualism and collectivism influence impulsive buying and money budge… | Journal of Consumer Behaviour | 85 |  |
+| 51 | 2020 | How values of individualism and collectivism influence impulsive buying and money budge… | Journal of Consumer Behaviour | 85 | locked (`individualism-collectivism-impulsive-buying-budgeting`) |
 | 52 | 2020 | Proteus Effect Profiles: How Do They Relate with Disordered Gaming Behaviours? | Psychiatric Quarterly | 46 |  |
 | 53 | 2019 | Laxer Clinical Criteria for Gaming Disorder May Hinder Future Efforts to Devise an Effi… | Journal of Clinical Medicine | 49 |  |
 | 54 | 2019 | Psychopathological symptoms and gaming motives in disordered gaming—a psychometric comp… | Journal of Clinical Medicine | 175 | locked (`gaming-motives-who-apa`) |

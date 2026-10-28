@@ -1,0 +1,357 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Consumer Behaviour 19(5), 505-522 (published version PDF supplied by Bruno, 28 Oct 2026);
+# issue details from Crossref, ORCIDs from OpenAlex. Figure 1 redrawn (with the Table 3 estimates on this page).
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "How values of individualism and collectivism influence impulsive buying and money budgeting: the mediating role of acculturation to global consumer culture"
+doi: "10.1002/cb.1833"
+journal: "Journal of Consumer Behaviour"
+issn: "1472-0817"
+publisher: "Wiley"
+volume: "19"
+issue: "5"
+pages: "505–522"
+published: "2020-09"
+published_label: "September 2020 (online 29 June 2020)"
+online: "2020-06-29"
+open_access: false
+
+aam:
+  file: "czarnecka-schivinski-keles-2020-jcb-accepted-manuscript.pdf"
+  statement: >-
+    This is the peer reviewed version of the following article: Czarnecka, B., Schivinski, B., &amp; Keles, S. (2020).
+    How values of individualism and collectivism influence impulsive buying and money budgeting: the mediating role of
+    acculturation to global consumer culture. Journal of Consumer Behaviour, 19(5), 505–522, which has been published
+    in final form at https://doi.org/10.1002/cb.1833. This article may be used for non-commercial purposes in
+    accordance with Wiley Terms and Conditions for Use of Self-Archived Versions.
+
+authors:
+  - given: "Barbara"
+    family: "Czarnecka"
+    orcid: "0000-0002-8314-1727"
+    affiliation: ["London South Bank University"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Serap"
+    family: "Keles"
+    orcid: "0000-0002-1174-0667"
+    affiliation: ["University of Stavanger"]
+
+cite_short: "Czarnecka et al., 2020"
+badges: ["594 immigrants in the UK", "35 nationalities", "Online survey", "Structural equation modelling", "Mediation analysis"]
+keywords:
+  # What the study is about
+  - acculturation to global consumer culture
+  - global consumer culture
+  - impulsive buying
+  - money budgeting
+  - individualism
+  - collectivism
+  - vertical and horizontal individualism
+  - vertical and horizontal collectivism
+  - cultural values
+  - consumer acculturation
+  - immigrants
+  - financial behaviour
+  - materialism
+  - globalisation
+  # Theory and measures
+  - person-environment fit theory
+  - acculturation theory
+  - AGCC scale (Durvasula & Lysonski)
+  - Sivadas et al. individualism–collectivism scale
+  # Method
+  - online survey
+  - confirmatory factor analysis
+  - structural equation modelling (SEM)
+  - mediation analysis
+  - bootstrapping
+  - lavaan
+  # Context
+  - United Kingdom
+
+in_brief: >-
+  Immigrants who value hierarchy, whether competing as individuals or deferring to their group, are the most open to
+  global consumer culture, and that openness goes with more impulsive buying and poorer money budgeting. In 594
+  immigrants living in the UK, the vertical rather than the individualist or collectivist side of people&rsquo;s values
+  explained who acculturated to global consumer culture.
+
+findings:
+  - headline: "Vertical values drive acculturation to global consumer culture."
+    text: >-
+      Among 594 immigrants in the UK from 35 countries, vertical individualism (&beta; = 0.44) and vertical
+      collectivism (&beta; = 0.30) were positively related to acculturation to global consumer culture; horizontal
+      individualism was not (Czarnecka et al., 2020).
+  - headline: "Global consumer culture goes with impulsive buying."
+    text: >-
+      Consumers more acculturated to global consumer culture reported more impulsive buying (&beta; = 0.60) and less
+      money budgeting (&beta; = &minus;0.48) (Czarnecka et al., 2020).
+  - headline: "Acculturation carries the effect of vertical values."
+    text: >-
+      Acculturation to global consumer culture mediated the links of vertical individualism with impulsive buying
+      (indirect &beta; = 0.40) and money budgeting (&minus;0.21), and of vertical collectivism with impulsive buying
+      (0.27) and money budgeting (&minus;0.14); the horizontal values showed no significant indirect effects
+      (Czarnecka et al., 2020).
+  - headline: "Younger consumers and women are more acculturated."
+    text: >-
+      Younger participants (&beta; = &minus;0.28) and women (&beta; = 0.18) were more acculturated to global consumer
+      culture; length of stay in the UK made no difference (Czarnecka et al., 2020).
+
+glance:
+  - { label: "Design", value: "Online survey of immigrants recruited through social networking groups for national communities (e.g. &lsquo;Poles in Luton&rsquo;, &lsquo;Nigerians in the UK&rsquo;), InterNations and personal networks" }
+  - { label: "Participants", value: "594 adult immigrants from 35 non-Anglo-Saxon countries living in the UK (59% women; mean age 32.9, SD 9.4); 57.2% long-term residents and 38.8% students" }
+  - { label: "Measures", value: "Vertical and horizontal individualism and collectivism (Sivadas et al., 2008; 9-point scale); acculturation to global consumer culture (21 items, seven dimensions; Durvasula &amp; Lysonski, 2015); impulsive buying (Ridgway et al., 2008); money budgeting (Luna-Arocas &amp; Tang, 2004)" }
+  - { label: "Controls", value: "Age, gender and length of stay in the UK" }
+  - { label: "Analysis", value: "Confirmatory factor analysis and structural equation modelling with FIML estimation and 5,000 bootstrap draws, in R (lavaan)" }
+  - { label: "Model fit", value: "CFA: &chi;&sup2;(896) = 2,612.87, CFI = 0.91, TLI = 0.90, RMSEA = 0.05. Structural model: &chi;&sup2;(914) = 2,401.98, CFI = 0.91, TLI = 0.90, RMSEA = 0.05; R&sup2; = .57 (AGCC), .53 (impulsive buying), .21 (money budgeting)" }
+
+figures:
+  - file: figures/czarnecka-et-al-2020-agcc-impulsive-estimates.svg
+    title: "Figure 1. Conceptual model, with the estimates reported in Table 3"
+    caption: >-
+      Standardised coefficients from Table 3 of the article; grey dashed paths are not significant at <i>p</i> &lt; .05.
+      Vertical collectivism was hypothesised to lower acculturation but raised it. * <i>p</i> &le; .05, ** <i>p</i>
+      &le; .01, *** <i>p</i> &le; .001 as printed; <i>n</i> = 594.
+
+results:
+  title: "What drives acculturation to global consumer culture, and what it drives"
+  unit: ""
+  max: 0.6
+  note: "Standardised coefficients from Table 3 of the article (n = 594). Money budgeting (&minus;0.48) and horizontal collectivism (&minus;0.26, p = .07) are negative; horizontal individualism (&minus;0.08) was not significant."
+  groups:
+    - name: "Values → acculturation"
+      bars:
+        - { label: "Vertical individualism", value: 0.44, display: "0.44", highlight: true }
+        - { label: "Vertical collectivism", value: 0.30, display: "0.30", highlight: true }
+    - name: "Acculturation → behaviour"
+      bars:
+        - { label: "Impulsive buying", value: 0.60, display: "0.60", highlight: true }
+        - { label: "Money budgeting", value: 0.48, display: "&minus;0.48" }
+
+question: >-
+  Global consumer culture promotes spending, but people differ in how far they embrace it. Drawing on
+  person-environment fit and acculturation theory, we asked whether immigrants whose cultural values fit global
+  consumer culture are more likely to acculturate to it, and whether that acculturation leads to more impulsive buying
+  and poorer money budgeting.
+
+implications:
+  practical: >-
+    Consumer organisations and social marketers can target consumers highly acculturated to global consumer culture,
+    and those with vertical values, with financial education and budgeting tools. Financial services providers can
+    offer such consumers products that encourage budgeting and long-term planning, framing messages around individual
+    achievement for vertical individualists and around the group for vertical collectivists.
+  theoretical: >-
+    It is the vertical&ndash;horizontal distinction, not individualism versus collectivism, that explains the acceptance
+    of global consumer culture: accepting inequality between individuals or within groups goes with acculturation. The
+    fit between values, acculturation and consumption behaviours supports person-environment fit theory in consumer
+    research.
+
+limitations:
+  - "The cross-sectional, non-experimental design does not allow causal inference, and the survey was in English only."
+  - "Immigrants are exposed at the same time to the host (British) culture and to global consumer culture, which are hard to separate."
+  - "Future work could study other consumption behaviours and replicate the model in other countries."
+
+faq:
+  - q: "Does global consumer culture make people buy impulsively?"
+    a: >-
+      Among 594 immigrants in the UK, those more acculturated to global consumer culture reported more impulsive buying
+      (&beta; = 0.60) and less money budgeting (&beta; = &minus;0.48) (Czarnecka et al., 2020).
+  - q: "Which cultural values go with acculturation to global consumer culture?"
+    a: >-
+      Vertical individualism and vertical collectivism, the values that accept hierarchy between individuals or within
+      groups; horizontal individualism did not (Czarnecka et al., 2020).
+  - q: "What is acculturation to global consumer culture?"
+    a: >-
+      The extent to which people adopt the knowledge, skills and behaviours of a global consumer culture, measured by
+      cosmopolitanism, exposure to global marketing and media, English use, social interactions, openness and
+      self-identification with global consumer culture.
+  - q: "Who is most acculturated to global consumer culture?"
+    a: >-
+      In this sample, younger people and women; how long immigrants had lived in the UK made no difference
+      (Czarnecka et al., 2020).
+
+concepts:
+  - term: "Global consumer culture (GCC)"
+    definition: "A Western-style culture of consumption spread by global brands, media and mobility."
+  - term: "Acculturation to global consumer culture (AGCC)"
+    definition: "How far an individual adopts the knowledge, skills and behaviours of global consumer culture (Durvasula &amp; Lysonski, 2015)."
+  - term: "Vertical and horizontal individualism and collectivism"
+    definition: "Cultural values that combine independence or interdependence with acceptance of hierarchy (vertical) or equality (horizontal)."
+  - term: "Money budgeting"
+    definition: "A tendency to plan, budget and use money carefully (Luna-Arocas &amp; Tang, 2004)."
+  - term: "Person-environment fit"
+    definition: "The degree of match between a person&rsquo;s characteristics and those of their environment."
+
+materials:
+  - label: "Scale items"
+    text: "All items with standardised loadings, means, standard deviations, skewness and kurtosis are in Table A1 below."
+  - label: "Nationalities"
+    text: "The 35 nationalities in the sample, with frequencies, are in Table 1 below; the largest groups were from Pakistan (41), Poland (38), Germany (28) and the Netherlands (28)."
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Free full text, including all tables and the appendix", url: "manuscripts/czarnecka-schivinski-keles-2020-jcb-accepted-manuscript.pdf" }
+  - { label: "Published version", note: "Journal of Consumer Behaviour (Wiley)", url: "https://doi.org/10.1002/cb.1833" }
+
+tables:
+  - id: "1"
+    title: "Nationalities included in the study"
+    collapsed: true
+    columns: ["Country", "Frequency", "%"]
+    align: ["left", "right", "right"]
+    rows:
+      - ["Pakistan", "41", "6.91"]
+      - ["Poland", "38", "6.41"]
+      - ["Germany", "28", "4.72"]
+      - ["Netherlands", "28", "4.72"]
+      - ["India", "26", "4.38"]
+      - ["Italy", "26", "4.38"]
+      - ["Nigeria", "24", "4.05"]
+      - ["Ghana", "23", "3.88"]
+      - ["Greece", "23", "3.88"]
+      - ["Portugal", "23", "3.88"]
+      - ["Saudi Arabia", "21", "3.54"]
+      - ["Slovakia", "18", "3.04"]
+      - ["Bangladesh", "17", "2.87"]
+      - ["Philippines", "17", "2.87"]
+      - ["China", "16", "2.70"]
+      - ["Spain", "16", "2.70"]
+      - ["Latvia", "15", "2.53"]
+      - ["Sri Lanka", "15", "2.53"]
+      - ["Egypt", "14", "2.36"]
+      - ["Jamaica", "13", "2.19"]
+      - ["Vietnam", "13", "2.19"]
+      - ["Argentina", "12", "2.02"]
+      - ["Belgium", "12", "2.02"]
+      - ["Bahrain", "11", "1.85"]
+      - ["Cyprus", "11", "1.85"]
+      - ["Iran", "11", "1.85"]
+      - ["Iraq", "11", "1.85"]
+      - ["Myanmar", "11", "1.85"]
+      - ["Rep. of the Congo", "11", "1.85"]
+      - ["Romania", "11", "1.85"]
+      - ["Zimbabwe", "11", "1.85"]
+      - ["Bulgaria", "10", "1.69"]
+      - ["Brazil", "8", "1.35"]
+      - ["Chile", "6", "1.01"]
+      - ["France", "3", "0.51"]
+  - id: "2"
+    title: "Reliability and validity scores of the conceptual model"
+    columns: ["Construct", "&alpha;", "CR", "AVE", "1", "2", "3", "4", "5", "6", "7"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["1. VI", "0.74", "0.75", "0.50", "<i>0.71</i>", "0.22***", "0.63***", "0.11**", "0.44***", "0.11**", "0.05"]
+      - ["2. HI", "0.73", "0.75", "0.52", "", "<i>0.72</i>", "0.03", "0.66***", "&minus;0.14**", "&minus;0.14**", "0.13**"]
+      - ["3. VC", "0.79", "0.82", "0.54", "", "", "<i>0.73</i>", "0.21***", "0.43***", "0.11**", "0.09*"]
+      - ["4. HC", "0.80", "0.82", "0.54", "", "", "", "<i>0.73</i>", "&minus;0.21***", "&minus;0.29***", "0.28***"]
+      - ["5. AGCC", "&ndash;", "&ndash;", "&ndash;", "", "", "", "", "&ndash;", "0.47***", "&minus;0.22**"]
+      - ["6. Impulsive buying", "0.86", "0.86", "0.67", "", "", "", "", "", "<i>0.82</i>", "&minus;0.51***"]
+      - ["7. Budgeting", "0.85", "0.86", "0.61", "", "", "", "", "", "", "<i>0.78</i>"]
+      - ["Age", "&ndash;", "&ndash;", "&ndash;", "&minus;0.14**", "&minus;0.16***", "&minus;0.13**", "&minus;0.08**", "&minus;0.18**", "&minus;0.24***", "0.12**"]
+      - ["Gender", "&ndash;", "&ndash;", "&ndash;", "&minus;0.28***", "&minus;0.08**", "&minus;0.26***", "&minus;0.14**", "&minus;0.11**", "0.25***", "&minus;0.11*"]
+      - ["Length of stay", "&ndash;", "&ndash;", "&ndash;", "&minus;0.13**", "&minus;0.08**", "&minus;0.13**", "&minus;0.13**", "&minus;0.11**", "&minus;0.04", "&minus;0.05"]
+    note: "VI/HI = vertical/horizontal individualism; VC/HC = vertical/horizontal collectivism; gender ref: 0 = male. Square roots of the average variance extracted on the diagonal (in italics). Cronbach&rsquo;s alpha, CR and AVE for AGCC were calculated for each individual dimension. FIML &chi;&sup2;(896) = 2,612.87, CFI = 0.91, TLI = 0.90, RMSEA = 0.05 (90% CI [0.05&ndash;0.05]); ***<i>p</i> &lt; 0.001, **<i>p</i> &lt; 0.01, *<i>p</i> &lt; 0.10 (as printed); <i>n</i> = 594. CR = composite reliability; AVE = average variance extracted."
+  - id: "3"
+    title: "Standardized structural coefficients"
+    columns: ["Hypothesis", "&beta;", "<i>t</i>", "<i>p</i>", "Supported"]
+    align: ["left", "right", "right", "right", "left"]
+    rows:
+      - ["H1. Vertical individualism → AGCC", "0.44", "3.16", ".001", "Supported"]
+      - ["H2. Horizontal individualism → AGCC", "&minus;0.08", "&minus;0.60", ".54", "Not supported"]
+      - ["H3. Vertical collectivism → AGCC", "0.30", "2.39", ".01", "Not supported"]
+      - ["H4. Horizontal collectivism → AGCC", "&minus;0.26", "&minus;1.80", ".07", "Supported"]
+      - ["H5. AGCC → impulsive buying", "0.60", "4.52", ".001", "Supported"]
+      - ["H6. AGCC → money budgeting", "&minus;0.48", "&minus;3.34", ".001", "Supported"]
+      - { group: true, cells: ["Control variables", "", "", "", ""] }
+      - ["Age → AGCC", "&minus;0.28", "&minus;4.13", ".001", "&ndash;"]
+      - ["Gender → AGCC", "0.18", "3.73", ".001", "&ndash;"]
+      - ["Length of staying in the UK → AGCC", "0.04", "0.83", ".40", "&ndash;"]
+      - { group: true, cells: ["Indirect effects (specific indirect &beta;)", "", "", "", ""] }
+      - ["H7a. Vertical individualism → AGCC → impulsive buying", "0.40", "2.97", ".001", "Supported"]
+      - ["H7b. Vertical individualism → AGCC → money budgeting", "&minus;0.21", "&minus;2.52", ".01", "Supported"]
+      - ["H7c. Vertical collectivism → AGCC → impulsive buying", "0.27", "2.39", ".01", "Supported"]
+      - ["H7d. Vertical collectivism → AGCC → money budgeting", "&minus;0.14", "&minus;2.21", ".02", "Supported"]
+      - ["H8a. Horizontal individualism → AGCC → impulsive buying", "&minus;0.07", "&minus;0.60", ".54", "Not supported"]
+      - ["H8b. Horizontal individualism → AGCC → money budgeting", "0.04", "0.59", ".55", "Not supported"]
+      - ["H8c. Horizontal collectivism → AGCC → impulsive buying", "&minus;0.23", "&minus;1.84", ".06", "Not supported"]
+      - ["H8d. Horizontal collectivism → AGCC → money budgeting", "0.12", "1.75", ".07", "Not supported"]
+      - { group: true, cells: ["Total effects", "", "", "", ""] }
+      - ["Vertical individualism → impulsive buying", "&minus;0.39", "&minus;2.61", ".01", "&ndash;"]
+      - ["Vertical individualism → money budgeting", "0.26", "2.10", ".03", "&ndash;"]
+      - ["Horizontal individualism → impulsive buying", "0.24", "1.51", ".12", "&ndash;"]
+      - ["Horizontal individualism → money budgeting", "&minus;0.19", "&minus;1.45", ".14", "&ndash;"]
+      - ["Vertical collectivism → impulsive buying", "&minus;0.06", "&minus;0.48", ".62", "&ndash;"]
+      - ["Vertical collectivism → money budgeting", "0.12", "1.20", ".22", "&ndash;"]
+      - ["Horizontal collectivism → impulsive buying", "&minus;0.19", "&minus;1.26", ".20", "&ndash;"]
+      - ["Horizontal collectivism → money budgeting", "0.27", "2.24", ".02", "&ndash;"]
+    note: "FIML &chi;&sup2;(914) = 2,401.98, CFI = 0.91, TLI = 0.90, RMSEA = 0.05 (90% CI [0.05&ndash;0.06]); gender ref: male = 0; <i>n</i> = 594; 5,000 bootstrap draws. Values and support decisions as printed."
+  - id: "A1"
+    title: "Descriptive statistics for the constructs and measurements"
+    collapsed: true
+    columns: ["Constructs and measurements", "Loading", "Mean", "SD", "Skewness", "Kurtosis"]
+    align: ["left", "right", "right", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["Vertical individualism (Sivadas, Bruvold, &amp; Nelson, 2008)", "", "", "", "", ""] }
+      - ["I enjoy working in situations involving competition with others.", "0.69", "5.67", "2.14", "&minus;0.21", "&minus;0.66"]
+      - ["Competition is the law of nature.", "0.70", "6.22", "2.03", "&minus;0.55", "&minus;0.12"]
+      - ["Without competition, it is not possible to have a good society.", "0.73", "5.95", "2.31", "&minus;0.48", "&minus;0.58"]
+      - { group: true, cells: ["Vertical collectivism", "", "", "", "", ""] }
+      - ["I would do what would please my family, even if I detested that activity.", "0.78", "5.39", "2.35", "&minus;0.29", "&minus;0.93"]
+      - ["I usually sacrifice my self-interest for the benefit of my group.", "0.83", "5.69", "2.26", "&minus;0.35", "&minus;0.73"]
+      - ["Children should feel honored if their parents receive a distinguished award.", "0.60", "7.27", "1.99", "&minus;1.19", "0.78"]
+      - ["I would sacrifice an activity that I enjoy very much If my family did not approve of it.", "0.71", "5.50", "2.52", "&minus;0.26", "&minus;1.06"]
+      - { group: true, cells: ["Horizontal individualism", "", "", "", "", ""] }
+      - ["I enjoy being unique and different from others in many ways.", "0.91", "6.69", "2.23", "&minus;1.04", "0.37"]
+      - ["I often &ldquo;do my own thing.&rdquo;", "0.61", "6.68", "1.81", "&minus;0.64", "0.22"]
+      - ["I am a unique individual.", "0.60", "7.17", "1.65", "&minus;0.74", "0.20"]
+      - { group: true, cells: ["Horizontal collectivism", "", "", "", "", ""] }
+      - ["My happiness depends very much on the happiness of those around me.", "0.60", "6.02", "2.38", "&minus;0.60", "&minus;0.53"]
+      - ["The well-being of my co-workers is important to me.", "0.89", "6.49", "2.10", "&minus;0.88", "0.26"]
+      - ["If a co-worker gets a prize, I would feel proud.", "0.82", "6.47", "2.09", "&minus;0.81", "0.11"]
+      - ["I feel good when I cooperate with others.", "0.60", "6.56", "1.88", "&minus;0.70", "0.33"]
+      - { group: true, cells: ["AGCC &ndash; Self-identification with global consumer culture (Durvasula &amp; Lysonski, 2015)", "", "", "", "", ""] }
+      - ["The way that I dress is influenced by the advertising activities of foreign or global companies.", "0.82", "3.01", "1.99", "0.63", "&minus;0.93"]
+      - ["Advertising by foreign or global brands has a strong influence on my clothing choices.", "0.88", "3.05", "1.96", "0.59", "&minus;0.95"]
+      - ["I pay attention to the fashions worn by people in my age group that live in other countries.", "0.60", "3.04", "1.96", "0.59", "&minus;0.94"]
+      - { group: true, cells: ["AGCC &ndash; Global mass media exposure", "", "", "", "", ""] }
+      - ["I enjoy watching Hollywood films at the theatre.", "0.78", "4.69", "2.22", "&minus;0.62", "&minus;1.15"]
+      - ["I enjoy watching Hollywood movies that are in English.", "0.85", "5.10", "2.20", "&minus;0.98", "&minus;0.61"]
+      - ["Some of my favorite actors/actresses are from Hollywood.", "0.70", "4.68", "2.29", "&minus;0.60", "&minus;1.23"]
+      - { group: true, cells: ["AGCC &ndash; Exposure to marketing activities", "", "", "", "", ""] }
+      - ["In my city, there are many billboards, and advertising signs for foreign and global products.", "0.68", "4.00", "2.27", "&minus;0.14", "&minus;1.55"]
+      - ["It is quite common to see ads for foreign or global products in local media.", "0.75", "4.42", "2.27", "&minus;0.43", "&minus;1.40"]
+      - ["When I read a newspaper, I come across many advertisements for foreign or global products.", "0.69", "4.03", "2.23", "&minus;0.12", "&minus;1.55"]
+      - { group: true, cells: ["AGCC &ndash; English language usage and exposure", "", "", "", "", ""] }
+      - ["I feel very comfortable speaking in English.", "0.80", "6.03", "1.78", "&minus;2.12", "2.14"]
+      - ["I often speak English with family or friends.", "0.68", "5.35", "2.22", "&minus;1.12", "&minus;0.39"]
+      - ["I speak English regularly.", "0.82", "6.04", "1.78", "&minus;2.10", "3.07"]
+      - { group: true, cells: ["AGCC &ndash; Openness to and desire to emulate GCC", "", "", "", "", ""] }
+      - ["I think people my age are basically the same around the world. For example, a 20-something in Nigeria is basically the same as a 20-something in the U.S., Germany, or anywhere else.", "0.76", "2.88", "1.91", "0.76", "&minus;0.68"]
+      - ["I think that my lifestyle is almost the same as those of my age group in other countries.", "0.88", "2.97", "1.90", "0.67", "&minus;0.79"]
+      - ["I think my lifestyle is almost the same as those of people of my social class in other countries.", "0.82", "3.08", "2.02", "0.52", "&minus;1.12"]
+      - { group: true, cells: ["AGCC &ndash; Social interactions", "", "", "", "", ""] }
+      - ["I prefer spending my vacations outside of the country that I live in (reverse).", "0.63", "5.55", "1.57", "&minus;1.24", "1.00"]
+      - ["Visiting foreign countries is one of my favorite things.", "0.80", "5.22", "2.03", "&minus;1.03", "&minus;0.29"]
+      - ["I often think about going to different countries and doing some traveling.", "0.82", "5.42", "1.97", "&minus;1.30", "0.40"]
+      - { group: true, cells: ["AGCC &ndash; Cosmopolitanism", "", "", "", "", ""] }
+      - ["I am interested in learning more about people who live in other countries.", "0.86", "5.85", "1.21", "&minus;1.42", "2.50"]
+      - ["I like to learn about other ways of life.", "0.89", "5.99", "1.11", "&minus;1.76", "2.38"]
+      - ["I enjoy being with people from other countries to learn about their views and approaches.", "0.87", "5.97", "1.16", "&minus;1.57", "2.29"]
+      - { group: true, cells: ["Impulsive buying (Ridgway et al., 2008)", "", "", "", "", ""] }
+      - ["I consider myself an impulse purchaser.", "0.79", "3.18", "2.03", "0.43", "&minus;1.13"]
+      - ["I buy things I do not need.", "0.85", "3.19", "1.85", "0.54", "&minus;0.87"]
+      - ["I buy things I did not plan to buy.", "0.83", "3.74", "1.85", "0.13", "&minus;1.08"]
+      - { group: true, cells: ["Money budgeting (Luna-Arocas &amp; Tang, 2004)", "", "", "", "", ""] }
+      - ["I budget my money very well.", "0.88", "3.65", "1.05", "&minus;0.41", "&minus;0.48"]
+      - ["I use my money very carefully.", "0.86", "3.66", "1.04", "&minus;0.48", "&minus;0.41"]
+      - ["I pay my bills immediately to avoid interest or penalties.", "0.61", "4.28", "0.87", "&minus;1.31", "1.65"]
+      - ["I do financial planning for the future.", "0.76", "3.69", "1.08", "&minus;0.52", "&minus;0.51"]
+    note: "Standardised factor loadings, means, standard deviations, skewness and kurtosis as printed in Table A1 of the article (the article spells the first source &lsquo;Sivadasa&rsquo;)."
+
+related:
+  - "10.1002/cb.1988"
+  - "10.1080/08911762.2019.1600094"
+  - "10.1108/jpbm-09-2025-6337"
