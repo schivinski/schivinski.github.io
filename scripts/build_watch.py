@@ -308,7 +308,8 @@ def svg_icon(name: str) -> str:
 
 
 def esc(x) -> str:
-    return html.escape(str(x or ""), quote=True)
+    # Unescape first so text that already holds entities (e.g. "Product &amp; Brand") is never escaped twice.
+    return html.escape(html.unescape(str(x or "")), quote=True)
 
 
 def md(text: str) -> str:

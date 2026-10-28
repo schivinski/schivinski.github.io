@@ -27,7 +27,8 @@ ME = {"name": "Bruno Schivinski", "orcid": "0000-0002-4095-1922"}
 
 
 def esc(x) -> str:
-    return html.escape(str(x or ""), quote=True)
+    # Unescape first so text that already holds entities (e.g. "Product &amp; Brand") is never escaped twice.
+    return html.escape(html.unescape(str(x or "")), quote=True)
 
 
 def initials(given: str) -> str:
@@ -55,7 +56,8 @@ def apa(d: dict) -> str:
 
 
 def plain(text: str) -> str:
-    return re.sub(r"<[^>]+>", "", text or "").strip()
+    """Text without tags or HTML entities (for JSON-LD, meta tags and llms.txt)."""
+    return html.unescape(re.sub(r"<[^>]+>", "", text or "")).strip()
 
 
 def short_desc(text: str, limit: int = 158) -> str:
