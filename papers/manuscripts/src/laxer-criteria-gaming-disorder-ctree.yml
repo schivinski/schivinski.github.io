@@ -1,0 +1,26 @@
+text: laxer-criteria-gaming-disorder-ctree.blocks.txt
+affiliation_line: University of Tasmania; RMIT University; Gdansk University of Technology; Victoria University
+title_page_label: Open access article
+running_label: open access (CC BY 4.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article; it differs only in formatting and
+  pagination. Please cite the published version.
+title_page_footer: Re-typeset from the published open access article (CC BY 4.0); the publisher's typesetting and layout have been removed.
+figures:
+  fig1:
+    png: manuscripts/src/img/pontes-et-al-2019-jcm-fig1.png
+  fig2:
+    png: manuscripts/src/img/pontes-et-al-2019-jcm-fig2.png
+table_overrides:
+  '1':
+    title: The operationalization of video game addiction according to the nine Internet Gaming Disorder (IGD) as measured with the Internet Gaming Disorder Scale–Short-Form (IGDS9-SF), their corresponding clinical criteria and comparison against the criteria for gaming disorder within the 11th International Classification of Diseases (ICD-11)
+    columns: [Item, IGDS9-SF Item Wording, Clinical Criteria, 'Included in the ICD-11?']
+    widths: [auto, 1fr, auto, auto]
+    size: 9pt
+  '2':
+    title: Summary of the Conditional Inference Tree-derived rules alongside each Internet Gaming Disorder (IGD) criteria endorsement pathway according to each subtype of gamer within the sample (N = 3377)
+    columns: [Rule, IGD Criteria Endorsement Pathways, '', '', Gamer Subtype]
+    widths: [auto, 1fr, 1fr, 1fr, auto]
+    landscape: true
+    size: 9pt
+    note: 'Note: Answers given by participants to each IGD criterion as measured with the Internet Gaming Disorder Scale–Short-Form (IGDS9-SF) included 1 = ‘Never’, 2 = ‘Rarely’, 3 = ‘Sometimes’, 4 = ‘Often’, and 5 = ‘Very Often’. Endorsement of an IGD criterion was operationalized with answers equal to 5 = ‘Very Often’.'

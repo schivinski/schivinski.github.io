@@ -1,0 +1,227 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Clinical Medicine 8(10), 1730 (open access, CC BY 4.0); text and tables from the
+# Europe PMC full-text XML (PMC6832569), references from the published PDF supplied by Bruno, 28 Oct 2026.
+# ORCIDs from OpenAlex. Figure 2 redrawn for the page.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Laxer clinical criteria for gaming disorder may hinder future efforts to devise an efficient diagnostic approach: A tree-based model study"
+doi: "10.3390/jcm8101730"
+journal: "Journal of Clinical Medicine"
+issn: "2077-0383"
+publisher: "MDPI"
+volume: "8"
+issue: "10"
+article_number: "1730"
+published: "2019-10"
+published_label: "18 October 2019"
+online: "2019-10-18"
+open_access: true
+licence: "CC BY 4.0"
+licence_url: "https://creativecommons.org/licenses/by/4.0/"
+
+aam:
+  file: "pontes-schivinski-brzozowska-wos-stavropoulos-2019-jcm-laxer-criteria.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article (CC BY 4.0), re-typeset as a clean PDF with the same content as the published version. Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution 4.0 International License
+    (https://creativecommons.org/licenses/by/4.0/). Originally published in Journal of Clinical Medicine, 8(10), 1730
+    (18 October 2019), https://doi.org/10.3390/jcm8101730. Changes made: the text has been re-typeset; content is
+    unchanged.
+
+authors:
+  - given: "Halley M."
+    family: "Pontes"
+    orcid: "0000-0001-8020-7623"
+    affiliation: ["University of Tasmania"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University", "University of Tasmania"]
+    me: true
+  - given: "Magdalena"
+    family: "Brzozowska-Woś"
+    orcid: "0000-0002-8433-0685"
+    affiliation: ["Gdansk University of Technology"]
+  - given: "Vasileios"
+    family: "Stavropoulos"
+    orcid: "0000-0001-6964-4662"
+    affiliation: ["Victoria University", "University of Tasmania"]
+
+cite_short: "Pontes et al., 2019"
+badges: ["3,377 Polish gamers", "Online survey", "Conditional inference tree", "MIMIC model", "Poland", "Open access"]
+keywords:
+  # Article's own keywords
+  - internet gaming disorder
+  - video games
+  - gaming addiction
+  - problematic gaming
+  - behavioural addictions
+  # What the study is about
+  - gaming disorder
+  - diagnostic criteria
+  - DSM-5
+  - ICD-11
+  - withdrawal
+  - loss of control
+  - preoccupation
+  - negative consequences
+  - clinical weighting of criteria
+  - diagnosis
+  # Measures
+  - Internet Gaming Disorder Scale–Short-Form (IGDS9-SF)
+  - Polish IGDS9-SF
+  # Method
+  - conditional inference tree (Ctree)
+  - machine learning
+  - decision tree
+  - MIMIC model
+  - confirmatory factor analysis
+  - online survey
+  # Context
+  - Poland
+
+in_brief: >-
+  Not all nine criteria for Internet gaming disorder carry the same weight: withdrawal and loss of control matter most.
+  In a decision-tree analysis of 3,222 Polish gamers, those who very often felt withdrawal and loss of control had a
+  78% probability of disordered gaming, which questions the WHO&rsquo;s choice to leave withdrawal out of gaming
+  disorder.
+
+findings:
+  - headline: "Withdrawal is the first and strongest split."
+    text: >-
+      In a conditional inference tree on the nine IGD criteria (<i>N</i> = 3,222), very frequent withdrawal symptoms
+      divided gamers first: 32.46% of those reporting withdrawal &lsquo;very often&rsquo; were disordered gamers, against
+      0.19% of the others (Pontes et al., 2019).
+  - headline: "Withdrawal plus loss of control marks most disordered gamers."
+    text: >-
+      Gamers who very often experienced both withdrawal and loss of control had a 77.77% probability of disordered
+      gaming; this &lsquo;impaired self-control&rsquo; pathway held 21 of the 31 disordered gamers (Pontes et al., 2019).
+  - headline: "Four criteria carried the diagnostic information."
+    text: >-
+      Withdrawal, loss of control, negative consequences and preoccupation were the criteria that defined five gamer
+      subtypes, from &lsquo;healthy&rsquo; (95% of gamers) to &lsquo;preoccupied&rsquo;, &lsquo;low risk&rsquo;,
+      &lsquo;harmful&rsquo; and &lsquo;impaired self-control&rsquo; (Pontes et al., 2019).
+  - headline: "The Polish IGDS9-SF works well."
+    text: >-
+      The Polish Internet Gaming Disorder Scale&ndash;Short-Form was unidimensional (CFI = 0.95, RMSEA = 0.04) and
+      reliable (&alpha; = 0.82), and scores were higher in younger gamers, men and those who played more
+      (Pontes et al., 2019).
+
+glance:
+  - { label: "Design", value: "Cross-sectional online survey (Qualtrics) of gamers recruited through the three largest Polish gaming forums (gry-online.pl, gamesboard.pl, gamesfanatic.pl) and their social media channels; no incentives" }
+  - { label: "Participants", value: "3,377 gamers who had played in the past year (82.7% men; mean age 20, SD 4.3, range 12&ndash;49); 3,222 retained after excluding missing data" }
+  - { label: "Measure", value: "Polish Internet Gaming Disorder Scale&ndash;Short-Form (IGDS9-SF; nine DSM-5 criteria, 1 = never to 5 = very often), back-translated and piloted with 52 gamers; a criterion counted as endorsed when answered &lsquo;very often&rsquo;" }
+  - { label: "Disordered gaming", value: "Five or more of nine criteria endorsed: 31 gamers (0.96%)" }
+  - { label: "Analysis", value: "MIMIC model with age, gender and weekly gaming time (FIML, 5,000 bootstrap samples) and a conditional inference tree (partykit, minimum split 50 cases), in R" }
+  - { label: "Model fit", value: "&chi;&sup2;(51) = 407.48, CFI = 0.95, TLI = 0.94, RMSEA = 0.04, SRMR = 0.02; Cronbach&rsquo;s &alpha; = 0.82, composite reliability = 0.86" }
+
+figures:
+  - file: figures/pontes-et-al-2019-igd-ctree.svg
+    title: "Figure 2. Conditional inference tree on the nine IGD criteria"
+    caption: >-
+      Redrawn from Figure 2 of the article (splits, group sizes and percentages as printed). Each box shows a gamer
+      subtype; the shaded share is the proportion of disordered gamers. <i>N</i> = 3,222; 31 disordered gamers.
+
+results:
+  title: "Probability of disordered gaming in each gamer subtype"
+  unit: ""
+  max: 80
+  note: "Impaired self-control = withdrawal and loss of control very often; harmful = withdrawal very often with some loss of control and negative consequences; preoccupied = preoccupation very often without withdrawal. Share of disordered gamers in each terminal node of the tree (Table 2 and Figure 2 of the article, N = 3,222)."
+  groups:
+    - name: "Gamer subtype (pathway)"
+      bars:
+        - { label: "Impaired self-control (n = 27)", value: 77.77, display: "77.8%", highlight: true }
+        - { label: "Harmful (n = 15)", value: 26.66, display: "26.7%" }
+        - { label: "Preoccupied (n = 84)", value: 7.14, display: "7.1%" }
+        - { label: "Low risk (n = 35)", value: 0, display: "0%" }
+        - { label: "Healthy (n = 3,061)", value: 0, display: "0%" }
+
+question: >-
+  The DSM-5 lists nine criteria for Internet gaming disorder and requires five, treating all criteria as equal, while the
+  WHO&rsquo;s gaming disorder leaves several of them out, including withdrawal. We asked whether some criteria carry
+  more diagnostic weight than others, using a machine-learning decision tree on a large sample of Polish gamers.
+
+implications:
+  practical: >-
+    Clinicians and the authors of diagnostic manuals may give withdrawal and loss of control particular weight when
+    assessing disordered gaming. Because withdrawal was central to identifying disordered gamers, the WHO criteria for
+    gaming disorder, which omit it, may be laxer than the DSM-5 criteria and could hinder efficient diagnosis.
+  theoretical: >-
+    The nine IGD criteria differ in clinical weight, supporting the distinction between core and peripheral criteria,
+    and treating each criterion as a continuous rather than binary symptom reveals distinct pathways and gamer subtypes.
+
+limitations:
+  - "The sample was a community-based, non-probability sample of gamers, not a clinical sample."
+  - "The cross-sectional design does not allow causal conclusions."
+  - "Disordered gaming was classified psychometrically; a clinical gold standard such as structured interviews is needed."
+
+faq:
+  - q: "Which symptoms best identify gaming disorder?"
+    a: >-
+      In 3,222 Polish gamers, withdrawal and loss of control were the most informative: gamers experiencing both very
+      often had a 78% probability of disordered gaming (Pontes et al., 2019).
+  - q: "Are all Internet gaming disorder criteria equally important?"
+    a: >-
+      No. A decision-tree analysis found that withdrawal, loss of control, negative consequences and preoccupation
+      carried the diagnostic information, while the other five criteria did not shape the tree (Pontes et al., 2019).
+  - q: "Why does withdrawal matter for the WHO definition of gaming disorder?"
+    a: >-
+      The WHO&rsquo;s ICD-11 gaming disorder does not include withdrawal, yet withdrawal was the first split in the tree,
+      so the authors argue that the WHO criteria may be laxer than the DSM-5 criteria.
+  - q: "What is a conditional inference tree?"
+    a: >-
+      A machine-learning method that repeatedly splits a sample on the predictor most strongly associated with the
+      outcome, producing if&ndash;then rules and subgroups.
+
+concepts:
+  - term: "Internet gaming disorder (IGD)"
+    definition: "A DSM-5 condition for further study, defined by at least five of nine criteria within 12 months."
+  - term: "Conditional inference tree (Ctree)"
+    definition: "A non-parametric decision-tree method that uses permutation tests to choose splits, avoiding selection bias."
+  - term: "Withdrawal"
+    definition: "Irritability, anxiety or sadness when trying to reduce or stop gaming."
+  - term: "MIMIC model"
+    definition: "A factor model with covariates (multiple indicators, multiple causes), used here to test the scale and its links with age, gender and gaming time."
+
+materials:
+  - label: "Scale items"
+    text: "The nine IGDS9-SF items, the DSM-5 criterion each measures and whether it is part of ICD-11 gaming disorder are in Table 1 below."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Open access article re-typeset as a clean PDF, including the tables and figures", url: "manuscripts/pontes-schivinski-brzozowska-wos-stavropoulos-2019-jcm-laxer-criteria.pdf" }
+  - { label: "Published version", note: "Journal of Clinical Medicine (open access)", url: "https://doi.org/10.3390/jcm8101730" }
+
+tables:
+  - id: "1"
+    title: "The nine IGD criteria as measured with the IGDS9-SF, their clinical criteria and inclusion in ICD-11 gaming disorder"
+    collapsed: true
+    columns: ["Item", "IGDS9-SF item wording", "Clinical criterion", "In ICD-11?"]
+    align: ["right", "left", "left", "left"]
+    rows:
+      - ["1", "Do you feel preoccupied with your gaming behavior? (Some examples: Do you think about previous gaming activity or anticipate the next gaming session? Do you think gaming has become the dominant activity in your daily life?)", "Preoccupation", "No"]
+      - ["2", "Do you feel more irritability, anxiety or even sadness when you try to either reduce or stop your gaming activity?", "Withdrawal", "No"]
+      - ["3", "Do you feel the need to spend increasing amount of time engaged gaming in order to achieve satisfaction or pleasure?", "Tolerance", "No"]
+      - ["4", "Do you systematically fail when trying to control or cease your gaming activity?", "Loss of control", "Yes"]
+      - ["5", "Have you lost interests in previous hobbies and other entertainment activities as a result of your engagement with the game?", "Giving up other activities", "Yes"]
+      - ["6", "Have you continued your gaming activity despite knowing it was causing problems between you and other people?", "Continuation", "Yes"]
+      - ["7", "Have you deceived any of your family members, therapists or others because the amount of your gaming activity?", "Deception", "No"]
+      - ["8", "Do you play in order to temporarily escape or relieve a negative mood (e.g., helplessness, guilt, anxiety)?", "Escape", "No"]
+      - ["9", "Have you jeopardized or lost an important relationship, job or an educational or career opportunity because of your gaming activity?", "Negative consequences", "Yes"]
+  - id: "2"
+    title: "Summary of the Conditional Inference Tree-derived rules alongside each IGD criteria endorsement pathway"
+    columns: ["Rule", "First split", "Second split", "Third split", "Gamer subtype"]
+    align: ["right", "left", "left", "left", "left"]
+    rows:
+      - ["1", "&lsquo;withdrawal&rsquo; &le; 4; 0.19% (95% CI 0.03&ndash;0.34)", "&lsquo;preoccupation&rsquo; &le; 4; 0% (95% CI 0&ndash;0), <i>n</i> = 3061", "", "&lsquo;Healthy&rsquo;"]
+      - ["2", "&lsquo;withdrawal&rsquo; &le; 4; 0.19% (95% CI 0.03&ndash;0.34)", "&lsquo;preoccupation&rsquo; = 5; 7.14% (95% CI 1.63&ndash;12.65), <i>n</i> = 84", "", "&lsquo;Preoccupied&rsquo;"]
+      - ["3", "&lsquo;withdrawal&rsquo; = 5; 32.46% (95% CI 22.01&ndash;42.92)", "&lsquo;loss of control&rsquo; &le; 4; 8.00% (95% CI 0.48&ndash;15.51)", "&lsquo;negative consequences&rsquo; &le; 3; 0% (95% CI 0&ndash;0), <i>n</i> = 35", "&lsquo;Low Risk&rsquo;"]
+      - ["4", "&lsquo;withdrawal&rsquo; = 5; 32.46% (95% CI 22.01&ndash;42.92)", "&lsquo;loss of control&rsquo; &le; 4; 8.00% (95% CI 0.48&ndash;15.51)", "&lsquo;negative consequences&rsquo; &gt; 3; 26.66% (95% CI 4.28&ndash;49.04), <i>n</i> = 15", "&lsquo;Harmful&rsquo;"]
+      - ["5", "&lsquo;withdrawal&rsquo; = 5; 32.46% (95% CI 22.01&ndash;42.92)", "&lsquo;loss of control&rsquo; = 5; 77.77% (95% CI 62.09&ndash;93.45), <i>n</i> = 27", "", "&lsquo;Impaired Self-Control&rsquo;"]
+    note: "Answers to each criterion: 1 = &lsquo;Never&rsquo;, 2 = &lsquo;Rarely&rsquo;, 3 = &lsquo;Sometimes&rsquo;, 4 = &lsquo;Often&rsquo;, 5 = &lsquo;Very Often&rsquo;. Endorsement was operationalised as &lsquo;Very Often&rsquo;. Percentages are the share of disordered gamers in each node. The article&rsquo;s table title gives <i>N</i> = 3377; the node sizes add up to 3,222, the analysed sample."
+
+related:
+  - "10.1016/j.abrep.2018.06.004"
+  - "10.1007/s11469-019-00088-z"
+  - "10.1016/j.socscimed.2022.114721"

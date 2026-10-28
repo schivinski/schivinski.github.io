@@ -71,7 +71,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 50 | 2020 | Exploring the Role of Social Media Use Motives, Psychological Well-Being, Self-Esteem, … | Frontiers in Psychology | 236 | locked (`problematic-social-media-use-motives`) |
 | 51 | 2020 | How values of individualism and collectivism influence impulsive buying and money budge… | Journal of Consumer Behaviour | 85 | locked (`individualism-collectivism-impulsive-buying-budgeting`) |
 | 52 | 2020 | Proteus Effect Profiles: How Do They Relate with Disordered Gaming Behaviours? | Psychiatric Quarterly | 46 |  |
-| 53 | 2019 | Laxer Clinical Criteria for Gaming Disorder May Hinder Future Efforts to Devise an Effi… | Journal of Clinical Medicine | 49 |  |
+| 53 | 2019 | Laxer Clinical Criteria for Gaming Disorder May Hinder Future Efforts to Devise an Effi… | Journal of Clinical Medicine | 49 | locked (`laxer-criteria-gaming-disorder-ctree`) |
 | 54 | 2019 | Psychopathological symptoms and gaming motives in disordered gaming—a psychometric comp… | Journal of Clinical Medicine | 175 | locked (`gaming-motives-who-apa`) |
 | 55 | 2019 | The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish R… | Central European Management Journal | 25 |  |
 | 56 | 2019 | The influence of interpersonal motivation on polish consumers’ online brand-related act… | Argumenta Oeconomica | 5 |  |
