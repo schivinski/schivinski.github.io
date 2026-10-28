@@ -1,0 +1,203 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+# Bruno's own paper (co-authored, JTTM 2024), preloaded 28 Oct 2026 from the Publications chat on Bruno's instruction:
+# written in his first person with a disclosure line and one reflective section (guide: "Bruno's own papers").
+# NO author thank-you email for this issue (Bruno, 28 Oct 2026: never email authors when the paper is his or co-authored
+# by him). Paper page: influencer-intimate-self-disclosure-credibility (live).
+issue: 52
+week_of: "2026-12-03"            # the issue's own date (Thursday)
+slug: influencer-oversharing-credibility
+status: draft                    # set to live by the Thursday 3 December run
+
+title: "Does oversharing hurt an influencer's credibility? What a Journal of Travel & Tourism Marketing experiment with 212 social media users found"
+dek: >-
+  A look back at a study I ran with two colleagues on travel influencers who mix personal confessions into their tips.
+  The private story itself was not the problem. The problem was that it no longer matched what she was known for.
+short_title: "Personal stories cost trust when they drift off topic"
+
+description: >-
+  Leite et al. showed 212 social media users a travel influencer's tips: an added intimate story cut her credibility,
+  as the post stopped fitting her field.
+
+keywords: [influencer credibility, influencer self-disclosure, oversharing, travel influencers, personal content,
+  authenticity, content fit, influencer marketing, tourism marketing, follower competence, Journal of Travel & Tourism Marketing]
+topics: [Influencers, Social media]
+
+image:
+  file: issue-52-influencer-oversharing.jpg
+  og: issue-52-influencer-oversharing-og.jpg
+  alt: "A woman seen from behind, hair tied up and wearing sunglasses, holding up her phone to film the sea between two palm trees in warm evening light"
+  caption: "The view is the content. The confession may not be. Photo: Maria Lysenko on Unsplash."
+
+short_answer: >-
+  It can. In our experiment, a travel influencer who added a romance and private memories to her travel tips was rated
+  less credible than the same influencer giving the tips alone. The personal story did not hurt by being personal. It
+  hurt because followers felt it no longer fitted what she is known for. People who felt the influencer made them more
+  capable were far less bothered by the drift.
+
+takeaways:
+  - "Credibility fell from 5.14 to 4.54 out of 7 when the same travel tips came wrapped in an intimate story."
+  - "Followers rated the intimate post a full point lower for fit with the influencer's expertise, 2.63 against 3.63 out of 5."
+  - "Among followers who felt most capable through the influencer, the loss of fit was about half the size it was among those who felt least capable."
+  - "Once fit was taken into account, intimacy did no further damage on its own (b = 0.20, not significant)."
+
+paper:
+  doi: "10.1080/10548408.2024.2317748"
+  title: "Influencer marketing effectiveness: giving competence, receiving credibility"
+  authors: ["Leite, F. P.", "Pontes, N.", "Schivinski, B."]
+  authors_full: ["Fernanda Polli Leite", "Nicolas Pontes", "Bruno Schivinski"]
+  year: 2024
+  journal: "Journal of Travel & Tourism Marketing"
+  volume: "41"
+  issue: "3"
+  pages: "307-321"
+  online: "2024-02-16"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the paper (byline and ORCID iDs listed at the end of the article)
+    - name: "Fernanda Polli Leite"
+      affiliation: "Business School, University of Queensland, St Lucia, QLD, Australia"
+      orcid: "0000-0002-2857-5987"
+    - name: "Nicolas Pontes"
+      affiliation: "Business School, University of Queensland, St Lucia, QLD, Australia"
+      orcid: "0000-0002-7391-0908"
+    - name: "Bruno Schivinski"
+      affiliation: "School of Media and Communication, RMIT University, Melbourne, VIC, Australia"
+      orcid: "0000-0002-4095-1922"
+
+sections:
+  - h: "What we did"
+    body: |
+      A note first: this issue covers a paper I co-wrote. Fernanda Polli Leite and Nicolas Pontes of the University of
+      Queensland Business School led it, and I took part from RMIT University in Melbourne.
+
+      Travel influencers often share more than tips. They talk about who they met, what a place meant to them and moments
+      most people would keep private. Earlier work had found that this kind of openness can make followers feel closer to a
+      creator, but also that it can backfire. We wanted to know when it costs credibility, and why.
+
+      We built a fictitious travel influencer called Sophia and showed people her Instagram profile and a post with tips for
+      Thailand: eat at a local food stall to meet people, and spend three days on Koh Lipe. Half saw only the tips. The other
+      half saw the same tips with intimate extras: a new romance that started over dinner, and a very private memory tied to
+      the island. Everyone then rated how credible she seemed, how well the post fitted her field and how capable she made
+      them feel.
+    facts:
+      - ["Participants", "212 US social media users recruited online, 60.4% women, average age 36"]
+      - ["Design", "Two versions of one Instagram post, assigned at random: tips only (108 people) or tips with intimate content (104)"]
+      - ["Influencer", "Sophia, a fictitious female travel creator, so nobody arrived with an existing opinion of her"]
+      - ["Measured", "Credibility on 15 pairs of words such as dishonest to honest, fit between the post and her expertise, and how capable she made followers feel"]
+      - ["Checks", "The intimate post was rated far more personal, and both versions were seen as realistic"]
+
+  - h: "The confession cost her credibility"
+    body: |
+      Same influencer, same advice, one extra story. The tips-only version scored 5.14 out of 7 for credibility, while
+      the intimate version scored 4.54. The drop showed up across the three things credibility is made of: how
+      attractive, trustworthy and expert she seemed.
+
+      What explained it was fit. People judged the intimate post as much less in line with what a travel expert should be
+      posting, and that sense of mismatch accounted for the whole credibility loss. With fit in the picture, the intimacy
+      itself had no extra effect. Followers were not punishing her for being personal. They were reacting to a post that had
+      wandered away from the reason they follow her.
+    chart: credibility
+
+  - h: "Followers who feel more capable forgive more"
+    body: |
+      The second finding is the one I find most useful. We also asked how capable and effective the influencer made each
+      person feel, a basic need that psychologists call competence. Among people low on that feeling, the intimate post
+      lost 1.20 points of fit. Among people high on it, the loss shrank to 0.63.
+
+      Our reading draws on how persuasion works. Followers who get a sense of mastery from a creator pay attention to the
+      core message, the travel advice, and treat the personal story as background. Followers who get less from her lean on
+      side cues, and an off-topic confession is a loud one.
+    chart: competence
+
+  - h: "Why I think this matters more now"
+    body: |
+      What follows is opinion, not something we measured. Since we ran the study, the pressure on creators to be raw and unfiltered has
+      grown, and brands brief influencers to be authentic as if more disclosure always means more trust. Our results point
+      somewhere more precise. Sharing is not the risk. Drifting is. A personal story that helps the audience do the thing
+      they follow you for can sit comfortably in a post. One that pulls them somewhere else asks them to rethink who you
+      are.
+
+      I also think the competence side is underused. Much influencer advice is about relationships: reply to comments, feel
+      like a friend. That matters, but no creator can be close to hundreds of thousands of people. Making followers feel
+      more capable scales in a way intimacy does not.
+
+      What we did not test matters too. Sophia was invented, the story was strong, and we showed one woman, one destination
+      and one post. Real creators with years of history may get more leeway.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Write down what you are known for", "Before your next campaign, describe the creator's field in one sentence, such as budget travel in Southeast Asia. Every post is judged against that sentence."]
+  - ["Screen each personal detail", "Read the draft and mark every personal line. For each one, ask whether it helps a follower plan, choose or do something in that field. Cut or move any line that does not."]
+  - ["Tie the story to a tip", "When a personal moment stays, attach a practical takeaway to it in the next sentence, such as where it happened, what it cost or what to book."]
+  - ["Add one skill-building element", "Put at least one thing in every post that leaves followers more capable: a three-day itinerary, a cost breakdown, a safety checklist or a short quiz."]
+  - ["Test two versions with a small group", "Show the post with and without the personal story to 20 followers. Ask each one to rate how expert and trustworthy the creator seems, from 1 to 7."]
+  - ["Watch the comments for drift", "For the first 48 hours after posting, count comments that question the creator or say the post is off topic. If they pass one in ten, trim the personal part next time."]
+
+expect:
+  - "**Personal content is not banned.** It works when it serves the advice, so the job is editing, not hiding."
+  - "**Engaged followers give more room.** People who feel they learn from a creator tolerate more personal material."
+  - "**A real cost when stories drift.** A single off-topic confession was enough to pull credibility down."
+  - "**Slow gains from teaching.** Building followers' skills pays off over a run of posts, not one."
+
+limits:
+  - "**An invented influencer.** Followers had no history with Sophia, so real creators with loyal audiences may be judged differently."
+  - "**One strong story.** The intimate version was very personal, and milder disclosure may cost less."
+  - "**One post, one destination, one woman.** Other topics, platforms and male creators were left untested."
+  - "**Longer posts.** The intimate version was also longer, which the paper flags as a limitation."
+
+faq:
+  - q: "Should influencers share personal stories?"
+    a: "Yes, when the story fits what they are known for. In this experiment an intimate story unrelated to the travel advice lowered credibility, and the reason was poor fit rather than the personal detail itself (Leite, Pontes & Schivinski, 2024, Journal of Travel & Tourism Marketing)."
+  - q: "Why does oversharing make an influencer seem less credible?"
+    a: "Because followers judge every post against the creator's field. When a post drifts away from it, they see it as off topic, and that mismatch carried the whole credibility loss in the study."
+  - q: "Do some followers mind less?"
+    a: "Yes. People who felt the influencer made them more capable showed a much smaller drop in perceived fit, about half that of people who felt least capable."
+  - q: "What kind of content protects an influencer's credibility?"
+    a: "Content that matches their expertise and teaches something, such as itineraries, cost breakdowns or safety advice, so followers come away better at the thing they follow the creator for."
+
+also:
+  - doi: "10.1080/00218499.2026.2667595"
+    title: "The Power of Digital Creators: Bridging Industry and Academic Research on Creator-Driven Marketing Strategies"
+    authors: "Farrell, Sands, & Ferraro"
+    journal: "Journal of Advertising Research"
+    year: 2026
+    text: >-
+      This review sets eight large research reports commissioned by TikTok next to more than ninety academic papers on
+      creator advertising. It sorts what both sides know into eleven themes, showing where industry and academia agree,
+      where they clash and what each has found that the other has missed. A handy map before you brief your next creator.
+  - doi: "10.1080/00218499.2026.2704952"
+    title: "How Influencer Follower-Scale Popularity Erodes Luxury Brand Exclusivity: The Crowd Dilutes the Crown: How Micro-Influencers Reduce Social Crowding and Preserve Exclusivity"
+    authors: "Bhardwaj & Sharma"
+    journal: "Journal of Advertising Research"
+    year: 2026
+    text: >-
+      Across four experiments and a field test, luxury brands promoted by micro-influencers felt less crowded and more
+      exclusive than the same brands promoted by big names, which raised purchase intentions. The effect was strongest for
+      shoppers who like to stand out and faded among people tired of luxury. Bigger reach is not always the better buy.
+
+charts:
+  credibility:
+    title: "Same tips, with and without an intimate story: mean ratings"
+    scale: [0, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Credibility, tips only (1 to 7)", 5.14, true]
+      - ["Credibility, with intimate story", 4.54, false]
+      - ["Fit with expertise, tips only (1 to 5)", 3.63, true]
+      - ["Fit, with intimate story", 2.63, false]
+    source: "212 participants, 108 saw the tips only and 104 the intimate version. Credibility on 7-point scales, fit on a 5-point scale."
+  competence:
+    title: "How much fit the intimate post lost, by how capable the influencer made followers feel"
+    scale: [0, 1.5]
+    step: 0.5
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Least capable (1 SD below average)", 1.20, true]
+      - ["Average", 0.91, false]
+      - ["Most capable (1 SD above average)", 0.63, false]
+    source: "Conditional effects of intimate content on perceived fit at three levels of competence need fulfilment (moderated mediation, 5,000 bootstrap samples)."
+
+related_pages: [influencer-intimate-self-disclosure-credibility]   # paper pages on this site worth linking (slugs)

@@ -173,3 +173,15 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   pages (for example the Gaming Disorder Test), unless the paper clearly sits in his digital marketing thread (for example
   social media brand engagement or digital advertising that happens to use a game setting). Use test slots for other
   digital marketing audiences instead.
+
+## Author emails: never for Bruno's own papers (Bruno, 28 October 2026)
+- The author thank-you email (project doc `claude/mkt3-author-thankyou-template.md`) and any request for a copy of the
+  paper (the "Automated emails" chat) are **never sent automatically when the featured paper is Bruno's own or
+  co-authored by him**, whatever the author position. This covers every author on such a paper, not only Bruno.
+- For every other paper (no Bruno authorship) the thank-you email goes out as normal after the issue is verified live.
+- How to tell: check the paper's author list for "Schivinski". If he is an author, skip the email step, write
+  "no email (Bruno's own paper)" in the Thank-you column of `claude/mkt3-author-log.md`, and say so in the run report.
+- Every publish-run prompt that carries the AUTHOR THANK-YOU step must also carry this exception.
+- Issue 43 (2 November 2026) is a deliberate one-off: its scheduled run sends the template as a test to Bruno's own
+  work address only, set up on his instruction of 27 October 2026, before this rule. No co-authors are emailed.
+- First issue under the rule: issue 52 (Thursday 3 December 2026, Leite, Pontes & Schivinski, JTTM), preloaded as a draft.
