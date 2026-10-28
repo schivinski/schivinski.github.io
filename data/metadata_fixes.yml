@@ -1,4 +1,11 @@
 # Hand corrections to publication records from ORCID, keyed by DOI (lower case) or by the exact ORCID title.
-# Fields: title, venue, authors, year. Applied after the automatic Crossref repair in scripts/fetch_publications.py.
+# Fields: title, venue, authors, year, type, page (site path the entry links to) and page_label. Applied after the automatic Crossref repair in scripts/fetch_publications.py.
 "THE EFFECTS OF ACCULTURATION TO GLOBAL CONSUMER CULTURE ON IMPULSIVE BUYING AND ATTITUDES TOWARDS ADVERTISING":
   title: "The effects of acculturation to global consumer culture on impulsive buying and attitudes towards advertising"
+"10.1556/jba.7.2018.suppl.1":
+  # Conference abstract (ICBA 2018, OP-147) of the study published in full as Pontes et al. (2019), JCM 8(10), 1730
+  type: "conference-paper"
+  venue: "Journal of Behavioral Addictions, 7(Suppl. 1), 130 (abstract OP-147, 5th International Conference on Behavioral Addictions, Cologne)"
+  authors: ["Halley M. Pontes", "Bruno Schivinski", "Magdalena Brzozowska-Woś", "Mark D. Griffiths"]
+  page: "papers/laxer-criteria-gaming-disorder-ctree.html"
+  page_label: "Full paper"

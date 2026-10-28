@@ -135,7 +135,8 @@ def repair_metadata(pubs: list[dict]) -> None:
         for p in pubs:
             f = fixes.get((p.get("doi") or "").lower()) or fixes.get(p["title"])
             if f:
-                p.update({k: v for k, v in f.items() if k in ("title", "venue", "authors", "year")})
+                p.update({k: v for k, v in f.items() if k in ("title", "venue", "authors", "year", "type", "page",
+                                                             "page_label")})
 
 
 def enrich_authors(pubs: list[dict]) -> None:
@@ -208,7 +209,7 @@ def kind(p: dict) -> str:
 
 def entry(p: dict, heading: str = "h3") -> str:
     title = esc(p["title"].rstrip("."))
-    page = PAGES.get((p["doi"] or "").lower())
+    page = PAGES.get((p["doi"] or "").lower()) or p.get("page")
     if page:
         title = f'<a href="{page}">{title}</a>'
     elif p["url"]:
@@ -217,7 +218,7 @@ def entry(p: dict, heading: str = "h3") -> str:
     venue = f'<span class="pub-venue">{esc(p["venue"])}</span>' if p["venue"] else ""
     label = TYPE_LABEL.get(p["type"], "Other output")
     if page:
-        label += '</span><span class="pub-more">Summary and figures'
+        label += f'</span><span class="pub-more">{esc(p.get("page_label") or "Summary and figures")}'
 
     search = esc(" ".join([p["title"], p["venue"], " ".join(p["authors"]), str(p["year"] or "")]).lower())
     return (f'<article class="pub" data-type="{kind(p)}" data-search="{search}">'

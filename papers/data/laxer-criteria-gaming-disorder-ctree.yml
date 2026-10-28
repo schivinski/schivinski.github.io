@@ -192,6 +192,7 @@ materials:
 open_science:
   - { label: "Full text (PDF)", note: "Open access article re-typeset as a clean PDF, including the tables and figures", url: "manuscripts/pontes-schivinski-brzozowska-wos-stavropoulos-2019-jcm-laxer-criteria.pdf" }
   - { label: "Published version", note: "Journal of Clinical Medicine (open access)", url: "https://doi.org/10.3390/jcm8101730" }
+  - { label: "Conference abstract", note: "Earlier version presented at the 5th International Conference on Behavioral Addictions (ICBA 2018, Cologne): Pontes, Schivinski, Brzozowska-Woś &amp; Griffiths, Journal of Behavioral Addictions, 7(Suppl. 1), 130, abstract OP-147", url: "https://doi.org/10.1556/jba.7.2018.suppl.1" }
 
 tables:
   - id: "1"

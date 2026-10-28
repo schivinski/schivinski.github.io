@@ -900,11 +900,18 @@
  {
   "title": "An empirical analysis of the nine Internet Gaming Disorder criteria",
   "year": 2018,
-  "type": "journal-article",
-  "venue": "Journal of Behavioral Addictions",
-  "authors": [],
+  "type": "conference-paper",
+  "venue": "Journal of Behavioral Addictions, 7(Suppl. 1), 130 (abstract OP-147, 5th International Conference on Behavioral Addictions, Cologne)",
+  "authors": [
+   "Halley M. Pontes",
+   "Bruno Schivinski",
+   "Magdalena Brzozowska-Woś",
+   "Mark D. Griffiths"
+  ],
   "doi": "10.1556/jba.7.2018.suppl.1",
-  "url": "https://doi.org/10.1556/jba.7.2018.suppl.1"
+  "url": "https://doi.org/10.1556/jba.7.2018.suppl.1",
+  "page": "papers/laxer-criteria-gaming-disorder-ctree.html",
+  "page_label": "Full paper"
  },
  {
   "title": "Psychometric assessment of the Internet Gaming Disorder diagnostic criteria: An Item Response Theory study",
