@@ -159,8 +159,8 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 - The paper also gets its paper page (PAPER_PAGES.md), and the issue links to it through `related_pages`.
 
 ## Twice weekly: Monday and Thursday (Bruno, 27 October 2026)
-- From issue 43 (2 November 2026) a new issue comes out every Monday and Thursday at 08:00 Sydney time.
-- `week_of` now holds the issue's own date (a Monday or a Thursday). Readers see the day, e.g. "Monday 2 November 2026"
+- From issue 43 (Thursday 29 October 2026, started that day on Bruno's instruction) a new issue comes out every Monday and Thursday at 08:00 Sydney time.
+- `week_of` now holds the issue's own date (a Monday or a Thursday). Readers see the day, e.g. "Thursday 29 October 2026"
   (`dateline()` in scripts/build_watch.py); issues 1 to 42 keep "Week of ...". The email kicker uses the same line.
 - Site copy says "New issues every Monday and Thursday" (home page, Marketing in 3 page, coffee prompts, email form,
   share cards, llms.txt).
@@ -182,6 +182,6 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 - How to tell: check the paper's author list for "Schivinski". If he is an author, skip the email step, write
   "no email (Bruno's own paper)" in the Thank-you column of `claude/mkt3-author-log.md`, and say so in the run report.
 - Every publish-run prompt that carries the AUTHOR THANK-YOU step must also carry this exception.
-- Issue 43 (2 November 2026) is a deliberate one-off: its scheduled run sends the template as a test to Bruno's own
+- Issue 43 (29 October 2026) is a deliberate one-off: its scheduled run sends the template as a test to Bruno's own
   work address only, set up on his instruction of 27 October 2026, before this rule. No co-authors are emailed.
 - First issue under the rule: issue 52 (Thursday 3 December 2026, Leite, Pontes & Schivinski, JTTM), preloaded as a draft.
