@@ -1,0 +1,27 @@
+text: religion-city-branding-saudi-arabia.blocks.txt
+title_page_label: Open access article
+running_label: open access (CC BY 4.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article; it differs only in formatting and
+  pagination. Please cite the published version.
+affiliation_line: RMIT University; Islamic University of Madinah
+title_page_footer: Re-typeset from the published open access article (CC BY 4.0); the publisher's typesetting and layout have been removed and Figure 1 redrawn.
+figures:
+  fig1:
+    svg: figures/li-alahmari-schivinski-2024-religion-city-branding-framework.svg
+table_overrides:
+  '1':
+    title: 'Coding scheme: Brand narrative of the cities on social media.'
+    note: ''
+    widths: [auto, 1fr, 1fr, 1fr]
+  '2':
+    title: 'City branding: Jeddah and Riyadh.'
+    landscape: true
+    size: 8.5pt
+    note: ''
+    widths: [auto, 1fr, auto, auto, auto, auto, auto, auto, auto]
+  '3':
+    title: Resident engagement with the cities of Jeddah and Riyadh.
+    size: 8.5pt
+    note: 'Note: Popularity (P), Virality (V), Commitment (C), and Engagement (E).'
+    widths: [auto, auto, auto, 1fr, auto, auto, auto, auto]

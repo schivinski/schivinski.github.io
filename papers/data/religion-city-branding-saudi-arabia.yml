@@ -1,0 +1,287 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, PLOS ONE 19(1), e0296162 (open access, CC BY 4.0). Text and tables from the version of record
+# (Europe PMC full-text XML, PMC10805314), checked against the PDF supplied by Bruno (28 Oct 2026). Figure 1 redrawn.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Place branding: Religion in shaping the three-dimensional essence of a city brand through stakeholder engagement"
+doi: "10.1371/journal.pone.0296162"
+journal: "PLOS ONE"
+issn: "1932-6203"
+publisher: "Public Library of Science"
+volume: "19"
+issue: "1"
+article_number: "e0296162"
+published: "2024-01"
+published_label: "23 January 2024"
+online: "2024-01-23"
+open_access: true
+licence: "CC BY 4.0"
+licence_url: "https://creativecommons.org/licenses/by/4.0/"
+
+aam:
+  file: "li-alahmari-schivinski-2024-plosone-religion-city-branding.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access article (CC BY 4.0), re-typeset as a clean PDF with the same content as the published version. Please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution 4.0 International License
+    (https://creativecommons.org/licenses/by/4.0/). Originally published in PLOS ONE, 19(1), e0296162 (23 January
+    2024), https://doi.org/10.1371/journal.pone.0296162. Changes made: the text has been re-typeset and Figure 1
+    redrawn; content is unchanged.
+
+authors:
+  - given: "Xiufang (Leah)"
+    family: "Li"
+    affiliation: ["RMIT University"]
+  - given: "Abdullah"
+    family: "Alahmari"
+    orcid: "0000-0003-4287-9810"
+    affiliation: ["RMIT University", "Islamic University of Madinah"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+
+cite_short: "Li, Alahmari & Schivinski, 2024"
+badges: ["1,253 social media posts", "Content analysis", "Twitter, Facebook and Instagram", "Jeddah and Riyadh", "Saudi Arabia"]
+keywords:
+  # What the study is about
+  - place branding
+  - city branding
+  - religion
+  - Islam
+  - stakeholder engagement
+  - resident engagement
+  - government communication
+  - social media
+  - Twitter
+  - Facebook
+  - Instagram
+  - festivals
+  - Saudi Seasons
+  - Jeddah Season
+  - Riyadh Season
+  - Middle East
+  # Theory and measures
+  - three dimensions of a place brand
+  - physical attributes
+  - functional attributes
+  - brand personality traits
+  - individual-level and social-level engagement
+  - popularity, virality and commitment indices
+  # Method
+  - content analysis
+  - case study
+  - Holsti reliability
+  - Saudi Arabia
+  # Application
+  - government social media strategy
+  - co-creation of place brands
+
+in_brief: >-
+  Religion is a powerful tool for engaging residents in city branding in Saudi Arabia. Analysing 1,253 government
+  posts about the Jeddah and Riyadh Seasons on Twitter, Facebook and Instagram, we found the government drew on
+  Islamic values, architecture and events, and residents responded by liking and sharing, especially on Twitter,
+  but rarely by commenting.
+
+findings:
+  - headline: "Government posts focused on what the cities offer."
+    text: >-
+      Of 1,253 government posts about the 2019 Jeddah and Riyadh Seasons, 53% (666) built the cities&rsquo; functional
+      attributes, such as cultural activities, transport and a clean environment, 32% (393) their personality traits,
+      such as social bonding and religious beliefs, and only 15% (194) their physical attributes (Li, Alahmari &amp;
+      Schivinski, 2024).
+  - headline: "Religion ran through all three dimensions."
+    text: >-
+      The government highlighted Islamic architecture and calligraphy, Qur&rsquo;an recitation contests, a competition
+      reviving the Prophet&rsquo;s call to teach children swimming, archery and horse riding, and prayers during a solar
+      eclipse that postponed festival events (Li, Alahmari &amp; Schivinski, 2024).
+  - headline: "Residents liked and shared, but rarely commented."
+    text: >-
+      Resident engagement came mostly from likes (popularity) and shares (virality), with commitment through comments
+      at 0.1 to 0.4 on every platform, a low level of engagement the authors link to limits on public speech in Saudi
+      Arabia (Li, Alahmari &amp; Schivinski, 2024).
+  - headline: "Twitter was the main channel."
+    text: >-
+      Engagement was highest on Twitter (E index 2.0 to 2.7), followed by Instagram (1.3 to 2.5) and Facebook (0.5 to
+      0.9), with functional attributes and personality traits drawing the most engagement (Li, Alahmari &amp;
+      Schivinski, 2024).
+
+glance:
+  - { label: "Design", value: "Case study with quantitative content analysis of government posts and resident responses about two 2019 Saudi Seasons festivals" }
+  - { label: "Data", value: "1,253 text posts in Arabic from government accounts on Twitter, Facebook and Instagram, bought from a social media data provider (Podargos Technologies): Jeddah Season, 8 June to 18 July 2019; Riyadh Season, 11 October to 30 December 2019" }
+  - { label: "Coding", value: "Two trained native Arabic-speaking coders; categories for physical attributes, functional attributes and personality traits of a city brand; reliability on 25% of posts (<i>n</i> = 313), Holsti = 0.86" }
+  - { label: "Engagement", value: "Popularity (likes), virality (shares) and commitment (comments) per post and per 1,000 followers, summed into an engagement (E) index" }
+  - { label: "Ethics", value: "Approved by the College Human Ethics Advisory Network (CHEAN), RMIT University" }
+
+figures:
+  - file: figures/li-alahmari-schivinski-2024-religion-city-branding-framework.svg
+    title: "Figure 1. Framework of religion city branding through stakeholder engagement"
+    caption: >-
+      Redrawn from Figure 1 of the article (CC BY 4.0). Religious elements of a city&rsquo;s physical attributes,
+      functional attributes and personality traits feed city branding through stakeholder engagement, which, supported
+      by individual-level and social-level engagement, contributes to social development.
+
+results:
+  title: "Resident engagement (E index) with government posts, Jeddah and Riyadh Seasons"
+  unit: ""
+  max: 3
+  note: "Engagement index (popularity + virality + commitment, per 1,000 followers) from Table 3 of the article."
+  groups:
+    - name: "Twitter"
+      bars:
+        - { label: "Functional attributes, Jeddah", value: 2.7, display: "2.7", highlight: true }
+        - { label: "Functional attributes, Riyadh", value: 2.6, display: "2.6", highlight: true }
+        - { label: "Personality traits, Riyadh", value: 2.2, display: "2.2", highlight: true }
+        - { label: "Physical attributes, Jeddah", value: 2.0, display: "2.0", highlight: true }
+    - name: "Instagram"
+      bars:
+        - { label: "Functional attributes, Riyadh", value: 2.5, display: "2.5" }
+        - { label: "Functional attributes, Jeddah", value: 2.0, display: "2.0" }
+        - { label: "Physical attributes, Riyadh", value: 1.3, display: "1.3" }
+    - name: "Facebook"
+      bars:
+        - { label: "Functional attributes, Jeddah", value: 0.9, display: "0.9" }
+        - { label: "Personality traits, Riyadh", value: 0.7, display: "0.7" }
+        - { label: "Physical attributes, Jeddah", value: 0.5, display: "0.5" }
+
+question: >-
+  Religion shapes daily life and policy in the Middle East, yet place branding research has mostly looked at
+  religious architecture rather than at how religion engages the people who live in a city. Taking Saudi Arabia&rsquo;s
+  Jeddah and Riyadh Seasons as a case, we asked how government actors use religious factors to engage residents in
+  branding Saudi cities on social media, how residents respond, and what this means for empowering residents in city
+  branding through religion.
+
+implications:
+  practical: >-
+    Cities in religious societies can build their brand personality around shared values and beliefs, such as the
+    Islamic values of tolerance and justice, and weave them into the physical and functional sides of the city brand.
+    To move residents from liking and sharing to genuine conversation, governments and pro-government actors should
+    communicate ethically on social media, above all on Twitter, by responding to users&rsquo; reactions, comments and
+    questions.
+  theoretical: >-
+    The study proposes a framework of religion city branding through stakeholder engagement, which links religion
+    with the three dimensions of a place brand (physical attributes, functional attributes and personality traits) and
+    shows in particular how religious factors shape a place brand&rsquo;s personality. It suggests that religion can
+    drive engagement at the individual level, but that moving engagement to the social level, where it builds
+    resources for social development, should be reassessed in a context of power asymmetries between government and
+    citizens.
+
+limitations:
+  - "As a case study of Saudi Arabia, the findings may not generalise to other countries; larger samples within and beyond the Middle East are needed."
+  - "Only two festivals in two cities were analysed; branding outside these periods may differ."
+  - "Only government and resident content was examined; future work could study corporate stakeholders, influencers and NGOs, using surveys or interviews."
+
+faq:
+  - q: "How does religion help brand a city?"
+    a: >-
+      In Saudi Arabia, the government used Islamic architecture, Qur&rsquo;anic teachings, religious competitions and
+      rituals in its posts about the Jeddah and Riyadh Seasons, and residents engaged most with posts about the
+      cities&rsquo; functions and personality, such as cultural activities, social bonding and religious values
+      (Li, Alahmari &amp; Schivinski, 2024).
+  - q: "Which social media platform worked best for city branding in Saudi Arabia?"
+    a: >-
+      Twitter. Resident engagement with government posts was highest on Twitter, followed by Instagram, with Facebook
+      the least effective (Li, Alahmari &amp; Schivinski, 2024).
+  - q: "Did residents talk back to the government on social media?"
+    a: >-
+      Rarely. Engagement came mostly from likes and shares; comments, the highest level of engagement, were scarce on
+      all three platforms (Li, Alahmari &amp; Schivinski, 2024).
+  - q: "What are the three dimensions of a place brand?"
+    a: >-
+      Physical attributes (what the place looks like), functional attributes (what it offers, such as services,
+      transport and activities) and personality traits (the values, beliefs and character people associate with it).
+
+concepts:
+  - term: "Place branding"
+    definition: "Building and managing the identity, image and meanings of a city, region or country as a brand."
+  - term: "Stakeholder engagement"
+    definition: "Involving groups such as governments and residents in shaping and promoting a place brand, from individual responses to collective, social-level participation."
+  - term: "Physical attributes"
+    definition: "The visible features of a place brand, such as architecture, design, colours and logos."
+  - term: "Functional attributes"
+    definition: "What a place offers, such as a clean environment, business opportunities, cultural activities, transport and government services."
+  - term: "Brand personality traits"
+    definition: "The human-like character, values and beliefs associated with a place brand."
+  - term: "Popularity, virality and commitment"
+    definition: "Engagement indices based on likes, shares and comments per post, scaled by followers; their sum is the engagement (E) index."
+
+materials:
+  - label: "Coding scheme"
+    text: "The full coding scheme for the three dimensions of the city brand is in Table 1 below."
+  - label: "Data"
+    text: "The coded data are openly available on Figshare: https://figshare.com/articles/dataset/CA_DATA_xlsx/24798561 (as given in the article&rsquo;s data availability statement)."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Open access article (CC BY 4.0), re-typeset", url: "manuscripts/li-alahmari-schivinski-2024-plosone-religion-city-branding.pdf" }
+  - { label: "Published version", note: "PLOS ONE (open access)", url: "https://doi.org/10.1371/journal.pone.0296162" }
+  - { label: "Data (Figshare)", note: "Coded content analysis data, as linked in the article", url: "https://figshare.com/articles/dataset/CA_DATA_xlsx/24798561" }
+
+tables:
+- id: '1'
+  title: 'Coding scheme: Brand narrative of the cities on social media'
+  columns: [City season, Physical attributes, Functional attributes, Personality traits]
+  align: [left, left, left, left]
+  rows:
+  - [Jeddah / Riyadh, Religious design, Clean environment, Social bonding/community]
+  - ['', Religious colour, Business opportunities, City Brand Attitudes]
+  - ['', Religious architecture, Cultural activities, Intentions]
+  - ['', Religious logos, Government Services, Religious beliefs]
+  - ['', Religious figures, Transport, Religious values]
+  - ['', '', Internal governance, Religious ritual]
+  note: Coding categories as printed in Table 1 of the article.
+  collapsed: true
+- id: '2'
+  title: 'City branding: Jeddah and Riyadh'
+  columns: [Dimension, Category, 'Jeddah: Twitter', 'Jeddah: Facebook', 'Jeddah: Instagram', 'Riyadh: Twitter', 'Riyadh: Facebook', 'Riyadh: Instagram', Total posts]
+  align: [left, left, right, right, right, right, right, right, right]
+  rows:
+  - [Physical attributes, Cafe’s design, '11', '7', '9', '27', '19', '15', 194 (15%)]
+  - ['', Religious architecture, '13', '2', '7', '20', '2', '10', '']
+  - ['', Religious colour, '2', '2', '3', '3', '4', '3', '']
+  - ['', Religious logos, '2', '1', '1', '15', '2', '3', '']
+  - ['', Religious figures, '5', '0', '1', '4', '0', '1', '']
+  - [Functional attributes, Clean environment, '12', '14', '8', '19', '8', '6', 666 (53%)]
+  - ['', Business opportunities, '1', '2', '3', '0', '3', '4', '']
+  - ['', Cultural activities, '107', '41', '52', '181', '67', '87', '']
+  - ['', Transport, '19', '5', '3', '6', '5', '5', '']
+  - ['', Government Services, '5', '3', '0', '0', '0', '0', '']
+  - [Personality traits, Social bonding/community, '14', '17', '19', '27', '25', '30', 393 (32%)]
+  - ['', City brand attitudes, '32', '9', '8', '11', '48', '85', '']
+  - ['', Intentions, '0', '0', '0', '2', '0', '0', '']
+  - ['', Religious beliefs, '11', '8', '4', '13', '2', '7', '']
+  - ['', Religious values, '3', '0', '0', '6', '4', '2', '']
+  - ['', Religious ritual, '2', '0', '0', '2', '1', '1', '']
+  note: Number of government posts in each category, Jeddah Season and Riyadh Season 2019 (1,253 posts in all). Values as printed in Table 2 of the article, where the totals read &ldquo;194 (%15)&rdquo;,
+    &ldquo;666 (%53)&rdquo; and &ldquo;393 (%32)&rdquo;.
+- id: '3'
+  title: Resident engagement with the cities of Jeddah and Riyadh
+  columns: [City, Platform, Followers, Dimension, P index, V index, C index, E index]
+  align: [left, left, left, left, right, right, right, right]
+  rows:
+  - [Jeddah, Twitter, '139,000', Physical attributes, '1.5', '0.3', '0.2', '2.0']
+  - ['', '', '', Functional attributes, '2.0', '0.6', '0.1', '2.7']
+  - ['', '', '', Personality traits, '1.6', '0.4', '0.1', '2.1']
+  - [Riyadh, '', '320,000', Physical attributes, '1.2', '0.7', '0.1', '2.0']
+  - ['', '', '', Functional attributes, '1.7', '0.8', '0.1', '2.6']
+  - ['', '', '', Personality traits, '1.5', '0.6', '0.1', '2.2']
+  - [Jeddah, Facebook, '55,000', Physical attributes, '0.3', '0.2', '0.1', '0.5']
+  - ['', '', '', Functional attributes, '0.5', '0.3', '0.1', '0.9']
+  - ['', '', '', Personality traits, '0.4', '0.2', '0.1', '0.6']
+  - [Riyadh, '', '84,000', Physical attributes, '0.2', '0.2', '0.1', '0.5']
+  - ['', '', '', Functional attributes, '0.6', '0.2', '0.1', '0.9']
+  - ['', '', '', Personality traits, '0.4', '0.2', '0.1', '0.7']
+  - [Jeddah, Instagram, '129,000', Physical attributes, '0.8', '0.4', '0.2', '1.4']
+  - ['', '', '', Functional attributes, '1.6', '0.1', '0.3', '2.0']
+  - ['', '', '', Personality traits, '1.3', '0.3', '0.4', '2.0']
+  - [Riyadh, '', '108,000', Physical attributes, '0.9', '0.3', '0.1', '1.3']
+  - ['', '', '', Functional attributes, '1.7', '0.6', '0.2', '2.5']
+  - ['', '', '', Personality traits, '1.2', '0.2', '0.1', '1.5']
+  note: Popularity (P) = (likes / posts) / followers &times; 1,000; virality (V) = (shares / posts) / followers &times; 1,000; commitment (C) = (comments / posts) / followers &times; 1,000; engagement (E)
+    = P + V + C. Values as printed in Table 3 of the article.
+
+related:
+  - "10.1108/jpbm-04-2025-5959"
+  - "10.1057/s41262-020-00207-5"
+  - "10.1080/13527266.2013.871323"

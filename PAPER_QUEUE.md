@@ -47,7 +47,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 26 | 2024 | Exploring the role of brand experience in driving consumer emotions and engagement with… | Scientific Papers of Silesian University of Technology Organization and Management Series | 0 | locked (`sports-brand-experience-emotions-engagement`) |
 | 27 | 2024 | In the eye of the (fire)storm: better safe or sorry? Crisis communication strategies fo… | Journal of Marketing Communications | 38 | locked (`crisis-communication-online-firestorms-apology`) |
 | 28 | 2024 | Machine Learning(s) in gaming disorder through the user-avatar bond: A step towards con… | Journal of Behavioral Addictions | 2 |  |
-| 29 | 2024 | Place branding: Religion in shaping the three-dimensional essence of a city brand throu… | Plos One | 13 |  |
+| 29 | 2024 | Place branding: Religion in shaping the three-dimensional essence of a city brand throu… | Plos One | 13 | locked (`religion-city-branding-saudi-arabia`) |
 | 30 | 2024 | Smart TV Users and Interfaces: Who’s in Control? | International Journal of Communication | 8 |  |
 | 31 | 2024 | Translating the user-avatar bond into depression risk: A preliminary machine learning s… | Journal of Psychiatric Research | 25 |  |
 | 32 | 2024 | “What Are You Eating?” Is the Influence of Fortnite Streamers Expanding Beyond the Game? | Journal of Electronic Gaming and Esports | 8 |  |
