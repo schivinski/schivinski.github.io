@@ -1,0 +1,327 @@
+text: global-consumer-culture-impulsive-buying-advertising.blocks.txt
+affiliation_line: London South Bank University; University of London (affiliations at the time of publication)
+title_page_footer: Re-typeset from the published text by the authors; the publisher's typesetting and layout have been removed.
+figures:
+  fig1:
+    svg: figures/czarnecka-schivinski-2019-agcc-model.svg
+  fig2:
+    svg: figures/czarnecka-schivinski-2019-agcc-moderation.svg
+table_overrides:
+  '1':
+    title: Standardized structural coefficients of the conceptual model.
+    columns: [Path structure, β, '*t*-value', '*p*-value']
+    widths: [1fr, auto, auto, auto]
+    note: '*Note*. AGCC = second-order factor from acculturation to global consumer culture; MLR χ^{2}_{(390)} = 584.25, CFI = 0.93, TLI = 0.92, RMSEA = 0.03 [90% CI 0.02–0.04]. Gender reference: 1 = female; n = 426.'
+  '2':
+    title: Moderation analysis outcomes.
+    columns: [Hypothesis, Unst. β, '*t*-value', '*p*-value']
+    widths: [1fr, auto, auto, auto]
+    note: '*Note*. AGCC = second-order factor from acculturation to global consumer culture. Information criteria for the model: Akaike (AIC) = 51,444.02, Bayesian (BIC) = 51,902.17, sample-size adjusted BIC = 51,543.58; n = 426.'
+  A:
+    label: Appendix A
+    title: Descriptive statistics, factor loadings (completely standardized lambda X), explained variance on each item (*R*^{2}), skewness (Sk), kurtosis (Kur), Cronbach’s alpha (α), composite reliability (Jöreskog’s Rhô, CR), factor determinacy (FD), and average variance extracted (Rhô vc, AVE).
+    landscape: true
+    columns: [Measurements, '(λ_{x})^{b}', '*R*^{2}', '*t*-value', Mean (SD), Sk, Kur, α/CR/FD/AVE]
+    widths: [1fr, auto, auto, auto, auto, auto, auto, auto]
+    size: 8pt
+    note: '*Note*. Reverse-scored item marked "(reverse scored)". AGCC and impulsive buying items anchored from 1 = strongly disagree to 7 = strongly agree; attitude towards advertising and beliefs about advertising items anchored from 1 = strongly disagree to 5 = strongly agree.'
+  B:
+    title: Correlation matrix of the effects of the multifactorial CFA models
+    columns:
+    - Construct
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    align:
+    - left
+    - right
+    - right
+    - right
+    - right
+    - right
+    - right
+    - right
+    - right
+    - right
+    - right
+    - right
+    - right
+    - right
+    - right
+    - right
+    rows:
+    - - 1. AGCC – Cosmopolitanism
+      - '*0.81*'
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - 2. AGCC – Exposure to marketing activities
+      - '0.16'
+      - '*0.74*'
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - 3. AGCC – English language usage and exposure
+      - '0.11'
+      - '0.01'
+      - '*0.74*'
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - 4. AGCC – Social interactions
+      - '0.22'
+      - '0.03'
+      - '0.13'
+      - '*0.71*'
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - 5. AGCC – Global mass media exposure
+      - −0.01
+      - '0.17'
+      - '0.28'
+      - '0.27'
+      - '*0.74*'
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - 6. AGCC – Openness to and desire to emulate GCC
+      - '0.01'
+      - '0.20'
+      - '0.02'
+      - −0.09
+      - '0.01'
+      - '*0.70*'
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - 7. AGCC – Self-identification with global consumer culture
+      - −0.02
+      - '0.27'
+      - −0.02
+      - '0.21'
+      - '0.38'
+      - '0.09'
+      - '*0.74*'
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - 8. Impulsive buying
+      - −0.02
+      - '0.13'
+      - −0.08
+      - '0.10'
+      - '0.31'
+      - −0.02
+      - '0.21'
+      - '*0.72*'
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - 9. Attitude towards advertising
+      - '0.07'
+      - '0.13'
+      - '0.01'
+      - '0.03'
+      - '0.39'
+      - '0.01'
+      - '0.22'
+      - '0.23'
+      - '*0.76*'
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - 10. Beliefs about advertising’s information role
+      - '0.08'
+      - '0.21'
+      - '0.02'
+      - '0.16'
+      - '0.39'
+      - '0.04'
+      - '0.28'
+      - '0.15'
+      - '0.71'
+      - '*0.84*'
+      - ''
+      - ''
+      - ''
+      - ''
+      - ''
+    - - 11. Beliefs about advertising’s role in creating social image
+      - '0.06'
+      - '0.24'
+      - −0.06
+      - '0.21'
+      - '0.38'
+      - '0.08'
+      - '0.43'
+      - '0.14'
+      - '0.44'
+      - '0.65'
+      - '*0.82*'
+      - ''
+      - ''
+      - ''
+      - ''
+    - - 12. Beliefs about advertising’s hedonic attributes
+      - '0.11'
+      - '0.17'
+      - −0.09
+      - '0.16'
+      - '0.35'
+      - −0.02
+      - '0.34'
+      - '0.15'
+      - '0.69'
+      - '0.61'
+      - '0.67'
+      - '*0.76*'
+      - ''
+      - ''
+      - ''
+    - - 13. Beliefs about advertising’s economic role
+      - '0.10'
+      - '0.15'
+      - '0.05'
+      - '0.17'
+      - '0.37'
+      - −0.05
+      - '0.28'
+      - '0.23'
+      - '0.71'
+      - '0.68'
+      - '0.57'
+      - '0.68'
+      - '*0.70*'
+      - ''
+      - ''
+    - - 14. Beliefs about advertising’s deceptive role
+      - '0.02'
+      - '0.11'
+      - −0.09
+      - −0.03
+      - −0.21
+      - −0.07
+      - −0.12
+      - '0.05'
+      - −0.57
+      - −0.39
+      - −0.16
+      - −0.31
+      - −0.45
+      - '*0.72*'
+      - ''
+    - - 15. Beliefs about advertising promoting materialism
+      - '0.02'
+      - '0.01'
+      - −0.09
+      - '0.03'
+      - −0.11
+      - −0.06
+      - −0.01
+      - −0.01
+      - −0.28
+      - −0.08
+      - '0.06'
+      - −0.10
+      - −0.15
+      - '0.52'
+      - '*0.76*'
+    landscape: true
+    size: 7pt
+    widths:
+    - 1fr
+    - auto
+    - auto
+    - auto
+    - auto
+    - auto
+    - auto
+    - auto
+    - auto
+    - auto
+    - auto
+    - auto
+    - auto
+    - auto
+    - auto
+    - auto
+    label: Appendix B
+    note: 'The square root of the average variance extracted values appears in italics. Pairwise correlations 1–9 denote the first CFA model: MLR χ^{2}_{(288)} = 343.92, CFI = 0.98, TLI = 0.97, RMSEA = 0.02
+      [90% C.I. 0.01–0.02]; Pairwise correlations 10–11 (including the first CFA model) denote the second CFA model: MLR χ^{2}_{(840)} = 1,389.09, CFI = 0.91, TLI = 0.90, RMSEA = 0.03 [90% C.I. 0.03–0.04];
+      n = 426.'

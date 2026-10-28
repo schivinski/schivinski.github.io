@@ -1,0 +1,340 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Journal of Global Marketing 32(4), 219-238 (online-first PDF supplied by Bruno, 28 Oct 2026);
+# issue details from Crossref.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Do consumers acculturated to global consumer culture buy more impulsively? The moderating role of attitudes towards and beliefs about advertising"
+doi: "10.1080/08911762.2019.1600094"
+journal: "Journal of Global Marketing"
+issn: "0891-1762"
+publisher: "Routledge (Taylor & Francis)"
+volume: "32"
+issue: "4"
+pages: "219–238"
+published: "2019-08"
+published_label: "2019 (online 17 June 2019)"
+online: "2019-06-17"
+open_access: false
+
+aam:
+  file: "czarnecka-schivinski-2019-jgm-accepted-manuscript.pdf"
+  statement: >-
+    This is an Accepted Manuscript of an article published by Taylor &amp; Francis in Journal of Global Marketing
+    on 17 June 2019, available online: https://doi.org/10.1080/08911762.2019.1600094
+
+authors:
+  - given: "Barbara"
+    family: "Czarnecka"
+    orcid: "0000-0002-8314-1727"
+    affiliation: ["London South Bank University"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Birkbeck, University of London"]
+    me: true
+
+cite_short: "Czarnecka & Schivinski, 2019"
+badges: ["426 immigrants in the UK", "35 nationalities", "Structural equation modelling", "Moderation analysis", "United Kingdom"]
+keywords:
+  # Article's own keywords
+  - acculturation to global consumer culture (AGCC)
+  - impulsive buying
+  - attitudes towards advertising
+  - beliefs about advertising
+  # What the study is about
+  - global consumer culture
+  - impulse purchases
+  - consumer acculturation
+  - immigrant consumers
+  - advertising attitudes
+  - advertising beliefs
+  - hedonic value of advertising
+  - deceptive advertising
+  - advertising and materialism
+  - globalization and consumption
+  - sustainable consumption
+  - consumer protection
+  # Theory and measures
+  - global consumer culture theory
+  - acculturation theory
+  - congruity theory
+  - AGCC scale (Durvasula and Lysonski)
+  - impulse buying scale (Ridgway et al.)
+  - beliefs about advertising scale (Tan and Chia)
+  # Context
+  - United Kingdom
+  - migrants
+  - cross-cultural consumer behaviour
+  # Method
+  - structural equation modelling (SEM)
+  - second-order factor model
+  - latent moderated structural equations
+  - bootstrapping
+  - confirmatory factor analysis
+  - robust maximum likelihood (MLR)
+  - Mplus
+  - survey research
+  # Application
+  - global advertising strategy
+  - consumer segmentation
+  - advertising literacy
+
+in_brief: >-
+  People who are more immersed in global consumer culture buy more on impulse and like advertising more. In a survey of
+  426 immigrants living in the UK, the rise in impulse buying was steepest among people who disliked advertising, so
+  negative views of advertising did not protect them.
+
+findings:
+  - headline: "Global consumer culture goes with more impulse buying."
+    text: >-
+      In a survey of 426 immigrants from 35 countries living in the UK, acculturation to global consumer culture
+      (AGCC) increased impulsive buying (&beta; = 0.24, <i>p</i> = .004) (Czarnecka &amp; Schivinski, 2019).
+  - headline: "It also makes people like advertising more."
+    text: >-
+      More acculturated consumers held more positive attitudes towards advertising in general (&beta; = 0.37,
+      <i>p</i> &lt; .001); together with age, gender and income, the model explained 16% of the variance in impulsive
+      buying and 17% in attitudes towards advertising (Czarnecka &amp; Schivinski, 2019).
+  - headline: "Disliking advertising does not protect against the pull of global culture."
+    text: >-
+      The effect of AGCC on impulsive buying was strongest among people with less favourable attitudes towards
+      advertising (interaction unst. &beta; = &minus;1.49, <i>p</i> = .01) and with weaker beliefs that advertising is
+      entertaining (&minus;2.53, <i>p</i> = .001), informative (&minus;1.15, <i>p</i> = .04) or good for the economy
+      (&minus;2.16, <i>p</i> = .01); those who already liked advertising bought impulsively at every level of AGCC
+      (Czarnecka &amp; Schivinski, 2019).
+  - headline: "Seeing advertising as deceptive did not slow the effect either."
+    text: >-
+      Believing that advertising is misleading strengthened, rather than weakened, the link between AGCC and impulsive
+      buying (unst. &beta; = 3.42, <i>p</i> = .009), while beliefs that advertising promotes materialism had no
+      moderating effect (<i>p</i> = .66) (Czarnecka &amp; Schivinski, 2019).
+  - headline: "Younger consumers and women bought more on impulse."
+    text: >-
+      Age reduced impulsive buying (&beta; = &minus;0.30, <i>p</i> = .001), women bought more impulsively than men
+      (&beta; = 0.16, <i>p</i> = .001), and income had a marginal positive effect (&beta; = 0.09, <i>p</i> = .06)
+      (Czarnecka &amp; Schivinski, 2019).
+
+glance:
+  - { label: "Design", value: "Online survey in English; confirmatory factor analysis, structural equation modelling with a second-order AGCC factor, and latent moderation analyses with 5,000 bootstrap samples in Mplus 7.2 (MLR)" }
+  - { label: "Participants", value: "426 immigrants living in the UK, from 35 nationalities (Nigeria 24.4%, Poland 21.2%, Germany 12.7%, Pakistan 7%), recruited through online immigrant communities and e-mail; 61% women, mean age 31.2, on average 11 years in the UK" }
+  - { label: "Predictor", value: "Acculturation to global consumer culture: 21 items in seven dimensions (Durvasula &amp; Lysonski, 2015), modelled as a second-order factor" }
+  - { label: "Moderators", value: "Attitude towards advertising in general and six beliefs about advertising (information, social image, hedonic, economy, deception, materialism; Tan &amp; Chia, 2007)" }
+  - { label: "Outcome", value: "Perceived impulsive buying (3 items; Ridgway et al., 2008)" }
+  - { label: "Controls", value: "Age, gender and income" }
+  - { label: "Model fit", value: "CFA: MLR &chi;&sup2;(288) = 343.92, CFI = 0.98, TLI = 0.97, RMSEA = 0.02. Structural model: MLR &chi;&sup2;(390) = 584.25, CFI = 0.93, TLI = 0.92, RMSEA = 0.03" }
+
+figures:
+  - file: figures/czarnecka-schivinski-2019-agcc-model.svg
+    title: "Figure 1. Model of AGCC, impulsive buying, and attitudes towards and beliefs about advertising"
+    caption: >-
+      AGCC is a second-order factor of seven dimensions (&lambda; = second-order loadings). Dashed arrows show the
+      moderating effects of attitude towards advertising and of the six beliefs about advertising on the AGCC to
+      impulsive buying path (unstandardised interaction coefficients). As printed in the article: * <i>p</i> &lt; 0.1,
+      ** <i>p</i> &lt; 0.05, *** <i>p</i> &lt; 0.001; n.s. = not significant.
+  - file: figures/czarnecka-schivinski-2019-agcc-moderation.svg
+    title: "Figures C–H. The moderating role of attitudes towards and beliefs about advertising on impulsive buying"
+    caption: >-
+      Redrawn from Appendices C to H of the article (line end points read from the published plots). In every panel
+      impulsive buying rises with AGCC, and the rise is steepest for people who think least of advertising (for the
+      deceptive-role belief, for those who see advertising as least deceptive).
+
+results:
+  title: "How acculturation to global consumer culture works"
+  unit: ""
+  max: 0.8
+  note: "Standardised coefficients from Table 1 and Figure 1 of the article (n = 426). The seventh dimension, openness to and desire to emulate global consumer culture, did not load significantly and is not shown."
+  groups:
+    - name: "Effects of AGCC"
+      bars:
+        - { label: "On attitude towards advertising", value: 0.37, highlight: true }
+        - { label: "On impulsive buying", value: 0.24, highlight: true }
+    - name: "What AGCC is made of (second-order loadings)"
+      bars:
+        - { label: "Global mass media exposure", value: 0.68 }
+        - { label: "Self-identification with GCC", value: 0.50 }
+        - { label: "Social interactions", value: 0.32 }
+        - { label: "English language usage", value: 0.22 }
+        - { label: "Cosmopolitanism", value: 0.19 }
+        - { label: "Exposure to marketing activities", value: 0.19 }
+
+question: >-
+  Globalisation spreads a consumer culture of global brands, media and consumption, and impulsive buying is rising in
+  developed and developing economies alike. Earlier work had linked acculturation to global consumer culture with
+  materialism and other dispositions, but not with impulsive buying, and had not asked how people's views of
+  advertising, a main carrier of that culture, shape the link. We asked whether consumers more acculturated to global
+  consumer culture buy more impulsively and like advertising more, and whether attitudes towards and beliefs about
+  advertising strengthen or weaken the effect.
+
+implications:
+  practical: >-
+    Global brands can expect consumers who are more immersed in global consumer culture to respond well to
+    advertising, and can build on that by keeping advertising ethical, truthful, entertaining and non-intrusive. For
+    consumer groups, regulators and responsible retailers the warning is that sceptical views of advertising do not
+    shield people from impulse buying driven by global consumer culture; advertising literacy programmes, public
+    service advertising that frames impulse buying as a global issue and showing its personal cost are possible ways
+    to encourage more mindful purchasing.
+  theoretical: >-
+    The study links acculturation to global consumer culture with impulsive buying and with attitudes towards
+    advertising, supporting acculturation theory. It also tests congruity theory: when acculturation and views of
+    advertising are in line, impulse buying is highest, but when they clash, the effect of acculturation is strongest,
+    which congruity theory does not fully explain and invites longitudinal work on how attitudes and behaviour realign.
+
+limitations:
+  - "The AGCC measure assumes a largely American-driven global consumer culture; future work could capture European or Asian influences, consumer ethnocentrism and other identities."
+  - "An online, English-language survey of a self-selected sample of immigrants in one country limits generalisability; studies in respondents' native languages are needed."
+  - "Impulsive buying was self-reported rather than observed, and the data are cross-sectional; longitudinal research could follow how acculturation changes buying over time."
+
+faq:
+  - q: "Does global consumer culture make people buy more on impulse?"
+    a: >-
+      In this study, yes. Among 426 immigrants in the UK, those more acculturated to global consumer culture reported
+      more impulsive buying (&beta; = 0.24) (Czarnecka &amp; Schivinski, 2019).
+  - q: "Do people who dislike advertising buy less impulsively?"
+    a: >-
+      They start lower, but the pull of global consumer culture is strongest for them: as acculturation rose, impulse
+      buying increased most among people with less favourable attitudes towards advertising (interaction &minus;1.49)
+      (Czarnecka &amp; Schivinski, 2019).
+  - q: "Which parts of global consumer culture matter most?"
+    a: >-
+      Exposure to global mass media loaded most strongly on acculturation to global consumer culture (&lambda; = 0.68),
+      followed by self-identification with global consumer culture (0.50) and social interactions such as travel
+      (0.32) (Czarnecka &amp; Schivinski, 2019).
+  - q: "Does believing advertising is misleading reduce impulse buying?"
+    a: >-
+      Directly, yes (&beta; = &minus;0.50 on impulsive buying), but it did not weaken the effect of global consumer
+      culture; the interaction was positive (unst. &beta; = 3.42) (Czarnecka &amp; Schivinski, 2019).
+
+concepts:
+  - term: "Global consumer culture (GCC)"
+    definition: "Consumption-related symbols, values and behaviours, such as global brands and media, that people around the world perceive as global."
+  - term: "Acculturation to global consumer culture (AGCC)"
+    definition: "How far a person has acquired the knowledge, skills and behaviours of global consumer culture, measured on seven dimensions such as cosmopolitanism, global media exposure and self-identification with GCC."
+  - term: "Impulsive buying"
+    definition: "Unplanned, compelling purchasing in which the speed of the decision precludes thoughtful consideration of alternatives."
+  - term: "Attitude towards advertising"
+    definition: "A learned tendency to respond favourably or unfavourably to advertising in general."
+  - term: "Beliefs about advertising"
+    definition: "Specific views of what advertising does: informs, creates social image, entertains, helps the economy, misleads and promotes materialism (Tan &amp; Chia, 2007)."
+  - term: "Congruity theory"
+    definition: "The idea that people strive for consistency between their attitudes, beliefs and behaviours."
+
+materials:
+  - label: "Scale items"
+    text: "All 39 items for AGCC, impulsive buying, attitude towards advertising and the six beliefs about advertising, with loadings, means and reliability, are in Table A below (AGCC and impulsive buying on 1 to 7, advertising items on 1 to 5)."
+  - label: "Eligibility"
+    text: "Respondents qualified as UK residents if they had lived in the UK for more than six months of the year or intended to stay for more than six months."
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Free full text, including all tables, figures and appendices", url: "manuscripts/czarnecka-schivinski-2019-jgm-accepted-manuscript.pdf" }
+  - { label: "Published version", note: "Journal of Global Marketing (Taylor &amp; Francis)", url: "https://doi.org/10.1080/08911762.2019.1600094" }
+
+tables:
+  - id: "1"
+    title: "Standardized structural coefficients of the conceptual model"
+    columns: ["Path", "&beta;", "<i>t</i>", "<i>p</i>"]
+    align: ["left", "right", "right", "right"]
+    rows:
+      - ["H1. AGCC → impulsive buying", "0.24", "2.87", "0.004"]
+      - ["H2. AGCC → attitudes towards advertising", "0.37", "4.64", "0.001"]
+      - { group: true, cells: ["Control variables", "", "", ""] }
+      - ["Age → impulsive buying", "−0.30", "−6.11", "0.001"]
+      - ["Gender → impulsive buying", "0.16", "3.10", "0.001"]
+      - ["Income → impulsive buying", "0.09", "1.85", "0.06"]
+      - ["Age → attitudes towards advertising", "−0.11", "−1.67", "0.09"]
+      - ["Gender → attitudes towards advertising", "−0.08", "−1.54", "0.12"]
+      - ["Income → attitudes towards advertising", "−0.09", "−1.76", "0.07"]
+    note: "AGCC = second-order factor from acculturation to global consumer culture; MLR &chi;&sup2;(390) = 584.25, CFI = 0.93, TLI = 0.92, RMSEA = 0.03 [90% CI 0.02–0.04]. Gender reference: 1 = female; <i>n</i> = 426. <i>p</i> values as printed (0.001 means <i>p</i> &le; .001)."
+  - id: "2"
+    title: "Moderation analysis outcomes"
+    columns: ["Path", "Unst. &beta;", "<i>t</i>", "<i>p</i>"]
+    align: ["left", "right", "right", "right"]
+    rows:
+      - { group: true, cells: ["AGCC → impulsive buying, moderated by", "", "", ""] }
+      - ["H3. Attitudes towards advertising in general", "−1.49", "−2.75", "0.01"]
+      - ["H4A. Beliefs about advertising’s hedonic attributes", "−2.53", "−3.34", "0.001"]
+      - ["H4B. Beliefs about advertising’s role in creating social image", "−0.77", "−1.79", "0.07"]
+      - ["H4C. Beliefs about advertising’s information role", "−1.15", "−2.03", "0.04"]
+      - ["H4D. Beliefs about advertising’s economic role", "−2.16", "−2.79", "0.01"]
+      - ["H5A. Beliefs about advertising’s deceptive role", "3.42", "2.76", "0.009"]
+      - ["H5B. Beliefs about advertising promoting materialism", "0.36", "0.44", "0.66"]
+      - { group: true, cells: ["Direct effects on impulsive buying from the moderation analysis", "", "", ""] }
+      - ["Attitudes towards advertising in general", "0.26", "3.50", "0.001"]
+      - ["Beliefs about advertising’s hedonic attributes", "0.22", "2.07", "0.04"]
+      - ["Beliefs about advertising’s role in creating social image", "0.10", "1.43", "0.15"]
+      - ["Beliefs about advertising’s information role", "0.18", "2.15", "0.03"]
+      - ["Beliefs about advertising’s economic role", "0.32", "2.99", "0.001"]
+      - ["Beliefs about advertising’s deceptive role", "−0.50", "3.50", "0.001"]
+      - ["Beliefs about advertising promoting materialism", "−0.06", "−0.55", "0.58"]
+    note: "Unstandardised coefficients of the latent interactions (5,000 bootstrap samples). Information criteria: AIC = 51,444.02, BIC = 51,902.17, sample-size adjusted BIC = 51,543.58; <i>n</i> = 426. Values as printed in the article."
+  - id: "A"
+    title: "Scale items: loadings, explained variance, descriptive statistics and reliability"
+    collapsed: true
+    columns: ["Construct and item", "&lambda;", "<i>R</i>&sup2;", "<i>t</i>", "Mean (SD)", "Skew.", "Kurt.", "Reliability"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "left"]
+    rows:
+      - { group: true, cells: ["AGCC – Cosmopolitanism (Cleveland &amp; Laroche, 2007)", "", "", "", "", "", "", "α = 0.89; CR = 0.86; FD = 0.96; AVE = 0.67"] }
+      - ["I am interested in learning more about people who live in other countries.", "0.78", "0.61", "29.60", "5.81 (1.25)", "−1.51", "2.79", ""]
+      - ["I like to learn about other ways of life.", "0.79", "0.63", "21.85", "5.98 (1.09)", "−2.03", "6.02", ""]
+      - ["I enjoy being with people from other countries to learn about their views and approaches.", "0.89", "0.80", "52.49", "5.99 (1.16)", "−1.79", "4.50", ""]
+      - { group: true, cells: ["AGCC - Exposure to marketing activities", "", "", "", "", "", "", "α = 0.79; CR = 0.78; FD = 0.90; AVE = 0.55"] }
+      - ["In my city, there are many billboards and advertising signs for foreign and global products.", "0.68", "0.32", "12.05", "3.57 (2.20)", "0.23", "−1.46", ""]
+      - ["It is quite common to see ads for foreign or global products in local media.", "0.73", "0.42", "15.26", "3.55 (2.19)", "2.31", "−1.58", ""]
+      - ["When I read a newspaper, I come across many advertisements for foreign or global products.", "0.81", "0.58", "19.84", "3.55 (2.18)", "2.20", "−1.45", ""]
+      - { group: true, cells: ["AGCC - English language usage and exposure", "", "", "", "", "", "", "α = 0.75; CR = 0.78; FD = 0.90; AVE = 0.55"] }
+      - ["I feel very comfortable speaking in English.", "0.79", "0.62", "22.68", "5.93 (1.83)", "−1.95", "2.46", ""]
+      - ["I often speak English with family or friends.", "0.63", "0.40", "16.45", "5.12 (2.29)", "−0.88", "−0.87", ""]
+      - ["I speak English regularly.", "0.80", "0.64", "21.39", "5.91 (1.88)", "−1.86", "2.03", ""]
+      - { group: true, cells: ["AGCC – Social interactions", "", "", "", "", "", "", "α = 0.75; CR = 0.76; FD = 0.89; AVE = 0.51"] }
+      - ["I prefer spending my vacations outside of the country that I live in.", "0.58", "0.34", "12.74", "5.26 (2.09)", "−1.38", "1.45", ""]
+      - ["Visiting foreign countries is one of my favorite things.", "0.81", "0.67", "25.74", "5.45 (2.04)", "−1.05", "−0.33", ""]
+      - ["I often think about going to different countries and doing some traveling.", "0.75", "0.56", "19.39", "5.43 (2.16)", "2.04", "0.27", ""]
+      - { group: true, cells: ["AGCC – Global mass media exposure", "", "", "", "", "", "", "α = 0.80; CR = 0.79; FD = 0.98; AVE = 0.56"] }
+      - ["I enjoy watching Hollywood films at the theater.", "0.71", "0.50", "22.14", "4.42 (2.33)", "−0.36", "−1.48", ""]
+      - ["I enjoy watching Hollywood movies that are in English.", "0.78", "0.61", "29.43", "4.96 (2.29)", "2.29", "−0.93", ""]
+      - ["Some of my favorite actors/actresses are from Hollywood.", "0.77", "0.59", "27.18", "4.67 (2.30)", "2.30", "−1.27", ""]
+      - { group: true, cells: ["AGCC – Openness to and desire to emulate GCC", "", "", "", "", "", "", "α = 0.76; CR = 0.75; FD = 0.98; AVE = 0.50"] }
+      - ["I think people my age are basically the same around the world. For example, a 20-something in Nigeria is basically the same as a 20-something in the US, Germany, or anywhere else.", "0.58", "0.34", "9.59", "2.51 (1.61)", "1.10", "0.50", ""]
+      - ["I think that my lifestyle is almost the same as those of my age group in other countries.", "0.86", "0.74", "14.82", "2.57 (1.01)", "1.00", "0.28", ""]
+      - ["I think my lifestyle is almost the same as those of people of my social class in other countries.", "0.67", "0.37", "10.61", "1.81 (0.78)", "0.78", "−0.54", ""]
+      - { group: true, cells: ["AGCC – Self-identification with global consumer culture", "", "", "", "", "", "", "α = 0.75; CR = 0.78; FD = 0.89; AVE = 0.56"] }
+      - ["The way that I dress is influenced by the advertising activities of foreign or global companies.", "0.75", "0.56", "19.27", "2.99 (1.97)", "0.68", "−0.84", ""]
+      - ["Advertising by foreign or global brands has a strong influence on my clothing choices.", "0.87", "0.77", "29.62", "3.07 (1.97)", "0.62", "−0.94", ""]
+      - ["I pay attention to the fashions worn by people in my age group who live in other countries.", "0.60", "0.35", "14.93", "3.03 (2.01)", "0.66", "−0.92", ""]
+      - { group: true, cells: ["Impulsive Buying (Ridgway et al., 2008)", "", "", "", "", "", "", "α = 0.77; CR = 0.77; FD = 0.88; AVE = 0.53"] }
+      - ["I consider myself an impulse purchaser.", "0.70", "0.49", "17.38", "3.14 (1.86)", "0.47", "−1.05", ""]
+      - ["I buy things I don’t need.", "0.72", "0.52", "18.96", "3.08 (1.67)", "0.65", "−0.67", ""]
+      - ["I buy things I did not plan to buy.", "0.77", "0.60", "22.57", "3.83 (1.68)", "0.09", "−1.04", ""]
+      - { group: true, cells: ["Attitude towards advertising in general (Tan &amp; Chia, 2007)", "", "", "", "", "", "", "α = 0.79; CR = 0.80; FD = 0.96; AVE = 0.58"] }
+      - ["Overall, I consider advertising a good thing.", "0.88", "0.78", "30.57", "3.43 (0.88)", "−0.61", "0.35", ""]
+      - ["My general opinion of advertising is unfavorable. (reverse scored)", "0.52", "0.27", "11.12", "3.23 (0.94)", "−0.11", "−0.25", ""]
+      - ["Overall, I like advertising.", "0.85", "0.72", "35.03", "3.40 (0.92)", "−0.69", "0.26", ""]
+      - { group: true, cells: ["Beliefs about advertising’s information role", "", "", "", "", "", "", "α = 0.87; CR = 0.88; FD = 0.95; AVE = 0.71"] }
+      - ["Advertising is a valuable source of information about sales.", "0.80", "0.64", "38.54", "3.78 (0.99)", "−0.80", "0.31", ""]
+      - ["Advertising tells me which brands have the features I am looking for.", "0.88", "0.78", "57.55", "3.67 (0.98)", "−0.84", "0.39", ""]
+      - ["Advertising helps me keep up to date about products/services available in the marketplace.", "0.86", "0.73", "51.20", "3.77 (0.93)", "−1.06", "1.15", ""]
+      - { group: true, cells: ["Beliefs about advertising’s role in creating social image", "", "", "", "", "", "", "α = 0.86; CR = 0.86; FD = 0.94; AVE = 0.68"] }
+      - ["From advertising, I learn about fashions and about what to buy to impress others.", "0.87", "0.75", "49.49", "3.1 (1.17)", "−0.22", "−0.84", ""]
+      - ["Advertising tells me what people with lifestyles similar to mine are buying and using.", "0.84", "0.71", "44.77", "3.22 (1.09)", "−0.35", "−0.61", ""]
+      - ["Advertising helps me know which products will or will not reflect the sort of person I am.", "0.77", "0.59", "32.30", "2.95 (1.14)", "−0.09", "−0.92", ""]
+      - { group: true, cells: ["Beliefs about advertising’s hedonic attributes", "", "", "", "", "", "", "α = 0.80; CR = 0.81; FD = 0.93; AVE = 0.59"] }
+      - ["Quite often, advertising is amusing and entertaining.", "0.69", "0.48", "23.50", "3.65 (0.90)", "−0.62", "0.37", ""]
+      - ["Sometimes I take pleasure in thinking about what I saw or heard or read in advertisements.", "0.86", "0.73", "42.55", "3.33 (1.09)", "−0.55", "−0.38", ""]
+      - ["Sometimes advertisements are even more enjoyable than other media contents.", "0.75", "0.57", "29.30", "3.25 (1.15)", "−0.41", "−0.64", ""]
+      - { group: true, cells: ["Beliefs about advertising’s economic role", "", "", "", "", "", "", "α = 0.75; CR = 0.75; FD = 0.93; AVE = 0.50"] }
+      - ["In general, advertising helps our nation’s economy.", "0.71", "0.40", "16.78", "3.44 (0.95)", "−0.65", "0.37", ""]
+      - ["Mostly, advertising is wasteful of economic resources.", "0.69", "0.38", "15.83", "3.37 (1.00)", "−0.20", "−0.47", ""]
+      - ["In general, advertising promotes competition, which benefits the consumer.", "0.73", "0.46", "19.43", "3.62 (0.94)", "−0.62", "0.198", ""]
+      - { group: true, cells: ["Beliefs about advertising’s deceptive role", "", "", "", "", "", "", "α = 0.77; CR = 0.77; FD = 0.89; AVE = 0.52"] }
+      - ["In general, advertising is misleading.", "0.77", "0.60", "22.85", "3.36 (0.93)", "−0.18", "−0.09", ""]
+      - ["Most advertising insults the intelligence of the average consumer.", "0.73", "0.53", "21.66", "3.28 (1.00)", "−0.16", "−0.45", ""]
+      - ["In general, advertisements present a true picture of the product advertised.", "0.68", "0.35", "17.53", "3.43 (0.99)", "−0.18", "−0.50", ""]
+      - { group: true, cells: ["Beliefs about advertising promoting materialism", "", "", "", "", "", "", "α = 0.79; CR = 0.80; FD = 0.90; AVE = 0.58"] }
+      - ["Advertising promotes undesirable values in our society.", "0.57", "0.33", "15.42", "3.07 (1.00)", "−0.05", "−0.36", ""]
+      - ["Advertising makes people buy unaffordable products just to show off.", "0.86", "0.74", "33.25", "3.44 (1.06)", "−0.50", "−0.30", ""]
+      - ["Advertising makes people live in a world of fantasy.", "0.83", "0.70", "31.80", "3.40 (1.03)", "−0.38", "−0.30", ""]
+    note: "&lambda; = completely standardised loading; <i>R</i>&sup2; = explained variance of the item; CR = composite reliability; FD = factor determinacy; AVE = average variance extracted. AGCC and impulsive buying items anchored from 1 = strongly disagree to 7 = strongly agree; attitude and belief items from 1 = strongly disagree to 5 = strongly agree. Items and values as printed in Appendix A of the article."
+
+related:
+  - "10.1002/cb.1833"
+  - "10.1108/jpbm-05-2021-3468"
+  - "10.1080/13527266.2013.871323"
+  - "10.1371/journal.pone.0273927"

@@ -18,7 +18,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 7 | 2020 | Social media brand engagement in the context of collaborative consumption: the case of … | Journal of Brand Management | 113 | locked (`social-media-brand-engagement-airbnb`) |
 | 8 | 2022 | Effects of social media brand-related content on fashion products buying behaviour – a … | Journal of Product & Brand Management | 96 | locked (`social-media-content-fashion-purchase-self-congruity`) |
 | 9 | 2024 | Influencer marketing effectiveness: giving competence, receiving credibility | Journal of Travel and Tourism Marketing | 92 | locked (`influencer-intimate-self-disclosure-credibility`) |
-| 10 | 2019 | Do Consumers Acculturated to Global Consumer Culture Buy More Impulsively? The Moderati… | Journal of Global Marketing | 86 |  |
+| 10 | 2019 | Do Consumers Acculturated to Global Consumer Culture Buy More Impulsively? The Moderati… | Journal of Global Marketing | 86 | locked (`global-consumer-culture-impulsive-buying-advertising`) |
 
 ## Highlighted papers (3)
 
