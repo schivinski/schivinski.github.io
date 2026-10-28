@@ -292,6 +292,7 @@ a:hover { color: $amber-text; }
 .btn-download { background: $amber !important; border-color: $amber !important; color: $ink !important; font-weight: 600 !important; }
 .btn-download:hover { background: #cf9220 !important; }
 .aam-note { font-size: .86rem; color: $muted; margin: .7rem 0 0; }
+.lang-note { font-size: .92rem; color: $ink; background: rgba($amber, .10); border-left: 3px solid $amber; border-radius: 3px; padding: .55rem .8rem; margin: .6rem 0 .8rem; }
 .paper-head .paper-keywords { margin: 1.1rem 0 0; }
 .table-block { margin: 0 0 1.8rem; }
 .table-title { font-size: 1.08rem; margin: 0 0 .6rem; }

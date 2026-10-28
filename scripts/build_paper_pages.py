@@ -56,6 +56,17 @@ def apa(d: dict) -> str:
             f"https://doi.org/{esc(d['doi'])}")
 
 
+def lang_note(d: dict) -> str:
+    """Note for articles published in a language other than English (the page itself is always in English)."""
+    if not d.get("title_original"):
+        return ""
+    lang = esc(d.get("language", "another language"))
+    extra = f" {esc(d['language_note'])}" if d.get("language_note") else ""
+    return (f'\n  <p class="lang-note"><strong>Note:</strong> the original article was published in {lang}, under the '
+            f'title <em>{esc(d["title_original"])}</em>. This page presents it in English.{extra} The citation below '
+            f'gives the original title followed by its English translation in square brackets.</p>')
+
+
 def plain(text: str) -> str:
     """Text without tags or HTML entities (for JSON-LD, meta tags and llms.txt)."""
     return html.unescape(re.sub(r"<[^>]+>", "", text or "")).strip()
@@ -339,10 +350,13 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
         else:
             names.append(n)
     ref = f"<em>{esc(d['journal'])}</em>"
-    if d.get("volume"):
-        ref += f", volume {esc(d['volume'])}"
-    if d.get("issue"):
-        ref += f", issue {esc(d['issue'])}"
+    if d.get("issue_label"):  # journals numbered by issue within the year, e.g. "no. 2 (59)"
+        ref += f", {esc(d['issue_label'])}"
+    else:
+        if d.get("volume"):
+            ref += f", volume {esc(d['volume'])}"
+        if d.get("issue"):
+            ref += f", issue {esc(d['issue'])}"
     if d.get("article_number"):
         ref += f", article {esc(d['article_number'])}"
     elif d.get("pages"):
@@ -368,7 +382,7 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
              [f'<li class="badge">{esc(b)}</li>' for b in d.get("badges", [])]
     out.append(f'''<div class="paper-head">
   <p class="paper-authors">{", ".join(names)}</p>
-  <p class="paper-ref">{ref}</p>{(chr(10) + '  <p class="paper-ref paper-original">Article in ' + esc(d.get("language", "")) + '. Original title: <em>' + esc(d["title_original"]) + '</em></p>') if d.get("title_original") else ""}
+  <p class="paper-ref">{ref}</p>{lang_note(d)}
   <ul class="badges" aria-label="Article features">{"".join(badges)}</ul>
   <div class="paper-actions">
     {actions}

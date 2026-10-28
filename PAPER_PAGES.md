@@ -97,6 +97,25 @@ and NC licences allow verbatim non-commercial copies; re-typesetting under ND ne
 Under a NoDerivatives licence (CC BY-ND, CC BY-NC-ND), host the publisher's PDF unchanged instead of a re-typeset copy
 (first case: Aleem et al., 2024, JMC, 11 Oct 2026). If that unchanged PDF prints Bruno's (or a co-author's) email address, host nothing and link to the free published version instead (first cases: Brzozowska-Woś & Schivinski, 2019, CEMJ; Schivinski et al., 2018, ABR; 28 Oct 2026).
 
+## Articles published in Polish (or another language)
+
+Bruno's instruction (28 Oct 2026), for the e-mentor paper and every Polish paper that follows:
+
+- The page is always in English. Use the journal's own English title when it has one (Crossref often holds it as the
+  main title, with the Polish one as `original-title`); otherwise translate the title.
+- Set `title_original` (the title as published), `language` ("Polish") and `language_code` ("pl"). The page then shows
+  a note that the original article was published in Polish, under its original title; `language_note` can add a
+  sentence (e.g., which parts were translated for the page).
+- Citation (APA 7): original title followed by the English translation in square brackets, e.g.
+  Schivinski, B., & Brzozowska-Woś, M. (2015). Badanie aktywności online polskich konsumentów dotyczącej marek [The
+  study of Polish consumer's online brand-related activities]. e-mentor, 2(59), 77–85. https://doi.org/10.15219/em59.1174.
+  `citation_title` uses the original title so Google Scholar matches the record.
+- For journals numbered by issue within the year, set `issue_label` (e.g., "no. 2 (59)") for the page header.
+- Translate items and tables for the page and say so in the table notes. Host a translated full text only if the
+  journal's licence allows derivatives.
+- Fix the Publications list entry in `data/metadata_fixes.yml` (English title; venue "… (article in Polish)").
+- Articles in English in Polish journals (with a Polish title as well) are English articles: no language note.
+
 ## Page sections, in order
 
 | # | Section | Purpose |
