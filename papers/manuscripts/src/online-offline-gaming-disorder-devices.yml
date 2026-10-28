@@ -1,0 +1,34 @@
+text: online-offline-gaming-disorder-devices.blocks.txt
+affiliation_line: Ulm University; RMIT University; Birkbeck, University of London
+title_page_label: Open access article
+running_label: open access (CC BY 4.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article; it differs only in formatting and
+  pagination. Please cite the published version.
+title_page_footer: Re-typeset from the published open access article (CC BY 4.0); the publisher's typesetting and layout have been removed.
+figures:
+  fig1:
+    png: manuscripts/src/img/montag-et-al-2021-abr-fig1.png
+  fig2:
+    png: manuscripts/src/img/montag-et-al-2021-abr-fig2.png
+table_overrides:
+  '1':
+    title: Descriptive statistics and differences between scores of males and females
+    columns: ['', 'Total (*n* = 2,768)', 'Males (*n* = 2,356)', 'Females (*n* = 412)', '*t*', df, '*p*']
+    size: 8.5pt
+    note: 'Values are *M* (*SD*) [median].'
+  '2':
+    columns: ['', Weekly time spent gaming, Gaming Disorder, Internet Gaming Disorder, Attention Problems, Loneliness, Depression, Age]
+    widths: [1.6fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr]
+    landscape: true
+    size: 9pt
+    note: 'All correlations are presented on two tailed level; all *p* < .001 except ^{*}*p* < .05 and n.s. Please note that with Spearman correlations effect sizes differ slightly (Pearson correlations are reported here as with the large sample size we prefered to present parametric tests throughout). The Spearman correlations can be found alongside the data via the OSF-link in this paper.'
+  '3':
+    columns: ['', 'Online (*n* = 1,490)', 'Mixed (*n* = 740)', 'Offline (*n* = 538)', '*F*_{(2,2761)}', '*p*', 'η^{2}']
+    size: 8.5pt
+    note: 'Values are *M* (*SD*); results from MANCOVA. Test scores can range between 4 and 20 points (Gaming Disorder), 9 and 45 points (Internet Gaming Disorder), 3 and 15 points (Attention Problems), 3 and 15 points (Loneliness) and 8 and 32 points (Depression).'
+  '4':
+    columns: ['', 'Console (*n* = 772)', 'Desktop-Computer (*n* = 1441)', 'Laptop (*n* = 278)', 'Mobile device (*n* = 277)', '*F*_{(3,2759)}', '*p*', 'η^{2}']
+    size: 8pt
+    landscape: false
+    note: 'Values are *M* (*SD*); results from MANCOVA. Test scores can range between 4 and 20 points (Gaming Disorder), 9 and 45 points (Internet Gaming Disorder), 3 and 15 points (Attention Problems), 3 and 15 points (Loneliness) and 8 and 32 points (Depression).'
