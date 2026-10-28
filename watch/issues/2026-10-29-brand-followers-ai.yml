@@ -3,9 +3,9 @@
 # Bruno's own paper (JBR 2021). Template twist agreed 26 Oct 2026: a personal, reflective section on what the
 # findings mean in the age of AI; the steps follow the paths of the published tree.
 issue: 43
-week_of: "2026-11-02"            # the week this issue covers (shown on the page, orders the archive)
+week_of: "2026-10-29"            # the issue's own date (Thursday)
 slug: brand-followers-ai
-status: draft                    # set to live by the Monday 2 November run
+status: live
 
 title: "Which brand followers actually join in, and does it still hold in the age of AI? A Journal of Business Research study of 1,356 social media users"
 dek: >-
