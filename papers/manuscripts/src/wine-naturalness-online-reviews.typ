@@ -1,0 +1,444 @@
+#set document(title: "Wine online and digital decanting: Naturalness effects in large\-scale consumer reviews of wine", author: ("Michał Folwarczny", "Magalie Dubois", "Vincent Clerc", "Bruno Schivinski", "Tobias Otterbring"))
+#set page(paper: "a4", margin: (x: 2.5cm, top: 2.6cm, bottom: 2.4cm),
+  header: context { if counter(page).get().first() > 1 [#set text(size: 8pt, fill: rgb("#5b6476")); Folwarczny et al\. \(2026\), just accepted, open access \(CC BY 4\.0\) #h(1fr) Wine Economics and Policy] },
+  footer: context { set text(size: 8.5pt, fill: rgb("#5b6476")); h(1fr); counter(page).display(); h(1fr) })
+#set text(font: ("Libertinus Serif", "New Computer Modern", "DejaVu Sans"), size: 11pt, lang: "en")
+#set par(justify: true, leading: 0.78em, spacing: 0.9em, first-line-indent: 1.2em)
+#show heading.where(level: 1): it => block(above: 1.5em, below: 0.8em, text(size: 12.5pt, weight: "bold", it.body))
+#show heading.where(level: 2): it => block(above: 1.2em, below: 0.6em, text(size: 11pt, weight: "bold", style: "italic", it.body))
+#show link: set text(fill: rgb("#15203b"))
+
+// ---------------- title page
+#set par(first-line-indent: 0em)
+#v(1.2cm)
+#text(size: 10pt, weight: "bold", fill: rgb("#8a5a00"), tracking: 0.04em)[Open access accepted manuscript]
+#v(0.5em)
+#block[#set par(justify: false); #text(size: 19pt, weight: "bold", hyphenate: false)[Wine online and digital decanting: Naturalness effects in large\-scale consumer reviews of wine]]
+#v(0.8em)
+#text(size: 12pt)[Michał Folwarczny, Magalie Dubois, Vincent Clerc, Bruno Schivinski, Tobias Otterbring]
+#v(0.2em)
+#text(size: 10pt, style: "italic")[University of Galway\; Burgundy School of Business\; Independent researcher\; RMIT University\; University of Agder]
+#v(1.4cm)
+#block(width: 100%, inset: 14pt, radius: 3pt, stroke: 0.6pt + rgb("#dde1e8"), fill: rgb("#f6f7f9"))[
+  #set text(size: 10pt)
+  #strong[To cite this article]
+  #v(0.2em)
+  Folwarczny, M\., Dubois, M\., Clerc, V\., Schivinski, B\., & Otterbring, T\. (2026). Wine online and digital decanting: Naturalness effects in large\-scale consumer reviews of wine. #emph[Wine Economics and Policy]. Advance online publication. #link("https://doi.org/10.36253/wep-19943")[https:\/\/doi.org\/10\.36253\/wep\-19943]
+  #v(0.9em)
+  Open access article distributed under the terms of the Creative Commons Attribution 4\.0 International License \(https:\/\/creativecommons\.org\/licenses\/by\/4\.0\/\)\. Accepted for publication in Wine Economics and Policy \(Just Accepted, published online 27 August 2026\), #link("https://doi.org/10.36253/wep-19943")[https:\/\/doi.org\/10\.36253\/wep\-19943]\. This article has been accepted for publication and undergone full peer review but has not been through the copyediting, typesetting, pagination and proofreading process, which may lead to differences between this version and the Version of Record\. Changes made: re\-typeset, the authors\' email addresses left out, and Figure 1 redrawn from the values in Table 2\.
+  #v(0.9em)
+  This is the accepted manuscript \(\"Just Accepted\"\), published open access under CC BY 4\.0\. It has undergone full peer review but not the journal\'s copyediting, typesetting and proofreading, so it may differ from the Version of Record\. It differs from the journal\'s Just Accepted PDF only in formatting\; the authors\' email addresses have been left out\. Please cite the published version\.
+]
+#v(1fr)
+#text(size: 8.5pt, fill: rgb("#5b6476"))[Re\-typeset from the Just Accepted manuscript \(CC BY 4\.0\)\; line numbers and the publisher\'s watermark removed and Figure 1 redrawn from the values in Table 2\.
+Downloaded from #link("https://schivinski.com/papers/wine-naturalness-online-reviews.html")[schivinski.com]]
+#pagebreak()
+#set par(first-line-indent: 1.2em)
+#align(left)[#text(size: 15pt, weight: "bold", hyphenate: false)[Wine Online and Digital Decanting: Naturalness Effects in Large\-Scale Consumer Reviews of Wine]]
+#v(0.6em)
+#par(first-line-indent: 0em)[Michał Folwarczny#super[1], Magalie Dubois#super[2], Vincent Clerc#super[3], Bruno Schivinski#super[4] and Tobias Otterbring#super[5]]
+#par(first-line-indent: 0em)[#text(size: 10pt, style: "italic")[#super[1]Discipline of Marketing, J\.E\. Cairnes School of Business & Economics, University of Galway, Ireland\; #super[2]School of Wine & Spirits Business, Université Bourgogne Europe, Burgundy School of Business, CEREN EA 7477, France\; #super[3]Independent Researcher\; #super[4]School of Media and Communication, RMIT University, Australia\; Gdansk University of Technology, Gdansk, Poland\; #super[5]School of Business and Law, Department of Management, University of Agder, Norway, and School of Electrical Engineering and Computer Science, Division of Media Technology and Interaction Design, KTH Royal Institute of Technology, Sweden]]
+#par(first-line-indent: 0em)[#text(size: 9pt)[\*Correspondence concerning this article should be addressed to Michał Folwarczny, Discipline of Marketing, J\.E\. Cairnes School of Business & Economics, University of Galway, Ireland\.]]
+#v(0.8em)
+#pad(x: 1.2cm)[#set par(first-line-indent: 0em); #set text(size: 10pt); #strong[Abstract] #linebreak() #strong[Purpose:] This study investigates how the naturalness shapes online wine reviews through the lens of information asymmetry and credence attributes\.]
+#pad(x: 1.2cm)[#set par(first-line-indent: 0em); #set text(size: 10pt); #strong[Methodology:] We analyze over six million consumer reviews from a global platform using computational linguistics to compare evaluative and affective responses between natural and conventional wines\.]
+#pad(x: 1.2cm)[#set par(first-line-indent: 0em); #set text(size: 10pt); #strong[Findings:] Compared to conventional wines, natural wines command a twenty percent price premium and elicit longer consumer reviews\; however, they systematically receive lower quality ratings and yield less positive per\-word sentiment\. Further, they have a more polarized emotional profile marked by increased negative emotions, such as disgust and anger, combined with slightly higher levels of joy\.]
+#pad(x: 1.2cm)[#set par(first-line-indent: 0em); #set text(size: 10pt); #strong[Originality:] The current findings challenge the natural\-is\-better bias and advance authenticity theory and wine economics by demonstrating that naturalness operates as a quality signal that drives expectation disconfirmation rather than hedonic satisfaction\.]
+#pad(x: 1.2cm)[#set par(first-line-indent: 0em); #set text(size: 10pt); #strong[Implications:] Managers of natural wine brands should position naturalness as a credence attribute and implement proactive expectation management regarding variable sensory profiles to mitigate negative affective responses while leveraging the price premium associated with authenticity\.]
+#pad(x: 1.2cm)[#set par(first-line-indent: 0em); #set text(size: 10pt); #strong[Keywords:] natural wine\; naturalness bias\; psychological essentialism\; authenticity\; sentiment analysis\; computational linguistics\; electronic word\-of\-mouth]
+#v(0.6em)
+= 1\. Introduction
+#set par(hanging-indent: 0em, spacing: 0.9em)
+#set text(size: 11pt)
+#par(first-line-indent: 0em)[Current consumer demand is characterized by a pervasive preference for naturalness\. This preference has shifted from constituting a niche lifestyle choice to a dominant driver of market value within the food and beverage sector \[1\]\. The naturalness bias represents a tendency for consumers to favor entities perceived as being of natural origin or produced through minimal human intervention, and perceiving such entities as superior to conventional counterparts even when objective quality remains ambiguous \[2\]\. In the wine industry, natural has emerged as a primary claim, acting as a powerful credence attribute to signal quality and safety to the public \[1,3\]\. Despite this ubiquity, the term remains remarkably unregulated and ill\-defined by legal standards \[4\]\. As a case in point, within the European Union, no recognized definition exists at the regulatory level, leaving natural wine largely absent from bottle labels as a protected designation \[5\]\. Yet consumers maintain a consistent internal prototype of what natural is and is not \[6,7\]\. Central to this conception is the idea that a product has not been transformed and maintains a pure, untainted essence \[8\]\.]
+
+Within the wine industry, the naturalness movement has developed into the natural wine category\. This segment is defined by a commitment to minimal intervention viticulture, typically involving organic or biodynamic farming, the use of indigenous yeasts, and the avoidance of additives such as sulfur dioxide \[9\]\. Extensive literature has examined established eco\-friendly typologies, demonstrating that organic and biodynamic certifications command significant price premiums and alter consumer quality perceptions \[10,11\]\. Hedonic analyses consistently find that certified organic wines command price premiums over conventional counterparts \[12,13\]\. Similarly, consumer willingness\-to\-pay studies establish a hierarchy across minimal\-intervention categories, with organic wines commanding the highest willingness\-to\-pay, followed by natural wine, and biodynamic wines ranking lowest due to lower consumer familiarity \[14,15\]\. Building upon this foundation, natural wine represents a more radical, albeit unregulated, extension of the minimal intervention ethos\. This distinction fundamentally shapes consumer perception\. Consequently, recent evidence indicates that consumers evaluate natural, organic, and biodynamic wines through partially overlapping but distinct attribute structures\. Specifically, naturalness signals a stronger ideological and process\-based commitment than formal certification\-based categories \[16,17\]\. Furthermore, natural wine acts as a compelling subject for marketing and consumer research because its value is derived not only from its sensory profile but also from its process history, the specific narrative of what has not been done to the grapes \[18\]\. As wine is an experience good, and natural wine specifically a credence good whose defining attributes cannot be verified even after consumption \[16\], consumers cannot easily assess its quality prior to consumption, leading them to rely heavily on extrinsic cues \(such as labels, certifications, and price\) and word\-of\-mouth as mediated through digital platforms \[19,20\]\.
+
+Consumers’ preference for naturalness is frequently justified through instrumental claims, such as the belief that natural products are healthier, safer, or more environmentally friendly \[1\]\. However, evidence suggests that these justifications are often post\-hoc rationalizations \[21\]\. Indeed, research in wine and food marketing has shown that preferences for natural, organic, and minimally processed products are frequently driven by ideological and moral alignment rather than purely sensory superiority \[7\]\. Under this perspective, naturalness is not merely a physical state but a marker of authenticity, reflecting an underlying essence that is preserved through minimal contact with industrial modernity \[22,23\]\.
+
+However, a significant knowledge gap remains in the literature\. A growing body of wine\-specific studies has applied computational linguistics and large\-scale review mining to map consumer reviews across different contexts\. Sentiment analysis has been used to examine the internal consistency of expert wine guide reviews \[24\]\. Text mining and topic modelling have been applied to characterize the vocabulary of expert and amateur reviewers on specialized wine websites \[25\]\. Large\-scale Vivino data have been used to examine factors influencing consumer ratings across wine attributes and price points \[26\], the relationship between expertise, emotionality, and review behavior \[27\], reputation inflation in numerical ratings relative to text\-based quality signals \[28\], and the link between wine label content and consumer reviews \[29\]\. Most recently, \[30\] and \[7\] applied computational linguistic methods specifically to large\-scale wine review data to examine flavor dynamics, vocabulary evolution, and the transition from expert to peer review\. However, none of these studies applied sentiment analysis and emotion profiling to isolate the affective and evaluative consequences of a credence\-based category such as natural wine, nor to benchmark such a category against its conventional counterpart at platform scale\. As such, there remains a fundamental lack of knowledge regarding how these metaphysical beliefs translate into affective and evaluative structures of spontaneous consumer reviews \[31\]\. Specifically, the literature does not sufficiently explain how the perceived authenticity of a product\'s essence influences the complex emotional tone in consumer reviews, such as the interplay between trust and disgust, outside of artificial experimental conditions\. Guided by recent calls for research from more realistic consumption contexts \[32,33,34,35\], alongside signaling theory and the credence\-goods framework from wine and applied economics, the current study integrates authenticity theory with psychological essentialism\. It aims to explain how minimal intervention signals the preservation of a product\'s true self, while simultaneously functioning as a market signal that justifies a price premium among engaged consumer segments \[36\]\. Under this framework, naturalness is both a prerequisite for authenticity and a credence\-based quality signal, and human intervention is perceived to dilute the valued essence of the origin \[23\]\. This provides a means to explain why consumers prioritize process history over objective content in unconstrained digital environments, even when such prioritization coexists with lower aggregate sensory ratings\.
+
+The current research uses a large\-scale analysis of over 6 million consumer reviews through computational linguistics to address this theoretical gap\. While previous studies have successfully utilized text\-mining and large\-scale review analysis to understand general wine preferences, quality pricing, and regional typicity \[30\], this methodology has not yet been explicitly applied to isolate the affective dimensions of the minimal\-intervention movement, nor to benchmark natural wine against its conventional counterpart at platform scale\. By identifying the specific emotional and evaluative patterns that distinguish natural wine from its conventional counterparts, the study maps the linguistic signatures of perceived authenticity in the digital marketplace\. Theoretically, this research advances authenticity theory by demonstrating how essentialist beliefs interact with credence\-based market signaling to shape value in digital marketplaces\. Practically, the findings provide a strategic framework for managers to navigate the delicate signals of purity and industrial aversion that drive value in the natural wine segment\.
+
+= 2\. Theoretical Background and Hypotheses
+#set par(hanging-indent: 0em, spacing: 0.9em)
+#set text(size: 11pt)
+== 2\.1\. Authenticity and Psychological Essentialism
+#par(first-line-indent: 0em)[Over the last decades, authenticity has transitioned from a niche luxury attribute to a primary purchasing criterion, often superseding objective quality cues as a determinant of consumer choice \[5,37\]\. In a marketing context, authenticity is defined as the extent to which a product is perceived to be genuine, real, and true to its internal nature \[38,39\]\. For natural wine, this perception is not merely based on sensory performance but on a perceived alignment between the brand\'s output and its proclaimed values of minimal intervention and environmental stewardship \[16\]\. In markets for credence goods, where defining attributes cannot be verified by the consumer, such authenticity perceptions function simultaneously as a meaning\-making device and as a quality signal that supports market value \[16\]\.]
+
+The cognitive mechanism driving these authenticity judgments is psychological essentialism, the lay belief that certain categories possess an underlying, unobservable essence that determines identity and value \[23,40\]\. Consumers rely on such an essentialism framework to evaluate products of natural origin, believing that the true self of a product is found in its untainted state \[36\]\. Within the wine domain, this essence is grounded in the terroir, representing the unique combination of soil, climate, and topography \[16,18\]\. From an essentialist perspective, human intervention in the form of industrial processing or synthetic additives may reduce the connection to the valued source, thereby reducing the product\'s perceived authenticity, ultimately decreasing its perceived value \[8,23,41\]\.
+
+A critical principle of essentialism is that process dominates content \[8\]\. This implies that the perceived history of an object—what has or has not been done to it—is more diagnostic of its naturalness than its final material composition \[8\]\. For instance, an entity that undergoes a transformation and is then restored to its original state is rated as less natural than one that was never transformed, despite being chemically identical \[1,8\]\. In the natural wine context, this principle can be exemplified across a host of dimensions associated with authenticity, such as production methods, transparency of practice, aesthetic qualities, historical traditions, and the personal characteristics of the producer \[42\]\. The minimal intervention narrative serves as a powerful authenticity cue because it signals the preservation of the original essence throughout the production process \[9,18\]\. Natural wine producers emphasize this logic explicitly, describing their practice as maximizing terroir expression by minimizing cellar correction, a philosophy in which the less the producer intervenes, the more authentic the wine is perceived \[43,44\]\.
+
+Furthermore, the perception of an authentic essence has significant affective consequences\. Authenticity is psychologically rooted in trustworthiness and sincerity\; products perceived as authentic are viewed as less risky and more aligned with the consumer\'s own moral identity \[39,45\]\. Conversely, the detection of inauthenticity or industrial processes during production can trigger a moralized aversion, often manifesting as disgust, which serves as the primary emotional defense against perceived contamination \[23,46\]\. In the wine domain, this dynamic is particularly salient: natural wine producers and their advocates explicitly frame conventional winemaking additives and cellar interventions as contaminants that compromise the wine\'s authentic essence \[47\]\. Consumers of natural wine have been shown to evaluate sensory compounds such as volatile acidity, turbidity or Brettanomyces markedly differently depending on whether the wine is framed as natural or conventional, suggesting that the authenticity frame itself modulates the affective response to the physical product \[48\]\.
+
+Although the hypotheses below are framed directionally, the natural\-wine there might be also substantial sensory heterogeneity and lower perceived quality relative to conventional benchmarks \(a competing mechanism we revisit in the Discussion\)\.
+
+== 2\.2\. Naturalness and Quality Ratings
+#par(first-line-indent: 0em)[Consumers’ preference for naturalness is driven by a pervasive cognitive default known as the natural\-is\-better bias, wherein entities of natural origin are systematically favored over synthetic counterparts \[49\]\. According to authenticity theory and signaling economics, naturalness serves as a primary heuristic and quality signal, as consumers associate the absence of human intervention with the preservation of an uncorrupted, valuable state \[50,51\]\. This evaluative pattern is particularly salient in the food and beverage industry, where natural claims function as a surrogate for overall excellence and safety \[1\]\.]
+
+Psychological essentialism provides the mechanism for this quality attribution by suggesting that consumers believe minimal processing allows a product to remain true to its inherent essence \[23,52\]\. For wine, which is categorized as an experience good, the lack of prior knowledge regarding quality forces reliance on extrinsic signals \[19\]\. Because the preservation of this essence cannot be visually verified, the designation of a wine as natural acts as a crucial credence signal of authenticity, prompting consumers to infer superior gustatory and technical quality from the process history of minimal intervention \[9,18\]\.
+
+Recent research from experimental wine settings indicates that perceived naturalness significantly alters sensory and quality perceptions, even after the product has been consumed \[31\]\. This effect is often characterized by a halo effect, where a positive impression of naturalness spills over into other evaluative dimensions, such as perceived sustainability and overall quality ranking \[31,53,54\]\. Consequently, wines identified as natural are expected to receive systematically higher evaluations in crowdsourced online environments compared to conventional wines\. Therefore, we hypothesize:
+
+#pad(left: 1.2em, right: 1.2em)[#par(first-line-indent: 0em)[#emph[H1]: Natural wines receive higher quality ratings compared to conventional wines\.]]
+== 2\.3\. Naturalness and Price Premiums
+#par(first-line-indent: 0em)[The valuation of authenticity and credence attributes is fundamentally reflected in consumers’ willingness to pay a price premium \[55\]\. Psychological essentialism suggests that the preservation of an unobservable essence renders a product more desirable and unique, thereby justifying a higher financial sacrifice \[23\], especially given the price\-quality inferences made by consumers within and beyond the wine market \[56,57\]\. These general mechanisms translate directly into the wine sector\. Authenticity markers such as terroir and artisanal production methods are closely linked to increased market value and prestige \[5,58\]\. Research indicates that consumers assign higher monetary value to products perceived as genuine and true to their source of production, as the absence of industrial intervention is viewed as a form of natural rarity \[58,59\]\. Specifically, recent empirical evidence explicitly demonstrates that the presence of natural attributes in wine significantly increases consumer willingness to pay a premium, confirming the economic value of the naturalness signal \[17\]\.]
+
+Furthermore, the literature supports that price often functions as an extrinsic signal that reinforces perceptions of quality in high\-risk purchase situations involving experience goods \[19\], particularly at the point of purchase and in pre\-consumption expectations\. Because the production of natural wine involves greater risk and potentially higher costs due to the rejection of standardized chemical stabilizers, the resulting scarcity further enhances its premium positioning \[16,60\]\. According to this perspective, consumers are expected to accept higher prices as a legitimate reflection of the product\'s authentic, unadulterated nature and its status as a high\-value credence good\. Therefore, we posit:
+
+#pad(left: 1.2em, right: 1.2em)[#par(first-line-indent: 0em)[#emph[H2]: Natural wines command price premiums compared to conventional wines\.]]
+== 2\.4\. Naturalness and Review Length
+#par(first-line-indent: 0em)[The perception of authenticity is a fundamental driver of consumer engagement and elaboration in digital environments \[61\]\. Psychological essentialism suggests that when individuals consume products with a perceived unadulterated essence, the experience is internalized as more personally relevant and meaningful \[23\]\. This heightened self\-relevance often triggers a desire to elaborate on the experience, leading to increased engagement \[62\], possibly also manifested as a more extensive communication pattern\. In the context of electronic word\-of\-mouth, review length serves as a primary indicator of the cognitive and emotional effort consumers invest in sharing their evaluations \[62\]\.]
+
+Further, because natural wine functions as a credence good with a highly variable and often unconventional sensory profile, the consumption experience inherently demands greater cognitive processing \[7\]\. Because natural wine is characterized by a specific production history of minimal intervention, it provides a more fertile ground for narrative storytelling than standardized industrial products \[63\]\. Consumers are more likely to provide detailed accounts of the origin, production methods, and the complex sensory nuances when they perceive a brand to be genuine and true to its source \[64\], especially when attempting to reconcile their expectations with an unfamiliar gustatory reality \[11\]\. Consequently, natural wines are expected to elicit more extensive reviews than their conventional alternatives because consumers should try to articulate the complexity and perceived authenticity of the product to a greater extent in the former case\. Importantly, longer reviews do not necessarily signal more positive evaluations\. The same elaboration that supports enthusiastic storytelling can also support detailed criticism when the sensory experience fails to meet expectations\. Thus, we hypothesize:
+
+#pad(left: 1.2em, right: 1.2em)[#par(first-line-indent: 0em)[#emph[H3]: Natural wines elicit longer reviews compared to conventional wines\.]]
+== 2\.5\. Naturalness and Sentiment
+#par(first-line-indent: 0em)[The consumption of products perceived as natural or environmentally friendly is frequently associated with distinct positive affective states \[31\]\. Naturalness functions as a premium credence attribute\; this quality signal generates strong pre\-consumption expectations of hedonic superiority \[17\]\. Recent research identifies a green consumption effect, wherein the usage of products with sustainable or natural attributes enhances the overall enjoyment of the consumption experience \[65\]\. This effect suggests that the perceived moral value of the product, derived from its minimal intervention or environmental benevolence, translates into higher customer satisfaction \[65\]\. Such internal states of enjoyment and satisfaction are typically externalized through linguistic valence \[66\]\. Studies analyzing social media communications regarding organic and natural food products indicate a prevalence of positive sentiment, driven by themes of health, safety, and ethical consumption \[63\]\. When consumers engage with natural wine, the authenticity of the production method acts as a positive cue that frames the consumption experience as virtuous and pleasurable \[67\]\. Consequently, the terminology used to describe natural wines is expected to reflect this heightened state of enjoyment and moral satisfaction\. Thus, we predict:]
+
+#pad(left: 1.2em, right: 1.2em)[#par(first-line-indent: 0em)[#emph[H4]: Natural wines elicit more positive sentiment compared to conventional wines\.]]
+== 2\.6\. Naturalness and Emotion Profiles
+#par(first-line-indent: 0em)[While sentiment analysis provides a measure of overall valence, it fails to capture the specific discrete emotions that drive consumer behavior\. Authenticity theory suggests that perceptions of sincerity elicit a complex emotional response that extends beyond enjoyment and satisfaction alone \[68\]\. Specifically, the projection of a sincere, untainted essence is closely linked to trust\. Consumers view the absence of industrial intervention as a signal of honesty and safety, acting as a quality signal that mitigates the information asymmetry and perceived risk inherent to credence goods \[31\]\. Consequently, narratives surrounding natural wine are expected to contain a higher relative prevalence of trust\-related words, reflecting the consumer\'s confidence in the product\'s integrity\. It is nonetheless worth noting that trust\-related terms in experiential consumer reviews may also be constrained by the descriptive vocabulary consumers conventionally use for sensory evaluation, which can mask their underlying confidence in the product \[64,69\]\.]
+
+Conversely, the violation of naturalness is frequently processed through the psychological mechanism of disgust\. Disgust serves as an evolved defensive emotion designed to protect the body from contamination \[70\]\. For foods and beverages, synthetic additives or heavy industrial processing are often perceived as contaminating the product\'s purity, thereby triggering rejection \[71,72\]\. Because natural wine is defined explicitly by the absence of such additives, the signal of naturalness creates an expectation of purity\. While the highly variable and occasionally unconventional sensory profile of minimal intervention wines presents a competing physical trigger for aversion \[7\], authenticity theory suggests that the overarching expectation of purity should dominate the evaluative framing \[23,59\]\. Therefore, reviews of natural wines are likely to be characterized by a marked and proportional absence of disgust markers compared to conventional wines, where critiques of chemical tastes or artificiality are more common\. An alternative possibility, however, arises from the contamination literature in psychological science\. Disgust is amplified when a stimulus is perceived to violate a purity frame rather than occurring within a neutral one \[70,73\]\. Because the naturalness designation frames wines as categorically pure, any perceived sensory deviation from this frame may generate a stronger disgust response than an equivalent deviation in conventional wines, where no such purity frame has been established\.
+
+Finally, the discovery of unique, living products is often associated with the emotions of joy and anticipation\. The variability in natural winemaking, often framed as a defect in industrial contexts, is reinterpreted by enthusiasts as a source of excitement and distinctiveness, reinforcing the perceived value of the credence attribute \[9\]\. Therefore, natural wine reviews are expected to exhibit a distinct emotional signature characterized by elevated trust and joy, and suppressed disgust\. Hence, we predict:
+
+#pad(left: 1.2em, right: 1.2em)[#par(first-line-indent: 0em)[#emph[H5]: Natural wines elicit distinct emotion profiles characterized by higher levels of #strong[\(a\)] trust and #strong[\(b\)] joy, but #strong[\(c\)] lower levels of disgust compared to conventional wines\.]]
+= 3\. Methodology
+#set par(hanging-indent: 0em, spacing: 0.9em)
+#set text(size: 11pt)
+== 3\.1\. Data
+#par(first-line-indent: 0em)[The dataset consisted of consumer wine reviews sourced from the online wine platform Vivino, a global wine community and marketplace with tens of millions of wines and users \(www\.vivino\.com\)\. The data were collected using a custom Python scraping pipeline that systematically retrieved publicly available information from the Vivino platform, including wine properties, pricing information, and consumer reviews\. All data collected were publicly accessible without authentication at the time of extraction\. No personal or identifying information beyond pseudonymized user identifiers was retained\. Data collection took place between September 4 and October 2, 2025\. The reviews in the dataset span the full history of the platform, with a median review year of 2018\.]
+
+Each observation represented a single consumer review and included 24 variables: unique identifiers \(wine ID, vintage ID, user ID\), review text \(tagged\_note\), consumer quality rating \(1–5 scale\), wine price \(recorded in both local currency and USD\), wine characteristics \(alcohol by volume \[ABV\], acidity, body, tannin, sweetness, fizziness, intensity\; all measured on 1–5 scales\), vintage year, region and country of origin, wine type, and binary indicators for natural wine status and biodynamic certification\. Each wine\'s natural status was taken from Vivino\'s native ‘is\_natural’ attribute, retrieved directly from the platform\. Because Vivino does not disclose the criteria underlying this flag, and natural wine lacks a universally accepted definition, the variable reflects Vivino\'s own platform\-level classification\. The initial dataset comprised 12,943,638 observations\.
+
+Prior to analysis, language detection was performed on all review texts using Google\'s Compact Language Detector 2 for R \(cld2\) \[74\] to identify English\-language reviews\. Reviews with missing or empty text fields were excluded \(17\.3%\)\. The resulting analytic sample comprised 6,750,472 English\-language reviews \(63\.1% of all reviews in the dataset\), of which 116,747 \(1\.7%\) pertained to natural wines and 6,278,838 \(93\.0%\) to conventional wines\. The remaining 354,887 reviews \(5\.3%\) contained missing or unclassified values for natural wine status and were excluded from subsequent analyses\. Descriptive statistics for all quantitative variables in the final sample are presented in Table 1\.
+
+The analytic sample comprised 697 natural wines and 9,917 conventional wines\. Despite representing 6\.6% of wine labels, natural wines accounted for only 1\.7% of total reviews, reflecting their lower review volume per wine relative to conventional counterparts\. Natural wines generated a mean of 167 reviews per wine \(SD \= 571\), compared to a mean of 633 reviews per wine \(SD \= 4,413\) for conventional wines\.
+
+== 3\.2\. Dependent Measures
+#par(first-line-indent: 0em)[#strong[Rating\.] Each review included a quality rating assigned by the consumer\. This served as the dependent variable for H1\.]
+
+#strong[Price\.] Wine prices were recorded in USD and natural log\-transformed to account for right\-skewed distributions\. A constant of 1 was added before transformation as a standard precaution to handle potential zero or near\-zero values in the original dataset\. Reviews with missing price information were excluded from the analyses related to H2\.
+
+#strong[Review length\.] The number of words in each review text was computed as an indicator of consumer engagement\. This variable served as the dependent variable for H3\.
+
+#strong[Sentiment\.] Sentiment was assessed using the AFINN lexicon \[75\] from the tidytext package for R \[76\], which assigns numeric valence scores ranging from −5 to \+5 to words\. Review texts were tokenized into individual words, each token was matched against the AFINN lexicon, and the mean sentiment score across all matched tokens within each review was computed\. Reviews containing no AFINN\-matched words were excluded from H4 analyses to avoid artefactual zero scores\. The mean per\-word sentiment score was used as the dependent variable for H4\.
+
+To illustrate, consider the following review excerpt: \"This wine is wonderful, vibrant and lively, with an earthy finish that I found disappointing\.\" Following tokenization, the AFINN lexicon matches two words: wonderful \(\+4\) and disappointing \(−2\), yielding a mean per\-word sentiment score of \+1\.00, indicating mildly positive overall valence\. The NRC lexicon additionally classifies wonderful as associated with joy, anticipation, and trust, while disappointing activates sadness and disgust, producing a nuanced emotion profile that captures the mixed evaluative content of the review beyond what the aggregate score alone conveys\.
+
+#strong[Emotions\.] Discrete emotion scores were derived using the NRC Emotion Lexicon \[77\], which maps English words onto eight basic emotions—joy, trust, anticipation, surprise, anger, disgust, fear, and sadness—as well as two general sentiment categories \(positive, negative\)\. For each review, the count of words associated with each emotion category was computed following tokenization and lexicon matching \[76\]\. These emotion counts constituted the dependent variables for H5a\-c\.
+
+== 3\.3\. Predictor
+#par(first-line-indent: 0em)[#strong[Natural wine status\.] Each wine was classified as either natural or conventional based on the binary indicator provided in the dataset\. This classification served as the primary predictor across all analyses\.]
+
+== 3\.4\. Control Variables
+#par(first-line-indent: 0em)[Several variables were included as covariates in regression models to account for alternative explanations\. These included log\-transformed price and quality rating \(in all cases where price or quality were not the principal outcome\), vintage year, alcohol by volume, and wine sensory characteristics \(acidity, body, tannin\)\. For the price model \(H2\), country of origin was additionally included as a control\.]
+
+== 3\.5\. Analytic Approach
+#par(first-line-indent: 0em)[All analyses were conducted using R \[78\]\. Each hypothesis was tested in two stages\. First, independent samples t\-tests were conducted to examine differences in each outcome variable between natural and conventional wine reviews\. Second, multiple regression models were estimated to examine whether these differences remained unchanged after controlling for relevant covariates\. The specific analytic decisions for each hypothesis are described below\.]
+
+#strong[H1: Ratings:] An independent samples #emph[t]\-test was conducted to compare mean ratings between natural and conventional wine reviews\. A multiple linear regression was subsequently estimated with rating as the outcome and natural wine status as the predictor of interest, controlling for log\-transformed price, vintage year, ABV, acidity, body, and tannin\.
+
+#strong[H2: Price:] An independent samples #emph[t]\-test was conducted on log\-transformed prices to compare natural and conventional wines\. A multiple linear regression was estimated with log\-transformed price as the outcome and natural wine status as the predictor of interest, controlling for rating, vintage year, ABV, acidity, body, tannin, and country of origin\. The exponentiated regression coefficient for natural wine status was used to derive the estimated price premium \(i\.e\., percentage difference\) associated with naturalness\.
+
+#strong[H3: Review length:] An independent samples #emph[t]\-test was conducted to compare mean review lengths\. Given the count\-based nature of word count data and the expected overdispersion, a negative binomial regression was estimated with review length as the outcome and natural wine status as the predictor of interest, controlling for rating and log\-transformed price\. Exponentiated coefficients \(incidence rate ratios\) were reported to facilitate interpretation\.
+
+#strong[H4: Sentiment:] An independent samples #emph[t]\-test was conducted on mean per\-word AFINN sentiment scores, restricted to reviews containing at least one sentiment\-bearing word\. A multiple linear regression was estimated with sentiment score as the outcome and natural wine status as the predictor of interest, controlling for rating and review length\.
+
+#strong[H5a\-c: Emotion profiles:] Ten independent samples #emph[t]\-tests were conducted to compare emotion word counts between natural and conventional wine reviews across the eight NRC emotions \(joy, trust, anticipation, surprise, anger, disgust, fear, sadness\) and two general sentiment categories \(positive, negative\)\. Effect sizes were reported as percentage change in mean emotion word counts for natural relative to conventional reviews\. Significance was assessed at the conventional #emph[p] \< \.05 threshold across all comparisons\.
+
+= 4\. Results
+#set par(hanging-indent: 0em, spacing: 0.9em)
+#set text(size: 11pt)
+== 4\.1\. Descriptive Statistics
+#par(first-line-indent: 0em)[Table 1 presents descriptive statistics for all quantitative variables in the analytic sample\.]
+
+#v(0.4em)
+#block(breakable: false)[
+#text(size: 9.5pt)[#strong[Table 1.] Descriptive Statistics]
+#v(4pt)
+#set par(justify: false, first-line-indent: 0em)
+#text(size: 8.5pt)[#table(columns: (1fr, auto, auto, auto, auto, auto, auto, auto), align: (left, right, right, right, right, right, right, right,), stroke: none, inset: (x: 4pt, y: 3.2pt),
+table.hline(stroke: 0.8pt),
+table.header([#strong[Variable]], [#strong[#emph[M]]], [#strong[#emph[SD]]], [#strong[Median]], [#strong[Min]], [#strong[Max]], [#strong[Skewness]], [#strong[Kurtosis]]),
+table.hline(stroke: 0.5pt),
+[Rating], [4\.12], [0\.65], [4\.00], [1\.00], [5\.00], [−1\.07], [2\.67],
+[Price \(USD\)], [253\.92], [3,673\.35], [51\.99], [1\.16], [200,000], [53\.59], [2,910\.45],
+[Review length \(words\)], [19\.23], [18\.64], [12\.00], [1\.00], [112\.00], [1\.79], [3\.05],
+[Sentiment \(per word\)], [1\.68], [1\.39], [2\.00], [−5\.00], [5\.00], [−0\.56], [−0\.33],
+[Alcohol by volume \(%\)], [13\.38], [2\.24], [13\.50], [0\.00], [19\.00], [−5\.00], [27\.08],
+[Acidity], [3\.71], [0\.79], [3\.50], [1\.00], [5\.00], [−0\.65], [0\.21],
+[Body], [3\.93], [0\.84], [4\.00], [1\.00], [5\.00], [−0\.63], [0\.02],
+[Tannin], [3\.85], [0\.90], [4\.00], [1\.00], [5\.00], [−0\.72], [−0\.29],
+[Sweetness], [1\.15], [0\.48], [1\.00], [1\.00], [5\.00], [5\.44], [36\.79],
+[Fizziness], [4\.64], [0\.50], [5\.00], [3\.50], [5\.00], [−0\.75], [−1\.22],
+[Intensity], [4\.03], [0\.88], [4\.00], [1\.00], [5\.00], [−0\.83], [0\.06],
+[Vintage year], [2013], [14\.03], [2018], [1806], [2025], [−3\.13], [20\.83],
+table.hline(stroke: 0.8pt),
+)]
+#text(size: 8pt)[#emph[Note]\. #emph[N] \= 6,395,585 English\-language reviews with valid natural wine classification\. #emph[M] \= mean, #emph[SD] \= standard deviation\. Sensory characteristics \(acidity, body, tannin, sweetness, fizziness, intensity\) measured on 1–5 scales\.]
+]
+#v(12pt)
+== 4\.2\. Hypothesis Tests
+#block(above: 1em, below: 0.5em)[#text(size: 10.5pt)[H1: Ratings]]
+#par(first-line-indent: 0em)[An independent samples #emph[t]\-test revealed that natural wines \(#emph[M] \= 4\.09\; #emph[SD] \= 0\.58\) received lower ratings compared to conventional wines \(#emph[M] \= 4\.12\; #emph[SD] \= 0\.65\), #emph[t]\(122252\) \= 14\.61, #emph[p] \< \.001\. A multiple linear regression with price, vintage year, ABV, and sensory characteristics included as control variables confirmed the robustness of this finding, #emph[b] \= −0\.02, #emph[SE] \= 0\.00, #emph[p] \< \.001\. As such, H1 did not receive empirical support\.]
+
+#block(above: 1em, below: 0.5em)[#text(size: 10.5pt)[H2: Price]]
+#par(first-line-indent: 0em)[Supporting H2, another independent samples #emph[t]\-test on log\-transformed prices revealed that natural wines were more expensive \(Mdn \= \$55\.00\) than conventional wines \(Mdn \= \$51\.700\), #emph[t]\(123980\) \= −13\.12, #emph[p] \< \.001\. Multiple linear regression controlling for rating, vintage year, ABV, sensory characteristics, and country of origin further supported the robustness of this pattern, #emph[b] \= 0\.18, #emph[SE] \= 0\.00, #emph[p] \< \.001\. Exponentiation of the regression coefficient indicated that natural wines were priced approximately 20% higher than conventional wines, holding all covariates constant\.]
+
+#block(above: 1em, below: 0.5em)[#text(size: 10.5pt)[H3: Review Length]]
+#par(first-line-indent: 0em)[In line with H3, natural wine reviews \(#emph[M] \= 23\.0 words, #emph[SD] \= 20\.8\) were longer than conventional wine reviews \(#emph[M] \= 19\.2 words, #emph[SD] \= 18\.6\), #emph[t]\(120235\) \= −62\.96, #emph[p] \< \.001\. Given the count\-based nature of word count data and its evident overdispersion, the robustness of these findings was tested using a negative binomial regression controlling for rating and price\. This analysis yielded an incidence rate ratio of 1\.20, #emph[SE] \= 0\.003, #emph[p] \< \.001, indicating that natural wine reviews contained approximately 20% more words than conventional wine reviews after controlling for covariates\.]
+
+#block(above: 1em, below: 0.5em)[#text(size: 10.5pt)[H4: Sentiment]]
+#par(first-line-indent: 0em)[Sentiment analysis was restricted to reviews containing at least one sentiment\-bearing word from the AFINN lexicon \(#emph[n] \= 4,879,656\)\. Mean per\-word sentiment scores differed significantly between natural \(#emph[M] \= 2\.05\; #emph[SD] \= 1\.20\) and conventional wine reviews \(#emph[M] \= 2\.21\; #emph[SD] \= 1\.18\), #emph[t]\(92125\) \= 38\.01, #emph[p] \< \.001, indicating that conventional wine reviews contained more positive sentiment than natural wine reviews\. Multiple linear regression controlling for rating and review length confirmed this pattern, #emph[b] \= −0\.097, #emph[SE] \= 0\.00, #emph[p] \< \.001\. As such, H4 was not supported\.]
+
+#block(above: 1em, below: 0.5em)[#text(size: 10.5pt)[H5a\-c: Emotion Profiles]]
+#par(first-line-indent: 0em)[Table 2 presents the results of independent samples #emph[t]\-tests comparing emotion word counts between natural and conventional wine reviews across eight NRC emotion categories and two general sentiment categories\. As seen based on these results, H5b was supported, whereas the findings pertaining to H5a and H5c were in the opposite direction to our predictions\.]
+
+#v(0.4em)
+#block(breakable: false)[
+#text(size: 9.5pt)[#strong[Table 2.] Emotion Word Counts in Natural Versus Conventional Wine Reviews]
+#v(4pt)
+#set par(justify: false, first-line-indent: 0em)
+#text(size: 8.5pt)[#table(columns: (auto, 1fr, auto, auto, auto, auto, auto, auto, auto), align: (left, left, right, right, right, right, right, right, right,), stroke: none, inset: (x: 4pt, y: 3.2pt),
+table.hline(stroke: 0.8pt),
+table.header([#strong[Emotion]], [#strong[Type]], [#strong[#emph[M] Conv\.]], [#strong[#emph[SD] Conv\.]], [#strong[#emph[M] Nat\.]], [#strong[#emph[SD] Nat\.]], [#strong[Difference]], [#strong[t\-value]], [#strong[p\-value]]),
+table.hline(stroke: 0.5pt),
+[Joy], [Positive Emotion], [0\.84], [1\.05], [0\.86], [1\.09], [\+2\.5%], [−6\.65], [\<\.001],
+[Trust], [Positive Emotion], [0\.79], [1\.04], [0\.80], [1\.06], [\+0\.6%], [−1\.46], [\.145],
+[Anticipation], [Positive Emotion], [0\.68], [0\.95], [0\.66], [0\.95], [−2\.7%], [6\.54], [\<\.001],
+[Surprise], [Positive Emotion], [0\.43], [0\.71], [0\.44], [0\.73], [\+1\.8%], [−3\.63], [\<\.001],
+[Anger], [Negative Emotion], [0\.14], [0\.41], [0\.19], [0\.48], [\+31\.8%], [−32\.16], [\<\.001],
+[Disgust], [Negative Emotion], [0\.28], [0\.59], [0\.39], [0\.71], [\+40\.0%], [−53\.21], [\<\.001],
+[Fear], [Negative Emotion], [0\.12], [0\.38], [0\.16], [0\.44], [\+30\.4%], [−28\.32], [\<\.001],
+[Sadness], [Negative Emotion], [0\.23], [0\.53], [0\.25], [0\.55], [\+7\.5%], [−10\.72], [\<\.001],
+[Positive], [General Sentiment], [1\.94], [2\.01], [2\.06], [2\.05], [\+5\.8%], [−18\.65], [\<\.001],
+[Negative], [General Sentiment], [0\.45], [0\.79], [0\.59], [0\.92], [\+31\.3%], [−51\.68], [\<\.001],
+table.hline(stroke: 0.8pt),
+)]
+#text(size: 8pt)[#emph[Note]\. Values represent mean emotion word counts per review\. Percentage change calculated as \[\(Natural − Conventional\) \/ Conventional\] × 100\.]
+]
+#v(12pt)
+#figure(image("build/fig1.png", width: 100%), caption: none, kind: image, supplement: none)
+#align(center)[#text(size: 9.5pt)[Figure 1\. Emotion word count differences between natural and conventional wine reviews \(percentage change in emotion word usage, natural relative to conventional wines\)\. #super[\*\*\*] #emph[p] \< \.001\. Redrawn from the values in Table 2\.]]
+#v(0.6em)
+= 5\. Discussion
+#set par(hanging-indent: 0em, spacing: 0.9em)
+#set text(size: 11pt)
+#par(first-line-indent: 0em)[Drawing on literature about the naturalness bias and essentialist beliefs about authenticity, the current research compared consumer online reviews of natural and conventional wines using a large\-scale dataset of wine reviews to examine the evaluative and affective consequences of naturalness\. Contrary to predictions, natural wines received slightly lower quality ratings than conventional wines \(H1 not supported\), though they commanded a substantial 20% price premium after controlling for quality and wine characteristics \(H2 supported\)\. Moreover, natural wine reviews were approximately 20% longer than conventional wine reviews \(H3 supported\), suggesting heightened engagement\. However, sentiment analysis revealed that natural wine reviews yielded a lower per\-word sentiment score than conventional wine reviews \(H4 not supported\)\. Most strikingly, emotion profiling demonstrated that natural wines elicited significantly more negative emotions, including anger, disgust, sadness, and fear, alongside modest increases in the positive emotions of joy and surprise \(leaving H5a and H5c unsupported for trust and disgust, respectively, while supporting H5b for joy\)\.]
+
+Taken together, the fact that consumers pay a substantial premium and engage deeply with a product, yet evaluate it with lower ratings, lower sentiment, and elevated disgust, indicates that the appeal of a credence attribute does not seamlessly translate into hedonic satisfaction\.
+
+== 5\.1\. Theoretical Implications
+#par(first-line-indent: 0em)[The present findings advance the theoretical understanding of quality signaling and credence attributes within digital market environments\. The findings converge with a two\-stage process in which naturalness operates differently before and after consumption\. At the point of purchase, the naturalness designation functions as a credence signal of procedural integrity, and consumers pay a premium for it, as manifested through our documented price effect\. The same signal also raises expectations of quality and purity\. Minimal\-intervention winemaking, however, carries documented sensory heterogeneity \(higher volatile acidity, turbidity, and unconventional flavor profiles\) that frequently departs from those expectations\. The resulting gap between these expectations and the wine that is experienced yields lower post\-consumption ratings, less favorable sentiment, and more polarized emotion profiles, including elevated disgust\. As such, the price premium and the ratings penalty can be seen as two complementary stages of the same process rather than as competing outcomes\. Naturalness elevates valuation ex ante through the credence signal and depresses evaluation ex post through expectation disconfirmation, which accounts for the joint pattern of higher prices alongside lower ratings and weaker sentiment\. Notably, the results reported herein highlight clear constraints on generality in the pervasive natural\-is\-better bias \[1,49\]\. By integrating authenticity theory with applied wine economics, this study demonstrates that the appeal of a credence attribute does not uniformly translate into hedonic satisfaction\. Specifically, the higher prevalence of discrete negative emotions, such as the high\-arousal states of disgust, anger, and fear, suggests that the sensory reality of minimal\-intervention products frequently violates the cognitive prototype of purity held by consumers \[6,31\]\. Because natural wine is defined by the explicit rejection of standardized chemical stabilization \[9\], its highly variable and occasionally unconventional gustatory profile might trigger evolved defensive psychological mechanisms, which manifest as moralized aversion or disgust in consumer evaluations \[8,71,79\]\. A plausible interpretation of this pattern is that the purity frame established by the naturalness designation may heighten consumer sensitivity to any sensory feature perceived as atypical\. This is consistent with wine research showing that natural wines exhibit significantly higher sensory variability, volatile acidity, and turbidity than conventional wines, producing a broader range of features that can occur as deviations from the expected profile \[80\]\. Therefore, minor deviations that would pass unnoticed in a conventional wine may be processed as contamination signals, which in turn may amplify disgust responses \[70,73\]\.]
+
+The paradox of diminished ratings alongside a substantial price premium can be explained through the lens of information asymmetry and signaling theory \[3\]\. Because natural wine functions as a credence good whose defining attributes cannot be verified prior to, or even after, consumption \[81\], consumers rely on the natural designation as a quality signal to mitigate the risk inherent in such purchases \[10\]\. Beyond this signaling function, the designation also places weight on the producer\'s process history and commitment to minimal intervention, which consumers reward financially as an expression of authenticity, independent of sensory performance \[55\]\. This corroborates authenticity theory by demonstrating that consumers assign significant financial value to a product’s process history and perceived integrity, irrespective of its functional performance \[55\]\. Consumers reward quality signal prior to purchase, resulting in the observed premium\. However, this premium sets elevated pre\-consumption expectations\. When the physical product yields an unfamiliar sensory profile, a pronounced disconfirmation occurs of those pre\-consumption expectations, leading to lower post\-consumption ratings and elevated disgust\. Consequently, naturalness functions as a high value credence signal of procedural integrity rather than a reliable heuristic for gustatory excellence\.
+
+The economic structure of the price premium is further illuminated by a systematic decomposition of the focal coefficient \(Table A12\)\. Sequentially adding blocks of controls reveals that the bare\-model premium \(≈ 4%\) is suppressed by the lower sensory intensity of natural wines\; once sensory characteristics are introduced, the coefficient grows to approximately 42% \(β \= 0\.35\), with body, tannin, and intensity acting as the principal suppressors\. Adding biodynamic certification leaves the coefficient effectively unchanged, and a formal Sobel test confirms that biodynamic operates as a statistically valid but quantitatively modest mediator \(1\.7% of the total effect\)\. Including country of origin attenuates the premium to approximately 27% \(β \= 0\.24\), consistent with the concentration of minimal\-intervention production in regions where overall price levels are above average\. Importantly, multicollinearity diagnostics rule out the alternative explanation that these patterns reflect spurious specification sensitivity: all variance inflation factors are below 5, and the natural\-wine indicator carries pairwise correlations no greater than |\.15| with any other covariate\. Thus, the natural\-wine premium reflects an independent economic signal: it cannot be reduced to the co\-occurrence of biodynamic practice, to compositional differences in country of origin, or to multicollinearity among the sensory controls\.
+
+Finally, the findings advance the understanding of consumer engagement in digital environments by demonstrating that perceived naturalness operates as a powerful amplifier of elaboration\. The significantly longer reviews associated with natural wines align with the premise that authentic offerings fulfill a consumer drive for meaning, thereby prompting extensive narrative storytelling \[62,68\]\. The dual increase in certain positive emotions, such as joy and surprise, alongside elevated negative emotions reflects a highly arousing and complex consumption experience\. Consumers utilize expanded linguistic effort to articulate the variability and distinctiveness of these products \[61,63\], suggesting that disconfirmed expectations drive electronic word\-of\-mouth through elaborate discursive reconciliation rather than through straightforward satisfaction \[82\]\.
+
+== 5\.2\. Managerial Implications
+#par(first-line-indent: 0em)[The findings of this study offer strategic advice for marketing practitioners and wine producers operating within the minimal intervention segment\. Primarily, the discrepancy between quality ratings and willingness to pay necessitates a shift in pricing and positioning strategies\. Because consumers demonstrate a willingness to accept a substantial price premium for natural wines despite rating them as lower in quality, managers should avoid comparative advertising strategies with conventional wines on traditional quality\-to\-price heuristics\. As consumers are financially rewarding the naturalness signal rather than the sensory outcome, marketing communications should emphasize the symbolic value, process history, and inherent rarity of the natural wine product, positioning naturalness as a premium credence attribute\. By anchoring the value proposition in authenticity and environmental stewardship, brands can sustain premium pricing models independent of conventional sensory characteristics \[55,58\] by successfully mitigating information asymmetry prior to purchase\.]
+
+Further, the pronounced elevation of negative discrete emotions, such as disgust and anger, together with diminished overall sentiment highlights a salient shortcoming in current marketing practices\. These negative affective responses likely originate from a fundamental expectation violation driven by the strength of the quality signal\. Consumers inherently associate the term natural with purity and flawlessness \[51\], yet minimal intervention winemaking frequently yields products with atypical, highly variable, and unconventional sensory profiles\. To mitigate this expectation disconfirmation, managers might need to consider proactive educational campaigns prior to new product launches\. For example, practitioners can explicitly reframe potential sensory deviations \(such as cloudiness or volatile acidity\) not as technical defects but as authentic signatures of a living terroir\. Anticipated outcomes of this proactive expectation management include the alignment of the sensory reality with the cognitive prototype of the consumer, which is expected to attenuate disgust responses and support post\-purchase satisfaction \[31,52\]\.
+
+Finally, the observation that natural wines elicit significantly longer reviews and more emotional arousal indicates a consumer base characterized by deep psychological involvement and high cognitive effort\. While the affective valence may be polarized, the sheer volume of engagement presents a strategic asset\. Managers should actively facilitate brand community building online and encourage narrative storytelling within their lucrative segments as doing so should theoretically create synergy effects on outcomes such as brand loyalty and electronic word\-of\-mouth \[62\]\. By providing platforms for consumers to articulate their complex consumption experiences, brands can transform polarizing sensory encounters into a highly engaging, community\-driven acquisition tool \[61,62\]\. Community strategies should nonetheless be designed to accommodate the full range of consumer voices rather than only the highly involved consumers, recognizing that the same elaborative engagement that produces advocacy also produces detailed criticism \[82\]\.
+
+= 6\. Limitations and Future Research
+#set par(hanging-indent: 0em, spacing: 0.9em)
+#set text(size: 11pt)
+#par(first-line-indent: 0em)[The current study has certain limitations, which might act as fruitful avenues for future research\. First, it should be noted that Vivino users do not constitute a representative sample of general wine consumers\. As an engaged online wine community, Vivino attracts users with above\-average wine involvement, including hobbyists, enthusiasts, and semi\-experts who actively seek out, evaluate, and document their wine experiences \[26,27\]\. This self\-selection bias means that the evaluative and affective responses captured in this dataset likely reflect a more knowledgeable and involved consumer segment than the broader wine\-buying population\.]
+
+Second, the dataset is restricted exclusively to English\-language reviews, which potentially limits the generalizability of the findings across different geographic markets\. Because food and beverage preferences are deeply embedded within specific traditions, background significantly shape consumer evaluations of sustainable and natural products \[69,83\]\. Future studies should adopt cross\-cultural methodologies to examine whether the observed expectation violation and negative emotional arousal associated with natural wines persist across non\-English languages\. This is particularly important given that many of the world’s most renowned producers of natural wines are based on countries where English is not the first language, such as France, Spain, and Germany, with these countries also having a strong wine culture among their consumers\.
+
+Third, reliance on lexicon\-based sentiment and emotion analysis presents structural limitations\. While tools like the AFINN and NRC lexicons offer high scalability for large datasets, they process words in isolation and frequently fail to capture complex linguistic nuances, including sarcasm, contextual negation, and domain\-specific terminology\. To enhance construct validity, future research should transition toward advanced computational linguistics\. Specifically, the application of transformer\-based architecture allows for the processing of bidirectional context and semantic relationships, yielding more accurate sentiment classifications in unstructured texts \[84\]\.
+
+Fourth, another methodological concern pertains to the length dependency of raw emotion word counts derived from the NRC lexicon\. Because natural wine reviews are significantly longer than conventional wine reviews \(H3\), they will mechanically yield a greater absolute number of matched emotion words across all categories, independent of any genuine difference in emotional content\. It is important to note that the AFINN\-based sentiment measure employed in H4 is unaffected by this issue, as it is computed as a mean per\-word score and is therefore length\-normalized by design\. However, the NRC\-based emotion counts used in H5 are raw totals and may consequently overstate the magnitude of observed differences\. Future research should address this by operationalizing emotion as a proportion of matched emotion words relative to total review length, which would yield length\-normalized rates directly comparable across reviews of varying length\. Alternatively, including review length as a covariate in regression\-based analyses of emotion would partially mitigate the confound\.
+
+Additionally, the observational design inherent to crowdsourced online reviews prohibits explicit claims of causality\. While the current data imply that the higher prevalence of negative emotions might stem from sensory expectation disconfirmation, this mechanism remains tentative at present\. Future research should use controlled experimental designs that manipulate both the pre\-consumption product framing and the objective sensory profile of natural and conventional wines\. Such experimental isolation is necessary to explicitly map the causal pathways of the expectancy disconfirmation process within the minimal intervention segment, thereby confirming how metaphysical claims interact with physical gustatory experiences to shape consumers’ emotions, cognitions, and ultimately their purchase decisions \[7,85,86\]\.
+
+An important alternative economic interpretation of the present findings warrants consideration\. The coexistence of lower ratings and higher prices may not reflect expectation disconfirmation among natural wine believers, but rather a structural consequence of market segmentation and channel separation\. Natural wine is predominantly purchased through specialist channels \(natural wine bars, dedicated importers, and specialist retailers\) by a committed consumer segment whose evaluative criteria and sensory preferences are calibrated to the minimal\-intervention aesthetic \[44\]\. If this core consumer segment is underrepresented among Vivino users, then the lower ratings observed in this study may reflect not expectation disconfirmation but a simpler consumer\-product mismatch, with natural wine being evaluated by consumers whose palate preferences and quality criteria are calibrated to conventional wine production standards\. The price premium would then reflect valuations set by the specialist natural wine market rather than by the Vivino user base and the rating penalty would reflect responses by conventional consumers encountering an unfamiliar sensory profile\. However, this interpretation conflicts with the sentiment and emotion findings reported herein\. The polarized affective signature observed \(simultaneously elevated disgust and joy, combined with substantially longer reviews\) is difficult to attribute to disengaged conventional consumers who simply dislike unfamiliar products\. If anything, such consumers should generate shorter, more uniformly negative reviews rather than longer and more emotionally complex ones, as documented here\. This suggests that the Vivino natural wine reviewer population is heterogeneous, likely comprising both committed natural wine enthusiasts and conventional consumers\. The present observational design cannot explicitly distinguish between these interpretations, as the platform does not allow identification of reviewers\' prior wine category preferences or purchasing channels\. Future research should, therefore, examine the profile of natural wine reviewers on digital platforms to determine the relative contribution of each interpretation to the evaluative and affective patterns documented in the current research\.
+
+Further, whether wine was classified as natural or not was based on Vivino\'s platform\-level designation\. We acknowledge that, in the absence of a universally accepted definition of natural wine, this classification reflects platform\-specific criteria rather than a regulated standard\. By treating natural as a binary indicator derived from the platform’s classification, our analysis collapses considerable within\-category heterogeneity \(in sulphite use, yeast practice, farming, and cellar intervention\) and carries a degree of producer self\-selection, as producers cultivating a natural\-wine identity may be more likely to disclose it at registration than those who practice minimal intervention without marketing it as such\. The population is also conditioned on Vivino\'s catalogue and may not overlap with wines classified as natural on specialist platforms, sommelier\-curated lists, or under voluntary industry charters\. Our findings should therefore be read as evidence of how the platform’s user base evaluates wines that it classifies as natural, rather than as claims about natural wine as a universal category\.
+
+A further limitation concerns the structure of the Vivino dataset\. With approximately 6\.7 million reviews distributed across over 10,000 unique wines, the review\-per\-wine distribution is highly skewed, with some wines contributing numerous reviews and others only a handful\. This implies non\-independence of observations within wines, as reviews of the same wine share unobserved wine\-level characteristics\. We acknowledge this clustering structure as a methodological caveat to bear in mind when interpreting the precision of our obtained results\.
+
+= References
+#set par(first-line-indent: 0em, hanging-indent: 1.2em, spacing: 0.55em)
+#set text(size: 9.5pt)
+S\.E\. Scott, P\. Rozin, D\.A\. Small, Consumers prefer \"natural\" more for preventatives than for curatives, J\. Consum\. Res\. 47 \(2020\) 454–471\. https:\/\/doi\.org\/10\.1093\/jcr\/ucaa034
+
+S\. Hemmerling, M\. Canavari, A\. Spiller, Preference for naturalness of European organic consumers: First evidence of an attitude\-liking gap, Br\. Food J\. 118 \(2016\) 2287–2307\. https:\/\/doi\.org\/10\.1108\/BFJ\-11\-2015\-0457
+
+C\. Aqueveque, P\. Rodrigo, \"This wine is dead!\": Unravelling the effect of word\-of\-mouth and its moderators in price\-based wine quality perceptions, Br\. Food J\. 123 \(2021\) 869–883 https:\/\/doi\.org\/10\.1108\/BFJ\-03\-2020\-0252
+
+A\. Maehara, 100% all natural ambiguity: A comparative approach to food labeling requirements for the term \"natural\" by the FDA and the EU, Wash\. U\. Global Stud\. L\. Rev\. 18 \(2019\) 263\. https:\/\/openscholarship\.wustl\.edu\/law\_globalstudies\/vol18\/iss1\/10
+
+M\.B\. Beverland, Crafting brand authenticity: The case of luxury wines, J\. Manag\. Stud\. 42 \(2005\) 1003–1029\. https:\/\/doi\.org\/10\.1111\/j\.1467\-6486\.2005\.00530\.x
+
+S\. Gonzalez Coffin, W\. Eichhorst, A\.R\. Carrico, Y\. Inbar, P\. Newton, L\. Van Boven, Perceived naturalness predicts public support for sustainable protein technology, Clim\. Change 177 \(2024\) 29\. https:\/\/doi\.org\/10\.1007\/s10584\-024\-03679\-5
+
+M\. Dubois, M\. Folwarczny, J\. Cao, Þ\. Bender, Digital transformation of wine opinion: From critics to peer reviews analysis, in: M\. Visalli, M\.V\. Galmarini \(Eds\.\), Collection and Analysis of Text Data in Sensory and Consumer Science, Springer, Cham, 2026\. https:\/\/doi\.org\/10\.1007\/978\-3\-032\-04851\-6\_9
+
+P\. Rozin, The meaning of \"natural\": Process more important than content, Psychol\. Sci\. 16 \(2005\) 652–658\. https:\/\/doi\.org\/10\.1111\/j\.1467\-9280\.2005\.01589\.x
+
+P\. Alonso González, E\. Parga\-Dans, Natural wine: Do consumers know what it is, and how natural it really is? J\. Clean\. Prod\. 251 \(2020\) 119635\. https:\/\/doi\.org\/10\.1016\/j\.jclepro\.2019\.119635
+
+A\. Stöckl, S\. Tischler, D\.F\. Kleiss, K\. Moser, Grapes and gains: the influence of farming methods on Austrian wine ratings and prices, J\. Wine Res\. 35 \(2024\) 208–217\. https:\/\/doi\.org\/10\.1080\/09571264\.2024\.2394036
+
+C\. Mazzocchi, G\. Ruggeri, S\. Corsi, Consumers’ preferences for biodiversity in vineyards: A choice experiment on wine, Wine Econ\. Policy 8 \(2019\) 155–164\. https:\/\/doi\.org\/10\.36253\/wep\-7482
+
+P\. Fanasch, B\. Frick, The value of signals: do self\-declaration and certification generate price premiums for organic and biodynamic wines? J\. Clean\. Prod\. 249 \(2020\) 119415\. https:\/\/doi\.org\/10\.1016\/j\.jclepro\.2019\.119415
+
+A\. Corsi, S\. Strøm, The price premium for organic wines: estimating a hedonic farm\-gate price equation, J\. Wine Econ\. 8 \(2013\) 29–48\. https:\/\/doi\.org\/10\.1017\/jwe\.2013\.4
+
+R\. Vecchio, C\. Annunziata, A\. Lerro, E\. Parga\-Dans, P\. Alonso González, Drivers of consumer willingness to pay for sustainable wines: natural, biodynamic, and organic, Org\. Agric\. 13 \(2023\) 177–190\. https:\/\/doi\.org\/10\.1007\/s13165\-023\-00425\-6
+
+G\. Scozzafava, C\. Casini, F\. Boncinelli, L\. Marinelli, A\. Contini, How much is a bottle of conventional, organic or biodynamic wine worth? Results of an experimental auction, Food Qual\. Prefer\. 93 \(2021\) 104259\. https:\/\/doi\.org\/10\.1016\/j\.foodqual\.2021\.104259
+
+E\. Parga\-Dans, R\. Vecchio, A\. Annunziata, P\. Alonso González, R\. Otero Enríquez, A certification for natural wine? A comparative analysis of consumer drivers in Italy and Spain, Wine Econ\. Policy 12 \(2023\) 23–35\. https:\/\/doi\.org\/10\.36253\/wep\-12890
+
+C\. Bazzani, G\. Maesano, D\. Begalli, R\. Capitello, Exploring the effect of naturalness on consumer wine choices: evidence from a survey in Italy, Food Qual\. Prefer\. 113 \(2024\) 105062\. https:\/\/doi\.org\/10\.1016\/j\.foodqual\.2023\.105062
+
+R\.E\. White, The value of soil knowledge in understanding wine terroir, Front\. Environ\. Sci\. 8 \(2020\) 12\. https:\/\/doi\.org\/10\.3389\/fenvs\.2020\.00012
+
+J\. Bruwer, I\. Lesschaeve, B\.L\. Campbell, Consumption dynamics and demographics of Canadian wine consumers: Retailing insights from the tasting room channel, J\. Retail\. Consum\. Serv\. 19 \(2012\) 45–58\. https:\/\/doi\.org\/10\.1016\/j\.jretconser\.2011\.08\.008
+
+J\.G\. Lynch Jr, D\. Ariely, Wine online: Search costs affect competition on price, quality, and distribution, Mark\. Sci\. 19 \(2000\) 83–103\. https:\/\/doi\.org\/10\.1287\/mksc\.19\.1\.83\.15183
+
+T\. Meas, W\. Hu, M\.T\. Batte, T\.A\. Woods, S\. Ernst, Substitutes or complements? Consumer preference for local and organic food attributes, Am\. J\. Agric\. Econ\. 97 \(2015\) 1044–1071\.
+
+M\. Folwarczny, A\. Gasiorowska, V\. Sigurdsson, T\. Otterbring, Renewable bites: How energy sources shape food healthiness judgments, Judgm\. Decis\. Mak\. 20 \(2025\) e35\. https:\/\/doi\.org\/10\.1017\/jdm\.2025\.10012
+
+G\.E\. Newman, An essentialist account of authenticity, J\. Cogn\. Cult\. 16 \(2016\) 294–321\. https:\/\/doi\.org\/10\.1163\/15685373\-12342181
+
+G\.I\. Penagos\-Londoño, F\. Ruiz\-Moreno, R\. Sellers\-Rubio, S\. Del Barrio\-García, A\.B\. Casado\-Díaz, Consistency of expert product reviews: an application to wine guides, Wine Econ\. Policy 11 \(2022\) 51–60\. https:\/\/doi\.org\/10\.36253\/wep\-12400
+
+E\. Calderón\-Monge, V\. Ripollés\-Matallana, B\. Baruque\-Zanón, S\. Porras Alfonso, Big data analysis of Spanish wine consumers reviews, Int\. J\. Wine Bus\. Res\. 37 \(2025\) 55–86\. https:\/\/doi\.org\/10\.1108\/IJWBR\-12\-2023\-0084
+
+G\. Gastaldello, I\. Schäufele\-Elbers, G\. Schamel, Factors influencing wine ratings in an online wine community: the case of Trentino–Alto Adige, J\. Wine Econ\. 19 \(2024\) 19–40\. https:\/\/doi\.org\/10\.1017\/jwe\.2024\.2
+
+X\. Qi, W\. Chang, A\. Liu, J\. Sun, M\. Fan, Exploring the influence of emotionality and expertise on online wine reviews: does greater knowledge lead to less review? Int\. J\. Contemp\. Hosp\. Manag\. 36 \(2024\) 2842–2869\. https:\/\/doi\.org\/10\.1108\/IJCHM\-08\-2023\-1302
+
+R\. Janssen, M\.K\. Ribar, Expertise, accuracy, and reputation inflation in the wine market: evidence from Vivino ratings, J\. Wine Econ\. 20 \(2025\) 348–370\. https:\/\/doi\.org\/10\.1017\/jwe\.2025\.10090
+
+C\. Rocuant Fuentes, P\. Rita, N\. Antonio, Assessing the nexus of label content and consumer reviews: insights from premium wines on Vivino, Int\. J\. Wine Bus\. Res\. 37 \(2025\) 403–424\. https:\/\/doi\.org\/10\.1108\/IJWBR\-08\-2024\-0044
+
+H\. Odendaal, E\. Kerby, Plebs to pros: a data\-driven dive into 60 million wine reviews, Int\. J\. Wine Bus\. Res\. \(2026\) ahead\-of\-print\. https:\/\/doi\.org\/10\.1108\/IJWBR\-06\-2025\-0039
+
+B\. Braut, M\.A\. Paissoni, B\. Cavalletti, et al\., Naturally biased? Experimental evidence on how the term natural influences wine consumers\' perceptions and preferences, J\. Behav\. Exp\. Econ\. 121 \(2026\) 102527\. https:\/\/doi\.org\/10\.1016\/j\.socec\.2026\.102527
+
+P\.N\. Golder, M\.G\. Dekimpe, J\.T\. An, H\.J\. Van Heerde, D\.S\. Kim, J\.W\. Alba, Learning from data: An empirics\-first approach to relevant knowledge generation, J\. Mark\. 87 \(2023\) 319–336\. https:\/\/doi\.org\/10\.1177\/00222429221129200
+
+W\.D\. Hoyer, E\.W\. Wan, K\. Wilcox, Practical relevance in consumer research, J\. Consum\. Res\. 51 \(2024\) 428–438\. https:\/\/doi\.org\/10\.1093\/jcr\/ucae023
+
+T\. Otterbring, G\. Viglia, L\. Grazzini, G\. Das, Guest editorial: Favoring fieldwork makes marketing more meaningful, Eur\. J\. Mark\. 57 \(2023\) 1793–1803\. https:\/\/doi\.org\/10\.1108\/EJM\-07\-2023\-987
+
+H\.J\. Van Heerde, C\. Moorman, C\.P\. Moreau, R\.W\. Palmatier, Reality check: Infusing ecological value into academic marketing research, J\. Mark\. 85 \(2021\) 1–13\. https:\/\/doi\.org\/10\.1177\/0022242921992383
+
+G\.E\. Newman, R\. Dhar, Authenticity is contagious: Brand essence and the original source of production, J\. Mark\. Res\. 51 \(2014\) 371–386\. https:\/\/doi\.org\/10\.1509\/jmr\.11\.0022
+
+J\.H\. Gilmore, B\.J\. Pine, Authenticity: What Consumers Really Want, Harvard Business Press, Boston, 2007\.
+
+M\.B\. Beverland, F\.J\. Farrelly, The quest for authenticity in consumption: Consumers\' purposive choices of authentic cues to shape experiences outcomes, J\. Consum\. Res\. 36 \(2010\) 838–856\. http:\/\/doi\.org\/10\.1086\/615047
+
+F\. Morhart, L\. Malär, A\. Guèvremont, F\. Girardin, B\. Grohmann, Brand authenticity: An integrative framework and measurement scale, J\. Consum\. Psychol\. 25 \(2015\) 200–218\. https:\/\/doi\.org\/10\.1016\/j\.jcps\.2014\.11\.006
+
+S\.A\. Gelman, The Essential Child: Origins of Essentialism in Everyday Thought, Oxford University Press, Oxford, 2003\. https:\/\/doi\.org\/10\.1093\/acprof:oso\/9780195154061\.001\.0001
+
+R\. Henkin, D\. Perez, T\. Otterbring, Phygital luxury: The influence of NFT\-linked digital twins on consumer responses to physical luxury products, J\. Assoc\. Consum\. Res\. 10 \(2025\) 165–179\. https:\/\/doi\.org\/10\.1086\/734844
+
+E\. Le Grand, On the authenticity of natural wine, in: M\. Visalli, M\.V\. Galmarini \(Eds\.\), What Do Natural Wines Evoke in the Minds and Senses of Wine Drinkers?, Springer, Cham, 2025, pp\. 67–84\. https:\/\/doi\.org\/10\.1007\/978\-3\-031\-87857\-2\_5
+
+D\. Burnham, O\.M\. Skilleas, The Aesthetics of Wine, Wiley\-Blackwell, Oxford, 2012\.
+
+R\. Goldstein, M\. Dubois, Don’t Call It Organic or Biodynamic: Natural Wine, Product Certifications, and Alternative Signalling Mechanisms\. In: Uncorked: Negotiating science and belief in the natural wine movement\. Cham: Springer Nature Switzerland, 99–113\.
+
+H\. Shoenberger, E\. Kim, Explaining purchase intent via expressed reasons to follow an influencer, perceived homophily, and perceived authenticity, I\. J\. Advert\. 42 \(2023\) 368–383\. https:\/\/doi\.org\/10\.1080\/02650487\.2022\.2075636
+
+P\. Rozin, J\. Haidt, C\.R\. McCauley, Disgust, in: M\. Lewis, J\.M\. Haviland\-Jones \(Eds\.\), Handbook of Emotions, 2nd ed\., Guilford Press, New York, 2008, pp\. 757–776\.
+
+A\. Galati, G\. Schifani, M\. Crescimanno, G\. Migliore, “Natural wine” consumers and interest in label information: An analysis of willingness to pay in a new Italian wine market segment, J\. Clean\. Prod\. 227 \(2019\) 405–413\. https:\/\/doi\.org\/10\.1016\/j\.jclepro\.2019\.04\.219
+
+M\.P\. Sáenz\-Navajas, C\. Alemán\-Jimeno, P\. Nieto, Natural versus conventional production of Spanish white wines: an exploratory study, J\. Sci\. Food Agric\. 103 \(2023\) 7037–7047\. https:\/\/doi\.org\/10\.1002\/jsfa\.12479
+
+B\.P\. Meier, A\.J\. Dillard, C\.M\. Lappas, Naturally better? A review of the natural\-is\-better bias, Soc\. Personal\. Psychol\. Compass 13 \(2019\) e12494\. https:\/\/doi\.org\/10\.1111\/spc3\.12494
+
+B\. Kovács, G\.R\. Carroll, D\.W\. Lehman, Authenticity and consumer value ratings: Empirical tests from the restaurant domain, Organ\. Sci\. 25 \(2014\) 458–478\. https:\/\/doi\.org\/10\.1287\/orsc\.2013\.0843
+
+L\. Gagliardi, Naturalness seeking minds: The cognitive foundations of naturalness bias in consumer food choice, Food Hum\. 5 \(2025\) 100716\. https:\/\/doi\.org\/10\.1016\/j\.foohum\.2025\.100716
+
+B\.K\. Cheon, Y\.F\. Tan, G\.G\. Forde, Food essentialism: Implications for expectations and perceptions of the properties of processed foods, Food Qual\. Prefer\. 117 \(2024\) 105173\. https:\/\/doi\.org\/10\.1016\/j\.foodqual\.2024\.105173
+
+M\. Folwarczny, T\. Otterbring, V\. Sigurdsson, L\.K\. Tan, Naturally green, irrationally lean: How background scenery affects calorie judgments, Food Res\. Int\. 164 \(2023\) 112339\. https:\/\/doi\.org\/10\.1016\/j\.foodres\.2022\.112339
+
+O\. Petit, T\. Otterbring, The impact of fusion metaphors in health appeals on consumer attitudes: Tasty but unhealthy, healthy but not tasty—duality considerations in health messaging, J\. Advert\. Res\. 64 \(2024\) 4–17\. https:\/\/doi\.org\/10\.2501\/JAR\-2024\-005
+
+M\. Fatma, I\. Khan, Brand authenticity and consumers\' willingness to pay a premium price: The mediating role of brand identification, J\. Brand Manag\. 31 \(2024\) 469–481\. https:\/\/doi\.org\/10\.1057\/s41262\-024\-00353\-0
+
+J\. Núñez, D\. Martín\-Barroso, J\.A\. Núñez\-Serrano, F\.J\. Velázquez, How much are we willing to pay for quality wine? A meta\-analysis and meta\-regression analysis, J\. Econ\. Surv\. 39 \(2025\) 1595–1629\. https:\/\/doi\.org\/10\.1111\/joes\.12668
+
+F\. Völckner, J\. Hofmann, The price\-perceived quality relationship: A meta\-analytic review and assessment of its determinants, Mark\. Lett\. 18 \(2007\) 181–196\. https:\/\/doi\.org\/10\.1007\/s11002\-007\-9013\-2
+
+X\. Wang, B\. Sung, I\. Phau, Examining the influences of perceived exclusivity and perceived rarity on consumers\' perception of luxury, J\. Fash\. Mark\. Manag\. 26 \(2022\) 365–382\. https:\/\/doi\.org\/10\.1108\/JFMM\-12\-2020\-0254
+
+J\.G\. Moulard, et al\., Disentangling the meanings of brand authenticity: The entity\-referent correspondence framework of authenticity, J\. of the Acad\. Mark\. Sci\. 49 \(2021\) 96–118\. https:\/\/doi\.org\/10\.1007\/s11747\-020\-00735\-1
+
+G\. Negro, M\.T\. Hannan, H\. Rao, Category reinterpretation and defection: Modernism and tradition in Italian winemaking, Organ\. Sci\. 22 \(2011\) 1449–1463\. https:\/\/doi\.org\/10\.1287\/orsc\.1100\.0619
+
+A\. Kalogeraki, S\. Kuester, S\. von Janda, Leveraging member\-initiated online communities: The role of brand prominence, content authenticity and social capital, Eur\. J\. Mark\. 60 \(2026\) 1–26\. https:\/\/doi\.org\/10\.1108\/EJM\-05\-2024\-0394
+
+B\. Schivinski, Eliciting brand\-related social media engagement: A conditional inference tree framework, J\. Bus\. Res\. 130 \(2021\) 594–602\. https:\/\/doi\.org\/10\.1016\/j\.jbusres\.2019\.08\.045
+
+V\. Santos, A\. Dias, P\. Ramos, A\. Madeira, B\. Sousa, The influence of wine storytelling on the global wine tourism experience, Wine Econ\. Policy 11 \(2022\) 3–13\. https:\/\/doi\.org\/10\.36253\/wep\-11454
+
+N\. Depetris Chauvin, D\. Valentin, J\.H\. Behrens, H\. Rodrigues, Country\-of\-origin as bias inducer in experts\' wine judgments: A sensory experiment in a world wine fair, Int\. J\. Gastron\. Food Sci\. 35 \(2024\) 100883\. https:\/\/doi\.org\/10\.1016\/j\.ijgfs\.2024\.100883
+
+A\. Tezer, H\.O\. Bodur, The green consumption effect: How using green products improves consumption experience, J\. Consum\. Res\. 47 \(2020\) 25–39\. https:\/\/doi\.org\/10\.1093\/jcr\/ucz045
+
+S\. Kavvadias, B\. Schivinski, N\. Arachchilage, T\. Brown, V\. Stavropoulos, Language of change in online narratives of recovery from disordered gaming, Sci\. Rep\. \(2026\)\. https:\/\/doi\.org\/10\.1038\/s41598\-025\-33991\-8
+
+F\. Septianto, J\. Kemper, G\. Northey, Thanks, but no thanks: The influence of gratitude on consumer awareness of food waste, J\. Clean\. Prod\. 258 \(2020\) 120591\. https:\/\/doi\.org\/10\.1016\/j\.jclepro\.2020\.120591
+
+J\.C\. Nunes, A\. Ordanini, G\. Giambastiani, The concept of authenticity: What it means to consumers, J\. Mark\. 85 \(2021\) 1–20\. https:\/\/doi\.org\/10\.1177\/0022242921997081
+
+C\. Gómez\-Corona, T\. Otterbring, Underrepresented populations in sensory and consumer science, Food Qual\. Prefer\. 127 \(2025\) 105455\. https:\/\/doi\.org\/10\.1016\/j\.foodqual\.2025\.105455
+
+C\.A\. Hutcherson, J\.J\. Gross, The moral emotions: A social–functionalist account of anger, disgust, and contempt, J\. Pers\. Soc\. Psychol\. 100 \(2011\) 719–737\. https:\/\/doi\.org\/10\.1037\/a0022408
+
+Y\. Zhong, L\. Wu, X\. Chen, Z\. Huang, W\. Hu, Effects of food\-additive\-information on consumers\' willingness to accept food with additives, Int\. J\. Environ\. Res\. Public Health 15 \(2018\) 2394\. https:\/\/doi\.org\/10\.3390\/ijerph15112394
+
+P\. Rozin, M\. Spranca, Z\. Krieger, R\. Neuhaus, D\. Surillo, A\. Swerdlin, K\. Wood, Preference for natural: Instrumental and ideational\/moral motivations, and the contrast between foods and medicines, Appetite 43 \(2004\) 147–154\. https:\/\/doi\.org\/10\.1016\/j\.appet\.2004\.03\.005
+
+P\. Rozin, C\. Nemeroff, Sympathetic magical thinking: The contagion and similarity \"heuristics\", in: T\. Gilovich, D\. Griffin, D\. Kahneman \(Eds\.\), Heuristics and Biases: The Psychology of Intuitive Judgment, Cambridge University Press, Cambridge, 2002, pp\. 201–216\.
+
+J\. Ooms, cld2: Google\'s Compact Language Detector 2 \[R package\], 2025\. https:\/\/docs\.ropensci\.org\/cld2\/
+
+F\.Å\. Nielsen, AFINN, 2011\. https:\/\/github\.com\/fnielsen\/afinn
+
+J\. Silge, D\. Robinson, tidytext: Text mining and analysis using tidy data principles in R, J\. Open Source Softw\. 1 \(2016\) 37\. https:\/\/doi\.org\/10\.21105\/joss\.00037
+
+S\.M\. Mohammad, P\.D\. Turney, Crowdsourcing a word–emotion association lexicon, Comput\. Intell\. 29 \(2013\) 436–465\. https:\/\/doi\.org\/10\.1111\/j\.1467\-8640\.2012\.00460\.x
+
+R Core Team, R: A Language and Environment for Statistical Computing, R Foundation for Statistical Computing, Vienna, 2025\. https:\/\/www\.R\-project\.org\/
+
+M\. Siegrist, C\. Hartmann, Consumer acceptance of novel food technologies, Nat\. Food 1 \(2020\) 343–350\. https:\/\/doi\.org\/10\.1038\/s43016\-020\-0094\-x
+
+J\. Ballester, M\. Belascoin, M\. González\-Hernández, E\. Parga\-Dans, P\. Alonso González, M\.P\. Sáenz\-Navajas, Sensory attributes and quality perception of red natural wines: a comparative study in Spain and France, OENO One 58 \(2024\)\. https:\/\/doi\.org\/10\.20870\/oeno\-one\.2024\.58\.1\.7737
+
+D\. Moscovici, J\. Gow, A\. Alonso Ugaglia, R\. Rezwanul, L\. Valenzuela, R\. Mihailescu, Consumer preferences for organic wine – global analysis of people and place, J\. Clean\. Prod\. 368 \(2022\) 133215\. https:\/\/doi\.org\/10\.1016\/j\.jclepro\.2022\.133215
+
+D\. Langaro, S\. Loureiro, B\. Schivinski, H\. Neves, An investigation of social network users engaging with eWOM: the role of social comparison and envy, J\. Mark\. Commun\. 28 \(2022\) 301–317\. https:\/\/doi\.org\/10\.1080\/13527266\.2022\.2109056
+
+J\.P\. Enriquez, J\.C\. Archila\-Godinez, Social and cultural influences on food choices: A review, Crit\. Rev\. Food Sci\. Nutr\. 62 \(2022\) 3698–3704\. https:\/\/doi\.org\/10\.1080\/10408398\.2020\.1870434
+
+J\. Hartmann, J\. Huppertz, C\. Schamp, M\. Heitmann, Comparing automated text classification methods, Int\. J\. Res\. Mark\. 36 \(2019\) 20–38\. https:\/\/doi\.org\/10\.1016\/j\.ijresmar\.2018\.09\.009
+
+F\. Fagioli, G\. Gallesio, E\. Viganò, Wineries communication strategies\. A text mining analysis, Wine Econ\. Policy 11 \(2022\) 73–87\. https:\/\/doi\.org\/10\.36253\/wep\-11305
+
+S\. Sillani, A\. Miccoli, F\. Nassivera, Different preferences for wine communication, Wine Econ\. Policy 6 \(2017\) 28–39\. https:\/\/doi\.org\/10\.1016\/j\.wep\.2017\.03\.002
+

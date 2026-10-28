@@ -95,7 +95,7 @@ article", state the licence, the original source and "changes made: re-typeset",
 and `aam.note` so the page says "Download the full text (PDF)". Check the licence before hosting (CC BY-ND
 and NC licences allow verbatim non-commercial copies; re-typesetting under ND needs care).
 Under a NoDerivatives licence (CC BY-ND, CC BY-NC-ND), host the publisher's PDF unchanged instead of a re-typeset copy
-(first case: Aleem et al., 2024, JMC, 11 Oct 2026).
+(first case: Aleem et al., 2024, JMC, 11 Oct 2026). If that unchanged PDF prints Bruno's (or a co-author's) email address, host nothing and link to the free published version instead (first cases: Brzozowska-Woś & Schivinski, 2019, CEMJ; Schivinski et al., 2018, ABR; 28 Oct 2026).
 
 ## Page sections, in order
 

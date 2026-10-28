@@ -1,0 +1,26 @@
+text: wine-naturalness-online-reviews.blocks.txt
+affiliation_line: University of Galway; Burgundy School of Business; Independent researcher; RMIT University; University of Agder
+title_page_label: Open access accepted manuscript
+running_label: just accepted, open access (CC BY 4.0)
+title_page_note: >-
+  This is the accepted manuscript ("Just Accepted"), published open access under CC BY 4.0. It has undergone full peer
+  review but not the journal's copyediting, typesetting and proofreading, so it may differ from the Version of Record.
+  It differs from the journal's Just Accepted PDF only in formatting; the authors' email addresses have been left out.
+  Please cite the published version.
+title_page_footer: Re-typeset from the Just Accepted manuscript (CC BY 4.0); line numbers and the publisher's watermark removed and Figure 1 redrawn from the values in Table 2.
+figures:
+  fig1:
+    svg: figures/folwarczny-et-al-2026-wine-emotions.svg
+table_overrides:
+  '1':
+    title: Descriptive Statistics
+    columns: [Variable, '*M*', '*SD*', Median, Min, Max, Skewness, Kurtosis]
+    widths: [1fr, auto, auto, auto, auto, auto, auto, auto]
+    size: 9pt
+    note: '*Note*. *N* = 6,395,585 English-language reviews with valid natural wine classification. *M* = mean, *SD* = standard deviation. Sensory characteristics (acidity, body, tannin, sweetness, fizziness, intensity) measured on 1–5 scales.'
+  '2':
+    title: Emotion Word Counts in Natural Versus Conventional Wine Reviews
+    columns: [Emotion, Type, '*M* Conv.', '*SD* Conv.', '*M* Nat.', '*SD* Nat.', Difference, t-value, p-value]
+    widths: [auto, 1fr, auto, auto, auto, auto, auto, auto, auto]
+    size: 8.5pt
+    note: '*Note*. Values represent mean emotion word counts per review. Percentage change calculated as [(Natural − Conventional) / Conventional] × 100.'

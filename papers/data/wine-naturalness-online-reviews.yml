@@ -1,0 +1,235 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: "Just Accepted" manuscript, Wine Economics and Policy (Firenze University Press), published online
+# 27 Aug 2026 (PDF supplied by Bruno, 28 Oct 2026). Open access under CC BY 4.0, copyright with the authors (journal
+# page). The manuscript prints all five authors' email addresses; they are left out here. Figure 1 redrawn from Table 2.
+# Not yet in ORCID; listed through data/extra_publications.yml. Update volume, issue and pages when the version of
+# record appears in an issue.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Wine online and digital decanting: Naturalness effects in large-scale consumer reviews of wine"
+doi: "10.36253/wep-19943"
+journal: "Wine Economics and Policy"
+issn: "2212-9774"
+publisher: "Firenze University Press"
+published: "2026-08"
+published_label: "2026, just accepted"
+online: "2026-08-27"
+open_access: true
+licence: "CC BY 4.0"
+licence_url: "https://creativecommons.org/licenses/by/4.0/"
+
+aam:
+  file: "folwarczny-dubois-clerc-schivinski-otterbring-2026-wep-wine-naturalness.pdf"
+  button: "Download the full text (PDF)"
+  note: "Free full text: the open access accepted manuscript (CC BY 4.0, just accepted), re-typeset as a clean PDF. It has not yet been copyedited or typeset by the journal; please cite the published version."
+  statement: >-
+    Open access article distributed under the terms of the Creative Commons Attribution 4.0 International License
+    (https://creativecommons.org/licenses/by/4.0/). Accepted for publication in Wine Economics and Policy (Just
+    Accepted, published online 27 August 2026), https://doi.org/10.36253/wep-19943. This article has been accepted for
+    publication and undergone full peer review but has not been through the copyediting, typesetting, pagination and
+    proofreading process, which may lead to differences between this version and the Version of Record. Changes made:
+    re-typeset, the authors' email addresses left out, and Figure 1 redrawn from the values in Table 2.
+
+authors:
+  - given: "Michał"
+    family: "Folwarczny"
+    affiliation: ["University of Galway"]
+  - given: "Magalie"
+    family: "Dubois"
+    affiliation: ["Burgundy School of Business, Université Bourgogne Europe"]
+  - given: "Vincent"
+    family: "Clerc"
+    affiliation: ["Independent researcher"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University", "Gdańsk University of Technology"]
+    me: true
+  - given: "Tobias"
+    family: "Otterbring"
+    affiliation: ["University of Agder", "KTH Royal Institute of Technology"]
+
+cite_short: "Folwarczny et al., 2026"
+badges: ["6.4 million Vivino reviews", "10,614 wines", "Computational linguistics", "Sentiment analysis", "Natural wine"]
+keywords:
+  # Article's own keywords
+  - natural wine
+  - naturalness bias
+  - psychological essentialism
+  - authenticity
+  - sentiment analysis
+  - computational linguistics
+  - electronic word-of-mouth
+  # What the study is about
+  - online wine reviews
+  - Vivino
+  - consumer ratings
+  - price premium
+  - credence attributes
+  - information asymmetry
+  - expectation disconfirmation
+  - natural-is-better bias
+  - minimal-intervention wine
+  - discrete emotions
+  - disgust
+  - review length
+  # Method
+  - text mining
+  - AFINN lexicon
+  - NRC Emotion Lexicon
+  - negative binomial regression
+  - R (tidytext)
+
+in_brief: >-
+  Natural wines cost about 20% more and get longer reviews than conventional wines, but consumers rate them lower and
+  write about them with less positive and more disgusted, angry language. In 6.4 million English-language Vivino
+  reviews, naturalness worked as a quality signal that raised expectations the wine often did not meet.
+
+findings:
+  - headline: "Natural wines carry a price premium of about 20%."
+    text: >-
+      Controlling for rating, vintage, alcohol, sensory characteristics and country of origin, wines that Vivino
+      classifies as natural were priced about 20% higher than conventional wines (<i>b</i> = 0.18) (Folwarczny et al.,
+      2026).
+  - headline: "Yet consumers rate natural wines slightly lower."
+    text: >-
+      Natural wines received lower ratings (<i>M</i> = 4.09 vs 4.12 on a 5-point scale), and the gap held with
+      controls (<i>b</i> = &minus;0.02, <i>p</i> &lt; .001), contrary to the natural-is-better hypothesis (Folwarczny et
+      al., 2026).
+  - headline: "Natural wines get longer but less positive reviews."
+    text: >-
+      Reviews of natural wines were about 20% longer (23.0 vs 19.2 words; incidence rate ratio = 1.20) but had lower
+      per-word sentiment (2.05 vs 2.21 on the AFINN scale) (Folwarczny et al., 2026).
+  - headline: "Disgust and anger rise most."
+    text: >-
+      Natural wine reviews contained 40% more disgust words, 32% more anger words and 30% more fear words than
+      conventional wine reviews, with only small increases in joy (+2.5%) and surprise (+1.8%) (Folwarczny et al.,
+      2026).
+
+glance:
+  - { label: "Data", value: "Consumer reviews scraped from Vivino (September&ndash;October 2025), covering the platform&rsquo;s full history; 12.9 million observations, of which 6,395,585 English-language reviews with a natural-wine classification were analysed" }
+  - { label: "Wines", value: "697 natural and 9,917 conventional wines, using Vivino&rsquo;s own &lsquo;is_natural&rsquo; attribute; 116,747 reviews of natural wines" }
+  - { label: "Outcomes", value: "Rating (1&ndash;5), price (USD, log), review length (words), per-word sentiment (AFINN) and discrete emotion word counts (NRC Emotion Lexicon)" }
+  - { label: "Analysis", value: "Independent-samples <i>t</i>-tests, then multiple linear and negative binomial regressions with controls (price or rating, vintage year, alcohol, acidity, body, tannin; country of origin for price), in R" }
+
+figures:
+  - file: figures/folwarczny-et-al-2026-wine-emotions.svg
+    title: "Figure 1. Emotion word count differences between natural and conventional wine reviews"
+    caption: >-
+      Redrawn from the values in Table 2 of the article: percentage change in NRC emotion word counts for natural
+      relative to conventional wine reviews. Negative emotions rise far more than positive ones; the difference in trust
+      words is not significant.
+
+results:
+  title: "Natural versus conventional wines: price, ratings and reviews"
+  unit: ""
+  max: 45
+  note: "Percentage differences for natural relative to conventional wines, from the regression and t-test results reported in the article (6,395,585 reviews). Price premium and review length after controls; emotion words from Table 2."
+  groups:
+    - name: "Market and engagement"
+      bars:
+        - { label: "Price premium", value: 20, display: "+20%", highlight: true }
+        - { label: "Review length", value: 20, display: "+20%", highlight: true }
+    - name: "Emotion words in reviews"
+      bars:
+        - { label: "Disgust", value: 40.0, display: "+40.0%" }
+        - { label: "Anger", value: 31.8, display: "+31.8%" }
+        - { label: "Fear", value: 30.4, display: "+30.4%" }
+        - { label: "Joy", value: 2.5, display: "+2.5%" }
+
+question: >-
+  Consumers tend to see natural products as better, and natural wine is sold on what has not been done to the grapes.
+  Because naturalness is a credence attribute that consumers cannot verify, it can shape both what they pay and how they
+  judge the wine after drinking it. We asked whether naturalness changes consumers&rsquo; ratings, the prices of wines,
+  and the length, sentiment and emotions of their online reviews.
+
+implications:
+  practical: >-
+    Natural wine brands should position naturalness as a credence attribute, emphasising process history, rarity and
+    authenticity rather than competing on quality-for-price, and manage expectations about variable sensory profiles,
+    for example by presenting cloudiness or volatile acidity as signatures of minimal intervention. The long, emotional
+    reviews also offer material for online brand communities.
+  theoretical: >-
+    The findings challenge the natural-is-better bias in a real market: naturalness raises valuation before purchase as
+    a quality signal but lowers evaluation after consumption through expectation disconfirmation, so the price premium
+    and the rating penalty are two stages of the same process.
+
+limitations:
+  - "Vivino users are more involved than the average wine buyer."
+  - "Natural status relies on Vivino&rsquo;s own undisclosed classification and treats a heterogeneous category as one group."
+  - "Reviews are clustered within wines, so observations are not independent."
+
+faq:
+  - q: "Do people rate natural wine higher than conventional wine?"
+    a: >-
+      No. In 6.4 million English-language Vivino reviews, natural wines received slightly lower ratings than
+      conventional wines, even after controlling for price and wine characteristics (Folwarczny et al., 2026).
+  - q: "How much more does natural wine cost?"
+    a: >-
+      About 20% more than comparable conventional wines on Vivino, after controlling for rating, vintage, alcohol,
+      sensory characteristics and country of origin (Folwarczny et al., 2026).
+  - q: "What emotions do natural wine reviews express?"
+    a: >-
+      More negative emotions than conventional wine reviews, especially disgust (+40%), anger (+32%) and fear (+30%),
+      with slightly more joy (+2.5%) and surprise (+1.8%) (Folwarczny et al., 2026).
+  - q: "Why would consumers pay more for a wine they rate lower?"
+    a: >-
+      Naturalness works as a signal of authenticity and process integrity before purchase, but it also raises
+      expectations that the wine&rsquo;s unconventional sensory profile may not meet after drinking (Folwarczny et al.,
+      2026).
+
+concepts:
+  - term: "Natural wine"
+    definition: "Wine made with minimal intervention, typically from organic or biodynamic grapes with indigenous yeasts and without additives such as sulfur dioxide; the term has no legal definition."
+  - term: "Naturalness bias"
+    definition: "The tendency to see things of natural origin or made with little human intervention as better than conventional alternatives."
+  - term: "Credence attribute"
+    definition: "A product quality, such as how a wine was made, that consumers cannot verify even after consumption."
+  - term: "Expectation disconfirmation"
+    definition: "Dissatisfaction that arises when a product performs below the expectations formed before purchase."
+
+open_science:
+  - { label: "Full text (PDF)", note: "Open access accepted manuscript (just accepted), re-typeset as a clean PDF with the tables and figure", url: "manuscripts/folwarczny-dubois-clerc-schivinski-otterbring-2026-wep-wine-naturalness.pdf" }
+  - { label: "Published version", note: "Wine Economics and Policy (open access, just accepted)", url: "https://doi.org/10.36253/wep-19943" }
+
+tables:
+  - id: "1"
+    title: "Descriptive statistics"
+    columns: ["Variable", "<i>M</i>", "<i>SD</i>", "Median", "Min", "Max", "Skewness", "Kurtosis"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["Rating", "4.12", "0.65", "4.00", "1.00", "5.00", "&minus;1.07", "2.67"]
+      - ["Price (USD)", "253.92", "3,673.35", "51.99", "1.16", "200,000", "53.59", "2,910.45"]
+      - ["Review length (words)", "19.23", "18.64", "12.00", "1.00", "112.00", "1.79", "3.05"]
+      - ["Sentiment (per word)", "1.68", "1.39", "2.00", "&minus;5.00", "5.00", "&minus;0.56", "&minus;0.33"]
+      - ["Alcohol by volume (%)", "13.38", "2.24", "13.50", "0.00", "19.00", "&minus;5.00", "27.08"]
+      - ["Acidity", "3.71", "0.79", "3.50", "1.00", "5.00", "&minus;0.65", "0.21"]
+      - ["Body", "3.93", "0.84", "4.00", "1.00", "5.00", "&minus;0.63", "0.02"]
+      - ["Tannin", "3.85", "0.90", "4.00", "1.00", "5.00", "&minus;0.72", "&minus;0.29"]
+      - ["Sweetness", "1.15", "0.48", "1.00", "1.00", "5.00", "5.44", "36.79"]
+      - ["Fizziness", "4.64", "0.50", "5.00", "3.50", "5.00", "&minus;0.75", "&minus;1.22"]
+      - ["Intensity", "4.03", "0.88", "4.00", "1.00", "5.00", "&minus;0.83", "0.06"]
+      - ["Vintage year", "2013", "14.03", "2018", "1806", "2025", "&minus;3.13", "20.83"]
+    note: "<i>N</i> = 6,395,585 English-language reviews with valid natural wine classification. <i>M</i> = mean, <i>SD</i> = standard deviation. Sensory characteristics (acidity, body, tannin, sweetness, fizziness, intensity) measured on 1&ndash;5 scales."
+  - id: "2"
+    title: "Emotion word counts in natural versus conventional wine reviews"
+    columns: ["Emotion", "Type", "<i>M</i> conv.", "<i>SD</i> conv.", "<i>M</i> nat.", "<i>SD</i> nat.", "Difference", "<i>t</i>", "<i>p</i>"]
+    align: ["left", "left", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["Joy", "Positive Emotion", "0.84", "1.05", "0.86", "1.09", "+2.5%", "&minus;6.65", "&lt;.001"]
+      - ["Trust", "Positive Emotion", "0.79", "1.04", "0.80", "1.06", "+0.6%", "&minus;1.46", ".145"]
+      - ["Anticipation", "Positive Emotion", "0.68", "0.95", "0.66", "0.95", "&minus;2.7%", "6.54", "&lt;.001"]
+      - ["Surprise", "Positive Emotion", "0.43", "0.71", "0.44", "0.73", "+1.8%", "&minus;3.63", "&lt;.001"]
+      - ["Anger", "Negative Emotion", "0.14", "0.41", "0.19", "0.48", "+31.8%", "&minus;32.16", "&lt;.001"]
+      - ["Disgust", "Negative Emotion", "0.28", "0.59", "0.39", "0.71", "+40.0%", "&minus;53.21", "&lt;.001"]
+      - ["Fear", "Negative Emotion", "0.12", "0.38", "0.16", "0.44", "+30.4%", "&minus;28.32", "&lt;.001"]
+      - ["Sadness", "Negative Emotion", "0.23", "0.53", "0.25", "0.55", "+7.5%", "&minus;10.72", "&lt;.001"]
+      - ["Positive", "General Sentiment", "1.94", "2.01", "2.06", "2.05", "+5.8%", "&minus;18.65", "&lt;.001"]
+      - ["Negative", "General Sentiment", "0.45", "0.79", "0.59", "0.92", "+31.3%", "&minus;51.68", "&lt;.001"]
+    note: "Values are mean emotion word counts per review (NRC Emotion Lexicon). Percentage change = [(natural &minus; conventional) / conventional] &times; 100. Conv. = conventional; nat. = natural."
+
+related:
+  - "10.1016/j.foodqual.2026.106122"
+  - "10.7206/cemj.2658-0845.1"
+  - "10.1016/j.jbusres.2019.08.045"
