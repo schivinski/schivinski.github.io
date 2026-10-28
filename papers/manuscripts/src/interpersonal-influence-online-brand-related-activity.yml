@@ -1,0 +1,31 @@
+text: interpersonal-influence-online-brand-related-activity.blocks.txt
+affiliation_line: Gdańsk University of Technology; Birkbeck, University of London
+title_page_label: Open access article
+running_label: open access (CC BY-SA 4.0)
+title_page_note: >-
+  This version reproduces the content of the published open access article; it differs only in formatting and
+  pagination. Please cite the published version.
+title_page_footer: Re-typeset from the published open access article (CC BY-SA 4.0); the publisher's typesetting and layout have been removed and Figures 1 and 2 redrawn.
+figures:
+  fig1:
+    svg: figures/brzozowska-wos-schivinski-2019-suscep-cobras-model.svg
+  fig2:
+    svg: figures/brzozowska-wos-schivinski-2019-suscep-cobras-estimates.svg
+table_overrides:
+  '1':
+    title: Reliability and validity of the conceptual model
+    columns: ['', CR, AVE, FD, '1', '2', '3', '4', '5']
+    widths: [1fr, auto, auto, auto, auto, auto, auto, auto, auto]
+    size: 8.5pt
+    note: '*Note*: CR = composite reliability; AVE = average variance extracted; FD = factor determinacy; n = 911; MLR*χ*^{2}_{(198)} = 1011.48, CFI = 0.93, TLI = 0.92, and RMSEA = 0.06; 90% CI [0.06, 0.07]. T-values for correlations are reported in parentheses. The square root value of the AVE are in italics. *Source*: own elaboration.'
+  '2':
+    columns: [HYPOTHESIS, β, '*t*-value', '*p*-value', Acceptance/Rejection]
+    widths: [1fr, auto, auto, auto, auto]
+    size: 8.5pt
+    note: '*Note*: n = 911; MLR*χ*^{2}_{(274)} = 1520.20, CFI = 0.93, TLI = 0.91, and RMSEA = 0.07 (90% CI [0.06–0.07]). *Source*: own elaboration.'
+  A:
+    title: Descriptive statistics for the constructs and measurements
+    columns: [Constructs and measurements, Loading, '*t*-value', Mean, SD, Skewness, Kurtosis]
+    widths: [1fr, auto, auto, auto, auto, auto, auto]
+    size: 8.5pt
+    note: 'Loading = standardized factor loading. Items adapted from Bearden et al. (1989) and Schivinski et al. (2016). *Source*: own elaboration.'
