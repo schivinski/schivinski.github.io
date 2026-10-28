@@ -52,7 +52,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 31 | 2024 | Translating the user-avatar bond into depression risk: A preliminary machine learning s… | Journal of Psychiatric Research | 25 |  |
 | 32 | 2024 | “What Are You Eating?” Is the Influence of Fortnite Streamers Expanding Beyond the Game? | Journal of Electronic Gaming and Esports | 8 |  |
 | 33 | 2023 | Consumer Perceptions of Food Packaging in Its Role in Fighting Food Waste | Sustainability | 57 |  |
-| 34 | 2023 | Many analysts and few incentives | Religion Brain and Behavior | 9 |  |
+| 34 | 2023 | Many analysts and few incentives | Religion Brain and Behavior | 9 | locked (`many-analysts-few-incentives`) |
 | 35 | 2023 | Problematic Online Behaviors Among Gamers: the Links Between Problematic Gaming, Gambli… | International Journal of Mental Health and Addiction | 86 | locked (`problematic-online-behaviours-gamers-network`) |
 | 36 | 2023 | The effect of social media communication on intention to vaccinate against COVID-19: A … | Journal of Marketing Communications | 4 | locked (`social-media-covid-vaccination-intention`) |
 | 37 | 2022 | A many-analysts approach to the relation between religiosity and well-being | Religion, Brain & Behavior | 169 |  |

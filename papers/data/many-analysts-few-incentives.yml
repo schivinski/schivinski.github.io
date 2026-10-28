@@ -1,0 +1,150 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: accepted manuscript, "Ross et al revision [FINAL VERSION]" (PDF supplied by Bruno, 29 Oct 2026), the same
+# file posted on PsyArXiv (doi:10.31234/osf.io/jdtur, 29 April 2022) under CC BY 4.0. Published as a commentary in
+# Religion, Brain & Behavior 13(3), 336-339 (online 6 July 2022; Taylor & Francis, not open access). The manuscript
+# prints Robert Ross's email address; it is left out here. Re-typeset under CC BY 4.0.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Many analysts and few incentives"
+doi: "10.1080/2153599X.2022.2070248"
+journal: "Religion, Brain & Behavior"
+issn: "2153-599X"
+publisher: "Taylor & Francis"
+volume: "13"
+issue: "3"
+pages: "336–339"
+published: "2023-07-03"
+published_label: "2023 (published online 6 July 2022)"
+
+aam:
+  file: "ross-et-al-2023-rbb-many-analysts-few-incentives-accepted-manuscript.pdf"
+  button: "Download the accepted manuscript (PDF)"
+  note: "Free full text: the authors&rsquo; accepted manuscript (CC BY 4.0, as posted on PsyArXiv), re-typeset as a clean PDF. Please cite the published version."
+  statement: >-
+    Accepted manuscript of a commentary published in Religion, Brain &amp; Behavior, 13(3), 336&ndash;339 (2023),
+    https://doi.org/10.1080/2153599X.2022.2070248. The authors&rsquo; manuscript was posted on PsyArXiv
+    (https://doi.org/10.31234/osf.io/jdtur) under the Creative Commons Attribution 4.0 International License
+    (https://creativecommons.org/licenses/by/4.0/). Changes made: re-typeset and the corresponding author&rsquo;s email
+    address left out.
+
+authors:
+  - given: "Robert M."
+    family: "Ross"
+    orcid: "0000-0001-8711-1675"
+    affiliation: ["Macquarie University"]
+  - given: "Justin"
+    family: "Sulik"
+    orcid: "0000-0002-0978-9496"
+    affiliation: ["Ludwig Maximilian University of Munich"]
+  - given: "Jacek"
+    family: "Buczny"
+    orcid: "0000-0002-4932-196X"
+    affiliation: ["Vrije Universiteit Amsterdam", "SWPS University of Social Sciences and Humanities"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+
+cite_short: "Ross et al., 2023"
+badges: ["Commentary", "Many Analysts Religion Project", "Metascience", "Construct validity", "Research incentives"]
+keywords:
+  - many analysts
+  - Many Analysts Religion Project
+  - MARP
+  - metascience
+  - research incentives
+  - construct validity
+  - measurement
+  - questionable measurement practices
+  - sum scores
+  - measurement invariance
+  - cross-cultural research
+  - religiosity
+  - multilevel modelling
+  - pre-registration
+  - open science
+
+in_brief: >-
+  Many-analysts projects remove the pressure to find significant results, but they also remove the reward for doing
+  the hard parts well. Reflecting on their own two analysis teams in the Many Analysts Religion Project, the authors
+  show how they never checked whether their religiosity measure was valid, and suggest ways to reward careful work.
+
+findings:
+  - headline: "No incentive for significance can also mean no incentive for care."
+    text: >-
+      A core strength of many-analysts projects is that teams have no direct incentive to reach statistical
+      significance, but this lack of incentives is a double-edged sword: a team&rsquo;s submission is one among many and
+      has little visible effect on the project&rsquo;s success (Ross et al., 2023).
+  - headline: "Both authors&rsquo; teams ignored construct validity."
+    text: >-
+      Team 039 summed four of the nine religiosity items and Team 175 summed all nine, but neither team assessed the
+      internal consistency, factor structure or cross-cultural measurement invariance of the religiosity score (Ross et
+      al., 2023).
+  - headline: "Teams invest where they already have expertise."
+    text: >-
+      The teams put careful work into the multilevel models they were skilled at, while construct validation in
+      cross-cultural research would have needed a large investment of time and effort, so it was left out (Ross et
+      al., 2023).
+  - headline: "Reward the strongest submissions and build diverse teams."
+    text: >-
+      The authors predict that very few MARP teams assessed construct validity, and suggest rewarding the strongest
+      submissions (author order, invited commentaries, awards or prizes) and forming teams that combine analytic skills
+      with domain knowledge (Ross et al., 2023).
+
+glance:
+  - { label: "Type", value: "Commentary on the Many Analysts Religion Project (MARP), written by members of two of its analysis teams (Team 039 and Team 175)" }
+  - { label: "Topic", value: "How the incentive structure of many-analysts projects can lead teams to neglect key parts of an analysis, such as the construct validity of measures" }
+  - { label: "Proposals", value: "Code MARP submissions for attempts to assess construct validity; reward the strongest submissions; incentivise teams that bring together diverse analytic skills and domain knowledge" }
+
+question: >-
+  Many-analysts projects ask many independent teams to analyse the same data, and teams have no direct incentive to
+  reach a particular result. We asked whether that lack of incentives has a downside, using our own two submissions to
+  the Many Analysts Religion Project as a case.
+
+implications:
+  practical: >-
+    Organisers of many-analysts projects should consider ways to reward the quality of submissions, for example by
+    identifying the strongest submissions and giving their authors more prominent author positions, invited
+    commentaries, awards or prizes, and by encouraging teams that combine analytic and domain expertise.
+  theoretical: >-
+    The many-analysts approach does not by itself fix poor measurement practices (a &ldquo;measurement
+    schmeasurement&rdquo; attitude) in the social sciences; construct validity, including measurement invariance across
+    cultures, needs attention in multi-team as well as single-team research.
+
+limitations:
+  - "Based on the authors&rsquo; own two submissions; the prediction about other teams remains to be tested."
+  - "The authors are not confident that they have good introspective access to what motivated their analysis decisions."
+
+faq:
+  - q: "What is a many-analysts study?"
+    a: >-
+      A study in which many independent teams analyse the same data set to answer the same question, showing how
+      analytic choices affect results (Silberzahn &amp; Uhlmann, 2015; Silberzahn et al., 2018).
+  - q: "What is the downside of having no incentives in many-analysts projects?"
+    a: >-
+      Teams have no reason to chase significance, but also little reason to invest effort in parts of the analysis
+      outside their expertise; in the Many Analysts Religion Project, the authors&rsquo; own teams did not assess the
+      construct validity of their religiosity measure (Ross et al., 2023).
+  - q: "How could many-analysts projects reward careful work?"
+    a: >-
+      By identifying and rewarding the strongest submissions (more prominent author positions, invited commentaries,
+      awards or prizes) and by encouraging teams that combine diverse analytic skills and domain knowledge (Ross et
+      al., 2023).
+
+concepts:
+  - term: "Many-analysts approach"
+    definition: "Independent teams analyse the same data to answer the same question, so that the effect of analytic choices on results can be seen."
+  - term: "Construct validity"
+    definition: "Whether a measure captures the construct it is meant to; here, at least internal consistency, factor structure and measurement invariance across cultures could have been checked."
+  - term: "Measurement invariance"
+    definition: "A measure works the same way across groups (e.g., cultures), so that scores can be compared between them."
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Re-typeset accepted manuscript (CC BY 4.0)", url: "manuscripts/ross-et-al-2023-rbb-many-analysts-few-incentives-accepted-manuscript.pdf" }
+  - { label: "Preprint", note: "PsyArXiv, CC BY 4.0", url: "https://doi.org/10.31234/osf.io/jdtur" }
+  - { label: "Target article", note: "Hoogeveen et al., A many-analysts approach to the relation between religiosity and well-being, Religion, Brain &amp; Behavior", url: "https://doi.org/10.1080/2153599X.2022.2070255" }
+
+related:
+  - "10.1080/2153599x.2022.2070255"
