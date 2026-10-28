@@ -537,6 +537,9 @@ def build_llms(papers: list[dict]) -> None:
 def main() -> int:
     pubs_file = ROOT / "data" / "publications.json"
     pubs = {(p.get("doi") or "").lower(): p for p in json.loads(pubs_file.read_text())} if pubs_file.exists() else {}
+    extra = ROOT / "data" / "extra_publications.yml"  # works missing from ORCID, so related papers still resolve
+    for p in (yaml.safe_load(extra.read_text()) or []) if extra.exists() else []:
+        pubs.setdefault(str(p.get("doi") or "").lower(), p)
     files = sorted(DATA.glob("*.yml"))
     if os.environ.get("PUBLISH") == "1":
         # public builds: only pages Bruno has approved ("locked"); drafts stay in the private preview
