@@ -1,0 +1,260 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, International Journal of Mental Health and Addiction 21(1), 240-257 (published version PDF
+# supplied by Bruno, 28 Oct 2026); issue details and the correction notice (2 May 2022) from Crossref and SpringerLink.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Problematic Online Behaviors Among Gamers: the Links Between Problematic Gaming, Gambling, Shopping, Pornography Use, and Social Networking"
+doi: "10.1007/s11469-021-00590-3"
+journal: "International Journal of Mental Health and Addiction"
+issn: "1557-1874"
+publisher: "Springer Nature"
+volume: "21"
+issue: "1"
+pages: "240–257"
+published: "2023-02"
+published_label: "2023 (online 6 October 2021)"
+online: "2021-10-06"
+open_access: false
+
+aam:
+  file: "rozgonjuk-schivinski-pontes-montag-2021-ijmha-accepted-manuscript.pdf"
+  statement: >-
+    This version of the article has been accepted for publication, after peer review, and is subject to Springer
+    Nature&rsquo;s AM terms of use, but is not the Version of Record and does not reflect post-acceptance improvements,
+    or any corrections. The Version of Record is available online at: https://doi.org/10.1007/s11469-021-00590-3
+
+authors:
+  - given: "Dmitri"
+    family: "Rozgonjuk"
+    orcid: "0000-0002-1612-2040"
+    affiliation: ["Ulm University", "University of Tartu"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University", "Birkbeck, University of London"]
+    me: true
+  - given: "Halley M."
+    family: "Pontes"
+    orcid: "0000-0001-8020-7623"
+    affiliation: ["Birkbeck, University of London"]
+  - given: "Christian"
+    family: "Montag"
+    orcid: "0000-0001-8112-0837"
+    affiliation: ["Ulm University"]
+
+cite_short: "Rozgonjuk et al., 2021"
+badges: ["4,416 gamers", "International sample", "Exploratory graph analysis", "Network analysis", "Problematic Internet use"]
+keywords:
+  # Article's own keywords
+  - gaming disorder
+  - gaming
+  - gambling
+  - exploratory graph analysis
+  - network analysis
+  - addictive behaviors
+  - Internet addiction
+  # What the study is about
+  - problematic online gaming
+  - problematic online gambling
+  - problematic online shopping
+  - problematic online pornography use
+  - problematic social networking
+  - problematic Internet use
+  - specific vs generalised Internet addiction
+  - co-occurring behavioural addictions
+  - gamers' mental health
+  # Theory and measures
+  - I-PACE model
+  - Internet use disorders
+  - ICD-11 gaming disorder
+  - DSM-5 Internet gaming disorder
+  - four-item problematic behaviour scales (Müller et al.)
+  # Method
+  - Gaussian graphical model
+  - Louvain community detection
+  - bootstrapped EGA
+  - within-subjects ANOVA
+  - Spearman correlation
+  - R
+  - international online survey
+
+in_brief: >-
+  Gamers who report problematic gaming also tend to report problems with other online activities, but each problem
+  stands on its own. In a survey of 4,416 gamers from many countries, problematic gaming, gambling, shopping,
+  pornography use and social networking correlated with one another yet formed five separate clusters, with gaming
+  the most and shopping the least problematic.
+
+findings:
+  - headline: "Problematic gaming goes with other problematic online behaviours."
+    text: >-
+      Among 4,416 gamers, problematic online gaming correlated positively with problematic social networking
+      (<i>r</i> = 0.389), pornography use (0.318), gambling (0.299) and shopping (0.269), all <i>p</i> &lt; .001
+      (Rozgonjuk et al., 2021).
+  - headline: "But each behaviour is a separate problem."
+    text: >-
+      Exploratory graph analysis found five dimensions, one per behaviour, in 97.4% of 1,000 bootstrapped networks:
+      every item loaded on its own scale, with only one cross-loading of note (gaming item 4 on gambling, &minus;0.15)
+      (Rozgonjuk et al., 2021).
+  - headline: "Gaming was the most problematic, shopping the least."
+    text: >-
+      On scales from 4 to 20, problematic gaming averaged 10.77, ahead of social networking (8.00), gambling (7.45),
+      pornography (6.91) and shopping (5.77); the gap between gaming and the others was medium to large
+      (Cohen&rsquo;s <i>d</i> = 0.71 to 1.27; <i>F</i>(4, 17,660) = 1981.98, <i>p</i> &lt; .001) (Rozgonjuk et al., 2021).
+  - headline: "Social networking was most closely tied to gaming."
+    text: >-
+      Problematic social networking had the strongest link with problematic gaming, which the authors suggest may
+      point to unmet social needs among gamers with disordered gaming (Rozgonjuk et al., 2021).
+
+glance:
+  - { label: "Design", value: "Cross-sectional international online survey in English (Smart Gaming campaign, ESL), 2019 data; convenience sample rewarded with personalised feedback on their gaming" }
+  - { label: "Participants", value: "4,416 gamers aged 12 to 80 (mean 23.3, SD 6.7), 94% men, from many countries, most often Russia (17%), France (15%), Spain (11%), Poland (6%) and Argentina (5%); 5,905 before data cleaning" }
+  - { label: "Measures", value: "Four-item scales of problematic online gaming, gambling, shopping, pornography use and social networking (Müller et al., 2017), each item from 1 = never to 5 = very often; &alpha; and &omega; = 0.79 to 0.83" }
+  - { label: "Analysis", value: "Spearman correlations (Holm-adjusted); exploratory graph analysis with a Gaussian graphical model (GLASSO, EBIC) and Louvain community detection, bootstrapped 1,000 times (EGAnet); within-subjects ANOVA with Holm post hoc tests, in R 4.0.3" }
+  - { label: "Ethics", value: "As printed: approved by the Institutional Review Board of Ulm University. A correction (2 May 2022) states that ethical approval was given by the College Research Ethics Committee of Nottingham Trent University (2018/95)" }
+
+figures:
+  - file: figures/rozgonjuk-et-al-2021-problematic-behaviours-map.svg
+    title: "Five separate problematic behaviours, linked by small to medium correlations"
+    caption: >-
+      Each behaviour formed its own dimension in the exploratory graph analysis (range of each scale&rsquo;s network
+      loadings from Table 2); lines show the Spearman correlations between summed scale scores from Table 1. This is a
+      summary drawn from the tables, not the published item-level network (Fig. 1 of the article, included in the
+      manuscript PDF).
+  - file: figures/rozgonjuk-et-al-2021-problematic-behaviours-means.svg
+    title: "Figure 2. Means and 95% confidence intervals for scale scores"
+    caption: >-
+      Redrawn from Fig. 2 of the article, with intervals computed from the means and standard deviations in Table 1
+      (<i>N</i> = 4,416). Every pairwise difference was significant (Table 3).
+
+question: >-
+  Researchers still debate whether "Internet addiction" is one general problem or a set of specific problems that
+  happen to take place online. Gamers are a group in which problematic gaming is common, but little was known about
+  whether they also struggle with other online activities, and whether those problems overlap or stay distinct. In a
+  large international sample of gamers, we asked how problematic online gaming, gambling, shopping, pornography use
+  and social networking relate to each other, whether their symptoms form separate clusters, and which is most
+  prevalent.
+
+implications:
+  practical: >-
+    Clinicians and prevention programmes working with gamers should screen for other problematic online behaviours,
+    since they often co-occur with disordered gaming, and especially for problematic social networking, which may
+    reflect unmet social needs. Because each behaviour is distinct, treatment and prevention may need to target the
+    specific activity rather than "Internet use" in general.
+  theoretical: >-
+    The results support the view of specific Internet use disorders: the Internet is the medium that fuels several
+    distinct problematic behaviours rather than a single general addiction. They are consistent with frameworks such
+    as I-PACE and with treating gaming disorder as one facet of a wider set of Internet-based problematic behaviours.
+
+limitations:
+  - "The sample was self-selected, mostly young and male, and recruited by convenience, so the results may not generalise."
+  - "Self-reports may not match actual, objectively measured gaming, gambling, shopping, pornography and social media use."
+  - "The cross-sectional design cannot show how these problems develop or influence one another over time."
+  - "Future work could study female gamers, older cohorts and relationship satisfaction in the context of gaming."
+
+faq:
+  - q: "Do gamers have other problematic online behaviours?"
+    a: >-
+      Often, yes. Among 4,416 gamers, problematic gaming correlated with problematic social networking, pornography
+      use, gambling and shopping (<i>r</i> = 0.27 to 0.39), although gaming was by far the most problematic of the five
+      (Rozgonjuk et al., 2021).
+  - q: "Is Internet addiction one disorder or several?"
+    a: >-
+      This study supports several: in a network analysis of gamers&rsquo; symptoms, problematic gaming, gambling,
+      shopping, pornography use and social networking each formed a separate cluster, even though they were
+      correlated (Rozgonjuk et al., 2021).
+  - q: "Which online behaviour is most linked to problematic gaming?"
+    a: >-
+      Problematic social networking (<i>r</i> = 0.389), followed by problematic pornography use (0.318) and gambling
+      (0.299) (Rozgonjuk et al., 2021).
+  - q: "What is exploratory graph analysis?"
+    a: >-
+      A network method that estimates the partial correlations between questionnaire items and uses a community
+      detection algorithm to find how many clusters, or dimensions, the items form.
+
+concepts:
+  - term: "Problematic Internet use"
+    definition: "Excessive or poorly controlled use of the Internet that causes problems in daily life; also called Internet addiction or Internet use disorder."
+  - term: "Specific vs generalised problematic Internet use"
+    definition: "Whether problems concern particular online activities, such as gaming or shopping, or the Internet in general."
+  - term: "Gaming disorder"
+    definition: "A pattern of gaming with impaired control, increasing priority over other activities and continuation despite harm (WHO, ICD-11)."
+  - term: "Exploratory graph analysis (EGA)"
+    definition: "A network psychometrics method that estimates item networks and detects clusters of items as dimensions."
+  - term: "Network loading"
+    definition: "The sum of an item&rsquo;s connections to the items of a dimension; values above 0.15, 0.25 and 0.35 are small, medium and large."
+
+materials:
+  - label: "Scale items"
+    text: "For each behaviour (gaming, gambling, shopping, pornography, social networking) the four items were: &ldquo;How often do you find that you spend more time [doing the behavior] than you intended?&rdquo;; &ldquo;How often do you neglect household chores to spend more time [doing the behavior]?&rdquo;; &ldquo;How often do you feel preoccupied with [doing the behavior] when offline or fantasize about [doing the behavior]?&rdquo;; &ldquo;How often do you choose to spend more time [doing the behavior] over going out with others?&rdquo; (1 = never to 5 = very often; Müller et al., 2017)."
+  - label: "Exclusion criteria"
+    text: "Respondents were excluded if they were outside 12 to 80 years, had not played video games in the past 12 months, reported playing a non-existent game (attention check), reported more than 119 hours of gaming a week or more than 48 hours at weekends, declared themselves professional gamers, or lacked sufficient English."
+  - label: "Correction"
+    text: "A correction published on 2 May 2022 replaced the third sentence of the second paragraph of the Sample and Procedure section with: &ldquo;The study has received ethical approval by the research team&rsquo;s University Ethics Committee (College Research Ethics Committee of the Nottingham Trent University [2018/95]).&rdquo;"
+
+open_science:
+  - { label: "Accepted manuscript (PDF)", note: "Free full text, including all tables and figures", url: "manuscripts/rozgonjuk-schivinski-pontes-montag-2021-ijmha-accepted-manuscript.pdf" }
+  - { label: "Published version", note: "International Journal of Mental Health and Addiction (Springer Nature)", url: "https://doi.org/10.1007/s11469-021-00590-3" }
+
+tables:
+  - id: "1"
+    title: "Descriptive statistics and correlations for problematic Internet-based activities and age"
+    columns: ["Variable", "Mean", "SD", "1", "2", "3", "4", "5"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["1. Problematic online gaming", "10.77", "3.76", "", "", "", "", ""]
+      - ["2. Problematic online gambling", "7.45", "3.74", "0.299***", "", "", "", ""]
+      - ["3. Problematic online shopping", "5.77", "2.64", "0.269***", "0.231***", "", "", ""]
+      - ["4. Problematic online pornography", "6.91", "3.30", "0.318***", "0.193***", "0.317***", "", ""]
+      - ["5. Problematic online social networking", "8.00", "3.59", "0.389***", "0.226***", "0.358***", "0.333***", ""]
+      - ["6. Age", "23.31", "6.72", "−0.044*", "−0.087***", "0.040*", "−0.008", "−0.157***"]
+    note: "<i>N</i> = 4,416. * <i>p</i> &lt; .05, ** <i>p</i> &lt; .01, *** <i>p</i> &lt; .001. Spearman correlations, <i>p</i> values adjusted with Holm&rsquo;s method. The possible score range for each scale is 4 to 20."
+  - id: "2"
+    title: "Network loadings for bootstrapped EGA items"
+    collapsed: true
+    columns: ["Item", "1", "2", "3", "4", "5"]
+    align: ["left", "right", "right", "right", "right", "right"]
+    rows:
+      - ["Online Gaming 3", "<b>0.317</b>", "0.068", "0.012", "0.029", "0.007"]
+      - ["Online Gaming 1", "<b>0.312</b>", "0.056", "0.003", "0.004", "0.046"]
+      - ["Online Gaming 2", "<b>0.306</b>", "0.081", "0.003", "0.023", "0.085"]
+      - ["Online Gaming 4", "<b>0.253</b>", "−0.150", "0.020", "0.056", "0.081"]
+      - ["Online Gambling 1", "0.086", "<b>0.446</b>", "0", "0", "0"]
+      - ["Online Gambling 2", "0.096", "<b>0.432</b>", "0.013", "0", "0.015"]
+      - ["Online Gambling 4", "0.116", "<b>0.395</b>", "0.013", "0", "0"]
+      - ["Online Gambling 3", "0.071", "<b>0.256</b>", "0.064", "0.012", "0.004"]
+      - ["Online Shopping 2", "0.003", "0.035", "<b>0.431</b>", "0.038", "0.043"]
+      - ["Online Shopping 1", "0.003", "0", "<b>0.390</b>", "0.021", "0.003"]
+      - ["Online Shopping 4", "0.020", "0.013", "<b>0.383</b>", "0.046", "0.062"]
+      - ["Online Shopping 3", "0.012", "0.039", "<b>0.313</b>", "0.031", "0.045"]
+      - ["Online Pornography 2", "0.022", "0", "0.032", "<b>0.448</b>", "0.036"]
+      - ["Online Pornography 4", "0.055", "0", "0.051", "<b>0.374</b>", "0.060"]
+      - ["Online Pornography 1", "0.004", "0.005", "0.020", "<b>0.368</b>", "0"]
+      - ["Online Pornography 3", "0.029", "0.005", "0.031", "<b>0.340</b>", "0.016"]
+      - ["Social Networking 1", "0.046", "0", "0", "0", "<b>0.423</b>"]
+      - ["Social Networking 2", "0.086", "0.014", "0.043", "0.037", "<b>0.381</b>"]
+      - ["Social Networking 3", "0.007", "0.003", "0.047", "0.016", "<b>0.357</b>"]
+      - ["Social Networking 4", "0.082", "0", "0.062", "0.061", "<b>0.270</b>"]
+    note: "Each item&rsquo;s highest loading in bold. Dimensions 1 to 5 correspond to gaming, gambling, shopping, pornography and social networking."
+  - id: "3"
+    title: "The comparison of Internet-based problematic behaviors"
+    columns: ["Comparison", "Estimate", "SE", "<i>t</i>", "Cohen&rsquo;s <i>d</i>"]
+    align: ["left", "right", "right", "right", "right"]
+    rows:
+      - ["Online gambling – online gaming", "−3.321", "0.059", "−56.102***", "−0.844"]
+      - ["Online pornography – online gaming", "−3.854", "0.059", "−65.108***", "−0.980"]
+      - ["Online networking – online gaming", "−2.772", "0.059", "−46.836***", "−0.705"]
+      - ["Online shopping – online gaming", "−5.001", "0.059", "−84.493***", "−1.271"]
+      - ["Online pornography – online gambling", "−0.533", "0.059", "−9.006***", "−0.136"]
+      - ["Social networking – online gambling", "0.548", "0.059", "9.266***", "0.139"]
+      - ["Online shopping – online gambling", "−1.680", "0.059", "−28.391***", "−0.427"]
+      - ["Social networking – online pornography", "1.082", "0.059", "18.272***", "0.275"]
+      - ["Online shopping – online pornography", "−1.147", "0.059", "−19.385***", "−0.292"]
+      - ["Online shopping – social networking", "−2.229", "0.059", "−37.657***", "−0.567"]
+    note: "*** <i>p</i> &lt; .001 (Holm-adjusted post hoc tests). SE = standard error."
+
+related:
+  - "10.1016/j.abrep.2022.100426"
+  - "10.1007/s11469-019-00088-z"
+  - "10.3390/jcm8101691"
+  - "10.1556/2006.2026.00022"

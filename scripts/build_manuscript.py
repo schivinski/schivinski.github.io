@@ -18,6 +18,7 @@ Requires Quarto (bundled Typst) and Playwright (to rasterise SVG figures).
 from __future__ import annotations
 
 import html
+import shutil
 import re
 import subprocess
 import sys
@@ -45,6 +46,8 @@ def inline(t: str) -> str:
     """Markdown-ish (*i*, **b**) + simple HTML (<i>, <sup>, ^{x}, entities) to Typst markup."""
     t = html.unescape(t)
     t = re.sub(r"<i>(.*?)</i>", r"*\1*", t)
+    t = re.sub(r"<b>(.*?)</b>", r"**\1**", t)
+    t = re.sub(r"<sub>(.*?)</sub>", r"_{\1}", t)
     t = re.sub(r"<sup>(.*?)</sup>", r"^{\1}", t)
     tokens = re.split(r"(\*\*.+?\*\*|\*[^*]+?\*|\^\{[^}]*\}|_\{[^}]*\})", t)
     out = []
@@ -164,7 +167,10 @@ def build(slug: str) -> Path:
     fig_files = {}
     for key, fg in cfg.get("figures", {}).items():
         png = work / f"{key}.png"
-        rasterise(ROOT / "papers" / fg["svg"], png)
+        if fg.get("png"):  # a raster figure supplied as is (e.g. the authors' own network plot)
+            shutil.copy(ROOT / "papers" / fg["png"], png)
+        else:
+            rasterise(ROOT / "papers" / fg["svg"], png)
         fig_files[key] = png.name
 
     tables = {t["id"]: t for t in d.get("tables", [])}

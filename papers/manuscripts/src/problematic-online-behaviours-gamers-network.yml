@@ -1,0 +1,18 @@
+text: problematic-online-behaviours-gamers-network.blocks.txt
+affiliation_line: Ulm University; University of Tartu; RMIT University; University of London
+title_page_footer: Re-typeset from the published text by the authors; the publisher's typesetting and layout have been removed and Fig. 2 redrawn.
+figures:
+  fig1:
+    png: manuscripts/src/img/rozgonjuk-et-al-2021-ega-network.png
+  fig2:
+    svg: figures/rozgonjuk-et-al-2021-problematic-behaviours-means.svg
+table_overrides:
+  '1':
+    title: Descriptive statistics and correlations for problematic Internet-based activities and age
+    note: '*N* = 4,416. * *p* < .05, ** *p* < .01, *** *p* < .001. Abbreviation: S.D., standard deviation. Possible score range for each problematic online behavior scale was from 4 to 20.'
+    size: 8pt
+  '2':
+    title: Network loadings for bootstrapped EGA items
+    note: Each item’s highest loading is outlined with bold text
+  '3':
+    note: '*** *p* < .001. Abbreviation: S.E., standard error'
