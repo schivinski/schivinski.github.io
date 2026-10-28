@@ -165,7 +165,7 @@ limits:
 
 faq:
   - q: "How much traffic does ChatGPT send to online shops?"
-    a: "Very little so far. Across 973 shops in a year, it supplied under 0.2% of visits, about 200 times less than Google's organic search (Kaiser & Schulze, 2026, Marketing Science)."
+    a: "Very little so far. Across 973 shops in a year, it supplied under 0.2% of visits, about 200 times less than Google's organic search (Kaiser & Schulze, 2026)."
   - q: "Do ChatGPT visitors convert better than visitors from search?"
     a: "Not on average. Organic search visitors were about 13% more likely to buy than ChatGPT visitors. Paid social was the only channel that did worse than ChatGPT."
   - q: "Which products suit ChatGPT referrals?"

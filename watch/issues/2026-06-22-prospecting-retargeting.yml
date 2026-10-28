@@ -182,7 +182,7 @@ limits:
 
 faq:
   - q: "Does retargeting work?"
-    a: "In the one large field experiment that has measured it against sales rather than clicks, no. Turning retargeting off entirely in a randomly assigned set of American media markets left order volumes indistinguishable from markets running it at full budget (Larson & Dotson, 2026, Journal of Interactive Marketing). That is one advertiser in one category, so it is a warning rather than a verdict."
+    a: "In the one large field experiment that has measured it against sales rather than clicks, no. Turning retargeting off entirely in a randomly assigned set of American media markets left order volumes indistinguishable from markets running it at full budget (Larson & Dotson, 2026). That is one advertiser in one category, so it is a warning rather than a verdict."
   - q: "Why does my dashboard show such a high return on retargeting?"
     a: "Because a retargeting ad is usually the last ad a buyer clicks, and the platform credits the last click. Someone who visited your site weeks ago and is already going to buy will see and click your retargeting ads in between, which makes the channel look decisive when it is merely present."
   - q: "Should I stop retargeting completely?"

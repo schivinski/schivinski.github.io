@@ -93,6 +93,13 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   to the card width. Put the detail in the chart title or the source line instead of the label.
 - The value label only shows a unit when `unit` is `%`. For any other unit, put it in the chart title.
 
+## In-text citations are author and year only (Bruno, 29 October 2026)
+- Write in-text references as they appear in papers: "(Author, Year)", "(Author & Author, Year)" or "(Author et al., Year)".
+  NEVER add the journal name inside the brackets (it had crept into the FAQ citations of issues 14 to 53; all removed on
+  29 October 2026). The journal is already named in the title block, the paper details and the Source reference.
+- Issue 43 no longer carries the "I'm Bruno Schivinski, and I ran the study at ..." introduction (removed 29 October 2026:
+  "we are assuming that people know me"). Whether the shorter disclosure lines in drafts 52 and 53 go too is for Bruno to say.
+
 ## Authors' names link to ORCID; external links open in a new tab (Bruno, 18 October 2026)
 - **No new byline or author section** (Bruno: the issue does not grow). The text stays as before: authors named where
   the prose, the FAQ citation and the Source already name them; universities mentioned in the prose as in earlier issues.
@@ -108,7 +115,7 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   universities, in the style of issue 22: "Jiaming Fang, Qiqi Zheng, Miyan Liao, Lintong Han and Lu Liu, working across three
   Chinese universities, set out to ...". Write each name exactly as in `researchers:`; the builder links the first mention of
   each full name to ORCID. Do not write "the Groningen team"-style openers without the names. (2) Citations are plain: the FAQ
-  citation "(Boluki, Shehu & Bijmolt, 2026, Journal ...)" and the Source reference carry no author links, only the DOI link.
+  citation "(Boluki, Shehu & Bijmolt, 2026)" and the Source reference carry no author links, only the DOI link.
   The builder now does this for every issue except 41, which stays as published (issues 1-40 were switched at no cost by the
   rebuild; their prose openers were not rewritten).
 - **Every external link opens in a new tab.** `scripts/external_links.py` (post-render) adds `target="_blank"` and

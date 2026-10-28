@@ -199,7 +199,7 @@ limits:
 
 faq:
   - q: "Does personalization work in marketing?"
-    a: "On average, yes. Pooled studies show positive effects on attitudes, credibility, loyalty and purchase intentions, with an average correlation of .23. Measured behaviour was the weak spot, close to zero, so test on orders in your own setting (Eisend, Niewiadomska & van Noort, 2026, Journal of Marketing)."
+    a: "On average, yes. Pooled studies show positive effects on attitudes, credibility, loyalty and purchase intentions, with an average correlation of .23. Measured behaviour was the weak spot, close to zero, so test on orders in your own setting (Eisend, Niewiadomska & van Noort, 2026)."
   - q: "Does personalization cause privacy backlash?"
     a: "Barely, in the pooled data. The measures of worry, irritation, avoidance and distrust were all statistically indistinguishable from zero, with one small exception on negative feelings. Individual studies do find backlash, but it is not what the average looks like."
   - q: "What kind of customer data works best for personalization?"

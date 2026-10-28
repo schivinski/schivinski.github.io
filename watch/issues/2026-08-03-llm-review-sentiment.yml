@@ -163,7 +163,7 @@ limits:
 
 faq:
   - q: "Can a large language model tell the star rating from a review's text?"
-    a: "Mostly. Used with no training, GPT-4's guesses tracked authors' real ratings closely, with only about 1 in 20 guesses two or more stars away (Winter, Zacharias & Hartwig, 2026, Marketing Letters)."
+    a: "Mostly. Used with no training, GPT-4's guesses tracked authors' real ratings closely, with only about 1 in 20 guesses two or more stars away (Winter, Zacharias & Hartwig, 2026)."
   - q: "Is an AI sentiment tool less accurate on emotional reviews?"
     a: "Not here. The tool did better on pleasure products than on practical ones, probably because their writers use openly evaluative words. Do not assume emotional text is harder for the tool."
   - q: "Why would an AI's mistake predict a less helpful review?"

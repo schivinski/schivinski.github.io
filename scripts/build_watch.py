@@ -427,7 +427,7 @@ def link_names(html: str, p: dict, used: set, cite_only: bool = False, cites: bo
     """Put an ORCID link on authors' names where the text already names them (Bruno, 18 October 2026).
 
     Full names ("Jonah Berger") are linked at their first mention in the prose; surnames are linked inside the study's own
-    citation, e.g. "(Bravin, Clegg & Berger, 2026, Journal of Marketing)". Text inside existing links and tags is left alone.
+    citation, e.g. "(Bravin, Clegg & Berger, 2026)". Text inside existing links and tags is left alone.
     Nothing is added to the page: only names that are already there become links.
     """
     rs = [r for r in researchers(p) if orcid_url(r.get("orcid", ""))]

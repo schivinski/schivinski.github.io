@@ -162,7 +162,7 @@ limits:
 
 faq:
   - q: "Does ChatGPT change the online reviews people write?"
-    a: "A little, according to a natural experiment. While the tool was blocked in Italy, computer-written hotel reviews there came out slightly fewer and clearly shorter than in neighbouring countries, with a bit less opinion and slightly lower ratings (Gu & Spann, 2026, International Journal of Research in Marketing)."
+    a: "A little, according to a natural experiment. While the tool was blocked in Italy, computer-written hotel reviews there came out slightly fewer and clearly shorter than in neighbouring countries, with a bit less opinion and slightly lower ratings (Gu & Spann, 2026)."
   - q: "How did the researchers know ChatGPT was the cause?"
     a: "They used a natural experiment. Italy's block was sudden, temporary and unrelated to hotels, and neighbouring countries offered a comparison. The gap appeared when the block began and faded when it ended, and a pretend block in an earlier period showed nothing."
   - q: "Do AI-assisted reviews tend to be longer?"

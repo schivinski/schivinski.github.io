@@ -149,7 +149,7 @@ limits:
 
 faq:
   - q: "Does generative AI make advertising people more creative?"
-    a: "It made them more productive, not more creative. Trained users produced roughly double the ideas, but the line they chose was rated no better than those of colleagues without AI (Milano, Bagatini, Perin & Barros, 2026, Journal of Advertising Research)."
+    a: "It made them more productive, not more creative. Trained users produced roughly double the ideas, but the line they chose was rated no better than those of colleagues without AI (Milano, Bagatini, Perin & Barros, 2026)."
   - q: "Is giving staff access to an AI tool enough?"
     a: "No. In this experiment, people with the chatbot but no training performed no better than people without it."
   - q: "What did the prompt training cover?"

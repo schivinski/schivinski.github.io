@@ -159,7 +159,7 @@ limits:
 
 faq:
   - q: "Can AI replace survey respondents in a conjoint study?"
-    a: "Not safely. In this study AI-generated choices differed from real ones in consistent ways, and pooling them with real answers often made estimates worse (Wang, Zhang & Zhang, 2026, Marketing Science)."
+    a: "Not safely. In this study AI-generated choices differed from real ones in consistent ways, and pooling them with real answers often made estimates worse (Wang, Zhang & Zhang, 2026)."
   - q: "Do better prompts fix AI survey answers?"
     a: "Not reliably. Step-by-step reasoning prompts often widened the gap, perhaps because the model became too rational. Examples and fine-tuning helped somewhat, though neither closed the gap."
   - q: "How does the correction method work?"
