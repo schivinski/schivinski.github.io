@@ -287,3 +287,12 @@ def test_handler_switches(monkeypatch):
     assert ses.sent[-1]["ListManagementOptions"]["ContactListName"] == "marketing-in-3"
     monkeypatch.setattr(sender, "fetch_email", lambda: {"issue": None})
     assert sender.handler({})["result"] == "no issue this week"
+
+
+def test_no_readers_does_not_use_up_the_issue():
+    db, ses = FakeDB(), FakeSES()
+    m = email()
+    assert sender.send_issue(db, ses, m)["result"] == "no readers yet"
+    assert (f"sent#{m['issue']}", "-") not in db.items
+    ses.contacts["first@x.co"] = {"EmailAddress": "first@x.co", "UnsubscribeAll": False}
+    assert sender.send_issue(db, ses, m)["sent"] == 1

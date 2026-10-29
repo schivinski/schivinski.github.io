@@ -1,4 +1,4 @@
-"""Marketing in 3 weekly sender (AWS Lambda, run every hour by an EventBridge rule).
+"""Marketing in 3 issue sender (AWS Lambda, run every hour by an EventBridge rule).
 
 The site build publishes this week's email, ready to send, at https://schivinski.com/watch/email/latest.json
 (newsletter/send_issue.py --export). This function reads it and, if it holds an issue that has not been emailed
@@ -102,10 +102,13 @@ def claim(db, issue: int, slug: str) -> str | None:
 def send_issue(db, ses, m: dict, time_left=lambda: 10 ** 9) -> dict:
     issue = int(m["issue"])
     key = {"pk": {"S": f"sent#{issue}"}, "sk": {"S": "-"}}
+    everyone = subscribers(ses)
+    if not everyone:     # nobody yet: do not use the issue up, so the first readers still get it
+        return {"issue": issue, "result": "no readers yet"}
     after = claim(db, issue, m.get("slug", ""))
     if after is None:
         return {"issue": issue, "result": "already sent or in progress"}
-    people = [p for p in subscribers(ses) if p > after]
+    people = [p for p in everyone if p > after]
     gap = 1.0 / MAX_PER_SECOND
     sent = failed = 0
     last = after

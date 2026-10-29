@@ -244,7 +244,7 @@ EMAIL_MSGS = {
     "error": "Something went wrong. Please try again in a moment.",
     "undeliverable": "That address cannot receive email from us. Please try another one.",
     "confirming": "Confirming your subscription…",
-    "ok": "You are subscribed. The next issue arrives in your inbox on Monday.",
+    "ok": "You are subscribed. The next issue arrives in your inbox on Monday or Thursday, whichever comes first.",
     "expired": "This confirmation link has expired or was already used. Enter your address again for a fresh one.",
 }
 

@@ -42,8 +42,9 @@ HASH_SALT = os.environ.get("HASH_SALT", "")
 
 SUBSCRIBE_PAGE = f"{SITE_URL}/watch/subscribe.html"
 # The wording readers agree to, recorded with each consent. Change the version when the form text changes.
-CONSENT_VERSION = "2026-10-22"
-CONSENT_TEXT = ("Send me Marketing in 3 by email, one issue a week. My address is used only for this, "
+CONSENT_VERSION = "2026-10-30"
+CONSENT_TEXT = ("Send me Marketing in 3 by email, new issues every Monday and Thursday. My address is used "
+                "only for this, "
                 "and I can unsubscribe from any issue.")
 
 TOKEN_TTL = 48 * 3600
