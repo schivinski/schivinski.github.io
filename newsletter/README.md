@@ -32,9 +32,8 @@ speed). Bruno's private address appears nowhere: tests go to issues@marketingin3
 
 ## Production access
 
-Requested 22 Oct 2026 (case 179264342000179) and denied, most likely because marketingin3.com was not yet verified.
-A new request through the API is refused while that case stands (ConflictException), so the reply goes on the case
-in the AWS Support Center. Until approved, SES only sends to addresses @marketingin3.com, so the forms stay hidden.
+Granted 30 Oct 2026 (case 179264342000179): up to 50,000 emails a day, 14 a second. Forms and sending switched on
+the same day. The first request was held for more information on 22 Oct and answered by Bruno on 24 Oct.
 
 ## Day to day
 

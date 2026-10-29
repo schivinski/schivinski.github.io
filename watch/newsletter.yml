@@ -6,8 +6,8 @@
 #                     /watch/email/latest.json, and the sender in AWS checks it every hour.
 # Sender address, test address and sending speed are set in AWS (newsletter/aws/stack.yml).
 
-endpoint: ""                 # signup function URL (deploy.sh prints it), e.g. https://xxxx.lambda-url.ap-southeast-2.on.aws/
-send: false                  # false = nothing goes to the list (test emails still work)
+endpoint: "https://qewbdm3gpjxh42mawu5n6ac37m0hlcgm.lambda-url.ap-southeast-2.on.aws/"   # signup function URL (deploy.sh prints it), e.g. https://xxxx.lambda-url.ap-southeast-2.on.aws/
+send: true                   # false = nothing goes to the list (test emails still work)
 
 # An issue is emailed only if its "week of" date is the current week (Melbourne time), so issues filled in for
 # earlier weeks never go out by email. Each issue is sent once (recorded in AWS).
