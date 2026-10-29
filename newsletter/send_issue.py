@@ -106,9 +106,9 @@ def build_email(d: dict, unsubscribe: str = "{{amazonSESUnsubscribeUrl}}") -> tu
 <div style="display:none;max-height:0;overflow:hidden;opacity:0;">{e(pre)}&#8199;&#65279;&#847; &#8199;&#65279;&#847; &#8199;&#65279;&#847;</div>
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{PAPER};"><tr><td align="center" style="padding:24px 12px;">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;background:#ffffff;border-radius:10px;overflow:hidden;">
-<tr><td class="px" style="background:{INK};padding:18px 32px;">
+<tr><td class="px" bgcolor="{INK}" style="background:{INK};padding:18px 32px;">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-  <td class="hd" style="font-family:{SERIF};font-size:21px;font-weight:600;color:#ffffff;white-space:nowrap;"><a href="{e(SITE)}/watch/?utm_source=marketing-in-3&amp;utm_medium=email" style="color:#ffffff;text-decoration:none;">Marketing <span style="color:{AMBER};">in 3</span></a></td>
+  <td class="hd" style="white-space:nowrap;"><a href="{e(SITE)}/watch/?utm_source=marketing-in-3&amp;utm_medium=email" style="display:inline-block;background:#d71920;color:#ffffff;font-family:{SANS};font-size:18px;font-weight:700;line-height:1;text-decoration:none;padding:9px 14px;">Marketing in 3</a></td>
   <td class="hd hk" align="right" style="font-family:{SANS};font-size:12px;color:#c9cfdb;">{e(kicker)}</td></tr></table>
 </td></tr>
 <tr><td><a href="{e(url)}"><img src="{SITE}/watch/images/{e(img['og'])}" width="600" alt="{e(img['alt'])}" style="display:block;width:100%;max-width:600px;height:auto;border:0;"></a></td></tr>

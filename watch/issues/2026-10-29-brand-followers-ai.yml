@@ -158,15 +158,15 @@ faq:
     a: "Yes. The brand equity and engagement items are listed on the paper page, together with a free copy of the accepted manuscript."
 
 also:
-  - doi: "10.1007/s11747-026-01198-6"
-    title: "Introducing the special issue on influencer marketing with extension into synthetic word of mouth: How AI shapes the future of influencer marketing"
-    authors: "Haenlein, Kannan, Muller, & Wahid"
+  - doi: "10.1007/s11747-026-01151-7"
+    title: "Free and paid word-of-mouth from physical to digital, AI and beyond"
+    authors: "Pauwels & Aksehirli"
     journal: "Journal of the Academy of Marketing Science"
     year: 2026
     text: >-
-      A conceptual paper on synthetic word of mouth, where AI helps create, carry, judge or act on what people say about products. It maps
-      AI onto source, message, channel and receiver, and proposes how far consumers perceive a recommendation as machine-made, from its story
-      and voice to its appearance.
+      A review that updates a well-known study of free word of mouth by setting it beside paid word of mouth, and online talk beside offline
+      talk. It turns fifteen years of research into seven practical questions, from who and why to metrics and methods, and notes where AI and
+      virtual environments change the picture.
   - doi: "10.1108/jrim-04-2026-0303"
     title: "Can AI outperform humans on Instagram? Evidence from engagement and growth metrics"
     authors: "Freitas"

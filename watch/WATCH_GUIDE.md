@@ -192,3 +192,8 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 - Issue 43 (29 October 2026) is a deliberate one-off: its scheduled run sends the template as a test to Bruno's own
   work address only, set up on his instruction of 27 October 2026, before this rule. No co-authors are emailed.
 - First issue under the rule: issue 52 (Thursday 3 December 2026, Leite, Pontes & Schivinski, JTTM), preloaded as a draft.
+
+## Author thank-you email design (Bruno, 29 October 2026)
+- The author thank-you matches the subscriber email: HTML in the same design, built with `python newsletter/author_email.py --issue N
+  --salutation "Professor Surname"` (the wording stays as in project doc claude/mkt3-author-thankyou-template.md). Send it from
+  hello@marketingin3.com through a Gmail draft opened in Chrome. Check the real addresses in To and Cc before sending.
