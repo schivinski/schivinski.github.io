@@ -98,7 +98,7 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   NEVER add the journal name inside the brackets (it had crept into the FAQ citations of issues 14 to 53; all removed on
   29 October 2026). The journal is already named in the title block, the paper details and the Source reference.
 - Issue 43 no longer carries the "I'm Bruno Schivinski, and I ran the study at ..." introduction (removed 29 October 2026:
-  "we are assuming that people know me"). Whether the shorter disclosure lines in drafts 52 and 53 go too is for Bruno to say.
+  "we are assuming that people know me"). Bruno confirmed (29 Oct 2026) that the shorter disclosure lines in drafts 52 and 53 go too: no "A note first: this paper is mine" line, only the authors named with their universities.
 
 ## Authors' names link to ORCID; external links open in a new tab (Bruno, 18 October 2026)
 - **No new byline or author section** (Bruno: the issue does not grow). The text stays as before: authors named where
@@ -159,7 +159,7 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 
 ## Bruno's own papers, older work (Bruno, 26 October 2026)
 - When an issue covers one of Bruno's own papers that is not new, it keeps the template but is written in his first person,
-  with a disclosure line in the opening ("this issue covers my own paper"), and adds one personal, reflective section on
+  with no disclosure line in the opening (Bruno, 29 Oct 2026; the authors are still named with universities), and adds one personal, reflective section on
   what the findings mean today (first used in issue 43: "Why I think this matters more in the age of AI"). Keep opinions
   clearly his view, not findings, and never invent anecdotes or facts about his life.
 - The "Ready. Set. Market." steps follow the paper's published pathways (for issue 43, the branches of the decision tree).

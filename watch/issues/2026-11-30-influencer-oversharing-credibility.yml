@@ -1,7 +1,7 @@
 # Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
 # Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
 # Bruno's own paper (co-authored, JTTM 2024), preloaded 28 Oct 2026 from the Publications chat on Bruno's instruction:
-# written in his first person with a disclosure line and one reflective section (guide: "Bruno's own papers").
+# written in his first person with one reflective section (guide: "Bruno's own papers").
 # NO author thank-you email for this issue (Bruno, 28 Oct 2026: never email authors when the paper is his or co-authored
 # by him). Paper page: influencer-intimate-self-disclosure-credibility (live).
 issue: 52
@@ -68,8 +68,8 @@ paper:
 sections:
   - h: "What we did"
     body: |
-      A note first: this issue covers a paper I co-wrote. Fernanda Polli Leite and Nicolas Pontes of the University of
-      Queensland Business School led it, and I took part from RMIT University in Melbourne.
+      Fernanda Polli Leite and Nicolas Pontes of the University of Queensland Business School led this study, and I took
+      part from RMIT University in Melbourne.
 
       Travel influencers often share more than tips. They talk about who they met, what a place meant to them and moments
       most people would keep private. Earlier work had found that this kind of openness can make followers feel closer to a

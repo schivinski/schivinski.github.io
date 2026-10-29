@@ -1,7 +1,7 @@
 # Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
 # Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
 # Bruno's own paper (co-authored, JPBM 2026), queued 28 Oct 2026 from the Marketing in 3 chat on Bruno's instruction:
-# "straight after the Leite issue". Written in his first person with a disclosure line and one reflective section
+# "straight after the Leite issue". Written in his first person with one reflective section
 # (guide: "Bruno's own papers"). NO author thank-you email for this issue (Bruno, 28 Oct 2026: never email authors when
 # the paper is his or co-authored by him). Paper page: city-branding-cool-factor (live).
 issue: 53
@@ -77,10 +77,9 @@ paper:
 sections:
   - h: "What we did"
     body: |
-      A note first: this issue covers a paper I co-wrote, and I am its first author. The team was Xiufang (Leah) Li and
-      Abdullah M. Alahmari of RMIT University in Melbourne, where I was based at the time, Quynh Phuong Nguyen of Foreign
-      Trade University in Hanoi and Gdańsk University of Technology, Barbara Czarnecka of London South Bank University and
-      Sandra Maria Correira Loureiro of ISCTE-IUL in Lisbon.
+      The team was Xiufang (Leah) Li and Abdullah M. Alahmari of RMIT University in Melbourne, where I was based at the
+      time, Quynh Phuong Nguyen of Foreign Trade University in Hanoi and Gdańsk University of Technology, Barbara
+      Czarnecka of London South Bank University and Sandra Maria Correira Loureiro of ISCTE-IUL in Lisbon.
 
       Cities now compete like brands, and residents are part of the audience. They look at their city's posts, take photos
       of it and tell others what it is like. We wanted to know why some residents lean in and others scroll past. Our idea
