@@ -494,7 +494,6 @@ def render_credentials(pubs: list[dict]) -> str:
     si_rows = [
         ("1.8", "Digital Marketing and Social Media", "Lifetime", 744, 42164),
         ("2.8", "Consumer Behavior in Brand Consumption and Identification", "Lifetime", 740, 26469),
-        ("11.9", "Consumer Behavior in Brand Consumption and Identification", "2021–2025", 871, 7364),
         ("16.5", "Marketing and Advertising Strategies", "Lifetime", 580, 3530),
     ]
     rows = "".join(
@@ -508,7 +507,7 @@ def render_credentials(pubs: list[dict]) -> str:
         '<li class="si"><div class="si-head">'
         '<img src="assets/logos/scholarly-index-top1000.svg" alt="Scholarly Index Top1000 Scholar" height="38">'
         f'<a href="{si_profile}">View profile ↗</a></div>'
-        '<p class="si-lede">World top 1,000 in four marketing research rankings</p>'
+        '<p class="si-lede">World top 1,000 in three marketing research rankings</p>'
         f'<ul class="si-rows">{rows}</ul>'
         '<p class="si-foot">World rank and percentile among scholars in each research topic. '
         "Scholarly Index, 2026 edition.</p></li></ul>\n```\n")
