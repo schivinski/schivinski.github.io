@@ -58,6 +58,10 @@ paper:
       affiliation: "Faculty of Economics and Business Administration, Friedrich Schiller University Jena, Jena, Germany"
     - name: "Mattis Hartwig"
       affiliation: "Deutsches Forschungszentrum für Künstliche Intelligenz GmbH (DFKI), Lübeck, Germany"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level: 2
+    studies: 3
+    basis: "Three studies on two data sources: two analyses of 28,900 platform reviews (Studies 1-2) and one online experiment with 1,063 participants (Study 3)"
 
 sections:
   - h: "What the researchers did"

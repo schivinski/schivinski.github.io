@@ -64,6 +64,10 @@ paper:
     - name: "Bruno Schivinski"
       affiliation: "School of Media and Communication, RMIT University, Melbourne, VIC, Australia"
       orcid: "0000-0002-4095-1922"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level: 1
+    studies: 1
+    basis: "One online between-subjects experiment with 212 US social media users on MTurk (Bruno's co-authored paper)"
 
 sections:
   - h: "What we did"

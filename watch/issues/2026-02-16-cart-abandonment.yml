@@ -60,6 +60,10 @@ paper:
     - name: "Yaniv Shani"
       affiliation: "Coller School of Management, Tel Aviv University, Israel"
       orcid: "0000-0001-8777-8162"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level: 2
+    studies: 6
+    basis: "Six studies: two large-scale field datasets of shopping carts (1A, 1B) and four controlled experiments (2, 3, 4A, 4B)"
 
 sections:
   - h: "What the researchers did"

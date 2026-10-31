@@ -52,6 +52,10 @@ paper:
     - name: "Dante Donati"
       affiliation: "Columbia Business School, New York"
       orcid: "0000-0001-9661-7299"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level: 1
+    studies: 1
+    basis: "One natural-experiment dataset linking monthly Tripadvisor data to Social Security records for restaurants in Rome (around the 2017 EU roaming-charge abolition), with a search model"
 
 sections:
   - h: "What the researcher did"

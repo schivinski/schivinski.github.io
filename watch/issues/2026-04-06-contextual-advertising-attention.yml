@@ -54,6 +54,10 @@ paper:
     - name: "Michel Wedel"
       orcid: "0000-0002-1244-4923"
     - name: "Rik Pieters"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level:
+    studies: 3
+    basis: "FLAG: methods paper (the AdGazer machine-learning tool). Its tests use three datasets: a main eye-tracking database of 3,531 display ads, a holdout test on 55 out-of-distribution ads and a controlled follow-up eye-tracking experiment (175 consumers, 24 new ads). If treated as empirical, it would be level 2."
 
 sections:
   - h: "What the researchers did"

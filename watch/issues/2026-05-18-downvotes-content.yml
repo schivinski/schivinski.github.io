@@ -56,6 +56,10 @@ paper:
       orcid: "0000-0001-6607-0608"
     - name: "S. Sriram"
       orcid: "0000-0003-3561-9420"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level: 1
+    studies: 1
+    basis: "One archival Reddit dataset: posting histories of users from 50 random subreddits (about 1.9 million comments)"
 
 sections:
   - h: "What the researchers did"

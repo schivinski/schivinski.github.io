@@ -386,6 +386,21 @@ details.table-block[open] summary { margin-bottom: .6rem; }
 .mw-answer { background: $surface; border-left: 4px solid $amber; border-radius: 0 8px 8px 0; padding: 1.1rem 1.4rem; margin: 0 0 2rem; }
 .mw-answer h2 { font-size: 1.05rem; font-family: $font-family-sans-serif; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; color: $muted; margin: 0 0 .4rem; }
 .mw-answer p { font-family: $headings-font-family; font-size: 1.3rem; line-height: 1.5; color: $ink; margin: 0; }
+/* Evidence level column inside the short answer (Bruno, 31 Oct 2026; layout D). Not an <aside>: Quarto moves asides into the margin. */
+.mw-ans-grid { display: grid; grid-template-columns: minmax(0, 1fr) 10.5rem; gap: 1.4rem; align-items: start; }
+.mw-ev { border-left: 1px solid #dde1e8; padding-left: 1.2rem; }
+.mw-ev .ev-k { display: block; font-size: .72rem; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: #5b6476; margin-bottom: .4rem; }
+.mw-ev ol { list-style: none; margin: 0; padding: 0; display: grid; gap: .25rem; }
+.mw-ev li { display: flex; align-items: center; gap: .45rem; font-size: .84rem; color: #8a92a3; white-space: nowrap; }
+.mw-ev .ev-s { font-size: .85rem; letter-spacing: .06em; }
+.mw-ev .ev-s b { color: #b9bfcb; font-weight: 400; }
+.mw-ev .ev-s i { color: #d3d8e1; font-style: normal; }
+.mw-ev li.on { color: #15203b; font-weight: 600; }
+.mw-ev li.on .ev-s b { color: #e0a12a; }
+@media (max-width: 640px) {
+  .mw-ans-grid { grid-template-columns: minmax(0, 1fr); }
+  .mw-ev { border-left: 0; border-top: 1px solid #dde1e8; padding: .8rem 0 0; }
+}
 .mw-takeaways { margin: 0 0 2.4rem; }
 .mw-takeaways ul { padding-left: 1.1rem; }
 .mw-takeaways li { margin-bottom: .55rem; }

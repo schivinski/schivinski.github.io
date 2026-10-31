@@ -58,6 +58,10 @@ paper:
     - name: "Shrihari Sridhar"
       affiliation: "Texas A&M University"
       orcid: "0000-0002-6612-1871"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level:
+    studies: 0
+    basis: "FLAG: conceptual paper with no data; it proposes the B2A2C exchange structure and the CARMA theory with eight propositions"
 
 sections:
   - h: "What the researchers did"

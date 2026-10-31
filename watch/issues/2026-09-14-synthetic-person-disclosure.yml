@@ -55,6 +55,10 @@ paper:
       affiliation: "Ariel University"
     - name: "Shalom Levy"
       affiliation: "Ariel University"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level: 1
+    studies: 1
+    basis: "One online experiment (N = 606) with a brand Instagram post under no, generic or detailed AI disclosure"
 
 sections:
   - h: "What the researchers did"

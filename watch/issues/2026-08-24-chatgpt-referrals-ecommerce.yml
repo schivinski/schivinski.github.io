@@ -56,6 +56,10 @@ paper:
     - name: "Christian Schulze"
       affiliation: "Frankfurt School of Finance & Management, Germany"
       orcid: "0000-0001-5731-4068"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level: 1
+    studies: 1
+    basis: "One archival dataset: 12 months of first-party Google Analytics data from 973 e-commerce websites (over 50,000 ChatGPT-referred and 164 million other transactions)"
 
 sections:
   - h: "What the researchers did"

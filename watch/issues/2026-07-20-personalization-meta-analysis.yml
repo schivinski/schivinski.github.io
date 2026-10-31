@@ -59,6 +59,10 @@ paper:
     - name: "Guda van Noort"
       affiliation: "University of Amsterdam"
       orcid: "0000-0002-6314-1455"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level: 3
+    studies: 290
+    basis: "Meta-analysis pooling 1,536 effect sizes from 290 studies in 229 papers"
 
 sections:
   - h: "What the researchers did"

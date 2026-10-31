@@ -57,6 +57,10 @@ paper:
     - name: "Mohamad Soltani"
       affiliation: "Alberta School of Business, University of Alberta, Canada"
       orcid: "0000-0002-7189-625X"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level: 2
+    studies: 8
+    basis: "A pilot experiment, a coded sample of 500 Google Local responses, and six online experiments (1a, 1b, 2-5)"
 
 sections:
   - h: "What the researchers did"

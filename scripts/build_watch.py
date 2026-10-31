@@ -503,6 +503,28 @@ def person_ld(r) -> dict:
     return out
 
 
+EVIDENCE_LEVELS = (("One study", 1), ("Several studies", 2), ("Meta-analysis", 3))
+
+
+def answer_html(answer: str, ev) -> str:
+    """The short answer card. When paper.evidence.level is set (1, 2 or 3; Bruno, 31 Oct 2026), a small
+    'Evidence level' column sits beside the answer with the issue's level lit and the others greyed out.
+    Flagged papers (conceptual, method, editorial) leave level empty and get no column."""
+    head = '<section class="mw-answer" aria-label="Short answer"><h2>The short answer</h2>'
+    level = (ev or {}).get("level")
+    if level not in (1, 2, 3):
+        return f"{head}<p>{answer}</p></section>"
+    label = EVIDENCE_LEVELS[level - 1][0]
+    items = ""
+    for name, n in EVIDENCE_LEVELS:
+        stars = "".join("<b>★</b>" if i < n else "<i>★</i>" for i in range(3))
+        cls = ' class="on"' if n == level else ""
+        items += f'<li{cls}><span class="ev-s" aria-hidden="true">{stars}</span>{name}</li>'
+    col = (f'<div class="mw-ev" role="note" aria-label="Evidence level: {level} of 3 stars, {label.lower()}">'
+           f'<span class="ev-k">Evidence level</span><ol>{items}</ol></div>')
+    return f'{head}<div class="mw-ans-grid"><p>{answer}</p>{col}</div></section>'
+
+
 def body(d: dict, prev_next: tuple, data: list) -> str:
     p = d["paper"]
     img = d["image"]
@@ -510,7 +532,7 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
     cites = d["issue"] == 41   # Bruno, 19 Oct 2026: citations are plain (DOI link only); issue 41 was left as published
     out = [f'<p class="mw-kicker">Marketing in 3 · Issue {d["issue"]} · {dateline(d)}</p>',
            f'<figure class="mw-hero">{hero_html(img)}<figcaption>{esc(img["caption"])}</figcaption></figure>',
-           f'<section class="mw-answer" aria-label="Short answer"><h2>The short answer</h2><p>{link_names(md(d["short_answer"]), p, used, cites=cites)}</p></section>',
+           answer_html(link_names(md(d["short_answer"]), p, used, cites=cites), p.get("evidence")),
            '<section class="mw-takeaways"><h2>Key takeaways</h2><ul>'
            + "".join(f"<li>{md(t)}</li>" for t in d["takeaways"]) + "</ul></section>"]
     charts = d.get("charts", {})

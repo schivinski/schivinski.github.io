@@ -63,6 +63,10 @@ paper:
     - name: "Christian Montag"
       affiliation: "Centre for Cognitive and Brain Sciences, Institute of Collaborative Innovation, University of Macau, Macau SAR, China; Department of Computer and Information Science, Faculty of Science and Technology, University of Macau, Macau SAR, China"
       orcid: "0000-0001-8112-0837"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level: 1
+    studies: 1
+    basis: "One cross-sectional online survey of 116,047 gamers (Bruno's co-authored paper)"
 
 sections:
   - h: "What the researchers did"

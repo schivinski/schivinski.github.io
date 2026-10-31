@@ -54,6 +54,10 @@ paper:
     - name: "Shiri Melumad"
       affiliation: "The Wharton School, University of Pennsylvania, USA"
       orcid: "0000-0003-0104-6003"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level: 2
+    studies: 6
+    basis: "Six studies (1, 2, 3a, 3b, 4a, 4b): online experiments, an observational lab study, and field analyses of Amazon and Yelp reviews (669,937 reviews)"
 
 sections:
   - h: "What the researchers did"

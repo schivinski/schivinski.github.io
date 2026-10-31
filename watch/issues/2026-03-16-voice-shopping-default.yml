@@ -57,6 +57,10 @@ paper:
     - name: "Andreina Mandelli"
     - name: "René Algesheimer"
       orcid: "0000-0002-3293-7928"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level: 1
+    studies: 1
+    basis: "One single-session online experiment (n = 484) with a custom Alexa shopping app"
 
 sections:
   - h: "What the researchers did"

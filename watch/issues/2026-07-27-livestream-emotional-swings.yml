@@ -60,6 +60,10 @@ paper:
     - name: "Di Wang"
       affiliation: "School of Advertising, Marketing & PR, Faculty of Business & Law, Queensland University of Technology, Brisbane City, QLD, Australia"
       orcid: "0000-0002-2116-4018"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level: 1
+    studies: 1
+    basis: "One livestream dataset from Douyin: 1,308 livestreams, 12,949 product pitches, 80,600 minute-level observations"
 
 sections:
   - h: "What the researchers did"

@@ -61,6 +61,10 @@ paper:
     - name: "Florian Stahl"
       affiliation: "Mannheim Business School, University of Mannheim, Germany"
       orcid: "0000-0002-2846-3424"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level: 2
+    studies: 6
+    basis: "A main analysis of 400 million reviews on 33 platforms, then five solicitation studies: three archival subsets, a longitudinal Prolific experiment and a preregistered field experiment"
 
 sections:
   - h: "What the researchers did"

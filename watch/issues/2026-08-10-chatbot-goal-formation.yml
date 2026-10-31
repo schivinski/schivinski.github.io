@@ -57,6 +57,10 @@ paper:
       affiliation: "Economics and Management School Wuhan University Wuhan China"
     - name: "Xiaodong Xie"
       affiliation: "Economics and Management School Wuhan University Wuhan China"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+    level: 2
+    studies: 5
+    basis: "Five studies (1a, 1b, 2, 3, 4): a study of real interactions with high- and low-personalization chatbots, a chatbot-choice study and three scenario experiments"
 
 sections:
   - h: "What the researchers did"
