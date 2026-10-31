@@ -49,7 +49,46 @@ SNIPPET = """<script id="__MARK__">
   if (saved === 'granted' || (!mustAsk && saved !== 'denied')) grant();
 
   gtag('js', new Date());
-  gtag('config', '__ID__', {allow_google_signals: false, allow_ad_personalization_signals: false});
+  var path = location.pathname;
+  var group = path === '/' || path === '/index.html' ? 'Home'
+    : /^\\/watch\\/posts\\//.test(path) ? 'Marketing in 3 issue'
+    : /^\\/watch\\/topics\\//.test(path) ? 'Marketing in 3 topic'
+    : /^\\/watch\\//.test(path) ? 'Marketing in 3'
+    : /^\\/papers\\//.test(path) ? 'Paper'
+    : /^\\/(mentoring|consultancy)/.test(path) ? 'Services'
+    : /^\\/teaching/.test(path) ? 'Teaching'
+    : /^\\/publications/.test(path) ? 'Publications'
+    : /^\\/privacy/.test(path) ? 'Privacy' : 'Other';
+  var cfg = {allow_google_signals: false, allow_ad_personalization_signals: false, content_group: group};
+  if (group === 'Marketing in 3 issue') {
+    try {
+      var ld = document.querySelectorAll('script[type="application/ld+json"]');
+      for (var i = 0; i < ld.length; i++) {
+        var j = JSON.parse(ld[i].textContent), g = j['@graph'] || [j];
+        for (var k = 0; k < g.length; k++) if (g[k]['@type'] === 'BlogPosting' && g[k].position) cfg.issue_number = String(g[k].position);
+      }
+      var t = document.querySelectorAll('.mw-more-topics a');
+      if (t.length) cfg.topic = Array.prototype.map.call(t, function (a) { return a.textContent.trim(); }).join(', ').slice(0, 100);
+    } catch (e) {}
+  }
+  gtag('config', '__ID__', cfg);
+
+  // Bridge used by the site's click and form handlers: the same event labels GoatCounter gets are sent to GA4
+  // as named events, so conversions (leads, sign-ups, support clicks) can be marked as key events there.
+  window.mwTrack = function (label) {
+    try {
+      var l = String(label || ''), i = l.indexOf('/'), head = i < 0 ? l : l.slice(0, i), rest = i < 0 ? '' : l.slice(i + 1);
+      if (head === 'form') gtag('event', 'generate_lead', {form_page: rest || '/'});
+      else if (head === 'email-confirmed') gtag('event', 'sign_up', {method: 'newsletter'});
+      else if (head === 'email-subscribe') gtag('event', 'newsletter_request');
+      else if (head === 'support') gtag('event', 'support_click');
+      else if (head === 'article') gtag('event', 'article_click', {doi: rest.slice(0, 100)});
+      else if (head === 'materials') gtag('event', 'materials_download', {file_name: rest.slice(0, 100)});
+      else if (head === 'copy') gtag('event', 'copy_text', {what: rest.split('/')[0]});
+      else if (head === 'feed') gtag('event', 'feed_click');
+      else if (head === 'share') gtag('event', 'share', {method: rest.split('/')[0]});
+    } catch (e) {}
+  };
   var s = document.createElement('script');
   s.async = true;
   s.src = 'https://www.googletagmanager.com/gtag/js?id=__ID__';

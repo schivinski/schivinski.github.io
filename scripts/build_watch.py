@@ -253,7 +253,7 @@ var M=%s;
 function ep(f){return f.getAttribute('action').replace(/\\/subscribe$/,'');}
 function say(f,k){var s=f.querySelector('.mw-email-status');if(!s)return;s.textContent=M[k]||M.error;
 s.className='mw-email-status is-'+(k==='ok'||k==='check'?'ok':(k==='confirming'?'wait':'bad'));}
-function gc(e){try{if(window.goatcounter&&goatcounter.count)goatcounter.count({path:e,title:e,event:true});}catch(x){}}
+function gc(e){try{if(window.mwTrack)window.mwTrack(e);}catch(x){}try{if(window.goatcounter&&goatcounter.count)goatcounter.count({path:e,title:e,event:true});}catch(x){}}
 document.querySelectorAll('form.mw-email').forEach(function(f){
 var src=f.querySelector('input[name=source]');if(src)src.value=location.pathname;
 f.addEventListener('submit',function(e){if(!window.fetch)return;e.preventDefault();

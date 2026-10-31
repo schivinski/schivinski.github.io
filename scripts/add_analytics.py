@@ -30,6 +30,7 @@ SNIPPET = """<script id="%(mark)s">
   document.head.appendChild(s);
 
   function send(path, title) {
+    if (window.mwTrack) window.mwTrack(path);
     if (window.goatcounter && window.goatcounter.count) {
       window.goatcounter.count({path: path, title: title || path, event: true});
     }

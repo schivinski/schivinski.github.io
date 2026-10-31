@@ -42,7 +42,7 @@ def build(d: dict, salutation: str) -> tuple[str, str, str]:
     paper = d["paper"]
     title, journal = paper["title"], paper["journal"]
     url = f"{SITE}/watch/posts/{d['slug']}/"
-    link = f"{url}?utm_source=marketing-in-3&utm_medium=author-email&utm_campaign=issue-{n}"
+    link = f"{url}?utm_source=marketing-in-3&utm_medium=email&utm_campaign=author-issue-{n}"
     img = d["image"]
     when = dateline(d)
     subject = "Your article is now featured in Marketing in 3"
@@ -77,7 +77,7 @@ def build(d: dict, salutation: str) -> tuple[str, str, str]:
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;background:#ffffff;border-radius:10px;overflow:hidden;">
 <tr><td class="px" bgcolor="{INK}" style="background:{INK};padding:18px 32px;">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-  <td class="hd" style="white-space:nowrap;"><a href="{e(SITE)}/watch/?utm_source=marketing-in-3&amp;utm_medium=author-email" style="display:inline-block;background:#d71920;color:#ffffff;font-family:{SANS};font-size:18px;font-weight:700;line-height:1;text-decoration:none;padding:9px 14px;">Marketing in 3</a></td>
+  <td class="hd" style="white-space:nowrap;"><a href="{e(SITE)}/watch/?utm_source=marketing-in-3&amp;utm_medium=email&amp;utm_campaign=author" style="display:inline-block;background:#d71920;color:#ffffff;font-family:{SANS};font-size:18px;font-weight:700;line-height:1;text-decoration:none;padding:9px 14px;">Marketing in 3</a></td>
   <td class="hd hk" align="right" style="font-family:{SANS};font-size:12px;color:#c9cfdb;">Issue {n} · {e(when)}</td></tr></table>
 </td></tr>
 <tr><td><a href="{e(link)}"><img src="{SITE}/watch/images/{e(img['og'])}" width="600" alt="{e(img['alt'])}" style="display:block;width:100%;max-width:600px;height:auto;border:0;"></a></td></tr>
@@ -99,7 +99,7 @@ def build(d: dict, salutation: str) -> tuple[str, str, str]:
 </td></tr>
 <tr><td class="px" style="background:{PAPER};padding:22px 32px 26px;font-family:{SANS};font-size:13px;line-height:1.6;color:{MUTED};">
   You are getting this one-off note because your article is featured in issue {n} of Marketing in 3. Reply to this email to reach me.<br>
-  <a href="{e(SITE)}/watch/?utm_source=marketing-in-3&amp;utm_medium=author-email" style="color:{MUTED};">All issues</a><br>
+  <a href="{e(SITE)}/watch/?utm_source=marketing-in-3&amp;utm_medium=email&amp;utm_campaign=author" style="color:{MUTED};">All issues</a><br>
   Marketing in 3 by Bruno Schivinski · <a href="{e(SITE)}/" style="color:{MUTED};">schivinski.com</a>
 </td></tr>
 </table></td></tr></table></body></html>

@@ -76,7 +76,7 @@ CSS = """<style id="mw-share-css">
 </style>"""
 
 JS = """<script id="mw-share-js">(function(){
-function count(p,t){try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:p,title:t||p,event:true});}catch(e){}}
+function count(p,t){try{if(window.mwTrack)window.mwTrack(p);}catch(e){}try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:p,title:t||p,event:true});}catch(e){}}
 var page=location.pathname.replace(/index\\.html$/,'').replace(/\\.html$/,'')||'/';
 document.querySelectorAll('.mw-share').forEach(function(box){
  var url=box.getAttribute('data-url'),title=box.getAttribute('data-title'),st=box.querySelector('.mw-share-status');
