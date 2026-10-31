@@ -124,6 +124,18 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 - The label describes the evidence base, not the quality of the paper. Never write "weak", "early" or similar about a paper
   or its authors.
 
+## Paper PDFs are kept in a private GitHub repo (Bruno, 31 October 2026)
+- Every paper PDF Bruno sends (issue papers, queued papers, his own papers for paper pages) is stored in the private repo
+  **schivinski/m3-papers**, so every run, including fresh cloud runs without the local files, can read the full paper.
+- The site repo (schivinski/schivinski.github.io) is public: never commit subscription PDFs to it. Only open-access
+  re-typeset manuscripts go in `papers/manuscripts/`, as before.
+- On receipt: save the PDF to `/home/claude/m3-queue/` with a `.txt` copy (`pdftotext -layout`), then copy it into the
+  m3-papers clone as `issues/issue-NN-<firstauthor>-<year>-<journal>.pdf` (or `papers/<author>-<year>-<journal>-<topic>.pdf`
+  for paper pages), add its row to `INDEX.md`, commit and push the same day. Keep the `.txt` backup in the Project docs
+  (`claude/m3-queue/`) as a fallback.
+- In a run: if the local PDF is missing, `git clone https://github.com/schivinski/m3-papers` (read access is attached to the
+  session) and read the paper from `issues/`.
+
 ## In-text citations are author and year only (Bruno, 29 October 2026)
 - Write in-text references as they appear in papers: "(Author, Year)", "(Author & Author, Year)" or "(Author et al., Year)".
   NEVER add the journal name inside the brackets (it had crept into the FAQ citations of issues 14 to 53; all removed on
