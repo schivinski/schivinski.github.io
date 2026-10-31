@@ -53,7 +53,7 @@ paper:
       orcid: "0000-0002-0223-8923"
     - name: "Sharon Ng"
       orcid: "0000-0003-0883-0167"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
     level: 2
     studies: 9
     basis: "Nine online and field experiments (1a-1c, 2, 3, 4, 5a, 5b, 6), including a real autonomous convenience store and a campus hotel (plus a supplementary study)"

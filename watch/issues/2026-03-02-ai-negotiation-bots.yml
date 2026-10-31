@@ -57,10 +57,10 @@ paper:
     - name: "Arnaud De Bruyn"
       affiliation: "ESSEC Business School, France"
       orcid: "0000-0002-4413-6167"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
-    level: 1
-    studies: 1
-    basis: "One incentive-aligned bargaining experiment on Prolific (1,019 players, 15,285 games); the bots were built and checked in simulations on existing lab data"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two studies, as the paper reports them: a simulation study testing five bot versions (trained on existing lab data) and an incentive-aligned bargaining experiment on Prolific (1,019 players)"
 
 sections:
   - h: "What the researchers did"

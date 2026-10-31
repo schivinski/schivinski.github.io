@@ -58,7 +58,7 @@ paper:
     - name: "Tammo H. A. Bijmolt"
       affiliation: "Department of Marketing, University of Groningen, Netherlands"
       orcid: "0000-0003-4941-5998"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
     level: 1
     studies: 1
     basis: "One agency dataset: 707 posts and 1,105 stories from 182 influencer campaigns, with model-based simulations"

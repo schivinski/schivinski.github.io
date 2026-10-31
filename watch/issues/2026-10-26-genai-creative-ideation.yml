@@ -58,7 +58,7 @@ paper:
     - name: "Lucia Salmonson Guimarães Barros"
       affiliation: "FGV EAESP, São Paulo School of Business Administration, Fundação Getulio Vargas, Brazil"
       orcid: "0000-0003-0960-0398"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
     level: 1
     studies: 1
     basis: "One field experiment with 98 advertising professionals at an agency (no GenAI, GenAI, GenAI after prompt training), outputs rated by five expert judges"

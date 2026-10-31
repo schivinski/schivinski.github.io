@@ -57,7 +57,7 @@ paper:
       orcid: "0000-0002-0473-0129"
     - name: "Caleb Warren"
       affiliation: "Eller College of Management, University of Arizona, USA"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
     level: 2
     studies: 3
     basis: "Three experiments: two online experiments (weight-loss medication shopping; music streaming) and a field experiment with skin-care ads"

@@ -62,7 +62,7 @@ paper:
     - name: "Inbal Stockheim"
       affiliation: "College of Law and Business"
       orcid: "0000-0002-3865-9615"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
     level: 2
     studies: 5
     basis: "Five experiments (Studies 1-5) in which people read real reviews and then used the product (plus supplemental studies in the web appendix)"

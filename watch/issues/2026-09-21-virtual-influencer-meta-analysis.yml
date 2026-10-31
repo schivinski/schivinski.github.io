@@ -59,7 +59,7 @@ paper:
     - name: "Alex Kulczynski"
       affiliation: "Newcastle Business School, The University of Newcastle, Newcastle, Australia"
       orcid: "0000-0002-7494-2215"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
     level: 3
     studies: 210
     basis: "Meta-analysis pooling 643 effect sizes from 210 independent experimental studies, with meta-analytic structural equation modelling"

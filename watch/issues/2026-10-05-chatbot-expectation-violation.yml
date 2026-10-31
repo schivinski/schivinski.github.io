@@ -59,7 +59,7 @@ paper:
     - name: "Willem Standaert"
       affiliation: "HEC Liège Management School, University of Liège, Belgium"
       orcid: "0000-0003-4756-8085"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
     level: 2
     studies: 2
     basis: "Two studies: a scenario-based survey (n = 238) and 36 qualitative interviews"

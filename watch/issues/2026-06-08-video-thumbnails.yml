@@ -61,7 +61,7 @@ paper:
       affiliation: "School of Economics and Management, University of Electronic Science and Technology of China, West Hi-Tech Zone, Chengdu, Sichuan, PR China"
     - name: "Lu Liu"
       affiliation: "Business School, Henan University, Kaifeng, Henan, PR China"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
     level: 2
     studies: 3
     basis: "A panel dataset of 22,958 video thumbnails from a UGV platform, plus two scenario-based randomised experiments (Studies 1 and 2)"

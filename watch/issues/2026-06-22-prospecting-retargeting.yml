@@ -56,7 +56,7 @@ paper:
     - name: "Jeffrey S. Larson"
     - name: "Jeffrey P. Dotson"
       orcid: "0000-0002-2782-4267"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
     level: 1
     studies: 1
     basis: "One large-scale geography-based field experiment on the Google and Facebook ad networks for a bed-in-a-box brand"

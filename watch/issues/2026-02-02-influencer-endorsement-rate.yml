@@ -53,7 +53,7 @@ paper:
       orcid: "0000-0002-0560-2014"
     - name: "Fine F. Leung"
       orcid: "0000-0002-7988-2944"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
     level: 2
     studies: 4
     basis: "Four studies: two field datasets (Instagram posts from nearly 5,000 influencers; five years of Douyin posts from 1,000 influencers) and two controlled experiments"

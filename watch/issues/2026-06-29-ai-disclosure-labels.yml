@@ -59,7 +59,7 @@ paper:
     - name: "Stephanie M. Tully"
       affiliation: "Marshall School of Business, University of Southern California, USA"
       orcid: "0000-0002-7179-7729"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
     level: 2
     studies: 9
     basis: "TikTok engagement data from before and after its AI-label policy (with content and comment analyses), plus eight preregistered experiments, two of them in the web appendix"

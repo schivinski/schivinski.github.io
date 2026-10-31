@@ -59,10 +59,10 @@ paper:
     - name: "Heng Zhang"
       affiliation: "Olin School of Business"
       orcid: "0000-0002-4544-775X"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
-    level:
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
     studies: 2
-    basis: "FLAG: method paper proposing a statistical estimator that combines LLM-generated and human conjoint data; it is validated on two existing conjoint datasets (COVID-19 vaccine preferences; sports car choices). If treated as empirical, it would be level 2."
+    basis: "Two empirical studies, as the paper reports them: conjoint data on COVID-19 vaccine preferences and on sports car choices (plus a synthetic-data study and further real-data tests as robustness)"
 
 sections:
   - h: "What the researchers did"

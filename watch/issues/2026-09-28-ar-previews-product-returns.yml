@@ -58,7 +58,7 @@ paper:
       orcid: "0000-0002-0556-4839"
     - name: "Ruolan Chen"
       affiliation: "Nottingham University Business School China, University of Nottingham Ningbo China, Ningbo, Zhejiang, China"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
     level: 2
     studies: 4
     basis: "Four experiments: one laboratory experiment and three online experiments (Studies 1-4)"

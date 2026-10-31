@@ -17,7 +17,7 @@ Issue 1 (`watch/issues/2026-01-12-generative-ai-ad-images.yml`) is the template:
    - `title`: the question a marketer would type into Google or ask an AI, plus the source ("What a Journal of Marketing study found").
    - `description`: 140–160 characters, with the headline number.
    - `short_answer`: 50–80 words that answer the title directly (this is what search and AI engines quote).
-   - `paper.evidence`: level (1 one study, 2 several studies, 3 meta-analysis, empty if flagged), number of studies and a
+   - `paper.evidence`: level (1 one study, 2 several studies, 3 meta-analysis, empty for conceptual, theoretical or editorial papers), number of studies and a
      one-line basis, counted from the paper's methods (see "Evidence level in the short answer" below).
    - `takeaways`: 4 bullets, each with a number.
    - `sections`: what they did (with a facts box), what they found, field evidence, the key practical insight; 1–3 charts.
@@ -101,7 +101,7 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   other two greyed out; on a phone it drops below the answer behind a thin rule.
   ```yaml
   evidence:
-    level: 2          # 1, 2 or 3; leave empty for a flagged paper (no column is shown)
+    level: 2          # 1, 2 or 3; leave empty for a conceptual, theoretical or editorial paper (no column is shown)
     studies: 4        # number of studies or datasets reported
     basis: "Four online experiments and one field study"   # one short line for Bruno's check; not shown on the page
   ```
@@ -110,13 +110,16 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   together as one study still count as one.
 - Level 2, Several studies: two or more distinct studies (Study 1, 2, 3...; lab plus field; separate datasets analysed as
   separate studies; a quantitative study plus a separate qualitative study). Studies reported only in a web appendix are
-  mentioned in `basis`; stimulus pretests and pilot checks are not counted as studies.
+  mentioned in `basis`; pretests and pilots that only check materials or questionnaire items are not counted as studies.
 - Level 3, Meta-analysis: a quantitative synthesis pooling many studies. A narrative or systematic review without pooled
   effects is not level 3.
-- Count the studies from the paper's methods, not from the abstract. In case of doubt, go back to the paper and check again.
-- Flag, do not guess: conceptual or framework papers with no data, method papers whose data only validate or demonstrate
-  the method, editorials, commentaries and reviews that are not meta-analyses get an empty `level` and
-  `basis: "FLAG: ..."`. Bruno decides these.
+- Count the studies as the paper reports them, from its methods, not from the abstract (Bruno, 31 Oct 2026: "if the
+  papers report 2 studies, whether simulation or not, we cannot downgrade what the authors said and peer-reviewers
+  endorsed"). A simulation study, a case study or a qualitative study that the paper presents as a study counts. Methods
+  papers are rated like any other paper. In case of doubt, go back to the paper and check again.
+- No level for theoretical, conceptual, editorial and similar papers with no data of their own (also commentaries and
+  reviews that are not meta-analyses): leave `level` empty and start `basis` with "No level: ...". The builder then shows no
+  column.
 - Bruno's own papers follow the same rules.
 - The label describes the evidence base, not the quality of the paper. Never write "weak", "early" or similar about a paper
   or its authors.

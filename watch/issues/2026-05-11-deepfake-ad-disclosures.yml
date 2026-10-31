@@ -57,7 +57,7 @@ paper:
     - name: "Martin Eisend"
       affiliation: "European University Viadrina; Copenhagen Business School"
       orcid: "0000-0003-2564-6417"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
     level: 2
     studies: 3
     basis: "Three online experiments testing simple and extended disclosures on deepfaked ads (Studies 1-3)"

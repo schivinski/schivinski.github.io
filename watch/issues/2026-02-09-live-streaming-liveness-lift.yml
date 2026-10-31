@@ -52,7 +52,7 @@ paper:
       orcid: "0000-0002-9928-8336"
     - name: "Alixandra Barasch"
     - name: "Adrian F. Ward"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
     level: 2
     studies: 5
     basis: "Five online experiments (1, 2, 3a, 3b, 4) comparing live and prerecorded amateur music streams"

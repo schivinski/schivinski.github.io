@@ -59,10 +59,10 @@ paper:
     - name: "Christian Hildebrand"
       affiliation: "Technology Marketing, ETH Zurich, Switzerland"
       orcid: "0000-0003-4366-3093"
-  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = flagged, no column shown
-    level:
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
     studies: 2
-    basis: "FLAG: method paper introducing the DICE feed-experiment tool; it demonstrates the tool with two illustrative case-study experiments on Prolific and adds expert interviews. If treated as an empirical paper, the two case studies would make it level 2."
+    basis: "Two illustrative case-study experiments on Prolific run with the DICE feed tool (a methods paper), plus expert interviews with marketing professionals"
 
 sections:
   - h: "What the researchers did"
