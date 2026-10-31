@@ -110,7 +110,7 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   together as one study still count as one.
 - Level 2, Several studies: two or more distinct studies (Study 1, 2, 3...; lab plus field; separate datasets analysed as
   separate studies; a quantitative study plus a separate qualitative study). Studies reported only in a web appendix are
-  mentioned in `basis`; pretests and pilots that only check materials or questionnaire items are not counted as studies.
+  mentioned in `basis`. Pilots are pretests, not studies (Bruno, 31 Oct 2026): never count a pilot or pretest.
 - Level 3, Meta-analysis: a quantitative synthesis pooling many studies. A narrative or systematic review without pooled
   effects is not level 3.
 - Count the studies as the paper reports them, from its methods, not from the abstract (Bruno, 31 Oct 2026: "if the
