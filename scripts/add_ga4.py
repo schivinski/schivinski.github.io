@@ -9,7 +9,8 @@ Supermetrics. Consent is handled per visitor:
     and no third-party geolocation call) are shown a banner and are counted only if they accept.
   * Everyone else has analytics_storage granted on load. They can opt out on /privacy.html, which
     clears the stored choice.
-  * The choice is remembered in localStorage under mw-consent-v1. Clearing it asks again.
+  * The choice is remembered in localStorage under mw-consent-v1. An explicit "denied" loads nothing at all.
+    Clearing it restores the default (ask in Europe, count elsewhere); /privacy.html has the controls.
   * Google Signals and ad personalisation stay off, so the data is never used for ad targeting.
   * It only loads on the live domain, so local previews and test builds are never counted.
 
@@ -41,6 +42,7 @@ SNIPPET = """<script id="__MARK__">
 
   var saved = null;
   try { saved = localStorage.getItem(KEY); } catch (e) {}
+  if (saved === 'denied') return;  // an explicit "no" loads nothing at all: no tag, no cookieless pings
   var tz = '';
   try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
   var mustAsk = tz.indexOf('Europe/') === 0;

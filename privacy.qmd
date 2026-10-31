@@ -22,7 +22,10 @@ possible to see how people move through the site. Google Signals and advertising
 so the data is never used to target ads at you. Event data is kept for 14 months and then deleted.
 
 ::: {.mw-consent-controls}
-<button type="button" class="m3-btn" id="consent-reset">Change my analytics choice</button>
+<p id="consent-state" aria-live="polite"></p>
+<button type="button" class="m3-btn" id="consent-off">Don't count my visits in Google Analytics</button>
+<button type="button" class="m3-btn" id="consent-on">Count my visits in Google Analytics</button>
+<button type="button" class="m3-btn" id="consent-reset">Forget my choice</button>
 :::
 
 ## Marketing in 3 by email
@@ -55,13 +58,20 @@ on request.
 ```{=html}
 <script>
 (function () {
-  var b = document.getElementById('consent-reset');
-  if (!b) return;
-  b.addEventListener('click', function () {
-    try { localStorage.removeItem('mw-consent-v1'); } catch (e) {}
-    b.textContent = 'Cleared. Reload the page to choose again.';
-    b.disabled = true;
-  });
+  var KEY = 'mw-consent-v1', st = document.getElementById('consent-state');
+  if (!st) return;
+  function get() { try { return localStorage.getItem(KEY); } catch (e) { return null; } }
+  function set(v) { try { if (v) localStorage.setItem(KEY, v); else localStorage.removeItem(KEY); } catch (e) {} show(); }
+  function show() {
+    var v = get();
+    st.textContent = v === 'denied' ? 'Your choice: not counted in Google Analytics on this browser.'
+      : v === 'granted' ? 'Your choice: counted in Google Analytics on this browser.'
+      : 'No choice saved yet on this browser. Reload the page after changing it.';
+  }
+  document.getElementById('consent-off').addEventListener('click', function () { set('denied'); });
+  document.getElementById('consent-on').addEventListener('click', function () { set('granted'); });
+  document.getElementById('consent-reset').addEventListener('click', function () { set(null); });
+  show();
 })();
 </script>
 ```
