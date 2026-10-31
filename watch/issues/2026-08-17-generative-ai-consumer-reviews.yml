@@ -55,9 +55,9 @@ paper:
       affiliation: "LMU Munich School of Management, Ludwig-Maximilians-Universität München, Munich, Germany"
       orcid: "0000-0003-4645-3913"
   evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
-    level: 1
-    studies: 1
-    basis: "One quasi-experiment: difference-in-differences on Tripadvisor reviews of 1,930 Italian hotels and 2,979 hotels elsewhere around Italy's four-week ChatGPT ban"
+    level: 2
+    studies: 2
+    basis: "Two studies: a difference-in-differences quasi-experiment on Tripadvisor reviews of 1,930 Italian and 2,979 other European hotels around Italy's ChatGPT ban, and an online consumer survey on Prolific (US N = 95, Italy N = 88)"
 
 sections:
   - h: "What the researchers did"
