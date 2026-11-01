@@ -1,0 +1,245 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 44
+week_of: "2026-11-02"            # the issue's own date (Monday)
+slug: returnless-partial-refunds
+status: live
+
+title: "Should online shops let customers keep a faulty item for part of their money back? What a Marketing Science field experiment with 853,521 shoppers found"
+dek: >-
+  Returns are expensive to ship, check and throw away. A huge experiment on a worldwide marketplace tested a third option
+  between a full refund and nothing: keep the item, get part of the price back, and let an AI decide the amount.
+short_title: "Keep it, get part back: returns that pay off later"
+
+description: >-
+  Fang et al. tested keep-it partial refunds on 853,521 online shoppers: the first return cost more, but later spending
+  left a net gain of $1.44 per customer.
+
+keywords: [product returns, returnless refunds, partial refunds, return policy, e-commerce returns, service recovery,
+  customer lifetime value, return fraud, refund abuse, AI customer service, reverse logistics, Marketing Science]
+topics: [Retail, Service, AI]
+
+image:
+  file: issue-44-returnless-refunds.jpg
+  og: issue-44-returnless-refunds-og.jpg
+  alt: "A smiling young woman in a denim jacket holds a small string-tied cardboard parcel and checks it with her phone, more parcels stacked behind her"
+  caption: "The parcel stays, part of the money comes back, and nobody queues at the post office. Photo: Rifki Kurniawan on Unsplash."
+
+short_answer: >-
+  Yes, if the refund is moderate. On a cross-border marketplace, 853,521 customers who started a return were split at random:
+  half could be offered part of their money back to keep the item, half got the usual return. Over the next month the offer was
+  worth $1.44 more per customer, mostly because those customers came back and spent more. Generous refunds cost money up front
+  and invited extra claims. About 41% of the price was the sweet spot.
+
+takeaways:
+  - "At the first return the platform paid out $0.63 more per customer and saved $0.35 on shipping and handling, so it was $0.28 down at that point."
+  - "Customers who could get the offer spent 2.2% more over the following 30 days, about $1.92 each, and the lift had not faded after 90 days."
+  - "Follow-up return requests rose by 15.5%, a sign that some customers tested how far the new option would go."
+  - "With refunds averaging half the price, the first return lost money. Cut to an average of 30%, it came out slightly ahead."
+
+paper:
+  doi: "10.1287/mksc.2025.0618"
+  title: "Returnless Partial Refunds: A Large-Scale Field Experiment in E-Commerce"
+  authors: ["Fang, L.", "Wu, C.", "Yuan, Z.", "Zhang, K."]
+  authors_full: ["Lu Fang", "Chunhua Wu", "Zhe Yuan", "Kaifu Zhang"]
+  year: 2026
+  journal: "Marketing Science"
+  online: "2026-09-23"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the paper (byline, affiliations and ORCID iDs on the first page)
+    - name: "Lu Fang"
+      affiliation: "School of Management, Zhejiang University of Finance and Economics, Hangzhou, China; Laboratory for Human-AI Collaboration and Digital Intelligence Innovation, Zhejiang University, Hangzhou, China"
+      orcid: "0009-0000-4184-4929"
+    - name: "Chunhua Wu"
+      affiliation: "UBC Sauder School of Business, The University of British Columbia, Vancouver, Canada"
+      orcid: "0000-0001-6445-8000"
+    - name: "Zhe Yuan"
+      affiliation: "Center for Research of Private Economy, School of Economics, Zhejiang University, Hangzhou, China"
+      orcid: "0000-0002-7502-9102"
+    - name: "Kaifu Zhang"
+      affiliation: "Partner Company"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One randomised field experiment with 853,521 customers on a cross-border e-commerce platform"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Lu Fang of Zhejiang University of Finance and Economics, Chunhua Wu of the University of British Columbia's Sauder School of
+      Business, Zhe Yuan of Zhejiang University and Kaifu Zhang, who works at the partner platform, wanted to put a price on a
+      return option that big retailers are starting to try. Instead of a full refund after the item comes back, or a full refund
+      for cheap items that never come back, the customer keeps the product and gets part of the money back.
+
+      They ran the test on a cross-border shopping site that sells in more than 100 countries. Before the test, only items under
+      about $10 could be refunded without being sent back, and those got their money back in full. The new option covered dearer
+      items too and paid a share of the price that depended on the complaint and the evidence.
+
+      Each customer was placed in a group before the experiment began. When someone in the test group asked to return an item for
+      a reason that could be checked, such as damage or a wrong colour, three AI agents read the message, looked at the photos or
+      video, and either made an offer or sent the case down the normal route. Customers could take the offer or ship the item back.
+      They could not haggle. The platform also made the offers less generous partway through, which let the team see what
+      the refund level itself does.
+    facts:
+      - ["Customers", "853,521 people who started a return between August 2024 and January 2025"]
+      - ["Groups", "425,578 could receive a keep-it offer; 427,943 had only the usual return"]
+      - ["Products", "The platform's own stock: lifestyle, fashion and small electronics, about $27 per item on average"]
+      - ["Offers", "Fixed shares of the price set by complaint type and severity, averaging 50% in the first phase and 30% in the second"]
+      - ["Not included", "Change-of-mind returns such as \"no longer needed\", which an AI cannot check against evidence"]
+      - ["Tracking", "Each customer's spending and returns for up to 90 days after the first request"]
+
+  - h: "Who took the offer"
+    body: |
+      Between 60% and 70% of customers in the test group received an offer at their first return. The rest either sent unclear
+      evidence or had their claim turned down, and went through the normal process without knowing an AI had looked at it.
+
+      How people responded depended on the complaint. A crushed box or a scratch is easy to see and easy to accept, and around four
+      in ten of those offers were taken. Complaints about quality, style or a colour that looked different online were harder to
+      settle with money alone. Acceptance there was under three in ten. When the platform cut the average refund from about half
+      the price to under a third, acceptance dropped by roughly ten percentage points.
+
+      The new option mostly changed what happened to people who would otherwise have given up. Against the usual process, returns
+      ending with no refund at all dropped by 14.8 percentage points, and returns ending with a parcel sent back dropped by 6.8. That is why payouts went up: many people who would have walked away now took some money instead.
+    chart: accept
+
+  - h: "The first return costs money, the next month pays it back"
+    body: |
+      How generous the offer was decided whether the first return made or lost money. In the generous phase the platform was $0.90
+      per customer worse off at that point. In the leaner phase it came out $0.10 ahead, because the savings on shipping and checking
+      returned goods outweighed the small rise in payouts.
+
+      The bigger effect came later. People in the test group were 1.2% more likely to buy again within a month, placed 1.7%
+      more orders and bought from 1.6% more product categories. Within the group that received an offer, raising the refund by ten
+      percentage points was linked to about $1.20 more spending in the following month.
+
+      Put together, the platform gained in net terms, though the margin matters. Assuming a 35% gross margin, the profit gain was
+      about $0.19 per customer over 30 days, or $0.62 in the leaner phase. Over 90 days the net gain reached $4.41 per customer, about
+      $1.23 in profit. Fewer parcels also went back across borders: ship-backs fell by about 12%, which the authors equate to the
+      carbon soaked up by roughly 2,000 mature trees across the customers in the experiment.
+
+  - h: "Some customers started testing the system"
+    body: |
+      The rise in later return requests was not all goodwill. The AI's rules stayed fixed throughout, so any change in how often it
+      approved claims reflects the claims, not the judge. Approvals for follow-up requests slipped compared with first requests, and
+      the drop was biggest exactly where bending the truth is easiest and pays most: vague quality complaints, expensive items and
+      repeat claims made within a week.
+
+      A second clue came when the AI said no. Normally a genuine complaint is worth the effort of posting the item back. For high-priced
+      items, the share of rejected follow-up claims that ended in a parcel being sent back fell by 6.34 points, which looks
+      like people trying their luck and walking away when it failed. Returned orders rose by 4.3%, nearly twice the rise in spending.
+      More generous first offers made this probing more likely.
+    chart: probing
+
+  - h: "How generous should the refund be?"
+    body: |
+      The two phases let the team model what each refund level is worth. Judged only on the first return, the best average refund
+      would be just 6% of the price, and the option would stop beating a normal return above 36%. Once later spending is counted,
+      the best level rises to about 41%, and the option keeps beating a normal return all the way up to 90%. Both real phases, at
+      50% and 30%, sat inside the range where the scheme paid.
+
+      Scale was the other condition. A person needs about five minutes to weigh up a claim with photos. The three AI agents took
+      about five seconds, and the authors put the cost of doing the same work by hand for this sample alone at over half a million
+      dollars. So these results describe a refund rule and the AI that made it workable, tested together.
+    chart: level
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List where returns cost you most", "Pull last quarter's returns and, for each product line, write down the average item price next to what it costs you to get one back, check it and restock it. Mark every line where getting it back costs more than a third of what you can resell it for."]
+  - ["Decide what proof you will accept", "For each return reason on those lines, write one sentence on the evidence that settles it, such as a photo of the damage or a short video of the fault. Leave change-of-mind returns on the normal route."]
+  - ["Build a simple refund table", "Set a fixed share of the price for each reason and how bad the problem is. Start in the middle of your range, and pay less for complaints that are hard to verify, like style or quality, than for visible damage."]
+  - ["Make one clear offer", "Show the keep-it amount right beside the normal return option, in plain words, with one button for each. Do not let customers bargain, and keep the table the same for everyone in the trial."]
+  - ["Trial it on half your returners", "For eight weeks, give the option to a random half of customers who start a return and keep the other half on your usual process. Compare refunds, return costs and what both groups spend over the next 30 and 90 days."]
+  - ["Flag repeat claims early", "Each week, list customers who file a second claim within seven days, claims on your priciest items, and claims dropped right after a refusal. If those lists grow, lower the refund for those cases before you widen the trial."]
+
+expect:
+  - "**A dip before the gain.** The return itself usually costs a little more, so judge the scheme on what customers do in the weeks after."
+  - "**Fewer abandoned returns.** People who would have given up and stayed annoyed now get something, and that is where the goodwill comes from."
+  - "**Value for shoppers too.** If people keep items worth about half their price, the authors estimate they hold on to about $1.49 each, on top of the refund."
+  - "**More claims to screen.** A smoother refund draws more requests, so budget for checking them and expect some to be opportunistic."
+
+limits:
+  - "**One platform, cheap goods.** Items averaged $27 and returned stock had almost no resale value. Where returns can be resold, such as furniture or large electronics, the sums change."
+  - "**Rule and AI tested together.** There is no way to split the result between the refund itself and the speed of the AI decisions."
+  - "**A quiet test.** The option was not advertised and reached under 1% of the platform's users, so word of mouth and rival moves were left out."
+  - "**Profit is an estimate.** The profit figures assume a 35% margin; the measured outcome is spending minus refunds and handling costs."
+
+faq:
+  - q: "Do returnless partial refunds make money for online retailers?"
+    a: "In this experiment, yes, once later spending is counted. The first return cost slightly more, but customers offered the option bought more over the next month, leaving a net gain of $1.44 per customer after 30 days and $4.41 after 90 (Fang et al., 2026)."
+  - q: "How big should a partial refund be?"
+    a: "The authors' model puts the most profitable average at about 41% of the item's price. Judging only by the first return would push it far too low, to around 6%."
+  - q: "Will customers abuse a keep-it refund?"
+    a: "Some will try. Follow-up claims rose, approvals fell most for vague complaints, pricey items and quick repeat claims, and more customers dropped a claim once it was refused. The overall result stayed positive, but the abuse grows with generosity."
+  - q: "Why would a partial refund make people spend more later?"
+    a: "It turns a hassle into a quick fix. Customers who could resolve a problem without posting anything back bought again more often and across more categories, which is what research on service recovery would predict."
+  - q: "Can AI decide refund claims on its own?"
+    a: "Here it did, for claims backed by photos, video or text. Three AI agents recognised the request, checked the evidence and picked an amount from a fixed table in about five seconds. Unclear claims went to the normal return process."
+
+also:
+  - doi: "10.1177/00222429261496232"
+    title: "The Double-Edged Offline Touchpoint: How Self-Pickup Stations Reshape Pure-Play E-Commerce Transactions"
+    authors: "Cao, Li, Liao, & Xie"
+    journal: "Journal of Marketing"
+    year: 2026
+    text: >-
+      Using shopper-level data from an Asian online platform, this study finds that opening self-pickup stations raised spending and shopping
+      frequency without eating into home delivery. The gain came from keeping existing customers, not from winning new ones. It shrank when a
+      station sat close to big physical stores, where shoppers could simply buy elsewhere. Location is part of the offer.
+  - doi: "10.1177/10946705261477467"
+    title: "A Linguistic Guide to Webcare: The Roles of Attentiveness, Justice, and Response Patterns in Handling Online Complaints"
+    authors: "Paulich, Tamaddoni, & Ludwig"
+    journal: "Journal of Service Research"
+    year: 2026
+    text: >-
+      Text mining of nearly 372,000 complaint and reply pairs for hotels and restaurants on Tripadvisor and Yelp links better replies to more
+      positive reviews afterwards. Replies that pick up the specific service points raised did best, especially when they also signalled fair
+      process or compensation. Replying to selected complaints worked better than answering every negative review.
+
+charts:
+  accept:
+    title: "Share of keep-it offers that customers accepted, by return reason (%)"
+    scale: [0, 50]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Damaged packaging", 43.4, true]
+      - ["Scratched", 41.2, true]
+      - ["Arrived damaged", 39.8, true]
+      - ["Product flaw", 36.6, true]
+      - ["Poor quality", 32.0, false]
+      - ["Colour not as described", 29.8, false]
+      - ["Does not work properly", 29.2, false]
+      - ["Appearance not as described", 23.4, false]
+      - ["Style not as described", 22.3, false]
+    source: "Test group, offers made at the first return, both phases. Amber: visible defects; grey: complaints about how the product seems."
+  probing:
+    title: "Fall in AI approval rate for follow-up claims compared with first claims (percentage points)"
+    scale: [0, 4]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["All follow-up claims", 1.69, false]
+      - ["Visible defects", 1.49, false]
+      - ["Quality or looks complaints", 2.18, false]
+      - ["Lower-priced items", 0.85, false]
+      - ["Higher-priced items", 3.02, true]
+      - ["Repeat claim within a week", 3.46, true]
+      - ["Repeat claim after a week", 0.65, false]
+    source: "Test group, claims within 30 days of the first return. The AI's rules stayed fixed, so the drop reflects the claims being made."
+  level:
+    title: "Average refund (% of price) that earns the most, and the highest refund that still beats a normal return"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Best refund, first return only", 6, false]
+      - ["Best refund, with next month's spending", 41, true]
+      - ["Break-even, first return only", 36, false]
+      - ["Break-even, with next month's spending", 90, false]
+    source: "The authors' calibration from the two phases of the experiment (average refunds of 50% and 30%)."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
