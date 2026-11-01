@@ -8,8 +8,13 @@ message is the agreed template (project doc claude/mkt3-author-thankyou-template
 the Marketing in 3 wordmark, issue hero, serif title, amber button, cream footer) is that of newsletter/send_issue.py,
 so authors and subscribers get the same kind of email.
 
-Sending: create a Gmail draft with the Gmail connector (htmlBody + body from these files), open it in Claude in Chrome,
-switch From to hello@marketingin3.com, check To and Cc, send.
+Sending (revised 2 Nov 2026): the Gmail connector's create_draft/send_message rewrite the HTML (every link wrapped in a
+google.com/url redirect, the hero image dropped, the red, amber and cream backgrounds stripped), so never send the
+connector's HTML as is. Create the draft with the connector for the addresses and subject, open it in Claude in Chrome,
+then run the generated author-thankyou-<issue>.paste.js with the javascript tool: it pastes this exact HTML into the
+Gmail editor (a paste event, because Gmail blocks innerHTML). Wait for "Draft saved", check the saved draft with
+get_draft (links go to schivinski.com, one image, red wordmark present), switch From to hello@marketingin3.com, check
+the To and Cc chips, send.
 """
 from __future__ import annotations
 
@@ -120,7 +125,28 @@ def main() -> None:
     (out / f"author-thankyou-{a.issue}.html").write_text(html, encoding="utf-8")
     (out / f"author-thankyou-{a.issue}.txt").write_text(text, encoding="utf-8")
     (out / f"author-thankyou-{a.issue}.subject.txt").write_text(subject, encoding="utf-8")
-    print(f"wrote {out}/author-thankyou-{a.issue}.[html|txt]")
+    (out / f"author-thankyou-{a.issue}.paste.js").write_text(paste_js(html), encoding="utf-8")
+    print(f"wrote {out}/author-thankyou-{a.issue}.[html|txt|subject.txt|paste.js]")
+
+
+def paste_js(html: str) -> str:
+    """JavaScript for Claude in Chrome: paste the email HTML into the open Gmail compose window and report what Gmail kept."""
+    import json
+    import re
+    body = re.search(r"<body[^>]*>(.*)</body>", html, re.S).group(1).strip()
+    inner = f'<div style="margin:0;padding:0;background:{PAPER};">{body}</div>'
+    return (
+        "const ed=document.querySelector('div[contenteditable=\"true\"][role=\"textbox\"][aria-label=\"Message Body\"]');"
+        " ed.focus(); const sel=window.getSelection(); const r=document.createRange(); r.selectNodeContents(ed);"
+        " sel.removeAllRanges(); sel.addRange(r); const dt=new DataTransfer();"
+        f" dt.setData('text/html',{json.dumps(inner)}); dt.setData('text/plain','x');"
+        " ed.dispatchEvent(new ClipboardEvent('paste',{clipboardData:dt,bubbles:true,cancelable:true}));"
+        " await new Promise(r=>setTimeout(r,800));"
+        " ({imgs:ed.querySelectorAll('img').length,"
+        " hosts:[...ed.querySelectorAll('a')].map(a=>{try{return new URL(a.href).hostname}catch(e){return '?'}}),"
+        " red:!!ed.querySelector('[style*=\"215, 25, 32\"],[style*=\"d71920\"]'),"
+        " signature:ed.innerText.includes('Pozdrawiam')})\n"
+    )
 
 
 if __name__ == "__main__":
