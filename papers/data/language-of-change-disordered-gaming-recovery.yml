@@ -1,0 +1,269 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Scientific Reports 16, 3936 (2026) (published PDF supplied by Bruno, 1 Nov 2026). Open access
+# under CC BY-NC-ND 4.0. Under a NoDerivatives licence the publisher's PDF would have to be hosted unchanged, and it
+# prints the corresponding author's email addresses, so no copy is hosted here; the page links to the free published
+# version. The emotion figure is redrawn from the averages printed in Figures 4 and 5. The Reddit users' verbatim
+# quotes in the article's tables are not reproduced on this page.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Language of change in online narratives of recovery from disordered gaming"
+doi: "10.1038/s41598-025-33991-8"
+journal: "Scientific Reports"
+issn: "2045-2322"
+publisher: "Springer Nature"
+volume: "16"
+article_number: "3936"
+published: "2026-01-14"
+published_label: "14 January 2026"
+open_access: true
+licence: "CC BY-NC-ND 4.0"
+licence_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+authors:
+  - given: "Spyridon"
+    family: "Kavvadias"
+    affiliation: ["RMIT University"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Nalin"
+    family: "Arachchilage"
+    affiliation: ["RMIT University"]
+  - given: "Taylor"
+    family: "Brown"
+    affiliation: ["Deakin University"]
+  - given: "Vasileios"
+    family: "Stavropoulos"
+    orcid: "0000-0001-6964-4662"
+    affiliation: ["RMIT University"]
+
+cite_short: "Kavvadias et al., 2026"
+badges: ["22,459 Reddit posts and comments", "r/StopGaming", "Topic modelling (LDA)", "Transtheoretical model of change", "Netnography"]
+keywords:
+  # Article's own keywords
+  - gaming disorder
+  - Reddit
+  - transtheoretical model of change
+  - topic modeling
+  - netnography
+  # What the study is about
+  - disordered gaming
+  - recovery
+  - stages of change
+  - relapse
+  - online peer support
+  - online self-help community
+  - r/StopGaming
+  - latent Dirichlet allocation
+  - natural language processing
+  - sentiment analysis
+  - VADER
+  - NRC Emotion Lexicon
+  - reflexive thematic analysis
+  - gamification
+  - motivational interviewing
+  - digital mental health
+
+in_brief: >-
+  People trying to quit problem gaming do not move neatly from one stage of change to the next. In 22,459 posts and
+  comments from Reddit&rsquo;s r/StopGaming community, their stories mixed ambivalence, relapse and renewed effort,
+  with a mostly hopeful tone, and many members filled the gap left by gaming with exercise, hobbies and game-like goal
+  tracking.
+
+findings:
+  - headline: "Seven themes run through recovery stories."
+    text: >-
+      A seven-topic model fitted the posts best (perplexity 945; coherence 0.298), and the qualitative analysis found
+      seven recurring themes: escapism, guilt and regret over lost time, relationship strain, identity and self-worth,
+      health deterioration, a desire for moderation, and replacement activities (Kavvadias et al., 2026).
+  - headline: "Recovery is fluid and cyclical, not a straight line."
+    text: >-
+      The topics did not lock onto single stages of the transtheoretical model of change: each spanned several stages,
+      and users who posted over several years moved through action, relapse and renewed effort before sustained
+      maintenance (Kavvadias et al., 2026).
+  - headline: "The community&rsquo;s tone is mostly hopeful."
+    text: >-
+      Average sentiment was moderately positive (VADER mean 0.35), positive words outnumbered negative ones (0.41 vs
+      0.32), and anticipation (0.22) and trust (0.21) were the most frequent emotions, ahead of fear and sadness (0.13
+      each) (Kavvadias et al., 2026).
+  - headline: "Filling the void after quitting is central."
+    text: >-
+      Members replaced gaming with physical activity, creative hobbies, learning, social connection, daily routines,
+      mindfulness and value-driven work, and many turned game mechanics such as quests and experience points into
+      tools for structuring change (Kavvadias et al., 2026).
+
+glance:
+  - { label: "Design", value: "Netnography of Reddit&rsquo;s r/StopGaming self-help community: computational topic modelling combined with reflexive thematic analysis, checked against sentiment, emotion and engagement metrics" }
+  - { label: "Data", value: "28,409 posts and comments collected through the Reddit API (24 November 2013 to 31 July 2025); after removing 688 duplicate posts and 5,262 entries from deleted accounts, 22,459 texts (1,963 posts and 20,496 comments) by 7,135 users" }
+  - { label: "Topics (RQ1)", value: "Latent Dirichlet allocation (Python, Gensim) on 1,587 posts after preprocessing; 42 models compared; best model: seven topics" }
+  - { label: "Stages of change (RQ2)", value: "70 posts (the 10 most representative of each topic, May 2020 to July 2025) coded by two researchers and mapped to the stages of the transtheoretical model of change" }
+  - { label: "Validation", value: "VADER sentiment, NRC Emotion Lexicon, NRC valence&ndash;arousal&ndash;dominance lexicon, and engagement (post scores, comments per post)" }
+  - { label: "Ethics", value: "Approved by the RMIT University Human Research Ethics Committee (2025-28502-27067); public data only, de-identified before analysis" }
+
+results:
+  title: "Share of posts by topic (seven-topic model)"
+  unit: "%"
+  max: 50
+  note: "Prevalence of each topic in the refined corpus of 1,587 posts, from Table 5 of the article; topic labels from Table 9."
+  groups:
+    - name: ""
+      bars:
+        - { label: "Replacement activities (6)", value: 43.73, display: "43.7", highlight: true }
+        - { label: "Guilt and lost time (1)", value: 16.95, display: "17.0" }
+        - { label: "Relationship strain (2)", value: 11.34, display: "11.3" }
+        - { label: "Escapism and stress coping (0)", value: 10.08, display: "10.1" }
+        - { label: "Desire for moderation (5)", value: 8.57, display: "8.6" }
+        - { label: "Health deterioration (4)", value: 4.79, display: "4.8" }
+        - { label: "Identity and self-worth (3)", value: 4.54, display: "4.5" }
+
+figures:
+  - file: figures/kavvadias-et-al-2026-stopgaming-emotions.svg
+    title: "Figure 1. Emotional tone of r/StopGaming posts"
+    caption: >-
+      Redrawn from the averages printed in Figures 4 and 5 and the Results of the article.
+
+question: >-
+  Most research on disordered gaming relies on surveys and interviews, which rarely capture how people describe their
+  own recovery in their own words. We asked which themes people raise in r/StopGaming, a Reddit community for quitting
+  problem gaming, and how those themes line up with the stages of the transtheoretical model of change.
+
+implications:
+  practical: >-
+    Readiness assessments should not rely on rigid stage labels; language-based tools could show where someone is in
+    their change journey in real time. Prevention can promote healthy alternatives such as physical activity, creative
+    hobbies, learning and volunteering; interventions can draw on motivational interviewing and on the goal tracking
+    and self-reward systems that users already adopt; and online peer-support communities could be supported as
+    scalable, low-barrier help.
+  theoretical: >-
+    Topics bridged the stages of the transtheoretical model rather than mapping onto single stages, supporting a fluid,
+    cyclical view of change while reinforcing the model&rsquo;s relevance to disordered gaming. Combining topic
+    modelling with netnography and lexicon-based checks offers a way to read stages of change from naturalistic
+    language at scale.
+
+limitations:
+  - "No demographic or psychometric information on the Reddit users, which limits subgroup analysis and generalisation."
+  - "Self-reported narratives may involve selective disclosure, exaggeration or recall bias."
+  - "One platform and one community (r/StopGaming), so the findings may not transfer to other online groups or offline populations."
+  - "Future work: richer data with demographic, psychometric and longitudinal measures; more advanced language models (e.g., BERT or fine-tuned large language models); and links between digital traces and clinical outcomes."
+
+faq:
+  - q: "What do people talk about when they try to quit gaming?"
+    a: >-
+      In r/StopGaming, seven themes recur: escapism, guilt and regret over lost time, strain on relationships, identity
+      and self-worth, health problems, a wish to play in moderation, and finding activities to replace gaming
+      (Kavvadias et al., 2026).
+  - q: "Is recovery from disordered gaming a linear process?"
+    a: >-
+      No. Posts mixed stages such as contemplation and relapse, and people who posted over several years cycled
+      through action, relapse and renewed effort before sustained maintenance (Kavvadias et al., 2026).
+  - q: "What do people do instead of gaming when they quit?"
+    a: >-
+      Physical activity, creative hobbies, learning, time with family and friends, daily routines and chores,
+      mindfulness and therapy, and value-driven work such as volunteering or activism (Kavvadias et al., 2026).
+  - q: "Can online communities help people quit gaming?"
+    a: >-
+      The r/StopGaming community&rsquo;s language was mostly hopeful and supportive, and members described it as a
+      source of support; the authors see such peer-support communities as scalable, low-barrier help (Kavvadias et
+      al., 2026).
+
+concepts:
+  - term: "Transtheoretical model of change"
+    definition: "A model of intentional behaviour change in stages: precontemplation, contemplation, preparation, action, maintenance, relapse and termination (Prochaska &amp; DiClemente)."
+  - term: "Latent Dirichlet allocation (LDA)"
+    definition: "An unsupervised topic model that finds groups of words that tend to occur together across documents and gives each document a mix of topics."
+  - term: "Netnography"
+    definition: "A qualitative approach to studying online communities through their naturally occurring posts and interactions (Kozinets)."
+  - term: "Disordered gaming"
+    definition: "A pattern of gaming that causes significant harm to a person&rsquo;s daily life, such as study or work, relationships and health."
+
+open_science:
+  - { label: "Published version", note: "Scientific Reports (open access, CC BY-NC-ND 4.0)", url: "https://doi.org/10.1038/s41598-025-33991-8" }
+  - { label: "Supplementary Information", note: "Topic-modelling results and code, on the article page", url: "https://www.nature.com/articles/s41598-025-33991-8" }
+
+tables:
+  - id: "4"
+    title: "LDA models compared by topic count and fit indices"
+    columns: ["Model", "Topics", "&alpha;", "&beta;", "Perplexity", "Coherence"]
+    align: ["left", "right", "left", "left", "right", "right"]
+    rows:
+      - ["1", "7", "Symmetric", "Auto", "945", "0.2980"]
+      - ["2", "10", "Symmetric", "Auto", "1032", "0.2839"]
+      - ["3", "12", "Symmetric", "Auto", "1149", "0.2868"]
+      - ["4", "15", "Symmetric", "Auto", "1254", "0.2748"]
+      - ["5", "20", "Symmetric", "Auto", "1467", "0.2753"]
+    note: "&alpha; = document&ndash;topic prior; &beta; = topic&ndash;word prior (&ldquo;eta&rdquo; in Gensim); &ldquo;auto&rdquo; = learned during training. Lower perplexity and higher coherence are better; Model 1 was selected."
+  - id: "5"
+    title: "Topic prevalence, engagement and key terms (optimum model)"
+    columns: ["Topic", "Prevalence (%)", "Mean score", "Mean comments per post", "Key terms"]
+    align: ["left", "right", "right", "right", "left"]
+    rows:
+      - ["0", "10.08", "81.05", "15.89", "year, life, hour, play, would, job, never, played, playing, day, anything, back, addicted, cant, could"]
+      - ["1", "16.95", "59.34", "13.87", "play, playing, life, hour, thing, year, every, without, really, real, make, stop, day, quit, going"]
+      - ["2", "11.34", "81.81", "18.52", "playing, play, better, life, thing, back, year, hour, would, world, maybe, cant, well, way, point"]
+      - ["3", "4.54", "69.40", "11.67", "quit, never, year, back, league, friend, keep, addiction, life, sure, playing, sell, console, hour, stopped"]
+      - ["4", "4.79", "78.54", "19.25", "friend, he, mother, hour, year, thing, really, doesnt, life, stop, would, play, money, back, long"]
+      - ["5", "8.57", "44.79", "10.90", "really, quit, since, day, would, month, bad, craving, hour, play, playing, steam, today, shit, may"]
+      - ["6", "43.73", "66.03", "16.57", "life, addiction, would, got, school, started, year, play, friend, way, went, new, first, fun, week"]
+    note: "Prevalence = share of the refined corpus of posts; mean score = upvotes minus downvotes. Key terms as printed. The article&rsquo;s exemplar posts are not reproduced here."
+  - id: "6"
+    title: "Themes, definitions and links to the stages of change"
+    columns: ["Theme", "Short definition", "Posts (N)", "Topic with most posts", "Stages of change"]
+    align: ["left", "left", "right", "left", "left"]
+    rows:
+      - ["1. Escapism through gaming", "Using games to avoid real-life stress or anxiety", "48", "Topic 0", "Maintenance/relapse"]
+      - ["2. Guilt and regret over lost time", "Feeling remorse for hours or years wasted gaming", "42", "Topic 1", "Action/early maintenance"]
+      - ["3. Impact on relationships", "Gaming harmed friendships, dating, marriage", "32", "Topic 2", "Precontemplation/contemplation"]
+      - ["4. Identity and self-worth problems", "Tying self-esteem or identity to gaming performance", "29", "Topic 6", "Action/maintenance"]
+      - ["5. Health and lifestyle deterioration", "Poor sleep, nutrition, hygiene or exercise habits", "27", "Topic 0", "Preparation/action"]
+      - ["6. Desire for moderation", "Wanting to play &ldquo;sometimes&rdquo; without relapse (self-control)", "18", "Topic 5", "Maintenance (with relapse risk)"]
+      - ["7. Replacement activities and &ldquo;filling the void&rdquo;", "Seeking new hobbies to replace gaming time", "24", "Topic 5", "Action/maintenance"]
+    note: "Values as printed. Topic numbers follow the article&rsquo;s Table 6, which differs from the topic labels in its Table 9 (identity = Topic 3, health = Topic 4, replacement activities = Topic 6). The illustrative comments are not reproduced here."
+  - id: "7"
+    title: "Key gaming-replacement activities"
+    columns: ["Category", "Specific activities and approaches"]
+    align: ["left", "left"]
+    rows:
+      - ["Physical activity", "Gym, running, calisthenics, yoga, martial arts, daily walks, cycling"]
+      - ["Creative hobbies", "Drawing, painting, music (instruments, singing), writing, coding (non-gaming), cooking, crafting, sewing"]
+      - ["Learning and education", "Studying (formal or informal), languages, instrument practice, reading books, podcasts, Rubik&rsquo;s cube solving"]
+      - ["Social connection", "Spending more time with family and friends, volunteering, joining clubs, support groups (in person or virtual)"]
+      - ["Daily structure and chores", "Journaling, daily scheduling (Google Calendar, Coach.me, whiteboard), chores, cooking, housework, errands"]
+      - ["Mindfulness and well-being", "Meditation, therapy, self-reflection, mindfulness exercises, walks in nature"]
+      - ["Activism and value-driven work", "Environmental activism, political engagement, volunteering, meaningful work"]
+    note: "Example quotes from the article&rsquo;s table are not reproduced here."
+  - id: "8"
+    title: "Thematic and linguistic markers by stage of change"
+    collapsed: true
+    columns: ["Stage", "Interpretative commentary"]
+    align: ["left", "left"]
+    rows:
+      - ["Precontemplation", "Marked by a lack of awareness or denial of the problem. Narratives often reflect concerns raised by others, like family or partners, rather than the users themselves."]
+      - ["Contemplation", "Users acknowledge the problem and express significant internal conflict. Narratives often show an ambivalence between recognizing the harm caused by gaming and feeling uncertain about changing."]
+      - ["Preparation", "Characterized by active planning and readiness to change. Posts often share intentions to quit or moderate, alongside requests for strategies and support from the community."]
+      - ["Action", "Deliberate efforts to change behavior, such as reducing or ceasing gaming. These narratives may also describe the struggles and emotional challenges accompanying these changes."]
+      - ["Maintenance", "Users strive to sustain their behavioral changes and avoid relapse. Narratives often discuss ongoing challenges like cravings and social pressures, but are grounded in a commitment to long-term change."]
+      - ["Relapse", "Setbacks and a return to gaming. These narratives are often marked by feelings of guilt, frustration, and a desire to recommit to recovery."]
+      - ["Termination", "Full disengagement from problematic gaming. Posts often reflect the development of a new identity and a sense of liberation from the old habit."]
+    note: "Commentary from the article&rsquo;s Table 8; the example quotes are not reproduced here."
+  - id: "9"
+    title: "Per-topic sentiment, emotion and engagement"
+    collapsed: true
+    columns: ["Topic", "Primary stage", "Mean score", "Mean comments", "VADER", "NRC+", "NRC&minus;", "Anger", "Anticipation", "Disgust", "Fear", "Joy", "Sadness", "Surprise", "Trust", "Valence", "Arousal", "Dominance"]
+    align: ["left", "left", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["0 Escapism/stress coping", "Maintenance/relapse", "81.05", "15.89", "0.23", "0.37", "0.31", "0.10", "0.21", "0.10", "0.11", "0.17", "0.13", "0.07", "0.16", "0.16", "&minus;0.03", "&minus;0.01"]
+      - ["1 Guilt and lost time", "Contemplation/relapse", "59.34", "13.87", "0.32", "0.37", "0.34", "0.13", "0.24", "0.10", "0.14", "0.15", "0.15", "0.04", "0.23", "0.19", "&minus;0.01", "0.03"]
+      - ["2 Relationship strain", "Precontemplation/contemplation", "81.81", "18.52", "0.28", "0.40", "0.34", "0.12", "0.24", "0.09", "0.14", "0.17", "0.15", "0.06", "0.21", "0.19", "&minus;0.02", "0.04"]
+      - ["3 Identity and self-worth", "Action/maintenance", "69.40", "11.67", "0.28", "0.40", "0.38", "0.07", "0.21", "0.08", "0.09", "0.17", "0.13", "0.07", "0.22", "0.14", "&minus;0.03", "&minus;0.03"]
+      - ["4 Health deterioration", "Contemplation/preparation", "78.54", "19.25", "0.23", "0.41", "0.32", "0.11", "0.20", "0.08", "0.12", "0.19", "0.14", "0.06", "0.24", "0.15", "&minus;0.04", "&minus;0.01"]
+      - ["5 Desire for moderation", "Maintenance/action", "44.79", "10.90", "0.25", "0.36", "0.35", "0.11", "0.31", "0.10", "0.13", "0.18", "0.13", "0.08", "0.21", "0.20", "&minus;0.04", "0.01"]
+      - ["6 Replacement activities", "Contemplation/action/maintenance", "66.03", "16.57", "0.47", "0.46", "0.32", "0.11", "0.28", "0.09", "0.15", "0.20", "0.15", "0.08", "0.26", "0.20", "&minus;0.02", "0.05"]
+    note: "VADER = compound sentiment (&minus;1 to +1); NRC+ and NRC&minus; = shares of positive and negative words; emotions = proportions (NRC Emotion Lexicon); valence, arousal and dominance from the NRC VAD lexicon. Values as printed."
+
+related:
+  - "10.1016/j.socscimed.2022.114721"
+  - "10.1556/2006.2026.00022"
+  - "10.1007/s11469-019-00088-z"
