@@ -238,5 +238,14 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 
 ## Author thank-you email design (Bruno, 29 October 2026)
 - The author thank-you matches the subscriber email: HTML in the same design, built with `python newsletter/author_email.py --issue N
-  --salutation "Professor Surname"` (the wording stays as in project doc claude/mkt3-author-thankyou-template.md). Send it from
-  hello@marketingin3.com through a Gmail draft opened in Chrome. Check the real addresses in To and Cc before sending.
+  --salutation "Professor Surname" --cc "<co-author addresses>"` (or `--cc none`; the wording stays as in project doc
+  claude/mkt3-author-thankyou-template.md). Send it from hello@marketingin3.com through a Gmail draft opened in Chrome. Check the
+  real addresses in To and Cc before sending.
+
+## Greeting when co-authors are copied (Bruno, 2 November 2026)
+- Any author email (thank-you or paper request) that copies co-authors greets them too: "Dear Professor Yuan and colleagues,".
+  Only when nobody is copied does it stay "Dear Professor Yuan,". The corresponding author is the one named.
+- `newsletter/author_email.py` applies this from `--cc` (required), so the thank-you can no longer be built without saying who
+  is copied. Hand-written emails (paper requests) follow the same rule.
+- Issue 44 (Fang, Wu, Yuan & Zhang) went out with "Dear Professor Yuan," and three co-authors in Cc, which is what prompted
+  the rule.

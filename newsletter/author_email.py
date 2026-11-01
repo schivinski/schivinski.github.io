@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """Author thank-you email for a published Marketing in 3 issue, in the same design as the subscriber email.
 
-  python newsletter/author_email.py --issue 43 --salutation "Professor Schivinski" [--out DIR]
+  python newsletter/author_email.py --issue 44 --salutation "Professor Yuan" --cc "a@uni.edu, b@uni.edu" [--out DIR]
+  python newsletter/author_email.py --issue 50 --salutation "Professor Moorhouse" --cc none
+
+--cc is required and lists the co-authors being copied (or "none"). Bruno, 2 Nov 2026: when co-authors are copied, the
+greeting addresses them too, "Dear Professor Yuan and colleagues,"; with nobody copied it stays "Dear Professor Yuan,".
 
 Writes author-thankyou-<issue>.html and .txt (plus subject.txt) to DIR (default newsletter/out/). The text of the
 message is the agreed template (project doc claude/mkt3-author-thankyou-template.md); the look (navy header bar with
@@ -39,6 +43,14 @@ def load_issue(n: int) -> dict:
         if int(d["issue"]) == n:
             return d
     raise SystemExit(f"issue {n} not found")
+
+
+def greeting(salutation: str, cc: list[str]) -> str:
+    """'Professor Yuan' -> 'Professor Yuan and colleagues' when co-authors are copied (Bruno, 2 Nov 2026)."""
+    s = salutation.strip().removeprefix("Dear ").rstrip(",").strip()
+    if cc and "colleagues" not in s:
+        s += " and colleagues"
+    return s
 
 
 def build(d: dict, salutation: str) -> tuple[str, str, str]:
@@ -115,11 +127,16 @@ def build(d: dict, salutation: str) -> tuple[str, str, str]:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--issue", type=int, required=True)
-    ap.add_argument("--salutation", required=True, help='e.g. "Professor Schivinski"')
+    ap.add_argument("--salutation", required=True, help='corresponding author, e.g. "Professor Yuan"')
+    ap.add_argument("--cc", required=True,
+                    help='co-author addresses being copied, comma-separated, or "none"; any Cc adds "and colleagues"')
     ap.add_argument("--out", default=str(OUT))
     a = ap.parse_args()
+    cc = [x.strip() for x in a.cc.split(",") if x.strip() and x.strip().lower() != "none"]
     d = load_issue(a.issue)
-    subject, text, html = build(d, a.salutation)
+    salutation = greeting(a.salutation, cc)
+    subject, text, html = build(d, salutation)
+    print(f"greeting: Dear {salutation},  (Cc: {', '.join(cc) or 'none'})")
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
     (out / f"author-thankyou-{a.issue}.html").write_text(html, encoding="utf-8")
