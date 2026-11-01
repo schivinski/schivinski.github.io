@@ -1,0 +1,205 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Nature Reviews Psychology (2026), Review article (publisher PDF supplied by Bruno, 1 Nov 2026; it
+# prints "Published online: xx xx xxxx"; Crossref gives 13 August 2026, no volume or pages yet). Not open access
+# (Springer Nature holds exclusive rights), so no full-text copy is hosted here. The PDF prints the corresponding
+# author's email address; it is not reproduced. Figure 1 is drawn for this page from the Review's text, Table 1 and
+# Fig. 1; the two tables below are short summaries of the Review's Tables 1 and 2, not reproductions.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "Machine learning of digital traces to detect risk for behavioural addictions online"
+doi: "10.1038/s44159-026-00604-8"
+journal: "Nature Reviews Psychology"
+issn: "2731-0574"
+publisher: "Springer Nature"
+published: "2026-08-13"
+published_label: "Published online 13 August 2026"
+open_access: false
+
+authors:
+  - given: "Tyrone L."
+    family: "Burleigh"
+    affiliation: ["RMIT University", "University of Leicester"]
+  - given: "Yifei"
+    family: "Hao"
+    orcid: "0009-0002-7510-2557"
+    affiliation: ["RMIT University"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["RMIT University"]
+    me: true
+  - given: "Maria"
+    family: "Prokofieva"
+    affiliation: ["Victoria University"]
+  - given: "Daniel"
+    family: "Zarate"
+    affiliation: ["RMIT University"]
+  - given: "Taylor"
+    family: "Brown"
+    affiliation: ["RMIT University"]
+  - given: "Vasileios"
+    family: "Stavropoulos"
+    orcid: "0000-0001-6964-4662"
+    affiliation: ["RMIT University"]
+
+cite_short: "Burleigh et al., 2026"
+badges: ["Review", "Digital phenotyping", "Machine learning", "Behavioural addictions", "Gaming, social media and smartphones"]
+keywords:
+  - digital traces
+  - digital phenotyping
+  - digital footprint
+  - machine learning
+  - online behavioural addictions
+  - gaming disorder
+  - internet gaming disorder
+  - problematic smartphone use
+  - problematic social media use
+  - compulsive online buying-shopping
+  - problematic streaming
+  - passive sensing
+  - ecological momentary assessment
+  - supervised learning
+  - unsupervised learning
+  - feature engineering
+  - multimodal fusion
+  - natural language processing
+  - early detection
+  - risk stratification
+  - I-PACE model
+  - user–avatar bond
+  - ethics and governance
+  - digital mental health
+
+in_brief: >-
+  The phones, platforms and games people use leave detailed records of how they behave. This Review shows how machine
+  learning can turn such digital traces, like late-night use, short gaps between sessions and fast responses to
+  notifications, into early signs of risk for gaming disorder and problematic smartphone or social media use, and why
+  these tools should support clinicians rather than diagnose.
+
+findings:
+  - headline: "Three kinds of data streams can reveal risk."
+    text: >-
+      Passive streams (device logs, platform telemetry, wearable sensors), active streams (momentary self-reports,
+      diaries, in-app surveys) and hybrid designs that link the two each trade detail against burden, consent and
+      privacy; hybrid data help separate high engagement from loss of control (Burleigh et al., 2026).
+  - headline: "A small set of candidate digital markers recurs."
+    text: >-
+      Late-night and irregular use, short gaps between sessions, fast responses to notifications, frequent brief
+      checking, disrupted sleep&ndash;wake rhythms and escalating engagement are linked to higher addiction-scale
+      scores and symptom burden; total time online on its own is a weak marker (Burleigh et al., 2026).
+  - headline: "Models perform moderately well but rest on self-report labels."
+    text: >-
+      Gaming-telemetry models typically reach an area under the curve of about 0.70&ndash;0.80 and smartphone studies
+      70&ndash;80% accuracy, but most are trained on questionnaire cut-offs in small convenience samples, are
+      cross-sectional and lack external validation (Burleigh et al., 2026).
+  - headline: "Use them for triage, not diagnosis."
+    text: >-
+      Their performance is not enough for stand-alone diagnosis but is comparable to many screening tools, so they are
+      best used to flag people or trajectories for assessment, within governance that keeps clinical detection apart
+      from commercial engagement optimisation (Burleigh et al., 2026).
+
+glance:
+  - { label: "Type", value: "Review: synthesis of empirical and conceptual work on digital trace data and machine learning for early detection of risk" }
+  - { label: "Scope", value: "&ldquo;Online behavioural addictions&rdquo; as an umbrella term: gaming disorder and internet gaming disorder, and problematic smartphone, social media, online buying-shopping and streaming use; gambling disorder is out of scope" }
+  - { label: "Data streams", value: "Passive (logs, telemetry, sensors, platform data), active (ecological momentary assessment, experience sampling, diaries, surveys) and hybrid designs" }
+  - { label: "Methods covered", value: "Supervised and unsupervised learning, feature engineering, model families (distance-based, kernel-based, tree ensembles, neural networks), evaluation, and multimodal fusion (early, late, intermediate)" }
+  - { label: "Evidence clusters", value: "Gaming platforms; social media ecosystems; smartphone use and streaming; clinical and social-text corpora" }
+  - { label: "Research priorities", value: "Longitudinal modelling of onset, escalation and remission; cross-cultural, multisite and multiplatform datasets; open data and reporting standards; pairing clinical samples with rich digital traces" }
+
+figures:
+  - file: figures/burleigh-et-al-2026-digital-traces-markers.svg
+    title: "Figure 1. Digital data streams and candidate markers of risk"
+    caption: >-
+      Drawn for this page from the Review&rsquo;s text, Table 1 and Figure 1.
+
+question: >-
+  Problematic gaming, smartphone and social media use are usually assessed with retrospective questionnaires that
+  tend to catch problems late. We reviewed how the digital traces these activities leave behind, analysed with machine
+  learning, could support earlier detection of risk, and what the evidence can and cannot yet show.
+
+implications:
+  practical: >-
+    Machine learning outputs are best used as structured prompts: to flag people or trajectories for assessment and to
+    guide stepped care, read in light of each person&rsquo;s context (late-night gaming with falling grades is not the
+    same as night-shift work). Risk assessment should also ask about platform design features such as loot boxes,
+    infinite scroll and auto-play, and clinicians and service users need clear explanations of what is measured and
+    how data are used.
+  theoretical: >-
+    Digital markers become meaningful only when interpreted through theory, such as the I-PACE and cyber-developmental
+    models. The field needs models trained on clinician-rated outcomes, tests of incremental validity over
+    questionnaires, longitudinal and cross-cultural validation, and evaluation by calibration and sensitivity at
+    fixed specificity rather than overall accuracy alone.
+
+limitations:
+  - "Most models are trained on self-report scale cut-offs rather than clinician-rated diagnoses or long-term outcomes."
+  - "Samples are mostly small, convenience-based and specific to one platform, region or age group; external validation and calibration are rare."
+  - "Most designs are cross-sectional; prospective prediction of onset, escalation or remission is rare, and few studies test whether digital traces add predictive value beyond questionnaires."
+  - "Unequal access to platform data and changing algorithms limit comparability; consent, privacy and surveillance risks are inconsistently addressed."
+
+faq:
+  - q: "What are digital traces?"
+    a: >-
+      Time-stamped records of how people use devices and platforms, such as clickstreams, session timing, app
+      switching, typing and scrolling, notification responses, posts and searches (Burleigh et al., 2026).
+  - q: "Which online behaviours can signal risk of a behavioural addiction?"
+    a: >-
+      Late-night and irregular use, short gaps between sessions, fast responses to notifications, frequent brief
+      checking, disrupted sleep&ndash;wake rhythms and escalating engagement; in gaming, also irregular late-night play,
+      session escalation and heavy in-game spending (Burleigh et al., 2026).
+  - q: "Can machine learning diagnose gaming disorder?"
+    a: >-
+      No. Current models are not accurate enough for stand-alone diagnosis and do not replace clinical interviews, but
+      they can support risk stratification and triage alongside clinical assessment (Burleigh et al., 2026).
+  - q: "Is time spent online a good sign of addiction?"
+    a: >-
+      Not on its own. Hours played are only weakly linked to gaming disorder symptoms once escalation, irregularity
+      and night-time use are considered, and extreme screen time does not show what people do or whether it causes
+      distress (Burleigh et al., 2026).
+
+concepts:
+  - term: "Digital phenotyping"
+    definition: "Moment-to-moment measurement of behaviour through smartphones, wearables and online platforms to infer aspects of mental state and everyday functioning."
+  - term: "Passive, active and hybrid data streams"
+    definition: "Data collected automatically as people use devices (passive), data people provide deliberately, such as momentary self-reports (active), and planned designs that link the two (hybrid)."
+  - term: "Incremental validity"
+    definition: "The extent to which a new measurement approach, such as a model trained on digital traces, improves prediction beyond existing tools such as questionnaires."
+  - term: "Multimodal fusion"
+    definition: "Combining data types such as logs, sensor data and text in one model, either before modelling (early fusion), after separate models (late fusion) or inside the model (intermediate fusion)."
+  - term: "I-PACE model"
+    definition: "The interaction of person&ndash;affect&ndash;cognition&ndash;execution model, which explains how reward sensitivity, mood regulation and executive control shape the move from recreational to problematic use (Brand et al.)."
+
+open_science:
+  - { label: "Published version", note: "Nature Reviews Psychology (Springer Nature)", url: "https://doi.org/10.1038/s44159-026-00604-8" }
+
+tables:
+  - id: "A"
+    title: "Digital trace data streams covered by the Review (summary of its Table 1)"
+    columns: ["Data stream", "Collection methods", "What they capture"]
+    align: ["left", "left", "left"]
+    rows:
+      - ["Active (provided by the participant)", "Ecological momentary assessment; experience sampling; in-app brief surveys; embedded questionnaires; digital diaries", "Mood, craving or urge, context, motives, perceived control, consequences or harm"]
+      - ["Passive (captured automatically)", "Wearables and passive syncing; digital well-being logs; research sensing apps; device telemetry; platform application programming interfaces; data exports; consent-based scraping; server logs", "Activity and sleep, heart rate; screen on/off, app use, notifications and response latency, app switching; clickstreams, navigation, in-game telemetry and purchases; social-graph signals; text and content metadata"]
+      - ["Hybrid (both, linked)", "Passive sensing combined with active reporting in planned designs, for example prompts triggered by long sessions or frequent checking", "Whether logged engagement matches momentary craving, stress or perceived loss of control"]
+    note: "Summarised for this page from the Review&rsquo;s Table 1 and text."
+  - id: "B"
+    title: "Machine learning methods covered by the Review (summary of its Table 2)"
+    columns: ["Type", "Technique", "Example use in the studies reviewed"]
+    align: ["left", "left", "left"]
+    rows:
+      - ["Unsupervised", "Clustering", "User&ndash;avatar bond profiles and Proteus-effect avatar profiles linked to disordered gaming"]
+      - ["Unsupervised", "Dimensionality reduction", "Simplifying multimodal clinical, PET and EEG features before predicting internet gaming disorder"]
+      - ["Unsupervised", "Topic models", "Themes in the Twitter debate on gaming disorder and in recovery narratives on Reddit"]
+      - ["Supervised", "Regularized linear regression", "Predicting gaming disorder scores from open-ended text responses"]
+      - ["Supervised", "Support vector machines", "Classifying internet gaming disorder from multimodal clinical, PET and EEG features"]
+      - ["Supervised", "k-nearest neighbours", "Comparator model when predicting gaming disorder risk from user&ndash;avatar bond indicators"]
+      - ["Supervised", "Single decision tree", "Interpretable rules for problematic internet game use and smartphone addiction screening"]
+      - ["Supervised", "Random forests", "Concurrent and 6-month gaming disorder risk from user&ndash;avatar bond, age and gaming involvement"]
+      - ["Supervised", "Gradient boosting", "Nonlinear risk models from behavioural, psychometric or clinical predictors"]
+      - ["Supervised", "Deep learning", "Internet gaming disorder severity from heart-rate-variability reactivity to gaming cues and other physiological signals"]
+    note: "Summarised for this page from the Review&rsquo;s Table 2 and Figure 2."
+
+related:
+  - "10.1038/s41598-025-33991-8"
+  - "10.1016/j.jpsychires.2023.12.038"
+  - "10.1556/2006.2024.00063"

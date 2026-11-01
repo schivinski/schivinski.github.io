@@ -35,7 +35,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 14 | 2027 | More alike than unalike: Contextually aligned authority arguments amplify sustainable c… | Food Quality and Preference | 0 | locked (`more-alike-than-unalike`) |
 | 15 | 2026 | Individualism and the desire for unique consumer products: the roles of need for unique… | Journal of Product & Brand Management | 1 | locked (`individualism-desire-unique-consumer-products`) |
 | 16 | 2026 | Language of change in online narratives of recovery from disordered gaming | Scientific Reports | 3 | locked (`language-of-change-disordered-gaming-recovery`) |
-| 17 | 2026 | Machine learning of digital traces to detect risk for behavioural addictions online | Nature Reviews Psychology | 0 |  |
+| 17 | 2026 | Machine learning of digital traces to detect risk for behavioural addictions online | Nature Reviews Psychology | 0 | locked (`digital-traces-machine-learning-behavioural-addictions`) |
 | 18 | 2026 | The role of videogame genre and platform in gaming disorder tendencies: A large-scale w… | Journal of Behavioral Addictions | 0 | locked (`videogame-genre-platform-gaming-disorder`) |
 | 19 | 2026 | Wine Online and Digital Decanting: Naturalness Effects in Large-Scale Consumer Reviews … | Wine Economics and Policy | 0 | locked (`wine-naturalness-online-reviews`) |
 | 20 | 2025 | A longitudinal analysis of the network structure of internet gaming disorder and its as… | Behaviour and Information Technology | 6 |  |
