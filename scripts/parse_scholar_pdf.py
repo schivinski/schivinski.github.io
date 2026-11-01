@@ -34,22 +34,26 @@ def parse(pdf):
                     continue
                 lines.append((l["bbox"][0], l["bbox"][1], round(l["spans"][0]["size"], 1), t))
         lines.sort(key=lambda x: (x[1], x[0]))
+        page_rows, nums = [], []
         for x, y, size, t in lines:
             if y < 50 or y > 810 or t.startswith(("TYTUŁ", "CYTOWANE", "ROK", "10/10", "https://", "‪Bruno")):
                 continue
-            if size >= 9.5 and x < 60:
+            if size >= 8.8 and x < 60:
                 if cur is None or cur["stage"] != "title":
-                    cur = {"title": t, "stage": "title", "meta": [], "count": 0, "year": None}
-                    rows.append(cur)
+                    cur = {"title": t, "stage": "title", "meta": [], "count": 0, "year": None, "y": y}
+                    rows.append(cur); page_rows.append(cur)
                 else:
                     cur["title"] += " " + t
-            elif cur is not None and x < 60 and size < 9.5:
+            elif cur is not None and x < 60 and size < 8.8:
                 cur["stage"] = "meta"
                 cur["meta"].append(t)
-            elif cur is not None and x > 520 and re.fullmatch(r"(19|20)\d\d", t):
-                cur["year"] = int(t)
-            elif cur is not None and 470 < x < 520 and re.fullmatch(r"\d{1,5}", t):
-                cur["count"] = int(t)
+            elif x > 520 and re.fullmatch(r"(19|20)\d\d", t):
+                nums.append(("year", y, int(t)))
+            elif 470 < x < 520 and re.fullmatch(r"\d{1,5}", t):
+                nums.append(("count", y, int(t)))
+        for kind, y, v in nums:      # a count/year line belongs to the row whose title starts nearest to it
+            if page_rows:
+                min(page_rows, key=lambda r: abs(r["y"] - y))[kind] = v
     out = []
     for r in rows:
         meta = r["meta"]
@@ -84,6 +88,12 @@ def main(pdf, as_of):
                 dup_counts.append(r["citations"])
         else:
             papers[k] = r["citations"]
+    if len(rows) >= 100:     # Scholar prints at most 100 rows per page: works below the cut keep their earlier (small) counts
+        old = (yaml.safe_load((ROOT / "data" / "scholar.yml").read_text()) or {}).get("papers") or {}
+        cut = min(r["citations"] for r in rows)
+        for k, v in old.items():
+            if k not in papers and v <= max(cut, 1) + 2:
+                papers[k] = v
     allc = sorted([r["citations"] for r in rows], reverse=True)
     h = sum(1 for i, c in enumerate(allc, 1) if c >= i)
     print(len(rows), "rows;", len(papers), "matched works;", len(dup_counts), "duplicate rows;", len(unmatched), "unmatched;",
