@@ -361,8 +361,8 @@ TWICE_WEEKLY_FROM = 43   # Bruno, 27 Oct 2026: issues come out every Monday and 
 def dateline(d: dict) -> str:
     """The issue's date as readers see it: 'Week of 12 January 2026' up to issue 42, then the day itself
     ('Monday 2 November 2026', 'Thursday 5 November 2026'). Look-back issues show the paper's own date."""
-    if is_lookback(d):
-        return f"Paper published {long_date(d['week_of'])}"
+    if is_lookback(d):   # 'dateline:' overrides, e.g. for a paper first online earlier but in a 2025 journal issue
+        return d.get("dateline") or f"Paper published {long_date(d['week_of'])}"
     if int(d["issue"]) >= TWICE_WEEKLY_FROM:
         x = dt.date.fromisoformat(d["week_of"])
         return f"{x.strftime('%A')} {long_date(d['week_of'])}"
@@ -820,7 +820,7 @@ def write_years(live: list, back: list, data: list) -> None:
     sub = f"A look back at the marketing studies of {LOOKBACK}, explained for practitioners"
     desc = (f"Marketing research published in {LOOKBACK}, one study per issue: what each paper found, how to apply it "
             "and what results to expect, in plain English.")
-    items = sorted(back, key=lambda d: d["number"])
+    items = sorted(back, key=lambda d: d["number"], reverse=True)   # newest first, as on the 2026 tab (Bruno, 2 Nov 2026)
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "CollectionPage", "@id": url, "url": url, "name": title, "description": desc,
          "isPartOf": {"@type": "Blog", "name": "Marketing in 3", "url": f"{SITE}/watch/"},
@@ -837,12 +837,7 @@ def write_years(live: list, back: list, data: list) -> None:
           "image": og,
           "open-graph": {"title": title, "description": desc, "image": og, "image-width": 1200, "image-height": 630},
           "twitter-card": {"title": title, "description": desc, "card-style": "summary_large_image", "image": og}}
-    n = len(items)
-    word = "study" if n == 1 else "studies"
-    body_html = (f'<p class="mw-topic-intro">The marketing research of {LOOKBACK}, one paper at a time: {n} {word} from the '
-                 'leading journals, each explained in plain English with steps you can apply today. Every issue is dated '
-                 'by the day its paper was first published.</p>'
-                 + year_bar(LOOKBACK, "../", ycounts)
+    body_html = (year_bar(LOOKBACK, "../", ycounts)   # no intro paragraph (Bruno, 2 Nov 2026)
                  + topic_bar(topic_counts(data), "", "../")
                  + '<div class="watch-list">' + "".join(card(d, "../") for d in items) + "</div>")
     text = ("---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)

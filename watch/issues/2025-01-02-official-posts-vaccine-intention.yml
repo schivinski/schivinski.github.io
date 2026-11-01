@@ -1,0 +1,234 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+# Bruno's own paper (co-authored), added to the 2025 tab on his instruction of 2 Nov 2026, with the digital marketing
+# angle drawn out. First published online 27 March 2023; in a 2025 journal issue (31(1), 2 January 2025), so it is dated
+# by the journal issue. Written in his first person with one reflective section (guide: "Bruno's own papers").
+# No author emails (2025 tab, and Bruno's own paper).
+series: 2025
+number: 1                       # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-01-02"            # the day the journal issue was published (Crossref published-print); orders the tab
+dateline: "Journal issue published 2 January 2025"
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: official-posts-vaccine-intention
+status: live
+
+title: "Whose social media posts persuade people, official accounts or ordinary users? What a Journal of Marketing Communications study of COVID-19 vaccine decisions found"
+dek: >-
+  During Australia's 2021 vaccine rollout, we asked 428 adults how they rated vaccine information from official accounts
+  and from other users on social media. Official posts lifted intentions by making people surer of the jab's protection
+  and safety. Posts from other users counted only when they did the same.
+short_title: "Official posts persuade by building belief"
+
+description: >-
+  Park et al. surveyed 428 Australians: official social media posts lifted vaccine intentions by building belief in
+  efficacy and safety; user posts did not.
+
+keywords: [social media communication, official sources, user-generated content, source credibility, health communication,
+  vaccine hesitancy, COVID-19 vaccination, misinformation, trust in social media, persuasion, Journal of Marketing Communications]
+topics: [Social media, UGC]
+
+image:
+  file: 2025-official-posts-vaccine-intention.jpg
+  og: 2025-official-posts-vaccine-intention-og.jpg
+  alt: "A man in a white sleeveless top holds his upper arm, a small plaster across it, in soft window light"
+  caption: "A small plaster, and behind it a chain of posts, feeds and conversations. Photo: Towfiqu barbhuiya on Unsplash."
+
+short_answer: >-
+  Official accounts, and mostly through belief. In our survey of 428 adults in Australia during the 2021 vaccine rollout,
+  people who rated official social media information more positively were more willing to be vaccinated, largely because
+  they were more convinced the vaccine works and is safe. Posts from friends and other users had no direct link with
+  intentions at all; they helped only by shifting those same two beliefs. Fear of the virus made no difference.
+
+takeaways:
+  - "Posts and beliefs together accounted for 73% of the differences in people's intention to be vaccinated."
+  - "Believing the vaccine works was the strongest driver, almost four times as strong as believing it is safe."
+  - "Official-source posts had about three times the overall link with intentions that user posts had, and the user-post link fell short of statistical significance."
+  - "On average, respondents had talked about vaccines with about 17 people on social media in the previous month."
+
+paper:
+  doi: "10.1080/13527266.2023.2191618"
+  title: "The effect of social media communication on intention to vaccinate against COVID-19: A relationship mediated by perceptions of vaccine efficacy and safety"
+  authors: ["Park, D.", "Schivinski, B.", "Duns-McKay, H.", "Heeren, B.", "McLachlan, E."]
+  authors_full: ["Dooyeon Park", "Bruno Schivinski", "Hilary Duns-McKay", "Bartholomew Heeren", "Elizabeth McLachlan"]
+  year: 2025
+  journal: "Journal of Marketing Communications"
+  volume: "31"
+  issue: "1"
+  pages: "1-20"
+  online: "2023-03-27"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline and affiliation); ORCID from Crossref
+    - name: "Dooyeon Park"
+      affiliation: "School of Media and Communication, RMIT University, Melbourne, Australia"
+      orcid: ""
+    - name: "Bruno Schivinski"
+      affiliation: "School of Media and Communication, RMIT University, Melbourne, Australia"
+      orcid: "0000-0002-4095-1922"
+    - name: "Hilary Duns-McKay"
+      affiliation: "School of Media and Communication, RMIT University, Melbourne, Australia"
+      orcid: ""
+    - name: "Bartholomew Heeren"
+      affiliation: "School of Media and Communication, RMIT University, Melbourne, Australia"
+      orcid: ""
+    - name: "Elizabeth McLachlan"
+      affiliation: "School of Media and Communication, RMIT University, Melbourne, Australia"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One online survey of 428 adults in Australia analysed with structural equation modelling (Bruno's own paper)"
+
+sections:
+  - h: "What we did"
+    body: |
+      Dooyeon Park, Hilary Duns-McKay, Bartholomew Heeren, Elizabeth McLachlan and I, all at the School of Media and
+      Communication at RMIT University in Melbourne, wanted to settle a question that kept coming up during the pandemic. Is
+      social media good or bad for vaccine uptake? Earlier studies pointed both ways. Our hunch was that they treated social
+      media as one thing, when in fact it carries two very different voices: official accounts, such as news organisations and
+      government pages, and ordinary users, such as friends and family.
+
+      The project grew out of a research course in RMIT's Master of Advertising. We ran an online survey in late August and early
+      September 2021, while Australia's rollout was under way and fewer than six in ten people had their first dose. The link
+      went out through local Facebook groups and personal pages that had nothing to do with COVID-19, and respondents passed it
+      on. People rated how they felt about vaccine information on social media from each type of source, and how convinced they
+      were that the vaccine works, that it is safe, and that the virus is a real risk to them. Finally, they told us how ready
+      they were to be vaccinated, boosters included.
+    facts:
+      - ["Sample", "428 adults living in Australia, aged 16 to 79, average age 46; 53% women"]
+      - ["Recruited", "Through Facebook groups and pages unrelated to COVID-19, then shared on by respondents; 554 surveys collected, 428 usable"]
+      - ["Vaccination status", "27% had one dose, 47% two, 18% none at the time"]
+      - ["Two voices", "Official sources (news organisations, government accounts) and user-generated posts (friends, family, other users)"]
+      - ["Beliefs", "Confidence in the vaccine's protection and safety, and the perceived threat of COVID-19"]
+      - ["Analysis", "Structural equation model with age, gender and time on social media held constant"]
+
+  - h: "Official posts work through belief"
+    body: |
+      The more favourably someone judged official accounts' vaccine information, the more convinced they were on both counts
+      that mattered: that the vaccine protects, and that it carries little danger. Those two beliefs then carried most of the link through to intentions.
+      Once they were taken into account, only a small and statistically uncertain direct link was left.
+
+      In marketing terms, the official account did not persuade by repeating "get vaccinated". It persuaded by making people
+      more sure of what the product does and that it will not hurt them. The credibility that news organisations and public
+      bodies already had did not stay behind on their websites; it came with them onto social media.
+    chart: beliefs
+
+  - h: "User posts matter only when they change minds"
+    body: |
+      We expected posts from ordinary users to pull intentions down, given how much misleading material circulated at the
+      time. That is not what we found. How people rated user posts was unrelated to their intentions in any direct way.
+
+      They did have an indirect one. People who rated user posts more positively also trusted the jab's effect and its safety a
+      little more, and through those beliefs, were more willing to take it. So user-generated content was neither a villain nor a
+      driver in its own right. It was a channel, and what counted was whether it carried belief in the product's efficacy and
+      safety. An earlier influenza study had found the opposite for material shared by friends and relatives, which may reflect the different disease and the broader
+      question that study asked.
+    chart: routes
+
+  - h: "Fear did not move people"
+    body: |
+      Official posts did raise people's sense that COVID-19 was a risk to them and those around them. But that sense of risk
+      did not translate into a stronger intention to be vaccinated, from either source.
+
+      For anyone tempted to sell through fear, this is a useful caution. In our data, confidence in the solution did the
+      persuading, not alarm about the problem.
+
+  - h: "What this means in a feed full of AI"
+    body: |
+      We collected these answers in 2021, when the worry was misinformation passed between friends. My sense is that the
+      question has only become sharper. A convincing post can now be written and illustrated by AI in seconds, and many
+      people meet health, finance and technology advice in a feed rather than from an expert. When anyone can sound
+      official, the real official account becomes more valuable, not less.
+
+      The lesson I take for brands goes well beyond vaccines. Wherever buyers hesitate over effectiveness and safety, the
+      brand's own channels have to answer both plainly and with evidence: a new medicine or supplement, an
+      investment app, a child's car seat, an AI tool handling personal data. Customers' own posts will not rescue a weak
+      case, but they can spread a strong one. That is my reading of the findings, not something the survey tested
+      directly.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Write down the two doubts", "List the questions people ask before they commit, sorted into two piles: does it work, and is it safe. Pull the ten most common versions of each from your comments, reviews and support inbox."]
+  - ["Make one account the source of answers", "Pick the official account that will answer those questions and put a named expert or spokesperson behind it. Post from it at least once a week so people know where checked answers live."]
+  - ["Lead with proof that it works", "Build each post around one plain piece of evidence that the product does its job, such as a test result, a demonstration or an independent review. Do not lean on warnings about what happens if people do nothing."]
+  - ["Answer each safety worry in its own post", "Write a short post for every common safety concern: what is known, what is not yet known, and where to check. Use your customers' words, not technical terms."]
+  - ["Make it easy to pass on", "Shape official posts so followers can forward them to friends and family in one tap: one clear image, one claim, one link. Ask your most engaged customers to share them."]
+  - ["Track belief, not just reach", "Each month, ask a sample of followers two questions: how well do you think it works, and how safe is it? Check whether those two scores rise among people who saw your posts."]
+
+expect:
+  - "**Watch belief first.** Progress shows up as growing confidence in the product's benefits and its safety; in this study that is the route intentions moved along."
+  - "**Credibility travels with you.** An organisation already trusted offline can carry that trust onto social platforms, provided the account is clearly its own."
+  - "**Fans multiply, they do not originate.** Customer posts help most when they carry your evidence onwards rather than replacing it."
+  - "**Fear has a ceiling.** Raising alarm can make people feel the risk without making them act."
+
+limits:
+  - "**A single snapshot.** The data show links, not cause and effect, and they were collected in the urgent middle of the pandemic."
+  - "**Not a representative sample.** People came through Facebook and passed the survey on, so the sample leans towards active social media users in Australia."
+  - "**Ratings, not exposure.** We measured how positively people rated each source's information, not how many posts they actually saw."
+  - "**Two broad voices.** News outlets, government pages and doctors were grouped as official sources; user posts that shared official content were not separated from users' own opinions."
+  - "**Moods change.** Attitudes to vaccines, and to boosters in particular, have shifted since, so the strength of each link may differ today."
+
+faq:
+  - q: "Does social media help or hurt vaccine uptake?"
+    a: "It depends on whose voice people are hearing. In our 2021 survey, positive ratings of official accounts went with stronger intentions to be vaccinated, while user posts showed no direct connection (Park et al., 2025)."
+  - q: "Do posts from friends and family change health decisions?"
+    a: "Only through what they make people believe. Their whole influence passed through people's belief in the jab's effectiveness and safety, which means accurate posts from ordinary users can help."
+  - q: "Do fear-based messages work on social media?"
+    a: "Not in this study. Official posts heightened the sense that the virus was a threat, yet that feeling did nothing for willingness to be vaccinated. Confidence in the remedy mattered instead."
+  - q: "What can brands learn from vaccine communication?"
+    a: "When buyers worry whether something works and whether it is safe, the brand's official channels should carry the evidence on both points, and customers should be given something solid to pass on."
+  - q: "How was social media communication measured?"
+    a: "With an adapted version of an earlier scale of mine with Dariusz Dabrowski, which asks how satisfied people are with information from a source, how well it meets their expectations, and how they feel about it overall. It was asked separately for official and user-generated content."
+
+also:
+  - doi: "10.1108/jrim-05-2024-0268"
+    title: "Examining CSR communication on social media during a victim crisis: a machine learning based text analytics approach"
+    authors: "Yang, Basile, & Zhao"
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2025
+    text: >-
+      Machine learning applied to 18,502 Facebook posts by top global brands, from before and during the pandemic, showed firms
+      stepping up their social responsibility messages and matching different strategies to different topics. Proactive,
+      accommodating and interactive approaches lifted the positivity and strength of customer comments, more so for some
+      industries than others. A crisis rewards brands that talk with people rather than at them.
+  - doi: "10.1002/mar.22165"
+    title: "AI Chatbot, Human, and In‐Between: Examining the Broader Spectrum of Technology‐Human Interactions in Driving Customer‐Brand Relationships Across Experience and Credence Services"
+    authors: "Sheng, Natalia, & Rusfian"
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Two experiments with real chat sessions compared a chatbot replacing staff, a chatbot assisting staff, and a human agent.
+      Full replacement pushed customers away from the brand in every case. For services judged on the experience, the assisted
+      chatbot beat the human; for expert services that customers cannot easily evaluate, it simply matched one. Keep a person
+      in the loop where trust is at stake.
+
+charts:
+  beliefs:
+    title: "How strongly positive ratings of each source went with each belief (standardised effect)"
+    scale: [0, 0.3]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Official posts: the vaccine works", 0.29, true]
+      - ["Official posts: the vaccine is safe", 0.28, true]
+      - ["Official posts: COVID-19 is a risk", 0.20, false]
+      - ["User posts: the vaccine works", 0.14, false]
+      - ["User posts: the vaccine is safe", 0.15, false]
+      - ["User posts: COVID-19 is a risk", 0.04, false]
+    source: "Structural model, 428 adults. All links significant except user posts and risk."
+  routes:
+    title: "How each source's link to vaccine intention travelled (indirect effect)"
+    scale: [0, 0.2]
+    step: 0.05
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Official, via belief it works", 0.16, true]
+      - ["Official, via belief it is safe", 0.04, false]
+      - ["Official, via sense of risk", 0.01, false]
+      - ["User, via belief it works", 0.08, true]
+      - ["User, via belief it is safe", 0.02, false]
+      - ["User, via sense of risk", 0.01, false]
+    source: "5,000 bootstrap samples. Both routes through belief were significant for each source; neither route through risk was."
+
+related_pages: [social-media-covid-vaccination-intention]

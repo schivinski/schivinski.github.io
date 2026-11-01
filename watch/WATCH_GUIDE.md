@@ -257,7 +257,7 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   published online and readers see "Paper published 6 January 2025" (`dateline()`); the kicker reads
   "Marketing in 3 · 2025 in research · No. 1 · ...". Metadata (JSON-LD datePublished, Open Graph, sitemap) carry the real
   day the page went live, from `published:`.
-- **Plan:** 52 issues, roughly one paper per week of 2025, numbered 1 to 52 in order of the papers' online dates.
+- **Plan:** 52 issues, roughly one paper per week of 2025, numbered 1 to 52 in order of the papers' dates.
   Open-access papers only (Creative Commons licence), read in full; Unsplash photos, people every two or three issues.
 - **Fields:** `series: 2025`, `number: N` (never `no:`, which YAML reads as false), `week_of:` = the paper's first online
   date (Crossref `created`, checked against the publisher page, which wins), `published:` = go-live date. No `issue:` field:
@@ -270,3 +270,11 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   date, never used before. Heading reads "Also new at the time".
 - **No author emails** for 2025 issues; log them as "no email (2025 tab)" in claude/mkt3-author-log.md.
 - Every other rule in this guide applies (writing, how_to, citations, authors, evidence level, overlap check, scope).
+- **Order and page (Bruno, 2 Nov 2026):** the tab lists issues newest first, like the 2026 tab, with no intro paragraph above
+  the year switch. Numbers still run in date order (No. 1 is the earliest paper), so an issue added for an earlier date
+  shifts the numbers after it; renumber before publishing.
+- **Bruno's own papers (Bruno, 2 Nov 2026):** he adds two of his own papers to the year, contextualised for the digital
+  marketing theme and written in his first person with one reflective section (as in "Bruno's own papers" above). A paper
+  first online earlier but printed in a 2025 journal issue is dated by that issue: `week_of:` = Crossref published-print,
+  plus `dateline: "Journal issue published 2 January 2025"` (the builder shows it in place of "Paper published ...").
+- **Images** for the tab are named by slug: `watch/images/2025-<slug>.jpg` and `-og.jpg`.

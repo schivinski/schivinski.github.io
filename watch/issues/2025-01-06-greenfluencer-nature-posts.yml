@@ -1,7 +1,7 @@
 # Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
 # Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
 series: 2025
-number: 1                       # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+number: 2                       # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
 week_of: "2025-01-06"            # the day the paper was first published online (shown as "Paper published ...")
 published: "2026-11-02"          # the day this page went live (metadata only, never shown)
 slug: greenfluencer-nature-posts
@@ -23,8 +23,8 @@ keywords: [greenfluencers, green influencers, sustainability marketing, nature p
 topics: [Influencers, Social media, Creative]
 
 image:
-  file: 2025-01-greenfluencer-nature-posts.jpg
-  og: 2025-01-greenfluencer-nature-posts-og.jpg
+  file: 2025-greenfluencer-nature-posts.jpg
+  og: 2025-greenfluencer-nature-posts-og.jpg
   alt: "A hiker in a blue cap and backpack photographs a turquoise mountain lake framed by pine trees and grey cliffs"
   caption: "One picture of a lake can do more for the climate than a lecture about carbon. Photo: Darin Wicentowich on Unsplash."
 

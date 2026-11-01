@@ -1,7 +1,7 @@
 # Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
 # Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
 series: 2025
-number: 2                       # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+number: 3                       # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
 week_of: "2025-01-13"            # the day the paper was first published online (shown as "Paper published ...")
 published: "2026-11-02"          # the day this page went live (metadata only, never shown)
 slug: emoji-emotion-detection
@@ -22,8 +22,8 @@ keywords: [emotion detection, emotion analysis, sentiment analysis, social liste
 topics: [Social media, AI, Research methods]
 
 image:
-  file: 2025-02-emoji-emotion-detection.jpg
-  og: 2025-02-emoji-emotion-detection-og.jpg
+  file: 2025-emoji-emotion-detection.jpg
+  og: 2025-emoji-emotion-detection-og.jpg
   alt: "Close-up of a screen full of yellow emoji faces, with a smiling face surrounded by small red hearts in sharp focus"
   caption: "Every one of these faces is a label someone chose for their own feelings. Photo: Domingo Alvarez E on Unsplash."
 
