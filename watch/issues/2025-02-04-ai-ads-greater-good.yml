@@ -1,0 +1,217 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 4                       # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-02-04"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: ai-ads-greater-good
+status: live
+
+title: "Do AI-made ads hurt a brand, and can a sense of purpose soften the blow? What an International Journal of Advertising study found"
+dek: >-
+  Learning that a campaign came out of an AI tool makes people think a little less of the brand behind it. Four experiments
+  with 972 Americans show that a brand seen to put society ahead of profit can win most of that trust back.
+short_title: "When AI ads cost trust, and how purpose wins it back"
+
+description: >-
+  Sands et al. find AI-made ads lower a brand's credibility, but a brand seen to lead for the greater good wins most of it
+  back, in four US experiments.
+
+keywords: [AI-generated ads, AI in advertising, AI aversion, generative AI advertising, brand credibility, brand attitude,
+  leadership for the greater good, corporate purpose, responsible AI, AI disclosure, International Journal of Advertising]
+topics: [AI, Advertising]
+
+image:
+  file: 2025-ai-ads-greater-good.jpg
+  og: 2025-ai-ads-greater-good-og.jpg
+  alt: "A smiling young woman in a caramel jumper looks down at her phone at a wooden café table, peeling turquoise brick behind her"
+  caption: "Who made the ad on the screen matters a little. What the brand stands for can matter more. Photo: Brooke Cagle on Unsplash."
+
+short_answer: >-
+  A little, and purpose helps. In four online experiments with 972 US adults, people who read that a coffee brand's new
+  campaign was made with AI judged the brand less credible and liked it less than people told a creative agency made it.
+  When the brand was also described as putting the wider community ahead of profit, most of the credibility gap closed,
+  and that goodwill carried through to intentions to buy.
+
+takeaways:
+  - "Learning that a campaign was AI-made cut the brand's credibility from 5.20 to 4.81 out of 7."
+  - "A brand known for leading for the greater good closed about 70% of the credibility gap between its AI-made and agency-made campaigns."
+  - "The same commitment did nothing for campaigns made by people: their credibility sat at about 5.2 with or without it."
+  - "These are modest shifts: whether the work was AI-made explained only 2% to 6% of the differences in how people rated the brand."
+
+paper:
+  doi: "10.1080/02650487.2025.2457080"
+  title: "Easing AI-advertising aversion: how leadership for the greater good buffers negative response to AI-generated ads"
+  authors: ["Sands, S.", "Demsar, V.", "Ferraro, C.", "Wilson, S.", "Wheeler, M.", "Campbell, C."]
+  authors_full: ["Sean Sands", "Vlad Demsar", "Carla Ferraro", "Sam Wilson", "Melissa Wheeler", "Colin Campbell"]
+  year: 2026
+  journal: "International Journal of Advertising"
+  volume: "45"
+  issue: "1"
+  pages: "27-47"
+  online: "2025-02-04"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Sean Sands"
+      affiliation: "Department of Management & Marketing, Swinburne University of Technology, Hawthorn, VIC, Australia"
+      orcid: "0000-0001-9192-3676"
+    - name: "Vlad Demsar"
+      affiliation: "Department of Management & Marketing, Swinburne University of Technology, Hawthorn, VIC, Australia"
+      orcid: "0000-0002-3161-3729"
+    - name: "Carla Ferraro"
+      affiliation: "Department of Management & Marketing, Swinburne University of Technology, Hawthorn, VIC, Australia"
+      orcid: "0000-0002-3134-6712"
+    - name: "Sam Wilson"
+      affiliation: "Department of Management & Marketing, Swinburne University of Technology, Hawthorn, VIC, Australia"
+      orcid: ""
+    - name: "Melissa Wheeler"
+      affiliation: "Graduate School of Business & Law, RMIT University, Melbourne, VIC, Australia"
+      orcid: "0000-0002-0319-1987"
+    - name: "Colin Campbell"
+      affiliation: "University of San Diego, San Diego, CA, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 4
+    basis: "Four online experiments with 972 US adults on Prolific (198, 387, 193, 194); manipulation pretests not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Sean Sands, Vlad Demsar, Carla Ferraro and Sam Wilson of Swinburne University of Technology in Melbourne, Melissa
+      Wheeler of RMIT University and Colin Campbell of the University of San Diego looked at a worry many marketing teams now
+      share. AI can produce ad content quickly and cheaply, but people are often uneasy when they find out a machine made it.
+      The team asked whether a brand's reputation for doing right by society could take the edge off that unease.
+
+      The setting was an invented US coffee company with more than 5,000 staff. Participants were given a brief account of the
+      firm's new campaign, made either with AI or by a creative agency. Some versions also described the company as committed
+      to "leadership for the greater good": putting decisions that help the community and society before making money.
+      People then rated the brand. Nobody saw an actual ad; the test was about what people think once they know how an ad was
+      made.
+
+      The first experiment measured the AI penalty on its own. The second crossed AI against the purpose statement. The third
+      used a lighter version of the purpose statement, and the fourth traced it all the way to purchase plans.
+    facts:
+      - ["Participants", "972 US adults recruited on Prolific, in four separate experiments"]
+      - ["Brand", "A fictitious coffee company, chosen so no one had prior feelings about it"]
+      - ["What changed", "Whether AI or an agency produced the campaign, and whether the firm was said to put society before profit"]
+      - ["Measured", "Brand credibility and attitude towards the brand on seven-point scales; purchase intention in the last study"]
+      - ["Checks", "Separate pretests confirmed people noticed the changes and found every version equally believable"]
+
+  - h: "The AI penalty is real but small"
+    body: |
+      In the first experiment, the AI-made version lowered both how believable and reliable the brand seemed and people's
+      liking for it. The second experiment found a larger drop of the same kind when no purpose statement was present.
+
+      Why would it matter who made an ad people never saw? The authors point to earlier work: people value a human hand
+      behind what brands say to them, and AI raises worries about privacy and about tools whose workings are hidden. Knowing
+      a machine was involved is enough to prompt some of that suspicion.
+
+  - h: "Purpose cushions the penalty"
+    body: |
+      The second experiment carries the main finding. For agency-made campaigns, describing the firm as committed to the
+      greater good changed almost nothing. For AI-made campaigns it made a clear difference to credibility and a smaller one to
+      liking, enough to shrink most of the distance between the two kinds of campaign.
+
+      One detail matters for practice. In this experiment, the purpose-driven brand also disclosed its AI use as part of that
+      commitment, while the other AI brand chose not to. The third experiment dropped any mention of disclosure and simply said
+      the firm wanted its AI to do good for society at large. Credibility and liking still rose.
+    chart: attitude
+
+  - h: "From goodwill to buying"
+    body: |
+      The fourth experiment showed every participant an AI-using brand and varied only the purpose statement. The effect on
+      intentions to buy ran in a chain: the purpose statement raised credibility, credibility raised liking, and liking raised
+      willingness to buy. There was no shortcut. On this evidence, a purpose claim helps sales only if it first makes the brand
+      more believable.
+    chart: subtle
+
+  - h: "The disclosure question"
+    body: |
+      The authors are frank about a tension. Telling people an ad was AI-made can trigger the penalty, so for now some
+      advertisers may prefer to say nothing unless they can explain what the AI did and why. They also expect regulators to
+      require disclosure before long, and advise brands to prepare open, plain explanations now. Pairing that openness with a
+      visible, genuine commitment to the community is, on this evidence, the safer route.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Ask how your audience feels about AI", "Before running AI-made creative, ask a sample of customers how they would feel to learn an ad was made with AI. Twenty short interviews or a quick poll of your followers will show whether feelings run strong."]
+  - ["List what your brand does for others", "Write down the concrete things your company does beyond profit, such as community programmes, fair sourcing or careful use of customer data. Keep only the ones you can prove."]
+  - ["Link your AI use to that commitment", "Wherever you mention AI, add one or two sentences on what it is for and who gains, such as more relevant offers or more staff time for customers. Skip vague claims about innovation."]
+  - ["Draft an honest AI note now", "Write a short, plain disclosure for AI-made ads before rules require one. Put it where people will see it, in the caption or on the landing page, not in small print."]
+  - ["Test the pairing before launch", "Show half of a test audience the AI-made ad with your purpose message and half the same ad without it. Compare how believable and likeable each group finds the brand."]
+  - ["Track trust each quarter", "Add two questions to your brand tracker: is this brand credible, and does it act for the good of society? Check both after every campaign that uses AI."]
+
+expect:
+  - "**A dent, not a crisis.** Revealing AI involvement lowered ratings by between 0.4 and 0.9 on the seven-step scales used."
+  - "**Purpose pays where AI is involved.** For work made by people, the same message added almost nothing."
+  - "**Belief comes before buying.** Any lift in purchase intentions travelled through credibility first, then liking."
+  - "**A long game.** The authors see responsible leadership as something built over time, so expect the cushion to grow with a track record rather than a slogan."
+
+limits:
+  - "**Descriptions, not ads.** Participants read about a campaign; nobody saw or heard real AI-made content."
+  - "**One invented brand, one category.** Established brands with loyal customers, or other product types, may react differently."
+  - "**Blunt cues.** People were told plainly about AI and about the firm's purpose. In daily life many would notice neither."
+  - "**Purpose and openness overlap.** In two of the experiments the purpose statement included disclosing AI use, so the two cannot be fully pulled apart there."
+  - "**Stated intentions.** Willingness to buy was asked, not observed in sales."
+
+faq:
+  - q: "Do consumers dislike AI-generated ads?"
+    a: "On average, somewhat. People who knew AI had produced the campaign rated the brand as less credible and less likeable than people told an agency made it, although the gap was modest (Sands et al., 2026)."
+  - q: "What is leadership for the greater good?"
+    a: "An approach in which a firm puts the interests of the broader community and society before financial success. Here it was measured by whether people felt the firm makes the world a better place and supports society's long-term welfare."
+  - q: "Should brands tell people when AI made their ads?"
+    a: "The authors see a short-term trade-off: disclosure can provoke the penalty unless it explains AI's role. They expect rules to require it, and a brand that pairs openness with a real commitment to the community fared better in their tests."
+  - q: "Does a purpose message help ads made by people as well?"
+    a: "Not in these experiments. Ratings of agency-made campaigns barely moved when the purpose statement was added; the benefit appeared only where AI was involved."
+  - q: "How does purpose turn into purchases?"
+    a: "Through a chain. The commitment made the brand more believable, that raised how much people liked it, and liking raised their stated willingness to buy."
+
+also:
+  - doi: "10.1177/00222437251318660"
+    title: "Cross-Channel Effects of Failure in a Retailer's Mobile App"
+    authors: "Narang, Shankar, & Narayanan"
+    journal: "Journal of Marketing Research"
+    year: 2025
+    text: >-
+      When a large omnichannel retailer's app went down unexpectedly, shoppers bought less often and spent less, a short-term loss
+      of up to $1.08 million with more erosion estimated later. The surprise was where the money went: store sales fell, because
+      people who browse in the app and buy in person stopped searching, while app buyers simply moved to the website. The app is
+      part of the store.
+  - doi: "10.1002/mar.22195"
+    title: "Algorithm-Generated Identity Labeling Promotes Identity-Consistent Product Preferences"
+    authors: "Shen, Hu, & Yin"
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Across three studies, identity labels given to shoppers pushed them towards matching products more strongly when an
+      algorithm assigned the label than when a person did. Shoppers expected algorithmic predictions to be accurate and identified
+      more with the label as a result. Labelling customers is persuasive, which is also a reason to label carefully.
+
+charts:
+  attitude:
+    title: "Liking for the brand, by who made the campaign and whether a purpose was stated (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Agency-made, no purpose stated", 5.33, false]
+      - ["Agency-made, purpose stated", 5.35, false]
+      - ["AI-made, no purpose stated", 4.51, false]
+      - ["AI-made, purpose stated", 4.87, true]
+    source: "Experiment 2, 387 US adults, values read from the published figure. The purpose statement mattered only for the AI-made campaign."
+  subtle:
+    title: "AI-made campaign: brand ratings with a lighter purpose statement (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Credibility, no purpose stated", 4.28, false]
+      - ["Credibility, purpose stated", 4.65, true]
+      - ["Liking, no purpose stated", 4.56, false]
+      - ["Liking, purpose stated", 5.04, true]
+    source: "Experiment 3, 193 US adults, every campaign AI-made, no mention of disclosure; values read from the published figure."
+
+related_pages: []
