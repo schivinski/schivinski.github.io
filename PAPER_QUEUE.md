@@ -38,7 +38,7 @@ otherwise Crossref. Only journal articles get full pages.
 | 17 | 2026 | Machine learning of digital traces to detect risk for behavioural addictions online | Nature Reviews Psychology | 0 | locked (`digital-traces-machine-learning-behavioural-addictions`) |
 | 18 | 2026 | The role of videogame genre and platform in gaming disorder tendencies: A large-scale w… | Journal of Behavioral Addictions | 0 | locked (`videogame-genre-platform-gaming-disorder`) |
 | 19 | 2026 | Wine Online and Digital Decanting: Naturalness Effects in Large-Scale Consumer Reviews … | Wine Economics and Policy | 0 | locked (`wine-naturalness-online-reviews`) |
-| 20 | 2025 | A longitudinal analysis of the network structure of internet gaming disorder and its as… | Behaviour and Information Technology | 6 |  |
+| 20 | 2025 | A longitudinal analysis of the network structure of internet gaming disorder and its as… | Behaviour and Information Technology | 6 | locked (`igd-distress-longitudinal-network`) |
 | 21 | 2025 | Consumer perceptions of date labelling and storage advice and its relationship with foo… | Future Foods | 32 |  |
 | 22 | 2025 | Online flow experience: The contribution of distinct depressive profiles. | Canadian Journal of Behavioural Science | 1 |  |
 | 23 | 2025 | The Internet Gaming Disorder Scale 9-Short Form: longitudinal measurement invariance ac… | Clinical Psychologist | 4 |  |

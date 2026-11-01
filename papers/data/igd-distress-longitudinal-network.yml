@@ -1,0 +1,221 @@
+# Paper page data. Schema and writing rules: see PAPER_PAGES.md
+# Source: full text, Behaviour & Information Technology 44(20), 4981-5001 (2025) (published PDF supplied by Bruno,
+# 1 Nov 2026). Open access under CC BY-NC-ND 4.0. Under a NoDerivatives licence the publisher's PDF would have to be
+# hosted unchanged, and it prints all five authors' email addresses (Bruno's included), so no copy is hosted here; the
+# page links to the free published version. The network figure is drawn from the edge weights in Tables 4 and 5.
+# Status: locked on Bruno's standing instruction to publish straight away
+status: locked
+
+title: "A longitudinal analysis of the network structure of internet gaming disorder and its associations with distress"
+doi: "10.1080/0144929X.2025.2504510"
+journal: "Behaviour & Information Technology"
+issn: "0144-929X"
+publisher: "Taylor & Francis"
+volume: "44"
+issue: "20"
+pages: "4981–5001"
+published: "2025-05-16"
+published_label: "2025 (online 16 May 2025)"
+open_access: true
+licence: "CC BY-NC-ND 4.0"
+licence_url: "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+
+authors:
+  - given: "Deon"
+    family: "Tullett-Prado"
+    affiliation: ["RMIT University"]
+  - given: "Bruno"
+    family: "Schivinski"
+    orcid: "0000-0002-4095-1922"
+    affiliation: ["Gdańsk University of Technology", "RMIT University"]
+    me: true
+  - given: "Dylan"
+    family: "Poulus"
+    affiliation: ["Southern Cross University"]
+  - given: "Mark D."
+    family: "Griffiths"
+    affiliation: ["Nottingham Trent University"]
+  - given: "Vasileios"
+    family: "Stavropoulos"
+    orcid: "0000-0001-6964-4662"
+    affiliation: ["RMIT University"]
+
+cite_short: "Tullett-Prado et al., 2025"
+badges: ["462 adult gamers", "Two waves, 12 months apart", "Network analysis", "Internet gaming disorder", "Depression, anxiety and stress"]
+keywords:
+  # Article's own keywords
+  - internet gaming disorder
+  - behavioural addiction
+  - psychological distress
+  - network analysis
+  - longitudinal
+  # What the study is about
+  - IGD symptoms
+  - IGDS9-SF
+  - DASS-21
+  - depression
+  - anxiety
+  - stress
+  - expected influence
+  - bridge centrality
+  - network comparison test
+  - escapism
+  - mood modification
+  - tolerance
+  - persistence
+  - gaming disorder
+  - secondary symptom debate
+
+in_brief: >-
+  Internet gaming disorder holds together as its own set of symptoms rather than being a side effect of depression,
+  anxiety or stress. Following 462 adult gamers over 12 months, we found that gaming symptoms connected mainly with each
+  other, and the main bridge to distress ran from using games to escape bad moods to depression.
+
+findings:
+  - headline: "Gaming disorder symptoms form their own cluster."
+    text: >-
+      In networks of the nine IGD symptoms and depression, anxiety and stress, connections within the gaming and
+      distress clusters were stronger than those between them, supporting IGD as a distinct construct (Tullett-Prado
+      et al., 2025).
+  - headline: "Escapism is the bridge to depression."
+    text: >-
+      The only notable link between the two clusters ran from escapism/mood modification to depression (edge weights
+      0.17 at both waves); escapism had the highest bridge influence of the gaming symptoms (Tullett-Prado et al.,
+      2025).
+  - headline: "Persistence is consistently central."
+    text: >-
+      At the first wave, inability to stop, persistence and tolerance (with stress) had the highest expected influence;
+      at the second, withdrawal and persistence led, with tolerance and stress next; escapism had the lowest
+      (Tullett-Prado et al., 2025).
+  - headline: "The network is stable over 12 months."
+    text: >-
+      Network comparison tests found no significant differences between the two waves in global structure (p = .27) or
+      global strength (p = .52), and stability coefficients were .60 to .75 (Tullett-Prado et al., 2025).
+
+glance:
+  - { label: "Design", value: "Two-wave online survey of English-speaking adult gamers, 12 months apart (first wave August 2020 to August 2021, second wave August 2021 to August 2022), recruited through social media, Reddit and a university learning system" }
+  - { label: "Participants", value: "968 gamers at the first wave and 462 at the second (mean age 30.8; 69.3% male), aged 18 to 64" }
+  - { label: "Measures", value: "Internet Gaming Disorder Scale&ndash;Short Form (IGDS9-SF; &alpha; = .87&ndash;.88) and the Depression, Anxiety and Stress Scale (DASS-21; &alpha; = .85&ndash;.94)" }
+  - { label: "Analysis", value: "Regularised (graphical lasso) networks in R (qgraph, networktools, bootnet), expected influence and bridge expected influence, case-dropping bootstrap stability, and the Network Comparison Test across waves" }
+  - { label: "Ethics", value: "Victoria University Human Research Ethics Committee (HRE20-169)" }
+  - { label: "Funding", value: "Australian Research Council Discovery Early Career Researcher Award (DE210101107); Victoria University Early Career Researcher Fund" }
+
+figures:
+  - file: figures/tullett-prado-et-al-2025-igd-distress-networks.svg
+    title: "Figure 1. Networks of gaming disorder symptoms and distress at both waves"
+    caption: >-
+      Drawn for this page from the edge weights printed in Tables 4 and 5 of the article (edges of at least 0.05).
+
+question: >-
+  Internet gaming disorder (IGD) is only provisionally recognised, and critics argue that it may be a secondary symptom
+  of depression or anxiety. We asked how the nine IGD symptoms relate to each other and to depression, anxiety and
+  stress, which symptoms are most central, and whether this network holds over 12 months.
+
+implications:
+  practical: >-
+    Treatment of IGD could focus on persistence and tolerance, gamers with problematic play should be screened for
+    distress, and interventions should address the use of gaming to cope with negative moods; dialectical behaviour
+    therapy or coping-focused cognitive behavioural therapy are suggested candidates. The results support the IGDS9-SF
+    for assessing problematic gaming.
+  theoretical: >-
+    IGD behaved as a construct distinct from psychological distress, supporting the behavioural addiction model.
+    Strong links between symptoms that mark addiction (salience, withdrawal, tolerance) and its consequences
+    (persistence, negative life outcomes) suggest that the nine-symptom framework could be simplified.
+
+limitations:
+  - "The sample was mostly male (about 70%) and Caucasian, from Western countries; cultural differences were not examined."
+  - "Self-report measures are open to social desirability and memory biases."
+  - "The gaming and distress clusters were assumed rather than detected; exploratory graph analysis could test them more robustly."
+  - "Future work: the order in which symptoms arise, how persistence and tolerance affect other symptoms, and mood modification, depression and anxiety as pathways between distress and IGD."
+
+faq:
+  - q: "Is internet gaming disorder just a symptom of depression or anxiety?"
+    a: >-
+      In a two-wave network study of adult gamers, IGD symptoms clustered separately from depression, anxiety and
+      stress, with one main link through escapism to depression, which the authors read as support for IGD as a
+      distinct disorder (Tullett-Prado et al., 2025).
+  - q: "How is gaming disorder linked to depression?"
+    a: >-
+      Mainly through escapism or mood modification, that is, using games to escape negative moods, which connected the
+      gaming symptoms to depression at both waves (Tullett-Prado et al., 2025).
+  - q: "Which gaming disorder symptoms are most central?"
+    a: >-
+      Persistence (continuing to game despite problems) was central at both waves, alongside inability to stop and
+      tolerance at the first wave and withdrawal at the second (Tullett-Prado et al., 2025).
+  - q: "Does the network of gaming disorder symptoms change over a year?"
+    a: >-
+      No significant differences were found between the two waves, 12 months apart (Tullett-Prado et al., 2025).
+
+concepts:
+  - term: "Network analysis of psychopathology"
+    definition: "An approach that treats a disorder as a network of interacting symptoms (nodes) linked by their associations (edges)."
+  - term: "Expected influence"
+    definition: "A centrality index: the sum of a node&rsquo;s edge weights, keeping their signs, showing how strongly a symptom is connected to the rest of the network."
+  - term: "Bridge expected influence"
+    definition: "The same index counting only edges to another cluster, here the links between gaming symptoms and distress."
+  - term: "Internet gaming disorder"
+    definition: "A condition for further study in the DSM-5, defined by nine symptoms such as preoccupation, withdrawal, tolerance, loss of control and continued gaming despite problems."
+
+open_science:
+  - { label: "Published version", note: "Behaviour &amp; Information Technology (open access, CC BY-NC-ND 4.0)", url: "https://doi.org/10.1080/0144929X.2025.2504510" }
+
+tables:
+  - id: "2–3"
+    title: "Descriptive statistics at both waves"
+    columns: ["Node", "T1 mean", "T1 SD", "T2 mean", "T2 SD", "T2 N"]
+    align: ["left", "right", "right", "right", "right", "right"]
+    rows:
+      - ["1 Preoccupation", "2.78", "1.19", "2.52", "1.07", "461"]
+      - ["2 Withdrawal", "1.89", "1.05", "1.82", "0.974", "461"]
+      - ["3 Tolerance", "2.15", "1.12", "1.85", "1.04", "461"]
+      - ["4 Unable to stop", "1.73", "1.02", "1.65", "0.942", "459"]
+      - ["5 Loss of interest", "2.11", "1.17", "1.96", "1.06", "460"]
+      - ["6 Persistence", "1.63", "1.06", "1.64", "1.00", "460"]
+      - ["7 Deception", "1.33", "0.805", "1.32", "0.756", "459"]
+      - ["8 Escapism / mood modification", "3.15", "1.24", "3.14", "1.16", "460"]
+      - ["9 Negative consequences", "1.33", "0.781", "1.30", "0.723", "460"]
+      - ["Depression (DASS-21)", "7.94", "5.94", "7.18", "6.10", "293"]
+      - ["Anxiety (DASS-21)", "4.25", "4.07", "4.23", "4.22", "292"]
+      - ["Stress (DASS-21)", "6.81", "4.72", "6.41", "4.72", "292"]
+    note: "From Tables 2 and 3 of the article. IGD items rated 1 (never) to 5 (very often); DASS-21 subscale scores 0 to 21. T1 N = 452&ndash;460."
+  - id: "4"
+    title: "Edge weights at the first wave (T1)"
+    collapsed: true
+    columns: ["", "1", "2", "3", "4", "5", "6", "7", "8", "9", "Dep", "Anx", "Str"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["1 Preoccupation", "", "0.218", "0.254", "0.025", "0.132", "0.071", "0", "0.081", "0", "0", "0", "&minus;0.015"]
+      - ["2 Withdrawal", "", "", "0.141", "0.347", "0.024", "0.008", "0.039", "0", "0", "0", "0", "0.082"]
+      - ["3 Tolerance", "", "", "", "0.140", "0.156", "0.065", "0", "0.212", "0", "0.073", "0", "0"]
+      - ["4 Unable to stop", "", "", "", "", "0.214", "0.247", "0.088", "0.047", "0.06", "0", "0", "0"]
+      - ["5 Loss of interest", "", "", "", "", "", "0.08", "0.065", "0.002", "0.127", "0.026", "0.007", "0"]
+      - ["6 Persistence", "", "", "", "", "", "", "0.351", "0", "0.266", "0.022", "0", "0"]
+      - ["7 Deception", "", "", "", "", "", "", "", "0", "0.156", "0", "0.035", "0"]
+      - ["8 Escapism", "", "", "", "", "", "", "", "", "0", "0.170", "0.043", "0.063"]
+      - ["9 Negative consequences", "", "", "", "", "", "", "", "", "", "0.021", "0.018", "0"]
+      - ["Depression", "", "", "", "", "", "", "", "", "", "", "0.191", "0.361"]
+      - ["Anxiety", "", "", "", "", "", "", "", "", "", "", "", "0.548"]
+    note: "Upper triangle of Table 4 of the article (the matrix is symmetric)."
+  - id: "5"
+    title: "Edge weights at the second wave (T2)"
+    collapsed: true
+    columns: ["", "1", "2", "3", "4", "5", "6", "7", "8", "9", "Dep", "Anx", "Str"]
+    align: ["left", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right", "right"]
+    rows:
+      - ["1 Preoccupation", "", "0.246", "0.122", "0.035", "0.08", "0.103", "0", "0.105", "0.016", "0", "0", "&minus;0.013"]
+      - ["2 Withdrawal", "", "", "0.277", "0.178", "0.063", "0.078", "0.119", "0", "0.087", "0", "0.01", "0"]
+      - ["3 Tolerance", "", "", "", "0.161", "0.082", "0.115", "0.087", "0.059", "0.000", "0", "0.063", "0"]
+      - ["4 Unable to stop", "", "", "", "", "0.163", "0.173", "0.123", "0.027", "0.012", "0", "0.039", "0"]
+      - ["5 Loss of interest", "", "", "", "", "", "0.191", "0.031", "0.124", "0.061", "0", "0", "0.025"]
+      - ["6 Persistence", "", "", "", "", "", "", "0.164", "0", "0.217", "0", "0", "0"]
+      - ["7 Deception", "", "", "", "", "", "", "", "0", "0.237", "0", "0.023", "0.013"]
+      - ["8 Escapism", "", "", "", "", "", "", "", "", "0", "0.174", "0.062", "0.067"]
+      - ["9 Negative consequences", "", "", "", "", "", "", "", "", "", "0", "0.093", "&minus;0.005"]
+      - ["Depression", "", "", "", "", "", "", "", "", "", "", "0.119", "0.467"]
+      - ["Anxiety", "", "", "", "", "", "", "", "", "", "", "", "0.464"]
+    note: "Upper triangle of Table 5 of the article (the matrix is symmetric; its last column is labelled &ldquo;Scale&rdquo; in the article and refers to stress)."
+
+related:
+  - "10.1186/s12888-022-03708-6"
+  - "10.1016/j.abrep.2018.06.004"
+  - "10.1016/j.socscimed.2022.114721"
