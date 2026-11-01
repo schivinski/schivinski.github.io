@@ -760,8 +760,12 @@ main section h2 { margin-top: 2.4rem; }
 .mw-topicbar a.chip[aria-current="page"] { background: $ink; border-color: $ink; color: #fff; }
 .mw-topicbar a.chip[aria-current="page"] .chip-n { color: $amber; }
 .mw-topic-intro { font-size: 1.05rem; color: $text; max-width: 46rem; }
-.mw-topic-page .mw-kicker a { color: inherit; text-decoration: none; }
-.mw-topic-page .mw-kicker a:hover { text-decoration: underline; }
+.mw-topic-page .mw-kicker a, .mw-page .mw-kicker a { color: inherit; font-weight: inherit; text-decoration: none; }
+.mw-topic-page .mw-kicker a:hover, .mw-page .mw-kicker a:hover { text-decoration: underline; }
+/* Year switch (2026 issues / 2025 in research), stacked just above the topic bar */
+.mw-yearbar { margin: 1.4rem 0 0; }
+.mw-yearbar + .mw-topicbar, .mw-yearbar + p + .mw-topicbar { margin-top: 1rem; }
+.mw-year-page .mw-topic-intro { max-width: 46rem; }
 .mw-more { margin-top: 2.4rem; }
 .mw-more-topics { color: $muted; font-size: .95rem; margin: -.2rem 0 .4rem; }
 .mw-more .watch-item { grid-template-columns: 11rem minmax(0, 1fr); gap: 1.1rem; padding-block: 1rem; }

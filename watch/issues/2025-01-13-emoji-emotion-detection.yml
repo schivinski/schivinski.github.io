@@ -1,0 +1,215 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 2                       # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-01-13"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: emoji-emotion-detection
+status: live
+
+title: "Can emojis reveal how customers really feel about a brand? What a Journal of Marketing study found"
+dek: >-
+  Most social listening tools stop at positive or negative. A free tool from WU Vienna first guesses which emojis a writer would
+  add, then turns those emojis into eight distinct emotions, and it reads comments closer to the way people do.
+short_title: "Reading customer emotions through emojis"
+
+description: >-
+  Hotz-Behofsits et al. built NADE, a free tool that reads eight emotions in text by way of emojis; it tracked 920 human raters
+  more closely than GPT-4 did.
+
+keywords: [emotion detection, emotion analysis, sentiment analysis, social listening, emojis, text analytics, NADE,
+  online reviews analysis, customer emotions, brand monitoring, headline testing, Journal of Marketing]
+topics: [Social media, AI, Research methods]
+
+image:
+  file: 2025-02-emoji-emotion-detection.jpg
+  og: 2025-02-emoji-emotion-detection-og.jpg
+  alt: "Close-up of a screen full of yellow emoji faces, with a smiling face surrounded by small red hearts in sharp focus"
+  caption: "Every one of these faces is a label someone chose for their own feelings. Photo: Domingo Alvarez E on Unsplash."
+
+short_answer: >-
+  They can, and more finely than a positive or negative score. Three marketing professors in Vienna trained a free tool, NADE, on
+  about 110 million emoji-tagged posts. It reads any short text, predicts the emojis a person would attach, then converts those into
+  eight emotions such as anger, fear, joy and trust. Against human judges it came closer than word-list tools, open-source AI
+  classifiers and GPT-4.
+
+takeaways:
+  - "Nearly 70% of studies in top marketing journals that pull feelings out of text still settle for positive versus negative."
+  - "In 285,839 tweets about Nike's Colin Kaepernick campaign, a standard tone score turned sharply negative, yet trust, joy and anticipation rose far more than any negative emotion."
+  - "Across 1.33 million YouTube videos, titles carrying fear, anger or anxiety went with more views, while joy, trust and anticipation went with fewer."
+  - "Word lists found anger, anxiety or sadness words in only about a third of those titles; the emoji route could score 88% to 95% of them."
+
+paper:
+  doi: "10.1177/00222429251315088"
+  title: "Natural Affect DEtection (NADE): Using Emojis to Infer Emotions from Text"
+  authors: ["Hotz-Behofsits, C.", "Wlömert, N.", "Abou Nabout, N."]
+  authors_full: ["Christian Hotz-Behofsits", "Nils Wlömert", "Nadia Abou Nabout"]
+  year: 2026
+  journal: "Journal of Marketing"
+  volume: "90"
+  issue: "5"
+  pages: "77-98"
+  online: "2025-01-13"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "Christian Hotz-Behofsits"
+      affiliation: "Institute for Retailing and Data Science, WU Vienna University of Economics and Business, Austria"
+      orcid: "0000-0003-1921-1978"
+    - name: "Nils Wlömert"
+      affiliation: "Institute for Retailing and Data Science, WU Vienna University of Economics and Business, Austria"
+      orcid: "0000-0002-7220-9060"
+    - name: "Nadia Abou Nabout"
+      affiliation: "Institute for Interactive Marketing and Social Media, WU Vienna University of Economics and Business, Austria"
+      orcid: "0000-0001-7172-5592"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 4
+    basis: "Validation against 920 human raters (2,605 tweets) plus three separately analysed applications: Nike tweets, YouTube titles, Amazon book reviews"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Christian Hotz-Behofsits, Nils Wlömert and Nadia Abou Nabout, all at WU Vienna University of Economics and Business, set out to
+      give marketers a cheap way to see which feelings sit behind customer comments. Most social listening dashboards label text as
+      good, bad or neutral. That hides a lot: an angry complaint and a sad one are both negative, yet they call for
+      different replies.
+
+      Their tool, NADE (Natural Affect DEtection), works in two steps. First it reads a sentence and ranks the emojis a writer would
+      most likely put next to it, whether or not the text contains any. Then it converts that emoji profile into intensity scores,
+      from zero to one, for eight basic emotions taken from a long-standing psychological model, plus 24 blends of them.
+
+      Because people tag their own posts with emojis, the training data label themselves. That removes the costly step of paying
+      people to annotate thousands of sentences, which is what holds most emotion classifiers back.
+    facts:
+      - ["Training data", "About 110 million single-sentence English posts with emojis, drawn from over 7 billion collected on Twitter"]
+      - ["Emojis", "151 faces, hearts and symbols from the standard \"Smileys & Emotion\" set"]
+      - ["Emotions", "Anger, fear, sadness, disgust, joy, surprise, trust and anticipation, each scored 0 to 1"]
+      - ["Benchmark", "920 online workers rated 2,605 tweets about large US listed companies, about eight raters per tweet"]
+      - ["Compared with", "Two word-list tools (NRC and LIWC), four freely available AI models and GPT-4"]
+      - ["Access", "Free web app plus Python and R packages; runs on an ordinary laptop and keeps the data on it"]
+
+  - h: "Why go through emojis at all"
+    body: |
+      Word-list tools score only the words in their dictionary, and social media is full of slang, typos and shorthand. In the
+      validation tweets, just 18% of the distinct words appeared in the leading emotion dictionary, and half the tweets contained no
+      dictionary word at all. Those tweets simply get no score.
+
+      Emojis sidestep the problem. A phrase like "I'm tired of this lol" has no entry in a dictionary, but the emojis people put next to
+      similar phrases do. The rarer emojis turned out to be the most telling: the faces that best separate mild annoyance from real anger
+      are outside the hundred most used. A tool that knows only the popular few would miss them.
+
+      There is also a practical gain. Unlike sending comments to a chatbot service, the scoring happens on the user's own computer, so
+      customer messages never leave the company.
+
+  - h: "How close it came to human judges"
+    body: |
+      The team compared every tool with the average ratings of the human panel. NADE had the smallest errors on all eight emotions.
+      On a second measure, which checks whether a tool rises and falls with the humans across tweets, it also led everywhere except
+      surprise, where GPT-4 edged ahead.
+
+      Its typical error was about as large as the disagreement between two human raters, which is as good as such a score can
+      reasonably get. The other tools showed a telling habit: they called many tweets either flat or extreme and missed the moderate
+      middle where most real comments sit. The pattern held for tweets with and without emojis.
+    chart: anger
+
+  - h: "Three tests on marketing data"
+    body: |
+      **Brand tracking.** The team pulled English tweets about Nike from the two weeks before and after its Colin Kaepernick campaign
+      began. A widely used tone score suggested a backlash. The emotion scores showed that much of the extra chatter expressed
+      confidence in and enthusiasm for the brand, a reading that would have changed how a brand team responded.
+
+      **Headlines.** On the 3,966 channels studied, a general negative tone in a title looked good for views. Split into emotions, the
+      picture changed: high-energy negative feelings helped, while sadness and disgust made no difference. The authors suggest drafting
+      several titles, perhaps with a chatbot, scoring them and keeping the version the model predicts will draw most viewers.
+
+      **Demand forecasting.** Star ratings say little when 63.6% of reviews give five stars. Using 6.6 million Amazon reviews of 5,000
+      books, the team forecast sales from ratings alone, then added emoji and emotion scores, other text tools, or both. The emoji scores
+      did most of the work, and NADE still improved forecasts that already used three established text tools.
+    chart: forecast
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Pick one stream of short texts", "Choose one place where customers write briefly, such as comments on your posts, product reviews or chat logs. Export the last three months into a spreadsheet, one message per row."]
+  - ["Decide which emotions matter", "Write down the two or three emotions that would change a decision. Anger matters to a complaints team; anticipation matters before a launch. Ignore the others for now."]
+  - ["Score the messages on your own computer", "Run the file through a free emotion scorer that works offline, so customer messages stay with you. Split long reviews into single sentences first and score each one."]
+  - ["Check 50 by hand", "Read 50 scored messages yourself, including some with jokes or sarcasm. If more than five look clearly wrong, use the scores as a rough guide rather than a verdict."]
+  - ["Watch emotions next to your mood score", "Each week, chart your chosen emotions beside your usual positive and negative score. When a spike hits, check which emotion moved before you reply: anger needs a fix, worry needs reassurance."]
+  - ["Test headlines against them", "Write five versions of your next title or subject line and score each one. Put the two that differ most into a split test, and keep a running list of which emotions won."]
+
+expect:
+  - "**A fuller reading of data you already have.** The same comments start to show which feeling is behind a dip, not just that sentiment fell."
+  - "**Fast to start.** No training data, no special hardware and no coding if you use the web app."
+  - "**Short texts work best.** Posts, titles and single sentences score cleanly. Whole reviews blur into many weak signals unless you split them."
+  - "**Modest forecasting gains.** Emotion scores add to what star ratings and other text tools already capture rather than replacing them."
+
+limits:
+  - "**English out of the box.** The app scores English text; other languages mean retraining the first step with the code."
+  - "**Trained on one platform's users.** If your customers use emojis differently from the people in the training data, compare a sample of scores with human readers before relying on them."
+  - "**Sarcasm and irony.** A laughing face on a complaint, or a crying face on a joke, can flip the meaning and mislead any automatic score."
+  - "**Links, not proof.** The YouTube and Amazon analyses show associations. They do not prove that changing a title's emotion will raise views."
+  - "**Emoji habits shift.** Meanings vary by age, culture and setting, and keyboard suggestions may make some emojis less informative over time."
+
+faq:
+  - q: "What is NADE and is it free?"
+    a: "NADE (Natural Affect DEtection) is a free emotion scorer with a web app and Python and R packages. It converts text into likely emojis and then into intensity scores for eight emotions and their combinations (Hotz-Behofsits, Wlömert & Abou Nabout, 2026)."
+  - q: "Is it more accurate than ChatGPT for emotion analysis?"
+    a: "On this benchmark, yes for most measures. Scored against people's ratings, GPT-4's error for anger was almost half as large again as NADE's, and NADE matched the human pattern better on seven of the eight emotions."
+  - q: "Why is sentiment analysis not enough?"
+    a: "Feelings with the same sign do different jobs. Earlier studies the authors cite found angry reviews are judged less helpful than sad ones, and that fear and anger spread news further than sadness. A single positive or negative score cannot separate them."
+  - q: "Which emotions in a video title attract more views?"
+    a: "Here, titles charged with high-energy negative feelings pulled in more viewers and warmer ones pulled in fewer, after allowing for each channel's popularity month by month. It is an association across many channels, so test it on your own content."
+  - q: "Does customer data leave my computer when I use it?"
+    a: "No. Once installed, the app does all its scoring on the device, which suits companies that cannot send customer text to outside AI services."
+
+also:
+  - doi: "10.1108/jrim-07-2024-0324"
+    title: "The role of creative strategies in enhancing consumer interaction with new product video advertising"
+    authors: "Niu, Ma, & Niu"
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2025
+    text: >-
+      A content analysis of 757 video ads for new tech products from six companies found an inverted U: response rose as ads combined
+      more creative strategies, then fell. The peak came at roughly three strategies per ad, for both small upgrades and genuinely new
+      products. Ads for the most novel products drew weaker responses overall. Three well-chosen angles beat a crowded script.
+  - doi: "10.1002/mar.22167"
+    title: "Is Virtual Reality Lonely? The VR–Isolation Stereotype and Its Impact on VR Adoption"
+    authors: "Slivkin, Elgaaied-Gambier, & Hamdi-Kidar"
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Implicit association tests showed that people who do not own a headset link virtual reality with being alone, and that this image
+      makes VR users seem less appealing to copy. The stereotype weakened when users were shown with other people in the same room, but
+      not when they met others inside VR. Show the headset in a living room full of friends.
+
+charts:
+  anger:
+    title: "How closely each tool's anger scores followed human ratings (cosine similarity, 0 to 1)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["NADE", 0.56, true]
+      - ["GPT-4", 0.51, false]
+      - ["EE-DistilRoBERTa", 0.37, false]
+      - ["NRC word list", 0.33, false]
+      - ["EmoRoBERTa", 0.21, false]
+      - ["PySentimiento", 0.19, false]
+      - ["LIWC-22", 0.14, false]
+    source: "Validation study, 2,605 tweets rated by 920 people. Higher means a tool's scores rise and fall with the humans'. DistilBERT omitted."
+  forecast:
+    title: "Share of differences in book sales predicted out of sample (%)"
+    scale: [0, 30]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Ratings and product facts only", 11.6, false]
+      - ["Plus NADE emotions", 14.9, false]
+      - ["Plus NADE emojis", 20.9, false]
+      - ["Plus emotions and emojis", 22.1, false]
+      - ["Plus three other text tools", 24.5, false]
+      - ["Plus other tools and NADE", 27.4, true]
+    source: "Amazon application, 5,000 books, ten-fold cross-validation. Adding NADE to the other tools was a significant gain."
+
+related_pages: []

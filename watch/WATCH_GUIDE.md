@@ -249,3 +249,24 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   is copied. Hand-written emails (paper requests) follow the same rule.
 - Issue 44 (Fang, Wu, Yuan & Zhang) went out with "Dear Professor Yuan," and three co-authors in Cc, which is what prompted
   the rule.
+
+## The 2025 tab: "2025 in research" (Bruno, 2 November 2026)
+- A look back at digital marketing papers first published online in 2025, on its own tab at `/watch/2025/` (switch
+  "Browse by year" above the topic bar on the Marketing in 3 page). Built in its own chat, separate from the live series.
+- **Framing (Bruno's choice):** a look-back, not backdated issues. Each issue is dated by the day its paper was first
+  published online and readers see "Paper published 6 January 2025" (`dateline()`); the kicker reads
+  "Marketing in 3 · 2025 in research · No. 1 · ...". Metadata (JSON-LD datePublished, Open Graph, sitemap) carry the real
+  day the page went live, from `published:`.
+- **Plan:** 52 issues, roughly one paper per week of 2025, numbered 1 to 52 in order of the papers' online dates.
+  Open-access papers only (Creative Commons licence), read in full; Unsplash photos, people every two or three issues.
+- **Fields:** `series: 2025`, `number: N` (never `no:`, which YAML reads as false), `week_of:` = the paper's first online
+  date (Crossref `created`, checked against the publisher page, which wins), `published:` = go-live date. No `issue:` field:
+  issue numbers, email sends (DynamoDB `sent#<issue>`), author emails and JSON-LD position belong to the live series only.
+- **Paper date rule:** first published online in 2025. Some such papers sit in 2026 volumes (e.g. No. 2, Journal of
+  Marketing 90(5)); their citation year is the volume year, as printed.
+- **Kept out of** the RSS feed and the home page (listing `exclude: series: "2025"` in watch/index.qmd and index.qmd), so
+  feed readers are not flooded with old papers. They do appear on topic pages, in "Keep reading" and in llms.txt.
+- **Also new at the time:** two items per issue, abstract verified in Crossref, published before the lead paper's online
+  date, never used before. Heading reads "Also new at the time".
+- **No author emails** for 2025 issues; log them as "no email (2025 tab)" in claude/mkt3-author-log.md.
+- Every other rule in this guide applies (writing, how_to, citations, authors, evidence level, overlap check, scope).

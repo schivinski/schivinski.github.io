@@ -81,6 +81,27 @@ def topic_slug(t: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
 
 
+# "2025 in research" (Bruno, 2 Nov 2026): a look back at 2025 papers on its own tab (watch/2025/). These issues carry
+# `series: 2025` and `number: N` instead of `issue`, so the live series (issue numbers, email sends, JSON-LD position) is
+# untouched. Their `week_of` holds the day the paper was first published online (it orders the tab and is the only date
+# readers see, as "Paper published ..."); `published` holds the day the page went live (metadata only).
+LOOKBACK = "2025"
+
+
+def is_lookback(d: dict) -> bool:
+    return str(d.get("series", "")) == LOOKBACK
+
+
+def label(d: dict) -> str:
+    """'Issue 44' for the live series, '2025 · No. 3' for the look-back."""
+    return f"{LOOKBACK} · No. {d['number']}" if is_lookback(d) else f"Issue {d['issue']}"
+
+
+def page_date(d: dict) -> str:
+    """The date for metadata (JSON-LD, Open Graph, sitemap): for look-back issues the day the page went live."""
+    return str(d.get("published") or d["week_of"]) if is_lookback(d) else d["week_of"]
+
+
 def thumb_src(d: dict, prefix: str) -> str:
     """Card image: the light WebP thumbnail when it exists, otherwise the Open Graph JPEG."""
     stem = d["image"]["og"].rsplit(".", 1)[0].removesuffix("-og")
@@ -94,7 +115,7 @@ def card(d: dict, prefix: str) -> str:
     href = f"{prefix}posts/{d['slug']}/index.html"
     return (f'<article class="watch-item"><a class="watch-thumb" href="{href}" tabindex="-1" aria-hidden="true">'
             f'<img src="{thumb_src(d, prefix)}" alt="{esc(d["image"].get("alt", ""))}" loading="lazy" decoding="async" width="640" height="336"></a>'
-            f'<div><p class="watch-meta">Issue {d["issue"]} · <time datetime="{d["week_of"]}">'
+            f'<div><p class="watch-meta">{label(d)} · <time datetime="{d["week_of"]}">'
             f'{dateline(d)}</time></p><h3><a href="{href}">{esc(d["short_title"])}</a></h3>'
             f'<p>{esc(plain(d["description"]))}</p></div></article>')
 
@@ -339,7 +360,9 @@ TWICE_WEEKLY_FROM = 43   # Bruno, 27 Oct 2026: issues come out every Monday and 
 
 def dateline(d: dict) -> str:
     """The issue's date as readers see it: 'Week of 12 January 2026' up to issue 42, then the day itself
-    ('Monday 2 November 2026', 'Thursday 5 November 2026')."""
+    ('Monday 2 November 2026', 'Thursday 5 November 2026'). Look-back issues show the paper's own date."""
+    if is_lookback(d):
+        return f"Paper published {long_date(d['week_of'])}"
     if int(d["issue"]) >= TWICE_WEEKLY_FROM:
         x = dt.date.fromisoformat(d["week_of"])
         return f"{x.strftime('%A')} {long_date(d['week_of'])}"
@@ -529,8 +552,10 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
     p = d["paper"]
     img = d["image"]
     used = set()
-    cites = d["issue"] == 41   # Bruno, 19 Oct 2026: citations are plain (DOI link only); issue 41 was left as published
-    out = [f'<p class="mw-kicker">Marketing in 3 · Issue {d["issue"]} · {dateline(d)}</p>',
+    cites = d.get("issue") == 41   # Bruno, 19 Oct 2026: citations are plain (DOI link only); issue 41 was left as published
+    kick = (f'<a href="../../{LOOKBACK}/index.html">{LOOKBACK} in research</a> · No. {d["number"]}' if is_lookback(d)
+            else f'Issue {d["issue"]}')
+    out = [f'<p class="mw-kicker">Marketing in 3 · {kick} · {dateline(d)}</p>',
            f'<figure class="mw-hero">{hero_html(img)}<figcaption>{esc(img["caption"])}</figcaption></figure>',
            answer_html(link_names(md(d["short_answer"]), p, used, cites=cites), p.get("evidence")),
            '<section class="mw-takeaways"><h2>Key takeaways</h2><ul>'
@@ -560,7 +585,8 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
                + "".join(f'<div class="mw-faq"><h3>{esc(f["q"])}</h3><p>{link_names(md(f["a"]), p, used, cites=cites)}</p></div>' for f in d["faq"])
                + "</section>")
     if d.get("also"):
-        out.append('<section id="also-new"><h2>Also new this week</h2><div class="mw-also">'
+        also_h = "Also new at the time" if is_lookback(d) else "Also new this week"
+        out.append(f'<section id="also-new"><h2>{also_h}</h2><div class="mw-also">'
                    + "".join(f'<article><p class="mw-also-src"><em>{esc(a["journal"])}</em> · {a["year"]}</p>'
                              f'<h3><a href="https://doi.org/{esc(a["doi"])}">{esc(a["title"])}</a></h3>'
                              f'<p class="mw-also-au">{esc(a["authors"])}</p><p>{md(a["text"])}</p></article>'
@@ -610,10 +636,11 @@ def jsonld(d: dict, url: str) -> str:
          "abstract": plain(d["short_answer"]),
          "image": [{"@type": "ImageObject", "url": img_url, "width": 1200, "height": 630},
                    {"@type": "ImageObject", "url": hero, "width": 1600, "height": 900}],
-         "datePublished": d["week_of"], "dateModified": d.get("modified", d["week_of"]),
+         "datePublished": page_date(d), "dateModified": d.get("modified", page_date(d)),
          "author": AUTHOR, "publisher": {"@id": AUTHOR["@id"]},
          "isPartOf": {"@type": "Blog", "name": "Marketing in 3", "url": f"{SITE}/watch/index.html"},
-         "articleSection": "Marketing in 3", "position": d["issue"],
+         "articleSection": f"Marketing in 3: {LOOKBACK} in research" if is_lookback(d) else "Marketing in 3",
+         **({} if is_lookback(d) else {"position": d["issue"]}),
          "keywords": ", ".join(d["keywords"]), "inLanguage": "en", "wordCount": words,
          "about": [lead] + [{"@type": "Thing", "name": t} for t in d.get("topics", [])],
          "citation": [lead] + [scholarly(a["doi"], a["title"], [a["authors"]], a["journal"], a["year"]) for a in d.get("also", [])],
@@ -631,7 +658,7 @@ def jsonld(d: dict, url: str) -> str:
             f'<meta name="keywords" content="{esc(", ".join(d["keywords"]))}">',
             f'<meta name="author" content="Bruno Schivinski">',
             f'<meta property="og:type" content="article">',
-            f'<meta property="article:published_time" content="{d["week_of"]}">',
+            f'<meta property="article:published_time" content="{page_date(d)}">',
             f'<meta property="article:author" content="Bruno Schivinski">',
             f'<meta property="article:section" content="Marketing in 3">',
             f'<link rel="canonical" href="{url}">']
@@ -646,9 +673,10 @@ def build(d: dict, prev_next: tuple, data: list) -> dict:
         "title": d["title"],
         "subtitle": plain(d["dek"]),
         "description": plain(d["description"]),
-        "date": d["week_of"],
+        "date": page_date(d),
         "date-format": "D MMMM YYYY",
-        "language": {"title-block-published": "Week of" if int(d["issue"]) < TWICE_WEEKLY_FROM else "Date"},
+        "language": {"title-block-published": "Week of" if not is_lookback(d) and int(d["issue"]) < TWICE_WEEKLY_FROM
+                     else "Date"},
         "dateline": dateline(d),
         "categories": d.get("topics", []),
         "image": f"../../images/{d['image']['og']}",
@@ -659,7 +687,7 @@ def build(d: dict, prev_next: tuple, data: list) -> dict:
                          "image": f"../../images/{d['image']['og']}"},
         "page-layout": "article",
         "body-classes": "mw-page",
-        "issue": d["issue"],
+        **({"series": LOOKBACK, "number": d["number"]} if is_lookback(d) else {"issue": d["issue"]}),
         # light card image for the list templates (absolute, because listings do not rewrite custom fields)
         "thumb": "/watch/" + thumb_src(d, ""),
     }
@@ -761,6 +789,71 @@ def write_topics(data: list) -> None:
             stale.unlink()
 
 
+def year_bar(current: str, prefix: str, counts: dict) -> str:
+    """'Browse by year': the live series (2026) and the 2025 look-back, in the style of the topic bar."""
+    items = []
+    for y, href in (("2026", f"{prefix}index.html"), (LOOKBACK, f"{prefix}{LOOKBACK}/index.html")):
+        cur = ' aria-current="page"' if y == current else ""
+        items.append(f'<a class="chip" href="{href}"{cur}>{y}<span class="chip-n">{counts.get(y, 0)}</span></a>')
+    return ('<nav class="mw-topicbar mw-yearbar" aria-label="Browse issues by year">'
+            '<p class="mw-topicbar-label">Browse by year</p>'
+            f'<div class="chips">{"".join(items)}</div></nav>')
+
+
+def write_years(live: list, back: list, data: list) -> None:
+    """The year switch for the Marketing in 3 page (watch/_generated/year-bar.md) and the 2025 tab
+    (watch/2025/index.qmd), which lists the look-back issues in order. The tab has no feed: its issues stay out of
+    the RSS feed and the home page, so readers' feeds are not flooded with old papers."""
+    gen = ROOT / "watch" / "_generated"
+    gen.mkdir(exist_ok=True)
+    ycounts = {"2026": len(live), LOOKBACK: len(back)}
+    page = ROOT / "watch" / LOOKBACK / "index.qmd"
+    if not back:
+        (gen / "year-bar.md").write_text("\n")
+        if page.exists() and "GENERATED by scripts/build_watch.py" in page.read_text():
+            page.unlink()
+        return
+    (gen / "year-bar.md").write_text("```{=html}\n" + year_bar("2026", "", ycounts) + "\n```\n")
+    page.parent.mkdir(exist_ok=True)
+    url = f"{SITE}/watch/{LOOKBACK}/"
+    title = f"Marketing in 3: {LOOKBACK} in research"
+    sub = f"A look back at the marketing studies of {LOOKBACK}, explained for practitioners"
+    desc = (f"Marketing research published in {LOOKBACK}, one study per issue: what each paper found, how to apply it "
+            "and what results to expect, in plain English.")
+    items = sorted(back, key=lambda d: d["number"])
+    ld = {"@context": "https://schema.org", "@graph": [
+        {"@type": "CollectionPage", "@id": url, "url": url, "name": title, "description": desc,
+         "isPartOf": {"@type": "Blog", "name": "Marketing in 3", "url": f"{SITE}/watch/"},
+         "inLanguage": "en", "author": {"@id": AUTHOR["@id"]},
+         "mainEntity": {"@type": "ItemList", "numberOfItems": len(items), "itemListElement": [
+             {"@type": "ListItem", "position": d["number"], "url": f"{SITE}/watch/posts/{d['slug']}/", "name": d["title"]}
+             for d in items]}},
+        {"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{SITE}/"},
+            {"@type": "ListItem", "position": 2, "name": "Marketing in 3", "item": f"{SITE}/watch/"},
+            {"@type": "ListItem", "position": 3, "name": f"{LOOKBACK} in research", "item": url}]}]}
+    og = f"../images/{items[0]['image']['og']}"
+    fm = {"title": title, "subtitle": sub, "description": desc, "body-classes": "mw-year-page",
+          "image": og,
+          "open-graph": {"title": title, "description": desc, "image": og, "image-width": 1200, "image-height": 630},
+          "twitter-card": {"title": title, "description": desc, "card-style": "summary_large_image", "image": og}}
+    n = len(items)
+    word = "study" if n == 1 else "studies"
+    body_html = (f'<p class="mw-topic-intro">The marketing research of {LOOKBACK}, one paper at a time: {n} {word} from the '
+                 'leading journals, each explained in plain English with steps you can apply today. Every issue is dated '
+                 'by the day its paper was first published.</p>'
+                 + year_bar(LOOKBACK, "../", ycounts)
+                 + topic_bar(topic_counts(data), "", "../")
+                 + '<div class="watch-list">' + "".join(card(d, "../") for d in items) + "</div>")
+    text = ("---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)
+            + "include-in-header:\n  text: |\n"
+            + f'    <link rel="canonical" href="{url}">\n'
+            + f'    <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n'
+            + "---\n\n<!-- GENERATED by scripts/build_watch.py from the 2025 look-back issues. Do not edit. -->\n\n"
+            + "```{=html}\n" + body_html + "\n```\n")
+    page.write_text(text)
+
+
 def llms(built: list[dict]) -> None:
     f = ROOT / "llms.txt"
     txt = f.read_text() if f.exists() else ""
@@ -790,9 +883,14 @@ def main() -> int:
         for stale in POSTS.glob("*/index.qmd"):
             if stale.parent.name not in keep and (stale.read_text().find("GENERATED from watch/issues") >= 0):
                 stale.unlink()
-    built = [build(d, (data[i - 1] if i else None, data[i + 1] if i + 1 < len(data) else None), data)
-             for i, d in enumerate(data)]
+    live = [d for d in data if not is_lookback(d)]
+    back = sorted((d for d in data if is_lookback(d)), key=lambda d: d["number"])
+    built = []
+    for series in (live, back):   # "Previous" and "Next" stay inside each series
+        built += [build(d, (series[i - 1] if i else None, series[i + 1] if i + 1 < len(series) else None), data)
+                  for i, d in enumerate(series)]
     write_topics(data)
+    write_years(live, back, data)
     llms(built)
     print(f"Marketing in 3: built {len(built)} issue(s)")
     return 0

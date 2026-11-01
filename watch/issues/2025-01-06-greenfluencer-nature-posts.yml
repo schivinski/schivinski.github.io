@@ -1,0 +1,220 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 1                       # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-01-06"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: greenfluencer-nature-posts
+status: live
+
+title: "Do an influencer's nature photos make followers act on climate change? What an International Journal of Advertising study found"
+dek: >-
+  Creators who champion green living fill their feeds with lakes, forests and coastlines. Two studies, one in Australia and one
+  in the United States, show those quiet landscape shots do real persuasive work, and that trust in the creator makes them work harder.
+short_title: "Why green influencers should post more nature"
+
+description: >-
+  Hartmann et al. show greenfluencers' landscape photos lift climate intentions: identical captions with nature pictures raised
+  planned action by about 12%.
+
+keywords: [greenfluencers, green influencers, sustainability marketing, nature photos on social media, climate action,
+  Instagram influencer marketing, influencer credibility, environmental advertising, pro-environmental behaviour,
+  social media content strategy, International Journal of Advertising]
+topics: [Influencers, Social media, Creative]
+
+image:
+  file: 2025-01-greenfluencer-nature-posts.jpg
+  og: 2025-01-greenfluencer-nature-posts-og.jpg
+  alt: "A hiker in a blue cap and backpack photographs a turquoise mountain lake framed by pine trees and grey cliffs"
+  caption: "One picture of a lake can do more for the climate than a lecture about carbon. Photo: Darin Wicentowich on Unsplash."
+
+short_answer: >-
+  Yes, they nudge followers towards it. In a US experiment with 600 adults, people saw three Instagram posts from a green influencer.
+  The captions never changed; only the pictures did, either unspoilt landscapes or scenes with no nature in them. The landscape
+  versions left people feeling they had spent time outdoors, more worried about the climate and readier to act. A survey of 550
+  Australian Instagram users found the same chain, strongest where followers trusted the creator.
+
+takeaways:
+  - "Swapping in landscape photos, with every caption word for word the same, almost doubled how much viewers felt they were out in nature: 3.36 against 1.84 on a five-point scale."
+  - "Planned climate action, such as cutting one's carbon footprint or choosing green power, came out about 12% higher after the nature posts."
+  - "Reputation counted for more than the pictures: across both picture sets, planned action averaged 3.16 when the influencer was well regarded and 2.59 when she had been accused of greenwashing."
+  - "Among Australian followers, how close to nature and how worried about climate they felt explained close to half (49%) of the differences in their plans to act."
+
+paper:
+  doi: "10.1080/02650487.2024.2447218"
+  title: "Virtual nature experiences on Instagram: how greenfluencers’ nature posts drive climate action"
+  authors: ["Hartmann, P.", "Apaolaza, V.", "Paredes, M. R.", "D’Souza, C."]
+  authors_full: ["Patrick Hartmann", "Vanessa Apaolaza", "Mario R. Paredes", "Clare D’Souza"]
+  year: 2025
+  journal: "International Journal of Advertising"
+  volume: "44"
+  issue: "4"
+  pages: "620-650"
+  online: "2025-01-06"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Patrick Hartmann"
+      affiliation: "Faculty of Economics and Business Administration, University of the Basque Country UPV/EHU, Bilbao, Spain"
+      orcid: "0000-0001-5922-3098"
+    - name: "Vanessa Apaolaza"
+      affiliation: "Faculty of Economics and Business Administration, University of the Basque Country UPV/EHU, Bilbao, Spain"
+      orcid: "0000-0003-3252-3036"
+    - name: "Mario R. Paredes"
+      affiliation: "IPADE Business School, Mexico City, Mexico"
+      orcid: "0000-0001-7803-0830"
+    - name: "Clare D’Souza"
+      affiliation: "La Trobe University, Melbourne, Australia"
+      orcid: "0000-0002-6591-5725"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Study 1: online survey of 550 Australian Instagram users; Study 2: preregistered 2 x 2 online experiment with 600 US adults"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Patrick Hartmann and Vanessa Apaolaza of the University of the Basque Country in Bilbao, Mario R. Paredes of IPADE Business
+      School in Mexico City and Clare D’Souza of La Trobe University in Melbourne looked at the posts green creators make most
+      often and talk about least. Much of a sustainability feed is not advice or product tips but plain landscapes: a lake at dawn,
+      a forest path, the creator standing on a ridge. The team wanted to know whether those pictures change anything.
+
+      They ran two studies. The first surveyed Australian Instagram users who follow influencers, half of them following a creator
+      who mainly promotes green living. Each person described how often that creator posts nature, how browsing the feed makes them
+      feel, and what they plan to do about climate change in the coming months.
+
+      The second was a controlled test in the United States. Participants read a short profile of an invented green influencer called
+      Lyra Heely, written to make her sound either respected and well researched or tainted by greenwashing claims. They then saw
+      three of her posts. Half saw pristine scenery; the other half saw pictures that fitted the same captions but showed no nature.
+    facts:
+      - ["Study 1", "550 Australian Instagram users from an online panel, 275 of them greenfluencer followers; 5,405 panel members invited to fill that quota"]
+      - ["Study 2", "600 US adults recruited to match the population on sex, age, ethnicity and political leaning"]
+      - ["Design", "Nature pictures or none, crossed with a trusted or doubtful influencer; four groups"]
+      - ["Captions", "General calls for a greener lifestyle, identical in every version and never mentioning nature"]
+      - ["Measured", "Sense of being in nature, bond with nature, climate concern, and intended climate-friendly steps"]
+      - ["Checks", "Both studies registered in advance; in Study 2, 28 people who failed attention checks were replaced"]
+
+  - h: "What the nature posts changed"
+    body: |
+      The pictures worked first on how people felt while scrolling. Viewers of the landscape posts reported far more of the calm,
+      outdoors sensation that researchers call a virtual nature experience, and that feeling carried on into concern about the
+      climate and stated plans to act.
+
+      One outcome did not budge. Three posts were not enough to change how strongly people felt they belonged to the natural
+      world. That kind of identity is slow to shift, and the authors' Australian survey, where followers had watched a creator for
+      months, is where it showed up. Climate worry, by contrast, moved within a single sitting.
+    chart: moved
+
+  - h: "How a landscape turns into a climate plan"
+    body: |
+      In the survey, followers whose creator posted nature more often also reported stronger nature experiences, felt closer to the
+      natural world, worried more about climate change and planned more climate-friendly steps. Once those feelings were taken into
+      account, posting frequency had no pull of its own on plans to act. In other words, the pictures did not persuade directly; they
+      worked through what they made people feel.
+
+      Two routes stood out. One ran from the nature experience to a stronger bond with nature and on to action. The other ran from the
+      experience to climate worry and on to action. In the US test the worry route carried roughly nine times as much of the effect as
+      the bond route, which fits the finding that a single viewing moved worry but not identity.
+
+  - h: "Trust amplifies the effect, but only if it is earned"
+    body: |
+      Among Australian followers, the link between nature posts and nature feelings was strongest for those who rated their creator
+      most sincere, honest and trustworthy. Credible creators got more out of each landscape.
+
+      The US test told a slightly different story. A trusted profile lifted every outcome except the sense of belonging to nature, but
+      the pictures were no stronger for it. The authors put this down to the setting: participants met Lyra once,
+      through a paragraph of description. Trust that grows from months of following, with its sense of knowing someone, could not be
+      recreated in a few minutes. For marketers, the practical reading is that the two levers add up even when they do not multiply.
+    chart: trust
+
+  - h: "Which kind of nature to post"
+    body: |
+      The studies compared nature against no nature, not one landscape against another. On what to show, the authors lean on earlier
+      research into which scenes people find restorative. Their advice is to post idyllic, unthreatening places: open green land,
+      meadows and trees, clear water inland or on the coast, and settings that look familiar to the audience.
+
+      They warn against closed, dark scenery, which people can read as a threat. Disaster imagery, such as floods or melting ice, is a
+      separate debate in climate communication; this paper's point is that the gentle, attractive shot is doing persuasive work that
+      creators and brands tend to overlook.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Count what is already there", "Scroll back through the last 30 posts on your account, or on the accounts of the creators you sponsor. Count how many show open landscapes, water, trees or the person outdoors, and write the number down."]
+  - ["Choose creators people already trust", "Shortlist green creators whose followers have stayed with them for a year or more and whose comments sound like trust, not suspicion. Drop anyone facing greenwashing complaints, however big the audience."]
+  - ["Plan a nature post in every three", "Build the content calendar so about one post in three is a calm outdoor scene. Keep the green message in the caption exactly as you would write it anyway."]
+  - ["Pick open, bright, welcoming places", "Choose wide shots of meadows, trees and clear blue or green water, ideally places your audience knows. Leave out dark forests, storms and scenes of damage."]
+  - ["Add one small action to each post", "End the caption of every nature post with one concrete step, such as switching to a green power plan or walking short trips, and a link to do it now."]
+  - ["Track actions, not likes", "For eight weeks, compare clicks on those links and sign-ups between nature posts and other posts. Keep the mix that moves people to act and cut the one that only collects likes."]
+
+expect:
+  - "**Small shifts, not conversions.** Expect stated plans to shift by tenths on a one-to-five scale: a nudge, not a change of heart."
+  - "**Feelings move first.** The quickest change is in how people feel while they scroll. Worry about the climate follows, and stated plans move least."
+  - "**Trust takes time to build.** The authors think credibility grows through months of consistent posting, so a new creator partnership may not show its full effect at first."
+  - "**A possible wellbeing bonus.** The authors suggest nature posts may lift mood the way time outdoors does, especially for people who rarely get there. They did not measure it."
+
+limits:
+  - "**Plans, not behaviour.** No one's energy bills, travel or purchases were tracked. Every outcome is what people said they intended to do."
+  - "**A snapshot and a single exposure.** The Australian data come from one survey at one moment, so they show links rather than causes. The US test showed an invented influencer once."
+  - "**Belonging to nature needs time.** A few posts lifted worry but not people's sense of being part of nature, so the slower route may depend on long-term following."
+  - "**One platform, two Western countries.** Short-video apps, or cultures where people define themselves mainly through their group, could give other results."
+
+faq:
+  - q: "Do influencers' nature photos change what followers do about climate change?"
+    a: "They change what followers plan to do. In a controlled test, the same green captions paired with landscapes rather than nature-free pictures produced higher worry about climate change and stronger intentions to act, although actual behaviour was not tracked (Hartmann et al., 2025)."
+  - q: "What is a greenfluencer?"
+    a: "A creator on Instagram, TikTok, YouTube or similar platforms who promotes sustainable living, green products or environmental causes. They are common: in one Australian panel, roughly one member in five followed at least one."
+  - q: "Why would a landscape picture make someone care about the climate?"
+    a: "Looking at attractive nature produces a milder version of the restful feeling people get outdoors. That feeling brings nature closer and makes threats to it feel more personal, which in turn raises willingness to protect it."
+  - q: "Does the influencer's reputation matter?"
+    a: "A great deal. A well-regarded creator lifted climate plans more than the choice of pictures did. Among real followers, trust also made each nature post more effective, though a one-off test with an unknown creator could not reproduce that boost."
+  - q: "What kind of nature pictures work best?"
+    a: "The authors recommend open, unthreatening scenes with greenery and clear water, preferably landscapes the audience recognises. They suggest avoiding dark, enclosed settings. This advice comes from earlier landscape research rather than from comparisons in their own studies."
+
+also:
+  - doi: "10.1177/00222429241307608"
+    title: "Do More Likes Lead to More Clicks? Evidence from a Field Experiment on Social Advertising"
+    authors: "Huang & Lin"
+    journal: "Journal of Marketing"
+    year: 2025
+    text: >-
+      A large field experiment on WeChat ads, backed by three online studies, varied how many friends' likes an ad displayed. Showing the
+      first like raised both liking and clicking, but further likes only brought more likes, not more clicks. Extra likes did help
+      clicks for lesser-known brands. Visible approval seems to pull people towards public gestures more than private interest, so
+      measure clicks rather than counting likes.
+  - doi: "10.1002/mar.22163"
+    title: "When Did They Post It? How Temporal Markers Influence the Persuasiveness of Online Reviews"
+    authors: "Hagen & O'Brien"
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Across a field study and a series of experiments, the same review persuaded less when tagged as written a day after purchase than
+      a year after. Readers assumed a recent buyer lacked experience, which weakened praise and softened criticism alike. The effect
+      faded when other cues restored the reviewer's expertise. Platforms that stamp reviews with purchase dates may want to add those
+      cues too.
+
+charts:
+  moved:
+    title: "Average scores after three posts, with or without nature pictures (1 to 5 scale)"
+    scale: [1, 5]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Climate worry, no nature", 2.68, false]
+      - ["Climate worry, nature posts", 3.11, true]
+      - ["Feeling part of nature, no nature", 3.74, false]
+      - ["Feeling part of nature, nature posts", 3.84, false]
+    source: "Study 2, US experiment, 600 adults. Climate worry rose significantly; the change in feeling part of nature did not."
+  trust:
+    title: "Planned climate action by picture type and influencer reputation (1 to 5 scale)"
+    scale: [1, 5]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["No nature, doubtful influencer", 2.36, false]
+      - ["Nature posts, doubtful influencer", 2.82, false]
+      - ["No nature, trusted influencer", 3.06, false]
+      - ["Nature posts, trusted influencer", 3.25, true]
+    source: "Study 2, US experiment, about 150 adults per group. Both factors raised plans to act; their combination did not add an extra boost."
+
+related_pages: []

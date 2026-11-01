@@ -3,6 +3,8 @@ title: "Marketing in 3"
 subtitle: "Marketing research for practitioners. New issues every Monday and Thursday"
 listing:
   contents: posts
+  exclude:
+    series: "2025"
   sort: "date desc"
   date-format: "D MMMM YYYY"
   template: ../_templates/watch-list.ejs
@@ -17,6 +19,8 @@ include-in-header:
 
 New research from the leading marketing journals, translated for practitioners: what each study found, how to
 use it in your strategy, and what results to expect.
+
+{{< include _generated/year-bar.md >}}
 
 {{< include _generated/topic-bar.md >}}
 
