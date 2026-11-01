@@ -278,3 +278,5 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   first online earlier but printed in a 2025 journal issue is dated by that issue: `week_of:` = Crossref published-print,
   plus `dateline: "Journal issue published 2 January 2025"` (the builder shows it in place of "Paper published ...").
 - **Images** for the tab are named by slug: `watch/images/2025-<slug>.jpg` and `-og.jpg`.
+- **Plan:** watch/PLAN_2025.md lists every slot with its paper (DOI, date, status). Papers planned there are reserved for the
+  2025 tab; the live series should not use them.
