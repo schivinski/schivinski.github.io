@@ -16,6 +16,7 @@ project:
     - scripts/add_support.py
     - scripts/add_share.py
     - scripts/external_links.py
+    - scripts/canonical_links.py
   resources:
     - robots.txt
     - favicon.ico
