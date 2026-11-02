@@ -5,7 +5,7 @@ number: 2                       # position in the 2025 tab (2025 · No. N); neve
 week_of: "2025-01-06"            # the day the paper was first published online (shown as "Paper published ...")
 published: "2026-11-02"          # the day this page went live (metadata only, never shown)
 slug: greenfluencer-nature-posts
-status: draft                    # 2025 tab held back: the whole year is released in one batch (Bruno, 2 Nov 2026)
+status: live
 
 title: "Do an influencer's nature photos make followers act on climate change? What an International Journal of Advertising study found"
 dek: >-

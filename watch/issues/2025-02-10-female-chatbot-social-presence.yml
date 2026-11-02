@@ -5,7 +5,7 @@ number: 6                       # position in the 2025 tab (2025 · No. N); neve
 week_of: "2025-02-10"            # the day the paper was first published online (shown as "Paper published ...")
 published: "2026-11-02"          # the day this page went live (metadata only, never shown)
 slug: female-chatbot-social-presence
-status: draft                    # 2025 tab held back: the whole year is released in one batch (Bruno, 2 Nov 2026)
+status: live
 
 title: "Does a female chatbot feel more like a real person to customers? What a Journal of Consumer Behaviour study found"
 dek: >-
