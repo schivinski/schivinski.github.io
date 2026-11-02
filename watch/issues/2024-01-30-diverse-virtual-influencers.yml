@@ -1,0 +1,249 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 5                       # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-01-30"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: diverse-virtual-influencers
+status: live
+
+title: "Do diverse virtual influencers win more followers? What an International Journal of Advertising study found"
+dek: >-
+  Brands can now design an influencer's face, body and story from scratch. Two US experiments asked whether giving a
+  computer-made creator a diverse identity pays off, and found people were keener to follow it and talk about it.
+short_title: "Why diverse virtual influencers win followers"
+
+description: >-
+  Ferraro et al. find a virtual influencer with Down syndrome nearly doubled intentions to follow her, and a mixed cast
+  lifted word of mouth by a third.
+
+keywords: [virtual influencers, AI influencers, CGI influencers, diversity in advertising, inclusive marketing,
+  disability representation, influencer marketing, word of mouth, novelty in advertising, influencer likability,
+  International Journal of Advertising]
+topics: [Influencers, AI, Social media]
+
+image:
+  file: 2024-diverse-virtual-influencers.jpg
+  og: 2024-diverse-virtual-influencers-og.jpg
+  alt: "Two computer-rendered faces in profile, one teal and one lilac, covered in a fine wireframe mesh and almost nose to nose against a dark background"
+  caption: "A face can be built from nothing. Whose face it is remains the brand's choice. Photo (a 3D render): Steve A Johnson on Unsplash."
+
+short_answer: >-
+  Yes, on the measures that build an audience. In two online experiments with 413 US adults, a computer-made influencer
+  described as having Down syndrome, and a group of virtual influencers mixed in age, gender and race, drew stronger
+  intentions to follow them and tell others about them than versions without that diversity did. They struck people as fresher and
+  more likeable. Buying plans rose for an unknown coffee brand, but not directly for a famous chain.
+
+takeaways:
+  - "Describing the virtual influencer as having Down syndrome nearly doubled people's intention to follow her, a rise of 93% on the same seven-point scale."
+  - "A cast of four virtual influencers of different ages, genders and ethnic backgrounds lifted both word of mouth and follow intentions by about a third (33%) for a famous coffee chain."
+  - "Buying plans rose 50% for the unknown coffee brand but only about 10% for the famous chain, too small a change for the authors to treat as real."
+  - "Nobody mistook these characters for people: on a scale from human (1) to AI-generated (7), every version scored between 6.18 and 6.30."
+
+paper:
+  doi: "10.1080/02650487.2023.2300927"
+  title: "Diversity in the digital age: how consumers respond to diverse virtual influencers"
+  authors: ["Ferraro, C.", "Sands, S.", "Zubcevic-Basic, N.", "Campbell, C."]
+  authors_full: ["Carla Ferraro", "Sean Sands", "Nives Zubcevic-Basic", "Colin Campbell"]
+  year: 2024
+  journal: "International Journal of Advertising"
+  volume: "43"
+  issue: "8"
+  pages: "1342-1365"
+  online: "2024-01-30"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Carla Ferraro"
+      affiliation: "Department of Management and Marketing, Swinburne University of Technology, Hawthorn, VIC, Australia"
+      orcid: ""
+    - name: "Sean Sands"
+      affiliation: "Department of Management and Marketing, Swinburne University of Technology, Hawthorn, VIC, Australia"
+      orcid: "0000-0001-9192-3676"
+    - name: "Nives Zubcevic-Basic"
+      affiliation: "Department of Management and Marketing, Swinburne University of Technology, Hawthorn, VIC, Australia"
+      orcid: ""
+    - name: "Colin Campbell"
+      affiliation: "Department of Marketing, University of San Diego School of Business, San Diego, CA, USA"
+      orcid: "0000-0002-6218-0866"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two online scenario experiments with US adults on Prolific: Study 1 (189, one virtual influencer, unknown brand) and Study 2 (224, group of four, known brand)"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Carla Ferraro, Sean Sands and Nives Zubcevic-Basic, marketing academics at Melbourne's Swinburne University of
+      Technology, teamed up with Colin Campbell, a marketing professor at California's University of San Diego School
+      of Business, to study two shifts hitting influencer marketing at the same time. Brands face growing calls to show a wider range of people. And they can now sign influencers who do not exist:
+      characters built with computer graphics, often with generative AI, and run by a team behind the scenes. By the
+      industry figures the authors cite, spending on influencers grew from 1.7 billion US dollars in 2016 to 16.4 billion in 2022.
+      The team asked whether giving a virtual character a diverse identity changes how people respond to it, and to the
+      brand it promotes.
+
+      The first experiment introduced Tammy, a virtual influencer with five years of posting and a following in the
+      hundreds of thousands, about to promote a new roast for a local coffee shop. For half the participants, her profile
+      added that she has Down syndrome and hopes to make social media more inclusive. Everyone then saw a typical post.
+
+      The second experiment moved to a brand almost every American knows. Starbucks, people read, had signed four virtual
+      influencers to promote its new autumn blend on Instagram. In one version all four were white women in their early
+      twenties. In the other they were aged 29 to 44, two men and two women from three ethnic backgrounds, and one of the
+      men had a disability.
+    facts:
+      - ["Study 1", "189 American adults recruited through Prolific, after 11 who failed an attention check were dropped; average age 38, just under half women"]
+      - ["Study 2", "224 American adults, also from Prolific, after 11 who wrote irrelevant answers to a check question were dropped; average age 37"]
+      - ["Design", "Diverse or not diverse, assigned at random: one virtual influencer in Study 1, a group of four in Study 2"]
+      - ["Brands", "A local coffee shop the US participants would not know (Study 1); Starbucks (Study 2)"]
+      - ["Measured", "Intention to follow the influencer, to tell others about them and to buy from the brand, plus how novel and how likeable the influencer seemed, all on seven-point scales"]
+      - ["Checks", "The diverse Tammy was rated far more diverse than the other version: 5.43 against 2.95 out of 7"]
+
+  - h: "One character, one added detail"
+    body: |
+      In the first experiment a short addition to Tammy's profile, with a picture to match, moved every outcome. People told about her
+      Down syndrome were more inclined to follow her, more inclined to mention her to friends, and more inclined to buy
+      the coffee she was about to promote. In proportion, the biggest jump came in following, which is the currency an
+      influencer's whole business runs on.
+
+      The brand gained alongside the influencer. Participants had no prior view of this small coffee shop, so their
+      reaction to Tammy had room to carry over to it. That transfer of goodwill from creator to brand is exactly what a
+      sponsorship fee is meant to buy.
+    chart: study1
+
+  - h: "What changed for a famous brand"
+    body: |
+      Swapping four look-alike influencers for a varied group made people keener to follow the group and to mention it
+      to others, though by less than Tammy's profile did. The difference between the two groups was hard to miss:
+      people rated the varied group far broader in culture (5.51 against 2.04 out of 7) and in age (4.90 against 1.93).
+
+      Buying plans were another story. They started higher for this household name, and the varied group did not shift
+      them in a way the authors could rely on. Their explanation is that people already hold settled opinions about a
+      brand this familiar, which leaves the influencers less room to change them.
+    chart: study2
+
+  - h: "Why a diverse character pulls people in"
+    body: |
+      The authors traced the effect through two reactions. One is novelty: a diverse virtual influencer struck people as
+      more original, more memorable, more interesting and less like the influencers they were used to. The other is
+      likeability: the character came across as warmer and friendlier. In both experiments, each reaction went with
+      stronger intentions on every outcome.
+
+      The balance between them shifted with the set-up. For Tammy on her own, warmth did more of the work for
+      following and buying. For the group of four, surprise mattered more for following and word of mouth, which fits
+      a cast whose range is the first thing anyone notices. Even for the famous chain, where buying plans showed no
+      reliable direct rise, both reactions still edged them up through small indirect gains.
+    chart: routes
+
+  - h: "What it means for brands building synthetic faces"
+    body: |
+      The authors draw three lessons. People pay little attention to advertising online, and a diverse virtual creator is
+      one way to be noticed, although attention itself was not measured. A virtual character can carry human traits
+      such as identity, and people respond to them even when they know the character is artificial. And the same goodwill may extend to synthetic models and deepfakes in
+      ads, though the authors expect it to vary by category and brand. They also urge advertisers to think about
+      intersectionality, meaning how several identities combine in one person.
+
+      One question the experiments leave open deserves weight. Participants were a general sample of American adults, not
+      recruited from people with Down syndrome or the other groups shown, and the authors themselves note that represented
+      groups can react differently from everyone else. A brand that designs an identity instead of hiring a person who
+      lives it takes on a responsibility these numbers do not capture. That is our view, not a result of the paper.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Count who speaks for you", "List every creator, human or virtual, who posted for your brand in the last six months. Note age, gender, ethnicity and any disability they share publicly. If three in four look alike, you have found your gap."]
+  - ["Hire advisers from the community", "Before you design a virtual character from a group you are not part of, pay two or three people from that group to advise. Let them shape the look, the voice and the backstory, and give them a veto in writing."]
+  - ["Give the character a life beyond one trait", "Write a short profile with at least three interests, a reason for being online and a point of view. The identity should be part of who the character is, never the whole pitch."]
+  - ["Build a mixed cast for launches", "When several creators front one launch, vary at least three of age, gender, ethnicity and ability across the group. Show them together in the first post so the range is obvious at a glance."]
+  - ["Label it and run a two-week trial", "Mark the bio and every post as computer-made. Put the same budget behind the new character and your usual creator for 14 days. Compare new follows, shares and comments, not likes alone."]
+  - ["Refresh before the shine wears off", "Check new follows and shares on the first day of every month. If they fall three months running, change what the character does with new formats, guests or causes, rather than inventing another character."]
+
+expect:
+  - "**A rise from a low starting point.** Even the diverse versions stayed below the midpoint of 4 on every intention measured, so expect warmer interest rather than excitement."
+  - "**Audience first, sales later.** Follows and recommendations respond more readily than buying, especially for a brand people already know well."
+  - "**Freshness has a shelf life.** Repeated exposure dulls anything new, as the authors note. Our reading is that the surprise part of the boost will thin out as diverse virtual characters become common, while the warmth part may last longer; the experiments did not test this."
+  - "**Control comes with ownership.** The authors describe virtual influencers as always available, consistent and unlikely to cause a scandal. The flip side is that every choice about the character, its identity included, is visibly the brand's own."
+
+limits:
+  - "**Scenarios, not feeds.** People read a short description and saw a post or a set of pictures. Nobody met these characters in a real feed, and only intentions were recorded."
+  - "**Real faces in Study 2.** The pictures of the four influencers were photographs of real people presented as virtual, because a suitably varied set of virtual characters was hard to find."
+  - "**What counts as diversity.** The authors concede that Down syndrome may read to people as disability more than diversity, that the two versions of Tammy could not be made identical in every other way, and that one character can carry only a narrow slice of diversity."
+  - "**Figures that do not fully agree.** The averages in the paper's charts, which we redraw here, differ somewhat from the effect sizes in its tables. For the famous chain, the text reports no reliable direct effect on buying while a table shows one, and brand awareness and preference were not controlled. We follow the text."
+  - "**One country, one product.** Both tests used American adults and coffee. Other categories, markets or platforms may respond differently."
+
+faq:
+  - q: "Do diverse virtual influencers get better results than non-diverse ones?"
+    a: "In two US experiments they did on the influencer's own measures. People were readier to follow a computer-made influencer, and to talk about it, when it represented a diverse group, and an unfamiliar brand gained too (Ferraro et al., 2024)."
+  - q: "What is a virtual influencer?"
+    a: "A social media persona that looks and behaves like a human creator but is generated by computer, often with AI, and managed by a team of artists and strategists. The authors cite counts of more than 200 active ones; the best known, Lil Miquela, had over 2.5 million followers when the paper was written."
+  - q: "Does the diversity effect survive when people know the influencer is artificial?"
+    a: "It did here. Participants were in no doubt that the characters were computer-made, yet a diverse identity still made them more appealing. To the authors, this suggests the goodwill people feel towards human representation spills over to virtual characters."
+  - q: "Will a diverse virtual influencer sell more?"
+    a: "That hinges on brand familiarity. For a small café the participants were unlikely to know, buying plans climbed with the influencer's appeal. For a famous chain the direct change was not reliable, though small gains still came through. Only stated plans were measured, never sales."
+  - q: "Why would diversity make a virtual influencer more appealing?"
+    a: "A diverse character breaks the pattern people expect from influencers, so it feels fresh and sticks in the mind. It also comes across as more pleasant to be around. Both reactions go with a greater willingness to follow, recommend and buy."
+
+also:
+  - doi: "10.1177/10946705241229419"
+    title: "The Future of Work: Understanding the Effectiveness of Collaboration Between Human and Digital Employees in Service"
+    authors: "Le et al."
+    journal: "Journal of Service Research"
+    year: 2025
+    text: >-
+      Five experiments with 1,403 participants tested what customers make of service handled jointly by a human employee
+      and an AI chatbot. When the pair visibly coordinated and worked towards one goal, customers saw them as a cohesive
+      team, found the process smoother and were more satisfied. True collaboration also beat set-ups where the bot only
+      assisted the human or replaced them, because customers could follow how their request moved along. The handover
+      between person and bot is worth showing, not hiding.
+  - doi: "10.1002/mar.21977"
+    title: "The role of well-being in consumer's responses to personalized advertising on social media"
+    authors: "De Keyzer et al."
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      A preregistered survey of 794 people, followed by a think-aloud study with 36 people, examined how ads
+      that feel personally tailored are received. Relevance carried the good news: tailored ads that felt useful drew more
+      engagement with the brand and were skipped less. Participants were used to such ads and rarely felt creeped out,
+      though tailoring stirred privacy worries, and the authors single out people whose mood is low as the audience to handle with most care. Usefulness, more than
+      precision, is what earns a tailored ad its welcome.
+
+charts:
+  study1:
+    title: "Study 1: average intentions by version of the influencer (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Follow, no diversity", 1.61, false]
+      - ["Follow, Down syndrome", 3.11, true]
+      - ["Talk about, no diversity", 2.32, false]
+      - ["Talk about, Down syndrome", 3.58, true]
+      - ["Buy, no diversity", 2.22, false]
+      - ["Buy, Down syndrome", 3.33, true]
+    source: "Study 1, 189 US adults, values read from the published figure. All three differences were statistically reliable."
+  study2:
+    title: "Study 2: average intentions by make-up of the influencer group (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Follow, look-alike group", 2.21, false]
+      - ["Follow, varied group", 2.95, true]
+      - ["Talk about, look-alike group", 2.51, false]
+      - ["Talk about, varied group", 3.35, true]
+      - ["Buy, look-alike group", 3.49, false]
+      - ["Buy, varied group", 3.85, false]
+    source: "Study 2, 224 US adults; means taken from the paper's chart. The authors did not count the buying difference as reliable."
+  routes:
+    title: "How much of the rise in follow intentions ran through each reaction (scale points)"
+    scale: [0, 1]
+    step: 0.25
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Novelty, Study 1", 0.49, false]
+      - ["Likeability, Study 1", 0.92, true]
+      - ["Novelty, Study 2", 0.43, true]
+      - ["Likeability, Study 2", 0.20, false]
+    source: "Indirect effects as reported in the paper's results tables for both experiments (189 and 224 US adults). All four were statistically reliable."
+
+related_pages: []

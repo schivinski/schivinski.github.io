@@ -1,0 +1,226 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 1                       # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-01-05"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: dataveillance-chilling-effects
+status: live
+
+title: "Do people change their media habits when they learn how ads track them? What a two-country study in the Journal of Business Research found"
+dek: >-
+  Tell people the ad on their phone was matched to the show on their TV, and some resolve to watch less or lock down their
+  phones. A survey and an experiment among American and Dutch adults show which kind of tracking provokes that retreat,
+  and who is most likely to make it.
+short_title: "When ad tracking makes viewers switch off"
+
+description: >-
+  Strycharz and Segijn: 604 US and Dutch adults told an ad was matched by a sound code in TV broadcasts planned bigger
+  viewing cuts than if told browsing did it.
+
+keywords: [dataveillance, chilling effects, personalised advertising, synced advertising, audio watermarking, online profiling,
+  consumer privacy concerns, trust in advertisers, GDPR, cross-device advertising, behavioural data quality,
+  Journal of Business Research]
+topics: [Privacy, Personalization, Advertising]
+
+image:
+  file: 2024-dataveillance-chilling-effects.jpg
+  og: 2024-dataveillance-chilling-effects-og.jpg
+  alt: "A man in a white shirt, seen from behind on a sofa, holds a white mug and faces a television showing a grid of programmes"
+  caption: "Once viewers learn the programme itself is tipping off their phone, the off button starts to look tempting. Photo: CardMapr.nl on Unsplash."
+
+short_answer: >-
+  Some do, and the way the data is gathered matters. In an experiment with 604 American and Dutch adults, people read that
+  an ad on their phone matched what was on their TV. Those told a hidden sound in the broadcast had tipped off the
+  phone planned to cut their TV viewing more than those told it came from browsing data: 4.05 against 3.62 out of 7. Other
+  habits did not differ between the two groups.
+
+takeaways:
+  - "Swapping TV for something else, such as reading or a podcast, was among the least likely responses: no group averaged above 3.10 on a six-point scale."
+  - "Americans were readier than the Dutch to change how they use their phone, 4.30 against 3.96 on that six-point scale, whichever tracking method they had read about."
+  - "Americans worried more about privacy than the Dutch, 5.59 against 5.03 out of 7, yet both felt about equally watched when they imagined a personalised ad: 5.19 and 4.96, a gap too small to count."
+  - "Trust that advertisers handle personal data well averaged just 2.73 out of 7 in the experiment, far below the midpoint of the scale."
+
+paper:
+  doi: "10.1016/j.jbusres.2023.114490"
+  title: "Ethical side-effect of dataveillance in advertising: Impact of data collection, trust, privacy concerns and regulatory differences on chilling effects"
+  authors: ["Strycharz, J.", "Segijn, C. M."]
+  authors_full: ["Joanna Strycharz", "Claire M. Segijn"]
+  year: 2024
+  journal: "Journal of Business Research"
+  volume: "173"
+  pages: "114490"
+  online: "2024-01-05"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline and affiliations); ORCID iDs from Crossref and the authors' ORCID records
+    - name: "Joanna Strycharz"
+      affiliation: "Amsterdam School of Communication Research, University of Amsterdam, Amsterdam, the Netherlands"
+      orcid: "0000-0001-7739-3349"
+    - name: "Claire M. Segijn"
+      affiliation: "Hubbard School of Journalism and Mass Communication, University of Minnesota, Minneapolis, MN, United States"
+      orcid: "0000-0002-2424-5737"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Study 1: preregistered cross-national online survey, N = 334 as printed (the per-country counts after exclusions, 148 US and 156 Dutch, add to 304); Study 2: preregistered scenario experiment with 604 US and Dutch adults (abstract gives 536, the power-analysis target); 7-person think-aloud pretest not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Joanna Strycharz of the University of Amsterdam and Claire M. Segijn of the University of Minnesota looked at a side effect
+      of data-driven advertising that never shows up in a campaign report. When people sense they are being watched, some
+      quietly change what they do: they watch less, browse differently or tighten their phone settings. This is known as a chilling
+      effect. It has mostly been studied around state surveillance, and the pair asked whether ad tracking can cause it too.
+
+      They worked in two steps, in America and the Netherlands, two places with very different privacy rules. Dutch
+      consumers are covered by the EU's General Data Protection Regulation, which gives them strong rights over their data, while
+      American rules are patchier and vary by sector. A survey first mapped how the two publics differ in trust and privacy worries.
+
+      An experiment followed. Each person read a short scene: you are watching TV, you pick up your phone to check the weather, and
+      there is an ad for the very product on the television at that moment. Half were told the match came from online profiling,
+      built up from their browsing. The other half were told it came from watermarking, a sound code inside the broadcast that the
+      phone recognises. Everyone then rated how probable it was that they would change their media habits in the following fortnight.
+    facts:
+      - ["Study 1", "Online survey in March 2021 through Prolific in the US and PanelClix in the Netherlands, quota sampled on age, gender and education; 334 respondents"]
+      - ["Study 2", "Scenario experiment in July 2021 with 604 adults, 298 in the US and 306 in the Netherlands, aged 18 to 83"]
+      - ["Scenario", "Watching TV, checking the weather on a phone, and finding an ad there for the product on screen at that moment"]
+      - ["What changed", "How the match was made: online profiling from browsing data, or watermarking, a code hidden in the programme's sound and detected by a nearby phone"]
+      - ["Measured", "How likely people were, in the coming fortnight, to watch more or less TV, do something else instead, change phone settings and use, or keep the phone away during TV"]
+      - ["Checks", "Questions and methods for both studies preregistered; Californians left out because their privacy law differs; 13 inattentive respondents dropped from Study 2"]
+
+  - h: "Which kind of tracking puts people off"
+    body: |
+      The listening phone did more damage than the browsing history, but only in one place. People told about watermarking were
+      readier to cut back on television, in both countries. On every other kind of change, from phone settings to putting the
+      handset aside during a show, the two methods produced much the same answers.
+
+      The authors think the scene explains the focus. The phone ad was triggered by what was on the television, so the television
+      was the obvious thing to turn down. Watermarking also stretches tracking beyond the screen and into the living room, and
+      earlier work had found it is the method that makes people feel most watched. Notice what drove the reaction: not tracking
+      anyone actually experienced, but simply being told how it worked.
+    chart: cut
+
+  - h: "Why Americans were readier to pull back"
+    body: |
+      The survey found a clear trust gap. Dutch adults were more confident than Americans that advertisers, the government and the
+      law would look after their personal data. Even so, Dutch faith in the law sat slightly below the middle of the scale.
+
+      The experiment showed the same divide in behaviour. Whichever method they read about, Americans were more likely to say they
+      would watch less TV, 4.03 against 3.64 on a scale running to 7. Country and method did not combine: the sound code added a
+      similar push on both sides of the Atlantic.
+
+      The authors connect the gap to regulation. Where the law gives people little control, they argue, people protect themselves
+      by changing what they do. It is a plausible reading, but the two countries differ in many ways besides their privacy law, so
+      this design cannot pin the difference on the GDPR.
+    chart: trust
+
+  - h: "Trust calms people down, worry does the opposite"
+    body: |
+      Across both countries, people who trusted advertisers, the government or the law with their data were less inclined to
+      watch less TV or alter their phone habits. Among Americans, trusting viewers even said they would watch more; among the
+      Dutch, trust did not have that effect. Trust in advertisers fitted the pattern best. Trust in the government and in the law
+      played a bigger part among Americans, consistent with the view that trust carries more weight where legal protection is
+      thinner.
+
+      Privacy worry pushed the other way. Its strongest link was with changes to phone use, such as tightening settings or removing
+      apps that can reach the microphone. The tracking method rarely changed that picture: only among Americans with few privacy
+      concerns did the sound code tip people towards keeping the phone out of reach while the TV was on.
+
+  - h: "The cost marketers rarely count"
+    body: |
+      The sharpest point for the industry is about data quality. Personalisation runs on behaviour data. If people watch, browse or
+      tap differently because they feel observed, that data records their caution rather than their tastes, and every model
+      trained on it inherits the distortion. The authors advise firms to weigh how much data they gather, and of which kinds,
+      against the damage to the quality of what comes back.
+
+      There is a tension for regulators, too. European law leans on telling people how their data is used. Here, telling them was
+      precisely what triggered the urge to retreat. The authors suggest pairing transparency with real control, so people can limit
+      the tracking rather than limit themselves. Going one step beyond the data, our own reading is that a brand which explains its tracking but
+      offers no way to restrict it may be inviting the very retreat it fears.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List every way you collect data", "Write down each source behind your targeting: site browsing, app activity, location, and anything that listens or watches, such as the microphone or TV recognition. Mark the ones a customer would not expect."]
+  - ["Score how watched each one feels", "Give every source a score out of five for how far it reaches into the home or offline life. Treat anything that uses a microphone or knows what is on the TV as a five, and keep those off by default."]
+  - ["Explain each match in one plain line", "Beside any ad that follows people from one screen to another, add one sentence saying where the match came from. Use everyday words, such as 'based on pages you visited', not legal terms."]
+  - ["Put an off switch next to the notice", "Place a control that stops cross-device matching right where the explanation appears. Check on a phone that it takes two taps or fewer."]
+  - ["Set the dial country by country", "Before launching in a new market, find out how far people there trust advertisers with their data. Where trust is low, start with the lightest data sources and add more only after three months without complaints."]
+  - ["Watch for your data going quiet", "Each month, track opt-outs, ad blocking and sudden drops in viewing or app use after any new tracking feature. If any of them climbs two months in a row, switch the feature off and compare."]
+
+expect:
+  - "**A dip, not an exodus.** The more intrusive method shifted plans by tenths of a point, and for one habit only. Expect a dent in the tracked behaviour rather than people abandoning the channel."
+  - "**Phone settings move first.** Of the specific changes people rated, adjusting their phone, from tightening permissions to adding an ad blocker, scored highest in every group. That is where early pullback is likeliest to show."
+  - "**Bigger reactions where trust is thin.** Markets with weaker privacy law and lower faith in how advertisers treat data are where pullback is likeliest."
+  - "**A gentler method will not win over the worried.** The most privacy-conscious planned changes whichever way the data had been gathered, so lighter tracking mainly helps with the less concerned."
+
+limits:
+  - "**Plans, not behaviour.** Everyone reported what they might do over the next two weeks; nobody's viewing or phone settings were tracked."
+  - "**A described scene.** People read about a synced ad rather than meeting one, and were told plainly how the data was gathered. In daily life most never find out."
+  - "**One unfamiliar format.** Ads synced between TV and phone are still new to most people. Tracking they already know, such as retargeting after a search, could produce different reactions."
+  - "**Two countries.** The Netherlands is one EU country, with high awareness of the GDPR and middling privacy worry by European standards. Other parts of Europe and the world were not tested."
+  - "**Fieldwork from 2021.** Both studies ran that year, and attitudes to tracking may have moved since."
+
+faq:
+  - q: "What is a chilling effect in advertising?"
+    a: "It is when people hold back or change what they do because they suspect someone is watching. In data-driven advertising it can mean watching less TV, changing phone settings or avoiding certain apps once people learn how ads are targeted (Strycharz & Segijn, 2024)."
+  - q: "What is audio watermarking in advertising?"
+    a: "A technique in which a sound code, built into a TV programme or commercial, is picked up by a nearby phone. It tells the advertiser what someone is watching, so a matching ad can appear on the phone at the same moment."
+  - q: "Does the GDPR make people more relaxed about personalised ads?"
+    a: "Dutch adults, covered by the GDPR, had more faith in advertisers and in data protection law than Americans did, and planned fewer changes after reading about tracking. The authors suggest stronger legal protection may explain this, though a comparison of two countries cannot prove it."
+  - q: "Why does it matter to marketers if people change their habits?"
+    a: "Because targeting depends on behaviour reflecting real preferences. When people self-censor what they watch or click, the signals feeding personalisation become less accurate, and campaigns built on them lose their edge."
+  - q: "Do Americans and the Dutch watch TV differently?"
+    a: "In the survey, Dutch adults reported about 415 minutes a week of scheduled TV against 140 for Americans, while Americans streamed more, about 404 minutes against 300."
+
+also:
+  - doi: "10.1007/s11747-023-00994-8"
+    title: "Diversity representation in advertising"
+    authors: "Campbell et al."
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2025
+    text: >-
+      Pulling together 337 articles on how ads portray age, beauty, body size, gender, LGBTQIA+ people, disability and ethnicity,
+      this review maps what is known about inclusive casting and turns it into one framework of causes, conditions and results.
+      Appetite for diverse ads is real but uneven, and brands that seem insincere or misjudge their audience can face a backlash.
+      The authors also see data-driven targeting and generative AI as both openings and hazards here. Casting for diversity pays
+      off best when viewers can see the brand means it.
+  - doi: "10.1177/00222429231224748"
+    title: "The Caring Machine: Feeling AI for Customer Care"
+    authors: "Huang & Rust"
+    journal: "Journal of Marketing"
+    year: 2024
+    text: >-
+      Drawing on interviews with senior managers and a survey of chief marketing officers, Huang and Rust set out what generative
+      AI would have to manage in tense, emotional service conversations: reading a customer's feelings correctly, replying with
+      empathy, helping to settle the emotion and, at the end of the journey, building a lasting bond. They hold each stage up against what current models can
+      really do and list the gaps engineers still face. A warm tone counts for little if the machine misreads how the customer feels.
+
+charts:
+  cut:
+    title: "Plans to cut TV viewing in the next two weeks, by how the phone ad was matched (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["US, browsing data", 3.81, false]
+      - ["US, sound code in broadcast", 4.26, true]
+      - ["Netherlands, browsing data", 3.42, false]
+      - ["Netherlands, sound code in broadcast", 3.85, true]
+    source: "Study 2, scenario experiment, 604 adults (298 US, 306 Dutch). The method made a significant difference for cutting TV only."
+  trust:
+    title: "Trust that each party handles personal data well, US and Dutch adults (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Advertisers, US", 2.61, false]
+      - ["Advertisers, Netherlands", 3.10, true]
+      - ["Data protection law, US", 2.88, false]
+      - ["Data protection law, Netherlands", 3.50, true]
+      - ["Government, US", 3.32, false]
+      - ["Government, Netherlands", 3.78, true]
+    source: "Study 1, cross-national survey, March 2021, 334 US and Dutch adults. All three gaps were significant."
+
+related_pages: []

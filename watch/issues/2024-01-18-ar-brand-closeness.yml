@@ -1,0 +1,227 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 3                       # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-01-18"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: ar-brand-closeness
+status: live
+
+title: "Does augmented reality make customers love a brand? Evidence from two Psychology & Marketing studies"
+dek: >-
+  Augmented reality can park a virtual car outside your front door or put a lipstick shade on your lips. Two German studies
+  show that having the brand right there turns into something warmer, brand love, above all when the illusion convinces.
+short_title: "How AR brings a brand closer, and why that breeds love"
+
+description: >-
+  Rauschnabel et al. show AR makes a brand seem close at hand, and that nearness grows into brand love, strongest when the
+  virtual product looks real.
+
+keywords: [augmented reality marketing, AR apps, brand love, consumer-brand relationships, virtual try-on, local presence,
+  perceived closeness, brand familiarity, immersive technology, mobile marketing, Psychology & Marketing]
+topics: [Retail, Advertising]
+
+image:
+  file: 2024-ar-brand-closeness.jpg
+  og: 2024-ar-brand-closeness-og.jpg
+  alt: "Two hands hold a phone sideways in a bright living room, its camera screen showing the room with a wooden table and a yellow sofa"
+  caption: "Seen through a phone, a product can sit in your own living room. That nearness turns out to matter. Photo: Jakub Żerdzicki on Unsplash."
+
+short_answer: >-
+  It can, by first making the brand feel near. In a German lab experiment, 155 students used a carmaker's app with or
+  without its AR view. The AR group sensed the brand nearer, and that sense went with more brand love. A second study, in
+  which 173 women tried on makeup virtually, traced the same path, which ran strongest when the products looked real and
+  the brand was already familiar.
+
+takeaways:
+  - "Switching on the AR view, and changing nothing else in the app, raised how near the brand seemed: a standardised effect of 0.24."
+  - "When everyone used AR, how real the virtual makeup looked was strongly tied to closeness, with a standardised weight of 0.50."
+  - "Knowing the brand did not bring it closer by itself, but it made a convincing AR effect count for more (interaction p = 0.007)."
+  - "Love for the brand recorded weeks earlier strongly predicted love afterwards (0.56), yet closeness during the session still added its own push."
+
+paper:
+  doi: "10.1002/mar.21953"
+  title: "Augmented reality marketing and consumer‒brand relationships: How closeness drives brand love"
+  authors: ["Rauschnabel, P. A.", "Hüttl-Maack, V.", "Ahuvia, A. C.", "Schein, K. E."]
+  authors_full: ["Philipp A. Rauschnabel", "Verena Hüttl-Maack", "Aaron C. Ahuvia", "Katrin E. Schein"]
+  year: 2024
+  journal: "Psychology & Marketing"
+  volume: "41"
+  issue: "4"
+  pages: "819-837"
+  online: "2024-01-18"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Philipp A. Rauschnabel"
+      affiliation: "College of Business, Universität der Bundeswehr München, Neubiberg, Germany; Otto-Friedrich-Universität Bamberg, Bamberg, Germany"
+      orcid: "0000-0003-2188-6747"
+    - name: "Verena Hüttl-Maack"
+      affiliation: "Department of Marketing & Management, University of Hohenheim, Stuttgart, Germany"
+      orcid: "0000-0003-4052-0409"
+    - name: "Aaron C. Ahuvia"
+      affiliation: "University of Michigan-Dearborn, Dearborn, Michigan, USA"
+      orcid: "0000-0002-1796-3933"
+    - name: "Katrin E. Schein"
+      affiliation: "Reutlingen University, Herman Hollerith Research Center, Böblingen, Germany"
+      orcid: "0000-0002-7109-0176"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Study 1: lab experiment with 155 German students, AR view on or off in a car brand's app; Study 2: two-wave lab survey with 173 female German students using an AR makeup try-on app"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Philipp A. Rauschnabel of the Universität der Bundeswehr München and Otto-Friedrich-Universität Bamberg, Verena
+      Hüttl-Maack of the University of Hohenheim in Stuttgart, Aaron C. Ahuvia of the University of Michigan-Dearborn and
+      Katrin E. Schein of Reutlingen University set out to test a bolder claim for AR than most marketing research had made.
+      Earlier work showed that AR can lift how much people like a brand. This team asked whether it can help people love one.
+
+      Their reasoning starts with everyday speech. We call a friend close and a cold relationship distant, borrowing words
+      for space to describe feelings. AR does something a showroom photo cannot: it puts a virtual car on your own driveway
+      or a shade of lipstick on your own face. The team expected that physical nearness to spill over into the emotional
+      kind, which sits at the heart of what brand love captures.
+
+      They ran two studies in Germany. In the first, students came to a campus lab and used a carmaker's app on an iPad,
+      either with the AR view that placed the car in the room around them or with the same car on a plain background. In the
+      second, women tried makeup virtually on their own faces with a beauty retailer's app. Here everyone used AR, and each
+      person rated how real it felt.
+    facts:
+      - ["Study 1", "155 students at a German university, randomly split: 76 used the app with AR on, 79 without it"]
+      - ["Study 1 app", "The Mercedes cAR app; both versions offered identical cars and tools, and only the backdrop differed"]
+      - ["Study 2", "173 female students in Germany, average age 24, data collected in 2019"]
+      - ["Study 2 app", "Sephora's makeup app with virtual try-on, used on a tablet in the lab for as long as each person wished"]
+      - ["Timing", "Brand love asked online first, then again after the lab session, 18 days later on average"]
+      - ["Measured", "How physically close the brand felt, brand love on a six-item scale, how real the AR felt, and brand familiarity"]
+      - ["Analysis", "Structural equation models, with bootstrapped tests of the indirect route through closeness"]
+
+  - h: "Does switching AR on bring the brand closer?"
+    body: |
+      Yes. People who saw the car standing in the room said the brand had felt nearer during the session than those who
+      saw it on a plain screen. Those who felt it near also reported warmer feelings towards it. Once nearness was counted,
+      the AR view added nothing to brand love directly; its contribution travelled through that sense of nearness, and a
+      bootstrapped test confirmed the indirect route.
+
+      The design is what makes this convincing. Plenty of AR studies pit an AR app against a website that differs in layout,
+      content and much else, so it is hard to say what caused any gap. This app let users switch the camera view on or off
+      while everything else stayed put, which isolates the AR itself.
+
+  - h: "Realism is what does the work"
+    body: |
+      The makeup study asked a sharper question. Everyone had AR, so the difference lay in how convincing it felt: whether
+      the products seemed to sit on the skin or looked like a sticker laid over a screen. The team calls this local presence.
+      Women who found the effect more convincing rated the brand as nearer, and nearness again went hand in hand with love.
+
+      Then came a stricter test. Someone who already adores a brand might simply feel nearer to it, which would turn the
+      story upside down. Because brand love had been recorded before the session, the team could hold it constant. Closeness
+      still predicted love afterwards, with a smaller weight but a clear one. Refitting the model with other controls and
+      other estimation methods left the conclusion unchanged.
+    chart: closeness
+
+  - h: "Familiarity decides how far AR can go"
+    body: |
+      Knowing the brand turned out to matter in an unexpected way. In the makeup study, familiarity was tightly bound up with
+      brand love but hardly related to how close the brand felt. Its role was to amplify: among women who knew the brand
+      well, a realistic try-on pulled it nearer than the same experience did among women who barely knew it.
+
+      Why would that be? The team gives two reasons. People are comfortable letting the familiar come close, while the unfamiliar
+      feels riskier and is kept at arm's length. And existing knowledge gives the virtual experience more meaning, so it
+      sticks. Their practical conclusion is that if AR is meant to deepen relationships, a basic level of familiarity should
+      come first.
+    chart: links
+
+  - h: "A shaky AR view may let the brand down"
+    body: |
+      Because realism drove the effect, the authors argue that AR which looks fake can disappoint and even harm a brand. They
+      urge managers to chase the most convincing experience they can build, with current development tools and good
+      tracking, and they float the idea of limiting AR features to newer phones with depth sensors such as lidar. That
+      shrinks reach and may leave some customers feeling shut out, a cost they acknowledge.
+
+      Two cautions sit beside that advice. The makeup study had no group without AR, so it shows that more realism came
+      with more closeness, not that clumsy AR left people worse off than plain photos would have. And a footnote concedes
+      that a deliberately simple overlay can be the right choice for jobs such as navigation or work instructions, where
+      building affection is not the aim.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Choose the product that gains from being in the room", "List the three to five products your customers most want to see at real size, at home or on themselves. Start with the one that looks best placed in a real room or on a real face."]
+  - ["Aim it first at people who know you", "Launch the AR feature to existing customers, app users and newsletter readers before cold audiences. Put the link where they already are: in your app, your emails and your product pages."]
+  - ["Make realism the first job", "Spend the budget on true-to-life size, light, shadow and steady tracking before adding features. Try it on five phones, two of them older models, and fix anything that floats, flickers or looks pasted on."]
+  - ["Put the product within arm's reach", "Set the default view so the item lands right beside the person: on the table, in the driveway, on the face. Let people walk around it, turn it and leave it in place."]
+  - ["Send weak phones somewhere else", "Check each visitor's device before opening the AR view. If the phone cannot run it smoothly, show a good photo set or a short video instead, and count how many people take that route each week."]
+  - ["Measure attachment, not just taps", "Ask three short questions straight after an AR session and again a month later. How close does the brand feel? How strongly do they feel for it? Would they be sorry to see it go? Compare the answers with people who only saw photos."]
+
+expect:
+  - "**A few minutes can be enough.** Most people in the car study spent only two to four minutes with the app before answering. Long, elaborate sessions are not a precondition."
+  - "**Love pays off slowly.** Earlier research ties brand love to loyalty, word of mouth, forgiveness and a willingness to pay more. Look for AR's return in those slower measures rather than in this week's sales."
+  - "**Younger, keener users may respond most.** Even among students in their twenties, the older ones felt the car brand less close. The authors note that less tech-savvy customers may respond differently."
+  - "**Realism has a price.** Lifelike 3D models, lighting and tracking cost more than a quick overlay. On our reading of the results, that is where most of an AR budget belongs."
+
+limits:
+  - "**Young students in one country.** Both samples were German university students; the car study was 77% men and the makeup study was all women."
+  - "**Two brands, one year.** A famous carmaker and a beauty retailer, with data gathered in 2019. Lesser-known brands, other categories and audiences now used to daily AR filters may react differently."
+  - "**Realism was rated, not varied.** In the makeup study people judged realism themselves, so it shows a link rather than proof that better rendering creates closeness."
+  - "**Feelings, not purchases.** Nobody's visits, purchases or spending were tracked; the outcomes are what people reported about the brand."
+  - "**Phones and tablets only.** Smart glasses, headsets and virtual mirrors in stores were not tested."
+
+faq:
+  - q: "Does augmented reality make consumers love a brand more?"
+    a: "It can. Seeing a product placed in their own surroundings left people sensing the brand close by, which in turn predicted stronger brand love, both in a car app test and in a makeup try-on study (Rauschnabel et al., 2024)."
+  - q: "What is local presence in AR?"
+    a: "It is how convincingly a virtual object seems to be really there in your surroundings. A flat label floating over the camera image scores low; a lipstick shade that looks as though it is on your lips scores high. It differs from distance: an object can be near you yet unconvincing."
+  - q: "Why would a brand feeling near make people love it?"
+    a: "People tend to bond with whoever is physically around them, such as neighbours or colleagues down the corridor, and the mind readily treats physical nearness as emotional nearness. Bringing a brand into someone's own space taps both habits."
+  - q: "Should little-known brands use AR?"
+    a: "They need not avoid it. The love-building effect was stronger among people who knew the brand, but AR can also serve goals such as awareness or sales that this research did not measure. A niche brand may be well known to the small group it sells to, and business brands can use AR at trade fairs or in sales meetings."
+
+also:
+  - doi: "10.1108/ejm-03-2022-0172"
+    title: "The effect of sponsored video customization on video shares: the critical moderating role of influencer and brand characteristics"
+    authors: "Chen et al."
+    journal: "European Journal of Marketing"
+    year: 2024
+    text: >-
+      Coding 365 real sponsored videos, this team rated how far each one was tailored to its sponsor and counted how often
+      viewers passed it on. Heavily tailored videos were shared more when the brand was long established or the product a
+      considered purchase. The same tailoring cost shares when the creator was a mega influencer or a recognised expert,
+      whose audiences seem to read a made-to-order video as a sales pitch. The bigger the creator's name, the lighter the
+      sponsor's touch may need to be.
+  - doi: "10.1177/07439156231224731"
+    title: "The “Dark Side” of General Health and Fitness-Related Self-Service Technologies: A Systematic Review of the Literature and Directions for Future Research"
+    authors: "Chen et al."
+    journal: "Journal of Public Policy & Marketing"
+    year: 2024
+    text: >-
+      Fitness apps and activity trackers are sold as aids to wellbeing, and this review gathers 65 studies on what can go
+      wrong for the people wearing them. Goal reminders, harsh feedback, leaderboards and pictures of idealised bodies were
+      linked to guilt, stress, disordered eating and social withdrawal among some users. The authors sketch a framework in
+      which these design features spark emotional reactions that can grow into real harm, depending on why and how intensely
+      someone uses the app. The nudge that keeps most users engaged can push a vulnerable few too far, which is worth weighing
+      before the next engagement feature ships.
+
+charts:
+  closeness:
+    title: "How strongly feeling close predicted brand love (standardised weight; 0 means no link)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Car app, AR on or off", 0.351, false]
+      - ["Makeup app", 0.485, false]
+      - ["Makeup app, prior love controlled", 0.314, true]
+    source: "Study 1, 155 students, and Study 2, 173 women; standardised paths from the published models, all reliable at p ≤ 0.01. The third allows for brand love recorded before the session."
+  links:
+    title: "How the makeup study's measures moved together (correlation; 0 means no link)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Familiarity and brand love", 0.54, false]
+      - ["Closeness and brand love", 0.48, true]
+      - ["Realism and brand love", 0.31, false]
+      - ["Familiarity and closeness", 0.09, false]
+    source: "Study 2, makeup try-on, 173 participants; correlations as reported in the paper's appendix."
+
+related_pages: []

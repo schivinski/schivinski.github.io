@@ -1,0 +1,236 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 7                       # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-02-14"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: chatbot-embarrassment
+status: live
+
+title: "Do shoppers prefer a chatbot when buying embarrassing products? What a Journal of Consumer Psychology study found"
+dek: >-
+  Some purchases make people blush even when they are alone with a laptop. Six studies show that a chatbot which is
+  upfront about being software can put those shoppers at ease, as long as nobody tries to make it seem human.
+short_title: "Why an honest bot beats a person for awkward purchases"
+
+description: >-
+  Jin et al. find people buying awkward products open up more to a chatbot that admits it is a bot, while a humanlike
+  look and excited tone cancel the edge.
+
+keywords: [chatbots, chatbot disclosure, embarrassing products, AI customer service, humanlike chatbots, anthropomorphism,
+  online customer service, live chat, consumer embarrassment, self-presentation, Journal of Consumer Psychology]
+topics: [AI, Service, Retail]
+
+image:
+  file: 2024-chatbot-embarrassment.jpg
+  og: 2024-chatbot-embarrassment-og.jpg
+  alt: "A person in a blue velvet jacket holds an empty pink hand-mirror frame in front of their face, against a blue roller shutter"
+  caption: "Some questions are easier to ask when nobody is looking back. Photo: Edgar Nunley on Unsplash."
+
+short_answer: >-
+  Often, yes, if the bot is plainly labelled and does not act human. In an experiment where more than 1,300 Americans
+  imagined buying diarrhoea medicine online, people were readier to chat with an agent that said it was a bot than with
+  a human service rep. Give that bot a cartoon face and gushing lines and its edge largely vanished. And when nobody says
+  who is typing, shoppers with something to hide tend to assume a person is.
+
+takeaways:
+  - "Buying hay fever tablets, 91% of students picked the online pharmacy with a human adviser over one run by a chatbot. Switch the purchase to antidiarrhoeal medicine and the chatbot shop gained ground, with awkwardness showing up in people's written reasons."
+  - "In a live skincare chat, 119 of the 191 people who handed over an email address for a free sample had been talking to a labelled bot; only 72 had been talking to a supposed person."
+  - "A cartoon face and an excited tone made a labelled bot seem far more able to feel: 2.77 against 1.79 for a plain speech-bubble bot, with a human rep at 3.61."
+  - "For the 14.5% of people most uneasy talking about sex, a humanlike bot that openly called itself a bot was credited with roughly as much inner life as a human agent."
+
+paper:
+  doi: "10.1002/jcpy.1414"
+  title: "Avoiding embarrassment online: Response to and inferences about chatbots when purchases activate self-presentation concerns"
+  authors: ["Jin, J.", "Walker, J.", "Reczek, R. W."]
+  authors_full: ["Jianna Jin", "Jesse Walker", "Rebecca Walker Reczek"]
+  year: 2025
+  journal: "Journal of Consumer Psychology"
+  volume: "35"
+  issue: "2"
+  pages: "185-202"
+  online: "2024-02-14"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Jianna Jin"
+      affiliation: "Department of Marketing & Logistics, Fisher College of Business, The Ohio State University, Columbus, Ohio, USA"
+      orcid: "0000-0002-8682-4697"
+    - name: "Jesse Walker"
+      affiliation: "Department of Marketing & Logistics, Fisher College of Business, The Ohio State University, Columbus, Ohio, USA"
+      orcid: ""
+    - name: "Rebecca Walker Reczek"
+      affiliation: "Department of Marketing & Logistics, Fisher College of Business, The Ohio State University, Columbus, Ohio, USA"
+      orcid: "0000-0003-1127-5272"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 6
+    basis: "Six numbered studies (1, 2, 3, 4, 5a, 5b): five scenario studies with US MTurk users or students and one live, scripted chat (5b); follow-ups to Studies 3 and 4, a post-test and two web-appendix studies also reported; pretests and the power-analysis pilot not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Jianna Jin, Jesse Walker and Rebecca Walker Reczek, all of the Fisher College of Business at The Ohio State University
+      in Columbus, started from something that sets chatbots apart from service robots. A robot in a shop is obviously a
+      robot. The agent in a chat window could be a program or a person, and many firms never say which.
+
+      Their question was what happens when the purchase is a little mortifying. Earlier work on embarrassment
+      mostly looked at shops, where other customers and staff can see what you buy. Here the worry is quieter: picturing
+      someone on the other end of the chat reading your question, even while you sit alone at home.
+
+      They ran six studies with products chosen to make people self-conscious: personal lubricant, antidiarrhoeal
+      medicine and skincare, set against harmless comparisons such as body lotion and hay fever tablets. Sometimes nobody
+      said what the agent was. Other times it was spelled out, and the bot either looked plain or was dressed up to seem
+      human.
+    facts:
+      - ["Studies 1 and 2", "403 US online panel members, then 795 US women, all meeting an agent whose identity was never stated"]
+      - ["Study 3", "1,501 US adults recruited, 1,316 kept after a preregistered check that they knew which agent they had met"]
+      - ["Study 4", "600 US adults judging a humanlike but clearly labelled bot or a human rep"]
+      - ["Studies 5a and 5b", "386 undergraduates choosing between two online pharmacies; 595 US adults in a live, scripted skincare chat"]
+      - ["Agents", "A plain bot (speech-bubble picture), a bot with a cartoon woman's picture and emotional language, or a rep with a real photo"]
+      - ["Open data", "Materials, data and preregistrations posted on the Open Science Framework"]
+
+  - h: "When the chat could be a person or a program"
+    body: |
+      In the first two studies, shoppers saw a chat window with a photo of a real woman asking about their preferences.
+      Nothing said whether someone or some software sat behind it.
+
+      In Study 1, people imagined looking for lubricant on a store's website and then guessed who they were chatting with.
+      The more uncomfortable someone felt discussing sex, the more likely they were to say a person was typing. Study 2
+      switched the product rather than measuring discomfort. Women shown the identical store and chat rated the chance of
+      a human agent at 4.01 out of 9 when the shelves held lubricant, and 3.68 when they held body lotion.
+
+      The explanation comes from error management theory: when unsure, people drift towards the mistake that would hurt
+      less. Assuming you face a bot and then learning a person read your question is the costlier error. So the shoppers who
+      feel most exposed assume a human and brace themselves, or skip the chat altogether, and never get the ease a bot
+      could have given them.
+
+  - h: "A labelled bot wins, a humanlike one does not"
+    body: |
+      Study 3 made the agent's identity explicit. People imagined buying antidiarrhoeal medicine from an online drugstore
+      and met one of three agents: a bot called S.A.M. with a speech-bubble icon, a bot that also declared itself a bot but
+      had a cartoon woman as its picture and greeted people with excited, emotional lines, or a human rep called Sam with
+      a real photo.
+
+      The plain bot came out on top. The friendlier, more lifelike bot, despite openly saying what it was, scored below
+      the plain one and could not be told apart from the human rep on willingness to chat.
+
+      A follow-up with 300 people showed why. Both bots seemed equally able to remember, plan and communicate. What changed
+      was how much feeling people credited them with. Study 4 then found that people most uncomfortable discussing sex saw
+      more inner life in a humanlike labelled bot, while their discomfort left their view of a human rep unchanged. A
+      further test with a plain bot found no such pattern. Human touches leave room for worried shoppers to imagine the bot
+      noticing what they buy.
+    chart: willing
+
+  - h: "From comfort to sign-ups"
+    body: |
+      Study 5a moved from chatting to choosing a shop. Undergraduates picked between two online pharmacies, one where a
+      chatbot gave advice and one with a human service agent. Two independent coders, blind to the hypotheses, rated
+      each person's written reason for their choice. Those buying antidiarrhoeal medicine mentioned awkwardness more
+      (1.38 against 1.06 on a five-point coding scale), and that awkwardness explained the shift in which pharmacy they
+      chose.
+
+      Study 5b used a real conversation. Americans who care about how their skin looks joined a trial session for a
+      skincare brand. One group chatted with an agent labelled "Chatbot" that replied instantly; the other chatted with "Sam",
+      shown with a photo of a woman and slower to answer. Both were the same program asking the same questions, ending
+      with an offer of a free sample in exchange for an email address.
+
+      People rated the labelled bot as far less able to feel (2.34 against 3.60). That lowered their embarrassment, which
+      in turn made them readier to share an address. How capable of thinking and planning the agent seemed made no difference
+      to that chain.
+    chart: questions
+
+  - h: "Why managers may miss this"
+    body: |
+      A further preregistered study of 816 Americans, reported in the online appendix, described a dating service whose
+      agent asks about dating and sexual history. People chose the bot more often for themselves than when asked what the
+      average customer would pick. We tend to underrate how awkward other people feel, and the authors suspect managers do
+      the same when they decide who staffs the chat.
+
+      Their advice is specific. Where a purchase can make people self-conscious, say clearly that the agent is a bot and
+      keep it plain. Where it cannot, most shoppers still lean towards a person. The authors also float ideas they did not
+      test: people who feel they know too little about a product, people facing a stereotype about their group, or people
+      applying for stigmatised services such as welfare might also prefer an honest bot. A bot that drops even its
+      first-person voice could do better still.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Mark the awkward products", "Go through your catalogue and flag every product or service people might hesitate to ask about out loud, such as bowel trouble, intimate health, hair loss, skin problems or debt. Aim for a working list of ten to twenty items."]
+  - ["Decide who answers where", "Route chat on those flagged pages to an automated assistant. Keep a person on chat for everyday products, where most shoppers would rather talk to someone real."]
+  - ["Say it is a bot straight away", "Put the word \"automated\" or \"bot\" in the chat header. Make the first line say it plainly, for example: \"You're chatting with an automated assistant.\" Nobody should have to guess."]
+  - ["Strip out the human touches", "Swap any face or cartoon person for a plain logo or symbol. Give the assistant a functional name rather than a first name, and cut exclamation marks, emojis and gushing phrases from the script."]
+  - ["Offer a discreet next step", "End each sensitive chat with something useful the shopper can take away quietly, such as a trial size or a short guide sent by email under a neutral subject line."]
+  - ["Compare for four weeks", "Run the labelled, plain assistant on half of the flagged pages and your current set-up on the rest for four weeks. Count chats started, questions answered and email addresses collected on each side."]
+
+expect:
+  - "**Less awkwardness, not none.** Even with the labelled bot, embarrassment fell only from 2.53 to 2.22 out of seven. Most people were not mortified to begin with; the bot takes the edge off."
+  - "**Fuller answers.** Shoppers volunteered a little more to the bot in a product-finder chat, which can make its recommendations better matched to what they need."
+  - "**People still win for everyday items.** The bot's advantage only shows up when a purchase stirs worry about how one looks to others. For ordinary products, keep humans available."
+  - "**Disclosure and marketing can point the same way.** A 2018 California law, cited in the paper, already obliges automated online agents to say what they are. For sensitive ranges, being upfront is not just compliance but an advantage."
+
+limits:
+  - "**Mostly imagined shopping.** Five of the six studies used screenshots and scenarios. Only one involved a live chat, and even there the human was a scripted program."
+  - "**American panels and students.** Most people came from Amazon Mechanical Turk, plus one group of undergraduates. Cultures with different norms about bodily topics may react differently."
+  - "**The fake human behaved a little differently.** In the live chat, \"Sam\" replied more slowly and allowed free typing for the opening reply. A post-test found people did see Sam as more likely to be a person, and the chat felt just as easy and smooth, but the authors still list this as a weakness."
+  - "**Sign-ups, not sales.** Nobody bought anything. The closest thing to real behaviour was handing over an email address, and the paper reports how those sign-ups split between the two agents rather than the sign-up rate in each group."
+  - "**Small shifts in guessing.** The tilt towards assuming a human, when identity was left open, was modest in size."
+
+faq:
+  - q: "Do customers prefer chatbots or human agents?"
+    a: "It depends on the purchase. For everyday products most people lean towards a person. When a purchase could make them self-conscious, a clearly labelled, plainly designed bot made shoppers more willing to ask for help than a human agent did (Jin et al., 2025)."
+  - q: "Should a chatbot tell customers it is a bot?"
+    a: "For sensitive purchases, yes. Left to guess, the shoppers most worried about being judged tended to assume a person was on the other end, which wiped out the relief a bot might have given."
+  - q: "Is it a good idea to make a chatbot seem human?"
+    a: "Not where embarrassment is in play. A cartoon face and emotional language led people to credit the bot with feelings, after which it lost its lead over a human rep in getting shoppers to keep chatting."
+  - q: "Why is a bot less embarrassing than a person?"
+    a: "Because people doubt it can feel or judge. In these studies it was the bot's perceived lack of emotions and awareness, not its ability to think or plan, that lowered embarrassment."
+  - q: "Which products count as embarrassing?"
+    a: "Here the test products were linked to sex, stomach upsets and how one's skin looks. Anything tied to bodily functions, sex or appearance can qualify, and the authors suggest that lack of know-how or a stigmatised service could trigger the same worry."
+
+also:
+  - doi: "10.1177/10949968231221472"
+    title: "Showing or Hiding? The Impact of Visibility of General Conditions of Use on Retargeted Ad Intrusiveness and Perceived Ethicality of Mobile Apps"
+    authors: "Toti & Steils"
+    journal: "Journal of Interactive Marketing"
+    year: 2024
+    text: >-
+      Across seven studies, app users met retargeted ads after terms of use that had been either prominent or tucked away.
+      When the conditions were easy to see, people held the company less to blame for the ads and saw themselves as having
+      agreed to them, so the ads felt less pushy and the firm seemed more ethical. How much people worried about privacy,
+      and whether the app later reminded them what they had accepted, changed the strength of that effect. Fine print
+      seems to work better as large print.
+  - doi: "10.1002/mar.21982"
+    title: "Using large language models to generate silicon samples in consumer and marketing research: Challenges, opportunities, and guidelines"
+    authors: "Sarstedt et al."
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      Can a language model stand in for survey respondents? This review gathers the studies that compared answers from
+      GPT-style "silicon samples" with answers from real people and finds the match swings widely from one topic to the
+      next. The authors see the safest use early in a project, for pretesting questions and trying out designs, and set
+      stricter conditions and ethical cautions for synthetic answers in main studies. A model can be a sparring partner for
+      your questionnaire, but it is not yet your customer.
+
+charts:
+  willing:
+    title: "Willingness to chat about antidiarrhoeal medicine, by type of agent (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Human service rep", 2.95, false]
+      - ["Labelled bot, humanlike", 3.26, false]
+      - ["Labelled bot, plain", 3.67, true]
+    source: "Study 3, preregistered online experiment, 1,315 US adults. The plain bot scored higher than both other agents; the humanlike bot did not differ from the human rep."
+  questions:
+    title: "Skincare questions answered in a live chat, out of nine"
+    scale: [0, 9]
+    step: 3
+    unit: ""
+    decimals: 2
+    bars:
+      - ["\"Sam\", presented as a person", 7.15, false]
+      - ["Agent labelled \"Chatbot\"", 7.90, true]
+    source: "Study 5b, live scripted chat, 595 US adults screened for at least moderate concern about their skin. Both agents ran the same script."
+
+related_pages: []

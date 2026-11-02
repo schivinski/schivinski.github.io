@@ -1,0 +1,264 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+# Bruno's own paper (co-authored), added to the 2024 tab on his instruction, with the digital marketing angle drawn out.
+# First published online 23 January 2024 (PLOS ONE article page "Published: January 23, 2024"; Crossref and JATS epub agree).
+# Written in his first person with one reflective section (guide: "Bruno's own papers"). No author emails (2024 tab, and
+# Bruno's own paper). Paper page: religion-city-branding-saudi-arabia.
+series: 2024
+number: 4                       # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-01-23"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: religion-city-branding
+status: live
+
+title: "Does religion help a city brand engage residents on social media? What a PLOS ONE study of Jeddah and Riyadh found"
+dek: >-
+  We looked at how Saudi government accounts drew on faith to promote two city festivals online, and at what residents
+  did in return. Religion pulled people in, but mostly as a tap of approval. Real conversation, the kind that lets residents
+  help shape their city's brand, hardly happened.
+short_title: "Faith wins likes for a city brand, not conversation"
+
+description: >-
+  Li et al. coded 1,253 Saudi government festival posts: faith-led content on events and values won likes and shares from
+  residents, but very few comments.
+
+keywords: [place branding, city branding, religion in marketing, Islamic values, stakeholder engagement,
+  government social media, resident engagement, Saudi Seasons, Twitter engagement, likes shares and comments,
+  content analysis, PLOS ONE]
+topics: [Social media, Advertising]
+
+image:
+  file: 2024-religion-city-branding.jpg
+  og: 2024-religion-city-branding-og.jpg
+  alt: "A man in silhouette stands on a rocky hillside at night, one arm raised, above Makkah's orange streets and a clock tower glowing green"
+  caption: "Makkah by night: faith is built into the skyline, and into the posts that promote a city. Photo: Rushdi Fatani on Unsplash."
+
+short_answer: >-
+  It helps people approve, more than it gets them talking. We analysed 1,253 posts from Saudi government accounts
+  promoting the 2019 Jeddah and Riyadh festival seasons on Twitter, Facebook and Instagram. Religion ran through them, in
+  buildings, events and beliefs. Residents answered with likes and shares, above all for posts about what the cities offer
+  and what they stand for. Comments, the deeper kind of engagement, stayed rare on every platform.
+
+takeaways:
+  - "Of all the government posts, 53% sold the cities on what they offer, such as events, transport and clean streets, and 32% on their character; just 15% were about how the cities look."
+  - "Every kind of post scored at least 2.0 on the engagement index on Twitter, while on Facebook nothing went above 0.9."
+  - "Comments barely registered: the comment index never passed 0.4 on any platform, and on Twitter it sat at 0.1 or 0.2."
+  - "Religion travelled inside events: one government competition, built on the Prophet's call to teach children swimming, archery and horse riding, offered more than US$300,000 in prizes."
+
+paper:
+  doi: "10.1371/journal.pone.0296162"
+  title: "Place branding: Religion in shaping the three-dimensional essence of a city brand through stakeholder engagement"
+  authors: ["Li, X. (L.)", "Alahmari, A.", "Schivinski, B."]
+  authors_full: ["Xiufang (Leah) Li", "Abdullah Alahmari", "Bruno Schivinski"]
+  year: 2024
+  journal: "PLOS ONE"
+  volume: "19"
+  issue: "1"
+  pages: "e0296162"
+  online: "2024-01-23"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # names and affiliations as printed; ORCID: Alahmari as printed, Schivinski via OpenAlex (his record lists this DOI),
+                 # Li left empty (not printed, and her ORCID record does not list this paper)
+    - name: "Xiufang (Leah) Li"
+      affiliation: "School of Media and Communication, RMIT University, Melbourne, Australia"
+      orcid: ""
+    - name: "Abdullah Alahmari"
+      affiliation: "School of Media and Communication, RMIT University, Melbourne, Australia; Department of Media and Communication science, Islamic University of Madinah, Madinah, Saudi Arabia"
+      orcid: "0000-0003-4287-9810"
+    - name: "Bruno Schivinski"
+      affiliation: "School of Media and Communication, RMIT University, Melbourne, Australia"
+      orcid: "0000-0002-4095-1922"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One case study with a quantitative content analysis of 1,253 government posts (Jeddah and Riyadh Seasons 2019) and residents' likes, shares and comments on Twitter, Facebook and Instagram (Bruno's own paper)"
+
+sections:
+  - h: "What we did"
+    body: |
+      Xiufang (Leah) Li, Abdullah Alahmari and I were colleagues at Melbourne's RMIT University, in its media and
+      communication school. Abdullah, also affiliated with the Islamic University of Madinah, curated and analysed the data. Our
+      starting point was simple. In Saudi Arabia, faith shapes daily life and public policy, so any attempt to brand a Saudi
+      city has to reckon with it. Yet research on religion and place branding had mostly looked at mosques and other
+      buildings, not at how faith might get residents involved in promoting the place they live in.
+
+      We took the Saudi Seasons, a state-run programme of city festivals launched in 2019, as our case. Two cities stood out.
+      Jeddah, on the Red Sea, is the city many pilgrims pass through on their way to Makkah and Medina. Riyadh is the
+      capital, home to more than six million people. For each city's season we gathered the government's festival posts on
+      three platforms, together with the likes, shares and comments that residents left on them.
+
+      We asked three things. How did the government use religion in those posts? How did residents respond? And what does
+      that mean for giving residents a real voice in their city's brand?
+    facts:
+      - ["Festivals", "Jeddah Season, 8 June to 18 July 2019; Riyadh Season, 11 October to 30 December 2019"]
+      - ["Data", "1,253 Arabic text posts from government accounts on the three platforms, with residents' reactions, bought from a social media data provider"]
+      - ["Coding", "Three sides of a city brand: physical (how it looks), functional (what it offers) and personality (its character, values and beliefs), each split into five or six categories"]
+      - ["Reliability", "Two trained coders, both native Arabic speakers; agreement of 0.86 on Holsti's measure in a 313-post check, above the usual 0.80 bar"]
+      - ["Engagement", "Likes (popularity), shares (virality) and comments (commitment) per post for every 1,000 followers, added together into one engagement index"]
+      - ["Ethics", "Approved by RMIT University's College Human Ethics Advisory Network"]
+
+  - h: "Faith inside the event calendar"
+    body: |
+      Faith was not a separate strand of the campaign. It ran through all three sides of the city brand. Posts about
+      the cities' looks showed off historic Islamic buildings and the Arabic calligraphy that decorates mosques, an art form
+      tied to the teachings of the Qur'an. On the practical side, posts promoted Qur'an memorisation activities and a
+      contest for the most beautiful recitation, next to outdoor entertainment, community centres and new roads built to
+      ease the traffic that kept people away from events.
+
+      Posts about the cities' character went further. When a solar eclipse fell during the festivals, the government
+      postponed events and asked residents to pray in mosques until it ended, as Islam requires. It then apologised and
+      offered accommodation to people whose plans had been disrupted. Other posts urged residents to thank God for what
+      the cities' growth had brought them.
+
+      As the chart shows, one category towered over the rest. Cultural activities were the backbone of the festival
+      story, and the Qur'an activities described above were among them.
+    chart: topics
+
+  - h: "Likes and shares, but little talk"
+    body: |
+      Residents did respond. They engaged most with posts about entertainment and cultural events, and with posts about
+      social bonds, religious values and beliefs. But they responded in a particular way. The bulk of the engagement came
+      from liking and sharing. Commenting, which asks a person to put their own words in public under a government post,
+      hardly happened.
+
+      That matters, because not all engagement is equal. Engagement researchers treat a comment as a deeper step than a
+      like: it is how a follower turns into a participant. A like says yes. A comment opens a conversation.
+
+      We think the silence has a context. Saudi Arabia has rules on speech that restrict material seen as breaching Islamic
+      law or harming national security, and there have been government efforts to monitor what is said online. Where
+      speaking up carries risk, people may choose the quieter signals. Our data cannot prove that link, but it fits what
+      earlier research says about how unequal power between government and citizens holds back resident involvement.
+    chart: modes
+
+  - h: "Twitter was the main stage"
+    body: |
+      Most of the interaction between government and residents took place on Twitter, with Instagram second and Facebook a
+      distant third. That ordering held for both cities and for every side of the brand.
+
+      The index is already scaled to followers, so the gap is not simply a matter of bigger audiences. Jeddah's Twitter and
+      Instagram accounts had similar followings, about 139,000 and 129,000, yet Twitter drew more engagement on every type of
+      post. The simpler explanation is where people were. At the time, over 90% of people in Saudi Arabia used social media,
+      and Twitter was the country's most popular network.
+    chart: platforms
+
+  - h: "The missing comments are the real story, in my view"
+    body: |
+      This is my reading, not something the study measured. In digital marketing we still treat likes and shares as proof
+      that content works. Our data show how much that can hide. The government reached residents through faith and
+      festivals, and residents clearly approved. Yet almost nobody used the one tool that turns an audience into partners:
+      the reply.
+
+      I see the same pattern far beyond city branding. Brands lean on values, from sustainability to national pride, and
+      collect quick approval for it. A post built on shared values is easy to like and awkward to question in public,
+      especially where speaking up feels risky. So a thin comment section is a poor gauge of what people really think, and
+      a weak basis for any claim that a brand is being built together with its audience.
+
+      What would I tell a city or a brand today? Keep the values, but wrap them in something people can use, and make
+      answering feel safe: polls, private messages, smaller groups, and a team that actually replies. Platforms change too.
+      Twitter, where our residents were busiest, has since become X, so the lesson is to go where your people already talk,
+      not to bet on one network.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Name the values your audience shares", "Write down three to five beliefs, traditions or local values that most of your audience holds in common. Check each one with ten people from that community before you build anything on it."]
+  - ["Choose the network where they already talk", "Look at the last 30 days on each of your accounts. Divide the average reactions per post by the number of followers, and put most of your effort where that figure is highest."]
+  - ["Put the values inside useful posts", "Tie each value to something people can use: an event, a service, a new route, a cleaner park. Make about half your posts about what you offer. Keep posts that carry only a message, with nothing to do or attend, to about one in ten."]
+  - ["Make every post easy to answer", "End each post with one simple question or a two-option poll. Offer a private route as well, such as direct messages or a short form, for people who would rather not speak in public."]
+  - ["Reply within a day", "Answer every comment and question within 24 hours, in the language it was written in. Thank people by name and say what you will do with their idea."]
+  - ["Count comments apart from likes", "Each month, log likes, shares and comments per post as three separate numbers. If likes climb but comments stay flat, change how you ask, not what you stand for."]
+
+expect:
+  - "**Replying should pay back, at a cost.** We recommend, though we did not test it, answering people's reactions, comments and questions, since responsive accounts tend to draw more of all three kinds of engagement. That needs staff time every day, not just a content budget."
+  - "**Looks are the weakest pull.** In every city and platform pairing we looked at, posts about how a place looks came last, so let appearance support the story rather than lead it."
+  - "**Values are local.** For Saudi cities we pointed to the Islamic values of tolerance and justice as shared ground to build on. Another place has to find its own, which means listening before posting."
+  - "**Judge per follower, not by totals.** Riyadh's Twitter account had more than twice Jeddah's followers, yet engagement per follower came out much the same, so a bigger account will not by itself earn a warmer response."
+
+limits:
+  - "**One country, two festivals.** A case study of two Saudi festival seasons in 2019, so the results may not hold for other places, faiths or times of year."
+  - "**Religion was not isolated.** Engagement was reported for each side of the brand, not for religious posts against other posts, so we cannot say how much faith itself added."
+  - "**Words only.** We coded the text of each post, not its pictures or video."
+  - "**Actions, not reasons.** Likes, shares and comments show what residents did, not why. Nobody was surveyed or interviewed."
+  - "**Two voices.** We studied government accounts and residents; businesses, influencers and charities that also shape a city's image were left out."
+
+faq:
+  - q: "Does religion help engage residents with a city brand?"
+    a: "It can draw them in. Saudi government posts that wove Islamic values, events and architecture into festival promotion earned plenty of approval from residents, though little discussion (Li et al., 2024)."
+  - q: "What are the three dimensions of a place brand?"
+    a: "Physical attributes are what a place looks like, such as architecture, colours and logos. Functional attributes are what it provides, from transport and services to cultural events. Personality traits are the character people link with it: its values, community spirit and beliefs."
+  - q: "Why did residents rarely comment on government posts?"
+    a: "We cannot say for certain, because nobody was asked. Our explanation is caution: commenting is public, and Saudi Arabia restricts some kinds of speech and has tried to monitor online content, so a like or a share is the safer response."
+  - q: "Should brands use faith or shared values in social media content?"
+    a: "With care. Values an audience already holds make content feel familiar and easy to endorse, but here they bought approval rather than dialogue. Handled clumsily, faith can also backfire: the earlier work we reviewed notes boycotts of products seen as offending Islam."
+  - q: "Would a faith-based city brand work in other countries?"
+    a: "That is untested. The case covers one country. The broader idea, that a place brand can draw its character from values residents already hold, may well travel to other strong shared identities, but it needs checking elsewhere."
+
+also:
+  - doi: "10.1002/mar.21968"
+    title: "The conceptualization of enablers and constraints of in‐store buying as part of the affordances flow funnel process through scan and go apps"
+    authors: "Naeem et al."
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      Supermarket apps that let shoppers scan items on their phone and skip the till are studied here through ethnographic
+      fieldwork with the people using them. The authors trace a funnel from what shoppers believe the app lets them do, to
+      what they actually manage, to a third stage they call affordance dichotomy, where experiences split in opposite
+      directions. Reactions ranged widely, from shoppers who abandoned the app to others who became thoroughly absorbed
+      in it. Self-service feels like a perk only when help is close by for the moments it breaks down.
+  - doi: "10.1002/mar.21967"
+    title: "To buy or not to buy? The impulse buying dilemma in livestream shopping"
+    authors: "Miranda et al."
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      Live selling, where a host shows products on stream and viewers can buy on the spot, is built for unplanned
+      purchases. This paper asks what tips viewers over. Across 671 survey responses, how useful a stream felt did more
+      to trigger spur-of-the-moment buying than how entertaining it was, and the gap widened among seasoned live shoppers. A
+      second, qualitative study of a leading Chinese streamer's record sale pointed to the host's manner, limited stock and
+      price offers. Fun may hold an audience, but practical value is what gets the basket filled.
+
+charts:
+  topics:
+    title: "What the government posted about: the seven biggest categories (number of posts)"
+    scale: [0, 600]
+    step: 200
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Cultural activities", 535, true]
+      - ["City brand attitudes", 193, false]
+      - ["Social bonding and community", 132, false]
+      - ["Café design", 88, false]
+      - ["Clean environment", 67, false]
+      - ["Religious architecture", 54, false]
+      - ["Religious beliefs", 45, false]
+    source: "Content analysis of 1,253 government posts across all three platforms, both 2019 festival seasons; counts summed from Table 2 of the article."
+  modes:
+    title: "Likes, shares and comments on Twitter posts about what each city offers (index scaled to followers)"
+    scale: [0, 2.5]
+    step: 0.5
+    unit: ""
+    decimals: 1
+    bars:
+      - ["Jeddah: likes", 2.0, true]
+      - ["Jeddah: shares", 0.6, false]
+      - ["Jeddah: comments", 0.1, false]
+      - ["Riyadh: likes", 1.7, true]
+      - ["Riyadh: shares", 0.8, false]
+      - ["Riyadh: comments", 0.1, false]
+    source: "Government Twitter accounts for Jeddah (139,000 followers) and Riyadh (320,000) during their festival seasons; Table 3."
+  platforms:
+    title: "Engagement with posts about each city's character, values and beliefs, by platform (engagement index)"
+    scale: [0, 3]
+    step: 1
+    unit: ""
+    decimals: 1
+    bars:
+      - ["Twitter, Riyadh", 2.2, true]
+      - ["Twitter, Jeddah", 2.1, true]
+      - ["Instagram, Jeddah", 2.0, false]
+      - ["Instagram, Riyadh", 1.5, false]
+      - ["Facebook, Riyadh", 0.7, false]
+      - ["Facebook, Jeddah", 0.6, false]
+    source: "Index = likes + shares + comments per post, per 1,000 followers. Government accounts in both cities, 2019; Table 3."
+
+related_pages: [religion-city-branding-saudi-arabia]

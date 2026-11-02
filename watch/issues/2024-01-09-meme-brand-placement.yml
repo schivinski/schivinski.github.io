@@ -1,0 +1,238 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 2                       # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-01-09"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: meme-brand-placement
+status: live
+
+title: "Should a brand put its logo front and centre in a meme? What three Journal of Retailing and Consumer Services experiments found"
+dek: >-
+  Some brands tuck their name into a meme as lightly as they can, hoping it will not read as an ad. Three US experiments
+  point the other way: making the brand easy to spot pulled people into the joke, above all when they barely knew the brand.
+short_title: "Why memes work better when the brand shows"
+
+description: >-
+  Razzaq et al. find memes that show the brand clearly earn more liking and sharing intent, most of all for little-known
+  brands and captions written to "you".
+
+keywords: [meme marketing, brand memes, logo placement in memes, brand prominence, brand placement, narrative transportation,
+  meme literacy, second-person pronouns in advertising, humour on social media, customer engagement,
+  Journal of Retailing and Consumer Services]
+topics: [Social media, Creative, Advertising]
+
+image:
+  file: 2024-meme-brand-placement.jpg
+  og: 2024-meme-brand-placement-og.jpg
+  alt: "A hand lowers a chocolate chip cookie towards a brown mug of milk, with more cookies on a turquoise plate against a terracotta background"
+  caption: "The first test meme ended with a cookie dunked in milk. Naming the cookie mattered most when the brand was unknown. Photo: Tamas Pap on Unsplash."
+
+short_answer: >-
+  Yes, on this evidence. In three online experiments with 853 American adults, memes that spelled out the brand and showed
+  its logo or pack were liked more, and people said they were readier to engage with them, than the same memes with the
+  brand barely visible. The logo helped by pulling viewers into the meme's little story. It mattered most for an unfamiliar
+  brand, for viewers who understood the joke and for captions addressed to "you".
+
+takeaways:
+  - "On a cookie meme, repeating the brand name and showing the pack lifted viewers' stated willingness to hit like, pass it on or tag a friend from 4.96 to 5.57 out of 7."
+  - "For Hydrox, a cookie few participants knew, the brand-heavy meme absorbed people far more than the light one (5.56 against 3.92 out of 7). For Oreo the two versions scored almost the same (5.75 against 5.42)."
+  - "In a check with 92 viewers, a caption written with \"you\" instead of \"I\" made people feel the meme was about them far more: 5.16 against 2.80 on the self-reference measure."
+  - "The pattern held for a luxury watch too: naming the brand lifted intent to engage with the meme from 3.62 to 4.73 out of 7."
+
+paper:
+  doi: "10.1016/j.jretconser.2023.103702"
+  title: "Meme marketing effectiveness: A moderated-mediation model"
+  authors: ["Razzaq, A.", "Shao, W.", "Quach, S."]
+  authors_full: ["Ali Razzaq", "Wei Shao", "Sara Quach"]
+  year: 2024
+  journal: "Journal of Retailing and Consumer Services"
+  volume: "78"
+  pages: "103702"
+  online: "2024-01-09"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline and affiliation); ORCID iDs as deposited by the publisher with Crossref
+    - name: "Ali Razzaq"
+      affiliation: "Department of Marketing, Griffith Business School, Griffith University, QLD, Australia"
+      orcid: "0000-0002-8184-8868"
+    - name: "Wei Shao"
+      affiliation: "Department of Marketing, Griffith Business School, Griffith University, QLD, Australia"
+      orcid: "0000-0002-9440-7543"
+    - name: "Sara Quach"
+      affiliation: "Department of Marketing, Griffith Business School, Griffith University, QLD, Australia"
+      orcid: "0000-0002-0976-5179"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Three online between-subjects experiments with 853 US adults on Prolific (300, 300, 253); manipulation checks not counted as studies"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Ali Razzaq, Wei Shao and Sara Quach of the Department of Marketing at Griffith University in Queensland, Australia,
+      looked at a choice every social media team faces when it borrows a meme: how loudly should the brand speak? Some
+      teams repeat the name and show the product. Others drop in one quiet mention so the post feels less like an ad.
+      Research on product placement in films and television often favours the quiet route, because a conspicuous brand
+      can make viewers feel sold to.
+
+      The team treated memes as tiny stories, with a set-up, a character, a sense of movement and a punchline, and asked
+      whether a visible brand helps or hinders people getting lost in them. They built pairs of memes with a free online
+      meme maker, using well-known templates, and changed only how often the brand appeared in words and pictures.
+
+      Each of the three experiments added a second twist. The first compared a household cookie brand with a rival few
+      shoppers know. The second recruited people who had never seen its meme and explained the joke to half of them. The
+      third rewrote the caption with "I" or "you".
+    facts:
+      - ["Participants", "Three groups of US adults on Prolific, of 300, 300 and 253 people"]
+      - ["Screening", "Experienced platform workers with high approval ratings only; the second study turned away 20 people who already knew its meme"]
+      - ["Memes", "Galaxy Brain with Oreo or Hydrox cookies; Draw 25 with a KFC bucket; a watch bursting through a sleeve, with or without a Gucci label"]
+      - ["What changed", "How often the brand showed up, crossed with brand familiarity, an explanation of the meme, or the caption's pronoun"]
+      - ["Measured", "Absorption in the meme, attitude towards it as an advert, and the chance of liking, sharing or tagging it, all on seven-step scales"]
+      - ["Controls", "Appetite for humour, the tendency to get lost in stories and, in the later studies, familiarity with the brand"]
+
+  - h: "Why the louder brand did better"
+    body: |
+      In every experiment, the version with the brand clearly on show beat the quieter one on liking for the ad and on
+      willingness to engage. That held for a cheap snack, a fast-food meal and a designer accessory.
+
+      The authors trace the difference to absorption, which researchers call narrative transportation: the sense of being
+      pulled inside a story. A clear name or pack gives viewers something to hang the punchline on, so they tie the joke to
+      the brand with less effort and sink into it further. The statistics fit. Once absorption was taken into account, the
+      brand cues had no separate pull on liking or sharing; their whole effect ran through it.
+
+      That cuts against the cautious advice from screen placement, where a conspicuous brand tends to pull attention away
+      from the plot. In a meme, the authors argue, the brand is part of the plot.
+    chart: liking
+
+  - h: "Famous brands can afford to whisper"
+    body: |
+      How well people knew the brand changed the picture. With the unfamiliar cookie, the quiet meme left people far less
+      absorbed than the loud one. With the market leader, both versions landed about equally well.
+
+      The explanation comes from how memory works. People who know a brand well fill in the missing cues themselves, so a
+      light mention is enough. People who do not know it have only what the post shows them, and the extra mentions give
+      them something to build the link from. For a challenger brand, a meme is a chance to teach the name, not to hide it.
+
+  - h: "Nobody is drawn in by a joke they do not get"
+    body: |
+      The second experiment used the Draw 25 template, in which a man would rather pick up a whole pile of cards than do
+      what the card asks of him. Only people unfamiliar with the meme took part. Half read a short note on what it usually
+      means; the rest saw it cold.
+
+      Among those given the note, the version with the logo on the bucket drew people in much more than the plain one.
+      Among those who saw it cold, absorption stayed low whichever version they saw, and the logo made no reliable
+      difference. A brand cannot ride a joke its audience does not understand.
+
+      The authors suggest aiming memes at younger audiences, where memes are most popular, and keeping clear of heavily
+      symbolic templates for people less at home with them. Age itself was not tested.
+    chart: literacy
+
+  - h: "Talk to the viewer, not about yourself"
+    body: |
+      The third experiment moved to a luxury watch and changed one word in the caption: "When I got the new watch and have
+      to show it off" became "When you got the new watch...".
+
+      That word decided whether naming the brand paid off. Written with "you", the meme that named the watchmaker pulled
+      people in far more than the unnamed one. Written with "I", naming the brand added little. As the authors see it,
+      second-person wording lets viewers cast themselves in the scene, while "I" leaves them watching someone else,
+      and the brand, from the outside.
+    chart: pronoun
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Find out how well people know you", "Show a plain photo of your product, with no logo, to 50 people in your target audience and ask who makes it. If fewer than half can say, plan every meme to show your name and product clearly."]
+  - ["Check the meme before you use it", "Show the bare meme template, without your brand, to 10 people from your audience and ask what it means. Use it only if at least seven explain it correctly. Otherwise pick another one."]
+  - ["Name the brand more than once", "Put the brand name in the caption at least twice and show the product or logo in the picture. Shrink the finished post to thumbnail size on your phone. If you cannot read the name, make it bigger."]
+  - ["Write the caption to the reader", "Write the line with \"you\", as in \"When you finally...\", not \"I\" or \"we\". Read it aloud. If it sounds like the brand talking about itself, rewrite it so the reader is the one in the scene."]
+  - ["Post two versions for one week", "Run a brand-heavy and a brand-light version of the same meme to two similar audiences for seven days. Compare shares, saves and friend tags, not just likes."]
+  - ["Read the comments on day one", "Check the replies in the first 24 hours. If people ask what the post means or who it is from, pause it and swap in a clearer meme. Keep a list of the templates that land and reuse them."]
+
+expect:
+  - "**A steady edge, not a jackpot.** The brand-heavy meme won for all three products, but the size of its lead changed a lot from one product and audience to the next."
+  - "**Sharing can lag behind liking.** In the fast-food test, the logo version was liked clearly more, while the gain in willingness to share or tag it was small: 4.12 against 3.95."
+  - "**Cheap to test.** Each test meme was assembled from a public template with a free tool, so testing a loud and a quiet take on one joke costs little beyond time."
+  - "**Context can widen the circle.** A short explanation turned a puzzling meme into one that worked. We think a caption or pinned comment that sets up the joke could do the same, though only the explanation itself was tested."
+
+limits:
+  - "**One viewing, stated reactions.** People saw a single meme once and said how they felt and what they might do. No real likes, shares or sales were counted, and everyone was a US adult on one research platform."
+  - "**Real brands, one meme each.** Oreo, Hydrox, KFC and Gucci carry existing feelings, and each study tested one template. GIFs, video memes and other formats were left out."
+  - "**Meme know-how was taught, not measured.** Understanding came from a short note given to newcomers. Fluency built over years online may behave differently."
+  - "**Feeling sold to was not checked.** The authors believe a clearly branded meme does not set off people's ad radar. That belief went unmeasured."
+  - "**Some averages appear twice.** For the first study, the text and the summary table give different averages for the same groups. This page uses the summary table and the main analyses; every version points the same way."
+
+faq:
+  - q: "Should brands put their logo in memes?"
+    a: "On this evidence, yes. Across cookies, fried chicken and a designer watch, memes that showed the brand clearly were rated more favourably and drew stronger intentions to engage than versions where the brand was easy to miss (Razzaq et al., 2024)."
+  - q: "What is brand-prominent meme marketing?"
+    a: "A meme in which the brand's name, logo or product appears often and is easy to see. Its opposite is a brand-subtle meme, which mentions the brand once or only hints at it."
+  - q: "Do well-known brands need to show their logo in memes?"
+    a: "Less so. People who already know a brand supply the missing cues from memory, so for the best-known cookie tested a light touch matched a heavy one. Lesser-known brands gained much more from being visible."
+  - q: "What is meme literacy?"
+    a: "The ability to read the hidden meaning of a meme template, which usually depends on knowing where it came from and how people use it. Viewers without it miss the joke, and the brand message goes with it."
+  - q: "Why write a meme caption with \"you\"?"
+    a: "Second-person wording invites viewers to picture themselves in the scene. With the brand on show, that deepened how absorbed they became; written in the first person, the caption kept them at a distance."
+
+also:
+  - doi: "10.1177/00222429241227145"
+    title: "More Likely to Pay but Less Engaged: The Effects of Switching Online Courses from Scheduled to On-Demand Release on User Behavior"
+    authors: "Lu et al."
+    journal: "Journal of Marketing"
+    year: 2024
+    text: >-
+      When an online learning platform stopped releasing a marketing course week by week and put every lesson up at once,
+      the authors tracked more than 67,000 learners either side of the change. More of them paid for a certificate, so
+      revenue rose quickly. Yet they finished fewer lectures, scored lower on quizzes and enrolled in fewer of the
+      platform's other business courses. Open access to everything sells the course; a release schedule keeps people
+      coming back.
+  - doi: "10.1002/jcpy.1405"
+    title: "Man up! The mental health-feminine stereotype and its effect on the adoption of mental health apps"
+    authors: "Lee & Trudel"
+    journal: "Journal of Consumer Psychology"
+    year: 2025
+    text: >-
+      Across five studies, men were more reluctant than women to take up apps built to support their mental health,
+      because using one felt like a feminine thing to do. Offering privacy and do-it-yourself features did not make that
+      hesitation go away. Describing the same app in more masculine terms did lift men's interest, especially among those with
+      traditional views of manhood. Who downloads an app can hinge on its framing long before its features get a look.
+
+charts:
+  liking:
+    title: "Liking for the meme as an ad, brand light against brand heavy, in each study (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Cookies, brand light", 4.14, false]
+      - ["Cookies, brand heavy", 5.39, true]
+      - ["Fried chicken, brand light", 4.20, false]
+      - ["Fried chicken, brand heavy", 4.78, true]
+      - ["Luxury watch, brand light", 3.10, false]
+      - ["Luxury watch, brand heavy", 4.46, true]
+    source: "Studies 1, 2 and 3 with 300, 300 and 253 US adults; group averages as reported, from analyses that controlled for appetite for humour and other factors."
+  literacy:
+    title: "Absorption in the fried-chicken meme, by logo and by whether the joke was explained (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Not explained, no logo", 2.81, false]
+      - ["Not explained, logo shown", 3.21, false]
+      - ["Explained, no logo", 4.11, false]
+      - ["Explained, logo shown", 5.73, true]
+    source: "Study 2, 300 US adults new to the Draw 25 meme, about 75 per group. Without the explanation the gap was not statistically reliable."
+  pronoun:
+    title: "How absorbed people felt in the watch meme, by brand mention and caption pronoun (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["\"I\" caption, brand not named", 3.01, false]
+      - ["\"I\" caption, brand named", 3.25, false]
+      - ["\"You\" caption, brand not named", 3.85, false]
+      - ["\"You\" caption, brand named", 5.11, true]
+    source: "Study 3, 253 US adults. With the \"I\" caption, naming the brand made no reliable difference in the authors' model."
+
+related_pages: []

@@ -1,0 +1,245 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 6                       # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-02-07"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: patagonia-instagram-activism
+status: live
+
+title: "How can a brand take a stand on Instagram and still come across as authentic? What a Journal of Business Research study found"
+dek: >-
+  Patagonia hardly uses Instagram to sell. Six months of its posts, and thousands of replies from fans and critics, show what
+  authenticity looks like when a brand takes sides on purpose and refuses to back down.
+short_title: "How an activist brand stays authentic on Instagram"
+
+description: >-
+  Bulmer et al. read 104 Patagonia Instagram posts and 5,541 replies: under 6% sold anything, and social causes showed up
+  more often in the most-debated posts.
+
+keywords: [brand activism, brand authenticity, sustainability marketing, Instagram brand posts, Patagonia Instagram,
+  activist brands, consumer comments, social media backlash, woke washing, purpose-driven branding,
+  Journal of Business Research]
+topics: [Social media, Creative]
+
+image:
+  file: 2024-patagonia-instagram-activism.jpg
+  og: 2024-patagonia-instagram-activism-og.jpg
+  alt: "A shirtless climber in a cap hangs from the underside of a huge sandstone overhang, ropes trailing below, against a deep blue sky"
+  caption: "A small figure on a vast wall: the kind of framing an activist brand uses to put the planet first. Photo: Lionello DelPiccolo on Unsplash."
+
+short_answer: >-
+  By putting its mission ahead of its products and holding to it when critics push back. Researchers read every post on
+  Patagonia's US Instagram account over six months of 2021, 104 in all, and 5,541 replies. The feed showed wild places and
+  ordinary people doing good, admitted flaws when asked, and took sides on climate and social justice. Fans praised that
+  steadiness, opponents objected loudly, and the authors treat both reactions as part of a genuine stance.
+
+takeaways:
+  - "Fewer than 6% of the posts promoted products, holiday deals or discounts; roughly 94% served the brand's mission instead."
+  - "Social and community issues, such as diversity and racial injustice, featured in 37.5% of all posts but in 55.2% of the 29 most-discussed ones."
+  - "Replies fell into 8 kinds: four warm (inspiration, appreciation, advocacy, respect) and four hostile (disappointment, anger, walking away, and complaints that the brand had gone 'too woke')."
+  - "The busiest post drew 347 comments and more than 830,000 views, yet 75 of the 104 posts drew 50 comments or fewer."
+
+paper:
+  doi: "10.1016/j.jbusres.2024.114547"
+  title: "Sustainability, brand authenticity and Instagram messaging"
+  authors: ["Bulmer, S.", "Palakshappa, N.", "Dodds, S.", "Harper, S."]
+  authors_full: ["Sandy Bulmer", "Nitha Palakshappa", "Sarah Dodds", "Sarah Harper"]
+  year: 2024
+  journal: "Journal of Business Research"
+  volume: "175"
+  pages: "114547"
+  online: "2024-02-07"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline and affiliation); ORCID iDs from the publisher's Crossref record (none printed in the PDF)
+    - name: "Sandy Bulmer"
+      affiliation: "School of Communication, Journalism and Marketing, Massey Business School, Massey University, North Shore, Auckland, New Zealand"
+      orcid: "0000-0002-4475-1469"
+    - name: "Nitha Palakshappa"
+      affiliation: "School of Communication, Journalism and Marketing, Massey Business School, Massey University, North Shore, Auckland, New Zealand"
+      orcid: "0000-0002-7213-0192"
+    - name: "Sarah Dodds"
+      affiliation: "School of Communication, Journalism and Marketing, Massey Business School, Massey University, North Shore, Auckland, New Zealand"
+      orcid: "0000-0002-0857-8398"
+    - name: "Sarah Harper"
+      affiliation: "School of Communication, Journalism and Marketing, Massey Business School, Massey University, North Shore, Auckland, New Zealand"
+      orcid: "0000-0002-7023-1205"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One qualitative case study of Patagonia's official US Instagram account: content analysis of all 104 posts and thematic analysis of 5,541 comments, July to December 2021; the case history from secondary sources (stage 1) prepares that analysis and is not a separate study"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Sandy Bulmer, Nitha Palakshappa, Sarah Dodds and Sarah Harper of Massey Business School at Massey University in Auckland,
+      New Zealand, wanted to know what authenticity means for a brand that takes sides on purpose. Most research on authentic
+      brands looks at firms backing causes nearly everyone supports. Brands that wade into contested issues, such as climate
+      policy or racial justice, invite praise and anger at once.
+
+      They chose one brand and went deep: Patagonia, the outdoor clothing company, which has made protecting the environment
+      its stated purpose since the 1970s. First they built a case history from company reports, the brand's website and
+      published articles. Then they exported every post from its official US account for the second half of 2021, together
+      with the replies, and wrote a description of each post's pictures and text.
+
+      The analysis came in layers. They coded the themes in each post, checked each post against four widely used markers of
+      brand authenticity, and sorted the replies by what people said and how they felt. Finally they took a closer look at the
+      posts that drew the most replies.
+    facts:
+      - ["Brand", "Patagonia, founded in California in 1973, picked as a mature brand known for public stands on environmental and social issues"]
+      - ["Account", "Patagonia's official US Instagram account, about 4.8 million followers"]
+      - ["Period", "1 July to 31 December 2021, all 104 posts"]
+      - ["Replies", "5,541 kept after duplicates and non-English comments were removed; spam, tags and stock questions set aside later"]
+      - ["Method", "Content analysis of the posts and thematic analysis of the comments, coded in a spreadsheet"]
+      - ["Checks", "Two researchers revised the post codes until they agreed fully, and built the comment codes together"]
+
+  - h: "What an activist brand posts when it is not selling"
+    body: |
+      The feed belongs to the outdoors. Dramatic wild places, and people climbing, surfing, running or fishing, usually alone,
+      appear in about three posts in four. Photographs often make the person tiny against a huge
+      landscape, a choice the authors read as a reminder that humans are a small part of nature.
+
+      Next come people doing good: volunteers, activists and individuals tackling a local problem, whoever started the
+      project. One post followed a man who put up solar panels because some forms of climate activism did not suit him. Others covered
+      regenerative farming, Indigenous rights and traditional ecological knowledge in the Americas, a community event
+      against racist abuse of Black surfers, and a new law limiting salmon farming in Tierra del Fuego.
+    chart: mix
+
+  - h: "Four tests of authenticity, as followers saw them"
+    body: |
+      The authors judged each post against four qualities that research on authentic brands keeps returning to, then looked
+      for the same qualities in the replies.
+
+      **Consistency.** The feed kept coming back to one goal, protecting the planet, even in a post about backcountry
+      snowboarding, and followers noticed that steadiness. The posts also took hard positions that could alienate some
+      customers, retailers or political groups. For the authors, that refusal to soften the message is itself consistent.
+
+      **Credibility.** By championing ordinary people and small projects, often not its own, the brand showed its aims were
+      more than talk. When it suggested giving unwanted clothes to a local shelter, rather than only steering people to its own
+      used-gear programme, one follower replied that they would donate next time.
+
+      **Symbolism.** Pictures carry much of the meaning: solitude outdoors to suggest challenge and wellbeing, sepia tones on a
+      family farming story to suggest heritage. Who appears matters too. A post about a nonbinary climber drew warm thanks for
+      showing more queer people in the sport.
+
+      **Integrity.** This lives mostly in the words. Asked whether a rain jacket was free of PFC chemicals, the brand said not
+      yet and named autumn 2024 as its target. Asked about larger sizes, it said size inclusion was a work in progress.
+      Admitting what is unfinished, the authors argue, reads as sincerity.
+
+  - h: "Praise, pushback and the posts people argued about"
+    body: |
+      On the warm side, a post celebrating a law against salmon farming reminded one follower to stay involved in fights close
+      to home, and another reply called the brand one of the few companies taking concrete steps. A post about running to
+      raise awareness of a damaged watershed brought one person to declare themselves a customer for life.
+
+      In the authors' reading, the hostile replies came mostly from people whose views clashed with the brand's. A post on activists defending an
+      old-growth forest drew a vow to stop buying from someone who disagreed about forest management. A post of white people
+      enjoying the outdoors drew a complaint about missing Black, Indigenous and other people of colour. An Indigenous Peoples' Day post
+      was dismissed as virtue signalling from a firm that sells clothes made from oil.
+
+      The chart below shows the 29 posts that passed 50 replies. Climate and ecosystem posts turned up there about as often as
+      across the whole feed, and posts on people's bond with nature slightly less often. The big gain was for diversity,
+      racism and community.
+    chart: discussed
+
+  - h: "Authentic to whom?"
+    body: |
+      Most research defines authenticity from the customer's side: a brand is authentic if people believe it is. That view,
+      in the team's reading, fits poorly with a brand built to provoke change. For such a brand, authenticity means staying true to its
+      own sustainability values, taking stands for the wider world and the planet, and leaving room for followers to say
+      what they really think, for or against. It should hear the reaction without being steered by it.
+
+      Their advice for brands earlier on the path is more cautious. Build a steady record first and choose causes that sit
+      close to what you already stand for; save the divisive issues until your commitment is beyond doubt. Be open about where
+      you are not yet sustainable, let your own account data guide what you post, and show people a realistic way to help.
+      All of this comes from one celebrated brand with a long head start, so read it as a well-argued map rather than a
+      tested formula.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Write down what you stand for", "Write one sentence on what your brand exists to change, beyond selling. Pin it above the content calendar and check every draft against it before it goes out."]
+  - ["Choose causes close to home", "List three to five causes tied directly to what you make and who buys it. If your brand is new to public stands, keep the most divisive issues off the list for now."]
+  - ["Make selling the rare post", "Out of every 20 posts, let no more than one be about a product or an offer. Fill the rest with the places, people and problems your mission is about."]
+  - ["Put real people in the frame", "Build at least half your posts around one named person doing something small and local for the cause. End each caption with one way a follower could do the same this week."]
+  - ["Answer the hard questions plainly", "When someone asks whether you live up to your own claims, reply within a day. Say what is not fixed yet and give a date. Leave honest disagreement up; remove only spam and abuse."]
+  - ["Sort your replies every month", "Once a month, read the comments on your ten busiest posts. Mark each as praise or pushback and note what it is about. Use the pattern to spot gaps between words and products, not to water down your stance."]
+
+expect:
+  - "**A split audience.** Clear positions win advocates and lose some buyers in the same thread. The company has been quoted as saying that losing a few customers is worth it."
+  - "**Products face the same test as posts.** Followers checked the goods against the message, asking why a beanie was made in China and calling out a sun-protection rating that fell short of its label."
+  - "**Even the scenery gets dragged in.** Criticism also landed under calm landscape posts, where people raised the price of gear, its guarantee or causes the brand had not yet spoken on."
+  - "**Trust takes years.** The brand in this case had decades of consistent behaviour behind its posts. A newer brand cannot borrow that record in one campaign."
+
+limits:
+  - "**One famous brand.** Patagonia's long record of activism and its outdoor audience are unusual, so a newer or mainstream brand could see different patterns."
+  - "**One platform, one half-year.** Only Instagram, only July to December 2021, and only replies written in English."
+  - "**Commenters are not customers.** People who reply are a small, self-selected group, and some may not follow the brand at all. No sales, surveys or follower counts over time were analysed."
+  - "**No cause and effect.** Most posts mixed several themes, so the analysis cannot say which picture or topic sparked praise or anger."
+  - "**News in the background.** A political controversy during the period likely stirred some of the partisan comments."
+
+faq:
+  - q: "What makes a brand look authentic on Instagram?"
+    a: "Research points to four qualities: a message that holds steady over time, believable claims, imagery that carries the brand's values, and honesty about its flaws. A case study of Patagonia found followers responding to each of the four, in praise and in criticism (Bulmer et al., 2024)."
+  - q: "How is an activist brand different from a sustainable brand?"
+    a: "A sustainable brand adopts green practices most people approve of, such as recycling or cleaner supply chains. An activist brand also takes sides on questions that divide people, from climate change to diversity and equity, knowing that part of its audience will object."
+  - q: "Should a brand reply to critics in the comments?"
+    a: "Sparingly, and honestly when it counts. Patagonia posts nearly every day but joins its comment threads only to answer serious questions. In the replies the authors quote, it thanks the person asking, admits what is not yet right and says what comes next."
+  - q: "Is a wave of negative comments a sign the strategy has failed?"
+    a: "Not necessarily. For a brand that wants to change minds, a heated, divided thread can be part of the point. The comments worth worrying about point to a gap between what the brand says and what it sells, which is where charges of inauthenticity came from."
+  - q: "What is woke washing?"
+    a: "Taking up social causes in marketing without the practices to back them up. Brands that turn activist get their motives examined more closely, so on this paper's account they have to guard their authenticity even more carefully than other brands."
+
+also:
+  - doi: "10.1002/mar.21972"
+    title: "The semiotics of emojis in advertising: An integrated quantitative and qualitative examination of emotional versus functional ad dynamics"
+    authors: "Madadi et al."
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      An experiment with sports drink ads crossed emotional and functional messages with and without emojis, and a follow-up
+      qualitative study asked people what they made of them. The emotional ads without emojis came out ahead on liking,
+      believability, ease of processing and intention to buy, and both versions with emojis trailed them. When the copy already
+      carries the feeling, a row of little faces may only get in its way.
+  - doi: "10.1002/mar.21973"
+    title: "Home cooking in the digital age: When observing food influencers on social media triggers the imitation of their practices"
+    authors: "Sokolova et al."
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      Two surveys and an experiment with French social media users asked what makes followers actually cook a recipe that an
+      Instagram food creator shares. Entertainment mattered most, with confidence in one's own cooking also counting, at
+      least among women. Easy recipes, past experience and a creator openly encouraging viewers went with more of that confidence, while
+      health and money arguments showed no clear pull. A post that people are meant to copy should be fun and doable
+      before it is worthy.
+
+charts:
+  mix:
+    title: "Share of all 104 posts carrying each theme (posts often carry several)"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Beauty of the planet", 77.9, true]
+      - ["People connecting with nature", 74.0, true]
+      - ["People taking action, doing good", 51.9, false]
+      - ["Environmental issues", 41.3, false]
+      - ["Social and community issues", 37.5, false]
+      - ["Products and offers", 5.8, false]
+    source: "Case study of Patagonia's official US account, second half of 2021: content analysis of all 104 posts."
+  discussed:
+    title: "Share of the busiest posts (over 50 replies, 29 in all) carrying each theme"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Beauty of the planet", 79.3, false]
+      - ["People connecting with nature", 69.0, false]
+      - ["People taking action, doing good", 51.7, false]
+      - ["Environmental issues", 41.4, false]
+      - ["Social and community issues", 55.2, true]
+      - ["Products and offers", 6.9, false]
+    source: "Same case study: the 29 posts with more than 50 comments after cleaning. Compare with the chart of all 104 posts above."
+
+related_pages: []

@@ -1,0 +1,216 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 8                       # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-02-20"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: fan-engagement-album-fit
+status: live
+
+title: "Does social media engagement help a new product launch? What a Journal of Interactive Marketing study found"
+dek: >-
+  Brands court likes, comments and shares before a launch. Two years of album sales in Canada show that a lively
+  fan base pays off when the new release sounds like the last one, and can turn against a young act that changes course.
+short_title: "Engaged fans want the familiar"
+
+description: >-
+  Perron-Brault et al. find a lively Facebook fan base lifts an artist's release-week sales about 1.57 times, but only when
+  the new album sounds like the last.
+
+keywords: [social media engagement, new product launch, customer engagement, product fit, brand extension, fan engagement,
+  music marketing, artist branding, Facebook engagement, streaming, brand longevity, Journal of Interactive Marketing]
+topics: [Social media, Creative]
+
+image:
+  file: 2024-fan-engagement-album-fit.jpg
+  og: 2024-fan-engagement-album-fit-og.jpg
+  alt: "A concert crowd in silhouette under warm stage lights and haze, one fan holding both hands up in a heart shape towards the band"
+  caption: "Fans give their hearts freely, and they expect the next record to give something familiar back. Photo: Anthony DELANOIX on Unsplash."
+
+short_answer: >-
+  Yes, if the launch gives fans what they came for. In weekly sales for 181 albums released in Canada, artists whose Facebook
+  fans were more active than their following would predict sold a little more after release. That small lift turned large
+  when the new album sounded close to the previous one and disappeared when it sounded far off. For young acts, an engaged
+  fan base could even work against a sharp change of style.
+
+takeaways:
+  - "With very active fans and a familiar sound, the model put an artist's sales in the week a pop or rock album came out at about 1.57 times those of an act whose fans were only averagely active."
+  - "For acts about a year past their debut, that same pairing went with weekly sales roughly 1.8 times those of an average act."
+  - "Acts around 15 years into their careers showed neither the bonus nor the penalty, however lively their fans and however far the album strayed."
+  - "About 60% of the units counted came from streams rather than purchases, so the results describe audiences already listening mostly through streaming services."
+
+paper:
+  doi: "10.1177/10949968231223111"
+  title: "The Effect of Online Engagement on New Product Performance: Why Fit and Brand Longevity Matter"
+  authors: ["Perron-Brault, A.", "Legoux, R.", "Dantas, D. C.", "Nepomuceno, M. V."]
+  authors_full: ["Alexis Perron-Brault", "Renaud Legoux", "Danilo C. Dantas", "Marcelo Vinhal Nepomuceno"]
+  year: 2024
+  journal: "Journal of Interactive Marketing"
+  volume: "59"
+  issue: "4"
+  pages: "367-384"
+  online: "2024-02-20"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Alexis Perron-Brault"
+      affiliation: "École des sciences de la gestion (ESG), Université du Québec à Montréal, Canada"
+      orcid: "0000-0002-9051-9599"
+    - name: "Renaud Legoux"
+      affiliation: "HEC Montréal, Canada"
+      orcid: ""
+    - name: "Danilo C. Dantas"
+      affiliation: "HEC Montréal, Montréal, Canada"
+      orcid: "0000-0001-7477-3813"
+    - name: "Marcelo Vinhal Nepomuceno"
+      affiliation: "HEC Montréal, Canada"
+      orcid: "0000-0001-5150-6675"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival dataset: weekly sales of 181 albums by 158 artists in Canada, 2016-2017, joined with Facebook and Spotify data; the genre-based fit, streams-only and omitted-variable models are robustness checks on the same data"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Alexis Perron-Brault of the business school of the Université du Québec à Montréal (ESG UQAM), with Renaud Legoux,
+      Danilo C. Dantas and Marcelo Vinhal Nepomuceno of HEC Montréal, put a common launch belief to the test: the more your
+      audience likes, shares and comments, the better your next product will sell. They suspected a catch. Devoted customers
+      carry expectations, and a brand that changes what they love can feel their anger, as rock bands that went pop and soft
+      drinks that changed their recipe have found out.
+
+      Music made a good test bed. Artists are brands, albums are new products, and fans are loud online. The team gathered
+      weekly sales and streams for albums released in Canada, joined them with each artist's Facebook activity in the months
+      before release, and scored how close each new album sounded to the one before.
+
+      Every artist's weekly sales were then followed from two months before each release to two months after it. That let the
+      team separate the jump at release from the slower rise and fall around it.
+    facts:
+      - ["Albums", "181 by 158 artists, released in 2016 and 2017; debuts, live records and compilations left out"]
+      - ["Artists", "Drawn from 405 acts spread across five bands of Facebook following, from under 10,000 page likes to over 5 million"]
+      - ["Sales", "Weekly Nielsen SoundScan figures covering everything an artist sold or streamed, in album-equivalent units: one album, ten song downloads or 1,500 streams"]
+      - ["Engagement", "People liking, sharing, commenting on or tagging the artist on Facebook in the third month before release, relative to the size of the page"]
+      - ["Fit", "How close the new album's sound sits to the artist's previous studio album, scored from Spotify's audio analysis"]
+      - ["Experience", "Years since the artist's first album; about eight and a half on average, up to 49"]
+
+  - h: "Engaged fans reward the familiar"
+    body: |
+      What counted as engagement matters here. The team did not simply reward big pages. They compared artists with similar
+      numbers of page likes and asked whose followers did more, with more comments, shares and tags than a page of that size
+      usually gets. The size of a following had a much larger link with sales in its own right. Activity was a separate and
+      far smaller layer on top of it.
+
+      The chart gives the model's estimate for a pop or rock record, the most common kind in the data, in its release week.
+      With a lively following and a close match to the last album, the estimate climbs well above that for an averagely engaged
+      act. Swap in an album that strays far from the last one and the lively following stops making a measurable difference.
+    chart: launch
+
+  - h: "Newcomers are held to their sound; veterans are not"
+    body: |
+      Career length split the results. Among artists only a year or so past their first album, very active fans plus a familiar
+      sound paid off most clearly. A very sharp break in sound did the opposite. For these young acts, a busier fan base was then
+      linked to lower weekly sales than a quieter one, so engagement became a liability.
+
+      Long-established acts were a different story. The authors suggest that after many years a change of direction can feel like
+      a welcome refresh rather than a betrayal, much as later film sequels tend to do better when they move away from the original.
+
+      One side result looks odd at first. Older acts sold less than newer acts with the same number of page likes. Experience and
+      following tend to grow together, so a veteran with only a modest following is probably working in a niche.
+
+  - h: "Streaming raises the stakes"
+    body: |
+      Streaming's share of the industry's worldwide revenue kept climbing after these albums came out, the authors note. So the
+      team reran the analysis twice: once allowing for how much of each artist's listening came through streams, and once counting
+      streams alone. Fit still governed the effect of engagement, and the gap between newcomers and veterans held. The general
+      lift from fan activity, though, did not hold up in these checks. On streaming services, a familiar sound looked less like a
+      bonus and more like a condition for fan activity to count at all.
+
+      A second check swapped the audio-based fit score for one built from the genre and style labels of a music database. The
+      results lined up with the main analysis.
+
+  - h: "Changing course without losing the fans"
+    body: |
+      The data show the risk. The authors also discuss ways around it, none of them tested here. The simplest is to change in
+      small steps, especially early in a career. Another is collaboration: a guest spot with an artist from a distant genre lets
+      each side reach the other's audience while keeping its own position. A third is to give a new style its own name, as some
+      musicians have done with side projects. A fourth is to frame the change so fans can see the link, for example by stressing
+      a pop singer's long training in jazz when she releases a jazz record.
+
+      They also advise artists who want to keep switching styles not to pour effort into rallying existing fans, because that
+      extra effort is unlikely to pay back in sales. New acts might explore first and build an engaged following once their sound
+      settles.
+
+      The logic travels beyond music. Any brand with a busy online community, from a snack maker planning a new flavour to an app
+      planning a redesign, is making the same bet with its fans. That is our extension of the findings; the evidence itself covers
+      albums only.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Check how lively your audience really is", "Take last month's count of people who liked, shared or commented on your page and divide it by your number of followers. Do the same for each of the last 12 months, so you can tell a busy audience from a merely big one."]
+  - ["Score the launch against your last one", "Write down five things your fans know you for, such as sound, look, price, tone or format. Mark each one same, slightly different or new for the coming launch. If three or more are new, treat it as a big break."]
+  - ["Rally the fans when the launch is familiar", "If most of the five stay the same, lean on your fans. From about three months out, invite them to comment, share and tag. Post more often than you normally do in the eight weeks either side of launch day."]
+  - ["Build a bridge for a big break", "If the launch is a big break, spend your first two posts explaining what links it to the work fans already love. Or release it as a collaboration, or under a separate name, so it does not have to carry your main brand."]
+  - ["Look beyond your fans for a sharp turn", "If your brand is young and the turn is sharp, spend less on stirring up existing fans. Put that money into reaching new people who have no fixed picture of you yet."]
+  - ["Track eight weeks, then plan the next step", "Follow sales or streams week by week for eight weeks after launch, next to the comments. If fans stay busy but sales stall, keep the next release closer to home and change in smaller steps."]
+
+expect:
+  - "**The payoff comes after launch.** Fan activity measured months ahead had no link with sales in the run-up to release; its value appeared once the product was out."
+  - "**Extra posting adds a little.** Artists who posted on Facebook more often than their own usual rate around release sold somewhat more, an effect the authors describe as small."
+  - "**Familiar launches cost some creative freedom.** Leaning on engaged fans rewards steady, incremental change. The authors still see value in a bold move now and then, even at the price of a short-term dip."
+  - "**A bigger audience can make up for lost fans.** In the authors' view, moving from a niche style to a popular one can win more new listeners than it loses loyal ones. This was not measured."
+
+limits:
+  - "**One market, one platform, a few years ago.** Sales were tracked in Canada only, with fan activity read from Facebook alone. Fans who gather on TikTok or Instagram today, or products people buy less often than music, may behave differently."
+  - "**Launch period only.** Nothing beyond the weeks around each release was tracked, so the long-run cost or benefit of a change in style is unknown."
+  - "**Catalogues, not single albums.** Sales were recorded for each artist's whole catalogue. Veterans may have looked immune partly because their older hits kept selling."
+  - "**Associations, not experiments.** No one was handed a sound or a fan base at random. The models were built to guard against hidden influences, but they cannot rule them all out."
+  - "**Fit as software hears it.** Closeness was scored from audio features, not from fans' opinions, and nobody asked artists whether fan expectations held them back."
+
+faq:
+  - q: "Does social media engagement increase sales of a new product?"
+    a: "Modestly, and mostly when the product resembles what came before. In weekly music sales from Canada, an unusually active Facebook following went with a small rise in sales after an album came out, a rise that grew strong for albums in the artist's usual style and faded for those outside it (Perron-Brault et al., 2024)."
+  - q: "Can an engaged online following hurt a product launch?"
+    a: "It can for a young brand that changes direction sharply. For musicians early in their careers, a busier fan base went with lower weekly sales when a new album broke hard with their usual style. The authors think newer fan relationships are more fragile, which may explain why."
+  - q: "Why would loyal fans turn against a new release?"
+    a: "The authors draw on social exchange theory. Fans who like, share and comment feel they are giving something, and they expect a product they will enjoy in return. When a release breaks that unspoken deal, the authors expect fans to even the score by skipping it, listening less to older work or speaking badly of the artist."
+  - q: "Do negative comments on social media hurt sales?"
+    a: "Not always. Before release, a more negative tone in fans' comments was linked to higher sales at launch. Further analysis showed tone mattered only for artists with quiet fan bases, where criticism may draw attention that a bland feed would not. A little controversy may help those who are barely noticed."
+  - q: "How was the fit of a new album measured?"
+    a: "From the sound itself. Spotify scores every track on features such as energy, loudness, danceability, mood, tempo and length. The team averaged these across each album and measured how far the new album sat from the artist's previous studio release."
+
+also:
+  - doi: "10.1002/jcpy.1413"
+    title: "A review of touch research in consumer psychology"
+    authors: "Krishna et al."
+    journal: "Journal of Consumer Psychology"
+    year: 2024
+    text: >-
+      This review maps what consumer psychology knows about touch, running from handling a product in person to touch that is
+      only implied. Along the way it covers touch through screens and devices, imagining how something would feel, contact between
+      people, and the way words and typed cues can call touch to mind. The authors close with open questions for the field.
+      For online sellers, who never get to put the product in a shopper's hands, it is a handy guide to what pictures, screens and
+      words can stand in for.
+  - doi: "10.1002/mar.21980"
+    title: "How do username and avatar affect people's engagement with native advertising on social media: From the self‐disclosure perspective"
+    authors: "Yang et al."
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      Four studies looked at social media users who appear under their real name and photo rather than a made-up identity. Those
+      who presented themselves authentically engaged more with sponsored posts that blend into the feed, and how involved they
+      were with the platform changed how strong that link was. Wanting to present oneself, build relationships and trust others,
+      along with privacy worries, all shaped whether people showed their real selves. The audience that shows its face may be the
+      one most open to native ads.
+
+charts:
+  launch:
+    title: "Estimated sales in the release week, by how active the artist's fans were (album-equivalent units)"
+    scale: [0, 700]
+    step: 100
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Averagely active fans", 409, false]
+      - ["Very active fans, familiar sound", 641, true]
+    source: "Model estimates for a new pop/rock album, from weekly sales of 181 albums by 158 artists, Canada 2016-2017. Sales cover the artist's whole catalogue."
+
+related_pages: []
