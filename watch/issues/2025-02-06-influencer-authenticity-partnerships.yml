@@ -1,0 +1,247 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 5                       # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-02-06"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: influencer-authenticity-partnerships
+status: live
+
+title: "How can brands and influencers keep sponsored content authentic? What a Journal of Marketing study found"
+dek: >-
+  Brands suspect creators of chasing the fee, creators chafe at brand scripts, and followers can tell when a paid post rings
+  false. Interviews with all four sides of the deal map where they disagree and how partners can close the gap.
+short_title: "What keeps sponsored creator content authentic"
+
+description: >-
+  Duffek et al. interviewed 185 consumers, creators, brand managers and agencies and found that authenticity lives in the
+  partnership, not in the creator.
+
+keywords: [influencer authenticity, influencer marketing, sponsored content, brand partnerships, influencer selection,
+  creator brief, honest product reviews, engagement rate, transparent opportunism, generative AI disclosure, Journal of Marketing]
+topics: [Influencers, Social media]
+
+image:
+  file: 2025-influencer-authenticity-partnerships.jpg
+  og: 2025-influencer-authenticity-partnerships-og.jpg
+  alt: "A young woman in a white shirt and jeans sits on the floor of a photo studio against a bright yellow backdrop, a white barrel beside her and softbox lights on stands either side"
+  caption: "The set, the lights and the brief may belong to the brand. The voice has to stay the creator's. Photo: Yehor Milohrodskyi on Unsplash."
+
+short_answer: >-
+  By closing the gaps between what each side wants from a post. In 185 interviews with consumers, influencers, brand managers
+  and agency staff, five qualities kept coming up: expertise, a real bond with followers, integrity, an original voice and candour
+  about flaws. Each group weighs them differently. Brand managers watch engagement and want the script, while followers want
+  honesty and the creator's own style. The authors show each party how to bring those interests into line.
+
+takeaways:
+  - "Integrity, meaning the creator acts in the audience's best interest and not just for the money, is a high priority for only 1 of the 4 groups interviewed. Followers care; the other three sides of the deal rate it low."
+  - "Brand managers and agencies have settled on rules of thumb such as likes worth 1% to 5% of followers, comments worth 1% to 2% and video views worth 10% to 30%; the authors urge looking past them to how deep the conversation with followers goes."
+  - "A makeup micro-influencer kept wearing a pair of gifted jeans until followers asked about them. Once she said where they came from, the jeans sold out within 3 days, the brand manager recalled."
+  - "One podcaster said AI turns a 10-hour task into 2 hours' work, and the authors conclude that being open about AI use can keep a creator's originality intact."
+
+paper:
+  doi: "10.1177/00222429251319786"
+  title: "Authenticity in Influencer Marketing: How Can Influencers and Brands Work Together to Build and Maintain Influencer Authenticity?"
+  authors: ["Duffek, B.", "Eisingerich, A. B.", "Merlo, O.", "Lee, G."]
+  authors_full: ["Barbara Duffek", "Andreas B. Eisingerich", "Omar Merlo", "Guan Lee"]
+  year: 2025
+  journal: "Journal of Marketing"
+  volume: "89"
+  issue: "5"
+  pages: "21-46"
+  online: "2025-02-06"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "Barbara Duffek"
+      affiliation: "J. Mack Robinson College of Business, Georgia State University, USA"
+      orcid: "0000-0002-1855-2853"
+    - name: "Andreas B. Eisingerich"
+      affiliation: "Imperial College Business School, UK"
+      orcid: "0000-0001-5531-4662"
+    - name: "Omar Merlo"
+      affiliation: "Imperial College Business School, UK"
+      orcid: "0000-0002-4421-3679"
+    - name: "Guan Lee"
+      affiliation: "Unilever, UK"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One qualitative theories-in-use study: 185 in-depth interviews (42 consumers, 48 influencers, 56 brand managers, 39 agency staff) in three rounds, 2022 to 2024, coded together with open-ended MTurk answers (193 valid of 270)"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Barbara Duffek of the J. Mack Robinson College of Business at Georgia State University,
+      Andreas B. Eisingerich and
+      Omar Merlo of Imperial College Business School in London, and
+      Guan Lee, a senior product manager at Unilever, took on what the trade press has called an authenticity crisis.
+      Industry surveys cited in the paper put it plainly: 88% of consumers say they want authenticity from influencers, yet
+      nearly half of influencers come across as inauthentic.
+
+      Earlier research mostly asked one side, either the creators or their followers. This team wanted every party in the room,
+      because a sponsored post is shaped by several hands: the creator, the audience, the brand manager who pays, the agency that
+      brokers the deal, and even the product and the post itself. They borrowed a lens from social theory called assemblage theory,
+      which treats such a mix of people and things as one system that its parts can hold together or pull apart.
+
+      They talked to people one at a time, first to find out what authenticity means to each group, then to test and sharpen a
+      definition with later interviewees. Respondents lived in many countries, most often the United States and the United
+      Kingdom, and the creators worked in fashion and beauty, gaming, travel, food, finance and more. Written survey answers from
+      consumers recruited online were analysed alongside the transcripts.
+    facts:
+      - ["Interviews", "185, one to one, in person or by video call, lasting 43 to 96 minutes each"]
+      - ["Who", "People picked for first-hand knowledge: followers, creators, client-side managers and agency staff"]
+      - ["Fieldwork", "Three rounds: 39 interviews in spring 2022, 85 in summer and autumn 2022, 61 from spring 2023 to summer 2024"]
+      - ["Survey", "Open-ended answers from 193 Amazon Mechanical Turk consumers who follow influencers, out of 270 recruited"]
+      - ["Analysis", "Three researchers coded the transcripts separately, then grouped the codes into themes"]
+      - ["Output", "Five qualities of authenticity, how much each group cares about each, and advice for creators, brands and agencies"]
+    chart: sample
+
+  - h: "Authenticity is a fit, not a trait"
+    body: |
+      The interviews boiled authenticity down to five qualities. Expertise is whether the creator seems to know the field.
+      Connectedness is how familiar and engaged followers feel, sometimes to the point of being changed by the creator. Integrity
+      means acting from conviction, with followers' interests ahead of the fee. Originality is the creator's own storytelling style.
+      Transparency is openness about the whole picture, flaws included.
+
+      The central claim is that none of these belongs to the creator alone. Someone can seem genuine with one brand and hollow with
+      another, because authenticity appears only when creator, brand and audience line up. It follows that a gap in one quality
+      can be covered by strength in the others.
+
+  - h: "Where the four groups disagree"
+    body: |
+      Each group cares most about whatever serves its own interest. Followers want nearly everything except formal expertise.
+      Agencies prize know-how and a close bond with the audience. Creators value their expertise, their voice and, in principle,
+      honesty. Brand managers value expertise only insofar as it strengthens the bond with followers, and that bond only insofar as
+      it yields engagement; the remaining three barely register with them.
+
+      Integrity splits followers from everyone else. Followers are wary of anyone who seems bought. Creators admit they have
+      bills to pay, and brands and agencies take the commercial motive for granted. Yet all four groups worry about the same
+      thing: a creator who takes every deal, or promotes rival brands of the same product, damages both reputations at once.
+    chart: priorities
+
+  - h: "Followers trust consistency and a reply"
+    body: |
+      Followers did not ask for credentials. One consumer, training for a 10k himself, described dropping expert sportsmen in
+      favour of amateur runners preparing for one, because their advice felt real. Steady posting within a niche mattered more
+      than formal qualifications. Creators who jumped category, such as a high-end beauty voice suddenly pushing a cheap shampoo,
+      risked that trust. One travel creator opened a second account for other topics, because off-topic posts lost reach with
+      the algorithm. The authors still leave room to roam: a new subject can work if closeness with the audience and the
+      creator's candour carry it.
+
+      Connection is where brand managers' habits clash most with what builds trust. Many select on numbers. One said follower count
+      was the only metric that mattered; another rated an account with 300,000 followers and 15,000 daily video views as higher
+      quality, and more authentic, than one with 2 million followers and 30,000 views. The authors look past such figures to
+      the conversation itself. Does the creator answer questions, run live sessions, make follow-up posts on what followers
+      asked? Some Asian creators, Korean ones in particular, also resisted brands' tracking systems, which they felt took
+      away their control over content and conversation.
+
+  - h: "Scripts, flaws and real use"
+    body: |
+      Brands like to keep the product at the centre and the script in their own hands. Creators push back. One said she
+      normally rejects proposals that dictate what the caption must say, and one team told clients that a video listing
+      product benefits belonged on the brand's own channels, since their audience would not respond to it. During lockdown,
+      Starbucks asked another creator for content on making café-style coffee at home. He pitched instead a series of stories
+      and reels shot at home from his own point of view, documenting his experience of making it. In his words, "it was not an ad. It's
+      content!"
+
+      Openness about flaws is the quality brands and agencies rank lowest, and creators feel the pressure. One left the negatives
+      out of a sponsored restaurant review; another, running a smaller account, admitted caring more about the brand's opinion
+      than the followers'. Followers, meanwhile, distrust reviews that are all praise and believe a creator more when a small
+      drawback is mentioned, which fits earlier work on the blemishing effect. Visible use counts too. A mascara review delivered
+      while wearing false lashes was, for one viewer, enough to kill the creator's authenticity.
+
+  - h: "Two surprises: admitting the fee, and using AI"
+    body: |
+      Integrity is supposed to mean the money is not the point, yet the interviews turned up cases where saying it was the point
+      worked. An agency respondent recalled Tyler, the Creator telling audiences he wore a brand's shoes because he was paid to.
+      The executives were furious; people loved it and bought the shoes. The authors call this transparent opportunism and suggest
+      it helps when the creator's other qualities are strong.
+
+      Generative AI looked like a threat to originality. On the authors' reading it need not be, provided creators say openly that
+      they use it. A podcaster who builds custom GPTs, one fed with guides to good journalism and others for LinkedIn
+      strategy, and gives some away free, described AI as part of his brand rather than something to hide.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Check the creator already uses you", "Before you make contact, scroll back through three months of the creator's posts. Look for your product, or your category, in posts nobody paid for. If it never appears, keep looking."]
+  - ["Read the replies, not the counts", "Open the creator's last ten posts and read the comments under each. Count how many follower questions got an answer. Favour the creator who talks back over the one with the bigger audience."]
+  - ["Write a brief, not a script", "Keep the brief to one page: the goal, two or three facts that must be right, and anything the law requires. Leave the words, the story and the format to the creator."]
+  - ["Put honesty in writing", "Tell the creator in the contract that they may mention one thing they would change about the product. Agree together how to phrase it. Offer a run of three or more posts so they need not fear losing the next deal."]
+  - ["Send the product a month early", "Ship it at least four weeks before the first paid post, so the creator lives with it. Ask them to show how it fits an ordinary week, not a single unboxing."]
+  - ["Sort the comments after launch", "For two weeks after each post, sort 50 comments into three piles: questions, praise and doubts about the deal. If the doubts pile keeps growing, pause and rethink the brief or the partner."]
+
+expect:
+  - "**Slower selection.** Reading back catalogues and comment threads takes longer than sorting creators by follower count, and the list of suitable partners gets shorter."
+  - "**Less control over wording.** A looser brief brings phrases and formats you would not have picked. Plan a review that checks facts and disclosure rather than tone."
+  - "**Candour has to be invited.** One creator said she would be honest about quality if only the brand asked her to. Expect to repeat the invitation; the authors think longer contracts help too."
+  - "**Build your own yardstick.** There is no published uplift to quote to your boss, so record a baseline, such as reply rates and sales per creator, before you change how you pick and brief partners."
+
+limits:
+  - "**Interviews, not measurement.** Everything rests on what people said. Nothing was tested in a controlled comparison or traced through to sales."
+  - "**Authenticity was named up front.** Interviewers raised the word authenticity themselves. The authors note this is less open-ended than such studies usually are, and that a more inductive approach could capture more."
+  - "**Human creators only.** Virtual influencers and avatars were left out."
+  - "**Platforms blended together.** Respondents used YouTube, Instagram, TikTok, Twitch and others, and nothing in the analysis separates long videos from short reels."
+  - "**The fee-admission idea still needs testing.** The upside of openly admitting a fee rests on a handful of examples, chiefly one celebrity campaign, and the authors call for work on how it operates."
+
+faq:
+  - q: "What makes an influencer authentic?"
+    a: "In this framework, five qualities: knowing the subject, a genuine two-way bond with followers, acting from conviction rather than for the fee, a storytelling voice of one's own, and candour about the good and the bad. It emerges once all parties to a deal agree on these, so it lives in the partnership rather than in the creator alone (Duffek et al., 2025)."
+  - q: "Should brands script influencer content?"
+    a: "Lightly, if at all. Creators said tightly scripted posts did not suit their audiences and performed poorly, and followers expect more than a repeated brand message. The authors recommend briefs built around outcomes, joint planning sessions and freedom for the creator's own style."
+  - q: "Do followers object to sponsored posts?"
+    a: "Not in principle. Consumers accepted that creators earn money from brands. They wanted clear disclosure, some selectivity about which deals to take, and signs that the creator really uses what they promote. A feed where nearly every post carries an ad label struck one follower as fake enough to skip."
+  - q: "Can creators use AI and still seem authentic?"
+    a: "The authors think so, as long as the use is disclosed, and they suggest presenting AI as a tool that adds to the creator's creativity. Deepfakes and AI in conversations with followers are a separate question the paper leaves for future work."
+  - q: "What should brands look at besides engagement rate when picking influencers?"
+    a: "Engagement figures are a starting point. Beyond them, look at how the creator talks with followers, whether they have used the product without being paid, whether their values match the brand's, and whether they post for many rival brands. The authors also suggest checking past sponsored posts for heavy scripting and for clear disclosure."
+
+also:
+  - doi: "10.1177/10949968251317204"
+    title: "Signals for Success: The Intersection of Influencer Linguistic Personality, Content, and Follower Size"
+    authors: "Myers et al."
+    journal: "Journal of Interactive Marketing"
+    year: 2025
+    text: >-
+      Text mining of 961 sponsored posts from 71 influencers linked their wording and pictures to engagement. Agreeable language
+      helped, while a shot of the product and heavy hashtag use hurt. Audience size changed the recipe: big accounts did better with
+      conscientious wording, fewer hashtags and the creator in the photo, smaller ones with extroverted, agreeable, open and emotionally stable language. One
+      caption style will not suit every account size.
+  - doi: "10.1002/mar.22185"
+    title: "How Argument Numerosity Shapes Firm‐Generated Content Effectiveness"
+    authors: "Pozharliev, De Angelis, & Cascio Rizzo"
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Should a brand's own social post list many product features or few? Five studies, mixing experiments with mock Instagram posts
+      and text analysis of thousands of real brand tweets, found longer lists helped only for practical, utilitarian products. There
+      they eased the unease of buying online and lifted engagement and purchase intention; for products bought for pleasure they
+      did not. What the product is for decides how much to say about it.
+
+charts:
+  sample:
+    title: "Who was interviewed (number of people)"
+    scale: [0, 60]
+    step: 10
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Consumers", 42, false]
+      - ["Influencers", 48, false]
+      - ["Brand managers", 56, true]
+      - ["Influencer marketing agency staff", 39, false]
+    source: "Method and Data section and Web Appendix Table WB1: 185 interviews in three rounds, 2022 to 2024. Brand managers were the largest group."
+  priorities:
+    title: "How many of the five authenticity qualities each group rates a high priority (out of 5)"
+    scale: [0, 5]
+    step: 1
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Consumers", 4, true]
+      - ["Influencers", 3, false]
+      - ["Influencer marketing agencies", 2, false]
+      - ["Brand managers", 0, false]
+    source: "Counted from Table 3, which rates each quality as high, medium, low or no priority per group. Influencers rate candour high but with caution; brand managers value expertise and connection only conditionally."
+
+related_pages: []
