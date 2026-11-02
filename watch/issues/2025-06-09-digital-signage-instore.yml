@@ -1,0 +1,257 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 22                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-06-09"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: digital-signage-instore
+status: live
+
+title: "Do screens inside stores sell the products they advertise? What a Journal of Marketing study found"
+dek: >-
+  Retailers now rent out their aisles to brands as video screens. Field data from 237 campaigns and close to 30 million
+  shopper observations show a small, dependable lift for the advertised product, and big swings depending on what is
+  advertised, when and how.
+short_title: "Screens in the aisle: when in-store video ads sell"
+
+description: >-
+  Herhausen et al. find in-store screen ads made shoppers 8.1% likelier to buy the advertised product, across 237
+  campaigns in ten European supermarkets.
+
+keywords: [digital signage, in-store advertising, retail media, in-store video ads, point-of-sale advertising,
+  supermarket screens, shopper marketing, retail media networks, field experiments, impulse buying, Journal of Marketing]
+topics: [Retail, Advertising]
+
+image:
+  file: 2025-digital-signage-instore.jpg
+  og: 2025-digital-signage-instore-og.jpg
+  alt: "A wall-sized digital screen in a bright store shows a ring of colourful smartwatches, above rows of wooden stools and a display table of phones"
+  caption: "A screen in the aisle gets a few seconds with shoppers, right before they choose. Photo: Far Chinberdiev on Unsplash."
+
+short_answer: >-
+  Yes, by a modest but reliable margin. Across 237 campaigns on aisle screens in ten western European supermarkets,
+  shoppers whose trolley set off a product's video ad were 8.1% more likely to buy it than shoppers who did not see that
+  ad. New, cheap and indulgent products and big brands gained most, and the extra sales were fresh demand rather than
+  purchases brought forward.
+
+takeaways:
+  - "A product newly added to the shelves gained about 24.7% in purchase likelihood from its ad, against 3.3% for one already stocked."
+  - "Flagging a promotion in the ad cut its lift from 12.0% to 1.2%, too small to tell apart from no effect at all."
+  - "On Saturdays (the stores closed on Sundays) the lift reached about 11.7%, against 7.1% on weekdays."
+  - "The authors estimate that brands earned an average gross return of 21% on their screen spending, and that the retailer's system paid for itself within one to two years."
+
+paper:
+  doi: "10.1177/00222429251351578"
+  title: "In-Store Advertising with Digital Signage"
+  authors: ["Herhausen, D.", "de Jong, D.", "Grewal, D."]
+  authors_full: ["Dennis Herhausen", "David de Jong", "Dhruv Grewal"]
+  year: 2026
+  journal: "Journal of Marketing"
+  volume: "90"
+  issue: "3"
+  pages: "81-103"
+  online: "2025-06-09"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "Dennis Herhausen"
+      affiliation: "Vrije Universiteit Amsterdam, Netherlands"
+      orcid: "0000-0002-4335-1703"
+    - name: "David de Jong"
+      affiliation: "Vrije Universiteit Amsterdam, Netherlands"
+      orcid: "0000-0002-1161-2411"
+    - name: "Dhruv Grewal"
+      affiliation: "Babson College, USA; University of Bath, United Kingdom; Tecnológico de Monterrey, Mexico"
+      orcid: "0000-0002-7046-6063"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 238
+    basis: "As the paper counts them: 237 randomized in-store field experiments (one per ad campaign, ten supermarkets, 2018-2022, 29,999,084 shopper observations) pooled in one model, plus a separate quasi-experiment comparing 16 stores with and without screens over 42 weeks (Web Appendix P); the placement (183 campaigns), spending and switching (34 campaigns) analyses are subsets of the main data"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Dennis Herhausen and David de Jong of Vrije Universiteit Amsterdam
+      and Dhruv Grewal of Babson College in the US set out to measure an ad channel that is
+      growing fast but has rarely been measured well. Supermarkets now sell time on screens inside their stores to the
+      brands on their shelves, much as websites sell banner space. A shopper in an aisle leaves no click trail, though, so
+      nobody could say with confidence whether those screens move products.
+
+      A digital signage provider opened its records to them. In ten supermarkets, screens hung from the ceiling above
+      the main aisles and showed plain store messages, without sound, until a trolley approached. A hidden tag in the
+      trolley then started one of the ads in rotation, picked at random, with sound aimed at the shopper. At the till the
+      same tag linked that play to the receipt, with no personal details attached.
+
+      Because the ad was drawn at random, shoppers who saw a campaign could be compared with shoppers in the same store
+      who did not. The brands made the ads and chose how long they ran; the researchers did not touch the campaigns. One
+      bias needed fixing. Shoppers who linger pass more screens and also buy more, which would flatter the screens, so the
+      team corrected for it using the daily number of plays each brand had paid for, a target no shopper knew about.
+    facts:
+      - ["Where", "Ten large supermarkets of one retailer in one region of a western European country, with five ceiling screens each"]
+      - ["When", "237 campaigns on 1,321 trading days between 2018 and 2022"]
+      - ["Shoppers", "10,504,430 trolley shoppers, each passing through 2.86 campaigns on average, for 29,999,084 observations"]
+      - ["Trigger", "An ad started when a trolley came within 5 to 10 metres of a screen, facing it along the aisle"]
+      - ["Comparison", "Shoppers whose trolley played a campaign's ad against shoppers who saw nothing or a different ad"]
+      - ["Measured", "Whether the receipt included the advertised product, read automatically at the till"]
+
+  - h: "Did the screens sell?"
+    body: |
+      They did. Before any correction, exposed shoppers looked 50% more likely to pick up the advertised item, and 87% of
+      campaigns showed a gain. Much of that raw gap came from time spent in the store. Once it was stripped out, the lift
+      settled at the figure in the short answer, and it held across a long list of alternative checks.
+
+      The lift is relative, so it helps to see it in proportion. In our own arithmetic, not the paper's, a product that
+      normally ends up in 200 of every 10,000 trolleys would end up in about 216.
+
+      The authors regard their estimate as cautious. It counts every shopper whose trolley set off the ad, whether or not
+      they looked up, and shoppers who caught someone else's ad in passing sat in the comparison group.
+
+      Buyers did not take more of it, either. Among the 311,251 shoppers who bought an advertised product, those who had
+      seen its ad spent no more on it. The screens recruited extra buyers rather than filling baskets.
+
+  - h: "Which products the screens suit"
+    body: |
+      The lift swung widely between products. Indulgent products gained the most. In the paper's figure, the effect climbs from about 3% to about 14% as products
+      move from the practical end of the coders' scale to the indulgent end. Cheap items did better too. A product at around 50 euro cents gained roughly 17%, and by about
+      3.50 euros the effect had shrunk to nothing measurable.
+
+      New lines gained most of all, and famous brands far more than unfamiliar ones, as the chart below shows. A price cut
+      on the product, on the other hand, did nothing to strengthen or weaken its ad.
+    chart: brand
+
+  - h: "When the screen works hardest"
+    body: |
+      Timing mattered as much as the product. The ads worked better on Saturdays than on weekdays and grew stronger as the
+      day went on, peaking in the evening. A day-by-day check found one weekday exception, Tuesday, at 13%, which the
+      authors link to the retailer's weekly leaflet, updated that day. An hour-by-hour check held a surprise at 8 a.m., when the lift hit 31%
+      before sinking to its lowest around lunchtime.
+
+      Weather and crowds played a part as well. On the published chart the lift roughly doubles between a sunless day, at
+      about 6%, and full sunshine, at about 12%, while rain worked against it. Busier hours, measured by receipts per hour,
+      brought bigger lifts.
+
+      The authors' explanation is self-control. Shoppers who are tired, relaxed or distracted are more open to an unplanned
+      buy, and those states are more common at weekends, later in the day and in good weather.
+
+  - h: "What goes on the screen"
+    body: |
+      Emotional ads beat informational ones. The paper's chart shows the lift rising from about 6% to about 11% as ads move
+      from factual towards emotional, although the estimate gets less certain at the emotional end. This held for
+      practical products as well as for treats.
+
+      Ads carrying a promotional signal fared badly, the opposite of what the authors had predicted. Ads that showed people
+      also did less than ads that left the frame to the product; the authors think the people drew attention away from it.
+      How creative the coders judged an ad made no measurable difference.
+
+      Two more patterns matter for planning. Each campaign lost force the longer it ran, even though the screens as a whole
+      grew more effective as the system matured. And placement counted. In 183 campaigns with location data, the average product sat 30
+      metres from the screen, and every 10 metres closer raised the ad's effect by about 2%.
+
+  - h: "Extra sales, not borrowed ones"
+    body: |
+      Discounts are known to pull purchases forward: people stock up now and buy less later. The screen ads did not. In a
+      separate comparison of 16 stores with and without screens over 42 weeks, campaigns for two products that people tend
+      to stockpile raised buying by 28.8% and 7.1% at the time, with no slump afterwards.
+
+      The effect also spread. In the 34 campaigns where brands supplied product codes for their other products and for their
+      rivals, the advertised product gained, the brand's other products gained nearly as much, and the category as a whole
+      gained most, while competing brands lost out.
+    chart: spill
+
+  - h: "The money behind the screens"
+    body: |
+      For brands, the authors put the advertising elasticity of the screens at .18: sales rise by about 0.18% for every 1%
+      more spent on them. That is half as much again as the .12 usually reported for short-term brand advertising, which
+      they put down to the screens' closeness to the point of sale and their attention-grabbing design.
+
+      For the retailer, screens, readers and trolley tags are an upfront cost. In the authors' estimate, 87.7% of the extra
+      money comes from selling the screen time and only 12.3% from the extra goods sold, which shows where the retailer's interest lies.
+      Some of these sums rest on industry averages, because the companies involved were bound by confidentiality.
+
+      One telling detail: only 14% of the brands supplied the codes needed to track their other products or their rivals.
+      Most wanted a verdict on the advertised item and nothing more.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Pick products that suit an impulse", "Choose items that are new on the shelf, cost little and feel like a treat, such as a new snack or drink. Keep staples that people already have on their list, and pricier items, for other channels."]
+  - ["Book the screens nearest the shelf", "Walk the store with a floor plan and pace out the distance from each screen to your product. Ask for the screens closest to it, ideally within sight of the shelf, and skip any at the opposite end of the store."]
+  - ["Make a short ad that sells a feeling", "Cut a video of 10 seconds or less that shows the product within the first 2 seconds. Build it around a mood or a small pleasure rather than a list of facts, and keep the sound on."]
+  - ["Keep deal flashes and people out of it", "Leave words like 'offer' or 'save' and price-cut bursts out of the screen version, and put any discount on the shelf ticket instead. Let the product fill the frame rather than a presenter."]
+  - ["Weight plays to Saturdays and evenings", "Ask the retailer to schedule more of your plays on Saturdays, in late afternoons and evenings, and in the busiest hours. If the system allows it, add extra plays on sunny days."]
+  - ["Compare with shoppers who missed it", "Ask for the share of trolleys that bought your product after your ad played, against trolleys in the same store and week that did not see it. Check your other products and the whole category too, and swap in fresh creative every four to six weeks."]
+
+expect:
+  - "**A small gain per shopper, at scale.** Purchase rates for any single product start low, so the payoff comes from the sheer number of trolleys that pass each screen."
+  - "**More buyers, not bigger baskets.** Expect more people to pick the product up, not each buyer to take extra."
+  - "**Creative that wears out.** Every campaign weakened the longer it ran, so plan several fresh versions rather than one long flight."
+  - "**Wide swings.** The same screen can do several times better for one product, hour or message than for another, so an average figure hides a lot."
+
+limits:
+  - "**One retailer, one country.** Ten large supermarkets in one region of western Europe, selling mainly food and household goods. Fashion, electronics or small shops may behave differently."
+  - "**Trolleys only.** Shoppers with baskets or no trolley could not be tracked and were left out, and they may respond differently."
+  - "**Exposure, not attention.** The system knew an ad played for a trolley, not whether the shopper watched it or for how long."
+  - "**Many tests at once.** With a dozen conditions examined side by side, the authors themselves advise reading the individual results with care."
+  - "**No view of the long run.** Privacy rules kept shoppers anonymous, so loyalty, repeat buying and brand preference over months were out of reach."
+  - "**Brands chose the content.** Ad features were coded after the fact rather than assigned at random. The authors' statistical checks found no bias from this, but it falls short of a controlled creative test."
+
+faq:
+  - q: "Does digital signage in stores increase sales?"
+    a: "Yes, on average. In ten supermarkets, shoppers who triggered a product's screen ad were about 8% likelier to purchase it than comparable shoppers who did not, with the biggest gains for new, low-priced and indulgent items (Herhausen et al., 2026)."
+  - q: "Which ads and moments get the most from an in-store screen?"
+    a: "Emotional content, no promotional flags and a product that fills the frame instead of a person. Timing helps too: the ads did better on Saturdays, later in the day, in sunshine and when the store was busy."
+  - q: "Do in-store ads just bring purchases forward?"
+    a: "Not here. A comparison of stores that had screens against stores that had none found no sign of shoppers stocking up and then buying less later, the pattern typical of discounts."
+  - q: "Where should in-store screens be placed?"
+    a: "As close to the advertised product as possible. Ads for products nearer the screen did better, so a screen beside the shelf beats one across the store."
+  - q: "What is retail media?"
+    a: "Advertising that retailers sell to the brands they stock, on their websites and apps and, more and more, on screens inside their shops. Retailers value it because it earns far higher margins than selling groceries."
+
+also:
+  - doi: "10.1108/jcm-12-2024-7461"
+    title: "Customer journey-based smart technology of new brands: a self-reported and eye-tracking study"
+    authors: "Simonetti & Bigne"
+    journal: "Journal of Consumer Marketing"
+    year: 2026
+    text: >-
+      One hundred people followed a real new brand from first contact to home use: they watched its ad, shopped for it in
+      simulated supermarkets, then judged the product at home, with eye-tracking along the way. Seeing the ad first drew
+      their eyes to the pack 2.5 times more than chance, in virtual reality and online shopping tasks alike. Meeting the
+      brand at several points raised recall, recognition and trust, yet the QR code on the pack was largely ignored. A
+      code on the box is not a plan for getting anyone to scan it.
+  - doi: "10.1108/jrim-10-2024-0488"
+    title: "Emotional anthropomorphism of notifications and app engagement: does the usage frequency matter?"
+    authors: "Li, Hwang, & Choi"
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2026
+    text: >-
+      Users of a dog-walking app received human-sounding notifications in a neutral, positive or negative tone, and the
+      researchers counted the days they went walking. Occasional users walked less after neutral messages, a dip that
+      outlasted the notifications, while negative messages got them moving. Frequent users responded to positive messages
+      and shrugged off neutral ones, and apart from that lasting dip the effects faded once the messages stopped. The
+      same friendly voice lands differently on the loyal and the lapsing.
+
+charts:
+  brand:
+    title: "Lift in the chance of buying the advertised product after its ad played, by how well known the brand is (%)"
+    scale: [0, 20]
+    step: 5
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Largely unknown brand", 4.2, false]
+      - ["Small local brand", 6.6, false]
+      - ["Big local brand", 10.8, false]
+      - ["Big international brand", 16.7, true]
+    source: "237 field experiments in ten supermarkets; predicted effects from the published Figure 5, with other factors held at their averages."
+  spill:
+    title: "Change in the chance of buying after one product's screen ad played, 34 campaigns (%)"
+    scale: [0, 16]
+    step: 4
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["The advertised product", 10.1, false]
+      - ["Other products, same brand", 8.7, false]
+      - ["Whole product category", 14.8, true]
+    source: "Additional analysis of the 34 campaigns whose brands supplied codes for their other products and rivals. Competing brands' products fell by 12.5% (not drawn)."
+
+related_pages: []
