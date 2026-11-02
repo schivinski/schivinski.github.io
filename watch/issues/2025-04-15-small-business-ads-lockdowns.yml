@@ -1,0 +1,250 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 15                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-04-15"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: small-business-ads-lockdowns
+status: live
+
+title: "Did social media ads help small businesses survive lockdowns? What a Journal of Interactive Marketing study found"
+dek: >-
+  When stay-at-home orders emptied the high street, more small firms shut for good. Data spanning 49 countries suggest
+  those already advertising on Facebook took a noticeably smaller hit.
+short_title: "Social ads and small-business survival in lockdown"
+
+description: >-
+  Lee et al. find stay-at-home orders raised business closures less among Facebook advertisers, in data on more than
+  79,000 firms across 49 countries.
+
+keywords: [small business advertising, social media advertising, Facebook ads, COVID-19 lockdowns, business survival,
+  small business resilience, advertising in a recession, SMB marketing, stay-at-home orders, crisis marketing,
+  Journal of Interactive Marketing]
+topics: [Advertising, Social media]
+
+image:
+  file: 2025-small-business-ads-lockdowns.jpg
+  og: 2025-small-business-ads-lockdowns-og.jpg
+  alt: "A grey-haired craftsman in a white shirt and black waistcoat studies a small carved panel under a green desk lamp at a wooden workbench, a sunlit window and racks of chisels behind him"
+  caption: "A one-person workshop has no marketing department, only an owner deciding whether the ad budget survives a bad month. Photo: HENG YIN on Unsplash."
+
+short_answer: >-
+  It looks that way. Lee and colleagues followed more than 79,000 businesses in 49 countries from December 2019 to May
+  2020, matching survey answers on whether each was open with its real Facebook ad records and the timing of national
+  stay-at-home orders. Lockdowns made closing more likely everywhere, but less so for firms that had been advertising, and
+  least for the biggest spenders. The data show a consistent pattern, not proof of cause.
+
+takeaways:
+  - "On average, a stay-at-home order raised a firm's chance of closing by 2.9 percentage points, and the effect grew from 2.2 points in the month it began to 11.5 points four months later."
+  - "Three months into a lockdown, the added risk of closing was 5.1 points for firms with no Facebook ads in early 2019 and 3.3 points for those that had run them, about a third lower."
+  - "Among advertisers, the fifth that spent most faced less than half the added risk of the fifth that spent least: 2.0 against 4.3 points."
+  - "Before any modelling, 15% of non-advertisers had closed by May 2020, compared with 12% of advertisers."
+
+paper:
+  doi: "10.1177/10949968251336683"
+  title: "Social Media Advertising's Role in Small Business Resilience Amid Lockdowns"
+  authors: ["Lee, S.-Y.", "Runge, J.", "Yoo, D.", "Bart, Y.", "Gyurak, A.", "Schneider, J. W."]
+  authors_full: ["Shun-Yang Lee", "Julian Runge", "Daniel Yoo", "Yakov Bart", "Anett Gyurak", "J.W. Schneider"]
+  year: 2025
+  journal: "Journal of Interactive Marketing"
+  volume: "60"
+  issue: "4"
+  pages: "362-376"
+  online: "2025-04-15"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "Shun-Yang Lee"
+      affiliation: "D’Amore-McKim School of Business, Northeastern University, USA"
+      orcid: "0000-0002-5372-3849"
+    - name: "Julian Runge"
+      affiliation: "Medill School of Journalism, Northwestern University, USA"
+      orcid: "0000-0002-7761-0515"
+    - name: "Daniel Yoo"
+      affiliation: "Meta Platforms, USA"
+      orcid: "0009-0005-8273-9486"
+    - name: "Yakov Bart"
+      affiliation: "D’Amore-McKim School of Business, Northeastern University, USA"
+      orcid: "0000-0002-4094-9873"
+    - name: "Anett Gyurak"
+      affiliation: "Meta Platforms, USA"
+      orcid: "0009-0001-7197-2785"
+    - name: "J.W. Schneider"
+      affiliation: "Meta Platforms, USA"
+      orcid: "0009-0005-3102-6005"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival panel dataset: 79,117 businesses in 49 countries, monthly from Dec 2019 to May 2020 (Future of Business Survey linked to Facebook ad records and the Oxford lockdown tracker); all robustness checks use the same data"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Shun-Yang Lee and Yakov Bart of the D’Amore-McKim School of Business at Northeastern University,
+      Julian Runge of the Medill School of Journalism at Northwestern University, and
+      Daniel Yoo, Anett Gyurak and J.W. Schneider of Meta Platforms took on a question many shop owners
+      faced when the first lockdowns arrived. If customers are ordered to stay home, is advertising still worth paying for?
+
+      Answering it needed data that rarely sit together. Whether each business was open or shut in a given month came from the
+      Future of Business Survey, which the World Bank, the OECD and Facebook ran with firms on the platform. What each firm
+      actually spent on Facebook ads came from the platform's own records rather than from owners' memories. The timing of
+      lockdowns came from the Oxford COVID-19 Government Response Tracker, with a month counted as locked down if an order
+      applied on at least one day.
+
+      Countries closed their doors in different months, and some never did. That let the team compare how closures moved in a
+      country once its order began with countries that were still open at that point, a design economists call staggered
+      difference-in-differences. They ran the analysis once for advertisers and once for everyone else, then compared the results.
+    facts:
+      - ["Businesses", "79,117 firms in 49 countries, 51,977 of which had run Facebook ads and 27,140 had not"]
+      - ["Size", "83% had fewer than 10 employees; services and retail were the largest sectors"]
+      - ["Period", "Each month, December 2019 through May 2020"]
+      - ["Outcome", "Whether the business was closed that month, from survey answers"]
+      - ["Advertising", "Real ad activity and spend logged by Facebook, not self-reported"]
+      - ["Held constant", "National income per head, firm size and number of Facebook fans"]
+
+  - h: "How hard lockdowns hit"
+    body: |
+      The raw curves already told much of the story. The share of closed businesses jumped in the month an order took effect
+      and kept rising after it. The models confirmed it: a simpler linear version put the average lift in closure risk at 3.6
+      percentage points, close to the main estimate, and the damage deepened the longer an order stayed in place.
+
+      One detail suggests owners saw trouble coming. A second estimation method found closures already edging up a month before
+      orders began, and that early rise came mostly from firms that were not advertising.
+
+  - h: "Advertisers took a smaller hit"
+    body: |
+      The core comparison split firms by whether they had advertised on Facebook in the first half of 2019, long before anyone
+      had heard of the virus. In every month after an order, both groups became more likely to close. For advertisers the rise
+      was smaller each time, and the gap kept widening until the third month.
+
+      A second split looked at advertising in the two months before each month observed, with matching results. Three months
+      into lockdown, closure risk was up 8.0 points for non-advertisers against 6.2 for advertisers. Four months on, risk had
+      jumped above nine points in every group and the gap had narrowed to between half a point and just over one. A stricter
+      check that compared each firm only with itself kept the overall gap, 3.4 against 3.0 points, but gave mixed results
+      month by month.
+    chart: gap
+
+  - h: "Bigger budgets, smaller hit"
+    body: |
+      Spend told a steadier story than a simple yes or no. Among advertisers, each step up the budget ladder went with a smaller
+      lockdown effect. Counting how many ads a firm ran, rather than what it paid, pointed the same way.
+
+      An obvious objection is that healthier firms can afford more advertising and would have survived anyway. To get around
+      it, the team replaced each firm's own spend with the average spend of its competitors in its own industry and country.
+      That figure tracks how much businesses like it advertise without reflecting any one firm's private fortunes. The pattern
+      survived: 3.3 points of added risk in the lowest group against 1.8 in the highest, although the estimates for the two
+      top groups were too imprecise to rule out no effect at all.
+    chart: spend
+
+  - h: "Who gained most"
+    body: |
+      The smallest firms, the bulk of the sample, showed the clearest difference. Read from the paper's chart, a lockdown added
+      roughly 3.4 points of closure risk for tiny businesses that did not advertise and about 2.6 for tiny ones that did. Among
+      firms with 500 or more staff the two groups sat almost level. The authors treat these size splits as directional, since
+      the ranges around each estimate overlap a good deal.
+
+      Sectors varied too. Retail and construction appeared to benefit most from Facebook advertising, transport hardly at all,
+      and in agriculture, around 2% of the businesses, advertisers fared slightly worse. In every other sector advertisers came
+      out ahead.
+
+  - h: "Advertising as a kind of insurance"
+    body: |
+      Why would ads bought before a crisis help during one? Earlier studies cited in the paper show that advertising
+      works with a delay and builds assets that never appear on a balance sheet, such as recognition and a following of
+      engaged customers. Targeted social ads, they argue, are well suited to building those assets, which can then carry a
+      firm when footfall vanishes. Their careful phrase is that ad technology may act as insurance against sudden demand shocks.
+
+      That runs against instinct. Firms have historically trimmed marketing when the economy turns. The authors' view is that
+      holding or even raising social spend in a crisis may be the better call. They go further, proposing that
+      governments could subsidise small firms' social campaigns in a downturn and that lenders could offer credit to keep
+      them running. Those ideas are the authors' proposals; the data did not test them.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Set a floor for your ad budget", "Decide the smallest weekly ad budget you would keep running even if sales halved. Write the amount down and agree it with whoever signs off spending."]
+  - ["Put three months of it aside", "Keep three months of that floor budget in a separate pot, away from stock and wage money, so the ads do not stop the week cash gets tight."]
+  - ["Keep one campaign always on", "Run one small campaign on the social platform your customers use most, aimed at people within easy reach of your shop or delivery area. Leave it running every week, good or bad."]
+  - ["Write your closure posts now", "Draft four short posts for a forced closure: how to order, delivery or pickup times, new opening hours, and a thank-you to regulars. Save them with photos, ready to publish."]
+  - ["Switch the message within two days", "When footfall drops, swap your ads to those posts within 48 hours. Keep spending at or above the floor for a full eight weeks before you judge the results."]
+  - ["Log orders against spend weekly", "Every Monday, note orders, enquiries and ad spend on one sheet. After eight weeks, move money from the weakest ad to the one that brought in the most orders."]
+
+expect:
+  - "**Protection, not immunity.** Advertisers still closed more often once an order began. Their added risk was smaller, not absent."
+  - "**The cushion builds over months.** The difference between advertisers and the rest grew through the first three months of an order."
+  - "**Spend level matters.** Risk rose less at each step up the spending ladder, which suggests, as our own inference, that a token budget buys less cover than a steady one."
+  - "**Small firms first.** Businesses with fewer than ten people showed the clearest gap; for the largest firms advertising made little visible difference."
+
+limits:
+  - "**A pattern, not proof.** The authors stress that their results are correlational. Firms that advertise may be healthier, older or better run in ways the data do not record."
+  - "**One platform.** Only Facebook advertising was observed, so search, display or offline ads are invisible here."
+  - "**Only lockdowns modelled.** Governments also brought in other economic and health policies, which the analysis left out."
+  - "**Six months of data.** The window closes in May 2020, so it says nothing about recovery or later waves."
+  - "**Reached through Facebook.** The survey ran on the platform, so firms with no presence there are unlikely to be in the sample."
+  - "**Ties to the data source.** The ad records came from Meta. The paper declares that two authors work there, a third used to, and a fourth was employed by Facebook before the company was renamed."
+
+faq:
+  - q: "Did advertising help small businesses survive COVID-19 lockdowns?"
+    a: "The evidence points that way. Across 49 countries, lockdown orders increased closure risk less for firms that had advertised on Facebook than for those that had not, although the authors describe the result as directional and correlational (Lee et al., 2025)."
+  - q: "Is it wise to keep advertising when sales collapse?"
+    a: "The authors suggest not. Because advertising builds recognition and customer ties that pay off later, they see keeping or even increasing social media spend during a crisis as a counterintuitive but possibly wise choice."
+  - q: "Does spending more on ads make a difference?"
+    a: "In these records, yes, directionally. The biggest spenders saw the smallest rise in closure risk, and the pattern held when each firm's budget was replaced by the average spend of local rivals in the same line of business."
+  - q: "Which businesses gained most from advertising during lockdowns?"
+    a: "Firms with fewer than ten employees showed the clearest advantage, and retail and construction looked like the biggest winners among sectors. In transport the difference was close to nil, and in agriculture, a small slice of the sample, the sign reversed."
+  - q: "Is this proof that Facebook ads keep businesses open?"
+    a: "No. Advertisers may differ from other firms in ways the survey did not capture, such as financial health or age, so some of the difference may come from who chooses to advertise, not from the ads themselves."
+
+also:
+  - doi: "10.1177/10949968251335616"
+    title: "How Does Brand-Generated Content Engage Consumers? A Study on Fashion Brands’ Instagram Data"
+    authors: "Gao et al."
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Machine learning pulled design features out of Instagram posts from major fashion brands, and a count model linked
+      each feature to likes. Putting a link in a post turned users off, while adding more images to the same post generally
+      helped. Luxury and mass-market audiences split: luxury followers preferred clean product shots without influencers or
+      busy backdrops, while mass-market followers engaged more with celebrity faces and attractive settings. A post that suits
+      one brand can be wrong for its neighbour on the rail.
+  - doi: "10.1108/jcm-01-2024-6526"
+    title: "Analyzing the impact of faces on consumer engagement in social media videos: a machine learning approach"
+    authors: "Wallach, Pham, Koschmann, & Arwade"
+    journal: "Journal of Consumer Marketing"
+    year: 2025
+    text: >-
+      A frame-by-frame machine learning scan of 2,754 TikTok videos from 50 leading brands, posted over three years, found
+      that simply showing a human face lifted engagement, and larger faces lifted it further. How long the face stayed on
+      screen, and whether the brand sold pleasure or practicality, shaped the size of that lift. Likes, comments and shares did
+      not all respond alike, so it pays to know which of the three a video is meant to win.
+
+charts:
+  gap:
+    title: "Added risk of closing after a stay-at-home order, by Facebook advertising in early 2019 (percentage points)"
+    scale: [0, 6]
+    step: 1
+    unit: ""
+    decimals: 1
+    bars:
+      - ["Month of the order, no ads", 2.6, false]
+      - ["Month of the order, advertisers", 2.1, true]
+      - ["One month on, no ads", 3.2, false]
+      - ["One month on, advertisers", 2.6, true]
+      - ["Two months on, no ads", 3.9, false]
+      - ["Two months on, advertisers", 3.0, true]
+      - ["Three months on, no ads", 5.1, false]
+      - ["Three months on, advertisers", 3.3, true]
+    source: "Main model (extended two-way fixed effects, logit), 79,117 businesses in 49 countries, Table 4. Advertiser status from the first half of 2019."
+  spend:
+    title: "Advertisers only: added risk of closing after an order, by own Facebook ad spend (percentage points)"
+    scale: [0, 5]
+    step: 1
+    unit: ""
+    decimals: 1
+    bars:
+      - ["Lowest-spending fifth", 4.3, false]
+      - ["Second fifth", 3.1, false]
+      - ["Middle fifth", 2.5, false]
+      - ["Fourth fifth", 2.2, false]
+      - ["Highest-spending fifth", 2.0, true]
+    source: "Advertisers split into five equal groups by their own ad spend, same model and controls, Table 8, row 1."
+
+related_pages: []
