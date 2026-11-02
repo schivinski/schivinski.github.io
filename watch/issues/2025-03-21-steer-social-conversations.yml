@@ -1,0 +1,242 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 12                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-03-21"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: steer-social-conversations
+status: live
+
+title: "What makes a brand's reply to a customer on social media work? What a Journal of Marketing Research study found"
+dek: >-
+  Nearly a million posts between four big US banks and the people tweeting at them show that answering the exact point
+  raised does more for the customer's next message than speed, a friendly sign-off or a cheerful tone. What else helps
+  depends on whether the conversation is going well or badly.
+short_title: "Answer the point: how brand replies steer the next post"
+
+description: >-
+  Saljoughian et al. find that answering the customer's own point does more for the tone of their next post than speed or
+  cheer, in nearly a million bank tweets.
+
+keywords: [social media customer service, how to reply to customers on social media, firm-generated content,
+  social media sentiment, topic matching, linguistic style matching, empathy in customer service, direct messages,
+  dialogic listening, community management, banks on Twitter, Journal of Marketing Research]
+topics: [Social media, Service, UGC]
+
+image:
+  file: 2025-steer-social-conversations.jpg
+  og: 2025-steer-social-conversations-og.jpg
+  alt: "Three friends in a sunny courtyard laugh as they hold up their phones, wrists touching, under a white parasol and a string of lights"
+  caption: "A conversation turns on the reply that comes next. Photo: Grace Anne Bobadilla on Unsplash."
+
+short_answer: >-
+  Answer the exact point the customer raised, in words like theirs. In ten years of Twitter conversations between four
+  large US banks and their users, replies that stayed on the customer's topic warmed the customer's next post far more
+  than anything else, by over double the runner-up. Empathy and an offer to continue by direct message helped most in
+  angry threads; a cheerful, candid voice helped most in friendly ones.
+
+takeaways:
+  - "Moving a reply from generic to squarely on the customer's subject raised the sentiment of their next post by 0.29, where minus 1 is very negative and plus 1 very positive."
+  - "In a negative thread, inviting the customer to a direct message added 0.06 to how positive their following post sounded. In an upbeat thread it added close to nothing (0.00)."
+  - "A positive tone from the brand added 0.09 when the customer was already upbeat, but only 0.01 when they were upset."
+  - "Seven in ten customer posts were neutral or positive, and each of the eight reply features, used well, added at least 0.02, enough to tip a neutral thread into positive territory."
+
+paper:
+  doi: "10.1177/00222437251329816"
+  title: "How Firms Can Steer Social Media Conversations"
+  authors: ["Saljoughian, M.", "Hewett, K.", "van Heerde, H. J.", "Rand, W."]
+  authors_full: ["Mohammad “Mike” Saljoughian", "Kelly Hewett", "Harald J. van Heerde", "William Rand"]
+  year: 2025
+  journal: "Journal of Marketing Research"
+  volume: "62"
+  issue: "6"
+  pages: "1003-1025"
+  online: "2025-03-21"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "Mohammad “Mike” Saljoughian"
+      affiliation: "Robert J. Trulaske, Sr. College of Business, University of Missouri, USA"
+      orcid: "0000-0002-4080-2759"
+    - name: "Kelly Hewett"
+      affiliation: "Department of Marketing, College of Business, Colorado State University, USA"
+      orcid: ""
+    - name: "Harald J. van Heerde"
+      affiliation: "School of Marketing, UNSW Business School, University of New South Wales Sydney, Australia"
+      orcid: "0000-0001-6767-7591"
+    - name: "William Rand"
+      affiliation: "Department of Business Management, Poole College of Management, North Carolina State University, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival dataset: 969,477 tweets in 206,360 Twitter conversations involving four large US banks, 2011 to 2020 (model on 401,801 customer posts); four manager interviews (Web Appendix A) and a two-coder check of 960 posts support the measures and are not counted as studies"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Mohammad “Mike” Saljoughian of the University of Missouri,
+      Kelly Hewett of Colorado State University,
+      Harald J. van Heerde from UNSW Sydney and
+      William Rand of North Carolina State University
+      set out to answer a puzzle familiar to any community manager. When a customer posts at your brand, what in your
+      reply decides whether their next post comes back warmer or angrier?
+
+      Most earlier research focused on complaints, and on one to three features of a brand's reply at a time. This team
+      took the whole range of conversations, praise and questions included, and tested eight features side by side. Six
+      come from a theory of good listening known as dialogic listening: empathy, a positive tone, staying on the
+      customer's topic, matching their writing style, replying promptly and sounding genuine. The other two came from
+      watching brands at work and from interviews with four managers who run social listening at their firms: inviting
+      the customer to carry on by direct message, and the agent signing off with a first name.
+
+      The raw material was Twitter. The team rebuilt every thread in which a customer posted, one of four big US banks
+      replied and the customer posted again. Software scored the tone of each post from very negative to very positive,
+      and the analysis asked which features of the bank's reply shifted the mood of whatever the customer wrote next.
+    facts:
+      - ["Data", "969,477 tweets in 206,360 conversations, kept from more than 5.5 million posts by or about the banks"]
+      - ["Banks", "Bank of America, Wells Fargo, Citibank and JPMorgan Chase"]
+      - ["When", "Tweets posted from 2011 to 2020"]
+      - ["Outcome", "The tone of the customer's next post, scored from minus 1 to plus 1 by VADER, a sentiment tool built for short posts"]
+      - ["Reply features", "Empathy words, positive tone, topic match, writing-style match, response time, authentic wording, a DM invitation and a first-name sign-off"]
+      - ["Checks", "Two human coders rated 960 posts on four of the measures, and their judgements tracked the automated scores closely (correlations of .86 to .92)"]
+
+  - h: "Answer the question the customer actually asked"
+    body: |
+      To compare features measured in different units, the authors moved each one from the level of a weak bank reply
+      (the 10th percentile) to that of a strong one (the 90th), while holding the rest at their averages.
+      Topic matching came out far ahead. Matching the customer's writing style was the runner-up at 0.12. Both belong
+      to the same part of the listening theory, which the authors call a spirit of mutual understanding.
+
+      Most replies left the strongest lever untouched. Scored from nothing in common with the customer's post (0) to the
+      same subject (1), half of the banks' replies sat at 0.05 or below, and only the best tenth reached 0.68. An example
+      in the paper shows the difference. A customer annoyed that the bank had scrapped its coin-counting machine could
+      get a stock offer to help with "your banking needs", or a reply about rolling coins and why it speeds things up at
+      the counter.
+
+      Style matching works through the small words: pronouns, articles, negations, prepositions. A reply that uses them
+      the way the customer does reads like one person answering another.
+    chart: lift
+
+  - h: "The mood of the thread changes what works"
+    body: |
+      Does the same reply land as well with an angry customer as with a happy one? Not quite, and this is the second
+      main finding. The chart sets the two ends of the mood range side by side.
+
+      Empathy words did about twice as much in a sour thread as in a sunny one. Authentic, first-person wording went the
+      other way and paid off more in threads that were going well. Topic matching was strong everywhere, a touch
+      stronger when the customer was unhappy (0.30 against 0.28). For style matching, speed and the first-name sign-off,
+      the customer's earlier tone made no reliable difference.
+
+      Why would cheer and candour fall flat with someone upset? The authors suspect that an angry customer may hear an
+      upbeat reply as tone deaf, and an unfiltered one as blunt.
+    chart: mood
+
+  - h: "Speed and sign-offs help, a little"
+    body: |
+      The banks varied widely in how fast they answered. A tenth of first replies came within 10 minutes and a quarter
+      within about 20, but a quarter took longer than about 10 hours and the slowest tenth took 40 hours or more. Faster
+      was better, by a modest margin that held whatever the mood.
+
+      About one bank reply in four invited the customer to move to direct messages. The researchers cannot see what was
+      said in private, so this effect is measured on the customer's next public post.
+
+  - h: "Could the link run the other way?"
+    body: |
+      A sceptic might say agents simply write warmer, more focused replies to customers who already sound calmer. The
+      team tackled this in two ways. They used each agent's own writing habits over the previous 30 days to predict
+      how that agent would reply, since past habits cannot react to a conversation that has not happened yet. And
+      they corrected for the fact that banks choose which posts to answer and customers choose whether to post again.
+
+      The results held when the features were added to the model one at a time and when the variables were left
+      unlogged. It remains observational evidence from real accounts, not a test in which replies were assigned at random.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort each mention by mood first", "Before anyone replies, tag every post that mentions your brand as negative, neutral or positive. A quick read is enough. The tag decides how the reply is written."]
+  - ["Rewrite your five most-used templates", "Pull the five canned replies your team sends most often. Rewrite each so its first sentence names the customer's actual issue, such as the fee, the app error or the closed branch. Delete any line that would fit every customer."]
+  - ["Borrow the customer's words", "In every reply, reuse at least two key words from the customer's post and answer the point they raised before anything else. Mirror their style too: short if they were short, plain if they were plain."]
+  - ["Fit the reply to the mood", "For a negative post, say you understand why they are frustrated and offer to sort out the details by direct message. For a positive one, thank them warmly in the first person and keep it public. Keep the upbeat tone for happy customers."]
+  - ["Set a clock and a sign-off rule", "Aim to answer every mention within one hour, all day. Ask every agent to end replies with their first name rather than initials, unless they have a privacy concern."]
+  - ["Score the next post every week", "Each Friday, pull 50 threads your team answered. Mark whether the customer's next post was warmer, the same or cooler than their first, then compare by template, agent and reply time. Retire whatever cools threads down."]
+
+expect:
+  - "**Hundredths, not leaps.** Apart from topic and style matching, each feature shifted the next post in a neutral thread by 0.05 or less, on a scale two points wide. Because the model adds the effects together, several small habits should, on our reading, count for more than any single one."
+  - "**Warm words are not a fix.** The authors stress that empathetic phrasing reassures customers they are heard but does not replace solving their problem."
+  - "**Private messages cost agent time.** Moving a thread out of public view ties up an agent, so the authors advise saving the offer mainly for unhappy customers."
+  - "**A house style for sign-offs.** The authors suggest a standard for how replies are signed, ideally with first names."
+
+limits:
+  - "**One industry, four giants.** The banks were the four largest in the US. Smaller firms, physical products or business-to-business conversations may behave differently."
+  - "**One platform.** Every conversation took place on Twitter between 2011 and 2020; newer platforms and formats were not covered."
+  - "**Tone by dictionary.** Sentiment was scored automatically from the words of each post. Nobody asked customers how they felt, and the outcome says nothing about sales or loyalty."
+  - "**Replies only.** The model looks at brand replies to a customer's post. Whether the same features help in posts a brand publishes unprompted was not tested."
+  - "**Correlations, carefully corrected.** No reply was assigned at random. The statistical corrections help, but a field experiment would give firmer proof."
+
+faq:
+  - q: "How should a brand respond to a negative comment on social media?"
+    a: "Deal with the specific problem, show you understand how the customer feels and offer to take the details to a private message. Across a decade of bank conversations on Twitter, empathy and a DM invitation lifted the next post most when the thread was already negative, and staying on topic mattered most of all (Saljoughian et al., 2025)."
+  - q: "Does replying faster improve customer sentiment?"
+    a: "Yes, modestly. Going from one of the slowest replies to one of the quickest lifted the customer's next post by 0.04 on the sentiment scale, and the gain did not depend on whether the thread was positive or negative."
+  - q: "Should social media agents sign replies with their own name?"
+    a: "On this evidence, yes. About 20% of the banks' posts were signed with a first name, about 75% with initials and about 5% not at all. Signing with a first name added 0.03 to the customer's follow-up sentiment."
+  - q: "What is topic matching?"
+    a: "How closely a reply deals with the same subject as the customer's post. Here a text model sorted the posts into 11 topics, and each reply was scored from 0 (no overlap with the customer's topic) to 1 (the same topic)."
+  - q: "What is linguistic style matching?"
+    a: "Writing the way the other person writes, judged by the small function words: how often you use I and we, a and the, not and never, in and at. It was the second most effective reply feature, and its effect did not vary reliably with the mood of the conversation."
+
+also:
+  - doi: "10.1177/00222437251328601"
+    title: "Mapping Spatial Heterogeneity in Retail Advertising Effectiveness"
+    authors: "Luo & Ranjan"
+    journal: "Journal of Marketing Research"
+    year: 2025
+    text: >-
+      By pairing data on who watched a home improvement retailer's TV ads with mobile location data from 6.4 million
+      users, this study mapped where the ads did the most good. It was not a neat circle around each store: effectiveness
+      peaked at a middle distance and depended on how close a rival's store sat. Price-promotion ads worked best near the
+      store and pulled traffic from competitors. A simple radius is a blunt way to draw a target.
+  - doi: "10.1007/s11747-025-01088-3"
+    title: "Unintended consequences of selling B2B digital subscription add-ons for customer onboarding"
+    authors: "Steinhoff, Kim, Kanuri, & Palmatier"
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2025
+    text: >-
+      Software providers that sell to businesses often load new clients with add-on services at signing. In a field study
+      with one such provider, bundling more add-ons during onboarding significantly cut retention, and moving to leaner
+      communication channels made the losses worse. A survey of business-to-business managers across industries points to
+      perceived complexity as the likely cause. The first weeks of a subscription are for settling in, not for the upsell.
+
+charts:
+  lift:
+    title: "How much each reply feature lifted the tone of the customer's next post (sentiment scale from minus 1 to plus 1)"
+    scale: [0, 0.3]
+    step: 0.05
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Stays on the customer's topic", 0.29, true]
+      - ["Matches their writing style", 0.12, false]
+      - ["Positive tone", 0.05, false]
+      - ["Empathy words", 0.05, false]
+      - ["Fast reply", 0.04, false]
+      - ["Invites a direct message", 0.03, false]
+      - ["Agent signs with a first name", 0.03, false]
+      - ["Authentic, unguarded wording", 0.02, false]
+    source: "Figure 2 of the paper: each feature moved from its 10th to its 90th percentile among bank replies (speed from slow to fast), others held at their averages, in a thread of neutral tone. 401,801 customer posts, four US banks, 2011 to 2020."
+  mood:
+    title: "Lift in the next post's tone, by the mood of the thread so far (sentiment scale from minus 1 to plus 1)"
+    scale: [0, 0.1]
+    step: 0.02
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Empathy words, negative thread", 0.06, true]
+      - ["Empathy words, positive thread", 0.03, false]
+      - ["DM invitation, negative thread", 0.06, true]
+      - ["DM invitation, positive thread", 0.00, false]
+      - ["Positive tone, negative thread", 0.01, false]
+      - ["Positive tone, positive thread", 0.09, true]
+      - ["Authentic wording, negative thread", 0.01, false]
+      - ["Authentic wording, positive thread", 0.03, true]
+    source: "Figure 3 of the paper, same Twitter data: negative and positive threads sit at the 10th and 90th percentiles of the customer's earlier tone. Values as printed on the published figure."
+
+related_pages: []
