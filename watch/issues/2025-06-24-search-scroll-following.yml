@@ -1,0 +1,273 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 26                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-06-24"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: search-scroll-following
+status: live
+
+title: "Should you sound upbeat or balanced to win followers? What a Journal of Consumer Research study found"
+dek: >-
+  Some apps are for looking things up and others for passing the time. On four big platforms, the tone that attracts
+  followers flips between the two: a mixed record on review sites, steady cheer on social feeds.
+short_title: "Balanced or upbeat: what wins followers depends on the app"
+
+description: >-
+  Shalev et al. find reviewers with mixed ratings draw the most followers on Yelp and Goodreads, while the most upbeat
+  accounts lead on Twitter and Instagram.
+
+keywords: [whom to follow, follower growth, social media followers, credibility vs likability, online reviewers,
+  Yelp Elite badge, review platforms, Instagram followers, Twitter followers, influencer selection, content tone,
+  Journal of Consumer Research]
+topics: [Social media, UGC, Influencers]
+
+image:
+  file: 2025-search-scroll-following.jpg
+  og: 2025-search-scroll-following-og.jpg
+  alt: "Rows of conference-goers seen from behind wear silver wireless headphones as they face a bright magenta stage wall, a man in a pale pink jumper and a woman in a green jacket in the foreground"
+  caption: "Who earns an audience depends on what the audience came for. Photo: Dmitrii E. on Unsplash."
+
+short_answer: >-
+  It depends on whether people come to look something up or to pass the time. Across four large datasets covering
+  nearly eight million accounts, reviewers on Yelp and Goodreads drew the most followers when their ratings were mixed,
+  a sign of credibility, while on Twitter and Instagram the most upbeat accounts drew the most. An experiment on X found
+  the same switch inside one app: searchers followed more expert accounts, browsers warmer ones.
+
+takeaways:
+  - "On Yelp, reviewers whose ratings averaged between 3 and 4 stars had 1.5 followers on average, about twice the 0.73 of reviewers who averaged above 4."
+  - "On Twitter, the most positive quarter of accounts averaged 3,372 followers, more than twice the 1,559 of the most negative quarter."
+  - "Among 300 X users, those sent to hunt for information followed someone they rated 3.58 out of 5 for credibility, against 3.34 for those told to browse for fun, whose picks were rated higher for likability, 3.15 against 2.83."
+  - "In a pilot test, a restaurant reviewer whose nine reviews ranged from two to five stars was rated more credible than one giving almost all five stars (5.71 against 5.09 out of 7), but less likable (5.08 against 5.57)."
+
+paper:
+  doi: "10.1093/jcr/ucaf038"
+  title: "Search or Scroll: How Credibility versus Likability Premiums Shape Consumers’ Following Decisions"
+  authors: ["Shalev, E.", "Morvinski, C.", "Shoham, M.", "Kyung, E. J."]
+  authors_full: ["Edith Shalev", "Coby Morvinski", "Meyrav Shoham", "Ellie J. Kyung"]
+  year: 2026
+  journal: "Journal of Consumer Research"
+  volume: "53"
+  issue: "2"
+  pages: "281-304"
+  online: "2025-06-24"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "Edith Shalev"
+      affiliation: "Department of Management and Economics, The Open University of Israel, 1 University Road, Ra'anana 4353701, Israel"
+      orcid: "0000-0002-6801-9459"
+    - name: "Coby Morvinski"
+      affiliation: "Department of Management, Ben-Gurion University of the Negev, P.O. Box 653, Be’er Sheva 8410501, Israel"
+      orcid: "0000-0001-8081-7085"
+    - name: "Meyrav Shoham"
+      affiliation: "Dan Department of Communication, Tel Aviv University, Tel Aviv 6997801, Israel"
+      orcid: ""
+    - name: "Ellie J. Kyung"
+      affiliation: "Marketing Division, Babson College, 108 Malloy Hall, Babson Park, MA 02457, USA"
+      orcid: "0000-0003-2385-9523"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 9
+    basis: "Nine studies as the paper numbers them: four archival datasets, 1a Goodreads (320,707 users), 1b Yelp (1,968,685), 2a Twitter (1,296,223) and 2b Instagram (4,300,583); 3, a preregistered experiment with 300 X users; and 4a to 4d, which re-analyse the four datasets with badge, friend and wording cues; pilots A to D not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Edith Shalev of The Open University of Israel, Coby Morvinski of Ben-Gurion University of the Negev,
+      Meyrav Shoham of Tel Aviv University and Ellie J. Kyung of Babson College
+      looked at a choice people make again and again without much thought: whom to follow. A follow decides what fills
+      someone's feed for months, and for brands and creators a big following is the prize. Yet little work had asked what
+      people weigh most when they tap the button: whether an account seems to know its subject, or whether it seems
+      pleasant company.
+
+      Their answer starts from an old idea about how people use the internet. Some visits have a goal, such as finding a
+      good restaurant or a book worth reading. Others are open-ended, a way of seeing whatever turns up. The team calls
+      these two modes search and scroll, and argues that review sites invite the first while social feeds invite the second.
+
+      To compare very different platforms, they needed a signal that all of them carry. They chose the overall tone of an
+      account's output: mostly glowing, mixed, or mostly negative. They set that tone against follower counts on four
+      platforms, ran an experiment on X, and then went back to the four datasets to see what badges, friend lists and
+      friendly wording changed.
+    facts:
+      - ["Platforms", "Goodreads and Yelp as review sites, Twitter and Instagram as social feeds"]
+      - ["Accounts", "320,707 on Goodreads, 1,968,685 on Yelp, 1,296,223 on Twitter and 4,300,583 on Instagram"]
+      - ["When", "Goodreads sampled in June and July 2019, Yelp's public 2019 dataset, Twitter in August 2022, Instagram data received in autumn 2022"]
+      - ["Tone", "Average star rating on the review sites; on the feeds, the mix of upbeat and downbeat words across each account's latest posts"]
+      - ["Experiment", "300 UK and US adults used their own X account for five minutes and picked one new person to follow"]
+      - ["Groundwork", "Four pilots with 1,617 people in all checked the assumptions behind the measures"]
+
+  - h: "A follow is a bigger step than a like"
+    body: |
+      The first pilot asked 200 Instagram users to describe either liking a post or following an account. Following came
+      across as more about getting content they themselves would enjoy (4.10 against 3.81, where 5 means full agreement),
+      less about supporting other people (2.63 against 3.44) and more about the future (3.19 against 2.71).
+
+      The widest gap was in the homework. People said they look over several of an account's posts before following it, 4.19
+      against 3.02 before a like. That is why the researchers judged accounts by the tone of their whole body of work rather
+      than by any single post. A like answers a moment; a follow is a verdict on the profile.
+
+  - h: "Why one tone can signal two different things"
+    body: |
+      A second pilot checked the search and scroll labels. In it, 897 people described a recent visit to one of six platforms:
+      Yelp, Tripadvisor, Goodreads, Twitter, Instagram or TikTok. Visits to the review sites felt far more driven by a goal,
+      at 4.23 out of 5, than visits to the social apps, at 2.34.
+
+      A third pilot, with 120 people, sorted profile features by what they reveal. Badges that a platform hands out, such as
+      Yelp's Elite status or a verified Goodreads Author tag, read mainly as proof of credibility. A long friend list, or posts
+      full of kindness and generosity, read mainly as signs of likability. Tone did both jobs, depending on its mix. A spread
+      of good and bad verdicts pointed to credibility, constant praise pointed to likability, and constant complaint pointed to
+      neither.
+
+      The last pilot built a full reviewer profile with nine short restaurant reviews, either spread across the star range or
+      almost all top marks. The balanced reviewer won on credibility and the cheerful one on likability, and both judgements
+      fed into whether people said they would follow.
+
+  - h: "On review sites, a mixed record wins followers"
+    body: |
+      On Goodreads, the team drew one million user IDs at random and kept the 320,707 who had rated at least one book.
+      Follower numbers rose as average ratings went from harsh to middling, then slipped for the most generous raters. Yelp
+      showed the same arch, more sharply. In the simplest models, a test built for humped shapes split the rating scale at
+      about 3.7 stars on Goodreads and 3.8 on Yelp: below that point, more generous averages went with more followers, and
+      above it, with fewer.
+
+      The arch held after allowing for how active people were, how long they had been members and how many friends they had.
+      On Yelp it also held when tone was scored from review text rather than stars. Other profile details pointed the same
+      way as the theory. On Goodreads, a personal profile picture and a verified author badge were linked to more followers,
+      as were the Elite badge and votes marking a review as useful on Yelp.
+    chart: goodreads
+
+  - h: "On social feeds, steady cheer wins"
+    body: |
+      Twitter and Instagram told the opposite story. Here tone came from the words in each account's recent posts: up to 100
+      tweets per Twitter user, 70.7 million tweets in all, and 12 posts per Instagram account, 51.6 million in all. The team
+      tallied cheerful and gloomy words with a standard word list, extended with common online shorthand such as LOL.
+
+      On both platforms, brighter posts went with more followers. Once activity and verification were taken into account,
+      follower counts kept rising right up to the most positive accounts, with no turning point. On Instagram the lift came
+      mostly in the sunniest quarter of accounts; the two gloomiest quarters did not differ from each other.
+
+      One quirk stood out. A small group of very negative Instagram accounts seemed to buck the trend. The authors suspect
+      that sarcastic or entertaining negativity can draw a crowd, but they offer this as a possibility, not a finding.
+    chart: instagram
+
+  - h: "Same app, different purpose, different pick"
+    body: |
+      Platform data cannot rule out that review sites and social apps simply attract different kinds of people. The team
+      therefore tested the idea inside one app, with a preregistered experiment. Three hundred adults in the UK and US, all
+      with active X accounts, spent five minutes on their own feed and started following one person. Half were asked to find
+      information on a topic of their choice, after writing down the questions they hoped to answer. The rest were told to have fun and look at
+      whatever caught their eye.
+
+      The searchers did report a more goal-driven visit, 4.25 against 3.03 out of 5. Everyone then rated the
+      person they had just followed as an expert, knowledgeable and a specialist, and as warm, friendly and good looking.
+      Overall, new follows scored higher on the first trio than the second, 3.46 against 2.99. The task tilted that balance,
+      with searchers leaning towards expertise and browsers towards warmth. The shifts were small to moderate, but they came
+      from a random split on one platform, something the archival data could not offer.
+
+  - h: "Badges and friendly wording can replace tone"
+    body: |
+      If tone is only one clue, other clues of the same kind should be able to replace it. On Yelp, Elite reviewers escaped
+      the penalty for steady praise altogether: among them, the most positive had more followers than those with mixed
+      records. On Goodreads, verified authors who rated generously held on to their followers too. Clues of the other kind
+      did not help. Many friends or friendly wording left the review-site penalty for relentless positivity in place, and on
+      Yelp, polite and caring language even went with fewer followers.
+
+      On the social feeds the logic ran the other way. Sociable language, scored from words of politeness such as please and
+      thank you and words of care and help, went with more followers on both Twitter and Instagram. It also narrowed the edge
+      of the very cheeriest accounts, so warmth could come from manners as well as from upbeat tone. Whether a credibility
+      badge could do the same on a feed was left open, because the authors had no comparable expertise cue for those two
+      platforms.
+
+  - h: "What it means for experts and platforms"
+    body: |
+      Beyond creators, the authors speak to two other groups. Experts who have to give both sides, such as doctors who
+      mention the risks of a treatment as well as its benefits, may lose browsers' interest. They suggest leaning on warmth instead of dropping
+      the balance: kindness, a little personal detail, mentions of the people close to them.
+
+      For platforms and regulators, they see a lever against misinformation. Features that interrupt endless scrolling, better
+      search tools and visible credibility badges might steer people towards following sources who know their subject. These
+      are proposals that follow from the results; none of them was tested in the paper.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your channels by why people come", "List every platform where your brand or its creators post. Mark each one as a look-up channel, where people arrive with a question (review sites, marketplaces, forums), or a browse channel, where they arrive to pass the time (Instagram, TikTok, X)."]
+  - ["Read your last 12 posts like a stranger", "Open each profile and scroll through the latest 12 posts or reviews in one sitting. Count how many are pure praise, how many weigh good against bad, and how many are complaints."]
+  - ["Show both sides where people look things up", "On look-up channels, make at least one post in four name a real drawback, a limit or who the product is not for. If the platform offers an expert badge or verification, apply for it and show it on the profile."]
+  - ["Keep browse feeds warm", "On browse channels, lead with upbeat posts. When a post has to carry a caveat, wrap it in warmth: thank people by name, answer a question kindly or share a small personal detail."]
+  - ["Pick creators to suit the channel", "Before signing a reviewer or creator, scroll their last 20 posts. Choose balanced voices or badge holders for look-up channels, and warm, upbeat ones for browse feeds."]
+  - ["Count new followers per 100 profile visits", "Record this figure for every channel each month. After you change the tone on one channel, compare the eight weeks that follow with the eight weeks before."]
+
+expect:
+  - "**Small numbers per account.** Most people on the review sites had no followers at all; the median on both Goodreads and Yelp was zero. Tone shifts the long tail of active reviewers, not every profile."
+  - "**Tone is one lever among many.** On its own, tone explained under 2% of the spread in follower counts on Goodreads, Twitter and Instagram, and about 8% to 10% on Yelp. Models that added activity, time on the platform, friends and verification explained between about 17% and 44%."
+  - "**A nudge from purpose.** Sending people to search rather than browse moved their pick by a fraction of a point on five-point scales. Expect a tilt in who gets followed, not a different audience."
+  - "**A slow build.** Because people judge a profile on several posts before following, a change of tone will likely need weeks of consistent posting before it shows. The paper did not measure this; we infer it from how people say they choose whom to follow."
+
+limits:
+  - "**Snapshots for the platforms.** The four datasets show which accounts had more followers at one moment, not what caused it. Only the X experiment tested cause, and each person made a single follow."
+  - "**Four platforms, a few years back.** The data run from 2019 to 2022, before Twitter became X. Platforms that sit between looking up and browsing were not studied, and there each visitor's own purpose may decide."
+  - "**Tone from word counts.** On the feeds, tone came from word tallies in captions and tweets, which can misread sarcasm and ignores what the pictures show."
+  - "**No expertise cue on the feeds.** Twitter and Instagram offered no comparable badge in the data, so whether proof of expertise can replace cheer on social feeds is untested."
+  - "**People, not brands.** The experiment asked participants to follow a person, so how people choose brand accounts was not tested directly."
+
+faq:
+  - q: "Do positive or balanced accounts get more followers?"
+    a: "It depends on the platform. On Yelp and Goodreads, reviewers with a mix of high and low ratings attracted the most followers. On the two social feeds, Twitter and Instagram, the accounts with the most positive posts led. The split tracks why people open each platform: with a question in mind, or just to browse (Shalev et al., 2026)."
+  - q: "Which platforms count as search, and which as scroll?"
+    a: "Search platforms are places people visit with a goal, such as review sites where they check out a restaurant or a book. Scroll platforms are feeds people browse to see whatever comes up. The same person can do either on one app, and on X their purpose of the moment changed whom they chose to follow."
+  - q: "Do badges like Yelp Elite help reviewers win followers?"
+    a: "Yes. Badge holders had more followers whatever their tone, and the badge removed the cost of generous ratings: an Elite reviewer could be enthusiastic without looking naive. Friend counts and kind wording brought no such relief on the review sites."
+  - q: "How can an expert stay credible on Instagram or X and still gain followers?"
+    a: "The authors suggest adding warmth rather than dropping balance, through kind and helpful wording, something personal, or references to close ties such as family and friends. Accounts that used more polite and caring words did have more followers on both feeds, although the personal-detail ideas were not tested."
+  - q: "Is following someone the same as liking their post?"
+    a: "No. Instagram users described following as a longer-term choice made for their own benefit after checking several posts, while likes are often a quick gesture of support. So the tone of a whole profile matters more for follows than the tone of any one post."
+
+also:
+  - doi: "10.1080/0965254X.2025.2510384"
+    title: "Commercialization of influencer content on social media: the roles of parasocial relationships and sponsorship disclosures"
+    authors: "Lim, Koay, & Cheah"
+    journal: "Journal of Strategic Marketing"
+    year: 2025
+    text: >-
+      A survey of 303 social media users in the US asked how followers respond as an influencer's content turns more
+      commercial. The more sales-driven the posts felt, the weaker followers' sense of a personal bond with the influencer,
+      and the lower their intention to buy what was promoted. Clear sponsorship disclosures cushioned that slide. Saying
+      plainly that a post is paid seems to cost less than letting followers work it out for themselves.
+  - doi: "10.1108/APJML-01-2025-0151"
+    title: "The impact of streamer social presence and professionalism on food live streaming purchase intention: a model of moderated mediation"
+    authors: "Han & Tepsan"
+    journal: "Asia Pacific Journal of Marketing and Logistics"
+    year: 2026
+    text: >-
+      In 231 responses from viewers of food live streams in China, streamers who came across as professional and streamers
+      who felt present and sociable both raised viewers' trust, and trust in turn lifted their intention to buy. The
+      surprise was that viewers who were most absorbed in a stream showed a weaker link between trust and buying. Know-how
+      and presence both count on camera, and a spellbound audience is not automatically a buying one.
+
+charts:
+  goodreads:
+    title: "Average followers per Goodreads user, by the average star rating they give"
+    scale: [0, 1]
+    step: 0.25
+    unit: ""
+    decimals: 2
+    bars:
+      - ["1 to 2 stars", 0.27, false]
+      - ["2 to 3 stars", 0.39, false]
+      - ["3 to 4 stars", 0.79, true]
+      - ["4 to 5 stars", 0.72, false]
+    source: "Study 1a, 320,707 Goodreads users sampled in June and July 2019; values read from the published figure, with extreme follower counts excluded."
+  instagram:
+    title: "Average followers per Instagram account, by how positive its posts are (quarters of accounts)"
+    scale: [0, 4000]
+    step: 1000
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Most negative quarter", 2973.37, false]
+      - ["Second quarter", 2961.58, false]
+      - ["Third quarter", 3044.24, false]
+      - ["Most positive quarter", 3492.74, true]
+    source: "Study 2b, 4,300,583 public Instagram accounts, data received in autumn 2022; values read from the published figure, extreme values excluded. The two lowest quarters did not differ significantly."
+
+related_pages: []
