@@ -1,0 +1,221 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 16                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-04-17"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: ad-targeting-misestimation
+status: live
+
+title: "Why do some users feel flooded with ads while others hardly notice them? What a Journal of Advertising study found"
+dek: >-
+  Two researchers compared what Weibo users believed their feeds were showing them with what a screen recording caught.
+  The guesses that ran high or low tracked how respected, how watched and how well served people felt on the platform.
+short_title: "Why some users feel swamped by ads and others barely notice"
+
+description: >-
+  Zhang & Zhang find Weibo users misjudge how many ads they see: women who sense gender bias or feel watched guess high,
+  those whose needs are met guess low.
+
+keywords: [ad targeting, targeted advertising, perceived ad frequency, algorithm awareness, algorithmic bias,
+  gender bias in advertising, perceived surveillance, personalized advertising, Weibo, social media advertising,
+  Journal of Advertising]
+topics: [Advertising, Personalization, Privacy]
+
+image:
+  file: 2025-ad-targeting-misestimation.jpg
+  og: 2025-ad-targeting-misestimation-og.jpg
+  alt: "People walk away from the camera along a sunlit cobbled shopping street in Rome, their long shadows stretching back towards the viewer as a crowd fills the road ahead"
+  caption: "On a street, everyone sees the same shop windows. In a feed, no two people see the same ads, or count them the same way. Photo: Sui Xu on Unsplash."
+
+short_answer: >-
+  Mostly because of how the platform makes them feel. Researchers at Tianjin University recorded 25 Weibo users as they
+  scrolled, asked each to estimate the share of ads, then interviewed them at length. Women who met stereotyped ads,
+  hostile comments about women or a sense of being watched guessed high. Those who trusted the algorithm, or found ads
+  useful for what they came to do, guessed low. Most of the men judged it about right.
+
+takeaways:
+  - "Of the 8 men, 6 came within one band of the recorded figure, on a 5-band scale running from under 1 post in 20 being an ad to over 1 in 7."
+  - "The study centred on women who misjudged: of the 17 it analysed, 8 guessed too high and 9 too low, so both kinds of error were common."
+  - "The misses traced back to 5 themes: why people use the platform, their attitude to algorithms, their grasp of how algorithms work, how watched they feel, and gender bias on the site."
+  - "Coding the interviews turned up 11 kinds of reason behind guessing high and 8 behind guessing low, from hate speech aimed at women to ads that helped users make contacts."
+
+paper:
+  doi: "10.1080/00913367.2025.2465381"
+  title: "Human-AI Alignment in Ad Targeting: Addressing Misestimation for Vulnerable Groups"
+  authors: ["Zhang, Y.", "Zhang, S."]
+  authors_full: ["Yang Zhang", "Shouxin Zhang"]
+  year: 2025
+  journal: "Journal of Advertising"
+  volume: "54"
+  issue: "2"
+  pages: "196-212"
+  online: "2025-04-17"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Yang Zhang"
+      affiliation: "Tianjin University, Tianjin, China"
+      orcid: "0000-0002-3792-7200"
+    - name: "Shouxin Zhang"
+      affiliation: "Tianjin University, Tianjin, China"
+      orcid: "0009-0006-9093-414X"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One mixed-method study of 25 Weibo users (19, then six added for saturation): screen-recorded browsing, a short questionnaire and an in-depth interview each, coded with grounded theory"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Yang Zhang and Shouxin Zhang of Tianjin University in China started from a simple mismatch. A platform knows how many
+      ads it serves each person. The person has only a feeling about it, and that feeling, not the delivery log, decides
+      whether ads come across as useful or intrusive. The authors call the gap misestimation: overestimation when people
+      believe they are targeted more than they are, underestimation when they believe it less.
+
+      They chose Weibo, one of China's largest social networks, partly because gender is a compulsory field shown on every
+      profile, so the platform could draw on it in deciding who sees what. Their focus was women, with men interviewed as a point of
+      comparison.
+
+      Each participant opened their own account and browsed the discover page while the screen was recorded. They then
+      estimated what share of the content had been advertising, and sat down for a long conversation about how they use the
+      platform, what they think algorithms do and how ads make them feel. Comparing each estimate with the recording gave a
+      label: about right, too high or too low.
+    facts:
+      - ["Participants", "25 Weibo users reached through referrals: 19 at first (8 men, 11 women), then 6 more women to confirm no new themes appeared"]
+      - ["When", "February to March 2024"]
+      - ["Each session", "Five minutes of recorded browsing, a questionnaire of two to five minutes, then an interview of 45 to 60 minutes"]
+      - ["The estimate", "Each guess of the ad share was set against the ads counted in the recording; a gap of two or more bands counted as a misjudgment"]
+      - ["Analysis", "Interviews coded step by step into themes (grounded theory), stopping once new interviews added nothing"]
+
+  - h: "Who guessed wrong, and which way"
+    body: |
+      On the face of it, the labels split by gender. Most of the men got close to what the recording showed. The women the authors
+      report on missed in both directions, in roughly equal numbers.
+
+      Read those counts with care. The online appendix lists only women who misjudged, so it cannot tell us how common
+      accurate guesses were among women overall. The last six interviews were also chosen on purpose: three people who had
+      guessed high and three who had guessed low. The study set out to explain why women misjudge, so the split by gender
+      describes who was studied, not how often women and men misjudge in general.
+    chart: labels
+
+  - h: "Reading the feed as a machine"
+    body: |
+      One route to a wrong guess ran through what people suspected the algorithm was doing to them. Unable to see inside it,
+      they judged it by easier cues, a shortcut psychologists call attribute substitution. For the women, two cues mattered most.
+
+      One was gender bias. A woman who overestimated described Weibo pushing "domineering CEO" romance novels to women, with
+      heroines shown as naive and subordinate, and contrasted it with another app whose ads on women's health left her feeling
+      respected. Another described sexist comment threads she had mostly stopped reporting. The men rarely mentioned discomfort of
+      this kind.
+
+      The other was surveillance. Women worried more than men about their data being used along gender lines, and one
+      wondered whether apps were listening through the microphone. Those who felt little watched, and saw data use as a fair
+      price for a tailored feed, tended to guess low.
+
+  - h: "Judging the feed as a service"
+    body: |
+      The other route was more practical. People also judged targeting by whether ads helped or hindered what they had come
+      to do. Their summary is blunt: the more advertising obstructs a user's needs, the more likely that user is to
+      overestimate it.
+
+      Users who came for news and information were more critical and tended to guess high, especially when another app
+      served them more useful ads. Users scrolling for entertainment paid the ads less attention. Those using Weibo to make
+      contacts, such as a student who found older students selling exam preparation material, treated ads as part of the
+      service and guessed low.
+
+  - h: "Knowing how it works cuts both ways"
+    body: |
+      Both routes passed through two filters: how well people understood algorithms and how they felt about them. Trust,
+      along with a basic grasp that the feed follows your own clicks and likes, pointed towards lower, calmer estimates.
+      Distrust, and the sense of being schemed against without knowing how, pushed estimates up.
+
+      Knowledge was no simple cure. Users who knew about echo chambers, the way personalisation narrows what a feed shows,
+      grew more alert to sameness and so felt more targeted. On this evidence, explaining the algorithm can leave users more
+      relaxed about it or more watchful, depending on what they take from the explanation.
+
+  - h: "What the authors suggest"
+    body: |
+      Their advice leans on the overestimation findings. Platforms should make their spaces friendlier to women: deal with
+      gender-based hate speech, keep stereotypes out of content and ads, and manage the tags and interest profiles behind
+      targeting more carefully. They also want gender diversity on the boards that oversee AI ethics, and simple guidance for
+      users on changing their settings.
+
+      Underestimation gets a warier welcome. If ads do not get in the way of people's plans on the platform, a lower sense of being targeted
+      can suit advertisers and users alike. Yet people who understand algorithms less may miss unfair targeting, so the
+      authors point to China's rules on recommendation algorithms, which require an option without personalisation and an
+      easy way to opt out, and add that platforms should explain plainly how their recommendations work. Whether the pattern holds on Western platforms,
+      where gender is not always on display, has not been tested.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Ask how crowded the feed feels", "Run a short poll of 50 followers. Ask: of the last 20 posts you scrolled past, how many were ads? Then ask whether those ads helped with the reason they opened the app."]
+  - ["Check your ads for stereotypes", "Pull every ad aimed at women from the last three months. Ask three women outside the team to flag any that cast women as naive, dependent or decorative, and drop the flagged ones."]
+  - ["Match each ad to the reason people scroll", "For every placement, write one line on what people are there for: news, fun or contacts. Brief the ad to help with that, such as a short how-to beside news or a group invite beside community posts."]
+  - ["Say why the ad is there", "Add one plain sentence to targeted ads naming the signal behind them, such as a topic the person follows. Keep it on the ad itself, not hidden behind a menu."]
+  - ["Keep the comments civil", "Read the replies on your own posts each day. Hide sexist or abusive comments within 24 hours and pin a short house rule at the top of busy threads."]
+  - ["Repeat the poll every quarter", "Ask the same two questions every three months and read the answers from women and men separately. Where guesses run high, fix tone and relevance before you cut the number of ads."]
+
+expect:
+  - "**Feelings set the count.** How many ads people believe they see moved with respect, suspicion and usefulness, so tone and fit are levers alongside frequency. No change was tested, so treat this as a hunch worth checking."
+  - "**Two kinds of error.** Some users will feel swamped while others barely notice, and each calls for a different response."
+  - "**Education is a gamble.** Explaining targeting can calm users or make them watch for repetition; it depends on the lesson they draw."
+  - "**Quiet ads have a price.** Ads that blend into what people want may draw fewer complaints, but people who notice less can also miss unfair treatment."
+  - "**No ranking of causes.** The interviews map reasons without weighing them, so your own polling has to show where to start."
+
+limits:
+  - "**A small, chosen group.** Participants came through personal referrals, and the last six were picked because they had guessed high or low. No share or rate can be read from it."
+  - "**One platform, one country.** Weibo shows gender on every profile, and Chinese users may weigh privacy differently from users elsewhere."
+  - "**One short session.** Each verdict rests on a single few minutes of browsing, which may not match a person's usual day."
+  - "**Women in focus.** Eight men served as the comparison, and the appendix leaves out women who judged accurately."
+  - "**No weights.** There was no follow-up survey, so how much each theme matters, and how the themes combine, remain open."
+
+faq:
+  - q: "What is ad targeting misestimation?"
+    a: "It is the gap between how much targeted advertising people think they receive and what the platform actually delivers. Believing you see more ads than you do is overestimation; believing you see fewer is underestimation (Zhang & Zhang, 2025)."
+  - q: "Why might women overestimate targeted ads on social media?"
+    a: "In interviews with Weibo users, the women who guessed high spoke of ads casting women in stereotyped roles, hostile threads about women and worry that their data was sorted by gender. Those cues made the whole feed feel aimed at them."
+  - q: "Does explaining the algorithm make users more accurate?"
+    a: "Only in part. Knowing that the feed reflects your own activity went with calmer estimates, yet people familiar with filter bubbles became quicker to spot repetitive content and felt more targeted as a result."
+  - q: "Is it good for advertisers if users underestimate ads?"
+    a: "The authors see gains for both sides when ads leave the purpose of a visit undisturbed. They also warn that less aware users may fail to spot unfair targeting, and they support options without personalisation and easy opt-outs."
+  - q: "Do people judge ads differently depending on why they use a platform?"
+    a: "Yes, among these users. People looking for news resented ads that stood in their way, while those scrolling for fun or to find contacts noticed ads less or welcomed them."
+
+also:
+  - doi: "10.1080/00218499.2025.2467763"
+    title: "How Persuasive Is Personalized Advertising? A Meta-Analytic Review of Experimental Evidence of the Effects of Personalization on Ad Effectiveness"
+    authors: "Yeo, Chu, & Li"
+    journal: "Journal of Advertising Research"
+    year: 2025
+    text: >-
+      Pooling 53 experimental studies, this meta-analysis asks whether personalised ads really persuade better than generic
+      ones, given evidence that personalisation can also backfire. On average they do, lifting overall persuasion, attitudes
+      and intentions to act. When the authors modelled why, a sense that the ad was relevant carried the effect, while feeling
+      intruded upon did not explain it. For anyone tailoring ads, relevance is the part that pays.
+  - doi: "10.1080/15252019.2025.2475792"
+    title: "Green Advertising on Instagram Versus TikTok: Construal Level Moderates Processing Fluency and Environmental Commitment"
+    authors: "Pittman & Li"
+    journal: "Journal of Interactive Advertising"
+    year: 2025
+    text: >-
+      Drawing on construal level theory, this paper compares sustainability messages on Instagram and TikTok. Big-picture,
+      abstract green claims worked best on Instagram, while concrete, specific ones suited TikTok, and the right pairing
+      raised intentions to buy. The match helped because the message felt easier to process and the brand seemed more
+      committed to the environment. One green claim may need two scripts.
+
+charts:
+  labels:
+    title: "How the 25 people interviewed judged their share of ads (number of people)"
+    scale: [0, 10]
+    step: 2
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Men: about right", 6, false]
+      - ["Men: guessed too high", 1, false]
+      - ["Men: guessed too low", 1, false]
+      - ["Women: guessed too high", 8, true]
+      - ["Women: guessed too low", 9, true]
+    source: "Labels for the 8 men and 17 women interviewed, from the online Appendix 2 of the study. Women whose estimates were close are not listed there."
+
+related_pages: []
