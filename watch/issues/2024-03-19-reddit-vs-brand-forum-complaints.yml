@@ -1,0 +1,232 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 12                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-03-19"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: reddit-vs-brand-forum-complaints
+status: live
+
+title: "Do customers complain differently on a brand's own forum than on Reddit? What a Journal of Consumer Behaviour study found"
+dek: >-
+  When an app update lands badly, the grumbling splits between the company's help forum and independent boards. A
+  word-level analysis of thousands of comments about one redesign shows people shape a complaint for whoever they
+  expect to read it.
+short_title: "Your own forum hears a different complaint"
+
+description: >-
+  Yin and Sadowski find complaints on Spotify's own forum ran to over twice the length of Reddit posts, with far less
+  swearing and more talk of 'we'.
+
+keywords: [consumer complaints, online complaining behaviour, Reddit, brand community forum, Spotify, complaint handling,
+  social listening, LIWC text analysis, app redesign backlash, customer service online, Journal of Consumer Behaviour]
+topics: [Service, Social media, UGC]
+
+image:
+  file: 2024-reddit-vs-brand-forum-complaints.jpg
+  og: 2024-reddit-vs-brand-forum-complaints-og.jpg
+  alt: "A young woman with a ponytail and headphones looks down at her phone in profile, bathed in violet light, a spotlight glowing behind her"
+  caption: "The same frustration sounds different depending on who you think is listening. Photo: Ben Blennerhassett on Unsplash."
+
+short_answer: >-
+  Yes, and noticeably so. When Spotify reworked its app's home feed, about 6,700 complaint comments piled up in two
+  places: a Reddit megathread and the company's own Community forum. On the brand's forum, people wrote as if
+  addressing the firm: at greater length, more formally, more negatively and with more insistence on change. On Reddit
+  they were brief, casual and far readier to swear.
+
+takeaways:
+  - "On the company's forum the average complaint was about 70 words long, against about 30 on Reddit, the widest gap of any measure."
+  - "Swear words made up 1.15% of the words in Reddit comments and under 0.1% on the forum, a more than twelvefold difference."
+  - "Forum posters used 'we' nearly three times as often as Reddit users (0.54% of words against 0.19%), speaking on behalf of fellow customers."
+  - "Both sites were negative overall: the emotional tone score sat at 41 on the forum and 43 on Reddit, where any score under 50 marks a negative tone."
+
+paper:
+  doi: "10.1002/cb.2325"
+  title: "A tale of two platforms: A comparative analysis of language use in consumer complaints on Reddit and Spotify Community"
+  authors: ["Yin, Q.", "Sadowski, S."]
+  authors_full: ["Qian Yin", "Sebastian Sadowski"]
+  year: 2024
+  journal: "Journal of Consumer Behaviour"
+  volume: "23"
+  issue: "4"
+  pages: "2071-2086"
+  online: "2024-03-19"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Qian Yin"
+      affiliation: "Department of Language and Communication, Centre for Language Studies, Radboud University Nijmegen, Nijmegen, The Netherlands"
+      orcid: "0009-0001-3330-2115"
+    - name: "Sebastian Sadowski"
+      affiliation: "Department of Language and Communication, Centre for Language Studies, Radboud University Nijmegen, Nijmegen, The Netherlands"
+      orcid: "0000-0002-8183-4925"   # not printed on the article; his ORCID record lists this DOI
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One study: LIWC-22 text analysis of 6,737 complaint comments about one app redesign (4,439 from r/Spotify, 2,298 from the Spotify Community), compared with Welch's t-tests"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Qian Yin and Sebastian Sadowski of the Centre for Language Studies at Radboud University Nijmegen in the Netherlands
+      picked a moment many product teams will recognise. Spotify had reworked the home page of its mobile app, and plenty of
+      its users hated it. Two threads filled up fast. One sat on Spotify's own Community forum, where company staff read and
+      reply. The other was a running complaints thread on r/Spotify, a Reddit board the company does not run.
+
+      The pair asked a linguistic question: does the person you expect to read a complaint change how you write it? Theories
+      of how speakers adjust to their listener say it should. They gathered every comment from both threads up to the point
+      where Spotify's community manager posted an official answer and closed the forum thread. Then they stripped out spam,
+      duplicates, bots, staff replies and anything unrelated to the redesign.
+
+      Each remaining comment went through LIWC, software that checks every word against built-in dictionaries and reports
+      what share of the text falls into categories such as emotion, certainty or swearing. The measures were grouped under
+      three headings: how formal the writing was, how much feeling it carried and how assertive it sounded.
+    facts:
+      - ["Sources", "A Reddit complaints megathread of more than 5,100 comments and a Spotify Community thread on the new home feed with more than 2,000"]
+      - ["After cleaning", "4,439 Reddit comments and 2,298 forum comments, all about the redesign"]
+      - ["Cut-off", "Comments up to the moment Spotify's community manager answered everyone and locked the thread"]
+      - ["Tool", "LIWC-22 dictionary software, 16 language measures scored for each comment"]
+      - ["Test", "Welch's t-tests with bootstrapping, and a stricter threshold (.003) to allow for the many comparisons"]
+
+  - h: "Formal at the company's door, casual among peers"
+    body: |
+      Forum comments were not only longer; they were built differently. Sentences averaged almost 18 words on the forum
+      and under 14 on Reddit, the mark of writing that explains rather than exclaims. Long words of seven letters or more
+      were also a little more common on the forum, though that gap was slight.
+
+      The authors read the extra length as effort. Someone who expects the product team to see a post has a reason to set
+      the problem out clearly, and perhaps to sound competent in front of the firm. An earlier study of hotel reviews had
+      found the reverse, with longer posts on social media than on the hotel's own site, so this result cuts against what
+      the field expected.
+
+      Swearing tells the same story from the other side. The authors suggest that on an independent board people may feel more anonymous and
+      further from any consequence, so the language loosens, while on the forum they know staff are reading.
+
+  - h: "More feeling where the company is listening"
+    body: |
+      Here the authors were unsure in advance. Customers might pour out their feelings to fellow users, to win sympathy
+      and turn others against the brand. Or they might use emotion as leverage with the company, to show how much the
+      change hurt. The forum came out ahead: words carrying a negative tone were more frequent there than on Reddit.
+
+      The detail matters. Words of anger and sadness were equally common in both places, and the overall tone score, which
+      nets positive words against negative ones, showed no difference once the stricter test was applied. What rose on the
+      forum was general negativity, plus a trace more anxiety, although anxious words were rare everywhere.
+
+      Earlier research suggested people take frustration to social media when they feel a company gives them no other
+      outlet. Here, an open and visibly staffed company forum drew the most emotional feedback, which the authors see as a
+      case for giving customers a direct line.
+    chart: emotion
+
+  - h: "Us against them"
+    body: |
+      Forum posters also sounded surer of themselves. Words signalling certainty were more frequent on the forum, and so
+      were words about how things ought to be different. Words of hesitation, such as maybe or perhaps, showed no gap.
+
+      The clearest sign of a change in stance was the pronoun. On the forum, people spoke for other customers far more
+      often, framing the redesign as something done to all of them. In the authors' view, users were closing ranks in front
+      of the company, and they warn managers not to answer that collective voice by pulling rank. LIWC's broader score for
+      social confidence, called Clout, barely moved, so the shift sits in particular words rather than in an overall
+      posture.
+    chart: assert
+
+  - h: "What a listening team should take from it"
+    body: |
+      The main advice is to stop treating complaints as one stream. What lands on a company-run forum is longer, more
+      considered and more pointed, and it deserves a full, professional answer that deals with the feeling as well as the
+      fault. What appears on independent boards is shorter and rougher, written for peers, and still worth reading because
+      those boards draw very large crowds.
+
+      The authors also make a case for the method. Dictionary software is cheap and quick, so a service team can score
+      thousands of posts after an update and see how the mood differs from one channel to the next.
+
+      One caution comes from us rather than from the study. Pool both sources into a single sentiment score and a calm,
+      articulate forum and a sweary board can cancel each other out. Keep the channels apart when you score them, and only then add them up.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Map where people complain about you", "List every place customers grumble in public: your own help forum, independent discussion boards about your product, review sites and app store comments. Mark which ones your team actually reads each week."]
+  - ["Give each channel an owner and a rule", "Name one person for each place. Your own forum gets a reply from staff within two working days. Outside boards get read every day but answered only when a post asks for help or gets the facts wrong."]
+  - ["Match the effort of the post", "When a customer writes a long post on your forum, answer it in full. Name the problem they raised, explain the next step, give a date for it and sign with a real name. Drop the stock apology."]
+  - ["Answer the group, not just the person", "When posts start saying 'we' and 'us', treat them as a shared request. Gather them into one thread, reply once to everyone and pin the answer at the top."]
+  - ["Score each channel separately", "Run your sentiment or text tool on each channel on its own and keep the results apart. Read rude, short posts on outside boards for the topic they raise, not for the tone."]
+  - ["Watch the words for two weeks after any change", "After every app or product update, pull new comments from each channel twice a week for two weeks. Track how long they are, how negative they sound and how often people ask for something to change. Act on the trend, not on one loud post."]
+
+expect:
+  - "**The most pointed feedback arrives at home.** Your own forum is likely to carry the most detailed and most demanding posts, which makes it the richest source and the least comfortable to read."
+  - "**Modest gaps beyond length and swearing.** Most emotion and assertion measures differed only slightly between the two sites, so channel dashboards will show small shifts rather than dramatic ones."
+  - "**Peers get the venting.** On boards the brand does not run, people write mainly to each other, so expect short posts that look for agreement more than answers."
+  - "**A cheap first read.** Dictionary-based software can score thousands of comments far faster than reading them by hand, and the authors present it as affordable for an ordinary service team."
+
+limits:
+  - "**Words, not meaning.** The software counts words against fixed lists, so it misses sarcasm, irony, idioms and context. A sarcastic thank you scores as gratitude."
+  - "**Small effects.** Apart from comment length, sentence length and swearing, the differences were small. The authors argue that large, unmanaged samples of real comments tend to produce small effect sizes."
+  - "**One app, one update, two threads.** Every comment concerned a single redesign of a single music app. Other platforms, such as X, Facebook or review sites, may show other patterns."
+  - "**Places, not people.** The analysis compares where comments were posted, not who wrote them. People who choose a brand's forum may differ from Reddit regulars to begin with, so part of the gap could come from who goes where."
+  - "**Complaints only.** Staff replies were removed, so the study says nothing about which kind of answer calmed things down."
+
+faq:
+  - q: "Do customers write differently when they complain directly to a company?"
+    a: "Yes. Complaints about the same app redesign were longer, more formal, more negative and more assertive on Spotify's own forum than on an independent Reddit board, where language was looser and more profane (Yin & Sadowski, 2024)."
+  - q: "What is LIWC?"
+    a: "Linguistic Inquiry and Word Count is a text analysis program. It compares each word with more than 100 ready-made word lists and gives the percentage of a text that falls into each category, from pronouns to anxiety. This analysis used the 2022 version."
+  - q: "Is Reddit a good place to listen to customers?"
+    a: "It is useful but partial. Posts there are written for fellow users, so they are shorter and rougher. They show what people say to each other. That can differ from what they would tell you directly."
+  - q: "Where do most online complaints end up?"
+    a: "Mostly away from the company. A 2011 industry report quoted by the authors found roughly 30% of online complaints on company-run platforms and 70% on sites the company does not control."
+  - q: "Why would people swear less on a brand's forum?"
+    a: "Because they expect company staff to read the forum, the authors suggest, people keep their language in check there. On an independent board the audience is other users and the setting feels more anonymous."
+
+also:
+  - doi: "10.1177/10946705241238751"
+    title: "Designing Collaborative Intelligence Systems for Employee-AI Service Co-Production"
+    authors: "Blaurock et al."
+    journal: "Journal of Service Research"
+    year: 2025
+    text: >-
+      What turns an AI tool into a genuine working partner for service staff? A review, a qualitative study and two
+      scenario experiments with finance and HR employees point to five design features: keeping people involved, showing
+      how the system reasons, and letting staff steer both the process and the final result, while each side makes the
+      other stronger. Tools built this way left employees feeling the service got better and the outcome was still theirs.
+      Openness and control counted most, and the gains were largest for staff new to AI, so the first rollout is where
+      design choices carry the most weight.
+  - doi: "10.1002/jcpy.1416"
+    title: "Unintended effects of algorithmic transparency: The mere prospect of an explanation can foster the illusion of understanding how an algorithm works"
+    authors: "Ostinelli et al."
+    journal: "Journal of Consumer Psychology"
+    year: 2025
+    text: >-
+      Being told they could read how an algorithm works made people feel they understood it, even when they never opened
+      the explanation. That feeling came from a sense of being in control, and it led them to follow the algorithm's
+      recommendations more than they had reason to. How strong the effect was depended on what the explanation covered
+      and on whether it seemed useful. A link marked "how this works" can buy trust that nobody has yet earned.
+
+charts:
+  emotion:
+    title: "Emotion words in complaints, as a share of all words (%)"
+    scale: [0, 3]
+    step: 1
+    unit: "%"
+    decimals: 2
+    bars:
+      - ["Negative tone, forum", 2.54, true]
+      - ["Negative tone, Reddit", 2.06, false]
+      - ["Anger, forum", 0.47, false]
+      - ["Anger, Reddit", 0.50, false]
+      - ["Sadness, forum", 0.10, false]
+      - ["Sadness, Reddit", 0.11, false]
+    source: "One study: LIWC-22 scores for 2,298 Spotify Community and 4,439 r/Spotify comments. Negative tone differed; anger and sadness did not."
+  assert:
+    title: "How often complaints used assertive words (average % of words)"
+    scale: [0, 3]
+    step: 1
+    unit: "%"
+    decimals: 2
+    bars:
+      - ["Certainty words, forum", 1.10, true]
+      - ["Certainty words, Reddit", 0.86, false]
+      - ["Discrepancy words, forum", 2.23, true]
+      - ["Discrepancy words, Reddit", 1.92, false]
+      - ["Hesitant words, forum", 2.73, false]
+      - ["Hesitant words, Reddit", 2.60, false]
+    source: "Same comments. Discrepancy words signal a gap between how things are and how they should be. Hesitant words did not differ."
+
+related_pages: []

@@ -1,0 +1,221 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 14                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-04-03"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: human-vs-virtual-influencers
+status: live
+
+title: "Do virtual influencers get more engagement than human ones on Instagram? What a Journal of Interactive Advertising study found"
+dek: >-
+  Agencies have pitched computer-generated influencers as the safer, more engaging choice for brands. A look at two years of
+  their Instagram posts, set against matched human creators, points the other way.
+short_title: "Real influencers still beat virtual ones"
+
+description: >-
+  Looi and Kahlor find human influencers outperform virtual ones on Instagram: across 393 accounts, real people drew about
+  40% more engagement per follower.
+
+keywords: [virtual influencers, AI influencers, human vs virtual influencers, CGI influencers, influencer marketing,
+  Instagram engagement rate, micro-influencers, nano-influencers, Instagram verification badge, uncanny valley,
+  influencer tiers, Journal of Interactive Advertising]
+topics: [Influencers, AI, Social media]
+
+image:
+  file: 2024-human-vs-virtual-influencers.jpg
+  og: 2024-human-vs-virtual-influencers-og.jpg
+  alt: "A woman in a hot-pink blazer, black dress and sunglasses sits on sunlit city steps beside a metal railing, holding her phone up for a selfie"
+  caption: "A real face on a real street, phone held high. On Instagram, that still earns more replies than a flawless digital double. Photo: Julio Lopez on Unsplash."
+
+short_answer: >-
+  No, not on this evidence. Researchers followed more than 400 Instagram accounts in beauty, fashion and lifestyle, some run
+  by real people and some by computer-generated characters, across two years of posts. Relative to audience size, the humans
+  drew more likes and comments. Both groups wrote almost uniformly cheerful captions, but they talked about different things:
+  people promoted their own content and links, while virtual influencers kept stressing what they were.
+
+takeaways:
+  - "Measured as likes plus comments relative to followers, human influencers averaged 5.48 against 3.90 for virtual ones, roughly 40% higher."
+  - "Both groups were overwhelmingly upbeat: 97.9% of the virtual influencers' sampled posts and 95.8% of the human ones read as positive, with 1.1% and 2.5% negative."
+  - "The weakest response came from accounts with 100,000 to 999,999 followers, behind both the 1,000 to 9,999 band and accounts with a million or more."
+  - "A blue tick did not lift engagement by itself: verified accounts averaged 4.90 and unverified ones 5.43, a difference too small to rely on."
+
+paper:
+  doi: "10.1080/15252019.2024.2313721"
+  title: "Artificial Intelligence in Influencer Marketing: A Mixed-Method Comparison of Human and Virtual Influencers on Instagram"
+  authors: ["Looi, J.", "Kahlor, L. A."]
+  authors_full: ["Jiemin Looi", "Lee Ann Kahlor"]
+  year: 2024
+  journal: "Journal of Interactive Advertising"
+  volume: "24"
+  issue: "2"
+  pages: "107-126"
+  online: "2024-04-03"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Jiemin Looi"
+      affiliation: "Hong Kong Baptist University, Hong Kong, China"
+      orcid: "0000-0002-9584-2483"
+    - name: "Lee Ann Kahlor"
+      affiliation: "The University of Texas at Austin, Austin, Texas, USA"
+      orcid: "0000-0003-3372-9589"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Study 1: sentiment analysis and topic modelling of 10,000 Instagram posts from 424 influencers; Study 2: natural experiment on engagement for the same accounts (393 after outliers); one dataset, two studies as reported"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Jiemin Looi of Hong Kong Baptist University and Lee Ann Kahlor, who teaches advertising at the University of Texas in
+      Austin, wanted to check a claim agencies had been making with some confidence: that computer-generated
+      influencers, characters drawn with graphics software and managed by a studio, win more engagement than people and carry less risk for the brands that hire them. Earlier
+      studies had mostly compared a handful of famous virtual figures with famous humans, often in controlled tests. This team
+      went to the accounts themselves.
+
+      They took the virtual influencers working in style and beauty listed on an industry tracking site, then found human
+      creators who resembled them in audience size, age, gender, ethnicity and verification status. Using CrowdTangle, a social
+      media monitoring tool, they collected the English-language posts these accounts had published over two years.
+
+      The work came in two parts. The first read the captions with software, scoring the mood of the words and grouping the
+      themes that kept coming back. The second treated the accounts as a natural experiment: nobody was assigned to anything,
+      but the team compared the response posts earned depending on who made them, how big the account was and whether it
+      carried Instagram's blue verification tick.
+    facts:
+      - ["Accounts", "424 Instagram influencers across the three style categories: 77 virtual, 347 human"]
+      - ["Matching", "Each human account picked to look like a virtual one on audience size, demographics and blue-tick status"]
+      - ["Posts", "99,680 English-language posts from January 2020 to January 2022"]
+      - ["Study 1", "Mood scoring with two word lists and theme detection on a random 10,000 posts, 5,000 from each group"]
+      - ["Study 2", "Engagement compared by influencer type, four size bands and verification; 393 accounts after removing 31 extreme outliers"]
+      - ["Engagement", "Likes plus comments on each post, divided by the account's followers at the time of posting"]
+
+  - h: "Same sunny tone, different stories"
+    body: |
+      Both groups kept things positive. Very few captions from either side scored as negative, though virtual influencers were
+      a touch more relentlessly cheerful, and that gap held up statistically. Their low moments were milder too: the gloomiest
+      virtual caption was far less harsh than the bleakest human one. A second, larger word list told the same story.
+
+      The themes differed more than the mood. Virtual influencers kept returning to what they were, leaning on terms such as
+      virtual human, CGI, digital art and digital model, next to fashion inspiration, beauty products, new content and social
+      causes they wanted to be seen backing. Human influencers spent their words on gratitude for things that had happened to
+      them and on self-promotion: plugging their profiles, their latest uploads and affiliate links, alongside beauty tips and
+      outfits.
+
+      The authors see two routes to the same standing. A virtual figure has to announce that it is an influencer. A human one
+      simply acts like one, by making content and steering where attention goes.
+
+  - h: "Where the humans pulled ahead"
+    body: |
+      On engagement, people came out on top, and a second check that does not rely on neatly shaped data agreed. The human lead
+      did not depend on account size or on the blue tick: neither changed it in any reliable way.
+
+      Two theories had been set against each other. One says people treat machines much as they treat other people, and might
+      even see a digital creator as more objective. The other, the uncanny valley, says a figure that looks almost but not quite
+      human can feel eerie and push people away. These data sided with the uncanny valley. The authors suggest the unease may come from
+      mismatches, such as a computer-made character dropped into real photographs beside real people, a style many of these
+      accounts use.
+
+  - h: "Bigger accounts are not always better"
+    body: |
+      Accounts were sorted into the four size bands the industry commonly uses. Engagement did not climb or fall steadily as
+      audiences grew. The smallest accounts and the very largest both beat the band just short of a million, while accounts of
+      10,000 to 99,999 followers did not differ reliably from any other band.
+
+      Earlier research on small creators points one way: they feel like friends. Very large names pull people in another way. A
+      reasonable guess, though nothing here tests it, is that the middle band has lost some of the first quality without yet
+      gaining the second.
+    chart: tiers
+
+  - h: "What the blue tick does, and does not, do"
+    body: |
+      The badge only showed its hand once account size came into it. Among verified accounts, the million-plus group drew far
+      more response than verified accounts in the two middle bands. Among creators with tens of thousands of followers, those
+      without the tick did markedly better than those with it, and better than verified accounts in the next band up.
+
+      The authors draw two lessons. For awareness, a verified account with a very large following looks the stronger pick. For
+      changing what people think and do, they point to small, unverified creators, leaning on earlier work about how close
+      followers feel to them. That second step reaches beyond these data, which counted likes and comments and nothing else.
+    chart: verified
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Start the shortlist with real people", "When the goal is likes, comments and conversation, fill your creator shortlist with human influencers first. Add a computer-generated character only if you have a separate reason, such as full control of the script."]
+  - ["Rank creators by response, not reach", "For each creator, add up the likes and comments on their last 20 posts and divide by their follower count. Sort the list by that figure before you look at audience size."]
+  - ["Pick the account size for the job", "For broad awareness, look at verified accounts above the million-follower mark. For a closer, more personal pull, look at small accounts with a few thousand followers, even without a blue tick."]
+  - ["Make a virtual character look the part", "If you do use a digital character, give it a clearly non-human style, such as a cartoon look or a talking object, rather than a face that is almost real. Avoid pasting it into real photos beside real people."]
+  - ["Test human and virtual side by side", "Give one human and one virtual creator the same brief, the same product and the same posting days for four weeks. Compare likes and comments per follower when the month ends."]
+  - ["Read the comments every week", "Each week, read 50 comments under every sponsored post. Sort them into praise, questions and ridicule, so a wave of mockery is never counted as success."]
+
+expect:
+  - "**A modest edge, not a landslide.** Whether an account was human or virtual accounted for only about 2% of the differences in engagement between accounts, so plenty of virtual creators will still beat plenty of human ones."
+  - "**Less control, more response.** A human creator brings off-screen risks a digital one does not; on these figures, that trade still buys more reaction per follower."
+  - "**Novelty wears thin.** Earlier work credits part of the pull of virtual characters to their newness, and the authors warn brands against buying the hype. Critics cited in the paper expect that curiosity bonus to fade."
+  - "**Engagement is the only proof here.** Awareness, attitudes and sales were not measured, so treat any claim about purchases as an inference, not a result."
+
+limits:
+  - "**Real accounts, not a controlled test.** Nobody was assigned to see human or virtual posts, so differences in content, timing or audience may explain part of the gap, and virtual accounts were far fewer than human ones. The authors accept that this design gives less control than a lab or online experiment."
+  - "**Near-human characters only.** Every virtual influencer here was designed to look like a person. Cartoon-style or object-like characters may be received differently."
+  - "**One platform, one language, three categories.** English captions on Instagram from beauty, fashion and lifestyle accounts, posted during 2020 and 2021. TikTok, YouTube and other product fields were not covered."
+  - "**Word lists are blunt.** Fixed lists of positive and negative words cannot read sarcasm, emoji or internet slang, so the mood scores are rough."
+  - "**Not every comment is a compliment.** Some likes and comments come from mockery or hate-watching, which a simple count treats as approval."
+
+faq:
+  - q: "Are human influencers more engaging than AI-made ones on Instagram?"
+    a: "Yes, on average. Once audience size is taken into account, posts by real creators earned a stronger response than posts by computer-generated characters, and the lead held for small and large accounts alike (Looi & Kahlor, 2024)."
+  - q: "What exactly counts as a virtual influencer?"
+    a: "A fictional social media personality built with computer graphics and run by a company or creative team. Its appearance, backstory and posts are designed in advance, which gives brands close control over what it says and does. Many work in fashion and beauty."
+  - q: "Why would people respond less to a virtual influencer?"
+    a: "One explanation is the uncanny valley: something that looks nearly human but not quite can feel unsettling. Mixing a digital character into real scenes with real people may sharpen that mismatch, which is how many of these accounts present themselves."
+  - q: "Does a verified badge help an influencer's engagement?"
+    a: "Only in some cases. Across all accounts it made no reliable difference. Its role depended on size: the biggest verified accounts did very well, yet among mid-sized accounts in the tens of thousands, unverified creators drew a much stronger response."
+
+also:
+  - doi: "10.1093/jcr/ucae022"
+    title: "Why Online Consumption Communities Brutalize"
+    authors: "Sibai et al."
+    journal: "Journal of Consumer Research"
+    year: 2024
+    text: >-
+      Three researchers combed through 18 years of exchanges in an online electronic dance music community to learn why some online fan groups
+      turn toxic for good rather than flaring up now and then. They trace lasting hostility to three linked patterns: cruelty staged as fun,
+      feuds between rival camps, and members punishing each other as self-appointed enforcers. Each pattern feeds the others
+      until it becomes part of how the group runs. A brand community moderated one nasty post at a time may leave that
+      machinery untouched.
+  - doi: "10.1002/mar.21999"
+    title: "Social media marketing activities, customer engagement, and customer stickiness: A longitudinal investigation"
+    authors: "So et al."
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      Rather than surveying people once, this team asked the same customers of a brand's social media page three times after
+      they had bought. All three measures moved over time. Engagement at one point predicted how attached people stayed to the
+      page later, and that attachment shaped how they rated the brand's social media activity, yet the activity itself did not
+      directly keep anyone around. For page managers, the job is to get people joining in, not just scrolling past.
+
+charts:
+  tiers:
+    title: "Average engagement rate by account size, human and virtual combined"
+    scale: [0, 8]
+    step: 2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["1,000 to 9,999 followers", 5.43, true]
+      - ["10,000 to 99,999 followers", 5.12, false]
+      - ["100,000 to 999,999 followers", 3.81, false]
+      - ["1 million or more", 6.73, true]
+    source: "Study 2, 393 Instagram influencers. The smallest and largest bands scored reliably above the band just under a million; no other gap was reliable."
+  verified:
+    title: "Average engagement rate by verification status and account size"
+    scale: [0, 8]
+    step: 2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Verified, 1 million or more", 6.83, true]
+      - ["Verified, 100,000 to 999,999", 3.54, false]
+      - ["Verified, 10,000 to 99,999", 1.86, false]
+      - ["Unverified, 10,000 to 99,999", 5.61, true]
+    source: "Study 2, same accounts; the four groups singled out in the authors' follow-up tests. Other combinations are not shown."
+
+related_pages: []

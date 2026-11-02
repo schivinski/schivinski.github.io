@@ -1,0 +1,224 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 10                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-03-04"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: quick-commerce-delivery-time
+status: live
+
+title: "Do late food deliveries cost repeat orders, and do early ones win them back? What a Journal of Service Research study found"
+dek: >-
+  Delivery apps promise dinner within half an hour, and customers hold them to the minute. Ordering data from a European
+  meal delivery firm and an online experiment show that lateness costs more repeat business than earliness earns, and that
+  arriving far too soon is not much of a gift either.
+short_title: "Why a late delivery hurts more than an early one helps"
+
+description: >-
+  Harter et al. tracked two million meal delivery orders: each minute late slowed reordering more than twice as much as a
+  minute early sped it up.
+
+keywords: [quick commerce, food delivery apps, delivery time estimates, late deliveries, early deliveries, customer retention,
+  repurchase behaviour, on-demand delivery, service recovery, customer satisfaction, Journal of Service Research]
+topics: [Service, Retail]
+
+image:
+  file: 2024-quick-commerce-delivery-time.jpg
+  og: 2024-quick-commerce-delivery-time-og.jpg
+  alt: "A delivery rider in a white helmet and black gear on a red scooter with a large box, speeding past blurred city lights at night"
+  caption: "On a delivery app the clock starts at checkout, and customers keep count. Photo: Rowan Freeman on Unsplash."
+
+short_answer: >-
+  Yes, and early arrivals win back less than late ones lose. Across more than two million orders from a Western European
+  meal delivery firm, regular customers took longer to order again after a delivery missed its promised time and came back
+  sooner after one that beat it. Minute for minute, lateness counted for more. A follow-up online experiment showed the effect
+  runs through how satisfied people feel with the delivery time.
+
+takeaways:
+  - "Close to the quoted time, each minute of lateness cut a customer's chance of reordering at any given moment by about 0.18%, while each minute of earliness raised it by about 0.08%: lateness weighed more than twice as heavily."
+  - "The firm already ran ahead of its own promises: 74% of orders beat the quoted time, and the typical order turned up about 7 minutes early."
+  - "Satisfaction carried the effect: every extra point of contentment with the wait went with about two-thirds of a point more on the likelihood of ordering again, both on 11-point scales."
+  - "People privately expected to wait 35 to 37 minutes on average against a 30-minute quote, yet their own guess hardly moved their satisfaction."
+
+paper:
+  doi: "10.1177/10946705241236961"
+  title: "The Effect of Delivery Time on Repurchase Behavior in Quick Commerce"
+  authors: ["Harter, A.", "Stich, L.", "Spann, M."]
+  authors_full: ["Alice Harter", "Lucas Stich", "Martin Spann"]
+  year: 2025
+  journal: "Journal of Service Research"
+  volume: "28"
+  issue: "2"
+  pages: "211-227"
+  online: "2024-03-04"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Alice Harter"
+      affiliation: "LMU Munich School of Management, Ludwig-Maximilians-Universität München, Germany"
+      orcid: "0000-0002-6829-6851"
+    - name: "Lucas Stich"
+      affiliation: "Faculty of Business Management and Economics, Julius-Maximilians-Universität Würzburg, Germany"
+      orcid: "0000-0003-0703-9103"
+    - name: "Martin Spann"
+      affiliation: "LMU Munich School of Management, Ludwig-Maximilians-Universität München, Germany"
+      orcid: "0000-0003-4645-3913"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Study 1: customer-level transaction data from a Western European food delivery firm (2,096,539 orders from 304,407 repeat customers, hazard model); Study 2: 2 x 2 online experiment with 411 adults on Clickworker"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Alice Harter and Martin Spann of LMU Munich School of Management at Ludwig-Maximilians-Universität München, together with
+      Lucas Stich of Julius-Maximilians-Universität Würzburg, looked at the business of getting dinner or groceries to a door within
+      minutes. These apps show an exact arrival estimate the moment you order. They set out to learn how repeat
+      business shifts when the food turns up before or after that estimate, and whether a few minutes either way matter as much as many.
+
+      Their first study used the ordering records of a large Western European company that runs its own restaurants and its own
+      fleet of riders on electric bikes. For every order they knew the time promised at checkout, when the rider set off and came
+      back, and when the same customer ordered next. A survival model, the kind used to predict when an event happens, linked each
+      delivery's lateness or earliness to the wait before the next order.
+
+      Records cannot say why people react as they do, so the second study was an online experiment in the same country. Everyone
+      imagined ordering dinner while hungry, was told it would come in 30 minutes, and then learned it had arrived early or late
+      by a small or a large margin.
+    facts:
+      - ["Study 1", "Orders from January 2019 to March 2021: 2,887,822 in all, of which 2,096,539 came from 304,407 customers who ordered more than once"]
+      - ["Study 2", "411 adults from the same country, recruited on Clickworker; average age 41"]
+      - ["Design", "A 30-minute quote, then arrival 5 or 25 minutes early or late, each person in one of the four versions"]
+      - ["Measured", "Field: days until the customer's next order. Experiment: how pleased people were with the timing, and their stated chance of reordering within 30 days"]
+      - ["Controls", "Order value, discounts, pandemic restrictions, store, hour, weekday and week; distance checked on a subset of 164,970 orders"]
+
+  - h: "Late hurts more than early helps"
+    body: |
+      On average the firm quoted 31 minutes and delivered in 27, so most customers were used to a little slack. Three orders in
+      four landed somewhere between roughly 15 minutes early and 8.5 minutes late.
+
+      Across those orders the pattern was clear even before any modelling. Customers whose order came late left a longer
+      gap before ordering again; those whose order came early returned sooner. The formal model, which held constant the time of
+      day, the store, the size of the order and whether a discount applied, confirmed both directions and showed the two were not
+      mirror images. A minute lost hurt repeat business more than a minute gained helped it.
+
+      The researchers link the imbalance to a familiar bias: losses loom larger than gains, and lost time cannot be made up later. When
+      someone orders because they need something now, a late arrival breaks the very promise they paid for.
+
+  - h: "Why the first minutes matter most"
+    body: |
+      Neither effect grew in a straight line. The minutes closest to the quote moved behaviour most, and each further minute
+      counted for a little less. The authors put it plainly: cutting a 10-minute delay to 5 is worth more than cutting a
+      30-minute delay to 25.
+
+      For late orders, their explanation is that a very long wait looks like a one-off, a storm or a blocked road, and so tells
+      the customer less about the service. For early orders, the benefit tails off because a delivery that comes far too soon can
+      clash with people's plans or make them doubt the food.
+
+      The experiment shows how far that flattening goes. Dinner that came 25 minutes ahead of the quote earned about the same
+      willingness to order again as dinner that came 5 minutes behind it. Punctuality, not raw speed, is what customers seem to reward.
+    chart: reorder
+
+  - h: "Satisfaction with the quoted time is the link"
+    body: |
+      In the experiment, arriving late and arriving far off the quote each made people less happy with the timing, and together
+      they did the most damage: a long delay hurt far more than an equally long early arrival helped. Satisfaction in turn drove how likely
+      people said they were to order again. Once satisfaction was in the model, the plain early or late difference shrank to a
+      marginal effect, while the mix of direction and size kept some direct pull of its own.
+
+      That leaves the estimate on the screen as the yardstick for every delivery. It is something to manage, not just a
+      forecast to publish.
+    chart: satisfaction
+
+  - h: "Where the authors would put the effort"
+    body: |
+      The practical advice follows from the shape of the curve. Dispatch systems should concentrate on preventing delays rather
+      than shaving more minutes off orders that are already ahead. Among late orders, those only slightly behind deserve attention
+      first, since that is where each saved minute buys the most loyalty.
+
+      The same logic reaches back into the kitchen and the warehouse. Rather than cooking and picking strictly in the order tickets
+      arrive, the authors suggest starting with the orders most at risk of a short delay.
+
+      They also question flat compensation rules, such as a voucher that kicks in only once an order passes a fixed number of
+      minutes late. Since small delays already dent repeat business, they propose a graded response: a thank-you or apology for
+      minor lateness, and credit towards a future order when a delivery is badly late.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Measure lateness, not just speed", "Export your last 1,000 orders. For each one, take the arrival time minus the time you quoted at checkout. Count how many came late, how many came early, and how many came more than 15 minutes early."]
+  - ["Give the quoted time an owner", "Name one person who sets the arrival estimate customers see. Review it every week, and agree in advance when to lengthen it, such as on rainy evenings or when the kitchen queue doubles."]
+  - ["Rescue the nearly late orders first", "When riders are stretched, send the next free rider to the order that is about to run a few minutes late. Do not spend extra effort making an early order even earlier."]
+  - ["Rethink the kitchen queue", "Stop preparing orders strictly in the order they came in. At busy times, check the queue every 10 minutes and move the orders closest to missing their quote to the front."]
+  - ["Match the apology to the delay", "For delays of a few minutes, send a short personal message that thanks the customer for waiting. Save credit on the next order for deliveries that are badly late, and give more the longer the wait."]
+  - ["Count the days until the next order", "Each month, compare how many days customers take to order again after on-time, early and late deliveries. Keep the changes that shrink the gap after late ones."]
+
+expect:
+  - "**Small nudges per order.** Regular customers here typically reordered after 17 days. One late delivery stretches that gap a little rather than ending the relationship, so the cost builds up across thousands of orders."
+  - "**An early warning signal.** Because the effect ran through how content people felt with the wait, a one-question rating after each order should move before reorder gaps do. That is our suggestion; the paper did not use ratings as a tracking tool."
+  - "**Moving effort, not adding it.** The case made here is for redirecting riders and kitchen time from orders already ahead to orders just behind, rather than paying for more capacity."
+  - "**A stated reason softens a delay.** Some people in the experiment said traffic or a rush of orders made lateness easier to accept. Telling customers why an order is behind may help, though no such message was tested."
+
+limits:
+  - "**One firm, one country.** Every order analysed came from a single Western European meal delivery company with its own e-bike riders. Grocery apps, other cuisines and other markets may react differently."
+  - "**Regular customers only.** The field analysis covers people who ordered at least twice, so anyone who left for good after one bad first order is missing."
+  - "**Arrival time was estimated.** The firm logged when riders left and returned, so arrival was set at the midpoint of each trip. Results held when that point was moved somewhat earlier or later, and weakened only at extreme settings."
+  - "**Imagined dinners, stated intentions.** The experiment asked people to picture an order and say whether they would order again, and it tried only two gap sizes."
+  - "**No customer profiles.** Length of relationship, personality and the reason for ordering were not available. Over a third of the orders were placed under pandemic restrictions, which the model controlled for."
+
+faq:
+  - q: "What is quick commerce?"
+    a: "Online ordering of meals, groceries and everyday items brought to the door within minutes, usually in under an hour and often with a 15 to 30 minute promise. Unlike parcel shopping, it meets a need the customer has right now, and the app normally shows a precise arrival estimate."
+  - q: "Why would an early delivery annoy anyone?"
+    a: "Because people plan around the quoted time. In an online experiment, some participants said a very early order caught them away from the door, and others wondered whether food that came so fast had been reheated rather than freshly made (Harter et al., 2025)."
+  - q: "Should delivery apps pad their time estimates?"
+    a: "Not proven either way. A cautious quote turns more orders into early ones, which customers liked, but a longer wait shown at checkout might also put some people off ordering at all. That trade-off was not measured, and very early arrivals brought ever smaller gains."
+  - q: "Does the same hold for parcel deliveries?"
+    a: "Not necessarily. Parcel waits run to days and the promise is usually a date window, so expectations are looser. The authors expect weaker reactions there but call for a direct comparison, which has not yet been made."
+
+also:
+  - doi: "10.1002/mar.21989"
+    title: "Will virtual influencers overcome the uncanny valley? The moderating role of social cues"
+    authors: "Gutuleac et al."
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      Two experiments asked how lifelike a computer-generated influencer should look. The more human the character appeared,
+      the more unsettling viewers found it, and that unease dragged down their intentions towards it. In the second experiment,
+      adding social cues weakened the link between realism and unease. Before paying for photorealism,
+      check whether a slightly stylised face would land better with your audience.
+  - doi: "10.1002/mar.21986"
+    title: "Effects of interaction between brand positioning and chatbot conversational style on perceived fit and brand attitudes"
+    authors: "Cheng & Toung"
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      A chatbot speaks for the brand, so its tone has to suit the brand's story. Underdog brands were judged more kindly when their
+      chatbot sounded warm and friendly, and market leaders when theirs sounded competent and businesslike, because the match felt
+      right to customers. People who felt in control of their surroundings liked the competent style from leaders, while those who
+      felt less in control preferred warmth from any brand. A chatbot script deserves the same brand review as a new advert.
+
+charts:
+  reorder:
+    title: "Stated likelihood of reordering within a month, by arrival against a 30-minute promise (1 to 11 scale)"
+    scale: [1, 11]
+    step: 2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["5 minutes early", 9.54, false]
+      - ["25 minutes early", 8.68, true]
+      - ["5 minutes late", 8.74, true]
+      - ["25 minutes late", 4.03, false]
+    source: "Study 2, online experiment, 411 adults in four groups of 102 to 104. Group means as reported in the paper."
+  satisfaction:
+    title: "Satisfaction with the delivery time when dinner was quoted for half an hour (1 to 11 scale)"
+    scale: [1, 11]
+    step: 2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["5 minutes early", 10.53, false]
+      - ["25 minutes early", 8.82, false]
+      - ["5 minutes late", 8.52, false]
+      - ["25 minutes late", 3.32, true]
+    source: "Study 2, same 411 participants. Going from 5 to 25 minutes late cost far more satisfaction than going from 5 to 25 minutes early."
+
+related_pages: []

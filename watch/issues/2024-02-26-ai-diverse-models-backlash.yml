@@ -1,0 +1,212 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 9                       # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-02-26"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: ai-diverse-models-backlash
+status: live
+
+title: "Do AI-generated diverse models put off the people they are meant to represent? What a Psychology & Marketing study found"
+dek: >-
+  Fashion labels can now generate a model of any body, skin tone or identity in minutes. Four experiments show that the
+  communities those models stand in for can read the move as a slight, and that a well-chosen reason only partly repairs it.
+short_title: "Why AI-made diverse models can backfire"
+
+description: >-
+  Sands et al. find a fashion brand's plan to make LGBTQIA+ models with AI, rather than hire them, cut LGBTQIA+ people's
+  liking for the brand by about 29%.
+
+keywords: [AI-generated models, AI fashion models, diversity in advertising, inclusive marketing, LGBTQIA+ marketing,
+  disability representation, authenticity in advertising, sense of belonging, social identity threat, brand motives,
+  Psychology & Marketing]
+topics: [AI, Advertising, Creative]
+
+image:
+  file: 2024-ai-diverse-models-backlash.jpg
+  og: 2024-ai-diverse-models-backlash-og.jpg
+  alt: "A shop window crowded with mannequins in white, beige and brown, seen from behind, with trees and a building reflected in the glass"
+  caption: "Every shade and shape on display, and not one of them a person. Photo: Serhii Tyaglovsky on Unsplash."
+
+short_answer: >-
+  They can. Across four experiments run online with 952 people, LGBTQIA+ adults and adults with disabilities read
+  about a fashion label planning to generate diverse models by computer instead of booking them. They suspected the
+  brand would stereotype them, felt less that they belonged, and liked it less. Framing inclusion as a matter of
+  principle, not profit, softened that reaction only slightly.
+
+takeaways:
+  - "Among LGBTQIA+ readers, liking for the brand fell by about 29%, from 5.37 to 3.79 where 7 is the top score, when its new models were to be made by AI instead of booked through an agency."
+  - "With real models, LGBTQIA+ readers rated the brand 0.87 points higher than heterosexual white men did; with AI-made models the gap shrank to 0.14 points, too small to count."
+  - "Hearing the models would be AI-made raised people's suspicion of being stereotyped by the brand by 1.05 points out of seven, for LGBTQIA+ people and for people with disabilities alike."
+  - "When the label called diversity the right thing to do rather than good for profit, that worry came out 0.53 points lower, which lifted belonging and, through it, liking."
+
+paper:
+  doi: "10.1002/mar.21987"
+  title: "Inauthentic inclusion: Exploring how intention to use AI-generated diverse models can backfire"
+  authors: ["Sands, S.", "Demsar, V.", "Ferraro, C.", "Campbell, C.", "Cohen, J."]
+  authors_full: ["Sean Sands", "Vlad Demsar", "Carla Ferraro", "Colin Campbell", "Justin Cohen"]
+  year: 2024
+  journal: "Psychology & Marketing"
+  volume: "41"
+  issue: "6"
+  pages: "1396-1413"
+  online: "2024-02-26"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Sean Sands"
+      affiliation: "Department of Management & Marketing, Swinburne University of Technology, Hawthorn, Victoria, Australia"
+      orcid: "0000-0001-9192-3676"
+    - name: "Vlad Demsar"
+      affiliation: "Department of Management & Marketing, Swinburne University of Technology, Hawthorn, Victoria, Australia"
+      orcid: ""
+    - name: "Carla Ferraro"
+      affiliation: "Department of Management & Marketing, Swinburne University of Technology, Hawthorn, Victoria, Australia"
+      orcid: ""
+    - name: "Colin Campbell"
+      affiliation: "Knauss School of Business, University of San Diego, San Diego, California, USA"
+      orcid: ""
+    - name: "Justin Cohen"
+      affiliation: "Ehrenberg-Bass Institute for Marketing Science, UniSA Business School, University of South Australia, Adelaide, South Australia, Australia"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 4
+    basis: "Four online scenario experiments on Prolific: Study 1 (370, LGBTQIA+ and heterosexual white men), Study 2 (189 LGBTQIA+), Study 3 (182 people with disabilities), Study 4 (211 LGBTQIA+)"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Sean Sands, Vlad Demsar and Carla Ferraro, three marketing researchers at Swinburne University of Technology in
+      Hawthorn, Melbourne, joined forces with Colin Campbell from San Diego's Knauss School of Business and Justin Cohen from the
+      Ehrenberg-Bass Institute, part of the University of South Australia in Adelaide. Their subject was a promise some
+      fashion labels have started to make. Generative AI can produce lifelike models of any body type, age or skin tone,
+      so a label can show many more kinds of people without booking any of them. When Levi Strauss announced a plan along those lines in 2023, much of the criticism came from the very
+      communities it hoped to include.
+
+      The team asked how members of under-represented groups feel when a brand plans to portray them with AI instead of
+      with real people. Participants read a short magazine piece about Scanlan, presented as a new US fashion label getting
+      ready for a New York fashion festival. In one version Scanlan would source its models through a modelling agency; in
+      the other a tech firm would generate them. No one saw a single picture. People were reacting to the plan alone.
+    facts:
+      - ["Participants", "952 adults recruited on Prolific across four experiments, screened on sexual orientation, gender identity or disability"]
+      - ["Groups", "LGBTQIA+ people (Studies 1, 2 and 4), people with disabilities (Study 3), and heterosexual white men as a comparison (Study 1)"]
+      - ["Brand", "Scanlan, a fashion label described as new, announcing its casting plans for a New York festival"]
+      - ["What changed", "Agency-booked or AI-generated models; in Study 4, whether diversity was called the fair thing to do or good for profitability"]
+      - ["Measured", "Liking for the brand, fear of being stereotyped by it, and feeling one could belong to its community, on seven-point scales"]
+      - ["Checks", "People outside the target group were screened out (14% in Study 2, 17% in Study 3); in every study, readers correctly said where the models would come from"]
+
+  - h: "Real models earned a bonus that AI models threw away"
+    body: |
+      Study 1 gave both groups the same news. With agency models, LGBTQIA+ readers liked Scanlan clearly more than the
+      comparison group did, which is the payoff inclusive casting is supposed to deliver. Once the models were to be
+      generated, that advantage disappeared and the two groups ended up in almost the same place.
+
+      Put simply, AI casting did not merely fail to add goodwill. It cancelled the extra warmth that real representation
+      had earned, and it did so with the very audience the plan was built to court.
+    chart: attitude
+
+  - h: "Why it stings: feeling typecast, then left out"
+    body: |
+      Studies 2 and 3 traced how the reaction builds. One recruited LGBTQIA+ adults; the other recruited people with
+      disabilities, identified with the six standard disability questions used in US government surveys. The two sets of
+      results were strikingly alike. Learning that models of their group would be generated rather than hired made people
+      warier that the brand would typecast them or judge them on their identity. That wariness weakened their feeling that
+      they could be part of the brand's community, and when belonging slipped, so did liking.
+
+      Belonging did most of the damage. Fear of stereotyping did little harm by itself; it hurt by making people feel the
+      label was not for them. The authors read AI-made representation as artificial, and so as a hint that the brand chose
+      to invest less in people like them.
+    chart: routes
+
+  - h: "Does explaining the motive help?"
+    body: |
+      Study 4 kept AI models in every version and changed only the stated reason. In one, Scanlan's release said promoting
+      diversity was the right and fair thing to do. In the other, it said diversity simply made good business sense.
+
+      The values version eased worries about stereotyping, and through that chain it nudged belonging and liking upwards.
+      The authors' advice is to drop any profit argument for diversity altogether and to present inclusion as part of what
+      the brand is, not as something it needs to justify.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Ask the community before you decide", "Before you generate models of any group, talk to ten people from that group. Use customers, staff networks or a community partner. Ask one plain question: how would you feel if this brand showed you with an AI-made model?"]
+  - ["Price real casting first", "Get two quotes for booking real models from that community for one shoot. Put them next to the cost of generating models, so the choice is made on real figures, not assumptions."]
+  - ["Cast real people where identity is the point", "If a campaign exists to show a particular community, hire people from it. Keep generated images for jobs where no one is being represented, such as swapping backgrounds or showing a fabric in more colours."]
+  - ["Give a values reason, not a business case", "If you do use AI-made people, explain why in two plain sentences about what the brand believes. Leave out any mention of growth, sales, reach or cost savings."]
+  - ["Read the first replies yourself", "For three days after the announcement, read the replies from members of the community you featured. Sort them into three piles: welcoming, doubtful and hurt, and answer the hurt ones first."]
+  - ["Track belonging as well as liking", "Put two questions into your next customer survey: does this brand feel like it is for people like me, and would it stereotype me? Ask them again after every campaign that features a specific group."]
+
+expect:
+  - "**A dip beyond the group you meant to include.** Heterosexual white men also liked the label about 19% less when told its models would be generated."
+  - "**The backlash can start with the press release.** People reacted to a description of the plan before any image existed, so expect the debate to begin on announcement day."
+  - "**Wording softens criticism at the margins.** Beyond that one route through lower worry about stereotyping, the gentler reason left belonging and liking where they were."
+  - "**Plan on audiences knowing.** The authors expect regulators to require brands to say when a person in an ad was made by AI."
+
+limits:
+  - "**Plans described, not ads seen.** Everyone read about an intention. Real campaigns with real images were not tested."
+  - "**One label, one occasion.** A fashion brand casting for a festival. Brands with a long record on inclusion, or other categories, may fare differently."
+  - "**Two under-represented groups.** LGBTQIA+ people and people with disabilities took part. Ethnic minorities, older shoppers and other groups were not studied."
+  - "**A light touch on motive.** The two reasons shifted how profit-driven the brand seemed by under a point (2.31 against 2.99, where 7 means driven by profit), and that test had no real-model version for comparison."
+  - "**Attitudes only.** Liking was measured. Buying, recommending and trust were not, and the authors list them for future work."
+
+faq:
+  - q: "Do people dislike fashion brands that use AI-generated models?"
+    a: "Many do, and most of all the people those models are meant to stand for. In three experiments, LGBTQIA+ readers and readers with disabilities thought less of a label that planned to generate diverse models instead of hiring them (Sands et al., 2024)."
+  - q: "What is social identity threat?"
+    a: "The worry that others will judge or pigeonhole you because of a group you belong to. In this research, people rated whether the brand might stereotype them, form its view of them from their identity, or evaluate them unfairly."
+  - q: "Is it enough to explain why we use AI models?"
+    a: "A values-based reason helps a little. Calling inclusion fair and right left people less worried about being pigeonholed than calling it profitable, and that fed through to belonging. Leaving profit out of the explanation is the safer choice."
+  - q: "Didn't other research find that diverse virtual influencers do well?"
+    a: "With general audiences, yes. An earlier paper with several of these authors found broad audiences responded well to computer-made influencers with diverse identities. This paper asked the represented groups themselves and found the reverse, so a campaign can score well on a broad panel and still alienate the community it portrays. Test with both."
+  - q: "Does this apply to avatars and personalised ads?"
+    a: "The authors think it may. Hyper-personalised ads, where AI builds a model who resembles the viewer, and brand characters in the metaverse could leave minority viewers feeling represented on the cheap. Neither format was tested."
+
+also:
+  - doi: "10.1177/10949968231223924"
+    title: "To Tell, Not to Yell: The Effect of Writer's Intents on Readers’ Perceived Helpfulness of Online Product Reviews"
+    authors: "Briers et al."
+    journal: "Journal of Interactive Marketing"
+    year: 2024
+    text: >-
+      This study sorts each sentence of a product review by what its writer is trying to do: pass on information, vent
+      feelings, or push readers to act. Using a coding method that lets one sentence carry several intents, it finds that
+      factual, descriptive sentences make a review more helpful, while emotional outbursts and urgings to buy or avoid make
+      it less so. A review prompt that asks what happened may serve shoppers better than one asking how they felt.
+  - doi: "10.1002/cb.2315"
+    title: "Incentivized fake reviews: When cognitive reappraisal paves the way for an immoral journey"
+    authors: "Malik et al."
+    journal: "Journal of Consumer Behaviour"
+    year: 2024
+    text: >-
+      Why do shoppers agree to post glowing reviews in exchange for free products? Across three studies, people driven by
+      self-focused motives who are skilled at reframing their own feelings felt less guilt about it, and less guilt went
+      with more willingness to write such reviews. The authors suggest reminding people how fake praise misleads other
+      buyers. Free-sample programmes that skip that reminder may be paying for trouble.
+
+charts:
+  attitude:
+    title: "Liking for the fashion label, by who was asked and where its models came from (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["LGBTQIA+, agency models", 5.37, false]
+      - ["LGBTQIA+, AI-made models", 3.79, true]
+      - ["Straight white men, agency models", 4.50, false]
+      - ["Straight white men, AI-made models", 3.65, false]
+    source: "Study 1, 370 adults on Prolific, about half LGBTQIA+ and half heterosexual white men. Both groups marked the label down for AI-made models; the LGBTQIA+ drop was larger."
+  routes:
+    title: "Where the loss of liking came from when models were AI-made (points lost on a 1 to 7 scale)"
+    scale: [0, 1]
+    step: 0.25
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Stereotype fear, then belonging", 0.51, true]
+      - ["Lower belonging alone", 0.84, false]
+      - ["Stereotype fear alone", 0.04, false]
+      - ["Not explained by either", 0.36, false]
+    source: "Study 2, 189 LGBTQIA+ adults on Prolific; paths from the authors' mediation model. The route through stereotype fear alone was not significant; the same routes held in Study 3 (182 people with disabilities)."
+
+related_pages: []

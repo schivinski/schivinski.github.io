@@ -1,0 +1,227 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 16                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-04-23"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: brand-ads-vs-influencers
+status: live
+
+title: "Should you spend on your own social ads or on influencers? What an Australasian Marketing Journal study found"
+dek: >-
+  Most brands now pay for two kinds of social post: ads in their own name and posts from creators. A survey of online shoppers
+  and a real TikTok launch of two Finnish energy drinks suggest they are not rivals. Each is better at a different job.
+short_title: "Brand ads engage, influencers sell"
+
+description: >-
+  Kumar et al. find a brand's own paid social posts win more engagement, while influencer posts sell more, in a 1,050-person
+  survey and a TikTok drinks launch.
+
+keywords: [influencer marketing, brand ads vs influencers, paid social advertising, brand-directed social media marketing,
+  customer engagement, social media sales, TikTok marketing, marketing budget allocation, social media spillover,
+  field experiment, Australasian Marketing Journal]
+topics: [Influencers, Social media, Advertising]
+
+image:
+  file: 2024-brand-ads-vs-influencers.jpg
+  og: 2024-brand-ads-vs-influencers-og.jpg
+  alt: "A young woman holds up a phone on a gimbal to film on a busy street at night, under glowing red and orange neon signs"
+  caption: "A creator reaches fewer people than a paid ad, yet those views kept closer pace with sales. Photo: Sergei Bezzubov on Unsplash."
+
+short_answer: >-
+  It depends on the job. A survey of 1,050 online shoppers and a two-month TikTok launch for two Finnish energy drinks gave
+  the same split. A brand's own paid posts drew more engagement, such as clicks and interest, while posts from influencers did
+  more to move buying. Run in the same weeks, each still did its own job, and both lifted sales in shops the campaign
+  never linked to.
+
+takeaways:
+  - "In the survey, a paid brand ad lifted engagement about 62% more than identical content said to come from an influencer people followed."
+  - "For purchase intent the order flipped: the creator version raised it about 75% more than the paid brand ad."
+  - "On TikTok, each 10% rise in daily influencer views went with roughly 1% more units sold; the same rise in brand-ad views went with about 0.3%."
+  - "Paid brand ads were seen far more often, about 32,400 times a day against about 3,100 for the creators' posts, and were clicked at 0.20% against 0.15%."
+
+paper:
+  doi: "10.1177/14413582241247391"
+  title: "Battle of Influence: Analysing the Impact of Brand-Directed and Influencer-Directed Social Media Marketing on Customer Engagement and Purchase Behaviour"
+  authors: ["Kumar, A.", "Rayne, D.", "Salo, J.", "Yiu, C. S."]
+  authors_full: ["Ashish Kumar", "Daniel Rayne", "Jari Salo", "Ching Sophia Yiu"]
+  year: 2025
+  journal: "Australasian Marketing Journal"
+  volume: "33"
+  issue: "1"
+  pages: "87-95"
+  online: "2024-04-23"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Ashish Kumar"
+      affiliation: "RMIT University, Melbourne, VIC, Australia"
+      orcid: "0000-0002-2754-1937"
+    - name: "Daniel Rayne"
+      affiliation: "RMIT University, Melbourne, VIC, Australia"
+      orcid: ""
+    - name: "Jari Salo"
+      affiliation: "University of Helsinki, Finland"
+      orcid: "0000-0002-4661-2307"   # not printed on the article; his ORCID record lists this DOI
+    - name: "Ching Sophia Yiu"
+      affiliation: "RMIT University, Melbourne, VIC, Australia"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Study 1: online survey of 1,050 shoppers in three groups of 350; Study 2: two-month TikTok field experiment for a Finnish drinks firm; post hoc analyses of Study 2 data and the four pre-study focus groups not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Ashish Kumar, Daniel Rayne and Ching Sophia Yiu of RMIT University in Melbourne, with Jari Salo of the University of
+      Helsinki, took on a question behind almost every social media budget. A brand can pay to put its own posts in people's
+      feeds, or it can pay creators to post about it. Most brands do both, yet earlier research had mostly judged each route on
+      its own. The team set the two side by side on two outcomes: engagement and buying.
+
+      The first study was an online survey of people who shop online, use social media and follow at least one influencer. They
+      were split into three equal groups. One group was only told that a brand was launching a new product. A second saw the
+      launch as a paid ad in their feed. The third saw the same content but was told it had been shared by an influencer they
+      follow.
+
+      The second study moved to a real launch. Soul Maté, a Finnish food and drinks company, introduced two energy drinks on
+      TikTok. For two months it ran paid, targeted ads under its own name while two hired creators posted from their personal
+      accounts. Every post pointed to the same online shop.
+    facts:
+      - ["Study 1", "Online survey of 1,050 shoppers, 350 per group; average age about 43, close to half of them women"]
+      - ["Groups", "No ad; a paid brand ad in the feed; or the ad's content presented as a post from a creator they follow"]
+      - ["Study 2", "Two-month TikTok launch of two energy drinks, Passion Guava and Ginger Lemon, by the Finnish firm Soul Maté"]
+      - ["Creators", "Two hired influencers with more than 82,000 followers, chosen and briefed using four focus groups"]
+      - ["Measured", "Stated engagement and purchase intent in Study 1; daily views, clicks and units sold through one online retailer in Study 2"]
+      - ["Analysis", "Bayesian models; both drinks pooled, with sales modelled from each day's views of each kind of post"]
+
+  - h: "Which kind of post gets attention, and which gets the sale?"
+    body: |
+      Compared with people who saw no ad at all, both kinds of post raised engagement and buying intentions. They did not raise
+      them equally. The paid brand ad produced the top engagement score of the three groups, while the influencer version
+      produced the top buying score.
+
+      Neither a person's age nor their schooling shifted these results. Gender did: the creator version had a stronger pull on
+      women, for engagement and for buying alike.
+
+      The authors explain the split with two ideas. Followers build a one-sided friendship with creators they watch, and see them
+      as people like themselves, so a creator's tip feels like advice from someone they know. A brand's own post is easier to
+      read as a sales pitch. Yet it keeps the brand talking to people directly, with no third party in between, and that seems to
+      be what builds engagement.
+    chart: survey
+
+  - h: "Did the split hold when real money changed hands?"
+    body: |
+      It did. On TikTok the paid ads reached many more people, because the brand could bid for placement, while the creators'
+      posts reached mainly those who visited their feeds. Across the launch, the online shop sold an average of 257 units a day.
+
+      Because every post used one shared link, nobody could see which post produced which sale. The team instead modelled each
+      day's clicks and sales against that day's views from each source. Views of brand ads were tied more closely to clicks, about
+      2.5 times as strongly as views of creator posts. For sales, the order reversed, and the gap was wider still.
+    chart: field
+
+  - h: "Sales the tracking link never saw, and why a tap beats a view"
+    body: |
+      A tracking link counts only one shop. When the team looked at sales through other retailers and physical stores, which the
+      campaign never pointed to, both kinds of post still lifted them, and creators again did more. A tenth more creator views
+      went with about half a per cent more of those outside sales, against about a fifth of a per cent for brand ads, whose effect
+      here only passed a looser statistical bar.
+
+      They also asked whether a view or a click is the better guide to sales. For both routes a click counted for more. The gap was
+      wider for creators: a click on their posts was about 14% more strongly linked to sales than a view, against about 5% for
+      brand ads.
+
+  - h: "How to think about splitting the budget"
+    body: |
+      The practical advice in the paper mirrors that split. If the goal is engagement and a lasting relationship, put money
+      into ads under the brand's own name. If the goal is sales in the near term, creators earn their fee.
+
+      They go a step further and suggest that social media can now carry some of the awareness work once left to mass media,
+      given that its effects reached shops the campaign never mentioned. Keep the scale in mind, though. This was one launch of
+      two low-cost drinks on one platform, so treat the split as a strong starting hypothesis for your own tests rather than
+      a fixed rule.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Give each post one job", "Before you brief anyone, write one line per campaign: is it there to start conversations or to sell? Give conversation goals to your own paid posts and sales goals to creators."]
+  - ["Choose creators who speak to your buyers", "Shortlist three to five creators whose followers look like your customers. Ask each for their audience's age and gender mix, and favour those closest to the people who already buy from you."]
+  - ["Tag every post separately", "Create a separate link or discount code for each creator and for each paid ad. Sales that all land in one bucket cannot tell you which post earned them."]
+  - ["Ask for a tap in every post", "Close each post with a single clear action, such as a shop link, a poll or a code to copy. A tap tells you far more about buying than a view does."]
+  - ["Run both routes in the same weeks", "Launch your paid posts and the creator posts together over four to eight weeks, rather than one after the other, so each can support the other."]
+  - ["Check sales beyond the link each week", "Every Monday, set clicks and coded sales next to sales from stores and other retailers. Move money towards the route that sells more per thousand views."]
+
+expect:
+  - "**Small reach from creators.** Creator posts will likely be seen far less often than ads you bid for, so judge them on sales per view, not on total views."
+  - "**Modest moves.** The links between views and results were real but small, so big swings in views bring gradual changes in sales, not jumps."
+  - "**Brand posts still count.** Some earlier studies found a brand's own social posts losing their pull. Here they lifted both engagement and sales."
+  - "**Discounts still work.** Days with a price promotion sold more on top of the effect of either kind of post."
+
+limits:
+  - "**One launch, one platform.** Everything in Study 2 rests on a single Finnish firm and a pair of hired creators, all on TikTok, over two months."
+  - "**Cheap, everyday products.** Energy drinks are a low-risk buy. Cars, holidays or other considered purchases may favour a different mix."
+  - "**A label, not a real creator.** In the survey the influencer group saw the same content as the brand group, only described as shared by someone they follow. Buying was measured as intention."
+  - "**Sales modelled, not traced.** Both routes sent shoppers to one link, so the split of sales comes from statistical models of daily views, not from tracking each buyer."
+  - "**Survey details sit elsewhere.** The main text gives neither the country the survey ran in nor the range of its rating scales. Both sit in an online appendix that this summary could not draw on."
+
+faq:
+  - q: "Are influencers better than brand ads on social media?"
+    a: "Not across the board. Paid posts in the brand's name drew stronger engagement, whereas creator posts did more for buying plans and for real sales, in both a survey and a TikTok launch (Kumar et al., 2025)."
+  - q: "Should influencer campaigns be judged on views or on clicks?"
+    a: "Clicks. In the TikTok data, days with more clicks predicted sales better than days with more views, for brand ads and creator posts alike, and more so for creators."
+  - q: "Do influencer posts only sell through the link in the post?"
+    a: "No. Purchases in shops and at other sellers, which the posts never linked to, also climbed with views of both kinds of post, and creators pulled harder, so link-based tracking understates their value."
+  - q: "Do women respond differently to influencer marketing?"
+    a: "In this survey, yes. Women scored higher on engagement and on plans to buy whatever they saw, and the gap in favour of creator content was wider for them. Older and younger, more and less educated respondents behaved alike."
+  - q: "Does running brand ads and influencers together waste money?"
+    a: "Probably not. Both ran in the same weeks and each kept its own positive link with clicks and sales, which the authors read as the two working together. Their models did not test for an extra boost from combining them."
+
+also:
+  - doi: "10.1177/00222429241252842"
+    title: "No Comments (from You): Understanding the Interpersonal and Professional Consequences of Disabling Social Media Comments"
+    authors: "Daniels & Wu"
+    journal: "Journal of Marketing"
+    year: 2024
+    text: >-
+      Many influencers switch off comments to shield themselves from abuse. Across seven studies, built on a Twitter dataset and
+      six experiments, audiences thought less of creators who did so and were harder to persuade, because a closed comment box
+      looked like an unwillingness to hear followers, which made the creator seem less sincere. The penalty shrank when people
+      saw a good reason for self-protection. A short note on why comments are closed may soften that cost.
+  - doi: "10.1177/10949968241251694"
+    title: "Getting the Recipe Right: How Content Combinations Drive Social Media Engagement Behaviors"
+    authors: "Lapresta-Romero et al."
+    journal: "Journal of Interactive Marketing"
+    year: 2025
+    text: >-
+      Rather than testing one feature at a time, this analysis of 516 Instagram stories looked at how elements work in
+      combination, using a method that hunts for winning mixes rather than single effects. Four different mixes reached high
+      engagement, which the authors call loud, informative, affective and relational. There is more than one way to build a
+      story that works, so before blaming one element for a weak story, look at the whole blend around it.
+
+charts:
+  survey:
+    title: "Average survey scores by what people saw"
+    scale: [0, 4]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Engagement, no ad", 1.91, false]
+      - ["Engagement, brand ad", 3.52, true]
+      - ["Engagement, influencer post", 2.76, false]
+      - ["Purchase intent, no ad", 1.63, false]
+      - ["Purchase intent, brand ad", 2.91, false]
+      - ["Purchase intent, influencer post", 3.12, true]
+    source: "Study 1, online survey, 1,050 shoppers in three groups of 350; averages from Table 1; scale range not given in the main text."
+  field:
+    title: "TikTok launch: how strongly clicks and units sold tracked each kind of view (elasticity)"
+    scale: [0, 0.12]
+    step: 0.02
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Clicks, brand-ad views", 0.100, true]
+      - ["Clicks, creator-post views", 0.040, false]
+      - ["Units sold, brand-ad views", 0.033, false]
+      - ["Units sold, creator-post views", 0.098, true]
+    source: "Study 2, two months of daily data for two energy drinks, Table 4. Read 0.10 as: one tenth more views, about 1% more of the outcome."
+
+related_pages: []

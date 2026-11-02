@@ -1,0 +1,232 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 15                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-04-16"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: add-to-cart-vibration
+status: live
+
+title: "Does a vibration at add-to-cart make app shoppers happier with their choice? What a Psychology & Marketing study found"
+dek: >-
+  A short buzz as a product drops into the basket is about as small as app design gets. Three experiments in China and the
+  UK suggest it leaves shoppers expecting to like their pick more, without making them any surer they chose well.
+short_title: "The add-to-cart buzz that lifts expected satisfaction"
+
+description: >-
+  Li et al. find a brief phone vibration when an item goes into the basket lifts how satisfied shoppers expect to be, by making
+  the item feel more like theirs.
+
+keywords: [haptic feedback, vibrotactile feedback, m-commerce, mobile shopping app design, add to cart, psychological ownership,
+  anticipated satisfaction, sensory marketing, app user experience, purchase confidence, Psychology & Marketing]
+topics: [Retail, Creative]
+
+image:
+  file: 2024-add-to-cart-vibration.jpg
+  og: 2024-add-to-cart-vibration-og.jpg
+  alt: "A hand with glittery magenta nails hovers over a smartphone lying on a glossy dark table, lit in cool blue"
+  caption: "The tap that adds it to the basket, and the faint tremor back, may be where an item starts to feel like yours. Photo: Rob Hampson on Unsplash."
+
+short_answer: >-
+  Yes, on this evidence, though only on one measure. Across three experiments, shoppers who got a brief vibration as an
+  item went into the basket, or watched one on video, expected to be more satisfied with it than shoppers who got none. They were
+  no more confident they had picked the right product. The buzz seemed to work by giving a sense of handling the item, which
+  made it feel more like their own.
+
+takeaways:
+  - "Among 100 gadget shoppers in the first experiment, whether the phone buzzed explained roughly half (51%) of the spread in expected satisfaction."
+  - "Certainty about the choice stayed flat: it averaged 5.62 without the vibration and 5.68 with it, a gap indistinguishable from chance."
+  - "With 198 people in a UK lab, expected satisfaction rose from 4.91 to 5.56 when the tablet buzzed."
+  - "No new kit was involved: the tests used the roughly 400-millisecond pulse the shopping app already gave when something was added to the basket."
+
+paper:
+  doi: "10.1002/mar.22008"
+  title: "Vibrotactile feedback in m-commerce: Stimulating perceived control and perceived ownership to increase anticipated satisfaction"
+  authors: ["Li, J.", "Cowan, K.", "Yazdanparast, A.", "Ansell, J."]
+  authors_full: ["Jiayuan Li", "Kirsten Cowan", "Atefeh Yazdanparast", "Jake Ansell"]
+  year: 2024
+  journal: "Psychology & Marketing"
+  volume: "41"
+  issue: "8"
+  pages: "1748-1768"
+  online: "2024-04-16"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Jiayuan Li"
+      affiliation: "University of Edinburgh Business School, University of Edinburgh, Edinburgh, UK"
+      orcid: "0009-0002-4669-4266"
+    - name: "Kirsten Cowan"
+      affiliation: "University of Edinburgh Business School, University of Edinburgh, Edinburgh, UK"
+      orcid: "0000-0002-5586-1823"
+    - name: "Atefeh Yazdanparast"
+      affiliation: "School of Management, Clark University, Worcester, Massachusetts, USA"
+      orcid: "0000-0001-7228-7862"
+    - name: "Jake Ansell"
+      affiliation: "University of Edinburgh Business School, University of Edinburgh, Edinburgh, UK"
+      orcid: "0000-0001-6768-6965"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Study 1: supervised experiment with 100 adults in China on a lab iPhone; Study 2: online 2 x 2 video experiment with 400 adults via WeChat; Study 3: 2 x 2 lab experiment with 198 UK adults on an iPad; online pilot survey and pretests not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Jiayuan Li, Kirsten Cowan and Jake Ansell of the University of Edinburgh Business School and Atefeh Yazdanparast of the
+      School of Management at Clark University in Worcester, Massachusetts, looked at a detail of app shopping that few people
+      ever notice. Mobile sales made up about 60% of global e-commerce in 2023, according to market figures the authors cite, and
+      some big shopping apps, Amazon's among them, make the phone give a brief tremor as an item drops into the basket. Earlier studies of whether such
+      buzzes help sales had disagreed, so the team asked a narrower question: does the buzz change how shoppers regard the
+      thing they just picked?
+
+      They ran three experiments, after a pilot survey used only to scope the questions. In the first, held at a hotel in China,
+      everyone used the same iPhone with the Amazon app installed. A research assistant switched vibration on or off at random
+      without saying so, and each person chose an electronics item from a list and added it to the basket.
+
+      The second ran online through WeChat. People watched a video of someone choosing a mug in the app, with or without the
+      vibration, and half then spent a minute imagining the mug at home. The third took place on a UK business school campus,
+      where people shopped for a blanket or a desk lamp on a lab iPad, with vibration on some days and off on others.
+    facts:
+      - ["Study 1", "100 adults, each using the same lab iPhone, run by a research assistant on site with the first author joining by WeChat video"]
+      - ["Study 2", "400 adults, after 28 invalid responses were dropped from 428; the shopping was shown on video"]
+      - ["Study 3", "198 adults on a UK campus using a lab iPad, after 18 of 216 were removed for failed checks or missing answers"]
+      - ["What changed", "Whether the device vibrated as the item entered the basket; Study 2 also asked half to imagine owning the mug, and Study 3 varied the product"]
+      - ["Measured", "Confidence in the choice, how satisfied people expected to be, the sense of owning the item, mood and attention to product details; felt control in Study 3"]
+      - ["Not counted", "An online pilot survey and two pretests, one checking the video method and one the choice of products"]
+
+  - h: "A buzz lifts expectations, not certainty"
+    body: |
+      The opening experiment showed a large gap on one outcome and none at all on the other. People who felt the vibration
+      expected to be clearly more satisfied with their gadget, and they also felt more as if it already belonged to them.
+      Statistical tests showed that this sense of ownership carried part of the effect. Two rival explanations fell away: the
+      buzz did not lift people's mood, nor did it send them back to study the product details.
+
+      Confidence was what stayed put. The authors' explanation is about timing. Shoppers settle whether they have picked the
+      right item at the moment they choose it. The vibration arrives a beat later, once the product is already in the basket,
+      so it can colour their view of the pick but not the pick itself.
+    chart: study1
+
+  - h: "Why a vibration makes a product feel like yours"
+    body: |
+      The idea rests on psychological ownership, the feeling that something is "mine" before any money changes hands. In a
+      shop, lifting an item off the shelf and dropping it into a trolley gives a sense of control over it, and control is one
+      of the classic routes to that feeling. On the authors' account, the tremor on screen stands in for that physical moment.
+
+      The second experiment tested this from another angle. If the buzz works through ownership, then creating ownership some
+      other way should make the buzz redundant. That is what happened. A minute spent imagining where the mug would live raised
+      expected satisfaction for people who saw no vibration, and added nothing for those who did. The exercise itself worked as
+      intended, nudging felt ownership from 5.07 to 5.47 on average.
+
+      The third experiment measured control directly, and the predicted chain showed up. The buzz went with shoppers feeling more
+      in control of the item, that feeling went with a stronger sense of owning it, and ownership in turn went with higher
+      expected satisfaction.
+    chart: prime
+
+  - h: "Where it held and where it wobbled"
+    body: |
+      The UK experiment was built to see whether the result survived a different country, a different device and two very
+      different products. A blanket is something people like to feel before buying; a desk lamp mostly is not. The lift did not
+      differ reliably between the two, and confidence once more refused to move.
+
+      The authors also allowed for personal traits. People with a strong urge to touch products before they buy expected more
+      satisfaction, while those more heavily invested in the purchase expected less, perhaps because they worried more about a
+      wrong choice. The main effect of the buzz held with these traits in the analysis. The full chain from control through
+      ownership to satisfaction grew weaker, though, and passed only a looser statistical test, while the ownership link on its
+      own still stood.
+
+  - h: "Beyond the basket"
+    body: |
+      The authors see uses well past product pages, though they tested none of them. Because the buzz does not rely on touching
+      anything real, they suggest it could suit intangible purchases, such as booking a salon appointment in a beauty
+      retailer's app. For physical shops they picture handheld scanners that pulse as each item goes into the trolley, or a
+      gentle tap on the phone as someone walks out of a checkout-free store. They also mention donations on social media and
+      logging meals or workouts.
+
+      They point out that, unlike showing a hand holding every product, a vibration needs no change to how goods are pictured.
+      We would add a point of our own that the data do not cover: few tests are cheaper for an app team to try. The motor is
+      already in every shopper's pocket.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Check what your app does now", "Open your shopping app on at least two phones, one iPhone and one Android. Add an item to the basket five times and note whether the phone vibrates each time."]
+  - ["Choose the right moment", "Tie the buzz to the moment a product is added to the basket, after the shopper has made the choice. Keep it off the payment button, where a jolt can feel like a sting."]
+  - ["Keep it short and soft", "Use a single tap of under half a second, similar to the phone's own keyboard taps. Ask five colleagues to try it and soften it if anyone calls it annoying."]
+  - ["Help people picture it at home", "Right after the item is added, show one short line that invites the shopper to imagine using it, such as asking where it will go. This also reaches shoppers who keep vibration switched off."]
+  - ["Respect the phone's settings", "Let the buzz follow each shopper's own vibration and accessibility settings. Add a clear switch in the app's settings so anyone can turn it off."]
+  - ["Compare two groups for four weeks", "Switch the buzz on for half of your app users and leave it off for the other half. After four weeks, compare order cancellations, returns and review scores between the two groups."]
+
+expect:
+  - "**A change after the choice, not before it.** Expect the buzz to shape how people feel about an item already picked, not which item they pick."
+  - "**Watching works too.** Seeing the vibration on video rather than feeling it still lifted expectations, from 5.28 to 5.63 on average, a narrower gap than when people held the phone."
+  - "**Touch lovers start higher.** Shoppers who habitually want a feel of things before paying reported higher expected satisfaction overall. Whether they gain more from the buzz was not tested."
+  - "**Fewer cancelled orders is a hope, not a finding.** The authors suggest that shoppers who expect to be pleased may cancel less, since an app order is easy to undo. That link was not checked."
+
+limits:
+  - "**Simulated shopping.** Nobody paid, waited for delivery or used the product, so real satisfaction afterwards is unknown."
+  - "**Borrowed devices.** In the first and third experiments people used a phone or tablet that was not their own, which may have felt unfamiliar."
+  - "**One kind of pulse.** Only the app's default vibration was used. Stronger, longer or patterned buzzes, and how strongly each person sensed it, were not measured."
+  - "**Watching is not feeling.** The largest experiment showed the shopping on video instead of letting people hold the phone."
+  - "**A narrow range.** Electronics, a mug, blankets and desk lamps, in apps only, with Chinese and British shoppers. Websites, smartwatches and other markets may behave differently."
+
+faq:
+  - q: "Does haptic feedback in a shopping app increase customer satisfaction?"
+    a: "It raised the satisfaction shoppers expected from an item in all three experiments, through a sense of control and ownership. Satisfaction after delivery was not measured, and confidence in the choice did not change (Li et al., 2024)."
+  - q: "What is vibrotactile feedback?"
+    a: "The brief vibration a phone, tablet or watch gives in response to something you do. Shopping apps often trigger one when you put something in your basket."
+  - q: "Why would a vibration make someone like a product more?"
+    a: "In a shop, picking something up and putting it in a trolley gives a feeling of control, which makes it feel like yours. A brief vibration at that moment seems to recreate a little of it, and items that feel owned are valued more. Mood and attention were checked and ruled out."
+  - q: "Does the type of product matter?"
+    a: "Not in the UK test. Product type made no reliable difference to the lift, whether people were choosing a blanket, which most like to touch before buying, or a desk lamp, which they mostly do not."
+  - q: "Will a vibration make shoppers buy more?"
+    a: "That was not shown. Earlier studies disagree: one found more items added to a buzzing basket, another found less willingness to spend when the vibration came at payment from a separate device. Timing and placement seem to matter."
+
+also:
+  - doi: "10.1108/ejm-06-2022-0484"
+    title: "Retweet to donate? Cause-related marketing in the era of social medialization"
+    authors: "Kim et al."
+    journal: "European Journal of Marketing"
+    year: 2024
+    text: >-
+      Some brands now give money to a cause each time someone shares a post, instead of each time someone buys. In three
+      experiments, these share-to-give campaigns made people keener to pass the message on than the classic buy-to-give format,
+      because sharing left them feeling able to make a difference. Not naming a cap on the total gift made the effect stronger,
+      and it was largest in cultures with flatter hierarchies. When reach is the goal rather than a sales spike, a share may be
+      the better thing to ask for.
+  - doi: "10.1177/10949968241249660"
+    title: "How Do Implausible Tensile Price Claims Affect Consumer Perceptions of Deceptiveness and Consumer Willingness to Purchase in Online Environments?"
+    authors: "Chang et al."
+    journal: "Journal of Interactive Marketing"
+    year: 2025
+    text: >-
+      Search ads that promise savings of "up to" a headline figure were tested for a global clothing brand on Baidu, China's
+      biggest search engine, and then in two lab experiments. When that figure was too large to believe, more people clicked,
+      but fewer went on to buy once they met the real reductions. The mismatch made the ad feel deceptive, and shoppers left
+      to hunt for other deals. An inflated top discount wins the visit and forfeits the sale.
+
+charts:
+  study1:
+    title: "Electronics shoppers with and without a phone buzz on adding to the basket (average rating)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Felt ownership, no buzz", 5.04, false]
+      - ["Felt ownership, buzz", 5.79, false]
+      - ["Expected satisfaction, no buzz", 4.24, false]
+      - ["Expected satisfaction, buzz", 5.97, true]
+    source: "Study 1, 100 adults in China using a lab iPhone. Both gaps were statistically significant."
+  prime:
+    title: "Expected satisfaction with a mug, by vibration and a one-minute ownership exercise (average rating)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["No buzz, no exercise", 5.12, false]
+      - ["No buzz, imagined owning it", 5.43, false]
+      - ["Buzz, no exercise", 5.64, true]
+      - ["Buzz, imagined owning it", 5.62, false]
+    source: "Study 2, 400 WeChat users who watched the shopping on video. Imagining ownership helped only when there was no buzz."
+
+related_pages: []

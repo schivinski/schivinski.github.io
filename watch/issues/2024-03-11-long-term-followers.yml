@@ -1,0 +1,222 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 11                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-03-11"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: long-term-followers
+status: live
+
+title: "Do long-time followers trust an influencer's sponsored posts more? What a Journal of Current Issues & Research in Advertising study found"
+dek: >-
+  Brands count every follower as the same, whether they joined last week or years ago. A German experiment suggests the bond
+  with a creator takes months to form, and that the newest fans size up a paid post much as strangers do.
+short_title: "Why an influencer's newest followers are slow to be persuaded"
+
+description: >-
+  Breves and Liebers find people who had followed an Instagram creator for at least four months rated them more credible and
+  their paid post more convincing.
+
+keywords: [influencer marketing, long-term followers, parasocial relationships, parasocial interaction, influencer credibility,
+  sponsored posts, Instagram influencers, follower loyalty, choosing influencers, purchase intention,
+  "Journal of Current Issues & Research in Advertising"]
+topics: [Influencers, Social media, Advertising]
+
+image:
+  file: 2024-long-term-followers.jpg
+  og: 2024-long-term-followers-og.jpg
+  alt: "In a dark room, a person holds a glowing white ring light up to their face, so only their eyes and nose show inside the circle"
+  caption: "The light is the same for every viewer. How long they have been watching is not. Photo: Agus Monteleone on Unsplash."
+
+short_answer: >-
+  Yes, once the bond has had time to grow. In an online experiment, 217 Instagram users in Germany viewed an advert from a
+  creator they either did not follow or had followed for a given stretch of time. Those who had been following for four months
+  or longer judged the creator more credible and the post more convincing. Anyone with a shorter history reacted much like
+  someone who did not follow at all.
+
+takeaways:
+  - "Following length accounted for about 25% of the spread in credibility ratings and about 22% of the spread in how absorbed viewers felt by the advert."
+  - "Ten of the 51 long-term followers had reached the deepest stage of attachment, where being a fan is part of who they are. Across the 166 people in the other three groups, just 1 had."
+  - "Mid-term followers were the keenest to buy, 0.94 of a point ahead of the two shorter-standing groups on a scale running from 1 to 7."
+  - "Credibility carried most of the effect on buying plans: the indirect route through trust in the creator was about 6 times stronger than the route through feeling drawn in (0.19 against 0.03)."
+
+paper:
+  doi: "10.1080/10641734.2024.2320186"
+  title: "The Impact of Following Duration on the Perception of Influencers and Their Persuasive Effectiveness Explained by Parasocial Relationship Stages"
+  authors: ["Breves, P.", "Liebers, N."]
+  authors_full: ["Priska Breves", "Nicole Liebers"]
+  year: 2025
+  journal: "Journal of Current Issues & Research in Advertising"
+  volume: "46"
+  issue: "1"
+  pages: "1-18"
+  online: "2024-03-11"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Priska Breves"
+      affiliation: "Amsterdam School of Communication, University of Amsterdam, Amsterdam, the Netherlands"
+      orcid: "0000-0002-4074-8027"
+    - name: "Nicole Liebers"
+      affiliation: "Amsterdam School of Communication, University of Amsterdam, Amsterdam, the Netherlands"
+      orcid: "0000-0003-2730-7152"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One four-group online experiment with 217 Instagram users in Germany; the six-student focus group that helped set the time bands is not a study"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Priska Breves and Nicole Liebers, both of the Amsterdam School of Communication at the University of Amsterdam, questioned
+      a habit of influencer marketing: treating everyone who follows a creator as one kind of fan. Someone who joined last week
+      and someone who has watched for years both count as a single follower. Theory on the one-way attachments people form with
+      media personalities says those two should be in very different places.
+
+      They recruited Instagram users in Germany through social media and gave each person an instruction, assigned at random.
+      Pick a creator you do not follow; one you have followed for up to four months (newer followers); one you have followed for
+      four to twelve months (mid-term followers); or one you have followed for at least a year (long-term followers). Everyone
+      chose from the same line-up of ten well-known German creators, five women and five men.
+
+      Next came a sponsored Instagram post by whichever creator the person had picked. The team had edited a real photo of
+      each creator so they appeared to hold the same chocolate bar, from a brand that gives a matching product to people in
+      need, under an identical caption. Only the face and the name changed.
+    facts:
+      - ["Participants", "269 unpaid volunteers completed the survey; 217 remained after removing those with low self-rated attention or who chose the wrong kind of creator"]
+      - ["Who", "Aged 16 to 39, around half of them university students"]
+      - ["Groups", "Non-followers 79; newer followers 51; mid-term followers 36; long-term followers 51"]
+      - ["Creators", "Ten German Instagram accounts with between 0.7 and 8 million followers each in August 2021"]
+      - ["Measured", "Stage of the bond, how absorbed people felt while viewing, the creator's credibility, opinion of the post and plans to buy, all scored out of seven"]
+      - ["Time bands", "Chosen with the help of a focus group of six students who follow influencers"]
+
+  - h: "Where the shift happens"
+    body: |
+      The clearest pattern was a step rather than a slope. Non-followers and newer followers gave almost identical readings.
+      The two longer-standing groups also looked alike. The jump sat between the two pairs.
+
+      Take the sense of being drawn in while looking at the post, which researchers call parasocial interaction: picturing the
+      creator clearly, catching their mood, wishing you could talk to them. It averaged 3.18 for non-followers and 3.40 for
+      newer followers, rising to 4.16 and 4.18 among the two longer-standing groups.
+
+      Credibility, meaning how honest and competent the creator seemed, took the same shape. Newer followers rated the creator
+      0.80 lower than mid-term followers and a full point below long-term ones.
+    chart: credibility
+
+  - h: "From a convincing post to a plan to buy"
+    body: |
+      Opinions of the advert itself also rose with time spent following. Non-followers found it least believable and convincing,
+      at 3.75. Among the three follower groups the gaps were too small to count as real, although mid-term and long-term
+      followers rated it highest, at 4.85 and 4.79.
+
+      Plans to buy the chocolate bar moved differently. They peaked among mid-term followers and fell back among long-term
+      ones, whose scores were not clearly above those of non-followers. The paper does not explore this dip. One study cannot
+      say whether it is chance or a sign that the oldest fans have grown used to sponsored posts; that second idea is our own
+      guess and was not tested.
+    chart: intent
+
+  - h: "How the bond turns into a sale"
+    body: |
+      The authors lean on a model in which a fan's attachment to a media figure passes through four stages. First comes a
+      surface impression, mostly about looks. Then curiosity, as the follower checks whether that impression holds. Then
+      closeness, when the creator starts to feel like a friend. Finally the bond becomes part of who the follower is.
+
+      Each person's answers placed them in one of those stages. The average stage crept up with following length, but only the
+      long-term group stood clearly apart from strangers and recent arrivals.
+
+      A path analysis then traced how following length reached purchase plans. Both routes ran through opinion of the post:
+      one via feeling absorbed while viewing, the other via the creator's credibility. A longer bond made the creator seem more
+      honest and capable, and that made the advert itself more believable, which in turn lifted plans to buy.
+
+  - h: "What it means for choosing creators"
+    body: |
+      The authors' practical advice is to favour established creators whose communities are loyal and growing steadily over
+      newer names with fast but possibly fickle follower growth. They also urge brands to weigh a creator's trustworthiness
+      and expertise with care before signing anyone.
+
+      Going a step further, and this is our inference rather than something the study measured: a creator who has just gained
+      a wave of followers may have a big audience that still reacts like a crowd of strangers. The comparison was between
+      individual followers, not whole audiences, so the effect of a creator's blend of old and new fans on a campaign remains
+      open. Asking about that blend before signing costs nothing.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Ask how long the audience has been there", "Before you sign a creator, ask for their follower growth over the last 12 months. Look for a steady climb. Treat a sudden spike in the last three months as a warning sign."]
+  - ["Shortlist creators with settled fans", "Keep creators who have posted every week for over 12 months and whose comment sections show the same usernames coming back. Move anyone whose audience doubled lately to the bottom of the list."]
+  - ["Write the brief for the regulars", "Let the creator present the product in their usual voice, setting and running jokes, as they would talk to people who know them. Skip the studio shot and the scripted caption."]
+  - ["Protect the creator's trust", "Pick products that fit what the creator is known for, so they can speak about them with real knowledge. Let them say what they honestly think, including small drawbacks."]
+  - ["Book partnerships, not single posts", "Plan collaborations that run for six months or longer, with posts spread across that time. People who start following during the campaign then get time to warm up before the later posts."]
+  - ["Ask buyers how long they have followed", "Add one optional question at checkout for anyone using the creator's code: how long have you followed them? Offer three answers: under four months, four to twelve months, over a year. Review the split after eight weeks before you rebook."]
+
+expect:
+  - "**Warmth more than a rush to buy.** Even the keenest group averaged under 4, the midpoint, on plans to buy."
+  - "**Bigger shifts in perception than in purchase.** Following length explained only about 5% of the differences in plans to buy, a fraction of its pull on how credible the creator seemed."
+  - "**The post is judged through the person.** Ratings of the creator's credibility and of how believable the post was moved closely together (a correlation of 0.69), so a dent in one is likely to show up in the other."
+  - "**Settled audiences may cost more.** Fees were outside the study. If creators with loyal, long-standing fans charge higher rates, weigh that against the months a newer creator's audience may need to warm up."
+
+limits:
+  - "**Young, mostly female volunteers.** More than four in five were women and the average age was about 22. All were German Instagram users recruited without pay."
+  - "**People chose their own creator.** The time band was assigned at random, but each person then picked a creator to match it, and 48 who picked the wrong kind were left out. The groups did not differ on gender, age or Instagram use, yet other differences cannot be ruled out."
+  - "**One product, one post, one platform.** Everyone saw a single edited Instagram post for a chocolate bar from a giving brand. Pricier products, video content or other apps could work differently."
+  - "**Rough time bands and a new stage measure.** The bands came from a six-student focus group, and the questions used to place people in a stage were assembled for this study. The items for the first stage held together poorly."
+  - "**Plans, not purchases.** Nobody bought anything; buying was measured as stated intention."
+
+faq:
+  - q: "Does following an influencer for longer make their sponsored posts more persuasive?"
+    a: "In this experiment, yes, up to a point. Once people had followed a creator for several months, both the creator and the advert struck them as more convincing than they did non-followers, while recent followers sat close to non-followers (Breves & Liebers, 2025)."
+  - q: "What is a parasocial relationship?"
+    a: "A one-sided bond a person forms with a media figure, such as a presenter or an influencer, who does not know them personally. Parasocial interaction is the in-the-moment version: the feeling of connection while watching or scrolling."
+  - q: "How long does it take for followers to trust an influencer?"
+    a: "A matter of months rather than weeks, on this evidence. The study did not follow the same people as their bond grew; it compared different people in fixed time bands, so it cannot name the month when trust sets in."
+  - q: "Are an influencer's oldest followers the most likely to buy?"
+    a: "Not here. The most enthusiastic buyers were those in the four-to-twelve-month band. Followers past the one-year mark trusted the creator just as much, but their buying plans were not clearly higher than those of non-followers."
+  - q: "Should brands avoid influencers with fast-growing audiences?"
+    a: "The authors advise preferring creators with loyal, steadily growing communities over those with rapid growth. They did not test growth patterns directly; the advice follows from how slowly trust built among individual followers."
+
+also:
+  - doi: "10.1177/00222429241239892"
+    title: "How Own Delivery Services Influence Customer Behavior and Sales in Online Retail? Building Trust and Improving Delivery Quality in Digital Economy"
+    authors: "Wu, Chen, & Naik"
+    journal: "Journal of Marketing"
+    year: 2024
+    text: >-
+      Ten years of purchase records from JD, a large Chinese online retailer, covering 416 cities, show what changed once the firm
+      delivered orders through its own logistics network. Shoppers spent 7.8% more a month and city sales rose by 11.9%. Gains
+      were largest where trust was low, among occasional buyers and in riskier product categories, because the retailer's own
+      couriers both delivered better and made people more confident. The last mile turns out to be part of the brand promise.
+  - doi: "10.1177/10949968241227923"
+    title: "Whether and How Prepurchase Word of Mouth Affects Postpurchase Word of Mouth"
+    authors: "Dao, Bhoumik, & Igarashi"
+    journal: "Journal of Interactive Marketing"
+    year: 2024
+    text: >-
+      When a product lets people down, they are readier to post a complaint if strangers' praise persuaded them to buy than if
+      a friend's did. Across five studies, two reasons came through: buyers think a stranger's glowing review misleads more
+      people, so a warning matters more, and they are reluctant to contradict a friend in public. Rave reviews from strangers
+      can win a sale and, if the product disappoints, a louder critic.
+
+charts:
+  credibility:
+    title: "Perceived credibility of the chosen influencer, by follower group (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Not following", 4.01, false]
+      - ["Up to 4 months", 4.47, false]
+      - ["4 to 12 months", 5.26, true]
+      - ["A year or more", 5.46, true]
+    source: "The single online experiment (N = 217, German Instagram users). Both longer groups scored significantly above the two shorter ones and did not differ from each other."
+  intent:
+    title: "Plans to buy the promoted chocolate bar, by how long people had followed (scored 1 to 7)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Not following", 2.90, false]
+      - ["Up to 4 months", 2.90, false]
+      - ["4 to 12 months", 3.84, true]
+      - ["A year or more", 3.36, false]
+    source: "Same experiment (N = 217). Only the mid-term group scored significantly higher than the two groups with no or short following."
+
+related_pages: []
