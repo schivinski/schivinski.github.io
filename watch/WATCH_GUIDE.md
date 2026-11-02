@@ -280,3 +280,25 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 - **Images** for the tab are named by slug: `watch/images/2025-<slug>.jpg` and `-og.jpg`.
 - **Plan:** watch/PLAN_2025.md lists every slot with its paper (DOI, date, status). Papers planned there are reserved for the
   2025 tab; the live series should not use them.
+
+## The 2024 tab: "2024 in research" (Bruno, 2 November 2026)
+- Built in its own chat ("issues 2024") on exactly the rules of the 2025 tab above, with 2024 in place of 2025:
+  `series: 2024`, `number: N`, `week_of:` = the paper's first-online date in 2024 (publisher page wins), `published:`
+  = go-live date, kicker "Marketing in 3 · 2024 in research · No. N", images `watch/images/2024-<slug>.jpg` and
+  `-og.jpg`, no author emails (author log: "no email (2024 tab)"), kept out of the RSS feed and the home page.
+- 52 issues, open-access (Creative Commons) papers read in full, plus three of Bruno's own papers, written in his first
+  person with one reflective section: Li, Alahmari & Schivinski (PLOS ONE, 23 Jan 2024); Langaro, Loureiro, Schivinski
+  & Neves (Journal of Marketing Communications 30(3), dated by its journal issue of 2 April 2024); Schivinski, Mancuso &
+  Brzozowska-Woś (Scientific Papers of Silesian University of Technology, Organization and Management Series 204,
+  October 2024). Built straight through in batches of about eight (no review gate).
+- **Plan:** watch/PLAN_2024.md lists every slot (DOI, date, status) and the also-new items reserved for each. Papers and
+  also-new items planned there are reserved for the 2024 tab.
+- **Code (2 Nov 2026):** `scripts/build_watch.py` now takes a tuple of look-back years, `LOOKBACK_YEARS = ("2025", "2024")`.
+  Each year gets its own tab at `watch/<year>/` (generated, git-ignored) and "Browse by year" shows 2026 · 2025 · 2024,
+  listing a year only once it has issues. Previous/Next links stay inside each year. To open another year, add it to
+  the tuple, to the listing `exclude: series: [...]` in watch/index.qmd and index.qmd (the array form; a list of
+  separate filters does not work in Quarto), and to .gitignore.
+- **One header for every year (Bruno, 2 Nov 2026):** the year tabs repeat the Marketing in 3 page's header word for word
+  (title, subtitle, description, intro paragraph, subscribe and coffee lines), read from watch/index.qmd at build time,
+  so switching year only swaps the list. This replaces "no intro paragraph" for both year tabs. The browser title,
+  share cards and structured data stay year-specific ("Marketing in 3: 2024 in research").
