@@ -313,8 +313,11 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 - Bruno: "hide the 2024 and 2025 issues. We will release the whole batch when ready." Published builds (PUBLISH=1) now
   leave out every look-back issue whose year is not in `RELEASED_LOOKBACK` in scripts/build_watch.py (empty for now):
   no issue pages, no year tab or "Browse by year" chip, no topic-page, "Keep reading" or llms.txt entries.
-- Keep writing and committing 2025 and 2024 issues as before, with `status: live`; nothing appears on the site until
-  Bruno says release. Then add the year to `RELEASED_LOOKBACK` (e.g. `("2025", "2024")`), build, check and publish.
+- Two locks now hold the look-back years back, and a year goes public only when both are opened: the year must be in
+  `RELEASED_LOOKBACK`, and its issues must be `status: live`. The 2025 chat also set its issues to `status: draft` (see
+  "Held for one batch release" in the 2025 section); 2024 issues stay `status: live` and are held by the switch alone.
+  On release day for a year: add it to `RELEASED_LOOKBACK` (e.g. `("2025", "2024")`), make sure its issues are
+  `status: live` with `published:` set to the release date, then build, check and publish once.
 - Local builds without PUBLISH still show every year, so the tabs can be checked before release. A local PUBLISH=1
   build deletes the hidden years' generated pages in watch/posts/; restore them with `git checkout -- watch/posts/`
   rather than committing the deletions.
