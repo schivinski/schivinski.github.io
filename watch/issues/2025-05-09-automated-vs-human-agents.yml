@@ -1,0 +1,261 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 18                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-05-09"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: automated-vs-human-agents
+status: live
+
+title: "Can robots, chatbots and algorithms stand in for your employees? What a Journal of Marketing study found"
+dek: >-
+  Ask customers and many will say they would rather deal with a person. A meta-analysis of hundreds of experiments shows their
+  words and their actions part ways, and that each kind of machine needs its own conditions to keep up with staff.
+short_title: "When a machine can stand in for your staff"
+
+description: >-
+  Gelbrich et al. pool 327 experiments: customers rate robots, chatbots and algorithms a little below human staff, yet choose and
+  buy from them about as often.
+
+keywords: [automated agents, service robots, chatbots vs human agents, algorithms in customer service, AI customer service,
+  algorithm aversion, chatbot avatar design, naming a chatbot, robots in retail and hospitality, meta-analysis, Journal of Marketing]
+topics: [AI, Service]
+
+image:
+  file: 2025-automated-vs-human-agents.jpg
+  og: 2025-automated-vs-human-agents-og.jpg
+  alt: "A dark delivery robot with two glowing white light bars rolls along a sunlit city pavement towards the camera, workers in orange jackets blurred far behind"
+  caption: "Customers may doubt a machine's warmth and still let it do the job. Photo: Christine Androsova on Unsplash."
+
+short_answer: >-
+  Often, yes, if you judge by what customers do. Pooling 327 experiments, the research team found that people rate automated agents a
+  little below human employees, mostly as less humanlike and less warm, yet their choices and purchases barely differ. Success
+  depends on the machine: a name helps robots and chatbots, chatbots shine with embarrassing purchases, and algorithms falter when
+  a choice is about pleasure or needs an expert.
+
+takeaways:
+  - "Robots took the widest gap in the data on seeming humanlike: 0.64 below human staff, where 0 would mean customers saw no difference."
+  - "Chatbots handling embarrassing purchases came out ahead of people by a predicted 0.28, the clearest win for any machine in the analysis."
+  - "Algorithms almost matched staff on functional purchases, trailing by just 0.08, but fell 0.39 behind when the purchase was about pleasure."
+  - "Bad news travels well by machine: with an unfavourable outcome, robots trailed staff by only 0.05 and algorithms by 0.01."
+
+paper:
+  doi: "10.1177/00222429251344139"
+  title: "Automated Versus Human Agents: A Meta-Analysis of Customer Responses to Robots, Chatbots, and Algorithms and Their Contingencies"
+  authors: ["Gelbrich, K.", "Roschk, H.", "Miederer, S.", "Kerath, A."]
+  authors_full: ["Katja Gelbrich", "Holger Roschk", "Sandra Miederer", "Alina Kerath"]
+  year: 2026
+  journal: "Journal of Marketing"
+  volume: "90"
+  issue: "2"
+  pages: "1-26"
+  online: "2025-05-09"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "Katja Gelbrich"
+      affiliation: "Catholic University Eichstaett-Ingolstadt, Germany"
+      orcid: "0000-0003-0147-3064"
+    - name: "Holger Roschk"
+      affiliation: "Aalborg University Business School, Aalborg University, Denmark"
+      orcid: "0000-0003-2521-8367"
+    - name: "Sandra Miederer"
+      affiliation: "Catholic University Eichstaett-Ingolstadt, Germany"
+      orcid: "0009-0008-5550-3373"
+    - name: "Alina Kerath"
+      affiliation: "Catholic University Eichstaett-Ingolstadt, Germany"
+      orcid: "0009-0008-1282-9592"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 327
+    basis: "Meta-analysis pooling 943 effect sizes from 327 independent experimental studies in 148 articles (281,954 respondents, 2000 to June 2023), with multilevel random-effects pooling and separate meta-regressions for robots, chatbots and algorithms"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Katja Gelbrich,
+      Sandra Miederer and
+      Alina Kerath of the Catholic University Eichstaett-Ingolstadt in Germany, with
+      Holger Roschk of Aalborg University Business School in Denmark,
+      took on a question most service managers now face: when can a machine take over a customer-facing job without
+      customers minding?
+
+      Single experiments comparing a robot, chatbot or algorithm with a human employee have reached clashing verdicts. So the
+      team ran a meta-analysis, a study of studies that combines many results to see which hold up. They kept only experiments
+      that set an automated agent against a person doing the same job, such as serving coffee, answering questions or
+      recommending products. Each machine was sorted into one of three types: robots with a physical body, chatbots that hold
+      a conversation on screen, and algorithms that take an input and return an answer.
+
+      Coders who did not know the hypotheses then rated every study on features that might matter: whether the agent had a
+      name, how human it looked, what kind of intelligence the task called for, and the setting, from awkward purchases to
+      expert advice.
+    facts:
+      - ["Evidence base", "943 effect sizes from 327 experiments in 148 articles, with about 282,000 participants"]
+      - ["Period", "Work published from January 2000 to June 2023, unpublished studies included"]
+      - ["Agents compared", "Robots, chatbots and algorithms, each against a human employee in the same role"]
+      - ["Customer responses", "Impressions of the agent, ratings of the agent and the firm, intentions, and actual behaviour"]
+      - ["Method", "Multilevel random-effects pooling, then meta-regressions run separately for each machine type"]
+
+  - h: "How to read the numbers"
+    body: |
+      Every result here sits on one scale, a correlation-style effect size. Zero means customers responded to the machine just
+      as they did to the person. A negative value means the machine did worse, a positive one that it did better. To keep the
+      page readable, we give the size of each gap and say which way it runs.
+
+      By the rule of thumb the authors follow, 0.1 is a small effect. In the usual convention, which the paper does not spell out, 0.3 counts as medium and 0.5 as large.
+      They treat a machine as equivalent to a person when it trails by 0.1 or less, and as acceptable, worth using if it saves
+      enough, when it trails by between 0.1 and 0.2.
+
+      Across all 943 comparisons, automated agents trailed human staff by 0.127: small, and just past that equivalence line.
+      Robots trailed by the most (0.167), algorithms by the least (0.105), with chatbots in between (0.122).
+
+  - h: "What customers say, and what they do"
+    body: |
+      Split by type of response, a pattern appears. The gaps are widest for impressions of the agent itself: a machine comes
+      across as colder and less humanlike than an employee, and to a smaller degree as less competent. People also rate
+      their exchange with the agent lower. Their opinion of the company behind it slips far less.
+
+      When studies recorded what customers actually did, such as choosing the agent, buying or completing a task, none of the
+      pooled differences was statistically reliable. The authors see scepticism here that stops short of the till.
+      Algorithms held up well enough that they find no sign of a general aversion to them.
+    chart: responses
+
+  - h: "Robots: a name and the right job"
+    body: |
+      Robots carry the heaviest handicap, and the authors trace it to their bodies: anyone can see at a glance that a robot is a
+      machine. Across the robot studies, five design and task features narrowed the gap: a name, a more humanlike look, and tasks that lean on
+      conversation, on finding a way through physical space, or on doing repetitive jobs fast.
+
+      One setting made things much worse. When the encounter touched customers' wish to better themselves, for instance by
+      learning a new skill, robots fell furthest behind. The authors suspect that feedback without empathy stings, above all in
+      public where others can watch, and suggest robot teachers and trainers only in private, at home or in a single booth.
+
+      Two predictions failed. Tasks needing social intelligence made no difference, and embarrassing purchases gave robots no
+      lift, perhaps because other shoppers are usually close by in a physical store. On design, the advice is cheap humanlike
+      touches, such as hair, and otherwise only what the job needs: wheels rather than legs.
+    chart: robots
+
+  - h: "Chatbots: a name, a plain icon and the awkward questions"
+    body: |
+      Chatbots proved the most versatile of the three. Given a name, or a task that relies on fluent language such as
+      recommending products, they reached parity with human staff. The authors judge them acceptable in virtually every
+      condition they modelled, so long as the savings justify the switch.
+
+      Looks are another matter. The more human a chatbot's avatar, the worse customers responded on average, though not in a
+      straight line. A simple icon did best, a stylised or cartoonish figure did worst, and very lifelike avatars won back part
+      of the ground.
+
+      Embarrassing purchases are where chatbots shine, because a machine cannot judge. For goods most shoppers would prefer not to
+      discuss face to face, such as incontinence or diarrhoea remedies, the authors recommend putting the chatbot front and
+      centre and saying plainly that it is anonymous.
+
+  - h: "Algorithms: good with facts, weak on feelings and expertise"
+    body: |
+      Algorithms, from size finders to loan decisions, have no face or voice and do not need one: a name and a look made no
+      difference to them. What mattered was the job. They held up in functional settings, like calculating a distance or
+      forecasting a wait, and in low-expertise roles, like picking a clothing size or selling a ticket.
+
+      In an expert's chair, a doctor's for instance, the gap widened to 0.23. The authors blame rigidity: an algorithm cannot
+      improvise or explain a surprising result the way a specialist can. Contrary to their prediction, tasks heavy on logic and
+      number crunching gave algorithms no extra credit. For risky functional choices, such as insurance or a retirement plan,
+      they still advise keeping a human reachable by live chat or phone.
+
+  - h: "Let machines deliver the bad news"
+    body: |
+      One finding held for every machine type. When the outcome went against the customer, such as a refused loan, a service
+      failure or a worse result than hoped for, the gap between machine and person shrank. People seem to take a no from a
+      machine less personally, because it is following a procedure rather than passing judgement. For chatbots the predicted
+      score even turned slightly positive, at 0.07, still inside the band the authors count as a tie.
+
+      The authors draw two lines. When the message is final, such as a parking ticket or a declined application, machines can
+      spare staff the stress and even the aggression that comes with it. When the firm wants to win the customer back, a robot
+      or chatbot can explain and offer a fix, but should spot strong emotion and hand over to a person. Algorithms lack the
+      conversational skill for that, so the authors rule them out for service recovery.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List the jobs a machine could take", "Write down every customer contact you handle, from taking orders to handling complaints. Tag each one: practical or done for pleasure, routine or expert, awkward for the customer or not, good news or bad."]
+  - ["Match each job to the right machine", "Give repetitive physical work to a robot, conversation and product advice to a chatbot, and quick factual answers, like sizes or wait times, to a simple automated tool. Keep people for expert advice and for purchases made for pleasure."]
+  - ["Give your robot or chatbot a name", "Pick a short first name that is easy to type and to say. Have the agent introduce itself by that name in its first line, and show the name on screen."]
+  - ["Keep the chat face simple", "Use a plain icon in the chat window, not a cartoon character. If you must show a figure, make it look real. For a physical robot, add one or two cheap human touches and skip anything the job does not need."]
+  - ["Hand awkward moments to the machine", "Put the chatbot where people shop for sensitive products and tell them it is anonymous. Let automated agents send routine refusals, but pass any visibly upset customer to a person within two messages."]
+  - ["Judge the switch by what people do", "Run the machine and your staff side by side for four weeks on similar traffic. Compare orders, basket size and repeat visits as well as satisfaction scores, and keep a human option wherever money or health is at stake."]
+
+expect:
+  - "**Customers will notice it is a machine.** Plan for lower scores for the agent itself in feedback surveys, and do not read them as lost sales before checking the orders."
+  - "**Savings carry the case.** The authors cite outside estimates of efficiency gains of up to 30% from chatbots, and treat uses as acceptable only where savings of that kind outweigh a slightly cooler welcome."
+  - "**The gap is closing for digital agents.** Across two decades of studies, newer chatbots and algorithms came closer to human staff. Robots did not show the same progress."
+  - "**Relief for staff, not only cost cuts.** The authors suggest putting machines first where they lift a physical or mental load off employees, such as stacked inquiries, repeat orders or hostile encounters, which also eases the ethics of replacing people."
+
+limits:
+  - "**Mostly imagined encounters.** Seven in ten studies described an encounter for people to imagine; only about 30% involved a real interaction with a machine or a person."
+  - "**A fair contest only.** Every comparison assumed a member of staff was there to serve instead. What happens when staff are scarce, or when the machine comes with a discount, was not tested."
+  - "**Patterns across studies.** The conditions were compared between studies rather than varied within them, so they show where machines did better without proving why. Several rest on coders' ratings of what each task demanded."
+  - "**Narrow geography.** Only 60% of studies said where participants came from, and half of those were in North America."
+  - "**Before the latest wave.** The data stop in June 2023, and the robot studies only begin in 2016. Our own caution: the newest generation of AI assistants is barely represented."
+
+faq:
+  - q: "Do customers prefer human staff to robots, chatbots and algorithms?"
+    a: "Slightly in what they say, and hardly at all in what they do. Customers rated automated agents a little lower than employees overall, but their actual choices and purchases showed no reliable difference (Gelbrich et al., 2026)."
+  - q: "What kind of avatar works best for a chatbot?"
+    a: "Not a cartoon one. Predicted scores were best for the least humanlike look, a simple icon at 0.19 above a person, lowest for a middling stylised figure at 0.23 below, and partly recovered for the most lifelike avatars at 0.07 below."
+  - q: "Is algorithm aversion real?"
+    a: "Not as a blanket rule in this evidence. Algorithms trailed people roughly as far as chatbots did, and less far than robots. Their weak spots were specific: purchases made for enjoyment and roles that call for an expert."
+  - q: "Which tasks suit a service robot best?"
+    a: "Repetitive jobs that reward speed and dexterity, such as hotel room service, standard orders, making coffee or clearing dishes, and jobs built on talking with guests. Cleaning or guiding travellers is acceptable when the savings justify it."
+
+also:
+  - doi: "10.1016/j.jbusres.2025.115403"
+    title: "Self-proximity in augmented reality enhances consumer’s responses to green products through anticipated warm glow"
+    authors: "Lavoye, Petit, Tarkiainen, & Sipilä"
+    journal: "Journal of Business Research"
+    year: 2025
+    text: >-
+      Green products are hard to sell online because their benefits are hard to picture on a screen. Letting shoppers try them
+      on virtually with augmented reality made the products feel closer to the self and more personally relevant. That closeness
+      raised the warm glow people expected from buying, and with it their intention to buy, more for green items than for
+      ordinary ones. A try-on button may say more about a sustainable range than another paragraph on its footprint.
+  - doi: "10.1016/j.jretconser.2025.104313"
+    title: "Unlocking the potential of NFTs in branding: An exploration of NFT-based brand experience"
+    authors: "Li, Corral de Zubielqui, & Rao Hill"
+    journal: "Journal of Retailing and Consumer Services"
+    year: 2025
+    text: >-
+      Brands have used non-fungible tokens in five distinct ways: as storytelling media, identity badges, product access passes,
+      "change medallions" and gamification elements. This study links each role to a type of brand experience, from heritage and
+      community to product focus, collaboration and play, and offers the result as a typology for building brands in Web3. The
+      useful question before minting anything is which of those five jobs the token is there to do.
+
+charts:
+  responses:
+    title: "How far automated agents trailed human staff, by type of customer response (0 = no gap)"
+    scale: [0, 0.4]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Seeming humanlike", 0.380, false]
+      - ["Seeming warm", 0.227, false]
+      - ["Seeming competent", 0.135, false]
+      - ["Rating of the agent", 0.193, false]
+      - ["Rating of the firm", 0.074, false]
+      - ["Intentions toward the agent", 0.217, false]
+      - ["Intentions toward the firm", 0.120, false]
+      - ["Behaviour toward the agent", 0.021, true]
+      - ["Behaviour toward the firm", 0.014, true]
+    source: "All 327 studies pooled (Table 4, automated agents overall). The two behaviour gaps are not statistically different from zero; all the others are."
+  robots:
+    title: "Robots: predicted gap against human staff in different conditions (0 = no gap; 0.1 or less counts as equal)"
+    scale: [0, 0.5]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["No name", 0.229, false]
+      - ["Has a name", 0.017, true]
+      - ["Task needs little talk", 0.300, false]
+      - ["Task needs a lot of talk", 0.094, true]
+      - ["No self-improvement at stake", 0.145, false]
+      - ["Customer trying to self-improve", 0.489, false]
+    source: "Figure 2, robot model (103 studies, 264 effect sizes), other conditions held at their averages. Talk levels are one standard deviation below and above the mean; values read from the published figure."
+
+related_pages: []
