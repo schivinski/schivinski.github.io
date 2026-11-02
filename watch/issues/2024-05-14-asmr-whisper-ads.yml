@@ -1,0 +1,227 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 20                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-05-14"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: asmr-whisper-ads
+status: live
+
+title: "Do whispered ASMR voiceovers help or hurt an ad? What a Journal of Retailing and Consumer Services study found"
+dek: >-
+  Whispered ASMR clips are a YouTube staple, and brands from flat-pack furniture to beer have tried the style. Three experiments
+  that re-voiced the same ads find viewers on average liked the hushed version less, while the minority who feel the tingle warmed to
+  ad and brand alike.
+short_title: "Why whispered ASMR ads split the audience"
+
+description: >-
+  Cohen et al. find a whispered ASMR voiceover made viewers like an ad less in three experiments, hurt an unknown brand, and
+  won over only those who felt tingles.
+
+keywords: [ASMR advertising, ASMR ads, whisper voiceover, sonic branding, sound in advertising, video ad creative,
+  attitude toward the ad, brand attitude, unknown brands, sensory marketing, Journal of Retailing and Consumer Services]
+topics: [Advertising, Creative]
+
+image:
+  file: 2024-asmr-whisper-ads.jpg
+  og: 2024-asmr-whisper-ads-og.jpg
+  alt: "A silver studio condenser microphone in a shock mount beside a round pop filter, lit red and teal in a vocal booth lined with acoustic foam"
+  caption: "The whisper that soothes one listener can grate on the next. Photo: Erwi on Unsplash."
+
+short_answer: >-
+  Mostly they hurt it. Across three online tests involving 771 people, the same video ad was voiced either normally or in a
+  hushed ASMR style. The whispered cut was liked less every time. Two famous brands came through unscathed, but an SUV ad stripped
+  of its branding lost ground as a brand too. The exception was viewers who feel ASMR's tingle: for them, the whisper lifted the
+  mood and the ratings.
+
+takeaways:
+  - "For the chocolate maker, the brand's own rating hardly moved: 5.97 out of 7 after the normal ad and 5.86 after the whispered one, a gap small enough to be chance."
+  - "With all branding removed from the SUV footage, the brand took a hit as well, sliding from 5.00 to 4.59, out of a possible 7, once the voice dropped to a whisper."
+  - "A whisper on its own is a mild cue. Asked how much each ad felt like ASMR, viewers placed the whispered cuts between 3.58 and 3.96 out of 7, against 2.17 to 2.35 for the normal ones."
+  - "Most viewers knew the genre already: between 74% and 78% of each group had heard of ASMR, so only a quarter or fewer were new to it."
+
+paper:
+  doi: "10.1016/j.jretconser.2024.103900"
+  title: "Sonic sensations: Navigating the mixed outcomes of ASMR in retail advertising"
+  authors: ["Cohen, J.", "Sands, S.", "Campbell, C.", "Mavrommatis, A."]
+  authors_full: ["Justin Cohen", "Sean Sands", "Colin Campbell", "Alexis Mavrommatis"]
+  year: 2024
+  journal: "Journal of Retailing and Consumer Services"
+  volume: "80"
+  pages: "103900"
+  online: "2024-05-14"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline and affiliations); ORCID iDs as deposited by the publisher with Crossref
+    - name: "Justin Cohen"
+      affiliation: "Ehrenberg-Bass Institute for Marketing Science, UniSA Business School, University of South Australia, Adelaide, South Australia, 5001, Australia"
+      orcid: "0000-0001-8594-8973"
+    - name: "Sean Sands"
+      affiliation: "Department of Management and Marketing, Swinburne University of Technology, Hawthorn, VIC 3122 Australia"
+      orcid: "0000-0001-9192-3676"
+    - name: "Colin Campbell"
+      affiliation: "Department of Marketing, University of San Diego School of Business, 5998 Alcala Park, San Diego, CA 92101, USA"
+      orcid: "0000-0002-6218-0866"
+    - name: "Alexis Mavrommatis"
+      affiliation: "Department of Marketing, ESADE Business School, Barcelona, Spain"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Three online between-subjects experiments on Prolific (285, 236 and 250 people after attention checks, 771 in all)"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Justin Cohen of the Ehrenberg-Bass Institute for Marketing Science at the University of South Australia, Sean Sands of
+      Swinburne University of Technology, Colin Campbell from the University of San Diego School of Business and Alexis Mavrommatis of ESADE Business
+      School in Barcelona looked at what happens when a brand borrows the hushed style of ASMR videos. On YouTube, ASMR creators
+      whisper into sensitive microphones, tap, rustle and move slowly, and many viewers play the clips to wind down. Brands have
+      followed, yet most earlier studies of ASMR ads recruited people who were already fans.
+
+      So the team tested a broad online audience instead. They took existing video ads, stripped out the soundtrack and had a
+      professional voice artist record the same script twice: once in the ordinary delivery of the original, and once as
+      a soft ASMR whisper. Pictures, words and voice stayed the same; only the delivery changed. Each person saw one version, then
+      rated the ad, the brand, any tingling they felt and their mood.
+
+      The first test used a chocolate ad from a famous Swiss maker. The second used an SUV ad from a large American carmaker. The
+      third reused the SUV footage with the brand name cut from the script and from the opening and closing shots, so viewers
+      were judging a car they could not name.
+    facts:
+      - ["Participants", "Three separate Prolific samples, kept at 285, 236 and 250 after attention checks (771 in all)"]
+      - ["Ads", "Lindt chocolate (23 seconds, male voice); Ford SUV (46 seconds, female voice); the same SUV with all branding removed (29 seconds)"]
+      - ["What changed", "Only the voiceover: spoken normally or whispered in ASMR style by the same artist, over identical pictures"]
+      - ["Measured", "Liking for each ad and its brand, scored 1 to 7; tingling from 1 (none) to 7 (very intense); feelings such as calm, joy and excitement"]
+      - ["Listening", "Speakers required, a quiet room requested and a test clip played first so everyone could set their volume"]
+
+  - h: "The whisper cost the ad in every test"
+    body: |
+      In each experiment the whispered version scored lower, and reliably so, which rules out a quirk of one ad. The drop was
+      steepest for the chocolate ad, the shortest of the three, at more than a full point out of seven, and smallest for the branded SUV.
+
+      Why would a softer voice put people off? The authors point to how unevenly ASMR lands. Earlier research suggests only around
+      28% to 38% of people get the tingle at all. Others enjoy the sounds without any physical response, and some find them irritating or even
+      agitating, in a way that resembles misophonia, a strong aversion to certain noises. Show one ad to all of those people at
+      once and the average reaction tips negative.
+    chart: ad
+
+  - h: "Famous brands came through; a nameless one did not"
+    body: |
+      Disliking an ad does not mean disliking the company behind it. For the chocolate maker and the carmaker, the brand
+      scores for the two versions sat close enough together to be put down to chance. Viewers already had settled views
+      of those names, and one grating spot was not enough to shift them.
+
+      The unbranded SUV was a different story. With no name or badge to lean on, viewers had only the ad to judge by, and the
+      whispered cut dragged the brand down along with it. The authors draw a pointed conclusion: ASMR looks like a poor fit for
+      new or little-known brands, which have no store of awareness and goodwill to soak up the irritation.
+
+  - h: "The viewers who feel the tingle"
+    body: |
+      Hidden inside those averages was a group that responded well. Viewers who felt a physical response to the whisper reported
+      more positive feelings, such as being relaxed, calm, joyful and at ease, and those feelings carried over into warmer views of
+      the ad and of its maker. The chain ran the same way in all three experiments: whisper, then tingle, then good mood, then
+      liking.
+
+      The boost travelling down that chain was modest, and the overall drop in liking outweighed it. So the
+      whisper did not win the room; it won a slice of it. That slice was not tiny. In every group a sizeable minority said they
+      had felt ASMR's physical response at some point, and around twice as many, sometimes more, had watched the videos.
+    chart: tingle
+
+  - h: "What the authors suggest instead"
+    body: |
+      The authors do not write ASMR off. For a brand trying to build warm feelings over the long run, though, they doubt a whisper
+      is the best tool, and they argue for aiming it rather than broadcasting it.
+
+      A wide campaign could use less ASMR in each ad, or open with a short notice so people who dislike the sound can skip it. A
+      tighter route is to offer the ASMR cut on demand, or, as ad technology allows, to let viewers choose which version they
+      hear. They also raise fit: a whisper may suit some products and messages and jar with others, although fit was not
+      measured in these experiments.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Decide what the ad has to do", "Pick a whisper only to catch the ear of people who already enjoy it. If the ad must make strangers like a brand they have never heard of, record a normal voice."]
+  - ["List where the fans already are", "Before planning any spend, write down three places where ASMR lovers gather: channels, playlists or creators they follow. Those are the only places the whispered cut will run."]
+  - ["Record two takes of one script", "Book one voice artist for a single session. Record the script in your usual tone, then again as a quiet whisper held close to the microphone. Keep the pictures and words identical."]
+  - ["Flag the whisper and offer a way out", "Label the whispered cut in its title or first frame, for example \"whisper version, best with headphones\". Wherever the platform allows it, let viewers switch to the normal cut."]
+  - ["Send each cut to its own audience", "Show the whispered cut only in the places on your list. Run the normal cut everywhere else, and never put the whisper in front of a broad audience by default."]
+  - ["Ask three questions after two weeks", "Poll 100 viewers of each cut. Ask if they liked the ad, if they like the brand, and whether the sound relaxed them or set their teeth on edge. Keep the whisper only where both scores match or beat those of the normal cut."]
+
+expect:
+  - "**Memory more than affection.** Earlier work by three of the same authors found whispered ads were remembered better. Put together with this paper, a whisper looks better suited to building awareness than affection."
+  - "**Cheap to try.** The only change in these tests was a second take of the same script by the same voice artist, so on our reading a whispered version adds little to production costs."
+  - "**Sales evidence is thin.** IKEA reported sales about 5% higher, in store and online, during an ASMR-led campaign, according to an earlier study the authors cite. This paper measured attitudes, not sales."
+  - "**The novelty may fade.** The authors think both the attention boost and the irritation could soften if ASMR ads become commonplace."
+
+limits:
+  - "**Whispering only.** The ASMR cue was a whispered voice. Tapping, crinkling, crisp sounds and slow movements went untested, though the authors suspect they could have stronger effects."
+  - "**Two products, three ads, one viewing.** Chocolate and an SUV, each ad seen once. Ad length and placement, from social feeds to television, were not tested."
+  - "**Attitudes, not behaviour.** Nobody's recall, clicks or purchases were tracked."
+  - "**Home listening.** People took part online on their own speakers. The team asked for quiet and ran a sound check, but could not control what each person actually heard."
+  - "**Fit and setting untested.** Whether a whisper suits the product or message was not measured, and the panel's country of residence is not reported."
+
+faq:
+  - q: "Do ASMR ads work?"
+    a: "For a general audience they mostly backfire on liking. A whispered voiceover made people think less of the ad in all three experiments, although it pleased the viewers who feel ASMR's physical response (Cohen et al., 2024)."
+  - q: "What is ASMR?"
+    a: "Short for autonomous sensory meridian response: a pleasant tingling across the scalp and down the neck, with a sense of calm, that some people feel when they hear gentle sounds such as whispering, tapping or crinkling. It ranked as the third most searched topic on YouTube in 2023."
+  - q: "Why do some people dislike ASMR?"
+    a: "Not everyone responds to the triggers. Some people feel nothing, and some feel uneasy, annoyed or even angry, a reaction close to misophonia, which is an intense dislike of particular sounds."
+  - q: "Is ASMR the same as sonic branding?"
+    a: "No. Sonic branding gives a brand a recognisable sound, such as a jingle or audio logo, that becomes part of its identity. ASMR is a bodily response to soft sounds; a brand can borrow its triggers without owning any of them."
+  - q: "Can an ASMR ad damage a brand?"
+    a: "It did when viewers could not tell whose car they were watching: the brand rating fell along with the ad. Where the brand was a household name, people disliked the whispered ad but kept their view of the company."
+
+also:
+  - doi: "10.1108/jrim-06-2023-0183"
+    title: "@Brand-to-@brand: the value co-creating impact of social media interactions on consumer–brand evaluations"
+    authors: "Ross"
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2025
+    text: >-
+      Brands now talk to each other in public, replying under one another's posts. Ross sets out how these
+      exchanges can create value for both parties, then tests the idea in an experiment that varied how familiar the brands
+      were and whether their products fitted together. Watching two brands interact improved how people saw each of them and raised
+      their willingness to engage, with the benefit shared evenly by the pair, while familiarity shaped the size of the effect. A
+      good-natured reply to a peer can be a post that works twice.
+  - doi: "10.1002/cb.2346"
+    title: "Consumers' adoption intention to Metaverse applications: An exploration through fsQCA approach"
+    authors: "Yuan et al."
+    journal: "Journal of Consumer Behaviour"
+    year: 2024
+    text: >-
+      Drawing on a sample of 372 Chinese users of metaverse apps, the authors searched for combinations of conditions that
+      go with a strong intention to adopt, rather than for one decisive driver. Practical factors such as ease of use and privacy,
+      social ones such as interactivity and a sense of presence, and traits such as openness to experience combined in four
+      distinct ways that all led to adoption. There was more than one route to a willing user. Teams building virtual spaces might
+      plan several ways in, each suited to a different kind of visitor.
+
+charts:
+  ad:
+    title: "Liking for the ad, normal voice against ASMR whisper, in each test (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Chocolate, normal voice", 5.34, false]
+      - ["Chocolate, whisper", 4.28, true]
+      - ["Branded SUV, normal voice", 4.07, false]
+      - ["Branded SUV, whisper", 3.53, true]
+      - ["Unbranded SUV, normal voice", 4.25, false]
+      - ["Unbranded SUV, whisper", 3.41, true]
+    source: "Studies 1, 2 and 3 (285, 236 and 250 people); values as printed in the published figures. Higher means better liked."
+  tingle:
+    title: "Share of each group who had watched an ASMR video, and who had ever felt its physical response"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Chocolate, watched ASMR", 75, false]
+      - ["Chocolate, felt the tingle", 40, true]
+      - ["Branded SUV, watched ASMR", 69, false]
+      - ["Branded SUV, felt the tingle", 32, true]
+      - ["Unbranded SUV, watched ASMR", 68, false]
+      - ["Unbranded SUV, felt the tingle", 26, true]
+    source: "Same three studies; each person's own account of their past experience of ASMR."
+
+related_pages: []

@@ -1,0 +1,216 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 18                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-04-29"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: contextual-ads-without-tracking
+status: live
+
+title: "Can AI place relevant ads without tracking people? What a Journal of Current Issues & Research in Advertising review found"
+dek: >-
+  Privacy laws and wary shoppers are pushing advertisers to buy space by what is on the screen rather than by who is looking.
+  Two computer scientists in Sweden map how AI reads a page's subject, mood and grip on its readers, and where that reading still trips up.
+short_title: "Placing ads by the page, not the person"
+
+description: >-
+  Häglund and Björklund review how AI can read a page's topic, mood and reader focus to place ads without personal data, and
+  where automated placement misfires.
+
+keywords: [contextual advertising, contextual targeting, cookieless advertising, programmatic advertising, AI ad placement,
+  privacy-friendly advertising, brand safety, sentiment analysis, reinforcement learning in advertising, third-party cookies,
+  Journal of Current Issues & Research in Advertising]
+topics: [Advertising, AI, Privacy]
+
+image:
+  file: 2024-contextual-ads-without-tracking.jpg
+  og: 2024-contextual-ads-without-tracking-og.jpg
+  alt: "A billboard painted with blue sky and white clouds, seen from below on its rusty steel pole against a real cloudy blue sky"
+  caption: "The best placement makes an ad look as if it belongs where it is. Photo: John Maldonado on Unsplash."
+
+short_answer: >-
+  Partly, and the tools are getting better. This review of advertising and computing research argues that software can now
+  read the page an ad will land on, including its subject, its emotional tone and how absorbed readers are, and bid on that
+  instead of on a person's history. It reports no new data. In the authors' view it works best combined with gentler,
+  privacy-friendly forms of personal targeting, and want people checking what the machines decide.
+
+takeaways:
+  - "Google alone serves about 29.8 billion ad impressions a day across roughly 200 million websites, so judging each page by hand is out of the question."
+  - "Having a large language model label a 750-word article costs a few US cents and takes about 60 seconds, against the roughly 400 milliseconds an ad auction allows, so each article is labelled once and the result reused."
+  - "Personal data keeps its pull: pages with cookies switched off were reported to earn 50% to 80% less from ads."
+  - "In an IAB Europe survey, 80% of advertisers called brand safety a top priority, even though controlled tests of harm from bad neighbouring content are scarce."
+
+paper:
+  doi: "10.1080/10641734.2024.2334939"
+  title: "AI-Driven Contextual Advertising: Toward Relevant Messaging Without Personal Data"
+  authors: ["Häglund, E.", "Björklund, J."]
+  authors_full: ["Emil Häglund", "Johanna Björklund"]
+  year: 2024
+  journal: "Journal of Current Issues & Research in Advertising"
+  volume: "45"
+  issue: "3"
+  pages: "301-319"
+  online: "2024-04-29"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs); the byline gives initials, full given names from the ORCID records
+    - name: "Emil Häglund"
+      affiliation: "Department of Computing Science, Umea University, Umeå, Sweden"
+      orcid: "0009-0005-2356-1286"
+    - name: "Johanna Björklund"
+      affiliation: "Department of Computing Science, Umea University, Umeå, Sweden"
+      orcid: "0000-0003-0596-627X"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level:
+    studies: 0
+    basis: "No level: narrative literature review (116 references) with a conceptual account of AI methods for ad placement and a research agenda; no data of its own"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Emil Häglund and Johanna Björklund, computer scientists at Umeå University in northern Sweden, wanted to connect two
+      bodies of work that rarely meet. Advertising scholars have studied for decades how an ad's surroundings change its
+      effect. Engineers have built the systems that now decide, within milliseconds, which ad goes on which page. The pair
+      set out to explain one side to the other.
+
+      Their paper is a synthesis with no experiment of its own. It first gathers the evidence on which settings help an ad,
+      then describes in plain terms how today's AI methods can read those settings and learn which ones pay. It closes with a list
+      of open questions for researchers.
+
+      They define contextual advertising narrowly: placing an ad according to whatever a person is currently reading, watching
+      or hearing, and nothing about the person themselves.
+    facts:
+      - ["Type of paper", "Narrative review with a conceptual guide to AI methods and a research agenda; no data of its own"]
+      - ["Sources", "116 references, from a 1964 magazine study to 2023 industry reports"]
+      - ["Focus", "Three features of an ad's setting: how well its subject fits the ad, the mood it sets, and reader engagement"]
+      - ["Methods explained", "Topic detection, clustering, sentiment analysis, engagement signals, reinforcement learning, transfer learning and large language models"]
+
+  - h: "Why context is back, and why it will not work alone"
+    body: |
+      Matching ads to their surroundings is old practice. A tent maker advertises in a trail running magazine; a public transport
+      operator rents a billboard beside a jammed motorway. Two pressures have brought the idea back online. Privacy rules such as the GDPR and
+      the California Consumer Privacy Act, plus Apple asking iPhone owners before apps may track them, have made personal data
+      harder to use. At the same time, AI can now read text, images and sound well beyond simple keywords.
+
+      The authors do not expect context to replace tracking. Nearly four in ten advertisers had already cut back on third-party
+      cookies, they note, and they point to Google's broad interest labels, such as "team sports", as a gentler middle ground. Their
+      recommendation is to blend the two. One earlier study they cite shows why: people whose browsing marked them out as likely
+      car buyers clicked a car ad twice as often on a motoring site as on an unrelated one.
+    chart: market
+
+  - h: "Three things on the page that change how an ad lands"
+    body: |
+      The first is relevance. In a classic test, readers saw a car ad that stressed how big the car was. Next to an article about
+      air safety, size read as safety. Next to a piece on oil tycoons, it read as poor fuel economy. The page changed what the
+      same ad meant.
+
+      The second is emotional tone. Cheerful programmes and articles tend to warm people to the ads around them, and an ad that
+      matches the mood of the content can do the same. A dampened mood works differently: after a gloomy radio segment,
+      listeners judged a restaurant ad more critically.
+
+      The third is how absorbed people are. Engaged TV viewers recall ads better, yet absorbed print readers recall them less,
+      perhaps because a TV ad interrupts the show while a print ad waits at the edge of the page. The authors reason that feeds
+      such as TikTok and Instagram, where ads are slotted into the stream, should behave more like TV. Online, one study linked
+      higher involvement to more clicks and purchases, more so beside entertainment and learning content than beside news.
+
+  - h: "How software reads a page and learns where to bid"
+    body: |
+      Publishers tag their articles with broad labels such as sport or lifestyle, but the tags are rough and inconsistent. News
+      filed under "leadership" is often about leaders failing. Software can go further in four ways. Topic detection assigns
+      themes automatically, including abstract ones like relaxation that no single keyword captures, and lets a brand define a
+      niche of its own. Clustering groups similar articles, so a seller of telescopes might find a ready-made cluster about an
+      upcoming solar eclipse. Sentiment analysis labels pages as happy, serious or hopeful, and music services already sell moods
+      such as "chill". Engagement signals, like how long a section stays on screen and how fast people scroll, estimate reader
+      attention. TikTok, for instance, limits contextual targeting to its top 4 percent of content.
+
+      Then the system has to learn which pages pay. Reinforcement learning bids, sees whether the ad was clicked, and adjusts,
+      trial by trial. It needs little prior knowledge, adapts as supply and demand shift, and can stumble on pairings nobody
+      planned; the authors imagine camping gear doing well beside articles on work-life balance.
+
+      Large language models read relevance and tone better still. The authors see copyright, not cost, as their main obstacle:
+      sending a publisher's article to an outside AI service may breach it. Energy use is a further concern.
+
+  - h: "Where automated placement can go wrong"
+    body: |
+      Shallow reading causes bad matches. An article containing "family" is usually a good home for childcare products, until it
+      turns out to be about domestic abuse. The opposite mistake is just as costly: early in the pandemic, brands steered clear of
+      coverage of COVID-19 and news publishers lost advertising income.
+
+      Whether bad neighbours really hurt is less settled than the industry assumes. In one controlled test the authors cite,
+      well-known brands' pre-roll ads ran before terrorist videos on YouTube and people judged the ads no worse, while industry
+      studies claim serious damage. A system that reads pages well could block precisely rather than broadly.
+
+      Fairness is the second worry. Facebook's delivery system has skewed job and housing ads by gender and race even when
+      the advertiser's targeting looked neutral, and has shown ads for science and engineering jobs to fewer women than men. Choosing pages can quietly
+      become a way of choosing people, which makes such bias even harder to spot.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List the pages you want to sit beside", "Write down ten kinds of article, video or playlist where your product answers what the reader is dealing with at that moment. Under that, write five topics that look close by keyword but would be awful neighbours, such as accidents, abuse or layoffs."]
+  - ["Pick one goal and one measure", "Choose a single goal for the campaign: clicks, sales or people remembering the brand. Tell your buyer which one, because an automated bidder learns to chase whatever you ask it to count."]
+  - ["Brief on topic, mood and attention", "Ask your agency or ad platform to target three things: the topics on your list, the tone of the page, and how long readers stay on it. Drop any setting they cannot explain to you in plain words."]
+  - ["Make the same ad in two moods", "Produce an upbeat version for light, entertaining pages and a calmer version with solid reasons to buy for serious ones. People in a low mood look harder at claims, so give them facts."]
+  - ["Read where your ads ran every week", "Open the placement report each Monday and read twenty of the pages your ad appeared on. Block any that clash with your brand and add the good surprises to your list. If you advertise jobs, homes or loans, also ask who saw the ad and fix any group that is missing."]
+  - ["Run page-based buying against your usual targeting", "For four weeks, split the budget three ways: pages only, audiences only, and both together. Compare the cost of each new customer, then move money towards the best line every month."]
+
+expect:
+  - "**A noisy start.** A bidder that learns by trial and error has little to go on in a campaign's first days. Filtering out accidental clicks helps it settle sooner."
+  - "**Your history becomes an asset.** A technique called transfer learning lets results from earlier campaigns give a new one a running start. A brand-new advertiser or product starts further back."
+  - "**Clicks are the easy target.** Automated systems learn fastest on clicks and sales. Brand-building goals need slower feedback, such as recall surveys with an unexposed control group, which cost more to run."
+  - "**Moments, not profiles.** Context reaches people in a state of mind rather than people with a known history. You give up certainty about who sees the ad and gain relevance to what they are doing."
+
+limits:
+  - "**A review, not a test.** The paper brings no new data, and much of the evidence it draws on comes from print and TV, so many online effects remain to be shown."
+  - "**The evidence disagrees in places.** Earlier studies conflict, for example on whether absorbing content helps or hurts memory for the ads beside it."
+  - "**A declared interest.** The second author co-founded a university spin-off selling contextual data. The paper says so and notes that the first author took any sensitive decisions."
+  - "**Culture shifts the reading.** The same page can prime different associations in different countries. White signals purity in the West but death and bad luck in China, so a model trained in one market can misfire in another."
+  - "**The ground has moved since.** Google has since abandoned its plan to phase out third-party cookies in Chrome, and AI prices and speeds change quickly, so some of the review's industry details have dated."
+
+faq:
+  - q: "What is contextual advertising?"
+    a: "Choosing where an ad appears from the content a person is looking at right now, such as an article, video or song, rather than from who they are or where they have browsed. The review leaves out location data, a firm's own customer data and browsing sessions, which some in the industry also call context (Häglund & Björklund, 2024)."
+  - q: "Does contextual advertising need cookies?"
+    a: "Placing the ad does not. Measuring it often does. View-through conversions, which count people who saw an ad without clicking and bought later, and several newer effectiveness measures usually follow people across sites and over time."
+  - q: "How does an AI work out what a page is about?"
+    a: "Older methods count which words occur together and infer topics from them. A large language model can simply be asked which of a few candidate topics best fits the text. Similar tools rate the emotional tone, and behaviour such as reading time hints at how engaged people are."
+  - q: "Can marketers see why the AI chose a placement?"
+    a: "Often not. The neural networks behind many systems are hard to inspect, so they can pick up unfair or odd patterns unnoticed. The authors call for systems that explain themselves in terms marketers understand, and note early attempts that use language models to give reasons."
+  - q: "Is matching ads to content a new idea?"
+    a: "No. Print and TV advertisers have always picked titles and programmes to suit the message. What is new is doing it automatically for every single ad view, with software that reads the content itself."
+
+also:
+  - doi: "10.1177/10946705241245463"
+    title: "The Influence of Market Entry Strategies on the Success of Digital Service Innovations in the Mobility Sector"
+    authors: "Eckert et al."
+    journal: "Journal of Service Research"
+    year: 2025
+    text: >-
+      Using a new database of 325 digital services launched in the mobility sector, the authors looked at three launch choices:
+      when to enter, whether to borrow an established brand name, and whether a home market gives an edge. Arriving early and
+      giving the service a brand of its own, rather than stretching an existing one, went with success. How much those choices
+      mattered depended on how novel the business model was and how crowded the market. A famous parent name may do less for a
+      new app than an identity built for it.
+  - doi: "10.1111/ijcs.13050"
+    title: "The power of online reviews: Exploring information asymmetry and its impact on green product purchasing behavior"
+    authors: "Ikhsan et al."
+    journal: "International Journal of Consumer Studies"
+    year: 2024
+    text: >-
+      An online survey of 479 buyers of green products, recruited through social media, examined what happens when shoppers
+      feel the maker knows more about a product's green credentials than they do. That gap went with rating reviews as higher
+      quality, acting on them more often and buying more green products, and reviews judged better also earned more trust. Reviews fill the space
+      that vague eco-claims leave. A brand with real green credentials has good reason to make detailed reviews easy to write.
+
+charts:
+  market:
+    title: "Estimated worldwide spending on contextual advertising (US$ billion)"
+    scale: [0, 600]
+    step: 100
+    unit: ""
+    decimals: 0
+    bars:
+      - ["2017", 100, false]
+      - ["2022", 200, false]
+      - ["2030 (forecast)", 560, true]
+    source: "Industry market estimates by Research and Markets (2023), as cited in the review; the authors did not collect these figures, and 2030 is a forecast."
+
+related_pages: []

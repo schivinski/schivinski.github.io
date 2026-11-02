@@ -1,0 +1,234 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 13                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-03-31"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: retail-media-off-site-sales
+status: live
+
+title: "Do retail media ads drive sales outside the retailer's website? What a Journal of Interactive Marketing study found"
+dek: >-
+  Brands judge retail media by the sales a retail website reports back to them. Matching a survey of that site's shoppers to
+  their browsing shows more of them read up there and buy somewhere else than buy on the site, and that some ad formats push
+  a far bigger share of their effect to those outside sales.
+short_title: "Retail media sells beyond the retailer's site"
+
+description: >-
+  Zenetti and Pauwels find 17 shoppers research on a retail site and buy elsewhere for every 10 who buy there, and display
+  and video ads tilt furthest off-site.
+
+keywords: [retail media, retail media networks, webrooming, off-site sales, omnichannel advertising, sponsored products ads,
+  upper-funnel advertising, always-on advertising, return on ad spend, machine learning in marketing,
+  Journal of Interactive Marketing]
+topics: [Retail, Advertising]
+
+image:
+  file: 2024-retail-media-off-site-sales.jpg
+  og: 2024-retail-media-off-site-sales-og.jpg
+  alt: "An electronics and appliance shop at night, its window stacked with glowing boxes of heaters, fans and plugs, a potted shrub and a parked motorbike outside"
+  caption: "The reading happens on a retail website. The till often rings somewhere like this. Photo: mdreza jalali on Unsplash."
+
+short_answer: >-
+  Yes, and by more than the retailer's own reports show. At one of the largest online retailers, nearly 42,000 shoppers who had
+  browsed a category said where they then bought. For every 10 who researched and bought on the site, 17 researched there and
+  bought elsewhere. A follow-up on laptops linked several of the site's ad formats to higher sales of the same brands through
+  other channels, with display and video leaning furthest that way.
+
+takeaways:
+  - "Adding the off-site buyers, sales among people who browsed on the site came to about 2.7 times the figure based on on-site purchases alone, if both groups spend the same."
+  - "Of the people who browsed a category, between 11% (audio speakers, tablets) and 21% (microwaves, running shoes) went on to buy it somewhere else."
+  - "Display, video and sponsored display ads earned on average 39% of their sales effect away from the site, about twice the 19% for sponsored product and brand listings."
+  - "13 of the 27 retail media options tested went with clearly higher laptop sales elsewhere, yet brands left them unused in about a quarter of the months."
+
+paper:
+  doi: "10.1177/10949968241246257"
+  title: "Amplifying Off-Site Purchases with On-Site Retail Media Advertising"
+  authors: ["Zenetti, G.", "Pauwels, K."]
+  authors_full: ["German Zenetti", "Koen Pauwels"]
+  year: 2024
+  journal: "Journal of Interactive Marketing"
+  volume: "59"
+  issue: "4"
+  pages: "329-346"
+  online: "2024-03-31"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "German Zenetti"
+      affiliation: "Senior Data Analyst, United Internet AG, Germany"
+      orcid: ""
+    - name: "Koen Pauwels"
+      affiliation: "Distinguished Professor of Marketing, Northeastern University, USA"
+      orcid: ""   # none printed; OpenAlex gives 0000-0002-5975-5980, but that ORCID record does not list this DOI, so no link (guide rule)
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One study as the paper reports it ('this study'): a 2021 survey of 41,946 customers of a large online retailer matched to their clickstream (ten categories, two waves) trains a random forest, which is then applied to monthly ad and browsing data for 12 US laptop brands (March to December 2021) in instrumental-variable regressions; one design in two steps, not labelled as separate studies. A third-party survey for the retailer, mentioned in a footnote, is not the authors' and is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      German Zenetti, a senior data analyst at United Internet AG in Germany, and Koen Pauwels of Northeastern University in
+      the United States looked at a blind spot in retail media. Brands buy ads on big retail websites and judge them by the sales
+      those websites report. Yet plenty of shoppers use a retail site as a free catalogue: they read the specifications and
+      reviews, then buy in a shop or from another seller. None of that appears in the retailer's figures.
+
+      To measure it, the pair worked with one of the largest retail websites. They surveyed customers who had been looking at
+      products in one of ten categories and asked whether and where they had bought since. Each answer was linked, anonymously,
+      to that person's browsing and buying on the site.
+
+      They then trained a machine learning model to predict the outside share from browsing data alone, so the survey would not
+      need repeating for every brand and month. Finally, they turned that model on laptops to see which of the retailer's ad
+      formats went with more sales elsewhere.
+    facts:
+      - ["Shoppers", "41,946 customers of a large online retailer, surveyed in two waves during 2021 and matched to their activity on the site"]
+      - ["Who was asked", "Only people who had opened at least one product page in the category during the previous 90 days"]
+      - ["Categories", "Audio speakers, printers, doll toys, laptops, microwaves, power drills, running shoes, smartphones, tablets and televisions"]
+      - ["Model", "A random forest fed with browsing, brand, price and ad data for 82 combinations of brand and survey wave"]
+      - ["Ad analysis", "12 major laptop brands in the United States, month by month from March to December 2021, set against their spending on each of the retailer's ad options, from banners and video to sponsored listings"]
+      - ["Measures", "ROPES, the share of a category's on-site browsers who buy a given brand elsewhere, and the amplifier ratio, off-site buyers per on-site buyer"]
+
+  - h: "How much of the buying happens elsewhere?"
+    body: |
+      Taken together, the ten categories had more people browsing on the site and buying elsewhere than browsing and buying
+      there. The authors call the ratio between those two groups the amplifier ratio, because a brand can scale up its on-site
+      sales by it to see the whole picture.
+
+      The ratio swung widely between categories. Televisions, smartphones and laptops showed the biggest spill. Doll toys were the
+      one category where buyers on the site clearly outnumbered buyers elsewhere. Brand by brand the spread was wider still: one
+      audio speaker brand had 18 outside buyers for each buyer on the site.
+
+      Counted against everyone browsing rather than against buyers on the site, printers came close to the top, with almost one
+      browser in five buying elsewhere. Earlier research offers a reason: reading up online lowers the risk of a technical
+      purchase, while products people want to try on, such as running shoes, send them to a shop once the reading is done.
+    chart: spill
+
+  - h: "Can a retailer estimate it without endless surveys?"
+    body: |
+      Surveying every brand every month is not practical. So the authors trained a random forest, a machine learning method that
+      combines many decision trees, to predict a brand's outside share from what the retailer can already see. They tested it
+      three ways: on a category left out of training, on a later survey wave, and on a brand left out of training.
+
+      The predictions held up. In about 92% of cases the predicted share was statistically indistinguishable from the surveyed
+      one, and the two correlated at 0.83 overall. The later survey wave was predicted best of all.
+
+      The strongest predictors were signs of a brand's strength on the site, led by its share of the category's sales and buyers.
+      Price counted too, including how the site's price compared with prices elsewhere. A shopper's own history on the
+      site, such as past spending, predicted little.
+
+  - h: "Which ad formats send buyers elsewhere?"
+    body: |
+      For laptops, the authors linked each brand's monthly spending on the retailer's ad formats to its predicted sales elsewhere.
+      They used a statistical technique meant to separate the ads' effect from the simple fact that brands advertise more when they
+      expect to sell more, as around back-to-school season. Nearly every option pointed the same way, and the ads lifted outside
+      sales by 10% or more for over two-thirds of the brands.
+
+      The split between gains on and off the site is the practical part. Every format did more for sales on the retailer's own pages.
+      But formats that reach people while they are still browsing, such as display banners and online video, earned a far bigger
+      slice of their effect outside. Sponsored listings for single products or brands, shown in search results to people close
+      to buying, kept most of theirs on the site. Keeping an ad switched on all the time, instead of in bursts, tilted the gains
+      slightly further towards other channels.
+    chart: formats
+
+  - h: "Rethinking how retail media is scored"
+    body: |
+      Retail sites normally base their return on ad spend figures on their own checkout alone. The authors suggest brands treat the
+      amplifier ratio as a correction to that number. It is a rough one, they note: it assumes ads drive outside purchases the
+      way they drive on-site ones, and that people pay about the same price in both places.
+
+      Their wider point is that a big retail site works as a billboard as well as a checkout. They also think the spill grows at
+      retailers with more trusted reviews, richer product information and a bigger share of shoppers' searches. That idea
+      was not tested here, since the data came from one retailer.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Ask buyers where they looked first", "Write a short poll for people who bought from you in the last month. Ask where they bought and whether they checked the product on a big retail website beforehand. Send it to at least 300 of them across all your channels."]
+  - ["Work out your own multiplier", "From the poll answers, count the people who looked on the retail site and bought elsewhere. Divide that by the number of buyers on the site. Multiply the return the retailer reports by one plus that figure before you judge a campaign."]
+  - ["Make every product page do the selling", "Fill each listing with full specifications, at least five clear photos and a short comparison with your other models. Ask recent buyers for reviews until every page carries at least ten."]
+  - ["Fund formats for early browsers", "Move part of your retail media budget from sponsored search listings into display and video placements that reach people who are still comparing. Start with one dollar in ten and review it after three months."]
+  - ["Keep your main ads running", "Run your core formats every day for at least three months instead of in short bursts around sales events. Check each month that no product line has gone dark."]
+  - ["Read all your channels together", "Each month, put sales on the retail site next to sales in your own shops, at other retailers and on your website. Look for the months when retail site advertising rose and the other channels rose with it."]
+
+expect:
+  - "**On-site reports undersell early-stage ads most.** Display and video earn more of their return away from the site, so a retailer's dashboard flatters sponsored listings by comparison."
+  - "**Good listings may pay twice.** How much shoppers looked at a brand's pages on the site helped predict how many bought it elsewhere. That hints at listings serving shops as well as the site, though it was not tested as cause and effect."
+  - "**Measurement can be built once and reused.** Surveys in a handful of categories, fed into a model, can stand in for constant polling, as long as they are refreshed when shopping habits shift."
+  - "**Wider distribution, bigger spill.** The authors expect brands with their own shops or broad stockists to gain most from this effect, and brands sold almost only on the site to see little. They did not test this."
+
+limits:
+  - "**Outside purchases were self-reported.** People recalled where they had bought in the four weeks before the survey. Their answers about buying on the site matched the retailer's records in over 90% of cases, but purchases made elsewhere could not be checked."
+  - "**Laptops only for the ad findings.** The format comparison rests on one category and on leading brands, using predicted rather than counted outside sales. Smaller brands may behave differently."
+  - "**Links, not proof.** The ad effects come from statistical controls rather than a randomised test, and for three sponsored-product measures a check on the method's assumptions failed. The authors call for A/B tests."
+  - "**One retailer, one year.** All the data came from a single large retailer in 2021, late in the COVID-19 pandemic, and the surveys skipped the November and December rush. The retailer also supported and funded the research."
+
+faq:
+  - q: "Do retail media ads increase sales in physical stores?"
+    a: "They appear to, although the retailer's own site gains more. When laptop brands advertised on a large retail website, their estimated purchases in shops and from other sellers rose as well, and no format moved more sales away from the site than onto it (Zenetti & Pauwels, 2024)."
+  - q: "What is webrooming?"
+    a: "Researching a product online and then buying it somewhere else, often in a physical shop. It is the reverse of showrooming, where people look in a store and buy online, and earlier research finds webrooming the more common of the two."
+  - q: "What does ROPES mean?"
+    a: "Research on-site, purchase elsewhere share. Of all the shoppers who browsed a category on a retail site, it is the share who bought a given brand somewhere else. It shows how much of a category's browsing a brand turns into sales outside the site."
+  - q: "How can a brand estimate off-site sales without a huge survey?"
+    a: "Survey a few categories about where browsers bought, then train a model on the retailer's browsing data to fill in other categories, brands and months. In this paper's tests the model's estimates stayed close to the survey figures in all three settings."
+  - q: "Which retail media ads are best for sales outside the retailer?"
+    a: "Formats that reach people early in their search, such as display and video, and ads that run continuously rather than in bursts. Always-on online video had the largest outside share among the options with clear effects. Sponsored listings for products and brands mostly pay off on the retail site, close to the moment of purchase."
+
+also:
+  - doi: "10.1057/s41270-024-00294-2"
+    title: "Data-driven budget allocation of retail media by ad product, funnel metric, and brand size"
+    authors: "Qin et al."
+    journal: "Journal of Marketing Analytics"
+    year: 2024
+    text: >-
+      Drawing on marketplace data for 122,000 brands, this paper follows how ad and retail actions move shoppers from noticing a
+      brand to considering it and then buying it. Small brands gained most from new launches and from retail media aimed at the
+      top of the funnel, while mid-sized and large brands got more from ads placed near the purchase. Fresh reviews, discounts,
+      negative keywords and geographic targeting helped at every stage. A brand's size, not habit, should decide where the
+      retail media money goes.
+  - doi: "10.1287/mksc.2021.0293"
+    title: "Do Sellers Benefit from Sponsored Product Listings? Evidence from an Online Marketplace"
+    authors: "Joo et al."
+    journal: "Marketing Science"
+    year: 2024
+    text: >-
+      A large field study on a marketplace's mobile app, drawing on randomised tests and on natural shifts in where products
+      appeared, found that shoppers favoured a product shown as an ordinary listing near the top of the results over the same
+      product in the same spot marked as sponsored. Further down the page the label stopped mattering. The likely reason is trust:
+      a high organic rank reads as earned, a paid one as bought. A simulation still suggests a seller may gain by paying to lift a
+      product from deep in the results to the top, so paid placement earns its keep for items that would otherwise sit out of sight.
+
+charts:
+  spill:
+    title: "Researched on the site but bought elsewhere, per 10 on-site buyers"
+    scale: [0, 40]
+    step: 10
+    unit: ""
+    decimals: 0
+    bars:
+      - ["All ten categories", 17, true]
+      - ["Televisions", 37, false]
+      - ["Smartphones", 26, false]
+      - ["Laptops", 24, false]
+      - ["Printers", 19, false]
+      - ["Running shoes", 12, false]
+      - ["Tablets", 10, false]
+      - ["Doll toys", 5, false]
+    source: "Survey of 41,946 retailer customers in 2021, amplifier ratio times ten; seven of the ten categories shown. Laptops and smartphones are from the first survey wave; in the second they stood at 19 and 21."
+  formats:
+    title: "Share of each laptop ad format's total sales lift that came from purchases off the site (%)"
+    scale: [0, 50]
+    step: 10
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Online video, always on", 44, true]
+      - ["Display ads, days running", 42, false]
+      - ["Sponsored display, always on", 39, false]
+      - ["Sponsored display, days running", 33, false]
+      - ["Sponsored products, always on", 21, false]
+      - ["Sponsored products, days running", 21, false]
+      - ["Sponsored brands, always on", 17, false]
+      - ["Sponsored brands, days running", 16, false]
+    source: "Laptop analysis, 12 major US laptop brands, monthly data March to December 2021; 8 of the 13 options with clear effects, values from the published figure. Online video excludes streaming TV; 'days running' counts days a format was live in the month. The rest of each lift was on the retailer's site."
+
+related_pages: []

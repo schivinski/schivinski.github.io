@@ -1,0 +1,224 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 21                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-05-27"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: freemium-churn-signals
+status: live
+
+title: "Which paying subscribers are most likely to cancel a freemium plan? What a Journal of Consumer Behaviour study found"
+dek: >-
+  On a freemium platform most of the money comes from the members who pay. The records of more than 20,000 premium members of a
+  horse-sport information service show which of them were likeliest to walk away, and which habits went with staying.
+short_title: "The early signs that a paying member will cancel"
+
+description: >-
+  Lehmann-Zschunke finds freemium members on six-month plans or back after cancelling are likeliest to quit, while email
+  opt-ins and keen viewers stay.
+
+keywords: [freemium churn, subscription cancellation, premium subscribers, customer retention, churn prediction,
+  freemium business model, subscription length, email opt-in, digital platforms, content engagement,
+  Journal of Consumer Behaviour]
+topics: [Service, Retail]
+
+image:
+  file: 2024-freemium-churn-signals.jpg
+  og: 2024-freemium-churn-signals-og.jpg
+  alt: "A rider in a red jacket and black helmet clears a blue and orange fence on a dark bay horse, under a blue sky with a white marquee behind"
+  caption: "The members who kept watching rounds like this one were the ones who kept paying. Photo: Sergey Semin on Unsplash."
+
+short_answer: >-
+  Watch four signals. In the records of 20,319 paying members of a freemium platform about horse sport, people who picked
+  a six-month plan instead of a year, or who had cancelled before and come back, were the likeliest to quit. Members who
+  had said yes to email updates, and those who watched more of the paid videos, were the likeliest to stay. Paying by
+  direct debit, surprisingly, went with more cancelling.
+
+takeaways:
+  - "Members who chose a six-month plan over a full year had about 2.2 times the odds of cancelling (odds set the chance of leaving against the chance of staying)."
+  - "People who had cancelled a premium plan before and later rejoined were the riskiest group, with about 2.4 times the odds of quitting again."
+  - "Agreeing to the newsletter and new-content alerts went with 39% lower odds of cancelling."
+  - "Of the 10 factors in the final model, video viewing gave the clearest read on who would stay, with a statistical signal about twice as strong as plan length, the runner-up."
+
+paper:
+  doi: "10.1002/cb.2363"
+  title: "What factors influence termination behaviour on freemium platforms? An empirical analysis of the termination probability among paying users"
+  authors: ["Lehmann-Zschunke, N."]
+  authors_full: ["Nina Lehmann-Zschunke"]
+  year: 2024
+  journal: "Journal of Consumer Behaviour"
+  volume: "23"
+  issue: "5"
+  pages: "2599-2610"
+  online: "2024-05-27"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Nina Lehmann-Zschunke"
+      affiliation: "Department of Marketing, University of Hagen, Hagen, Germany"
+      orcid: "0000-0003-3124-3059"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival dataset: logistic regression on the records of 20,319 paying members of one freemium horse-sport information platform, subscriptions begun in 2018 and tracked to the end of 2019"
+
+sections:
+  - h: "What the researcher did"
+    body: |
+      Nina Lehmann-Zschunke, a postdoctoral marketing researcher at the University of Hagen in
+      Germany, took on a question every subscription business lives with: which paying customers are about to leave?
+      The setting was the freemium model, where a basic version costs nothing and a premium tier unlocks the rest. The
+      paid tier brings in most of the revenue, so every cancellation hurts, even when the person only slips back to the free version.
+
+      Earlier freemium research leaned on free-to-play games, which have no contract to cancel. An earlier paper by
+      Lehmann-Zschunke and a colleague had tracked cancellation rates week by week. This time the analysis went down to
+      the individual member.
+
+      The data came from an online service about sport and breeding horses, offering pedigrees, show results and videos of
+      competitions and breeding events. Riders, owners and breeders can link horses to their profile, and their own rounds
+      then appear there. Seeing those results and videos needs a paid membership, so some members were, in effect, paying
+      to watch themselves.
+    facts:
+      - ["Platform", "An online information service on sport and breeding horses; much of it is locked without a subscription"]
+      - ["Members", "20,319 people whose premium subscription began in 2018, each on a plan of 6 or 12 months"]
+      - ["Outcome", "Whether each member cancelled the current subscription, followed to the end of 2019"]
+      - ["Why that window", "Prices did not change, and the pandemic had not yet emptied the events calendar that feeds the site"]
+      - ["Factors tested", "Membership details, involvement (email consent, linked horses, videos featuring the member) and activity (profile edits, videos watched)"]
+      - ["Method", "Logistic regression, with bootstrapping as a robustness check; results did not shift"]
+
+  - h: "Who was likeliest to cancel"
+    body: |
+      Over the period, about one member in six cancelled. Two features of the membership stood out.
+
+      The first was plan length. Members could pay for six months or for twelve, and roughly a quarter took the shorter
+      option. Those short-plan members cancelled far more often.
+
+      The second was history. Eight in every hundred members had held a premium plan before, cancelled it and later signed
+      up again. These returners were the group most likely to quit.
+
+      Other membership details mattered less. People who had first registered on the site more recently were slightly
+      likelier to cancel, a weak link. Whether someone was a brand-new subscriber or renewing made no measurable difference,
+      even though new sign-ups made up nearly three quarters of the total.
+    chart: membership
+
+  - h: "What went with staying"
+    body: |
+      On the other side were signs of involvement. Close to two thirds of members had agreed to receive the newsletter and
+      notices about new content, and they were noticeably less likely to cancel than those who had not.
+
+      Watching mattered most. Members viewed about 80 videos each on average during the period, and the more they watched,
+      the lower their chance of leaving. Members with more videos of themselves or their horses on their profile were also
+      more likely to stay.
+
+      Two other measures said little. The number of horses linked to a profile pointed towards staying, but not clearly
+      enough to count. Editing profiles showed no reliable link, which the author puts down to free users being able to do it
+      too: it was not something people were paying for. Profile visits had to be left out of the model because they tracked
+      video viewing too closely (a correlation of 0.65) for the two to be told apart.
+    chart: involvement
+
+  - h: "Why did direct debit go with more cancelling?"
+    body: |
+      One result came out the opposite way to the prediction. People who pay by card or by bank transfer notice the
+      money going each time, so they were expected to feel the cost more sharply and quit sooner. The reverse happened: they had 36% lower odds of
+      cancelling than direct-debit payers.
+
+      Direct debit was the norm, used by 87 members in every 100, so the other group was small. The result does echo earlier
+      work in which card payers turned out to be worth more over their lifetime. Why it happened was not tested. A question
+      worth asking of your own records, which the paper does not take up: when a manual payer simply stops paying, is that
+      logged as a cancellation at all?
+
+  - h: "Turning the signals into a warning list"
+    body: |
+      The practical use is early warning. A provider can see plan length, past cancellations, email consent and viewing for
+      every member long before renewal, and Lehmann-Zschunke suggests treating members who look poor on these as at risk.
+
+      The suggestions that follow are concrete. For short-plan members, offer an extension on a short term at a reduced
+      price. Win as many email and alert sign-ups as possible. Build involvement through contests,
+      rankings or a personal avatar on the profile.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Pull four details for every paying member", "Export your paying members with four facts each: plan length, whether they cancelled before and came back, whether they accept your emails, and how often they opened the paid content over the past month."]
+  - ["Build a simple risk flag", "Flag a member when two or more of these are true: a short plan, a past cancellation, no email consent, little or no paid use that month. Send the flagged list to one named person every Monday."]
+  - ["Ask for email consent early", "Ask new paying members to switch on updates in their first week. Say exactly what they will get, such as an alert when something about them goes live. If they say no, ask once more after a month."]
+  - ["Put their own content up front", "Show each member the paid content closest to them on the first screen after they log in. If you have nothing tied to them yet, send three picks from what is new that week."]
+  - ["Offer a short bridge before the end date", "Two weeks before a short plan runs out, offer flagged members another short term at a lower price instead of a full year. Give returners a reason to stay that is not only money, such as early access."]
+  - ["Check the flag every quarter", "Each quarter, compare the flagged list with who actually cancelled. Drop any signal that does not separate leavers from stayers in your own data, and trial one new one, such as how people pay."]
+
+expect:
+  - "**Signals you already hold.** Plan length, history, consent and usage sit in most subscription databases, so a first warning list needs no new data collection."
+  - "**Returners are few, so they are cheap to target.** A personal offer to a small, high-risk group costs far less than a blanket discount."
+  - "**Discounts have a price.** A cheaper short extension trades some revenue per member for keeping them, so check the margin before rolling it out."
+  - "**Fresh content is a running cost.** Active members are the ones who stay, and they need something new to be active with, so the author advises updating and adding to the content regularly."
+
+limits:
+  - "**Patterns, not proof.** The records show who stayed, not why. Enthusiasts may both watch more and stay longer, so raising viewing on its own may not cut cancellations."
+  - "**One niche service.** Every member used the same horse-sport platform. The author calls for checks in other industries before the signals are taken as general."
+  - "**Life gets in the way.** Personal reasons, such as giving up competing, were not in the data, and no retention offer can touch some of them."
+  - "**A modest fit.** The model's pseudo R-squared was 0.162, which the author judges satisfactory but which leaves much of the variation in cancelling unexplained."
+  - "**Units left unstated.** How counts such as video views were scaled in the model is not reported, so the gain from each extra view cannot be read off."
+
+faq:
+  - q: "What predicts whether a paying freemium subscriber will cancel?"
+    a: "In one platform's records, a short plan and an earlier cancellation were the strongest warning signs, while email consent and heavy use of the paid videos went with staying (Lehmann-Zschunke, 2024)."
+  - q: "What is a freemium business model?"
+    a: "A product offered in two versions: a basic one at no charge and a premium one that costs money and unlocks more features or content. LinkedIn, Dropbox and Spotify are well-known examples. Most of the steady income comes from premium subscriptions."
+  - q: "Why are customers on shorter plans more likely to cancel?"
+    a: "A longer plan commits more money in total, so people who are not yet sure the paid tier is worth it tend to hedge with a shorter one. Those undecided customers are also the readiest to leave when the term ends."
+  - q: "Is losing a premium subscriber the same as losing a customer?"
+    a: "Not always. On a freemium platform, someone who cancels can drop back to the free tier rather than leave for a rival, so they still use the product and can be invited back later."
+  - q: "Do newsletters stop subscribers from cancelling?"
+    a: "Members who had agreed to the newsletter and alerts were less likely to cancel. The records cannot show that the emails did the work, since keen members may simply be the ones who say yes, but consent is a cheap signal to track and a channel worth earning."
+
+also:
+  - doi: "10.1093/jcr/ucad072"
+    title: "The Genesis Effect: Digital Goods in the Metaverse"
+    authors: "Yang"
+    journal: "Journal of Consumer Research"
+    year: 2024
+    text: >-
+      A piece of virtual clothing is identical pixel for pixel whether new or second-hand, yet buyers in metaverse marketplaces paid
+      clearly more for items nobody had owned. Marketplace records plus three experiments traced this to two feelings: a used item
+      seems faintly tainted, and being recorded forever as its first owner carries status. Being first was what counted;
+      each extra owner after that mattered less. For anyone pricing digital goods, a clean ownership record is a selling point
+      worth naming.
+  - doi: "10.1093/jcr/ucae007"
+    title: "Taking the Full Measure: Integrating Replication into Research Practice to Assess Generalizability"
+    authors: "Urminsky & Dietvorst"
+    journal: "Journal of Consumer Research"
+    year: 2024
+    text: >-
+      Writing for consumer researchers, the two authors argue that repeating studies should be an ordinary part of the work
+      rather than a rare challenge to someone else's result. They set out four kinds of replication, each answering a
+      different question about how far a finding stretches, and show where each fits in original papers, follow-up work and
+      meta-analyses. The same habit suits a marketing team: a winning test describes one audience at one moment until it
+      holds up a second time.
+
+charts:
+  membership:
+    title: "Odds of cancelling against the comparison group (1 = no difference)"
+    scale: [0, 3]
+    step: 0.5
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Rejoined after cancelling", 2.436, true]
+      - ["Six-month plan, not 12 months", 2.175, true]
+      - ["Registered one year later", 1.137, false]
+      - ["New sign-up, not a renewal", 1.001, false]
+      - ["Card or transfer, not direct debit", 0.636, false]
+    source: "One dataset, all premium members who started in 2018, Table 2. Above 1 means likelier to cancel; new sign-up versus renewal was not significant."
+  involvement:
+    title: "Odds of cancelling for involvement and activity measures (below 1 = likelier to stay)"
+    scale: [0, 1]
+    step: 0.25
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Opted in to emails and alerts", 0.612, true]
+      - ["Video viewing", 0.723, true]
+      - ["Videos featuring the member", 0.859, false]
+      - ["Horses linked to the profile", 0.906, false]
+      - ["Profile edits", 0.950, false]
+    source: "Same dataset, Table 2. Email consent is yes or no; the rest are counts whose scaling is not stated. Horses and edits were not reliably below 1."
+
+related_pages: []

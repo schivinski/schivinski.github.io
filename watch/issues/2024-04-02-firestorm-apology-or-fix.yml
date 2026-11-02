@@ -7,7 +7,7 @@
 # reflective section (guide: "Bruno's own papers"). No author emails (2024 tab, and Bruno's own paper).
 # Paper page: crisis-communication-online-firestorms-apology.
 series: 2024
-number: 13                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+number: 14                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
 week_of: "2024-04-02"            # the day the journal issue was published (Crossref published-print); orders the tab
 dateline: "Journal issue published 2 April 2024"
 published: "2026-11-02"          # the day this page went live (metadata only, never shown)

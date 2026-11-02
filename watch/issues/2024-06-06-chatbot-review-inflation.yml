@@ -1,0 +1,224 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 24                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-06-06"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: chatbot-review-inflation
+status: live
+
+title: "Do chatbots inflate online review ratings? What a Journal of the Academy of Marketing Science study found"
+dek: >-
+  More firms now ask for reviews through a chat window instead of a form. Four studies show that the more humanlike the
+  bot, the higher the stars, while the words that come with them get shorter and less useful.
+short_title: "Why chatbots collect kinder, thinner reviews"
+
+description: >-
+  Tsekouras et al. find reviews gathered by chatbot score up to 16% higher than those from a plain form, yet run about 42%
+  shorter and help readers less.
+
+keywords: [conversational reviews, chatbots, online reviews, review solicitation, rating inflation, anthropomorphism,
+  review helpfulness, social presence, customer feedback, review collection, Journal of the Academy of Marketing Science]
+topics: [AI, UGC, Retail]
+
+image:
+  file: 2024-chatbot-review-inflation.jpg
+  og: 2024-chatbot-review-inflation-og.jpg
+  alt: "An orange humanoid robot with a glowing cartoon face on its head screen gives a wink, against a plain white wall"
+  caption: "A wink, a name and a friendly word, and the stars start to climb. Photo: Enchanted Tools on Unsplash."
+
+short_answer: >-
+  Yes, they can. Across four studies, people gave the same product higher marks when a chatbot asked for their review
+  than when a standard form did. A bot with a name, a face and a chatty, personal manner pushed scores highest. The
+  written part suffered at the same time: reviews gathered in chat were shorter, and other readers found them less
+  helpful when choosing.
+
+takeaways:
+  - "In a live statistics course, students rated the same teaching videos 4.38 out of 5 when a chatbot asked and 3.79 when a form did, about 16% higher."
+  - "Pooling all four studies, a plain chatbot raised ratings by 0.35 standard deviations over a form, and a humanlike bot by 0.62."
+  - "In the final study, reviews written through the plain chatbot ran about 42% shorter than those written on a form."
+  - "Weak products gained most from the chat: a deliberately clumsy survey scored 8.05 out of 10 in chat against 7.37 on a form, while a well-made one barely moved (8.78 against 8.66)."
+
+paper:
+  doi: "10.1007/s11747-024-01027-8"
+  title: "The robo bias in conversational reviews: How the solicitation medium anthropomorphism affects product rating valence and review helpfulness"
+  authors: ["Tsekouras, D.", "Gutt, D.", "Heimbach, I."]
+  authors_full: ["Dimitrios Tsekouras", "Dominik Gutt", "Irina Heimbach"]
+  year: 2024
+  journal: "Journal of the Academy of Marketing Science"
+  volume: "52"
+  issue: "6"
+  pages: "1651-1672"
+  online: "2024-06-06"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Dimitrios Tsekouras"
+      affiliation: "Erasmus University Rotterdam, 3000 DR, Rotterdam, Postbus 1738, Netherlands"
+      orcid: ""
+    - name: "Dominik Gutt"
+      affiliation: "Erasmus University Rotterdam, 3000 DR, Rotterdam, Postbus 1738, Netherlands"
+      orcid: "0000-0002-2633-9518"
+    - name: "Irina Heimbach"
+      affiliation: "WHU – Otto Beisheim School of Management, Burgplatz 2, 56179 Vallendar, Germany"
+      orcid: "0000-0003-2592-0367"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 4
+    basis: "Four studies: field experiment with 68 German students (Study 1); online experiments with 1,112 US (Study 2) and 161 UK (Study 3) Prolific adults; two-step MTurk study with 203 reviewers and 303 readers (Study 4). Study 3b (350) in the web appendix; single-paper meta-analysis of the four; video pretest, disclosure pretest and post-hoc manipulation-check sample not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Dimitrios Tsekouras and Dominik Gutt of Erasmus University Rotterdam and Irina Heimbach of WHU Otto Beisheim School of
+      Management in Vallendar, Germany, looked at a small change in how firms ask for feedback. More and more shops now request a
+      review through a chat window, on their own site or inside a messaging app, rather than through the familiar page of stars
+      and boxes. Their question: does the way you ask change the answer you get?
+
+      They lined up three ways of asking. The first was an ordinary form. The second was a plain chatbot with a bot icon, a few
+      emojis, greetings and thank-yous. The third was Emma, a bot with a woman's photo, a first name, chat in the first person,
+      plenty of emojis, the customer's own name and an "is typing" signal. Every version asked the same questions in the same order.
+
+      Four studies followed: a field test in a real university course, two online experiments in which people watched a short
+      clay animation and then reviewed it, and a two-step test in which one group wrote reviews and another judged how helpful they were.
+    facts:
+      - ["Study 1", "68 undergraduates on a statistics module at a mid-sized university in Germany rated its teaching videos, by form or by chatbot, in November 2022"]
+      - ["Study 2", "1,112 US adults on Prolific reviewed a short film through the form, the plain bot or Emma, each with or without emotional language"]
+      - ["Study 3", "161 UK adults used one of the two bots, with the request coming either from the film's maker or from an independent review site"]
+      - ["Study 4", "203 Mechanical Turk workers reviewed a survey they had just taken; 303 more workers each rated five pieces of that feedback"]
+      - ["Measured", "Ratings (1 to 5 in the course, 1 to 10 online), review length, how enjoyable the exchange felt, how much it felt like dealing with a person, and helpfulness"]
+      - ["Also reported", "A fifth, supplementary study and a pooled analysis across the four main studies"]
+
+  - h: "How much the chat lifted the stars"
+    body: |
+      The field test came first. On days with no classes, the lecturer posted a link asking students to rate the course videos,
+      and each click was routed at random to the form or to the chatbot. Nobody could tell beforehand which they would get, and
+      the questions were identical.
+
+      The big online experiment then added the middle step. People watched the same short film and then reviewed it in one of the
+      three set-ups. Both bots drew higher scores than the form, and Emma edged ahead of the plain bot, though by too little
+      to be sure in this study. Whether the bot used emojis, exclamation marks and warm adjectives did not change the scores.
+
+      In the UK study, Emma again beat the plain bot. A further study in the web appendix, with 350 people and a second video on
+      fixing a bike chain, put the plain bot ahead of the form once more.
+    chart: ratings
+
+  - h: "Why a chat earns kinder scores"
+    body: |
+      The authors trace the lift to two feelings, and which one matters depends on how human the bot seems. Going from a form to
+      the plain bot mainly made the exchange more enjoyable. That pleasure appears to rub off on whatever is being rated, much as
+      a cheerful checkout can colour how you remember a shop. Going from the plain bot to Emma added little extra enjoyment but a
+      stronger sense of human contact. When someone seems to be listening, people tend to soften bad news and say what they think
+      the listener wants to hear.
+
+      Two obvious fixes did not help. Stripping the emotional language out of the bot left the enjoyment route intact. And having
+      an independent review site ask, rather than the film's maker, did not weaken the human-contact route, even though people said
+      they tailored their words more to the maker. Neither tweak, on this evidence, is a reliable way to remove the bias.
+    chart: feelings
+
+  - h: "Shorter reviews, and less use to the next shopper"
+    body: |
+      Star ratings are only half of a review. In the final study, Mechanical Turk workers first took a survey about their own work
+      on the platform and then reviewed it, either on a form or with the plain bot. A separate group read five of those reviews
+      each and scored how helpful, useful and informative they were, as if deciding whether to take the task themselves.
+
+      Chat reviews lost out, and word count accounts for the whole gap: once the authors allowed for length, the chat itself made
+      no further difference to how helpful a review seemed.
+
+      Why would a chat make people write less? The answer may lie in how conversation works. Talking to someone who feels present,
+      we assume they share our context and leave things out, saying "pass me that one" instead of "pass me the blue mug on the top
+      shelf". A chat window invites the same shorthand, and shorthand tells a stranger very little.
+
+  - h: "An ethics question as much as a design one"
+    body: |
+      The authors present their findings as a warning to firms, shoppers and regulators. A seller who knows that a humanlike bot
+      nudges ratings up, and keeps using one, is showing buyers a product that looks better than customers found it. The
+      temptation is greatest for sellers whose products would otherwise score poorly.
+
+      Some brakes are built in. Thin reviews persuade the next buyer less well, and flattering scores hide what a product
+      needs fixing, so the firm loses out as well. Platforms that police review quality would need either to keep chatbots away from ratings or to set rules for them,
+      and the authors doubt such rules would be easy to write, given that their own fixes failed. They suggest that regulators
+      extend existing guidance on asking for reviews, such as the US Federal Trade Commission's, to cover chatbots.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List where you ask for ratings", "Write down every place customers are asked to rate you: emails after purchase, app pop-ups, chat windows, codes printed on receipts. Next to each one, note whether a form or a conversation asks the question."]
+  - ["Choose a plain form for public stars", "For any rating that will show on a product page or a review site, use a simple form. Leave out the agent's name, the face and any friendly replies between questions."]
+  - ["Tone down any chat you keep", "Where a chat has to ask for feedback, remove the human name, the staff photo and the typing signal. Do not let it agree with the customer or thank them by name before the rating is given."]
+  - ["Give the text box three prompts", "Split the written part into three short boxes: what you liked, what you did not like, and your overall verdict. Ask for at least two sentences in each, so every review carries some detail."]
+  - ["Trial chat against the form first", "Before switching channels, send half your buyers to the chat and half to the form for two weeks. Compare the average star rating and the average number of words from each half."]
+  - ["Label and track every review's source", "Store the collection channel with every review. Each month, check whether chat reviews score higher and run shorter than form reviews, and tell readers on the page how reviews were gathered."]
+
+expect:
+  - "**A modest lift, not a makeover.** In the online studies, chat added roughly 0.3 to 0.5 of a point on a ten-point scale, or roughly 0.15 to 0.25 of a star once shown on a five-star display. The classroom gap was wider, so treat these as typical rather than as a ceiling."
+  - "**More engagement at the end.** In the survey study, people reviewing in chat were more likely to leave extra feedback when invited, and dropout during the review was 4.7% lower than on the form."
+  - "**Internal surveys may read kinder too.** The field test was a course evaluation, not a shop review. That hints, though nobody tested it, that satisfaction surveys run through a chat could flatter in the same way."
+  - "**The fun may fade.** The authors expect the novelty of chatting with a bot to wear off as chatbots become routine, which could weaken the enjoyment route. Whether the feeling of a person on the line fades too is untested."
+
+limits:
+  - "**Films and surveys, not shopping baskets.** The rated items were teaching videos, a 90-second clay animation and an online questionnaire. Physical goods, services and costly purchases were not tested."
+  - "**Paid panels and one classroom.** Most people took part through paid online panels in America and Britain, and the field test drew on a single course at one German university."
+  - "**Not every result was clear-cut.** Emma's edge over the plain bot in the UK study, and the extra lift for the clumsy survey, cleared only a loose 10% threshold. Reviews were significantly shorter in only two of the four studies."
+  - "**The plain bot did not feel more human.** In the largest study, people rated it no more humanlike than the form (4.19 against 4.10 out of 7), yet it still lifted scores, mainly through enjoyment."
+  - "**No working remedy yet.** Minimum word counts or structured review templates are ideas the authors leave for future research; none was tested here."
+
+faq:
+  - q: "Are star ratings higher when a chatbot collects them?"
+    a: "They can be. In four separate studies, products scored higher when a chat gathered the feedback than when people filled in an ordinary form, and the most humanlike bot drew the highest marks (Tsekouras et al., 2024)."
+  - q: "Why would chatting with a bot make someone rate a product more generously?"
+    a: "Two forces seem to be at work. A conversation is more fun than a form, and the good mood transfers to the product. A named bot with a photo also makes it feel as if someone is listening, and most of us go easy on criticism when we sense an audience."
+  - q: "Does telling customers they are talking to a bot remove the bias?"
+    a: "There is no sign that it does. In a pretest with about 560 people, scores barely moved when the chatbot openly introduced itself as software. In the main studies, nobody was told whether a human or a machine was asking."
+  - q: "Are reviews collected by chatbots less useful to shoppers?"
+    a: "They tend to be. Readers judged chat reviews less helpful, and also a little less credible and persuasive. Each of those gaps traced back to length: shorter texts simply carried less of the detail people look for before buying."
+
+also:
+  - doi: "10.1177/1069031x241262728"
+    title: "Cultural Influences on Privacy Calculus in Loyalty Programs: An Analysis of Individual and National-Level Cultural Values"
+    authors: "Balabanis et al."
+    journal: "Journal of International Marketing"
+    year: 2025
+    text: >-
+      Shoppers in four countries with very different cultures, 1,259 in all, were surveyed about the personal data they hand to retail
+      loyalty schemes in return for perks. People who disliked uncertainty, and those living by more collective norms, voiced
+      sharper privacy worries, and cultural values also shaped how far members trusted the retailer and stayed loyal. The authors
+      looked at culture both in each person's own values and at the level of whole countries. One data promise will rarely fit
+      every market a scheme runs in.
+  - doi: "10.1002/mar.22050"
+    title: "Gift giving in the age of AI: The role of social closeness in using AI gift recommendation tools"
+    authors: "Fu et al."
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      Five studies asked when people let an AI tool choose a present. How close the giver felt to the recipient made a clear
+      difference: a gift for someone close is meant to say something about the relationship, and expecting that signal held
+      people back from the tool. A tool that could chat back and forth drew more use, especially for gifts to close friends.
+      For personal occasions, a gift finder that can hold a conversation may stand a better chance.
+
+charts:
+  ratings:
+    title: "Average rating of the same short film, by how the review was requested (1 to 10 scale)"
+    scale: [1, 10]
+    step: 3
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Standard form", 4.64, false]
+      - ["Plain chatbot", 5.03, false]
+      - ["Humanlike chatbot (Emma)", 5.16, true]
+    source: "Study 2, US adults on Prolific, about 370 per group, all rating the same clay animation."
+  feelings:
+    title: "How the exchange felt, by way of asking (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Enjoyment, form", 4.08, false]
+      - ["Enjoyment, plain bot", 4.71, true]
+      - ["Enjoyment, humanlike bot", 4.78, false]
+      - ["Human contact, form", 3.18, false]
+      - ["Human contact, plain bot", 3.63, false]
+      - ["Human contact, humanlike bot", 3.99, true]
+    source: "Study 2, the same 1,112 adults, group averages from the web appendix (Table D-2). Enjoyment jumps as soon as there is a chat; human contact keeps climbing with Emma."
+
+related_pages: []

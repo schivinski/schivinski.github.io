@@ -1,0 +1,227 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 23                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-06-02"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: swiping-vampire-effect
+status: live
+
+title: "Do ads that make people swipe in an unfamiliar way get remembered better? What an International Journal of Advertising study found"
+dek: >-
+  Ad formats that ask for a new finger movement are often sold as a way to stop the scroll. An eye-tracking experiment run in
+  people's own living rooms suggests they do hold the eyes, and may lose the brand along the way.
+short_title: "Odd swipes: more looks, less brand memory"
+
+description: >-
+  Rohrbach et al. find that scrolling a feed with a rarely used grip kept eyes on sponsored posts longer, yet brands were
+  recalled less, in an at-home test.
+
+keywords: [social media advertising, smartphone swiping, mobile eye tracking, ad attention, brand recall, vampire effect,
+  new ad formats, carousel ads, embodied cognition, human-smartphone interaction, mobile advertising,
+  International Journal of Advertising]
+topics: [Advertising, Social media]
+
+image:
+  file: 2024-swiping-vampire-effect.jpg
+  og: 2024-swiping-vampire-effect-og.jpg
+  alt: "Two hands lit from behind in a dark room: one holds a glowing phone while a finger of the other hand touches the screen"
+  caption: "The finger that lingers on an ad is not always the mind that keeps it. Photo: Rapha Wilde on Unsplash."
+
+short_answer: >-
+  They get looked at for longer but, on this evidence, remembered less. In an eye-tracking experiment, 36 people scrolled
+  their own social feeds at home twice, once with their usual grip and once with the one they rarely use. The unfamiliar
+  grip slowed them down, so sponsored posts held their gaze for longer. Yet the brands behind those posts were named less
+  often afterwards. Steering the phone seemed to use up the attention the ads needed.
+
+takeaways:
+  - "Of the 30 people filmed at home, 24 were thumb swipers, scrolling with the hand that held the phone; the other 6 were index swipers, using the free hand to move the feed."
+  - "Eyes stopped on each sponsored post about 4.2 times when the grip felt least natural, against about 2.9 times when it felt most natural."
+  - "Only 19 of the 411 sponsored posts that crossed people's screens had their brand named afterwards without a prompt, 4.6% of the ads seen."
+  - "In 68% of cases, people rated their two sessions at least 4 points apart on a 0 to 6 scale of typicality, so the switch was clearly felt."
+
+paper:
+  doi: "10.1080/02650487.2024.2354081"
+  title: "The vampire effect of smartphone swiping: how atypical motor actions increase ad attention but impair brand recall"
+  authors: ["Rohrbach, S.", "Bruns, D.", "Langner, T."]
+  authors_full: ["Stefan Rohrbach", "Daniel Bruns", "Tobias Langner"]
+  year: 2025
+  journal: "International Journal of Advertising"
+  volume: "44"
+  issue: "1"
+  pages: "5-23"
+  online: "2024-06-02"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Stefan Rohrbach"
+      affiliation: "Schumpeter School of Business and Economics, University of Wuppertal, Wuppertal, Germany"
+      orcid: "0009-0003-6631-5523"
+    - name: "Daniel Bruns"
+      affiliation: "Schumpeter School of Business and Economics, University of Wuppertal, Wuppertal, Germany"
+      orcid: "0000-0002-0199-9990"
+    - name: "Tobias Langner"
+      affiliation: "Schumpeter School of Business and Economics, University of Wuppertal, Wuppertal, Germany"
+      orcid: "0000-0002-6582-1702"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Pre-study: in-home videography plus think-aloud interviews with 30 adults, reported with its own method and results (the grip taxonomy); Experiment: within-subject mobile eye-tracking experiment with 36 adults at home, 411 sponsored-post views"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Stefan Rohrbach, Daniel Bruns and Tobias Langner of the Schumpeter School of Business and Economics at the University of
+      Wuppertal started from a plain fact about phones. A social media ad is on screen only for as long as the viewer's thumb
+      allows. An earlier eye-tracking study co-written by Langner put the average look at an Instagram ad at about 1.8 seconds,
+      and scrolling speed decides much of that.
+
+      That suggests a tempting tactic. Carousel ads and other new formats ask people to move their fingers in ways they are not
+      used to. If an unfamiliar movement slows people down, the ad should win more attention, and more attention usually gives a
+      brand a better chance of being remembered.
+
+      To test the idea, the team first had to pin down what a normal swipe looks like. They filmed people browsing at home on their
+      own devices, then sat with each person to watch the recording back and talk it through. With typical and atypical grips
+      mapped, they ran an eye-tracking experiment in people's living rooms. Each person scrolled twice, once with each grip, wearing
+      glasses that followed their gaze.
+    facts:
+      - ["Pre-study", "30 adults aged 19 to 69, filmed scrolling their own feeds on their own phones at home, then interviewed while watching the recording"]
+      - ["Footage", "About two hours of everyday scrolling and more than 14 hours of follow-up interviews"]
+      - ["Experiment", "36 adults aged 21 to 58, visited at home between October and December 2022"]
+      - ["Kit", "Mobile eye-tracking glasses, with each person's own phone and own feed on apps such as Instagram or Facebook"]
+      - ["Design", "Two sessions of about two minutes each, one thumb-swiping and one index-swiping, in random order"]
+      - ["Measured", "Total gaze time on every sponsored post, the number of eye stops on it, and which brands people could name afterwards"]
+
+  - h: "Most people swipe one way, and keep to it"
+    body: |
+      The home recordings showed less variety than you might expect. Of the 94 grip-and-finger episodes the team coded, the thumb
+      was the working finger in 69, nearly always a right thumb. Two basic styles covered almost everything. Thumb swipers hold the phone
+      in their dominant hand and move the feed with that same thumb. Index swipers hold it in the other hand and scroll with the
+      index finger of the dominant one. Other combinations, such as a second hand added for support when tired, were variations on
+      these two.
+
+      Each person had a clear favourite and stayed with it. Some had even picked accessories to match: a grip stuck to the back of
+      the phone for one-handed thumb use, or a fold-open wallet case for holding the phone in one hand and tapping with the other.
+      Two hands shared the phone equally only while typing, and people went back to their usual style as soon as they returned
+      to the feed. That steadiness made the experiment possible: for every person, the style they never used became the
+      unfamiliar one.
+
+  - h: "An unfamiliar grip slows people down and holds their gaze"
+    body: |
+      After each session, people rated how natural it had felt compared with their normal habit. The team worked with those
+      ratings rather than with the grip itself, and linked them to every sponsored post that passed across the screen. A post
+      counted as visible from the moment half of it scrolled into view until half of it had scrolled out again.
+
+      The first prediction held. The less natural the swiping felt, the more time each sponsored post held people's gaze and the more
+      often their eyes paused on it. The gaps between low, middle and high familiarity were all statistically reliable, with the
+      order of the two sessions taken into account. Practised movements run on autopilot and are quick. Unpractised ones are
+      slower and more deliberate, so the ads simply stayed in front of people for longer.
+    chart: gaze
+
+  - h: "Why the extra attention did not reach the brand"
+    body: |
+      Afterwards, people listed any brands they could remember, and the team checked each name against the ads that had really
+      appeared. The authors expected the longer looks to pay off here. They did not. Brands tended to be remembered when people
+      swiped in their usual way, and almost never after the least natural sessions. The statistical support for this reversal
+      fell just short of the usual standard, so it reads best as a strong warning rather than a settled rule.
+
+      The authors call this a motoric vampire effect. The term comes from advertising research on elements that win attention for
+      themselves and leave little over for the brand, such as a famous face or a strong joke. Here the culprit is the hand movement
+      itself. Managing an unpractised grip seems to take up mental effort, so even while the eyes rest on the ad for longer, less
+      of it is processed and stored.
+    chart: recall
+
+  - h: "What this means for new ad formats"
+    body: |
+      The authors draw a cautious lesson for media buyers. A newly launched format built around a gesture people have not yet
+      learned may well get noticed, but it is unlikely to build brand memory while the gesture still feels strange. Moving large budgets into
+      such formats early carries risk, at least until the movement has become second nature.
+
+      The same goes for changes to the apps themselves, as when Instagram introduced stories, and for new hardware such as folding
+      screens. Both can unsettle established habits and, with them, how ads are taken in. The authors expect similar effects in
+      shopping apps, in-game advertising and branded games: anywhere an unusual movement competes with the content for attention.
+
+      Our own reading, which goes past the evidence: a viewability or dwell-time dashboard would have scored the least natural
+      sessions as the best ones. Any format review that stops at attention figures could end up rewarding the wrong thing.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List the movement each format asks for", "Go through every ad format on your media plan. Beside every format, note the finger movement it needs: a plain scroll down, a sideways swipe, a tap, a press and hold, or a drag."]
+  - ["Go slowly with brand-new gestures", "When a platform launches a format that needs a new movement, put no more than one tenth of that channel's budget into it at first. Keep the rest in formats people already scroll through without thinking."]
+  - ["Show the brand before the gesture", "Put the logo or brand name in the very first frame, large enough to read at a glance. Keep it visible on every card or frame that follows, so it is seen even while the hand is busy."]
+  - ["Make the movement mean something", "If a format needs an unusual move, tie that move to the brand. Let people trace the logo, slide the product into view or turn a page of the story, rather than swipe just to unlock the next card."]
+  - ["Check memory, not just viewing time", "For every new format, ask 100 people the next day which brands they remember seeing in their feed. Do not show them a list. Compare the answers with the same check on your usual formats."]
+  - ["Repeat the check after three months", "Run the same memory check again three months later, once the gesture has become routine. Move more money into the format only if brand memory has caught up with your standard ads."]
+
+expect:
+  - "**Habits are sticky.** People described keeping to one grip in daily life, even on the move, and changing only now and then, for example when tired. A gesture that feels strange at launch may stay strange for a while."
+  - "**A small tweak should cost less than a radical one.** Familiarity was rated on a sliding scale rather than as an on-off switch, which hints that the price grows with the size of the change. Gestures only slightly off the usual were never isolated."
+  - "**Expect small numbers in any memory check.** Unprompted recall of feed ads was rare whatever the grip, so judge a new format against your usual ones rather than against a fixed target."
+  - "**Recognition may hold up better than recall.** Naming a brand unprompted is the hardest memory test. The authors suggest that simply recognising it, on a shelf for example, may suffer less. That was not checked."
+
+limits:
+  - "**The ads were not controlled.** Everyone saw whatever sponsored posts their own feed served, so the ads differed from person to person and from one session to the next."
+  - "**Few memories to count.** So few brands were recalled at all that a handful of names either way could shift the picture. A lab test with the same ads for everyone would help confirm it."
+  - "**Switching hands is not a new ad format.** People were told which grip to use. The authors assume a new format would feel similarly unnatural, but no real format was tested."
+  - "**Brief and small.** Sessions were short, the group was small, and nobody was followed over time to see whether practice changes the result."
+  - "**Phones only.** Tablets, headsets and other screens with their own habitual movements were outside the study, and so were attitudes and purchases."
+
+faq:
+  - q: "Do ad formats that need an unusual swipe work better?"
+    a: "They may win more attention but not more memory. Asked to browse with the hand position they normally avoid, people gave sponsored posts more of their gaze but remembered the brands behind them less well (Rohrbach et al., 2025)."
+  - q: "What is the vampire effect in advertising?"
+    a: "It describes an ad element that draws attention to itself at the expense of the brand. Celebrities, humour and influencers are the classic examples. This research adds a physical one: a hand movement that soaks up the mental effort the brand would otherwise get."
+  - q: "How was attention to the ads measured?"
+    a: "With eye-tracking glasses worn at home. Software logged how long each person's gaze rested within the outline of every sponsored post and how many times it stopped there, counting only pauses of 80 milliseconds or more."
+  - q: "Can a gesture ever help people remember a brand?"
+    a: "Possibly, if the movement relates to it. People learning a language remember words better when their gestures act out what the words mean. The authors suggest that asking viewers to trace a logo with a finger might work in the same way. That has not yet been tested in advertising."
+  - q: "Do people get used to an unfamiliar way of swiping?"
+    a: "Probably, though learning was not measured here. One participant who had switched to a slightly larger phone a fortnight earlier said holding and scrolling it still felt odd. How long a new gesture takes to become routine, and whether recall then recovers, remains open."
+
+also:
+  - doi: "10.1177/10949968241261301"
+    title: "Reducing Reactance to Ads by Voice Assistants: The Role of Ad Customization, Ad Personalization, and Privacy Customization"
+    authors: "Snyder et al."
+    journal: "Journal of Interactive Marketing"
+    year: 2025
+    text: >-
+      Ads delivered through voice assistants have a record of irritating the people who hear them. In an
+      experiment with 405 people using a voice app built for the purpose, letting users set their own ad preferences softened
+      that reaction, since they felt more in charge and less pressured. It helped only when the tailoring ran quietly in the
+      background rather than being announced, and privacy options such as deleting stored recordings changed which combinations
+      worked best. With audio ads, the control a listener is given seems to count as much as the words they hear.
+  - doi: "10.1002/cb.2361"
+    title: "To share or not to share: When is influencer self-disclosure perceived as appropriate?"
+    authors: "Leite et al."
+    journal: "Journal of Consumer Behaviour"
+    year: 2024
+    text: >-
+      Creators are often told that openness wins loyalty, but two studies suggest it has limits. Posts revealing
+      very private matters struck people as out of place and made the influencer seem less believable, while upbeat disclosures
+      did the reverse. Good news shared about mental health went down better than equally positive news about a relationship.
+      Partnerships built on a creator's confessions may borrow less trust than brands hope.
+
+charts:
+  gaze:
+    title: "Time spent looking at each sponsored post, by how natural the swiping felt (milliseconds)"
+    scale: [0, 1600]
+    step: 400
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Least natural swiping", 1360, true]
+      - ["In between", 1160, false]
+      - ["Most natural swiping", 990, false]
+    source: "Experiment, 36 adults scrolling their own feeds at home, 411 sponsored-post views. Model estimates read from the published figure, so approximate; all three gaps were significant."
+  recall:
+    title: "Share of sponsored posts whose brand was later named unprompted, by grip familiarity"
+    scale: [0, 5]
+    step: 1
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Least natural swiping", 0.1, false]
+      - ["In between", 0.5, false]
+      - ["Most natural swiping", 4.2, true]
+    source: "Experiment, the same 411 views. Model estimates; the middle bar is taken from the paper's chart. The trend was marginal in statistical terms (p = .055)."
+
+related_pages: []

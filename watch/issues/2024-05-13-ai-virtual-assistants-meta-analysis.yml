@@ -1,0 +1,247 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 19                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-05-13"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: ai-virtual-assistants-meta-analysis
+status: live
+
+title: "What makes shoppers keep using a retailer's chatbot or voice assistant? What a Journal of Retailing meta-analysis found"
+dek: >-
+  Retailers keep launching chatbots and voice assistants, and customers keep drifting away from them. A meta-analysis of 195
+  studies shows what keeps people using them: a fair deal, help when they need it, and an assistant that does not leave them
+  uneasy.
+short_title: "What keeps shoppers coming back to retail chatbots"
+
+description: >-
+  Blut et al. pool 195 studies of retail chatbots and voice assistants: value for money and help on hand drive use, while
+  bad feelings are the main brake.
+
+keywords: [AI virtual assistants, retail chatbots, voice assistants, chatbot adoption, conversational commerce,
+  customer service automation, anthropomorphism, uncanny valley, customer emotions, technology acceptance, meta-analysis,
+  Journal of Retailing]
+topics: [AI, Retail, Service]
+
+image:
+  file: 2024-ai-virtual-assistants-meta-analysis.jpg
+  og: 2024-ai-virtual-assistants-meta-analysis-og.jpg
+  alt: "A woman in a black headscarf and grey knitted jumper speaks into a smartphone held near her face, its screen showing a green voice recording waveform"
+  caption: "Speaking to a machine takes seconds. Choosing to come back to it is another matter. Photo: BandLab on Unsplash."
+
+short_answer: >-
+  Mostly a good deal and a safety net. Pooling results from 244 groups of customers, this meta-analysis found that value
+  for money and having help on hand did most to drive use of chatbots and voice assistants. What other people think and how
+  human the assistant seems came next. Unease during the exchange, such as anxiety or discomfort, was the strongest brake
+  on actually using them.
+
+takeaways:
+  - "Help on hand was the biggest driver of an assistant feeling easy to use, with a weight of 0.48, nearly twice that of value for money at 0.27."
+  - "Bad feelings pulled actual use down by 0.25 on the same standardised scale, roughly twice the push that came from finding the assistant useful (0.13)."
+  - "Privacy worries were a weak brake: their pooled link with plans to use an assistant was 0.14 in the negative direction, against 0.53 for trust."
+  - "Typing beat talking more often than not: voice instead of text weakened 6 links between helpful drivers and customers' reactions, and strengthened only 2."
+
+paper:
+  doi: "10.1016/j.jretai.2024.04.001"
+  title: "Facilitating retail customers’ use of AI-based virtual assistants: A meta-analysis"
+  authors: ["Blut, M.", "Wünderlich, N. V.", "Brock, C."]
+  authors_full: ["Markus Blut", "Nancy V. Wünderlich", "Christian Brock"]
+  year: 2024
+  journal: "Journal of Retailing"
+  volume: "100"
+  issue: "2"
+  pages: "293-315"
+  online: "2024-05-13"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline and affiliations; the article prints no ORCID iDs)
+    - name: "Markus Blut"
+      affiliation: "Durham University Business School, Durham University, Durham DH1 3LB, UK"
+      orcid: ""   # OpenAlex lists 0000-0003-0436-6846, but neither Crossref nor that ORCID record carries this DOI
+    - name: "Nancy V. Wünderlich"
+      affiliation: "Technische Universität Berlin, Straße des 17. Juni 135, 10623 Berlin, Germany"
+      orcid: "0000-0003-3786-506X"   # not printed on the article; Crossref lists it for her
+    - name: "Christian Brock"
+      affiliation: "University of Rostock, Ulmenstraße 69, 18057 Rostock, Germany"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 195
+    basis: "Meta-analysis pooling 2,766 correlations from 244 independent samples in 195 studies, with meta-analytic structural equation modelling and meta-regression on four assistant types"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Markus Blut of Durham University Business School, Nancy V. Wünderlich of Technische Universität Berlin and Christian
+      Brock of the University of Rostock set out to make sense of a research field that kept contradicting itself. Retailers
+      keep rolling out chatbots and voice assistants for service and shopping, yet many customers try one and never return.
+      Gartner figures the authors cite put it bluntly: only 8% of customers had used a chatbot in a recent service contact,
+      and only a quarter of those would go back to the same one.
+
+      Studies of why people take to these assistants had piled up, and they disagreed. Some said help from the retailer
+      mattered a great deal; others said it hardly counted. So the team gathered every usable quantitative study they could
+      find. They searched the main business databases, combed 39 marketing, retail and service journals and 94 information
+      systems journals, and emailed 839 author addresses asking for unpublished results.
+
+      They sorted ten possible drivers into three families. The first is what the customer brings: skill with the technology,
+      habit and trust. The second is how the assistant comes across: how human it seems, and fears that it will fail or misuse
+      personal data. The third is the shopping situation: help on hand, value for money, the views of others, and a feeling
+      that another party is present in the exchange. Each driver could work through how easy and useful the assistant seemed,
+      through good or bad feelings, or through both. Finally, they compared four kinds of assistant: smarter or simpler, used
+      for buying or for advice, voice or text, with or without an avatar.
+    facts:
+      - ["Evidence pooled", "195 studies covering 244 separate groups of customers"]
+      - ["Effects", "2,766 correlations, combined with a random-effects method that corrects for measurement error"]
+      - ["Search", "Business and information systems databases, updated to 5 June 2023, plus unpublished work requested from authors"]
+      - ["Outcomes", "Intention to use, and actual use"]
+      - ["Assistant types", "Intelligent or simple, buying or advice tasks, voice or text, avatar or none"]
+      - ["Checks", "Coders agreed on 98% of classifications; no sign that missing null results skewed the picture"]
+
+  - h: "A fair deal and a person to turn to"
+    body: |
+      Adding up every route to use, four drivers stood out. Value for money came first. Help on hand came second, meaning the
+      resources customers can fall back on, such as a phone line to a person, a page of FAQs or step-by-step instructions.
+      Social pressure from friends, family and peers came third, and a humanlike feel came fourth. Fear that the assistant
+      would not work as promised, trust and the customer's own skill also counted, though less.
+
+      Value for money worked on every front. It made assistants seem easier and more useful, it was the largest single source
+      of good feelings about them, and it eased bad ones. In the research it means benefits weighed against the money a
+      customer spends to use the assistant. We suspect wasted time and extra steps sit on the same scale for most customers,
+      though that was not measured.
+
+      The routes differed from driver to driver. Trust worked indirectly only by making the assistant seem more useful. Skill
+      with the technology had no route through thinking or feeling at all; it simply went with stronger plans to use. The
+      authors suggest offering assistants first to confident customers and teaching the rest how to phrase their questions.
+    chart: joy
+
+  - h: "Unease is what stops people"
+    body: |
+      The sharpest result concerns bad feelings: discomfort, anxiety, a sense of unease. They had no significant link with
+      what customers said they planned to do. They did make a difference to what customers actually did. Several of the
+      strongest drivers, including value for money, help on hand, other people's views and a humanlike feel, had their
+      largest indirect effects through this channel, by keeping unease down or pushing it up.
+
+      Worry about the assistant getting things wrong behaved the same way. Once everything else was accounted for, it did
+      not change how easy or useful the assistant seemed. It made people feel worse, and that is how it hurt.
+
+      A humanlike feel is the awkward one. It lifted good feelings and plans to use, yet in the full model it was also the
+      biggest source of bad feelings. That fits the idea of an uncanny valley, where something almost human feels
+      unsettling. Read it with care, though. In the raw pooled data the link between seeming human and bad feelings was close
+      to zero, and it only stood out when every driver was entered together.
+    chart: unease
+
+  - h: "Which kind of assistant to build"
+    body: |
+      The comparisons between assistant types are the newest part of the work, and the authors stress that they show
+      patterns across studies, not proof of cause.
+
+      Smarter, AI-driven assistants raised the stakes. Help on hand counted for more in making them feel easy and useful,
+      and fears about failure and privacy weighed more heavily on how useful they seemed. A humanlike feel turned more
+      unsettling. Good feelings did less to build intentions, while bad feelings did more to stop use.
+
+      Voice had a real upside. When customers found a voice assistant useful, that usefulness carried through to use more
+      strongly than with text, and a customer's skill and the views of others lifted good feelings more by voice.
+
+      Avatars gave mixed results. With a character on screen, the customer's skill counted for more in making the assistant
+      feel easy and useful. But an avatar sharpened the unsettling side of a humanlike feel, and bad feelings then weighed
+      more on plans to use it.
+
+      The authors' conclusion is that no single design wins. To make an assistant easy to pick up, they favour a smart,
+      text-based one with an avatar, used for advice rather than selling. To turn interest into steady use, they favour a
+      simpler voice assistant for advice, with no avatar. Many retailers may need more than one.
+
+  - h: "What the authors would tell a retailer"
+    body: |
+      Their advice starts with money and people rather than technology. Spend first where the effects are largest, which
+      means value and support: the authors' own example of a sound first investment is a human telephone line running
+      alongside the chatbot. Offer guarantees, such as money back, to calm fears about mistakes.
+
+      They also want retailers to watch feelings, not only clicks. Surveys help, and so does software that reads the mood of
+      typed or spoken conversations. Because unease is such a strong brake, they suggest stepping in at the moment a customer
+      shows distress, watching conversations as they happen.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List the jobs your assistant does", "Write down every task your chatbot or voice assistant handles, such as order tracking, returns or product advice. Mark the ones where the customer pays. Keep those short and simple to begin with."]
+  - ["Put a person one tap away", "Before launch, add a clear button on every chat screen that reaches a person by phone or live chat. Add a short FAQ page and a three-step guide next to it."]
+  - ["Say what the customer gains", "Start each conversation with one sentence on what the customer gets, such as a faster refund or a saved trip to the store. Remove any step that costs them money or more than a minute."]
+  - ["Keep the human touches light", "Give the assistant a friendly name and a warm, plain tone. Leave out a lifelike face. Run one version with a cartoon character and one with none, and keep whichever upsets fewer people."]
+  - ["Show people how to ask", "Put three example questions under the chat box. Offer the assistant first to customers who already use your app every week, then widen it once they settle in."]
+  - ["Catch frustration as it happens", "Flag any chat where the customer repeats a question, types in capitals or asks for a person, and hand it to a human straight away. Read 50 of these chats every week and fix the top three causes."]
+
+expect:
+  - "**Support costs do not disappear.** The assistant works best with people behind it, so plan for staff who can take over chats rather than treating it as a straight swap for your service team."
+  - "**Plans are not the same as use.** The model explained 52% of the differences in what customers intended and 40% of what they actually did, so count real use rather than survey promises."
+  - "**Paying tasks behave much like others.** Buying through an assistant changed only a handful of links. The clearest: privacy worries made it feel harder to use when money was involved, and good feelings counted for less in plans to use it."
+  - "**Effects travel indirectly.** Most drivers reached use only through what customers thought and felt about the assistant, so track those reactions alongside the usage numbers."
+
+limits:
+  - "**Patterns, not proof.** Pooled correlations show what goes together rather than what causes what. The authors say the differences between kinds of assistant in particular need experiments to confirm them."
+  - "**Before the newest assistants.** The search closed in June 2023, months after ChatGPT arrived, and the authors want such assistants tested in real retail settings."
+  - "**Wide spread between studies.** Results varied a great deal from one study to the next, so your customers may sit far from the average."
+  - "**Only two kinds of feeling.** Emotions were grouped as good or bad. Anger, fear, sadness or joy may each behave differently, which the authors flag for future work."
+  - "**Use, not revenue.** The outcomes stop at intention and use. Sales, basket size and brand effects were left out."
+
+faq:
+  - q: "Why don't customers keep using retail chatbots?"
+    a: "Mostly because they do not see enough in it for them, do not feel supported, or come away uneasy. A meta-analysis of chatbot and voice assistant research ranked value for money and available help as the strongest drivers of use, and found that bad feelings during the exchange were the main thing holding use back (Blut et al., 2024)."
+  - q: "Should a retail chatbot seem human?"
+    a: "Up to a point. Seeming human helped people enjoy an assistant and want to use it, but it also stirred discomfort, and that risk grew with more intelligent assistants and those shown as an on-screen character."
+  - q: "Is voice or text better for a shopping assistant?"
+    a: "Neither wins outright. Text let more of the helpful drivers do their work, while voice made usefulness count for more in whether people actually used it. The authors suggest choosing by the response you most want to improve."
+  - q: "Do privacy worries stop people using chatbots?"
+    a: "Less than many expect. Concern about personal data had no reliable link with how useful an assistant seemed and only a modest link with intentions and use. Fear that it would simply get things wrong mattered more, mainly by making people feel worse."
+  - q: "What does value for money mean for a free chatbot?"
+    a: "In this research it is the customer's own trade-off between what the assistant gives them and the money it costs them to use it. Even a free chatbot can carry costs, such as a smart speaker, a data plan or a subscription, and customers weigh those against the benefit."
+
+also:
+  - doi: "10.1177/00222437241256900"
+    title: "Attention Spillovers from News to Ads: Evidence from an Eye-Tracking Experiment"
+    authors: "Simonov et al."
+    journal: "Journal of Marketing Research"
+    year: 2025
+    text: >-
+      In an online test, each person read a news story with a brand's display ad assigned at random beside it, and eye
+      tracking logged how long they looked at each. Stories that held the eye also pulled more looks to the ad, which helped
+      people remember the brand and raised the chance they would take that brand's voucher instead of cash. Serious, hard news was no
+      worse a neighbour for ads than lighter stories. Blanket block lists that keep brands away from serious journalism may
+      be giving up some of the most engaged readers.
+  - doi: "10.1177/10946705241248242"
+    title: "Just Name it: The Act of Naming Humanoid Service Robots Decreases Perceived Eeriness and Increases Repurchase Intent"
+    authors: "El Halabi & Trendel"
+    journal: "Journal of Service Research"
+    year: 2025
+    text: >-
+      Humanoid robots in service settings often strike customers as eerie, and that can cost repeat business. Four
+      experiments, one with real interactions, tested a low-cost remedy: letting customers give the robot a name. A name the
+      customer chose made the robot feel familiar and more under their control, which reduced the eerie feeling, made the
+      encounter more enjoyable and raised willingness to return; names picked by the store did not help. A name the customer
+      picks may calm more nerves than a more realistic face.
+
+charts:
+  joy:
+    title: "What lifts good feelings about an assistant (standardised path weights; 0 means no link)"
+    scale: [0, 0.5]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Value for money", 0.43, true]
+      - ["Humanlike feel", 0.23, false]
+      - ["Help on hand", 0.12, false]
+      - ["What others think", 0.10, false]
+    source: "Meta-analytic structural equation model of 195 studies (244 samples; harmonic mean sample 2,949). Skill and trust showed no significant path; fear of failure lowered good feelings slightly (0.09)."
+  unease:
+    title: "What drives bad feelings about an assistant (strength of each link, standardised; 0 means no link)"
+    scale: [0, 0.5]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Humanlike feel (raises)", 0.42, true]
+      - ["Fear it will fail (raises)", 0.37, false]
+      - ["Value for money (eases)", 0.31, false]
+      - ["Help on hand (eases)", 0.27, false]
+      - ["What others think (eases)", 0.19, false]
+    source: "Same model, 195 studies; neither skill nor trust mattered here. The humanlike path appears only in the full model: its raw pooled correlation with bad feelings was 0.05."
+
+related_pages: []
