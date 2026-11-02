@@ -1,0 +1,236 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 11                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-03-18"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: ad-transparency-tools
+status: live
+
+title: "Do 'Why am I seeing this ad?' explanations make people feel more watched? What a Journal of Advertising study found"
+dek: >-
+  Platforms now let people check why an ad reached them. A survey experiment with 1,132 US adults found that a long, detailed
+  targeting explanation did not deepen the sense of being watched, and it left people feeling better informed about the tools.
+short_title: "Ad explanations inform without alarming"
+
+description: >-
+  Wang et al. find a detailed 'why this ad' explanation left 1,132 US adults feeling no more watched, but more sure they
+  knew how ad transparency works.
+
+keywords: [ad transparency, ad transparency tools, Why am I seeing this ad, ad targeting explanation, personalized advertising,
+  targeted advertising, dataveillance, perceived surveillance, online privacy, privacy cynicism, Journal of Advertising]
+topics: [Privacy, Advertising, Personalization]
+
+image:
+  file: 2025-ad-transparency-tools.jpg
+  og: 2025-ad-transparency-tools-og.jpg
+  alt: "A white security camera mounted on a coral-pink wall in hard sunlight, its sharp shadow cast beside it and a strip of the wall in deep shade to the left"
+  caption: "Most people already feel watched online. Showing them how an ad found them did not add to it. Photo: Jarrod Reed on Unsplash."
+
+short_answer: >-
+  No, not in this test. Among 1,132 US adults, people shown a detailed explanation of why an Instagram ad had targeted
+  someone felt no more watched by advertisers than people shown a short explanation or none at all. Everyone already felt
+  fairly watched. The explanations did leave people feeling better informed and more able to use transparency tools,
+  although few had used such tools much before.
+
+takeaways:
+  - "Almost one in five participants (17.9%) had never heard of ad transparency before taking part."
+  - "Depending on the tool, between 31.4% and 88.1% of people said they had never or only rarely used it."
+  - "An explanation naming 8 kinds of targeting data rather than 2 left the sense of being tracked by advertisers unchanged."
+  - "People shown an explanation rated their confidence in using transparency tools 5.20 (short) or 5.27 (detailed) of a possible 7, compared with 4.80 for those shown none."
+
+paper:
+  doi: "10.1080/00913367.2025.2451993"
+  title: "Seeing Ad Transparency More Clearly: Public Perception, Use of Ad Transparency Tools, and Responses to Dataveillance"
+  authors: ["Wang, L. H.", "Metzger, M. J.", "Liu, X.", "Qi, L."]
+  authors_full: ["Laurent H. Wang", "Miriam J. Metzger", "Xingyu Liu", "Li Qi"]
+  year: 2025
+  journal: "Journal of Advertising"
+  volume: "54"
+  issue: "2"
+  pages: "213-232"
+  online: "2025-03-18"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Laurent H. Wang"
+      affiliation: "University of California, Santa Barbara, California, USA"
+      orcid: "0000-0002-6795-3039"
+    - name: "Miriam J. Metzger"
+      affiliation: "University of California, Santa Barbara, California, USA"
+      orcid: "0000-0001-8433-8604"
+    - name: "Xingyu Liu"
+      affiliation: "University of California, Santa Barbara, California, USA"
+      orcid: "0000-0002-0032-4430"
+    - name: "Li Qi"
+      affiliation: "University of California, Santa Barbara, California, USA"
+      orcid: "0000-0003-0726-5944"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One survey with an embedded experiment, 1,132 US adults on Prolific (858 control, 137 and 137 in two treatment groups); manipulation check not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Laurent H. Wang,
+      Miriam J. Metzger,
+      Xingyu Liu
+      and Li Qi
+      of the University of California, Santa Barbara looked at the tools that platforms offer people who want to know why an ad
+      found them. These include buttons that explain the targeting behind a single ad, pages listing the interests an
+      advertiser can use, public libraries of past ads and switches that turn personalised ads off. The team wanted two answers.
+      How many people know about and use these tools? And does learning what fed an ad's targeting add to the feeling of being
+      watched?
+
+      Their design was a single survey with a randomised test built into it. Everyone answered questions about their
+      awareness, use and satisfaction with the tools. A smaller group, picked at random, was then shown a screenshot of a personalised ad for a food delivery
+      service on Instagram, next to a panel explaining why the user had seen it. Half of that group saw a short explanation,
+      the kind platforms typically give. The other half saw a long one, built from information that real tools can already
+      reveal. The ad was presented as one shown to some other user, not to the participant.
+    facts:
+      - ["Participants", "1,132 adults living in the US, found through Prolific in March 2024, after speeders and careless answers were removed"]
+      - ["Design", "One survey with an experiment inside it: 274 people were randomly shown a targeting explanation, 858 saw none"]
+      - ["Short explanation", "Two reasons only: the user was over 18 and lived in a given country"]
+      - ["Detailed explanation", "Eight reasons: an age band of 18 to 24, location, inferred interests, language, video viewing, device, activity on and off the app, and other data"]
+      - ["Measured", "Awareness, past use of 14 tool features, feeling watched, knowledge, confidence, privacy attitudes and plans"]
+
+  - h: "People know the idea, not the tools"
+    body: |
+      Awareness was shallow. The typical answer, 2.60 out of 5, fell between having heard the idea and knowing
+      what it means without knowing how it works. Use was thin as well, landing between rarely and sometimes across the 14
+      features listed.
+
+      The pattern of use is telling. People reached for the tools mainly to take control of their own feed: switching
+      personalised ads off, tidying their ad preferences, or checking why one ad turned up. The features built for
+      scrutinising advertisers, such as ad libraries or the amount spent on an ad, were the least used of all. To the authors,
+      this shows that people particularly value opting out and seeing the targeting criteria.
+    chart: tools
+
+  - h: "More detail did not mean more unease"
+    body: |
+      The authors predicted that the long explanation would leave people feeling more closely watched. It did not. Scores on the four-item
+      measure, which asked whether advertisers seem to be looking over your shoulder or watching your every move, were
+      statistically the same in all three groups. The detailed group scored a little higher than the short-explanation group,
+      but neither differed reliably from people who saw nothing.
+
+      Every group scored above 4, the neutral point on that seven-point measure. The authors suggest people arrived with
+      settled views about being tracked, so one screenshot had little room to push them higher. They count this as good news
+      for transparency: the worry that revealing targeting details would spread alarm and make people pull back was not
+      borne out.
+
+      Confidence did move. Both explanations left people more confident about using the tools than those who saw none,
+      and the long version added nothing to confidence beyond the short one.
+    chart: watched
+
+  - h: "Feeling watched shapes what people want"
+    body: |
+      The authors' full chain, from explanation to feeling watched to a response, did not hold, because the explanation never
+      changed how watched people felt. Yet feeling watched mattered on its own. People who felt more closely watched saw more
+      risk and less benefit in personalised ads, felt more negative about them, wanted more information about targeting and
+      more legal protection, and more often planned privacy steps and future use of transparency tools. The link with
+      perceived risk was the strongest.
+
+      Privacy concern changed some of these links. Among highly concerned people, feeling watched went with seeing fewer
+      benefits, a link that did not appear at lower levels of concern, and its tie to negative feelings was strongest. For
+      risk, desire for regulation, planned protection and planned tool use, the link was actually stronger among the less
+      concerned. Privacy cynicism, a sense that nothing you do can keep advertisers away from your data, mattered once: cynical people who felt watched were especially likely to plan on using the tools. All of these
+      are associations from one survey, not effects shown by the experiment.
+
+  - h: "What this means for advertisers"
+    body: |
+      The authors call for wider public awareness of ad transparency and the full range of what the tools can show,
+      especially among people with fewer digital resources who may be more likely to face algorithmic discrimination in ad
+      delivery. They also suggest that the way targeting is explained may matter more than how much is explained, a question
+      they leave for future work.
+
+      For a brand, this is an inference beyond the study: an honest, specific account of who an ad was meant for looks low risk,
+      because a fuller list of reasons did not raise unease. The test, though, used a platform's explanation for a stranger's
+      ad, not a brand speaking to its own customers.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Read your own ad explanations", "Open the 'why this ad' panel on five of your live ads on each platform where you buy ads. Copy every reason it shows into one document."]
+  - ["List the data behind your targeting", "Write one line for each kind of data your campaigns use, such as age, location, interests, site visits or customer lists. Mark any that a customer would be surprised to learn about."]
+  - ["Write a two-sentence targeting note", "For your biggest campaign, explain in everyday words who you wanted to reach and which data placed people in that group. Post it on the landing page or in your privacy questions."]
+  - ["Put the off switch one click away", "Add a link to personalisation and ad settings in your website footer and in every marketing email. Check that it works on a phone."]
+  - ["Test the note against no note", "Show half of your landing page visitors the targeting note and half nothing for two weeks. Compare sign-ups, complaints and opt-outs between the two halves."]
+  - ["Ask how watched customers feel", "Add one question to your next customer survey: how much do brands seem to watch what you do online, from 1 to 7? Repeat it every six months."]
+
+expect:
+  - "**Little risk of alarm.** On this evidence, a fuller targeting explanation leaves feelings of being watched about where they were."
+  - "**A modest knowledge gain.** People shown the detailed explanation rated their knowledge of ad transparency 5.47 out of 7, against 5.02 for people shown nothing; the short version, at 5.32, was not reliably different from the long one."
+  - "**Lukewarm reviews of today's tools.** Past users rated what the tools told them 4.25 out of 7, between neutral and slightly satisfied."
+  - "**No rush to act.** Seeing an explanation did not raise interest in using the tools or the wish for new laws, so a one-off explanation is unlikely to change behaviour."
+
+limits:
+  - "**One screen, one ad.** The test used a single food delivery ad on one platform, and it was targeted at an imaginary stranger rather than at the person answering."
+  - "**A general question.** Feeling watched was asked about advertisers online in general, so people may have reported their usual level rather than a reaction to the screenshot."
+  - "**One country.** All participants lived in the US; people under stronger privacy laws, such as in the European Union, may respond differently."
+  - "**Self-reports.** Tool use, knowledge and plans were all reported by participants, not observed, and some measures were new, with the privacy concern scale only somewhat reliable."
+  - "**Links, not causes.** The ties between feeling watched and later responses come from one survey taken at one time."
+
+faq:
+  - q: "What are ad transparency tools?"
+    a: "Features that show or control why someone sees an ad: buttons that explain a single ad's targeting, ad preference pages, public ad libraries and switches that turn off personalised ads. US adults use them rarely to sometimes, most often to opt out or adjust their preferences (Wang et al., 2025)."
+  - q: "Do ad targeting explanations make people feel spied on?"
+    a: "Not more than they already do. A long list of targeting reasons produced the same level of unease as a brief one or no list at all, and all groups already felt watched to a moderate degree."
+  - q: "Does feeling watched change how people respond to personalised ads?"
+    a: "In this survey it went with seeing more risk and fewer benefits in such ads, more negative feelings about them, firmer plans to protect privacy and more support for laws on targeting. These are associations measured once, not proof of cause."
+  - q: "Do people who feel powerless about privacy give up on transparency tools?"
+    a: "No. Among people high in privacy cynicism, feeling watched was more strongly tied to planning to use transparency tools. The authors suggest such people may see the tools as one of the few defences left."
+  - q: "Should brands give more detail when explaining why someone saw an ad?"
+    a: "Extra detail did not backfire here, and either explanation beat none for confidence in using the tools. The long version added little over the short one, and the authors suggest presentation may matter more than length."
+
+also:
+  - doi: "10.1287/mksc.2023.0373"
+    title: "Choice Architecture, Privacy Valuations, and Selection Bias in Consumer Data"
+    authors: "Lin & Strulov-Shlain"
+    journal: "Marketing Science"
+    year: 2025
+    text: >-
+      A large choice experiment asked people what they would accept to share their Facebook data, while varying two common
+      design choices. Making sharing the default cut the value people put on their data by 22% compared with asking them to
+      opt in, and anchoring the price question on $0 to $50 cut it by 37% compared with a $50 to $100 anchor. Some groups were swayed more by
+      these frames and also valued privacy less, so consent screens tuned for volume can tilt who ends up in the data. A
+      bigger consent rate can mean a less representative customer file.
+  - doi: "10.1108/jrim-04-2024-0189"
+    title: "Are animated in-app banner ads intrusive? Examining the interplay of structural and semantic ad factors"
+    authors: "Maddodi & Upadhyaya"
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2025
+    text: >-
+      Two experiments compared static and animated banner ads inside apps, one varying how well the ad fitted the app and
+      the other how informative it was. Animated banners felt more intrusive than static ones. With animation in play, fit and
+      informativeness were not processed the way they were in static banners, so movement changes how the rest of the ad
+      lands. Movement in a small banner carries a cost in annoyance that belongs in the creative decision.
+
+charts:
+  tools:
+    title: "How often US adults use each ad transparency feature (1 = never, 5 = all the time)"
+    scale: [1, 5]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Turn off personalised ads", 3.08, true]
+      - ["Adjust ad preferences", 2.74, false]
+      - ["Click the 'why this ad' button", 2.60, false]
+      - ["View own ad preferences", 2.35, false]
+      - ["Look up the advertiser", 1.98, false]
+      - ["See who paid for an ad", 1.68, false]
+      - ["Browse an ad library", 1.62, false]
+      - ["See what an ad cost", 1.42, false]
+    source: "Survey of 1,132 US adults, Table 2; eight of the 14 features asked about. Average across all 14: 2.06."
+  watched:
+    title: "Feeling watched by online advertisers, by explanation seen (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["No explanation", 4.82, false]
+      - ["Short: age and country", 4.61, false]
+      - ["Detailed: eight kinds of data", 4.91, true]
+    source: "Embedded experiment: 858 saw no explanation, 137 the short one and 137 the detailed one. The differences were not statistically significant."
+
+related_pages: []
