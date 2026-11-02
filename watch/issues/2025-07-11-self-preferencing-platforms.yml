@@ -1,0 +1,255 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 28                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-07-11"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: self-preferencing-platforms
+status: live
+
+title: "Do online marketplaces push their own products up the search results? What a Journal of Marketing study found"
+dek: >-
+  A platform that runs a marketplace and sells on it could tilt search results towards itself. Daily data on more than
+  5,000 products across three European Amazon marketplaces found little sign of that, and the platform's own brand
+  was shown less than its strengths would justify.
+short_title: "Do marketplaces favour their own products in search?"
+
+description: >-
+  Jürgensmeier and Skiera find little sign Amazon favours its own offers in organic search, and its own brand got about
+  half the visibility of close rivals.
+
+keywords: [self-preferencing, platform self-preferencing, marketplace search rankings, Amazon search results,
+  organic search visibility, private label brands, Amazon Basics, buy box, third-party sellers, Digital Markets Act,
+  platform neutrality, Journal of Marketing]
+topics: [Search, Retail]
+
+image:
+  file: 2025-self-preferencing-platforms.jpg
+  og: 2025-self-preferencing-platforms-og.jpg
+  alt: "A deli counter with trays of meatballs and peas, pasta and savoury pies under small price cards, with wrapped cheeses and rows of sausages on wooden shelves behind"
+  caption: "Whose goods get the front of the counter? On a marketplace, the search ranking decides. Photo: Max Nayman on Unsplash."
+
+short_answer: >-
+  Mostly not, on this evidence. In nonpersonalized organic search on Amazon's German, French and British sites in 2020
+  and 2021, products were not reliably more visible on days Amazon itself was the seller, once price, sales, reviews and
+  delivery were accounted for. The platform's own Amazon Basics brand fared worse: it was about half as visible as
+  comparable rival private labels. The authors found little self-preferencing, and some of the reverse.
+
+takeaways:
+  - "Before adjustment, best-sellers looked 11.4% to 38.6% more visible when Amazon was the default seller; with sales, price, reviews and Prime delivery held constant, the pooled gap fell to 1.7%, indistinguishable from zero."
+  - "Amazon Basics products sold better, cost 1.0% less on average and had 4.5 times as many reviews as their rivals, yet were 9.6% less visible even before adjustment."
+  - "Category by category the picture split: in the buy-box study, 11 category and country pairs showed self-preferencing and 8 showed the reverse."
+  - "Amazon Basics products had 2.9 times the sponsored visibility of comparable rival products, which may offset part of their weaker organic showing."
+
+paper:
+  doi: "10.1177/00222429251360772"
+  title: "Measuring Self-Preferencing on Digital Platforms"
+  authors: ["Jürgensmeier, L.", "Skiera, B."]
+  authors_full: ["Lukas Jürgensmeier", "Bernd Skiera"]
+  year: 2025
+  journal: "Journal of Marketing"
+  volume: ""
+  issue: ""
+  pages: ""
+  online: "2025-07-11"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "Lukas Jürgensmeier"
+      affiliation: "Department of Marketing, Faculty of Economics and Business, Goethe University Frankfurt, Germany"
+      orcid: "0000-0002-0808-5147"
+    - name: "Bernd Skiera"
+      affiliation: "Department of Marketing, Faculty of Economics and Business, Goethe University Frankfurt, Germany"
+      orcid: "0000-0001-9285-2013"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two observational panel studies on Amazon.de, .fr and .co.uk, May 2020 to January 2021: Study 1 (buy box, 2,276 products in eight samples, 445,042 daily observations) and Study 2 (Amazon Basics vs rival private labels, 3,227 products, 592,742 daily observations); the 300-person UK shopper survey (Web Appendix A) supports variable choice and is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Lukas Jürgensmeier and Bernd Skiera of Goethe University Frankfurt in Germany tackled a question that regulators,
+      sellers and shoppers keep asking about big online marketplaces. Many platforms run the marketplace and also sell on it,
+      as a retailer or through their own brands. That gives them a motive to rank their own offers a little higher. The
+      EU's Digital Markets Act now bans this practice, known as self-preferencing, on the largest platforms, yet there was
+      no settled way to test for it.
+
+      Shoppers suspect it happens. In a side survey of 300 frequent online shoppers in the UK, 78% expected a platform's
+      search results to favour its own products, and 94% said those results shape what they choose.
+
+      The pair built a test and ran it on Amazon's marketplaces in Germany, France and the UK. Their yardstick was organic search
+      visibility: how high a product sits in the free, non-sponsored results, summed over one million searches a day and
+      weighted by each phrase's search volume and by how likely people are to click each position. A search analytics
+      firm recorded the results in anonymous sessions, with no account or cookies, so no shopper's history could shape
+      them. A price-tracking service supplied each product's daily price, sales rank, reviews, ratings, seller and
+      delivery option.
+
+      The core idea is a fair comparison. A platform's own offer may deserve a higher place if it sells better or ships
+      faster. So the test asks whether that offer is more visible than a rival with the same price, sales record, reviews
+      and delivery. A gap that survives those checks counts as self-preferencing. A gap the other way round is
+      self-depreferencing.
+    facts:
+      - ["Where", "Amazon.de, Amazon.fr and Amazon.co.uk, serving the three largest economies in Europe"]
+      - ["When", "Daily data from 27 May 2020 to 23 January 2021, a stretch that included the pandemic"]
+      - ["Products", "5,503 products and 1,037,784 daily observations across the two studies"]
+      - ["Visibility", "Position in the free results across one million searches, weighted by search volume and click likelihood, recorded without personalization"]
+      - ["Held constant", "Sales rank, price with delivery, number of reviews, star rating, seller rating and fast delivery"]
+      - ["Two tests", "The same product with the platform or another seller as default seller; the platform's own brand against close private-label rivals"]
+
+  - h: "Why one search phrase can mislead"
+    body: |
+      Earlier checks mostly looked at a handful of keywords. The authors demonstrate the risk. One own-brand pack of
+      rechargeable AA batteries on the UK site ranked for 815 search phrases. Yet of the 7,744 phrases in the keyword set
+      containing both "rechargeable" and "battery", it turned up for only 150, about 1.9%.
+
+      Word order alone can flip a verdict. For one phrasing, the own-brand pack came first and a well-known rival brand
+      second. With the words rearranged, the two swapped places. A test built on either phrase would reach
+      opposite conclusions. Summing visibility over a million searches smooths out that noise and gives each product
+      something close to its share of the whole marketplace's attention.
+
+  - h: "When the platform is the seller"
+    body: |
+      On many listings several sellers offer the same item, and the marketplace picks one for the buy box, the default
+      seller behind the "add to basket" button. Industry estimates cited in the paper give that seller 80% to close to
+      90% of the product's sales. Study 1 followed the same products over 242 days and asked whether they ranked better
+      on the days Amazon held the box.
+
+      The data covered 2,276 products in eight samples: best-sellers in each country, mid-ranking sellers in Germany, and
+      four German categories (groceries, scents, backpacks and batteries). Among best-sellers, Amazon held the buy box on
+      70.4% of days. In a later check across the three sites as a whole, it supplied only about a quarter of products
+      with an active buy box, so it competes hardest where sales are highest.
+
+      Taken raw, Amazon's days looked better. But its offers also sold more, had more reviews and nearly always came with
+      fast Prime delivery, while other sellers were a little cheaper. Once those differences were held constant, one
+      estimate in nine stood out: French best-sellers, 4.9% more visible with Amazon as seller. The British estimate sat
+      4.0% below zero, and the five other German samples ranged from 3.4% below zero to 23.7% above it, none of them
+      reliable. That amounts, by the authors' account, to very weak evidence of self-preferencing.
+
+      Splitting best-sellers by category showed more texture. Favoured categories in Germany included books, toys and
+      games, and groceries; in France, beauty and car and motorbike products; in the UK, only pet supplies. The UK
+      accounted for seven of the eight cases leaning the other way. Neither pattern lined up with the commission the
+      platform charges other sellers in each category, and some of these cells rest on few observations.
+
+  - h: "When the platform's own brand competes"
+    body: |
+      Study 2 turned to Amazon Basics, the platform's own label. Here there is no shared listing: the own-brand item
+      competes with other firms' private labels. Each Amazon Basics product was grouped with up to five rival private
+      labels from the same narrow branch of the category tree, such as men's ski gloves, each sold by a single
+      non-Amazon seller. The sample held 749 own-brand and 2,478 rival products, tracked for 241 days.
+
+      On the measures shoppers use, the own brand looked like the stronger product, yet it drew less organic visibility
+      even before any adjustment. After adjustment the shortfall grew to roughly half in every country. Broken down by
+      category, the own brand was held back in most cases and favoured in none. Dropping comparison groups whose
+      products might differ in ways the data could not capture left the result unchanged.
+    chart: own_brand
+
+  - h: "Why would a platform hold back its own brand?"
+    body: |
+      The authors offer reasons they could not test directly. An own label is easy to recognise, so favouring it would
+      be obvious to shoppers and regulators. Who holds the buy box, by contrast, only shows once a shopper opens a
+      listing. Commissions of 8% to 15% on other sellers' sales may earn as much as selling its own goods, with less
+      risk. EU rules allow fines of up to 10% of global revenue, and 20% for repeat breaches. And the platform sells
+      advertising to those same sellers. Its ad business brought in US$56 billion in 2024, and sellers who felt they
+      could not compete might stop buying it.
+
+      One more pattern caught their eye. Own-brand products appeared far more often in sponsored slots than their rivals,
+      so paid placement may make up for some of what the free results withhold. Whether the platform's retail arm pays a
+      market rate for those slots is, they note, an open question.
+
+  - h: "How sure can we be?"
+    body: |
+      Testing a platform from outside forces choices: how to model visibility, which comparisons to hold fixed, how to
+      compute the margins of error, and what seller rating to give Amazon, which has none on its own marketplace. The
+      team ran every combination, 972 setups in all. For the pooled best-sellers, the main result matched the most
+      common outcome. The French lift survived in roughly one setup in five. In Study 2, more than three quarters of
+      setups in each country found the own brand held back, and not one found it favoured.
+
+      A second kind of test, which checks whether products given equal visibility go on to sell equally well, also
+      found no sign of self-preferencing. Only a hidden factor on which the platform's own offers score worse, but
+      which pushes visibility up, could overturn the conclusion. The authors judge that unlikely given the platform's
+      record on delivery and service.
+    chart: spec
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List the phrases shoppers really type", "Write down 50 search phrases for each of your main products, including plurals, reworded versions and the same words in a different order. Ask your customer service team which words customers use."]
+  - ["Search while logged out", "Open a private browser window with no account signed in and run every phrase. Note where your product and your three closest rivals sit in the free results, and skip anything marked as sponsored."]
+  - ["Turn positions into one score", "Give each position points, such as 10 for first place, 5 for second to fifth and 1 for the rest of page one. Multiply by how often each phrase is searched and add up the totals for each product."]
+  - ["Put rivals side by side on the basics", "Next to each score, write the price with delivery, star rating, number of reviews, delivery speed and sales rank. A rival that beats you on these should outrank you. Flag only the cases where it does not."]
+  - ["Repeat the check weekly for eight weeks", "Run the same phrases on the same weekday each week. On shared listings, note who is the default seller each time, and compare your score on days the marketplace sells the item itself with the other days."]
+  - ["Act on a gap that lasts", "If a rival with weaker basics keeps outranking you for a month, test sponsored listings on those phrases for four weeks. Keep a dated log for seller support, and move stock and budget towards channels that rank you fairly."]
+
+expect:
+  - "**No smoking gun, on average.** Across three countries and two kinds of competition, the free results showed little sign of tilting towards the platform's own offers."
+  - "**Wide swings by category.** Some categories leaned one way and some the other, so what one seller sees can differ a lot from the overall picture."
+  - "**Paid slots are a separate story.** Organic rankings are only part of what shoppers see, and sponsored placements can shift visibility in other directions."
+  - "**Raw comparisons mislead.** Offers the platform sells itself often look more visible simply because they sell more and ship faster. Compare like with like before concluding anything."
+
+limits:
+  - "**One platform, one kind of placement.** Only organic search on three of Amazon's European sites was measured, not badges, recommendations or other ways to favour an offer."
+  - "**Logged-out searches only.** Results seen by signed-in shoppers with a purchase history were not observed. The authors argue favouritism would be rarer there, but that is reasoning rather than data."
+  - "**An older snapshot.** The data come from 2020 and 2021, during the pandemic and before the EU passed its Digital Markets Act."
+  - "**Borrowed measures.** The click-likelihood weights come from an analytics firm that keeps its method secret, and the platform has no seller rating of its own, so one had to be assumed."
+  - "**Not a compliance certificate.** Nothing here proves the platform obeys bans on self-preferencing, the authors warn. Advantages such as access to its own data lie beyond what outsiders can test."
+  - "**Thin cells.** Several category and country estimates rest on few observations and are noisy."
+
+faq:
+  - q: "What is self-preferencing on a digital platform?"
+    a: "It happens when a platform that also sells on its own marketplace treats its offers better than comparable offers from other sellers, for instance by placing them higher in search results. A sound test compares like with like, holding constant what shoppers weigh, such as price and reviews (Jürgensmeier & Skiera, 2025)."
+  - q: "Does Amazon rank its own products higher in search?"
+    a: "Not in the free search results studied here. In the three European marketplaces examined, products sold by Amazon gained no dependable edge once their strengths were allowed for, and Amazon Basics products were less visible than comparable rival private labels in all three countries."
+  - q: "What is self-depreferencing?"
+    a: "The reverse case: a platform shows its own offers less than they merit. It looks less unfair than favouritism, but it is still a departure from neutral treatment, which is why the test checks both directions."
+  - q: "Why do some studies find the opposite?"
+    a: "An earlier study found Amazon displayed its brands more prominently, using personalized results for shoppers who buy at least twice a month. Such shoppers may simply like the platform's brands more, and personalized results would reflect that. Logged-out searches avoid the confusion, and the authors suggest comparing both kinds of results on the same products."
+  - q: "How can a seller check whether a marketplace treats it fairly?"
+    a: "Track rankings across many search phrases rather than one, using logged-out searches, and compare them with rivals that match on price, delivery, reviews and sales. The paper sets out six steps for this, ending with a check on how much the answer depends on the choices made along the way."
+
+also:
+  - doi: "10.1177/00222437251358177"
+    title: "The Influential Solo Consumer: When Engaging in Activities Alone (vs. Accompanied) Increases the Impact of Recommendations"
+    authors: "Wu & Ratner"
+    journal: "Journal of Marketing Research"
+    year: 2026
+    text: >-
+      Reviews often mention whether the writer went alone or with company. Across Tripadvisor data and five experiments,
+      recommendations from people who did an activity on their own carried more weight, because readers credited a solo
+      reviewer's verdict to the experience itself rather than to the company. When other cues already explained why the
+      person took part, such as a stated motive, the solo edge shrank. A plain "I went on my own" is quietly persuasive.
+  - doi: "10.1111/ijcs.70090"
+    title: "The More They Engage, the More They Consume: A Meta‐Analysis of the Impact of Brand's Owned Social Media User Engagement on Sales"
+    authors: "Yin, Hao, Chu, & Fu"
+    journal: "International Journal of Consumer Studies"
+    year: 2025
+    text: >-
+      Pooling 1,240 effect sizes from 40 publications, with a combined sample of 1,880,154, this meta-analysis finds that
+      engagement with a brand's own social channels (likes, comments, shares) goes hand in hand with higher sales. The link was stronger
+      for hedonic brands than for utilitarian ones, for new products than for mature ones, and on microblogs than on
+      social networks, and it was stronger again where the platform carried no advertising. Engagement on owned channels
+      belongs in the sales forecast, not only in the community report.
+
+charts:
+  own_brand:
+    title: "How much less visible the platform's own brand was than close private-label rivals, after adjustment (%)"
+    scale: [0, 60]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Germany", 49.5, true]
+      - ["France", 46.0, false]
+      - ["United Kingdom", 48.2, false]
+    source: "Study 2: 749 own-brand and 2,478 rival products, 592,742 daily observations; estimates from the published Figure 4. All three gaps are statistically significant."
+  spec:
+    title: "Buy-box test, pooled best-sellers: verdicts of 972 alternative model setups (% of setups)"
+    scale: [0, 80]
+    step: 20
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Platform's offer favoured", 3, false]
+      - ["No detectable difference", 63, true]
+      - ["Other sellers favoured", 34, false]
+    source: "Study 1, best-sellers from Germany, France and the UK pooled (1,344 products); shares as reported for Figure 7. The main model also found no detectable difference."
+
+related_pages: []
