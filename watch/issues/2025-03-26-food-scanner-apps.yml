@@ -1,0 +1,243 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 14                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-03-26"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: food-scanner-apps
+status: live
+
+title: "Do food scanner apps sway shoppers more than the nutrition grade on the pack? What a Psychology & Marketing study found"
+dek: >-
+  Phone apps that grade groceries now compete with the scores printed on packs. Four studies from France show the app
+  wins only in particular cases: a bad score, a brand without a big name, and a shopper who does not put official sources first.
+short_title: "When scanner apps beat the label on the pack"
+
+description: >-
+  Cornudet et al. find a poor score in a food scanner app deters shoppers more than the same grade on the pack, except for
+  a market leader or label loyalists.
+
+keywords: [food scanner apps, Yuka app, Nutri-Score, front-of-pack nutrition labels, nutrition labelling, consumer distrust,
+  brand equity, healthier food choices, perceived healthiness, food marketing, Psychology & Marketing]
+topics: [Retail, UGC]
+
+image:
+  file: 2025-food-scanner-apps.jpg
+  og: 2025-food-scanner-apps-og.jpg
+  alt: "A man in a mustard turtleneck and brown turban reaches for a snack packet on a supermarket shelf, orange displays blurred behind him"
+  caption: "The grade on the pack is no longer the only verdict a shopper can check. Photo: Dollar Gill on Unsplash."
+
+short_answer: >-
+  Sometimes, and mainly when the score is bad. Among 407 French adults tested online, a poor rating on a phone app that
+  grades food put people off an orange juice brand more than the same poor grade printed on the pack. A second
+  experiment found the app's extra bite held for a mid-range brand but not for the market leader, and grew as shoppers'
+  trust shifted from official labels towards apps.
+
+takeaways:
+  - "Compared with showing no grade, a poor score in the app cut ratings of the juice brand by 1.63 points out of 7, while the same poor grade on the pack cut them by 0.94."
+  - "Good grades barely registered: they nudged brand ratings up by 0.30 points on the pack and 0.35 in the app, too little to count as a real lift."
+  - "77.1% of people surveyed linked front-of-pack labels to governments or big companies, against 26.6% for scanner apps."
+  - "Almost half the shoppers (49.5%) trusted the official label more than the app and 21.7% leaned the other way; the app's extra pull grew as trust tilted towards the app."
+
+paper:
+  doi: "10.1002/mar.22214"
+  title: "When Food Scanner Apps Outperform Front‐of‐Pack Nutrition Labels: A Conditional Process Model to Foster Healthier Food Choices in Times of Growing Distrust"
+  authors: ["Cornudet, C.", "Laporte, M.-E.", "Berger-Remy, F.", "Parguel, B.", "Richet, J.-L."]
+  authors_full: ["Camille Cornudet", "Marie-Eve Laporte", "Fabienne Berger-Remy", "Béatrice Parguel", "Jean-Loup Richet"]
+  year: 2025
+  journal: "Psychology & Marketing"
+  volume: "42"
+  issue: "8"
+  pages: "1963-1978"
+  online: "2025-03-26"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Camille Cornudet"
+      affiliation: "Laboratoires CEROS, Paris Nanterre University, Nanterre, France"
+      orcid: ""
+    - name: "Marie-Eve Laporte"
+      affiliation: "Université Paris-Saclay, RITM, Sceaux, France"
+      orcid: "0000-0001-8801-2257"
+    - name: "Fabienne Berger-Remy"
+      affiliation: "University Paris Dauphine - PSL, DRM [ERMES], UMR CNRS 7088, Paris, France"
+      orcid: "0000-0002-8763-0042"
+    - name: "Béatrice Parguel"
+      affiliation: "University Paris Dauphine - PSL, DRM [M-Lab], UMR CNRS 7088, Paris, France"
+      orcid: ""
+    - name: "Jean-Loup Richet"
+      affiliation: "IAE Paris - Sorbonne, Université Paris 1 Panthéon-Sorbonne, Paris, France"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 4
+    basis: "Four studies as reported: content analysis of 16,222 Google Play reviews; survey of 87 French panel members; online experiment with 407 French adults; online experiment with 604 French adults as stated (listed group sizes sum to 614)"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Camille Cornudet of Paris Nanterre University, Marie-Eve Laporte of Université Paris-Saclay,
+      Fabienne Berger-Remy and Béatrice Parguel of Université Paris Dauphine-PSL, and
+      Jean-Loup Richet of IAE Paris-Sorbonne set out to settle a running argument. More and more shoppers scan barcodes with
+      apps that grade food, yet earlier studies disagree on whether those apps improve diets or do less than
+      the official labels on packs. So the team narrowed it down: when, exactly, does the app come out ahead?
+
+      They worked in France with Yuka, an app launched in 2017 that scores products from 0 to 100 in four colours and says it
+      has no ties to the food industry. Its rival here was Nutri-Score, the A to E grade printed on many European packs.
+      Yuka reports 34 million users worldwide, 18 million of them in France, and bases 60% of its food score on Nutri-Score,
+      which made a fair comparison possible.
+
+      Two exploratory studies came first: a mining of the app's reviews on Google Play and a short survey about who people
+      think stands behind each kind of score. Two online experiments then tested the ideas, both built around orange juice,
+      a category that can plausibly score well or badly.
+    facts:
+      - ["Study 1", "16,222 reviews of the Yuka app on Google Play, posted between December 2017 and June 2023"]
+      - ["Study 2", "Survey of 87 French panel members on the source they credit for each score and how far they trust it"]
+      - ["Study 3", "407 French adults saw an orange juice with a good or poor score, on the pack or in the app, or with no score"]
+      - ["Study 4", "More than 600 French adults saw a poor score for a mid-range juice brand or for the market leader"]
+      - ["Scores shown", "Poor: E on the pack, or 11/100 in the app. Good: B on the pack, or 71/100"]
+      - ["Measured", "How healthy the juice seemed, and whether people rated the brand well, would buy it and would recommend it, each scored from 1 to 7"]
+
+  - h: "Why users see the app as being on their side"
+    body: |
+      Four themes ran through the reviews. Almost three in four discussed the app itself, its database and its barcode
+      scanning. More than four in ten mentioned the way it proposes a better product, a similar share talked about the food
+      industry and its lobbies, and about four in ten described eating better. The themes overlapped, and talk of
+      alternatives and of the industry often turned up in the same review.
+
+      The tone was often combative. Reviewers cast the app as a small French start-up taking on multinationals, David against
+      Goliath, and wrote about feeling back in control of what they eat. The authors read two forces into this: the app makes
+      people feel capable, and it channels distrust of powerful players.
+
+      The survey pointed the same way. Most people placed front-of-pack labels with public authorities or large firms; few
+      placed the app there. Overall trust in the two sources was not reliably different. What counted was who people
+      believed was behind a score. Whichever signal they tied to small, independent players earned more of their trust, and
+      the gap was widest for the app (4.53 against 2.71 on the survey's trust scale).
+
+  - h: "A poor score lands harder in the app"
+    body: |
+      In Study 3, poor scores from either source lowered the brand's ratings compared with seeing no score at all. In the
+      authors' view, shoppers start from a positive default: without a warning, they assume a juice is
+      fine, so a favourable grade only confirms what they already believed.
+
+      The app's poor score hurt more than the label's. It made the juice seem less healthy, and that impression
+      accounted for the lower rating of the brand. Once perceived healthiness was allowed for, the app had no
+      further pull of its own.
+
+      Why would the same verdict sting more on a phone? The authors suggest two reasons, neither tested directly. Apps
+      let people scan, dig into details and see alternatives, which can make the verdict feel like their own discovery. And
+      the scales differ: a score of 11 in red, out of a possible 100, may simply look worse than a letter E, even though the two are meant to match.
+    chart: valence
+
+  - h: "Big brands shrug it off"
+    body: |
+      The second experiment showed only poor scores and brought in a second brand. Réa, the mid-range juice from the first
+      test, was set against Tropicana, the category leader, which people in the no-score groups rated clearly higher on brand
+      strength (4.36 against 3.58 out of 7). Everyone also said how much they trusted scanner apps and how much they trusted
+      Nutri-Score, and subtracting one answer from the other gave each person a trust gap score.
+
+      For Réa, the earlier pattern came back: against no score, the app's poor rating pulled the brand down by 1.67 points and
+      the label's by 1.11. For Tropicana, the source of the bad news did not matter. The
+      authors trace this to a strong brand working as its own shortcut, one that overrides other cues.
+
+      Trust shaped the result as well. Among people who trusted the label far more than the app, the app lost its edge even
+      for Réa. The edge was clear among people who trusted both equally and largest among those who trusted the app more.
+    chart: brands
+
+  - h: "What the authors advise"
+    body: |
+      For policymakers, the message is that independent apps can complement official labels by reaching distrustful shoppers
+      whom a government-backed grade struggles to convince. The authors cite a French dispute in which Yuka rated some
+      nitrite-cured meats such as ham red and flagged them as carcinogenic. The charcuterie industry went to court, the app
+      won, and producers, well-known brands among them, then removed nitrites from these products.
+
+      For brand managers, the advice depends on brand strength. A leader can lean on its name, so the authors frame its task as
+      mainly ethical: taking responsibility for healthier eating, since nutrition signals will not force the issue. Smaller,
+      local or start-up brands have more to gain from better recipes, because an app that suggests swaps can send shoppers
+      their way when a leader scores badly. That last point is the authors' argument; the swap suggestions themselves were never
+      put to the test.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Scan your best sellers", "Take your ten best-selling products and scan each one in the two food scanner apps your shoppers use most. Write down the score, the colour and any swap the app suggests instead."]
+  - ["Ask who your buyers believe", "In your next shopper survey, have people score their trust in the official grade on the pack, and in scanner apps, each from 1 to 7. Count how many give the app the higher score."]
+  - ["Fix the worst score first", "Pick the product with the lowest app score. Agree one recipe change that would move it up a colour band, such as less sugar or fewer additives, before you spend more on promoting it."]
+  - ["Check the data the apps hold", "Compare each product's ingredients and nutrition values in the apps with your current pack. Send a correction with a clear photo of the label within a week of any recipe or pack change."]
+  - ["Aim to be the suggested swap", "Scan the market leader's version of each product you sell. If the app rates it badly, see whether yours comes up as the alternative, and note the score you would need to get there."]
+  - ["Rescan every quarter", "Repeat the scans every three months and after every recipe change. Keep the scores in one sheet next to your sales and go through it with your product team each time."]
+
+expect:
+  - "**Damage control more than growth.** On this evidence, lifting a poor score mainly stops shoppers being put off; a favourable grade did little to win them over. This is our inference from stated ratings, not from sales."
+  - "**Your audience sets the app's weight.** The app outdid the label only among people who trusted it about as much or more. Where most buyers prefer the official grade, the label will carry more of the load."
+  - "**A name is a cushion.** A leading brand blunted any contrast between app and pack, while a mid-range brand took the full force of the app's verdict."
+  - "**Noticeable, not dramatic.** The app's extra penalty for a poor score was a little over half a point out of seven."
+
+limits:
+  - "**Screens, not shops.** People looked at a still image of the app or the pack on a computer; nobody scanned a real product with their own phone."
+  - "**One signal at a time.** In real shops the pack grade and the app often appear together, a combination the experiments left untested."
+  - "**One drink.** Orange juice is a breakfast staple. Indulgent foods such as ready meals, or eating out, may behave differently."
+  - "**Self-reports and single questions.** Brand ratings and plans to buy were stated, and trust in each source rested on one question apiece."
+  - "**Accuracy not checked.** The study did not ask whether the app's scores are nutritionally sound, a point nutrition experts still dispute."
+
+faq:
+  - q: "Are food scanner apps more effective than front-of-pack nutrition labels?"
+    a: "Only in some situations. A bad rating in the app put shoppers off more than an equally bad grade on the packaging. That edge appeared with a mid-range brand rather than the category leader, and for people who trusted the app about as much as the label or more (Cornudet et al., 2025)."
+  - q: "Why do some shoppers trust scanner apps more than official labels?"
+    a: "Because of who they think is behind them. Most people assume official grades come from the state or big business, while app users often describe the app as an independent underdog. In the survey, trust in either kind of score rose when people attributed it to small, independent players."
+  - q: "Do strong food brands need to worry about scanner apps?"
+    a: "Less than smaller ones. For the market leader tested, a poor score did no more harm coming from the app than from the pack, which the authors attribute to the brand's reputation acting as its own guide for shoppers. The authors still argue that leading brands carry a responsibility for healthier eating."
+  - q: "Do the results apply outside France?"
+    a: "That is untested. France has seen falling trust in health policy, which may make independent apps unusually persuasive there. The same app runs in several other markets, including the UK, Canada and the United States, but both experiments sampled French adults only."
+
+also:
+  - doi: "10.1108/intr-10-2023-0866"
+    title: "Is being human-like beneficial? The effect of anthropomorphism on chatbot persuasion in e-commerce"
+    authors: "Yang et al."
+    journal: "Internet Research"
+    year: 2026
+    text: >-
+      Two lab experiments on shopping chatbots compared a human-like way of talking with a human-like look. Language mattered
+      more, and it worked against the sale: human-sounding replies made the bot seem a less effective communicator, which
+      lowered intentions to buy, and pairing that language with a human-like appearance made things worse. Why people were
+      shopping shaped the effect, with plain machine-like wording looking strongest for practical products. Sometimes the bot
+      that sounds like a bot sells better.
+  - doi: "10.1108/jrim-11-2024-0509"
+    title: "Effects of online managerial responses on observing customers: the impact of failure severity and complainant communication ability"
+    authors: "Floriano"
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2025
+    text: >-
+      A survey of 671 Brazilian consumers looked at what onlookers take from a company's public replies to complaints. Quick
+      and personalised responses both raised observers' satisfaction, because they read as competence and commitment, and
+      the study traced the effect on to purchase intentions. A complainant who explained the problem clearly strengthened the payoff from
+      personalisation, while a serious failure weakened it. When something has gone badly wrong, the people reading over the
+      customer's shoulder care more about speed than a tailored tone.
+
+charts:
+  valence:
+    title: "Rating of the juice brand after a poor or a good nutrition score (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Poor score on the pack", 3.87, false]
+      - ["Poor score in the app", 3.33, true]
+      - ["Good score on the pack", 5.19, false]
+      - ["Good score in the app", 5.25, false]
+    source: "Study 3, 407 French adults, mid-range brand; means as reported in the text. Only the gap between the two poor scores was significant."
+  brands:
+    title: "Extra drop in how healthy the juice seemed when the poor score came from the app, not the pack (1 to 7 scale)"
+    scale: [0, 1.5]
+    step: 0.5
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Mid-range brand, trusts label more", 0.19, false]
+      - ["Mid-range brand, equal trust", 1.05, true]
+      - ["Mid-range brand, trusts app more", 1.34, true]
+      - ["Market leader, trusts label more", 0.30, false]
+      - ["Market leader, equal trust", 0.31, false]
+      - ["Market leader, trusts app more", 0.31, false]
+    source: "Study 4, poor scores only; effects from Table 2, sign reversed to show the size of the drop, at a trust gap of 3 points either way and at zero. Significant only where highlighted."
+
+related_pages: []
