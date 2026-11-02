@@ -1,0 +1,246 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 19                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-05-10"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: listing-photo-uniqueness
+status: live
+
+title: "Do listing photos that stand out win more bookings? What a Journal of Consumer Research study found"
+dek: >-
+  On Airbnb and other peer-to-peer sites, buyers judge one-off offers mostly from pictures. A model trained on New York
+  listing photos, then checked against people's eyes and choices, shows that looking different pays only up to a point,
+  and that strong ratings let bolder listings go further.
+short_title: "Stand out in your listing photos, but not too far"
+
+description: >-
+  Feng et al. scored 481,747 Airbnb photos for visual uniqueness: bookings rose with it up to a point, then fell, and good
+  ratings softened the fall.
+
+keywords: [visual uniqueness, Airbnb listing photos, peer-to-peer marketplaces, listing photo tips, product photography,
+  image analytics, machine learning in marketing, contrastive learning, eye tracking, host ratings, Journal of Consumer Research]
+topics: [Creative, AI, Retail]
+
+image:
+  file: 2025-listing-photo-uniqueness.jpg
+  og: 2025-listing-photo-uniqueness-og.jpg
+  alt: "Three pressed-glass goblets with a thumbprint pattern in cobalt blue, olive green and amber on a white background, the green one standing upright between two turned upside down"
+  caption: "Three of a kind, and the eye goes straight to the one that breaks the pattern. Photo: Meg MacDonald on Unsplash."
+
+short_answer: >-
+  Up to a point. A model rated how distinct each New York Airbnb photo looked next to all the others. Set against
+  occupancy, the scores traced an arc: listings with fairly ordinary pictures gained as those pictures grew more
+  distinctive, but beyond a middle level demand slipped again. Very distinctive homes lost less when guests rated them highly and hosts replied
+  quickly. Tested as a simple straight line, uniqueness showed no link to bookings at all.
+
+takeaways:
+  - "For listings on the rising side of the arc, photos one standard deviation more distinctive went with 15.9% higher occupancy, worth roughly $9,810 in extra yearly revenue for an average New York listing, by the authors' reckoning, if it stays open all year."
+  - "Editing out three or four objects the model had flagged, such as lamps, a pillow or wall art, made online viewers about 22 percentage points less likely to choose that photo as one of the most unique."
+  - "Each extra point on the model's scale raised the chance that lab participants put a photo among their three most unique, out of 12, by about 4 percentage points."
+  - "In the authors' worked example, lifting the guest rating from 80 to 90 out of 100 was worth roughly nine times more to a listing past the sweet spot than to one still short of the peak."
+
+paper:
+  doi: "10.1093/jcr/ucaf021"
+  title: "Visual Uniqueness in Peer-to-Peer Marketplaces: Machine Learning Model Development, Validation, and Application"
+  authors: ["Feng, X.", "Li, C. X.", "Zhang, S."]
+  authors_full: ["Xiaohang (Flora) Feng", "Charis X Li", "Shunyuan Zhang"]
+  year: 2025
+  journal: "Journal of Consumer Research"
+  volume: "52"
+  issue: "4"
+  pages: "800-825"
+  online: "2025-05-10"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, author notes and ORCID iDs)
+    - name: "Xiaohang (Flora) Feng"
+      affiliation: "Carnegie Mellon University, Pittsburgh, PA 15213, United States"
+      orcid: "0009-0000-0124-0610"
+    - name: "Charis X Li"
+      affiliation: "Grenoble Ecole de Management (GEM), 38000 Grenoble, France"
+      orcid: "0000-0001-7199-0644"
+    - name: "Shunyuan Zhang"
+      affiliation: "Marketing Unit, Harvard Business School, Boston, MA 02163, United States"
+      orcid: "0000-0001-5604-9522"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 4
+    basis: "Three validation studies (Study 1 eye-tracking lab, 212 students; Study 2 lab choice task, 288 students; Study 3 online test with edited photos, 399 MTurk adults) plus the demand application (14,121 New York Airbnb listings over 13 months, 95,673 listing-months); model trained and tested on 481,747 photos; web-appendix robustness checks not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Xiaohang (Flora) Feng of Carnegie Mellon University in Pittsburgh, Charis X Li of Grenoble Ecole de Management in France
+      and Shunyuan Zhang of Harvard Business School looked at a dilemma that every host and second-hand seller knows. On a
+      peer-to-peer marketplace no two offers look alike, and buyers size them up mainly from photos. Should your pictures look
+      different from everyone else's, and if so, how different? The paper grew out of Feng's doctoral dissertation, which Li
+      and Zhang supervised.
+
+      The hard part was measuring it. Earlier work judged a product against a typical example of its category, but there is
+      no typical Airbnb flat. So the team built a model that compares every photo with many others and scores how far each
+      one stands out, without any human ratings to learn from.
+
+      The work then ran in three steps: train the model on the New York pictures, check its scores against people in three
+      studies, and link the scores to 13 months of occupancy for more than 14,000 listings.
+    facts:
+      - ["Photos", "481,747 images from New York listings in 192 zip codes, gathered every month from April 2022 to April 2023"]
+      - ["How the model learns", "By comparing each photo with randomly drawn others, so no human labels were needed"]
+      - ["Checks with people", "Eye tracking with 212 students and a choice task with 288 students, both at European universities, plus an online test with 399 adults in North America"]
+      - ["Booking data", "14,121 listings over 13 months from the data firm AirDNA, 95,673 listing-months in all"]
+      - ["Held constant", "Price, ratings, reviews, amenities, size, local supply, county and month, plus how attractive and how cluttered the photos were"]
+
+  - h: "How a machine judges what stands out"
+    body: |
+      The model never saw a human rating. It took each photo, made two slightly altered copies (flipped, blurred, turned grey
+      or shifted in colour) and tried to pick that pair out of a batch of 256 randomly drawn photos. A picture whose two copies
+      stay easy to match among strangers is one that looks unlike its neighbours, so it earns a higher uniqueness score. On
+      61,012 photos held back for testing, the model's first guess was the right partner 73.1% of the time, within the 60% to
+      80% range of leading models of this kind.
+
+      Each score comes with a heat map showing which parts of the picture push it up (red) or down (blue). In one bedroom that
+      scored 14, the red sat on bookshelves either side of the bed, an orange blanket and a bicycle hung on the wall. In a
+      bathroom that scored 2, the blue gathered around the toiletries.
+
+      Uniqueness in this sense is neither beauty nor busyness. Across all the photos, the scores were essentially unrelated to
+      an algorithm's rating of how attractive a picture is (a correlation of minus 0.01) and to the number of objects in it
+      (0.0088).
+
+  - h: "Do people see what the model sees?"
+    body: |
+      Three studies put the scores in front of people. In an eye-tracking lab, 212 students wore tracking glasses and browsed
+      12 real listing photos, eight bedrooms and four living rooms, as if planning a New York trip. Photos with higher scores
+      held their gaze longer and drew more glances, with correlations of 0.65 and 0.60 across the images. The aesthetics
+      rating did not predict where they looked, and simpler pictures pulled in more attention than busy ones.
+
+      In the second study, 288 students chose the three most unique photos from the same sets and then clicked five spots that
+      made each choice special. Their clicks landed where the heat maps were red, for example on a plush toy, a curtain and a
+      lamp in one bedroom. Photos the aesthetics algorithm rated as better looking were actually less likely to be chosen.
+
+      The third study tested cause and effect. The team removed the objects flagged in red from three photos that had each
+      scored 14, and the model's scores for them collapsed. Shown collages of six photos online, 399 adults were much less
+      likely to call the edited versions unique. Removing objects from blue areas, the authors note, would raise a score instead.
+    chart: edits
+
+  - h: "Bookings follow an arc"
+    body: |
+      With the model checked, the team gave every listing a monthly score by averaging its photos and set that against
+      occupancy. Tested as a straight line, uniqueness had no link with demand. Allowed to curve, it traced an inverted U:
+      occupancy climbed as photos grew more distinctive, peaked at a score of 12.61 and then declined. The authors read the
+      decline as uncertainty. A home that looks like nothing else is intriguing, but guests are less sure what they will get.
+
+      The average listing scored 12.85, close to the peak, and listings ranged from about 8 to 16. Because the curve is
+      steepest at its ends, the biggest gains and losses belong to listings far from the middle in either direction.
+
+      The shape held when demand was counted in reserved days, when the score was calculated in two other ways, and when the
+      analysis also allowed for how far each photo sat from the average New York listing photo. Listings whose photos were
+      consistent with one another did better than sets that swung between very plain and very unusual shots.
+
+  - h: "Good ratings make bold photos safer"
+    body: |
+      If the decline comes from uncertainty, anything that reassures guests should soften it. The team tested two such
+      signals: the share of enquiries a host answers within 24 hours, and the listing's overall guest rating. Both flattened
+      the arc, so distinctive listings lost less at the far end when hosts were responsive and past guests were happy.
+
+      To put money on it, the authors compared two otherwise average listings, one scoring 10, below the peak, and one scoring
+      14, beyond it. The same improvement in either signal was worth far more to the bolder listing, and a better rating
+      counted for more than faster replies.
+    chart: trust
+
+  - h: "What the authors suggest"
+    body: |
+      For platforms, the authors see room to feature listings with the right level of distinctiveness in campaigns and on
+      social media, to add a uniqueness score to search and recommendations, and to show the most unusual homes to guests who
+      are looking for something new.
+
+      For hosts, they picture a tool that does not exist yet: an Airbnb feature that scores each photo and shows its heat map,
+      to guide redecorating or the choice of pictures. In their data, simply dropping each listing's least distinctive photo
+      lifted the average listing score by 0.53 standard deviations.
+
+      The method should travel to other places crowded with one-off images, such as Instagram, property sites like Zillow or
+      Amazon's marketplace. The authors insist the model would need retraining on pictures from each new setting; the New York
+      scores cannot simply be reused.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Put your photos in the line-up", "Search your marketplace the way a buyer would and screenshot the first 20 listings that compete with yours. Drop your own photos into the same grid and note which ones you would scroll past."]
+  - ["Rate every shot for difference", "Score each of your photos from 1 to 5 for how different it looks from the other listings in the grid. Circle any picture that could belong to anyone, such as a bare hallway or a plain bathroom."]
+  - ["Add one memorable object per room", "Give each main room one or two things a buyer will remember, such as a bright throw, a full bookshelf or a bike on the wall. Keep the rest of the frame calm so the eye finds them."]
+  - ["Cut the dullest shot and even out the set", "Remove the photo you scored lowest. Then look at the set as a whole: no picture should be far plainer or far stranger than the others, and the later photos deserve the same care as the cover."]
+  - ["Back an unusual look with reassurance", "If your listing now looks out of the ordinary, answer every enquiry within a few hours and put your rating and best reviews where buyers see them first. Ask each happy customer for a review within two days."]
+  - ["Change one photo at a time", "Swap a single photo, then compare views, saves and bookings over the next four weeks with the four weeks before. Keep the change only if the numbers improve, and stop adding quirks once they start to slip."]
+
+expect:
+  - "**An arc, not a ladder.** Distinctive photos help only until a listing hits the sweet spot. Beyond that, extra quirkiness costs bookings rather than winning them."
+  - "**Room for trial and error.** What makes a photo stand out is particular to that photo, so the authors expect hosts to test changes rather than follow a fixed recipe."
+  - "**Reassurance has to come with it.** On this evidence, a very unusual look sits best with listings that already have strong ratings and quick replies; without them it carries more risk."
+  - "**Illustrations, not forecasts.** The dollar figures assume a listing open every day of the year and an effect that lasts all year, so read them as a sense of scale."
+
+limits:
+  - "**One city, one platform.** Every photo and booking came from New York Airbnb listings, so other cities, other marketplaces and other kinds of product may behave differently."
+  - "**Listings, not clicks.** Demand was measured per listing per month. The data cannot tell whether a single photo drew more clicks, views or messages."
+  - "**Pictures only.** Titles, descriptions and reviews were left out, although they also shape how unusual a listing seems."
+  - "**Observational bookings.** The authors used instruments and many controls to rule out other explanations, but hosts chose their own photos, so the link with demand is not an experiment."
+  - "**Student panels in the lab.** The eye-tracking and choice tasks used students at European universities; only the edited-photo test drew on a broader online sample."
+  - "**The theory guided the model but was not tested.** The idea that people judge uniqueness by comparing whole images with one another was assumed in building the model, not examined directly."
+
+faq:
+  - q: "Do Airbnb listings with unique photos get more bookings?"
+    a: "Up to a point. Across more than 14,000 New York listings, occupancy rose with the distinctiveness of the photos only until the middle of the range; the most unusual listings did worse again (Feng et al., 2025)."
+  - q: "How is visual uniqueness defined here?"
+    a: "How much an image stands apart from the other images a viewer is comparing it with, judged on the whole picture rather than a checklist of features. It is a separate quality from how attractive or how cluttered a photo is."
+  - q: "Is Airbnb's search ranking behind the effect?"
+    a: "Probably not. Without access to the ranking algorithm, the authors ran searches across different prices and dates and looked at 270 results spread over 15 pages each time. A listing's uniqueness was not linked to where it appeared."
+  - q: "Does the cover photo matter most?"
+    a: "Not by itself, at least in this data. Once the rest of the set was allowed for, the cover photo's distinctiveness made no measurable difference, while the average of the other photos followed the same arc. The authors think guests weigh the full set before they book."
+  - q: "Can sellers on other marketplaces use this?"
+    a: "The approach, yes; the scores, no. A model would first need fresh training on images from the new setting, such as a resale app, a property site or an online store, before its scores meant anything there."
+
+also:
+  - doi: "10.1108/jcm-09-2024-7221"
+    title: "Brand posts with memes on social media: perceived humor and consumer engagement"
+    authors: "Sewak, Lee, & Haderlie"
+    journal: "Journal of Consumer Marketing"
+    year: 2025
+    text: >-
+      Six studies, five experiments plus an analysis of real brand posts on X, compared posts built around a meme with posts
+      without one. Meme posts came across as funnier, and that humour brought more likes and shares. The format backfired in
+      cause-related campaigns, where memes lowered engagement. A joke can carry a light message, while a serious cause may
+      need a straighter voice.
+  - doi: "10.1108/ijrdm-10-2023-0583"
+    title: "Will consumers pay for e-fashion? A multi-study investigation"
+    authors: "Pino, Pichierri, & Sit"
+    journal: "International Journal of Retail & Distribution Management"
+    year: 2025
+    text: >-
+      Three studies, one of them in a real buying situation, asked what people will pay for digital clothes, garments that
+      exist only on screen. The more unique shoppers judged a digital piece to be, the more they were willing to pay. The
+      effect was stronger among sensation seekers and among people who normally like to handle a product before judging it.
+      For virtual fashion, uniqueness looks like the thing worth charging for.
+
+charts:
+  edits:
+    title: "Model uniqueness score for three listing photos, before and after editing out flagged objects"
+    scale: [0, 16]
+    step: 4
+    unit: ""
+    decimals: 1
+    bars:
+      - ["Each photo as listed", 14, true]
+      - ["A: pillow, lamps, wall art out", 4.4, false]
+      - ["B: toy, lamps, carpet, ottoman out", 2.5, false]
+      - ["C: TV, books, wall art out", 3.1, false]
+    source: "Study 3, the three photos edited for the online test with 399 adults; all three originals scored 14. Scores from the same model, as reported in the paper."
+  trust:
+    title: "Estimated extra revenue a year from stronger trust signals, in US dollars"
+    scale: [0, 3000]
+    step: 500
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Replies 80% to 90%, below peak", 91.4, false]
+      - ["Replies 80% to 90%, past peak", 394.1, false]
+      - ["Rating 80 to 90, below peak", 291.3, false]
+      - ["Rating 80 to 90, past peak", 2658.8, true]
+    source: "Demand model, 14,121 New York listings. The authors' worked example for two otherwise average listings scoring 10 (below the peak) and 14 (past it), open all year."
+
+related_pages: []
