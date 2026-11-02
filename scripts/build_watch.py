@@ -87,6 +87,11 @@ def topic_slug(t: str) -> str:
 # and is the only date readers see, as "Paper published ..."); `published` holds the day the page went live (metadata only).
 LIVE_YEAR = "2026"
 LOOKBACK_YEARS = ("2025", "2024")   # newest first; add a year here to open its tab
+# Look-back years shown on the published site. Bruno (2 Nov 2026): hide the 2025 and 2024 tabs until each year's
+# whole batch is ready, then release it by adding the year here, e.g. ("2025", "2024"). Until then a published build
+# (PUBLISH=1) leaves those issues out everywhere: no issue pages, no year tab or chip, no topic-page, "Keep reading"
+# or llms.txt entries. Local builds without PUBLISH still show every year, so the tabs can be checked before release.
+RELEASED_LOOKBACK: tuple = ()
 
 
 def is_lookback(d: dict) -> bool:
@@ -897,6 +902,8 @@ def main() -> int:
         d["_file"] = f.name
         if os.environ.get("PUBLISH") == "1" and d.get("status") != "live":
             continue
+        if os.environ.get("PUBLISH") == "1" and is_lookback(d) and series_of(d) not in RELEASED_LOOKBACK:
+            continue   # look-back year not released yet (see RELEASED_LOOKBACK)
         data.append(d)
     data.sort(key=lambda d: d["week_of"])
     keep = {d["slug"] for d in data}
