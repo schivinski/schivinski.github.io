@@ -1,0 +1,237 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 17                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-04-25"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: vibration-cart-adds
+status: live
+
+title: "Does a phone vibration on add-to-cart make shoppers buy more? What a Journal of Consumer Research study found"
+dek: >-
+  More and more shopping apps buzz the moment a product lands in the cart. Four experiments and a seven-day trial in a
+  grocery chain's own app show that a buzz of about 0.4 seconds feels like a small reward, and people add a little
+  more to their orders because of it.
+short_title: "How a short buzz on add-to-cart nudges baskets up"
+
+description: >-
+  Hampton and Hildebrand find a 0.4-second phone buzz on each add-to-cart feels like a reward and lifted items per order
+  in a week-long grocery app field test.
+
+keywords: [haptic feedback, phone vibration, mobile vibrations, add to cart, shopping cart, mobile commerce, app design,
+  haptics in marketing, impulse buying, online grocery shopping, digital nudge, Journal of Consumer Research]
+topics: [Retail, Service]
+
+image:
+  file: 2025-vibration-cart-adds.jpg
+  og: 2025-vibration-cart-adds-og.jpg
+  alt: "A hand with deep red nail polish and a thin ring grips a teal smartphone in soft daylight, the other hand raised to the chin against a pale blue jumper"
+  caption: "A buzz you barely notice can still change what ends up in the cart. Photo: Konstantin Shmatov on Unsplash."
+
+short_answer: >-
+  A little, if the buzz is the right length. When each add to the cart came with a vibration lasting roughly 0.4
+  seconds, people added more, because the shopping felt more rewarding. Over one week in a Swiss grocery chain's app
+  with 6,866 customers, orders placed with the buzz held 54.60 items on average against 53.15 without it. A buzz eight times
+  longer did no better than none, and impulsive shoppers seemed to respond most.
+
+takeaways:
+  - "Of eight buzz lengths from 0.025 to 3.2 seconds, the 0.4-second one felt most like a reward while staying among the least unpleasant."
+  - "People given a buzz as feedback on each tap added more than 3 times as many items in 90 seconds as people given a text confirmation: 205 against 64."
+  - "In a lab shop with 137 people, baskets filled with a buzz on every add were worth about 27% more than baskets filled without one."
+  - "In the real app test, net sales per order rose by about 1.6% for the customers who got the buzz."
+
+paper:
+  doi: "10.1093/jcr/ucaf025"
+  title: "Haptic Rewards: How Mobile Vibrations Shape Reward Response and Consumer Choice"
+  authors: ["Hampton, W. H.", "Hildebrand, C."]
+  authors_full: ["William H. Hampton", "Christian Hildebrand"]
+  year: 2026
+  journal: "Journal of Consumer Research"
+  volume: "52"
+  issue: "5"
+  pages: "1043-1070"
+  online: "2025-04-25"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "William H. Hampton"
+      affiliation: "Institute of Behavioral Science and Technology, University of St Gallen (HSG), Torstrasse 25, 9000 St Gallen, Switzerland"
+      orcid: "0000-0002-2411-4294"
+    - name: "Christian Hildebrand"
+      affiliation: "Institute of Behavioral Science and Technology, University of St Gallen (HSG), Torstrasse 25, 9000 St Gallen, Switzerland"
+      orcid: "0000-0003-4366-3093"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 5
+    basis: "Five numbered studies: Study 1 (389, MTurk), Study 2 (385, Prolific, preregistered), Study 3a (263, online), Study 3b (137, Swiss lab) and Study 4 (field experiment, 6,866 grocery app customers); the paper's preregistered Pilot Study (943) is among its 'six studies' but is a pilot and not counted, nor are web-appendix studies C1 to C3"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      William H. Hampton and Christian Hildebrand, both of the Institute of Behavioral Science and Technology at the
+      University of St Gallen in Switzerland, studied a design detail that shopping apps have quietly adopted. Amazon,
+      ASOS and Zara Home have all made their apps vibrate when a shopper adds a product, each with a buzz of a
+      different length, from a brief pulse to about half a second. Hampton also leads UX research at a technology company
+      in the United States.
+
+      Their starting idea is that a phone's buzz works as a learned reward. Most vibrations announce something pleasant,
+      such as a message from a friend or a new like, so over time the buzz itself starts to feel good. If that holds, a buzz
+      paired with an action should make people repeat the action.
+
+      Earlier work on vibration mostly used custom hardware. This team used ordinary devices and changed one thing only:
+      how long the buzz lasted. A pilot found the most rewarding length. Four experiments followed, online and in a lab,
+      and then a field test in the shopping app of a major grocery chain in Switzerland.
+    facts:
+      - ["Pilot", "943 adults from the United States and Britain, on their own Android phones, rated vibrations of eight lengths, 25 to 3,200 milliseconds"]
+      - ["Experiments", "389, 385 and 263 adults recruited online, plus 137 people in a Swiss lab using identical tablets"]
+      - ["Field test", "6,866 regular app customers of a chain with about 2,500 stores, split at random by odd or even customer number, for one week in November 2021"]
+      - ["What changed", "Whether a buzz came with each add, how long it lasted, and in one experiment whether a sound or a text message took its place"]
+      - ["Measured", "Items added, basket value and net sales, plus how rewarding, satisfying and trustworthy the task felt"]
+      - ["Shared", "Non-proprietary data and the analysis scripts are on OSF"]
+
+  - h: "Finding a buzz that feels like a reward"
+    body: |
+      In the pilot, each person felt eight vibrations in random order, from a 25-millisecond flick to a buzz of more than
+      three seconds. After each one they rated how far it felt like a reward, how pleasant, alerting or punishing it was.
+      Reward ratings rose with length and then fell away again, tracing an inverted U. Arousal simply kept climbing.
+
+      The peak fell somewhere from 0.4 to 0.8 seconds. Those two felt about equally rewarding, but the shorter one was rated less
+      unpleasant and less punishing, so the team used 0.4 seconds in everything that followed. In the authors' view the
+      sweet spot is probably a band around that value rather than one exact number.
+
+      People who scored higher on a standard impulsivity questionnaire found the vibrations a little more rewarding across
+      every length, though the link was modest.
+
+  - h: "The right buzz brings more taps"
+    body: |
+      The first experiment stripped shopping down to its core. For 90 seconds people could tap a button to add items to a
+      picture of a box, with no reason to do so beyond the task itself. Every tap brought the same on-screen confirmation
+      and counter. One group felt nothing extra, one felt the 0.4-second buzz and one a 3.2-second buzz.
+
+      The short buzz led to clearly more taps than either alternative. The long one was rated more arousing and less
+      familiar, yet it did no better than no buzz at all. That pattern argues against the idea that any jolt, or anything
+      new, is what drives the effect. Allowing for how arousing and how novel each buzz felt left the result in place.
+    chart: taps
+
+  - h: "Better than a sound or a message"
+    body: |
+      The second experiment kept the box but changed the comparison. Each add now brought a text confirmation, a standard
+      notification tone or the short buzz. The tone came closer to the buzz than the text did, about 30 fewer adds, and
+      that gap could have been chance.
+
+      What set the buzz apart was how the task felt. Only the buzz made tapping feel more rewarding than both alternatives.
+      It also made the screen seem more responsive. Yet when the team tested which of these feelings explained the extra
+      taps, only the sense of reward did. How noticeable the feedback was, ease of use, stress and comfort were the same
+      across the three versions.
+    chart: reward
+
+  - h: "From a test shop to a real grocery app"
+    body: |
+      Next came a mock grocery website modelled on a large real one: six aisles of 30 products, with three items on every
+      page marked down by 20%. Among 263 US adults shopping online, those who felt a buzz with each add put 32.04 items in
+      the cart on average, against 28.51 without. Their baskets came to $157.88 against $142.39, a gap that was not
+      statistically clear. Buzzed shoppers also rated the trip as more rewarding and more satisfying and trusted the
+      interface more (5.07 against 4.47 out of 7), but once again only the reward explained the extra items.
+
+      The same shop then ran on identical tablets in a Swiss lab, which removes differences between phones and online
+      panels. The 137 participants added 18.94 items with the buzz and 16.29 without. They also picked up slightly more
+      discounted lines, 4.30 against 3.44, though that difference fell just short of significance.
+
+      Finally, the grocery chain changed its own app. Customers were assigned by whether their ID number was odd or even,
+      and nothing else differed between the two versions. The team set aside accounts placing three or more orders a week,
+      which on the partner's advice were treated as business buyers working from fixed lists. The gain in items per order
+      held after allowing for age, gender and whether people shopped on Android or iOS.
+
+  - h: "Who responds most"
+    body: |
+      The lab experiment also measured impulsivity. Among the more impulsive shoppers, those who found the buzz more
+      rewarding added more items. Among the less impulsive, how rewarding the buzz felt made no difference to their
+      baskets. The result sat at the edge of statistical significance and became a little clearer once the team allowed
+      for how much people shop and use their phones.
+
+      The authors see a warning in this. Impulsive buyers and younger, heavier phone users may be the most open to the
+      nudge, and they point to apps where that matters more than groceries, such as gambling or trading. They also flip
+      the idea around: because long buzzes felt punishing, these might help people curb habits they want to break, such
+      as compulsive buying. That suggestion has not been tested.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Pick the one tap that matters", "Choose a single action in your app to pair with a buzz, such as add to cart or save for later. Keep every other tap silent so the buzz stays special."]
+  - ["Check who can feel it", "Look in your app analytics for how many customers shop on phones rather than tablets or computers. If only a few do, spend your effort somewhere else first."]
+  - ["Tune the length before launch", "Set the vibration to about 400 milliseconds as a starting point. Try 300 and 500 as well, on a new phone and an old one, and drop any version that feels like an alarm."]
+  - ["Disclose it and make it optional", "Add one plain sentence about the buzz to your onboarding screens or release notes. Put an on and off toggle under the app's sound and haptics options."]
+  - ["Assign customers at random", "Give the buzz to one group and not the other, for example by odd and even account numbers. Keep the test going for seven days or more, then compare items and spend per order."]
+  - ["Watch the side effects", "Keep an eye on returns, cancelled orders and complaints in both groups every week. Check results by age band, and give older customers a slightly longer buzz if theirs lag."]
+
+expect:
+  - "**Smaller in the wild.** The gain was largest in controlled tasks and smallest in the real app, where people used dozens of phone models and some had vibration switched off."
+  - "**Browsers move, list shoppers do not.** Business customers reordering from set lists showed no response at all to the buzz."
+  - "**No sense of being pushed.** Shoppers who felt the buzz reported more freedom to shop their own way, not less."
+  - "**Length beats presence.** A buzz that runs too long can wipe out the benefit, so tuning matters more than simply switching vibration on."
+
+limits:
+  - "**Only length was varied.** Strength, rhythm and frequency stayed fixed, so their effects are unknown."
+  - "**Mostly Android.** Online participants needed an Android phone that could vibrate; only the field test included iPhones."
+  - "**Untuned rivals.** The sound and the text message were ordinary ones, not designed to feel rewarding, so a better sound might close the gap."
+  - "**One week.** Whether the buzz keeps working once shoppers grow used to it was not tested."
+  - "**Thin evidence on impulsivity.** The finding about impulsive shoppers rests on one lab group of 137 and a borderline result."
+  - "**Adds only.** Every test paired the buzz with putting items in a cart; other actions were not tried."
+
+faq:
+  - q: "Do phone vibrations make people buy more?"
+    a: "Slightly. Pairing a short buzz with each add-to-cart tap raised the number of items people bought in online and lab shops, and in a real grocery app the gain was small but statistically reliable (Hampton & Hildebrand, 2026)."
+  - q: "How long should a haptic buzz be?"
+    a: "About 0.4 seconds worked best of the lengths tried, and the authors think values within roughly 50 to 100 milliseconds of it may do as well. Very short pulses felt less rewarding, and a buzz of 3.2 seconds felt clearly less rewarding than the shorter one."
+  - q: "Is a vibration better than a notification sound?"
+    a: "In a simple tapping task the buzz drew more adds than a standard tone, although that gap was not statistically clear, and far more than a text confirmation. It was the only feedback that made the task itself feel more rewarding."
+  - q: "Why would a buzz change what people put in their cart?"
+    a: "The authors argue that phones teach us to link a vibration with good news, so a short buzz acts as a small learned reward. In their tests that feeling of reward, not novelty, arousal, trust or satisfaction, carried the effect on cart adds."
+  - q: "Should apps tell users about haptic nudges?"
+    a: "The authors think so. They suggest explaining the buzz during onboarding or app updates, remind consumers they can switch vibration off, and urge extra care with impulsive users."
+
+also:
+  - doi: "10.1111/ijcs.70060"
+    title: "Hit the Road, Cart: A Study on Affect and Online Shopping Cart Abandonment"
+    authors: "Silva, Fortes, Bairrada, & Coelho"
+    journal: "International Journal of Consumer Studies"
+    year: 2025
+    text: >-
+      Why do shoppers leave items sitting in their carts? An experiment with 112 people and a survey of 311 tie it to mood.
+      People in a positive frame of mind abandoned carts less often, while those high in negative feelings put off decisions,
+      online and off, and left more behind. Reminders that make finishing the order feel easy, rather than urgent, fit what
+      seems to drive the delay.
+  - doi: "10.1002/mar.22220"
+    title: "Image‐Left, Text‐Right: The Horizontal Sequence Effect of Images and Text on Consumer Responses to in‐Feed News"
+    authors: "Chai, Chang, & Li"
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Four studies on purpose-built news sites found people more willing to click, and warmer towards an item, when its
+      picture sat to the left of the text rather than the right. The order made the item easier to take in. The effect
+      faded for people with little need for structure and reversed for readers used to right-to-left scripts. Feed layouts
+      deserve a test in each market rather than a copy from the last one.
+
+charts:
+  taps:
+    title: "Items added to the box in 90 seconds, by the buzz that came with each tap"
+    scale: [0, 40]
+    step: 10
+    unit: ""
+    decimals: 2
+    bars:
+      - ["No buzz", 24.94, false]
+      - ["0.4-second buzz", 33.06, true]
+      - ["3.2-second buzz", 19.85, false]
+    source: "Study 1, 389 adults online. The 3.2-second buzz did not differ reliably from no buzz."
+  reward:
+    title: "How rewarding the tapping task felt, by type of feedback (average rating)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Text confirmation", 2.80, false]
+      - ["Notification tone", 3.02, false]
+      - ["0.4-second buzz", 3.48, true]
+    source: "Study 2, 385 US adults online. The text and the tone did not differ reliably from each other."
+
+related_pages: []
