@@ -1,0 +1,255 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 20                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-05-19"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: ideology-ai-recommendations
+status: live
+
+title: "Does political ideology change who follows AI recommendations? What a Journal of Consumer Psychology study found"
+dek: >-
+  Across six online studies and one paid ad on Facebook, people who described themselves as conservative were readier than liberals
+  to take an AI suggestion for a recipe, a film or a playlist. The reason, the authors argue, is a taste for consistency:
+  most of us assume the algorithm is learning from our own past.
+short_title: "Who says yes to the algorithm's picks, and why"
+
+description: >-
+  Paul et al. find conservatives accept everyday AI recommendations more readily than liberals, since the picks feel
+  consistent with their past, in seven studies.
+
+keywords: [AI recommendations, recommendation systems, political ideology, conservatives and liberals, personalization,
+  preference for consistency, resistance to change, recommendation acceptance, streaming recommendations, Facebook ad test,
+  Journal of Consumer Psychology]
+topics: [AI, Personalization]
+
+image:
+  file: 2025-ideology-ai-recommendations.jpg
+  og: 2025-ideology-ai-recommendations-og.jpg
+  alt: "A person in a fluffy orange jumper and olive beanie browses racks of zines and small books beside a sunlit shop window, a painted mural behind the glass and a yellow film light leak along the left edge"
+  caption: "Some shoppers want the next find to feel like the last one. Photo: Christian Mack on Unsplash."
+
+short_answer: >-
+  Yes, for everyday picks. In six online studies with 1,548 people and a Facebook ad test, those who rated themselves
+  conservative were more willing than liberals to follow AI suggestions for recipes, films and music. The authors attribute
+  this to a stronger preference for consistency, because people assume these systems learn from their own past. Where the AI
+  could not know that past, or offered something unlike it, the gap disappeared.
+
+takeaways:
+  - "Given a choice of two music apps, 74% of conservatives and 60% of liberals picked the one promising suggestions close to their past taste."
+  - "A single Facebook ad for AI playlists drew 27 clicks from 8,152 impressions in conservative-voting areas and 16 from 12,750 in liberal-voting ones."
+  - "For people told they had only just downloaded a music app, the difference vanished: 5.42 for conservatives and 5.66 for liberals out of 9."
+  - "The gap is real but modest: willingness to watch a smart TV's film suggestion averaged 5.48 among conservatives and 4.83 among liberals, scored from 1 to 9."
+
+paper:
+  doi: "10.1002/jcpy.1461"
+  title: "Swipe right: When and why conservatives are more accepting of AI recommendations"
+  authors: ["Paul, I.", "Mohanty, S.", "Wadhwa, M.", "Parker, J."]
+  authors_full: ["Iman Paul", "Smaraki Mohanty", "Monica Wadhwa", "Jeffrey Parker"]
+  year: 2026
+  journal: "Journal of Consumer Psychology"
+  volume: "36"
+  issue: "1"
+  pages: "3-17"
+  online: "2025-05-19"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Iman Paul"
+      affiliation: "Feliciano School of Business, Montclair State University, Montclair, New Jersey, USA"
+      orcid: "0000-0003-2641-1433"
+    - name: "Smaraki Mohanty"
+      affiliation: "Love School of Business, Elon University, Elon, North Carolina, USA"
+      orcid: "0000-0003-4459-5256"
+    - name: "Monica Wadhwa"
+      affiliation: "Fox School of Business, Temple University, Philadelphia, Pennsylvania, USA"
+      orcid: ""
+    - name: "Jeffrey Parker"
+      affiliation: "University of Illinois at Chicago, Chicago, Illinois, USA"
+      orcid: "0000-0003-4587-9381"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 7
+    basis: "Six online studies with 1,548 participants (204, 297, 236, 287, 285, 239) plus one Facebook ad field test; three pilots and a supplementary survey (192) not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Iman Paul of Montclair State University,
+      Smaraki Mohanty of Elon University,
+      Monica Wadhwa of Temple University and
+      Jeffrey Parker of the University of Illinois at Chicago
+      took on a question that cuts against a common assumption. Earlier work has found conservatives warier than liberals of
+      several technologies, from self-driving cars to AI-run checkouts. So you might expect them to be slower to accept what an
+      algorithm suggests. The team tested the opposite idea for everyday choices: that a recommendation built on your own
+      history is a way of staying consistent, and that people who value consistency more will take it up more readily.
+
+      Across six online studies, participants pictured using a recipe website, a smart TV or a music app and rated their
+      chances of following the suggestion it made. One study asked for a real choice between two apps, and a final test
+      ran a paid ad on Facebook. Political ideology was never manipulated. In the online studies people simply placed themselves on
+      a scale, and the analysis compared answers along it.
+    facts:
+      - ["Participants", "1,548 people across six online studies, recruited through Amazon Mechanical Turk and the Connect research panel"]
+      - ["Ideology", "One self-rating from 1 (extremely liberal) to 8 (extremely conservative); 1 to 4 counted as liberal, 5 to 8 as conservative"]
+      - ["Settings", "A recipe website, film picks on a smart TV and a music streaming app, plus six services in a supplementary survey"]
+      - ["Measured", "Likelihood of following the suggestion on 1 to 9 scales; one real app choice; clicks on one ad"]
+      - ["Field test", "A paid playlist ad on Facebook, run for four days in March 2024 in US areas grouped by their 2020 presidential vote"]
+      - ["Checks", "Three pilot surveys on what people believe drives AI suggestions; Studies 3, 4a and 5 were preregistered"]
+
+  - h: "What people think a recommender knows"
+    body: |
+      The argument rests on a belief, so the team checked it first. In one pilot survey, 104 people split 100 points across
+      the things they think shape the AI suggestions offered for films, music, podcasts, short videos and books. Their own preferences and past behaviour
+      took the biggest share, 40.8%. Popular trends got 24.7%, what the provider wanted them to choose got 23.3%, and anything
+      else 11.2%. A second pilot with separate ratings for each factor, and a third about films, music and recipes, told the
+      same story.
+
+      Crucially for what follows, liberals and conservatives held this belief equally. In Study 2, both groups expected a
+      smart TV's film pick to match their viewing history to a similar degree (6.32 and 6.01 out of 9, not a reliable
+      difference). And in Study 1, telling people outright that a recipe suggestion was based on their past did not change
+      the results, which suggests people assume it anyway.
+
+  - h: "A readier yes from conservatives"
+    body: |
+      Study 1 put 204 people on an imagined cooking website. The more conservative a participant's self-rating, the higher
+      their stated chance of cooking the recipe the site's AI suggested, whether or not the basis of the suggestion
+      was spelled out. Study 2 moved the test to a film recommended by a smart TV and found the same direction with 297 people.
+
+      A supplementary survey of 192 people widened the net to six kinds of company a customer might have used for years: a
+      film and TV streaming service, an audiobook and podcast service, music streaming, recipe delivery, a wine club and an
+      online clothing shop. Averaged across all six, conservatives were more inclined to accept AI suggestions (6.80 against
+      6.35). They scored higher in every category, although not every single gap was statistically clear.
+
+  - h: "Why: a preference for consistency"
+    body: |
+      Study 3, with 236 people, measured two traits alongside the familiar smart TV scenario. Resistance to change was captured
+      with four statements adapted from an established scale, such as preferring a routine day to one full of surprises.
+      Preference for consistency used three, including whether past choices are a good guide to what you will like next.
+
+      Conservatives scored higher on both, 5.15 against 4.66 for resistance to change and 6.87 against 6.28 for
+      consistency, each out of 9. They were also readier to watch the suggested film (5.98 against 5.32). The statistical
+      test supported a chain running in that order: a self-rating further to the right went with more resistance to change,
+      which went with a stronger wish for consistency, which in turn made a yes more likely.
+
+  - h: "When the gap closes"
+    body: |
+      If history is what makes the suggestion appealing, the effect should fade when the AI has no history to draw on.
+      Study 4a tested that with 287 people and a music app. Half were told it was their fifth anniversary on the app, half
+      that they had just downloaded it. Among the long-time users, conservatives were keener on the suggested playlist
+      (7.01 against 6.40 out of 9). Among the newcomers the difference disappeared, and even tipped slightly the other way,
+      without reaching significance.
+
+      Study 4b kept the customer's tenure fixed and changed the pick itself. A film described as matching past viewing lifted
+      conservatives' willingness by 2.00 points over one described as unlike what they usually watch; for liberals the
+      shift was 0.67. In the appendix, conservatives did not expect an easier decision from history-based picks, but they did
+      find them more credible.
+    chart: matched
+
+  - h: "Real choices and a real ad"
+    body: |
+      Study 5 swapped ratings for a choice with something at stake. 239 people chose between two music apps, one promising
+      suggestions very close to their past picks and one adding novelty and surprise, and one in ten would receive a $5 app
+      store credit for the premium version of the app they chose. The more conservative the participant, the likelier the
+      familiar app. It also won a majority among liberals, a sign, in the authors' view, of conservatives seeking
+      consistency rather than liberals shunning it.
+
+      Study 6 ran one Facebook ad for "AI-powered playlists inspired by your past listening preferences" in two sets of
+      US zip codes, one in areas that voted Republican and the other where Democrats won, with the platform's estimated
+      audience size matched and a budget of $5 a day. The ad reached 2,892 people in the conservative areas and 4,453 in
+      the liberal ones, and the click-through rate was higher in the conservative set.
+    chart: clicks
+
+  - h: "Everyday picks are not high stakes"
+    body: |
+      How does this square with work showing conservatives trust AI less? The authors draw a line between risky and routine
+      decisions. Earlier findings of lower trust came from consequential tasks such as driving and medical diagnosis, and
+      the closest earlier test on music found no ideology effect when people were asked how far they would trust AI without
+      being told what it would base its picks on (Castelo & Ward, 2021). Here the choices were low-risk, from services people
+      knew, with a clear or easily inferred link to their own past.
+
+      The authors suggest that services with recommendation engines could do well with conservative segments, reachable
+      through geography such as electoral maps, and that stressing the link to a customer's own history should raise the appeal of such services.
+      Because the familiar framing did not cost them liberals, they see no trade-off between the two groups. They also float
+      using the same framing for new original content and for robo-advice; neither was tested here.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Find every place you recommend", "List each spot where your site, app or emails suggest something: home screen rows, 'you may also like' boxes, follow-up emails. Note which of them tell people why the item was picked."]
+  - ["Find your repeat customers", "Pull out the customers who reorder, replay or rewatch the same kinds of things. Three repeat orders or plays in the last 90 days is a simple cut-off to start with."]
+  - ["Give every pick a reason", "Add a short line tying each suggestion to the customer's own history, such as 'Because you cooked the lentil curry'. Keep it under ten words and name one real past item."]
+  - ["Seed a history for newcomers", "Ask new sign-ups to choose three favourites before you show any personal suggestions. Until they have, label what you show as popular choices, not picks made for them."]
+  - ["Test familiar against fresh", "Run two versions of one recommendation email or ad for two weeks. One promises more of what the customer already likes, the other something new. Change nothing else."]
+  - ["Read the results group by group", "Compare clicks and follow-through for repeat customers, newcomers and each region you serve, not only the total. Check your ad platform's rules before grouping people by anything linked to politics."]
+
+expect:
+  - "**Modest shifts.** Where effect sizes were reported, ideology accounted for roughly 3% of the spread in willingness to follow a suggestion. Treat it as one signal among many."
+  - "**No cost with the other side.** Framing a pick around the customer's past did not lower liberals' willingness in these tests."
+  - "**The history has to be believable.** The lift appeared only when the service could plausibly know the person, through years of use or a pick tied to past viewing."
+  - "**Small numbers in the field.** The ad test spent $5 a day for four days and earned 43 clicks in all, so use it to shape your own tests, not as a forecast."
+
+limits:
+  - "**Imagined choices.** Five of the seven studies were scenarios that people rated rather than lived. Only one choice carried a real reward."
+  - "**Areas, not individuals.** The Facebook test grouped places by how they voted and ran a single ad, so other differences between those places are not ruled out."
+  - "**One political scale.** Ideology was a single self-rating on a liberal-to-conservative line with no middle point, split in two. Countries with many parties were not examined."
+  - "**Routine categories only.** Recipes, films, music and similar services. The authors expect different responses where the stakes are high."
+  - "**Not only about AI.** A follow-up in the appendix found a similar pattern for a human recommender who knows the customer, so the driver may be the link to past choices rather than the machine."
+
+faq:
+  - q: "Are conservatives more likely to accept AI recommendations?"
+    a: "For everyday choices such as recipes, films and music, on average yes. Across seven studies, people with a more conservative self-rating were more inclined to go along with an AI pick, as long as it could plausibly rest on their own history (Paul et al., 2026)."
+  - q: "What makes people who resist change welcome an algorithm's suggestions?"
+    a: "Because most people believe these suggestions mirror what they have liked before. Following one is then a quick way to stay consistent, and conservatives in these studies said they value consistency more."
+  - q: "Doesn't other research show conservatives distrust AI?"
+    a: "That work mostly concerns high-stakes uses such as self-driving cars and medical diagnosis. This paper looks at low-risk picks from services people already use, where conservatives came out more accepting, not less."
+  - q: "Will telling customers a pick is based on their history put liberals off?"
+    a: "Not in these tests. Liberals' willingness did not fall when picks were tied to their past, and a majority of them also chose the app that stayed close to their taste."
+  - q: "How was political ideology measured?"
+    a: "Each participant placed themselves on an eight-point line running from extremely liberal to extremely conservative. The analyses used that rating as it stood and also split people into two groups at the middle. The ad test classed whole areas by how they voted for president in 2020."
+
+also:
+  - doi: "10.1002/mar.22225"
+    title: "That's Not What Happened: Dealing With Consumer-Generated Fake Retaliatory Reviews"
+    authors: "Sadeghein, Fitzgerald, & He"
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Fake retaliatory reviews are negative reviews posted to hurt a business rather than to describe a visit. Some owners
+      answer with replies meant to make the reviewer feel ashamed or guilty, which risks unsettling everyone else reading
+      along. This work tests how prospective customers react and finds that even a shame appeal, framed the right way, can
+      shrink the damage. The reply matters most for firms with lower star ratings or a shorter track record, which is where
+      a careful public answer earns its keep.
+  - doi: "10.1002/cb.2504"
+    title: "The Effect of Age Cues From AI Product Users on Consumer Perceptions of Product Innovation and the Downstream Consequences"
+    authors: "Liu, Wang, Yan, & Gong"
+    journal: "Journal of Consumer Behaviour"
+    year: 2025
+    text: >-
+      Who is pictured using an AI product changes how new it seems. Across five studies, AI products shown with older users
+      were judged more innovative, and the same age cue raised clicks on the ads. The authors link the effect to perceived
+      cognitive discomfort and to what people infer about the maker's competence. Casting the user is part of the product
+      claim, not a detail left to the photo shoot.
+
+charts:
+  matched:
+    title: "Willingness to watch a smart TV's film suggestion, by how the pick was described (1 to 9 scale)"
+    scale: [1, 9]
+    step: 2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Liberals, matches past viewing", 5.10, false]
+      - ["Conservatives, matches past viewing", 6.02, true]
+      - ["Liberals, unlike usual viewing", 4.43, false]
+      - ["Conservatives, unlike usual viewing", 4.02, false]
+    source: "Study 4b, 285 online participants, ideology split at the middle of an 8-point scale. The gap for picks unlike usual viewing was not significant."
+  clicks:
+    title: "Click-through rate on one paid playlist ad, by voting area (%)"
+    scale: [0, 0.4]
+    step: 0.1
+    unit: "%"
+    decimals: 2
+    bars:
+      - ["Liberal-voting areas", 0.13, false]
+      - ["Conservative-voting areas", 0.33, true]
+    source: "Study 6, Meta ad run 27 to 31 March 2024, 20,902 impressions in all; areas classed by 2020 presidential vote. The difference was significant."
+
+related_pages: []
