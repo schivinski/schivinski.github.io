@@ -1,0 +1,266 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 21                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-05-21"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: influencer-effectiveness-meta
+status: live
+
+title: "Do influencers beat celebrities, brand posts and virtual influencers? What a Journal of the Academy of Marketing Science study found"
+dek: >-
+  A meta-analysis of 135 experiments finds creators outperform a brand's own posts on engagement and on buying intent alike.
+  Against celebrities and virtual influencers the answer turns on which of those two goals you want, and on how many
+  followers the creator has.
+short_title: "When influencers beat the other endorsers"
+
+description: >-
+  Barari et al. pool 135 experiments: influencers beat brand posts on engagement and purchase intent; big accounts lift
+  buying intent, smaller ones engagement.
+
+keywords: [influencer marketing effectiveness, influencers vs celebrities, virtual influencers, micro vs macro influencers,
+  influencer follower count, influencer credibility, brand posts vs influencer posts, purchase intention, consumer engagement,
+  influencer message strategy, meta-analysis, Journal of the Academy of Marketing Science]
+topics: [Influencers, Social media]
+
+image:
+  file: 2025-influencer-effectiveness-meta.jpg
+  og: 2025-influencer-effectiveness-meta-og.jpg
+  alt: "A young woman with curly hair in a bright yellow raincoat and white earphones smiles and talks to the phone she holds up at arm's length, on a city pavement beside a cream stone building"
+  caption: "Whether a post earns comments or sales may depend on how many people are watching. Photo: Vitaly Gariev on Unsplash."
+
+short_answer: >-
+  Mostly, but not on every goal. Pooling 135 experiments with 44,210 people, the researchers found influencer posts
+  drew more engagement and stronger purchase intent than a brand's own posts or no endorsement at all. Against celebrities,
+  and against virtual influencers, they came out ahead on only one of those two goals. Account size split the work: creators
+  with more than a million followers did more for purchase intent, smaller ones for engagement.
+
+takeaways:
+  - "Influencers won 6 of the 8 head-to-head comparisons. The two ties were celebrities on purchase intent and virtual influencers on engagement."
+  - "Past 1 million followers, the effect on purchase intent was about three times that of smaller accounts, while smaller accounts led on engagement."
+  - "Credibility is where influencers stood apart, 0.23 ahead of other endorsers, where 0 would mean no edge at all. Their 0.10 edge on attractiveness was too uncertain to count."
+  - "Seven of the 13 conditions tested made no reliable difference, among them Instagram versus other platforms and emotional versus rational appeals."
+
+paper:
+  doi: "10.1007/s11747-025-01107-3"
+  title: "A meta-analysis of the effectiveness of social media influencers: Mechanisms and moderation"
+  authors: ["Barari, M.", "Eisend, M.", "Jain, S. P."]
+  authors_full: ["Mojtaba Moji Barari", "Martin Eisend", "Shailendra Pratap Jain"]
+  year: 2026
+  journal: "Journal of the Academy of Marketing Science"
+  volume: "54"
+  issue: "1"
+  pages: "28-48"
+  online: "2025-05-21"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Springer page)
+    - name: "Mojtaba Moji Barari"
+      affiliation: "Newcastle Business School, University of Newcastle, Newcastle, Australia"
+      orcid: "0000-0002-6905-4897"
+    - name: "Martin Eisend"
+      affiliation: "University of Vienna; Copenhagen Business School, Frederiksberg, Denmark"
+      orcid: "0000-0003-2564-6417"
+    - name: "Shailendra Pratap Jain"
+      affiliation: "James D. Currie Professor of Marketing & International Business, Foster School of Business, University of Washington, Seattle, USA"
+      orcid: "0000-0003-0916-5162"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 135
+    basis: "Meta-analysis pooling 571 effect sizes from 135 independent experimental studies in 71 papers (44,210 consumers, search completed July 2024), with random-effects integration, a meta-analytic structural equation model and a multilevel meta-regression"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Mojtaba Moji Barari of the University of Newcastle in Australia,
+      Martin Eisend of the University of Vienna and Copenhagen Business School, and
+      Shailendra Pratap Jain of the University of Washington's Foster School of Business in Seattle
+      wanted a firm answer to a question every brand with a social budget faces. Does paying a creator to post work
+      better than the other ways of putting a product in front of people, and if so, when?
+
+      Single experiments had pulled in different directions. Some found small creators more engaging, others found big
+      ones better at selling. A meta-analysis can settle that kind of dispute: it gathers every comparable experiment and
+      combines their results into one estimate. To make the cut, an experiment had to pit a social media influencer against
+      another way of promoting the same product: a celebrity, a computer-made virtual influencer, a post from the brand's
+      own account, or nothing at all. Surveys were dropped, so that every result came from an experiment built to test cause and effect. So were
+      experiments that only pitted small creators against large ones, because size was to be tested later as a condition.
+
+      One author and an outside coder, who did not know what the team expected, then rated each study on features of the
+      influencer, the message, the product, the platform and the followers, settling disagreements by discussion.
+    facts:
+      - ["Evidence base", "571 effect sizes from 135 experiments in 71 papers, with 44,210 participants in all"]
+      - ["Search", "Nine databases plus reference lists, published and unpublished work, finished in July 2024"]
+      - ["Influencer post compared with", "A celebrity, a virtual influencer, the brand's own post, or no endorsement"]
+      - ["Responses", "Credibility, attractiveness, attitude to the ad and to the brand, engagement, purchase intention"]
+      - ["Account size", "Large: more than 1 million followers. Small and medium: fewer than 1 million"]
+      - ["Method", "Random-effects pooling, a meta-analytic structural equation model and a multilevel meta-regression"]
+
+  - h: "What the effect sizes mean"
+    body: |
+      Every result here is an effect size on a correlation scale, comparing people who saw the influencer with people
+      who saw the alternative. Zero means the two groups responded alike. A positive number means the influencer did better,
+      and the further from zero, the bigger the gap.
+
+      The paper sets no yardstick for size. By the general convention in the social sciences, which the authors do
+      not cite, 0.1 is small, 0.3 medium and 0.5 large. Statisticians also use a rough translation that the paper does not
+      offer: an effect of 0.14 is about the difference between 57 and 43 people in every 100 responding well.
+
+      On that yardstick the overall lift was small but real. Pooled across every alternative, influencer posts raised
+      engagement by 0.14, attitudes to the ad by 0.15, brand attitudes by 0.13 and purchase intention by 0.11. Results
+      also differed between studies far more than chance would explain, which is what sent the team looking for
+      the conditions behind the spread.
+
+  - h: "Who influencers beat, and on which goal"
+    body: |
+      Set against the brand's own content, or against no endorsement, influencers did better on engagement and on
+      purchase intention alike. Scepticism explains it, the authors argue: people discount what a brand says about itself, and a
+      creator comes across as the more credible source.
+
+      Celebrities were a closer contest. They trailed influencers on engagement but matched them on purchase intent, which the authors
+      explain as fame doing the persuading where a creator relies on credibility. Virtual influencers ran the other way. They
+      engaged people about as well as human creators but did less for purchase intent, a gap the authors credit to the
+      human creators' authenticity.
+    chart: rivals
+
+  - h: "Trust sells, appeal gets the likes"
+    body: |
+      To see how influencers work, the team fitted a model that links the responses in a chain: how credible and
+      attractive the endorser seems, then attitudes to the advert and to the brand, then engagement and the intent to buy.
+      In this model the influencer had no direct pull on either final outcome. All of it travelled through how people saw
+      the person in the post.
+
+      The two routes led to different places. Credibility was the strongest single driver of purchase intent, with a total
+      effect of 0.38 once its knock-on effects through attitudes were counted. For engagement, the largest effects came
+      from liking the brand (0.43) and from finding the endorser attractive (0.30). The authors' summary is short:
+      credibility moves people to buy, attractiveness moves them to engage.
+
+  - h: "Big accounts sell, smaller ones get people talking"
+    body: |
+      The team split creators at 1 million followers. Accounts above that line count as large; everything below, from
+      small to medium, was grouped together.
+
+      Size cut both ways. Large accounts were stronger on purchase intent and weaker on engagement. The authors see reach and
+      status behind the first and lost closeness behind the second. Growth has a price in credibility too: a big
+      creator's expertise looks less focused, and a steady flow of brand deals can make followers suspect a profit motive.
+      Taken over every response except purchase intent, small and medium accounts came out ahead, at about 0.18 against
+      0.11 on the figure's values.
+    chart: size
+
+  - h: "Match the message and the product to the account"
+    body: |
+      Size also changed which posts worked. Large accounts did far better with concrete messages than with abstract ones,
+      about 0.25 against 0.09 on values read from the published figure, and better with posts built on using the product
+      than with posts that simply recommend it. Smaller accounts showed the mirror image: abstract messages and plain
+      recommendations beat concrete, usage-based posts, by narrower margins.
+
+      For large accounts, products split in a similar way. They did better with search products, the kind people can
+      judge before buying, than with experience products that can only be judged after use, and better with established
+      products than with new ones. For smaller accounts neither gap was reliable, although the authors still point
+      smaller creators towards experience products.
+
+      Averaged over all accounts, influencer posts worked better for new products and experience products, and with
+      abstract, recommendation-style messages. The authors read the size results this way: large creators need hard
+      evidence to win back the credibility their reach costs them, while small creators can stay broad and personal.
+
+  - h: "What made no difference"
+    body: |
+      Seven of the conditions the team could test left the influencer effect unchanged: the influencer's gender,
+      emotional or rational appeals, pleasure-driven or practical products, how closely the influencer matched the
+      product, Instagram against other platforms, and the followers' age and gender. None of the seven changed with
+      account size either.
+
+      One personal trait did matter. Older influencers drew slightly weaker responses.
+
+      One piece of the authors' advice goes beyond this evidence. They suggest influencers for Gen Z and Millennial
+      audiences, and other kinds of endorsement for Gen X and Baby Boomers. In their own meta-regression, though, the age
+      that made a difference was the influencer's, not the followers'.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Choose one goal per campaign", "Decide whether this campaign should start conversations or make people want to buy. Make that single goal the opening line of your brief, with the number you will judge it by: comments and shares, or clicks and sales codes."]
+  - ["Size the creator to that goal", "To drive buying, shortlist creators whose follower count tops a million, above all for well-known products that people can size up before they buy. To get people talking, pick three to five smaller creators whose followers already reply in their comments."]
+  - ["Brief big creators to show the product", "Ask large accounts for concrete posts: the creator using the product, two or three specific facts and a short demonstration. Send a one-page fact sheet so they have the details to hand."]
+  - ["Let smaller creators keep it personal", "Ask smaller creators for a recommendation in their own words, about how the product fits into their life. Delete any line in your brief that reads like a sales script."]
+  - ["Run a creator against your own post", "For your next launch, put out the same offer twice: once from your brand account and once through a creator. Give each version its own link or discount code."]
+  - ["Count actions for four weeks", "Track link clicks, code redemptions and repeat orders for four weeks after posting, not only likes in the first two days. Keep the creator size that wins on the goal you set."]
+
+expect:
+  - "**A tilt, not a transformation.** The reliable effects ranged from 0.09 to 0.31, mostly small by the usual convention, so expect influencers to nudge results in your favour."
+  - "**Celebrities for aspiration.** The authors see celebrities as strong for status and luxury purchases, and creators with niche expertise as the cheaper route to similar purchase intent."
+  - "**A role for virtual influencers.** For engagement, the authors rate them a strong option when a brand wants tightly controlled, consistent content, as long as they suit the brand and its audience."
+  - "**Smaller creators for launches.** The authors suggest them for niche brands, new products and brands that want lasting relationships rather than one-off sales."
+
+limits:
+  - "**Intentions, not sales.** The buying measure was what people said they would do. The authors warn that this overstates what influencers deliver, since much can happen between meaning to buy and buying."
+  - "**Strangers, not followers.** Many experiments used invented influencers and participants who had never followed them, which leaves out the bond real audiences build over time."
+  - "**Thin evidence in places.** The brand-post results rest on 4 experiments for engagement and 9 for purchase intent, and the no-endorsement results on 5 and 6."
+  - "**Measured on the spot.** Responses were taken right after people saw the post, so whether the lift lasts, or turns into loyalty and repeat buying, is unknown."
+  - "**Loose measures.** Depending on the study, credibility meant expertise, trust or authenticity, and engagement meant likes, shares or word of mouth. The authors grouped them and flag this as a compromise."
+  - "**Differences between studies.** Account size, message and product type varied from one experiment to another rather than inside each one, so they show where influencers did better without proving the cause. The evidence also stops in July 2024."
+
+faq:
+  - q: "Are influencers more effective than celebrities?"
+    a: "For engagement, yes. For purchase intent, no: across 27 experiments, celebrities and influencers raised it about equally, while influencers drew more engagement in the 8 experiments that measured it (Barari et al., 2026)."
+  - q: "Should brands use micro-influencers or big influencers?"
+    a: "Pick by the goal. Accounts past a million followers lifted purchase intent further and got more from concrete, product-in-use posts. Smaller creators were stronger on engagement and got more from broad, personal recommendations. Micro and mid-sized creators were grouped together, so the evidence cannot separate them."
+  - q: "Do virtual influencers work as well as human ones?"
+    a: "For engagement, roughly: across 23 experiments, human creators' lead of 0.06 was not reliable. For purchase intent the human creators pulled clearly ahead, by 0.15 across 41 experiments."
+  - q: "Does it matter whether the influencer fits the product?"
+    a: "Less than many marketers assume. In the pooled data, a close match between the influencer and the product had no reliable effect on how people responded, for large and small accounts alike."
+  - q: "Is Instagram better than TikTok or YouTube for influencer marketing?"
+    a: "This evidence cannot say. Much of the research used Instagram, so platforms could only be compared as Instagram against all the others together, and that split showed no reliable gap."
+
+also:
+  - doi: "10.1177/00222429251343590"
+    title: "Dynamic Effects of TV Ad Suspension on Keyword Search: Evidence from the U.S. Telecom Industry"
+    authors: "Liu, Hill, & Rothschild"
+    journal: "Journal of Marketing"
+    year: 2026
+    text: >-
+      A leading US wireless carrier that spends about a million dollars a day on TV advertising switched its ads off for one
+      randomly chosen week. Brand searches fell by 5% to 15% a day, and the shortfall lasted two weeks after the ads
+      came back. Searches about what the ads said fell hardest, by up to 30% a day, but recovered sooner, while navigational
+      searches dipped less and for longer. Cutting TV to fund search can starve the very queries the search budget is buying.
+  - doi: "10.1007/s11747-025-01101-9"
+    title: "Big data or big brother: When is recontacting the digital customer OK?"
+    authors: "Bai, Wang, & Ren"
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2025
+    text: >-
+      Retargeting follows shoppers who left without buying, but should the follow-up be personal?
+      The team inferred each shopper's main worry from the whole series of actions in their purchase journey, then
+      compared personalised and generic follow-ups in a randomised field experiment. Personalised retargeting lifted
+      conversion for shoppers whose concerns were about the product, such as fit or price, and lowered it for those whose
+      main concern was privacy. Before showing someone the exact item they left behind, ask what stopped
+      them in the first place.
+
+charts:
+  rivals:
+    title: "Influencer posts against each alternative: how far ahead they came out (effect size, 0 = no difference)"
+    scale: [0, 0.4]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Engagement: no endorsement", 0.31, false]
+      - ["Engagement: celebrity", 0.24, false]
+      - ["Engagement: brand post", 0.11, false]
+      - ["Engagement: virtual influencer", 0.06, true]
+      - ["Purchase intent: no endorsement", 0.26, false]
+      - ["Purchase intent: virtual influencer", 0.15, false]
+      - ["Purchase intent: brand post", 0.09, false]
+      - ["Purchase intent: celebrity", 0.00, true]
+    source: "Table 7, experiments pooled separately for each alternative. The two amber bars are not statistically different from zero; the celebrity gap on purchase intent is reported as below 0.01."
+  size:
+    title: "Influencer effect by account size (effect size, 0 = no edge over the alternative)"
+    scale: [0, 0.2]
+    step: 0.05
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Purchase intent: over 1M followers", 0.18, true]
+      - ["Purchase intent: under 1M followers", 0.06, false]
+      - ["Engagement: over 1M followers", 0.10, false]
+      - ["Engagement: under 1M followers", 0.17, true]
+    source: "Figure 4, account-size interactions in the multilevel meta-regression; under 1M combines small and medium accounts. Values read from the published figure."
+
+related_pages: []
