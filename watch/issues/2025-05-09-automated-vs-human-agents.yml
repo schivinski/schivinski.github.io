@@ -102,7 +102,7 @@ sections:
       as they did to the person. A negative value means the machine did worse, a positive one that it did better. To keep the
       page readable, we give the size of each gap and say which way it runs.
 
-      By the rule of thumb the authors follow, 0.1 is a small effect. In the usual convention, which the paper does not spell out, 0.3 counts as medium and 0.5 as large.
+      By the rule of thumb the authors follow, 0.1 is a small effect. In the usual convention, not one the paper spells out, 0.3 counts as medium and 0.5 as large.
       They treat a machine as equivalent to a person when it trails by 0.1 or less, and as acceptable, worth using if it saves
       enough, when it trails by between 0.1 and 0.2.
 
