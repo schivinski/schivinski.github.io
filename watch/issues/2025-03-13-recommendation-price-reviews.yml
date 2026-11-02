@@ -1,0 +1,243 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 9                       # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-03-13"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: recommendation-price-reviews
+status: live
+
+title: "Should recommended products show the price and the reviews? What a Journal of Marketing study found"
+dek: >-
+  Most online stores print a price, a star rating or both under every item in their "you may also like" row. A five-week
+  field test on a US retailer's website found those tiles sold best carrying one of the two, and worst carrying neither.
+short_title: "One cue, not two: what to put on recommendation tiles"
+
+description: >-
+  Fang et al. find recommendation tiles showing just the price or just the reviews outsold tiles showing both, in a
+  randomized trial on 47,996 shoppers.
+
+keywords: [product recommendations, recommender systems, recommendation tiles, product page design, information cues,
+  showing prices online, star ratings display, search frictions, on-site search, A/B testing, e-commerce conversion,
+  Journal of Marketing]
+topics: [Retail, Personalization, Search]
+
+image:
+  file: 2025-recommendation-price-reviews.jpg
+  og: 2025-recommendation-price-reviews-og.jpg
+  alt: "A woman in a fluffy white cardigan sips from a mug in a dark room, her face lit by the cold glow of an open laptop"
+  caption: "Every tile under a product asks the same quick question: click, or move on? Photo: Anastasiia Nelen on Unsplash."
+
+short_answer: >-
+  One of them, not both. A US online retailer split 47,996 website shoppers into four groups whose recommended products
+  showed price and reviews, price only, reviews only, or just a name and picture. The one-cue tiles produced the most sales.
+  Full tiles let shoppers reject weak suggestions without clicking. Bare tiles pushed them back to the search box, where
+  they hunted longer and bought least.
+
+takeaways:
+  - "Compared with tiles showing both cues, the odds that a visit ended in a purchase were about 19% higher with reviews alone and about 14% higher with the price alone."
+  - "Bare tiles drew the most clicking and the longest visits of the four designs, yet cut the odds of a purchase by about 28% against the full tiles."
+  - "Nothing in the algorithm changed, although its suggestions were already bringing in less than the 12% industry average share of sales from recommendations. Only what the tiles showed was altered."
+  - "Among the 40 biggest US online stores, price alone ties for the most common setup: 27.5% use it as their only design, and none uses reviews alone as its only one."
+
+paper:
+  doi: "10.1177/00222429251326941"
+  title: "Too Many or Too Few? Information Cues in Recommender Systems and Consequences for Search and Purchase Behavior"
+  authors: ["Fang, X.", "Kim, S.", "Chintagunta, P. K."]
+  authors_full: ["Xing Fang", "SunAh Kim", "Pradeep K. Chintagunta"]
+  year: 2026
+  journal: "Journal of Marketing"
+  volume: "90"
+  issue: "1"
+  pages: "9-28"
+  online: "2025-03-13"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "Xing Fang"
+      affiliation: "School of Business and Management, Royal Holloway University of London, UK"
+      orcid: "0000-0002-8088-404X"
+    - name: "SunAh Kim"
+      affiliation: "University of New South Wales, Australia"
+      orcid: "0000-0001-9763-5042"
+    - name: "Pradeep K. Chintagunta"
+      affiliation: "Booth School of Business, University of Chicago, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One randomized field experiment on a US online retailer's website (47,996 customers, 71,807 sessions); Supplemental Analyses 1 and 2 re-analyse the same data; the A/A/A/A randomization pretest is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Xing Fang of Royal Holloway University of London,
+      SunAh Kim of the University of New South Wales and
+      Pradeep K. Chintagunta of the University of Chicago's Booth School of Business
+      looked at a small design choice with a large footprint. Below most product pages sits a row of recommended items,
+      and each tile has room for very little text. Should it carry the price, the star rating, both or neither?
+
+      The question came from a real problem. A US online retailer had spent heavily on its own recommendation algorithm,
+      yet sales through the recommendations stayed disappointing. Rather than pour more into the algorithm, its managers
+      changed what the tiles displayed.
+
+      Website shoppers were assigned at random to one of four designs and kept it on every visit. One group saw price and
+      reviews under each suggestion, one saw only the price, one only the stars and review count, and one only the name and
+      picture. Updates to the algorithm were paused, so every group got the same suggestions. Shoppers could scroll through
+      35 of them on a product page, and the full details were always one click, or one search, away.
+    facts:
+      - ["Retailer", "A US online store with about 260,000 listings and around $100 million in yearly sales across beauty, health, home, grocery and snacks"]
+      - ["When", "31 October to 5 December 2019, website visitors only"]
+      - ["Shoppers", "47,996 customers, about 12,000 per design, making 71,807 visits"]
+      - ["Designs", "Four tile layouts: both cues, the price alone, ratings plus review count alone, or the name and picture alone"]
+      - ["Measured", "Spending per visit, visits ending without an order, clicks on tiles and on other products, keyword searches, time on site"]
+      - ["Checks", "Before launch, a dry run gave four groups, 48,000 customers in all, the identical design and found no real differences once a few extreme prices were capped"]
+
+  - h: "One cue beat two, and none came last"
+    body: |
+      Sales traced an arch. The two single-cue designs earned the most per visit, the full price-and-reviews tile came
+      second, and the bare tile sold least. Every gap against the full tile was statistically clear, and the same order
+      held for whether a visit ended in an order at all.
+
+      The stakes per visit were small. Spending averaged $3.49 per visit, because 95.6% of visits ended with no
+      purchase. Shoppers who did buy spent about $80.
+
+      Of the two single cues, reviews without the price generally did best. The retailer's tiles had shown the price alone
+      before the test, so shoppers had grown used to that layout. As the authors note, familiarity is unlikely to explain
+      the winner.
+    chart: odds
+
+  - h: "Why a full tile lets shoppers walk past"
+    body: |
+      How can a tile with more facts sell less? The answer lies with the suggestions themselves. This retailer's algorithm
+      often recommended things that did not fit, and with price and reviews in plain view, shoppers spotted the mismatch at a
+      glance and moved on. The tiles became very efficient at being ignored.
+
+      Take one detail away and the picture changes. Shoppers who saw only a price, or only stars, clicked through to the
+      recommended products more often than those who saw both, since the missing piece sat one click away. A closer look at
+      individual tiles backed this up. With both cues showing, the more a suggestion differed in price and reviews from
+      the product on screen, the less likely people were to click it. Hiding a cue weakened that reflex.
+
+  - h: "Why a bare tile sends shoppers elsewhere"
+    body: |
+      The name-and-picture tiles failed for the opposite reason. People did look at them: compared with full tiles, the
+      count of suggestions held in view for at least 15 seconds rose about as much as in the single-cue groups. What did
+      not rise was clicking. These shoppers opened recommended products no more often than shoppers who saw full tiles. With nothing to compare, the
+      authors argue, people never began weighing the suggestions.
+
+      They returned to keyword search and to other pages instead, which gave this group the most product clicks of all and
+      the longest visits. The extra effort did not pay. As the authors read it, this was slower, less efficient hunting, and
+      more of it ended with the visitor leaving with nothing in the basket.
+
+  - h: "The tiles change how people search the whole site"
+    body: |
+      What the tiles showed rippled out well beyond them. In all three trimmed designs, shoppers typed more keyword searches
+      and clicked more products reached by other routes than shoppers who saw both cues.
+
+      A model of the path from tiles to search to sales, which the authors describe as descriptive and built on strong
+      assumptions, pointed the same way. Browsing the tiles went with more searching elsewhere. Clicks on recommendations,
+      keyword searches and other product clicks were each linked to higher sales, while merely looking at tiles was not
+      linked directly. So recommendations and the search box are neither simple rivals nor simple partners; which they
+      are depends on the tiles.
+
+      The authors add a warning against chasing recommendation clicks for their own sake. A shopper who arrives set on one
+      product can be pulled into a row of alternatives, lose the thread and abandon the visit.
+
+  - h: "What the biggest stores do, and the cheap fix"
+    body: |
+      Before the analysis, the authors reviewed the 40 largest US online stores by web sales. Most of those that run
+      recommendations put a price, reviews or both on them. The layout that sold best in this test, stars without a price,
+      was the one no store in the review used on its own.
+
+      Their wider point concerns cost. Improving an algorithm is expensive, and for this retailer it did not work: it later
+      switched to an outside recommendation service. Changing what a tile displays is cheap by comparison. As stores crowd
+      more labels onto tiles, such as promotional offers and sustainability pledges, the authors suggest settling how many
+      cues to show before choosing which ones.
+    chart: stores
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Look at your own tiles", "Open five product pages on your site, once on a laptop and once on a phone. Write down what each recommended item shows under its picture: price, stars, review count, badges or nothing."]
+  - ["Judge the suggestions honestly", "Pick 20 product pages at random. For each, ask whether a shopper on that page would plausibly want the items recommended. If fewer than half the rows make sense, assume your tiles are being skipped."]
+  - ["Build a one-detail tile", "Make a version of the tile that shows the picture, the name and one extra detail: the star rating or the price. Try the stars first. Leave the rest of the page exactly as it is."]
+  - ["Keep everything else one click away", "Check that the page behind each tile shows the price, stars and reviews near the top, and that the search box stays visible on every page."]
+  - ["Split visitors for four weeks", "Show the current tile to half of your visitors and the new tile to the other half for four weeks or longer. Keep each visitor on the same version every time they come back."]
+  - ["Score it on orders, not clicks", "Compare revenue per visit and the share of visits that end in an order. Watch tile clicks and site searches as well, and run the comparison again whenever the recommendation engine changes."]
+
+expect:
+  - "**A thin slice of visits.** In a store where most sessions end without an order, a tile change can only show up in the few that buy. Plan for high traffic and patience before calling a winner."
+  - "**Engagement can flatter the wrong design.** Treat longer visits and extra clicks after a tile change as a question, not a win, until orders confirm it."
+  - "**Traffic moves between tools.** Trimming tiles sent more people to the search box, so expect search volumes to change and check that search results are good enough to catch them."
+  - "**A cheap lever, with a condition.** The gain came with no new code at all, but it hinges on suggestion quality. Upgrade the algorithm and the best tile may change."
+
+limits:
+  - "**A weak recommender.** This algorithm often missed. With accurate suggestions, shoppers might click well-matched items even with full details on show, so the full tile could come out ahead. The authors raise this themselves."
+  - "**One store, mostly food.** Groceries and snacks made up 70% of the retailer's sales, and the average item cost under $20. Fashion, electronics or travel could behave differently."
+  - "**Website only.** The mobile apps were deliberately left out because users updated them unevenly."
+  - "**Two signals in one cue.** Each review tile showed both the stars and the review count, so their separate effects are unknown, as are the effects of high or low prices and ratings."
+  - "**The search path is inferred.** The data could not show the order in which shoppers moved between tiles and the search box, and the model linking search to sales does not prove cause."
+
+faq:
+  - q: "Should recommendation tiles carry both a price and star ratings?"
+    a: "Probably not both, at least when the suggestions are hit and miss. In a randomized trial with an American online store, tiles with a single cue led to more purchases than tiles with both, and bare tiles did worst (Fang et al., 2026)."
+  - q: "Why can showing less information sell more?"
+    a: "A missing detail gives shoppers a reason to click. When suggestions are often off target, a complete tile lets people dismiss them in a second, so they explore less and buy less."
+  - q: "Is it safe to strip recommendation tiles down to a name and picture?"
+    a: "No. Those tiles were looked at but rarely opened, and shoppers drifted back to keyword search, stayed longer and bought the least of the four designs tested."
+  - q: "Would the result hold with a very accurate recommendation engine?"
+    a: "That was not tested. The authors expect that with better suggestions, people seeing full tiles would click the good matches rather than reject them, which could favour showing both cues."
+  - q: "What counts as an information cue on a recommendation?"
+    a: "Any short piece of product information printed under a recommended item's picture. Price and reviews are the usual two; some stores also add promotions or sustainability labels."
+
+also:
+  - doi: "10.1111/ijcs.70030"
+    title: "The Interplay of Mind and Body: The Impact of Influencers' Body Size and Motivation Appeals"
+    authors: "Cho, Taylor, & Panteqi"
+    journal: "International Journal of Consumer Studies"
+    year: 2025
+    text: >-
+      Two experiments looked at influencer ads that state the creator's body size in a hashtag, paired with an appeal
+      either to inner motives or to outside rewards. Viewers compared themselves with the influencer most when the creator
+      was larger and the ad spoke to intrinsic motivation. Those comparisons, along with how attractive viewers found the
+      influencer, carried the effects through to purchase intention. A size label on a post is a creative choice with
+      consequences, not a footnote.
+  - doi: "10.1002/mar.22205"
+    title: "Does One Size Fit All? The Role of Extraversion in Generating Electronic Word-of-Mouth Through Social Media Brand Page Engagement"
+    authors: "Moisescu et al."
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Facebook users took part in a survey and a separate experiment tracing how engaging with a brand's page turns into
+      word of mouth. Passive and active engagement affected it in different ways, and the link ran through how far people
+      folded the brand into their sense of who they are. Extraversion played two parts, shaping how people engaged and changing what that
+      engagement led to. The quiet followers and the loud ones may need different reasons to talk.
+
+charts:
+  odds:
+    title: "Odds of a visit ending in a purchase, by what each recommended tile showed (price and reviews = 100)"
+    scale: [0, 140]
+    step: 20
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Name and picture only", 72, false]
+      - ["Price only", 114, true]
+      - ["Reviews only", 119, true]
+      - ["Price and reviews", 100, false]
+    source: "Field experiment, 71,807 visits. Our conversion of the logit estimates for visits ending without a purchase (Table 2, column 2), with covariates held constant. All three gaps against price and reviews are significant."
+  stores:
+    title: "What the 40 largest US online stores showed on recommended products, March 2023 (% of stores; 'everywhere' means their only design)"
+    scale: [0, 30]
+    step: 5
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Price only, everywhere", 27.5, true]
+      - ["Mix of price only and both", 27.5, false]
+      - ["Price and reviews, everywhere", 12.5, false]
+      - ["Name and picture, everywhere", 10.0, false]
+      - ["Three or more designs", 10.0, false]
+      - ["No recommendations", 7.5, false]
+      - ["Name and picture, plus another", 5.0, false]
+    source: "Web Appendix A, the authors' review of the top 40 US e-commerce sites by web sales. No store used reviews alone as its only design."
+
+related_pages: []
