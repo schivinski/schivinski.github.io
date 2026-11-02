@@ -1,0 +1,220 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 6                       # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-02-10"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: female-chatbot-social-presence
+status: live
+
+title: "Does a female chatbot feel more like a real person to customers? What a Journal of Consumer Behaviour study found"
+dek: >-
+  Most of the best-known digital assistants have female names and voices. Two German-language experiments trace where any
+  advantage comes from, and find it rests on seeming friendly, not on seeming honest or clever.
+short_title: "Why a feminine chatbot feels more human"
+
+description: >-
+  Nickel and Meyer find a chatbot written in a warm, feminine style seemed more present because it felt friendlier, while a
+  female avatar face did not.
+
+keywords: [chatbot gender, female chatbot, virtual assistant design, social presence, conversational AI, chatbot tone of voice,
+  AI avatars, stereotype content model, warmth and competence, customer service chatbots, gender stereotypes in AI,
+  Journal of Consumer Behaviour]
+topics: [AI, Service]
+
+image:
+  file: 2025-female-chatbot-social-presence.jpg
+  og: 2025-female-chatbot-social-presence-og.jpg
+  alt: "A neon speech bubble glowing orange on a white panelled wall, with the word hello written inside it in turquoise light"
+  caption: "A bot's first hello sets the tone for everything after it. Photo: Santiago hernandez on Unsplash."
+
+short_answer: >-
+  It can, through how it talks rather than how it looks. In two German-language experiments with 666 consumers, a chatbot
+  given a stereotypically feminine writing style, warm, chatty and with emojis, gave people a stronger sense of someone being
+  there than a brisk "male" version, and the gain was explained by its seeming more sociable. A female avatar picture also
+  looked friendlier than a male one, yet overall it felt less present. Men and women responded alike.
+
+takeaways:
+  - "The 'female' chat script was built from a handful of cues. When 88 people rated the trip versions beforehand, it scored 4.20 against 1.95 for emoji use and 5.64 against 1.61 for talk about family and friends."
+  - "Men took to the friendlier script as much as women did: its boost to presence, working through friendliness, came to 0.25 for men and 0.29 for women, a gap the statistics could not tell apart from chance."
+  - "Of the 3 traits measured, only friendliness linked a female agent to a stronger sense of presence, in both studies. Seeming honest or capable played no part in that link."
+  - "The authors report that the friendliness route held across 4 purchases, practical and pleasurable alike: investments, clothing, a holiday trip and an electric toothbrush."
+
+paper:
+  doi: "10.1002/cb.2475"
+  title: "Why Female Virtual Conversational Agents Exhibit Greater Social Presence: Insights From the Stereotype Content Model"
+  authors: ["Nickel, K.", "Meyer, C."]
+  authors_full: ["Kristina Nickel", "Caroline Meyer"]
+  year: 2025
+  journal: "Journal of Consumer Behaviour"
+  volume: "24"
+  issue: "3"
+  pages: "1358-1372"
+  online: "2025-02-10"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Kristina Nickel"
+      affiliation: "Kiel Institute for Responsible Innovation (KIRI), Kiel University, Kiel, Germany"
+      orcid: "0000-0002-9142-7119"
+    - name: "Caroline Meyer"
+      affiliation: "A&F Marketing – Consumer Psychology, Kiel University, Kiel, Germany"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Study 1: computer-based online experiment with 312 consumers (avatar pictures); Study 2: computer-based experiment with 354 consumers (chatbot scripts); pretest of the chat scripts (88 people) not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Kristina Nickel and Caroline Meyer of Kiel University in Germany started from a pattern anyone who talks to digital
+      assistants will recognise. Siri, Alexa and Cortana, they note, have female voices and names, and so do many brand
+      chatbots, such as Ryanair's Molli and DHL's Marie. Companies seem to assume a female agent is liked and trusted more. The two researchers
+      wanted to know where that advantage comes from.
+
+      They borrowed a well-tested idea from social psychology: people size each other up on warmth and on competence. Following
+      earlier work, they split warmth in two. Sociability is about being friendly and easy to connect with; morality is about
+      being honest, sincere and trustworthy. The outcome was social presence, the sense that someone is really on the other end.
+
+      The first study used pictures. People imagined buying investments on their bank's website or clothes in an online shop,
+      then saw one of two real commercial avatars used in earlier research, a woman called Amelia or a man called Sam, matched on pose,
+      smile and apparent age. The second used words. People read a scripted chat about a city trip or an electric toothbrush.
+      In the trip chat, the "female" bot opened with a smiling emoji, asked questions and spoke of happy memories with family
+      and friends. The "male" bot gave instructions, offered its opinion and recommended the local football stadium. Both chats
+      showed the same plain silhouette icon.
+    facts:
+      - ["Participants", "666 consumers in two computer-based studies, 312 for the avatars and 354 for the chatbots, from a university consumer panel and Prolific"]
+      - ["Language", "Every scenario and chat script was written in German"]
+      - ["What changed", "A male or female agent, crossed with a practical or a pleasure purchase"]
+      - ["Products", "Investments and clothing for the avatars; an electric toothbrush and a holiday trip for the chatbots"]
+      - ["Measured", "How sociable, moral and competent the agent seemed, and how strongly someone seemed to be there"]
+      - ["Controls", "Loneliness, the habit of seeing human traits in objects, and openness to new technology"]
+
+  - h: "Why the chatbot felt more present"
+    body: |
+      The scripts did what they were meant to. People rated the "female" chat as clearly more feminine, 4.51 against 3.57, and
+      found it far more sociable. Seeming sociable, in turn, made the bot feel more like a person was there, and that route
+      accounted for the whole difference between the two scripts. Compare two bots that seemed equally friendly, and the
+      gendered script added nothing further.
+
+      Morality behaved differently. People who saw a bot as honest and sincere did sense more of a presence, but the feminine
+      script did not make it look any more honest, so this route carried nothing. Competence was stranger still: each extra
+      point of perceived skill lowered the sense of presence by 0.15 points. It echoes an earlier finding the authors mention in
+      their background, that purely factual expertise weakens the feeling that anyone is there.
+    chart: warmth
+
+  - h: "A friendlier face that felt further away"
+    body: |
+      The avatar study looked like a clean win at first. Amelia was rated more sociable and more moral than Sam, and the
+      friendlier an avatar seemed, the more present it felt. But the overall result pointed the other way. On average the female
+      avatar seemed less present than the male one, and once her higher friendliness, the other ratings and the controls were
+      taken into account she scored 0.81 points lower.
+
+      Statisticians call this suppression: one route pushes up while something unmeasured pulls harder in the opposite
+      direction. The authors cannot yet say what that something is. They suggest visual details such as how natural the face
+      looks, its expression, hairstyle or clothing. With only one female and one male face in the test, such details are hard to
+      separate from gender itself; that is our reading, not a finding. Competence also flipped between the two studies: a
+      capable-looking avatar felt more present, by 0.20 points for each point of perceived skill.
+    chart: presence
+
+  - h: "Building a bot people warm to"
+    body: |
+      The authors advise making agents come across as friendly, likable and warm, and having them respond to each customer's own
+      questions and wishes. They see a feminine way of writing, with more emojis for example, as one route there, and want looks
+      and words to tell the same story. They also recommend feminine visual cues, although, on our reading, the avatar result
+      above argues for care there.
+
+      Look closely at what the chatbot test changed, though. In the chats the paper reproduces, neither bot has a face or a
+      name. What made one of them "female" was its manner: a smiling greeting, questions rather than orders, and talk about
+      people and feelings. We would go one step beyond what was tested: a brand can probably borrow that manner without giving
+      its assistant a gender at all.
+
+      That matters, because the authors are uneasy about the alternative. Defaulting to female helpers can reinforce the idea
+      that women belong in assisting roles. They call for work on gender-neutral and non-binary agents. Such tests could also
+      reveal whether warmth works without the stereotype attached.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Read your bot's first lines aloud", "Open a typical chat and copy the first five messages your bot sends. Read them aloud and mark each one as warm, neutral or curt."]
+  - ["Decide if the bot needs a gender", "Write down what the bot's name, picture and pronouns add for the customer. If none of them helps anyone get an answer, choose a neutral name and a simple icon instead of a face."]
+  - ["Turn orders into questions", "Swap lines like 'Enter your order number' for 'Could you share your order number?' Start with a friendly hello and ask what the customer hopes to sort out today."]
+  - ["Add one personal touch to each reply", "Give every answer one line that picks up what this customer just said, such as their destination or the feature they care about. Use one emoji at most, and only where your brand's tone allows it."]
+  - ["Run both scripts side by side", "Send half of your chat traffic to the warmer script and half to the current one for two weeks. Keep everything else the same, including the icon."]
+  - ["Ask if anyone seemed to be there", "End each chat with two quick ratings: was the assistant friendly, and did it seem as if a person was answering? Compare both scripts on these, on problems solved and on complaints."]
+
+expect:
+  - "**A sense of someone there, not proven sales.** Trust, satisfaction and buying were not measured; the authors connect presence to them through earlier work."
+  - "**The style may still read as female.** People judged the warmer script clearly more feminine, so a nameless bot written this way can carry the same stereotype."
+  - "**A nudge, not a human double.** Expect a bot that feels a little more personal, not one that passes for a person."
+  - "**An ethical cost to weigh.** Leaning on feminine stereotypes can entrench them; the authors want neutral designs tested next."
+
+limits:
+  - "**Screenshots, not conversations.** People looked at a picture or read a scripted exchange. Nobody typed to a working bot."
+  - "**German-language studies.** The authors think other cultures could respond differently, especially those with more traditional gender roles."
+  - "**Several cues at once.** The feminine script changed questions, emojis, emotion and topics together, so the tests cannot say which cue did the work."
+  - "**No voice.** Spoken assistants, pitch and tone of voice were left for later work."
+  - "**One outcome.** Only the sense of presence was measured, and its scale held together less tightly than the others, with reliability of 0.68 and 0.62 against at least 0.81 elsewhere."
+
+faq:
+  - q: "Do female chatbots feel more human to customers?"
+    a: "One written in a stereotypically feminine style did: people sensed someone behind it more strongly, because it came across as friendlier. A female avatar picture seemed friendlier too, yet felt less present than a male one overall, so it depends on how gender is signalled (Nickel & Meyer, 2025)."
+  - q: "What is social presence in a chatbot?"
+    a: "The feeling that someone is on the other side of the conversation, a sense of being with another person rather than operating a machine. Earlier research ties it to more trust and more willingness to use an agent."
+  - q: "Why do female virtual assistants seem warmer?"
+    a: "People carry a stereotype that women are friendlier and more sociable, and they apply it to software that looks or talks in a feminine way. In these tests, that friendliness, not perceived honesty or skill, explained the extra sense of presence."
+  - q: "Should a customer service chatbot use emojis?"
+    a: "In the scripts tested, emojis were one part of a warmer style alongside questions and emotional language, and that style made the bot seem more sociable. Emojis were not tested on their own, so treat them as part of a friendly tone rather than a fix by themselves."
+  - q: "Is it a problem to give a chatbot a female persona?"
+    a: "The authors raise the concern themselves: defaulting to female assistants can reinforce the stereotype that women are natural helpers. They suggest trying neutral or gender-diverse designs instead."
+
+also:
+  - doi: "10.1002/mar.22186"
+    title: "Gendered Artificial Intelligence in Marketing: Behavioral and Neural Insights Into Product Recommendations"
+    authors: "Huang, Gu, Feng, & Luo"
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Shoppers saw practical or pleasure products recommended by male and female humans, virtual assistants and robots while their
+      brain activity was recorded. In what they chose and said, female recommenders came out ahead in every condition, and in some
+      they also drew bigger tips. Brain responses followed an older stereotype, with extra attention to practical products when a
+      human man recommended them. A persona people say they prefer can still trigger older stereotypes beneath the surface.
+  - doi: "10.1002/cb.2454"
+    title: "Feeding Comfort: The Role of Humor in Online Food Complaints"
+    authors: "Armstrong, Kulczynski, & Hook"
+    journal: "Journal of Consumer Behaviour"
+    year: 2025
+    text: >-
+      Two experiments looked at how firms should answer food complaints posted on social media. Replies that matched the
+      complaint's tone, a joke for a joke and a straight answer for a serious post, left onlookers more at ease, which raised their
+      purchase intentions and lowered their urge to spread bad word of mouth. When the failure was severe, a humorous reply stopped
+      helping. Reading the room counts for more than a witty house style.
+
+charts:
+  warmth:
+    title: "How much higher the female version was rated than the male one (rating points)"
+    scale: [0, 1.5]
+    step: 0.5
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Sociability, avatar pictures", 0.64, true]
+      - ["Sociability, chatbot scripts", 1.20, true]
+      - ["Morality, avatar pictures", 0.48, false]
+      - ["Morality, chatbot scripts", 0.07, false]
+      - ["Competence, avatar pictures", 0.27, false]
+      - ["Competence, chatbot scripts", 0.13, false]
+    source: "Study 1 (avatar pictures, 312 people) and Study 2 (chatbot scripts, 354 people), estimates after controls, as reported in the paper. Only the sociability gap passed through to presence in both studies; the competence gaps and the chatbot morality gap were not significant."
+  presence:
+    title: "Sense that someone was really there, by agent (average score)"
+    scale: [0, 4]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Male avatar", 3.61, false]
+      - ["Female avatar", 3.06, false]
+      - ["Male chatbot", 1.79, false]
+      - ["Female chatbot", 2.12, true]
+    source: "Study 1 (avatars) and Study 2 (chatbots), group means from the paper's web appendix; both gaps were significant. The two studies used different stimuli, so compare within a study, not across. The paper does not state the length of the rating scale."
+
+related_pages: []
