@@ -194,7 +194,12 @@ def jsonld(d: dict) -> str:
 
 def main() -> None:
     d = yaml.safe_load((ROOT / "data" / "mentoring.yml").read_text())
-    creds = "".join(f'<li>{icon(c["icon"])}<span>{esc(c["text"])}</span></li>' for c in d["credentials"])
+    def cred(c):
+        text = esc(c["text"])
+        if c.get("url"):
+            text = f'<a href="{esc(c["url"])}">{text}</a>'
+        return f'<li>{icon(c["icon"])}<span>{text}</span></li>'
+    creds = "".join(cred(c) for c in d["credentials"])
     hero = (f'<section class="mt-hero"><p class="mt-intro">{esc(d["intro"].strip())}</p>'
             '<div class="mt-ctas"><a class="mt-btn mt-btn-primary" href="#request">Request a session</a>'
             '<a class="mt-btn mt-btn-ghost" href="#request" data-service="intro">Book a free 15-minute intro call</a></div>'

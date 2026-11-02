@@ -578,6 +578,8 @@ main section h2 { margin-top: 2.4rem; }
 .mt-creds { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
 .mt-creds li { display: flex; gap: .75rem; align-items: flex-start; font-size: .93rem; line-height: 1.45; color: $text; padding-top: .9rem; border-top: 2px solid $amber; }
 .mt-creds .mt-ico { flex: none; color: $amber-text; margin-top: .1rem; }
+.mt-creds li a { color: inherit; text-decoration: none; }
+.mt-creds li a:hover { text-decoration: underline; text-decoration-color: $amber-text; }
 
 /* plans */
 .mt-plans { padding: 2.4rem 0 1rem; border-top: 1px solid $rule; }
