@@ -1,0 +1,234 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 10                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-03-14"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: petfluencer-sincerity
+status: live
+
+title: "Are pet influencers more persuasive than human ones? What a Journal of Advertising Research study found"
+dek: >-
+  Brands now pay dogs and cats to post on their behalf. A live Instagram test and three experiments suggest an animal can
+  be the more persuasive endorser on social media, because followers take a pet's recommendation as sincere.
+short_title: "Why a pet's sponsored post can beat a person's"
+
+description: >-
+  Lavertu et al. find pet influencers can out-persuade people: a post with a dog's paws drew triple the engagement, and
+  a cat lifted the price offered for wine.
+
+keywords: [petfluencers, pet influencers, animal influencers, influencer marketing, Instagram advertising, influencer sincerity,
+  influencer fatigue, sponsored posts, willingness to pay, anthropomorphism, message framing, Journal of Advertising Research]
+topics: [Influencers, Social media, Advertising]
+
+image:
+  file: 2025-petfluencer-sincerity.jpg
+  og: 2025-petfluencer-sincerity-og.jpg
+  alt: "A golden retriever rests its chin on a red tartan blanket printed with white paw prints while a person in the foreground photographs it on a phone"
+  caption: "Some of the most trusted faces in a feed belong to creators who have never read a brief. Photo: Elisa Kennemer on Unsplash."
+
+short_answer: >-
+  Often, yes. When a peanut butter brand ran two sponsored Instagram posts for four days, the one showing a dog's paws
+  drew three times the engagement of the one showing a man's hands, at a third of the cost per engagement. Online, people
+  offered more for wine a cat recommended than for wine a woman recommended, largely because the cat seemed more sincere,
+  and a second experiment confirmed that sincerity drives the gap.
+
+takeaways:
+  - "The price offered for a case of wine rose from $40.57 to $58.08, about 43% more, when a cat rather than a woman posted the recommendation."
+  - "Viewers scored the cat higher on sincerity traits such as honesty than the woman, 5.03 against 4.02 on a scale of 1 to 7."
+  - "Primed to think about sincerity, people offered 46% more for a bottle the cat endorsed than for the woman's; after recalling insincerity, the cat's lead disappeared."
+  - "Framing mattered too: students who readily humanise animals offered about $1.14 more for socks after a today-focused prompt, while those who rarely do offered about $1.22 more when the prompt pointed to the future."
+
+paper:
+  doi: "10.1080/00218499.2025.2463707"
+  title: "Petfluencers, the Fur-Mula for Sincere Endorsements: Examining How and When Pets Exhibit Greater Persuasion as Influencers"
+  authors: ["Lavertu, L.", "Kulow, K.", "Cowan, K.", "Marder, B."]
+  authors_full: ["Laura Lavertu", "Katina Kulow", "Kirsten Cowan", "Ben Marder"]
+  year: 2025
+  journal: "Journal of Advertising Research"
+  volume: "65"
+  issue: "4"
+  pages: "484-499"
+  online: "2025-03-14"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Laura Lavertu"
+      affiliation: "University of Strathclyde"
+      orcid: "0000-0002-0084-9114"
+    - name: "Katina Kulow"
+      affiliation: "University of Louisville"
+      orcid: ""
+    - name: "Kirsten Cowan"
+      affiliation: "University of Edinburgh"
+      orcid: "0000-0002-5586-1823"
+    - name: "Ben Marder"
+      affiliation: "University of Edinburgh"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 4
+    basis: "Four studies: a four-day Meta A/B ad test on Instagram (35,837 US users reached), two online experiments on TurkPrime (150 and 201) and a lab experiment with 185 US undergraduates; pretests, a post hoc test and a supplementary test in the appendices not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Laura Lavertu of the University of Strathclyde,
+      Katina Kulow of the University of Louisville,
+      and Kirsten Cowan and Ben Marder of the University of Edinburgh
+      studied a kind of creator that brands are signing up quickly and researchers have mostly ignored: the petfluencer.
+      They define it as a pet with its own dedicated social media account and a sizeable following, sometimes paid to promote
+      brands. A dog that turns up now and then on its owner's feed does not qualify.
+
+      Their starting point is influencer fatigue. As sponsored posts multiply, followers increasingly suspect human creators of
+      praising products for the money. Nobody suspects a cat of that. The team asked whether this innocence makes a pet's
+      endorsement more persuasive, why, and whether the wording of a pet's post changes the result.
+
+      They worked in four steps, from a live ad test on Instagram to three controlled experiments. Each post spoke in the
+      creator's own voice and carried the usual #ad and #sponsored tags.
+    facts:
+      - ["Studies", "An Instagram ad test lasting four days, two online experiments and one lab experiment"]
+      - ["People", "35,837 Instagram users reached; 150 and 201 online participants; 185 students at a large US university"]
+      - ["Creators", "A dog's paws or a man's hands; a cat or a woman; a pet alone in the final study"]
+      - ["Products", "Peanut butter, wine and socks"]
+      - ["Measured", "Post and page engagements, perceived sincerity, and the most people would pay"]
+      - ["Checks", "Pretests found the posters believable, and the pet and the person equally attractive and cute"]
+
+  - h: "Paws against hands in a live Instagram test"
+    body: |
+      The first test ran where sponsored posts actually live. Using Meta's split-testing tool, the team showed two versions of
+      a sponsored post for a peanut butter brand to separate, randomly drawn groups of US users aged over 18 with an interest in
+      peanut butter. One version showed a man's hands at the jar. The other showed a dog's paws, with a caption about helping
+      "my human daddy" finish it off.
+
+      Showing only hands or paws was deliberate. It kept faces, looks and gender out of the comparison.
+
+      Over four days, with matching budgets each day, the two reached audiences of similar size. The dog's
+      version won: each post engagement cost £2.29, against £6.86 for the human version, and the gap in engagements with the
+      brand's page was wider still. The counts are small, which is why the controlled studies that followed matter.
+    chart: field
+
+  - h: "Why would a cat sell wine better than a woman?"
+    body: |
+      Next came an online experiment with 150 people recruited through TurkPrime. Each saw one Instagram post for an online
+      wine seller, from either a woman or a cat, with the same picture content and near-identical words. A woman was chosen
+      because, by an industry count the authors cite, 84% of influencers are female. Participants said what a case of wine was
+      worth to them and rated the poster on seven sincerity traits.
+
+      The cat came across as more genuine, and that impression explained much of the higher price. In the authors' mediation
+      analysis, about $8.74 of the difference ran through perceived sincerity.
+
+      Answers varied widely within each group, partly because nobody was told how many bottles a case holds. The authors
+      tightened the design in the next study.
+
+  - h: "Switch sincerity off and the advantage goes"
+    body: |
+      To check that sincerity really was the driver, the team manipulated it directly. In a second online study, 201 people
+      first spent up to a minute recalling a person, or an animal, whose actions were either heartfelt and genuine or the
+      opposite. They then saw a matching post, pet or human, now without the glasses used as a prop earlier, and named a price
+      for one bottle of wine, up to $50.
+
+      The cat pulled ahead only after the sincerity prompt. After the insincerity prompt, the two posters landed close together.
+      One result surprised the authors: for the woman, recalling sincerity lowered the price people offered, a borderline effect.
+      Their tentative explanation is that thinking about sincerity reminded people how often influencers fall short of it. A
+      follow-up test in the paper's appendix ruled out novelty and credibility as rival explanations for the pet's edge.
+    chart: wine
+
+  - h: "Speak to the moment for people who humanise animals"
+    body: |
+      The final study, with 185 students, turned from whether to how. Everyone saw the same petfluencer post for a sock brand,
+      in which a pet called Pookie eats the socks and the brand replaces them. Just before, half had seen a dish soap ad with a
+      tagline about today and half one about the future, an established way to nudge people towards near or distant thinking.
+
+      Students then stated the most they would pay for a pair of socks in a prize draw that made their answers count, and
+      completed a 15-item measure of how readily they credit animals and objects with minds and feelings, which psychologists
+      call anthropomorphism.
+
+      The prompts worked in opposite directions for different people. The authors reason that humanising a pet makes
+      it feel close and concrete, so a message about the here and now fits that frame of mind, while people who keep animals
+      at a distance respond better to the longer view. No human influencer appeared in this study: it shows how to word a
+      pet's post, not whether a pet beats a person.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Pick two products to test", "List the products you plan to promote through creators this quarter. Choose two where an animal in the frame would feel natural or at least funny, and start there."]
+  - ["Pick an animal that runs its own account", "Shortlist three animal accounts that post as the pet, not owners who share the odd dog photo. Read 20 recent sponsored posts on each and check that the comments sound warm, not suspicious."]
+  - ["Read how your followers talk about pets", "Scroll through 50 comments on animal posts in your niche. If people call pets babies or give them thoughts and moods, plan captions about today. If the tone is cooler, try a line about what the product will do over time."]
+  - ["Write the caption in the pet's voice", "Let the pet speak in the first person about what it is doing right now, in two short sentences. Give it a name and one habit, and keep the paid-partnership label in plain view."]
+  - ["Run a pet against a person", "Launch the same post twice for a week, giving both the same budget per day: once with the pet and once with a human creator or just human hands. Compare cost per engagement and clicks to your page, not likes."]
+  - ["Ask whether it felt genuine", "Poll 100 people who saw each version with one question: how honest did this post feel, from 1 to 7? If the pet scores no higher than your human creators, move the budget back."]
+
+expect:
+  - "**Small rates, even when they triple.** The winning field ad still drew fewer than one engagement for every 1,000 people it reached."
+  - "**Cheaper page engagement.** With equal daily spend, each engagement with the brand's page cost about nine times as much from the human version as from the dog's."
+  - "**Sincerity is the asset to protect.** The advantage held only while people saw the pet as genuine. It is our inference that a post which feels staged or over-produced could lose it."
+  - "**Fewer scandals, more control.** The authors argue that pets cost less, rarely land in scandals and leave the brand more say over content. Those points rest on industry reports they cite, not on their own data."
+
+limits:
+  - "**Posts made for the research.** Every post was built for the studies, with two pets credited in the acknowledgements playing the part. No real petfluencer's bond with followers was tested."
+  - "**A short, small field test.** The Instagram ads ran for four days for one brand and produced 24 post engagements in total."
+  - "**Mostly stated prices.** In the two wine experiments, prices were hypothetical answers. Only the sock study tied answers to a real prize draw, and it used students."
+  - "**Products with no link to pets.** Wine and socks bear no relation to animals. Whether a closer fit helps a pet or hurts it was not tested."
+  - "**No owner, and no framing test for people.** Owners never appeared in the posts, and the today-or-future wording was tried only with a pet."
+
+faq:
+  - q: "Do pets make better brand endorsers than people on social media?"
+    a: "They did in these tests. Across a live ad test and two experiments, sponsored posts from a pet earned more engagement and higher offered prices than matching posts from a person (Lavertu et al., 2025). The authors stress that human creators can still be effective and remain the mainstream choice."
+  - q: "What is a petfluencer?"
+    a: "An animal that has a dedicated account and a large audience of its own, and may be paid to endorse brands. The account can appear to be run by the pet or openly by its owner, but it centres on the animal. A pet that only appears on its owner's personal feed is not one."
+  - q: "Why do pets seem more sincere than human creators?"
+    a: "People do not imagine an animal praising a product for money or lying about it. Earlier research the authors draw on shows animals are widely seen as unable to deceive, which sidesteps the suspicion many followers now feel towards paid human posts."
+  - q: "Does the product have to be for pets?"
+    a: "Not in these studies. A cat lifted what people would pay for wine, and the final study used a pet to promote socks. Peanut butter, the field test product, suits dogs and people alike. Whether a closer match between animal and product adds anything was left for future work."
+  - q: "Should the owner appear alongside the pet?"
+    a: "Nobody knows yet, because the posts never showed the owner. The authors suggest an owner might borrow some of the pet's sincerity and make the post stronger, and they flag it as an open question."
+
+also:
+  - doi: "10.1108/ejm-03-2022-0191"
+    title: "Effect of pre-roll ad choice on brand attitude and attitude toward the viewing experience"
+    authors: "Newton, Newton, Wong, & Tsarenko"
+    journal: "European Journal of Marketing"
+    year: 2025
+    text: >-
+      Three experiments let some viewers pick which pre-roll ad to watch before the content they came for, first as an
+      illusion of choice and then as a real one. Choosing improved attitudes towards the advertised brand and the viewing
+      experience, but only when the options came from competing brands. It worked by making viewers feel empowered, a route
+      that held for people who dislike online ads or had little interest in the category. For an audience that skips ads, a
+      short menu may earn more goodwill than a forced spot.
+  - doi: "10.1111/ijcs.70037"
+    title: "Influencers and Consumer Financial Decision‐Making"
+    authors: "Gerritsen & de Regt"
+    journal: "International Journal of Consumer Studies"
+    year: 2025
+    text: >-
+      A hand-collected set of 453 stock and cryptocurrency tips from 21 Dutch financial influencers showed a clear pattern. The
+      creators tended to recommend assets that had just risen, and those assets typically lost value after the tip. The authors
+      see crowd-following behind it and call for tighter oversight and more transparency. Any brand that partners with
+      finance creators takes on their track record as well as their reach.
+
+charts:
+  field:
+    title: "Engagements from two otherwise identical sponsored Instagram posts over four days"
+    scale: [0, 20]
+    step: 5
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Post engagements, man's hands", 6, false]
+      - ["Post engagements, dog's paws", 18, true]
+      - ["Page engagements, man's hands", 1, false]
+      - ["Page engagements, dog's paws", 9, true]
+    source: "Study 1, Meta split test with the same daily budget per ad, 17,613 and 18,224 US Instagram users reached. Both gaps were statistically significant."
+  wine:
+    title: "Price offered for one bottle of wine (US dollars) after recalling sincerity or insincerity"
+    scale: [0, 15]
+    step: 5
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Woman, insincerity recalled", 11.70, false]
+      - ["Woman, sincerity recalled", 9.13, false]
+      - ["Cat, insincerity recalled", 10.33, false]
+      - ["Cat, sincerity recalled", 13.31, true]
+    source: "Study 3, 201 online participants, means from the text and Figure 1. The cat beat the woman only after the sincerity prompt; after the insincerity prompt the two did not differ reliably."
+
+related_pages: []
