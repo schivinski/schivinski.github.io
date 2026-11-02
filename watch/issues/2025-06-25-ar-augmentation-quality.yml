@@ -1,0 +1,246 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 27                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-06-25"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: ar-augmentation-quality
+status: live
+
+title: "What makes augmented reality feel real enough to sell? What a Journal of the Academy of Marketing Science study found"
+dek: >-
+  Putting AR on a website does not by itself make shopping better. Five studies show that people judge a virtual object on
+  its looks, its responses and how it sits in the room or on the face, and that a convincing result nudges them towards buying.
+short_title: "The three checks that make AR feel real"
+
+description: >-
+  Schein et al. find shoppers judge AR on design, responsiveness and fit with its setting; when all three land, the
+  product feels present and buying intent rises.
+
+keywords: [augmented reality marketing, AR quality, virtual try-on, AR shopping apps, local presence, product visualisation,
+  immersive retail, customer experience, scale development, purchase intention, Journal of the Academy of Marketing Science]
+topics: [Retail, Research methods]
+
+image:
+  file: 2025-ar-augmentation-quality.jpg
+  og: 2025-ar-augmentation-quality-og.jpg
+  alt: "A young woman with sunglasses pushed up on her head studies her reflection in a wood-framed mirror in an eyewear shop, an orange wall and glass shelves of sunglasses beside her"
+  caption: "A mirror never lags and never gets the size wrong. That is the standard a virtual try-on is held to. Photo: Yanhao Fang on Unsplash."
+
+short_answer: >-
+  Getting three things right at once. Across five studies, people judged an AR object by how well it was designed, how
+  smoothly it responded and how naturally it sat in its surroundings. The higher those scores, the more the object seemed
+  really there, and the gains ran through that feeling. In a sunglasses try-on with 175 passers-by, it made the app more
+  enjoyable, which lifted intent to buy, and more useful, which raised plans to use AR again.
+
+takeaways:
+  - "Of 199 candidate statements about what makes AR look right, 13 survived testing: nine about the virtual object and four about whether it felt physically present."
+  - "Offered a raffle prize, 42% of 175 try-on users chose the sunglasses they had picked in the app, priced at EUR 200 to 440, over EUR 100 in cash."
+  - "A quarter (25%) asked to take the app's details home, and that request grew more likely as confidence in their verdict on the glasses rose."
+  - "Among 320 people testing apps on their own Apple devices, prior AR know-how and a vivid imagination had no detectable bearing on whether the object felt real. The overlay's quality outweighed every personal trait tested."
+
+paper:
+  doi: "10.1007/s11747-025-01108-2"
+  title: "Unpacking augmentation quality and local presence: Factors that drive effective augmented reality marketing"
+  authors: ["Schein, K. E.", "Rauschnabel, P. A.", "Praxmarer-Carus, S.", "Babin, B. J."]
+  authors_full: ["Katrin E. Schein", "Philipp A. Rauschnabel", "Sandra Praxmarer-Carus", "Barry J. Babin"]
+  year: 2026
+  journal: "Journal of the Academy of Marketing Science"
+  volume: "54"
+  issue: "1"
+  pages: "49-69"
+  online: "2025-06-25"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs)
+    - name: "Katrin E. Schein"
+      affiliation: "Herman Hollerith Research Center, Reutlingen University, Alteburgstraße 150, 72762, Reutlingen, Germany"
+      orcid: "0000-0002-7109-0176"
+    - name: "Philipp A. Rauschnabel"
+      affiliation: "College of Business, Universität der Bundeswehr München, Werner-Heisenberg-Weg 39, 85577, Neubiberg, Germany; Social Sciences, Economics and Business Administration, University of Bamberg, Kapuzinerstraße 16, 96047, Bamberg, Germany"
+      orcid: ""
+    - name: "Sandra Praxmarer-Carus"
+      affiliation: "Department of Economics and Management, Universität der Bundeswehr München, Werner-Heisenberg-Weg 39, 85577, Neubiberg, Germany"
+      orcid: ""
+    - name: "Barry J. Babin"
+      affiliation: "Phil B. Hardin Professor, Department of Marketing, Analytics and Professional Sales, University of Mississippi, 253 Holman, P.O. Box 1848, University, MS, 38677, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 5
+    basis: "Five studies as the paper reports them: two qualitative item-generation studies with consumers and experts (1, 2), a mall survey with six AR apps (3, 350), a panel survey with three apps on own iPhones (4, 320) and a pop-up-lab survey with a sunglasses try-on (5, 175)"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Katrin E. Schein from Reutlingen University,
+      Philipp A. Rauschnabel, who holds posts at the University of Bamberg and the Universität der Bundeswehr München,
+      Sandra Praxmarer-Carus, his colleague there, and
+      Barry J. Babin of the University of Mississippi
+      started from a gap that bothers anyone budgeting for AR. Plenty of work shows that a good AR view can lift enjoyment
+      or sales. Very little says what a good AR view actually is. Picture a try-on that shows only half the frame, or glasses
+      far too big for the face. That is still AR, and it is unlikely to help.
+
+      Earlier studies often borrowed their yardsticks from other media, virtual reality above all, which were never designed
+      for a product placed in the user's own surroundings. So the authors designed a measure from scratch. A literature review
+      and two qualitative rounds with consumers and experts produced 199 statements on what separates convincing AR from clumsy AR,
+      trimmed to 31 for testing.
+
+      Three surveys followed. In a German shopping mall, 350 people each tried one of six apps on a tablet for three to
+      five minutes, either placing products in the room or trying them on. A second group of 320 downloaded an app to their own
+      Apple phone or tablet and had to upload a screenshot as proof of use. Finally, the team turned an empty shop in the centre of a large
+      German city into a research lab and invited 175 passers-by to try sunglasses on virtually.
+    facts:
+      - ["Studies", "Five: two qualitative rounds to collect and trim statements, then three surveys after hands-on use"]
+      - ["People", "350 mall shoppers; 320 panel members aged 18 to 50 with Apple devices; 175 passers-by in a large German city"]
+      - ["AR tried", "Six apps on a mall tablet, three on people's own devices, and one eyewear brand's website try-on on an iPad"]
+      - ["Kinds of AR", "Apps that dress the body through a camera mirror, and apps that place a product in the room"]
+      - ["Measured", "Agreement with each statement from 1 to 7, plus enjoyment, usefulness, confidence, fit, intentions and two real choices"]
+
+  - h: "Three things people check"
+    body: |
+      The mall data reduced the 31 statements to 13, which between them captured 76.2% of the variation in answers. Nine of
+      them fell into three clear groups. Design quality covers how the object itself looks: a high level of detail, a
+      high-quality finish, realistic from every angle. Interaction quality covers how it reacts: intuitive to handle, moving
+      smoothly, responding in real time. Embedding quality covers how it fits the scene: true to scale next to real things,
+      blending in, set realistically into its surroundings.
+
+      The other four statements described something less tangible, the sense that the object had left the screen. One reads,
+      "It seems as if the virtual object has shifted from the device into the room." The authors call this local presence,
+      a deliberate contrast with the "telepresence" of virtual reality. Their model treats the three qualities as the cause and presence as the result. Developers can work on the first
+      directly, while the second follows only if they get it right.
+
+      The three qualities rose and fell together, so the team treated them as facets of one overall judgement. In the next
+      survey, a model that lumped all 13 statements into a single block fitted the data far worse. Their own illustration
+      shows why each part counts. A pair of virtual sunglasses can sit perfectly on the face and track every head turn, yet
+      still look flat and oversaturated, and then it reads as a digital overlay rather than a product.
+
+  - h: "The app matters more than the user"
+    body: |
+      The panel survey of 320 Apple users checked that the structure held up in fresh hands, and it did. It also tested
+      some obvious alternative explanations. Perhaps people who know AR well are harder to impress, or people with lively
+      imaginations fill in the gaps.
+
+      Neither idea held. With age, gender, AR know-how, imagination and an eye for product design all in the model, rated
+      quality still carried a weight of about 0.75 on the sense of presence, almost unchanged from the model without them.
+      Age, gender and design sense each had small effects, while know-how and imagination showed no effect at all.
+      Our inference for marketers: work on the AR view itself is likely to pay off across the customer base, rather than
+      needing a version tuned to each type of user.
+    chart: controls
+
+  - h: "From a convincing overlay to a sale"
+    body: |
+      The pop-up lab tested what presence does next. Visitors took an iPad, opened the website try-on of Persol, a mid-price
+      eyewear brand (which neither sponsored nor took part in the work), browsed as long as they liked and put their favourite
+      pair in the basket. A researcher gave everyone the same scripted briefing to limit usability problems.
+
+      Two routes ran from presence to results. On the enjoyment route, a stronger feeling that the glasses were there made the session more
+      fun. A more enjoyable session made people feel the glasses suited them, and that feeling fed both their intention
+      to buy that pair and their choice of the glasses over cash in the raffle. On the usefulness route, presence made the
+      app seem more helpful for judging the product. That built confidence in their own verdict, which then lifted the
+      intention to use AR again and the odds of taking the app's details home.
+
+      The routes also meet. A good fit turned into buying intent more readily among people who were sure of their judgement,
+      and the same held for the prize choice. Every chain from quality to the four outcomes held up statistically.
+    chart: routes
+
+  - h: "What the authors advise"
+    body: |
+      The headline message is that AR is not automatically an upgrade. Its returns depend on how well the virtual object is
+      made and placed, so when marketers and design engineers build an AR view together, presence should be their shared
+      goal.
+
+      The authors offer their 13 statements as a short diagnostic. Run it on your own AR view and on a rival's to see where
+      you stand. Their view is that the three qualities work as a set, so excellent design will not rescue a laggy object.
+      That follows from how the measure is built rather than from a separate test. They also suggest watching engagement
+      and conversion data as the AR view improves, and judging hardware choices, from phone depth sensors to see-through
+      glasses, by how customers rate the result.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Pick products that need a setting", "Start with items whose look depends on where they go or who wears them, such as glasses, lipstick, paint or a sofa. Leave products people choose on specs alone for later."]
+  - ["Write a short quality checklist", "List nine plain statements: three on the object's looks (detail, finish, real from every angle), three on its response (smooth, instant, easy to handle) and three on its fit (true size, blends in, sits naturally). Add four on whether it feels like a real thing in the room. People give each one a score out of 7."]
+  - ["Fix size, placement and lag first", "Hold the object next to something real of known size and check it matches. Move the phone fast and turn your head. If the object drifts, slides or trails behind for even a moment, fix that before any visual polish."]
+  - ["Match the finish to the real item", "Put the real product beside its virtual copy under the same light and compare texture, reflections and colour on screen. Correct anything that looks flat, plastic or too bright."]
+  - ["Test the view with 30 shoppers", "Ask 30 customers to use the AR view for five minutes, then fill in the checklist. Treat any statement that averages below 5 out of 7 as the next item on your fix list."]
+  - ["Track what users do next", "Each month, compare people who opened the AR view against those who skipped it on basket adds, saved items and return visits to the view. Rerun the checklist after every app update, and once a quarter on a rival's AR view."]
+
+expect:
+  - "**Quality is the lever, not the label.** Outcomes moved with the ratings the virtual object earned, so a weak AR view is unlikely to earn its keep just by existing."
+  - "**Two payoffs, two paths.** Enjoyment made products seem to suit people, which fed buying. Usefulness built confidence, which fed coming back to the app."
+  - "**Confidence turns fit into action.** People sure of their judgement acted on a good match more readily, so anything that helps shoppers trust what they see adds to the effect."
+  - "**A cheap check.** Thirteen statements take a few minutes to answer and work just as well on a competitor's AR view as on your own."
+
+limits:
+  - "**One national context.** Two of the surveys ran in Germany, and the authors describe their data as coming largely from one western, individualistic setting."
+  - "**Quality was rated, not varied.** No one built a weak and a strong version of the same app to compare. Every link rests on what people reported in one sitting. We note this from the design; the authors do not list it as a limit."
+  - "**Stand-ins for sales.** A prize choice and a request for the app's details are signals of intent; no purchases or returns were tracked."
+  - "**One product route.** The path to buying was traced with a single brand's sunglasses try-on; furniture or paint placed in a room may behave differently."
+  - "**Single questions.** Purchase intention and plans to reuse AR were each asked with one statement, and the panel survey took Apple users only."
+
+faq:
+  - q: "Does adding augmented reality to an online shop increase sales?"
+    a: "Not by default. What counted was how well the AR was done: in the eyewear try-on, higher ratings of the virtual glasses went, through a stronger sense that they were really there, with more enjoyment, more confidence and a stronger inclination to buy (Schein et al., 2026)."
+  - q: "How do shoppers decide whether AR looks real?"
+    a: "Three qualities judged together: a detailed, well-finished object, smooth and instant reactions when you move, and a believable fit with what is around it, from correct size to blending in. When all three score well, people report that the product seems to have moved off the screen into their space."
+  - q: "Which matters more, how the object looks or how it moves?"
+    a: "Neither can be skipped. All three qualities were closely tied to the overall judgement in every survey, and the authors hold that strong design cannot make up for poor responsiveness. That view rests on the structure of their scale, not on a head-to-head test."
+  - q: "How is presence in AR different from presence in virtual reality?"
+    a: "Virtual reality makes you feel you have gone somewhere else. In AR the movement runs the other way: the product seems to arrive where you are. The authors use the term local presence for that sense of a virtual object being physically nearby."
+  - q: "How can a brand measure the quality of its AR?"
+    a: "With a short survey after people have used it: nine statements on the object's design, responsiveness and fit, and four on whether it felt really there, each scored on a seven-point agreement scale. The same questions can be put to users of a competitor's app for comparison."
+
+also:
+  - doi: "10.1177/10949968251352408"
+    title: "How Do Image Captions Drive Consumer Engagement on Social Media?"
+    authors: "Adam"
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Brand captions that go beyond describing what the photo shows, by adding a viewpoint, an interpretation or a touch of
+      imagination, drew more engagement in an analysis of 95,155 single-image posts from 402 brands. A further online test with
+      1,200 people traced the lift to greater interest. The gain shrank, and could reverse, for brands that felt remote or hard
+      to relate to. A caption earns its space by saying what the photo cannot, provided the audience already feels close to the brand.
+  - doi: "10.1177/00222429251352842"
+    title: "Customers’ Review Content and Their Referral and (Re)Purchase Behaviors"
+    authors: "Liu, Zhang, & Chintagunta"
+    journal: "Journal of Marketing"
+    year: 2026
+    text: >-
+      What customers put into their own reviews shapes what they do afterwards. Across a field experiment, a scenario
+      experiment and archival data from household services, podcast trials and airlines, emotional content in a review went
+      with more referrals and repeat purchases, while analytical content worked against them. Whether longer reviews helped
+      depended on how much thought went into writing them. The wording of a review request could count for as much as the star rating.
+
+charts:
+  controls:
+    title: "What predicted the sense that the virtual object was really there (standardised weights, 0 to 1)"
+    scale: [0, 1]
+    step: 0.2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Rated quality of the AR view", 0.75, true]
+      - ["An eye for product design", 0.14, false]
+      - ["Age", 0.11, false]
+      - ["Gender", 0.10, false]
+      - ["Imagination", 0.00, false]
+    source: "Study 4, 320 people testing AR apps on their own Apple devices, all controls in one model (Appendix B). Imagination was not significant; prior AR know-how had a small negative weight that was not significant and is not drawn."
+  routes:
+    title: "Sunglasses try-on: how strongly each step led to the next (standardised path weights, 0 to 1)"
+    scale: [0, 1]
+    step: 0.2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["AR quality to sense it is there", 0.78, true]
+      - ["Sense it is there to enjoyment", 0.70, false]
+      - ["Enjoyment to good fit", 0.52, false]
+      - ["Good fit to intent to buy", 0.46, false]
+      - ["Good fit to glasses over cash", 0.52, false]
+      - ["Sense it is there to usefulness", 0.61, false]
+      - ["Usefulness to confidence", 0.62, false]
+      - ["Confidence to intent to reuse", 0.47, false]
+      - ["Confidence to taking app details", 0.22, false]
+    source: "Study 5, 175 passers-by using one eyewear brand's website try-on on an iPad; standardised paths from the published Figure 3, all significant (the last at p = 0.038)."
+
+related_pages: []
