@@ -1,0 +1,243 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 24                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-06-17"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: loading-animation-speed
+status: live
+
+title: "Does a loading spinner's speed change how long a wait feels? What a Journal of Consumer Research study found"
+dek: >-
+  Most sites fill a slow load with nothing at all or a spinning wheel, and the usual design advice says faster movement makes
+  time fly. Ten experiments find that a middle pace makes waits feel shortest and keeps more people from walking away.
+short_title: "The spinner speed that makes waits feel shorter"
+
+description: >-
+  Ding and Kyung find a loading spinner at a moderate pace makes waits feel shorter than a blank screen or a fast spinner,
+  and keeps more people on the page.
+
+keywords: [loading animation, loading spinner speed, perceived waiting time, page load time, website abandonment,
+  user interface design, digital customer experience, conversion rate, click-to-landing rate, mobile shopping,
+  time perception, Journal of Consumer Research]
+topics: [Service, Retail, Creative]
+
+image:
+  file: 2025-loading-animation-speed.jpg
+  og: 2025-loading-animation-speed-og.jpg
+  alt: "Travellers stand in silhouette on a railway platform under a curved iron and glass roof, low golden sun pouring in at the far end and a departure board hanging overhead"
+  caption: "Every wait lasts as long as it lasts. How long it feels depends on what there is to watch. Photo: Jonathan Ybema on Unsplash."
+
+short_answer: >-
+  Yes, though not in the way most designers assume. Across ten experiments, waits felt shortest when a looping spinner moved
+  at a moderate pace, about two seconds per full turn, rather than not at all, very slowly or very fast. Pace also changed
+  behaviour: after clicking a Facebook ad, 44.5% of people sat through a 20-second load with a moderate spinner, against 37.5%
+  with a still image and 38.9% with a fast one.
+
+takeaways:
+  - "On a phone, two 7-second waits felt 26% shorter with a moderate spinner than with a blank screen, and 20% shorter than with a fast spinner."
+  - "When people clicked through to an optional one-minute survey, 67% finished it after a 30-second wait with a moderate spinner, compared with 32% after a still image and 50% after a fast spinner."
+  - "In a mobile shopping task, backpacks opened after a moderate spinner earned a liking score of 63 out of 100, against 58 when a still image had filled the wait."
+  - "Of 100 popular websites checked by hand, 32 showed nothing at all while loading, and the animations timed across sites and apps took about 1.2 seconds per turn on average."
+
+paper:
+  doi: "10.1093/jcr/ucaf037"
+  title: "Optimizing Animation Speed: Convex Effects on Perceived Waiting Time and Digital Customer Experience"
+  authors: ["Ding, Y.", "Kyung, E. J."]
+  authors_full: ["Yu Ding", "Ellie J. Kyung"]
+  year: 2026
+  journal: "Journal of Consumer Research"
+  volume: "53"
+  issue: "1"
+  pages: "136-161"
+  online: "2025-06-17"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "Yu Ding"
+      affiliation: "Stanford Graduate School of Business, 655 Knight Way, Stanford, CA 94305, USA"
+      orcid: "0000-0002-0758-9706"
+    - name: "Ellie J. Kyung"
+      affiliation: "Marketing Division, Babson College, 108 Malloy Hall, Babson Park, MA 02457, USA"
+      orcid: "0000-0003-2385-9523"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 10
+    basis: "Ten experiments as the paper reports them: 1a (590), 1b (296), 1c (571), 2a (1,159), 2b (147), 3a (1,148), 3b (1,135), 4 (2,477 Facebook ad clicks; 3,874 with the pretest phase), 5 (357 of 1,880) and 6 (361); pilots A to C and the three post-tests not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Yu Ding of the Stanford Graduate School of Business and Ellie J. Kyung of Babson College
+      studied the short, unplanned pauses that interrupt almost any visit to a website or app: the moment after a tap when the
+      content has not arrived yet. Designers usually fill that gap with nothing, a still logo, or a wheel that keeps turning
+      until the page appears. Earlier design work had compared animation against no animation and concluded, roughly, that more
+      movement makes time pass faster. How fast the animation should move had not been tested systematically.
+
+      Three pilot studies set the scene. In a survey of 195 people on Amazon Mechanical Turk, a blank screen made up 26% of the
+      loading moments they recalled from the previous week, a still image 13% and rotating circles 32%. Nearly half (45%) said a
+      wait had made them abandon a site or app altogether in those seven days. Records from a chat service used by more than
+      4,000 US firms showed the cost at scale. Across 4.53 million chats, new customers waited 13 seconds on average for an
+      agent, and every extra five seconds made them 8.64% less likely to receive the agent's messages.
+
+      The main evidence comes from ten experiments. Each one placed a wait inside an unrelated online task, or straight after a
+      click, and changed only what sat on the screen: a blank page, a still picture, or one looping animation at a slow, moderate
+      or fast pace.
+    facts:
+      - ["Experiments", "Ten, numbered 1a to 6, with data collected between 2015 and 2023; seven were registered in advance"]
+      - ["People", "Prolific and Mechanical Turk panels, including US and UK samples, US students, and US Facebook users who clicked an ad"]
+      - ["Waits", "From 7 to 30 seconds, on phones in most experiments and on computers in the rest"]
+      - ["Pace", "One turn every 10 seconds or more (slow), every 2 to 2.5 seconds (moderate) or every 0.4 to 0.5 seconds (fast)"]
+      - ["Compared with", "Nothing on screen, a still image or a slow animation, depending on the experiment"]
+      - ["Measured", "How long the wait felt, attention, landing on the page after an ad click, finishing a task, and liking for products"]
+
+  - h: "Why a middle pace feels quickest"
+    body: |
+      The first three experiments, with 1,457 people between them, varied the device, the shape and the length of the pause:
+      one 17-second wait on a computer with a coloured wheel, two 7-second pauses on a phone showing a square, and two of 9 seconds
+      on a phone with a ring. Whatever the comparison, the moderate loop made the wait feel shortest. It beat the slow loop as
+      well as the fast one, which is what the authors mean by a convex, or U-shaped, effect. Speeding up helps until it starts
+      to hurt.
+
+      The effect is real but modest. Animation pace explained only about 3% to 5% of the variation in felt waiting
+      time. In the first experiment people also rated how bored and how engaged they felt. Boredom did not change
+      with pace, and the moderate loop was rated slightly more engaging, but engagement did not explain why its waits felt
+      shorter.
+    chart: felt
+
+  - h: "Attention does the work"
+    body: |
+      Why should a spinner change felt time at all? The authors argue that people read it as a clue when they have no other way
+      of judging how long a load will take. In experiment 2a, with 1,159 phone users, half were told the page would need around
+      9 seconds. Among those left guessing, the moderate loop again felt shortest, scoring 82 on a 200-point scale against 108
+      for a still image and 105 for a fast loop. Among those given the time, the three versions no longer differed.
+
+      The second ingredient is attention. In a lab, 147 students did ten sums in their heads while a snail picture sat beside
+      each problem, standing still, moving at a moderate pace or racing. The moderate snail drew the most attention (5.22 out of
+      7, against 3.24 for the still one and 4.45 for the fast one), and the students who saw it solved the fewest sums: 4.69 on
+      average, against 5.62 and 5.67. Attention fully accounted for that dip. Motivation did not budge with pace, and
+      stress, though higher with either moving snail, did not differ between moderate and fast.
+
+      This matches what is known about vision. Once movement gets quick enough, the separate steps merge into one streak, and
+      the eye stops following them.
+
+  - h: "When pace stops mattering"
+    body: |
+      If fast loops lose because they blur, giving the eye something slower to follow should rescue them. Experiment 3a, with
+      1,148 UK phone users, put this to the test. A four-colour wheel at a fast pace felt clearly longer than the same wheel at
+      a moderate pace, 121 against 102. A second design added a slower layer: a clock-like hand swept around the circle while
+      the whole circle changed colour once per turn. With that design, fast and moderate felt almost identical, 99 against 98.
+
+      Experiment 3b, with 1,135 UK phone users, swapped the familiar ring for an unusual picture, a mixing bowl with a stirrer
+      bobbing up and down. People rated the bowl far less common than the ring, and with the bowl, pace stopped
+      counting. That is not a case for novelty, though. The familiar ring at a moderate pace still scored lowest among the four
+      versions, a gap the paper did not test directly.
+
+  - h: "From felt time to lost visitors"
+    body: |
+      The last three experiments moved from feelings to actions. In experiment 4, an ad about sunscreen ran on Facebook to adult
+      mobile users across the US. Everyone saw the same ad, and only after clicking did people meet a 20-second wait with a
+      still image, a moderate loop or a fast loop before the page opened. The moderate loop kept the most people on the loading
+      page and the fewest drifting off to another window. An exploratory analysis tied who gave up to that drifting.
+
+      Experiment 5 asked 1,880 online workers, once they had their payment code, whether they would help with one more short
+      survey. The 357 who clicked met a 30-second wait before it began. Experiment 6 put 361 students on their phones in front
+      of ten real backpacks priced between $21.99 and $33.99, with a 7-second wait before each product page they chose to open.
+      Products seen after the moderate loop were liked most, though the edge over the fast loop was only marginal. Backpacks the
+      students never opened were rated alike, about 29 out of 100, whatever the animation.
+    chart: drift
+
+  - h: "Many real spinners run quicker than the sweet spot"
+    body: |
+      The firm-side pilot shows how much room there is. Of the 100 websites coded, 59 used a repeating animation, and so did 57
+      of 59 popular apps, where waits averaged 11.16 seconds against 5.71 seconds on the animated websites. Three in four of the
+      timed animations completed a turn in under 1.4 seconds, quicker than the two-second loop that did best in the tests,
+      though slower than the fast loop, which matched the quickest tenth of those observed. The in-between speeds most sites
+      use were never tested, so whether they cost anything is an open question. That comparison is ours, not the authors'.
+
+      The authors are careful about scale. A better spinner will not outweigh good products, fair prices, sharp messages or an
+      easy site. Their point is that waits happen anyway, the fix is cheap, and most firms do not use it. They recommend A/B
+      tests that track animation type, pace, wait length, click-to-landing rates and satisfaction across phones and
+      computers.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Time every pause on your site and app", "Open your site and app on a phone, ideally on a slow connection. Write down each pause longer than one second, how long it lasts and what fills the screen while you wait."]
+  - ["Fill the blank screens first", "Wherever a load shows nothing or a still logo, plan a simple looping animation instead, such as a ring or a wheel. Start with the pages people reach from ads and the steps of checkout."]
+  - ["Slow the loop to two seconds a turn", "Set one full turn of the spinner to take about two seconds. Check it with a stopwatch: count the turns over ten seconds and aim for five."]
+  - ["Give a fast spinner a slow layer", "If a template forces a quick spinner you cannot change, add a second, slower change, such as a colour that shifts once per turn. Keep the shape familiar rather than inventing a novelty picture."]
+  - ["Run three versions side by side", "On one page that often loads slowly, split visitors evenly between a still image, your two-second loop and a fast loop that turns more than twice a second. Keep it running until each version has at least 500 visits."]
+  - ["Count who leaves before the page appears", "Each month, record how many visitors close the page or switch tabs during a load, for phone and computer visitors separately. Keep the version that holds the most people and test again after every redesign."]
+
+expect:
+  - "**A fifth or so off the felt wait.** Against the other options, the moderate loop cut how long a wait felt by between about 14% and 30%, by our calculation from the reported averages."
+  - "**Long waits still lose people.** Even with the best loop, most Facebook clickers gave up before the 20-second load finished. A spinner softens a slow page; it does not rescue it."
+  - "**A small design job.** The loops tested were simple GIFs built with an online animation maker, so changing the pace should not need a rebuild of the site."
+  - "**Best pace may vary.** The tests covered three speeds and a handful of simple shapes, so treat two seconds as a first setting to test, not a fixed rule."
+
+limits:
+  - "**Simple GIFs and three speeds.** Wheels, rings and squares at slow, moderate and fast pace. Branded animations, progress bars and speeds between those tested were not compared."
+  - "**A skewed ad audience.** Facebook's delivery is not random, and the people who clicked were 80% women and 78% aged 65 or over, so the authors urge caution with that result."
+  - "**Long, artificial waits.** Pauses of 7 to 30 seconds were built in on purpose. Whether the effect holds for very short real loads was not tested."
+  - "**Volunteers and students.** The conversion test used paid online workers asked for a favour, and the shopping test used US undergraduates, where the gain over a fast spinner was marginal."
+  - "**It needs uncertainty.** When people were told how long to wait, pace stopped mattering, so waits that come with a stated length fall outside it."
+
+faq:
+  - q: "Do loading animations make a wait feel shorter?"
+    a: "A well-paced one does. During a single 17-second pause on a computer, people rated its length at 30.6 on a 100-point scale with a moderate wheel, while a still image drew 43.6 and a fast wheel 35.5. Phone tests with blank screens and slow loops as the comparison gave the same ranking (Ding & Kyung, 2026)."
+  - q: "What is the best speed for a loading spinner?"
+    a: "The winning pace moved twice a second and took around two seconds to complete a loop. A loop five times quicker felt longer, and so did one that took ten seconds to go round, which means the right answer is neither the slowest nor the fastest option."
+  - q: "Why can a faster spinner make the wait feel longer?"
+    a: "At high speed the separate steps blur together, so the eye stops tracking them. In a check with 200 people watching the wheel, those shown the fast version were more inclined than moderate viewers to watch the overall colour pulse instead of each step. In the authors' account, less attention on the screen leaves more for noticing the time."
+  - q: "Should a site say how long the wait will be?"
+    a: "Telling people a page needs around 9 seconds removed the advantage of the moderate spinner, because they no longer needed a clue. Across all versions, waits with a stated length felt slightly shorter overall. Our reading: where a delay cannot be estimated, the pace of the animation is the lever left."
+  - q: "Does spinner speed affect ad results?"
+    a: "It affected how many ad clickers reached the page. Counting every click, including an early phase with slightly different ad wording, 40.8% stayed until the page opened when the moderate spinner played, compared with 33.2% when a still image showed and 35.4% with a fast one, across 3,874 clicks."
+
+also:
+  - doi: "10.1093/jcr/ucaf034"
+    title: "This Article Is Not for Everyone: The Impact of Dissuasive Framing on Consumer Response to Product Messages"
+    authors: "Wallach, Blair, & Tanenbaum"
+    journal: "Journal of Consumer Research"
+    year: 2026
+    text: >-
+      Product copy usually speaks to the people a product suits. Eight experiments find that telling the wrong people to look
+      elsewhere, as a strong roast might warn off anyone who dislikes dark coffee, draws a warmer response from the intended
+      buyers and a cooler one from the rest. The warning makes the product look made for a narrower group, which raises the sense
+      of fit inside it. Naming who should scroll past may sharpen an ad more than another line about who it is for.
+  - doi: "10.1057/s41270-025-00415-5"
+    title: "Media type congruence in the advertising effectiveness of celebrity vs. influencer endorsements"
+    authors: "Grunwald, Kara, Kapukaya, & Zeren"
+    journal: "Journal of Marketing Analytics"
+    year: 2026
+    text: >-
+      A survey of 430 consumers in Turkey compared ads fronted by celebrities and by social media influencers, on television
+      and online. Endorsers seen as credible lifted attitudes to the ad, recall and purchase intentions. On television the
+      celebrity ads came out ahead, while on social media the two showed no significant difference, and the authors lean
+      towards celebrities across both channels. Where a campaign lives only in the feed, the endorser's fame looks less
+      decisive than the fit with the channel.
+
+charts:
+  felt:
+    title: "How long two 9-second phone pauses felt, by spinner pace (0 to 200 scale, higher feels longer)"
+    scale: [0, 200]
+    step: 50
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Slow loop, a turn every 10 s", 109.55, false]
+      - ["Moderate loop, a turn every 2 s", 82.14, true]
+      - ["Fast loop, a turn every 0.4 s", 106.52, false]
+    source: "Experiment 1c, 571 Prolific participants on phones. The moderate loop differed significantly from both the slow and the fast one."
+  drift:
+    title: "Share who clicked away to another window during a 20-second load after a Facebook ad (%)"
+    scale: [0, 100]
+    step: 25
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Still image", 89.5, false]
+      - ["Moderate loop", 77.3, true]
+      - ["Fast loop", 82.7, false]
+    source: "Experiment 4, 2,477 ad clicks in the registered test period. The moderate loop differed from both; all 3,874 clicks showed the same pattern."
+
+related_pages: []
