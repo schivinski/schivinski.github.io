@@ -1,0 +1,223 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 23                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-06-12"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: review-signals-brand-attitude
+status: live
+
+title: "How do online reviews shape shoppers' views of the brands they buy? What a Journal of Product & Brand Management study found"
+dek: >-
+  Reviews do more than inform. They stir feelings, and a large survey of online buyers suggests those feelings carry
+  through into how people judge a brand and whether they return to the same shop.
+short_title: "How reviews stir the feelings behind brand attitude"
+
+description: >-
+  Blanco-Encomienda and Rosillo-Díaz find believable reviewers and plentiful reviews go with shoppers feeling pleased and
+  in control, and with warmer brand views.
+
+keywords: [online reviews, review credibility, source credibility, number of reviews, e-commerce brand attitude, S-O-R model,
+  pleasure arousal dominance, shopper emotions, purchase intention, repeat purchase from a platform,
+  Journal of Product & Brand Management]
+topics: [Retail, UGC]
+
+image:
+  file: 2025-review-signals-brand-attitude.jpg
+  og: 2025-review-signals-brand-attitude-og.jpg
+  alt: "An older couple on a grey sofa share a laptop, the man in a checked shirt holding up a payment card as the woman in a pink cardigan looks across, orange and teal walls behind them"
+  caption: "Shoppers who felt pleased and in charge on a site thought better of the brand they came for. Photo: Vitaly Gariev on Unsplash."
+
+short_answer: >-
+  Through the feelings they stir. In a survey of 835 online shoppers, believing the people behind the reviews went with more
+  pleasure, a stronger sense of control and more nervous energy. Plenty of popular, well-rated reviews added pleasure and control,
+  while convincing arguments added control and jittery excitement but no pleasure. Shoppers who felt in control and pleased
+  held warmer views of the brand they wanted, and keyed-up shoppers were less likely to plan a return.
+
+takeaways:
+  - "Shoppers gave reviewer credibility the lowest score of the 3 review signals, averaging 4.6 of 7 points, but it alone was tied to all three feelings."
+  - "Seeing lots of comments, good ratings and a popular product was the signal rated highest (5.5 on the same scale) and the one most closely tied to feeling in control."
+  - "Of the 16 links in the model, the strongest ran from a sense of control to a favourable view of the brand."
+  - "Of the 4 things tied to coming back to the same platform, pleasure pulled hardest, and a jittery mood, the next strongest, pulled the other way."
+
+paper:
+  doi: "10.1108/jpbm-04-2024-5095"
+  title: "Exploring brand attitude in e-commerce using the S-O-R model: the role of information quantity, information quality and source credibility"
+  authors: ["Blanco-Encomienda, F. J.", "Rosillo-Díaz, E."]
+  authors_full: ["Francisco Javier Blanco-Encomienda", "Elena Rosillo-Díaz"]
+  year: 2025
+  journal: "Journal of Product & Brand Management"
+  volume: "34"
+  issue: "7"
+  pages: "1041-1055"
+  online: "2025-06-12"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Francisco Javier Blanco-Encomienda"
+      affiliation: "Faculty of Education, Economy and Technology, University of Granada, Ceuta, Spain"
+      orcid: ""
+    - name: "Elena Rosillo-Díaz"
+      affiliation: "Faculty of Education, Economy and Technology, University of Granada, Ceuta, Spain"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One online panel survey of 835 e-commerce shoppers (1,520 collected), tested with a covariance-based structural equation model in Amos"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Francisco Javier Blanco-Encomienda and Elena Rosillo-Díaz, both of the University of Granada's Faculty of Education,
+      Economy and Technology in Ceuta, Spain, asked how the review section of a shopping site works on people's emotions, and
+      whether those emotions reach as far as the brand. Plenty of research has looked at site design. Far less has looked at
+      the social cues other buyers leave behind.
+
+      They used a classic three-part frame: something in the setting (the stimulus) stirs an inner state (the organism), which
+      shapes their next judgements and actions (the response). The stimuli were three impressions of the reviews: their quality
+      (complete, accurate and convincing), their volume (lots of people commenting, good ratings, a popular product) and how
+      credible the reviewers seemed (expert, trustworthy, reliable). The inner states were pleasure, arousal and a sense of
+      control. The responses were attitude to the brand a shopper meant to buy and the intention to buy from the same
+      platform again.
+
+      A panel company ran the online questionnaire. Filter questions screened out people who do not shop online and a control
+      question caught automatic answers, so 835 of 1,520 responses were kept. Everyone answered about the platform they use
+      most. Before testing any links, the authors checked that the questions captured eight distinct ideas and that the model
+      fitted the data acceptably (CFI 0.92, RMSEA 0.06).
+    facts:
+      - ["Participants", "835 online shoppers from a panel survey (1,520 responded); 52% women, about two in three aged 25 to 54"]
+      - ["Shopping habits", "42% buy online at least weekly and 43% at least monthly"]
+      - ["Setting", "Each person's most-used e-commerce platform; the paper names no platform or country"]
+      - ["Measured", "Three review signals, three feelings, brand attitude and plans to return, all on seven-point agreement scales"]
+      - ["Analysis", "Structural equation model, one survey dataset"]
+
+  - h: "Which review signals stirred which feelings"
+    body: |
+      Credibility, meaning a sense that the people commenting know how to judge products and can be trusted, had the widest
+      reach. It was linked with every feeling measured and had the strongest single link to pleasure.
+
+      Volume did the most for shoppers' feeling of control and also lifted pleasure. It showed no link with arousal, so more comments did
+      not seem to rattle anyone. Arousal here was measured with words such as frenzied and jittery, so it describes a tense,
+      wound-up state rather than happy excitement.
+
+      Quality behaved differently. Reviews judged complete, accurate and convincing went with more control and, more strongly
+      than either other signal, with more arousal, yet they added nothing to pleasure. The authors' explanation: weighing up
+      arguments is work, and it can keep shoppers on alert without making the visit any more enjoyable.
+    chart: signals
+
+  - h: "Feeling in control mattered most for the brand"
+    body: |
+      Two of the three feelings went with a warmer view of the brand people were shopping for. Control, the sense that your own
+      choices decide what you see and do on the site, had the larger link. Pleasure had a smaller one. Arousal showed none.
+
+      The authors suggest that seasoned online shoppers, or those familiar with a brand, do not hold a moment of tension on
+      the site against it. That is their explanation; the survey did not test it.
+    chart: brand
+
+  - h: "What brought shoppers back to the platform"
+    body: |
+      The final outcome needs reading with care. Its four questions asked whether people would make their next purchase on the
+      same platform and visit it again, so it captures loyalty to the shop more than to any one brand.
+
+      Pleasure had the strongest link to it, a standardised coefficient of 0.50 on a scale where 0 means no link. Control
+      followed at 0.27, and brand attitude added a smaller push of its own at 0.16. Arousal ran the other way at −0.36: with
+      the other feelings held level, shoppers who felt frenzied or on edge were less inclined to come back. The authors think
+      tension felt in the moment can halt a purchase even when it leaves the view of the brand untouched.
+
+  - h: "What the authors suggest platforms do"
+    body: |
+      The advice follows from these links rather than from any test of it. Encourage more customers to comment, for instance
+      with rewards or game-like incentives. Make genuine customer reviews easy to tell apart from promotional ones. Let shoppers
+      filter reviews by quality, so finding the useful ones takes less effort, and add credibility cues like purchase counts
+      or buyers' own product photos.
+
+      They also want platforms to ease the nervousness of buying from a screen, making the exchange feel closer and warmer, and
+      to do all of this without intruding on customers' privacy.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Read your product pages as a stranger", "Pick your three best-selling products. Open each page as a first-time buyer would, count the reviews, note the average rating and ask yourself whether you can tell who wrote each one."]
+  - ["Choose your proof of a real buyer", "Pick two or three signs to show beside every review, such as a verified-purchase tag, how long the person has been a customer, or a photo they took of the product."]
+  - ["Ask every buyer for a review", "Send one short request 7 to 10 days after delivery, with a one-tap star rating and an optional line of text. If you offer a thank-you, give it for any honest review and never tie it to a high score."]
+  - ["Make good reviews easy to find", "Add filters for star rating, most helpful and reviews with photos. Pin the three most helpful reviews at the top so a shopper reaches them in two taps or fewer."]
+  - ["Weed out anything that looks staged", "Once a week, scan new reviews for copied wording, bursts from new accounts or posts that read like adverts. Label gifted or sponsored reviews clearly and remove fakes."]
+  - ["Ask shoppers how the visit felt", "Add three questions to your post-purchase survey: did shopping here feel pleasant, did you feel in control, did you feel rushed or on edge? Track the answers each month next to your repeat-purchase rate."]
+
+expect:
+  - "**Feelings first, sales later.** In this model the review signals reached the outcomes only through how shopping felt, and the final outcome was a stated plan to return, not a recorded purchase."
+  - "**Convincing reviews cut both ways.** Strong, well-argued comments went with feeling more in control, but also with the tense arousal that went with fewer plans to come back."
+  - "**Volume did not rattle shoppers.** More comments showed no link with feeling wound up. The authors suspect that long, demanding reviews strain people more than many short ones, an idea they did not test."
+  - "**Rewards need care.** The authors suggest incentives for posting reviews. Tying a reward to a good rating would undercut the very credibility that mattered most here; that is our inference, not a finding."
+  - "**The shop may gain most.** Because the outcome was a repeat purchase on that site, the payoff looks like loyalty to the retailer as much as to the brands it sells. That is an inference from how the outcome was worded."
+
+limits:
+  - "**One survey, one moment.** Everyone answered once, so these are associations. The data cannot show that reviews caused the feelings or the feelings caused the attitudes."
+  - "**No platform or country named.** People answered about whichever site they use most, and the article gives neither the panel's country nor its fieldwork dates."
+  - "**Impressions, not pages.** Review quality, volume and credibility were shoppers' own judgements, not counts taken from real product pages."
+  - "**A sign that flips.** On its own, arousal went very slightly with more plans to return (a correlation of 0.14). The negative link appears only once pleasure, control and brand attitude are in the model, so treat it with some care. We draw this from the paper's own tables; the authors do not discuss it."
+  - "**Panel answers.** The authors note that panel respondents may answer carelessly or misread questions, despite the screening and control questions."
+
+faq:
+  - q: "Do online reviews change brand attitudes?"
+    a: "Indirectly, in this survey of online shoppers. Impressions of the reviews went with how pleasant and in control shopping felt, and those two feelings went with a kinder judgement of the brand they meant to buy (Blanco-Encomienda & Rosillo-Díaz, 2025)."
+  - q: "What is the S-O-R model?"
+    a: "Stimulus, organism, response: a framework from environmental psychology in which cues in a setting stir inner states that then lead people towards or away from something. Here the cues came from reviews, the inner states were emotions, and the responses were views of the brand and intentions to buy again."
+  - q: "What are pleasure, arousal and dominance?"
+    a: "Three classic dimensions of emotion: how good a person feels, how stirred up or alert, and how far they feel in charge. In this survey, dominance was asked as feeling that your own actions shape your experience on the site."
+  - q: "Are detailed, persuasive reviews always a good thing?"
+    a: "Not entirely. Shoppers who saw the reviews as thorough and convincing felt more firmly in charge, yet more tense too, and they did not enjoy shopping any more. The authors think judging arguments takes mental effort that keeps people on alert."
+  - q: "Does the number of reviews matter?"
+    a: "It did here. A sense that many people had commented, ratings were good and the product was popular went with more enjoyment and more control, and was unrelated to feeling on edge."
+
+also:
+  - doi: "10.1002/mar.22240"
+    title: "Does Inconsistency Between Influencer-Generated and User-Generated Content Hurt Brands? The Role of Perceived Content Credibility"
+    authors: "Liu, Wang, & Chen"
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      When what influencers say about a brand clashes with what ordinary users post, the brand loses favour, because
+      the content as a whole starts to look less credible. In several studies, the harm grew when the influencer did not
+      disclose the sponsorship. Stressing functional details and using two-sided messages softened it. Some gap between paid
+      and organic voices is unavoidable, so it pays to plan for one.
+  - doi: "10.1108/jpbm-03-2024-5017"
+    title: "Do reviewers increase their preference for the products they reviewed? The effect of identity signaling on reviewers' niche product preferences"
+    authors: "Huo, Yang, & Sun"
+    journal: "Journal of Product & Brand Management"
+    year: 2025
+    text: >-
+      Writing a review that touches on who you are seems to change what you buy next. Using purchase records and three
+      experiments, the authors found that identity-related reviews nudged reviewers towards niche rather than mainstream
+      products by easing doubts about their identity, more so when buying gifts for people unlike themselves. A review prompt
+      shapes the writer as well as the reader.
+
+charts:
+  signals:
+    title: "How each review signal linked to each feeling (standardised path coefficients)"
+    scale: [0, 0.5]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Credibility → pleasure", 0.459, true]
+      - ["Volume → pleasure", 0.190, false]
+      - ["Quality → pleasure (n.s.)", 0.099, false]
+      - ["Quality → arousal", 0.417, true]
+      - ["Credibility → arousal", 0.326, false]
+      - ["Volume → arousal (n.s.)", 0.0, false]
+      - ["Volume → control", 0.377, true]
+      - ["Credibility → control", 0.200, false]
+      - ["Quality → control", 0.181, false]
+    source: "Structural model, one survey of 835 online shoppers (Table 5). n.s. = not statistically significant; volume to arousal was −0.08 and is drawn at zero."
+  brand:
+    title: "How each feeling linked to attitude towards the brand (standardised path coefficients)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Sense of control", 0.550, true]
+      - ["Pleasure", 0.349, false]
+      - ["Arousal (n.s.)", 0.050, false]
+    source: "Structural model, one survey of 835 online shoppers (Table 5 and Figure 1). n.s. = not statistically significant."
+
+related_pages: []
