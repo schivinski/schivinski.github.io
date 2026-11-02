@@ -1,0 +1,244 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 8                       # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-03-01"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: quality-badges-ratings
+status: live
+
+title: "Does a quality badge lower your star ratings? What a Journal of Consumer Research study found"
+dek: >-
+  Platforms hand out badges to flag their best hosts and sellers, and the badges do bring in customers. Eighteen months
+  of Airbnb data and three experiments show a hidden cost: badged listings get rated more harshly, and shoppers then
+  follow the stars.
+short_title: "Why a quality badge can cost you stars"
+
+description: >-
+  Meister and Reinholtz find Airbnb homes are rated lower while they hold the Superhost badge, and most shoppers then
+  choose a higher-rated rival with no badge.
+
+keywords: [quality badges, platform certifications, Superhost badge, star ratings, online ratings, user-generated ratings,
+  customer expectations, marketplace design, top rated seller, review management, Journal of Consumer Research]
+topics: [UGC, Service]
+
+image:
+  file: 2025-quality-badges-ratings.jpg
+  og: 2025-quality-badges-ratings-og.jpg
+  alt: "A timber holiday cabin glowing at dusk, string lights along its tall glass gable, with a fire burning in a pit ringed by wooden chairs and pine trees all around"
+  caption: "A badge tells guests to expect the very best, and they judge the stay against that promise. Photo: Jonathan Adams on Unsplash."
+
+short_answer: >-
+  It can. Across more than 1.5 million Airbnb ratings, the same home scored slightly lower while it carried the Superhost
+  badge and recovered after losing it, while its ratings on Vrbo, which shows no badge, did not move with it. In online
+  experiments the badge alone lowered ratings of an identical stay, and most people then picked a higher-rated listing
+  without the badge over a badged one, so the lost stars outweighed the badge's pull.
+
+takeaways:
+  - "While a home held the badge, its average fell by about 0.04 stars: small on paper, but a fifth of the gap between a typical 4.8 and a perfect 5."
+  - "Losing the badge brought a rebound in ratings more than 2 times the size of the dip that came with winning it."
+  - "In an experiment with 502 people, the very same so-so stay earned an average of 2.96 stars when the property was described as a Superhost and 3.19 when it was not."
+  - "Experience did not protect shoppers: among participants who stay on Airbnb and with Superhosts more often than most, 54% still chose the higher-rated home without the badge, against 39% for the badged listing."
+
+paper:
+  doi: "10.1093/jcr/ucaf008"
+  title: "Quality Certifications Influence User-Generated Ratings"
+  authors: ["Meister, M.", "Reinholtz, N."]
+  authors_full: ["Matt Meister", "Nicholas Reinholtz"]
+  year: 2025
+  journal: "Journal of Consumer Research"
+  volume: "52"
+  issue: "4"
+  pages: "640-662"
+  online: "2025-03-01"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "Matt Meister"
+      affiliation: "University of San Francisco School of Management, San Francisco, CA 94117, USA"
+      orcid: "0000-0003-1730-6500"
+    - name: "Nicholas Reinholtz"
+      affiliation: "University of Colorado Boulder, Leeds School of Business, Boulder, CO 80309, USA"
+      orcid: "0000-0003-0696-1972"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 4
+    basis: "Four studies as the paper reports them: Study 1 field data (1,558,071 Airbnb ratings, plus 2,424 homes matched on Vrbo) and three preregistered online experiments, Studies 2A (502), 2B (599) and 3 (497); the Goodreads illustration in web appendix A and a stimulus pilot are not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Matt Meister, based at the University of San Francisco School of Management, and Nicholas Reinholtz, of the Leeds
+      School of Business at the University of Colorado Boulder, looked at two signals that sit side by side on almost every
+      marketplace. One comes from the platform: a badge such as Superhost, Top Rated Seller or an editor's pick. The other
+      comes from customers: the star rating. Earlier work shows badges lift demand. Little work had asked whether a
+      platform's own badge changes the stars people leave afterwards.
+
+      The authors open with books. On Goodreads, Pulitzer Prize winners average 4.00 stars against 3.89 for all books, which
+      places a typical winner only in the 59th percentile of its year. The prize probably does not mark a middling book. It
+      sets a higher bar for readers.
+
+      The team then ran four studies. The first followed real Airbnb listings as they won or lost the Superhost badge, and
+      checked each one against the same home on Vrbo. Three online experiments followed: one on how people rate a stay,
+      two on how people choose between listings.
+    facts:
+      - ["Field data", "1,558,071 ratings of 33,674 US Airbnb listings from 1,389,461 guests, July 2021 to December 2022, linked to quarterly listing snapshots"]
+      - ["The badge", "Airbnb's stated rules, checked every quarter: ratings of 4.8 or more, replies to 90% of guests within 24 hours, at least 10 stays, 1% cancellations or fewer"]
+      - ["Cross-check", "2,424 homes matched to their own listing on Vrbo, which carries no Superhost badge: 23,283 Vrbo ratings"]
+      - ["Experiments", "502, 599 and 497 adults recruited on MTurk and CloudResearch Connect, all three registered in advance"]
+      - ["Measured", "Star ratings from 1 to 5; which of two listings looked better; which one people would book"]
+      - ["Shared", "Data, analysis code, stimuli and every preregistration are available on OSF"]
+
+  - h: "The same home, rated a little lower"
+    body: |
+      Comparing badged and unbadged homes would be misleading, because the badge goes to better hosts. The authors therefore
+      compared each home with itself. The badge changes hands often: in a typical quarter, 14.4% of listings without it gained
+      it and 6.4% of holders lost it, which gives plenty of before and after periods to compare.
+
+      Across the full dataset, the same home scored lower in the quarters when it was a Superhost. Allowing for which guests
+      left the ratings roughly halved the gap. The authors take this to mean that part of the dip comes from pickier guests
+      choosing badged homes, and part from the badge itself.
+
+      The estimate pointed the same way in 3,600 of 3,648 alternative versions of the analysis, and was statistically clear
+      in 2,253 of them. The tone of written reviews told the same story.
+    chart: stars
+
+  - h: "Why the dip is not a drop in quality"
+    body: |
+      A sceptic could argue that hosts slack off once they have the badge, or get swamped. Badged homes did collect more
+      ratings per quarter, but holding that constant left the effect in place.
+
+      The stronger test was Vrbo. A host who really got worse would disappoint guests on both sites. Yet after a home gained
+      the badge, its Airbnb ratings fell relative to its Vrbo ratings, and after it lost the badge they rose. Before the
+      change, the two sites had moved in step, which also argues against a run of lucky reviews winning the badge and then
+      fading.
+
+      The rebound after losing the badge was the bigger of the two moves, something the authors had not predicted. One
+      possible reason is that ratings tend to slide over time anyway, which could mask part of the dip.
+
+  - h: "In the lab, the badge alone lowered the score"
+    body: |
+      Field data can never fully rule out hidden causes, so the authors built a clean test. Participants imagined a trip to
+      Las Vegas with three friends and saw photos of a real rental. Everyone then read about the same stay: fine, but with
+      none of the extras that make a rental feel special. There were no tips from the host, nothing in the fridge and no
+      cookware in the kitchen.
+
+      The only difference was one sentence saying the property was, or was not, a Superhost. People gave the badged version
+      lower ratings, a modest but reliable gap. Which set of photos they saw made no difference.
+
+  - h: "Shoppers follow the stars, not the badge"
+    body: |
+      If shoppers knew that badged homes get marked down, they could make allowances. Two choice experiments showed they
+      mostly do not. In the first, 599 people chose between two Las Vegas rentals at the same price, one badged and one
+      not. Each showed the average its version had earned in the previous experiment, so the badged one scored lower.
+
+      The second used four pairs of real Superhost listings in Los Angeles, Niagara Falls, San Francisco and Moab, alike in
+      price and number of guests. In each pair the badge was removed from one listing at random, and that listing always showed the
+      higher rating. In Niagara Falls, for instance, the averages were 4.81 and 4.74. Participants were not told what the
+      badge meant, much as on the real site.
+
+      Both times the higher rating won comfortably, and on average people also judged the higher-rated home to be the
+      better one. Only in Niagara Falls was the gap, though it pointed the same way, too small to be sure of. Because the badged option always carried the lower
+      score, these tests show which signal wins when they clash, not what each is worth alone.
+    chart: choice
+
+  - h: "What platforms can do about it"
+    body: |
+      The authors do not advise dropping badges. Instead they suggest using them to shape search, so that badged options are
+      browsed among themselves rather than weighed star for star against unbadged rivals. A filter that shows only badged
+      hosts does that, as does a curated playlist on a streaming service.
+
+      Hiding the badge on the review form would help little, they argue, because expectations colour the stay itself, not
+      just the score. Telling shoppers that badges depress ratings would need careful calibration, though they see it as the
+      most promising fix to test. They also suggest making objective details easier to compare, and placing expert ratings
+      beside customer stars.
+
+      They expect the same pattern wherever a label raises the bar: a two-week wait is likely to draw a harsher rating for
+      a top-rated seller, and an award-winning doctor may be marked down for not working miracles. Those cases were not
+      tested. For sellers who hold a badge, it seems a fair inference, though not one the paper tests, that listing copy
+      which oversells adds to the same pressure.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List every badge you show", "Write down each quality badge, award or best-pick label on your site or on your listings. Note every place it appears: search results, product pages, emails and the review form."]
+  - ["Compare ratings around each award", "For every seller or product that won or lost a badge in the past year, average its ratings for the 90 days before and the 90 days after. If it also sells on another channel, check whether its ratings there moved too."]
+  - ["Let people browse badged options together", "Add a filter for badged sellers, or a curated collection of top picks. When badged options sit side by side with each other, a rival with a slightly higher average is no longer the obvious choice."]
+  - ["Put plain facts next to the stars", "On listing and comparison pages, show three to five facts a shopper can check, such as reply time, cancellations and what is included. Set them in the same size as the star rating."]
+  - ["Promise only what you deliver", "If you hold a badge, read your listing line by line. Cut any claim a typical customer would not notice within their first hour, because every promise raises the bar they judge you against."]
+  - ["Judge badges by sales, not stars", "Run any change to badges or rating displays as a split test that runs for at least 30 days. Track bookings or orders per hundred views for badged items, and watch their average rating alongside."]
+
+expect:
+  - "**Hundredths, not whole stars.** The badge shaved a few hundredths off an average. When rivals sit close together on the same results page, that can still decide which one gets the click. This is our reading; the paper had no booking data."
+  - "**A dip right after the award.** Homes that went on to win the badge had been climbing faster than never-badged homes, and the drop came once the badge appeared. Check ratings in the first quarter after any award."
+  - "**Losing a badge stings less than feared.** Ratings bounced back after the badge went, which the authors note cushions any loss of demand."
+  - "**Price changes the picture.** Expensive homes and hosts with several properties showed a smaller badge effect. The authors suggest a high price already raises the bar, leaving the badge less to add."
+
+limits:
+  - "**One badge, one category.** Every study centres on short-stay rentals and the Superhost badge, with US listings. Seller badges, editors' picks and awards elsewhere were discussed, not tested."
+  - "**Earned, not assigned.** Hosts earn the badge, so the field data cannot settle cause on their own; a comparison with never-badged homes even showed uneven trends before the change, which is why the experiments were added."
+  - "**No money figures.** Without booking data, the cost of lost stars in bookings or income could not be estimated."
+  - "**Stacked choices.** In both choice tests the badged listing always had the lower rating, so the separate value of badge and stars was not measured."
+  - "**Imagined trips.** Lab participants rated or chose rentals for a stay they never took, and the lab ratings, near 3 stars, were far below those of real badged hosts."
+
+faq:
+  - q: "Do quality badges lower star ratings?"
+    a: "They can. The same Airbnb home was rated slightly lower while it held the Superhost badge and slightly higher once the badge was gone. Its Vrbo ratings, with no badge on show, did not follow that pattern (Meister & Reinholtz, 2025)."
+  - q: "Why would a badge make customers rate a stay lower?"
+    a: "Expectations. A badged listing is judged against other top hosts or against an idea of what a top host should offer, so the same stay looks weaker. Earlier studies point to similar effects of Michelin stars and Academy Award nominations on ratings."
+  - q: "Do shoppers make allowances for the dip?"
+    a: "Mostly not. When a badged listing showed a lower average than an unbadged one, most people judged the higher-rated option better and chose it, and the more frequent users of the site behaved much like everyone else."
+  - q: "Should platforms stop awarding badges?"
+    a: "No. Badges still pull in demand on their own. The authors would steer search with them instead, through filters and hand-picked collections, so that badged listings compete mainly with each other."
+  - q: "Does this apply beyond holiday rentals?"
+    a: "The authors expect it wherever a label raises expectations, but every test here involved holiday rentals. Treat other categories as a likely risk and check your own ratings around each award."
+
+also:
+  - doi: "10.1177/00222437251322425"
+    title: "Overestimating Stars, Underestimating Numbers: The Hidden Impact of Rating Formats"
+    authors: "Sirwani, Kumar, & Thomas"
+    journal: "Journal of Marketing Research"
+    year: 2025
+    text: >-
+      Twelve experiments compared the two usual ways of showing a rating. People read a row of stars with a part-filled
+      last star as higher than it is, because the eye completes the star, and read a figure such as 3.5 as lower, anchoring
+      on the first digit. Drawing every star in full, so that none looks cut off, reduced the inflation. How a score is drawn
+      changes the score people take away.
+  - doi: "10.1177/00222429251320603"
+    title: "The Effect of Company Size on Aggregate Word-of-Mouth Valence"
+    authors: "Klostermann, Flaswinkel, Hydock, & Decker"
+    journal: "Journal of Marketing"
+    year: 2025
+    text: >-
+      Four field studies found that bigger companies collect less favourable online reviews, even for experiences of equal
+      quality. Experiments traced this to empathy: people want to help small firms, so they post more after a good visit
+      and hold back after a bad one. Large firms narrowed the gap by replying often, personally and by name, in warmer
+      language. Size costs stars, and replies can win some of them back.
+
+charts:
+  stars:
+    title: "How far a home's Airbnb rating moved with the Superhost badge, by way of measuring it (stars on a 1 to 5 scale)"
+    scale: [0, 0.12]
+    step: 0.02
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Same home, badge vs no badge", 0.041, true]
+      - ["Same home, allowing for guests", 0.022, false]
+      - ["Won: drop vs same home on Vrbo", 0.045, false]
+      - ["Lost: rise vs same home on Vrbo", 0.107, true]
+    source: "Study 1, Table 5 (models 1 and 4) and Table 6 (models 2 and 4, with controls). The first three bars are falls while badged; the last is the rise after losing the badge. All significant."
+  choice:
+    title: "Which listing people chose when the badged one had the lower average rating (% of choices)"
+    scale: [0, 70]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Las Vegas: higher-rated, no badge", 56.8, true]
+      - ["Las Vegas: badged, lower-rated", 31.1, false]
+      - ["Las Vegas: no preference", 12.2, false]
+      - ["Real homes: higher-rated, no badge", 54.9, true]
+      - ["Real homes: badged, lower-rated", 36.1, false]
+      - ["Real homes: no preference", 9.0, false]
+    source: "Study 2B (599 people, one choice each; Figure 5 and text) and Study 3 (497 people, each choosing in four pairs of real Superhost listings). Both gaps significant."
+
+related_pages: []
