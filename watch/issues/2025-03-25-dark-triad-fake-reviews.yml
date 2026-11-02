@@ -1,0 +1,240 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 13                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-03-25"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: dark-triad-fake-reviews
+status: live
+
+title: "Does the wording of a fake review give its writer away? What a Psychology & Marketing study found"
+dek: >-
+  Fake reviews mislead shoppers and drain the value from every star rating. An analysis of Amazon reviews finds that one dark
+  personality style leaves its fingerprints on the fakes, two others steer clear of them, and a humble badge beats all three.
+short_title: "The personality behind fake reviews"
+
+description: >-
+  Borghi and Ratcharak find cynical, curt wording marks fake Amazon reviews, while narcissistic and impulsive styles point
+  away from fakes, in 21,000 reviews.
+
+keywords: [fake online reviews, fake review detection, Dark Triad, Machiavellianism, narcissism, psychopathy,
+  online review fraud, verified purchase, Amazon reviews, natural language processing, electronic word of mouth,
+  Psychology & Marketing]
+topics: [UGC, Retail]
+
+image:
+  file: 2025-dark-triad-fake-reviews.jpg
+  og: 2025-dark-triad-fake-reviews-og.jpg
+  alt: "A hand with dark red nail polish rests on the white keys of a laptop in low winter sunlight, an olive padded sleeve and bare trees behind"
+  caption: "A believable fake takes planning, and some personalities would rather not put in the work. Photo: Vardan Papikyan on Unsplash."
+
+short_answer: >-
+  Partly, but a plain badge says more. Scoring 21,000 Amazon product reviews, half of them labelled fake, for language tied
+  to three dark personality traits, two UK researchers found that reviews reading as cynical, negative and short turned out
+  to be fakes more often. Wording linked to narcissism or psychopathy went the other way. Yet the verified-purchase label
+  separated fakes from genuine reviews far better than any word pattern did.
+
+takeaways:
+  - "Each standard step up in Machiavellian wording (swearing, negative emotion, little warmth, few words) went with about 10% higher odds that a review was fake, on our conversion of the model."
+  - "Language tied to the other two traits pointed away from fakes: roughly 5% lower odds per standard step for narcissism and 11% lower for psychopathy, on the same basis."
+  - "A review from a verified purchase had odds of being fake roughly 20 times lower than an unverified one, by our reckoning from the published estimates: the strongest single signal in the analysis."
+  - "Length counted too: doubling a review's word count went with about 29% lower odds that it was a fake (again our conversion)."
+
+paper:
+  doi: "10.1002/mar.22212"
+  title: "Deceptive Minds in Digital Spaces: The Influence of the Dark Triad on Posting Fake Online Reviews"
+  authors: ["Borghi, M.", "Ratcharak, P."]
+  authors_full: ["Matteo Borghi", "Phatcharasiri Ratcharak"]
+  year: 2025
+  journal: "Psychology & Marketing"
+  volume: "42"
+  issue: "7"
+  pages: "1932-1945"
+  online: "2025-03-25"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Matteo Borghi"
+      affiliation: "Henley Business School, University of Reading, Reading, UK"
+      orcid: "0000-0002-4150-1595"
+    - name: "Phatcharasiri Ratcharak"
+      affiliation: "Greenwich Business School, University of Greenwich (Maritime Campus), London, UK"
+      orcid: "0000-0002-0421-3332"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival dataset: 21,000 labelled Amazon product reviews (10,500 fake, 10,500 genuine, 30 categories) analysed with logit models; the probit check in Appendix S1 is a robustness test, not a separate study"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Matteo Borghi, of Henley Business School in the University of Reading, and
+      Phatcharasiri Ratcharak, of the University of Greenwich's business school in London, asked a question that most
+      fake-review research skips. A great deal of effort goes into catching fakes. Far less goes into asking who writes them.
+
+      Their starting point was the Dark Triad, three personality traits that psychologists link to cheating and fraud:
+      Machiavellianism (cold, calculating manipulation), narcissism (grandiosity and a craving for admiration) and psychopathy
+      (impulsivity and little remorse). Earlier work tied these traits to people saying they would exaggerate in a review. This
+      pair asked whether the traits also surface in fakes that were actually posted.
+
+      They used a public collection of Amazon product reviews, each already labelled fake or genuine, that researchers often use
+      to test detection tools. Nobody filled in a personality questionnaire. Instead, a text-analysis tool counted the kinds of
+      words in each review, and formulas from earlier language research turned those counts into a score for each trait. The
+      Machiavellian score climbs with swearing, negative emotion, little positive emotion and short texts. The narcissism score
+      climbs with "you" and with longer texts, and drops with anxious, hesitant and sensory words. The psychopathy score follows
+      talk about the past, anger, swearing and "should have" phrasing, with few uses of "I" or the present tense.
+
+      A statistical model then estimated how each score related to the odds of a fake, holding length, tone,
+      star rating, purchase status and product category equal.
+    facts:
+      - ["Data", "21,000 reviews of Amazon products from a public research collection, 10,500 labelled fake and 10,500 genuine"]
+      - ["Spread", "30 product categories, each with 350 fake and 350 genuine reviews"]
+      - ["Typical review", "Rated 4.13 stars on average and mostly upbeat in tone"]
+      - ["Personality measure", "Word categories counted by the LIWC text-analysis tool, combined into one score per trait"]
+      - ["Held equal", "Length, sentiment, emotional tone, analytical style, star rating, verified purchase and product category"]
+      - ["Analysis", "Logistic regression on whether each review was fake, with a probit version as a check"]
+
+  - h: "One trait leans towards fakes, two lean away"
+    body: |
+      The Machiavellian pattern went with a higher chance of a fake, as the authors had predicted. The other two
+      ran the opposite way: the more a review sounded narcissistic or psychopathic, the less likely it was to be one of the fakes.
+      All three results held when each trait was tested alone and when all three were tested together, and the model with all
+      three fitted the data best.
+
+      Two robustness checks gave the same picture. Length and tone also feed into the trait formulas, so the team dropped both
+      from the controls; then they swapped in a different statistical method. Each trait kept its direction and stayed
+      statistically significant both times.
+    chart: traits
+
+  - h: "Why two dark traits stay honest here"
+    body: |
+      The authors draw on a theory of how people deceive one another, which treats a convincing lie as hard work. The liar has
+      to plan, stay consistent and manage the impression they give. A fake review that passes for a real one is exactly that
+      kind of lie.
+
+      On this account, people high in Machiavellianism are built for the job. They see manipulation as a route to success and
+      use it with care. Narcissists are another matter. They post reviews to look expert and win admiration, so the authors argue
+      that fear of being caught, and perhaps banned, outweighs anything a fake could bring them. That runs against earlier work
+      linking narcissism to a stated wish to exaggerate in reviews. The authors note that stretching a real experience and
+      inventing one are different acts, and that what people say they would do often differs from what they do.
+
+      For psychopathy, the explanation is impatience. Impulsive, short-term thinkers lie on the spur of the moment, not through
+      the slow craft of copying how genuine reviews sound. These motives are the authors' interpretation. The data show the
+      associations; they cannot show what was going on in any reviewer's head.
+
+  - h: "Everyday signals carried the weight"
+    body: |
+      The personality patterns were not the strongest clues. Purchase status was. Fakes were far more often unverified, and the
+      full model also linked fakes to a less formal, less analytical style of writing, a higher star rating and more positive
+      words.
+
+      Set the controls aside and the trait scores barely register. On its own, the Machiavellian score had no link with the fake
+      label; its pull appears only once the other features are held equal. One likely reason, which we take from the
+      correlation table, is that the score overlaps heavily with a review's mood: the more Machiavellian the wording, the lower
+      its tone and sentiment scores.
+
+      Adding all three trait scores nudged the model's overall fit from 0.292 to 0.294 (a pseudo R², on a 0 to 1 scale). The
+      authors take the gain as a case for building personality markers into detection systems. A more cautious reading, and it
+      is ours, is that the word patterns sharpen a filter whose backbone is still purchase checks and basic text features.
+    chart: signals
+
+  - h: "What the authors want platforms to do"
+    body: |
+      Platforms are under pressure. The authors cite a report by the consumer group U.S. PIRG estimating that 30% to 40% of
+      online reviews may be fake, and note that the UK is moving to make fake reviews a banned practice, with platforms held to
+      account for the content they host.
+
+      Their advice follows the three traits, then the basics. Extend text analysis beyond sentiment, so that filters also pick
+      up personality-style language. Build profiles of accounts whose reviews keep showing the Machiavellian pattern, and give those a closer look. Use
+      the narcissist's instinct: make a reviewer's credibility visible and worth protecting, while keeping bans and fines in
+      view. Treat very high ratings and gushing praise with care, and put verified-purchase information where shoppers can see it.
+
+      Brands that host reviews on their own sites can run a smaller version of the same checks. That step is our extension,
+      since the study looked only at Amazon product listings.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Pull your latest 200 reviews", "Export the 200 most recent reviews from your site or marketplace listing into a spreadsheet. Add a column that marks which ones come from a confirmed purchase."]
+  - ["Make the verified badge obvious", "Show a clear verified-buyer badge beside the star rating on every review from a real customer, on phones as well as desktop. Let shoppers filter to verified reviews with one tap."]
+  - ["Read the short unverified ones first", "Sort the unverified reviews from shortest to longest and read the first 30. Mark any that sound cynical or hostile, swear, and say little about the product itself."]
+  - ["Give gushing five-star posts a second look", "Read every unverified five-star review full of praise twice. Keep it only if it mentions something a real owner would know, such as fit, set-up or delivery."]
+  - ["Send repeat patterns to a person", "When one account has three or more marked reviews, hide them until a member of staff has checked the account. Ban accounts that are clearly fake, and say in your review rules that you do."]
+  - ["Show track records and count the catch", "Display each reviewer's history, such as helpful votes or months active, beside their name. Once a month, count how many marked reviews proved fake and drop any check that catches nothing."]
+
+expect:
+  - "**A tiebreaker, not a verdict.** Each word pattern moves the odds only a little for any single review, so use the scores to decide which reviews a person reads first."
+  - "**Basics first.** Expect most of the gain to come from purchase checks and review length; personality scoring refines the order of the queue."
+  - "**Formulas need local testing.** The trait formulas come from earlier language research and the authors want them validated further, so check them against reviews you already know to be fake before relying on them."
+  - "**Fakers adapt.** This is an inference rather than a finding: once a filter penalises one style of writing, determined fakers can change their wording, so keep human checks in the loop."
+
+limits:
+  - "**Words, not people.** Personality was read from each review's language, never measured with a questionnaire, so a Machiavellian review is a writing pattern, not a diagnosed person."
+  - "**Labels taken as given.** The analysis relies on the fake and genuine labels that came with a public collection and does not re-check them."
+  - "**No reviewer details.** The data hold no demographics or time stamps, so nothing can be said about who the reviewers were or how their habits changed over time."
+  - "**Links, not causes.** Fear of exposure and impulsiveness are the authors' explanations; neither was tested."
+  - "**No accuracy test.** The paper shows which signals go with fakes, not how many fakes a filter built on them would catch."
+  - "**Amazon products only.** Hotels, restaurants and other services may show different patterns."
+
+faq:
+  - q: "Can you tell a fake review from its wording?"
+    a: "To a degree. In thousands of labelled Amazon reviews, cynical, negative and terse wording was more common among the fakes, while language tied to narcissism and psychopathy was less common (Borghi & Ratcharak, 2025). Whether the reviewer had bought the product was a far stronger clue than any style of writing."
+  - q: "What is the Dark Triad?"
+    a: "A group of three overlapping personality traits: Machiavellianism (scheming, and cynical about other people), narcissism (an inflated self-image and a need to be admired) and psychopathy (impulsive, callous and short on empathy). All three are linked to unethical behaviour, but each tends to show up in its own way."
+  - q: "Why would narcissists be less likely to post fake reviews?"
+    a: "The authors' explanation, which they did not test, is fear of exposure. Narcissists review to look knowledgeable and gain attention, so being caught faking, and perhaps banned from the platform, would cost them the admiration they want."
+  - q: "Are verified-purchase reviews more trustworthy?"
+    a: "In this collection, clearly. Just over half the reviews (55.7%) carried the verified label, and those were far less likely to be fakes than the rest. The authors urge platforms to make the label easy for shoppers to find."
+  - q: "Are five-star reviews more likely to be fake?"
+    a: "Slightly, with length, tone and everything else kept equal: each extra star went with about 7% higher odds of a fake on our conversion, and more positive sentiment pushed in the same direction. The authors advise reading very high ratings and effusive praise with some scepticism."
+
+also:
+  - doi: "10.1111/ijcs.70043"
+    title: "Does Negative Online Review Matter? An Investigation of Travel Consumers"
+    authors: "Pooja & Upadhyaya"
+    journal: "International Journal of Consumer Studies"
+    year: 2025
+    text: >-
+      Two experiments tested how a bad review of a travel destination shapes plans to go there. Detailed complaints, and
+      complaints from a credible source, were believed more, and that belief worked through how people pictured the place,
+      in thought and in feeling, before reaching their intention to visit. A detailed complaint put older travellers off more
+      than younger ones. For destination marketers, the specific, well-sourced complaint is the one to answer first.
+  - doi: "10.1002/cb.2481"
+    title: "The Effect of Consumers' Affective Engagement on Their Personal Data Disclosure on Social Media"
+    authors: "Urbonavicius, Hollebeek, & Simanavičiūtė"
+    journal: "Journal of Consumer Behaviour"
+    year: 2025
+    text: >-
+      Across three studies, consumers who felt more emotionally engaged were readier to share basic details such as their full
+      name or email address on social media, and readier to share extra information such as a charity donation. Part of the
+      effect ran through their willingness to hand over data when buying online, and the third study tracked real disclosure,
+      not just stated willingness. When a sign-up form underperforms, the relationship may be the problem rather than the form.
+
+charts:
+  traits:
+    title: "Odds that a review is fake, for one standard step more of each trait's wording (no change = 100)"
+    scale: [0, 120]
+    step: 20
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Machiavellian wording", 110, true]
+      - ["No change", 100, false]
+      - ["Narcissistic wording", 95, false]
+      - ["Psychopathic wording", 89, false]
+    source: "All three traits modelled together, 21,000 Amazon reviews. Our conversion of the logit estimates (Table 4); a standard step is one standard deviation of each score (Table 2). All three effects are significant."
+  signals:
+    title: "How closely each signal tracks the fake label on its own (correlation, direction ignored, 0 to 1)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Verified purchase", 0.57, true]
+      - ["Analytical writing style", 0.15, false]
+      - ["Review length", 0.08, false]
+      - ["Upbeat emotional tone", 0.05, false]
+      - ["Psychopathy wording score", 0.04, false]
+      - ["Narcissism wording score", 0.02, false]
+      - ["Machiavellianism wording score", 0.00, false]
+    source: "Correlation table (Table 3), 21,000 Amazon reviews, before any controls. Verified purchase, analytical style, length and the narcissism and psychopathy scores lean towards genuine reviews; upbeat tone leans towards fakes; the Machiavellianism score shows no link."
+
+related_pages: []
