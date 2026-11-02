@@ -280,6 +280,12 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 - **Images** for the tab are named by slug: `watch/images/2025-<slug>.jpg` and `-og.jpg`.
 - **Plan:** watch/PLAN_2025.md lists every slot with its paper (DOI, date, status). Papers planned there are reserved for the
   2025 tab; the live series should not use them.
+- **Held for one batch release (Bruno, 2 Nov 2026):** "We will release the whole 2025 in a single batch when ready." Every
+  2025 issue stays `status: draft`, so public builds (`PUBLISH=1`) leave it out: no page, no 2025 tab, no 2025 chip in
+  "Browse by year", nothing on topic pages, in "Keep reading" or in llms.txt. Nos. 1 to 7 were live for a few hours on
+  2 Nov 2026 and were taken down that day. Drafts are committed (YAML and images only) but never dispatched. Bruno reviews
+  rendered previews (a draft build in a separate copy of the repo). On release day: set every 2025 issue to `status: live`,
+  set `published:` to the release date, renumber if any were added, then build and publish once.
 
 ## The 2024 tab: "2024 in research" (Bruno, 2 November 2026)
 - Built in its own chat ("issues 2024") on exactly the rules of the 2025 tab above, with 2024 in place of 2025:

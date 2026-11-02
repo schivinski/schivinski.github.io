@@ -10,7 +10,7 @@ week_of: "2025-01-02"            # the day the journal issue was published (Cros
 dateline: "Journal issue published 2 January 2025"
 published: "2026-11-02"          # the day this page went live (metadata only, never shown)
 slug: official-posts-vaccine-intention
-status: live
+status: draft                    # 2025 tab held back: the whole year is released in one batch (Bruno, 2 Nov 2026)
 
 title: "Whose social media posts persuade people, official accounts or ordinary users? What a Journal of Marketing Communications study of COVID-19 vaccine decisions found"
 dek: >-
