@@ -81,20 +81,26 @@ def topic_slug(t: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
 
 
-# "2025 in research" (Bruno, 2 Nov 2026): a look back at 2025 papers on its own tab (watch/2025/). These issues carry
-# `series: 2025` and `number: N` instead of `issue`, so the live series (issue numbers, email sends, JSON-LD position) is
-# untouched. Their `week_of` holds the day the paper was first published online (it orders the tab and is the only date
-# readers see, as "Paper published ..."); `published` holds the day the page went live (metadata only).
-LOOKBACK = "2025"
+# "<year> in research" (Bruno, 2 Nov 2026): look-backs at earlier papers, one tab per year (watch/2025/, watch/2024/).
+# These issues carry `series: <year>` and `number: N` instead of `issue`, so the live series (issue numbers, email sends,
+# JSON-LD position) is untouched. Their `week_of` holds the day the paper was first published online (it orders the tab
+# and is the only date readers see, as "Paper published ..."); `published` holds the day the page went live (metadata only).
+LIVE_YEAR = "2026"
+LOOKBACK_YEARS = ("2025", "2024")   # newest first; add a year here to open its tab
 
 
 def is_lookback(d: dict) -> bool:
-    return str(d.get("series", "")) == LOOKBACK
+    return str(d.get("series", "")) in LOOKBACK_YEARS
+
+
+def series_of(d: dict) -> str:
+    """The look-back year as a string ('2025'), or '' for the live series."""
+    return str(d.get("series", "")) if is_lookback(d) else ""
 
 
 def label(d: dict) -> str:
-    """'Issue 44' for the live series, '2025 · No. 3' for the look-back."""
-    return f"{LOOKBACK} · No. {d['number']}" if is_lookback(d) else f"Issue {d['issue']}"
+    """'Issue 44' for the live series, '2025 · No. 3' for a look-back."""
+    return f"{series_of(d)} · No. {d['number']}" if is_lookback(d) else f"Issue {d['issue']}"
 
 
 def page_date(d: dict) -> str:
@@ -553,7 +559,7 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
     img = d["image"]
     used = set()
     cites = d.get("issue") == 41   # Bruno, 19 Oct 2026: citations are plain (DOI link only); issue 41 was left as published
-    kick = (f'<a href="../../{LOOKBACK}/index.html">{LOOKBACK} in research</a> · No. {d["number"]}' if is_lookback(d)
+    kick = (f'<a href="../../{series_of(d)}/index.html">{series_of(d)} in research</a> · No. {d["number"]}' if is_lookback(d)
             else f'Issue {d["issue"]}')
     out = [f'<p class="mw-kicker">Marketing in 3 · {kick} · {dateline(d)}</p>',
            f'<figure class="mw-hero">{hero_html(img)}<figcaption>{esc(img["caption"])}</figcaption></figure>',
@@ -639,7 +645,7 @@ def jsonld(d: dict, url: str) -> str:
          "datePublished": page_date(d), "dateModified": d.get("modified", page_date(d)),
          "author": AUTHOR, "publisher": {"@id": AUTHOR["@id"]},
          "isPartOf": {"@type": "Blog", "name": "Marketing in 3", "url": f"{SITE}/watch/index.html"},
-         "articleSection": f"Marketing in 3: {LOOKBACK} in research" if is_lookback(d) else "Marketing in 3",
+         "articleSection": f"Marketing in 3: {series_of(d)} in research" if is_lookback(d) else "Marketing in 3",
          **({} if is_lookback(d) else {"position": d["issue"]}),
          "keywords": ", ".join(d["keywords"]), "inLanguage": "en", "wordCount": words,
          "about": [lead] + [{"@type": "Thing", "name": t} for t in d.get("topics", [])],
@@ -687,7 +693,7 @@ def build(d: dict, prev_next: tuple, data: list) -> dict:
                          "image": f"../../images/{d['image']['og']}"},
         "page-layout": "article",
         "body-classes": "mw-page",
-        **({"series": LOOKBACK, "number": d["number"]} if is_lookback(d) else {"issue": d["issue"]}),
+        **({"series": series_of(d), "number": d["number"]} if is_lookback(d) else {"issue": d["issue"]}),
         # light card image for the list templates (absolute, because listings do not rewrite custom fields)
         "thumb": "/watch/" + thumb_src(d, ""),
     }
@@ -790,9 +796,12 @@ def write_topics(data: list) -> None:
 
 
 def year_bar(current: str, prefix: str, counts: dict) -> str:
-    """'Browse by year': the live series (2026) and the 2025 look-back, in the style of the topic bar."""
+    """'Browse by year': the live series (2026) and each look-back year that has issues, in the style of the topic bar."""
     items = []
-    for y, href in (("2026", f"{prefix}index.html"), (LOOKBACK, f"{prefix}{LOOKBACK}/index.html")):
+    for y in (LIVE_YEAR,) + LOOKBACK_YEARS:
+        if y != LIVE_YEAR and not counts.get(y):
+            continue
+        href = f"{prefix}index.html" if y == LIVE_YEAR else f"{prefix}{y}/index.html"
         cur = ' aria-current="page"' if y == current else ""
         items.append(f'<a class="chip" href="{href}"{cur}>{y}<span class="chip-n">{counts.get(y, 0)}</span></a>')
     return ('<nav class="mw-topicbar mw-yearbar" aria-label="Browse issues by year">'
@@ -800,53 +809,70 @@ def year_bar(current: str, prefix: str, counts: dict) -> str:
             f'<div class="chips">{"".join(items)}</div></nav>')
 
 
+def main_header() -> tuple[str, str, str, str, str]:
+    """(title, subtitle, description, intro, subscribe line) of the Marketing in 3 page (watch/index.qmd). The year tabs repeat them
+    word for word, so switching year only swaps the list (Bruno, 2 Nov 2026: "the user only clicks on the year")."""
+    text = (ROOT / "watch" / "index.qmd").read_text()
+    _, fm, rest = text.split("---", 2)
+    meta = yaml.safe_load(fm)
+    intro = rest.split("{{<")[0].strip()
+    m = re.search(r"::: \{\.mw-subscribe-line\}\n(.*?)\n:::", rest, re.S)
+    sub_line = m.group(1).strip().replace("](subscribe.qmd)", "](../subscribe.qmd)") if m else ""
+    return (meta.get("title", "Marketing in 3"), meta.get("subtitle", ""), meta.get("description", ""),
+            " ".join(intro.split()), sub_line)
+
+
 def write_years(live: list, back: list, data: list) -> None:
-    """The year switch for the Marketing in 3 page (watch/_generated/year-bar.md) and the 2025 tab
-    (watch/2025/index.qmd), which lists the look-back issues in order. The tab has no feed: its issues stay out of
-    the RSS feed and the home page, so readers' feeds are not flooded with old papers."""
+    """The year switch for the Marketing in 3 page (watch/_generated/year-bar.md) and one tab per look-back year
+    (watch/<year>/index.qmd), each listing that year's issues, newest first. The tabs have no feed: their issues stay
+    out of the RSS feed and the home page, so readers' feeds are not flooded with old papers."""
     gen = ROOT / "watch" / "_generated"
     gen.mkdir(exist_ok=True)
-    ycounts = {"2026": len(live), LOOKBACK: len(back)}
-    page = ROOT / "watch" / LOOKBACK / "index.qmd"
-    if not back:
-        (gen / "year-bar.md").write_text("\n")
-        if page.exists() and "GENERATED by scripts/build_watch.py" in page.read_text():
-            page.unlink()
-        return
-    (gen / "year-bar.md").write_text("```{=html}\n" + year_bar("2026", "", ycounts) + "\n```\n")
-    page.parent.mkdir(exist_ok=True)
-    url = f"{SITE}/watch/{LOOKBACK}/"
-    title = f"Marketing in 3: {LOOKBACK} in research"
-    sub = f"A look back at the marketing studies of {LOOKBACK}, explained for practitioners"
-    desc = (f"Marketing research published in {LOOKBACK}, one study per issue: what each paper found, how to apply it "
-            "and what results to expect, in plain English.")
-    items = sorted(back, key=lambda d: d["number"], reverse=True)   # newest first, as on the 2026 tab (Bruno, 2 Nov 2026)
-    ld = {"@context": "https://schema.org", "@graph": [
-        {"@type": "CollectionPage", "@id": url, "url": url, "name": title, "description": desc,
-         "isPartOf": {"@type": "Blog", "name": "Marketing in 3", "url": f"{SITE}/watch/"},
-         "inLanguage": "en", "author": {"@id": AUTHOR["@id"]},
-         "mainEntity": {"@type": "ItemList", "numberOfItems": len(items), "itemListElement": [
-             {"@type": "ListItem", "position": d["number"], "url": f"{SITE}/watch/posts/{d['slug']}/", "name": d["title"]}
-             for d in items]}},
-        {"@type": "BreadcrumbList", "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{SITE}/"},
-            {"@type": "ListItem", "position": 2, "name": "Marketing in 3", "item": f"{SITE}/watch/"},
-            {"@type": "ListItem", "position": 3, "name": f"{LOOKBACK} in research", "item": url}]}]}
-    og = f"../images/{items[0]['image']['og']}"
-    fm = {"title": title, "subtitle": sub, "description": desc, "body-classes": "mw-year-page",
-          "image": og,
-          "open-graph": {"title": title, "description": desc, "image": og, "image-width": 1200, "image-height": 630},
-          "twitter-card": {"title": title, "description": desc, "card-style": "summary_large_image", "image": og}}
-    body_html = (year_bar(LOOKBACK, "../", ycounts)   # no intro paragraph (Bruno, 2 Nov 2026)
-                 + topic_bar(topic_counts(data), "", "../")
-                 + '<div class="watch-list">' + "".join(card(d, "../") for d in items) + "</div>")
-    text = ("---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)
-            + "include-in-header:\n  text: |\n"
-            + f'    <link rel="canonical" href="{url}">\n'
-            + f'    <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n'
-            + "---\n\n<!-- GENERATED by scripts/build_watch.py from the 2025 look-back issues. Do not edit. -->\n\n"
-            + "```{=html}\n" + body_html + "\n```\n")
-    page.write_text(text)
+    by_year = {y: [d for d in back if series_of(d) == y] for y in LOOKBACK_YEARS}
+    ycounts = {LIVE_YEAR: len(live), **{y: len(v) for y, v in by_year.items()}}
+    (gen / "year-bar.md").write_text("```{=html}\n" + year_bar(LIVE_YEAR, "", ycounts) + "\n```\n" if back else "\n")
+    head_title, head_sub, head_desc, head_intro, head_subscribe = main_header()
+    for year, issues in by_year.items():
+        page = ROOT / "watch" / year / "index.qmd"
+        if not issues:
+            if page.exists() and "GENERATED by scripts/build_watch.py" in page.read_text():
+                page.unlink()
+            continue
+        page.parent.mkdir(exist_ok=True)
+        url = f"{SITE}/watch/{year}/"
+        title = f"Marketing in 3: {year} in research"   # browser tab, search and share title; the page shows the main header
+        desc = (f"Marketing research published in {year}, one study per issue: what each paper found, how to apply it "
+                "and what results to expect, in plain English.")   # share cards and structured data
+        # The page itself shows the main header word for word (title, subtitle, description, intro)
+        items = sorted(issues, key=lambda d: d["number"], reverse=True)   # newest first, as on the 2026 tab
+        ld = {"@context": "https://schema.org", "@graph": [
+            {"@type": "CollectionPage", "@id": url, "url": url, "name": title, "description": desc,
+             "isPartOf": {"@type": "Blog", "name": "Marketing in 3", "url": f"{SITE}/watch/"},
+             "inLanguage": "en", "author": {"@id": AUTHOR["@id"]},
+             "mainEntity": {"@type": "ItemList", "numberOfItems": len(items), "itemListElement": [
+                 {"@type": "ListItem", "position": d["number"], "url": f"{SITE}/watch/posts/{d['slug']}/", "name": d["title"]}
+                 for d in items]}},
+            {"@type": "BreadcrumbList", "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{SITE}/"},
+                {"@type": "ListItem", "position": 2, "name": "Marketing in 3", "item": f"{SITE}/watch/"},
+                {"@type": "ListItem", "position": 3, "name": f"{year} in research", "item": url}]}]}
+        og = f"../images/{items[0]['image']['og']}"
+        fm = {"title": head_title, "subtitle": head_sub, "pagetitle": title, "description": head_desc or desc,
+              "body-classes": "mw-year-page", "image": og,
+              "open-graph": {"title": title, "description": desc, "image": og, "image-width": 1200, "image-height": 630},
+              "twitter-card": {"title": title, "description": desc, "card-style": "summary_large_image", "image": og}}
+        bars = year_bar(year, "../", ycounts) + topic_bar(topic_counts(data), "", "../")
+        text = ("---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000)
+                + "include-in-header:\n  text: |\n"
+                + f'    <link rel="canonical" href="{url}">\n'
+                + f'    <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n'
+                + f"---\n\n<!-- GENERATED by scripts/build_watch.py from the {year} look-back issues. Do not edit. -->\n\n"
+                + head_intro + "\n\n"
+                + "```{=html}\n" + bars + "\n```\n\n"
+                + (("::: {.mw-subscribe-line}\n" + head_subscribe + "\n:::\n\n") if head_subscribe else "")
+                + "{{< include ../_generated/support-line.md >}}\n\n"
+                + "```{=html}\n" + '<div class="watch-list">' + "".join(card(d, "../") for d in items) + "</div>\n```\n")
+        page.write_text(text)
 
 
 def llms(built: list[dict]) -> None:
@@ -879,9 +905,10 @@ def main() -> int:
             if stale.parent.name not in keep and (stale.read_text().find("GENERATED from watch/issues") >= 0):
                 stale.unlink()
     live = [d for d in data if not is_lookback(d)]
-    back = sorted((d for d in data if is_lookback(d)), key=lambda d: d["number"])
+    back = [d for d in data if is_lookback(d)]
+    years = [sorted((d for d in back if series_of(d) == y), key=lambda d: d["number"]) for y in LOOKBACK_YEARS]
     built = []
-    for series in (live, back):   # "Previous" and "Next" stay inside each series
+    for series in [live] + years:   # "Previous" and "Next" stay inside each series (the live series, each year)
         built += [build(d, (series[i - 1] if i else None, series[i + 1] if i + 1 < len(series) else None), data)
                   for i, d in enumerate(series)]
     write_topics(data)

@@ -13,7 +13,7 @@ listing:
   id: latest
   contents: watch/posts
   exclude:
-    series: "2025"
+    series: ["2025", "2024"]
   sort: "date desc"
   date-format: "D MMMM YYYY"
   max-items: 3

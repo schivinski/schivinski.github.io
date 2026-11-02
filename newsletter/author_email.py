@@ -40,7 +40,7 @@ OUT = ROOT / "newsletter" / "out"
 def load_issue(n: int) -> dict:
     for f in sorted((ROOT / "watch" / "issues").glob("*.yml")):
         d = yaml.safe_load(f.read_text(encoding="utf-8"))
-        if int(d["issue"]) == n:
+        if d.get("issue") is not None and int(d["issue"]) == n:   # look-back issues (series:) have no issue number
             return d
     raise SystemExit(f"issue {n} not found")
 

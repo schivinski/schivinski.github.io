@@ -18,8 +18,8 @@ def main() -> None:
     weeks = {}
     for f in (ROOT / "watch" / "issues").glob("*.yml"):
         d = yaml.safe_load(f.read_text())
-        # 2025 look-back issues (series: 2025) carry the paper's date in week_of; the sitemap gets the real page date
-        day = d.get("published") or d["week_of"] if str(d.get("series", "")) == "2025" else d["week_of"]
+        # look-back issues (series: 2025, 2024, ...) carry the paper's date in week_of; the sitemap gets the real page date
+        day = d.get("published") or d["week_of"] if d.get("series") else d["week_of"]
         weeks[d["slug"]] = f'{day}T00:00:00.000Z'
     xml = SITEMAP.read_text()
 
