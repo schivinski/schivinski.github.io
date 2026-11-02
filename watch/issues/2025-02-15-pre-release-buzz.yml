@@ -1,0 +1,256 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 7                       # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-02-15"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+slug: pre-release-buzz
+status: live
+
+title: "Which kind of pre-launch buzz drives sales, and how do brands create it? What a Journal of the Academy of Marketing Science study found"
+dek: >-
+  Before a film opens, people talk about it, search for it and comment on its trailers. Daily records for 330 US releases
+  show which of the three sells the most tickets, and which studio moves get each one going.
+short_title: "Which pre-launch buzz sells, and how to start it"
+
+description: >-
+  Schreiner et al. find fan posts on X mattered more for US opening weekends than searches or trailer comments; studio posts
+  fed that talk, ads did not.
+
+keywords: [pre-release buzz, pre-launch marketing, product launch buzz, movie marketing, social media posts before launch,
+  trailer marketing, word of mouth before launch, Google search volume, box office, advertising effectiveness,
+  Journal of the Academy of Marketing Science]
+topics: [Social media, UGC, Advertising]
+
+image:
+  file: 2025-pre-release-buzz.jpg
+  og: 2025-pre-release-buzz-og.jpg
+  alt: "A full cinema in the dark, rows of red velvet seats packed with people looking up at the screen, their faces lit softly from the front"
+  caption: "Opening-weekend seats start filling weeks earlier, in posts, searches and comments. Photo: Krists Luhaers on Unsplash."
+
+short_answer: >-
+  Fan talk matters most for sales, and the brand's own posts are its strongest trigger. Tracking 330 US film releases day
+  by day over the eight weeks before opening, the researchers found that fan posts on X predicted opening weekend takings
+  more strongly than Google searches or comments on YouTube trailers, although all three counted. Studio posts about the
+  film did most to get people talking, new trailers mainly drew comments, and advertising spend created no
+  measurable buzz.
+
+takeaways:
+  - "Fan talk paid best at the box office: 10% more fan posts on X going into the opening went with an opening weekend a little over 2% bigger, while 10% more searches or trailer comments added under 1% each."
+  - "A studio's own posts about the film stirred about 5 times as much fan talk as its posts about a trailer, and about 3 times as much as releasing a new trailer."
+  - "New trailers were the strongest way to get people commenting: over two weeks their pull was about 2 times that of an ordinary studio post about the film."
+  - "Advertising moved none of the 3 buzz measures, yet it still paid directly: 10% more spend went with a little over 1% more at the opening weekend."
+
+paper:
+  doi: "10.1007/s11747-024-01077-y"
+  title: "Dynamics of pre-release consumer buzz: Driving communication, search, and participation for market performance"
+  authors: ["Schreiner, T. F.", "Mandler, T.", "van Heerde, H. J.", "Haiduk, C."]
+  authors_full: ["Thomas F. Schreiner", "Timo Mandler", "Harald J. van Heerde", "Carolin Haiduk"]
+  year: 2025
+  journal: "Journal of the Academy of Marketing Science"
+  volume: "53"
+  issue: "5"
+  pages: "1261-1281"
+  online: "2025-02-15"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Thomas F. Schreiner"
+      affiliation: "University of New South Wales, Sydney, NSW, 2052, Australia"
+      orcid: ""
+    - name: "Timo Mandler"
+      affiliation: "TBS Business School, Department of Marketing & International Business, 20 Boulevard Lascrosses, 31068, Toulouse, France"
+      orcid: "0000-0002-7585-8891"
+    - name: "Harald J. van Heerde"
+      affiliation: "University of New South Wales, Sydney, NSW, 2052, Australia"
+      orcid: ""
+    - name: "Carolin Haiduk"
+      affiliation: "Henkel AG & Co. KGaA, Consumer Brands, Henkelstraße 67, 40589, Düsseldorf, Germany"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival dataset: daily buzz and marketing data for 330 US movie releases (2016-2017) over 56 pre-release days, analysed with a panel VAR-X and a box office regression; alternative models and robustness checks are not separate studies"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Thomas F. Schreiner and Harald J. van Heerde of the University of New South Wales in Sydney, Timo Mandler of TBS
+      Business School in Toulouse and Carolin Haiduk, a brand manager at Henkel in Düsseldorf, studied the weeks before a
+      launch, when nobody can buy the product yet but plenty of people are already excited about it. That excitement shows up
+      online in three ways: people talk about the product, search for it, and join in with it, for instance by watching and
+      commenting on a preview.
+
+      Earlier work had mostly looked at one of these at a time, usually the talking. The team set out to learn which of the
+      three matters most for sales, how they feed each other, and which marketing moves set each one off. Films suit the
+      question well: they cost a fortune, earn most of their money in the first few weeks, and studios aim their marketing
+      at the opening.
+
+      For every film in the sample they logged each day of the eight weeks before release. Fan posts on X carrying the film's
+      official hashtag stood for talk, daily Google search volume stood for search, and comments under official YouTube
+      trailers stood for taking part. On the studio side they counted its own posts on X, new trailers and daily ad spend.
+      Using 3,000 posts labelled by hand, the team trained a language model that sorted a held-back fifth of them
+      correctly 96.48% of the time. It then screened out the posts that were really about joining in, such as watching a trailer, so that talk and taking
+      part stayed separate.
+    facts:
+      - ["Films", "330 US releases from January 2016 to December 2017 that took at least $3 million at the domestic box office, every one with complete data"]
+      - ["Window", "Every day from 56 days before release to the day before"]
+      - ["Buzz measured", "Fan posts on X, Google searches for the title, comments on official YouTube trailers"]
+      - ["Studio moves", "Studio posts on X, split into posts about the film and posts about a trailer; new trailers; daily ad spend"]
+      - ["Scale", "3.03 million posts on X and 421,133 YouTube comments, or 164 posts and 23 comments per film per day on average"]
+      - ["Outcome", "US opening weekend takings, averaging $20.31 million; total takings as a check"]
+      - ["Controls", "Screens, critics' scores, budget, ad budget, star power, sequels and adaptations, genre, season, age rating"]
+
+  - h: "Which kind of buzz sold tickets"
+    body: |
+      The team linked the level each kind of buzz had reached by release day to opening weekend takings, alongside the usual
+      drivers of film success. Together these explained about 94% of the differences between films. Every type of buzz
+      mattered, but talk carried the most weight. Its elasticity was .23, meaning a 1% rise in fan posts went with a 0.23%
+      rise in takings. Comments (.09) and searches (.08) came in at less than half that.
+
+      The authors suggest the reason is visibility. A post is public by design and reads clearly as a sign that others are
+      excited, while a jump in searches or trailer views is harder to spot and could have other causes, a scandal for
+      instance.
+
+      The order held when total takings replaced the opening weekend, and under several other ways of estimating the model.
+      Buzz was not the strongest lever, though. The number of screens (.61) and critics' scores (.46) weighed more, while
+      production budget and star power showed no effect of their own.
+
+      Talk, search and comments did not amplify one another at the till: each added its own share. Further checks did
+      find two kinds of film that got more out of the same buzz. Famous casts turned talk into ticket sales more efficiently,
+      and sequels and adaptations of books, series or video games got more out of trailer comments.
+    chart: sales
+
+  - h: "Buzz breeds buzz"
+    body: |
+      Before release, each kind of buzz fed itself and the other two. A burst on one day kept lifting all three over the
+      following fortnight, and most of these knock-on effects were still detectable at the end of it. The exception was
+      comments, whose pull on talk and on searches had faded by then.
+
+      Talk had the longest reach. Its push on searches was about one and a half times the push of searches on talk, and a
+      similar imbalance appeared between talk and comments. The authors describe talk as having the strongest clout of the
+      three.
+
+      Their example film, Dunkirk, shows the shape. The studio stepped up its posts and ads in the lead-up and released several
+      trailers along the way. Fan posts and searches climbed steeply over the last ten days before release, while comments spiked
+      earlier, after new trailers.
+
+  - h: "What studios did that moved the buzz"
+    body: |
+      For talk and searches, the studios' own posts on X did the most. Posts about the film itself, meaning anything other
+      than a trailer, were the strongest trigger of both, and their effect faded only slowly: it could still be measured two
+      weeks later. Posts that pointed to a trailer, one in three of all studio posts, had a much smaller
+      and shorter effect on talk and searches.
+
+      New trailers were a different instrument. They were the strongest driver of comments, with posts about a trailer in
+      second place, but their effect also died away quickly.
+
+      Daily ad spend did nothing measurable to talk, searches or comments, and splitting it into digital and traditional
+      media gave much the same picture.
+    chart: drivers
+
+  - h: "The advertising puzzle"
+    body: |
+      Advertising usually takes the largest share of a film's marketing budget, so the null result surprised the authors.
+      Ads did still earn their place. Spend was tied directly to higher opening takings, with an elasticity of .12, but
+      none of that link ran through buzz.
+
+      The authors offer two possible readings. Ads may mainly build awareness, or they may spark talk only when they
+      explicitly invite people to post, search or share. Only spend was measured, not what the ads said, so the question
+      stays open. Meanwhile they suggest setting ad budgets from that direct sales effect rather than from attribution
+      reports.
+
+  - h: "Turning the findings into a launch plan"
+    body: |
+      The authors' own advice is to prepare product content for social media at least two months before release, the length
+      of the window they studied, and to post again in the final days so buzz peaks at release. And while talk
+      matters most, they warn against chasing it alone: all three added to sales.
+
+      The data cover cinema only. The authors point to car reveals and video trailers for fashion collections as campaigns
+      built the same way, and call for tests there. Reading the results across to other launches with a short sales window,
+      such as a product drop or a ticketed event, is our inference, not something the paper shows.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Start eight weeks out", "Count back eight weeks from your launch date and put your first public post in the calendar for that week. Buzz builds on itself, so the early weeks set up the late surge."]
+  - ["Set up three daily counts", "Before the first post, choose three numbers to log every day: public posts using your launch hashtag, searches for the product name in Google Trends, and comments on your preview videos. Note where each one starts."]
+  - ["Post about the product itself", "Plan at least three posts a week about the product: what it does, who made it, a detail from behind the scenes. Keep posts that only point to a preview video to one in four or fewer, and make every post easy to reshare."]
+  - ["Release previews early and in stages", "Cut two or three short previews. Publish the first at the start of the campaign and space the rest two to three weeks apart, each on a channel where people can comment. Reply to the first comments within a day."]
+  - ["Peak in the final ten days", "Step up posting in the ten days before launch and post on each of the final three days, when people start looking for dates, prices and places to buy. Hold back a few fresh product details for this stretch."]
+  - ["Judge ads by sales, not mentions", "Measure paid media against pre-orders or launch sales, not against chatter. If your daily count of public posts stays flat for a week, answer with a new post about the product rather than more ad spend."]
+
+expect:
+  - "**Early work compounds.** Because buzz snowballs, a strong start carries into the later weeks, and a campaign squeezed into the final days gives that loop less time. This is our reading of the model, not something the authors tested."
+  - "**Lasting posts, fading trailers.** Posts about the product keep nudging buzz for a fortnight or more; the lift from a new trailer, strongest on comments, fades much sooner, so plan several trailers rather than one."
+  - "**Big gains need big shifts in talk.** On the model's estimates, doubling fan posts on X goes with an opening weekend about 17% bigger, so a small bump in chatter will barely show in sales. This is our arithmetic from the published elasticity."
+  - "**Volume over tone.** Once the amount of talk and comments was known, whether they sounded positive or negative added nothing measurable to takings."
+
+limits:
+  - "**Films only, and one market.** The data cover US cinema releases from 2016 and 2017 and their box office takings; streaming releases and viewing were not studied."
+  - "**Three platforms.** Talk was measured on X, search on Google and taking part on YouTube. TikTok, Snapchat, Discord and paid creator posts were not studied."
+  - "**Patterns, not a controlled test.** The model tracks how activity and buzz moved together day by day and controls for each film's fixed traits, but nobody was randomly assigned to see a post or a trailer."
+  - "**Spend, not content.** Advertising was measured in dollars only, so ads written to start conversations may behave differently."
+  - "**Mass-market buzz.** Films that took under $3 million and niche fan activity were left out, and data restrictions mean the dataset cannot be shared."
+
+faq:
+  - q: "What type of buzz before a launch matters most for sales?"
+    a: "Public conversation. Across 330 US film releases, the volume of fan posts on X just before opening was more closely tied to opening weekend takings than search volume or trailer comments, though all three helped (Schreiner et al., 2025)."
+  - q: "What counts as pre-release buzz?"
+    a: "Visible signs that people are looking forward to something not yet on sale. It takes three forms: talking about the product, searching for information on it, and joining in, for example by watching a preview and commenting on it."
+  - q: "Does advertising create buzz before a launch?"
+    a: "Not on this evidence. Ad spend, digital or traditional, left posts, searches and comments unchanged, even though it was tied to higher sales. Whether ads built to start conversations would behave differently is untested."
+  - q: "Are trailers still worth releasing early?"
+    a: "Yes, mainly for engagement. A new trailer brought a sharp burst of comments and a smaller rise in talk and searches. The authors advise getting trailers out as early as possible, since viewing can carry on for weeks or even years."
+  - q: "Does this apply to launches outside film?"
+    a: "Not yet. The data come from cinema alone; the authors want tests in other categories that build anticipation before a launch. Until then, treat wider use as a reasoned bet and measure the results as you go."
+
+also:
+  - doi: "10.1002/cb.2456"
+    title: "Co-Creating Content With Brands: Insights From Influencers' Perceptions"
+    authors: "Filali-Boissy, Jouny-Rivier, & Perren"
+    journal: "Journal of Consumer Behaviour"
+    year: 2025
+    text: >-
+      Brands increasingly ask influencers to help make their content, not only to post it. Interviews with influencers and
+      content agency managers in France, plus a survey of nano, micro and macro influencers, traced that joint work through
+      three stages: ideas, production and review. At each stage, influencers were most satisfied when they had creative
+      freedom, control over the content and a good fit with the brand's values. Treat the debrief as part of the brief.
+  - doi: "10.1002/mar.22175"
+    title: "How Second Screens Shape Consumer Experiences: The Role of Social Connection on Repeat Viewing"
+    authors: "Wu, Powell, & Barasch"
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Earlier research mostly found that using a phone or tablet while watching makes the experience less enjoyable. Three studies with real viewing
+      experiences found that a second screen can make people feel more connected to others, which in turn raised the chance
+      that they would watch again. The effect held for people watching alone and reversed for those watching with company. For solo viewers,
+      the chat beside the screen is part of the appeal.
+
+charts:
+  sales:
+    title: "How closely each factor tracked opening weekend takings (elasticity: % change in takings for a 1% rise)"
+    scale: [0, 0.3]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Fan posts on X (talk)", 0.230, true]
+      - ["Trailer comments on YouTube", 0.092, false]
+      - ["Google searches for the film", 0.082, false]
+      - ["Mass media ad spend", 0.119, false]
+    source: "330 US films, opening weekend model, Table 5 (Model 1). All four effects significant. Screens and critics' scores, the two largest factors, are left out."
+  drivers:
+    title: "Combined two-week push on buzz from a typical burst of each studio activity (model estimates)"
+    scale: [0, 1.2]
+    step: 0.2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Talk: studio post on the film", 1.17, true]
+      - ["Talk: new trailer", 0.39, false]
+      - ["Talk: studio post on a trailer", 0.21, false]
+      - ["Comments: new trailer", 0.65, true]
+      - ["Comments: studio post on a trailer", 0.37, false]
+      - ["Comments: studio post on the film", 0.30, false]
+    source: "Same 330 films, cumulative effects over 14 days from the daily model (Figure 6). Mass media ad spend had no significant effect on any buzz measure, so it is not shown."
+
+related_pages: []
