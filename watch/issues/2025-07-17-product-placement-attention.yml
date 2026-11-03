@@ -1,0 +1,243 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 29                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-07-17"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: product-placement-attention
+status: live
+
+title: "How do you get viewers to notice a product placed in a video? What a Journal of Advertising study found"
+dek: >-
+  Seventy-one viewers watched clips from TV series on an eye tracker while every second of each scene was coded. Where
+  their eyes went depended on the product's part in the plot, whether anyone named it, how easy it was to see and what
+  the scene had just done.
+short_title: "What makes viewers look at a placed product?"
+
+description: >-
+  Yu et al. tracked 71 viewers' eyes on TV clips: a placed product won looks when the plot needed it and a character
+  named it, and the scene's mood counted.
+
+keywords: [product placement, brand placement, eye tracking, visual attention, video advertising, embedded advertising,
+  branded content, verbal brand mention, visual salience, biometrics in advertising, Journal of Advertising]
+topics: [Advertising, Creative, Research methods]
+
+image:
+  file: 2025-product-placement-attention.jpg
+  og: 2025-product-placement-attention-og.jpg
+  alt: "A young woman in a mustard hoodie rests her chin on her hand and glances off to the side, bands of rainbow light from a prism falling across her face"
+  caption: "What catches the eye is not always the thing that shines brightest. Photo: Aditya Ali on Unsplash."
+
+short_answer: >-
+  Write it into the story, have someone name it and mind the scene. In one experiment, 71 young adults in Taiwan had
+  their gaze tracked across 12 TV clips, each with one placed brand. A product the plot needed and a character
+  mentioned drew more looks than an unnamed one, most of all when hard to spot. Naming an off-plot product paid off
+  only if it already stood out, and exciting moments pulled eyes to every product.
+
+takeaways:
+  - "The average placed product ranked 6.74 for how much it stood out from the rest of its frame (1 is the first thing the eye would hit), roughly where a spoken mention stopped helping off-plot products."
+  - "When the plot needed the product and it was named, looks rose steadily as it got harder to see, across the whole 1 to 14 salience range; unnamed products barely changed with visibility."
+  - "Exciting stretches in the 2 to 5 seconds before a product appeared raised attention to it, and excitement while it was on screen lifted on-plot and off-plot products alike."
+  - "Busier pictures during an appearance, scored across 7 visual production features, helped on-plot products and pulled eyes away from off-plot ones, whatever the soundtrack was doing."
+
+paper:
+  doi: "10.1080/00913367.2025.2524837"
+  title: "The Dynamics of Visual Attention to Advertising Messages in Video Stories"
+  authors: ["Yu, W.-Y.", "Wang, Z. J.", "Tao, C.-C."]
+  authors_full: ["Wan-Yun Yu", "Zheng Joyce Wang", "Chen-Chao Tao"]
+  year: 2025
+  journal: "Journal of Advertising"
+  volume: "54"
+  issue: "5"
+  pages: "713-731"
+  online: "2025-07-17"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Wan-Yun Yu"
+      affiliation: "National Yang Ming Chiao Tung University, Zhubei City, Taiwan (R.O.C.)"
+      orcid: "0000-0002-0982-1775"
+    - name: "Zheng Joyce Wang"
+      affiliation: "Ohio State University, Columbus, Ohio, USA"
+      orcid: "0000-0002-7726-0770"
+    - name: "Chen-Chao Tao"
+      affiliation: "National Yang Ming Chiao Tung University, Zhubei City, Taiwan (R.O.C.)"
+      orcid: "0000-0002-2513-9952"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One within-subjects eye-tracking lab experiment: 71 adults in Taiwan, 12 TV clips, 31 placement exposures, 2,201 observations; the story-relevance pretest (20 adults) and the emotion coding panel (60 students) are not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Wan-Yun Yu, Zheng Joyce Wang and Chen-Chao Tao, working at National Yang Ming Chiao Tung University in Taiwan and
+      Ohio State University in the US, wanted to know what decides whether a viewer actually looks at a brand tucked
+      into a video story. Much earlier
+      work on product placement asked people afterwards what they remembered. This team watched the eyes instead, and
+      followed attention as it rose and fell from one moment of a scene to the next.
+
+      Viewers in a lab sat in front of an eye tracker and watched short excerpts of Taiwanese TV series, from romance and
+      comedy to crime, medical drama and science fiction, all rated G or PG. Each test clip carried one product, from a
+      car to a bag of pea crackers. Clips without any placement were mixed in, so the purpose was less obvious.
+
+      The clips were chosen to vary two things. Some products mattered to the plot and some were just there. In some
+      clips a character said the product's category out loud ("chocolate", not the brand name), in others nobody
+      mentioned it. Everything else was measured rather than set: how much the product stood out in the frame, how big
+      it was, how positive, negative or exciting the scene felt second by second, and how busy the picture and the
+      soundtrack were, both in the lead-up to each appearance and during it.
+    facts:
+      - ["Viewers", "71 adults from a university in Taiwan, average age 24; 46 women and 25 men"]
+      - ["Clips", "12 test clips of 49 to 80 seconds from Taiwanese TV series, mixed with 24 clips without placements"]
+      - ["Placements", "31 appearances of 12 products, each on screen for 2 to 10 seconds at a time"]
+      - ["What varied", "Whether the story needed the product, and whether its category was named aloud"]
+      - ["Measured", "The share of each viewer's eye fixations that landed on the product during every appearance, on a 300 Hz eye tracker"]
+      - ["Scene coding", "Mood rated second by second by 60 students, from 0 (not at all) to 1 (extremely); 13 picture and sound features logged by two coders"]
+    chart: relevance
+
+  - h: "A spoken word and a hard-to-see product"
+    body: |
+      Two forces steer the eyes during a story. One comes from the viewer's goal: people want to follow the plot, so
+      they hunt for whatever the plot needs. The other comes from the screen itself: bright, high-contrast objects grab
+      the eye before anyone has decided to look. The team scored the second kind with a computer model that predicts the
+      order in which the eye would visit each object in a frame, based on colour, brightness and edges.
+
+      Earlier research the authors cite shows how fast language works on the eyes. Hearing a word can send the gaze to
+      the matching object within 100 milliseconds, and that pull lasts for about five seconds. Here, the spoken category
+      name interacted with both forces.
+
+      For products the story needed, a mention turned a weakness into a strength. The harder the product was to see, the
+      more viewers looked at it, as if searching for something they knew mattered. Without the mention, visibility made
+      little difference either way. For off-plot products the effect reversed: a mention helped while the
+      product stood out clearly, then lost its edge, and for the least visible ones it did worse than saying nothing.
+      In the published figure the two lines for off-plot products cross at about the seventh rank.
+
+  - h: "The mood of the moment"
+    body: |
+      Feelings stirred by the preceding seconds shaped where viewers looked next. In calm stretches, a more pleasant mood
+      just ahead of the product lifted later attention to it, as long as nothing negative was mixed in. Add a negative
+      note and the same rise in pleasantness lowered attention. In highly charged stretches the pattern flipped round.
+      Excitement on its own, ahead of an appearance, also drew more looks.
+
+      During the appearance itself, a blend of positive and negative feeling drew eyes away from the product, and off-plot
+      products lost more. A plainly pleasant mood helped when negativity was low, and excitement lifted attention for
+      every product. Two of the team's predictions did not hold. They expected mixed and exciting scenes to favour
+      products the plot needed; instead excitement helped all products equally, and mixed feelings hurt both kinds.
+
+  - h: "Busy pictures, busy soundtracks"
+    body: |
+      The coders logged features such as cuts to a new camera angle, shifts in format or emotion, a new voice starting
+      or a sudden silence, and counted how many were present each second. In the seconds leading into an appearance, a
+      busier picture helped when the soundtrack was quiet. With a busy soundtrack, the same busy picture lowered attention.
+      That bore out the team's prediction only in part.
+
+      Once the product was in view, whether the plot needed it decided the effect. For on-plot products, more
+      visual activity drew more looks, with the strongest gain over a quiet soundtrack. For off-plot products,
+      extra movement on screen steadily pulled eyes elsewhere, and the soundtrack did not change that slide.
+
+  - h: "What the model can and cannot tell us"
+    body: |
+      The analysis treats each viewer's run of product appearances as a time series. It separates what the screen did
+      from a habit inside the viewer: how closely someone had watched the product at its previous one or two
+      appearances helped predict how closely they watched the next. Leaving that out would credit the scene with
+      effects that belong to the viewer.
+
+      Adding the scene's mood and pace to the model improved its fit clearly, and adding how those effects differed by
+      plot role improved it a little more. Some things counted for less than expected. How big the product was on
+      screen, from one to six squares of a nine-square grid, was only a borderline predictor in the fullest model, and
+      how much viewers liked each clip had no bearing on where they looked.
+
+      The results come as predicted values from a statistical model, on a scale that cannot be read as a share of
+      viewers or a number of seconds. They show which way attention moved and when, more than how far.
+    chart: fit
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Give the product a job in the scene", "Before filming or briefing a creator, write a single line describing what the product does in the story: a character drives it, eats it or opens it. If no such line comes, plan it as a background placement."]
+  - ["Check how much it stands out", "Take three still frames from each shot where the product appears. Shrink each one to about 3 cm wide on screen and ask two colleagues what they see first. Note whether the product is among the first three things they name."]
+  - ["Write a line that names it", "If the product drives the story, have a character say what it is, such as 'the chocolate' or 'that app', within two seconds of it appearing. Keep the line even when the product is small or partly hidden."]
+  - ["Light up background products, or keep quiet", "If the product plays no part in the story, put it in strong light, in a contrasting colour, near the centre of the frame. If you cannot, leave out the spoken mention, because naming a product viewers cannot find pulls their eyes the wrong way."]
+  - ["Time it after a lively beat", "Bring the product in straight after an exciting moment, such as a goal or a reveal, or after a warm, calm one. Avoid tense or bittersweet scenes. While a background product is on screen, hold the shot and keep the cutting slow."]
+  - ["Test recall before release", "Show the finished video to 20 viewers who match your target customers. Ask them, without prompting, which products they remember. Change one thing at a time, the spoken line, the lighting or the timing, and test again."]
+
+expect:
+  - "**The script does part of the work.** Once a character names it, a product the story needs gets searched for, so it can be less eye-catching than one that simply sits in the shot."
+  - "**A mention is not free.** Naming the product type helps when viewers can find it or need it, and can backfire for a background product that is hard to see."
+  - "**The scene around it counts.** Mood and pace in the seconds before and during an appearance moved attention, on top of anything about the product itself."
+  - "**Looks, not yet liking.** The gains here are in where eyes went. Whether those looks turn into memory, preference or sales was not tested."
+
+limits:
+  - "**One lab, one audience.** A single experiment with young adults recruited at one university in Taiwan, watching on one screen without phones or other distractions."
+  - "**Mild content.** The clips came from G- and PG-rated Taiwanese TV with moderate emotion. Humour, fear or sexual content, common in advertising, were not covered."
+  - "**Twelve hand-picked clips.** The set was carefully pretested but not built to span every genre, story style or kind of placement."
+  - "**Attention only.** Brand memory, attitudes and purchases went unmeasured, as did how familiar viewers already were with each brand."
+  - "**Model units.** Effects are expressed on the model's own scale, useful for direction and timing but not for saying how many more seconds a product was watched."
+
+faq:
+  - q: "Do viewers notice product placements in videos?"
+    a: "Some of the time, and the scene decides much of it. When viewers' gaze was recorded on TV series clips, looks at a placed product rose and fell with its role in the plot, whether its category was spoken, how visible it was and the mood and pace of the surrounding moments (Yu et al., 2025)."
+  - q: "Does it help if a character mentions the product?"
+    a: "Yes, if the story needs the product: a spoken mention then drew more looks, especially for products that were hard to spot. For a product with no role in the plot, a mention helped only when the product was clearly visible. Note that the cue was the product type, the word chocolate for a chocolate bar, rather than the brand."
+  - q: "What is visual salience?"
+    a: "How strongly an object stands out from everything else in the picture, through colour, brightness and contrast. It was scored by software that simulates human vision and ranks the objects in a frame by when the gaze should land on each, so rank 1 marks the object a viewer's gaze should reach before any other."
+  - q: "Does the mood of a scene affect attention to a placement?"
+    a: "Yes. Exciting moments raised attention to the product, both shortly before it came into view and during its time on screen. Scenes that mixed positive and negative feelings drew eyes away while the product was showing, more so when the product had no part in the plot."
+  - q: "Does this apply to creator videos and streaming series?"
+    a: "The clips were scenes from TV series, so this is an extrapolation. The authors present the findings as a guide for covert advertising in video stories generally, and call for tests with multiple screens and devices, where viewing is less focused than in a lab."
+
+also:
+  - doi: "10.1177/00222437251359163"
+    title: "The Power of Star Creators: Evidence from the Live Streaming Industry"
+    authors: "Qian & Xie"
+    journal: "Journal of Marketing Research"
+    year: 2026
+    text: >-
+      What happens to a streaming category on Twitch when its star walks away? Using star exits as outside shocks,
+      this study finds that both streaming and viewing in the star's category fall substantially, and the slump lasts for
+      months. Bigger creators stream less afterwards while micro creators keep going, though both lose viewers, and
+      creators with platform contracts hold their output better than those without. A sponsor's audience depends on
+      the headliners in its category, not only on its own creators.
+  - doi: "10.1177/10946705251341514"
+    title: "The Easier, The Better? How Payment Services Influence the Usage of Offerings"
+    authors: "Li, Huang, & Chen"
+    journal: "Journal of Service Research"
+    year: 2026
+    text: >-
+      Paying by phone hurts less than handing over cash. Across four experiments, that easier payment encouraged people
+      to use their purchase more in the short run but less in the long run, because a painless payment left them
+      feeling they had less money sunk into it. An audible payment confirmation softened the long-run drop.
+      For memberships and prepaid services sold through an app, a small sound at checkout may be worth keeping.
+
+charts:
+  relevance:
+    title: "How much each placed product mattered to the plot, rated 1 to 7 (amber: chosen as on-plot)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Fried chicken, not named", 5.50, true]
+      - ["Mini chocolate bar, named", 5.35, true]
+      - ["Car, named", 5.25, true]
+      - ["Mobile app, named", 4.90, true]
+      - ["Whiskey bottle, not named", 4.85, true]
+      - ["Pea crackers, not named", 4.40, true]
+      - ["Laptop, not named", 3.60, false]
+      - ["Sparkling water, named", 3.45, false]
+      - ["Canned tea, named", 3.45, false]
+      - ["Scooter, not named", 3.25, false]
+      - ["T-shirt, named", 3.10, false]
+      - ["Cardboard box, not named", 2.90, false]
+    source: "Pretest with 20 adults from the same university (Table 2), three clips per group. On-plot clips averaged 5.04 and off-plot clips 3.29."
+  fit:
+    title: "Share of the differences in attention the model explained, as scene detail was added (%)"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Product features and past looks", 61.9, false]
+      - ["Plus the scene's mood and pace", 72.9, false]
+      - ["Plus scene effects by plot role", 75.4, true]
+    source: "Overall R² of the three time-series models in Table 3, 2,201 observations from 71 viewers; the third model fitted best."
+
+related_pages: []
