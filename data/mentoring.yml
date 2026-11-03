@@ -120,11 +120,11 @@ plans:
   - id: mentorship
     name: "Research Mentorship"
     icon: compass
-    for: "Ongoing guidance as you build a publication record and a research career."
+    for: "Ongoing guidance as you prepare for a PhD, build a publication record and shape a research career."
     min: 450
     max: 800
     unit: "per month, minimum three months"
-    low: "Doctoral candidates and early-career researchers"
+    low: "Master's students preparing for a PhD, doctoral candidates, early-career researchers"
     high: "Senior staff, grant and promotion strategy"
     includes:
       - "Two 60-minute sessions a month"
@@ -132,6 +132,7 @@ plans:
       - "Publication strategy and journal targeting"
       - "Responding to reviewers and editors"
       - "Grant, promotion and career planning"
+      - "For master's students: PhD preparation, from supervisor choice to research proposal and scholarship applications"
     cta: "Start mentorship"
 
 pricing:
@@ -143,7 +144,7 @@ pricing:
     text: "After a free 15-minute intro call you receive a written quote. The price agreed is the price you pay."
   - icon: heart-handshake
     title: "Fair rates for early-career researchers"
-    text: "Doctoral candidates are quoted at the lower end of each range. Researchers based in lower- and middle-income countries receive a reduced rate."
+    text: "Master's and doctoral candidates are quoted at the lower end of each range. Researchers based in lower- and middle-income countries receive a reduced rate."
 pricing_note: "Prices in euros. VAT is added where applicable. Invoices can be issued to individuals, universities or research grants."
 
 institutions:
