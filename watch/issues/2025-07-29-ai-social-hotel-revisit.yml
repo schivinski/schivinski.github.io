@@ -1,0 +1,270 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 30                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-07-29"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: ai-social-hotel-revisit
+status: live
+
+title: "Does AI on a hotel's social media bring guests back? What an International Journal of Advertising study found"
+dek: >-
+  Guests who credited a hotel's social media with smart, AI-driven marketing felt a closer tie to its brand and were
+  keener to return, a survey at five Tehran hotels suggests. Offers worked for the chains; data worries held the
+  independents back.
+short_title: "AI on hotel social media and the guests who return"
+
+description: >-
+  Shabankareh et al. tie AI-driven social media to closer hotel brand bonds and return plans among 854 guests, but
+  privacy worries hold back independents.
+
+keywords: [AI in hotel marketing, AI on social media, hotel social media marketing, revisit intention, customer brand
+  engagement, conversion rate optimization, privacy concerns, chain vs independent hotels, hospitality advertising,
+  International Journal of Advertising]
+topics: [AI, Social media, Privacy]
+
+image:
+  file: 2025-ai-social-hotel-revisit.jpg
+  og: 2025-ai-social-hotel-revisit-og.jpg
+  alt: "A long, sunlit lobby with a glossy black and white checked marble floor, dark green leather armchairs and two tall arched windows showing blue sky and trees"
+  caption: "A grand lobby in Petrópolis, Brazil. Whether a guest walks back in may start on a phone screen. Photo: Carlos de Almeida on Unsplash."
+
+short_answer: >-
+  It is linked to return plans, mostly through the bond guests feel with the brand. In a survey of 854 guests at two chain
+  and three independent hotels in Tehran, those who perceived more AI in their hotel's social media felt more connected to
+  its brand, and that connection, along with satisfaction, went with plans to come back. Social media booking offers tied to satisfaction only
+  at the chains, and privacy worries dampened return plans only at the independents.
+
+takeaways:
+  - "Of the 6 main links tested, a satisfying stay had the strongest tie to plans to come back, at chains and independents alike."
+  - "At the 2 chain hotels, free-cancellation and other booking offers seen on social media went with happier guests; at the 3 independents that link was too weak to count."
+  - "At the independents, privacy worries weakened both of the 2 routes to a return visit, the brand bond and the satisfying stay; at the chains they changed neither."
+  - "Chains and independents differed reliably on just 3 of the 8 links compared, and AI's tie to a closer brand bond held at both."
+
+paper:
+  doi: "10.1080/02650487.2025.2536361"
+  title: "Artificial intelligence on social media and revisit behavior: evidence from the hotel industry"
+  authors: ["Shabankareh, M.", "Ranjbaran, A.", "Lim, W. M.", "Kalantari Daronkola, H.", "Nazarian, A."]
+  authors_full: ["Mohammadjavad Shabankareh", "Alireza Ranjbaran", "Weng Marc Lim", "Hassan Kalantari Daronkola", "Alireza Nazarian"]
+  year: 2025
+  journal: "International Journal of Advertising"
+  volume: "44"
+  issue: "8"
+  pages: "1523-1562"
+  online: "2025-07-29"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Mohammadjavad Shabankareh"
+      affiliation: "Department of Marketing, University of Oregon, Charles H. Lundquist College of Business, Eugene, Oregon, USA"
+      orcid: "0000-0002-7103-211X"
+    - name: "Alireza Ranjbaran"
+      affiliation: "Department of Management, University of Tehran, Tehran, Iran"
+      orcid: "0000-0001-9820-2206"
+    - name: "Weng Marc Lim"
+      affiliation: "Sunway Business School, Sunway University, Sunway City, Malaysia; School of Business, Law, and Entrepreneurship, Swinburne University of Technology, Hawthorn, Australia; Faculty of Business, Design and Arts, Swinburne University of Technology, Kuching, Malaysia; ASU-Cintana Alliance Global Partner Affiliate Faculty, Arizona State University, Tempe, Arizona, USA; Global Research Centre, Sungkyunkwan University, Suwon, Republic of Korea; Jaipuria Institute of Management, Lucknow, India"
+      orcid: "0000-0001-7196-1923"
+    - name: "Hassan Kalantari Daronkola"
+      affiliation: "School of Business, Law, and Entrepreneurship, Swinburne University of Technology, Hawthorn, Australia"
+      orcid: "0000-0003-3972-0788"
+    - name: "Alireza Nazarian"
+      affiliation: "Department of Management and Marketing, University of Westminster, London, UK"
+      orcid: "0000-0002-7929-0308"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One survey of 854 guests at five Tehran hotels (435 chain, 419 independent), PLS-SEM by hotel type and age group plus a multigroup comparison; translation pretest and 20-person pilot not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Mohammadjavad Shabankareh of the University of Oregon,
+      Alireza Ranjbaran of the University of Tehran,
+      Weng Marc Lim of Sunway University in Malaysia, who also holds a post at Swinburne,
+      Hassan Kalantari Daronkola of Swinburne University of Technology, Australia, and
+      Alireza Nazarian of the University of Westminster in London
+      asked whether the AI behind a hotel's social media does anything for repeat business. Hotels use it to target ads,
+      personalise posts, run chatbots and read the mood of what guests share. Their question was whether that work ends with a
+      guest planning another stay, and whether it lands the same way at a big chain as at an independent hotel.
+
+      They surveyed guests at five hotels in Tehran, two belonging to chains and three run independently, chosen because they
+      agreed to take part and already used AI in their marketing. A short note opening the questionnaire explained
+      what AI looks like in hotel social media marketing, from chatbots and personalised content to predictive targeting and
+      virtual brand experiences. Guests then rated how far their hotel used such tools, how connected they felt to its brand,
+      whether social media offers had pulled them into booking, how satisfied they were, whether they meant to return and how
+      much it bothers them to hand over personal information.
+
+      Of 1,000 questionnaires handed out, 854 came back complete. The team fitted the same model separately for chain and
+      independent guests, then again for younger and older guests, and finally tested which links differed between chains
+      and independents.
+    facts:
+      - ["Participants", "854 hotel guests: 435 at two chain hotels and 419 at three independent hotels"]
+      - ["Place and time", "Tehran, Iran; questionnaires collected February to April 2023"]
+      - ["Who answered", "Just over half were aged 18 to 34 at both hotel types; 52% of chain guests and 45% of independent guests were women"]
+      - ["Measured", "Perceived AI use in the hotel's social media marketing, brand engagement, pull of social media booking offers, satisfaction, plans to return and privacy concerns, each rated from 1 (strongly disagree) to 7 (strongly agree)"]
+      - ["Analysis", "Partial least squares structural equation models by hotel type and age group, plus a multigroup comparison of chains and independents"]
+
+  - h: "How AI on social media connects to coming back"
+    body: |
+      At both hotel types the chain of links ran the way the authors expected. The more AI guests believed was at work behind the
+      hotel's social media, the stronger the bond they felt with its brand and the more pull its offers had on them. That
+      bond went with higher satisfaction and with plans to return, and satisfaction had the firmest tie of all to returning.
+
+      Two details about the measures matter for reading this. "AI on social media" is what guests believed about their hotel's
+      marketing, covering audience analysis, sentiment tracking, augmented and virtual reality and logo recognition, not a
+      record of the tools the hotel actually ran. And engagement here is a feeling of connection, statements such as having a
+      special bond with the hotel's brand, rather than likes or comments. The survey shows which perceptions travel together.
+      It cannot show that switching an AI tool on would create them.
+    chart: routes
+
+  - h: "Offers worked where the name was known"
+    body: |
+      The paper calls the second route conversion rate optimization. In practice it was a guest's sense that free booking,
+      free cancellation or promotional messages seen on social media had drawn them to book. A fourth question, on instant
+      messages, was dropped because it did not fit with the others.
+
+      At the chains, guests who felt that pull reported higher satisfaction with their stay, an effect size of 0.14, just under the
+      0.15 mark the authors treat as medium. At the independents the effect size was 0.01 and the link was not statistically
+      reliable. The multigroup test confirmed that the two hotel types differed here (a gap of 0.268, p = 0.036), and the
+      pattern was the same in both age groups.
+
+      The authors put it down to trust. A familiar brand lends a promotion credibility, while an offer from a hotel people
+      know less about may need more original, more convincing content around it before it adds to anyone's satisfaction.
+
+  - h: "Privacy worries hit the independents"
+    body: |
+      Four questions asked how much it bothers guests when a favourite hotel asks for personal information. At the chains,
+      those worries did not change how a strong brand bond or a good stay turned into plans to return. At the independents
+      they did: the more uneasy guests were, the weaker both links became (interaction coefficients of −0.193 and −0.215,
+      p = 0.032 and 0.012). The multigroup test found both of these gaps between hotel types significant.
+
+      The age split sharpens the picture. The dampening at independents came from younger guests and was not significant
+      among older ones. Among older chain guests the effect ran the other way, with privacy concerns slightly strengthening
+      both links to returning (0.181 and 0.238). The authors do not comment on that result, and the age groups were not
+      formally compared, so treat it as a direction only.
+
+      The authors trace the independents' problem to reputation. A hotel without a well-known name or standard security
+      routines gives guests less reason to believe their data are safe, so the risks of personalisation can outweigh what
+      it offers.
+
+  - h: "Younger and older guests"
+    body: |
+      Splitting guests by age showed differences of degree rather than kind. A sense of connection with the brand led to
+      return plans a little more strongly for younger guests than for older ones, at chains (0.409 against 0.388) and at
+      independents (0.291 against 0.231). Satisfaction behaved differently by hotel type. At chains it drew both age groups
+      back to the same degree, while at independents older guests trailed.
+
+      Treat these as directions only. Where the line between younger and older guests was drawn is not stated, and no test
+      of whether the age gaps are statistically reliable is reported.
+    chart: age
+
+  - h: "What the hotel comparison did not show"
+    body: |
+      The authors describe hotel type as changing how strongly engagement and satisfaction lead to a return visit, because
+      both links were larger at the chains. Their own multigroup test is more cautious. The gaps for engagement to returning
+      (p = 0.112) and satisfaction to returning (p = 0.098) fell short of significance, as did the gaps for AI's links to
+      engagement and to booking offers. What reliably set chains and independents apart was how offers fed satisfaction and
+      how privacy worries got in the way.
+
+      On this evidence, the AI story is much the same at a chain and an independent. The differences sit in what happens
+      after a guest notices the marketing.
+
+  - h: "What the authors advise hotel marketers"
+    body: |
+      Their advice follows from the survey rather than from a test of it. Watch engagement, click-through, bounce rates and
+      shares, adjust creative and placements as you go, and A/B test promotional messages for different audience segments.
+      Chains can lean on consistency, using retargeting and messages about reliability, safety and service history for older
+      or more cautious guests. Independents should lead with authenticity and storytelling, such as virtual previews or
+      influencer content, to reach younger travellers, and keep any personalised offer transparent about its value.
+
+      On privacy they get specific: say plainly why data are collected, offer opt-in choices, and show privacy assurances
+      inside the ads and along the booking path. They also suggest matching channels to age, for instance Instagram for
+      younger guests and email for older ones.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List your AI touchpoints", "Write down every place your hotel uses automation on social media: targeted ads, personalised posts, chatbot replies, comment and review monitoring. Mark the ones a guest can actually see."]
+  - ["Write a three-line data promise", "Say in three plain sentences what guest data you collect, why, and how long you keep it. Put it on the booking page, in the chatbot's first message and under every personalised ad."]
+  - ["Give followers a reason to feel at home", "Plan a weekly post that builds a personal connection: a staff member's story, a local tip, a returning guest's photo shared with their permission. Keep the hard sell out of these posts."]
+  - ["Put two offers one tap away", "Pick the two booking terms guests value most, such as free cancellation or no booking fee. Feature them in your next four posts or ads, each with a single link straight to the booking page."]
+  - ["Ask before you personalise", "Add an opt-in box for tailored offers at booking and in messaging. For one month, send tailored offers only to guests who tick it, and compare their booking rate with guests who get standard offers."]
+  - ["Count who comes back", "Tag every booking that starts on social media. After six months, check how many of those guests booked again, and compare guests under 35 with older ones."]
+
+expect:
+  - "**Links, not lifts.** A single survey shows which perceptions move together. It cannot tell you how many extra bookings an AI tool will bring."
+  - "**The stay still decides.** Social media work feeds return plans largely through the stay it leads to, and no algorithm replaces that."
+  - "**Trust before discounts.** If your hotel is not widely known, expect price-led promotions to do less on their own; building credibility first is the authors' inference, not a tested result."
+  - "**Privacy is a cost of personalisation.** For smaller brands, guests' unease about data can eat into what tailored messages earn, so clear opt-ins are cheap insurance."
+
+limits:
+  - "**One city, five hotels.** Every guest stayed in Tehran. Hotel markets, privacy norms and platforms differ elsewhere."
+  - "**Beliefs about AI.** Guests judged how much AI their hotel used; the actual tools and spending were not recorded."
+  - "**One snapshot.** A cross-sectional survey cannot show that AI came first and loyalty followed."
+  - "**Stated plans.** Intentions to return were asked about, not tracked in later bookings."
+  - "**Loose age split.** The paper gives neither the age cut-off nor a test of the age differences."
+  - "**No manipulation.** Nobody saw different AI messages or ad formats; the authors call for experiments that do."
+
+faq:
+  - q: "Does using AI on social media make hotel guests return?"
+    a: "It is linked with returning rather than proven to cause it. The more AI guests noticed behind a hotel's posts and ads, the closer they felt to the brand, and closeness and a good stay both pointed towards booking again, at chain and independent hotels alike (Shabankareh et al., 2025). The evidence is one survey, so cause and effect remain open."
+  - q: "Why do privacy concerns hurt independent hotels more than chains?"
+    a: "In the authors' view, a well-known chain with standard security practices reassures guests about how their data are handled. An independent hotel has less reputation to fall back on, so guests who dislike sharing personal details let that unease weaken their wish to come back."
+  - q: "What does conversion rate optimization mean here?"
+    a: "It is treated as an advertising outcome: whether deals promoted on social media, like a free booking or free cancellation, persuaded a guest to reserve a room. That pull went with satisfaction at the chains but not at the independents."
+  - q: "Are younger hotel guests more responsive to AI-driven social media?"
+    a: "A little. Their feeling of closeness to the brand fed return plans slightly more strongly at both hotel types, and their satisfaction did so more strongly at independents. The age gaps were not formally tested."
+  - q: "Which AI tools did guests rate?"
+    a: "Eight statements covered audience analysis, image and sentiment analysis, augmented and virtual reality, automatic image tagging, sorting guests' posts by tone and topic, logo recognition and the use of customer data such as purchase patterns."
+
+also:
+  - doi: "10.1002/mar.70014"
+    title: "First Response Matters: The Impact of First Public Response to Social Media Complaints on Observers' Brand Attitude"
+    authors: "Liao et al."
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      When a brand answers a complaint on social media, onlookers judge it by that first reply. In four experiments, dealing
+      with the problem in public signalled more commitment to fixing it, and left observers thinking better of the brand, than
+      asking to move the conversation to private messages. A public reply that came only after a request to go private earned
+      less credit, and it also helped less when the complainer had tagged the brand with "@". The first reply is written for
+      everyone watching, not only the person complaining.
+  - doi: "10.1002/cb.70021"
+    title: "The Complexity of Audiovisual Content in Advertisements Influences User Engagement Behaviours"
+    authors: "Zhang, Qiu, & Ye"
+    journal: "Journal of Consumer Behaviour"
+    year: 2025
+    text: >-
+      Using deep learning to measure the sound and pictures of 880 TikTok ads, the authors found that more complex sound and
+      richer visual texture went with more user engagement, while packing more objects into the frame went with less. The
+      ad's release date, product type and saturation changed how strong these links were. Their feature extraction method
+      also speeds up the analysis of large volumes of short video. A layered soundtrack may earn attention that a crowded
+      frame gives away.
+
+charts:
+  routes:
+    title: "Three links in the model, chains and independents compared (standardised path coefficients)"
+    scale: [0, 1]
+    step: 0.2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Chain: AI → brand bond", 0.681, false]
+      - ["Independent: AI → brand bond", 0.561, false]
+      - ["Chain: offers → satisfaction", 0.389, true]
+      - ["Independent: offers → satisfaction*", 0.121, false]
+      - ["Chain: satisfaction → return", 0.781, false]
+      - ["Independent: satisfaction → return", 0.596, false]
+    source: "One survey of 854 hotel guests in Tehran, separate models for 435 chain and 419 independent guests (Table 6). * Not statistically significant."
+  age:
+    title: "How strongly satisfaction led to plans to return, by hotel type and age (standardised path coefficients)"
+    scale: [0, 1]
+    step: 0.2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Chain, younger guests", 0.891, false]
+      - ["Chain, older guests", 0.893, false]
+      - ["Independent, younger guests", 0.703, false]
+      - ["Independent, older guests", 0.605, true]
+    source: "Same survey, separate models by age group (Table 6, Panels B and C). The paper does not state the age cut-off or test the age gaps."
+
+related_pages: []
