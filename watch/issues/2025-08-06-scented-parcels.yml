@@ -1,0 +1,220 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 31                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-08-06"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: scented-parcels
+status: live
+
+title: "Does a scented parcel make online shoppers value the product inside more? What a Marketing Letters study found"
+dek: >-
+  For many online shoppers, opening the parcel is the first time they touch the brand at all. In a German lab test, a box
+  misted inside with pine and sandalwood made an identical water bottle look better, polished the brand's image and drew higher bids.
+short_title: "What a scented parcel does to the product inside"
+
+description: >-
+  Oberwegner et al. find that spraying a parcel inside with a pine and sandalwood scent lifted bids for the bottle it held by
+  24% and improved brand ratings.
+
+keywords: [scented parcels, olfactory marketing, scent marketing in e-commerce, unboxing experience, e-commerce packaging,
+  sensory marketing, willingness to pay, product returns, brand personality, green brand equity, Marketing Letters]
+topics: [Retail, Creative]
+
+image:
+  file: 2025-scented-parcels.jpg
+  og: 2025-scented-parcels-og.jpg
+  alt: "Two hands at the taped seam of a kraft-paper parcel on a pale table, the person behind it in a tan corduroy jacket"
+  caption: "What reaches the nose as the tape comes off may change what the product inside seems worth. Photo: Compagnons on Unsplash."
+
+short_answer: >-
+  Yes, in a first test. Researchers in Germany gave 300 people a sealed parcel holding a water bottle from a made-up outdoor
+  label. Half the boxes had been sprayed inside with a woody, piney scent. People who opened a scented box rated the bottle and
+  its brand more highly and bid 24% more for it in an auction paid from their own fee. The bottle was identical; only the smell
+  differed.
+
+takeaways:
+  - "The very same bottle earned a 6% higher quality rating when it came out of a scented box."
+  - "The brand's green image got the biggest lift: an 11% higher score for being worth choosing over rivals because of its environmental commitment."
+  - "Readiness to recommend the brand rose from 3.87 to 4.60 on a 0 to 10 scale, though both groups stayed far from fan territory."
+  - "Scent did not reliably raise the wish to own the bottle: 79% of the scented group and 71% of the rest entered a draw for one, a gap within chance."
+
+paper:
+  doi: "10.1007/s11002-025-09786-2"
+  title: "Unpacking olfactory marketing: initial evidence for the positive effects of scented parcels on post-order consumer responses in e-commerce"
+  authors: ["Oberwegner, N.", "Cantner, F.", "Imschloss, M.", "Zürn, M. K."]
+  authors_full: ["Niklas Oberwegner", "Fabienne Cantner", "Monika Imschloss", "Michael K. Zürn"]
+  year: 2025
+  journal: "Marketing Letters"
+  volume: "36"
+  issue: "4"
+  pages: "903-916"
+  online: "2025-08-06"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Niklas Oberwegner"
+      affiliation: "School of Management, Technical University of Munich, Munich, Germany"
+      orcid: "0009-0008-1772-9822"
+    - name: "Fabienne Cantner"
+      affiliation: "School of Management, Technical University of Munich, Munich, Germany"
+      orcid: "0000-0001-7287-5496"
+    - name: "Monika Imschloss"
+      affiliation: "Institute for Management & Organization, Leuphana University Lüneburg, Lüneburg, Germany"
+      orcid: "0000-0001-8582-5965"
+    - name: "Michael K. Zürn"
+      affiliation: "Nuremberg Institute for Market Decisions, Nuremberg, Germany"
+      orcid: "0000-0002-8614-4464"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One preregistered, incentivized lab experiment with 300 participants (165 scented, 135 unscented parcels); six-scent pre-study not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Niklas Oberwegner and Fabienne Cantner of the Technical University of Munich, Monika Imschloss of Leuphana University Lüneburg
+      and Michael K. Zürn of the Nuremberg Institute for Market Decisions took a tool that shops and hotels have used for years and
+      moved it to the doorstep. Scent in physical stores is well researched. Online, a shopper usually first handles the brand when
+      the parcel is opened, and that moment had barely been studied.
+
+      The team invented an outdoor and hiking label called Pine Peaks and engraved its logo on aluminium water bottles. In a lab
+      session, each participant found one bottle waiting in a sealed parcel. In the scented sessions, the inside of every box had
+      been sprayed with an essential oil blend of sandalwood, mountain pine and lime, picked to suit the brand. In the others the
+      boxes were plain. Scented and unscented sessions were held apart so the smell could not drift from one group to the other.
+
+      Before opening anything, people heard that they could bid for the bottle in a sealed auction, with any winning bid
+      taken out of their own participation fee. They then unpacked the parcel, bid if they wished, and rated the bottle, the brand and the unpacking.
+    facts:
+      - ["Participants", "304 people from a Technical University of Munich research panel; 300 kept after attention checks, average age 25"]
+      - ["Groups", "165 opened a scented parcel and 135 an unscented one"]
+      - ["Product", "A branded aluminium water bottle from a fictitious outdoor label"]
+      - ["Dose", "Three sprays of essential oil, 0.3 ml in all, inside each box about 20 minutes before the session"]
+      - ["Money at stake", "A 12 euro fee; bids from 0 to 12 euros in 10-cent steps, with winners paying from their fee"]
+      - ["Measured", "Product quality, five sides of brand personality, green brand image, likelihood to recommend, wish to own, enjoyment of unpacking"]
+      - ["Checks", "Preregistered, with data and analysis scripts shared openly; people with scent allergies or breathing problems excluded"]
+
+  - h: "Which responses moved, and which barely did"
+    body: |
+      Nearly every rating leaned towards the scented box. The brand seemed more sincere, more rugged, more sophisticated and more
+      competent. Excitement was the exception: it crept up, but not by enough to rule out chance.
+
+      The unpacking itself is the curious part. Enjoyment of opening the parcel went only from 3.67 to 3.88 out of 5, a gap the
+      authors call marginal. People were not obviously having a nicer time, yet they judged what came out of the box more kindly.
+      The authors' leading explanation is that the scent creates pleasant feelings, which people then fold into their verdict on
+      the product. The mechanism itself was left unexamined.
+
+      In research terms these are small to moderate effects. Even so, the authors note they are larger than the average found across
+      earlier scent studies.
+    chart: effects
+
+  - h: "Money on the table"
+    body: |
+      The bids are the most telling result, because they cost something. In each session two bottles went to the two highest
+      bidders, and the second-highest bid came out of their fee. Bidding high carried a real price, so the gap between the groups
+      is closer to what the bottle was worth to people than a polite answer on a questionnaire would be.
+
+      Wanting the bottle was a different matter. Later in the questionnaire, everyone could opt into a draw for the leftover bottles, and the scented
+      group signed up only slightly more often. The scent seems to have raised the price people put on the product more than their
+      appetite for it. For an online seller that split matters: the item has already been bought, and the open question at the
+      doorstep is whether it still feels worth the money.
+    chart: bids
+
+  - h: "Beyond the box: brand memory, mixed orders and the journey"
+    body: |
+      The authors see three possible payoffs further down the line, all of them still untested. Because the smell arrives at the
+      moment the brand is in someone's hands, people may come to link the two, and earlier work in service settings suggests scent
+      effects can last. Shoppers who order several sizes or colours and send most back might keep more if each item feels better on
+      arrival. A stronger brand impression could also feed repeat orders.
+
+      The practical snags are physical. Practitioners report that the seal, the temperature on the way and the packaging material
+      all change how much scent survives. The test boxes were sprayed shortly before they were opened, which is a long way from
+      several days in a delivery van.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Check that one scent can fit everything", "Scent your parcels only if your whole range shares one character, such as outdoor kit or natural skincare. If your shop mixes food, tools and clothing, skip it, because no single smell suits them all."]
+  - ["Let customers choose the scent", "Pick four to six scents that match your brand. Ask 20 regular customers to smell each on a strip of card and say which fits the product best, not which they like most."]
+  - ["Scent the box, not the product", "Spray the inside of the lid one to three times and let it dry for 20 minutes before packing. Keep the scent off the item itself."]
+  - ["Test that the smell survives the trip", "Post five scented boxes to colleagues in different places and open them after two days and after five. If nobody can smell anything, change the seal, the material or the dose before you launch."]
+  - ["Split real orders for six weeks", "Scent every second order and leave the rest plain. Add a tick box at checkout so anyone with allergies can ask for an unscented parcel."]
+  - ["Compare returns, reviews and repeat orders", "After six weeks, set the two groups side by side on return rates, star ratings and repeat purchases. Keep the scent only if the gains cover what it costs."]
+
+expect:
+  - "**A nudge, not a makeover.** The shifts were modest. Across thousands of orders they can add up, but no single customer will feel transformed."
+  - "**Value moves before desire.** Expect the gain to show in what people think the item is worth and how they see the brand, more than in whether they want it."
+  - "**Cents per box, plus handling.** The material is cheap, but someone has to apply it, store the oil and check that the smell arrives."
+  - "**Unknown staying power.** Nobody has yet checked whether the lift lasts once regular customers grow used to the smell."
+
+limits:
+  - "**A lab, not a living room.** Parcels were opened in a quiet lab, not in kitchens or homes with pets, where other smells compete."
+  - "**One scent, one bottle, one invented brand.** A woody blend suited an outdoor label. Other products, other scents and brands people already know may respond differently."
+  - "**A young, local panel.** Participants came from a German university research pool and were 25 on average."
+  - "**Bids, not returns.** Nobody measured whether people kept an order, sent it back or bought again."
+  - "**Scent on its own.** The smell was not combined with branded or coloured boxes, and its strength and pleasantness were not varied."
+  - "**A capped auction.** Bids could not go above 12 euros, though fewer than 3% of people reached that ceiling."
+
+faq:
+  - q: "Does scent marketing work for online shops?"
+    a: "A first test says it can. When the inside of a sealed parcel carried a scent that suited the brand, people rated the product more highly, saw the brand more favourably and offered more money for the item (Oberwegner et al., 2025). The test ran in a lab with one product, so it is a promising start rather than settled proof."
+  - q: "What scent should a parcel have?"
+    a: "One that fits the brand and what is in the box. In this study a mix of sandalwood, pine and lime won a pretest of six scents for an outdoor label. The authors put fit ahead of pleasantness and advise against scenting parcels in marketplaces that ship many unrelated goods; a single-brand outdoor retailer is their example of where it suits."
+  - q: "Can scented packaging cut product returns?"
+    a: "That has not been shown yet. The study measured ratings and bids, not returns. The authors argue that shoppers make the keep-or-return call while unpacking, and that earlier research links better ratings, a pleasant unpacking and a price that still feels fair to fewer returns. They call for field tests that track return rates and repeat purchases directly."
+  - q: "How much does it cost to scent a parcel?"
+    a: "Very little. The authors cite an industry figure of about 0.29 euros per parcel for small businesses, which pay the most per box because they cannot buy at scale. By their sums, with bids 24% higher, that cost is covered from a basket of 1.21 euros upwards."
+  - q: "Would the effect hold when people open parcels at home?"
+    a: "Nobody knows yet. Homes are full of competing smells. The authors cite a meta-analysis in which scent effects in lab experiments were not significantly larger than in field settings, which makes similar results plausible, but parcels opened at home have not been tested."
+
+also:
+  - doi: "10.1108/jpbm-10-2024-5514"
+    title: "Is it really mine? Contamination concerns for second-hand goods"
+    authors: "Kumar & Khandeparkar"
+    journal: "Journal of Product & Brand Management"
+    year: 2025
+    text: >-
+      Pre-owned goods can feel tainted by whoever had them first. Across three online experiments with 517 people, the sense of a
+      previous owner made second-hand items seem less clean and so less appealing, most of all things worn close to the body.
+      Framing an item around enjoyment rather than function loosened that link to the old owner, so a pre-owned t-shirt came across as
+      cleaner and more desirable than a utilitarian laptop bag. On resale sites, the wording of a listing can do some of the washing.
+  - doi: "10.1080/13527266.2025.2533191"
+    title: "Going the extra mile: Engaging consumers through personalized communication on social media"
+    authors: "Chang, Zhang, Song, & Meng"
+    journal: "Journal of Marketing Communications"
+    year: 2025
+    text: >-
+      A survey of 475 people and an experiment with 295 looked at service messages that brands send customers on social platforms
+      such as X. Personalised messages raised customers' intentions towards the brand, working through deeper engagement and a
+      feeling that the brand was partly theirs. The effect was strongest among people who already felt close to the company. Loyal
+      followers are where a personal reply works hardest.
+
+charts:
+  effects:
+    title: "How far the scent moved each response (effect size, Cohen's d)"
+    scale: [0, 0.4]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Green brand image", 0.37, true]
+      - ["Brand sincerity", 0.36, false]
+      - ["Brand ruggedness", 0.32, false]
+      - ["Likelihood to recommend", 0.29, false]
+      - ["Brand sophistication", 0.29, false]
+      - ["Product quality rating", 0.28, false]
+      - ["Brand competence", 0.26, false]
+      - ["Auction bid", 0.25, false]
+      - ["Enjoyment of unpacking", 0.19, false]
+      - ["Brand excitement", 0.19, false]
+    source: "Table 1, one lab experiment with 300 participants. Brand excitement was not significant; enjoyment of unpacking was marginal (one-sided p = .050)."
+  bids:
+    title: "Average auction bid for the same bottle, in euros"
+    scale: [0, 5]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Unscented parcel", 3.19, false]
+      - ["Scented parcel", 3.96, true]
+    source: "Table 1, one lab experiment (165 scented and 135 unscented parcels); bids were voluntary, from 0 to 12 euros, and winners paid from their fee."
+
+related_pages: []
