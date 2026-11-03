@@ -1,0 +1,224 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 32                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-08-07"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-03"          # the day this page went live (metadata only, never shown)
+slug: compensation-complaint-cycles
+status: live
+
+title: "Does offering compensation to customers who complain on social media invite more complaints? What a Journal of Research in Interactive Marketing study found"
+dek: >-
+  When Facebook let brands answer comments directly, airlines that replied to complaints in public drew more negativity
+  than airlines that kept quiet. Most of it followed replies that put money back or a perk on display.
+short_title: "Why public refunds can breed more complaints"
+
+description: >-
+  Zhang and Zhang find airlines that offered refunds or freebies in public Facebook replies drew more, and harsher,
+  complaints, while apologies added nothing.
+
+keywords: [responding to negative comments, social media complaints, complaint handling, service recovery,
+  compensation offers, apology responses, Facebook brand pages, negative word of mouth, online brand communities,
+  airline customer service, Journal of Research in Interactive Marketing]
+topics: [Social media, Service]
+
+image:
+  file: 2025-compensation-complaint-cycles.jpg
+  og: 2025-compensation-complaint-cycles-og.jpg
+  alt: "A smiling woman in a headset and sheer white blouse turns from her keyboard towards the camera, a row of colleagues in headsets working beside her in warm window light"
+  caption: "Whoever answers a complaint in public is also talking to every follower who reads the thread. Photo: BaljkanN4 on Unsplash."
+
+short_answer: >-
+  On Facebook, it did. When the platform added a reply button under comments, airlines that began answering complaints
+  on their brand pages drew more negative comments, and harsher ones, than airlines that stayed silent. Most of that
+  rise followed replies offering refunds, upgrades or freebies, which seemed to show other followers what a complaint
+  could earn. Replies that apologised added nothing measurable either way.
+
+takeaways:
+  - "Before the reply button arrived, only 2 of 133 large brand pages answered individual comments; afterwards 78% of the airlines answered complaints."
+  - "Brands that answered complaints openly picked up about 3.5 extra negative comments per post, on pages that averaged 3.6."
+  - "A reply mentioning a refund, an upgrade or a freebie was linked to about 4 more negative comments per post than a plain reply."
+  - "Saying sorry made no measurable difference of its own on any of the 4 outcomes tracked, from how many complaints arrived to how harsh they sounded."
+
+paper:
+  doi: "10.1108/jrim-08-2024-0411"
+  title: "Feeding negativity on social media: how compensating customers creates vicious cycles of complaint"
+  authors: ["Zhang, Y.", "Zhang, K."]
+  authors_full: ["Yuchi Zhang", "Kunpeng Zhang"]
+  year: 2026
+  journal: "Journal of Research in Interactive Marketing"
+  volume: "20"
+  issue: "3"
+  pages: "455-471"
+  online: "2025-08-07"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Yuchi Zhang"
+      affiliation: "Department of Marketing, Santa Clara University, Santa Clara, California, USA"
+      orcid: "0000-0002-5419-8679"
+    - name: "Kunpeng Zhang"
+      affiliation: "Department of Decision, Operations and Information Technologies, University of Maryland, College Park, Maryland, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One quasi-experiment on one archival dataset: Facebook pages of 67 airline brands around the March 2013 reply-button launch (268 firm-months in the main window); hotel and car brands only in a web appendix"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Yuchi Zhang of Santa Clara University and
+      Kunpeng Zhang of the University of Maryland
+      tackled a dilemma most social media managers meet sooner or later. A customer complains on your brand page.
+      Do you answer in public? Earlier work on review sites pointed both ways, and little of it asked whether the
+      wording of the answer matters.
+
+      Their test came from a change Facebook made without warning in March 2013, when it put a reply button under every
+      comment. Until then comments simply piled up in order, and answering one person was clumsy. Overnight, a brand
+      could respond right under a complaint, in full view of its followers. Some airlines took up the new button and
+      others ignored it, so the pair could compare the two groups before and after the switch.
+
+      The main analysis follows 67 airline brands from a year before the change to a year after. A sentiment model built to read emoticons and internet slang scored every comment. Replies were sorted
+      by their words into offers of a refund, upgrade or freebie, apologies built on "sorry" or "apologize", and plain
+      acknowledgements, with a topic model as a second way of coding them. Because brands chose whether to reply, the
+      analysis corrected for that choice using each firm's headcount and its time on Facebook. It also controlled for
+      the monthly airline complaint counts kept by the US Department of Transportation, a channel where firms cannot
+      answer back.
+    facts:
+      - ["Data", "Every public post, comment, reply and like on the brand pages, downloaded through Facebook's developer interface"]
+      - ["Main sample", "67 airline brands, about 1.9 million comments, 24 months of activity"]
+      - ["Natural experiment", "Facebook's unannounced launch of direct replies to comments in March 2013"]
+      - ["Comparison", "Brands that began replying to complaints against brands that did not, two months either side of the launch"]
+      - ["Measured", "The share, number and tone of negative comments per post, plus all comments"]
+      - ["Also covered", "Hotel and car brands, reported only in an online appendix"]
+
+  - h: "What happened when brands replied"
+    body: |
+      The raw figures already tell the story. On the pages of airlines that started replying, negative comments
+      jumped in the first month after the button appeared and stayed above their old level. Pages that kept quiet
+      barely changed.
+
+      The model, focused on a short window around the launch, backs this up. Replying brands saw a larger share of
+      their comments turn negative, and the complaints themselves grew sharper: their average sentiment score fell by
+      almost one point (0.99), on a scale where these comments typically sat around minus 2.4. All comments taken
+      together did not rise by a reliable amount. People were not simply talking more. More of what they said was
+      complaint.
+    chart: replies
+
+  - h: "Why an audience makes it worse"
+    body: |
+      The authors' explanation is an incentive. A reply is written for one customer but read by everyone who follows
+      the page, and an answer that settles a grievance signals that speaking up gets results. If that is right, the
+      effect should be bigger where more people are watching.
+
+      That is what the data show. The rise in negative comments was stronger for brands with larger followings, and
+      stronger again where complaints had drawn more likes from other users. Both are rough proxies
+      for how many eyes were on the exchange.
+
+  - h: "Refunds feed the cycle, apologies do not add to it"
+    body: |
+      What the reply said mattered most. When a brand's replies offered something of value, whether money back, an
+      upgrade or a free extra, negative comments rose further, made up a bigger share of the conversation and turned
+      harsher in tone. The keyword coding and the topic-model coding agreed, and under the second the extra came to
+      about six and a half negative comments per post (6.47).
+
+      Plain acknowledgements still came with a few extra negative comments on each post, but with no rise in their share and
+      no change in tone. Apologies made no separate difference on any measure. The pair trace this to an economic
+      motive: an offer posted where everyone can see it tells each follower what a complaint might be worth.
+
+      A word of care on how this is summarised. The paper describes apologies as neutralising further complaints. The
+      tables support something narrower. An apology did not add to the rise that came with replying. Calming a page down
+      would be a different, stronger claim.
+    chart: types
+
+  - h: "What the authors advise"
+    body: |
+      Their advice is to keep generosity out of the public thread. Compensation, as they put it, cannot be handled in
+      public without inviting a spiral, while a public apology is the safer route for a brand's reputation. They frame
+      the task as a balance between being generous and being restrained, not as a case for refusing help.
+
+      Nor do they tell brands to go silent. Replying brings complaints into the open where they can be fixed, and the
+      authors note that it also wins followers, so the costs and benefits have to be weighed against sales and loyalty,
+      which this data could not track. Sending offers by private message follows from their reasoning, yet private
+      conversations were invisible to the analysis, so that route remains untested.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your recent replies", "Pull your last 50 public replies to complaints. Label each one as a plain acknowledgement, an apology, or an offer of money, credit, an upgrade or something free. Count each pile."]
+  - ["Set one rule for offers", "Decide that refunds, vouchers and upgrades are only ever offered in a private message, never in the public thread. Write the rule down and brief everyone who posts for the brand."]
+  - ["Write a short public apology", "Draft two or three public replies that say sorry, name the problem in plain words and invite the person to message you. Keep each under 40 words and leave out anything they might receive."]
+  - ["Settle the case in private", "In the direct message, confirm the details, explain what happens next and make any goodwill gesture there. End by asking whether the problem is now sorted."]
+  - ["Answer the busiest threads first", "Each morning, sort open complaints by likes and replies. Reach the top five within two hours, because those are the threads most followers will see."]
+  - ["Count what follows each reply", "Once a week, count the negative comments that arrive in the 48 hours after each public reply, and note which kind of reply it was. Compare the counts month by month."]
+
+expect:
+  - "**More threads to manage.** Public replies on these pages came with extra negative comments, so set aside moderator time for the conversation a reply can start."
+  - "**Visible offers do the damage.** The sharpest rise in volume and tone came after replies showing money or perks."
+  - "**Apologies are safe, not soothing.** A sorry-led reply left things no worse, but do not count on it to quieten a page by itself."
+  - "**Some upside remains.** Replying surfaces complaints a brand can then fix, and responsive pages gained followers, by the authors' account."
+
+limits:
+  - "**One platform, one moment.** Everything comes from Facebook around its 2013 reply-button launch; other platforms and later years may behave differently."
+  - "**Big brands only.** The pages belong mostly to large companies. The authors expect a small local business might meet a gentler crowd."
+  - "**No sales or satisfaction data.** The analysis could not say whether replying helped or hurt sales, or whether the original complainers were happy with the outcome."
+  - "**Private messages unseen.** Direct conversations were outside the data, so whether moving offers out of view helps is not shown."
+  - "**Coded from words.** Reply types were read from terms such as refund, upgrade, freebie and sorry, plus a topic model, so they capture what replies said rather than what customers received."
+
+faq:
+  - q: "Should brands reply to complaints on Facebook?"
+    a: "Replying in public carries a risk. On 67 airline pages, brands that started answering complaints once Facebook added its reply button saw a heavier load of negative comments, and a harsher tone, than brands that stayed silent (Zhang & Zhang, 2026). How the reply was worded explained most of the gap."
+  - q: "Is it a mistake to offer a refund in a public reply?"
+    a: "On this evidence it can be. Public offers of refunds, upgrades or free extras were followed by more complaints, a bigger negative share and sharper wording, most likely because other followers saw that complaining paid and posted their own."
+  - q: "Do apologies stop complaints from spreading?"
+    a: "That was not shown. Apology replies did not move later complaints in either direction beyond what any reply did. They did no harm beyond a plain reply, but the data do not show them reducing negativity."
+  - q: "Why would one reply affect other customers?"
+    a: "Because a public reply has an audience. The increase in complaints was larger for brands with bigger followings and for complaints with more likes, both signs that more people saw the exchange."
+  - q: "Does this apply beyond Facebook and airlines?"
+    a: "Not yet known. The data come from one platform, mostly large companies and a window around 2013. Hotel and car brands appear in an online appendix, but other platforms, smaller firms and recent years were not tested."
+
+also:
+  - doi: "10.1177/07439156251367762"
+    title: "Consumer Evaluations of Generative Artificial Intelligence Disclosures in Responses to Health Care Reviews"
+    authors: "Mousavi & Villanova"
+    journal: "Journal of Public Policy & Marketing"
+    year: 2026
+    text: >-
+      Health care providers are starting to let generative AI draft their answers to online patient reviews. Drawing on
+      real reviews and several experiments, Mousavi and Villanova show that consumers generally could not tell an AI-written answer
+      from one written by a person. Being told AI was involved changed that, often for the worse, and how much depended
+      on who made the disclosure and how much people felt they knew about AI. If a machine helps with your review
+      replies, who says so may matter as much as what it writes.
+  - doi: "10.1177/14413582251356702"
+    title: "Push the Paw: A Field Experiment on Personalised Push Notifications and User Engagement"
+    authors: "Kim, Kim, & Choi"
+    journal: "Australasian Marketing Journal"
+    year: 2026
+    text: >-
+      A pet activity-tracking app ran its own field experiment on push notifications with 595 pet caregivers. Tailored
+      messages drew more engagement than generic ones, and naming both the caregiver and the pet beat naming the pet
+      alone. Adding the caregiver's own activity history also lifted engagement, though not significantly more than the
+      names did. Two names in a notification can carry more weight than a cleverer line of copy.
+
+charts:
+  replies:
+    title: "Estimated extra comments per post once airlines replied to complaints"
+    scale: [0, 4]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Negative comments", 3.46, true]
+      - ["All comments (not significant)", 0.98, false]
+    source: "Table 2: 67 airline brand pages, two months before and after the March 2013 reply button (268 firm-months), replying brands against brands that stayed silent."
+  types:
+    title: "Extra negative comments per post, by what the reply offered"
+    scale: [0, 5]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Plain reply", 3.12, false]
+      - ["Added when compensation offered", 4.24, true]
+    source: "Table 4 (keyword coding), same pages and window. Apologies came out at minus 0.63, not significant, so they have no bar."
+
+related_pages: []
