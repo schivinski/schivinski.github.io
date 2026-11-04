@@ -1,0 +1,257 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 45
+week_of: "2026-11-05"            # the issue's own date (Thursday)
+slug: genai-ad-visuals
+status: live
+
+title: "Can AI find the ad pictures that win clicks and still fit the brand? What a Marketing Science field test on Instagram found"
+dek: >-
+  An image generator can turn out endless scenery, so making pictures is no longer the hard part. Choosing is. A live Instagram
+  test pitted an AI that learns both what gets clicked and what the brand accepts against a professional designer.
+short_title: "AI ad backgrounds that click and stay on brand"
+
+description: >-
+  Daviet and Nishimura trained an AI on nine weeks of Instagram ads: its background images averaged 0.98% link clicks, against
+  0.65% for a designer's.
+
+keywords: [generative AI advertising, AI-generated ad images, ad creative testing, creative optimisation, click-through rate,
+  Instagram ads, brand guidelines, Bayesian active learning, alternatives to A/B testing, Thompson sampling, digital advertising,
+  Marketing Science]
+topics: [AI, Creative, Advertising]
+
+image:
+  file: issue-45-genai-ad-visuals.jpg
+  og: issue-45-genai-ad-visuals-og.jpg
+  alt: "Turquoise sea breaking on pale rocks in a sunny cove, with pine-covered hills and limestone cliffs above under a clear blue sky"
+  caption: "Seashore, hills or a waterfall? Choosing the scene behind an ad is turning into a search problem, not a photo shoot. Photo: Antoine LE on Unsplash."
+
+short_answer: >-
+  For background images, in one real campaign, yes. Two researchers paired an image generator with two learning models, one
+  predicting clicks and one predicting brand approval, and trained them over nine weekly rounds of Instagram ads. In the final
+  test, the AI's ten images averaged a 0.98% link click-through rate, against 0.78% for images chosen by a beauty score and
+  0.65% for a professional designer's, and they varied least.
+
+takeaways:
+  - "Teaching the system what the brand accepts took the company's representative under two hours of rating, spread over 60 small rounds."
+  - "In 99.6% of 10,000 resamples of the final test, the AI set's average beat the designer's. Against the beauty-score set it led in 90.8%, too close to call."
+  - "Just 0.6% of the training images ranked in the top tenth on both scores, predicted clicks and brand approval."
+  - "In the firm's busy spring season, with no retraining, the company's single standout ad came first, but the next five best ads were all made by the AI."
+
+paper:
+  doi: "10.1287/mksc.2024.1130"
+  title: "Leveraging Generative Artificial Intelligence to Create Visual Content in Digital Advertising"
+  authors: ["Daviet, R.", "Nishimura, Y."]
+  authors_full: ["Remi Daviet", "Yohei Nishimura"]
+  year: 2026
+  journal: "Marketing Science"
+  volume: "45"
+  issue: "5"
+  pages: "893-912"
+  online: "2026-05-05"
+  open_access: false
+  licence: ""
+  researchers:   # as printed in the paper (byline, affiliation and contact line on the first page; only Daviet's ORCID iD is printed)
+    - name: "Remi Daviet"
+      affiliation: "Department of Marketing, Wisconsin School of Business, University of Wisconsin–Madison, Madison, Wisconsin 53706"
+      orcid: "0000-0003-0838-3619"
+    - name: "Yohei Nishimura"
+      affiliation: "Department of Marketing, Wisconsin School of Business, University of Wisconsin–Madison, Madison, Wisconsin 53706"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two studies, as the paper reports them: a simulation study of the framework (five runs), then a live Instagram field experiment with a final head-to-head test and a spring retest. The small pilot used only to set impression levels is not counted."
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Remi Daviet and Yohei Nishimura, marketing researchers at the University of Wisconsin-Madison's Wisconsin School of Business, started
+      from a practical worry. An image generator can produce more scenery than any team could ever test. The hard part becomes
+      finding the few pictures that people click and that the brand would happily put its name to.
+
+      Their system has three parts. A custom image generator builds each picture from a compact code with two halves: layout,
+      meaning where sky, trees and water sit, and style, meaning weather, light and the kind of trees. A standard open model then
+      polishes the rough image to ad quality. One learning model predicts whether the brand would accept an image, and a second
+      predicts its click-through rate. Both keep track of how unsure they are, and the system uses that doubt to choose each next
+      small batch to test: the images expected to teach it most about where the best on-brand pictures sit.
+
+      Keeping layout and style apart has a practical payoff. When an image has a flaw, such as a tree floating in the sky, a person
+      can fix the layout instead of throwing the picture away. Each fixed image and its rejected twin also show the brand model
+      exactly where the line falls.
+    facts:
+      - ["Partner", "An outdoor activities company advertising nature trips on Instagram"]
+      - ["Audience", "Local residents aged 18 to 55 with children aged 3 to 12; feed, Explore and search placements only"]
+      - ["What changed", "Only the background picture. Logo and text sat in a fixed template made by the firm's own designer"]
+      - ["Measure", "Link click-through rate"]
+      - ["Training", "Late 2023, the firm's quiet winter season: brand ratings first, then nine weeks of live testing"]
+      - ["Final test", "Three sets of ten images run in the same week, with the same budget and targeting"]
+
+  - h: "A dry run where the answer was known"
+    body: |
+      Before spending real money, the authors built a simulated market in which they knew which images were best, while the system
+      did not. Two separate islands of the image space counted as on brand. Clicks peaked in a few rare spots, and the two
+      highest of them were off brand. Averaged over five runs, the system found the best on-brand peak within
+      five to seven rounds.
+
+      Two common alternatives did far worse. Testing random on-brand images, and Thompson sampling, a method many ad tools use to
+      shift budget toward early winners, often got stuck on lesser peaks with half the click rate. Thompson sampling is built to
+      harvest clicks from what already works, not to go looking for something better, so it barely explored.
+
+      Two other results matter in practice. Training the brand model in 60 rounds of 12 images did roughly as well as 20 rounds of
+      100, on roughly a third of the labels, because every round redirected the next. And with the brand model switched off, about
+      80% of the images sent for testing fell outside what the brand would accept.
+
+  - h: "Nine weeks of live ads"
+    body: |
+      The partner wanted stronger background pictures for its Instagram ads. On brand meant three things: photorealistic, showing
+      the kind of landscape the firm really operates in, and free of tell-tale AI glitches.
+
+      A company representative first rated batches of 12 images on a four-step scale from unacceptable to great. Then came nine
+      weekly rounds of live ads. Each round ran a dozen images picked to be informative, plus the model's current favourite and, from the second
+      round, the previous round's best performer, which served as a yardstick for swings from one week to the next. Vetting those rounds turned
+      up 39 more batches with rejects, and each went back into the brand model. By the end it had learned from 1,417 rated images
+      and the click model from just 125 tested ones, tiny numbers for models of this kind.
+
+      Instagram adds noise of its own. When the same batches ran in two different periods, their rankings agreed only moderately
+      (a rank correlation of 0.43), and a round that fell on a long holiday weekend drew unusually high clicks. The early rounds
+      jumped around, as you would expect when the aim is to learn. From the eighth round, the model's favourite images did better
+      and more steadily.
+
+  - h: "The final test: AI against a designer and a beauty score"
+    body: |
+      For the final test the trained system picked ten images, drawn so the set spread across several promising scenes instead of
+      repeating one winner. Seashores, hills and waterfalls all made the cut. Two other sets of ten ran against them in the same
+      week, after the company had approved every image. One came from the designer who made the template. The other came from the
+      same image generator steered by a published aesthetics model, standing in for the shortcut of letting a general beauty score
+      do the choosing.
+
+      The AI set had the highest average and the narrowest spread. Its weakest image still drew 0.67%, while one picture in the
+      beauty-score set drew no link clicks at all. Counting clicks on the post as well as the link, the order held: 1.63% for the
+      AI set, 1.50% for the beauty-score set and 1.42% for the designer, in line with typical rates in that market. The authors
+      read it cautiously, given one designer, ten images per set and one week.
+    chart: ctr
+
+  - h: "Back in spring, with more at stake"
+    body: |
+      The busy season is where a creative tool earns its keep. In April 2024, during the firm's peak booking weeks for spring holidays,
+      the authors ran the ten images picked from the winter training, with no retraining, against the best set the company's own
+      team had prepared for that campaign. Targeting and budgets matched.
+
+      Click rates were far higher for everyone in spring. The AI set averaged 3.38% against the company's 3.24%, with a slightly
+      narrower spread, but that edge could easily be chance: it held in about two of every three resamples. The company had the
+      single best ad by a distance, at 5.39%. The single worst ad was one of the AI's, at 1.86%. In between, the AI images crowded the
+      upper part of the table.
+
+      In the authors' view this is a conservative floor, since a firm would normally retrain on fresh clicks before its busiest weeks.
+      Still, the scenery learned in winter kept working months later.
+    chart: april
+
+  - h: "What clicks and what fits the brand rarely overlap"
+    body: |
+      Across the images the system rated during training, only 5.3% sat in the top quarter on both counts.
+      That is the case for running two models at once. Chase clicks alone and most of what you find is unusable. Judge on brand fit
+      alone and you miss what people respond to.
+
+      Could an off-the-shelf vision model stand in for the human rater? The authors tried. On a factual task, telling apart no
+      water, a river, a lake and the sea, a small open model agreed well with the right answers (a weighted kappa of 0.73, where 1
+      is perfect). On the brand manager's sense of what was acceptable it scored below 0.05, close to guessing, despite dozens of
+      prompt versions. A larger commercial model did no better.
+
+      Money goes mainly on buying views. Media cost about $7 per thousand impressions in this campaign, and the authors set a full
+      testing cycle against what an agency might charge for similar work, noting that agency fees vary widely.
+    chart: cost
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Fix everything except the picture", "Build one ad template with your logo, headline and button locked in place, and leave a single slot for the background. Every image you try goes into that same slot, so any change in clicks comes from the picture."]
+  - ["Write your brand's red lines", "List what an acceptable image must show and must never show, such as places you really serve, no warped objects and nothing that looks fake. Then ask the person who owns the brand to rate a first set of AI images as reject, borderline, good or great."]
+  - ["Make small rounds of images", "Generate about a dozen backgrounds per round. Drop any that cross a red line, and repair small flaws by hand instead of starting over, keeping the rejected and repaired versions side by side as examples."]
+  - ["Hold the delivery settings still", "Give every image in a round the same audience, budget, bid and placements. Add last round's best image to each new round so a good picture can be told apart from a good week."]
+  - ["Run short rounds and feed back", "Run each round for a week, send the click results back into what you generate next, and repeat for eight to ten rounds. Expect the early rounds to look messy."]
+  - ["Launch a varied set, not one winner", "Pick around ten images that cover different scenes. Compare their average and their weakest ad with your current creative, and refresh the set before your busiest season."]
+
+expect:
+  - "**Steadier results, not a jackpot.** The AI set's strength was a smaller gap between its best and worst ads. A person's pick can still produce the single biggest hit."
+  - "**Messy learning rounds.** Rounds chosen to teach the system will look erratic, because they are not trying to win yet."
+  - "**A brand person in the loop.** Someone who knows the brand has to rate images and fix small flaws. In this study that was quick work, but it could not be handed to an AI vision model."
+  - "**Technical work up front.** The system was custom-built. The authors suggest ad platforms or specialist firms could offer it as a service."
+
+limits:
+  - "**One campaign.** One company, one audience, one platform and one kind of picture: nature scenery behind a fixed template."
+  - "**A small final test.** Ten images per set, one week and a single designer as the human benchmark. The lead over the beauty-score set was not conclusive."
+  - "**Backgrounds only.** Products, people and exact wording inside the image are beyond the current generator."
+  - "**Noisy platform.** The ad platform's own delivery choices are part of every result, which is why settings have to stay identical across a round."
+
+faq:
+  - q: "Can AI-generated images outperform a human designer's ads?"
+    a: "In this test, on average, yes. The AI's ten backgrounds drew about 50% more link clicks per view than a professional designer's ten (Daviet & Nishimura, 2026). With one designer, one campaign and one week of testing, it shows AI images can compete, not that they always win."
+  - q: "Is a general beauty score a good guide for choosing ad images?"
+    a: "Not on its own. Images generated to please a standard aesthetics model beat the designer's set on average but trailed the set trained on real clicks, and one of them drew a blank on link clicks. What drove the gain was learning from the campaign's own results."
+  - q: "How do you keep AI ad images on brand?"
+    a: "Train a separate model on a brand owner's ratings and only test the images it passes. In the authors' simulation, dropping that filter sent most of the test budget to pictures the brand would have refused."
+  - q: "Can a vision AI judge brand fit instead of a person?"
+    a: "Not yet, on this evidence. A vision-language model could tell a river from the sea, but after dozens of prompts it still could not predict which images the brand manager would accept, and a bigger model did no better."
+  - q: "What does it cost to test AI ad images this way?"
+    a: "Mostly media. A round of 12 images at a few thousand impressions each cost about $340, and each model update took around 15 minutes on a laptop graphics card. Building the system needs specialist skills."
+
+also:
+  - doi: "10.1080/00913367.2026.2731565"
+    title: "Generative AI Disclosure in Advertising: From Intent- to Production-Based Disclosure"
+    authors: "Dineva & Acar"
+    journal: "Journal of Advertising"
+    year: 2026
+    text: >-
+      A conceptual paper arguing that an "AI-generated" label tells people how an ad was made, not why it was made, which is what
+      older disclosure research assumed. It separates labels a brand adds itself, labels the rules require and labels built into the
+      platforms themselves, and sets out two routes to judgement: who people think made the ad, and what they infer from how it
+      was produced. How closely they think it through depends on their motivation and ability. The label is now part of the message.
+  - doi: "10.1080/02650487.2026.2737583"
+    title: "Disclosing AI-generated advertising: effects on attitudes, purchase intent, and social media engagement"
+    authors: "Wilson, Roux, & Bright"
+    journal: "International Journal of Advertising"
+    year: 2026
+    text: >-
+      This study looks at synthetic outdoor ads: AI-altered versions of billboards and street displays, made for brands to post on
+      social media. The more creative
+      the fake, the more persuasive it was, but the more likely people were to notice it was not real. Once people noticed, they warmed
+      less to both the ad and its brand, though their purchase intent and social media engagement did not change. A clever illusion invites a second look.
+
+charts:
+  ctr:
+    title: "Average link click-through rate in the final test, ten images per set (%)"
+    scale: [0, 1.2]
+    step: 0.2
+    unit: "%"
+    decimals: 2
+    bars:
+      - ["AI set (clicks and brand fit)", 0.98, true]
+      - ["Beauty-score set", 0.78, false]
+      - ["Designer's set", 0.65, false]
+    source: "Field experiment, final validation week; all images approved by the company, same budget and targeting. Standard deviations 0.26, 0.41 and 0.31."
+  april:
+    title: "Spring retest in peak booking season, no retraining: link click-through rate (%)"
+    scale: [0, 6]
+    step: 1
+    unit: "%"
+    decimals: 2
+    bars:
+      - ["AI set, average", 3.38, true]
+      - ["Company set, average", 3.24, false]
+      - ["AI set, best ad", 4.32, false]
+      - ["Company set, best ad", 5.39, false]
+      - ["AI set, weakest ad", 1.86, false]
+      - ["Company set, weakest ad", 2.51, false]
+    source: "April 2024, ten images per set, same targeting and budget. The AI set's higher average held in 67.7% of 10,000 resamples."
+  cost:
+    title: "Estimated cost of one nine-round testing cycle (US$ thousands)"
+    scale: [0, 10]
+    step: 2
+    unit: ""
+    decimals: 1
+    bars:
+      - ["AI system: media for nine rounds", 3.0, true]
+      - ["Agency: creative production", 9.0, false]
+      - ["Agency: management fees", 4.0, false]
+    source: "The authors' estimates. The agency total is about $13,000; management fees assume 15% of managed media spend."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
