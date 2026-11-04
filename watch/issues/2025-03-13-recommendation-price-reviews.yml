@@ -91,7 +91,7 @@ sections:
       - ["Shoppers", "47,996 customers, about 12,000 per design, making 71,807 visits"]
       - ["Designs", "Four tile layouts: both cues, the price alone, ratings plus review count alone, or the name and picture alone"]
       - ["Measured", "Spending per visit, visits ending without an order, clicks on tiles and on other products, keyword searches, time on site"]
-      - ["Checks", "Before launch, a dry run gave four groups, 48,000 customers in all, the identical design and found no real differences once a few extreme prices were capped"]
+      - ["Checks", "Before launch, the team showed four groups, 48,000 customers in all, the identical design and found no real differences once a few extreme prices were capped"]
 
   - h: "One cue beat two, and none came last"
     body: |

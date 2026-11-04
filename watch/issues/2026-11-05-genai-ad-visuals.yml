@@ -87,7 +87,7 @@ sections:
       - ["Training", "Late 2023, the firm's quiet winter season: brand ratings first, then nine weeks of live testing"]
       - ["Final test", "Three sets of ten images run in the same week, with the same budget and targeting"]
 
-  - h: "A dry run where the answer was known"
+  - h: "Testing it first in a simulation"
     body: |
       Before spending real money, the authors built a simulated market in which they knew which images were best, while the system
       did not. Two separate islands of the image space counted as on brand. Clicks peaked in a few rare spots, and the two
@@ -134,7 +134,7 @@ sections:
 
   - h: "Back in spring, with more at stake"
     body: |
-      The busy season is where a creative tool earns its keep. In April 2024, during the firm's peak booking weeks for spring holidays,
+      The real test for any creative tool is the busy season. In April 2024, during the firm's peak booking weeks for spring holidays,
       the authors ran the ten images picked from the winter training, with no retraining, against the best set the company's own
       team had prepared for that campaign. Targeting and budgets matched.
 

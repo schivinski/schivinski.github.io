@@ -320,3 +320,12 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 - Local builds without PUBLISH still show every year, so the tabs can be checked before release. A local PUBLISH=1
   build deletes the hidden years' generated pages in watch/posts/; restore them with `git checkout -- watch/posts/`
   rather than committing the deletions.
+
+## Style log: Bruno's language corrections (Bruno, 5 November 2026)
+- Bruno is training the writing by flagging sentences that do not sound natural. Every correction becomes a rule in
+  **`watch/STYLE_LOG.md`** (copy in the Project doc `claude/m3-style-log.md`). Read it before writing any issue, on the
+  live series and the 2025 and 2024 tabs alike. It has the same force as this guide.
+- Before publishing, run `python3 scripts/style_check.py watch/issues/<file>.yml`. It fails on any banned phrase in the
+  log; fix every hit before building. Tone and structure rules in the log are checked by hand.
+- When Bruno flags something, fix it, add an entry to the log, put fixed expressions in its banned list and sync the
+  Project copy. Fixes to live issues are republished with no emails (see the log).
