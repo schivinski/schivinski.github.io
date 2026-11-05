@@ -23,3 +23,8 @@ jobs:
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
         run: python scripts/analytics_pull.py --days 28 --out "$RUNNER_TEMP/analytics_snapshot.json"
+      - name: Pull GoatCounter (counts only in logs)
+        if: always()
+        env:
+          GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
+        run: python scripts/goatcounter_pull.py --days 28 --out "$RUNNER_TEMP/goatcounter_snapshot.json"
