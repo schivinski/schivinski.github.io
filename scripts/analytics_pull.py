@@ -76,6 +76,20 @@ def gsc_report(s, start, end, dims):
     return out
 
 
+INSPECT_URLS = ["https://schivinski.com/", "https://schivinski.com/watch/", "https://schivinski.com/mentoring.html"]
+
+
+def inspect_url(s, url):
+    """URL Inspection: indexing state and which canonical Google chose."""
+    r = s.post("https://searchconsole.googleapis.com/v1/urlInspection/index:inspect",
+               json={"inspectionUrl": url, "siteUrl": GSC_SITE})
+    r.raise_for_status()
+    ix = r.json().get("inspectionResult", {}).get("indexStatusResult", {})
+    return {"url": url, "verdict": ix.get("verdict"), "coverage": ix.get("coverageState"),
+            "user_canonical": ix.get("userCanonical"), "google_canonical": ix.get("googleCanonical"),
+            "last_crawl": ix.get("lastCrawlTime"), "crawled_as": ix.get("crawledAs")}
+
+
 def site_enc():
     from urllib.parse import quote
     return quote(GSC_SITE, safe="")
@@ -111,6 +125,13 @@ def main():
         except Exception as e:
             ok = False
             print(f"gsc/{name}: FAIL {type(e).__name__} {getattr(getattr(e, 'response', None), 'status_code', '')}")
+
+    try:
+        snap["gsc"]["inspection"] = [inspect_url(s, u) for u in INSPECT_URLS]
+        print(f"gsc/inspection: {len(snap['gsc']['inspection'])} rows OK")
+    except Exception as e:
+        ok = False
+        print(f"gsc/inspection: FAIL {type(e).__name__} {getattr(getattr(e, 'response', None), 'status_code', '')}")
 
     with open(a.out, "w") as f:
         json.dump(snap, f)
