@@ -1,0 +1,25 @@
+name: Analytics pull
+
+# PRIVATE DATA ON A PUBLIC REPO: logs and artifacts are publicly readable.
+# This workflow prints only row counts and never uploads the snapshot.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "43 20 * * 0"   # Sunday 20:43 UTC = Monday morning in Australia
+
+permissions:
+  contents: read
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install google-auth requests
+      - name: Pull GA4 and Search Console (counts only in logs)
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python scripts/analytics_pull.py --days 28 --out "$RUNNER_TEMP/analytics_snapshot.json"
