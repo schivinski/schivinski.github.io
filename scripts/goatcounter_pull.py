@@ -61,8 +61,24 @@ def main():
             code = getattr(getattr(e, "response", None), "status_code", "")
             print(f"goatcounter/{name}: FAIL {type(e).__name__} {code}")
 
-    run("total", lambda: get(s, "/stats/total", **window))
-    run("hits", lambda: get(s, "/stats/hits", limit=100, **window).get("hits", []))
+    hourly = dict(start=start.isoformat() + "T00:00:00Z",
+                  end=dt.datetime.now(dt.timezone.utc).replace(minute=0, second=0, microsecond=0)
+                  .strftime("%Y-%m-%dT%H:%M:%SZ"))
+
+    def hits():
+        h = get(s, "/stats/hits", limit=100, **window)
+        # Overall totals ride along in the hits response; keep them for the report.
+        snap["totals_from_hits"] = {k: v for k, v in h.items() if isinstance(v, (int, float))}
+        return h.get("hits", [])
+
+    run("hits", hits)
+    # Extra, non-fatal: the dedicated totals endpoint (returned 404 on 5 Nov 2026).
+    try:
+        snap["total"] = get(s, "/stats/total", **hourly)
+        print("goatcounter/total: OK")
+    except Exception as e:
+        code = getattr(getattr(e, "response", None), "status_code", "")
+        print(f"goatcounter/total: skipped {type(e).__name__} {code}")
     for page in PAGES:
         run(page, lambda p=page: get(s, f"/stats/{p}", limit=100, **window).get("stats", []))
 
