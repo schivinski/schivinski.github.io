@@ -28,3 +28,8 @@ jobs:
         env:
           GOATCOUNTER_TOKEN: ${{ secrets.GOALCOUNTER_TOKEN }}
         run: python scripts/goatcounter_pull.py --days 28 --out "$RUNNER_TEMP/goatcounter_snapshot.json"
+      - name: Email snapshots to Bruno (private; status only in logs)
+        if: always()
+        env:
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python scripts/email_snapshot.py "$RUNNER_TEMP/analytics_snapshot.json" "$RUNNER_TEMP/goatcounter_snapshot.json"
