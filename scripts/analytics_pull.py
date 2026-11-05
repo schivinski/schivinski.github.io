@@ -56,7 +56,7 @@ def ga4_report(s, start, end, spec):
     r.raise_for_status()
     out = []
     for row in r.json().get("rows", []):
-        rec = {d: v["value"] for d, v in zip(spec["dimensions"], row["dimensionValues"])}
+        rec = {d: v["value"] for d, v in zip(spec["dimensions"], row.get("dimensionValues", []))}
         rec.update({m: float(v["value"]) for m, v in zip(spec["metrics"], row["metricValues"])})
         out.append(rec)
     return out
@@ -91,7 +91,7 @@ def main():
     start = end - dt.timedelta(days=a.days - 1)
     gsc_end = end - dt.timedelta(days=2)  # Search Console lags about 2 days
     s = session()
-    snap = {"generated": dt.datetime.utcnow().isoformat() + "Z",
+    snap = {"generated": dt.datetime.now(dt.timezone.utc).isoformat(),
             "window": {"start": start.isoformat(), "end": end.isoformat()},
             "ga4": {}, "gsc": {}}
     ok = True
