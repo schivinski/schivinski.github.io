@@ -26,5 +26,5 @@ jobs:
       - name: Pull GoatCounter (counts only in logs)
         if: always()
         env:
-          GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
+          GOATCOUNTER_TOKEN: ${{ secrets.GOALCOUNTER_TOKEN }}
         run: python scripts/goatcounter_pull.py --days 28 --out "$RUNNER_TEMP/goatcounter_snapshot.json"
