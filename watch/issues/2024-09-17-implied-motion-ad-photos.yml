@@ -1,0 +1,250 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 37                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-09-17"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: implied-motion-ad-photos
+status: live
+
+title: "Do action shots make an ad more persuasive than a still pose? What a Journal of Advertising study found"
+dek: >-
+  A runner mid-stride, a burger tossed into the air, a wave breaking over a lighthouse. Seven experiments with mock
+  Instagram ads show that a still photo hinting at movement pulls people in, whether a person, an animal or an object
+  is on the move, and that movement along a curve works best.
+short_title: "Why action shots beat still poses in ads"
+
+description: >-
+  Bünzli et al. find action shots made Instagram ads more engaging and persuasive in seven US experiments, and movement
+  along a curve drew people in most.
+
+keywords: [implied motion, action shots in advertising, dynamic imagery, ad creative testing, Instagram ads,
+  visual advertising, ad engagement, perceived ad effectiveness, food photography, product photography,
+  Journal of Advertising]
+topics: [Creative, Advertising, Social media]
+
+image:
+  file: 2024-implied-motion-ad-photos.jpg
+  og: 2024-implied-motion-ad-photos-og.jpg
+  alt: "A red lighthouse at the end of a concrete pier as a large wave bursts into white spray beside it, with rough green water and a pale grey sky"
+  caption: "Calm water or a breaking wave: it is the same lighthouse, but only one of them makes you look twice. Photo: James Peacock on Unsplash."
+
+short_answer: >-
+  Mostly, yes. In seven online tests, Americans saw one mock Instagram ad whose photo showed either a scene in motion
+  or the same scene at rest: joggers, wild animals, a game of football, cars, airliners, waves or food. The moving
+  version was always rated more interesting. In all but one test the ad also seemed more persuasive, but plans to buy
+  went up only for some products.
+
+takeaways:
+  - "It made no real difference what was moving. Pooled across 1,392 people, photos of moving people and animals scored 4.98 for interest out of 7 and photos of moving objects 4.66, a gap that did not stand up statistically."
+  - "An action shot can win the rating without winning the sale. Joggers rather than standing models lifted the sportswear ad's perceived effectiveness from 3.32 to 4.28 out of 7, yet the stated chance of buying barely moved, from 17% to 18%."
+  - "The moving scene need not show the product. A lighthouse battered by waves, against the same lighthouse in calm water, made a chewing gum ad look far more convincing: 3.74 against 2.61 out of 7."
+  - "Some movement barely registers. Airliners taking off rather than parked at the gate nudged the travel ad's perceived effectiveness only from 2.84 to 3.22, too small a rise to rule out chance."
+
+paper:
+  doi: "10.1080/00913367.2024.2393719"
+  title: "Depicting Humans, Animals, and Objects in Motion: The Effect of Implied Motion on Engagement and Persuasion in Advertising"
+  authors: ["Bünzli, F.", "Weber, W.", "Abdullahu, F.", "Grabner, H."]
+  authors_full: ["Fabienne Bünzli", "Wibke Weber", "Fitim Abdullahu", "Helmut Grabner"]
+  year: 2025
+  journal: "Journal of Advertising"
+  volume: "54"
+  issue: "3"
+  pages: "301-321"
+  online: "2024-09-17"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Fabienne Bünzli"
+      affiliation: "University of St. Gallen, St. Gallen, Switzerland; Zurich University of Applied Sciences, Winterthur, Switzerland"
+      orcid: ""
+    - name: "Wibke Weber"
+      affiliation: "Zurich University of Applied Sciences, Winterthur, Switzerland"
+      orcid: "0000-0001-7612-2336"
+    - name: "Fitim Abdullahu"
+      affiliation: "Zurich University of Applied Sciences, Winterthur, Switzerland"
+      orcid: "0009-0008-9044-1868"
+    - name: "Helmut Grabner"
+      affiliation: "Zurich University of Applied Sciences, Winterthur, Switzerland"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 7
+    basis: "Seven online between-subjects experiments with US Prolific adults (199, 195, 198, 208, 194, 201, 197; N = 1,392), plus a pooled analysis of the same data, which is not counted as a separate study"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Fabienne Bünzli of the University of St. Gallen and the Zurich University of Applied Sciences, with Wibke Weber,
+      Fitim Abdullahu and Helmut Grabner of the Zurich University of Applied Sciences in Winterthur, took on a choice
+      every ad photographer faces. Do you show the runner mid-stride or standing at the start line, the burger flying
+      apart or sitting on its plate? Past research showed that pictures of people in motion can persuade. Their question
+      was whether animals and objects have the same pull, and why.
+
+      They ran seven online experiments with American adults. Each person saw one Instagram ad for a made-up brand, with
+      a logo, a short caption, a fixed count of 183 likes and a photo. Only the photo changed. Half the people saw a scene
+      with something in motion, the other half a matching scene with the same subject at rest. Every study used three
+      such pairs, so no result rests on a single picture. People then rated how interesting the image was, how
+      persuasive and convincing the ad seemed, and how likely they thought they were to act on it.
+
+      Studies 1 and 2 moved living things: people jogging and wild animals running. Study 3 had people playing with a
+      football. Studies 4 to 7 moved objects: cars on the road, airliners taking off, waves crashing around lighthouses,
+      and food thrown into the air or pouring. At the end the team pooled everyone together to see which kinds of
+      movement held attention best.
+    facts:
+      - ["Participants", "1,392 US adults on Prolific, all native English speakers, 194 to 208 per study; about half women, average ages 33 to 41"]
+      - ["Design", "Seven separate tests, each comparing a photo in motion with a still twin, using three photo pairs per test"]
+      - ["Ads", "Instagram posts for invented brands: sportswear, a wildlife charity, a car magazine, a travel agency, a chewing gum and a restaurant chain"]
+      - ["Photo matching", "Same background, angle and distance within each pair; people in the photos looked away from the camera with similar expressions; no people in the object photos"]
+      - ["Measured", "Interest in the image and the ad's perceived effectiveness on seven-point scales, plus the stated chance, from 0 to 100, of buying, donating, clicking through, booking or visiting"]
+      - ["Checks", "In every test the moving photos were rated as showing more movement; controlling for age and gender left the results unchanged"]
+
+  - h: "Did movement help in every category?"
+    body: |
+      For interest, yes. In all seven tests the moving version of the photo was rated as more interesting, more engaging
+      and more exciting than its still twin, whether it sold sportswear, asked for donations or advertised a restaurant.
+
+      The gains were far from equal, though. Busy, swirling scenes did best: breaking waves and a ball in play moved
+      interest the most, with food in mid-air next. Vehicles did least: a car on the road and a plane leaving the runway
+      still beat the parked versions, but only just.
+    chart: gain
+
+  - h: "From a second look to a plan to act"
+    body: |
+      Why should a frozen movement help? The authors' answer is engagement. A picture of something mid-action invites
+      the viewer to finish the movement in their head, and that small effort draws them in. In every
+      study the analysis traced the same chain: the moving photo raised interest, interest raised the ad's perceived
+      effectiveness, and that in turn lifted the stated chance of acting. With interest held constant, the photo
+      itself added nothing further.
+
+      The last link was the weakest. Stated plans rose clearly for the sportswear ad with the football, the gum ad and
+      the restaurant. In the other four tests they barely shifted on average, even though the route through
+      interest still held. An action shot makes the ad more appealing; whether that turns into buying depends on far
+      more than the picture.
+    chart: intent
+
+  - h: "Curves beat straight lines"
+    body: |
+      The pooled data let the team ask what kind of movement works best. They coded every photo on three features: how
+      many things were moving, whether the movement followed a straight line or a curve, and whether it ran towards or
+      away from the camera. The comparison also allowed for other differences between the photos, such as whether the
+      product itself appeared, the background, how far away the camera stood and whether the caption carried a link.
+
+      Only the path counted. Straight-line movement, like a car crossing the frame, beat a still photo. Curving
+      movement, like a body jumping in an arc, a pour of sauce or a wave folding over, beat both. More moving elements
+      and movement in depth added nothing measurable.
+
+      The authors think that tracing a curve in the mind's eye brings more surprise than picturing extra objects or a
+      third dimension. It is a sensible idea, but nobody measured it here.
+    chart: direction
+
+  - h: "When a still photo may be the better choice"
+    body: |
+      The studies did not look for cases where stillness wins, and the authors are open about it. They point to a few
+      places to be careful. A driver glancing at a roadside poster, or anyone under pressure, may have little attention
+      to spare, and decoding the movement could crowd out the brand name and the message. For brands that sell rest,
+      such as a spa, a wellness retreat or a quiet fine-dining room, an action scene may clash with what people expect.
+
+      Fit matters as well. A car maker showing someone diving into a pool, or a wildlife charity showing a plane, could
+      confuse people rather than draw them in, however lively the shot. The safest action shot is one that belongs to
+      the product.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort the photos you run now", "Pull the last 20 images from your paid social ads. Mark each one as still or moving: is someone or something caught in the middle of an action? Write down how many are still poses."]
+  - ["Pick actions that belong to the product", "For each product, list two or three movements that fit it, such as a car speeding along, a drink being poured or a runner mid-stride. Cross out any action that would look odd for the brand."]
+  - ["Shoot every scene twice", "Photograph the same subject in the same place, once at rest and once mid-action. Keep the background, angle, distance and light the same, so the movement is the only change."]
+  - ["Look for a curve", "Where you can, choose movement that bends: a ball in an arc, a swirling pour, a jump, a wave curling over. A straight run across the frame beats standing still, but a curve draws more interest."]
+  - ["Pit still against moving", "Split one audience in two for two weeks, with the same caption, budget and placement. Compare saves, clicks and comments for the still and the moving photo, not only views."]
+  - ["Keep stillness where calm sells", "Leave the still version on roadside posters and on ads for spas, retreats and quiet restaurants. Before switching every ad, check that bookings or sales moved, not just clicks."]
+
+expect:
+  - "**Cheap to try.** Swapping a still for an action shot changes the creative, not the media budget. A second take at the shoot or a search of a photo library is often enough."
+  - "**A real but partial effect.** In each test the photo explained between 2% and 20% of the variation in interest ratings. It matters, but most of what people feel about an ad comes from elsewhere."
+  - "**Some viewers will respond more.** The authors expect imaginative, novelty-seeking people to engage more with action shots, and people who like clear, settled messages to engage less. This was not tested."
+  - "**No famous name needed.** Every brand in the tests was invented, so the lift came from the picture alone, with no reputation to lean on."
+
+limits:
+  - "**Stated, not observed.** Plans to buy, donate, click or visit were asked about on a 0 to 100 scale. No real sales, clicks or donations were tracked."
+  - "**The photos differed in more than movement.** Even within matched pairs, colour, light, mood and background varied, and the pooled results partly reflect which photos the team happened to pick."
+  - "**One post, seen once.** Each ad was a single static Instagram post, shown one time inside an online survey. Busy feeds, repeated exposure, video and carousel formats were not covered."
+  - "**One country, one panel.** Every participant was an American adult from the same online panel."
+  - "**Persuasion judged by the viewer.** Perceived effectiveness is people's own verdict on how convincing an ad seems, not proof that their minds changed."
+
+faq:
+  - q: "Do action shots make ads more persuasive?"
+    a: "In these tests they did. Mock Instagram ads were rated more interesting and more effective when the photo showed its subject in motion rather than standing still, across seven tests covering products, services and a charity (Bünzli et al., 2025)."
+  - q: "What is implied motion in a photo?"
+    a: "A still image that suggests movement: a body frozen mid-jump, an object in mid-air, a liquid caught as it pours. Viewers fill in the rest of the action themselves, which is why the picture feels dynamic even though nothing moves."
+  - q: "Is a moving person better than a moving product?"
+    a: "Not for holding attention. When all the data were pooled, scenes with living things in motion were no more engaging than scenes with moving objects, and people handling an object fell in between."
+  - q: "Will an action shot raise sales?"
+    a: "That was not shown. No real purchases or clicks were tracked, and stated plans went up for some products but not others. Think of the photo as something that earns attention and goodwill, not a sure route to revenue."
+  - q: "Why do moving images catch the eye?"
+    a: "People are wired to notice movement, which helped our ancestors spot threats and keep track of one another. Brain research shows that the area handling real motion also responds to still pictures that imply it, so a frozen leap gets some of the same priority as a real one."
+
+also:
+  - doi: "10.1002/mar.22113"
+    title: "From impression to expression: How warmth and competence in relaxing and challenging activities shape pleasure and eWOM"
+    authors: "Su et al."
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Five studies, combining existing data, scenario experiments and a look at real posting behaviour, asked what makes
+      leisure customers praise a service online. On a relaxing outing, staff who came across as warm did most for
+      enjoyment; on a demanding activity, staff who seemed skilled counted for more. That extra enjoyment is what fed the
+      positive posts. A staff brief might start with one question: did this customer come to unwind or to be stretched?
+  - doi: "10.1177/10949968241265855"
+    title: "Unlocking Marketing Creativity Using Artificial Intelligence"
+    authors: "Pagani & Wind"
+    journal: "Journal of Interactive Marketing"
+    year: 2025
+    text: >-
+      For the artists watched in the first of two studies, AI became a new tool, a way to explore more options and a way
+      to break their own creative process into parts. The second study grouped more than a thousand AI systems and about
+      241,000 models by how much creativity they show. The resulting framework, checked in three workshops, gives AI three
+      creative jobs: speeding up agile work, extending human ideas and prompting unusual ones. Handy for teams deciding
+      where AI belongs in a creative brief.
+
+charts:
+  gain:
+    title: "How much more interesting the moving photo was, by scene (extra points on a 1 to 7 scale)"
+    scale: [0, 2]
+    step: 0.5
+    unit: ""
+    decimals: 2
+    bars:
+      - ["People jogging", 1.00, false]
+      - ["Wild animals running", 0.87, false]
+      - ["People playing football", 1.54, false]
+      - ["Cars on the road", 0.58, false]
+      - ["Airliners taking off", 0.46, false]
+      - ["Waves around a lighthouse", 1.68, true]
+      - ["Food in mid-air or pouring", 1.15, false]
+    source: "Studies 1 to 7, US online experiments, 194 to 208 adults each; average for the moving photo minus average for the still one. Every gain was statistically significant."
+  intent:
+    title: "Stated chance of acting after seeing the ad, still versus moving photo"
+    scale: [0, 60]
+    step: 10
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Sportswear, posing with a ball", 14.15, false]
+      - ["Sportswear, playing football", 25.89, true]
+      - ["Chewing gum, calm water", 16.49, false]
+      - ["Chewing gum, crashing waves", 28.86, true]
+      - ["Restaurant, food at rest", 38.58, false]
+      - ["Restaurant, food in motion", 50.39, true]
+    source: "Studies 3, 6 and 7, US online experiments with 198, 201 and 197 adults; likelihood of buying or visiting rated from 0 to 100."
+  direction:
+    title: "Interest in the ad photo by the path of the movement (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["No movement", 3.72, false]
+      - ["Straight-line movement", 4.50, false]
+      - ["Curving movement", 5.06, true]
+    source: "Pooled data from Studies 1 to 7, 1,392 US adults. All three groups differed significantly in an analysis that also allowed for other photo features."
+
+related_pages: []

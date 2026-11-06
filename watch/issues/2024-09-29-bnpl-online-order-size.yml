@@ -1,0 +1,224 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 39                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-09-29"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: bnpl-online-order-size
+status: live
+
+title: "Does buy now, pay later make online shoppers spend more? What a Journal of Retailing study found"
+dek: >-
+  Pay-later plans handled about 5% of the world's online spending in 2023. Records from a Nordic outdoor-gear web shop
+  show how a customer's basket changes once they start splitting the bill, and whose basket grows most.
+short_title: "What a pay-later option does to the basket"
+
+description: >-
+  Kumar et al. find shoppers who started paying later at a Nordic web shop spent 6.42% more per order, driven by cheaper
+  items and younger, lower-income buyers.
+
+keywords: [buy now pay later, BNPL, online checkout, payment options, average order value, instalment payments,
+  FinTech, consumer credit, ecommerce spending, synthetic difference-in-differences, Journal of Retailing]
+topics: [Retail, Personalization]
+
+image:
+  file: 2024-bnpl-online-order-size.jpg
+  og: 2024-bnpl-online-order-size-og.jpg
+  alt: "Close-up of a grey computer keyboard with one red key marked Buy Now! beside a small shopping-trolley icon"
+  caption: "When the bill can wait, the basket grows a little today. Photo: Money Knack on Unsplash."
+
+short_answer: >-
+  Yes, by a modest amount. Order records from a Nordic web shop for outdoor clothing and kit show that customers who started
+  paying in interest-free instalments spent 6.42% more on each order than similar customers who kept paying by card or on delivery.
+  Most of the rise came from cheaper items in the basket, and younger and lower-income shoppers drove more of it than older,
+  better-off ones.
+
+takeaways:
+  - "Once a customer switched to paying later, they spent about €3.79 more a week at the shop than their matched non-adopters, over the four weeks after the switch."
+  - "Baskets weighted towards low-priced products showed the biggest boost: the authors put the extra lift at 19.30%, the largest of any factor they tested."
+  - "Income and age worked the other way. In the authors' estimates, they cut the effect by 10.20% and 7.18% respectively."
+  - "The customers who went on to adopt were already deal-hunters: in the baseline year they had collected 34.85% more in discounts per order than those who never switched."
+
+paper:
+  doi: "10.1016/j.jretai.2024.09.004"
+  title: "The effects of buy now, pay later (BNPL) on customers’ online purchase behavior"
+  authors: ["Kumar, A.", "Salo, J.", "Bezawada, R."]
+  authors_full: ["Ashish Kumar", "Jari Salo", "Ram Bezawada"]
+  year: 2024
+  journal: "Journal of Retailing"
+  volume: "100"
+  issue: "4"
+  pages: "602-617"
+  online: "2024-09-29"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Ashish Kumar"
+      affiliation: "School of Economics, Finance and Marketing College of Business and Law, RMIT University, Melbourne, Australia"
+      orcid: ""
+    - name: "Jari Salo"
+      affiliation: "Department of Economics and Management University of Helsinki, Helsinki, Finland"
+      orcid: "0000-0002-4661-2307"
+    - name: "Ram Bezawada"
+      affiliation: "Allen G. Aaronson Department of Marketing & International Business Zicklin School of Business, Baruch College - CUNY, New York, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival dataset: 63,672 orders from 42,882 customers of a Nordic online outdoor retailer, June 2012 to November 2014, analysed with synthetic difference-in-differences; the two alternative models and the order-volume outcome are robustness checks on the same data, not separate studies"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Ashish Kumar of RMIT University in Melbourne, Jari Salo of the University of Helsinki and Ram Bezawada of Baruch College,
+      part of the City University of New York, wanted to put a figure on something retailers mostly take on trust. Pay-later
+      services split a purchase into a few interest-free instalments, and providers sell them to shops on the promise of
+      bigger baskets. Hard evidence on what a customer actually does after they start using one was thin.
+
+      They obtained 30 months of order records from a web shop in the Nordic region that sells clothing, footwear
+      and equipment for hunting, fishing, camping and sport. At checkout, buyers could pay by card, pay on delivery, or choose
+      a pay-later plan run by a leading Nordic provider. A confidentiality agreement keeps both firms anonymous.
+
+      The first year served as a baseline. The team kept only customers who had never paid later during that year, then
+      followed them for the next 17 months. Anyone who switched in that time joined the adopter group; anyone who never did
+      was a possible comparison. For each switch they looked at the four weeks before and after, and built a tailor-made
+      comparison from non-adopters whose spending had moved in step with the adopter's beforehand. Economists call this
+      approach synthetic difference-in-differences.
+    facts:
+      - ["Data", "63,672 completed online orders from 42,882 customers, 14 June 2012 to 27 November 2014"]
+      - ["Retailer", "A Nordic outdoor retailer that started with physical shops and moved mainly online; pay-later offered from late 2011"]
+      - ["Groups", "7,104 customers who began paying later during the 17-month window, and 32,355 who never did"]
+      - ["Customers", "Average age 43 and average yearly income €37,314; about a quarter of orders fell in the August to December hunting season"]
+      - ["Measured", "Spending per order in euros, with items per basket as a cross-check"]
+      - ["Cleaning", "Cancelled, unpaid and abandoned orders removed, as were customers tied to more than one account"]
+
+  - h: "How much more do pay-later customers really spend?"
+    body: |
+      A first glance makes the option look like a gold mine. Across the whole period, 14% of orders went through it, and those
+      orders were about 63% larger than ones paid another way.
+
+      Much of that gap says more about who picks the option than about what it does. The customers who later took it up were
+      already different: their orders were bigger on average, and they had been heavier users of discounts from the start.
+      Comparing each adopter with a tailored match over the same weeks strips most of that out. The lift that survives is far
+      smaller, though still clear.
+
+      The authors checked it in several ways. Two simpler, widely used methods gave somewhat larger estimates, which makes the
+      main figure the cautious one. Over the month leading up to a switch, adopters and their matches spent alike, which is
+      the condition the method relies on.
+    chart: raw
+
+  - h: "Whose baskets grew most?"
+    body: |
+      Next the authors asked where the extra money came from. Price gave the clearest answer. They split the shop's range at
+      the median price and tracked how much of each basket sat in the cheaper half. The larger that share, the bigger the jump
+      after a switch. That fits how these loans are built: providers usually lend between $50 and $1,000 on a purchase.
+
+      Two shopper traits mattered as well. People who had bought across many of the shop's 12 product categories in the
+      baseline year raised their spending more, and so did habitual bargain hunters. The authors read the first as confidence,
+      since shoppers who know a category feel surer of a fair price. They link the second to research on compulsive buying among
+      sale-prone shoppers, who now had easy credit within reach. Household size made no difference.
+    chart: lift
+
+  - h: "Why paying later loosens the purse strings"
+    body: |
+      The authors explain the lift with ideas from behavioural economics. People give more weight to what they get today than to what they pay
+      tomorrow, and a pay-later plan leans on that. On a $100 order, the buyer pays $25 now and the rest in three monthly parts,
+      so the moment of purchase feels like a $25 decision.
+
+      Budgets play a part too. Many shoppers keep a rough monthly allowance for buying online, and instalments let a bigger order
+      fit inside it on paper. Checkout messages that stress "no fees" help, while the fact that the plan is a loan gets less space.
+
+      The age and income findings fit this picture. Economists have a phrase for it: money sticks where it lands. For younger
+      shoppers and those on smaller incomes, a pay-later plan works as a little extra spending power, and it gets spent.
+
+  - h: "A growth tool with strings attached"
+    body: |
+      For retailers, the paper's practical message is about targeting. Pay-later suits shops with many lower-priced lines, and
+      it can lift occasional buyers as well as regulars. Drawing on earlier work, the authors argue that cheap items, even on
+      thin margins, help win customers, sell them more and keep them.
+
+      The same results carry a warning. The lift came mostly from shoppers with the least room in their budgets, and the study
+      had no data on whether they repaid on time, paid late fees or got into trouble. The authors name that as a main gap.
+      They also note that some industry reports describe pay-later users as relatively well off, and call for checks in other
+      product categories before the income pattern is taken as settled.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Check where your sales come from", "List your 50 best-selling products with their prices. Split the list at the middle price. If most of your orders sit in the cheaper half, a pay-later option has more room to grow baskets."]
+  - ["Get the fees before you sign", "Ask three pay-later providers for their fee per order and their smallest and largest loan. Work out how much bigger an average basket must be just to cover the fee."]
+  - ["Write the checkout line in plain words", "Next to card and the other methods, show the total price, the number of payments, the dates and what happens if one is missed. Say plainly that it is a loan."]
+  - ["Mention it to bargain hunters and browsers", "Add one line about paying later to emails for customers who often buy on sale or shop across several product ranges. Do not pick people out by age or income."]
+  - ["Measure the change for each customer", "For everyone who pays later for the first time, compare what they spent in the four weeks either side of that order with similar customers who never used it. Do not compare pay-later orders with all other orders."]
+  - ["Watch the downside every month", "Each month, count returns, complaints and missed payments your provider reports on pay-later orders. If any of them rises two months running, review who sees the offer and how it is worded."]
+
+expect:
+  - "**Most customers will stay with what they know.** Around 18% of the customers followed over the 17 months took up the option, even though it sat at checkout throughout."
+  - "**More items, not only pricier ones.** The number of items per order crept up as well, by 0.58%, so part of the extra spend comes from adding things to the basket."
+  - "**The shop pays the fee.** Card surcharges are often passed on to buyers, but pay-later providers charge the merchant, so the lift has to cover that cost."
+  - "**Small loans suit small items.** The authors cite an average US pay-later loan of $135, which is why the option tends to move everyday products more than big purchases."
+
+limits:
+  - "**One retailer, one region, years ago.** The orders were placed at a single Nordic outdoor shop between 2012 and 2014, when pay-later was young. Today's providers, rules and shoppers may behave differently."
+  - "**People chose to switch.** The estimate covers customers who opted in. It does not say what would happen if a shop pushed the option on everyone."
+  - "**Purchases, not repayments.** There was no information on instalment plans, missed payments, late fees or how customers' finances fared afterwards."
+  - "**Checkout only, and only four weeks.** Shoppers met the option at the final step, and spending was tracked for four weeks after each switch. Pay-later messages earlier in the journey, and longer-term effects, were not tested."
+  - "**No view of money skills.** Financial literacy, which shapes how people use credit, was not measured."
+
+faq:
+  - q: "Does offering buy now, pay later increase how much customers spend online?"
+    a: "For the customers who take it up, yes, though not by much. At a Nordic online outdoor retailer, shoppers who switched to paying later raised their spending per order by a little over six per cent compared with matched customers who stuck with their usual way of paying (Kumar et al., 2024)."
+  - q: "Is buy now, pay later a good way to build customer loyalty?"
+    a: "Not on this evidence. Among the factors that made any difference, loyalty, counted as the number of orders a customer had placed, made the least. Less frequent buyers grew their orders very slightly more after switching, by about one per cent, so the authors see the option more as a way to win and engage occasional customers."
+  - q: "Can buy now, pay later harm shoppers?"
+    a: "This study cannot say, because it saw purchases but not repayments. The authors point to America's consumer finance watchdog, the CFPB, which sorts the risks into direct harm to customers, harvesting of their data and people taking on more than they can handle."
+  - q: "What is a synthetic difference-in-differences design?"
+    a: "A way to estimate cause and effect from records when no experiment is possible. It compares how a group's behaviour changes after an event with the change in a comparison group, weighting that group so its history closely tracks the first group's before the event. Here the event was a customer's first pay-later order."
+
+also:
+  - doi: "10.1093/jcr/ucae060"
+    title: "Diversity Representations in Advertising: Enhancing Variety Perceptions and Brand Outcomes"
+    authors: "Khan et al."
+    journal: "Journal of Consumer Research"
+    year: 2025
+    text: >-
+      Casting models who differ visibly in race, gender or age makes people assume a brand sells a wider range, even when the ad
+      shows a single product. Viewers reason that customers who look different must want different things, so the brand must
+      stock more to serve them. That sense of choice improved brand impressions, made the brand seem more creative and raised
+      willingness to pay. A smaller brand may borrow some of the appeal of a big range simply through its casting.
+  - doi: "10.1002/mar.22129"
+    title: "Into the virtual worlds: conceptualizing the consumer-avatar journey in virtual environments"
+    authors: "Peng et al."
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Avatars are how people appear and act in virtual stores, social platforms and other online worlds, yet research on them
+      has been scattered. Pulling earlier studies together, this review maps the journey in three stages: building a digital self,
+      coming to feel at one with it, and dealing with others through it. Technology, social setting and personal traits shape
+      each stage, and the paper sets out 11 propositions for others to test. For brands moving into virtual spaces, the
+      customer's avatar is where the experience now begins.
+
+charts:
+  raw:
+    title: "Average spend per order before any adjustment (euros)"
+    scale: [0, 160]
+    step: 40
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Orders paid later", 142.49, true]
+      - ["Orders paid by card or on delivery", 87.40, false]
+      - ["Adopters, average order", 118.23, false]
+      - ["Never adopted, average order", 105.89, false]
+    source: "Raw averages, not causal estimates. First two bars: all 63,672 orders, 2012 to 2014. Last two: the 39,459 customers in the 17-month estimation sample."
+  lift:
+    title: "Extra rise in order size after switching to pay-later, by shopper and basket trait (%)"
+    scale: [0, 20]
+    step: 5
+    unit: "%"
+    decimals: 2
+    bars:
+      - ["Bought across many categories", 5.99, false]
+      - ["Keen on discounts", 6.80, false]
+      - ["More low-priced items in basket", 19.30, true]
+    source: "Synthetic difference-in-differences model, 7,104 adopters and 32,355 non-adopters, July 2013 to November 2014; percentages as converted by the authors. Age, income and loyalty, which shrank the effect, are not shown."
+
+related_pages: []

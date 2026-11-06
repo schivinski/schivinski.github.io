@@ -1,0 +1,240 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 38                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-09-18"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: chatgpt-top-contributors
+status: live
+
+title: "Does generative AI drive away a community's most active contributors? What a Marketing Letters study found"
+dek: >-
+  When ChatGPT went public, a coding help site filled up with machine-written answers. Data on its regular helpers show
+  that the helpers who had answered most were the ones who stepped back, and that banning AI posts won back only part
+  of the loss.
+short_title: "Why ChatGPT made a forum's keenest helpers post less"
+
+description: >-
+  Li and Kim find that after ChatGPT came out, Stack Overflow's busiest regular answerers posted 8.1% fewer answers a day,
+  while occasional helpers kept pace.
+
+keywords: [generative AI, ChatGPT, Stack Overflow, online community management, user-generated content, brand communities,
+  Q&A platforms, top contributors, AI-generated content moderation, AI content disclosure, Marketing Letters]
+topics: [AI, UGC, Service]
+
+image:
+  file: 2024-chatgpt-top-contributors.jpg
+  og: 2024-chatgpt-top-contributors-og.jpg
+  alt: "A man seen from directly above sits at a desk with his arms stretched out to a backlit keyboard and a mouse, three bright white monitors fanned around him in a dark room"
+  caption: "The people who answer most have the most to lose when a machine answers for free. Photo: Max Duzij on Unsplash."
+
+short_answer: >-
+  Yes, at least at first. On Stack Overflow, the coding help site, the regulars who had been answering most posted fewer
+  answers in the days after ChatGPT went public than in the same days a year earlier, and their answers drew fewer votes.
+  Occasional helpers carried on as before. Members with the most reputation to protect pulled back hardest, and a ban on
+  AI-written answers only partly reversed the slide.
+
+takeaways:
+  - "Of the answers deleted in the moderators' clean-up, almost 95% had been posted after ChatGPT went live: a measure of how fast machine-written replies poured in."
+  - "Heavy answerers cut their daily answers by 8.1% compared with the matching days of 2021. Light answerers showed no measurable change."
+  - "Fewer new questions explain part of the dip. Allowing for how many questions were posted each day cuts the regulars' overall shortfall from 11.2% to 4.7%."
+  - "Votes slipped as well: answers from regulars scored 0.122 points lower on average, net of downvotes, and 0.149 lower among heavy answerers."
+
+paper:
+  doi: "10.1007/s11002-024-09747-1"
+  title: "Impacts of generative AI on user contributions: evidence from a coding Q&A platform"
+  authors: ["Li, X.", "Kim, K."]
+  authors_full: ["Xinyu Li", "Keongtae Kim"]
+  year: 2025
+  journal: "Marketing Letters"
+  volume: "36"
+  issue: "3"
+  pages: "577-591"
+  online: "2024-09-18"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Xinyu Li"
+      affiliation: "CUHK Business School, The Chinese University of Hong Kong, Shatin, Hong Kong, Hong Kong SAR"
+      orcid: "0009-0009-7892-6755"
+    - name: "Keongtae Kim"
+      affiliation: "CUHK Business School, The Chinese University of Hong Kong, Shatin, Hong Kong, Hong Kong SAR"
+      orcid: "0000-0002-7548-3700"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival dataset: Stack Overflow answers and questions from November and December 2021 and 2022, difference-in-differences around ChatGPT's release (546-user answer panel, 19,307 questions), with extended-window and robustness analyses of the same data"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Xinyu Li and Keongtae Kim of CUHK Business School at the Chinese University of Hong Kong wanted to know what a free,
+      capable chatbot does to a community that runs on volunteers. Their test case was Stack Overflow, where programmers post
+      coding problems and other programmers solve them for nothing more than votes, badges and reputation points.
+
+      ChatGPT went public without warning on 30 November 2022, which handed the pair a clean before and after. They pulled
+      every answer and question posted on Stack Overflow in November and December of 2021 and 2022 from the site's public
+      data tool. The main test covers nine days centred on the launch, 26 November to 4 December, set against the same nine
+      days a year earlier, before ChatGPT existed. Comparing the change around 30 November in each year removes the
+      ordinary end-of-year rhythm of the site.
+
+      At the heart of the analysis is a panel of regulars: people who answered questions both before and after 30 November,
+      in both years. Following the same people day by day means a fall in their answers cannot be explained away by a change
+      in who happened to show up.
+    facts:
+      - ["Platform", "Stack Overflow, where programmers ask and solve each other's coding problems and good answers earn votes and reputation"]
+      - ["Data", "679,662 answers and 773,613 questions from November and December 2021 and 2022, posted by 188,853 answering and 309,346 asking accounts"]
+      - ["Comparison", "ChatGPT's release on 30 November 2022 treated as a natural experiment, with 2021 as the comparison year"]
+      - ["Regulars", "546 people who answered in all four periods, before and after the launch date in each year, tracked across 9,822 user-days"]
+      - ["Measured", "Answers that survived moderation, their vote score (upvotes minus downvotes), length, readability and variety of wording; for questions, wording and similarity to earlier ones"]
+      - ["Heavy or light", "Regulars grouped by how many answers they had posted in the 20 days before the window"]
+      - ["Baseline", "Answers left on the site averaged 0.89 points in votes; deleted ones averaged minus 0.55. A question drew 0.93 answers on average"]
+
+  - h: "What happened to answers when ChatGPT arrived"
+    body: |
+      Within a few days of the launch, the total number of answers on the site rose above the previous year's level. The
+      bump was brief, and it was not good news. At the same moment, the share of answers that survived moderation dropped
+      sharply, which points to a wave of chatbot replies that moderators later took down. On 5 December 2022 Stack Overflow
+      brought in a temporary ban on AI-generated answers, and deletions surged from that day on.
+
+      Set the deleted posts aside and the picture turns around. The regulars posted fewer answers that stayed up, and those
+      answers did slightly worse with voters. Part of that is simply that fewer new questions were coming in, probably, as
+      the authors suggest, because people were taking easier problems straight to the chatbot. Fewer questions mean fewer chances to help.
+
+      What did not change was the writing. Answers after the launch were just as long, just as readable and just as varied in
+      their wording as before. People were answering less often and collecting fewer votes, not dashing off shorter replies.
+
+  - h: "Did the questions get harder?"
+    body: |
+      One possibility is that the easy questions went to ChatGPT, leaving a tougher mix that fewer people could or would take
+      on. To check, the authors looked at 19,307 questions, sorted into 179 subject categories so that differences between,
+      say, database and web questions would not skew the comparison.
+
+      The scores questions received did not move. Their wording did. After the launch, questions used a wider spread of
+      vocabulary and sentence structure, a rise of 0.031 on a measure called information entropy, which rates how varied and
+      unpredictable the words in a text are.
+
+      The substance stayed the same, though. Each question was compared with those posted in the 30 days before the study window,
+      using two standard text-matching methods, and new questions were no more novel than before. Li and Kim suspect that AI
+      helped people dress familiar problems in more elaborate language. To a helper scanning the list, a question can then
+      look harder than it really is. That this put people off answering is an inference from the timing; nobody measured it
+      directly.
+
+  - h: "Who stepped back, and why"
+    body: |
+      Nearly all of the fall came from the heavy answerers. Regulars who had been busy in the weeks before the launch cut
+      back on daily answers, and the scores on what they did post fell too. Light answerers kept their usual pace, and their
+      scores held steady.
+
+      The pair then split the regulars in half in several other ways. Splitting by how many answers or posts someone had made
+      in the previous 20 or 30 days told the same story. Splitting by length of membership showed the smallest contrast:
+      longer-standing members cut back a little more than newer ones. Splitting by reputation points showed the sharpest one.
+      Since reputation is exactly what a good Stack Overflow answer earns, the people most put off look like those who answer
+      partly to be recognised for it.
+
+      Li and Kim's account of why comes down to standing out. When anyone can paste in a fluent, confident reply within seconds, a
+      carefully written answer is harder to tell apart, and the points and status built on such answers count for less.
+      Newer and occasional users, by contrast, may see the chatbot as a quick way to post an answer at all. The supplement
+      adds a detail: the share of heavy users posting six to ten answers in a five-day stretch fell after the launch,
+      and that decline lasted until 14 December.
+    chart: who
+
+  - h: "Did banning AI answers bring the helpers back?"
+    body: |
+      The authors followed their regulars for ten more days after the ban came in. Among the heavy answerers, the shortfall
+      against the year before was roughly a quarter smaller once the ban was in force, which suggests that removing AI posts
+      eased some of their concerns. The gap stayed open, though. Regulars as a whole still answered less than a year earlier,
+      and lighter answerers now dipped as well. The supplement suggests that may be because their own AI-assisted posts
+      were being deleted.
+
+      A chart of weekly answers in the supplement shows a steady decline through 2023, as more AI tools arrived. That longer
+      stretch is shown for context only and is not part of the main analysis.
+
+      The authors' advice to platforms leans away from deletion. They suggest asking people to declare when an answer was
+      drafted with AI, or flagging such answers automatically with detection software, so that human expertise stays easy
+      to see. They also suggest rewarding the work machines do less well, such as refining an existing answer or handling
+      follow-up questions, through small payments or a more visible status. None of these remedies was tested.
+    chart: ban
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Name your top 20 helpers", "Export the last 90 days of posts from your community, forum or review section. Rank members by answers that were accepted or upvoted. Write down the top 20 names and how many answers each gave per week."]
+  - ["Ask them what has changed", "Message your ten busiest helpers with two questions. Do chatbot-written replies make their own answers harder to notice? What would make answering still feel worth their time? Read every reply before you change anything."]
+  - ["Label chatbot-written replies", "Add a visible tag for any answer drafted with an AI tool, and a tick box so posters can declare it. Keep labelled answers up if they are correct. Remove only the ones that are wrong."]
+  - ["Make human expertise easy to spot", "Put a clear badge next to answers from members with a long record of solved problems. Give the same credit for improving an existing answer, or replying to a follow-up question, as for posting first."]
+  - ["Track your top 20 weekly", "On Monday mornings, tally how many answers your top 20 posted in the past seven days. Compare it with the same week last year. If the count falls three weeks running, contact the quiet ones personally."]
+  - ["Read the questions as well", "Once a month, read 30 questions that got no answer. If they are long and wordy but ask familiar things, add a short posting template: the problem in one line, then what the person has already tried."]
+
+expect:
+  - "**Days, not months.** The pull-back among heavy answerers showed within days of the launch, so a monthly report could miss the turn."
+  - "**A busy forum is not a healthy one.** Total posts briefly went up while the answers worth keeping went down. Count what survives moderation and earns votes, not raw posts."
+  - "**The risk sits with your best people.** Members with the most standing to protect reacted most. Casual posters may even welcome the shortcut."
+  - "**A moderation bill.** If members can paste in chatbot replies, someone has to sort them. Plan moderator time before a wave arrives, not after it."
+
+limits:
+  - "**One site, one kind of question.** Coding problems have answers that can be checked. Communities about products, travel or beauty may react differently."
+  - "**A short window.** The main comparison spans just over a week around the launch, and the extended analysis adds ten more. Longer-run effects were not modelled."
+  - "**Only people who stayed.** The panel kept members who answered in every period, so anyone who quit outright is missing from it."
+  - "**Motives inferred, not asked.** Nobody was asked why they answered less. The explanations about standing out and wordier questions come from patterns in the data."
+  - "**The vote drop is less certain.** The fall in scores was small and held up in some splits of the data but not in others."
+
+faq:
+  - q: "Did ChatGPT cut the number of answers on Stack Overflow?"
+    a: "In the short run, yes. Regular answerers contributed fewer lasting answers in the week ChatGPT was released than at the same point a year before, and those answers earned fewer votes (Li & Kim, 2025)."
+  - q: "Why would AI put off the keenest contributors?"
+    a: "According to the authors, fluent machine answers make careful human ones harder to tell apart, which cheapens the votes and reputation that keep keen answerers going. The pull-back was strongest among members with high reputation, more so than among long-standing ones."
+  - q: "Did ChatGPT make the questions harder?"
+    a: "Not in substance. Questions after the launch were worded in a more varied way but were no more different from earlier questions than usual. The authors think AI helped people phrase familiar problems more elaborately, which can make them look tougher to answer."
+  - q: "Is banning AI-generated content enough to keep contributors?"
+    a: "Not on this evidence. After the site banned AI answers, heavy answerers' shortfall narrowed but did not disappear. The authors propose labelling AI-assisted posts and rewarding human expertise rather than relying on removal alone, though neither was tested."
+  - q: "Should brand communities and review sites worry about this?"
+    a: "The research covers a coding help site only, so this is our reading. Any community that depends on a small group of dedicated members, such as a product support forum, a review platform or a fan group, faces the same risk if AI-written posts bury their work. Watch those members first."
+
+also:
+  - doi: "10.1002/mar.22123"
+    title: "Assessing the effectiveness of prosocial activism within sponsored influencer posts on product promotion"
+    authors: "Gao et al."
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Four experiments tested what happens when a paid influencer post also takes a stand on a social cause. Adding the cause
+      kept people on the brand's website for longer and made them keener to buy. The main reason was that the post felt less
+      like a sales pitch. Cynical viewers were harder to win over, and a cause with no link to the influencer backfired, making the
+      post look manipulative. A cause can lift a sponsored post, but only one the creator already stands for.
+  - doi: "10.1108/jrim-02-2024-0101"
+    title: "Understanding how customer interaction drives e-loyalty during returns handling in online retailing"
+    authors: "Li et al."
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2025
+    text: >-
+      A survey of Chinese online shoppers who had sent something back found that how a retailer handles the return shapes
+      whether they shop there again. Three things counted: easy access to help, a friendly manner and clear updates along the
+      way. Much of their pull on loyalty ran through how satisfied people felt with the return, and clear updates worked only
+      that way. Handled well, a refund can win the next order.
+
+charts:
+  who:
+    title: "Fall in daily answers among the top half of regulars, by how the regulars were split (%)"
+    scale: [0, 12]
+    step: 2
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Top half by reputation points", 9.9, true]
+      - ["Top half by answers in past 30 days", 8.0, false]
+      - ["Top half by posts in past 30 days", 7.3, false]
+      - ["Top half by time on the site", 6.1, false]
+    source: "Panel of 546 Stack Overflow regulars, days around ChatGPT's release set against 2021 (supplement, Table C1). The bottom halves showed no significant fall in any split."
+  ban:
+    title: "Fall in daily answers before and after the 5 December ban, compared with a year earlier (%)"
+    scale: [0, 10]
+    step: 2
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["All regulars, launch to ban", 4.8, false]
+      - ["All regulars, 10 days after ban", 5.4, false]
+      - ["Heavy answerers, launch to ban", 7.5, false]
+      - ["Heavy answerers, 10 days after ban", 5.8, true]
+    source: "The same regulars followed for ten extra days, 20,408 user-days (supplement, Table D2). Heavy answerers' shortfall eased after the ban; regulars as a whole did not recover."
+
+related_pages: []
