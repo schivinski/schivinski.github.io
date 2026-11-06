@@ -1,0 +1,242 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 35                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-09-06"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: sensory-words-grocery-reviews
+status: live
+
+title: "Do sensory words in online reviews go with higher star ratings? What a Psychology & Marketing study found"
+dek: >-
+  Supermarket reviews are full of what shoppers saw, heard, touched, tasted and smelled. A word count across thousands of
+  UK reviews on Trustpilot shows that only two of the five senses track the stars, and that piling them together does not help.
+short_title: "Which senses show up in the stars"
+
+description: >-
+  Hallikainen et al. find words about looks and taste are linked to higher stars in 13,575 UK grocery reviews on
+  Trustpilot, while sound, touch and smell are not.
+
+keywords: [sensory marketing, online reviews, star ratings, Trustpilot reviews, grocery retail, supermarket customer
+  experience, text analysis, LIWC, electronic word of mouth, social listening, review analytics, Psychology & Marketing]
+topics: [UGC, Retail, Research methods]
+
+image:
+  file: 2024-sensory-words-grocery-reviews.jpg
+  og: 2024-sensory-words-grocery-reviews-og.jpg
+  alt: "Supermarket fruit shelves arranged in bands of colour: pink apples in protective netting, red apples, oranges, lemons and green apples, with price cards along the top row"
+  caption: "Shoppers buy with their eyes, and they seem to rate with them too. Photo: ethan on Unsplash."
+
+short_answer: >-
+  Some do. In 13,575 Trustpilot reviews of the five biggest UK grocery chains, the more a review talked about how things
+  looked or tasted, the higher its star rating tended to be. Words about sound, touch and smell showed no such link. Reviews
+  that described both looks and taste came out a little lower than those two senses alone would predict, so stacking senses
+  added nothing.
+
+takeaways:
+  - "For every extra percentage point of a review's words that described how things looked, the star rating rose by about 0.025, the clearest link of any sense."
+  - "Taste words turned up in only 8.6% of reviews but still went with higher ratings, and in reviews of a sixth chain their link was stronger still, at 0.044 per percentage point."
+  - "Sound words were the most common, in 62.4% of reviews, and touch words appeared in 38.3%, yet neither moved the stars in the main data."
+  - "Smell was the rarest sense, mentioned in just 1.7% of reviews, and showed no link with ratings in either set of reviews."
+
+paper:
+  doi: "10.1002/mar.22119"
+  title: "Rating with the senses: How sensory encounters are reflected on online review ratings?"
+  authors: ["Hallikainen, H.", "Halinen, M.", "Tervonen, H.", "Ruusunen, N.", "Wang, Y."]
+  authors_full: ["Heli Hallikainen", "Marianna Halinen", "Hannes Tervonen", "Nino Ruusunen", "Yuyu Wang"]
+  year: 2025
+  journal: "Psychology & Marketing"
+  volume: "42"
+  issue: "1"
+  pages: "159-174"
+  online: "2024-09-06"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Heli Hallikainen"
+      affiliation: "Business School, University of Eastern Finland, Joensuu, Finland"
+      orcid: "0000-0002-6908-2898"
+    - name: "Marianna Halinen"
+      affiliation: "Business School, University of Eastern Finland, Joensuu, Finland"
+      orcid: ""
+    - name: "Hannes Tervonen"
+      affiliation: "Business School, University of Eastern Finland, Joensuu, Finland"
+      orcid: ""
+    - name: "Nino Ruusunen"
+      affiliation: "Business School, University of Eastern Finland, Joensuu, Finland"
+      orcid: "0000-0002-7044-2299"
+    - name: "Yuyu Wang"
+      affiliation: "Business School, University of Eastern Finland, Joensuu, Finland"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two separate Trustpilot datasets analysed separately: the main study (13,575 reviews of the five largest UK grocery chains, January 2020 to May 2022) and a robustness test on 4,276 reviews of another large UK supermarket, reported in its own table (Table 5). The paper calls the second a robustness test rather than a study"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Heli Hallikainen, Marianna Halinen, Hannes Tervonen, Nino Ruusunen and Yuyu Wang, all at the Business School of the
+      University of Eastern Finland in Joensuu, started from something anyone who reads supermarket reviews will recognise.
+      People describe what they sensed: mince that was brown inside, a dip they loved, a fish counter that smelled rotten. Most research on the senses in shops asks people afterwards how they felt, and usually about a single sense.
+      This team wanted all five together, in words customers chose for themselves.
+
+      An outside provider collected every Trustpilot review of Tesco, Sainsbury's, Asda, Morrisons and Co-op posted from the
+      start of 2020 to the spring of 2022. Each review went through LIWC, a program that counts how many words in a text come
+      from set lists. LIWC has no list for the senses, so the team built one from a 1970 vocabulary of sensory words first
+      put together for teaching English, following an earlier analysis of Yelp restaurant reviews. It has separate lists for
+      sight, sound, touch, taste and smell.
+
+      For each review the program gave the share of words on each list. The team then related those shares to the star rating,
+      tested whether senses worked better in pairs, and repeated the main test on reviews of a sixth large UK supermarket chain.
+    facts:
+      - ["Main data", "13,575 reviews on Trustpilot covering the five largest UK grocery chains, January 2020 to May 2022, rated from 1 (bad) to 5 (excellent)"]
+      - ["Check data", "4,276 Trustpilot reviews of another large UK supermarket chain, analysed on their own"]
+      - ["Word lists", "One list per sense, drawn from Frazier's 1970 vocabulary of the senses and loaded into the LIWC-22 text program"]
+      - ["Measured", "How much of each review's wording came from each list, and the review's star rating"]
+      - ["Also allowed for", "Review length, emotional tone, and how analytical and how self-assured the writing sounded"]
+      - ["Model", "A regression built for count data with many zeros; senses tested alone and in every possible pair"]
+
+  - h: "Looks and taste line up with the stars"
+    body: |
+      The team had expected every sense to push ratings up, on the logic that a well-run store aims for pleasant sights,
+      sounds and smells. Only two senses behaved that way. Writing about appearance had the firmest link with the stars, and
+      writing about taste a weaker one. Sound, touch and smell had none.
+
+      Both links held once the team took account of how a review was written. Longer reviews tended to carry fewer stars and
+      a warmer tone went with more, which is no surprise. With those in the model, sight words still added 0.020 to the rating
+      for every additional percentage point, and taste words 0.005.
+
+      The check on the sixth chain gave a similar result for sight, at 0.031. It also threw up something new: there, sound
+      words went with lower ratings, a drop of 0.033 for each percentage point. The authors read it as specific to that one
+      retailer and want it repeated before anyone builds on it.
+    chart: link
+
+  - h: "What shoppers write about, and what they leave out"
+    body: |
+      The counts are telling on their own. Sound and sight words were the most frequent. The authors point to sight leading
+      most shopping decisions, and to research showing that many sound cues shape how food and drink come across.
+
+      Smell barely featured. The authors offer three explanations. People pay little conscious attention to smell. Much fresh
+      food now comes wrapped in plastic, which masks its natural scent. And printed use-by dates have taken over the job the
+      nose used to do, telling shoppers whether food is safe to eat. A smell gets noticed when it breaks those expectations,
+      which is why it tends to surface when something has gone off.
+
+      Touch is the puzzle. Touch words were common, yet they did nothing for the stars. In the authors' view, people seek out
+      touch by handling a product, while a review only describes it later, so the words are a weak stand-in for the
+      experience itself.
+    chart: senses
+
+  - h: "Mixing senses did not add up"
+    body: |
+      Stores try to make sights, sounds and smells fit together, so the team expected senses to reinforce each other in reviews.
+      They tested all ten pairings of the five senses. Eight made no difference. The two that did both pulled ratings down.
+      Reviews rich in both look and taste words scored slightly below what each sense on its own would lead you to expect, as
+      did reviews that mixed sound and touch words.
+
+      The pull was small, 0.002 for looks combined with taste and 0.014 for sound combined with touch, but unlikely to be chance.
+      The authors connect it with sensory overload: too much stimulation can tip a pleasant visit into a tiring one, especially
+      for shoppers who are stressed or in a hurry. They also note that reviews skew towards bad experiences.
+
+      There may be a plainer reason as well, one the team did not look at. A review that describes both the colour and the
+      taste of a chicken breast is often a complaint about it.
+
+  - h: "What a grocer, or any brand, can take from it"
+    body: |
+      The authors' main advice is to keep reading what customers write about your brand online, because reviews reveal
+      sensory moments that surveys miss. Counting words against a dictionary is quick and cheap, and it captures what people
+      say unprompted rather than what they remember when asked. In stores, they suggest keeping every cue consistent with the
+      others, investing in displays, signs and packaging, choosing music that suits the store, and letting shoppers handle
+      products.
+
+      The digital side deserves more attention than the paper could give it. Several of the sample reviews it prints complain
+      about items swapped for something else, which points to home deliveries. For an online grocer, looks and taste reach the
+      customer only through photos and descriptions until the bag arrives. That makes the product page, and how closely the
+      delivered item matches it, the place where these two senses are won or lost. We draw that from the findings; the team
+      did not measure it.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Pull a year of reviews into one sheet", "Export the last 12 months of reviews from Trustpilot, Google and your own site. Give each review one row, with the text beside its star rating."]
+  - ["Write a short word list for each sense", "Write 20 to 30 words for each of the five senses. Looks: colour, bright, fresh, bruised. Taste: delicious, bland, sour. Smell: smell, stink, aroma. Sound: noise, loud, quiet. Touch: soft, hard, soggy. Add the words your own customers use."]
+  - ["Count the words against the stars", "Use a text tool or a spreadsheet formula to count, for each review, the words from each list. Then set the average stars of reviews that use each sense against those of reviews that do not."]
+  - ["Turn the worst complaints into fixes", "Read the reviews rated two stars or fewer that use looks or taste words. Pick the three most common problems, such as mouldy bread or bruised fruit, and give each to the team that can fix it."]
+  - ["Show looks and taste on product pages", "Pick the 20 fresh items you sell most of. Give each a sharp close-up photo and one honest line on how it tastes. Make sure the item that arrives looks like the photo."]
+  - ["Run the count again every month", "Repeat the count on each new month of reviews. Watch for a rise in smell words, which often means something has gone off, and pass those reviews to the store or depot within 48 hours."]
+
+expect:
+  - "**Small effects per review.** Each extra point of looks or taste words shifts the predicted rating by a few hundredths of a star or less. Use the counts to see which experiences drive ratings, not to forecast them."
+  - "**Complaints will dominate.** Review sites draw more unhappy customers than happy ones, so a sense count mostly maps what went wrong."
+  - "**Fast and cheap to run.** Word counting gets through thousands of reviews quickly and at a fraction of a survey's cost. The authors pitch it to practitioners on exactly those grounds."
+  - "**Your chain may differ.** One retailer in the paper showed a link the others did not, so run the count on your own reviews rather than borrowing the averages."
+
+limits:
+  - "**Words stand in for experiences.** A list counts what was written, not what was sensed, and the authors call reviews a proxy. Our own caution: a word on the sound list may be about a phone call to customer service rather than the aisle."
+  - "**Online and in-store mixed together.** The data could not separate delivered orders from shop visits, or a single product from the whole store."
+  - "**UK supermarkets, 2020 to 2022.** One country, one sector and a period that spans the pandemic. Clothing or furniture involve far fewer tastes and smells."
+  - "**Links, not causes.** The data are observational. A satisfied customer may simply write more vividly about food, rather than the experience raising the rating."
+  - "**Thin evidence for the rare senses.** So few reviews mentioned smell or taste that the authors themselves flag it, and the data are available only on request."
+
+faq:
+  - q: "Can the senses customers mention predict their star rating?"
+    a: "Partly. In UK supermarket reviews on Trustpilot, writing about how products looked and tasted went with higher ratings, while writing about sounds, touch and smells did not. These are associations, so they cannot show whether the experience raised the rating or pleased customers simply wrote more vividly (Hallikainen et al., 2025)."
+  - q: "What is sensory marketing?"
+    a: "Marketing that works through the senses, from what people see and hear to what they touch, taste and smell, to shape how they view a product or place, what they choose and how they behave. In a supermarket it covers lighting and displays, background music, ambient scents, tastings and the feel of packaging."
+  - q: "How can I find sensory language in my own customer reviews?"
+    a: "Use a dictionary-based text tool. LIWC is one: it counts words from set lists, and you can add lists for each sense. A spreadsheet with a short list per sense gives a first picture, as long as someone reads a few hundred reviews to weed out words with other meanings."
+  - q: "Should stores combine several sensory cues at once?"
+    a: "More is not better. No pairing of senses raised ratings in this data. The authors suggest making the cues already in place fit with each other and with the store, rather than adding new ones."
+  - q: "Is Trustpilot a good source for this kind of analysis?"
+    a: "It is a useful one. Trustpilot publishes reviews without checking them first and covers retailers rather than single products, so it captures the whole shopping trip. Researchers have used it far less than Amazon, Yelp or TripAdvisor."
+
+also:
+  - doi: "10.1177/00222437241281873"
+    title: "Who Shares Fake News? Uncovering Insights from Social Media Users’ Post Histories"
+    authors: "Schoenmueller et al."
+    journal: "Journal of Marketing Research"
+    year: 2025
+    text: >-
+      Rather than asking people about themselves, this team read what social media users had posted in the past and compared
+      those who spread fake news with ordinary users and several other groups. Fake-news sharers used more words about anger
+      and power, and adding such language cues made it easier to predict who would share next. In a final study, ad copy that
+      spoke to users' sense of power persuaded more of them to try a fact-checking tool. A brand's own social listening data may
+      already say more about its audience than a questionnaire could.
+  - doi: "10.1093/jcr/ucae054"
+    title: "When Is Digital Censorship Permissible? A Conversation Norms Account"
+    authors: "Kim"
+    journal: "Journal of Consumer Research"
+    year: 2025
+    text: >-
+      Seven studies asked when people accept a platform's decision to take down what users post. Platforms mostly judge the
+      content itself, such as swearing or violence, but people also want the poster's intent weighed, even when leaving a post
+      up could do harm. The author traces this to an expectation that platforms follow the rules of ordinary conversation,
+      so the demand fades on work-focused networks and in less personal settings. For brands that moderate their own
+      communities, explaining that intent was considered may land better than pointing to a banned word.
+
+charts:
+  senses:
+    title: "Share of reviews using at least one word from each sense's list"
+    scale: [0, 70]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Sound", 62.4, false]
+      - ["Sight", 53.5, true]
+      - ["Touch", 38.3, false]
+      - ["Taste", 8.6, true]
+      - ["Smell", 1.7, false]
+    source: "Trustpilot reviews of UK supermarkets, shares as printed in the paper's table of variables; the counts behind them work out against 17,851 reviews, the main and check data together. Highlighted: the two senses linked to higher ratings."
+  link:
+    title: "Rise in star rating for each extra percentage point of sight or taste words (model coefficients)"
+    scale: [0, 0.05]
+    step: 0.01
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Sight, five big chains", 0.025, true]
+      - ["Sight, sixth chain", 0.031, false]
+      - ["Taste, five big chains", 0.012, false]
+      - ["Taste, sixth chain", 0.044, false]
+    source: "Main study (Model 1, 13,575 reviews of five UK grocery chains) and robustness test (4,276 reviews of a sixth big UK grocer), as reported in the paper. Sound, smell and touch showed no link in the main data; in the robustness set, sound words had a negative link."
+
+related_pages: []

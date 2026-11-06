@@ -1,0 +1,228 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 26                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-06-16"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: polarization-misinformation-spread
+status: live
+
+title: "Does political polarisation make people spread misinformation? What a Journal of Marketing study found"
+dek: >-
+  Conservatives get much of the blame for political falsehoods online. Fact-check records, three online experiments and
+  nearly a century of presidential speeches point to a trigger in the setting: cast politics as a fight, and conservatives grow
+  keener to share slanted claims that help their own side.
+short_title: "How fight framing feeds slanted political posts"
+
+description: >-
+  Zhu and Pechmann find US conservatives were keener than liberals to share slanted, doubtful political posts, but
+  mainly when news cast the parties as rivals.
+
+keywords: [misinformation, political polarization, fake news sharing, conflict framing, news headlines, social media
+  newsfeeds, political ideology, conservatives and liberals, fact-checking, media literacy, Journal of Marketing]
+topics: [Social media, UGC]
+
+image:
+  file: 2024-polarization-misinformation-spread.jpg
+  og: 2024-polarization-misinformation-spread-og.jpg
+  alt: "Silhouette of a man shouting into a megaphone, dark smoke filling the sky behind him and pale blue sky to the left"
+  caption: "Stress the fight between two sides and the urge to shout for your own grows louder. Photo: Iqro Rinaldi on Unsplash."
+
+short_answer: >-
+  It can, though mostly on one side. In six US studies, Republicans were more willing than Democrats to pass on
+  one-sided political claims of doubtful accuracy, but chiefly when the topic or its wording cast the parties as enemies.
+  When the same material stressed cooperation, the two groups behaved alike. Conflict seemed to stir a wish to see one's
+  own side on top, and that wish, more than party label alone, drove the sharing.
+
+takeaways:
+  - "After a feed of seven combative political news stories, Republicans put their chance of making posts like the slanted ones at 2.53, where 7 meant extremely likely, while Democrats sat at 1.80. After a cooperative feed the two sides were statistically level, at 2.03 and 2.18."
+  - "On topics that split the parties, statements by Republican public figures averaged 3.62 for falsehood against 2.98 for Democrats. Where the parties broadly agreed, the gap (3.11 against 2.85) did not hold up statistically."
+  - "Over the longer record, claims from Republicans were rated less accurate overall (3.59 against 2.94), and the gap only closed in months when conflict in the news had dropped by roughly two-thirds from the month before."
+  - "In campaign speeches, Republican presidents used about 13 more upbeat words alongside 'we', 'us' and 'our' than Democratic presidents did. In their other speeches the Democrats were about 4 words ahead."
+
+paper:
+  doi: "10.1177/00222429241264997"
+  title: "Political Polarization Triggers Conservatives’ Misinformation Spread to Attain Ingroup Dominance"
+  authors: ["Zhu, X.", "Pechmann, C."]
+  authors_full: ["Xiajing Zhu", "Cornelia (Connie) Pechmann"]
+  year: 2025
+  journal: "Journal of Marketing"
+  volume: "89"
+  issue: "1"
+  pages: "39-55"
+  online: "2024-06-16"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Xiajing Zhu"
+      affiliation: "Paul Merage School of Business, University of California Irvine, USA"
+      orcid: ""
+    - name: "Cornelia (Connie) Pechmann"
+      affiliation: "Paul Merage School of Business, University of California Irvine, USA"
+      orcid: ""   # OpenAlex suggests 0000-0002-9432-1475, but her ORCID record does not list this DOI (guide rule)
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 6
+    basis: "Six studies: two archival PolitiFact datasets (3,532 and 13,517 rated statements), three online MTurk experiments with US adults (283, 581, 288), and a text analysis of 18,315 presidential speeches; the two post pretests (146 and 239 people) are not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Xiajing Zhu and Cornelia (Connie) Pechmann of the Paul Merage School of Business at the University of California,
+      Irvine, began with a pattern that most, though not all, earlier research has found: in the United States, conservatives pass on more
+      political misinformation than liberals. Their question was narrower. Does that hold in every situation, or do
+      certain moments set it off? The moment they chose was political polarisation, meaning a topic, or the way a topic is
+      framed, that puts the two main parties at odds.
+
+      The misinformation they had in mind is the everyday partisan kind. It flatters your own party or runs down the other
+      one, it leans inaccurate without being proven false, and the person sharing it may not realise it is doubtful.
+
+      Two of the studies drew on statements by US public figures that journalists at PolitiFact had rated for accuracy.
+      Three were online experiments in which Democrats and Republicans first read either combative or cooperative political
+      material and then saw slanted posts. The last one analysed the words presidents used when talking about "us".
+    facts:
+      - ["Studies 1 and 2", "PolitiFact ratings of public figures' statements: 3,532 from 2007 to 2016 and 13,517 from 2007 to 2022, each scored from true (1) to 'pants on fire' (6)"]
+      - ["Studies 3 to 5", "Online experiments with 283, 581 and 288 US adults on Amazon Mechanical Turk, recruited as Democrats and Republicans in close to equal numbers"]
+      - ["Study 6", "18,315 speeches by 16 presidents, eight from each party, from Herbert Hoover to Joe Biden"]
+      - ["What changed", "Remarks by the two Senate party leaders, or a newsfeed of seven stories based on real news, framed as a clash or as a joint effort"]
+      - ["Measured", "Willingness to make a similar Facebook post (1 to 7), plus a three-question gauge of the wish to see their own group come out ahead"]
+      - ["Pre-test", "Separate groups judged the posts as leaning inaccurate but not clearly false, with no difference between the parties"]
+
+  - h: "Conflict framing switched the gap on"
+    body: |
+      The first experiment opened with genuine remarks by the Republican and Democratic leaders in the Senate. In one
+      version the two men described their parties as opponents. In the other they talked about working together. Each person
+      then saw five posts attacking the rival party, for instance one saying its senators were deliberately causing a global
+      food shortage. Republicans saw each claim made about Democrats, and Democrats saw the identical claim made about Republicans.
+
+      After the cooperative remarks, both groups were about equally unlikely to make posts like these. After the combative
+      remarks, willingness among Republicans went up and among Democrats it did not. The fifth study replaced the quotes with
+      something closer to scrolling a feed, a set of short news items based on coverage from early 2023, combative in one
+      version and cooperative in the other. The same split appeared.
+    chart: framing
+
+  - h: "What sits underneath: wanting your side on top"
+    body: |
+      The authors trace the change to a motive that research on political values ties more closely to conservatives: the
+      desire for your own group to be stronger than others and to come out ahead. In the experiments it was measured by asking
+      whether a post would make one's group stronger, more motivated and better.
+
+      Conflict framing raised that motive among Republicans and left Democrats where they were. In the fourth study,
+      Republicans who had read the combative remarks scored 3.11 on it, against 2.49 for Democrats. After the cooperative
+      remarks the two were close, at 2.59 and 2.53. In all three experiments, statistical tests showed the motive carried the
+      link between party and posting, but only when the framing was polarised. A rival idea, that people wanted to stop the
+      other side from dominating, was checked in an online appendix and did not explain the pattern.
+
+      The presidential speeches give a real-world echo. The team pulled out the phrases around "we", "us" and "our" and
+      counted upbeat against downbeat words in them, as a rough gauge of rallying one's own group. Election campaigns, standing
+      in for the polarised setting here, are where Republican presidents pulled clearly ahead on this measure.
+    chart: speeches
+
+  - h: "The pattern in fact-checked statements"
+    body: |
+      PolitiFact rates claims made by politicians and other public figures in news and on social media. For the first archival
+      study, each statement's topic was matched to Pew Research Center surveys showing whether Democrats and Republicans
+      disagree on it. Twenty-one of the 23 topics divided the parties, so most statements fell on contested ground and only a
+      few hundred did not.
+
+      The second study added timing. The Federal Reserve Bank of Philadelphia publishes a monthly index of how much US news
+      coverage dwells on conflict between the parties. For each statement, the team worked out whether that conflict was
+      rising or falling compared with the same day a month earlier. As partisan conflict in the news climbed, the accuracy gap
+      between the parties' public figures widened, and as it eased, the gap shrank.
+
+  - h: "Why the pull towards conflict is a marketing problem"
+    body: |
+      The paper does not hide where combative framing comes from. Worldwide news revenue fell from about $180 billion to
+      $126 billion in a decade, and conflict headlines bring in readers. Contentious posts collect more reactions, so feeds tend
+      to push them. Campaigns stress division because it turns out voters and donations.
+
+      Their own example shows how small the switch can be. When a US congressman was expelled in December 2023, one newspaper
+      called it a tense vote and another a bipartisan one. Both descriptions were accurate. On this evidence, the first is the
+      kind of wording that nudges some readers towards sharing one-sided claims.
+
+      Here we go beyond what the paper tested. Any brand, publisher or platform that writes headlines, picks stories for a feed
+      or runs a comment section is choosing a frame. The frame chosen to lift engagement also shapes what the audience feels
+      like posting next, and some of that ends up under your name.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Mark the heated weeks ahead", "Open your content calendar for the next twelve months. Mark every election, big vote or public row you can see coming, plus the two weeks before each one. Plan those weeks differently."]
+  - ["Check your headlines for fight words", "Pull your last 20 headlines and social posts on public issues. Underline any word that sets two sides against each other, such as slams, clash, war or versus. Count how many posts have one."]
+  - ["Write a common-ground version", "For each post framed as a fight, write a second version that says what both sides agree on or are doing together. Keep every fact the same. Change only the framing."]
+  - ["Add checking time for those weeks", "During the marked weeks, double the time your team spends checking sources and reading replies. Agree beforehand who can label, hide or answer a false claim, and aim to act within two hours."]
+  - ["Try both framings at once", "Split your followers into two groups. Give one group the fight version and the other the common-ground version, every week for a month. Track clicks and shares, and also count replies that repeat claims you know are false."]
+  - ["Keep the framing that holds up", "If the common-ground version draws fewer false claims for a small loss in clicks, make it your default for public issues. Look at the numbers again before the next heated week on your calendar."]
+
+expect:
+  - "**Most people still hold back.** Even the most stirred group stayed well short of 4, the neutral point of the seven-step scale, so expect more posting from a minority, not a flood."
+  - "**Calm framing closes a gap but does not end the problem.** With cooperative framing, conservatives and liberals looked alike, but neither group's willingness fell to nothing."
+  - "**Timing matters as much as wording.** In the archival records the gap tracked whether party conflict in news coverage was rising that month, so the same post can land differently a few weeks later."
+  - "**Fact-checkers are stretched.** The authors cite industry figures showing 68% of fact-checking organisations have fewer than ten staff and 84% name fundraising as their biggest challenge."
+
+limits:
+  - "**Intentions, not shares.** The experiments recorded what people said they might post. No one's real accounts were followed."
+  - "**Self-reported party, one country.** People said which party they backed in the same session as the framing, and every study comes from the US two-party system. The authors call for tests in other cultures, especially Eastern ones."
+  - "**Doubtful rather than false.** The posts leaned inaccurate but were not proven false, and nobody was asked whether they saw them as deliberate lies."
+  - "**Links in the records.** The fact-check data and the speeches show associations over time rather than causes. The first dataset could also match only 36% of its statements to a topic with survey data."
+  - "**A rough stand-in for motive.** Upbeat words near \"we\" are an indirect measure, and in a presidential speech \"we\" can mean the whole nation rather than one party."
+
+faq:
+  - q: "Do conservatives share more misinformation than liberals?"
+    a: "On average, earlier work and these records say yes, but how wide the gap was depended on the setting. When material stressed conflict between the parties, Republicans grew more willing to share slanted, doubtful claims; when it stressed cooperation, the two sides looked alike (Zhu & Pechmann, 2025)."
+  - q: "What makes a situation politically polarised?"
+    a: "A topic the parties disagree on, or wording that casts them as opponents rather than partners. In one experiment the news items covered the same ground, such as energy reserves, the budget and jobs, but were written around a veto threat and partisan attacks or around bipartisan steps."
+  - q: "Does it matter whether a post praises one party or attacks the other?"
+    a: "Not in these tests. In the fourth study, half the people saw posts boosting their own party, such as a claim that its senators are never racist, and half saw posts running down the other side. Combative framing raised willingness among Republicans in both cases."
+  - q: "What can publishers and platforms do about it?"
+    a: "The authors suggest putting more fact-checking effort into heated periods such as elections, using the Philadelphia Fed's index to see spikes coming, and teaching people to spot false claims. In the US, 84% of adults back media literacy as a school requirement, yet only 38% of them have had such training."
+
+also:
+  - doi: "10.1108/jrim-10-2023-0368"
+    title: "Decoding digital engagement: a comparative analysis of English and Turkish brand post popularity dynamics on platform X"
+    authors: "Tanaltay, Ozturkcan & Kasap"
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2025
+    text: >-
+      Using language-processing software, three researchers scored five years of posts on X from 33 Fortune 500 brands and
+      compared what drew likes, shares and comments among English- and Turkish-speaking followers. Informative and
+      entertaining posts did best in English, along with cheerful, vivid daytime messages that asked a question. Turkish
+      audiences responded more to emotional tone in general, angry posts included, and to posts sent at night. One global content
+      calendar is unlikely to suit both.
+  - doi: "10.1108/jrim-02-2024-0073"
+    title: "Not all sunshine and rainbows: exploring the dark side of AI in interactive marketing"
+    authors: "Labrecque et al."
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2024
+    text: >-
+      Most marketing research on AI looks at what it can do for firms and shoppers. This review turns to what can go wrong,
+      reading recent marketing journal articles alongside the published AI principles of three large technology firms and
+      press reports of AI mishaps. It finds few marketing papers that deal with ethics, and sorts the risks into harms to
+      individual consumers, to society and in law, each with open questions. Its list of risks doubles as a handy check
+      before any AI feature goes live.
+
+charts:
+  framing:
+    title: "Willingness to make similar posts, by party and framing (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Democrats, cooperative remarks", 1.69, false]
+      - ["Republicans, cooperative remarks", 1.74, false]
+      - ["Democrats, combative remarks", 1.48, false]
+      - ["Republicans, combative remarks", 2.32, true]
+    source: "Study 3, online experiment with 283 US adults. Only the gap after the combative remarks was statistically reliable."
+  speeches:
+    title: "Net upbeat words near first-person plurals per speech, US presidents 1929 to 2023"
+    scale: [0, 70]
+    step: 10
+    unit: ""
+    decimals: 1
+    bars:
+      - ["Democrats, campaign speeches", 49.40, false]
+      - ["Republicans, campaign speeches", 62.11, true]
+      - ["Democrats, other speeches", 53.30, false]
+      - ["Republicans, other speeches", 49.54, false]
+    source: "Study 6, every president from Hoover to Biden, adjusted for president, speech length and overall tone."
+
+related_pages: []

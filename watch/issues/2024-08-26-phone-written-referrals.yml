@@ -1,0 +1,258 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 34                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-08-26"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: phone-written-referrals
+status: live
+
+title: "Are customer referrals written on a phone less persuasive? What a Journal of Consumer Behaviour study found"
+dek: >-
+  Most refer-a-friend messages are now typed with a thumb. Four experiments in Germany show those messages come out
+  shorter and a shade cooler, and that short, flat referrals win less interest. Whether the phone itself costs
+  sign-ups is a separate question.
+short_title: "Why referrals typed on a phone come out thinner"
+
+description: >-
+  Wolf et al. find refer-a-friend notes typed on phones run about a fifth shorter and less upbeat than on PCs, and
+  short, flat notes cut readers' wish to sign up.
+
+keywords: [customer referral programmes, refer-a-friend, referral marketing, word of mouth, smartphone vs laptop,
+  mobile word of mouth, eWOM, message length, message tone, customer acquisition, Journal of Consumer Behaviour]
+topics: [UGC, Service]
+
+image:
+  file: 2024-phone-written-referrals.jpg
+  og: 2024-phone-written-referrals-og.jpg
+  alt: "An open laptop and a smartphone lie side by side on a desk bathed in magenta and violet light, with white earbuds and a mouse at the edge"
+  caption: "Two keyboards, one recommendation, and the smaller keyboard tends to say less. Photo: Jakub Żerdzicki on Unsplash."
+
+short_answer: >-
+  Not by itself, but the phone changes what people write. In four experiments with 728 people in Germany,
+  refer-a-friend messages typed on smartphones came out shorter and a little less glowing than ones typed on a
+  laptop or PC. Short or neutral messages, in turn, left readers less keen to subscribe. Yet when people read real
+  referrals from both kinds of device, their interest in signing up was the same.
+
+takeaways:
+  - "Phone-typed referrals came out roughly 18% to 20% shorter than laptop or PC ones, both when people picked their own device and when the lab picked it for them at random."
+  - "Phone writers also covered less ground: in the lab, their messages touched on 2.6 distinct subjects on average, against 3.2 on a PC."
+  - "With real referrals, readers judged the phone-written ones clearly less effortful, 3.49 against 4.18 out of 7, yet their stated chance of subscribing barely differed: 4.47 against 4.48."
+  - "Phones are where referrals happen: of 13,425 visits in a year to a large German insurer's online referral page, 59.79% came from smartphones and 36.57% from laptops or PCs."
+
+paper:
+  doi: "10.1002/cb.2397"
+  title: "Exploring the influence of submission devices on customer referral creation and receiver reactions in customer referral programs"
+  authors: ["Wolf, L.", "Klopfer, L.-M.", "Steul-Fischer, M.", "Reinsperger, M."]
+  authors_full: ["Lukas Wolf", "Lisa-Marie Klopfer", "Martina Steul-Fischer", "Maximilian Reinsperger"]
+  year: 2024
+  journal: "Journal of Consumer Behaviour"
+  volume: "23"
+  issue: "6"
+  pages: "3082-3099"
+  online: "2024-08-26"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Lukas Wolf"
+      affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Nürnberg, Germany"
+      orcid: "0000-0003-0832-6155"
+    - name: "Lisa-Marie Klopfer"
+      affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Nürnberg, Germany"
+      orcid: ""
+    - name: "Martina Steul-Fischer"
+      affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Nürnberg, Germany"
+      orcid: ""
+    - name: "Maximilian Reinsperger"
+      affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Nürnberg, Germany"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 4
+    basis: "Four experiments: Study 1 online, 204 German panel members writing on their own device; Study 2 lab, 140 people assigned phone or PC at random; Study 3 online 2 x 2, 200 readers; Study 4 lab within-subjects, 184 readers of 10 real Study 2 referrals; the intelligibility pre-test of those referrals is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Lukas Wolf, Lisa-Marie Klopfer, Martina Steul-Fischer and Maximilian Reinsperger of Friedrich-Alexander-Universität
+      Erlangen-Nürnberg (FAU) looked at a small moment inside a big acquisition channel. Refer-a-friend schemes ask existing
+      customers to pass on a recommendation, usually as a short message sent by text, email or a chat app. More and more of
+      those messages are typed on a phone, and nobody had checked whether that changes what gets said, or how the friend on
+      the other end reacts.
+
+      Earlier work on online reviews and social posts had found that phones shape writing, though it disagreed on whether
+      phone posts sound warmer or cooler. Referrals are a different kind of message. They go to one person the sender
+      knows, they stay private, and they are almost never negative. So the team ran its own tests, all built around a
+      video streaming service.
+
+      In two experiments, people wrote a referral themselves. The first let them use whatever device they had to hand. The
+      second, in a university lab, chose the device for them at random, which rules out the idea that phone users are
+      simply different people. Two further experiments turned to the readers: one used invented referrals that varied in
+      length and tone, the other used real referrals from the lab.
+    facts:
+      - ["Study 1", "204 members of a German online research panel, average age about 50; 123 used a laptop or PC and 81 their phone, by their own choice"]
+      - ["Study 2", "140 people in a university lab, mostly students, paid €5 and told at random to use a lab PC or their own phone"]
+      - ["Recipient", "In both writing studies, each person wrote either to a very close friend or relative or to a distant acquaintance"]
+      - ["Study 3", "200 people online, each reading one invented referral that was short or longer, and neutral or very positive"]
+      - ["Study 4", "184 people in the lab, mostly students, each rating 10 real referrals from Study 2 with names removed, five typed on phones and five on PCs"]
+      - ["Measured", "Word, character and subject counts; tone scored with three German sentiment dictionaries; readers' views of usefulness, effort and credibility, and their stated intention to subscribe"]
+
+  - h: "Phones produce shorter referrals, with a slightly cooler tone"
+    body: |
+      Both writing studies found the same gap in length, whether counted in words or in characters. Tone is the weaker
+      half of the story. Each study scored it with three dictionaries, and all six scores came out lower for phones, but
+      only one per study crossed the usual line for statistical reliability. A further analysis linked the two results:
+      phone messages sounded less upbeat in part because they were shorter, with fewer words left over for praise. The
+      authors blame the fiddly small touchscreen, not the fact that a phone is always to hand.
+
+      Several things showed no reliable difference by device: the share of emotional words, how much people said about
+      themselves, the number of emojis and the number of typing mistakes.
+
+      The team expected the gap to widen when people wrote to someone close, because phones feel so personal. It did
+      not, in either study. Closeness changed the messages in other ways. In the lab, notes to close friends or family
+      were shorter, covered fewer subjects and used more emotional words than notes to acquaintances. But phone
+      writers trimmed their text by a similar amount whoever was on the receiving end.
+    chart: words
+
+  - h: "Short or lukewarm referrals win less interest"
+    body: |
+      The third experiment isolated the two features that phones change. Readers saw a single referral for a streaming
+      service and said whether they would be tempted to sign up. Length and tone each made a difference on their own, and tone
+      made the bigger one. Neither depended on the other.
+
+      The main route ran through usefulness. A longer or warmer message felt more useful, and that feeling carried
+      roughly half of each effect on sign-up intent. Two side routes showed up too. Longer messages came across as more
+      effort and more believable. A glowing tone also looked like more effort, yet readers trusted it no more than
+      a neutral one.
+    chart: intent
+
+  - h: "Real referrals: less effort on show, the same interest in signing up"
+    body: |
+      The fourth experiment comes closest to real life. The ten referrals came straight from the lab study, and they
+      showed the usual pattern: the five phone messages averaged 31 words against 45.5 for the PC ones, with lower
+      sentiment scores. Readers picked up on the cooler tone as well, if only slightly.
+
+      Across all ten messages, the ones readers found warmer and more useful drew more interest in subscribing. Yet the
+      phone set as a whole did no worse than the PC set. The authors suspect the gaps between these particular messages
+      were too small to tip a decision. They also note that readers clearly spotted which messages had cost less effort,
+      and suggest this could still work against phone referrals indirectly. The experiment did not measure that.
+
+      At the end, readers wrote down what had mattered to them when judging a referral. Money came first, followed closely by a
+      message that felt personal rather than copied, and by details of what the service has to watch.
+    chart: looked
+
+  - h: "Two ways to get fuller referrals"
+    body: |
+      The authors offer two routes. The first is to nudge people towards a bigger screen when they write. Laptops and
+      PCs are seen as work devices, so referral invitations could go out by email on working days. The referral offer
+      could sit higher on the desktop version of a website, and search advertising aimed at desktop users could feature
+      it.
+
+      The second route accepts that phones are where most referrals start, and makes writing on them easier: suggested
+      phrases, auto-complete, or ready-made text the sender can adapt. Whatever the device, the authors want senders
+      prompted to include concrete facts about the service and a personal touch.
+
+      One tension in that advice deserves a flag, and this reading is our own, not the authors'. Readers prized messages
+      that did not look copied, so a pre-written referral sent unchanged may lose some of the pull it was meant to add. A
+      template works best as an opening the sender finishes in their own words. And since the real phone referrals did
+      not cost sign-ups, making phones easier to write on looks like a safer bet than pushing people off them, which
+      could simply mean fewer referrals.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["See which device your referrers use", "Open the analytics for your referral page and look at the last three months. Split visits and sent invitations by phone, laptop and tablet. Write down which device sends the most."]
+  - ["Read 50 real referral messages", "If your system stores the messages and your privacy policy allows it, pull 50 recent ones from phones and 50 from laptops. Count the words in each. Mark the ones that mention price, what the friend gets and something personal."]
+  - ["Add three tap-to-use openings on mobile", "On the phone version of your referral screen, offer three short starter lines the sender can tap and then edit. Each one names the offer and one concrete benefit, such as a free first month."]
+  - ["Leave room for a personal line", "Under the starter text, add an empty line with a prompt such as 'Why do you like it?'. Make the text box tall enough to show at least four lines on a small screen."]
+  - ["Send some invitations for the big screen", "Email a share of your referral invitations on weekday mornings, when many people read mail on a laptop. Give the referral offer a prominent spot on your site when it is viewed on a computer."]
+  - ["Count paying friends, not shares", "Run the new mobile screen against the old one for six weeks. Track messages sent, friends who click and friends who subscribe. Keep the version that brings in more paying customers."]
+
+expect:
+  - "**A gap that narrows rather than closes.** Small keyboards cost effort, so writing helpers may shrink the difference in length between devices but are unlikely to remove it."
+  - "**Small moves per message.** The strongest lever tested, a clearly positive tone, lifted intention to subscribe by less than a point on the 1 to 7 scale used."
+  - "**Fuller messages, possibly fewer of them.** Steering senders to a laptop may get you longer referrals, but some people who would have sent a quick note from their phone may not send one at all. Count both."
+  - "**More to work with in some markets.** In the lab study, 68.25% had recommended their streaming service before, against 56.43% for their telecoms provider and 28.57% for their bank account."
+
+limits:
+  - "**Experiments, not live schemes.** Referrals are private messages, so no public field data exist. Every message here was written or read for a study."
+  - "**One service, German convenience samples.** All four experiments involved video streaming and people in Germany, many of them students. Practical products and other cultures may behave differently."
+  - "**Tone scored word by word.** Sentiment dictionaries ignore context. Readers' own ratings in the last experiment lined up with the scores, which is reassuring but not proof."
+  - "**No rewards on offer.** Real schemes usually pay the sender, the friend or both. The authors wonder whether people typing on a phone would want more in return; that remains untested."
+  - "**Stated interest only.** Nobody actually subscribed, and the last experiment asked about signing up with a single question to keep a ten-message task manageable."
+
+faq:
+  - q: "Do people write shorter referrals on a smartphone?"
+    a: "Yes. When people in Germany wrote a refer-a-friend message for a streaming service, those using a phone wrote noticeably less than people at a computer, even when the device was assigned by chance (Wolf et al., 2024)."
+  - q: "What makes a referral message persuasive?"
+    a: "Above all, whether the reader finds it useful. A clearly positive tone and a fuller explanation both raised usefulness, and with it the reader's stated willingness to sign up."
+  - q: "Do referrals sent from a phone lose customers?"
+    a: "Not directly, on this evidence. Real phone-written messages produced as much interest in subscribing as PC-written ones. The risk is indirect: phones encourage exactly the brief, plain messages that did worse when length and tone were tested on their own."
+  - q: "What is a customer referral programme?"
+    a: "A scheme in which a firm asks its customers to recommend it to people they know, usually by sharing a link, code or message by text, email or chat. Telecoms, streaming and financial services use them widely to win new customers."
+  - q: "How many customers come through personal recommendations?"
+    a: "In streaming, a lot. Among streaming users in the last experiment, 63.86% said they first heard of their provider from family, friends or acquaintances, against 18.67% through advertising and 7.23% through social media."
+
+also:
+  - doi: "10.1002/mar.22105"
+    title: "How real is real enough? Unveiling the diverse power of generative AI-enabled virtual influencers and the dynamics of human responses"
+    authors: "Sorosrungruang et al."
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      Virtual influencers now range from cartoon mascots to photoreal personas built with generative AI, and they are
+      taking a growing slice of influencer budgets. This exploratory paper sorts them into a revised typology by look and
+      by role, reviews academic and trade sources on what makes them persuasive next to human creators, and then tests
+      that framework in interviews with senior practitioners. It closes with six findings for practice. Anyone briefing a
+      virtual creator can borrow the typology as a checklist for deciding what kind of character they actually need.
+  - doi: "10.1002/mar.22082"
+    title: "Is authenticity key? Mobilization by social media influencers versus celebrities and young people's political participation"
+    authors: "Harff & Schmuck"
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      Three experiments with 1,233 young people compared calls to act on a humanitarian cause made by social media
+      creators and by traditional celebrities. Appeals from either kind of famous face made young people readier to get involved, and
+      creators did no better overall. The split came by gender: creators moved young women more directly, while young men responded
+      more to celebrities, whose endorsements felt more genuine to them. For a cause campaign, the right messenger may
+      depend on which audience you most need to reach.
+
+charts:
+  words:
+    title: "Average words per referral, by the device it was typed on"
+    scale: [0, 80]
+    step: 20
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Study 1, phone", 40.01, false]
+      - ["Study 1, laptop or PC", 48.99, false]
+      - ["Study 2, phone", 54.03, true]
+      - ["Study 2, PC", 67.15, false]
+    source: "Study 1, online, 204 German panel members on their own device; Study 2, lab, 140 people given a device at random. Both gaps were statistically reliable."
+  intent:
+    title: "Intention to subscribe after reading one referral (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Short, 36 words", 3.79, false]
+      - ["Longer, 187 words", 4.32, false]
+      - ["Neutral tone", 3.59, false]
+      - ["Very positive tone", 4.46, true]
+    source: "Study 3, online, 200 people in Germany, about 100 per level of each factor. Length and tone each mattered alone; they did not interact."
+  looked:
+    title: "What readers said they looked for in a referral (share of written answers)"
+    scale: [0, 50]
+    step: 10
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Price or value for money", 38.29, true]
+      - ["Personal, not copied", 37.14, false]
+      - ["Films and series on offer", 36.00, false]
+      - ["Informative overall", 29.71, false]
+      - ["Wording", 21.71, false]
+      - ["Smileys", 3.43, false]
+    source: "Study 4, lab, open question answered by 95% of 184 readers and coded by two researchers. An answer could name several things."
+
+related_pages: []

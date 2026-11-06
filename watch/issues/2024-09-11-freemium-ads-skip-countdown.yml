@@ -1,0 +1,239 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 36                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-09-11"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: freemium-ads-skip-countdown
+status: live
+
+title: "Does a countdown, or a say over when ads play, make free-app advertising less annoying? What a Journal of Advertising study found"
+dek: >-
+  On the free tier of a video or music app, people pay for the content with their attention. Three US studies show that a
+  timer on each ad, or letting viewers pick when the ads run, makes the same interruption easier to bear, and that the
+  advertiser and the app both come out ahead.
+short_title: "Why free-app ads need a timer or a choice"
+
+description: >-
+  Riedel et al. find a countdown, or a choice over when ads play, makes freemium ads seem less intrusive and lifts brand
+  memory and liking in three US studies.
+
+keywords: [freemium advertising, ad-supported streaming, ad countdown timer, ad timing choice, skippable ads,
+  advertising intrusiveness, psychological reactance, brand recognition, YouTube ads, free tier user experience,
+  Journal of Advertising]
+topics: [Advertising, Service]
+
+image:
+  file: 2024-freemium-ads-skip-countdown.jpg
+  og: 2024-freemium-ads-skip-countdown-og.jpg
+  alt: "A clear hourglass with pale sand in its upper bulb, tilted on a diagonal against a glowing red and pink background with a dark rim at the right"
+  caption: "An ad that shows how long it has left feels less like an ambush. Photo: Daniele Franchi on Unsplash."
+
+short_answer: >-
+  Yes, and the advertiser gains as well as the app. In US experiments where still ads broke into a YouTube video, letting
+  people choose when the ads played, or showing a countdown, made the breaks feel less intrusive. Less intrusion meant less
+  irritation, and that went with better memory for the brands and warmer feelings towards the ad, its brand and YouTube.
+  Offering both controls at once added nothing.
+
+takeaways:
+  - "A visible timer lifted brand memory: viewers chose the correct brand name 1.82 times out of two when each ad counted down, against 1.66 when it did not."
+  - "Being asked when to take the ads lifted the advertised brand's seven-point score to 4.79, compared with 4.27 for viewers who were not asked. The ad's own score rose to 4.67, compared with 4.01."
+  - "The app gained too. Among viewers given no say over the ads, simply adding a countdown lifted their rating of YouTube from 5.16 to 5.58 out of 7."
+  - "A choice of ad timing did nothing for memory on its own: viewers who picked their slot recognised 1.73 brands out of two, and viewers given no choice recognised 1.74."
+
+paper:
+  doi: "10.1080/00913367.2024.2393078"
+  title: "Advertising in Freemium Services: Lack of Control and Intrusion as the Price Consumers Pay"
+  authors: ["Riedel, A.", "Mulcahy, R.", "Beatson, A.", "Weeks, C."]
+  authors_full: ["Aimee Riedel", "Rory Mulcahy", "Amanda Beatson", "Clinton Weeks"]
+  year: 2025
+  journal: "Journal of Advertising"
+  volume: "54"
+  issue: "3"
+  pages: "322-341"
+  online: "2024-09-11"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Aimee Riedel"
+      affiliation: "Griffith University, Nathan, Queensland, Australia"
+      orcid: "0000-0003-1776-8561"
+    - name: "Rory Mulcahy"
+      affiliation: "University of the Sunshine Coast, Petrie, Queensland, Australia"
+      orcid: "0000-0002-6056-3249"
+    - name: "Amanda Beatson"
+      affiliation: "Queensland University of Technology, Brisbane City, Queensland, Australia"
+      orcid: ""
+    - name: "Clinton Weeks"
+      affiliation: "Queensland University of Technology, Brisbane City, Queensland, Australia"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Study 1: online experiment, 178 US MTurk adults (brand recognition); Study 2: online experiment, 123 US MTurk adults (attitudes); Study 3: scenario-based critical incident experiment with survey, 224 US Prolific adults"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Aimee Riedel of Griffith University, Rory Mulcahy of the University of the Sunshine Coast, and Amanda Beatson and
+      Clinton Weeks of Queensland University of Technology examined the bargain behind every free tier. People who stick to
+      the no-cost plan of a video app, a music service or a mobile game pay with their attention to the ads. The team asked
+      what that payment costs the brands doing the advertising and the platform running them, and whether a little control
+      over the ads lowers the price.
+
+      They ran three studies. In the first two, American adults clicked through to a six-minute TED talk about sharks hosted
+      on YouTube. Still ads for invented brands, one for ice cream and one for a jewellery ring, covered the screen for 10
+      seconds each. Half the viewers were first asked whether they wanted their ads at the start or spread through the talk;
+      the rest were simply given one or the other. Separately, half saw a countdown in the corner of each ad. The first study
+      then tested memory for the brands. The second measured feelings towards the ad, the advertiser and YouTube.
+
+      The third study moved to everyday life. People wrote about a real time an ad on a free service had interrupted them,
+      with or without any control over it, and then answered the same rating questions.
+    facts:
+      - ["Study 1", "178 US adults from Amazon Mechanical Turk, after 30 who failed attention checks or rushed were removed; tested on memory for the brands"]
+      - ["Study 2", "123 US adults from the same panel and the same set-up; scored the ad, the advertised brand and YouTube out of seven"]
+      - ["Study 3", "224 US adults from Prolific, aged 18 to 76, each describing a real ad on a free music or video service"]
+      - ["Design", "Ad slot picked by the viewer or not, combined with an on-screen timer or not: four groups of viewers"]
+      - ["Ads", "Unrelated to the talk; viewers who opted for ads throughout saw four, and only the two every group saw were scored"]
+      - ["Memory test", "After some simple maths problems as a distraction, viewers chose the advertised name from two brands per product"]
+
+  - h: "Which control made the brand stick?"
+    body: |
+      Both controls made the ads feel less intrusive, and intrusion peaked when viewers had neither. Once a countdown was on
+      screen, being asked about timing did not reduce the sense of intrusion any further.
+
+      Memory followed a related pattern. Among viewers with no say over their ads, those who could watch the seconds tick
+      down recognised the brands far more often. For viewers who had chosen their ad slot, adding the timer changed nothing.
+
+      The analysis traced a chain. The more intrusive an ad felt, the more irritated and resentful people became, a reaction
+      psychologists call reactance, and the more irritated they were, the fewer brands they recognised. That chain was
+      clear when no countdown was shown and faded when one was. Run the other way round, with irritation coming first, the
+      chain did not hold. The authors suggest that a sense of control keeps people engaged with the screen, which helps the
+      name lodge in memory.
+    chart: recall
+
+  - h: "Why two controls were no better than one"
+    body: |
+      The second study turned to attitudes. People who chose their ad slot rated the brand and the ad more kindly, and gave
+      YouTube a smaller lift. The same chain from intrusion to irritation showed up again for all three ratings.
+
+      On these ratings the countdown did much less than the choice, and its one clear gain was for YouTube among viewers who
+      had no say. Stacking the two did not pay. For people who had already picked a slot, the timer brought no clear change
+      in their scores for YouTube or the brand, and they actually liked the ad less with the timer than without it. The
+      authors offer no reason. One guess of ours, untested, is that a ticking clock reminds people of the time they are
+      handing over, even after they have agreed to it.
+
+      For the authors, the lesson is to pick one control and do it well. They note that Peacock and Amazon Prime show a
+      timer, while YouTube and Spotify combine skipping with a countdown, and suggest that services offering both could keep
+      either one and lose little.
+    chart: adliking
+
+  - h: "What people said about real ads on free services"
+    body: |
+      In the third study, people were steered to recall either an ad that badly disrupted their listening or viewing or a
+      milder one, and either an ad they could control or one they could not. Those asked about the bad interruptions did
+      rate them as more intrusive.
+
+      For mild interruptions, control did not change irritation in any measurable way. For severe ones, people without
+      control were more irritated, and through that irritation they thought less of the ad, of the company paying for it
+      and of the service.
+
+      The written accounts, from users of Spotify, SoundCloud, YouTube, Twitch and Facebook, gave the figures a human face.
+      A Spotify user faced with constant unskippable ads gave up and found music elsewhere. One person described an ad
+      playing before a song at their father's funeral. A parent playing classical music to settle a baby could skip the ad
+      that cut in after 20 minutes, but only once it had already woken the child. On the brighter side, a viewer who could
+      pick which ads to watch said being able to choose left them readier to watch the ads.
+
+  - h: "What it means for advertisers choosing where to buy"
+    body: |
+      Most research on free tiers has looked at turning users into paying subscribers. This paper looks at the people who stay
+      free, and at the brands paying to reach them. Its message for media buyers is that the platform's ad design is part of
+      the deal. An ad shown with no countdown and no choice starts at a disadvantage, however good the creative.
+
+      The authors want advertisers to treat control features as a selection criterion when they compare freemium
+      platforms, and they want platforms to spell out, in their sales material, which ad formats come with which controls.
+      A brand could then weigh those features next to price and reach, and judge the results on two measures many campaigns
+      already track: brand recognition and attitude.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sit through your own free tier", "Spend 30 minutes in your app or channel as a non-paying newcomer would. Write down every ad break: when it starts, how long it runs, and whether the viewer can do anything about it."]
+  - ["Ask before you buy ad space", "Before booking ads on a free app, ask the sales team two questions. Can viewers choose when the ads play? Does each ad show how long is left? Favour placements where at least one answer is yes."]
+  - ["Pick one control and build it well", "Offer either a choice of ad slot or a countdown, not both. For the first, ask once at the start of a session: two ads now, or a few spread through. For a countdown, put it in a corner and start it the second the ad appears."]
+  - ["Keep breaks away from quiet moments", "Switch off mid-content ads in sleep playlists, lullabies and long revision sessions. Show those ads before the content starts instead."]
+  - ["Check memory a day later", "Give half of your free users the new control for four weeks. The day after they see an ad, ask 100 people from each half which of two brand names they noticed, and compare."]
+  - ["Read the complaints every week", "Each Monday, count app reviews and support messages that mention ads, and how many free users stopped coming back. If either number climbs, cut the ad load before you try a new format."]
+
+expect:
+  - "**Small gains, large volume.** Each change moved scores by fractions of a point. Free tiers serve ads in huge numbers, so the gains are worth having, but no control will rescue a weak ad."
+  - "**A shared stake.** An irritating ad does not only hurt the advertiser. People mark down the app that served it too, so platform and brand both have reason to get the break right."
+  - "**Cheap to try.** A countdown or a one-tap choice is a design change rather than extra media spend, which makes it easy to test."
+  - "**Ads remain a price.** Control makes the deal easier to accept but does not change it. One user said they sat through the ads only because they could not afford the paid version."
+
+limits:
+  - "**Still images only.** The lab ads were static pictures with a made-up brand name. Video, audio and interactive ads may feel more or less intrusive."
+  - "**One platform in the lab.** The first two studies used YouTube alone. The third covered more services but relied on what people remembered."
+  - "**US panels only.** Every person taking part was an American recruited online, and the two lab groups were fairly small."
+  - "**Memory minutes later, feelings on a scale.** Brand recognition was checked shortly after viewing, and no one's later viewing, upgrades or purchases were tracked."
+  - "**Ad load was not varied.** How many ads, how long each runs and the task at hand, such as studying or relaxing, came up in the accounts but were not tested."
+
+faq:
+  - q: "Do countdown timers on ads help the advertiser?"
+    a: "Yes, mainly for memory. When viewers had no other control, a visible timer made the break feel less intrusive and made people more likely to recognise the advertised brand later (Riedel et al., 2025)."
+  - q: "Is it better to let viewers choose when ads play?"
+    a: "For how people feel, yes. Viewers who picked their own slot felt better about the ad, its advertiser and YouTube than viewers who were simply assigned one, although picking did not help them remember the brand."
+  - q: "Should a free app offer both a skip or choice option and a countdown?"
+    a: "On this evidence one is enough. Adding a timer on top of a choice did not reduce intrusion further, and people who had already chosen their slot rated the ad less warmly once a timer was added."
+  - q: "What is psychological reactance in advertising?"
+    a: "The irritation, anger and resentment people feel when something pushes into an activity or limits their freedom. Here it was the step between finding an ad intrusive and thinking less of it."
+  - q: "Why would an annoying ad hurt the app as well as the brand?"
+    a: "People do not separate the parties neatly. When a break felt intrusive and irritating, ratings dropped for the ad, for the company advertising and for the service that showed it."
+
+also:
+  - doi: "10.1002/jcpy.1441"
+    title: "AI-induced dehumanization"
+    authors: "Kim & McGill"
+    journal: "Journal of Consumer Psychology"
+    year: 2025
+    text: >-
+      Five studies suggest that when robots and virtual assistants seem to have feelings and social skills, people start
+      seeing real humans as a little less human and treat them worse. The effect eased when the machine had abilities no
+      person could have, or came across as clever but emotionally flat. It held for physical robots and for assistants with
+      no body alike. Giving a bot a warm personality may change how customers treat the staff working beside it.
+  - doi: "10.1177/10946705241278842"
+    title: "Humans Vs. Service Robots as Social Actors in Persuasion Settings"
+    authors: "Lee & Yi"
+    journal: "Journal of Service Research"
+    year: 2025
+    text: >-
+      Five experiments compared sales pitches from human staff and from service robots. A humanlike robot trying to persuade
+      came across as less sincere than a person, and that doubt carried through to how shoppers felt about the offer and
+      what they did next. How alert people generally are to sales tactics shaped the effect. Robots can greet and guide,
+      but the selling may be better left to people.
+
+charts:
+  recall:
+    title: "Brands correctly recognised, out of two, in each viewing condition"
+    scale: [0, 2]
+    step: 0.5
+    unit: ""
+    decimals: 2
+    bars:
+      - ["No choice, no countdown", 1.57, false]
+      - ["No choice, countdown", 1.90, true]
+      - ["Choice, no countdown", 1.74, false]
+      - ["Choice, countdown", 1.74, false]
+    source: "Study 1, US online experiment, 178 adults. The countdown helped only when viewers had no choice of ad timing."
+  adliking:
+    title: "How much viewers liked the ad, by group (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["No choice, no countdown", 3.92, false]
+      - ["No choice, countdown", 4.09, false]
+      - ["Choice, no countdown", 5.04, true]
+      - ["Choice, countdown", 4.30, false]
+    source: "Study 2, US online experiment, 123 adults. With a choice in place, adding a countdown lowered liking for the ad."
+
+related_pages: []
