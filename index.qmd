@@ -93,20 +93,21 @@ description: "Bruno Schivinski, Associate Professor of Marketing at Gdańsk Univ
     <div class="about-grid">
       <div class="about-text">
         <h2>About</h2>
-        <p>Bruno Schivinski is Associate Professor of Marketing at Gdańsk University of Technology, Poland. He studies
-          how people engage with brands in digital and social media, and how data-driven and AI-enabled technologies
-          shape consumer decisions, engagement and wellbeing. He is best known for his work on consumers' online
-          brand-related activities: how people consume, contribute to and create brand-related content, and what
-          that does for brands. His research combines behavioural theory with advanced quantitative methods, from
-          structural equation modelling and scale development to machine learning.</p>
+        <p>Bruno Schivinski (PhD) is Associate Professor of Marketing at the Department of Marketing, Faculty of
+          Management and Economics, Gdańsk University of Technology. His research examines how consumers engage with
+          brands in digital and social media, and how data-driven and AI-enabled technologies shape consumer decisions,
+          engagement and wellbeing. He is best known for his work on consumers' online brand-related activities
+          (COBRAs). His work combines behavioural theory with advanced quantitative methods, from structural equation
+          modelling and scale development to machine learning, and has appeared in journals including Industrial
+          Marketing Management, the Journal of Business Research and the Journal of Advertising Research.</p>
         <p>He has been named among the world's top 2% most-cited scientists in marketing in the Stanford
           University–Elsevier ranking every year from 2023 to 2026, and ranks among the world's top 1,000 scholars
           in three marketing research topics in the Scholarly Index (2026), including the top 1.8% in Digital
-          Marketing and Social Media. He has advised research councils and policy
-          bodies including the Australian Research Council, the UK Economic and Social Research Council, the Swiss
-          National Science Foundation, and Poland's Ministry of Science and Higher Education and National Science
-          Centre. He is the founder and editor of <a href="#marketing-in-3">Marketing in 3</a>, which
-          translates peer-reviewed marketing research for practitioners.</p>
+          Marketing and Social Media. He has advised research councils and policy bodies including the Australian
+          Research Council, the UK Economic and Social Research Council, the Swiss National Science Foundation, and
+          Poland's Ministry of Science and Higher Education and National Science Centre. He is the founder and editor
+          of <a href="#marketing-in-3">Marketing in 3</a>, which translates peer-reviewed marketing research for
+          practitioners.</p>
         <p class="bio-copy">For event and course organisers:
           <button type="button" class="copy-bio" data-target="bio-short">Copy short bio</button>
           <button type="button" class="copy-bio" data-target="bio-long">Copy full bio</button></p>
