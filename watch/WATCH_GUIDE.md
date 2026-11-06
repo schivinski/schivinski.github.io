@@ -324,6 +324,9 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 - Local builds without PUBLISH still show every year, so the tabs can be checked before release. A local PUBLISH=1
   build deletes the hidden years' generated pages in watch/posts/; restore them with `git checkout -- watch/posts/`
   rather than committing the deletions.
+- **Released 7 Nov 2026 (Bruno: "publish both 2025 ... and 24"):** both tabs went public together, 52 issues each, with
+  `RELEASED_LOOKBACK = ("2025", "2024")` and every look-back issue's `published:` set to 2026-11-07. A future look-back
+  year starts hidden again: add it to `LOOKBACK_YEARS` but not to `RELEASED_LOOKBACK` until its release day.
 
 ## Style log: Bruno's language corrections (Bruno, 5 November 2026)
 - Bruno is training the writing by flagging sentences that do not sound natural. Every correction becomes a rule in

@@ -3,7 +3,7 @@
 series: 2025
 number: 39                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
 week_of: "2025-09-29"            # the day the paper was first published online (shown as "Paper published ...")
-published: "2026-11-06"          # the day this page went live (metadata only, never shown)
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
 slug: vr-ad-incongruent-products
 status: live
 

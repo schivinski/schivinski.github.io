@@ -10,7 +10,7 @@ series: 2024
 number: 14                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
 week_of: "2024-04-02"            # the day the journal issue was published (Crossref published-print); orders the tab
 dateline: "Journal issue published 2 April 2024"
-published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
 slug: firestorm-apology-or-fix
 status: live
 source_basis: >-

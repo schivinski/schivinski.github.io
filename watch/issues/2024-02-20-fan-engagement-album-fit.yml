@@ -3,7 +3,7 @@
 series: 2024
 number: 8                       # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
 week_of: "2024-02-20"            # the day the paper was first published online (shown as "Paper published ...")
-published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
 slug: fan-engagement-album-fit
 status: live
 

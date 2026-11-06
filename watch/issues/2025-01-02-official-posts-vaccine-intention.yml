@@ -8,7 +8,7 @@ series: 2025
 number: 1                       # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
 week_of: "2025-01-02"            # the day the journal issue was published (Crossref published-print); orders the tab
 dateline: "Journal issue published 2 January 2025"
-published: "2026-11-02"          # the day this page went live (metadata only, never shown)
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
 slug: official-posts-vaccine-intention
 status: live
 
