@@ -1,0 +1,231 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 36                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-09-05"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-06"          # the day this page went live (metadata only, never shown)
+slug: online-community-diversity
+status: live
+
+title: "Does calling an online community diverse attract more members? What a Marketing Letters study found"
+dek: >-
+  Two sign-up flyers for a local food app were identical except for three phrases. Shown to 3,128 adults across six
+  European countries, the one promising a diverse community drew more would-be members, and the keenest planned to do more once inside.
+short_title: "Why a diverse pitch draws more community members"
+
+description: >-
+  Peschel et al. find that describing an online community as diverse rather than like-minded raised interest in joining by
+  about 30% among 3,128 Europeans.
+
+keywords: [online community marketing, community recruitment, diversity and inclusion marketing, diverse online communities,
+  like-minded communities, community engagement, diversity orientation, membership diversity, inclusive marketing,
+  sign-up messaging, Marketing Letters]
+topics: [Social media, Creative]
+
+image:
+  file: 2025-online-community-diversity.jpg
+  og: 2025-online-community-diversity-og.jpg
+  alt: "Five young people of different backgrounds sit on a pink zigzag blanket in an autumn park, laughing as they knock orange paper cups together over a guitar, a halved watermelon and a basket of pastries"
+  caption: "A community that promises people unlike yourself can look more inviting, not less. Photo: Vitaly Gariev on Unsplash."
+
+short_answer: >-
+  It made people more interested. When 3,128 adults in six European countries took part in an online test, a flyer
+  inviting them into a local food community drew more interest in joining when it promised members unlike themselves
+  than when it promised like-minded ones. The diversity message did not quieten anyone once inside: people who were
+  keener to join said they would react to, comment on or share more of the community's posts.
+
+takeaways:
+  - "Interest in joining rose from 3.56 to 4.62 out of 7, roughly 30% higher, when the flyer promised a diverse community instead of a like-minded one."
+  - "Just 3 phrases differed between the two flyers; the offer, the design and the download link stayed exactly the same."
+  - "People shown the diverse pitch planned about a quarter more actions on a community post: 1.31 against 1.04, out of a possible 4."
+  - "Location mattered as much as wording: Dutch respondents given the diverse flyer were less keen to join (3.74) than Spanish respondents given the like-minded one (4.42)."
+
+paper:
+  doi: "10.1007/s11002-025-09792-4"
+  title: "The power of diversity in online communities"
+  authors: ["Peschel, A. O.", "Jacobsen, L. F.", "Salnikova, E.", "Banovic, M.", "Grunert, K. G."]
+  authors_full: ["Anne O. Peschel", "Lina F. Jacobsen", "Ekaterina Salnikova", "Marjia Banovic", "Klaus G. Grunert"]
+  year: 2025
+  journal: "Marketing Letters"
+  volume: "36"
+  issue: "4"
+  pages: "949-962"
+  online: "2025-09-05"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Anne O. Peschel"
+      affiliation: "MAPP Centre, Department of Management, Aarhus University, Fuglesangs Allé 4, 8210, Aarhus V, Denmark"
+      orcid: "0000-0001-9560-5974"
+    - name: "Lina F. Jacobsen"
+      affiliation: "MAPP Centre, Department of Management, Aarhus University, Fuglesangs Allé 4, 8210, Aarhus V, Denmark"
+      orcid: ""
+    - name: "Ekaterina Salnikova"
+      affiliation: "Department of Marketing, NEOMA Business School, Mont-Saint-Aignan, France"
+      orcid: ""
+    - name: "Marjia Banovic"
+      affiliation: "MAPP Centre, Department of Management, Aarhus University, Fuglesangs Allé 4, 8210, Aarhus V, Denmark"
+      orcid: ""
+    - name: "Klaus G. Grunert"
+      affiliation: "MAPP Centre, Department of Management, Aarhus University, Fuglesangs Allé 4, 8210, Aarhus V, Denmark"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One online survey experiment with 3,128 adults in six regions of France, the Czech Republic, Germany, the Netherlands, Poland and Spain; the manipulation check is part of it, not a separate study"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Anne O. Peschel, Lina F. Jacobsen, Marjia Banovic and Klaus G. Grunert of Aarhus University in Denmark, with
+      Ekaterina Salnikova of NEOMA Business School in France, took up a question many brands are asking again. Some large
+      companies are scaling back their diversity and inclusion work, campaigns on the theme have met both praise and anger,
+      and most earlier research looked at how a single minority group responds. This team wanted to know how ordinary
+      consumers react when an online community tells them its members are diverse.
+
+      They borrowed a real community. FOXLINK, an online network for local food that was running when the data were
+      collected, links shoppers with farmers, and its recruitment flyer became the test material. One group read that they
+      could connect with a diverse community and a diverse set of farmers, and test product ideas with consumers different
+      from them. The other group read the same flyer with like-minded in place of diverse and similar in place of different.
+
+      Each person rated how much they wanted to join, then saw a genuine post from the community, a tip sheet on cutting food
+      waste at home, and said what they would do with it. Last came five statements measuring how open they are to people
+      unlike themselves.
+    facts:
+      - ["Participants", "3,128 adults from a market research panel, in six regions of France, the Czech Republic, Germany, the Netherlands, Poland and Spain"]
+      - ["Sampling", "Around 500 per region, matching each region's mix of gender, age and education"]
+      - ["Community", "FOXLINK, a real online network connecting consumers and farmers around local food"]
+      - ["What changed", "Three phrases on the sign-up flyer: a diverse community, diverse farmers and consumers unlike you, or like-minded versions similar to you"]
+      - ["Measured", "Interest in joining (1 to 7), planned actions on one community post (0 to 4) and each person's openness to difference"]
+
+  - h: "A diverse pitch drew more interest"
+    body: |
+      The diverse flyer won clearly. On the seven-point scale, readers of the like-minded version sat below the midpoint on
+      wanting to join, and readers of the diverse version sat above it. Allowing for where people lived trimmed the gap only
+      a little.
+
+      The direction held in every region. The lift was largest in Poland and France and smallest in Spain, where people were
+      already the keenest to sign up whichever version they read.
+
+      How much did people notice the change? Not a great deal. Asked how different from them the members seemed, the two
+      groups averaged 4.04 and 3.92 (of a possible 7), a small though statistically reliable gap. That hints, though it was
+      never tested, that a few words on a flyer can change how appealing a community looks before anyone consciously weighs
+      who its members are.
+    chart: countries
+
+  - h: "Do diverse communities go quiet?"
+    body: |
+      The researchers expected a catch. People tend to warm to groups of others like themselves, so in a mixed community
+      newcomers might sign up and then hold back, unsure of the unwritten rules. Lurking would feel safer than speaking up.
+
+      The data said otherwise. Everyone ticked which of four things they would do with the food waste post: react, comment,
+      share it, or share it with a note of their own. Those who had seen the diverse pitch chose a few more of them, and the
+      analysis gave no sign of a hidden drop in activity.
+
+      The diversity wording did not lift activity on its own, though. It worked through interest: the keener someone was to
+      join, the more they planned to do. That link was stronger among people high in diversity orientation, a psychologist's
+      term for valuing both what people share and how they differ. Openness did not make anyone respond more to the word
+      diverse itself. It made their interest more likely to turn into action.
+    chart: actions
+
+  - h: "Purpose still does most of the work"
+    body: |
+      The authors recommend celebrating diversity when presenting an online community, since they found no penalty for it.
+      Diversity campaigns have sparked anger elsewhere, so that reassurance needs a footnote: nobody here was asked whether
+      the message irritated them, which makes the evidence against a backlash indirect.
+
+      Their second point matters as much. Because wanting to join drove activity more than anything else, they argue that a
+      recruitment message should also make plain what the community is for and what it values. Diversity widens the door;
+      a clear purpose brings in the people who will actually take part.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Describe who is already inside", "List three or four real differences among your current members, such as age, location, background or level of expertise. Use only what you can back up with member data or a short poll."]
+  - ["Say what the group is for", "Sum up in a single sentence what members get done together, such as swapping recipes or trying new products. Keep it under 20 words so it fits on a banner or a sign-up button."]
+  - ["Swap the 'people like you' line", "In your sign-up message, replace phrases such as 'people like you' with 'people with different experiences from yours'. Change only those words and keep the offer, images and button the same."]
+  - ["Make the first post easy to answer", "Greet new members with a post they can respond to in seconds: a short tip list, a question or a photo prompt. Ask for one small action, such as a reaction or a one-line comment."]
+  - ["Run both versions side by side", "Show the like-minded wording to half your audience and the mixed wording to the rest, for two weeks. Count sign-ups for every 100 people who see each version."]
+  - ["Watch the first 30 days", "For each new member, count reactions, comments and shares in their first month. Split the results by country or region, because the same message can land very differently from one market to the next."]
+
+expect:
+  - "**Interest first.** The clearest gain was in how many people wanted to join; the diverse version moved the typical reader from lukewarm to mildly keen."
+  - "**A modest knock-on.** The extra activity came through that interest and amounted to a fraction of one additional action per person."
+  - "**Bigger returns among the open-minded.** People who value difference turned interest into action more readily. Our extrapolation is that the effect will be strongest where an audience already leans that way."
+  - "**Different starting points.** The same flyer met a much warmer welcome in some countries than in others, before any wording was changed."
+
+limits:
+  - "**Intentions, not behaviour.** Nobody actually joined or posted; people said how interested they were and ticked what they would do."
+  - "**One question for interest.** Wanting to join was measured with a single rating, and the authors suggest adding signals such as time spent on the page."
+  - "**One community, one post.** A local food network and a food waste tip sheet; brand communities, hobby groups or professional forums may react differently."
+  - "**Openness measured last.** Diversity orientation was asked after the flyer, and the diverse group scored slightly higher on it (4.90 against 4.67), so the flyer may have nudged those answers. This is our observation; the paper does not discuss it."
+  - "**Uneven groups.** 1,810 people saw the like-minded flyer and 1,318 the diverse one, and no reason is given."
+  - "**Europe only.** Six regions were analysed together, with region as a control; audiences elsewhere were not tested."
+
+faq:
+  - q: "Does saying an online community is diverse attract more members?"
+    a: "In stated interest, yes. Europeans who read a sign-up flyer promising a diverse community rated their wish to join about a point higher, out of seven, than those promised like-minded members (Peschel et al., 2025). Actual sign-ups were not tracked."
+  - q: "Will members of a diverse community be less active?"
+    a: "Not on this evidence. Those who saw the diverse version planned slightly more reactions, comments and shares on a community post, and no direct dip was linked to the diversity message."
+  - q: "What is diversity orientation?"
+    a: "An attitude that recognises and accepts both the similarities and the differences between people. It was measured here with five short statements, and higher scorers were more likely to convert interest in a community into activity."
+  - q: "Did the diverse message work in every country?"
+    a: "The diverse version came out ahead in all six regions surveyed, from North Brabant in the Netherlands to Valencia in Spain. The size of the lift, and how keen people were to begin with, varied considerably between them."
+  - q: "What should a community sign-up message say?"
+    a: "The authors suggest pairing a clear signal that many kinds of people are welcome with an equally clear statement of the community's purpose and values, so the message reaches people who genuinely care about what the group does."
+
+also:
+  - doi: "10.1002/mar.70024"
+    title: "The Rise of the Deinfluencers: Perceived Similarity and Anticipated Emotions in Advocating Mindful Consumption on Social Media"
+    authors: "Tran, Aboulnasr, & Song"
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Deinfluencers urge followers to skip overpriced, indulgent or useless products and to live more simply and sustainably.
+      In four studies, people felt they shared more attitudes and values with deinfluencers than with conventional influencers.
+      That sense of kinship stirred anticipated pride and guilt, which strengthened intentions to consume mindfully, and those
+      intentions predicted willingness to pay more for sustainably made goods and to engage with the creator's posts; the fourth
+      study tied the chain to actual mindful buying. A creator who tells followers to buy less can still be a good partner for
+      the brand selling the better alternative.
+  - doi: "10.1108/qmr-10-2024-0213"
+    title: "Algorithm-shaped norms: how YouTube's comment ranking algorithm influences consumer reactions to social issue campaigns"
+    authors: "Feng & Chen"
+    journal: "Qualitative Market Research"
+    year: 2025
+    text: >-
+      When a brand posts a campaign promoting inclusive gender identity on YouTube, the comments the platform ranks at the top
+      can set the tone for everyone who scrolls down. Interviews with 23 YouTube users point to four ways people conform to
+      those top comments, passive, indirect, direct and active, each with its own degree of agreement and willingness to speak
+      up. Together these reactions help the view that sits at the top become the one that seems to dominate. The first screen
+      of comments under a campaign deserves as much care as the campaign itself.
+
+charts:
+  countries:
+    title: "Lift in interest in joining from the diverse flyer, by country (points on a 1 to 7 scale)"
+    scale: [0, 1.5]
+    step: 0.5
+    unit: ""
+    decimals: 2
+    bars:
+      - ["All six countries", 1.06, true]
+      - ["Poland", 1.21, false]
+      - ["France", 1.16, false]
+      - ["Germany", 1.00, false]
+      - ["Netherlands", 0.99, false]
+      - ["Czech Republic", 0.99, false]
+      - ["Spain", 0.55, false]
+    source: "Online Appendix B, 3,128 adults: diverse-flyer mean minus like-minded-flyer mean, worked out by us. Country gaps were not tested one by one."
+  actions:
+    title: "Planned actions on a community post, out of 4 (react, comment, share, share with comment)"
+    scale: [0, 4]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["All six, like-minded flyer", 1.04, false]
+      - ["All six, diverse flyer", 1.31, true]
+      - ["Netherlands, like-minded", 0.61, false]
+      - ["Netherlands, diverse", 0.73, false]
+      - ["Spain, like-minded", 1.45, false]
+      - ["Spain, diverse", 1.63, false]
+    source: "Results section and Online Appendix B, 3,128 adults. The Netherlands and Spain had the lowest and highest scores of the six countries."
+
+related_pages: []
