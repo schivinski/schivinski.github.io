@@ -299,6 +299,10 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   October 2024). Built straight through in batches of about eight (no review gate).
 - **Plan:** watch/PLAN_2024.md lists every slot (DOI, date, status) and the also-new items reserved for each. Papers and
   also-new items planned there are reserved for the 2024 tab.
+- **Papers Bruno sources (Bruno, 7 Nov 2026):** to bring more meta-analyses into the tab, papers do not need to be open
+  access when Bruno supplies the PDF. They replace swapped-in slots, are read in full from his PDF, and carry
+  `open_access: false` and `licence: ""`. The PDFs stay outside the public repo (see "Paper PDFs are kept in a private
+  GitHub repo"). Replaced issues are removed and the tab renumbered by date.
 - **Code (2 Nov 2026):** `scripts/build_watch.py` now takes a tuple of look-back years, `LOOKBACK_YEARS = ("2025", "2024")`.
   Each year gets its own tab at `watch/<year>/` (generated, git-ignored) and "Browse by year" shows 2026 · 2025 · 2024,
   listing a year only once it has issues. Previous/Next links stay inside each year. To open another year, add it to
