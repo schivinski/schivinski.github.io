@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-04",
+ "as_of": "2026-11-06",
  "scholar_snapshot": "2026-11-01",
  "baseline": "2026-11-01",
  "h_index": 34,
@@ -13,7 +13,7 @@
   "10.1007/s11469-019-00088-z": 440,
   "10.3389/fpsyg.2020.617140": 261,
   "10.3390/jcm8101691": 177,
-  "10.1016/j.socscimed.2022.114721": 189,
+  "10.1016/j.socscimed.2022.114721": 190,
   "10.1080/2153599x.2022.2070255": 198,
   "10.1016/j.indmarman.2018.03.009": 159,
   "10.1016/j.abrep.2018.06.004": 159,
@@ -54,7 +54,7 @@
   "t:rozwj bada nad kapitaem marki bazujcym na konsumencie  przegld literatury": 12,
   "10.1108/jsocm-03-2023-0066": 11,
   "t:wpyw postrzeganego ryzyka oraz czynnikw wizerunkowych na zamiar zakupu marek was": 11,
-  "10.1371/journal.pone.0273927": 10,
+  "10.1371/journal.pone.0273927": 11,
   "t:smart tv users and interfaces whos in control": 9,
   "10.1080/2153599x.2022.2070248": 9,
   "t:knowledge management driven leadership culture and innovation success  an integr": 9,
@@ -112,7 +112,7 @@
    "need": 5,
    "per_month": 0.37,
    "velocity_source": "openalex",
-   "months_to_cross": 13.4,
+   "months_to_cross": 13.5,
    "year": 2022,
    "title": "Improving the Health of Emerging Adult Gamers—A Scoping Review of Influences"
   },
@@ -132,7 +132,7 @@
    "need": 10,
    "per_month": 0.49,
    "velocity_source": "openalex",
-   "months_to_cross": 20.2,
+   "months_to_cross": 20.3,
    "year": 2024,
    "title": "Translating the user-avatar bond into depression risk: A preliminary machine learning study"
   },
@@ -142,7 +142,7 @@
    "need": 10,
    "per_month": 0.29,
    "velocity_source": "openalex",
-   "months_to_cross": 34.6,
+   "months_to_cross": 34.8,
    "year": 2022,
    "title": "Online Gambling Disorder Questionnaire (OGD-Q): An item response theory examination"
   },
@@ -152,7 +152,7 @@
    "need": 12,
    "per_month": 0.34,
    "velocity_source": "openalex",
-   "months_to_cross": 35.2,
+   "months_to_cross": 35.5,
    "year": 2024,
    "title": "What if utilitarian products are regarded as high-status? The moderate role of iconic and popular as two dimensions of brand Coolness"
   },
@@ -162,7 +162,7 @@
    "need": 9,
    "per_month": 0.11,
    "velocity_source": "openalex",
-   "months_to_cross": 82.3,
+   "months_to_cross": 83.0,
    "year": 2021,
    "title": "Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scoping Review"
   },
@@ -172,7 +172,7 @@
    "need": 10,
    "per_month": 0.1,
    "velocity_source": "openalex",
-   "months_to_cross": 103.8,
+   "months_to_cross": 104.3,
    "year": 2019,
    "title": "The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish Restaurant Sector"
   },
