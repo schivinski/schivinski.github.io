@@ -1,0 +1,232 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 45                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-11-10"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: gratitude-fashion-ratings
+status: live
+
+title: "Do larger-sized shoppers give online fashion stores better ratings? What a European Journal of Marketing study found"
+dek: >-
+  Women in larger sizes who fear weight-based judgement feel grateful to the online stores that dress them, and grateful
+  shoppers hand out more stars. Three online studies, plus sales records from a big marketplace, follow that chain from
+  feeling to rating to sales.
+short_title: "Larger-sized shoppers, gratitude and star ratings"
+
+description: >-
+  O’Rourke et al. find larger-sized women who fear weight stigma feel more grateful to online fashion stores, and that
+  gratitude goes with higher star ratings.
+
+keywords: [plus-size fashion, larger-sized shoppers, online fashion retail, inclusive sizing, size inclusivity, consumer gratitude,
+  weight stigma, seller ratings, star ratings and sales, black clothing, European Journal of Marketing]
+topics: [Retail, UGC]
+
+image:
+  file: 2025-gratitude-fashion-ratings.jpg
+  og: 2025-gratitude-fashion-ratings-og.jpg
+  alt: "T-shirts hang in a tight row on black hangers, white and cream at the front, then red, black, mustard yellow, burgundy and tan, with darker shirts fading out of focus"
+  caption: "Black or a colour? The choice turned out to matter for how some shoppers felt about the store. Photo: Parker Burchfield on Unsplash."
+
+short_answer: >-
+  Some do, and gratitude appears to be the link. In an online study with 393 US women, those who wore larger sizes and worried
+  that others judge them by their weight felt more grateful to a clothing seller, and grateful shoppers gave it more stars. Women
+  without that worry showed no such pattern. Across 6.5 million sales of summer clothes on a large marketplace, better-rated
+  sellers also sold more, though only modestly.
+
+takeaways:
+  - "Among women in larger sizes, gratitude to the seller was about 3.8 out of 5 when worry about weight stigma was high, against about 3.1 when it was low."
+  - "The link between size and gratitude only appeared once worry about weight stigma reached 3.25 out of 7, a level that 62% of the women met or passed."
+  - "When women could pick from four colours, 57% to 58% chose black, yet black went with more gratitude for larger sizes in only two of three studies."
+  - "Being able to find one's size did not explain the gratitude, and a range of 64 designs worked no better than one of 4."
+
+paper:
+  doi: "10.1108/ejm-01-2024-0003"
+  title: "Gratitude’s impact: the positive influence of larger-sized female shoppers on online fashion retailer ratings"
+  authors: ["O’Rourke, A.-M.", "Khan, H.", "Mathmann, F.", "Wang, S."]
+  authors_full: ["Anne-Maree O’Rourke", "Hiba Khan", "Frank Mathmann", "Shasha Wang"]
+  year: 2025
+  journal: "European Journal of Marketing"
+  volume: "59"
+  issue: "13"
+  pages: "535-569"
+  online: "2025-11-10"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs); the article prints no ORCID iDs
+    - name: "Anne-Maree O’Rourke"
+      affiliation: "UQ Business School, The University of Queensland, Brisbane, Australia"
+      orcid: ""
+    - name: "Hiba Khan"
+      affiliation: "Bond Business School, Bond University, Gold Coast, Australia"
+      orcid: ""
+    - name: "Frank Mathmann"
+      affiliation: "School of Advertising, Marketing and PR, Queensland University of Technology, Brisbane, Australia"
+      orcid: ""
+    - name: "Shasha Wang"
+      affiliation: "School of Advertising, Marketing and PR, Queensland University of Technology, Brisbane, Australia"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 4
+    basis: "Three online studies with 886 women on Prolific (313 UK, 180 US, 393 US) and one field dataset of 6,509,133 Wish.com sales across 1,491 products; the assortment check inside Study 3 is not counted separately"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Anne-Maree O’Rourke from The University of Queensland,
+      Hiba Khan from Bond University, and
+      Frank Mathmann and Shasha Wang from Queensland University of Technology, all in Australia, began with a well-known
+      pattern. Many larger-sized women prefer to buy clothes online, partly to avoid fitting rooms, unhelpful staff and stores
+      that tuck bigger sizes away. Far less is known about how these shoppers feel once they are on a retailer's site, and
+      whether those feelings reach the seller's ratings.
+
+      The team's answer was gratitude. As they saw it, stocking larger sizes costs a seller more fabric and effort, while
+      shopping online spares these customers some of the judgement they meet in person. That mix can leave shoppers thankful,
+      and thankful people like to give something back.
+
+      Three online studies put women in front of an invented store, My Clothing Shop, offering one T-shirt in 14 sizes from 3XS
+      to 8XL, with the chance to bid on it as an entry into a cash prize draw. Women then said how grateful, thankful and
+      appreciative they felt towards the store. Their body size came from the clothing size they usually wear or, in one
+      study, from the height and weight they reported. A fourth study turned to real sales records.
+    facts:
+      - ["Participants", "886 women recruited on Prolific: 313 in the UK, then 180 and 393 in the US"]
+      - ["The store", "An invented online seller offering a single T-shirt in every size from 3XS to 8XL"]
+      - ["What changed", "T-shirt colour, assigned in the first study and chosen by the women in the next two"]
+      - ["Measured", "Gratitude towards the store (1 to 5), worry about weight stigma (1 to 7) and, in the third study, a star rating"]
+      - ["Field data", "Seller ratings and sales for 1,491 summer clothing products on Wish.com"]
+      - ["Design note", "Body size cannot be assigned at random, so every link with size is an association"]
+
+  - h: "Worry about being judged makes the difference"
+    body: |
+      The clearest result concerns weight stigma: the fear that other people will judge you, reject you or withhold respect
+      on account of your weight.
+
+      The second study measured body size by body mass index. A higher index went with more gratitude only for women who felt
+      this fear at a middle or high level. At a low level there was no link at all. The third study, with T-shirt size in place
+      of body mass index, found the same thing. Among women who worried little, size did not change how grateful they
+      felt. Among those with average or strong worry, larger sizes went with more gratitude, and the pattern was strongest among
+      the most worried.
+
+      The authors think online shopping matters most to the women who most fear being judged in a store. The first
+      study supports part of that story: women in bigger sizes reported more shame about shopping for clothes in person.
+    chart: stigma
+
+  - h: "Black helped, though not every time"
+    body: |
+      Colour was the second factor. Black has a reputation for slimming and for letting the wearer blend in, so the team
+      expected it to protect the comfort of shopping from home.
+
+      In the first study, colour was handed out at random. Among larger-sized women, those shown the black T-shirt
+      reported more gratitude than those shown white, blue, green, yellow or grey. Among women in smaller sizes, black did
+      slightly worse than the colours. In the second study women picked their own colour, and the pattern for black held.
+
+      The third study broke the run. There, the colour a woman chose did not alter the link between her size and her
+      gratitude, even though black was again the most popular pick.
+    chart: colour
+
+  - h: "Having your size was not the point"
+    body: |
+      Could the gratitude simply be relief at finding something that fits? The team checked twice. In the first study they asked
+      how much women expect to find their size when shopping for clothes online. That expectation had no bearing on gratitude,
+      and the colour pattern survived with it taken into account. In the third study, half the women saw a store with a large
+      range of designs and half a store with a small one. The size of the range changed nothing.
+
+      The authors put the gratitude down to how safe the online store feels, rather than to choice. Feeling safe
+      was never measured, though, so this part rests on their interpretation.
+
+  - h: "From stars to sales"
+    body: |
+      In the third study, women also gave My Clothing Shop a rating from one to five stars, and the average came to just over
+      four. Gratitude did the connecting: once it was accounted for, body size and the rating were no longer linked. The route
+      from size through gratitude to stars ran only for women with at least average worry about weight stigma.
+
+      The fourth study used records from a large online marketplace where third-party sellers are rated by buyers. Products from
+      better-rated sellers sold more, a modest association with a correlation of 0.12. Products in larger sizes carried slightly
+      higher seller ratings and also sold more, partly through those ratings. The pattern held when the team kept only products
+      made for women. These are associations in real data. By the authors' own account, they cannot prove that ratings
+      cause sales.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Audit your size range", "List the sizes on offer for your 20 best-selling styles. Where a style stops at XL, plan two or three larger sizes for the next order."]
+  - ["Keep black in every size", "For each style sold in extended sizes, offer black alongside the colours. Check stock weekly so black never runs out in the largest sizes first."]
+  - ["Put every size on one page", "Show all sizes on the same product page and in the same filters, not in a separate corner of the site. Launch new styles in every size on the same day."]
+  - ["Open review requests with thanks", "Start the post-delivery email by thanking the customer for shopping with you. Then ask what they appreciated about the order, four or five days after it arrives."]
+  - ["Test the thank-you wording", "For four weeks, send half your customers the new email and half your usual one. Compare how many reviews each version brings in and the average stars."]
+  - ["Track ratings by size band", "Every month, split your ratings into small, middle and extended sizes. If extended sizes trail, read those reviews first and fix what they mention."]
+
+expect:
+  - "**Gratitude sits with one group.** The lift showed up among larger-sized women who feel judged on their weight, not across all shoppers."
+  - "**A small step per customer.** In the third study, each extra point of gratitude on the five-point scale went with roughly one third of a star."
+  - "**Everyone sees the stars.** Ratings are public, so in the authors' view goodwill from larger-sized customers can help a seller win shoppers of every size."
+  - "**Costs are real.** Larger garments use more material. The authors believe the rating benefit outweighs that, but they did not put a number on costs or profit."
+
+limits:
+  - "**Associations, not proof.** Nobody can be given a body size at random, so the ties between size, gratitude and ratings are correlations."
+  - "**A scenario, not a purchase.** Women reacted to one T-shirt from a made-up store in a short online task, not to a real shopping trip."
+  - "**Women in two countries.** Only women living in the UK or the US took part. Other genders, cultures and categories such as shoes or accessories were not covered."
+  - "**Colour is a weak lead.** The black T-shirt result did not hold in the third and largest study."
+  - "**Stars and sales move together.** The marketplace records cannot tell which one drives the other."
+
+faq:
+  - q: "Do plus-size shoppers prefer buying clothes online?"
+    a: "Earlier work says many do, partly to avoid changing rooms, awkward encounters with sales staff and plus-size sections placed at the back of the store. This paper looks at what happens next: larger-sized women who are anxious about weight stigma tend to feel thankful to the online seller, which in turn comes with better ratings for the store (O’Rourke et al., 2025)."
+  - q: "Weight stigma: what exactly was measured?"
+    a: "It is the worry of being judged, turned away or treated unfairly by others because of your weight. The team measured it with five statements, each answered on a seven-step scale."
+  - q: "Should online fashion stores push black clothing?"
+    a: "Offer it rather than push it. The colour effect came and went across the studies, and the authors still recommend a wide range of styles and colours."
+  - q: "Do better seller ratings lead to more sales?"
+    a: "They tend to rise together. In marketplace records for almost 1,500 clothing products, higher-rated sellers sold more, but the link was modest and the data cannot settle cause and effect."
+  - q: "Why focus on gratitude rather than plain happiness?"
+    a: "Gratitude carries a wish to give something back to whoever helped you. The authors argue this makes it less self-focused than happiness or enjoyment, and more likely to reward the seller, for instance with a good rating."
+
+also:
+  - doi: "10.1002/mar.70071"
+    title: "Diversity in Femvertising: An Experimental Investigation"
+    authors: "Papadopoulou, Hultman, & Oghazi"
+    journal: "Psychology & Marketing"
+    year: 2026
+    text: >-
+      Ads that set out to empower women are now common, but does a diverse cast make them work better? Across four experiments,
+      more diverse representation improved how people saw the brand and their intention to buy, mainly because the brand seemed
+      more authentic. Political leaning split the response: liberals warmed to diverse ads, while conservatives
+      preferred casts that looked alike. Inclusion lands best when it reads as genuine rather than token, and when you know who
+      is watching.
+  - doi: "10.1002/cb.70058"
+    title: "Alignment of GenAI Modalities With Product Types in Generating Ads: The Mediating Roles of Cognitive Load and Perceived Immersion"
+    authors: "Huang & Jiang"
+    journal: "Journal of Consumer Behaviour"
+    year: 2026
+    text: >-
+      Some AI tools work in a single format, while others blend text, images and sound. Drawing on real-world data and two
+      online studies, this paper finds that multimodal AI ads suit experience products because they make people feel immersed,
+      while single-format AI ads suit search products because they are easier to take in, which lifts intentions to buy. The
+      product, more than the novelty of the tool, should decide how rich the AI-made ad needs to be.
+
+charts:
+  stigma:
+    title: "Gratitude to the online store, by T-shirt size and worry about weight stigma (1 to 5 scale)"
+    scale: [1, 5]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Small sizes, low stigma worry", 3.33, false]
+      - ["Small sizes, high stigma worry", 3.40, false]
+      - ["Large sizes, low stigma worry", 3.13, false]
+      - ["Large sizes, high stigma worry", 3.79, true]
+    source: "Study 3, 393 US women; values read from the published figure. Worry about weight stigma made a difference mainly for women in larger sizes."
+  colour:
+    title: "Gratitude to the online store, by T-shirt colour and size (1 to 5 scale)"
+    scale: [1, 5]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Small sizes, coloured T-shirt", 2.79, false]
+      - ["Small sizes, black T-shirt", 2.68, false]
+      - ["Large sizes, coloured T-shirt", 2.88, false]
+      - ["Large sizes, black T-shirt", 3.13, true]
+    source: "Study 1, 313 UK women, colour assigned at random (coloured means white, blue, green, yellow or grey); values read from the published figure."
+
+related_pages: []
