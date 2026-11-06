@@ -1,0 +1,239 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 52                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-12-15"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: consent-banner-dark-patterns
+status: live
+
+title: "Can a pushy cookie banner hurt the retargeted ads that follow? What a Journal of Advertising study found"
+dek: >-
+  Plenty of consent banners nudge people with chatty button labels or leave out any way to say no. Three studies with 714
+  Americans suggest the cost turns up later, when a retargeted ad brings that banner back to mind.
+short_title: "Why a pushy cookie banner follows your ads around"
+
+description: >-
+  Ju et al. find that once an ad from the same site recalls a cookie banner with no Decline button, people feel less in
+  control, in tests with 714 US adults.
+
+keywords: [dark patterns, cookie consent banner, data consent, consent management, online behavioral advertising,
+  retargeting, targeted advertising, persuasion knowledge, psychological reactance, privacy control, CPRA,
+  Journal of Advertising]
+topics: [Privacy, Advertising, Personalization]
+
+image:
+  file: 2025-consent-banner-dark-patterns.jpg
+  og: 2025-consent-banner-dark-patterns-og.jpg
+  alt: "A formal hedge maze seen from directly above, green box hedges clipped into stars, triangles and zigzag rows on red gravel paths around an octagonal stone fountain"
+  caption: "Some consent banners are built like a maze with only one way out. Photo: Fr. Daniel Ciucci on Unsplash."
+
+short_answer: >-
+  A little, and the retargeted ad is what sets it off. In an experiment with 392 US adults, a travel site's cookie banner
+  offered either an "I Agree" button alone or "I Agree" plus "Decline". After an ad for that same site, people who had met
+  the agree-only banner were reminded of it more, felt their data choices were being pushed and felt less in control.
+  Through that chain, their ratings of the site, ad and brand slipped slightly.
+
+takeaways:
+  - "Asked in their own words what made a consent notice honest or deceptive, about 40% of people (49 of 122) described signs of manipulation before anyone had used the term dark pattern."
+  - "In a test with 200 people, whichever wording they saw, they leaned towards feeling pushed by the banner (4.42 out of 7) and away from feeling in control of their privacy (3.72)."
+  - "When the next ad came from the same travel site, an agree-only banner left people rating the ad as a stronger reminder of the notice: 4.58 against 4.03 out of 7 with a Decline button."
+  - "Average liking for the brand did not move on its own: 4.08 out of 7 where the banner had no Decline button, 4.09 where it did. The harm showed up only through recall, pressure and a lost sense of control."
+
+paper:
+  doi: "10.1080/00913367.2025.2593666"
+  title: "Dark Patterns in Data-Consent Disclosures and Consumer Reactance to Online Behavioral Advertising"
+  authors: ["Ju, I.", "Ham, C.-D.", "Yel, E."]
+  authors_full: ["Ilwoo Ju", "Chang-Dae Ham", "Eylül Yel"]
+  year: 2026
+  journal: "Journal of Advertising"
+  volume: "55"
+  issue: "3"
+  pages: "307-325"
+  online: "2025-12-15"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Ilwoo Ju"
+      affiliation: "Brian Lamb School of Communication, Purdue University, West Lafayette, Indiana, USA"
+      orcid: "0000-0003-3900-5485"
+    - name: "Chang-Dae Ham"
+      affiliation: "Charles H. Sandage Department of Advertising, University of Illinois Urbana–Champaign, Urbana, IL, USA"
+      orcid: "0000-0001-5887-4163"
+    - name: "Eylül Yel"
+      affiliation: "Brian Lamb School of Communication, Purdue University, West Lafayette, Indiana, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Study 1: exploratory study of 122 US adults' written responses to eight consent labels (content analysis); Study 2: two-group online experiment, 200 US adults; Study 3: 2 x 2 online experiment, 392 US adults; three pretests not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Ilwoo Ju and Eylül Yel of Purdue University's Brian Lamb School of Communication, with
+      Chang-Dae Ham at the University of Illinois Urbana-Champaign, looked at the small box that greets visitors on most
+      websites: the request to accept cookies. Behavioral advertising runs on the data those boxes collect, and many of them
+      are designed to make saying yes easy and saying no hard. Regulators call such designs dark patterns.
+
+      The researchers set out to learn what people make of these banners, and whether a pushy one has consequences once
+      the advertising starts. They ran three studies, all built around the same invented travel agency website. The first
+      collected people's unprompted reactions to consent notices. The second changed only the wording on the button. The third
+      changed whether a Decline button was offered, then showed people an ad, either for that travel site or for an
+      unrelated brand.
+    facts:
+      - ["Participants", "714 US adults recruited online through CloudResearch: 122, 200 and 392 in the three studies"]
+      - ["Setting", "A fictional travel agency website showing a cookie consent notice"]
+      - ["What changed", "The label on the consent button, whether a Decline button appeared, and whether the ad that followed came from the same site"]
+      - ["Measured", "How pressured and how in control people felt about their data, how much the ad reminded them of the notice, and scores for the website, advert and brand, plus intention to buy, on seven-point scales"]
+      - ["Funding", "An American Academy of Advertising research fellowship awarded to the first author"]
+
+  - h: "What people read into a consent button"
+    body: |
+      The first study began with real practice. The researchers went through the websites of large US companies and
+      collected the labels most often printed on consent buttons: Accept, Agree, I like Cookies, I Am OK, I Am Happy,
+      Continue, Got It and Dismiss. Each participant saw one of these on the travel site and wrote down what made the notice
+      seem trustworthy or not. Two coders then sorted every answer.
+
+      Two complaints came up again and again. Conversational phrasing left people unsure what they were signing up to, and
+      a notice with no way to refuse felt like being cornered. A few admitted they simply could not tell whether they were
+      being tricked. When the idea of dark patterns was then explained, people rated "I am OK with that" as more
+      manipulative than a plain "I Agree". The authors still judge everyday vigilance to be limited: most answers did not
+      point to any manipulation.
+
+  - h: "Does one friendly phrase change anything?"
+    body: |
+      The second study pitted those two labels against each other with 200 new participants. Half saw a banner whose button
+      said "I Agree"; the other half saw "I am OK with that". Nothing else differed, and no ads were shown. People then
+      rated the website and the brand, said whether they would buy, and answered questions on whether the notice had
+      tried to decide for them or pressure them, and how much control they had over their privacy.
+
+      On its own, the wording did not shift any rating. Its influence was indirect. The vaguer label made the notice feel
+      more like an attempt to push, that feeling lowered people's sense of control, and lower control went with cooler views
+      of the site and brand, and with weaker plans to buy. A separate check before the study confirmed that the friendly
+      phrase looked more like a dark pattern than the plain one.
+    chart: looks
+
+  - h: "The retargeted ad brings the banner back"
+    body: |
+      The third study, with 392 participants, moved from wording to the buttons themselves and added advertising. The
+      banner offered either "I Agree" alone or "I Agree" next to "Decline". Straight after the site, each person saw a
+      social media style ad, labelled as an ad, that promoted either the same travel agency or a brand with no link to it.
+      People then said how far the ad had helped them remember the consent notice.
+
+      The same-site ad was the trigger. After it, people who had faced the agree-only banner recalled the notice
+      more than those given a choice. That recall made people feel more pushed, which cut their feeling of control, which
+      in turn pulled down how they rated the website, the advertisement and the brand, and their plans to buy. After the
+      unrelated ad, a missing Decline button left recall statistically unchanged, and the chain did not appear.
+
+      One result surprised the team. The fair banner followed by an unrelated ad produced recall about as high as the worst
+      case. Their explanation, offered after seeing the data, is that a fair banner followed by a matching ad holds no
+      surprises, so people do not dwell on it, while a mismatch makes them think back harder.
+    chart: recall
+
+  - h: "How big is the effect?"
+    body: |
+      Modest. Comparing the two banners directly, average scores barely differed on the seven-point scales: 4.00 against
+      4.05 on the website, 4.02 against 3.96 on the ad and 3.21 against 3.12 on intentions to buy, and the banner's direct
+      effect on each was not statistically reliable. Adding the combination of banner and ad to the model explained only
+      about 2% more of the differences in recall. The authors describe the effects as subtle and cumulative, working through people's sense of pressure and
+      control rather than shifting overall opinion in one go.
+
+      That is one banner, one visit and one ad. Real retargeting follows people for days across many sites. Whether the
+      effect grows with each repeat was not tested, so treat that as an open question rather than a finding.
+
+  - h: "What the authors want from advertisers"
+    body: |
+      Their advice is plain: say what the button does, and offer a real way to refuse. A form that asks for consent is not
+      enough by itself, they argue, and can even give people a false sense of being protected. They point out that
+      California's privacy rules now ban dark patterns in obtaining consent outright. Rather than leave the whole burden of
+      privacy with individuals, they want regulators, publishers, platforms and advertisers to share it, through strict
+      compliance and industry standards. They also see a role
+      for teaching people how data is collected, through schools and workplace training, because rules will always lag
+      behind new tracking practices.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List every banner you run", "Write down each website, app and landing page where you ask for tracking consent. Screenshot each banner on a phone and on a laptop, and copy out the exact words on every button."]
+  - ["Read each button out loud", "Ask a colleague outside marketing what each label commits them to. If they hesitate over phrases such as \"I'm OK with that\", \"Got it\" or \"Sounds good\", mark that banner for a rewrite."]
+  - ["Use plain verbs on the buttons", "Change the labels to Accept and Decline, or Accept all and Reject all. Keep each label to three words or fewer."]
+  - ["Give saying no equal weight", "Make Decline match Accept in size, colour and position, on the first screen. One tap should be enough to refuse, with no extra menus to open."]
+  - ["Fix the banner before you retarget", "Retargeted ads remind people where you got their data. Switch on retargeting for a site only once its banner offers a clear choice, and pause it on any site that still shows Accept alone."]
+  - ["Watch trust for 30 days", "Compare the click rate and the hide or report rate of your retargeted ads for 30 days before and after the new banner goes live. Put a single question in the survey you send after a purchase, such as: how much say did you have over your data on our site?"]
+
+expect:
+  - "**Small shifts, not a collapse.** On a single visit, the banner design did not change overall opinions of the brand. Any cost came indirectly, by way of how cornered people felt."
+  - "**The bill arrives with the ad.** The difference appeared once a matching ad was shown, not at the moment of consent."
+  - "**Possibly fewer opt-ins.** A visible Decline button gives people a real way out, and some will use it. Consent rates were not measured here, so this is an inference."
+  - "**Plain labels are a cheap fix.** Changing a chatty button to a plain verb is a copy edit, and here the plain wording carried less sense of pressure."
+
+limits:
+  - "**One invented site.** Every study used the same fictional travel agency; other categories and well-known brands may play out differently."
+  - "**One visit, one ad.** The ad came straight after the website. Real retargeting arrives later and keeps coming."
+  - "**Self-reported memory.** Recall of the notice was a rating people gave, not a memory test."
+  - "**No clicks or bookings.** Outcomes were ratings and stated intentions to buy. Nobody's consent choices or purchases were recorded."
+  - "**US adults recruited online.** Samples came from one online panel, and personal traits such as privacy knowledge were not examined."
+  - "**An unexplained twist.** The high recall after a fair banner and an unrelated ad was not predicted, and the explanation for it was offered after the fact."
+
+faq:
+  - q: "What is a dark pattern in a cookie consent banner?"
+    a: "A design that steers people towards sharing data they might otherwise refuse, such as a vague button label or a banner with no way to say no. When US adults wrote freely about consent notices, a sizeable minority called them tricky, coercive or confusing (Ju et al., 2026)."
+  - q: "Is \"I'm OK with that\" a bad label for a consent button?"
+    a: "It sounds friendly but reads as less honest. People saw it as more of a manipulation attempt than \"I Agree\". In a two-group test, swapping it in made the request feel like pressure, that eroded people's grip on their own data, and through it their opinion of the website and brand."
+  - q: "Why would a retargeted ad remind people of a cookie banner?"
+    a: "Because it points back to the site where the data was handed over. The authors treat a targeted ad as a memory cue that brings the consent moment back to mind. An ad from an unrelated brand did not do this in their test."
+  - q: "Does adding a Decline button cost advertisers consent?"
+    a: "The research did not count how many people accepted or declined, so it cannot say. It shows that offering a real choice spared the brand the extra recall and the feeling of being pushed that followed an agree-only banner once a matching ad appeared."
+  - q: "Do dark patterns in consent banners reduce sales?"
+    a: "Sales were not measured. Stated intentions to buy dipped slightly through the indirect route in two experiments, but the average intention barely differed between banner designs, and no real bookings were tracked."
+
+also:
+  - doi: "10.1002/cb.70085"
+    title: "Organisational Victims' Responses to Trolling: Effects on Bystander Hostile Emotions and Positive Engagement"
+    authors: "Mulcahy, Riedel, Keating, & Beatson"
+    journal: "Journal of Consumer Behaviour"
+    year: 2026
+    text: >-
+      When trolls go after a company online, what should the company say? Across three experiments with 1,126 people, saying
+      nothing drew more support from onlookers than a reply, whether friendly or hostile, above all when the troll was being
+      cruel for its own sake rather than making a moral point. Anger, disgust and contempt at the troll drove that support,
+      and it took the form of backing the company rather than attacking the troll. Sometimes the audience is the better
+      reply.
+  - doi: "10.1057/s41270-025-00451-1"
+    title: "The role of privacy concerns and technology anxiety regarding digital voice assistants for brand-and price-conscious grocery shoppers"
+    authors: "Schultz & Brüggemann"
+    journal: "Journal of Marketing Analytics"
+    year: 2026
+    text: >-
+      Voice assistants are becoming one more way to fill an online grocery basket, and this study treats them as frontline
+      service technology. Unease with the technology itself dimmed how shoppers saw the assistants, whether they shopped by
+      brand or by price. Privacy worries were different: they cut intentions to use an assistant among brand-focused shoppers
+      but not among those hunting for the lowest price. Shoppers loyal to particular brands are the ones who most need a plain
+      account of what the assistant hears and keeps.
+
+charts:
+  looks:
+    title: "How far each banner looked like a dark pattern, rated in pretests (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Wording: I Agree", 4.37, false]
+      - ["Wording: I am OK with that", 5.73, true]
+      - ["Buttons: Agree and Decline", 4.10, false]
+      - ["Buttons: Agree only", 4.82, true]
+    source: "Separate pretests run before Study 2 (button wording) and Study 3 (Decline button or not); each pair was rated by a different group of US adults."
+  recall:
+    title: "How much the ad brought the consent notice back to mind (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Unrelated ad, Agree and Decline", 4.56, false]
+      - ["Unrelated ad, Agree only", 4.28, false]
+      - ["Same-site ad, Agree and Decline", 4.03, false]
+      - ["Same-site ad, Agree only", 4.58, true]
+    source: "Study 3, 392 US adults, values as printed in the published figure. Only the gap after the same-site ad was statistically reliable."
+
+related_pages: []
