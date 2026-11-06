@@ -1,0 +1,232 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 46                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-11-11"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: alt-treatment-legality-framing
+status: live
+
+title: "Does it matter who shares a post about a legally contested treatment? What a Psychology & Marketing study found"
+dek: >-
+  Medical marijuana is banned under US federal law yet allowed in most states, so posts about it meet readers who weigh
+  the law very differently. Two US experiments show that a line about where it is illegal, and the faces of the people
+  sharing a post, change how warmly some readers respond.
+short_title: "Legal status, look-alike sharers and posts about a contested treatment"
+
+description: >-
+  Hsieh et al. find gain-minded readers warm more than cautious ones to medical marijuana posts flagged as illegal, above
+  all when sharers look like them.
+
+keywords: [medical marijuana marketing, cannabis social media marketing, health messaging on social media, legality framing,
+  regulatory focus, promotion focus, prevention focus, peer similarity, social proof, risky consumption, Psychology & Marketing]
+topics: [Social media, Advertising]
+
+image:
+  file: 2025-alt-treatment-legality-framing.jpg
+  og: 2025-alt-treatment-legality-framing-og.jpg
+  alt: "Loose heaps of dried herbs, pale green flower heads, darker green leaves and pink and gold rose petals, spread across an old wooden table and lit by a slanting shaft of daylight"
+  caption: "How a post about an alternative treatment lands depends on the reader, the legal note and the faces beside it. Photo: Anne Nygård on Unsplash."
+
+short_answer: >-
+  For some readers, yes, and mainly when the treatment's legal status is in doubt. In an experiment with 488 US adults
+  aged 18 to 25, people nudged into a mindset of chasing gains judged a post backing medical marijuana for multiple
+  sclerosis more likely to prompt a call to a doctor than safety-minded people did. That held only when the treatment
+  was described as illegal and six people of their own age and gender had shared the post.
+
+takeaways:
+  - "With a note that the treatment was illegal in 12 US states, gain-minded people's descriptions of it to a friend scored about 2.7 times higher on positive tone than safety-minded people's. With a note that it was legal in 38 states, the gap disappeared."
+  - "When all six visible sharers matched the reader's age and gender and the post carried the illegality note, gain-minded readers rated its chance of getting someone to phone a doctor at 5.89, against 5.25 from safety-minded readers."
+  - "Swapping three of those six faces for people of a different age erased the gap: 5.59 against 5.69."
+  - "Feeling calm was the route. In that look-alike, illegal setting gain-minded readers scored 2.33 for tension against 2.83 (1 means extremely relaxed), while hope and fear played no part."
+
+paper:
+  doi: "10.1002/mar.70079"
+  title: "Seeing More Similar Others in Social Media: Using Legality Framing and Regulatory Focus to Alter Reactions to Alternative Medicinal Treatment Messages"
+  authors: ["Hsieh, M.-H.", "Foreman, J. R.", "Yucel-Aybat, O."]
+  authors_full: ["Meng-Hua Hsieh", "Jeffrey R. Foreman", "Ozge Yucel-Aybat"]
+  year: 2026
+  journal: "Psychology & Marketing"
+  volume: "43"
+  issue: "3"
+  pages: "662-676"
+  online: "2025-11-11"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Meng-Hua Hsieh"
+      affiliation: "Ambassador Crawford College of Business and Entrepreneurship, Kent State University, Kent, Ohio, USA"
+      orcid: "0000-0003-3160-8388"
+    - name: "Jeffrey R. Foreman"
+      affiliation: "Walker College of Business, Appalachian State University, Boone, North Carolina, USA"
+      orcid: ""
+    - name: "Ozge Yucel-Aybat"
+      affiliation: "School of Business Administration, Pennsylvania State University Harrisburg, Middletown, Pennsylvania, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two online experiments with US adults on Prolific (401; 488 aged 18 to 25); a Google Trends pilot and a 96-person posttest not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Three academics from US business schools, Meng-Hua Hsieh (Kent State University),
+      Jeffrey R. Foreman (Appalachian State University) and
+      Ozge Yucel-Aybat (Pennsylvania State University Harrisburg), studied posts about a treatment whose legal
+      standing depends on where the reader lives. Their case was medical marijuana in the United States, where federal
+      law and most state laws disagree. This is known as dual legality, and the team asked who warms to such posts, and
+      when.
+
+      Their lens was regulatory focus, the idea that people pursue goals in one of two ways. Some chase gains and growth,
+      a promotion focus. Others guard against losses and put safety first, a prevention focus. Because gain-seekers
+      tolerate more risk, the team expected them to respond better than safety-seekers when a post was framed as illegal,
+      and expected no gap when it was framed as legal.
+
+      Both experiments opened with a short writing task that set one mindset or the other: describe a goal you strongly
+      want to reach, or an outcome you strongly want to avoid, then list four to six ways to get there. Participants then
+      pictured a friend newly diagnosed with multiple sclerosis and read a tweet from the National Multiple Sclerosis
+      Society backing patients' right to work with their doctors on access to marijuana for treatment. A second tweet,
+      styled as Reuters news, said where the treatment was legal or where it was illegal.
+    facts:
+      - ["Participants", "Two experiments on Prolific: 401 US adults with an average age of 42, then 488 young adults averaging 22"]
+      - ["Setting", "Tweets about multiple sclerosis care, read while imagining a close friend had just been diagnosed"]
+      - ["What changed", "A gain or safety mindset, a news tweet calling the treatment legal or illegal and, in the second study, who had retweeted the post"]
+      - ["Measured", "Tone of a description written for the friend; whether the post would prompt someone to contact a doctor; how relaxed, hopeful or fearful it made people feel"]
+      - ["Extra checks", "A Google Trends comparison of US states, plus a separate test of how risky each news tweet made the treatment seem"]
+
+  - h: "An illegality note did not put everyone off"
+    body: |
+      The first experiment asked everyone to write a short description of medical marijuana for their friend. A standard
+      word-count tool scored each one for positive and negative tone, which the authors treat as a sign of how readily
+      someone would talk the message up to others.
+
+      When the news tweet stressed illegality, gain-minded writers sounded clearly warmer than safety-minded ones. When it
+      stressed legality, the order flipped on paper, but that difference was too small to trust. Negative tone did not
+      differ between any of the groups.
+
+      A separate check showed why illegality matters. Ninety-six other people read one of the two news tweets. Those
+      given the illegal version rated using medical marijuana as treatment riskier, 4.31 against 2.75 on a scale topping
+      out at 7, and more dangerous, 3.94 against 2.56.
+    chart: tone
+
+  - h: "Who shared the post changed the picture"
+    body: |
+      The second experiment added a social layer. Every version of the society's post showed 105 retweets. In one
+      version, pictures of six retweeters matched the participant's own age and gender. In the other, three matched and
+      three shared the participant's gender but not their age. The outcome was a judgement of whether reading the material
+      would make someone more or less likely to contact a doctor about the treatment's possible benefits.
+
+      Look-alike sharers plus an illegality note produced the only clear gap between the two mindsets. Under the legal
+      framing, look-alike sharers made no reliable difference (5.43 from gain-minded readers, 5.71 from
+      safety-minded ones). The full three-way pattern was borderline on the usual statistical test, so the result is
+      encouraging rather than settled.
+    chart: doctor
+
+  - h: "Calm, not hope, carried the effect"
+    body: |
+      Why would familiar faces matter? The authors argue that seeing people like you back a risky choice works as
+      validation, and validation makes a decision feel less tense. Their measure asked how relaxed or tense the society's
+      post made people feel.
+
+      Only in the look-alike, illegal condition did gain-minded readers report feeling a little calmer than safety-minded
+      ones, and a mediation test tied that calm to their higher rating of the post. Hope and fear, the obvious rival explanations,
+      made no measurable difference. With mixed sharers or a legal framing, calm levels were much the same in both mindsets.
+
+  - h: "What the authors take from it"
+    body: |
+      The authors say marketers who want people to consider the therapeutic use of medical marijuana would likely lean on
+      gain-focused messages and accounts from similar others. They are just as clear about the other side. Relaxation
+      appears to make people more favourable to the treatment, and feeling too relaxed could limit careful decisions, so
+      anyone aiming for balanced information might strip out calming cues. They also suggest pairing testimonials with
+      clear warning labels, and they encourage even policy makers to test their posts before release.
+
+      Platform rules shape all of this. The paper notes that Google's advertising policies bar promoting marijuana and that
+      federal law restricts paid advertising for it, yet promotion still happens, sometimes through coded symbols, and
+      posts on personal pages are hard to police.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Check the rules in every market", "List each country or state your posts will reach. Mark where the product is legal and what each platform allows. Where paid ads are banned, do not get round the ban with code words or symbols, and keep posts away from anyone under the legal age."]
+  - ["Decide whether the post informs or persuades", "Put the job of the post into a single line. If it is meant to inform, give risks the same space as benefits. Have every health claim checked by a qualified reviewer before it goes out."]
+  - ["Write a gain opening and a safety opening", "Draft two first lines for the same post. One talks about what the reader can achieve, the other about what they can protect. Keep everything after the first line identical."]
+  - ["Show sharers who look like your readers", "When a post features people who back it, pick five or six who match your main audience in age and gender. Use real supporters who agreed to appear, never made-up accounts."]
+  - ["Test how you state legal status", "Run two accurate versions of the post that describe legal status differently, for example where it is allowed and where it is not. Show each version to at least 200 people from your audience."]
+  - ["Read the replies, not just the counts", "For seven days, read 50 comments on each version and mark each one warm, neutral or worried. If worried replies climb, rewrite the legal note before you spend more."]
+
+expect:
+  - "**One combination, not a general lift.** In both experiments the mindset gap appeared only when the post's legal standing was in doubt. Once the treatment was called legal, gain-minded and safety-minded readers responded alike."
+  - "**Half a crowd is not enough.** Replacing three of six look-alike sharers with people of another age was enough to remove the difference."
+  - "**Mood is part of the message.** In the one setting where the effect appeared, calm was the route to a warmer rating. Our inference, not tested here, is that soothing images and wording in a post do persuasive work of their own."
+  - "**Small shifts.** The look-alike gap was 0.64, on a rating where every group's average landed between 5 and 6."
+
+limits:
+  - "**Reactions, not actions.** Engagement meant the tone of a written description and a guess about whether the post would move someone else to call a doctor. Nobody shared, clicked or booked anything."
+  - "**One treatment, one condition, one platform.** Only medical marijuana, only in the context of multiple sclerosis, shown as tweets to US participants, and the social test used only people aged 18 to 25. The authors call for other medicines, platforms and countries."
+  - "**Mindsets set by a task.** A writing exercise put people into a gain or safety frame of mind for the occasion. Real audiences mix both, and nobody's usual orientation was measured."
+  - "**Borderline statistics.** The full pattern on the doctor rating and the calm gap between mindsets only came close to the usual threshold, and the check on gender matching was weak."
+  - "**Search data is a hint.** The Google Trends pilot compared states rather than people. It shows a pattern, not a cause."
+
+faq:
+  - q: "Does saying a treatment is illegal turn people off posts about it?"
+    a: "Not across the board. People in a gain-seeking frame of mind wrote more warmly about medical marijuana after reading it was illegal in some states than people focused on safety did, while a legal framing left both groups alike (Hsieh et al., 2026)."
+  - q: "What does regulatory focus mean?"
+    a: "It describes two ways people go after goals. A promotion focus means chasing ambitions and growth and accepting some risk on the way; a prevention focus means guarding against losses and valuing security and responsibility. A short writing task can tilt people towards either one for a while."
+  - q: "Why would sharers who look like me make a difference?"
+    a: "The authors' explanation is validation. Seeing people of your own age and gender support a choice confirms your view of it, which eases tension. Here that easing showed up only for gain-minded readers who had just been told the treatment was illegal."
+  - q: "Does the study show that medical marijuana works?"
+    a: "No. It tested reactions to messages, not the treatment itself, and its authors say plainly that deciding whether policy should encourage its use is not their goal."
+  - q: "Could this apply to other regulated products?"
+    a: "Possibly. The authors think the same mix of mindset, legal framing and peer similarity could matter for other risky consumption, but they tested only medical marijuana. They propose prescription drugs that carry different levels of risk as a next step."
+
+also:
+  - doi: "10.1177/00472875251380185"
+    title: "ChatGPT Coolness-Desirable Framework for Tourism and Hospitality"
+    authors: "Loureiro et al."
+    journal: "Journal of Travel Research"
+    year: 2025
+    text: >-
+      Two qualitative studies, followed by quantitative tests that ended in an experiment, explored what makes ChatGPT
+      feel cool to people using it to look for travel and hospitality options. Originality, usefulness, popularity, energy
+      and a sense of subculture built that coolness, and liking the relationship with the AI fed a strong wish to keep using it. Seeing the
+      assistant as warm strengthened the pull from coolness to that wish, while seeing it as competent weakened the link
+      between coolness and attitude. For travel brands building their own assistants, a friendly manner looks as important
+      as getting the answers right.
+  - doi: "10.1177/14705931251394757"
+    title: "Borrowed competence: Socially extending the mind to extend digital practices"
+    authors: "Stewart, Yap, & Kubacki"
+    journal: "Marketing Theory"
+    year: 2025
+    text: >-
+      An ethnography of a "Street Church" community looked at how consumers with few digital skills keep their digital
+      routines going. Face-to-face help, whether it came step by step, alongside the person or from someone doing the task
+      for them, plus the group's own culture, did the work that personal skill usually does. The authors' name for it is
+      borrowed competence: the skill does not have to sit inside one person for the task to get done. Sign-up and support flows could plan for
+      the friend or volunteer who often holds the phone.
+
+charts:
+  tone:
+    title: "Positive tone when describing the treatment to a friend (word-count score)"
+    scale: [0, 1.5]
+    step: 0.5
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Illegal note, safety mindset", 0.46, false]
+      - ["Illegal note, gain mindset", 1.23, true]
+      - ["Legal note, safety mindset", 0.86, false]
+      - ["Legal note, gain mindset", 0.34, false]
+    source: "Study 1, 401 US adults on Prolific; LIWC positive-tone scores as reported in the text. The gap under the legal note was not statistically reliable."
+  doctor:
+    title: "Rated chance the post would prompt a call to a doctor, illegal framing (mean rating)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Look-alike sharers, safety mindset", 5.25, false]
+      - ["Look-alike sharers, gain mindset", 5.89, true]
+      - ["Mixed sharers, safety mindset", 5.69, false]
+      - ["Mixed sharers, gain mindset", 5.59, false]
+    source: "Study 2, 488 US adults aged 18 to 25, Table 2. The paper does not print this item's scale range; its other ratings ran from 1 to 7."
+
+related_pages: []
