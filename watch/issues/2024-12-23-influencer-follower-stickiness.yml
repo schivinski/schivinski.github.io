@@ -1,0 +1,232 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 52                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-12-23"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: influencer-follower-stickiness
+status: live
+
+title: "What makes followers stick with an influencer? What an Australasian Marketing Journal study found"
+dek: >-
+  Brands pay for creators whose audiences keep coming back. Surveys in Vietnam and among US fans of finance creators show
+  that a warm, relatable manner holds people better than a pretty face, and that the pull is clearest in repeat visits rather
+  than in years on the follower list.
+short_title: "Why likeable creators keep their followers"
+
+description: >-
+  Vu et al. survey 666 followers in Vietnam and the US: creators who feel like a friend build the strongest bond, and that
+  bond tracks how often fans come back.
+
+keywords: [influencer stickiness, parasocial interaction, parasocial relationships, influencer source credibility,
+  influencer likeability, follower loyalty, financial influencers, finfluencers, influencer selection,
+  Australasian Marketing Journal]
+topics: [Influencers, Social media]
+
+image:
+  file: 2024-influencer-follower-stickiness.jpg
+  og: 2024-influencer-follower-stickiness-og.jpg
+  alt: "A man with curly hair and a woman in round glasses sit on a step, laughing together at a phone she holds, a yellow wall, palms and pink bougainvillea behind them"
+  caption: "The creators people return to are the ones who feel like part of the gang. Photo: Karthik Balakrishnan on Unsplash."
+
+short_answer: >-
+  Mostly how likeable and relatable they seem. Two surveys, of 417 young Vietnamese social media users and 249 Americans
+  who follow money creators, found that the sense a creator could be a friend did most to build a one-sided bond, with
+  trust and similar views next. Good looks did least. That bond went with how often people came back to the account
+  far more than with how long they had followed it.
+
+takeaways:
+  - "Among US followers of money creators, likeability weighed most in the bond, with a model weight of 0.35 (zero would mean no tie), ahead of honesty (0.25) and a shared outlook (0.21); expertise and looks had no direct link at all."
+  - "What made a creator seem honest differed by audience: in Vietnam it was mainly expertise (0.36), while finfluencer followers leaned on likeability (0.51) more than on financial know-how (0.33)."
+  - "Follower tenure was hard to predict: the models accounted for only 6% to 8% of its ups and downs, while weekly visits came out at 14% to 20%."
+  - "Vietnamese followers rated their favourite creator highest on expertise, at 4.38 where 5 was the top score, and lowest on being like them, at 3.40."
+
+paper:
+  doi: "10.1177/14413582241306130"
+  title: "Increasing Social Media Stickiness Through Parasocial Interaction and Influencer Source Credibility"
+  authors: ["Vu, V. C.", "Wang, S.", "Keating, B. W.", "Chen, E. Y. I."]
+  authors_full: ["Van Canh Vu", "Shasha Wang", "Byron W Keating", "Etta YI Chen"]
+  year: 2025
+  journal: "Australasian Marketing Journal"
+  volume: "33"
+  issue: "4"
+  pages: "352-370"
+  online: "2024-12-23"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Van Canh Vu"
+      affiliation: "FPT University, Thach That, Ha Noi, Vietnam"
+      orcid: "0000-0001-9164-9101"
+    - name: "Shasha Wang"
+      affiliation: "Queensland University of Technology, Brisbane, Australia"
+      orcid: "0000-0001-5270-5828"
+    - name: "Byron W Keating"
+      affiliation: "Queensland University of Technology, Brisbane, Australia"
+      orcid: "0000-0003-4864-7789"
+    - name: "Etta YI Chen"
+      affiliation: "Yuan Ze University, Taoyuan, Taiwan"
+      orcid: "0000-0003-3969-6765"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Study 1: survey of 417 Vietnamese social media users recruited by snowball sampling on Facebook; Study 2: survey of 249 US followers of financial influencers on Prolific; both analysed with PLS-SEM; questionnaire pretests (30 people each) not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Van Canh Vu of FPT University in Hanoi, Shasha Wang and Byron W Keating of Queensland University of Technology in
+      Brisbane, and Etta YI Chen of Yuan Ze University in Taoyuan, Taiwan, started from a gap in how brands choose creators.
+      Follower counts are easy to see. What a brand really buys is an audience that stays and keeps coming back, and no one
+      had worked out which traits of a creator make that happen.
+
+      They borrowed an idea from early television research. Parasocial interaction is the one-sided feeling of knowing a
+      media figure: looking forward to the next video, feeling part of their crowd, wanting to meet them one day. The team
+      asked whether five things people judge a creator on (know-how, honesty, looks, likeability and being like the viewer)
+      feed that feeling, and whether the feeling then keeps people following for longer and checking in more often.
+
+      The first survey ran in Vietnam. It spread through Facebook, with each person passing it on to friends, and asked people
+      to name their favourite influencer and rate them. The second, with Americans on the research panel Prolific, looked at a
+      group that had hardly been studied: followers of finfluencers, the creators who hand out money tips. Each dataset was
+      analysed with PLS-SEM, a method that tests a whole chain of links at once.
+    facts:
+      - ["Study 1", "417 Vietnamese social media users; 99 of 516 answers were dropped for naming no influencer or a film, music or sports star"]
+      - ["Who answered", "Study 1: 70.3% aged 18 to 22 and 80.1% women. Study 2: 57.8% men, with 43.4% aged 25 to 34"]
+      - ["Study 2", "249 US adults: 1,800 screened, 439 could name a finfluencer and link to the account, 279 finished, 30 then dropped after attention checks or for naming someone who was not a finfluencer"]
+      - ["Platforms", "Study 1 creators mostly on YouTube (72.7%); Study 2 spread across YouTube (36.5%), TikTok (26.5%), Instagram and others"]
+      - ["Measured", "Five creator traits, the one-sided bond, how long people had followed and how often they checked the account"]
+      - ["Checks", "Vietnamese questionnaire translated and back-translated; a pre-test of each questionnaire with 30 people; results adjusted for audience size, platform, and followers' age and gender"]
+
+  - h: "Likeable comes first, good looks come last"
+    body: |
+      In the Vietnamese survey every trait had some link with the bond, but they were far from equal. A creator who seemed
+      like a possible friend, someone you would happily chat to, pulled hardest. Honesty and a shared outlook came next. Know-how
+      sat further back, and appearance trailed the field.
+
+      The American finfluencer followers kept the same order at the top, and the bottom dropped away: expertise and looks no
+      longer counted directly. The authors think that on social media people warm to a creator as a companion
+      more than as an idol. A striking face may catch the eye, yet it does little to make a viewer feel they belong.
+    chart: bond
+
+  - h: "Honesty sits in the middle of it all"
+    body: |
+      The paper treats honesty as a trait that stands above the rest, and the data partly bear that out. In Vietnam each of the four
+      other traits made a creator seem more trustworthy, with looks adding the least. Part of what they did for the bond ran
+      by way of that trust, though the larger share went straight to it.
+
+      Money creators showed a sharper pattern. Knowing the markets did not, by itself, make followers feel close to a
+      finfluencer. It helped only through making the creator seem honest. Neither appearance nor a shared outlook made people
+      trust a finfluencer more, which suggests followers in this field judge character and warmth before style.
+
+  - h: "Coming back often and staying long are different things"
+    body: |
+      The authors split stickiness into two parts: how long someone has followed a creator, and how regularly they
+      look at the account each week. The bond tracked the weekly visits much more closely, in both countries.
+
+      Among the Vietnamese followers, the bond carried all five traits through to checking, and for expertise, likeability and
+      a shared outlook it was the only route. None of the traits reached following length that way. Among finfluencer
+      followers, the bond carried likeability and honesty through to both measures.
+
+      Why the difference? The authors argue that people's reasons are clearest when they first follow and when they finally
+      leave. In between, it is hard to tell what keeps someone there, so tenure says little about how they feel now. How
+      often they look gives a truer reading of the bond as it stands today.
+    chart: stick
+
+  - h: "What follower counts and platforms leave out"
+    body: |
+      Both surveys also noted each creator's platform and audience size, and neither gave a steady signal. Among the
+      Vietnamese, bigger accounts had longer-standing fans but were not visited more often; among finfluencer followers the
+      reverse held. YouTube creators were checked less often in the first survey, a gap the authors link to fewer
+      uploads and to notifications that remove the need to look. In the second, following a finfluencer there went with having
+      followed for longer.
+
+      Allowing for platform did not change the main links between traits, bond and visits. So the authors urge brands to
+      look past the headline number to the length of time a creator's fans stick around and how regularly they visit, and to
+      favour lasting partnerships over one-off posts, so followers watch the product become part of the creator's routine.
+      For finfluencers they add a few ideas: blend some entertainment into the lessons, be open about losing trades as well as winning ones, speak to a clear
+      group such as women who invest, and keep a long-form video channel going.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Ask for loyalty numbers, not reach", "Ahead of any contract, get two answers about the creator's audience. How long have people been following? How often do they come back in a week? A quick poll in the creator's stories with three answer bands will do."]
+  - ["Read the comments for friendship", "Open the last 10 posts of each creator on your shortlist and read 50 comments in total. Count the ones that talk to the creator like a friend, by first name or about their life. Rank the creators by that count."]
+  - ["Match on beliefs, not age", "Write down three things your best customers care about. Scroll through each creator's last 20 posts and tick the ones that show the same values. Drop anyone who scores fewer than three ticks."]
+  - ["Brief for real life", "Ask for one post in every four to be unpolished: a behind-the-scenes clip, a bad day or a mistake. Add one teaching post a month, for example a quick tutorial or three tips, with the sources on screen."]
+  - ["Sign for six months, not one post", "Agree a partnership of at least six months with a fixed rhythm, such as two posts a month. Followers need to see the product in the creator's everyday life, not in a single plug."]
+  - ["Track who keeps coming back", "Each month, count the names that comment on more than one of the creator's posts about you. Compare it with the month before. Renew with creators whose regulars keep returning."]
+
+expect:
+  - "**Much is left unexplained.** Together the five traits accounted for 47% of the differences in the bond in Vietnam and 45% in the US. Content, timing and luck still count for plenty."
+  - "**Warmth costs some polish.** Asking creators for less finished, more personal posts means giving up a little control over how your product looks in the feed. We are inferring that trade-off; the surveys did not test it."
+  - "**A pull based on looks may not suit you.** Where a creator's hold rests on physical or romantic attraction, the authors warn that the content keeping it alive may clash with many brands."
+  - "**Money topics need extra care.** The authors suggest finfluencers add entertainment and show losing trades too. In a regulated field, run that kind of content past your compliance team first; that caution is ours."
+
+limits:
+  - "**One moment in time.** Both surveys asked people once, so they show which traits go together with loyalty, not that changing a trait would build it."
+  - "**Fans rating favourites.** Everyone rated a creator of their own choosing, already liked and followed, so the results say little about how a bond starts or why people walk away."
+  - "**Stickiness was self-reported.** Following length and checking were one question each, in Vietnam with only three answer bands, rather than data from the accounts."
+  - "**Two particular groups.** The Vietnamese answers came mostly from young women; the US answers came only from finfluencer followers on one research panel, where each trait was rated with a single question."
+  - "**No sales, no sponsored posts.** Neither survey measured purchases, opinions of the brand or reactions to paid content, and virtual influencers were left out."
+
+faq:
+  - q: "What makes followers keep coming back to an influencer?"
+    a: "Mainly the feeling that the creator is someone they could be friends with, who sees things their way and can be trusted. Those traits build a sense of closeness, and people who feel it look at the creator's account more often (Vu et al., 2025)."
+  - q: "What is parasocial interaction?"
+    a: "A term from 1950s research on television audiences. It describes feeling close to someone on screen, almost as a friend, even though they have never met you. Questionnaires capture it with statements such as feeling part of the creator's group or wanting to meet them in person."
+  - q: "What does stickiness mean in influencer marketing?"
+    a: "How firmly an audience holds on to a creator. This research split it into follower tenure and the number of visits in a typical week, and the two did not behave alike."
+  - q: "Is a big follower count a sign of a loyal audience?"
+    a: "Not reliably. Larger accounts had longer-serving fans in one survey and more frequent visitors in the other, never both. Loyalty data from the audience itself tells a brand more than the size of it."
+  - q: "Do finfluencers win trust differently from other creators?"
+    a: "Partly. Their US followers did not feel closer to them just because they knew finance; knowledge only mattered because it raised how trustworthy the creator looked. Being pleasant and approachable did more for trust than expertise did."
+
+also:
+  - doi: "10.1007/s11747-024-01064-3"
+    title: "How generative AI Is shaping the future of marketing"
+    authors: "Grewal et al."
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2025
+    text: >-
+      A conceptual article on where generative AI will take marketing over the coming decade, from talking with customers and
+      producing copy, pictures and clips to researching and designing new products. Its centrepiece is a four-part grid that weighs
+      what kind of material a tool works from against how much human input its output needs before it can be used. The grid is
+      offered as a way to pick tools and decide where people must stay involved. A useful sorting exercise for any team sitting on
+      a pile of AI trials.
+  - doi: "10.1177/07439156241309874"
+    title: "Generative AI in Marketing and Principles for Ethical Design and Deployment"
+    authors: "Hermann & Puntoni"
+    journal: "Journal of Public Policy & Marketing"
+    year: 2025
+    text: >-
+      Hermann and Puntoni map uses of generative AI in marketing by two questions: does the tool help people work or take the
+      work off them, and at which stage, from research through strategy to everyday marketing decisions? They then propose eight
+      ethical principles, grouped under the word ASSURANCE, from protecting people's autonomy and data to giving proper credit,
+      and set out what each would mean for regulators. Worth reading before a generative tool gets anywhere near customers.
+
+charts:
+  bond:
+    title: "How strongly each creator trait was linked to the follower bond (standardised path weights)"
+    scale: [0, 0.4]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Could be a friend", 0.32, true]
+      - ["Honest and truthful", 0.23, false]
+      - ["Shares my outlook", 0.20, false]
+      - ["Knows the subject", 0.17, false]
+      - ["Good-looking", 0.12, false]
+    source: "Study 1, 417 followers in Vietnam rating an influencer they chose. All five links were statistically significant."
+  stick:
+    title: "How closely the follower bond tracked each kind of stickiness (standardised path weights)"
+    scale: [0, 0.5]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Study 1: length of following", 0.18, false]
+      - ["Study 1: weekly visits", 0.31, true]
+      - ["Study 2: length of following", 0.18, false]
+      - ["Study 2: weekly visits", 0.43, true]
+    source: "Study 1, survey in Vietnam (417 people); Study 2, survey of US finfluencer fans (249 people). All four links were statistically significant."
+
+related_pages: []

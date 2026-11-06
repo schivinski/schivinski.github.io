@@ -1,0 +1,233 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 50                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-12-07"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: influencer-launch-followers
+status: live
+
+title: "Which influencers bring new followers to a brand's account at a product launch? What a Journal of Business Research study found"
+dek: >-
+  When a big video game comes out, its official account wants the fans that gamers and commentators already have. More than
+  two million launch tweets show which kind of influencer actually sends their audience across, and which common
+  assumptions about picking creators did not hold up.
+short_title: "Which influencers move their fans to your account"
+
+description: >-
+  Benevento et al. follow 197 influencers through three game launches on Twitter: those drawing more likes and sitting at
+  the hub of the chatter moved more fans.
+
+keywords: [influencer marketing, product launch, brand follower growth, influencer selection, social network analysis,
+  Twitter influencers, engagement rate, degree centrality, video game marketing, micro-influencers,
+  Journal of Business Research]
+topics: [Influencers, Social media]
+
+image:
+  file: 2024-influencer-launch-followers.jpg
+  og: 2024-influencer-launch-followers-og.jpg
+  alt: "A man in glasses, seen in profile in a dark room, wears a headset with a glowing red earcup and plays a fast blue game on a monitor, his desk lit red below"
+  caption: "Gamers already have an audience. The ones whose fans react the most are the ones who bring them along to a launch. Photo: Sean Do on Unsplash."
+
+short_answer: >-
+  The ones whose audiences react, and who sit at the centre of the conversation. Across three big video game launches on
+  Twitter, 197 influencers were tracked from 20 days before release to a month after. Those whose posts drew more likes
+  and retweets for the size of their audience, and who had more direct links in the launch chatter, saw more of
+  their followers move to the game's official account. Sheer follower count made no difference.
+
+takeaways:
+  - "On average, 0.75% of an influencer's followers, about one person in 130, went on to follow the game's own account during the launch window."
+  - "About half of what these influencers posted (50%) was entertainment and one post in seven (14%) was informative, yet neither mix changed how many followers crossed over."
+  - "Influencers who follow a great many accounts did worse: the average influencer followed 1,418 accounts, and a longer list went with a smaller share of fans moving across."
+  - "Together, the factors in the model explained 44% of the differences between influencers, and the result survived three alternative ways of running the numbers."
+
+paper:
+  doi: "10.1016/j.jbusres.2024.115123"
+  title: "The impact of influencers on brand social network growth: Insights from new product launch events on Twitter"
+  authors: ["Benevento, E.", "Aloini, D.", "Roma, P.", "Bellino, D."]
+  authors_full: ["Elisabetta Benevento", "Davide Aloini", "Paolo Roma", "Davide Bellino"]
+  year: 2025
+  journal: "Journal of Business Research"
+  volume: "189"
+  pages: "115123"
+  online: "2024-12-07"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline and affiliations); ORCID iDs from the publisher's Crossref record (none printed in the PDF)
+    - name: "Elisabetta Benevento"
+      affiliation: "Department of Energy, Systems, Territory and Construction Engineering, University of Pisa, Pisa, Italy"
+      orcid: ""
+    - name: "Davide Aloini"
+      affiliation: "Department of Energy, Systems, Territory and Construction Engineering, University of Pisa, Pisa, Italy"
+      orcid: ""
+    - name: "Paolo Roma"
+      affiliation: "Department of Industrial and Digital Innovation, University of Palermo, Palermo, Italy"
+      orcid: "0000-0001-9645-3474"
+    - name: "Davide Bellino"
+      affiliation: "Department of Energy, Systems, Territory and Construction Engineering, University of Pisa, Pisa, Italy"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival dataset: over two million tweets around three video game launches on Twitter (2020 and 2022), with the 197 influencers pooled in one regression; the GLM, Tobit and location-controlled re-runs are robustness checks, not separate studies"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Elisabetta Benevento, Davide Aloini and Davide Bellino of the University of Pisa, with Paolo Roma of the University
+      of Palermo, looked at a moment every launch team knows. A new product goes on sale, creators start talking about it,
+      and the brand hopes some of their audience will follow its own account too. The team asked which creators actually
+      make that happen.
+
+      Their setting was video games, where players take their cues from each other and from social media when choosing what to try,
+      and where every big title gets its own official account and hashtag. They followed three releases on Twitter (now X):
+      Final Fantasy VII Remake in April 2020, then Elden Ring and God of War Ragnarök in 2022. Each sold at least five
+      million copies within about three months.
+
+      From the tweets posted before each release, they drew a map of who retweeted whom. They then picked out individual
+      accounts that ranked near the very top on three counts at once: followers, direct links in that map, and how often
+      they sat on the paths connecting other users. News outlets and company accounts were left out. They kept collecting
+      tweets every day and regularly refreshed the follower lists of every influencer and of the game's official account,
+      so they could see which of an influencer's followers began following the game once the influencer had posted about it.
+    facts:
+      - ["Platform", "Twitter (now X), with tweets collected daily under each game's official hashtag"]
+      - ["Launches", "Final Fantasy VII Remake (April 2020), Elden Ring (February 2022), God of War Ragnarök (November 2022)"]
+      - ["Window", "From 20 days before each release to one month after"]
+      - ["Tweets", "Over two million in all: more than 800,000, more than a million and about 450,000, in the order above"]
+      - ["Influencers", "197 accounts (40, 59 and 98 per game), each in the top 5% on followers and on both network measures"]
+      - ["Outcome", "Share of each influencer's followers who began following the game's official account after the influencer's first post about it"]
+      - ["Analysis", "Regression with robust errors, repeated with two other model types and on a subsample of 157 with location added"]
+
+  - h: "What moved followers, and what did not"
+    body: |
+      The team tested six expectations and three held. The first was about response. They measured it as the likes and
+      retweets an influencer's posts drew, per post and relative to audience size, and the higher it was, the more of their
+      followers ended up following the game too. The second was a closely related popularity score: total likes divided by
+      followers. The third was position. Influencers with more direct retweet links in the launch conversation, the hubs,
+      moved more of their audience.
+
+      Several things you might expect to matter did not. Follower count had no measurable link with the share who crossed
+      over. Neither did the influencer's gender. Two controls did show up. Influencers who posted videos of themselves
+      playing the game, a sign they were gamers rather than general commentators, moved more fans. And the game itself
+      counted: after allowing for everything else, the other two games converted less well than Elden Ring.
+    chart: transfer
+
+  - h: "Why a hub beats a bridge"
+    body: |
+      Network researchers describe two kinds of well-placed account. A hub has lots of direct ties: many people retweet it
+      and it retweets many in return. A bridge sits between groups that would otherwise not meet, so information has to
+      pass through it. The authors noticed that many of the influencers here scored higher as bridges than as hubs, and
+      read it as a sign that they saw their job as passing news along between circles of fans.
+
+      That role did not translate into new followers for the game. Being a bridge showed no link with crossover in any of
+      the models. The authors explain it this way: a hub talks to a large, engaged group every day, learns what that group
+      wants and makes posts that fit, so a recommendation from a hub lands with people who already trust it.
+
+  - h: "What they posted mattered less than how people reacted"
+    body: |
+      The team read every post the 197 influencers wrote and sorted it by hand. Release dates, countdowns, clarifications
+      and pre-order instructions counted as informative. Videos, pictures, sound clips, GIFs and links shared for fun
+      counted as entertainment. A post could be both, or neither.
+
+      They had expected useful information to win followers for the game and pure entertainment to distract from it.
+      Neither happened. Once reactions and network position were in the model, content type had no bearing on crossover.
+      The authors think people simply follow the crowd: a post that many others have liked looks trustworthy
+      and current, and users like to join conversations that are already busy. That runs against earlier studies that put
+      content first.
+    chart: mix
+
+  - h: "Picking launch partners on this evidence"
+    body: |
+      The authors suggest that brands judge possible partners on three things before signing: how central they are in
+      the conversation, how strongly their audience responds, and how many likes their posts collect. All three were built
+      here from public posts and follower lists. They also tell creators to reply to comments, start conversations and invite reactions.
+
+      A word of warning, which comes from us and not from the paper. The response measure here was built from likes and retweets on the
+      influencer's posts, not from replies the influencer wrote, so the paper shows that lively audiences cross over, not
+      that answering fans makes them do so. It is a reasonable bet that the two go together, but this research does not
+      settle it.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Score creators on how their fans react", "Six weeks before launch, write down 20 creators who already post about your category. Open each one's ten most recent posts and total the likes and reposts. Split that total over their number of followers, then put the creators in order, highest score first."]
+  - ["Find who sits at the centre", "Search your category's main hashtags for the past month. Note which accounts others repost and reply to again and again. Move those creators up your list, and drop anyone who follows thousands of accounts in what looks like a follow-back habit."]
+  - ["Choose people who use the product", "Favour creators who show themselves using products like yours on camera. Send them early access a few weeks before release so they have real footage, not just a press kit."]
+  - ["Plan posts across the whole launch window", "Ask creators to start posting about three weeks before release and to keep going for a month after it. Give them your official handle and hashtag to include in every post."]
+  - ["Count who crosses over", "Once a week, export your account's new followers and check how many also follow each creator. Some social listening tools can do this match for you."]
+  - ["Rehire on crossover", "After the first month, rank creators by how many of their followers now follow you. Keep the top third for the next launch and replace the bottom third."]
+
+expect:
+  - "**Big gaps between creators.** Some influencers moved nobody at all, while the best single result was a little over 5% of an audience. A few strong partners can matter more than a long roster."
+  - "**Mid-sized accounts did the work.** The influencers here averaged about 11,100 followers, the scale often called micro-influencers, not celebrity accounts with millions."
+  - "**A short window.** The authors chose their 20-days-before, one-month-after period because chatter around a new game is thin before it and fades soon after. Spend accordingly."
+  - "**Competition for the best-placed creators.** The paper quotes an industry report that expected influencer marketing to reach about $21.1 billion in 2023, with more than three brands in four holding a dedicated budget. Expect the creators at the centre of a launch conversation to be in demand."
+
+limits:
+  - "**Linked, not proven.** Nobody was assigned to post or stay silent. The measure counts every follower of an influencer who later followed the game, whether or not that influencer's post was the reason."
+  - "**Partners or simply fans?** Influencers were chosen by their prominence in the hashtag conversation. The article never states whether any of them had a deal with a publisher."
+  - "**Only existing followers.** People who found the game's account through a viral retweet, without following the influencer, were not counted."
+  - "**One platform, one industry, three blockbusters.** Twitter's limits on bulk downloads kept the number of influencers modest. Instagram, YouTube, TikTok and other industries are still to be tested."
+
+faq:
+  - q: "Do influencers with more followers bring more followers to a brand?"
+    a: "Not in this research. Across three game launches, the size of an influencer's audience showed no measurable link with how many of those fans later followed the official game account. How strongly the audience responded, and how central the influencer was, mattered instead (Benevento et al., 2025)."
+  - q: "What is a social hub in influencer marketing?"
+    a: "An account with many direct connections in a conversation. In this research, that meant the count of retweet links running to and from the influencer around a launch. It differs from a bridge, an account that links groups which would otherwise not meet."
+  - q: "Should launch influencers post information or entertainment?"
+    a: "On this evidence the mix did not matter. Posts sorted as informative (dates, countdowns, pre-order details) and posts sorted as entertainment (clips, images, GIFs) showed no link with followers crossing over once audience response was taken into account."
+  - q: "How can you tell whether an influencer grows a brand's following?"
+    a: "Compare follower lists over time. Take the influencer's followers who did not follow the brand when the campaign started, count how many follow it once the influencer has started posting about it, and divide by the influencer's average audience."
+  - q: "Why would following lots of accounts hurt an influencer?"
+    a: "The authors suggest audiences may take it as spam: an account that follows thousands of strangers, hoping they will follow back. That sits badly with the idea of a trusted voice."
+
+also:
+  - doi: "10.1002/mar.22164"
+    title: "Leveling the Playing Field… in Private: The Interplay of Malicious Envy and Anonymity in Online Revenge"
+    authors: "Usman & Ziegler"
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Three experiments look at what happens when some customers get hold of something desirable and others feel unfairly
+      shut out. A spiteful kind of envy is what turns that sense of injustice into a wish to get even. People hit back
+      harder when they can stay anonymous and nobody will think worse of them for it. Exclusive drops and invite-only
+      offers win attention, so expect any backlash where people can post without a name, such as anonymous reviews and forums.
+  - doi: "10.1108/jrim-02-2024-0121"
+    title: "The influence and configuration effect of content characteristics on customer input in the context of short video platforms"
+    authors: "Zhang & Li"
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2025
+    text: >-
+      This study asks which features of short videos lead viewers to contribute something back on the platform, using
+      structural equation models and a fuzzy-set comparison of which combinations of features go together. Original
+      videos and videos that felt relevant both drew more from viewers, partly because relevant clips felt grounded and
+      both kinds left people inspired. Fun did not carry the effect. If your clips are not getting much back, freshness and
+      closeness to viewers' lives may matter more than another joke.
+
+charts:
+  transfer:
+    title: "How many of an influencer's followers also began following the official game account, average per influencer (%)"
+    scale: [0, 1.5]
+    step: 0.5
+    unit: "%"
+    decimals: 2
+    bars:
+      - ["Elden Ring (59)", 1.26, false]
+      - ["Final Fantasy VII Remake (40)", 0.82, false]
+      - ["God of War Ragnarök (98)", 0.43, false]
+      - ["All 197 influencers", 0.75, true]
+    source: "Descriptive statistics per game (number of influencers in brackets), measured over each game's launch window on Twitter. Raw averages, before the model's controls."
+  mix:
+    title: "What the influencers posted: average share of their launch posts, by game (%)"
+    scale: [0, 60]
+    step: 20
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Final Fantasy VII Remake, entertainment", 53.9, true]
+      - ["Elden Ring, entertainment", 45.4, true]
+      - ["God of War Ragnarök, entertainment", 52.2, true]
+      - ["Final Fantasy VII Remake, informative", 18.7, false]
+      - ["Elden Ring, informative", 6.4, false]
+      - ["God of War Ragnarök, informative", 17.6, false]
+    source: "All posts by the 197 influencers, sorted by hand. A post could count as both or neither, so the shares do not add up to 100. Neither share predicted followers crossing over."
+
+related_pages: []

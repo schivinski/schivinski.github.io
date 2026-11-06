@@ -1,0 +1,267 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 49                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-12-03"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: attention-heart-rate
+status: live
+
+title: "How can you tell if viewers are really paying attention to a video ad? What an International Journal of Advertising study found"
+dek: >-
+  Advertisers are being urged to buy attention instead of impressions, and most attention data come from tracking eyes.
+  A lab comparison of eight body signals, checked against brainwaves, found that a viewer's heart rate separated
+  well-watched ads from weaker ones far better than their gaze did.
+short_title: "Why heart rate beats eye tracking for ad attention"
+
+description: >-
+  Hartnett et al. find heart rate sorted 9 of 10 video ads into high or low attention in a lab test, while eyes-on-screen
+  tracking did no better than guessing.
+
+keywords: [attention measurement, attention metrics, video advertising, heart rate, eye tracking, EEG,
+  attention-based media buying, advertising effectiveness, biometrics, neuromarketing, International Journal of Advertising]
+topics: [Advertising, Research methods]
+
+image:
+  file: 2024-attention-heart-rate.jpg
+  og: 2024-attention-heart-rate-og.jpg
+  alt: "A packed cinema with rows of red seats, the audience lit by the glow of the screen and looking up towards it"
+  caption: "Counting eyes on a screen is easy. Knowing what gets through is harder. Photo: Krists Luhaers on Unsplash."
+
+short_answer: >-
+  Watch their heart rate, not just their eyes. In a lab, 261 viewers sat through an hour of TV with ad breaks while
+  sensors recorded eight body signals, which were then checked against brainwave readings and the viewers' own ratings.
+  A slight slowing of the heart, compared with each person's resting rate, was the only scalable signal that reliably
+  separated ads people attended to from ads they half-watched. Gaze-based scores missed the difference.
+
+takeaways:
+  - "A heart beating more slowly than at rest put 9 of the 10 test ads in the right group, high or low attention, matching the brainwave benchmark."
+  - "Eyes-on-screen time and fixation counts labelled all 5 low-attention ads as high-attention ones, because viewers kept looking at the screen through the weaker ads too."
+  - "Averaged across the eight body signals, accuracy was 54%, barely above the 50% that pure guessing would score."
+  - "Only the high-attention ads changed which brand people picked: they captured 27% of the possible gain over viewers who saw no ads, while low-attention ads captured none."
+
+paper:
+  doi: "10.1080/02650487.2024.2435164"
+  title: "How to accurately measure attention to video advertising"
+  authors: ["Hartnett, N.", "Bellman, S.", "Beal, V.", "Kennedy, R.", "Charron, C.", "Varan, D."]
+  authors_full: ["Nicole Hartnett", "Steven Bellman", "Virginia Beal", "Rachel Kennedy", "Claire Charron", "Duane Varan"]
+  year: 2025
+  journal: "International Journal of Advertising"
+  volume: "44"
+  issue: "1"
+  pages: "184-207"
+  online: "2024-12-03"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Nicole Hartnett"
+      affiliation: "Ehrenberg-Bass Institute for Marketing Science, University of South Australia, Adelaide, SA, Australia"
+      orcid: "0000-0003-2245-6300"
+    - name: "Steven Bellman"
+      affiliation: "Ehrenberg-Bass Institute for Marketing Science, University of South Australia, Adelaide, SA, Australia"
+      orcid: "0000-0002-0085-2014"
+    - name: "Virginia Beal"
+      affiliation: "Ehrenberg-Bass Institute for Marketing Science, University of South Australia, Adelaide, SA, Australia"
+      orcid: "0000-0001-8935-7687"
+    - name: "Rachel Kennedy"
+      affiliation: "Ehrenberg-Bass Institute for Marketing Science, University of South Australia, Adelaide, SA, Australia"
+      orcid: "0000-0002-8052-6293"
+    - name: "Claire Charron"
+      affiliation: "Market Insights, Google, London, UK"
+      orcid: ""
+    - name: "Duane Varan"
+      affiliation: "MediaScience, Austin, TX, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One lab experiment: 261 viewers (181 with complete data) watched 10 test ads in an hour of TV under nine physiological measures, plus an unexposed control group of 145 for brand lift; the online pre-test of 636 US consumers used to choose the ads is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Nicole Hartnett, Steven Bellman, Virginia Beal and Rachel Kennedy of the Ehrenberg-Bass Institute for Marketing
+      Science at the University of South Australia in Adelaide, Claire Charron of Google's Market Insights team in London
+      and Duane Varan of MediaScience in Austin, Texas, looked at a question that now shapes how media gets bought. Agencies
+      and industry groups want ads priced on the attention they win rather than on impressions, and the attention figures
+      sold today are mostly based on where people's eyes point. The team asked whether the eyes are the right thing to watch.
+
+      They tried eight body signals that could in principle be gathered from large numbers of people: heart rate, four
+      eye-tracking measures, two readings of skin conductance (tiny changes in sweat on the fingertips) and smiling picked
+      up by a camera. Each one was set against EEG, a cap of electrodes that reads brainwaves. EEG is treated as the gold
+      standard for attention, but it needs a lab, so it cannot follow whole audiences.
+
+      To know in advance which ads deserved attention, the team began with 324 thirty-second commercials that had aired in
+      the United States, chose 100 varied ones and ran an online pre-test in which consumers rated how closely they had
+      followed each one. The five rated highest and the five rated lowest became the test ads. In the lab, every viewer
+      first watched four minutes of a calm Zen garden video, which gave a resting reading on every sensor. Then came an
+      hour of television with ad breaks.
+    facts:
+      - ["Test ads", "Ten 30-second commercials from ten brands, in categories such as snacks, skin care, cars, cleaning products and internet services"]
+      - ["Pre-test", "636 US consumers from an online panel each rated 10 of the 100 shortlisted ads for how much attention they gave them"]
+      - ["Viewers", "261 people in a lab, 181 with complete data on every measure; each analysis used all the data available"]
+      - ["Session", "A four-minute calm video for the resting reading, then a drama, sitcom or reality show of the viewer's choice with 30 ads in five breaks, shuffled for each person"]
+      - ["Sensors", "Finger electrodes for heart rate and skin conductance, infrared eye trackers, a camera for facial expressions and a nine-electrode EEG cap"]
+      - ["Afterwards", "Brand recall, recognition of each ad's scenes, a 0 to 100 attention rating per ad and a choice between rival brands; 145 people who saw no ads answered the same survey"]
+      - ["Funding", "Paid for by Google; the authors note that both research groups also receive money from Google's competitors"]
+
+  - h: "Which signal told the two kinds of ad apart?"
+    body: |
+      Each measure was given a rule taken from earlier research. An ad counted as attended to if viewers' readings moved
+      away from their resting state in the predicted direction: a slower heart, more looking at the
+      screen, more smiling, and so on. A good measure should flag the five strong ads and leave the five weak ones alone.
+
+      Heart rate did that for nine ads in ten, the same score as the EEG cap. It also lined up with how viewers rated each ad
+      themselves (a correlation of 0.85, ignoring the sign) and with the brainwave reading (0.79).
+
+      Nothing else beat chance. Blink length, and how far a viewer's gaze strayed from where everyone else was looking,
+      reached six in ten. Short spikes in skin conductance did worst, at two in ten, and went against the prediction
+      altogether: they tended to rise as attention fell.
+    chart: accuracy
+
+  - h: "Why the eye-tracking measures were fooled"
+    body: |
+      The trouble came from the weaker ads. Set against the calm video, they still drew more looking and more fixations
+      than people gave at rest, so the eye-based measures mistook them for strong ones. Across the eight signals, strong ads were spotted
+      75% of the time but weak ones only 33%.
+
+      Ads are made to catch the eye, the authors point out. Movement and other eye-catching features pull the gaze on their own,
+      whether or not anyone is thinking about the message. Eyes show where attention points; they say little about whether
+      the ad is being processed. A slower heart reflects that processing.
+
+      Smiling failed for another reason. All ten ads were light and upbeat, so viewers smiled at the weak ones too. Skin
+      conductance may need stronger material: these ten commercials probably stirred people far less than the loud noises
+      used to validate the measure, and the authors suggest testing it next with fear appeals.
+
+  - h: "A second yardstick: each viewer's average ad"
+    body: |
+      Because a calm video sets such a low bar, the team tried a yardstick with no theory behind it but obvious practical
+      appeal: how each viewer responded on average across all 30 ads in the session. Judged against that, smiling caught
+      up with heart rate, and two of the eye-tracking measures, fixations per second and how far the gaze wandered from
+      the crowd, reached seven in ten.
+
+      The authors see a use for this in large panels. If consenting viewers each had an average built from thousands of
+      ads, even small shifts above or below it would carry weight. On this yardstick, blink length and eyes-on-screen
+      already pointed the right way for eight ads in ten, although several of those shifts were slight and could have come about by luck.
+    chart: average
+
+  - h: "Does the extra attention pay?"
+    body: |
+      Attention is only worth buying if it changes something. The survey answers were set against those of a control group
+      that never saw the ads. Both kinds of ad raised brand recall and recognition, so the weaker ones were
+      not wasted, but the strong ones did far more. Recognition of the ads' scenes rose furthest, close to the ceiling
+      after a high-attention ad.
+
+      The gains are expressed as a share of the room each brand had left to grow: the rise over the control group,
+      divided by the most it could have risen. That puts big and small brands on equal terms.
+    chart: lift
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Ask what sits behind the attention score", "Before you pay for media priced on attention, ask the seller in writing which signal produces the number: eyes on the screen, time in view, or a body signal such as heart rate. If it is only eyes or time in view, read the score as a chance to be seen, not proof the ad got through."]
+  - ["Build a yardstick from your own ads", "Pick five of your ads that customers clearly remember and five they barely recall. Keep these ten as a test set for any attention tool you are offered."]
+  - ["Make every tool pass the test", "Ask each vendor to score your ten ads before you sign. Check that the five memorable ads get higher scores than the five forgettable ones. If the tool mixes them up more than twice, ask for a different measure."]
+  - ["Add heart rate to your biggest launch", "For your largest video campaign of the year, book a viewing panel that records heart rate with a wristband or finger sensor. Ask for a resting reading from each viewer first, taken during four minutes of calm footage such as a nature film."]
+  - ["Ask viewers straight after", "After each ad test, add one question: how much attention did you pay to this ad, from 0 to 100? Put the answers next to the sensor data and look again at any ad where the two disagree."]
+  - ["Check recall and brand choice", "A few days after launch, ask people who saw the campaign and people who did not to name brands in your category and to choose between yours and a rival. Move budget towards the versions that shift both answers."]
+
+expect:
+  - "**Small heart-rate shifts.** Average readings moved by only one or two beats a minute between the calm video and the ads, so each viewer needs a resting reading and the panel needs to be large."
+  - "**Gaze scores bunch near the top.** Viewers' eyes were on the screen about nine tenths of the time, so in an attentive setting eye data will rate most ads highly."
+  - "**Returns level off.** Past research quoted by the authors shows that twice the attention does not bring twice the effect, so more attention helps but each extra unit buys less."
+  - "**More than one number.** No single signal covered everything. The right mix depends on whether you need ads to be consciously noticed or are content with light, passing exposure."
+
+limits:
+  - "**Forced viewing in a lab.** People sat facing a large screen with nothing else to do: no phones, no chatter, no second screen."
+  - "**Ten upbeat ads.** All were 30-second US commercials with a positive tone, and the authors concede that their low-attention group was middling rather than ignored."
+  - "**Lab-grade sensors.** Heart rate came from finger electrodes. Reading it through webcams or wearables, which the authors propose for large-scale use, was not tested."
+  - "**Two levels only.** Ads fell into just two groups, strong or weak on attention, with no finer grades and no measure of deeper thinking about the message. Pupil size and facial muscle electrodes were left out."
+  - "**Survey outcomes.** Recall, recognition and brand preference were asked straight after viewing; nobody's shopping was tracked."
+
+faq:
+  - q: "Which measure tracks attention to video ads most accurately?"
+    a: "Of eight signals that could be collected at scale, heart rate came out best in a lab comparison. A small slowing of the heart, measured against each viewer's resting rate, told the well-attended ads from the rest as well as a far costlier brainwave reading did (Hartnett et al., 2025)."
+  - q: "Does eye tracking measure attention to ads?"
+    a: "It measures where the eyes point. Ads are full of movement that draws the gaze automatically, so someone can look at the screen without taking much in. In a quiet lab, eye-based scores rated weak ads as highly as strong ones. The authors think simple eyes-on-screen counts may do better in distracted, real-world viewing, where looking away is common."
+  - q: "Why does heart rate slow down when people pay attention?"
+    a: "When something catches our interest, the body briefly calms so the senses can take it in, and the heart beats a touch more slowly. This is known as an orienting response. Because it reflects processing rather than gaze, it works for sound as well as pictures, which makes it usable for radio too."
+  - q: "Is it worth simply asking viewers how much attention they paid?"
+    a: "Yes, as one signal among several. Viewers' own 0 to 100 ratings tracked the brainwave reading closely, with a correlation between them of 0.88, ignoring the sign. The authors argue that asking captures the conscious processing advertisers care about, though it misses attention people are unaware of."
+  - q: "What is an attention currency in media buying?"
+    a: "A way of pricing ad space on the attention an ad receives instead of on impressions. One industry proposal prices ads per 1,000 seconds of attention, judged by eyes on the screen. On this evidence, eyes alone can overstate attention, and heart rate is a candidate alternative."
+
+also:
+  - doi: "10.1002/mar.22149"
+    title: "Influencer Activism: Insights for Effective Partnership With Brands and Organizations"
+    authors: "D'Arco et al."
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      When creators speak out on causes such as gender-based violence or racism, does teaming up with a brand or a charity
+      help? A run of experiments and a review of Instagram comments found followers judged the creator more genuine when the
+      partner suited the creator and the cause matched what the creator already stood for. That sense of sincerity warmed
+      people to the creator and led to small real actions, from looking up the issue to signing a petition. A creator's
+      record on the cause is worth reading before any contract is signed.
+  - doi: "10.1108/ejm-11-2022-0827"
+    title: "How customers respond to chatbot anthropomorphism: the mediating roles of perceived humanness and perceived persuasiveness"
+    authors: "Li et al."
+    journal: "European Journal of Marketing"
+    year: 2024
+    text: >-
+      Two experiments with about 400 people, one run in the field and one built on scenarios, compared chatbots that came
+      across as friendly with ones that came across as capable. A friendly manner gave the bot a more human feel, capability made
+      its advice more convincing, and both left people readier to buy and to recommend it. People who already knew a fair bit
+      about chatbots were even quicker to see the friendly bot as human. A chatbot's script deserves the attention usually
+      reserved for the software running it.
+
+charts:
+  accuracy:
+    title: "Ads correctly classed as high or low attention against the viewer's resting state (%)"
+    scale: [0, 100]
+    step: 25
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Heart rate", 90, true]
+      - ["Brainwaves (EEG benchmark)", 90, false]
+      - ["Gaze straying from the crowd", 60, false]
+      - ["Blink length", 60, false]
+      - ["Smiling", 50, false]
+      - ["Fixations per second", 50, false]
+      - ["Eyes on screen", 50, false]
+      - ["Skin conductance level", 50, false]
+      - ["Skin conductance spikes", 20, false]
+    source: "Lab experiment with 261 viewers (202 to 256 usable readings per measure) and 10 test ads. Guessing would score 50%."
+  average:
+    title: "Ads correctly classed when each one is compared with the viewer's average ad (%)"
+    scale: [0, 100]
+    step: 25
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Heart rate", 90, true]
+      - ["Smiling", 90, true]
+      - ["Fixations per second", 70, false]
+      - ["Gaze straying from the crowd", 70, false]
+      - ["Eyes on screen", 60, false]
+      - ["Blink length", 50, false]
+      - ["Skin conductance level", 40, false]
+      - ["Skin conductance spikes", 40, false]
+    source: "Same lab session; the yardstick is each person's mean response over all 30 ads shown. The EEG cap scored 80% here."
+  lift:
+    title: "Gain over an unexposed control group, as a share of the most each measure could rise (%)"
+    scale: [0, 100]
+    step: 25
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Brand recall, low-attention ads", 10, false]
+      - ["Brand recall, high-attention ads", 25, true]
+      - ["Recall with category hint, low", 17, false]
+      - ["Recall with category hint, high", 38, true]
+      - ["Ad scenes recognised, low", 59, false]
+      - ["Ad scenes recognised, high", 93, true]
+      - ["Brand chosen, low", 0, false]
+      - ["Brand chosen, high", 27, true]
+    source: "Viewers in the lab against a control group of 145 who did a decoy task. Every gain was above zero except brand choice after low-attention ads."
+
+related_pages: []
