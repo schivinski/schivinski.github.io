@@ -1,0 +1,280 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 42                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-10-28"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-06"          # the day this page went live (metadata only, never shown)
+slug: psychological-targeting-meta
+status: live
+
+title: "Does psychological targeting with personality-matched ads work? What a Psychology & Marketing study found"
+dek: >-
+  Guess a person's personality from their digital footprints, then serve them an ad written for that personality: the
+  pitch made headlines after Cambridge Analytica. A meta-analysis finds the guessing rough and the matching adding close to
+  nothing once weak studies are set aside.
+short_title: "Personality targeting, put to a fair test"
+
+description: >-
+  Perla et al. pool 41 studies on psychological targeting: footprints predict about 5% of personality, and matched ads add
+  almost nothing in sound tests.
+
+keywords: [psychological targeting, personality-based advertising, psychographic targeting, microtargeting, digital footprints,
+  Big Five personality prediction, personalised advertising effectiveness, data leakage machine learning, Cambridge Analytica,
+  ad testing design, meta-analysis, Psychology & Marketing]
+topics: [Personalization, Advertising, Research methods]
+
+image:
+  file: 2025-psychological-targeting-meta.jpg
+  og: 2025-psychological-targeting-meta-og.jpg
+  alt: "Two green and two orange darts stuck in a black, white, red and green dartboard, scattered around the bullseye, shot close up against a pale grey wall"
+  caption: "Close to the centre is not the same as on it. Photo: Afif Ramdhasuma on Unsplash."
+
+short_answer: >-
+  Not on the evidence so far. Pooling 41 studies, the researchers found that machine-learning models read personality from
+  likes, posts and other digital footprints only roughly: with flawed tests removed, the guesses captured about 5% of real
+  personality differences. Studies built to isolate the gain from matching an ad to a personality found almost none.
+  Combine the two steps and the expected benefit is close to zero.
+
+takeaways:
+  - "About 4 in 10 personality-prediction studies let test data leak into model training, and those studies reported almost twice the accuracy of the rest."
+  - "Only 1 in 3 targeting studies used a design able to tell a personality match apart from an ad that simply works better for everyone."
+  - "Weaker designs found a significant targeting effect 75% of the time (18 of 24 estimates). The one sound design did so 18% of the time (2 of 11)."
+  - "The typical prediction study had just 6 cases for every input its model used, short of the 10 to 20 usually recommended for even simple models."
+
+paper:
+  doi: "10.1002/mar.70073"
+  title: "The (In)Effectiveness of Psychological Targeting: A Meta-Analytic Review"
+  authors: ["Perla, R.", "Maran, T.", "Bagci, B.", "Kraus, S.", "Kanbach, D. K.", "Bouncken, R. B."]
+  authors_full: ["Raphael Perla", "Thomas Maran", "Begüm Bagci", "Sascha Kraus", "Dominik K. Kanbach", "Ricarda B. Bouncken"]
+  year: 2026
+  journal: "Psychology & Marketing"
+  volume: "43"
+  issue: "3"
+  pages: "575-590"
+  online: "2025-10-28"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Raphael Perla"
+      affiliation: "Decision Neuroscience of Human Interactions Lab, Heidelberg University, Heidelberg, Germany"
+      orcid: ""
+    - name: "Thomas Maran"
+      affiliation: "Faculty of Economics and Management, Free University of Bozen-Bolzano, Bolzano, Italy; KMU Akademie & Management AG, Linz, Austria"
+      orcid: "0000-0002-5068-4688"
+    - name: "Begüm Bagci"
+      affiliation: "Institut für Psychologie, Universität Innsbruck, Innsbruck, Austria"
+      orcid: ""
+    - name: "Sascha Kraus"
+      affiliation: "School of Economic Disciplines, University of Siegen, Siegen, Germany; Department of Business Management, University of Johannesburg, Johannesburg, South Africa"
+      orcid: ""
+    - name: "Dominik K. Kanbach"
+      affiliation: "HHL Leipzig Graduate School of Management, Leipzig, Germany; Faculty of Management, University of Warsaw, Warsaw, Poland"
+      orcid: ""
+    - name: "Ricarda B. Bouncken"
+      affiliation: "Chair of Strategic Management and Organization, University of Bayreuth, Bayreuth, Germany"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 41
+    basis: "Bayesian random-effects meta-analysis of 41 studies (the abstract's count): personality prediction from digital footprints (38 studies in the PRISMA figure) and personality-matched messaging (7 articles, 12 studies; the sound-design subset is 3 independent studies with 11 effects); searches to 18 April 2025. The PRISMA counts (38 + 7) do not add to 41"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Raphael Perla of Heidelberg University,
+      Thomas Maran of the Free University of Bozen-Bolzano,
+      Begüm Bagci of Universität Innsbruck,
+      Sascha Kraus of the University of Siegen and the University of Johannesburg,
+      Dominik K. Kanbach of HHL Leipzig Graduate School of Management and the University of Warsaw, and
+      Ricarda B. Bouncken of the University of Bayreuth
+      asked whether psychological targeting delivers what its fans promise. The idea has two steps. A machine-learning
+      model first infers each person's personality from digital footprints, the traces they leave online: likes, posts, app
+      use, location data or the words they write. Each person then sees an ad written to suit that personality, such as a lively, sociable message
+      for an extravert.
+
+      The practice became famous through the Cambridge Analytica scandal, and some studies made bold claims for it. One
+      reported that footprints could explain up to 58% of the differences in personality traits, another that matched ads
+      raised the odds of a sale by up to 146%. Sceptics called the whole thing an illusion.
+
+      The team gathered the published evidence on both steps. Personality here
+      means the Big Five: openness, conscientiousness, extraversion, agreeableness and neuroticism. Two coders worked through
+      every study independently and rated it for the flaws described below.
+    facts:
+      - ["Evidence base", "41 studies by the authors' count, from marketing, psychology and computer science"]
+      - ["Step 1, prediction", "38 studies that checked machine guesses of Big Five traits against questionnaire or observer ratings, kept from 341 screened"]
+      - ["Step 2, matching", "12 studies in 7 articles that tailored a message to a Big Five trait and measured behaviour or attitudes"]
+      - ["Sources", "Web of Science, PsycINFO, IEEE Xplore and the ACM Digital Library, plus reference lists; work from 2010 to April 2025"]
+      - ["Method", "Bayesian random-effects meta-analysis of correlations, with every study rated for data leakage and research design"]
+
+  - h: "What the figures mean"
+    body: |
+      Nearly every result is a correlation, written r. It runs from 0, no link at all, to 1, a perfect one. In the prediction
+      step, r says how closely a model's guesses matched people's measured personality. In the matching step, it says how much
+      tailoring the message shifted what people did or thought.
+
+      The paper puts no size labels on these values. A rule of thumb common in psychology, not one this paper applies,
+      puts the line for a small effect at 0.1, a medium one at 0.3 and a big one at 0.5. Squaring r gives the share of the differences between people
+      that one measure accounts for, a step the authors take themselves for the prediction result.
+
+      Each estimate comes with a 95% credible interval: the range in which the true value most probably lies, given the data.
+      When that range takes in zero, a true effect of nothing at all remains plausible.
+
+  - h: "Step one: guessing personality from footprints"
+    body: |
+      The first problem the team found was data leakage. It happens when information from the cases used to test a model
+      slips into the cases used to train it, rather like marking students on questions they saw the day before. Only 40% of
+      the prediction studies were clearly free of it, and 17.5% did not report enough to tell. The rest had it.
+
+      Leakage changed the scores a great deal. Studies with confirmed leakage reported an average correlation of 0.47, the
+      others 0.25. In the pooled model, all studies together gave 0.35, while the leakage-free set gave 0.23, with a credible
+      interval of 0.18 to 0.27. The care taken in testing, more than the kind of model or data, is what mostly decides
+      how accurate a study looks, according to the authors.
+
+      Traits barely differed. Extraversion was predicted a little better than agreeableness (0.29 against 0.23), and no other
+      pair could be separated.
+
+      Many models were also short of data. Almost 60% of studies did not have enough cases for even a basic regression on
+      their inputs, and complex models such as neural networks can need more than 200 cases per input.
+    chart: prediction
+
+  - h: "Step two: why matching is hard to measure"
+    body: |
+      Testing the second step is trickier than it looks. Say a brand shows an upbeat, social ad to extraverts and a calm one
+      to introverts, and the extraverts buy more. Perhaps the upbeat ad is simply better for everyone. Perhaps extraverts buy
+      more whatever they see. Neither has anything to do with the match.
+
+      The team sorted the studies into five designs and found that only one can untangle those explanations. It shows both
+      versions of the message, at random, to people across the full range of a trait, measures the trait, and tests whether
+      the gap between the versions grows or shrinks with it. Statisticians call this a trait-by-treatment interaction. The
+      other four designs mix the matching effect up with the trait itself or with the quality of the ad.
+
+  - h: "When the design is sound, the effect fades"
+    body: |
+      Across all 12 matching studies, the pooled effect was small and positive, r = 0.11, with a credible range of 0.08 to
+      0.15. Squared, by our arithmetic, that is about 1% of the differences in outcomes.
+
+      Keeping only the sound design changed the picture. The estimate dropped to 0.009, and its credible interval ran from slightly
+      under zero to 0.029, so it cannot be distinguished from no effect.
+
+      The studies also stopped disagreeing. With every design included, about 66% of the variation between results reflected
+      real differences rather than chance; with the sound design alone, about 9% did. The authors infer that
+      earlier positive results were picking up differences between ads or between audiences, not a benefit of matching.
+    chart: targeting
+
+  - h: "Putting the two steps together"
+    body: |
+      In a real campaign, any matching effect has to pass through the prediction step. When the personality guess is rough,
+      many people are shown the version meant for someone else, and the benefit shrinks.
+
+      The authors combined the sound-design matching estimate with the leakage-free prediction accuracy. The end-to-end effect
+      came out at about r = 0.002, and its interval ran from marginally below zero to 0.007. That is close to the product of the
+      two figures (0.009 times 0.23). The multiplication is our shortcut, not the exact method in the paper.
+
+      They grant that even a tiny effect could, in principle, build up across a very large audience. Getting there would take
+      far more precise targeting than current applications manage.
+
+  - h: "What about the famous field test?"
+    body: |
+      Readers who know this field may wonder about the large field test of personality-matched ads by Matz et al. (2017). It
+      used a suitable design but was left out of the pooling because the outcome it counted was so rare (390 positive cases
+      in more than three million in one of its studies) that its odds ratios could not be turned into correlations reliably.
+
+      Three of its four tests were significant, but each was imprecise. Its most precise estimate, with error margins around
+      a fifth the size of the others, was near zero and not significant. The authors expect that leaving it out made
+      little difference.
+
+  - h: "The authors' advice"
+    body: |
+      First, for practitioners: put creative quality ahead of microtargeting. At today's prediction accuracy,
+      they argue, the gap between a strong and a weak ad will swamp any gain from a personality match, so money is better spent
+      on versions that work broadly.
+
+      Second, anyone testing targeting should use the interaction design, commit to that analysis in advance and never infer a
+      matching effect from differences between personality groups. Third, expectations should stay modest.
+
+      Looking ahead, they name segmentation on behaviour or context, careful testing and reliable measurement as levers whose
+      returns are easier to demonstrate. That comparison is their judgement; this review did not test those alternatives.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Quiz any personality-targeting vendor", "Before you buy a personality or psychographic audience, ask three questions in writing. How were the predictions checked on people the model never saw? How many people were in that check? What lift did the matched ad give over the best general ad? Walk away from vague answers."]
+  - ["Fund the ad before the targeting", "Put your first money into the core creative. Write three or four versions with clearly different hooks, test them on your whole audience and keep the winner. Only then think about splitting the audience."]
+  - ["Set up a fair matching test", "If you still want to try a personality match, show both the matched ad and your best general ad to people at every level of the trait. Decide who sees which ad at random. Without both ads in both groups, you cannot tell a good match from a good ad."]
+  - ["Work out the size you need", "Pick the smallest lift worth paying for, such as one extra sale per 1,000 people reached. Put it into a free online sample-size calculator. If the answer is bigger than the audience you can reach, drop the test."]
+  - ["Target on behaviour first", "Build audiences from what people have done: pages viewed in the last seven days, items left in a basket, time of day, device. Run these before any audience built on a guess about personality."]
+  - ["Keep a holdout group", "For every targeted campaign, keep one person in ten on the general ad for four weeks or more. Compare sales per 1,000 people in each group, and stop paying for the targeting if the gap is not clearly above zero."]
+
+expect:
+  - "**Little from the match itself.** On the best evidence available, a personality-tailored version should do about as well as your general ad, give or take."
+  - "**Vendor figures may run high.** On our reading, case studies that skip leakage checks or compare personality groups directly are likely to promise more than a fair test would show."
+  - "**Prediction could improve.** Many prediction models were trained on small samples, and the authors expect much larger data sets to push accuracy above their estimate."
+  - "**A fair test is a big test.** Effects this small need very large audiences to show up at all, so, on our inference, most brands could not confirm a matching gain even if one existed."
+
+limits:
+  - "**Few sound tests.** The near-zero matching estimate rests on three independent studies with 11 effects, the lower limit for a meta-analysis, and the authors say new well-designed studies could change it."
+  - "**Traits lumped together.** With so few effects per trait, matching was estimated across all five traits at once, so an effect confined to one trait could be hidden."
+  - "**Rough tools for machine-learning results.** No accepted method exists for pooling machine-learning accuracy. The stand-in error estimates are too optimistic, and the pooled figure leans towards larger studies."
+  - "**Big Five and published work only.** Other personality models such as the Dark Triad, studies before 2010 and industry tests that never reached the literature fall outside the review."
+  - "**Personality, not behaviour.** Targeting on browsing, purchase history or context was outside the review's scope."
+
+faq:
+  - q: "Does psychological targeting work?"
+    a: "Not on present evidence. In the studies designed to isolate it, matching a message to someone's personality had an effect indistinguishable from zero, and errors in guessing personality shrink it further in practice (Perla et al., 2026)."
+  - q: "How accurately can AI predict personality from social media data?"
+    a: "Only roughly. Once studies with testing flaws were set aside, the typical model's guesses tracked people's own questionnaire answers at a correlation of about 0.23, which leaves most personality differences unexplained. Flawed studies made the models look considerably better."
+  - q: "What is data leakage in machine learning?"
+    a: "A testing error. Information from the data used to check a model leaks into the data used to build it, so the model is partly marked on cases it already knows and looks better than it is. Published checklists help rule it out, and the authors want every study to report how it did so."
+  - q: "How should you test personality-matched ads?"
+    a: "Randomly give the matched and the general version to people right across the trait, measure the trait, and check whether the difference between versions changes with it. Comparing average results between personality groups, or giving each group only its own version, cannot separate matching from a stronger ad."
+  - q: "Is personalised advertising a waste of money, then?"
+    a: "This review covers personality-based tailoring only. Personalisation built on behaviour or context, such as recent browsing or time of day, was not part of it, and the authors suggest such signals are a likelier source of measurable returns."
+
+also:
+  - doi: "10.1007/s10660-025-10048-6"
+    title: "The impact of humans vs. AI recommendation on consumer reactions to products exposure"
+    authors: "Mazzù, Andria, Baccelloni, & De Angelis"
+    journal: "Electronic Commerce Research"
+    year: 2026
+    text: >-
+      Who should recommend a product, an AI or a human expert? Across three experiments, people saw AI as more transparent
+      and credible than an expert for search products and were readier to follow its advice, while for experience products
+      the source made no difference. When the human was billed as a highly qualified "super expert", shoppers preferred the
+      human for experience products, and pairing that expert with AI was rated worse than either alone for search products.
+      The best voice depends on what is being sold, and two voices are not always better than one.
+  - doi: "10.1177/10946705251380568"
+    title: "Empathetic AI Encounters: Pathways to Prosocial Behavior"
+    authors: "Shi, Yin, Teng, & Ma"
+    journal: "Journal of Service Research"
+    year: 2026
+    text: >-
+      Six experiments, including a live conversation with an AI and a test with real incentives, found that chatting with a
+      highly empathetic AI made people more inclined to donate, give larger amounts and volunteer than chatting with a less
+      empathetic one. The empathetic AI seemed more humanlike, and its modelled empathy lifted people's own. A human name and
+      icon for the AI made the effect stronger. For a charity's chatbot, the warmth of each reply could weigh as heavily as the
+      appeal.
+
+charts:
+  prediction:
+    title: "How well models guessed personality (correlation with measured traits, 0 = no link)"
+    scale: [0, 0.5]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Leaky studies, raw average", 0.47, false]
+      - ["Other studies, raw average", 0.25, false]
+      - ["All studies, pooled", 0.35, false]
+      - ["Leakage-free studies, pooled", 0.23, true]
+    source: "Step 1 (personality prediction): simple averages of reported correlations by leakage status, then Bayesian pooled estimates for all studies and for studies without confirmed leakage."
+  targeting:
+    title: "Effect of matching a message to personality (correlation, 0 = no effect)"
+    scale: [0, 0.15]
+    step: 0.05
+    unit: ""
+    decimals: 3
+    bars:
+      - ["All designs pooled (12 studies)", 0.11, false]
+      - ["Sound design only", 0.009, true]
+      - ["End to end, after prediction error", 0.002, true]
+    source: "Step 2 (targeting) Bayesian pooled estimates; the sound trait-by-treatment design rests on 3 independent studies and 11 effects. The end-to-end value is attenuated by leakage-free prediction accuracy (Figure 8)."
+
+related_pages: []
