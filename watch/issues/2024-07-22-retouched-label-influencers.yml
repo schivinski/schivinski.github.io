@@ -1,0 +1,230 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 28                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-07-22"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: retouched-label-influencers
+status: live
+
+title: "Do “retouched” labels on influencer photos change how followers see the creator? What an International Journal of Advertising study found"
+dek: >-
+  Norway already makes influencers stamp edited photos in sponsored posts, and other countries have weighed the same rule.
+  Two experiments, one German and one British, show the stamp is easy to miss and rarely costs a creator trust, except with
+  the followers who care most about the product.
+short_title: "Retouch labels: easy to miss, rarely costly"
+
+description: >-
+  Mucundorfeanu et al. find a “Retouched person” stamp helps Instagram users spot edited influencer photos but rarely dents
+  trust, except among product fans.
+
+keywords: [retouched photo labels, digitally altered images disclosure, influencer marketing, Instagram photo editing,
+  retouching disclaimer law, influencer credibility, influencer authenticity, product involvement, skincare influencers,
+  sponsored posts, International Journal of Advertising]
+topics: [Influencers, Social media, Advertising]
+
+image:
+  file: 2024-retouched-label-influencers.jpg
+  og: 2024-retouched-label-influencers-og.jpg
+  alt: "Over-the-shoulder view of a woman working with a stylus on a pen tablet, a laptop and a camera on the desk in front of her"
+  caption: "A few strokes on a tablet can smooth a face. A small stamp can admit it, if anyone notices. Photo: Kawê Rodrigues on Unsplash."
+
+short_answer: >-
+  Only a little. Across two online tests with about 250 Instagram users in Germany and the UK, a “Retouched person”
+  stamp on a creator's sponsored photos helped people who noticed it spot the editing. It did not make her seem more or
+  less authentic or credible, and adding it did little for the brand. The exception was followers who cared deeply about
+  the product: when they spotted the edits, the creator lost credibility.
+
+takeaways:
+  - "A stamp printed on the photo was easy to miss: only 40 of the 80 German participants shown it could recall it afterwards, against about 80% of the British women shown it."
+  - "Credibility barely shifted across three versions of the skincare posts: 4.93 out of 7 for untouched photos, 4.88 for edited ones and 4.74 for edited ones carrying the label."
+  - "Edited photos with no label cost the brand a little: its liking score fell from 5.43 to 4.96 on a seven-point measure, and labelled edits landed between the two at 5.10."
+  - "Some people imagined the label: 14 of the 73 Germans who saw no stamp at all said they had seen one."
+
+paper:
+  doi: "10.1080/02650487.2024.2381973"
+  title: "Exploring the effectiveness of digital manipulation disclosures for Instagram posts on source credibility and authenticity of social media influencers"
+  authors: ["Mucundorfeanu, M.", "Balaban, D. C.", "Mauer, M."]
+  authors_full: ["Meda Mucundorfeanu", "Delia C. Balaban", "Marius Mauer"]
+  year: 2025
+  journal: "International Journal of Advertising"
+  volume: "44"
+  issue: "1"
+  pages: "131-163"
+  online: "2024-07-22"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Meda Mucundorfeanu"
+      affiliation: "Department of Communication, Public Relations and Advertising, Babeș-Bolyai University, Cluj-Napoca, Romania"
+      orcid: "0000-0002-8842-9551"
+    - name: "Delia C. Balaban"
+      affiliation: "Department of Communication, Public Relations and Advertising, Babeș-Bolyai University, Cluj-Napoca, Romania"
+      orcid: "0000-0003-3509-533X"
+    - name: "Marius Mauer"
+      affiliation: "Department of Communication, Public Relations and Advertising, Babeș-Bolyai University, Cluj-Napoca, Romania"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two online between-subjects experiments: Study 1, 99 German-speaking Instagram users; Study 2, 155 UK women; a 60-person stimulus pretest not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Meda Mucundorfeanu, Delia C. Balaban and Marius Mauer of Babeș-Bolyai University in Cluj-Napoca, Romania, looked at a
+      rule that has been spreading through Europe. France has required a label on retouched commercial photos since 2017,
+      and in 2021 Norway extended the idea to influencers, who must mark edited pictures in their sponsored posts. Britain
+      and Germany were debating the same step. What nobody knew was whether such a label changes anything once it lands in
+      a feed.
+
+      The team built two invented Instagram creators and showed each participant six of her posts, on their own phone.
+      Three of the posts were sponsored and carried the usual “Paid partnership” tag. In the edited versions, those three
+      photos had been retouched in Photoshop to make her look more polished. Some people also saw a stamp reading
+      “Retouched person” in the top left corner of each edited sponsored photo, in the format Norway prescribes.
+
+      The first study, with German-speaking young adults, compared edited sponsored posts with and without the stamp. The
+      second, with women in the UK, added a version in which the photos were left untouched, so the effect of editing
+      could be separated from the effect of the label.
+    facts:
+      - ["Study 1", "99 German-speaking Instagram users aged 18 to 33, from 153 recruited on Prolific; Adidas sportswear posts from a creator with 33,000 followers"]
+      - ["Study 2", "155 women in the UK aged 19 to 36, from 177 recruited; CeraVe skincare posts, and the creator had 41,000 followers"]
+      - ["The edits", "Study 1: a more symmetrical face, fuller lips, bigger eyes and a fitter body. Study 2: skin blemishes removed and selected features enhanced"]
+      - ["The label", "“Retouched person” printed on the picture itself in contrasting type, never in the caption"]
+      - ["Measured", "Whether people thought the pictures were edited, how authentic (Study 1) or credible (Study 2) the creator seemed, interest in following her, brand liking and willingness to share"]
+      - ["Pretest", "60 women rated the untouched, edited and labelled photos 1.7, 3.35 and 5.8 out of 7 for how edited they looked"]
+
+  - h: "Did anyone notice the label?"
+    body: |
+      Noticing was the weak link. The stamp was large, high in contrast and sat on the picture itself, which is the
+      placement earlier work on ad disclosures favours over a line buried among hashtags. Even so, a big share of
+      participants could not recall it afterwards, and recall was clearly better in the UK. The authors put the gap down
+      to public debate: the British discussion about labelling edited images had been louder than the German one.
+
+      Those who did notice used it. In the German study, people shown the stamp were surer that the pictures had been
+      edited, 5.33 against 4.49 out of 7. The UK study shows the same step up, and something more. Untouched photos,
+      with skin imperfections left in, still drew a middling score for looking edited. Plenty of viewers seem to take it
+      for granted that a creator's sponsored photos have been worked on, whatever they are told.
+    chart: recognised
+
+  - h: "Neither more nor less believable"
+    body: |
+      The team expected that spotting the edits would make the creator seem less genuine, and that the label's honesty
+      would win some credibility back. Neither happened. In Germany, authenticity scores were practically identical
+      whether or not the stamp appeared (3.91 without it, 3.83 with it, on the paper's scale), and in the UK the label
+      left credibility where it was.
+
+      The authors offer a reason. On Instagram, editing is so normal that many users treat it as part of a creator's style
+      rather than a trick. People can know an image is polished and still enjoy looking at it. A label that confirms what
+      viewers already suspect has little news to deliver.
+
+      The brand side looked much the same. Liking for the brand, interest in following the creator and willingness to
+      share her posts did not differ between labelled and unlabelled edits. The one brand cost in the data came from the
+      editing itself, not from owning up to it.
+
+  - h: "Where it bites: followers who care about the product"
+    body: |
+      The clearest effect sat with one group. The UK study also asked how much skincare mattered in each woman's daily
+      life, and most rated it highly. Women who cared more found the creator more credible overall. But for women with
+      middling or high interest, the creator's credibility slipped further the surer they were that the photos had been
+      edited. For women with little interest in skincare, spotting the editing made no difference.
+
+      That fits the category. Someone who follows skincare closely wants to see what a product does to real skin, and a
+      smoothed close-up undercuts exactly that. Credibility then fed into the wish to follow her, brand liking
+      and sharing, so the loss carried down the chain. It did so for both edited versions, and more strongly where the
+      label was shown, because the label made more people see the edits.
+    chart: involvement
+
+  - h: "Advice for creators and for regulators"
+    body: |
+      Despite the modest effects, the authors still advise creators to label edited photos. They see the stamp as a step
+      towards openness about how content is made, and argue that openness helps creators hold on to credibility, although
+      their own data showed no reward for it after a single viewing.
+
+      For regulators the message is less comfortable. A label that many people do not remember cannot protect them much,
+      so the authors want this format looked at again, alongside broader disclosure strategies.
+      They link the weak recall to unfamiliarity: in both countries these labels were new, unlike the sponsorship tags people have
+      seen for years.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Check the rules where you post", "List every country your sponsored posts will reach. For each one, find out whether edited photos of people must carry a label, and what wording, size and position the rule asks for."]
+  - ["Write down what counts as an edit", "Agree a one-page edit policy with each creator before the campaign starts. Colour, light and cropping can stay unlabelled. Any change to skin, face shape or body gets a label."]
+  - ["Put the label on the picture", "Place a short, plain label such as “Retouched” in a corner of the image itself, in a colour that stands out from the background. Never tuck it into the caption or the hashtags."]
+  - ["Keep product close-ups real", "For skincare, beauty and fitness posts, shoot the close-ups with skin and body as they are. These are the shots your most knowledgeable followers look at hardest, so leave the texture in."]
+  - ["Test whether people see it", "Let ten people look at the post for five seconds each. Then ask which labels they spotted. If fewer than seven mention the edit label, make it bigger or move it, and test again."]
+  - ["Read the experts' comments first", "For four weeks after launch, pull out comments from followers who clearly know the category and note any doubts about the creator. If doubts grow, swap edited close-ups for unedited ones in the next posts."]
+
+expect:
+  - "**Compliance, not a boost.** With a general audience the label is likely to cost little and win little. Its job is to meet the rules and set a fair norm, not to grow reach."
+  - "**Credibility is where the value sits.** In the UK sample, a creator rated one point more credible drew close to one point more interest in following her, on matching seven-point scales."
+  - "**Enthusiast campaigns carry more risk.** The study measured this only for skincare. Serious runners or make-up fans could be just as sensitive to visible editing, but nobody tested that here."
+  - "**Familiar tags get seen.** UK participants knew full well they were looking at advertising (6.66 out of 7), and those posts carried the long-established “Paid partnership” tag. Retouch labels may need similar time before people read them by habit."
+
+limits:
+  - "**One viewing in one sitting.** People saw six posts once. Repeated exposure over weeks, as on a real feed, was not tested, and viewing time was not controlled."
+  - "**Only people who passed the label check.** Participants who misremembered the label were dropped, 54 in the German study and 22 in the UK one, so the results describe viewers who registered the stamp when it was there."
+  - "**Well-known brands.** Adidas and CeraVe came with opinions attached; 89% of the UK women already knew CeraVe."
+  - "**Narrow samples.** Study 2 included only women, both samples were young, and both countries were still debating these labels rather than living with them."
+  - "**Ratings, not behaviour.** No actual follows, shares or purchases were recorded."
+
+faq:
+  - q: "Do retouched-photo labels on Instagram change how followers see an influencer?"
+    a: "For most followers, hardly at all. A “Retouched person” stamp helped viewers recognise edited sponsored photos but did not move judgements of the creator's authenticity or credibility, except among people who cared a lot about the product being promoted (Mucundorfeanu et al., 2025)."
+  - q: "Which countries require influencers to label retouched photos?"
+    a: "Norway passed a law in 2021 that requires influencers to label digitally enhanced pictures in sponsored posts, and France brought in labels for retouched photos used in advertising in 2017. Britain and Germany were discussing similar rules when this study was run. Rules change, so check the current position in each market."
+  - q: "What is product involvement?"
+    a: "How personally relevant a product category is to someone. In this research it was measured with statements such as whether skincare plays an important part in daily life. Highly involved people pay closer attention to ads in that category and judge them more critically."
+  - q: "Why would skincare fans react more strongly to edited photos?"
+    a: "Because a close-up of a face is the evidence for a skincare product. Viewers who care about results notice when that evidence has been smoothed over, and in this research they marked the creator down for it, while casual viewers did not."
+  - q: "Should influencers label edited photos even if it brings no reward?"
+    a: "The authors recommend it. They see labelling as part of being honest about the work behind a post and expect that honesty to protect credibility over time, even though a single exposure in their experiments showed no gain from it."
+
+also:
+  - doi: "10.1177/10946705241266971"
+    title: "Design Principles for Virtual Reality Applications Used in Collaborative Service Encounters"
+    authors: "Pöyry et al."
+    journal: "Journal of Service Research"
+    year: 2025
+    text: >-
+      Three rounds of building and testing a virtual reality app, used when forest owners and a forest management firm's
+      advisers plan work together, were checked against 127 interviews with both sides. Seeing the land in VR sparked
+      conversations that were hard to start across a table, above all with novice owners facing choices that cannot be
+      undone. The authors draw out three design principles: empower the customer, keep attention on the decision, and
+      guide the choice step by step. VR seems most valuable where the result is physical and permanent, rather than as a
+      showroom novelty.
+  - doi: "10.1002/mar.22078"
+    title: "Impressive insults: How do consumers respond to self-deprecating advertisements?"
+    authors: "Kale & Sayin"
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      Six experiments set ads in which a brand pokes fun at one of its own weak points against ads that simply boast. When
+      the weak point was something buyers cared little about, the self-mocking version earned more trust, because the
+      brand seemed warmer and more likeable and people grew less suspicious. It also made viewers less inclined to skip or
+      avoid the ad. Owning up to a minor flaw can buy credibility that bragging rarely does.
+
+charts:
+  recognised:
+    title: "“The pictures were edited”: agreement by version of the skincare posts (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Untouched photos", 3.33, false]
+      - ["Edited, no label", 3.92, false]
+      - ["Edited, with label", 4.97, true]
+    source: "Study 2, 155 UK women; means from the paper's Table 4 (its text reports higher values in the same order). All three groups differed significantly."
+  involvement:
+    title: "Credibility lost for each extra point of “these photos were edited”, by interest in skincare (7-point scales)"
+    scale: [0, 0.3]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Low interest (3.7 of 7)", 0.00, false]
+      - ["Average interest (5.2 of 7)", 0.12, false]
+      - ["High interest (6.7 of 7)", 0.24, true]
+    source: "Study 2, the same 155 women. Effects estimated one standard deviation below, at and above average interest; the low-interest effect was not significant."
+
+related_pages: []

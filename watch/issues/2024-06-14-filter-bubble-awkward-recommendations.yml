@@ -1,0 +1,236 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 25                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-06-14"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: filter-bubble-awkward-recommendations
+status: live
+
+title: "Can an embarrassing product recommendation break the filter bubble? What a Psychology & Marketing study found"
+dek: >-
+  Recommendation engines keep showing people more of what they already like. Three experiments, two in China and one
+  in Britain, show that an embarrassing suggestion makes people want to set the record straight, and they lean towards
+  the unfamiliar.
+short_title: "When an awkward suggestion sends people exploring"
+
+description: >-
+  Lv et al. find an embarrassing recommendation nudges people towards novelty: 58% chose a newer prize after a piles
+  cream suggestion, 37% after hand cream.
+
+keywords: [filter bubbles, personalized recommendations, recommendation algorithms, embarrassing products,
+  unmentionable products, novelty seeking, sensitive product advertising, social recommendations, algorithmic labelling,
+  personalized advertising, consumer identity, Psychology & Marketing]
+topics: [Personalization, AI, Social media]
+
+image:
+  file: 2024-filter-bubble-awkward-recommendations.jpg
+  og: 2024-filter-bubble-awkward-recommendations-og.jpg
+  alt: "Two people on a beach, one holding a red phone, wrapped in a huge swirling soap-bubble film that shimmers pink, green and blue, with waves behind"
+  caption: "Comfortable inside the bubble, until a suggestion arrives that nobody wants to be known for. Photo: Miquel Parera on Unsplash."
+
+short_answer: >-
+  Sometimes, yes. In three experiments involving 804 people, a personalised suggestion for something embarrassing, such
+  as piles cream or an HIV test, made people keener to try new things than a suggestion for an everyday product. They
+  wanted to alter the impression the system seemed to have of them. The push disappeared when the same suggestion was
+  said to come from the people they follow.
+
+takeaways:
+  - "Students told that a system had matched them with piles cream chose the newer of two equally priced prizes 58% of the time, against 37% for those matched with hand cream."
+  - "On Facebook, an HIV test-kit ad rather than a flu one raised people's wish to correct the system's picture of them by 0.85 points, on a scale that tops out at 7."
+  - "People do read the small print: told an ad was picked from what the accounts they follow browse, viewers placed its origin at 4.83 out of 7, where 1 meant 'my own behaviour' and 7 'my network', against 2.52 when told it came from their own browsing."
+  - "Asked whether buying each item felt like a secret they could not share, adults in China scored condoms 6.28 and tests for sexually transmitted infections 6.46 out of 7, against 1.55 for chewing gum."
+
+paper:
+  doi: "10.1002/mar.22057"
+  title: "Prick “filter bubbles” by enhancing consumers' novelty‐seeking: The role of personalized recommendations of unmentionable products"
+  authors: ["Lv, L.", "Kang, K. Q.", "Liu, G."]
+  authors_full: ["Linxiang Lv", "Khloe Qi Kang", "Guanrong (Gus) Liu"]
+  year: 2024
+  journal: "Psychology & Marketing"
+  volume: "41"
+  issue: "10"
+  pages: "2355-2367"
+  online: "2024-06-14"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Linxiang Lv"
+      affiliation: "Department of Marketing, School of Business Administration, Northeastern University, Shenyang, China"
+      orcid: "0000-0002-8765-4159"
+    - name: "Khloe Qi Kang"
+      affiliation: "Institute of Behavioural and Decision Science, HKU Business School, The University of Hong Kong, Hong Kong, SAR, China"
+      orcid: "0000-0002-4654-3292"
+    - name: "Guanrong (Gus) Liu"
+      affiliation: "UQ Business School, University of Queensland, St Lucia, Brisbane, Queensland, Australia"
+      orcid: "0000-0002-6668-3380"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Study 1: prize-choice experiment with 246 Chinese college students; Study 2: online experiment with 183 UK adults on Prolific; Study 3: 2 x 2 online experiment with 375 Chinese adults on Credamo; product pretest (80) and prize-novelty pretest not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Linxiang Lv of Northeastern University in Shenyang, Khloe Qi Kang of the University of Hong Kong and Guanrong (Gus) Liu
+      of Brisbane's University of Queensland studied an unwanted by-product of recommendation engines. Systems trained on
+      what people clicked yesterday keep serving more of the same, so feeds and shop pages narrow over time. That narrowing
+      is the filter bubble, and the authors see it as a concern for businesses and policymakers, not only for engineers.
+
+      Most proposed fixes change the algorithm. The team asked something else: could anything make people themselves want to step
+      outside, with the code left alone? Their candidate was an awkward one. There are products people would rather nobody knew
+      they had bought, from condoms to piles cream to tests for sexual infections. Marketing research calls them unmentionable products.
+      A recommendation for one of these, the authors reasoned, feels as if the system has pinned a label on you, and people try
+      to shake off labels they dislike.
+
+      After a pretest to choose the products, they ran their experiments, the first and third in China and the second in
+      the United Kingdom.
+    facts:
+      - ["Pretest", "80 adults in China on Credamo scored ten products for how private a purchase each would be; used to pick the materials, not counted as a study"]
+      - ["Study 1", "246 college students at a university in central China, each 'recommended' a sensitive or an everyday cream, then asked to choose a thank-you prize"]
+      - ["Study 2", "183 UK adults on Prolific imagined a personalised Facebook ad offering HIV or flu tests"]
+      - ["Study 3", "375 Chinese adults recruited through Credamo saw a Zhihu ad for lubricant or olive oil, said to reflect their own browsing or that of accounts they follow"]
+      - ["Measured", "The prize chosen (Study 1); plans to search on purpose for new and different content, and the urge to correct the system's assumptions about them (Studies 2 and 3)"]
+      - ["Checks", "In every experiment the sensitive product was rated far more private than the everyday one; Study 2 also allowed for familiarity, interest, brand preference, buying habits and gender"]
+
+  - h: "Embarrassing products, and a prize to choose"
+    body: |
+      To pick their materials, the team had people score ten products on how much they would want to keep the purchase to
+      themselves. Five sexual and intimate health products scored high and five everyday ones low. Each later experiment
+      paired one product from each end.
+
+      In the first experiment, students answered a few questions about their age, diet and lifestyle, waited about half a minute
+      while an "intelligent system" did its work, and were then told the system's pick for them: piles cream for some, hand
+      cream for others. As thanks, each was entered into a draw with a one in ten chance of winning one of two vouchers
+      worth the same 69 yuan, a virtual reality session or a spa massage. A separate check had confirmed that people see the VR session as the more
+      novel of the two.
+
+      The students matched with piles cream reached for the VR voucher far more often. The choice was real and so was the
+      prize, which makes this the most concrete result in the paper, even though the prize was unrelated to browsing.
+    chart: secret
+
+  - h: "Wanting to correct what the machine thinks"
+    body: |
+      For the second experiment the setting was Facebook, and the aim was to find the reason. UK adults pictured having
+      recently looked up posts about sexual health and HIV and started following some experts on the subject. On logging in, they saw a prominent personalised
+      ad for HIV test kits, described as based on their online activity. A comparison group pictured the same story about flu
+      and saw an ad for flu test kits.
+
+      Everyone then said how far they felt they needed to change what the recommendation system assumed, both about their
+      interest in the product and about the kind of person they were. They also said whether they would now go out of their
+      way to look for unfamiliar, more varied content on Facebook.
+
+      The HIV ad made people keener to correct the system, and that urge accounted for all of the extra exploring. The
+      authors explain it with social identity theory: people who feel they have been handed an unflattering identity try to
+      shed it, and online the obvious way is to feed the algorithm something different.
+
+  - h: "Whose browsing the suggestion is pinned on"
+    body: |
+      Many platforms now suggest things based on what friends or followed accounts do, not only on a person's own clicks. The
+      third experiment tested whether that changes the picture. Adults in China pictured searching Zhihu, a large Chinese
+      question-and-answer site, for posts on sexual safety and following users who often answer such questions, and then
+      saw an ad for a sexual lubricant; others pictured the same interest in olive oil and saw an olive oil ad. Each ad carried one short line saying it was suggested either because
+      of the person's own browsing or because of the browsing of the people they follow.
+
+      With the personal line, the lubricant ad again lifted plans to explore. With the social line, the gap was gone, and
+      the wish to correct the system no longer did any work. The push, in other words, comes from feeling personally labelled, not from the
+      product on its own.
+    chart: label
+
+  - h: "Turning the effect into practice, with care"
+    body: |
+      The authors offer two ideas. Platforms that want to loosen filter bubbles could slip lesser-discussed products into
+      recommendations now and then, framed as based on the person's own behaviour. And brands launching something new could show
+      it next to an unmentionable product, hoping the urge to explore lands on the newcomer.
+
+      Neither idea was put to the test. The experiments measured a prize choice and plans to search, not purchases, and the
+      platform's standing with users was never checked. One caution of our own: in health categories, an off-putting
+      suggestion could push people away from a test they actually need. For most marketers the safer lesson runs the other way.
+      If you sell sensitive products, a line telling shoppers the pick came from their own clicks may send them looking
+      elsewhere, so choose that wording on purpose.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List the products people keep quiet about", "Mark every product in your range that shoppers might not want others to know they bought, such as sexual health items, intimate care, piles cream or home tests for infections. When unsure, ask five people outside your team whether they would tell a friend they bought it."]
+  - ["Read the small print on every suggestion", "Open your site, app, emails and ads. Write down the line that explains each recommendation, such as \"Because you viewed\" or \"Picked for you\", and mark every one that points at the shopper's own clicks."]
+  - ["Change the line on sensitive picks", "For the products on your list, credit the suggestion to other shoppers, with a line such as \"Often bought together\" or \"Popular this week\". Leave the personal line on everyday products."]
+  - ["Give people an easy way out", "Next to every sensitive suggestion, add a \"Not for me\" button and a short row of fresh picks from other categories. One tap should hide the item and change what shows up next."]
+  - ["Test both lines for a fortnight", "Split your visitors into two groups for 14 days: one sees the personal line, the other sees the shopper line. Compare sales of the sensitive items, and clicks into categories each visitor had never opened before."]
+  - ["Check the quiet signals every Monday", "Count hides, \"Not for me\" taps, unsubscribes and complaints each week. If they rise two weeks in a row after a change, switch back and try another wording."]
+
+expect:
+  - "**A nudge, not an overhaul.** In the largest experiment, the combination of product and wording explained roughly 1% of why some people planned to explore more than others."
+  - "**Exploring is not buying.** Neither sales of the sensitive item nor sales of anything else were measured, so the commercial effect is unknown."
+  - "**The wording is copy, not a footnote.** People notice the line that explains a suggestion and react to it, so it deserves the same testing as a headline."
+  - "**A possible cost for sellers.** Shoppers who try to retrain the algorithm away from an awkward category take their attention with them. The authors did not measure how much."
+
+limits:
+  - "**Mostly imagined ads.** In two of the three experiments people pictured a scenario and an ad. Only the first involved a real choice, and that was a prize rather than something they browsed for."
+  - "**Plans, not clicks.** Nobody's browsing or clicking was recorded afterwards. The authors say field tests that log real behaviour should come next."
+  - "**One pair of products at a time.** Every sensitive product came from sexual or intimate health. Other awkward categories, such as debt advice or hair-loss treatments, were not covered."
+  - "**Two countries.** Two experiments ran in China, one of them with students from a single university, and one in the UK. What feels embarrassing to buy varies between cultures."
+  - "**One social wording.** Only a line about the accounts people follow was tested. Familiar lines such as \"people who liked this also liked\" may behave differently, as the authors note."
+
+faq:
+  - q: "What is a filter bubble in online shopping?"
+    a: "It is the narrowing that happens when recommendation systems keep serving people things like those they clicked or bought before, so over time they see fewer new options. The authors treat it as a threat to the quality of people's choices and to their wellbeing, not just a design flaw."
+  - q: "Do personalised ads for embarrassing products change how people browse?"
+    a: "They change how people say they will browse, and in one test what they chose. People shown an embarrassing suggestion based on their own activity wanted to correct the impression it gave and leaned towards new and varied options more than people shown an everyday product (Lv et al., 2024). Actual clicks were not tracked."
+  - q: "Why would an awkward recommendation make someone look for something new?"
+    a: "Because it reads like a verdict on who they are. A suggestion built from your own clicks implies the system has you down as someone who wants that product. People resist an identity they find unflattering, and online the quickest way to do that is to give the algorithm different signals."
+  - q: "Does it matter how a recommendation explains where it came from?"
+    a: "Here it did. Credited to what followed accounts had browsed, the same sensitive suggestion no longer raised plans to explore, because nothing pointed at the viewer personally."
+  - q: "Should brands recommend embarrassing products on purpose to break filter bubbles?"
+    a: "The authors suggest it as an option for platforms, and as a way to give launches extra attention. Neither use was tested, and the risks, from annoyed customers to privacy complaints, were not measured. Treat it as an idea to examine, not a tactic to copy."
+
+also:
+  - doi: "10.1177/00222429241263012"
+    title: "Positive Emotions During Search Engine Use: How You Feel Impacts What You Search for and Click On"
+    authors: "Whitley et al."
+    journal: "Journal of Marketing"
+    year: 2025
+    text: >-
+      Six studies looked at people who go online to search while already in a good mood for reasons unrelated to the task. The
+      mood leaked into their queries as cheerful words, and searches phrased that way left people less on guard against
+      sponsored results, so they clicked paid ads more often. The authors argue that keyword targeting should weigh emotional
+      language, not just product terms. A keyword list built from product names alone may be missing the happiest
+      searchers.
+  - doi: "10.1177/10949968241263353"
+    title: "Adoption of Virtual Reality Headsets: The Role of Metaverse Trials for Consumers’ Usage and Purchase Intentions"
+    authors: "Hennig-Thurau et al."
+    journal: "Journal of Interactive Marketing"
+    year: 2025
+    text: >-
+      Close to 100 people took part in an extended trial that had them meet and socialise in virtual worlds through stand-alone
+      VR headsets, and were compared with a matched group who had not. Afterwards, the trial group were keener to keep using
+      headsets but less keen to buy one. The study also traced which parts of the virtual experience shaped those reactions.
+      A generous trial can win people over to the experience and still lose the sale, so track both.
+
+charts:
+  secret:
+    title: "How private buying each product feels (1 to 7, higher = would rather tell no one)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Piles cream", 5.85, true]
+      - ["Hand cream", 2.20, false]
+      - ["HIV test kit", 5.99, true]
+      - ["Flu test kit", 2.75, false]
+      - ["Sexual lubricant", 6.00, true]
+      - ["Olive oil", 2.03, false]
+    source: "Pretest, 80 Credamo panel members in China. Shown are the three pairs used in Studies 1, 2 and 3; four more products were rated."
+  label:
+    title: "Plans to seek out new content after the ad, by product and by the line explaining it (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Olive oil, own browsing", 4.20, false]
+      - ["Lubricant, own browsing", 4.87, true]
+      - ["Olive oil, accounts followed", 4.39, false]
+      - ["Lubricant, accounts followed", 4.34, false]
+    source: "Study 3, Zhihu ad scenario, roughly 90 people per group. The lubricant ad raised plans to explore only under the personal line."
+
+related_pages: []

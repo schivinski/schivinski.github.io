@@ -1,0 +1,231 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 26                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-07-01"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: ad-reach-older-consumers
+status: live
+
+title: "Is your advertising reaching older consumers? What an International Journal of Advertising study found"
+dek: >-
+  Marketers often assume older buyers are set in their ways or slow to take in ads. Surveys in two countries point
+  somewhere else: fewer older people connect brands to anything at all, yet those who do hold on to as much as anyone.
+short_title: "Why fewer older buyers think of your brand"
+
+description: >-
+  Mecredy et al. find fewer older people tie brands to any buying cue: for US fitness trackers, 26% of over-75s did so
+  per brand, against 68% of under-40s.
+
+keywords: [advertising reach, older consumers, mental availability, age-inclusive advertising, brand tracking,
+  purchase funnel, consideration set, advertising effectiveness, generational marketing, media planning,
+  International Journal of Advertising]
+topics: [Advertising, Research methods]
+
+image:
+  file: 2024-ad-reach-older-consumers.jpg
+  og: 2024-ad-reach-older-consumers-og.jpg
+  alt: "An older man in a tweed flat cap and glasses smiles up at a curtain of glowing magenta lights, with a crowd around him at night"
+  caption: "The over-60s are still looking. The question is whether your brand is anywhere in sight. Photo: Axville on Unsplash."
+
+short_answer: >-
+  Not as well as it reaches younger ones, and the shortfall looks like a reach problem rather than failing memory.
+  In surveys in the US and New Zealand, each older age group had fewer people who could tie a given brand to even one
+  buying cue. Yet older people who made that link held about as many ideas about the brand as anyone. The authors
+  suspect the advertising simply never got to many older people.
+
+takeaways:
+  - "In New Zealand, the average streaming service was tied to at least one buying cue by 64% of people under 40 and by 25% of those aged 75 and over."
+  - "Small brands lost the most: in the US, 56% of under-40s linked the smart ring Oura to a buying cue, against 3% of over-75s, while Yoplait barely moved (92% against 88%)."
+  - "Once they made a link at all, older people were not short of ideas: Americans aged 60 to 74 held 4.3 associations per yogurt brand on average, against 3.5 for under-40s."
+  - "US over-75s recognised more streaming services than under-40s (6.7 against 5.3) yet would consider fewer than half as many (1.65 against 3.78)."
+
+paper:
+  doi: "10.1080/02650487.2024.2370678"
+  title: "Differences in advertising’s effectiveness across age groups"
+  authors: ["Mecredy, P.", "Stocchi, L.", "Feetham, P."]
+  authors_full: ["Philip Mecredy", "Lara Stocchi", "Pamela Feetham"]
+  year: 2025
+  journal: "International Journal of Advertising"
+  volume: "44"
+  issue: "2"
+  pages: "235-262"
+  online: "2024-07-01"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Philip Mecredy"
+      affiliation: "The Research Agency (TRA), Auckland, New Zealand; Massey Business School, Massey University, Auckland, New Zealand"
+      orcid: ""
+    - name: "Lara Stocchi"
+      affiliation: "University of South Australia Business (UniSA Business), Adelaide, Australia; Ehrenberg-Bass Institute for Marketing Science, Adelaide, Australia"
+      orcid: "0000-0002-3742-4638"
+    - name: "Pamela Feetham"
+      affiliation: "Massey Business School, Massey University, Palmerston North, New Zealand"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two cross-sectional online panel surveys with identical questionnaires, analysed separately as a replication: US (1,515 adults; yogurt, video on demand, fitness trackers) and New Zealand (1,541; yogurt, video on demand, mobile phones). The paper does not number them as studies; New Zealand results are in Appendices C to E"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Philip Mecredy of The Research Agency in Auckland and Massey University, Lara Stocchi of UniSA Business and the
+      Ehrenberg-Bass Institute for Marketing Science in Adelaide, and Pamela Feetham of Massey University in Palmerston North
+      tackled a puzzle that hangs over a lot of generational marketing. When older people seem to respond less to
+      advertising, is that because they think and remember differently, or because the advertising never gets to them?
+
+      Rather than compare age groups on tastes, habits or media use, they compared them on what advertising is meant to leave
+      behind in memory. Their main yardstick was mental availability: how readily a brand comes to mind when a buying need
+      crops up. It has three parts. How many people link the brand to at least one cue, how many cues those people link it
+      to, and how big a piece of the category's total links the brand claims.
+
+      The team ran the same online questionnaire in the US and in New Zealand. People saw well-known brands from three
+      categories next to a list of everyday cues, such as "a healthy option" or "easy to use", and ticked which brands fitted
+      which cue. They also said which brands they knew, would consider and had bought lately, and how expert they felt in the
+      category. Every answer was then compared across four age bands.
+    facts:
+      - ["Surveys", "Two online panel surveys with the same questions: 1,515 adults in the US and 1,541 in New Zealand"]
+      - ["Age bands", "Four bands (18-39, 40-59, 60-74, 75+); close to half of each panel was 60 or older (46% in the US, 47% in New Zealand)"]
+      - ["Categories", "Yogurt and video on demand in both countries, plus fitness trackers in the US and mobile phones in New Zealand"]
+      - ["Brands and cues", "Eight to eleven popular brands per category, each matched against nine or ten buying cues taken from earlier research"]
+      - ["Measured", "Links between brands and cues; brands known, considered and recently bought; self-rated familiarity, experience and knowledge"]
+      - ["Check", "Every comparison was repeated separately for people who buy or use the category and for those who do not"]
+
+  - h: "The reach gap widens with every age band"
+    body: |
+      The clearest pattern sat in one measure: how many people link a brand with any cue at all. Researchers call it
+      associative penetration and treat it as a stand-in for how far advertising has spread through a population. It shrank
+      at every step up the age bands, in every category and in both countries.
+
+      In the US, the average yogurt brand was tied to a cue by 71% of under-40s and 40% of over-75s. For streaming services
+      the figures were 81% and 55%. People in their forties and fifties sat close to the overall average.
+
+      The shortfall was heaviest for the smallest names. The yogurt brand Lala was linked to something by 59% of the youngest
+      group and by 8% of the oldest, while Dannon held level at 86% and 87%.
+    chart: reach
+
+  - h: "Older memories hold on to what they have"
+    body: |
+      If ageing memory were behind the gap, every measure would slide together. That did not happen. Among Americans who linked
+      a brand to anything, the number of links they made stayed much the same from one age band to the next. Each brand's
+      piece of the total also stayed broadly level, with one twist: older people's links bunched around the market
+      leaders. In fitness trackers, Apple Watch took 30% of all the links made by over-75s, against 18% among under-40s.
+
+      Use of the category did not explain the gap either. In the US, 85% of under-40s had used a streaming service in the past
+      six months, against 43% of over-75s, so the authors split each comparison into users and non-users. The decline
+      survived. Among tracker owners, over-75s trailed the average owner by 47 points when it came to linking Oura to a cue.
+
+      Because the shortfall is so narrow, the authors rule out a blanket effect of cognitive decline. They point to reach
+      instead: media plans that lean heavily on digital channels, or targeting choices made to save money, may simply be
+      passing older buyers by.
+
+  - h: "Knowing plenty of brands, choosing from few"
+    body: |
+      The path from knowing a brand to buying it told a related story. In yogurt and streaming, older Americans had heard of
+      as many brands as younger people or more. Only in fitness trackers, the newest category tested, did they know fewer.
+
+      What changed with age was how much of that known list survived the trip to a shortlist, as the chart shows. A second
+      squeeze came between shortlist and purchase in the newer category. Among under-40s, the number of trackers bought lately
+      came to 70% of the number they would consider; among over-75s it was 24%. In streaming, by contrast, that second step
+      hardly moved with age.
+    chart: shortlist
+
+  - h: "Confidence fades fastest in newer categories"
+    body: |
+      Self-rated expertise also fell with age. In the US, 59% of under-40s called themselves knowledgeable about yogurt,
+      against 37% of over-75s, and the authors report wider gaps for streaming and trackers.
+
+      Experience seems to soften this in long-established categories. Among people who actually buy yogurt, feeling familiar with it
+      barely changed across the age bands: 77% of the youngest buyers said so, and 73% of the oldest. Fitness trackers had no
+      such cushion. Among owners, 73% of under-40s felt knowledgeable, against 45% of over-75s.
+
+      The authors suggest that lower confidence makes it harder for older people to pull a brand from memory on the spot,
+      which would fit the sharper narrowing on the way to purchase. That link is their interpretation. The surveys show the
+      patterns side by side, not one causing the other.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Cut your brand tracker by age", "Take your latest brand health survey and split the answers into four age bands: under 40, 40 to 59, 60 to 74, and 75 and over. Aim for at least 100 people in each band, and top up the oldest band if it falls short."]
+  - ["Count who links you to anything", "For each band, work out how many people tie your brand to any buying moment or quality on your list. Do the same for your two nearest rivals, so you can tell whether the drop is yours or the whole market's."]
+  - ["Write cues that older buyers meet", "List eight to ten everyday moments when people over 60 shop in your category, such as the weekly shop, a gift for a grandchild or replacing a broken phone. Ask about them in the tracker and build each new ad around one of them."]
+  - ["Check where the older budget goes", "Work out how much of next quarter's media spend actually reaches people over 60. If most of it sits in feeds and apps they rarely open, move a fifth of it to channels they use every day, such as TV, radio or print."]
+  - ["Measure before and after launch", "Run the age split two weeks before a campaign starts and again four weeks after it ends. Count it a success when more over-60s link you to a buying moment, not just when more people recognise the name."]
+  - ["Give a known brand a reason to stay", "Each quarter, compare how many people in each band know your brand with how many would consider it. Where older buyers know you but drop you, try one plain reason to choose you, such as a side-by-side comparison, a free trial or a guarantee."]
+
+expect:
+  - "**The biggest gap is at the top of the age range.** The shortfall builds band by band and peaks at 75 and over, where it passed 20 points for some of the smaller brands."
+  - "**A cheap thing to check.** Most brand trackers already ask which brands fit which needs, so the authors expect an age view to cost little extra time or money."
+  - "**A baseline first.** The authors see the most value in tracking before and after each campaign, so the first age split tells you where you stand rather than what works."
+  - "**Reach may not fix the shortlist.** Wider reach should lift the number of older people who link you to a need. The steeper drop from known to considered may also reflect confidence in the category, which advertising alone may not change."
+
+limits:
+  - "**A snapshot, not a trend.** Each country was surveyed once, so the paper cannot separate age from generation: today's under-40s may not look like today's over-75s when they reach that age."
+  - "**Reach was inferred, not tracked.** Nobody's ad exposure or media diet was measured. The link-to-a-cue measure is read as a sign of reach on the strength of earlier work."
+  - "**Online panels only.** Everyone answered online, so older people who rarely go online, perhaps the hardest of all to reach, are not in the data."
+  - "**A few categories and familiar brands.** Three categories per country, all with established brands. New brands were not tested, and splitting brands by their own users left groups too small to say much."
+  - "**Self-ratings and few test results.** Expertise was self-reported, and most gaps appear as raw differences, with little detail on which ones passed statistical tests."
+
+faq:
+  - q: "Does advertising work less well on older consumers?"
+    a: "Not because their memories are weaker, on this evidence. Older people who connected a brand with a buying cue made about as many connections as younger people. What fell with age was the number making any connection at all, which the authors put down to advertising that is not getting to them (Mecredy et al., 2025)."
+  - q: "What is mental availability?"
+    a: "The likelihood that a brand pops into someone's head in a buying situation, such as needing a quick snack or a new phone. It is usually measured by asking which brands people link to a list of such needs and qualities, then counting how many people link each brand, how many links they make and the brand's portion of all links in the category."
+  - q: "Why do smaller brands struggle more with older buyers?"
+    a: "The surveys show the pattern but do not test the cause. One plausible reading, and it is our guess rather than a finding, is that leading brands have advertised widely for decades, while smaller names lean on newer channels and tighter targeting. Either way, a challenger hoping to win over-60s should expect to start well behind the category leader."
+  - q: "Is the gap just because older people buy fewer of these products?"
+    a: "No. The authors ran each comparison for category buyers and non-buyers separately, and the decline with age showed up in both groups."
+  - q: "Should brands run separate campaigns for older consumers?"
+    a: "That was not tested here. What the authors recommend is checking reach in each age band and widening it where it falls short, because growth depends on reaching new buyers across the whole market."
+
+also:
+  - doi: "10.1287/mksc.2023.0175"
+    title: "Competitive Model Selection in Algorithmic Targeting"
+    authors: "Iyer & Ke"
+    journal: "Marketing Science"
+    year: 2024
+    text: >-
+      A game-theory model asks how rivalry shapes the targeting algorithms firms build. Each firm's analyst predicts demand
+      in several customer segments and aims offers where predicted profit is highest, weighing a simple model's built-in
+      errors against a complex model's jumpiness. Competition pushes firms towards the simpler, steadier option, so the most
+      flexible algorithms are worth most to firms with few rivals. When a competitor reads the same market, more model is not
+      always the smarter buy.
+  - doi: "10.1093/jcr/ucae037"
+    title: "Digital Therapy for Negative Consumption Experiences: The Impact of Emotional and Rational Reviews on Review Writers"
+    authors: "Wu & Morwitz"
+    journal: "Journal of Consumer Research"
+    year: 2025
+    text: >-
+      Five studies, mixing field data with experiments, looked at what writing about a bad purchase does for the writer.
+      Reviewers who set down both their feelings and their reasoning recovered faster and were more willing to buy from the
+      firm again, much as writing helps people get over hard life events. Body-response readings and lists of thoughts backed
+      up both effects. A review form that asks how it felt and why may help win back the unhappy customer, not only warn the
+      next one.
+
+charts:
+  reach:
+    title: "Average share of people who tied a fitness tracker brand to any cue, by age"
+    scale: [0, 100]
+    step: 25
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["18 to 39", 68, false]
+      - ["40 to 59", 49, false]
+      - ["60 to 74", 33, false]
+      - ["75 and over", 26, true]
+    source: "US survey, 1,515 adults; average across eight tracker brands (associative penetration). The same downward steps appeared for yogurt and streaming, and in New Zealand."
+  shortlist:
+    title: "Share of the streaming services people knew that they would also consider, by age"
+    scale: [0, 100]
+    step: 25
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["18 to 39", 72, false]
+      - ["40 to 59", 58, false]
+      - ["60 to 74", 35, false]
+      - ["75 and over", 25, true]
+    source: "1,515 US adults; average consideration set divided by average awareness set across nine services. New Zealand showed the same slope (61% down to 22%)."
+
+related_pages: []

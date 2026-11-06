@@ -1,0 +1,235 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 27                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-07-17"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: influencer-posts-loyal-customers
+status: live
+
+title: "Do influencer campaigns put off a brand's most loyal customers? What a Journal of Consumer Psychology study found"
+dek: >-
+  Paying a creator to praise your brand looks harmless to its existing fans. Five experiments suggest otherwise: shoppers with a
+  strong bond read the deal as favouritism towards someone just like them, and grow less eager to buy.
+short_title: "Why paid creator posts can cool your biggest fans"
+
+description: >-
+  Bentley et al. find paid influencer posts cool a brand's most attached fans: in one of five experiments, they offered
+  about 12% less for the very same jeans.
+
+keywords: [influencer marketing backlash, brand attachment, loyal customers, sponsored Instagram posts, paid partnerships,
+  influencer sponsorship, choosing influencers, willingness to pay, brand relationships, psychological contract,
+  Journal of Consumer Psychology]
+topics: [Influencers, Social media, Advertising]
+
+image:
+  file: 2024-influencer-posts-loyal-customers.jpg
+  og: 2024-influencer-posts-loyal-customers-og.jpg
+  alt: "A neon sign shaped like a broken heart glows white and red on a crumbling dark-red wall, with black all around"
+  caption: "Paying someone else to love your brand out loud can feel like a betrayal to the people who already do. Photo: Marah Bashir on Unsplash."
+
+short_answer: >-
+  Sometimes, and the people it puts off are your biggest fans. In five online experiments built around Instagram posts,
+  customers who felt a strong bond with a brand planned to buy less after seeing a paid creator's post than after the very
+  same post from the brand. Customers with a weak bond did not care who posted. Fans took the payment as a slight, and the
+  dip faded when the creator was unpaid or someone the fan also loved.
+
+takeaways:
+  - "Attached shoppers offered $18.52 for a pair of new jeans after a creator's post and $21.05 after the brand's own: about 12% less, with a real prize draw riding on their answer."
+  - "In a 750-person check across five kinds of promotion, attached Levi's fans valued the jeans at $54.08 after a creator's post, against $68.48 after a brand post and $63 to $66 after print ads, social ads or an unpaid customer review."
+  - "The penalty was not confined to a hard core: in the prize-draw jeans test it showed for everyone above 3.13 on the seven-point attachment scale, 58% of the people taking part."
+  - "When people judged a creator they already followed, the dip held only for the 22% who felt little attachment to that creator."
+
+paper:
+  doi: "10.1002/jcpy.1432"
+  title: "Unfaithful brands: How brand attachment can lead to negative responses to influencer marketing campaigns"
+  authors: ["Bentley, K.", "Rajagopal, P.", "Kulow, K."]
+  authors_full: ["Kara Bentley", "Priyali Rajagopal", "Katina Kulow"]
+  year: 2025
+  journal: "Journal of Consumer Psychology"
+  volume: "35"
+  issue: "2"
+  pages: "169-184"
+  online: "2024-07-17"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Kara Bentley"
+      affiliation: "Argyros School of Business and Economics, Chapman University, Orange, California, USA"
+      orcid: "0000-0003-0843-9037"
+    - name: "Priyali Rajagopal"
+      affiliation: "G. Brint Ryan College of Business, University of North Texas, Denton, Texas, USA"
+      orcid: "0000-0003-0061-1074"
+    - name: "Katina Kulow"
+      affiliation: "College of Business, University of Louisville, Louisville, Kentucky, USA"
+      orcid: "0000-0001-7616-3760"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 5
+    basis: "Five online experiments with CloudResearch panel members (243, 388, 411, 374 and 552 analysed); an exploratory five-source study (750), a 107-person expectation check and a social-comparison study in the online appendix, not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Kara Bentley of Chapman University in California, Priyali Rajagopal of the University of North Texas and Katina Kulow from
+      the University of Louisville noticed a blind spot. Research on influencer deals has mostly looked at the creator: follower
+      numbers, credibility, fit with the brand. The audience has had much less attention, above all the people who already love
+      the brand.
+
+      Their reasoning goes like this. Customers attached to a brand carry an unwritten set of expectations about how it should
+      treat them, and one of those is fairness: customers like them should get the same deal. A paid creator looks a lot like an
+      ordinary customer, yet gets free products or a fee for saying nice things. To a loyal fan, that can look like favouritism.
+
+      To test it, the team ran five experiments online, each centred on a single Instagram post. Each time the picture and the words
+      stayed the same; what changed was whose account the post came from, the brand's or a creator's. People first rated their bond
+      with the brand, then saw the post and gave their buying plans or the price they would pay.
+    facts:
+      - ["Studies 1 and 5", "Target and an invented denim line; 243 and 552 people analysed. In Study 5 the creator was one each person had named"]
+      - ["Study 2", "An invented electronics brand selling headphones; 388 people, attachment set by a short scenario, plus a group who saw no post"]
+      - ["Study 3", "Dove body scrub; 411 people, each picking one of nine real beauty creators they followed or would follow"]
+      - ["Study 4", "Starbucks; 374 people saw a brand post, a paid creator post, or a creator post saying openly it was unpaid"]
+      - ["Participants", "1,968 adults from the CloudResearch online panel, after removing anyone who missed an attention question or took far too long"]
+      - ["Measured", "Attachment to the brand on two statements, purchase plans rated from one to seven, and in Study 1 a price backed by a real prize draw"]
+
+  - h: "Why fans take it personally"
+    body: |
+      Before the main studies, a quick check with 107 people found that the more attached someone felt to a coffee chain, the more
+      they believed it had promised to treat them just like its other customers. That is the expectation a paid creator seems to break.
+
+      Study 3 measured the break directly. After a creator's paid post for a new body scrub, attached customers agreed more strongly
+      that the brand had broken the rules of their relationship (3.03 against 2.45 for the brand's own post). They also reported more
+      bad feeling, such as envy, resentment and irritation (2.50 against 1.95). Customers with little attachment showed neither reaction.
+
+      The two feelings rose together, but only the sense of broken rules explained why fans' buying plans fell. An extra study,
+      tucked into the supplementary material, fits the same story: the dip was larger among people who habitually compare themselves with others.
+
+  - h: "When an influencer post does worse than no post"
+    body: |
+      A fair objection is that brand posts might simply give fans a lift, which would make any other source look worse by comparison.
+      Study 2 ruled that out by adding a group who saw nothing at all.
+
+      Among attached customers, the brand's own post did no better than silence. The creator's post, with its "paid partnership"
+      label and sponsored hashtags, left them clearly less willing to buy than either. Among customers with little attachment, all
+      three groups ended up in much the same place. So with fans, the creator post did not just fail to help. It took something away.
+    chart: nopost
+
+  - h: "The payment, not the creator, is what stings"
+    body: |
+      If fans were simply wary of outsiders talking about their brand, an unpaid recommendation should hurt as much as a paid one.
+      Study 4 tested that with a third version: a creator post that said plainly it was not sponsored and that the creator just loved
+      the product.
+
+      For attached customers, only the paid version fell short of the brand's own post. The unpaid version landed close to the brand
+      post, and ratings of how believable and honest each post seemed did not account for the gap. Read this with some
+      care, though. The difference between the paid and unpaid creator posts could itself have been chance, so a creator's mere
+      presence may still cost a little with the most devoted fans.
+    chart: paid
+
+  - h: "Pick creators your fans already love"
+    body: |
+      Study 5 moved closer to everyday scrolling. People named two creators they follow on Instagram, said how attached they felt to
+      one of them, and then saw the denim post from either the brand or that same creator, having been told it was a paid partnership.
+
+      Where brand fans felt little for the creator, the familiar dip came back. Where they were attached to both, the creator's post
+      did just as well as the brand's own. A fan who also loves the messenger, it seems, does not see a stranger being rewarded. That
+      makes creator choice a question about your existing customers as much as about reach.
+    chart: shield
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Find your most attached customers", "Put two statements in the next survey you send customers: this brand is part of who I am, and I feel personally attached to it. Ask people to rate each from one to seven. Tag everyone who gives five or more to both as a core fan."]
+  - ["Decide who each creator campaign is for", "Write one line at the top of every creator brief naming the audience. If it is people who have never bought from you, a creator is a good choice. If it is your core fans, plan the post for your own account instead."]
+  - ["Ask fans which creators they follow", "Send your core fans a short poll asking them to name up to three creators they follow and like. Shortlist the names that come up most often before you look at follower counts."]
+  - ["Keep paid creator posts away from your fan list", "When you pay to boost a creator's post, upload your customer and email lists as an excluded audience. Give those people the same news from your own account on the same day."]
+  - ["Try both versions on fans", "Split a group of core fans in two. Show one half the creator's post and the other half the same picture and words from your own account. Compare clicks, basket adds and sales over two weeks."]
+  - ["Read fan comments for a week", "For seven days after each creator post goes live, read every comment and message from your regular customers. Note any that mention favouritism, freebies or selling out, and change the next brief if they keep coming."]
+
+expect:
+  - "**A dip, not a desertion.** In several of the studies attached customers still planned to buy more than casual ones after the creator's post. Their enthusiasm fell back; it did not disappear."
+  - "**No lift with casual buyers on these measures.** Purchase plans and prices did not rise among people with little attachment either. The authors expect creators to help most with awareness, which they did not measure."
+  - "**Totals can hide the loss.** A campaign report that pools everyone may look healthy while your best customers quietly cool. Break results down by how close people feel to the brand."
+  - "**Long partnerships may soften it.** The authors think fans may accept perks more readily for a creator who has worked with the brand for years than for one paid for a single post. That is their view, not a finding."
+
+limits:
+  - "**Plans and prices, not purchases.** Most outcomes were stated intentions. Only one study tied the answer to a real prize, and none tracked sales."
+  - "**A single post, seen once.** Real feeds repeat. The authors suspect a steady stream of creator posts could widen the gap, but that was not tested."
+  - "**Relative, not extreme, attachment.** Average attachment scores hovered around four out of seven, so the comparison is between more and less attached people rather than superfans and strangers."
+  - "**One look at the why.** The broken-rules explanation rests on a single experiment, so other reasons may also play a part."
+  - "**Big names on one platform.** Four of the five studies used well-known brands and all used Instagram. Small brands with cult followings, or short-video apps, may behave differently."
+
+faq:
+  - q: "Can influencer marketing backfire with a brand's loyal customers?"
+    a: "It can. When the same Instagram content came from a paid creator instead of the brand's own account, customers who felt close to the brand reported weaker purchase plans and named lower prices. Customers with little attachment reacted the same way to both (Bentley et al., 2025)."
+  - q: "What is brand attachment?"
+    a: "It describes how strongly a person feels a brand belongs to their sense of self, and how personally bound to it they feel. It is often measured with just two statements on those lines, each rated from strongly disagree to strongly agree. Earlier research finds attached customers more loyal and more forgiving of mistakes, which is why their cooler reaction to creators stands out."
+  - q: "Is it the #ad label that puts loyal fans off?"
+    a: "Not by itself. In one test the brand's post and the creator's post both carried the same ad tag, and fans still offered a lower price after the creator's version. What seems to matter is the sense that someone like them is being paid or gifted for their praise."
+  - q: "Should new brands still work with influencers?"
+    a: "Yes, and they may have the most to gain. The backlash comes from customers who already feel close to a brand, and a young brand has few of them. The authors see creators as a natural fit for launches and for reaching people who do not yet know the brand."
+  - q: "Do celebrity endorsers cause the same reaction?"
+    a: "That was not tested. Every creator in these studies was an everyday influencer whom followers could see as a peer. The authors suspect famous names may escape the problem, because fans are more likely to think a celebrity deserves the deal."
+
+also:
+  - doi: "10.1002/mar.22075"
+    title: "Authenticity in TikTok: How content creator popularity and brand size influence consumer engagement with sponsored user-generated content"
+    authors: "Walsh et al."
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      Three studies on TikTok asked what a sponsorship tag does to engagement with a creator's post. Sponsored creators came across
+      as less genuine, and that cost the brand engagement, but only when the creator had a big following; smaller creators
+      paid no such price. A big creator could even gain from sponsorship when the brand behind it seemed small. For a niche label,
+      a famous face may be less of a gamble than it looks.
+  - doi: "10.1093/jcr/ucae040"
+    title: "Why and How Consumers Perform Online Reviewing Differently"
+    authors: "de Kerviler et al."
+    journal: "Journal of Consumer Research"
+    year: 2025
+    text: >-
+      Using a big collection of online reviews plus interviews with the people who wrote them, this qualitative study argues that
+      reviewers differ not just in personality or expertise but in what they believe a review is for. Some write to help fellow buyers, some grade
+      products against a system, and some perform as critics with an audience in mind. Each habit produces a recognisably different
+      voice. A platform that asks everyone the same questions may be squeezing three kinds of help into one score.
+
+charts:
+  nopost:
+    title: "Plans to buy the headphones, by what people saw and how attached they were led to feel (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Attached, no post", 5.87, false]
+      - ["Attached, brand post", 5.61, false]
+      - ["Attached, paid creator post", 5.00, true]
+      - ["Less attached, no post", 4.08, false]
+      - ["Less attached, brand post", 4.30, false]
+      - ["Less attached, paid creator post", 4.07, false]
+    source: "Study 2, 388 online panel members, invented electronics brand. Among attached customers the creator post fell significantly below both other groups; brand post and no post did not differ."
+  paid:
+    title: "Plans to buy from Starbucks after one Instagram post, for customers with high and low brand attachment (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["High attachment, brand post", 5.93, false]
+      - ["High attachment, paid creator", 5.40, true]
+      - ["High attachment, unpaid creator", 5.70, false]
+      - ["Low attachment, brand post", 2.89, false]
+      - ["Low attachment, paid creator", 2.94, false]
+      - ["Low attachment, unpaid creator", 3.16, false]
+    source: "Study 4, 374 online panel members; values estimated one standard deviation above and below average attachment. Only the paid creator post differed significantly from the brand post."
+  shield:
+    title: "Plans to buy the denim among highly attached Target customers, by their bond with the creator (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Weak tie to creator, brand post", 5.62, false]
+      - ["Weak tie to creator, creator post", 4.84, true]
+      - ["Strong tie to creator, brand post", 5.71, false]
+      - ["Strong tie to creator, creator post", 5.72, false]
+    source: "Study 5, 552 online panel members rating a creator they follow; brand fans well above average, with weak and strong creator ties set a standard deviation either side of the mean. The gap appeared only with a weak tie."
+
+related_pages: []
