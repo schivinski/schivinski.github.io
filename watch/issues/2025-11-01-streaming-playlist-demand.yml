@@ -1,0 +1,249 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 44                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-11-01"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-06"          # the day this page went live (metadata only, never shown)
+slug: streaming-playlist-demand
+status: live
+
+title: "Do playlists boost a song's streams, and which ones work best? What a Journal of Marketing study found"
+dek: >-
+  Labels can no longer compete on price or shelf space when listeners pay one fee for everything, so they chase playlist
+  spots instead. Three years of global streaming data show what a spot is worth, and which placements leave listeners
+  still playing the song after it has gone.
+short_title: "What a playlist spot is really worth to a song"
+
+description: >-
+  Wlömert et al. find a curated playlist lifts a song's daily streams 8.5% while listed and 4% after removal, across
+  200,455 listings on 23,721 playlists.
+
+keywords: [playlist marketing, curated playlists, music streaming, playlist pitching, music discovery, streaming revenue,
+  song promotion, record label marketing, content curation, digital music marketing, Journal of Marketing]
+topics: [Retail, Influencers]
+
+image:
+  file: 2025-streaming-playlist-demand.jpg
+  og: 2025-streaming-playlist-demand-og.jpg
+  alt: "A smiling young woman with curly hair and closed eyes presses white headphones to her ears, dancing in a grey jumper in front of a wall painted in bold yellow, blue and peach stripes"
+  caption: "A playlist can get a song into someone's ears. Keeping it there is a separate job. Photo: Vitaly Gariev on Unsplash."
+
+short_answer: >-
+  Yes, and the right placement matters far more than the average suggests. In 200,455 cases where a single curated
+  playlist added a song and later dropped it, the song's daily global streams rose 8.5% while it was listed and stayed
+  4% above their earlier level after removal. Large playlists, a slot in the first ten and songs few listeners already
+  knew produced the biggest gains.
+
+takeaways:
+  - "By the authors' estimate, a spot on one of the largest playlists earned an average song about $1,997 in extra streaming income over 90 days on the list and 90 days after, against $77 on one of the smallest."
+  - "Songs that had reached few playlist followers before gained 14.6% in streams while listed, against 3.4% for songs already in front of large playlist audiences."
+  - "A place among a playlist's first ten tracks lifted streams by 13.4% during the listing, against 8.0% further down, and the edge held after removal (6.7% against 3.7%)."
+  - "Playlists run by the streaming platform gave the biggest lift while a song was on them (10.4%) but the smallest once it came off (2.1%, against 4.0% for lists run by the song's own label)."
+
+paper:
+  doi: "10.1177/00222429251395986"
+  title: "Driving Music Demand in the Age of Streaming: Understanding the Heterogeneity in Curated Playlist Effectiveness"
+  authors: ["Wlömert, N.", "Papies, D.", "van Heerde, H. J."]
+  authors_full: ["Nils Wlömert", "Dominik Papies", "Harald J. van Heerde"]
+  year: 2025
+  journal: "Journal of Marketing"
+  volume: ""
+  issue: ""
+  pages: ""
+  online: "2025-11-01"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "Nils Wlömert"
+      affiliation: "Institute for Retailing and Data Science, WU Vienna University of Economics and Business, Austria"
+      orcid: "0000-0002-7220-9060"
+    - name: "Dominik Papies"
+      affiliation: "School of Business and Economics, University of Tübingen, Germany"
+      orcid: "0000-0002-0914-4807"
+    - name: "Harald J. van Heerde"
+      affiliation: "School of Marketing, UNSW Business School, UNSW Sydney, Australia"
+      orcid: "0000-0001-6767-7591"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival dataset: daily global Spotify streams (Soundcharts) and daily snapshots of public human-curated playlists, June 2021 to July 2024, from which 200,455 single-playlist listing and delisting quasi-experiments on 23,721 playlists were built and pooled in one stacked difference-in-differences model; sensitivity, weighting and longer-window checks use the same data and are not separate studies"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Nils Wlömert of WU Vienna University of Economics and Business,
+      Dominik Papies of the University of Tübingen
+      and Harald J. van Heerde of UNSW Sydney
+      looked at the tool that now does much of the marketing in recorded music. Streaming services pay per play, a fraction
+      of a cent each time (the paper cites about $0.006), and listeners pay a flat fee for the whole catalogue. Discounts and
+      shelf space mean little in that world. What labels can still do is get songs onto playlists, either by running their own
+      or by pitching to playlists run by the platform or by independent curators. Buying a place is against the platform's
+      rules.
+
+      The team combined two daily records from Spotify: global streams for each song, and snapshots of public playlists put
+      together by people rather than algorithms. They then picked out every case in which a song was added to one playlist,
+      with no other sizeable listing at the same time, and later taken off it. Each such song was paired with a similar song
+      that saw no playlist change, of the same age and genre and with the same streaming pattern in the days before. Comparing
+      the two over the six days either side of each addition and each removal isolates what the playlist did.
+    facts:
+      - ["Data", "Daily global streams per song on Spotify, June 2021 to July 2024: 1,154 days and more than 123 billion streams"]
+      - ["Playlists", "23,721 public lists chosen by people, from niche lists followed by a few thousand people to lists with tens of millions"]
+      - ["Cases", "200,455 additions and later removals involving 152,576 songs by 82,348 artists; songs came off 88 days later on average"]
+      - ["Comparison", "A lookalike song for each case, matched on genre, release age and recent plays, with no playlist change of its own"]
+      - ["Measured", "Daily streams around every listing and removal, and how the gains varied with the playlist's features"]
+
+  - h: "What a playlist spot does to a song"
+    body: |
+      Earlier work had looked only at the platform's six biggest playlists and at songs already in the Top 200 charts. This
+      data set reached much further, from global stars to newcomers in 24 genres.
+
+      One case from the paper makes the pattern concrete. A country song added at number 28 on a playlist with about 7.6 million
+      followers went from around 25,000 daily streams to about 100,000. When it was dropped two months later, it fell back
+      only to about 40,000. The authors read that lasting part as discovery: some listeners found the song on the playlist,
+      saved it and kept playing it.
+
+      They also turn the average lift into a comparison with other promotion. A song sat on 21 playlists on average, and
+      their estimate is that a 1% rise in the number of playlists carrying a song lifts its streams by about 1.77%. Earlier
+      work on recorded music put the same measure at 0.26 for advertising and 0.22 for radio play.
+
+  - h: "Bigger lists, higher slots"
+    body: |
+      Follower count did more than any other feature to decide what a listing was worth, as the chart shows. At the bottom,
+      a song added to one of the smallest playlists gained nothing measurable while it was there, yet still came away 2.8%
+      up after removal. At the top, the after-effect reached 5.6%. For scale, the median listing sat on a playlist of 81
+      songs with about 18,000 followers.
+
+      Position on the list counted as well. The authors take the advantage of the first ten slots as a sign that most people
+      do not listen on shuffle. Length was a weaker factor than expected. Longer playlists did not shrink the lift during the
+      listing, and after removal the gain slipped only from 4.4% on the shortest lists to 3.5% on the longest.
+    chart: popularity
+
+  - h: "Lesser-known songs gain more, in proportion"
+    body: |
+      The second strongest factor was how widely a song had already been heard, measured by the followers of the playlists
+      already carrying it. The less exposure a song had, the more a new listing did for it, during and after. Songs with
+      the least exposure kept 6.6% more streams after removal, against 1.7% for the most exposed, where discovery played
+      essentially no part.
+
+      This is a gain in proportion. Well-known songs start from far more plays, so in raw numbers they still pick up more
+      extra streams.
+
+      Two related results point the same way. Songs from independent labels did a little better than songs from major
+      labels (8.6% against 7.5% while listed). And a newcomer benefited from famous neighbours: when the other tracks on the
+      list were well known, its lift while listed rose from 7.1% to 9.9%. Hence the authors' advice to feature lesser-known
+      songs, but never on a list made only of them.
+
+  - h: "Plays now, or fans later"
+    body: |
+      The most striking result concerns fit, which the team measured in two ways. One was sound: how closely a song matched
+      the other tracks across nine audio features, such as danceability and how upbeat it sounds. The other was company: how
+      often the song had already appeared on other playlists alongside the tracks on this one.
+
+      Both kinds of fit raised plays while the song was listed and lowered what was left after removal. Company mattered far
+      more than sound. The authors' explanation is ease of listening. A list that flows feels comfortable, so
+      people keep playing it, but it rarely surprises them into adopting something new. Where a song had seldom shared a
+      list with its new neighbours, over half the extra income it earned came after removal.
+
+      Sound-based fit pointed the same way, more weakly: from 7.7% to 9.3% while listed, and from 4.5% to 3.6% after.
+    chart: fit
+
+  - h: "Who curates, and around what"
+    body: |
+      Who runs the list changed the shape of the gain. The platform's own lists keep listeners engaged in the moment, the
+      authors suggest, while labels are better at lists that lead to discovery. On platform-run playlists almost none of the extra income (2%) arrived after removal. Label
+      lists also reach further than many assume: the playlist brands of the major labels rank second, third and fourth by
+      total followers, behind only the platform's own.
+
+      How a list is organised made a smaller difference. Playlists built around an activity or a moment, such as running,
+      studying or the commute, beat playlists built around a genre or an artist: 8.6% against 7.6% while listed, and 4.0%
+      against 2.9% after. Their explanation: such sessions tend to run long and come round again, like a daily run. A language model
+      sorted the playlists into the two types.
+
+      The paper ends on power. Because the largest lists work best, their curators decide much of what succeeds, and the
+      authors urge labels to grow their own lists until they rival the biggest. For offers that trade a playlist place for a
+      lower rate per stream, they give a rule of thumb: if a listing should lift streams by 50%, a 25% cut in pay per stream
+      may be worth taking.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Pick the track that needs finding", "Check how many playlists each of your tracks already sits on. Back the newer or lesser-known ones with your pitching time. The hit that is already everywhere has fewer new listeners left to reach."]
+  - ["Rank the playlists you could reach", "List every playlist that suits the track and write down its follower count. Sort from largest to smallest and pitch the top ten first. A list with a few hundred followers will barely move your numbers."]
+  - ["Decide between quick plays and new fans", "Decide what each placement is for. For quick plays, aim for lists full of songs your track already appears beside elsewhere. To win new fans, aim for lists where it would sit among songs it has rarely shared a list with."]
+  - ["Ask for a top-ten slot", "When you pitch or curate, push for a place in the first ten tracks, where people who do not shuffle will reach it. Put three or four songs your listeners already love around it, so the list still feels familiar."]
+  - ["Start your own list around a routine", "Build a playlist for something people do again and again, such as a morning run, an hour of focused work or the drive home, rather than for a genre. Keep it to about 50 tracks and refresh it every week."]
+  - ["Measure the week after it comes off", "Log the track's daily plays for seven days before it joins a list, while it is on, and for seven days after it is removed. If plays stay above the starting level, listeners saved it. Pitch to the lists that leave that kind of mark again."]
+
+expect:
+  - "**Part of the payoff comes late.** Once the slow fading of both effects is counted, about 22% of a listing's extra income arrived after the song had been removed."
+  - "**A modest slice of income per listing.** For an average song, 90 days on a list added roughly 7% to its usual streaming income, and the following 90 days about 2% more. Songs with much bigger audiences gain more in money terms."
+  - "**Lifts fade slowly.** Three months into a listing, the authors estimate that 84% of the initial lift was still in place."
+  - "**No paying your way in.** Platform rules forbid buying a placement, so the work is choosing which songs to put forward, pitching well and building lists of your own."
+
+limits:
+  - "**One service.** Every number here comes from Spotify. The authors expect the same patterns on other streaming services; that remains untested."
+  - "**Human-picked public lists only.** Personalised playlists assembled by algorithms, which the paper puts at about a quarter of playlist listening, were left out."
+  - "**Matched, not random.** Curators chose when to add and drop songs. Careful matching and keeping only single-playlist cases reduce, but cannot rule out, a hidden cause on the same day, such as a TV appearance."
+  - "**Short look after removal.** Streams were tracked for six days after a song came off a list; longer-run figures are projections from the estimated fade. Checks with windows of up to 27 days still found a positive after-effect."
+  - "**Assumed payouts.** The dollar figures assume $0.006 a stream and a song with average plays. Real payouts vary by service and contract, and the data sit under a non-disclosure agreement."
+
+faq:
+  - q: "Do playlists increase a song's streams?"
+    a: "Yes. Being added to a curated playlist raised a song's daily global streams by about 8.5% for as long as it stayed there, and streams remained around 4% higher than before once it was taken off (Wlömert et al., 2025)."
+  - q: "Which playlists should artists and labels pitch to?"
+    a: "Large ones, ideally with a slot near the top. Follower count made the biggest difference of any playlist feature, yet a big list alone did not guarantee a strong result. The song's existing exposure, its position and how it fitted the other tracks all changed the outcome."
+  - q: "Do playlists help unknown artists more than stars?"
+    a: "In proportion, yes. In raw plays, no. A heavily exposed song gained about 1,708 extra streams a day from a listing, against roughly 440 for a little-known one, because it started from a much higher base."
+  - q: "How do context playlists differ from content playlists?"
+    a: "Content playlists group songs by what they are, such as a genre, an era or one artist. Context playlists group them by the moment they are played in, like a workout, a dinner party or the commute. Context lists came out ahead both while songs were listed and once they had been dropped."
+  - q: "Does this apply outside music?"
+    a: "The authors expect similar patterns for curated lists of videos, e-books or films, such as must-read or top-250 lists, though that was not tested. Going beyond the paper, we would expect any brand placed in a curated collection to face the same choice between a quick lift and lasting adoption."
+
+also:
+  - doi: "10.1108/ejm-12-2022-0894"
+    title: "Countdown timers improve online video advertising effectiveness: evidence from eye-tracking data"
+    authors: "Su, Guo, Tang, & Huang"
+    journal: "European Journal of Marketing"
+    year: 2025
+    text: >-
+      Four experiments, two of them with eye tracking, tested online video ads that show a countdown of the seconds left
+      before they end. Viewers remembered both short and long ads better with the timer on screen, and the eye-tracking data
+      traced the gain to closer attention rather than to less irritation. Experience products, whose quality people judge
+      by using them, gained the most. A small clock in the corner can hold the eye better than a louder script.
+  - doi: "10.1080/13527266.2025.2579240"
+    title: "Is this My friend’s post? Why human faces outperform brand logos in WeChat Moments ads"
+    authors: "Wang, Zhang, & Xu"
+    journal: "Journal of Marketing Communications"
+    year: 2025
+    text: >-
+      Three experiments on WeChat Moments, a feed made up mostly of posts from people users know, compared native ads shown
+      under a human profile photo with the same ads under a brand logo. The human photo raised intentions to click, like and
+      comment, because the ad blended in with the feed and the brand felt closer. An ordinary face matched a celebrity's
+      pull. Among friends, looking like one of them may count for more than a famous name.
+
+charts:
+  popularity:
+    title: "Rise in daily streams while a song is listed, by playlist size (playlists split into fifths by followers)"
+    scale: [0, 25]
+    step: 5
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Smallest fifth of playlists", 0.0, false]
+      - ["Second fifth", 3.5, false]
+      - ["Middle fifth", 7.3, false]
+      - ["Fourth fifth", 11.8, false]
+      - ["Largest fifth of playlists", 21.6, true]
+    source: "Figure 6 and Table 4, 200,455 listings on 23,721 playlists. Other features held at their averages, for an independent-label song on a context playlist run by its own label."
+  fit:
+    title: "Rise in daily streams by how often the song had shared playlists with its new neighbours (bottom vs top fifth)"
+    scale: [0, 15]
+    step: 5
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Rarely together, while listed", 3.9, false]
+      - ["Often together, while listed", 12.4, true]
+      - ["Rarely together, after removal", 5.6, true]
+      - ["Often together, after removal", 2.8, false]
+    source: "Figure 6 and Table 4, colisting-based fit, 200,455 listings. A familiar line-up won plays during the listing; an unfamiliar one left more behind."
+
+related_pages: []
