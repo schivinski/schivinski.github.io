@@ -1,0 +1,220 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 42                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-10-15"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: lgbt-brand-humour
+status: live
+
+title: "Should LGBT+ brands use humour on social media? What a Psychology & Marketing study found"
+dek: >-
+  Brands built by and for the LGBT+ community mostly post about pride and identity, and they almost never crack a joke.
+  Years of Facebook posts from Grindr, Tinder and a coffee company, backed by an experiment, suggest a little humour
+  would help their posts travel much further.
+short_title: "Why a joke travels further for LGBT+ brands"
+
+description: >-
+  O'Rourke et al. show funny Facebook posts drew far more shares for Grindr than for Tinder, because humour feels like a
+  natural fit for an LGBT+ brand.
+
+keywords: [LGBT+ brands, humour in social media marketing, funny brand posts, eWOM, social media sharing, brand-post fit,
+  Pride marketing, rainbow-washing, Facebook reactions, brand personality, Psychology & Marketing]
+topics: [Social media, Creative]
+
+image:
+  file: 2024-lgbt-brand-humour.jpg
+  og: 2024-lgbt-brand-humour-og.jpg
+  alt: "A crowd seen from behind walks down a sunlit street beneath a giant rainbow flag held overhead, some with arms raised, a rainbow scarf hanging over one backpack"
+  caption: "For brands that belong to the community, being seen by everyone else is the hard part. A laugh helps the message travel. Photo: Mercedes Mehling on Unsplash."
+
+short_answer: >-
+  Yes, for brands whose identity is built around the LGBT+ community. On Facebook, Grindr's posts were shared more the more
+  people laughed at them, while Tinder's were not, and an LGBT+-owned coffee company showed the same lift. An experiment with
+  796 Americans explained why. A meme felt like a natural match for a brand with an LGBT+ founder, and that sense of fit drove
+  sharing. The same meme did nothing for a mainstream version.
+
+takeaways:
+  - "At Grindr, every extra 10 points in the share of reactions that were laughs went with about 417 more shares of a post. At Tinder there was no such link."
+  - "The coffee company moved the same way on a smaller scale: roughly 8 extra shares per post for each 10 points more laughter."
+  - "In the experiment, each extra point of brand-post fit on its 7-point scale went with 0.37 points more willingness to share."
+  - "Funny content is rare at these brands. In 2023, humorous posts made up only 1.1% to 3.8% of what three LGBT+ brands put on Facebook."
+
+paper:
+  doi: "10.1002/mar.22131"
+  title: "Rainbows and laughter: How humor boosts e-Word-of-Mouth for LGBT+ brands on social media"
+  authors: ["O'Rourke, A.-M.", "Belli, A.", "Mathmann, F.", "Septianto, F."]
+  authors_full: ["Anne-Maree O'Rourke", "Alex Belli", "Frank Mathmann", "Felix Septianto"]
+  year: 2025
+  journal: "Psychology & Marketing"
+  volume: "42"
+  issue: "2"
+  pages: "395-411"
+  online: "2024-10-15"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Anne-Maree O'Rourke"
+      affiliation: "UQ Business School, The University of Queensland, Brisbane, Australia"
+      orcid: "0000-0002-4628-8076"
+    - name: "Alex Belli"
+      affiliation: "Department of Management and Marketing, The University of Melbourne, Parkville, Australia"
+      orcid: "0000-0001-5425-9294"
+    - name: "Frank Mathmann"
+      affiliation: "School of Advertising, Marketing and Public Relations, QUT Business School, Queensland University of Technology, Brisbane, Australia"
+      orcid: "0000-0003-1446-0262"
+    - name: "Felix Septianto"
+      affiliation: "UQ Business School, The University of Queensland, Brisbane, Australia"
+      orcid: "0000-0002-7487-761X"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Study 1: 2,721 Facebook posts from Tinder and Grindr; Study 2: 1,150 Facebook posts from Equator Coffees; Study 3: 2 x 2 online experiment with 796 US adults on Prolific"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Anne-Maree O'Rourke and Felix Septianto of the University of Queensland, Alex Belli of the University of Melbourne and
+      Frank Mathmann of Queensland University of Technology turned to a group of companies that marketing research has mostly
+      ignored: brands whose whole identity centres on the LGBT+ community. Unlike big names that switch to a rainbow logo every
+      June, these firms serve LGBT+ customers all year round, and many have LGBT+ owners. Plenty of them still struggle to get
+      noticed by the wider public, so every share on social media matters to them.
+
+      The team saw that these brands hardly ever post anything funny. Their feeds lean on pride, identity and social justice,
+      perhaps because managers worry that a joke would undercut a serious cause. The question was simple. Would humour help these
+      posts spread, and would it help more than it does for an ordinary brand?
+
+      They came at it from three sides. Two studies used years of real Facebook posts, treating the laughing "haha" reaction as a
+      gauge of how funny each post was. The third was an online experiment built around a made-up streaming service.
+    facts:
+      - ["Study 1", "Every post on the Facebook pages of Tinder and Grindr up to May 2022; 2,721 of them dated after February 2016, when reaction buttons arrived"]
+      - ["Study 2", "1,150 posts from the Facebook page of Equator Coffees, a San Francisco coffee company with LGBT+ owners"]
+      - ["Study 3", "796 American adults, signed up via Prolific: 49% men, 47% women, 4% gender diverse, average age 38"]
+      - ["Humour gauge", "For the two Facebook studies, the proportion of a post's reactions that were the laughing emoji"]
+      - ["Outcome", "Shares per post on Facebook; in Study 3, stated likelihood of sharing, from 1 to 7"]
+      - ["Checks", "The Facebook results held when links, images and videos in each post were taken into account"]
+
+  - h: "Funny posts went further for Grindr, not for Tinder"
+    body: |
+      Tinder and Grindr do the same job for different people. Tinder is the leading dating app among straight users, Grindr among
+      gay, bisexual and trans users. Setting their Facebook pages side by side kept the product roughly the same while the kind of
+      brand changed.
+
+      At Grindr, posts that drew a bigger share of laughs were passed on far more often. At Tinder the line was flat, if anything
+      drifting down, and too close to zero to tell apart from chance. That contrast between the two apps was the central result:
+      the joke paid off for one app and did nothing for its rival.
+
+      The coffee data asked a narrower question. Equator Coffees has no mainstream twin to compare with, and it sells to everyone,
+      not only to LGBT+ customers. Its funnier posts were still shared more, a sign that the pattern is not peculiar to dating apps.
+    chart: dating
+
+  - h: "Why the joke works: it suits the brand"
+    body: |
+      Real pages vary in a lot more than identity, so the third study built a brand from scratch. Everyone saw one Facebook post
+      from "streamingQ", an invented streaming service, promoting a documentary about the Leaning Tower of Pisa. Half read that its
+      founder, Quentin Edwards, was a well-known LGBT+ figure who actively supports the community and that the service mixed queer and
+      mainstream shows. The rest read that his support for the community was of a general kind, with no word about queer programming. The post
+      showed either a meme of tourists pretending to prop up the tower or an ordinary photo of it.
+
+      People then rated, on three statements, how well the post and the brand belonged together, and rated their own chances of
+      sharing it. With the LGBT+ founder, the meme made the post seem a better match, and that sense of a match raised sharing. With the
+      general founder, the meme changed neither. Once fit was counted, humour added nothing extra.
+
+      The authors' explanation lies in the way people picture brands as people. Earlier work suggests many link wit to gay culture, helped
+      along by sitcoms and talk shows, and they carry that expectation over to a brand that plainly belongs to the community. A joke
+      from such a brand feels in character. From a generic brand, the same joke just feels random.
+    chart: checks
+
+  - h: "How far to push the jokes"
+    body: |
+      The authors do not hide the risk. Leaning on humour means leaning on a stereotype, and too much of it could feed the very
+      clichés these brands exist to challenge, or chip away at their credibility. They suggest mixing funny posts with posts that
+      show competence: what the brand has achieved and the work it does for the community.
+
+      They also stress what kind of humour was tested. Most funny posts on the brands' own pages were light, absurd gags rather than
+      camp, sexual or self-mocking jokes, and the experiment used that same gentle style. Those riskier styles are more likely to
+      reinforce negative views, the authors note, and they were not studied. Their advice is to save jokes for posts whose job is to be seen, such as a young brand
+      trying to get noticed, rather than service updates, and to try funny and plain versions side by side, since any joke can fall flat.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Count your funny posts", "Scroll back through your last 50 posts and tick each post that was meant to raise a smile. If fewer than five made the cut, there is room for more."]
+  - ["Check that a joke sounds like you", "Ask five loyal customers which three words best describe your brand's personality. If words like warm, witty or playful come up, light humour will feel natural. If they say serious or formal, start small."]
+  - ["Choose gentle, silly humour", "Use light visual gags, puns or memes about the product or an everyday situation. Never make the joke about who your customers are, and skip innuendo or jokes at your own community's expense."]
+  - ["Keep who you are in the frame", "Make sure every funny post still shows your identity: your colours, your community, your cause. A joke any brand could have posted loses the match that makes people pass it on."]
+  - ["Post a funny and a plain version", "Post one message in two forms a week apart: one with a light gag, one straight. After 48 hours, compare how often each was shared, not how many likes it got."]
+  - ["Keep jokes to one post in four", "Fill the other three with your work, your people and what you have done for the community. Review the mix once a month and pull back if comments turn on the brand."]
+
+expect:
+  - "**Shares, not sales.** Every outcome here was sharing, real or intended. Nobody tracked the sign-ups, bookings or purchases that might follow."
+  - "**A modest laugh can be enough.** People rated the meme in the experiment only mildly funny, short of the scale's midpoint, yet it still lifted sharing for the LGBT+ founded brand."
+  - "**Judge by rate, not raw counts.** How many extra shares a joke brings depends on how many people see it, so a small page should compare share rates between funny and plain posts."
+  - "**A free gauge in your own data.** The proportion of laughing reactions on each post gives a rough, no-cost read on whether a joke landed. It is the same measure used here to score the Facebook pages."
+
+limits:
+  - "**Facebook only.** All three studies used Facebook, a platform people open partly for fun. LinkedIn, X or markets outside the Western, English-speaking world may respond differently."
+  - "**Two real apps are not a clean test.** Grindr and Tinder have different audiences and histories, and a laughing reaction can be sarcastic, so the Facebook findings show links rather than proof."
+  - "**One style of joke.** Only light, absurd humour was examined. Camp, sexual, aggressive or self-mocking humour could work differently or backfire."
+  - "**How often is unknown.** Nobody tested whether a steady run of funny posts wears thin over time."
+  - "**One invented brand, one post.** In the experiment people saw a single post and only said whether they might pass it on. Nobody had to share anything."
+
+faq:
+  - q: "Is humour a good idea for LGBT+ brands on social media?"
+    a: "On this evidence, yes, in measured doses. Funny posts were shared more for LGBT+ brands on Facebook, and an experiment showed the reason: humour feels in character for such a brand. A brand without ties to the community got no boost (O'Rourke et al., 2025)."
+  - q: "What is an LGBT+ brand?"
+    a: "The authors define it as a brand whose core identity is serving the LGBT+ community, through LGBT+ ownership, LGBT+ customers as the main market, representation across its marketing, or lasting support for LGBT+ causes. That sets it apart from mainstream brands that are simply LGBT+ friendly. Their examples include a dating app, a coffee company, a jeweller and a British bookshop."
+  - q: "Does this only work with LGBT+ audiences?"
+    a: "No. Half of the people in the experiment identified as LGBT+ and half did not, and the result held after allowing for each person's own sexuality. The boost comes from the brand's perceived character, not from who is watching."
+  - q: "Why would people expect an LGBT+ brand to be funny?"
+    a: "People tend to give brands personalities, borrowed from the groups a brand stands for. Wit has long been part of how gay life is shown on screen, so a joke from a community brand matches what people expect. That expectation is also a stereotype, so the authors urge balance."
+  - q: "Will humour help a mainstream brand get more shares?"
+    a: "Not on this evidence. Funny posts did nothing for Tinder, and in the experiment the joke did not lift sharing for the general version of the brand. The authors suspect brands with a naturally playful identity could gain, but that remains untested."
+
+also:
+  - doi: "10.1108/jrim-01-2024-0052"
+    title: "Does disclosing commercial intention benefit brands? Mediating role of perceived manipulative intent and perceived authenticity in influencer hidden advertising"
+    authors: "Shen et al."
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2025
+    text: >-
+      Some influencers slip paid content into posts that look like everyday life. Three experiments looked at covert ads of this
+      kind with and without a sponsorship label, and with labels that were easy or hard to spot. Labelling cut both ways: viewers suspected
+      manipulation more, which hurt the brand, yet also found the post more genuine, which helped. Gut-led viewers leaned towards
+      the second reaction and analytical ones towards the first, so how a label lands depends on who is reading it.
+  - doi: "10.1002/cb.2408"
+    title: "Are Recommendation Systems Annoying? An Empirical Study of Assessing the Impacts of AI Characteristics on Technology Well-Being"
+    authors: "Wang et al."
+    journal: "Journal of Consumer Behaviour"
+    year: 2025
+    text: >-
+      A survey of US consumers looked at four traits of recommendation engines, among them how human they seem and how far they can
+      be tailored. All four made suggestions feel easier and more natural to use, while two, sharper information and a human touch,
+      also made the system feel more intrusive. Surprisingly, both feelings went with greater wellbeing, above all among more
+      vulnerable users. A recommender that feels a little forward is not always one people resent.
+
+charts:
+  dating:
+    title: "Predicted shares per Facebook post when 5% or 15% of its reactions are laughs"
+    scale: [0, 600]
+    step: 100
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Tinder, 5% laughs", 90, false]
+      - ["Tinder, 15% laughs", 20, false]
+      - ["Grindr, 5% laughs", 150, false]
+      - ["Grindr, 15% laughs", 570, true]
+    source: "Study 1, 2,721 posts from the Tinder and Grindr Facebook pages, 2016 to 2022. Fitted values read from the published figure and rounded to the nearest 10; the Tinder slope was not significant."
+  checks:
+    title: "How the versions in the experiment came across (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Meme post, how funny", 3.63, true]
+      - ["Plain photo, how funny", 2.71, false]
+      - ["LGBT+ founder, support for LGBT+", 5.00, false]
+      - ["General founder, support for LGBT+", 3.31, false]
+    source: "Study 3, online experiment, about 200 people per version. Checks asked whether the post was funny and whether the brand supports LGBT+ customers; both gaps were significant."
+
+related_pages: []

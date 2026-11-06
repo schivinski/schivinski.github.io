@@ -1,0 +1,226 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 41                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-10-13"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: one-brand-sponsored-feed
+status: live
+
+title: "Does an influencer posting ad after ad for one brand put followers off? What a Journal of Marketing Communications study found"
+dek: >-
+  Brands fear that once a creator's feed fills up with paid posts, followers start to doubt everything on it. An online
+  test run in two waves with young US Instagram users found no extra doubt when every post promoted the same new drink,
+  but the slow build in wanting to buy it came only from the version where the ad was mixed in with ordinary posts.
+short_title: "Why a feed of ads for one brand raised no extra doubt"
+
+description: >-
+  Balaban et al. find a run of four paid posts for one drink stirred no more doubt than a single one, but only the lone
+  ad lifted buying intent 20 days on.
+
+keywords: [influencer marketing, sponsored posts, influencer advertising frequency, paid partnership disclosure,
+  ad saturation, advertising scepticism, sleeper effect, persuasion knowledge, purchase intention, Instagram influencers,
+  brand ambassadors, Journal of Marketing Communications]
+topics: [Influencers, Social media, Advertising]
+
+image:
+  file: 2024-one-brand-sponsored-feed.jpg
+  og: 2024-one-brand-sponsored-feed-og.jpg
+  alt: "Close-up of three identical bright-yellow drink cans with silver ring-pull tops, standing side by side against a yellow wall"
+  caption: "Same can, same colour, one after another. Followers in this test did not hold the repetition against the brand. Photo: YesMore Content on Unsplash."
+
+short_answer: >-
+  Not straight away. In a two-part online experiment, US Instagram users browsed an unknown creator's profile showing
+  either a single paid post among three everyday ones or four paid posts back to back, all for the same new energy
+  drink. Both groups were equally wary of paid posts and judged the brand alike. Twenty days later, though, only those
+  shown the lone ad had grown keener to buy.
+
+takeaways:
+  - "Scepticism towards paid influencer posts averaged 4.57 out of 7 after one sponsored post and 4.58 after four, a difference of one hundredth of a point."
+  - "Doubt still did damage wherever it came from: each extra point of it went with brand ratings about 0.4 lower and buying intent nearly half a point lower, on seven-point scales."
+  - "Over the following 20 days, buying intent climbed by 0.38 points in the group that met one sponsored post and slipped by 0.04 in the group that met four."
+  - "Liking for the brand held steady over the same stretch, at 4.29 out of 7 at first viewing and 4.28 at the follow-up."
+
+paper:
+  doi: "10.1080/13527266.2024.2413916"
+  title: "Short and long-term impact of the frequency of social media influencers’ sponsored posts on attitudinal and behavioral brand outcomes"
+  authors: ["Balaban, D. C.", "Mucundorfeanu, M.", "Naderer, B."]
+  authors_full: ["Delia C. Balaban", "Meda Mucundorfeanu", "Brigitte Naderer"]
+  year: 2026
+  journal: "Journal of Marketing Communications"
+  volume: "32"
+  issue: "5"
+  pages: "552-569"
+  online: "2024-10-13"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Delia C. Balaban"
+      affiliation: "Department of Communication, Public Relations and Advertising, Babeș-Bolyai University, Cluj-Napoca, Romania"
+      orcid: ""
+    - name: "Meda Mucundorfeanu"
+      affiliation: "Department of Communication, Public Relations and Advertising, Babeș-Bolyai University, Cluj-Napoca, Romania"
+      orcid: ""
+    - name: "Brigitte Naderer"
+      affiliation: "Department of Social and Preventive Medicine, Unit Suicide Research & Mental Health Promotion, Medical University of Vienna, Vienna, Austria"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One two-wave online experiment (one vs four sponsored posts between subjects, immediate vs 20-day measure within subjects) with US Prolific participants: 256 at wave 1, 190 completing both waves and analysed"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Delia C. Balaban and Meda Mucundorfeanu of Babeș-Bolyai University in Cluj-Napoca, Romania, and Brigitte Naderer of
+      the Medical University of Vienna went after a question that turns up in almost every influencer brief: how many paid
+      posts can a creator run before followers start to resent them? People in the industry call this saturation, the
+      share of a feed taken up by sponsored content. Earlier research had mostly looked at single posts and at reactions
+      in the moment.
+
+      So they built a test with two moments. In June 2022, US Instagram users recruited through the research platform
+      Prolific were shown the profile of an invented woman creator. Half then saw three everyday posts and one paid post
+      for an energy drink called Virtue, sold in the US only online and treated by the authors as new to the people
+      taking part. The
+      other half saw four paid posts for that same drink and nothing else.
+
+      Right after viewing, people rated the practice of paying creators to show brands, gave their opinion of the drink
+      and said whether they might buy it. After 20 days the same people got a second survey, opened with a reminder of
+      the creator's profile, and answered the brand questions again.
+    facts:
+      - ["Participants", "256 US adults with an Instagram account took the first survey; 190 of them, aged 18 to 40, also finished the second and were analysed"]
+      - ["Groups", "One sponsored post mixed in with three ordinary ones (91 people), or four paid posts and nothing else (99 people)"]
+      - ["Creator and brand", "An invented creator with 320,000 followers, promoting a single energy drink"]
+      - ["Label", "Every paid post marked with Instagram's own 'paid partnership with' tag"]
+      - ["Timing", "First survey straight after viewing, second survey 20 days later"]
+      - ["Measured", "Wariness of paid creator content (first survey only), opinion of the brand and intention to buy, each scored 1 (low) to 7 (high)"]
+      - ["Check", "81% of the single-ad group remembered seeing one paid post; 83% of the four-ad group remembered several"]
+
+  - h: "Four paid posts, no extra doubt"
+    body: |
+      The team expected a feed made up only of ads to set off people's defences. It did not. Wariness about paid
+      influencer posts came out almost identical in the two groups, and right after viewing the two groups thought just
+      as well of the drink and were just as keen, or not, to buy it.
+
+      That wariness was not low. In both groups it sat above the midpoint, so people arrived already suspicious of paid
+      content, and the more doubtful among them liked the brand less and were less inclined to buy.
+      What the number of ads did not do was add to that doubt.
+
+      The authors offer several reasons. US Instagram users know creators are paid and have seen plenty of labelled
+      posts, so a clear tag may read as honesty rather than a trick. All four ads were for one brand, and earlier
+      research suggests followers forgive a creator who sticks with one partner more readily than one who pushes a
+      different brand every week. The drink was also new to people, and boredom with a repeated message tends to set in
+      later for an unfamiliar brand. A previous study that used a well-known creator promoting several famous brands did
+      find that more ads raised doubt, which fits this reading.
+    chart: doubt
+
+  - h: "What changed after 20 days"
+    body: |
+      The second survey is where the two feeds parted ways. Those shown the single paid post amid everyday content had
+      become more willing to buy the drink. The four-ad group stayed where it was. In neither group did opinion of the
+      drink itself change in any reliable way.
+
+      The authors framed this around the sleeper effect, an old idea from persuasion research. A message can win people
+      over with time because they forget why they distrusted it, the ad tag for instance, while its content sticks.
+      They are careful not to claim it here. Because the run of ads never raised doubt in the first
+      place, there was no extra suspicion to fade, so the rise in buying intent cannot be pinned on a discount cue
+      wearing off.
+
+      Even after the rise, intent to buy stayed under the halfway mark. People moved from unlikely to
+      buy towards a little less unlikely, which is a modest shift for a brand they had met once.
+    chart: later
+
+  - h: "How to read the advice"
+    body: |
+      The authors conclude that a run of paid posts for one brand does no harm, and they recommend that brands book a
+      series of sponsored posts from one creator, much as they would hire a brand ambassador. Their results on the day
+      support part of that: an all-ad feed for one product set off no extra doubt.
+
+      The 20-day result points a little the other way, and it deserves to be said plainly. The only group that warmed
+      to buying over time was the one that saw a single ad among everyday posts. Our own way of putting the two together,
+      which goes beyond what was tested, is this: a concentrated burst of posts for one brand is unlikely to backfire,
+      but the slower gain came from the ad that sat inside normal content. A campaign that spreads its paid posts through
+      a creator's regular feed may get the best of both, though nobody compared that mix directly.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Ask for a stretch with one brand only", "When you negotiate with a creator, agree a window of at least two months in which they promote no rival in your category. Write it into the contract."]
+  - ["Count the paid posts in their feed", "Open the creator's last 20 posts. Count how many are paid and how many different brands appear. Favour creators who return to a few partners over those with a new brand every week."]
+  - ["Set the order of posts", "Plan the campaign so your first paid post sits between two or more of the creator's everyday posts. Agree the full posting order with the creator before anything goes live."]
+  - ["Tag every paid post", "Ask the creator to use the platform's paid partnership tag on every sponsored post, not just the first. Check each post on the day it appears and ask for a fix within an hour if the tag is missing."]
+  - ["Ask twice, three weeks apart", "Put two questions to about 100 followers right after the campaign: do you like the brand, and would you buy it? Ask the same people again three weeks later."]
+  - ["Read the comments for doubt", "For the first week, go through the comments on every paid post and note any that question the creator's honesty. If they grow from one post to the next, space out the remaining paid posts."]
+
+expect:
+  - "**Wariness is the starting point.** Followers come to paid posts doubtful whatever the schedule, so trust rests on the creator's track record rather than on running fewer ads."
+  - "**Slow gains are easy to miss.** A lift in buying intent may take weeks to appear, so a survey the day after a campaign can undersell it."
+  - "**Fractions, not leaps.** Shifts of this kind come in tenths of a point on seven-step scales, not in whole steps."
+  - "**Plan for drop-outs.** Roughly one person in four surveyed here never came back for the second round, so recruit more than you need whenever you measure twice."
+
+limits:
+  - "**One invented creator, one little-known drink.** A real creator with a long history, a familiar brand or a feed promoting several brands could draw a different response, and prior knowledge of the drink went unmeasured."
+  - "**Still images, seen once.** People looked at four static posts in one sitting, with no video, no stories and no weeks of following, and how long they looked was not recorded."
+  - "**A reminder before the follow-up.** The second survey showed the creator's profile again before asking about the brand, so it captured memory with a prompt rather than unaided recall."
+  - "**Intentions, not purchases.** Willingness to buy was self-reported and stayed low overall; actual buying was not tracked."
+  - "**Young US adults on one platform.** Everyone was recruited online from the US, and the only app on show was Instagram."
+
+faq:
+  - q: "Do followers lose trust when an influencer posts lots of sponsored content?"
+    a: "Not necessarily, at least when the ads are for one brand and clearly labelled. Viewers of a creator whose feed was entirely paid posts for a single drink showed no more suspicion of paid content than viewers who saw one such post among regular ones, and they rated the brand just as highly (Balaban et al., 2026)."
+  - q: "What is the sleeper effect in advertising?"
+    a: "The idea that a message can persuade more as time passes. People tend to forget the cue that made them discount it, such as an ad label or a doubtful source, while the message itself stays with them. Evidence for it in influencer marketing is mixed, and this test did not settle it."
+  - q: "Is it worse when an influencer promotes lots of different brands?"
+    a: "Earlier research suggests so: when a familiar creator advertised a string of big-name brands, doubt grew with every extra ad. This test kept to one brand throughout, so it could not compare the two, but its result fits the idea that loyalty to one partner looks more believable."
+  - q: "Should a brand book one sponsored post or several?"
+    a: "Both have a case. Several posts for the same brand caused no harm on the day, and that is the basis for the authors' preference for ambassador-style deals. Only the single post placed among everyday content led to more interest in buying almost three weeks on, so spreading paid posts through normal content looks like a safe middle course."
+  - q: "Does a paid partnership label hurt a sponsored post?"
+    a: "Not on this evidence. Every paid post here carried the label, and a feed full of labelled ads raised no extra suspicion. The authors suggest open labelling may come across as honesty, though the label itself was never removed to test that."
+
+also:
+  - doi: "10.1007/s11747-024-01052-7"
+    title: "Influencer marketing effectiveness: A meta-analytic review"
+    authors: "Pan et al."
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2025
+    text: >-
+      Pooling 1,531 results from 251 papers, this review sorts out what makes influencer campaigns pay off and when.
+      How strongly followers feel part of a creator's community did most for their attitudes and engagement, while posts
+      that informed or entertained did more for plans to buy. Real purchases and sales responded most to the way the
+      influencer talks to the audience. The platform and the type of product shifted all of these links, so a formula
+      that works on one app is worth retesting on the next.
+  - doi: "10.1177/10946705241287882"
+    title: "From Premium to Mass: How Service Robots Shift Brand Premiumness"
+    authors: "Hoang, Liu & Ng"
+    journal: "Journal of Service Research"
+    year: 2025
+    text: >-
+      Seven studies, one of them with a working robot, ask what happens to an upmarket brand when it brings service
+      robots into its shops and venues. The robots make the brand look inventive, but they also make the service feel
+      standardised, and that second impression wins, so the brand comes across as less exclusive. The loss shrank when
+      people worked alongside the robots, or when the brand already had a name for innovation. A luxury name tempted by
+      automation may want to keep a member of staff in view.
+
+charts:
+  doubt:
+    title: "Doubt about paid influencer posts, by what people saw (1 to 7, higher means more doubtful)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["One paid post in the feed", 4.57, false]
+      - ["Four paid posts in a row", 4.58, true]
+    source: "Two-wave online experiment, 190 US Instagram users, first survey. The gap is well within chance."
+  later:
+    title: "Intention to buy the drink, straight after viewing and 20 days later (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["One paid post, straight after", 2.99, false]
+      - ["One paid post, 20 days later", 3.37, true]
+      - ["Four paid posts, straight after", 3.05, false]
+      - ["Four paid posts, 20 days later", 3.01, false]
+    source: "Two-wave online experiment, 91 and 99 US Instagram users in the two groups. The two paths differed reliably, and the rise came from the single-post group."
+
+related_pages: []

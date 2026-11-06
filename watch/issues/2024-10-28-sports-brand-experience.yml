@@ -1,0 +1,236 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+# Bruno's own paper (co-authored), added to the 2024 tab on his instruction, with the digital marketing angle drawn out.
+# No online-first date: published in Organization and Management Series 204, journal issue of October 2024 (publisher
+# PDF uploaded under /2024/10/; the PDF was created 28 Oct 2024 UTC), so it is dated by the journal issue with the plan's
+# date and dateline. Crossref lists only the first author and no day; the article's byline lists all three.
+# Read in full from the publisher PDF. Written in his first person with one reflective section (guide: "Bruno's own
+# papers"). No author emails (2024 tab, and Bruno's own paper). Paper page: sports-brand-experience-emotions-engagement.
+series: 2024
+number: 43                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-10-28"            # the plan's date for the October 2024 journal issue; orders the tab
+dateline: "Journal issue published October 2024"
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: sports-brand-experience
+status: live
+
+title: "Does experiential marketing make people more engaged with sports brands? What a Scientific Papers of Silesian University of Technology study found"
+dek: >-
+  We asked 526 Australians about a sports brand they had experienced in real life, not just seen advertised. The fuller
+  that experience, the stronger the feelings it left behind. And the people who felt most were the ones most engaged
+  with the brand: thinking about it, enjoying it and choosing it first.
+short_title: "Sports brands win engagement through feelings"
+
+description: >-
+  Schivinski et al. surveyed 526 Australians: richer real-life experiences with sports brands stirred stronger feelings,
+  which went with deeper engagement.
+
+keywords: [experiential marketing, brand experience, sports marketing, consumer brand engagement, emotional branding,
+  brand activations, run clubs, fan engagement, stimulus-organism-response model, Australian sports brands,
+  Scientific Papers of Silesian University of Technology]
+topics: [Advertising, Social media]
+
+image:
+  file: 2024-sports-brand-experience.jpg
+  og: 2024-sports-brand-experience-og.jpg
+  alt: "A group of runners in shorts and vests on a dusty trail lit gold by a low sun, a woman in a pink vest at the front"
+  caption: "What people carry home from the run is a feeling, and the feeling is what brings them back to the brand. Photo: Ben Hadfield on Unsplash."
+
+short_answer: >-
+  Yes, and feelings are the bridge. In our survey of 526 Australians who had encountered a sports brand's advertising
+  in person, those who rated the experience as richer for the senses, the emotions, the mind and the body
+  also reported stronger emotional responses to the brand. People with stronger emotional responses were, in turn, more
+  engaged with it. So the thing to design for is how an experience leaves people feeling.
+
+takeaways:
+  - "Of the two links we tested, the one from feelings to engagement was the stronger: 0.50 on a standardised scale, against 0.39 from the experience to feelings."
+  - "Happiness was the strongest emotion people recalled from their last encounter with the brand, at 4.03 out of 5, ahead of excitement at 3.91."
+  - "People leaned on feeling rather than thinking: feeling very positive when using the brand averaged 3.88, wanting to learn more about it just 3.13, both out of a possible 5."
+  - "Feelings, together with age and gender, explained 27% of the variation in engagement scores: a respectable share in consumer research, with most of engagement still driven by other things."
+
+paper:
+  doi: "10.29119/1641-3466.2024.204.33"
+  title: "Exploring the role of brand experience in driving consumer emotions and engagement with sports brands in Australia"
+  authors: ["Schivinski, B.", "Mancuso, G.", "Brzozowska-Woś, M."]
+  authors_full: ["Bruno Schivinski", "Giulio Mancuso", "Magdalena Brzozowska-Woś"]
+  year: 2024
+  journal: "Scientific Papers of Silesian University of Technology. Organization and Management Series"
+  volume: "204"
+  issue: ""
+  pages: "553-574"
+  online: "2024-10-28"           # no separate online-first date; journal issue of October 2024 (plan date)
+  open_access: true
+  licence: "no Creative Commons licence stated"
+  researchers:   # names, affiliations and ORCID iDs as printed in the article's byline (Crossref lists only the first author)
+    - name: "Bruno Schivinski"
+      affiliation: "RMIT University, Melbourne"
+      orcid: "0000-0002-4095-1922"
+    - name: "Giulio Mancuso"
+      affiliation: "RMIT University, Melbourne"
+      orcid: "0009-0009-4843-3781"
+    - name: "Magdalena Brzozowska-Woś"
+      affiliation: "Gdańsk University of Technology"
+      orcid: "0000-0002-8433-0685"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One online survey of 526 Australians who had a real-life advertising experience with a sports brand, analysed with linear regression; the 30-person pre-test of the questionnaire not counted (Bruno's own paper)"
+
+sections:
+  - h: "What we did"
+    body: |
+      Giulio Mancuso and I, then both at RMIT University in Melbourne, and Magdalena Brzozowska-Woś of Gdańsk
+      University of Technology wrote the paper behind this issue. It grew out of Giulio's master's research at RMIT,
+      which I supervised. His question sits close to Australian life. Sports brands spend heavily on getting off
+      the screen and into people's lives, through events, activations and clubs. Do those moments stir the kind of
+      feeling that ties people to a brand?
+
+      We built the survey on a stimulus-organism-response framework. The brand experience was the stimulus, the emotional
+      response was the organism, and engagement with the brand was the response.
+
+      The questionnaire ran online in Qualtrics. We shared the link on Facebook, Messenger, Twitter, Instagram and
+      Snapchat and by email, and asked people to pass it on to friends who had been through something similar with a
+      sports brand. The invitation gave a few short examples of experiential marketing so that everyone knew what we
+      meant. A screening question then checked that each person had had a real-life advertising experience with a sports
+      brand in Australia. Each person named one such brand and answered every question about it. Before launch, a
+      pre-test with 30 people of different ages raised no problems with the wording.
+    facts:
+      - ["Sample", "526 usable answers out of 610; 54.1% men, 45.2% women, 0.7% non-binary; all adults who gave online consent"]
+      - ["Recruitment", "Snowball sampling through social media and email, with no research panel involved"]
+      - ["Cleaning", "Incomplete surveys removed, then people who gave the same answer throughout or barely varied, then 25 outliers"]
+      - ["Brand experience", "12 statements on how the brand reaches the senses, feelings, thinking and body"]
+      - ["Feelings", "7 emotions from their most recent brand experience, from happy and excited to annoyed and disappointed"]
+      - ["Engagement", "10 statements on thinking about the brand, feeling good using it, and picking it over others"]
+      - ["Analysis", "Linear regression in SPSS with age and gender as controls; every answer given on five-point scales"]
+
+  - h: "Richer experiences, stronger feelings, closer engagement"
+    body: |
+      The first link held. People who described their sports brand as more appealing to the senses, more emotional,
+      more thought-provoking and more physical also reported stronger feelings after their last encounter with it.
+
+      The second link held as well, and it carried more weight. People who felt more were more engaged: they thought
+      about the brand more, enjoyed using it more and reached for it ahead of other sports brands. Experience and
+      engagement were also directly correlated, at 0.47.
+
+      What did not matter was who people were. Once feelings were in the model, neither age nor gender made a
+      significant difference to engagement. For a marketer that is encouraging: across men and women, and across the
+      ages we covered, a well-made experience seems to work in much the same way.
+    chart: links
+
+  - h: "Engagement that is felt more than thought"
+    body: |
+      The answers to single statements add a second layer. On the engagement side, people agreed most with statements
+      about feeling good and about habit, such as the brand being one they usually wear. They agreed least with the
+      thinking statements: mulling the brand over while using it, or wanting to find out more about it.
+
+      The experience side tilted the same way. Doing something physical when using the brand scored 3.75 out of 5,
+      while the brand stirring curiosity and problem solving scored 3.21. Sports brands, it seems, live in the body and
+      the gut more than in the head.
+
+      This is my reading of average scores, not a difference we tested statistically. It still has a practical
+      consequence. Experiences that ask people to move, try and feel look like a closer match for how they already
+      relate to these brands than experiences that ask them to read, learn or compare.
+    chart: engaged
+
+  - h: "Why I think the feeling counts for more in a feed"
+    body: |
+      We asked about experiences in the physical world. Yet for most people today, a sports brand also lives on a
+      phone: the run club is booked in an app, the session is logged on a watch, and the photos end up on Instagram or
+      Strava. In the paper we named digital and social media touchpoints as the next thing to test with this framework,
+      and I still think that is the right question.
+
+      My view, which this survey did not test, is that the real-life moment has become more valuable online, not less.
+      Feeds are full of polished advertising and, more and more, content made with AI. A feeling someone actually had,
+      on a cold track or at a finish line, is scarce by comparison, and what people post about it carries that feeling
+      to friends who were not there. The engagement measure we used was first developed for brands on social media,
+      which is a reminder that thinking, feeling and choosing can be tracked on a screen as well.
+
+      So I would stop treating the event and the feed as two separate budgets. Design the moment for the people in it,
+      give them an easy way to take it with them, and judge both by the feelings people are left with, not by views
+      alone.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List where people meet you in person", "Write down every place people come into contact with your brand off the screen: shops, events, sponsorships, clubs and the product in use. Beside every item, note the one feeling you want people to leave with."]
+  - ["Choose one experience to make your signature", "Pick one experience you can run every week or every month, such as a group run, a training session or a game-day activation. Decide what people will see, hear, touch and do there."]
+  - ["Get people moving in the first ten minutes", "Build the session around doing, not watching. Put the product in people's hands or on their feet early, and keep speeches and brochures to a minimum."]
+  - ["Give people something to take online", "Set up one photo spot and one simple hashtag at every session. Repost the best of what people share within 48 hours, and credit them by name."]
+  - ["Ask how it felt the same day", "Within 24 hours, send attendees three questions: how happy, how excited and how disappointed they felt, each on a 1 to 5 scale. Ask the same three questions after every session so you can compare."]
+  - ["Check engagement every three months", "Each quarter, ask the same people whether they think about the brand, feel good using it and choose it before others. Move budget towards the experiences whose people score highest on all three."]
+
+expect:
+  - "**Watch the mood before the sales figures.** On this evidence, an experience works by changing what people feel towards a brand, so check that first after an event."
+  - "**Depth, not reach.** A live experience touches far fewer people than a media plan. Judge it by how strongly it moves those who come, not by how many it reaches."
+  - "**Feelings can go either way.** We measured annoyance and disappointment alongside joy. A badly run session leaves an impression too, so plan for what could go wrong."
+  - "**Sharing is likely, not guaranteed.** Earlier research we built on links emotionally connected customers with posting about a brand and turning up to live events. We did not track posts ourselves."
+
+limits:
+  - "**One snapshot of self-reports.** A single survey shows that experience, feelings and engagement go together. It cannot prove that one caused the next."
+  - "**Not a cross-section of Australia.** Three in four people lived in Victoria, the oldest was 51, and about a third earned under A$25,000 a year, so the results lean towards younger adults in one state."
+  - "**People chose the brand.** Each person picked the brand to answer about, which may favour brands they already liked."
+  - "**A less precise measure of feelings.** The emotion scale's reliability, a Cronbach's alpha of 0.63, fell below the 0.70 usually expected, so that part of the model carries more noise."
+  - "**Two steps, one industry.** Each link was tested on its own rather than as a single route from experience to engagement, and only for sports brands, with no digital touchpoints."
+
+faq:
+  - q: "Does experiential marketing increase brand engagement?"
+    a: "For sports brands in Australia, it went with more engagement by way of emotion. People whose real-life experience of a brand was richer felt more strongly about it, and those who felt more strongly were more engaged with it (Schivinski et al., 2024)."
+  - q: "What counts as a brand experience?"
+    a: "Anything through which a brand reaches people's senses, feelings, thinking or body: how it looks and feels, the emotions it stirs, whether it makes people curious, and what it gets them doing. Run clubs, training sessions, live events and pop-up activations are typical examples in sport."
+  - q: "What is consumer brand engagement?"
+    a: "How much a person invests in a brand when using it, across three sides: thinking about it, feeling good about it, and choosing it over alternatives. We measured it with ten statements adapted from Hollebeek and colleagues."
+  - q: "What is the stimulus-organism-response model?"
+    a: "A framework proposed by Albert Mehrabian and James Russell in 1974: an outside cue changes a person's inner state, and that inner state drives their reaction. Marketers use it to follow the path from a shop, an ad or an event to feelings and then to behaviour."
+  - q: "Should sports brands spend more on experiences than on advertising?"
+    a: "We did not compare the two, so this survey cannot answer it. It shows that real-life experiences go with stronger feelings, and stronger feelings with closer engagement. If the goal is a relationship that outlasts a single purchase, experiences deserve more room in the budget."
+
+also:
+  - doi: "10.1002/mar.22147"
+    title: "Managing Pharmaceutical Promotion Mix in the Rise of Social Media"
+    authors: "Chaudhuri et al."
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Eight years of data on 41 prescription drug brands across seven treatment areas, from 2007 to 2014, show social
+      media chatter changing how well each promotional tool sells. When more people posted, and posted more warmly, sales
+      calls to doctors and advertising aimed at patients worked harder, while free samples and ads in medical journals
+      did less. Patients' enthusiasm for a drug brand had much the same effect. Even in a tightly regulated category,
+      the online conversation helps decide which part of the budget pays off.
+  - doi: "10.1002/cb.2417"
+    title: "Psychological Ownership of Avatars in the Metaverse: Its Key Antecedents and Outcomes"
+    authors: "Park & Kim"
+    journal: "Journal of Consumer Behaviour"
+    year: 2025
+    text: >-
+      A survey of 252 users of ZEPETO, a metaverse app built around personal avatars, found that people came to feel an
+      avatar was truly theirs when they could control it, knew it well and had put something of themselves into it. That
+      sense of ownership spread to the virtual items the avatar wore, more so when users had earned the in-app currency
+      through rewards than when they had paid for it. Feeling that a virtual item was theirs went with wanting to buy its
+      real-world version. A digital wardrobe can work as a showroom for the physical one.
+
+charts:
+  links:
+    title: "Standardised links in the model (regression coefficients)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Experience to feelings", 0.39, true]
+      - ["Feelings to engagement", 0.50, true]
+      - ["Age to engagement (not significant)", 0.13, false]
+      - ["Gender to engagement (not significant)", 0.01, false]
+    source: "Linear regression, 526 Australians, values from Table 2 of the article. Both hypothesised links significant (p = 0.001); age and gender not significant."
+  engaged:
+    title: "Agreement with engagement statements about the sports brand each person named (1 to 5 scale)"
+    scale: [1, 5]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["One of the brands I usually wear", 3.90, true]
+      - ["I feel very positive using it", 3.88, true]
+      - ["Using it makes me happy", 3.77, false]
+      - ["Using it gets me thinking about it", 3.32, false]
+      - ["It makes me want to learn more about it", 3.13, false]
+    source: "Item averages from the appendix table of the article, 526 Australians, five-point agreement scales. Descriptive only; differences between items were not tested."
+
+related_pages: [sports-brand-experience-emotions-engagement]
