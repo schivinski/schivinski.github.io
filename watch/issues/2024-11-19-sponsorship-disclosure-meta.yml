@@ -1,0 +1,246 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 47                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-11-19"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: sponsorship-disclosure-meta
+status: live
+
+title: "Does disclosing sponsorship hurt influencer marketing? What a Marketing Letters meta-analysis found"
+dek: >-
+  Many creators still leave the paid tag off, afraid their followers will turn away. Pooling 37 experiments with more than
+  12,000 people, two researchers show the label helps viewers see the ad and costs the creator a little credibility, yet
+  leaves liking and buying plans flat. Format, length and audience decide the rest.
+short_title: "What a sponsorship label really costs an influencer post"
+
+description: >-
+  Liu and Zhao pool 37 experiments: a sponsorship label helps people spot the ad and trims credibility, yet liking for the
+  brand and plans to buy hold steady.
+
+keywords: [sponsorship disclosure, influencer marketing, paid partnership label, ad hashtags, advertising disclosure rules,
+  persuasion knowledge, influencer credibility, purchase intention, sponsored video content, meta-analysis, Marketing Letters]
+topics: [Influencers, Advertising, Social media]
+
+image:
+  file: 2024-sponsorship-disclosure-meta.jpg
+  og: 2024-sponsorship-disclosure-meta-og.jpg
+  alt: "A film crew in silhouette, one holding a camera rig, shoots a man standing beside a pair of white trainers in a studio lit by a glowing orange fire-effect wall"
+  caption: "Paid content shot on video seemed to wear its label more lightly. Photo: Gordon Cowie on Unsplash."
+
+short_answer: >-
+  Less than many brands fear. Pooling 37 experiments with 12,721 people, the analysis showed that a sponsorship
+  disclosure helped viewers spot that a post was advertising and made both the creator and what they said seem slightly
+  less believable. Overall, brand attitudes and purchase intentions stayed where they were. How the label was done
+  mattered more: hashtags, longer wording and video posts all drew warmer reactions, and adults took labels better than
+  younger viewers.
+
+takeaways:
+  - "Across 28 studies and 9,359 people, a disclosure reliably helped viewers see a post as an ad with something to sell, the very job the rules give it."
+  - "The doubt landed on the creator: in 16 studies with 5,105 people, the influencer looked a little less credible once the post carried a label."
+  - "Purchase plans held: the 15 studies that asked about buying, with 3,944 people between them, showed no real change either way."
+  - "A label written by the creator drew responses 0.19 standard deviations cooler than one added by someone else, such as the platform, a gap the authors treat as borderline."
+
+paper:
+  doi: "10.1007/s11002-024-09757-z"
+  title: "A meta-analysis of the effects of sponsorship disclosure in influencer marketing"
+  authors: ["Liu, X.", "Zhao, H."]
+  authors_full: ["Xia Liu", "Hong Zhao"]
+  year: 2025
+  journal: "Marketing Letters"
+  volume: "36"
+  issue: "3"
+  pages: "519-532"
+  online: "2024-11-19"
+  open_access: false             # subscription article; PDF supplied by Bruno (approved 7 Nov 2026)
+  licence: ""
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Xia Liu"
+      affiliation: "School of Economics and Management, University of Chinese Academy of Sciences, Beijing, China; Faculty of Economics and Business, University of Groningen, Groningen, The Netherlands"
+      orcid: "0000-0002-5522-1746"   # printed on the article and listed by Crossref
+    - name: "Hong Zhao"
+      affiliation: "School of Economics and Management, University of Chinese Academy of Sciences, Beijing, China"
+      orcid: ""   # none printed; OpenAlex's 0000-0001-5448-8775 is a computer scientist's record without this DOI
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 37
+    basis: "Meta-analysis of 288 effect sizes (Cohen's d) from 37 independent experimental samples in 30 documents (29 papers and one doctoral thesis), 12,721 participants, with a two-level random-effects meta-regression on 14 moderators"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Xia Liu, of the University of Chinese Academy of Sciences in Beijing and the University of Groningen in the Netherlands,
+      and Hong Zhao, also of the University of Chinese Academy of Sciences, tackled a question that still splits marketing
+      teams: should a creator say a post is paid for? Rules in the US, Britain and the EU all say yes, with a tag such as
+      "#sponsored" or a line naming the brand, placed where people see it without clicking or scrolling. Plenty of creators still skip it, some under pressure from brands, others afraid it will cost them
+      credibility.
+
+      Dozens of experiments had tested what a disclosure does, and they disagreed. An earlier meta-analysis had pooled such
+      work, but most of its studies looked at older forms of sponsorship such as TV programmes and events. So the pair built a
+      database on influencer content alone. They searched two large research databases, thesis archives, Google Scholar and
+      SSRN, followed reference lists, and wrote to authors when a paper lacked the figures they needed. To count, an
+      experiment had to compare a disclosed sponsored post with the same content shown without one.
+
+      Each result was converted to a standard effect size, the gap between the two versions measured in standard deviations,
+      so that studies using different scales could be combined. Each was also tagged by how the disclosure was made, what kind
+      of post carried it, who was watching and how the study was run. The titles listed in the web appendix span blogs,
+      Facebook, Instagram, YouTube vlogs and TikTok.
+    facts:
+      - ["Evidence pooled", "37 independent samples from 29 published papers and one doctoral thesis, 12,721 participants in total"]
+      - ["Effects", "288 effect sizes, each the gap between a disclosed and an undisclosed version of the same content"]
+      - ["Outcomes", "Spotting the ad, remembering the brand, credibility, attitudes, and plans to interact or buy"]
+      - ["Features coded", "Who disclosed, hashtag or statement, word count, brand named, timing, video or not, brand familiarity, audience age and make-up, region, lab or online, incentives, year"]
+      - ["Analysis", "Two-level random-effects meta-regression, run in R with the metafor package"]
+
+  - h: "What a label changes, and what it leaves alone"
+    body: |
+      The first result is the one regulators hoped for. With a disclosure in place, people were better at recognising a post
+      as advertising and at seeing that it was there to sell. They also remembered the brand better, although only four
+      studies measured recall.
+
+      Credibility moved the other way. Both the creator and the message looked less believable once the post was labelled.
+      The message took the bigger knock, but that fall was only borderline in statistical terms. The credibility of the
+      brand or company itself did not drop, though only two studies checked.
+
+      Then comes the part marketers care about most. Attitudes to the creator, to the message and to the brand or product
+      barely moved, and neither did people's plans to interact or to buy. Researchers describe two forces at work. Seeing
+      the selling intent makes people sceptical, which pulls responses down; this is called the awareness effect. Seeing a
+      creator being open about payment reads as honesty, which pushes them up; this is the transparency effect. The authors
+      suggest the two roughly cancel out, although they could not test that chain directly.
+    chart: pooled
+
+  - h: "Why the wording of the label matters"
+    body: |
+      The pooled averages hide big swings between studies, so the authors asked which features of a disclosure went with
+      warmer or cooler reactions. They looked only at credibility, attitudes and intentions, the outcomes where a label could
+      do harm.
+
+      A hashtag on its own drew more favourable responses than a written statement. The authors' explanation is not
+      flattering to hashtags: they usually sit at the bottom of a caption, attract less attention and hint at the commercial
+      aim less strongly, so they set off less resistance.
+
+      Length worked in the opposite direction to what that might suggest. The more words a disclosure used, the better people
+      responded. A fuller explanation may come across as effort and sincerity. Of all the features tested, this pattern was
+      the most clear-cut.
+
+      Two results went against the authors' own predictions. Labels written by the creator did slightly worse than labels from
+      someone else, perhaps because people treat a platform's notice as secondary and keep their minds on the content. And
+      naming the brand inside the disclosure, putting it before or after the content, or using a brand viewers already knew
+      made no measurable difference.
+
+  - h: "Video posts and adult audiences"
+    body: |
+      The post itself mattered a great deal. When the sponsored content was a video rather than text or a photo, the label's
+      effect on credibility, liking and intentions was clearly more favourable. The pair present it as the first evidence
+      of its kind. Their reasoning is that video holds attention on the content and away from the label, and that a
+      richer medium makes a creator's openness easier to see.
+
+      Age gave the widest gap of all, and it ran against expectations. Samples made up only of adults reacted to disclosures
+      much more favourably than samples that included children or teenagers. The pair had expected it to go the other way,
+      since younger people are thought to be slower to spot advertising. They note that the average participant in these studies
+      was older than ten, roughly the age by which children grasp celebrity endorsements, and that grown-ups tend to see
+      sponsorship as a normal part of how creators earn a living.
+
+      The share of women in a sample, student samples, region, lab or online settings and paying participants made no
+      significant difference.
+    chart: levers
+
+  - h: "Where brand interest and the rules pull apart"
+    body: |
+      The hashtag finding is good news for brands and awkward news for regulators. If a hashtag hurts less partly because
+      people miss it, it is also doing less of the job it exists for. The authors say so themselves. They advise policymakers
+      to favour statements over hashtags, to make labels more prominent and to keep them on screen for longer in videos.
+
+      For marketers their message is simpler. On average a label does not cost liking or purchase intent, so the fear that
+      keeps some creators quiet finds no support here. For creators they suggest video and longer statements, and they think
+      explaining to audiences why sponsorship exists could make people more accepting of it.
+
+      We would add one thing, which the analysis did not test head to head. The length result offers a way through the
+      conflict. A full sentence that says plainly who paid and what the creator received answers the call for statements, and
+      longer disclosures were the ones that fared best. A bare tag tucked under a caption may look like the cheaper choice
+      today, but it is the habit with most to lose if the rules tighten.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Check how young the audience is", "Before you sign a creator, open their audience data and note the share of followers under 18. If it is one in four or more, plan extra explanation of what a paid post is, and expect a cooler reaction."]
+  - ["Write the label into the contract", "Put the exact disclosure words in every brief and contract before filming starts. Say where they appear and, for video, how many seconds they stay on screen."]
+  - ["Make the paid piece a video", "When you plan a paid partnership, choose a short video over a photo or a text post. If the budget covers only one paid post, make it the video."]
+  - ["Spell it out, then add the app's tag", "Write one or two plain sentences that name the brand, say the post is paid and say what the creator received, about 15 to 25 words. Then switch on the platform's built-in paid-partnership label as well."]
+  - ["Try two wordings on similar audiences", "Run the same paid video twice with two different disclosure wordings, each to a similar group of 1,000 people or more. Compare saves, link clicks and sales after seven days."]
+  - ["Judge the post on sales, not comments", "Track code redemptions and sales from each labelled post for four weeks. A few comments pointing out that it is an ad are normal and no reason to drop the label."]
+
+expect:
+  - "**Viewers will read the post as an ad.** That is what a label is for, and on average it did that job clearly, so expect claims in the caption to be weighed with more care."
+  - "**A small dent in the creator's standing.** Credibility is the first thing to give. On average the dent did not spread to liking or buying plans."
+  - "**Results that vary from campaign to campaign.** Effects differed widely between studies, so the same label can land well with one audience and poorly with another."
+  - "**No sign that audiences are getting used to labels.** Effects did not drift with the year a study came out, so do not count on disclosure fading into the background over time."
+
+limits:
+  - "**Test conditions, not real feeds.** Every study showed people a sponsored post inside an experiment. The long bond between followers and a creator, which the authors think may soften the effect, was not part of the picture."
+  - "**Plans, not purchases.** Buying and engagement were stated intentions; no study in the pool tracked sales."
+  - "**Thin evidence on some outcomes.** Brand recall rests on four studies and brand credibility on two, so treat those two results with care."
+  - "**Comparisons across studies.** The format, video and age results come from comparing different studies, not from tests that varied a single feature while holding the rest fixed, even though the model adjusted for the other features."
+  - "**The tug of war was not measured.** Too few studies tracked the steps between label and response, so the idea that scepticism and appreciation of honesty cancel out is the authors' explanation, not a tested result."
+
+faq:
+  - q: "Does an ad disclosure lower purchase intention for influencer posts?"
+    a: "Not on average. Across a decade of experiments on influencer content, labelled and unlabelled versions left buying plans and brand attitudes level, even though the creator's credibility slipped a little (Liu & Zhao, 2025)."
+  - q: "Is a hashtag like #ad better than a written disclosure?"
+    a: "For audience reactions, yes: hashtag-only labels drew warmer responses than written statements. The catch is that hashtags seem to work by being noticed less, and for that reason the authors would like regulators to push for statements. Longer disclosures also fared better."
+  - q: "Does sponsorship disclosure work differently on video?"
+    a: "Yes. Labelled videos drew more favourable reactions than labelled text or image posts. The authors think lively footage keeps eyes on what is being shown rather than on the label, and that video lets viewers judge for themselves how open the creator is being."
+  - q: "Do children and teenagers react differently to sponsored posts?"
+    a: "They did, though not in the expected direction. Samples that included young people reacted less favourably to a disclosure than all-adult samples. One explanation offered is that adults understand the business side of sponsorship and accept it more readily."
+  - q: "What is persuasion knowledge?"
+    a: "What people know about how marketers try to influence them. In this research it means knowing an ad when you see one and grasping that it is meant to sell. Switching this on is a disclosure's first task."
+
+also:
+  - doi: "10.1002/cb.2419"
+    title: "Using Augmented Reality to Strengthen Consumer/Brand Relationships: The Case of Luxury Brands"
+    authors: "Arya et al."
+    journal: "Journal of Consumer Behaviour"
+    year: 2025
+    text: >-
+      Researchers surveyed 537 buyers of luxury clothing and cars about how engaged they were with luxury brands that offer
+      augmented reality. The more engaged they were, the warmer, more capable and more socially rewarding the brand seemed,
+      and those impressions went with a stronger attachment to it. On this view AR is about relationships as much as virtual
+      try-ons. One survey cannot show which came first, so a brand launching an AR feature would do well to measure
+      attachment before and after.
+  - doi: "10.1108/ejm-07-2023-0573"
+    title: "Does language concreteness influence consumers’ perceived deception in online reviews?"
+    authors: "Shi et al."
+    journal: "European Journal of Marketing"
+    year: 2024
+    text: >-
+      Two scenario experiments tested whether the way an online review is written changes how far shoppers suspect it is fake.
+      Reviews full of specific detail felt closer to the reader and were judged less deceptive than vague, abstract ones.
+      Personality added a twist: shoppers high in Machiavellian traits distrusted abstract reviews most, while those low in
+      them grew warier of very concrete ones. More detail is not automatically more convincing to every reader.
+
+charts:
+  pooled:
+    title: "What a sponsorship disclosure changed, pooled across studies (effect size d, 0 = no change)"
+    scale: [0, 0.5]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Remembering the brand (up)", 0.460, false]
+      - ["Spotting the ad (up)", 0.394, true]
+      - ["Message credibility (down)", 0.369, false]
+      - ["Influencer credibility (down)", 0.137, true]
+      - ["Purchase intention (no change)", 0.035, false]
+      - ["Liking the brand (no change)", 0.014, false]
+    source: "Table 2, 37 studies with 12,721 participants. Recall rests on 4 studies and the message credibility fall was only marginally significant. Purchase intention fell by 0.035 and brand liking rose by 0.014, neither different from zero."
+  levers:
+    title: "How much more favourably people took a disclosure in each setting (meta-regression, effect size d)"
+    scale: [0, 1]
+    step: 0.2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Adults vs children and teens", 0.93, false]
+      - ["Video post vs text or image", 0.68, true]
+      - ["Hashtag alone vs written statement", 0.41, false]
+    source: "Table 3, meta-regression on the credibility, attitude and intention results of the 37 studies, each gap adjusted for every other feature. All three significant at p < .05."
+
+related_pages: []

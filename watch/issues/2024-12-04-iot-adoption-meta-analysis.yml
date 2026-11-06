@@ -1,0 +1,264 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 50                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-12-04"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: iot-adoption-meta-analysis
+status: live
+
+title: "What makes people take up smart devices and connected products? What a Journal of Consumer Behaviour meta-analysis found"
+dek: >-
+  Smartwatches, smart clothing and connected homes have been promised for years, yet many shoppers still hold back. A
+  meta-analysis of 138 studies shows that the people around a buyer, and how useful a device looks, matter far more than
+  how much fun it promises.
+short_title: "What makes people want a smart device"
+
+description: >-
+  Ladeira et al. pool 138 studies of smart devices: other people's influence and usefulness drive adoption, and liking
+  turns into intent most for branded devices.
+
+keywords: [Internet of Things, IoT adoption, smart devices, connected products, wearable technology, smart home marketing,
+  technology acceptance model, social influence, consumer trust and privacy, meta-analysis, Journal of Consumer Behaviour]
+topics: [Retail, Privacy, Service]
+
+image:
+  file: 2024-iot-adoption-meta-analysis.jpg
+  og: 2024-iot-adoption-meta-analysis-og.jpg
+  alt: "Three friends in a sunny garden hold up their phones and press their wrists together so their watches touch, one man laughing behind sunglasses"
+  caption: "How easy a gadget looks depends a lot on who around you already has one. Photo: Grace Anne Bobadilla on Unsplash."
+
+short_answer: >-
+  Mostly the people around them, plus a clear use. Pooling 138 studies with 52,629 consumers, the analysis showed
+  that the example of friends, family and peers was the main thing making smart devices seem easy and useful. Devices
+  seen as useful and easy won more trust and a stronger sense that personal data was safe. Warm attitudes then became
+  plans to adopt most readily for branded devices and essential tasks.
+
+takeaways:
+  - "Other people did most to make a device seem easy: social influence had a path weight of 0.88 to ease of use, against 0.03 for enjoyment, which was not significant."
+  - "Seeing a device as useful lowered the sense of risk (a path of −0.37). Seeing it as easy did not (0.10, not significant)."
+  - "Liking a device turned into plans to adopt it more strongly when the device carried a brand (a meta-regression coefficient of 0.49) and when it handled an essential service rather than a nice-to-have (0.40)."
+  - "Fun on its own did not go with wanting a device: enjoyment's pooled correlation with plans to adopt was 0.00, against 0.44 for usefulness."
+
+paper:
+  doi: "10.1002/cb.2427"
+  title: "Consumer Adoption of Internet of Things"
+  authors: ["Ladeira, W. J.", "Lim, W. M.", "Santini, F. de O.", "Rasul, T.", "Frantz, B.", "Rosa, J. C. de O.", "Azhar, M."]
+  authors_full: ["Wagner Junior Ladeira", "Weng Marc Lim", "Fernando de Oliveira Santini", "Tareq Rasul", "Bernardo Frantz", "Jean Carlos de Oliveira Rosa", "Mohd Azhar"]
+  year: 2025
+  journal: "Journal of Consumer Behaviour"
+  volume: "24"
+  issue: "2"
+  pages: "673-693"
+  online: "2024-12-04"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline and affiliations); the article prints ORCID iDs for Lim and Rasul only
+    - name: "Wagner Junior Ladeira"
+      affiliation: "Universidade Do Vale Do Rio dos Sinos (UNISINOS), Porto Alegre, Brazil; School of Business, Woxsen University, Hyderabad, India"
+      orcid: ""   # OpenAlex lists 0000-0002-1793-6206, but neither the article, Crossref nor that ORCID record carries this DOI
+    - name: "Weng Marc Lim"
+      affiliation: "Sunway Business School, Sunway University, Sunway City, Selangor, Malaysia; ASU-Cintana Alliance Global Partner Affiliate Faculty, Arizona State University, Tempe, Arizona, USA; School of Business, Law and Entrepreneurship, Swinburne University of Technology, Hawthorn, Victoria, Australia; Faculty of Business, Design and Arts, Swinburne University of Technology, Kuching, Sarawak, Malaysia"
+      orcid: "0000-0001-7196-1923"
+    - name: "Fernando de Oliveira Santini"
+      affiliation: "Universidade Do Vale Do Rio dos Sinos (UNISINOS), Porto Alegre, Brazil; School of Business, Woxsen University, Hyderabad, India"
+      orcid: ""   # OpenAlex lists 0000-0002-2161-0313, but neither the article, Crossref nor that ORCID record carries this DOI
+    - name: "Tareq Rasul"
+      affiliation: "College of Business Administration, Gulf University for Science and Technology (GUST), Mishref, Kuwait"
+      orcid: "0000-0002-1274-7000"
+    - name: "Bernardo Frantz"
+      affiliation: "Universidade Do Vale Do Rio dos Sinos (UNISINOS), Porto Alegre, Brazil"
+      orcid: "0000-0003-2297-5653"   # not printed on the article; his ORCID record lists this DOI
+    - name: "Jean Carlos de Oliveira Rosa"
+      affiliation: "Universidade Do Vale Do Rio dos Sinos (UNISINOS), Porto Alegre, Brazil"
+      orcid: "0000-0003-0115-2754"   # not printed on the article; his ORCID record lists this DOI
+    - name: "Mohd Azhar"
+      affiliation: "School of Business, Woxsen University, Hyderabad, India"
+      orcid: "0000-0003-3222-5565"   # not printed on the article; his ORCID record lists this DOI
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 138
+    basis: "Meta-analysis of 2,736 effect sizes from 138 studies with 52,629 respondents: meta-analytic structural equation modelling for the main paths, and hierarchical linear meta-analysis of 13 moderators of the attitude-intention link"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Wagner Junior Ladeira and Fernando de Oliveira Santini, who both work at Universidade do Vale do Rio dos Sinos
+      (UNISINOS) in Porto Alegre and at Woxsen University in Hyderabad, teamed up with their UNISINOS colleagues Bernardo
+      Frantz and Jean Carlos de Oliveira Rosa, Mohd Azhar of Woxsen University, Weng Marc Lim of Sunway University in
+      Malaysia and Swinburne University of Technology, and Tareq Rasul of the Gulf University for Science and Technology in
+      Kuwait. Their starting point is a puzzle that anyone selling connected products will know. Smartwatches, smart homes
+      and sensor-filled shops promise a lot, yet consumers have been slow to take them up, and published research could not
+      even agree on whether liking a device goes with wanting one. Some studies found no link at all; others found a strong one.
+
+      So the team pooled the evidence. They searched eight databases and the papers of leading conferences for consumer
+      studies of smart products, smart devices and the Internet of Things, and kept those that reported statistics they
+      could combine.
+
+      They set the evidence out as a four-step journey. First impressions come from the fun people expect and from the
+      people around them. Next, buyers judge how easy and how useful the device is. Then they weigh up their worries about
+      privacy, risk and trust. Last comes the verdict: an attitude towards the device and an intention to adopt it. On top
+      of that model, they tested 13 conditions that might explain why the final step varied so much between studies.
+    facts:
+      - ["Evidence pooled", "2,736 effect sizes from 138 studies and 52,629 respondents"]
+      - ["Search", "Eight databases, including Scopus, PsycINFO and EBSCO, plus leading conferences; studies from 2013 to December 2022"]
+      - ["Screening", "578 papers met the inclusion rules; 440 were dropped because they lacked usable statistics"]
+      - ["Devices and settings", "Among others, smartwatches, smart clothing and smart glasses, at home, in cities and in shops, for health, fashion, banking and bookings"]
+      - ["Method", "Pooled correlations fitted to a path model, then 13 possible moderators tested on the attitude-intention link"]
+      - ["Coding", "Three expert coders recorded each study's numbers, sample and setting"]
+
+  - h: "Friends first, then fun"
+    body: |
+      The model begins where a buyer begins: deciding whether a device deserves a second look. Two forces were tested at
+      this stage, the pleasure people expect from a gadget and the pull of the people around them.
+
+      The social pull came out ahead on both counts. Besides its large effect on ease of use, it lifted how useful a device seemed
+      (0.39) and how enjoyable people expected it to be (0.48). The authors give a down-to-earth reason: when people nearby
+      use a device without fuss, they set expectations and offer informal help.
+
+      Enjoyment's one contribution was to make a device look more useful (0.33). Ease, the authors argue, comes from
+      practical things such as the interface and technical support, not from fun.
+    chart: drivers
+
+  - h: "Useful devices feel safer"
+    body: |
+      Next came the worries. Here usefulness did more work than ease. Devices that looked useful were trusted more (0.39)
+      and felt better protected on privacy (0.22). Easy devices were trusted more as well (0.33) and felt a little safer on
+      privacy (0.15).
+
+      Trust then fed into overall attitude (0.37). Risk, perhaps surprisingly, did not: its link with
+      attitude was not quite significant. Privacy produced the largest path in the whole model, 1.21. For the authors,
+      this shows how much consumers prize data protection.
+
+      We would handle that privacy figure with care. A standardised path above 1 is unusual, and in the same data the raw
+      correlation between privacy and attitude was only 0.06. That combination often signals an estimate borrowing
+      from overlap with the other factors, so it says less about privacy on its own than the size suggests.
+    chart: links
+
+  - h: "When liking becomes a plan to adopt"
+    body: |
+      The last step, from a favourable attitude to an intention to adopt, was a big one in the pooled model. Yet its size
+      varied hugely, and the authors hunted for the causes.
+
+      The largest gaps came from the brand on the device and from whether the task was essential, as the chart shows.
+      Critical tasks here meant jobs people need done, such as banking, booking a hotel room or buying tickets.
+
+      Other settings mattered too. The link was tighter in healthcare than in fashion (0.30), and the authors credit the
+      appeal of health apps on smartwatches for that. It was tighter where younger people dominated the sample (0.30), in Eastern
+      rather than Western countries (0.21), and in more recent studies (0.27), a sign, the authors suggest, that people
+      are getting used to connected devices.
+    chart: settings
+
+  - h: "The authors' advice, and where to take it"
+    body: |
+      Their advice is brief. Make data privacy a visible part of campaigns. Show in advertising that plenty of people
+      already use connected devices to make daily life easier, because what others do weighs so heavily. And since
+      essential services turn good feelings into intentions more readily, give extra attention to the less essential
+      ones, where a well-known brand can help close the gap.
+
+      For digital marketers, the social finding is the one to build around, and it reaches beyond ads. Setup screens,
+      app store pages and the first weeks after purchase are all places where a buyer can see that people like them use
+      the device without trouble. This goes a step beyond the results, since the meta-analysis did not look at onboarding.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Name the one job that matters", "Write down the single task your device or app does that people cannot skip, such as paying, booking, checking a heart rate or locking the door. Make that task the opening line of every product page and app store listing."]
+  - ["Find ten happy users", "List ten customers who use the product every week and are happy to be seen with it. Ask each one for a short quote or a photo of the product in their day."]
+  - ["Lead with people, then the brand", "Build launch ads and the first setup screen around people like your buyer using the device with friends or family. Show your brand name clearly on the device, the box and the app's first screen."]
+  - ["Explain the data in three lines", "Next to the sign-up button, say in three short lines what data the device collects, where it goes and how to switch it off. Link to the full policy, but do not make people read it before they start."]
+  - ["Plan the first week", "Send new owners one small task a day for seven days, starting with the easiest. Make every task end with something useful, such as a saved routine or a first weekly report."]
+  - ["Ask for an invite after the first win", "Once a new user finishes their first useful task, ask them to invite one friend or household member. After 30 days, check how many invited users are still active, and compare that with users who came from ads."]
+
+expect:
+  - "**Win the attitude first.** Across the pooled studies, attitude led on to intention with a path of 0.76, so most of the work lies in getting people to like the device."
+  - "**Your numbers will differ.** Almost all the spread in that final step (97.7%) came from genuine contrasts among the pooled studies, not from chance, so test in your own market before trusting any average."
+  - "**One approach can travel.** Smart homes, smart cities and smart shops showed no significant differences, and neither did smartwatches compared with smart shirts or glasses."
+  - "**Experience pays back.** Samples in which most people had already used the device showed a stronger pull from attitude to intention (0.29), so helping people through their first uses looks worthwhile."
+
+limits:
+  - "**Plans, not purchases.** The model ends at attitudes and intentions. Actual buying and day-to-day use were not part of it."
+  - "**Surveys, not experiments.** The pooled numbers are correlations, mostly from questionnaires, so they show which factors travel together, not which one drives another."
+  - "**A loose overall fit.** One standard check of the model, the comparative fit index, came in at 0.84, below the 0.90 often treated as a minimum, so read individual path sizes as rough guides."
+  - "**Easy samples may flatter.** Smaller studies showed stronger links than larger ones, and the authors report the same for student samples against the general public, so published effects may overstate what real customers do."
+  - "**Thin evidence in places.** Only 4 coded results involved smart glasses, 6 smart clothing and 5 groups with little experience of the device, so a finding of no difference there may simply reflect too few studies."
+
+faq:
+  - q: "What makes consumers adopt Internet of Things devices?"
+    a: "Above all, the people around them and a sense that the device is useful. Pooled research on smartwatches, smart homes and other connected products shows that social influence shapes how easy and useful a device seems, usefulness and ease build trust, trust warms attitudes, and attitudes drive intentions to adopt (Ladeira et al., 2025)."
+  - q: "What counts as the Internet of Things for consumers?"
+    a: "Everyday objects fitted with sensors that connect to the internet and to each other, such as smartwatches, smart clothing, smart glasses, home systems and connected shop technology. The authors' own example is a refrigerator that keeps track of food and reorders it."
+  - q: "Does a well-known brand help sell a smart device?"
+    a: "It seems to. Among the coded results, 16 came from branded devices and 20 from unbranded ones, and the move from liking to intending was clearly stronger where a brand was present. The authors see brands as a shortcut to quality and reliability when a technology is new."
+  - q: "Do privacy fears stop people buying connected products?"
+    a: "Not in a simple way. Once other factors were counted, perceived risk barely moved attitudes, while trust and a feeling that personal data was protected counted for more. Usefulness helped on both counts."
+  - q: "Do men and women adopt smart devices differently?"
+    a: "Not on this evidence. Results from mostly female samples (29) and mostly male samples (20) showed no significant difference in how strongly attitudes led to intentions, so splitting smart-device campaigns by gender has little support here."
+
+also:
+  - doi: "10.1002/mar.22154"
+    title: "From Virtual Trainers to Companions? Examining How Digital Agency Types, Anthropomorphism, and Support Shape Para-Social Relationships in Online Fitness"
+    authors: "Feng et al."
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Five studies built around simulated online fitness classes asked what makes people bond with a virtual coach and stay
+      subscribed. Coaches who felt interactive, genuine and good company seemed warmer and more capable, which built
+      a one-sided sense of friendship and plans to keep training. A fully computer-generated coach had to feel more genuine
+      than a human or avatar coach to get there, and the bond mattered more when the coach gave emotional rather than
+      technical support. A coach's warmth looks like part of the retention plan, not decoration.
+  - doi: "10.1111/ijcs.13104"
+    title: "Facebook and Consumer Research: A Review, AI-Driven Thematic Visualisation, and Research Agenda"
+    authors: "Zaveri & Wilk"
+    journal: "International Journal of Consumer Studies"
+    year: 2024
+    text: >-
+      This review gathers 336 consumer research papers on Facebook from leading journals, published between 2008 and 2023,
+      and maps how their questions changed. An AI text-mining tool sorted the papers into themes and showed research moving
+      with the platform itself, most sharply in the last five years. The authors then sift the papers' own suggestions into
+      a list of open gaps and lessons for marketers. Before paying for a new study of Facebook audiences, check whether this
+      map already holds the answer.
+
+charts:
+  drivers:
+    title: "What makes a smart device seem easy and useful (standardised path weights)"
+    scale: [0, 1]
+    step: 0.2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Other people, on ease of use", 0.88, true]
+      - ["Other people, on usefulness", 0.39, false]
+      - ["Enjoyment, on usefulness", 0.33, false]
+      - ["Enjoyment, on ease of use", 0.03, false]
+    source: "Meta-analytic path model across 138 studies (52,629 respondents). Enjoyment's path to ease of use was not significant."
+  links:
+    title: "How closely each factor moved with plans to adopt (pooled correlations; 0 means no link)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Attitude", 0.57, false]
+      - ["Ease of use", 0.54, false]
+      - ["Trust", 0.45, false]
+      - ["Usefulness", 0.44, true]
+      - ["Other people's influence", 0.42, false]
+      - ["Privacy protected", 0.24, false]
+      - ["Risk (goes with lower plans)", 0.20, false]
+      - ["Enjoyment", 0.00, false]
+    source: "Pooled correlation matrix across all 138 studies. Risk moved against plans to adopt; enjoyment showed no link at all."
+  settings:
+    title: "How much tighter the step from liking a device to planning to adopt it was (meta-regression coefficients)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Branded vs unbranded device", 0.49, true]
+      - ["Critical vs non-critical task", 0.40, false]
+      - ["Healthcare vs fashion", 0.30, false]
+      - ["Younger vs older samples", 0.30, false]
+      - ["Experienced vs new users", 0.29, false]
+      - ["Eastern vs Western countries", 0.21, false]
+    source: "Hierarchical linear meta-analysis of the attitude-intention link across the 138 studies; 13 moderators tested. Device type, setting, gender and survey method made no significant difference."
+
+related_pages: []

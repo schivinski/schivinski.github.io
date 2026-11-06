@@ -1,7 +1,7 @@
 # Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
 # Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
 series: 2024
-number: 29                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+number: 28                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
 week_of: "2024-07-22"            # the day the paper was first published online (shown as "Paper published ...")
 published: "2026-11-07"          # the day this page went live (metadata only, never shown)
 slug: retouched-label-influencers

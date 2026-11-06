@@ -1,0 +1,250 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 11                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-03-05"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: ad-value-meta-analysis
+status: live
+
+title: "What makes people see an ad as worth their time? What a Journal of Advertising meta-analysis found"
+dek: >-
+  Marketers often blame annoyance when ads get ignored. A meta-analysis pooling 107 studies finds that whether people believe
+  an ad, enjoy it and learn from it counts for far more, and that apps, feeds, text messages and websites weigh those
+  qualities differently.
+short_title: "Believable, fun, useful: what makes an ad worth it"
+
+description: >-
+  Ye et al. pool 107 studies on how people judge ads: believable, entertaining and informative ads feel worth the time,
+  and in-app ads raise the stakes.
+
+keywords: [advertising value, ad effectiveness, ad credibility, entertaining ads, informative advertising, ad irritation,
+  personalised advertising, in-app advertising, social media advertising, mobile advertising, meta-analysis,
+  Journal of Advertising]
+topics: [Advertising, Social media, Personalization]
+
+image:
+  file: 2024-ad-value-meta-analysis.jpg
+  og: 2024-ad-value-meta-analysis-og.jpg
+  alt: "A row of commuters seated side by side on a train, from an older woman to young men and women, each looking down at a smartphone; one holds a red and white paper shopping bag"
+  caption: "A train full of screens, and a split second for each ad to prove it deserves a look. Photo: John Lockwood on Unsplash."
+
+short_answer: >-
+  Mostly whether they believe it, enjoy it and learn something from it. Pooling 107 studies from 98 papers, this
+  meta-analysis found those three qualities did most to make ads feel worthwhile, with believability narrowly ahead.
+  Annoyance and personal relevance had far smaller direct effects. Ads seen as worthwhile were also better liked, which in
+  turn went with plans to act. The weights shifted between in-app, text-message, web and social media ads.
+
+takeaways:
+  - "Seeing an ad as worthwhile and liking it moved together: at 0.70, this was the strongest pooled correlation in the review."
+  - "Relevance worked mostly through the other qualities. Counting every route, its effect on liking an ad was 0.465, close to entertainment's 0.493 and nearly double believability's 0.240."
+  - "On social media, liking an ad was the weakest guide to plans to act among the digital formats: 0.52, against 0.72 for in-app ads."
+  - "The qualities feed each other: ads rated entertaining were also rated informative (a pooled correlation of 0.59), and informative ads were rated believable (0.58)."
+
+paper:
+  doi: "10.1080/00913367.2024.2309923"
+  title: "A Meta-Analysis of the Antecedents and Consequences of Advertising Value"
+  authors: ["Ye, G.", "Guan, X.", "Hudders, L.", "Xiao, Y.", "Li, J."]
+  authors_full: ["Guoquan Ye", "Xin Guan", "Liselot Hudders", "Yi Xiao", "Jingyu Li"]
+  year: 2025
+  journal: "Journal of Advertising"
+  volume: "54"
+  issue: "1"
+  pages: "117-138"
+  online: "2024-03-05"
+  open_access: false             # subscription article; PDF supplied by Bruno (approved 7 Nov 2026)
+  licence: ""
+  researchers:   # as printed in the article (byline and affiliations; the article and Crossref list no ORCID iDs)
+    - name: "Guoquan Ye"
+      affiliation: "Xiamen University, Xiamen, China"
+      orcid: ""   # OpenAlex lists 0000-0002-0623-9157, but neither Crossref nor that ORCID record carries this DOI
+    - name: "Xin Guan"
+      affiliation: "Jimei University, Xiamen, China"
+      orcid: ""   # OpenAlex lists 0000-0003-2041-2531, but neither Crossref nor that ORCID record carries this DOI
+    - name: "Liselot Hudders"
+      affiliation: "Ghent University, Ghent, Belgium"
+      orcid: ""   # OpenAlex lists 0000-0002-9585-7175, but neither Crossref nor that ORCID record carries this DOI
+    - name: "Yi Xiao"
+      affiliation: "Tianjin University, Tianjin, China"
+      orcid: "0000-0001-8477-5337"   # not printed; OpenAlex lists it and the ORCID record carries this DOI
+    - name: "Jingyu Li"
+      affiliation: "Chinergy Co., Ltd, Beijing, China"
+      orcid: "0000-0001-9466-6820"   # not printed; OpenAlex lists it and the ORCID record carries this DOI
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 107
+    basis: "Meta-analysis of 98 papers reporting 107 studies (pooled N = 44,706), with subgroup analysis by five ad types, meta-regression on Hofstede's six culture dimensions and meta-analytic structural equation modelling"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Guoquan Ye of Xiamen University, Xin Guan of Jimei University, also in Xiamen, Liselot Hudders of Ghent University in
+      Belgium, Yi Xiao of Tianjin University and Jingyu Li of Chinergy, a company in Beijing, took on a question advertisers
+      face every day: what makes someone feel an ad was worth their time? Researchers call that feeling advertising value, an
+      idea Robert Ducoffe put forward in 1995. It sits between noticing an ad and doing something about it.
+
+      Plenty of studies had measured it, and they kept disagreeing. Some found that informative ads were valued more, others
+      found no link, and some even found the reverse. Annoyance hurt in some settings and not in others. The team suspected
+      the reason: studies had looked at different kinds of ads, with people from different countries.
+
+      So they gathered every quantitative study on the idea they could find. Each had to focus on one kind of advertising,
+      report how its measures were related, and give its sample size and the reliability of its scales. Where a paper printed
+      only model results, the team wrote to its authors for the raw correlations.
+
+      Five qualities of an ad were in the frame: how informative it is, how entertaining, how believable, how irritating and
+      how relevant to the person, meaning built around what is known about them. The studies were sorted into five kinds of
+      advertising, and each country was scored on Hofstede's six dimensions of national culture. Finally, every pooled link
+      went into one model, running from the five qualities, through the ad's worth, to liking it and planning to act.
+    facts:
+      - ["Evidence pooled", "98 papers reporting 107 studies, with 44,706 participants in total"]
+      - ["Search", "Nine databases searched for the term up to January 2023, plus every paper citing the two founding articles; 2,132 records screened"]
+      - ["Sources", "Journal articles, conference papers, book chapters and dissertations, to guard against favouring published positive results"]
+      - ["Ad types", "Social media (38 studies), web (20), text message (17), in-app (9) and television (4); 19 general mobile, mixed or outdoor studies left out of these comparisons"]
+      - ["Culture", "Every country rated on Hofstede's six culture dimensions; 15 studies with no clear location left out"]
+      - ["Method", "Correlations corrected for measurement error, pooled with random-effects models, then fitted as one path model"]
+      - ["Checks", "Two authors coded every study separately and agreed on over 95%; publication bias showed on one link only, and correcting it changed nothing"]
+
+  - h: "Belief, enjoyment and information come first"
+    body: |
+      Taken one at a time, three qualities were almost level. Information, entertainment and credibility each had a pooled
+      correlation of about 0.55 with how worthwhile people found an ad. Relevance came lower, at 0.43, and annoyance worked
+      against worth, at 0.33 in the negative direction.
+
+      When everything went into the same model, credibility came out just ahead. The authors' explanation is simple: if
+      people do not trust an ad, nothing else about it can rescue it. Entertainment was a close second and information third,
+      the two classic reasons people give for paying attention to ads at all.
+
+      Annoyance shrank the most. Its link with worth was moderate on its own, but once the other qualities were counted it had
+      little left to explain. To the authors, this means people tolerate advertising better than all the clutter would
+      imply, as long as the ad gives them something back.
+    chart: drivers
+
+  - h: "Relevance works by lifting the other qualities"
+    body: |
+      Relevance is the newest of the five qualities in this research, and the least studied. Only 18 studies tied it directly
+      to an ad's worth. It covers ads shaped by a person's profile, their network, or what they browse and buy.
+
+      On its own path to worth, relevance carried the least weight of the five. That understates it. Relevant ads were seen as
+      more informative, more entertaining and, to a lesser degree, more believable (path weights 0.41, 0.48 and 0.16).
+      Most of what relevance achieves, it achieves by making an ad seem useful and fun.
+
+      There is a catch. Taken alone, relevant ads went with less annoyance. In the full model, with everything else held level,
+      relevance nudged annoyance up a little (0.05). The authors see two sides to relevance: people welcome ads that fit
+      their needs but can feel uneasy about how much the advertiser seems to know. Treat that small upward link with care,
+      since it only appears once all the qualities are entered together.
+
+  - h: "Apps, feeds, texts and websites weigh them differently"
+    body: |
+      Every link in the model differed between kinds of advertising, and for digital marketers the four digital formats are
+      the most useful comparison.
+
+      In-app ads showed the tightest links almost everywhere. Being believable, entertaining or informative mattered more to
+      their worth than in the other digital formats, and annoyance hurt them more too. The authors conclude that app ads are
+      the more effective format. We would put it more carefully: inside an app, people judge an ad more sharply on these
+      qualities, which rewards a good ad and punishes an intrusive one.
+
+      Social media ads were judged more loosely. Entertainment had its weakest link to worth there (0.51, against 0.75 for
+      in-app ads), and annoyance cost less. Of the formats where relevance was measured, text-message ads leaned on it most,
+      at 0.50 against 0.32 for web ads. On websites, being informative did more to calm annoyance than in any other format.
+
+      Television sat apart, on thin evidence. Information and entertainment were tied very closely to a TV ad's worth (0.81
+      each), while annoyance barely registered. The authors suggest viewers are used to TV breaks and can skip or change
+      channel.
+    chart: formats
+
+  - h: "Culture shifts the balance too"
+    body: |
+      Several links moved with national culture. In more individualistic countries, and in more indulgent ones where enjoying
+      life is encouraged, information counted for more in an ad's worth, and relevance did more to make ads seem informative.
+      In countries that accept steep hierarchies, relevance and entertainment did less to make ads seem informative.
+
+      Where people dislike uncertainty, an ad's worth and liking for it moved more closely together; in more competitive,
+      achievement-driven cultures, less so. Uncertainty avoidance alone accounted for about a third of the differences
+      between studies on that link. Long-term orientation changed nothing.
+
+      So the authors suggest leaning on relevance and information in individualistic and indulgent markets, and on
+      credibility in individualistic ones, where believable ads did more to soothe irritation.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Rate your ad on five questions", "Ask 20 customers to score your current ad from one to five on five points: I believe it, I enjoyed it, I learned something, it annoyed me, it felt meant for me. Write the five scores down as your starting point."]
+  - ["Pick the format and set its bar", "Choose where the campaign runs first: inside apps, in social feeds, by text message or on websites. Make a separate version for each one you use. Inside apps, treat any sign of annoyance as a reason to hold the launch."]
+  - ["Back every claim", "Next to each claim, put one thing the viewer can check, such as a price, a guarantee or a named source. Delete any claim you cannot prove."]
+  - ["Teach one thing with one light touch", "Build the ad around one fact the viewer can use today. Deliver it with a single light touch, such as a joke, a short story or a striking picture. Read it aloud, and rewrite it if it sounds like a sales script."]
+  - ["Personalise with signals people expect", "Tailor the ad to one or two things customers know you know, such as their last order or their city. Leave out anything that suggests you have been watching them closely. Add a short line saying why this ad reached them."]
+  - ["Recheck monthly, format by format", "Every four weeks, ask 20 new customers the same five questions. Put the scores next to clicks and sign-ups for each format. A social post that people like but that brings few clicks needs a clearer next step, not more polish."]
+
+expect:
+  - "**Better ads annoy less.** Ads seen as informative, entertaining or believable were all rated less irritating, so work on those three usually takes some of the sting out of complaints as well."
+  - "**Each channel needs its own yardstick.** Scores that look healthy for a web banner can mean something different in an app or a feed, so set separate targets for each format."
+  - "**Watch liking as the early signal.** An ad's worth fed into plans to act by way of liking, so a drop in liking scores is the first sign a campaign is losing its pull."
+  - "**Retune for each market.** If one campaign runs in several countries, people may weigh the same ad on slightly different grounds, so test it in each main market before scaling up."
+
+limits:
+  - "**Associations, not proof.** Almost all the pooled research was survey-based, so the review shows which perceptions go together. Experiments are needed to show what causes what, as the authors note."
+  - "**Results scattered widely.** On every link, more than 92% of the variation between studies came from genuine differences between them, not chance, so your own customers could look quite unlike the typical result."
+  - "**Ad types, not single ads.** The studies asked people about a kind of advertising, such as text-message ads in general, so the review cannot say which designs, messages or video styles work best."
+  - "**Gaps in coverage.** Some format comparisons could not be run for lack of research, and social media ads overlap with web and app ads, a blur the authors acknowledge."
+  - "**Liking and plans only.** Outcomes stop at attitudes and stated intentions, such as plans to click, search or buy. No real clicks or sales were measured."
+
+faq:
+  - q: "What is advertising value?"
+    a: "It is a person's own verdict on whether an ad was useful or worthwhile to them, a concept introduced by Robert Ducoffe in 1995. Where recall or liking shows whether an ad worked, advertising value helps explain why, because it captures what the viewer felt they got out of it."
+  - q: "What makes consumers find an ad worth their time?"
+    a: "Mainly three things: trusting what it says, enjoying it and getting useful information from it. Pooling research from many countries and ad formats, a meta-analysis found that those three outweighed annoyance and personal targeting as direct drivers (Ye et al., 2025)."
+  - q: "Does personalised advertising make people value ads more?"
+    a: "Yes, though mostly by a roundabout route. Ads tailored to someone's data came across as more useful and more enjoyable, and that accounts for most of the gain. With every other quality accounted for, tailoring also went with slightly more irritation, which the authors connect to privacy worries."
+  - q: "Which ad format do people value most: app, social media, text or web?"
+    a: "This review cannot answer that, because it compared how strongly each quality was tied to an ad's worth within each format, not how highly each format was rated overall. A tighter link means people judge ads in that format more sharply, for better or worse."
+
+also:
+  - doi: "10.1177/00222429231223420"
+    title: "Targeting Nearby Influencers: The Acceleration of Natural Triadic Closure by Leveraging Interconnectors"
+    authors: "Goldenberg et al."
+    journal: "Journal of Marketing"
+    year: 2024
+    text: >-
+      Creators who want a bigger audience are usually told to seed their content with big influencers, or lately with smaller
+      ones. This multimethod study looked instead at influencers who already sit close to the creator, linked through the
+      creator's existing followers. Seeding with these nearby accounts did far more to grow a following than targeting
+      unconnected ones: 2,300% more than unconnected big names and 46% more than unconnected small ones, and a preregistered test in the
+      field backed this up. The best amplifier may be two steps away in a network you already have.
+  - doi: "10.1002/cb.2320"
+    title: "Social‐oriented versus task‐oriented streamer interaction styles on live streaming e‐commerce: Empirical research in China"
+    authors: "Zhang et al."
+    journal: "Journal of Consumer Behaviour"
+    year: 2024
+    text: >-
+      Three experiments in China compared two ways a live-stream seller can talk to viewers: chatting warmly and building
+      rapport, or sticking to product facts and closing the sale. The friendly style drew more engagement. The businesslike
+      style put viewers on guard against being misled, which held engagement back, and the friendly style worked best with
+      viewers who already knew the category well. On a live stream, the small talk may be doing more selling than the spec
+      sheet.
+
+charts:
+  drivers:
+    title: "What makes an ad feel worth it (standardised path weights in the combined model; 0 means no link)"
+    scale: [0, 0.3]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Believable", 0.262, true]
+      - ["Entertaining", 0.247, false]
+      - ["Informative", 0.208, false]
+      - ["Irritating (lowers worth)", 0.055, false]
+      - ["Relevant to the person", 0.048, false]
+    source: "Meta-analytic structural equation model fitted to the pooled correlations of all 107 studies (44,706 people). Every path was significant."
+  formats:
+    title: "How strongly annoyance drags down an ad's worth, by digital format (size of the negative pooled correlation)"
+    scale: [0, 0.5]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["In-app ads", 0.485, true]
+      - ["Text-message ads", 0.391, false]
+      - ["Web ads", 0.361, false]
+      - ["Social media ads", 0.284, false]
+    source: "Subgroup analysis by ad type of the 107 pooled studies; the differences between formats were significant. Television is left out of the chart (see text)."
+
+related_pages: []

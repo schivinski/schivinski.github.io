@@ -7,7 +7,7 @@
 # Read in full from the publisher PDF. Written in his first person with one reflective section (guide: "Bruno's own
 # papers"). No author emails (2024 tab, and Bruno's own paper). Paper page: sports-brand-experience-emotions-engagement.
 series: 2024
-number: 43                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+number: 42                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
 week_of: "2024-10-28"            # the plan's date for the October 2024 journal issue; orders the tab
 dateline: "Journal issue published October 2024"
 published: "2026-11-07"          # the day this page went live (metadata only, never shown)

@@ -1,0 +1,258 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 43                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-10-30"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: online-impulse-buying-triggers
+status: live
+
+title: "What makes people buy on impulse online? What a Journal of Consumer Behaviour meta-analysis found"
+dek: >-
+  Unplanned purchases make up a big share of online sales, yet research on what sets them off kept contradicting itself.
+  A meta-analysis of 25 years of studies sorts the triggers into four families and finds that the situation and the deal on offer
+  pull hardest, with their grip tightening over time.
+short_title: "What tips online shoppers into impulse buys"
+
+description: >-
+  Anoop and Rahman pool 84 studies of online impulse buying: situational cues and offers link most strongly, while
+  shoppers' self-control shows almost no link.
+
+keywords: [online impulse buying, impulse purchases, unplanned buying, e-commerce conversion, social commerce,
+  live stream shopping, promotions and discounts, scarcity marketing, online shop design, parasocial interaction,
+  meta-analysis, Journal of Consumer Behaviour]
+topics: [Retail, Social media]
+
+image:
+  file: 2024-online-impulse-buying-triggers.jpg
+  og: 2024-online-impulse-buying-triggers-og.jpg
+  alt: "A person holds a fan of navy, white, red and brown paper shopping bags up in front of their face, the other hand raised high against a pale wall"
+  caption: "Good moods and good offers do more to fill a basket than any shopping list. Photo: Iuliia Pilipeichenko on Unsplash."
+
+short_answer: >-
+  Mostly the moment and the offer. Pooling 341 results from 84 studies published between 2000 and 2024, this meta-analysis
+  found the strongest links with situational cues, such as enjoying the browse or sensing a bargain, and with prices,
+  promotions and product details. Shoppers' own traits and moods, and the design of the site or app, also mattered, a little
+  less. Every one of the four families went with more impulse buying, not less.
+
+takeaways:
+  - "Good moods pulled harder than bad ones: feeling upbeat while shopping had a correlation of 0.40 with impulse buying (zero would be no connection at all), against 0.23 for a bad mood."
+  - "Self-control hardly registered, with an average link of 0.02 across nine results that pointed in opposite directions."
+  - "Between 2009 and 2024, the links for site features, offers and situational cues grew roughly eight times faster per year than those for shoppers' own traits."
+  - "Studies with random samples found site features mattered far less than studies using whoever was easy to reach: 0.24 against 0.42."
+
+paper:
+  doi: "10.1002/cb.2418"
+  title: "Online Impulse Buying: A Systematic Review of 25 Years of Research Using Meta Regression"
+  authors: ["Anoop, T. S.", "Rahman, Z."]
+  authors_full: ["T. S. Anoop", "Zillur Rahman"]
+  year: 2025
+  journal: "Journal of Consumer Behaviour"
+  volume: "24"
+  issue: "1"
+  pages: "363-391"
+  online: "2024-10-30"
+  open_access: false             # subscription article; PDF supplied by Bruno (approved 7 Nov 2026)
+  licence: ""
+  researchers:   # as printed in the article (byline and affiliation); ORCID iDs as shown on the Wiley page and in Crossref
+    - name: "T. S. Anoop"
+      affiliation: "Department of Management Studies, Indian Institute of Technology, Roorkee (IITR), Roorkee, Uttarakhand, India"
+      orcid: "0000-0002-9810-913X"
+    - name: "Zillur Rahman"
+      affiliation: "Department of Management Studies, Indian Institute of Technology, Roorkee (IITR), Roorkee, Uttarakhand, India"
+      orcid: "0000-0003-2785-0200"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 84
+    basis: "Meta-analysis of 84 studies from 75 journal articles (2000 to 2024): 341 effects, cumulative sample 139,545 as reported; random-effects pooling of 31 triggers in four families, subgroup tests on five study features and meta-regression on publication year"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      T. S. Anoop and Zillur Rahman of the Department of Management Studies at the Indian Institute of Technology Roorkee, in
+      India, took on a field that had grown fast and kept arguing with itself. Dozens of studies had asked why people buy
+      things online they never meant to buy, and they disagreed about what matters. Survey figures the authors cite suggest
+      the habit is spreading: in a 2022 poll, 73% of people said they often bought online on impulse, up from 59% in 2020.
+
+      The pair searched three large research databases and kept only studies with data of their own, published in journals
+      ranked in the top quarter of their field, that reported the statistics needed for pooling. They turned every result
+      into a correlation, corrected it for measurement error, and combined the results with a method that allows for real
+      differences between studies.
+
+      They then grouped 31 single triggers into four families. The shopper: personality, motives, moods and how earlier
+      purchases felt. Marketing: product, price and promotion. The situation: the urge to buy, enjoyment, a sense of good
+      value, whether buying on a whim seems acceptable, and scarcity. The platform: design, ease of use, trust, payment
+      options, the feeling of knowing a host or creator, and more. Finally, they checked whether five features of the
+      studies changed the results, and whether the links had shifted over the years.
+    facts:
+      - ["Articles", "75 journal articles in English, all from top-quartile journals; some reported more than one study"]
+      - ["Samples", "139,545 responses in total, adding up the sample behind each result"]
+      - ["Search", "Scopus, EBSCO Business Source Ultimate and ProQuest in December 2023, plus records from other sources"]
+      - ["Where", "71% of studies from Asia, 13% from Europe, 10% from North America, the rest from Africa and South America"]
+      - ["Shop types", "Web shops 52%, social commerce 32%, mobile commerce 11%"]
+      - ["How data were gathered", "92% online questionnaires; more than 80% of samples not drawn at random"]
+      - ["Checks", "Several tests for missing or unpublished studies suggested any bias in the four family results was negligible"]
+
+  - h: "Which family of triggers pulls hardest?"
+    body: |
+      All four families were clearly and positively tied to impulse buying online. Situational cues came out on top, with
+      marketing offers close behind, then the shopper and the platform. The ranges around the four averages
+      overlap, though, so read the order as a guide rather than a final ranking.
+
+      The platform family was the most studied, with 139 results and a combined sample of 55,101, which says something about
+      where researchers have been looking. Marketing offers had the thinnest base: 24 results.
+
+      We would add one caution about the top spot, which is our own. The situational family includes the urge to buy
+      itself, a feeling that sits very close to the purchase. Enjoyment, perceived value and scarcity belong to the
+      same family and each showed a solid link on its own, so the result does not rest on the urge alone. Still, the
+      family's lead is probably a little inflated by it.
+    chart: groups
+
+  - h: "The single triggers that stand out"
+    body: |
+      Taken one by one, the strongest link belonged to a personality trait: people who like trying new things were the most
+      prone to unplanned buys. Promotions such as limited-time deals showed a stronger link than price alone, and both edged out scarcity
+      messages of the "only a few left" kind, although the ranges overlap and scarcity rested on just five results.
+
+      Two results should interest anyone who designs a shop. Visual appeal, one of the most studied triggers, sat in the
+      bottom third of the list. And feeling close to a host, creator or brand voice, almost as if they were a friend, matched
+      enjoyment, the most studied trigger of all.
+
+      Trust in the platform also showed a strong link (0.43, from 13 results), and the feeling that one's data was safe one
+      of the strongest (0.50), though that came from only four results. Perceived risk was weak, with a range running from
+      below zero to above it. Both the risk and the self-control figures are fragile, the authors note: very few unpublished
+      studies with no effect would be enough to erase them.
+    chart: drivers
+
+  - h: "Does the type of shop or shopper change the picture?"
+    body: |
+      Five study characteristics were tested to see whether they shifted the links, and the clearest answer came from the
+      type of shop. The shopper's own traits and moods went with impulse buying noticeably more strongly on social commerce, such as
+      buying inside a social app or during a live stream, than on ordinary web shops. Platform features showed the same
+      order, at 0.43 on social shops against 0.35 on web shops and 0.32 in mobile apps. The authors think live-stream
+      selling, common in the studies of social shops, may account for some of that difference.
+
+      Situational cues varied with culture and with who was asked. They were linked much more strongly in collectivist
+      countries, where people tend to see themselves through their group, than in individualist ones (0.47 against 0.18).
+      That result only just passed the usual test for chance and rests on ten results from individualist countries. Student
+      samples also showed stronger situational links than samples from the general public (0.58 against 0.42), though only
+      eight results came from students.
+
+      Marketing offers were the steady ones. None of the five study features made a reliable difference to how strongly
+      price, promotion and product information were tied to impulse buying.
+    chart: commerce
+
+  - h: "Are the links getting stronger?"
+    body: |
+      The authors also tracked how the size of the links changed with the year each study came out, using results from 2009
+      onwards. For platform features, situational cues and marketing offers, newer studies found stronger links than older
+      ones, at a similar pace for all three. For the shopper's own traits the change was close to nothing.
+
+      For the authors, this is evidence that online buying behaviour keeps moving, and they urge managers to keep re-checking
+      what works. That is a fair reading. Still, the same years also brought changes in how studies were run, such as new
+      questions, platforms and panels, and the analysis cannot separate the two. Treat it
+      as a trend in the research rather than proof that shoppers themselves have changed.
+
+      How the data were gathered mattered too. Results for the shopper's own traits were larger in online questionnaires
+      (0.41) than in studies that mixed online and offline questionnaires (0.20).
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Find your unplanned orders", "Pull last month's orders and flag the ones placed within 15 minutes of a first visit, with no earlier search, wishlist or basket. Note the page, post or live stream each one came from."]
+  - ["Decide which nudges you can stand behind", "List every offer and cue you could use next month, such as a price cut, a bundle or a low-stock note. Strike out anything that is not true, like a countdown that quietly resets."]
+  - ["Make browsing fun and paying quick", "Add a 'new this week' row and short product videos where people scroll. Swap in fresh items every week. Keep checkout to three taps, with the payment methods your customers already use."]
+  - ["Give the shop a familiar voice", "Pick one host or creator and give them a weekly live session or short video. Have them answer real questions and show products being used, rather than reading out specifications."]
+  - ["Test one trigger at a time", "Run each new offer or design change against the current version for 14 days, keeping products and traffic as alike as you can. Keep a change only if orders rise and returns do not."]
+  - ["Check for regret every month", "Compare return rates and complaints for quick, unplanned orders with those for planned ones. If impulse orders come back much more often, tone down the urgency and make the product page clearer."]
+
+expect:
+  - "**Several small levers, not one big switch.** Even the strongest family sat below 0.5 on the 0 to 1 scale, so gains are likely to come from several changes adding up."
+  - "**Different shops, different levers.** The authors suggest that social shops lean on the shopper's mood and personality, while web shops put their effort into how the site looks and works."
+  - "**Smaller effects on your own customers.** The averages come almost entirely from online questionnaires and easy-to-reach panels, so tests with real buyers will probably show more modest gains."
+  - "**Some of the extra sales may come back.** The authors point to economists' warnings that impulse spending can end in debt. Returns and regret were not measured, so track them yourself."
+
+limits:
+  - "**Questionnaires, not shopping baskets.** Every result came from surveys, so the findings show what goes together with impulse buying, not what causes it, and purchases were reported by shoppers rather than observed."
+  - "**Weighted towards collectivist cultures.** Only about one study in five came from an individualist country, which makes the culture comparisons thin."
+  - "**Top journals, English only.** Studies in other languages, in lower-ranked journals or without the numbers a meta-analysis needs were left out, as the authors themselves note."
+  - "**Big differences between studies.** For nearly every trigger, results swung widely across the pooled work, so an average may describe your own shoppers poorly."
+  - "**Broad buckets.** Similar ideas measured in different ways were treated as one trigger, and several subgroup tests rely on very few results."
+
+faq:
+  - q: "What triggers impulse buying online?"
+    a: "Four kinds of trigger all play a part: the moment itself, marketing offers, the shopper's own make-up and the design of the platform. A meta-analysis of a quarter-century of research found the first two had the strongest average links, with the other two close behind (Anoop & Rahman, 2025)."
+  - q: "Do discounts work better than scarcity messages for impulse sales?"
+    a: "On average, yes. Promotions such as time-limited deals had a stronger link with unplanned buying than low-stock messages, and price on its own sat between the two. Far fewer results stood behind scarcity, so that comparison could shift as more evidence comes in."
+  - q: "Is impulse buying stronger on social commerce than on websites?"
+    a: "The links were stronger there. Both the shopper's moods and traits and the features of the platform were more closely tied to impulse buying on social shops than on web shops, a pattern the authors connect with selling through live streams."
+  - q: "Does self-control stop people buying on impulse online?"
+    a: "Not reliably, judging by the research to date. Some studies found it held shoppers back and others found the reverse, so on average it showed almost no link. The authors also class the result as fragile."
+  - q: "What counts as online impulse buying?"
+    a: "A purchase made on a website, app or social platform without any earlier plan to buy, usually sparked on the spot by a feeling, an offer or something on the screen."
+
+also:
+  - doi: "10.1002/mar.22137"
+    title: "Putting an artificial intelligence-generated label on it comes naturally"
+    authors: "Sigurdsson et al."
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Three experiments asked wine buyers how they felt about bottles shown with or without a sustainability badge. A made-up
+      badge created with AI lifted willingness to buy and to pay just as much as a genuine third-party certification, compared
+      with no badge at all. People who pay close attention to front-of-pack labels, and those who know and care about wine,
+      were keener to buy whatever the badge. A convincing badge persuades whether or not anyone stands behind it, which is a
+      strong reason to make sure someone stands behind yours.
+  - doi: "10.1002/mar.22143"
+    title: "Augmented reality experiences: Consumer-centered augmented reality framework and research agenda"
+    authors: "Barta et al."
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      This systematic review maps consumer research on augmented reality since Pokémon Go made it mainstream: the theories,
+      methods, devices and settings involved. It sorts the work into four strands, running from how the medium shapes
+      responses to what makes people adopt AR apps and how firms should roll them out. The authors then propose a framework
+      that puts the consumer at the centre, alongside content, context and device. Before funding an AR try-on or game, check
+      which of those four pieces you have actually planned for.
+
+charts:
+  groups:
+    title: "How closely each family of triggers goes with online impulse buying (correlation; 0 means no link, 1 a perfect one)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["The moment (situational cues)", 0.45, true]
+      - ["Marketing offers", 0.43, false]
+      - ["The shopper's traits and moods", 0.39, false]
+      - ["Platform features", 0.36, false]
+    source: "Random-effects pooled correlations from the meta-analysis, based on 52, 24, 126 and 139 results in that order. The 95% ranges of all four overlap."
+  drivers:
+    title: "Average link with online impulse buying, selected single triggers (correlation, 0 to 1)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Likes variety and novelty", 0.56, true]
+      - ["Promotions and deals", 0.47, false]
+      - ["Enjoying the browse", 0.43, false]
+      - ["Bond with a host or creator", 0.43, false]
+      - ["Price", 0.40, false]
+      - ["Scarcity cues", 0.37, false]
+      - ["Visual appeal", 0.31, false]
+      - ["Perceived risk", 0.10, false]
+    source: "Random-effects pooled correlations for 8 of the 31 triggers, each based on 5 to 28 results. The range for perceived risk crosses zero."
+  commerce:
+    title: "Link between the shopper's traits and moods and impulse buying, by type of online shop (correlation, 0 to 1)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Social commerce", 0.49, true]
+      - ["Mobile commerce", 0.39, false]
+      - ["Web shops", 0.35, false]
+      - ["Mixed settings", 0.16, false]
+    source: "Moderator analysis of the shopper-related results: 36 social, 15 mobile, 65 web and 9 mixed. Shop type made a reliable difference; the mixed-settings figure on its own did not pass the test for chance."
+
+related_pages: []

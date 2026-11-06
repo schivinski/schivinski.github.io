@@ -1,0 +1,242 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 21                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-05-29"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: cashless-effect-meta-analysis
+status: live
+
+title: "Do people spend more when they pay by card or phone instead of cash? What a Journal of Retailing meta-analysis found"
+dek: >-
+  Cards, phone wallets and pay-later buttons have pushed notes and coins to the edge of retail. Pooling four decades of
+  research, three researchers at Australian universities show that paying without cash does raise spending, but only a
+  little, and by less as the years go by.
+short_title: "Card or cash: how much more do people spend?"
+
+description: >-
+  Schomburgk et al. pool 71 papers on card, phone and cash payments: going cashless lifts spending a little, most for
+  status buys and not at all for tips.
+
+keywords: [cashless effect, card vs cash spending, mobile payments, contactless payment, pain of paying,
+  payment methods and consumer spending, buy now pay later, checkout design, tipping and donations,
+  conspicuous consumption, meta-analysis, Journal of Retailing]
+topics: [Retail, Service]
+
+image:
+  file: 2024-cashless-effect-meta-analysis.jpg
+  og: 2024-cashless-effect-meta-analysis-og.jpg
+  alt: "A shopper in a rust-red jumper, seen from behind, slides a card into a payment terminal showing $102.49 and Insert, Tap or Swipe, with hair-care products on a concrete counter"
+  caption: "Card, tap or phone: none of it feels like handing over notes. That used to matter more than it does now. Photo: Blake Wisz on Unsplash."
+
+short_answer: >-
+  Yes, but only slightly. Pooling 392 results from 71 papers published over four decades, the researchers found that people
+  who paid by card, phone or another cashless method spent a little more than people paying cash. The lift was largest for
+  purchases made to show status, vanished for tips and donations, and has been shrinking for years as paying without cash
+  has become routine.
+
+takeaways:
+  - "Averaged over every result, paying without cash lifted spending by 0.135 on the standard effect-size scale, below the 0.2 that researchers usually treat as a small effect."
+  - "Buying to impress produced the biggest lift, roughly 2.5 times that of everyday purchases, though only 13 results from 7 papers looked at it."
+  - "Across 41 results on tips and donations from 25 papers, people paying without cash gave about the same as those handing over notes and coins."
+  - "Good times widened the gap: the estimated lift was 0.262 when economic growth sat one standard deviation above average, and 0.197 when it sat one below."
+
+paper:
+  doi: "10.1016/j.jretai.2024.05.003"
+  title: "Less cash, more splash? A meta-analysis on the cashless effect"
+  authors: ["Schomburgk, L.", "Belli, A.", "Hoffmann, A. O. I."]
+  authors_full: ["Lachlan Schomburgk", "Alex Belli", "Arvid O.I. Hoffmann"]
+  year: 2024
+  journal: "Journal of Retailing"
+  volume: "100"
+  issue: "3"
+  pages: "382-403"
+  online: "2024-05-29"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Lachlan Schomburgk"
+      affiliation: "University of Adelaide Business School, 10 Pulteney Street, SA 5005, Adelaide, Australia"
+      orcid: "0000-0003-0294-5414"
+    - name: "Alex Belli"
+      affiliation: "University of Melbourne, Department of Management and Marketing, The Spot Building, 198 Berkeley St, Carlton, VIC 3053, Australia"
+      orcid: "0000-0001-5425-9294"
+    - name: "Arvid O.I. Hoffmann"
+      affiliation: "University of Adelaide Business School, 10 Pulteney Street, SA 5005, Adelaide, Australia"
+      orcid: "0000-0003-4148-5078"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 71
+    basis: "Meta-analysis of 392 effect sizes (Hedges' g) from 71 papers published 1978 to 2022 (55 journal articles, 10 dissertations, 4 working papers, 1 conference paper, 1 report), covering 11,257 unique participants and 338,513 transactions in 17 countries; multilevel meta-regression on eight moderators plus methodological controls"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Lachlan Schomburgk and Arvid O.I. Hoffmann of the University of Adelaide Business School, with Alex Belli of the
+      University of Melbourne, set out to settle an argument that researchers, retailers and policymakers have been having
+      since the 1970s. Does paying without notes and coins lead people to spend more? Early studies said yes, clearly. Later
+      ones found the gap shrinking, vanishing or even turning round, and nobody could say which results to believe.
+
+      The three pulled together every comparison of a cashless payment with cash they could track down. They went through
+      marketing, psychology, finance and economics journals one by one, followed reference lists, and hunted for theses and
+      working papers as well, so that studies with unexciting results would not be missed.
+
+      Each study had to measure spending itself: how much people paid, how many items they bought, or the top price they
+      would agree to. Work on attitudes or purchase intentions was set aside. Every result was then coded for the kind of
+      payment method, the kind of purchase, and the state of the economy in that country and year. A meta-regression, a model
+      that tests which study features go with bigger or smaller effects, showed what moved the gap.
+    facts:
+      - ["Evidence pooled", "392 effect sizes drawn from 71 papers, published 1978 to 2022, with two extreme outliers removed"]
+      - ["Sources", "55 journal articles, 10 dissertations, 4 working papers, 1 conference paper and 1 report"]
+      - ["Coverage", "11,257 people and 338,513 transactions across 17 countries"]
+      - ["Search", "Journals on the Australian business deans' list, reference lists, Google Scholar, SSRN and ResearchGate; 197 candidate papers by December 2022"]
+      - ["Compared", "Any cashless method against cash, from debit and credit cards to mobile wallets, money-transfer apps and cryptocurrency"]
+      - ["Checks", "A second coder, kept unaware of the hypotheses, matched 93.62% of codes; tests found little sign of missing null results"]
+
+  - h: "How big is the cashless lift?"
+    body: |
+      Across all the evidence, paying without cash gave a lift that was small but dependable. Its 95% confidence interval ran
+      from 0.068 to 0.203, so it stayed clear of zero. In everyday terms it is a nudge, not a big shift.
+
+      Single results were all over the place, from minus 1.51 to 1.85. About 86% of that spread came from genuine differences
+      in the studies themselves, with only the rest down to chance. So the conditions behind the average matter more than the
+      average does.
+
+      Most researchers explain the lift with the pain of paying. Counting out notes makes the loss feel real, while a card or
+      a phone lets the money go quietly. Familiarity seems to wear that contrast down. The effect has shrunk gradually as
+      cashless payment became normal, with no sudden drop, and it was still above zero in the most recent data.
+
+  - h: "Cards, phones and pay-later: the digital picture"
+    body: |
+      Checkout teams will get most from the way the paper sorted payment methods. Each one sits on two scales. The first is
+      how visible the payment feels next to cash: debit cards, gift cards and cheques are tangible, while phone wallets,
+      transfer apps and Bitcoin move money out of sight. The second is timing. Debit and phone payments take
+      the money straight away; credit cards and pay-later plans let people enjoy the purchase first and settle up afterwards.
+
+      Theory said both the hidden and the deferred methods should widen the gap. On their own, neither did. The pattern only
+      showed when the two scales were crossed. Credit cards, tangible but deferred, gave the largest lift of any group.
+      Payments by phone and app gave a smaller lift than debit and gift cards, not a bigger one, although the analysis could
+      not separate those two from chance.
+
+      Pay-later plans came out below zero, at minus 0.35, as if people spent less than with cash. Treat that with real care.
+      Working from the paper's tables, only about five results sat in that group, and the paper says nothing more about it.
+      It marks a hole in the evidence, not a verdict on pay-later buttons. The authors' own reading of the credit card result
+      is familiarity: people have used cards for decades and find them easy, while newer, less visible methods are still
+      bedding in.
+    chart: methods
+
+  - h: "Status, generosity and the economy"
+    body: |
+      What people were buying mattered more than how they paid. Whether a purchase was for pleasure or for practical reasons
+      made no difference. Status did. When the point of a purchase was to be noticed, as with luxury goods or a smart
+      restaurant meal, the cashless lift was the biggest in the whole analysis. The authors argue that showing off is
+      expensive and often stretches budgets, so paying hurts more, and a card takes more of the edge off. Nobody had tested this before, and the evidence
+      behind it is still thin.
+
+      Giving went the other way. For tips and donations the lift disappeared. The warm feeling of helping someone may soften
+      the pain of paying on its own, leaving a card little to add.
+
+      The economy played a part too, though not as the team expected. They had predicted a smaller gap in good times and found
+      a bigger one. Inflation, by contrast, did not move it.
+    chart: situations
+
+  - h: "What it means for checkouts and e-commerce"
+    body: |
+      The authors give retailers two messages that pull against each other. Take cashless payment and say so, because a shop
+      that refuses it gives up sales, most of all on status goods and in places where notes and coins still dominate. But do
+      not exploit the effect by steering people towards borrowed money. They suggest nudging customers to debit cards, which
+      only let people spend what they already have, rather than credit or pay-later cards. For shoppers who struggle with self-control, they say
+      cash can help, in line with the "cash stuffing" envelope budgets popular on TikTok.
+
+      Online, the headline result says less, because nearly every web purchase is cashless already. What the moderators do
+      suggest is where a payment choice is likely to move money and where it probably will not. A tip screen on a card
+      reader, or a round-up-for-charity box at checkout, should not be expected to raise more than a jar would. Premium and status lines
+      are where a smooth payment flow is most likely to show up in the basket. One method check fits web shops, where the
+      price is always on screen: the gap was larger in studies that showed people the price than in those that asked what
+      they would pay without one. These are our readings, not results the paper tested.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Map every way people can pay you", "List each payment option you accept in store, in your app and on your website. Beside each, note whether it spends the customer's own money now, such as cash, debit or a phone wallet linked to a debit card, or lends it, such as credit or pay later."]
+  - ["Find where cash is still common", "Take a year of sales records and work out how much was paid in cash for each store, region and event. Mark any place where one sale in five or more is cash. That is where adding and showing cashless options can still lift spending."]
+  - ["Show the options in one plain line", "Put a single row of payment icons on the door, at the till and at the head of the checkout page. Use the same short wording everywhere, for example: card, phone or app welcome."]
+  - ["Put debit level with credit", "On the checkout page and the card reader, list debit and phone wallet options at least as high up as credit and pay later. Never preselect a borrowing option for the customer."]
+  - ["Keep a cash route for tips and giving", "Leave a tip jar or a donation box next to the card reader. Track what the jar and the card prompt each collect for four weeks before you remove either one."]
+  - ["Compare spending by payment method twice a year", "Every six months, compare the average basket for cash and cashless payers in the same stores and weeks. Split everyday lines from premium ones, and focus payment promotions on the lines where the gap holds up."]
+
+expect:
+  - "**Fees on one side, handling on the other.** Card payments carry merchant fees, but the authors note that cash is not free either: it has to be counted, guarded and banked."
+  - "**Least to gain where cash is already rare.** Since the effect weakens with habit, the authors think it will hold on longest in countries that still lean heavily on notes and coins."
+  - "**Pushing credit can cost trust.** The authors warn that encouraging customers to spend money they do not have risks the store's reputation, and suggest debit as the safer route to any lift."
+  - "**Timing your promotion.** Their advice is to promote cashless options harder when the economy is growing, and to make the most of the effect before habit wears it away."
+
+limits:
+  - "**Cash against everything else.** Twenty papers that compared one cashless method with another, such as cards against phone payments, were left out, so the analysis cannot rank the buttons on a checkout page."
+  - "**Thin groups.** The status and pay-later estimates each come from only a few results and could move as more studies appear."
+  - "**Mostly wealthy countries.** Just 20 results came from China, India, Poland and Turkey combined, so markets where cash still dominates are barely covered."
+  - "**Mostly lab-style measures.** 346 results came from experiments and 231 measured the most people said they would pay, though real and imagined purchases gave similar answers."
+  - "**Spending only.** Which method people choose, whether they intend to buy, and what happens to a store's total sales were all outside the scope."
+
+faq:
+  - q: "Do card payments make people spend more than cash?"
+    a: "Yes, by a small but reliable margin. Pooled evidence from dozens of studies shows a rise whether spending was measured as money paid, items bought or the highest price people would accept, and the size of the rise was similar across those three measures (Schomburgk et al., 2024)."
+  - q: "Do phone payments lead to more spending than cards?"
+    a: "Not on this evidence. Measured against cash, phone and app payments lifted spending less than debit or gift cards did, though the difference was too uncertain to be sure of. Credit cards showed the strongest pull of all."
+  - q: "What is the pain of paying?"
+    a: "The small sense of loss people feel as money leaves them. It is thought to be strongest with cash, which is seen and counted out, and weaker with cards and phones. Most explanations of why cashless payment raises spending rest on it."
+  - q: "Should shops, cafés and charities stop taking cash?"
+    a: "The authors advise against dropping it where tips or donations matter, since card and cash brought in about the same there. And 24% of adults worldwide, about 1.4 billion people, have no bank account, as do more than 6% of Americans, so a cash-free counter turns some customers away."
+  - q: "Does this apply to online shopping?"
+    a: "Only in part. The studies set cashless payment against cash, and online almost everything is cashless, so the results speak more to shops, cafés and events than to choosing between checkout buttons. Shopping channel was not one of the factors tested, although whether participants were recruited online made no difference."
+
+also:
+  - doi: "10.1093/jcr/ucad072"
+    title: "The Genesis Effect: Digital Goods in the Metaverse"
+    authors: "Yang"
+    journal: "Journal of Consumer Research"
+    year: 2024
+    text: >-
+      In metaverse marketplaces a second-hand virtual item is identical to a new one down to the pixel, yet buyers paid far more
+      for items nobody had used. Field data on digital goods sales and three experiments trace this to two feelings: that a used
+      item is somehow tainted, and the prestige of being listed as its very first owner. Being first mattered most, while extra
+      owners after that barely counted, and telling buyers an item had been digitally restored softened the penalty. With
+      virtual goods, the ownership record is part of what people are paying for.
+  - doi: "10.1108/ejm-05-2022-0366"
+    title: "Conceptualizing ephemerality in online marketing communication for consumers and firms"
+    authors: "Wakefield"
+    journal: "European Journal of Marketing"
+    year: 2024
+    text: >-
+      Stories, disappearing messages and other posts built to vanish do a different job from content meant to last, according
+      to this conceptual paper. Drawing on goal systems theory, it argues that short-lived messages suit fun, mood, closeness
+      and privacy, and help brands create urgency and prompt sales, but serve poorly for building awareness or making a detailed
+      case. It sets out ideas for later testing and reports no new evidence. How long a post stays up is a strategic choice,
+      not a formatting detail.
+
+charts:
+  methods:
+    title: "Lift in spending compared with cash, by payment type (Hedges' g)"
+    scale: [0, 0.3]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Debit cards, gift cards, cheques", 0.198, false]
+      - ["Phone, app and transfer payments", 0.071, false]
+      - ["Credit cards", 0.259, true]
+    source: "Exploratory interaction model across all pooled results. The two pay-now bars do not differ reliably; pay-later plans (estimate below zero, about five results) are left out of the chart."
+  situations:
+    title: "How much more people spend without cash, by kind of purchase (Hedges' g)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Practical purchases", 0.242, false]
+      - ["Purchases for pleasure", 0.203, false]
+      - ["Everyday, non-status buying", 0.218, false]
+      - ["Buying to show status", 0.551, true]
+      - ["Buying for yourself", 0.253, false]
+      - ["Tips and donations", 0.023, true]
+    source: "Main meta-regression across all 392 results. Predicted values assume the price was shown and hold other factors at their averages, so they sit above the overall average. Pleasure and practical purchases did not differ."
+
+related_pages: []

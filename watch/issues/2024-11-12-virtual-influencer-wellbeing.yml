@@ -4,7 +4,7 @@
 # printed in Psychology & Marketing 42(3), March 2025, so the citation year is 2025. Counts of accounts followed, ages
 # and countries were tallied from the paper's participant table (the text gives ages 19 to 52; the table lists two aged 18).
 series: 2024
-number: 45                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+number: 44                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
 week_of: "2024-11-12"            # the day the paper was first published online (shown as "Paper published ...")
 published: "2026-11-07"          # the day this page went live (metadata only, never shown)
 slug: virtual-influencer-wellbeing
