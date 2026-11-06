@@ -1,0 +1,248 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 39                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-09-29"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-06"          # the day this page went live (metadata only, never shown)
+slug: vr-ad-incongruent-products
+status: live
+
+title: "Which products are worth advertising in virtual reality? What a Psychology & Marketing study found"
+dek: >-
+  More people now watch video through a VR headset, and 360-degree ads can reach them there. Across five studies, the
+  headset made viewers keener to like and share because it drew them into the story, and it helped most when an ad pitched
+  a product at odds with why people buy it.
+short_title: "VR ads pay off when the pitch clashes"
+
+description: >-
+  Hsieh et al. find viewers would sooner like and share a 360-degree ad seen through a VR headset, most of all when its
+  pitch clashes with why they buy.
+
+keywords: [VR advertising, virtual reality ads, 360-degree video ads, 360 video marketing, narrative transportation,
+  consumer engagement, immersive advertising, hedonic and utilitarian products, search and experience products,
+  ad incongruity, YouTube 360 video, Psychology & Marketing]
+topics: [Advertising, Creative]
+
+image:
+  file: 2025-vr-ad-incongruent-products.jpg
+  og: 2025-vr-ad-incongruent-products-og.jpg
+  alt: "Visitors sit and stand on a glowing mound in a dark gallery as a digital waterfall of blue light pours down the walls around them, clusters of pink and yellow projected flowers floating beside it"
+  caption: "Once people are inside the story, a message that seemed odd starts to make sense. Photo: note thanun on Unsplash."
+
+short_answer: >-
+  Products whose ad pulls against the reason people buy them. Across four online tests, people who watched a
+  360-degree ad through their own VR headset were readier to like and share it than computer viewers, because
+  they got more absorbed in its story. The gain was largest for mismatches, such as showing practical
+  buyers how a car feels. When message and buying reason matched, the headset made no reliable difference.
+
+takeaways:
+  - "On YouTube, the 360-degree version of a mobile game ad collected roughly 2.5 times the likes per day of a near-identical flat cut, and about 3 times the comments."
+  - "Switching from a computer screen to a headset raised stated willingness to engage with a 360-degree ad by 36% for an Oreo video and 48% for a car ad."
+  - "When the car ad's focus clashed with how viewers saw the car, the headset lifted engagement by more than 2 points on an 11-point scale."
+  - "When focus and buying reason matched, headset and computer scores sat within 0.51 points of each other, too close to call."
+
+paper:
+  doi: "10.1002/mar.70051"
+  title: "Incongruent, but I Get It! How Narrative Transportation Drives Engagement in Virtual Reality Advertising"
+  authors: ["Hsieh, M.-H.", "Zamudio, C.", "Guo, X."]
+  authors_full: ["Meng-Hua Hsieh", "César Zamudio", "Xiaowei Guo"]
+  year: 2026
+  journal: "Psychology & Marketing"
+  volume: "43"
+  issue: "1"
+  pages: "175-193"
+  online: "2025-09-29"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Meng-Hua Hsieh"
+      affiliation: "Ambassador Crawford College of Business and Entrepreneurship, Kent State University, Kent, Ohio, USA"
+      orcid: "0000-0003-3160-8388"
+    - name: "César Zamudio"
+      affiliation: "School of Business Administration, Virginia Commonwealth University, Richmond, Virginia, USA"
+      orcid: "0000-0002-5645-4701"
+    - name: "Xiaowei Guo"
+      affiliation: "College of Business and Entrepreneurship, State University of New York at Oswego, Oswego, New York, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 5
+    basis: "One exploratory study of YouTube data (two videos, 28,297 comments) and four online experiments on Prolific comparing verified owners watching in their VR headset with computer viewers (106, 90, 82 and 152 participants); the Study 3 pretest (97) not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Meng-Hua Hsieh of Kent State University,
+      César Zamudio of Virginia Commonwealth University and
+      Xiaowei Guo of the State University of New York at Oswego started from a change in how people use VR headsets. Industry
+      surveys they cite now put watching videos at the top of owners' list. That opens a new slot for advertisers: 360-degree
+      ads that play while people watch. The team asked three questions. Does watching an ad through a headset lift engagement?
+      If so, why? And which products gain the most?
+
+      They ran five studies. The first looked at public YouTube figures for two near-identical ads for a mobile game, one shot
+      in 360 degrees and one in the usual flat format. The other four were online experiments. In each, one 360-degree
+      YouTube ad was played either in the participant's own headset or on a computer screen, and people then rated their
+      chances of liking or sharing it.
+    facts:
+      - ["Studies", "One look at public YouTube data, then four online experiments"]
+      - ["Participants", "430 people across the four experiments, recruited on Prolific"]
+      - ["Ads", "Real 360-degree YouTube ads for Oreo and the Toyota Corolla; a 360 and a flat video for the game Clash of Clans"]
+      - ["What changed", "Viewing device: the person's own VR headset or a computer screen; in the last test, also what viewers were told to look for"]
+      - ["Measured", "Likelihood of liking or sharing the video, how absorbed in the story people felt, and liking for the ad, all on 11-point scales"]
+      - ["Checks", "Each headset owner uploaded a photo of the device beside a handwritten note with the date and time, checked by hand"]
+
+  - h: "What the YouTube numbers hinted"
+    body: |
+      The two Clash of Clans videos came from the same campaign and ran about a minute each. When the figures were collected in
+      October 2021, the 360-degree cut had 1,156,912 likes and the flat one 616,482, even though the 360 version had gone up 18
+      months later. To compare them fairly, the team divided likes and comments by the number of days each had been online.
+
+      The comments read differently too. Scored with a standard word-counting tool, the 28,297 comments on the 360-degree video
+      had a warmer overall tone: 55.32 against 46.17 out of 100, where 50 marks neutral. Positive words were about twice as
+      common, while negative words were no more frequent.
+
+      The authors call this exploratory. Nobody can tell from public data who watched in a headset, and two videos from one game
+      cannot rule out every other difference between them.
+
+  - h: "Same ad, two ways of watching"
+    body: |
+      Study 1 used a 360-degree Oreo video set in a fantasy world with a lake of crème filling and chocolate mountains. Study 2a
+      used a Toyota Corolla ad filmed from the passenger seat: a woman leaves home, unlocks her car and sets off on her commute,
+      and the viewer can look around the interior while she enjoys the drive.
+
+      In both, headset viewers were readier to click like, and in the car study to share the video as well. One caution
+      applies. In these two studies the headset group came from the panel of verified owners and the computer group from
+      other people on the same platform, so the groups were not split at random. The next two studies
+      assigned owners to one screen or the other by chance.
+    chart: lift
+
+  - h: "Why the headset helps: getting lost in the story"
+    body: |
+      Narrative transportation is the feeling of being carried into a story, so absorbed that your surroundings fade for a
+      while. People in that state tend to read ads less critically and argue back less. The team expected a headset to deepen it.
+
+      In the car study it did. Headset viewers felt more drawn into the drive, and that absorption accounted for their higher
+      engagement. With absorption in the model, the headset had no reliable effect of its own.
+
+      Study 2b checked the mechanism with 82 owners randomly assigned to watch the Oreo video one way or the other. Headset viewers
+      did feel more immersed, 8.17 against 7.03 out of 11, and rated the ad a little higher, 9.18 against 8.12, a gap that narrowly missed
+      the conventional test of statistical significance. What carried the effect was again absorption in the story, not the sense of
+      immersion itself. In the final study the headset did not change how in control, how novel or how escapist viewing felt, so
+      those explanations fell away.
+
+  - h: "The surprise: mismatched messages gain most"
+    body: |
+      Marketers sort products in two long-standing ways. One is why people buy: for pleasure (hedonic) or to get a job done
+      (utilitarian). The other is when quality can be judged: before buying, from specifications and photos (search products), or
+      only after use (experience products). To the authors, a clash between the two makes an ad harder to take in. A
+      practical buyer shown how something feels, or a pleasure-seeker shown its specifications, has to work to make sense of it.
+
+      Study 3 tested this with 152 headset owners and the car ad. Before watching, half were asked to focus on features they could
+      check before a test drive, and half on what they could judge only after one. Everyone also said whether the Corolla struck
+      them as more of a practical or a fun purchase.
+
+      On a computer, both mismatches dragged engagement down. In a headset it recovered, ending up as high as in the matched
+      cases or higher. Where focus and buying reason agreed, the type of screen did not matter in any reliable way, and for
+      practical buyers looking at specifications the computer even scored slightly higher. The authors' explanation is attention: a headset shuts out the
+      room and keeps eyes on the ad, which gives people the focus to resolve a puzzling message. When the message is easy, that
+      extra focus has little to do.
+    chart: mismatch
+
+  - h: "What the authors suggest marketers do"
+    body: |
+      Their main tool is what they call a congruency scorecard. Map each product by why your customers buy it and by whether its
+      quality shows before or after purchase. The clashing combinations are the first candidates for 360-degree ads in VR. They
+      give examples: sneakers, clothing or graphics cards sold in limited drops, bought for the thrill but judged on specs, and
+      luxury workwear with intricate stitching, bought for function but best appreciated by touch.
+
+      They also advise launching 360-degree ads on ordinary channels such as YouTube first and then extending them into headset
+      apps, so the content is tested at scale before VR audiences grow. Going further, they propose that a brand could create a
+      mismatch on purpose, by playing up a different side of the product or a different reason to buy. That idea goes beyond the
+      data: no study here tried it.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort products by why people buy", "Write down the ten products that sell best for you. Next to each, write whether most buyers want it for enjoyment or for a practical task. If you are unsure, ask five recent customers."]
+  - ["Flag the clashes", "For each product, note whether people can judge it from specs and photos before buying, or only after using it. Circle the products where the two pull apart: fun buys you sell on specs, and practical buys you sell on feel."]
+  - ["Film one 360-degree ad", "Pick one circled product. Shoot a video of about 60 seconds with a consumer 360 camera. Give it a small story with a start and an end, not a product tour."]
+  - ["Put the viewer inside the scene", "Place the camera where the customer would be, such as the passenger seat, the workbench or the front row. Keep the main action in front of the viewer for the first 10 seconds so nobody is left looking the wrong way."]
+  - ["Post the 360 cut on YouTube first", "Run the 360 version beside your usual flat ad on YouTube or your social channels for a month. Then compare daily likes, comments and shares rather than running totals."]
+  - ["Then move into headset apps", "If the 360 version holds up, place it in VR video apps as well. Run a circled product and an uncircled one side by side, and put more budget behind whichever draws more likes and shares."]
+
+expect:
+  - "**More likes and shares, not proven sales.** Every experiment asked how likely people were to like or share the video; buying was never measured."
+  - "**Little extra for well-matched products.** Where the pitch already fits the reason to buy, a headset version adds little. The authors note it may still suit young buyers getting their first headsets."
+  - "**Reach starts on ordinary screens.** A 360 cut can run on YouTube today. The headset version reaches only people who own one and use it for video."
+  - "**The story does the work.** The lift ran through absorption in the narrative, so a 360-degree product tour with nothing happening in it may fall flat. That last point is our reading, not something the studies tested."
+
+limits:
+  - "**Self-rated engagement.** In the experiments, liking and sharing were rated on a scale; no real clicks were logged."
+  - "**Two studies without random groups.** In the first Oreo and car tests, headset viewers were verified owners and computer viewers were other panel members, who differed in more than their screen, for example in their mix of men and women."
+  - "**Three well-known brands.** A mobile game, a biscuit and a family car. New brands and services were not tested."
+  - "**One car for the mismatch test.** The clash was created by an instruction about what to look for, and 152 people were spread over four groups."
+  - "**360-degree video only.** Fully interactive 3D worlds, the kind people walk through with controllers, were outside the scope."
+
+faq:
+  - q: "Do people engage more with ads watched in a VR headset?"
+    a: "In these tests, yes. In each of four online experiments, owners who viewed a 360-degree ad in their own headset rated themselves likelier to like or share it than people shown it on a computer (Hsieh et al., 2026). Engagement was a self-rating, not tracked clicks."
+  - q: "What is narrative transportation in advertising?"
+    a: "It is the state of being absorbed in a story: picturing its events and losing track of where you are for a while. Transported viewers tend to argue back less and judge ads more kindly. In this research it was the route by which the headset raised engagement."
+  - q: "What are search and experience products?"
+    a: "Search products are ones whose quality you can check before you pay, from specs, prices or photos; computers are the textbook case. Experience products reveal their quality only once used, like a holiday. The same item can lean either way depending on what an ad puts first."
+  - q: "Which products suit 360-degree VR ads best?"
+    a: "On this evidence, those where the ad's emphasis runs counter to why people buy: a fun purchase presented through its specifications, or a practical one presented through its feel. Where message and motive line up, a flat screen did about as well."
+  - q: "How much does a 360-degree ad cost to make?"
+    a: "Less than many assume. The authors cite industry estimates of $10,000 to $40,000 for AR and VR development projects, with advertising projects up to $10,000, while a basic 360-degree ad needs little more than a consumer 360 camera costing a few hundred dollars. They see it as a way for small firms and non-profits to compete with big brands."
+
+also:
+  - doi: "10.1002/mar.70037"
+    title: "The Influences of Image Entropy and Text Direction on Consumer Attention: Insights From Eye‐Tracking Studies"
+    authors: "Zhang & Xi"
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Three eye-tracking experiments looked at what makes people stop on an image post. Busy, disordered pictures drew more
+      attention than tidy ones, and so did text set vertically rather than across. The authors trace both to a sense that the
+      pairing simply feels right, linked to how people perceive time, and test how heavy emoji use in a post shapes the pull.
+      A cluttered photo with upright text may be worth trying against a neat house style.
+  - doi: "10.1111/ijcs.70121"
+    title: "Exploring Consumer Responses to AI‐Generated Visual Marketing Content: A Dual‐Process Theory Perspective"
+    authors: "Chen, Zhang, Zhu, & Zhang"
+    journal: "International Journal of Consumer Studies"
+    year: 2025
+    text: >-
+      In an online experiment, 450 consumers saw visual marketing content labelled as made by AI, by people working with AI, or by
+      people alone. The AI label stirred the most emotional arousal. Both AI labels made the company look less hard-working but
+      more innovative than the human one, and these impressions shaped how people rated the content and how premium the product
+      seemed. A creator label says something about the company, not only about the picture.
+
+charts:
+  lift:
+    title: "Likelihood of liking or sharing the ad, headset vs computer (1 to 11 scale)"
+    scale: [1, 11]
+    step: 2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Oreo video, computer", 4.06, false]
+      - ["Oreo video, headset", 5.54, true]
+      - ["Car ad, computer", 2.89, false]
+      - ["Car ad, headset", 4.27, true]
+    source: "Study 1 (106 people, likelihood of clicking like) and Study 2a (90 people, average of liking and sharing), means as reported in the paper."
+  mismatch:
+    title: "Car ad: likelihood of liking or sharing, by how viewers saw the car and what they focused on (1 to 11 scale)"
+    scale: [1, 11]
+    step: 2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Practical view, feel focus: screen", 2.39, false]
+      - ["Practical view, feel focus: headset", 4.56, true]
+      - ["Fun view, spec focus: screen", 3.18, false]
+      - ["Fun view, spec focus: headset", 5.53, true]
+      - ["Fun view, feel focus: screen", 4.22, false]
+      - ["Fun view, feel focus: headset", 4.34, false]
+      - ["Practical view, spec focus: screen", 4.50, false]
+      - ["Practical view, spec focus: headset", 3.99, false]
+    source: "Study 3, 152 verified headset owners, means from the paper's text and Figure 3. The first four bars are the mismatched cases; in the last four the headset made no reliable difference."
+
+related_pages: []
