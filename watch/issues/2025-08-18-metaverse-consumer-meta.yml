@@ -1,0 +1,282 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 34                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-08-18"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-06"          # the day this page went live (metadata only, never shown)
+slug: metaverse-consumer-meta
+status: live
+
+title: "What turns a metaverse shopping experience into intent to buy? What a Journal of Consumer Behaviour study found"
+dek: >-
+  Pooling 146 articles on AR try-ons, virtual stores and VR worlds, a meta-analysis maps how immersive shopping wins people over.
+  Whether the experience runs online, uses AR and serves a real purpose shapes how far a good impression turns into plans to buy.
+short_title: "Fun, not flow, drives metaverse shopping"
+
+description: >-
+  Ladeira et al. pool 412 results on AR, VR and metaverse shopping: control and vivid visuals build presence, and
+  enjoyment, not flow, turns it into liking.
+
+keywords: [metaverse marketing, metaverse consumer behaviour, virtual reality shopping, augmented reality marketing,
+  AR vs VR, telepresence, immersive retail experience, VR headsets, consumer enjoyment, purchase intention, meta-analysis,
+  Journal of Consumer Behaviour]
+topics: [Retail, Creative]
+
+image:
+  file: 2025-metaverse-consumer-meta.jpg
+  og: 2025-metaverse-consumer-meta-og.jpg
+  alt: "A young woman in a white VR headset and a loose white sweatshirt holds a motion controller out towards the camera, bathed in purple and pink light"
+  caption: "Feeling you are there is only the start. Enjoying it is what changes minds. Photo: Adrià García Sarceda on Unsplash."
+
+short_answer: >-
+  Mostly enjoyment, and then a good opinion of the experience. Pooling 412 results from 39,580 participants, the
+  researchers found that hands-on control and rich visuals each strengthened telepresence, the feeling of actually being
+  in the virtual space. That feeling made experiences more enjoyable, and enjoyment, not deep absorption, carried it into
+  a better attitude. Attitude in turn had the closest tie of all to plans to buy, return or recommend.
+
+takeaways:
+  - "How much people liked the experience was the best single guide to whether they meant to buy, come back or recommend: on our arithmetic from the pooled correlation, the two shared about 34% of their variation."
+  - "Only 4 of the 13 features of setting, technology and product changed how readily a good attitude became intent: AR over VR, online over in store, practical use over novelty, and pleasure-led over functional products."
+  - "AR was the strongest of those four: the attitude-to-intention link was 0.36 higher in AR studies than in VR ones, on a correlation scale where the pooled link stood at 0.58."
+  - "Wearing a VR headset raised the link from presence to attitude by 0.20 compared with an ordinary screen, a gain that did not carry through to intention."
+
+paper:
+  doi: "10.1002/cb.70027"
+  title: "Consumer Behaviour in the Metaverse: Empirical Insights From a Meta-Analysis"
+  authors: ["Ladeira, W. J.", "de Oliveira Santini, F.", "Lim, W. M.", "Rasul, T.", "Oliveira, T.", "Akhtar, S."]
+  authors_full: ["Wagner Junior Ladeira", "Fernando de Oliveira Santini", "Weng Marc Lim", "Tareq Rasul", "Tiago Oliveira", "Shakeb Akhtar"]
+  year: 2025
+  journal: "Journal of Consumer Behaviour"
+  volume: "24"
+  issue: "6"
+  pages: "2845-2871"
+  online: "2025-08-18"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Wagner Junior Ladeira"
+      affiliation: "Universidade do Vale do Rio dos Sinos (UNISINOS), Sao Leopoldo, Brazil; School of Business, Woxsen University, Hyderabad, India"
+      orcid: ""
+    - name: "Fernando de Oliveira Santini"
+      affiliation: "Universidade do Vale do Rio dos Sinos (UNISINOS), Sao Leopoldo, Brazil; School of Business, Woxsen University, Hyderabad, India"
+      orcid: ""
+    - name: "Weng Marc Lim"
+      affiliation: "Sunway Business School, Sunway University, Sunway City, Selangor, Malaysia; ASU-Cintana Alliance Global Partner Affiliate Faculty, Arizona State University, Tempe, Arizona, USA; School of Business, Law and Entrepreneurship, Swinburne University of Technology, Hawthorn, Victoria, Australia; Global Research Centre, Sungkyunkwan University, Suwon, Gyeonggi, Republic of Korea; Jaipuria Institute of Management, Lucknow, Uttar Pradesh, India"
+      orcid: "0000-0001-7196-1923"
+    - name: "Tareq Rasul"
+      affiliation: "College of Business Administration, Gulf University for Science and Technology, Hawally, Kuwait; University College, Korea University, Seoul, South Korea"
+      orcid: "0000-0002-1274-7000"
+    - name: "Tiago Oliveira"
+      affiliation: "NOVA Information Management School (NOVA IMS), Universidade NOVA de Lisboa, Lisbon, Portugal"
+      orcid: ""
+    - name: "Shakeb Akhtar"
+      affiliation: "Department of Economics and Business Administration, University of Technology and Applied Science, Ibra, Oman"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 146
+    basis: "Meta-analysis pooling 412 effect sizes (correlations) from 146 articles with 39,580 participants (search to 15 July 2023), using random-effects pooling, a two-stage MASEM path model and hierarchical meta-regression; the method section says 145 articles in one place, 146 elsewhere"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Wagner Junior Ladeira and Fernando de Oliveira Santini of Universidade do Vale do Rio dos Sinos (UNISINOS) in Brazil
+      and Woxsen University in India,
+      Weng Marc Lim, based at Sunway Business School in Malaysia,
+      Tareq Rasul of Gulf University for Science and Technology in Kuwait,
+      Tiago Oliveira of NOVA Information Management School in Lisbon and
+      Shakeb Akhtar of the University of Technology and Applied Science in Oman
+      set out to bring order to a scattered field. Brands have built AR try-on mirrors, virtual stores, 360-degree
+      showrooms and branded spaces inside virtual worlds, and single studies of them often disagree on what makes such
+      experiences work.
+
+      A meta-analysis is built for that kind of disagreement. It gathers every study that measured the same
+      relationships and merges their results into pooled estimates. The team searched three databases for work on
+      AR, VR, mixed reality, immersion or the metaverse in retail. Of 684 articles found, 146 reported the statistics
+      their model needed. Two of the authors coded each one independently and agreed on 92% of their decisions,
+      settling the rest with a third author.
+
+      Their model has three steps. Interactivity and vividness shape telepresence, the sense of being inside the virtual
+      space. Telepresence feeds enjoyment and flow, the state of being completely absorbed, and through them attitude:
+      how favourably people view what they experienced. Attitude then leads to intention, meaning what people plan to do
+      next: buy, visit again or recommend.
+    facts:
+      - ["Evidence base", "412 effect sizes from 146 articles, covering 39,580 participants"]
+      - ["Search", "Scopus, Web of Science and Google Scholar; English-language journal and conference papers up to 15 July 2023"]
+      - ["Range covered", "As the authors describe it: AR try-on and placement apps, magic mirrors, virtual stores and malls, 360-degree VR and virtual worlds, online and in physical shops"]
+      - ["Perceptions linked", "Interactivity, vividness, telepresence, enjoyment, flow, attitude and intention"]
+      - ["Conditions tested", "13 features of the place, the process and the product, plus 6 traits of the samples and publications"]
+      - ["Method", "Random-effects pooling of correlations, a two-stage path model fitted to the pooled matrix (MASEM) and hierarchical meta-regression"]
+
+  - h: "What the correlations mean"
+    body: |
+      Most results in this paper are correlations. A correlation runs from 0, no relationship at all, to 1, two
+      measures that rise and fall in perfect step. It tells you how closely two perceptions travel together across
+      people. It does not tell you which one causes the other.
+
+      The authors never say what size of correlation counts as big. A benchmark common in psychology, which this
+      paper does not use, calls 0.1 small, 0.3 moderate and 0.5 large. Judged by that general convention, all six
+      perceptions in the chart had a moderate to large link with intention. Squaring a correlation gives the share of
+      variation two measures have in common, a standard step that goes beyond the paper. Vividness, at 0.38, shares about
+      14% of its variation with intention.
+
+      Findings differed widely between studies. For each of the six links, more than 90% of the spread was genuine
+      variation, beyond what chance alone would produce, which is why the team tested what might explain it. Tests for
+      missing studies found no sign that unpublished null results were skewing the picture: by one count, more than 5,000
+      studies with opposite findings would be needed to cancel any one of them.
+    chart: pooled
+
+  - h: "Control and colour create the feeling of being there"
+    body: |
+      Interactivity here means being able to move, change and control what is in front of you in real time. Vividness is
+      the sensory richness and quality of how the product is shown. In the full model each had its own strong pull on
+      telepresence, with path weights of 0.43 and 0.41.
+
+      A path weight is read in standard units. When interactivity sits one standard step higher, the sense of presence
+      is predicted to sit 0.43 of a step higher, with vividness held level.
+
+      The authors read interactivity's slight lead as a reason to put interactive features first and not spend
+      everything on polished graphics. The two weights are very close, though, so we would treat them as equal partners
+      in the build.
+
+  - h: "Enjoyment, not absorption, passes presence on"
+    body: |
+      Telepresence lifted both enjoyment (0.69) and flow (0.67), and it had a smaller direct link to attitude of its own
+      (0.19). Enjoyment and flow each went with better attitudes too, at 0.31 and 0.40.
+
+      The real question is which of them passes the feeling of presence on. Only enjoyment did. Its indirect path was
+      positive, at 0.30, though it cleared only a lenient 10% significance threshold rather than the usual 5%. The route
+      through flow was not significant and even pointed slightly below zero. The authors see a statistical
+      suppression effect at work there, not flow doing any harm.
+
+      Their conclusion is that getting lost in a virtual space is not enough on its own. People have to enjoy it for
+      their view of it to improve.
+
+  - h: "Attitude is the gateway to intention"
+    body: |
+      The last step, from attitude to intention, was one of the strongest paths in the model, at 0.63. In the model as
+      fitted, nothing reached intention except through attitude.
+
+      The authors' advice follows from this. To change what people do in a virtual space, first shape their opinion of it,
+      whether through its look, its interactive features or a sense of community around it.
+
+  - h: "Where the links ran stronger"
+    body: |
+      The team then asked when the two central links, presence to attitude and attitude to intention, grew stronger or
+      weaker. Each estimate is the difference in the size of a link between two kinds of study, on the same correlation
+      scale.
+
+      Presence did more for attitude in online settings than in physical shops, by 0.22, and when people wore a VR
+      headset rather than looking at a phone or computer screen. Age mattered as well. Each extra year in a sample's
+      average age added about 0.01 to the link, roughly 0.11 over a decade by our arithmetic. The authors stress that this
+      is not about the elderly. They point to people past the youngest group, such as millennials now in middle age, who
+      grew up as digital media spread.
+
+      Turning a good attitude into intention worked better in four conditions: with AR rather than VR, online rather than
+      in a shop, when the platform helped with a real-world task rather than mainly offering a novel virtual experience,
+      and for pleasure-led products rather than functional ones.
+
+      The two technology results pull in different directions. With a headset, presence did more to build liking, yet
+      AR, which lays digital objects over the real world, was better at turning liking into plans. The authors see that
+      blend of real and virtual as a smoother path to action.
+    chart: moderators
+
+  - h: "What made no difference"
+    body: |
+      Most conditions left the links unchanged. For turning attitude into intention, 9 of the 13 features made no
+      reliable difference. They included how realistic the virtual world looked, game-like mechanics versus virtual
+      models of the product, avatars versus humanlike AI agents, digital copies of real products versus purely digital creations,
+      whether a named brand was involved, and whether the offer was a good or a service. For the step from presence to
+      attitude, 10 of the 12 features that could be estimated left it unchanged.
+
+      Who took part mattered little too. The share of women, Eastern versus Western countries, students versus other
+      adults, the standing of the journal and how recent the study was had no significant effect on either link. Age was
+      the one exception, and only for presence.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Name the job it does", "Describe in one sentence the real problem your AR or VR experience solves for a shopper, such as checking that a sofa fits the room or seeing a shade on their own skin. If you cannot finish the sentence, rethink the idea before you build."]
+  - ["Match the format to the goal", "Where the goal is a sale, start with AR on the phones people already carry, placing the product in their room or on their face. Keep headset experiences for events and showrooms where the aim is to make people love the brand."]
+  - ["Hand over the controls", "Let shoppers rotate, resize, recolour or move the product themselves. Give them at least three controls they can find within the first 30 seconds, and show the product in sharp, true-to-life detail."]
+  - ["Add one moment of fun", "Build in one playful touch, such as a colour mixer, a design-it-yourself option or a small surprise. Watch five people use it, and keep it only if most of them go back to it a second time."]
+  - ["Ask how it felt", "Add a two-question pop-up when people leave: how much did you enjoy this, and how likely are you to buy or recommend? Do not judge the experience on time spent inside alone."]
+  - ["Compare website and shop", "Run the same experience on your website and in one shop, on a screen or smart mirror, for four weeks. Count try-ons, add-to-baskets and sales in each, then move budget to the one that converts."]
+
+expect:
+  - "**Online first.** Both central links ran stronger online than in physical shops, so, on our inference, web and app experiences are the likelier place for an early return."
+  - "**Your own numbers may land far from the average.** The pooled figures blend very different setups, from phone apps to full virtual worlds, so treat them as a guide to direction rather than a forecast."
+  - "**Hardware alone will not do it.** The authors caution that fully immersive technology does not by itself guarantee stronger intentions. The experience has to be enjoyable and, ideally, useful."
+  - "**Functional products can borrow some fun.** The authors suggest giving practical products playful touches in virtual spaces, such as letting shoppers try colour palettes on a chair. That idea comes from their discussion, not from a tested result."
+
+limits:
+  - "**Stated plans only.** The meta-analysis pooled intentions as people reported them, not purchases."
+  - "**Correlations behind the arrows.** The model was fitted to pooled correlations, so the direction of each path comes from the authors' theory. The data show which perceptions move together. This caution is ours, not the paper's."
+  - "**A fast-moving field.** The literature was searched once, and headsets, AR tools and platforms have moved on since, as the authors themselves warn."
+  - "**Retail-centred, published work only.** The search required retail terms and kept only journal and conference papers in English, leaving out books, theses and industry reports."
+  - "**Very different setups pooled.** Phone AR, shop mirrors, VR showrooms and virtual worlds were combined, and specific platforms could not be compared with each other."
+
+faq:
+  - q: "What drives consumer behaviour in the metaverse?"
+    a: "A chain of perceptions. Interactive, vivid experiences make people feel present, feeling present makes the experience enjoyable, enjoyment improves their view of it, and that view goes with intentions to purchase, revisit or tell others. The chain held across AR and VR retail settings in the pooled evidence (Ladeira et al., 2025)."
+  - q: "Is augmented reality or virtual reality better for selling?"
+    a: "For turning a favourable impression into plans to buy, AR came out ahead of VR in the pooled evidence. VR headsets, for their part, strengthened how much the feeling of presence improved people's views. A sensible split, on our reading rather than a tested rule, is AR when you want a decision and immersive VR when you want to impress."
+  - q: "Does flow matter in virtual shopping?"
+    a: "Being absorbed went with better attitudes and stronger intentions, but it did not pass the effect of feeling present on to attitude. Enjoyment did that job, so an experience that grips people without being fun may not change their minds."
+  - q: "Do older shoppers respond more to immersive retail?"
+    a: "Slightly, in this evidence. The higher a sample's average age, the more feeling present improved attitudes. The authors connect this with millennials moving into middle age rather than with older adults in general."
+  - q: "What is a meta-analysis?"
+    a: "A method that gathers the results of many earlier studies on one question, combines them into pooled estimates and then checks where results differ and why. It shows whether a finding holds beyond one setting, although it inherits the limits of the studies it pools."
+
+also:
+  - doi: "10.1177/10949968251358181"
+    title: "Too Narrow to Help? Unveiling How Recommendation Agents’ Specialization Impacts User Choices"
+    authors: "Baccelloni, De Angelis, Ricotta, & Mazzù"
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Recommendation engines usually learn what you liked before and serve more of the same. In three experiments with
+      705 online participants, using a working recommender the team programmed themselves, people were less willing to
+      accept suggestions from a tool that stuck narrowly to their past tastes than from one that weighed their preferences
+      more broadly. The narrow tool seemed less knowledgeable, left people feeling less in control and weakened their sense
+      of a fair exchange, above all among shoppers who knew little about the product. A recommender that sometimes widens
+      the view may be trusted more than one that only mirrors it.
+  - doi: "10.1177/14707853251367805"
+    title: "Social media ads for survey recruitment: Performance, costs, user engagement"
+    authors: "Höhne, Claassen, Kühne, & Zindel"
+    journal: "International Journal of Market Research"
+    year: 2026
+    text: >-
+      More survey teams now buy social media ads to find respondents. This team ran several ad designs in Germany and the
+      USA in 2023 and tracked completed surveys, the cost of each completion and how users reacted on the platform. A
+      completed survey cost considerably more in the USA, yet in both countries ads with images closely tied to the survey
+      topic delivered the cheapest completions. Those same ads also drew the most comments, so a clear picture of the
+      topic saves money but leaves someone with a comment thread to moderate.
+
+charts:
+  pooled:
+    title: "How closely each perception tracked intention (pooled correlation, 0 = no link)"
+    scale: [0, 0.7]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Attitude to the experience", 0.58, true]
+      - ["Flow (deep absorption)", 0.51, false]
+      - ["Enjoyment", 0.48, false]
+      - ["Interactivity", 0.43, false]
+      - ["Telepresence (feeling there)", 0.42, false]
+      - ["Vividness", 0.38, false]
+    source: "Table 3, random-effects pooled correlations with intention, from 16 to 47 results each (3,774 to 12,115 participants); values rounded to two decimals."
+  moderators:
+    title: "Attitude to intention: how much stronger the link was in each setting (difference in effect size)"
+    scale: [0, 0.4]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["AR rather than VR", 0.36, true]
+      - ["Online rather than in a shop", 0.29, false]
+      - ["Practical tool, not novelty", 0.22, false]
+      - ["Pleasure-led, not functional", 0.19, false]
+    source: "Table 6, Panel B, hierarchical meta-regression across the pooled studies; all four differences statistically significant."
+
+related_pages: []
