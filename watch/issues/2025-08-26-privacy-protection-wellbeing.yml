@@ -1,0 +1,240 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 35                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-08-26"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-06"          # the day this page went live (metadata only, never shown)
+slug: privacy-protection-wellbeing
+status: live
+
+title: "Does protecting their data make customers happier online? What a European Journal of Marketing study found"
+dek: >-
+  Customers who feel exposed online worry more, and worry makes them protect themselves. A survey of 706 Americans shows that
+  only the steps taken before trouble pay off in how people feel online, and that those worn down by privacy react differently.
+short_title: "Why preventing privacy problems beats cleaning up after them"
+
+description: >-
+  Quach et al. find that preventive privacy habits, unlike clean-up after the fact, are linked to greater satisfaction online,
+  in a US survey of 706 people.
+
+keywords: [data vulnerability, online privacy concerns, privacy fatigue, digital well-being, online well-being,
+  privacy protection behaviour, proactive privacy protection, cookie consent, privacy by design, privacy dashboard,
+  European Journal of Marketing]
+topics: [Privacy, Personalization]
+
+image:
+  file: 2025-privacy-protection-wellbeing.jpg
+  og: 2025-privacy-protection-wellbeing-og.jpg
+  alt: "A black smartphone lies flat on a bright yellow surface, its purple screen filled by a large white padlock"
+  caption: "Locking things down early seems to do more for people than tidying up afterwards. Photo: Franck on Unsplash."
+
+short_answer: >-
+  Only the kind that comes first. In a survey of 706 US adults, people who felt their personal data was exposed worried more
+  about privacy, and that worry pushed them to protect themselves in two ways. Preventive habits, such as changing cookie
+  settings or running security software, went with a more satisfying online life. Cleaning up after the fact, such as deleting
+  old posts or asking a firm to erase details, had no link of its own.
+
+takeaways:
+  - "Privacy fatigue is widespread: on 3 statements about being tired of online privacy, people averaged 5.1 out of 7, close to their level of privacy worry (5.3)."
+  - "For people not yet tired of privacy, feeling more exposed went with online satisfaction about 1 point lower out of 7. For the tired, it changed little, but it started much lower."
+  - "Tired users turned worry into damage control faster: their after-the-fact score rose about 0.9 points between low and high worry, against 0.6 for people still fresh."
+  - "In simple comparisons, older respondents worried more and reported more prevention, and men reported a little more prevention than women, 5.0 against 4.8 out of 7, a borderline gap."
+
+paper:
+  doi: "10.1108/ejm-12-2022-0953"
+  title: "Data vulnerability: does privacy protection behaviour improve digital well-being?"
+  authors: ["Quach, S.", "Dang, S.", "Thaichon, P.", "Le, D.", "Le, T. H. H."]
+  authors_full: ["Sara Quach", "Simon Dang", "Park Thaichon", "Dung Le", "Truc H.H. Le"]
+  year: 2025
+  journal: "European Journal of Marketing"
+  volume: "59"
+  issue: "13"
+  pages: "207-239"
+  online: "2025-08-26"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Sara Quach"
+      affiliation: "Department of Marketing, Griffith Business School, Griffith University, Nathan, Australia"
+      orcid: ""
+    - name: "Simon Dang"
+      affiliation: "Department of Business Administration, Economics Faculty, Nong Lam University, Ho Chi Minh, Vietnam, and Department of Marketing, Griffith Business School, Griffith University, Nathan, Australia"
+      orcid: ""
+    - name: "Park Thaichon"
+      affiliation: "Department of Marketing, University of Southern Queensland, Toowoomba, Australia"
+      orcid: ""
+    - name: "Dung Le"
+      affiliation: "College of Business and Management, VinUniversity, Hanoi, Vietnam"
+      orcid: ""
+    - name: "Truc H.H. Le"
+      affiliation: "Department of Tourism, Sport and Hotel Management, Griffith Business School, Griffith University, Nathan, Australia"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One online survey of 706 US adults on MTurk, tested with a covariance-based structural equation model; five pilot interviews used to write items, not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Sara Quach of Griffith University, Simon Dang of Nong Lam University in Vietnam and Griffith University,
+      Park Thaichon of the University of Southern Queensland, Dung Le of VinUniversity in Hanoi and Truc H.H. Le of
+      Griffith University asked a question most privacy research skips. Plenty of studies check whether worried customers
+      share less or buy less. Few ask what the steps people take to protect themselves do for how they feel about their life
+      online.
+
+      The team surveyed 706 American adults recruited through MTurk, an online platform where people are paid to complete
+      tasks. Each person rated how exposed they felt about the personal information businesses hold on them, how worried they
+      were about its use, how tired they were of dealing with privacy, how well each of eight protective steps described what
+      they do, and how satisfied their online experiences left them.
+
+      The eight steps came in two families. Four were preventive: checking that a website is secure, changing cookie settings,
+      using pop-up blockers or firewalls, and running internet security software. Four came after the fact: refusing to hand
+      over information when a business asks, deleting or editing old posts, contacting a company to remove personal details,
+      and untagging one's name from social media posts.
+    facts:
+      - ["Participants", "706 US adults on MTurk with a strong record of approved tasks; 94 responses that were incomplete or failed attention checks removed"]
+      - ["Who answered", "44.5% women; 82% held a bachelor's or postgraduate degree; two in three aged 18 to 38"]
+      - ["Groundwork", "Interviews with five heavy technology users from four countries shaped the list of protective steps"]
+      - ["Measured", "Feeling exposed, privacy worry, privacy fatigue, eight protective habits and satisfaction online, all on 7-step agreement scales"]
+      - ["Statistics", "Structural equation modelling, holding age, gender, education and income constant"]
+
+  - h: "How does feeling exposed turn into action?"
+    body: |
+      The first link was strong. People who felt insecure and exposed about the data firms hold on them were clearly more
+      worried that it might be used for other purposes, tracked or seen by third parties. That worry, in turn, went with more
+      of both kinds of protection, at much the same strength.
+
+      Respondents reported more prevention than clean-up, 4.9 against 4.4 out of 7. More educated respondents did
+      more of the clean-up. Some tools never made the final list: after the interviews, the team dropped questions about
+      VPNs, the Tor browser and deleting apps that ask for data. The authors suspect these are simply too rare in everyday use.
+
+  - h: "Which protective habits make people feel better online?"
+    body: |
+      This is the paper's central result. With the rest of the model held steady, preventive habits had a clear positive link
+      with how satisfied people felt online. After-the-fact steps had none: the estimate sat close to zero and far from
+      significant.
+
+      The authors explain the gap through effort and social cost. Clean-up happens once something has already gone wrong, and
+      it often means awkward moves involving other people, such as untagging yourself from a friend's post or deleting old
+      posts. Prevention happens quietly and in advance, and can bring peace of mind.
+
+      In the main model, feeling exposed did not lower satisfaction directly. That link pointed down but fell short of the
+      usual bar for significance. The effect ran through a longer chain instead: exposure raised worry, worry raised prevention, and
+      prevention went with a better online life. The chain held up statistically, but it was small.
+
+  - h: "Tired users lean on clean-up"
+    body: |
+      Privacy fatigue here means feeling worn down by constant privacy demands. The authors keep it apart from privacy
+      cynicism, which is closer to hopelessness. Fatigue changed two things about how worry played out.
+
+      Among tired respondents, feeling exposed fed worry more strongly. And their worry turned into after-the-fact protection
+      more readily than it did for people with energy to spare. Fatigue added nothing to prevention: the extra push showed up
+      only on the clean-up side. On the authors' reading, worn-out people put off measures that cost effort now for a benefit
+      that may never arrive, and respond only when a problem is in front of them.
+    chart: cleanup
+
+  - h: "Fatigue softens the blow, but at a cost"
+    body: |
+      Fatigue also changed how much feeling exposed mattered for satisfaction online. For people who were not tired, those who
+      felt most exposed rated their online life clearly lower. For the tired, exposure made little difference.
+
+      That is not good news. The tired group sat well below the others at the safe end of the scale. Our own reading, not the
+      authors', is that this flat line looks more like resignation than resilience. The authors point to an earlier household
+      surveillance experiment in Helsinki, where people under constant monitoring grew used to it until it no longer bothered them.
+    chart: wellbeing
+
+  - h: "What the authors want firms to do"
+    body: |
+      The authors put most of the work on companies rather than customers. To make prevention easier, they suggest simple
+      privacy dashboards where people can see and change what they share, protective settings switched on by default, finer
+      controls for those who want them, and regular privacy audits, both internal and independent.
+
+      To ease fatigue, they recommend short, plain privacy policies, simpler choices, and non-essential cookies kept
+      off unless a customer actively opts in. Where a firm wants to track basic information, they suggest an open trade, such as
+      a discount voucher, with an easy way out. None of these ideas was tested in the survey; they are the authors' reading of
+      what the results imply.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Count the clicks it takes to say no", "Open your website and app as a new visitor. Count the clicks needed to turn off every non-essential cookie and tracker. If saying no takes more clicks than saying yes, fix that first."]
+  - ["List what you collect and why", "Make a list of all the personal data you ask for or track, with one line on what each item is for. Stop collecting anything nobody can justify, and book an outside privacy review once a year."]
+  - ["Make protection the default", "Keep advertising and analytics cookies off until a customer opts in. Give the accept and decline buttons the same size, colour and place."]
+  - ["Put every setting on one page", "Build a single privacy page in the customer account. Let people see their data, download it, delete it and adjust their sharing there. Label each control in ten plain words or fewer."]
+  - ["Nudge people before trouble starts", "Add a short privacy checklist to your welcome email and send it again once a year. Keep it to three steps, such as reviewing settings, choosing what to share and turning on login alerts. Keep the tone calm, not alarming."]
+  - ["Watch settings use and deletion requests", "Once a month, check how many customers open the privacy page, how many change a setting and how many ask you to delete their data. A jump in deletion requests after a change is your warning sign."]
+
+expect:
+  - "**A calmer customer, not an instant sale.** The outcome here was satisfaction with life online, not purchases or loyalty. Any payoff for the brand is an inference."
+  - "**Modest gains.** The route from feeling exposed to a better online life was reliable but small, so a new settings page alone will not transform how customers feel."
+  - "**Expect low uptake at first.** Preventive tools ask for effort before any problem appears, which tired customers tend to skip. Low use of a settings page is not, on its own, proof that it failed."
+  - "**Defaults do the heavy lifting.** If tired people will not spend effort in advance, settings that protect them without any action look like the surest route. That follows from the findings but was not tested."
+
+limits:
+  - "**A single snapshot.** Each person took the survey a single time, which shows links but not cause. Prevention may not create a better online life; people who already feel good and confident online may simply protect themselves more."
+  - "**A paid panel in one country.** Respondents were MTurk workers in the United States. The authors note that such panels skew younger and more educated, and that privacy rules and attitudes differ elsewhere, for example under Europe's GDPR."
+  - "**Self-reported habits.** People rated how well each step described them; nobody checked their browser settings or software."
+  - "**Clean-up is not worthless on its own.** In the raw correlations both kinds of protection went with higher satisfaction (0.50 for prevention, 0.31 for clean-up). The clean-up link vanishes only once prevention and the other measures enter the model. That observation comes from the correlation table; the authors do not raise it."
+  - "**Firm advice untested.** Dashboards, defaults and plain policies come from the authors' discussion, not from anything measured in the survey."
+
+faq:
+  - q: "Does protecting your privacy online improve well-being?"
+    a: "It depends on the kind of protection. Across 706 American respondents, those who took steps in advance, like adjusting cookies or using security software, reported greater satisfaction online, while steps taken after a problem, like deleting posts, showed no separate link (Quach et al., 2025)."
+  - q: "What do the authors mean by data vulnerability?"
+    a: "How exposed a person feels to harm from the misuse of personal data that businesses hold about them. In this survey it was measured by how insecure, vulnerable and susceptible people felt. It is a perception, not a count of actual breaches."
+  - q: "What is privacy fatigue?"
+    a: "A sense of being worn out by constant privacy demands, such as being tired of privacy issues and of managing settings. It should not be confused with privacy cynicism, the belief that guarding privacy is pointless. Among tired users, worry turned more readily into clean-up, with no matching boost for prevention."
+  - q: "How do proactive and reactive privacy protection differ?"
+    a: "Proactive protection prevents problems in advance and rarely involves anyone else: checking a site is secure, adjusting cookies, using blockers, firewalls or security software. Reactive protection answers a request or a problem and often involves other people: refusing to share, deleting posts, asking a firm to remove details or untagging yourself."
+  - q: "How can companies reduce privacy fatigue?"
+    a: "Make protection easy and automatic. The authors favour plain, brief policies, simple choices, opt-in rather than opt-out tracking, and one place where customers can review and change their settings."
+
+also:
+  - doi: "10.1080/0267257X.2025.2544808"
+    title: "The role and forms of social media branded content driving active customer engagement behaviours"
+    authors: "Krowinska & Dineva"
+    journal: "Journal of Marketing Management"
+    year: 2025
+    text: >-
+      Using event-based diaries and interviews, this study asked which organic brand posts on social media move people from
+      scrolling to deliberate interaction. Informational, entertaining, rewarding and context-led content all played a part,
+      and people's reasons fell into three groups: practical, pleasure-seeking and symbolic. Engagement varied from low to
+      high involvement. With generative AI making content cheap, the deliberate reply is the scarce thing
+      to plan for.
+  - doi: "10.1080/13527266.2025.2547705"
+    title: "Unveiling the power of dark social: Leveraging user-generated content for brand advocacy, social proof, and user engagement"
+    authors: "Sharma & Sharma"
+    journal: "Journal of Marketing Communications"
+    year: 2025
+    text: >-
+      A lot of brand sharing now happens in private channels such as WhatsApp chats and Instagram direct messages, where
+      attribution tools cannot follow it. A survey of 306 social media users, mostly students and professionals aged 18 to 35,
+      tied this dark social sharing to stronger engagement. Part of the link ran through user-generated content, with brand
+      advocacy and social proof as further routes. The share you cannot track may still be doing real work for you.
+
+charts:
+  cleanup:
+    title: "After-the-fact protection, by privacy worry and privacy fatigue (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 1
+    bars:
+      - ["Not tired, less worried", 3.6, false]
+      - ["Not tired, more worried", 4.2, false]
+      - ["Tired, less worried", 4.4, false]
+      - ["Tired, more worried", 5.3, true]
+    source: "Survey of 706 US adults; estimates for low and high groups, values read from the published Figure 4."
+  wellbeing:
+    title: "Satisfaction with online life, by feeling exposed and privacy fatigue (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 1
+    bars:
+      - ["Not tired, feels less exposed", 6.2, false]
+      - ["Not tired, feels more exposed", 5.2, false]
+      - ["Tired, feels less exposed", 4.6, true]
+      - ["Tired, feels more exposed", 5.0, false]
+    source: "Same survey; estimates for low and high groups, values read from the published Figure 3. Fatigue flattens the line but lowers its start."
+
+related_pages: []
