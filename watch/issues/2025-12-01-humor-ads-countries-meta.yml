@@ -1,0 +1,269 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 50                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-12-01"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: humor-ads-countries-meta
+status: live
+
+title: "Why is humour in advertising more common in some countries? What an International Journal of Advertising study found"
+dek: >-
+  Some countries joke in their ads far more than others, and the usual culture scores never explained why. A meta-analysis
+  of humour across 15 countries, new German and Polish TV and YouTube data, and an experiment point to an unexpected
+  driver: how often relationships end.
+short_title: "Why some countries laugh more in their ads"
+
+description: >-
+  Karpinska-Krakowiak et al. pool 50 ad samples from 15 countries and find more funny ads where divorce is more common,
+  but no clear role for individualism.
+
+keywords: [humour in advertising, humor in advertising, international advertising, cross-cultural advertising,
+  advertising across countries, meta-analysis, content analysis, YouTube pre-roll ads, creative strategy,
+  Hofstede cultural dimensions, relationship negotiability, International Journal of Advertising]
+topics: [Advertising, Creative]
+
+image:
+  file: 2025-humor-ads-countries-meta.jpg
+  og: 2025-humor-ads-countries-meta-og.jpg
+  alt: "A warmly lit audience smiles and applauds from rows of seats, an older woman in a white blouse with black flowers on the left and a young woman in a striped orange top clapping in the foreground"
+  caption: "How often advertisers try for a laugh depends a good deal on where the audience lives. Photo: Olek Buzunov on Unsplash."
+
+short_answer: >-
+  One clear clue is how easily people form and end relationships there. In a meta-analysis of 50 samples of ads from 22
+  content analyses across 15 countries, the share of ads trying to be funny rose with the national divorce rate. Culture
+  scores such as individualism showed no reliable link. A separate experiment with 150 single young adults backed the idea
+  behind it: people in a dating frame of mind reach for the joke.
+
+takeaways:
+  - "On average, 29% of the ads in the pooled samples tried to be funny, from 7.8% in one German print sample to 67.8% in one US print sample."
+  - "France, Britain and the US score alike on individualism, yet in one earlier comparison the authors cite, about 16% of French ads were funny against 34% of British ones."
+  - "Spending at least 2 minutes imagining a perfect first date made young singles likelier to recommend a funny ad concept to a client than writing about the weather did."
+  - "With every factor included, the model explained just under half (49%) of how much humour varied between samples, so much of the gap is still a mystery."
+
+paper:
+  doi: "10.1080/02650487.2025.2593109"
+  title: "Explaining variations in the use of humor in advertising across countries: a meta-analysis"
+  authors: ["Karpinska-Krakowiak, M.", "Eisend, M.", "Modlinski, A.", "Riley, J."]
+  authors_full: ["Malgorzata (Mags) Karpinska-Krakowiak", "Martin Eisend", "Artur Modlinski", "Joseph Riley"]
+  year: 2025
+  journal: "International Journal of Advertising"
+  volume: ""
+  issue: ""
+  pages: ""
+  online: "2025-12-01"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Malgorzata (Mags) Karpinska-Krakowiak"
+      affiliation: "University of Lodz, Lodz, Poland"
+      orcid: "0000-0003-4730-5568"
+    - name: "Martin Eisend"
+      affiliation: "Department of Marketing and International Business, University of Vienna, Vienna, Austria and Copenhagen Business School"
+      orcid: ""
+    - name: "Artur Modlinski"
+      affiliation: "University of Lodz, Lodz, Poland"
+      orcid: "0000-0002-5734-7975"
+    - name: "Joseph Riley"
+      affiliation: "European University Viadrina, Frankfurt (Oder), Germany"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 22
+    basis: "Meta-analysis (meta-regression) of the share of humorous ads in 50 country samples from 22 content-analysis papers, 15 countries, sampled 1927 to 2021, including the authors' two new content analyses of German and Polish TV and YouTube ads (4 estimates); plus one online experiment with 150 participants. Pooled quantity is a prevalence, not an effect size"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Malgorzata (Mags) Karpinska-Krakowiak and Artur Modlinski of the University of Lodz in Poland, Martin Eisend, whose
+      affiliations are the University of Vienna and Copenhagen Business School, and Joseph Riley from European University Viadrina in Frankfurt
+      (Oder) took on an old puzzle in international advertising. British TV ads lean on humour more than Czech, Greek or American
+      ones, and nobody had a convincing reason why.
+
+      Most meta-analyses pool an effect, such as how much an ad tactic shifts liking or sales. This one pools something
+      simpler: a head count. Each data point is the share of ads in a country sample that coders judged to be intentionally
+      funny, taken from a published content analysis, a study that sorts a sample of ads by their features. The team looked
+      for samples meant to represent a country's advertising, and left out those limited to one product, such as alcohol,
+      or one theme, such as politics.
+
+      Europe was thin in the existing work, with only 14 of 48 samples, and Poland had never been covered. So the team
+      recorded and coded fresh German and Polish ads from TV and YouTube. Finally, they ran an online experiment to see
+      whether the same pattern shows up in the choices individuals make.
+    facts:
+      - ["What was pooled", "The share of ads coded as humorous in each country sample, not an effect on liking or sales"]
+      - ["Coverage", "15 countries across Asia, Europe and North America, with ad samples drawn between 1927 and 2021"]
+      - ["Country measures", "Divorce rate and divorce-to-marriage ratio, averaged over the five years around each sample"]
+      - ["Rival explanations", "Individualism, uncertainty avoidance and life expectancy, plus medium, sampling year and award-winning samples"]
+      - ["New data", "1,563 ads from national TV and YouTube pre-roll in Germany and Poland, coded by native speakers"]
+      - ["Experiment", "150 single, heterosexual 18 to 25 year olds from five English-speaking countries, recruited on Prolific"]
+
+  - h: "What links divorce to funny ads?"
+    body: |
+      The idea comes from evolutionary psychology. Being funny signals a quick mind, which makes a person more attractive as a
+      partner, so people who are looking for one tend to joke more. Eisend had proposed earlier that the same should hold
+      for whole countries. Where relationships are easier to start and end, more people are looking at any one time, there is
+      more joking in daily life, and advertising mirrors it. This fluidity has a name in the paper: relationship negotiability.
+
+      No country counts the singles who are on the lookout, so the team used two stand-ins from official records. The divorce
+      rate is the number of divorces per 1,000 residents in a year; across the samples it averaged 2.93, from 0.75 in Thailand
+      to 5.08 in the US. The divorce-to-marriage ratio divides divorces by weddings, and averaged 0.39, roughly four divorces
+      for every ten weddings.
+
+      With the other factors held equal, a higher divorce rate went with a clearly larger share of funny ads. Across the full
+      spread of divorce rates in the data, the reported slope works out at roughly 20 points of difference, a figure we
+      calculated rather than one the paper states. The ratio leaned in the same direction, less firmly. Its result (p = .09) misses
+      the 5% cut-off researchers conventionally use, and the authors call it marginal.
+    chart: drivers
+
+  - h: "Why culture scores missed the pattern"
+    body: |
+      Earlier studies leaned on Hofstede's cultural dimensions, mainly individualism (how much a society puts the self before
+      the group) and uncertainty avoidance (how uneasy it is with ambiguity). The fit was poor. Japan and France both rank high
+      on avoiding uncertainty, for instance, yet earlier samples did not find the same amount of humour in their ads. In this
+      data, neither score, nor life expectancy, showed a reliable effect.
+
+      The authors offer two reasons divorce did better. The theoretical one is that an evolutionary account covers inherited
+      drives as well as culture, while culture scores capture only culture. The practical one is that culture scores barely
+      move, so a country carries the same score whether its ads were sampled decades ago or recently. Divorce figures change
+      from year to year and could be matched to each sample.
+
+      Two checks support the result. Sampling year overlapped heavily with the other predictors, and dropping it left the
+      divorce link intact at about 4.5 points. Swapping divorce for age at first marriage gave the mirror image: where people
+      married later, ads joked less, and later marriage went with fewer divorces. That link was clear for men's age at
+      marriage and weaker for women's.
+
+  - h: "Is humour rarer in online video ads?"
+    body: |
+      To fill the European gap, the team recorded commercial breaks on two leading national TV networks in each country, at
+      set morning, afternoon and evening slots between 31 May and 30 June 2021. YouTube has no average viewer, because the
+      platform picks ads for each account. So they created an invented user in a large city who played a weekly playlist of
+      the most popular music, gaming, news and film videos, in the same order in both countries, and recorded the pre-roll
+      ads that came up. Two native-speaking coders per country, one man and one woman, judged whether each ad meant to be
+      funny. They agreed 91% of the time, and a third coder settled the rest.
+
+      German TV breaks carried more humour than Polish ones, and Germany came out funnier overall. On YouTube the two
+      countries were almost level, and in both, pre-roll carried clearly less humour than television.
+
+      Here is the digital angle, with two caveats. The pooled model grouped TV and online together as rich media, so the
+      meta-analysis cannot say whether online ads as a whole are funnier or plainer than TV. And the YouTube result rests on
+      one invented viewer in two countries. The authors also cite a Kantar analysis (Jones, 2023) suggesting that humour in
+      digital ads has been drifting down in recent years. Our own inference, untested in this work: if pre-roll is
+      mostly serious, a well-made funny spot may stand out there, provided it works on the audience.
+    chart: channel
+
+  - h: "Does a dating mindset push people towards the joke?"
+    body: |
+      The experiment brought the idea down to individuals. The participants were all single, heterosexual and aged 18 to 25,
+      from the UK, the US, Ireland, Australia and New Zealand. One group picked the person they found most desirable as a
+      partner from a set of AI-made photos and described a perfect first date with them. The other looked at a street scene and described their ideal
+      weather for a walk there. The romance task worked as planned: romantic and sexual arousal ratings rose from 1.79 to
+      2.86, with 7 as the ceiling.
+
+      Everyone then played copywriter for an invented drink brand and chose which of two concepts to recommend to a client.
+      One joked about not being the reason people burp in meetings; the other made a plain pitch. Participants rated the
+      first much funnier, 4.41 against 2.01 out of 7.
+
+      Those primed to think about romance were more likely to choose the funny concept. The paper reports this as a logistic
+      regression coefficient (B = 0.91) rather than as percentages; by our conversion, it puts their odds of picking the
+      joke at about 2.5 times those of the comparison group. A personality measure agreed: people more open to casual relationships also leaned
+      towards the humorous ad. Both effects held with each participant's country and gender taken into account.
+
+  - h: "What it means for campaigns that cross borders"
+    body: |
+      The authors suggest marketers add easy-to-find figures such as divorce rates to the country indicators they already
+      check before choosing a humorous route. Where relationships are stable, a campaign packed with jokes might not be the
+      safest bet. They name Vietnam and the United Arab Emirates as examples, although neither was among the countries in the
+      data. Neighbours that look culturally alike, such as France, Germany and Poland, can still call for different choices.
+
+      They also point at the people making the call. A creative who is hoping to meet someone may tilt towards humour even where
+      the market suits it less, so the authors recommend mixed creative teams. That advice stretches the evidence a little,
+      since the participants were young singles imagining a copywriting job, not working creatives.
+
+      For digital teams the next step is cheap. Ad platforms that target by country make it easy to run a humorous version next to a
+      serious one. This paper shows where humour is common, not where it pays, so a split test has to answer the second
+      question. The split test is our addition; the authors do not propose it.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Watch what each market already runs", "List the countries your campaign will run in. For each one, watch 50 recent local ads on TV and on YouTube, and count how many try to make you laugh."]
+  - ["Look up two free numbers per country", "Find each market's yearly divorces per 1,000 people and its divorces per wedding on its national statistics site or UN data. Rank your markets from highest to lowest, and mark the bottom third as places to go easy on jokes."]
+  - ["Make a funny and a straight cut", "Brief the same message twice, once with a joke and once without. Keep the product, offer and length identical, so only the humour differs."]
+  - ["Let a mixed group choose", "Have at least three people of different ages and home lives pick which cut goes to each market. Do not leave the call to one creative lead, whose mood on the day can tip it towards the joke."]
+  - ["Split the launch by country", "Use your ad platform's country targeting to serve the funny cut in your top-ranked markets and the straight cut in the bottom-ranked ones. In the middle group, run both."]
+  - ["Compare results market by market", "For four weeks, track view-through, click and skip rates for each cut in each country. Move budget to the winner in every market instead of crowning one global winner."]
+
+expect:
+  - "**A clue, not a forecast.** National divorce figures hint at whether humour is the local norm. They say nothing about how a particular joke will land."
+  - "**Benchmark like with like.** Award reels run funnier than everyday ads, and TV or online samples funnier than print, outdoor or radio, so compare a market's ads within one channel and leave award winners out."
+  - "**Online video can flatten differences.** Germany and Poland looked alike on YouTube while their TV breaks did not, so a country's TV habits need not predict its feeds."
+  - "**The decision-maker matters.** Who picks the creative, and in what state of mind, can shift the choice towards or away from humour."
+
+limits:
+  - "**Use, not payoff.** Every number pooled is a share of ads. Nothing here measures attention, liking or sales, and the authors leave open whether humour persuades more in high-divorce countries."
+  - "**Stand-in measures.** Divorce statistics stand in for how fluid relationships are. Dating-app use or the share of singles might do better but were not available for every country and year."
+  - "**Other causes.** Religion or economic conditions could drive both divorce and humour, and the controls cover only part of that."
+  - "**Uneven sources.** The 50 samples come from 22 papers, Europe is under-represented, and details such as TV channel, time of day or type of humour were not reported consistently. Whether larger samples were given more weight is not reported."
+  - "**One YouTube viewer.** The pre-roll sample came from a single invented profile, and the platform chose which ads appeared, so it is a snapshot rather than a census."
+  - "**A lab choice.** The experiment asked young singles to pick between two ready-made concepts. Working copywriters and real briefs may behave differently."
+
+faq:
+  - q: "Why do some countries use more humour in advertising than others?"
+    a: "Pooled data from 15 countries suggest a link with how fluid relationships are: where divorce was more common, a larger share of ads tried to be funny, even after allowing for individualism and other culture scores (Karpinska-Krakowiak et al., 2025)."
+  - q: "How can relationship negotiability be measured?"
+    a: "It describes how freely people in a society form and dissolve romantic relationships. No country records how many people are looking for a partner, so the study used the divorce rate and the ratio of divorces to weddings as stand-ins."
+  - q: "Does Hofstede's individualism score predict humour in ads?"
+    a: "Not in this pooled data. Individualism and uncertainty avoidance showed no reliable effect once divorce entered the model, and countries with similar scores, such as Britain, France and the US, have long differed in how often their ads joke."
+  - q: "Are YouTube ads less funny than TV ads?"
+    a: "In the German and Polish samples recorded for this study, yes. Roughly one pre-roll ad in seven was coded as funny, well below the TV share in both countries. The YouTube sample came from one invented viewer, so the figure is a single sample, not a full count."
+  - q: "Does humour work better in countries with high divorce rates?"
+    a: "Not in this study. It counts how often advertisers use humour, not how audiences respond to it. The authors suggest funny ads may persuade more where relationships are more fluid and flag it as a question for future work."
+
+also:
+  - doi: "10.1177/10946705251384692"
+    title: "Harmonizing Human Touch and AI Precision in Customer Service"
+    authors: "Ding et al."
+    journal: "Journal of Service Research"
+    year: 2026
+    text: >-
+      Using a game-theory model, the authors ask when a merchant should keep customer service human, hand it to a chatbot or
+      blend the two. Their answer cuts against the usual pitch: because customers react to whether a human or an AI agent is
+      serving them, deeper collaboration speeds up the handover to AI and can erode profit. In the model, blended service lost
+      to an all-human team when wages sat in the middle range and paid off only when labour was very cheap or very costly.
+      On this model, the wage bill, more than the technology, decides whether a hybrid help desk pays.
+  - doi: "10.1177/10949968251404927"
+    title: "From Insight to Impact: Closing the Marketing Science Value Chain with Interactive, Research-Driven Apps"
+    authors: "Pikal, Villarroel Ordenes, Herhausen, & Tamagnini"
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Thousands of marketing articles appear every year, yet few of their insights reach the managers they are meant for. This
+      paper argues that small interactive apps built around a study, letting users try its findings for themselves, can close
+      that gap. Interviews, secondary data and experiments point to untapped potential among published articles and to value
+      for researchers and managers alike, and the authors add a tutorial for building such apps. A finding you can click
+      through may travel further than one you have to read.
+
+charts:
+  drivers:
+    title: "What went with a larger share of funny ads (extra percentage points, other factors held equal)"
+    scale: [0, 35]
+    step: 5
+    unit: ""
+    decimals: 1
+    bars:
+      - ["Award-winning ads sampled", 32.6, false]
+      - ["TV or online, not print or radio", 9.2, false]
+      - ["Each extra divorce per 1,000 people", 4.7, true]
+    source: "Meta-regression of 50 country samples (Table 2, model 1). Individualism, uncertainty avoidance, life expectancy and sampling year showed no reliable effect."
+  channel:
+    title: "Share of ads coded as funny, by channel and country"
+    scale: [0, 40]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Germany, TV", 33.71, false]
+      - ["Poland, TV", 21.82, false]
+      - ["Poland, YouTube pre-roll", 15.14, true]
+      - ["Germany, YouTube pre-roll", 14.83, true]
+    source: "The authors' new content analyses: 439 German and 449 Polish TV ads, 391 German and 284 Polish YouTube pre-roll ads, recorded 31 May to 30 June 2021."
+
+related_pages: []
