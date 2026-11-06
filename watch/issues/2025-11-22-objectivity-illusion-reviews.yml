@@ -1,0 +1,230 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 47                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-11-22"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: objectivity-illusion-reviews
+status: live
+
+title: "Do reviewers who think they are objective write more persuasive reviews? What a Marketing Letters study found"
+dek: >-
+  Some people treat their opinions as plain fact and put any disagreement down to bias. Two online studies show what that
+  outlook does to customer reviews: the writer's confidence and the reader's response pull in opposite directions.
+short_title: "Why the surest reviewers persuade the least"
+
+description: >-
+  Steinmetz and Pronin find reviewers who see their views as objective think their reviews persuade more, while readers
+  find them less likable and convincing.
+
+keywords: [online reviews, review persuasiveness, objectivity illusion, customer review requests, review solicitation emails,
+  reviewer likability, word of mouth, eWOM, user-generated content, review strategy, Marketing Letters]
+topics: [UGC, Retail]
+
+image:
+  file: 2025-objectivity-illusion-reviews.jpg
+  og: 2025-objectivity-illusion-reviews-og.jpg
+  alt: "An older man in a bright blue polo shirt speaks across a café terrace table to a white-haired man in a checked shirt, two glasses of milky coffee between them and other customers blurred behind"
+  caption: "Every opinion arrives with a person attached, at a café table or on a product page. Photo: Shane Rounce on Unsplash."
+
+short_answer: >-
+  Not in readers' eyes, though the writers think so. In one online study, 162 people each wrote a short recommendation for
+  an Instagram account, and 200 others read ten of them apiece. Writers who saw their own views as plainly objective rated
+  their recommendations as more persuasive, but readers found those writers less likable, and their recommendations less
+  convincing as a result. A second study linked this self-belief to a greater willingness to let others read the review.
+
+takeaways:
+  - "In the M&M study, a writer's objectivism score accounted for about 18% of the gap between writers in how persuasive they thought their own reviews were."
+  - "Writers in the bottom 25% for objectivism wrote warm, fan-like praise, while those in the top 25% wrote like detached and often ironic critics, according to an exploratory comparison made with a language model."
+  - "Sharing was the norm: 170 of 191 writers let other participants see their review, and those who believed it would persuade were more likely to agree."
+  - "The pattern held for complaints: among 196 people reviewing a recent purchase they disliked, the more objectivist writers again rated their negative reviews as more persuasive."
+
+paper:
+  doi: "10.1007/s11002-025-09805-2"
+  title: "The objectivity illusion and perceptions of online reviews"
+  authors: ["Steinmetz, J.", "Pronin, E."]
+  authors_full: ["Janina Steinmetz", "Emily Pronin"]
+  year: 2026
+  journal: "Marketing Letters"
+  volume: "37"
+  issue: "1"
+  pages: "Article 2"
+  online: "2025-11-22"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Janina Steinmetz"
+      affiliation: "Bayes Business School, City University of London, 106 Bunhill Row, EC1Y8TZ, London, UK"
+      orcid: "0000-0003-3299-4858"
+    - name: "Emily Pronin"
+      affiliation: "Princeton University, Princeton, 08540, NJ, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two online studies on MTurk: Study 1 with 162 reviewers and 200 readers who each rated ten reviews (reader part preregistered) and preregistered Study 2 with 191 reviewers; the preregistered supplemental Study S1 (196 reviewers, negative reviews) in the article's appendix is reported but not counted, as with earlier supplementary studies"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Janina Steinmetz of Bayes Business School, City University of London,
+      and Emily Pronin of Princeton University
+      started from a habit of mind most people will recognise. Some of us feel we simply see things as they are, so anyone
+      who disagrees must be short of facts or biased. Psychologists call this the objectivity illusion, and people hold it to
+      different degrees.
+
+      The pair asked what that habit does to online reviews. Most research looks at a review through the reader's eyes.
+      Here the writers also judged their own work, so the two views could be set side by side.
+
+      Everyone first answered an 11-item questionnaire on this outlook, with statements such as "Rational people almost
+      always agree with me." Writers then produced one short review and said how convincing they thought it was. In the
+      first study a separate group of readers rated the reviews. In the second, writers decided whether others could see
+      what they had written. A supplemental study in the paper's appendix switched to complaints.
+    facts:
+      - ["Study 1", "162 people recommended one of four light-hearted Instagram accounts (cartoons, humour, dogs); 200 others each rated ten of those recommendations"]
+      - ["Study 2", "191 people wrote an honest review of Chocolate M&Ms and chose whether to let other participants read it"]
+      - ["Supplemental study", "196 people reviewed a product or experience they had recently bought and disliked"]
+      - ["Where", "Amazon Mechanical Turk, an online platform for paid survey work"]
+      - ["Measured", "Objectivism on 11 statements (1 to 7), writers' view of their own review, readers' ratings of persuasion and of the writer's likability, willingness to share"]
+      - ["Checks", "Studies 2 and S1 and the reader side of Study 1 preregistered; data and materials posted publicly"]
+
+  - h: "Writers and readers saw the same reviews differently"
+    body: |
+      Among the Instagram recommendations, the link ran in opposite directions depending on who was judging. The higher a
+      writer's objectivism score, the more persuasive they found their own recommendation and the more readers out of 100 they
+      expected to win over. Readers moved the other way: the higher the writer's score, the less convincing they found the
+      recommendation.
+
+      These are modest correlations, the kind that show up across many people rather than in every single case. Two dull
+      explanations were ruled out. Objectivist writers did not enjoy the task more, and neither enjoyment nor fondness for
+      the chosen account explained the readers' verdict. Length did matter to readers, since longer recommendations
+      persuaded more, but taking it into account left the pattern unchanged.
+    chart: split
+
+  - h: "Why the surest writers fall flat"
+    body: |
+      Liking carried the effect. Readers rated objectivist writers as less likable and relatable, and the drop in
+      persuasion ran through that lower liking. The authors cite a long line of persuasion research: people size up the
+      speaker first, then judge the message through that impression.
+
+      What might readers have been reacting to? A language model, asked to compare reviews from the lowest and highest
+      scorers, offers clues. The fans tended to gush ("She's my favorite!"), while the critics mused about whether the
+      account was "serious or satirical". One group appealed to feeling, the other to judgement, with a hint of superiority
+      in the second. As the authors note, warmth and humility usually win more liking than detachment, which fits the
+      readers' ratings.
+
+  - h: "The keenest to share"
+    body: |
+      The second study asked people to review Chocolate M&Ms honestly, chosen because a cheap, familiar sweet says little
+      about anyone's taste or expertise. More than 95% of the reviews came out positive anyway. Writers then said whether
+      their review could be shown to other participants later, and were told this would not affect their pay.
+
+      The chain ran through self-belief. More objectivist writers rated their reviews as more persuasive, and writers who
+      rated their review as persuasive agreed to share it more often. Objectivism had no pull on sharing beyond that route,
+      and its overall link with sharing was only marginal by the usual statistical standard. Because so few people
+      declined, the authors want this step tested again.
+
+  - h: "Complaints follow the same pattern"
+    body: |
+      Almost every review in Studies 1 and 2 was glowing, so the supplemental study asked people to pick a recent purchase
+      that had disappointed them, a product or an experience, and review it. Objectivist writers again felt their critical
+      reviews would persuade. They also felt their reviews were more objective, naming what was truly
+      inferior without bias, and that feeling helped explain their extra confidence.
+
+      No readers took part in this study, so how such complaints land with shoppers remains open. The authors treat the
+      objectivity link as exploratory.
+    chart: negative
+
+  - h: "Two ideas for review requests"
+    body: |
+      The authors offer two suggestions, neither of them tested. First, word review requests so they invite a personal
+      account. A post-purchase email could ask how the product worked for the buyer and add a reminder that no opinion is
+      right or wrong. Second, do not lean only on the customers who volunteer. If the eager writers persuade least, a page
+      built only from their reviews may persuade less than it could, so the authors propose targeted incentives to bring in
+      a wider range of writers.
+
+      One caution is ours rather than the paper's. Rules in many markets require rewarded reviews to be disclosed and
+      forbid paying only for praise, so any reward should be offered for an honest review at any star rating.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Read your reviews as a stranger would", "Pull the last 50 reviews of one best-selling product. Label each one either a personal account (\"I used it for...\") or a verdict (\"This is simply the best, anyone who disagrees is wrong\"). Count the verdicts."]
+  - ["Check who is doing the writing", "Divide last month's new reviews by last month's orders. If fewer than one buyer in ten leaves a review, your page speaks for a small, self-chosen group."]
+  - ["Rewrite the review request", "Open your post-purchase email with a question about how it went for them, such as \"What was it like for you?\" Add one line saying there are no right or wrong opinions."]
+  - ["Give three simple prompts", "Under the review box, offer three short prompts: what you used it for, what surprised you, and who you think it would suit. Keep the star rating separate from the text."]
+  - ["Ask every buyer, not only volunteers", "Send the request to every buyer seven days after delivery, with one reminder a week later. If you add a small thank-you, offer it whether the review is glowing or critical, and label rewarded reviews as such."]
+  - ["Run both requests side by side", "Split your buyers into two groups at random. Give one group the old request and the other the new one for a month, then count the reviews from each group and the helpful votes those reviews collect."]
+
+expect:
+  - "**Expect small steps.** The links between a writer's outlook and how a review landed were modest, so better wording should move persuasion a little rather than change a page overnight."
+  - "**New voices on the page.** Asking a broader group brings in writers who would never have volunteered. The authors expect their reviews to persuade more."
+  - "**Detail still counts.** Readers rated longer recommendations as more persuasive, so prompts that draw out specifics are likely to help alongside a humbler tone."
+  - "**Certainty in complaints too.** Unhappy customers with the same outlook also feel sure their criticism will land. Whether shoppers agree with them was not tested."
+
+limits:
+  - "**Paid survey workers.** Everyone was recruited on MTurk and wrote for a study, not for a real shop or platform."
+  - "**Readers in one study only.** Only the first study measured how reviews landed, and only for upbeat recommendations of Instagram accounts."
+  - "**Ratings, not purchases.** Readers said how persuasive each review was; nobody's buying or following was tracked."
+  - "**A measured outlook, not a manipulated one.** Objectivism was measured rather than changed, so other differences between writers could play a part."
+  - "**A thin sharing result.** Few people declined, the overall link between objectivism and sharing was marginal, and sharing meant letting other participants see the review, not posting it in public."
+  - "**Untested advice.** The suggested request wording and the use of incentives come from the authors' reasoning, not from a test."
+
+faq:
+  - q: "Are confident reviewers more persuasive?"
+    a: "Not when the confidence comes from feeling objectively right. Writers who believed their views were objective expected their reviews to persuade, yet readers liked them less and were less moved by what they wrote (Steinmetz & Pronin, 2026)."
+  - q: "What is the objectivity illusion?"
+    a: "The belief that you see the world as it really is, so people who disagree must be uninformed, misinformed or biased. Some people hold it far more strongly than others, and a short questionnaire can measure how strongly, with statements such as \"If somebody disagrees with me, it's usually because they are mistaken or biased.\""
+  - q: "How should I ask customers for reviews?"
+    a: "The authors suggest asking about the customer's own experience and making clear that any honest opinion is welcome, so people write a personal account rather than a ruling. This wording was never tested, so try it against your current request before switching."
+  - q: "Do the customers most eager to review write the best reviews?"
+    a: "Not necessarily. Across the two main studies, writers convinced of their own objectivity were readier to share because they expected to persuade, yet readers found such writers less convincing. A page filled only by volunteers can tilt towards that voice."
+  - q: "Does this apply to negative reviews?"
+    a: "On the writer's side, yes. People reviewing something they disliked showed the same link between their objectivism and their confidence in the review. How readers react to such complaints was not tested."
+
+also:
+  - doi: "10.1080/10641734.2025.2568874"
+    title: "Gone but Not Forgotten: Investigating the Cognitive Effects of Social Media Content Ephemerality and the Moderating Role of Viewer Involvement"
+    authors: "Lee, Soh, & Kim"
+    journal: "Journal of Current Issues & Research in Advertising"
+    year: 2025
+    text: >-
+      Posts that vanish after a set time are now central to social media. In two experiments, short-lived content helped
+      highly involved viewers remember more, while viewers with little interest recalled more from posts that stayed up.
+      Making the content more fleeting helped the keen viewers further and hurt the casual ones. Vanishing posts suit an
+      audience that is already paying attention; for passing followers, content that stays put does more.
+  - doi: "10.1108/jstp-10-2024-0363"
+    title: "How do you handle double-deviation complaints on social media? The role of double service recovery strategies"
+    authors: "Suresh, Chawla, & Sharma"
+    journal: "Journal of Service Theory and Practice"
+    year: 2026
+    text: >-
+      When a service fails and the fix fails too, customers often take the complaint to the company's social media page.
+      Analysing real complaints there, the authors found replies that came quickly at first but resolved things slowly,
+      often lacked empathy and thanks, and followed one script whatever had gone wrong. For failures in the outcome itself,
+      timely replies, proactive effort and careful handling of the back-and-forth eased customers' sadness, anger and
+      disgust. Treat the first reply as the opening of the repair, not the repair itself.
+
+charts:
+  split:
+    title: "Study 1: how closely each rating tracked the writer's objectivism score (correlation, size only)"
+    scale: [0, 0.4]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Writer: my review persuades (up)", 0.320, true]
+      - ["Writer: readers won, of 100 (up)", 0.224, false]
+      - ["Readers: liking of writer (down)", 0.225, false]
+      - ["Readers: review persuades (down)", 0.196, true]
+    source: "Study 1, 162 writers and 200 readers on MTurk. Up means the rating rose as objectivism rose; down means it fell. All four links are significant."
+  negative:
+    title: "Supplemental study, negative reviews: links with the writer's objectivism score (correlation)"
+    scale: [0, 0.25]
+    step: 0.05
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Writer: my review persuades", 0.161, true]
+      - ["Writer: my review is objective", 0.181, false]
+    source: "Supplemental Study S1 in the paper's appendix, writers reviewing a purchase they disliked; no readers. Both links rise with objectivism and are significant. The objectivity rating combines two items with an internal consistency of .55."
+
+related_pages: []
