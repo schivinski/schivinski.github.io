@@ -1,0 +1,242 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 40                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-10-08"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: social-media-detox-ad-attention
+status: live
+
+title: "Do people pay less attention to social media ads after a social media detox? What an International Journal of Advertising study found"
+dek: >-
+  More and more people step away from their feeds for hours at a time, sometimes for days. Eye-tracking glasses worn by
+  German students as they browsed their personal Instagram feeds show that ads met just after such a break get a much
+  shorter look, while a one-minute cap on the session changes nothing.
+short_title: "Why feed ads get less of a look after a detox"
+
+description: >-
+  Kopka et al. find Instagram ads seen just after a social media break got about a third less looking time, while a
+  one-minute session cap made no difference.
+
+keywords: [social media detox, digital detox, attention to ads, eye tracking, Instagram advertising, ad timing,
+  social media time-outs, screen time limits, gaze duration, fear of missing out, International Journal of Advertising]
+topics: [Social media, Advertising]
+
+image:
+  file: 2024-social-media-detox-ad-attention.jpg
+  og: 2024-social-media-detox-ad-attention-og.jpg
+  alt: "A man in a cream fleece hoodie and white knitted beanie sits on a mossy rock in sunlit woods, looking down at the phone in his hands, his face turned away"
+  caption: "The first scroll after time away is for friends and news, not for ads. Photo: Christian Buehner on Unsplash."
+
+short_answer: >-
+  Yes, but only after a real break. German students wore eye-tracking glasses while scrolling their own Instagram feeds,
+  real ads included. Students who had stayed off every social platform since getting up gave each ad a clearly shorter
+  look than students who had used social media as normal. Capping a visit at one minute, the lighter kind of detox, made
+  no difference, either in a lab or in a university library.
+
+takeaways:
+  - "Students back on Instagram after keeping off social media since waking looked at each ad for 0.85 seconds on average, against 1.35 seconds for students who had not taken a break."
+  - "Capping each visit at one minute changed nothing in the lab: ads drew 1.08 seconds of looking with the timer running and 1.04 seconds without it."
+  - "Ads arrive early in a visit: students met 3.7 different ads in their first minute of scrolling, out of 4.7 across a whole session."
+  - "A few hours off was enough to show the effect. Students in the time-out groups had stayed away from every social platform for at least 3 hours before they picked up their phones."
+
+paper:
+  doi: "10.1080/02650487.2024.2410073"
+  title: "(Not) the right time for social media ads? Exploring the impact of social media detox on attention to the ad"
+  authors: ["Kopka, J. F.", "Borgmann, L.", "Langner, T."]
+  authors_full: ["Julian Felix Kopka", "Lennart Borgmann", "Tobias Langner"]
+  year: 2025
+  journal: "International Journal of Advertising"
+  volume: "44"
+  issue: "1"
+  pages: "87-108"
+  online: "2024-10-08"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Julian Felix Kopka"
+      affiliation: "Schumpeter School of Business and Economics, University of Wuppertal, Wuppertal, Germany"
+      orcid: "0009-0003-3081-6705"
+    - name: "Lennart Borgmann"
+      affiliation: "Schumpeter School of Business and Economics, University of Wuppertal, Wuppertal, Germany"
+      orcid: "0009-0006-7138-4963"
+    - name: "Tobias Langner"
+      affiliation: "Schumpeter School of Business and Economics, University of Wuppertal, Wuppertal, Germany"
+      orcid: "0000-0002-6582-1702"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 4
+    basis: "Study 1: online qualitative interviews, 36 German students; Study 2: in-depth interviews, 22 German consumers; Study 3: 2 x 2 mobile eye-tracking lab experiment, 50 students (43 analysed); Study 4: mobile eye-tracking field experiment in a university library, 80 people (70 analysed); session-length pretest with 10 students not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Julian Felix Kopka, Lennart Borgmann and Tobias Langner of the Schumpeter School of Business and Economics at the
+      University of Wuppertal in Germany looked at a habit advertisers rarely plan around: people choosing to step away
+      from social media. Apps such as Forest, iOS Screen Time and Android Digital Wellbeing now help them do it, and a
+      CivicScience survey the authors cite found that 58% of US consumers take a social media time-out weekly or more often.
+
+      The team split detox into two kinds. A time-out means no social media at all for a while, anything from minutes to
+      whole days. A time constraint means people keep scrolling but set a limit on every session. The question was
+      whether either one changes how much attention ads get once people are back in their feeds.
+
+      They began with two rounds of interviews, then set up two experiments where people wore eye-tracking glasses and
+      scrolled through their own Instagram accounts on their own phones. Nothing was staged: the posts and the ads were
+      whatever Instagram served at that moment. For the cap, the team chose 60 seconds, the shortest limit iOS Screen Time
+      allows. In a small pre-test, ten students free to scroll with no limit kept going for around four minutes.
+    facts:
+      - ["Study 1", "Online interviews with 36 German university students, 24 of them women, aged 19 to 34, on why and how they cut back"]
+      - ["Study 2", "In-depth interviews with 22 young Germans right after they used Instagram, either having avoided all social media that day or with a one-minute timer"]
+      - ["Study 3", "Lab experiment with 50 undergraduates, 43 of them analysed, in four groups: with or without a break, and with or without a one-minute cap"]
+      - ["Study 4", "Field experiment with 80 people recruited in a university library, 70 of them analysed, split between a one-minute timer and free scrolling"]
+      - ["Equipment", "Tobii Pro Glasses 2; everyone scrolled their own account on their own phone and saw whatever ads it served"]
+      - ["Measured", "Total seconds each ad was looked at, marked ad by ad and frame by frame in the video from the glasses"]
+
+  - h: "Why people log off, and what keeps them on"
+    body: |
+      Of the 36 students interviewed, 15 had already taken a social media break, 7 of them once and 8 more than once.
+      Another 6 were thinking about it, and 15 had neither tried one nor planned to. About a third put time limits on
+      their apps. Others went further: deleting apps for a while, hiding the phone, muting notifications or deactivating
+      an account.
+
+      Their reasons were mostly about wellbeing. They wanted a rest from the unrealistic lives on show in their feeds, to
+      feel less hooked and less stressed, and to give their attention to what mattered. Exam weeks, holidays and evenings
+      with close friends were typical moments to step back. One woman kept social media out of the first hour after she
+      woke and the last hour before bed.
+
+      What kept them online was just as telling: following a big sporting event, staying close to a partner or family
+      abroad, filling the days of a lockdown, or getting through a break-up. Fear of missing out ran through many of the
+      answers.
+
+      The second round of interviews took place straight after an Instagram visit. People who had not touched social media
+      that day, about 7.4 hours on average, said they skipped ads straight away because they wanted to see what their
+      friends had been up to. Those on a one-minute timer said ads irritated them more, because each one ate into their
+      minute. Both groups, in other words, reported giving ads less attention. The experiments checked whether their eyes
+      agreed.
+
+  - h: "What the glasses picked up after a break"
+    body: |
+      In the lab experiment, half the students were asked by email to keep off Instagram and every other social platform
+      from the moment they woke until their appointment, and confirmed on arrival that they had. The other half got no
+      instructions. In the lab, half of each group then set a 60-second timer before opening the app; the rest carried on
+      until they chose to stop, roughly 156 seconds on average. The team marked every ad in the
+      video, 195 in all once a handful of extreme values were set aside.
+
+      The break made the difference. Students fresh from a time-out gave ads clearly shorter looks, and by the usual rule
+      of thumb for comparing two groups the gap was very large. The timer did not. On its own it left looking time where
+      it was, and added to a break it brought no further drop that could be told apart from chance.
+    chart: breaks
+
+  - h: "Why a one-minute cap changed nothing"
+    body: |
+      The authors wondered whether the lab had blunted the timer. Students knew the session was about Instagram, had booked
+      it in advance and could go back to the app as soon as they left. So they repeated the test where a time limit feels
+      natural: a university library, with students taking a short pause from their work. Research assistants approached
+      them, offered a €5 meal voucher and handed over the glasses. To compare like with like, only the first minute
+      of each visit was analysed.
+
+      The result held. With or without the timer, ads got much the same look, and the small gap was well within chance.
+
+      Their explanation: one capped visit leaves nobody feeling deprived. People who check their feeds many times a day
+      keep a background level of satisfaction, and a minute's limit on one visit barely touches it. A full time-out does,
+      which is why it changed where their eyes went. They suggest that longer caps, over several hours or a whole day,
+      might start to work like a time-out, though nobody has checked that yet.
+    chart: library
+
+  - h: "Planning ads around the return to the feed"
+    body: |
+      For advertisers, the lesson is about timing more than creative. The authors advise against placing ads at the
+      moment people come back from a time-out, or, if they must run then, cutting them down to what a glance can carry,
+      such as the brand and one image. Ads that need more thought, like an offer with conditions, belong in sessions that
+      follow recent use.
+
+      They also note that Instagram, Facebook and TikTok can see when each person last logged in, and could pass a signal
+      about recent time-outs to advertisers so they can hold back or keep things simple. That is a proposal, not something
+      the study tried. We would add a caution of our own: people who log off to look after their wellbeing may not welcome
+      being tracked for it, so any such signal would need careful handling on privacy.
+
+      One more idea from the authors is also untested. Ads that entertain, or that give people something to share, might
+      hold up better after a break than ads that only sell, because they offer some of what people came back for.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Map when your audience comes back", "List the moments your followers are most likely returning after a long gap: first thing in the morning, the end of a holiday, the week after exams. Circle the ones that matter most for your brand, no more than three."]
+  - ["Ask what timing controls you have", "Ask your ad platform contact whether you can schedule ads by the hour and by weekday. Write down which options exist before you plan the next campaign."]
+  - ["Build a one-glance version", "For slots that land right after a likely break, make a version people can take in at once: logo, product and one short line. Look at it for one second, then say out loud what it was for. If you cannot, cut more."]
+  - ["Keep detailed ads for busy hours", "Put ads that need reading, such as offers with conditions or how-to videos, into the hours when your audience is already scrolling often, like evenings. Run the one-glance version everywhere else."]
+  - ["Split the schedule for two weeks", "Run the same campaign for 14 days, with half the budget in early-morning slots and half in the evening. Compare three-second video views and clicks for each half."]
+  - ["Check the pattern every Monday", "Each Monday, look at whether the first hours after quiet spells, such as Monday mornings or the day after a public holiday, bring weaker views and clicks. If they do, move money out of those hours."]
+
+expect:
+  - "**A glance is the norm anyway.** Even without any break, a feed ad got only a brief look, so the gain from good timing comes in fractions of a second."
+  - "**Breaks matter, caps do not.** Screen-time tools that limit each visit are unlikely to cost you attention. A full stretch away from social media is what changes how people treat ads."
+  - "**Stand-ins for now.** A platform flag for people back from a break is only the authors' proposal, so time of day and quiet seasons are the nearest signals you can plan with."
+  - "**Cheap to try.** Moving budget between hours costs nothing extra, so a timing test is easy to set up and easy to drop if it shows nothing."
+
+limits:
+  - "**Young Germans on one app.** Nearly everyone taking part was a student, every experiment ran in Germany, and Instagram was the only platform tested."
+  - "**Small groups.** Eye tracking is slow work, so the lab experiment had only 9 to 13 people in each group, although every ad they looked at went into the analysis."
+  - "**Breaks of uneven length.** Time-outs ran from waking to the appointment, so they varied between people, and the paper cannot say how long a break has to be."
+  - "**Looking, not remembering.** Seconds of gaze were the only outcome. Brand recall, clicks and purchases were not measured."
+  - "**Real feeds, real noise.** Because everyone used their own account, each person saw different ads, and the timer applied to one visit only."
+
+faq:
+  - q: "What is a social media detox?"
+    a: "A deliberate cut in social media use. It takes two forms: a full time-out, when people stay off every platform for a while, and a lighter time limit, when they cap how long each visit can last, often with tools such as iOS Screen Time or Android Digital Wellbeing."
+  - q: "Do people ignore ads after a break from social media?"
+    a: "They give them a shorter look. In a lab, students wearing eye-tracking glasses who came back to Instagram after a stretch without social media spent noticeably less time on each ad than classmates who had scrolled as usual that day (Kopka et al., 2025)."
+  - q: "Do screen-time limits reduce attention to ads?"
+    a: "Not in these tests. Limiting an Instagram visit to one minute did not shorten looks at ads, either in the lab or among students in a library. The authors think a single short cap does not leave people feeling deprived, since they can open the app again soon."
+  - q: "Why would a break make ads less interesting?"
+    a: "After time away, people want to catch up on friends and on news they may have missed. Ads stand between them and that content, so they move past them faster. Fear of missing out and a craving for social contact both push the same way."
+  - q: "When should brands avoid showing social media ads?"
+    a: "The authors suggest avoiding the moment people return from a time-out. If an ad has to run then, keep it very simple, such as a brand name and an image. Messages that need more reading do better when people have been on the app recently."
+
+also:
+  - doi: "10.1007/s11747-024-01048-3"
+    title: "The effect of second screening on repeat viewing: Insights from large-scale mobile diary data"
+    authors: "Gelper et al."
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2025
+    text: >-
+      Mobile diaries from 1,702 American viewers, covering 2,755 prime-time shows, let this team see what happens when
+      people pick up a phone or laptop mid-episode. Screen time tied to the show, such as reading or posting about it,
+      warmed viewers to the programme and brought them back for more. Unrelated browsing cooled their opinion but showed no
+      sign of keeping them away, and both effects were strongest among heavy TV viewers and occasional viewers of a given
+      show. Giving the audience something about the show to do on their phones looks smarter than fighting for their eyes.
+  - doi: "10.1002/mar.22135"
+    title: "Harvesting sustainability: how social capital fosters cohesive relationships between green social media influencers and consumers to drive electronic word-of-mouth behaviours"
+    authors: "Cheung et al."
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      A survey of 471 people who follow at least one green influencer, backed by follow-up interviews, asks how these
+      creators get followers talking about eco-friendly products. Creators with know-how and a trusting bond with their
+      audience drew more frequent exchanges, which lifted followers' mood and eased their doubts about green products. That
+      sense of a close-knit tie is what led people to recommend the products, and the pattern differed between men and
+      women. Replying to comments may sell more green products than one more polished post.
+
+charts:
+  breaks:
+    title: "Seconds spent looking at each Instagram ad, by detox condition"
+    scale: [0, 1.5]
+    step: 0.5
+    unit: ""
+    decimals: 2
+    bars:
+      - ["No break, no time limit", 1.32, false]
+      - ["Break, no time limit", 0.89, true]
+      - ["One-minute limit, no break", 1.39, false]
+      - ["Break and one-minute limit", 0.76, true]
+    source: "Study 3, mobile eye tracking in a lab, 43 German students and 195 ads. Only the break made a reliable difference."
+  library:
+    title: "Looking time per ad in the first minute of a visit, with and without a one-minute limit (seconds)"
+    scale: [0, 1.5]
+    step: 0.5
+    unit: ""
+    decimals: 2
+    bars:
+      - ["No time limit", 1.39, false]
+      - ["One-minute limit", 1.27, false]
+    source: "Study 4, library field experiment with 70 students and 210 ads. The gap is within chance."
+
+related_pages: []
