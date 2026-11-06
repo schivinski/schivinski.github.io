@@ -1,0 +1,229 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 48                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-11-23"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: ai-video-translation
+status: live
+
+title: "Can AI translate your marketing videos without putting viewers off? What a Journal of International Marketing study found"
+dek: >-
+  Tools that re-voice a finished video and move the speaker's lips to fit a new language promise one shoot for every market.
+  Two experiments, run in Indonesia and with British and American viewers, found the AI speaker sounds foreign and slightly
+  artificial, yet people's stated plans to like it, share it or comment held steady.
+short_title: "AI-dubbed videos sound foreign, but engagement holds"
+
+description: >-
+  Wahid et al. find AI-translated marketing videos sound less native and natural than human-voiced ones, yet viewers were
+  as willing to like, share or comment.
+
+keywords: [AI video translation, AI dubbing, lip-sync translation, HeyGen, video localization, multilingual video content,
+  accent in advertising, generative AI video, international marketing, customer engagement intention, Journal of International Marketing]
+topics: [AI, Creative, Social media]
+
+image:
+  file: 2025-ai-video-translation.jpg
+  og: 2025-ai-video-translation-og.jpg
+  alt: "A presenter in a blue blazer and jeans gestures as he speaks on a bright white studio set, seen past two camera operators in silhouette, a monitor on the left-hand camera showing his picture beside a blue light"
+  caption: "The words and the lip movements can now be changed after the shoot. Whether the speaker still sounds local is another matter. Photo: Voyage Pro on Unsplash."
+
+short_answer: >-
+  Mostly, yes, with a catch you can hear. Across 301 viewers, a short video translated by an AI tool into Indonesian or into
+  English drew as much stated interest in liking, sharing or commenting as a version spoken by a native speaker. But people
+  rated the AI speaker as sounding much less like a native and a little less natural, and whether they understood it better
+  or worse depended on which language it went into.
+
+takeaways:
+  - "Out of 7, the AI-translated speaker scored 1.9 points below a native speaker for sounding native in Indonesian, and 2.7 points below in English."
+  - "Plans to engage with the post (liking, sharing, commenting) moved by less than half a point between the two versions (0.08 in Indonesia, 0.35 in the English test), and neither gap was statistically significant."
+  - "Indonesian viewers understood the AI version slightly less well (5.93 against 6.31), while British and American viewers understood it slightly better (5.62 against 5.25)."
+  - "The AI version came across as less natural in both directions, by about 0.4 points each time (3.83 against 4.26, and 3.80 against 4.22)."
+
+paper:
+  doi: "10.1177/1069031X251404843"
+  title: "Generative AI for Video Translation: Consumer Evaluation in International Markets"
+  authors: ["Wahid, R.", "Han, J.", "Fauzan, N.", "Karjaluoto, H."]
+  authors_full: ["Risqo Wahid", "Jiseon Han", "Nizar Fauzan", "Heikki Karjaluoto"]
+  year: 2026
+  journal: "Journal of International Marketing"
+  volume: "34"
+  issue: "1"
+  pages: "27-33"
+  online: "2025-11-23"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "Risqo Wahid"
+      affiliation: "School of Business and Economics, University of Jyväskylä, Finland; Faculty of Economics, Universitas Indo Global Mandiri, Indonesia"
+      orcid: "0000-0002-4646-0358"
+    - name: "Jiseon Han"
+      affiliation: "Norwich Business School, University of East Anglia, UK"
+      orcid: "0009-0003-3496-4748"
+    - name: "Nizar Fauzan"
+      affiliation: "Faculty of Business Administration and Accountancy, Khon Kaen University, Thailand; Faculty of Economics and Business, Universitas Islam Bandung, Indonesia"
+      orcid: "0000-0002-0876-1491"
+    - name: "Heikki Karjaluoto"
+      affiliation: "Faculty of Information Technology, University of Jyväskylä, Finland"
+      orcid: "0000-0002-5696-7355"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two online between-subjects experiments: Study 1, 140 viewers in Indonesia (English to Indonesian); Study 2, 161 US and UK adults on Prolific (Indonesian to English); a post hoc speaker check (160) and a pretest (91) not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Risqo Wahid of the University of Jyväskylä in Finland and Universitas Indo Global Mandiri in Indonesia,
+      Jiseon Han of the University of East Anglia in the UK,
+      Nizar Fauzan of Khon Kaen University in Thailand and Universitas Islam Bandung in Indonesia,
+      and Heikki Karjaluoto, also of Jyväskylä, tackled a problem that global content teams now face. AI tools can take
+      a finished video, swap the spoken language, keep a voice close to the speaker's own and reshape the lips to fit the new
+      words. Do viewers judge that version differently from one spoken by a native?
+
+      They built two short online experiments around a social media clip for an invented mobile game company. In it, the
+      founder announces a new game world and asks players to post ideas in the comments for a chance to win a prize. The first
+      test had a British firm talking to its audience in Indonesia: one group saw an Indonesian man deliver the script in
+      Indonesian, the other saw an English man's video turned into Indonesian by the AI tool HeyGen. The second experiment
+      reversed the direction. An Indonesian firm addressed Americans and Britons, with a British man voicing the human
+      version while an Indonesian man's clip was translated into English by AI.
+
+      After one viewing, people rated how well they understood the words, how natural the clip looked and sounded, how far
+      the speaker sounded like a native, and whether they would engage with it by liking, sharing or commenting. The analysis held constant
+      age, gender, language skill and attitudes to mobile games and to calls to action that offer a reward.
+    facts:
+      - ["Participants", "301 in all: 140 in Indonesia (average age 23), reached through the authors' social networks, and 161 Americans and Britons (average age 44) on Prolific"]
+      - ["Videos", "One founder clip of under a minute per version, for a made-up mobile game firm"]
+      - ["Translation", "AI versions made with HeyGen, which changes the language, the voice and the lip movements"]
+      - ["Measured", "Understanding, naturalness, how native the speaker sounded, and planned liking, sharing and commenting"]
+      - ["Checks", "Separate tests with 160 Indonesians and 91 Americans found the speakers equally attractive and convincing"]
+
+  - h: "The accent gives the AI away"
+    body: |
+      By far the largest gap was in accent. In both experiments the AI speaker came across as plainly less native, and
+      the way the video was translated accounted for 31% of the differences in accent ratings in Indonesia and 41% in the
+      English test. Nothing else in the paper came close.
+
+      Part of the reason lies in the tool. HeyGen did not let the team pick which English accent the translated voice would
+      carry, which is why the second experiment recruited Americans as well as Britons. The two nationalities answered
+      alike on all four ratings.
+
+      Naturalness slipped as well, though only slightly. People saw the AI clip as a little more machine-made, and the
+      translation method accounted for roughly 4% of the variation in both studies.
+    chart: accent
+
+  - h: "Understanding depends on the direction"
+    body: |
+      Comprehension is where the two experiments parted ways. Turned into Indonesian, the AI version was a little harder to
+      follow than the native one. Turned into English, it was a little easier. Both gaps were small, with the method
+      explaining 3% and 5% of the variation.
+
+      The authors suggest a reason they did not test: AI systems learn from far more English than Indonesian, so their
+      English output may simply be more accurate. The web appendix gives a glimpse of what viewers actually heard. A
+      transcript of the AI-made Indonesian clip marks two short stretches as unintelligible and a hesitant "umm" halfway
+      through a sentence. The English transcript shows no such gaps, although the game's prize currency came out as "cash coin".
+
+  - h: "Engagement did not move"
+    body: |
+      For a marketer, the finding that matters most is the one that stayed flat. In neither experiment did the AI version
+      make people less inclined to interact with the post. In the second it even scored slightly higher, by a margin that
+      chance could easily explain.
+
+      Look at the level as well as the gap. Every group's average fell under 4, the scale's halfway mark, so this was not a
+      clip people were eager to pass on, whoever voiced it. The authors take the result to mean that weaker sound and look
+      need not drag engagement down. A narrower reading, and ours rather than theirs, is that for an ordinary promotional
+      clip the translation route was not what held engagement back.
+    chart: engage
+
+  - h: "Advice for teams working across markets"
+    body: |
+      Their advice is measured. AI translation is not simply worse or better than a human voice: the weak spots are the
+      sensory cues, accent and naturalness, so that is where to look hard. In some directions, such as into English, the
+      AI may already hold its own. They describe it as an emerging option for adapting content across markets, provided
+      quality is kept under review.
+
+      This is a short Insight Paper, and it closes with 12 open questions. Among them: whether telling viewers a clip was
+      AI-translated changes trust, how regional dialects fare, how bilingual viewers react, and whether any of this shows
+      up in clicks and sales rather than stated intentions.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Start with one proven video", "Choose a short video that already does well in its home market. Pick two new markets to try it in and write down the language each one speaks."]
+  - ["Plan extra review for smaller languages", "Expect cleaner output when the target is a widely used language such as English. For a language with less content online, set aside twice the review time."]
+  - ["Have a native speaker watch the AI cut", "Ask one native speaker per market to watch the translated video twice. They should mark any mumbled word, any wrong name or price, and any line that sounds foreign. Fix or re-render before you post."]
+  - ["Put the key facts on screen", "Show the brand name, the offer and any price or prize as on-screen text in the local language. If a word comes out garbled in the voice, viewers can still read it."]
+  - ["Run it against a local voice", "Where budget allows, post the AI version and a version voiced by a local presenter to two matched audiences. After a week, compare likes, shares and comments for every 1,000 views."]
+  - ["Ask viewers how it sounded", "Add a two-question poll to the post: was it easy to follow, and did the speaker sound local? Repeat the check every three months, because these tools change fast."]
+
+expect:
+  - "**Fewer reshoots.** The appeal is time and money: re-voicing or reshooting even a 30-second social clip for each language soon adds up, as the authors note."
+  - "**An accent you cannot fully hide.** Plan for local audiences to hear that the speaker is not one of them, even when the lips match the words."
+  - "**Some fixing by hand.** Mumbled words and mangled names can slip through, so budget for a review and the odd re-render."
+  - "**Results that date quickly.** The authors stress that these tools are improving fast, so a verdict on today's output may not hold for long."
+
+limits:
+  - "**One tool, one language pair.** Only HeyGen, and only English and Indonesian, were tested."
+  - "**One clip per version, different men.** Each version rested on a single video, and the human and AI versions featured different speakers, so one man's delivery may colour the ratings."
+  - "**Two different audiences.** Young Indonesians reached through personal networks and older panel members in Britain and America also differ in more than the direction of translation."
+  - "**Intentions only.** People only said what they planned to do; nobody's real behaviour was tracked."
+  - "**A lukewarm video.** Engagement was low in every group, so the picture may change for content people are keen to share."
+
+faq:
+  - q: "Do consumers notice when a marketing video has been translated by AI?"
+    a: "Mostly through the voice. In two experiments, viewers in Indonesia, the US and the UK judged an AI-translated speaker as far less native-sounding and somewhat less natural than a human speaker (Wahid et al., 2026)."
+  - q: "Does AI video translation hurt engagement?"
+    a: "Not in these tests. Intended engagement was statistically the same for both versions in each experiment. These were answers given after a single viewing, not recorded behaviour."
+  - q: "What is AI video translation?"
+    a: "Software that takes a recorded video, translates the speech into another language, recreates it in something like the original speaker's voice and adjusts the lip movements to match. The study used HeyGen; the authors also name Adobe Firefly and Invideo AI as tools that do this."
+  - q: "Should brands tell viewers that a video was translated by AI?"
+    a: "Disclosure was not part of these experiments. The authors leave it for future work, alongside dialects, live translation and the effect on real purchases."
+
+also:
+  - doi: "10.1111/ijcs.70143"
+    title: "Podcaster Authenticity and Listener Support: Authenticity Perceived in the Absence of Visual Signals"
+    authors: "Nguyen, Tran Hoang, Do, & Nguyen"
+    journal: "International Journal of Consumer Studies"
+    year: 2025
+    text: >-
+      Podcast hosts have only a voice and a story to win people over. Across two studies, listeners who saw a host as
+      authentic were more loyal to the channel, keener to buy the brands the host endorsed and readier to defend the host,
+      with emotional attachment and trust carrying the effect. The pull on trust and buying grew when the host confirmed how
+      listeners saw themselves. Sincerity travels by sound alone, which makes host fit worth checking before booking a podcast read.
+  - doi: "10.1002/cb.70069"
+    title: "The Effect of Visual Perspective on Consumer Viewing and Purchase Intention in Live Streaming"
+    authors: "Tang, Li, & Hao"
+    journal: "Journal of Consumer Behaviour"
+    year: 2026
+    text: >-
+      Three questionnaire studies compared live-stream product demos shot from the presenter's own point of view with demos
+      shot from a third-person angle. The third-person view did more to keep people watching and make them want to buy,
+      because the extra angles let viewers inspect the product, almost feel it and get absorbed in the stream. Product type
+      shifted the result: in first-person streams functional products fared better than hedonic ones, and in third-person
+      streams the reverse. Camera position, it seems, is a sales choice as much as a creative one.
+
+charts:
+  accent:
+    title: "How native the speaker sounded (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Indonesian, native speaker", 5.78, false]
+      - ["Indonesian, AI-translated", 3.90, true]
+      - ["English, native speaker", 6.25, false]
+      - ["English, AI-translated", 3.52, true]
+    source: "Study 1 (140 viewers in Indonesia) and Study 2 (161 Americans and Britons); adjusted means from the published figures."
+  engage:
+    title: "Intention to like, share or comment on the video (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Indonesian, native speaker", 3.55, false]
+      - ["Indonesian, AI-translated", 3.63, true]
+      - ["English, native speaker", 2.78, false]
+      - ["English, AI-translated", 3.13, true]
+    source: "Study 1 and Study 2, adjusted means from the published figures. Neither gap between the AI and human versions was statistically significant."
+
+related_pages: []
