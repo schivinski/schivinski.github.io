@@ -1,0 +1,237 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 38                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-09-16"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-06"          # the day this page went live (metadata only, never shown)
+slug: ingroup-online-condemnation
+status: live
+
+title: "What makes people publicly condemn a post or a brand online? What a Psychology & Marketing study found"
+dek: >-
+  Feeling offended is only half of it. Across five experiments, the urge to call out an offensive tweet was strongest when
+  people believed their own circle shared the offence and would see them speak up.
+short_title: "Why online outrage needs an audience"
+
+description: >-
+  Rotman et al. find people condemn offensive posts mostly when they think their own circle is offended too: willingness
+  rose from 3.84 to 4.54 (1 to 7).
+
+keywords: [online outrage, brand backlash, online condemnation, moral outrage, social media backlash, virtue signalling,
+  cancel culture, ingroup signalling, social media crisis management, consumer boycotts, Psychology & Marketing]
+topics: [Social media, Advertising]
+
+image:
+  file: 2025-ingroup-online-condemnation.jpg
+  og: 2025-ingroup-online-condemnation-og.jpg
+  alt: "Seen from behind, an outdoor crowd raises dozens of hands towards a pale late-afternoon sky, festival wristbands on their wrists and green trees blurred beyond"
+  caption: "Speaking up comes easier with your own crowd at your back. Photo: Roberto Rendon on Unsplash."
+
+short_answer: >-
+  Their own offence, plus a crowd they think agrees with them. In five experiments with 1,107 people, anger at an offensive
+  post turned into a wish to condemn it mainly when people believed their friends or followers felt the same, and when the
+  condemnation would be seen. It reached choices too: after a fast-food chain's account posted an insult aimed at Donald
+  Trump, conservative-leaning participants more often took a rival chain's gift card.
+
+takeaways:
+  - "Willingness to condemn a tweet was about 18% higher, 4.54 against 3.84 (scale 1 to 7), when people thought their friends would take offence as well as themselves."
+  - "Anger at a post predicted an urge to call it out only among people who leaned towards thinking their own feed would find it offensive too: above 4.05, where 1 meant strongly disagree and 7 strongly agree."
+  - "When a tweet to the candidate blamed for an offensive remark would be private, all four voter groups scored between 1.90 and 2.26 out of 7; the gap between rival camps opened only in public."
+  - "In a sixth, hypothetical test, a shirt at half price ($10 instead of $20) still lost ground to a full-price rival after its brand's boss posted an offensive tweet about Barack Obama; only the most conservative participants were unmoved."
+
+paper:
+  doi: "10.1002/mar.70040"
+  title: "Beyond Moral Outrage: The Role of the Ingroup in Online Condemnations"
+  authors: ["Rotman, J. D.", "Weber, V.", "Perkins, A. W.", "Reed, A., II"]
+  authors_full: ["Jeff D. Rotman", "Virginia Weber", "Andrew W. Perkins", "Americus Reed II"]
+  year: 2026
+  journal: "Psychology & Marketing"
+  volume: "43"
+  issue: "1"
+  pages: "30-46"
+  online: "2025-09-16"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Jeff D. Rotman"
+      affiliation: "Deakin Business School, Deakin University, Melbourne, Australia"
+      orcid: "0000-0001-8823-4351"
+    - name: "Virginia Weber"
+      affiliation: "Bissett School of Business, Mount Royal University, Canada"
+      orcid: ""
+    - name: "Andrew W. Perkins"
+      affiliation: "College of Business, Washington State University, Carson, USA"
+      orcid: "0000-0003-3020-6491"
+    - name: "Americus Reed II"
+      affiliation: "Wharton School of the University of Pennsylvania, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 5
+    basis: "Five experiments in the main text: Studies 1a (295), 1b (195), 1c (201), 2 (220) and 3 (196), final Ns from Supplementary Appendix B; Study 3b (181) in Supplementary Appendix A also reported (the abstract counts six studies); a pretest of 98 not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Jeff D. Rotman of Deakin University in Melbourne,
+      Virginia Weber of Mount Royal University in Canada,
+      Andrew W. Perkins of Washington State University and
+      Americus Reed II of the University of Pennsylvania's Wharton School
+      looked at a question every social media manager meets after a misstep. Why do some offended people post a public
+      takedown while others scroll on? A common view holds that moral outrage, the anger people feel when a moral line is
+      crossed, is all it takes. The four suspected that outrage also needs company: a like-minded group that shares
+      the anger and can watch the person speak up.
+
+      They ran five experiments, each built around material many people find offensive: a mocking anagram of a former US
+      president's name, a notorious joke about AIDS and race, ten tweets drawn from research on hate speech, a news article
+      about people on welfare, and two tweets posted from a restaurant brand's account. After reading, people rated their
+      chances of speaking out against it on social media.
+    facts:
+      - ["Participants", "1,107 people across five experiments (295, 195, 201, 220 and 196), plus 181 in a sixth reported in an appendix; recruitment method and location not reported"]
+      - ["Material", "Offensive tweets, a news article pinned on one of two presidential candidates, and real tweets from a fast-food brand"]
+      - ["What changed", "Whether people were offended, whether they expected their friends to be, and whether a reply would be public or private"]
+      - ["Measured", "Self-rated likelihood of condemning the post from their own accounts, three questions on seven-point scales; in the fifth experiment, a real gift-card choice"]
+      - ["When", "The election experiment ran in October 2016, during the Clinton and Trump campaigns"]
+
+  - h: "Outrage needs a crowd that agrees"
+    body: |
+      The first experiment asked people how angry, upset or offended the anagram made them, and whether others in their
+      own feeds would find it offensive. Strong feelings alone did not lead to a wish to post; that only appeared among
+      people who also expected their feed to take offence. The second experiment replaced the list of emotions with one
+      question on personal offence and used the joke about AIDS instead. The pattern held, and neither political views nor
+      how often people usually post about politics changed it.
+
+      The third experiment pulled the two ingredients apart. From the ten tweets, each person picked four: one that
+      offended them and that they thought would offend their friends, one that offended only them, one they thought only
+      their friends would mind, and one that bothered nobody. Shared offence drew the strongest urge to condemn. A tweet
+      that would annoy their friends, but left them unmoved, scored barely above the one nobody minded.
+    chart: shared
+
+  - h: "Why a public post is different"
+    body: |
+      The fourth experiment ran while the US presidential race was at its height. Its 220 participants, 144 planning to
+      vote for Hillary Clinton and 76 for Donald Trump, read the same article, which pinned remarks calling people on welfare
+      "deadbeats" on one candidate or the other. The article was adapted from a real one that had linked the remark to
+      Clinton. People then rated whether they would tweet at that candidate, either privately, so only the candidate
+      would see it, or publicly, to all their followers.
+
+      In private, it made no clear difference whether the remark came from a person's own candidate or the rival. In public, the rival camp grew readier to respond:
+      Trump supporters when the remark was pinned on Clinton, and Clinton supporters, a marginal result, when it was pinned
+      on Trump. Even the highest score stayed well under the scale's midpoint. The authors see signalling at work: condemning
+      an opponent brings a social reward only when your own side can see it.
+    chart: public
+
+  - h: "From posting to buying"
+    body: |
+      The fifth experiment used two real tweets from McDonald's account. One, sent by a hacker, insulted Donald Trump;
+      participants were told about the hack at the end. The other described new restaurants in the UK. Afterwards each
+      person chose a $25 gift card from McDonald's, Burger King, Arby's or Wendy's, knowing one participant would really
+      receive the card they picked.
+
+      The insult raised the urge to condemn among all but the most liberal participants (above 2.23, where 1 is very
+      liberal and 7 very conservative). It also pushed card choices away from McDonald's from slightly left of centre
+      upwards (above 3.53). Among liberals, choices did not shift in any reliable way. How keen a person was to condemn
+      the tweet was only loosely tied to their pick, and that link was marginal statistically.
+
+      A further experiment, reported in the appendix, flipped the politics and added a cost. People imagined choosing between
+      pyjama shirts from two invented brands of equal quality after seeing the cheaper brand's chief executive post either the
+      anagram from the first experiment or a harmless personal tweet. Liberal-leaning participants grew readier to
+      condemn (below 3.64), and the more someone wanted to condemn, the further they leaned towards the rival shirt. That
+      chain held on the liberal side only. Across the two studies, each side reacted when the insult targeted a figure from
+      its own camp.
+
+  - h: "What a brand can take from this"
+    body: |
+      Three lessons follow, in the authors' view. Speed matters, because a complaint that starts trending tells every
+      offended reader that people like them feel the same, which feeds the next wave. Size matters too: before reacting, a brand should work
+      out whether the anger comes from a small, loud and tight-knit group or from a wide slice of its customers. And when
+      the backlash targets a deliberate choice, such as a campaign that takes a social stance, the brand has to decide
+      between apologising and reversing course or standing by the message.
+
+      For the second path they cite Nike's campaign with Colin Kaepernick. Some customers left, but the brand stayed with
+      its stated values and kept speaking to loyal buyers, which the authors prefer to spending heavily on outrage that is
+      mostly for show. A further thought of ours, untested here: if being seen is what turns anger into a post, an easy private route to complain, such as a direct reply line, may catch some grievances before they go public.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List who could take offence", "Before a campaign goes live, write down every group that might find it offensive. Next to each, note where its members talk to each other online, such as a forum, a hashtag or a group chat."]
+  - ["Plan your first reply now", "Draft a short holding statement and agree who can sign it off. Decide in advance which kinds of complaint would lead you to apologise and which you would stand behind."]
+  - ["Watch public and private complaints apart", "Set your listening tool to split public mentions, replies and quote posts from direct messages and emails. A jump in public posts is your warning sign."]
+  - ["Size the group before you act", "Count how many separate accounts are posting and check whether they mostly follow each other. A few hundred linked accounts call for a different reply from thousands of unconnected customers."]
+  - ["Answer within four hours", "Once a complaint starts trending, post your response within four hours. Reply where the complaint is spreading, not only on your own page."]
+  - ["Check sales for eight weeks", "Track weekly sales, coupon use and unsubscribes in the groups most likely to be offended. Compare them with the same weeks last year to see whether the anger turned into lost buying."]
+
+expect:
+  - "**Most people stay quiet.** Average willingness to condemn stayed under the midpoint of the seven-point scale in almost every condition; only shared offence pushed it just past halfway."
+  - "**Being seen raises the stakes.** Expect the loudest reaction where people can be watched by others who agree with them, such as public replies, quote posts and community threads."
+  - "**Sides matter.** In every test with a political angle, the reaction came from one camp: the side the post insulted, or the side opposed to the candidate quoted. The other camp barely moved."
+  - "**A dent in choices, size unknown.** The gift-card test shows a real shift, but the paper reports no shares or sales figures, so the cost to a brand cannot be read from it."
+
+limits:
+  - "**Intentions to post, not posts.** Every experiment relied on people's own forecasts of whether they would condemn; nobody's actual feed was observed."
+  - "**Twitter-era material.** All stimuli were tweets, and the voting test dates from 2016; newer platforms and feeds may behave differently."
+  - "**Unknown samples.** How and where participants were recruited is not reported."
+  - "**One kind of offence.** Most stimuli were political or racial insults. Anger at faulty products, prices or poor service was not tested."
+  - "**A loose link to buying.** In the real gift-card test, the urge to condemn only marginally predicted the choice; the clearer link came from a hypothetical shirt choice."
+  - "**No follow-up.** The authors themselves call for interviews and longer tracking to learn how long any effect on buying lasts."
+
+faq:
+  - q: "Why do people condemn brands and posts on social media?"
+    a: "Personal offence starts it, but it is seldom sufficient. People were most ready to call out a post in public when they were offended themselves and believed their own circle was offended too (Rotman et al., 2026)."
+  - q: "Is online outrage just virtue signalling?"
+    a: "Not entirely, the authors argue. The anger looks genuine, since people showed little interest in condemning posts that did not offend them personally. What shifts is the decision to speak, which depends on having a sympathetic audience that can see it."
+  - q: "Do people who condemn a brand online stop buying from it?"
+    a: "Some do. With a real prize at stake, participants on the side a brand's tweet insulted more often picked a competitor, and in a hypothetical choice a steep discount did not stop an offensive tweet from tilting people towards the rival. How long such choices last was not measured."
+  - q: "When a backlash starts online, what is the best first move?"
+    a: "The authors advise moving fast, since trending posts tell offended people that others agree. They also suggest checking if the critics are a small, vocal community or a broad customer base before choosing to apologise or hold firm."
+
+also:
+  - doi: "10.1177/14707853251379285"
+    title: "Responsible AI in Marketing: AI Booing and AI Washing Cycle of AI Mistrust"
+    authors: "Ozturkcan & Bozdağ"
+    journal: "International Journal of Market Research"
+    year: 2025
+    text: >-
+      This review names two forces that feed each other. AI washing is when firms overstate what their AI can do in their
+      marketing; AI booing is the public backlash that follows unmet expectations, ethical worries and opaque systems. Drawing
+      on earlier studies and industry examples, the authors describe a cycle of mistrust and point to transparency, human
+      agency, work with stakeholders and ethical handling of data as the way out. For marketers, the safer claim is the one the
+      product can already back up.
+  - doi: "10.1177/00222429251382533"
+    title: "Psychological Ownership and Territorial Behaviors in Rental Transactions: Why “Who” You Rent from Matters"
+    authors: "Mishra & Whitley"
+    journal: "Journal of Marketing"
+    year: 2025
+    text: >-
+      Guests on rental platforms treat the same cabin differently depending on who lists it. Across nine experiments, one in
+      the real world, people felt more ownership of a product rented from a company than from an individual, and acted on it
+      with territorial habits such as moving the furniture around. Host comments on Airbnb's community platform and host
+      interviews link those habits to extra work and damage. A listing that shows the owner's own ties to the place may
+      protect the property as well as sell it.
+
+charts:
+  shared:
+    title: "Willingness to condemn a chosen tweet, by who finds it offensive (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Offends me and my friends", 4.54, true]
+      - ["Offends me, not my friends", 3.84, false]
+      - ["Offends my friends, not me", 2.68, false]
+      - ["Offends nobody", 2.47, false]
+    source: "Study 1c, 201 participants who each picked four tweets from a list of ten; means as reported in the paper (Figure 3)."
+  public:
+    title: "Readiness to send a public tweet to the candidate quoted, October 2016 (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Clinton quote, Clinton supporters", 2.00, false]
+      - ["Clinton quote, Trump supporters", 2.92, true]
+      - ["Trump quote, Clinton supporters", 2.37, true]
+      - ["Trump quote, Trump supporters", 1.49, false]
+    source: "Study 2, 220 people planning to vote for Clinton (144) or Trump (76), public condition only; means from the paper's Supplementary Appendix G (Figure 4)."
+
+related_pages: []
