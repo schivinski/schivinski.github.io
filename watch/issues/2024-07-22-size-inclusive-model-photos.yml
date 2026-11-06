@@ -1,0 +1,256 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 29                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-07-22"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: size-inclusive-model-photos
+status: live
+
+title: "Do thin models on fashion websites put off shoppers who wear larger sizes? What a Journal of the Academy of Marketing Science study found"
+dek: >-
+  Most fashion webshops still dress every item on a slim model. A run of experiments with British shoppers shows that this
+  leaves anyone a few sizes up unsure how the clothes will fit, and that a model their own size, or a choice of models,
+  gives that confidence back.
+short_title: "Thin models leave bigger shoppers guessing on fit"
+
+description: >-
+  Zhang et al. find slim models leave larger online shoppers unsure of fit and less keen to buy; an own-size model or a
+  model picker restores their confidence.
+
+keywords: [size-inclusive model photography, plus-size models, body size diversity in fashion, online fashion retail,
+  fit risk, clothing returns, ecommerce product images, inclusive marketing, fashion ecommerce conversion,
+  model size picker, Journal of the Academy of Marketing Science]
+topics: [Retail, Creative, Personalization]
+
+image:
+  file: 2024-size-inclusive-model-photos.jpg
+  og: 2024-size-inclusive-model-photos-og.jpg
+  alt: "Five pairs of blue jeans in slightly different sizes pegged on a washing line against a sunlit yellow wall, below a window with green shutters"
+  caption: "Five pairs, five fits. A shopper only needs to see the one that matches hers. Photo: Ricardo Gomez Angel on Unsplash."
+
+short_answer: >-
+  Often, yes, for anyone whose size is far from the model's. Across 11 studies with about 5,950 people, mostly women in
+  the UK, the further a shopper's usual size sat from a slim model's, the less she saw herself in the photo, the more she
+  doubted the fit and the less keen she was to buy. Showing clothes on a model in her own size eased that doubt, and so
+  did letting her pick the model.
+
+takeaways:
+  - "Faced with a slim model wearing jeans, women in the first study rated the model's body as like their own at just 2.60 out of 7 on average, and lower still the bigger their usual size."
+  - "With a real dress or up to £25 in cash at stake, an own-size model made women surer of the fit, and that raised their bids; a more inclusive brand image did not."
+  - "Of four tops on the page, only 53 women, about one in eight, chose the one worn by the larger model, and those who did tended to wear larger sizes themselves."
+  - "The 64 students who picked their own model, from sizes XS to XL, did as well as those shown a model in their size, and an exploratory check gave them the best shopping experience of any group."
+
+paper:
+  doi: "10.1007/s11747-024-01034-9"
+  title: "One size does not fit all: Optimizing size-inclusive model photography mitigates fit risk in online fashion retailing"
+  authors: ["Zhang, Y.", "Ikonen, I.", "Eelen, J.", "Sotgiu, F."]
+  authors_full: ["Yerong Zhang", "Iina Ikonen", "Jiska Eelen", "Francesca Sotgiu"]
+  year: 2025
+  journal: "Journal of the Academy of Marketing Science"
+  volume: "53"
+  issue: "2"
+  pages: "643-672"
+  online: "2024-07-22"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Yerong Zhang"
+      affiliation: "School of Business and Economics, Vrije Universiteit Amsterdam, Amsterdam, Netherlands"
+      orcid: "0000-0003-4994-9105"
+    - name: "Iina Ikonen"
+      affiliation: "Faculty of Business and Economics, University of Groningen, Groningen, Netherlands; School of Management, University of Bath, Bath, UK"
+      orcid: "0000-0002-8823-8747"
+    - name: "Jiska Eelen"
+      affiliation: "School of Business and Economics, Vrije Universiteit Amsterdam, Amsterdam, Netherlands"
+      orcid: "0000-0002-9098-5143"
+    - name: "Francesca Sotgiu"
+      affiliation: "School of Business and Economics, Vrije Universiteit Amsterdam, Amsterdam, Netherlands"
+      orcid: "0000-0003-1830-7484"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 11
+    basis: "Eleven studies as the paper counts them (ten preregistered, total N = 5,950): eight in the article, Studies 1A (248) and 1B (247) correlational, online experiments 2 (338), 3 (808), 4 (1,536), 5 (709) and 6 (402) with UK Prolific adults, lab Study 7 (191 students); three more in the web appendix (W1 to W3). The 61-student T-shirt pretest, the industry interviews, the 21-retailer review and an exploratory ad-versus-webshop study are not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Yerong Zhang, Jiska Eelen and Francesca Sotgiu of Vrije Universiteit Amsterdam, with Iina Ikonen of the University of
+      Groningen and the University of Bath, began with a gap between what fashion brands say and what they show. Brands talk
+      about body diversity, yet when the team went through the webstores of 21 large online fashion retailers, slim models
+      still wore most of the clothes. Model shots have spread fast: one retailer told them that five years earlier its
+      products had no model photos at all, and that more than half now did.
+
+      Interviews with a fashion brand, a retailer and a firm that builds AI model photography explained the hesitation.
+      Nobody knew how shoppers would react, and brands feared that larger models would hurt sales. One interviewee said brands
+      ask photographers to sell sex and inspiration instead.
+
+      The team tested that fear from a practical angle. Online, the model's photo stands in for the fitting room. If shoppers
+      cannot picture an item on their own body, they have to guess about fit, and guessing is a reason not to buy. In most of
+      the tests, women saw a pair of jeans, a dress or a top worn by a slim model, by a model wearing the shopper's own size or
+      by a larger model, with a line stating the size the model had on. The own-size photo was picked automatically from the
+      size each person gave at the start.
+    facts:
+      - ["Programme", "Eight studies in the article and three in its web appendix, ten of them registered in advance"]
+      - ["Studies 1A and 1B", "248 women and 247 men in the UK, each shown jeans on a slim model of their own gender; their usual size, BMI and body image set against their reactions"]
+      - ["Studies 2 to 5", "338, 808, 1,536 and 709 women in the UK, shown jeans, a dress or heels on models of different sizes"]
+      - ["Study 6", "402 women choosing one of four tops on a category page, three worn by slim models and one by a larger model"]
+      - ["Study 7", "191 female students in a university lab, with a raffle for a university T-shirt and a real try-on afterwards"]
+      - ["Measured", "How alike the model's body looked, how sure people were of the fit, wish to buy, cash bids, product choice and shopping experience"]
+      - ["Checks", "Anyone failing the attention checks was removed; data and code were posted publicly"]
+
+  - h: "Why a slim model makes some shoppers hesitate"
+    body: |
+      The first two studies looked at the industry's default: one slim model and nothing else. The larger a person's usual
+      jeans size, the less the model's body looked like theirs. Less likeness meant more doubt that the jeans would fit, and
+      more doubt meant less wish to buy. The chain held for women and for men, and it held again when clothing size was
+      swapped for BMI or for the line drawing people picked as closest to their own figure. An extra study, reported in the
+      appendix, showed the doubt was about fit, not about quality or what other people might think.
+
+      The authors name this the dissimilarity-risk deterrence effect. Put simply, a model who looks nothing like you leaves you
+      guessing, and guessing puts you off.
+
+      Study 2 then changed the model itself. A model matched to the shopper's size felt more alike than either a slim or a larger
+      one, which cut fit worry and, through it, raised the wish to buy. The own-size model also lifted mood more than the slim
+      one did, and people judged the slim model's photos less authentic. Authenticity, though, had no link with buying.
+    chart: similar
+
+  - h: "Feeling welcome does not mean feeling sure"
+    body: |
+      Study 3 used real money. Women chose, step by step, between a dress in their size and a rising cash sum, knowing
+      that five of them would be drawn to receive whatever they had picked. The point at which a woman switched from dress to
+      cash shows what the dress was worth to her.
+
+      The larger model made the retailer look the most inclusive of the three, and the own-size model beat the slim one on
+      that score too. Yet a more inclusive image did nothing for the bids. In the next online test, with no money involved,
+      inclusivity did lift purchase intention a little. The authors read the difference this way: inclusion helps how a
+      brand is seen, but when money is on the line, fit decides. A side study in the appendix points the same way. Size
+      diversity in an ad made people think well of the brand without making them keener to shop its range, while diversity
+      on the product pages did.
+
+      The slim model still had one thing going for it. Women aspired to her body more than to either of the others, and that aspiration nudged
+      bids up. It helps explain why the own-size model did not always beat the slim one on buying overall, even though the
+      fit route favoured it in study after study. The authors also note that aspiration was tied more closely to women's dissatisfaction
+      with their own bodies, which is hardly a pull a brand should want to rely on.
+
+  - h: "Where model size matters most, and what hides it"
+    body: |
+      Study 4 asked women to consider either a dress or a pair of heels, shown in the same photo of a model wearing both. A
+      size-matched model helped with both, but much more with the dress, where the shape of the body settles the fit. Shoes depend
+      on foot size, which a full-length photo says little about.
+
+      Study 5 tested a tool most retailers already use. Some women saw a small badge promising free returns with no fee;
+      others saw nothing about returns. Without the badge, the own-size model clearly eased fit worry and lifted buying intent
+      through it. With the badge, that effect disappeared. A study in the appendix found the same when the product page
+      added garment measurements.
+
+      That might sound like an argument for leaving the slim model in place, but the authors draw the opposite lesson. Free
+      returns hide the problem rather than solve it. A dress that does not fit still comes back, at a cost to the retailer
+      and to the environment. Return terms and size charts also tend to sit further down the page or later in checkout,
+      while the model photo is the first thing a shopper sees.
+    chart: category
+
+  - h: "Mixing model sizes, or letting shoppers choose"
+    body: |
+      Some retailers already add size diversity by putting a different model on different items. Study 6 copied that: four
+      tops on one page, three on slim models and one on a larger model, with the larger model's top rotated so that each
+      colour took its turn. The bigger a woman's size, the more likely she was to pick whichever top the larger model wore,
+      because she could judge its fit better. The model steered the choice, not just the confidence. Women also rated the
+      same tops a little less attractive when the larger model wore them (3.45 against 3.99 out of 7), a gap the paper
+      reports and controls for but does not test.
+
+      Study 7 moved to a university lab. Students browsed the university's online shop for a T-shirt they could win,
+      photographed on fellow students of different sizes. Some saw it on the smallest model, some on a model in their own
+      size, and some picked the model themselves. Both the own-size and the free-choice versions beat the slim model, through
+      the same route of likeness and fit. Afterwards everyone tried the T-shirt on in a fitting room. A good shopping
+      experience carried over into satisfaction with the shirt, but only when it fitted at least reasonably well.
+
+      The authors favour the free choice. A system that only ever showed people their own size would narrow what they see,
+      much as slim-only photography does now; a picker keeps a range of bodies in view. They are open about the cost.
+      Shooting every item on several models is expensive, and AI tools that render clothes on different bodies need 3D
+      images of each product, which are seldom ready and take effort to make, and may raise doubts about replacing real models. With tighter
+      budgets, they suggest moving towards average-sized models and, if sizes are mixed across items, assigning them at
+      random rather than saving larger models for particular cuts.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Check who wears your clothes online", "Take your 20 best-selling clothing items. Write down the size each model is wearing, then list the sizes customers order most. If the two lists barely overlap, your photos are not helping most buyers."]
+  - ["Start where body size decides fit", "Rank your categories by how much body shape affects fit. Dresses, jeans, trousers and fitted tops come first. Shoes, bags and scarves can wait."]
+  - ["Shoot each item on three or more sizes", "Photograph every priority item on at least three models: one small, one from the middle of your size range and one from the top end. Keep the pose, light and angle the same, so size is the only thing that changes."]
+  - ["Add a model picker to the product page", "Put a row of small photos under the main image, each labelled with the size the model wears. When a shopper taps one, switch the main pictures to that model. Keep the row on screen so the other sizes stay in view."]
+  - ["Spread model sizes fairly", "Where you cannot shoot everything on several models, rotate model sizes across the whole range by drawing lots. Never keep larger models for loose cuts or dark colours only."]
+  - ["Track fit returns, not only sales", "Give your returns form a few reasons to tick, with 'did not fit' as its own option. Every month for three months, compare fit returns and sales for the reshot items with everything else you sell."]
+
+expect:
+  - "**Small but steady gains.** The authors admit the effects in each study were modest. What stands out is how reliably the fit route turned up, whatever the garment or the design."
+  - "**No sign of the feared sales hit.** In none of the studies did an own-size model lower buying compared with a slim one, which was exactly the risk the brands interviewed had worried about."
+  - "**Fewer fit returns, in principle.** Shoppers with larger sizes reported a higher chance of sending back an item they had seen only on a slim model. Better photos should cut those returns, though no study tracked real ones."
+  - "**More weight as return fees spread.** When the paper came out, retailers had begun charging for returns and the EU was preparing tighter rules on them. The authors expect model photos to matter more once sending things back is no longer free."
+
+limits:
+  - "**Mostly British women.** Every online sample in the article came from UK residents on one research panel, and men took part only in the two studies that measured rather than manipulated. Western audiences may hold the slim ideal more strongly than others."
+  - "**Mostly stated intentions.** Two studies had real stakes, the cash-or-dress choice and the T-shirt raffle. The rest measured a stated wish to buy, and no sales or returns records were analysed."
+  - "**One item, one viewing.** Each test showed a single garment or a single page once, with photos made for the study. A full webshop browsed over several visits was not tested."
+  - "**Size only.** Other kinds of likeness, such as skin tone, hair colour or gender identity, were held steady or left for future work."
+  - "**Long-term effects unknown.** Whether seeing a wider range of bodies changes how shoppers feel about their own over time was not measured."
+
+faq:
+  - q: "Do thin models hurt online clothing sales?"
+    a: "For shoppers a few sizes away from the model, they can. The wider that gap, the harder it is to judge how an item will fit, and the less willing people are to buy it. Showing the clothes on a model of the shopper's own size removes much of that doubt (Zhang et al., 2025)."
+  - q: "What is fit risk in online fashion?"
+    a: "The worry that a garment bought online will not fit as expected. Poor fit is the most common reason people send clothes back, so whatever lets shoppers judge fit before buying matters for both sales and returns."
+  - q: "Is it enough to add a few plus-size models?"
+    a: "Not on its own. A larger model makes a brand look more inclusive, but only shoppers close to that model's size get help judging fit, and placing one item on a larger model can push larger shoppers towards that item alone. Matching the model to the shopper, or letting shoppers choose, worked better."
+  - q: "Is a model picker worth building?"
+    a: "Yes, where the budget allows. When students shopped for a real T-shirt, a picker with models across the size range did as well as matching the model automatically, and it avoids a shop where people only ever see bodies like their own."
+  - q: "Does this apply to men's clothing too?"
+    a: "Probably. Men with larger jeans sizes also felt less like a slim male model and more worried about fit. The experiments that tested the remedies, though, were run with women only."
+
+also:
+  - doi: "10.1002/cb.2378"
+    title: "Creating a metaverse-me: Exploring the consumer avatar creation process"
+    authors: "Taylor et al."
+    journal: "Journal of Consumer Behaviour"
+    year: 2024
+    text: >-
+      For a newcomer to a brand's space in the metaverse, the first job is building an avatar, and many stall right there.
+      In-depth interviews followed how people go about it: they hold on to core parts of who they are, try out looks, settle
+      on what feels right and then reach for a better version of themselves. People treated the finished avatar as part of
+      themselves rather than a costume, and that carried over into how they shopped. A clumsy avatar builder can lose a
+      shopper before the virtual store has even opened.
+  - doi: "10.1002/cb.2377"
+    title: "The impact of immersive and flow experiences on consumer participation in hyper-connected shopping platforms: A metaverse perspective"
+    authors: "Zhong & Hamouda"
+    journal: "Journal of Consumer Behaviour"
+    year: 2024
+    text: >-
+      What turns a visitor to a metaverse shop into someone who takes part? A study of 262 consumers working through shopping
+      scenarios used several statistical methods to find out. What the platform let people do raised their confidence that
+      they could use it, and trust, feeling immersed in the space and the absorbed state called flow all fed into taking
+      part. Enjoyment stood out as a key reason to join in. In a virtual shop, fun looks like the entry ticket rather than a
+      bonus.
+
+charts:
+  similar:
+    title: "“This model's body size looks like mine”: agreement by model shown (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Slim model", 2.61, false]
+      - ["Model in the shopper's own size", 4.31, true]
+    source: "Study 5, 709 UK women viewing a dress online, averaged over both returns conditions. The difference was significant."
+  category:
+    title: "How strongly an own-size model worked through fit worry, by product (indirect effect on wish to buy)"
+    scale: [0, 0.3]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Dress, own size vs slim", 0.21, true]
+      - ["Heels, own size vs slim", 0.09, false]
+      - ["Dress, own size vs larger", 0.23, true]
+      - ["Heels, own size vs larger", 0.10, false]
+    source: "Study 4, 1,536 UK women. Size of the indirect effect through likeness and fit worry, shown as positive; all four significant, and larger for the dress in both comparisons."
+
+related_pages: []

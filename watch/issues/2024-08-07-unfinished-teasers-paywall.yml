@@ -1,0 +1,238 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 30                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-08-07"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: unfinished-teasers-paywall
+status: live
+
+title: "Should a content teaser stop mid-sentence? What a Psychology & Marketing study found"
+dek: >-
+  News sites and blogs often cut a preview off halfway through a sentence to pull readers in. Five experiments show the
+  trick works when the rest is free, and backfires when readers have to pay to find out how the sentence ends.
+short_title: "Why cliffhanger teasers backfire behind a paywall"
+
+description: >-
+  Mandler et al. find teasers cut off mid-sentence cost paid sales: 18% of students bought an article after one,
+  against 33% after a teaser that finished.
+
+keywords: [content teasers, paywall teasers, curiosity gap, cliffhanger previews, paid content conversion, news paywalls,
+  free versus paid content, persuasion knowledge, clickbait, content marketing, digital publishing, Psychology & Marketing]
+topics: [Creative, Advertising]
+
+image:
+  file: 2024-unfinished-teasers-paywall.jpg
+  og: 2024-unfinished-teasers-paywall-og.jpg
+  alt: "A teal door stands ajar in a dark corridor, with a bright red-lit room glimpsed through the gap"
+  caption: "A glimpse through the gap pulls people in, until they see a price on the door. Photo: Dima Pechurin on Unsplash."
+
+short_answer: >-
+  Only if the rest is free. In five experiments, a preview that broke off partway through a sentence made people keener
+  to read or watch free content, but less willing to pay when a paywall came next. With a price attached, the cut-off
+  ending looked like a sales trick rather than a hook. For paid content, a teaser that ends on a complete sentence did
+  better.
+
+takeaways:
+  - "With real vouchers to spend, 18.3% of students bought a €0.49 article after a teaser that broke off mid-sentence, against 33.3% after a teaser that ended cleanly."
+  - "In the final experiment, the cut-off ending lifted curiosity about a free travel article (3.88 against 3.49, scored 1 to 7), but not about a paid one, where it sat at 2.79 with a clean ending and 2.58 without."
+  - "A camera reading 56 students' faces found their expressions turned about twice as negative in the five seconds after an unfinished teaser and a payment notice, while a finished teaser left them unchanged."
+  - "Testing 400 adults online, the team found that cutting off the preview of a free travel article lifted intentions to read on from 4.01 to 4.69 out of 7."
+
+paper:
+  doi: "10.1002/mar.22098"
+  title: "This article is… Consumer reactions to unfinished teasers for digital content"
+  authors: ["Mandler, T.", "Cziehso, G. P.", "Schaefers, T.", "Kupfer, A.-K.", "Mafael, A."]
+  authors_full: ["Timo Mandler", "Gerrit P. Cziehso", "Tobias Schaefers", "Ann-Kristin Kupfer", "Alexander Mafael"]
+  year: 2024
+  journal: "Psychology & Marketing"
+  volume: "41"
+  issue: "12"
+  pages: "2977-2991"
+  online: "2024-08-07"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Timo Mandler"
+      affiliation: "Department of Marketing, TBS Business School, Toulouse, France"
+      orcid: ""   # none printed on the article; OpenAlex suggests 0000-0002-7585-8891, but that ORCID record does not list this DOI
+    - name: "Gerrit P. Cziehso"
+      affiliation: "ALDI Data & Analytics Services GmbH, Mülheim an der Ruhr, Germany"
+      orcid: ""
+    - name: "Tobias Schaefers"
+      affiliation: "Department of Marketing, Copenhagen Business School, Frederiksberg, Denmark; Bielefeld School of Business, Hochschule Bielefeld—University of Applied Sciences and Arts, Bielefeld, Germany"
+      orcid: "0000-0002-2533-335X"
+    - name: "Ann-Kristin Kupfer"
+      affiliation: "Institute of Information Systems and Marketing (IISM), Karlsruhe Institute of Technology (KIT), Karlsruhe, Germany"
+      orcid: ""
+    - name: "Alexander Mafael"
+      affiliation: "Center for Retailing, Department of Marketing and Strategy, Stockholm School of Economics, Stockholm, Sweden"
+      orcid: "0000-0002-0708-9795"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 5
+    basis: "Five experiments: Study 1 lab purchase test with real vouchers (143 students), Study 2 lab facial-expression test (56), Studies 3a and 3b online with students (279; 179), Study 4 preregistered on Prolific (400); qualitative pilot (45 students) not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Timo Mandler of TBS Business School in Toulouse, Gerrit P. Cziehso of ALDI Data & Analytics Services in Germany,
+      Tobias Schaefers of Copenhagen Business School and Hochschule Bielefeld, Ann-Kristin Kupfer of the Karlsruhe Institute
+      of Technology and Alexander Mafael of the Stockholm School of Economics looked at a small choice publishers make every
+      day. A preview of an article or a video can stop where a sentence ends. Or it can stop just after a new sentence
+      begins, leaving the reader hanging. Both styles are common on news sites and blogging platforms, sometimes for the very
+      same story.
+
+      Theory points both ways. A gap in what you know makes you curious, and curious people want to close it. But a gap you
+      can only close by paying might look less like a hook and more like a trap.
+
+      The team began with a written pre-test, asking students to describe how a cut-off preview made them feel. They then ran
+      five experiments. The first two took place in a lab, with a news article people had to pay for. The other three set
+      free and paid versions side by side, first with text, then with video, and finally with a broader group of adults in
+      a study registered before it ran.
+    facts:
+      - ["Pre-test", "45 students wrote about a cut-off news preview, with or without a charge to read on"]
+      - ["Experiments", "Two in a lab with students (143 and 56), two online with students (279 and 179), one online with 400 adults on Prolific"]
+      - ["Content", "Previews of news articles on job prospects, a spring break party and summer travel, plus a short video on making money with Bitcoin"]
+      - ["The cut-off", "Unfinished versions added the opening words of one more sentence, such as \"It soon became obvious that ...\""]
+      - ["The price", "€0.49 to unlock the rest, wherever a price was named"]
+      - ["Measured", "Real purchases, facial expressions, plans to buy or read, curiosity, and how plainly people felt they were being persuaded"]
+      - ["Checks", "Sample sizes worked out in advance; the final study registered on AsPredicted"]
+
+  - h: "What happened when the rest cost money"
+    body: |
+      The first experiment put a real choice on the table. Each student got two vouchers worth €0.50 each. After reading a
+      teaser about job prospects in business, they could spend one voucher on the full article, or swap both for a chocolate
+      bar, a lollipop or a pencil. The groups differed in one thing only: whether the teaser trailed off with "In addition, it
+      has been shown that ..." or ended with a complete sentence. The trailing version sold markedly fewer articles.
+
+      The second experiment watched faces rather than wallets. A webcam and emotion-reading software followed students as
+      they read the same teaser and then reached the payment notice. During the opening lines the two groups looked much
+      alike. After a clean ending their expressions held steady. After the cut-off ending they turned clearly more negative,
+      just as the reader learned there was a charge to see the rest.
+
+  - h: "When the rest was free, the cut-off helped"
+    body: |
+      The third experiment added the comparison that matters most. Students read a short, light piece about students
+      celebrating spring break and were told three quarters of it was missing. Some learned they could read on for free;
+      others that they would have to pay. On free content, the unfinished ending left people keener to keep reading. On
+      paid content, it put them off buying.
+
+      The fourth experiment swapped text for video. A clip promising tips on earning money from Bitcoin either broke off as
+      the voice said "Bitcoin is ..." or finished its thought. With the cut-off, viewing intentions for the free version
+      rose from 4.05 to 4.78 out of 7. On the paid side buying intentions dipped again, but this time the gap was too
+      small to rule out chance with the usual confidence.
+    chart: flip
+
+  - h: "Why a price changes how the gap feels"
+    body: |
+      The final experiment, with adults screened for an interest in travel, looked at what went on in people's heads. Two
+      forces were at work. Curiosity rose with the cut-off ending, but only where the article was free. On paid content
+      curiosity stayed low whatever the ending. What moved instead was the sense that the publisher was plainly trying to
+      persuade them, which climbed when an unfinished teaser met a price.
+
+      Tests of the two routes matched that picture. For free content the extra reading ran through curiosity. For paid
+      content the only route that registered ran through the feeling of being worked on, and it pointed downwards. One detail is worth knowing: in this experiment, buying
+      intentions for the paid article were low and barely differed between the two endings. The lost sales show most
+      clearly in the lab purchase test.
+
+      Free readers also rated the teaser as a fairly clear attempt to persuade, whichever ending they got. They simply did not hold it
+      against the publisher. Being nudged towards something you can have at once feels very different from being nudged
+      towards the till.
+    chart: sold
+
+  - h: "Where each ending belongs"
+    body: |
+      The practical split is clear. If the click leads to something free, such as an article paid for by advertising, a
+      preview that stops mid-sentence is the better choice. The authors mention short news snippets in search results
+      that send readers on to a publisher's site, and travel reviews that open in full on a click. If the click leads to a
+      paywall, the preview that ends on a full stop wins.
+
+      Publishers who still want the cut-off style on paid content get two suggestions, neither tested here: say clearly
+      and early that the piece is paid, and explain why the price is there. Both aim to make the charge feel open and
+      fair. The authors also urge A/B tests of teaser styles on each audience, since the best length and wording
+      will vary from one readership to the next.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List every preview you publish", "Go through your homepage, newsletter, app and social posts. Write down each place where readers see the first lines of a piece, and mark whether the click leads to free content or to a paywall."]
+  - ["Set one ending rule for each kind", "For anything free, plan previews that stop a few words into a new sentence. For anything behind a paywall, plan previews that stop at a full stop. Add both rules to your style guide."]
+  - ["Finish paid previews cleanly", "Cut each paid preview at the end of a sentence. Pick a sentence that tells the reader what the rest will give them, such as the three tips or the final answer."]
+  - ["Break free previews at a promising point", "End each free preview three to five words into a sentence that sets up a payoff, such as \"The second reason is ...\". Never cut in the middle of a name or a figure."]
+  - ["Show the price before the preview", "On paid pieces, put a clear subscriber label next to the headline, above the first line. Add one short line on what the payment supports, so the paywall never comes as a surprise."]
+  - ["Compare both endings for two weeks", "Show half your visitors the clean ending and half the cut-off one. After two weeks, count new subscribers from paid pieces and reads of free ones. Scan replies and comments for words like trick or clickbait."]
+
+expect:
+  - "**The free-content gain is the steady part.** A cut-off ending raised reading or viewing intentions for free content in every experiment that offered it."
+  - "**Paying stays a hard sell.** Even with the better ending, willingness to pay for a single article or video stayed low, under 3 out of 7, in every online test. A good teaser trims losses; it does not create keen buyers."
+  - "**Read the lab figure as a direction.** The authors warn against leaning on the size of the drop in purchases, since it comes from one lab test. The direction is what held up across their work."
+  - "**More traffic on free pieces.** Cut-off previews should send more readers through to free content, which can feed advertising income. Intentions to read were measured; ad revenue was not."
+
+limits:
+  - "**Mostly students.** Four of the five experiments used university students; only the last drew on a wider panel of adults."
+  - "**A tiny price for a single piece.** The charge was under a euro. Subscriptions and larger sums were not tested."
+  - "**Mostly stated intentions.** One experiment recorded real purchases. Everywhere else, people rated their own plans."
+  - "**Excerpts only.** Every teaser was the opening of the piece itself, seen just before the choice to read on. Recut summaries, or previews seen days before buying, may behave differently."
+  - "**One sitting, one teaser.** Each person met a single preview once. Regular readers who know how a site's previews work may react in other ways."
+
+faq:
+  - q: "Do teasers that stop mid-sentence get more clicks?"
+    a: "On free content, yes. A preview that breaks off just as a new sentence starts made people more curious and readier to read or watch the rest, provided nothing stood between them and it (Mandler et al., 2024)."
+  - q: "Why would a cliffhanger teaser hurt sales of paid content?"
+    a: "The price changes what the gap means. Once people see they must pay to finish the sentence, the cut-off looks deliberate, and they resist by not buying. Their curiosity about the rest does not grow enough to make up for it."
+  - q: "What is persuasion knowledge?"
+    a: "Everything people have learned about how sellers try to influence them. When a tactic looks too obvious, that knowledge kicks in: people start asking what the seller is after and become harder to win over."
+  - q: "Does this apply to video previews as well as text?"
+    a: "It held for a short video that stopped as the speaker began a new sentence, as well as for text previews of news articles. Film trailers, which recut scenes into a new story, were not tested, and the authors do not extend the results to them."
+  - q: "How should a paywalled publisher write its previews?"
+    a: "End them on a full stop. The clean ending sold more in the lab and drew fewer negative reactions, while the cut-off ending only helped where readers could carry on for free."
+
+also:
+  - doi: "10.1177/00222437241268491"
+    title: "Sharing to Persuade: The Role of Donor- Versus Charity-Focused Word of Mouth"
+    authors: "Boman & He"
+    journal: "Journal of Marketing Research"
+    year: 2025
+    text: >-
+      Charities often ask donors to post about their gift, either about themselves ("I just gave") or about the cause.
+      Donors turned out to be more willing to share posts about the charity than about their own donation, because talking
+      about yourself feels less selfless and so seems less likely to move friends. Posts about the charity also brought in
+      more new donors. When you hand supporters a ready-made post, the cause should be the hero, not the giver.
+  - doi: "10.1177/00222437241270194"
+    title: "Wait for Free: A Consumption-Decelerating Promotion for Serialized Digital Media"
+    authors: "Choi, Chae & Feinberg"
+    journal: "Journal of Marketing Research"
+    year: 2025
+    text: >-
+      A digital comics platform let readers unlock the next episode of chosen series for free if they waited a set time,
+      or pay to read it straight away. Viewing data showed the offer raised paid reading of those series, from impatient
+      readers and from readers who got far enough to reach the paid-only episodes at the end. A model-picked set of
+      promoted comics would have earned about 18% more than the platform's own picks. Slowing people down, rather than
+      rushing them, can be the promotion.
+
+charts:
+  flip:
+    title: "Intentions to buy or read the full article, by teaser ending and access (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Paid, finished teaser", 1.40, false]
+      - ["Paid, unfinished teaser", 1.13, false]
+      - ["Free, finished teaser", 3.30, false]
+      - ["Free, unfinished teaser", 4.27, true]
+    source: "Study 3a, online experiment with 279 students, spring break article. The cut-off ending lowered buying intentions and raised reading intentions; both differences were significant."
+  sold:
+    title: "How plainly the publisher seemed to be persuading readers (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Paid, finished teaser", 3.62, false]
+      - ["Paid, unfinished teaser", 4.54, true]
+      - ["Free, finished teaser", 4.22, false]
+      - ["Free, unfinished teaser", 4.41, false]
+    source: "Study 4, preregistered online experiment with 400 adults, summer travel article. Only the rise for paid content was significant."
+
+related_pages: []

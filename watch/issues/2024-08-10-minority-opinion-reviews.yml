@@ -1,0 +1,239 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 31                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-08-10"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: minority-opinion-reviews
+status: live
+
+title: "Will customers post a review when they disagree with the star rating? What an International Journal of Research in Marketing study found"
+dek: >-
+  On most review sites a handful of regulars write much of what you read, and everyone else posts now and then. Seven
+  experiments show that disagreeing with the average rating draws the regulars in, leaves occasional reviewers cold, and that
+  two cheap changes can get the quieter customers posting.
+short_title: "Who posts a review when the crowd disagrees"
+
+description: >-
+  Möller-Herm et al. find frequent reviewers are drawn to post when they differ from the average rating, while occasional
+  ones hold back for fear of being judged.
+
+keywords: [online reviews, review request emails, minority opinion, star ratings, frequent reviewers, review platform design,
+  spiral of silence, review helpfulness votes, user-generated content, customer feedback,
+  International Journal of Research in Marketing]
+topics: [UGC, Retail, Service]
+
+image:
+  file: 2024-minority-opinion-reviews.jpg
+  og: 2024-minority-opinion-reviews-og.jpg
+  alt: "Three people seen from above on a wet stone street, two under matching red-and-white striped umbrellas and one under a plain deep-red umbrella"
+  caption: "Standing out from the crowd comes easier to people who have done it before. Photo: bckfwd on Unsplash."
+
+short_answer: >-
+  It depends on how often they already review. In seven experiments with 2,444 people in the US and Europe, frequent
+  reviewers grew keener to post when their verdict clashed with the average rating, because a contrary review let them
+  stand out. Occasional reviewers felt no such pull and saw mainly the risk of being judged. A warmer invitation email and
+  fewer ways to vote reviews down made them readier to speak up.
+
+takeaways:
+  - "Telling Amazon shoppers they belonged to the group who review a lot raised their stated likelihood of posting a dissenting review of a disappointing novel from 3.49 to 4.31."
+  - "Among frequent reviewers, holding the minority view on a pair of headphones lifted intention to post from 4.21 to 5.41 out of 7; for occasional reviewers the shift, 3.48 to 3.88, was too small to count."
+  - "An invitation email that praised unique and diverse views was rated as doing more to put people at ease about sharing (4.60 against 3.68 out of 7), although both emails read as equally clear requests (6.29 and 6.39)."
+  - "Letting other users comment and vote a review unhelpful made posting feel riskier across the board: the social risk score of occasional reviewers climbed from 1.84 to 2.75, and that of frequent ones from 1.83 to 2.16."
+
+paper:
+  doi: "10.1016/j.ijresmar.2024.08.005"
+  title: "To post or not to post: How minority opinion and posting frequency impact online review posting"
+  authors: ["Möller-Herm, J.", "Gottschalk, S. A.", "Mafael, A."]
+  authors_full: ["Jana Möller-Herm", "Sabrina A. Gottschalk", "Alexander Mafael"]
+  year: 2025
+  journal: "International Journal of Research in Marketing"
+  volume: "42"
+  issue: "2"
+  pages: "235-254"
+  online: "2024-08-10"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Jana Möller-Herm"
+      affiliation: "Marketing-Department, School of Business and Economics, Freie Universität Berlin, Berlin, Germany"
+      orcid: ""   # none printed and none in Crossref; OpenAlex gives 0000-0002-0129-670X, but that ORCID record does not list this DOI, so no link (guide rule)
+    - name: "Sabrina A. Gottschalk"
+      affiliation: "Faculty of Management, Bayes Business School, City, University of London, London, United Kingdom"
+      orcid: ""
+    - name: "Alexander Mafael"
+      affiliation: "Center for Retailing, Department of Marketing and Strategy, Stockholm School of Economics, Stockholm, Sweden"
+      orcid: ""   # none printed and none in Crossref; OpenAlex gives 0000-0002-0708-9795, but that ORCID record does not list this DOI, so no link (guide rule)
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 7
+    basis: "Seven experiments (Studies 1a-1d, 2, 3a, 3b; 2,444 people after screening, six samples of US adults on Prolific and one European university pool); the Yelp field-data analysis the authors label a pilot study is not counted, nor are the 12 exploratory interviews"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Jana Möller-Herm of Freie Universität Berlin, Sabrina A. Gottschalk of Bayes Business School at City, University of
+      London, and Alexander Mafael of the Stockholm School of Economics started from a moment most online shoppers know. An
+      email asks you to review something you bought. You open the page, and the average rating says the crowd saw it very
+      differently. Do you add your view, or close the tab?
+
+      Earlier work had looked at how existing reviews nudge the stars people give. This team asked about the step before that:
+      whether people post at all. They expected the answer to depend on how often a person reviews, because on many sites a
+      small group of heavy users writes most of the content and everyone else posts only once in a while.
+
+      They began with 12 exploratory interviews and an analysis of Yelp data, which they treat as a pilot. Seven experiments
+      followed. Most asked people to imagine or recall a product, told them where their own verdict stood against the average
+      rating, and asked whether they would post. Two went further, offered a button to share a review, and counted who
+      pressed it.
+    facts:
+      - ["Field data", "393,511 Yelp reviews of 1,612 Boston restaurants, posted between June 2005 and February 2021"]
+      - ["Experiments", "Seven, with 2,444 people after quality screening: six with US adults from the Prolific panel, one with a participant pool at a European public university"]
+      - ["Products", "A novel, headphones, an animated short film, a favourite movie, a restaurant meal, an electronic gadget and each person's last online purchase"]
+      - ["Reviewing habit", "The number of reviews people had posted on Amazon, on Yelp or anywhere in the past year, or their own rating of how often they post; in one study they were simply told which group they belonged to"]
+      - ["Measured", "Likelihood of posting, rated from 1 (not at all likely) to 7 (very likely), in most studies; a real press of a share button in two"]
+      - ["Checks", "Screening questions and attention checks; in the button studies, nobody guessed what was being tested"]
+
+  - h: "Who speaks up against the crowd"
+    body: |
+      The pattern held across very different products. People watched the same animated short, rated it, and then heard that
+      most of the 79 earlier viewers had rated it the other way. Frequent reviewers in that position were keener to post,
+      scoring 4.83 against 4.09 for those told most others agreed. Occasional reviewers drifted down
+      instead, from 3.55 to 3.23, though that dip could be chance.
+
+      The strongest test asked people to name a film they had recently enjoyed and write a few lines about it. They then saw an
+      average from 484 ratings that either matched their taste or panned the film, and were given the option to share their
+      review. Frequent reviewers who found themselves on the losing side pressed the button far more often. For occasional
+      reviewers, whether the crowd agreed changed nothing.
+
+      The Yelp records point the same way. Heavy reviewers were more likely to add a review to restaurants whose earlier
+      ratings were spread out, with no clear majority. The authors add a caution here: the data cannot show who chose to
+      stay silent, so it supports the experiments rather than proving anything on its own.
+    chart: clicks
+
+  - h: "Why disagreeing appeals to the regulars"
+    body: |
+      The next experiment set out to find out why. Yelp users imagined a very poor dinner at an Italian restaurant that 364
+      other customers had rated either well or badly. Before saying whether they would post, they placed themselves between
+      two poles on three statements. One pole described worry that others would disapprove. The other described a chance to
+      show who they are as a reviewer.
+
+      Frequent reviewers who disagreed with the crowd leaned towards the identity end, scoring 5.33
+      against 4.48 when they agreed (7 sits at the identity pole). Occasional reviewers did not move that way, and they were less inclined to post a dissenting
+      review than one that matched everyone else. That balance between risk and showing who you are is what pushed the
+      regulars towards posting.
+
+      Two other explanations fell away. Wanting to show off knowledge of restaurants was not behind it, and nor
+      was a belief that the earlier raters knew little. For a regular, a contrary review is a way of standing out. For
+      everyone else, it feels more like sticking out.
+
+  - h: "Two changes that brought quieter customers in"
+    body: |
+      The last two experiments tested levers that a retailer or review site controls. In the first, US shoppers recalled an
+      electronic gadget they had disliked, rating it 2.58 stars on average, and read that 265 reviewers on Best Buy's site
+      thought otherwise. They then received one of two invitation emails. The standard one simply asked for feedback. The other
+      said the site valued unique and diverse perspectives. That second version led more people to press the button and post,
+      and it worked whatever people's reviewing habit.
+
+      The second, with 587 people, varied what other users could do to a review on a made-up platform. Some versions allowed
+      nothing, some only a "helpful" button, and some allowed comments plus "helpful" and "unhelpful" votes. This time, whether
+      the average rating agreed with the person did not matter. The feedback tools did. Occasional reviewers became much
+      less willing to post as the options grew, while frequent reviewers were unmoved. For platforms this is a live choice:
+      Amazon removed public comments on reviews in December 2020 and kept only a "helpful" vote.
+    chart: cues
+
+  - h: "What a reworded email could be worth"
+    body: |
+      The authors close with rough sums and label them an extrapolation from experimental results. Picture a retailer with a
+      million customers and $5 million in sales. With no request, about 4% of customers write a review; a standard request
+      email raises that to 7%, or 70,000 reviews. Applying the effect of the reworded email, they estimate 14,000 more and,
+      using a published estimate of how review volume feeds into sales, $277,932 in extra revenue by their reckoning.
+
+      They run the same sums for feedback tools. In their example, dropping from full commenting and voting to a lone "helpful"
+      button lifts reviews from occasional reviewers from 40,000 to 70,000, and removing feedback altogether takes the figure to
+      100,000, worth up to $1.77 million in sales. With more cautious assumptions they still arrive at $136,966 for the email and
+      $580,000 for the feedback change. Read the exact figures as an illustration rather than a forecast.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Find out who writes your reviews", "Export the reviews posted on your products in the past year. Count how many were written by people with three or more earlier reviews and how many by first-timers. If a few regulars wrote most of them, your average reflects their tastes more than your customers'."]
+  - ["Strip pressure out of your review request", "Open the email or text that goes out once an order arrives. Check whether it shows the current star average, asks for a good review or offers a reward. Take all three out."]
+  - ["Add one line that welcomes a different view", "Write a sentence saying that every honest experience helps the next shopper, including ones that differ from what most people have said. Put it near the top, keep the rest short and make the button easy to find."]
+  - ["Cut back public judging of reviews", "If you run your own review section, switch off comments and thumbs-down votes on reviews, or keep a single helpful button. If that is too big a step, hide them on anyone's first review."]
+  - ["Test the new request against the old", "Split your next 2,000 buyers into two equal lists. Keep your current wording for the first list and use the new wording for the second. Four weeks later, count reviews posted for every 100 messages on each list."]
+  - ["Track new voices, not just more stars", "Each month, count first-time reviewers and reviews whose rating sits at least two stars from the average. Read those first: they are where quality problems and fresh ideas tend to show up early."]
+
+expect:
+  - "**Cheap to try.** In the authors' sums, rewording the email is a one-off cost of about $2,000, and reworking the feedback buttons about $10,000."
+  - "**The regulars may answer first.** Our own reading: frequent reviewers already like a chance to disagree, so a request that openly invites contrary views may hear from them before anyone else."
+  - "**A wider spread of ratings.** If more occasional customers post when they disagree, averages may move and mixed reviews may grow. The authors see that as useful, since contrary reviews can flag a drop in quality early."
+  - "**Fewer signals for readers.** Removing votes and comments takes away some cues shoppers use to judge which reviews to trust. The experiments measured posting only, not how readers cope without those cues."
+
+limits:
+  - "**Mostly stated plans.** In five of the seven experiments people only said whether they would post. In the two that recorded a press of the button, it led to an error screen, so no review was ever published."
+  - "**Two kinds of volunteers.** Six samples came from one US online panel and the seventh from a university participant pool in Europe. Shoppers elsewhere, or with less experience of online studies, may react differently."
+  - "**The field data cannot see silence.** Yelp holds only reviews that were posted, which leaves a link between heavy reviewers and split ratings but no proof of cause."
+  - "**One cue only.** The average star rating was the only sign of what others thought. The text of earlier reviews, how many there were and how recent they were went untested."
+  - "**The money is a model.** The revenue figures combine one experiment's effect with outside estimates of review rates and of sales, and the authors themselves urge caution."
+
+faq:
+  - q: "Do people stay silent when their review would go against the average rating?"
+    a: "Occasional reviewers feel no extra urge to post, and in one test were less inclined to, because a contrary review seems socially risky to them. Frequent reviewers react the opposite way and are more likely to post when they disagree, treating it as a chance to stand out (Möller-Herm et al., 2025)."
+  - q: "Why do a few people write most online reviews?"
+    a: "On many platforms a small group posts often while most customers post rarely, if ever. Sites reward the heavy users with badges and leaderboards, and in the paper's account that standing makes disagreeing feel safer for them. The upshot is a body of reviews that leans towards their tastes."
+  - q: "Should a review site remove comments and down-votes on reviews?"
+    a: "For occasional reviewers, fewer ways to be judged made posting more likely, and frequent reviewers did not mind either way. A platform that wants a broader set of voices has good reason to scale them back, although it gives up some signals readers use to sort useful reviews from weak ones."
+  - q: "How should I word a request for a review?"
+    a: "Say plainly that you value unique and varied views. That message raised willingness to post a review that went against the crowd. Avoid asking for positive reviews or paying for them, practices that retailer guidelines already discourage."
+  - q: "Is a product's average star rating a fair picture of what customers think?"
+    a: "Not entirely. Heavy reviewers are drawn in by disagreement, while occasional customers with a contrary view are no keener to share it, so some experiences never reach the page. Look at the spread of ratings and read the text, not just the average."
+
+also:
+  - doi: "10.1177/00222429241276529"
+    title: "AI–Human Hybrids for Marketing Research: Leveraging Large Language Models (LLMs) as Collaborators"
+    authors: "Arora, Chakraborty & Nishimura"
+    journal: "Journal of Marketing"
+    year: 2025
+    text: >-
+      Working with a large food company, the authors replayed an interview and survey project the firm had run in 2019, this time
+      with GPT-4 building personas, playing respondents and even moderating in-depth interviews. Teamed with human researchers,
+      the model produced richer interview material than people working alone and matched them at summarising themes. In the
+      survey part it got the direction of answers right, and quality improved when it was shown worked examples and relevant
+      documents. A synthetic panel is at its best as a colleague who drafts, with a person checking the work.
+  - doi: "10.1177/00222429241274727"
+    title: "Within-Category Satiation and Cross-Category Spillover in Multiproduct Advertising"
+    authors: "Lu, Yang & Yao"
+    journal: "Journal of Marketing"
+    year: 2025
+    text: >-
+      Some display ads pack several products into one unit, so a shopper might see three similar pairs of trainers side by side,
+      or trainers next to a water bottle. Using data from a large display network, this study found that interest wears off
+      when one category repeats, at a pace that varies by person and category, and that some category pairings lift each
+      other's clicks. Simulated changes to serving rules suggest that rules which narrow the mix, including some meant to protect
+      privacy, could leave both shoppers and the platform worse off. The mix inside a single ad unit deserves a plan of its own.
+
+charts:
+  clicks:
+    title: "Share of reviewers who pressed the button to post their film review, by reviewing habit and whether the crowd agreed"
+    scale: [0, 60]
+    step: 10
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Occasional, crowd agreed", 28, false]
+      - ["Occasional, crowd disagreed", 28, false]
+      - ["Frequent, crowd agreed", 34, false]
+      - ["Frequent, crowd disagreed", 54, true]
+    source: "Study 1d, 385 US adults with Amazon accounts; model estimates one standard deviation below and above average posting frequency, read from the published figure. Pressing the button only brought up a fake connection error, so nothing was posted."
+  cues:
+    title: "Likelihood of posting a review on a platform with no feedback tools or with full commenting and voting (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Occasional, no feedback tools", 3.35, true]
+      - ["Occasional, comments and votes", 1.95, false]
+      - ["Frequent, no feedback tools", 4.63, false]
+      - ["Frequent, comments and votes", 4.70, false]
+    source: "Study 3b, 587 members of a European university participant pool. Values are the published figure's estimates for people one standard deviation under and over the mean reviewing frequency; the helpful-button-only version is not plotted."
+
+related_pages: []

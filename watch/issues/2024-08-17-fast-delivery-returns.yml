@@ -1,0 +1,224 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 32                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-08-17"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: fast-delivery-returns
+status: live
+
+title: "Does faster delivery lead to more product returns? What a Journal of Retailing study found"
+dek: >-
+  Retailers have spent years shaving days off delivery. Order data from a global fashion retailer suggests a parcel that
+  arrives early is more likely to go back, and that new customers react to it most.
+short_title: "Why a fast parcel is more likely to come back"
+
+description: >-
+  Masuch et al. find that in 1.8 million US fashion orders, parcels that came ahead of the average delivery time were sent
+  back more, most sharply by new buyers.
+
+keywords: [delivery speed, fast delivery, product returns, ecommerce returns, online fashion retail, return rates,
+  first-time customers, order fulfilment, buyer's remorse, cognitive dissonance, Journal of Retailing]
+topics: [Retail, Service]
+
+image:
+  file: 2024-fast-delivery-returns.jpg
+  og: 2024-fast-delivery-returns-og.jpg
+  alt: "A small silver van races along a road past a bright yellow field, the trees behind it streaked by motion blur"
+  caption: "A parcel can reach the door before its buyer has made peace with the purchase. Photo: Iván Antonio on Unsplash."
+
+short_answer: >-
+  Yes, in fashion at least. Researchers looked at close to 1.8 million single-item orders on a worldwide fashion
+  retailer's US website. Parcels that turned up sooner than the usual delivery time came back more often, and so did
+  late ones. The rise for early parcels was sharpest among people buying from the shop for the first time. Quick
+  delivery seems to leave buyers less time to feel sure about what they chose.
+
+takeaways:
+  - "For a new customer, each day a parcel beat the average delivery time raised the chance of a return by 0.36 percentage points. For a returning customer the rise was 0.12 points."
+  - "Delays still cost something: every day late added about 0.11 points to the return chance, whether or not the person had bought there before."
+  - "Truly quick parcels were rare. Only 7.9% arrived within two days of the order, and the average took 4.93 days."
+  - "A follow-up survey of 1,001 US shoppers weighed 10 possible reasons. Just two linked a speedy arrival to a return: second thoughts about the purchase and bad feelings when it landed."
+
+paper:
+  doi: "10.1016/j.jretai.2024.07.002"
+  title: "The faster, the better? The impact of short delivery times on product returns in online retailing"
+  authors: ["Masuch, S.", "Landwehr, J. R.", "Flath, C. M.", "Thiesse, F."]
+  authors_full: ["Simon Masuch", "Jan R. Landwehr", "Christoph M. Flath", "Frédéric Thiesse"]
+  year: 2024
+  journal: "Journal of Retailing"
+  volume: "100"
+  issue: "3"
+  pages: "475-485"
+  online: "2024-08-17"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Simon Masuch"
+      affiliation: "Faculty of Management and Economics, Julius-Maximilian University of Würzburg, Germany"
+      orcid: ""
+    - name: "Jan R. Landwehr"
+      affiliation: "Faculty of Economics and Business Administration, Goethe University Frankfurt, Germany"
+      orcid: "0000-0001-5433-8865"
+    - name: "Christoph M. Flath"
+      affiliation: "Faculty of Management and Economics, Julius-Maximilian University of Würzburg, Germany"
+      orcid: "0000-0002-1761-9833"
+    - name: "Frédéric Thiesse"
+      affiliation: "Faculty of Management and Economics, Julius-Maximilian University of Würzburg, Germany"
+      orcid: "0000-0002-7718-8406"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival dataset: 1,802,467 single-item, free-standard-shipping orders on a global fashion retailer's US site, first half of 2019, analysed in five logit models; the follow-up recall survey of 1,001 US MTurk shoppers in the online appendix is reported but not counted, as with other web-appendix studies"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Simon Masuch, Christoph M. Flath and Frédéric Thiesse of Julius-Maximilian University of Würzburg, with Jan R. Landwehr
+      of Goethe University Frankfurt, questioned one of online retail's firmest beliefs: the quicker a parcel arrives, the
+      better for everyone. Shops have poured money into cutting delivery times, and earlier work had already tied late parcels
+      to more returns. Nobody had checked what happens when a parcel turns up early.
+
+      They worked with the order records of a clothing and footwear company whose annual sales top $20 billion worldwide,
+      and looked only at its US website. Shoppers were given a standard delivery window, and some parcels beat it for
+      ordinary reasons, such as living near a warehouse, ordering at a quiet hour or spare room on a truck. Since shoppers
+      had no say in that luck, the spread in delivery times works almost like a natural experiment.
+
+      The team kept orders holding a single item, sent free to a home address. That rules out shoppers who order the same piece
+      in several sizes to keep only the one that fits. For each order they knew how many days it took and whether the customer
+      returned it. They then modelled the odds of a return from earliness and lateness, adding controls step by step for
+      the date, the product group, the exact article and, in the strictest version, the customer.
+    facts:
+      - ["Data", "1,802,467 single-item orders on the US site, January to June 2019, about two thirds of that period's sales volume"]
+      - ["Customers", "1,473,481 buyers, 461,565 of them repeat customers; accounts with over 100 orders in two years removed as likely businesses"]
+      - ["Promise", "Free standard shipping with a quoted window of 3 to 5 business days; paid express and pick-up station orders left out"]
+      - ["Returns policy", "Full refund within 30 days of delivery, with free return shipping"]
+      - ["Measured", "Days early or late against the average delivery time, and whether the item was sent back"]
+      - ["Method", "Logistic regression in five versions with growing sets of controls, up to each individual customer"]
+
+  - h: "Early parcels came back more often"
+    body: |
+      Even before any modelling, the raw figures pointed one way. Return rates ran higher for parcels that took five days
+      or less, and rose again for those that took more than eight. Beyond eleven days they fell back, a dip the authors
+      blame on oddities such as pre-ordered limited editions rather than slow service.
+
+      The models confirmed the pattern. Each additional day of earliness made a return more likely, and so did each day
+      of lateness. The early effect was statistically reliable in four of the five versions and never
+      flipped direction. In the strictest one, which compared each customer only with their own other orders, it grew
+      stronger rather than fading. That makes it hard to explain away as fussier shoppers who happen to live near a warehouse.
+    chart: perday
+
+  - h: "New customers react most"
+    body: |
+      On the whole, people buying for the first time were slightly less likely than regulars to send anything back, by about
+      1.7 percentage points. Yet an early parcel moved them most. For a newcomer, a day ahead of schedule did more to push up
+      returns than a day behind it.
+
+      The authors suggest that newcomers have no feel yet for how long this shop usually takes, so a surprise arrival weighs
+      more. They may also be less certain the item will be worth the money, which leaves more room for doubt.
+
+  - h: "Why a quick parcel can backfire"
+    body: |
+      Two ideas pulled in opposite directions. One says customers judge the service against what they expected, so an early
+      parcel should delight them and make a return less likely. The other starts the clock at the moment of purchase. Doubts
+      about a choice peak straight after buying and ease as people find reasons to be happy with it. A parcel that comes very
+      fast cuts that settling time short. The order data backed the second idea.
+
+      To probe it, the team ran a follow-up survey, reported in the paper's online appendix. American shoppers who had bought one
+      fashion item online in the past four weeks recalled when it arrived and whether they kept it, then rated ten possible
+      explanations, from a sense of ownership to anticipation and impulse buying. An early arrival did leave people more upbeat
+      and more likely to see the shop as warm, but neither feeling made any difference to returns. Only doubt about the purchase
+      and negative feelings on arrival carried an early parcel through to a return.
+    chart: arrival
+
+  - h: "Three ways to take the edge off"
+    body: |
+      The authors stop short of naming an ideal delivery time, because their data could not show how speed affected the decision
+      to buy. They offer three ideas instead. First, look at who is buying: since early parcels unsettle newcomers most, a shop
+      could ease off on first orders. Second, let people pick slower delivery themselves, for instance as a climate-friendly
+      option that also lets the retailer plan its vans better. Someone who chose the wait should not resent it. Third, help
+      buyers settle their doubts sooner, for example with an email after the order that lists good reasons for the purchase.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Measure your real delivery times", "Pull three months of single-item orders from your shop. For each one, note the days from order to doorstep and whether it came back. Leave out multi-item orders, where people often buy two sizes and return one."]
+  - ["Flag first orders", "Mark every order that was a customer's first with you. Compare how often first orders and repeat orders come back when the parcel lands early. If first orders come back more, start with them."]
+  - ["Add a no-rush option at checkout", "Offer a slower, greener delivery choice next to the standard one, for example five to seven days. Let customers choose it. Say plainly what it saves, such as fewer van trips."]
+  - ["Send a short 'good choice' email", "Write a five-line message that goes out the day the parcel ships. Give three plain reasons the item suits the buyer: how it fits, what to wear it with and how to care for it."]
+  - ["Trial slower dispatch for first orders", "For four weeks, ship half of all first orders as usual. Send the other half so they land near the end of the promised window, never after it. Change nothing else."]
+  - ["Compare returns and second orders", "Sixty days later, check both groups on three numbers: items sent back, money refunded and second orders placed. Keep the slower route only if returns drop without losing repeat buyers."]
+
+expect:
+  - "**Small per parcel, real at scale.** A day's difference moved a single order's return odds by well under one percentage point. It matters because a busy shop ships huge numbers of parcels, so judge any change on volume."
+  - "**Busier service desks.** In the follow-up survey, people whose order came sooner than expected had also contacted the retailer more often, driven by the same doubts and bad feelings."
+  - "**Speed still sells.** The authors cite earlier work linking short delivery promises to more sales. Their data could not set those gains against the returns."
+  - "**Fashion may be the hardest case.** The authors quote a 26% online return rate for US fashion in 2022, against 5% for pet products. Speed may cost less where returns are rare."
+
+limits:
+  - "**One shop, one country, one category.** Every order came from a single fashion retailer's US site with generous free returns. Other markets, products or stricter policies could behave differently."
+  - "**Returns only.** The records said nothing about whether speed won the sale in the first place, so the net effect on profit is unknown."
+  - "**Speed by luck, not by choice.** The early parcels were early thanks to smooth logistics. Customers who pay extra for express delivery may react in another way."
+  - "**A narrow slice of orders from 2019.** Multi-item baskets, paid express shipping and collection points were left out, and the data predate the shift in shopping habits that came with the pandemic."
+  - "**The reason is still a hypothesis.** The evidence on doubts and bad feelings rests on people's memories of their last order, and nobody's delivery speed was set at random. The authors call it preliminary."
+
+faq:
+  - q: "Does faster delivery increase product returns?"
+    a: "In fashion, it appears to. In a large retailer's US orders, items that beat the normal delivery time were returned more often, with the strongest effect among first-time customers (Masuch et al., 2024)."
+  - q: "How can an early parcel lead to a return?"
+    a: "Doubts about a purchase run highest just after buying and fade as the buyer comes to terms with it. A parcel that lands very soon arrives while those doubts are still fresh. Psychologists call this post-purchase cognitive dissonance."
+  - q: "Should online shops slow down their deliveries?"
+    a: "Not across the board. Speed helps win orders, and late parcels raise returns as well. The authors point to narrower moves: easing off for first-time buyers, or offering a slower delivery that customers choose for themselves."
+  - q: "Do late deliveries also lead to returns?"
+    a: "Yes. As in earlier work, each day a parcel ran late made a return a little more likely. The difference is that lateness affected new and repeat customers about equally, while early arrivals mainly unsettled newcomers."
+  - q: "Which fashion items get returned most?"
+    a: "In this retailer's data, shoes came back more often than clothing, women's items more often than men's, and full-price pieces more often than discounted ones. Pricier and less popular articles were returned more too."
+
+also:
+  - doi: "10.1002/jcpy.1437"
+    title: "Social platform use and psychological well-being"
+    authors: "Crolic et al."
+    journal: "Journal of Consumer Psychology"
+    year: 2025
+    text: >-
+      Instead of relying on people's guesses about their screen time, this team logged how long 1,029 adults actually spent on social
+      apps on their phones over six months and checked their well-being every fortnight. The link ran against the usual alarm:
+      more time on the platforms went with slightly higher life satisfaction and psychological well-being, and no change in
+      health or money. The lift came from time spent with close friends and family. Content that helps people keep up with
+      those they care about sits on the healthier side of the feed.
+  - doi: "10.1007/s11747-024-01042-9"
+    title: "Platform cooperatives in the sharing economy: How market challengers bring change from the margins"
+    authors: "Atanasova et al."
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2025
+    text: >-
+      With a few giants now running the sharing economy, this ethnographic study followed two member-owned rivals: Fairbnb, a
+      holiday-rental site in several European countries, and the Drivers Cooperative, a ride-hailing service in New York City
+      and Denver. Through online observation, rides and interviews, the authors find that small challengers cannot topple the
+      incumbents but can shift the market from its edges. They spread control among members, tell stories that match how they
+      really work, and team up with local governments. For a small platform, a city council can be worth more than a bigger
+      ad budget.
+
+charts:
+  perday:
+    title: "Rise in return probability for each day a parcel is early or late (percentage points)"
+    scale: [0, 0.4]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Early, new customer", 0.36, true]
+      - ["Early, returning customer", 0.12, false]
+      - ["Late, new customer", 0.11, false]
+      - ["Late, returning customer", 0.11, false]
+    source: "Main study, 1,802,467 orders from 1,473,481 US customers. Marginal effects from the authors' Model 2 (Table 5)."
+  arrival:
+    title: "When their last fashion order arrived, as US shoppers remembered it"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Sooner than expected", 28, true]
+      - ["When expected", 66, false]
+      - ["Later than expected", 6, false]
+    source: "Follow-up survey in the online appendix, 1,001 US adults on MTurk, each recalling a recent one-item fashion order. Answers are remembered, not tracked."
+
+related_pages: []
