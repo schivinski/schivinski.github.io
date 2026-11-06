@@ -1,0 +1,225 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 37                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-09-09"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-06"          # the day this page went live (metadata only, never shown)
+slug: disparagement-humor-community
+status: live
+
+title: "Should a brand roast its critics in social media replies? What a Psychology & Marketing study found"
+dek: >-
+  Witty put-downs of customers have made some brand accounts famous, yet on average they collect fewer likes than friendly
+  replies. A field study and four experiments on X show that the jab which cools casual onlookers can pull a brand's own fans closer.
+short_title: "When a brand's put-down pulls its fans closer"
+
+description: >-
+  Iveson and Harris find sarcastic brand replies on X win fewer likes and cool casual onlookers, yet draw fans closer by
+  making their group feel distinct.
+
+keywords: [brand disparagement humor, brands roasting customers, sarcastic brand replies, brand humor on social media,
+  aggressive humor, affiliative humor, brand community identification, emotional brand attachment, brands trolling users on X,
+  replying to critics online, Psychology & Marketing]
+topics: [Social media, Creative]
+
+image:
+  file: 2025-disparagement-humor-community.jpg
+  og: 2025-disparagement-humor-community-og.jpg
+  alt: "Four friends with backpacks laugh together on a mountain trail beneath jagged grey peaks, one doubled over as the others pat his back, a white cable car hanging at the right"
+  caption: "A joke shared inside a group can sound quite different to someone outside it. Photo: Felix Rostig on Unsplash."
+
+short_answer: >-
+  Mostly not, unless the people watching are its fans. Across five studies, sarcastic brand replies to people on X won fewer
+  likes and shares than friendly teasing, and left onlookers outside the brand's community feeling less attached to it. People who
+  counted themselves members of the brand's community reacted the other way: the same put-down drew them closer, because it sharpened
+  their sense that their group differed from the critic.
+
+takeaways:
+  - "Of 237 replies that six brands aimed at individual users on X, 46% were sarcastic, and those collected fewer likes and fewer shares than the friendly ones."
+  - "Likes depended heavily on who was posting: differences between the six brands accounted for 55% of the variation in likes and 24% in shares."
+  - "In a test with 349 Detroit Lions fans and non-fans, one sarcastic reply pushed the two groups in opposite directions, towards the team for fans and away from it for everyone else."
+  - "A further test with 357 people found that insiders warmed to the brand because they felt different from the critic. A sense of being better than the critic explained none of it."
+
+paper:
+  doi: "10.1002/mar.70035"
+  title: "We're Not Better, We're Just Different: How Brand-Customer Disparagement Humor Helps to Build Brand Communities"
+  authors: ["Iveson, A.", "Harris, L. C."]
+  authors_full: ["Abbie Iveson", "Lloyd C. Harris"]
+  year: 2025
+  journal: "Psychology & Marketing"
+  volume: "42"
+  issue: "12"
+  pages: "3221-3235"
+  online: "2025-09-09"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Abbie Iveson"
+      affiliation: "The University of Manchester, Manchester, UK"
+      orcid: "0000-0002-1617-2398"
+    - name: "Lloyd C. Harris"
+      affiliation: "The University of Manchester, Manchester, UK"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 5
+    basis: "One field study (237 brand replies on X from six brands) and four online experiments with US X users (229, 349, 130, 357); Supplementary Study 2 (130) reported in Web Appendix D; three pretests (50, 48, 50) not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Abbie Iveson and Lloyd C. Harris of The University of Manchester looked at one of the boldest habits in brand social
+      media: answering a critic with a put-down. Their paper opens with Ryanair, which met a passenger's photo of cramped
+      legroom by asking whether they planned to update their dating profile. Accounts such as Wendy's and Merriam-Webster are
+      known for replies of this kind, yet earlier work found that mocking humor helps a brand only in narrow conditions.
+
+      The pair wondered whether a put-down might do something useful for the people who already feel part of a brand's crowd.
+      Their starting point came from social psychology: groups tend to enjoy jokes aimed at outsiders, most of all outsiders
+      who attack them.
+
+      They began with real exchanges on X (formerly Twitter), then ran four online experiments built around exchanges on the
+      same platform. In each experiment a critic posted a jab at a brand, and the brand answered either with a warm, teasing reply
+      that laughed along or with a sarcastic one that turned the insult back on the critic.
+    facts:
+      - ["Field data", "16,288 posts and replies from six brands over eight months, narrowed to 237 replies aimed at individual users"]
+      - ["Brands in the field data", "Arby's, Denny's, Innocent Smoothies, Ryanair, Merriam-Webster and Wendy's"]
+      - ["Experiments", "Four online tests with 229, 349, 130 and 357 people; the first two recruited US users who had posted on X at least four times in the past year"]
+      - ["What changed", "A friendly, teasing reply or a sarcastic one to the same jab, and whether the onlooker belonged to the brand's community"]
+      - ["Measured", "Likes and shares in the field data; emotional attachment to the brand in the experiments, rated on seven-step agreement scales"]
+      - ["Checks", "Two trained coders sorted the real replies and agreed on 88% of them; 50 more people found the test exchange realistic, scoring it 5.09 where 7 was the top"]
+
+  - h: "Sarcasm costs a brand the wider crowd"
+    body: |
+      Across the real posts, sarcastic replies were liked and shared less than friendly ones. That held after allowing for
+      the differences between the brands, their home country and how many followers each account had.
+
+      The first experiment checked the pattern under controlled conditions. Participants first wrote down a brand they follow on
+      social media, which then appeared answering a user who called its posts about as exciting as watching paint dry. The friendly version took the hit and
+      promised fireworks next time. The sarcastic version told the critic that their own posts were beige. People judged the
+      sarcastic reply much harsher on the user, and they came away a little less attached to the brand.
+
+      So people who follow a brand will not necessarily welcome its put-downs. The authors stress that engaging with a brand
+      online differs from identifying with the community around it.
+    chart: baseline
+
+  - h: "Fans hear the same joke differently"
+    body: |
+      The second experiment brought identity into play. The researchers recruited supporters and non-supporters of the
+      Detroit Lions, an NFL team, and showed each an exchange in which the team, under its real name and logo, answered a user
+      on X with either a friendly or a sarcastic joke.
+
+      Among non-supporters, sarcasm lowered attachment to the team, just as before. Among supporters it did the opposite.
+      Because nobody can be randomly made a fan, the authors re-ran the analysis on a matched sample, pairing people of similar
+      age, gender, ethnicity, use of X and views on whether offensive jokes are harmless. The reversal held. A repeat with 130
+      new people found it again, and ratings of how realistic and how funny the exchange seemed did not differ in ways that
+      could explain it.
+    chart: flip
+
+  - h: "Different, not better"
+    body: |
+      The last experiment looked for the reason. Each participant named a group they belong to and one they do not, then a
+      brand tied to each; a taekwondo athlete, for instance, picked Nike for their own side. They then saw the paint-dry
+      exchange featuring one of the two brands.
+
+      When the brand belonged to their own side, the sarcastic reply strengthened the sense that the critic stood apart from
+      the brand's community, and that feeling lifted attachment. When it was the other group's brand, the same reply
+      weakened that sense and attachment slipped. Feeling superior to the critic, the explanation earlier humor research
+      favoured, played no part.
+
+      For practitioners this may be the most useful result. Fans did not enjoy the put-down for letting them look down on
+      someone. They enjoyed it because it marked out who "we" are.
+
+  - h: "Choosing when to bite back"
+    body: |
+      Unlike earlier research, the authors do not tell brands to always choose the friendly reply, but nor do they recommend
+      sarcasm across the board. Their advice is to aim a sarcastic answer only at someone outside the community, or at someone who has
+      attacked the brand or its fans. Ideally the joke should poke at a trait the community cares about, the way a dictionary
+      brand might tease a user's spelling in front of followers who love language.
+
+      They also suggest casting the target as different rather than inferior, so the reply celebrates what makes the community
+      unusual instead of belittling a person. That advice follows from the results, but no version of the reply built that way
+      was tested.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Find out who is watching", "Open the profiles of the 50 accounts that reply to your brand most often. Count how many show clear loyalty, such as a fan account, your product in the bio or a long run of friendly comments. That count tells you how much of your audience is inside the tent."]
+  - ["Write down when sarcasm is allowed", "Agree a one-page rule: a sharp joke is only for people who attack the brand or its community, never for a customer with a real problem. Anyone reporting a fault, a delay or a refund issue gets a plain, helpful answer."]
+  - ["Check the critic before you reply", "Before posting a comeback, look at the critic's profile. Look for a competitor or rival team named in the bio, a habit of trolling, or mocking replies in other threads. If you find none of these, reply warmly instead."]
+  - ["Joke about the difference", "Build the reply around what sets your fans apart, such as their taste, their know-how or their loyalty. Leave out anything that calls the critic stupid, ugly or useless. Draft two versions and keep the one a fan would happily repost."]
+  - ["Get a second pair of eyes", "Before any sarcastic reply goes out, ask a colleague one question: would a brand-new customer find this mean? If the answer is yes, soften it or post the friendly version."]
+  - ["Compare replies by audience each month", "Tag every reply as friendly or sarcastic. Each month, compare likes, shares and the tone of the comments, and look separately at loyal followers and casual ones. Pull back on sarcasm if casual followers start to complain or unfollow."]
+
+expect:
+  - "**A smaller crowd for sarcastic posts.** On real brand accounts, mocking replies won less public approval than friendly ones, so expect lower reach when the audience is broad."
+  - "**Viral hits are rare.** The most liked reply in the field data reached 63,000 likes, against an average of about 1,300, and some replies got none at all."
+  - "**Fans start ahead.** With the friendly reply, Lions supporters were already about 1.3 points more attached to the team than non-supporters, on a seven-step measure. Sarcasm widened that gap; it did not create the bond."
+  - "**One post, two reactions.** The same reply can warm insiders and cool everyone else, so a single average across all followers can hide both."
+
+limits:
+  - "**Feelings measured on the spot.** Attachment was recorded straight after one exchange. The authors suspect sarcasm could wear down a brand's image over time, which nobody tracked here."
+  - "**Fans chose themselves.** Lions supporters and non-supporters were different people to begin with. A matched re-analysis and a repeat test pointed the same way, but this is not a fully random comparison."
+  - "**Field data mix every audience.** Likes and shares came from fans and strangers alike, and the six brands were found through media lists of accounts known for trolling, which may favour the bolder ones."
+  - "**Only one kind of edge.** Replies were sorted only as friendly or aggressive. What is mocked, such as someone's taste, knowledge or looks, may change the outcome."
+  - "**Mainly US samples.** The experiments that say where people came from recruited only US users of X, and what people find funny varies by culture, as the authors point out."
+
+faq:
+  - q: "Do sarcastic comebacks to critics work for brands?"
+    a: "Only in narrow conditions. Sarcastic replies to critics lowered likes, shares and emotional attachment among general audiences, but raised attachment among people who identified with the brand's community (Iveson & Harris, 2025)."
+  - q: "What is disparagement humor in marketing?"
+    a: "A joke that gets its laugh by putting someone down. Researchers separate affiliative humor, which is warm and tolerant and laughs with its target, from aggressive humor, which relies on sarcasm, ridicule or mockery and laughs at them."
+  - q: "Why would fans like a brand more after it mocks someone?"
+    a: "Because the critic is an outsider to them. When a brand answers an attack, fans can read the joke as standing up for the group, and it sharpens their feeling that their side is distinct from the critic's. That feeling, rather than any sense of being above the critic, carried the effect."
+  - q: "How can a brand tell whether a critic is an outsider?"
+    a: "The authors point to profile bios that name a rival brand or team, a user's past interactions with the brand, the tone of their replies, and social listening tools that group users by history. People who openly attack the brand or use mocking language are usually read by fans as outsiders."
+  - q: "Does this work on TikTok or Instagram?"
+    a: "Nobody knows yet. Every exchange in this research came from X or imitated it, a text-based platform where brand banter is common. The authors name video-led platforms like TikTok and Instagram as the next place to test it."
+
+also:
+  - doi: "10.1108/jsm-11-2024-0594"
+    title: "Responding to illegitimate negative reviews: how defensive responses affect purchase intentions"
+    authors: "Jeseo & Tatara"
+    journal: "Journal of Services Marketing"
+    year: 2025
+    text: >-
+      Three experiments looked at service firms that publicly call out an online review they see as false or misleading. The
+      first compared no reply, an apology and a callout; the others traced why callouts work and what an aggressive tone does.
+      A callout could raise onlookers' willingness to buy by moving blame onto the reviewer and making that reviewer seem less
+      believable. Overly aggressive callouts, though, damaged the firm's own credibility and lowered intentions to buy. Standing up to an unfair review pays when the tone stays firm rather than hostile.
+  - doi: "10.1080/10696679.2025.2550685"
+    title: "Do new members abandon sinking ships? The impact of brand scandals on new member exit from brand communities"
+    authors: "Kuang, Loveland, & Loveland"
+    journal: "Journal of Marketing Theory and Practice"
+    year: 2026
+    text: >-
+      Two years of activity on the VWVortex forum, centred on the TDI scandal, showed who walks away from a brand community
+      when the brand is in trouble. Members who joined in the year after the scandal, and those who waited before making their
+      first post, were less likely to leave than members who had joined in the year before it. Wider and heavier participation
+      did more to keep members after the scandal than before. A crisis is a good moment to pull
+      newcomers into more conversations.
+
+charts:
+  baseline:
+    title: "Brand followers' reactions to a teasing or a sarcastic reply to a critic (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Seen as harsh: teasing reply", 2.78, false]
+      - ["Seen as harsh: sarcastic reply", 4.62, false]
+      - ["Attachment: teasing reply", 4.66, true]
+      - ["Attachment: sarcastic reply", 4.21, false]
+    source: "Supplementary Study 1, 229 US X users rating a brand they follow. Harshness is the study's check on the replies (items such as \"made the user feel bad\"); the attachment gap was significant."
+  flip:
+    title: "Shift when the brand replied with sarcasm instead of friendly teasing (scale points)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Non-fans: attachment fell by", 0.35, false]
+      - ["Fans: attachment rose by", 0.34, true]
+      - ["Outsiders: sense of difference fell", 0.43, false]
+      - ["Insiders: sense of difference rose", 0.57, true]
+    source: "Study 2 (349 US X users, Detroit Lions fans and non-fans) for attachment; Study 3 (357 people, brands of groups they did or did not belong to) for seeing the critic as distinct from the community. Regression estimates, all four significant."
+
+related_pages: []
