@@ -1,0 +1,241 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 33                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-08-08"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-06"          # the day this page went live (metadata only, never shown)
+slug: robot-advice-accountability
+status: live
+
+title: "How do you get customers to follow a service robot's advice? What a Journal of Marketing study found"
+dek: >-
+  People shrug off advice from machines far more easily than advice from staff. Four field experiments with real robots and
+  two online studies show that a robot is obeyed more often when it passes on another person's request, and that one
+  sentence on why the advice helps can do much of the same work.
+short_title: "Robot advice works better in a person's name"
+
+description: >-
+  Holthöwer et al. find people obey a service robot more when it relays a request from a person: 80% vs 66.3% of
+  students sanitised their hands at a campus door.
+
+keywords: [service robots, robot advice, customer compliance, accountability, social presence, human-robot interaction,
+  healthcare robots, AI advice, frontline service automation, message framing, Journal of Marketing]
+topics: [AI, Service]
+
+image:
+  file: 2025-robot-advice-accountability.jpg
+  og: 2025-robot-advice-accountability-og.jpg
+  alt: "A woman with short curly hair holds one raised leg as she follows a stretching routine on a laptop set on her mat, a grey sofa and a bold yellow and teal wall behind her in daylight"
+  caption: "A routine on a screen is easy to skip when nobody will ask whether you did it. Photo: Vitaly Gariev on Unsplash."
+
+short_answer: >-
+  Have the robot speak for a person. Across six studies, four of them with working robots in everyday settings, people did what a
+  robot asked more often when it said a nurse, university staff, a lecturer or a doctor was behind the request. At a
+  campus entrance, 80% of students cleaned their hands when the robot relayed a request from staff, against 66.3% when it
+  asked in its own name. People felt more answerable, and the lift lasted.
+
+takeaways:
+  - "In a care home, older residents chose the activity the robot said the nurse recommended in 68.4% of choices, and the one it suggested on its own in 31.6%."
+  - "Over four weeks of tutorials, no student in the robot-only groups ever joined its exercise break, while the groups told their lecturer was asking reached 16.4% in week three and 21.1% in week four."
+  - "Naming the doctor as the source lifted how accountable people felt to a robot physiotherapist from 3.29 to 5.03, with 7 the top of the scale."
+  - "Stacking both levers backfired online: willingness to attend the session the doctor recommended fell from 5.86 to 5.34 (out of 7) once the robot also said how exercise helps recovery."
+
+paper:
+  doi: "10.1177/00222429251370268"
+  title: "Increasing Accountability and Compliance with Robot Advice"
+  authors: ["Holthöwer, J.", "van Doorn, J.", "Noble, S. M."]
+  authors_full: ["Jana Holthöwer", "Jenny van Doorn", "Stephanie M. Noble"]
+  year: 2025
+  journal: "Journal of Marketing"
+  volume: ""
+  issue: ""
+  pages: ""
+  online: "2025-08-08"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "Jana Holthöwer"
+      affiliation: "Faculty of Economics and Business, Department of Marketing, University of Groningen, Netherlands"
+      orcid: "0000-0001-7482-4465"
+    - name: "Jenny van Doorn"
+      affiliation: "Faculty of Economics and Business, Department of Marketing, University of Groningen, Netherlands"
+      orcid: "0000-0002-6871-9623"
+    - name: "Stephanie M. Noble"
+      affiliation: "Haslam College of Business, University of Tennessee, USA; Fractional Appointment, University of Bath, UK"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 6
+    basis: "Six studies as the paper counts them: four field experiments with real robots (1a care home, 19 residents and 38 choices; 1b campus entrance, 201 students; 2 four-week classroom study, 101 students in six tutorial groups; 4a classroom, 104 students) and two online experiments on Prolific (3, 467 adults; 4b, 428 adults); the 200-person wording pretest in footnote 4 is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Jana Holthöwer and Jenny van Doorn of the University of Groningen in the Netherlands
+      and Stephanie M. Noble of the University of Tennessee in the US
+      looked at a problem that grows as robots take over frontline jobs. Care homes and hospitals are short of staff and are
+      starting to use robots to remind, coach and guide people. Yet people tend to ignore a machine's advice, even when
+      following it is good for them.
+
+      Their idea came from psychology. When a person gives us advice, we sense that we may have to explain ourselves later if
+      we ignore it. That feeling, called accountability, makes us more likely to follow through. A robot does not trigger it in
+      the same way. So the team wondered if a robot could borrow some of a person's pull simply by saying the advice came
+      from someone, such as a nurse or a teacher.
+
+      They tested this with real robots in a care home, at a university entrance and in tutorial classes, then in two online
+      experiments that measured the feeling of accountability directly.
+    facts:
+      - ["Studies", "Six in all: four in the field with working robots, two online"]
+      - ["Field settings", "A care home in Europe, the entrance of a university building and tutorial classes at European universities"]
+      - ["Online samples", "467 and 428 adults on Prolific, picturing rehab after surgery with a robot or human physiotherapist"]
+      - ["Robots", "Pepper in the care home and at the building entrance; Maatje, a humanoid robot 25 cm tall, in the four-week classroom study"]
+      - ["What changed", "Whether the robot spoke for itself or relayed advice from someone else (nurse, university staff, course lecturer, doctor); later, whether it added what the person would gain"]
+      - ["Measured", "What people actually did in the field; intention to join in and felt accountability online, on seven-point scales"]
+
+  - h: "Mentioning a person changes what people do"
+    body: |
+      The first test ran in a European care home with 19 residents aged 69 to 98. Over several months, the team and the staff
+      built four activities the robot Pepper could lead: exercising to music, listening to a story, a quiz and a sing-along.
+      Each resident made two choices between pairs of activities. One option came "upon the advice from the nurse", the other
+      "upon my advice". A programmer steered the robot from inside the room, out of the residents' sight.
+
+      The second test moved to a university building towards the end of the third COVID-19 wave, when staff were struggling to get
+      students to keep cleaning their hands. Pepper stood at the entrance beside a sanitiser dispenser and greeted 201
+      students. On some days it said the university staff were asking; on others it asked for itself. That one change in
+      wording produced the gap reported in the short answer.
+
+      A third field study followed 101 students in six tutorial groups for four weeks. During each break a small robot invited
+      them to a three-minute exercise routine. In the first week, every group heard the robot ask on its own, and nobody took
+      part. From week two, four groups were told their course lecturer was asking. Their response barely moved at first,
+      reaching 1.6% that week, then climbed and held. The tutor left the room during the visits, and students knew joining
+      in had no bearing on their grades.
+
+  - h: "Why it works: people feel answerable"
+    body: |
+      An online experiment with 467 adults probed the reason. They imagined recovering from an accident in a rehab centre,
+      saw a photo of either a robot or a human physiotherapist, and were told that the session was recommended either by the
+      therapist or by a doctor.
+
+      With a human therapist, naming the doctor made no real difference. A person already carries enough social weight on
+      their own. With the robot, naming the doctor raised willingness to take part, and it strengthened people's sense of
+      being answerable to the robot, from an average of 3.70 to 4.17, with 7 the highest score. That feeling carried the effect.
+
+      The team checked other explanations and ruled them out: annoyance at being pushed, how warm or competent the
+      therapist seemed, sense of control, eeriness, comfort and how enjoyable the exercise sounded. A side test with 200 people found
+      that the exact phrasing, "please do" against "I advise you", made no difference to compliance or accountability.
+    chart: rehab
+
+  - h: "When no person can be named"
+    body: |
+      Sometimes no one is available to vouch for the advice. The last two studies tried a second lever: one sentence explaining what the person
+      stood to gain. In a classroom field experiment with 104 students, the robot added that stretching would make it
+      easier to focus after the break and help their learning.
+
+      That sentence transformed the robot-only request, as the chart shows. Once it was there, the robot's own request and the
+      lecturer's no longer differed reliably. The statistical test of the whole pattern did not reach the usual threshold
+      in this field study, so the authors repeated it online with 428 adults in the rehab scenario.
+
+      Online the result held. With the benefit sentence, the robot's own advice climbed to 5.42 out of 7, up from 4.62,
+      and drew level with the doctor's. People also felt more that someone was talking to them, and that sense of presence fed the
+      feeling of accountability. The authors chose a message about the person's own wellbeing on purpose, because earlier
+      research found that flattering or salesy robots come across as insincere.
+
+      One result split. In the classroom, the sentence gave the lecturer's request a further boost, but online it took some
+      of the shine off the doctor's request. The authors suspect familiarity: students knew their lecturer, while the doctor
+      was imaginary.
+    chart: fieldcues
+
+  - h: "Beyond the care home"
+    body: |
+      The authors write mainly for care providers: make sure the robot is never the only source of advice, mention
+      that the human may follow up, and test any added social touches carefully. They give everyday examples, such as a
+      robot reminding residents to get ready for lunch, or to pick out clothes before a carer arrives to help them dress.
+      Naming the carer could make those reminders work better.
+
+      For marketers, the same logic may apply to chatbots, app reminders, self-service kiosks and automated emails that ask
+      customers to do something for their own good, such as finish an onboarding step, book a check-up or follow care
+      instructions after a purchase. That is our extrapolation. Every study here involved a robot, real or pictured, and none
+      involved a sale.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List the requests people ignore", "Write down every place where a machine asks customers to act: a kiosk prompt, an app reminder, a chatbot follow-up, an automated email. Note how many people act on each one today, and pick the three that matter most."]
+  - ["Choose a real person for each one", "Pick someone the customer knows or will meet, such as their coach, nurse, teacher or account manager. Ask that person for permission before you use their name."]
+  - ["Put the request in their name", "Swap \"I recommend\" for \"Sam, your coach, asks you to\". Change nothing else, so any difference comes from the name alone."]
+  - ["Add one line on what they gain", "If there is nobody to name, add one sentence on how the step helps the customer, such as \"Two minutes now saves you a second trip.\" Keep it about their benefit, never a sales point. Do not add it to requests that already carry a name until you have tested it."]
+  - ["Run old and new side by side", "Alternate the two wordings by day or by week for at least two weeks. Count how many people actually do the thing, not how many say they will."]
+  - ["Keep the name real", "Have the named person check in now and then, once a month is enough, so the name means something. Keep counting for a month or more, because the effect can take a few weeks to build."]
+
+expect:
+  - "**More takers, never everyone.** Even the strongest wording in the classroom left about a quarter of students in their seats."
+  - "**A gap with people remains.** Pointing to a person narrowed the distance between robot and human staff but did not close it; people were still readier to follow a human therapist."
+  - "**Cheap to try.** The change is a sentence of script, with no new hardware or software."
+  - "**Wellbeing framing travels better than flattery.** The authors credit their positive result to advice that plainly served the person, and warn that extra social touches in a selling context can look self-serving."
+
+limits:
+  - "**Robots only.** Every study used a robot, in person or in a photo. Text chatbots, voice assistants and screens were not tested."
+  - "**Care, campus and classroom.** No shop, bank or sales setting was studied, and no purchase was measured."
+  - "**Small groups in the field.** The care home study rests on 19 residents, after 11 of the 30 approached were left out because they struggled to hear the robot."
+  - "**Classmates in the room.** In the tutorial studies students responded as a group, so peers may have swayed one another, and the small robot in the four-week study may have been easy to overlook."
+  - "**Imagined scenarios online.** The two online studies asked about a pictured robot and a hypothetical doctor, and recorded intentions rather than behaviour."
+
+faq:
+  - q: "Do people follow advice from service robots?"
+    a: "Less readily than advice from staff. In six studies, a robot that passed on a care home nurse's or a course lecturer's request was followed more often than one asking for itself, in care, campus and classroom settings (Holthöwer et al., 2025)."
+  - q: "What does accountability mean here?"
+    a: "The sense that you may have to justify your choices to someone later. People feel it naturally with another person present, much less with a machine. Linking a robot's request to a real person brings some of that feeling back, and it explained why people complied."
+  - q: "Does naming a doctor or manager help when a person gives the advice?"
+    a: "Not in this research. When a human physiotherapist made the recommendation, saying a doctor was behind it hardly changed anything, because the therapist already carried enough weight. The extra name mattered only for the robot."
+  - q: "Can a robot be persuasive without naming anyone?"
+    a: "Partly. Adding one line about the benefit to the person made robot-only requests far more effective and closed most of the gap with requests made in a person's name. The authors caution that social touches can backfire, so they kept the message about the person's wellbeing."
+  - q: "Does this apply to chatbots and app notifications?"
+    a: "It was not tested. All six studies involved robots, real or pictured. The principle may carry over to other automated advice, but that is an inference worth checking with your own test before you rely on it."
+
+also:
+  - doi: "10.1002/mar.70016"
+    title: "Algorithm Delegation: How Embedded AI Facilitates Agency Transference in Medical Services"
+    authors: "Wagner et al."
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Many people resist handing medical decisions to an algorithm. In a text-mining study of 224,433 reviews and three
+      experiments with 677 participants, AI built into a physical device felt psychologically closer, which made people more
+      willing to let it decide and more hopeful about their health outcomes. Showing numerical accuracy figures pushed people
+      into an analytical frame of mind and weakened the effect. A device in the hand can reassure in ways a statistic cannot.
+  - doi: "10.1002/mar.70018"
+    title: "Embarrassed to Observe: The Effects of Directive Language in Brand Conversation"
+    authors: "Andriuzzi & Michel"
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Brands often answer customers on social media with pushy calls to act. A field study and three online experiments show
+      that people reading along feel embarrassed for the customer and engage less themselves. The damage was greater when the
+      chat was not about a product, where onlookers expect a relaxed exchange, though a strong relationship with the brand
+      softened it. In a public thread, the people watching are part of the conversation too.
+
+charts:
+  rehab:
+    title: "Willingness to join a physio session after surgery, imagined (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Robot therapist, its own advice", 5.09, false]
+      - ["Robot therapist, doctor's advice", 5.76, true]
+      - ["Human therapist, own advice", 6.11, false]
+      - ["Human therapist, doctor's advice", 6.24, false]
+    source: "Study 3, online experiment with 467 adults on Prolific shown a photo of a robot or human physiotherapist. Naming the doctor mattered only for the robot."
+  fieldcues:
+    title: "Students who joined a stretching break, by how the robot asked (%)"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Robot asks in its own name", 11.54, false]
+      - ["Own name, plus why it helps", 62.96, true]
+      - ["Robot names the lecturer", 50.00, false]
+      - ["Lecturer named, plus why it helps", 76.00, false]
+    source: "Study 4a, field experiment with 104 students at a European university; the last value is read from the published figure."
+
+related_pages: []
