@@ -1,0 +1,244 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+# Read in full from the open-access Wiley full text (CC BY 4.0). First published online 12 November 2024 (Wiley page);
+# printed in Psychology & Marketing 42(3), March 2025, so the citation year is 2025. Counts of accounts followed, ages
+# and countries were tallied from the paper's participant table (the text gives ages 19 to 52; the table lists two aged 18).
+series: 2024
+number: 45                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-11-12"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: virtual-influencer-wellbeing
+status: live
+
+title: "Does comparing yourself with virtual influencers hurt your wellbeing? What a Psychology & Marketing study found"
+dek: >-
+  Lil Miquela and other computer-made influencers post holidays, outfits and friendships that nobody is actually living.
+  Their followers still size themselves up against them. In long interviews, they explained what that does to them, and
+  what they do about it.
+short_title: "Measuring up to influencers who don't exist"
+
+description: >-
+  Nasr et al. talked to 31 Instagram fans of virtual influencers: comparing with characters they knew were fake stirred
+  envy and shame, but also inspiration.
+
+keywords: [virtual influencers, CGI influencers, AI influencers, social comparison on social media, consumer wellbeing,
+  Lil Miquela, influencer marketing ethics, envy and inspiration, Instagram followers, digital wellbeing,
+  Psychology & Marketing]
+topics: [Influencers, AI, Social media]
+
+image:
+  file: 2024-virtual-influencer-wellbeing.jpg
+  og: 2024-virtual-influencer-wellbeing-og.jpg
+  alt: "A pale mannequin head in a hot-pink wig with a straight fringe stares straight ahead, dark wigs blurred on either side"
+  caption: "Flawless, almost human and not real at all. Followers compare themselves with faces like this anyway. Photo: Yns Plt on Unsplash."
+
+short_answer: >-
+  It can, though not only for the worse. Researchers held long interviews with 31 Instagram followers of virtual
+  influencers such as Lil Miquela. Knowing they were looking at computer-made characters did not stop people measuring
+  themselves against them. Some came away envious, angry or ashamed of comparing at all; others picked up style ideas and felt more
+  confident. Those who were hurt talked themselves down, put the phone away or unfollowed.
+
+takeaways:
+  - "Cartoon looks seemed to soften the sting. Fans of human-looking characters reported envy as well as inspiration, while Noonoouri's 5 followers in the group, who at first denied comparing at all, described only inspiration and admiration when they looked up to her."
+  - "A comparison could outlast the scroll by hours: one follower kept comparing for 2 or 3 hours, and another dwelt on it for about an hour afterwards."
+  - "Attachment could run deep. One young man checked a virtual influencer's posts 5 or 6 times a day before he caught himself wondering about ordering her as a robot and forming a bond with her."
+  - "Comparison can cost reach. Some hurt followers unfollowed, which the authors offer as one reason Lil Miquela lost 114,000 followers in a single year, a figure they take from an industry source."
+
+paper:
+  doi: "10.1002/mar.22151"
+  title: "Self-Comparing With Virtual Influencers: Effects on Followers' Wellbeing"
+  authors: ["Nasr, L. I.", "Mousavi, S.", "Michaelidou, N."]
+  authors_full: ["Lina I. Nasr", "Sahar Mousavi", "Nina Michaelidou"]
+  year: 2025
+  journal: "Psychology & Marketing"
+  volume: "42"
+  issue: "3"
+  pages: "780-798"
+  online: "2024-11-12"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Lina I. Nasr"
+      affiliation: "Loughborough Business School, Loughborough University, Loughborough, UK"
+      orcid: "0000-0002-0512-6679"
+    - name: "Sahar Mousavi"
+      affiliation: "Loughborough Business School, Loughborough University, Loughborough, UK"
+      orcid: "0000-0003-2555-853X"
+    - name: "Nina Michaelidou"
+      affiliation: "Loughborough Business School, Loughborough University, Loughborough, UK"
+      orcid: "0000-0002-4447-4342"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One qualitative study: 31 in-depth online interviews with Instagram followers of virtual influencers, analysed thematically"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Lina I. Nasr, Sahar Mousavi and Nina Michaelidou of Loughborough Business School at Loughborough University in the UK
+      looked at a side of virtual influencers that marketing research had mostly skipped. These are characters made with
+      computer graphics or AI and run by agencies or brands, which post, chat with fans and take sponsorship deals much as
+      human creators do. Most earlier work asked whether they sell. This team asked what they do to the people who follow them.
+
+      Their lens was social comparison, the everyday habit of sizing ourselves up against others. Looking up at someone
+      better off can drag us down or spur us on. Looking down at someone worse off can bring relief, or the fear that their
+      bad luck could be ours. The question was whether any of that happens when the other person does not exist.
+
+      To find out, the team watched some of the busiest virtual influencer accounts on Instagram every day for four months,
+      among them Lil Miquela, who had 2.6 million followers at the time. The lead researcher sent direct messages to people
+      who commented regularly and interviewed those who agreed, one at a time over video, about their good and bad
+      experiences and how they handled them. The transcripts were then coded for recurring themes.
+    facts:
+      - ["Method", "One-to-one video interviews on Microsoft Teams, coded for recurring themes in NVivo"]
+      - ["People", "31 active followers, 17 women and 14 men, living in 22 countries, 7 of them in the US"]
+      - ["Ages", "From late teens to early fifties; most were under 30"]
+      - ["Recruitment", "310 regular commenters approached by direct message; those who agreed were interviewed"]
+      - ["Interviews", "Between 36 and 106 minutes each, about an hour on average"]
+      - ["Characters", "Human-looking ones such as Lil Miquela and imma, plus the cartoon-like Noonoouri"]
+    chart: accounts
+
+  - h: "Envy and inspiration, often from the same posts"
+    body: |
+      Looking up at a virtual influencer could go two ways. Some followers felt the gap. One young woman listed what she
+      lacked next to the character: the money, the penthouse, the boyfriend, the holidays somewhere exotic. Another envied
+      how easily the character seemed to make friends. A few women compared their bodies with the character's, and one who
+      already struggled with her body image said she felt low after visiting the page. The team did not see body
+      comparisons among the men.
+
+      Other followers came away lifted. Young men and women described copying colour combinations and outfit ideas and
+      feeling surer of themselves for it. Upbeat posts about self-love and friendship reminded one follower to check in on
+      her friends. Another heard a message to stop hiding and simply be himself. Followers of Noonoouri admired her for
+      speaking up about real-world problems.
+
+      The two reactions were not separate camps. Some of the same people felt both, envious one moment and inspired the
+      next, and this mix showed most among the younger interviewees. Younger people also compared more often overall, as
+      did people with a strong habit of comparing and those with lower self-esteem.
+    chart: ages
+
+  - h: "Feelings you only get from someone who isn't real"
+    body: |
+      Some reactions had a twist that only a computer-made character could give them. A woman who had envied the
+      character's clothes felt ashamed of herself afterwards. The designer wardrobe cost nothing and the life was invented,
+      yet the effect on her felt entirely real. The authors see two steps here: an automatic comparison first, then a
+      conscious one that tries to undo it and leaves embarrassment behind.
+
+      Anger came up too. One follower said that when he resents the character's great life, he scrolls past her posts
+      without liking them, a small act of punishment. Another felt awful that such accounts sell a lifestyle as if
+      anyone could have it.
+
+      Comparison also ran downwards. One man saw trolls attack Lil Miquela and defended her in the comments, because it
+      reminded him of how his friends from minority groups are treated. Older followers worried on behalf of others. A
+      teacher said his pupils cannot yet tell a real cousin from a star on Instagram, a mother feared what such characters
+      might put into a child's head, and a model worried that virtual characters would take her work.
+
+  - h: "How followers protect themselves"
+    body: |
+      Those who felt worse tried to manage it in two ways. The first was changing how they thought about it. One woman
+      simply told herself that if it is fake, it can be forgotten. Another used techniques she had learned in therapy to
+      shrug the feeling off.
+
+      That did not always work. On bad days the feeling hung on, and one woman said that even after the thought had gone,
+      the mood stayed and affected how she spoke to people. The authors call it spillover: a low mood leaks out of the
+      phone and colours ordinary life. One follower worried about people less able to manage these feelings, who could get stuck in a
+      spiral they never chose.
+
+      The second way was changing what they did. Some put the phone down for a while, or went offline altogether and took
+      themselves out to lunch. Others unfollowed. One man said the account left him overwhelmed, asking himself why he
+      followed a character living a life she does not even have, while someone behind a computer runs it.
+
+  - h: "What the authors ask of the people behind the characters"
+    body: |
+      For the agencies and brands that build these characters, the advice is to tell more realistic stories, give them a
+      more natural appearance, and post regular reminders that the character is not real, nudging followers to focus on
+      their own lives. The authors also worry about a recent online beauty contest for AI-made models, which they fear
+      will push the look of future characters even further from anything attainable.
+
+      They point beyond marketing too. Parents and teachers can help children understand what these accounts are, and
+      therapists can help followers who are struggling with the feelings they stir up. Young adults matter most here, since
+      they are already more prone to anxiety, loneliness and shaky confidence.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Look at who follows the account", "Before signing a virtual influencer, open its last 20 posts and go through what people wrote underneath them. Note how many commenters look like teenagers or very young adults. If they make up most of the crowd, plan extra care before you go further."]
+  - ["Say plainly what the character is", "Write one short line saying the character is computer-made and who runs it. Put it at the top of the profile and in every paid post, not in a hashtag at the end."]
+  - ["Give the character ordinary days", "Brief the creative team to mix everyday moments into the feed. Make every fourth post, at the very least, something ordinary: a lazy Sunday, a missed bus, a dish that went wrong."]
+  - ["Post things followers can use", "Fill most posts with ideas people can take away: two colours that work together, an outfit built from basics, a cause and how to help it. Cut posts whose only point is a perfect body or a life nobody can afford."]
+  - ["Check the comments weekly", "For the first eight weeks, go through the comments once a week. Flag any that sound envious, angry or down on themselves, and answer them warmly, reminding people now and then that the character is invented."]
+  - ["Watch for people drifting away", "Each month, check unfollows, likes per post and the minutes people spend with the account. If they drop after glamour posts, change the mix before the next campaign."]
+
+expect:
+  - "**A label will not stop the comparison.** Many followers knew full well that a computer made these characters and measured themselves against them anyway. Disclose clearly, just don't count on a label to protect anyone on its own."
+  - "**Trouble shows up as silence.** Followers who feel worse tend to step back rather than complain, so falling attention deserves as much notice as the comments."
+  - "**Practical posts carry the upside.** The good feelings came from things followers could use, such as a colour pairing, a nudge to be themselves or a cause to care about. In these interviews, glamour on its own mostly fed envy."
+  - "**Scrutiny is coming.** The authors want regulators to set standards for the makers of virtual influencers and to require clear labels on what kind of character people are following, so brands should expect questions."
+
+limits:
+  - "**Conversations, not counts.** In-depth interviews show what can happen and why. They cannot say how common each reaction is or how strong."
+  - "**Mostly one character.** Most interviewees followed Lil Miquela, so cartoon-like and male characters are thinly covered, and the cartoon findings rest on a handful of people."
+  - "**Volunteers.** Most of the commenters who were approached never took part, and people with strong feelings may have been keener to talk."
+  - "**Culture left aside.** The interviewees lived in many countries, but the authors did not examine whether background changed what they felt."
+  - "**One platform, one conversation, no children.** Everything comes from Instagram and a single interview per person. Minors, the group the authors worry about most, were not included."
+
+faq:
+  - q: "What exactly is a virtual influencer?"
+    a: "A computer-generated character with its own social media account, created and run by a digital agency, a brand or an individual. Some look like real people, such as Lil Miquela; others look like cartoons or dolls, such as Noonoouri. According to an industry survey quoted in the paper, 53% of people follow at least one, and 29% have bought something one promoted."
+  - q: "Do people compare themselves with influencers they know are not real?"
+    a: "Yes. Instagram followers interviewed at length described weighing their looks, money, friendships and style against computer-made characters. One said he compared himself less with a virtual character than with human influencers, but still did it (Nasr et al., 2025)."
+  - q: "Can following a virtual influencer be good for you?"
+    a: "For some people, yes. Followers described gaining confidence and optimism, getting ideas for what to wear, and admiring a character that took a stand on world events. Others felt worse, so the same account can help one follower and hurt another."
+  - q: "Should brands stop working with virtual influencers?"
+    a: "The authors do not say so. They suggest brands use these characters for positive, purposeful messages, choose them with care, and first learn how their own audience reacts, especially people in a vulnerable position. Brands that talk about wellbeing need to be most careful."
+
+also:
+  - doi: "10.1177/10946705241296051"
+    title: "The Service Robot Customer Experience (SR-CX): A Matter of AI Intelligences and Customer Service Goals"
+    authors: "Larivière et al."
+    journal: "Journal of Service Research"
+    year: 2025
+    text: >-
+      Two field studies and two online experiments compared service robots with three levels of intelligence: robots that
+      only carry out set tasks, robots that reason, and robots that read and respond to feelings. For customers who came for
+      enjoyment, the cleverer robots created a stronger and richer experience, which lifted how they rated the service and
+      their wish to use it again. For customers who just wanted a job done, the results shifted from one setting to the next.
+      A smarter robot is worth most where the visit is meant to be fun.
+  - doi: "10.1177/00222429241300320"
+    title: "Racial Inequity in Donation-Based Crowdfunding Platforms: The Role of Facial Emotional Expressiveness"
+    authors: "Yazdani et al."
+    journal: "Journal of Marketing"
+    year: 2025
+    text: >-
+      An analysis of 4,153 GoFundMe campaigns from mid-2021 to late 2022, plus a follow-up experiment, looked at the photos
+      fundraisers upload. The more emotion a face showed, the less Black beneficiaries raised compared with White ones, a
+      gap the authors trace to racial stereotypes about how emotion is expressed. A clear call to action, emotional wording
+      and cues that donors share the beneficiary's race and gender all narrowed it. The photo advice a platform gives its
+      fundraisers is not neutral.
+
+charts:
+  accounts:
+    title: "Which virtual influencers the interviewees followed (number of people; some followed more than one)"
+    scale: [0, 30]
+    step: 10
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Lil Miquela", 26, true]
+      - ["Noonoouri", 5, false]
+      - ["imma", 2, false]
+      - ["Shudu", 2, false]
+      - ["Kyra", 1, false]
+      - ["Kami", 1, false]
+      - ["Rozy", 1, false]
+    source: "Participant table, interview study with 31 Instagram followers. Totals add to more than 31 because five people followed two or three characters."
+  ages:
+    title: "Ages of the interviewees (number of people)"
+    scale: [0, 20]
+    step: 5
+    unit: ""
+    decimals: 0
+    bars:
+      - ["18 to 25", 16, true]
+      - ["26 to 35", 9, false]
+      - ["36 to 45", 2, false]
+      - ["46 to 52", 4, false]
+    source: "Same table (31 people). The text gives ages as 19 to 52, but the table lists two people aged 18."
+
+related_pages: []

@@ -1,0 +1,232 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 46                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-11-15"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: charity-banner-sad-faces
+status: live
+
+title: "Should a charity ad show a sad face or a smiling one? What an International Journal of Advertising study found"
+dek: >-
+  Charities have long been split between pictures of children in tears and pictures of children beaming. A live banner
+  campaign that ran to more than three million impressions suggests each side has a point, depending on whether the ad
+  is meant to win a click or to keep a visitor reading.
+short_title: "Sad faces win the click, smiles hold the visit"
+
+description: >-
+  Stokburger-Sauer et al. find a sad child in a charity banner won more clicks, while a smiling child kept returning
+  visitors on the site about twice as long.
+
+keywords: [charity advertising, nonprofit marketing, display advertising, banner ads, emotional appeals in ads,
+  sad vs smiling faces, ad copy, retargeting, click-through rate, marketing funnel, Google Display Network,
+  International Journal of Advertising]
+topics: [Advertising, Creative, Personalization]
+
+image:
+  file: 2024-charity-banner-sad-faces.jpg
+  og: 2024-charity-banner-sad-faces-og.jpg
+  alt: "Two performers on a stage hold yellow cardboard faces with frowns and blue tears in front of their own faces, two more people behind them, against a pink wall"
+  caption: "A tear brings the click. A smile keeps people on the page. Photo: Marisa Gonçalves de Almeida on Unsplash."
+
+short_answer: >-
+  That depends on what the banner is for. In a live Google display campaign for a large central European charity,
+  banners showing a sad child drew more clicks and fewer instant exits than the same banners with the child smiling.
+  Once people reached the charity's site, though, the smiling version kept them there longer, and most of all those who
+  had visited before.
+
+takeaways:
+  - "Pairing the sad child with the concrete school line lifted the click-through rate to about 0.5%, more than twice that of any other banner; the other three managed 0.2% or less."
+  - "People who had been on the charity's site in the previous 30 days spent 151 seconds on the landing page after a smiling banner, against 73 seconds after a sad one."
+  - "For those returning visitors, the smiling child with the concrete line held attention for 185 seconds, more than three times the 54 seconds the sad child managed with the same words."
+  - "In the lab, swapping the sad expression for a smile cut sympathy by 1.23 points (the top score was 7), and sympathy, not the expression itself, is what moved people's willingness to click."
+
+paper:
+  doi: "10.1080/02650487.2024.2421643"
+  title: "Smiling or sad faces in charity display advertising? A visual-verbal congruency approach considering the role of targeting"
+  authors: ["Stokburger-Sauer, N. E.", "Hofmann, V.", "Schoner-Schatz, L."]
+  authors_full: ["Nicola E. Stokburger-Sauer", "Verena Hofmann", "Lisa Schoner-Schatz"]
+  year: 2025
+  journal: "International Journal of Advertising"
+  volume: "44"
+  issue: "4"
+  pages: "718-742"
+  online: "2024-11-15"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Nicola E. Stokburger-Sauer"
+      affiliation: "Department of Management and Marketing, University of Innsbruck, Innsbruck, Austria"
+      orcid: "0000-0002-3349-3572"
+    - name: "Verena Hofmann"
+      affiliation: "Department of Management and Marketing, University of Innsbruck, Innsbruck, Austria; FOM University of Applied Sciences for Economics and Management, Essen, Germany"
+      orcid: "0000-0002-3567-2793"
+    - name: "Lisa Schoner-Schatz"
+      affiliation: "Department of Management and Marketing, University of Innsbruck, Innsbruck, Austria"
+      orcid: "0000-0001-9193-819X"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Study 1: 2 x 2 lab experiment, 168 adults; Study 2: 2 x 2 field experiment with live Google Display Network banners, 3,189,994 impressions and 3,473 clicks over 18 days; Pretests A, B and C (331, 67 and 426 students) not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Nicola E. Stokburger-Sauer, Verena Hofmann and Lisa Schoner-Schatz of the University of Innsbruck in Austria,
+      Hofmann also at FOM University of Applied Sciences in Essen, Germany, took on an old argument in fundraising. Some
+      charities, such as Oxfam and Doctors Without Borders, show people in visible distress. Others, such as SOS
+      Children's Villages and Make-A-Wish, show beaming faces. Earlier studies have backed both camps, and little was
+      known about which face works better at which stage of a banner campaign.
+
+      Their partner was a major central European charity, and they tested the question twice. A lab test looked at why a
+      face might change clicking. A real campaign on the Google Display Network followed, built in the charity's usual
+      banner style, in which the team changed only the child's expression and the words beside it.
+      The two lines, translated from German, were "Support me now so that I can go to school" and "Support me now so
+      that I can have a future". Pre-tests picked the photos and the wording.
+
+      They also split people by whether they already knew the charity. In ad terms these are retargeted visitors:
+      people whose browser records a visit to the charity's website during the 30 days before.
+    facts:
+      - ["Partner", "One of the largest charities in central Europe; the live campaign ran in a small German-speaking market"]
+      - ["Study 1", "Lab experiment with 168 adults: a sad or smiling child, with or without a look at the charity's landing page first"]
+      - ["Study 2", "Field experiment over 18 days in March and April 2019: sad or smiling child, crossed with concrete or abstract wording, in three standard banner sizes"]
+      - ["Audiences", "492 city districts randomly split into four similar groups, one per banner version, each costing about €426, with bids set to win clicks"]
+      - ["Scale", "3,189,994 impressions and 3,473 clicks recorded, almost three in four of them on mobile"]
+      - ["Measured", "Clicks and bounce rate for awareness; time on page, session length and pages per visit for consideration"]
+
+  - h: "Why a sad face wins the click"
+    body: |
+      In the lab, the face did its work through feeling. People who saw the sad child felt more sympathy, and that
+      sympathy is what made them more inclined to click. With sympathy in the model, the expression by itself added
+      nothing to clicking. People keen to click also said they gave the message more thought, so the
+      chain ran from face to sympathy to click to interest.
+
+      Out in the live campaign, behaviour lined up with this. Banners with the sad child were clicked on 0.3% of
+      impressions, against 0.1% for the smile. Fewer of the people they brought in left without opening a second page:
+      a bounce rate of 87% against 89%.
+
+  - h: "When the words match the picture"
+    body: |
+      The words beside the photo counted too. A concrete line names something specific and near: a school place,
+      this child, today. An abstract line points somewhere broad and distant, like a future. The authors lean on
+      construal level theory, the idea that people think about close things in specific terms and about distant things
+      in general ones. A sad face and a concrete line both point to an immediate need, so they sit together easily and
+      the banner can be read at a glance.
+
+      That fit showed up in the numbers. Sad face plus school line gave the best click rate of the four
+      versions and the lowest bounce rate, 85%, against 88% to 89% for the other three. Next to the vaguer line about a
+      future, the same sad child lost most of that advantage.
+    chart: clicks
+
+  - h: "Why returning visitors respond to the smile"
+    body: |
+      A smile next to a plea for help is a small puzzle. In the authors' view, that mismatch makes people pause and
+      think, and people who already know the charity are the ones most willing to do that thinking. The lab test
+      fitted the idea: newcomers showed more interest in the message after seeing the sad child, while people who had
+      browsed the charity's page first showed more after the smiling one.
+
+      On the live site, the smile kept people on the landing page longer whether or not they had been there before. New
+      visitors stayed about 69 seconds after a smiling banner and 51 after a sad one. Among returning visitors, whole
+      sessions ran to 35 seconds after the smile and 18 after the sad face.
+
+      The strongest result came from pairing the smile with the specific line about school. Returning visitors who arrived
+      that way also went deeper into the site, at 2.64 pages per visit on the adjusted measure, against 1.84 when the
+      smile came with the line about a future. Among new visitors, the concrete line gave the smile no such boost.
+    chart: returning
+
+  - h: "Turning one campaign into a plan"
+    body: |
+      Their advice: stop hunting for one perfect banner. Use the sad face with concrete words where the aim
+      is reach and first clicks, and the smiling face with the same concrete words for people being retargeted, letting
+      the ad platform serve each version to the right audience on its own. They expect the pattern to carry over to
+      other networks, naming Meta, Amazon and LinkedIn, and to unpaid social posts, although only Google's display
+      network was tested.
+
+      A word of our own, beyond what the data show: a click and a long visit are steps towards a gift, but neither is
+      the gift itself. Any charity trying this should also check what happens to donations, not only to time on page.
+      And whichever face goes in the banner, it should belong to someone who agreed to be shown that way.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Give each banner one job", "Before you design anything, note down for every ad set whether it is there to win a first click from strangers or to keep people who already know you on your site for longer. Pick one measure for each: clicks for the first, time on page for the second."]
+  - ["Split your audience by past visits", "In your ad account, build two audiences: people who visited your website over the past month, and everyone else. Check the returning list has at least a few hundred people before you plan creative for it."]
+  - ["Make a sad version for newcomers", "For people who have never visited, show one person whose face makes the need plain. Add a short line, under ten words, naming one specific result, such as a school place or a hot meal. Use only photos the person agreed to."]
+  - ["Make a smiling version for returning visitors", "For people who have been to your site, show the same person smiling, with the same specific line. Send that banner to a landing page with more to read: a story, an update and a link to a second page."]
+  - ["Run both at once for three weeks", "Launch both versions on the same day, giving each an equal budget and identical bid settings. Leave them alone for three weeks, so the returning audience has time to build up a few hundred visits."]
+  - ["Score each version on its own job", "Judge the newcomer banner on clicks and on how many people leave after one page. Judge the returning-visitor banner on minutes on the page and pages opened. Do not pick one overall winner."]
+
+expect:
+  - "**Rare clicks.** Charity banners are clicked by very few of the people who see them, so gaps between versions only become visible across a large number of impressions."
+  - "**Two winners, not one.** The banner that brings in the most clicks is unlikely to be the one that keeps people on the site, so budget for making two."
+  - "**Sympathy is the engine.** A sad face helps because it moves people. A photo that looks sad but leaves viewers cold is unlikely to give the same lift."
+  - "**Little extra spend.** Most ad platforms already let you show a different banner to past visitors, so the main cost is producing the second version."
+
+limits:
+  - "**One charity, one child.** The data come from just one charity's campaign, built around one photo of one child shown either sad or smiling, in one small country."
+  - "**Visits, not gifts.** The field test tracked clicks, exits and time on the site. Donations were not reported."
+  - "**Few returning visitors.** Only 347 of the 3,473 recorded clicks were from repeat visitors, so the most striking results rest on a small group."
+  - "**Averaged records.** To meet European data protection rules, behaviour was averaged within groups defined by banner size and device instead of being kept person by person."
+  - "**A short window in 2019.** The campaign ran for less than three weeks, and the authors would like to see people followed over several months."
+
+faq:
+  - q: "Do sad faces work better than smiling faces in charity ads?"
+    a: "For winning clicks, yes. In a live display campaign, a sad child in the banner brought more clicks, and fewer people bouncing straight off the site, than a smiling one. The smiling version did better at keeping people on the charity's site, particularly people who had visited before (Stokburger-Sauer et al., 2025)."
+  - q: "Why does a sad face get more clicks?"
+    a: "Because it stirs sympathy. In a lab test, people felt more for a child who looked sad, and that sympathy, more than the look on the child's face, is what made them readier to click on the ad."
+  - q: "What is concrete ad copy?"
+    a: "Wording that names a specific, tangible outcome, such as a child being able to go to school, instead of a broad idea such as having a future. Concrete lines are quicker to grasp and sit naturally next to a picture of someone in need."
+  - q: "Should charities show different ads to people they retarget?"
+    a: "The results point that way. People who already knew the charity stayed longest and opened the most pages after a smiling face paired with specific wording, while first-time viewers clicked most readily on the sad face."
+  - q: "Does a smiling face cost a charity donations?"
+    a: "Nobody knows yet from this work. Its measures stopped at clicks, exits and minutes on the charity's pages, so the link to money given remains untested."
+
+also:
+  - doi: "10.1007/s11747-024-01063-4"
+    title: "Creative performance in professional advertising development: The role of ideation templates, consumer insight, and intrinsic motivation"
+    authors: "Tevi et al."
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2025
+    text: >-
+      Two studies with working advertising creatives, whose ideas were scored by judges from the industry, put the
+      Templates method of idea generation to the test: one asked creatives to apply set patterns, the other checked
+      whether simply knowing the method helped. Templates made the ads more original without pulling them away from
+      the brief. Feeding creatives richer consumer insight, or raising their intrinsic motivation, also boosted
+      originality but drifted off strategy. A bit of structure seems to free creative teams more than it boxes them in.
+  - doi: "10.1177/00222429241296459"
+    title: "Sponsored Content as an Epistemic Market Object: How Platformization of Brand–Creator Partnerships Disrupts Valuation, Coproduction, and the Relationship Between Market Actors"
+    authors: "Arsel et al."
+    journal: "Journal of Marketing"
+    year: 2025
+    text: >-
+      Interviews and podcasts with creators and agency staff in Brazil, France and the UK, together with reviews of 62
+      influencer platforms and about 1,550 Adweek articles, show brands and creators struggling with two open questions:
+      what a sponsored post is worth, and who should do what in making it. Agencies and software step in with metrics
+      and automated pricing, yet those tools favour the brand's yardsticks and leave many creators feeling watched and
+      underpaid. Agreeing on value and roles before the first post may save more partnerships than a smarter dashboard.
+
+charts:
+  clicks:
+    title: "Click-through rate by banner version (% of impressions)"
+    scale: [0, 0.6]
+    step: 0.2
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Sad child, concrete line", 0.5, true]
+      - ["Sad child, abstract line", 0.2, false]
+      - ["Smiling child, concrete line", 0.2, false]
+      - ["Smiling child, abstract line", 0.1, false]
+    source: "Study 2, live Google Display Network campaign, 3.19 million impressions over 18 days. Rates as reported in the paper, to one decimal place."
+  returning:
+    title: "Time on the landing page for returning visitors, by banner version (seconds)"
+    scale: [0, 200]
+    step: 50
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Sad child, concrete line", 54, false]
+      - ["Sad child, abstract line", 85, false]
+      - ["Smiling child, concrete line", 185, true]
+      - ["Smiling child, abstract line", 95, false]
+    source: "Study 2, clicks from returning visitors (347 of 3,473), meaning a visit to the site in the 30 days before. Group averages from the paper's tables."
+
+related_pages: []

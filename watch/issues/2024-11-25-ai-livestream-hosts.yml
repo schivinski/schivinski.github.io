@@ -1,0 +1,217 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 48                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-11-25"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: ai-livestream-hosts
+status: live
+
+title: "Can AI hosts replace people in livestream shopping? What a Journal of Business Research study found"
+dek: >-
+  Chinese retailers have started handing the microphone to virtual hosts that never get tired. A season of Taobao data
+  shows where these machines sell as well as people, where they fall short, and how both change over time.
+short_title: "Where AI livestream hosts sell, and where they stall"
+
+description: >-
+  Yuan et al. track 21,190 Taobao livestreams: AI hosts matched people on sales after returns but drew far less chat, fewer
+  likes and fewer follows.
+
+keywords: [AI streamers, virtual livestream hosts, livestream shopping, live commerce, Taobao Live, AI versus human
+  salespeople, hedonic and utilitarian products, viewer engagement, digital humans, AI in e-commerce,
+  Journal of Business Research]
+topics: [AI, Retail, Social media]
+
+image:
+  file: 2024-ai-livestream-hosts.jpg
+  og: 2024-ai-livestream-hosts-og.jpg
+  alt: "Phones clamped on tripods in front of glowing white ring lights at a street stall, a Thai price board in red lettering behind, with nobody in front of the cameras"
+  caption: "The rig is ready. The open question is who, or what, should step in front of it. Photo: Markus Winkler on Unsplash."
+
+short_answer: >-
+  Partly. In 21,190 Taobao livestream shows from 123 rooms that used both, AI hosts sold about as much as people once
+  returns were taken off, yet drew far fewer likes, comments and new followers. For practical goods they matched people on
+  every sales measure; for treats and other pleasure buys, people still sold more before refunds. Over those 20 weeks,
+  the machines' edge on practical goods faded, while their pull on pleasure purchases grew.
+
+takeaways:
+  - "Machines do not tire: AI-hosted shows stayed on air 25.5% longer on average than shows presented by a person."
+  - "The sales tie was a real one rather than a blind spot: a Bayesian test on sales after returns came out at 0.079, below the 0.1 mark that signals no genuine difference."
+  - "For practical goods, the AI hosts' edge in category-slot sales (a model estimate of +0.076 averaged over the whole period) had turned into a small deficit (−0.075) by its end."
+  - "AI hosts worked through shorter product lists: 28.7 items per show on average, against 49.5 when a person was hosting."
+
+paper:
+  doi: "10.1016/j.jbusres.2024.115077"
+  title: "Machines vs. humans: The evolving role of artificial intelligence in livestreaming e-commerce"
+  authors: ["Yuan, H.", "Lü, K.", "Fang, W."]
+  authors_full: ["Haixia Yuan", "Kevin Lü", "Wenting Fang"]
+  year: 2025
+  journal: "Journal of Business Research"
+  volume: "188"
+  pages: "115077"
+  online: "2024-11-25"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline and affiliations); ORCID iD kept only where the author's ORCID record lists this paper
+    - name: "Haixia Yuan"
+      affiliation: "Business School, Anhui University, Hefei, Anhui 230039, China"
+      orcid: ""
+    - name: "Kevin Lü"
+      affiliation: "Business School, Brunel, University of London, Uxbridge UB8 3PH, UK"
+      orcid: "0000-0002-2588-9059"
+    - name: "Wenting Fang"
+      affiliation: "Business School, Anhui University, Hefei, Anhui 230039, China"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival dataset: 21,190 Taobao livestream shows from 123 live rooms (21 July to 9 December 2021), analysed with mixed models, Bayesian tests and time-varying effect models; the utilitarian and hedonic subsamples are splits of the same data, not separate studies"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Haixia Yuan and Wenting Fang of Anhui University in Hefei, China, and Kevin Lü of Brunel, University of London, looked
+      at a change Chinese shoppers can see on their screens. Live selling has grown fast, good hosts are scarce and expensive,
+      and retailers have begun handing the show to virtual, AI-driven presenters instead. These hosts can talk through a
+      product, read out coupons and answer questions without a break. The team asked where they do as well as
+      people, on which outcomes, and whether that changes over time.
+
+      They wrote their own software to collect show-by-show records from Taobao, the country's leading livestream shopping
+      platform, and kept only the live rooms that had switched between AI and human hosts. Watching the replays told them
+      who, or what, had presented each show. They then compared how viewers responded with their money (sales, sales after returns, and
+      sales from the room's slot in Taobao's category pages) and in other ways (tapping like, posting in the live chat,
+      following the room).
+
+      The analysis came in three steps. The first compared AI and human hosts across all rooms, allowing for audience size,
+      the number of products, show length, airtime in peak hours, weekends and shopping festivals. The second split the
+      rooms by whether shoppers were buying for practical reasons or for pleasure. The third let the AI host's effect drift
+      across the months, to see whether it grew or faded.
+    facts:
+      - ["Platform", "Taobao, China's leading livestream shopping site; records collected by the team's own software"]
+      - ["Period", "21 July to 9 December 2021"]
+      - ["Shows", "21,190 from 123 live rooms: 8,071 AI-hosted and 13,119 presented by people"]
+      - ["Products", "924,036 items in categories such as beauty, office equipment, clothing and snacks"]
+      - ["Scale", "The average show took more than 1 million yuan, in line with Taobao's live studios as a whole"]
+      - ["Measured", "Sales before and after returns, category-slot sales, likes, live comments and new followers"]
+      - ["Methods", "Models that allow for differences between rooms, Bayesian checks for real ties, and a model that lets effects change over time"]
+
+  - h: "Sales held level, the chat did not"
+    body: |
+      On raw averages, the AI-hosted shows looked smaller on almost every count, as the chart shows. Part of that is
+      audience size. AI hosts spent most of their airtime outside the hours when the most people are online, while
+      retailers kept their human hosts for the busiest slots.
+
+      Once the models allowed for audience size and the other differences between shows, the picture changed. The two
+      kinds of host earned about the same after refunds, and about the same from their category slots. That is the core
+      of the substitution story: on the money that stays in the till, a machine could take a person's place.
+
+      Social response was another matter. Likes, comments and follows stayed below human levels in every version
+      of the model, and on likes the time model showed no sign of the machines closing the gap at any point in the season.
+    chart: gap
+
+  - h: "Practical goods: a lead that does not last"
+    body: |
+      Split by type of buying, the result sharpened. Where people shop for practical reasons, AI and human hosts sold the
+      same, and the AI hosts came out slightly ahead on category-slot sales. Questions about practical goods tend to have
+      clear answers, such as price, quality, size or material, which suits a scripted machine. In these rooms the AI hosts'
+      showing on comments and new followers even improved as the months went on.
+
+      The lead did not survive the season. The authors' explanation is competition. Retailers bring in AI hosts to save
+      money, rivals copy them to save money too, and soon the saving is simply the cost of doing business in that
+      category. Being first stops paying once everyone has a machine.
+
+  - h: "Pleasure goods: behind at first, then catching up"
+    body: |
+      Products bought for pleasure went the other way. In these rooms human hosts out-sold AI ones before returns over the
+      period as a whole, though the two drew level on sales after returns and on category-slot sales. Shoppers buying a
+      treat seem to want the warmth and personal attention a person brings.
+
+      Over time, the AI host's effect on sales in these rooms climbed, from below zero at the start of the window to above
+      it by the end. The authors credit the machines' ability to keep learning from data, though their figures cannot show
+      what changed inside the AI tools. Comments and new followers moved the other way, falling off towards December, a pattern the authors tie to the personal, emotional questions that come with
+      buying for pleasure.
+
+  - h: "Where an AI host fits in the schedule"
+    body: |
+      The authors suggest bringing AI hosts in first where shoppers' needs are practical, then improving them steadily,
+      because the early gain fades as rivals catch up. For pleasure goods they counsel patience: the machines started
+      behind but were still gaining when the data ended, so investment in better AI there may pay off later.
+
+      Read together, the findings point to a rota rather than a straight swap. We draw that conclusion ourselves; nobody
+      tried out a mixed schedule in this research. The machine kept sales steady at a lower cost; the person kept the room
+      talking and brought in followers. A retailer who cares about building a community around its live shows still needs people for that part.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your range into two lists", "Split the products you sell live into two lists: things people buy for a practical purpose, such as chargers, storage or office supplies, and things they buy for pleasure, such as make-up, snacks or fashion. Put anything that could go either way on the pleasure list."]
+  - ["Collect the 20 questions viewers ask most", "Read back through the comments from your last five live shows and write down the 20 questions you see most. Mark each one that has a fixed answer, such as price, size, material or delivery time."]
+  - ["Give the virtual host the practical list", "Schedule the AI host for practical products in your quieter hours, such as mornings and mid-afternoon. Load it with the fixed answers from your list and a short script for each product."]
+  - ["Keep people on busy hours and treats", "Put your human hosts on your busiest hours, usually the evening, and on big sale days. Give them the pleasure list, where viewers want opinions, jokes and a reply that uses their name."]
+  - ["Put a person behind every AI show", "Have someone watch the comments during each AI-hosted show and step in by voice or text when a question falls outside the script. Aim to answer within two minutes."]
+  - ["Compare the two hosts monthly", "At the end of each month, line up AI-hosted and human-hosted shows on sales after refunds, likes, comment counts and follower growth. If the virtual host's sales on practical products slip two months running, refresh its script or hand the slot back to a person."]
+
+expect:
+  - "**Lower running costs.** The paper quotes Chinese industry figures: a human host earns roughly 10,000 to 20,000 yuan a month, while a ready-made virtual studio package was priced at 99,000 yuan a year. One cloud provider claims AI cuts the cost of a livestream by more than 30%."
+  - "**Count what customers keep.** Across all rooms, AI-hosted shows trailed slightly on sales before refunds, but that difference disappeared once returns came off. Judge any trial on net sales."
+  - "**A quieter room.** Even where sales hold steady, expect fewer comments and follows when the machine is hosting. If community matters to you, budget for shows that people present."
+  - "**A season, not a fortnight.** The shifts in this data unfolded over months. A short trial will show where an AI host starts, not where it ends up."
+
+limits:
+  - "**One platform, one year.** Everything comes from Taobao between July and December 2021. The authors note that apps where shopping is added to entertainment video, rather than video added to a shop, may behave differently."
+  - "**Retailers chose the schedule.** Shops decided when to send in the AI host, mostly away from peak hours. The models adjust for timing and audience size, but this was not a controlled test, so some differences may come from those choices."
+  - "**All AI hosts treated alike.** The analysis did not separate simple scripted avatars from more capable systems, which may improve at very different speeds."
+  - "**Two broad kinds of buying.** Rooms were sorted into practical or pleasure buying, but the paper does not explain how, and product categories were not compared one by one."
+  - "**Shaky final weeks.** The sharpest turns in the time curves come at the end of the window, where the confidence bands are at their widest."
+
+faq:
+  - q: "Can AI hosts sell as well as human hosts in livestream shopping?"
+    a: "On what customers kept after returns, yes, in rooms that used both. On every social signal, from likes to new followers, the machines fell well short of people, and their sales advantage on practical goods proved short-lived (Yuan et al., 2025)."
+  - q: "What is an AI streamer?"
+    a: "A virtual presenter, usually a digital human or avatar, that introduces products, reads out prices and coupons and answers viewers' questions during a live shopping broadcast. In 2022 Taobao named AI hosts and virtual sets as two of the most promising directions for live selling."
+  - q: "What is danmaku?"
+    a: "Live comments that scroll across the video as it plays, so the host and every other viewer can read them. Hosts reply on the spot, which makes this chat one of the main ways viewers take part in a show."
+  - q: "Why do AI hosts get fewer likes and comments?"
+    a: "Machines have limited perception, emotion and social skill, and they struggle with personal questions outside their script. People also tune in to live shopping for company and entertainment, not only to buy, and a person meets that need far better."
+  - q: "Which products suit an AI host best?"
+    a: "The authors suspect electronics may offer the biggest short-term saving, because buyers' questions there are objective, but that the advantage may also vanish fastest. Beauty and fashion may behave differently. They did not test categories one by one, and call for that work next."
+
+also:
+  - doi: "10.1177/00222429241304322"
+    title: "The Impact of App Crashes on Consumer Engagement"
+    authors: "Shi et al."
+    journal: "Journal of Marketing"
+    year: 2025
+    text: >-
+      With field data from an app and three experiments, this paper shows that a single crash can bring people back for more:
+      the session is cut short, but the next one has more page views, driven by curiosity and a wish to finish what was
+      started. That rebound never makes up for what the crash cost, and crashes that come often or close together push users
+      away in frustration. A well-worded message after a crash softened the damage of repeated failures. The words on screen
+      after something breaks are worth drafting as carefully as the feature.
+  - doi: "10.1007/s11747-024-01057-2"
+    title: "There is business like show business! What marketing scholars and managers can learn from 40 years of entertainment science research"
+    authors: "Behrens et al."
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2025
+    text: >-
+      This review gathers four decades of research on films, series, music, books and other entertainment, organised around
+      six traits: these products are hedonic, story-driven, cultural, creative, innovative and digital. Plenty of other
+      industries share at least one of those traits, so the lessons travel well beyond Hollywood. The authors also set out
+      what entertainment firms, often the first to meet trends such as virtual worlds and generative AI, have learned about
+      adapting to them. If your brand sells an experience rather than a function, someone in this field has probably met your
+      problem already.
+
+charts:
+  gap:
+    title: "AI-hosted shows as a share of human-hosted shows, raw averages per show (%)"
+    scale: [0, 30]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Sales before returns", 28.0, false]
+      - ["Viewers", 9.5, false]
+      - ["New followers", 8.1, false]
+      - ["Live comments", 4.8, false]
+      - ["Likes", 3.2, true]
+    source: "Calculated from the reported per-show averages for each kind of host, Taobao dataset of 21,190 shows, July to December 2021 (human-hosted shows = 100%). Raw averages, before the models adjust for audience size and timing."
+
+related_pages: []

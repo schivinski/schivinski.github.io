@@ -1,0 +1,236 @@
+# Marketing in 3 issue, 2024 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2024
+number: 47                      # position in the 2024 tab (2024 · No. N); never reuse the live `issue` number
+week_of: "2024-11-16"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: ruminating-complaint-posts
+status: live
+
+title: "Which bad reviews hurt sales most, and should your reply say sorry or offer something back? What a Journal of the Academy of Marketing Science study found"
+dek: >-
+  Some unhappy customers cannot let a bad experience go, and it shows in how they write. Five studies, from hotel sales in
+  Texas to complaints aimed at big US firms on Facebook, find that repetitive complaints put off the next customer, and
+  that the right reply turns on what the writer keeps repeating.
+short_title: "The bad reviews that repeat themselves cost the most"
+
+description: >-
+  Tran et al. find bad reviews dwelling on one problem cut hotel sales; a heartfelt apology softens them, while
+  compensation suits posts that keep citing causes.
+
+keywords: [customer rumination, negative online reviews, how to respond to bad reviews, service recovery, empathetic apology,
+  compensation for complaints, TripAdvisor hotel reviews, Facebook complaints, review text mining,
+  online reputation management, Journal of the Academy of Marketing Science]
+topics: [Service, UGC, Social media]
+
+image:
+  file: 2024-ruminating-complaint-posts.jpg
+  og: 2024-ruminating-complaint-posts-og.jpg
+  alt: "A long hotel corridor in warm red light, patterned walls and rows of doors on both sides, globe lamps leading to a lit exit where three small figures stand"
+  caption: "Mention the noise four times and the next guest can almost hear it. Photo: Ryan Waldman on Unsplash."
+
+short_answer: >-
+  The ones that keep circling back to a single problem. In low-rated TripAdvisor reviews of Texas hotels, posts
+  that named the same failure again and again, or kept spelling out what caused what, were followed by lower sales. In
+  experiments, one such review was enough to cool interest in booking. The best reply depends on the repetition: a
+  heartfelt apology for the first kind, an offer of compensation for the second.
+
+takeaways:
+  - "Each 1% rise in same-failure repetition across a hotel's low-rated reviews was followed by about $11,700 less revenue in the next quarter on average, and up to $115,300 at the highest-earning hotels."
+  - "Writers still replaying the incident in their heads named the same failure about twice as often as those who dwelt on it less: 1.66 extra mentions per post against 0.86."
+  - "Beyond hotels, in a set of 41,847 complaints on ten big US firms' Facebook pages, posts that repeated themselves drew more likes from other customers, and both kinds of repetition did so about equally."
+  - "Matched replies won a little back: each 1% more compensation in answers to cause-heavy reviews was worth about $213 a quarter (up to $2,090 at the most profitable hotels), and each 1% more heartfelt apology in answers to same-failure reviews about $135 (up to $1,330)."
+
+paper:
+  doi: "10.1007/s11747-024-01061-6"
+  title: "Expressions of customer rumination in online posts and firm responses"
+  authors: ["Tran, H.-A.", "Strizhakova, Y.", "Nguyen, B.", "Johnson, S. G. B."]
+  authors_full: ["Hai-Anh Tran", "Yuliya Strizhakova", "Bach Nguyen", "Samuel G. B. Johnson"]
+  year: 2025
+  journal: "Journal of the Academy of Marketing Science"
+  volume: "53"
+  issue: "3"
+  pages: "825-853"
+  online: "2024-11-16"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Hai-Anh Tran"
+      affiliation: "Alliance Manchester Business School, University of Manchester, Manchester, United Kingdom"
+      orcid: "0000-0002-0286-7527"
+    - name: "Yuliya Strizhakova"
+      affiliation: "School of Business – Camden, Rutgers University, Camden, NJ, USA"
+      orcid: ""
+    - name: "Bach Nguyen"
+      affiliation: "University of Exeter Business School, Exeter, United Kingdom"
+      orcid: ""
+    - name: "Samuel G. B. Johnson"
+      affiliation: "University of Waterloo, Waterloo, ON, Canada"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 5
+    basis: "Study 1: survey of 175 US MTurk review writers; Study 2: 23,438 low-rated TripAdvisor reviews of 347 Texas hotels with 16 quarters of sales (4,328 hotel-quarters); Study 3: 41,847 negative Facebook posts on 10 S&P 500 service firms' pages; Studies 4a and 4b: online experiments with 194 and 200 UK Prolific adults. A replication of Study 1 (198 UK adults) is reported in a note and the web appendix"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Hai-Anh Tran of Alliance Manchester Business School at the University of Manchester, Yuliya Strizhakova of the School
+      of Business at Rutgers University in Camden, New Jersey, Bach Nguyen of the University of Exeter Business School and
+      Samuel G. B. Johnson of the University of Waterloo in Canada started from a habit most people know. After something
+      goes badly, we keep going over it. Psychologists call this rumination, and the team argued that it leaves a trace
+      when an unhappy customer sits down to write.
+
+      They looked for two traces. One is harping on a single failure: a guest who mentions the noise,
+      then the noisy neighbours, then the loud music in the bar. The other is a chain of cause and effect, with words such
+      as because, as a result and due to used over and over. In both cases the first mention is free; only the repeats count.
+
+      Five studies followed. A survey checked whether repetition really reflects a customer who is still stewing. Hotel
+      reviews matched to sales showed what it costs, Facebook complaints showed how other customers react, and two
+      experiments put a single review in front of readers.
+    facts:
+      - ["Study 1", "175 US online workers who had posted about a poor service experience within the past three months pasted in their post and rated how much it still played on their mind"]
+      - ["Study 2", "23,438 one- and two-star TripAdvisor reviews of 347 hotels in Austin, Dallas, Houston and San Antonio, matched to 16 quarters of sales from 2014 to 2017"]
+      - ["Study 3", "41,847 complaints posted to ten S&P 500 service firms' Facebook pages between 2017 and 2021, with the likes on each post and on each firm reply"]
+      - ["Studies 4a and 4b", "Online experiments with 194 and 200 UK adults, each reading one hotel review, about noise or about hot water, written with or without repetition"]
+      - ["Counting", "Words tied to one failure topic, found by topic modelling, or cause-and-consequence words from a standard text dictionary; first use excluded"]
+      - ["Outcomes", "Revenue per available room, likes on posts and replies, and intention to book"]
+
+  - h: "Repetition shows who is still stewing"
+    body: |
+      The survey went to people on a US online work platform who had complained about a service online in the previous
+      three months. Two coders who never saw the survey answers counted by hand how often each post came back to the same
+      failure, and their counts agreed closely (r = 0.89). Cause words were counted by software.
+
+      The more people said the incident was still on their mind, the more their posts repeated it. The link was moderate
+      for the same-failure kind (r = 0.38) and a little weaker for cause words (r = 0.29). A second run with 198 UK adults,
+      reported in the paper's notes, gave almost identical figures. So repetition is not a perfect window on a customer's
+      state of mind, but it is a usable one, and anyone reading reviews can see it.
+
+  - h: "What repetition cost the hotels"
+    body: |
+      For the money question, the team scraped all 216,858 TripAdvisor reviews of the 347 hotels over those four years and
+      kept the one- and two-star ones, roughly one in nine. Topic modelling sorted the complaints into six themes: getting
+      there, the room, noise, cleanliness, payment and food. Each review was scored for both kinds of repetition, and the
+      scores were built up hotel by hotel, quarter by quarter, to sit alongside revenue per available room.
+
+      Hotels whose bad reviews repeated themselves more went on to earn less. Repetition about a single failure did far more
+      harm than repeated cause words, close to eight times as much. The models allowed for star ratings, angry wording,
+      review length, how many different problems a review raised, prices, hotel size and what nearby rivals did.
+
+      One check makes the reading more convincing. Run on 209,156 four- and five-star reviews of the same hotels, the same
+      counts showed no reliable link to sales. Repetition only bites when the writer is unhappy.
+    chart: cost
+
+  - h: "One repetitive review is enough to put people off"
+    body: |
+      Two experiments asked whether a single post can do this. UK adults read one hotel review for at least 20 seconds.
+      In the first, a guest complained about noise; one version kept returning to it with words like noisy, loud, singing
+      and laughing, the other said it once. In the second, the complaint was a lack of hot water, and one version kept
+      spelling out what led to what, with hence, cause and due to.
+
+      Both repetitive versions lowered people's interest in booking, and the gap survived when the team took into account
+      how serious the failure seemed and how long the review felt. Repeating the noise made the problem seem only slightly
+      worse, a borderline result, and repeating causes did not change how serious it seemed at all. The reviews were not winning
+      readers over by making the failure look bigger.
+    chart: single
+
+  - h: "Match the reply to what is being repeated"
+    body: |
+      The hotels answered only about one bad review in six. Where they did, the content of the answer mattered. An
+      empathetic apology, meaning an answer that says sorry and uses warm, feeling words, softened the sales damage from posts
+      that kept returning to one failure, but did nothing for posts heavy with causes. A reply mentioning compensation did
+      the opposite. Empathy on its own, or an apology on its own, made no measurable difference.
+
+      The authors' reasoning runs through what the reader feels. A post that keeps naming the same problem draws readers into
+      the writer's frustration, so they want to see the firm care. A post that keeps tracing causes and consequences sets
+      readers thinking about value for money, so they want to see the firm put it right. On Facebook, other customers liked
+      firm replies more when they matched in this way; the result was clear for compensation and only borderline for
+      apologies.
+
+      The paper ends with sample replies. For a guest who could not find a parking space and keeps coming back to it, the
+      suggested answer is a warm, unhurried sorry with nothing on offer. For a guest who traces a ruined stay back to a
+      grubby lobby, it is a short acknowledgement and a dinner voucher.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Gather your last 100 bad reviews", "Export your last 100 reviews rated one or two stars, plus complaint posts about your business, from review sites and your own social pages. Paste them into one sheet, one post per row."]
+  - ["Sort them by what they repeat", "Read each post and count how often the writer names the same problem, such as noise, a late parcel or a dirty room. Mark it A if that problem comes up three or more times. Mark it B if words like because, so, as a result or due to appear three or more times."]
+  - ["Write a warm apology for the A posts", "Draft a reply that says sorry in the first line and names the problem in the customer's own words. Add one sentence that shows you understand how it felt. Keep vouchers out of this reply."]
+  - ["Write a concrete offer for the B posts", "Thank the writer, say plainly that it should not have happened and offer one specific make-good, such as a refund, a free night or a meal. Ask them to email you to arrange it."]
+  - ["Reply within a working day, and call first when you can", "Post the matching reply under every A or B post within one working day, and write it for the next customer as much as for the writer. When you already know a stay or an order went wrong, phone the customer within 48 hours, before the review gets written."]
+  - ["Keep a monthly tally", "On the last working day of the month, tally the A and B posts that came in and how many got the matching reply. If one problem keeps turning up in A posts, fix that problem first."]
+
+expect:
+  - "**A softer blow, not a clean slate.** The right reply reduced the harm in the hotel data but left most of it in place."
+  - "**Work for software, not a highlighter.** Both counts rest on off-the-shelf tools, a topic model and a standard word dictionary, so a monthly scan of hundreds of reviews can run automatically."
+  - "**Offers cost money and can backfire.** Compensation suits cause-heavy posts only. Earlier research found that mentioning compensation in a public reply can make a complaint spread further, so keep offers for the posts that call for them."
+  - "**Damage adds up post by post.** On average a complaint post on Facebook gathered fewer than two likes, so for most firms the harm builds across many posts rather than through one big flare-up."
+
+limits:
+  - "**Field links, not controlled proof.** The hotel and Facebook results come from real-world records. The authors corrected statistically for hidden influences, but nobody in the field was randomly shown one kind of review."
+  - "**Sales from one sector and an older period.** Revenue figures cover hotels in four Texas cities between 2014 and 2017, and how people read review sites may have changed since."
+  - "**Replies were not tested head to head.** The advice on apologies and compensation rests on the field data alone, and on Facebook the support for apologies was only borderline."
+  - "**Intentions in the experiments.** The UK readers rated their chance of booking. No one booked or cancelled anything, and each read just one review."
+  - "**Repetition is not always dwelling.** Repetition in slogans or brand names means something else, and the paper did not look at what leads a customer to write this way or what writing it does for them."
+
+faq:
+  - q: "What is customer rumination?"
+    a: "It is the habit of replaying a bad experience over and over in your head. When an unhappy customer writes a review in that state, it tends to show as repetition: the same problem named several times, or a run of linking words like so, hence and because."
+  - q: "Which negative reviews do the most damage to sales?"
+    a: "Reviews that keep returning to one failure, such as noise or dirt. In hotel data, these were followed by much steeper falls in later sales than reviews that repeated cause-and-effect words (Tran et al., 2025)."
+  - q: "Should a business apologise or offer compensation in reply to a bad review?"
+    a: "It depends on what the post keeps repeating. When it dwells on one problem, a sincere apology that shows understanding worked better. When it keeps explaining causes and consequences, mentioning compensation worked better."
+  - q: "Why would other customers like a complaint post?"
+    a: "A like on a complaint usually signals sympathy with the writer or agreement that the post is useful. The authors argue that repetition makes a post feel detailed and believable, so readers are more inclined to back it, and each like can keep it in view for longer."
+  - q: "Does this apply beyond hotels?"
+    a: "Partly. The sales evidence comes only from hotels. The evidence on likes covers complaints aimed at ten large service firms, including retailers, restaurant chains and online marketplaces, so the reader side of the finding has wider support than the sales side."
+
+also:
+  - doi: "10.1002/mar.22148"
+    title: "“I” Value the Future, but “We” Value the Past: The Impact of Self-Construal on Nostalgia Versus Forestalgia Narrative Ads"
+    authors: "Wu et al."
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      A Facebook field test and four experiments set story ads that look back fondly on the past against ones that look
+      ahead with longing to the future. The forward-looking stories worked better when the lead character came across as
+      independent and self-directed, and the backward-looking ones when the character was defined by family and friends.
+      The right pairing pulled viewers deeper into the story, and that made them warmer towards the ad. Before deciding
+      whether an ad should look back or forward, look at who is telling the story.
+  - doi: "10.1002/mar.22144"
+    title: "Engaging Consumers With Virtual Reality: A Moderation Role of Product Types and Consumption Orientations"
+    authors: "Lee, Choi & Kim"
+    journal: "Psychology & Marketing"
+    year: 2025
+    text: >-
+      Click records from about 3,800 students of an online education company showed that adding a virtual reality space
+      modelled on a real setting raised visits, clicks and purchases at every stage on the way to buying. The lift was
+      bigger for products bought for enjoyment than for practical ones. Students who wanted practical value found the
+      immersive layer a hassle. Immersion is worth building where the fun is the point, and can get in the way where
+      convenience matters more.
+
+charts:
+  cost:
+    title: "Fall in next-quarter hotel sales for a 1% rise in each kind of repetition in bad reviews (%)"
+    scale: [0, 0.7]
+    step: 0.1
+    unit: "%"
+    decimals: 3
+    bars:
+      - ["Same failure repeated", 0.607, true]
+      - ["Causes and effects repeated", 0.079, false]
+    source: "Study 2, 4,328 hotel-quarters from 347 Texas hotels, 2014 to 2017. Both effects were statistically reliable, and the gap between them was too."
+  single:
+    title: "Intention to book after reading one bad hotel review (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Noise mentioned once", 3.72, false]
+      - ["Noise repeated", 3.16, true]
+      - ["Hot water cause given once", 3.62, false]
+      - ["Hot water causes repeated", 3.13, true]
+    source: "Studies 4a (194 UK adults, noise) and 4b (200 UK adults, hot water), one review each. Both repetitive versions lowered intentions reliably."
+
+related_pages: []
