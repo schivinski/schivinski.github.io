@@ -1,0 +1,229 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 41                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-10-22"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-06"          # the day this page went live (metadata only, never shown)
+slug: ai-influencer-humanlikeness
+status: live
+
+title: "Do lifelike AI influencers put followers off, and what makes them feel human? What a Journal of Consumer Behaviour study found"
+dek: >-
+  The temptation with a virtual creator is to keep polishing her face. Two experiments with 957 young American women point
+  somewhere else: posts in which the character admits doubts and feelings convince people there is someone in there, and
+  that is what wins followers over, for her and for the brands she promotes.
+short_title: "Why an AI influencer's inner life beats a perfect face"
+
+description: >-
+  Kim and Im find AI influencers who reveal fears and doubts feel more human and less creepy, while a lifelike face adds
+  little, in two tests with 957 US women.
+
+keywords: [AI influencers, virtual influencers, AI influencer marketing, uncanny valley, humanlike AI, anthropomorphism,
+  influencer self-disclosure, eeriness, virtual creator brand endorsement, CGI influencers on Instagram, Journal of Consumer Behaviour]
+topics: [Influencers, AI, Social media]
+
+image:
+  file: 2025-ai-influencer-humanlikeness.jpg
+  og: 2025-ai-influencer-humanlikeness-og.jpg
+  alt: "Close-up of a doll's head lying on its side on a white surface, one painted brown eye gazing upwards beneath short auburn hair, above glossy pink lips"
+  caption: "A face can look almost human and still feel empty inside. Photo: Kylli Kittus on Unsplash."
+
+short_answer: >-
+  Not because of their looks. Across two online experiments involving 957 young US women, AI influencers whose posts
+  revealed fears, doubts and hopes were credited with more of a mind, and that sense of a mind made them seem more human
+  and less eerie. A realistic face made a character look human but left eeriness unchanged. The more human she felt, the
+  readier women were to open up to her, take her advice and like the brand behind her.
+
+takeaways:
+  - "In the first experiment, posts about identity, doubts and fears lifted the sense that the AI character had feelings and could plan by about 16% (2.95 against 2.54 out of 7)."
+  - "A realistic photo doubled how human the character looked next to a cartoon-filtered version, a jump of 2.3 points out of 7. Even so, she seemed neither more nor less eerie."
+  - "Seeming to have a mind did close to 4 times as much as appearance to make the influencer feel human."
+  - "On all 3 outcomes, the lift from seeming human outweighed the drag from seeming eerie, by between 1.5 and 2.2 times."
+
+paper:
+  doi: "10.1002/cb.70060"
+  title: "Mental and Physical Humanlikeness in Artificial Intelligence Influencers: Effects on Humanness, Eeriness, and Consumer Responses"
+  authors: ["Kim, T. H.", "Im, H."]
+  authors_full: ["Terry Haekyung Kim", "Hyunjoo Im"]
+  year: 2026
+  journal: "Journal of Consumer Behaviour"
+  volume: "25"
+  issue: "1"
+  pages: "102-117"
+  online: "2025-10-22"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Terry Haekyung Kim"
+      affiliation: "Department of Retailing, University of South Carolina, Columbia, South Carolina, USA"
+      orcid: "0000-0002-6686-5571"
+    - name: "Hyunjoo Im"
+      affiliation: "The School of Retail and Consumer Studies, University of Minnesota, St. Paul, Minnesota, USA"
+      orcid: "0000-0002-7932-0087"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two online experiments with US women aged 18 to 39 on Prolific (236 and 721 usable responses); a 305-person pretest of the posts not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Terry Haekyung Kim, who researches retailing at the University of South Carolina, and Hyunjoo Im, of the School of
+      Retail and Consumer Studies at the University of Minnesota, started from a puzzle in earlier work on computer-made
+      social media stars. Some studies find that the more human such a character looks, the better people like her. Others
+      find that near-human looks make people uneasy, an effect usually called the uncanny valley. The pair argued that both
+      camps had been treating humanness as a matter of appearance only.
+
+      Their idea was that a character can seem human in two separate ways. One is physical: does she look like a person? The
+      other is mental: does she seem able to feel joy or fear, plan ahead and read emotions? They tested two levers, one for
+      each. Realism of the image worked on looks. The depth of what the character revealed about herself in her posts worked
+      on mind.
+
+      The first experiment used one well-known AI influencer, Miquela, and varied only her posts. Some shared vulnerable
+      material, such as confusion about who she was. Others stayed on the surface, such as views on friends and social issues.
+      The second experiment used three other characters, Bermuda, Imma and Rozy, and crossed the same two kinds of post with
+      either the original realistic photos or versions passed through a cartoon filter app. Women saw an Instagram profile and
+      three posts, then answered questions.
+    facts:
+      - ["Participants", "US women aged 18 to 39 on Prolific: 236 usable answers in the first experiment, 721 in the second"]
+      - ["Characters", "Four existing AI influencers; women who already knew Miquela were screened out of the first test"]
+      - ["What changed", "Intimate or everyday posts, and in the second test a realistic or cartoon-filtered image"]
+      - ["Posts", "Picked from 53 real AI influencer posts, edited to similar length and style, then pretested with 305 people"]
+      - ["Measured", "How human she looked, whether she seemed to have a mind, how natural and how eerie she felt, plus three outcomes"]
+      - ["Outcomes", "Willingness to share one's own thoughts with her, to follow her suggestions, and liking for the brand she endorsed"]
+
+  - h: "Opening up made her seem to have a mind"
+    body: |
+      In the Miquela test, the deeper posts did what the authors expected. Women who read about her struggles gave her more
+      credit for an inner life, and the character who seemed to have one also came across as more natural and less weird.
+      Both feelings mattered for the relational outcome measured there. The more human Miquela felt, the more willing women
+      were to share their own opinions and feelings with her, and the eerier she felt, the less willing.
+
+      The authors see the same social rule at work that people use with one another: when someone confides in you, you
+      tend to confide back. That mirroring is a closer bond than a like or a comment, and it had
+      seldom been tested with virtual creators before.
+
+  - h: "Looks against mind, side by side"
+    body: |
+      The second experiment put both levers in play at once. The cartoon filter did exactly what it was meant to do: the
+      realistic characters looked far more like people. The intimate posts moved perceived mind too, though less. Image
+      realism explained 38% of the spread in looks scores, while post depth explained just 4% of the spread in mind scores.
+
+      The surprise came next. When the authors traced what made a character feel human overall, a sense of mind carried
+      most of the weight and appearance only a little. For eeriness the split was sharper still. Perceived mind lowered
+      eeriness; looking human had no measurable effect on it at all.
+    chart: cues
+
+  - h: "Why the realistic faces did not creep people out"
+    body: |
+      The uncanny valley predicts that a near-human face should unsettle people. Here it did not. The authors point to work
+      showing that eeriness tends to come from flaws, such as odd proportions or strange eyes, rather than from realism as
+      such. AI influencers like these are designed to be attractive, often with stylish make-up and clothing, and in this
+      test their attractiveness was held constant in the analysis.
+
+      That is not a licence to stop caring about polish. By the same logic, though nobody tested it here, a cheap or glitchy
+      render could still fall into the valley. What the evidence does say is that a well-made realistic look is not, by
+      itself, the problem.
+    chart: drivers
+
+  - h: "From feeling human to taking her advice"
+    body: |
+      In the second experiment, all three outcomes moved with both perceptions. Feeling that the character was human had its
+      strongest link with following her suggestions, such as trying a trend or a product she recommends. Eeriness did its
+      biggest damage to brand attitude, the measure closest to a sponsor's interests.
+
+      From this, the authors suggest a virtual creator should share personal anecdotes and behind-the-scenes reflections
+      around a launch, show relatable feelings such as excitement about a product or concern for a follower's problem, and
+      answer comments with empathy. They also see room for personal style or usage tips and storytelling that runs across a
+      campaign, while noting that their own test was a single short viewing.
+
+  - h: "A caution the authors raise themselves"
+    body: |
+      A character built to invite confidences is also built to collect them. The authors close with a warning about people
+      forming friendships, even romances, with AI agents, and about the risk of exploiting that trust. They want research
+      that follows these relationships over time. For a brand, one consequence follows, an idea outside what was tested:
+      any personal stories followers share with a brand character need the same care as any other customer data.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort what your character already says", "Take the last 20 posts from your virtual creator, or from one you plan to hire. Mark each as surface talk, such as outfits, places and favourite foods, or inner life, such as worries, hopes and doubts. Count both piles."]
+  - ["Give the character a story with stakes", "Write down three things she cares about, one fear and one goal she is working towards. Check that each fits the brand. Share the sheet with everyone who writes her posts."]
+  - ["Plan one personal post in four", "Set up the posting schedule so every fourth post shares a feeling or a struggle in a short paragraph. Keep the most personal posts free of product pitches."]
+  - ["Reply like someone who listens", "Answer comments within 24 hours. Name the follower's point and respond to how they feel, not just what they asked. Draft five reply openers for praise, complaints and personal stories, then adapt each one."]
+  - ["Test openness before a costly redesign", "Before paying for a more lifelike look, run two weeks of posts with more inner life and keep the current look. Compare replies, saves and link clicks with the two weeks before."]
+  - ["Count the replies that open up", "Each month, count comments in which followers share an opinion or a feeling, next to the likes. Keep anything personal they share out of ad targeting unless they have clearly agreed."]
+
+expect:
+  - "**A modest shift in perceived mind.** Even after the most intimate posts, average mind scores never reached the halfway mark of the scale."
+  - "**The cheaper lever first.** Changing what a character says costs far less than rebuilding how she looks. That makes the posts the sensible place to start testing. This is our own judgement; the study did not compare costs."
+  - "**No penalty for a polished face.** A realistic, attractive image did not raise eeriness, so there is no need to make a character cartoonish to keep people comfortable."
+  - "**A guess about the long run.** The authors suggest regular, personal contact could build stronger bonds than one viewing. That was not tested."
+
+limits:
+  - "**Young women only.** Every participant was a woman aged 18 to 39 in the United States, and every character was female. Men, older people and male characters may respond differently."
+  - "**Still images and text.** Many AI influencers post video, where voice, facial expression and gesture could change how human and how eerie they feel."
+  - "**One sitting, stated intentions.** People saw a profile and three posts once and reported what they intended to do. Nobody's real following, replies or purchases were tracked."
+  - "**Cartoon versus photo.** The less realistic version came from a filter app. A clumsy or glitchy render, the kind most likely to feel uncanny, was not tested."
+  - "**Culture may matter.** The authors cite work showing warmer attitudes to AI influencers in more collectivist countries, and suggest some Asian audiences may prefer less realistic characters."
+
+faq:
+  - q: "Do realistic AI influencers seem creepy to followers?"
+    a: "Not in these experiments. A realistic image made characters look much more human than a cartoon version but did not change how eerie they felt. What lowered eeriness was posts suggesting the character had feelings and plans (Kim & Im, 2026)."
+  - q: "What does mental humanlikeness mean?"
+    a: "It is how far people believe a non-human agent has a human-style mind: that it can feel pain, pleasure, joy or fear, plan its actions, exercise self-control and recognise emotions. It is separate from whether the agent looks like a person."
+  - q: "How can an AI influencer seem to have feelings?"
+    a: "By revealing more of herself. Posts that share struggles, hopes, fears or beliefs signal an inner life, while posts about tastes, places or opinions on friends do not. In both experiments, the more personal posts raised the sense that she had a mind of her own."
+  - q: "Will followers really confide in an AI influencer?"
+    a: "They said they would. Women who felt the character was human were more willing to share their opinions, feelings and beliefs with her, echoing the way people return confidences to each other. That willingness is also why the authors flag ethical risks."
+  - q: "Is a realistic look still worth having?"
+    a: "It helps a character look like a person, and the authors credit realism for part of the success of creators such as Miquela, Imma and Rozy in fashion and lifestyle campaigns. It did much less than a sense of mind to make followers feel she was human."
+
+also:
+  - doi: "10.1080/02650487.2025.2573535"
+    title: "Using emojis to build luxury brands: why scenario matters"
+    authors: "Bai, Zhao, & Ye"
+    journal: "International Journal of Advertising"
+    year: 2026
+    text: >-
+      Two experiments with 535 people tested emojis in luxury brand messages. In public communication, emojis made the brand
+      feel closer and so less luxurious, a loss that hit luxury brands harder than mass brands. In private customer service
+      exchanges, emojis did not dent the luxury image this way and raised satisfaction. A wink belongs in the inbox, not on
+      the feed.
+  - doi: "10.1108/jrim-04-2024-0212"
+    title: "Effects of video ad features on audience engagement: evidence from a large-scale video platform"
+    authors: "Cao & Aral"
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2026
+    text: >-
+      Performance data on more than 90,000 video ad campaigns, registering a trillion impressions across six platforms
+      including YouTube, Facebook and LinkedIn, were linked to the features of each video. On-screen text, especially early
+      on, went with weaker viewing figures, while people appearing early went with stronger ones. Text hurt luxury ads but
+      helped professional services. The authors see this as groundwork for causal tests, so treat the first seconds as
+      something to test, not a settled rule.
+
+charts:
+  cues:
+    title: "What each lever changed, average scores on a 1 to 7 scale"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Looks human, cartoon-filtered image", 2.31, false]
+      - ["Looks human, realistic image", 4.61, true]
+      - ["Can think and feel, everyday posts", 2.54, false]
+      - ["Can think and feel, intimate posts", 3.02, true]
+    source: "Second experiment, 721 US women; attractiveness was controlled in the analysis. Both differences were significant."
+  drivers:
+    title: "How strongly looks and mind shaped two judgements of the character (standardised path weights)"
+    scale: [0, 0.7]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Mind: seems more human", 0.65, true]
+      - ["Looks: seem more human", 0.17, false]
+      - ["Mind: seems less eerie", 0.28, true]
+      - ["Looks: seem less eerie", 0.01, false]
+    source: "Second experiment, 721 US women, structural model. Eeriness links are shown as reductions; the looks link (0.01) was not significant."
+
+related_pages: []
