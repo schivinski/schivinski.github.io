@@ -1,0 +1,296 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 51                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-12-05"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: ethnic-diversity-ads-meta
+status: live
+
+title: "Does ethnic diversity in advertising work, and with which audiences? What a Journal of Marketing study found"
+dek: >-
+  Advertisers have long feared that casting an ethnic minority endorser wins one audience and loses another. A meta-analysis
+  of more than five decades of experiments finds small average gains, clear ones among ethnic minority consumers, and no
+  significant change in how majority consumers rate the ad or the brand.
+short_title: "Ethnic diversity in ads: who responds, and by how much"
+
+description: >-
+  Eisend et al. pool 155 experiments across 21 countries: ethnic minority endorsers win over minority consumers and leave
+  majority attitudes unchanged.
+
+keywords: [ethnic diversity in advertising, multicultural marketing, inclusive advertising, diverse casting in ads,
+  ethnic minority endorsers, representation in advertising, targeting without alienating, celebrity endorsers,
+  cross-cultural advertising, advertising effectiveness, meta-analysis, Journal of Marketing]
+topics: [Advertising, Creative]
+
+image:
+  file: 2025-ethnic-diversity-ads-meta.jpg
+  og: 2025-ethnic-diversity-ads-meta-og.jpg
+  alt: "Six colleagues of different ages and backgrounds study yellow, pink and blue sticky notes on a glass wall in a bright office, a woman in round glasses at the centre raising a hand towards them"
+  caption: "Who appears in a campaign is usually settled long before launch, around walls like this one. Photo: Vitaly Gariev on Unsplash."
+
+short_answer: >-
+  Yes, though the average gain is small and comes mainly from ethnic minority audiences. Pooling 155 experiments from 21
+  countries, the researchers found that ads with an ethnic minority endorser, rather than an ethnic majority one, drew
+  clearly warmer responses from ethnic minority consumers, from liking the ad to wanting to buy. Majority consumers'
+  attitudes and buying intentions did not change significantly. Country, era, celebrity casting and the brand itself
+  all made the effect larger or smaller.
+
+takeaways:
+  - "Ethnic minority consumers responded more favourably on 8 of the 13 outcomes measured, including liking the ad, identifying with the endorser and intending to buy."
+  - "For ethnic majority consumers, 11 of the 13 outcomes showed no significant change. The two exceptions came from thought-listing tasks, each based on just two experiments."
+  - "Celebrities featured in only 65 of 1,019 persuasion results, yet they were the one ad feature that weakened the effect for every audience."
+  - "Roughly 5% of the persuasion evidence, 51 results in all, came from ads shown online, so the evidence base is still mostly offline."
+
+paper:
+  doi: "10.1177/00222429251408344"
+  title: "Ethnic Diversity in Advertising: A Meta-Analysis"
+  authors: ["Eisend, M.", "Rößner, A.", "Hermann, E."]
+  authors_full: ["Martin Eisend", "Anna Rößner", "Erik Hermann"]
+  year: 2025
+  journal: "Journal of Marketing"
+  volume: ""
+  issue: ""
+  pages: ""
+  online: "2025-12-05"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs)
+    - name: "Martin Eisend"
+      affiliation: "University of Vienna, Austria; Copenhagen Business School, Denmark"
+      orcid: "0000-0003-2564-6417"
+    - name: "Anna Rößner"
+      affiliation: "European University Viadrina, Germany"
+      orcid: ""
+    - name: "Erik Hermann"
+      affiliation: "European University Viadrina, Germany"
+      orcid: "0000-0003-0895-3562"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 155
+    basis: "Multilevel meta-analysis of 1,276 effect sizes from 155 datasets (the paper's 'studies') in 106 papers, 1969-2024, 21 countries, all experiments; meta-regression on 891 persuasion effect sizes from 131 datasets; US-only models on up to 761 effect sizes from 98 datasets"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Martin Eisend, of Copenhagen Business School and the University of Vienna, together with
+      Anna Rößner and
+      Erik Hermann, both at European University Viadrina, Germany,
+      set out to resolve a question that decades of advertising studies had left open. When an ad features an ethnic
+      minority endorser instead of an ethnic majority one, do people respond better, worse or no differently? Earlier experiments had
+      found all three, and many advertisers worry that reaching one audience this way will put off another.
+
+      The team collected every experiment they could find that compared the two kinds of endorser, from journal articles to
+      unpublished theses and conference papers. In each one, people saw ads that differed in the endorser's ethnicity and then
+      gave a response: how much they liked the ad, how they judged the brand, whether they wanted to buy.
+
+      They then looked for what made the effect bigger or smaller. Candidates included whether the viewers belonged to an
+      ethnic minority or the majority, the country's migration and legal climate, when each experiment took place, and choices
+      that marketers control, such as hiring a celebrity, using a real or invented brand, or running the ad online.
+    facts:
+      - ["Evidence base", "106 papers from 1969 to 2024, holding 155 separate experiments and 1,276 effect sizes"]
+      - ["Countries", "21, on every continent except South America; more than 60% of the experiments ran in the United States"]
+      - ["Outcomes", "13 consumer responses, each reported at least ten times, from attitudes and buying intentions to memory and feeling similar to the endorser"]
+      - ["Comparison", "The same kind of ad fronted by an ethnic minority endorser or by an ethnic majority endorser"]
+      - ["Method", "Multilevel meta-analysis and meta-regression, effects corrected for measurement error; searches up to December 2024"]
+
+  - h: "Reading the r values"
+    body: |
+      All the results are correlations, shown as r. A positive value means people responded more favourably to the ad
+      with the ethnic minority endorser, a negative one less favourably, and zero means no difference at all.
+
+      The paper describes the overall effects as small but sets no size bands of its own. A general convention in the
+      behavioural sciences, not one the paper uses, puts the thresholds for small, medium and large effects at 0.1, 0.3
+      and 0.5. On that scale, the pooled shift in brand attitudes across all audiences, 0.086, sits just under small. Squared, by our arithmetic, the
+      endorser's ethnicity explained under 1% of the spread in brand ratings.
+
+      This is why the authors are cautious about industry claims. One industry report credits diversity in advertising
+      with a 16.3% rise in long-term sales and a 15% rise in customer loyalty. The authors argue that their modest pooled
+      effects call such optimistic estimates into question.
+
+  - h: "Who responds, and how"
+    body: |
+      With every audience counted together, five of the 13 responses moved significantly towards the ethnic minority
+      endorser: attitudes to the brand, the company and the product, memory for the ad, and identification with the
+      endorser. Liking for the ad itself and intentions to buy did not change significantly at this level.
+
+      Splitting viewers by group sharpened the picture. Among ethnic minority consumers, the strongest pooled effects were
+      identifying with the endorser (0.368), attitudes to the company (0.333, from only four experiments) and the feeling that
+      the ad addressed them (0.302). Intentions to buy rose as well (0.148).
+
+      Among ethnic majority consumers, none of the attitude or buying measures differed significantly from zero; their
+      pooled estimates ranged from about minus 0.06 to plus 0.05. The authors take this as reassurance. On these measures,
+      featuring an ethnic minority endorser carried no measurable cost with majority viewers.
+    chart: minority
+
+  - h: "What people thought while they watched"
+    body: |
+      A few experiments asked people to write down the thoughts an ad brought to mind. Here the two audiences went in
+      opposite directions. Ethnic minority participants listed fewer negative thoughts (r = −0.650) and more positive ones
+      (0.593) when the endorser came from an ethnic minority. Ethnic majority participants listed more negative thoughts
+      (0.816) and fewer positive ones (−0.717).
+
+      These are the largest figures in the paper and also the least secure, since each rests on just two or three
+      experiments. Set beside the flat attitude scores, they hint that some majority viewers register the casting even
+      when their ratings stay put. That interpretation is ours; the authors do not make it.
+
+  - h: "Why country and era matter"
+    body: |
+      Because the experiments spanned 21 countries and more than five decades, the team could link each result to
+      conditions at the time and place it was collected. Below, "low" and "high" mean one standard deviation under and over
+      the average across studies.
+
+      Migration widened the gap between audiences. With high net migration, the predicted effect among ethnic minority
+      consumers was 0.183, against 0.096 with low migration, while majority or mixed samples slipped from 0.031 to −0.045.
+      The authors see intergroup threat at work: more arrivals can feel to some majority viewers like competition for jobs and other resources.
+
+      The rule of law did the opposite. Where it was weaker, minority consumers' predicted response was large
+      (0.532); in countries where it was stronger, the estimate fell to around zero (−0.040), and majority or mixed samples went from 0.072 to
+      −0.082. The authors suggest strong institutions make group differences feel smaller. Its overall effect sat right at
+      the usual significance cut-off in the main model (p = .051) and cleared it in only some of the other models, so read
+      it cautiously.
+
+      Time mattered most for majority or mixed samples. Their predicted response was negative (−0.122) in experiments run
+      around the early 1990s and positive (0.107) by around 2019, while minority consumers' responses hardly moved (0.135
+      to 0.121). The years are our conversion of the paper's average and spread.
+
+  - h: "Casting choices that changed the result"
+    body: |
+      Several things a marketer controls made a measurable difference.
+
+      **Celebrity or not.** The predicted effect was 0.070 with a non-celebrity endorser and −0.090 with a celebrity. The
+      authors think famous ethnic minority endorsers are seen as exceptions rather than typical members of their group, so
+      viewers identify with them less.
+
+      **Endorser gender.** Ethnic minority audiences reacted more warmly to male or mixed-gender endorsers (0.201) than to female
+      ones (0.127). Majority or mixed samples showed the reverse, 0.197 for female endorsers against −0.040. Gender stereotypes
+      about competence and warmth are the authors' likely explanation.
+
+      **Real or invented brand.** Majority or mixed samples were slightly negative when the brand was real (−0.073) and
+      slightly positive when it was invented (0.032). Ethnic minority consumers were positive either way (0.193 and 0.130).
+
+      **Who was watching.** Younger and more male minority samples responded more strongly. Product versus service, product
+      involvement, practical products versus others, student samples and journal ranking made no significant difference.
+    chart: age
+
+  - h: "Inside the US: standing mattered more than group"
+    body: |
+      The US data were rich enough to compare endorsers from three groups the paper names: Black (438 effect sizes),
+      Hispanic (43) and Asian American (186). Which of the three the endorser came from made no significant difference to
+      persuasion, for minority or for majority consumers.
+
+      What did matter was a measure of social standing: the share of the endorser's group holding a college degree, and the
+      group's income per person, in the year of each study. As education rose, majority or mixed samples responded more
+      favourably (from −0.056 to 0.089) and ethnic minority consumers less so (from 0.249 to 0.164). Income worked the same
+      way. The model also held the timing of each study constant.
+
+      The authors explain this through status and power. Majority viewers may respond better to an endorser from a group with more
+      resources, while minority viewers may see such an endorser as less like themselves.
+
+  - h: "What about online ads?"
+    body: |
+      The meta-regression checked whether an ad ran online or offline and found no significant difference: a predicted r
+      of 0.051 online against 0.058 offline. That is mildly encouraging for digital marketers, but online cases were few.
+
+      Two points carry over to digital channels by inference, not by test. Social feeds put one creative in front of mixed
+      audiences, which is the "targeting without alienating" problem the authors discuss, and their results suggest a broad
+      placement need not cost a brand its majority audience on attitudes. Digital tools also make it cheap to run several
+      casting versions and compare them market by market, which suits an effect that varies this much with country and
+      audience. The paper tested neither idea.
+
+  - h: "The authors' advice"
+    body: |
+      Use ethnic minority endorsers to engage ethnic minority audiences, the authors argue, and do so in mainstream media
+      as well as targeted ones. Leave celebrities out of this role. Pick endorsers with each audience in mind, and
+      remember that an endorser's perceived status can draw one audience in while distancing another.
+
+      Plan country by country. Their own predictions, in an online appendix, put the weakest effects in countries that
+      combine strong institutions with high migration, naming Sweden, Singapore and the Netherlands, and stronger ones in
+      Austria and Mexico. Four of those five countries were not among the 21 in the data, so these are model projections.
+      Where majority audiences are wary, they suggest showing minority and majority endorsers together at first, then
+      moving to minority-only casting once the audience is familiar with it.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Map who you want to reach", "List the groups that make up your customers and the people you want to win. Use your own sales data, the locations of your followers and census figures for each market. Mark any group that is large in a market but rarely appears in your ads."]
+  - ["Settle the casting early", "Decide who appears before the shoot, not on the day. Choose people who could plausibly be your customers rather than famous faces. Put the brief in writing for the photographer and the casting agency."]
+  - ["Shoot two or three line-ups", "Film each key scene with two or three different casts. Keep the script, product and setting identical, so the only change is who appears. Make at least one version with a mixed group."]
+  - ["Check the details with real people", "Before launch, show names, clothes, settings and roles to at least two members of each community you portray. Pay them for their time. Ask what feels true to life and what feels like a costume."]
+  - ["Run the versions side by side", "Split-test the versions in your ad platform for a minimum of 14 days, with equal budgets. Use broad audiences rather than targeting or excluding anyone by ethnicity, which major ad platforms restrict anyway."]
+  - ["Read results market by market", "Compare clicks, saves, comments and sales for each version in each country or region, not only in total. Read the comments under every version during the first week. Repeat the test once a year, because reactions shift over time."]
+
+expect:
+  - "**Small moves, not a makeover.** Across mixed audiences, brand and product ratings shift a little rather than leap."
+  - "**Feeling seen is the main return.** The gains concentrate where people recognise themselves in the ad and feel it was made for them."
+  - "**Different markets, different results.** A campaign that lands well in one country can fall flat in the next, depending on migration and on how firmly the rule of law holds."
+  - "**Warmer reception over time.** If the long trend among majority audiences has continued, recent campaigns should meet a more open audience than older studies describe. That is a projection from past data, not a claim the authors make."
+
+limits:
+  - "**Mostly invented brands.** Fictitious brands supplied 725 persuasion results out of 1,019, which leaves well-known brands with a loyal following less well covered."
+  - "**A Western tilt.** No South American studies turned up, the data lean towards Western industrialised countries, and only English-language studies were included."
+  - "**Ethnicity shown mainly through looks.** Most experiments signalled ethnicity through visible features such as skin tone. Names, symbols and short stories were rarely tested, which the authors call an oversimplification."
+  - "**Whole countries only.** Migration and rule of law were measured nationally, so differences between cities and rural areas could not be checked."
+  - "**Signs of small-study bias.** For several outcomes, smaller experiments reported larger effects, a pattern that can come from selective publication, although sample size itself did not predict results in the meta-regression."
+
+faq:
+  - q: "Is casting ethnic minority endorsers in ads effective?"
+    a: "On average the effect is small, but it is clearly positive among ethnic minority consumers, who identified more with the endorser, found the ad more relevant and were more inclined to buy. Ethnic majority consumers' attitudes and purchase intentions showed no significant change (Eisend et al., 2025)."
+  - q: "Do majority audiences react badly to ads with ethnic minority models?"
+    a: "On ratings of the ad, brand and product, and on intentions to buy, the pooled answer is no. A handful of thought-listing experiments did record more negative thoughts among majority participants, and their responses varied by country and grew warmer across the decades covered."
+  - q: "Does it matter which ethnic group the endorser belongs to?"
+    a: "Not in the US data, where Black, Hispanic and Asian American endorsers did not differ significantly in persuasion for either audience. The average education and income of the endorser's group did matter, pulling majority and minority audiences in opposite directions."
+  - q: "Should a brand use a celebrity in an ethnically diverse campaign?"
+    a: "The evidence points away from it. Celebrity endorsers turned the predicted effect slightly negative, possibly because viewers see a star as an exception rather than as someone like them."
+  - q: "Does this apply to social media and other online ads?"
+    a: "Online ads did not perform significantly differently from offline ones, but few of the results came from online media. The results are a reasonable starting point for digital campaigns, as long as you test with your own audiences."
+
+also:
+  - doi: "10.1080/02650487.2025.2592469"
+    title: "Distance between ‘them’ and ‘us’: identity stigmatization in the age of consumer inclusion"
+    authors: "Tuli, Kumar, Upadhyay, & Ciszek"
+    journal: "International Journal of Advertising"
+    year: 2026
+    text: >-
+      Thirty-three in-depth interviews in India traced how LGBTQIA+ consumers are stigmatised in the marketplace, a process
+      that runs from segregation to discrimination and, finally, to deprivation. Inclusive campaigns can ease the discrimination
+      and deprivation, the authors find, by making these consumers visible and treating them as legitimate customers. The
+      same campaigns sensitise mainstream consumers, lend weight to the idea of inclusion and give LGBTQIA+ shoppers a safer
+      place in the wider market. Representation, on this account, works on more than the campaign's own sales.
+  - doi: "10.1108/jrim-04-2025-0196"
+    title: "Make them curious, make them play: improving customer response to cart recovery emails"
+    authors: "Agrawal, More, & Totzek"
+    journal: "Journal of Research in Interactive Marketing"
+    year: 2026
+    text: >-
+      The usual email to a shopper who abandoned a cart offers a reminder or a discount. In an online scenario experiment
+      with 620 people, backed by a robustness check with 347 more, a gamified recovery email did best for attitudes and the
+      likelihood of returning to the cart, an email that sparked curiosity came second, and the price discount trailed both.
+      Playful, emotionally rich appeals also left people readier to accept uncertain or delayed rewards. A discount is
+      not the only card left to play when a shopper walks away.
+
+charts:
+  minority:
+    title: "Ethnic minority consumers: pooled effect of an ethnic minority endorser (correlation r, 0 = no difference)"
+    scale: [0, 0.4]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Identifying with the endorser", 0.368, true]
+      - ["Feeling the ad is meant for them", 0.302, true]
+      - ["Attitude to the brand", 0.164, false]
+      - ["Liking the ad", 0.150, false]
+      - ["Intention to buy", 0.148, false]
+    source: "Effect size integration (Table 4), ethnic minority consumer subsamples; all five significant. For ethnic majority consumers none of these five differed significantly from zero (r from −0.073 to 0.050)."
+  age:
+    title: "Ethnic minority consumers: predicted effect by the sample's average age (correlation r)"
+    scale: [0, 0.3]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Average age about 22", 0.260, true]
+      - ["Average age about 28", 0.145, false]
+      - ["Average age about 33", 0.029, false]
+    source: "Meta-regression (Figure 2), predicted correlations one standard deviation below the mean age of 27.9 years, at the mean and above (SD 5.5; ages rounded by us). Majority or mixed samples stayed near zero at every age (−0.016 to 0.012)."
+
+related_pages: []
