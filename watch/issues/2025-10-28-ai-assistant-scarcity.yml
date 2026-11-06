@@ -1,0 +1,243 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 43                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-10-28"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-06"          # the day this page went live (metadata only, never shown)
+slug: ai-assistant-scarcity
+status: live
+
+title: "Will shoppers let an AI assistant buy for them? What a Psychology & Marketing study found"
+dek: >-
+  Most people would rather an AI flag a bargain than spend their money for them. Five studies, including a week of live
+  search ads, show when that changes: once the good deals start selling out.
+short_title: "When shoppers let the AI press buy"
+
+description: >-
+  Frank et al. find most shoppers want AI that flags deals, but when stock sells out fast more let it buy for them, drawn
+  by how relaxing handing over feels.
+
+keywords: [AI shopping assistant, autonomous AI, agentic commerce, AI agents in retail, auto-purchase, AI autonomy,
+  scarcity marketing, limited-time offers, Black Friday, consumer acceptance of AI, experiential benefits, Psychology & Marketing]
+topics: [AI, Retail]
+
+image:
+  file: 2025-ai-assistant-scarcity.jpg
+  og: 2025-ai-assistant-scarcity-og.jpg
+  alt: "A woman in a shearling coat walks away down a supermarket aisle carrying a blue basket and a bottle of wine, packed wine shelves on her left and almost bare shelves on her right"
+  caption: "Bare shelves change the sums on letting someone else do the buying. Photo: Martijn Baudoin on Unsplash."
+
+short_answer: >-
+  Some will, mostly when stock is running out. Asked to choose, most people prefer an assistant that spots a deal and
+  leaves the purchase to them. Across five studies with US and UK shoppers, scarcity shifted that: when good products
+  were said to sell out fast, noticeably more let the AI complete the buy. The pull came from how enjoyable and relaxing people
+  expected the handover to be, not from the assistant's practical quality.
+
+takeaways:
+  - "A week of Google search ads for an AI shopping assistant drew a 6.02% click-through rate when it bought automatically, against 3.41% when it only sent alerts."
+  - "Auto-buy picks for a new smartphone rose from 4.3% to 11.7% when models were said to be low in stock or to sell out fast."
+  - "Scarcity narrowed the gap without closing it: intent to use an auto-buy laptop assistant climbed from about 2.4 to 3.3 out of 7; the alert version held near 5.7."
+  - "Scores for how much people would enjoy and relax with the auto-buy assistant rose from about 2.8 to 4.2 out of 7 under scarcity, the only benefit that explained the extra uptake."
+
+paper:
+  doi: "10.1002/mar.70074"
+  title: "Consumer Acceptance of High-Autonomy AI Assistants Is Driven by Perceived Benefits in Online Shopping Settings Characterized by Scarcity"
+  authors: ["Frank, D.-A.", "Folwarczny, M.", "Otterbring, T."]
+  authors_full: ["Darius-Aurel Frank", "Michał Folwarczny", "Tobias Otterbring"]
+  year: 2026
+  journal: "Psychology & Marketing"
+  volume: "43"
+  issue: "3"
+  pages: "538-555"
+  online: "2025-10-28"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Darius-Aurel Frank"
+      affiliation: "Department of Management, Aarhus BSS, Aarhus University, Aarhus, Denmark"
+      orcid: "0000-0002-1577-7352"
+    - name: "Michał Folwarczny"
+      affiliation: "Discipline of Marketing, J.E. Cairnes School of Business & Economics, University of Galway, Galway, Ireland"
+      orcid: "0000-0002-1686-4933"
+    - name: "Tobias Otterbring"
+      affiliation: "Department of Management, University of Agder, Kristiansand, Norway; Division of Media Technology and Interaction Design, School of Electrical Engineering and Computer Science, KTH Royal Institute of Technology, Stockholm, Sweden"
+      orcid: "0000-0002-0283-8777"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 5
+    basis: "One Google Ads field experiment (1,102 impressions over seven days) and four online experiments with 873 US and UK adults (201, 325, 167, 180); the introductory survey (215), ad pretest (60) and pilot (100) not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Darius-Aurel Frank of Denmark's Aarhus University,
+      Michał Folwarczny of the University of Galway in Ireland and
+      Tobias Otterbring of the University of Agder in Norway, who is also affiliated with KTH Royal Institute of Technology in Stockholm,
+      took up a question that retailers and AI firms are about to face. Today's shopping assistants mostly search and
+      suggest. The next generation may simply buy, with the customer's own money, whenever a good deal appears.
+
+      A quick poll set the scene. The team described one of two assistants to 215 Americans. When the AI only pointed out
+      savings and left the decision to them, 86.0% could see themselves using it. When it made the purchase on its own,
+      52.3% could. People plainly liked keeping a hand on the button, yet about half were still open to letting go.
+
+      So when does that half grow? The authors suspected scarcity: moments when good offers vanish quickly and hesitating
+      means missing out. They tested the idea in five studies. In every one, the assistant came in two versions, one that
+      alerts the shopper and one that completes the purchase itself.
+    facts:
+      - ["Studies", "A seven-day Google Ads test (1,102 ad impressions) and four online experiments with 873 adults"]
+      - ["Who took part", "US searchers and shoppers in four studies, UK shoppers in one; the online panels were Prolific and Amazon Mechanical Turk"]
+      - ["The two assistants", "A notification mode that flags the deal, and an auto-purchase mode that buys once the saving peaks"]
+      - ["Scarcity cues", "Items selling out quickly, low stock or a Black Friday rush, against full shelves and no time pressure"]
+      - ["Products", "Everyday electronics: a USB cable and a Bluetooth speaker among six items, a smartphone, a digital camera and a laptop"]
+      - ["Measured", "Ad clicks, which assistant people picked, their stated intention to use each, and the benefits they expected"]
+
+  - h: "Auto-buy drew more clicks in real search results"
+    body: |
+      The first study left the lab. For seven days the team ran two sponsored ads on Google search in the US, triggered by
+      phrases such as "AI shopping assistant" and "personal shopping assistant". Both had the same daily budget and nearly
+      the same wording. One headline promised to "Automate Your Shopping", the other to send shopping notifications. Anyone
+      who clicked landed on a page explaining the research.
+
+      Across both versions, 4.63% of impressions led to a click, and the auto-buy version clearly outperformed. That runs
+      against the common view that people recoil from AI that acts alone. The authors flag the weak spot themselves:
+      Google's bidding system chose when each ad appeared and tuned its delivery, so the two ads did not reach identical
+      audiences.
+
+      Why might searchers favour the bolder option? A pilot with 100 Americans offers a clue. Asked how strongly they link
+      hunting for online deals with urgency, limited availability and the risk of being too late, they averaged 4.40 out of 7,
+      slightly above the midpoint of 4. Bargain hunting online already carries a hint of scarcity.
+
+  - h: "Scarcity tipped more people towards auto-buy"
+    body: |
+      Study 2A asked 201 Americans to imagine shopping with an assistant that tracks prices and predicts savings. Half
+      pictured a time of scarcity, such as Black Friday, when items sell out and you need to act fast. The rest pictured
+      fully stocked shelves and plenty of time. For each of six products, from a charging cable to a speaker, they decided
+      whether the AI should alert them or buy for them.
+
+      Scarcity moved people towards handing over, and the shift was sharpest among those willing to delegate most of their
+      shopping. The chart shows both measures. Taking age, gender and AI habits into account left the result intact.
+
+      Study 2B, with 325 UK adults shopping for a new smartphone, made the test tougher. People could now refuse both
+      assistants, Black Friday went unmentioned, and scarcity came either as low stock or as models that sell out quickly.
+      Notification mode remained the clear favourite, chosen by 70.4% under scarcity and 79.1% without it, and roughly one
+      in six wanted no assistant at all. The kind of shortage, time or stock, made no difference to choices.
+    chart: scarcity
+
+  - h: "Why the handover appeals: it feels better"
+    body: |
+      Study 3A recruited 167 Americans on Amazon Mechanical Turk during the Black Friday period. They imagined buying a
+      digital camera, either on Black Friday, when good options go fast, or over the next couple of months, when they stay
+      available. The assistant either suggested the purchase or completed it when the saving peaked. Under scarcity the
+      auto-buy version seemed the more beneficial of the two; in the calm setting it fell slightly behind, though
+      that difference could easily be chance.
+
+      Interest followed the same pattern. With deals selling out, intentions to use the two assistants were level at about 4.2 and 4.1 out of 7,
+      while in the calm setting auto-buy trailed, roughly 3.6 against 4.4. Only under scarcity did the extra benefit people
+      saw carry through to their interest, and that held with their sense of control over the AI taken into account.
+
+      Study 3B, with 180 Americans choosing a laptop, had everyone rate both versions and split benefit into three kinds.
+      Functional benefits covered consistent, acceptable quality and a clear function. Experiential benefits covered
+      enjoying the assistant, feeling relaxed about it and feeling good. Symbolic benefits covered the impression it would
+      make on others. Scarcity lifted the auto-buy version on all three, from about 3.8 to 4.7 on the functional score for
+      instance, but when the three were weighed together only the experiential lift explained the move towards
+      auto-buy, both in stated intentions and in which version people picked. Even so, the alert version kept a wide lead
+      on intended use in this study, with or without scarcity.
+    chart: benefit
+
+  - h: "Matching autonomy to the moment"
+    body: |
+      Their main advice: fit the level of autonomy to the occasion. For sales events, limited editions and
+      last-chance offers, an assistant that buys on the shopper's behalf stands its best chance, and its pitch should
+      stress how using it feels, along the lines of "enjoy shopping with" the service, rather than technical promises. For
+      routine shopping they expect the alert-only version to do better.
+
+      They also raise a concern for regulators. Because the appeal is emotional, shoppers may not stop to ask which
+      retailers the assistant uses, what payment terms it accepts or how returns work. Such assistants are not classed as
+      high-risk under the EU's AI Act, so the authors want disclosure rules to cover those consequences as well as the
+      level of autonomy. Our own extension, untested in the paper: the relief that sells
+      auto-buy could sour quickly after a purchase nobody expected, so the rules belong on the first screen, not in the
+      terms.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Keep alerts as the default", "Make the standard mode one that flags a deal and waits for the customer to buy. Offer automatic buying as an extra that customers switch on themselves."]
+  - ["List the moments when stock runs short", "Name three to five occasions when your products sell out, such as launches, limited editions, holiday sales or restocks of popular sizes. Start automatic buying in those places only."]
+  - ["Add an auto-buy switch to those pages", "On each limited drop or sale page, add one clear option: buy it for me when it is available at my price. Ask for a top price and a spending cap before it turns on."]
+  - ["Write the pitch around how it feels", "Draft two short lines about the relief it brings, such as no refreshing the page at midnight and no missed drop. Put the practical details underneath, not in the headline."]
+  - ["Show the rules before the first purchase", "Use one screen to say which sellers it buys from, how payment is taken and how returns work. Send a message within a minute of every automatic purchase."]
+  - ["Test the two promises side by side", "Run two search ads for one week on the same budget, one promising automatic buying and one promising deal alerts. Compare clicks, then check how many people still have auto-buy switched on after 30 days."]
+
+expect:
+  - "**Alerts stay the crowd favourite.** Most people kept the final click for most purchases, even when stock was short, so plan for auto-buy to win over a minority."
+  - "**The lift comes at crunch time.** Scarcity raised interest in automatic buying whether shoppers heard about thin stock or about fast sell-outs, and with or without a named sales event."
+  - "**Feelings do the persuading.** On this evidence, copy about relief and enjoyment should do better than copy about reliability or status."
+  - "**Clicks are an early signal only.** The live test counted clicks; nobody was followed through to sign-up, purchase or repeat use."
+
+limits:
+  - "**Electronics only.** Every product was a practical gadget, from a cheap cable to a premium phone. Fashion, food, travel or event tickets were not tested."
+  - "**Pictured purchases.** Apart from the ad clicks, people imagined shopping, and no assistant spent anyone's money."
+  - "**A short live test.** One week of ads, with Google's bidding system deciding who saw which version."
+  - "**All or nothing.** The assistant either alerted or bought; middle settings such as approving each payment were not compared."
+  - "**First impressions.** Clicks and intentions say nothing about how people feel after months of an AI buying for them."
+
+faq:
+  - q: "Do shoppers want an AI assistant that buys for them?"
+    a: "Many are open to it, but most still prefer to keep the last click. In the opening poll and most of the online experiments the alert-only assistant was the more popular choice, while the auto-buy version gained ground when items were billed as selling out quickly and drew more clicks in a live search-ad test (Frank et al., 2026)."
+  - q: "Why does scarcity make people more willing to delegate to AI?"
+    a: "When good offers disappear quickly, staying in control has a price: time spent deciding and deals missed. An assistant that acts the moment the price is right looks more attractive then, and people also expected it to be more pleasant and calming to use when stock was short."
+  - q: "What are experiential benefits of an AI assistant?"
+    a: "The feelings it promises: whether people expect to enjoy it, feel at ease with it and feel good using it. They differ from functional benefits, such as dependable quality, and symbolic ones, such as looking good to others. In these studies only the experiential kind explained the swing towards auto-buy under scarcity."
+  - q: "Does it matter whether scarcity is about time or about stock?"
+    a: "Not here. UK shoppers told that good phones sell out quickly and those told they are low in stock reported similar urgency and made similar choices."
+  - q: "Do AI shopping assistants need their own rules?"
+    a: "The authors argue that disclosure should go further than it does. Under the EU AI Act these assistants are not treated as high-risk, yet buyers swayed by feelings may overlook which shops the AI uses, its payment terms and its return policy, so they want those consequences explained, not just how much the AI decides."
+
+also:
+  - doi: "10.1111/ijcs.70133"
+    title: "The Influence of 'Algorithm Aversion' and 'Algorithm Appreciation' Among Consumers in Unstructured Tasks"
+    authors: "Jin & Li"
+    journal: "International Journal of Consumer Studies"
+    year: 2025
+    text: >-
+      Whether consumers trust an algorithm or a person depends on how open-ended the job is. Using a text analysis from
+      Douyin, the Chinese version of TikTok, plus three experiments, the pair show that people trusted algorithms more
+      for tasks with little room for judgement, because they expected them to be accurate. As tasks became more open-ended,
+      trust moved to humans, who were seen as more flexible. How much judgement a task seems to need decides whether an AI
+      feature reassures or repels.
+  - doi: "10.1111/ijcs.70122"
+    title: "Digital Content Marketing: A Systematic Literature Review and Research Agenda"
+    authors: "Lapresta-Romero & Hernández-Ortega"
+    journal: "International Journal of Consumer Studies"
+    year: 2025
+    text: >-
+      This review sorts 85 research articles on the content firms put online into six families of elements: visual, auditory,
+      linguistic, symbolic, social and message. It maps which of them have been tied to engagement, purchase intention and
+      sales, brand outcomes, and how people perceive and judge the content. The authors also list the gaps that remain and
+      propose a framework to join up a scattered field. A handy set of headings for anyone planning a content audit.
+
+charts:
+  scarcity:
+    title: "Shoppers who let the AI buy, out of six purchases, by shopping setting (%)"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["At least once, well stocked", 57.1, false]
+      - ["At least once, selling out", 77.3, true]
+      - ["Four or more times, well stocked", 6.6, false]
+      - ["Four or more times, selling out", 26.4, true]
+    source: "Study 2A, 201 US adults choosing between an alert and an auto-buy assistant for six electronics products."
+  benefit:
+    title: "How beneficial each assistant seemed, by shopping setting (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Alerts only, well stocked", 4.67, false]
+      - ["Alerts only, selling out", 4.34, false]
+      - ["Auto-buy, well stocked", 4.10, false]
+      - ["Auto-buy, selling out", 4.79, true]
+    source: "Study 3A, 167 US adults buying a digital camera; values read from the published figure. Under scarcity auto-buy looked more beneficial; the small gap the other way in the calm setting was not statistically reliable."
+
+related_pages: []
