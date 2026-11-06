@@ -1,0 +1,253 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 40                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-09-30"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-06"          # the day this page went live (metadata only, never shown)
+slug: pinkwashing-social-media
+status: live
+
+title: "What does pinkwashing mean on social media, and who gets accused? What an International Journal of Advertising study found"
+dek: >-
+  One word now covers two very different complaints: pink ribbons on products and rainbow marketing around Pride. A look at
+  more than 18,000 posts on X and Instagram shows who uses the term, how they post, and how seldom they explain the tactic
+  they object to.
+short_title: "What people mean when they call out pinkwashing"
+
+description: >-
+  Naderer et al. find #pinkwashing on X and Instagram covers two causes, breast cancer and LGBTQIA+ marketing, and rarely
+  names a brand, across 18,641 posts.
+
+keywords: [pinkwashing, rainbowwashing, Pride Month marketing, breast cancer awareness marketing, LGBTQIA+ marketing,
+  cause marketing backlash, corporate social responsibility communication, washing accusations, social listening,
+  hashtag analysis, International Journal of Advertising]
+topics: [Social media, Advertising]
+
+image:
+  file: 2025-pinkwashing-social-media.jpg
+  og: 2025-pinkwashing-social-media-og.jpg
+  alt: "Two people in black uniforms, seen from behind, walk past a wide outdoor staircase painted in bands of red, orange, yellow, green, blue and purple, beside a striped rainbow wall in bright daylight"
+  caption: "Colour does a lot of the talking in this debate: pink for one cause, rainbow for another. Photo: 雙 film on Unsplash."
+
+short_answer: >-
+  Mostly two causes, and seldom a named company. In 17,641 posts on X and 1,000 sampled Instagram posts tagged
+  #pinkwashing, people used the word both for campaigns that borrow the pink ribbon of breast cancer awareness and for
+  LGBTQIA+ marketing, two crowds that barely overlapped. Specific brands were hardly ever singled out; the most persistent
+  target on X was a government. Posts were mostly negative, but many rallied the community instead of explaining the tactic.
+
+takeaways:
+  - "On Instagram, 56% of the sampled #pinkwashing posts were about breast cancer and 32% about LGBTQIA+ causes; the other 12% used the word for pink flowers, sunsets and the like."
+  - "Two in five posts on X (39.6%) landed in June or October, the months of Pride and Breast Cancer Awareness, yet only 0.04% of accounts posted in both."
+  - "Almost 4,000 of the 17,641 X posts, about 23%, were rallying calls to the community rather than plain complaints."
+  - "Of the Instagram captions that explained the term, 44% said why an organisation might do it, and only 12% granted that such campaigns at least raise awareness."
+
+paper:
+  doi: "10.1080/02650487.2025.2560705"
+  title: "Unraveling the pinkwashing discourse on X and Instagram"
+  authors: ["Naderer, B.", "Hohner, J.", "Wulf, T.", "Olbermann, Z."]
+  authors_full: ["Brigitte Naderer", "Julian Hohner", "Tim Wulf", "Zoe Olbermann"]
+  year: 2026
+  journal: "International Journal of Advertising"
+  volume: "45"
+  issue: "3"
+  pages: "744-769"
+  online: "2025-09-30"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Brigitte Naderer"
+      affiliation: "Center for Public Health, Department of Social and Preventive Medicine, Medical University of Vienna, Vienna, Austria"
+      orcid: "0000-0002-7256-7941"
+    - name: "Julian Hohner"
+      affiliation: "Department of Media and Communication, Ludwig-Maximilians-University, Munich, Germany"
+      orcid: "0000-0002-5872-0954"
+    - name: "Tim Wulf"
+      affiliation: "RTL Germany GmbH, Cologne, Germany"
+      orcid: "0000-0002-2671-5106"
+    - name: "Zoe Olbermann"
+      affiliation: "Institute for Human-Computer Media, University of Wuerzburg, Wuerzburg, Germany"
+      orcid: "0000-0001-5183-6797"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Study 1: computational content analysis of 17,641 X posts (2016 to 2020); Study 2: manual content analysis of 1,000 sampled Instagram posts (983 coded); 150-post classifier check not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Brigitte Naderer of the Medical University of Vienna, Julian Hohner of Ludwig-Maximilians-University in Munich,
+      Tim Wulf of RTL Germany in Cologne and Zoe Olbermann of the University of Wuerzburg looked at a word marketers hear
+      more and more when a cause campaign goes wrong. Pinkwashing has been used for at least three things: selling with
+      breast cancer's pink ribbon, claiming support for LGBTQIA+ people without backing it up, and a show of
+      support for women in business with no real commitment behind it. The team asked which of these meanings the public
+      actually uses, and how.
+
+      Their definition is an organisation's use of vague, false or misleading messages on breast cancer, women's rights or
+      LGBTQIA+ issues to polish its reputation. What can be seen online, they stress, is the perception of it: a belief that
+      an organisation is presenting itself falsely, whether or not that is true.
+
+      Two studies followed. The first gathered every post and repost on X, in English or German, that carried the hashtag
+      over almost five years and analysed them by computer. The second coded a random sample of Instagram posts by hand, looking
+      at the pictures as well as the captions.
+    facts:
+      - ["Study 1", "17,641 English and German posts and reposts on X, January 2016 to mid-September 2020"]
+      - ["Study 2", "1,000 Instagram posts drawn at random from 4,235, August 2011 to July 2020; 983 in English or German were coded"]
+      - ["Hashtags", "#pinkwashing and its spelling variants, plus #rainbowwashing and #staypride"]
+      - ["X analysis", "A map of which hashtags appear together, plus tone and empowerment labels from a large language model checked against 150 posts coded by hand"]
+      - ["Instagram coding", "Two trained coders rated topic, image type, main colour, and whether captions explained the term, its motive and both sides"]
+      - ["Open data", "Data, materials and analysis code are openly available via OSF, the Open Science Framework"]
+
+  - h: "One word, two separate crowds"
+    body: |
+      On X, use of the hashtag held steady from year to year rather than growing. It rose and fell with the calendar instead:
+      posts ran high from May through July, around Pride Month, and again in October, Breast Cancer Awareness Month. The two
+      peaks came from largely different accounts, which points to two communities borrowing one word for their own cause.
+
+      The hashtag map tells the same story. One cluster gathered around breast cancer awareness. The largest linked LGBTQIA+
+      empowerment with debate over a national government's campaign, covered below, and a small one singled out the
+      Eurovision Song Contest. The third meaning found in academic writing, about women's rights, did not show up in the
+      public conversation at all.
+
+      A related tag, #rainbowwashing, was rare in English and German. The researchers' first sampling suggested Spanish
+      speakers used it far more often, and they think it is worth watching whether LGBTQIA+ critics settle on a word of
+      their own.
+
+  - h: "Brands are seldom named"
+    body: |
+      Few posts on X pointed at a specific company. Words such as boycott, protest and company appeared, and two named
+      targets surfaced, the carmaker Ford and the Eurovision Song Contest. Beyond those, the criticism was
+      general, aimed at the practice rather than at any brand.
+
+      The one target that came up year after year was a government. On average, 29% of each year's posts concerned Israel and
+      a national campaign presenting the country as open and tolerant. Critics in the data argued that the country used its
+      stated openness to LGBTQIA+ people to look liberal while it faced criticism over perceived discrimination against
+      Palestinians. A separate cluster of hashtags focused on Palestinian LGBTQIA+ communities. This political strand was
+      more pronounced on X than on Instagram.
+
+      Most activity was passing things on. About two posts in three were plain reposts, and only 14.5% were reposts with a
+      comment added, so the hashtag served more to broadcast a complaint than to debate it.
+
+  - h: "Negative in tone, but also rallying"
+    body: |
+      To read the tone of so many posts, the team first coded 150 of them by hand and then tested two automatic methods
+      against that benchmark. A large language model, Gemini 2.5 Flash, matched the human coders closely, with a reliability
+      score of 0.93 where 1 is perfect agreement. An older word-list method scored 0.16, so the model's labels were used for
+      the full set.
+
+      Negative posts dominated, as you might expect for a word that exists to criticise. Yet many posts also carried
+      empowering messages built on pride, rights and words such as gay, queer and LGBTQ, meant to lift the community up
+      rather than only to attack a campaign.
+    chart: tone
+
+  - h: "Pink products, rainbow groups"
+    body: |
+      On Instagram the two causes looked different. Breast cancer posts leaned on products: 153 of the 160 product shots
+      sat in breast cancer posts, and 59.7% of those posts were mainly pink. LGBTQIA+ posts more often showed groups of
+      people, and 42.7% were mainly in rainbow colours. The authors read the LGBTQIA+ visuals as the more emotional of the
+      two, and the product focus as a sign that brands are more visible in the breast cancer debate.
+
+      Nine posts in ten had a caption, and most captions explained what pinkwashing means. Far fewer went on to say why an
+      organisation would do it, namely to win people's goodwill and their business, and LGBTQIA+ posts did so less often than
+      breast cancer posts. Few captions argued both sides. On the authors' reading, the conversation does little to help
+      people recognise this kind of persuasion.
+    chart: explain
+
+  - h: "Advice for anyone running a cause campaign"
+    body: |
+      The practical message is calm but pointed. Pinkwashing talk is a constant background rather than a rising storm, and
+      it usually targets the practice rather than a named firm. Some campaigns and products do get called out, though, so
+      the authors advise organisations to keep listening.
+
+      When an accusation lands, they suggest reading its context first, since breast cancer critics and LGBTQIA+ critics are
+      different communities with different concerns. Because critics care about empowerment and belonging, a reply should
+      speak sincerely to the people who feel used and show a real wish for proper representation. Better still, ask before
+      any campaign whether your own values and record fit the cause, and take it on only as part of a lasting, well-planned
+      strategy.
+
+      One point goes beyond the data and is our own inference: the busiest months are also the riskiest. A Pride or pink
+      ribbon campaign launches into the very weeks when critics post the most.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List your support for the cause", "Before planning a June or October campaign, list what your company does for the cause in the other ten months: donations, staff policies, partner groups. If you cannot name three concrete things, fix that before the campaign runs."]
+  - ["Name the community you speak to", "Write down whether the campaign is for people affected by breast cancer or for LGBTQIA+ people. Plan the message, the images and the listening for that one group, not for both at once."]
+  - ["Work with a group that does the work", "Choose one organisation that already supports the community. Agree what it gets from you, and show that in every post with a sum or a named programme, not just the cause."]
+  - ["Set alerts before the busy weeks", "Set listening alerts for pinkwashing, rainbowwashing and your brand name from 1 May to 31 July and for all of October. Ask one person to read them every working day."]
+  - ["Reply to people, not with a statement", "If someone accuses you of washing, answer in the same thread within 24 hours. Speak directly to those who feel let down, say what you will change, and link to what you do all year."]
+  - ["Score the campaign two weeks later", "Two weeks after the campaign ends, count critical posts, supportive posts and posts that name you. Decide whether to repeat it next year on those three counts, not on reach."]
+
+expect:
+  - "**Steady background, not a surge.** Talk of pinkwashing held level across the years studied, so plan for it every season rather than waiting for a wave."
+  - "**Mostly aimed at the practice.** Complaints usually target cause marketing as a whole. One that names your brand is the exception, and the one to act on."
+  - "**Feeling ahead of argument.** Critics tend to rally their own community instead of spelling out motives. A reply that only argues the facts may miss the mood, though this is our reading rather than something measured."
+  - "**Politics can spill over.** On X the term is tied to a long-running political dispute about a government, so a brand using LGBTQIA+ themes may meet arguments that have little to do with it."
+
+limits:
+  - "**Old posts.** The X data end in September 2020 and the Instagram data in July 2020. The debate about diversity in marketing has since become more political, which the authors say their data cannot reflect."
+  - "**What was said, not what it did.** Nobody measured whether these posts changed how people saw a brand or what they bought."
+  - "**Stills and captions only.** Videos were judged by their preview frame, and Stories, Reels and TikTok were left out."
+  - "**Two languages, a Western setting.** Only English and German posts were studied, and the two platforms cover different periods."
+  - "**A map, not an explanation.** The work describes the conversation. It does not test why people post as they do."
+
+faq:
+  - q: "What is pinkwashing?"
+    a: "Borrowing a cause such as breast cancer awareness, LGBTQIA+ rights or women's rights, with vague, false or misleading claims, to improve an organisation's image without real support behind it. On social media the term is applied mainly to breast cancer campaigns and LGBTQIA+ marketing (Naderer et al., 2026)."
+  - q: "Is pinkwashing the same as rainbowwashing?"
+    a: "They overlap. Rainbowwashing refers only to empty support for LGBTQIA+ people, while pinkwashing also covers breast cancer causes. In English and German posts rainbowwashing was still a rare tag, though an early look at the data hinted that it was common among Spanish speakers."
+  - q: "Which platform carries more of the political criticism?"
+    a: "X. There, criticism of a government's campaign about its openness to LGBTQIA+ people formed one of the biggest themes. On Instagram the word leaned towards breast cancer and the products sold in its name."
+  - q: "What should a brand do if it is accused of pinkwashing?"
+    a: "Start by working out who is speaking, since breast cancer advocates and LGBTQIA+ advocates bring different concerns. Then answer those who feel exploited directly and honestly, with a clear commitment to fair representation. The stronger advice is preventive: take on a cause only if it fits your values and a long-term plan."
+  - q: "Can AI read the tone of social media posts reliably?"
+    a: "Here it did. Gemini 2.5 Flash, given worked examples, agreed with human coders on 150 test posts with an F1 score of 0.95 out of 1, against 0.38 for a standard word-list method."
+
+also:
+  - doi: "10.1080/10496491.2025.2563653"
+    title: "Human vs. Virtual Influencers: Unveiling the Expectancy Violation Effect of Sponsorship Disclosure on Environmental CSR Communication and Skepticism"
+    authors: "Lim, Lee, Pittet Gonzalez, & Moon"
+    journal: "Journal of Promotion Management"
+    year: 2025
+    text: >-
+      Testing 330 US adults online, the authors found that a human influencer promoting a company's environmental goals came
+      across as more credible than a virtual one. Labelling the post as sponsored did not lower the message's credibility overall, but it
+      cost the human influencer more than the virtual one. Credible sources and messages raised trust in the company's green
+      efforts and eased people's general doubts about such claims. A real person carries a green message further, and pays
+      more for the sponsorship tag.
+  - doi: "10.1108/jpbm-08-2024-5375"
+    title: "Facing the fear: leading global brands’ social media communication in times of crisis"
+    authors: "Byun, Mann, & Ginder"
+    journal: "Journal of Product & Brand Management"
+    year: 2025
+    text: >-
+      A thematic analysis of the most engaging posts that 98 global brands from 11 sectors put on X between March and September
+      2020, during a global health crisis, found four main kinds of message: crisis updates and initiatives, social and
+      environmental issues, product and brand promotion, and social engagement with brand updates. Which kind led shifted as the crisis
+      moved through its phases, and differed by sector. In a crisis the right post changes over time, so plan a sequence of
+      messages rather than a single statement.
+
+charts:
+  tone:
+    title: "Tone of #pinkwashing posts on X (% of 17,641 posts)"
+    scale: [0, 100]
+    step: 25
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Mainly negative", 83.5, true]
+      - ["Both positive and negative", 12.0, false]
+      - ["Mainly positive", 2.8, false]
+      - ["Neutral", 1.8, false]
+    source: "Study 1, English and German posts from January 2016 to September 2020, labelled by a language model checked against 150 hand-coded posts."
+  explain:
+    title: "Instagram captions that explained pinkwashing, by cause (%)"
+    scale: [0, 100]
+    step: 25
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Breast cancer: defined the term", 85.2, false]
+      - ["LGBTQIA+: defined the term", 71.8, false]
+      - ["Breast cancer: named the motive", 47.6, true]
+      - ["LGBTQIA+: named the motive", 34.2, true]
+    source: "Study 2, Instagram posts with a caption. Motive shares are of captions that defined the term. Both gaps were statistically significant."
+
+related_pages: []
