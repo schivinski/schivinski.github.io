@@ -1,0 +1,238 @@
+# Marketing in 3 issue, 2025 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2025
+number: 49                      # position in the 2025 tab (2025 · No. N); never reuse the live `issue` number
+week_of: "2025-12-01"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: uniform-pricing-omnichannel
+status: live
+
+title: "Should a retailer charge the same price online and in store? What a Journal of the Academy of Marketing Science study found"
+dek: >-
+  When a large Chinese electronics and appliance chain promised one price on its website and in its shops, sales of the
+  products involved slipped at first. Eighteen months of sales data show them pulling ahead in both channels within a
+  year of the change.
+short_title: "One price everywhere: a dip, then a lift"
+
+description: >-
+  Zhuang et al. find one price on the web and in stores cost a Chinese electronics retailer online sales at first, then
+  lifted them 9.20% by the fourth quarter.
+
+keywords: [uniform pricing, same price online and in store, omnichannel pricing, channel-specific pricing, price consistency,
+  same-price guarantee, omnichannel retail, online vs offline prices, price discrimination, cross-channel search,
+  Journal of the Academy of Marketing Science]
+topics: [Retail, Search]
+
+image:
+  file: 2025-uniform-pricing-omnichannel.jpg
+  og: 2025-uniform-pricing-omnichannel-og.jpg
+  alt: "A tan leather-cased vintage transistor radio on a dark wooden shelf in low amber light, a small black price card in front of it reading 2950 lira and 74 euros"
+  caption: "One product, one card, the same price in two currencies. The question here is whether a retailer should promise that kind of match between its website and its shops. Photo: Sofie D. on Unsplash."
+
+short_answer: >-
+  Yes, if it can ride out a slow start. A big Chinese electronics and appliance seller gave the products it owned
+  outright a single price across its website and stores, while comparable products kept separate prices. Online sales of the
+  switched products fell at first. By the fourth quarter after the change they were 9.20% higher online and 8.00% higher
+  in stores than the comparison suggests. The authors credit shoppers learning they need not check both
+  channels.
+
+takeaways:
+  - "Across the full year, store sales of switched products rose 3.56% against comparable products; the 1.31% online gain could have been chance."
+  - "Online sales took the early hit, down 5.64% in the three months after the switch, and did not turn positive until the third quarter."
+  - "The same-price promise on its own lifted online sales 7.47% and store sales 5.34%, while prices forced to move cut online sales 8.52%."
+  - "About one customer in five (22.6%) bought 39.89% more of the switched products, while the other 77.4% bought 12.54% less."
+
+paper:
+  doi: "10.1007/s11747-025-01127-z"
+  title: "Effects of switching from channel-specific pricing to uniform pricing in omnichannel retail: Evidence from a quasi-experiment"
+  authors: ["Zhuang, M.", "Fang, E.", "Song, P."]
+  authors_full: ["Mengzhou Zhuang", "Eric (Er) Fang", "Peijian Song"]
+  year: 2026
+  journal: "Journal of the Academy of Marketing Science"
+  volume: "54"
+  issue: "2"
+  pages: "469-489"
+  online: "2025-12-01"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Mengzhou Zhuang"
+      affiliation: "Faculty of Business and Economics, The University of Hong Kong, Hong Kong SAR, China"
+      orcid: "0000-0001-9970-4443"
+    - name: "Eric (Er) Fang"
+      affiliation: "College of Business, Lehigh University, Bethlehem, PA, USA"
+      orcid: ""
+    - name: "Peijian Song"
+      affiliation: "School of Business, Nanjing University, Nanjing, Jiangsu Province, China"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One quasi-experiment on one retailer's data (4,150 products, 2,104 matched, 18 months of daily sales, one Chinese city), analysed at product and customer level; the complementary lab experiment in Web Appendix C and the post-hoc simulations in Web Appendix E are not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Mengzhou Zhuang of The University of Hong Kong, Eric (Er) Fang of Lehigh University in Pennsylvania and
+      Peijian Song of Nanjing University took on a choice that every retailer with both a website and shops has
+      to make. Should a product carry one price everywhere, or a price tuned to each channel? Separate prices let a
+      firm charge less where shoppers compare hard and more where they do not. One price takes away a reason to check
+      both channels before buying.
+
+      The evidence comes from a leading Chinese home appliance and consumer electronics retailer that the paper leaves
+      unnamed. By 2013 its website brought in 20% of revenue, and in the first week of June that year it moved every product
+      it owned outright to one price across both channels, tagged with a "same-price guarantee" and announced in all its
+      stores. Products it sold on consignment for manufacturers kept separate prices, because the manufacturers, not
+      the retailer, set them. Shoppers could not tell the two kinds apart, and both got the same promotions, ads and
+      shelf positions.
+
+      That split turned an internal policy change into a natural comparison. The team paired each switched product with
+      a similar one that was left alone and followed weekly sales for six months before the change and twelve after,
+      online and in store separately. A second analysis tracked individual customers' purchases.
+    facts:
+      - ["Retailer", "A major Chinese chain selling appliances and electronics through its website and stores"]
+      - ["Products", "4,150 sold in both channels in one major Chinese city; 2,104 matched into like-for-like pairs"]
+      - ["The change", "2,588 products the retailer owned moved to one price with a same-price tag; 1,562 consigned products kept separate prices"]
+      - ["Data", "2,249,300 daily records of prices and sales, December 2012 to June 2014, plus customer purchase histories"]
+      - ["Measured", "Weekly units sold online and in store, with revenue as a check"]
+
+  - h: "A slow start, then a climb"
+    body: |
+      Averaged over the year, the change looked modest. Split into quarters, a clear pattern appeared.
+
+      Online, sales of switched products dropped in the first three months, June to August. The second quarter showed
+      no clear change. From the third quarter the effect turned positive, and by the fourth it was the largest of the year. In stores
+      the first quarter showed no clear loss, and gains built from the second quarter on. The authors describe it as a
+      warm-up period: shoppers needed time to notice the promise, try it out and start relying on it.
+    chart: quarters
+
+  - h: "Two forces pulling in opposite directions"
+    body: |
+      Not every switched product needed a new price. For 1,109 of them, online and store prices already matched, so the
+      only change was the tag. The other 1,479 had a price moved up or down in at least one channel to meet the rule.
+      Comparing the two groups let the authors separate the value of the promise from the cost of giving up separate
+      prices.
+
+      The promise worked slowly. It did nothing measurable in the first quarter, then lifted sales in both channels
+      in each of the next three quarters, and by the fourth quarter its boost was clearly larger online than in stores.
+
+      The forced price moves worked fast. In the first quarter they cut store sales by 5.07%, and the online loss was
+      more than twice as large. In stores the penalty was gone after the second quarter, while online it shrank steadily but could
+      still be faintly detected in the fourth. Price rises hurt and price cuts helped, as you would expect. Online
+      shoppers reacted more to cuts than to rises, while store shoppers responded more evenly and less strongly overall.
+
+  - h: "Who bought more, and who bought less"
+    body: |
+      The customer analysis sorted shoppers into five groups by how their buying of switched products changed. Three
+      groups bought more. Two bought less, and one of these was by far the largest group of all.
+
+      The two biggest groups looked quite different. Those who bought more had shopped with the retailer for longer
+      (982 days on average against 812), were older (about 44 against 39) and held a higher average membership level
+      (1.67 against 1.08). They had also placed more orders before the switch, though not by a margin the analysis could
+      separate from chance.
+
+      The authors see two reactions here. Bargain hunters lost their cheaper channel and bought less, while regulars
+      came to value not having to check. They also point out that buying fewer switched products does not prove a customer
+      left. Some may have moved to products that kept separate prices, gone to a rival or simply not bought at all.
+    chart: customers
+
+  - h: "How solid is the comparison?"
+    body: |
+      Products were not switched at random, so the authors ran a long list of checks. Before the change, the matched
+      switched and unswitched products moved in step week by week. A sensitivity test suggests that a hidden factor would
+      have to raise a product's odds of being switched by about 20% to wipe out the significant results, in all but one
+      case. The findings held on the full unmatched sample, on daily rather than weekly data, after dropping the four
+      weeks around the launch, with revenue in place of units, and when products were compared only across different
+      categories to limit shoppers swapping one for another.
+
+      Some spillover between the two groups probably happened, since the policy was public. In most periods that would
+      make the reported effects smaller than the true ones, though the authors flag a few quarters where it may run the
+      other way. They also say plainly that the causal estimates could still be biased and should be read with caution.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List every price gap between channels", "Export today's online and in-store prices for every product you sell in both. Mark each product where the two differ, how big the gap is and which side is cheaper."]
+  - ["Move the close matches first", "Sort the list from smallest gap to largest. Start with the 50 products that already match or sit closest together. Hold back the ones with big gaps until you have seen how your shoppers react."]
+  - ["Pick one price per product", "For each product in the first wave, set one price for both channels. Where one channel was cheaper, keep the new price close to that lower figure, then work out how much margin you give up on the other side."]
+  - ["Say it in the same words everywhere", "Put one short line, such as \"Same price in store and online\", on shelf tags, product pages, the app and receipts. List any exclusions in plain words right beside it, or drop them."]
+  - ["Agree a one-year scorecard before launch", "Warn finance and store managers that online sales of these products may dip for the first three months. Book the main review for twelve months after launch, with a check-in every quarter."]
+  - ["Watch who stays and who drifts", "Each month, compare switched products with similar ones you left alone, for the website and the shops separately. Look at loyalty members and repeat buyers on their own, since they are the shoppers most likely to come round."]
+
+expect:
+  - "**The online side pays first and gains most.** Online shoppers punished the price moves harder at the start and rewarded the promise more by the end."
+  - "**Small rises are survivable, big ones are not.** In the authors' simulation, raising a channel's price by under 10% cost 2.0% of store sales and left online sales 0.6% up. Rises above 20% cut sales by more than 6.2%, a loss the promise did not make good within 12 months."
+  - "**Takings followed units.** Rerunning the analysis on revenue instead of units gave the same picture, so the extra sales were not cancelled out by lower prices."
+  - "**A different customer mix.** Expect fewer pure bargain hunters and more spending from long-standing, higher-tier members."
+
+limits:
+  - "**One retailer, one city.** All sales come from one chain and one city in China, between late 2012 and mid 2014. The authors note that phones now make channel gaps easier to spot, which could shift the balance of the two forces."
+  - "**Not a randomised test.** Products were switched according to existing inventory contracts. Matching and checks help, but the authors warn that spillover between products could still bias the estimates."
+  - "**Sales, not profit.** Margins, product returns and the cost of running one price were not measured."
+  - "**Buying less does not mean leaving.** The customer data cannot show whether people who bought fewer switched products went to rivals, chose unswitched products or skipped the purchase."
+  - "**Two channels only.** The website and stores were treated as one channel each. A shopping app and a desktop site may handle prices differently, as the authors acknowledge, and that was not examined."
+
+faq:
+  - q: "Does one price across website and stores raise sales?"
+    a: "Over a year at one large retailer, yes, but not straight away. In stores a small gain was showing by the second quarter; online it arrived only in the third, after a first-quarter dip (Zhuang et al., 2026). The authors trace the gains to shoppers who valued not having to compare channels."
+  - q: "What is channel-specific pricing?"
+    a: "Charging different prices for the same product on a retailer's website and in its stores, usually lower where shoppers compare more. Before the switch, 44.40% of the products this retailer later moved to one price cost more online and 12.75% cost more in store."
+  - q: "How long does uniform pricing take to pay off?"
+    a: "In a projection built on their results, the authors estimate that cumulative sales turn positive after about 24 weeks for a retailer that sells only in stores and 43 weeks for one that sells only online. The bigger a retailer's store share, the sooner it gets there."
+  - q: "Is a price-match promise the same as uniform pricing?"
+    a: "No. The authors argue that matching on request signals that gaps exist and rewards shoppers for hunting them, while one price removes the reason to check. They add that matching competitors' prices alongside one price might soften the early loss, a possibility left untested here."
+
+also:
+  - doi: "10.1111/ijcs.70144"
+    title: "What Are the Concerns of Consumers Regarding Omnichannel Service? A Sentiment Analysis of Customer Mobile Reviews"
+    authors: "Wang & Gong"
+    journal: "International Journal of Consumer Studies"
+    year: 2025
+    text: >-
+      Two researchers scored the mood of 13,923 reviews of two Chinese omnichannel retailers' mobile apps and grouped what
+      people wrote about. Five themes dominated: logistics, the app's technology, promotions and loyalty schemes, dealings
+      with staff, and the products themselves. Their framework says shoppers judge omnichannel service on reliability,
+      transparency and the quality of the digital tools, not only on whether channels match, although the framework still
+      awaits a formal test. App store reviews are a free audit of where the joins between channels show.
+  - doi: "10.1002/mar.70050"
+    title: "A Rater-Reader Inconsistency: Underjudging the Influence of Price in Consumer Ratings"
+    authors: "Hsee, Zeng, & Hsee"
+    journal: "Psychology & Marketing"
+    year: 2026
+    text: >-
+      Eight experiments with 2,898 people found that readers of ratings underestimate how much price shaped them. Raters
+      judge quality against what they paid, so a cheap, basic product can score close to a dearer, better one, and
+      readers take the stars at face value, sometimes ranking the cheaper item higher. The gap shrank when price
+      differences were small, when readers were prompted to think about price or when they knew the product. A premium
+      item listed beside a budget one may need more than its star rating to make its case.
+
+charts:
+  quarters:
+    title: "Sales of switched products by quarter after the change, against comparable products (100 = no difference)"
+    scale: [90, 110]
+    step: 5
+    unit: ""
+    decimals: 1
+    bars:
+      - ["Online, quarter 1", 94.4, false]
+      - ["Online, quarter 2", 97.9, false]
+      - ["Online, quarter 3", 103.6, false]
+      - ["Online, quarter 4", 109.2, true]
+      - ["In store, quarter 1", 98.2, false]
+      - ["In store, quarter 2", 102.2, false]
+      - ["In store, quarter 3", 105.7, false]
+      - ["In store, quarter 4", 108.0, true]
+    source: "Main difference-in-differences model by quarter (Table 2, Model 2), 2,104 matched products; the paper's percentage changes rebased to 100 (online quarter 2 converted from its coefficient). Online quarter 2 and in-store quarter 1 were not statistically different from 100."
+  customers:
+    title: "Share of customers in each buying pattern after the change (%)"
+    scale: [0, 80]
+    step: 20
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Bought more, group 1", 18.1, true]
+      - ["Bought more, group 2", 3.0, false]
+      - ["Bought more, group 3", 1.5, false]
+      - ["Bought less, group 4", 73.6, false]
+      - ["Bought less, group 5", 3.8, false]
+    source: "Customer-level analysis (Table 4): five customer groups estimated from purchase histories of switched and unswitched products."
+
+related_pages: []
