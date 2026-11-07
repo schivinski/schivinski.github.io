@@ -1,0 +1,273 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 11                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-03-27"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: emoji-replace-or-repeat
+status: live
+
+title: "Do emojis make reviews and brand posts more persuasive? What a Journal of the Academy of Marketing Science study found"
+dek: >-
+  Ten studies show that where a face emoji sits decides whether it helps. Placed after the word it echoes, it made reviews,
+  posts and ads more persuasive. Dropped in where the word should be, it left readers guessing.
+short_title: "Emojis persuade when they echo the words"
+
+description: >-
+  Maiberger et al. find a face emoji that repeats a word gives reviews, tweets and Facebook ads more pull, while one that
+  replaces the word adds nothing.
+
+keywords: [emojis in marketing, emoji persuasion, facial emojis, emojis in online reviews, electronic word of mouth,
+  eWOM, emojis in Facebook ads, click-through rate, social media copywriting, emoji ambiguity,
+  Journal of the Academy of Marketing Science]
+topics: [Social media, UGC, Advertising]
+
+image:
+  file: 2023-emoji-replace-or-repeat.jpg
+  og: 2023-emoji-replace-or-repeat-og.jpg
+  alt: "Two yellow inflatable laughing emoji balloons with blue tears, one filling the foreground and one just behind it, against a white background"
+  caption: "Even a face this loud reads more clearly with a word beside it. Photo: John Cardamone on Unsplash."
+
+short_answer: >-
+  Yes, when the emoji repeats a word rather than replacing it. Across ten studies, a face placed after the praise it echoed
+  nudged people to choose, like, share and click. In a lab test, 82% picked a reviewed lemonade when the post said
+  "really delicious" and added a face, against 54% for words alone. A face standing in for the word made the message vaguer
+  and gained nothing overall.
+
+takeaways:
+  - "A Facebook ad that repeated its key word with a face cost 0.55 euros per click, against 0.73 euros for the words-only version."
+  - "Status updates with a laughing face after \"so funny\" collected roughly twice the likes in 24 hours of the words-only posts (6.15 against 3.02)."
+  - "A face in place of \"really love\" lifted intention to try a juice from 3.82 to 4.97 out of 7, but only when the review described the taste first."
+  - "Told about a deal by a close friend whose post used a face instead of praise, people wanted to tell about 5.5 others, against 3.6 for words; from an acquaintance, the face changed nothing."
+
+paper:
+  doi: "10.1007/s11747-023-00932-8"
+  title: "Let’s face it: When and how facial emojis increase the persuasiveness of electronic word of mouth"
+  authors: ["Maiberger, T.", "Schindler, D.", "Koschate-Fischer, N."]
+  authors_full: ["Tobias Maiberger", "David Schindler", "Nicole Koschate-Fischer"]
+  year: 2024
+  journal: "Journal of the Academy of Marketing Science"
+  volume: "52"
+  issue: "1"
+  pages: "119-139"
+  online: "2023-03-27"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (Authors and Affiliations on the Springer page; ORCID iD linked there)
+    - name: "Tobias Maiberger"
+      affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg, Lange Gasse 20, 90403, Nuremberg, Germany; Darmstadt University of Applied Sciences, Schöfferstraße 3, 64295, Darmstadt, Germany"
+      orcid: ""
+    - name: "David Schindler"
+      affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg, Lange Gasse 20, 90403, Nuremberg, Germany"
+      orcid: ""
+    - name: "Nicole Koschate-Fischer"
+      affiliation: "Friedrich-Alexander-Universität Erlangen-Nürnberg, Lange Gasse 20, 90403, Nuremberg, Germany"
+      orcid: "0000-0002-7024-8277"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 10
+    basis: "Ten studies as the paper counts them: Study 1 lab experiment (126 students), Study 2 Facebook field experiment (118 users), Studies 3 and 4 online experiments (157 and 191), Study 5 analysis of 2,137 brand tweets, Study 6 preregistered Facebook ad field test (7,948 users), plus follow-ups 1.1 (165), 1.2 (145), 4.1 (406 recruited in the text, 372 in Table 1) and 5.1 (245, preregistered) detailed in web appendices; the initial scan of 10,000 Facebook posts and a five-person focus group are not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Tobias Maiberger, David Schindler and Nicole Koschate-Fischer
+      of Friedrich-Alexander-Universität Erlangen-Nürnberg, with Maiberger also at Darmstadt University of Applied Sciences,
+      looked at a habit almost everyone online shares: adding a little face to a message. Their question was whether it
+      matters how the face is used. An emoji can take the place of a word ("This lemonade is really" and then a face), or it can
+      follow the word and say it again ("really delicious" and then the face).
+
+      They ran ten studies, six main ones and four shorter follow-ups. Most used fictitious
+      or little-known brands, so no one came with views on them already. Three looked at behaviour outside the lab: likes on real
+      Facebook posts, reactions to brand tweets and clicks on a paid Facebook ad.
+
+      Alongside each outcome, most experiments measured two reactions. One was how fired up the message made readers feel,
+      which the authors call emotional arousal. The other was how unsure readers were about what the writer meant, called
+      perceived ambiguity.
+    facts:
+      - ["Studies", "Ten: six main studies plus four follow-ups detailed in a web appendix"]
+      - ["People", "College students, online panel members (MTurk, Clickworker, Prolific) and real Facebook users"]
+      - ["Field data", "Likes on participants' own Facebook posts, a sample of brand tweets and a paid Facebook ad test"]
+      - ["What changed", "Words only, a face emoji in place of the key word, or the same face placed after it"]
+      - ["Measured", "Product choice, likes, retweets, intention to try, deal sharing and ad clicks, plus arousal and ambiguity"]
+
+  - h: "Two things a face does at once"
+    body: |
+      The team draws on a theory from psychology that treats emotions as social information. Seeing someone's expression
+      does two things. It passes on some of their feeling, and it tells us something about what they think. A face emoji,
+      the authors argue, works the same way in text.
+
+      The first effect should always help, because a face adds energy that plain words lack. The second can go either way.
+      Face emojis are slippery: according to Emojipedia, the average one carries more than four meanings, some of them
+      opposites. The slightly smiling face can mean fine or friendly, but also passive-aggressive or ironic. Standing alone,
+      it leaves readers to guess. Placed after a word, it has that word to pin down its meaning, and then it adds colour.
+
+      This is a common situation, not a niche one. In an initial scan of 10,000 posts made to the Facebook pages of ten
+      well-known brands, about one post in four contained a face emoji, and 55.1% of those faces stood in for a word rather
+      than repeating one.
+
+  - h: "The lemonade test"
+    body: |
+      The first study was run in a lab. Of 132 students, 126 passed the attention checks. Each saw a mock Facebook post
+      praising an unknown lemonade, with the face savouring food emoji, then picked one of three brands on the promise of a
+      free sample.
+
+      Both emoji versions lifted arousal by about one point, out of a possible seven. Ambiguity split. With the emoji in
+      place of "delicious", readers were less sure what the writer meant than with words alone. With the emoji after the
+      word, they were more sure. In the replacing version the two effects offset each other: 56% chose the reviewed lemonade, no
+      real gain on words alone. Repeating the word is what moved choice.
+
+      Two follow-ups backed this up. One, with 165 online participants and a Bluetooth speaker, ruled out the idea that
+      repeating simply adds emphasis or makes the message easier to process. The other, with 145 students and a local
+      restaurant, found the result held for a negative emoji too.
+    chart: lemonade
+
+  - h: "Likes on real feeds"
+    body: |
+      To see whether real friends respond like this, the team recruited 118 Facebook users through MTurk who posted status
+      updates weekly or more often. Each posted a set status update about a funny Netflix show they had just watched, with "so funny" written
+      out, replaced by the face with tears of joy, or followed by it. After 24 hours they reported their likes, backed by a
+      screenshot. Across all posts the average was 4.16 likes. The replacing version did no better than words alone; the
+      repeating version is the one that pulled ahead.
+
+      The brand side came from Twitter. The team collected 2,137 English-language tweets posted by ten well-known brands
+      (Amazon, BMW, Lego, Mercedes Benz, Nescafé, Pepsi, Spotify, Starbucks, Toyota and YouTube) between September 2021 and
+      March 2022. Three coders, unaware of the study's aim, sorted every face emoji by its job. With tone, emotional words, other
+      emojis, length, links, media, hashtags, follower counts and age of the tweet held constant, tweets with repeating faces
+      attracted more likes and retweets. Tweets with replacing faces showed no significant link to either. These are observational
+      data, so they show an association rather than proof of cause.
+
+      A preregistered follow-up with 245 online participants and a made-up brand's tweet about a travel destination found the arousal and
+      ambiguity effects at work in brand messages as well.
+
+  - h: "Clicks on a paid ad"
+    body: |
+      The last study put money behind the idea. The team created a fictitious headphone brand and ran three Facebook ads
+      with the line "Our new headphones now help you fall asleep. This is guaranteed fun." In one version "fun" was written
+      out, in one the face with tongue replaced it, and in one the face followed it. Each version had a budget of about 60
+      euros, and 7,948 Facebook users saw one of the three. The test was preregistered.
+
+      Click-through rates told the story seen in the lab. The replacing ad was not reliably better than words alone, but the
+      repeating ad was. By our arithmetic, its click rate was half as high again as that of the words-only ad, while the
+      authors report a saving per click of more than 20%.
+    chart: adtest
+
+  - h: "When a face can stand in for the word"
+    body: |
+      A lone emoji is not always a problem. The authors expected readers to work out its meaning when they have
+      something else to go on, and tested two such cases.
+
+      The first was the text around it. In one test, 157 Clickworker panel members read a post about a new juice. The short
+      version just said the reviewer loved it; the rich version first said it had a great taste and was refreshing and not too
+      sweet. The heart-eyes face replaced "really love". After the richer text, the emoji made the review less ambiguous. In
+      the bare version it made it more ambiguous.
+
+      The second was the relationship. Another 191 students wrote down the name of either a close friend or a casual
+      acquaintance and imagined that person had posted about an e-reader on sale at 25% off, calling it "really awesome" or
+      "really" plus a face. People seem to learn a friend's emoji habits: from a close friend the lone face reduced ambiguity,
+      from an acquaintance it raised it. A follow-up with Generation Z adults on Prolific found the friend effect whether the
+      friend belonged to their own generation or another.
+
+      In both tests the energy boost from the face showed up regardless of the condition. What shifted was whether the face
+      cleared up the message or clouded it.
+
+  - h: "The authors' advice"
+    body: |
+      For social listening, they suggest flagging reviews and comments in which a face repeats the words, since those are
+      the ones most likely to sway other shoppers. That includes negative comments, which they single out as worth a reply. Platforms
+      that rank the "most relevant" posts could also weigh the emoji's job and the context around it.
+
+      For reviews, they warn against prompts such as "Using an emoji, tell us what you think", because the answers come back
+      vague. They propose writing guidelines with model reviews, and a pop-up translation of each emoji when users hover over
+      it or press and hold it. They are also wary of keyboard features that swap words for emojis automatically in
+      conversations with brands.
+
+      For brand posts, ads and chatbots, they favour faces that repeat the words. Where a brand wants a face to stand alone,
+      they suggest richer copy around it and the same few emojis used consistently, so followers learn the brand's style much
+      as friends learn each other's.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your emojis by job", "Go through your last 20 social posts and ads. Mark each face emoji: does it repeat a word right next to it, or does it take the place of one? Count how many stand alone."]
+  - ["Pick a short list of faces", "Choose four or five face emojis for your brand. Ask five customers what each one means and drop any face that gets two different answers. Use the same faces every time."]
+  - ["Say it, then show it", "Write the feeling in words and put the face straight after it: \"really tasty\" followed by the face, rather than the face alone. Keep to one face per sentence. Add the same rule to your chatbot and reply templates."]
+  - ["Give a lone face some context", "When a face has to replace a word, as in a short headline, put two or three concrete sentences before it about taste, use or price. A bare one-liner ending in a face leaves people guessing."]
+  - ["Test it on a paid post", "Run the same ad twice on an equal budget: once with words only, once with words plus a matching face. After seven days, compare clicks per 1,000 views and the cost per click."]
+  - ["Ask for words in reviews", "Never ask customers to rate you with an emoji alone. Ask for one sentence about what they liked and invite a face at the end. Feature the reviews that pair the two."]
+
+expect:
+  - "**A lift on a small base.** Even the best ad drew fewer than five clicks per hundred views, so expect gains at the margins of a campaign rather than a new channel."
+  - "**Lone faces rarely backfire outright.** Used in place of a word, an emoji mostly did no worse than words, because its energy and its vagueness pulled in opposite directions."
+  - "**Regulars read you better.** The authors expect followers who know a brand's emoji habits to read its lone faces more accurately, which is why they advise a consistent set of faces."
+  - "**Sharper social listening.** Sorting reviews by whether the face repeats the words should, on the authors' reading, help pick out the posts that move other shoppers."
+
+limits:
+  - "**Invented brands, one product each.** Most tests used a made-up or little-known brand and a single product, from lemonade to headphones."
+  - "**One face at a time.** Each test message carried a single face emoji. Strings of emojis, object emojis and how many faces become too many were not tested."
+  - "**Brands already known for emojis.** The tweet analysis covered ten brands people link with emoji use, and it is observational. Brands for which emojis would look out of place may see a different response."
+  - "**A small ad test.** The paid test ran one ad per version, for one product, on a modest budget, and it counted clicks, not sales."
+  - "**Samples and product types.** Participants were students and online panel members, and whether emojis work differently for practical products than for fun ones is still open."
+
+faq:
+  - q: "Do emojis make online reviews more persuasive?"
+    a: "They can. A face emoji that backs up a word sitting right before it made reviews and posts more persuasive in a series of ten studies, while one used in place of the word made no overall difference on average (Maiberger et al., 2024)."
+  - q: "Should brands use emojis in social media ads?"
+    a: "On this evidence, yes, if the face backs up a word in the copy. In a paid Facebook test that version earned more clicks, and cheaper ones, than the same ad without an emoji. Swapping the key word for a face did not reliably help."
+  - q: "Why can an emoji on its own confuse people?"
+    a: "Most face emojis have several possible readings. Without a word next to it, a reader has to guess whether a smile means delight, politeness or irony, and that doubt weakens the message."
+  - q: "When is it fine for an emoji to replace a word?"
+    a: "When the reader has other clues. A lone face worked when the review gave concrete detail before it, and when the message came from a close friend rather than an acquaintance."
+  - q: "Do emojis matter in negative reviews?"
+    a: "Yes. A follow-up using a negative face emoji found the same split between replacing and repeating. The authors see complaints where the face echoes the words as the ones most worth a reply."
+
+also:
+  - doi: "10.1111/ijcs.12915"
+    title: "How online reviews with different influencing factors affect the diffusion of new products"
+    authors: "Sun, Kang, & Zhao"
+    journal: "International Journal of Consumer Studies"
+    year: 2023
+    text: >-
+      Not every review moves a new product. Mining reviews on the Chinese retail platform JD.com with a topic model, the
+      researchers sorted what shoppers wrote about into product quality and supporting services, then used panel data to
+      relate review activity to how new products spread. Reviews about quality carried more weight than reviews about
+      service. Some combinations surprised: a large volume of reviews with a positive emotional tone did not help a launch
+      spread as expected. Before celebrating a pile of glowing reviews, read what they are actually about.
+  - doi: "10.1002/cb.2154"
+    title: "Not just apologizing: The impact of complaint handling on sustained participation behavior in live-streaming shopping"
+    authors: "Zhang & Wang"
+    journal: "Journal of Consumer Behaviour"
+    year: 2023
+    text: >-
+      When something goes wrong in a live-stream shopping session, how the seller handles the complaint shapes whether the
+      customer keeps taking part. With data gathered online and offline and a structural equation model, the authors found
+      that replies in a conversational, human voice, longer replies and a sense of fair treatment all built swift guanxi, a
+      quickly formed personal bond with the seller, which in turn kept customers engaged. One factor they call complaint
+      publicization worked against continued participation. A good reply to a complaint goes well beyond the apology.
+
+charts:
+  lemonade:
+    title: "Lemonade post: how fired up and how unsure readers felt (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Arousal, words only", 4.85, false]
+      - ["Arousal, emoji replaces word", 5.78, false]
+      - ["Arousal, emoji repeats word", 5.85, true]
+      - ["Ambiguity, words only", 2.08, false]
+      - ["Ambiguity, emoji replaces word", 2.83, false]
+      - ["Ambiguity, emoji repeats word", 1.39, true]
+    source: "Study 1, lab experiment with 126 students; group means as reported in the text and Figure 2. Lower ambiguity means readers were surer of the writer's meaning."
+  adtest:
+    title: "Click-through rate of a Facebook ad, by emoji use"
+    scale: [0, 5]
+    step: 1
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Words only", 3.0, false]
+      - ["Emoji replaces \"fun\"", 3.5, false]
+      - ["Emoji repeats \"fun\"", 4.5, true]
+    source: "Study 6, preregistered field test of three Facebook ads for a fictitious headphone brand. Only the repeating version differed significantly from words only."
+
+related_pages: []
