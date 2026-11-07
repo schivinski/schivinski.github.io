@@ -40,40 +40,40 @@ WEB = ROOT / "watch" / "images" / "web"   # WebP copies made by scripts/make_wat
 TOPIC_INFO = {
     "AI": ("AI in marketing: research for practitioners",
            "What new research says about AI in marketing, from generative AI ads to chatbots and AI service, "
-           "explained in plain English with steps to apply it."),
+           "translated for practitioners, with steps to apply it."),
     "Advertising": ("Advertising research for practitioners",
-                    "New peer-reviewed advertising research, explained in plain English: what works in digital "
+                    "New peer-reviewed advertising research, translated for practitioners: what works in digital "
                     "ads, how to apply it and what results to expect."),
     "Social media": ("Social media marketing research for practitioners",
                      "Social media marketing studies from the leading journals, explained for practitioners: "
                      "engagement, content, memes, live streams and what to do next."),
     "UGC": ("User-generated content (UGC) research for practitioners",
-            "Research on user-generated content, online reviews and customer photos, explained in plain English "
+            "Research on user-generated content, online reviews and customer photos, translated for practitioners "
             "with practical steps for brands and platforms."),
     "Influencers": ("Influencer marketing research for practitioners",
                     "What peer-reviewed studies say about influencer marketing: endorsement rates, scandals and "
                     "credibility, with steps you can apply to campaigns."),
     "Personalization": ("Personalization research for practitioners",
-                        "New research on personalization and targeting in marketing, explained in plain English: "
+                        "New research on personalization and targeting in marketing, translated for practitioners: "
                         "when it pays, when it backfires and how to apply it."),
     "Privacy": ("Consumer privacy research for practitioners",
                 "Marketing research on consumer privacy and data use, explained for practitioners, with practical "
                 "steps for collecting and using customer data well."),
     "Retail": ("Retail and e-commerce research for practitioners",
-               "Retail and e-commerce studies from the top marketing journals, explained in plain English: carts, "
+               "Retail and e-commerce studies from the top marketing journals, translated for practitioners: carts, "
                "stores, returns and what retailers can do next."),
     "Service": ("Customer service research for practitioners",
-                "Research on customer service, frontline staff and service technology, explained in plain English "
+                "Research on customer service, frontline staff and service technology, translated for practitioners "
                 "with steps managers can apply."),
     "Search": ("Search and search advertising research for practitioners",
                "New research on search engines, AI search and search advertising, explained for marketers, with "
                "practical steps and realistic expectations."),
     "Creative": ("Creative and content research for practitioners",
-                 "What new research says about ad creative, images, video and content design, explained in plain "
-                 "English with steps to apply it."),
+                 "What new research says about ad creative, images, video and content design, translated for "
+                 "practitioners with steps to apply it."),
     "Research methods": ("Marketing research methods for practitioners",
                          "New methods for testing marketing ideas, from in-feed experiments to field tests, "
-                         "explained in plain English for practitioners."),
+                         "translated for practitioners."),
 }
 
 
@@ -757,7 +757,7 @@ def write_topics(data: list) -> None:
         slug = topic_slug(t)
         keep.add(f"{slug}.qmd")
         title, desc = TOPIC_INFO.get(t, (f"{t}: marketing research for practitioners",
-                                          f"New marketing research on {t.lower()}, explained in plain English for "
+                                          f"New marketing research on {t.lower()}, translated for "
                                           "practitioners, with steps to apply it and what to expect."))
         url = f"{SITE}/watch/topics/{slug}.html"
         items = [d for d in newest if t in d.get("topics", [])]
@@ -782,7 +782,7 @@ def write_topics(data: list) -> None:
         word = "issue" if n == 1 else "issues"
         body_html = (f'<p class="mw-kicker"><a href="../index.html">Marketing in 3</a> · Topic</p>'
                      f'<p class="mw-topic-intro">{n} {word} of Marketing in 3 on <strong>{esc(t)}</strong>, newest first. '
-                     f'Each one explains a new peer-reviewed study in plain English, with steps to apply it.</p>'
+                     f'Each one translates a new peer-reviewed study for practitioners, with steps to apply it.</p>'
                      + topic_bar(counts, t, "../")
                      + '<div class="watch-list">' + "".join(card(d, "../") for d in items) + "</div>")
         if extra:
@@ -847,7 +847,7 @@ def write_years(live: list, back: list, data: list) -> None:
         url = f"{SITE}/watch/{year}/"
         title = f"Marketing in 3: {year} in research"   # browser tab, search and share title; the page shows the main header
         desc = (f"Marketing research published in {year}, one study per issue: what each paper found, how to apply it "
-                "and what results to expect, in plain English.")   # share cards and structured data
+                "and what results to expect, translated for practitioners.")   # share cards and structured data
         # The page itself shows the main header word for word (title, subtitle, description, intro)
         items = sorted(issues, key=lambda d: d["number"], reverse=True)   # newest first, as on the 2026 tab
         ld = {"@context": "https://schema.org", "@graph": [
