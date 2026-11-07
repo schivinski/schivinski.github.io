@@ -104,8 +104,8 @@ def series_of(d: dict) -> str:
 
 
 def label(d: dict) -> str:
-    """'Issue 44' for the live series, '2025 · No. 3' for a look-back."""
-    return f"{series_of(d)} · No. {d['number']}" if is_lookback(d) else f"Issue {d['issue']}"
+    """'2026 · No. 44' for the live series, '2025 · No. 3' for a look-back (same pattern; Bruno, 7 Nov 2026)."""
+    return f"{series_of(d)} · No. {d['number']}" if is_lookback(d) else f"{str(d['week_of'])[:4]} · No. {d['issue']}"
 
 
 def page_date(d: dict) -> str:
@@ -565,7 +565,7 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
     used = set()
     cites = d.get("issue") == 41   # Bruno, 19 Oct 2026: citations are plain (DOI link only); issue 41 was left as published
     kick = (f'<a href="../../{series_of(d)}/index.html">{series_of(d)} in research</a> · No. {d["number"]}' if is_lookback(d)
-            else f'Issue {d["issue"]}')
+            else f'{str(d["week_of"])[:4]} · No. {d["issue"]}')
     out = [f'<p class="mw-kicker">Marketing in 3 · {kick} · {dateline(d)}</p>',
            f'<figure class="mw-hero">{hero_html(img)}<figcaption>{esc(img["caption"])}</figcaption></figure>',
            answer_html(link_names(md(d["short_answer"]), p, used, cites=cites), p.get("evidence")),
