@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-06",
+ "as_of": "2026-11-07",
  "scholar_snapshot": "2026-11-01",
  "baseline": "2026-11-01",
  "h_index": 34,
@@ -120,9 +120,9 @@
    "key": "10.1371/journal.pone.0261380",
    "count": 31,
    "need": 4,
-   "per_month": 0.28,
+   "per_month": 0.27,
    "velocity_source": "openalex",
-   "months_to_cross": 14.5,
+   "months_to_cross": 14.6,
    "year": 2021,
    "title": "Empirical evidence for robust personality-gaming disorder associations from a large-scale international investigation applying the APA and WHO frameworks"
   },
@@ -132,7 +132,7 @@
    "need": 10,
    "per_month": 0.49,
    "velocity_source": "openalex",
-   "months_to_cross": 20.3,
+   "months_to_cross": 20.4,
    "year": 2024,
    "title": "Translating the user-avatar bond into depression risk: A preliminary machine learning study"
   },
@@ -152,7 +152,7 @@
    "need": 12,
    "per_month": 0.34,
    "velocity_source": "openalex",
-   "months_to_cross": 35.5,
+   "months_to_cross": 35.7,
    "year": 2024,
    "title": "What if utilitarian products are regarded as high-status? The moderate role of iconic and popular as two dimensions of brand Coolness"
   },
@@ -162,7 +162,7 @@
    "need": 9,
    "per_month": 0.11,
    "velocity_source": "openalex",
-   "months_to_cross": 83.0,
+   "months_to_cross": 83.3,
    "year": 2021,
    "title": "Where Do Online Games Fit into the Health Behaviour Ecology of Emerging Adults: A Scoping Review"
   },
@@ -172,7 +172,7 @@
    "need": 10,
    "per_month": 0.1,
    "velocity_source": "openalex",
-   "months_to_cross": 104.3,
+   "months_to_cross": 104.5,
    "year": 2019,
    "title": "The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish Restaurant Sector"
   },
