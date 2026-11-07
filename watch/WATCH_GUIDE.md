@@ -313,6 +313,22 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   so switching year only swaps the list. This replaces "no intro paragraph" for both year tabs. The browser title,
   share cards and structured data stay year-specific ("Marketing in 3: 2024 in research").
 
+## The 2023 tab: "2023 in research" (Bruno, 7 November 2026)
+- Built in its own chat on the rules of the 2025 tab, with 2023 in place of 2025: `series: 2023`, `number: N`,
+  `week_of:` = the paper's first-online date in 2023 (publisher page wins), `published:` = go-live date, kicker
+  "Marketing in 3 · 2023 in research · No. N", images `watch/images/2023-<slug>.jpg` and `-og.jpg`, no author emails
+  (author log: "no email (2023 tab)"), kept out of the RSS feed and the home page.
+- 52 open-access papers (Creative Commons licence on the version of record, checked on Crossref), read in full,
+  **digital marketing only**. Bruno rejected a first list on 7 Nov 2026 because many papers were general marketing
+  (pricing, scarcity, nostalgia, satisfaction, perceived value, creative or entertainment advertising, corporate giving).
+  Meta-analyses first where they are open and in scope: seven made the list.
+- Built in batches of four, straight through to the end (Bruno, 7 Nov 2026: "Build 2023 in batches of 4. Run till the
+  end. Don't publish until the full batch is ready"). Hidden like the earlier years: "2023" is in `LOOKBACK_YEARS` but
+  not in `RELEASED_LOOKBACK` until Bruno releases the year.
+- People heroes are fixed by slot so batches can run out of order: every slot numbered 1, 4, 7, ... 52 (N mod 3 = 1)
+  shows people; the others may.
+- **Plan:** watch/PLAN_2023.md lists every slot (DOI, date, status). Papers planned there are reserved for the 2023 tab.
+
 ## Look-back tabs stay hidden until released (Bruno, 2 November 2026)
 - Bruno: "hide the 2024 and 2025 issues. We will release the whole batch when ready." Published builds (PUBLISH=1) now
   leave out every look-back issue whose year is not in `RELEASED_LOOKBACK` in scripts/build_watch.py (empty for now):
