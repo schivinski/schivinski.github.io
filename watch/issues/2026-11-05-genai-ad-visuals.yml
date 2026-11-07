@@ -84,7 +84,7 @@ sections:
       - ["Audience", "Local residents aged 18 to 55 with children aged 3 to 12; feed, Explore and search placements only"]
       - ["What changed", "Only the background picture. Logo and text sat in a fixed template made by the firm's own designer"]
       - ["Measure", "Link click-through rate"]
-      - ["Training", "Late 2023, the firm's quiet winter season: brand ratings first, then nine weeks of live testing"]
+      - ["Training", "Late 2023, the firm's off-peak winter season: brand ratings first, then nine weeks of live testing"]
       - ["Final test", "Three sets of ten images run in the same week, with the same budget and targeting"]
 
   - h: "Testing it first in a simulation"
@@ -180,7 +180,7 @@ limits:
   - "**One campaign.** One company, one audience, one platform and one kind of picture: nature scenery behind a fixed template."
   - "**A small final test.** Ten images per set, one week and a single designer as the human benchmark. The lead over the beauty-score set was not conclusive."
   - "**Backgrounds only.** Products, people and exact wording inside the image are beyond the current generator."
-  - "**Noisy platform.** The ad platform's own delivery choices are part of every result, which is why settings have to stay identical across a round."
+  - "**Platform variation.** The ad platform's own delivery choices are part of every result, which is why settings have to stay identical across a round."
 
 faq:
   - q: "Can AI-generated images outperform a human designer's ads?"

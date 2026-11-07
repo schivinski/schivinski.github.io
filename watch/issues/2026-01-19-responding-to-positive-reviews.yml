@@ -144,7 +144,7 @@ expect:
   - "**Small, reliable lifts.** Evaluation gains were around 0.2 points on a 5-point scale, but they repeated across six experiments, and in a direct choice the downplaying business won 61 to 39."
   - "**More engagement with your replies.** People were clearly more willing to vote downplaying replies useful, which can push them up on platforms that rank responses."
   - "**Little cost.** The winning replies were one or two sentences long. Length was held constant in two experiments, so the effect is not about effort."
-  - "**Better than staying silent.** Earlier research found that replies to praise can hurt; here a downplaying reply did better than no reply at all."
+  - "**Better than not replying.** Earlier research found that replies to praise can hurt; here a downplaying reply did better than no reply at all."
 
 limits:
   - "**Simulated settings.** Most experiments used a restaurant or coffee-shop scenario online, with students or CloudResearch panels. Results may differ for other categories and real review pages."

@@ -144,7 +144,7 @@ sections:
 how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
   - ["Sort your range into two lists", "Split the products you sell live into two lists: things people buy for a practical purpose, such as chargers, storage or office supplies, and things they buy for pleasure, such as make-up, snacks or fashion. Put anything that could go either way on the pleasure list."]
   - ["Collect the 20 questions viewers ask most", "Read back through the comments from your last five live shows and write down the 20 questions you see most. Mark each one that has a fixed answer, such as price, size, material or delivery time."]
-  - ["Give the virtual host the practical list", "Schedule the AI host for practical products in your quieter hours, such as mornings and mid-afternoon. Load it with the fixed answers from your list and a short script for each product."]
+  - ["Give the virtual host the practical list", "Schedule the AI host for practical products in your off-peak hours, such as mornings and mid-afternoon. Load it with the fixed answers from your list and a short script for each product."]
   - ["Keep people on busy hours and treats", "Put your human hosts on your busiest hours, usually the evening, and on big sale days. Give them the pleasure list, where viewers want opinions, jokes and a reply that uses their name."]
   - ["Put a person behind every AI show", "Have someone watch the comments during each AI-hosted show and step in by voice or text when a question falls outside the script. Aim to answer within two minutes."]
   - ["Compare the two hosts monthly", "At the end of each month, line up AI-hosted and human-hosted shows on sales after refunds, likes, comment counts and follower growth. If the virtual host's sales on practical products slip two months running, refresh its script or hand the slot back to a person."]
@@ -152,7 +152,7 @@ how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–
 expect:
   - "**Lower running costs.** The paper quotes Chinese industry figures: a human host earns roughly 10,000 to 20,000 yuan a month, while a ready-made virtual studio package was priced at 99,000 yuan a year. One cloud provider claims AI cuts the cost of a livestream by more than 30%."
   - "**Count what customers keep.** Across all rooms, AI-hosted shows trailed slightly on sales before refunds, but that difference disappeared once returns came off. Judge any trial on net sales."
-  - "**A quieter room.** Even where sales hold steady, expect fewer comments and follows when the machine is hosting. If community matters to you, budget for shows that people present."
+  - "**Less interaction.** Even where sales hold steady, expect fewer comments and follows when the machine is hosting. If community matters to you, budget for shows that people present."
   - "**A season, not a fortnight.** The shifts in this data unfolded over months. A short trial will show where an AI host starts, not where it ends up."
 
 limits:

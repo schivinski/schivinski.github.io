@@ -141,7 +141,7 @@ sections:
       studies claim serious damage. A system that reads pages well could block precisely rather than broadly.
 
       Fairness is the second worry. Facebook's delivery system has skewed job and housing ads by gender and race even when
-      the advertiser's targeting looked neutral, and has shown ads for science and engineering jobs to fewer women than men. Choosing pages can quietly
+      the advertiser's targeting looked neutral, and has shown ads for science and engineering jobs to fewer women than men. Choosing pages can, unnoticed,
       become a way of choosing people, which makes such bias even harder to spot.
 
 how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
@@ -153,7 +153,7 @@ how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–
   - ["Run page-based buying against your usual targeting", "For four weeks, split the budget three ways: pages only, audiences only, and both together. Compare the cost of each new customer, then move money towards the best line every month."]
 
 expect:
-  - "**A noisy start.** A bidder that learns by trial and error has little to go on in a campaign's first days. Filtering out accidental clicks helps it settle sooner."
+  - "**An unsteady start.** A bidder that learns by trial and error has little to go on in a campaign's first days. Filtering out accidental clicks helps it settle sooner."
   - "**Your history becomes an asset.** A technique called transfer learning lets results from earlier campaigns give a new one a running start. A brand-new advertiser or product starts further back."
   - "**Clicks are the easy target.** Automated systems learn fastest on clicks and sales. Brand-building goals need slower feedback, such as recall surveys with an unexposed control group, which cost more to run."
   - "**Moments, not profiles.** Context reaches people in a state of mind rather than people with a known history. You give up certainty about who sees the ad and gain relevance to what they are doing."

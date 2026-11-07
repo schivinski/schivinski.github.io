@@ -27,13 +27,13 @@ image:
 short_answer: >-
   The damage splits in two. When people feel the brand let them down, they respond with stronger feelings and doubts about the brand's
   intentions. When they feel the chatbot let them down, they act, by recommending it less, complaining or warning others. A
-  bad chat can also push people to quiet withdrawal and indifference. In interviews, people with a good history with the brand were more
+  bad chat can also push people to withdrawal and indifference. In interviews, people with a good history with the brand were more
   likely to complain privately and constructively.
 
 takeaways:
   - "After a failed chat, a bigger fall in trust in the brand went with more negative feelings and more doubts about the brand. It had no clear link to behaviour."
   - "A bigger fall in confidence in the chatbot went with more action against the brand, both helpful (feedback) and harmful (warning others)."
-  - "Negative engagement is not always loud. Some interviewees went numb, saying they felt nothing and simply would not use the brand again."
+  - "Negative engagement is not always visible. Some interviewees went numb, saying they felt nothing and simply would not use the brand again."
   - "Interviewees who had a good history with the brand were more likely to complain in private and offer feedback."
 
 paper:
@@ -123,7 +123,7 @@ sections:
       cannot do and presenting it as an assistant and not as a stand-in for a person. That limits how far the chatbot's reputation falls, and
       it keeps a bot failure from becoming a brand failure.
 
-      After a failure, match the response to the reaction. Angry customers need a fast, personal apology and a human. Quiet,
+      After a failure, match the response to the reaction. Angry customers need a fast, personal apology and a human.
       withdrawn customers need someone to reach out, because they will not complain and may not return. Customers who offer feedback should be
       thanked and shown what changed.
 
@@ -133,13 +133,13 @@ how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–
   - ["Read ten failed chats", "Pull ten recent chat logs where the customer ended unhappy, and write down what the customer expected the bot to do and what it did instead. Look for the same gap in at least three of them."]
   - ["Say what the bot can and cannot do", "Open every chat with one line, such as \"I can track orders and answer delivery questions. For refunds I will pass you to a person.\" Use plain words and give a number for how soon a person will follow."]
   - ["Add an easy way to a human", "Place a \"talk to a person\" button in the first screen of the chat, and also after any second unhelpful reply. Test that it works at three different times of day."]
-  - ["Plan two follow-ups", "Write one for angry customers, with a named person, an apology and a fix within one working day. Write another for customers who went quiet, with a short check-in message a week later and an offer to help."]
+  - ["Plan two follow-ups", "Write one for angry customers, with a named person, an apology and a fix within one working day. Write another for customers who withdrew, with a short check-in message a week later and an offer to help."]
   - ["Invite feedback after a failure", "After any chat that ends in a handover, ask one question: \"What should we have done better?\" Reply to every answer within three working days."]
   - ["Track who comes back", "Each month, count what share of customers who had a failed chat bought from you again within 60 days. Compare those who got a follow-up with those who did not."]
 
 expect:
   - "**Fewer surprises.** A clear statement of what the bot does tends to reduce the letdown, so fewer failures feel like betrayals."
-  - "**Silence needs watching.** Customers who withdraw will not show up in complaint counts, so look at repeat purchases as well."
+  - "**Withdrawal needs watching.** Customers who withdraw will not show up in complaint counts, so look at repeat purchases as well."
   - "**Two owners.** Brand and digital teams need to agree on promises and bot capabilities together, or gaps will keep opening."
   - "**Handover decides the outcome.** How fast a person steps in matters more than how clever the bot is."
 
@@ -155,7 +155,7 @@ faq:
   - q: "Do customers blame the bot or the company?"
     a: "Both, and for different things. Trust in the brand drove feelings and thoughts, and confidence in the chatbot drove actions. In interviews, many people held the brand responsible for the bot it chose to deploy."
   - q: "What is negative brand engagement?"
-    a: "Unfavourable thoughts, feelings and actions toward a brand after a bad event. It can be active, such as anger and public complaints, or passive, such as indifference and quietly leaving."
+    a: "Unfavourable thoughts, feelings and actions toward a brand after a bad event. It can be active, such as anger and public complaints, or passive, such as indifference and leaving without complaint."
   - q: "Can a failed chatbot chat lead to constructive feedback?"
     a: "Sometimes. The survey linked chatbot letdown to helpful action as well as harmful action, and interviewees with a good history with the brand were more likely to complain privately and suggest improvements."
   - q: "How can a company limit the damage?"

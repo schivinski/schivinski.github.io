@@ -191,7 +191,7 @@ limits:
   - "**An older snapshot.** The data come from 2020 and 2021, during the pandemic and before the EU passed its Digital Markets Act."
   - "**Borrowed measures.** The click-likelihood weights come from an analytics firm that keeps its method secret, and the platform has no seller rating of its own, so one had to be assumed."
   - "**Not a compliance certificate.** Nothing here proves the platform obeys bans on self-preferencing, the authors warn. Advantages such as access to its own data lie beyond what outsiders can test."
-  - "**Thin cells.** Several category and country estimates rest on few observations and are noisy."
+  - "**Thin cells.** Several category and country estimates rest on few observations and are imprecise."
 
 faq:
   - q: "What is self-preferencing on a digital platform?"
@@ -215,7 +215,7 @@ also:
       Reviews often mention whether the writer went alone or with company. Across Tripadvisor data and five experiments,
       recommendations from people who did an activity on their own carried more weight, because readers credited a solo
       reviewer's verdict to the experience itself rather than to the company. When other cues already explained why the
-      person took part, such as a stated motive, the solo edge shrank. A plain "I went on my own" is quietly persuasive.
+      person took part, such as a stated motive, the solo edge shrank. A plain "I went on my own" is more persuasive than it looks.
   - doi: "10.1111/ijcs.70090"
     title: "The More They Engage, the More They Consume: A Meta‐Analysis of the Impact of Brand's Owned Social Media User Engagement on Sales"
     authors: "Yin, Hao, Chu, & Fu"

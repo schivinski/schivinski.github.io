@@ -82,7 +82,7 @@ sections:
       car to a bag of pea crackers. Clips without any placement were mixed in, so the purpose was less obvious.
 
       The clips were chosen to vary two things. Some products mattered to the plot and some were just there. In some
-      clips a character said the product's category out loud ("chocolate", not the brand name), in others nobody
+      clips a character said the product's category aloud ("chocolate", not the brand name), in others nobody
       mentioned it. Everything else was measured rather than set: how much the product stood out in the frame, how big
       it was, how positive, negative or exciting the scene felt second by second, and how busy the picture and the
       soundtrack were, both in the lead-up to each appearance and during it.
@@ -127,12 +127,12 @@ sections:
   - h: "Busy pictures, busy soundtracks"
     body: |
       The coders logged features such as cuts to a new camera angle, shifts in format or emotion, a new voice starting
-      or a sudden silence, and counted how many were present each second. In the seconds leading into an appearance, a
-      busier picture helped when the soundtrack was quiet. With a busy soundtrack, the same busy picture lowered attention.
+      or a sudden drop in sound, and counted how many were present each second. In the seconds leading into an appearance, a
+      busier picture helped when the soundtrack was sparse. With a busy soundtrack, the same busy picture lowered attention.
       That bore out the team's prediction only in part.
 
       Once the product was in view, whether the plot needed it decided the effect. For on-plot products, more
-      visual activity drew more looks, with the strongest gain over a quiet soundtrack. For off-plot products,
+      visual activity drew more looks, with the strongest gain over a sparse soundtrack. For off-plot products,
       extra movement on screen steadily pulled eyes elsewhere, and the soundtrack did not change that slide.
 
   - h: "What the model can and cannot tell us"
@@ -155,7 +155,7 @@ how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–
   - ["Give the product a job in the scene", "Before filming or briefing a creator, write a single line describing what the product does in the story: a character drives it, eats it or opens it. If no such line comes, plan it as a background placement."]
   - ["Check how much it stands out", "Take three still frames from each shot where the product appears. Shrink each one to about 3 cm wide on screen and ask two colleagues what they see first. Note whether the product is among the first three things they name."]
   - ["Write a line that names it", "If the product drives the story, have a character say what it is, such as 'the chocolate' or 'that app', within two seconds of it appearing. Keep the line even when the product is small or partly hidden."]
-  - ["Light up background products, or keep quiet", "If the product plays no part in the story, put it in strong light, in a contrasting colour, near the centre of the frame. If you cannot, leave out the spoken mention, because naming a product viewers cannot find pulls their eyes the wrong way."]
+  - ["Light up background products, or skip the mention", "If the product plays no part in the story, put it in strong light, in a contrasting colour, near the centre of the frame. If you cannot, leave out the spoken mention, because naming a product viewers cannot find pulls their eyes the wrong way."]
   - ["Time it after a lively beat", "Bring the product in straight after an exciting moment, such as a goal or a reveal, or after a warm, calm one. Avoid tense or bittersweet scenes. While a background product is on screen, hold the shot and keep the cutting slow."]
   - ["Test recall before release", "Show the finished video to 20 viewers who match your target customers. Ask them, without prompting, which products they remember. Change one thing at a time, the spoken line, the lighting or the timing, and test again."]
 

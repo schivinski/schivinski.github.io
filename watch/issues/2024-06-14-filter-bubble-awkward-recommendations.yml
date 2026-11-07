@@ -150,12 +150,12 @@ sections:
       elsewhere, so choose that wording on purpose.
 
 how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
-  - ["List the products people keep quiet about", "Mark every product in your range that shoppers might not want others to know they bought, such as sexual health items, intimate care, piles cream or home tests for infections. When unsure, ask five people outside your team whether they would tell a friend they bought it."]
+  - ["List the products people keep private", "Mark every product in your range that shoppers might not want others to know they bought, such as sexual health items, intimate care, piles cream or home tests for infections. When unsure, ask five people outside your team whether they would tell a friend they bought it."]
   - ["Read the small print on every suggestion", "Open your site, app, emails and ads. Write down the line that explains each recommendation, such as \"Because you viewed\" or \"Picked for you\", and mark every one that points at the shopper's own clicks."]
   - ["Change the line on sensitive picks", "For the products on your list, credit the suggestion to other shoppers, with a line such as \"Often bought together\" or \"Popular this week\". Leave the personal line on everyday products."]
   - ["Give people an easy way out", "Next to every sensitive suggestion, add a \"Not for me\" button and a short row of fresh picks from other categories. One tap should hide the item and change what shows up next."]
   - ["Test both lines for a fortnight", "Split your visitors into two groups for 14 days: one sees the personal line, the other sees the shopper line. Compare sales of the sensitive items, and clicks into categories each visitor had never opened before."]
-  - ["Check the quiet signals every Monday", "Count hides, \"Not for me\" taps, unsubscribes and complaints each week. If they rise two weeks in a row after a change, switch back and try another wording."]
+  - ["Check the indirect signals every Monday", "Count hides, \"Not for me\" taps, unsubscribes and complaints each week. If they rise two weeks in a row after a change, switch back and try another wording."]
 
 expect:
   - "**A nudge, not an overhaul.** In the largest experiment, the combination of product and wording explained roughly 1% of why some people planned to explore more than others."

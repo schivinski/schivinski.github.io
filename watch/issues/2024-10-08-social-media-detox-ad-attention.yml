@@ -161,15 +161,15 @@ sections:
 how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
   - ["Map when your audience comes back", "List the moments your followers are most likely returning after a long gap: first thing in the morning, the end of a holiday, the week after exams. Circle the ones that matter most for your brand, no more than three."]
   - ["Ask what timing controls you have", "Ask your ad platform contact whether you can schedule ads by the hour and by weekday. Write down which options exist before you plan the next campaign."]
-  - ["Build a one-glance version", "For slots that land right after a likely break, make a version people can take in at once: logo, product and one short line. Look at it for one second, then say out loud what it was for. If you cannot, cut more."]
+  - ["Build a one-glance version", "For slots that land right after a likely break, make a version people can take in at once: logo, product and one short line. Look at it for one second, then say aloud what it was for. If you cannot, cut more."]
   - ["Keep detailed ads for busy hours", "Put ads that need reading, such as offers with conditions or how-to videos, into the hours when your audience is already scrolling often, like evenings. Run the one-glance version everywhere else."]
   - ["Split the schedule for two weeks", "Run the same campaign for 14 days, with half the budget in early-morning slots and half in the evening. Compare three-second video views and clicks for each half."]
-  - ["Check the pattern every Monday", "Each Monday, look at whether the first hours after quiet spells, such as Monday mornings or the day after a public holiday, bring weaker views and clicks. If they do, move money out of those hours."]
+  - ["Check the pattern every Monday", "Each Monday, look at whether the first hours after breaks in use, such as Monday mornings or the day after a public holiday, bring weaker views and clicks. If they do, move money out of those hours."]
 
 expect:
   - "**A glance is the norm anyway.** Even without any break, a feed ad got only a brief look, so the gain from good timing comes in fractions of a second."
   - "**Breaks matter, caps do not.** Screen-time tools that limit each visit are unlikely to cost you attention. A full stretch away from social media is what changes how people treat ads."
-  - "**Stand-ins for now.** A platform flag for people back from a break is only the authors' proposal, so time of day and quiet seasons are the nearest signals you can plan with."
+  - "**Stand-ins for now.** A platform flag for people back from a break is only the authors' proposal, so time of day and off-peak seasons are the nearest signals you can plan with."
   - "**Cheap to try.** Moving budget between hours costs nothing extra, so a timing test is easy to set up and easy to drop if it shows nothing."
 
 limits:

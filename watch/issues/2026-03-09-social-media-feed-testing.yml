@@ -126,7 +126,7 @@ how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–
 
 expect:
   - "**Context effects are real but moderate.** An unsafe context lowered brand attitude by half a point on a 7-point scale, a meaningful but not dramatic effect."
-  - "**Smaller effects than in single-post tests.** The authors warn that realistic feeds produce smaller, noisier effects, so feed tests need larger samples."
+  - "**Smaller effects than in single-post tests.** The authors warn that realistic feeds produce smaller, less precise effects, so feed tests need larger samples."
   - "**Attention as the key metric.** Time on the ad predicted recall better than where it appeared in the feed."
   - "**Low cost.** The app is free and open source; the main cost is paying a panel of respondents."
 

@@ -37,7 +37,7 @@ takeaways:
   - "Commitment splits followers first, and every later step depends on which side of that line someone sits."
   - "Nearly half of followers are brand passionates: they know the brand and think well of it, watch and react, but rarely create."
   - "The most active creators were committed followers, including a small group who love the brand but do not yet know its full range."
-  - "Followers who know the brand but rate its associations poorly stay quiet, which makes associations the lever to fix first."
+  - "Followers who know the brand but rate its associations poorly hold back, which makes associations the lever to fix first."
 
 paper:
   doi: "10.1016/j.jbusres.2019.08.045"
@@ -99,7 +99,7 @@ sections:
 
   - h: "Who creates, and who only watches"
     body: |
-      Brand passionates are the quiet majority. Almost nine in ten consumed brand content at a medium level, and more than half
+      Brand passionates are the largest group. Almost nine in ten consumed brand content at a medium level, and more than half
       created little or nothing. They are the audience that watches, likes now and then, and moves on.
 
       Brand fans did a bit of everything. About one in five contributed at a high level, by commenting and sharing, and almost
@@ -138,8 +138,8 @@ how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–
   - ["Track each group separately", "Every month, count comments, shares and posts from each group. Keep a tactic only if its group's activity rises in two months out of three, and re-run the survey every six months."]
 
 expect:
-  - "**A loud minority.** Most of your creation will come from committed followers, so treat them as partners rather than as an audience."
-  - "**A quiet majority that still counts.** Followers who watch and like are the largest group, and they need reasons to belong before they will post."
+  - "**An active minority.** Most of your creation will come from committed followers, so treat them as partners rather than as an audience."
+  - "**A less active majority that still counts.** Followers who watch and like are the largest group, and they need reasons to belong before they will post."
   - "**Slow movement.** Commitment and associations change over months, not days, so judge the plan by the quarter."
   - "**Less need for volume.** More posts will not move a follower who does not care, so spend effort on the beliefs first."
 

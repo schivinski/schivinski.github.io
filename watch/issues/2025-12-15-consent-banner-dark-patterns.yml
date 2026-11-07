@@ -154,7 +154,7 @@ sections:
 
 how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
   - ["List every banner you run", "Write down each website, app and landing page where you ask for tracking consent. Screenshot each banner on a phone and on a laptop, and copy out the exact words on every button."]
-  - ["Read each button out loud", "Ask a colleague outside marketing what each label commits them to. If they hesitate over phrases such as \"I'm OK with that\", \"Got it\" or \"Sounds good\", mark that banner for a rewrite."]
+  - ["Read each button aloud", "Ask a colleague outside marketing what each label commits them to. If they hesitate over phrases such as \"I'm OK with that\", \"Got it\" or \"Sounds good\", mark that banner for a rewrite."]
   - ["Use plain verbs on the buttons", "Change the labels to Accept and Decline, or Accept all and Reject all. Keep each label to three words or fewer."]
   - ["Give saying no equal weight", "Make Decline match Accept in size, colour and position, on the first screen. One tap should be enough to refuse, with no extra menus to open."]
   - ["Fix the banner before you retarget", "Retargeted ads remind people where you got their data. Switch on retargeting for a site only once its banner offers a clear choice, and pause it on any site that still shows Accept alone."]

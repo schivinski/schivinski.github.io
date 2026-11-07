@@ -71,9 +71,9 @@ sections:
   - h: "What the researchers did"
     body: |
       Ali Razzaq, Wei Shao and Sara Quach of the Department of Marketing at Griffith University in Queensland, Australia,
-      looked at a choice every social media team faces when it borrows a meme: how loudly should the brand speak? Some
-      teams repeat the name and show the product. Others drop in one quiet mention so the post feels less like an ad.
-      Research on product placement in films and television often favours the quiet route, because a conspicuous brand
+      looked at a choice every social media team faces when it borrows a meme: how prominent should the brand be? Some
+      teams repeat the name and show the product. Others drop in one subtle mention so the post feels less like an ad.
+      Research on product placement in films and television often favours the subtle route, because a conspicuous brand
       can make viewers feel sold to.
 
       The team treated memes as tiny stories, with a set-up, a character, a sense of movement and a punchline, and asked
@@ -91,9 +91,9 @@ sections:
       - ["Measured", "Absorption in the meme, attitude towards it as an advert, and the chance of liking, sharing or tagging it, all on seven-step scales"]
       - ["Controls", "Appetite for humour, the tendency to get lost in stories and, in the later studies, familiarity with the brand"]
 
-  - h: "Why the louder brand did better"
+  - h: "Why the more prominent brand did better"
     body: |
-      In every experiment, the version with the brand clearly on show beat the quieter one on liking for the ad and on
+      In every experiment, the version with the brand clearly on show beat the subtler one on liking for the ad and on
       willingness to engage. That held for a cheap snack, a fast-food meal and a designer accessory.
 
       The authors trace the difference to absorption, which researchers call narrative transportation: the sense of being
@@ -105,10 +105,10 @@ sections:
       from the plot. In a meme, the authors argue, the brand is part of the plot.
     chart: liking
 
-  - h: "Famous brands can afford to whisper"
+  - h: "Famous brands can afford to be subtle"
     body: |
-      How well people knew the brand changed the picture. With the unfamiliar cookie, the quiet meme left people far less
-      absorbed than the loud one. With the market leader, both versions landed about equally well.
+      How well people knew the brand changed the picture. With the unfamiliar cookie, the subtle meme left people far less
+      absorbed than the prominent one. With the market leader, both versions landed about equally well.
 
       The explanation comes from how memory works. People who know a brand well fill in the missing cues themselves, so a
       light mention is enough. People who do not know it have only what the post shows them, and the extra mentions give
@@ -150,7 +150,7 @@ how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–
 expect:
   - "**A steady edge, not a jackpot.** The brand-heavy meme won for all three products, but the size of its lead changed a lot from one product and audience to the next."
   - "**Sharing can lag behind liking.** In the fast-food test, the logo version was liked clearly more, while the gain in willingness to share or tag it was small: 4.12 against 3.95."
-  - "**Cheap to test.** Each test meme was assembled from a public template with a free tool, so testing a loud and a quiet take on one joke costs little beyond time."
+  - "**Cheap to test.** Each test meme was assembled from a public template with a free tool, so testing a prominent and a subtle take on one joke costs little beyond time."
   - "**Context can widen the circle.** A short explanation turned a puzzling meme into one that worked. We think a caption or pinned comment that sets up the joke could do the same, though only the explanation itself was tested."
 
 limits:

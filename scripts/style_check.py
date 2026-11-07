@@ -6,6 +6,13 @@
 
 Prints file:line and the phrase for every hit and exits 1 if there is any, 0 if the issues are clean. Run it before
 publishing; rules about tone or structure that a script cannot catch are checked by hand against the log's entries.
+
+The log's banned block holds one entry per line:
+  - phrase                      plain phrase, whole words, case-insensitive
+  - re: <regex>                 regular expression, case-insensitive
+  - allow <file part> :: <re>   exception: a hit is ignored when this regex matches text that overlaps it, in files
+                                whose name contains <file part> (use * for every file). For literal or technical uses
+                                only, such as the name of a theory or words quoted from a study.
 """
 from __future__ import annotations
 
@@ -17,37 +24,44 @@ ROOT = Path(__file__).resolve().parent.parent
 LOG = ROOT / "watch" / "STYLE_LOG.md"
 
 
-def patterns() -> list[tuple[str, re.Pattern]]:
+def rules() -> tuple[list[tuple[str, re.Pattern]], list[tuple[str, re.Pattern]]]:
     text = LOG.read_text(encoding="utf-8")
     block = re.search(r"<!-- style-check:start -->(.*?)<!-- style-check:end -->", text, re.S)
-    out = []
+    banned, allowed = [], []
     for line in (block.group(1) if block else "").splitlines():
         line = line.strip()
         if not line.startswith("- "):
             continue
         item = line[2:].strip()
-        if item.startswith("re:"):
-            out.append((item, re.compile(item[3:].strip(), re.I)))
+        if item.startswith("allow ") and "::" in item:
+            where, rx = item[6:].split("::", 1)
+            allowed.append((where.strip(), re.compile(rx.strip(), re.I)))
+        elif item.startswith("re:"):
+            banned.append((item, re.compile(item[3:].strip(), re.I)))
         else:
-            out.append((item, re.compile(r"\b" + re.escape(item) + r"\b", re.I)))
-    return out
+            banned.append((item, re.compile(r"\b" + re.escape(item) + r"\b", re.I)))
+    return banned, allowed
 
 
 def main(args: list[str]) -> int:
     files = [Path(a) for a in args] or sorted((ROOT / "watch" / "issues").glob("*.yml"))
-    pats = patterns()
+    banned, allowed = rules()
     hits = 0
     for f in files:
+        exceptions = [rx for where, rx in allowed if where == "*" or where in f.name]
         lines = f.read_text(encoding="utf-8").splitlines()
-        # join wrapped YAML lines so a phrase split across two lines is still caught
         for i, line in enumerate(lines):
+            # join the next line too, so a phrase wrapped across two YAML lines is still caught
             window = line + " " + (lines[i + 1].strip() if i + 1 < len(lines) else "")
-            for name, p in pats:
-                m = p.search(window)
-                if m and m.start() < len(line):
+            for name, p in banned:
+                for m in p.finditer(window):
+                    if m.start() >= len(line):
+                        break
+                    if any(a.start() < m.end() and m.start() < a.end() for rx in exceptions for a in rx.finditer(window)):
+                        continue
                     hits += 1
-                    print(f"{f}:{i + 1}: banned phrase ({name}): {line.strip()[:120]}")
-    print(f"style check: {len(files)} file(s), {len(pats)} banned phrase(s), {hits} hit(s)")
+                    print(f"{f}:{i + 1}: banned ({name}): '{m.group(0)}' in: {line.strip()[:110]}")
+    print(f"style check: {len(files)} file(s), {len(banned)} banned pattern(s), {len(allowed)} exception(s), {hits} hit(s)")
     return 1 if hits else 0
 
 

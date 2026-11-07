@@ -69,7 +69,7 @@ sections:
   - h: "What the researchers did"
     body: |
       William H. Hampton and Christian Hildebrand, both of the Institute of Behavioral Science and Technology at the
-      University of St Gallen in Switzerland, studied a design detail that shopping apps have quietly adopted. Amazon,
+      University of St Gallen in Switzerland, studied a design detail that shopping apps have adopted without much notice. Amazon,
       ASOS and Zara Home have all made their apps vibrate when a shopper adds a product, each with a buzz of a
       different length, from a brief pulse to about half a second. Hampton also leads UX research at a technology company
       in the United States.
@@ -155,7 +155,7 @@ sections:
       as compulsive buying. That suggestion has not been tested.
 
 how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
-  - ["Pick the one tap that matters", "Choose a single action in your app to pair with a buzz, such as add to cart or save for later. Keep every other tap silent so the buzz stays special."]
+  - ["Pick the one tap that matters", "Choose a single action in your app to pair with a buzz, such as add to cart or save for later. Keep every other tap free of vibration so the buzz stays special."]
   - ["Check who can feel it", "Look in your app analytics for how many customers shop on phones rather than tablets or computers. If only a few do, spend your effort somewhere else first."]
   - ["Tune the length before launch", "Set the vibration to about 400 milliseconds as a starting point. Try 300 and 500 as well, on a new phone and an old one, and drop any version that feels like an alarm."]
   - ["Disclose it and make it optional", "Add one plain sentence about the buzz to your onboarding screens or release notes. Put an on and off toggle under the app's sound and haptics options."]

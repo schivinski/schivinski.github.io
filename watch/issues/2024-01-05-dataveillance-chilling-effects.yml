@@ -70,7 +70,7 @@ sections:
     body: |
       Joanna Strycharz of the University of Amsterdam and Claire M. Segijn of the University of Minnesota looked at a side effect
       of data-driven advertising that never shows up in a campaign report. When people sense they are being watched, some
-      quietly change what they do: they watch less, browse differently or tighten their phone settings. This is known as a chilling
+      change what they do without saying so: they watch less, browse differently or tighten their phone settings. This is known as a chilling
       effect. It has mostly been studied around state surveillance, and the pair asked whether ad tracking can cause it too.
 
       They worked in two steps, in America and the Netherlands, two places with very different privacy rules. Dutch
@@ -145,7 +145,7 @@ how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–
   - ["Explain each match in one plain line", "Beside any ad that follows people from one screen to another, add one sentence saying where the match came from. Use everyday words, such as 'based on pages you visited', not legal terms."]
   - ["Put an off switch next to the notice", "Place a control that stops cross-device matching right where the explanation appears. Check on a phone that it takes two taps or fewer."]
   - ["Set the dial country by country", "Before launching in a new market, find out how far people there trust advertisers with their data. Where trust is low, start with the lightest data sources and add more only after three months without complaints."]
-  - ["Watch for your data going quiet", "Each month, track opt-outs, ad blocking and sudden drops in viewing or app use after any new tracking feature. If any of them climbs two months in a row, switch the feature off and compare."]
+  - ["Watch your data for signs of withdrawal", "Each month, track opt-outs, ad blocking and sudden drops in viewing or app use after any new tracking feature. If any of them climbs two months in a row, switch the feature off and compare."]
 
 expect:
   - "**A dip, not an exodus.** The more intrusive method shifted plans by tenths of a point, and for one habit only. Expect a dent in the tracked behaviour rather than people abandoning the channel."

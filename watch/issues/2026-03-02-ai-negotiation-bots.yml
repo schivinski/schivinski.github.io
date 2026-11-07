@@ -116,7 +116,7 @@ sections:
       "BargainBot". The authors suspect an uncanny-valley effect. People build a picture of their counterpart over
       repeated rounds and signal their intentions; the bots, trained one game at a time, ignored those signals, which
       may feel like talking to someone who never listens. Because such feelings predict how future negotiations go, the
-      authors warn that AI negotiators could quietly erode customer and supplier relationships.
+      authors warn that AI negotiators could gradually erode customer and supplier relationships.
     chart: relationship
 
 how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)

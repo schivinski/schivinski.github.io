@@ -75,7 +75,7 @@ sections:
       robot. The agent in a chat window could be a program or a person, and many firms never say which.
 
       Their question was what happens when the purchase is a little mortifying. Earlier work on embarrassment
-      mostly looked at shops, where other customers and staff can see what you buy. Here the worry is quieter: picturing
+      mostly looked at shops, where other customers and staff can see what you buy. Here the worry is more private: picturing
       someone on the other end of the chat reading your question, even while you sit alone at home.
 
       They ran six studies with products chosen to make people self-conscious: personal lubricant, antidiarrhoeal
@@ -154,11 +154,11 @@ sections:
       first-person voice could do better still.
 
 how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
-  - ["Mark the awkward products", "Go through your catalogue and flag every product or service people might hesitate to ask about out loud, such as bowel trouble, intimate health, hair loss, skin problems or debt. Aim for a working list of ten to twenty items."]
+  - ["Mark the awkward products", "Go through your catalogue and flag every product or service people might hesitate to ask about in person, such as bowel trouble, intimate health, hair loss, skin problems or debt. Aim for a working list of ten to twenty items."]
   - ["Decide who answers where", "Route chat on those flagged pages to an automated assistant. Keep a person on chat for everyday products, where most shoppers would rather talk to someone real."]
   - ["Say it is a bot straight away", "Put the word \"automated\" or \"bot\" in the chat header. Make the first line say it plainly, for example: \"You're chatting with an automated assistant.\" Nobody should have to guess."]
   - ["Strip out the human touches", "Swap any face or cartoon person for a plain logo or symbol. Give the assistant a functional name rather than a first name, and cut exclamation marks, emojis and gushing phrases from the script."]
-  - ["Offer a discreet next step", "End each sensitive chat with something useful the shopper can take away quietly, such as a trial size or a short guide sent by email under a neutral subject line."]
+  - ["Offer a discreet next step", "End each sensitive chat with something useful the shopper can take away discreetly, such as a trial size or a short guide sent by email under a neutral subject line."]
   - ["Compare for four weeks", "Run the labelled, plain assistant on half of the flagged pages and your current set-up on the rest for four weeks. Count chats started, questions answered and email addresses collected on each side."]
 
 expect:

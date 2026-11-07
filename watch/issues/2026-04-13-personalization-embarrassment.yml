@@ -29,7 +29,7 @@ short_answer: >-
   Yes, when the product is one people would rather not be linked to. Shoppers buying weight-loss medicine rated an online
   pharmacy 3.02 out of 7 when it greeted them with a personalized refill reminder, against 3.79 without it; for
   headache pills, personalization made no difference. Students liked a music service less when its "personalized"
-  playlists were called "Tween Party". The cause was embarrassment, not privacy worries. The fix is to tailor quietly
+  playlists were called "Tween Party". The cause was embarrassment, not privacy worries. The fix is to tailor discreetly
   in sensitive categories rather than announce it.
 
 takeaways:
@@ -119,11 +119,11 @@ sections:
 
 how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
   - ["List your sensitive categories", "Go through your range and flag the products, content and services customers might not want reflected back: weight, skin, age-related needs, money trouble, alcohol, guilty pleasures."]
-  - ["Separate tailoring from telling", "In the studies, the harm came from telling people the offer was personalized. Decide, category by category, where you will personalize openly and where you will tailor quietly."]
+  - ["Separate tailoring from telling", "In the studies, the harm came from telling people the offer was personalized. Decide, category by category, where you will personalize openly and where you will tailor discreetly."]
   - ["Drop the \"just for you\" labels", "In sensitive categories, show tailored items under neutral headings such as \"new\", \"popular\" or \"trending\" instead of \"Top picks for you\" or \"Based on your last purchase\"."]
   - ["Keep names and history out of sight", "Avoid first names and purchase references in sensitive messages, and think about where they appear, such as email subject lines and phone notifications others can see."]
-  - ["Watch for quiet exits", "As the authors suggest, monitor sessions that end or customers who unsubscribe right after a personalized offer in a sensitive category, and A/B test labelled against unlabelled versions."]
-  - ["Stay honest when asked", "Not shouting \"just for you\" is different from hiding personalization. Keep \"why am I seeing this\" explanations truthful, and never claim an offer is not personalized when it is."]
+  - ["Watch for unexplained exits", "As the authors suggest, monitor sessions that end or customers who unsubscribe right after a personalized offer in a sensitive category, and A/B test labelled against unlabelled versions."]
+  - ["Stay honest when asked", "Not announcing \"just for you\" is different from hiding personalization. Keep \"why am I seeing this\" explanations truthful, and never claim an offer is not personalized when it is."]
 
 expect:
   - "**No penalty in neutral categories.** Personalized service for headache medicine, and \"College Party\" playlists, did no harm."

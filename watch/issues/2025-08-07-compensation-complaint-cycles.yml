@@ -10,7 +10,7 @@ status: live
 title: "Does offering compensation to customers who complain on social media invite more complaints? What a Journal of Research in Interactive Marketing study found"
 dek: >-
   When Facebook let brands answer comments directly, airlines that replied to complaints in public drew more negativity
-  than airlines that kept quiet. Most of it followed replies that put money back or a perk on display.
+  than airlines that did not reply. Most of it followed replies that put money back or a perk on display.
 short_title: "Why public refunds can breed more complaints"
 
 description: >-
@@ -30,7 +30,7 @@ image:
 
 short_answer: >-
   On Facebook, it did. When the platform added a reply button under comments, airlines that began answering complaints
-  on their brand pages drew more negative comments, and harsher ones, than airlines that stayed silent. Most of that
+  on their brand pages drew more negative comments, and harsher ones, than airlines that never replied. Most of that
   rise followed replies offering refunds, upgrades or freebies, which seemed to show other followers what a complaint
   could earn. Replies that apologised added nothing measurable either way.
 
@@ -96,7 +96,7 @@ sections:
   - h: "What happened when brands replied"
     body: |
       The raw figures already tell the story. On the pages of airlines that started replying, negative comments
-      jumped in the first month after the button appeared and stayed above their old level. Pages that kept quiet
+      jumped in the first month after the button appeared and stayed above their old level. Pages without replies
       barely changed.
 
       The model, focused on a short window around the launch, backs this up. Replying brands saw a larger share of
@@ -138,7 +138,7 @@ sections:
       public without inviting a spiral, while a public apology is the safer route for a brand's reputation. They frame
       the task as a balance between being generous and being restrained, not as a case for refusing help.
 
-      Nor do they tell brands to go silent. Replying brings complaints into the open where they can be fixed, and the
+      Nor do they tell brands to stop replying. Replying brings complaints into the open where they can be fixed, and the
       authors note that it also wins followers, so the costs and benefits have to be weighed against sales and loyalty,
       which this data could not track. Sending offers by private message follows from their reasoning, yet private
       conversations were invisible to the analysis, so that route remains untested.
@@ -166,7 +166,7 @@ limits:
 
 faq:
   - q: "Should brands reply to complaints on Facebook?"
-    a: "Replying in public carries a risk. On 67 airline pages, brands that started answering complaints once Facebook added its reply button saw a heavier load of negative comments, and a harsher tone, than brands that stayed silent (Zhang & Zhang, 2026). How the reply was worded explained most of the gap."
+    a: "Replying in public carries a risk. On 67 airline pages, brands that started answering complaints once Facebook added its reply button saw a heavier load of negative comments, and a harsher tone, than brands that did not respond (Zhang & Zhang, 2026). How the reply was worded explained most of the gap."
   - q: "Is it a mistake to offer a refund in a public reply?"
     a: "On this evidence it can be. Public offers of refunds, upgrades or free extras were followed by more complaints, a bigger negative share and sharper wording, most likely because other followers saw that complaining paid and posted their own."
   - q: "Do apologies stop complaints from spreading?"
@@ -209,7 +209,7 @@ charts:
     bars:
       - ["Negative comments", 3.46, true]
       - ["All comments (not significant)", 0.98, false]
-    source: "Table 2: 67 airline brand pages, two months before and after the March 2013 reply button (268 firm-months), replying brands against brands that stayed silent."
+    source: "Table 2: 67 airline brand pages, two months before and after the March 2013 reply button (268 firm-months), replying brands against non-replying brands."
   types:
     title: "Extra negative comments per post, by what the reply offered"
     scale: [0, 5]

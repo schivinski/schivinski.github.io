@@ -11,7 +11,7 @@ dek: >-
   A birthday week, and a reason to go back to the subject I have spent most of my career on. Word of mouth was
   supposed to be the one channel brands could not touch. That is no longer quite true.
 description: >-
-  Handing customers a ready-made post lifted sharing from 0.4% to 2.1% in a real gym campaign, and quietly stopped
+  Handing customers a ready-made post lifted sharing from 0.4% to 2.1% in a real gym campaign, and, less visibly, stopped
   unhappy customers posting at all. How to use it, and where it gets uncomfortable.
 keywords: [user-generated content, firm-generated user content, word of mouth, eWOM, social media sharing, customer
   advocacy, review solicitation, brand communication, customer satisfaction, authenticity, CRM, Journal of Marketing]
@@ -28,7 +28,7 @@ short_answer: >-
   asking them to write one, raised sharing from 0.4% to 2.1% among real gym members and from 1.4% to 3.4% in a
   second field test. The wording decides who answers: warm, enthusiastic text pulled satisfied customers up to
   roughly half, while the flat factual wording most brands use did almost nothing. Unhappy customers handed the same
-  warm text mostly went quiet instead of hitting back.
+  warm text mostly stopped posting instead of hitting back.
 
 takeaways:
   - "In a real gym campaign, a ready-made post was clicked through by 2.1% of members against 0.4% asked to write their own."
@@ -113,7 +113,7 @@ sections:
       noticeably cooler.
     chart: sharing
 
-  - h: "The unhappy customer quietly declines"
+  - h: "The unhappy customer simply declines"
     body: |
       Now the same four versions, sent to people whose experience had gone badly. The pattern inverts. The glowing
       line, which worked best on happy customers, cut sharing to roughly a third of what a blank box produced.
@@ -174,7 +174,7 @@ faq:
   - q: "Why does a ready-made post work?"
     a: "Two different reasons depending on the customer. For satisfied ones it removes the effort of composing something; for dissatisfied ones it creates a mismatch with their experience, which is why they step away instead."
   - q: "Is this ethical?"
-    a: "It sits in grey territory. Readers treat posts from customers as independent evidence, and supplying the words quietly removes that independence. The authors themselves flag the risk to consumer trust and suggest that disclosure rules may eventually be needed."
+    a: "It sits in grey territory. Readers treat posts from customers as independent evidence, and supplying the words removes that independence without readers knowing. The authors themselves flag the risk to consumer trust and suggest that disclosure rules may eventually be needed."
 
 also:
   - doi: "10.1177/00222437261423540"

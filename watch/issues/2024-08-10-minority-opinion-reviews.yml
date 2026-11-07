@@ -11,7 +11,7 @@ title: "Will customers post a review when they disagree with the star rating? Wh
 dek: >-
   On most review sites a handful of regulars write much of what you read, and everyone else posts now and then. Seven
   experiments show that disagreeing with the average rating draws the regulars in, leaves occasional reviewers cold, and that
-  two cheap changes can get the quieter customers posting.
+  two cheap changes can get occasional reviewers posting.
 short_title: "Who posts a review when the crowd disagrees"
 
 description: >-
@@ -106,8 +106,8 @@ sections:
       reviewers, whether the crowd agreed changed nothing.
 
       The Yelp records point the same way. Heavy reviewers were more likely to add a review to restaurants whose earlier
-      ratings were spread out, with no clear majority. The authors add a caution here: the data cannot show who chose to
-      stay silent, so it supports the experiments rather than proving anything on its own.
+      ratings were spread out, with no clear majority. The authors add a caution here: the data cannot show who chose not
+      to post, so it supports the experiments rather than proving anything on its own.
     chart: clicks
 
   - h: "Why disagreeing appeals to the regulars"
@@ -126,7 +126,7 @@ sections:
       was a belief that the earlier raters knew little. For a regular, a contrary review is a way of standing out. For
       everyone else, it feels more like sticking out.
 
-  - h: "Two changes that brought quieter customers in"
+  - h: "Two changes that brought occasional reviewers in"
     body: |
       The last two experiments tested levers that a retailer or review site controls. In the first, US shoppers recalled an
       electronic gadget they had disliked, rating it 2.58 stars on average, and read that 265 reviewers on Best Buy's site
@@ -170,12 +170,12 @@ expect:
 limits:
   - "**Mostly stated plans.** In five of the seven experiments people only said whether they would post. In the two that recorded a press of the button, it led to an error screen, so no review was ever published."
   - "**Two kinds of volunteers.** Six samples came from one US online panel and the seventh from a university participant pool in Europe. Shoppers elsewhere, or with less experience of online studies, may react differently."
-  - "**The field data cannot see silence.** Yelp holds only reviews that were posted, which leaves a link between heavy reviewers and split ratings but no proof of cause."
+  - "**The field data cannot see who held back.** Yelp holds only reviews that were posted, which leaves a link between heavy reviewers and split ratings but no proof of cause."
   - "**One cue only.** The average star rating was the only sign of what others thought. The text of earlier reviews, how many there were and how recent they were went untested."
   - "**The money is a model.** The revenue figures combine one experiment's effect with outside estimates of review rates and of sales, and the authors themselves urge caution."
 
 faq:
-  - q: "Do people stay silent when their review would go against the average rating?"
+  - q: "Do people hold back when their review would go against the average rating?"
     a: "Occasional reviewers feel no extra urge to post, and in one test were less inclined to, because a contrary review seems socially risky to them. Frequent reviewers react the opposite way and are more likely to post when they disagree, treating it as a chance to stand out (Möller-Herm et al., 2025)."
   - q: "Why do a few people write most online reviews?"
     a: "On many platforms a small group posts often while most customers post rarely, if ever. Sites reward the heavy users with badges and leaderboards, and in the paper's account that standing makes disagreeing feel safer for them. The upshot is a body of reviews that leans towards their tastes."

@@ -6,9 +6,9 @@ slug: downvotes-content
 status: live
 
 title: "Does a dislike button shut people up? What a Journal of Marketing Research study found"
-short_title: "The dislike button that made people post more, and shout less"
+short_title: "The dislike button that made people post more, and more calmly"
 dek: >-
-  Every platform that has flirted with a downvote has feared the same two outcomes: contributors go quiet, or they
+  Every platform that has flirted with a downvote has feared the same two outcomes: contributors stop posting, or they
   dig in. Two months of Reddit data say neither happens.
 description: >-
   A noticeable drop in reputation made Reddit users 8.5 points more likely to post the next day and softened their
@@ -84,7 +84,7 @@ sections:
       - ["How often this happens", "Of the comments that got any reaction on a given day, 48% were being pushed down"]
       - ["The trick", "A change in the leading digit of a user's score, which makes the same loss feel larger"]
 
-  - h: "Nobody went quiet"
+  - h: "Nobody stopped posting"
     body: |
       The average person in the sample commented on 29% of days. After a knock to their score that crossed one of
       those digit thresholds, that figure rose by 8.5 points, and the number of comments they wrote rose too. Praise
@@ -111,7 +111,7 @@ sections:
       negative signal is not an exit signal.
     chart: where
 
-  - h: "The loudest posts came back quieter"
+  - h: "The most heated posts came back calmer"
     body: |
       Volume is one thing, tone another. The authors ran every comment through Google's language API, which picks out
       the topics in a piece of text and scores how strongly the writer feels about each one. Then they followed each
