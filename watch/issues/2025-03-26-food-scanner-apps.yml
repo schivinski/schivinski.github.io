@@ -134,7 +134,7 @@ sections:
       The second experiment showed only poor scores and brought in a second brand. Réa, the mid-range juice from the first
       test, was set against Tropicana, the category leader, which people in the no-score groups rated clearly higher on brand
       strength (4.36 against 3.58 out of 7). Everyone also said how much they trusted scanner apps and how much they trusted
-      Nutri-Score, and subtracting one answer from the other gave each person a trust gap score.
+      Nutri-Score, and subtracting one answer from the other gave each person a trust difference score.
 
       For Réa, the earlier pattern came back: against no score, the app's poor rating pulled the brand down by 1.67 points and
       the label's by 1.11. For Tropicana, the source of the bad news did not matter. The
@@ -238,6 +238,6 @@ charts:
       - ["Market leader, trusts label more", 0.30, false]
       - ["Market leader, equal trust", 0.31, false]
       - ["Market leader, trusts app more", 0.31, false]
-    source: "Study 4, poor scores only; effects from Table 2, sign reversed to show the size of the drop, at a trust gap of 3 points either way and at zero. Significant only where highlighted."
+    source: "Study 4, poor scores only; effects from Table 2, sign reversed to show the size of the drop, at a trust difference of 3 points either way and at zero. Significant only where highlighted."
 
 related_pages: []

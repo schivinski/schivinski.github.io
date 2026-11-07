@@ -103,16 +103,16 @@ sections:
 
   - h: "Why Americans were readier to pull back"
     body: |
-      The survey found a clear trust gap. Dutch adults were more confident than Americans that advertisers, the government and the
+      The survey found a clear difference in trust. Dutch adults were more confident than Americans that advertisers, the government and the
       law would look after their personal data. Even so, Dutch faith in the law sat slightly below the middle of the scale.
 
       The experiment showed the same divide in behaviour. Whichever method they read about, Americans were more likely to say they
       would watch less TV, 4.03 against 3.64 on a scale running to 7. Country and method did not combine: the sound code added a
       similar push on both sides of the Atlantic.
 
-      The authors connect the gap to regulation. Where the law gives people little control, they argue, people protect themselves
+      The authors link this difference to regulation. Where the law gives people little control, they argue, people protect themselves
       by changing what they do. It is a plausible reading, but the two countries differ in many ways besides their privacy law, so
-      this design cannot pin the difference on the GDPR.
+      this design cannot attribute it to the GDPR.
     chart: trust
 
   - h: "Trust calms people down, worry does the opposite"
@@ -121,9 +121,9 @@ sections:
       watch less TV or alter their phone habits. Among Americans, trusting viewers even said they would watch more; among the
       Dutch, trust did not have that effect. Trust in advertisers fitted the pattern best. Trust in the government and in the law
       played a bigger part among Americans, consistent with the view that trust carries more weight where legal protection is
-      thinner.
+      weaker.
 
-      Privacy worry pushed the other way. Its strongest link was with changes to phone use, such as tightening settings or removing
+      Privacy concern was linked to more change, not less. Its strongest link was with changes to phone use, such as tightening settings or removing
       apps that can reach the microphone. The tracking method rarely changed that picture: only among Americans with few privacy
       concerns did the sound code tip people towards keeping the phone out of reach while the TV was on.
 
@@ -148,7 +148,7 @@ how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–
   - ["Watch your data for signs of withdrawal", "Each month, track opt-outs, ad blocking and sudden drops in viewing or app use after any new tracking feature. If any of them climbs two months in a row, switch the feature off and compare."]
 
 expect:
-  - "**A dip, not an exodus.** The more intrusive method shifted plans by tenths of a point, and for one habit only. Expect a dent in the tracked behaviour rather than people abandoning the channel."
+  - "**Small effects.** The more intrusive method shifted plans by tenths of a point, and for one habit only. Expect a modest reduction in the tracked behaviour rather than people abandoning the channel."
   - "**Phone settings move first.** Of the specific changes people rated, adjusting their phone, from tightening permissions to adding an ad blocker, scored highest in every group. That is where early pullback is likeliest to show."
   - "**Bigger reactions where trust is thin.** Markets with weaker privacy law and lower faith in how advertisers treat data are where pullback is likeliest."
   - "**A gentler method will not win over the worried.** The most privacy-conscious planned changes whichever way the data had been gathered, so lighter tracking mainly helps with the less concerned."

@@ -14,7 +14,7 @@ look-back tab (2025, 2024 and any later one). The log grows with each correction
   3. Put fixed expressions in the banned list.
   4. Copy this file to the Project doc `claude/m3-style-log.md`.
   - Each correction is a general rule, not a one-off.
-  - Rules apply from the next issue on. Earlier issues are fixed only when Bruno asks; he did for entries 1 to 3.
+  - Rules apply from the next issue on. Earlier issues are fixed only when Bruno asks; he did for entries 1 to 3, and entry 4 covers only the issue he flagged so far.
 - **Fixing something that is already live:** edit the YAML, run the check, build, commit, push and dispatch the publish
   workflow as usual. This sends no emails.
   - The newsletter sends each issue once only (DynamoDB claim `sent#<issue>`).
@@ -28,6 +28,10 @@ of a theory, a sound that is the subject of the study, or words quoted from a st
 - dry run
 - re: \bearn(s|ed|ing)? its keep\b
 - re: \b(loud|louder|loudest|loudly|quiet|quieter|quietest|quietly|silent|silently|silence|silences|silenced|hush|hushed|shout|shouts|shouted|shouting|muted|deafening|roaring|noisy|noisier|noisiest|whisper|whispers|whispered|whispering)\b
+- re: \btrust gaps?\b
+- re: \bexodus\b
+- re: \b(push|pushes|pushed|pushing) the other way\b
+- re: \b(protection|regulation|rules|law|laws|safeguards|oversight) (is|are|was|were) (thinner|thicker)\b
 - allow * :: spiral of silence
 - allow asmr-whisper-ads :: \bwhisper(s|ed|ing)?\b
 - allow sensory-words-grocery-reviews :: Sound: noise, loud, quiet
@@ -41,6 +45,9 @@ of a theory, a sound that is the subject of the study, or words quoted from a st
 - Keep the register academic. Do not describe people, brands, posts, data or effects with sound words: loud, quiet,
   silent, silence, whisper, shout, hushed, noisy and the like. Name the actual property: prominent or subtle, active or
   inactive, visible or unnoticed, did not reply, withdrew, imprecise, off-peak.
+- Prefer precise, literal wording to metaphors and catchy contrasts. Say "difference", not a coined "gap"; "weaker", not
+  "thinner"; "had the opposite effect" or "was linked to more change", not "pushed the other way"; plain labels such as
+  "Small effects", not "A dip, not an exodus".
 
 ## Entries
 
@@ -84,4 +91,29 @@ of a theory, a sound that is the subject of the study, or words quoted from a st
 - **Fixed on Bruno's request (7 Nov 2026):** 145 edits in 68 issues across the live series and the 2023, 2024 and 2025
   tabs, including issue 45 ("the firm's off-peak winter season", "Platform variation"). `scripts/style_check.py` now
   catches every form of these words.
+
+### 4. Metaphors and catchy contrasts: "trust gap", "thinner", "pushed the other way", "A dip, not an exodus" (7 Nov 2026, 2024 tab, dataveillance-chilling-effects)
+- **Flagged (Bruno's comments):**
+  - "clear trust gap": "use of gap here. Not ideal either."
+  - "protection is thinner": "thinner. Same as above."
+  - "Privacy worry pushed the other way": "pushed the other way. Same as above."
+  - "A dip, not an exodus": "not very academic at all."
+- **Rules:**
+  - Do not coin "X gap" labels for a difference between groups or conditions; write "a difference in X". Established
+    technical terms, such as a research gap, are fine.
+  - Do not describe abstract things by size or texture ("thinner protection", "thick evidence"). Write weaker or
+    stronger, more or less.
+  - Do not use directional idioms ("pushed", "ran" or "went the other way"). State the relationship: "had the opposite
+    effect", "was linked to more change, not less", "showed the reverse pattern".
+  - Do not use punchy colloquial labels or contrasts in headings, bullets or text ("A dip, not an exodus", "a dent").
+    Use plain descriptive labels: "Small effects", "a modest reduction".
+- **Fixed:**
+  - "The survey found a clear difference in trust."
+  - "The authors link this difference to regulation. [...] this design cannot attribute it to the GDPR."
+  - "where legal protection is weaker"
+  - "Privacy concern was linked to more change, not less."
+  - "**Small effects.** [...] Expect a modest reduction in the tracked behaviour [...]"
+  - The same expression "trust gap" in the 2025 tab's food-scanner-apps issue became "trust difference".
+- **Not yet swept (forward-only until Bruno asks):** about 300 other uses of "gap" for a difference, about 30
+  "ran/went/worked the other way" and 7 "dent".
 
