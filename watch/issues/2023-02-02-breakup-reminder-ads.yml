@@ -1,0 +1,231 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 4                       # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-02-02"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: breakup-reminder-ads
+status: live
+
+title: "Do ads that cheer people on after a breakup get more clicks than ads about loved ones? What a Psychology & Marketing study found"
+dek: >-
+  Ads love to show people enjoying life with their loved ones. In two experiments with US adults, a mock Facebook post
+  that nudged people past a breakup drew more clicks, because readers felt the brand was there for them.
+short_title: "Breakup lines that win the click"
+
+description: >-
+  Tan et al. find a reassuring breakup line in a mock Facebook ad nearly doubled clicks for more information over a
+  loved-ones line, in two US tests.
+
+keywords: [breakup advertising, relationship reminders in ads, emotional advertising appeals, click-through rate,
+  Facebook ad copy, brand social support, destiny beliefs, implicit theories of relationships, consumer-brand relationships,
+  ad copywriting, Psychology & Marketing]
+topics: [Advertising, Creative]
+
+image:
+  file: 2023-breakup-reminder-ads.jpg
+  og: 2023-breakup-reminder-ads-og.jpg
+  alt: "A woman with dark shoulder-length hair, seen from behind, lies in bed looking at a glowing phone, a large window in front of her full of blurred city lights in deep blue"
+  caption: "An ad that meets someone after a breakup can make a brand feel like company. Photo: Tony Lam Hoang on Unsplash."
+
+short_answer: >-
+  In two online experiments, yes. People who saw a mock Facebook ad telling them it was fine to move on after a breakup
+  clicked through for more information almost twice as often as people who saw the same ad built around loved ones. The
+  breakup line made the brand feel more supportive. In the second test, that extra support showed up only among people
+  who believe partners are either meant to be or not.
+
+takeaways:
+  - "The cookie ad drew clicks from 23.1% of viewers when it reassured them after a breakup, against 12.5% when it invited them to enjoy the cookies with loved ones."
+  - "The travel ad repeated the pattern, 21.6% against 11.2%, so the gain carried over from a snack to a holiday."
+  - "On the support measure, which runs from 1 to 7, the brand gained roughly half a point after the breakup version in each test, and that gain carried the extra clicks."
+  - "None of the 408 participants was asked whether they had been through a breakup, so the gain came from a general audience, not from people known to be newly single."
+
+paper:
+  doi: "10.1002/mar.21796"
+  title: "Relationship (breakup) reminders drive online advertising effectiveness"
+  authors: ["Tan, S. Z.", "Bandyopadhyay, A.", "Septianto, F."]
+  authors_full: ["Ser Zian Tan", "Argho Bandyopadhyay", "Felix Septianto"]
+  year: 2023
+  journal: "Psychology & Marketing"
+  volume: "40"
+  issue: "6"
+  pages: "1152-1161"
+  online: "2023-02-02"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Ser Zian Tan"
+      affiliation: "Department of Marketing Strategy & Innovation, Sunway Business School, Sunway University, Bandar Sunway, Malaysia"
+      orcid: ""
+    - name: "Argho Bandyopadhyay"
+      affiliation: "Graduate School of Business and Law, RMIT University, Melbourne, Australia"
+      orcid: "0000-0001-5840-0726"
+    - name: "Felix Septianto"
+      affiliation: "UQ Business School, University of Queensland, Brisbane, Australia"
+      orcid: "0000-0002-7487-761X"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two online between-subjects experiments with US adults on Prolific (208 and 200): mock Facebook ads for cookies, then travel; outcome a click on an information link; no pilots or pretests reported"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Ser Zian Tan of Sunway University in Malaysia,
+      Argho Bandyopadhyay of RMIT University in Melbourne and
+      Felix Septianto of the University of Queensland in Brisbane
+      looked at one of advertising's oldest habits. Campaigns for wine, restaurants, shampoo and holidays often show people
+      enjoying themselves with a partner, friends or family. Earlier work found that such reminders can backfire with
+      people who have lost the relationship on show.
+
+      A few brands have flipped the idea and talk to people after a split instead, offering a push to move on. The question
+      here was simple: when the goal is a click, does that kind of encouragement beat a standard nod to loved ones?
+
+      Each participant saw one version of a mock Facebook sponsored post, followed by a link to further reading on the same
+      topic, and the researchers recorded who clicked it. The two versions shared the picture, the brand and the layout.
+      Only the opening line changed.
+    facts:
+      - ["Participants", "208 US adults in the first experiment and 200 in the second, all recruited on Prolific"]
+      - ["Ads", "Mock Facebook posts for a cookie brand, then for a travel brand, each in two versions"]
+      - ["Outcome", "Whether people clicked a link to an article on the best cookies in the US or the best places to travel"]
+      - ["Measured", "How far the brand seemed a source of support (five statements); belief that relationships are destined (eleven statements, second experiment only)"]
+      - ["Checks", "People noticed the breakup theme: about 5.4 to 5.6 out of seven for breakup posts, under 1.4 for the rest"]
+
+  - h: "Two ads, one line apart"
+    body: |
+      The cookie post either invited people to enjoy a bite with their loved ones, or told them it was okay, the breakup
+      was mutual, and they could enjoy a bite anyway. The travel post either said it was time to travel again with loved
+      ones, or that it was time to move on from a breakup and travel again.
+
+      In both experiments the breakup line won more clicks, and by a similar margin of about ten extra people in every
+      hundred. A snack and a trip are very different purchases, which makes the repeat more convincing than a single test
+      would be.
+    chart: clicks
+
+  - h: "Why the breakup line worked"
+    body: |
+      The explanation the authors put forward is social support. People tend to treat brands a little like people, and
+      after a loss they look for someone who understands. An ad that speaks to that moment can make a brand seem to be
+      on the reader's side.
+
+      To check, participants rated statements such as whether the brand was around when they were in need, whether it
+      tried to help and whether it cared about their feelings. The breakup versions scored higher both times.
+
+      Mediation tests then traced the click gain through that sense of support. The indirect route was significant in each
+      experiment (0.18 and 0.16, with 95% ranges that stayed above zero), and once support entered the model, the direct
+      link from the message to clicks no longer reached significance. Put simply, the line worked because it made the
+      brand feel supportive.
+
+      One caveat, which is ours and not the authors': even with the breakup line, average support stayed
+      below 4, the halfway mark. The brand got warmer, but on average people still did not see it as a confidant.
+    chart: support
+
+  - h: "Who felt the support: believers in fate"
+    body: |
+      The second experiment also measured destiny beliefs, a lay theory about love. People who hold them strongly agree
+      with statements such as "potential relationship partners are either compatible or they are not" and read early
+      trouble as a sign of a poor match. The opposite outlook, that relationships grow through effort, was not measured.
+
+      The authors expected destiny believers to take a breakup as proof that it was never meant to be, leaving them ready
+      to move on and open to support. That is the pattern that appeared. Among people high in destiny belief, the breakup
+      ad clearly raised felt support (B = 0.50, p = 0.001). Among people low in it, the gap was negligible and not
+      significant (B = -0.03, p = 0.855).
+
+      The knock-on effect on clicks split the same way: a significant indirect effect for strong believers (0.35, range
+      0.11 to 0.74) and none for weak ones (-0.02, range -0.25 to 0.21). How the authors split high from low belief is not
+      reported.
+
+  - h: "Where the authors draw the line"
+    body: |
+      The authors accept that raising breakups in ads poses ethical questions, since negative emotional appeals such as
+      fear, shame or guilt are known to backfire. Their defence is that these posts did more than remind people of a lost
+      relationship: they offered encouragement. Even so, they urge marketers to think about who will see a campaign, and
+      about people's relationship status, before using relationship words or images.
+
+      For placement, they suggest pairing a breakup line with reassurance in travel ads run around travel programmes,
+      when viewers may feel ready for a fresh start and book a trip. This went untested, and the experiments say nothing
+      about timing.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Find your fresh-start moment", "List the ways your product helps someone start over after a hard patch: a trip, a treat, a new look, a night out with friends. If you cannot name two that feel natural, drop the idea and keep your usual message."]
+  - ["Rule out the raw spots", "Before drafting, list where the ad could land badly, such as next to wedding, baby or anniversary content. Exclude those placements in your ad settings, along with any audience built around bereavement or divorce."]
+  - ["Write one line of encouragement", "Open the post with one short sentence telling the reader it is fine to move on, then tie it to your product, for example: \"It's okay. Time for something new.\" Never mention an ex, never assign blame and never poke fun at being single."]
+  - ["Make the brand sound like a friend", "Add one line that puts the brand on the reader's side, such as an offer to help plan the trip or pick the treat. Read the whole post out loud. Would a good friend send it? If not, rewrite it until the sales tone is gone."]
+  - ["Test it against your usual ad", "Split one audience at random into two equal halves. Show one half the fresh-start version and the other half your usual post about sharing with loved ones. Give both the same budget, image and link, and run them for at least 14 days."]
+  - ["Count clicks and complaints", "Work out how many clicks each version earned per 1,000 viewers. Check comments, hides and negative reactions every day. If the fresh-start post draws more than a handful of upset replies in a week, pause it and soften the wording."]
+
+expect:
+  - "**A cheap test.** Only the opening sentence changed between versions, so trying this costs one extra line of copy and a split audience."
+  - "**Clicks, not sales.** The tests tracked whether people went on to read more, so any effect on buying or loyalty remains open."
+  - "**Part of the audience may shrug.** On this evidence, people who see love as fate respond and the rest barely move, so the average lift hides an uneven mix."
+  - "**Some viewers may object.** A breakup is personal. Our reading is that some people will find any mention intrusive whatever the tone, so plan how you will reply to upset comments."
+
+limits:
+  - "**Survey clicks, not live ads.** People judged ad concepts inside an online survey, then chose whether to open a link to an editorial article rather than the brand's own site. Real feeds, with scrolling and competing posts, were not tested."
+  - "**Narrow margins.** Both click gaps passed the usual significance test only just (p = 0.046 and 0.049), with roughly 100 people per version, so the true size of the lift is uncertain."
+  - "**Love lives unknown.** Nobody was asked about a recent breakup. The authors think the effect may be stronger among people going through one, which remains untested."
+  - "**One gentle kind of breakup.** The posts framed the split as mutual or as time to move on. Bitter breakups, and heavier losses such as a death or a painful divorce, were outside the tests."
+  - "**Two categories, one country.** Cookies and travel only, with US panel members, and the data are not shared."
+
+faq:
+  - q: "Do breakup-themed ads work?"
+    a: "In two online experiments they beat ads built around loved ones. A mock Facebook post encouraging people to leave a breakup behind led more of them to click for further information (Tan et al., 2023)."
+  - q: "Why would a breakup message make people click?"
+    a: "Because it can make the brand feel supportive. People often treat brands as if they were human, and someone getting over a loss seeks understanding. When an ad offers encouragement at that moment, people rate the brand as more caring, and that feeling is what drove the extra clicks."
+  - q: "What are destiny beliefs about relationships?"
+    a: "A lay theory that partners are either right for each other from the start or not, so early problems signal a poor match. It was measured with eleven agree-or-disagree statements, and only people who held it strongly felt more supported by the breakup ad."
+  - q: "Is it ethical to mention breakups in advertising?"
+    a: "The authors take the concern seriously. They argue that encouragement after a breakup differs from simply reminding people of what they lost, but they still ask marketers to consider the audience and its relationship status before using such lines."
+  - q: "Can relationship reminders in ads backfire?"
+    a: "Yes. Earlier research found that images of happy couples, friends or families can put off people who no longer have that relationship. Moving from celebrating a relationship to backing someone after one ends is the alternative tested here."
+
+also:
+  - doi: "10.1093/jcr/ucad006"
+    title: "How Verb Tense Shapes Persuasion"
+    authors: "Packard, Berger, & Boghrati"
+    journal: "Journal of Consumer Research"
+    year: 2023
+    text: >-
+      Saying a restaurant "is great" rather than "was great" can make an opinion more persuasive. Language analysis of more
+      than 500,000 online reviews found that reviews written more in the present tense were rated more helpful, and
+      experiments showed the switch makes the writer sound more certain. Eight studies in the field and the lab support the
+      pattern. A tense swap in a testimonial costs nothing to try.
+  - doi: "10.1093/jcr/ucad002"
+    title: "A Turn of the Tables: Psychological Contracts and Word of Mouth about Sharing Economy Platforms When Consumers Get Reviewed"
+    authors: "Rifkin, Kirk, & Corus"
+    journal: "Journal of Consumer Research"
+    year: 2023
+    text: >-
+      On peer-to-peer platforms, providers review their customers too. Across a pilot and seven studies, five of them
+      preregistered, a negative review from a provider led consumers to speak badly of the platform itself, because they
+      felt the platform had betrayed them. Keeping such reviews private rather than public, or letting consumers respond,
+      retaliate or dispute them, softened the reaction. When customers get rated, the platform's review policy shapes what
+      they say about it.
+
+charts:
+  clicks:
+    title: "Share of people who clicked for more information, by opening line (%)"
+    scale: [0, 30]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Cookies: loved ones", 12.5, false]
+      - ["Cookies: it's okay after a breakup", 23.1, true]
+      - ["Travel: loved ones", 11.2, false]
+      - ["Travel: move on from a breakup", 21.6, true]
+    source: "Study 1 (cookies, 208 US adults: 13 of 104 against 24 of 104) and Study 2 (travel, 200 US adults: 11 of 98 against 22 of 102)."
+  support:
+    title: "How supportive the brand seemed, by opening line (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Cookies: loved ones", 3.20, false]
+      - ["Cookies: breakup", 3.70, true]
+      - ["Travel: loved ones", 2.95, false]
+      - ["Travel: breakup", 3.40, true]
+    source: "Study 1 (208 US adults) and Study 2 (200 US adults): mean agreement with five statements about the brand's support. Both gaps significant (p = 0.030 and 0.032)."
+
+related_pages: []
