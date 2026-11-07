@@ -1,0 +1,220 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 9                       # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-03-24"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: chatbot-gaze-anthropomorphism
+status: live
+
+title: "Should a chatbot's avatar have a realistic face and look customers in the eye? What a Psychology & Marketing study found"
+dek: >-
+  Many customer service chatbots come with a face. Two experiments with a working chatbot, one for hiring a car and one for
+  buying travel insurance, show that where that face looks, and how real it seems, change how far shoppers believe the bot and
+  trust the site behind it.
+short_title: "A chatbot that looks you in the eye"
+
+description: >-
+  Pizzi et al. find a chatbot avatar that looks straight at shoppers seems warmer, and lifted the share who put travel
+  insurance in the cart from 42% to 52%.
+
+keywords: [chatbot design, chatbot avatar, chatbot anthropomorphism, gaze direction, eye contact, customer service chatbot,
+  willingness to disclose personal information, trust in chatbots, warmth and competence, conversational agents in e-commerce,
+  Psychology & Marketing]
+topics: [AI, Service, Privacy]
+
+image:
+  file: 2023-chatbot-gaze-anthropomorphism.jpg
+  og: 2023-chatbot-gaze-anthropomorphism-og.jpg
+  alt: "A blue tin toy robot with round dial eyes, a triangle nose and a red grille mouth stares straight at the camera against a plain grey wall"
+  caption: "Where a machine's eyes point changes how warm it seems. Photo: Emilipothèse on Unsplash."
+
+short_answer: >-
+  Yes to both, though each helps in a different way and the gains are small. Two online experiments put a working chatbot
+  on mock car rental and travel insurance sites. An avatar whose eyes met the user's came across as warmer, while a
+  realistic face seemed more competent than a cartoon one. Warmth made people believe the chatbot more, which raised trust in
+  the website and, through it, willingness to share personal details and come back.
+
+takeaways:
+  - "In the travel insurance test, 52% of people whose chatbot looked straight at them put a plan in the cart, against 42% when its eyes looked away."
+  - "Eye contact raised the car rental chatbot's warmth score by a third of a point, from 4.36 to 4.69, where 7 was the highest possible score."
+  - "A realistic face beat a cartoon version of the same face on competence in the car rental test, 4.77 against 4.50 out of 7."
+  - "Across 1,251 participants, matching the avatar's gender to the customer's own did not change how they responded to its face or gaze."
+
+paper:
+  doi: "10.1002/mar.21813"
+  title: "I, chatbot! the impact of anthropomorphism and gaze direction on willingness to disclose personal information and behavioral intentions"
+  authors: ["Pizzi, G.", "Vannucci, V.", "Mazzoli, V.", "Donvito, R."]
+  authors_full: ["Gabriele Pizzi", "Virginia Vannucci", "Valentina Mazzoli", "Raffaele Donvito"]
+  year: 2023
+  journal: "Psychology & Marketing"
+  volume: "40"
+  issue: "7"
+  pages: "1372-1387"
+  online: "2023-03-24"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Gabriele Pizzi"
+      affiliation: "Department of Management, University of Bologna, Bologna, Italy"
+      orcid: "0000-0002-7531-9003"
+    - name: "Virginia Vannucci"
+      affiliation: "Department of Management, University of Bologna, Bologna, Italy"
+      orcid: ""
+    - name: "Valentina Mazzoli"
+      affiliation: "Department of Management, University of Verona, Verona, Italy"
+      orcid: "0000-0002-8344-0356"
+    - name: "Raffaele Donvito"
+      affiliation: "Department of Economics and Management, University of Florence, Firenze, Italy"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two online experiments on Prolific with a working chatbot, each 2 x 2 x 2 between subjects: Study 1, 451 adults, car rental (May 2022); Study 2, 800 adults, travel insurance with logged behaviour (December 2022)"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Gabriele Pizzi and Virginia Vannucci of the University of Bologna,
+      Valentina Mazzoli of the University of Verona and
+      Raffaele Donvito of the University of Florence looked at two small design choices found on many
+      customer service chatbots: the face in the avatar and where its eyes point. Much current practice assumes that the more
+      human a chatbot looks, the better. The question was how these cues shape what people think of the bot, and whether that
+      carries through to sharing data and buying.
+
+      With a firm that builds conversational agents, they set up a real, working chatbot that filtered products from typed
+      requests, placed inside a mock booking page. Some participants saw a realistic face, a lifelike portrait created by AI
+      that shows nobody real. Others saw the same face turned into a cartoon with an avatar app. The eyes either looked straight out
+      of the screen or off to the side, and the face was male or female.
+
+      The first experiment had people renting a car for a holiday abroad. The second, run seven months later with new
+      participants, swapped the car for travel insurance and also logged what each person did on the page.
+    facts:
+      - ["Participants", "451 adults on Prolific in May 2022 (car rental) and 800 in December 2022 (travel insurance), average age about 41"]
+      - ["Design", "Eight chatbot versions: realistic or cartoon face, eyes on the user or averted, male or female; each person met one"]
+      - ["Measured", "How warm, competent and believable the chatbot seemed, trust in the website, willingness to share personal information with the bot, and plans to buy, visit and recommend, on 7-point scales"]
+      - ["Behaviour", "In the insurance test only: carting, how long people stayed and messages typed to the bot"]
+
+  - h: "Eyes signal warmth, a realistic face signals competence"
+    body: |
+      With the car rental booking, the two cues split neatly. A direct gaze made the chatbot seem friendlier, more sincere and better
+      intentioned, but not more capable. The realistic face did the reverse: it lifted competence ratings and left warmth where
+      it was.
+
+      The insurance test, with a larger sample, blurred that line. Both cues raised both impressions, as the chart shows for
+      gaze. In the authors' framing, a bot that looks at you signals that you are the focus of its attention, the same cue people
+      read as warmth in each other, while a lifelike face makes the machine seem more human overall.
+    chart: gaze
+
+  - h: "From a warm impression to shared data"
+    body: |
+      Neither cue pushed people straight into sharing more data or planning a return. Everything ran through a chain. A warmer
+      chatbot was believed more: people rated it as more truthful, more informative and a more reliable source. Believing the bot
+      made people trust the company's website more, and that trust then raised their readiness to disclose personal
+      information, return and recommend the site.
+
+      Competence played a narrower role. By itself it never made the bot more believable in either test. Its pull depended on
+      how good people thought they were at reading other people's intentions, a trait psychologists call Theory of Mind. In the
+      authors' reading, a capable-seeming chatbot mainly wins over those who trust their own read of others, whereas warmth
+      worked for everyone.
+
+  - h: "Did the look change what people bought?"
+    body: |
+      The insurance test went beyond questionnaires. The booking page recorded whether each person added a policy to the basket, how
+      long they stayed and how many messages they typed. Gaze shifted carting, the result at the top of this page. The
+      realistic face did not, even though it raised warmth and competence ratings in this test, as the chart shows. The paper
+      gives no separate results for time on the page or the number of messages.
+    chart: face
+
+  - h: "What the authors advise, and what to weigh"
+    body: |
+      The authors' advice is direct: give the assistant a realistic face rather than a cartoon or a lower-fidelity avatar, and
+      have it look at the user. Simply adding a chatbot to a site is not enough, they argue, because how it looks shapes how far
+      people believe it.
+
+      Two cautions are ours, not the paper's. The realistic faces here were generated images of people who do not exist, and a
+      lifelike face on an automated agent could leave some customers feeling misled unless the page says plainly that they are
+      chatting with software. And the tests used a text chat with a face beside it, so voice assistants and animated avatars
+      remain untested here.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Look at your chat window as a customer", "Open your site's chat window on a mobile and on a desktop screen. Note whether the assistant has a face, whether it has eyes, and where those eyes point. A logo or a speech bubble counts as no face."]
+  - ["Pick a realistic face and label it", "Choose a lifelike face for the assistant instead of a cartoon or an icon. Use a licensed or generated image, never a staff photo without consent. Add one short line under it saying this is an automated assistant."]
+  - ["Turn the eyes towards the customer", "Set the face so its eyes point directly at the person reading. Shrink it to the size of a postage stamp. If it still seems to be looking at you, it works."]
+  - ["Make the opening lines warm", "Write the first three replies to sound friendly and sincere. Greet the customer, say in one sentence what you can help with, and ask one question. Ask for an email or phone number only after the assistant has solved something."]
+  - ["Split-test the gaze", "Run the face looking at the customer against the same face looking away. Send visitors to each at random for two weeks, or until each version has 500 chats. Compare how many chats end with an item in the cart."]
+  - ["Check trust every month", "Close every chat with one question: did you find this assistant trustworthy? Each month, compare the answers with how many customers shared contact details when asked."]
+
+expect:
+  - "**Small shifts per cue.** Gaze and face each explained only between 1% and 2% of how much warmth and competence ratings varied."
+  - "**Belief comes before data.** Gains in data sharing and loyalty arrived only once the chatbot was believed and the site trusted."
+  - "**Two kinds of purchase.** The chain held for a car rental and for travel insurance, a more functional buy."
+  - "**A cheap change to try.** Swapping the avatar image or turning its eyes forward is a design tweak rather than a rebuild. That is our own observation; the study did not look at cost."
+
+limits:
+  - "**Imagined trips, invented sites.** People pictured a holiday abroad on mock booking pages, and no money changed hands."
+  - "**No way out of the chat.** Participants had to use the chatbot and could not browse freely or close it, unlike real visitors."
+  - "**A modest version of human.** The authors note that even the realistic face fell short of a high human-likeness score (3.03 and 3.63 in the two tests), and wording, tone and gestures were never varied."
+  - "**Mostly stated reactions.** Sharing data and coming back were intentions on a questionnaire. Carting was the only logged behaviour with reported results, and only in one study."
+
+faq:
+  - q: "Should a chatbot have a human face?"
+    a: "A realistic face helped in these tests. Compared with a cartoon rendering of that face, it made the chatbot seem more competent in both experiments and warmer in the second (Pizzi et al., 2023). Taken alone, though, the face left carting unchanged."
+  - q: "Does it matter where a chatbot avatar is looking?"
+    a: "Yes. An avatar facing the user head-on came across as warmer in both experiments, and gaze was the only cue that changed buying behaviour when people shopped for insurance."
+  - q: "Will customers share more personal data with a human-like chatbot?"
+    a: "Indirectly. Neither the face nor the gaze raised willingness to share data by itself. A warmer bot was believed more, belief made people trust the website, and that trust is what predicted willingness to hand over personal details."
+  - q: "Should the chatbot's gender match the customer's?"
+    a: "Not on this evidence. Gaze and face had the same effects whether or not the avatar's gender matched the participant's own."
+  - q: "What is Theory of Mind, and why does it come up here?"
+    a: "It is a person's sense of how well they read other people's intentions. A competent-seeming chatbot eased doubts more among people who rated themselves high on it, while warmth reduced doubt regardless."
+
+also:
+  - doi: "10.1177/10949968221140061"
+    title: "The Market for Privacy: Understanding How Consumers Trade Off Privacy Practices"
+    authors: "Eggers, Beke, Verhoef, & Wieringa"
+    journal: "Journal of Interactive Marketing"
+    year: 2023
+    text: >-
+      Privacy can be a selling point rather than only a threat. In choice experiments, consumers weighed five elements of a
+      firm's privacy practice: what it collects, how it stores and uses the data, how open it is about this and how much control
+      it gives. Every element mattered, even when set against price, and the weights shifted by industry, with collection and use
+      counting for more where data are sensitive. A privacy policy written to compete, not just to comply, can move market share.
+  - doi: "10.1177/10949968221146997"
+    title: "The Impact of Mobile Payment on Hedonic Preference"
+    authors: "Yu, Peng, & Wang"
+    journal: "Journal of Interactive Marketing"
+    year: 2023
+    text: >-
+      Paying by phone appears to tilt shoppers towards treats. Compared with cash or card, mobile payment put people in a
+      pleasure-seeking frame of mind and raised their preference for hedonic over utilitarian products. The effect was weaker when
+      people paid with a smart wearable, a device they link less with enjoyment. For a store with phone checkout, the indulgent
+      add-on may sit best right next to the pay button.
+
+charts:
+  gaze:
+    title: "Travel insurance test: chatbot ratings by where its eyes pointed (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Warmth, eyes looking away", 4.18, false]
+      - ["Warmth, eyes on the user", 4.48, true]
+      - ["Competence, eyes looking away", 4.45, false]
+      - ["Competence, eyes on the user", 4.72, true]
+    source: "Study 2, 800 Prolific participants, group means as reported in the paper. Both gaps were statistically significant."
+  face:
+    title: "Travel insurance test: chatbot ratings by type of face (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Warmth, cartoon face", 4.19, false]
+      - ["Warmth, realistic face", 4.46, true]
+      - ["Competence, cartoon face", 4.48, false]
+      - ["Competence, realistic face", 4.68, true]
+    source: "Study 2, group means as reported in the paper. The realistic face was an AI-generated photo; the cartoon was the same face run through an avatar app."
+
+related_pages: []
