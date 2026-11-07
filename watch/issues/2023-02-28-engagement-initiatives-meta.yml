@@ -1,0 +1,292 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 6                       # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-02-28"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+slug: engagement-initiatives-meta
+status: live
+
+title: "Which customer engagement tactics work best, and on which platforms? What a Journal of the Academy of Marketing Science study found"
+dek: >-
+  Brands ask customers to post, review, refer and vote, or they put on events and stunts meant to delight. Pooling
+  hundreds of engagement studies, five marketing scholars show which approach does more, and why the platform can
+  change the answer.
+short_title: "Tasks or experiences? Engagement, platform by platform"
+
+description: >-
+  Blut et al. pool 395 samples covering 434,233 customers: structured tasks engage people more than fun experiences,
+  and the platform decides where each fits.
+
+keywords: [customer engagement, customer engagement marketing, task-based engagement, experiential marketing,
+  engagement platforms, brand community engagement, review and referral programmes, social media engagement,
+  online vs offline engagement, loyalty intentions, meta-analysis, Journal of the Academy of Marketing Science]
+topics: [Social media, UGC]
+
+image:
+  file: 2023-engagement-initiatives-meta.jpg
+  og: 2023-engagement-initiatives-meta-og.jpg
+  alt: "Seven open hands dusted in bright pink and yellow colour powder, held palm up in a circle with fingertips almost meeting over pale concrete"
+  caption: "Engagement marketing asks customers to join in. Photo: Subhashisa Maharana on Unsplash."
+
+short_answer: >-
+  Simple, structured tasks usually do more than staged experiences. Drawing on 395 samples with 434,233 customers, the
+  researchers found that asking people to review, refer, share ideas or post did more for enthusiasm and action than
+  events built for fun. The platform matters: tasks suit channels people return to and plain formats, while experiences
+  hold up better as one-off bursts. Engagement went with stronger loyalty intentions, though less so online.
+
+takeaways:
+  - "Tasks such as reviews, referrals and contests explained 4% of the gap between more and less active customers, against 1% for fun experiences."
+  - "For enthusiasm, product quality counted for more than either kind of campaign: it overlapped 36% with how keen customers felt about a brand, against 23% for tasks and 14% for experiences."
+  - "Active engagement shared 24% of the variation in what customers said they would do next, but only 6% of the spread in what they actually bought or used."
+  - "Of the 4 platform traits tested, 2 changed which initiative worked best: how often people come back and how rich the format is. Whether the platform was online or offline did not matter for building engagement."
+
+paper:
+  doi: "10.1007/s11747-023-00925-7"
+  title: "Effectiveness of engagement initiatives across engagement platforms: A meta-analysis"
+  authors: ["Blut, M.", "Kulikovskaja, V.", "Hubert, M.", "Brock, C.", "Grewal, D."]
+  authors_full: ["Markus Blut", "Viktorija Kulikovskaja", "Marco Hubert", "Christian Brock", "Dhruv Grewal"]
+  year: 2023
+  journal: "Journal of the Academy of Marketing Science"
+  volume: "51"
+  issue: "5"
+  pages: "941-965"
+  online: "2023-02-28"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (Authors and Affiliations on the Springer page; only Blut's ORCID iD is listed)
+    - name: "Markus Blut"
+      affiliation: "Durham University Business School, Durham University, Mill Hill Lane, DH1 3LB, Durham, UK"
+      orcid: "0000-0003-0436-6846"
+    - name: "Viktorija Kulikovskaja"
+      affiliation: "AU BSS, Aarhus University, Fuglesangs Allé 4, 8210, Aarhus V, Denmark"
+      orcid: ""
+    - name: "Marco Hubert"
+      affiliation: "AU BSS, Aarhus University, Fuglesangs Allé 4, 8210, Aarhus V, Denmark"
+      orcid: ""
+    - name: "Christian Brock"
+      affiliation: "University of Rostock, Ulmenstraße 69, 18057, Rostock, Germany"
+      orcid: ""
+    - name: "Dhruv Grewal"
+      affiliation: "Babson College, Babson Park, MA, USA; University of Bath, Bath, UK; Tecnológico de Monterrey, Monterrey, Mexico"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 350
+    basis: "Meta-analysis of 350 studies (395 independent samples, 5,005 correlations, cumulative N 434,233), Hunter-Schmidt random effects, meta-analytic SEM and multilevel moderator tests for four platform traits; samples published 2005-2020"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Markus Blut of Durham University,
+      Viktorija Kulikovskaja and Marco Hubert of Aarhus University,
+      Christian Brock of the University of Rostock and
+      Dhruv Grewal of Babson College, the University of Bath and Tecnológico de Monterrey
+      took on a question every community manager faces. Firms pour money into persuading customers to do more than
+      buy. Which kind of effort works, and where?
+
+      They compared two families of engagement marketing. Task-based initiatives give customers a structured job, often
+      with a reward: write a review, refer a friend, enter an idea contest, tweet a campaign hashtag. Experiential
+      initiatives set out to delight instead, with events, live shows and playful moments people remember. For comparison,
+      the team added two kinds of ordinary marketing that can spark engagement without asking for it: customers' views of
+      product quality, and the image they hold of the brand.
+
+      The review took in every customer-level study the team could find that measured engagement and gave enough numbers
+      to compare, published or not. Three coders sorted each result and agreed on 97% of them. Tests for publication bias
+      suggested the averages were not inflated by studies with null results left in a drawer.
+    facts:
+      - ["Evidence base", "350 studies, giving 395 independent samples with a combined 434,233 customers"]
+      - ["Effect sizes", "5,005 correlations, averaged down from 7,323 extracted"]
+      - ["Sources", "ABI/INFORM, ProQuest, Web of Science and EBSCO, plus Google Scholar and unpublished data sets; 325 samples from journals, 70 from other outlets"]
+      - ["Period", "Samples published from 2005 to 2020, 284 of them from 2016 onwards"]
+      - ["Method", "Random-effects meta-analysis corrected for measurement error, a structural equation model, and moderator tests for four platform traits"]
+
+  - h: "Three kinds of engagement, four kinds of platform"
+    body: |
+      Engagement here is not a purchase. The authors split it into three parts. Cognitive engagement is attention: time
+      spent thinking about a brand. Emotional engagement is enthusiasm. Behavioural engagement is what people do beyond
+      buying, such as posting, rating, sharing, commenting and helping other customers. They then followed it through to
+      two outcomes: what customers intend to do next, such as buy again, and what they really do, such as purchases,
+      spending and use.
+
+      Platforms were described by four traits. Contact is continuous when people come back again and again, or spot when
+      it is a short burst around one campaign. It is rich when the format carries video, images and many cues, or lean
+      when it is mostly plain text. The platform can be digital or physical, and either the firm or its customers can open
+      the exchange.
+
+      The paper places familiar campaigns on this grid. Sephora's Beauty Insider Community is continuous and rich, while a
+      Booking.com email or app prompt asking for quick feedback after each stay is continuous and lean. A Pringles video
+      challenge on TikTok is a rich spot campaign, and Volvo's Super Bowl hashtag contest on Twitter a lean one.
+
+  - h: "Tasks beat experiences, on average"
+    body: |
+      Most numbers below are correlations, written r. Zero means two things are unrelated and 1 means they move in perfect
+      step. Multiply r by itself and you get the overlap between two measures, the figure behind the percentages in the
+      takeaways.
+
+      Tasks had a clear edge for action and enthusiasm. Their average correlation with behavioural engagement was 0.21,
+      against 0.12 for experiences, and with emotional engagement 0.48 against 0.38. For attention there was nothing to
+      choose between them, 0.37 and 0.38.
+
+      A combined model that weighed every driver at once told a similar story. For enthusiasm, the task estimate was
+      roughly double the experience one (0.19 against 0.09). Experiences edged ahead on attention (0.21 against 0.18), a gap the
+      authors found not significant. Neither initiative moved behaviour on its own. Both worked through thought and
+      feeling: attention fed enthusiasm, and each of the two fed action.
+
+      Why should tasks win? Completing one gives people a sense that the brand is partly theirs, which is easy to create,
+      the authors argue. An experience has to shift how people see themselves before they take a brand to heart, and that
+      is much harder to bring about.
+    chart: initiatives
+
+  - h: "Good products and strong brands still lead"
+    body: |
+      Customers' views of quality and brand image were tied to engagement more closely than either initiative, in every
+      comparison the team ran. Product quality correlated 0.47 with active engagement, and the brand's image
+      correlated 0.58 with attention and 0.59 with enthusiasm.
+
+      Weighed together, the picture shifts a little. Both initiatives did more for attention than product quality did
+      (0.18 and 0.21 against 0.11), though brand image did most (0.40). For enthusiasm, tasks matched quality and image,
+      while experiences trailed both. Deliberate engagement efforts, the authors conclude, can hold their own next to
+      quality and image, and the two approaches complement each other.
+
+  - h: "Match the initiative to the platform"
+    body: |
+      Two platform traits changed how well each initiative worked.
+
+      Frequency mattered. Where customers keep coming back, the link between tasks and enthusiasm grew stronger, by 0.26,
+      as people learn what is being asked of them. The link between experiences and active engagement shrank, by 0.20.
+      Surprises lose their force when they come too often, so experiences belong in one-off moments.
+
+      Format mattered too. Rich, cue-heavy settings weakened the pull of tasks on active engagement, by 0.12. A clear,
+      structured request comes across best in a plain medium, and extra video or imagery can get in its way. Experiences
+      did about as well in lean settings as in rich ones.
+
+      The other two traits left the picture unchanged. Tasks and experiences worked equally well online and offline,
+      whatever side opened the exchange. Read against the paper's examples, this favours short, simple asks inside apps,
+      email and brand communities, with bigger experiences kept for time-limited campaigns. That channel mapping is ours
+      and went untested.
+
+  - h: "From engagement to loyalty, and on to sales"
+    body: |
+      Attention, enthusiasm and action each moved in step with plans to stay and buy again, at correlations of 0.49 to
+      0.55. Their links with what customers then did were far weaker, at 0.21 to 0.28.
+
+      In the combined model, no kind of engagement predicted behaviour directly. The route ran in steps: active engagement
+      predicted intentions (0.29), and intentions predicted behaviour (0.26). Attention and enthusiasm reached intentions
+      only through active engagement. Tasks and experiences also tied in with intentions directly (0.25 and 0.20), though
+      not with behaviour, and brand image was the one driver linked straight to behaviour (0.28). Skipping these steps,
+      the authors warn, understates what engagement does.
+    chart: outcomes
+
+  - h: "Where engagement pays off less"
+    body: |
+      The platform also shaped how far engagement carried. On digital platforms, the links from active and emotional
+      engagement to intentions were weaker than on physical ones, by 0.16 and 0.14. The authors connect this to a common feeling that
+      online exchanges are shallower than meeting in person. Actual behaviour showed no such gap.
+
+      Who opens the conversation counted as well. When customers started the exchange, the link from enthusiasm to
+      intentions was stronger by 0.18, and from active engagement by 0.08. A topic people raise themselves matters more to
+      them.
+
+      Enthusiasm also led on to behaviour less well where contact was continual (by 0.26) and in rich formats (by 0.35),
+      while rich formats nudged up its link with intentions (by 0.08). Attention worked the same way on every kind of
+      platform.
+
+  - h: "The authors' advice"
+    body: |
+      Put tasks first, and launch experiences with care, since changing how customers see themselves is hard. Run ordinary
+      marketing and engagement marketing side by side rather than choosing between them.
+
+      Before picking a channel, check whether people return to it often or visit once, and weigh its response tools, such as
+      likes, shares and comments, against its message tools, such as video, audio and high-quality pictures. To get
+      customers opening conversations, offer instant feedback and live interaction. Then measure attention, enthusiasm
+      and action alike, for example with a funnel that shows what share of customers is engaged on each.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your channels by how often people return", "List every place you meet customers: app, email, online community, social accounts, live events. Mark each one 'regular' if most people come back every week or more, or 'one-off' if they turn up for a single campaign."]
+  - ["Pick one small task for the regular channels", "Choose a single action you want customers to take, such as rating an order, posting a tip or inviting a friend. Write the request in one sentence of no more than 20 words."]
+  - ["Strip the ask down", "Send the task as a short text, push notification or email with one button. Leave out video, animation and extra links. Time it yourself: if it takes longer than two minutes, cut a step."]
+  - ["Keep big experiences rare and short", "Run live events, launch parties or creative challenges as bursts with a fixed end date, two weeks at most. Wait at least three months before you stage a similar one, so the surprise stays fresh."]
+  - ["Let customers open the conversation", "Add a live chat, an open question thread or an 'ask us anything' slot where customers raise their own topics. Reply to every post within 24 hours."]
+  - ["Track three signals against real sales", "Each month, count who reads or opens (attention), who reacts with likes or kind comments (enthusiasm) and who posts, shares or refers (action). Set all three beside repeat purchases, not only survey answers about buying again."]
+
+expect:
+  - "**Small but reliable.** Structured asks should lift enthusiasm and participation somewhat more than fun experiences, a difference you will see across many campaigns rather than in one."
+  - "**Product and brand still carry the load.** An engagement programme adds to what customers already think of your quality and your name; it does not stand in for either."
+  - "**Sales come later.** Engagement reaches purchases in steps, through action and then intention, so on our inference a programme needs at least one full buying cycle before it is judged."
+  - "**Customer-led threads may be worth more.** Our extrapolation, not a tested claim: a community where members raise their own topics should do more for loyalty than one where the brand posts every prompt."
+
+limits:
+  - "**Mostly one-off surveys.** Most pooled studies measured everything at a single point in time, so cause and effect cannot be pinned down, and wear-out over months could not be followed."
+  - "**Customer level only.** Outcomes were intentions and individual behaviour, not company sales or profit, and nobody tallied what each initiative cost to run."
+  - "**Two broad boxes.** Rewards, recognition, contests and events were grouped into just two strategy types, so it remains open which kind of task or experience works best."
+  - "**Reasons not measured.** Ownership and self-change, the proposed reasons tasks and experiences work, were rarely measured in the original studies and could not be tested."
+  - "**Thin evidence on some links.** Several averages rest on 11 to 18 effects, some platform traits could not be tested on every link, and mixed online and offline journeys were outside the review."
+
+faq:
+  - q: "What are task-based and experiential engagement initiatives?"
+    a: "Task-based initiatives ask customers to complete a structured job, often for a reward, such as writing a review, referring a friend or entering an idea contest. Experiential ones try to delight them with events and playful moments. Across hundreds of studies, tasks were the more effective of the two on average (Blut et al., 2023)."
+  - q: "Does customer engagement increase sales?"
+    a: "It is linked to sales, but mostly indirectly. In the pooled data no form of engagement predicted purchases on its own; active engagement went with loyalty intentions, and those intentions went with what people bought."
+  - q: "Is social media engagement worth less than engagement in person?"
+    a: "For loyalty intentions, somewhat. Online, being active or enthusiastic translated into plans to return less strongly than it did in physical settings. Purchases and other real actions did not differ, and both kinds of initiative built engagement equally well in either setting."
+  - q: "Should brands run experiential campaigns on always-on channels?"
+    a: "Caution is wise. Where customers interact continually, experiences produced less posting, sharing and commenting, consistent with surprises wearing out. They suit short, one-off campaigns, while tasks gain from regular contact."
+  - q: "Do video-heavy formats help engagement tasks?"
+    a: "Not for structured tasks. In rich, cue-heavy settings, tasks did less to prompt active engagement, in line with the view that a clear request needs a plain medium. Experiences did equally well in rich and lean formats."
+
+also:
+  - doi: "10.1007/s11747-022-00917-z"
+    title: "Non-face emojis in digital marketing: Effects, contingencies, and strategic recommendations"
+    authors: "Orazi, Ranjan, & Cheng"
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2023
+    text: >-
+      Emojis other than faces increasingly stand in for words in marketing messages. In a long-running study of Airbnb
+      listings, and again in an experiment, using them instead of plain text brought more online word of mouth. Two
+      further experiments found the limits: several emojis replacing words made messages harder to process and less
+      liked, and premium sellers who used several looked less competent whatever the emojis did. For a premium listing,
+      fewer is safer.
+  - doi: "10.1007/s11747-023-00927-5"
+    title: "Personalized email marketing in loyalty programs: The role of multidimensional construal levels"
+    authors: "Zhang & Liu-Thompkins"
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2024
+    text: >-
+      Loyalty programmes know where each member stands, but how should that shape the emails they send? Two lab
+      experiments and a field study with real campaigns from an international frequent flyer programme looked at a
+      member's tier and how far they are from their next goal. Members low on both responded better to emotional appeals,
+      while members high on either one, or both, preferred reasoned messages. A member's tier and distance to the next
+      reward can set the tone of an email, not just its offer.
+
+charts:
+  initiatives:
+    title: "How closely each initiative tracked each kind of engagement (correlation, 0 = no link)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Tasks, behavioural", 0.21, true]
+      - ["Experiences, behavioural", 0.12, false]
+      - ["Tasks, emotional", 0.48, true]
+      - ["Experiences, emotional", 0.38, false]
+      - ["Tasks, cognitive", 0.37, false]
+      - ["Experiences, cognitive", 0.38, false]
+    source: "Pooled reliability-adjusted correlations (Table 3); tasks rest on 15 to 48 effects, experiences on 11 to 33. The gaps are significant for behavioural and emotional engagement, not for cognitive."
+  outcomes:
+    title: "How closely engagement tracked loyalty intentions and actual behaviour (correlation, 0 = no link)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Cognitive, intentions", 0.50, false]
+      - ["Emotional, intentions", 0.55, false]
+      - ["Behavioural, intentions", 0.49, false]
+      - ["Cognitive, actual behaviour", 0.21, true]
+      - ["Emotional, actual behaviour", 0.28, true]
+      - ["Behavioural, actual behaviour", 0.24, true]
+    source: "Pooled reliability-adjusted correlations (Table 3). Intentions rest on 54 to 113 effects; actual behaviour (purchases, repurchases, spending, use) on 14 to 44."
+
+related_pages: []
