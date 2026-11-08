@@ -1,0 +1,241 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md and watch/STYLE_LOG.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 46
+week_of: "2026-11-09"            # the issue's own date (Monday)
+slug: luxury-tiktok-transparency
+status: live
+
+title: "Should luxury brands show how their products are made on TikTok? What a Journal of Advertising Research study of 5,565 posts and an experiment found"
+dek: >-
+  Younger audiences expect brands to be open about their workshops and their values. Luxury depends on a degree
+  of distance. A study of eleven luxury accounts on TikTok, an experiment and interviews with senior managers show which kind
+  of openness helps and which kind costs exclusivity.
+short_title: "How luxury brands can be open on TikTok and stay exclusive"
+
+description: >-
+  Khan et al. coded 5,565 luxury TikTok posts and tested three videos: showing how products are made raised openness without
+  costing exclusivity.
+
+keywords: [luxury brands on TikTok, luxury brand transparency, brand exclusivity, behind-the-scenes content, production
+  transparency, social impact communication, CSR communication, TikTok marketing, luxury fashion marketing, signaling theory,
+  brand ambassadors, Journal of Advertising Research]
+topics: [Social media, Creative, Influencers]
+
+image:
+  file: issue-46-luxury-tiktok-transparency.jpg
+  og: issue-46-luxury-tiktok-transparency-og.jpg
+  alt: "A smiling dressmaker in a striped top works at a white sewing machine in a bright studio, with a dress form, design sketches pinned to a grid wall and a clothes rail around her"
+  caption: "The making of a garment is the kind of openness that luxury audiences responded to. Photo: Vitaly Gariev on Unsplash."
+
+short_answer: >-
+  Yes, if they choose what to reveal. Across 5,565 TikTok posts from eleven luxury fashion accounts, behind-the-scenes
+  production content drew the strongest engagement of any transparency theme. In an experiment with 230 British luxury
+  shoppers, a production video raised perceived openness and left exclusivity intact. A video about the brand's social impact
+  raised openness too, but at a cost to exclusivity.
+
+takeaways:
+  - "83% of the posts carried no transparency claim of any kind."
+  - "A playful tone appeared in few posts but drew a median of 22,700 likes; the formal tone used in 57% of posts did worse."
+  - "Kering's group account made explicit transparency claims in just 4% of its posts, against 10% explicit and 36% implied at LVMH."
+  - "In the experiment, perceived transparency was linked to engagement more than three times as strongly as perceived exclusivity."
+
+paper:
+  doi: "10.1080/00218499.2026.2645375"
+  title: "Luxury Fashion’s Transparency Paradox on TikTok: Balancing Openness and Exclusivity"
+  authors: ["Khan, N.", "Mazzoli, V.", "Viglia, G.", "Merk, M."]
+  authors_full: ["Nayla Khan", "Valentina Mazzoli", "Giampaolo Viglia", "Michaela Merk"]
+  year: 2026
+  journal: "Journal of Advertising Research"
+  online: "2026-04-22"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # names and affiliations as printed in the paper; only Viglia's ORCID iD is printed, the other two are ORCID records that list this DOI
+    - name: "Nayla Khan"
+      affiliation: "Kingston University"
+      orcid: "0009-0003-0923-9392"
+    - name: "Valentina Mazzoli"
+      affiliation: "University of Verona"
+      orcid: "0000-0002-8344-0356"
+    - name: "Giampaolo Viglia"
+      affiliation: "University of Portsmouth; Prague University of Economics and Business"
+      orcid: "0000-0001-8521-4988"
+    - name: "Michaela Merk"
+      affiliation: "Audencia Business School"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Three studies, as the paper reports them: a content analysis of 5,565 luxury-brand TikTok posts (Study 1), an online experiment with 230 consumers (Study 2a) and three expert interviews with luxury managers (Study 2b). The 120-person pretest of the videos is not counted."
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Nayla Khan of Kingston University, Valentina Mazzoli of the University of Verona, Giampaolo Viglia of the University of
+      Portsmouth and the Prague University of Economics and Business, and Michaela Merk of Audencia Business School examined a
+      tension every luxury marketer will recognise. Openness about production and values is now expected online, yet a luxury
+      label sells partly on mystery, and TikTok favours informal, unpolished content.
+
+      They worked in three steps. First, they coded by hand every TikTok post from eleven accounts belonging to LVMH, Kering and
+      Prada Group, the luxury fashion groups that met the authors' criteria: revenue above €5 billion, an active TikTok
+      presence and a traditional luxury position. Second, they showed
+      British luxury shoppers one of three short videos for an invented label. Third, they interviewed three senior luxury
+      managers about how they decide what to disclose.
+    facts:
+      - ["Accounts", "LVMH, Louis Vuitton, Dior, Loewe, Fendi, Kering, Gucci, Balenciaga, Saint Laurent, Prada and Miu Miu"]
+      - ["Posts", "5,565, from each account's first post to 31 March 2025"]
+      - ["Experiment", "230 British luxury fashion shoppers aged 18 to 45 with TikTok accounts"]
+      - ["Videos", "25 seconds, TikTok style, for a fictional label called VADE"]
+      - ["Interviews", "Three senior luxury managers, about 90 minutes each, June 2025"]
+
+  - h: "What luxury brands actually post on TikTok"
+    body: |
+      Most of what these accounts post builds image rather than explaining anything. Depending on the account, branding and
+      lifestyle content made up between 52% and 95% of the posts. When posts did reveal something, it
+      was usually about production or social impact. LVMH's group account led on production, with 31% of its posts, and
+      Kering's on social impact, with 19%. Heritage, materials, environmental impact and quality each appeared in fewer than 3%.
+
+      Engagement followed a clear order. Branding posts drew the most likes. Posts about materials and about production came
+      next, and people saved them often, with medians of around 200 saves, a sign that viewers wanted to come back to them.
+      Posts on social and environmental themes trailed well behind, despite their ethical weight.
+    chart: likes
+
+  - h: "Tone and faces mattered as much as topic"
+    body: |
+      How a post spoke mattered too. Posts with an ethical tone drew the least engagement of all. Conversational posts did well,
+      and LVMH and Loewe used that tone more than most.
+
+      Endorsers appeared in 41% of posts, mostly celebrities. Celebrities brought the lowest engagement of any endorser. Posts with brand
+      ambassadors, people formally tied to the brand, drew the strongest: a median of 22,800 likes and 190 comments. Influencers
+      were the ones who brought views, notably for Loewe and Gucci.
+
+      Claims followed a similar pattern. Posts that made no transparency claim outperformed those with implied or explicit
+      claims, and the implied and explicit ones performed alike. Explicit claims still became more common year by year, so
+      brands are moving towards a kind of post that has so far drawn less engagement.
+
+  - h: "The experiment: one invented label, three videos"
+    body: |
+      For a controlled test, the authors created VADE, a fictional luxury label, so that nobody's feelings about a real brand
+      could colour the results. Each shopper saw one of three videos. One showed how the products were made, including the
+      materials. One showed the brand's social impact, such as support for local communities. One told the brand's heritage,
+      with traditional methods and history. Tone and the amount disclosed did not vary between them.
+
+      The heritage video served as the benchmark. Against it, the social impact version lowered perceived exclusivity
+      clearly. The production video made no meaningful difference to exclusivity.
+    chart: exclusivity
+
+  - h: "Openness was what moved engagement"
+    body: |
+      Viewers of the production and the social impact video rated the brand as more transparent than viewers of the heritage video, with
+      production ahead. That mattered, because perceived transparency was closely tied to how engaged people felt with the brand,
+      while exclusivity was more loosely tied to it.
+
+      Taken together, both videos lifted engagement compared with the heritage video, by roughly half a scale point, and the whole rise
+      came through those two perceptions. The difference lies in the cost. Production content gained its rise with no loss of
+      exclusivity. Social impact content gained a similar rise while giving up some exclusivity, a trade-off a luxury brand may
+      not want to make again and again.
+    chart: transparency
+
+  - h: "How managers handle the trade-off"
+    body: |
+      The interviews describe transparency as something curated rather than complete. One manager said: "We show the flaws we
+      want to show." Traditional heritage houses limit their TikTok activity or rely on high-status ambassadors, while newer
+      challenger brands use founders, humour and an open tone. Group accounts carry the environmental and social messages, which
+      tend to draw lower engagement.
+
+      They also described a split audience. Gen Z brings visibility, while millennials are the ones buying through TikTok Shop.
+      At one brand, the legal and CSR teams review every transparency campaign before it goes out. Standard metrics are treated with
+      caution, and one manager pointed to comment sentiment and how widely creators share the content as better guides.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your recent posts by what they reveal", "Go through the last three months of posts and label each one: brand image, how it is made, heritage, social impact or environmental impact. Mark which posts state something a viewer could check and which only set a mood."]
+  - ["Agree what you will show and what stays private", "List what you are willing to show, such as workshops, materials, hands at work and fittings, and what stays private, such as suppliers, costs and clients. Have the legal, sustainability and creative leads sign off the list together."]
+  - ["Film how things are made", "Shoot short clips of one step at a time: cutting, stitching, finishing, checking. Keep captions brief and let the work carry the message instead of a written claim."]
+  - ["Put ethics inside the craft story", "Show the people who make the product, their training and their working conditions as part of how it is made, rather than as a separate campaign about doing good. Add independent certification where you have it."]
+  - ["Choose people who can explain the work", "Give the story to ambassadors and creators who can talk about the craft, and use celebrities for reach rather than explanation. Run one playful format alongside your usual polished one for a month."]
+  - ["Track how exclusive the brand still feels", "Alongside likes and views, record saves, shares and comment sentiment for each type of post. Every quarter, run a short poll asking followers how exclusive and how open the brand feels, and adjust the mix."]
+
+expect:
+  - "**Steady interest in craft content.** Workshop clips tend to be saved, so viewers come back to them."
+  - "**A cost to social impact messages.** Stand-alone posts about good causes can make a luxury brand feel more ordinary, even when people find them open and credible."
+  - "**Better results from a lighter tone.** Playful and conversational posts did better than formal ones, which may sit uneasily with a heritage house's style guide."
+  - "**More internal coordination.** Showing more means legal, sustainability and creative teams have to review content together before it goes out."
+
+limits:
+  - "**One sector, three groups.** Eleven accounts from three luxury fashion groups; other categories and smaller labels may respond in other ways."
+  - "**An invented brand and one country.** The experiment used a fictional label and British shoppers aged 18 to 45. Real brands come with history and loyalty that may change the effects."
+  - "**Descriptive post data.** The engagement figures for real posts are associations, not evidence of cause."
+  - "**Three interviews.** A small number of senior managers, who may describe their own brand's approach favourably."
+  - "**TikTok only.** Instagram's more polished feed may treat the same content differently."
+
+faq:
+  - q: "Does transparency hurt luxury brands on social media?"
+    a: "It depends on the topic. Production content raised how open a fictional luxury label seemed without costing it exclusivity, whereas social impact content lowered its exclusivity (Khan et al., 2026). Both still lifted engagement compared with a heritage video, because openness counted for more than exclusivity."
+  - q: "What kind of TikTok content gets the most engagement for luxury fashion brands?"
+    a: "Brand and lifestyle posts, which make up most of these feeds, drew the most likes. Among posts that revealed something, those about production and materials did best, and playful or conversational posts outperformed formal ones."
+  - q: "Should luxury brands post about sustainability on TikTok?"
+    a: "With care. Social and environmental posts drew far fewer likes than craft content in this sample, and the managers interviewed said such messages are often avoided on TikTok. The authors suggest folding ethical points into stories about how products are made and backing them with certification."
+  - q: "Do celebrities work for luxury brands on TikTok?"
+    a: "Less well than many brands assume. Celebrity posts drew the weakest engagement of any endorser type, brand ambassadors drew the strongest, and influencers brought the views."
+
+also:
+  - doi: "10.1080/00218499.2025.2602859"
+    title: "When Does Integrating Human Values in Brands’ Communications Lower Social Media Engagement?"
+    authors: "Siuki, Mirzaei, & Lai"
+    journal: "Journal of Advertising Research"
+    year: 2026
+    text: >-
+      Using text mining on 27,900 posts from 47 brands in fashion, retail, sportswear and technology, this study measured how
+      strongly each post expressed human values such as tradition, care for others, openness to change or achievement. More
+      value-laden posts did not reliably earn more engagement. For fashion brands the relationship rose and then fell, so posts
+      with a lighter expression of values did better than heavily value-laden ones. Beyond a certain point, stating values
+      starts to cost attention.
+  - doi: "10.1002/mar.70253"
+    title: "When Luxury Brands Meet Artificial Intelligence: How Brand Longevity Shapes Consumer Responses to AI‐Designed Products"
+    authors: "Nechaeva & Mazzoli"
+    journal: "Psychology & Marketing"
+    year: 2026
+    text: >-
+      Four online experiments, with real and fictitious brands, fashion and technology products and participants in different
+      countries, tested AI-designed products from luxury brands. For brands with a long history, AI design looked like a poor
+      fit: it lowered perceived authenticity, prestige and attitudes towards the product, and participants tended to pass
+      such products by. Participants' own attitudes to AI moderated the effect. For heritage houses, how a product is made
+      is part of what is being sold.
+
+charts:
+  likes:
+    title: "Median likes per post by content theme, eleven luxury TikTok accounts (thousands)"
+    scale: [0, 8]
+    step: 2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Branding and lifestyle", 7.05, false]
+      - ["Materials and sustainability", 4.43, false]
+      - ["Production process", 4.28, true]
+      - ["Environmental impact", 0.93, false]
+      - ["Social impact", 0.13, false]
+    source: "Study 1, 5,565 posts. Medians are shown because engagement figures were heavily skewed."
+  exclusivity:
+    title: "Perceived exclusivity of the fictional brand after each video (scale 1 to 7)"
+    scale: [0, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Heritage video (benchmark)", 5.30, false]
+      - ["Production video", 5.12, false]
+      - ["Social impact video", 4.70, true]
+    source: "Study 2a, 230 British luxury shoppers. Only the social impact drop was statistically significant."
+  transparency:
+    title: "Perceived transparency of the fictional brand after each video (scale 1 to 7)"
+    scale: [0, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Heritage video (benchmark)", 4.68, false]
+      - ["Production video", 5.43, true]
+      - ["Social impact video", 5.21, false]
+    source: "Study 2a. Both rises over the heritage video were statistically significant."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
