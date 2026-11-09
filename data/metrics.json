@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-08",
+ "as_of": "2026-11-09",
  "scholar_snapshot": "2026-11-01",
  "baseline": "2026-11-01",
  "h_index": 34,
@@ -162,7 +162,7 @@
    "need": 10,
    "per_month": 0.43,
    "velocity_source": "openalex",
-   "months_to_cross": 23.2,
+   "months_to_cross": 23.3,
    "year": 2024,
    "title": "What if utilitarian products are regarded as high-status? The moderate role of iconic and popular as two dimensions of brand Coolness"
   },
@@ -172,7 +172,7 @@
    "need": 10,
    "per_month": 0.1,
    "velocity_source": "openalex",
-   "months_to_cross": 104.8,
+   "months_to_cross": 105.0,
    "year": 2019,
    "title": "The Effect of Online Reviews on Consumer-Based Brand Equity: Case-Study of the Polish Restaurant Sector"
   },
