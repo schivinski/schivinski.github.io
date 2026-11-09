@@ -250,6 +250,26 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 - Issue 44 (Fang, Wu, Yuan & Zhang) went out with "Dear Professor Yuan," and three co-authors in Cc, which is what prompted
   the rule.
 
+## Author email failed: retry every 3 hours until it is sent (Bruno, 9 November 2026)
+- A failed author thank-you is never left for Bruno to finish or check. Failure means any step of the send procedure in
+  project doc `claude/mkt3-author-thankyou-template.md` did not work: Chrome or the Claude extension not reachable, the
+  paste check failed, From could not be switched to hello@marketingin3.com, or Gmail gave an error.
+- Never send the connector draft as it is (its HTML is degraded), and never switch to another sending route or address.
+- Schedule a retry about 3 hours later with `send_later` (delay_minutes 180) into the same session. The retry message is
+  self-contained: issue number, slug, draft id, To, Cc, the `--salutation` and `--cc` values, and "follow the template
+  procedure and this rule".
+- Each retry first checks Gmail Sent (`in:sent to:<To address> subject:"featured in Marketing in 3" newer_than:14d`). If it
+  is already sent (by an earlier retry or by Bruno), stop: no second email. Otherwise run the send procedure again
+  (rebuild `newsletter/out/` with `author_email.py` if it is missing; reuse the draft if it still exists, else create a
+  new one). If it fails again, schedule the next retry 3 hours later. Keep going until it is sent.
+- While it is pending, the author log row says "pending, retrying every 3 hours". No message to Bruno for each failed
+  try. When it goes out, update the log (sent date and time, To, Cc) and tell Bruno in one line. If it is still unsent
+  after 24 hours, tell Bruno once that Chrome on his computer has been unreachable since the first try (only he can fix
+  that), and keep retrying.
+- This rule overrides any older run prompt that says to leave the draft and tell Bruno to send it himself.
+- First case: issue 46 (Khan et al.). Chrome was unreachable during the morning run on 9 Nov 2026; Bruno asked for this
+  rule at 11:57, and the email went out at 12:00 Sydney once Chrome was back.
+
 ## The 2025 tab: "2025 in research" (Bruno, 2 November 2026)
 - A look back at digital marketing papers first published online in 2025, on its own tab at `/watch/2025/` (switch
   "Browse by year" above the topic bar on the Marketing in 3 page). Built in its own chat, separate from the live series.
