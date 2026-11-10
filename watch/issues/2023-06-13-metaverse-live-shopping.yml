@@ -1,0 +1,242 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 22                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-06-13"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: metaverse-live-shopping
+status: live
+
+title: "Does live-stream shopping work better in the metaverse than on Instagram? What an Electronic Markets study found"
+dek: >-
+  Live-stream shopping lets influencers sell in real time. Researchers in Spain compared an Instagram Live with the same
+  show held in a virtual room: immersion made the event more absorbing, but it did not help anyone work out what to buy.
+short_title: "Live shopping in a virtual room versus Instagram Live"
+
+description: >-
+  Barta et al. find a cyclist's live show in a virtual room felt more immersive and novel than on Instagram Live, but
+  no more useful for choosing products.
+
+keywords: [live-stream shopping, live shopping, metaverse marketing, Instagram Live, influencer marketing, telepresence,
+  virtual events, Mozilla Hubs, experiential value, customer satisfaction, follower engagement, Electronic Markets]
+topics: [Influencers, Social media, Retail]
+
+image:
+  file: 2023-metaverse-live-shopping.jpg
+  og: 2023-metaverse-live-shopping-og.jpg
+  alt: "A phone in a clip mount records a hand adding a green garnish to one of two orange cocktails on a tray, the drinks sharp on the phone's camera screen and blurred in bright window light behind"
+  caption: "The camera shows the product. How present the viewer feels depends on where the show happens. Photo: Encal Media on Unsplash."
+
+short_answer: >-
+  Partly. A professional cyclist presented the same cycling gear twice: on Instagram Live to 54 followers and, a week
+  later, to 41 others in a virtual room where everyone appeared as an avatar. The virtual-room audience felt more
+  transported and found the show more novel and interesting, yet judged it no more helpful for choosing products. Both
+  kinds of value raised satisfaction, which fed the wish to return and recommend.
+
+takeaways:
+  - "Followers in the virtual room rated the show 0.65 points higher than Instagram viewers on novelty, interest and curiosity (scored 1 to 7)."
+  - "The virtual room added nothing to how useful the show was for choosing cycling products: the difference was 0.014 points, statistically indistinguishable from none."
+  - "Satisfaction with the show, together with two background factors, explained 47% of the variation in followers' wish to keep attending such shows."
+  - "Each extra point of involvement with the cyclist's content cut the virtual room's advantage in experiential value by 0.57 points, so the least involved followers gained most."
+
+paper:
+  doi: "10.1007/s12525-023-00643-6"
+  title: "Telepresence in live-stream shopping: An experimental study comparing Instagram and the metaverse"
+  authors: ["Barta, S.", "Gurrea, R.", "Flavián, C."]
+  authors_full: ["Sergio Barta", "Raquel Gurrea", "Carlos Flavián"]
+  year: 2023
+  journal: "Electronic Markets"
+  volume: "33"
+  issue: "1"
+  pages: "29"
+  online: "2023-06-13"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Springer page)
+    - name: "Sergio Barta"
+      affiliation: "Marketing Management and Market Research Department, University of Zaragoza, Gran Vía 2, 50005, Zaragoza, Spain"
+      orcid: ""
+    - name: "Raquel Gurrea"
+      affiliation: "Marketing Management and Market Research Department, University of Zaragoza, Gran Vía 2, 50005, Zaragoza, Spain"
+      orcid: ""
+    - name: "Carlos Flavián"
+      affiliation: "Marketing Management and Market Research Department, University of Zaragoza, Gran Vía 2, 50005, Zaragoza, Spain"
+      orcid: "0000-0001-7118-9013"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One between-subjects quasi-field experiment with 95 followers of one professional cyclist: Instagram Live (54) vs a Mozilla Hubs virtual room a week later (41)"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Sergio Barta, Raquel Gurrea and Carlos Flavián,
+      all of the University of Zaragoza in Spain, looked at live-stream shopping. In these shows an influencer presents
+      products in a live broadcast, answers viewers' questions and points them to where the items can be bought. Influencers
+      mostly run such shows on social networks like Instagram. The team asked what changes when the same show moves into the metaverse, a shared virtual
+      space where people meet as avatars, talk by voice or text and look at digital objects together.
+
+      Their central idea was telepresence: a viewer's sense of having been carried into another place. An Instagram Live
+      offers little of it, because viewers know the host is somewhere else. A virtual room puts host and audience in one
+      space, even if that space is digital. Would the stronger sense of presence add value for viewers, and of which kind?
+
+      The authors separated two kinds of value. Experiential value concerns the show itself: whether it sparks curiosity
+      and feels interesting and new. Instrumental value concerns the shopping task: whether the show helps people judge
+      products and pick the right one.
+    facts:
+      - ["Design", "A field test with two groups: one watched an Instagram Live, a different group joined a virtual-room show a week later"]
+      - ["Host", "A professional cyclist with 7,569 Instagram followers, showing the sports equipment he rides with"]
+      - ["Participants", "95 of his followers (54 on Instagram, 41 in the virtual room), 87 of them men; average age about 30"]
+      - ["Measured", "Sense of being transported, experiential and instrumental value, satisfaction, wish to return, intention to recommend and involvement with his content, all on 7-point scales"]
+      - ["Analysis", "Regressions allowing for gender and for whether people had followed him for more than a month"]
+
+  - h: "Two shows a week apart"
+    body: |
+      The cyclist first announced an Instagram Live on his social profiles. During the broadcast he showed the equipment he
+      uses on the bike, gave tips on choosing it and took questions. When it ended he posted a story with links to online
+      shops selling the items.
+
+      The second show took place the following week in a room built on Mozilla Hubs, a platform that works on computers,
+      phones and VR headsets. Followers registered by email and joined from a desktop or laptop. To reduce the pull of the
+      setting's novelty, they could first explore a similar practice room. Inside, they were given the same information as the
+      Instagram audience, saw photographs of the products, could ask questions and later received the shop links by email.
+
+      Nobody knew a study was under way until the questionnaire arrived once each show had ended. One pair of glasses from a
+      brand the cyclist works with was raffled in each group. The researchers checked user names and asked directly to make
+      sure no one attended both shows. Two of the 43 people who answered after the virtual show were set aside because they
+      had trouble with the audio. A power calculation had put the minimum sample for the analysis at 77.
+
+  - h: "More presence and more interest, but no help in choosing"
+    body: |
+      The two settings did feel different. On three statements about being transported, such as feeling that one's body and
+      mind were in different worlds, the virtual-room guests scored far higher than the Instagram viewers.
+
+      Moving the show into the virtual room raised experiential value, and the estimate held after allowing for gender and
+      length of following, with a 95% confidence interval from 0.19 to 1.11 points. Instrumental value did not change. Its estimate
+      was near zero, with an interval running from minus 0.36 to plus 0.38 points.
+
+      The authors offer a likely reason. On Instagram, the cyclist held the real equipment up to the camera. In the virtual
+      room, viewers saw photographs. Seeing the actual product may count for more, when choosing, than feeling present. They
+      suggest realistic 3D models that viewers can inspect closely, something this test did not include.
+    chart: presence
+
+  - h: "Casual followers gained most from the virtual room"
+    body: |
+      The team expected followers who found the cyclist's content relevant and important to get the most out of the
+      virtual room. The reverse happened. Taking involvement into account raised the share of differences in experiential
+      value that the model explained from 9% to 21.5%.
+
+      In the authors' plot, virtual-room guests rated the experience highly at every level of involvement, while Instagram
+      viewers' ratings rose with involvement and came close to the virtual room's among the most involved. The authors
+      add that, in the virtual room, greater involvement even went with lower experiential value. For usefulness,
+      involvement did not change the comparison between the two platforms (p = 0.145).
+
+      Their explanation is that highly involved followers attend for the information and pay less attention to the setting.
+      Less involved followers come for something different from the usual posts and stories, bring lower expectations and
+      so value an unfamiliar setting more.
+
+  - h: "From a good show to a return visit"
+    body: |
+      Both kinds of value fed satisfaction, and to a similar degree once put on a common scale: standardised coefficients
+      of 0.573 for experiential and 0.552 for instrumental value. With the two background factors, experiential value
+      explained 38% of the variation in satisfaction and instrumental value 36%.
+
+      Satisfied followers were more inclined to attend future shows and to recommend them. The wish to return also added
+      to recommendations independently, which means the followers who wanted more were the likeliest to spread the word.
+      Together these measures explained 36% of the variation in intention to recommend.
+
+      Length of following played a smaller part. People who had followed the cyclist longer than a month were somewhat
+      keener to attend his next show, a link that narrowly missed conventional significance (p = 0.051).
+    chart: chain
+
+  - h: "What the authors suggest"
+    body: |
+      In their view, a live show needs two things: useful content and an enjoyable experience. For the first, hosts should
+      know who their followers are and shape the content around their interests. For the second, the platform matters, and
+      more immersive spaces raise the experiential side.
+
+      They see virtual rooms as most promising for reaching followers who are only loosely engaged with a host. They also
+      expect the metaverse to become more useful for shopping as realistic 3D models, videos placed inside the room and
+      headsets that deepen the sense of presence become common. These are expectations for the future, not findings.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Give each format one job", "Write one sentence for each channel you stream on. Use your regular social live stream to explain products in detail, and keep any virtual room for an event people will remember."]
+  - ["Pick a host and a short product list", "Choose a host your audience already follows and three to five products they can explain well. Note the two or three questions buyers ask most about each item."]
+  - ["Show the real thing, not a still picture", "Hold each product close to the camera and turn it slowly for at least 30 seconds. In a virtual room, add a short video or a 3D model of every item, never a flat photo alone."]
+  - ["Open a practice room before the event", "Share a test version of the virtual space two or three days early. Let guests learn to move, speak and type there, so the event itself is about your products."]
+  - ["Invite followers who rarely engage", "Send the virtual event invitation to people who seldom comment or click, not only to your keenest fans. List them from your last 30 days of activity."]
+  - ["Ask three questions after every show", "Within an hour of each show, ask viewers three things: their satisfaction, whether they plan to come to the next one and whether they would recommend it. Compare formats only after three shows of each."]
+
+expect:
+  - "**More interest, not easier choices.** A virtual room can make a show feel fresh and absorbing, but on this evidence it will not by itself help viewers judge products."
+  - "**Satisfaction does the rest.** An enjoyable show and a useful one both fed satisfaction, and satisfied viewers were the ones keen to come back and recommend the show."
+  - "**Widest appeal beyond the core fans.** On the authors' reading, an immersive event matters most to followers who expect little from the host, which makes it a way to reach past the regular audience."
+  - "**Some set-up for guests.** Virtual-room guests had to register by email and get used to the room beforehand. On our reading, every extra step is a point where some people will drop out."
+
+limits:
+  - "**One host, one sport, mostly men.** Followers of a single cyclist, shown cycling gear; the authors suggest repeating the work in categories such as fashion, where women play a larger role."
+  - "**Two events, not random groups.** The audiences attended separate events a week apart rather than being assigned at random, and the virtual room drew more Latin American followers (11 against 2), so other differences between the groups cannot be ruled out."
+  - "**Photos on a computer screen.** The virtual room showed product photographs on a desktop or laptop. No 3D models or headsets were used."
+  - "**Newcomers to the format.** None of the virtual-room guests had attended live shopping there before, and how the effects change with experience is unknown."
+  - "**Plans, not purchases.** The survey asked about returning and recommending; nobody's buying was tracked."
+
+faq:
+  - q: "Is live-stream shopping in the metaverse better than on Instagram?"
+    a: "For enjoyment, yes; for choosing products, no. Followers of a professional cyclist rated his virtual-room show higher for curiosity and novelty than his Instagram Live, but judged both equally helpful for picking equipment (Barta et al., 2023)."
+  - q: "How is telepresence defined?"
+    a: "The feeling of having been taken into another place through a medium. Among other things, the questionnaire asked whether people felt their mind came back from a trip when the show ended."
+  - q: "How does experiential value differ from instrumental value?"
+    a: "Experiential value is about the event itself: curiosity, interest and novelty. Instrumental value is about getting something done, here evaluating cycling products and making a better purchase."
+  - q: "Which followers respond best to an immersive live show?"
+    a: "Those less involved with the host's content. Highly involved followers rated Instagram and the virtual room more alike, while followers who found the content less relevant to them gained more from the virtual setting."
+  - q: "Does a satisfying live show bring viewers back?"
+    a: "In this test, yes. Satisfaction predicted both the wish to come to more shows and the intention to recommend them, and the wish to return made recommending more likely in its own right."
+
+also:
+  - doi: "10.1177/00222429231179942"
+    title: "For Shame! Socially Unacceptable Brand Mentions on Social Media Motivate Consumer Disengagement"
+    authors: "Villanova & Matherly"
+    journal: "Journal of Marketing"
+    year: 2024
+    text: >-
+      What happens to a brand's keenest fans when someone mentions it alongside profanity on social media? Three
+      mixed-method studies found that strongly connected consumers felt ashamed on the brand's behalf, wanted to distance
+      themselves from it and, on real social media accounts, unfollowed it. Proactive moderation by the brand softened these
+      reactions. Strong attachment does not fully protect a brand when the conversation around it turns crude.
+  - doi: "10.1177/00222437231180494"
+    title: "The Effects of Pressure and Self-Assurance Nudges on Product Purchases and Returns in Online Retailing: Evidence from a Randomized Field Experiment"
+    authors: "Ghose, Lee, Nam, & Oh"
+    journal: "Journal of Marketing Research"
+    year: 2024
+    text: >-
+      A randomized field experiment in online retailing set pressure nudges, such as scarce stock, time limits and social
+      persuasion, against self-assurance nudges that help shoppers confirm a product's style and size and justify buying it.
+      Pressure brought slightly more sales at first but more returns later. Counted as sales net of returns, self-assurance
+      nudges did just as well. Helping people choose well can pay as much as hurrying them.
+
+charts:
+  presence:
+    title: "Feeling transported during the show, by platform (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Instagram Live (54 followers)", 2.38, false]
+      - ["Virtual room (41 followers)", 5.11, true]
+    source: "Manipulation check on all 95 followers: average agreement with three statements about being transported to another world."
+  chain:
+    title: "Change in the next measure for each one-point rise (unstandardised coefficients, 1 to 7 scales)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Experiential value to satisfaction", 0.442, true]
+      - ["Instrumental value to satisfaction", 0.565, true]
+      - ["Satisfaction to wish to return", 0.488, false]
+      - ["Satisfaction to recommending", 0.264, false]
+      - ["Wish to return to recommending", 0.315, false]
+    source: "Table 6, regressions on all 95 followers, allowing for length of following and gender; every link significant at p = 0.009 or lower."
+
+related_pages: []
