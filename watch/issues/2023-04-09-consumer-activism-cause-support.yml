@@ -1,0 +1,238 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 12                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-04-09"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-10"          # the day this page went live (metadata only, never shown)
+slug: consumer-activism-cause-support
+status: live
+
+title: "What keeps an online boycott going, anger at the brand or support for the cause? What a Journal of Brand Management study found"
+dek: >-
+  After a Carrefour employee in Brazil killed a dog, thousands of Twitter users called for a boycott. An analysis of
+  32,637 posts shows that attacks on the company led the first weeks and then declined, whereas animal-rights posts
+  kept a steady share for months.
+short_title: "Which posts start an online boycott, and which sustain it"
+
+description: >-
+  Muraro et al. track 32,637 tweets in a Brazilian boycott of Carrefour: attacks on the brand led early and faded, while
+  animal-rights posts held steady.
+
+keywords: [consumer activism, online boycott, social media boycott, brand transgression, brand crisis response,
+  collective action framing, animal rights activism, negative word of mouth, retweets and likes, topic modelling,
+  Carrefour Brazil, Journal of Brand Management]
+topics: [Social media, UGC]
+
+image:
+  file: 2023-consumer-activism-cause-support.jpg
+  og: 2023-consumer-activism-cause-support-og.jpg
+  alt: "A handmade cardboard placard reading \"Fight today for a better tomorrow\" in black and red marker, held up over a crowd at a sunny street rally, with blurred signs and trees behind"
+  caption: "Support for a cause can outlast anger at a company. Photo: Markus Spiske on Unsplash."
+
+short_answer: >-
+  Anger at the brand started it; support for the cause kept it going. When Brazilians boycotted Carrefour after an
+  employee killed a dog, tweets attacking the company led the conversation at first and trailed off over the following
+  four months, while posts about animal rights held a steady share throughout. Posts comparing the case with other
+  scandals drew about six times the retweets of brand attacks.
+
+takeaways:
+  - "Tweets attacking the brand were usually replies sent straight to its accounts, at odds of about 5 to 1; in the other four kinds of post, such replies were rare."
+  - "Posts about the cause were retweeted 58% less than brand attacks, yet they kept a steady place in the conversation from the first week to the last."
+  - "Posts that simply passed on news drew 68% fewer likes and 76% fewer retweets than brand attacks, and peaked when something happened offline."
+  - "Participation was broad rather than intense: 26,398 accounts posted, 1.24 times each on average, and the most active 1% averaged about four posts."
+
+paper:
+  doi: "10.1057/s41262-023-00322-z"
+  title: "Spurring and sustaining online consumer activism: the role of cause support and brand relationship in microlevel action frames"
+  authors: ["Muraro, I. S.", "Thorson, K.", "Huddleston, P. T."]
+  authors_full: ["Iago S. Muraro", "Kjerstin Thorson", "Patricia T. Huddleston"]
+  year: 2023
+  journal: "Journal of Brand Management"
+  volume: "30"
+  issue: "5"
+  pages: "461-477"
+  online: "2023-04-09"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (PDF first page and Springer page; only Muraro has an ORCID iD)
+    - name: "Iago S. Muraro"
+      affiliation: "Present Address: Institute for Media and Communications Management, University of St. Gallen, Blumenbergplatz 9, CH-9000 St. Gallen, Switzerland"
+      orcid: "0000-0001-8563-8529"
+    - name: "Kjerstin Thorson"
+      affiliation: "Department of Advertising and Public Relations, College of Communication Arts and Sciences, Michigan State University, 404 Wilson Road, Office #311, East Lansing, MI 48824, USA"
+      orcid: ""
+    - name: "Patricia T. Huddleston"
+      affiliation: "Department of Advertising and Public Relations, College of Communication Arts and Sciences, Michigan State University, 404 Wilson Road, Office #317, East Lansing, MI 48824, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One exploratory case study of one Twitter dataset (34,966 posts collected, 32,637 in Portuguese, 5,975 original tweets) on the Carrefour boycott in Brazil, analysed with a topic model, regressions and sentiment analysis"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Iago S. Muraro, now at Switzerland's University of St. Gallen, worked with
+      Kjerstin Thorson and
+      Patricia T. Huddleston of Michigan State University
+      to see how ordinary people keep a protest against a brand going on social media. Their case was a boycott of
+      Carrefour, the French retailer that runs one of the largest supermarket chains in Brazil. An employee at its store
+      in Osasco, in São Paulo state, poisoned and beat a stray dog known as Manchinha, which had been living on the
+      premises. She died hours later. Images of the attack spread online, and people organised petitions, demonstrations
+      at Carrefour stores and a boycott. About three and a half months later, Carrefour signed a plea deal with São Paulo
+      prosecutors.
+
+      The team chose this case on purpose. Carrefour had no link to animal welfare, so posts about the brand and posts
+      about the cause would use clearly different words, which makes them easier to tell apart.
+
+      They gathered tweets matching a list of related keywords and hashtags across the whole campaign. A topic model, a
+      statistical method that groups texts by the words that tend to appear together, then sorted the original tweets
+      into themes. The authors compared models with different numbers of themes, read 100 tweets from each, and settled
+      on five. They call these themes microlevel action frames: the personal ways people explain what happened and why
+      it matters within a shared campaign.
+    facts:
+      - ["Case", "A consumer boycott of Carrefour in Brazil over the killing of a stray dog at one of its stores"]
+      - ["Data", "34,966 posts on Twitter, 32,637 of them in Portuguese; 5,975 were original tweets and the rest retweets"]
+      - ["Period", "From the day of the attack in late November 2018 to five days after the plea deal in March 2019"]
+      - ["Method", "Topic modelling (latent Dirichlet allocation) of the original tweets, regression models of likes, retweets and replies to the brand, and sentiment analysis"]
+      - ["Design", "One exploratory case study of observed online behaviour, with no survey, experiment or sales data"]
+
+  - h: "Five ways people framed the boycott"
+    body: |
+      The first frame was an open attack on the brand. Users promised never to shop there again, used hashtags calling the
+      company a murderer, and wrote straight to Carrefour's own accounts. No other frame addressed the company directly
+      so often.
+
+      The second frame was about the cause. These tweets also called for a boycott, but in the name of animal rights and
+      veganism, asking people to respect and protect animals. Here the wrong was a breach of shared values rather than of
+      a customer's relationship with a shop.
+
+      The third frame passed on information: reports of pickets at stores, the prosecutors' work and the amount of the
+      fine.
+
+      The last two went beyond the case. One, which the authors call case broadening, tied it to wider political and
+      social problems in Brazil, such as violence and the role of the media. The other, case comparison, set it beside a
+      separate event. In mid-February a young Black man was killed by a security officer inside a store of another
+      supermarket chain, Extra. Many of these tweets asked why a dog's death had drawn more public attention than his.
+
+  - h: "Brand attacks led early, then declined"
+    body: |
+      Online activity started three days after the attack and rose sharply in the first ten days of December, when a
+      bill for tougher penalties on animal abuse went to Brazil's congress and the first demonstrations took place at
+      Carrefour stores. A smaller rise followed the end of the police investigation, and further spikes came with the
+      killing at Extra and the plea deal.
+
+      To follow the frames over time, the authors averaged each day's topic estimates and smoothed the result. Brand
+      attacks were the largest frame at the outset, had roughly halved by day 30 and kept falling after that. Cause posts
+      barely moved. News sharing followed a U shape, high around the store protests and again when the fine was
+      announced. Broader reflection was almost absent in the first days and rose after the first month; judging by
+      the published figure, it was the largest frame for much of the remaining time. Comparison posts clustered around
+      the Extra case. Assigning each tweet to a single frame instead gave the same patterns.
+
+  - h: "What people liked and shared"
+    body: |
+      The authors then asked which frames the crowd passed on. They modelled the likes and retweets of each original
+      tweet while holding the poster's numbers of followers and friends constant. For an account of average size, a
+      brand-attack tweet was expected to collect about 4.8 likes and 2.1 retweets.
+
+      Comparison posts did far better, with 7.37 times the likes and 6.31 times the retweets. Broader reflection drew
+      about twice the likes (1.97 times) but no more retweets. Cause posts were liked about as much as brand attacks, a
+      difference that was not significant, but were shared less. News posts came last on both counts.
+
+      A sentiment analysis, which scores the words in each tweet against a dictionary of negative terms, helps explain
+      the retweets. Comparison posts were the most negative, followed by brand attacks (the two did not differ
+      significantly), then cause posts, broader reflection and news. The two most negative frames were retweeted more than
+      the milder cause and news posts. Likes followed tone less closely, since broader reflection was liked more despite
+      its milder words.
+    chart: retweets
+
+  - h: "What the authors advise brands"
+    body: |
+      From these patterns the authors propose a response model. They offer it as a step towards theory, not a tested
+      tool, and suggest a different reply for each frame.
+
+      When attacks on the brand dominate, they recommend moving quickly to win back the customers who feel let down, and
+      note that this works only if the effort comes across as authentic. Although this frame declines by itself, they
+      advise against ignoring it, because it can give rise to the broader frames that make a campaign last longer.
+
+      When posts about the cause appear, the misconduct has touched people's values. The advice is to admit the wrong, repair it
+      and back the cause in public. Because brand statements on causes often meet scepticism, they suggest building the
+      action plan with credible partners such as NGOs and policymakers.
+
+      News sharing calls for a press strategy: give journalists accurate information early, as a way to show
+      accountability. Handling the first three frames well and in good time is, by the authors' account, the best way to
+      limit the broadening and comparison posts that come later.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort crisis posts into four groups", "Set up your social listening so that, in a backlash, every post lands in one of four groups: attacks on your brand, posts about the wider cause, shared news stories, and posts linking your case to other scandals. Check the mix every morning."]
+  - ["Name your outside partners now", "List the causes your business could touch, such as animal welfare, the environment or workers' rights. For each one, name two or three credible groups or experts you could call within a day."]
+  - ["Answer people who write to you", "Reply to every post sent to your accounts within 24 hours. Say what happened, apologise without conditions and name one concrete thing you are changing. Write each reply fresh instead of pasting the same text."]
+  - ["Publish a repair plan for the cause", "Within seven days, post a plan built with one of your outside partners. Give amounts, dates and who will check progress, and name the partner on the page."]
+  - ["Brief reporters at every milestone", "Each time something happens offline, such as a protest, an official finding or a settlement, send journalists a short factual update the same day. Keep it to five lines and one named contact."]
+  - ["Keep counting for sixteen weeks", "Count the posts in every group each week for at least sixteen weeks. Do not stop when the angry posts decline. Watch the cause and comparison groups, which can keep the issue in the news."]
+
+expect:
+  - "**An early peak of attacks.** Posts aimed at the company can lead the conversation for the first two weeks or so, then shrink to a small share after the first month."
+  - "**A smaller but steady cause frame.** Posts about the underlying issue continue at a similar level for months, after the anger has passed."
+  - "**New activity with each event.** Protests, official findings and settlements each produced a fresh rise in posting in this case."
+  - "**Later posts are shared more.** Comparisons with other scandals appear weeks in and collect more likes and shares than any other frame."
+
+limits:
+  - "**One case.** One boycott, against a single retailer, in one country and one language, on one platform. The authors say their method does not allow tests of how far the findings generalise."
+  - "**Observed, not tested.** The data are observational, so the study cannot show that one frame caused another, or that the tweets caused the protests, the bill or the settlement."
+  - "**Posts, not purchases.** Likes and retweets were measured; store visits and sales were not, and online activity may not match what people do offline."
+  - "**Labels involve judgement.** The number of frames and their names came from model statistics combined with the authors' reading of sample tweets."
+  - "**Advice not yet tried.** The response model is a proposal drawn from one case, and the paper does not analyse Carrefour's own statements or replies."
+
+faq:
+  - q: "Why do some online boycotts last for months?"
+    a: "In the Carrefour case, the reason was people's shared commitment to animal welfare. Tweets attacking the brand led the opening weeks and then dropped, while posts about animal rights kept a steady presence across close to four months of data (Muraro et al., 2023)."
+  - q: "What is a microlevel action frame?"
+    a: "A personal angle that individuals take inside a shared campaign, describing the problem in their own terms. In this boycott the authors found five: attacks on the brand, support for the cause, news sharing, wider political reflection and comparisons with other cases."
+  - q: "Which boycott posts get shared the most?"
+    a: "Posts comparing the incident with other scandals, which were also the most negative in tone. Plain news and cause posts were retweeted less than attacks on the brand, and across frames, harsher language tended to go with more sharing."
+  - q: "What can a brand do when an online boycott starts?"
+    a: "The authors suggest matching the reply to the frame: a fast, sincere effort to win back angry customers; an admission of the wrong and a cause action plan built with credible NGOs or policymakers; and prompt, factual information for the press. These suggestions come from one case and have not been tested."
+  - q: "Did the boycott hurt Carrefour's sales?"
+    a: "The study cannot say. It measured posts, likes and retweets, not purchases. Online activity, the authors add, may differ from behaviour in stores. The campaign did end with Carrefour agreeing to pay one million reais in fines in a plea agreement proposed by the São Paulo Department of Justice."
+
+also:
+  - doi: "10.1093/jcr/ucad019"
+    title: "I Really Know You: How Influencers Can Increase Audience Engagement by Referencing Their Close Social Ties"
+    authors: "Chung, Ding, & Kalra"
+    journal: "Journal of Consumer Research"
+    year: 2023
+    text: >-
+      Influencer posts that feature a partner, a relative or a close friend collect more likes. The authors analysed the
+      text and photos of 55,631 Instagram posts from 763 influencers and confirmed the pattern in an experiment; the lift
+      grew when the caption used first-person words to describe a special moment with that person. Sponsored posts were
+      received less warmly than unsponsored ones, but including a close tie in a sponsored post reduced that negative
+      response. A brief that leaves room for the influencer's own people may get more from a paid post.
+  - doi: "10.1093/jcr/ucad023"
+    title: "Understanding and Improving Consumer Reactions to Service Bots"
+    authors: "Castelo, Boegershausen, Hildebrand, & Henkel"
+    journal: "Journal of Consumer Research"
+    year: 2023
+    text: >-
+      Customers rated identical service lower when a bot delivered it instead of a human employee. Working with real
+      exchanges between people and bots in the lab and in the field, the authors find the reason in a belief that firms
+      automate to cut costs rather than to serve customers better. Sharing the savings through
+      lower prices removed the penalty, and bots that clearly outperformed staff were rated above people. If a chatbot
+      saves you money, let customers see part of the gain.
+
+charts:
+  retweets:
+    title: "Retweets per original tweet, compared with brand attacks (brand attacks = 1)"
+    scale: [0, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Comparisons with other cases", 6.31, true]
+      - ["Wider political reflection", 1.03, false]
+      - ["Attacks on the brand", 1.00, false]
+      - ["Animal-rights cause", 0.42, false]
+      - ["News and information", 0.24, false]
+    source: "Table 3, negative binomial model of 5,975 original tweets, controlling for followers and friends. The wider-reflection ratio does not differ significantly from 1."
+
+related_pages: []
