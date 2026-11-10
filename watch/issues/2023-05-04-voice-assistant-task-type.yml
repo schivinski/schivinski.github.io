@@ -1,0 +1,249 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 15                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-05-04"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-10"          # the day this page went live (metadata only, never shown)
+slug: voice-assistant-task-type
+status: live
+
+title: "Do people like voice assistants more for practical tasks or for small talk? What an International Journal of Consumer Studies study found"
+dek: >-
+  Voice assistants are sold on their skills and on their personality. Three experiments with Google Assistant found that
+  people rated it far higher when it handled practical requests, and that its apparent competence explained why.
+short_title: "Why voice assistants are judged on competence"
+
+description: >-
+  Sung et al. find people liked a voice assistant more after practical requests than social chat, 7.77 versus 6.31 out
+  of 9, as it seemed more competent.
+
+keywords: [voice assistants, smart speakers, Google Assistant, voice app design, conversational AI, voice commerce,
+  perceived competence, warmth and competence, trust in voice assistants, ease of use, International Journal of Consumer Studies]
+topics: [AI, Service]
+
+image:
+  file: 2023-voice-assistant-task-type.jpg
+  og: 2023-voice-assistant-task-type-og.jpg
+  alt: "Top-down view of a round black smart speaker with a violet and blue light ring on a white table, between a potted cactus and a plant with round green leaves"
+  caption: "People judge a smart speaker first by the jobs it gets done. Photo: Jan Antonin Kolar on Unsplash."
+
+short_answer: >-
+  For practical tasks, by a clear margin. In three experiments with 300 adults, people who heard Google Assistant handle
+  practical requests, such as a sum, a unit conversion or a timer, liked it more than when it handled social ones, such as
+  'Do you love me?' or 'I feel sick'. Practical answers made the assistant seem more capable, and that drove the
+  difference. Social exchanges did not make it seem significantly warmer.
+
+takeaways:
+  - "Among 123 Australian owners of voice-enabled devices, the assistant scored 7.77 out of 9 on average after practical requests, against 6.31 after social ones."
+  - "The best-liked exchange was a multiplication, at 7.91. The least liked was a get-well wish in reply to 'I feel sick', at 5.30."
+  - "A second test with 116 people repeated the result (7.83 against 6.46), and leading people to feel more or less powerful did not affect their ratings."
+  - "In a third test, practical requests raised the assistant's perceived competence only among people who rated it at least 5.87 out of 9 for ease of use."
+
+paper:
+  doi: "10.1111/ijcs.12946"
+  title: "Task type's effect on attitudes towards voice assistants"
+  authors: ["Sung, B.", "Im, H.", "Duong, V. C."]
+  authors_full: ["Billy Sung", "Hyunjoo Im", "Van Chien Duong"]
+  year: 2023
+  journal: "International Journal of Consumer Studies"
+  volume: "47"
+  issue: "5"
+  pages: "1772-1790"
+  online: "2023-05-04"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Billy Sung"
+      affiliation: "Consumer Research Lab, School of Management and Marketing, Curtin University, Perth, Australia"
+      orcid: "0000-0003-0028-6574"
+    - name: "Hyunjoo Im"
+      affiliation: "Retail Merchandising, College of Design, University of Minnesota – Twin Cities, Minneapolis, Minnesota, USA"
+      orcid: ""
+    - name: "Van Chien Duong"
+      affiliation: "Consumer Research Lab, School of Management and Marketing, Curtin University, Perth, Australia"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Three experiments: 123 Australian device owners from a consumer panel (within-subjects), 116 Prolific workers (power x task mixed design) and 61 Australians on Prolific (between-subjects, 63 recruited); the task-selection pretest with 54 MTurk workers not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Billy Sung of Curtin University in Perth,
+      Hyunjoo Im of the University of Minnesota, Twin Cities, and
+      Van Chien Duong, also of Curtin University,
+      asked whether the type of job people give a voice assistant shapes their opinion of it. Assistants such
+      as Siri, Alexa and Google Assistant field two broad kinds of request. Some are practical: a calculation, a timer,
+      switching on the lights. Others are social: a joke, a game, a question about the assistant itself, or a remark about
+      how the user feels.
+
+      The team drew on a well-known model of interpersonal judgement, which rates others on two lines: warmth (friendly,
+      well-meaning) and competence (able, efficient). Earlier work suggests people apply the same social rules to
+      machines. The question was which line people use for an assistant, and whether that depends on the task.
+
+      A pretest with 54 online workers sorted 26 everyday requests and picked the five most clearly practical and the five
+      most clearly social. In each experiment, participants read the spoken command as text and then listened to a
+      recording of Google Assistant's real reply. Everyone heard the same replies.
+    facts:
+      - ["Participants", "300 adults in three experiments: 123 Australians who own a device with a voice assistant, from a consumer panel, then 116 Prolific workers and 61 Australians on Prolific"]
+      - ["Assistant", "Google Assistant, chosen for its wide use"]
+      - ["Requests", "Five practical, such as converting inches to centimetres, and five social, such as 'How old are you?'"]
+      - ["Measured", "Liking for the assistant on a nine-point bad-to-good scale, plus competence, warmth, trust and how natural it sounded"]
+      - ["Designs", "Everyone rated all ten exchanges in the first two experiments; in the third, each person heard only one type"]
+
+  - h: "How the ten requests ranked"
+    body: |
+      In the first experiment, every practical request was rated above every social one. The two types differed by a
+      large amount by the usual yardstick (Cohen's d of 1.79), and the result did not rest on a single standout task.
+
+      Within each group the picture was less even. Among practical requests, the multiplication came top and switching on
+      the lights came last, a significant difference. The five social requests showed no significant differences among
+      themselves once the authors corrected for running several comparisons. Even so, the weakest practical reply was
+      rated significantly higher than the weakest social one, and the best practical reply significantly higher than the best social one, a round of
+      animal trivia.
+
+      That trivia game sat closest to the practical group. For the authors, this suggests that tasks lie on a scale rather
+      than splitting into two separate groups: a quiz has a clear job to do as well as a playful side.
+    chart: tasks
+
+  - h: "Why practical requests did better"
+    body: |
+      Practical replies made the assistant seem far more capable, an effect about as large as the one on liking itself.
+      They also made it seem somewhat more trustworthy, a small to medium effect (d of 0.58). Warmth did not differ
+      significantly between practical and social replies, and neither did how natural the assistant sounded.
+
+      A mediation analysis traced the liking advantage through these perceptions. Competence carried the largest share.
+      Trust carried a smaller, separate share. The expected chain from competence to trust to liking did not appear:
+      seeing the assistant as capable did not make people trust it more. Warmth explained nothing, and part of the advantage
+      stayed unexplained by any of the three.
+
+      The authors conclude that people still treat voice assistants as tools for getting things done rather than as
+      companions. Between people, warmth tends to weigh more heavily than competence; with this assistant, competence did.
+
+  - h: "Ruling out a feeling of control"
+    body: |
+      Perhaps practical requests simply make users feel in charge, and feeling in charge is pleasant. The second experiment
+      tested that idea. Before listening, one group of participants recalled a time they had power over someone; the other
+      group recalled a time someone had power over them. The recall task worked, as the first group reported feeling more
+      powerful.
+
+      The power manipulation left liking for the assistant unchanged, both on its own and in combination with the type of
+      task. Practical requests came out ahead by a similar margin, the assistant sounded equally natural in both kinds of exchange,
+      and perceived competence once more accounted for the advantage.
+
+  - h: "Ease of use decides whether capability shows"
+    body: |
+      The third experiment gave each of 61 Australians either the five practical or the five social exchanges, and added
+      a measure of how easy the assistant seemed to use. The analysis controlled for age and gender.
+
+      The route from practical tasks through competence to liking held for people who rated ease of use in the middle or
+      upper part of the range. For those at the low end it was not significant: when the assistant felt awkward, a correct
+      answer did not register as extra capability. The chart shows how the competence advantage grew with ease of use.
+    chart: ease
+
+  - h: "The authors' recommendations"
+    body: |
+      They write for the firms that design assistants and the marketers who promote them. Make competence the
+      priority. Recent efforts to give assistants emotional expressions, human-like looks or gestures may do less for user
+      attitudes than hoped. Widen the range of useful skills instead, such as support for people with disabilities,
+      medication reminders for older users and expert-checked health information.
+
+      They also want assistants to work smoothly across devices, platforms and apps, to be designed voice-first with screens
+      added afterwards, and to cope better with vague or badly phrased requests. Better understanding, they argue, would
+      raise competence and trust together.
+
+      For brands building their own voice apps or voice-enabled customer service, our inference is that the same priority
+      applies: a skill that reliably finishes a job is likely to do more for the brand than a charming personality.
+      Branded assistants were outside the paper's scope.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your customers' requests", "List the 20 questions customers ask your brand most often, from call logs, chat transcripts or email. Label each one practical, like tracking an order, or social, like small talk."]
+  - ["Pick three jobs to launch with", "Choose three practical jobs your voice app or assistant can finish in a single reply. Leave jokes, games and personality lines for a later version."]
+  - ["Lead every answer with the result", "Start each reply with the answer itself: the number, the time, the order status. Read every reply aloud and cut any that runs past ten seconds."]
+  - ["Give emotional requests a way out", "For messages about health, worry or a complaint, skip the cheerful scripted line. Write a short, kind reply that offers a person to talk to, a phone number or a link."]
+  - ["Test ease of use with new users", "Ask ten people who have never used your voice app to finish three jobs without help. Have each rate how easy it felt from 1 to 9, and fix anything scored below 6 before launch."]
+  - ["Count finished jobs every month", "Track the share of requests that end with the job done. Read 50 failed requests each month, fix the most common cause, and add a new skill only when the current ones work."]
+
+expect:
+  - "**Capability drives the rating.** Expect people to judge a voice service mainly on whether it completes what they ask. Perceived competence explained the advantage, at least in part, in all three tests."
+  - "**Limited return from personality.** Scripted humour and affection left the assistant's perceived warmth unchanged, so on our reading such lines are worth adding only once the practical jobs work."
+  - "**Trust follows the task.** Practical exchanges also raised trust in the assistant, which added a little to liking by its own path, apart from competence."
+  - "**Experience matters little.** Almost half of the first sample (48%) had never used Google Assistant, and past use was not a significant factor."
+
+limits:
+  - "**Recorded exchanges.** Participants read each command and heard a recorded reply. Nobody spoke to the assistant or used it at home."
+  - "**One assistant, ten requests.** Only Google Assistant was tested, with five requests of each type. Other assistants differ in voice and skills, and a wider set of tasks could change the ranking."
+  - "**A simple split.** Some requests, such as a trivia game, mix play with a clear job, so sorting tasks into practical or social may hide part of the picture, as the authors note."
+  - "**One rating of liking.** Attitude was a single bad-to-good item. The tests recorded no use, loyalty or purchases."
+  - "**Small third sample.** The ease-of-use test rested on 61 people split across two conditions."
+  - "**Assistants have changed.** Assistants built on large language models can hold more open conversations; whether the pattern holds for them is untested, an inference of ours."
+
+faq:
+  - q: "Are voice assistants better liked for practical jobs or for conversation?"
+    a: "For practical tasks. In three experiments, people liked Google Assistant more after hearing it handle functional requests than social ones, mainly because the practical replies made it seem more competent (Sung et al., 2023)."
+  - q: "Does a warm personality make a voice assistant more likeable?"
+    a: "Not in these experiments. Playful or affectionate replies did not make the assistant seem significantly warmer than practical ones, and warmth played no part in how favourably people rated it. The authors doubt that emotional expressions and human-like touches improve attitudes as much as designers expect."
+  - q: "What makes users trust a voice assistant?"
+    a: "In these tests, the kind of task. People found the assistant more trustworthy after practical exchanges, and that trust lifted their opinion of it. Unlike in judgements of other people, neither perceived competence nor warmth fed into trust."
+  - q: "Why does ease of use matter for voice assistants?"
+    a: "It decides whether good answers count. People who found the assistant easy to use saw it as more capable after practical requests and liked it more as a result. Among those who found it awkward, practical replies brought no extra credit for competence."
+  - q: "What counts as a functional or a social task for a voice assistant?"
+    a: "Functional tasks have a clear job and answer, such as finding synonyms, setting a timer or switching on lights. Social tasks meet a need for company or play, such as asking the assistant its age, whether it loves you, or telling it you feel sick."
+
+also:
+  - doi: "10.1057/s41262-023-00321-0"
+    title: "Engaging with intelligent voice assistants for wellbeing and brand attachment"
+    authors: "Prentice, Loureiro, & Guerreiro"
+    journal: "Journal of Brand Management"
+    year: 2023
+    text: >-
+      Why do people engage with voice assistants like Siri, Alexa or Google Home, and what do they get from it? A study of
+      US owners linked feelings of autonomy, competence and connection with others to heavier use of and involvement with
+      the device. That engagement went with greater wellbeing, which in turn connected to stronger attachment to the
+      assistant's brand. Helping users feel better off may be one route to loyalty for the brand behind the device.
+  - doi: "10.1002/cb.2165"
+    title: "A cross-cultural study on online reviews and decision making: An eye-tracking approach"
+    authors: "Moriuchi & Moriyoshi"
+    journal: "Journal of Consumer Behaviour"
+    year: 2024
+    text: >-
+      Eye tracking and a survey compared how American and Japanese participants read restaurant reviews. Food photos weighed
+      more with the Japanese group. Americans concentrated on positive ratings and looked at the shape of the star-rating
+      distribution seven to eight times longer, while the Japanese participants focused on the most extreme ratings,
+      both low and high. A review page that serves several countries may need a different layout for each audience.
+
+charts:
+  tasks:
+    title: "Liking for Google Assistant after each request, practical tasks highlighted (1 to 9 scale)"
+    scale: [1, 9]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Multiply 2347 by 1352", 7.91, true]
+      - ["Convert 5.2 inches to centimetres", 7.57, true]
+      - ["Find synonyms of 'diligent'", 7.52, true]
+      - ["Set a one-minute timer", 7.52, true]
+      - ["Turn on the lights", 6.78, true]
+      - ["Play animal trivia", 6.61, false]
+      - ["Self-destruct", 6.35, false]
+      - ["How old are you?", 6.26, false]
+      - ["Do you love me?", 5.39, false]
+      - ["I feel sick", 5.30, false]
+    source: "Study 1, 123 device owners in Australia, each rating all ten recorded exchanges in random order; values from the paper's Figure 3."
+  ease:
+    title: "Extra competence credited to practical over social replies, by ease-of-use rating (points on a 1 to 9 scale)"
+    scale: [0, 3]
+    step: 0.5
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Ease of use 5 of 9 (not significant)", 0.44, false]
+      - ["Ease of use 6 of 9", 1.04, true]
+      - ["Ease of use 7 of 9", 1.64, true]
+      - ["Ease of use 8 of 9", 2.24, true]
+      - ["Ease of use 9 of 9", 2.84, true]
+    source: "Study 3, 61 Australian adults, each hearing one type of request; Johnson-Neyman estimates from the paper's Appendix C, controlling for age and gender. The difference is significant from an ease-of-use rating of 5.87."
+
+related_pages: []
