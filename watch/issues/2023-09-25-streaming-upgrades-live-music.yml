@@ -1,0 +1,282 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 39                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-09-25"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: streaming-upgrades-live-music
+status: live
+
+title: "Do premium streaming subscriptions help sell concert tickets? What a Journal of Interactive Marketing study found"
+dek: >-
+  Live events bring in most of the music industry's money, so a listener's streaming plan matters beyond its monthly fee.
+  A three-year panel of German adults links the move to a paid plan with a bigger budget for concerts, and cancelling with
+  a smaller one.
+short_title: "Paid streaming and the concert budget"
+
+description: >-
+  Seifert et al. find German adults who moved to paid music streaming would pay more for live music, and those who
+  cancelled went to fewer concerts.
+
+keywords: [music streaming, freemium business model, free tier, premium subscription conversion, subscription upgrades,
+  customer churn, live music demand, concert ticket sales, demand spillovers, willingness to pay, propensity score matching,
+  Journal of Interactive Marketing]
+topics: [Service, Retail]
+
+image:
+  file: 2023-streaming-upgrades-live-music.jpg
+  og: 2023-streaming-upgrades-live-music-og.jpg
+  alt: "A woman with short red-tinted hair, dark over-ear headphones and cat-eye sunglasses in amber evening light, blurred straw beach umbrellas and palm trees behind her"
+  caption: "What a listener pays to stream can shape what they will pay to hear on stage. Photo: Chidera Faustina Okeke on Unsplash."
+
+short_answer: >-
+  Partly. In a German panel followed over three years, adults who moved to Spotify Premium said they would pay €27.5 to
+  €28.2 more a year for live music in the next six months than similar people who kept their plan. People who cancelled
+  or dropped to the free plan went to 1.7 fewer events over the same months. Joining the free plan brought no clear gain,
+  and album buying did not change.
+
+takeaways:
+  - "Losing a subscriber mattered more than gaining one: within six months of the switch, cancelling or downgrading cut the yearly amount people would pay for live music by €32.9, while joining or upgrading added €16.6."
+  - "Six to twelve months after going from no streaming straight to Premium, people still said they would pay €31.9 a year more for concerts and festivals than similar non-switchers."
+  - "Asked what they would do if the free plan disappeared, 36% of 1,093 free users said they would pay for Premium and 64% said they would stop using the service."
+  - "In the authors' revenue scenario, removing the free plan would add €18.5 a year per user, against €9.7 for cutting its features. Cutting features only comes out ahead if at least 32.7% of free users upgrade."
+
+paper:
+  doi: "10.1177/10949968231186950"
+  title: "Conversion in Music Streaming Services"
+  authors: ["Seifert, R.", "Denk, J.", "Clement, M.", "Kandziora, M.", "Meyn, J."]
+  authors_full: ["Rouven Seifert", "Janis Denk", "Michel Clement", "Michael Kandziora", "Janek Meyn"]
+  year: 2024
+  journal: "Journal of Interactive Marketing"
+  volume: "59"
+  issue: "2"
+  pages: "201-219"
+  online: "2023-09-25"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author notes on the SAGE page; ORCID iD linked there)
+    - name: "Rouven Seifert"
+      affiliation: "Marketing & Media, University of Hamburg, Germany"
+      orcid: ""
+    - name: "Janis Denk"
+      affiliation: "Marketing & Media, University of Hamburg, Germany"
+      orcid: ""
+    - name: "Michel Clement"
+      affiliation: "Marketing & Media, University of Hamburg, Germany"
+      orcid: "0000-0001-6769-6709"
+    - name: "Michael Kandziora"
+      affiliation: "Marketing & Media, University of Hamburg, Germany"
+      orcid: ""
+    - name: "Janek Meyn"
+      affiliation: "Marketing & Innovation, Kühne Logistics University, Germany"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One six-wave online panel of German adults (11,744 observations) analysed with propensity score matching, plus a revenue scenario fed by a separate survey of 1,093 free streamers; the paper presents both as parts of one study, not as Study 1 and Study 2"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Rouven Seifert,
+      Janis Denk,
+      Michel Clement and
+      Michael Kandziora of the University of Hamburg, with
+      Janek Meyn of Kühne Logistics University,
+      measured how a change of streaming plan affects the rest of a fan's music spending. The question
+      matters to labels and artists because recorded music brings in only 28% of the industry's revenue. Live events
+      account for the other 72%, and for most artists they are the main source of income.
+
+      The team followed a panel of German adults aged 18 to 70, recruited by a market research firm with quotas for age,
+      gender, education, employment and children so that it mirrored the country. The online survey ran every six months,
+      six times starting in the winter of 2018 into 2019, and yielded 11,744 observations. Each time, people reported their
+      Spotify plan (none, free or Premium), how much they would pay in a year for concerts, festivals and club gigs, how
+      many live events they attended, and how many albums they bought on disc or as downloads.
+
+      A plan can change in six ways: from no streaming to free or to Premium, from free to Premium, and back down the
+      same steps. Switchers are not a random slice of the panel. For fair comparisons, the authors used
+      propensity score matching: each switcher was compared with non-switchers who resembled them on age, gender, income,
+      education, children, listening hours, interest in music, other music subscriptions, season and the COVID-19
+      period, among other traits. The comparison covered the first six months after a switch and the six months that followed.
+    facts:
+      - ["Panel", "Adults in Germany, 18 to 70, surveyed online every six months, 11,744 observations over six waves"]
+      - ["Service", "Spotify, in three states: no use, the free plan with ads, or Premium"]
+      - ["Plan changes", "Three ways up (joining or upgrading) and three ways down (cancelling or downgrading)"]
+      - ["Measured", "Yearly willingness to pay for live music, live events attended, willingness to pay per album, albums bought per month"]
+      - ["Method", "Propensity score matching against look-alike non-switchers, with 1,000 bootstrap samples for the error estimates"]
+      - ["Revenue scenario", "A separate survey of free users, run in April and May 2020, on their likely response to a restricted or removed free plan"]
+
+  - h: "What the panel looked like before matching"
+    body: |
+      Most of the panel did not stream at all: 77.0% of the observations came from non-users, 11.1% from free users and
+      11.7% from Premium subscribers. The average attendance was 2.8 live events a year. The average age was 47.9,
+      against 41.5 for free users and 36.9 for Premium subscribers.
+
+      Before any matching, Premium subscribers stood out. In the first wave their stated live-music budget was €164 a
+      year, against €131 for free users and €107 for non-streamers, and they went to 5.0 concerts a year against 3.4 and 2.6.
+      The same order held in all six waves. A raw difference like this could simply reflect who chooses Premium, which is
+      why the matched comparison is the main evidence.
+
+  - h: "Moving to Premium"
+    body: |
+      After matching, the move to Premium brought the clearest gains in willingness to pay, shown in the chart below.
+      Among people who upgraded from the free plan, the gain had shrunk to €18.4 by the following half-year and was no
+      longer significant. People who came from no streaming at all kept theirs.
+
+      Attendance moved less. Going from no streaming to Premium added 0.75 live events in the first six months, but the
+      result met only the lenient 10% threshold for significance rather than the conventional 5%. Across every kind of
+      join or upgrade taken together, the number of events attended did not change.
+
+      Joining the free plan did nothing measurable for willingness to pay, and six to twelve months later it was followed
+      by 0.41 fewer live events, again at the 10% level. In the authors' judgement, the free plan does little for
+      the live business.
+
+      Their explanation draws on consumption capital theory: each listen adds to a stock of familiarity with an artist and
+      attachment to the music, which raises the value of hearing it again, live included. A subscription, above all a paid one, unlocks a large
+      library, discovery tools and playlists built from past listening, so that stock grows faster. They also expect the
+      appeal of new features to wear off with use. The panel did not measure these steps directly.
+    chart: upgrades
+
+  - h: "Cancelling and downgrading"
+    body: |
+      Leaving had the larger effects. The fall in willingness to pay after a cancellation or a move from Premium to free
+      was still €32.2 a year in the second half-year. The drop in attendance faded to a non-significant 0.88 events by
+      then, although people who cancelled Premium outright went to 2.23 fewer events six to twelve months on, at the 10%
+      level.
+
+      The downward comparisons rested on far fewer observations: 1,295 at the first point, against 9,046 for upward
+      switches. None of the three downward routes reached significance by itself during the first half-year, and the
+      Premium-to-free route had too few cases to estimate for the later period.
+
+      The authors looked for people moving from Spotify to a rival service after leaving and found little of it. On
+      their account, when listening stops, attachment fades through time and forgetting, and
+      interest in live shows declines with it.
+
+  - h: "Albums and downloads stayed flat"
+    body: |
+      No change of plan, up or down, altered how many physical or digital albums people bought. What people would spend
+      on an album rose by €1.77 across all joins and upgrades in the half-year after the change, at the 10%
+      level, and was back to €0.06 six months later.
+
+      The authors suggest that album buyers and streamers form separate groups with distinct preferences, while live
+      music complements what a streaming plan offers.
+
+  - h: "Restrict the free plan or remove it?"
+    body: |
+      The second part of the paper asks what a streaming service could gain from changing its free tier. Drawing on
+      Spotify's annual report, the authors valued an average free user at €4.43 a year in advertising and a Premium user
+      at €49.08 a year in fees. In the extra survey, 18% of free users expected to upgrade if the free plan lost
+      features and 20% expected to stop using the service.
+
+      Combining these rates with the matching estimates gives the revenue effects in the chart. Removal wins mainly
+      through the streaming service's own revenue as free users move to Premium, and live music adds a smaller share; album revenue does not change. Scaled to the German
+      market, that comes to about €169.2 million a year for removal against €88.3 million for restriction, assuming
+      pre-pandemic listening and no competing offers.
+
+      The authors then varied their assumptions. If the free users who leave are heavy users worth €8.86 a year in ads,
+      twice the average, removal yields €15.67 per user and restriction €8.77. Removal stays profitable as long as more
+      than 7.0% of free users upgrade. Restriction stays profitable while those who quit number fewer than 13.4 times
+      those who upgrade: with 75% quitting, more than 5.6% must upgrade.
+    chart: scenario
+
+  - h: "The authors' advice"
+    body: |
+      Labels and artists could build playlists around specific events, such as a festival lineup, and use them in
+      campaigns as free samples. Streaming services could link to ticket sellers or sell tickets inside the app, as
+      Spotify has started to do, and could give their users priority access to tickets.
+
+      The authors argue that services such as Spotify and Amazon Music should consider dropping the free version, while
+      keeping a close eye on how many free users upgrade, since that share decides profitability. They caution that
+      restricting or removing a free plan can seem unfair and harm attitudes toward the brand, so the change needs
+      marketing support.
+
+      They also suggest the same logic could apply to other subscription businesses with more than one sales channel,
+      such as video streaming, audiobooks, live sport or software. That extension is their proposal and lies outside
+      the data.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Put a value on each kind of user", "Add up the yearly advertising income from one average free user. Next to it, write the yearly fee income from one paying member. Keep both numbers on one page, because the next steps use them."]
+  - ["Ask free users before changing anything", "Survey at least 500 free users with two questions. If the free plan had fewer features, what would you do? And if it ended? Offer three answers: pay, stay free, or leave."]
+  - ["Work out which change pays more", "For ending the free plan, multiply the share who would pay by the yearly fee, then take away one free user's yearly ad income. For cutting features, do the same multiplication, then take away the ad income of everyone who would pay or leave. Test the option with the bigger number."]
+  - ["Tie the paid plan to live events", "Give paying members a head start on tickets, for example 48 hours before general sale. Add a ticket link to every artist page that has a show within 100 km of the user."]
+  - ["Build a playlist for each event", "Four weeks before a festival or tour date, publish a playlist of the acts on the bill. Share it in ads, emails and ticket confirmations, and update it every week until the show."]
+  - ["Trial the change in one market", "Make the free-plan change in one region, or for one in ten new sign-ups, for three months. Compare upgrades, cancellations and ticket sales with everyone else. Contact each person who cancels within 14 days with an offer linked to an upcoming show."]
+
+expect:
+  - "**A modest lift per fan.** Set against an average stated live-music budget of €116.9 a year, the gains after a move to Premium are noticeable but not large, so they matter most when added up across many fans."
+  - "**Some gains fade.** For free users who upgraded, the extra live-music budget was no longer significant after six months, so one upgrade campaign may not be enough."
+  - "**Cancellations reach beyond the fee.** Because a cancellation also lowered interest in live shows, retention offers may carry extra value for artists and promoters. That is our inference, beyond what the study examined."
+  - "**The ranking held under other assumptions.** Removing the free plan stayed ahead of restricting it when the live and album effects were set a quarter higher or a quarter lower."
+
+limits:
+  - "**Self-reported.** Plans, spending intentions and attendance came from online surveys, not from platform or ticketing records."
+  - "**One service, one country.** Only Spotify use in Germany was tracked; other services and markets may differ."
+  - "**Matching on what was measured.** The comparison balances observed traits only. A private event, such as seeing an artist on television, could drive both a plan change and concert plans, and the data held no instrument to rule this out."
+  - "**Stated switching for the scenario.** The upgrade and quit rates came from a survey run in the first months of COVID-19, and real rates depend on price and features. The scenario counts revenue only, over the short term, without network effects."
+  - "**Some results are tentative.** Several effects pass only the lenient 10% test, while downgrades from Premium to free were too rare to measure in the later months."
+
+faq:
+  - q: "Does music streaming help sell concert tickets?"
+    a: "It can, when people pay for it. In a three-year German panel, moving to a Premium plan raised people's stated live-music spending compared with similar non-switchers, cancelling lowered it, and a free plan showed no clear benefit (Seifert et al., 2024)."
+  - q: "Is a free streaming tier good for artists?"
+    a: "For their live income, it seems to add little. Moving from no streaming to the free plan left people's stated concert budget without any significant change and was followed by slightly lower attendance later on. The benefit came with paid plans."
+  - q: "Should a freemium service drop its free plan?"
+    a: "In the study's revenue model, dropping the free plan beat restricting it, because a large enough share of free users stated an intention to upgrade. That rests on intentions, and the share of free users who actually upgrade decides whether either move pays off."
+  - q: "Does streaming reduce album sales?"
+    a: "Not in this panel. Changing streaming plans left people's album purchases, physical or digital, unchanged, which suggests the two serve different listeners."
+  - q: "What does willingness to pay mean here?"
+    a: "The most a person says they would spend in a year on live music, counting concerts, festivals and club shows together. It is a stated amount, not a record of tickets bought."
+
+also:
+  - doi: "10.1002/cb.2239"
+    title: "Understanding users' switching intention of cloud storage services: A push-pull-mooring framework"
+    authors: "Mohd-Any, Sarker, & Hui"
+    journal: "Journal of Consumer Behaviour"
+    year: 2024
+    text: >-
+      Why do people move their files from one cloud storage provider to another? A survey of 326 users, built on a
+      push-pull-mooring model taken from research on human migration, found that satisfaction with the current service
+      lowered the intention to switch, while attractive alternatives raised it. Switching costs, habit and past experience
+      of switching each changed how strongly those two forces worked. Holding on to subscribers means tracking what rivals
+      offer, not only your own satisfaction scores.
+  - doi: "10.1007/s12525-023-00656-1"
+    title: "The effects of targeted political advertising on user privacy concerns and digital product acceptance: A preference-based approach"
+    authors: "Baum, Abramova, Meißner, & Krasnova"
+    journal: "Electronic Markets"
+    year: 2023
+    text: >-
+      Many apps are funded by targeted ads, and political targeting has drawn public criticism. Users in this study
+      reported about as much privacy concern over data used for political ads as over data used for product ads. In a
+      discrete choice experiment on adopting a mobile app, political targeting was somewhat less desirable, yet the odds
+      of choosing an app showed no significant difference between the two uses of data. An app's privacy notice should
+      explain political targeting as plainly as product targeting, since users weigh the two in similar ways.
+
+charts:
+  upgrades:
+    title: "Extra yearly amount people would pay for live music, first six months after joining or upgrading (€)"
+    scale: [0, 30]
+    step: 10
+    unit: "€"
+    decimals: 2
+    bars:
+      - ["No streaming to Premium", 28.18, true]
+      - ["Free plan to Premium", 27.50, true]
+      - ["No streaming to free plan", 10.01, false]
+      - ["All joins and upgrades", 16.59, false]
+    source: "Propensity score matching, difference from matched non-switchers (Table 3). The move from no streaming to the free plan was not significant."
+  scenario:
+    title: "Extra yearly revenue per user, by option (€)"
+    scale: [0, 20]
+    step: 5
+    unit: "€"
+    decimals: 2
+    bars:
+      - ["Restrict features: total", 9.65, false]
+      - ["Remove free plan: total", 18.51, true]
+      - ["Restrict: streaming service", 7.03, false]
+      - ["Remove: streaming service", 13.19, false]
+      - ["Restrict: live music", 2.62, false]
+      - ["Remove: live music", 5.32, false]
+    source: "Revenue scenario with average spillover effects (Table 4), combining the matching estimates with the extra survey's stated switching rates. Album revenue was unchanged under both options."
+
+related_pages: []
