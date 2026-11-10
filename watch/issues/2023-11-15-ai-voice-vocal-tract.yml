@@ -1,0 +1,235 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 44                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-11-15"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: ai-voice-vocal-tract
+status: live
+
+title: "Should an AI voiceover be tuned to match the product? What a Journal of Interactive Marketing study found"
+dek: >-
+  Text-to-speech tools can make one synthetic voice seem bigger or smaller by changing a single setting. Three online
+  experiments and a YouTube field test show that this setting shapes which products the voice seems made for, and how
+  often viewers click on the ad.
+short_title: "Tuning an AI voice to the product"
+
+description: >-
+  Efthymiou et al. find a 20% longer digital vocal tract made an AI voice seem bigger and lifted a beef burger ad's
+  YouTube click-through to 2.72% from 1.79%.
+
+keywords: [AI-generated voices, synthetic voiceover, text-to-speech advertising, voice marketing, vocal tract length,
+  voice and product fit, sound symbolism, Amazon Polly SSML, YouTube video ads, click-through rate, conversational agents,
+  Journal of Interactive Marketing]
+topics: [AI, Advertising, Creative]
+
+image:
+  file: 2023-ai-voice-vocal-tract.jpg
+  og: 2023-ai-voice-vocal-tract-og.jpg
+  alt: "A satin-silver large-diaphragm microphone stands in its cradle mount before a recording desk, the desk's controls blurred into blue and white points of light"
+  caption: "The same voice, set a little longer or shorter, can seem made for a different product. Photo: Jacek Dylag on Unsplash."
+
+short_answer: >-
+  For some products, yes. Lengthening the digital vocal tract of a synthetic voice by 20% made listeners picture a bigger,
+  more masculine speaker, and they paired that voice more often with stereotypically masculine foods and cars. In a
+  three-day YouTube test, 2.72% of viewers clicked a beef burger ad voiced this way, compared with 1.79% when the
+  tract was 20% shorter. With a vegan burger, the shorter voice led only slightly, and not reliably.
+
+takeaways:
+  - "A voice with a 20% shorter digital vocal tract was pictured as a smaller speaker: 8.60 on a 14-point height scale, against 10.98 for the default voice."
+  - "A 20% lower pitch or 4 dB more volume left the speaker's imagined weight close to the default (6.08 and 6.09, against 5.67). The longer vocal tract raised it to 9.78."
+  - "With a voice that fitted the product, 1,000 ad impressions cost 28.17% less for the beef burger (€0.71 down to €0.51) and 6.45% less for the vegan burger (€0.62 down to €0.58)."
+  - "In the vegan burger ads, the shorter voice drew 2.18% click-through against 2.03% for the longer one, a margin the statistical test did not confirm."
+
+paper:
+  doi: "10.1177/10949968231194905"
+  title: "The Power of AI-Generated Voices: How Digital Vocal Tract Length Shapes Product Congruency and Ad Performance"
+  authors: ["Efthymiou, F.", "Hildebrand, C.", "de Bellis, E.", "Hampton, W. H."]
+  authors_full: ["Fotis Efthymiou", "Christian Hildebrand", "Emanuel de Bellis", "William H. Hampton"]
+  year: 2024
+  journal: "Journal of Interactive Marketing"
+  volume: "59"
+  issue: "2"
+  pages: "117-134"
+  online: "2023-11-15"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (author notes on the SAGE page; ORCID iDs linked there)
+    - name: "Fotis Efthymiou"
+      affiliation: "Institute of Behavioral Science and Technology, University of St. Gallen, Switzerland"
+      orcid: "0000-0003-2308-5062"
+    - name: "Christian Hildebrand"
+      affiliation: "Institute of Behavioral Science and Technology, University of St. Gallen, Switzerland"
+      orcid: ""
+    - name: "Emanuel de Bellis"
+      affiliation: "Institute of Behavioral Science and Technology, University of St. Gallen, Switzerland"
+      orcid: ""
+    - name: "William H. Hampton"
+      affiliation: "TikTok, United States"
+      orcid: "0000-0002-2411-4294"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 4
+    basis: "Four studies: three online experiments (280 and 366 Amazon Mechanical Turk workers, 574 Prolific participants) and a three-day YouTube field experiment with 35,430 viewers; the car pretest in Study 3 is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Fotis Efthymiou, Christian Hildebrand and Emanuel de Bellis, all at the Swiss University of St. Gallen, together
+      with William H. Hampton of TikTok in the United States, asked whether a brand can design the voice of its AI assistant
+      or voiceover to suit what it is selling. Matching a human voice actor to every product takes time and money. A
+      synthetic voice can be adjusted in software.
+
+      They worked on one feature, vocal tract length: the distance from the vocal folds to the lips. In people it grows with
+      body size, and a longer tract lowers the resonant frequencies that give a voice its timbre, so listeners infer a larger
+      speaker. Speech software can imitate this. The team took a single male voice from Amazon Polly and made its digital
+      tract 10% or 20% longer or shorter, leaving pitch, speed and volume as they were.
+
+      Three online experiments asked listeners to picture the speaker and to pair the voice with products. A fourth study
+      ran real video ads on YouTube.
+    facts:
+      - ["Participants", "280 and 366 Amazon Mechanical Turk workers and 574 Prolific panellists, counted after attention-check exclusions"]
+      - ["Field test", "35,430 English-speaking YouTube viewers reached by four 18-second skippable ads over three days"]
+      - ["What changed", "Digital vocal tract length of one male text-to-speech voice, by 10% or 20% either way; one experiment also lowered pitch or raised volume"]
+      - ["Measured", "How tall, heavy and masculine the speaker seemed, and which option in six product pairs suited the voice"]
+      - ["Checks", "A hardware check that each participant could play audio, plus an attention check"]
+
+  - h: "A longer tract, a bigger imagined speaker"
+    body: |
+      In the first experiment, participants heard five random sentences read by one of five versions of the voice and
+      placed the speaker on picture scales for height and weight. The 20% longer voice was rated taller than the default,
+      11.98 against 10.98, and both lengthened versions were judged heavier. The voice shortened by 10% came out at 9.45 for
+      height. Men and women in the sample responded alike.
+
+      Height did more than set an image. A speaker who seemed taller also seemed more masculine, and that path from size to
+      masculinity is what the later studies build on. Pitch sat at about 100 Hz in every version, differing by under 0.5
+      Hz, so the shift came from timbre rather than from a deeper voice in the everyday sense.
+
+  - h: "Matching the voice to food"
+    body: |
+      The second experiment kept three versions of the voice: 20% shorter, default and 20% longer. After listening, people
+      saw six pairs of foods. Each pair set an option widely seen as masculine, such as a beef burger or nachos with cheddar,
+      against one seen as feminine, such as a vegan burger or low-calorie yogurt. They picked the item that fitted the voice,
+      and each person's masculine picks were added up.
+
+      The longer voice was again pictured as heavier and the shorter one as less tall, repeating the first result. Food
+      choices followed. Statistical tests traced the effect along a chain: a longer tract made the speaker seem taller, a
+      taller speaker seemed more masculine, and a more masculine voice suited the masculine foods better.
+    chart: food
+
+  - h: "Not just lower pitch or more volume"
+    body: |
+      A sceptic could ask whether any change that makes a voice seem bigger would do. The third experiment, with cars in
+      place of food, tested this. Participants heard the default voice, the 20% longer tract, a pitch 20% lower, volume
+      raised by 4 dB (enough for listeners to notice), or the longer tract combined with either of the other two changes.
+
+      Only the tract change mattered. It made the voice seem taller and more masculine than the default (6.05 against 5.60,
+      where 7 is the most masculine), while lower pitch and extra volume did nothing measurable for height, weight or masculinity.
+      Adding them on top of the longer tract brought no further gain. The car pairs ran from the Fiat 500 and Smart EQ to the
+      BMW M3 and Chevrolet Camaro, chosen after a pretest of ten models seen as feminine and ten seen as masculine.
+    chart: cars
+
+  - h: "What happened on YouTube"
+    body: |
+      The field study put the voice into a real ad auction. The team made a video for an invented burger brand: a still
+      image of a burger with the AI voiceover, in versions identical except for the word "beef" or "vegan", each read by
+      either the 20% longer or the 20% shorter voice. The four campaigns ran side by side as skippable in-stream ads on
+      Google Ads, bought per impression. About half the viewers were between 18 and 34, and 65% were men.
+
+      For the beef burger, the bigger-seeming voice won clearly, and the difference held up statistically. The vegan burger
+      showed only a slight edge for the smaller-seeming voice. Matching the voice to the burger also lowered the cost
+      per 1,000 impressions for both products. Viewers who clicked reached a landing page that explained the study, so
+      clicks are the end point here: no sales were measured.
+
+  - h: "A toolbox for designed voices"
+    body: |
+      The authors argue against using one off-the-shelf voice for everything. Text-to-speech services such as Amazon Polly
+      let a firm set a voice profile for each product, which they see as faster, cheaper and more consistent than casting
+      human actors.
+
+      They also sketch how several settings could work along a customer journey, using a car sales assistant as the
+      example. Before purchase, match the voice's tract length to how big the car is. During purchase, slow the speech
+      and add pauses when explaining technical features. After purchase, use a soft, breathy delivery to make the exchange
+      feel more personal. Only the tract-length match was tested here; the other two are the authors' proposals for future work.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your products by the image they carry", "Write down every product you want to promote with a synthetic voice. Ask five customers or colleagues whether each one feels big and robust or small and light, and note the majority view."]
+  - ["Pick one base voice and lock it", "Choose a single text-to-speech voice for the brand. Keep the script, speed and pitch the same in every version, so any change you hear comes from one setting."]
+  - ["Make a longer and a shorter version", "In your text-to-speech tool, find the vocal tract or timbre setting. In SSML it is a vocal tract length tag. Export the script in two versions: one with the setting raised by about a fifth, one with it lowered by about a fifth."]
+  - ["Check the fit with 20 listeners", "Play both versions to 20 people alongside a photo of the product and ask which voice suits it. Build your main ad on the version most people choose, and keep the other as the test version."]
+  - ["Run both ads for at least three days", "Upload two video ads that differ only in the voice. Give them the same budget, audience and placement, and let them run side by side over the same period."]
+  - ["Compare clicks and cost, then repeat", "Check what share of viewers clicked each ad and what each 1,000 impressions cost. Keep the winner, and run the same test for each new product instead of reusing one voice for everything."]
+
+expect:
+  - "**Uneven gains.** The fit between voice and product paid off clearly for one burger and only a little for the other, so some products will respond more than others."
+  - "**Cheap versions.** A new voice version is one changed setting in the script, so testing several costs minutes rather than a new recording session."
+  - "**Short tests can show a result.** A few days of paid video was enough to reveal a reliable difference for one product, which keeps the price of learning low."
+  - "**The voice becomes part of the brief.** The authors expect brands to tune several voice features together, so plan the voice as carefully as the visuals."
+
+limits:
+  - "**One voice.** Every study varied one synthetic male voice. A female or gender-neutral base voice may behave differently."
+  - "**Built on stereotypes.** Products were chosen because people see them as masculine or feminine. Products without such an image were not tested, and leaning on gender stereotypes may not suit every brand (our view, not the authors')."
+  - "**One field category.** The YouTube test used burgers from an invented brand, shown to English-speaking viewers over a short run, and the vegan result was not reliable."
+  - "**Prompted matching.** In the online experiments, people were asked directly which product fitted the voice. Nobody asks that in everyday viewing, so the effect may be smaller there (an inference)."
+  - "**Clicks only.** Nobody bought anything; the click led to a page about the study."
+
+faq:
+  - q: "Does the sound of an AI voiceover change how an ad performs?"
+    a: "It can. On YouTube, an ad for a beef burger drew more clicks and cost less per 1,000 impressions when its synthetic voice had a longer digital vocal tract, which made the speaker seem bigger (Efthymiou et al., 2024). The shorter voice helped a vegan burger ad only slightly."
+  - q: "What is vocal tract length?"
+    a: "It is the length of the airway between the vocal folds and the lips. Larger bodies tend to have longer tracts, which lower the resonant frequencies of speech. The default voice in this research had a tract of about 16.07 cm, and speech markup can lengthen or shorten it digitally."
+  - q: "Is a longer vocal tract the same as a deeper voice?"
+    a: "No. Pitch is how high or low a voice is, while tract length changes its timbre. A pitch set 20% lower did not make listeners imagine a bigger speaker, but a longer tract did."
+  - q: "Which speech software can change vocal tract length?"
+    a: "The researchers used Amazon Polly, which offers a vocal tract length effect in its SSML markup. They note that other text-to-speech services can also be customised, but Polly is the only one they tested."
+  - q: "Should a brand use different AI voices for different products?"
+    a: "Yes, according to the authors, who warn against a single off-the-shelf voice. They suggest tuning one base voice differently for each product, which takes little time."
+
+also:
+  - doi: "10.1080/02650487.2023.2262328"
+    title: "Can you feel the advertisement tonight? The effect of ASMR cues in video advertising on purchase intention"
+    authors: "De Kerpel, Van Kerckhove, & Tessitore"
+    journal: "International Journal of Advertising"
+    year: 2024
+    text: >-
+      ASMR is the tingling some people feel in the head and spine when they watch or hear gentle everyday actions, such as
+      hair being brushed. A web-scraping study tied ASMR content to relaxation, and two experiments found that ASMR cues
+      placed in video ads raised purchase intentions. The lift ran through relaxation, which made viewing feel absorbing and
+      flow-like. Calm, tactile detail in a video may do some of the selling.
+  - doi: "10.1007/s11747-023-00983-x"
+    title: "Highlighting Discrepancies in Brand Messaging Increases Social Media Engagement"
+    authors: "Pezzuti"
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2025
+    text: >-
+      Across brand messages in 17 product categories, people interacted more when the wording pointed to a difference between
+      how things are and how they could be, through words such as could, should, wish, want and lacking. Experiments showed
+      why: language that points to a shortfall in the reader's own life makes a message seem more relevant. It worked best for
+      readers who felt they had little control over their lives. One word in a caption is worth an A/B test.
+
+charts:
+  food:
+    title: "Masculine foods matched to the voice, out of six pairs"
+    scale: [0, 6]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Voice 20% shorter", 2.23, false]
+      - ["Default voice", 2.92, false]
+      - ["Voice 20% longer", 3.99, true]
+    source: "Study 2, 366 online participants. Each person chose between a masculine and a feminine food in six pairs; the score counts the masculine picks."
+  cars:
+    title: "Masculine cars matched to the voice, out of six pairs"
+    scale: [0, 6]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Default voice", 4.06, false]
+      - ["Pitch 20% lower", 4.30, false]
+      - ["Volume up 4 dB", 4.43, false]
+      - ["Vocal tract 20% longer", 5.45, true]
+    source: "Study 3, 574 Prolific participants; the bars show the four versions with a single change, all made in Amazon Polly."
+
+related_pages: []
