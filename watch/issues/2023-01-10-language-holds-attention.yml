@@ -1,0 +1,296 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 2                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-01-10"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: language-holds-attention
+status: live
+
+title: "What kind of writing keeps people reading online content? What a Journal of Marketing study found"
+dek: >-
+  Most measures of engagement stop at the click. Scroll data from more than 35,000 articles and two experiments follow
+  readers down the page, showing which kinds of wording hold them and why an anxious tone kept them reading when a sad
+  one did not.
+short_title: "Which words keep people reading, and why"
+
+description: >-
+  Berger et al. find easy, concrete wording made readers up to 24.4% likelier to finish online articles, and anxious
+  wording held them while sad wording did not.
+
+keywords: [content engagement, holding attention, reading depth, scroll depth, content marketing writing, readability,
+  concrete language, emotional language in content, natural language processing, recommendation algorithms, Journal of Marketing]
+topics: [Creative, Personalization]
+
+image:
+  file: 2023-language-holds-attention.jpg
+  og: 2023-language-holds-attention-og.jpg
+  alt: "A person with headphones and a striped jacket sits by a train window, head bowed over a phone, green countryside blurred behind the glass and empty blue seats opposite"
+  caption: "Once a piece is open, the wording decides how far down the reader goes. Photo: Izzat Zulkarnain on Unsplash."
+
+short_answer: >-
+  Plain wording and the right kind of emotion. Across 649,129 reading sessions on nine news and lifestyle sites, readers
+  more often kept scrolling past paragraphs that were easy to read, simply built and full of familiar, concrete
+  words. The specific emotion mattered: anxious language held readers, while sad language made stopping more likely.
+  Two experiments traced this to how much uncertainty and arousal each emotion creates.
+
+takeaways:
+  - "Paragraphs one standard deviation easier to read, through shorter words and sentences, made readers 24.4% more likely to finish the article, the largest effect of any feature measured."
+  - "The same step up in anxious wording made finishing 14.0% more likely, while the same step in sad wording made it 10.8% less likely."
+  - "Changing a few words in a stock-market story from sad to anxious raised the proportion choosing to read on from 52% to 80%."
+  - "In a simulation of 10,000 users who leaned towards anxious content, a feed tuned to hold attention lifted engagement from 50% to 64% in ten rounds, and what it served became more anxiety-inducing."
+
+paper:
+  doi: "10.1177/00222429231152880"
+  title: "What Holds Attention? Linguistic Drivers of Engagement"
+  authors: ["Berger, J.", "Moe, W. W.", "Schweidel, D. A."]
+  authors_full: ["Jonah Berger", "Wendy W. Moe", "David A. Schweidel"]
+  year: 2023
+  journal: "Journal of Marketing"
+  volume: "87"
+  issue: "5"
+  pages: "793-809"
+  online: "2023-01-10"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (SAGE author notes and ORCID iD)
+    - name: "Jonah Berger"
+      affiliation: "Wharton School, University of Pennsylvania, USA"
+      orcid: ""
+    - name: "Wendy W. Moe"
+      affiliation: "Smith School of Business, University of Maryland, USA"
+      orcid: ""
+    - name: "David A. Schweidel"
+      affiliation: "Goizueta Business School, Emory University, USA"
+      orcid: "0000-0003-2665-3272"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Three studies: field data on 649,129 page-consumption events from 35,448 articles on nine sites (Study 1), an MTurk experiment with 278 people (Study 2) and a preregistered Prolific experiment with 248 people (Study 3); the stylized simulation of 10,000 users and the footnoted pilot not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Jonah Berger of Wharton at the University of Pennsylvania,
+      Wendy W. Moe of the University of Maryland's Smith School of Business and
+      David A. Schweidel of Emory University's Goizueta Business School
+      asked why some online articles keep people reading while others lose them after a few sentences.
+
+      Most work on engagement studies clicks, likes and shares. Berger and his colleagues focus on the step after the click:
+      once someone has opened a piece, does the wording keep them going? That has commercial weight. The further down a
+      story people read, the more advertising it can carry, and the more they learn about the product or issue it covers.
+
+      The team proposed two drivers. The first is processing ease: text that takes less mental effort should be easier to
+      keep reading. The second is emotion, though not every emotion alike. Emotions differ in uncertainty (anxiety and hope
+      leave people unsure what will happen, while anger and pride feel certain) and in arousal, a state of alert energy
+      (high for anxiety, anger and excitement, low for sadness and contentment). Emotions high on both should hold readers
+      best.
+    facts:
+      - ["Field data", "649,129 page reads across 35,448 articles from nine news, business, sports, technology, fashion and lifestyle sites, collected over two weeks"]
+      - ["Outcome", "Whether a reader scrolled on to the next paragraph, decided paragraph by paragraph"]
+      - ["Language scored", "Readability, sentence structure, familiar and concrete words, positive and negative emotion, and anger, anxiety and sadness"]
+      - ["Experiments", "278 participants on Amazon Mechanical Turk, then 248 on Prolific in a preregistered test"]
+      - ["Simulation", "10,000 simulated users served by two kinds of recommendation algorithm"]
+
+  - h: "Following readers paragraph by paragraph"
+    body: |
+      A content analytics company supplied a random sample of reading sessions from nine sites. The publishers stay
+      confidential, but the authors name outlets such as CNBC, the Wall Street Journal and the Minnesota Star Tribune to give
+      a sense of the mix. Every site used a fixed layout with no ads inside the text, so a paragraph sat at the same point on
+      the page whatever the screen.
+
+      Code on each site recorded how far down the page a reader scrolled. The team turned that into a yes or no after each
+      paragraph: did the reader move on to the next one? Only sessions with at least two interactions, such as a scroll or a
+      click, were kept, to leave out people who opened a page and left straight away.
+
+      Language tools then scored every paragraph: a standard readability formula based on word and sentence length, the
+      depth of each sentence's grammatical structure, ratings of how familiar and how concrete each word is, and
+      machine-learning measures of angry, anxious and sad wording. The models held constant the device, the site, the time
+      of day and day of the week, the topics of the headline and of the paragraph, the article's popularity, paragraph length
+      and how far the reader had already got.
+
+  - h: "Easier text kept people reading"
+    body: |
+      All four measures of ease pointed the same way. Paragraphs that were more readable, simpler in structure and made of
+      familiar or concrete words were followed by another paragraph more often.
+
+      One example from the data: a paragraph opening "It's the great retirement debate" scored high on familiar words, and
+      90% of readers continued past it. A paragraph about a Florida urology practice fearing federal scrutiny of an
+      expensive test scored low, and 81% continued.
+
+      The chart turns the field results into the chance of finishing a whole article when a feature rises by one standard
+      deviation, a typical step up across these texts. The authors also estimated how much the average topic changes that
+      chance. Wording had an effect similar to, and in several cases larger than, the average topic.
+
+      This runs against an earlier argument that links needing more mental processing should attract more clicks. For
+      holding readers, extra effort had the opposite effect, a result the authors interpret as evidence that keeping
+      attention is a different kind of engagement from attracting it.
+    chart: features
+
+  - h: "Which emotions held readers"
+    body: |
+      Emotional language in general helped, positive and negative alike. Broken down by specific emotion, the effects
+      differed. Anxious wording raised the chance of finishing more than any other emotion measured, positive wording
+      helped by a smaller amount, angry wording helped least, and sad wording lowered the chance.
+
+      That ordering fits the authors' account. Anxiety is both arousing and uncertain. Anger is arousing but certain, so it
+      falls in between. Sadness is low in arousal. A paragraph about a tourist who died of smallpox in New York scored high
+      on sad language, and 91% of readers carried on reading; a paragraph on a museum exhibit of ocean art scored low
+      on sadness, with 94% going on.
+
+      Further checks pointed the same way. Tentative words such as "maybe" and "perhaps", and words rated as arousing, were
+      linked to more reading. In exploratory analyses, surprise, which is uncertain and arousing, held attention, while
+      disgust, which feels certain, had the opposite effect.
+
+      Here too, keeping readers differs from earning likes and shares. Earlier work found that brands whose posts sound
+      certain collect more of both. For holding readers, emotions that feel certain did less.
+
+  - h: "Swapping emotion words in a news story"
+    body: |
+      Field data leave room for other explanations, so the authors turned to experiments. In the first, 278 people
+      recruited on Amazon Mechanical Turk read the opening of a news article about falling stock markets. Only a handful of
+      emotion words changed between versions: investors were sad, anxious or angry, had watched their savings shrink
+      helplessly, nervously or furiously, and one man said he was heartbroken, worried or frustrated. Checks confirmed that
+      each version evoked the intended emotion and that the versions did not differ in relevance, concreteness, extremity
+      or hope.
+
+      People then chose between reading the rest of the article and switching to something else. The anxious and angry
+      versions led more people to read on than the sad one.
+
+      Their ratings showed why. Anxious wording made people feel more uncertain than angry wording, and both made them feel
+      more energised than sad wording. Mediation tests found that uncertainty and arousal together carried the effects:
+      the advantage of anxious over sad wording ran through both, that of angry over sad through arousal, and that of
+      anxious over angry through uncertainty.
+    chart: experiment
+
+  - h: "Excitement and hope work as well"
+    body: |
+      The second experiment turned to positive emotions and changed the method. In total, 248 people on Prolific first wrote
+      about a time they felt content, excited or hopeful. Then, in what looked like an unrelated task, everyone read the same
+      neutral opening paragraph of a news story about wireless charging and gave a rating between 1 and 7 for their
+      chances of reading more if they came across it while browsing. The test was preregistered.
+
+      Recalling contentment gave an average of 3.57; hope gave 4.15 and excitement 4.44.
+      Excitement and hope also left people feeling more uncertain and more energised than contentment, and those two
+      feelings again carried the effect.
+
+      Because the text was identical for everyone, the difference comes from the emotion people brought to it rather than
+      from anything in the article. It also suggests that the effect does not depend on an emotion being negative: what
+      counts is how uncertain and how energised a feeling leaves people.
+
+  - h: "What an attention-trained feed may serve"
+    body: |
+      A final, stylised simulation looked at platforms. The authors modelled 10,000 users, each with their own liking for a
+      topic and for anxiety-inducing content, and compared two recommendation rules over ten rounds. One served more of
+      whatever topic a user had engaged with. The other matched both topic and emotional tone.
+
+      With tastes spread evenly, engagement rose from its starting level to 52% under the topic rule and 54% when emotion
+      was added. When users were set up to lean towards anxiety-inducing content, as the field data suggest they do,
+      engagement climbed highest, and the average anxiety score of what users were served rose from 0.50 to 0.63 (where 0
+      means none and 1 means anxiety-inducing).
+
+      The authors' conclusion: a system trained to maximise time spent can end up serving more and more anxious content,
+      with effects on the overall tone of a community, unless someone monitors it.
+
+  - h: "What the authors recommend"
+    body: |
+      For anyone writing ads, emails, articles or pitches, the authors suggest small shifts. Swap abstract words for concrete
+      ones, such as "phone" for "product", or describe a car by its colour. Replace unusual words with familiar synonyms.
+      Rather than relying on facts alone, use emotions that create some uncertainty and energy; a climate charity, they
+      suggest, might use exciting or hopeful language.
+
+      They add two cautions. Anxiety may keep people reading an advertisement and still hurt the brand, so holding attention
+      has to be weighed against other goals. And because what keeps readers differs from what wins clicks or shares,
+      managers should decide which outcome matters most before they write.
+
+      Their most encouraging point concerns less popular subjects. Topic shapes attention, but so does how it is written
+      about, and in the authors' judgement writing style can compensate for topic. How far it can do so for any
+      particular subject was not tested.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Track how far people read", "Turn on scroll-depth tracking for your blog, guides and long landing pages. Record how many readers reach a quarter, half, three quarters and the end of each page, alongside clicks and shares."]
+  - ["Find where readers leave", "Take your ten most visited articles. For each one, find the paragraph after which the largest group of readers stops scrolling, and mark it for rewriting."]
+  - ["Make every paragraph easy", "Rewrite the marked paragraphs so no sentence runs past 20 words. Swap long or unusual words for short, common ones, and put a concrete detail in each paragraph: 'phone' rather than 'device', 'red jacket' rather than 'apparel'."]
+  - ["Choose the feeling on purpose", "Open with a question the reader wants answered, such as what changes next month or which option will work. Use hopeful or exciting words rather than sad or resigned ones, and keep any worrying angle honest and tied to a fix you offer."]
+  - ["Test old against new", "Send half your visitors to the original page and half to the rewrite for two weeks. Compare how many in each group reach the end, and keep the version that wins."]
+  - ["Check the tone each month", "On the first of each month, list the ten pieces that held readers longest. If most of them rely on worry or anger, add calmer pieces to your plan and ask a few customers how the brand comes across."]
+
+expect:
+  - "**Effects on reading, not on clicks.** Everything here concerns whether people keep going once a piece is open. Headlines and click-through were outside the study."
+  - "**Small edits can matter.** In the first experiment, changing only a few emotion words in otherwise identical text changed how many people chose to read on."
+  - "**Each paragraph is a decision point.** Readers decide again after every paragraph, so on our reading, rewriting the paragraphs where most of them leave probably brings more benefit than polishing the opening alone."
+  - "**Emotion carries trade-offs.** The authors caution that anxiety in ads may hold attention while harming the brand. That cost was not measured here."
+
+limits:
+  - "**News and lifestyle articles only.** The field data came from nine sites with fixed layouts and no ads in the text. Video, social posts and technical pages were not studied, and in the authors' view technical sites may behave differently."
+  - "**Scrolling is not reading.** Scroll depth shows that people moved down the page, not that they read every word, as the authors acknowledge."
+  - "**Field data are observational.** Despite many controls, the authors accept that selection could still play a part. The experiments tested emotion only, not ease of reading."
+  - "**Choices and ratings in the experiments.** Participants chose to read on or rated their wish to continue, and how long they then read was not recorded."
+  - "**A stylised simulation.** The feed results come from simulated users with assumed tastes, not from a live platform."
+  - "**One reaction for everyone.** Whether groups react differently to the same tone, such as supporters of rival parties reading election news, is left for future work."
+
+faq:
+  - q: "Which writing features keep readers on a page?"
+    a: "Text that is easy to process and uses the right emotions. In tens of thousands of news and lifestyle articles, people scrolled on more often past paragraphs with short words and sentences, simple structure and familiar, concrete words, and past anxious rather than sad wording (Berger et al., 2023)."
+  - q: "Does emotional language hold readers' attention?"
+    a: "It depends on the emotion. Feelings that leave people unsure and energised, such as anxiety, excitement and hope, kept them reading in this research. Sadness, which is low in energy, prompted more people to stop, and anger, which feels certain, helped only a little."
+  - q: "Is holding attention the same as getting clicks or shares?"
+    a: "No. The authors regard it as a separate kind of engagement. Earlier studies linked certain-sounding posts to more likes and shares, and harder-to-process links to more clicks. For keeping people reading, uncertain emotions and easy text did better, so what wins one outcome can lose another."
+  - q: "Can good writing make a dull topic engaging?"
+    a: "Partly. With the topics of each article and paragraph held constant, wording still changed how far people read, and several language features had effects equal to or larger than the average topic's. Good writing, on the authors' reading, can make up for a weaker topic."
+  - q: "Why could attention-driven feeds become more negative?"
+    a: "If anxious content holds attention, an algorithm rewarded for attention learns to serve more of it. In the authors' simulation, a feed that matched users' emotional as well as topical tastes raised engagement and steadily raised the anxiety of what it served, which is why they urge platforms to monitor such systems."
+
+also:
+  - doi: "10.1007/s11747-022-00908-0"
+    title: "Social interactions in the metaverse: Framework, initial evidence, and research roadmap"
+    authors: "Hennig-Thurau et al."
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2023
+    text: >-
+      Is a meeting between avatars in virtual reality worth more than a video call? Field experiments compared real-time
+      social exchanges in the metaverse, reached through VR headsets, with the same kind of exchange on the flat internet,
+      such as Zoom. The metaverse showed it can create extra value for the people taking part, but it was not better across
+      the board. The authors use the results to refine a framework and a research agenda, so a brand weighing virtual events
+      should first ask which part of the exchange the headset actually improves.
+  - doi: "10.1007/s11747-022-00919-x"
+    title: "From tablet to table: How augmented reality influences food desirability"
+    authors: "Fritz, Hadi, & Stephen"
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2023
+    text: >-
+      Two field studies with real choices and two lab studies found that showing a dish in augmented reality, laid over the
+      live scene the viewer sees, raised both desire for the food and the likelihood of buying it. AR made the food
+      feel more personally relevant, which helped people imagine eating it, and that mental simulation drove the extra
+      desire. For a restaurant app or a delivery menu, letting customers see a dish on their own table may persuade more
+      than one more studio photo.
+
+charts:
+  features:
+    title: "Rise in the chance of finishing an article when each feature rises by one standard deviation (ease features highlighted)"
+    scale: [0, 30]
+    step: 5
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Readability", 24.4, true]
+      - ["Simple sentence structure", 17.4, true]
+      - ["Concrete words", 15.7, true]
+      - ["Anxious wording", 14.0, false]
+      - ["Familiar words", 9.6, true]
+      - ["Positive emotion", 8.1, false]
+      - ["Angry wording", 3.6, false]
+    source: "Study 1, field data from nine news and lifestyle sites; values printed in the paper's Figure 1, relative to a baseline article read on desktop. Sad wording lowered the chance by 10.8%."
+  experiment:
+    title: "Chose to read the rest of a stock-market story, by the emotion words used (%)"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Sad wording", 52, false]
+      - ["Angry wording", 71, false]
+      - ["Anxious wording", 80, true]
+    source: "Study 2, 278 participants on Amazon Mechanical Turk, each shown one version of the same article opening."
+
+related_pages: []
