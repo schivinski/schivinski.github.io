@@ -1,0 +1,279 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 30                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-07-26"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: digital-native-brand-stores
+status: live
+
+title: "Does opening a brand store help or hurt a digital-native brand's online and supermarket sales? What a Journal of Marketing study found"
+dek: >-
+  A German cereal brand that began online opened ten shops of its own. Nearby webshop sales fell, supermarkets sold more of
+  the brand and more of them stocked it, and total sales grew. Profit was less certain: four stores made a loss once the
+  profit lost in the other channels was counted.
+short_title: "What a brand's own shop does to its webshop and retailers"
+
+description: >-
+  Van Crombrugge et al. find ten brand stores cut a cereal brand's nearby webshop sales by 23%, lifted its supermarket sales
+  by 12% and won it new listings.
+
+keywords: [digital-native brands, direct-to-consumer brands, DTC brand stores, brand store entry, omnichannel distribution,
+  channel cannibalization, webshop sales, supermarket distribution, synthetic control method, FMCG marketing,
+  Journal of Marketing]
+topics: [Retail, Research methods]
+
+image:
+  file: 2023-digital-native-brand-stores.jpg
+  og: 2023-digital-native-brand-stores-og.jpg
+  alt: "Two grey-haired shoppers in a small, brightly lit grocery store look at a packaged loaf together, one in glasses and a black rain jacket, the other in a red puffer jacket, with chiller cabinets and stocked shelves behind them"
+  caption: "Seeing a brand in its own shop can change where people buy it next. Photo: Centre for Ageing Better on Unsplash."
+
+short_answer: >-
+  Both, in this case. After an online-born German breakfast cereal brand opened ten brand stores, its webshop sales
+  within five kilometres of each store fell by about 23% in the next year against a statistical match, while its
+  supermarket sales there rose by about 12%. With the stores' own takings counted, total brand sales in those areas were
+  about four times what they would otherwise have been. Yet four of the ten stores ended the year in the red.
+
+takeaways:
+  - "Every one of the ten stores took sales from the brand's webshop nearby, with falls of between 15% and 36% depending on the area."
+  - "Around the stores, 17% more supermarkets stocked the brand than the comparison predicted, and those new listings delivered 28% of the extra supermarket sales."
+  - "After opening, the brand stores made 75% of the brand's sales in their areas; the webshop made 15% and supermarkets 10%."
+  - "On average, a store had to keep just €1.55 of every €100 it took as profit to cover what the brand lost in its other two channels."
+
+paper:
+  doi: "10.1177/00222429231193371"
+  title: "Assessing the Multichannel Impact of Brand Store Entry by a Digital-Native Grocery Brand"
+  authors: ["Van Crombrugge, M.", "Breugelmans, E.", "Breiner, F.", "Scheiner, C. W."]
+  authors_full: ["Michiel Van Crombrugge", "Els Breugelmans", "Florian Breiner", "Christian W. Scheiner"]
+  year: 2024
+  journal: "Journal of Marketing"
+  volume: "88"
+  issue: "3"
+  pages: "88-109"
+  online: "2023-07-26"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author notes and ORCID iDs on the SAGE page)
+    - name: "Michiel Van Crombrugge"
+      affiliation: "Erasmus School of Economics, Erasmus University Rotterdam, The Netherlands"
+      orcid: "0000-0003-2537-3578"
+    - name: "Els Breugelmans"
+      affiliation: "KU Leuven, Faculty of Economics and Business, Belgium"
+      orcid: "0000-0002-1832-6979"
+    - name: "Florian Breiner"
+      affiliation: "FoodLabs, Germany"
+      orcid: ""
+    - name: "Christian W. Scheiner"
+      affiliation: "Universität zu Lübeck and Christian-Albrechts-Universität zu Kiel, Germany"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival study: weekly webshop and supermarket data around ten brand store openings by one German digital-native cereal brand, analysed with generalized synthetic control against 88 control areas (59 for supermarket outcomes); robustness checks, exploratory heterogeneity analysis and the top- and bottom-line calculations use the same data"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Michiel Van Crombrugge of Erasmus University Rotterdam,
+      Els Breugelmans of KU Leuven,
+      Florian Breiner of FoodLabs in Germany, and
+      Christian W. Scheiner of the Universität zu Lübeck and Christian-Albrechts-Universität zu Kiel
+      looked at a step many digital-native brands take once demand is proven. A brand born online, selling through its own
+      webshop and already on supermarket shelves, opens shops of its own. Does the new store add sales, or does it mostly move
+      them from the website and the supermarket to its own till?
+
+      Their case was a well-known, top-ten German breakfast cereal brand, which launched online only
+      and reached supermarkets within its first three years. Its webshop sold boxed cereals and made-to-order mixes, and more
+      than 5,000 supermarkets carried a selection of its boxes. It then opened brand stores in ten major German cities, each
+      run by its own staff and stocking a wider range than any supermarket.
+
+      The brand manager told the team the stores were meant to make money in their own right. Extra online customers,
+      awareness and low-cost product sampling were secondary aims. Gaining bargaining power over supermarkets was not a goal.
+    facts:
+      - ["Brand", "A well-known cereal maker in Germany, ranked in the top ten, launched online only and later also sold in supermarkets"]
+      - ["Stores", "Ten brand stores, one per city, in places where the brand had never had a shop"]
+      - ["Area measured", "A five-kilometre driving radius around each store"]
+      - ["Data", "Weekly webshop sales from the company; weekly supermarket sales and stocking figures from the market research firm IRI"]
+      - ["Outcomes", "Webshop sales, supermarket sales, how many supermarkets list the brand, and products per supermarket"]
+      - ["Method", "Generalized synthetic control, comparing the year before each opening with the year after"]
+
+  - h: "Building a fair comparison"
+    body: |
+      The simple test would set each store's area against a similar area that got no store. The difficulty was that the
+      brand had placed its stores in busy shopping districts of big cities, and no single untouched area resembled them.
+
+      So they constructed one. A synthetic control blends many untouched areas, each given a weight, so that the blend
+      follows the store area's own figures closely before the opening. After the opening, the blend shows what would
+      probably have happened without a store, and the difference is the store's effect. The pool held 88 German city areas
+      with no brand store, 59 of them with complete supermarket data. The generalized version of the method estimates all
+      ten openings at once.
+
+      Before the openings, no store area differed significantly from its synthetic match. The blend also fitted more closely
+      than four other matching methods, and the main conclusions largely held with those that matched acceptably.
+
+  - h: "Webshop sales fell while supermarket sales rose"
+    body: |
+      The raw sales shares already showed a shift before any model was fitted. In the store areas, the webshop's share of
+      the brand's sales outside its own stores slipped from 65% to 59% after the openings, and the supermarket share rose from 35% to
+      41%. In the comparison areas the split barely changed, with the webshop on 76% before and 78% after.
+
+      The model confirmed the pattern. All ten areas showed a significant fall in webshop sales. Supermarket sales went up in
+      eight of the ten, significantly so in three. The two effects differed by almost 35 percentage points, so the webshop's
+      loss outweighed the supermarkets' gain and the two existing channels together sold less.
+
+      As the authors explain it, a brand store offers much of what the webshop offers, the full range and a focus on
+      one brand, with the products in hand at once and no delivery charge. Supermarket shoppers mainly want low prices and
+      one-stop convenience. For them, the store makes a little-known brand easier to spot among the big names.
+    chart: effects
+
+  - h: "More supermarkets started to stock the brand"
+    body: |
+      The openings also changed what retailers did. Around the stores, the average number of supermarkets carrying the brand
+      went from about 20 to 27 a month, or from 24% to 34% of all supermarkets there. Against the synthetic comparison, the
+      rise was significant. Six areas gained listings, two of them significantly, and none of the four that lost some showed a
+      significant change.
+
+      The range on each shelf stayed where it was. The number of the brand's products per supermarket fell in half the areas
+      and rose in the other half, with no significant change overall.
+
+      Supermarket sales grew even with stocking held constant; the authors link that part to the store itself. The new
+      listings added to that. On average, supermarkets did not respond to the stores by dropping the brand, although the company had done nothing to
+      court them.
+
+  - h: "Where the stores drew most from the other channels"
+    body: |
+      Results varied a good deal between areas, so the team compared the areas above and below the median on each outcome.
+      With only ten stores, they treat this as exploratory and ran no significance tests.
+
+      Stores in better locations with more foot traffic, in areas with more supermarkets per household and with wealthier
+      households, took more from the webshop and added less to supermarket sales. The same kinds of stores did more to win new
+      supermarket listings. The authors read both patterns as signs of a store's sales strength: it draws shoppers in, and
+      it catches the attention of supermarket managers.
+
+      A store's basket value score, an internal rating from 1 to 10 of how far its customers bought pricier or extra items,
+      showed the same pattern. It correlated at minus 0.46 with the webshop effect, minus 0.52 with the supermarket effect
+      and 0.52 with the gain in listings.
+
+  - h: "More sales, but not always more profit"
+    body: |
+      Adding the stores' own takings changes the picture for revenue. The team divided everything the brand sold in each
+      area after the opening, store included, by what the webshop and supermarkets would probably have sold without one.
+      Area by area, that ratio ran from 2.30 to 6.41. It never fell below 1, the level at which the brand would have been
+      worse off.
+
+      Profit is harder, because a store has its own costs, staff and rent above all. The team assumed profit margins of 30%
+      on webshop sales and 20% on supermarket sales, based on talks with industry experts, and worked out how much profit the
+      brand lost in those two channels near each store. From that they derived the smallest operating margin each store
+      needed to make up the loss.
+
+      The company's real store margins are confidential, so the paper reports only whether each store reached that minimum
+      in the calendar year after it opened. Six did. Three made a loss even before the other channels were counted, and one
+      made a profit on its own that vanished once the lost webshop and supermarket profit was set against it. Exploratory
+      analyses and talks with management linked higher profits to busier locations, more floor space and lower rent.
+    chart: margins
+
+  - h: "The authors' advice"
+    body: |
+      For a young company keen to grow quickly and attract investors, the authors see brand stores as a ready way to raise
+      sales and, with them, the company's value, despite the losses to the webshop. Where profit matters more than growth,
+      they warn, a store that makes money on its own can still leave the brand worse off overall.
+
+      They also suggest doing on purpose what happened here without a plan: approach supermarket buyers when a store opens
+      and use its trading to show that customers want the brand. This idea remains untested.
+
+      Brand managers can use an internal measure such as the basket value score, the authors add, to judge which stores are
+      likely to compete hardest with the other channels and to draw most interest from retailers.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Map your online buyers first", "Before you choose a site, plot last year's webshop orders by postcode. Count how many of your regular online buyers live within a five-kilometre drive of each shortlisted address. The more there are, the more online orders the shop is likely to absorb."]
+  - ["Set the profit bar before signing", "Estimate how much webshop and retail profit the shop could take from its area in a year. Divide that by the shop's expected takings to get the smallest margin it must make. Write the figure down and hold the lease decision to it."]
+  - ["Pick comparison areas you will leave alone", "Choose three to five similar districts or towns where you will not open a shop. Track the same weekly figures there as in the shop's area: webshop orders, sales through retailers and the number of shops listing you."]
+  - ["Ask every buyer one question at the till", "Train staff to ask whether the customer has ordered from your website before, and record the answer. Within a month you will see how much of the shop's trade comes from people who used to buy online."]
+  - ["Show the shop to nearby retailers", "In the first month, send the buyers at supermarkets within a short drive a one-page note with the shop's weekly sales and a few photos of it trading. Offer a tasting day in their store or a meeting to discuss a listing."]
+  - ["Add up the whole area after a year", "Twelve months after opening, put three numbers side by side for the area: the shop's profit, the change in webshop profit and the change in retail profit. If the total is below zero, look at rent and floor space before you open the next one."]
+
+expect:
+  - "**Effects within weeks.** Over the first 12 weeks after an opening, webshop sales were already 24.15% below the comparison and supermarket sales 8.62% above it."
+  - "**Listings can follow early.** In the same 12 weeks, the count of supermarkets listing the brand rose by 10.97% against the comparison, with no change in products per store."
+  - "**Plan for the webshop loss.** The store and the webshop sold much the same range under one brand, and part of the stores' takings here replaced online orders. Our inference: set a store's sales targets on the assumption that some of its trade will move across from the website rather than all being new."
+  - "**Less to gain for brands already strong in supermarkets.** The authors expect, without having tested it, that a brand selling more through supermarkets than online would see smaller benefits from a store, more lost supermarket sales and a greater risk of conflict with retailers."
+
+limits:
+  - "**One brand, one category.** A single digital-native cereal brand in Germany, whose webshop outsold supermarkets before the stores opened."
+  - "**Ten stores.** Enough to estimate average effects, too few to test which store or area features matter."
+  - "**Little marketing data.** The data held nothing on prices, promotions, advertising or shelf space, though the company reported no changes to them. Indirect costs such as trade promotions or delivery were not counted."
+  - "**Assumed margins.** The webshop and supermarket profit margins are estimates for a premium grocery brand, not the company's own figures."
+  - "**Five kilometres only.** Online buyers and supermarkets further away were not observed, so the authors regard their estimates as conservative."
+  - "**No shopper-level data.** Who bought what, and where, could not be traced, and online supermarkets were left out."
+
+faq:
+  - q: "Do brand stores cannibalise a direct-to-consumer brand's online sales?"
+    a: "In this case, yes. A German cereal brand's webshop sold significantly less near every one of its ten new stores in the year after they opened, while supermarket sales of the brand in the same areas grew (Van Crombrugge et al., 2024)."
+  - q: "Can a physical store help a brand get into more supermarkets?"
+    a: "It did here, without the company trying. More supermarkets near the stores began to list the brand, and those new listings explained part of the rise in its supermarket sales. How many of its products each supermarket carried did not change."
+  - q: "What is the synthetic control method?"
+    a: "A way to estimate what would have happened without an intervention. Many untreated areas are blended, with weights, into a match that tracks the treated area closely beforehand. Afterwards, the difference between the area and its match is taken as the effect."
+  - q: "Are brand stores profitable for digital-native brands?"
+    a: "Not always. Every store raised total brand sales in its area, but a store also has to cover the profit the brand loses online and in supermarkets. Six of the ten stores managed that in the calendar year following their opening; the rest did not."
+  - q: "Would the results hold for fashion or electronics brands?"
+    a: "That is open. The brand sold groceries, which people buy by habit with little advice. The authors want follow-up work with traditional manufacturers and in categories where shoppers try products and ask staff, such as clothing or consumer electronics."
+
+also:
+  - doi: "10.1002/mar.21861"
+    title: "Asking your phone or a frontline employee? The influence of in-store information source on choice overload, responsibility, and confidence among young consumers"
+    authors: "Schaefers, Kessenbrock, Cziehso, & Kukar-Kinney"
+    journal: "Psychology & Marketing"
+    year: 2023
+    text: >-
+      Young shoppers who need help in a store often search on their phone instead of asking staff. In a field experiment,
+      those with little knowledge of a product category felt less overwhelmed by the choice, and so more confident in it,
+      after consulting a frontline employee rather than their phone, while the advantage faded for those who knew the
+      category well. Using the phone made shoppers feel more responsible for their pick, without changing their confidence.
+      For a hesitant newcomer, a knowledgeable person on the shop floor may still be the better source.
+  - doi: "10.1002/mar.21874"
+    title: "When reality backfires: Product evaluation context and the effectiveness of augmented reality in e-commerce"
+    authors: "Pfaff & Spann"
+    journal: "Psychology & Marketing"
+    year: 2023
+    text: >-
+      Augmented reality lets online shoppers place a virtual copy of a product in their own room, but the retailer loses
+      control over what surrounds it. Two online experiments plus a controlled field study, 1,000 participants in total, found that an
+      unfavourable setting, such as a messy room, lowered purchase intention, because the product became harder to process
+      and seemed lower in quality. The effect was weaker for products of unique design and when the surroundings stood out
+      less. The authors discuss two remedies: tools that clear clutter from the camera view, and features that make side-by-side
+      comparison easy.
+
+charts:
+  effects:
+    title: "Change in the year after each store opened, against the synthetic comparison (size of change, %)"
+    scale: [0, 25]
+    step: 5
+    unit: "%"
+    decimals: 2
+    bars:
+      - ["Webshop sales, fall", 23.06, true]
+      - ["Supermarket sales, rise", 11.79, false]
+      - ["Supermarkets stocking it, rise", 17.41, false]
+      - ["Products per supermarket (n.s.)", 1.99, false]
+    source: "Average treatment effects across the ten store areas, 52 weeks (sales) or 13 months (stocking) after opening (Table 4). The change in products per supermarket was not significant."
+  margins:
+    title: "Smallest store profit margin needed to offset the profit lost in the webshop and supermarkets (%)"
+    scale: [0, 3]
+    step: 0.5
+    unit: "%"
+    decimals: 2
+    bars:
+      - ["Store 1", 0.50, false]
+      - ["Store 2, fell short", 2.60, true]
+      - ["Store 3", 1.58, false]
+      - ["Store 4", 1.55, false]
+      - ["Store 5", 1.72, false]
+      - ["Store 6", 1.22, false]
+      - ["Store 7, fell short", 0.52, true]
+      - ["Store 8, fell short", 1.77, true]
+      - ["Store 9, fell short", 2.23, true]
+      - ["Store 10", 1.77, false]
+    source: "Table 10. Thresholds assume 30% profit on webshop sales and 20% on supermarket sales. Actual store margins are confidential; amber marks the four stores whose margin stayed below the threshold."
+
+related_pages: []
