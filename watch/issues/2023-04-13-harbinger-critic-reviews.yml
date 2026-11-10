@@ -1,0 +1,249 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 14                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-04-13"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-10"          # the day this page went live (metadata only, never shown)
+slug: harbinger-critic-reviews
+status: live
+
+title: "Do glowing early reviews mean a launch will succeed? What a Marketing Letters study found"
+dek: >-
+  Before release, studios show films to critics, and the reviews that follow read like an early forecast. Five years of
+  releases show that praise from some critics is a sign of a weak opening, and that ranking critics by their track record
+  sharpens the forecast.
+short_title: "When a critic's praise signals a flop"
+
+description: >-
+  Loupos et al. find praise from film critics with a poor track record signals a weak opening weekend, in 28,884 pre-release
+  reviews of 448 films.
+
+keywords: [harbingers of failure, pre-release reviews, film critics, Rotten Tomatoes, box office forecasting,
+  opening weekend, online reviews, reviewer track record, launch forecasting, early reviewer programmes, text analytics,
+  Marketing Letters]
+topics: [Influencers, UGC, Research methods]
+
+image:
+  file: 2023-harbinger-critic-reviews.jpg
+  og: 2023-harbinger-critic-reviews-og.jpg
+  alt: "An empty cinema auditorium with rows of red seats under dim blue light, a single projector glowing in the back wall"
+  caption: "Before opening night, every critic's verdict is a forecast, and some forecasters have a poor record. Photo: wong zihoo on Unsplash."
+
+short_answer: >-
+  Not always, and from some reviewers it means the opposite. Tracking 28,884 critic reviews posted on Rotten Tomatoes
+  before 448 films opened, the researchers found that a plain count of positive reviews said nothing about how a film
+  would open. Sorting critics by their past record changed that: praise from critics whose favourites usually flopped
+  lowered the chance of a strong opening weekend, while praise from critics with a good record raised it.
+
+takeaways:
+  - "One more positive review from a critic with a strong record raised a film's odds of a strong opening by 80%; one more from a critic whose favourites tended to flop cut them by about 37%."
+  - "Setting aside 20 sleeper films, which opened weakly but succeeded later, made the warning stronger: praise from the worst-record critics then cut the odds by about 43%."
+  - "Pans showed a similar but weaker pattern: negative reviews from critics whose dislikes often became hits went with better, not worse, odds of success."
+  - "Critics with poor records wrote I, me or my less often when praising a film: 0.18% of their words, against 0.30% for critics with good records."
+
+paper:
+  doi: "10.1007/s11002-023-09665-8"
+  title: "What reviews foretell about opening weekend box office revenue: the harbinger of failure effect in the movie industry"
+  authors: ["Loupos, P.", "Peng, Y.", "Li, S.", "Hao, H."]
+  authors_full: ["Pantelis Loupos", "Yvette Peng", "Sute Li", "Hao Hao"]
+  year: 2023
+  journal: "Marketing Letters"
+  volume: "34"
+  issue: "3"
+  pages: "513-534"
+  online: "2023-04-13"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Springer page)
+    - name: "Pantelis Loupos"
+      affiliation: "Graduate School of Management, University of California Davis, 540 Alumni Ln, Davis, CA, 95616, USA"
+      orcid: "0000-0003-4414-9790"
+    - name: "Yvette Peng"
+      affiliation: "Graduate School of Management, University of California Davis, 540 Alumni Ln, Davis, CA, 95616, USA"
+      orcid: ""
+    - name: "Sute Li"
+      affiliation: "Graduate School of Management, University of California Davis, 540 Alumni Ln, Davis, CA, 95616, USA"
+      orcid: ""
+    - name: "Hao Hao"
+      affiliation: "Graduate School of Management, University of California Davis, 540 Alumni Ln, Davis, CA, 95616, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival dataset: 448 films released 2015-2019 and 28,884 pre-release Rotten Tomatoes reviews, with box office and budget data; the robustness checks (slow-burn films, F1 grouping, negative reviews) and the text analysis reuse the same data and are not presented as separate studies"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Pantelis Loupos, Yvette Peng, Sute Li and Hao Hao, from the Graduate School of Management of the University of California, Davis,
+      looked at the reviews critics publish before a film reaches cinemas. Studios and distributors invite critics to
+      early screenings, and their verdicts appear on Rotten Tomatoes, a review aggregator with about 26 million unique
+      visitors a month, before anyone can buy a ticket. The usual assumption is that good early reviews are good news.
+
+      The team borrowed an idea from retail. Earlier work had found shoppers whose eager early purchases of a new product
+      signalled that it would fail, and called them harbingers of failure (Anderson et al., 2015). Could some critics play
+      the same role, praising films that then open badly?
+
+      For each critic, the team worked out a flop affinity score: the share of the films the critic had praised before
+      release that went on to flop. A critic who liked ten films, eight of which flopped, scores 0.8. Critics were then
+      split into four groups of similar size, from the best record (no more than 40% of their praised films flopped) to the
+      worst (more than 62%). The 226 critics with two or fewer positive pre-release reviews could not be scored and were left out.
+    facts:
+      - ["Films", "448 releases from 2015 to 2019, with opening weekend takings from Box Office Mojo and budgets from The Numbers"]
+      - ["Reviews", "28,884 published on Rotten Tomatoes ahead of each release, each marked Fresh or Rotten by the site's curators"]
+      - ["Hit or flop", "A hit took at least half its production budget on its opening weekend"]
+      - ["Critic groups", "Four groups of 145 to 162 critics each, ranked by how often the films they praised flopped"]
+      - ["Check", "Models fitted on 286 films from 2015 to 2017, then used to forecast 162 films from 2018 and 2019"]
+
+  - h: "Whose praise mattered"
+    body: |
+      The first model treated every critic alike and simply counted a film's positive pre-release reviews. That count had
+      no link with whether the film opened well. The second model counted praise separately for each of the four critic
+      groups, and it described the data far better.
+
+      Two groups carried the signal. Each extra positive review from the best-record group made a successful opening more
+      likely, while each extra one from the worst-record group made it less likely. Praise from the two middle groups made no
+      measurable difference. In a single total, praise from critics who read the audience well is mixed with praise from
+      critics who tend to misread it, which helps explain why the plain count showed nothing.
+
+      The authors report that adding control variables left this result unchanged, although the article does not print
+      those estimates. Two further checks agreed: one set sleeper films aside, the other ranked critics by
+      a different accuracy score.
+
+  - h: "Forecasting films from later years"
+    body: |
+      To see whether the pattern would hold up in practice, the team fitted both models on films from the earlier years and
+      then, keeping the critic groups fixed, used them to forecast the later releases. Hits were more common in the later
+      years (55.5% of films, against 38.8% before), so the test was not a simple repeat.
+
+      Two scores measured how well each model picked out the hits. F1 balances two kinds of error: calling a flop a hit,
+      and missing a real hit. AUCPR, the area under the precision-recall curve, sums up the same trade-off across every
+      possible cut-off. Both run from 0 to 1. Sorting praise by critic record raised AUCPR by a quarter and F1 by 159%, by
+      the authors' calculation.
+    chart: forecast
+
+  - h: "Negative reviews show the same pattern"
+    body: |
+      The team then repeated the exercise for pans. This time each critic was scored by the proportion of films they
+      disliked that went on to succeed. For the group whose pans most often came before a hit, more negative reviews went
+      with better odds of success, not worse, while pans from the group with the most accurate dislikes lowered the odds.
+
+      This half of the evidence is less convincing. On the later films, the grouped model forecast only marginally better
+      than a plain count of negative reviews (an AUCPR of 0.64 against 0.63). Praise is where the clearer signal sits.
+
+  - h: "How the poor-record critics write"
+    body: |
+      Why would a professional critic keep misjudging the audience? The team ran the reviews through LIWC, a standard
+      program that counts categories of words, and compared the best-record group with the worst-record group.
+
+      In their positive reviews, critics with poor records used fewer first-person words and fewer fillers. The authors
+      interpret this as a formal style and as overconfidence, with less reflection on how a general audience might react. In
+      negative reviews the poor-record group wrote more analytically, an approach the authors connect with confirmation bias: building
+      a case for failure from the facts that fit it.
+
+      The first-person pattern was clearest among top critics, the most senior reviewers on Rotten Tomatoes. Poor-record
+      top critics also used more adverbs when praising a film (4.3% of words against 3.7%), a habit the authors link to
+      over-optimism.
+
+      Treat these readings with care. The differences are fractions of a percentage point, many reach only the 10%
+      significance level, and word counts are an indirect guide to personality.
+    chart: pronouns
+
+  - h: "Reading early reviews before a launch"
+    body: |
+      The authors see several uses. Studios and distributors could spot likely flops early and save on pre-launch
+      marketing, and cinemas could give their limited screens to the films most likely to fill them. Studios might even
+      show scripts to the critics most prone to praising flops and treat their enthusiasm as a caution. Any company that relies on
+      reviewers should check whether those reviewers' verdicts actually predict results, and may want to rethink who gets a
+      "top reviewer" label.
+
+      The film setting is close to much of digital marketing. Brands now give creators early units, open beta programmes,
+      brief the press under embargo and run early-reviewer schemes on retail sites. None of these was tested here, so the
+      next step is our inference: when a launch's early voices can be scored against past outcomes, their praise is worth
+      reading with that record attached rather than adding it to a single total.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List who sees your launches early", "Write down every reviewer, creator, journalist and beta tester who got early access to your last five launches. Next to each name, note whether their verdict before release was positive or negative."]
+  - ["Decide what counts as a hit", "Choose one plain success rule for past launches, such as first-month sales covering half the launch budget. Mark every past launch as a hit or a miss with that rule, before you look at any reviewer."]
+  - ["Score each reviewer's record", "For every reviewer, count the launches they praised and how many of those missed. Leave out anyone who praised fewer than three launches, because their score will mean little."]
+  - ["Sort reviewers into four groups", "Rank reviewers by how often their favourites missed and split the list into four groups of equal size. Keep the group with the fewest misses and the one with the highest miss rate as your two signal panels."]
+  - ["Read new praise by group", "For your next launch, tally positive early verdicts separately for each panel. If most of the praise comes from the weaker panel, recheck targeting and spend before scaling up."]
+  - ["Rescore after every launch", "Update each reviewer's record once the results are in, and regroup. If reading praise by panel has not forecast results better than a simple count of positive verdicts after five launches, drop it."]
+
+expect:
+  - "**Some launches will still surprise you.** The better model also misjudged a fair share of later films, so treat a reviewer score as one input alongside pre-orders, search interest and ad results."
+  - "**History comes first.** A reviewer needs several past verdicts with known outcomes before a score means anything, so the method suits brands with a steady run of launches."
+  - "**Focus on the extreme groups.** Expect most of the forecasting help to come from the reviewers at either end of the record, not from the many in the middle."
+  - "**Writing style is weak evidence.** Word patterns varied only a little across the groups, so use them to prompt a closer look at a reviewer, never to label one."
+
+limits:
+  - "**One industry, one platform.** Films reviewed on Rotten Tomatoes between 2015 and 2019; products launched through creators, testers or retail reviewer schemes were not examined."
+  - "**No explanation of causes.** The data show which critics tend to call films wrongly; the authors say the origin of these tastes remains unexplained."
+  - "**Hidden choices.** Studios decide which critics see a film early, and critics may read or talk to each other before posting. Neither could be observed."
+  - "**A fixed line for success.** A film counted as a hit only if its opening weekend covered half its budget. A different line could move films, and critics, between groups."
+  - "**Top critics not modelled apart.** The authors say the pattern holds among top critics, but the article prints no separate forecast for them."
+
+faq:
+  - q: "What is a harbinger of failure?"
+    a: "Someone whose early enthusiasm for a new product is a sign that the wider market will reject it. The idea began with shoppers in retail and has now been shown for film critics: pre-release praise from critics prone to liking flops went with weaker opening weekends (Loupos et al., 2023)."
+  - q: "Do good reviews before release help a film's opening weekend?"
+    a: "Taken as one total, positive pre-release reviews were unrelated to how 448 films opened. What mattered was whose praise it was. Praise from reliable critics helped the odds, and praise from critics who often liked flops hurt them."
+  - q: "Are top critics better at predicting hits?"
+    a: "Not reliably. A Rotten Tomatoes top critic needs at least five years of professional reviewing and a verifiable social media profile with a large audience, yet the harbinger pattern appeared in that group too, according to the authors. Seniority did not guarantee a sound call."
+  - q: "How was a film's success measured?"
+    a: "By its opening weekend alone. A film was a success if its opening weekend takings reached half its production budget or more, a line the researchers drew after consulting people in the industry. Just under 45% of the films cleared it."
+  - q: "Can brands outside the film industry use this?"
+    a: "Possibly, but the question lies outside this paper. Any brand that lets reviewers, creators or testers see a product before launch can record whether each person's early verdicts matched later sales, and weigh new verdicts by that record. Whether the pattern holds outside cinema has yet to be shown."
+
+also:
+  - doi: "10.1177/10949968221150933"
+    title: "The Effects of Linguistic Coordination on Perceived Quality of Consumer Reviews: A Dual Process Perspective"
+    authors: "Liu, Wang, & Zhang"
+    journal: "Journal of Interactive Marketing"
+    year: 2023
+    text: >-
+      What makes readers judge an online review to be good? Working with a data set of IMDb film reviews, natural language
+      processing and a new clustering technique, the authors measured two kinds of linguistic coordination: matching on
+      topic and matching on language style. Each one raised perceived review quality on its own, but the two interacted
+      negatively, so a review that matched on both gained less than their separate effects would suggest. For platforms
+      that coach reviewers, prompting on content or on tone may do as much as prompting on both.
+  - doi: "10.1177/10949968231156104"
+    title: "The Impact of Mukbang Live Streaming Commerce on Consumers’ Overconsumption Behavior"
+    authors: "Lee & Wan"
+    journal: "Journal of Interactive Marketing"
+    year: 2023
+    text: >-
+      Mukbang streams, in which a host eats on camera while promoting the food for sale, have become a food marketing
+      channel. In an experiment with 216 people, videos where the host chatted while eating regular rather than junk food,
+      outside the ASMR format, raised perceived value, impulse buying and eating. A second experiment with 624 people, together with a
+      630-person survey, showed that a credible host with a parasocial bond, along with the platform's product range and
+      convenience, fed impulse purchases and overconsumption. Persuasive food streams carry a responsibility for how much
+      viewers end up eating.
+
+charts:
+  forecast:
+    title: "How well each model picked out the hits among 162 films from 2018 and 2019 (0 to 1, higher is better)"
+    scale: [0, 1]
+    step: 0.2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["All praise counted equally: F1", 0.22, false]
+      - ["Praise split by record: F1", 0.57, true]
+      - ["All praise counted equally: AUCPR", 0.56, false]
+      - ["Praise split by record: AUCPR", 0.70, true]
+    source: "Table 2: models fitted on 286 films from 2015 to 2017 and applied, with critic groups held fixed, to the later films. AUCPR is the area under the precision-recall curve."
+  pronouns:
+    title: "Words that were I, me or my in positive reviews, best-record and worst-record critics"
+    scale: [0, 0.4]
+    step: 0.1
+    unit: "%"
+    decimals: 2
+    bars:
+      - ["Top critics, best record", 0.32, false]
+      - ["Top critics, worst record", 0.11, true]
+      - ["Other critics, best record", 0.30, false]
+      - ["Other critics, worst record", 0.21, true]
+    source: "Table 4, LIWC word counts of positive pre-release reviews; the difference was significant at the 5% level for top critics and at the 10% level for the others."
+
+related_pages: []
