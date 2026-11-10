@@ -1,0 +1,230 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 45                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-11-22"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: chatbot-promotion-focus
+status: live
+
+title: "Do shoppers buy less when a chatbot does the selling? What a Journal of Consumer Behaviour study found"
+dek: >-
+  Being told the sales assistant is a bot made people less ready to buy in two US experiments. A short message about
+  progress and personal goals removed that drop, and in a live chat, a habitual focus on growth kept people involved with
+  the bot.
+short_title: "When a chatbot costs a sale, and when it does not"
+
+description: >-
+  Khan et al. find people are less willing to buy after dealing with a chatbot than with a person, unless they are focused
+  on progress and personal goals.
+
+keywords: [chatbot marketing, chatbot vs human agent, AI customer service, conversational commerce, regulatory focus theory,
+  promotion focus, prevention focus, customer engagement, purchase intention, algorithm aversion, live chat,
+  Journal of Consumer Behaviour]
+topics: [AI, Service]
+
+image:
+  file: 2023-chatbot-promotion-focus.jpg
+  og: 2023-chatbot-promotion-focus-og.jpg
+  alt: "A woman with long brown hair and a fringe, in a white T-shirt, holds a copper-coloured bottle in one hand and a purple bottle in the other, glancing towards the copper one against a pale cream wall"
+  caption: "Choosing between two products is the moment a sales chat, human or bot, can make a difference. Photo: Anna Keibalo on Unsplash."
+
+short_answer: >-
+  On average, yes, but it depends on the shopper's frame of mind. Across two US experiments, people told the assistant
+  was a chatbot rather than a person were less keen on buying what it described. That drop did not appear among
+  people nudged towards progress and personal ideals. In a live chat, people who habitually think that way stayed
+  engaged with the bot, and engagement is what led on to wanting to buy.
+
+takeaways:
+  - "Primed to think about safety and care, people bought 2.58 one-cent prize-draw tickets for the product on average, out of a 50-cent bonus, when the agent was a chatbot, against 6.69 when it was a person."
+  - "Primed to think about progress and ideals instead, people who dealt with the chatbot bought 5.34 tickets, no fewer than the 4.31 bought by those who dealt with a person."
+  - "In a live Facebook chat, the bot label clearly lowered engagement only for people scoring below 2.62 on promotion focus; the average score was 3.41."
+  - "Engagement was the route to buying: with it included, the model explained 47% of why purchase intention differed between people, and the bot label showed no direct effect."
+
+paper:
+  doi: "10.1002/cb.2289"
+  title: "Consumers' promotion focus mitigates the negative effects of chatbots on purchase likelihood"
+  authors: ["Khan, H.", "Sararueangpong, P.", "Mathmann, F.", "Wang, D."]
+  authors_full: ["Hiba Khan", "Pasit Sararueangpong", "Frank Mathmann", "Di Wang"]
+  year: 2024
+  journal: "Journal of Consumer Behaviour"
+  volume: "23"
+  issue: "3"
+  pages: "1528-1539"
+  online: "2023-11-22"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Hiba Khan"
+      affiliation: "School of Advertising, Marketing and Public Relations, Faculty of Business and Law, Queensland University of Technology, Brisbane City, Queensland, Australia"
+      orcid: ""
+    - name: "Pasit Sararueangpong"
+      affiliation: "School of Advertising, Marketing and Public Relations, Faculty of Business and Law, Queensland University of Technology, Brisbane City, Queensland, Australia"
+      orcid: "0000-0003-0241-4277"
+    - name: "Frank Mathmann"
+      affiliation: "School of Advertising, Marketing and Public Relations, Faculty of Business and Law, Queensland University of Technology, Brisbane City, Queensland, Australia"
+      orcid: ""
+    - name: "Di Wang"
+      affiliation: "School of Advertising, Marketing and Public Relations, Faculty of Business and Law, Queensland University of Technology, Brisbane City, Queensland, Australia"
+      orcid: "0000-0002-2116-4018"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two online experiments with US adults: Study 1 on Prolific (N = 318 in the method text, 2 x 2, induced focus x chatbot or human label, incentive-compatible ticket buying) and Study 2 on MTurk (N = 170, live Facebook chat, chronic focus measured, moderated mediation); the airline query-log pilot (N = 5,531) is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Hiba Khan, Pasit Sararueangpong, Frank Mathmann and Di Wang of Queensland University of Technology
+      started from a puzzle. Brands use chatbots for product advice and customer support because they are cheap and always
+      available, yet many people react badly when they learn the helper is a machine. Others enjoy using them. The team's question was
+      whether customers, rather than bots, explain that split.
+
+      They drew on regulatory focus theory, which describes two broad motivations. A promotion focus is about gains,
+      progress and reaching ideals. A prevention focus is about safety, duty and avoiding mistakes. Either can be a lasting
+      trait or a passing state that a situation brings on. The authors expected people with a strong promotion focus, who
+      tend to be open to new things and look for enjoyment, to take to a chatbot more readily.
+
+      A first look at real data pointed that way. In 5,531 first messages that airline customers sent to a chatbot, people
+      who used more promotion words, such as "obtain", used slightly fewer words of negative emotion. The authors see this
+      only as a starting point, since those logs held no purchase data and no comparison with human agents. They then ran
+      two experiments: in one the researchers set people's mindset, in the other they measured it as a trait.
+    facts:
+      - ["Participants", "US adults in two online experiments: 318 recruited on Prolific and 170 on Amazon Mechanical Turk"]
+      - ["Products", "A tumbler cup for hot and cold drinks in the first experiment, headphones in the second"]
+      - ["What changed", "The agent's label, chatbot or person; in the first experiment, also a short message stressing either progress or caution"]
+      - ["Measured", "Prize-draw tickets bought with a small cash bonus (first experiment); engagement in the chat, purchase intention and each person's usual promotion and prevention focus (second experiment)"]
+      - ["Analysis", "Regression-based moderation and moderated mediation (PROCESS Models 1 and 8)"]
+
+  - h: "Experiment 1: a prize draw instead of a price tag"
+    body: |
+      Everyone first read a short message. Half were told they were a progressive consumer who wants to grow, improve and
+      reach an ideal version of themselves. The rest read that they were a responsible consumer who prefers safety,
+      security and care. Each person was then greeted by John, a customer support agent for a store called KOALA. For half
+      of them, John introduced himself as an artificially intelligent chatbot.
+
+      Participants wrote a question about a tumbler cup and then showed how much they wanted it. They could keep their bonus
+      or spend some of it on tickets in a draw to win a real cup. Parting with real money, even a little, is a stronger test
+      than asking people what they would do.
+
+      Across both messages, people bought 5.49 tickets on average when John was a person and 4.01 when he was a bot. The
+      message changed that picture: the interaction between agent and mindset was significant (p = .02), and the drop in
+      ticket buying sat with readers of the cautious message. With a human agent, the message alone did not reliably
+      change ticket buying.
+    chart: tickets
+
+  - h: "Experiment 2: a live chat on Facebook"
+    body: |
+      The second experiment moved closer to real shopping. People first answered questions about their usual outlook, such
+      as whether they feel they have made progress towards success in life. They then opened a chat on the Facebook page of
+      Techworld, presented as an online electronics store, to ask about headphones. The opening message said that all chats
+      were handled either by artificial intelligence or by a real person in real time.
+
+      In fact, the same member of the research team answered every chat from the same script. Any difference between the
+      groups therefore comes from what people believed about the agent, not from how well it performed. Afterwards, people
+      rated their engagement, meaning how absorbed and involved they had felt in the conversation, and how much they intended to
+      buy the headphones.
+
+  - h: "Engagement carried the effect"
+    body: |
+      Believing the agent was a bot lowered engagement, but less so the stronger a person's promotion focus (interaction
+      p = .02). A standard follow-up, the Johnson-Neyman technique, finds the score at which such an effect stops being
+      statistically clear. Here that point sat well below the average score.
+
+      Engagement in turn moved closely with purchase intention. Once engagement was accounted for, the label itself no longer
+      predicted wanting to buy. The authors call this full mediation: the label affected purchase intention only
+      through how engaged people felt. The route through engagement also depended on promotion focus. The 95% confidence
+      interval for that test, .05 to 1.01, excludes zero.
+
+  - h: "What made no difference"
+    body: |
+      Prevention focus did not change how people reacted to the bot (p = .84). The authors had thought cautious people might
+      see a chatbot as a risk. Their explanation is that chatbots are now common enough to feel like the normal way of doing
+      things, and people with a prevention focus will sometimes accept a risk if it keeps things as they are.
+
+      Promotion focus by itself predicted neither engagement nor purchase intention. It mattered only together with the bot
+      label. The effects were also modest: in each experiment, the factors tested explained 2% to 3% of the variation in
+      ticket buying or engagement.
+
+  - h: "The authors' advice"
+    body: |
+      Their main recommendation is to match the agent to the customer. Customers high in promotion focus are the natural audience
+      for a chatbot, and brands can find them through short surveys or from the words they use on social media. For other
+      customers, they propose creating the mindset in the moment, with a bot greeting such as "Hi. I'm here to help you
+      achieve your goal." or with words like achieve, ideal and progress in ads that feature the chatbot.
+
+      They also single out customers with low engagement, which clickstream or review data can reveal, as the group where
+      these tactics should pay off most. That last point is their recommendation; neither experiment tested it.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Find where your bot meets buyers", "List every page where your chat window opens close to a purchase, such as product pages, the basket and checkout help. Start with the two or three pages that get the most chats."]
+  - ["Choose who meets the bot first", "Pick a group of customers who enjoy new features, for example people who opened your last launch email or joined a beta. Offer the bot to them first and keep a person on hand for everyone else."]
+  - ["Open with the customer's goal", "Rewrite the bot's first line around what the customer wants to achieve, for example: \"Hi, let's find the one that fits what you want to do.\" Use words like achieve, improve or ideal once or twice, not in every message."]
+  - ["Let the bot ask before it suggests", "Give the bot two or three questions about the customer's plans for the product before it recommends anything. A short back-and-forth keeps people involved in the choice."]
+  - ["Test two greetings for two weeks", "Split chat traffic evenly between the goal-led greeting and your current one for two full weeks. Compare how many chats in each version lead to an add-to-basket."]
+  - ["Offer a person when chats stall", "Flag chats where the customer stops replying after one or two messages. Offer those customers a person straight away, or follow up within 24 hours with a short note about what they wanted to achieve."]
+
+expect:
+  - "**A few words can matter.** Three sentences about growth and ideals were enough to change how people responded to a bot in the first experiment."
+  - "**Engagement is an early signal.** How absorbed people felt in the chat moved closely with their stated readiness to buy, so, in our view, a one-question engagement check after chats is worth adding."
+  - "**A lift at the margin.** Mindset and the bot label accounted for little of the variation from person to person, so expect better conversion from chat rather than a change in overall sales."
+  - "**Some people still prefer a person.** The bot label lowered engagement for people with a weak promotion focus, so offering a human agent should keep them in the conversation. We infer this from the pattern; it was not tested."
+
+limits:
+  - "**Two online panels, two products.** Both experiments used US adults recruited online and one modestly priced product each, a cup and headphones."
+  - "**A label, not a bot.** In the live chat a person wrote every reply, so the test shows what the word chatbot does, not how a real bot performs."
+  - "**Small stakes and stated intentions.** The money at stake in the first experiment was small, and the second measured stated purchase intention rather than recording purchases."
+  - "**Mindset set by the researchers.** The progress message came from the study, not from the bot, so whether a bot's own greeting can create that mindset is untested."
+  - "**An early field signal.** As the authors note, the airline chat logs had no purchase measure and nothing to compare the bot with."
+
+faq:
+  - q: "Are product recommendations from chatbots less persuasive than from people?"
+    a: "Often, yes. Labelling the agent a chatbot lowered willingness to pay for the product in one experiment and engagement in another, but mainly among people without a strong focus on growth and ideals (Khan et al., 2024)."
+  - q: "Promotion focus or prevention focus: what sets them apart?"
+    a: "A motivation centred on gains, growth and reaching ideals, described by regulatory focus theory. Its counterpart, prevention focus, centres on safety, duty and avoiding losses. People differ in which one usually leads, and a situation can bring either one forward for a while."
+  - q: "How can a chatbot encourage a promotion-focused mindset?"
+    a: "The authors suggest greetings and ad copy built on words such as progress, achieve and ideal. In their first experiment, a short message using such words removed the drop in buying for the chatbot, though the message came from the researchers rather than from the bot."
+  - q: "Are cautious, safety-minded customers more put off by chatbots?"
+    a: "Not in the live-chat experiment. Prevention focus did not affect how involved people felt in a chat with the bot, possibly because chatbots now feel routine rather than risky."
+  - q: "Why does engagement matter for chatbot sales?"
+    a: "Engagement, how absorbed and involved someone feels in the conversation, linked the bot label to purchase intention. Where the label lowered engagement, wanting to buy fell with it; where engagement held up, so did purchase intention."
+
+also:
+  - doi: "10.1177/10949968231195856"
+    title: "Examining the Impact of Sponsored Search Results on Choice: An Anchoring Perspective"
+    authors: "Bhattacharya, Robinson, Mookherjee, & Blöte"
+    journal: "Journal of Interactive Marketing"
+    year: 2024
+    text: >-
+      Paid listings often sit at the top of search results, and this paper asks how they affect the choice that follows.
+      Secondary data from a large hotel aggregator and a set of experiments show that a sponsored result ranked first acts
+      as an anchor that sways what people pick afterwards. How strongly it does so depended on how similar the other results
+      were and on how big the search screen was. The top paid slot shapes how shoppers judge the listings below it, not
+      only whether it wins the click.
+  - doi: "10.1177/10949968231196578"
+    title: "The Effects of Comparative Reviews on Product Sales"
+    authors: "Zhang et al."
+    journal: "Journal of Interactive Marketing"
+    year: 2024
+    text: >-
+      Reviews that compare a product with its alternatives work differently from ordinary ones. Classifying 61,480 reviews
+      on e-commerce platforms with supervised learning and a two-way fixed-effects model, the authors found comparative
+      reviews raised sales overall. Positive comparisons helped more than positive regular reviews, and negative
+      comparisons hurt less than negative regular ones; a follow-up lab study supported the results. Asking reviewers what else
+      they considered before buying may be worth a trial.
+
+charts:
+  tickets:
+    title: "Prize-draw tickets bought for the product, by agent and mindset message (average per person)"
+    scale: [0, 8]
+    step: 2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Person, cautious message", 6.69, false]
+      - ["Chatbot, cautious message", 2.58, true]
+      - ["Person, progress message", 4.31, false]
+      - ["Chatbot, progress message", 5.34, true]
+    source: "Experiment 1, US adults on Prolific, Table 2. Each ticket cost one cent of a 50-cent bonus; more tickets meant a better chance of winning the cup."
+
+related_pages: []
