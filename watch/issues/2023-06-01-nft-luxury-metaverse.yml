@@ -1,0 +1,260 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 21                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-06-01"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: nft-luxury-metaverse
+status: live
+
+title: "Why do people buy luxury fashion NFTs in the metaverse? What a Psychology & Marketing study found"
+dek: >-
+  Luxury houses now sell handbags, sneakers and outfits that exist only on avatars. Surveying people who use metaverse
+  platforms in two countries, researchers tied the wish to buy them to two things a brand controls: proof that an item
+  is genuine, and how few copies exist.
+short_title: "Why rarity and proof sell luxury NFTs"
+
+description: >-
+  Sung et al. find that among 469 American and Korean metaverse users, rare and blockchain-verified luxury NFTs were
+  tied to stronger intent to buy luxury.
+
+keywords: [luxury NFTs, NFT marketing, metaverse marketing, digital fashion, virtual fashion for avatars,
+  blockchain authenticity, scarcity marketing, fear of missing out, avatar self-image, cross-cultural luxury consumers,
+  Psychology & Marketing]
+topics: [Retail, Social media]
+
+image:
+  file: 2023-nft-luxury-metaverse.jpg
+  og: 2023-nft-luxury-metaverse-og.jpg
+  alt: "A woman in a red button-front dress and a black VR headset stands in profile before a wall-sized light installation of glowing blue, violet and red points joined by fine lines"
+  caption: "In a virtual world, an outfit can be verified, owned and sold on. Photo: Sara Kurig on Unsplash."
+
+short_answer: >-
+  For what an item could be resold for, and for what it says about its owner. Among 469 users of Fortnite, Roblox,
+  ZEPETO and similar platforms in the US and South Korea, both motives went with closer attention to whether a luxury
+  NFT was genuine and rare. Rarity and proof of authenticity went with a stronger expected boost from buying and a
+  stronger fear of missing out. Both feelings went with plans to spend more on luxury fashion.
+
+takeaways:
+  - "Platform habits split by country: 69.2% of the 146 US users played Fortnite against 13% of the 323 Korean users, while 46% of the Koreans used ZEPETO against 6.2% of the Americans."
+  - "South Korean men rated resale value as a reason to collect luxury NFTs at 4.63 out of 7, South Korean women at 4.08, about the scale's midpoint, which stands for neutral."
+  - "Among the 146 US users, a luxury brand that matched the person they wanted to be was linked to buying plans inside the metaverse but not to plans for luxury spending offline."
+  - "Of all the links compared between the two countries, just 1 differed significantly: proof of authenticity mattered more for Korean users' fear of missing out."
+
+paper:
+  doi: "10.1002/mar.21854"
+  title: "NFT luxury brand marketing in the metaverse: Leveraging blockchain-certified NFTs to drive consumer behavior"
+  authors: ["Sung, E. (C.)", "Kwon, O.", "Sohn, K."]
+  authors_full: ["Eunyoung (Christine) Sung", "Ohbyung Kwon", "Kwonsang Sohn"]
+  year: 2023
+  journal: "Psychology & Marketing"
+  volume: "40"
+  issue: "11"
+  pages: "2306-2325"
+  online: "2023-06-01"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Eunyoung (Christine) Sung"
+      affiliation: "Department of Marketing, Jake Jabs College of Business & Entrepreneurship, Montana State University, Bozeman, Montana, USA"
+      orcid: "0000-0003-1903-8538"
+    - name: "Ohbyung Kwon"
+      affiliation: "Provost Office, School of Management, Kyung Hee University, Seoul, South Korea"
+      orcid: ""
+    - name: "Kwonsang Sohn"
+      affiliation: "Management Information System, School of Management, Kyung Hee University, Seoul, South Korea"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One cross-sectional survey of 469 metaverse platform users in two country samples (146 US, 323 South Korea, each recruited by a research firm), analysed together with multigroup PLS-SEM plus a gender-by-country ANOVA"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Eunyoung (Christine) Sung of Montana State University,
+      Ohbyung Kwon of Kyung Hee University in Seoul and
+      Kwonsang Sohn, also of Kyung Hee University,
+      wanted to know why people pay for luxury fashion that exists only in virtual worlds. Luxury houses had begun
+      selling such items as NFTs (non-fungible tokens): records on a blockchain that certify an item as authentic and
+      show who owns it. Gucci and Burberry released NFT items for game characters, and Louis Vuitton built a game around NFT
+      characters of its own.
+
+      The team proposed a chain of links. People may value a luxury NFT for what it could be resold for, its economic
+      value, or for the impression it makes on others, its social value. Either motive should make them care more about
+      whether an item is authentic and how scarce it is. Those two qualities should then shape how people weigh the
+      purchase: what they expect to gain by buying, and what they fear losing by waiting. Those feelings, finally, should
+      lead to plans to buy luxury fashion, both in the metaverse and in physical life. A second route ran from how much
+      users care about their avatar's appearance, through social value, to how well a luxury brand matches the self they
+      aspire to.
+
+      To see whether culture changes the picture, the survey ran in the US, usually classed as an individualist
+      country, and in South Korea, usually classed as a collectivist one.
+    facts:
+      - ["Participants", "469 metaverse users who passed screening for platform use, attention and familiarity with NFTs: 146 in the US and 323 in South Korea, each group recruited through a market research firm"]
+      - ["Platforms", "Fortnite, Roblox, Horizon, ZEPETO and other gaming or social virtual worlds; most respondents used more than one"]
+      - ["Questions", "Seven-point agreement scales in English and Korean versions, checked by back-translation"]
+      - ["Measured", "Resale and social value of luxury NFTs, perceived authenticity and scarcity, importance of avatar looks, expected gains from buying, fear of missing out, fit with the ideal self, and plans to buy luxury, both virtual and physical"]
+      - ["Brands", "None named: people answered about luxury brand NFTs in general, and the ideal-self questions about a luxury brand of their choice"]
+      - ["Analysis", "PLS-SEM, which estimates many linked paths together, run for each country and compared between them; an analysis of variance for gender"]
+
+  - h: "From rarity and proof to the urge to buy"
+    body: |
+      The results are standardised path coefficients. As a rough guide, 0 means no link, values closer to 1 mean a
+      stronger one, and they can be compared within the model. Every link reported here was statistically significant
+      unless noted.
+
+      Both motives went with more attention to authenticity and to scarcity. All four of these links were significant
+      in both countries.
+
+      Rarity and authenticity then shaped how people weighed a purchase. For this step the authors draw both on prospect
+      theory, which holds that people feel a loss more strongly than a gain of the same size, and on game theory, in
+      which each buyer's choice depends on what other buyers might do. Two feelings were measured. One was the boost people expected from
+      owning the item: it would make them feel special and good about themselves. The other was fear of missing out:
+      regret if they did not buy now, and worry that the item would be gone tomorrow. Scarcity was tied to both, and
+      among Americans most of all to fear of missing out (0.483). Authenticity was tied to both as well, with smaller
+      coefficients than scarcity in the US sample.
+
+      Each feeling, in turn, was linked to intentions to purchase luxury items inside the metaverse. In the US the expected
+      boost was the stronger link; in South Korea the two were close to equal.
+    chart: metaverse
+
+  - h: "Avatars and the person users want to be"
+    body: |
+      The strongest link in the whole model, in both countries, was between the importance people give to their
+      avatar's looks and the weight they put on what luxury labels signal to others (0.611 in the US, 0.604 in South
+      Korea). The appearance questions asked, for example, whether dressing an avatar well is an important part of
+      metaverse life; the social image questions asked whether other members' views of luxury labels matter.
+
+      Both measures were linked to a third, which the authors call ideal self-image congruence: how closely a luxury
+      brand's personality matches the person someone hopes to be. That match went with plans to buy luxury in the
+      metaverse in both countries.
+
+      Buying plans for physical life showed a different pattern. The expected boost and the fear of missing out were
+      linked to them in both samples, but the ideal-self match only in South Korea. Among Americans, seeing a brand as a
+      match for their ideal self was not linked to intended luxury spending offline.
+    chart: realworld
+
+  - h: "Where the two countries differed"
+    body: |
+      A check on cultural outlook came out as expected. American respondents scored higher on individualism (4.87
+      against 4.44 out of 7) and Korean respondents higher on collectivism (4.47 against 4.17).
+
+      With the measures shown to work comparably in both languages, the team compared each link across the two samples.
+      Authenticity stood out: its link with fear of missing out was significantly stronger among Korean users, and so were
+      two longer chains passing through it, one starting from resale value and one from the importance of appearance.
+      The authors conclude that Korean buyers pay closer attention to ownership control, transparent transaction
+      histories and blockchain certificates.
+
+      A separate comparison of men and women looked only at the resale motive. The four groups differed overall, and
+      within South Korea men gave resale value more weight than women. American men, at 4.54, were close to Korean men.
+      The authors suggest that Korean women, among whom buying traditional luxury to be seen is common, may need time
+      before they treat digital fashion as an investment, and that they collect NFTs more for social reasons.
+
+  - h: "What the authors recommend"
+    body: |
+      The advice follows the two qualities that mattered. On authenticity: explain how the blockchain behind an item is
+      kept secure, working with platforms and transaction security firms; report whether a circulating copy is
+      unauthorised or counterfeit; and make each item's ownership history open, much like a car title in the US. They
+      would stress authenticity above all when selling to Korean consumers.
+
+      On scarcity: keep the number of copies small, for example for a special event or promotion, or as a reward in a
+      game. Before any release, decide its purpose, such as introducing gamers to the brand for later sales or selling to
+      existing luxury buyers. Then choose between gaming platforms, social spaces such as ZEPETO or others, test whether
+      items work across platforms, and expand step by step.
+
+      On audiences: for US buyers the authors would stress resale value; for South Korea, resale value to men and
+      social value to women.
+
+      Our own view, beyond the evidence here: two signals, a public ownership record and a stated edition
+      size, are simple to show on the product page of any digital collectible, luxury or not.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Name the purpose of each release", "Before you design a digital item, write one line on its job: to introduce younger players to the brand, or to sell to customers who already buy your products. Choose a game world for the first and a social avatar space for the second."]
+  - ["Find out where your buyers play", "Ask 50 customers in each country which two virtual worlds they use most. Launch only where at least one in five of them already spends time."]
+  - ["Set a small, public edition size", "Decide before launch how many copies of each item will exist, such as 300. Print the number on the item page and never reissue the same design."]
+  - ["Show proof of ownership on the item page", "List who issued the item, when, and every change of owner, with a link to the record. Add two lines on how to spot an unofficial copy and where to report it."]
+  - ["Test two messages per audience", "Write one message about how the item makes an avatar look and one about owning a verified, numbered piece that can be resold. Send each to half of one segment, such as women in one country, and compare sales after seven days."]
+  - ["Check whether virtual buyers shop in store", "Tag buyers of digital items in your customer records. Each month, compare their spending on physical products over the last 90 days with that of customers who never bought a digital item."]
+
+expect:
+  - "**Two kinds of buyer.** Some will come for resale potential, others for how an item looks on their avatar and what it tells other users. Rare, verified items appealed to both."
+  - "**Worry about missing out matters.** The fear of losing the chance to buy went with purchase intentions in both markets, so on our reading the timing and visibility of a release deserve the same attention as the design."
+  - "**A larger role for proof in South Korea.** Expect Korean buyers to look closely at ownership records and certificates; the authors advise leading with authenticity there."
+  - "**Effects beyond the platform are uncertain.** Real-world spending plans moved with the same feelings, but nobody's actual purchases were checked."
+
+limits:
+  - "**One survey, one moment.** All answers came from a single questionnaire, so the links are associations. The design cannot show that scarcity or proof of authenticity causes anyone to buy."
+  - "**Intentions only.** Buying plans were self-reported. No NFT sales or store purchases were recorded."
+  - "**No real brands.** Questions covered luxury NFTs as a category rather than a named house, and testing named brands is one of the next steps the authors propose."
+  - "**Resale in one statement.** The economic motive rested on a single agreement item about reselling without a loss in value."
+  - "**Two countries, one label each.** Each country stood for one cultural outlook, although many individuals and communities do not match their country's general pattern, a point the authors make themselves. The samples were also of unequal size."
+  - "**A fast-moving market.** NFT and metaverse markets change quickly; whether the same pattern holds now has not been tested; that caveat is ours."
+
+faq:
+  - q: "Why do consumers buy luxury fashion NFTs?"
+    a: "Two reasons stood out in a two-country survey of metaverse users: the chance to resell an item without losing value, and the impression a luxury label makes on others. Both made people pay more attention to whether an item was genuine and rare, which shaped how much they hoped to gain from buying and how much they feared missing out (Sung et al., 2023)."
+  - q: "Why does blockchain matter for digital fashion?"
+    a: "An NFT is a blockchain record that certifies a digital item and shows who owns it, and it allows the owner to sell it on. Buying one normally transfers ownership of the item, not its copyright, unless the contract says otherwise. Users who valued that proof expected more from buying and worried more about missing out."
+  - q: "Does limited supply make digital fashion more desirable?"
+    a: "It was linked to both a stronger expected boost and a greater concern that the chance to buy would pass. The authors suggest buyers may see chances to buy a luxury NFT as rare, so they buy when one appears, and they advise releasing fewer copies for special events, promotions or rewards in games."
+  - q: "Do metaverse luxury purchases carry over to real-world shopping?"
+    a: "Stated plans did. Users who expected a boost from a luxury NFT, or feared missing one, also said they would increase their luxury spending in physical stores, in both countries. Actual purchases were not tracked, so the effect on sales remains unknown."
+  - q: "Do American and Korean consumers see luxury NFTs differently?"
+    a: "Mostly not: the same chain of links held in both samples. Authenticity was the exception: it counted for more among Koreans when they weighed the risk of losing an item. Within South Korea, resale mattered more to men than to women."
+
+also:
+  - doi: "10.1111/ijcs.12940"
+    title: "Blockchain application in consumer services: A review and future research agenda"
+    authors: "Bhawna, Gupta, Rai, & Chauhan"
+    journal: "International Journal of Consumer Studies"
+    year: 2023
+    text: >-
+      Where is blockchain actually used in consumer services, and what holds it back? This hybrid review combined a
+      bibliometric analysis with a structured literature review of 417 documents from Web of Science and Scopus. It maps
+      publication trends, the main themes, theories, methods and settings, and the advantages and challenges of bringing
+      the technology to customers, and closes with open questions for researchers. A handy starting point for anyone asked
+      to justify a blockchain feature before it is built.
+  - doi: "10.1002/cb.2182"
+    title: "#sustainablefashion on Instagram: A content and network analysis of user-generated posts"
+    authors: "Skinner, Le Busque, Dorrian, & Litchfield"
+    journal: "Journal of Consumer Behaviour"
+    year: 2023
+    text: >-
+      What do people actually post under #sustainablefashion? Coding 650 Instagram posts, the researchers found most were
+      indoor photographs with no person and no nature in the frame. The hashtags used alongside it formed four
+      communities: online promotion, artisan and traditional craft, eco-ethical living, and online selling in Malay, with
+      secondhand clothing the most visible sustainable option. Before tagging a new collection, look at what already sits
+      under the tag: much of it is resale.
+
+charts:
+  metaverse:
+    title: "Links to plans to buy more luxury in the metaverse, South Korea highlighted (standardised path coefficients)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Expected boost, US", 0.472, false]
+      - ["Expected boost, South Korea", 0.341, true]
+      - ["Fear of missing out, US", 0.209, false]
+      - ["Fear of missing out, South Korea", 0.345, true]
+      - ["Ideal-self fit, US", 0.189, false]
+      - ["Ideal-self fit, South Korea", 0.233, true]
+    source: "One survey of 146 US and 323 South Korean metaverse users; PLS-SEM coefficients from the paper's results section and Figure 4. All six links were significant."
+  realworld:
+    title: "Links to plans to buy more luxury in the real world, South Korea highlighted (standardised path coefficients)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Expected boost, US", 0.445, false]
+      - ["Expected boost, South Korea", 0.321, true]
+      - ["Fear of missing out, US", 0.207, false]
+      - ["Fear of missing out, South Korea", 0.374, true]
+      - ["Ideal-self fit, US, not significant", 0.104, false]
+      - ["Ideal-self fit, South Korea", 0.211, true]
+    source: "Same survey and model; coefficients from the paper's results section and Figure 4. The US ideal-self link was not significant (p = 0.157)."
+
+related_pages: []
