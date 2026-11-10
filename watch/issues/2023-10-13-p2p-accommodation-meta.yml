@@ -1,0 +1,273 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 42                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-10-13"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: p2p-accommodation-meta
+status: live
+
+title: "What drives travellers to book peer-to-peer accommodation? What a Psychology & Marketing study found"
+dek: >-
+  Home-sharing platforms promise lower prices, distinctive homes and the chance to live like a local. A meta-analysis of
+  the survey evidence finds that the practical offer and the listing page carry the most weight in how guests judge a stay,
+  while the social promise adds little once those are counted.
+short_title: "What gets a home-share booked"
+
+description: >-
+  Ashaduzzaman et al. pool 54 studies of peer-to-peer stays: price, features and location tie most closely to perceived
+  quality, which in turn goes with booking.
+
+keywords: [peer-to-peer accommodation, Airbnb booking drivers, home sharing, short-term rental marketing, sharing economy,
+  perceived service quality, holiday rental listings, listing photos and website design, stimulus-organism-response model,
+  meta-analytic structural equation modelling, meta-analysis, Psychology & Marketing]
+topics: [Service, Research methods]
+
+image:
+  file: 2023-p2p-accommodation-meta.jpg
+  og: 2023-p2p-accommodation-meta-og.jpg
+  alt: "A man in a dark T-shirt and grey jeans, seen from the chest down, stands on a doormat at an open front door holding a large dark green suitcase in one hand and a smaller grey one in the other, a potted prickly pear cactus beside him in warm sunlight"
+  caption: "Price, place and the listing page all come before the doormat. Photo: Keith Pitts on Unsplash."
+
+short_answer: >-
+  Mostly the practical offer. Pooling 54 studies with 24,580 respondents, the researchers found that affordable prices, standout
+  features and a good location were most closely tied to how highly travellers rated a peer-to-peer stay, and that this quality
+  judgement went with choosing to book. In a model weighing every factor together, the website, quick replies and photos
+  came next. Social pulls such as meeting locals added little once the rest were counted.
+
+takeaways:
+  - "Across 46 studies and 22,069 respondents, the practical offer of price, features and place showed the strongest tie to perceived quality of the 4 groups of factors tested."
+  - "Letting each factor act on booking directly, and not only through perceived quality, lifted the part of booking the model could account for from 33% to 58%."
+  - "Social pulls, such as getting to know the host or feeling part of the neighbourhood, were the only group whose own route to booking fell short of significance once the other 3 were counted."
+  - "All 5 links in the model were significantly stronger in studies run in developed countries than in those run in developing countries."
+
+paper:
+  doi: "10.1002/mar.21916"
+  title: "A meta-analysis on peer-to-peer accommodation adoption"
+  authors: ["Ashaduzzaman, M.", "Weaven, S.", "Ross, M.", "Jebarajakirthy, C.", "Surachartkumtonkun, J.", "Maseeh, H. I."]
+  authors_full: ["Md Ashaduzzaman", "Scott Weaven", "Mitchell Ross", "Charles Jebarajakirthy", "Jiraporn Surachartkumtonkun", "Haroon Iqbal Maseeh"]
+  year: 2023
+  journal: "Psychology & Marketing"
+  volume: "40"
+  issue: "12"
+  pages: "2504-2525"
+  online: "2023-10-13"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Md Ashaduzzaman"
+      affiliation: "Department of Marketing, Griffith Business School Gold Coast Campus, Griffith University, Southport, Queensland, Australia"
+      orcid: "0000-0003-0862-0434"
+    - name: "Scott Weaven"
+      affiliation: "Department of Marketing, Griffith Business School Gold Coast Campus, Griffith University, Southport, Queensland, Australia"
+      orcid: ""
+    - name: "Mitchell Ross"
+      affiliation: "Department of Marketing, Griffith Business School Gold Coast Campus, Griffith University, Southport, Queensland, Australia"
+      orcid: ""
+    - name: "Charles Jebarajakirthy"
+      affiliation: "Department of Marketing, Griffith Business School Gold Coast Campus, Griffith University, Southport, Queensland, Australia"
+      orcid: "0000-0002-6814-257X"
+    - name: "Jiraporn Surachartkumtonkun"
+      affiliation: "Department of Marketing, Griffith Business School Gold Coast Campus, Griffith University, Southport, Queensland, Australia"
+      orcid: ""
+    - name: "Haroon Iqbal Maseeh"
+      affiliation: "Department of Marketing, Griffith Business School Gold Coast Campus, Griffith University, Southport, Queensland, Australia"
+      orcid: "0000-0002-0067-4086"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 54
+    basis: "Meta-analysis of 54 studies (independent samples) from 52 papers: 48 journal articles, 3 conference papers and 1 PhD thesis; 24,580 respondents in 16 countries. Reliability-corrected pooled correlations, a meta-analytic path model (MASEM) and a multilevel meta-regression on four design moderators"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Md Ashaduzzaman,
+      Scott Weaven,
+      Mitchell Ross,
+      Charles Jebarajakirthy,
+      Jiraporn Surachartkumtonkun and
+      Haroon Iqbal Maseeh,
+      all at the Department of Marketing on Griffith University's Gold Coast campus in Australia, wanted to explain a run of
+      conflicting results. Studies of why travellers choose homes listed on platforms such as Airbnb kept disagreeing.
+      One found that the social benefits of staying with a host mattered and another found they did not. Results on the
+      money guests save were just as mixed.
+
+      The team pooled the survey evidence and arranged it around the stimulus-organism-response model, which comes from
+      environmental psychology. Stimuli are what a traveller notices about an offer. The organism is the judgement the
+      traveller forms, here perceived service quality: how good and useful they expect the stay to be. The response is
+      adoption, meaning that a guest uses or books a shared home.
+
+      Earlier studies used many labels for similar ideas, so the team merged them into four groups. Service
+      characteristics cover affordable prices, distinctive features such as self check-in, and location, parking included.
+      Psychological aspects cover perceived risk, self-motivation, past experience and emotion. Social aspects cover the
+      benefits of a relationship with the host, a sense of belonging to the local community, and the sway of friends and
+      family. Technological aspects cover website design, how quickly the platform responds, and photos of hosts,
+      homes and amenities.
+    facts:
+      - ["Evidence base", "54 studies from 52 papers: 48 journal articles, 3 conference papers and 1 PhD thesis"]
+      - ["Where", "Surveys in 16 countries, led by the United States (18 studies), China and South Korea (5 each); samples ranged from 118 to 2,469 people"]
+      - ["Samples", "38 studies with non-students and 16 with students; 44 surveys run online and 10 offline"]
+      - ["Search", "14 databases, working-paper sites, ProQuest theses and Google Scholar; 351 papers found, English only"]
+      - ["Method", "Pooled correlations adjusted for unreliable measures, path analysis of the combined matrix, and multilevel meta-regression to test four design moderators"]
+
+  - h: "Reading the statistics"
+    body: |
+      Most results here are correlations adjusted for imperfect measures, which the paper writes as ρ. A value of 0 signals
+      no association, and 1 means the two move in perfect step. Next to each estimate sits a 95% confidence interval, a band that
+      probably contains the true value. When the whole band lies above zero, chance alone is an unlikely explanation.
+
+      The joint model reports path weights instead. A path weight shows how strongly one factor goes with another while
+      the remaining factors are held constant, which is why it usually comes out smaller than the plain correlation.
+
+  - h: "Which factors go with a better view of the stay?"
+    body: |
+      Looked at separately, all four groups went with perceived quality, and none of the confidence intervals came
+      near zero. The practical offer stood out at 0.522, with an interval of 0.469 to 0.571. Social aspects followed at
+      0.394, technology at 0.365 and the guest's psychological state at 0.347.
+
+      Perceived quality in turn tracked adoption at 0.443, pooled from 38 studies.
+
+      The averages hide a wide spread. For every pairing, heterogeneity was above 90%, so most of the spread from study to
+      study reflected real contrasts in settings and samples. The authors' prediction intervals show how far a single setting could stray from the
+      average: for social aspects, anywhere from 0.097 to 0.691.
+    chart: bivariate
+
+  - h: "What happens when all four are weighed together?"
+    body: |
+      Single correlations can overlap, because the four groups also go together. In the pooled data, social aspects and
+      the practical offer correlated at 0.62, for instance. To separate them, the team ran a path analysis on the full
+      set of pooled correlations.
+
+      The first version, in which every factor reached booking only through perceived quality, fitted the data poorly.
+      Adding direct routes from each group to booking gave a good fit, and the findings below come from that revised
+      model.
+
+      In it, the practical offer carried the largest weight on perceived quality (0.366), followed by technology (0.272).
+      The psychological group counted for little on quality (0.070) but had a sizeable direct link with booking (0.288),
+      close to that of perceived quality itself (0.321). Social aspects carried a weight of only 0.019 on quality, still
+      statistically significant, while their own path to booking (0.010) fell short of significance.
+
+      By our reading, social appeal overlaps so much with the offer and the technology that little of it is left over once
+      those are accounted for. The paper offers no test of that idea.
+    chart: paths
+
+  - h: "Where were the links stronger?"
+    body: |
+      With so much spread between studies, the team tested whether four features of study design could explain it: the
+      country, student versus non-student samples, online versus offline surveys, and the sample size.
+
+      Country of study mattered for every path. Price, features and location correlated with perceived quality at 0.671
+      in developed countries and 0.548 in developing ones, and perceived quality with adoption at 0.511 against 0.410.
+
+      Student samples showed stronger links for social aspects (0.391 against 0.283 for non-students) and for technology
+      (0.415 against 0.342), but not for the other three paths. Offline surveys gave stronger links than online ones for
+      the psychological group, for technology and for quality with adoption. The largest difference was for technology,
+      0.459 against 0.297. Smaller samples produced a stronger link only between perceived quality and adoption (0.437
+      against 0.342 in larger ones).
+
+      Taken together, the four moderators cut the unexplained variation considerably. For the practical offer and quality,
+      the share of variation beyond chance fell from 97% to 65%.
+
+  - h: "The authors' advice"
+    body: |
+      The authors turn the results into suggestions for platforms and hosts. These are their recommendations; the
+      meta-analysis itself did not test them.
+
+      On the offer, they propose pricing by tier: low for a room, bathroom and kitchen, and higher for extras such as a home
+      cinema or a barbecue. They also call for simple booking and cancellation, flexible check-in and check-out, secure
+      payment, and homes close to public transport, shops and restaurants.
+
+      To reduce perceived risk, they suggest digital locks and inviting guests to post reviews about security, the host's
+      behaviour and trustworthiness. They also want every detail a guest needs to decide alone, from fees to cancellation
+      terms, set out in full. For the social side, hosts could connect with guests on social media, and platforms could
+      list homes in neighbourhoods where guests can mix with locals.
+
+      For technology, they recommend websites that work in every browser, a booking app and live chat that answers
+      questions at any hour. Because the student samples gave more weight to social and technology factors, they advise
+      stressing both to younger guests. Treating students as stand-ins for young travellers is the authors' own
+      extrapolation.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Check the listing's basics", "Open your listing on a phone as a first-time guest would. Check that the full price with fees, the exact area and your three strongest features show before any scrolling. Move anything a guest has to hunt for to the top."]
+  - ["Put every rule in one place", "Write one short block with every fee, the arrival and departure times and the cancellation terms. Use real amounts and plain words. Place it right next to the booking button."]
+  - ["Reshoot the photos in daylight", "Take 15 to 20 photos on a bright day: every room, the entrance, the view and the walk to the nearest bus or tram stop. Lead with the one shot that shows what makes your place different from a hotel room."]
+  - ["Reply within the hour", "Write saved answers to the five questions guests ask most. Turn on message alerts on your phone. Answer every enquiry within one hour between 8 am and 10 pm."]
+  - ["Ask guests to review the stay itself", "Send every guest one message the day after checkout. Ask them to mention how the check-in went, how safe they felt and how easy the host was to reach. Thank everyone who posts."]
+  - ["Change one thing a month", "Pick one element to change: the price, the lead photo or the description. Leave it in place for 28 days. Then set bookings per 100 listing views against the 28 days before the switch, and hold on to the new version only if the figure rose."]
+
+expect:
+  - "**The basics carry most weight.** Cost, standout amenities and the neighbourhood were what guests' quality judgements rested on most, so they are the likeliest place to start."
+  - "**The listing page counts twice.** Web design, speedy replies and pictures went with a better quality judgement and also had their own link with booking. On our inference, work on the page can help on both counts."
+  - "**Social extras are a bonus.** Meeting the host or joining local life may please guests, but in these studies it added little to the booking decision beyond what the offer and the page already do."
+  - "**Mindset matters, risk unclear.** Perceived risk, past experience, emotion and self-motivation, taken as one group, had a direct link with booking. The authors' advice on reducing risk follows from this, but the review does not isolate risk from the other three."
+
+limits:
+  - "**Surveys only.** Every study in the pool was a survey, so the results show which factors go together, not what causes a booking. The authors add that predictors and outcomes may have come from the same respondents, a source of bias known as common method variance that they could not correct across studies."
+  - "**Broad groups.** Price, novelty and location were merged into one factor, and so were website design, response speed and photos. Which single element matters most is left open."
+  - "**What counts as adoption.** The outcome merges measures of using and booking peer-to-peer accommodation from different studies, and the article gives no count of how many recorded actual bookings rather than stated intentions."
+  - "**English and quantitative work only.** Papers in other languages and qualitative studies were left out, and 21 papers were dropped because the statistics needed could not be obtained from their authors."
+  - "**A revised model.** The direct routes to booking were added after the first model fitted poorly, with support from earlier studies. Testing the final structure on fresh data would show whether it holds."
+
+faq:
+  - q: "What makes people choose peer-to-peer accommodation such as Airbnb?"
+    a: "The practical offer comes first. Affordable rates, unusual features and a convenient spot showed the strongest pooled tie to how guests rated a stay, and that rating was in turn tied to booking. The guest's own mindset and the listing's website and photos also had direct links with booking (Ashaduzzaman et al., 2023)."
+  - q: "Does meeting the host or local people make guests more likely to book?"
+    a: "Not on its own, according to this evidence. Social benefits, community belonging and the opinions of friends did go with higher quality ratings when examined alone. Once price, location, technology and mindset entered the model, they added very little, and they had no reliable route of their own to booking."
+  - q: "Do listing photos and fast replies help a home-share get booked?"
+    a: "They sit in the technology group, along with website design. That group had the second-largest link with perceived quality in the joint model and its own significant path to booking. Because the review grouped the three together, it cannot show the effect of photos alone."
+  - q: "Why do studies of Airbnb guests reach different conclusions?"
+    a: "Partly because of how they were run. Links were stronger in developed countries, in offline surveys for three of the five paths, in student samples for social and technology factors, and in small samples for the link between quality and booking. Together these four design features explained much of why results differed."
+
+also:
+  - doi: "10.1007/s11747-023-00972-0"
+    title: "The local environment matters: Evidence from digital healthcare services for patient engagement"
+    authors: "Aljafari, Soh, Setia, & Agarwal"
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2024
+    text: >-
+      Hospitals increasingly offer digital services meant to engage patients, but their effect on performance has been
+      unclear. Data from a national sample of 941 hospitals in 157 regions showed that the region shaped the result. Where
+      more of the population had access to computing, a hospital's digital services did more to cut readmissions and raise
+      patient satisfaction. Wider health insurance coverage weakened that combined effect on readmissions, though not in the
+      same way for satisfaction. A digital service can only do as much as its users' access to it allows.
+  - doi: "10.1007/s11002-023-09702-6"
+    title: "Sports fandom in the metaverse: marketing implications and research agenda"
+    authors: "Chohan & Schmidt-Devlin"
+    journal: "Marketing Letters"
+    year: 2024
+    text: >-
+      How should sports leagues, teams and athletes reach their fans in the metaverse? Drawing on market examples and
+      earlier research through social identity theory, this conceptual paper argues for exclusive experiences that
+      strengthen fans' identification with what they support, ways for fans to show their fandom and connect with other
+      fans, and immersive spaces where fans meet each other and the brand. It closes with a research agenda on experiences,
+      personalisation and inclusivity. A club planning a virtual venue might begin with what it lets fans do together,
+      not only what they can watch.
+
+charts:
+  bivariate:
+    title: "How closely each group tracked perceived quality (corrected correlation, 0 = no link)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Price, features and location", 0.522, true]
+      - ["Social aspects", 0.394, false]
+      - ["Technological aspects", 0.365, false]
+      - ["Psychological aspects", 0.347, false]
+    source: "Bivariate meta-analysis (Table 4): reliability-corrected pooled correlations with perceived service quality, from 33 to 46 studies per pair; every 95% confidence interval excludes zero."
+  paths:
+    title: "Direct links with booking when all factors are weighed together (path weight)"
+    scale: [0, 0.35]
+    step: 0.05
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Perceived quality", 0.321, true]
+      - ["Psychological aspects", 0.288, false]
+      - ["Technological aspects", 0.122, false]
+      - ["Price, features and location", 0.108, false]
+      - ["Social aspects (not significant)", 0.010, false]
+    source: "Revised meta-analytic path model (Table 6), fitted to the pooled correlation matrix; every weight is significant at p < 0.001 except social aspects."
+
+related_pages: []
