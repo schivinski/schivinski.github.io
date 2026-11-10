@@ -1,0 +1,236 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 48                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-11-30"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: speak-or-type-chatbots
+status: live
+
+title: "Should a shopping chatbot let customers speak or type? What a Journal of the Academy of Marketing Science study found"
+dek: >-
+  Most chatbots expect customers to type. Five experiments show that speaking leads people towards choices made on
+  feeling and typing towards choices made on reasons, and that people like their pick more when the mode suits the product.
+short_title: "Speak or type: fitting the chatbot to the product"
+
+description: >-
+  Schindler et al. show that shoppers who speak to a chatbot pick more pleasure buys, those who type pick practical ones,
+  and a fitting mode lifts satisfaction.
+
+keywords: [conversational agents, chatbots, voice assistants, voice commerce, voice versus text, conversational commerce,
+  hedonic and utilitarian products, choice satisfaction, preference fluency, brand equity, chatbot design,
+  Journal of the Academy of Marketing Science]
+topics: [AI, Retail]
+
+image:
+  file: 2023-speak-or-type-chatbots.jpg
+  og: 2023-speak-or-type-chatbots-og.jpg
+  alt: "A bearded man with dark hair in a black puffer jacket smiles with his mouth open and looks up on a city square at night, a black wireless earbud in his ear, blurred billboards, street lights and office windows glowing behind him"
+  caption: "Speaking to a device rather than typing may change what we end up buying. Photo: eldhose kuriyan on Unsplash."
+
+short_answer: >-
+  It depends on what you sell. Across five experiments involving more than 1,000 people, speaking to a shopping
+  assistant raised the odds that people picked options bought for enjoyment, while typing favoured practical ones.
+  People were also more satisfied with their choice when the mode suited the product. Speaking helped a little-known
+  brand more than a market leader.
+
+takeaways:
+  - "In a hotel-booking chat, 56% of the people who spoke chose the hotel described by enjoyment features such as a city view, while 70% of those who typed chose the one described by practical features such as a nearby subway station."
+  - "When people were randomly told to send a voice or a text message about two new films, 66% of voice senders picked the action film and 63% of typists picked the documentary."
+  - "Given a free choice, about two in three people typed rather than spoke: 67% in the hotel booking and 66% in a tablet purchase."
+  - "For a minor tablet brand with 0.3% of the US market, people who spoke rated their chance of buying it clearly higher than people who typed. For the market leader, with 52%, the mode made no significant difference."
+
+paper:
+  doi: "10.1007/s11747-023-00987-7"
+  title: "How speaking versus writing to conversational agents shapes consumers’ choice and choice satisfaction"
+  authors: ["Schindler, D.", "Maiberger, T.", "Koschate-Fischer, N.", "Hoyer, W. D."]
+  authors_full: ["David Schindler", "Tobias Maiberger", "Nicole Koschate-Fischer", "Wayne D. Hoyer"]
+  year: 2024
+  journal: "Journal of the Academy of Marketing Science"
+  volume: "52"
+  issue: "3"
+  pages: "634-652"
+  online: "2023-11-30"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Springer page)
+    - name: "David Schindler"
+      affiliation: "GfK-Chair of Marketing Intelligence, Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Nuremberg, Germany"
+      orcid: ""
+    - name: "Tobias Maiberger"
+      affiliation: "Darmstadt University of Applied Sciences, Darmstadt, Germany"
+      orcid: ""
+    - name: "Nicole Koschate-Fischer"
+      affiliation: "GfK-Chair of Marketing Intelligence, Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), Nuremberg, Germany"
+      orcid: "0000-0002-7024-8277"
+    - name: "Wayne D. Hoyer"
+      affiliation: "James L. Bayless/William S. Farish Fund Chair for Free Enterprise, McCombs School of Business, University of Texas at Austin, Austin, TX, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 5
+    basis: "Five experiments as listed in the paper's Table 1 (final samples 143, 107, 141, 191 and 444); Study 3 is summarised in the text and reported in full in Web Appendix G; a branded follow-up (Web Appendix E) and an initial food-court field study (Web Appendix J) are not counted; pretests not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Working at Friedrich-Alexander-Universität Erlangen-Nürnberg (David Schindler and Nicole Koschate-Fischer), Darmstadt University of Applied Sciences (Tobias Maiberger) and the University of Texas at Austin (Wayne D. Hoyer), four researchers looked at a design choice that most chatbot projects settle by default.
+      Text is cheaper and easier to build, so typing is the norm. Yet more assistants now accept speech, and some already
+      offer both.
+
+      Their starting point was a difference between the two modes. Speech happens on the spot, with little planning, so it
+      tends to be personal and emotional. Writing gives time to organise thoughts, which makes it more structured and built
+      on reasons. Products bought for enjoyment, such as a weekend hotel, are usually judged on feelings, and products bought
+      to get a task done are judged on reasons. When the mode fits the product, the team expected choosing to feel easier
+      and the result to feel right.
+
+      Five experiments followed, each modelled on an assistant a real company uses: booking a weekend hotel in London,
+      choosing between two films by voice or text message, ordering snacks from a delivery assistant, picking a student flat
+      with help from an agent called Mia, and weighing up two tablet brands with an agent called Aria. Every spoken answer was
+      transcribed and, with the typed ones, run through a standard text-analysis tool that scores how analytical language is,
+      from 1 to 100.
+    facts:
+      - ["Participants", "Five samples of 107 to 444 people: university students in the first four, members of the Prolific online panel in the fifth"]
+      - ["Settings", "Hotel booking, cinema choice, snack delivery, student flats and tablets"]
+      - ["What changed", "Speaking or typing to the agent, products pitched on enjoyment or on practicality, and in the last test a leading or a minor brand"]
+      - ["Measured", "The option chosen; satisfaction, ease of choosing and purchase intention, each on a seven-point rating; how analytical people's words were"]
+      - ["Checks", "Pretests confirmed which options read as enjoyment-led or practical and, in most tests, that the options were equally liked"]
+
+  - h: "Speakers chose the enjoyable option more often"
+    body: |
+      In the hotel test people could decide for themselves how to talk to the agent, and their words differed clearly by
+      mode. Spoken answers scored 41.4 on the analytical scale, below its neutral point of 50, while typed answers scored
+      65.8. That difference in focus went on to explain which hotel people picked.
+
+      Self-selection could account for this, since people who like to talk might also like hotels with a view. So the film
+      test assigned people at random to record a voice message or type one, and nobody received a reply. Spoken messages
+      scored 31.1 and typed ones 57.3, and the choice of film followed the same pattern.
+
+      The snack test, summarised in the paper and reported in full in its online appendix, extended the result to food.
+      People who typed their order to the digital assistant more often chose the snacks rated as functional, vegan meatballs
+      and herb cheese balls, over the indulgent cheesy pizza balls and deep-fried rice balls. They also ordered somewhat
+      fewer pieces, although the appendix reports that difference as only marginally significant.
+
+  - h: "A fitting mode left people happier with their pick"
+    body: |
+      The flat test asked a different question: not which kind of product people chose, but how they felt about a choice
+      made within one kind. Some participants saw three flats pitched on enjoyment, with features such as the view, and
+      others saw three pitched on practical points such as the distance to the city centre. Each then spoke or typed their
+      thoughts to Mia before choosing.
+
+      Satisfaction was highest where mode and product matched: speaking about flats pitched on enjoyment, and typing about
+      flats pitched on practicality. The mismatched pairs scored lower. For the practical flats, the higher satisfaction came
+      through a sense that choosing had been easy. For the enjoyment flats, that route pointed the expected way but was not
+      significant, so the proposed explanation is supported for practical products only.
+    chart: satisfaction
+
+  - h: "Speaking helped the lesser-known brand"
+    body: |
+      The last test used real brands, because invented ones carry no brand equity. Participants saw two equally priced
+      tablets presented for entertainment, one from Apple and one from Acer, and told Aria what mattered to them when buying
+      a tablet. Some could decide whether to speak or type, and the rest were assigned a mode.
+
+      Speaking raised interest in Acer, while Apple's scores barely moved and the small change was not significant.
+      Whether people picked the mode or were given it did not change that pattern. The authors suggest Apple was attractive enough to need no extra help, while a
+      brand people know less about benefits more from a way of judging it that suits the product. Only entertainment
+      products were tested here, so a matching advantage for typing about practical products from minor brands is the
+      authors' expectation, not a result.
+    chart: brand
+
+  - h: "Design advice from the authors"
+    body: |
+      The advice follows the match. Firms selling mainly enjoyment products, such as travel, entertainment, fragrance or
+      fast food, could add voice to the assistants on their own sites and apps. Firms selling mainly practical products
+      could stay with text chat, including messaging apps. Retailers with both could link a voice agent from enjoyment
+      product pages and a text agent from practical ones, or let customers choose. Ready-made speech tools from large
+      platforms, the authors note, make this possible without building an agent from scratch.
+
+      Two further suggestions concern food and smaller brands. Grocers and delivery services that want healthier baskets
+      may prefer text ordering and should be cautious about moving to voice. Minor brands sold next to market leaders could
+      invite customers to speak about enjoyment products, for example through a promotion that asks for a voice message.
+      Both are recommendations drawn from lab and online results, not tested in live stores.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your range by why people buy", "List your 20 best-selling products. Mark each one as bought mainly for enjoyment, such as trips, films or treats, or mainly for a job, such as printers, insurance or spare parts. Ask two colleagues to do the same and settle any item you disagree on."]
+  - ["Check what your chat tool can do", "Find out whether your current chatbot accepts voice input. If it does not, look at the speech features your platform or cloud provider already offers before you build anything new."]
+  - ["Add a voice button to enjoyment pages", "On product pages for enjoyment buys, place a clearly visible button that opens the assistant ready to listen. Open with a question about feelings, such as \"Tell me what you would love about this trip.\""]
+  - ["Keep typing first on practical pages", "On pages for practical products, open the chat with the text box ready and ask about needs, specifications and budget. Leave a small microphone icon for people who prefer to talk."]
+  - ["Start with your lesser-known brands", "If you sell a smaller brand next to market leaders, trial voice there first. Pick three of its products bought for fun and offer the voice option to every second visitor for four weeks."]
+  - ["Ask buyers how happy they are with their pick", "Seven days after each purchase, send one question: how satisfied are you with what you chose, from 1 to 7? Once a month, set the scores and return rates of voice buyers beside those of text buyers."]
+
+expect:
+  - "**Changes in the mix.** Speaking made enjoyment-led choices more likely, but in every test a sizeable share of speakers still picked the practical option."
+  - "**No penalty for offering voice.** People who spoke in the hotel test rated comfort, difficulty, the service, the online experience and their privacy concerns no differently from people who typed."
+  - "**Typing remains the habit for now.** Most people still pick text when offered both; the authors expect voice to win acceptance as speech technology improves."
+  - "**Food orders may follow the mode.** Voice ordering went with more indulgent snack choices, so food sellers who care about healthier baskets should weigh that before adding it."
+
+limits:
+  - "**Lab and online settings.** Every test used staged scenarios rather than live shopping. No website traffic or sales were tracked; field tests are the next step the authors propose."
+  - "**Students in most tests.** The first four experiments recruited university students; the tablet test alone recruited from a wider online panel."
+  - "**Enjoyment products only in the brand test.** The advantage for the minor brand was shown with tablets framed for entertainment; the practical side is assumed, not shown."
+  - "**Satisfaction explained on one side only.** A sense that choosing was easy accounted for the satisfaction gain with practical flats, but not significantly with enjoyment-led ones."
+  - "**Mostly stated choices.** Choices were made in scenarios, some with a small reward attached, and the brand test measured intentions rather than purchases."
+
+faq:
+  - q: "Should shopping chatbots take voice, text or both?"
+    a: "Ideally both, steered by the product. Speaking to a conversational agent made people favour, and feel better about, enjoyment purchases, and typing did the same for practical ones, across five experiments with hotels, films, snacks, flats and tablets (Schindler et al., 2024)."
+  - q: "Is there a reason speaking and typing lead to different choices?"
+    a: "Speech is spontaneous and personal, so people talk about how they feel. Writing allows planning, so people set out reasons. Text analysis confirmed that spoken answers were less analytical than typed ones. Enjoyment products are judged on feelings and practical products on reasons, so a mode that suits the product makes choosing feel easier."
+  - q: "What do hedonic and utilitarian mean in marketing?"
+    a: "Hedonic means bought mainly for pleasure or experience, for example an action film or a hotel with a fine view. Utilitarian means bought to meet a functional need, for example an informative documentary or a hotel close to the subway. Many products have both sides, and how a product is presented can stress either one."
+  - q: "Can voice help a small brand compete with a big one?"
+    a: "In a tablet test it did. Speaking rather than typing raised people's intention to buy from Acer, a brand with a small market share, while intention for Apple stayed about the same. The authors suggest that minor brands gain most because shoppers know less about them."
+  - q: "Does it matter whether customers choose the mode themselves?"
+    a: "Not for these effects. The same patterns appeared when people picked speaking or typing freely and when they were assigned one at random, so a liking for talking cannot explain them."
+
+also:
+  - doi: "10.1007/s12525-023-00668-x"
+    title: "Information provision measures for voice agent product recommendations— The effect of process explanations and process visualizations on fairness perceptions"
+    authors: "Weith & Matt"
+    journal: "Electronic Markets"
+    year: 2023
+    text: >-
+      Voice assistants that recommend products offer little on-screen information, and their reasoning stays hidden, so
+      users can feel treated unfairly. In two experiments, the researchers added either an explanation of how a
+      recommendation was reached or a visualisation of that process. Explanations improved perceived fairness while
+      visualisations did not, and explanations based on the user's own profile and past purchases worked best. A sentence
+      on why an item was suggested may do more than a graphic.
+  - doi: "10.1007/s12525-023-00673-0"
+    title: "Seeking empathy or suggesting a solution? Effects of chatbot messages on service failure recovery"
+    authors: "Haupt, Rozumowski, Freidank, & Haas"
+    journal: "Electronic Markets"
+    year: 2023
+    text: >-
+      Chatbots often fail to give a suitable answer, and disappointed users then stop using them. Across three experiments,
+      a recovery message after a failure improved satisfaction and willingness to use the chatbot again. A message
+      proposing a solution led users to see the bot as more competent, while one asking for their understanding made it
+      come across as warmer; which worked better depended on who was blamed for the failure and how often it happened. The wording of a
+      bot's apology deserves as much planning as its answers.
+
+charts:
+  satisfaction:
+    title: "Satisfaction with the chosen student flat, by mode and how the flats were pitched (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Enjoyment-led flats, spoke", 5.88, true]
+      - ["Enjoyment-led flats, typed", 5.32, false]
+      - ["Practical flats, spoke", 5.13, false]
+      - ["Practical flats, typed", 5.92, true]
+    source: "Study 4, 191 university students choosing among three flats; means as printed in the paper (Fig. 2). Both differences within a flat type were significant."
+  brand:
+    title: "Intention to choose each tablet brand after speaking or typing to the agent (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Acer (minor brand), spoke", 4.54, true]
+      - ["Acer (minor brand), typed", 3.56, false]
+      - ["Apple (market leader), spoke", 4.96, false]
+      - ["Apple (market leader), typed", 5.09, false]
+    source: "Study 5, 444 Prolific participants, tablets presented for entertainment; means as printed in the paper (Fig. 3). The difference for Apple was not significant."
+
+related_pages: []
