@@ -1,0 +1,298 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 17                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-05-12"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: luxury-youtube-comments
+status: live
+
+title: "How do YouTube comments on luxury brands change with the brand's price tier? What a Psychology & Marketing study found"
+dek: >-
+  Luxury brands spend heavily on video, and the comments under it hold more than any view count. Software read the
+  comments under 88 brand videos and found that the way people write shifts with the brand's tier, most of all for
+  cars and beauty.
+short_title: "What YouTube comments reveal about luxury tiers"
+
+description: >-
+  Oc et al. analyse 29,128 YouTube comments on nine luxury brands: entry-level brands drew candid wording, top-tier
+  cars and beauty more analytical talk.
+
+keywords: [luxury brand marketing, YouTube comments, electronic word of mouth, eWOM analysis, LIWC, automated text
+  analysis, sentiment analysis, emoji sentiment, face recognition demographics, luxury video marketing, brand
+  luxuriousness, Psychology & Marketing]
+topics: [Social media, UGC, Research methods]
+
+image:
+  file: 2023-luxury-youtube-comments.jpg
+  og: 2023-luxury-youtube-comments-og.jpg
+  alt: "Extreme close-up of black pebbled leather edged with a diagonal line of bright orange twisted stitching, the edge falling away into darkness"
+  caption: "The closer a luxury brand is to reach, the more personal the talk around it. Photo: Yehor Parkhomenko on Unsplash."
+
+short_answer: >-
+  It changes, at least for cars and beauty. Across 29,128 English comments on 88 YouTube videos from nine luxury brands,
+  the most accessible brand in each category drew the most personal, candid wording, while comments on the pricier car
+  and beauty brands were more analytical. Fashion showed the fewest differences between tiers. The commenters' gender and
+  age, estimated by AI from profile pictures, also changed how the tier related to what people wrote.
+
+takeaways:
+  - "In all 3 categories, comments on the entry-level luxury brand (BMW, Burberry, Lush) scored highest for authentic, personal wording."
+  - "In cars and beauty, the middle tier drew the most positive wording: Charlotte Tilbury's comments scored 71.97 out of 100 for tone, against 61.61 for Chanel Beauty and 60.43 for Lush."
+  - "For all 9 brands, the emojis in comments were more positive on average than the words around them."
+  - "Of commenters whose age the AI could estimate, 76.9% to 83.3% per category were aged 20 to 39, and just 4.4% of beauty commenters were 40 or older."
+
+paper:
+  doi: "10.1002/mar.21831"
+  title: "Luxury is what you say: Analyzing electronic word-of-mouth marketing of luxury products using artificial intelligence and machine learning"
+  authors: ["Oc, Y.", "Plangger, K.", "Sands, S.", "Campbell, C. L.", "Pitt, L."]
+  authors_full: ["Yusuf Oc", "Kirk Plangger", "Sean Sands", "Colin L. Campbell", "Leyland Pitt"]
+  year: 2023
+  journal: "Psychology & Marketing"
+  volume: "40"
+  issue: "9"
+  pages: "1704-1719"
+  online: "2023-05-12"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Yusuf Oc"
+      affiliation: "King's Business School, King's College London, London, UK"
+      orcid: "0000-0001-5707-4551"
+    - name: "Kirk Plangger"
+      affiliation: "King's Business School, King's College London, London, UK"
+      orcid: "0000-0002-0354-9707"
+    - name: "Sean Sands"
+      affiliation: "Department of Management and Marketing, Swinburne University of Technology, Melbourne, Australia"
+      orcid: "0000-0001-9192-3676"
+    - name: "Colin L. Campbell"
+      affiliation: "Knauss School of Business, University of San Diego, California, San Diego, USA"
+      orcid: ""
+    - name: "Leyland Pitt"
+      affiliation: "Beedie School of Business, Simon Fraser University, Burnaby, Canada"
+      orcid: "0000-0002-3099-9164"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One observational field dataset: 29,128 English comments on 88 official YouTube videos of nine luxury brands, analysed with LIWC, TextBlob, an emoji sentiment library and Clarifai face analysis"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Yusuf Oc of King's College London,
+      Kirk Plangger, also of King's College London,
+      Sean Sands of Swinburne University of Technology,
+      Colin L. Campbell of the University of San Diego and
+      Leyland Pitt of Simon Fraser University
+      set out to read what people write under luxury brands' YouTube videos. Views and likes can be counted in seconds.
+      Comments are harder to use: they arrive in thousands, in everyday language, with emojis mixed in. The question
+      was whether the way people write changes with how luxurious a brand is, with the kind of product it sells and with
+      who is writing.
+
+      They chose three categories that match Copeland's classic types of goods. Beauty stood for convenience goods,
+      bought easily and with minimal inconvenience. Fashion stood for shopping goods, which people compare on price, quality and
+      style. Sports cars stood for specialty goods, which people make a special effort to obtain. Within each category
+      they placed one brand in each of three tiers, based on the relative average price of its products: premium (the
+      most accessible), prestige, and exquisite (the most expensive and scarce).
+
+      From each brand's official channel they took the ten most popular videos with at least 50 comments. Hermès and
+      Alexander McQueen had only nine such videos each, which made 88 videos in all. A Python program collected the
+      comments. The team then removed comments not in English and those shorter than two words, including comments made
+      only of emojis.
+    facts:
+      - ["Data", "33,251 comments collected from 88 videos on the brands' official YouTube channels; English comments of two words or more kept"]
+      - ["Brands", "Cars: BMW, Porsche, Ferrari. Fashion: Burberry, Hermès, Alexander McQueen. Beauty: Lush, Charlotte Tilbury, Chanel Beauty"]
+      - ["Tiers", "Premium, prestige and exquisite, in that order within each category, set by relative average price"]
+      - ["Text measures", "Word count and four LIWC scores from 0 to 100, plus a text sentiment score (TextBlob) and an emoji sentiment score"]
+      - ["Commenters", "Age, gender and ethnicity estimated by a commercial face-recognition service (Clarifai) from public profile pictures"]
+      - ["Comment length", "From 2 to 869 words, 13.54 on average"]
+
+  - h: "How software read the comments"
+    body: |
+      LIWC, short for Linguistic Inquiry and Word Count, matches each word against a built-in dictionary of almost 6,400
+      words, word stems and emoticons, and turns the counts into scores. The team used four summary scores, each running
+      from 0 to 100. Analytical thinking rises with formal, logical language. Clout reflects confidence and social
+      status, and goes up when writers use "we" and "you" more and "I" less. Authenticity picks up honest, personal and
+      humble wording. Emotional tone rises with more positive wording, and the authors read scores above 50 as positive.
+
+      Two more tools added sentiment. TextBlob, a Python language library, gave the words of each comment a sentiment
+      score. A second library, built on an established emoji sentiment ranking, scored the emojis and averaged them when
+      a comment had several. For commenters whose public profile picture showed a face, Clarifai estimated age, gender
+      and ethnicity.
+
+      Each brand was compared only with the other two brands in its category, using Scheffe tests, which hold the
+      error rate in check when many pairs are compared at once.
+
+  - h: "The most accessible brand drew the most candid comments"
+    body: |
+      Authenticity gave the most consistent result. In every category, comments on the premium brand scored
+      significantly higher than comments on both pricier brands: BMW against Porsche and Ferrari, Burberry against
+      its two fashion rivals, Lush against Charlotte Tilbury and Chanel Beauty. Beauty showed the widest spread,
+      and there the two upper tiers also differed from each other.
+
+      The authors explain this by access: premium brands are within reach for many people. Writing honestly and personally
+      about something you own, or could own, comes more easily than writing about something you will probably never
+      buy. That is their interpretation: who owned what was not measured.
+    chart: authenticity
+
+  - h: "Pricier cars and beauty brands drew more analytical comments"
+    body: |
+      For cars, analytical thinking rose with each step up the tiers, from BMW to Porsche to Ferrari, and all three
+      brands differed significantly from one another. Beauty followed a similar order, with Chanel Beauty well ahead of
+      Charlotte Tilbury and Lush, and again every pair differed. Among the fashion brands, only Hermès and Burberry
+      differed.
+
+      For the cars, the authors reason that a Ferrari or a Porsche is an aspiration for most viewers rather than a
+      likely purchase. That does not stop people discussing performance, features and technical specifications at
+      length, and such talk reads as analytical.
+
+      Comment length followed its own pattern. People wrote more about BMW (14.08 words on average) than about Porsche
+      or Ferrari, and Chanel Beauty drew the shortest comments in beauty, at 10.77 words. Fashion showed the reverse of
+      the car pattern: Burberry drew the briefest fashion comments, at 12.41 words, against 16.20 for Hermès and 18.47
+      for Alexander McQueen.
+    chart: analytic
+
+  - h: "Porsche and Charlotte Tilbury drew the most positive tone"
+    body: |
+      Tone did not simply rise or fall with price. Among the cars, Porsche comments scored highest, at 54.70, and BMW
+      comments, at 48.17, were the only ones of all nine brands below the neutral midpoint of 50. All three car brands
+      differed from one another. In beauty, Charlotte Tilbury's comments were the most positive of any brand in the
+      data. TextBlob's sentiment scores ranked the car and beauty brands in the same order as LIWC tone, and the two
+      measures correlated at 0.62. The three fashion brands showed no significant
+      differences on either measure.
+
+      Clout, the confidence score, gave mixed results. Beauty commenters wrote with more clout about Chanel Beauty
+      (56.65) and Charlotte Tilbury (56.30) than about Lush (50.18). For cars the pattern was reversed, with Ferrari
+      comments lower on clout (44.17) than those on Porsche or BMW. Among fashion brands, clout did not vary significantly.
+
+  - h: "Emojis and words gave different readings"
+    body: |
+      Emoji use was common enough that the team scored emojis separately from the text. The two sentiment scores were
+      only weakly related (a correlation of 0.25), and emoji sentiment was linked just as weakly to LIWC tone. This
+      fits earlier work, cited by the authors, showing that people use emojis mainly to express positive reactions.
+
+      By our arithmetic, the largest difference between the two scores was for Ferrari: 0.50 for emojis against 0.16
+      for the words. Among the car brands, BMW had the lowest emoji score, at 0.38. On our reading, a sentiment tracker that reads only
+      the words would miss much of what commenters signal with emojis.
+
+  - h: "Who was commenting"
+    body: |
+      Of the commenters the face analysis could profile, men made up 77.1% on the car videos and women 80.0% on the
+      beauty videos, while fashion was close to an even split. Black, Asian and minority ethnic commenters (BAME, the
+      paper's grouping) made up 62.0% of profiled car commenters, 53.1% for fashion and 50.0% for beauty, and in every
+      category the premium brand had the highest share. Few commenters were aged 40 or above: 12.2% on car videos and
+      11.2% on fashion videos.
+
+      A multivariate analysis then asked whether the link between tier and comment style varied by commenter. It varied
+      with gender: as the tier rose, comments written by men became longer, more analytical, more confident and more
+      positive, according to the authors. Age mattered for mood alone, with a higher tier and an older commenter going
+      together with more positive tone and sentiment. These are associations in field data, and every demographic figure
+      is a machine estimate from a photo, not something the commenters reported.
+
+  - h: "What the authors suggest"
+    body: |
+      They see text tools such as LIWC as useful to brand teams, not only to researchers, for following the conversation
+      about a brand. Fine distinctions within a category matter: a brand that some people see as the height of luxury,
+      others see as ordinary. A premium brand can accept that position and the larger market it brings, or aim for a
+      higher tier, which the authors expect to mean lower unit sales and higher marketing costs. They point to trading up,
+      as Toyota did with Lexus and Nissan with Infiniti, and to the risks of trading down, launching a cheaper version
+      under a prestigious name.
+
+      They also note that BAME commenters were a smaller share for the most exclusive brand in each category, and suggest
+      more inclusive content as a response. Word count, in their view, can serve as one measure of engagement. Their
+      proposed next step is experiments that vary a brand's tier in a video, which would test cause and effect.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Export the comments from ten videos", "Download every comment from your ten most-watched brand videos on YouTube. Remove comments of one word or emojis only, and keep one language per batch."]
+  - ["Choose four things to score", "Score each comment for length, how formal it sounds, how personal it sounds and how positive it is. Ready-made text-analysis tools handle a full batch in one run. Score emojis on their own, apart from the words."]
+  - ["Score two rivals the same way", "Run the same scoring on the videos of two competitors in your category, one priced above you and one below. Compare a car brand with car brands and a beauty brand with beauty brands, never across categories."]
+  - ["Read twenty comments by hand", "Pick the ten highest and ten lowest scoring comments for each brand and read them. Check that the scores match what people actually say before anyone acts on them."]
+  - ["Shape the next video to the talk", "If most comments discuss features and performance, give the next video more detail to discuss. If they share personal stories, end the video with a question that invites more of them."]
+  - ["Repeat the scoring every quarter", "Score the ten newest videos every three months and plot the four scores on one chart. Look again at any video whose comments turn shorter or less positive than your usual level."]
+
+expect:
+  - "**Off-the-shelf tools.** The analysis ran on ready-made software: a word-counting program, a Python sentiment library, an emoji library and a paid face-recognition tool."
+  - "**Clearer results in some categories.** Cars and beauty showed many differences between tiers; fashion showed few, possibly because, in the authors' view, their three fashion brands were not far enough apart."
+  - "**A partial picture of the audience.** Age, gender and ethnicity could be estimated only where a profile photo included a face, so any audience profile built this way covers part of the commenters."
+  - "**Style, not sales.** The scores describe how people write about a brand. The study did not connect comments to purchases, visits or brand tracking."
+
+limits:
+  - "**Associations only.** Field data like these cannot show that a brand's tier causes the differences in comments, as the authors acknowledge."
+  - "**Nine brands, three categories, one platform.** Other brands, product types or sites such as TikTok, review websites and forums may show different patterns."
+  - "**Tiers are a judgement call.** Brands were placed by relative average price; the authors themselves ask whether Hermès and Burberry, or a lower-end Ferrari and an upper-end Porsche, are far enough apart."
+  - "**English comments only.** Comments in other languages were dropped, and the role of national culture was not examined."
+  - "**The videos were not coded.** The content of the videos themselves was not analysed, so, on our reading, some differences could come from the videos rather than the brands."
+  - "**Machine estimates of people.** Age, gender and ethnicity are AI estimates from profile pictures, not commenters' own reports."
+
+faq:
+  - q: "Do people comment differently on luxury brands at different price levels?"
+    a: "Yes, on this evidence. For cars and beauty, comments on the most expensive brands used more analytical language, and in all three categories the most affordable luxury brand drew the most personal wording. Fashion brands differed least (Oc et al., 2023)."
+  - q: "LIWC: what does it measure?"
+    a: "LIWC is a program that checks each word of a piece of writing against a dictionary of psychologically meaningful categories. Its summary scores, each out of 100, describe how analytical, confident, authentic and positive a piece of writing is."
+  - q: "Can AI estimate who is commenting on a brand's videos?"
+    a: "This team ran public profile pictures through a commercial face-analysis tool to estimate age, gender and ethnicity. It works only where a picture shows a face, and its output is an estimate, not a fact about the person."
+  - q: "Should sentiment analysis count emojis?"
+    a: "In these comments, the two signals diverged. Emoji scores were more positive and only weakly related to the sentiment of the text, so a reading based on words alone would understate positive reactions."
+  - q: "Should a premium brand try to move up a tier?"
+    a: "The authors frame it as a choice. Staying premium keeps a larger market; moving up may raise status while reducing unit sales and adding to marketing spend. The study compared existing brands and did not test a repositioning."
+
+also:
+  - doi: "10.1002/mar.21827"
+    title: "Let me take a #selfie #variety: How consumer selfie affects variety seeking"
+    authors: "Jeong, Wang, & Suri"
+    journal: "Psychology & Marketing"
+    year: 2023
+    text: >-
+      Shoppers who expect to take a selfie with what they buy choose a wider variety of products. Field, online and
+      laboratory studies, plus a content analysis of Instagram posts, showed that a planned selfie made people more
+      concerned with how they come across, and that concern increased variety seeking. The effect weakened when the
+      selfie was to be taken with a group, and it depended on how self-conscious people were. A selfie campaign may
+      broaden what goes into the basket, and a solo shot looks the likelier trigger than a group photo.
+  - doi: "10.1177/10946705231169674"
+    title: "Partners or Opponents? How Mindset Shapes Consumers’ Attitude Toward Anthropomorphic Artificial Intelligence Service Robots"
+    authors: "Han, Deng, & Fan"
+    journal: "Journal of Service Research"
+    year: 2023
+    text: >-
+      Should a service robot look and act human? Three studies found that it depends on the customer's mindset.
+      People in a competitive frame of mind responded less favourably to a humanlike AI robot than to a machine-like one,
+      while people in a collaborative frame of mind responded more favourably. Feeling psychologically close to the robot
+      explained the difference, and the distance at which the interaction took place moderated it. Before giving a robot
+      a face, consider whether the encounter feels like teamwork or a contest to the customer.
+
+charts:
+  authenticity:
+    title: "Authenticity of comments, by brand (LIWC score, 0 to 100)"
+    scale: [0, 50]
+    step: 10
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Cars: BMW (premium)", 40.77, true]
+      - ["Cars: Porsche (prestige)", 36.72, false]
+      - ["Cars: Ferrari (exquisite)", 36.95, false]
+      - ["Fashion: Burberry (premium)", 28.74, true]
+      - ["Fashion: Hermès (prestige)", 24.75, false]
+      - ["Fashion: McQueen (exquisite)", 25.63, false]
+      - ["Beauty: Lush (premium)", 33.28, true]
+      - ["Beauty: Tilbury (prestige)", 24.61, false]
+      - ["Beauty: Chanel (exquisite)", 20.60, false]
+    source: "Table 4, mean LIWC authenticity of comments on each brand's YouTube videos. In each category the premium brand scored significantly higher than both others (Scheffe tests)."
+  analytic:
+    title: "Analytical thinking in comments, by brand (LIWC score, 0 to 100)"
+    scale: [0, 70]
+    step: 10
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Cars: BMW (premium)", 55.95, false]
+      - ["Cars: Porsche (prestige)", 60.92, false]
+      - ["Cars: Ferrari (exquisite)", 63.45, true]
+      - ["Fashion: Burberry (premium)", 51.90, false]
+      - ["Fashion: Hermès (prestige)", 56.10, false]
+      - ["Fashion: McQueen (exquisite)", 53.47, false]
+      - ["Beauty: Lush (premium)", 40.13, false]
+      - ["Beauty: Tilbury (prestige)", 42.91, false]
+      - ["Beauty: Chanel (exquisite)", 53.97, true]
+    source: "Table 4, mean LIWC analytical thinking. All three car brands differed from one another, as did all three beauty brands; among fashion brands only Hermès and Burberry differed."
+
+related_pages: []
