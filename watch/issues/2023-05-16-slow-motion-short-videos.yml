@@ -1,0 +1,261 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 18                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-05-16"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: slow-motion-short-videos
+status: live
+
+title: "Does slow motion make short-form videos and ads more appealing? What a Journal of Marketing Research study found"
+dek: >-
+  Slow motion is everywhere in reels, stories and GIFs. Seven studies, from online experiments to a sample of GIFs on a
+  sharing site, show that it makes clips easier to watch and more likeable, and that brands benefit too, provided there is
+  complex, pleasant movement to slow down.
+short_title: "When slow motion makes a short video more appealing"
+
+description: >-
+  Stuppy et al. find slow motion makes short looping clips more liked and lifts brand choice, as long as the movement is
+  complex and the content pleasant.
+
+keywords: [slow motion video, short-form video, Instagram reels, TikTok video editing, video ad creative, GIF marketing,
+  processing fluency, dynamic complexity, brand liking, willingness to pay, Journal of Marketing Research]
+topics: [Creative, Social media, Advertising]
+
+image:
+  file: 2023-slow-motion-short-videos.jpg
+  og: 2023-slow-motion-short-videos-og.jpg
+  alt: "A woman with long blonde hair in a black swimsuit throws her head back in a lake, a wide arc of water droplets frozen in mid-air behind her, with pine trees and a pale sky beyond"
+  caption: "Fast, intricate movement is where slowing down helps most. Photo: Jonathan Cooper on Unsplash."
+
+short_answer: >-
+  Often, yes. In six experiments and a field data set of 514 GIFs, slowed-down clips were liked more than the same
+  clips at normal speed, because they felt easier to watch. The benefit came from footage full of complex movement and
+  pleasant content, and it carried over to brands shown alongside. Slowing very simple motion or unpleasant scenes
+  lowered liking, and viewers looking for excitement showed no gain.
+
+takeaways:
+  - "When two unfamiliar sportswear brands were shown beside basketball clips, 279 of 403 people (69.2%) picked a voucher for the brand paired with slow motion."
+  - "Viewers of a hotel video that slowed down after its first 1.5 seconds would pay $152.70 a night on average, against $140.33 when it switched from slow to normal speed instead."
+  - "Asked how they wanted to rewatch each clip, people chose slow motion for 2.73 of 4 pleasant clips but only 0.84 of 4 unpleasant ones."
+  - "Zooming in strengthened the effect: close-cropped clips scored 4.62 slowed and 4.18 at normal speed (scale 1 to 7), while wide shots differed less (4.57 against 4.43)."
+
+paper:
+  doi: "10.1177/00222437231179187"
+  title: "The Art of Slowness: Slow Motion Enhances Consumer Evaluations by Increasing Processing Fluency"
+  authors: ["Stuppy, A.", "Landwehr, J. R.", "McGraw, A. P."]
+  authors_full: ["Anika Stuppy", "Jan R. Landwehr", "A. Peter McGraw"]
+  year: 2024
+  journal: "Journal of Marketing Research"
+  volume: "61"
+  issue: "2"
+  pages: "185-203"
+  online: "2023-05-16"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (SAGE author notes and ORCID iDs)
+    - name: "Anika Stuppy"
+      affiliation: "Tilburg School of Economics and Management, Tilburg University, Netherlands"
+      orcid: "0000-0002-7604-5622"
+    - name: "Jan R. Landwehr"
+      affiliation: "Goethe University Frankfurt, Germany"
+      orcid: "0000-0001-5433-8865"
+    - name: "A. Peter McGraw"
+      affiliation: "Leeds School of Business, University of Colorado Boulder, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 7
+    basis: "Seven studies: six online experiments (Studies 1, 2a, 2b, 2c, 4a, 4b; 199, 212, 296, 401, 403 and 600 adults on MTurk and Prolific) and one field data set of 514 GIFs (Study 3); speed and valence pretests, the complexity validation and two experiments reported only in the web appendix not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Anika Stuppy of Tilburg University,
+      Jan R. Landwehr of Goethe University Frankfurt and
+      A. Peter McGraw of the University of Colorado Boulder
+      asked why slow motion is so popular in short-form video, and when it actually helps. They count 8.5 million
+      Instagram videos tagged #slowmotion, and 60.5 billion views for TikToks carrying the same tag. Brands use the effect
+      as well, for models walking a runway or a burger patty flipping through the air.
+
+      Earlier work gave reasons for doubt. Radio played faster than normal has been liked more than radio at normal pace,
+      and slowed-down scenes of actors eating in TV ads can look posed. The team's idea was different: slowing a clip
+      reduces the visual information arriving each second, so the clip demands less effort to watch, and that ease feels
+      pleasant.
+
+      They tested this with very short clips, up to five seconds long, that played in a loop, as on a feed. Regular-speed
+      versions were made by raising the frame rate of slow-motion footage. In most of the experiments people saw slow and regular clips
+      one after another, much as they do when scrolling through reels.
+    facts:
+      - ["Studies", "Six online experiments and one field data set"]
+      - ["Participants", "Between 199 and 600 adults per experiment, recruited on MTurk in the US and on Prolific in the UK"]
+      - ["Clips", "More than 600 short videos across the studies, covering sport, nature, food, fashion and more, looped and 1 to 5 seconds long"]
+      - ["Field data", "514 GIFs from a GIF-sharing website, 236 tagged slow motion and 278 drawn at random, collected in September 2020"]
+      - ["Measured", "Liking, how easy a clip was to watch, rewatch choices, liking of two brands, a gift-voucher choice, interest in a hotel and what a night there was worth to people"]
+
+  - h: "Why a slower clip feels better"
+    body: |
+      In the first experiment, 199 US adults rated 14 clips, among them a basketball dunk, a breaking wave, a strawberry
+      dipped in chocolate and a model on a runway. For each clip, chance decided whether a person saw the slow-motion or
+      the regular-speed version.
+
+      The slowed versions came out ahead, with average liking of 5.38 compared with 5.20 for regular speed, out of a
+      maximum of 7. People also rated them as easier to process, and that ease accounted for the difference in liking. Psychologists call this processing fluency: when
+      something is easy to perceive, the ease brings a mild good feeling, and people credit that feeling to whatever they
+      are looking at.
+
+      An extra experiment in the online appendix pitted this explanation against others, such as noticing more
+      visual detail or feeling more stimulated. Ease of processing came out as the stronger account.
+
+  - h: "Slow motion needs complex movement"
+    body: |
+      To put a number on how much a clip moves, the team built an algorithm that compares every frame with the average
+      of all the frames in the clip. The more the frames differ, the higher the clip's dynamic complexity, on a scale from
+      0 to 1. The ten simplest clips chosen for the second experiment scored .02 or less, and the ten most complex
+      between .44 and .73.
+
+      There, 212 US adults each rated 15 of 30 clips chosen to span that range. Averaged over all clips, speed made no
+      difference. What mattered was complexity: clips scoring above .29 were liked more in slow motion, while clips below
+      .19 were liked less. The authors suggest that slowed-down simple motion may just have been boring.
+
+      The next experiment kept the content the same. The team took five clips, such as a cross-country skier, and cropped
+      away the still background so the movement filled the frame, which raised complexity from .12 to .23 on average.
+      Among 296 US adults, slow motion did more for these close-cropped versions than for the wide shots. Ease of watching
+      explained both the overall slow-motion benefit and the extra benefit for the cropped clips.
+    chart: complexity
+
+  - h: "Pleasant scenes gain, unpleasant ones lose"
+    body: |
+      The third experiment turned to valence, whether a clip is pleasant or unpleasant to watch. Here 401 UK adults saw
+      either four pleasant clips, such as puppies playing, or four unpleasant ones, such as a man spitting, each at both
+      speeds. The two sets had about the same amount of movement. Afterwards, people chose a speed for rewatching each
+      clip, and one clip was then played back at the speed they had picked.
+
+      Slow motion raised liking of the pleasant clips and lowered it for the unpleasant ones, which averaged 3.79 when
+      slowed and 4.32 at regular speed, measured the same way. In the authors' interpretation, ease of processing
+      intensifies whatever feeling a scene already carries. They suggest that campaigns against drunk driving, or
+      charities, could slow down distressing footage to make it feel more intense, a use this research did not test.
+
+  - h: "Evidence from a GIF website"
+    body: |
+      For a check outside the lab, the team collected every GIF tagged slow motion on a GIF-sharing site, plus a random
+      sample of other GIFs: 514 once duplicates and one poor-quality file were removed. The GIFs averaged 125,691 views. Because views, votes and
+      star ratings depend on one another, the authors combined votes per view with the star rating into a single score of
+      how well liked each GIF was.
+
+      Slow-motion GIFs scored higher overall, and the lab pattern returned. Among the more complex GIFs, taken at one
+      standard deviation over the mean, slow-motion GIFs scored 0.18 against 0.14 for the others; for simpler GIFs the
+      two were nearly level, at 0.15 and 0.14. Pleasant content showed a similar advantage for slow motion.
+
+      These are observed data, not an experiment. Once the analysis allowed for each GIF's length and pixel size,
+      the complexity pattern was only marginally significant, and the pleasantness pattern was no longer significant.
+
+  - h: "From the clip to the brand"
+    body: |
+      Two experiments moved from liking a clip to judging a brand. In the first, 403 US adults saw the logos of two
+      sportswear brands that a pretest had found equally attractive and equally unfamiliar. One logo appeared beside three
+      slow-motion basketball clips, the other beside three regular-speed ones, each on screen for five seconds. Which brand
+      got which speed was rotated across participants.
+
+      The slow-motion brand was liked more. The difference was largest for people who said they had relied on gut
+      feeling. For those one standard deviation toward that end of the scale, liking stood at 5.08 out of 7 with slow
+      motion and 4.03 without; at the same distance toward careful thought, it was 4.46 against 4.01. In the
+      voucher raffle that followed, the brand people picked was unrelated to how they had judged.
+
+  - h: "Thrill seekers and the hotel ad"
+    body: |
+      The last experiment used a hotel promotion showing a skier carving down a mountain. Here 600 US adults first
+      imagined they wanted either an exciting, thrilling holiday or a relaxing, tranquil one, and the ad's slogan matched
+      that goal. Everyone saw just one version. In one, the video ran at normal speed for 1.5 seconds and then slowed
+      down; in the other, it opened in slow motion and then returned to normal speed.
+
+      Slow motion raised interest in staying at the hotel, but only among people seeking relaxation. For those after
+      excitement, interest was about the same at both speeds. Risk is the authors' explanation: footage that is harder
+      to take in feels slightly risky, which suits someone looking for a thrill. The price people would pay rose with
+      slow motion whichever holiday they had in mind.
+    chart: goal
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your footage by movement", "Go through your clips and mark the ones where a lot changes from frame to frame, such as a splash, a spin, a pour or a jump. Mark shots of people standing, talking or holding up a product as normal-speed shots."]
+  - ["Keep slow motion for pleasant moments", "Ask two colleagues to label each marked shot as pleasant, neutral or uncomfortable. Slow down only the pleasant ones, and leave anything uncomfortable at normal speed unless you want it to feel more intense."]
+  - ["Move in close on small actions", "If the action is small, crop or film tighter until the moving part takes up half the frame or more. A close-up of icing piped onto a cake makes a better slow-motion shot than a wide view of the kitchen."]
+  - ["Cut short loops with a speed change", "Edit clips of one to five seconds that loop cleanly. Open with one or two seconds at normal speed, then slow down for the key moment."]
+  - ["Match the speed to the mood you sell", "Use slow motion for calm, pleasant offers such as a spa weekend, a coffee pour or a soft fabric. For adventure and thrill offers, make a normal-speed cut as well and let the results decide."]
+  - ["Run slow against normal for a week", "Launch the slowed and the normal-speed version of the same clip as two ad sets with equal budgets. After a week, compare link clicks, shares and saves for each 1,000 people reached, keep the winner, then test the next clip."]
+
+expect:
+  - "**A real but variable benefit.** Pooled across five of the lab experiments, the slow-motion effect came to 0.38 on Hedges' g, a common measure of the difference between two conditions in standard deviations, and its size varied a good deal from one experiment to the next."
+  - "**Best with viewers who decide on instinct.** The brand benefit faded to nothing for anyone scoring above 5.23 on the processing-style question, where 1 meant pure gut feeling and 7 careful thought. On our reading, fast-moving feeds suit slow motion better than pages where people compare specifications."
+  - "**Contrast helps.** In an extra test from the appendix, slow clips were liked more among regular-speed clips than among other slow clips. If every clip in a sequence is slowed, expect less from each one; that is our inference from this result."
+  - "**Cheap to try.** Phones and social apps already offer slow motion, so testing a slowed cut against a normal one costs little more than an extra ad version."
+
+limits:
+  - "**Very short clips.** Every clip lasted between one and five seconds. Longer ads with a story, a voice-over or a product demonstration were not tested."
+  - "**Vision only.** The research covered what people see. The authors list the effect of speed on other senses, such as hearing, as an open question."
+  - "**Fast motion untested.** The experiments compared slow motion with regular speed only. Speeding clips up for thrill-seeking audiences is the authors' suggestion, not a result."
+  - "**Survey ratings, not feeds.** Participants were paid online panel members rating clips in a survey rather than people scrolling their own feeds; only the GIF data came from real platform behaviour."
+  - "**Some expected differences did not appear.** How much people trust their intuition, how involved they are with a product category, and whether a product is hedonic or practical did not change the slow-motion effect."
+
+faq:
+  - q: "Does slow motion increase engagement on short-form video?"
+    a: "It can. Clips were rated higher when slowed than at their normal speed, and on a website for sharing GIFs, the slow-motion ones did better on a combined measure of votes per view and star rating, mainly when they showed complex, pleasant movement (Stuppy et al., 2024)."
+  - q: "Why is a slowed-down clip more appealing?"
+    a: "Because slowed movement is easier to process. Fewer things change on screen each second, viewers find the clip easier to follow, and that ease produces a mild positive feeling they attach to the video. Ratings of ease explained the extra liking both in the opening experiment and in the zoom test."
+  - q: "When does slow motion make a video worse?"
+    a: "When there is little movement to see, or when the scene is unpleasant. Clips with very simple motion were liked less when slowed, and slowing unpleasant clips, such as a person spitting, lowered liking instead of raising it."
+  - q: "Can slow motion in an ad help a brand?"
+    a: "In these tests, yes. Logos shown next to slow-motion clips were liked more and chosen more often in a voucher raffle. A hotel ad that switched into slow motion after its opening seconds raised interest in a stay among people wanting to relax, and lifted the price people were willing to pay."
+  - q: "Should adventure brands avoid slow motion?"
+    a: "Not necessarily, but they should not expect much from it. For people wanting a thrilling holiday, the slowed version brought no significant rise in interest. The authors suggest regular or faster playback for such audiences; faster playback itself was not tested."
+
+also:
+  - doi: "10.1177/00222437231171848"
+    title: "The Early Impact of GDPR Compliance on Display Advertising: The Case of an Ad Publisher"
+    authors: "Wang, Jiang, & Yang"
+    journal: "Journal of Marketing Research"
+    year: 2024
+    text: >-
+      When an ad publisher began asking users with EU IP addresses for explicit consent under the GDPR, ad performance,
+      bid prices and ad revenue fell only modestly. This was a pay-per-click publisher able to use both user behaviour and
+      page content, with high consent rates. The losses followed changes in consent rates over time and were largest for
+      travel and financial services advertisers, smallest for retail and packaged goods. Ads on pages with relevant content
+      lost less, so a well-matched page can make up for part of what personal data used to supply.
+  - doi: "10.1093/jcr/ucad027"
+    title: "When Connection Turns to Anger: How Consumer–Brand Relationship and Crisis Type Moderate Language on Social Media"
+    authors: "Mosley, Schweidel, & Zhang"
+    journal: "Journal of Consumer Research"
+    year: 2024
+    text: >-
+      Posts left on 39 brands' Facebook pages during 77 brand crises show that the language of a backlash depends on who
+      is posting and what went wrong. People with no earlier interaction with the brand wrote in more familiar,
+      self-referencing terms after values-related crises, but expressed more anger after performance failures. Those who
+      had interacted with the brand before were angrier after values-related crises. Social listening during a crisis is
+      more useful when it separates past engagers from newcomers.
+
+charts:
+  complexity:
+    title: "Liking of short clips by speed and amount of movement (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Simple movement, regular speed", 4.30, false]
+      - ["Simple movement, slow motion", 3.91, false]
+      - ["Complex movement, regular speed", 4.16, false]
+      - ["Complex movement, slow motion", 4.59, true]
+    source: "Study 2a, 212 US adults each rating 15 of 30 looped clips; estimated means one standard deviation below and above average dynamic complexity (Appendix, Table A1)."
+  goal:
+    title: "Interest in staying at the hotel after its video, by holiday goal and speed (1 to 5 scale)"
+    scale: [1, 5]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Relaxing trip, regular speed", 2.22, false]
+      - ["Relaxing trip, slow motion", 2.75, true]
+      - ["Exciting trip, regular speed", 2.99, false]
+      - ["Exciting trip, slow motion", 3.08, false]
+    source: "Study 4b, 600 US adults, one video per person (Appendix, Table A1). The difference between speeds was significant for relaxation seekers only."
+
+related_pages: []
