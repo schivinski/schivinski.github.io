@@ -1,0 +1,275 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 20                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-05-22"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: tv-ads-online-sales
+status: live
+
+title: "Does TV advertising really lift online sales, or just move them earlier? What a Journal of Marketing Research study found"
+dek: >-
+  Measurement tools credit a TV spot with the visits and bookings that arrive in the minutes after it airs. A regional test
+  by a large online travel agent found that rise was real, but much of it was activity people would otherwise have done later.
+short_title: "TV ads that move online sales earlier"
+
+description: >-
+  Lambrecht et al. find TV spots raised a travel site's visits and sales within minutes, but over a 15-day test the total
+  barely moved: activity came earlier.
+
+keywords: [TV advertising effectiveness, television and online sales, attribution window, intertemporal substitution,
+  purchase acceleration, moment marketing, second screen, geo test, synthetic difference-in-differences,
+  paid search and travel aggregators, online travel agent, Journal of Marketing Research]
+topics: [Advertising, Research methods]
+
+image:
+  file: 2023-tv-ads-online-sales.jpg
+  og: 2023-tv-ads-online-sales-og.jpg
+  alt: "Two hands in violet evening light, one holding a phone with a blank screen and the other a TV remote, in front of a glowing television and a tablet with a keyboard on a wooden table, both blurred"
+  caption: "The ad plays on one screen and the visit starts on another. Photo: Jakub Żerdzicki on Unsplash."
+
+short_answer: >-
+  Mostly the second, in this case. A leading online hotel-booking firm aired TV ads in 11 of 126 areas for 15 days and kept
+  the rest as a comparison. Online visits and sales rose in the hour or two after each spot. At campaign times with no recent
+  spot, they then fell below what the comparison areas predicted. Across the whole campaign, the net effect on sessions and
+  sales was statistically indistinguishable from zero.
+
+takeaways:
+  - "In the half hour after a spot, average sessions in the TV areas rose from 21.5 to 22.1, a 3% lift that a short attribution window would credit to TV."
+  - "Paid routes such as travel comparison sites and paid search carried 56.6% of traffic and sales, and only through these did TV raise sessions and sales over the whole campaign."
+  - "Desktops and laptops brought 48.5% of sessions but 66.4% of sales, and only on these did TV add visits and sales across the campaign; phones and tablets showed no net change."
+  - "Just 6.8% of sessions included a price-promotion page, yet they produced 16.8% of sales; straight after a spot, it was the sessions without such pages that grew."
+
+paper:
+  doi: "10.1177/00222437231180171"
+  title: "TV Advertising and Online Sales: A Case Study of Intertemporal Substitution Effects for an Online Travel Platform"
+  authors: ["Lambrecht, A.", "Tucker, C.", "Zhang, X."]
+  authors_full: ["Anja Lambrecht", "Catherine Tucker", "Xu Zhang"]
+  year: 2024
+  journal: "Journal of Marketing Research"
+  volume: "61"
+  issue: "2"
+  pages: "248-270"
+  online: "2023-05-22"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (SAGE author notes and ORCID iDs)
+    - name: "Anja Lambrecht"
+      affiliation: "London Business School, UK"
+      orcid: ""
+    - name: "Catherine Tucker"
+      affiliation: "MIT Sloan School of Management, USA"
+      orcid: "0000-0002-1847-4832"
+    - name: "Xu Zhang"
+      affiliation: "London Business School, UK"
+      orcid: "0000-0002-7640-0225"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One field test (regional TV split, 11 treated and 115 control areas, 4,920,968 sessions, 2015) analysed with an event study and synthetic difference-in-differences; robustness and placebo checks not counted as studies"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Anja Lambrecht and
+      Xu Zhang of London Business School, with
+      Catherine Tucker of MIT Sloan School of Management,
+      partnered with a firm ranked among the world's ten largest online travel agents, which sells hotel stays. Their question
+      is a practical one. Measurement services often credit TV with whatever happens online in the minutes after a spot
+      airs. A short window makes the link easy to see, but it cannot show what happens to visits and bookings hours or
+      days later.
+
+      The firm had planned a test of its own. In a country with one of the ten largest economies, it aired a brand campaign for 15
+      days in 11 areas, each a town or city with its surroundings, and showed no TV ads in the other 115. For the four
+      weeks before, no area saw TV ads at all. The spots lasted 10 or 30 seconds, were cut from one humorous holiday film
+      that named no hotel, and said nothing about prices or offers. On an average day, 14 spots ran across three channels
+      of one network, 284 seconds of airtime in all.
+
+      The team matched the broadcaster's spot-by-spot log with the firm's clickstream: every page view, with its time,
+      place, device and how the visitor got there. The TV areas were busier than the others to begin with,
+      so the authors used synthetic difference-in-differences. This method reweights the comparison areas and the
+      weeks before the campaign so that, beforehand, the comparison group moves in step with the TV areas. Changes after
+      the first spot can then be attributed to TV.
+    facts:
+      - ["Firm", "A top-ten global online travel agent selling hotel stays"]
+      - ["Test", "11 areas with TV and 115 without over 15 days, after four weeks with no TV anywhere; data from 2015"]
+      - ["Traffic", "4,920,968 online sessions, of which 305,884 ended in a booking (a 6% conversion rate)"]
+      - ["Typical booking", "A stay of about 2.2 days costing $605 on average"]
+      - ["Campaign size", "Comparable, in TV spend per person, to the top 5% of the 500 largest US packaged-goods brands"]
+      - ["Method", "An event study with 2- to 60-minute windows, then synthetic difference-in-differences on data in 2-, 10-, 30- and 60-minute slices"]
+
+  - h: "What a short window shows"
+    body: |
+      First, the authors took the view a measurement service would have. Comparing the half hour before each spot with the
+      half hour after, sales in the TV areas went from $721 to $773. That 7% rise was not statistically significant,
+      because sales vary a great deal from minute to minute.
+
+      Next came a standard event study, using only the TV areas during the campaign and counting any booking made from the
+      same IP address within 24 hours of a visit. Sessions rose significantly in all four windows tried, from 2 to 60
+      minutes. Sales rose significantly in the 2-, 10- and 30-minute windows, but not in the 60-minute one. The estimated
+      lift was largest in the narrowest window and shrank as the window widened, which suggests that viewers who respond
+      do so quickly. On this evidence alone, the campaign looks like a clear success.
+    chart: windows
+
+  - h: "Across the full campaign, no net gain"
+    body: |
+      The regional split allows a wider view. When every time slot in the campaign counts as treated, whether or not a spot
+      had just aired, TV's average effect was not statistically significant in any of the four slice lengths. The estimates
+      ran from 0.0085 to 0.012 for sessions and from -0.0081 to -0.020 for sales.
+
+      To find out why, the authors split the effect into three parts: the time slot in which a spot aired, each slot over
+      the next three hours, and one average for all other campaign times in the TV areas. The first part was positive
+      throughout. The follow-on effects faded fast; in the finest, 2-minute data the boost was around zero after about 90
+      minutes. The third part was negative in every version. People in the TV areas appear to have browsed and booked
+      earlier than they otherwise would have, and therefore did less of both later.
+
+      The authors call this intertemporal substitution, also known as purchase acceleration. Both the number of bookings
+      and their average value rose right after a spot and were lower at other campaign times. The authors judge that
+      the extra visits after an ad most likely came from the same customers' later visits rather than from rival travel
+      agents, because the campaign showed no net gain overall and the firm offers a wide choice of hotels.
+
+  - h: "What the usual model leaves out"
+    body: |
+      Many advertisers and measurement firms use a distributed lag model. It adds up the immediate and follow-on effects
+      of each spot but has no term for any later fall. On the same 30-minute data it gave slightly larger immediate effects
+      (0.016 for sessions and 0.052 for sales, against 0.014 and 0.046 in the authors' model) and, read on its own, a
+      clearly positive return on the TV budget.
+
+      The authors' model adds the later shortfall: -0.061 for sessions and -0.19 for sales. These figures are regression
+      coefficients on the log of sessions or sales. A positive value means more activity than the comparison areas
+      predict, a negative value means less, and a larger number means a larger change. Once the shortfall is counted, it
+      offsets much of the early gain, and the implied return on the campaign is close to zero.
+
+      The shortfall grew as the campaign went on. For sessions it was -0.030 in the first seven days and -0.064 in the last
+      eight, a pattern the authors attribute to more people having seen more spots by the second week. The results held with
+      alternative standard errors, with spend weighted by when in a time slot a spot aired, and with airtime used instead
+      of spend. Two placebo tests, one on the pre-campaign weeks and one giving the comparison areas imaginary spots,
+      found no effect. Leaving out visits from affiliate, display, social media and email links, about 16.4% of sessions,
+      changed almost nothing.
+
+  - h: "Which routes to the site gained"
+    body: |
+      The firm logs how each visitor arrives. The authors grouped travel comparison sites, paid search, affiliate links
+      and display ads as paid channels, since the firm pays for that traffic. Direct visits, the app, organic search,
+      email and social media counted as owned channels.
+
+      Straight after a spot, sessions rose through both kinds, a little more through paid ones (0.016 against 0.011). The
+      later shortfall in sessions was much larger for owned channels (-0.077 against -0.035). For sales, owned channels
+      showed a clear later fall (-0.17), while the paid-channel estimate was not significant. In short, part of the
+      traffic that would have come through the firm's own routes appears to have moved to routes it pays for.
+
+      The authors give two possible reasons. A spot may lead people to search for the category, say a hotel in a given
+      city, and land on a comparison site before reaching the firm. Or people may simply find a paid search ad an easy
+      shortcut to the site. Either way, the authors see a possible shift in costs, with more of the response to TV arriving
+      through routes the firm pays for.
+    chart: shortfall
+
+  - h: "Computers, phones and deals"
+    body: |
+      Visits climbed straight after a spot on both kinds of device: PCs, meaning desktops and laptops, and mobile devices,
+      meaning phones and tablets. The later shortfall was larger on mobile, for sessions (-0.060 against -0.035) and for
+      sales, where only mobile showed a significant fall (-0.18). The authors link the PC result to earlier research:
+      complex purchases such as hotel stays are easier to search and finish on a larger screen, and PC sessions here
+      generally converted at higher rates.
+
+      The firm could also see which sessions touched a page about price promotions. Right after a spot, sessions without
+      such a page rose (0.015 for sessions and 0.044 for sales), while sessions with one did not change significantly.
+      Across the campaign, sales from promotion sessions fell (-0.20) and sales from other sessions rose (0.090). The
+      authors see two possible explanations, and both may apply. TV may draw in people who are less interested in deals, and
+      people who arrive straight from an ad may look less for discounts. The spots themselves mentioned no prices.
+
+  - h: "What the authors advise"
+    body: |
+      A trustworthy reading of TV's online effect, they argue, needs four things: an intervention the firm sets in
+      advance, such as a regional split; a comparison group; an analysis that allows for later losses; and a method such
+      as synthetic difference-in-differences when the regions cannot be matched perfectly. Short attribution windows still
+      have a use, because they isolate the immediate response well. They should not be read as the campaign's total effect.
+
+      For day-to-day coordination, the authors suggest letting the daily spend on paid search and travel comparison listings vary with
+      the amount of TV that day, giving particular attention to PC sessions, and possibly running fewer price promotions
+      straight after a spot. They expect targeted TV and digital TV analytics to make regional tests far easier to run.
+      They also note a possible upside: by bringing purchases forward, TV can speed up online sales.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Keep a few regions without TV", "Before your next TV flight, pick three or four regions whose customers look like the rest of your market. Run no TV there for the whole flight. Choose them before any results come in, and change nothing else in those regions."]
+  - ["Record a baseline first", "Log website and app visits and sales by region, every 30 minutes, for the four weeks leading up to your first spot. Without this record you cannot tell what is normal for each region."]
+  - ["Look past the first hour", "Each day of the flight, compare visits and sales in the TV regions with the regions without TV. Do it for the hours with no spot in the previous three hours, as well as the minutes right after each spot."]
+  - ["Tie paid budgets to the TV plan", "Set daily budgets for paid search and comparison-site listings to rise on heavy TV days and fall on light ones. Each week, check whether direct visits and app visits drop as paid visits climb."]
+  - ["Clear the desktop booking path", "Make sure booking on a laptop or desktop works smoothly when traffic rises after a spot. Run the full path yourself on a desktop before the flight, and fix any step that takes more than a minute."]
+  - ["Test pausing deals after spots", "For one week, hide discount banners for two hours after each spot in half of your TV regions. Compare total sales for the whole week, not just the hours after spots, before you decide to keep it."]
+
+expect:
+  - "**A visible rise after each spot.** Real-time dashboards should show visits and bookings climbing within an hour or two of airtime, which makes TV look strong when judged spot by spot."
+  - "**A smaller total.** For a brand campaign selling something people buy rarely, much of that rise may be activity brought forward, so the net gain over a flight can be far smaller than the rises after each spot suggest."
+  - "**More paid traffic.** Expect more visitors to arrive through routes you pay for per visit, like hotel comparison listings, and fewer through your own app or direct visits."
+  - "**A growing effect over the flight.** The later fall became larger in the second week, so a short test may understate it."
+
+limits:
+  - "**One firm, one category, one country.** Hotel stays are costly, infrequent purchases with long decisions. For cheaper impulse buys, the authors suggest TV may also bring in new demand rather than only moving it."
+  - "**Fifteen days.** The test covers one short flight and says nothing about long-term brand building."
+  - "**Averages, not people.** The firm could not follow anyone across devices or know who saw a spot, so the later fall is an average. It cannot show whether the same people moved their own visits earlier or whether different people responded differently."
+  - "**A brand message only.** The spots carried no prices or offers. A promotional TV campaign might behave differently, which is our inference rather than something the paper tested."
+
+faq:
+  - q: "Does TV advertising increase online sales?"
+    a: "In the short run it can, but the total may not change. For a leading online travel agent, sessions and sales jumped shortly after each spot and then sat below the comparison areas at later times without a spot, leaving no measurable net gain over a 15-day regional test (Lambrecht et al., 2024)."
+  - q: "What does intertemporal substitution mean in advertising?"
+    a: "Moving a visit or purchase earlier in time instead of adding a new one. An ad prompts someone to book today what they would have booked next week, so the response right after the ad overstates the real gain. It is also called purchase acceleration."
+  - q: "How long should a TV attribution window be?"
+    a: "No single length solves the problem. Windows of a few minutes isolate the response to a spot well but cannot see a fall that comes later. To judge the total effect, compare regions with and without TV over the whole flight, with a period before the campaign as a baseline."
+  - q: "What is synthetic difference-in-differences?"
+    a: "A method for estimating the effect of an intervention when the treated and untreated groups differ at the start. It reweights the untreated units and the earlier time periods so the comparison group follows the treated group's trend before the intervention, then measures the change afterwards."
+  - q: "Does TV advertising send people to paid search and comparison sites?"
+    a: "In this test it did. Over the campaign, sessions and sales arriving through paid routes rose, while the firm's own routes, such as direct visits and its app, showed no net gain. The authors suggest viewers may start with a category search, or use a paid ad as a shortcut to the site."
+
+also:
+  - doi: "10.1002/jcpy.1351"
+    title: "Algorithms propagate gender bias in the marketplace—with consumers’ cooperation"
+    authors: "Rathee, Banker, Mishra, & Mishra"
+    journal: "Journal of Consumer Psychology"
+    year: 2023
+    text: >-
+      Trained on billions of online documents, language algorithms learn to tie women more closely than men to unflattering
+      consumer traits, such as being an impulsive rather than a planned investor. In field experiments across several
+      platforms, digital ads that carried such negative traits were delivered to women more often, and search engine product
+      recommendations showed the same tilt, which shaped what people considered and chose. Consumers kept the cycle going by
+      clicking on the biased ads. It is worth checking who an ad actually reached, not only who it was aimed at.
+  - doi: "10.1080/02650487.2023.2208489"
+    title: "From green advertising to greenwashing: content analysis of global corporations’ green advertising on social media"
+    authors: "Kwon, Lee, Wang, & Diwanji"
+    journal: "International Journal of Advertising"
+    year: 2024
+    text: >-
+      Leading global corporations have responded to consumer demand for environmental action by actively promoting their
+      green efforts on social media. Repeating a classic content analysis of green ad claims on posts from 2019, 2020 and 2021, this team found
+      that more than 70% of the claims were misleading. They call on advertisers and lawmakers to act early when green
+      advertising is designed. A sustainability post is only as credible as the evidence behind its claim.
+
+charts:
+  windows:
+    title: "Short-window estimate of the lift in sessions after a spot, by window length (regression coefficient)"
+    scale: [0, 0.07]
+    step: 0.01
+    unit: ""
+    decimals: 4
+    bars:
+      - ["2-minute window", 0.059, true]
+      - ["10-minute window", 0.025, false]
+      - ["30-minute window", 0.014, false]
+      - ["60-minute window", 0.0075, false]
+    source: "Event study in the 11 TV areas during the campaign, minute-level data (Table 3). All four estimates are significant, the 60-minute one only at the 10% level."
+  shortfall:
+    title: "Fall in sessions at campaign times with no recent spot, by route and device (size of the negative coefficient)"
+    scale: [0, 0.08]
+    step: 0.02
+    unit: ""
+    decimals: 3
+    bars:
+      - ["All sessions", 0.061, false]
+      - ["Paid channels", 0.035, false]
+      - ["Owned channels", 0.077, true]
+      - ["PCs (desktops and laptops)", 0.035, false]
+      - ["Mobile (phones and tablets)", 0.060, true]
+    source: "Field test, 30-minute data, synthetic difference-in-differences (Tables 5, 8 and 9). The paper reports these as negative values, such as -0.061; the bars show their size. All five are significant."
+
+related_pages: []
