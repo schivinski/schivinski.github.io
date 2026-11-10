@@ -1,0 +1,303 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 43                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-10-21"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: influencer-credibility-meta
+status: live
+
+title: "What makes a social media influencer persuasive? What a Psychology & Marketing study found"
+dek: >-
+  Follower counts and good looks are easy to see. A meta-analysis of 58 studies finds that believability tracks how
+  followers feel most closely, that similarity and brand fit count as much for purchase intent, and that platform,
+  product and region change several of these links.
+short_title: "Credibility first: what drives influencer impact"
+
+description: >-
+  Han & Balabanis pool 250 effect sizes from 58 studies: credibility tracks attitudes most closely, while similarity
+  and brand fit match it for purchase intent.
+
+keywords: [influencer marketing, social media influencer credibility, influencer trustworthiness, influencer expertise,
+  homophily, influencer-brand fit, parasocial interaction, source credibility theory, micro vs mega influencers,
+  sponsored content disclosure, meta-analysis, Psychology & Marketing]
+topics: [Influencers, Social media]
+
+image:
+  file: 2023-influencer-credibility-meta.jpg
+  og: 2023-influencer-credibility-meta-og.jpg
+  alt: "A smartphone clamped to a grey handheld gimbal stands on a black bendy tripod on a pale wooden desk, a laptop on a shelf beside it and peach curtains lit by low sun behind"
+  caption: "A phone set up to film the next sponsored post. Photo: FitNish Media on Unsplash."
+
+short_answer: >-
+  Credibility first, then similarity and fit. Across 58 studies and 250 effect sizes, how believable an influencer
+  seems had the closest links with attitudes toward the influencer, the content and the brand. For purchase intention,
+  followers' feeling that the influencer is like them, and how well the influencer suits the brand, counted as much.
+  Whether followers saw the content as advertising was only weakly linked to purchase intention and engagement. Platform, product type and
+  region changed several links.
+
+takeaways:
+  - "Credibility showed the strongest link with attitudes in the review: a correlation of 0.73 with how people rated the influencer across 4 studies, where 1 would be a perfect match."
+  - "Feeling that an influencer is like you tracked purchase intention more closely than expertise did: 0.51 across 11 studies, against 0.36 across 18."
+  - "Trust counted for more with practical products. Its link with brand attitude was 0.74 for utilitarian products and 0.51 for hedonic, pleasure-led ones."
+  - "Spotting a post as advertising was barely related to engagement: 0.06 across 7 studies, a value not statistically different from zero."
+
+paper:
+  doi: "10.1002/mar.21927"
+  title: "Meta-analysis of social media influencer impact: Key antecedents and theoretical foundations"
+  authors: ["Han, J.", "Balabanis, G."]
+  authors_full: ["Jiseon Han", "George Balabanis"]
+  year: 2024
+  journal: "Psychology & Marketing"
+  volume: "41"
+  issue: "2"
+  pages: "394-426"
+  online: "2023-10-21"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iD on the Wiley page; only Han's iD is listed)
+    - name: "Jiseon Han"
+      affiliation: "Department of Management, Bayes Business School (Formerly Cass) City, University of London, London, UK"
+      orcid: "0009-0003-3496-4748"
+    - name: "George Balabanis"
+      affiliation: "Department of Management, Bayes Business School (Formerly Cass) City, University of London, London, UK"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 58
+    basis: "Meta-analysis of 250 effect sizes from 58 studies in 53 articles (combined sample 25,080; the abstract says 53 studies), random- and fixed-effects models with subgroup moderator tests in metafor and publication-bias checks"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Jiseon Han and
+      George Balabanis, both from Bayes Business School (formerly Cass), City, University of London,
+      set out to reconcile a fast-growing and often contradictory literature. Studies kept asking why followers respond
+      to some influencers more readily than to others, and their answers did not line up. Some found expertise made a
+      real difference to how consumers responded, while others found it made almost none.
+
+      The pair searched academic databases and Google Scholar for quantitative work, published or unpublished, on how
+      influencers shape what consumers think and do. Both coded each study independently and settled any disagreements by
+      discussion. Every usable statistic was converted to a common measure, so that survey and experimental results could
+      be compared directly.
+
+      They sorted the drivers under six established theories. The first concerns the source itself: whether the
+      influencer seems credible, trustworthy, expert and authentic. Two more, parasocial interaction and
+      similarity-attraction, cover attachments to media figures and liking for people like ourselves, measured through
+      attractiveness and homophily, the sense that the influencer is similar to oneself. The others deal with the
+      influencer as an opinion leader who passes on useful information, with the fit between influencer, follower,
+      product and brand, and with whether followers recognise a post as advertising.
+    facts:
+      - ["Evidence base", "250 effect sizes drawn from 58 studies in 53 articles; total sample 25,080"]
+      - ["Search", "6,215 articles from the initial search"]
+      - ["Designs", "43 correlational studies and 15 experiments; 48 peer-reviewed articles and 5 grey-literature pieces such as conference papers and dissertations"]
+      - ["Regions", "Europe 20, North America 17, Asia 15, other regions 1"]
+      - ["Method", "Pooled correlations under random and fixed effects, subgroup tests for platform, region, product type, influencer size and design, and publication-bias checks"]
+
+  - h: "Reading the numbers"
+    body: |
+      Each result below is an average correlation, r. Zero would mean no relation at all between two measures, and 1
+      would mean they rise and fall exactly together. A negative value would mean that one goes up as the other goes down.
+      Next to each result we give the number of studies behind it. Many rest on just a handful of studies, and those deserve
+      less weight than the ones built on ten or twenty.
+
+      Most of the pooled studies were correlational, and nearly all relied on questionnaires. When the same questionnaire
+      asks how credible an influencer seems and how likely the person is to buy, a correlation tells us the answers are
+      related, not which of them drives the other.
+
+      The outcomes fell into two groups. Attitudes covered how people saw the influencer, the content, the product and
+      the brand. Behaviour covered purchase intention and engagement.
+
+  - h: "Credibility leads on attitudes"
+    body: |
+      Credibility, the overall impression that an influencer can be believed, came first on all three attitude measures
+      it was tested against. Its highest correlation was with liking for the influencer, and it reached 0.60 for the content. These results also
+      held steady: no platform, region, product type or influencer size changed them, and the studies behind them
+      differed little.
+
+      Trustworthiness came next, also at 0.60 for the influencer. Expertise correlated more with brand attitudes than
+      with opinions of the person promoting it (0.40 for the latter). Authenticity was tested in just two studies.
+
+      The bond with followers gave mixed results. Attractiveness correlated between 0.38 and 0.45 with the three attitude
+      measures. Homophily went with liking the content (0.51) much more than with liking the influencer (0.21).
+
+      The fit measures had the weakest links with attitudes. Influencer-follower fit correlated 0.09 with content
+      attitudes across three studies, a value that was not statistically significant, and influencer-product fit was not
+      significantly related to product attitudes. The authors rank the theories accordingly for attitudes: source
+      credibility first, parasocial interaction second and congruity last.
+    chart: attitudes
+
+  - h: "What goes with purchase intent and engagement"
+    body: |
+      For purchase intention the order changed. Two factors topped the list: influencer-brand fit, from just two
+      studies, and homophily. Credibility came close behind, and expertise sat in the lower half of the list despite
+      a broad evidence base. Congruity theory, weakest for attitudes, did much better here.
+
+      Engagement showed a pattern of its own. Credibility again came first at 0.67, though from three studies.
+      Trustworthiness (0.46), influencer-follower fit (0.44), opinion leadership (0.44) and homophily (0.42) formed a
+      second group. Informative content reached only 0.18.
+
+      Recognising content as advertising was the weakest factor of all. The authors had expected it to reduce responses,
+      since people tend to resist a message once they recognise its selling intent. Across three studies, its link with
+      purchase intention was instead small and positive, 0.17, and its link with engagement was not significant. They
+      suggest the role of ad recognition in influencer persuasion needs rethinking for a changing advertising landscape
+      and more experienced audiences.
+    chart: purchase
+
+  - h: "Platform and product type"
+    body: |
+      Moderator tests ask whether a link differs between groups of studies. Several did.
+
+      Instagram stood out. Trustworthiness tracked brand attitude at 0.67 across five Instagram studies, against 0.38 on
+      platforms other than Instagram and YouTube. How well the influencer matched the follower showed a larger difference for
+      purchase intention: 0.57 on Instagram and 0.19 elsewhere, the second figure not significant. Expertise went with
+      engagement on Instagram (0.38) but not reliably on other platforms. YouTube appeared in too few studies for most
+      comparisons.
+
+      Product type mattered as well. Trust and expertise both had stronger links with brand attitude for utilitarian
+      products, the ones bought for what they do, than for hedonic products bought for enjoyment. Homophily showed the
+      reverse pattern for purchase intention, at 0.59 for hedonic products and 0.49 for utilitarian ones.
+
+      The authors had not expected one result. Informative content went with purchase intention for hedonic products
+      (0.42, two studies) but not in the single utilitarian study (0.03). They had predicted the opposite, and suggest that people
+      buying for pleasure still want facts when the purchase feels like a sizeable outlay.
+
+  - h: "Region and account size"
+    body: |
+      Studies from Western countries showed a stronger link between influencer-follower fit and purchase intention: 0.50
+      across seven Western studies, against a non-significant 0.06 in two Eastern ones. Opinion leadership also
+      correlated more strongly with purchase intention in the West, 0.55 against 0.30, with three studies on each side.
+
+      Expertise showed the reverse. Its link with attitude toward the influencer was 0.62 in the one Eastern study and
+      0.27 in two Western ones. The authors relate this to collectivist cultures that favour group-endorsed influencers.
+
+      Account size, coded as mega, micro or not stated, gave mixed results. Smaller accounts had the stronger links in two
+      places: opinion leadership with engagement (0.50 for micro-influencers, 0.34 in the one mega-influencer study) and
+      product fit with engagement (0.50 against 0.20 for other accounts). For trust and engagement, the
+      single mega-influencer study showed the stronger link, 0.68 against 0.41 for micro-influencers. Many of these splits
+      rest on one or two studies, so they point to questions for testing rather than settled rules.
+
+  - h: "How firm are these averages?"
+    body: |
+      Studies often disagreed. For most relationships, the spread of results was much wider than chance alone would
+      produce. Trustworthiness and purchase intention, tested in 20 studies, had an I-squared of 95%: almost all of the
+      spread in its results was due to differences among the studies themselves rather than chance.
+
+      Research design mattered in at least one case. Expertise correlated with engagement at 0.36 in eight surveys but
+      0.03 in three experiments. The authors note that correlational studies can yield stronger links, for instance when
+      one questionnaire measures both sides of the relationship.
+
+      Checks for publication bias gave mixed signals. Egger's test pointed to small-study effects in 10 relationships. A
+      trim-and-fill analysis, which looks for studies that may be missing from the record and adjusts the average, found
+      some missing for seven relationships; after adjustment, five of those estimates rose and two fell. The credibility
+      estimate for influencer attitudes, for example, moved from 0.73 to 0.71. The authors ask readers to treat the affected estimates with
+      caution.
+
+  - h: "The authors' advice"
+    body: |
+      Brands, they write, should first assess an influencer's credibility, trustworthiness and expertise before
+      signing, since these mattered most for attitudes. Next, choose influencers who share characteristics with the
+      target audience and have some appeal, and check that they suit both the brand and its customers. A technology firm,
+      in their example, would benefit from a creator recognised for expertise and credibility in technology content.
+
+      For influencers, they recommend consistent and reliable content, openness with followers and partnerships with
+      brands that match their persona and values.
+
+      They also address policymakers. Clear, enforced rules on disclosing paid partnerships, possibly tailored to platform
+      and product, would protect the accuracy of what followers are told; they name health and finance as areas where misinformation
+      does serious harm. They add a warning: attractiveness and relatability can reinforce unrealistic beauty standards,
+      particularly among teenagers.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Rate believability before reach", "Ignore follower numbers at first and read each candidate's last 20 posts. Give each a score out of 5 for three things: accurate claims, honest mention of drawbacks and clear knowledge of the category. Drop anyone who averages below 3."]
+  - ["Check the audience looks like your buyers", "Ask each creator for their audience breakdown: age bands, top three countries and main interests. Keep those whose followers mostly match your target customer. Then read 50 recent comments and see whether followers talk to the creator as one of their own."]
+  - ["Match the creator to the product", "For practical products such as software, tools or insurance, choose creators with proven know-how in that category. For treats, fashion or travel, choose creators your buyers see themselves in. Either way, ask for at least three concrete product facts in each post."]
+  - ["Write a short, open brief", "Send one page with the product's three main facts and the one action you want viewers to take. Let the creator choose the wording, and ask them to use the product in a setting their followers already know. Send back any draft that reads like one of your own ads."]
+  - ["Label every paid post clearly", "Start the caption with \"Ad\" or \"Paid partnership\" and switch on the platform's branded-content label. Do this on every post, story and repost. Keep a screenshot of each label in the campaign file."]
+  - ["Track sales by creator and platform", "Give every creator a unique discount code and link. After 30 days, compare the cost per sale for each creator and each platform. Move next month's budget to the best two, and add one new creator alongside them to keep comparing."]
+
+expect:
+  - "**Attitudes before purchases.** Links with how people rated a brand were generally larger than links with what they planned to buy. Our reading is that brand opinion is the likelier place for a credible creator's effect to show, with sales the harder test."
+  - "**Results that differ by platform and category.** A creator who performs well on one platform or for one kind of product may not repeat it elsewhere, which is why we suggest comparing them side by side."
+  - "**Little cost from clear labels.** In the few studies that measured it, spotting the sponsorship did not go with weaker intentions, so a plain disclosure seems unlikely to cost much. We infer this from three to seven studies."
+  - "**Smaller effects in controlled tests.** In the one comparison where research design made a significant difference, survey-based links were far higher than experimental ones, so a randomised campaign test may show a more modest effect than these averages."
+
+limits:
+  - "**Associations, not causes.** Most pooled studies were correlational, so the averages tell us which traits accompany positive responses, not which ones cause them."
+  - "**Few studies behind some links.** A number of averages draw on only two to four studies, and many subgroup comparisons on one."
+  - "**Narrow samples.** In 37 studies the samples were mainly young adults and adolescents, and in 40 mainly women. Only English-language work was included."
+  - "**Intentions, not sales.** Purchase intention records stated plans. None of the averages here is based on recorded purchases."
+  - "**Some links untested.** Too few studies existed to test authenticity against purchase intention or engagement, opinion leadership and informative content against attitudes, or ad recognition against attitudes."
+  - "**Platform mix.** Instagram and YouTube dominate the evidence, and every other platform was analysed as a single group."
+
+faq:
+  - q: "Which influencer traits matter most to consumers?"
+    a: "Above all, credibility. Pooling 58 studies, the review found that an influencer's perceived believability, honesty and expertise were most strongly related to people's views of the influencer, their posts and the brand, while similarity to followers and brand fit were linked as closely to purchase intention (Han & Balabanis, 2024)."
+  - q: "Do micro-influencers work better than mega-influencers?"
+    a: "It depends on the outcome. For smaller accounts, opinion leadership and product fit were more closely related to engagement. For larger ones, trust and expertise were. Most of these comparisons rest on one to five studies, so neither size comes out ahead overall."
+  - q: "Does labelling an influencer post as an ad reduce its effect?"
+    a: "No, judging by the pooled studies. Where studies measured whether followers recognised the advertising intent, recognition had a weak, positive link with purchase intention and was not reliably related to engagement. Disclosure rules apply regardless, and the review calls for stricter enforcement."
+  - q: "Is Instagram better than other platforms for influencer marketing?"
+    a: "Several links were stronger on Instagram than on platforms outside Instagram and YouTube, notably trust with brand attitude and influencer-follower fit with purchase intention. YouTube was rarely studied on its own and other platforms were pooled, so this compares the available evidence rather than ranking platforms."
+  - q: "What is homophily in influencer marketing?"
+    a: "Homophily is the sense that an influencer is similar to you in background, values or outlook. In this review it was among the factors most closely linked to purchase intention and engagement, and its tie to purchase intention was closer for indulgent products than for functional ones."
+
+also:
+  - doi: "10.1002/cb.2260"
+    title: "Do the importance of influencer- and customer-generated content on social media affect willingness to pay more for potential customers?"
+    authors: "Tuncer & Kartal"
+    journal: "Journal of Consumer Behaviour"
+    year: 2024
+    text: >-
+      How much do shoppers who are still searching care about posts from influencers and from other customers? A
+      questionnaire answered by 323 people related information quality and source credibility to the importance they gave
+      to two kinds of shared posts, and that importance to their willingness to pay more. Both the quality of the
+      information and the credibility of its source were linked to how much weight people gave these posts. One kind of sharing, covering posts by
+      customers and influencers alike, went with a readiness to pay more. For an online shop, getting buyers as well as
+      creators to post may help support a price.
+  - doi: "10.1002/cb.2268"
+    title: "Applying means-end chains theory to understanding psychological cognitive structure of online video sharing platforms: A study of user behavior in TikTok"
+    authors: "Lin"
+    journal: "Journal of Consumer Behaviour"
+    year: 2024
+    text: >-
+      Laddering interviews with TikTok users traced which features of the platform people value and what those features
+      do for them, yielding 34 elements in all. Varied video genres, interesting content, an easy interface, visual effects
+      and community sharing and recommendation were the attributes users prized. They led to benefits such as learning by
+      watching others, relief from stress and fun with friends, and on to values such as accomplishment, warm relationships
+      and belonging, with some differences between men and women. Short videos that teach something or bring friends
+      together fit the reasons people already give for opening the app.
+
+charts:
+  attitudes:
+    title: "Links with attitude toward the brand (correlation; 0 = no link, 1 = perfect)"
+    scale: [0, 0.8]
+    step: 0.2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Credibility (3 studies)", 0.67, true]
+      - ["Trustworthiness (9 studies)", 0.57, false]
+      - ["Expertise (9 studies)", 0.53, false]
+      - ["Attractiveness (8 studies)", 0.45, false]
+      - ["Authenticity (2 studies)", 0.34, false]
+    source: "Table 1, random-effects estimates for attitude toward the brand, rounded to two decimals; number of studies in brackets."
+  purchase:
+    title: "Links with purchase intention (correlation; 0 = no link, 1 = perfect)"
+    scale: [0, 0.6]
+    step: 0.2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Fit with the brand (2 studies)", 0.52, false]
+      - ["Homophily (11 studies)", 0.51, true]
+      - ["Credibility (9 studies)", 0.47, true]
+      - ["Opinion leadership (6 studies)", 0.44, false]
+      - ["Trustworthiness (20 studies)", 0.43, false]
+      - ["Attractiveness (21 studies)", 0.39, false]
+      - ["Expertise (18 studies)", 0.36, false]
+      - ["Informative content (4 studies)", 0.29, false]
+      - ["Recognised as an ad (3 studies)", 0.17, false]
+    source: "Table 1, random-effects estimates for purchase intention, rounded to two decimals; number of studies in brackets. The brand-fit estimate rests on two studies."
+
+related_pages: []
