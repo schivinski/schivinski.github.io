@@ -1,0 +1,259 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 24                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-06-28"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: gen-z-personalization-paradoxes
+status: live
+
+title: "Do Gen Z consumers avoid brands that don't personalize their marketing? What a Journal of Consumer Behaviour study found"
+dek: >-
+  Young consumers guard their data and still expect brands to know what they want. A survey of US undergraduates finds
+  that those who block tracking are more ready, not less, to drop brands whose marketing feels generic.
+short_title: "Gen Z, tracking blockers and generic brand content"
+
+description: >-
+  McKee et al. find US students who block tracking still expect relevance, and annoyance at generic content predicts
+  avoiding brands that don't personalize.
+
+keywords: [Gen Z marketing, personalized advertising, digital personalization, privacy calculus, personalization privacy
+  paradox, ad blocking, brand avoidance, brand loyalty, third-party cookies, first-party data, Journal of Consumer Behaviour]
+topics: [Personalization, Privacy, Advertising]
+
+image:
+  file: 2023-gen-z-personalization-paradoxes.jpg
+  og: 2023-gen-z-personalization-paradoxes-og.jpg
+  alt: "A young man with a short beard looks down at a glowing phone at dusk, his face lit by the screen against dark treetops and a deep blue sky"
+  caption: "Switching off the trackers and expecting relevant content can go together. Photo: Rui Silvestre on Unsplash."
+
+short_answer: >-
+  Many say they would. In a survey of 414 US undergraduates, irritation at irrelevant brand content was the strongest
+  predictor of intending to avoid brands that do not personalize their marketing. Students who block tracking were more
+  inclined to avoid such brands, not less. Seeing personalized ads as useful went with loyalty to personalizing brands,
+  while privacy concern went with slightly lower loyalty and slightly more tolerance of generic marketing.
+
+takeaways:
+  - "Concern about how brands use personal data averaged 4.00 out of 5, the highest of the six scales in the survey, yet perceived usefulness of personalized ads still averaged 3.51."
+  - "Annoyance at brand videos, photos, ads and posts that are not relevant averaged 3.83 on the same 5-point scale, above its midpoint of 3."
+  - "60.4% of the students had five or more social media profiles, but neither that count nor daily time online showed a link with either intention."
+  - "Women reported more privacy concern than men (4.10 against 3.83 out of 5) and reported taking fewer steps against tracking (2.91 against 3.07)."
+
+paper:
+  doi: "10.1002/cb.2199"
+  title: "Gen Z's personalization paradoxes: A privacy calculus examination of digital personalization and brand behaviors"
+  authors: ["McKee, K. M.", "Dahl, A. J.", "Peltier, J. W."]
+  authors_full: ["Kathleen M. McKee", "Andrew J. Dahl", "James W. Peltier"]
+  year: 2024
+  journal: "Journal of Consumer Behaviour"
+  volume: "23"
+  issue: "2"
+  pages: "405-422"
+  online: "2023-06-28"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Kathleen M. McKee"
+      affiliation: "University of Wisconsin-Parkside, Kenosha, Wisconsin, USA"
+      orcid: "0000-0002-9272-0579"
+    - name: "Andrew J. Dahl"
+      affiliation: "College of Business & Economics, University of Wisconsin-Whitewater, Whitewater, Wisconsin, USA"
+      orcid: "0000-0002-0202-6955"
+    - name: "James W. Peltier"
+      affiliation: "College of Business & Economics, University of Wisconsin-Whitewater, Whitewater, Wisconsin, USA"
+      orcid: "0000-0003-3614-7138"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One cross-sectional online survey of 414 undergraduate business students at two Midwestern US universities (296 and 118), analysed with structural equation modelling; the pilot used to trim scale items is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Kathleen M. McKee of the University of Wisconsin-Parkside, with
+      Andrew J. Dahl and
+      James W. Peltier of the University of Wisconsin-Whitewater,
+      asked how Gen Z, people born between 1997 and 2012, weighs personalized marketing. Brands draw on searches, likes,
+      profile details and location to tailor ads, emails and social posts. Young consumers often say they value this. Many
+      of them also delete cookies, browse in private windows or switch off location services, which leaves brands with less
+      data to tailor anything.
+
+      The team drew on privacy calculus theory: people set what they gain from sharing data against the risks of sharing
+      it. Most work in this tradition looks at one trade-off: privacy concern against the benefits of personalization.
+      The authors added a second, which they call the avoidance-annoyance paradox. People who block tracking are likely to
+      see more content that has nothing to do with them, and that content can irritate them.
+
+      They then looked at how both trade-offs relate to two intentions: avoiding brands whose marketing is not personalized,
+      and staying loyal to brands whose marketing is.
+    facts:
+      - ["Participants", "414 undergraduate business students at two universities in the US Midwest (296 and 118), who took an online survey for extra credit"]
+      - ["Profile", "56.8% women; 52.2% spent four to six hours online a day"]
+      - ["Framing", "A short definition of personalized advertising, then a scenario in which a hotel the reader had looked at reappears as an ad on another site"]
+      - ["Measured", "Privacy concern, perceived benefit of personalized ads, steps taken against tracking, annoyance when brand content does not fit, and intentions to avoid or stay loyal, all as agreement from 1 to 5"]
+      - ["Analysis", "A structural equation model that also allowed for gender, time online and number of social media profiles"]
+
+  - h: "How the survey was set up"
+    body: |
+      Students received an email invitation and a reminder at the start of class. Before answering, they read the scenario.
+      They had been searching for a hotel for a trip to Miami, found one that suited them, closed the browser without
+      booking, and later saw an ad for that exact hotel on another website. This meant nobody had to recall a real brand.
+
+      Privacy concern items included being bothered that brands can track information about you. Steps
+      against tracking covered deleting cookies, using a do-not-track setting, opting out of targeted ads, turning off GPS
+      location and browsing in private or incognito mode. Annoyance asked how irritated people get when brand videos, photos,
+      ads, social posts or blog posts are not relevant to them.
+
+      The avoidance items began "If a brand does not personalize marketing to me, I would..." and went on to unfollowing it,
+      unsubscribing from its emails and not buying it. The loyalty items asked about paying more for, preferring and sticking
+      with a brand that does personalize.
+
+      Of 461 responses, 25 were incomplete. Another 22 were set aside after checks for answers given too fast, long runs of
+      identical answers and extreme cases, which left 414.
+
+  - h: "The familiar trade-off still holds"
+    body: |
+      All the links were estimated together and reported as standardized weights. These put every link on a common
+      yardstick: 0 means no link, and the further a weight is from 0, positive or negative, the stronger the link.
+
+      Higher privacy concern went with lower loyalty towards brands that personalize (minus 0.161) and, as the authors
+      predicted, with slightly weaker intentions to shun brands that do not (minus 0.108). As the authors interpret it,
+      the most privacy-minded students may accept a little more generic marketing in return for privacy. They stress that
+      tolerating such marketing does not mean liking the brands behind it.
+
+      Perceived benefit showed the opposite pattern. Its link with loyalty, at 0.452, was the largest in the whole model,
+      and it also had a small positive link with avoidance of non-personalizing brands (0.121).
+
+  - h: "Irritation outweighs privacy worry when content is generic"
+    body: |
+      For the avoidance outcome, the largest weight belonged to annoyance at irrelevant content (0.411), well
+      ahead of privacy concern or perceived benefit. Annoyance also had a smaller link with loyalty to brands
+      that do personalize (0.132).
+
+      The surprise was blocking. The authors expected students who take steps against tracking to be more tolerant of generic
+      marketing. Instead, the more steps students took, the stronger their intention to avoid generic brands
+      (0.259). Blocking showed no clear link with loyalty (0.088, not significant).
+
+      On the authors' interpretation, blocking does not lower expectations. People who cut off the data still want
+      relevant content, end up seeing more irrelevant content, and appear to hold the brand responsible. They also offer a
+      second reading: some who block tracking may be trying to avoid digital marketing altogether. The survey had no way to
+      separate the two.
+
+      Gender, time online and how many social media profiles each student had were included as controls. Only gender
+      showed a link, and only with loyalty: women reported more of it.
+
+  - h: "Where the two trade-offs meet"
+    body: |
+      Next, the team tested whether each pair of attitudes worked in combination.
+
+      For privacy concern and perceived benefit, the combination mattered for avoidance (0.134) but not for loyalty. Among
+      students high in privacy concern, those who saw little benefit in personalized ads were the least inclined of any group
+      to avoid generic brands. High-concern students who did see the benefit were as ready to avoid them as anyone else. In
+      the authors' terms, a sense of benefit weakened the link between privacy concern and avoidance.
+    chart: benefits
+
+  - h: "Blockers who are easily annoyed"
+    body: |
+      For blocking and annoyance, the combination mattered for loyalty (0.112) but not for avoidance. Students who took many
+      steps against tracking and were also easily irritated by irrelevant content reported the strongest loyalty towards
+      personalizing brands. The other three groups were close to one another.
+
+      As the authors note, this result, like the main effect of blocking, is the opposite of what privacy calculus theory
+      would predict. They offer a tentative explanation: even privacy-conscious consumers appreciate a brand that shows it
+      understands them, and well-targeted marketing stands out when most of what they see is not.
+    chart: annoyance
+
+  - h: "Advice from the authors"
+    body: |
+      For brands, the authors draw a warning from all this. Gen Z's wish for relevant content does not lessen when people
+      restrict tracking, and neither does their irritation at generic content. With the planned end of third-party cookies and new privacy
+      rules, they expect personalization to get harder and that irritation to grow.
+
+      Their suggestions go beyond what the survey examined: explain openly what customer data is used for, so people can see
+      the value of sharing it; use rewards and context to make sharing worthwhile; build on first-party data that customers
+      give the brand directly; and keep checking how these trade-offs change as AI takes on more of the work of
+      personalization. They also advise watching for the point at which these tensions start to change behaviour, which
+      may differ from one brand to another.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["See what a blocked visitor sees", "Open your website and social pages in incognito mode, with cookies blocked and location turned off. Write down every banner, pop-up and ad that would make no sense to a stranger. Fix the three worst first."]
+  - ["List the data people give you directly", "Make a list of what customers hand over themselves: sign-up details, purchase history, saved sizes, stated interests. Mark which items you actually use to tailor content today, and which sit unused."]
+  - ["Ask, and say what changes", "Add a preference page or two short questions at sign-up. Next to each question, add one line saying what answering changes for the customer, such as fewer emails or offers in their size."]
+  - ["Build a sensible default", "For visitors you know nothing about, tailor to context instead of the person: the page they are on, the season, the local weather or the hour. Keep that default broad enough to suit almost anyone."]
+  - ["Cut irrelevant sends", "Before each email or paid campaign, take out people with no matching interest or purchase for three months, or send them a general version. Send fewer messages rather than more irrelevant ones."]
+  - ["Watch who leaves", "Each month, compare unsubscribe and unfollow rates between people who get tailored messages and people who get generic ones. Ask five people who left what made them go."]
+
+expect:
+  - "**Much is left unexplained.** The attitudes in the model accounted for between 26% and 31% of the variation in avoidance and loyalty intentions, so much of what drives these choices was not captured."
+  - "**Generic content carries a cost.** On our reading, a brand that cannot tailor its content risks more from irritation than from privacy worry, so content that misses deserves attention before anything else."
+  - "**Blocking is not indifference.** A customer who switches off tracking may still expect content that fits, and, by the authors' account, may blame the brand when it does not."
+  - "**Preferences have to be asked for.** Our inference is that reaching people who block tracking means asking them directly about their preferences, which takes design effort and a clear reason for them to answer."
+
+limits:
+  - "**Students only.** Everyone was a business student at one of two Midwestern US universities, taking part for course credit. Gen Z consumers outside university, other generations and other countries may respond differently."
+  - "**One survey at one point in time.** Because everything was measured at once, it cannot establish that annoyance or blocking leads to avoidance."
+  - "**Intentions, not behaviour.** Respondents described how they would react if a brand did not personalize. Nobody's unfollows, unsubscribes or purchases were observed."
+  - "**A new measure.** The annoyance scale was written for this survey and has not yet been checked in other samples."
+  - "**One scenario.** A retargeted hotel ad framed every answer; other product types or forms of personalization may produce different reactions."
+
+faq:
+  - q: "Does Gen Z want personalized marketing?"
+    a: "Largely yes, with conditions. US undergraduates who found personalized ads useful reported more loyalty to brands that personalize, while those more worried about privacy reported somewhat less, and irritation at brand content that did not fit them was tied to wanting to avoid brands that stay generic (McKee et al., 2024)."
+  - q: "Why do people who block tracking still want personalization?"
+    a: "On the authors' account, blocking leaves people with more content that does not fit them, and they hold the brand responsible rather than their own settings. A second possibility they raise is that some blockers want to avoid digital marketing of every kind."
+  - q: "What is the privacy calculus?"
+    a: "A theory that people decide whether to share personal data by weighing the expected benefits, such as relevant offers and saved time, against the privacy risks. This paper keeps that trade-off and adds a second one, between avoiding tracking and being annoyed by generic content."
+  - q: "What counts as brand avoidance here?"
+    a: "Deliberately rejecting a brand. In this survey it meant saying you would stay away from a brand's marketing, unfollow it on social media, unsubscribe from its emails or stop buying it if it did not personalize its marketing to you."
+  - q: "How can brands personalize without third-party cookies?"
+    a: "The authors point to first-party data, the information customers give a brand themselves, along with rewards that make sharing worthwhile and more openness about how data is used. These are recommendations; whether they work was outside the survey."
+
+also:
+  - doi: "10.1002/cb.2192"
+    title: "Coupon or my privacy: How consumers choose to disclose their personal information and accept mobile location-based advertising (LBA) through privacy calculus"
+    authors: "Ryu"
+    journal: "Journal of Consumer Behaviour"
+    year: 2023
+    text: >-
+      Location-based ads can offer relevant offers and savings, but tracking where people are also raises privacy worries.
+      In two experiments with 186 and 230 participants, whether a mobile ad matched the person's location affected their
+      intention to disclose personal details and accept such ads, through both the benefits and the costs they saw in
+      disclosing. In the second experiment, the privacy concern caused by location tracking disappeared when the ad
+      carried a sales promotion. A concrete reward can change how people weigh being located.
+  - doi: "10.1111/ijcs.12957"
+    title: "Social media influencers: The formation and effects of affective factors during online interactions"
+    authors: "Zhang & Mac"
+    journal: "International Journal of Consumer Studies"
+    year: 2023
+    text: >-
+      Most influencer research looks at credibility and expertise. This survey of 304 social media users in mainland China
+      who follow influencers looked at feelings instead. Influencers who share things about themselves and respond to their
+      followers were found to build two emotional bonds, familiarity and intimacy, which the authors then link to purchase
+      decisions. When choosing a creator, the way they talk with followers deserves a place beside their reach.
+
+charts:
+  benefits:
+    title: "Intention to avoid brands that do not personalize, by privacy concern and perceived benefit of personalized ads (1 to 5 scale)"
+    scale: [1, 5]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Low privacy concern, low benefit", 3.13, false]
+      - ["Low privacy concern, high benefit", 3.08, false]
+      - ["High privacy concern, low benefit", 2.65, false]
+      - ["High privacy concern, high benefit", 3.14, true]
+    source: "Survey of 414 US undergraduates; group values as printed in the authors' Figure 2 (privacy concern by personalization benefit)."
+  annoyance:
+    title: "Loyalty to brands that personalize, by steps taken against tracking (blocking) and annoyance at irrelevant content (1 to 5 scale)"
+    scale: [1, 5]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Low blocking, low annoyance", 2.91, false]
+      - ["Low blocking, high annoyance", 2.92, false]
+      - ["High blocking, low annoyance", 2.86, false]
+      - ["High blocking, high annoyance", 3.32, true]
+    source: "Survey of 414 US undergraduates; group values as printed in the authors' Figure 3 (proactive avoidance by brand-created annoyance)."
+
+related_pages: []
