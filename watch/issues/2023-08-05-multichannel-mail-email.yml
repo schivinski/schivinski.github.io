@@ -1,0 +1,275 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 32                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-08-05"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: multichannel-mail-email
+status: live
+
+title: "Should direct mail go to prospects and email to current customers? What a Journal of the Academy of Marketing Science study found"
+dek: >-
+  Many retailers send their most expensive mail to their best customers. Purchase data from six countries, backed by a field
+  test in Italy, suggest printed mail works on people who have yet to buy, while regular buyers respond, if at all, to email.
+short_title: "Direct mail for newcomers, email for regulars"
+
+description: >-
+  Valenti et al. find direct mail raised in-store sales among prospects alone in six countries, and moving it away from
+  top customers lifted projected revenue.
+
+keywords: [direct mail marketing, email marketing, multichannel marketing, omnichannel retail, customer segmentation,
+  RFM segmentation, customer acquisition, marketing budget allocation, marketing mix modelling, field experiment,
+  Journal of the Academy of Marketing Science]
+topics: [Retail, Personalization]
+
+image:
+  file: 2023-multichannel-mail-email.jpg
+  og: 2023-multichannel-mail-email-og.jpg
+  alt: "A bright yellow envelope lying on a fan of mint, pale blue, pink and lemon envelopes on an orange surface"
+  caption: "A printed envelope did most for the people who had never bought. Photo: Cht Gsml on Unsplash."
+
+short_answer: >-
+  Largely, yes. In a beauty retailer's sales records from six countries, more printed mail went with higher store sales
+  only among prospects, people who had shown interest but never bought. Email was tied to web sales from medium- and
+  high-value customers. A randomised test with 122,394 customers in Italy confirmed the mail result, though it found no
+  email effect in any group. Redirecting the same number of mailings and emails toward those groups raised projected revenue.
+
+takeaways:
+  - "Reassigning an unchanged volume of mailings and emails across customer groups would have raised the beauty retailer's revenue by 13.5%, or €340,000, with 67% of the gain coming from where the mail went."
+  - "Worked out from the randomised test, the new allocation beat the retailer's usual plan by 6.5% in revenue at the same marketing cost. The usual plan itself added only 1.6% over sending nothing."
+  - "For a US women's clothing retailer, the same method pointed to a 9.3% revenue lift, and 84% of that came from redirecting email."
+  - "In the authors' survey of 351 marketing managers, 46% said the most expensive marketing action belongs with the most valuable customers."
+
+paper:
+  doi: "10.1007/s11747-023-00962-2"
+  title: "Direct mail to prospects and email to current customers? Modeling and field-testing multichannel marketing"
+  authors: ["Valenti, A.", "Srinivasan, S.", "Yildirim, G.", "Pauwels, K."]
+  authors_full: ["Albert Valenti", "Shuba Srinivasan", "Gokhan Yildirim", "Koen Pauwels"]
+  year: 2024
+  journal: "Journal of the Academy of Marketing Science"
+  volume: "52"
+  issue: "3"
+  pages: "815-834"
+  online: "2023-08-05"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (Authors and Affiliations on the Springer page; ORCID iD linked there)
+    - name: "Albert Valenti"
+      affiliation: "IESE Business School, University of Navarra, 08034, Barcelona, Spain"
+      orcid: "0000-0003-2887-7712"
+    - name: "Shuba Srinivasan"
+      affiliation: "Questrom School of Business, Boston University, Boston, MA, 02215, USA"
+      orcid: ""
+    - name: "Gokhan Yildirim"
+      affiliation: "Imperial College London, London, SW7 2AZ, UK"
+      orcid: ""
+    - name: "Koen Pauwels"
+      affiliation: "D’Amore-McKim School of Business, Northeastern University, Boston, MA, 02115, USA; BI Norwegian Business School, Oslo, Norway"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Three empirical analyses as the paper counts them: econometric models of a beauty retailer's data (84,110 customers, six countries), the same models on a US apparel retailer's data (23,891 customers), and a randomised field experiment with 122,394 of the beauty retailer's customers in Italy; the survey of 351 managers cited in the introduction is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Albert Valenti of the University of Navarra's IESE Business School in Barcelona, Shuba Srinivasan of Boston
+      University's Questrom School of Business, Gokhan Yildirim of Imperial College London, and Koen Pauwels, who holds posts
+      at Northeastern University's D'Amore-McKim School of Business and BI Norwegian Business School, examined a budgeting
+      habit common in retail. Printed mail is expensive, so firms tend to send it to their most valuable customers. Email is
+      cheap, so it goes to almost everyone, prospects included. Their question was whether the customers receiving each
+      channel were in fact the ones who responded to it.
+
+      They ran three analyses. The main one used the records of L'Occitane en Provence, a beauty and wellness retailer that
+      sells its own products in its own stores and online: purchases from 2011 to 2014 and every email and direct mail
+      campaign from 2013 and 2014, for 84,110 customers sampled at random in the United States, Great Britain, Germany,
+      France, Spain and Italy. The second repeated the analysis with 23,891 customers of a US retailer of women's clothing and
+      accessories, using data from 2010 to 2012. The third was a field experiment run with the beauty retailer's marketing
+      team in Italy from July to November 2017.
+
+      Customers were grouped by four measures from their purchase history: how recently they bought, how often, how much they
+      spent, and how clumped their purchases were in time. Two further groups had no recent history to measure. Prospects had
+      shown interest in a store or on the website and left contact details but never bought. Dormant customers had bought
+      before, but not in the two years used to build the groups. The team then modelled weekly online and in-store sales for
+      each group in each country and combined the estimates across countries.
+    facts:
+      - ["Main data", "84,110 beauty retailer customers in six countries, with all their purchases and marketing contacts"]
+      - ["Second retailer", "A US women's clothing and accessories chain, 23,891 customers"]
+      - ["Field experiment", "Italian customers contactable through both channels, each given nothing, email, direct mail, or both, by random draw"]
+      - ["Channels", "Email was the only online action and direct mail the only offline one; both carried the same content"]
+      - ["Measured", "Weekly sales online and in stores, by customer group"]
+
+  - h: "Who is on a retailer's list"
+    body: |
+      The make-up of the list matters here. In every country, prospects and dormant customers
+      together accounted for half the list or more. The United States had the most prospects, 38%, and Great Britain the most
+      dormant customers, 40%. The retailer held email addresses for 42% of its customers and postal addresses for 65%.
+
+      Two independent coders compared a sample of 385 emails and mail pieces from the US and Great Britain and confirmed that
+      the messages matched. Any difference in response therefore comes from the channel, not from what was said.
+
+      A first look at the raw figures already hinted at the result. Before any modelling, the link between direct mail and
+      sales was stronger for prospects than for dormant or current customers in four of the six countries, and of similar
+      size in the other two.
+
+  - h: "Which customers responded to which channel"
+    body: |
+      The models report elasticities: the percentage change in sales that goes with a 1% change in a marketing action. For
+      prospects, direct mail had an elasticity of 0.164 on store sales, the only mail effect that the main analysis marked
+      as significant. Each 1% increase in mail to prospects went with 0.164% more store sales from that group. For
+      high-value customers, the estimate was close to zero.
+
+      Email showed up in a different group and a different channel. It was linked to online sales among medium-value (0.432)
+      and high-value customers (0.478), but only at the 10% significance level, a looser standard than the 5% that the mail
+      result met. Email showed no significant relationship with store sales for any group, and mail showed none with online sales.
+
+      The authors' interpretation: a physical piece catches the attention of newcomers to the brand, and of former
+      customers who stopped buying a while ago, while current customers already know the offer and need less persuading. The explanation
+      fits earlier consumer research, but it was not tested here.
+    chart: prospects
+
+  - h: "Checks on the model"
+    body: |
+      Several checks supported these patterns. Estimating the model with Bayesian methods, or as a single model with country
+      as an extra level, gave results with the same signs and significance. A test for reverse causality, in case managers
+      had sent more marketing to groups they already expected to buy, left the store-sales results intact. It removed one
+      online result: the email effect for high-value customers in the United States.
+
+      A further analysis looked at what drives differences in sales. For store sales, the customer's value tier mattered most by far.
+      Online, the country carried roughly the same weight as the tier, even across six similar Western markets.
+
+      As a forecasting tool, the model held up. Predicting the last 15% of weeks, which it had not seen, its mean absolute
+      error for store sales was 209.58, against 325.23 for the best machine learning alternative and 487.21 for simply carrying
+      the last value forward.
+    chart: variance
+
+  - h: "A second retailer"
+    body: |
+      The US clothing retailer gave more of its emails to its middle and upper tiers and spread its mail in line with
+      the size of each group. Its list was built differently too: 34% of customers sat in the medium tier, 14% were prospects
+      and 7% were dormant.
+
+      Here, direct mail was linked to both store sales (0.02) and online sales (0.05) among dormant customers. Email was
+      linked to store sales among prospects (0.12) and dormant customers (0.14). No tier of active buyers showed a
+      significant response to either channel. In both retailers, then, the people who responded to mail were outside the
+      active customer base: prospects in one case, lapsed customers in the other.
+
+  - h: "The randomised test in Italy"
+    body: |
+      Models fitted to past data can mistake who was targeted for what worked, so the team tested the findings directly.
+      Between July and November 2017, the beauty retailer's Italian customers who could be reached by both post and email were
+      each placed at random in one of four cells: no marketing, email only, direct mail only, or both. The split was made within each
+      value group, so that the small high-value tier appeared in every cell. Mail was capped at 33,000 pieces for budget
+      reasons, so the mail cells were smaller: 16,268 customers got mail only and 16,582 got both, against 44,840 with no
+      contact and 44,704 with email only.
+
+      Direct mail again worked only on prospects, with an elasticity of 0.132, close to the model's estimate. Email did not
+      change sales significantly in any group. Sending both produced a small additional effect among medium-value customers (0.011),
+      something the models had not shown.
+
+  - h: "Moving the same budget"
+    body: |
+      To turn the estimates into a plan, the team kept the total number of emails and mailings in each country fixed and
+      asked where each piece would bring in most, using an 82% margin based on the retailer's annual report. Managers set a
+      ceiling of three emails a week, seven in the United States. Without it, the model would have sent some groups two
+      emails a day.
+
+      The plan changed both channels. Email had gone to each group roughly in proportion to its size. The plan sent fewer to
+      prospects, dormant customers and recent low-value buyers, and more to the medium and high tiers and to low-value
+      customers who had not bought for a while. Direct mail had gone mostly to the more valuable tiers, with
+      prospects largely left out. The plan moved it toward prospects.
+
+      The retailer's marketing team said the different response by customer type had surprised them, and that they now
+      wanted to invest more in mail for winning new customers and reactivating inactive ones. The company has since built
+      this cycle of modelling and testing into its planning. The authors add a suggestion of their own: countries a retailer
+      has entered recently tend to hold more prospects and light buyers, so they may be the best place for mail.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your list into six groups", "Pull two years of purchase records. Put each contact into one group: never bought, has not bought for two years, or one of four tiers of active buyers ranked by how recently, how often and how much they buy."]
+  - ["Count who you can reach where", "For each group, count how many people have a postal address and how many have an email address you may use. Remove anyone who has asked not to be contacted through a channel."]
+  - ["Mail your prospects first", "Plan your next print run so that contacts who have not yet bought receive a good part of the pieces, ahead of your best customers. Give them a clear reason to visit a store, such as a new opening or an in-store event."]
+  - ["Keep regular buyers on email", "Give your middle and top tiers most of your emails, each with a link straight to the product page. Cap it at three emails a week per person."]
+  - ["Hold back a test group", "Before you move the whole budget, split each group at random into four cells: no contact, email only, mail only, and both. Run one campaign of eight to twelve weeks and compare store and online sales cell by cell."]
+  - ["Move the sends, then test again", "Shift mailings and emails toward the groups whose sales rose, keeping the total number of sends the same. Repeat the four-cell split once a year, because your groups and their habits change."]
+
+expect:
+  - "**Gains from moving, not spending.** The revenue gains came from sending the same number of pieces to different people, with no extra budget."
+  - "**Plan on the lower figure.** The lift based on the field test's estimates was smaller than the model's projection, which is the safer number for a business case."
+  - "**Email gains are less certain.** Email's link to online sales among regular buyers did not appear in the randomised test, so regard it as a hypothesis until your own split test supports it."
+  - "**A yearly cycle.** The retailer set its marketing budget once a year and kept its customer groups fixed for that period, so expect to learn over several campaigns rather than one."
+
+limits:
+  - "**Two retailers, own-brand goods.** Both sell only their own products, through their own stores and websites, and competitors' marketing was not in the data."
+  - "**Western, developed markets.** Six wealthy countries for the beauty retailer and the US for the clothing retailer; the authors would like the method tried in other regions."
+  - "**Two channels only.** Email and printed mail were the only actions studied. Text messages, apps, phone calls and paid social media were not."
+  - "**Order not tested.** Whether mail should come before email, or the other way round, was left open."
+  - "**One country for the causal test.** The randomised test ran only in Italy, with customers reachable through both channels."
+  - "**Projected revenue.** The lifts are calculations from model and test estimates, not results from a chainwide rollout."
+
+faq:
+  - q: "Does direct mail still work for retailers?"
+    a: "For winning new customers, it can. Among people who had never bought, store sales rose with the amount of direct mail in a beauty retailer's data from six countries, and a randomised field test in Italy confirmed the effect, while mail did little for existing customers (Valenti et al., 2024)."
+  - q: "Should I send direct mail to my best customers?"
+    a: "Not by default, on this evidence. High-value customers showed no significant sales response to mail, either in the model of past sales or in the randomised test, even though retailers often target them because mail is costly."
+  - q: "Is email better for existing customers?"
+    a: "Possibly, but the support is weaker. The model tied email to web purchases by medium- and high-tier buyers at a lenient significance level, and the randomised test detected no effect of email on any customer group."
+  - q: "What are prospects and dormant customers?"
+    a: "Prospects have shown interest in a brand, at a shop or online, and given their contact details, but have not yet made a purchase. Dormant customers bought in the past but not in the previous two years."
+  - q: "How can a retailer find out which customers respond to which channel?"
+    a: "With a split test. The retailer here used a random draw to sort customers into four cells, ranging from no marketing at all to both channels, within each value group, and then compared sales across the cells."
+
+also:
+  - doi: "10.1002/cb.2197"
+    title: "The mood effect: How mood, disclosure language and ad skepticism influence the effectiveness of native advertising"
+    authors: "Wen, Wu, Dodoo, & Kim"
+    journal: "Journal of Consumer Behaviour"
+    year: 2023
+    text: >-
+      Native ads look like the articles around them, so the state readers are in may shape how they respond. In two online
+      experiments, people were first put in a good or bad mood and then read an article-style ad. An explicit disclosure
+      label was recognised as advertising more often than an implicit one, and a bad mood raised the chance that people
+      spotted the ad. In a good mood, people rated the ad with the implicit label more favourably; in a bad mood, the explicit label
+      did better, and scepticism towards advertising shaped this further. The placement of a sponsored piece deserves as
+      much thought as the wording of its label.
+  - doi: "10.1111/ijcs.12976"
+    title: "Response to social media influencers: Consumer dispositions as drivers"
+    authors: "Bailey, Mishra, & Vaishnav"
+    journal: "International Journal of Consumer Studies"
+    year: 2023
+    text: >-
+      Why do some followers act on an influencer's suggestions while others scroll past? Across two studies, people more
+      attached to social media formed stronger one-sided bonds with influencers, felt more open to their influence and,
+      through that chain, were more willing to do what the influencer proposed. The second study showed that scepticism
+      towards influencers weakened the link between those bonds and compliance. The authors put forward compliance intentions
+      as a measure of influencer performance next to purchase intention. Judging a creator by sales intent alone leaves out
+      what kind of followers the creator has.
+
+charts:
+  prospects:
+    title: "How much sales respond to direct mail (elasticity)"
+    scale: [0, 0.2]
+    step: 0.05
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Prospects, model, six countries", 0.164, true]
+      - ["Prospects, field test, Italy", 0.132, false]
+      - ["Average in earlier work", 0.104, false]
+    source: "Main analysis of the beauty retailer's data, store sales (Table 6), and the randomised field experiment in Italy (text). The 0.104 is the average direct mail elasticity reported by Danaher and Dagger (2013), which the authors cite for comparison."
+  variance:
+    title: "What explains differences in weekly sales (share of explained variance)"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 0
+    bars:
+      - ["Store sales: customer value tier", 90, true]
+      - ["Store sales: country", 8, false]
+      - ["Store sales: time", 2, false]
+      - ["Online sales: customer value tier", 42, false]
+      - ["Online sales: country", 50, true]
+      - ["Online sales: time", 8, false]
+    source: "Robustness check with cross-random-effects models on the beauty retailer's data from six countries; shares as reported in the text."
+
+related_pages: []
