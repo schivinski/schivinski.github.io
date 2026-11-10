@@ -1,0 +1,225 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 36                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-09-08"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: email-subject-line-names
+status: live
+
+title: "Does a first name in an email subject line still raise opens? What a Marketing Letters study found"
+dek: >-
+  A well-known result says that greeting readers by first name gets more marketing emails opened. Two
+  field experiments with German-language emails found no such lift among students, while a formal title and surname did
+  win more opens from local and regional politicians.
+short_title: "When first-name subject lines stopped working"
+
+description: >-
+  Defau and Zauner find putting students' first names in email subject lines did not lift opens or clicks, while a
+  title and surname raised politicians' opens.
+
+keywords: [email marketing, email subject lines, personalized subject lines, first-name personalization,
+  email open rate, click-through rate, email A/B testing, name personalization, replication study, field experiment,
+  Marketing Letters]
+topics: [Personalization, Creative]
+
+image:
+  file: 2023-email-subject-line-names.jpg
+  og: 2023-email-subject-line-names-og.jpg
+  alt: "A man with a greying beard and earphones sits side-on at a round wooden café table with a laptop and a cup of coffee, a sunlit mustard-yellow wall with a grey shutter and a diagonal shadow behind him"
+  caption: "Whether an email gets opened can come down to a few words in its subject line. Photo: quan le on Unsplash."
+
+short_answer: >-
+  Not in this test. When an alumni club emailed 3,521 university students, opening the subject line with each student's
+  first name did not raise opens or clicks. A more formal version did better: a start-up's survey
+  invitation to 3,700 local and regional politicians was opened more often when the subject line addressed them by
+  title and surname, although clicks did not rise reliably. An influential earlier result did not reproduce.
+
+takeaways:
+  - "Among students, 56.9% opened the email that used their first name and 58.5% opened the plain version, a difference that could well be due to chance."
+  - "Clicks did not change either: 4.5% of students followed the link in each version."
+  - "Addressing politicians as Mr. or Ms. plus their surname raised opens by 11.8%, the only statistically significant difference in either experiment."
+  - "The same formal subject line lifted the politicians' clicks by 14%, from 4.3% to 4.9%, but statistically that rise was not reliable."
+
+paper:
+  doi: "10.1007/s11002-023-09701-7"
+  title: "Personalized subject lines in email marketing"
+  authors: ["Defau, L.", "Zauner, A."]
+  authors_full: ["Laurens Defau", "Alexander Zauner"]
+  year: 2023
+  journal: "Marketing Letters"
+  volume: "34"
+  issue: "4"
+  pages: "727-733"
+  online: "2023-09-08"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Springer page)
+    - name: "Laurens Defau"
+      affiliation: "JKU Business School, Johannes Kepler Universität Linz, Altenberger Straße 69, 4040, Linz, Austria"
+      orcid: "0000-0001-6590-8448"
+    - name: "Alexander Zauner"
+      affiliation: "JKU Business School, Johannes Kepler Universität Linz, Altenberger Straße 69, 4040, Linz, Austria"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two randomized email field experiments: university students, first name (1,773 v 1,748), and local and regional politicians, title and surname (1,846 v 1,854)"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Laurens Defau and Alexander Zauner,
+      of the JKU Business School at Johannes Kepler University Linz in Austria, went back to one of the best-known
+      findings in email marketing. An earlier field study reported that adding the recipient's first name to a subject
+      line raised opens by 20% and sales leads by 31% (Sahni et al., 2018). That work has been cited more than 200 times,
+      and the tactic has since become routine.
+
+      The original data were collected in 2014. Since then, inboxes have filled with emails that use the reader's name,
+      and the authors asked whether people have simply got used to it. As far as they could tell, nobody had repeated the
+      original test, so they ran two randomized field experiments with real senders. The paper appears in the journal's
+      Replication Corner, which publishes studies that check whether earlier results hold.
+    facts:
+      - ["Design", "Two randomized field experiments; in each, two versions of one email differed only in the subject line"]
+      - ["Experiment 1", "An alumni club invited university students to a career platform: 1,773 got a subject line with their first name, 1,748 a plain version"]
+      - ["Experiment 2", "A social media software start-up invited local and regional politicians to a survey: 1,846 were addressed by title and surname, 1,854 were not"]
+      - ["Language", "Both emails were written and sent in German"]
+      - ["Measured", "The share of sent emails that were opened, clicked through and unsubscribed from, compared with independent-sample t-tests"]
+
+  - h: "A first name did nothing for students"
+    body: |
+      In the first experiment, an alumni club that offers career advice invited university students to join an exclusive
+      career platform. One group received a subject line that opened with their first name, which in English reads
+      "John, a successful start for your career". The other group received the same email without the name.
+
+      Slightly fewer students opened the named version, but the difference could easily have been chance (p = 0.333).
+      The share who went on to click the link was identical for the two versions. The first name made no measurable
+      difference.
+
+  - h: "A title and surname helped with politicians"
+    body: |
+      The second experiment had a more formal setting. A start-up that develops tools for managing social media accounts
+      wanted to learn how professional groups use social media, and sent local and regional politicians an email inviting
+      them to take a survey. Because the contact was formal, the named version used a title and surname instead of a first name:
+      "Mr. Smith, how do you view digitalization in politics?", with Herr or Frau in the German original.
+
+      This time the name made a difference. Of the politicians greeted by name, 38.8% opened the email, against 34.7% of those who received the plain version (p = 0.010).
+    chart: opens
+
+  - h: "Clicks barely moved"
+    body: |
+      An open is only the first step. What a sender usually wants is a click on the link inside, and neither experiment
+      produced a reliable change there. Among students, click rates were the same with and without the first name
+      (p = 0.943). Among politicians, a few more clicked after the named subject line, but the difference fell short of
+      significance (p = 0.373).
+
+      Unsubscribes were rare in both tests. Fifteen students in the first-name group left the mailing list, against 13
+      in the plain group, which the authors caution against reading too much into. Only one politician unsubscribed, from
+      the named group.
+    chart: clicks
+
+  - h: "Why the first-name effect may have worn off"
+    body: |
+      The authors offer three possible reasons for the students' result, none of which they tested. The first is
+      familiarity: once many senders put names in subject lines, a name no longer stands out. The second is the audience,
+      since students grew up online and may spot the tactic more readily. The third is culture, as earlier research links
+      national cultural traits to how people respond to promotional email (Lorente-Páramo et al., 2020).
+
+      For the politicians, they suggest that a title and surname are still rare in subject lines and so may still
+      surprise the reader. Politicians are also, in general, older than students and perhaps less used to digital
+      marketing. The two experiments differed in audience, sender, topic and type of name at the same time, which leaves
+      the paper unable to say which of these accounts for the different results.
+
+  - h: "What it means for email teams"
+    body: |
+      The authors conclude that personalization of this kind can still work, but it needs to be more creative and
+      surprising to catch attention. They add that consumers adapt as technology changes, so the effect of any single
+      marketing tool can fade.
+
+      A suggestion of ours, not something the study examined: a personalization rule that once won an A/B test is a
+      claim to recheck, not a permanent setting. Holding back part of each list for a plain version keeps a running
+      record of whether the rule still pays off.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Look back at ten campaigns", "Open your last ten email campaigns and mark which subject lines used the reader's name. Write the open rate and the click rate next to each one."]
+  - ["Choose how to address this list", "Ask how you would greet these readers in person. For business or formal lists, prepare a title and surname version, but only if your records hold titles reliably. For casual lists, prepare a first-name version."]
+  - ["Write three subject lines", "Write one line with no name, one with the name, and one that opens with a detail the reader will recognise, such as the event or product they signed up for. Leave everything else in the email unchanged."]
+  - ["Split the list at random", "Divide the list at random into three equal groups of at least 1,500 addresses each. Send all three versions at the same hour on the same day."]
+  - ["Judge on clicks after three days", "Wait 72 hours, then compare clicks first and opens second, because some mail apps open messages automatically. If a free A/B significance calculator does not confirm a difference, treat it as none."]
+  - ["Repeat the test every six months", "Run the same three-way test twice a year. When a named or detailed version stops beating the plain line, drop it and try a new detail."]
+
+expect:
+  - "**No built-in gain from a first name.** Do not plan on a lift from adding first names; in this replication they changed neither opens nor clicks."
+  - "**Formality can suit professional readers.** A respectful title and surname worked for a formal audience here, and the benefit showed up in opens."
+  - "**Opens move more easily than clicks.** A subject line that wins more opens may not bring more clicks, so judge it on what happens after the open."
+  - "**Tactics wear out.** The authors expect devices like this to lose force as readers get used to them, so today's best subject line may need replacing."
+
+limits:
+  - "**Audience and tactic changed together.** First names were tried only with students, and titles with surnames only with politicians, so the two results cannot be compared head to head."
+  - "**One email in each test.** Each experiment was a single message to one list with one wording of the subject line."
+  - "**Opens, clicks and unsubscribes only.** Neither test followed recipients through to sign-ups, survey completions or purchases."
+  - "**German-language emails.** Both lists received emails in German, and the authors expect reactions to promotional email to differ from one culture to another."
+  - "**Reasons not measured.** Familiarity, age and digital experience were offered as explanations but not measured, and the data cannot be shared, to protect the organisations involved."
+
+faq:
+  - q: "Does putting the reader's first name in the subject line increase email open rates?"
+    a: "Not in this replication. When an alumni club tested a first-name subject line on university students, opens and clicks were no higher than for the plain version, so the earlier finding of a lift was not reproduced (Defau & Zauner, 2023)."
+  - q: "Is a title and surname better than a first name in a subject line?"
+    a: "It helped in one setting. A survey invitation that addressed local and regional politicians by title and surname was opened more often than one with no name. The first-name test used a different audience and sender, so the study does not show that surnames beat first names in general."
+  - q: "Why would name personalization stop working?"
+    a: "Mainly through familiarity, in the authors' view: when many brands use the same device, readers stop noticing it. They also point to a younger, digitally experienced audience and to cultural differences, without testing either."
+  - q: "What did earlier studies find about names in email?"
+    a: "Apart from the first-name study this paper set out to repeat, a charity field experiment matched each potential donor's surname with that of a teacher seeking funds. The matching name lifted opens by around 27%, and average donations in that group were twice those from a standard email (Munz et al., 2020)."
+
+also:
+  - doi: "10.1177/00222437231195576"
+    title: "Guardians of Trust: How Review Platforms Can Fight Fakery and Build Consumer Trust"
+    authors: "Beck, Wuyts, & Jap"
+    journal: "Journal of Marketing Research"
+    year: 2024
+    text: >-
+      Fake reviews threaten the trust on which review platforms depend. Drawing on research on governance and identity
+      disclosure, the authors propose five design practices: monitoring, exposure, community building, status endowment
+      and identity disclosure. Across five studies these practices raised trust in the platform, over and above the
+      content of the reviews themselves, and exposure, community building and status endowment made identity disclosure
+      unnecessary for building that trust. A platform can win confidence without asking reviewers to give up their privacy.
+  - doi: "10.1177/00222437231193343"
+    title: "Is It as Bad as It Looks? Judgments of Quantitative Scores Depend on Their Presentation Format"
+    authors: "Lembregts, Schepers, & De Keyser"
+    journal: "Journal of Marketing Research"
+    year: 2024
+    text: >-
+      Ratings of drivers, products and hotels can be shown one score at a time, as a running average, or both. In nine
+      experiments, when a usually strong performer received one poor score, people judged its overall performance less
+      harshly if they saw only the running average, and the mirror pattern held for a weak performer with one good
+      score. The effect grew when the odd score seemed more representative, for example because it was recent, an effect the
+      authors explain by the average distorting how people perceive the raw score. Choosing how to display ratings is a
+      marketing decision in its own right.
+
+charts:
+  opens:
+    title: "Share of emails opened, with and without the recipient's name"
+    scale: [0, 70]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Students, first name", 56.9, true]
+      - ["Students, plain subject line", 58.5, false]
+      - ["Politicians, title and surname", 38.8, true]
+      - ["Politicians, plain subject line", 34.7, false]
+    source: "Experiment 1 (Table 1, university students; p = 0.333) and Experiment 2 (Table 2, local and regional politicians; p = 0.010)."
+  clicks:
+    title: "Share of emails in which the recipient clicked the link"
+    scale: [0, 6]
+    step: 1
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Students, first name", 4.5, true]
+      - ["Students, plain subject line", 4.5, false]
+      - ["Politicians, title and surname", 4.9, true]
+      - ["Politicians, plain subject line", 4.3, false]
+    source: "Tables 1 and 2. Neither difference was statistically significant (p = 0.943 for students, p = 0.373 for politicians)."
+
+related_pages: []
