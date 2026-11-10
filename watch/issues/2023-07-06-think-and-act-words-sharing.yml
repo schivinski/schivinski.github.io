@@ -1,0 +1,275 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+# First published online 6 July 2023 (Wiley article page "First published: 06 July 2023"; publication history:
+# accepted manuscript online 6 July 2023, version of record online 17 July 2023; Crossref created 6 July, published-online 17 July).
+series: 2023
+number: 26                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-07-06"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: think-and-act-words-sharing
+status: live
+
+title: "Which words make a brand's social media post more shareable? What a Journal of Consumer Psychology study found"
+dek: >-
+  Posts that ask readers both to choose well and to get going earned more shares, but only when their language stayed
+  abstract. Text analyses of brand and customer posts on Facebook and Twitter and three studies with US adults back the
+  pattern, with a caveat for customers' own replies.
+short_title: "Posts that pair choosing words with action words"
+
+description: >-
+  Pham et al. find brand posts pairing be-right words like right with action words like get earned more shares when the
+  wording around them stayed abstract.
+
+keywords: [social media sharing, shareable content, social media copywriting, brand posts, abstract language,
+  construal level, regulatory mode, assessment and locomotion, regulatory fit, retweets, text analysis,
+  Journal of Consumer Psychology]
+topics: [Social media, Creative, UGC]
+
+image:
+  file: 2023-think-and-act-words-sharing.jpg
+  og: 2023-think-and-act-words-sharing-og.jpg
+  alt: "A hand with red nail polish holds a phone sideways in front of a river and a city skyline, the towers sharp on the phone screen and blurred in the distance behind it"
+  caption: "The same skyline, close up on a screen and far away across the water. Photo: Frolicsome Fairy on Unsplash."
+
+short_answer: >-
+  Words that ask readers to get it right (right, perfect, compare) placed next to words that ask them to get moving
+  (get, go, start) were linked to more sharing, but only when the rest of the post was abstract and big-picture. The pattern
+  appeared in Facebook posts and tweets from 100 global brands, and in online studies where US adults first answered
+  "why" rather than "how" questions, or pictured a place far from home.
+
+takeaways:
+  - "Only 4.24% of 210,963 Facebook posts from 100 global brands contained both a be-right word and an action word, and only 2.88% of their 311,365 tweets did."
+  - "On Facebook, more of the paired wording went with more shares in the 42.83% of brand posts with the most abstract language, and with fewer shares in the most concrete 7.64%."
+  - "After answering \"why\" questions, people listing their thoughts on an ad with both kinds of words wrote 24.47 words on average, against 18.45 to 20.31 words for the other versions, a sign of closer attention."
+  - "Across 377,086 replies written by customers to the same brands, more paired wording was tied to fewer retweets for 86.06% of replies, and to more retweets only in the most abstract 0.45%."
+
+paper:
+  doi: "10.1002/jcpy.1375"
+  title: "How construal–regulatory mode fit increases social media sharing"
+  authors: ["Pham, T.", "Septianto, F.", "Mathmann, F.", "Jin, H. S.", "Higgins, E. T."]
+  authors_full: ["Thuy Pham", "Felix Septianto", "Frank Mathmann", "Hyun Seung Jin", "E. Tory Higgins"]
+  year: 2023
+  journal: "Journal of Consumer Psychology"
+  volume: "33"
+  issue: "4"
+  pages: "668-687"
+  online: "2023-07-06"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Thuy Pham"
+      affiliation: "UQ Business School, The University of Queensland, St Lucia, Queensland, Australia"
+      orcid: "0000-0003-4041-5924"
+    - name: "Felix Septianto"
+      affiliation: "UQ Business School, The University of Queensland, St Lucia, Queensland, Australia"
+      orcid: "0000-0002-7487-761X"
+    - name: "Frank Mathmann"
+      affiliation: "School of Advertising, Marketing and Public Relations, Queensland University of Technology, Brisbane, Queensland, Australia"
+      orcid: "0000-0003-1446-0262"
+    - name: "Hyun Seung Jin"
+      affiliation: "School of Advertising, Marketing and Public Relations, Queensland University of Technology, Brisbane, Queensland, Australia"
+      orcid: "0000-0002-8300-102X"
+    - name: "E. Tory Higgins"
+      affiliation: "Columbia Business School, Columbia University, New York, New York, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 6
+    basis: "Six studies: three text-analysis field studies of posts from 100 brands (Study 1a, 210,963 Facebook posts; Study 1b, 311,365 brand tweets; Study 2, 377,086 customer replies on Twitter) and three online studies with US Prolific adults (Study 3, preregistered, 399; Study 4, 798; Study 5, 794); two pretests (103, 101) and one priming replication reported only in Appendix S1 (MDA11) not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Thuy Pham and
+      Felix Septianto of The University of Queensland,
+      Frank Mathmann and
+      Hyun Seung Jin of Queensland University of Technology, and
+      E. Tory Higgins of Columbia University
+      asked what makes people pass a post on, which matters to anyone who runs a brand account. They started from two
+      motivations that psychologists call assessment and locomotion. Assessment is the wish to be right, to weigh the
+      options and pick the best one. Locomotion is the wish to act, to get started and get things done. Most posts appeal
+      to one or the other. The team looked at posts that appeal to both at once.
+
+      Their argument was that the two motivations make different demands on attention, and that abstract, big-picture
+      language lets a reader combine them. Someone thinking about why a post matters can take "choose well" and "get going"
+      as a single aim. Someone thinking about how, about steps and details, faces two separate requests.
+
+      Six studies tested the idea. Three applied text analysis to real posts from 100 large international brands, such as
+      Amazon, Coca-Cola and Nike, collected between January 2017 and October 2022. The other three were online studies with
+      US adults.
+    facts:
+      - ["Field data", "210,963 brand posts on Facebook, 311,365 brand tweets and 377,086 customer replies to the brands on Twitter"]
+      - ["Brands", "100 international brands taken from Interbrand's Best Global Brands 2022 or from earlier research on the language of brand posts"]
+      - ["Online studies", "399, 798 and 794 US adults, all from the Prolific panel; the first of these was preregistered"]
+      - ["Word measures", "A published dictionary of assessment and locomotion words, and a concreteness dictionary that rates how abstract each word is"]
+      - ["Outcomes", "Share and retweet counts in the field data; stated likelihood of sharing, or a choice of which version to share, in the online studies"]
+
+  - h: "How were the words scored?"
+    body: |
+      Be-right words in the dictionary include right, perfect, correct and truth. Action words include get, go, act, start
+      and make. For every post the team worked out the proportion of be-right words and the proportion of action words,
+      then multiplied them, so a post scored above zero only when it held both kinds. This issue calls that paired
+      wording. The researchers' own example is Gillette's "Get the right shave for the right start to your day": eleven words, with right twice, plus get
+      and start.
+
+      Abstractness came from a second dictionary that rates how directly a word refers to something people can see, touch
+      or hear. Each post took the average rating of its words, and a higher score meant more abstract language.
+
+  - h: "What did the brand posts show?"
+    body: |
+      In Studies 1a and 1b, the team modelled share counts with methods built for count data. The models also allowed for the account's age and
+      audience, the post's age, hashtags, mentions, links and length, its emotional tone, and the time and day it went out.
+
+      On both platforms, paired wording and abstract language worked together. The more abstract a post, the more the
+      pairing went with extra shares on Facebook and extra retweets on Twitter. For posts one standard deviation more
+      concrete than the average, the pairing made no measurable difference on either platform.
+
+      The Facebook result held when brand, product category and calendar timing were also taken into account. The Twitter
+      result kept its direction under those controls but was no longer statistically significant. The team then corrected
+      for brands choosing their words strategically. Both results kept a positive sign but fell short of significance, a
+      pattern the authors call directionally consistent.
+
+  - h: "Customers' own replies"
+    body: |
+      Study 2 repeated the analysis on replies that customers wrote to the same 100 brands. These replies were
+      rarely passed on, with 0.22 retweets each on average.
+
+      Here the paired wording was linked to fewer retweets overall. The more abstract a reply, the weaker that negative
+      link became, which is the same interaction the brand posts showed. A positive link appeared only in a very small set
+      of highly abstract replies. On this evidence, the case for paired wording is clearest for posts that brands write
+      themselves.
+
+  - h: "What the online studies added"
+    body: |
+      Study 3 measured people's own tendencies. Its 399 US participants chose between two slogans for a city named
+      Echuca. One slogan stressed what was desirable about the place, an abstract appeal, and the other what was practical,
+      a concrete one. Participants said which they would rather share and then completed a standard 24-item
+      questionnaire on assessment and locomotion. The more inclined people were to act, the more they preferred to share
+      the abstract slogan, but only among those also strongly inclined to evaluate. Among people low on evaluating, the
+      inclination to act made no difference.
+
+      Study 4 set the wording itself. Its 798 US participants first answered a series of either why or how questions about
+      sharing information on social media, a standard way of putting people into an abstract or a concrete frame of mind.
+      They then saw a Facebook ad for plant-based meat written with be-right words (think, alternatives), action words
+      (momentum, change), both kinds, or neither, and rated their likelihood of sharing it. After why questions, the
+      version carrying both word types came out ahead of each of the other three. After how questions, the four versions
+      did not differ.
+    chart: sharing
+
+  - h: "Attention is the link"
+    body: |
+      Study 4 also measured engagement, meaning how absorbed people were in the ad. On an eight-item scale, the
+      paired version scored 3.48 out of 7 after why questions, against 2.99 to 3.03 for the others. Tests
+      of the indirect path showed that the sharing advantage ran through this higher engagement.
+
+      Study 5 checked the same idea from another angle. Its 794 US participants read a short Twitter review of a new restaurant
+      located either close to their home or far from it, since distance tends to make people think in more abstract terms.
+      The paired review ended "Compare other alternatives for yourself! I definitely recommend you quickly get here!", while
+      the plain version used neither kind of word. Half the participants also wrote three or four sentences about their
+      thoughts on the post before rating it, a task that raises attention for everyone. Without that task, the paired
+      review drew higher retweet ratings when the restaurant was far away and no higher ones when it was close. With the
+      task, the advantage disappeared, which is what the researchers expected if attention is the mechanism.
+    chart: restaurant
+
+  - h: "The authors' advice for brands"
+    body: |
+      The authors' first recommendation is to write posts that combine the two word types in abstract language,
+      and to check drafts against the word lists before they go out. Their second is to look at the words
+      customers use. For people who use both kinds of words themselves, they suggest ads that stress what a product makes
+      possible over how easy it is to use. Their illustration is a home improvement tool that "will make your bathroom look
+      fantastic" rather than one "anybody can fix their bathroom with". That example comes from the discussion and was not
+      itself tested.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Count the two kinds of words in past posts", "Pull your last 50 posts. Mark every word that asks people to choose well, such as right, best, perfect or compare, and every word that asks them to move, such as get, go, start or make. Count how many posts carry at least one of each."]
+  - ["Write down the reason behind each post", "Before drafting, finish the sentence \"This matters to our customers because...\" in one line. That line is the big-picture purpose the post should carry, not the steps or the specifications."]
+  - ["Put one choosing word next to one moving word", "Give each caption at least one word from each list, as in \"Get the right gear and go\". Keep to one or two of each, so the line still sounds like something a person would say."]
+  - ["Lead with why and move the how elsewhere", "Turn feature lists and instructions into the result they lead to. Swap \"three settings and a quick charge\" for \"make every morning easier\", and put the details behind the link or in the first comment."]
+  - ["Run the new wording against the old", "For two weeks, alternate posts in the new style with posts in your usual style on the same platform, at the same times of day. Compare shares per 1,000 impressions, not likes."]
+  - ["Review the results every three months", "Sort the quarter's posts into four groups: both kinds of words or not, big-picture or detailed. Keep whichever style earns more shares relative to its reach, and drop the pairing on any channel where it does not help."]
+
+expect:
+  - "**Small effects.** Average ratings across the conditions of the two experiments ran from 1.78 to 2.80 out of 7, so even the best wording left most readers unlikely to share."
+  - "**Abstract language is the condition.** Paired words in detailed, step-by-step posts brought no benefit in any of the tests."
+  - "**Attention matters.** The advantage vanished once readers were made to think hard about the post anyway. An inference from this, not a tested claim, is that the wording matters most where people scroll past quickly."
+  - "**Platforms differ.** Abstract language on its own went with more shares of brand posts on Facebook but with fewer retweets on Twitter, so test each channel separately."
+
+limits:
+  - "**Field data show links, not causes.** Brands that write in this style may also differ in ways the models could not capture."
+  - "**Stated intentions.** Participants rated their willingness to share or picked a preferred version; no real sharing was recorded."
+  - "**Text only, in English.** Images and video, now central on most platforms, were not analysed, and other languages remain untested."
+  - "**US participants.** All three online studies recruited US adults through one panel."
+  - "**Some topics may not benefit.** The authors expect that disgusting or violent posts would gain nothing from this kind of wording, a possibility left for future work."
+
+faq:
+  - q: "What wording makes people more likely to share a brand post?"
+    a: "Pairing a word about getting it right, such as right or perfect, with a word about acting, such as get or go, was linked to more sharing when the surrounding language was abstract, focused on why rather than how (Pham et al., 2023). In concrete, detailed posts the pairing made no difference."
+  - q: "How does abstract language differ from concrete language?"
+    a: "Abstract language describes the purpose behind something: what an action is for and why it matters. Concrete language describes the steps, features and details a person could see or touch. In the experiments, answering why questions or thinking about a distant place was used to put people in an abstract frame of mind."
+  - q: "Does it work for customer reviews and replies?"
+    a: "Partly. In one of the online studies, a restaurant review that combined both kinds of words scored higher on retweet likelihood among readers told the restaurant was a long way from home. Among real customer replies to brands on Twitter, the combination was mostly tied to less sharing, and only the most abstract replies gained."
+  - q: "Why does the pairing need big-picture wording?"
+    a: "Evaluating and acting compete for attention. The researchers argue that thinking about the larger goal lets readers merge them into one aim, which keeps them absorbed in the post, and that this absorption leads to sharing. When attention was raised by a writing task instead, the pairing no longer helped."
+  - q: "How was the abstractness of a post measured?"
+    a: "With a published concreteness dictionary of 85,863 words, in which words tied to direct sensory experience count as concrete. A post's score was the mean across its words. A rougher check for everyday use, our suggestion rather than the researchers', is whether a draft says why something matters or only how it works."
+
+also:
+  - doi: "10.1002/jcpy.1373"
+    title: "Perceived corruption reduces algorithm aversion"
+    authors: "Castelo"
+    journal: "Journal of Consumer Psychology"
+    year: 2024
+    text: >-
+      Research on whether people would rather rely on an algorithm or on another person mostly draws on participants from
+      wealthy Western countries. This paper includes people from more than 30 countries on every inhabited
+      continent. Those born or raised in countries with high perceived corruption were far less averse to algorithmic
+      decisions, in some studies not averse at all, and making corruption salient in an experiment also reduced the
+      aversion. Acceptance of automated decisions varies by market, so the argument for an algorithm may need different
+      framing from one country to the next.
+  - doi: "10.1002/jcpy.1369"
+    title: "Through rose-tinted glasses: How inducing and resolving curiosity makes consumers less skeptical and improves their product evaluations"
+    authors: "Hüttl-Maack, Sedghi, & Daume"
+    journal: "Journal of Consumer Psychology"
+    year: 2024
+    text: >-
+      Ads that make people curious tend to be read more closely, which might be expected to make readers more critical.
+      Across four studies, raising curiosity and then answering it had the opposite effect: the answer brought a pleasant
+      feeling, scepticism towards the product fell, and attitudes and purchase intentions rose. The information itself was
+      held constant, so the way it was disclosed made the difference, and it worked even when the curiosity came from an
+      unrelated source. A teaser helps only if the campaign delivers the answer it promises.
+
+charts:
+  sharing:
+    title: "Likelihood of sharing a plant-based meat ad on Facebook (1 to 7), by ad wording and the questions answered first"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Why questions: both word types", 2.45, true]
+      - ["Why questions: be-right words only", 2.04, false]
+      - ["Why questions: action words only", 1.78, false]
+      - ["Why questions: neither", 1.92, false]
+      - ["How questions: both word types", 1.93, false]
+      - ["How questions: be-right words only", 1.97, false]
+      - ["How questions: action words only", 2.00, false]
+      - ["How questions: neither", 2.06, false]
+    source: "Study 4, 798 US adults, group means reported in the text. After why questions the ad with both word types beat each other version; after how questions the four did not differ."
+  restaurant:
+    title: "Likelihood of retweeting a restaurant review (1 to 7), by distance, review wording and a writing task"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Far away: paired review", 2.80, true]
+      - ["Far away: plain review", 2.16, false]
+      - ["Close to home: paired review", 2.17, false]
+      - ["Close to home: plain review", 2.32, false]
+      - ["Wrote first, far: paired review", 2.40, false]
+      - ["Wrote first, far: plain review", 2.67, false]
+      - ["Wrote first, close: paired review", 2.74, false]
+      - ["Wrote first, close: plain review", 2.61, false]
+    source: "Study 5, 794 US adults, group means reported in the text. Only the first pair differs significantly; writing about the post first removed the difference."
+
+related_pages: []
