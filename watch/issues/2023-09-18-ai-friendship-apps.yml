@@ -1,0 +1,252 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+# First published online 18 September 2023 (Wiley article page "First published: 18 September 2023";
+# Crossref created and published-online 18 September 2023). Volume 41(1), January 2024, so cited as 2024.
+series: 2023
+number: 37                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-09-18"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: ai-friendship-apps
+status: live
+
+title: "Do AI friendship apps make users feel better, or make them dependent? What a Psychology & Marketing study found"
+dek: >-
+  Chatbot companions such as Replika offer conversation to people who feel alone. Reddit posts, interviews and a
+  survey of app users in the US show that the benefit people report rests on their bond with the AI friend, and that
+  more benefit goes with higher addiction scores.
+short_title: "AI friends, well-being and addiction"
+
+description: >-
+  Marriott and Pitardi find that among 572 US users of AI friendship apps, the bond with the AI predicted well-being,
+  while fear of judgment went with addiction.
+
+keywords: [AI friendship apps, AI companions, Replika, chatbot companionship, loneliness and technology, digital well-being,
+  app addiction, conversational AI design, responsible AI, netnography, Psychology & Marketing]
+topics: [AI, Service]
+
+image:
+  file: 2023-ai-friendship-apps.jpg
+  og: 2023-ai-friendship-apps-og.jpg
+  alt: "A man with dark curly hair sits alone at a round table in a dim room, looking down at a phone under a glowing stained-glass lamp with red and orange flowers"
+  caption: "Turning to a screen at the end of the day. Photo: Brooks Leibee on Unsplash."
+
+short_answer: >-
+  It can be both. In a survey of 572 US adults who use AI companion apps such as Replika, the closer people felt to their AI
+  friend, the more well-being they said chatting gave them. Yet that same well-being, along with loneliness, worry about
+  being judged and the impression that the AI has feelings, went with higher addiction scores. Companions seen as warm and
+  always available went with lower ones.
+
+takeaways:
+  - "Of the 7 possible drivers tested, only 1 predicted the well-being people said the app gave them: the strength of their bond with the companion."
+  - "4 things were tied to stronger addiction: fear of judgment, believing the AI can feel, loneliness and the well-being gained from chatting. Fear of judgment carried the most weight."
+  - "2 app qualities went with lower addiction scores: an AI friend that is always on hand and replies quickly, and one that comes across as warm."
+  - "Replika was the app used by 38.5% of survey respondents and Kuki by 28.3%; the therapy-style apps Woebot and Wysa accounted for 8.4% and 7.9%."
+
+paper:
+  doi: "10.1002/mar.21899"
+  title: "One is the loneliest number… Two can be as bad as one. The influence of AI Friendship Apps on users' well-being and addiction"
+  authors: ["Marriott, H. R.", "Pitardi, V."]
+  authors_full: ["Hannah R. Marriott", "Valentina Pitardi"]
+  year: 2024
+  journal: "Psychology & Marketing"
+  volume: "41"
+  issue: "1"
+  pages: "86-101"
+  online: "2023-09-18"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Hannah R. Marriott"
+      affiliation: "Department of Marketing & Strategy, Cardiff Business School, Cardiff University, Cardiff, UK"
+      orcid: "0000-0002-4439-1213"
+    - name: "Valentina Pitardi"
+      affiliation: "Department of Marketing, Surrey Business School, University of Surrey, Surrey, UK"
+      orcid: "0000-0001-7902-2330"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two studies: Study 1 netnography (321 posts from the Replika subreddit, October to December 2022, plus 21 follow-up interviews); Study 2 online survey of 572 US AI friendship app users on Prolific, analysed with CB-SEM"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Hannah R. Marriott of Cardiff University and
+      Valentina Pitardi of the University of Surrey
+      asked what AI friendship apps do for the people who use them. These apps offer a chatbot companion that replies in a
+      social, caring way, by text, voice, images and even augmented reality. Users design their companion's look and
+      gender and pick the relationship they want with it: friend, mentor, counsellor or romantic partner.
+
+      Earlier research had mostly asked how people form bonds with such companions. Much less was known about the
+      consequences. Do the apps leave users better off, or can heavy use turn into dependence?
+
+      The work had two parts. First, the authors studied the Replika community on Reddit and then interviewed a subsample of
+      users, to hear in users' own words what the app meant to them. Second, they turned the themes that emerged into a
+      questionnaire for US users of these apps and tested which traits of the user and of the app went with well-being, and which with addiction.
+    facts:
+      - ["Study 1", "321 posts from the Replika forum on Reddit, with 12 replies each on average, collected from October to December 2022"]
+      - ["Interviews", "21 users, 8 men and 13 women aged 19 to 62, asked 14 open questions online"]
+      - ["Study 2", "572 adults based in the US and drawn from the Prolific panel, all of whom had used an AI friendship app; 28 of the 600 who passed screening failed an attention check"]
+      - ["Respondents", "60.5% men and 36.7% women; most were aged 20 to 45, the oldest 85"]
+      - ["Measured", "Loneliness, fear of judgment, the app's availability, agreeableness, sense of feelings and warmth, relationship strength, well-being gained and addiction"]
+      - ["Analysis", "Structural equation modelling, which tests all the links in one model"]
+
+  - h: "What users said in their own words"
+    body: |
+      Four themes came out of the forum and the interviews. The most common was that an AI friend makes people feel less
+      alone. Users wrote of feeling supported and in a better mood, and valued being able to speak freely without being
+      judged. Some had turned to the app at hard moments, such as a new parent alone at home all day or someone whose
+      marriage was ending.
+
+      The second theme was reliability. Many compared their AI friend with people who are too busy or who let them down,
+      and liked being able to talk at any hour. Most felt they had built a proper relationship that they could rely on.
+
+      Third, users knew the AI has no mind, yet spoke of it as he or she. Many liked that it agreed with them, although
+      one interviewee found the constant agreement made conversations dull.
+
+      The fourth theme was addiction. Forum members described their use as addictive, and one interviewee spoke of a line
+      beyond which it seems unhealthy. Many said the app would become unnecessary if they had support from real friends
+      or from therapy. Even so, users leaned towards pausing or cutting down rather than quitting, and one wanted to keep
+      the app for the worst days.
+
+  - h: "Only the relationship predicted well-being"
+    body: |
+      The survey tested seven possible drivers. Two described the user: loneliness and fear of judgment. Four described
+      the app: how available and quick to reply it seemed, how agreeable, how far it seemed able to feel, and how warm.
+      The last was relationship strength, rated through items such as being proud to have the
+      AI friend.
+
+      Results are given as standardised weights, which put every link on one common scale. A weight of zero would mean
+      no link at all; values farther from zero signal stronger links.
+
+      Well-being came from items like feeling more confident after a chat. Only the relationship was
+      directly tied to it, and strongly so. None of the other six reached statistical significance. Lonelier users, for
+      example, did not report more benefit. According to the authors, these apps shape well-being only once a
+      relationship has been built and kept up.
+    chart: wellbeing
+
+  - h: "What went with addiction"
+    body: |
+      Addiction items included worrying about not chatting to the AI friend. Here the pattern was
+      different. Fear of judgment had the strongest link by a wide margin. Its six items included worrying about how the AI
+      friend evaluates you, and the authors connect it to the forum finding that people
+      valued a companion that does not judge them.
+
+      Perceiving the AI as sentient, able to have feelings, was also tied to more addiction, as was loneliness. The authors describe their
+      paper as the first to identify addiction as a possible outcome of seeing an AI as sentient.
+
+      Well-being itself was linked to higher addiction scores. Relationship strength, by contrast, had no significant
+      direct link with addiction.
+    chart: addiction
+
+  - h: "Two qualities linked to lower addiction"
+    body: |
+      Two app traits showed the reverse pattern. Users who found their AI friend always on hand and quick to reply had
+      lower addiction scores (a weight of -0.130), and so did those who saw it as warm (-0.176). The authors had
+      predicted that constant availability would raise addiction.
+
+      Their explanation draws on earlier research. Someone who knows a reply will always come may feel less need to keep
+      checking, and warm, supportive replies may favour a healthier relationship over a dependent one. Neither
+      explanation was tested in this study.
+
+      An agreeable AI, one that likes to cooperate, showed no significant link with either outcome. The authors think a
+      companion that agrees with everything may come across as insincere, or as not really listening.
+
+  - h: "Advice for app developers"
+    body: |
+      With loneliness widespread, the authors expect these apps to keep growing. Their advice to developers has four
+      parts. Make support more personal, matched to the social need each user brings. Build time limits into the app,
+      since many users already install separate apps to cap their screen time. Use machine learning to spot signs of
+      well-being or addiction problems, and have the AI friend point the user to outside support. And develop
+      companion apps together with psychologists, therapists or researchers, following therapy apps such as Wysa and
+      Woebot, which have been clinically validated by experts.
+
+      These are recommendations from the discussion and were not tested. For brands running chatbots or companion
+      features meant to build a relationship, the same point may apply: the bond that delivers the benefit can also
+      drive heavier use. This extension is ours, not a finding of the study.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Find out when people turn to your chatbot", "Read 100 recent app reviews or anonymised conversation openers for your chat or companion feature. Count how many mention feeling alone, stressed or having no one else to talk to. A high count means the design needs extra care."]
+  - ["Pick one number for benefit and one for overuse", "Choose them before you change anything. For example, a one-tap rating of how users feel after a chat, and the share of users who open the app more than 10 times a day."]
+  - ["Add a daily time setting", "Let users set their own daily limit. Switch on a friendly reminder by default after 60 minutes of chat in a day, with a one-tap option to take a break."]
+  - ["Write a route to real support", "Script what the bot says when someone mentions feeling isolated or unable to cope: one caring sentence, then a link to a helpline or a directory of counsellors in their country. Have a qualified psychologist review the script before launch."]
+  - ["Describe it as an extra, not a replacement", "In ads, store listings and onboarding, present the companion as something to talk to alongside friends, family and professional help. Remove any line that suggests it can stand in for them."]
+  - ["Check in with users each quarter", "Ask 200 active users to rate two statements from 1 (disagree) to 7 (agree): chatting leaves me feeling better, and I feel uneasy when I cannot chat. If the second score rises while the first stays flat, tighten the reminders."]
+
+expect:
+  - "**Benefit may take time.** If the benefit rests on a relationship, new users are unlikely to report much of it at first. This is our inference: the survey did not record how long people had used their app, a control the authors suggest for future work."
+  - "**Benefit and dependence together.** The users who gained most also tended to score higher on addiction. We read this, without a test behind it, as a hint that satisfaction scores alone can hide overuse."
+  - "**Warmth and availability.** Both were tied to less addiction in this survey, though the reason was not tested."
+  - "**Results held with controls.** Taking age, gender and the type of app into account left every link unchanged."
+
+limits:
+  - "**A snapshot.** Forum posts from late 2022 and a one-off survey show links between measures, not causes. The authors call for studies that follow users over time and for experiments."
+  - "**Self-reports.** Well-being and addiction were measured with survey statements, not clinical assessment or records of app use."
+  - "**US users only.** The US health system, the authors add, may lead people to use free or low-cost apps in place of medical support, so results elsewhere may differ."
+  - "**Lonely users in focus.** The work centred on people using the apps to cope with loneliness. Users with and without conditions such as anxiety or depression were not compared."
+
+faq:
+  - q: "Do AI friendship apps improve users' well-being?"
+    a: "Users say they can. Among 572 survey respondents in the US, reported benefit rose with the strength of people's bond with the companion, and no other trait of the user or the app showed a direct connection to it (Marriott & Pitardi, 2024)."
+  - q: "Can people become addicted to an AI companion app?"
+    a: "Forum users in the study described their own use as addictive. In the survey, addiction scores rose with loneliness, with fear of judgment, with seeing the AI as able to feel and with the benefit people got from the app. These were self-reported scores, not a clinical diagnosis."
+  - q: "What is an AI friendship app?"
+    a: "A chatbot designed to hold social, empathetic conversations. In apps such as Replika and Anima, users shape their companion's appearance and gender and choose its role, from friend or mentor to counsellor or romantic partner."
+  - q: "Does a warmer chatbot make users more dependent?"
+    a: "Not in this survey. People who saw their AI friend as warm, and those who found it always available, had lower addiction scores. The authors suggest warm replies support a healthier relationship with the app, an explanation they did not test."
+  - q: "What can companies building AI companions do to limit overuse?"
+    a: "The authors recommend in-app time limits, systems that recognise signs of trouble and direct users to outside help, and developing the apps with psychologists or therapists."
+
+also:
+  - doi: "10.1007/s11002-023-09700-8"
+    title: "Establishing the link: Does web traffic from various marketing channels influence direct traffic source purchases?"
+    authors: "Filippou, Georgiadis, & Jha"
+    journal: "Marketing Letters"
+    year: 2024
+    text: >-
+      Analytics tools such as Google Analytics tend to judge each marketing channel on its own. This study asked how
+      website traffic arriving through different digital channels relates to purchases by visitors who come to the site
+      directly. Across 89,394 purchases from a European online retailer, three channels together explained 61% of the
+      variation in those direct purchases. A channel that looks weak in a single-channel report may still be sending
+      customers who later return on their own.
+  - doi: "10.1007/s11747-023-00963-1"
+    title: "Making new enemies: How suppliers' digital disintermediation strategy shifts consumers' use of incumbent offerings"
+    authors: "Schauerte, Schauerte, Becker, & Hennig-Thurau"
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2024
+    text: >-
+      Digital channels let suppliers bypass the intermediaries that used to sell their products. Comparing consumers'
+      viewing before and after Disney+ launched, the authors found that the new service enlarged the streaming category
+      in the short run and sped up the decline of traditional linear television. Only Disney+ gained, though, while
+      established streaming services lost out, despite their public claims otherwise. Platforms built on other firms'
+      content should plan for the day a supplier opens its own direct channel.
+
+charts:
+  wellbeing:
+    title: "Links with the well-being users gained from the app (standardised weights)"
+    scale: [0, 0.8]
+    step: 0.2
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Strength of the relationship", 0.719, true]
+      - ["Warmth of the AI", 0.072, false]
+      - ["Agreeableness of the AI", 0.049, false]
+      - ["Fear of judgment", 0.015, false]
+      - ["Always on hand, quick replies", 0.004, false]
+    source: "Study 2, 572 US users, Table 3. Only the relationship link was significant. Loneliness (-0.049) and sense of feelings (-0.002) had small negative weights and are not drawn."
+  addiction:
+    title: "Links with addiction to the app (standardised weights)"
+    scale: [0, 0.5]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Fear of judgment", 0.456, true]
+      - ["Well-being gained from the app", 0.191, false]
+      - ["Sense that the AI has feelings", 0.183, false]
+      - ["Strength of the relationship", 0.126, false]
+      - ["Loneliness", 0.108, false]
+      - ["Agreeableness of the AI", 0.085, false]
+    source: "Study 2, 572 US users, Table 3. Relationship strength and agreeableness were not significant. Availability and warmth had negative links, described in the text."
+
+related_pages: []
