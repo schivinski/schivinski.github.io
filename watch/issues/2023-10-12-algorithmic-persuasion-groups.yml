@@ -1,0 +1,260 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 41                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-10-12"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: algorithmic-persuasion-groups
+status: live
+
+title: "Do consumers know that algorithms pick the brand posts they see on social media? What an International Journal of Advertising study found"
+dek: >-
+  Algorithms decide which brand messages each social media user sees. A Dutch survey sorted 450 users by how aware they
+  were of this, how fair it seemed to them and whether they felt able to avoid it, and found four distinct groups that
+  call for different kinds of help.
+short_title: "Four ways people handle algorithmic brand posts"
+
+description: >-
+  Voorveld et al. find four groups among 450 Dutch social media users: most know algorithms pick brand posts, yet far
+  fewer think they can avoid them.
+
+keywords: [algorithmic persuasion, algorithmic awareness, persuasion knowledge model, social media advertising,
+  personalized advertising, ad avoidance, privacy fatigue, control paradox, consumer vulnerability, digital skills,
+  cluster analysis, International Journal of Advertising]
+topics: [Personalization, Social media, Privacy]
+
+image:
+  file: 2023-algorithmic-persuasion-groups.jpg
+  og: 2023-algorithmic-persuasion-groups-og.jpg
+  alt: "Fan-shaped bundles of thin dyed sticks in red, blue, gold and green laid in repeating diagonal rows, with a single pink and white bundle near the centre"
+  caption: "Sorted by colour, row after row, with one bundle set apart. Photo: Bernd Dittrich on Unsplash."
+
+short_answer: >-
+  Most do, but far fewer feel able to avoid them. A survey of 450 Dutch adults who use social media every week found
+  four groups. Two in five knew algorithms shape brand posts and found that broadly acceptable. Just over a quarter knew,
+  objected and felt unable to avoid such posts. Nearly one in five barely knew it happened. Only about one in seven combined awareness,
+  criticism and confidence that they could avoid them.
+
+takeaways:
+  - "Awareness that algorithms tailor brand posts to them ranged from 5.26 to 5.60 (out of 7) in three of the four groups. The fourth group scored 1.85."
+  - "Only the largest group leaned towards finding brands' use of algorithms acceptable (4.67, where 4 is neutral). The most skilled group rated it 1.95."
+  - "Women made up 60% of the sample but 34.8% of the Skilled and Critical, the group most confident it could avoid algorithmic brand posts."
+  - "The least aware group rated its own knowledge of algorithms at 1.47 out of 7, compared with 3.57 in the largest group, and had the least schooling of the four."
+
+paper:
+  doi: "10.1080/02650487.2023.2264045"
+  title: "Consumers’ persuasion knowledge of algorithms in social media advertising: identifying consumer groups based on awareness, appropriateness, and coping ability"
+  authors: ["Voorveld, H. A. M.", "Meppelink, C. S.", "Boerman, S. C."]
+  authors_full: ["Hilde A. M. Voorveld", "Corine S. Meppelink", "Sophie C. Boerman"]
+  year: 2024
+  journal: "International Journal of Advertising"
+  volume: "43"
+  issue: "6"
+  pages: "960-986"
+  online: "2023-10-12"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline and affiliations on the Taylor & Francis page; no ORCID iDs printed)
+    - name: "Hilde A. M. Voorveld"
+      affiliation: "Amsterdam School of Communication Research, Department of Communication Science, University of Amsterdam, WV Amsterdam, The Netherlands"
+      orcid: ""
+    - name: "Corine S. Meppelink"
+      affiliation: "Amsterdam School of Communication Research, Department of Communication Science, University of Amsterdam, WV Amsterdam, The Netherlands"
+      orcid: ""
+    - name: "Sophie C. Boerman"
+      affiliation: "Strategic Communication Group, Wageningen University & Research, Wageningen, The Netherlands"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One online survey of 450 Dutch social media users (Qualtrics panel, January 2020), analysed with a two-step cluster analysis, a MANOVA and a multinomial logistic regression on the same data"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Hilde A. M. Voorveld and
+      Corine S. Meppelink at the University of Amsterdam, with
+      Sophie C. Boerman of Wageningen University & Research,
+      looked at how people deal with brand messages that algorithms select for them on social media. Algorithms decide
+      which brand posts and ads each user sees, and sometimes what they look like, using personal data and online
+      behaviour. The team asked whether people notice this, what they think of it and whether they feel able to avoid it.
+
+      The team built on the Persuasion Knowledge Model, a long-standing account of how people recognise and handle
+      attempts to persuade them. It treats persuasion knowledge as having three parts: knowing that a tactic is in use,
+      judging whether it is fair, and having ways to cope with it. The team measured all three and let a statistical
+      method sort people into groups with similar profiles, instead of defining the groups in advance.
+
+      In January 2020, 509 Dutch-speaking members of an online research panel started the survey. People who used social
+      media less than once a week, and those who said they had not answered carefully, were removed, leaving 450. The panel
+      company drew the sample so that age and education varied in line with the Dutch population.
+    facts:
+      - ["Participants", "450 adults in the Netherlands, all weekly social media users, from an online research panel; 60% women, average age 45"]
+      - ["Fieldwork", "January 2020, answered on a desktop computer; on average people spent 101 minutes a day on social media"]
+      - ["Grouping scores", "Awareness of algorithms in brand messages, how appropriate their use seems, and how able people feel to avoid such posts, all from 1 to 7"]
+      - ["Also asked", "Age, gender, education, income, internet skills, knowledge of algorithms, privacy concerns and how tailored brand posts feel"]
+      - ["Analysis", "Two-step cluster analysis to form the groups, then a regression to see which traits predict who belongs to each"]
+
+  - h: "Three scores behind the groups"
+    body: |
+      Awareness came from a 13-statement scale designed for algorithm-driven media and adapted here to brand messages.
+      People said how aware they were that algorithms tailor some brand posts to them, for instance, or that those posts
+      depend on their online behaviour. Appropriateness came from four pairs of opposites, such as unfair against fair and
+      unacceptable against acceptable, applied to brands' use of algorithms. Coping was the felt ability to avoid brand
+      posts chosen by algorithms, for example knowing enough to do it, or managing it with no one around to explain how.
+
+      Across the whole sample, people were fairly aware (4.74 out of 7), leaned towards seeing the practice as
+      inappropriate (3.37) and doubted they could avoid it (3.58).
+
+      Coping options on social media are limited. Ad blockers cannot be installed in social media apps, the authors note,
+      so people are left to scroll past, pay no attention or switch off personalised ads in their settings.
+
+  - h: "Four groups emerged"
+    body: |
+      The analysis settled on four groups, and the three scores differed clearly between them (p < .001 for each). The
+      authors rate the separation between groups as fair, with a silhouette value of 0.40.
+
+      The Control Paradox group, 178 people, knew algorithms were at work, scored at the midpoint on coping and was
+      the only group on the accepting side of the appropriateness scale. The name borrows a concept from privacy research,
+      in which feeling in control can make people less wary. The authors see a possibly false sense of security here.
+
+      The Fatigued, 125 people, were just as aware but had the lowest coping score of all and judged the practice
+      inappropriate. This profile matches what the authors call privacy fatigue, a sense that protecting oneself online is
+      futile, which combines exhaustion with cynicism.
+
+      The Uninformed but Critical, 81 people, knew far less than anyone else about algorithms in brand messages, doubted
+      their ability to avoid them and still disapproved. The authors call them possibly the most vulnerable group.
+
+      The Skilled and Critical, 66 people, were the most aware, the most confident they could avoid such posts and the most
+      critical. Awareness combined with control is the classic picture of an empowered consumer, yet this was the smallest
+      group.
+    chart: coping
+
+  - h: "Awareness alone does not explain much"
+    body: |
+      Two groups make the point. The Fatigued and the Skilled and Critical did not differ significantly on awareness, yet
+      they sat at opposite ends of the coping scale. Measuring only what people know about a tactic, as many persuasion
+      studies do, would not have told them apart.
+
+      For theory, the authors take two lessons from this. Feelings about a tactic and the ability to act on them need measuring
+      alongside knowledge. And algorithms change the picture: once a system registers that someone likes or ignores a topic,
+      it can switch the topic, the tactic and even which brand or influencer appears in the feed. The original model does
+      not account for that kind of feedback, so they call for an adapted theory.
+
+  - h: "Who ends up in which group"
+    body: |
+      A regression compared each group with the Control Paradox group, the largest. The Fatigued had weaker internet
+      skills and more privacy concern, and noticed less personalisation in brand posts. The Uninformed but Critical had less
+      education, weaker internet skills and less knowledge of algorithms, and also noticed less personalisation. The Skilled
+      and Critical were more often men and somewhat older, with stronger internet skills and greater privacy concern, and,
+      again, had less sense that brand posts were tailored to them.
+
+      Some things made no difference. Household income did not predict membership of any group, and how often people
+      thought they saw algorithm-driven brand posts was not a significant predictor either. The authors conclude that
+      skills and personal perceptions separate the groups better than demographics do.
+
+      Why would the most skilled users notice less personalisation? The authors suggest they may protect themselves well
+      enough to receive less of it, but the survey could not test that.
+    chart: personalisation
+
+  - h: "What the authors suggest"
+    body: |
+      Different groups need different help. The two largest groups already know algorithms are involved, so the authors
+      expect campaigns that only raise awareness to achieve little for them. Teaching people how to cope is more likely to
+      help.
+
+      The Uninformed but Critical need both information and coping help. Because this group had less schooling and weaker
+      internet skills, the authors warn that standard advice, such as deleting cookies or changing privacy settings, may be
+      too demanding. One simple option they propose is for online ads to carry a link to an instruction video on using an
+      ad blocker or switching off personalised ads on social media.
+
+      Advertisers have their own reasons to care. Earlier research cited by the authors links transparency and control to
+      trust in a company and possibly to how well social media ads work. One complication for marketers: internet skills
+      and privacy concern are not among the usual targeting settings in digital campaigns, so these groups are harder to
+      reach directly. Our own inference is that a brand gains most by making its explanations and opt-outs easy enough for
+      the least skilled users to follow.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Ask your audience three questions", "Add three short questions to a customer survey you already run, or post them as a social poll. Do you know that the brand posts you see are picked for you by an algorithm? Is that acceptable to you? Could you stop seeing them if you wanted to? Offer seven answer points, running from not at all to completely."]
+  - ["Sort the answers into four groups", "Treat 5 or higher as yes and 3 or lower as no on each question, and set answers of 4 aside. Count how many people are aware and accepting, aware but feel stuck, unaware, and aware with the know-how to opt out. Plan a different message for each group."]
+  - ["Explain why a post appears", "On your site and your privacy page, write two or three plain sentences on why someone sees your posts, such as a recent visit to your site. Avoid technical words like cookie or pixel without a short explanation."]
+  - ["Build a one-minute opt-out guide", "Make a short video or three screenshots showing how to switch off personalised ads for every platform you advertise on. Keep it under one minute. Link to it from your landing pages and your privacy page."]
+  - ["Test it with your least confident users", "Ask five people who rarely change app settings to follow the guide on their own phone. Fix every step that any of them cannot finish within two minutes."]
+  - ["Repeat the three questions each quarter", "Run the same questions every three months, together with one question on how much people trust your brand. Watch whether fewer people say they feel unable to avoid your posts."]
+
+expect:
+  - "**Most of the audience already knows.** Awareness was high in every group but one, so, the authors argue, messages that only explain what algorithms do will add little for most users."
+  - "**Skills matter more than demographics.** How skilled people were online and how worried about privacy set the groups apart more consistently than age, gender or income, which makes the groups hard to find with standard targeting."
+  - "**Many users object.** Every group except the largest, together more than half the sample, leaned towards seeing brands' use of algorithms as inappropriate."
+  - "**Simple help reaches further.** Guidance that suits confident users may defeat those with weaker digital skills, the authors warn. We take that as a reason to start with the simplest possible version of any help."
+
+limits:
+  - "**One country, one moment.** Dutch panel members took part in January 2020, using a desktop computer, under European data protection rules. The groups could look different in other countries."
+  - "**Self-reports throughout.** Awareness, internet skills and knowledge of algorithms were rated by participants themselves, not tested."
+  - "**Avoidance only.** Coping covered only whether people believed avoiding such posts was within their power. Managing privacy settings, accepting or refusing cookies and actual behaviour were not measured."
+  - "**Exploratory groups.** The quality of the grouping was fair. Confirmatory studies are still needed on other platforms, on devices such as smart TVs and voice assistants, and in other countries, the authors say."
+  - "**Brand posts in general.** People rated algorithmic brand messages on social media as a whole, not specific ads, platforms or brands."
+
+faq:
+  - q: "Are people aware that algorithms choose their social media ads?"
+    a: "Most are. In the Dutch survey, 81 people formed the one group that knew little about it, while all three remaining groups were well aware of the practice (Voorveld et al., 2024)."
+  - q: "Why can feeling in control of ads be a problem?"
+    a: "This is the control paradox: people who feel in control can become less cautious as a result. In this survey the largest group knew about algorithms, felt moderately able to avoid algorithmic brand posts and accepted the practice, a pattern the authors interpret as a sense of security that may not be justified."
+  - q: "What does privacy fatigue mean?"
+    a: "Feeling that protecting your privacy online is futile, so people stop trying. The Fatigued group matched it: aware of algorithmic brand posts, critical of them and less sure than any other group of being able to dodge them."
+  - q: "Which consumers are most vulnerable to algorithmic advertising?"
+    a: "The authors point to people who know little about algorithms, doubt they could avoid them and dislike the idea. Compared with the largest group, they had lower education levels, were less skilled online and knew less about algorithms, so they may need simpler forms of help."
+  - q: "Do age and gender predict how people respond to algorithmic ads?"
+    a: "Less than skills and perceptions do. The most confident and critical group was older on average and had more men than the largest group, but internet skills, privacy concern and perceived personalisation of brand posts separated the groups more consistently, and income separated none."
+
+also:
+  - doi: "10.1002/mar.21915"
+    title: "Walls have ears: Word‐of‐mouth diffusions in targeted promotions decrease targeted customer retention"
+    authors: "Chang, Li, & Wang"
+    journal: "Psychology & Marketing"
+    year: 2023
+    text: >-
+      Promotions aimed at one set of customers rarely stay private. In four online experiments, infrequent customers who
+      received a targeted offer and then saw complaints from frequent customers who had been left out still intended to buy,
+      but were less willing to stay with the company. Two moves by managers eased this: presenting the offer as a matter of
+      luck when delivering it, and replying to the online complaints by mentioning the offers made to frequent customers.
+      Any targeted deal needs a plan for the customers who will hear about it second-hand.
+  - doi: "10.1177/10949968231185543"
+    title: "Enhancing Digital Advertising with Blockchain Technology"
+    authors: "Stallone, Wetzels, Mahr, & Klaas"
+    journal: "Journal of Interactive Marketing"
+    year: 2024
+    text: >-
+      Can blockchain improve digital advertising? Combining a systematic literature review with a Delphi panel, the authors
+      rated ten uses of the technology in advertising on how likely, how influential and how desirable each is, and on how
+      long each would take to reach the market. Rewarding web users for their interactions, rewarding content creators and
+      keeping user data secure came out as the most relevant for managers, while supply chain transparency, fraud prevention
+      and content verification need to be better understood before anyone builds on them. Rewards and data protection
+      are the uses a manager could look at first.
+
+charts:
+  coping:
+    title: "Felt ability to avoid brand posts chosen by algorithms, by group (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Control Paradox (178 people)", 4.05, false]
+      - ["Fatigued (125 people)", 2.22, true]
+      - ["Uninformed but Critical (81 people)", 3.21, false]
+      - ["Skilled and Critical (66 people)", 5.33, false]
+    source: "Online survey of 450 Dutch social media users, January 2020; estimated group means (Table 2). All four groups differed from one another in post hoc tests."
+  personalisation:
+    title: "How tailored brand posts on social media feel, by group (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Control Paradox", 4.29, true]
+      - ["Fatigued", 3.19, false]
+      - ["Uninformed but Critical", 2.73, false]
+      - ["Skilled and Critical", 2.92, false]
+    source: "Same survey; group averages of perceived personalisation (Table 1). Each group scored significantly lower than the Control Paradox group in the regression (Table 3)."
+
+related_pages: []
