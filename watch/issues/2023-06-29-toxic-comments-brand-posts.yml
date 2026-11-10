@@ -1,0 +1,253 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 25                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-06-29"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: toxic-comments-brand-posts
+status: live
+
+title: "Do toxic comments under brand posts drive customers away? What a Journal of Interactive Marketing study found"
+dek: >-
+  "Don't feed the trolls" is standard advice for brand pages. Two years of social media posts by 134 PC game brands point
+  to a less simple picture: some kinds of post attract hostile replies, and hostile threads went with more playing, not less.
+short_title: "Toxic comments, brand posts and how much people play"
+
+description: >-
+  Nepomuceno et al. find that when comments under PC game brands' social posts turned more toxic, players spent more
+  time in those games for over ten days.
+
+keywords: [toxic comments, internet trolls, marketer-generated content, brand social media posts, comment moderation,
+  online brand community, Perspective API, social media engagement, product usage, video game marketing,
+  panel vector autoregression, Journal of Interactive Marketing]
+topics: [Social media, UGC]
+
+image:
+  file: 2023-toxic-comments-brand-posts.jpg
+  og: 2023-toxic-comments-brand-posts-og.jpg
+  alt: "Several branching bolts of violet lightning strike behind a row of apartment blocks at night, with scattered lit windows and a warm orange facade in the foreground"
+  caption: "Some brand posts draw far more hostile replies than others. Photo: Stepan Konev on Unsplash."
+
+short_answer: >-
+  Not in the setting studied. The researchers tracked 54,953 social media posts published for 134 PC games, together with
+  5.4 million replies. On days when the replies were more toxic, the games were played more in
+  the days that followed. Posts celebrating a game's quality or inviting fans to belong drew more toxicity, and posts
+  pushing sales drew less. All the effects were small.
+
+takeaways:
+  - "Posts showing off what a game does well drew more toxic replies for the next 6 days; posts inviting fans to feel part of a group, for 2."
+  - "A more toxic thread drew extra comments for 4 days, and extra comments went with more playing time for over 9 days."
+  - "Of the 20 themes a topic model found in the posts, only store discounts on PlayStation, Xbox and Steam went with more play, although selling content in general went with less."
+  - "In threads with 3 or more comments, toxicity in the first two-thirds went with more play, while toxicity in the final third showed no significant link."
+
+paper:
+  doi: "10.1177/10949968231172153"
+  title: "Should We Feed the Trolls? Using Marketer-Generated Content to Explain Average Toxicity and Product Usage"
+  authors: ["Nepomuceno, M. V.", "Rahemi, H.", "Cenesizoglu, T.", "Charlin, L."]
+  authors_full: ["Marcelo Vinhal Nepomuceno", "Hooman Rahemi", "Tolga Cenesizoglu", "Laurent Charlin"]
+  year: 2023
+  journal: "Journal of Interactive Marketing"
+  volume: "58"
+  issue: "4"
+  pages: "440-462"
+  online: "2023-06-29"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (SAGE author notes and ORCID iD)
+    - name: "Marcelo Vinhal Nepomuceno"
+      affiliation: "HEC Montréal, Canada"
+      orcid: "0000-0001-5150-6675"
+    - name: "Hooman Rahemi"
+      affiliation: "Concordia University, Canada"
+      orcid: ""
+    - name: "Tolga Cenesizoglu"
+      affiliation: "HEC Montréal, Canada"
+      orcid: ""
+    - name: "Laurent Charlin"
+      affiliation: "HEC Montréal, Canada"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival panel dataset: 54,953 brand posts and 5,440,977 comments for 134 PC games on Facebook, Twitter and Instagram (31 Mar 2016 to 20 Mar 2018), linked to Steam Spy daily playtime and analysed with a panel VAR; the hand-coding of 5,086 posts trains the classifier and is not a separate study"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Marcelo Vinhal Nepomuceno,
+      Tolga Cenesizoglu and
+      Laurent Charlin of HEC Montréal, with
+      Hooman Rahemi of Concordia University, also in Canada,
+      looked at what happens in the comment sections under brand posts. Their focus was toxic comments: aggressive
+      replies, such as personal attacks or bullying, that push the person targeted to leave the conversation. Many come
+      from internet trolls, people who post to provoke and to break up a community.
+
+      The team asked two questions. Which kinds of brand post are followed by more toxic replies? And does that
+      toxicity change how much customers use the product? On the second point, earlier work allowed for either answer.
+      Negative word of mouth usually harms brands, but committed fans may take an attack on their game as an attack on
+      themselves and respond by playing more, and a heated debate can also bring a product to new people's attention.
+
+      Video games made a good test case. Game makers post often on social media, and at the time playing data for Steam,
+      the largest store for computer games, could be estimated day by day.
+    facts:
+      - ["Data", "54,953 posts from the official pages of 134 PC games, all made after each game's launch, and the 5,440,977 user comments under them"]
+      - ["Period", "31 March 2016 to 20 March 2018, on Facebook, Twitter and Instagram"]
+      - ["Games", "Drawn at random from 500 acclaimed or much-discussed titles on Metacritic, from games with under 30,000 Facebook followers to some with over 400,000"]
+      - ["Toxicity", "Each comment scored from 0 to 1 by Perspective API, a machine-learning tool built to spot abuse and harassment, then averaged per post and per day"]
+      - ["Product use", "Steam Spy estimates of how many minutes each game was played on average per day"]
+      - ["Analysis", "A time-series model of how each measure responded over the next ten days, allowing for genre, player reviews, weekends, posting volume and days since launch"]
+
+  - h: "Sorting thousands of posts by what they try to do"
+    body: |
+      To describe the posts, the team used three kinds of content from an earlier study of music and gaming posts that
+      Nepomuceno and Cenesizoglu co-wrote. Selling content tries to sell the game or related services. Social content treats followers as friends, invites them
+      to act for the game and builds a sense of belonging. Quality content shows off the game itself, with galleries,
+      gameplay and how absorbing it is to play.
+
+      Three trained coders labelled a separate random sample of 5,086 posts for 21 detailed features of these three
+      kinds, and agreed closely (Cohen's kappa of 0.8792). A neural network learned from their labels and sorted every
+      post in the main data. On posts it had not seen in training, it was right 86% of the time.
+
+      A second method found themes without any human labels. A topic model, which looks for words that often occur in
+      the same posts, settled on 20 themes. Some were easy to name, such as fan art, cosplay, server problems, new trailers,
+      streaming on Twitch, or sales in the PlayStation, Xbox and Steam stores. The two methods captured different things:
+      no theme correlated with any of the three kinds of content above 0.20.
+    chart: platforms
+
+  - h: "Which posts drew toxic replies"
+    body: |
+      Average toxicity rose for two days after social posts and for six after quality posts. In the
+      authors' view, trolls see a post that rallies the community, or one that praises the product, as an
+      opening to provoke and to unsettle the group. Selling posts went with lower toxicity.
+
+      The themes told a similar story. Fan art and cosplay posts went with more toxicity, as did posts about the final
+      match between e-sports teams, a result the authors connect with rivalry between supporters of competing teams. Posts about store sales and new trailers went
+      with less. Posts about server problems also went with less toxicity, which suggests to the authors that the
+      hostility came from trolls rather than from frustrated customers.
+
+      The sizes were modest. A rise of one standard deviation in quality content lifted average toxicity by about 0.05
+      of a standard deviation the next day. Most of the day-to-day variation in toxicity was driven by its own earlier values.
+    chart: days
+
+  - h: "Toxic threads and playing time"
+    body: |
+      The second question had a clear answer in these data. Higher average toxicity was followed by more playing time,
+      and the link lasted more than ten days. A second measure, the share of comments scoring above 0.7, a common
+      cut-off for flagging a comment as toxic, gave similar results, with the largest rise on the second day.
+
+      Part of the link appears to work through the number of comments. More toxic posts drew more comments in the following four
+      days, and more comments went with more play. When a post had both many comments and high average toxicity,
+      playing time rose further still. Threads whose toxicity varied a lot, a pattern the authors see as vigorous debate,
+      also went with more play, though only from the third day on and more weakly.
+
+      Placement mattered too. The team split each thread with at least three comments into thirds: top, middle and end.
+      Toxic comments in the top and middle thirds were linked to more play; those near the end were not, possibly
+      because other users are less likely to notice late comments.
+
+  - h: "What the posts themselves did to play"
+    body: |
+      Quality posts went with more time in the game after the fourth day, and social posts showed a strong positive link.
+      With player reviews held constant in the model, the authors argue that these links do not just reflect better
+      games. Selling posts, contrary to the team's prediction, were linked to less play. The authors see fatigue from
+      repeated sales messages as a likely cause. The sales-in-stores theme was the exception: it went with more play, which the
+      authors explain by people starting to play a game they have just bought on promotion.
+
+      Comment counts added a complication. Social posts drew fewer comments overall and selling posts drew more, the
+      reverse of their links with toxicity, while quality posts left the count unchanged. In the authors' terms, the effects
+      compensate: social posts may add play through toxicity but take some away through fewer comments, and
+      selling posts the reverse.
+
+  - h: "Advice for managing comment sections"
+    body: |
+      The first recommendation is simple: after social and quality posts, watch the comments more closely and be ready
+      to respond, because trolls are more likely to react to them.
+
+      The second is harder. Earlier work advises removing toxicity quickly. These results suggest that toxic comments can
+      come with more use of the product, which puts marketers in an awkward position. The authors recommend weighing the
+      costs and benefits before deploying tools that detect and remove toxicity, and keeping watch on it, since it can
+      damage the cohesion of a community and make the page an unpleasant place for a brand's core audience.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your recent posts into three kinds", "Go through your last 30 social posts. Mark each one as showing off the product, making followers feel they belong, or pushing a sale. Count how many of each you publish in a typical week."]
+  - ["Write down what you will remove", "Agree one short moderation rule with everyone who looks after your pages. Remove threats, slurs and personal attacks on other users. Leave harsh but honest criticism of the product in place."]
+  - ["Staff up after showcase and community posts", "For two days after any post that celebrates the product or rallies your followers, check its comments morning, midday and evening. After that, look in once a day until the week is out."]
+  - ["Keep hard-sell posts occasional", "Limit posts that simply urge people to buy to about one in four. Make each one about a concrete offer, such as a dated discount in a named store."]
+  - ["Moderate from the top of each thread down", "Start with the first comments under every post, because they are the ones most readers see. Reply to or hide hostile comments there before you read further down."]
+  - ["Compare heated threads with product use each month", "List your five most heated threads of the month. Check sales, log-ins or usage in the two weeks after each one, and act faster on hostility if usage falls or regular fans stop commenting."]
+
+expect:
+  - "**Small shifts per post.** Any one post changes the tone of its comment section only a little; the patterns appear across many posts and days."
+  - "**Debate, not only hostility.** Threads with a wide spread of hostile and milder replies also went with more use, though less strongly than toxicity itself. On our reading, a heated but civil exchange may be worth leaving open."
+  - "**A heavier moderation load.** Hostile threads tend to grow, so a toxic start to a thread usually means more comments to read and judge."
+  - "**A human cost.** The authors stress that toxic comments can harm the people targeted and drive away a brand's core audience, whatever they do for usage."
+
+limits:
+  - "**Patterns over time, not an experiment.** The model shows what tended to follow what across days. The authors use it to reduce, not remove, the chance that something else drove both comments and play."
+  - "**One industry and one store.** PC games with playing data from Steam only; consoles and other products were left out, though the authors expect similar results for products tied to identity, such as music, cars and clothing."
+  - "**Deleted comments are missing.** Anything removed by moderators before collection could not be scored."
+  - "**Unknown commenters.** There was no way to tell community members from outsiders, show whether a reply answered the brand or another user, or tell paid posts from organic ones."
+  - "**A machine judge.** Toxicity scores come from Perspective API, which misses some toxic comments, and the posts cover two years only."
+
+faq:
+  - q: "Do toxic comments under social media posts hurt a brand?"
+    a: "In the short run, apparently not, at least for video games. Across the official social media accounts of 134 PC games, days with more toxic comment sections came before more play, not less, partly because toxic posts attracted more comments (Nepomuceno et al., 2023)."
+  - q: "What counts as a toxic comment?"
+    a: "An aggressive reply that pushes the person it targets out of the discussion, such as a personal attack or verbal bullying. The tool used here scores each comment from 0 to 1, built on the share of human raters who tagged comments as toxic: if half the raters did, the score is 0.5."
+  - q: "Which brand posts attract trolls?"
+    a: "Posts that build a sense of belonging and posts that praise the product, along with fan art, cosplay and e-sports finals. Sales posts, new trailers and notices about server problems saw lower toxicity."
+  - q: "Should marketers delete toxic comments?"
+    a: "Not automatically, in the authors' view. They advise weighing the possible gain in engagement against the harm to users and to the community, and monitoring toxicity closely, especially after community and showcase posts."
+  - q: "Why would hostile comments make people use a product more?"
+    a: "Two explanations are offered. Committed fans may defend a game they identify with by playing it, and heated debates may bring a post to more potential buyers. The data back the second route at least in part: hostile threads grew longer, and longer threads came before more hours of play."
+
+also:
+  - doi: "10.1177/00222429231183977"
+    title: "Understanding Consumer Self-Design Abandonment: A Dynamic Perspective"
+    authors: "Krause & Franke"
+    journal: "Journal of Marketing"
+    year: 2024
+    text: >-
+      Online configurators that let shoppers design their own products are supposed to create value, yet many users give up
+      before finishing. Across six studies, the reason was a U-shaped experience: high hopes at the start, then frustration
+      when early designs looked worse and felt less fun than expected. People who kept going past that low point did enjoy
+      the process more, and social feedback during designing helped them get there. The difficult middle of a configurator
+      is where encouragement is most needed.
+  - doi: "10.1177/00222429231181071"
+    title: "From Mentally Doing to Actually Doing: A Meta-Analysis of Induced Positive Consumption Simulations"
+    authors: "Ceylan, Diehl, & Wood"
+    journal: "Journal of Marketing"
+    year: 2024
+    text: >-
+      Asking people to imagine using a product or adopting a good habit is a common marketing tactic. Pooling 237 effect
+      sizes from four decades and 40,705 respondents, this meta-analysis found a positive but small effect on behaviour.
+      Moving visuals such as augmented reality, pairing visuals with verbal instructions, and prompts repeated over weeks
+      worked better. Repeating the prompt in a short burst, such as the same message on several platforms at once or
+      retargeting ads, weakened the effect, so spacing campaigns out may matter more than repeating them.
+
+charts:
+  platforms:
+    title: "Where the brand posts appeared, share of the 54,953 posts analysed"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Facebook", 58.9, true]
+      - ["Twitter", 32.2, false]
+      - ["Instagram", 8.9, false]
+    source: "Method section, posts by the makers of 134 PC games, 31 March 2016 to 20 March 2018."
+  days:
+    title: "Days each link lasted after a rise in the first measure"
+    scale: [0, 10]
+    step: 2
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Social posts to toxicity", 2, false]
+      - ["Quality posts to toxicity", 6, false]
+      - ["Toxicity to comment count", 4, false]
+      - ["Comment count to playtime (over 9)", 9, false]
+      - ["Toxicity to playtime (over 10)", 10, true]
+    source: "Panel time-series model, 134 PC games; day counts as reported in the text for Figures 2 to 5, which plot ten days."
+
+related_pages: []
