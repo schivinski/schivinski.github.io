@@ -1,0 +1,251 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 13                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-04-12"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-10"          # the day this page went live (metadata only, never shown)
+slug: ar-place-of-use
+status: live
+
+title: "Does it matter where shoppers use an augmented reality app? What a Psychology & Marketing study found"
+dek: >-
+  Furniture and homeware apps let people drop a virtual product into a room through their phone. Two German field studies,
+  one with a sofa and one with a kettle, show that the setting changes how the product is judged, though not as the
+  researchers predicted.
+short_title: "Where shoppers use AR changes what they see"
+
+description: >-
+  von der Au et al. show a virtual sofa or kettle viewed in its usual room seems more plausible but less present, across
+  two German field studies with 344 people.
+
+keywords: [augmented reality marketing, AR shopping apps, place of use, context in augmented reality, local presence,
+  plausibility, virtual furniture app, perceived tangibility, utilitarian benefits, expected usage congruence,
+  purchase intention, Psychology & Marketing]
+topics: [Retail, Advertising]
+
+image:
+  file: 2023-ar-place-of-use.jpg
+  og: 2023-ar-place-of-use-og.jpg
+  alt: "A woman with long light-brown hair, seen from behind in a black polka-dot top, holds up a phone in front of a bakery display case, its screen showing shelves of doughnuts and pastries"
+  caption: "Where a phone is held up shapes what people make of the product on its screen. Photo: Jenna Day on Unsplash."
+
+short_answer: >-
+  Yes, in two different ways. In two German field studies, people who viewed a sofa or a kettle through an AR app in
+  the room where that product normally belongs judged the scene more plausible, yet felt less that the object was
+  physically there. Both judgements affected people's views of the product, and among students viewing the sofa, the
+  feeling of presence was the stronger link to wanting to buy it.
+
+takeaways:
+  - "The 42 students who tried a virtual sofa in their dorm rooms found it more plausible, but felt it less present, than the 38 who tried it elsewhere on campus."
+  - "Plausibility and the sense of presence together accounted for about two-thirds (66%) of the variation in the students' intention to buy the sofa."
+  - "Presence carried about 1.7 times the weight of plausibility in that link to buying intention."
+  - "The setting itself made a modest difference: it explained 13% of the spread in plausibility among the students and 2% among the 264 iPhone owners who tried a kettle."
+
+paper:
+  doi: "10.1002/mar.21814"
+  title: "Context in augmented reality marketing: Does the place of use matter?"
+  authors: ["von der Au, S.", "Rauschnabel, P. A.", "Felix, R.", "Hinsch, C."]
+  authors_full: ["Simon von der Au", "Philipp A. Rauschnabel", "Reto Felix", "Chris Hinsch"]
+  year: 2023
+  journal: "Psychology & Marketing"
+  volume: "40"
+  issue: "11"
+  pages: "2447-2463"
+  online: "2023-04-12"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Simon von der Au"
+      affiliation: "Department of Digital Marketing and Media Innovation, Universität der Bundeswehr München, Neubiberg, Germany"
+      orcid: ""
+    - name: "Philipp A. Rauschnabel"
+      affiliation: "Department of Digital Marketing and Media Innovation, Universität der Bundeswehr München, Neubiberg, Germany; University of Bamberg, Germany; Management Center Innsbruck (MCI), Innsbruck, Austria"
+      orcid: "0000-0003-2188-6747"
+    - name: "Reto Felix"
+      affiliation: "Robert C. Vackar College of Business and Entrepreneurship, The University of Texas Rio Grande Valley, Edinburg, Texas, USA"
+      orcid: "0000-0002-3864-2397"
+    - name: "Chris Hinsch"
+      affiliation: "Seidman College of Business, Grand Valley State University, Grand Rapids, Michigan, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two field experiments in Germany: 80 students with a sofa in the IKEA Place app on an iPad (dorm room vs campus); 264 German-speaking iPhone users from an online panel with a kettle in the Sage AR app (kitchen vs living room or workspace); the typicality pretest with 118 students is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Simon von der Au and
+      Philipp A. Rauschnabel, both at the Universität der Bundeswehr München (Rauschnabel also at Management Center Innsbruck and the University of Bamberg),
+      Reto Felix of The University of Texas Rio Grande Valley and
+      Chris Hinsch of Grand Valley State University
+      raised a point that most AR research leaves aside. Studies of AR in marketing usually look at the
+      content: how detailed the 3D model is, how smoothly it responds. Yet the same virtual product can be opened in very
+      different places. A shopper might try a furniture app in the living room, on a train or in a store.
+
+      The team looked at two judgements people make when a virtual object appears in the camera view. Plausibility is a
+      considered check of whether the object makes sense in this place: a sofa in a living room does, a sofa on a football
+      pitch does not. Local presence is a quicker, intuitive feeling that the object is actually here, in the room, rather
+      than on the screen. The authors tie the first to slow, deliberate thinking and the second to fast, automatic thinking.
+
+      Their starting expectation was that seeing a product where it normally belongs would raise both judgements, and that
+      both would make people keener on the product.
+    facts:
+      - ["Studies", "Two field experiments in Germany, after a pretest of which places suit which products"]
+      - ["People", "80 university students (Study 1); 264 German-speaking iPhone owners from an online panel (Study 2)"]
+      - ["Products", "A sofa in IKEA's AR app on an iPad; an electric kettle in the Sage AR app on people's own iPhones"]
+      - ["What changed", "Whether the AR view was opened in the product's normal setting or somewhere less expected"]
+      - ["Measured", "Plausibility and presence in both studies; intention to buy (Study 1); usefulness, how touchable the product seemed and how well it would fit the home (Study 2)"]
+
+  - h: "A sofa on campus and a kettle in the kitchen"
+    body: |
+      Before the main studies, 118 other students rated how typical each product was for various places on a scale from 1
+      to 7. A sofa scored 6.80 for a living area and below 2.3 for a campus lawn, a kitchen or the street. A kettle scored
+      6.86 for a kitchen, 3.58 for a living room and below 1.3 outdoors.
+
+      The first study ran early in 2022 at a German university. A research assistant approached students either in their
+      dormitory rooms or at spots around campus and handed over an iPad running the IKEA Place app, which lets users position
+      a virtual sofa in the camera view. Of the 99 students approached, 80 passed the attention checks.
+
+      The second study, also in 2022, used members of a commercial online panel who owned iPhones. An email asked each of
+      them to go to a kitchen, a living room or a workspace, open the Sage AR app, find a particular kettle and take
+      screenshots. Anyone who uploaded an unrelated picture or used the app in the wrong place was dropped. The final group
+      averaged 43 years of age, and 46% were women.
+
+      The outcome changed too. Instead of intention to buy, the second study asked how well the kettle would fit the
+      person's surroundings, which the authors call expected usage congruence. Their reasoning: people may judge a product
+      positively after one look in an app without being ready to buy it.
+
+  - h: "The usual place raised plausibility and lowered presence"
+    body: |
+      Half of the prediction held. In both studies, using the app where the product belongs made the scene more plausible.
+      The other half reversed. In the product's usual place, people felt less that it was physically there. The pattern
+      repeated with a different product, different people and a different app, although both effects were smaller in the
+      kettle study.
+
+      The two judgements were still closely related. People who found the scene plausible also tended to feel the object
+      was present, with standardised links of 0.56 in the sofa study and 0.61 in the kettle study. (A standardised link
+      puts every relationship on the same footing: 0 means none, and values nearer 1 mean a closer connection.) The
+      setting moved the two judgements in different directions without making them opposites.
+
+      Why would the right room make a product feel less real? The authors offer an explanation that neither study tested.
+      At home, a virtual sofa appears beside real furniture, so the eye has something to compare it with, and any error in
+      size, colour or shading is easier to notice. On a campus path there is nothing comparable nearby. An unexpected
+      setting may also prompt more careful thought, which can make people overlook small flaws.
+    chart: place
+
+  - h: "Which judgement leads where"
+    body: |
+      In the sofa study, both judgements were linked to wanting to buy, and presence more strongly. Where people used the
+      app had no direct link to intention once the two judgements were accounted for. The setting mattered only through
+      them.
+
+      The kettle study followed the chain further. Plausibility mainly fed the sense that the AR view was useful for
+      judging the product. Presence fed usefulness as well, but its larger role was in making the kettle seem as if it
+      could be touched. Plausibility showed no measurable link to that feeling of touchability. Usefulness, in turn, was
+      the strongest driver of whether people expected the kettle to suit their surroundings, and the model accounted for
+      about 40% of the differences in that expectation.
+
+      The chart shows total effects, which add each direct link to the indirect routes behind it. For plausibility, that
+      includes the part that works through presence. Both comparisons in the chart held up statistically.
+    chart: routes
+
+  - h: "What this means for AR marketers"
+    body: |
+      The authors' central recommendation: decide which judgement matters most for a given product, then steer users
+      accordingly. They suggest working on plausibility for products bought mainly for what they do, and on presence for
+      goods people choose for enjoyment or appearance. A brand can then tell people where to open its app. Retailers already control
+      the setting inside their stores, and location data could let an AR campaign appear in a chosen kind of place.
+
+      Because no firm controls every room, the authors also call for realism that does not depend on the setting: fine
+      detail, objects that respond promptly, and convincing placement in the scene. That implies minimum device
+      requirements, set with an eye on the phones and tablets customers actually own.
+
+      A further point is our own interpretation and goes beyond the data. An AR feature tested in a neutral office may be judged
+      differently once customers use it in their own living rooms. The authors make a related point for researchers, who
+      they say should record where AR was used.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Name the judgement your product needs", "Decide whether customers buy your product mostly for what it does, like a kettle or a shelf, or for its look and feel, like a sofa or a rug. Put that choice at the start of your AR brief."]
+  - ["Find out where people open your AR view", "Ask 20 recent users where they were the last time they used it. Sort the answers into three groups: the room the product belongs in, another room, or a store."]
+  - ["Tell people where to try it", "For practical products, add one line next to the AR button that names the room they belong in, such as Try it in your kitchen. For products bought on looks, leave the place open and test a second room against the obvious one."]
+  - ["Check the model against the real thing", "Place the virtual product next to a real one of the same kind and compare size, colour and shadows on two phones, one new and one three years old. Fix anything that looks off before launch."]
+  - ["Record the place of each session", "Add one optional tap question when the AR view opens: living room, kitchen, store or somewhere else. Show it once per user, not every time."]
+  - ["Compare results by place each month", "Once you have 200 sessions from each place, compare add-to-basket rates and returns. Change your in-app prompt only when the same difference shows up for two consecutive months."]
+
+expect:
+  - "**Opposite effects from one setting.** The product's own room helped the AR view make sense but weakened the feeling that the item was physically present, so no single place maximised both."
+  - "**Realism counts for more at home.** If the authors' explanation is right, a 3D model seen beside real furniture has to look better to convince, so model quality matters most in the rooms where most customers use it."
+  - "**Place acts through perception.** Neither study found a direct effect of the setting on buying intention or on usefulness; whatever it changed came through plausibility and presence."
+  - "**Useful views support fit.** People who rated the AR view as more useful also saw a better match between the kettle and their home. That a view built for judging size and look will help sales is our extrapolation."
+
+limits:
+  - "**Intentions and expectations only.** Sales and returns were not measured, and while the authors expect the results to extend to behaviour, they did not show it."
+  - "**Two products in one country.** A sofa and a kettle, with participants in Germany. The authors note that products used anywhere, such as a camera, may depend less on place."
+  - "**Apple devices and two specific apps.** Other apps, Android phones or smart glasses could render objects differently."
+  - "**One contrast, not room by room.** The paper reports the product's usual place against other places, without results for each room or group sizes in the kettle study."
+  - "**An untested explanation.** Why the usual room lowered presence is the authors' interpretation; no measure of comparisons with real objects nearby was taken."
+
+faq:
+  - q: "Does it matter where customers use an AR shopping app?"
+    a: "Yes, though the effect is mixed. Seen in its normal room, the virtual product made more sense to people yet felt less physically present than the identical object seen somewhere unusual (von der Au et al., 2023)."
+  - q: "What does local presence mean in AR?"
+    a: "The feeling that a virtual object is here in your own surroundings rather than on a screen. It is fast and intuitive, unlike plausibility, which is a considered judgement of whether the object fits the place."
+  - q: "Should a brand tell people which room to use its AR app in?"
+    a: "The authors suggest it can, once the brand knows which judgement it needs. They advise favouring plausibility for practical items and presence for things people buy because they enjoy them or like the look. That pairing is their recommendation and was not tested directly."
+  - q: "Why might a virtual sofa feel less real in a living room?"
+    a: "The researchers point to comparison as the likely reason, an idea left untested. Real furniture nearby gives a reference point, so mistakes in scale or shading stand out. In an unexpected setting there is nothing to measure the object against."
+  - q: "Does a more convincing AR view lead to sales?"
+    a: "These studies did not track sales. They measured stated intentions and expectations. The authors point to other work linking AR to real purchases and expect their results to carry over, but that remains to be shown."
+
+also:
+  - doi: "10.1080/02650487.2023.2192111"
+    title: "Attractiveness or expertise? Which is more effective in beauty product endorsement? Moderating role of social distance"
+    authors: "Choi, Zhang, & Sung"
+    journal: "International Journal of Advertising"
+    year: 2023
+    text: >-
+      Beauty brands increasingly pay social media influencers rather than celebrities. Two experiments compared an
+      attractive celebrity with an expert influencer, then attractive influencers with expert ones, and varied how socially
+      close the endorser felt. Looks worked better when the endorser felt close, expertise when they felt distant, through
+      perceived appeal or know-how and then the one-sided bond followers form with an influencer. How close an audience
+      feels to an endorser could be as important as who the endorser is.
+  - doi: "10.1080/02650487.2023.2197778"
+    title: "Dealing with intrusive ads: a study of which functionalities help consumers feel agency"
+    authors: "Riedel, Weeks, & Beatson"
+    journal: "International Journal of Advertising"
+    year: 2024
+    text: >-
+      Ads that interrupt people provoke resistance and a sense of lost control, which reflects badly on the brand. Across
+      a series of experiments, a skip option made people like the brand more but remember it less, and a countdown before
+      the skip button had the same result. The best outcome for both liking and memory came from a countdown to the end of
+      the ad with no skip, or from letting people choose when to watch. Telling viewers how long an ad will last may serve
+      a brand better than offering an exit.
+
+charts:
+  place:
+    title: "Effect of using AR where the product belongs (standardised; the label gives the direction)"
+    scale: [0, 0.4]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Sofa: plausibility, higher", 0.356, false]
+      - ["Sofa: sense of presence, lower", 0.352, true]
+      - ["Kettle: plausibility, higher", 0.140, false]
+      - ["Kettle: sense of presence, lower", 0.179, true]
+    source: "Study 1 (80 students, sofa) and Study 2 (264 iPhone owners, kettle), standardised paths from the published model figures. Bar length shows size only."
+  routes:
+    title: "Kettle study: total effect of each judgement (unstandardised)"
+    scale: [0, 1]
+    step: 0.2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Plausibility on usefulness", 0.766, true]
+      - ["Presence on usefulness", 0.433, false]
+      - ["Plausibility on touchability", 0.506, false]
+      - ["Presence on touchability", 0.944, true]
+    source: "Study 2, 264 German-speaking iPhone owners, Table 1. Within each outcome, the 95% intervals of the two judgements did not overlap."
+
+related_pages: []
