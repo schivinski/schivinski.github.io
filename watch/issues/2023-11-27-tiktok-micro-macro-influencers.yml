@@ -1,0 +1,281 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 47                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-11-27"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: tiktok-micro-macro-influencers
+status: live
+
+title: "What drives likes, shares and sales for TikTok micro- and macroinfluencers? What a Journal of Interactive Advertising study found"
+dek: >-
+  Small creators and big ones win attention in different ways. A study of 417 sponsored videos on Douyin, TikTok's
+  counterpart in China, links product-focused titles to likes for the small accounts, viewer admiration to engagement
+  on the big ones, and shares more than likes to sales.
+short_title: "Micro or macro: what moves TikTok sales"
+
+description: >-
+  Chan et al. study 417 sponsored Douyin videos: product-led titles went with likes for small creators, star appeal for
+  big ones, and shares tracked sales best.
+
+keywords: [micro-influencers, macro-influencers, TikTok influencer marketing, Douyin, influencer sales, likes versus shares,
+  social commerce, video titles, influencer charisma, parasocial interaction, influencer selection,
+  Journal of Interactive Advertising]
+topics: [Influencers, Social media]
+
+image:
+  file: 2023-tiktok-micro-macro-influencers.jpg
+  og: 2023-tiktok-micro-macro-influencers-og.jpg
+  alt: "Seen from above, an opened kraft mailer box lined with pale pink tissue paper holds a bundle in daisy-print wrapping, on white boards with a pink gingham ribbon curling down the left side"
+  caption: "Unboxings were among the themes creators chose for their sponsored videos. Photo: PHOTOGRAPHER on Unsplash."
+
+short_answer: >-
+  Different things for each, judging by 417 brand-sponsored videos on TikTok's Chinese version, Douyin. For
+  microinfluencers with 30,000 to 100,000 followers, titles naming the product and its benefits went with more likes,
+  while viewers' admiration for the creator was of no help. For far larger accounts, admiration accompanied extra
+  likes and shares, and product titles made no difference. In both groups, shares tracked link sales more closely than
+  likes did.
+
+takeaways:
+  - "Among 189 videos by small creators, titles stating what the product is and what it does were linked to more likes. Among 228 videos by far bigger accounts, they were not."
+  - "The average video collected about 88,000 likes but only about 440 shares, yet shares were the stronger link to sales for small and big creators alike."
+  - "Sponsored videos lasted 46.8 seconds on average. Longer ones were linked to higher like and share counts for big accounts, but not for small creators."
+  - "Ten of the authors' 12 predictions held. The two that failed: cues of a bond with viewers did not lift likes, and product-focused titles did not lift shares for small creators."
+
+paper:
+  doi: "10.1080/15252019.2023.2273253"
+  title: "Comparing E-Commerce Micro- and Macroinfluencers in TikTok Videos: Effects of Strategies on Audience Likes, Audience Shares, and Brand Sales"
+  authors: ["Chan, T. H.", "Hung, K.", "Tse, D. K."]
+  authors_full: ["Terri H. Chan", "Kineta Hung", "David K. Tse"]
+  year: 2023
+  journal: "Journal of Interactive Advertising"
+  volume: "23"
+  issue: "4"
+  pages: "307-322"
+  online: "2023-11-27"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author affiliations on the T&F page; no ORCID iDs printed)
+    - name: "Terri H. Chan"
+      affiliation: "Chinese University of Hong Kong, Hong Kong, China"
+      orcid: ""
+    - name: "Kineta Hung"
+      affiliation: "Hong Kong Baptist University, Hong Kong, China"
+      orcid: ""
+    - name: "David K. Tse"
+      affiliation: "University of Hong Kong, Hong Kong, China"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival dataset: 417 brand-sponsored Douyin videos (189 micro, 228 macro) from Douchacha, collected June to December 2020, content-coded and analysed with separate OLS regressions per influencer group"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Terri H. Chan of the Chinese University of Hong Kong,
+      Kineta Hung of Hong Kong Baptist University and
+      David K. Tse of the University of Hong Kong
+      asked how small creators succeed. Most research on influencers has studied the very successful ones,
+      which in the authors' view left microinfluencers, with their smaller audiences, in the background even as
+      marketers turned to them.
+
+      They compared three strategies a creator can lean on. Charisma is the personal appeal that draws admiration, the
+      tool celebrities have long used. Content is the quality of the message about the product. Bonding is the
+      relationship with followers. Their expectation was that big accounts rely on charisma and small ones on content,
+      while both use bonding.
+
+      Rather than run an experiment, they worked with real sales records. Douchacha, a provider authorised by TikTok to
+      collect and analyse Douyin video data in China, supplied sponsored videos in which an influencer promoted one
+      brand only. Videos were drawn at random within those criteria.
+    facts:
+      - ["Data", "Douchacha records of Douyin videos, collected June to December 2020"]
+      - ["Videos", "417 brand-sponsored videos promoting a single brand: 189 by microinfluencers, 228 by macroinfluencers"]
+      - ["Creators", "Micro: from 30,000 up to 100,000 followers. Macro: set at 5 million followers, a bar the authors raised to fit China's larger market"]
+      - ["Categories", "Fashion, cosmetics, food and drinks, and household products"]
+      - ["Measured", "Likes, shares and sales value in yuan through the video's own purchase link; product price and video length as controls"]
+      - ["Method", "Two coders scored titles and viewers' on-screen comments; separate regressions for each group of creators"]
+
+  - h: "Reading strategy from titles and comments"
+    body: |
+      The videos ran from 15 seconds to several minutes. Brands usually left creators free to
+      shape them, and themes ranged from unboxings to demonstrations and storytelling.
+
+      Content strategy was scored from each video's title, which creators wrote themselves and which were often long.
+      The more a title stated product facts, benefits or social appeals, such as an item being "great for the whole
+      family", the higher the score.
+
+      The other two strategies came from live texts, the short comments viewers type while a video plays. Personal
+      greetings and compliments, such as "Hi, teacher", "beautiful" or "great to see you", counted as signs of charisma.
+      Replies showing the message had landed, such as "got it" or "now I know", counted as signs of a bond.
+
+      Two coders scored the material. After a first round of 300 items they agreed 85% of the time; after refining the
+      codebook, agreement for each measure ranged from 91.64% to 93.87%. Likes, shares and sales were converted to
+      logarithms before analysis because their values varied so widely.
+
+      The results below are standardised regression coefficients. Zero means no link, positive values mean more of the
+      outcome and negative values less, and within one model a larger value marks a stronger link.
+
+  - h: "Small creators: the product leads"
+    body: |
+      For microinfluencers, a product-focused title was the one strategy linked to more likes, at 0.14. For
+      macroinfluencers the same kind of title showed no link with likes, and the contrast between the groups was
+      statistically significant.
+
+      Charisma offered small creators nothing. Admiring comments went with slightly fewer likes and shares in their
+      videos, though this weak tendency was significant only at the 10% level. Part of the reason, the authors suggest, is
+      how these creators are valued: their appeal rests on seeming like the person next door, and polishing a star image
+      could distance them from their followers.
+
+      Titles did not help small creators win shares either, so that prediction was not supported.
+
+  - h: "Big accounts: the person leads"
+    body: |
+      The pattern reversed for macroinfluencers. Admiring comments went with more likes (0.14) and more shares (0.14),
+      and in both cases the link was significantly stronger than for small creators. Product-focused titles made no
+      difference to either outcome.
+
+      Video length also behaved differently. Longer videos by big accounts tended to collect more likes (0.27) and shares
+      (0.19). For small creators, length showed no link with either.
+
+  - h: "Bonding drives shares, not likes"
+    body: |
+      Replies showing that viewers had taken a message in were linked to more shares for both groups, at 0.13 for small
+      creators and 0.15 for big accounts, which the authors count as support for their prediction. The same replies had
+      no link with likes, at about 0.06 in each group.
+
+      To the authors, this is further evidence that liking and sharing come from different motives. In their account,
+      a like mostly reflects how a viewer feels about the video or the creator, while a share passes the video on with
+      the viewer's own endorsement.
+
+  - h: "Shares, more than likes, go with sales"
+    body: |
+      The sales measure counted only purchases made through the link in each video. For small creators, both signals
+      were tied to sales: shares at 0.32 and likes at 0.17. For big accounts, shares carried a coefficient of 0.66, the
+      largest in the study, while likes came out slightly negative (-0.14).
+
+      The authors draw on earlier research to explain this. Followers of big accounts are many and varied, and
+      some like posts out of habit, to signal they have seen them, to support the creator or in the hope that others
+      will like theirs in return. A share asks more of the viewer and reaches friends who may buy.
+
+      Price mattered for one group. Higher-priced products went with lower link sales for small creators (-0.19) but
+      showed no clear link for big accounts.
+    chart: sales
+
+  - h: "How much the models explain"
+    body: |
+      R-squared is the proportion of variation between videos that a model accounts for. The models for likes and
+      shares, each with three strategies plus price and length, accounted for between 5.1% and 13.9%. Most of what makes
+      one sponsored video collect more likes or shares than another lay outside these measures.
+
+      The sales models did better, at 25.4% for small creators and 37.0% for big accounts. Because these models include
+      likes and shares themselves, our reading is that engagement and sales rise and fall together, which does not show
+      that engagement causes sales.
+
+      The authors ran several checks. Their predictors were barely correlated with one another, and a test for
+      endogeneity, using the time each video was launched, led them to conclude that ordinary regression was
+      adequate. They also note that the strategy scores came from coders while the outcomes came from the platform's
+      records, which avoids measuring both with one instrument.
+    chart: explained
+
+  - h: "The authors' advice"
+    body: |
+      Each type of creator should play to its strength: content for microinfluencers, charisma for macroinfluencers.
+      Brands aiming at niche markets should look for small creators whose messages about the product are appealing,
+      and need not weigh their charisma.
+
+      Brands should encourage both kinds of creator to engage and interact with followers in sponsored content, and
+      should hand over control of the content itself. The authors acknowledge that brands are reluctant to do this,
+      but argue influencer marketing works best when the content is authentic, personal and engaging.
+
+      They also caution against reading likes as a sign of buying intent, since followers may like a video simply
+      because of the creator. Shares, a more deliberate act, are in their view a better pointer to sales.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Split your creator list by size", "Put accounts with under 100,000 followers in one group and accounts with millions in another. Write a separate brief for each group, because what wins attention differs between them."]
+  - ["Pick small creators for product know-how", "Open each small creator's last 10 sponsored videos. Count how many name the product and say what it does in the title. Shortlist those who do it in at least 7 of 10."]
+  - ["Put the product in small creators' titles", "Ask each small creator to name the product and one clear benefit in the video title, in their own words. Keep mood words and jokes for the video itself."]
+  - ["Let big names lead with their personality", "Give creators with millions of followers a brief of one or two lines and let them build the video around themselves. Do not ask them to fill the title with product details."]
+  - ["Invite replies and answer them", "Have every creator end the video with one direct question to viewers. Ask them to reply to comments within 24 hours of posting."]
+  - ["Rank videos by shares and link sales", "Give each creator a tracked purchase link. After 14 days, rank the videos by how many shares each 1,000 views brought, then by sales through the link, and ignore likes when you decide whom to book again."]
+
+expect:
+  - "**Shares as the early signal.** Shares are far scarcer than likes, so a handful of extra shares may say more about coming sales than thousands of extra likes. That is our interpretation of the sales results, not a finding reported in the paper."
+  - "**Modest control over engagement.** The strategies studied here accounted for little of what separated high-engagement videos from the rest, so expect wide swings between videos whatever the brief says."
+  - "**Lower-priced items for small creators.** Pricier products came with lower link sales in small creators' videos, which suggests starting them on everyday items. That suggestion is our inference."
+  - "**Personal replies are harder at scale.** According to the authors, big accounts usually cannot answer followers one by one, and replies written by assistants may not feel personal. This was not tested here; on our reading it is a probable limit on bonding for large creators."
+
+limits:
+  - "**One platform, one country, one period.** All videos were posted on Douyin in China between June and December 2020, in four consumer goods categories. The authors leave it open whether the results hold on other platforms and formats."
+  - "**Associations, not causes.** Nothing was randomised. The results identify strategies that accompanied stronger performance, not strategies that produced it."
+  - "**Strategy read from proxies.** Charisma and bonding were scored from viewers' comments, and content only from titles, not from what was shown or said in the video."
+  - "**Only link sales.** Purchases made other than through the video's own link were not counted."
+  - "**Missing money flows.** The data held no information on tips from viewers or on creators' commissions, which the authors believe would be higher for big accounts."
+  - "**Two size bands.** Only microinfluencers and very large accounts were compared, so mid-sized creators fall outside the study."
+
+faq:
+  - q: "Are micro-influencers or macro-influencers better for TikTok sales?"
+    a: "Neither wins outright. Across 417 sponsored Douyin videos, the two groups succeeded through different routes: small creators through titles about the product, large accounts through viewers' admiration for them, and for both, shares had the stronger tie to purchases made through the video's link (Chan et al., 2023)."
+  - q: "Do likes on TikTok lead to sales?"
+    a: "Less reliably than shares. Likes were linked to sales for microinfluencers, though more weakly than shares, and for very large accounts they showed no positive link at all. The authors suggest that many people like a big creator's post for reasons unrelated to buying."
+  - q: "What should a micro-influencer's video title include?"
+    a: "The product and what it does for the buyer. In this study, small creators whose titles described the product, what it offers or who it suits collected more likes, while the same approach made no difference for big accounts."
+  - q: "What is a bonding strategy in influencer marketing?"
+    a: "Building a relationship with followers so that they respond to the creator almost as to someone they know, a pattern researchers call a parasocial bond. Here it was measured from replies such as \"got it\", and it went with more shares but not more likes."
+  - q: "Do these findings apply outside China?"
+    a: "Untested. The study used Douyin, TikTok's Chinese version, and the authors want the results checked elsewhere, on other platforms and in other video formats, before anyone generalises them."
+
+also:
+  - doi: "10.1177/00222429231217471"
+    title: "Revenue Generation Through Influencer Marketing"
+    authors: "Beichert, Bayerl, Goldenberg, & Lanz"
+    journal: "Journal of Marketing"
+    year: 2024
+    text: >-
+      Should a direct-to-consumer brand seed its products with creators who have few followers or many? Tracing the whole
+      path from followers to followers reached, engagement and revenue, and counting the cost of paid endorsements, the
+      authors found that creators with small followings returned an order of magnitude more on three measures of return
+      on investment. Engagement explained the difference, since it falls as a following grows. The evidence comes from
+      secondary data on 1,881,533 purchases and three field studies with hundreds of paid endorsements. When the aim is
+      revenue soon after a post goes up, many small partnerships may stretch a budget further than one famous name.
+  - doi: "10.1177/00222429231213581"
+    title: "Influencer Mix Strategies in Livestream Commerce: Impact on Product Sales"
+    authors: "Gu, Zhang, & Kannan"
+    journal: "Journal of Marketing"
+    year: 2024
+    text: >-
+      How do big and small influencers fare when a brand books both for livestream selling? In data from 1.3 million TikTok
+      livestreams, using both together produced a negative interaction, which the authors trace to lower trust in the big
+      influencer and to substitution effects. A big influencer's sales suffered when small influencers had promoted
+      the same product earlier, but not the other way round. Big names reached far larger audiences, while small ones
+      were better at turning viewers into buyers. When a campaign uses both, the order in which they go live deserves a
+      decision of its own.
+
+charts:
+  sales:
+    title: "Link between engagement and sales through the video link (standardised coefficient, 0 = no link)"
+    scale: [0, 0.7]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Shares, small creators", 0.317, false]
+      - ["Likes, small creators", 0.165, false]
+      - ["Shares, big accounts", 0.658, true]
+    source: "Table 5, regressions on logged sales for 189 microinfluencer and 228 macroinfluencer videos. Likes for big accounts came out at -0.14 and cannot be drawn on this scale."
+  explained:
+    title: "Variation between videos accounted for by each model (R-squared, %)"
+    scale: [0, 40]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Likes, small creators", 6.4, false]
+      - ["Likes, big accounts", 13.9, false]
+      - ["Shares, small creators", 5.1, false]
+      - ["Shares, big accounts", 9.7, false]
+      - ["Sales, small creators", 25.4, true]
+      - ["Sales, big accounts", 37.0, true]
+    source: "Tables 4 and 5, R-squared of each regression shown as a percentage. Likes and shares models include three strategies plus price and length; sales models include likes and shares plus price and length."
+
+related_pages: []
