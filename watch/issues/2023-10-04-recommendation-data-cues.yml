@@ -1,0 +1,247 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 40                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-10-04"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: recommendation-data-cues
+status: live
+
+title: "Should you tell shoppers why they are seeing a recommendation? What a Psychology & Marketing study found"
+dek: >-
+  One short line above a set of personalized picks can change how people receive them. Three experiments in Europe find
+  that pointing to the shopper's own buying history works better than naming similar customers, and helps most where
+  the picks are weakest.
+short_title: "Why this pick? Name the shopper's own data"
+
+description: >-
+  Weidig and Kuehnl find a line saying picks come from a shopper's own data makes them feel more personal, most of all
+  when the picks miss or feel awkward.
+
+keywords: [personalized recommendations, recommendation explanations, recommender transparency, because you bought labels,
+  attribution theory, self-attribution, trust in recommendations, consumer reactance, personalization paradox,
+  collaborative filtering, e-commerce personalization, Psychology & Marketing]
+topics: [Personalization, Retail]
+
+image:
+  file: 2023-recommendation-data-cues.jpg
+  og: 2023-recommendation-data-cues-og.jpg
+  alt: "A white card with the word Poetry handwritten in black marker stands on a second-hand book stall, in front of rows of worn paperbacks and stacks of hardbacks laid flat"
+  caption: "A handwritten card tells browsers what is on the table. A line above online picks can tell shoppers why they are there. Photo: Nick Fewings on Unsplash."
+
+short_answer: >-
+  Yes, if the line refers to the shopper's own purchases. Three online experiments with 1,076 European adults tested
+  this. A note saying the picks drew on people's own buying history and account made the picks feel more like a
+  reflection of themselves, and that feeling went with more trust and less resistance. A note citing "customers similar to you" did much less.
+  The own-data note helped most where picks missed the mark or touched on money worries.
+
+takeaways:
+  - "Naming the shopper's own purchases and account raised the sense that tablet picks reflected them by 1.25 points (the scale ran from 1 to 7). Naming similar customers brought no significant change."
+  - "When holiday picks missed what the traveller had asked for, the own-data line added 1.49 points, more than twice the 0.67 it added for picks that matched."
+  - "For bank offers linked to financial strain, such as an overdraft, the same line lifted self-attribution by 1.50 points, against 0.57 for savings products."
+  - "Through that stronger sense of ownership, the own-data line was linked to about 12 extra points of interest in buying, measured from 0 to 100."
+
+paper:
+  doi: "10.1002/mar.21914"
+  title: "Improving the effectiveness of personalized recommendations through attributional cues"
+  authors: ["Weidig, J.", "Kuehnl, C."]
+  authors_full: ["Jakob Weidig", "Christina Kuehnl"]
+  year: 2023
+  journal: "Psychology & Marketing"
+  volume: "40"
+  issue: "12"
+  pages: "2559-2575"
+  online: "2023-10-04"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iD on the Wiley page)
+    - name: "Jakob Weidig"
+      affiliation: "Department VI—Marketing Department, School of Management, University of Stuttgart, Stuttgart, Germany"
+      orcid: "0000-0002-8485-821X"
+    - name: "Christina Kuehnl"
+      affiliation: "Department VI—Marketing Department, School of Management, University of Stuttgart, Stuttgart, Germany"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Three scenario-based online experiments with European online panel members (296, 343 and 437 after exclusions, 1,076 in all); the 26-person pretest of Study 1 is not counted, and the mediation analyses are reported as additional analyses, not as a further study"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Jakob Weidig and
+      Christina Kuehnl of the University of Stuttgart
+      looked at the small line of text that often sits above personalized picks. Sites use such lines to show they are
+      open about their data. The authors proposed a second job for them, drawn from attribution theory, which describes how
+      people work out the cause of what happens to them. If a line makes shoppers see the picks as a product of their
+      own choices, the picks may feel less like the firm's doing. The authors call this self-attribution, and the lines
+      that encourage it attributional cues.
+
+      Each of three online experiments compared three versions: no line, a line naming the shopper's own data, and a line
+      naming similar customers. All three were set inside a relationship the shopper already had with the firm. The second
+      experiment also varied how well the picks matched what people wanted, and the third whether the products carried a
+      pleasant or an unpleasant meaning.
+    facts:
+      - ["Participants", "1,076 adults from a free European online panel, in three experiments of 296, 343 and 437 after attention checks"]
+      - ["Settings", "Tablets from a familiar online retailer, holiday packages from a travel agency used before, and financial products on the website of one's own bank"]
+      - ["The two lines (translated)", "\"Our personal recommendations are based on your last purchases and your account information\" or \"... on the purchases of customers similar to you\""]
+      - ["Measured", "Self-attribution, trust in the picks and reactance on 7-point scales; interest in buying on a slider from 0 to 100"]
+
+  - h: "Your own data beats similar customers"
+    body: |
+      The first experiment was set in online retail. People imagined buying a tablet from a well-known retailer they had
+      often used. Three tablets were recommended under one of the lines, or under none. Afterwards, participants rated whether the
+      picks reflected something about them, could be traced to them, or came from their own qualities or behaviour.
+
+      The chart shows the averages. In a strict pairwise test, only the own-data line stood clearly apart from no line at
+      all. The similar-customers line sat in between, and the paper reports its lift as not significant.
+
+      Self-attribution in turn went with the two outcomes the authors set out to improve. For every point it rose, trust
+      in the picks rose by 0.54 and reactance fell by 0.19. Reactance is the urge to push back against advice that feels
+      like pressure. The second and third experiments repeated this pattern.
+    chart: tablets
+
+  - h: "Most useful when the picks miss"
+    body: |
+      Experiment two switched to travel. Participants imagined booking an all-inclusive holiday in Greece with an
+      online travel agency they had booked with before. Half were offered two Greek packages that fitted the brief. The
+      other half were offered Dublin and Iceland.
+
+      Off-target picks felt much less like the traveller's own doing, as expected. The own-data line made up a large part
+      of that difference. In the chart, the Dublin and Iceland offers shown with that line came close to well-matched offers
+      shown with no line. That comparison is ours, made from the printed means; the paper reports no test of it.
+
+      The similar-customers line brought no significant change for the off-target trips. For the well-matched trips it
+      lowered self-attribution, the reverse of what such a line is meant to do.
+
+      The authors point out the practical appeal. Improving the accuracy of picks usually means investing in data and
+      algorithms, while a line of text costs almost nothing.
+    chart: accuracy
+
+  - h: "Unwelcome offers gain the most"
+    body: |
+      The third experiment took place on a bank's website. Online banking users imagined logging in to check their
+      balance and being shown two products. Some saw products associated with money trouble, for instance paying in
+      instalments or an overdraft facility. Others saw a savings account and a home savings plan. People rated the first set as more
+      embarrassing and less flattering, as intended.
+
+      With no line, the strain-related offers scored 1.99 on self-attribution, against 2.88 for the savings offers.
+      The authors explain this with the self-serving bias: people tend to credit themselves for good outcomes and blame
+      outside causes for bad ones, so an unwelcome offer reads as the bank's doing. The own-data line did the most for
+      exactly those offers.
+
+      In this setting the similar-customers line also had an effect, adding 0.83 points for the strain-related offers. For
+      the savings products the change was not significant (0.13).
+
+  - h: "From ownership to buying"
+    body: |
+      The authors also ran analyses they had not framed as hypotheses, tracing how self-attribution relates to interest
+      in buying. In the tablet experiment, higher trust and lower reactance each carried some of that link, and
+      a sizeable direct link remained. The other two experiments showed a similar pattern.
+
+      Buying interest rose with the own-data line only by way of self-attribution; no direct route was significant. The
+      authors put the likely size of that effect at about 7 to 17 points on the 100-point slider, and call for a field
+      experiment with real purchases.
+
+      They are careful to call these links correlational. Trust and reactance were measured, not manipulated, so the
+      analyses show how the measures move together rather than proving cause and effect.
+
+  - h: "Why the wording matters, and where it should stop"
+    body: |
+      A line about the shopper's own data reminds people that they shared it and agreed to its use. On the authors'
+      account, that moves the cause of the picks towards the shopper and gives them a sense of control. A line about
+      similar customers still includes the shopper in the comparison, so it moves the cause only part of the way.
+
+      The own-data line raised self-attribution in every condition tested. Because firms cannot know in advance which
+      picks a customer will find off target or uncomfortable, the authors consider the line broadly usable.
+
+      They also flag a risk. The same effect could be used to steer people towards choices that are worse for them, and
+      regulators should be aware of it. Firms will likely be bound to lines that describe their data truthfully, so a
+      line should never claim the picks come from past purchases when they do not.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List every slot that shows picks", "Go through your website, app and emails and note each place that shows recommendations to a customer. Copy the line above each one word for word. Mark the slots that have no line at all."]
+  - ["Find out what feeds each slot", "Ask the person who runs your recommendation engine which data each slot uses: the customer's own orders, browsing and account details, or the habits of similar customers. Write a line only for data you can name truthfully."]
+  - ["Write one line about the customer's own data", "For slots built on a customer's history, use a single sentence such as \"Based on your recent orders and your account.\" Keep it under 12 words and put it directly above the picks, not in a footnote."]
+  - ["Start with the hardest slots", "Add the line first where picks often miss, such as for newer customers with little history. Do the same for offers people may find awkward, such as loans, overdrafts or debt advice."]
+  - ["Test the new wording", "For four weeks, show half of your visitors the new line and half the current wording. Compare clicks on the picks, items added to the basket and sales from each slot."]
+  - ["Ask customers how the picks feel", "Under one slot, add a single question: do these suggestions reflect you, from 1 to 7. Read the answers every month, and drop any line that customers find odd or intrusive."]
+
+expect:
+  - "**A low-cost change.** The tested change is one sentence of copy, which the authors contrast with the cost of making the picks themselves more accurate."
+  - "**Bigger gains on weaker slots.** The own-data line helped in every condition, and most for off-target or awkward picks, so expect smaller changes where picks already match customers well."
+  - "**Buying interest depends on the category.** Average interest in buying the recommended items was about 41 out of 100 for tablets and 40 for holidays, but under 16 for bank products, so the starting point varies widely."
+  - "**Similar-customer wording needs its own test.** Its effect varied across tablets, holidays and bank products, so treat it as something to try on your own site rather than a safe default."
+
+limits:
+  - "**Imagined shopping.** People read scenarios and rated recommendations; nobody bought anything, and interest in buying was a stated rating."
+  - "**Panel volunteers.** All three samples were volunteers from one free online panel in Europe, so they may not represent online shoppers as a whole."
+  - "**Existing customers only.** Every scenario involved a firm the shopper already used. Lines on ads shown on third-party sites were not tested."
+  - "**One factor at a time.** Accuracy and awkwardness were tested in separate experiments, so picks that are both off target and unwelcome remain untested."
+  - "**Measured, not manipulated.** The links from self-attribution to trust, reactance and buying interest are correlations, not proven causes."
+
+faq:
+  - q: "Should a website explain why it recommends a product?"
+    a: "A short explanation can help, and the wording matters. Saying the picks are based on the customer's own purchases and account made people see the picks as reflecting themselves, which was linked to greater trust and less pushback (Weidig & Kuehnl, 2023)."
+  - q: "What is self-attribution in personalization?"
+    a: "It is the degree to which customers see the cause of a recommendation in themselves, their own choices, data or qualities, rather than in the firm. The experiments measured it with three statements, such as whether a recommendation reflects something about you."
+  - q: "Does \"customers like you also bought\" work as well?"
+    a: "Not as reliably. Wording that cites similar customers changed little for tablets, helped with unwelcome bank offers and backfired on holiday picks that already matched what people wanted."
+  - q: "Can an explanation make up for poor recommendations?"
+    a: "In part. Explaining that picks rest on the customer's own data helped most when holiday picks missed the brief. In the printed averages those picks then came close to well-matched picks shown without a line, a comparison the authors did not test, so the line may soften the effect of weaker matching at little cost."
+  - q: "Is it ethical to use these lines?"
+    a: "Only when they are true. The authors warn that such lines could steer people towards poor choices, and expect firms to be held to wording that accurately describes the data behind the picks."
+
+also:
+  - doi: "10.1093/jcr/ucad059"
+    title: "It Looks Like “Theirs”: When and Why Human Presence in the Photo Lowers Viewers’ Liking and Preference for an Experience Venue"
+    authors: "Lu, Jung, & Peck"
+    journal: "Journal of Consumer Research"
+    year: 2024
+    text: >-
+      Photos of holidays and weddings shared online often include people, and that can cost the venue. Six studies,
+      including 14,725 Instagram photos from a top travel influencer and five experiments, found that another person in a
+      photo of an experience tied to the viewer's identity lowered liking for the place, because it felt like someone
+      else's. How strongly this happened depended on how much the experience mattered to the viewer's sense of self and
+      on how distinctive the person in the photo was. A venue shot with nobody in it may leave the viewer more room to
+      picture themselves there.
+  - doi: "10.1093/jcr/ucad061"
+    title: "Dominance Effects in the Wild"
+    authors: "Fridman, Amir, & Hansen"
+    journal: "Journal of Consumer Research"
+    year: 2024
+    text: >-
+      Lab studies have long reported that adding a clearly inferior option draws people towards the option that beats
+      it, but some recent studies found nothing. Using real choices on an online marketplace for freelance services,
+      plus a lab experiment, the authors show the effect does occur outside the lab, and that its strength varies with
+      how unsure buyers are about what they want. The number of inferior options and how far they fell short also shaped it. On a
+      results page, the listings shown beside an offer form part of its appeal.
+
+charts:
+  tablets:
+    title: "How far the tablet picks seemed to reflect the shopper, by line shown (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["No line", 2.91, false]
+      - ["Line about similar customers", 3.48, false]
+      - ["Line naming the shopper's own data", 4.16, true]
+    source: "Study 1, 296 European adults, average self-attribution. Only the own-data line differed significantly from no line."
+  accuracy:
+    title: "Self-attribution for holiday picks, by how well they matched and the line shown (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Matched, no line", 3.84, false]
+      - ["Matched, own-data line", 4.51, false]
+      - ["Matched, similar-customers line", 3.25, false]
+      - ["Off-target, no line", 2.28, false]
+      - ["Off-target, own-data line", 3.76, true]
+      - ["Off-target, similar-customers line", 2.67, false]
+    source: "Study 2, 343 European adults booking a holiday in Greece; means as printed in the paper's simple-effects figure. Off-target picks were trips to Dublin and Iceland."
+
+related_pages: []
