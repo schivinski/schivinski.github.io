@@ -1,0 +1,255 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 23                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-06-20"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-11"          # the day this page went live (metadata only, never shown)
+slug: influencer-emotional-storytelling
+status: live
+
+title: "How do you make sponsored influencer posts on Instagram more engaging? What a Journal of Interactive Advertising study found"
+dek: >-
+  A team from KEDGE Business School and ETH Zurich scored the captions of 6,122 sponsored Instagram posts for emotion.
+  Personal feeling helped, a pleasant tone counted for more than forceful wording, and the benefit faded as the
+  influencer's audience grew.
+short_title: "Emotional captions in sponsored Instagram posts"
+
+description: >-
+  Gross et al. find sponsored Instagram posts whose captions share upbeat feelings about a product get more likes and
+  comments, above all for small influencers.
+
+keywords: [influencer advertising, sponsored Instagram posts, emotional storytelling, Instagram captions, micro-influencers,
+  macro-influencers, social media engagement, likes and comments, sentiment analysis, Google Natural Language API,
+  influencer marketing agency, Journal of Interactive Advertising]
+topics: [Influencers, Social media, Creative]
+
+image:
+  file: 2023-influencer-emotional-storytelling.jpg
+  og: 2023-influencer-emotional-storytelling-og.jpg
+  alt: "Two hands frame a phone over a wooden table to photograph a shared meal, the screen showing burgers, chips and a flatbread on white plates that sit blurred around it"
+  caption: "Sharing a meal online starts with the photo. The caption decides what story it tells. Photo: Eaters Collective on Unsplash."
+
+short_answer: >-
+  Give the caption real feeling, keep its tone positive and expect the strongest return from creators with smaller
+  followings. Across 6,122 sponsored posts on Instagram, arranged through one influencer agency, captions that expressed
+  emotion about the product attracted more likes and comments than those written in a neutral way. A more pleasant tone
+  added engagement; more intense wording had no detectable effect. That advantage became smaller as the influencer's
+  follower count grew.
+
+takeaways:
+  - "Posts with emotional captions averaged 1,695 likes and comments, against 1,446 for neutral captions, before other factors were taken into account."
+  - "Tone counted, intensity did not. Captions were scored from −1 (very negative) to +1 (very positive); higher scores went with more engagement, while stronger wording added nothing measurable."
+  - "Follower counts ranged from 1,016 to 505,237, and the bigger the audience, the less extra engagement an emotional, upbeat caption brought."
+  - "Most engagement came as likes: 1,625 per post on average, against 33 comments. A happier tone was linked to extra likes but slightly fewer comments, the latter a marginal result."
+
+paper:
+  doi: "10.1080/15252019.2023.2211579"
+  title: "How to Make Influencer Advertising Engaging on Instagram: Emotional Storytelling in Sponsored Posts"
+  authors: ["Gross, J.", "Cui, Z.", "von Wangenheim, F."]
+  authors_full: ["Jana Gross", "Zhiying Cui", "Florian von Wangenheim"]
+  year: 2023
+  journal: "Journal of Interactive Advertising"
+  volume: "23"
+  issue: "4"
+  pages: "388-408"
+  online: "2023-06-20"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs on the Taylor & Francis page)
+    - name: "Jana Gross"
+      affiliation: "KEDGE Business School, Talence, France"
+      orcid: "0000-0002-9355-8761"
+    - name: "Zhiying Cui"
+      affiliation: "ETH Zurich, Zurich, Switzerland"
+      orcid: ""
+    - name: "Florian von Wangenheim"
+      affiliation: "ETH Zurich, Zurich, Switzerland"
+      orcid: "0000-0003-3964-2353"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One field dataset: 6,122 sponsored Instagram posts from one influencer advertising agency, analysed with negative binomial regression; the linear, Poisson, alternative-outcome, preprocessing and subsample models are robustness checks on the same data, not separate studies"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Jana Gross of KEDGE Business School in Talence, France,
+      and Zhiying Cui and Florian von Wangenheim
+      of ETH Zurich in Switzerland studied the words in sponsored Instagram posts. When a brand pays an influencer, the
+      influencer writes the caption. The brand can suggest a direction but has no final say over the text. The team
+      asked whether captions that share feelings about a product earn extra likes and comments compared with neutral
+      ones, and whether the size of the influencer's following changes the answer.
+
+      They call this emotional storytelling: an influencer telling followers how a product made them feel, what they
+      enjoyed about it or what they disliked. It has two sides. Tone is how pleasant or unpleasant the story is.
+      Intensity is how strongly the feelings are put, as in "I love this conditioner" compared with "I like this
+      conditioner".
+
+      The posts came from an influencer advertising agency that matches professional influencers with advertisers.
+      Influencers apply for a brand's campaign, the brand picks from the applicants, and the chosen influencers decide
+      whether to take the job. They then write and upload the post themselves.
+    facts:
+      - ["Data", "6,122 sponsored posts from Instagram, supplied by one influencer advertising agency"]
+      - ["Influencers", "Professional influencers working in sports, lifestyle and health"]
+      - ["Captions", "Written in English, German, French or Italian, and scored for emotion by Google's Natural Language API"]
+      - ["Outcome", "Engagement: the number of likes and comments a post received"]
+      - ["Analysis", "Negative binomial regression for count data, allowing for follower count, caption length, emojis, mentions, hashtags, punctuation, post type and posting time"]
+
+  - h: "How a caption was scored"
+    body: |
+      Google's tool gives every text two scores. The sentiment score says whether the feelings expressed lean negative or
+      positive; in these captions it ran from −0.9 to +0.9. The magnitude score says how much emotion the text holds,
+      whatever its direction, and here it ran from 0 to 16. The first served as the measure of tone, the second as the
+      measure of intensity. A caption scoring zero on both counted as neutral.
+
+      Before scoring, the team removed emojis and @mentions, since mentions name other accounts rather than add meaning,
+      and dropped the # sign while keeping the words of each hashtag. On that basis, 85.34% of the posts carried some
+      emotion and 14.66% were neutral. Emojis appeared in 81% of the captions and hashtags in 75%, and the average
+      caption ran to 406 characters.
+
+  - h: "Feeling pays off"
+    body: |
+      Posts with emotional captions earned more engagement than neutral ones, and the difference held once follower
+      count and the other post features in the box above were taken into account (coefficient 0.162, p < 0.001). The
+      chart shows the raw medians for each kind of caption.
+
+      The authors explain the result with social exchange theory: in a relationship, people tend to repay what they
+      receive. A personal, emotional story reads as an honest recommendation rather than an advert, and followers
+      repay it by liking or commenting.
+    chart: medians
+
+  - h: "Tone mattered, intensity did not"
+    body: |
+      The more pleasant the tone of a caption, the more engagement its post received (coefficient 0.178, p < 0.001).
+      Intensity was a different matter. Its estimate was small, 0.021, and not statistically significant, so stronger
+      wording added nothing that could be detected. The team also tested whether tone and intensity worked together,
+      as in a caption that is both very positive and very forceful, and found no significant effect.
+
+      Their reading is that followers judge the tone of a sponsored story first. Whether the influencer liked the product
+      appears to count for more than how emphatically they say so.
+    chart: effects
+
+  - h: "Larger followings, smaller returns"
+    body: |
+      Audiences varied widely. The median post came from an influencer with 18,386 followers, and the mean was 44,890.
+      The analysis did not split influencers into micro and macro groups at a set cut-off. It treated follower count as
+      a sliding scale, measured in units of 10,000 followers.
+
+      As follower count rose, the engagement advantage of an emotional caption shrank (coefficient −0.033 per 10,000
+      followers, p < 0.001), and so did the advantage of a pleasant tone (−0.040, p < 0.001). The authors had expected
+      intensity to work better for very large accounts, reasoning that their followers skim and react to strong words.
+      That interaction was not significant.
+
+      Two explanations are offered. Very large accounts are often run with help from agents and teams, so their stories
+      can look scripted, much like a celebrity endorsement. And followers tend to feel closer to smaller influencers, pay
+      more attention to what they write and weigh its tone more carefully.
+
+  - h: "Likes, comments and other checks"
+    body: |
+      Likes and comments did not respond in the same way. Taken separately, a more pleasant tone went with more likes
+      (coefficient 0.190, p < 0.001) but with somewhat fewer comments, a marginal result (−0.101, p < 0.1). The authors
+      think people like upbeat posts because doing so reflects well on them, and comment to offer support when a story
+      is less cheerful. Because advertisers can pay up to five times more for a comment than for a like, the team also
+      counted each comment as five likes. The tone result held on that measure (0.140, p < 0.01).
+
+      Further checks used a linear model on a log scale, a Poisson model, other ways of preparing the captions, such as
+      turning emojis into words or keeping the original text, and samples without dynamic content or without posts made
+      during working hours. In each, captions with a happier tone gained more engagement, though in one version of the
+      caption preparation only at p < 0.1. And in every one, the benefit of a positive tone declined with larger
+      followings.
+
+  - h: "The authors' advice"
+    body: |
+      For advertisers, the advice is to encourage influencers to share their own experience of the product and their
+      relationship with it, and to care more about the tone of the story than its intensity. Agencies, in their view,
+      should propose smaller influencers when a brand wants emotional, pleasant storytelling, and larger influencers
+      when it wants a more neutral message.
+
+      For influencers, the authors add a counterpoint. Less pleasant stories may make an influencer seem more real and
+      credible, so they recommend mixing pleasant and less pleasant experiences, even at some cost in likes and comments.
+      That recommendation goes beyond what the data tested.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your creators by audience size", "List the creators you plan to pay, with their follower counts. Give story-led briefs to those with smaller audiences first. With creators who have hundreds of thousands of followers, plan plainer, product-focused posts."]
+  - ["Ask for a real moment, not a script", "In each brief, ask the creator to describe one genuine moment with the product: when they first used it, what they enjoyed and how it made them feel. Never send ready-written caption text to paste."]
+  - ["Read every draft for tone", "Before you approve a caption, ask one question: does it sound pleased with the product? If it reads like a product sheet, ask for one or two sentences about the creator's own experience. Do not ask for capital letters or extra exclamation marks."]
+  - ["Put the story at the start", "Place the feeling and the product name in the first two sentences of the caption. Move tags, mentions and hashtags to the end, so the story is the first thing people read."]
+  - ["Log likes and comments separately", "Seven days after each sponsored post goes up, record its likes and its comments in two columns, next to the creator's follower count. If you pay more for comments, weight each comment accordingly, for example as five likes."]
+  - ["Test story captions against plain ones", "Over your next ten sponsored posts, alternate a personal-story caption with a plain product caption. Compare likes plus comments per 1,000 followers, and keep whichever style does better for small and for large creators."]
+
+expect:
+  - "**Small to medium effects.** That is how the authors describe the sizes of their estimates. Our reading: a warmer caption improves a sponsored post rather than transforming it."
+  - "**Mainly more likes.** On this evidence, a pleasant tone raises likes more readily than comments, so a campaign judged on comments may see less benefit."
+  - "**Most return from smaller creators.** Emotional storytelling paid off most at the lower end of the follower range, which, as our inference, suits campaigns built on many smaller creators."
+  - "**Honest reservations may cost likes.** If creators mention what they liked less, expect fewer likes on those posts. The authors expect credibility to gain, but engagement was the only outcome in this data."
+
+limits:
+  - "**One agency.** Every post came through the same agency and its pool of sport, lifestyle and health influencers."
+  - "**One scoring tool.** Emotion was measured only with Google's tool. Tools built on other word lists, such as LIWC or VADER, might score the same captions differently."
+  - "**Shortened captions.** In 43.45% of posts the caption was 255 characters long, and some of these had been cut off by a technical problem with Instagram's API. The authors consider 255 characters enough to judge a caption's emotion."
+  - "**Records, not an experiment.** Captions were not assigned at random, so other differences between posts or influencers may explain part of what was found. The authors judge that risk small after their controls."
+  - "**Overall feeling, one outcome.** Specific emotions such as sadness or anger were not told apart, and only likes and comments were counted. Clicks, sales and what commenters wrote were outside the analysis."
+
+faq:
+  - q: "Does emotional storytelling increase engagement on sponsored Instagram posts?"
+    a: "On average, yes. In an analysis of 6,122 sponsored posts, captions in which influencers shared feelings about the product outperformed emotionally neutral captions on likes and comments, after allowing for follower count and other features of each post (Gross et al., 2023)."
+  - q: "Do micro-influencers get more out of emotional captions than macro-influencers?"
+    a: "In this data, yes. Emotional and pleasant captions gained less over neutral ones as follower numbers rose. There was no fixed dividing line: the analysis treated follower count as continuous rather than sorting influencers into two groups."
+  - q: "Should a sponsored caption be positive or intense?"
+    a: "Positive. A pleasant tone was linked to more likes and comments, whereas the strength of the emotional wording showed no reliable link with engagement."
+  - q: "How can you measure emotion in Instagram captions?"
+    a: "This team ran each caption through Google's Natural Language API, which returns one score for the direction of the feelings in a text and another for how much feeling it contains. Emojis and account mentions were stripped out first."
+  - q: "Why would emotional posts by big influencers get less engagement?"
+    a: "The authors point to authenticity and attention. Big accounts are frequently run by managers or a team, so stories posted there can seem scripted, and followers tend to be less involved with them than with smaller creators."
+
+also:
+  - doi: "10.1177/10949968231157281"
+    title: "Understanding the Role of Social Media Content in Brand Loyalty: A Meta-Analysis of User-Generated Content Versus Firm-Generated Content"
+    authors: "Tyrväinen, Karjaluoto, & Ukpabi"
+    journal: "Journal of Interactive Marketing"
+    year: 2023
+    text: >-
+      Which social media content builds brand loyalty, posts from the brand or posts from users? Pooling 223 independent
+      samples and 97,709 respondents, the authors showed that information quality, credibility and usefulness, positive
+      emotions, interactivity and self-congruity, the match between content and how people see themselves, all raised
+      loyalty in thinking, feeling and intended behaviour. For most of these links, content from the firm had the stronger effect, and the effects varied
+      with product type, involvement, platform and how developed the country was. A brand's own account still deserves
+      careful attention alongside its fans' posts.
+  - doi: "10.1002/mar.21853"
+    title: "Consumer–machine relationships in the age of artificial intelligence: Systematic literature review and research directions"
+    authors: "Pentina, Xie, Hancock, & Bailey"
+    journal: "Psychology & Marketing"
+    year: 2023
+    text: >-
+      Can consumers form relationships with AI? This review of 37 empirical studies on human and AI relationships found
+      the field drawing on social psychology, communication and media studies, and human and machine interaction, with
+      quantitative methods far more common than qualitative or long-term designs. The authors argue that ideas such as
+      agency, autonomy, authenticity, reciprocity and empathy need rethinking for social AI, and they propose an
+      integrative framework. Brands launching companion chatbots are working with concepts that researchers are still
+      defining.
+
+charts:
+  medians:
+    title: "Likes plus comments per post, median, by type of caption"
+    scale: [0, 800]
+    step: 200
+    unit: ""
+    decimals: 0
+    bars:
+      - ["All sponsored posts", 720, false]
+      - ["Emotional captions", 739, true]
+      - ["Neutral captions", 598, false]
+    source: "Descriptive results for all 6,122 posts; raw medians, before follower count and other post features were taken into account."
+  effects:
+    title: "Estimated effect on likes plus comments (standardised coefficients)"
+    scale: [0, 0.2]
+    step: 0.05
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Caption carries emotion", 0.162, true]
+      - ["More pleasant tone", 0.178, true]
+      - ["More intense wording", 0.021, false]
+    source: "Table 2, negative binomial regressions with control variables, 6,122 posts; the emotion estimate comes from the first model, tone and intensity from the second. Emotion and tone p < 0.001; intensity not significant."
+
+related_pages: []
