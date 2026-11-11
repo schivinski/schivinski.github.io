@@ -117,6 +117,8 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   papers report 2 studies, whether simulation or not, we cannot downgrade what the authors said and peer-reviewers
   endorsed"). A simulation study, a case study or a qualitative study that the paper presents as a study counts. Methods
   papers are rated like any other paper. In case of doubt, go back to the paper and check again.
+- When the authors call their work one study, it is level 1 even if it combines several data sources, such as a
+  netnography plus interviews analysed together (Bruno, 12 Nov 2026, on issue 47: "keep as 1 if they name it as 1").
 - No level for theoretical, conceptual, editorial and similar papers with no data of their own (also commentaries and
   reviews that are not meta-analyses): leave `level` empty and start `basis` with "No level: ...". The builder then shows no
   column.
