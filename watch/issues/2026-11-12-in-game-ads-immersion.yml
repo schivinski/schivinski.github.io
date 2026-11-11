@@ -1,0 +1,221 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md and watch/STYLE_LOG.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 47
+week_of: "2026-11-12"            # the issue's own date (Thursday)
+slug: in-game-ads-immersion
+status: live
+
+title: "When do in-game ads add to the experience and when do players reject them? What a Journal of Advertising study of 730 player posts and 12 interviews found"
+dek: >-
+  Advertising inside video games is a fast-growing format, and players post readily about the ads they dislike. More than
+  two years of player discussion online, together with interviews, show which ads players accept, which they resent and
+  why.
+short_title: "When in-game ads work and when players reject them"
+
+description: >-
+  Zagni et al. read 730 player posts and ran 12 interviews: in-game ads were welcomed when they fit the game world or
+  helped play, resented when they stopped it.
+
+keywords: [in-game advertising, in-game ads, video game advertising, brand integration in games, product placement in video
+  games, player engagement, ad intrusiveness, psychological reactance, flow in gaming, netnography, gamers and advertising,
+  Journal of Advertising]
+topics: [Advertising, Creative]
+
+image:
+  file: issue-47-in-game-ads-immersion.jpg
+  og: issue-47-in-game-ads-immersion-og.jpg
+  alt: "Two pairs of hands hold black game controllers in front of a television showing a bright green football pitch, with the stadium boards blurred at the top of the screen"
+  caption: "In a sports game, boards around the pitch look like part of the event. Photo: JESHOOTS.COM on Unsplash."
+
+short_answer: >-
+  They add to it when the brand belongs in the game's world or gives players something useful to do, and players reject
+  them when they interrupt play or appear in a game people paid for. A study of 730 posts on Reddit, TikTok and YouTube and
+  12 player interviews found that negative reactions were stronger than positive ones and could extend from a single ad to
+  the whole game, ending in refunds, boycotts or piracy.
+
+takeaways:
+  - "Industry estimates cited by the authors put in-game advertising at $110 billion in 2024, rising to $169.4 billion by 2029."
+  - "Of about 3,000 posts, videos and comments collected, 730 dealt directly with in-game ads and how players felt about them."
+  - "Players judged an ad on four attributes together: what is advertised, its format and style, how often it appears and how long it lasts."
+  - "Branded items players could use were accepted even outside the setting, such as cars that seated four but drove slower, or seated two and drove faster."
+
+paper:
+  doi: "10.1080/00913367.2026.2712518"
+  title: "Game On or Game Over? The Influence of In-Game Advertising on Consumer Engagement"
+  authors: ["Zagni, L. M.", "Pera, R.", "Hollebeek, L. D."]
+  authors_full: ["Luca Matteo Zagni", "Rebecca Pera", "Linda D. Hollebeek"]
+  year: 2026
+  journal: "Journal of Advertising"
+  online: "2026-08-24"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # names, affiliations and ORCID iDs as printed in the paper
+    - name: "Luca Matteo Zagni"
+      affiliation: "University of Turin; University of Malaga"
+      orcid: "0000-0001-8720-5380"
+    - name: "Rebecca Pera"
+      affiliation: "University of Turin"
+      orcid: "0000-0001-9887-0167"
+    - name: "Linda D. Hollebeek"
+      affiliation: "Sunway University; Vilnius University; Tallinn University of Technology; Umeå University; University of Johannesburg"
+      orcid: "0000-0002-1282-0319"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One qualitative study in four phases, as the paper presents it: an industry scoping phase, a netnography of Reddit, TikTok and YouTube (about 3,000 online traces, 730 analysed in depth, August 2022 to December 2024) and 12 phenomenological interviews with players, analysed together with the Gioia method."
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Luca Matteo Zagni of the University of Turin and the University of Malaga, Rebecca Pera of the University of Turin, and
+      Linda D. Hollebeek of Sunway University, Vilnius University, Tallinn University of Technology, Umeå University and the
+      University of Johannesburg asked why the same in-game ad can please one player and anger another. In-game advertising
+      covers product placement, billboards and banners inside the game world, sponsored events and video ads shown during play.
+
+      Most earlier work measured whether players remembered the ads. This team studied how players feel about them. After
+      conversations with publishers, developers and brand representatives, the first author, himself an active player,
+      took part in gaming communities and collected what players posted about ads. The team then interviewed twelve players
+      to test and deepen what the posts suggested, and coded both sources together.
+    facts:
+      - ["Online data", "About 3,000 posts, videos and comments; 730 dealt directly with in-game ads and were analysed in depth"]
+      - ["Platforms", "Reddit (r/gaming and r/AssholeDesign), TikTok and YouTube"]
+      - ["Period", "August 2022 to December 2024"]
+      - ["Interviews", "12 players: eight professional players or content creators and four amateurs, 172 pages of transcripts"]
+      - ["Games", "Fantasy, sports and realistic titles on mobile, PC and console"]
+    chart: platforms
+
+  - h: "How players react when an ad gets in the way"
+    body: |
+      The authors describe two strengths of negative reaction. The milder one is irritation at a single ad. A pop-up appears
+      at a decisive moment, the player skips it, complains and carries on. Immersion breaks briefly, but the player stays
+      with the game.
+
+      The stronger one is a sense of being harassed, and it is directed at the game and its publisher rather than at one ad.
+      It was most common in games people had paid for. Players accepted ads in free games as a form of payment, while ads in
+      a game they had bought felt like paying twice. Reactions at this level included refund requests, calls to boycott the
+      studio or the advertised brand, and talk of piracy.
+
+      Communities also divided over it. Players criticised fellow members who defended the ads, and some threads became
+      hostile. Across the data, criticism outweighed praise.
+
+  - h: "When players welcome ads"
+    body: |
+      Positive reactions were milder, and players often introduced them as an unpopular opinion. They took two forms. The
+      first is acceptance: an ad seen as a fair exchange that pays for development or keeps prices stable, provided it does
+      not stop play.
+
+      The second is enthusiasm, which appeared when an ad made the game more realistic. Sports games were the clearest case.
+      Advertising boards in a basketball or UFC game made it look like the televised event it imitates, and one player wrote
+      that it made the game tempting to buy. Brands could also reach beyond the game. An amateur player said that a
+      Mandalorian outfit in Fortnite renewed his interest in Star Wars and led him to start a Disney+ trial to watch the
+      series.
+
+  - h: "What is advertised: belonging in the world or being useful in it"
+    body: |
+      Players weighed content, format and style, frequency and length together, and content came first. The authors separate
+      two ways it can work.
+
+      The first they call narrative plausibility: the product could realistically exist in the game's world. A billboard in a modern city or a
+      soft drink in a fridge raised no objection, and a bar in Yakuza that offered real whiskies, each with a description,
+      made one player feel more immersed. A character asking for a Budweiser in The Witcher, a fantasy world, felt wrong.
+
+      The second is narrative interaction: the brand becomes something the player uses. In a Fortnite arena sponsored by
+      Gillette, players fought on a razor-shaped tower and hid behind oversized packs of shaving cream. Branded cars came
+      with real choices, a slower model that seated four against faster ones that seated two. Usefulness made players accept
+      brands unrelated to the setting.
+
+  - h: "How the ad looks, where it sits and how often it appears"
+    body: |
+      Format and style decide whether a plausible product still looks right. A clean, new soft drink advertisement in the
+      ruined landscape of Fallout would end the immersion, one player said, while snacks and drinks lying where they would
+      naturally be, in 1980s packaging, fitted a game set in that decade. One Reddit user put the principle in a sentence:
+      "If you advertise Coca-Cola in a cyberpunk game, then make it a cyberpunk soda!"
+
+      Placement mattered as much. Ads that pause the game or sit in odd places become, in one player's words, an ad on the
+      game instead of an in-game ad. A game designer objected to a small pop-up above the score and timer because it attracts
+      attention during active play.
+
+      Frequency and length counted for less than content. Players tolerated seeing a relevant product many times, but not an
+      unskippable thirty-second video in a game that depends on timing. When the ad became the point of the game, players
+      rejected it.
+
+  - h: "What brands can take from the study"
+    body: |
+      The authors suggest changing the question, from how to fit a brand into a game to which distinctive player actions the
+      brand can make possible: a new strategy, a recurring event or an object that would not exist without the sponsor.
+
+      They describe two layers to manage. One is each placement. The other is the game's overall model of payment, because
+      the feeling of harassment comes from seeing the whole environment as unfair, not from a single banner. They also
+      recommend tracking recurring phrases in player communities as signs of growing anger, talking with players
+      regularly, and being clear about what the ads pay for.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Check how players pay for the game", "Find out whether the game is free, paid or subscription based. In a free game, ads can be presented as what keeps it free. In a game people bought, limit the brand to objects that would exist in that world anyway."]
+  - ["Read what players already say about ads", "Spend one week reading the game's main forums, subreddits and video comments. Write down the words players use when ads annoy them and when they like them, and list every past ad that drew complaints."]
+  - ["Design the product to belong in the world", "Match the setting's period, art style and condition: worn packaging in a ruined world, retro packaging in a period game. If the brand cannot look at home there, choose another game."]
+  - ["Make the brand useful in play", "Turn the brand into a vehicle, a supply, a tool or a place that helps players progress. Give it a clear effect and a fair trade-off, so players choose it for reasons of play."]
+  - ["Keep ads out of active play", "Place the brand where it would appear in real life, such as boards around a pitch or shelves in a shop. Never pause play, never block the action and never put anything over the score or timer."]
+  - ["Watch the community for two weeks after launch", "Check forums, reviews and video comments every day for 14 days. Count complaints about the ad, refund requests and calls to boycott, and change or remove the placement as soon as they rise."]
+
+expect:
+  - "**Criticism stronger than praise.** A well-placed brand tends to draw mild approval, while a badly placed one draws strong and lasting complaints."
+  - "**More work with the developer.** Brands that fit a game's world and rules need its art and design teams, not just bought space."
+  - "**Blame beyond the ad.** Players who feel harassed hold the studio responsible as well, and some say they will avoid the advertised brand too."
+  - "**An easier fit in sports and realistic games.** Settings where advertising exists in real life accept it more readily than fantasy worlds."
+
+limits:
+  - "**A qualitative study.** It explains how players interpret ads; it does not measure how often each reaction occurs or how large the effects are."
+  - "**Dissatisfied players post more.** One of the two Reddit communities focuses on criticising exploitative design; the authors balanced it with a general gaming community and interviews."
+  - "**No sales data.** Purchase intentions come from what players said; spending, recall and brand outcomes were not measured."
+  - "**Experienced players.** Eight of the 12 interviewees were professional players or content creators, whose views may differ from those of casual players."
+
+faq:
+  - q: "Do gamers hate in-game advertising?"
+    a: "Not all of it. Players were content with ads that kept a game free, and some enjoyed ads that made a game more realistic, as in sports titles (Zagni et al., 2026). The strongest reactions came from ads that stopped the action or turned up in games people had bought, and those reactions were negative."
+  - q: "What makes an in-game ad feel natural to players?"
+    a: "Two things. Either the product fits the setting, period and visual style of the game, or the brand becomes something players can use, such as a vehicle or an arena. A useful branded item was accepted even when the brand itself did not fit."
+  - q: "Why are ads in paid games so unpopular?"
+    a: "Players expect ads to pay for a game. That seems fair when the game is free, but in a game they bought it feels like paying twice. Anger then moves from the single ad to the publisher, and some players ask for their money back or call for a boycott."
+  - q: "Do frequent in-game ads annoy players?"
+    a: "Less than content does. A relevant, well-integrated product could appear many times without complaint; unskippable videos during play and games built around an ad were what players rejected."
+  - q: "Can in-game ads lead to purchases?"
+    a: "Players in this study said so in some cases, for example looking up a gaming chair they saw in a game or starting a streaming trial after using a branded outfit. The study did not measure sales, so these are reported intentions, not measured outcomes."
+
+also:
+  - doi: "10.1080/00913367.2026.2725646"
+    title: "The Aesthetic Paradox: How Visual Aesthetic Quality Shapes Digital Engagement on Social Media"
+    authors: "Liao, Li, Huang, & Xian"
+    journal: "Journal of Advertising"
+    year: 2026
+    text: >-
+      A deep-learning model scored the visual quality of 11,559 social media ad images, and an econometric analysis and an
+      experiment then related those scores to engagement. Both the most polished and the least polished images drew more engagement
+      than images of middling quality. Polished images worked through attractiveness, unpolished ones through credibility, and
+      the pattern was stronger for informational posts than for emotional ones. A middling image is the weakest choice:
+      invest in a polished visual, or let a simple one carry an informative message.
+  - doi: "10.1080/02650487.2026.2679840"
+    title: "Persuasion knowledge in algorithmically curated advertising on social media: insights from TikTok’s for you page"
+    authors: "Kang, Chen, Tan, & Win"
+    journal: "International Journal of Advertising"
+    year: 2026
+    text: >-
+      In-depth interviews with 18 young TikTok users explored how people make sense of ads delivered through the For You
+      feed, where the algorithm mixes ads with ordinary posts. Users formed their own ideas of how the algorithm works and
+      acted on them to shape what they see, and often read the content they were shown as a reflection of who they are or
+      want to become. They recognised persuasion only in part and tended to negotiate with it rather than resist it. Ads on
+      such feeds are judged against the rest of a user's feed, so they should look like content that user already chooses.
+
+charts:
+  platforms:
+    title: "Posts and comments analysed in depth, by platform (number)"
+    scale: [0, 300]
+    step: 100
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Reddit", 270, true]
+      - ["TikTok", 245, false]
+      - ["YouTube", 185, false]
+    source: "Netnography, August 2022 to December 2024: the 730 contributions that dealt directly with in-game ads, out of about 3,000 collected."
+
+related_pages: [measuring-consumer-engagement-social-media-content]   # paper pages on this site worth linking (slugs)
