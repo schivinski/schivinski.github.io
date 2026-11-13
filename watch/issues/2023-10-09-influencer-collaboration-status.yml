@@ -1,0 +1,220 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 39                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-10-09"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: influencer-collaboration-status
+status: live
+
+title: "Does teaming up with smaller creators make an influencer look less self-serving? What a Psychology & Marketing study found"
+dek: >-
+  Influencers often tag other accounts, and how big the partner is shapes how the move is read. Two experiments
+  find that working with a smaller creator makes an influencer seem less self-interested and more willing to help,
+  while working with a smaller brand only does the first.
+short_title: "Why bigger influencers gain from smaller partners"
+
+description: >-
+  Thomas et al. find influencers who team up with smaller creators seem less self-serving and more altruistic, while
+  smaller brands only ease the first.
+
+keywords: [influencer collaborations, influencer partnerships, influencer status, follower count, self-serving
+  perceptions, altruistic perceptions, influencer personal branding, brand alliances, influencer-brand collaboration,
+  micro-influencers, Instagram tagging, Psychology & Marketing]
+topics: [Influencers, Social media]
+
+image:
+  file: 2023-influencer-collaboration-status.jpg
+  og: 2023-influencer-collaboration-status-og.jpg
+  alt: "A man in a black long-sleeved top leans in to photograph a smiling woman in a black sleeveless top and pink trousers, who poses with one hand on her head beside tall grass and a sunlit white wall"
+  caption: "Much of a creator's work is made with other people, and the choice of partner says something about the creator. Photo: FOTOGRAFÍA EDITORIAL on Unsplash."
+
+short_answer: >-
+  Yes, when the influencer is clearly the bigger name. Two online experiments, with 400 adults in all, found that an
+  influencer who announced a collaboration with a creator who had far fewer followers was seen as more altruistic and
+  less self-serving. A lower-ranked brand partner also cut the self-serving impression but added no sense of altruism, an
+  outcome the authors link to brand deals being seen as business. Equal or bigger partners did no harm and brought no benefit.
+
+takeaways:
+  - "Of 10,638 Instagram posts by 50 influencers over six months, 64% tagged at least one other account."
+  - "Roughly three-quarters of the influencers analysed (33 of 43) worked mostly with peers who had fewer followers than they did."
+  - "An influencer with 86,000 followers who teamed up with a 2,600-follower peer scored 5.09 (of a possible 7) for wanting to help, against 4.13 when the partner had 87,000 followers."
+  - "Choosing a brand with a lower status score as partner reduced how self-serving the influencer seemed, yet ratings of wanting to help the brand stayed between 4.19 and 4.35 out of 7 in all four pairings."
+
+paper:
+  doi: "10.1002/mar.21918"
+  title: "How social media influencer collaborations are perceived by consumers"
+  authors: ["Thomas, V. L.", "Fowler, K.", "Taheran, F."]
+  authors_full: ["Veronica L. Thomas", "Kendra Fowler", "Faegheh Taheran"]
+  year: 2024
+  journal: "Psychology & Marketing"
+  volume: "41"
+  issue: "1"
+  pages: "168-183"
+  online: "2023-10-09"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs)
+    - name: "Veronica L. Thomas"
+      affiliation: "Department of Marketing, Strome College of Business, Old Dominion University, Norfolk, Virginia, USA"
+      orcid: "0000-0001-8832-703X"
+    - name: "Kendra Fowler"
+      affiliation: "Department of Management & Marketing, Williamson College of Business Administration, Youngstown State University, Youngstown, Ohio, USA"
+      orcid: "0000-0001-8217-2284"
+    - name: "Faegheh Taheran"
+      affiliation: "Department of Marketing, Strome College of Business, Old Dominion University, Norfolk, Virginia, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two online experiments with 200 adults each (CloudResearch Connect); the Instagram content analysis pilot (50 influencers, 10,638 posts), a 60-person footnote survey and a 120-person pretest are not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Veronica L. Thomas and Faegheh Taheran of Old Dominion University in Virginia, with
+      Kendra Fowler of Youngstown State University in Ohio, studied influencers as brands in their own right.
+      Most research asks how a company can use an influencer. This team asked how an influencer's own choice of
+      partners changes the way people see that influencer.
+
+      The starting point is that influencers are not always liked. In a small side survey of 60 adults, people rated
+      influencers in general above the middle of a seven-point scale for being manipulative (4.91), untrustworthy (4.90)
+      and narcissistic (5.32). Collaborations might help, the authors reasoned, because people try to work out why one
+      account teams up with another.
+
+      First they checked how common such partnerships are, by collecting six months of Instagram posts from 50 influencers.
+      Then came two experiments. Participants read an invented news story announcing a collaboration and rated the main
+      influencer on two things: how far the move seemed to serve her own career, and how far it seemed meant to help the
+      partner. The partner was another influencer in one experiment and a brand in the other.
+    facts:
+      - ["Content analysis", "Every post by 50 Instagram influencers from 19 October 2021 to 19 April 2022"]
+      - ["Experiments", "Two online experiments, 200 adults each, recruited through CloudResearch Connect"]
+      - ["Status cue, peers", "Follower counts: 2,700 or 86,000 for the main influencer, 2,600 or 87,000 for the partner"]
+      - ["Status cue, brands", "An invented influence score out of 100: 68 or 32 for the influencer, 67 or 33 for the brand"]
+      - ["Measured", "How self-serving and how altruistic the influencer seemed, three statements each, rated 1 to 7"]
+
+  - h: "How often influencers partner, and with whom"
+    body: |
+      The team treated any post that tagged another account as a collaboration. After setting aside the few accounts with
+      unusually many tags, they had 622 partnerships between influencers and 1,347 between influencers and brands, each
+      sorted by follower tier (below 10,000, 10,000 to 100,000, 100,001 to one million, and more than a million).
+
+      Partners of different sizes were the norm. Among peer partnerships, 72.83% crossed tiers. With brands the figure
+      was 67.04%, and 27 of 44 influencers (61.3%) worked mostly with brands that had smaller followings than their own.
+      Differences in status are a routine feature of influencer partnerships.
+
+  - h: "With other influencers, the smaller partner helps the bigger one"
+    body: |
+      In the first experiment, four groups read about four pairings. Only one stood apart. When the influencer with
+      the larger following announced work with a much smaller account, people saw her as less driven by her own career. The remaining
+      three pairings were statistically alike.
+
+      Ratings of altruism showed the same shape: the large account partnering a small one was the only pairing seen as
+      more generous. The authors draw on research into brand alliances, where the lesser-known partner usually gains
+      most. If the bigger influencer stands to gain little, the move looks less like self-promotion and more like help.
+    chart: peers
+
+  - h: "With brands, less self-serving but no more generous"
+    body: |
+      The second experiment swapped the partner for a brand and used a ranking score instead of follower numbers. A
+      pretest with 120 people confirmed the scores were understood as status. Again one pairing stood out: a
+      high-scoring influencer working with a low-scoring brand seemed less self-serving than in any other combination.
+
+      Altruism did not change. No pairing affected how much people thought the influencer wanted to help the brand,
+      as the authors had expected. They explain this by people expecting brands to pay for these deals, so a
+      partnership with any brand is read as a transaction rather than a favour.
+    chart: brands
+
+  - h: "What smaller brands can offer"
+    body: |
+      The authors turn the result into a pitch. A small brand that cannot match the fees of larger rivals can still offer
+      a well-known creator something of value: a partnership that makes the creator look less self-interested. This
+      argument was not tested with real offers, so treat it as the authors' suggestion.
+
+      For influencers the advice is direct. Working with smaller accounts is the route to seeming generous, and
+      working with smaller brands reduces the impression of chasing rewards.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Log your last 20 partnerships", "Look back over your 20 most recent tagged posts and paid deals. Next to each, write the partner's follower count and mark it smaller, similar or bigger than yours."]
+  - ["Choose the impression to work on", "Decide whether you mostly want to look less self-promoting or more giving. Working with smaller creators can help with both. Deals with smaller brands usually help only with the first."]
+  - ["Shortlist three smaller creators", "Find three creators in your niche with a tenth of your following or less. Read a month of their posts to check that their tone and values fit yours."]
+  - ["Put the smaller partner first", "Plan content where the smaller creator leads, such as a takeover, a joint video or a feature in your stories. Tag them in the caption and say plainly why you chose them."]
+  - ["Pitch small brands on reputation", "If you run a small brand, open your outreach to a bigger creator with what the partnership says about them, not only the fee. Say plainly that backing a growing brand shows the creator supporting newcomers."]
+  - ["Poll followers after each collaboration", "A week after each joint post, run a two-question story poll: did this feel like self-promotion, and did it feel like helping someone? Compare answers by partner size every quarter."]
+
+expect:
+  - "**Shifts of under one point.** The better pairings changed ratings by under a point, on scales running from 1 to 7."
+  - "**Doubt comes first.** Across the first experiment, influencers were rated more self-serving (5.63) than altruistic (4.44), so any collaboration starts from a sceptical audience."
+  - "**No cost to partnering upward.** A smaller influencer who joined a bigger one was not judged more self-serving for it."
+  - "**The visible numbers carry the signal.** Status was shown only through follower counts or a score, and that alone was enough to change how the influencer was judged."
+
+limits:
+  - "**Invented people and news stories.** Participants read a made-up article about fictitious influencers, not real posts in a feed."
+  - "**Instagram only.** The content analysis covered one platform. The authors note that results may differ on TikTok or YouTube, where audiences and engagement patterns are not the same."
+  - "**Perceptions, not results.** Neither experiment measured follows, engagement, reach or sales."
+  - "**Two status cues.** Status came from follower counts or an invented score. Real audiences may also judge by number of posts, past brand deals or company size."
+  - "**One kind of influencer described.** The rating statements referred to the influencer as 'her', so whether male creators are read the same way was not tested."
+
+faq:
+  - q: "Do collaborations change how people see an influencer?"
+    a: "They can, depending on the partner's relative size. In two experiments with 200 adults each, a creator partnering a much smaller account came across as less driven by self-interest and more giving, while equal or bigger partners changed nothing (Thomas et al., 2024)."
+  - q: "Which partnerships count as an influencer collaboration?"
+    a: "Anything from tagging or reposting another account to a formal partnership such as a long-term brand ambassador role or a joint product line. In the Instagram analysis, tagging another account in a post was enough to count."
+  - q: "Why doesn't a brand deal make an influencer look generous?"
+    a: "Because brand partnerships are generally understood to be paid. Teaming with a lower-ranked brand reduced the impression that the influencer was chasing rewards, but none of the four pairings made the influencer look keener to help the brand."
+  - q: "Does the smaller partner lose out?"
+    a: "Not in these tests. A small influencer who partnered a big one was rated no more self-serving than one who partnered an equal. The authors suggest the smaller account may even gain in likability, something not measured here."
+  - q: "How was influencer status shown to participants?"
+    a: "Through follower counts in the peer experiment and through a made-up 100-point ranking in the brand experiment. Two different cues were used so that the result was not tied to one type of figure."
+
+also:
+  - doi: "10.1080/02650487.2023.2251287"
+    title: "The effects of brand trustworthiness and credibility on location-based advertising: moderating effects of privacy concern and social influence"
+    authors: "Le, Yoo, & Park"
+    journal: "International Journal of Advertising"
+    year: 2024
+    text: >-
+      An online survey of 277 people in Vietnam traced why shoppers accept location-based ads on their phones. A brand
+      seen as trustworthy and credible made people more accepting of the location feature itself, which led to accepting
+      the ads and then to intentions to take part in promotions. Privacy concerns and the views of people around them
+      changed how strongly these links held. Before a geo-targeted offer goes out, the brand's standing is already doing
+      part of the work.
+  - doi: "10.1080/02650487.2023.2249342"
+    title: "Cross-media advertising strategies and brand attitude: the role of cognitive load"
+    authors: "Hatzithomas, Theodorakioglou, Margariti, & Boutsouki"
+    journal: "International Journal of Advertising"
+    year: 2024
+    text: >-
+      Seeing a brand's ads on TV and online at the same moment, instead of in sequence, raised mental effort in
+      an eye-tracking test with 60 people, made the ads feel harder to grasp and lowered liking for the brand. Two online
+      experiments with 395 and 198 people confirmed the pattern. In sequence, ads that fitted together eased the load; at
+      the same moment, ads timed to run in sync helped. On this evidence, TV and online spots that run at the same time
+      work better when they are planned together.
+
+charts:
+  peers:
+    title: "Peer collaborations: how self-serving the main influencer seemed (1 to 7 scale, lower is better)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["86,000 followers with 2,600", 5.05, true]
+      - ["86,000 followers with 87,000", 5.94, false]
+      - ["2,700 followers with 2,600", 5.72, false]
+      - ["2,700 followers with 87,000", 5.84, false]
+    source: "Study 1, 200 adults, Table 4. Only the first pairing differed from the others."
+  brands:
+    title: "Brand collaborations: how self-serving the influencer seemed (1 to 7 scale, lower is better)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Influencer 68 with brand 33", 5.51, true]
+      - ["Influencer 68 with brand 67", 6.10, false]
+      - ["Influencer 32 with brand 33", 6.11, false]
+      - ["Influencer 32 with brand 67", 6.03, false]
+    source: "Study 2, 200 adults, Table 5. Scores are an invented influence rating out of 100. Only the first pairing differed from the others."
+
+related_pages: []
