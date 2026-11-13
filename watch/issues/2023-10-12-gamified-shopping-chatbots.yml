@@ -1,0 +1,250 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 41                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-10-12"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: gamified-shopping-chatbots
+status: live
+
+title: "Should a shopping chatbot offer customers a game? What a Psychology & Marketing study found"
+dek: >-
+  Retailers are adding games to their chatbots in the hope that fun turns into sales. A survey and two experiments with
+  working chatbots suggest the type of game decides the result: a quick spin of a wheel raised interest in buying, while a
+  product quiz gave about the same result as a plain chatbot.
+short_title: "Which chatbot games help sales, and which do not"
+
+description: >-
+  Elmashhara et al. find a spin-the-wheel game in a shopping chatbot raised purchase intention and shop visits, but a quiz
+  matched a chatbot with no game.
+
+keywords: [gamified chatbots, chatbot gamification, gamification in e-commerce, spin the wheel discount, conversational
+  commerce, AI shopping assistant, customer engagement, emotional engagement, hedonic motivation, purchase intention,
+  consumer autonomy, Psychology & Marketing]
+topics: [AI, Retail]
+
+image:
+  file: 2023-gamified-shopping-chatbots.jpg
+  og: 2023-gamified-shopping-chatbots-og.jpg
+  alt: "Blue, yellow, green and red wooden pawns on a brightly printed race board with red and pale blue squares, two white dice beside a red pawn in sharp focus"
+  caption: "Dice leave the outcome to luck, like the spinning wheel that worked best in the chatbot tests. Photo: Nik Korba on Unsplash."
+
+short_answer: >-
+  A quick game of luck can help; a quiz did not. In an experiment with 275 adults, a shopping chatbot that let people
+  spin a wheel for their discount produced higher purchase intention than a plain chatbot offering the same reward,
+  while a chatbot running a multiple-choice quiz only matched the plain one. In a follow-up experiment, the wheel
+  also led more people to click through to the online shop.
+
+takeaways:
+  - "After spinning a wheel in the chatbot, people rated their purchase intention at 5.07 of a possible 7, against 3.66 when the chatbot simply offered a discount with no game."
+  - "78.1% of people who used the wheel chatbot chose to visit the online shop, against 50.0% after the plain chatbot and 49.3% after the quiz."
+  - "Quiz players felt less free to decide whether to play, scoring 2.95 on a two-question measure of choice against 4.01 for wheel users."
+  - "The quiz lifted emotional engagement to 5.06 on the same scale, the highest of the three chatbots, while the wheel scored 3.64; this is the kind of engagement linked to weaker buying intentions."
+
+paper:
+  doi: "10.1002/mar.21912"
+  title: "How gamifying AI shapes customer motivation, engagement, and purchase behavior"
+  authors: ["Elmashhara, M. G.", "De Cicco, R.", "Silva, S. C.", "Hammerschmidt, M.", "Silva, M. L."]
+  authors_full: ["Maher Georges Elmashhara", "Roberta De Cicco", "Susana C. Silva", "Maik Hammerschmidt", "Maria Levi Silva"]
+  year: 2024
+  journal: "Psychology & Marketing"
+  volume: "41"
+  issue: "1"
+  pages: "134-150"
+  online: "2023-10-12"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Maher Georges Elmashhara"
+      affiliation: "Research Centre in Management and Economics, Universidade Católica Portuguesa, Porto, Portugal"
+      orcid: "0000-0002-1576-560X"
+    - name: "Roberta De Cicco"
+      affiliation: "Department of Communication Sciences, Humanities and International Studies, University of Urbino Carlo Bo, Urbino, Italy"
+      orcid: "0000-0001-7835-2274"
+    - name: "Susana C. Silva"
+      affiliation: "Research Centre in Management and Economics, Universidade Católica Portuguesa, Porto, Portugal; Católica Porto Business School, Universidade Católica Portuguesa, Porto, Portugal"
+      orcid: "0000-0001-7979-3944"
+    - name: "Maik Hammerschmidt"
+      affiliation: "Department of Marketing and E-Business, Retail Logistics and Innovation Lab, University of Goettingen, Goettingen, Germany"
+      orcid: "0000-0003-1921-2532"
+    - name: "Maria Levi Silva"
+      affiliation: "Católica Porto Business School, Universidade Católica Portuguesa, Porto, Portugal"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Three studies with working Messenger chatbots: Study 1 survey (N = 177 European Messenger users, snowball sample, SEM), Study 2 experiment on Prolific (N = 275, plain vs spin-the-wheel vs quiz chatbot) and Study 3 experiment on Prolific (N = 218, same three chatbots, click to the shop); qualitative prestudies (30 and 32 people), a 12-person scale pretest and a six-expert check not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Maher Georges Elmashhara, Susana C. Silva and Maria Levi Silva of Universidade Católica Portuguesa in Porto,
+      Roberta De Cicco of the University of Urbino Carlo Bo in Italy and Maik Hammerschmidt of the University of Goettingen
+      in Germany studied a growing habit in online retail: putting games inside shopping chatbots. The authors mention
+      AliExpress, whose chatbot lets shoppers gamble for discounts or digital coins, and the lingerie brand Aerie, whose chat
+      game hands out points and badges. Retailers hope the fun keeps people in the conversation and leads to a sale. The team
+      asked whether it does, and which kind of game helps.
+
+      They built working chatbots in Facebook Messenger with the tool Chatfuel, all for an invented online shop selling
+      suitcases under its own brand. People tapped through set options to browse products and play. In Study 1, a survey,
+      participants watched a video of the chatbot, said what they expected from it, then used it for a shopping task and
+      described how they had taken part. Studies 2 and 3 were experiments that set a plain chatbot against two gamified ones.
+    facts:
+      - ["Participants", "177 European consumers who often use Facebook Messenger, reached through referrals (Study 1); 275 and 218 adults recruited on Prolific (Studies 2 and 3)"]
+      - ["Setting", "Functioning Messenger chatbots for a fictitious online suitcase brand"]
+      - ["Games", "Study 1: a four-question product quiz, a spot-the-differences game and badges. Studies 2 and 3: a wheel to spin or a multiple-choice quiz, compared with a chatbot that had no game"]
+      - ["Reward", "In the experiments every participant won the same 30% discount, to use on a later purchase"]
+      - ["Measured", "Utilitarian and hedonic motivation, three kinds of engagement and purchase intention; also a sense of free choice (Study 2) and a click to the online shop (Study 3)"]
+
+  - h: "Not every kind of engagement helps"
+    body: |
+      The authors split motivation in two. Utilitarian motivation is about getting a job done: finding what you are after
+      and getting good value. Hedonic motivation is about fun and enjoyment. They split engagement in three. Cognitive
+      engagement is concentration and absorption. Emotional engagement is enthusiasm, dedication and attachment. Behavioural
+      engagement is the time and effort put into the chat, such as asking the bot for ideas and help, or thinking of
+      recommending it to others.
+
+      Study 1 traced these links with structural equation modelling. People who expected the chatbot to be fun reported more
+      behavioural engagement, and behavioural engagement went with higher purchase intention. People who expected it to be
+      useful also reported more behavioural engagement, but more emotional engagement as well, and emotional engagement went
+      with lower purchase intention. Usefulness therefore worked through two links with opposite effects. Cognitive engagement
+      carried neither motivation through to buying.
+
+      Study 2 ran the same analysis on new participants and confirmed the main pattern. One link did not hold the second
+      time: usefulness no longer raised purchase intention through behavioural engagement.
+
+  - h: "Wheel against quiz"
+    body: |
+      In Study 2, 275 people were randomly given one of three chatbots. The plain one simply offered a discount. The second
+      let people spin an animated wheel for their reward. The third asked several multiple-choice questions. The games were
+      set up so that nobody lost.
+
+      The quiz drew more utilitarian motivation and more emotional engagement than both other chatbots, and less hedonic
+      motivation than the wheel. The wheel had the lowest utilitarian motivation, cognitive engagement and emotional
+      engagement of the three chatbots. It also produced the highest purchase intention. Two comparisons were not significant: the wheel was not
+      rated reliably more fun than the plain chatbot (p = .17), and the quiz did not raise purchase intention above it
+      (p = .34).
+
+      A serial mediation analysis traced both routes. Compared with the quiz, the wheel raised enjoyment, enjoyment raised
+      behavioural engagement and that raised purchase intention. The quiz raised the sense of usefulness, which raised
+      emotional engagement, which in turn lowered purchase intention.
+    chart: study2
+
+  - h: "Feeling free to play"
+    body: |
+      Games can leave people feeling they have to play. Study 2 therefore asked two questions about choice: whether people
+      felt forced to play the game, and whether they felt they could choose to play it. Wheel users felt more free than quiz
+      users, and that sense of choice explained part of the wheel's advantage in purchase intention (indirect effect 0.43,
+      95% confidence interval 0.15 to 0.86).
+
+      The authors' explanation is effort. The quiz asked people to read questions and think about answers before the
+      discount arrived, so taking part felt like an obligation. Spinning a wheel asked for one action and left the outcome
+      to luck.
+
+  - h: "From intention to a click"
+    body: |
+      Study 3 used the same three chatbots with 218 new participants on Prolific. After the chat, each person saw the brand
+      in an online shop setting and chose between two buttons: visit the shop where the discount could be used, or not.
+      The wheel led to more visits than either other chatbot (both p < .001). The plain chatbot and the quiz produced almost
+      identical shares of visits (p = .93).
+
+      A click is closer to buying than a rating, and the authors added this study for that reason. It is still not a purchase:
+      nobody spent money, and those who clicked were told afterwards that the chatbot was part of an academic project.
+    chart: clicks
+
+  - h: "The authors' recommendations"
+    body: |
+      Their main warning is against assuming that any rise in engagement becomes spending. The kind to build is behavioural:
+      people asking the bot for information and help with their choice. The kind to handle with care is emotional. The
+      authors suggest that strong emotional involvement can turn a shopper with a goal into someone browsing for the
+      experience, who then loses sight of the purchase. They also see little return in making a chat more absorbing.
+
+      On the choice of game, they favour quick games of chance over games that test knowledge, and they ask designers to
+      check that players do not feel obliged to take part. Both points rest on one product and two game formats, so they are
+      best read as a strong starting point rather than a rule for every category.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Name the action the game should lead to", "Write down the one thing a customer should do right after playing, such as opening a product page or putting something in the basket. If a game idea does not lead there, drop it."]
+  - ["Choose a game of luck", "Pick a game that takes one tap and less than ten seconds, such as a wheel, a scratch card or a mystery box. Keep quizzes and puzzles out of the buying journey."]
+  - ["Keep playing optional", "Show the game as an offer with two buttons, Play and No thanks. Give product help and the standard offer to people who skip it, so nobody feels they have to play."]
+  - ["Put products next to the prize", "On the screen that shows the prize, add two or three matching products and a button to the shop. Have the bot ready to answer questions on size, price and delivery."]
+  - ["Compare it with a plain offer", "Run the game for 14 days with every second chat user, and give everyone else the same reward without a game. Count clicks to the shop and orders for every 100 chats in each group."]
+  - ["Check who plays without buying", "Each week, count the people who play more than once without opening a product page. If that number grows, allow one spin per visit or shorten the game."]
+
+expect:
+  - "**More interest, not proven orders.** The wheel raised stated buying intentions and clicks to the shop. Completed purchases were not measured."
+  - "**Taking part is not enough.** Behavioural engagement was about as high with the quiz as with the wheel (no significant difference, p = .13), yet only the wheel lifted purchase intention."
+  - "**A game on top of an offer.** Every chatbot in the experiments handed over the same reward, so the evidence concerns a game layered onto a discount, not a game used instead of one."
+  - "**Emotional pull has a cost.** People who become absorbed in the game may linger without buying. This is the authors' explanation for the results, not something they observed directly."
+
+limits:
+  - "**A practice purchase.** Participants used a real chatbot, but no money changed hands; purchase intention and a click were the outcomes."
+  - "**One product, one invented brand.** Suitcases from a fictitious retailer were the only offer, so other categories may respond differently."
+  - "**Two games compared.** Only a wheel and a multiple-choice quiz were tested against each other; points, levels or leaderboards on their own were not."
+  - "**Every player won.** The games were set so that nobody lost, so how people react to losing a spin is unknown."
+  - "**A survey for the paths.** Study 1 measured motivation, engagement and intention in one questionnaire, so its paths are associations; the experiments tested the chatbot types directly."
+
+faq:
+  - q: "Does adding a game to a chatbot increase sales?"
+    a: "It depends on the game. A chatbot where people spun a wheel for their reward raised purchase intention and clicks to the online shop compared with a plain chatbot, while a multiple-choice quiz did not beat the plain version (Elmashhara et al., 2024). Real orders were not tracked."
+  - q: "How do utilitarian and hedonic motivation differ?"
+    a: "Utilitarian motivation is practical: reaching a goal, finding the right product and getting economic value. Hedonic motivation concerns enjoyment: whether the interaction seems fun, entertaining and immersive. Here both were measured as what people expected from using the chatbot."
+  - q: "Can customer engagement with a chatbot lower purchase intention?"
+    a: "One kind did. Emotional engagement, meaning enthusiasm, dedication and attachment during the chat, was linked to lower purchase intention in both the survey and Study 2. The authors suggest an absorbing experience can satisfy people enough that buying feels less pressing."
+  - q: "Why did a quiz work worse than a game of chance?"
+    a: "The quiz made the chat feel more useful and more emotionally involving, a combination that predicted weaker purchase intention. It also made people feel more obliged to play, because they had to read questions and pick answers before getting their reward."
+  - q: "Which kind of engagement should a shopping chatbot aim for?"
+    a: "Behavioural engagement: customers using the bot to look for ideas, information and assistance, or considering telling others about it. It was the dimension linked to higher purchase intention, while concentration and absorption showed no benefit."
+
+also:
+  - doi: "10.1111/ijcs.12992"
+    title: "The interplay of app characteristics and smartphone addiction in mobile shopping behaviour"
+    authors: "Prodanova & Chopdar"
+    journal: "International Journal of Consumer Studies"
+    year: 2024
+    text: >-
+      A survey of 302 people in India who shop through mobile apps, analysed with PLS-SEM, asked which app features feed
+      compulsive smartphone use and what that means for buying. Perceived privacy and security, personalization, offers
+      tailored to the context and the retailer's reputation were all linked to stronger smartphone addiction. Combined with
+      app incentives, that addiction went with a stronger intention to shop on mobile and more frequent purchases. Teams that
+      design app rewards may want to look at how their heaviest users respond, not only the average shopper.
+  - doi: "10.1007/s12525-023-00664-1"
+    title: "“Sorry, too much information”—Designing online review systems that support information search and processing"
+    authors: "Seutter et al."
+    journal: "Electronic Markets"
+    year: 2023
+    text: >-
+      Shoppers facing hundreds of reviews can easily feel overloaded, and review systems now add features meant to make
+      scanning and reading easier. Drawing on 65 review systems from a range of online platforms, the authors built and
+      evaluated a taxonomy of these design features, with 50 distinct characteristics. It also sums up what is already known
+      about how such features affect information overload. Anyone redesigning a review section now has a structured list of
+      options to set against their own.
+
+charts:
+  study2:
+    title: "Emotional engagement and purchase intention, by chatbot (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Plain: emotional engagement", 4.14, false]
+      - ["Wheel: emotional engagement", 3.64, false]
+      - ["Quiz: emotional engagement", 5.06, false]
+      - ["Plain: purchase intention", 3.66, false]
+      - ["Wheel: purchase intention", 5.07, true]
+      - ["Quiz: purchase intention", 3.89, false]
+    source: "Study 2, 275 adults on Prolific, means from Table 4. All three chatbots ended with an identical discount."
+  clicks:
+    title: "Share of people who chose to visit the online shop after the chat"
+    scale: [0, 100]
+    step: 20
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Plain chatbot", 50.0, false]
+      - ["Spin-the-wheel chatbot", 78.1, true]
+      - ["Multiple-choice quiz chatbot", 49.3, false]
+    source: "Study 3, 218 adults on Prolific, binary choice after the chat; percentages as reported in the text."
+
+related_pages: []
