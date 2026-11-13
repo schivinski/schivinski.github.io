@@ -1,0 +1,258 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 31                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-08-07"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-14"          # the day this page went live (metadata only, never shown)
+slug: pictogram-ad-disclosure
+status: live
+
+title: "Does an ad icon help young viewers spot sponsored influencer videos? What an International Journal of Advertising study found"
+dek: >-
+  Young people helped three Dutch researchers create advertising pictograms, then liked the results and linked them to
+  sponsored content. Placed in real YouTube videos, the icons went largely unnoticed and changed nothing in how young
+  viewers judged the advertising.
+short_title: "Why ad icons in creator videos went unnoticed"
+
+description: >-
+  Boerman et al. find that ad icons designed with young people went largely unnoticed in YouTube videos and did not help
+  656 Dutch minors recognise advertising.
+
+keywords: [influencer marketing disclosure, sponsored content disclosure, advertising pictogram, "#ad label",
+  ad disclosure icon, advertising literacy, children and teenagers online, sponsored YouTube videos, persuasion knowledge,
+  Audiovisual Media Services Directive, Kijkwijzer, International Journal of Advertising]
+topics: [Influencers, Advertising]
+
+image:
+  file: 2023-pictogram-ad-disclosure.jpg
+  og: 2023-pictogram-ad-disclosure-og.jpg
+  alt: "A round, bright green sign with a white pictogram of a person walking over a striped crossing, against a clear blue sky, with a tower block and a glass roofline in the lower right"
+  caption: "A symbol anyone can read, provided they notice it. Photo: Raymond Okoro on Unsplash."
+
+short_answer: >-
+  Not in the form tested. Dutch researchers developed advertising pictograms with input from young people, then tested
+  three of them in sponsored YouTube videos watched by 656 viewers aged 8 to 18, each icon shown in a corner for 10
+  seconds. Compared with no icon, none improved recognition of the advertising, understanding of what the video was for,
+  or critical feelings about the brand's presence. Most viewers did not even remember seeing the icon.
+
+takeaways:
+  - "Recall of the icon was low. Of viewers shown each one, 23.9% remembered seeing the #AD pictogram, 8.5% the megaphone version and 4.2% the drawing of an influencer."
+  - "Scepticism about the brand's place in the video averaged 2.66 out of 6 with no icon and between 2.54 and 2.78 with one, so the icons did not make viewers more critical."
+  - "In the survey, 85.1% of young people said they had seen advertising in online videos, yet only a third (33.3%) of the usable examples they gave actually described influencer marketing."
+  - "Young people matched #AD to the word 'advertisement' (51%), but only 10% matched it to 'paid partnership', where the influencer drawing led with 42%."
+
+paper:
+  doi: "10.1080/02650487.2023.2242673"
+  title: "The development and testing of a pictogram signaling advertising in online videos"
+  authors: ["Boerman, S. C.", "Rozendaal, E.", "van Reijmersdal, E. A."]
+  authors_full: ["Sophie C. Boerman", "Esther Rozendaal", "Eva A. van Reijmersdal"]
+  year: 2024
+  journal: "International Journal of Advertising"
+  volume: "43"
+  issue: "4"
+  pages: "672-691"
+  online: "2023-08-07"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (byline, affiliations and ORCID iDs on the Taylor & Francis page)
+    - name: "Sophie C. Boerman"
+      affiliation: "Strategic Communication Group, Wageningen University & Research, Wageningen, The Netherlands; Amsterdam School of Communication Research (ASCoR), University of Amsterdam, Amsterdam, The Netherlands"
+      orcid: ""
+    - name: "Esther Rozendaal"
+      affiliation: "Erasmus School of Social and Behavioural Sciences, Erasmus University Rotterdam, Rotterdam, The Netherlands"
+      orcid: "0000-0003-1234-8496"
+    - name: "Eva A. van Reijmersdal"
+      affiliation: "Amsterdam School of Communication Research (ASCoR), University of Amsterdam, Amsterdam, The Netherlands"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Three phases reported: an inventory with a design contest and an online co-creation workshop (six participants), a survey of 248 Dutch minors, and a preregistered online experiment with 656 minors; level 2 holds even if Phase 1 is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Sophie C. Boerman of Wageningen University & Research and the University of Amsterdam,
+      Esther Rozendaal of Erasmus University Rotterdam and
+      Eva A. van Reijmersdal of the University of Amsterdam
+      took on a practical problem in influencer marketing. Young viewers often find it hard to tell when a creator's video is
+      paid for by a brand, which leaves them less able to bring what they know about advertising to bear on it.
+
+      A revised Dutch media law, based on European rules for audiovisual services, requires online video services to
+      protect young audiences and to make clear when content contains product placement or sponsorship. The Netherlands
+      already has Kijkwijzer, a rating system run by the Netherlands Institute for the Classification of Audiovisual Media
+      (NICAM) that uses small pictograms to flag age ratings and content such as violence or foul language. It had no
+      symbol for advertising. The team's aim was a symbol that would fit the Kijkwijzer style and work for 8 to 18
+      year-olds.
+
+      The project ran in three phases. First came a review of existing labels, a design contest and a small online
+      workshop. Second, a survey asked young people what the shortlisted icons meant to them. Third, a preregistered
+      online experiment put the three strongest icons into real YouTube videos.
+    facts:
+      - ["Phase 1", "A design contest (18 entries, 23 different icons) and a one-hour online workshop with two children, two teenagers, a parent and a NICAM designer"]
+      - ["Phase 2", "An online survey of 248 Dutch respondents between 8 and 18, recruited through parents on a commercial panel"]
+      - ["Phase 3", "A preregistered experiment with 656 participants of the same ages (average age 13.88), each shown one of three sponsored YouTube videos with one of three icons or none"]
+      - ["Measured", "Recognising the video as advertising, understanding that it aimed to sell and to persuade, scepticism and dislike, all on six-point scales"]
+      - ["Open data", "Both datasets are public, and the experiment's plan was registered before data collection"]
+
+  - h: "Building the icons with young people"
+    body: |
+      The contest ran in May 2021 through Kijkwijzer's website and social media accounts and the researchers' own
+      networks. The online workshop followed in June 2021, with a ten-minute drawing task and a discussion of existing
+      labels. The team also asked two content creators for their views.
+
+      The young participants leaned towards symbols of buying: a euro sign, a shopping cart, a wallet or a credit card.
+      Several also suggested a megaphone, or the text #AD or AD. A professional designer then drew 25 icons in the
+      Kijkwijzer style, and the researchers and NICAM's director narrowed these to six: #AD, a megaphone with #AD, a
+      megaphone with a euro sign, a wallet, a shopping cart, and a figure holding up an item with a price tag, which the
+      team calls the influencer pictogram.
+
+  - h: "What young people read into each icon"
+    body: |
+      The survey asked 248 young people (average age 13.39) to write down their first associations with each icon.
+      Only the two versions carrying #AD prompted advertising-related answers from a sizeable share. For #AD, 24% of
+      first associations were about advertising; for the megaphone with #AD it was 16%, and lower still for the rest.
+
+      Different words called up different icons. The wallet was picked most often for 'sponsorship', at 29%. Asked for
+      their own example of advertising in a video, 60.1% simply named a brand, product, creator or platform, and 6.6%
+      gave a wrong answer, such as an ad shown before a video. Older participants were somewhat more
+      likely to give a correct example, though the age difference was only marginally significant.
+
+      When asked which icon best fitted advertising in online videos, the answers split by age, and the differences
+      were significant. Older teenagers clearly favoured the megaphone with #AD, while younger respondents leaned
+      towards the influencer drawing, which shows the practice itself. The team took #AD, the megaphone with #AD and
+      the influencer drawing forward to the experiment.
+    chart: agechoice
+
+  - h: "Putting three icons to the test"
+    body: |
+      Of 1,072 young people who started the experiment, 656 were kept after removing, among others, those outside the
+      age range, those who did not finish and those whose video failed or who did not watch it. Parents gave consent for under-16s.
+      Every participant watched one of three sponsored videos by Dutch YouTubers, edited to three or four minutes, with
+      either no icon or one of the three candidates.
+
+      The videos varied in how the brand appeared. In one, friends compete to build the tallest tower from tubes of a
+      crisp brand, which stay in view while the crisps are never shown or eaten. In another, a creator reviews a
+      new ice lolly in detail. In the third, a creator visits an older woman in a care home and gives her a vacuum
+      cleaner in a collaboration with an online shop that he names twice but never shows.
+
+      Each icon appeared four seconds into the video in the upper right corner, stayed for 10 seconds, took up about a
+      fifth of the screen's height and sat next to the real Kijkwijzer "all ages" symbol. Afterwards, participants
+      answered questions such as "Was the video sponsored by a brand?" and "Was the video made to sell [brand]?".
+
+  - h: "No measurable change"
+    body: |
+      The analysis compared viewers who saw any icon with those who saw none, allowing for liking of the video and of
+      the creator, familiarity with the creator, how often they watched that creator and how often they used the brand. There was no
+      overall difference (p = .270), and none for any single measure, with p-values from .234 to .943.
+
+      Setting the three icons against one another and against no icon gave the same result (p = .372). Scepticism came
+      closest to a difference (p = .100), which is still well short of significance. Because nothing moved, the icons
+      also did not work differently across the three videos or across age groups.
+    chart: recognition
+
+  - h: "Why a well-liked icon went unnoticed"
+    body: |
+      The authors propose two causes. First, scores were already high without help. Even with no icon,
+      the three measures of understanding averaged 4.22 out of 6 or higher. The authors see the brands' presence in the
+      chosen videos as relatively prominent, and participants knew they were meant to watch closely. With more subtle
+      placements and more casual viewing, the authors suggest, an icon might still make a difference.
+
+      The second is attention. Even the best remembered icon, #AD, was recognised afterwards by fewer than a quarter of
+      the viewers who had it in their video, and the other two by far fewer. Earlier work by the authors and others shows that a disclosure only works once it is noticed, and young viewers
+      have limited capacity to take in everything a video offers. Kijkwijzer icons were also new to online videos at
+      the time, so viewers may simply not have been looking for them.
+
+      Their practical advice follows from this. The icons need displaying in more prominent ways, which future tests
+      should establish. Kijkwijzer has in the past introduced new symbols with an information campaign, which could
+      help here too. And since preferences differed by age, separate icons for different age groups are an option.
+      Our own reading for brands is that a label which meets the rules on paper but sits briefly in a corner
+      may do little for young viewers.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Check who watches the channel", "Before you agree a deal with a creator, ask for the age breakdown of their audience from the platform's analytics. If many viewers are under 16, plan your disclosure for them, not for adults."]
+  - ["Choose a label people already know", "Use a short, familiar marker such as #ad or the word Ad. For younger audiences, add a simple picture of what is happening, such as a person holding up a product with a price tag. Ask ten viewers what the label means before you commit to it."]
+  - ["Make the label big and lasting", "Keep the label on screen the whole time the product is in view, not just for the first few seconds. Make it at least as large as any other graphic in the video, and keep it clear of the platform's own buttons."]
+  - ["Have the creator say it too", "Ask the creator to say aloud, within the first 15 seconds and in their own words, that the brand paid for or supplied the video. Repeat it when the product appears."]
+  - ["Test whether people notice it", "Before launch, show the video to 20 people who match your audience. Then ask whether they saw a label and what it said. If fewer than half remember it, make it larger or longer and test again."]
+  - ["Audit every sponsored post monthly", "Once a month, review each sponsored video and post your creators published. Log whether the label was visible, how long it was visible and whether it was spoken. Fix any that fall short within a week."]
+
+expect:
+  - "**Brief corner labels are easy to miss.** An icon shown briefly in a corner escaped most young viewers, so its lack of effect says more about visibility than about labelling as such."
+  - "**Familiar text gets noticed first.** #AD was the most remembered of the three icons and the strongest prompt for thoughts of advertising, though it changed nothing either. New symbols may need time, and an introduction campaign, before people read them as intended."
+  - "**One icon will not suit every age.** Younger viewers preferred a concrete picture of the practice and older teenagers a text-based mark, so the authors suggest giving each age group its own icon."
+  - "**Obvious sponsorship leaves less to add.** When the brand is central to a video, viewers may see the advertising anyway. The authors expect a label to matter more for subtle placements, which were not part of this test."
+
+limits:
+  - "**Clear sponsorship, attentive viewers.** The sponsored brands were relatively easy to notice, and viewers knew they should watch closely, which may have lifted scores in every condition."
+  - "**Direct questions.** Asking young people about advertising may lead them to assume it was there and answer yes, the authors note. Implicit measures would avoid that."
+  - "**Attention was not tracked.** Beyond a recall question, the experiment did not record where viewers looked. The authors suggest eye-tracking for future work."
+  - "**One country with a familiar rating system.** In the survey, 93.5% knew Kijkwijzer. Where no such system exists, icons may be harder to interpret."
+  - "**A remote workshop.** The co-creation session took place on video calls, which limited exchange between participants, and it included no child under ten."
+
+faq:
+  - q: "Do sponsored content icons help children and teenagers recognise influencer advertising?"
+    a: "Not as tested here. In a preregistered experiment with Dutch children and teenagers, none of three icons shown briefly in a YouTube video raised recognition of the advertising or understanding of its purpose compared with no icon (Boerman et al., 2024)."
+  - q: "What is advertising literacy?"
+    a: "The knowledge and attitudes people use to deal with advertising. Researchers split it into a conceptual part, knowing that something is advertising and that it aims to sell and persuade, and an affective part, such as scepticism or dislike towards it."
+  - q: "Which ad icon do young people prefer?"
+    a: "It depends on age. In the Dutch survey, children and younger teenagers leaned towards a drawing of someone showing off a priced product, while 16 to 18 year-olds clearly preferred a megaphone with #AD."
+  - q: "Why did viewers miss the icon?"
+    a: "The authors cite how it was shown, in a corner and for only 10 seconds, which proved not prominent enough. They also mention competition from everything else on screen and the fact that such symbols had only recently arrived in online videos. Children and teenagers cannot process every element of a video at once."
+  - q: "Is #AD enough to disclose influencer marketing?"
+    a: "It was the best-known option and the one most linked to the word advertisement. But young people associated it far less with sponsorship or paid partnerships. We would add, as an inference beyond the findings, that #AD alone may not convey that a creator was paid."
+
+also:
+  - doi: "10.1177/00222429231190021"
+    title: "Tales of Two Channels: Digital Advertising Performance Between AI Recommendation and User Subscription Channels"
+    authors: "Dong, Zhuang, Fang, & Huang"
+    journal: "Journal of Marketing"
+    year: 2024
+    text: >-
+      Platforms fill feeds in two ways: with content from accounts a user follows, or with content an algorithm
+      recommends. In the first of five studies, in-feed ads in the recommendation channel drew more clicks but converted
+      less than ads in the subscription channel, and informational appeals and direct links strengthened that pattern.
+      The cause, the authors argue, is intrusiveness: recommended feeds feel less credible and less under the user's control, so
+      people engage less with the content and an ad interrupts less. Clicks and sales may peak in different feeds,
+      so each channel deserves its own success measure.
+  - doi: "10.1177/00222437231190874"
+    title: "The Impact of Negative Reviews on Online Search and Purchase Decisions"
+    authors: "Varga & Albuquerque"
+    journal: "Journal of Marketing Research"
+    year: 2024
+    text: >-
+      Clickstream data from a large online retailer, where reviews were sorted by recency, show that negative reviews
+      lower the chance of a purchase. They stand out against high average ratings, make shoppers less likely to keep
+      reading about the product and send them to substitutes' pages and reviews. The effect held for practical products
+      and for complaints about function or customer service, but not for hedonic products or matters of taste. For
+      practical products, the newest complaint on the page may weigh more than the star average.
+
+charts:
+  agechoice:
+    title: "Icon chosen as the best fit for ads in online videos, by age (% of each age group)"
+    scale: [0, 50]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Ages 8-12: megaphone with #AD", 23.8, false]
+      - ["Ages 8-12: influencer drawing", 26.7, true]
+      - ["Ages 13-15: megaphone with #AD", 20.7, false]
+      - ["Ages 13-15: influencer drawing", 39.0, true]
+      - ["Ages 16-18: megaphone with #AD", 44.6, true]
+      - ["Ages 16-18: influencer drawing", 10.8, false]
+    source: "Phase 2 survey, 248 respondents (Table 2). The other four icons took the remaining choices; the age differences were significant."
+  recognition:
+    title: "Recognising the video as advertising, by icon shown (1 to 6 scale)"
+    scale: [1, 6]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["No icon", 4.91, false]
+      - ["#AD", 4.94, false]
+      - ["Megaphone with #AD", 4.96, false]
+      - ["Influencer drawing", 4.81, false]
+    source: "Phase 3 experiment, 656 participants; means from the main analysis (Table 3). None of the differences was significant."
+
+related_pages: []
