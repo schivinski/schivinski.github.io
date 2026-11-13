@@ -1,0 +1,247 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 32                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-08-12"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: ar-surprise-emotions
+status: live
+
+title: "Which feelings make people want to use an augmented reality shopping app? What a Psychology & Marketing study found"
+dek: >-
+  Seeing glasses on your own face or furniture in your own room through a phone camera brings surprise and amazement.
+  Three studies with 638 people trace how that surprise goes with joy and with wanting the app, while frustration shows
+  no measurable link.
+short_title: "Why AR apps need to surprise people first"
+
+description: >-
+  Soon et al. find AR shopping apps set off surprise first, which goes with joy, and only positive feelings link to
+  wanting the app, across three studies.
+
+keywords: [augmented reality marketing, AR shopping apps, emotions in augmented reality, wow effect, surprise and amazement,
+  consumption emotions, desire to use AR, virtual try-on, willingness to purchase, AR app design, Psychology & Marketing]
+topics: [Retail, Advertising]
+
+image:
+  file: 2023-ar-surprise-emotions.jpg
+  og: 2023-ar-surprise-emotions-og.jpg
+  alt: "A smiling woman with braided hair, in a green and orange patterned dress, holds up a phone in a pale wood-effect case and lifts her other hand in delight against a bright pink wall"
+  caption: "Amazement came first, and joy followed. Photo: Ahmed Nasiru on Unsplash."
+
+short_answer: >-
+  Positive ones, starting with surprise. In two tests, people who tried eyewear or furniture through a brand's AR app,
+  rather than its mobile website, reported more amazement and surprise. Those who felt more surprised also felt more
+  excited, joyful and happy, and both sets of feelings went with a stronger desire to use the app. The eyewear app
+  also stirred anger and frustration, but those feelings showed no link to that desire.
+
+takeaways:
+  - "Of 17 positive feelings tested after a virtual makeup session, 9 held up, in three sets of three: surprise, joy and feeling capable."
+  - "Positive feelings accounted for 46.4% of the differences in students' desire to use an eyewear try-on app; negative feelings accounted for 1.0%."
+  - "Feeling powerful, protected or capable was linked to desire for the app in only 1 of the 3 models tested."
+  - "In the furniture study, desire to use the AR app accounted for 28.8% of the differences in willingness to purchase from the retailer."
+
+paper:
+  doi: "10.1002/mar.21884"
+  title: "The role of emotions in augmented reality"
+  authors: ["Soon, P.-S.", "Lim, W. M.", "Gaur, S. S."]
+  authors_full: ["Pei-Shan Soon", "Weng Marc Lim", "Sanjaya Singh Gaur"]
+  year: 2023
+  journal: "Psychology & Marketing"
+  volume: "40"
+  issue: "11"
+  pages: "2387-2412"
+  online: "2023-08-12"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Pei-Shan Soon"
+      affiliation: "Sunway Business School, Sunway University, Sunway City, Selangor, Malaysia"
+      orcid: "0000-0003-0914-1232"
+    - name: "Weng Marc Lim"
+      affiliation: "Sunway Business School, Sunway University, Sunway City, Selangor, Malaysia; School of Business, Law and Entrepreneurship, Swinburne University of Technology, Hawthorn, Victoria, Australia; Faculty of Business, Design and Arts, Swinburne University of Technology, Kuching, Sarawak, Malaysia"
+      orcid: "0000-0001-7196-1923"
+    - name: "Sanjaya Singh Gaur"
+      affiliation: "Department of Integrated Marketing, Division of Programs in Business, NYU School of Professional Studies, New York University, New York, USA"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Three studies: a scale-adaptation survey of 224 female undergraduates after using the Sephora Virtual Artist app; a quasi-experiment with 214 undergraduates (Lenskart AR app vs mobile website); a lab experiment with 200 university staff (Ikea Place vs Ikea mobile website). Focus groups, expert review and the 70-student pretest not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Pei-Shan Soon and
+      Weng Marc Lim, both at Sunway University in Malaysia (Lim also holds posts at Swinburne University of Technology),
+      with Sanjaya Singh Gaur of New York University,
+      questioned a habit in AR research. Studies of augmented reality in shopping usually measure one feeling,
+      enjoyment, and let it stand for every positive emotion. The team argued that this hides the detail marketers need.
+
+      In the view of emotion they adopt (Scherer, 2000), a feeling has several parts that can arise one after another. There
+      is a visible reaction, such as amazement. There is the felt state, such as happiness. And there is a bodily side,
+      which the authors captured with feeling powerful, protected and capable. They asked which of these parts an AR app
+      sets off, in what order, and which of them build a wish to use the app. Rather than intention, they measured
+      desire, a more motivational step, and in the last study they added willingness to buy.
+
+      The studies appear to have taken place in Malaysia: the furniture study used Ikea's Malaysian website as its
+      comparison and recorded incomes in ringgit.
+    facts:
+      - ["Studies", "Three: a survey to adapt an emotion scale, then two comparisons of an AR app with the same brand's mobile website"]
+      - ["People", "224 female undergraduates; 214 undergraduates; 200 university staff (638 in all)"]
+      - ["Apps", "A virtual makeup mirror, a glasses try-on app and a furniture placement app"]
+      - ["Measured", "Positive and negative feelings, desire for the AR app and, for furniture only, willingness to purchase"]
+
+  - h: "Sorting the feelings an AR app brings out"
+    body: |
+      The team began with an established list of consumption emotions, 22 positive and 21 negative words. Two focus groups
+      with 15 people who shop online every week dropped words that did not suit an app, such as love and envy. Four
+      experts in marketing and consumer behaviour then removed, added and renamed a few more. After a pretest with 70
+      students, female undergraduates spent 15 minutes with Sephora's virtual makeup mirror, trying eye or lip shades on
+      their own faces, and then rated how they felt.
+
+      A factor analysis sorted the positive words that held up into three sets, which between them accounted for about 81%
+      of the spread in responses. Amazed, surprised and astonished formed the visible reaction. Excited, joyful and happy
+      formed the felt state. Powerful, protected and capable formed what the authors label the physiological part. The
+      negative words fell into only two sets: angry, frustrated, fearful and tense, then unpleasant, bored and upset. With no
+      bodily set on the negative side, that part was dropped from the later studies. Among the positive words, amazed drew
+      the highest average rating and powerful the lowest.
+
+  - h: "Surprise came first in the eyewear test"
+    body: |
+      The second study compared two groups of undergraduates at a private university. The 113 in the AR group downloaded
+      Lenskart's app and used its AR try-on, which takes a selfie and fits frames to the face. The other 101 browsed
+      Lenskart's mobile website. After the same length of session, everyone answered one questionnaire, rating each
+      feeling on seven-point scales, along with whether they wanted the app for choosing eyewear in the near future.
+
+      The AR app raised both kinds of first reaction: more amazement and surprise, but also more anger, frustration, fear
+      and tension. Each reaction then went with feelings of the same kind. Students whose surprise was higher also reported
+      more excitement and happiness, and felt more powerful and capable. Those who felt more frustrated also felt more upset and bored.
+
+      Only the positive side mattered for desire. Amazement and joy were both linked to wanting the app more, while
+      neither negative set showed any link. Feeling capable was linked too, but only in the model that included the
+      negative feelings; in the model with positive feelings alone, that link fell short of significance. The authors
+      see a visible reaction, typically surprise, as the first layer of emotion, ahead of pleasure. In the chart,
+      zero means no link, and values nearer 1 show a stronger one.
+    chart: eyewear
+
+  - h: "Furniture, older participants and the step to buying"
+    body: |
+      The third study tested the positive side again with a different product, an older group and a controlled lab
+      design. Full-time and part-time staff of a private university, aged 25 to 45, were split into two groups of 100. One group used the
+      Ikea Place app to scan the room around them and then place, move and turn virtual furniture in it. The other picked
+      furniture on Ikea's mobile website, which shows static pictures. Three in four participants were women, and almost
+      all held a degree.
+
+      The pattern repeated. The AR app raised amazement and surprise, surprise went with joy and with feeling capable, and
+      joy had the closest link to desire, followed by surprise. Feeling capable again showed no link to desire. The new step
+      was buying: people who wanted the AR app more also reported more willingness to buy the brand's furniture. That
+      measure ended up as a single question, because two of its three items fell short of the authors' quality
+      threshold.
+    chart: furniture
+
+  - h: "Why feeling capable mattered least"
+    body: |
+      The authors' account, untested in these studies, centres on physical control. Earlier work suggests people value AR
+      more when it combines two things: placing a virtual object in their real surroundings and letting them feel they can
+      handle it. Students could view the glasses from several angles but could not get a feel for them. The furniture app put items in the room
+      without letting people adjust them with natural movements. Without that sense of control, feeling powerful or capable
+      may not have turned into wanting the app.
+
+  - h: "Advice for teams building AR features"
+    body: |
+      The central advice is to design for wonder. If amazement opens the sequence, an AR feature should show people
+      something they did not expect, and keep doing so. For eyewear, the authors suggest adding new or still-in-development
+      products to the app for people to try. For a furniture brand, they suggest creating brand content and refreshing it
+      regularly so the surprise does not wear off. They also propose a call-to-action button beside the products people try
+      on most often.
+
+      Two further points concern the build. Developers should make virtual objects move precisely and naturally, to give
+      users more of the control the authors think was missing. And although negative feelings did not reduce desire here,
+      the authors still advise collecting regular feedback on the app's features and cutting frustration where possible.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Write down your wow moment", "In one sentence, describe what a first-time user will see in your AR view that a product photo cannot show, such as a lamp at real size on their own table. If you cannot write that sentence, rework the feature before you build more."]
+  - ["Ask testers how they felt", "After each test session, ask 15 to 20 people to rate six words from 1 to 7: amazed, surprised, excited, happy, frustrated and bored. Ask this before you ask whether they liked the app."]
+  - ["Get to the reveal fast", "Keep the path from the AR button to the product appearing in the camera view to three taps or fewer. Replace any tutorial with a one-line hint, such as point your phone at the floor."]
+  - ["Let people handle the item", "Make the virtual product easy to move, turn and resize with one or two fingers, and make it line up with floors, tables or the user's face. Watch five first-time users and fix every point where they hesitate."]
+  - ["Add something new every month", "Put at least one new or upcoming product into the AR range each month, so returning users find something they have not tried. Mention it on the app's opening screen."]
+  - ["Link the most-tried items to checkout", "Once a month, pick the ten products people try most often in AR. Add an add-to-basket button inside the AR view for those items, and compare their sales with the month before."]
+
+expect:
+  - "**A modest first nudge.** Using the AR app rather than the website accounted for 3.1% of the variation in surprise among the students and 8.9% among the staff. Other factors shaped most of the variation in amazement."
+  - "**Joy is the strongest link.** In all three models, excitement, joy and happiness showed a closer connection with desire than amazement did, and feeling capable the weakest of the three."
+  - "**Some frustration is likely.** Alongside more amazement, the eyewear app brought more anger and frustration. Here that did not lower desire, but the authors still recommend reducing it."
+  - "**Novelty needs upkeep.** The authors expect surprise to depend on new content in the app. How quickly it fades was not measured, so the right update schedule is something to settle with your own tests."
+
+limits:
+  - "**University samples.** Students made up the first two samples and university staff the third, all recruited for convenience or by purpose rather than at random. The first study included women only."
+  - "**Brands' own apps.** All three apps belonged to the brands themselves. The authors caution that AR run by third parties, such as camera filters on social apps, may work differently."
+  - "**One questionnaire after use.** All feelings were reported at the same moment, so the sequence of feelings comes from the structure of the authors' model, not from tracking feelings as they happened."
+  - "**Desire and willingness, not sales.** No purchases were recorded, and willingness to buy rested on a single question."
+  - "**Product factors left out.** How useful or enjoyable the products were, and how well they matched people's needs, went unmeasured; the authors name these as next steps."
+
+faq:
+  - q: "What emotions does augmented reality shopping create?"
+    a: "Mostly positive ones, with surprise at the front. In the authors' model, amazement and surprise came first and went with excitement, joy and happiness, and with feeling powerful and capable. Negative reactions such as anger and tension rose too with the eyewear app (Soon et al., 2023)."
+  - q: "Is wanting to use an AR app linked to buying?"
+    a: "On this evidence, yes, though only as a stated readiness. In the furniture study, staff who were keener on the AR app also reported more readiness to buy from that retailer. Actual purchases were not recorded."
+  - q: "Do negative feelings put people off AR apps?"
+    a: "Not in these data. The eyewear app did raise anger and frustration, and those feelings went with being upset or bored, but neither showed any connection with wanting the app. The authors suggest reducing them anyway."
+  - q: "What is the wow effect in augmented reality?"
+    a: "A burst of awe and surprise when a virtual product appears in a real scene, a term the authors take from earlier AR research. In their account it is the starting point for the positive feelings behind wanting an app, and they recommend regular updates to keep it."
+  - q: "How does desire differ from intention?"
+    a: "Desire is a genuine wish to do something; intention is the decision to do it. The authors measured desire because it shows whether people really want to use an app rather than feeling they ought to, and in their theory it comes one step before intention."
+
+also:
+  - doi: "10.1002/jcpy.1382"
+    title: "The effect of subjectivity and objectivity in online reviews: A convolutional neural network approach"
+    authors: "Park, Song, & Sela"
+    journal: "Journal of Consumer Psychology"
+    year: 2023
+    text: >-
+      Which reviews do shoppers rate as helpful? A convolutional neural network applied to more than 2 million Amazon reviews
+      showed that subjective sentences (opinions and feelings) and objective ones (facts) both made a review more helpful.
+      Combining the two in one review added less than each did on its own, especially for hedonic products. A mixed
+      message, the authors argue, takes more effort to read. A review prompt might ask for one kind of
+      content at a time.
+  - doi: "10.1002/jcpy.1381"
+    title: "MindMiner: Uncovering linguistic markers of mind perception as a new lens to understand consumer–smart object relationships"
+    authors: "Hartmann, Bergner, & Hildebrand"
+    journal: "Journal of Consumer Psychology"
+    year: 2023
+    text: >-
+      Some owners treat a smart device as a helpful partner, others as a mere tool. The authors trained a language model to
+      detect, from what consumers write, how far they credit a device with a mind, and found that more mind perception went
+      with a more communal relationship and wider use. The link held across more than 20,000 customer reviews, and an
+      experiment showed that encouraging a communal relationship raised mind perception and the number of tasks people gave
+      the device. How customers write about a product can reveal how much they will use it.
+
+charts:
+  eyewear:
+    title: "Eyewear study: how closely each positive set of feelings was linked to desire for the AR app (path coefficients)"
+    scale: [0, 0.4]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Excited, joyful, happy", 0.34, true]
+      - ["Amazed, surprised, astonished", 0.30, false]
+      - ["Powerful, protected, capable", 0.22, false]
+    source: "Study 2, 214 undergraduates, model with all five sets of feelings (Figure 5, Panel A). The two negative sets (angry, frustrated, fearful, tense; unpleasant, bored, upset) showed links of -0.03 and -0.01, not statistically significant."
+  furniture:
+    title: "Furniture study: links along the chain from the AR app to willingness to buy (path coefficients)"
+    scale: [0, 0.8]
+    step: 0.2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["AR app vs website, on surprise", 0.60, false]
+      - ["Surprise, on joy", 0.60, false]
+      - ["Surprise, on feeling capable", 0.65, false]
+      - ["Joy, on desire to use", 0.47, true]
+      - ["Surprise, on desire to use", 0.22, false]
+      - ["Feeling capable, on desire to use", 0.11, false]
+      - ["Desire, on willingness to buy", 0.47, true]
+    source: "Study 3, 200 university staff aged 25 to 45, paths printed in the model figure (Figure 8). The link from feeling capable to desire was not statistically significant."
+
+related_pages: []
