@@ -1,0 +1,252 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 44                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-10-23"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: facebook-brand-post-content
+status: live
+
+title: "What makes a brand's Facebook post engaging? What a Journal of Consumer Behaviour study found"
+dek: >-
+  Three researchers coded 600 brand posts from nine industries to see which choices of format, tone, endorser and
+  timing went with more Likes, reactions, comments and shares. Pictures and feelings did better than links, prompts
+  and micro-influencers.
+short_title: "Photos, feelings and fewer prompts on Facebook"
+
+description: >-
+  Drossos et al. code 600 posts from 18 Greek brand Facebook Pages: photo posts, emotional appeals and service posts
+  drew more engagement; posting hour did not.
+
+keywords: [Facebook brand posts, social media content strategy, brand post engagement, Facebook Reactions,
+  emotional vs informational appeal, post vividness, calls to action on social media, caption length,
+  best time to post on Facebook, endorsers in brand posts, service vs product brands, Journal of Consumer Behaviour]
+topics: [Social media, Creative]
+
+image:
+  file: 2023-facebook-brand-post-content.jpg
+  og: 2023-facebook-brand-post-content-og.jpg
+  alt: "Two people's hands sort printed photographs of skies, seas, trees and spices into piles on a dark blue table, with colour swatch fans and white markers at the left"
+  caption: "A month of brand posts often starts with choosing the pictures. Photo: Vitaly Gariev on Unsplash."
+
+short_answer: >-
+  Simple, emotional posts did best. Across 600 posts from 18 of the most popular brand Pages in Greece, photo posts
+  drew more engagement for the size of the audience than text, link or video posts, and posts without links, hashtags
+  or calls to action outperformed those with them. Emotional posts collected more Likes than factual ones, service
+  posts outdid product posts, and the hour of posting made no measurable difference.
+
+takeaways:
+  - "Three in four posts (75.7%) carried links, URLs or hashtags, but posts built around a photo drew the most engagement per fan."
+  - "Only 117 posts in the sample used an emotional appeal. Those posts drew clearly more Likes and positive reactions than factual ones."
+  - "Posts about services averaged 581 Likes, against 282 for posts about products."
+  - "Posting in working hours, as 58% of the posts did, gave posts no measurable edge."
+
+paper:
+  doi: "10.1002/cb.2269"
+  title: "Social media marketing content strategy: A comprehensive framework and empirically supported guidelines for brand posts on Facebook pages"
+  authors: ["Drossos, D.", "Coursaris, C.", "Kagiouli, E."]
+  authors_full: ["Dimitris Drossos", "Constantinos Coursaris", "Eleni Kagiouli"]
+  year: 2024
+  journal: "Journal of Consumer Behaviour"
+  volume: "23"
+  issue: "3"
+  pages: "1175-1192"
+  online: "2023-10-23"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (author information on the Wiley page; only Drossos's ORCID iD is printed)
+    - name: "Dimitris Drossos"
+      affiliation: "Department of Marketing and Communication, Athens University of Economics & Business, Athens, Greece"
+      orcid: "0000-0001-9414-7617"
+    - name: "Constantinos Coursaris"
+      affiliation: "Department of Information Technologies, HEC Montréal, Montréal, Québec, Canada"
+      orcid: ""
+    - name: "Eleni Kagiouli"
+      affiliation: "Department of Marketing and Communication, Athens University of Economics & Business, Athens, Greece"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One content analysis of 600 posts from 18 Greek brand Facebook Pages in nine industries, published 1 June to 10 July 2019; two coders, Cohen's kappa 0.973"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Dimitris Drossos and
+      Eleni Kagiouli of the Athens University of Economics & Business, with
+      Constantinos Coursaris of HEC Montréal,
+      wanted rules for brand posts that hold across industries. An earlier set of guidelines, which Coursaris had
+      helped to write, rested on posts from only three industries. This time the team took in nine, and added Facebook's
+      emoji Reactions, which show whether a post left people feeling love, amusement, surprise, sadness or anger.
+
+      They grouped the choices a social media manager makes under three questions. Who appears in the post, and is the
+      brand selling a service or a product? How is the post built, in its format, its prompts to act, its tone and its
+      length? And when does it go up?
+
+      The sample was 600 posts drawn from the 18 Greek brand Pages with the most fans, two brands in each of nine
+      industries.
+      Two trained coders classified every post with a shared codebook. Engagement meant all the reactions, comments and
+      shares a post received, divided by the number of fans the Page had when the post went up, so that large and small
+      Pages could be compared. The Pages averaged 536,661 fans, and the average post drew 377 interactions.
+    facts:
+      - ["Posts", "600 brand posts, two brands per industry, from the Facebook Pages with the largest followings in Greece"]
+      - ["Period", "Posts published from 1 June to 10 July 2019, collected later so each had time to gather responses"]
+      - ["Industries", "Beauty, beverages, e-commerce, fashion and footwear, FMCG, retail, telecoms, ferry companies, and wine and spirits"]
+      - ["Coded", "Format, prompts to act, emotional or factual appeal, caption length, posting day and hour, endorser, and service or product"]
+      - ["Measured", "Likes, the five other Reactions, comments and shares, plus their total divided by the Page's fans"]
+      - ["Coding check", "The two coders agreed almost perfectly: Cohen's kappa of 0.973 (1 would be complete agreement)"]
+
+  - h: "Pictures beat links and video"
+    body: |
+      Video made up 90 of the posts, a photo or picture on its own 51, and plain text just 5. All the others included a
+      link, a URL or a hashtag.
+
+      Measured per fan, photo posts drew the most engagement: an average of 0.002 interactions, or two for every
+      thousand fans. That was significantly more than any other format. Format explained about 8% of why engagement
+      varied from post to post.
+
+      Photo posts also drew more positive reactions, the Love, Haha and Wow buttons, than the other three formats, and
+      they were shared more often than plain text. Video posts had the highest average number of shares, 43.11, but
+      their results varied so widely that this lead was not statistically significant. On comments and on Sad and Angry
+      reactions, photo posts did not stand apart.
+    chart: formats
+
+  - h: "Fewer prompts, more Likes"
+    body: |
+      The authors had expected posts that invite interaction to do better, as several earlier studies suggested. The
+      posts showed the reverse. Those with no link, hashtag or call to action, whether text, photo or video, averaged
+      0.002 engagement per fan. Posts with links or hashtags, and posts asking people to visit a site, like, comment or
+      enter a contest, each averaged 0.0007, and both differed significantly from the posts without prompts. Questions
+      and quizzes, used in only 33 posts, fell between the two at 0.0014.
+
+      Prompts accounted for roughly 5% of the spread in engagement, and their effect showed most in Likes and
+      positive reactions. The authors read the pattern as a case for simple, minimal posts. Their guidelines favour
+      low-key prompts, such as a link or a hashtag, over explicit requests to visit, comment, join a contest or answer
+      a quiz.
+    chart: prompts
+
+  - h: "Emotional posts and longer captions"
+    body: |
+      Few posts tried to amuse or move people rather than inform them. Those that did, with humour, wordplay, stories
+      or inspiring images, averaged 679 Likes and 95 positive reactions. Their engagement was significantly
+      higher than that of factual posts, an effect the authors class as medium to large (Hedges' g of 0.7). The two
+      kinds of post drew comparable comments, shares, and Sad and Angry reactions, with no significant difference.
+
+      Captions averaged 185 characters. Longer ones went with slightly more engagement overall, and the link was
+      clearer for comments (a correlation of 0.235) and shares (0.147). Length was not related to Likes. A follow-up
+      analysis found that length worked mainly for factual posts: the longer an informational caption, the more
+      comments it was predicted to draw, while the line for emotional posts dipped slightly.
+
+  - h: "Who appears, and what is on offer"
+    body: |
+      Most posts, 78.2%, featured no endorser at all. Of the rest, 71 showed an ordinary person, 47 a celebrity, 11 a
+      micro-influencer and 2 a brand character. Endorser type made a significant difference, although the authors
+      rate the effect as small. Positive reactions came most readily to simple posts with no endorser, and
+      micro-influencer posts drew fewer comments and Likes than posts with no endorser or with a celebrity.
+
+      On this basis the authors advise using ordinary people or celebrities rather than micro-influencers. They also
+      urge some scepticism about celebrity endorsements, whose average effects they describe as small or absent.
+
+      The type of offer mattered a great deal. Posts about services drew significantly more engagement than posts
+      about products, and the authors describe the effect, a Hedges' g of 0.96, as large. Service posts averaged 82 positive
+      reactions against 32 for product posts, and they also drew more comments and shares. Sad and Angry reactions
+      did not differ.
+
+  - h: "When the post goes up"
+    body: |
+      Posts published in working hours drew much the same engagement as those published at other times. Weekday
+      posts, those put up from Monday until 15.00 on Friday, averaged 43.79 positive reactions and collected more of
+      them than weekend posts, but their overall engagement was not significantly different.
+
+      The authors conclude that each brand has its own best times, shaped by its industry and by its audience's age,
+      location and interests, and that only its own data can reveal them. They add that Facebook's feed ranks posts by
+      their likely relevance to each user rather than by time alone, so relevance deserves as much attention as the
+      clock. Hashtags are one tactic they mention: a person who has engaged with a hashtag before may be shown the post
+      more readily, and people who search for that hashtag can find it later.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Audit your last 30 posts", "Export your Page's last 30 posts into a spreadsheet. Tag each one: photo, video, link or text only; emotional or factual; with or without a request to act. Add its reactions, comments and shares, divided by your follower count that day."]
+  - ["Plan more posts that move people", "Draft next month's calendar with a story, a real moment or something to smile at in every third post or more. Keep prices, offers and product details for the rest."]
+  - ["Lead with one clear photo", "Pick a single sharp photo, such as a product close-up or a customer using it. Look at it on your phone at arm's length. If the subject is not obvious within two seconds, choose another."]
+  - ["Trim the asks and fit the caption", "Leave out requests to like, comment, share or enter a contest on most posts, and add a link only when people need one. Give posts about features or offers three or four sentences of detail. Keep funny or heartfelt posts to one or two lines."]
+  - ["Try everyday faces before paying for one", "Before booking an influencer, run four posts featuring your own staff or customers and four with the creator. After seven days, compare the reactions and comments each post earned per follower before you sign anything longer."]
+  - ["Find your own posting times", "For four weeks, spread similar posts across weekday mornings, weekday evenings and weekends. Then compare engagement per follower for each slot, keep the best two and check them again every three months."]
+
+expect:
+  - "**Reactions move before conversation.** Emotional posts gained Likes and positive reactions but not comments or shares, so judge them on reactions."
+  - "**Comments need words.** Longer captions on factual posts were the clearest route to comments. Expect short emotional posts to draw reactions more than replies."
+  - "**Format is only part of it.** Format and prompts each accounted for only a modest part of why posts differed. Our inference is that most of what separates a strong post from a weak one, such as the quality of the picture or the offer itself, lay outside what was coded."
+  - "**Compare with your own sector.** Service posts drew far more engagement than product posts here, so we suggest benchmarking against brands that sell what you sell rather than against an overall average."
+
+limits:
+  - "**One country, one platform.** All 18 Pages were Greek and every post came from Facebook in the summer of 2019. The authors think the findings fit best in countries with a similar culture and similar levels of social media use."
+  - "**Observed, not tested.** Posts were compared as the brands published them, so a photo post or an emotional post may also have differed in product, offer or audience. The design shows which features went with more engagement, not what caused it."
+  - "**Small groups.** Several comparisons rest on few posts, among them the photo-only, text-only, micro-influencer and brand-character groups."
+  - "**The feed chooses the audience.** Facebook shows brand posts more often to people likely to respond, which the authors note can bias a sample like this one."
+  - "**Influencer familiarity not measured.** How well followers knew or liked the micro-influencers was not recorded, which the authors list as a limitation."
+  - "**Unpaid posts only.** The sample covered unpaid posts on each brand's Page, not paid ads, so promoted posts may behave differently."
+
+faq:
+  - q: "Which type of brand post works best on Facebook?"
+    a: "Simple photo posts. Measured against the number of fans, posts centred on a photo or picture outperformed text-only, link and video posts in a content analysis of 600 posts from 18 popular Greek brand Pages (Drossos et al., 2024)."
+  - q: "Do calls to action help engagement on Facebook?"
+    a: "Not in this sample. Posts that asked people to visit a website, like, comment or join a contest drew fewer Likes and fewer positive reactions than posts that asked for nothing."
+  - q: "What is the best time for a brand to post on Facebook?"
+    a: "There was no single best hour. Posts in working hours did no better than those at other times, and weekday posts gained only in positive reactions. The authors advise each brand to test times against its own audience data."
+  - q: "Should brand posts be emotional or informational?"
+    a: "Both have a role. Emotional posts won extra Likes and more positive reactions, while factual posts with longer captions drew more comments."
+  - q: "Do influencers increase engagement on brand Facebook posts?"
+    a: "Not on this evidence. Posts featuring micro-influencers drew fewer Likes and comments than posts without any endorser or posts with a celebrity, though only a handful of posts used one."
+
+also:
+  - doi: "10.1177/10949968231191097"
+    title: "Designing Brand Cocreation Activities to Increase Digital Consumer Engagement"
+    authors: "Dretsch, Kirmani, & Lundberg"
+    journal: "Journal of Interactive Marketing"
+    year: 2024
+    text: >-
+      Brand co-creation campaigns invite consumers to take part in activities that interpret the brand's image. Three
+      experiments found that activities with a strong focus on what the brand means led to more digital engagement, such
+      as liking the brand on Facebook, but only among consumers with high self-brand connection. Such activities
+      seemed to help these people form more abstract knowledge about the brand. For people with a low connection, the
+      focus made no difference, since they lacked enough knowledge of the brand. Campaigns that ask what a brand means
+      are likely to suit existing fans best.
+  - doi: "10.1002/mar.21920"
+    title: "To be real or not to be real? The effect of genuine (vs. nongenuine) depictions of social media influencers on followers' well-being and brand purchase intention"
+    authors: "Claeys, Charry, & Tessitore"
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      More influencers now post unfiltered, less polished pictures of themselves. In an experiment with 171 people and
+      a second study with 154, genuine pictures led followers to compare themselves less with the influencer, which
+      raised their self-esteem and well-being and lifted purchase intention for the promoted brand. Men also reported a
+      greater intention to buy when a male influencer looked genuine, although for them the drop in comparison was not
+      the reason. Fewer filters can serve the brand and the audience at once.
+
+charts:
+  formats:
+    title: "Engagement per page fan, by post format (average; 0.002 = two interactions per thousand fans)"
+    scale: [0, 0.0025]
+    step: 0.0005
+    unit: ""
+    decimals: 4
+    bars:
+      - ["Text only", 0.0002, false]
+      - ["Photo or picture", 0.002, true]
+      - ["Links, URLs or hashtags", 0.0007, false]
+      - ["Video", 0.0008, false]
+    source: "Content analysis of 600 brand posts, results for format (H1). Engagement is reactions, comments and shares divided by the Page's fans when the post went up."
+  prompts:
+    title: "Average Likes and positive reactions per post, with and without prompts to act"
+    scale: [0, 600]
+    step: 100
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Likes, no links or prompts", 506.89, true]
+      - ["Likes, asks people to act", 273.39, false]
+      - ["Love, Haha or Wow, no prompts", 69.20, true]
+      - ["Love, Haha or Wow, asks to act", 27.40, false]
+    source: "Content analysis of 600 brand posts, results for interactivity (H2). Asking people to act means requests to visit a site, like, comment or enter a contest."
+
+related_pages: []
