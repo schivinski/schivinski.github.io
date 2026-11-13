@@ -1,0 +1,243 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 45                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-10-29"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: review-negativity-cultures
+status: live
+
+title: "Are negative online reviews more helpful, and does culture change the answer? What a Journal of Consumer Behaviour study found"
+dek: >-
+  On Amazon's Indian and US sites, reviews in critical language collected more helpful votes. In an experiment with
+  five reviews of one phone, Americans found the glowing set both more useful and more concrete than Indian participants did.
+short_title: "Negative reviews, helpful votes and culture"
+
+description: >-
+  Shah et al. find negative wording drew more helpful votes on Amazon in India and the US, yet in an experiment
+  Americans rated glowing phone reviews most useful.
+
+keywords: [online reviews, review helpfulness, negative reviews, review sentiment, review subjectivity, concrete language,
+  cross-cultural marketing, individualism and collectivism, Amazon reviews, India and US shoppers, review ranking,
+  Journal of Consumer Behaviour]
+topics: [UGC, Retail]
+
+image:
+  file: 2023-review-negativity-cultures.jpg
+  og: 2023-review-negativity-cultures-og.jpg
+  alt: "A woman with short fair hair, a dark green padded coat and a mustard top studies a glossy blue folder in a brightly stocked stationery shop, with shelves of yellow, pink and purple files beside her"
+  caption: "Checking a product closely before buying, the moment reviews are meant to help with. Photo: Daria Trofimova on Unsplash."
+
+short_answer: >-
+  It depends on where you look. In 99,746 Amazon reviews from India and the US, reviews written in more negative
+  language drew more helpful votes in both countries. Yet when 234 Americans and Indians rated sets of five phone
+  reviews, critical ones came out least helpful. Americans rated the positive and mixed sets higher than Indians did,
+  and for Americans alone, how concrete the reviews seemed explained part of their preference for positive over negative ones.
+
+takeaways:
+  - "Across 30,180 reviews on Amazon India and 62,253 on Amazon US, more negative wording went with more helpful votes on both sites, once review length and product price were allowed for."
+  - "Shown five glowing reviews of a phone, Americans rated them 5.73 out of 7 for helpfulness, the top score in the experiment; Indians gave the same reviews 4.87."
+  - "Five critical reviews scored 4.74 with Americans and 4.49 with Indians, and the two scores did not differ significantly."
+  - "Americans placed the glowing reviews at 2.98 on a 1-to-9 scale where 1 means very concrete, while Indians put them at 4.25."
+
+paper:
+  doi: "10.1002/cb.2277"
+  title: "Looking for negativity! How review sentiment and review subjectivity form review helpfulness across cultures"
+  authors: ["Shah, A.", "Gohary, A.", "Lie, D."]
+  authors_full: ["Aakash Shah", "Ali Gohary", "David Lie"]
+  year: 2024
+  journal: "Journal of Consumer Behaviour"
+  volume: "23"
+  issue: "3"
+  pages: "1193-1207"
+  online: "2023-10-29"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Aakash Shah"
+      affiliation: "Department of Accounting, Data Analytics, Economics and Finance, La Trobe Business School, La Trobe University, Melbourne, Victoria, Australia"
+      orcid: "0000-0003-4596-0163"
+    - name: "Ali Gohary"
+      affiliation: "Department of Management and Marketing, La Trobe Business School, La Trobe University, Melbourne, Victoria, Australia"
+      orcid: "0000-0002-3567-9573"
+    - name: "David Lie"
+      affiliation: "Department of Marketing, Monash Business School, Monash University, Melbourne, Victoria, Australia"
+      orcid: "0000-0001-7291-597X"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two studies: Study 1 secondary data, 99,746 reviews scraped from Amazon.in and Amazon.com (30,180 India and 62,253 US in the models; negative binomial causal mediation); Study 2 online experiment with 234 US and Indian MTurk workers (3 x 2 between subjects, PROCESS Model 8); the 89-person sentiment pretest is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Aakash Shah and Ali Gohary of La Trobe University and
+      David Lie of Monash University, both in Melbourne, looked at a feature most
+      shoppers use without thinking: the button that marks a review as helpful. Big retailers run separate sites for
+      different countries, and each site mostly shows reviews written by local customers. They asked whether
+      the reviews people find useful differ between an individualist culture, the US, and a collectivist one, India.
+
+      Their focus was on two features of a review's language. Sentiment is how positive or negative the wording is.
+      Subjectivity is how much the review offers opinion and feeling rather than facts, which the authors also treat as
+      the difference between abstract and concrete language. They tested whether subjectivity explains the link between
+      tone and helpfulness, and whether that explanation holds in both countries.
+    facts:
+      - ["Data", "Reviews of the same best-selling products on Amazon India and Amazon US, collected in September and October 2021"]
+      - ["Participants", "US and Indian adults recruited for the experiment through CloudResearch, which draws on Mechanical Turk"]
+      - ["What changed", "In the experiment, whether five reviews of a phone were all positive, all negative or mixed"]
+      - ["Measured", "Each Amazon review's count of helpful votes; in the experiment, a six-item helpfulness rating and a concrete-to-abstract rating after each review"]
+      - ["Analysis", "Negative binomial causal mediation for the Amazon data; moderated mediation (PROCESS Model 8) for the experiment"]
+
+  - h: "Study 1: helpful votes on real Amazon reviews"
+    body: |
+      The team picked top-selling products in 14 categories, from tablets, smartwatches and headphones to pet supplies,
+      backpacks and shoes, and gathered every review of the same items on Amazon.in and Amazon.com. Roughly one review in
+      three came from the Indian site, the rest from the US site.
+
+      Software scored the language of each review. VADER, a widely used sentiment tool, scored its tone, and the
+      TextBlob library rated how subjective it was. The outcome was the number of people who had
+      marked the review as helpful. Most reviews collected very few such votes: the average was 1.14, although one review
+      had 985. The models allowed for review length, which averaged 36.01 words, and for the price of the product.
+
+  - h: "Critical wording drew more votes on both sites"
+    body: |
+      On each site, the more positive a review's wording, the fewer helpful votes it received. The coefficients were
+      −0.47 for India and −0.26 for the US, both significant at p < .001. More positive reviews were also more
+      subjective in both countries.
+
+      Subjectivity is where the two markets parted. On the US site, more opinionated reviews collected more helpful
+      votes, and the mediation test showed that subjectivity carried part of the relationship between sentiment and votes
+      (p = .001). On the Indian site, subjectivity was not reliably linked to votes (p = .221), so it did not explain
+      how tone related to helpfulness there.
+
+  - h: "Study 2: five reviews of the same phone"
+    body: |
+      Study 2 took the question into a controlled setting. Participants saw a photo of a mobile phone and read five reviews
+      written by the researchers. Depending on the group, every review was critical, every review was glowing, or each
+      one set a good point against a bad one. In a separate check, 89 Americans rated the tone of the sets, and the
+      critical set came across as clearly the most negative.
+
+      After each review, people rated how concrete or abstract its language was. They then rated the set on six
+      helpfulness items, such as whether the reviews were believable, relevant and practical. Of 279 people recruited,
+      45 failed an attention check. The rest averaged 40.22 years of age, and 98 of them were women.
+
+      Across both countries, positive sets scored 5.13 and mixed ones 5.03, against 4.60 for negative
+      ones. Americans also found the reviews more helpful overall than Indians did, 5.25 against 4.71. The
+      interaction between tone and country was not significant (p = .27). Looked at set by set, the two countries
+      differed for the positive and mixed reviews but not for the critical ones.
+    chart: helpfulness
+
+  - h: "Concrete or abstract depended on who was reading"
+    body: |
+      Ratings of concreteness differed by country, and here tone and country interacted significantly (p < .001). Americans saw the positive reviews as the most concrete and the negative ones as the most abstract.
+      Indians' averages sat closer together and ran in the opposite order for those two sets, though that within-India
+      difference was not tested. Pooling both countries, negative reviews read as the most abstract (4.23),
+      followed by mixed (3.87) and positive (3.62).
+
+      The mediation test tied this to helpfulness for Americans only. Comparing positive with negative reviews, perceived
+      concreteness accounted for some of the effect among Americans (indirect effect 0.50, 95% confidence interval 0.19 to 0.93)
+      but not for Indians (−0.14, interval −0.33 to 0.03). The index of moderated mediation, 0.65, confirmed that the two
+      groups differed. For mixed against negative reviews, that index was not significant, so concreteness did not separate the two countries there.
+    chart: abstractness
+
+  - h: "How the authors read it, and their advice"
+    body: |
+      The authors take the two studies together as evidence that tone shapes how helpful a review seems, but not always
+      in the same direction, and they count their first hypothesis as only partly supported. Among their contributions
+      they list the role of subjectivity and the way culture changes it.
+
+      For practice, they argue that retailers with country sites should tune the algorithms that decide which reviews
+      appear first, rather than apply one rule everywhere. For individualist markets such as the US, they suggest
+      featuring positive, opinionated reviews with words like "excellent" or "very good", while noting that earlier
+      research found such reviews can look unreliable or fake. For collectivist markets such as India, they suggest
+      showing some negative reviews next to positive ones, which signals credibility. Local reviews should also be
+      informative, not merely recent. Carrying these findings to countries other than India and the US is an
+      extrapolation, since only those two were tested.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Pull reviews for each country site", "Export the last 500 reviews from each country version of your shop. Keep each country in its own sheet, including the stars, the text and the helpful-vote count."]
+  - ["Tag tone and detail", "Read 100 reviews per country and tag each one twice: critical, glowing or mixed, and specific or general. Specific means it names facts, such as battery hours, fit or what broke. General means it mostly gives a feeling, like \"love it\"."]
+  - ["See what each market votes up", "For each tag, work out the average number of helpful votes per country. Write down the two kinds of review that collect the most votes in each market."]
+  - ["Set the review order country by country", "Change the default review order on each country site so those two kinds appear first. Keep at least one critical review among the first five on every product page, in every market."]
+  - ["Test the new order for four weeks", "Split visitors in one busy category per country: half see the new order, half the old one. When the four weeks are up, check which half put more items in the basket."]
+  - ["Ask reviewers for specifics", "Add two prompts to your review form: what the customer used the product for, and what they would improve. Redo the tagging every three months to see whether the votes have moved."]
+
+expect:
+  - "**Few votes per review.** Most reviews attract few or no helpful clicks, so compare kinds of review across hundreds of reviews per market rather than a handful."
+  - "**Tone alone is an unreliable guide.** Critical wording did better on the live sites but not in the controlled test, so in our reading the best order will vary with the category and the market."
+  - "**Country differences are uneven.** Americans and Indians differed in how they rated positive and mixed reviews, while critical reviews were rated much alike in both groups."
+  - "**Specific detail is a sensible bet.** For American readers, reviews that seemed concrete were judged more useful. Nudging reviewers towards facts is cheap to try; we infer this, as it was not part of either study."
+
+limits:
+  - "**Two countries.** India and the US stand in for collectivist and individualist cultures; other countries in either group could respond differently."
+  - "**One platform.** The review data came from Amazon only, so, as the authors note, local platforms and how far people trust them were not compared."
+  - "**One phone, written reviews.** The experiment used five researcher-written reviews of a single phone and an online panel."
+  - "**Language scored by software.** On the Amazon data, tone and opinion were measured by text-analysis tools, and concreteness in the experiment rested on one rating per review."
+  - "**Broad tone, products only.** Specific emotions such as anger or joy were not separated, and reviews of services were not studied; the authors expect services to differ."
+
+faq:
+  - q: "Are negative reviews more helpful than positive ones?"
+    a: "On Amazon, on average, yes: on both countries' sites, reviews in more negative language attracted more helpful votes after allowing for length and price. In an experiment using sets of phone reviews, though, the critical set was rated least helpful (Shah et al., 2024)."
+  - q: "Does culture affect how shoppers judge online reviews?"
+    a: "In this research it did. Americans rated positive and mixed review sets as more helpful than Indians did, while both groups judged critical reviews much alike. Only for Americans did a sense that the reviews were concrete explain why positive ones beat negative ones."
+  - q: "What is review subjectivity?"
+    a: "How much a review deals in opinions and feelings rather than facts. Software scored it on the Amazon reviews; in the experiment, readers rated each review on a scale from very concrete to very abstract."
+  - q: "Should a global retailer show the same reviews in every country?"
+    a: "The authors advise against a single rule. They suggest tuning review-ranking algorithms country by country: positive, opinionated reviews for US-style audiences, and some negative reviews alongside positive ones for Indian shoppers, as a sign of credibility."
+
+also:
+  - doi: "10.1177/00222429231207636"
+    title: "How High-Arousal Language Shapes Micro- Versus Macro-Influencers’ Impact"
+    authors: "Cascio Rizzo et al."
+    journal: "Journal of Marketing"
+    year: 2024
+    text: >-
+      Highly excited wording in sponsored posts helped micro-influencers and hurt macro-influencers. Automated
+      analysis of thousands of Instagram and TikTok posts, together with controlled experiments, traced the split to
+      trust: high-arousal language made smaller creators seem more trustworthy and bigger ones less so. Large accounts
+      could reduce that drop by giving both pros and cons, or by presenting the post as informative rather than commercial.
+      Excited copy that helps a small creator can count against an account with millions of followers.
+  - doi: "10.1177/00222437231207323"
+    title: "Buying Future Endorsements from Prospective Influencers on User-Generated Content Platforms"
+    authors: "Lanz, Goldenberg, Shapira, & Stahl"
+    journal: "Journal of Marketing Research"
+    year: 2024
+    text: >-
+      Established influencers are costly and often tied up by existing contracts. This paper proposes signing users a few
+      months after they join a platform, for endorsements more than a year later, while they are still unknown. Very few
+      newcomers ever become influencers, so the authors developed a framework for that rare event and tested it in simulations
+      on data from a leading global audio platform. With a return of about three times the spend, managers could capture
+      around 20% of the profit potential in each wave of new users. Scouting creators early asks for patience, and the authors argue it can cut
+      costs substantially.
+
+charts:
+  helpfulness:
+    title: "How helpful a set of five phone reviews seemed, by tone and country (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["US, positive reviews", 5.73, true]
+      - ["India, positive reviews", 4.87, false]
+      - ["US, mixed reviews", 5.49, false]
+      - ["India, mixed reviews", 4.73, false]
+      - ["US, negative reviews", 4.74, false]
+      - ["India, negative reviews", 4.49, false]
+    source: "Study 2, US and Indian MTurk workers, means printed in the text. The countries differed for positive (p = .007) and mixed (p = .008) reviews, not for negative ones (p = .38)."
+  abstractness:
+    title: "How abstract the reviews seemed, by tone and country (1 = very concrete, 9 = very abstract)"
+    scale: [1, 9]
+    step: 2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["US, positive reviews", 2.98, true]
+      - ["India, positive reviews", 4.25, false]
+      - ["US, mixed reviews", 4.06, false]
+      - ["India, mixed reviews", 3.68, false]
+      - ["US, negative reviews", 4.67, false]
+      - ["India, negative reviews", 3.78, false]
+    source: "Study 2, means printed in the text; lower means more concrete. The countries differed for positive (p < .001) and negative (p = .003) reviews, not for mixed ones (p = .20)."
+
+related_pages: []
