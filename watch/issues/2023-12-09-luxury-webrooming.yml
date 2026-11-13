@@ -1,0 +1,257 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 51                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-12-09"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: luxury-webrooming
+status: live
+
+title: "Why do luxury shoppers research online and then buy in the store? What a Journal of Consumer Behaviour study found"
+dek: >-
+  Plenty of luxury shoppers look an item up on their phone and then go to the boutique to buy it. A survey of shoppers at
+  luxury stores in four Indian cities ties that habit to wanting to handle the product and deal with staff, and finds that
+  online reviews and online risk change how strongly it holds.
+short_title: "Why luxury shoppers look online, then buy in store"
+
+description: >-
+  Akram & Lavuri find luxury shoppers who need to touch products and talk to staff look items up online before buying in
+  store, and reviews shape that habit.
+
+keywords: [webrooming, luxury webrooming, research online buy offline, showrooming vs webrooming, luxury retail,
+  omnichannel luxury, need for touch, online reviews luxury, perceived online risk, hedonic and utilitarian value,
+  Indian luxury market, Journal of Consumer Behaviour]
+topics: [Retail, Search]
+
+image:
+  file: 2023-luxury-webrooming.jpg
+  og: 2023-luxury-webrooming-og.jpg
+  alt: "A white grained-leather handbag with an asymmetric flap and a silver turn-lock clasp hangs from a brushed metal stand in a shop window, a dim boutique with wall shelves and stone arches glowing amber behind the glass"
+  caption: "A bag in a boutique window, often the last stop after a search on a phone. Photo: Jametlene Reskp on Unsplash."
+
+short_answer: >-
+  Mainly because they want to touch the product and talk to someone who sells it. In a survey of 431 luxury fashion
+  shoppers approached while visiting luxury boutiques in four major Indian cities, those two wishes were the traits tied
+  directly to checking items on the internet before a store purchase. Online reviews and the sense of risk in buying
+  online then changed how strongly the value people saw in luxury led to that habit.
+
+takeaways:
+  - "Online reviews of luxury items scored 4.49 out of 5 for usefulness, the highest average of the 22 survey statements reported."
+  - "Shoppers agreed at 4.22 out of 5 that they hesitate to buy a luxury item they cannot touch in the shop, and this need for touch had the strongest direct link to webrooming of the four drivers tested."
+  - "Only 2 of the 4 drivers, the need for touch and the desire for contact with salespeople, were linked directly to webrooming. Easy and useful online search had no direct link; their influence ran through enjoyment and perceived quality."
+  - "The route through practical value (quality, design, durability) carried an estimate of 0.245, more than double the 0.105 through the pleasure of shopping for luxury."
+
+paper:
+  doi: "10.1002/cb.2295"
+  title: "Understanding the consumer's luxury webrooming intention: Moderating role of perceived risk and review"
+  authors: ["Akram, U.", "Lavuri, R."]
+  authors_full: ["Umair Akram", "Rambabu Lavuri"]
+  year: 2024
+  journal: "Journal of Consumer Behaviour"
+  volume: "23"
+  issue: "3"
+  pages: "1602-1619"
+  online: "2023-12-09"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Umair Akram"
+      affiliation: "The Business School, RMIT University, Ho Chi Minh, Vietnam"
+      orcid: "0000-0002-9980-6164"
+    - name: "Rambabu Lavuri"
+      affiliation: "Department of Marketing, Indian Institute of Management-Jammu, Jammu, India"
+      orcid: "0000-0002-0976-8126"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One cross-sectional, face-to-face survey of 431 luxury fashion shoppers at luxury stores in Hyderabad, Mumbai, Chennai and Delhi (purposive sample), analysed with covariance-based SEM in AMOS and PROCESS Models 4 and 14; the 91-person pilot is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Umair Akram of the Business School at RMIT University in Ho Chi Minh City, Vietnam, and
+      Rambabu Lavuri of the Indian Institute of Management Jammu's marketing department
+      examined a habit luxury retailers know well. Shoppers look a product up online, compare details and read what others
+      say about it, then go to a store to buy. This is called webrooming. The reverse, showrooming, means examining an item in
+      a store and then ordering it online.
+
+      India suited the question. In the authors' account it is one of the fastest-growing luxury markets, with internet use
+      climbing fast, and the industry figures they cite show that most luxury purchases worldwide still happen in stores.
+
+      They tested four possible drivers of webrooming. Two are personal traits: the need to touch a product before buying it
+      and the need to deal with sales staff. Two concern the online channel: whether searching online feels easy and whether
+      it feels useful. Each driver could act directly, or through the value shoppers see in luxury, either hedonic (the pleasure of buying it) or utilitarian (quality, design and
+      durability). Lastly, they asked whether perceived online risk and online reviews change how strongly that value leads
+      to webrooming.
+
+      The model joins two established frameworks. The technology acceptance model explains the take-up of technology
+      through ease of use and usefulness. The second, the stimulus-organism-response framework, holds that cues in the environment shape
+      inner states, which in turn shape behaviour.
+    facts:
+      - ["Participants", "431 luxury fashion shoppers who look items up online and buy in store: 241 women and 190 men"]
+      - ["Where", "Premier luxury retail stores in Hyderabad, Mumbai, Chennai and Delhi, with the questionnaire handed out in person"]
+      - ["Screening", "Questions on the luxury fashion brands people owned and whether they search online before buying in a store"]
+      - ["Measured", "Need for touch, need for interaction, ease and usefulness of online search, hedonic and utilitarian value, perceived online risk, online reviews and webrooming intention, all on 1 to 5 agreement scales"]
+      - ["Checks", "Two luxury marketing professors and two senior luxury marketers reviewed the questions, and a pilot with 91 people tested them"]
+      - ["Analysis", "Structural equation modelling in AMOS, then PROCESS Models 4 and 14, each bootstrapped 5,000 times, for the indirect and moderated effects"]
+
+  - h: "What the shoppers said"
+    body: |
+      The plain answers come first. Agreement ran high for statements about handling products and dealing with staff.
+      People enjoyed interacting with those who sell luxury goods (4.46 on the 1 to 5 scale) and would rather speak to a
+      salesperson than use a machine for a luxury purchase (4.23).
+
+      How useful people found online search was measured with three statements, all about reviews, such as whether reviews
+      make someone a smarter luxury shopper (4.37). Statements about researching online first drew more moderate agreement,
+      between 3.79 and 3.89. The practical claims about luxury goods drew the least: 3.59 for both higher quality and
+      greater durability.
+    chart: answers
+
+  - h: "Touch and personal service come first"
+    body: |
+      The structural model gives each link a standardised path coefficient. A coefficient of 0 indicates no association and a
+      larger one a closer link, which lets the values be ranked against each other inside this model. They describe how
+      answers moved together across shoppers; a survey of this kind cannot prove that one thing causes another.
+
+      Of all four drivers, need for touch showed the largest direct coefficient with webrooming intention, 0.254. It also
+      went with both kinds of value, more closely with practical value (0.195). The need for interaction with staff was linked directly to
+      webrooming too (0.119), and to both values.
+
+      The authors' explanation centres on risk. Luxury goods are expensive purchases that people think hard about. Handling
+      the item lowers the chance of buying the wrong thing, and well-informed staff give advice that a website cannot. So
+      shoppers who value both look things up online and then finish the purchase where they can get them.
+
+  - h: "Online search works through value"
+    body: |
+      The two channel factors behaved differently. Finding luxury information online easily was linked to enjoying luxury
+      shopping more (0.203), but it had no significant link to practical value or to webrooming itself. Finding online search
+      useful was linked to practical value (0.228), but not to enjoyment or to webrooming directly.
+
+      The authors suggest that easy access to product information is now so common that it no longer sets a channel apart,
+      and that luxury buyers research thoroughly whatever the effort involved. The indirect routes from the four drivers to
+      webrooming were significant through both kinds of value. Taken together, the drivers and values accounted for 66.4%
+      of how much webrooming intention varied from one shopper to the next.
+
+  - h: "Reviews and risk change how strongly value leads to webrooming"
+    body: |
+      A moderator is a factor that changes how strongly one thing is tied to another. Both factors the authors tested did
+      this for both kinds of value, and all four estimates were statistically significant. The largest was for online
+      reviews on the practical-value route. Our own interpretation, not something the survey checked, is that reviews count
+      most for shoppers who weigh quality and design.
+
+      Perceived online risk covers worries such as receiving the wrong product, losing money, misuse of personal data and,
+      for luxury goods in particular, counterfeits. In their implications, the authors read the result as high online risk
+      leading shoppers to gather information online and complete the purchase in person. As far as they know, no earlier
+      study had tested these two factors as moderators of the value route.
+    chart: moderators
+
+  - h: "Women and men"
+    body: |
+      The authors also ran the model for the 241 women and the 190 men on their own. Among women, need for touch
+      (0.294), need for interaction (0.217) and ease of online search (0.174) all had direct links with webrooming intention.
+      Among men, need for touch did (0.127), but the wish to deal with staff and ease of search did not.
+
+      Two possible reasons are given for the men's result. High-end shoppers often know exactly what they want
+      before they walk in, and some are put off by aggressive selling. Both are explanations put forward after the fact, not
+      findings.
+
+  - h: "The authors' advice"
+    body: |
+      For online retailers, the authors suggest tools that let people judge a product without holding it: 3D images,
+      virtual tours, augmented reality, virtual reality headsets, and AI that helps with choices such as matching a make-up
+      shade to skin tone. For stores, they mention virtual fitting rooms, in-store live streaming and AI assistants that encourage people
+      to try items on.
+
+      Because contact with staff matters to these shoppers, they advise training salespeople to build individual
+      relationships with clients rather than relying on pressure. They also recommend asking satisfied customers for reviews,
+      handling negative ones with care and bringing online information into the store, such as a fitting-room mirror that
+      shows every size and colour available online. To lower the sense of risk, they point to guaranteed authenticity,
+      secure payment, and clear prices, warranties and returns. The survey itself did not put any of these steps to the test.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Check what browsers find online", "Choose the three items that sell best and open each one's page on a phone. Check for close-up photos, exact sizes, the price, reviews and which stores have it in stock. Write down every missing piece that would make someone call or visit just to ask."]
+  - ["Ask staff what customers check by hand", "Ask your store team for the five questions customers most often ask while holding an item, such as its weight, the feel of the leather or how the clasp works. Use their list to decide what each product page must show."]
+  - ["Show the product as if in hand", "For each key item, add close-ups of the material, a short video of it being opened, carried and worn, and a photo beside a familiar object to show its size. Add a turnaround view for your top ten items first."]
+  - ["Put reassurance beside the price", "Place one short block next to every price that covers proof of authenticity, secure payment, the warranty and the returns policy. Use plain words and link to the full terms."]
+  - ["Ask for reviews after every sale", "Within a week of each purchase, in store or online, send one short message asking for a review of the item. Reply to every critical review within two working days and say what you changed."]
+  - ["Link the screen to the store", "Add a button on product pages to book a 20-minute appointment with a named adviser, with the item set aside. At the till, ask every buyer whether they looked the item up online first, and count the answers each month."]
+
+expect:
+  - "**The store keeps its role.** The shoppers most inclined to look online first were those who care about physical contact with the goods and with staff, so a strong product page is likely to bring people into a store as well as to an online basket. That is our inference."
+  - "**Speed and ease are a baseline.** Easier search made luxury shopping more enjoyable but showed no direct connection to looking online first, so better pages should help through the experience they give rather than by speed alone."
+  - "**Reviews deserve attention.** Shoppers found reviews highly useful and reviews affected how value turned into webrooming, so a neglected review section could, in our view, weaken the reasons to visit."
+  - "**Different customers, different levers.** Contact with staff had a direct link for women in this sample but not for men, so one service approach may not suit every client."
+
+limits:
+  - "**One country, one category.** The shoppers were luxury fashion buyers in four Indian cities; the authors want the model tried in other countries and product categories."
+  - "**One questionnaire, one moment.** Self-reported answers collected once reveal associations but cannot establish cause, and the authors propose longitudinal or experimental work next."
+  - "**Intentions, not visits.** People reported their plans to research online before buying; nobody's browsing or purchases were tracked."
+  - "**Recruited in stores.** Everyone was approached at luxury stores and screened as someone who looks items up online and buys in person, so people who buy only online, or never search first, were not covered."
+  - "**Estimates side by side.** We report the women's and men's estimates next to each other; they are not presented here as formal tests of whether women and men differ."
+
+faq:
+  - q: "What is webrooming?"
+    a: "Checking a product on the internet first, then purchasing it in a physical shop. In a survey of luxury fashion shoppers in India, people with a strong wish to touch products and to get help from store employees were more inclined to shop this way (Akram & Lavuri, 2024)."
+  - q: "How is webrooming different from showrooming?"
+    a: "The order of the channels. Webroomers do their homework on the internet and pay at the counter; showroomers inspect the product in person and later order it online. This survey looked only at webrooming."
+  - q: "Do online reviews matter for luxury brands?"
+    a: "On this evidence, yes. Shoppers strongly agreed that reviews of luxury items help them and make them smarter buyers, and reviews altered the strength of the tie between perceived value and plans to look online before a store purchase."
+  - q: "Why do many luxury shoppers still buy in stores?"
+    a: "High prices raise the stakes of a wrong choice, and buying online brings worries such as counterfeits. Many shoppers also want to feel the product and get advice, and in this survey both wishes went with researching online first and then buying in person."
+  - q: "Will an easier website bring more luxury shoppers into the store?"
+    a: "Not by itself, according to this survey. Ease of online search went with greater enjoyment of luxury shopping, yet it had no direct tie to the habit of researching online before a store visit. Its influence ran through that enjoyment."
+
+also:
+  - doi: "10.1177/10949968231200221"
+    title: "When Post Hoc Explanation Knocks: Consumer Responses to Explainable AI Recommendations"
+    authors: "Chen, Tian, & Jiang"
+    journal: "Journal of Interactive Marketing"
+    year: 2024
+    text: >-
+      People often distrust AI recommendations because they cannot see how the system reached them. Across four studies,
+      adding an explanation after the recommendation made it seem easier to understand, which raised trust, purchase
+      intention and click-through. The lift was larger for practical choices than for pleasure-driven ones, and the best
+      kind of explanation differed: product attributes worked better for practical decisions, details about the user for
+      hedonic ones. Telling shoppers why something was recommended pays off best when the reason suits the purchase.
+  - doi: "10.1002/mar.21943"
+    title: "Virtual agents that flatter you: Moderating effects of self-esteem and customization target in e-customization services"
+    authors: "Li, Si, & Chan"
+    journal: "Psychology & Marketing"
+    year: 2024
+    text: >-
+      Many online customisation tools now include a virtual agent that comments on the shopper's choices. In four experiments
+      that simulated customising different products, flattering feedback from the agent improved word of mouth, product
+      interest and actual purchases among people with high self-esteem, and had the opposite effect among those with low
+      self-esteem. Shoppers' involvement in the process explained the pattern, and the effects weakened when people
+      customised a product for someone else. Praise from a bot does not land the same way with every customer.
+
+charts:
+  answers:
+    title: "How strongly shoppers agreed with each statement (average, 1 = strongly disagree, 5 = strongly agree)"
+    scale: [1, 5]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Online reviews are useful to me", 4.49, true]
+      - ["I enjoy dealing with luxury sellers", 4.46, false]
+      - ["Would buy if I could touch it", 4.23, false]
+      - ["Reluctant to buy without touching", 4.22, true]
+      - ["Online research is more convenient", 3.90, false]
+      - ["I'll probably look online first", 3.83, false]
+      - ["Luxury goods last longer", 3.59, false]
+    source: "Survey of 431 luxury fashion shoppers in four Indian cities, item means from Table 3. Statements shortened; the touch items measure need for touch, the online-first item measures webrooming intention."
+  moderators:
+    title: "How much reviews and online risk changed the link from value to webrooming (standardised estimates)"
+    scale: [0, 0.3]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Reviews, practical-value route", 0.261, true]
+      - ["Reviews, enjoyment route", 0.134, false]
+      - ["Online risk, practical-value route", 0.152, false]
+      - ["Online risk, enjoyment route", 0.145, false]
+    source: "Survey of 431 luxury fashion shoppers, Table 6 (PROCESS Model 14, bootstrapped 5,000 times). All four estimates were statistically significant."
+
+related_pages: []
