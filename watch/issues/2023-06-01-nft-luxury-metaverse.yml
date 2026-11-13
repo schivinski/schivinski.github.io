@@ -1,7 +1,7 @@
 # Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
 # Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
 series: 2023
-number: 21                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+number: 20                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
 week_of: "2023-06-01"            # the day the paper was first published online (shown as "Paper published ...")
 published: "2026-11-11"          # the day this page went live (metadata only, never shown)
 slug: nft-luxury-metaverse
