@@ -1,0 +1,225 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 11                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-03-30"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: seamless-omnichannel-authenticity
+status: live
+
+title: "Does a seamless omnichannel experience make a brand seem more authentic? What a Psychology & Marketing study found"
+dek: >-
+  A discount spotted on a brand's Instagram that the shop refuses to honour. An online order the store will not take back.
+  Three experiments tested a brand whose channels work as one instead, and found shoppers judged it more genuine and grew
+  keener to buy.
+short_title: "One brand across every channel"
+
+description: >-
+  Massi et al. find a seamless omnichannel scenario made a sunscreen brand seem more authentic, lifting purchase intention
+  from 3.42 to 4.77 out of 7.
+
+keywords: [omnichannel retailing, seamless customer experience, channel integration, brand authenticity, multichannel versus
+  omnichannel, click and collect, buy online return in store, cross-channel promotions, signaling theory, brand trust,
+  purchase intention, Psychology & Marketing]
+topics: [Retail, Service]
+
+image:
+  file: 2023-seamless-omnichannel-authenticity.jpg
+  og: 2023-seamless-omnichannel-authenticity-og.jpg
+  alt: "A woman in a white face mask and black top, a pale blue paper shopping bag in her hand, looks through floral dresses on a boutique rail, with handbags and sandals on lit white shelves behind her"
+  caption: "Shoppers move between a brand's feed, its website and its shop floor within a single purchase. Photo: Arturo Rey on Unsplash."
+
+short_answer: >-
+  Yes, in these tests. People read about a visit to a sunscreen shop. When the staff honoured a discount from the brand's
+  Instagram page and offered pickup, exchange and return in store for online orders, participants judged the brand more
+  genuine and reported stronger intentions to purchase than those whose channels each kept separate rules. That sense of authenticity
+  carried the effect on buying. The boost to authenticity was weaker among people who already distrusted the brand.
+
+takeaways:
+  - "Brand authenticity ratings rose from 3.34 to 4.58 when the store matched the Instagram offer and accepted online orders back."
+  - "All 3 experiments, run in Canada, in Italy and with online workers, found higher willingness to buy under the seamless scenario."
+  - "Among 107 online workers, the boost from a seamless experience was larger when the purchase started on Instagram and ended in the store than the other way round."
+  - "In 20 interviews, shoppers linked joined-up channels with freedom, convenience and loyalty, and inconsistent ones with lower trust in the company."
+
+paper:
+  doi: "10.1002/mar.21815"
+  title: "Authentic omnichannel: Providing consumers with a seamless brand experience through authenticity"
+  authors: ["Massi, M.", "Piancatelli, C.", "Vocino, A."]
+  authors_full: ["Marta Massi", "Chiara Piancatelli", "Andrea Vocino"]
+  year: 2023
+  journal: "Psychology & Marketing"
+  volume: "40"
+  issue: "7"
+  pages: "1280-1298"
+  online: "2023-03-30"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Marta Massi"
+      affiliation: "Faculty of Business, Athabasca University, Athabasca, Alberta, Canada"
+      orcid: "0000-0003-3421-5483"
+    - name: "Chiara Piancatelli"
+      affiliation: "SDA Bocconi School of Management, Milan, Italy"
+      orcid: "0000-0003-0960-1665"
+    - name: "Andrea Vocino"
+      affiliation: "Department of Marketing, Deakin Business School, Deakin University, Melbourne, Victoria, Australia"
+      orcid: "0000-0002-5551-9059"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 4
+    basis: "One qualitative study (Study 1, 20 interviews in Italy; the paper also says it served as a pilot to refine the hypotheses) and three scenario experiments: 112 business students in Canada, 105 in Italy, 107 MTurk workers; manipulation pretests (n = 90 and n = 54) not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Marta Massi of Athabasca University,
+      Chiara Piancatelli of SDA Bocconi School of Management and
+      Andrea Vocino of Deakin University
+      compared two ways of running a brand's channels. In a multichannel setup the shop, the website and the social media
+      accounts each run on their own terms. In an omnichannel setup they are joined up, so a shopper can move between them
+      within one purchase and meet the same offer and the same rules everywhere.
+
+      Their lens was signaling theory. Shoppers cannot see how a retailer works behind the scenes, so they read what the brand
+      does as signals of what it is like. When every channel says the same thing, the signals confirm one another. When they
+      contradict each other, the shopper is left unsure. The team expected consistent signals to make the brand seem more
+      authentic, meaning genuine, true to its values and consistent over time, and that this would make people keener to buy.
+
+      They began with interviews and then ran three experiments built around Sun Gold, a sunscreen brand nobody had heard of.
+      In the first two, participants imagined standing in the shop and asking the assistant two things: could they get the 20% discount
+      they had seen on the brand's Instagram profile, and could they order online and then collect, exchange or return the item
+      in the store? In the seamless version the answer to both was yes. In the other version it was no.
+    facts:
+      - ["Interviews", "20 shoppers in Italy, aged 21 or 22, asked about buying from brands that sell in store, online and on Instagram"]
+      - ["Experiments", "112 business students in Canada, 105 international business students in Italy and 107 MTurk workers (average age 40)"]
+      - ["What changed", "Whether the brand's channels worked as one; in the third experiment, also whether the purchase began online or in the shop"]
+      - ["Measured", "Purchase intention on three seven-point items; brand authenticity on four items (continuity, uniqueness, genuineness, staying true to its values); distrust of the brand on five items"]
+      - ["Checks", "Pretests showed the seamless scenario was seen as more seamless, and that people could tell where each journey began"]
+
+  - h: "What shoppers said before any test"
+    body: |
+      Two researchers coded the interviews separately, and their coding agreed closely (an intercoder reliability of 0.90,
+      where 1 means full agreement). Being able to move freely between channels came up first. Shoppers described it as a necessity during the
+      pandemic, as a convenience, as a kind of freedom to pick how to buy, and as fair because more people could
+      reach the products.
+
+      The interviews also tied consistency to authenticity. One shopper said a company has to give the same message online and
+      in person to come across as true. Another wanted the full list of ingredients on the website, the same discounts online and
+      offline, plus the option to exchange a product however it was bought. These comments shaped the scenarios used in the
+      experiments.
+
+  - h: "A stronger intention to purchase in every experiment"
+    body: |
+      In the first experiment, run in Canada, the seamless scenario had a clear effect on both outcomes. It explained 16% of
+      the differences in stated likelihood of buying and 14% of those in perceived authenticity. Both results were
+      statistically significant.
+
+      Repeating the test with students in Italy and again with online workers gave the same result, as the chart shows.
+      Every time, the brand that honoured its own offer across channels and took back online orders in the store came out ahead.
+    chart: intention
+
+  - h: "Authenticity carries the effect"
+    body: |
+      The Italian experiment asked why. A mediation analysis split the effect of the seamless scenario on buying into two parts:
+      the share that travelled through authenticity, and whatever remained. The route through authenticity was significant, with
+      an estimate of 0.66 (95% confidence interval 0.25 to 1.15). The remaining direct effect, 0.39, was no longer
+      significant once authenticity was in the model, because its interval ran from just below zero to 0.79.
+
+      Put simply, consistency across channels raised willingness to buy chiefly by lifting how genuine the brand appeared. The third experiment found the same route through authenticity whichever channel the purchase began in.
+
+  - h: "Where the journey starts, and who already doubts the brand"
+    body: |
+      The third experiment added a second variable. Half the scenarios opened with an Instagram offer and closed in
+      the shop. The other half began in the shop, with the shopper paying on the website. The two variables interacted
+      significantly, explaining 15% of the variation in purchase intention. The paper's figure shows a wider difference
+      between the seamless and the inconsistent scenario when the journey started online. The authors connect the pattern to
+      the extra uncertainty people feel when buying online about returns, charges and after-sales service.
+
+      This study also measured how far people distrusted the brand, for instance whether they felt it did not keep its
+      promises. The more they distrusted it, the less a seamless experience lifted its authenticity. The moderation was
+      significant for journeys that began in the shop (an interaction of minus 0.68) and those that began online (minus 0.30).
+      According to the authors, a seamless experience alone is not enough to make a brand seem authentic to people who do not
+      trust it.
+
+  - h: "Advice for retailers"
+    body: |
+      The authors urge retailers to make exchange and return policies more flexible, so that items can be swapped or sent back
+      in any channel, and to build communications that show the channels are connected rather than run as separate silos.
+      They suggest treating shoppers who check products in a shop and buy online, or research online and buy in a shop, as
+      normal behaviour to support.
+
+      They also recommend telling one consistent brand story that stresses the company's values, heritage and sincerity, and
+      using the data that joined-up channels collect to keep offers consistent and to personalise them.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Shop your own brand three ways", "Buy one product online and collect it in a store. Buy another in store using an offer from your social media page. Then return an online order to a store. Note each moment where a price, an offer or a rule changed."]
+  - ["Put your channel rules in one table", "List prices, current promotions, pickup options and return terms for your store, website, app and social shop side by side. Circle every cell that differs from the others."]
+  - ["Make every offer valid everywhere", "Set each discount you post on social media to work on the website, in the app and at the till for the same dates. Send store staff the same promotion list your social team uses, on the same day."]
+  - ["Accept returns in any channel", "Let customers collect, exchange or return items in any store, wherever they bought them. Say so in one plain sentence on product pages, receipts and social posts."]
+  - ["Fix online-to-store journeys first", "Start with shoppers who move from your posts or website into a store: offers seen online, click and collect, and returns of online orders. Send a mystery shopper through these three journeys every month."]
+  - ["Ask customers whether you felt consistent", "Put two questions in your after-purchase survey: did the offer and the rules match across channels, and does this brand stay true to its values? Track both scores each month next to repeat purchases."]
+
+expect:
+  - "**Watch brand perception, not only sales.** Because the lift in buying intent came through perceived authenticity, a regular measure of how genuine customers find the brand is a sensible companion to sales figures. That suggestion is ours."
+  - "**Rules more than technology.** What participants reacted to was a matched discount and returns accepted in store, both policy decisions. Whether new systems add anything beyond that was not tested."
+  - "**Trust problems need their own fix.** For a brand customers already doubt, joined-up channels will not repair its image alone, so broken promises elsewhere have to be dealt with too."
+  - "**Investment comes first.** The authors note that building omnichannel systems takes significant investment and a cultural change as well as new processes. The study did not weigh costs against gains."
+
+limits:
+  - "**Imagined visits.** Each person read a brief account of one shop visit. Nobody bought, returned or collected anything."
+  - "**One product, one unknown brand.** A low-involvement sunscreen from an invented brand. Known brands, pricier items or riskier purchases may react differently."
+  - "**Mostly students.** Business students made up the Canadian and Italian samples, and the interviews covered 20 young Italians."
+  - "**Two countries and modest samples.** The authors describe the work as conducted in Canada and Italy, with about 105 to 112 people per experiment spread across two or four versions."
+  - "**Intentions only.** Purchase intention came from a questionnaire with no sales data, and the paper names field experiments as a next step."
+
+faq:
+  - q: "Does omnichannel retailing increase purchase intention?"
+    a: "In three scenario experiments it did. People told that a brand's discount and return rules worked the same in its shop, on its website and on Instagram expressed a stronger wish to buy than those told each channel set its own terms (Massi et al., 2023)."
+  - q: "Is multichannel the same as omnichannel retailing?"
+    a: "No. Multichannel retailers offer several channels but run each one separately, with its own offers and processes. Omnichannel retailers join them up so customers can start a purchase in one channel and finish, collect or return it in another on the same terms."
+  - q: "Why would joined-up channels make shoppers see a brand as authentic?"
+    a: "Consistent channels send consistent signals. In the authors' account, keeping the same offer and rules everywhere signals continuity and care for customers, two core parts of authenticity. In the Italian experiment, that sense of authenticity explained why seamless channels lifted purchase intention."
+  - q: "Can a seamless experience win back customers who distrust a brand?"
+    a: "This study suggests it cannot do so alone. The authenticity boost from joined-up channels was weaker for shoppers convinced the brand breaks its promises."
+  - q: "Which shopping journeys benefit most from channel integration?"
+    a: "Journeys that start online and end in a store. In the third experiment, the seamless scenario made a bigger difference when the shopper first saw the offer on Instagram than when the purchase began in the shop."
+
+also:
+  - doi: "10.1093/jcr/ucad014"
+    title: "Machine Talk: How Verbal Embodiment in Conversational AI Shapes Consumer–Brand Relationships"
+    authors: "Bergner, Hildebrand, & Häubl"
+    journal: "Journal of Consumer Research"
+    year: 2023
+    text: >-
+      AI chat interfaces that follow the habits of human conversation can bring customers closer to the brand they speak for. Across four studies, taking turns, starting the next turn and restating what the customer just said made an
+      AI interface seem more human. That humanness led to closer relationships with the brand, more accepted recommendations,
+      willingness to pay a premium, advocacy and loyalty. The gains were smaller where little mutual understanding was needed,
+      which makes complex service tasks the natural first place to try a more conversational script.
+  - doi: "10.1093/jcr/ucad017"
+    title: "How Sensory Language Shapes Influencer’s Impact"
+    authors: "Cascio Rizzo, Berger, De Angelis, & Pozharliev"
+    journal: "Journal of Consumer Research"
+    year: 2023
+    text: >-
+      Why do some sponsored influencer posts drive sales while others do not? Combining experiments with automated analysis of
+      the text, images and video in thousands of sponsored posts, the authors find that sensory words such as "juicy" or
+      "crumble" raise engagement and willingness to buy the product. Such words suggest the influencer has really used it,
+      which makes the post feel more authentic. A creator brief that asks for taste, touch or smell may achieve more than a
+      list of product features.
+
+charts:
+  intention:
+    title: "Likelihood of buying the sunscreen, by whether the brand's channels worked as one (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Canada students, not seamless", 3.42, false]
+      - ["Canada students, seamless", 4.77, true]
+      - ["Italy students, not seamless", 3.50, false]
+      - ["Italy students, seamless", 4.55, true]
+      - ["MTurk workers, not seamless", 3.19, false]
+      - ["MTurk workers, seamless", 4.55, true]
+    source: "Studies 2, 3 and 4: 112 students in Canada, 105 in Italy and 107 MTurk workers; group means as reported in the paper, each read by the authors as support for the seamless effect."
+
+related_pages: []
