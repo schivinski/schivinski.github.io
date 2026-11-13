@@ -1,0 +1,260 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+# First published online 16 September 2023 (Wiley article page "First published: 16 September 2023";
+# Crossref created and published-online 16 September 2023). Volume 40(11), November 2023, so cited as 2023.
+series: 2023
+number: 35                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-09-16"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: service-robots-hotel-ratings
+status: live
+
+title: "Do service robots lead to better hotel reviews, and when? What a Psychology & Marketing study found"
+dek: >-
+  Hotels now use robots to greet guests, carry luggage and deliver to rooms. A look at 20,166 reviews posted on
+  TripAdvisor about 19 such hotels shows that guests who write about the robot tend to rate their stay higher,
+  especially when they call it by name.
+short_title: "Service robots and hotel review ratings"
+
+description: >-
+  Borghi et al. analysed 20,166 reviews of 19 hotels with robots: reviews mentioning a robot came with higher ratings,
+  more so when the guest named it.
+
+keywords: [service robots, hotel robots, hospitality technology, online reviews, TripAdvisor ratings, customer satisfaction,
+  electronic word of mouth, customer-robot rapport, mobile reviews, review management, Psychology & Marketing]
+topics: [Service, UGC, AI]
+
+image:
+  file: 2023-service-robots-hotel-ratings.jpg
+  og: 2023-service-robots-hotel-ratings-og.jpg
+  alt: "A yellow humanoid robot with a cartoon face on its head screen holds a serving tray in a café, while a man in a black cap and white shirt sits at a table with a laptop and a drink"
+  caption: "A robot that guests remember by name goes with higher ratings. Photo: Enchanted Tools on Unsplash."
+
+short_answer: >-
+  Often, yes, under some conditions. Across TripAdvisor reviews of hotels that use service robots, guests who mentioned
+  a robot gave higher star ratings than guests who did not. The link was stronger when they called the robot by its name
+  and when they posted from a phone. It weakened as the robot took up more of the review, and how many reviews the guest
+  had written before did not matter.
+
+takeaways:
+  - "13.8% of the reviews mentioned a robot, and those reviews carried higher ratings even with the hotel's displayed score, trip type and review length taken into account."
+  - "Only 4.6% of reviews used the robot's name, yet naming it strengthened the connection between the robot and a high score."
+  - "Nearly a quarter of reviews (23.2%) came from a mobile device, and among these a robot mention went with an even better rating."
+  - "On average, sentences about the robot made up 3% of a review's text; the bigger the robot's share, the weaker its association with a top rating."
+
+paper:
+  doi: "10.1002/mar.21903"
+  title: "The impact of service robots on customer satisfaction online ratings: The moderating effects of rapport and contextual review factors"
+  authors: ["Borghi, M.", "Mariani, M. M.", "Vega, R. P.", "Wirtz, J."]
+  authors_full: ["Matteo Borghi", "Marcello M. Mariani", "Rodrigo P. Vega", "Jochen Wirtz"]
+  year: 2023
+  journal: "Psychology & Marketing"
+  volume: "40"
+  issue: "11"
+  pages: "2355-2369"
+  online: "2023-09-16"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Matteo Borghi"
+      affiliation: "Henley Business School, University of Reading, Reading, UK"
+      orcid: "0000-0002-4150-1595"
+    - name: "Marcello M. Mariani"
+      affiliation: "Henley Business School, University of Reading, Reading, UK; University of Bologna, Bologna, Italy"
+      orcid: "0000-0002-7916-2576"
+    - name: "Rodrigo P. Vega"
+      affiliation: "Henley Business School, University of Reading, Reading, UK"
+      orcid: "0000-0003-1619-317X"
+    - name: "Jochen Wirtz"
+      affiliation: "Vice Dean Graduate Studies, NUS Business School, National University of Singapore, Singapore, Singapore"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival study: 20,166 English-language TripAdvisor reviews of 19 international hotels using service robots, analysed with five ordered logit models of the same dataset"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Matteo Borghi,
+      Marcello M. Mariani and
+      Rodrigo P. Vega of the University of Reading's Henley Business School (Mariani also at the University of Bologna) joined
+      Jochen Wirtz of the National University of Singapore
+      to study the reviews hotels receive once robots join the staff. Hotels have been among the fastest adopters of
+      service robots, using them as concierges, porters and room-service carriers. Earlier work had already linked robots
+      with more satisfied guests. The open question was what makes that link stronger or weaker.
+
+      To find hotels, they ran Google searches that paired the word hotel with robot jobs such as front desk, concierge,
+      delivery, cleaning and laundry, then checked annual reports, hotel websites, social media and news coverage. A hotel
+      qualified only if it had said when its robots started work and had a TripAdvisor page. They then gathered every
+      review of those hotels and kept the English-language ones that stated the type of trip and were posted after the
+      robots arrived.
+    facts:
+      - ["Hotels", "19 international hotels with a stated start date for their robots and a TripAdvisor profile"]
+      - ["Reviews", "49,209 collected; 20,166 analysed, all in English and all posted once the robots were in service"]
+      - ["Outcome", "The overall TripAdvisor rating, from 1 (Terrible) to 5 (Excellent), used as a measure of satisfaction"]
+      - ["Robot measures", "Whether a review mentions the robot, whether it uses the robot's name, and how much of the text is about it"]
+      - ["Review context", "Whether TripAdvisor marked the review as posted via mobile, and the guest's count of earlier reviews"]
+      - ["Analysis", "Ordered logit models, which suit ratings on a ranked scale, with controls for the hotel, the trip type, review length and year"]
+
+  - h: "Turning review text into measures"
+    body: |
+      All the measures were drawn from the reviews. A review counted as a robot mention if it contained the word robot
+      or the name the hotel had given its robot. The sentences carrying either word were treated as the review's robot
+      passage, and its length was set against the length of the whole review.
+
+      Using the robot's own name stood in for rapport, meaning an enjoyable interaction that feels personal. Earlier
+      service research treats remembering a provider's name as a sign of that kind of bond. Posting from a phone was read
+      from the via mobile label TripAdvisor attaches to reviews, and reviewing experience from the number of contributions
+      on the guest's profile.
+
+      Ratings were high overall, with an average of 4.26 out of 5, close to the 4.32 average that guests saw on the hotel's
+      page before posting. Nearly all reviews (99.3%) concerned hotels that belong to a chain.
+
+  - h: "A robot mention goes with a higher score"
+    body: |
+      Reviews that mentioned a robot scored higher than reviews that did not. The result held in all five
+      models the team estimated, whichever extra factor was added, and every time it was significant at the strictest level
+      reported.
+
+      The controls tell their own story. The higher the average a guest saw before posting, the higher the rating they
+      gave. Business travellers tended to give lower ratings, and the longer the review, the lower the rating tended to be.
+
+      Because the data are observational, this is an association. Guests who had a good stay may be more inclined to write
+      about the robot in the first place.
+    chart: mention
+
+  - h: "Knowing the robot's name"
+    body: |
+      When guests wrote the robot's name, the positive link between the robot and the rating grew clearly stronger.
+      Rapport, on the authors' reading, explains the stronger link. A model of how customers accept service robots,
+      proposed earlier by one of the authors, had listed rapport as a factor that could shape the effect of robots. Its
+      role had not yet been tested with customer data, as the authors observe. The names guests mentioned most often
+      were short ones, such as Leo and Cleo.
+    chart: moderators
+
+  - h: "When the robot fills the review"
+    body: |
+      The more of a review that was about the robot, the weaker the robot's association with a high rating. Earlier evidence
+      that the authors cite shows people write longer and more detailed accounts of what went wrong than of what went right. A robot
+      that takes over the review may therefore signal a problem.
+
+      The reviews themselves pointed to such problems. Reading them, the authors found software faults that had now and
+      then sent deliveries to the wrong room or left robots stuck in lifts.
+
+  - h: "Phones and the moment of writing"
+    body: |
+      For reviews posted from a phone, mentioning the robot went with a bigger rating advantage than for reviews sent from other
+      devices. Posting from a phone did not, by itself, go with higher ratings; the difference appeared in reviews that
+      mentioned the robot.
+
+      The authors take the phone as an indicator that the review was written soon after the experience. Construal level theory
+      holds that people see events in more concrete terms when they are close in time, and earlier work has found reviews
+      posted from phones to be more extreme in either direction. A pleasant robot encounter, reported on the spot, seems to
+      count for more.
+
+  - h: "Seasoned reviewers judged the robot no differently"
+    body: |
+      The team expected guests with long review histories to be harder to impress. They were not, at least where the
+      robot was concerned: the number of past reviews did not change the robot link. Experienced reviewers did give
+      slightly lower ratings in general.
+
+      The authors suggest that review experience says little about how familiar someone is with robots, which the reviews
+      did not reveal. A first-time reviewer might even have posted only because of the robot.
+
+  - h: "What the authors advise hotels"
+    body: |
+      The advice follows the findings. Keep robots in guest-facing roles. Design them so guests can build rapport, with
+      more personal conversation, some personality and a name guests can spot and recall easily. Prompt guests to review
+      from their phones after a good experience, for example through a text message from the customer relationship
+      system, a robot that offers to pose for a photo, or a polite request for a TripAdvisor review. Give unhappy guests a
+      direct way to complain by phone, text or email.
+
+      For failures, the authors recommend a dashboard that tracks how the robots perform, timing thresholds for
+      delivery robots, and a staff member who steps in when a robot falls short. These recommendations were not evaluated in the
+      paper. One wider point comes from us, not from the data: the robot is now part of what a hotel's reviews say
+      about it, so it deserves a place in review monitoring alongside rooms, staff and breakfast.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Give your robot a short name", "Choose a name of one or two syllables. Show it on the robot's body, on its screen and in its greeting. Ask three colleagues to recall it the next day, and pick a simpler name if anyone cannot."]
+  - ["Script a few personal exchanges", "Write five lines the robot can use to greet guests, say its name and ask how their stay is going. Add one line that invites guests to take a photo with it."]
+  - ["Set a time limit and a human backup", "Decide the longest acceptable wait for a robot delivery, for example 15 minutes, and log every run on a simple dashboard. When a run goes over the limit or the robot stops, send a staff member at once."]
+  - ["Send the review link to guests' phones", "Text every guest a direct link to your review page on the day they check out. Keep the message to two lines so it reads well on a small screen, and make the link open straight on the review form."]
+  - ["Add a direct line for problems", "In the same message, give a phone number or email address for anything that went wrong, and reply within one working day. Offer it alongside the review link, never instead of it, and send the link to every guest, not only the happy ones."]
+  - ["Search your reviews for the robot each month", "Look through new reviews for the word robot and for its name. Count how many mention it and how many use the name. Start with the reviews where the robot takes up several sentences, and fix the problems they describe."]
+
+expect:
+  - "**A positive link is the usual case.** The authors note that hotels tend to deploy robots that meet guests' expectations, which is why they treat the positive association as the baseline. A robot that often lets guests down cannot count on it."
+  - "**Few guests will learn the name.** Most reviews never mentioned the robot at all, and naming was rarer still, so any benefit from rapport rests on a minority of guests."
+  - "**Long robot passages repay a close read.** They tend to describe something that went wrong, which makes them a ready list of fixes."
+  - "**Phone reviews can be more extreme.** If posting on the spot amplifies feelings, it may amplify a bad encounter as much as a good one. That point is ours; the paper tested the effect for robot mentions in general."
+
+limits:
+  - "**Links, not causes.** Ratings and review texts were observed rather than manipulated, so the robot cannot be shown to have raised any score."
+  - "**Only guests who post.** Reviews may over-represent very good and very bad stays; the authors suggest intercept surveys to reach the rest."
+  - "**Indirect measures.** Rapport was inferred from use of the robot's name and immediacy from the mobile label, so neither was measured directly."
+  - "**Hotels and English-language reviews only.** Healthcare, legal and financial services, where robots are also spreading, were not covered."
+  - "**Robot features left out.** How human-like, warm or gendered a robot seems was not modelled, and guests' age and gender were missing too often to include."
+
+faq:
+  - q: "Do service robots improve hotel ratings?"
+    a: "They go together. In TripAdvisor reviews from hotels using robots, guests who wrote about the robot gave higher ratings than other guests (Borghi et al., 2023). The pattern is an association and does not prove that the robot caused the better score."
+  - q: "Why does it matter whether guests know the robot's name?"
+    a: "Remembering a service provider's name is a sign of rapport, a pleasant interaction with a personal touch. Guests who named the robot showed a stronger robot advantage in their ratings than guests who only mentioned a robot."
+  - q: "Are reviews written on a phone different?"
+    a: "Here they were. Posting from a phone strengthened the association between a robot mention and the score. The authors see the phone as a marker of a review written close to the stay, when reactions are more intense."
+  - q: "Do experienced reviewers judge hotel robots more harshly?"
+    a: "No. The number of reviews a guest had posted before did not change how the robot related to their rating, even though experienced reviewers rated a little lower overall."
+  - q: "What should a hotel do when guests write a lot about its robot?"
+    a: "Treat it as an early warning. Reviews that dwelt on the robot showed less of the rating advantage, and the authors recommend live performance tracking, delivery time limits and a staff member ready to step in."
+
+also:
+  - doi: "10.1177/00222429231203699"
+    title: "Making Sense? The Sensory-Specific Nature of Virtual Influencer Effectiveness"
+    authors: "Zhou, Yan, & Jiang"
+    journal: "Journal of Marketing"
+    year: 2024
+    text: >-
+      Consumers think virtual influencers can judge how a product looks or sounds about as well as a human influencer, but
+      not how it feels, smells or tastes. When an endorsement leans on those senses, people find the experience harder to
+      imagine, and their purchase intention is lower than when a human gives the same endorsement. The drop fades when the endorsement
+      focuses on sight or sound, leaves the senses out, or explains technology that lets the virtual influencer sense touch,
+      smell or taste. Products sold on texture, scent or flavour may be better served by a human face.
+  - doi: "10.1080/00913367.2023.2250830"
+    title: "Advertising Meat Alternatives: The Interactive Effect of Regulatory Mode and Positive Emotion on Social Media Engagement"
+    authors: "Septianto & Mathmann"
+    journal: "Journal of Advertising"
+    year: 2024
+    text: >-
+      Social media ads for meat alternatives drew more engagement when the style of the message matched the emotion it
+      carried. In social media data (966 cases) and three Facebook ad experiments with 1,359 people, action-focused messages
+      worked best with love and evaluative, weigh-it-up messages with awe, lifting sharing and click-through. The match made
+      the message feel right to readers. Wording, emoji and images are worth planning together rather than one at a time.
+
+charts:
+  mention:
+    title: "Link between mentioning a robot and the rating, in each model (ordered logit coefficients)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Model 1, with the name test", 0.27, false]
+      - ["Model 2, with robot share of text", 0.36, false]
+      - ["Model 3, with mobile posting", 0.54, false]
+      - ["Model 4, with review history", 0.41, false]
+      - ["Model 5, all four together", 0.37, true]
+    source: "Table 4, 20,166 reviews; every value significant at p < 0.001. Each model also controls for the hotel, its displayed average rating, trip type, review length and year."
+  moderators:
+    title: "How each factor changed the robot-rating link (ordered logit interaction terms)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Guest used the robot's name", 0.49, true]
+      - ["Posted from a mobile device", 0.28, false]
+      - ["Number of past reviews", 0.01, false]
+    source: "Table 4, Models 1, 3 and 4, one factor at a time; the first two were significant, the third was not. The robot's share of the review (Model 2) had a negative value, -0.60, not drawn. Tested together in Model 5: 0.50, 0.32, -0.03 and -0.55."
+
+related_pages: []
