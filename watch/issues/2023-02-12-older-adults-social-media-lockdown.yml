@@ -1,0 +1,258 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 5                       # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-02-12"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: older-adults-social-media-lockdown
+status: live
+
+title: "How do people over 65 use social media to stay connected? What a Journal of Interactive Marketing study found"
+dek: >-
+  Lockdown moved much of older people's social life onto video calls and group chats. Interviews with Britons over 65,
+  and what members of an online community for older people wrote, show how they chose their apps, taught each other and
+  leaned on them through loneliness and loss.
+short_title: "How over-65s used social media in lockdown"
+
+description: >-
+  Wilson-Nash et al. find Britons aged 65 to 80 stuck to a few chosen apps and devices in lockdown, and learned to use
+  them by helping each other.
+
+keywords: [older consumers and social media, seniors on social networking sites, older adults video calls,
+  digital inclusion of older people, social well-being, selective optimization with compensation, COVID-19 lockdown,
+  netnography, WhatsApp older users, peer technology support, transformative service research,
+  Journal of Interactive Marketing]
+topics: [Social media, Service]
+
+image:
+  file: 2023-older-adults-social-media-lockdown.jpg
+  og: 2023-older-adults-social-media-lockdown-og.jpg
+  alt: "An older woman with white hair and glasses smiles at a video call on a phone held up for her by a helper in a face mask and a patterned scarf"
+  caption: "During lockdown, a screen was often the only way to see family, and help to use it came from others. Photo: Georg Pflueger on Unsplash."
+
+short_answer: >-
+  Selectively, and with help from each other. In 14 video interviews with UK adults aged 65 to 80 and six months of posts
+  on a forum for older people, the researchers found three habits. People chose a few platforms for clear jobs, each on a
+  preferred device, and kept to the friends they already had. They learned by trial and error and from peers. And they
+  used the platforms to offset isolation and grief.
+
+takeaways:
+  - "Every interviewee reported using social networks more in lockdown to make up for lost face-to-face contact, and 10 of the 14 used them every day."
+  - "WhatsApp was the favourite platform of 8 of the 14 interviewees, well ahead of Facebook with 3. Twitter, YouTube, FaceTime and Zoom were named once each."
+  - "A forum post from someone unsure what Zoom even was drew 24 replies, with many members offering information and stories of their own Zoom use."
+  - "In one circle of about 8 friends that moved its pub evenings onto Zoom, 7 learned to use it. The one who refused had not been seen by the organiser for a year."
+
+paper:
+  doi: "10.1177/10949968231155156"
+  title: "Selecting, Optimizing, and Compensating During Lockdown: How Older Consumers Use Social Networking Services to Improve Social Well-Being"
+  authors: ["Wilson-Nash, C.", "Pavlopoulou, I.", "Wang, Z."]
+  authors_full: ["Carolyn Wilson-Nash", "Ismini Pavlopoulou", "Zilin Wang"]
+  year: 2023
+  journal: "Journal of Interactive Marketing"
+  volume: "58"
+  issue: "2-3"
+  pages: "301-320"
+  online: "2023-02-12"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (SAGE author notes; no ORCID iDs printed)
+    - name: "Carolyn Wilson-Nash"
+      affiliation: "Stirling Management School, University of Stirling, UK"
+      orcid: ""
+    - name: "Ismini Pavlopoulou"
+      affiliation: "Stirling Management School, University of Stirling, UK"
+      orcid: ""
+    - name: "Zilin Wang"
+      affiliation: "Stirling Management School, University of Stirling, UK"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One qualitative study, as the authors present it, in two phases analysed together: 14 semistructured video interviews with UK adults aged 65 to 80, and a covert netnography of a public forum for older people (622 threads and 42,318 posts downloaded, 346 threads and 21,895 posts kept, September 2020 to March 2021); reflexive thematic analysis"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Carolyn Wilson-Nash,
+      Ismini Pavlopoulou and
+      Zilin Wang
+      of the University of Stirling's management school in Scotland looked at what lockdown did to older
+      people's social lives online. With shops, clubs and pubs closed, contact with family and friends moved largely onto
+      apps. By 2020, the authors note, 60% of Britons aged 65 to 74 had a social media profile. Yet marketing research
+      had said little about how this age group uses social networks or what that use does for them: the authors' own
+      review turned up only nine marketing articles on the subject.
+
+      The team worked in two phases. First, they interviewed UK residents over video call about their devices, the
+      platforms they used, what worried them and how lockdown had changed their social lives. Second, without taking
+      part, they collected posts from a public online forum for older people. Usernames were replaced and every quote was
+      paraphrased, so nothing could be searched back to its writer.
+
+      Two researchers coded the material and a third checked the resulting themes. Early on, the codes lined up with a
+      model from the study of ageing called selective optimization with compensation, which describes how people adjust
+      their goals and resources as they grow older. The analysis then traced how each of its three strategies related to
+      five parts of social well-being.
+    facts:
+      - ["Interviewees", "14 UK residents aged 65 to 80, seven men and seven women, on video calls lasting 45 to 75 minutes"]
+      - ["Who could take part", "People aged 65 or over who had lived in the UK for at least 20 years, owned a device and already used social media"]
+      - ["Forum data", "622 threads and 42,318 posts from 11 of the forum's 52 topics, September 2020 to March 2021, cut to 346 threads and 21,895 posts for analysis"]
+      - ["Analysis", "Reflexive thematic analysis in NVivo: 307 first codes grouped into nine themes"]
+      - ["Lens", "Selection, optimization and compensation, a model of ageing well, linked to social acceptance, integration, contribution, actualization and coherence"]
+
+  - h: "Choosing a few platforms, a device for each and the same friends"
+    body: |
+      Interviewees did not try every app. They picked platforms for one job each: Facebook to follow other people's lives,
+      YouTube to look things up, WhatsApp and Zoom for video calls, which had largely taken over from Skype. Mark, 71,
+      called his daughter's family abroad on WhatsApp because it cost less than a phone call, and a one-off Zoom dinner
+      with two other couples became a fixture every Wednesday night.
+
+      New platforms usually arrived through family. A relative would send a WhatsApp message or a Facebook invitation,
+      and that was enough to start. Laura, 80, needed her grandson to set things up and explain them. Older people thus
+      play much the same part as younger users in spreading these services, the authors say.
+
+      Each app also tended to live on one device. Maeve, 70, kept Facebook and Skype on her iPad and used her phone only
+      for WhatsApp. The chart counts the devices interviewees named as their favourite.
+
+      Lockdown did not widen anyone's circle. People spoke to the same friends as before, but some shared their time out
+      differently. Emily, 65, now checked in every 3 or 4 weeks with distant friends she used to speak to a couple of
+      times a year. Family rituals carried on as well: John, 74, and his relatives, six of them in all, played a board
+      game over Zoom on Valentine's Day, dressed as its characters.
+    chart: devices
+
+  - h: "Learning by trial, error and each other"
+    body: |
+      Many interviewees found the tools easy after years of using computers at work. Others learned by trying. Laura organised
+      a virtual quiz for her village and, along the way, worked out how to use two screens at once, which she said made
+      her proud.
+
+      Learning was often shared. Edith, 69, helped friends who struggled to get connected, without being in the same room.
+      On the forum, members answered each other's questions about video calls and set-up. Earlier studies stressed help
+      from grandchildren; here, the authors conclude, help between peers worked just as well.
+
+      Hobbies moved online too. John had gone to the gym three times a week. In lockdown he joined two exercise sessions
+      on Zoom, monthly art lectures and concerts run by his music society. Two forum members described singing and
+      playing together with their own microphones switched off, so that nobody worried about wrong notes. Jack, 65, joined
+      a village WhatsApp group that neighbours set up when lockdown began.
+
+      In the authors' framework, this activity feeds social integration, feeling at home in a community, and social
+      contribution, knowing that one's help is valued. The reverse also appeared. People who could not or would not go
+      online dropped out of these groups, and the authors warn of a downward cycle of isolation.
+
+  - h: "Making up for loneliness, loss and the barriers themselves"
+    body: |
+      Lockdown hit hard among people used to meeting face to face. Many interviewees felt isolated and lonely, and John admitted
+      he was drinking more wine now that his golf club was shut. Social networks filled part of the space, through video
+      calls, group chats, searching and sharing.
+
+      Small features mattered. Laura, a widow who lives alone, valued messages that show as delivered before anyone
+      replies. Without them, she said, she would feel very isolated.
+
+      The forum showed the same use for grief. One member asked when she would be able to listen to classical music again,
+      three years after her husband died. The authors read requests like this as a search for hope and for a better
+      understanding of the world, two further elements of social well-being.
+
+      The barriers were also something people had to work around. Edith worried about cyberbullying, identity theft and
+      what would happen if her memory failed, so she rarely posts on Facebook. Jennifer, 79, described a friend of 80 who
+      had never used any technology, feared that everyone would learn everything about her, and became more and more
+      isolated through lockdown.
+    chart: platforms
+
+  - h: "Advice for the people who build platforms"
+    body: |
+      Most of the authors' advice is for those who design and market social networks. Mainstream platforms
+      already invest in accessible content, such as scalable fonts, keyboard commands and published accessibility
+      guidelines. What they lack, the authors argue, is accessible training: help on how to use the service and how to
+      get past technical problems.
+
+      They suggest step-by-step video tutorials made together with older people, and community forums where users support
+      each other. Sites aimed at older people, such as Gransnet and Silver Surfers, already run technology discussion
+      boards of this kind. The authors also warn that developers tend to design for people like themselves, which leaves
+      older users out. In their view, changes made for older people would make a platform more welcoming to every
+      beginner.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Give each channel one job", "List the channels your older customers use and write one job next to each, such as calls with family, news from friends or looking things up. Pick the two that fit your message and leave the rest out of this campaign."]
+  - ["Check which screen they hold", "Open your analytics for visitors aged 65 and over and note whether they arrive on a tablet, a phone or a computer. Design and check every page and ad on the top two devices first."]
+  - ["Watch five people set it up", "Invite five customers over 65 to install or sign up while you watch, without helping. Write down every point where they stop. Fix the three worst before you spend money on promotion."]
+  - ["Let users teach users", "Record short how-to videos with one of those customers explaining each step in their own words. Then open a help group where members answer each other, seed it with three common questions and reply within 24 hours."]
+  - ["Make the first invite come from family", "Give existing users a simple way to invite a parent or grandparent: a ready-written message and one link that installs the app and opens the right screen. Try the link on a tablet and a phone before launch."]
+  - ["Count who drops out, not just who joins", "Each month, count older users who were invited but never finished setting up, or who stopped after the first week. Contact ten of them, ask what got in the way and fix the most common reason first."]
+
+expect:
+  - "**Familiar circles, not new ones.** Interviewees used social media to stay close to people they already knew, so we would expect offers built on meeting new people to draw less interest in this group."
+  - "**Video calling decides.** Many interviewees chose an app for its video calls, so an offer that makes calling family simple speaks to a feature this group already values."
+  - "**Helping others matters too.** Learners spoke of pride in new skills, and those who helped felt their contribution counted, so a community that answers its own questions can serve both sides."
+  - "**Some habits may fade.** Many routines here stood in for venues that were closed at the time, such as the gym, the pub and the concert hall. Our inference is that some will have faded once those reopened; the study did not follow people afterwards."
+
+limits:
+  - "**A small, connected sample.** Fourteen interviewees, found through social media, email and each other's contacts, all of whom already used social media. People who never went online were heard about only second hand."
+  - "**One forum.** The observation covered a single public forum for older people, and the authors expect introverted users to be underrepresented in both phases."
+  - "**The UK under lockdown.** Every participant lived in the UK during a period of enforced isolation, so other countries and ordinary times remain untested."
+  - "**Nothing was scored.** Social well-being was read from what people said and posted, not measured on a scale, and no group that stayed offline was compared. The size of any benefit is unknown."
+  - "**A framework from words.** The links between the three strategies and social well-being come from the authors' reading of interviews and posts, and have yet to be tested with numbers."
+
+faq:
+  - q: "How do older adults use social media?"
+    a: "In this UK study, people between 65 and 80 relied on a small set of platforms, each picked for a purpose such as calling family on video or keeping up with friends' news. In most cases a family member or friend had introduced them to each one (Wilson-Nash et al., 2023)."
+  - q: "Did social media help older people during lockdown?"
+    a: "For the people interviewed, it kept friendships, family celebrations, hobbies and clubs going when meeting in person was impossible. The authors tie these benefits to social well-being, from feeling accepted and included to making sense of the world, though well-being was described rather than measured."
+  - q: "What does selective optimization with compensation mean?"
+    a: "A theory of successful ageing from gerontology. People select the goals and relationships that matter most, put their time and energy into making the most of them, and compensate for losses, for instance with new tools. The Stirling team applied it to how older people choose, learn and rely on social networks."
+  - q: "Why do some older people stay offline?"
+    a: "The barriers include a lack of confidence, understanding, support, experience, a connection or money, along with worries about privacy, manipulation, cyberbullying and offensive material. Those who cannot get past them risk falling out of groups that have moved online and becoming more isolated."
+  - q: "What can social media platforms do for older users?"
+    a: "Beyond accessible content such as larger fonts, the authors would like platforms to teach people how to use them: tutorials co-produced with older users, and spaces where members answer each other's questions, like the technology boards on sites for older people."
+
+also:
+  - doi: "10.1007/s11002-023-09666-7"
+    title: "Movie fit uncertainty and interplay between traditional advertising and social media marketing"
+    authors: "Yu, Qiu, Chen, & Yen"
+    journal: "Marketing Letters"
+    year: 2023
+    text: >-
+      Should a film studio spend on traditional advertising or on social media? The answer turns on how unsure audiences
+      are about whether a film suits them. Traditional advertising did more for films that were easy to judge in advance,
+      social media marketing helped most where films were harder to judge, and the two channels reinforced each other
+      only for the harder cases. Posts about what the experience feels like did the most for those films, while posts with
+      facts people could check helped the easier ones. How hard a product is to judge before buying should shape both
+      the channel and the post.
+  - doi: "10.1002/jcpy.1344"
+    title: "How economic system justification shapes demand for peer-to-peer providers"
+    authors: "Cakanlar & Ordabayeva"
+    journal: "Journal of Consumer Psychology"
+    year: 2023
+    text: >-
+      Who is keener to buy from peer-to-peer (P2P) providers, ordinary people selling to other consumers? Those who
+      believe the economic system is fair, this research finds. Such beliefs made P2P providers seem more entrepreneurial,
+      which raised interest in buying from them in laboratory and field studies alike, whether the beliefs were measured
+      or induced. Traditional commercial providers gained less from these beliefs. For marketplaces built on individual sellers,
+      an enterprising story about each seller looks worth testing.
+
+charts:
+  devices:
+    title: "Favourite devices named by the 14 interviewees (number of people)"
+    scale: [0, 8]
+    step: 2
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Tablet", 6, true]
+      - ["Smartphone", 5, false]
+      - ["Desktop computer", 3, false]
+      - ["Laptop", 2, false]
+    source: "Counted from Table 2 (14 UK interviewees aged 65 to 80). Two people named two devices each, so the counts add to 16."
+  platforms:
+    title: "Favourite social platforms named by the 14 interviewees (number of people)"
+    scale: [0, 10]
+    step: 2
+    unit: ""
+    decimals: 0
+    bars:
+      - ["WhatsApp", 8, true]
+      - ["Facebook", 3, false]
+      - ["Twitter", 1, false]
+      - ["YouTube", 1, false]
+      - ["FaceTime", 1, false]
+      - ["Zoom", 1, false]
+    source: "Counted from Table 2 (14 UK interviewees aged 65 to 80). One person named both WhatsApp and Facebook, so the counts add to 15."
+
+related_pages: []
