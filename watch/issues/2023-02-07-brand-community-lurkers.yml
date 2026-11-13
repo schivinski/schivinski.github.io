@@ -1,0 +1,236 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 4                       # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-02-07"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: brand-community-lurkers
+status: live
+
+title: "Are lurkers in a brand's online community as valuable as its posters? What an International Journal of Electronic Commerce study found"
+dek: >-
+  Most members of a brand's online community read without posting. A US survey finds that the brand's support is linked to
+  these readers' feeling that they belong and to their trust, much as it is among active posters, although the two
+  groups trust the brand for different reasons.
+short_title: "Why lurkers count in brand communities"
+
+description: >-
+  Mousavi and Roper find lurkers in brand-run online communities build trust through information, posters through
+  belonging, and trust pays off equally for both.
+
+keywords: [online brand communities, lurkers and posters, passive community members, firm-hosted online communities,
+  brand trust, community identity, brand knowledge, positive word of mouth, resistance to negative information,
+  community management, organizational support theory, International Journal of Electronic Commerce]
+topics: [Social media, UGC]
+
+image:
+  file: 2023-brand-community-lurkers.jpg
+  og: 2023-brand-community-lurkers-og.jpg
+  alt: "Seen from behind, a man in a grey checked shirt raises his hand at a talk in a white-walled gallery, while the women seated around him look ahead towards a row of framed sheets on the wall"
+  caption: "At most talks a few people ask and the rest follow along. Online brand communities work in a similar way. Photo: Kat von Wood on Unsplash."
+
+short_answer: >-
+  On the outcomes a brand cares about, yes. In a survey of 742 US members of brand-run online communities, those who
+  read but rarely posted felt they belonged more when they saw the brand thank contributors, encourage conversation and
+  share good information, just as posters did. Their trust in the brand was tied to buying intentions, recommendations
+  and shrugging off bad news as closely as posters' trust was. What built that trust differed between the groups.
+
+takeaways:
+  - "Lurkers were the larger group: 405 of the 742 community members surveyed, or 55%, against 337 posters."
+  - "Brand support counted for readers too. The three kinds of support together accounted for 34% of the variance in lurkers' sense of belonging, and 43% among posters."
+  - "Trust had different sources. The model accounted for 64% of the variation in lurkers' trust, which leaned on what the brand published and on what they knew about it, and 57% in posters' trust, which leaned on belonging."
+  - "Trust showed most in recommendations: it explained 59% of the variance in positive word of mouth among lurkers and 64% among posters, compared with about a fifth of purchase intention (20% and 19%)."
+
+paper:
+  doi: "10.1080/10864415.2022.2158596"
+  title: "Enhancing Relationships Through Online Brand Communities: Comparing Posters and Lurkers"
+  authors: ["Mousavi, S.", "Roper, S."]
+  authors_full: ["Sahar Mousavi", "Stuart Roper"]
+  year: 2023
+  journal: "International Journal of Electronic Commerce"
+  volume: "27"
+  issue: "1"
+  pages: "66-99"
+  online: "2023-02-07"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (Notes on contributors on the Taylor & Francis page; no ORCID iDs printed)
+    - name: "Sahar Mousavi"
+      affiliation: "School of Business and Economics, Loughborough University, UK"
+      orcid: ""
+    - name: "Stuart Roper"
+      affiliation: "Huddersfield Business School, University of Huddersfield, UK"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One online survey of 742 US members of firm-hosted online brand communities (Qualtrics panel), analysed with structural equation modelling on the whole sample and by group (405 lurkers, 337 posters)"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Sahar Mousavi of Loughborough University and Stuart Roper of the University of Huddersfield, both in the UK,
+      studied people who belong to a brand's own online community but seldom post. Earlier work on these communities has
+      focused mainly on the active members, known as posters. The others, the lurkers, have often been treated as a
+      problem to fix. The authors asked whether what a brand does inside its community shapes lurkers' bond with the
+      community and the brand, and whether that bond works the same way as it does for posters.
+
+      Their framework borrows from organisational support theory, which holds that employees who feel valued and
+      supported by their employer identify with it and trust it more. Here the community member takes the employee's
+      place. Three kinds of support were measured: recognising members' contributions, encouraging members to interact,
+      and providing quality information.
+
+      Respondents were sourced through a professional panel provider rather than from inside any one community. That
+      choice let the team reach lurkers, whom earlier studies had largely left out because they do not take part
+      visibly.
+    facts:
+      - ["Participants", "US residents from a Qualtrics consumer panel; 1,000 completed the survey within three weeks and 742 passed every screening check"]
+      - ["Communities", "Real firm-hosted online brand communities, each named with its web address by the respondent and visited during the three months before the survey"]
+      - ["Groups", "Lurkers: no posts over the previous three months, or fewer than one a month; everyone else counted as a poster"]
+      - ["Measured", "Brand support in its three forms, sense of belonging, brand knowledge, brand trust, purchase intention, resistance to negative information and positive word of mouth, mostly on nine-point scales"]
+      - ["Analysis", "Structural equation modelling on the whole sample, then a comparison of lurkers and posters link by link"]
+
+  - h: "Support builds belonging in both groups"
+    body: |
+      The sense of belonging, which the authors call community identity, combined three parts: how far members saw the
+      community as part of who they are, their emotional attachment to it, and how valued they felt as members. Across
+      the whole sample, all three kinds of brand support were associated with more belonging. Recognising contributions
+      carried the largest weight (0.42), ahead of encouraging interaction (0.20) and quality information (0.17).
+
+      The authors expected each of these links to be stronger for posters, who take part and draw more from the
+      community. They were not. The weights were close for lurkers and posters, and none of the differences was
+      significant. Lurkers who saw the brand thank others, invite discussion and offer useful information felt they
+      belonged, although they rarely added anything themselves. The authors conclude that lurkers can form this bond
+      without first being "activated".
+    chart: belonging
+
+  - h: "Two different routes to trust"
+    body: |
+      The groups differed on trust. Encouraging interaction had the strongest link with trust in both, while recognising
+      contributions was not directly related to trust in either.
+
+      The remaining links depended on the group. For lurkers, quality information and their own knowledge of the brand
+      were each tied to trust, while neither link held for posters. For posters, the sense of belonging was tied
+      directly to trust, and that direct link was absent for lurkers. Formal tests confirmed all three differences.
+      Belonging still mattered for lurkers, but by way of knowledge: members who felt they belonged also knew the brand
+      better (0.62 for lurkers, 0.65 for posters), and among lurkers that knowledge carried through to trust.
+
+      The authors explain the pattern by the reasons people lurk. Many join a community to find information, and reading
+      is enough for that. Posters have further motives, such as social contact, self-worth and the enjoyment of helping
+      others, which tie them more closely to the community itself.
+    chart: trust
+
+  - h: "From trust to buying, defending and recommending"
+    body: |
+      Across the whole sample, brand trust went with all three outcomes measured. Its weight was 0.45 for the intention
+      to buy the brand in future, 0.56 for resistance to negative information, meaning that bad news about the brand
+      does not change a member's overall view of it, and 0.79 for positive word of mouth.
+
+      Here too the authors had predicted stronger links for posters. The weights were almost the same in both groups,
+      and no difference was significant. The main practical point follows from this: once a lurker trusts the brand,
+      that trust is tied to purchase plans, resistance to bad news and recommendations as closely as a poster's. The
+      authors therefore see real value for the brand in lurkers' membership.
+
+  - h: "The authors' advice for community managers"
+    body: |
+      Four tactics follow from the results, in the authors' view. First, keep the community's information reliable,
+      accurate, current, easy to find and well formatted, with pictures and video where they help, since this is what
+      many lurkers come for. Second, recognise contributions with discounts, early access to launches, badges, rewards
+      for bringing in new members or invitations to events, because readers notice how contributors are treated. Third,
+      make interaction easy, for instance with forums where members can ask the community, access through a mobile app,
+      short tutorials and requests for comments on new ideas or prototypes. Fourth, resist the temptation to convert
+      lurkers into posters.
+
+      They also recommend appointing dedicated staff who understand how readers and posters differ to run the community.
+      These tactics come from how the authors interpret the results; the survey did not put them to the test.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Count your readers", "Download three months of activity data from your community platform. Tag members with fewer than three posts in that period as readers and everyone else as posters. Note how large each group is."]
+  - ["Fix the information people come for", "List the 20 pages or threads members open most. Correct anything out of date, add the date each was last checked, and make sure each can be reached in two clicks from the community home page."]
+  - ["Thank contributors in public", "Each week, name three members whose posts helped others and say what they did. Add a visible badge or early access to a new product, so readers can see that contributions are valued."]
+  - ["Make it easy for members to talk to each other", "Open one ask-the-community thread a week with a single clear question. Have a staff member reply to every new post within 24 hours and point members to each other's answers."]
+  - ["Publish short how-to videos", "Post two videos a month, each under three minutes, showing the product in use or a tip for getting more out of it. Invite members to reply with their own photos or tips."]
+  - ["Track readers as well as posters", "Twice a year, send both groups the same four questions: do you trust this brand, would you recommend it, will you buy it again, and do you feel you belong here. Compare the answers, and do not pressure readers to start posting."]
+
+expect:
+  - "**Readers respond to what the brand does.** Lurkers who perceived more support from the brand felt they belonged more, with no need for them to start posting first."
+  - "**Information matters most with readers.** Good content and familiarity with the brand were where lurkers' trust came from; for posters neither link was significant."
+  - "**Thanks builds belonging, not trust directly.** Recognising contributors showed no direct tie with trust for either group, so the authors see any benefit for trust as indirect, coming through how strongly members feel they belong."
+  - "**Recommendations before purchases.** In both groups trust went with positive word of mouth more strongly than with the intention to buy."
+
+limits:
+  - "**One survey, one moment.** Every measure came from the same questionnaire at one time, so the links show association, not cause."
+  - "**Self-reports throughout.** Posting frequency, trust and intentions were reported by members; no community activity or sales were observed."
+  - "**Links, not levels.** The comparison concerned how strongly factors were related in each group. The paper does not report whether lurkers trusted their brands more or less than posters on average."
+  - "**A broad definition of lurking.** Occasional posters were grouped with members who never posted at all."
+  - "**US members, mixed communities.** Respondents chose their own community, so sectors were mixed and not compared, and business-to-business communities were not covered."
+
+faq:
+  - q: "What is a lurker in an online brand community?"
+    a: "A member who reads the community but rarely or never posts. Here the term covered anyone who had posted nothing for three months, or less than once a month. The authors cite estimates that about 90% of online community members behave this way (Mousavi & Roper, 2023)."
+  - q: "Should brands try to turn lurkers into posters?"
+    a: "The authors advise against it. Lurkers' sense of belonging rose with the support they saw from the brand without any posting on their part, and their trust was linked to buying, recommending and resisting bad news to the same degree as for posters."
+  - q: "What builds brand trust among members who rarely post?"
+    a: "Seeing the brand encourage members to interact, finding good information in the community, and knowing the brand well. For these members, feeling they belonged was linked to trust only by way of brand knowledge."
+  - q: "Does thanking active members do anything for everyone else?"
+    a: "Yes. Where the brand recognised contributions, lurkers felt they belonged more, as posters did, even though they were not the ones being thanked. Recognition itself was not linked to trust directly, for lurkers or for posters."
+  - q: "What matters more to posters than to lurkers?"
+    a: "Belonging. Posters' identification with the community was linked directly to their brand trust, a link absent among lurkers, whose trust rested more on the community's content and on how well they knew the brand."
+
+also:
+  - doi: "10.1002/mar.21782"
+    title: "Mapping brand community research from 2001 to 2021: Assessing the field's stage of development and a research agenda"
+    authors: "Veloutsou & Liao"
+    journal: "Psychology & Marketing"
+    year: 2023
+    text: >-
+      Two decades of brand community research, from 2001 to 2021, mapped with bibliometric methods and a systematic
+      review of papers indexed in Scopus. Output is growing quickly, most of it originates in the United States or
+      China, and it relies mainly on surveys. Social media brand communities, the effect of communities on brand
+      relationships and brand engagement are among the main themes, and the authors place the field in late growth or
+      early maturity. A useful map of what is already known for anyone about to set up a community.
+  - doi: "10.1002/mar.21790"
+    title: "Gifting digital versus physical gift cards: How and why givers and recipients have different preferences for a gift card's mode of delivery"
+    authors: "Reshadi, Givi, & Das"
+    journal: "Psychology & Marketing"
+    year: 2023
+    text: >-
+      Across five studies, people buying a gift card chose the digital version less often than recipients said they
+      would like to receive it. Givers overestimated how far recipients see a digital card as breaking the social norms
+      of gift-giving. Their reluctance eased when they saw digital cards as less of a breach, or paid less attention to
+      those norms. For retailers selling e-gift cards, the hesitation sits with the buyer more than with the person who
+      receives the card.
+
+charts:
+  belonging:
+    title: "Brand support and the sense of belonging, by group (standardised path weight)"
+    scale: [0, 0.5]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Recognising contributions: lurkers", 0.36, true]
+      - ["Recognising contributions: posters", 0.40, false]
+      - ["Encouraging interaction: lurkers", 0.21, true]
+      - ["Encouraging interaction: posters", 0.27, false]
+      - ["Quality information: lurkers", 0.18, true]
+      - ["Quality information: posters", 0.17, false]
+    source: "Multigroup structural model (Table 3), 405 lurkers and 337 posters. Every weight is significant, and no difference between the groups was significant."
+  trust:
+    title: "Links with brand trust, by group (standardised path weight)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Encouraging interaction: lurkers", 0.52, false]
+      - ["Encouraging interaction: posters", 0.50, false]
+      - ["Quality information: lurkers", 0.23, true]
+      - ["Quality information: posters", 0.03, false]
+      - ["Brand knowledge: lurkers", 0.28, true]
+      - ["Brand knowledge: posters", 0.07, false]
+      - ["Sense of belonging: lurkers", 0.051, false]
+      - ["Sense of belonging: posters", 0.33, true]
+    source: "Multigroup structural model (Table 3). Highlighted links held in one group only, and each differed significantly between the groups; the lurkers' belonging weight (0.051) and the posters' information and knowledge weights were not significant."
+
+related_pages: []
