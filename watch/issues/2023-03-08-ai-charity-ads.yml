@@ -1,0 +1,254 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 8                       # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-03-08"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: ai-charity-ads
+status: live
+
+title: "Should charities use AI-generated faces in their ads? What a Journal of Advertising study found"
+dek: >-
+  An image model can now produce a lifelike face for a fundraising appeal without anyone being photographed. Three
+  experiments show what happens to empathy and giving once donors know the face is artificial, and why a disaster
+  changes the picture.
+short_title: "AI-made faces in charity appeals"
+
+description: >-
+  Arango et al. find donors told a charity ad's child face was AI-made felt less empathy and meant to give less,
+  unless a disaster ruled out a real photo.
+
+keywords: [AI-generated images, synthetic media, AI in charity advertising, nonprofit marketing, donation intention,
+  empathy in advertising, guilt appeals, AI disclosure labels, generative adversarial networks, disaster appeals,
+  AI image transparency, Journal of Advertising]
+topics: [AI, Advertising, Creative]
+
+image:
+  file: 2023-ai-charity-ads.jpg
+  og: 2023-ai-charity-ads-og.jpg
+  alt: "Four adult volunteers wearing blue lanyards sort tinned food, cooking oil and a pack of fresh fruit at a table under a white tent in warm sunlight, a smiling woman in a beige cardigan at the centre"
+  caption: "Volunteers sorting donated food. Outside emergencies, faces labelled as AI-made drew less giving than faces taken to be real. Photo: Raj Tuladhar on Unsplash."
+
+short_answer: >-
+  Not yet, outside emergencies. In three experiments with more than 1,100 people, those who learned that the child
+  pictured in a charity appeal was AI-made showed less empathy and less inclination to donate, even though the charity was open about it.
+  Framing the image as protecting children's privacy was the safest wording, while citing a practical motive such as
+  saving money made matters worse. When a disaster made real photos impossible to get, the difference largely
+  disappeared.
+
+takeaways:
+  - "Even with people asked to picture an honest charity, being told the face was AI-made raised how manipulative the ad seemed: an average of 3.19 against 2.62 for those not told."
+  - "Giving a practical reason for the image, such as saving on marketing, cost about half a point in willingness to give: 0.558 below an ethical reason and 0.531 below no reason at all."
+  - "Disclosure lowered 4 of the 5 outcomes measured in the second experiment, and empathy for the child fell the most."
+  - "Of the 2 settings in the third experiment, only disaster relief, where the charity could not obtain a real photo, largely escaped the drop. For an education charity, disclosure still lowered willingness to give."
+
+paper:
+  doi: "10.1080/00913367.2023.2183285"
+  title: "Consumer Responses to AI-Generated Charitable Giving Ads"
+  authors: ["Arango, L.", "Singaraju, S. P.", "Niininen, O."]
+  authors_full: ["Luis Arango", "Stephen Pragasam Singaraju", "Outi Niininen"]
+  year: 2023
+  journal: "Journal of Advertising"
+  volume: "52"
+  issue: "4"
+  pages: "486-503"
+  online: "2023-03-08"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (T&F author information; only Arango's ORCID iD is listed)
+    - name: "Luis Arango"
+      affiliation: "University of Queensland, St. Lucia, Queensland, Australia"
+      orcid: "0000-0002-1581-8732"
+    - name: "Stephen Pragasam Singaraju"
+      affiliation: "Universiti Teknologi Brunei, Bandar Seri Begawan, Brunei Darussalam"
+      orcid: ""
+    - name: "Outi Niininen"
+      affiliation: "Jyväskylä University, Jyväskylä, Finland"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Three online experiments (Studies 1-3: 458, 548 and 112 usable responses, CloudResearch); a preliminary survey of charity workers and an image pretest not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Luis Arango of the University of Queensland,
+      Stephen Pragasam Singaraju of Universiti Teknologi Brunei and
+      Outi Niininen of Jyväskylä University
+      tested a choice that charities with small budgets may soon face. Image generators can produce a face that viewers
+      cannot tell from a photograph, at a fraction of the cost of a shoot. Fundraising appeals lean heavily on faces,
+      especially children's. So what happens to giving when donors learn that the face in an appeal belongs to nobody?
+
+      The faces came from a StyleGAN, an AI model trained on photographs of real people that learns to produce new,
+      lifelike ones. The ads showed a sad-looking child who does not exist beside a short appeal for help. A short
+      survey of people involved in charity work, run before the main tests, found they could not tell these faces from
+      real photographs. Supporters liked that no real child would be exposed, while critics felt the images lacked soul.
+
+      In each experiment, some participants were told that a machine had made the image, while the rest saw the same
+      ad with no mention of AI. In the first, the disclosure came as a label on the image plus a short explanation of
+      the technology, and people were asked to picture a charity that was open about it, so the test concerned honest
+      use rather than deception. A prize draw in that experiment linked part of each winner's payout to their stated willingness to give,
+      with the difference donated to a children's charity, so the answers carried some weight.
+    facts:
+      - ["Participants", "1,118 usable responses across three online experiments (458, 548 and 112), recruited through CloudResearch"]
+      - ["Ads", "Charity appeals built around a synthetic child's face with a sad expression, made with a StyleGAN image model"]
+      - ["What changed", "Whether participants were informed that a machine made the image; later, the reason the charity gave and whether a disaster was involved"]
+      - ["Measured", "Empathy, anticipated guilt, how sad the face looked, willingness to donate and perceived manipulation; from the second experiment, opinions on the ad, the charity and its use of the image"]
+      - ["Open science", "Preregistered, with code, materials and statistical outputs posted openly on OSF"]
+
+  - h: "Why disclosure dampens giving"
+    body: |
+      The first experiment compared two groups: 234 people kept unaware of the AI and 224 who were informed. Knowing the
+      face was artificial lowered empathy, measured as how easily people could put themselves in the needy child's
+      shoes (a coefficient of −0.38). Psychological distance is the authors' explanation: it is hard to take the place
+      of someone who does not exist.
+
+      Lower empathy then hurt giving along two routes. People who empathised less expected to feel less guilty if they
+      walked away without donating, and that anticipated guilt was closely tied to willingness to give. They also saw
+      less sadness in the child's face, a weaker link. The guilt route carried the larger share of the drop (an indirect
+      effect of −0.14, against −0.02 through perceived sadness), and empathy also mattered to giving directly.
+
+      The team was surprised by one result. Even with the charity described as open, the disclosure group judged the
+      ad more manipulative, so the analysis held that perception constant. The fall in empathy remained, and the results stood
+      when responses first set aside as outliers were put back in.
+    chart: routes
+
+  - h: "Disclosure also lowered views of the charity"
+    body: |
+      The second experiment crossed disclosure with four ways a charity might explain its choice of image. Almost
+      everyone remembered whether the image was AI-made (98%) and which reason they had read (92%).
+
+      Disclosure lowered the ratings to a similar degree whatever explanation came with it: the two factors did not
+      interact. Both the ad and the charity were rated lower, along with empathy and willingness to give, so the cost
+      reached the organisation as well as the appeal. Approval of the charity's use of the image dipped too, though that
+      difference was only marginal.
+    chart: disclosure
+
+  - h: "Which explanation works best"
+    body: |
+      The four options were no reason, an ethical reason, a practical reason or both. For an AI face, the ethical reason
+      was privacy, protecting real children, and the practical one was saving money on marketing. For an undisclosed
+      image, the charity instead said it had obtained proper consent, or that the image would attract donors. Only two
+      differences in willingness to give were statistically reliable: a practical reason on its own fell behind both an
+      ethical reason and no reason at all.
+
+      The other gaps did not reach statistical significance. The ethical reason edged out no reason by 0.27
+      points. Mixing both reasons trailed the ethical one by 0.435 and no reason by 0.408. On empathy, no reason beat a
+      practical one by 0.418, a marginal result, and the reason did not reliably shift ratings of the ad, the
+      charity or the image use.
+
+      Even so, the ranking led the authors to suggest that any disclosure come with an ethical reason, along the lines
+      of "AI-generated image. Help us protect children's privacy." In their reading, that wording is still less
+      effective than a real photo with the same ethical framing.
+
+  - h: "When an AI image is accepted"
+    body: |
+      The third and smallest experiment asked whether circumstances could excuse an AI image. Some participants read
+      about a charity helping children in a region hit by a natural disaster. Where the image was disclosed, the
+      charity said it had been unable to obtain a real photograph. Others read about a charity running education
+      programmes.
+
+      For the education charity, disclosure again lowered willingness to give and liking for the charity, repeating the
+      earlier pattern in a new setting. In the disaster setting, the difference between the disclosed and undisclosed
+      image mostly vanished. The interaction was significant for willingness to give and marginal for attitudes to the
+      charity. In the authors' view, donors accept a synthetic image used as a last resort.
+
+  - h: "The authors' advice, and the digital angle"
+    body: |
+      The advice is caution. Outside disaster relief, the authors suggest charities hold off on synthetic content,
+      follow public attitudes to AI, bring it in slowly if at all, and check their own data on how it performs. For
+      now, they write, authentic images are the safer course.
+
+      They also raise questions they did not test. A profit motive could make people more defensive about synthetic
+      faces, and the AI avatars now sold to brands might weaken emotional appeals and trust.
+
+      One extrapolation of ours, untested in this work: once an image carries an AI label, added by the
+      advertiser or by the platform showing it, the reason printed beside that label becomes part of the creative and
+      should be tested as carefully as the headline.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Mark where real photos are possible", "List the appeals planned for the next six months. Tick every one where you can photograph real people with their consent, and keep AI-made faces off those."]
+  - ["Write an emergency image rule", "Set out on a single page when synthetic images are allowed, such as a disaster zone no photographer can reach in time. Get it approved before a crisis, not during one."]
+  - ["Put the reason on the label", "Pair every AI-made face with a short label that names an ethical reason, for instance privacy for the people you help. Use no more than 12 words and place the label on the image itself."]
+  - ["Keep savings out of the message", "Do not tell donors that the image saved money or time. Keep budget arguments for board papers and internal reports."]
+  - ["Split-test real against synthetic", "Run a pair of otherwise identical appeals, one with a real consented photo and one with a labelled AI face. Send each to a minimum of 1,000 contacts by email or social ads and compare clicks and gifts after 14 days."]
+  - ["Read every comment about the image", "During the first fortnight after launch, read every comment that mentions the image. Count how many call it fake or manipulative, and pull the version that draws more than one such comment in ten."]
+
+expect:
+  - "**Openness has a cost.** A labelled AI face is likely to draw less empathy than the same face presented as a real photograph, even when the charity is honest about using it."
+  - "**Small gains from the right reason.** A privacy or consent explanation was the safest wording tested, but its lead over giving no reason was slight."
+  - "**The charity's standing is affected.** Disclosure also lowered attitudes to the charity itself, so track brand measures alongside donations when you test."
+  - "**Emergencies are the exception.** When real images cannot be had, donors judged a disclosed synthetic image much as they judged one presented as real."
+
+limits:
+  - "**Still images only.** Video, voice and animated avatars were outside the tests, though charities use them widely."
+  - "**Intentions, not gifts.** Giving was measured as stated willingness; only the first experiment tied answers to real money, through a prize draw."
+  - "**Online samples.** All three experiments ran with online participants, and the paper asks for replication with other groups."
+  - "**Labels may not convince.** Because the faces looked real, some people may have doubted the AI label, especially those less at home with new technology."
+  - "**Charity appeals only.** The model was built for charities, and the authors doubt it applies directly to brand advertising."
+  - "**One emergency scenario.** The disaster result comes from the smallest experiment and a single scenario."
+
+faq:
+  - q: "Do AI-generated images reduce charity donations?"
+    a: "When donors know about them, they can. People informed that a fundraising ad showed an AI-generated child empathised less with the child and reported lower willingness to donate than an uninformed group, although the charity was described as open about it (Arango et al., 2023)."
+  - q: "Should a charity hide that an image is AI-generated?"
+    a: "The authors do not suggest hiding it. They note that deceptive use would put a charity's reputation at risk, and they built their tests around open use. Their advice is to disclose with an ethical reason, or to wait before adopting synthetic images at all."
+  - q: "How should a charity explain why it used an AI image?"
+    a: "With an ethical reason, such as protecting the privacy of real children. The two explanations that mentioned a practical reason, such as cutting marketing costs, ranked lowest for willingness to give, while the privacy explanation came out slightly ahead of saying nothing."
+  - q: "When do donors accept AI-generated images?"
+    a: "In an emergency where real photographs cannot be obtained. For a disaster relief appeal, disclosing an AI image made little difference to willingness to give, while for an education charity it still lowered it."
+  - q: "Why do AI-made faces reduce empathy?"
+    a: "The authors point to psychological distance. Empathy here means imagining yourself in another person's position, which is harder when that person was never real. Less empathy then meant less anticipated guilt about not giving and less sadness seen in the face."
+
+also:
+  - doi: "10.1080/15252019.2023.2167501"
+    title: "Engaging in Dialogues: The Impact of Comment Valence and Influencer-Viewer Interaction on the Effectiveness of YouTube Influencer Marketing"
+    authors: "Xiao"
+    journal: "Journal of Interactive Advertising"
+    year: 2023
+    text: >-
+      A sponsored YouTube video carries the brand's message, but the comments underneath carry viewers' verdicts. In a
+      pretest and two studies, negative comments under an influencer's video lowered how people rated the product and
+      how far they trusted the influencer. The harm eased when the influencer actively replied to the critical comments.
+      The comment section belongs to the campaign, and someone needs to be answering there.
+  - doi: "10.1080/0267257X.2023.2172059"
+    title: "Building a social media community around your brand: the moderating role of firm engagement tactics"
+    authors: "Chou & Lin"
+    journal: "Journal of Marketing Management"
+    year: 2023
+    text: >-
+      Many brands run communities on social media, but what keeps members involved? A qualitative study followed by a
+      survey named five tactics firms use: educating members about the brand, building its reputation, offering
+      incentives, supporting interaction and providing entertainment. Members who identified with the community engaged
+      more, engagement went with brand loyalty, and the tactics strengthened both links. Checking which of the five your
+      community already offers is a practical first audit.
+
+charts:
+  routes:
+    title: "Experiment 1: how strongly each step led to the next (unstandardised coefficients)"
+    scale: [0, 0.7]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Empathy to anticipated guilt", 0.60, false]
+      - ["Guilt to willingness to give", 0.61, true]
+      - ["Empathy to perceived sadness", 0.31, false]
+      - ["Sadness to willingness to give", 0.12, false]
+    source: "Experiment 1, 458 people; coefficients printed in the paper's model figure (Figure 4), all significant, controlling for perceived manipulation."
+  disclosure:
+    title: "Experiment 2: how much lower each rating was when the face was disclosed as AI-made (scale points)"
+    scale: [0, 0.5]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Empathy for the child", 0.394, true]
+      - ["Liking for the ad", 0.31, false]
+      - ["Willingness to donate", 0.281, false]
+      - ["Liking for the charity", 0.255, false]
+      - ["Approval of the image use", 0.193, false]
+    source: "Experiment 2, 548 people; differences in estimated marginal means, not told minus told (Table 3). The first four are significant, the last marginal."
+
+related_pages: []
