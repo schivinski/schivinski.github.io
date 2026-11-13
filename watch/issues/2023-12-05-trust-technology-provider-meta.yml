@@ -1,0 +1,294 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 50                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-12-05"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: trust-technology-provider-meta
+status: live
+
+title: "Do online customers need to trust the app or the company behind it? What an Electronic Markets study found"
+dek: >-
+  Anyone using a shopping site or a banking app is weighing up two things: the technology on the screen and the firm
+  that runs it. A meta-analysis across online retail, banking and e-health finds the two closely linked, both related
+  to use, and fed by partly different drivers.
+short_title: "Trusting the app, trusting the firm"
+
+description: >-
+  Kuen et al. pool 272 samples on online trust: faith in an app and in the firm behind it go together, track intention
+  to use, and rise with reputation.
+
+keywords: [online trust, trust in technology, trust in provider, website trust, technology acceptance, intention to use,
+  online reputation, institution-based trust, trust transfer, online banking trust, meta-analysis, Electronic Markets]
+topics: [Service, Retail]
+
+image:
+  file: 2023-trust-technology-provider-meta.jpg
+  og: 2023-trust-technology-provider-meta-og.jpg
+  alt: "Two people shake hands across the frame, one in a white shirt cuff and the other in a rolled-up blue and pink checked sleeve, in front of a blurred green garden and a white fence"
+  caption: "A handshake, the oldest sign of trust between a customer and a provider. Photo: Erika Fletcher on Unsplash."
+
+short_answer: >-
+  Both, and the two go together. Pooling 272 samples with 105,199 respondents in online shopping, banking and health,
+  the researchers found that trust in the website or app and trust in the company each had a strong link with whether
+  people intended to use the service. When both were modelled side by side, the technology carried slightly more
+  weight. Reputation was the strongest correlate of either kind of trust, while familiarity mattered more for the
+  system than for the firm.
+
+takeaways:
+  - "Trust in the technology and trust in the provider were strongly related, at a correlation of 0.59 across 25 samples, where 1 would mean they always move together."
+  - "Each kind of trust was linked to intention to use at about the same level: 0.50 across 128 samples for the technology and 0.50 across 105 for the provider."
+  - "Familiarity from past use went with trust in the system more than with trust in the company: 0.52 against 0.36."
+  - "In banking, the sense that safeguards such as guarantees and regulation are in place correlated 0.69 with trust in the provider, against 0.24 in online shopping (5 and 18 samples)."
+
+paper:
+  doi: "10.1007/s12525-023-00672-1"
+  title: "Who earns trust in online environments? A meta-analysis of trust in technology and trust in provider for technology acceptance"
+  authors: ["Kuen, L.", "Westmattelmann, D.", "Bruckes, M.", "Schewe, G."]
+  authors_full: ["Leonie Kuen", "Daniel Westmattelmann", "Maike Bruckes", "Gerhard Schewe"]
+  year: 2023
+  journal: "Electronic Markets"
+  volume: "33"
+  issue: "1"
+  pages: "61"
+  online: "2023-12-05"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Springer page)
+    - name: "Leonie Kuen"
+      affiliation: "Chair of Organization, HR and Innovation, University of Muenster, Universitätsstraße 14-16, 48143, Münster, Germany"
+      orcid: "0000-0002-4228-4369"
+    - name: "Daniel Westmattelmann"
+      affiliation: "Chair of Organization, HR and Innovation, University of Muenster, Universitätsstraße 14-16, 48143, Münster, Germany"
+      orcid: "0000-0002-0278-5396"
+    - name: "Maike Bruckes"
+      affiliation: "Chair of Organization, HR and Innovation, University of Muenster, Universitätsstraße 14-16, 48143, Münster, Germany"
+      orcid: "0000-0002-6555-8457"
+    - name: "Gerhard Schewe"
+      affiliation: "Chair of Organization, HR and Innovation, University of Muenster, Universitätsstraße 14-16, 48143, Münster, Germany"
+      orcid: "0000-0002-3199-2837"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 3
+    studies: 272
+    basis: "Meta-analysis of 272 independent samples from 251 articles (N = 105,199; 657 effect sizes) on B2C e-commerce, e-banking and e-health, data collected before 2020; random-effects pairwise meta-analyses (Hedges-Olkin, REML) plus two-stage MASEM comparing four trust configurations"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Leonie Kuen, Daniel Westmattelmann, Maike Bruckes and Gerhard Schewe,
+      all at the Chair of Organization, HR and Innovation of the University of Muenster in Germany, took up a basic
+      question for any business that sells or serves online. When customers decide whether to use a website or an app, whose trustworthiness are they judging? It could
+      be the technology in front of them, or it could be the company or person behind it.
+
+      Earlier research gave no settled answer. Some studies measured trust in the technology only, others trust in the
+      provider, a few measured both, and some blended the two into a single scale. Results disagreed too: a link that was
+      significant in one study was absent in the next.
+
+      The team kept the two apart. Trust in the technology meant believing that the site, app or recommendation tool
+      works, is reliable and helps. Trust in the provider meant believing that the organisation offering the service is
+      able, means well and is honest. They then looked at four established sources of trust: propensity to trust, a
+      person's general readiness to trust others; institution-based trust, the sense that the setting is normal and protected by safeguards
+      such as third-party seals, guarantees, laws, privacy statements and encryption; familiarity from earlier use; and
+      reputation, what a person has heard from others.
+    facts:
+      - ["Evidence base", "272 independent samples from 251 articles; 105,199 respondents in more than 50 countries"]
+      - ["Settings", "Consumer-facing online shopping (171 samples), online and mobile banking (65) and e-health (35)"]
+      - ["Which trust was measured", "Technology only in 126 samples, provider only in 106, both in 25, a blended scale in 15"]
+      - ["Sources", "Databases including EBSCOhost, Web of Science and IEEE Xplore, Google Scholar, 12 journals searched by hand and reference lists; 246 samples from journal articles, the rest from conference papers, dissertations and edited volumes; all data collected before 2020"]
+      - ["Method", "657 effect sizes coded by two coders (91% agreement), pooled under a random-effects model; meta-analytic structural equation models compared four ways to place trust in a model"]
+
+  - h: "How to read the figures"
+    body: |
+      The first half of the paper pools correlations, written r. At 0 two measures are unrelated; at 1 they move up and
+      down together without exception. The authors use a widely cited convention: above 0.10 is small, above 0.30
+      moderate and above 0.50 large. A correlation shows that two beliefs go together, not that either of them causes the other.
+
+      The second half fits path models to those pooled correlations. These report standardised coefficients, written β.
+      Each shows how strongly one measure is tied to another after the other measures in the model are taken into
+      account. That is why the same pair can show a smaller number in a path model than as a plain correlation.
+
+      Study results differed widely. In almost all of the pooled figures, more than 75% of the spread reflected real
+      differences between settings rather than chance, so any single business can sit well above or below the average.
+
+  - h: "Separate beliefs that move together"
+    body: |
+      The pooled correlation between the two was large, with 95% confidence limits of 0.52 and 0.65: high, but short of
+      the level at which two scales would be measuring the same belief. The technology and the provider, the
+      authors conclude, are separate targets of trust that depend on each other.
+
+      Experience made a difference here. Among respondents with earlier use of a service, the correlation reached 0.64
+      (13 samples), against 0.44 (5 samples) for first or near-first contact. The setting, whether shopping, banking or
+      health, made no significant difference. Across studies the spread was wide: in a new setting, the true
+      correlation could plausibly lie anywhere between 0.15 and 0.83.
+
+      The authors explain the link with trust transfer theory. Online, there is seldom any personal contact with the
+      provider. The site or app is where the customer meets the business, so a system that works well signals a
+      dependable firm behind it. Pooled correlations fit this account but cannot confirm the direction.
+
+  - h: "What goes with each kind of trust"
+    body: |
+      All four sources were positively and significantly linked to each kind of trust. Reputation came first for each,
+      at about 0.60. Propensity to trust came last (0.36 and 0.31 for technology and provider respectively).
+      Institution-based trust fell between them, at 0.49 for both.
+
+      Familiarity was the one source that clearly separated the two. Past use was a stronger correlate of trust in the
+      system than of trust in the firm. In the authors' explanation, even a well-known company is harder to predict than
+      a piece of software, so knowing it well adds less, and trust in a provider leans more on outside cues such as
+      reputation and safeguards.
+
+      Studies that used one blended scale for both kinds of trust found a correlation of 0.44 with intention to use,
+      across 10 samples. Checks for missing studies left every pooled figure positive and significant, and the results held up
+      when samples were removed one at a time.
+    chart: drivers
+
+  - h: "Where safeguards counted most"
+    body: |
+      The team tested whether the setting or the customer's experience changed these links. Many subgroups held only a
+      handful of samples, so the authors advise caution with this part.
+
+      Neither the setting nor experience significantly changed how either kind of trust related to intention to use. A
+      new user and a regular one, in shopping, banking or health, showed much the same pattern.
+
+      Safeguards were another matter. With technology trust, institution-based trust correlated 0.57 in banking
+      (16 samples), 0.51 in e-health (4) and 0.40 in online shopping (15). For provider trust the spread was
+      larger still, with e-health at 0.36 (2 samples) between banking and shopping. The authors regard the result as
+      preliminary and relate it to what is at stake: money handled online can be lost, so people look for structural
+      protection before they trust a bank or its app.
+
+  - h: "When everything is modelled together"
+    body: |
+      The second analysis tested four ways of placing trust in a research model: one blended trust, trust in the
+      technology alone, trust in the provider alone, and both as separate but linked beliefs. All four fitted the data
+      well. The model with both, built on 263 samples, fitted slightly better than the rest (CFI 0.998, SRMR 0.031).
+
+      Three results stand out. Propensity to trust had no significant path in any configuration.
+      With only one kind of trust in the model, each had the same path to intention to use. With both included, the
+      technology carried a little more weight than the provider (see the chart).
+
+      The drivers differed too. In the single-entity models, safeguards and reputation had larger paths to trust in the
+      provider (0.28 and 0.50) than to trust in the technology (0.21 and 0.44), while familiarity had the larger path to
+      the technology (0.35 against 0.18). In the joint model, safeguards and reputation stayed significant for each,
+      but familiarity no longer predicted trust in the provider.
+    chart: paths
+
+  - h: "Why the transfer path lost significance"
+    body: |
+      The biggest surprise came from that joint model. The direct path from technology trust to
+      provider trust fell to β = 0.088 and was not significant (p = 0.626), even though the two correlate strongly.
+
+      The authors suggest that the other drivers in the model absorb the variation in trust in the provider: reputation
+      and safeguards matter more for it than the technology does. An earlier study by
+      Maike Bruckes and colleagues on robo-advisers in the financial industry saw the same pattern: once structural assurance entered
+      the model, the transfer between trust in the bank and trust in the technology lost significance.
+
+      They warn researchers against reading a non-significant path as no relationship, and recommend modelling both
+      kinds of trust as separate, linked constructs rather than relying on one of them alone.
+
+  - h: "The authors' advice"
+    body: |
+      For firms, the message is to look after both kinds of trust and neglect neither. A website or app represents the
+      company, the authors argue: an online banking system that works reliably can raise how trustworthy the bank
+      seems, and one that fails can damage it.
+
+      On the drivers, they recommend building the reputation of the organisation and of its technology, partly by
+      encouraging customers to review both the system and the firm's conduct. To build familiarity, they advise against
+      regular major changes to the interface and suggest that a new system should work like the established ones in its
+      field. Safeguards such as legal compliance and guarantees should fit the risks of the interaction, most of all where
+      losses can be serious.
+
+      They also look ahead to AI chatbots and large language models. When users cannot judge how a system works, they
+      may trust it because they trust the company behind it, and guarantees or regulation may weigh more. That is a
+      forecast, not a finding: the pooled studies collected their data before 2020, mostly on websites and apps driven
+      by menus and buttons.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Measure both kinds of trust", "Put six questions into your regular customer survey. Ask three about your website or app: does it work properly, is it reliable, does it help? Ask three about your company: is it capable, does it act in the customer's interest, is it honest? Use the same one-to-seven answer scale for all six, and keep the two sets apart."]
+  - ["Put your safeguards in view", "List every protection you offer: money-back guarantee, secure payment, data policy, trade seals, complaint route. Check that each one is one click away from the sign-up and payment pages. Write each in plain words, not legal text."]
+  - ["Make the system dependable", "Pull a weekly count of failed logins, error pages and payments that did not go through. Fix the three most frequent problems first. Every breakdown a customer sees also counts against the company."]
+  - ["Keep the screens familiar", "Bundle design changes into no more than two releases a year. Leave the main menu, search box and checkout button where regular users expect them. When you launch something new, follow the layout of the best-known services in your field."]
+  - ["Collect reviews of both", "After each purchase or session, send a two-question review request: one rating for the app or site, one for the company. Show recent reviews on your landing page and reply to every negative one within two working days."]
+  - ["Track trust next to use", "Every quarter, rerun the six survey questions and set the two scores beside sign-ups, active users and repeat purchases. If either score falls two quarters in a row, find out why before the next release."]
+
+expect:
+  - "**Work on the app shows up in views of the firm.** On the authors' reasoning, a smoother, more reliable system should also lift how dependable the company seems, though the pooled studies cannot prove which comes first."
+  - "**Reputation is the main lever.** Of the four sources tested, what customers hear from others showed the largest association with trust in the platform and in the business, so reviews and word of mouth deserve more effort than general reassurance."
+  - "**A trusting nature is not a target.** How trusting customers are by nature had no unique link with trust once other sources were counted, so, on our inference, segmenting audiences by it would add little."
+  - "**Your own figures may differ.** For provider trust and safeguards, the plausible range for a new setting ran from slightly below zero to about 0.80, so test what holds for your customers."
+
+limits:
+  - "**Associations, not causes.** The pooled studies reported correlations between measured beliefs, and the path models assume directions rather than prove them."
+  - "**Intention, not behaviour.** The outcome was people's stated intention to use a service, not recorded use."
+  - "**Before 2020 and before generative AI.** Data came from before the pandemic and mostly covered sites and apps with menus, not chatbots, voice assistants or immersive tools."
+  - "**Four sources of trust only.** Information quality, privacy and perceived risk, all known to matter, were left out."
+  - "**Small subgroups.** Many comparisons by setting or experience rested on fewer than ten samples, some on one or two."
+  - "**Two analyses, two answers.** Technology trust and provider trust correlated strongly, yet the direct path between them was not significant once both entered one model. Why remains to be tested."
+
+faq:
+  - q: "What builds trust in a website or app?"
+    a: "Reputation, above all. Across the pooled studies, what people had heard about a service showed the closest association with how far people trusted the technology and the company. Protective structures like guarantees and legal rules came next, familiarity mattered mainly for trust in the system, and an individual's general tendency to trust mattered least (Kuen et al., 2023)."
+  - q: "Is trust in a website the same as trust in the company behind it?"
+    a: "No, though the two are closely related. They correlate strongly, yet not so strongly that they count as one belief, and different drivers feed each. People trust a site when they believe it functions well, can be relied on and is useful; they trust a company when they think it is capable, well-meaning and honest."
+  - q: "Does a reliable app make people trust the company more?"
+    a: "Possibly. Because online customers rarely deal with the provider directly, the system acts as its stand-in, and a smooth experience can signal a dependable firm. The pooled correlations fit this view, but with reputation and safeguards also in the model, the link running from confidence in the system to confidence in the company was no longer significant."
+  - q: "Does trust matter less once customers know a service well?"
+    a: "Not for their willingness to use it. The tie between trust and intention to use was much the same for new and experienced users, and in shopping, banking and health. Experience did make confidence in the app and confidence in the firm more closely related."
+  - q: "Do these findings apply to AI chatbots?"
+    a: "Only with caution. The studies collected data before 2020 and mostly covered websites and apps with menus and buttons. In the authors' view, complex AI tools may reverse the usual flow, so that trust passes from the company to the technology, and guarantees and regulation may weigh more."
+
+also:
+  - doi: "10.1002/jcpy.1393"
+    title: "Chatbots and mental health: Insights into the safety of generative AI"
+    authors: "De Freitas, Uğuralp, Oğuz-Uğuralp, & Puntoni"
+    journal: "Journal of Consumer Psychology"
+    year: 2024
+    text: >-
+      Companion apps that offer an AI friend to talk to now run at scale, and no one can predict exactly where their
+      conversations will go. Field data from two companion AIs showed mental health crises in a small but real share of
+      user conversations, and a test of several commercial apps found they often failed to recognise distress or
+      responded poorly. In an experiment, people reacted badly to risky or unhelpful chatbot replies, a reputational
+      risk for the firms behind them. A brand that puts a chatbot in front of customers should decide in advance how it
+      will deal with conversations the bot was never built for.
+  - doi: "10.1007/s11747-023-00986-8"
+    title: "Deploying artificial intelligence in services to AID vulnerable consumers"
+    authors: "Hermann, Williams, & Puntoni"
+    journal: "Journal of the Academy of Marketing Science"
+    year: 2024
+    text: >-
+      AI lets services fit each customer closely, but it can also treat vulnerable consumers unfairly or shut them out
+      of the market, often without the firm realising. These are people who lack access to resources or control over
+      them, for a while or for good. Drawing on work on consumer vulnerability and AI for social good, the authors
+      propose the AID framework: AI that makes services more accessible, adapts customer journeys interactively and
+      improves decisions over time. Before an AI service goes live, it helps to ask which customers it could leave
+      behind.
+
+charts:
+  drivers:
+    title: "How closely each source went with trust (pooled correlation, 0 = no link)"
+    scale: [0, 0.7]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Reputation, technology", 0.600, true]
+      - ["Reputation, provider", 0.604, true]
+      - ["Institution-based, technology", 0.493, false]
+      - ["Institution-based, provider", 0.492, false]
+      - ["Familiarity, technology", 0.521, false]
+      - ["Familiarity, provider", 0.356, false]
+      - ["Readiness to trust, technology", 0.363, false]
+      - ["Readiness to trust, provider", 0.309, false]
+    source: "Pairwise random-effects meta-analyses (Table 2): pooled correlations from 12 to 35 samples per bar; all significant at p < 0.001. Readiness to trust is the paper's propensity to trust."
+  paths:
+    title: "Path from each kind of trust to intention to use (standardised β)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Technology, alone in the model", 0.54, false]
+      - ["Provider, alone in the model", 0.54, false]
+      - ["Technology, both in the model", 0.36, true]
+      - ["Provider, both in the model", 0.31, true]
+    source: "Meta-analytic structural equation models (Figure 2): isolated configurations II and III, and integrated configuration IV; every path significant at p < 0.001."
+
+related_pages: []
