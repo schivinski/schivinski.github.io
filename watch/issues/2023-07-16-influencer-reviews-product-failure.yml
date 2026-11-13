@@ -1,0 +1,263 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 27                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-07-16"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: influencer-reviews-product-failure
+status: live
+
+title: "Can an influencer's positive review lift the mood of a disappointed buyer? What an International Journal of Electronic Commerce study found"
+dek: >-
+  Influencer marketing is usually aimed at the moment before a sale. Four experiments with US residents find that after a
+  product disappoints, a positive video review from a trusted influencer improves buyers' mood and their view of the
+  product, unless the product has actually broken.
+short_title: "Influencer reviews after a product lets buyers down"
+
+description: >-
+  Suri et al. find a positive influencer review lifts the mood of buyers let down by a product and curbs online
+  complaints, unless the fault is severe.
+
+keywords: [influencer marketing, influencer product reviews, product failure, post-purchase dissatisfaction,
+  service recovery, negative word of mouth, influencer trustworthiness, failure severity, facial expression analysis,
+  sentiment analysis, social contagion, International Journal of Electronic Commerce]
+topics: [Influencers, Service]
+
+image:
+  file: 2023-influencer-reviews-product-failure.jpg
+  og: 2023-influencer-reviews-product-failure-og.jpg
+  alt: "A young man in a rust-coloured T-shirt rests his forehead on his clasped hands at a desk with a laptop, a phone and a stack of orange cardboard parcels"
+  caption: "Once a disappointing purchase has arrived, the next opinion that counts may be someone else's. Photo: Rifki Kurniawan on Unsplash."
+
+short_answer: >-
+  Yes, as long as the fault is minor. Across four online experiments, US residents imagined owning disappointing
+  headphones. Those who then watched an influencer praise the same model wrote more positive reviews of it than those
+  who saw him criticise it. Their mood and their opinion of the product improved, and they became less inclined to
+  complain online. The lift depended on trusting the influencer and vanished when the headphones had broken.
+
+takeaways:
+  - "Reviews that participants wrote after the influencer's praise scored about 70 out of 100 for positive tone, against about 28 after his criticism."
+  - "Praise raised opinions of the headphones from 1.85 to 2.77 out of 7; criticism lowered them from 1.82 to 1.55."
+  - "Willingness to criticise the brand online fell from 3.91 to 3.51 out of 7 after a positive review, and edged up from 3.97 to 4.10 after a negative one."
+  - "The influencer's verdict made a significant difference only for people who rated his trustworthiness at 2.91 or higher on a seven-point trust scale, which is below the scale's midpoint."
+
+paper:
+  doi: "10.1080/10864415.2023.2226898"
+  title: "This Product Seems Better Now: How Social Media Influencers’ Opinions Impact Consumers’ Post-failure Responses"
+  authors: ["Suri, A.", "Huang, B.", "Sénécal, S."]
+  authors_full: ["Anshu Suri", "Bo Huang", "Sylvain Sénécal"]
+  year: 2023
+  journal: "International Journal of Electronic Commerce"
+  volume: "27"
+  issue: "3"
+  pages: "297-323"
+  online: "2023-07-16"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (Notes on contributors on the Taylor & Francis page; no ORCID iDs printed)
+    - name: "Anshu Suri"
+      affiliation: "University College Dublin, Ireland"
+      orcid: ""
+    - name: "Bo Huang"
+      affiliation: "Nottingham University Business School China"
+      orcid: ""
+    - name: "Sylvain Sénécal"
+      affiliation: "HEC Montreal, Canada"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 4
+    basis: "Four online experiments with US residents: 82 (MTurk), 328 (Prolific, before-and-after design), 188 (MTurk), 258 (Prolific); 856 in all by our sum. The severity pretest with 104 MTurk workers is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Anshu Suri of University College Dublin,
+      Bo Huang of Nottingham University Business School China and
+      Sylvain Sénécal of HEC Montréal
+      asked whether influencers still shape how people feel once a purchase has gone wrong. Studies of influencers mostly
+      examine the stage before buying, when a review can tip a decision. Yet dissatisfied buyers may look up other
+      opinions of something they already own, and an influencer's verdict on it can be favourable or harsh.
+
+      Two established theories predict opposite outcomes. Social contagion theory holds that beliefs and emotions spread
+      from person to person through a network, most readily from people others look up to, so an influencer's praise should improve a disappointed buyer's
+      view of the product and, with it, their mood. Cognitive dissonance theory holds that two clashing beliefs cause
+      discomfort, so hearing an expert praise a product that has just let you down should make you feel worse.
+
+      To test the two, the team ran four online experiments around one scenario. Participants imagined buying
+      headphones from an invented brand and being unhappy with them. They then watched a short video review by a famous
+      influencer, played in every version by the same hired actor reading a script, who either liked the headphones or
+      had a bad experience with them too.
+    facts:
+      - ["Participants", "US residents in four online experiments: 82 and 188 from Amazon Mechanical Turk, 328 and 258 from Prolific"]
+      - ["Scenario", "Owning headphones from SonicWave, an invented brand, whose sound quality and noise cancelling fell short of expectations"]
+      - ["What changed", "Whether the influencer praised or criticised the same model; the last study also varied the severity of the fault"]
+      - ["Measured", "Facial expressions read by software, the tone of a review each participant wrote, self-rated mood, opinion of the product, intention to post negative comments online and trust in the influencer"]
+      - ["Design", "Studies 1, 3 and 4 compared separate groups; Study 2 measured the same people before and after the video"]
+
+  - h: "Study 1: what faces and written reviews showed"
+    body: |
+      After the video, 82 participants wrote a review of the headphones as if for the maker's website, while a webcam
+      recorded their faces. Software called FaceReader scored the expressions for emotions such as happiness, anger and
+      sadness, each from 0 (absent) to 1 (fully present). A text-analysis program, LIWC, rated the tone of every review
+      from 0 to 100, where scores below 50 lean negative.
+
+      Faces showed more happiness after the positive video than after the negative one (0.030 against 0.011), a
+      difference just short of conventional significance (p = .06). Anger and sadness were similar whichever video people had seen.
+      The written reviews pointed the same way with a far clearer result: their tone was much more positive after the
+      influencer's praise.
+
+      So the feel-worse prediction found no support. What changed was positive feeling, not negative feeling. The authors
+      account for this with earlier research showing that positive and negative feelings behave as two separate dimensions
+      rather than as opposite ends of one scale.
+
+  - h: "Study 2: opinion of the product changes first"
+    body: |
+      The second experiment followed 328 people through the scenario. Each rated their mood, their opinion of the
+      headphones and their readiness to post criticism of the brand online, using seven-step rating scales,
+      once after imagining the failure and again after watching the influencer.
+
+      Positive mood rose clearly after the praising video and only a little after the critical one. Opinion of the
+      product rose after praise and fell after criticism, and the two changes were linked. In a mediation analysis, the
+      review's effect on mood ran entirely through the change in opinion: the indirect effect through opinion was significant (0.55, with a
+      range of 0.37 to 0.74 at 95% confidence), while the direct effect of the review on mood was not (0.04).
+
+      The intention to complain online moved along the same route. Praise improved opinion of the product, the better
+      opinion lifted mood, and people in a better mood were less keen to post negative comments. Once that chain was
+      accounted for, the review had no significant direct effect on the intention.
+    chart: mood
+
+  - h: "Why praise helped rather than hurt"
+    body: |
+      The authors set out with two rival predictions and ended up joining them. Moving your own opinion closer to an
+      expert's is a known way of easing the discomfort of conflicting views. The change of opinion that social contagion
+      predicts may therefore also be how people resolve their dissonance, and the authors see the two theories
+      as working together rather than against each other.
+
+      One result fitted neither prediction neatly. In Study 2, the critical video also raised positive mood slightly. The
+      authors suggest that hearing an influencer confirm your own bad experience may bring some relief as well, and leave
+      the point for future research.
+
+  - h: "Study 3: trust in the influencer"
+    body: |
+      In the third experiment, 188 people read that the influencer was known for his expertise in electronics and had a
+      million followers on social media. Before seeing his video, they rated how dependable, honest, reliable, sincere and
+      trustworthy he seemed. Asking first meant the video itself could not colour that judgement.
+
+      The reviews participants wrote after his praise were again more positive in tone (56.75 against 28.88 out of 100).
+      How large that difference was depended on trust (interaction coefficient 9.16, p = .01). A floodlight analysis,
+      which checks at which levels of trust the effect is significant, found it only among people whose trust reached a
+      modest threshold. Below it, what the influencer said did not significantly change what they wrote.
+
+  - h: "Study 4: when the product has broken"
+    body: |
+      The last experiment, with 258 people, varied how badly the headphones had failed. In the milder version,
+      participants were unhappy with the quality and unsure the headphones would last. In the severe version, the
+      headphones had come apart after only a couple of gentle uses. A pretest with 104 other people confirmed that the
+      second version felt more serious: it scored 6.15 out of 7, the milder one 5.67.
+
+      For buyers with the milder fault, the influencer's praise again led to clearly more positive reviews. For the broken pair, the
+      two videos produced reviews of similar tone, with no significant difference. The overall test of whether severity
+      changed the effect was marginally significant (p = .095); the separate comparisons for each fault give the clearer
+      picture.
+    chart: severity
+
+  - h: "The authors' advice"
+    body: |
+      In the authors' view, influencers can help with recovery after a sale, not only with winning it. They suggest placing
+      influencer testimonials on a brand's customer support pages, answering complaints on social media with sponsored
+      posts that feature influencers' positive reviews, and emailing customers who have complained or rated a product
+      poorly some positive influencer content about what they bought.
+
+      Two cautions follow from the moderators. Work with influencers your customers see as authentic and trustworthy,
+      and judge the failure first: a product that underperforms is a candidate, one that does not work at all or causes
+      real harm is not. The authors also propose measuring influencers after the sale, for example by whether complaints
+      and returns drop after a particular influencer's positive review. None of these tactics was tested in the
+      experiments.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort complaints by how serious they are", "Pull last month's complaints, returns and one-star to three-star ratings. Tag each one either 'works but disappoints' or 'broken or unsafe'. Plan creator content for the first group only, and send the second straight to a refund or replacement."]
+  - ["Check that customers trust your creators", "Before you reuse a creator's content with unhappy customers, ask 100 buyers to score that creator from 1 to 7 for honesty, reliability and trustworthiness. Leave out any creator whose average falls below 4."]
+  - ["Collect honest reviews of your weakest products", "Pick the three products that draw the most complaints. Ask creators who genuinely like them for a short video showing how to get the best out of each one. Label every paid video clearly as an ad."]
+  - ["Put the videos where unhappy buyers look", "Add one video of under two minutes to the product's help page, its returns page and the follow-up email sent after a low rating. Place it above the contact form, not below it."]
+  - ["Test it for one month", "Send the video email to half of the buyers who leave a rating of three stars or fewer, chosen at random, and your usual support email to the other half. After 30 days, compare returns, repeat complaints and public negative reviews in each half."]
+  - ["Report on creators after the sale", "Each quarter, add three lines to every creator report: complaints, returns and negative reviews per 1,000 buyers of the products they covered. Read them next to reach and sales before renewing a contract."]
+
+expect:
+  - "**Less disappointment, not delight.** Even after praise, the average opinion of the headphones stayed under 4, the midpoint of the rating scale. Our inference is that a let-down buyer will feel less let down rather than become a fan."
+  - "**Opinion comes before mood.** The improvement ran through how people judged the product itself; content designed only to cheer people up was not tested."
+  - "**Distrust blocks it.** People who doubted the influencer from the start were not moved by his verdict."
+  - "**Real breakdowns need other remedies.** A positive review did nothing measurable for buyers whose headphones had fallen to pieces, which on our inference leaves refunds and replacements as the tools for those cases."
+
+limits:
+  - "**Imagined failures.** Participants pictured a disappointing purchase rather than living with one, and nobody had paid for the headphones."
+  - "**One product, one influencer.** All four studies relied on one fictitious headphone brand and one male actor playing a macro-influencer, so other categories, real brands and smaller creators remain untested."
+  - "**Intentions, not posts.** Willingness to complain online was asked, not observed; complaints, returns and sales were not tracked."
+  - "**Trust was measured, not set.** Study 3 compared people who already trusted the influencer more or less, so it shows an association with trust rather than what raising trust would do."
+  - "**Weak facial evidence.** The webcam measure reached only marginal significance; the authors cite the small sample and the online rather than laboratory setting as likely reasons."
+  - "**Influencer-led purchases untested.** No study looked at buyers who chose the product on the same influencer's recommendation, a case the authors flag as a possible limit to the effect."
+
+faq:
+  - q: "Do influencer reviews still matter after someone has bought a product?"
+    a: "Yes, in these experiments. People who had imagined a disappointing pair of headphones felt better, judged the product more kindly and reported a weaker intention to post complaints online after an influencer praised the same model than after he criticised it (Suri et al., 2023)."
+  - q: "Does praise for a product make disappointed customers angrier?"
+    a: "No sign of it here. The researchers tested that possibility, which follows from cognitive dissonance theory, and the webcam picked up no more anger or sadness after praise than after criticism, while positive feelings and written reviews improved."
+  - q: "Which influencers can help win back unhappy customers?"
+    a: "Ones the customers already trust. When trust was rated before the video, the influencer's praise improved what people wrote only among those whose trust rating cleared a fairly low bar; among the most doubtful it made no significant difference."
+  - q: "Can a positive influencer review help when a product actually breaks?"
+    a: "This research says no. Once the headphones had broken after gentle use, reviews written after the influencer's praise were about as negative as those written after his criticism. The benefit showed up only for the milder problem of disappointing quality."
+  - q: "How did the researchers measure emotions?"
+    a: "Three ways: software reading emotions from facial expressions on a webcam, text analysis of the tone of reviews participants wrote, and questionnaires on mood. According to the authors, all three measures converged."
+
+also:
+  - doi: "10.1002/cb.2205"
+    title: "Is no feedback perceived as a risk in online reviews?"
+    authors: "Hwang & Han"
+    journal: "Journal of Consumer Behaviour"
+    year: 2023
+    text: >-
+      Many buyers on online marketplaces never leave a rating. An online survey of 450 people who had used a marketplace
+      within three months of taking part tested whether those missing ratings look like a warning sign. Listings with many sales
+      but no feedback seemed riskier to shoppers whether they were focused on avoiding losses or on seeking gains, while
+      gain-focused shoppers saw clearly less risk when only a few sales lacked feedback. The more risk shoppers saw, the
+      less they intended to buy. Unrated sales are not a neutral blank on a product page, which makes prompting every buyer
+      for a rating worth the effort.
+  - doi: "10.1111/ijcs.12962"
+    title: "Four decades of negative word‐of‐mouth and negative electronic word‐of‐mouth: A morphological analysis"
+    authors: "Ribeiro & Kalro"
+    journal: "International Journal of Consumer Studies"
+    year: 2023
+    text: >-
+      A review of 282 journal papers that deal only with negative word of mouth, spoken or posted online, rather than
+      with word of mouth in general. Using morphological analysis, the authors sort the field into four dimensions: what
+      it is called, what triggers it, what effects it has, and how it can be prevented and answered online. These
+      split into 15 sub-dimensions and 217 variants, which the authors combine into 550 open research questions. Teams
+      writing a complaint-response guide will find the prevention and response dimension the most direct starting point.
+
+charts:
+  mood:
+    title: "Positive mood before and after the influencer's video (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Positive review: before", 2.83, false]
+      - ["Positive review: after", 3.59, true]
+      - ["Negative review: before", 3.00, false]
+      - ["Negative review: after", 3.17, false]
+    source: "Study 2, 328 US residents, average of a five-item mood scale (calm, peaceful, optimistic, encouraged, hopeful). Both rises were significant; the one after the negative review was much smaller."
+  severity:
+    title: "Positive tone of participants' own reviews, by type of fault (0 to 100)"
+    scale: [0, 50]
+    step: 10
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Minor fault, positive review", 45.40, true]
+      - ["Minor fault, negative review", 26.81, false]
+      - ["Broken pair, positive review", 37.08, false]
+      - ["Broken pair, negative review", 34.30, false]
+    source: "Study 4, 258 US residents, tone scored by text-analysis software (LIWC). The review's valence made a significant difference for the minor fault only."
+
+related_pages: []
