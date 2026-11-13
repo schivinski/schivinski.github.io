@@ -1,0 +1,239 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 52                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-12-10"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: ar-try-on-malleable-self
+status: live
+
+title: "Do AR try-on tools build stronger brand bonds? What a Journal of Consumer Behaviour study found"
+dek: >-
+  Watching sneakers appear on the feet through an AR try-on, rather than on a product page, helped women picture wearing
+  them, feel more open to change and connect more with a sportswear brand. With Gucci, the shoes became easier to picture
+  but the bond did not grow, and picturing did less for the sense of self when the virtual look felt far from the real one.
+short_title: "AR try-ons, a more flexible self and closer brand ties"
+
+description: >-
+  Kim & Im find an AR sneaker try-on made women see themselves as more changeable and tied them closer to a sportswear
+  brand, but not reliably to Gucci.
+
+keywords: [augmented reality try-on, virtual try-on, AR shopping, self-brand connection, malleable self-concept,
+  mental imagery, virtual self-discrepancy, luxury brands and AR, website revisit intention, sneaker try-on app,
+  Journal of Consumer Behaviour]
+topics: [Retail, Advertising]
+
+image:
+  file: 2023-ar-try-on-malleable-self.jpg
+  og: 2023-ar-try-on-malleable-self-og.jpg
+  alt: "A woman with red nails applies red lipstick while holding up a small gold hand mirror that reflects her smiling red lips, against a deep red backdrop"
+  caption: "Seeing a new look on yourself is much of the appeal of any try-on, real or virtual. Photo: Bruno Dias on Unsplash."
+
+short_answer: >-
+  For an everyday brand, yes. In an online experiment, 116 US women in their 20s and 30s watched a sneaker try-on filmed
+  from the shopper's point of view, either through an AR app or on a mobile website. The AR version made the sportswear
+  brand feel closer to their own identity, by helping them picture wearing the shoes and feel that their self-image
+  could change. With Gucci sneakers, that closer bond did not reliably appear.
+
+takeaways:
+  - "After the AR try-on video, ease of picturing oneself in the sneakers averaged 5.84 out of 7. The mobile website video produced 4.98."
+  - "Seen through AR, the sportswear sneakers lifted agreement that one's self-image can change from 4.35 to 5.01."
+  - "The sense that the sportswear brand reflects who you are rose to 5.29 with AR, from 4.66 on the website, measured the same way."
+  - "With Gucci sneakers, AR still made the shoes easier to picture (5.65 against 5.13), but brand connection (4.93 against 4.37) did not differ reliably."
+
+paper:
+  doi: "10.1002/cb.2296"
+  title: "Can augmented reality impact your self-perceptions? The malleability of the self and brand relationships in augmented reality try-on services"
+  authors: ["Kim, T. H.", "Im, H."]
+  authors_full: ["Terry Haekyung Kim", "Hyunjoo Im"]
+  year: 2024
+  journal: "Journal of Consumer Behaviour"
+  volume: "23"
+  issue: "4"
+  pages: "1623-1637"
+  online: "2023-12-10"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Terry Haekyung Kim"
+      affiliation: "Department of Graphic Design, Apparel Design, Retail Merchandising, & Product Design, University of Minnesota, St. Paul, Minnesota, USA"
+      orcid: "0000-0002-6686-5571"
+    - name: "Hyunjoo Im"
+      affiliation: "Department of Graphic Design, Apparel Design, Retail Merchandising, & Product Design, University of Minnesota, St. Paul, Minnesota, USA"
+      orcid: "0000-0002-7932-0087"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two online between-subjects experiments (AR try-on video vs mobile website video) with US women aged 20 to 39 on MTurk: Study 1 sportswear sneakers via the Wanna Kicks app (N = 116), Study 2 Gucci sneakers via Gucci's AR app (N = 110, adds virtual self-discrepancy as moderator)"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Terry Haekyung Kim and Hyunjoo Im, retail and consumer researchers from the University of Minnesota, wanted to
+      pin down what sets an AR try-on apart from a product page. With AR, a shopper can swap one item for the next in a
+      split second and see each one on their own body. Earlier work had shown that wearing a piece of clothing can change how people describe themselves. The team
+      asked whether watching your appearance change quickly, item after item, also changes how fixed you believe you are.
+
+      Psychologists call that belief the malleability of the self: the sense that your self-image, and the kind of person
+      you are, can change. The authors expected AR to strengthen it by making the experience more vivid, which they
+      measured as imagery, meaning how easily people could picture themselves wearing the product. A more flexible self
+      should in turn find more points of contact with a brand. That is self-brand connection, the degree to which a brand
+      has become part of how someone sees themselves.
+
+      They ran two online experiments with American women aged 20 to 39, sourced via Amazon Mechanical Turk. Each woman
+      watched one short video, filmed from a first-person angle, showing either an AR app or a mobile website, while
+      imagining she was shopping for sneakers. The first experiment used a mass-market sportswear brand, the second Gucci.
+      Sneakers were chosen so that no faces had to appear on screen.
+    facts:
+      - ["Participants", "US women between 20 and 39 years old, recruited online: 116 in the first experiment, 110 in the second (53 AR, 57 website)"]
+      - ["Products", "Five pairs of women's sneakers from a sportswear brand, shown through the Wanna Kicks try-on app; then six pairs of Gucci sneakers, shown through Gucci's own AR app"]
+      - ["What changed", "Whether the video showed the sneakers in an AR try-on app or on the brand's mobile web pages, with the same items in both versions"]
+      - ["Measured", "Imagery, malleability of the self, self-brand connection and intention to revisit the website, on 1 to 7 agreement scales; the second experiment added virtual self-discrepancy"]
+      - ["Analysis", "Analysis of variance, then serial and moderated serial mediation (PROCESS Models 6 and 91, 5,000 resamples)"]
+
+  - h: "Sportswear: AR strengthened the brand link"
+    body: |
+      With the sportswear sneakers, the AR group came out ahead on all three measures. Education and household income
+      were similar across the groups, and controlling for both left the results unchanged.
+
+      The more telling result is the route. A serial mediation test traced a chain from AR to stronger imagery, from
+      imagery to a more malleable sense of self, and from there to self-brand connection. With that chain in the model,
+      AR itself added nothing further to the brand link. The authors classify this as full mediation. Imagery was also
+      tied to self-brand connection by itself, without passing through malleability. The path coefficients printed in the model
+      figure are .74 from imagery to malleability, .49 from malleability to the brand link and .43 for that direct route.
+
+      The stronger a woman's connection to the brand, the higher her stated intention to visit the website again
+      (β = .70).
+    chart: sportswear
+
+  - h: "Gucci: easier to picture, but no closer bond"
+    body: |
+      The second experiment repeated the design with six Gucci sneakers and Gucci's own app and web pages. AR again made
+      it easier to picture wearing the shoes. This time beliefs about the self barely moved: 4.99 with AR against 4.96 with
+      the website.
+
+      To see why, the team added a measure called virtual self-discrepancy: how far the look on screen felt from the
+      person's actual self. One item read "I felt the appearance was different from my actual self". The higher this
+      score, the weaker the link from imagery to malleability. In unstandardised terms, the effect was .86 one standard
+      deviation below the average discrepancy, .61 at the average and .35 one standard deviation above it. The full chain
+      from AR to brand connection held at low and average levels of discrepancy and was not significant at high levels.
+
+      Brand connection again predicted intention to return to the website (β = .76).
+    chart: luxury
+
+  - h: "Why the brand may matter"
+    body: |
+      Self-discrepancy theory is the authors' explanation. A modest distance between who you are and an image of
+      yourself lets you take that image on board. A very large distance makes the contrast stand out, and the
+      image is rejected. Luxury labels tend to stand for an ideal self rather than the everyday one. They add that
+      typical luxury customers are around 43 years old with an average income of $136,000. Their participants
+      averaged 31.52 and 30.84 years in the two experiments, and more than half had incomes between $20,000 and $65,000.
+
+      One caution is our own reading of the design. Brand was not varied inside a single experiment, and the two
+      experiments also differed in app, website and number of items. The contrast between sportswear and Gucci therefore
+      reflects more than the brand. The discrepancy measure, collected within the Gucci experiment, is the more direct
+      evidence for the authors' explanation.
+
+  - h: "The authors' advice"
+    body: |
+      Adding AR try-on to online stores is their first recommendation, on the argument that shoppers who see themselves
+      as more adaptable will find more brands that fit them. They see uses for new brands that want to attract a
+      competitor's customers, for brand extensions into new product lines and for retailers who want shoppers to try their own labels.
+      Because intention to revisit rose with brand connection, they also present AR as a route to loyalty.
+
+      Their advice differs by brand. Brands that are moderately familiar to most consumers, which they call masstige, can
+      use AR actively. Brands with more distinctive characteristics should work on reducing the distance between the real and
+      the virtual self, for instance by offering the try-on mainly to core customers and reaching others through tools
+      such as product customisation. For shoppers who do feel that distance, the authors suggest a try-on that is as
+      vivid and interactive as possible, since imagery still fed brand connection directly. These are recommendations;
+      neither experiment tested them.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Choose the items to put in try-on first", "Pick 10 to 20 products that people judge on their own body, such as shoes, glasses, hats or lipstick shades. Start with the lines most of your shoppers already feel at home with."]
+  - ["Ask how far each line feels from your shoppers", "Show 20 customers photos of your best sellers and ask one question for each: can you picture yourself wearing this? Mark every line where most say no as a distant line."]
+  - ["Let people swap in one tap", "Load at least six options into each try-on session and let shoppers switch between them with a single tap or swipe. Each new item should appear on the shopper in under a second."]
+  - ["Keep the shopper in the frame", "Set the default view to show the item on the shopper's own body, as they would see it looking down or in a mirror. Put the model photos one tap away rather than first."]
+  - ["Point distant lines at regular buyers first", "For the distant lines, show the try-on button first to people who have bought from that line before. Give everyone else another way in, such as a colour or fit customiser."]
+  - ["Track return visits for 30 days", "Count the try-on users who return to your site within 30 days and set that against other visitors. Ask one question after each try-on, \"This brand suits me\", scored 1 to 7, and follow it month by month."]
+
+expect:
+  - "**Vividness comes first.** Any gain in brand connection ran through how easily people pictured themselves in the product, so, in our reading, a try-on that looks flat or slow is unlikely to help."
+  - "**Premium lines need a separate plan.** For a label that feels out of reach, AR may make the product easier to imagine without making shoppers feel the brand fits them."
+  - "**Return visits are a first signal.** Brand connection and plans to revisit moved closely together in both experiments; purchases were not measured, so sales gains are an assumption."
+  - "**One session, short effects.** People saw five or six items in one short video. Whether longer or repeated use changes how people see themselves more lastingly is, as the authors say, still open."
+
+limits:
+  - "**Videos, not hands-on use.** Participants watched a pre-recorded session, seen as the shopper would see it; none used an AR app on their own body."
+  - "**Women only, in one age band.** Everyone was a US woman aged 20 to 39 recruited online; men, older shoppers and other countries were not tested."
+  - "**One product type.** Both experiments used sneakers. The authors note that make-up try-ons, which show the face, may work differently."
+  - "**Two brands, two set-ups.** Brand changed between experiments along with the app, the website and the number of items, so the sportswear and Gucci results are not a controlled comparison."
+  - "**Stated intentions.** Revisiting the website was asked about, not tracked, and no purchases were recorded."
+
+faq:
+  - q: "Does an AR try-on build brand loyalty?"
+    a: "Indirectly, for an everyday brand. Women shown sneakers through AR felt a sportswear brand reflected who they are more than women who saw the same pairs on a mobile website, and those who felt that bond also reported more intention to revisit the site (Kim & Im, 2024). With Gucci, the bond did not reliably rise."
+  - q: "What does malleability of the self mean?"
+    a: "It describes how changeable people believe they are: whether their self-image and character can shift or stay fixed. Some people hold this view more firmly than others, and it can grow for a while when a situation brings different sides of a person to mind. Participants rated items like 'My self-image is something about me that I can change'."
+  - q: "Why did AR try-on not help the luxury brand?"
+    a: "The authors point to virtual self-discrepancy, the feeling that the person on screen does not match the real you. Among women who felt that strongly, picturing the Gucci sneakers did much less to make them feel changeable, and the indirect path linking AR with brand connection was not significant."
+  - q: "What is self-brand connection?"
+    a: "How far someone has made a brand part of how they see themselves. Five items captured it, among them 'This brand suits me well' and 'This brand can reflect who I am', and women marked how far they agreed with each."
+  - q: "Would AR mirrors in physical stores work the same way?"
+    a: "The authors think in-store AR mirrors or fitting rooms may produce a similar effect. Both experiments took place online, though, so that remains untested."
+
+also:
+  - doi: "10.1080/15252019.2023.2270478"
+    title: "Virtual Influencers in Advertisements: Examining the Role of Authenticity and Identification"
+    authors: "Li & Ma"
+    journal: "Journal of Interactive Advertising"
+    year: 2024
+    text: >-
+      Brands now hire computer-generated influencers, and this paper asks whether making them look more human helps.
+      In two between-subjects experiments with 178 and 162 participants, the more humanlike versions were judged more
+      authentic, which led to warmer attitudes to the ad and stronger purchase intentions. Feeling similar to the
+      influencer, or wanting to be like it, explained the effect only in the study that used a hedonic product. A brand
+      designing its own virtual face may find realism worth the extra rendering budget.
+  - doi: "10.1080/0267257X.2023.2279142"
+    title: "Influences of omnichannel integration and value congruence on customer patronage: the flow theory perspective"
+    authors: "Liu, Li, Liu, & Guan"
+    journal: "Journal of Marketing Management"
+    year: 2024
+    text: >-
+      Retailers that join up their channels want customers to keep coming back. A survey of 292 omnichannel customers
+      separated three kinds of integration, informational, transactional and relational, and traced their effect on
+      patronage through flow, the absorbed state people reach when an experience runs smoothly. Transactional and relational
+      integration raised patronage through flow, and shared values between retailer and customer strengthened the effects
+      of informational and relational integration on flow. Linking channels seems to work best for shoppers who already
+      feel the retailer stands for what they do.
+
+charts:
+  sportswear:
+    title: "Sportswear sneakers: scores after the AR and website videos (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Picturing the shoes, website", 4.98, false]
+      - ["Picturing the shoes, AR", 5.84, true]
+      - ["Self-image can change, website", 4.35, false]
+      - ["Self-image can change, AR", 5.01, true]
+      - ["Brand connection, website", 4.66, false]
+      - ["Brand connection, AR", 5.29, true]
+    source: "Experiment 1, 116 US women on Amazon Mechanical Turk, means reported in the text. All three differences were significant (p < .05 or lower)."
+  luxury:
+    title: "Gucci sneakers: scores after the AR and website videos (1 to 7 scale)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Picturing the shoes, website", 5.13, false]
+      - ["Picturing the shoes, AR", 5.65, true]
+      - ["Self-image can change, website", 4.96, false]
+      - ["Self-image can change, AR", 4.99, true]
+      - ["Brand connection, website", 4.37, false]
+      - ["Brand connection, AR", 4.93, true]
+    source: "Experiment 2, 110 US women (53 AR, 57 website), means reported in the text. Only the difference in picturing the shoes was significant."
+
+related_pages: []
