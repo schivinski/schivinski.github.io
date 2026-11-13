@@ -1,0 +1,248 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 6                       # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-02-19"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: micro-influencer-brand-personality
+status: live
+
+title: "Should a brand pick micro-influencers who match its personality? What an Australasian Marketing Journal study found"
+dek: >-
+  Whether an influencer should mirror a brand depends on how firmly people already picture it. In experiments run in
+  Germany, one car brand with a vague image absorbed the traits of the creator who showed it, while brands with a settled
+  image were rated even higher on their own trait beside a creator unlike them.
+short_title: "Influencer fit and brand personality"
+
+description: >-
+  Zwicker et al. find a brand with an unclear personality absorbs its micro-influencer's traits, while clearly defined
+  brands gain most from a mismatched one.
+
+keywords: [micro-influencers, brand personality, influencer-brand fit, influencer brand congruence, brand personality
+  transfer, novice brands, established brands, assimilation and contrast effects, ceiling effect, influencer selection,
+  Australasian Marketing Journal]
+topics: [Influencers, Social media]
+
+image:
+  file: 2023-micro-influencer-brand-personality.jpg
+  og: 2023-micro-influencer-brand-personality-og.jpg
+  alt: "A styled still life on a wooden table against a deep crimson wall: dried pampas grass in a painted vase, a white shell-shaped bowl, a small white bust, a vintage film camera on an open magazine and pale hydrangeas, with a black studio lamp on a stand aimed at the set from the right"
+  caption: "Whatever surrounds a product affects how people see it, and on social media that setting is often an influencer's page. Photo: Sergey Sokolov on Unsplash."
+
+short_answer: >-
+  Only while the brand's personality is still taking shape. In two experiments with 439 young adults in Germany, a car
+  brand with a less distinct personality was rated more sincere on a sincere micro-influencer's page and more exciting on
+  an exciting one's. Brands with a clear personality gained nothing from a matching influencer. Their own trait scored
+  higher beside an influencer with the opposite personality, which also raised buying interest among people who saw
+  themselves in the brand.
+
+takeaways:
+  - "The car brand with the vaguest personality scored 4.14 out of 9 for sincerity when it appeared beside a sincere micro-influencer, against 3.23 when people saw it with no influencer."
+  - "A brand already known for sincerity reached 6.21 on the 1 to 9 sincerity scale next to an exciting micro-influencer, compared with 5.63 next to a sincere one."
+  - "Personality fed through to buying interest only among people who felt the brand suited them. For them, the sincere influencer added 1.13 points to purchase intentions for the less distinct brand, through its higher sincerity, on a scale running from 1 to 9."
+  - "How credible, attractive or expert the influencer seemed did not measurably change brand personality ratings in either of the 2 experiments."
+
+paper:
+  doi: "10.1177/14413582231153191"
+  title: "How Micro-Influencers’ Personality Influences the Personality of Novice and Established Brands"
+  authors: ["Zwicker, S.", "Tarabashkina, L.", "Proksch, M.", "Hardiman, M."]
+  authors_full: ["Sebastian Zwicker", "Liudmila Tarabashkina", "Michael Proksch", "Marco Hardiman"]
+  year: 2024
+  journal: "Australasian Marketing Journal"
+  volume: "32"
+  issue: "2"
+  pages: "113-125"
+  online: "2023-02-19"
+  open_access: true
+  licence: "CC BY-NC 4.0"
+  researchers:   # as printed in the article (SAGE author notes and ORCID iDs)
+    - name: "Sebastian Zwicker"
+      affiliation: "Kiel University of Applied Sciences, Germany"
+      orcid: "0000-0001-7244-1743"
+    - name: "Liudmila Tarabashkina"
+      affiliation: "University of Western Australia, Crawley, Australia"
+      orcid: "0000-0002-0543-2713"
+    - name: "Michael Proksch"
+      affiliation: "H2O.ai, Mountain View, CA, USA"
+      orcid: ""
+    - name: "Marco Hardiman"
+      affiliation: "Kiel University of Applied Sciences, Germany"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two online experiments with participants from German universities (Study 1, 165; Study 2, 274); three pilot studies that chose the influencer profiles and brands not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Sebastian Zwicker of Germany's Kiel University of Applied Sciences,
+      Liudmila Tarabashkina of the University of Western Australia,
+      Michael Proksch of H2O.ai in Mountain View, California, and
+      Marco Hardiman, also of Kiel University of Applied Sciences,
+      asked how a brand's personality changes when it turns up on the page of a micro-influencer, a creator with a
+      modest following. Such creators often share brand content without being asked, so brands have little say over who
+      shows them.
+
+      The idea behind the study comes from a principle in social psychology called context effects: people judge an object partly
+      by the setting in which they meet it. The team treated an influencer's profile page as that setting. If people know
+      little about a brand, they should absorb the traits the page suggests, which is assimilation. If they already hold a
+      firm view of the brand, a page that clashes with it should make the brand's own trait more visible, which is
+      contrast. The authors added a third case, a ceiling: a page that matches a well-known brand should leave its image
+      unchanged.
+
+      Participants first saw an influencer's page on its own and rated her personality. After a short task about their
+      social media use, they saw the page again, now with a car brand in the top-right corner, and rated the brand. A
+      control group saw the brand without any influencer. The check worked: in Study 1, the sincere influencer averaged
+      7.26 for sincerity, against 3.04 for her exciting counterpart.
+    facts:
+      - ["Participants", "439 young adults recruited through German universities: 165 in Study 1 and 274 in Study 2"]
+      - ["Influencers", "Two invented female micro-influencers on Facebook-style profile pages built from stock photos, one designed to look sincere and one exciting"]
+      - ["Brands", "Real car brands: KIA, which scored lowest on both traits of three candidates in a pilot, then Mercedes-Benz as a clearly sincere brand and Ferrari as a clearly exciting one"]
+      - ["What changed", "Whether the brand was shown with the sincere influencer, the exciting influencer or neither"]
+      - ["Measured", "Brand sincerity and excitement, purchase intentions and self-brand connection, each rated from 1 to 9; the influencer's credibility, attractiveness and expertise as controls"]
+      - ["Pilots", "Three pilot studies with 390, 50 and 34 people chose the two profiles and the three brands"]
+
+  - h: "The vaguer brand takes on the influencer's traits"
+    body: |
+      The first experiment used the brand whose personality the pilot group found least distinct. Next to the exciting
+      influencer, it scored 4.16 for excitement, against 3.44 in the control group, who saw no influencer. The sincere page
+      had a stronger effect on sincerity ratings: the influencer condition explained roughly 10% of their variation
+      (η² = .10), twice the share found for excitement (η² = .05).
+
+      In the authors' reading, people knew too little about this brand's character, so they took their cue from the page
+      around it. Both influencer personalities were absorbed, which means the same mechanism could attach a
+      trait the brand would rather not have.
+    chart: novice
+
+  - h: "A well-known brand reacts differently"
+    body: |
+      The second experiment swapped in two brands with clear personalities. The brand known for excitement was rated
+      6.96 for excitement on the sincere influencer's page, against 5.77 with no influencer and 5.46 on the exciting
+      influencer's page. This was the largest effect in the study (η² = .14). The brand known for sincerity mirrored this,
+      with its highest sincerity score when paired with the exciting influencer.
+
+      Two results matter here. A matching influencer produced no significant change for either brand, against no
+      influencer at all. The authors call this the ceiling: the page only confirms what people already believe about the
+      brand. A mismatched influencer, by contrast, did not weaken the brand's image. In the authors' account, people compared the page
+      with their existing picture of the brand, and the brand's own trait came out stronger.
+    chart: established
+
+  - h: "Who becomes more willing to buy"
+    body: |
+      Purchase intentions moved only through brand personality, never directly from seeing the influencer, and only for
+      people with a strong self-brand connection. That is the sense that a brand fits who you are and helps you show it to
+      others.
+
+      For the brand with the vaguer image, the exciting influencer's indirect lift among these people was 0.40 points on
+      the nine-point scale, smaller than the sincere influencer's. For the well-known brands, the mismatched influencer added 0.72 points for the sincere
+      brand and 0.53 for the exciting one among those strongly connected people. The matching influencer's indirect
+      effect was not significant for either. In Study 1 the model explained 48% of the differences in purchase
+      intentions between participants; in Study 2 it explained 44% and 58% for the sincere and exciting brands.
+
+  - h: "What did not explain the results"
+    body: |
+      The two influencers differed in how credible, attractive and expert they seemed, so the authors tested whether these
+      qualities, rather than personality, drove the brand ratings. In both experiments none of the three had a
+      significant effect. Each quality was captured by one question only, the authors point out, and neither profile was
+      built to look untrustworthy.
+
+  - h: "The authors' advice"
+    body: |
+      Brands whose personality is still forming can gain from unpaid posts by micro-influencers, but they cannot choose
+      whose traits they absorb. The authors suggest watching which creators share the brand and putting more money into
+      paid channels the brand controls, to establish the personality it wants.
+
+      For established brands, paying a matching creator mainly holds the existing image in place, a result the authors
+      regard as no return for brand personality. Established brands are not entirely safe either: people who barely know
+      such a brand may absorb an influencer's traits instead of contrasting with them, so the authors recommend a brand
+      personality survey every year or every quarter to catch misperceptions. Long-term paid partnerships with mismatched creators call for care, in their view, until more research is done.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Score your brand's personality first", "Ask 50 customers to rate your brand from 1 to 9 on two sets of words: honest, down-to-earth and reliable, then daring, spirited and cool. If most scores sit near the middle, treat your brand's personality as still taking shape."]
+  - ["Choose the one trait you want to own", "Pick the single trait you want people to name first when they think of you. Make it the first line of each brief you send to creators."]
+  - ["Match creators to that trait while you are new", "If your scores were middling, shortlist only small creators whose last 20 posts show the trait you chose. Leave out anyone whose page projects a trait you would not want linked to your name."]
+  - ["Add a contrasting creator if you are known", "If your scores are already high on one trait, book one or two creators with the opposite style next to your usual picks. Keep the product and offer identical, so the creator is the only difference."]
+  - ["Log unpaid posts every week", "Search your brand name and tags on each platform once a week and list the small accounts that posted you. Note the trait each page projects. If the wrong one keeps showing up, run more posts on your own channels that show the trait you want."]
+  - ["Repeat the survey every quarter", "Rerun the 1 to 9 survey with 50 new customers every three months. Compare the scores before and after each creator push, and also ask whether the brand suits them, because buying interest tends to follow that sense of fit."]
+
+expect:
+  - "**Gains on the brand's own trait.** For brands people already knew well, a contrasting creator strengthened the trait the brand was known for. It did not move the brand towards the creator's personality."
+  - "**Little change from matching creators.** A creator who mirrors an established brand is likely to hold its image steady rather than lift it. Any case for booking one rests on other aims, such as reach, which is our own inference and was not measured."
+  - "**Buying interest moves in a narrow group.** Purchase intentions rose only in the group that felt the brand fitted them, so expect smaller shifts across a whole audience."
+  - "**Exposure for newer brands.** Because a brand without a settled image absorbs whatever a creator's page projects, unpaid posts from a poorly matched creator could attach an unwanted trait. The authors raise this risk; it was not tested directly."
+
+limits:
+  - "**One category.** All three brands were car makers. Measuring intentions to buy such a high-priced item may itself be unrealistic, the authors concede. Other categories are untested."
+  - "**Young German participants.** Both samples came from German universities, with average ages between 22 and 24."
+  - "**Mock-up pages, one viewing.** People saw invented profiles once in an online survey. Real feeds, repeated exposure and creators people actually follow may behave differently."
+  - "**Two traits, one platform, one gender.** Only sincerity and excitement were tested, on Facebook-style pages, with female influencers."
+  - "**Short-term effects only.** Whether a long run of posts by mismatched creators would eventually wear down an established brand's personality is open, as the authors acknowledge."
+  - "**Intentions, not purchases.** People reported their buying intentions; no sales were tracked."
+
+faq:
+  - q: "Can micro-influencers change how people see a brand's personality?"
+    a: "Yes, in these experiments, though the direction depended on the brand's existing image. The brand with a vaguer image was rated closer to the influencer showing it, whereas the brands with a firm image gained on the very trait they were known for when shown with an influencer unlike them (Zwicker et al., 2024)."
+  - q: "Does a close influencer-brand fit always help?"
+    a: "Not on this evidence. A matching influencer helped a brand whose personality was still unclear, but for brands with an established personality the match produced no measurable change in how the brand was seen or in buying interest."
+  - q: "What does brand personality mean?"
+    a: "The set of human traits people attach to a brand. Researchers often measure it with scales for traits such as sincerity (honest, down-to-earth, reliable) and excitement (daring, spirited, cool), the two used here."
+  - q: "What is a ceiling effect in influencer marketing?"
+    a: "The authors' term for what happens when an influencer's personality matches a familiar brand with a settled image. The page only confirms the existing image, so the brand's personality ratings stay where they were."
+  - q: "Should established brands hire influencers who do not match them?"
+    a: "The short-term results were positive: a mismatched influencer strengthened the brand's own trait and, among those who felt connected to the brand, its purchase intentions. The authors still advise care with long-term deals, because the lasting effect of repeated mismatched endorsements was not tested."
+
+also:
+  - doi: "10.1111/ijcs.12898"
+    title: "The effects of influencer type, regulatory focus, and perceived authenticity on consumers' purchase intention"
+    authors: "Ren, Lee, & Chun"
+    journal: "International Journal of Consumer Studies"
+    year: 2023
+    text: >-
+      Are celebrities or everyday creators better at selling products on social media? In three between-subjects
+      experiments with consumers in China, South Korea and the United States, products recommended by influencers who
+      were not celebrities drew higher purchase intentions than those recommended by celebrities. The advantage appeared
+      among prevention-focused consumers but not among promotion-focused ones, and perceived authenticity
+      explained the pattern. For an audience that worries about getting a purchase wrong, a celebrity could be the weaker
+      choice.
+  - doi: "10.1002/cb.2141"
+    title: "Consumer privacy concerns in entrepreneurial contexts: Evidence from an online experiment"
+    authors: "Xu et al."
+    journal: "Journal of Consumer Behaviour"
+    year: 2023
+    text: >-
+      An online experiment with 373 college students asked whether people worry more about their data with a start-up
+      than with a mature firm when both declare that they protect privacy. They did: privacy concerns were higher towards
+      the start-up. When customers were invited to take part in designing the privacy protection mechanisms, concern
+      towards the start-up fell significantly. A young company may reassure customers more by involving them in its data
+      rules than by publishing a promise.
+
+charts:
+  novice:
+    title: "Less distinct brand: personality ratings with and without an influencer (1 to 9 scale)"
+    scale: [1, 9]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Sincerity, no influencer", 3.23, false]
+      - ["Sincerity, sincere influencer", 4.14, true]
+      - ["Excitement, no influencer", 3.44, false]
+      - ["Excitement, exciting influencer", 4.16, true]
+    source: "Study 1, 165 participants recruited through German universities; group means as reported in the Study 1 results."
+  established:
+    title: "Well-known brands: rating on the brand's own trait, by influencer shown (1 to 9 scale)"
+    scale: [1, 9]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Sincere brand, no influencer", 5.29, false]
+      - ["Sincere brand, sincere influencer", 5.63, false]
+      - ["Sincere brand, exciting influencer", 6.21, true]
+      - ["Exciting brand, no influencer", 5.77, false]
+      - ["Exciting brand, exciting influencer", 5.46, false]
+      - ["Exciting brand, sincere influencer", 6.96, true]
+    source: "Study 2, 274 students at German universities, Table 2 means. The sincere brand was rated on sincerity and the exciting brand on excitement."
+
+related_pages: []
