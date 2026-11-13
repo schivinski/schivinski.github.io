@@ -91,7 +91,7 @@ LOOKBACK_YEARS = ("2025", "2024", "2023")   # newest first; add a year here to o
 # whole batch is ready, then release it by adding the year here, e.g. ("2025", "2024"). Until then a published build
 # (PUBLISH=1) leaves those issues out everywhere: no issue pages, no year tab or chip, no topic-page, "Keep reading"
 # or llms.txt entries. Local builds without PUBLISH still show every year, so the tabs can be checked before release.
-RELEASED_LOOKBACK: tuple = ("2025", "2024")   # 2023 held until the whole year is ready (Bruno, 7 Nov 2026)
+RELEASED_LOOKBACK: tuple = ("2025", "2024", "2023")   # 2023 released 14 Nov 2026 (Bruno, 13 Nov 2026: "When ready, release the full 2023 online")
 
 
 def is_lookback(d: dict) -> bool:

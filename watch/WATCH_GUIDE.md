@@ -347,8 +347,13 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 - Built in batches of four, straight through to the end (Bruno, 7 Nov 2026: "Build 2023 in batches of 4. Run till the
   end. Don't publish until the full batch is ready"). Hidden like the earlier years: "2023" is in `LOOKBACK_YEARS` but
   not in `RELEASED_LOOKBACK` until Bruno releases the year.
-- People heroes are fixed by slot so batches can run out of order: every slot numbered 1, 4, 7, ... 52 (N mod 3 = 1)
-  shows people; the others may.
+- People heroes: no three issues in a row without people. The Hero column of watch/PLAN_2023.md says which unbuilt slots
+  must show people and is reassigned when the plan is renumbered (hands alone do not count as people).
+- 13 Nov 2026: the 17 papers on ScienceDirect and Oxford Academic (a bot check in the browser, never attempted) were
+  replaced with open digital marketing papers on sites that open, following Bruno's rule to skip papers that cannot be
+  accessed and fill the gaps with other articles. The tab was renumbered by first-online date (publisher page wins).
+- **Released 14 Nov 2026** (Bruno, 13 Nov 2026: "When ready, release the full 2023 online"): "2023" added to
+  `RELEASED_LOOKBACK`, every 2023 issue's `published:` set to 2026-11-14, then built and published once. No author emails.
 - **Plan:** watch/PLAN_2023.md lists every slot (DOI, date, status). Papers planned there are reserved for the 2023 tab.
 
 ## Look-back tabs stay hidden until released (Bruno, 2 November 2026)

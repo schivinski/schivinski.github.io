@@ -3,7 +3,7 @@
 series: 2023
 number: 7                       # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
 week_of: "2023-02-28"            # the day the paper was first published online (shown as "Paper published ...")
-published: "2026-11-07"          # the day this page went live (metadata only, never shown)
+published: "2026-11-14"          # the day this page went live (metadata only, never shown)
 slug: engagement-initiatives-meta
 status: live
 
