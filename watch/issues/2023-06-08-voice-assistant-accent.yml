@@ -1,0 +1,260 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 21                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-06-08"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: voice-assistant-accent
+status: live
+
+title: "What happens when a voice assistant cannot understand a customer's accent? What a Journal of Consumer Behaviour study found"
+dek: >-
+  Voice assistants are trained on languages, but people speak those languages with many accents. Interviews with 56 Indian
+  millennials and a 298-person survey show how people cope when an assistant fails them, and how embarrassment in front
+  of others can lead some to switch.
+short_title: "When voice assistants miss an accent"
+
+description: >-
+  Sattarapu et al. find Indian users type, rephrase or ask family when voice assistants miss their accent, and some
+  switch: 56 interviews, 298 surveyed.
+
+keywords: [voice assistants, accents, speech recognition, voice search, voice user experience, conversational AI,
+  Alexa and Siri, customer service chatbots, localisation, continuance intention, Journal of Consumer Behaviour]
+topics: [AI, Service, Search]
+
+image:
+  file: 2023-voice-assistant-accent.jpg
+  og: 2023-voice-assistant-accent-og.jpg
+  alt: "Two women talk at a small round table on a sunlit city pavement outside a café, one in a straw hat seen from behind, the other leaning forward mid-sentence with sunglasses pushed up on her head"
+  caption: "People follow each other's accents without effort. Voice assistants still have to learn them. Photo: Josh Keys on Unsplash."
+
+short_answer: >-
+  Most people find a way around it, and a minority switch. Among 56 Indian millennials interviewed, accent failures led
+  people to type instead, repeat or rephrase, or hand the command to someone the assistant understood better. Failing in
+  front of colleagues or guests caused the most discomfort. In a survey of 298 users, people's reactions were linked to
+  their intention to keep using the assistant, but none predicted plans to stop.
+
+takeaways:
+  - "Accent mix-ups were not only a source of irritation: 37 of the 56 interviewees (66%) spoke of excitement at an assistant that was still learning, while 19 (34%) got frustrated and 9 (16%) felt ashamed."
+  - "Other people often spoke for them: 21 interviewees said their children gave voice commands for them at home, and 6 said a colleague could step in at work when it mattered."
+  - "Ten of the 56 interviewees had given up on one assistant and bought a different one."
+  - "Across the 298 survey respondents, the three kinds of reaction together explained 78% of the differences in plans to carry on with the assistant, against 1% for plans to stop."
+
+paper:
+  doi: "10.1002/cb.2195"
+  title: "Tomeito or Tomahto: Exploring consumer's accent and their engagement with artificially intelligent interactive voice assistants"
+  authors: ["Sattarapu, P. K.", "Wadera, D.", "Nguyen, N. P.", "Kaur, J.", "Kaur, S.", "Mogaji, E."]
+  authors_full: ["Praveen Kumar Sattarapu", "Deepti Wadera", "Nguyen Phong Nguyen", "Jaspreet Kaur", "Sumeet Kaur", "Emmanuel Mogaji"]
+  year: 2024
+  journal: "Journal of Consumer Behaviour"
+  volume: "23"
+  issue: "2"
+  pages: "278-298"
+  online: "2023-06-08"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Praveen Kumar Sattarapu"
+      affiliation: "School of Management, GD Goenka University, Gurgaon, India"
+      orcid: ""
+    - name: "Deepti Wadera"
+      affiliation: "School of Management, GD Goenka University, Gurgaon, India"
+      orcid: ""
+    - name: "Nguyen Phong Nguyen"
+      affiliation: "School of Accounting, University of Economics Ho Chi Minh City, Ho Chi Minh City, Vietnam"
+      orcid: ""
+    - name: "Jaspreet Kaur"
+      affiliation: "VIPS, New Delhi, India"
+      orcid: "0000-0001-8358-7334"
+    - name: "Sumeet Kaur"
+      affiliation: "FORE School of Management, New Delhi, India"
+      orcid: ""
+    - name: "Emmanuel Mogaji"
+      affiliation: "Keele Business School, Keele University, Staffordshire, UK"
+      orcid: "0000-0003-0544-4842"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two studies: 56 semi-structured interviews with Indian millennials (Study 1, qualitative) and a survey of 298 Indian users analysed with structural equation modelling (Study 2); pilots with 8 and 50 people not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Praveen Kumar Sattarapu and Deepti Wadera of GD Goenka University in Gurgaon,
+      Nguyen Phong Nguyen from the University of Economics Ho Chi Minh City,
+      Jaspreet Kaur of VIPS in New Delhi,
+      Sumeet Kaur of the FORE School of Management in New Delhi and
+      Emmanuel Mogaji of Keele University in Staffordshire
+      turned to something that work on voice assistants had mostly left aside: accents. Alexa, Siri and Google
+      Assistant are built to understand languages. English, though, is spoken with many accents, and a command that works
+      for one speaker can fail for the next.
+
+      India suited the question. English is widely used there, and with 1,652 mother tongues recorded in the country, it is
+      spoken with a wide range of regional accents. The team first interviewed 56 millennial users about where they use their
+      assistants and what happens when their accent gets in the way. Two authors who had not run the interviews coded the
+      transcripts into themes, and those themes became a model linking accent, reactions and continued use. A survey then
+      tested the model.
+    facts:
+      - ["Studies", "Two: face-to-face interviews with 56 people in March and April 2022, then a survey with 298 usable responses in September 2022"]
+      - ["Participants", "Millennials aged 26 to 41 across India; in both samples most owned two or more assistants and used one several times a day"]
+      - ["Interviews", "45 to 72 minutes each (median 56), transcribed and coded into themes in NVivo"]
+      - ["Survey measures", "Accent strength, positive and negative emotional actions, rational actions, and intentions to continue or stop using the assistant"]
+      - ["Analysis", "Thematic analysis of the interviews; structural equation modelling of the survey"]
+
+  - h: "Where accent failures happen"
+    body: |
+      The interviews sorted use into three settings. Alone, people asked for things they would rather others did not hear,
+      such as messages or their schedule. This happened mostly on the phone (40 of the 56), where they could hold the
+      microphone close and try again with nobody watching, and next in the car (32). Some would not use voice for banking
+      at all, calling it risky.
+
+      With family or close friends around, use centred on the home (48) and the car (31), and the device was usually a
+      smart speaker (52). A failed request was easier to handle here, because someone in the room could often say the
+      command in a way the assistant understood.
+
+      The third setting was use among people who were not close, such as colleagues or guests. Participants described
+      feeling watched and tense. One woman asked for a song at her husband's birthday party and was told again and again
+      that the assistant did not understand. It played the song when someone else asked.
+
+  - h: "How people felt when it failed"
+    body: |
+      Reactions to failure went in two directions. On the positive side, people laughed at odd replies and tried the same
+      command in different accents, sometimes with the whole family joining in. Several saw the assistant as a learner and
+      hoped to help it get better.
+
+      On the negative side, people spoke of anger at an assistant that did not respond. One participant said they were
+      speaking English, not a regional language, and so expected to be understood. A woman had to search her phone contacts
+      by hand while driving because the car's assistant could not recognise a name. Shame came up mostly at work, and at
+      home when children corrected a parent's pronunciation.
+
+  - h: "How people work around it"
+    body: |
+      The most common response was to stop speaking and type. Others kept working with the assistant: repeating the
+      command, choosing words that were easier to pronounce, or imitating an American or British accent. Typing was most
+      common in private use on the phone, where nobody else was there to try instead. One mother said the assistant caught
+      her children's voices at once, and another participant asked a younger sister to request songs.
+
+      A separate group gave up on the assistant rather than on voice. Their reasons were embarrassment they could not
+      manage (11 people), no one else in the household using that assistant (10) and being able to afford another device
+      (8). Switching took several forms: moving from Google to Alexa, checking which assistant a car came with before
+      buying it, or installing Android Auto in place of Apple CarPlay. Setting up a new account held some back, especially
+      people tied to one company's devices.
+    chart: coping
+
+  - h: "What the survey of 298 users showed"
+    body: |
+      The second study turned the interview themes into a questionnaire, piloted it with 50 people and gathered 312
+      responses from across India, of which 298 were usable. Accent strength was measured by agreement with statements
+      about accents, for example that an accent is an important personal trait and stays with a person for life. The other
+      scales covered emotional actions, both positive and negative, rational actions (planned, deliberate choices about
+      using the assistant) and plans to continue or give up.
+
+      Accent strength was linked to all three kinds of reaction, most strongly to positive emotional actions, which the
+      authors single out as the most important factor. Each reaction, the negative one included, was associated with a
+      firmer intention to continue using it. None was significantly linked to plans to use it less or give it up, so the
+      survey says little about what finally drives people away.
+    chart: links
+
+  - h: "Advice for brands and developers"
+    body: |
+      Understanding a language, the authors argue, does not mean understanding everyone who speaks it. Firms that
+      build or rely on speech recognition should train it on their customers' accents as well as on languages. Their
+      examples are local: a contact's name the assistant must recognise when a user says it, a regional film or a Punjabi
+      song requested by voice, and a search for a local shop called Banarasi Sarees, phrased in whatever words the customer
+      finds easiest to say.
+
+      They extend the point to any business using voice assistants or chatbots in customer service: raise accents with
+      developers early. They also see growing markets in Asia and Africa, where English is widely spoken with many accents.
+
+      Our own inference for marketers is that voice search and voice ordering share the problem. A brand or product name
+      that an assistant cannot match to a customer's pronunciation may simply not be found. Brand names and search results
+      were outside the study.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List the words customers must say", "Write down the 30 words people need to say to use your voice service: brand and product names, local place names and common requests. Mark every word that people pronounce in more than one way."]
+  - ["Record real voices before you build", "Ask 20 customers from different regions to read that list aloud on their own phones. Keep the recordings and use them for every test that follows."]
+  - ["Accept more than one pronunciation", "Add the common alternative pronunciations and spellings of each name to your voice app or search settings. Include the short nicknames people use for your products."]
+  - ["Offer a typed route after two misses", "When a voice request fails twice, show a text box or a few buttons on screen instead of asking again. Make the switch one tap, with nothing to start over."]
+  - ["Test with someone watching", "Run each test session twice, once with the person alone and once with a second person in the room. Note where people hesitate, apologise or give up, and fix those steps first."]
+  - ["Review failed requests every month", "Pull 50 failed voice requests each month and group them by region where you can. Fix the word that fails most often, then check it against your recordings."]
+
+expect:
+  - "**Most people adapt rather than switch.** Being misunderstood more often led to typing, rephrasing, asking someone else or dropping voice for that task than to buying a different assistant."
+  - "**Public settings carry more risk.** Discomfort was greatest when colleagues or guests were watching, so voice features meant for shared or public spaces need the most testing."
+  - "**Some goodwill to work with.** Many interviewees took failures with humour and wanted to help the assistant learn. On our reading, that gives a brand time to improve, provided users can see it improving."
+  - "**Shared devices need to understand everyone.** When only some family members are understood, the others hand over the task. We expect, without evidence from the study, that a device understood by one person will be used less by the rest of the household."
+
+limits:
+  - "**One country, one generation.** Everyone in both studies was an Indian millennial aged 26 to 41. The authors themselves say the findings may not generalise beyond that group."
+  - "**Accent strength was self-reported.** It came from how far people agreed with general claims about accents, not from recordings of how people speak or from how often an assistant misheard them."
+  - "**Interview counts are not market shares.** The numbers from the first study show how many of 56 people raised each point, not how common each response is among users."
+  - "**Intentions, not behaviour.** The survey asked what people planned to do. Actual use and switching were not tracked."
+  - "**A single survey.** Each respondent answered all the questions once, so the model shows which answers moved together, not what caused what."
+  - "**Speech technology has moved on.** The fieldwork took place in 2022, and newer speech models may cope with accents differently. That caveat is ours."
+
+faq:
+  - q: "Do voice assistants have trouble with accents?"
+    a: "Many users say so. Indian millennials interviewed for this study described assistants that failed to understand their English at home, in the car and at work, and many had built routines to get around it (Sattarapu et al., 2024)."
+  - q: "What do people do when a voice assistant does not understand them?"
+    a: "They type the request, repeat it, rephrase it, try a different accent, or ask a child or colleague to speak for them. Some accept it and stop using voice for that task, and a smaller group change to another assistant."
+  - q: "Why are accent failures worse in front of other people?"
+    a: "Because they become embarrassing. Interviewees felt watched and tense when an assistant ignored them with colleagues or guests present, and embarrassment was the reason most often given by those who looked for a different assistant."
+  - q: "Do accent problems make people give up on voice assistants?"
+    a: "Some do. Nearly half the interviewees had accepted that their accent would not be understood and moved on without the assistant, and a smaller number had replaced it with another. In the survey, though, each kind of reaction to accent issues went with a firmer plan to carry on using the assistant, and no reaction was linked to plans to stop."
+  - q: "How can brands make voice services work for different accents?"
+    a: "The authors advise training speech recognition on customers' accents and not only on languages, and localising it: local names, regional content and the words people actually use to search for nearby shops. Firms whose customer service runs on voice tools or chatbots should put accents on their developers' agenda."
+
+also:
+  - doi: "10.1002/mar.21824"
+    title: "Unlocking the flow experience in apps: Fostering long-term adoption for sustainable healthcare systems"
+    authors: "Gómez-Rico, Santos-Vijande, Molina-Collado, & Bilgihan"
+    journal: "Psychology & Marketing"
+    year: 2023
+    text: >-
+      Many health apps are dropped after a few uses. Combining Customer Value Theory with the Person-Artifact-Task model,
+      this study links an app's ease of use, personalisation and usefulness to a state of flow, reached through users'
+      enjoyment and their sense of social recognition and attractiveness. That positive state went with stronger perceived
+      health improvement, satisfaction and loyalty, while health severity and empowerment mattered less for app use. For
+      teams trying to keep users beyond the first few sessions, the functional basics come first.
+  - doi: "10.1002/mar.21828"
+    title: "Exploring mental time travel experiences and their influence on behavioral intentions and learning"
+    authors: "Barhorst, Krey, & McLean"
+    journal: "Psychology & Marketing"
+    year: 2023
+    text: >-
+      Two studies used branded experiences from two marketing campaigns, presented as augmented reality, a 360° website,
+      a video or a static image. Positive personal memories helped people travel back in their minds, and that return to
+      the past lifted purchase intentions, word of mouth, loyalty intentions and learning. Cognitive load weakened the
+      effects on buying, word of mouth and loyalty, while a sense of immersion strengthened the effect on learning. A format that asks less mental effort may leave more
+      room for the memory to work.
+
+charts:
+  coping:
+    title: "What interviewees did when the assistant missed their accent (% of 56)"
+    scale: [0, 60]
+    step: 10
+    unit: "%"
+    decimals: 1
+    bars:
+      - ["Typed the request instead", 51.7, true]
+      - ["Accepted it and moved on", 48.2, false]
+      - ["Looked for another assistant", 37.5, false]
+      - ["Kept repeating the command", 23.2, false]
+      - ["Rephrased the request", 21.4, false]
+      - ["Tried a British or American accent", 17.8, false]
+    source: "Study 1, 56 interviews in India; shares as printed in the paper. Many people reported more than one response, so the shares add up to more than 100."
+  links:
+    title: "Survey links between accent strength, reactions and intention to keep using (path estimates)"
+    scale: [0, 1]
+    step: 0.2
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Accent to positive emotions", 0.713, true]
+      - ["Accent to rational actions", 0.682, false]
+      - ["Rational actions to keep using", 0.394, false]
+      - ["Positive emotions to keep using", 0.391, false]
+      - ["Negative emotions to keep using", 0.350, false]
+    source: "Study 2, survey of 298 Indian users; estimates from Table 7, all significant at p < .001. No reaction was significantly linked to intention to stop."
+
+related_pages: []
