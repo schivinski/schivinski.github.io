@@ -1,0 +1,264 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 3                       # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-02-02"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: virtual-agent-mirroring
+status: live
+
+title: "Should a virtual service agent make small talk, or copy the way each customer writes? What a Psychology & Marketing study found"
+dek: >-
+  Many chatbots and avatars are scripted to sound warm in every line. Two Dutch experiments with an animated adviser
+  called Charlotte set friendly, businesslike and mirrored replies against each other, once for holiday advice and once
+  for a tax return.
+short_title: "Small talk or mirroring for a virtual agent"
+
+description: >-
+  van Pinxteren et al. show an animated agent's social replies raised rapport in holiday and tax advice chats, and
+  mirroring raised engagement for holidays.
+
+keywords: [conversational agents, embodied conversational agent, chatbot communication style, chatbot small talk,
+  social-oriented communication, task-oriented communication, linguistic mimicry, rapport with virtual agents,
+  customer engagement with chatbots, hedonic and utilitarian services, virtual assistant design, Psychology & Marketing]
+topics: [AI, Service]
+
+image:
+  file: 2023-virtual-agent-mirroring.jpg
+  og: 2023-virtual-agent-mirroring-og.jpg
+  alt: "A polished chrome service bell on a glossy black desk beside a brushed steel sign reading Informacije / Information, both mirrored in the desk under deep blue light"
+  caption: "When the help desk is a screen, the agent's wording does the welcoming. Photo: Milos Lopusina on Unsplash."
+
+short_answer: >-
+  Small talk helps; copying the customer is optional. People who took holiday or tax advice from an animated virtual
+  agent felt more rapport when its replies were warm and personal rather than strictly businesslike. An agent that
+  matched each customer's style, turn by turn, did as well on rapport as one that was friendly throughout, and made the
+  holiday chat more engaging. Any effect of style on satisfaction and return intentions came through that sense of
+  connection.
+
+takeaways:
+  - "Across 264 participants and two services, an agent that used social lines, all the time or when mirroring, built more rapport than a strictly businesslike one."
+  - "Over 10 agent replies, mirroring always used fewer friendly lines than the agent that was social throughout, yet rapport came out no different in either service."
+  - "Mirroring raised engagement in 1 of the 2 services, the holiday chat, and left the tax chat unchanged on this measure."
+  - "The agent's style accounted for only about 6% of the variation in rapport and in engagement after the holiday chat, and under 4% after the tax chat."
+
+paper:
+  doi: "10.1002/mar.21792"
+  title: "Effects of communication style on relational outcomes in interactions between customers and embodied conversational agents"
+  authors: ["van Pinxteren, M. M. E.", "Pluymaekers, M.", "Lemmink, J.", "Krispin, A."]
+  authors_full: ["Michelle M. E. van Pinxteren", "Mark Pluymaekers", "Jos Lemmink", "Anna Krispin"]
+  year: 2023
+  journal: "Psychology & Marketing"
+  volume: "40"
+  issue: "5"
+  pages: "938-953"
+  online: "2023-02-02"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Michelle M. E. van Pinxteren"
+      affiliation: "Faculty of Social Sciences, Behavioural Science Institute, Radboud University, Nijmegen, The Netherlands"
+      orcid: "0000-0002-5489-3639"
+    - name: "Mark Pluymaekers"
+      affiliation: "Professional Communication in a Digitalizing Society, Zuyd University of Applied Sciences, Maastricht, The Netherlands"
+      orcid: ""
+    - name: "Jos Lemmink"
+      affiliation: "Department of Marketing & Supply Chain Management, School of Business and Economics, Maastricht University, Maastricht, The Netherlands"
+      orcid: ""
+    - name: "Anna Krispin"
+      affiliation: "Professional Communication in a Digitalizing Society, Zuyd University of Applied Sciences, Maastricht, The Netherlands"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two online between-subjects experiments with Dutch-speaking volunteers recruited at a university of applied sciences in the south of the Netherlands (142 for travel advice, 122 for tax advice); the expert check of the scripted lines is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Michelle M. E. van Pinxteren of Radboud University in Nijmegen,
+      Mark Pluymaekers and Anna Krispin of Zuyd University of Applied Sciences in Maastricht, and
+      Jos Lemmink of Maastricht University
+      took up a design question every team building a service chatbot or avatar has to settle. Should the agent stick to
+      the task, or add the greetings, small talk and words of support a good human employee would use? Earlier studies
+      disagreed, partly because people differ in how much chat they want and because that want changes within a single
+      conversation.
+
+      Their candidate answer was mirroring. If the customer writes in a friendly, personal way, the agent replies in kind;
+      if the customer is brief and to the point, so is the agent. They tested this against two fixed scripts in two settings:
+      advice on where to go on holiday, a service people use for enjoyment, and advice on claiming study costs in a tax
+      return, a purely practical one.
+
+      The agent was Charlotte, an animated character who typed her answers and showed facial expressions such as a polite
+      smile. Participants read a short scenario, then picked one of two possible replies at every turn, one businesslike and
+      one social, so the conversation followed their own style. After Charlotte's tenth reply the chat ended and they filled
+      in a questionnaire.
+    facts:
+      - ["Participants", "142 people in the holiday experiment and 122 in the tax experiment, Dutch-speaking volunteers recruited in the southern Netherlands at a university of applied sciences"]
+      - ["Agent", "Charlotte, a virtual adviser with a female name and face, built on an online platform for conversations with avatars"]
+      - ["Three versions", "Task-oriented in every turn, social-oriented in every turn, or mirroring the style the participant had just used"]
+      - ["Measured", "Rapport, engagement, satisfaction with the encounter and intention to use the service again, each on seven-step scales of agreement"]
+      - ["Checks", "Four communication experts sorted every scripted line into task or social without a single error"]
+
+  - h: "Businesslike, friendly or mirrored"
+    body: |
+      The difference between the scripts was in wording only. The businesslike Charlotte opened with "Welcome to the virtual
+      travel agent." and closed with "The end of the conversation." The friendly one introduced herself by name, said she
+      was curious about what else the traveller liked, and wished them a nice day. The facts and questions were the same.
+
+      The mirroring version drew on communication accommodation theory. It holds that people adjust to how others speak
+      to show they understand them. Earlier work on chats between people and with virtual assistants found that
+      social remarks cluster at certain moments, mostly greetings, goodbyes and moments of socialising. A customer's own choice of reply
+      seemed a practical cue for when such remarks are welcome.
+
+      Two outcomes stood for a sense of connection. Rapport is the feeling of clicking, of having some chemistry with the
+      other party, and was measured with ten statements. Engagement is how much someone wants to take part in the
+      conversation, measured with five.
+
+  - h: "Holiday advice: social lines raised rapport, mirroring raised engagement"
+    body: |
+      The results come as unstandardised regression coefficients, written B; a larger B means a bigger effect of the
+      script on the outcome.
+
+      Set against the businesslike script, the two versions with social lines raised rapport (B = 0.55, 95% confidence
+      interval 0.16 to 0.95). Their effect on engagement did not reach significance.
+
+      The comparison between mirroring and constant friendliness showed the reverse pattern. Rapport did not differ, but
+      engagement was higher with mirroring (B = 0.56, interval 0.072 to 1.05). In this service, social wording was linked to
+      rapport, and replying in the customer's own style was linked to engagement.
+    chart: holiday
+
+  - h: "Tax advice: only the social lines made a difference"
+    body: |
+      The second experiment repeated everything with a tax adviser. Social lines again raised rapport compared with the
+      businesslike script (B = 0.44, interval 0.035 to 0.86). In the authors' words this calls for caution, because the model
+      predicting rapport did not explain a significant share of the differences overall.
+
+      Nothing moved engagement. Mirroring did no better than steady friendliness on either outcome, with coefficients close
+      to zero.
+
+      One descriptive detail the authors do not analyse: on the questionnaire about how much social talk people want from a
+      service, the tax group averaged 4.60 and the holiday group 5.28. Whether that helps explain the weaker results for tax
+      is our speculation.
+    chart: tax
+
+  - h: "From connection to coming back"
+    body: |
+      Neither experiment showed the style of the replies directly changing satisfaction with the encounter or plans to
+      return. It worked through the sense of connection instead. Rapport and engagement both predicted
+      satisfaction, and satisfaction in turn predicted that intention.
+
+      Together with the style contrasts, rapport and engagement accounted for 63% of the differences in satisfaction for
+      holiday advice and 40% for tax advice. In the holiday data, engagement and satisfaction were correlated at 0.76.
+      Taken as a whole, the social lines' total effect on intention to return was significant for holiday advice
+      (B = 0.65) and not for tax (B = 0.32).
+
+  - h: "More friendly lines are not always better"
+    body: |
+      The finding with the widest reach concerns quantity. People talking to the mirroring Charlotte always saw fewer social
+      lines than people talking to the agent that was friendly throughout, yet they felt just as much rapport. More
+      human-like remarks did not produce a stronger social response, contrary to an assumption common in earlier work on
+      people treating computers as social actors.
+
+      The authors are careful not to oversell mirroring. Its boost to engagement appeared in one service only, and how
+      closely the agent's style matched the participant's did not predict rapport or engagement. They suspect the benefit
+      may come from variety in the agent's wording rather than from copying as such, and call for tests that separate the
+      two. Because rapport and engagement responded differently, they also advise anyone studying such agents to measure
+      both.
+
+  - h: "The authors' advice"
+    body: |
+      For practitioners their recommendation is plain. A social style used throughout looks like a safe choice for
+      practical services and a beneficial one for enjoyable services. In the holiday chat it raised rapport, and in the
+      tax chat the authors saw no negative effects.
+
+      Mirroring is harder to justify. In the experiments customers chose from prepared replies, which made copying their
+      style easy. With free typing, the agent first has to judge the style of every message, and the authors doubt the gain
+      seen here would repay a considerable investment.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your chats into treats and chores", "List every job your chatbot or avatar handles. Label each as a treat, such as trips, gifts or dining, or a chore, such as bills, forms or returns. Start the friendly rewrite with the treats."]
+  - ["Write each reply twice", "For every scripted answer, draft a plain version and a warm version that carry the same facts. Keep the two within about five words of each other so the warm one does not slow anyone down."]
+  - ["Put warmth at the edges", "Give the agent a name and a greeting, one line of interest in the customer's plans, and a friendly goodbye. Keep the middle of the chat on the answer itself."]
+  - ["Follow the customer's lead where it is cheap", "If your platform can tell a chatty message from a terse one, use one simple rule. A hello or a thank you gets one back. A one-word reply gets a short, direct answer. If it cannot, stay friendly throughout."]
+  - ["Run warm against plain", "Split your chat visitors randomly into two groups of equal size for 14 days or more. One group gets the warm script, the other the plain one. Change nothing else, not the agent's look, its answers or the page it sits on."]
+  - ["Ask two questions after every chat", "End each conversation with two quick ratings from 1 to 7: did you feel a connection with the assistant, and did you enjoy the conversation? Compare both scores by script, and check how many people come back within 30 days."]
+
+expect:
+  - "**Rapport first.** Friendly wording lifted the feeling of a connection, so that is the score to watch before satisfaction or repeat use."
+  - "**Small shifts.** Expect modest movement in connection scores rather than a transformation, and look for changes in satisfaction or intentions to return only once connection moves."
+  - "**More payoff for enjoyable services.** Holiday advice gained more from friendly lines than tax advice did."
+  - "**Mirroring costs more to build.** With open typing the agent must first classify each incoming message, an extra build step that, in the authors' judgement, may not repay the effort."
+
+limits:
+  - "**Prepared replies, not free typing.** Participants chose between two scripted lines at each turn, which kept mirroring simple and nothing like an open chat."
+  - "**One agent, one look.** Charlotte was always presented as a woman. A male or gender-neutral agent might be judged differently, and her appearance and expressions were never varied."
+  - "**One place, one language.** Volunteers were Dutch speakers from one Dutch university of applied sciences, aged 22 to 23 on average, and culture shapes how people react to human-like machines."
+  - "**Two services.** Holiday and tax advice may not represent every enjoyable or every practical service."
+  - "**Small groups and imaginary tasks.** Between 39 and 50 people used each version of the agent, and they planned an imaginary trip and an imaginary tax return, so nothing real was at stake."
+
+faq:
+  - q: "Should a chatbot make small talk with customers?"
+    a: "On this evidence, a little social talk helps. A virtual agent that greeted people by name, showed interest and wished them well built more rapport than one that stuck to business, both for holiday advice and for tax advice (van Pinxteren et al., 2023)."
+  - q: "How does mirroring, or linguistic mimicry, work in a chatbot?"
+    a: "The agent copies the style of the customer's last message. A personal, friendly message gets a personal reply, and a brief, factual one gets a brief answer. Here it matched the friendly script on rapport and made the holiday conversation more engaging, but it did nothing extra for tax advice."
+  - q: "How do rapport and engagement with a virtual agent differ?"
+    a: "Rapport means feeling you click with the agent. Engagement is a person's motivation to join the conversation. The two were closely related, yet the agent's wording affected them differently, so the authors recommend measuring both."
+  - q: "Does chatbot tone matter more for some services than others?"
+    a: "It appeared to. Friendly replies helped most when people were choosing a holiday, a service used for enjoyment. For a tax question the benefit was smaller and less certain, though friendly lines did no harm."
+  - q: "Will a friendlier chatbot bring customers back?"
+    a: "Only indirectly. The wording did not change satisfaction or plans to return on its own. It raised rapport and engagement, and people who felt more of both were more satisfied and keener to come back."
+
+also:
+  - doi: "10.1093/jcr/ucad003"
+    title: "How Social Media Influencers Impact Consumer Collectives: An Embeddedness Perspective"
+    authors: "Mardon, Cocker, & Daunt"
+    journal: "Journal of Consumer Research"
+    year: 2023
+    text: >-
+      A long-running qualitative study of the YouTube beauty community traced what happened as ordinary members became
+      social media influencers. Exchanges in the community had been governed by shared norms tied to familiar roles. When
+      influencers tried to loosen those norms to make money, the roles clashed and members who were not selling anything got
+      less from taking part, until influencers and their followers tried to bring the business back within community norms
+      by renegotiating roles. Brands paying creators are also dealing with the community around them, and that community
+      has its own sense of what is fair.
+  - doi: "10.1177/00222437231154871"
+    title: "Virtual Fitting Room Effect: Moderating Role of Body Mass Index"
+    authors: "Yang, Xiong, Mao, & Ma"
+    journal: "Journal of Marketing Research"
+    year: 2023
+    text: >-
+      Virtual fitting rooms let online shoppers try clothes on an avatar shaped like them. A large field experiment with
+      real transactions and five lab experiments found that the tool lifted evaluations and purchases among shoppers with
+      a lower body mass index but lowered them among those with a higher one, whose avatar threatened their self-image and
+      led them to blame the garment. Promoting varied beauty standards, giving avatars mannequin faces, offering a chance to
+      do good and showing high-status items all eased that reaction. A try-on tool can help some shoppers and put off
+      others, so read its results group by group.
+
+charts:
+  holiday:
+    title: "Holiday advice: effect of the agent's style on rapport and engagement (unstandardised B)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Social vs task: rapport", 0.55, true]
+      - ["Social vs task: engagement", 0.42, false]
+      - ["Mirror vs always social: rapport", 0.30, false]
+      - ["Mirror vs always social: engagement", 0.56, true]
+    source: "Experiment 1 (travel advice, 142 people), Table 4. Social vs task compares the task-only agent with the social and mirroring versions together. Amber bars are significant (p < 0.01)."
+  tax:
+    title: "Tax advice: effect of the agent's style on rapport and engagement (unstandardised B)"
+    scale: [0, 0.6]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Social vs task: rapport", 0.44, true]
+      - ["Social vs task: engagement", 0.12, false]
+      - ["Mirror vs always social: rapport", 0.065, false]
+      - ["Mirror vs always social: engagement", 0.066, false]
+    source: "Experiment 2 (tax advice, 122 people), Table 6. The amber bar is significant (p < 0.05), though the rapport model as a whole was not."
+
+related_pages: []
