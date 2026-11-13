@@ -1,0 +1,245 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 15                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-04-24"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: vr-embodiment-immersion
+status: live
+
+title: "Does a VR experience that feels like your own body make people want the real thing? What a Psychology & Marketing study found"
+dek: >-
+  Festival visitors put on a headset and paddled a virtual kayak among Antarctic icebergs, some seated and some on their
+  feet. Those who sensed that the virtual body belonged to them found the trip more absorbing and more enjoyable, and
+  sitting down made that link stronger.
+short_title: "Feeling the virtual body, wanting the real trip"
+
+description: >-
+  Leveau and Camus find VR users with a firmer sense of owning their virtual body felt more immersed and enjoyed the trip
+  more, among 300 festival visitors.
+
+keywords: [virtual reality marketing, VR embodiment, immersion in virtual reality, enjoyment, virtual tourism,
+  destination marketing, VR brand experience, body position in VR, sense of agency and ownership, experiential marketing,
+  metaverse marketing, Psychology & Marketing]
+topics: [Creative, Service]
+
+image:
+  file: 2023-vr-embodiment-immersion.jpg
+  og: 2023-vr-embodiment-immersion-og.jpg
+  alt: "Close view of a virtual reality headset in deep blue light, one lens glowing red and pink and the strap clip lit at the edge, with no person in the frame"
+  caption: "What people see through the lens matters, and so does how the body around it is placed. Photo: James Yarema on Unsplash."
+
+short_answer: >-
+  Somewhat, and mainly by way of a more absorbing, enjoyable experience. At a festival in Angers, France, 300 visitors
+  kayaked through a virtual Antarctica in a headset, half seated and half standing. The more the virtual body felt like
+  their own, the more immersed they felt and the more they enjoyed it, and both were linked to a stronger wish to visit
+  for real. Sitting strengthened the first two links but not the step to the wish to travel.
+
+takeaways:
+  - "Feeling that the virtual body was their own explained 31.9% of how much visitors' immersion scores varied, and 22.6% of how much their enjoyment scores varied."
+  - "Immersion and enjoyment together accounted for only 7.7% of the differences in wanting to visit Antarctica for real."
+  - "2 of the 4 posture comparisons held: sitting, the natural kayaking position, strengthened embodiment's link with immersion and with enjoyment, but neither link to travel plans."
+  - "6 of the 13 visitors interviewed afterwards spoke of the virtual trip giving them a desire to go there."
+
+paper:
+  doi: "10.1002/mar.21822"
+  title: "Embodiment, immersion, and enjoyment in virtual reality marketing experiences"
+  authors: ["Leveau, P.-H.", "Camus, S."]
+  authors_full: ["Pierre-Henry Leveau", "Sandra Camus"]
+  year: 2023
+  journal: "Psychology & Marketing"
+  volume: "40"
+  issue: "7"
+  pages: "1329-1343"
+  online: "2023-04-24"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (author information and ORCID iDs on the Wiley page)
+    - name: "Pierre-Henry Leveau"
+      affiliation: "GRANEM (GRoupe de Recherche ANgevin en Économie et Management), SFR Confluences, ESTHUA, Faculté de tourisme, Culture et hospitalité, Université d'Angers, Angers, France"
+      orcid: "0000-0002-4418-2403"
+    - name: "Sandra Camus"
+      affiliation: "GRANEM (GRoupe de Recherche ANgevin en Économie et Management), SFR Confluences, ESTHUA, Faculté de tourisme, Culture et hospitalité, Université d'Angers, Angers, France"
+      orcid: ""
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 2
+    basis: "Two studies as the authors report them: a quantitative field study with 300 festival visitors (150 seated, 150 standing, assigned at random; PLS-SEM with multigroup analysis) and a qualitative study of 30-minute interviews with 13 of those participants; the pretest of the app and scales is not counted"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Pierre-Henry Leveau and
+      Sandra Camus, both of the Université d'Angers in France,
+      asked whether the body matters in a virtual reality sales pitch. Brands and tourism boards now build VR
+      experiences in the hope that a taste of the real thing will make people want it. Their question was
+      what, inside such an experience, moves someone towards the offer being promoted, and whether the way the user's own
+      body is placed plays a part.
+
+      They ran their test at Geekfest, an event in Angers. Visitors wore a headset and became an explorer paddling a
+      kayak between icebergs, looking at wildlife and landscapes along the way. A random half did it sitting down, which
+      is how people really kayak, and could sit in an inflatable kayak for comfort. The other half stood up, a far less
+      natural position for paddling. Everyone then filled in a questionnaire, and a smaller group was interviewed about
+      what would lead them to choose a destination after a virtual visit.
+    facts:
+      - ["Participants", "300 festival visitors old enough to travel and pay for a trip themselves; 150 seated and 150 standing, assigned at random"]
+      - ["Experience", "National Geographic Explore VR on a Meta Quest 2 headset: about 10 minutes kayaking through Antarctica, seen in the first person"]
+      - ["Measured", "Embodiment (8 statements), immersion (5) and enjoyment (9) on 7-point agreement scales, plus one statement on wanting to visit for real"]
+      - ["Method", "Partial least squares structural equation modelling, with a multigroup comparison of seated and standing users"]
+      - ["Interviews", "13 participants, 30 minutes each, coded by hand"]
+
+  - h: "What the four measures capture"
+    body: |
+      Embodiment is the sense that the virtual body is yours. The scale covered two sides of it. Agency is the sense that
+      you are causing and steering the virtual body's movements, and that they keep time with your own. Ownership is the
+      sense that its arms and legs belong to you. Users looked out through the avatar's eyes and never saw their virtual
+      body, so a third side, seeing yourself from outside, was left out.
+
+      Immersion here means mental absorption: losing track of the room around you and of what came before or after. The
+      authors distinguish it from presence, which can arise with little effort; absorption takes concentration and grows
+      as the activity goes on. Enjoyment came from a scale first built for sport and physical exercise, a fair fit for a trip
+      made entirely by paddle. The outcome was one statement about wanting to discover and visit the destination for real.
+
+  - h: "Feeling embodied went with deeper immersion and more enjoyment"
+    body: |
+      All five links in the main model held. The two strongest started from embodiment. Its link
+      with immersion counted as a strong effect by the conventions the paper follows (effect size 0.468), and its
+      link with enjoyment as a moderate one (0.291).
+
+      Immersion and enjoyment also moved together in both directions: people who were more absorbed tended to enjoy the
+      trip more, and those enjoying it more tended to be more absorbed. Earlier work mostly asked which of the two comes
+      first. The authors treat the two-way link as a finding in its own right and advise designers to plan for both
+      feelings at once.
+    chart: links
+
+  - h: "A smaller step to the real trip"
+    body: |
+      Immersion and enjoyment each had a positive, significant link with wanting to go to Antarctica, and the two links
+      were almost exactly the same size. Both were much weaker than the links from embodiment, with small effect sizes of
+      0.022 each.
+
+      In the authors' interpretation, the results form a chain that runs from embodiment through immersion and enjoyment
+      to the wish to visit. The paper reports each link separately, not one estimate for the whole chain. Their wider conclusion is
+      that a virtual consumption experience works on thoughts, feelings and intentions only when people live it as close
+      to real.
+
+  - h: "Sitting strengthened the experience, not the travel plans"
+    body: |
+      To test posture, the researchers estimated the model separately for seated and standing users and compared the two,
+      resampling the data 5,000 times. Sitting made two links stronger, from embodiment to immersion and from embodiment to
+      enjoyment. Put simply, for people in the natural kayaking position, a sense of embodiment turned into more
+      absorption and more enjoyment than it did for those on their feet.
+
+      Further along, posture made no reliable difference. For the link from enjoyment to the travel wish, the seated
+      estimate looked far larger than the standing one, but the difference was not significant. For the link from
+      immersion, the two groups were close. The authors call this not fully consistent with earlier claims that a natural
+      posture lifts intentions directly, and ask for more work on when it does.
+    chart: posture
+
+  - h: "What the interviews added"
+    body: |
+      The interviewees saw the virtual trip as a way to picture a place before travelling and to plan the visits they
+      would make there. One called it a foretaste. Several said they felt like the main actor in the scene, and one
+      thought the format sells harder because it makes people curious. Another described it as a possible extra channel,
+      used in the way they would usually buy a book. On our reading, that places the headset beside existing channels
+      rather than in their place.
+
+  - h: "The authors' advice"
+    body: |
+      Design for the body. The authors want developers to let users move, play and interact physically so that they feel
+      embodied, and to favour applications built to feel close to a real experience. In their view a natural body
+      position may be enough on its own to make the effects hold. Tourism firms, they suggest, should promote both the
+      realism of what visitors will see and the fact that it can be enjoyed from a comfortable position.
+
+      They also urge public authorities to write rules for experiences inside virtual worlds, which they describe as
+      having none. A bad experience, they warn, could turn customers off VR and damage the image of whichever brand
+      offered it.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Copy the posture of the real activity", "Write down how a customer's body is placed when they use what you sell for real: seated in a boat, standing at a counter, walking a trail. Set up the VR demo so people take that same position from the first second."]
+  - ["Choose doing over watching", "Pick a VR experience in which people move to make things happen, such as paddling, reaching or turning to follow an animal. Try three options yourself and keep the one where your movements feel most like the real ones."]
+  - ["Add a simple prop", "Give people something that matches the real setting: a low seat for a kayak, a stool at bar height, a rail to lean on. Try it with five colleagues and adjust until each one settles in within a minute."]
+  - ["Screen off the headset corner", "Put the headset in a screened corner with closed headphones, so passers-by cannot crowd round. Keep each session to about 10 minutes so the queue keeps moving."]
+  - ["Ask four questions at the exit", "As people hand back the headset, ask them to give each of four statements a mark between 1 and 7: this body felt like mine, I forgot where I was, I enjoyed it, I want to do this for real. Keep the answers from every session."]
+  - ["Count real follow-ups for 30 days", "Give each headset user a booking code, and give people who skipped the headset a different one. Over the next 30 days, compare how many from each group use their code."]
+
+expect:
+  - "**Feelings move first.** Embodiment's clearest effects were on how absorbing and enjoyable the trip felt, and the wish to travel followed only weakly from those feelings."
+  - "**Posture is an easy change to test.** On our reading, a seat or a simple prop is among the cheapest adjustments a stand can make, and here sitting strengthened how far embodiment lifted absorption and enjoyment."
+  - "**A start, not a sale.** The authors stress that a trip still needs comparison, planning and a budget, so treat a VR stand as a way to open interest rather than to close bookings."
+
+limits:
+  - "**One place, one app, one event.** A single kayak trip through Antarctica at one festival in Angers; other destinations, products or settings may give different results."
+  - "**No group without VR.** Everyone wore a headset, so there is no telling from this test whether VR does better than a video, a brochure or a website."
+  - "**A busy setting.** Headphones did not fully cut people off from the festival around them, and being watched by passers-by may have changed how they behaved. A laboratory replication is the authors' proposed remedy."
+  - "**Wishes, not bookings.** Intent to visit was a single questionnaire item, and nobody's later travel was tracked."
+  - "**Self-reports and few senses.** Immersion and enjoyment were self-reported, with no physiological measures, and no extra cues such as cold air or scent were added."
+
+faq:
+  - q: "Can a virtual reality experience make people want to visit a destination?"
+    a: "It can add to the wish. Visitors who found a virtual Antarctic kayak trip absorbing and enjoyable tended to report a stronger wish to go for real, though those feelings accounted for a modest part of that wish (Leveau & Camus, 2023)."
+  - q: "What is embodiment in virtual reality?"
+    a: "The sense that a virtual body is your own. It was measured through two parts: agency, feeling that you cause and control the body's movements, and ownership, feeling that its limbs are yours."
+  - q: "Is it better to do a VR experience sitting or standing?"
+    a: "Match the real activity. In a virtual kayak trip, people who sat, as paddlers do, turned their sense of embodiment into more absorption and enjoyment than people who stood. Posture did not reliably change how those feelings connected with travel plans."
+  - q: "How does immersion differ from presence in VR?"
+    a: "Presence means feeling you are somewhere, which can come from the senses alone without much effort. Immersion, as used in this research, is mental absorption that takes effort and deepens over time, until people stop noticing their surroundings."
+  - q: "Does VR tourism marketing lead to bookings?"
+    a: "Not directly. The outcome was a statement of intent, and, as the authors caution, an expensive, complex journey involves comparing, planning and budgeting long after the headset comes off."
+
+also:
+  - doi: "10.1080/02650487.2023.2193933"
+    title: "Advertising to inspire–inspiring to persuade: how factors related to the source, message, and audience affect the persuasive effectiveness of influencer advertising"
+    authors: "Beckert & Naderer"
+    journal: "International Journal of Advertising"
+    year: 2023
+    text: >-
+      Why do some influencer posts lead to purchases? A survey of 311 followers found that feeling inspired by an
+      influencer's advertising, together with the imagined personal connection followers feel with that influencer, mattered most to
+      the purchases they reported. How inspired people felt varied with how often ads appeared in the influencer's feed
+      and with how well followers recognised persuasion attempts. When picking creators, the share of paid posts in a feed
+      deserves a look alongside the follower count.
+  - doi: "10.1080/02650487.2023.2203577"
+    title: "Unique… like everyone else: effects and mechanisms of personalization appeals in recruitment advertising"
+    authors: "Pfiffelmann, Pfeuffer, Dens, & Soulez"
+    journal: "International Journal of Advertising"
+    year: 2024
+    text: >-
+      Employment platforms let recruiters put a candidate's name and photograph into a job ad. Three online experiments
+      found that these personalised ads made the employer more attractive, because readers felt treated with consideration.
+      That feeling also reduced resistance to the ad and raised intentions to click and to apply, and for some kinds of
+      personalisation a reader's wish to feel unique made the effect stronger. A name in an ad helps when it signals
+      care for the reader.
+
+charts:
+  links:
+    title: "Strength of each link in the model (path coefficient, 0 = no link)"
+    scale: [0, 0.7]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Embodiment to immersion", 0.565, true]
+      - ["Embodiment to enjoyment", 0.475, true]
+      - ["Immersion and enjoyment, two-way", 0.262, false]
+      - ["Immersion to visit wish", 0.161, false]
+      - ["Enjoyment to visit wish", 0.162, false]
+    source: "Quantitative study, 300 festival visitors, partial least squares results in Table 4; all five links significant at p < 0.05."
+  posture:
+    title: "Each link for seated and standing users (path coefficient, 0 = no link)"
+    scale: [0, 0.7]
+    step: 0.1
+    unit: ""
+    decimals: 3
+    bars:
+      - ["Embodiment to immersion, seated", 0.647, true]
+      - ["Embodiment to immersion, standing", 0.421, false]
+      - ["Embodiment to enjoyment, seated", 0.612, true]
+      - ["Embodiment to enjoyment, standing", 0.332, false]
+      - ["Immersion to visit wish, seated", 0.117, false]
+      - ["Immersion to visit wish, standing", 0.072, false]
+      - ["Enjoyment to visit wish, seated", 0.392, false]
+      - ["Enjoyment to visit wish, standing", 0.090, false]
+    source: "Quantitative study, 150 seated and 150 standing users, multigroup analysis with 5,000 resamples (Table 5). Seated and standing differ significantly for the two embodiment links only (p = 0.016 and p < 0.001), not for visit wish (p = 0.830 and p = 0.118)."
+
+related_pages: []
