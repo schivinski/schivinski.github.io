@@ -1,0 +1,252 @@
+# Marketing in 3 issue, 2023 in research (look-back tab). Schema and writing rules: see watch/WATCH_GUIDE.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+series: 2023
+number: 33                      # position in the 2023 tab (2023 · No. N); never reuse the live `issue` number
+week_of: "2023-08-25"            # the day the paper was first published online (shown as "Paper published ...")
+published: "2026-11-13"          # the day this page went live (metadata only, never shown)
+slug: bricks-clicks-sustainability-labels
+status: live
+
+title: "Do eco and fair-trade labels sell differently online than in stores? What a Journal of Service Research study found"
+dek: >-
+  Organic and other environmental labels took a bigger share of grocery spending when people ordered online, while labels
+  for fair pay and working conditions did better on the shop floor. Loyalty-card records from two Scandinavian retailers
+  suggest the channel shapes which kind of sustainability claim people buy.
+short_title: "Green labels sell online, fair-trade labels in store"
+
+description: >-
+  Fröberg et al. find environmental labels take a larger share of grocery spending online, and social labels such as fair
+  trade a larger share in store.
+
+keywords: [sustainability labels, eco labels, organic products online, fair trade labels, online vs in-store shopping,
+  online grocery shopping, omnichannel retail, multichannel customers, sustainable consumption, loyalty card data,
+  Journal of Service Research]
+topics: [Retail, Service]
+
+image:
+  file: 2023-bricks-clicks-sustainability-labels.jpg
+  og: 2023-bricks-clicks-sustainability-labels-og.jpg
+  alt: "A wicker basket of fresh produce in soft daylight, with a carrot and its feathery top, leafy herbs, a pale white bulb, and yellow pear and red cherry tomatoes"
+  caption: "Which sustainability promise sells best can depend on whether the basket fills up online or in the store. Photo: Jan Kraus on Unsplash."
+
+short_answer: >-
+  Yes, on this evidence. Loyalty-card records covering almost 900,000 baskets show Scandinavian grocery shoppers spending
+  more on environmentally labelled products, such as organic food, when they ordered online, and more on socially labelled
+  products, such as fair-trade goods, when they shopped in the store. It held up when the team compared each customer's
+  online and in-store baskets. At a beauty retailer, social labels also sold better in store.
+
+takeaways:
+  - "After a grocer opened an online shop, households that used it spent an estimated US$5.70 a month extra on environmentally labelled products and US$1.40 a month less on socially labelled ones, relative to households that stayed in the store."
+  - "Among 700 customers who used both channels, the online rise in environmentally labelled spending showed up for bananas and vacuum-packed coffee, while chocolate and ice cream showed no channel difference for that label."
+  - "For one coffee sold with and without labels, 15 of 131 shoppers who bought it in both channels chose the environmentally labelled pack more often online, 3 less often, and 113 kept the same mix."
+  - "At a beauty retailer with 9,271 customers using both channels, socially labelled products sold better in store, although the difference came to under US$1 a month per customer."
+
+paper:
+  doi: "10.1177/10946705231198027"
+  title: "Does the Label Fit the Channel? How “Bricks” and “Clicks” Influence Demand for Environmental and Social Sustainability Labels"
+  authors: ["Fröberg, E.", "Kolesova, S.", "Rosengren, S."]
+  authors_full: ["Emelie Fröberg", "Svetlana Kolesova", "Sara Rosengren"]
+  year: 2024
+  journal: "Journal of Service Research"
+  volume: "27"
+  issue: "1"
+  pages: "124-140"
+  online: "2023-08-25"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # as printed in the article (SAGE author notes and ORCID iDs)
+    - name: "Emelie Fröberg"
+      affiliation: "House of Innovation, Department of Entrepreneurship, Innovation and Technology, Stockholm School of Economics, Stockholm, Sweden"
+      orcid: "0000-0002-5652-5733"
+    - name: "Svetlana Kolesova"
+      affiliation: "Center for Retailing, Department of Marketing and Strategy, Stockholm School of Economics, Stockholm, Sweden"
+      orcid: ""
+    - name: "Sara Rosengren"
+      affiliation: "Center for Retailing, Department of Marketing and Strategy, Stockholm School of Economics, Stockholm, Sweden"
+      orcid: "0000-0003-4358-8919"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Three studies of loyalty-card purchase data: a grocer's online launch (320,158 baskets, 2,776 households, difference-in-differences with a matched sample), the same grocer's established channels (78,027 baskets, 700 customers using both), and a beauty retailer (479,563 baskets, 9,271 customers using both)"
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Emelie Fröberg of the House of Innovation at the Stockholm School of Economics,
+      with Svetlana Kolesova and Sara Rosengren of the school's Center for Retailing,
+      asked whether the place people shop changes which sustainability label they buy.
+
+      They separate two kinds of label. Environmental labels, such as organic marks or the EU Ecolabel, certify how a
+      product was grown or made, and buyers often read them as signs of better taste, health or quality for themselves.
+      Social labels, such as Fairtrade, certify fair prices and working conditions for producers, so their benefit goes
+      mainly to other people.
+
+      Their reasoning is about who is in view. Online, a shopper usually sits alone at a screen and works through a list,
+      which keeps attention on personal needs. In a store, other customers and staff are all around, which makes other
+      people more present in the shopper's mind. The authors expected environmental labels to suit the first setting and
+      social labels the second.
+
+      Instead of surveying intentions, the team used loyalty-card records of actual purchases from two
+      Scandinavian retailers, a grocer and a beauty chain, across three studies.
+    facts:
+      - ["Data", "Loyalty-card purchase records from a grocery retailer and a beauty retailer, both in Scandinavia"]
+      - ["Scale", "320,158, then 78,027, then 479,563 shopping baskets across the three studies"]
+      - ["Periods", "Two years around the grocer's online launch in October 2015; August 2017 to July 2019; March 2013 to November 2016"]
+      - ["Labels", "Every product coded for an environmental label (organic, eco) and a social label (fair prices, working conditions)"]
+      - ["Measured", "Monthly spending on each kind of labelled product, adjusted for the household's total spending"]
+
+  - h: "Before and after the grocer went online"
+    body: |
+      The first study treated a launch as a natural experiment. A grocer with one large store in a mid-sized town started
+      selling online with the same products, prices and discounts as the store. Of 2,776 households in the data, 717
+      began ordering online. The team compared how their labelled spending changed after the launch with the change among
+      households that kept to the store, then repeated the test on 332 households matched on their earlier shopping.
+
+      Online users moved towards environmental labels and away from social ones, relative to the store-only group, and the
+      matched sample gave the same result. In the raw figures, before adjusting for basket size and price differences, the
+      environmental rise was 5% and not statistically significant, while social-label spending was 61% lower.
+
+      The households that took up online ordering were not typical. They already spent more on labelled groceries before
+      the launch, which is why the analysis tracks change over time rather than comparing levels.
+    chart: envspend
+
+  - h: "The same shoppers, online and in the store"
+    body: |
+      The second study used later records from the same grocer, covering 700 customers who shopped in both channels, so
+      each person served as their own comparison. Their online baskets held more environmentally labelled products and
+      fewer socially labelled ones than their store baskets. The authors give an example: a customer who spends
+      US$30.70 a month on environmentally labelled items in the store would spend about US$26 more on them online, for the same total basket. The
+      social-label difference was about US$0.60 a month, small per household but not, the authors note, in relative terms
+      or summed across all customers.
+
+      The team then took four product categories that offer both kinds of label. Bananas and vacuum-packed ground coffee,
+      which they treat as functional staples, sold better online when they carried an environmental label. For chocolate and ice cream,
+      treated as treats, the channel made no difference to environmental labels, while social labels sold better in the
+      store. Socially labelled bananas were also bought more in the store; for coffee, social labels showed no channel
+      difference.
+
+      A final check followed one coffee sold in three versions: unlabelled, with an environmental label and with a social
+      label (the environmentally labelled pack also carried the social label). Most buyers did not change their choice
+      between channels. Of those who did, most bought the eco-labelled version more often when ordering online. The
+      social-label version showed no reliable difference. The authors present this test as exploratory, with a small sample.
+    chart: coffee
+
+  - h: "Beauty products and the shop floor"
+    body: |
+      For the third study, the team switched to a beauty retailer with one online shop and several stores, using 479,563
+      baskets from customers who bought in both. The retailer sells mainly products bought for pleasure rather than
+      function. Here both kinds of label sold slightly
+      better in store once basket size was accounted for, and the in-store advantage was larger for social labels.
+
+      Labelled beauty products were also scarce. Only 2 of the retailer's 11 product categories offered any item with a
+      social label, and 6 offered one with an environmental label, so these purchases were infrequent.
+
+  - h: "Why the channel might matter"
+    body: |
+      The authors explain the results through fit. Ordering staples online brings personal benefits to mind, which
+      suits the taste and health signals of environmental labels. Picking a treat in a store, among other people, brings
+      others to mind, which suits what a social label promises. They are clear that purchase records cannot show what
+      shoppers were thinking, so this account is their interpretation rather than something they measured.
+
+      They also weighed simpler explanations. If labels were just easier to spot on a product page, both kinds should
+      have gained online, and they did not. If online shoppers simply chose bulkier or healthier goods, one identical
+      coffee should not differ by channel, yet it did. And lower price sensitivity online cannot explain why
+      environmentally labelled chocolate and ice cream did not sell better in the store.
+
+  - h: "The authors' advice by channel"
+    body: |
+      For environmental labels, the authors point to the online shop. Make the label visible on the product, mention
+      quality and health benefits in the product description, and let shoppers sort search results by environmental
+      label. To sell the same products in a store, they suggest stressing benefits to others, such as what pesticides do
+      to communities. For social labels, in-store campaigns about the good the label does are the better match.
+
+      They go further for small sellers of sustainable goods: a range built mostly on environmental labels may do best
+      online, while one built on social labels has more reason to invest in physical shops. That suggestion extends past
+      their data.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your labelled range into two lists", "Tag every certified product in your catalogue as environmental (organic or eco) or social (fair pay, working conditions). Then mark each one as an everyday staple or a treat."]
+  - ["Check where each list sells today", "Pull a full year of sales data. For each list, work out its share of spending online and its share in store. Note the five products where the two shares differ most."]
+  - ["Make eco labels easy to find online", "On product pages for staples, place the eco label next to the price. Add a single sentence about what the buyer gets, such as taste or freshness. Add a filter so shoppers can sort results by that label."]
+  - ["Tell the producer story where people gather", "For fair-pay products, write two plain sentences on who made the item and what the fair price pays for. Use them on shelf cards, on in-store screens and in the app's in-store mode."]
+  - ["Split-test the message online", "Over four weeks, split your online visitors in two. On labelled staples, show one group a sentence on what the product does for them and the other a sentence on what it does for growers. Compare how often each version goes into a basket."]
+  - ["Report labelled sales by channel each month", "Each month, track each label type as a share of each channel's sales, not as one total. Every quarter, move promotion budget towards the channel where each type is growing."]
+
+expect:
+  - "**Modest sums per shopper.** Most of the estimated shifts come to a few dollars a month or less per household. Across a whole customer base, the authors argue, they still add up."
+  - "**Staples respond first.** Environmental labels on everyday, functional items are the likeliest to gain from online placement. Environmental labels on treats may not move at all."
+  - "**Most customers keep their habits.** In the coffee check, the large majority bought the same versions whichever way they shopped, so any change comes from a minority."
+  - "**Fewer social-label options.** At the grocer, 387 of 688 product categories offered an environmentally labelled item and only 46 a socially labelled one, which limits how far social labels can grow in any channel."
+
+limits:
+  - "**An inferred explanation.** The records show what people bought, not what they had in mind; the explanation about self and others was not measured."
+  - "**One region, two retailers.** Every dataset is Scandinavian, from one grocer and one beauty chain."
+  - "**Basket mix.** Online and store baskets can contain different categories. The product-level checks address this only in part, as the authors acknowledge."
+  - "**Early adopters.** The first study's online shoppers were among the first to use the new service and already bought more labelled groceries."
+  - "**Few products in the detailed tests.** The staples versus treats comparison rests on four product categories, and the coffee check on 131 and 120 buyers."
+  - "**No wording tested.** Advice on what to say beside a label is the authors' own reasoning; no messages were compared."
+
+faq:
+  - q: "Do people buy more organic products when they shop online?"
+    a: "In Scandinavian grocery data, yes. Spending on environmentally labelled products, which include organic ones, was higher in online baskets, both after a grocer launched online ordering and when the same customers' online and store baskets were compared (Fröberg et al., 2024)."
+  - q: "What separates an environmental label from a social one?"
+    a: "An environmental label certifies how a product treats nature in its production, as organic marks and the EU Ecolabel do. A social label certifies fair prices, working conditions and trade terms for the people who made it, as Fairtrade does."
+  - q: "Why would the shopping channel change which label sells?"
+    a: "The authors' explanation is fit. Shopping alone at a screen keeps personal benefits in mind, which matches environmental labels' links to taste and health. Being among others in a store makes other people more salient, which matches social labels. The purchase data could not measure these thoughts directly."
+  - q: "Does the pattern hold outside groceries?"
+    a: "Partly. At a Scandinavian beauty retailer, socially labelled products again sold better in store, by more than environmentally labelled ones, which also did slightly better there. The authors link this pattern to beauty products being bought mainly for pleasure."
+  - q: "Should a fair-trade brand open physical shops?"
+    a: "A small seller whose range carries mostly social labels would, the authors suggest, gain more from physical stores, and one with mostly environmental labels from selling online. This is advice drawn from the findings rather than a tested result."
+
+also:
+  - doi: "10.1177/10949968231180500"
+    title: "The Drivers and Consequences of Ad Blocking: A Self-Filtering Mechanism That Increases Ad Effectiveness"
+    authors: "de Haan"
+    journal: "Journal of Interactive Marketing"
+    year: 2024
+    text: >-
+      Publishers can answer ad blockers by blocking those users, disguising ads or paying the blocker's developer, and an
+      experiment followed by an extensive survey tested how well forcing ads through works. Blocker users shown forced banners spent 10% to 20% less time on the page, rated the site worse and paid
+      less attention to the ads, which were 190% more effective among people without blockers. Ad blocking works as a filter
+      that removes the least responsive viewers, and blocker users were more willing to pay for ad-free content. For that
+      audience, a paid ad-free option looks like the better offer.
+  - doi: "10.1177/10949968231180497"
+    title: "The Role of Service-Dominant Logic Strategic Orientations in Driving Customer Engagement in Online Retailing"
+    authors: "Katsifaraki & Theodosiou"
+    journal: "Journal of Interactive Marketing"
+    year: 2024
+    text: >-
+      In an experiment, 872 people worked through a hypothetical purchase on one of nine versions of a mock web shop for
+      cycling gear, each carrying cues for a different strategic orientation. Cues showing a firm that creates value with
+      its customers improved brand attitudes, which fed engagement, purchase intentions and, in the end, whether people
+      engaged or disengaged. Cues for relational, individuated and developmental capabilities appeared to have a stronger
+      effect on engagement. How a web shop presents its way of working with customers shapes how much they engage with it.
+
+charts:
+  envspend:
+    title: "Grocer's online launch: monthly spend per household on environmentally labelled products (US$)"
+    scale: [0, 60]
+    step: 10
+    unit: ""
+    decimals: 1
+    bars:
+      - ["Store-only households, before", 19.515, false]
+      - ["Store-only households, after", 20.835, false]
+      - ["Online adopters, before", 36.042, false]
+      - ["Online adopters, after: in store", 41.707, false]
+      - ["Online adopters, after: online", 51.049, true]
+    source: "Study 1, raw monthly means before any adjustment, local currency converted to US dollars at a fixed average rate. 'After' covers the months following the online launch."
+  coffee:
+    title: "One coffee, three versions: shoppers whose labelled share was higher or lower online than in store (number of shoppers)"
+    scale: [0, 20]
+    step: 5
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Environmental label: higher online", 15, true]
+      - ["Environmental label: lower online", 3, false]
+      - ["Social label: higher online", 9, false]
+      - ["Social label: lower online", 4, false]
+    source: "Study 2, exploratory test; 113 of 131 shoppers (environmental) and 107 of 120 (social) bought the same share in both channels. Only the environmental difference was statistically significant."
+
+related_pages: []
