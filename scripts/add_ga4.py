@@ -87,6 +87,7 @@ SNIPPET = """<script id="__MARK__">
       else if (head === 'article') gtag('event', 'article_click', {doi: rest.slice(0, 100)});
       else if (head === 'materials') gtag('event', 'materials_download', {file_name: rest.slice(0, 100)});
       else if (head === 'copy') gtag('event', 'copy_text', {what: rest.split('/')[0]});
+      else if (head === 'cta') gtag('event', 'cta_click', {cta: rest.slice(0, 60)});
       else if (head === 'feed') gtag('event', 'feed_click');
       else if (head === 'share') gtag('event', 'share', {method: rest.split('/')[0]});
     } catch (e) {}

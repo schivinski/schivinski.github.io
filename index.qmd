@@ -200,6 +200,17 @@ description: "Bruno Schivinski, Associate Professor of Marketing at Gdańsk Univ
       research, so students work with current evidence on how consumers think, choose and engage with brands.</p>
   </div>
 </section>
+
+<section class="home-section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Work with me</h2>
+    </div>
+    <p>I mentor researchers and doctoral students on research design, structural equation modelling, manuscripts and
+      grant proposals, and advise organisations on consumer and social media research.
+      See <a href="mentoring.html">research mentoring and PhD coaching</a> or <a href="consultancy.html">consultancy</a>.</p>
+  </div>
+</section>
 ```
 
 ```{=html}

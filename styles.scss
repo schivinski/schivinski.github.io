@@ -908,3 +908,6 @@ main section h2 { margin-top: 2.4rem; }
   .mw-consent-btns { flex: 1 1 100%; }
   .mw-consent-btn { flex: 1 1 auto; }
 }
+
+.paper-cta { display: flex; flex-wrap: wrap; align-items: center; gap: .8rem 1.4rem; margin: 1.6rem 0; padding: 1rem 1.2rem; border: 1px solid $rule; border-left: 4px solid $amber; border-radius: 4px; }
+.paper-cta p { margin: 0; flex: 1 1 22rem; font-size: .95rem; }

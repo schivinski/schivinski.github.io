@@ -649,7 +649,7 @@ def jsonld(d: dict, url: str) -> str:
                    {"@type": "ImageObject", "url": hero, "width": 1600, "height": 900}],
          "datePublished": page_date(d), "dateModified": d.get("modified", page_date(d)),
          "author": AUTHOR, "publisher": {"@id": AUTHOR["@id"]},
-         "isPartOf": {"@type": "Blog", "name": "Marketing in 3", "url": f"{SITE}/watch/index.html"},
+         "isPartOf": {"@type": "Blog", "name": "Marketing in 3", "url": f"{SITE}/watch/"},
          "articleSection": f"Marketing in 3: {series_of(d)} in research" if is_lookback(d) else "Marketing in 3",
          **({} if is_lookback(d) else {"position": d["issue"]}),
          "keywords": ", ".join(d["keywords"]), "inLanguage": "en", "wordCount": words,
@@ -660,8 +660,8 @@ def jsonld(d: dict, url: str) -> str:
          "mainEntity": [{"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": plain(f["a"])}}
                         for f in d["faq"]]},
         {"@type": "BreadcrumbList", "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{SITE}/index.html"},
-            {"@type": "ListItem", "position": 2, "name": "Marketing in 3", "item": f"{SITE}/watch/index.html"},
+            {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{SITE}/"},
+            {"@type": "ListItem", "position": 2, "name": "Marketing in 3", "item": f"{SITE}/watch/"},
             {"@type": "ListItem", "position": 3, "name": d["short_title"], "item": url}]},
     ]
     ld = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)
