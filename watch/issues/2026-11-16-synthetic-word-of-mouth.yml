@@ -1,0 +1,198 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md and watch/STYLE_LOG.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 48
+week_of: "2026-11-16"            # the issue's own date (Monday)
+slug: synthetic-word-of-mouth
+status: live
+
+title: "What is synthetic word of mouth, and how does AI change recommendations and influencer marketing? What a Journal of the Academy of Marketing Science editorial proposes"
+dek: >-
+  Reviews drafted with AI, AI summaries of reviews, virtual influencers and shopping agents that read reviews for us all
+  change how recommendations travel. An editorial introducing a special issue on influencer marketing gives this a name,
+  synthetic word of mouth, and sets out what is different.
+short_title: "When AI writes, carries and reads word of mouth"
+
+description: >-
+  Haenlein et al. define synthetic word of mouth, where AI writes, carries, judges or acts on recommendations, and how people judge what looks machine-made.
+
+keywords: [synthetic word of mouth, AI and word of mouth, influencer marketing, AI-generated reviews, AI review summaries,
+  virtual influencers, deepfake testimonials, AI shopping agents, degree of syntheticity, electronic word of mouth,
+  special issue, Journal of the Academy of Marketing Science]
+topics: [AI, Influencers, UGC]
+
+image:
+  file: issue-48-synthetic-word-of-mouth.jpg
+  og: issue-48-synthetic-word-of-mouth-og.jpg
+  alt: "A camera on a tripod with a monitor showing a smiling man in a beanie and red sweatshirt, while the same man stands out of focus beside a large window"
+  caption: "A creator and his image on the monitor. The editorial asks how people tell real people from machine-made versions. Photo: Detail .co on Unsplash."
+
+short_answer: >-
+  It is word of mouth in which AI takes part: a review polished with AI, a platform summary of many reviews, a virtual
+  influencer shown using a product, or an agent that books a hotel from reviews. The editors argue that this changes all
+  four classic elements of word of mouth, and that people use four cues to judge how machine-made such content seems. It
+  is a framework, not a test.
+
+takeaways:
+  - "The special issue drew more than 80 submissions and published nine articles, grouped into content design, influencer identity, and aligning the interests of influencers, brands and consumers."
+  - "Across those articles, engagement and sales did not always move together: frequent emotional switches in a livestream held viewers but reduced purchases."
+  - "Their new term, synthetic word of mouth, covers any recommendation in which AI plays a part, from drafting a review to acting on it."
+  - "They propose four cues people use to judge whether a recommendation is machine-made: storyline, voice, the person shown and whether the product seems to have been really used."
+
+paper:
+  doi: "10.1007/s11747-026-01198-6"
+  title: "Introducing the special issue on influencer marketing with extension into synthetic word of mouth: How AI shapes the future of influencer marketing"
+  authors: ["Haenlein, M.", "Kannan, P. K.", "Muller, E.", "Wahid, R."]
+  authors_full: ["Michael Haenlein", "P. K. Kannan", "Eitan Muller", "Risqo Wahid"]
+  year: 2026
+  journal: "Journal of the Academy of Marketing Science"
+  online: "2026-08-26"
+  open_access: true
+  licence: "CC BY 4.0"
+  researchers:   # names and affiliations as printed in the paper; ORCID iDs from the paper and OpenAlex
+    - name: "Michael Haenlein"
+      affiliation: "ESCP Business School; University of Liverpool Management School"
+      orcid: "0000-0001-6175-4947"
+    - name: "P. K. Kannan"
+      affiliation: "Robert H. Smith School of Business, University of Maryland"
+      orcid: ""
+    - name: "Eitan Muller"
+      affiliation: "Stern School of Business, New York University"
+      orcid: "0000-0002-8180-7484"
+    - name: "Risqo Wahid"
+      affiliation: "Jyväskylä School of Business and Economics, University of Jyväskylä"
+      orcid: "0000-0002-4646-0358"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level:
+    studies: 0
+    basis: "No level: editorial introducing a special issue, with a conceptual framework on synthetic word of mouth and no data of its own (data availability: not applicable)"
+
+sections:
+  - h: "What the editors set out to do"
+    body: |
+      Michael Haenlein (ESCP Business School; University of Liverpool Management School), P. K. Kannan (University of Maryland), Eitan Muller (New York University) and Risqo Wahid (University of Jyväskylä) edited a
+      special issue of the Journal of the Academy of Marketing Science on influencer marketing. Their editorial does two
+      things. It summarises the nine articles chosen for the issue, and it proposes a new concept for what happens to
+      recommendations once AI is involved.
+
+      The editorial has no data of its own. Its value lies in a set of definitions and distinctions that researchers can
+      test and that managers can use to organise their thinking about AI in reviews, creator content and recommendations.
+    facts:
+      - ["Type of paper", "Editorial introducing a special issue, with a conceptual framework"]
+      - ["Special issue", "Nine articles, selected from more than 80 submissions"]
+      - ["New concepts", "Synthetic word of mouth, and its degree of syntheticity"]
+      - ["Framework", "How AI changes the source, message, channel and receiver of word of mouth"]
+      - ["Outputs", "Five directions for future research"]
+
+  - h: "What the nine special issue articles found"
+    body: |
+      The editors group the articles into three areas. The first is how content is designed over time. Shifts in emotional
+      tone raised engagement in long creator videos, but in livestreams frequent emotional switches kept viewers watching
+      while reducing sales. A consistent visual style helped ordinary posts, whereas stories worked better with a mix of
+      consistency and variation.
+
+      The second area is how audiences read the influencer as a person. Profanity generally lowered engagement, especially in categories where people do not expect it. Political content from gaming influencers reduced engagement, although humour
+      softened the effect. Influencers who looked neither very young nor much older performed best, because apparent age
+      raised credibility while lowering attractiveness.
+
+      The third area is that influencers, brands and consumers want different things. Posts in which the product was less prominent attracted more engagement with the influencer's post, while a more prominent product led to more engagement with
+      the brand's own content afterwards. Similarity between an influencer's followers and the brand's customers drove
+      sales, but a very close image match between influencer and brand weakened it. Advising followers not to buy something built trust, but later weakened the influencer's endorsements for brands whose products had been discouraged. The editors' common point is that
+      engagement, trust and sales are separate outcomes, and a tactic that improves one can hurt another.
+
+  - h: "What synthetic word of mouth is"
+    body: |
+      In the editors' definition, synthetic word of mouth is consumption-related communication in which AI participates in creating, mediating, evaluating or acting on what is said. One of these roles is enough. A review drafted by AI and
+      read by a person counts, and so does a human review condensed by a platform's AI.
+
+      Their examples are already familiar. Platforms summarise thousands of reviews in a few AI-written lines. Virtual
+      influencers post about eating at restaurants they cannot taste. Deepfake videos show real people endorsing products
+      they never used. Agents read reviews and book the top-rated hotel without asking anyone. On new networks built for AI
+      agents, agents exchange views on which tools work best for their users.
+
+  - h: "How AI changes the source, message, channel and receiver"
+    body: |
+      Research on word of mouth has long assumed four human elements. With AI, the source can be a person, a machine or
+      both, as when a customer uses a chatbot to draft a review. The message may describe an experience nobody had, such as
+      an image of a virtual model wearing a handbag. The channel no longer only displays content: it can rewrite it, as a
+      summary does, or create new images that were never posted.
+
+      The receiver changes most. AI systems often read reviews first and pass a short version to the person, and agents may
+      act on what they read with no human decision at that moment. The editors conclude that influence can now occur
+      without persuasion: behaviour changes because a decision was delegated, not because anyone's attitude changed.
+
+  - h: "How people judge whether content is machine-made"
+    body: |
+      The second concept, called degree of syntheticity, is how far a person believes a piece of word of mouth comes from
+      machines rather than people. It rests on perception, not on how much AI was actually used. The editors describe four
+      cues. Storyline: a formulaic arc, perfectly balanced lists or repeated emojis. Voice: speech that is too smooth and
+      lacks hesitation. The person shown: a face or movement that looks slightly wrong, or a celebrity endorsing an obscure
+      product. Use: descriptions with no concrete detail, or images where the use of the product is physically
+      implausible.
+
+      Not every cue applies to every format; a still image has no voice. A more machine-made impression does not
+      automatically mean less trust. The editors expect it to matter more for expensive or high-risk choices, such as a
+      medical treatment, than for a cheap everyday purchase. They also expect the cues to become harder to spot as the
+      technology improves.
+
+  - h: "Questions the authors leave open"
+    body: |
+      The editors set five directions for research: when syntheticity helps, hurts or makes no difference; what happens
+      when AI agents exchange recommendations with each other; how agents read reviews differently from people, and how
+      firms should present product information for them; the risks, from unrealistic expectations to deepfakes that misuse
+      real people's identities; and how platforms and regulators should label, detect and remove harmful content.
+
+how_to:                           # 6 steps: 1-2 Ready (decide, prepare), 3-4 Set (build), 5-6 Market (launch, measure)
+  - ["Map where AI touches what is said about you", "List every point where AI writes, summarises or reads recommendations about your products: review tools, marketplace summaries, AI-assisted or virtual creators, and AI assistants that answer shopping questions."]
+  - ["Read the AI summaries of your reviews", "Open the AI-written review summaries on each marketplace where you sell, and ask the main AI assistants about your category. Note every claim that is wrong, out of date or missing."]
+  - ["Make product facts easy for machines to read", "Use the same attribute names, specifications and prices across your site, feeds and marketplaces. Ask reviewers for concrete details of use, which both people and AI systems can verify."]
+  - ["Brief creators to show real use", "Ask creators to film the product in ordinary use, speaking without a script. Drop copy so polished that it reads as machine-written."]
+  - ["Label AI involvement plainly", "Say when an image, a creator, a review reply or a recommendation was made or assisted by AI, next to the content itself, not in small print."]
+  - ["Check every week for fake endorsements", "Search social platforms and video sites weekly for videos or testimonials that use your brand, your spokespeople or your products without permission, and keep a ready process for takedown requests and a public reply."]
+
+expect:
+  - "**More work on product data.** Making information readable for AI assistants means keeping attributes consistent across every site and feed."
+  - "**Less control over summaries.** A platform condenses reviews its own way; a brand can influence what goes in, not the wording that comes out."
+  - "**Mixed reactions to disclosure.** Labelling AI involvement is the honest choice, but how audiences respond is likely to vary by product and context."
+  - "**Ongoing monitoring.** Fake reviews can affect rankings and sales before platforms remove them, so checks need to be routine."
+
+limits:
+  - "**An untested framework.** The editorial proposes concepts and research questions; none of them has been tested yet."
+  - "**Brief summaries.** The articles in the issue are described in a few lines each; each has its own methods, settings and limits."
+  - "**Early examples.** Social networks for AI agents are new, and reports suggest many of their agents are still guided by people."
+  - "**Perception, not measurement.** Degree of syntheticity describes how machine-made content seems, which can differ from the real extent of AI involvement."
+
+faq:
+  - q: "What does synthetic word of mouth mean?"
+    a: "It is talk about products and services in which AI helps to create, mediate, evaluate or act on a recommendation (Haenlein et al., 2026). AI-written review summaries, virtual influencer posts and deepfake testimonials are all examples, and AI only needs to play one of these roles."
+  - q: "What is the degree of syntheticity?"
+    a: "It is a person's judgement of how much a recommendation was produced by machines rather than by people. It draws on a formulaic storyline, an unnaturally smooth voice, a person who looks slightly wrong, and product use that seems implausible."
+  - q: "Are AI-generated reviews always less persuasive?"
+    a: "Not necessarily. The editors expect machine-made content to matter more for costly or risky decisions, such as medical treatments, and less for cheap everyday purchases, where shoppers may use it without thinking about where it came from."
+  - q: "How do AI shopping agents change word of mouth?"
+    a: "They can be the first, or the only, reader of reviews. An agent may filter and summarise what people wrote, or act on it directly, so a purchase can follow from reviews that no human read."
+
+also:
+  - doi: "10.1002/mar.70174"
+    title: "Human in the Loop, or Perceived Oversight? The Psychological Inference That Drives AI Credibility"
+    authors: "Nagpal & Cotte"
+    journal: "Psychology & Marketing"
+    year: 2026
+    text: >-
+      Two experiments with AI-generated investment research tested how the stated source of a report shapes its
+      credibility. Labelling the same report as written by a person, by an opaque AI, by AI supervised by a person or by an
+      explainable AI had only small effects on credibility and none on investment choices, and the human-supervised version
+      was rated least credible. What mattered was whether readers believed someone competent had checked the work. When
+      adding human review to AI content, show how the checking was done rather than only stating that a person was involved.
+  - doi: "10.1177/10949968261474807"
+    title: "Fan Badges Signal Friendships: How Viewer-Influencer Parasocial Relationship Drives Conversion Funnel in Livestream Commerce"
+    authors: "Zhang"
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Across more than 1,500 influencer-hosted livestream sessions, this study used viewers' fan badges as an indicator of how close they feel to the host. Viewers with stronger ties wrote more product-related comments and more positive
+      reactions, and both linked to interest in the product, but only the positive emotional engagement predicted actual
+      purchases. Hosts who want sales should encourage warm, positive exchanges with loyal viewers, not only product detail.
+
+charts: {}
+
+related_pages: [influencer-intimate-self-disclosure-credibility]   # paper pages on this site worth linking (slugs)
