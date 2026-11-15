@@ -272,6 +272,22 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
 - First case: issue 46 (Khan et al.). Chrome was unreachable during the morning run on 9 Nov 2026; Bruno asked for this
   rule at 11:57, and the email went out at 12:00 Sydney once Chrome was back.
 
+## Missed issue runs: check and run them (Bruno, 16 November 2026)
+- Most scheduled issue runs need Bruno's computer. When it is offline at 08:00 Sydney, the run is suspended
+  (`device_absent`) and the issue does not go out. Issue 48 was missed this way on Monday 16 Nov 2026 (no internet) and
+  was published late the same morning, after Bruno noticed.
+- Rule: check whether each scheduled issue was actually triggered and published. On every issue day (Monday and
+  Thursday) after 08:00 Sydney, and at the start of any Marketing in 3 session, fetch
+  https://schivinski.com/watch/email/latest.json and compare `week_of` with today's date. If today's issue is missing and
+  no publish run is under way (no recent commit for it, no queued or running publish.yml), run it straight away from its
+  slot in watch/PLAN_2026.md and the original scheduled task's prompt, send the author thank-you (with the retry rule)
+  and tell Bruno that it went out late. Do not wait for Bruno to notice.
+- Every issue run first checks whether its issue is already live (latest.json, or `status: live` in the issue file on
+  main). If it is, it does not publish again; it only completes missing steps such as the thank-you or the logs. This
+  stops a suspended run from publishing a second copy when the computer comes back online.
+- A cloud check that does not need Bruno's computer (Monday and Thursday, mid-morning Sydney) was proposed on 16 Nov
+  2026; creating it needs Bruno's approval of the scheduled task.
+
 ## The 2025 tab: "2025 in research" (Bruno, 2 November 2026)
 - A look back at digital marketing papers first published online in 2025, on its own tab at `/watch/2025/` (switch
   "Browse by year" above the topic bar on the Marketing in 3 page). Built in its own chat, separate from the live series.
