@@ -401,9 +401,9 @@ def body(d: dict, pubs: dict, pages: dict) -> str:
 
     out.append('<section class="paper-section"><h2>Key findings</h2><ol class="findings">' + "".join(
         f'<li><strong>{f["headline"]}</strong> {f["text"]}</li>' for f in d["findings"]) + "</ol></section>")
-    out.append('<aside class="paper-cta" aria-label="Marketing in 3"><p><strong>Research like this, translated for practitioners.</strong> '
+    out.append('<div class="paper-cta" role="note" aria-label="Marketing in 3"><p><strong>Research like this, translated for practitioners.</strong> '
                'Marketing in 3 explains a new peer-reviewed marketing study every Monday and Thursday: what it found and how to use it.</p>'
-               '<a class="btn btn-line" href="/watch/subscribe.html?from=paper" onclick="window.mwTrack&amp;&amp;mwTrack(\'cta/paper-subscribe\')">Subscribe to Marketing in 3</a></aside>')
+               '<a class="btn btn-line" href="/watch/subscribe.html?from=paper" onclick="window.mwTrack&amp;&amp;mwTrack(\'cta/paper-subscribe\')">Subscribe to Marketing in 3</a></div>')
 
     scale_tables = [t for t in d.get("tables", []) if t.get("section") == "scale"]
     if d.get("scale"):
