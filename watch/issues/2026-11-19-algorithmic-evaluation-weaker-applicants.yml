@@ -1,0 +1,257 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md and watch/STYLE_LOG.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 49
+week_of: "2026-11-19"            # the issue's own date (Thursday)
+slug: algorithmic-evaluation-weaker-applicants
+status: live
+
+title: "Who stops applying when an algorithm decides? What a Journal of Consumer Research field study and seven experiments found"
+dek: >-
+  Lenders, landlords, employers and universities increasingly tell applicants that software will assess them. Eight
+  studies show that this news discourages one group in particular, people who doubt the strength of their own case, and
+  test two ways to keep them applying.
+short_title: "Who stops applying when an algorithm decides"
+
+description: >-
+  Liu et al. ran eight studies: people who saw their applications as weak were less willing to apply when an algorithm
+  decided, unless it could make exceptions.
+
+keywords: [algorithmic evaluation, AI screening of applicants, algorithm aversion, applicant strength, human versus
+  algorithm decisions, AI in lending decisions, AI in recruiting, credit card applications, appeal to a human, AI
+  disclosure, self-selection of applicants, Journal of Consumer Research]
+topics: [AI, Service]
+
+image:
+  file: issue-49-algorithmic-evaluation-weaker-applicants.jpg
+  og: issue-49-algorithmic-evaluation-weaker-applicants-og.jpg
+  alt: "A hand holds a fountain pen over a printed form on a desk, with a calculator, sticky notes and folded banknotes around it in warm orange and teal light"
+  caption: "Filling in an application by hand. Who will assess it affects whether some people send it at all. Photo: Jakub Żerdzicki on Unsplash."
+
+short_answer: >-
+  People who think their own application is weak. In eight studies covering freelance jobs, credit cards, loans, rentals
+  and graduate school, weaker applicants were more reluctant to apply if an algorithm would decide, while stronger
+  applicants applied either way. Weaker applicants value a person's capacity for flexibility and leniency, and the
+  difference disappeared when the algorithm could make exceptions or a rejection could be appealed to a person.
+
+takeaways:
+  - "In a survey of 300 Americans, 83% thought credit card applications are mostly decided by algorithms, against 31% for rental housing applications."
+  - "On Upwork, each one-unit rise in a freelancer's track-record index multiplied the odds of applying to the algorithm-screened job by 2.44."
+  - "When a cash bonus depended on the verdict, 58% of high scorers in an online game chose an algorithm as their judge, against 50% of low scorers."
+  - "Choosing five of ten graduate schools, people told they were in the top 25% of applicants picked 1.77 algorithm-assessed schools on average; those told they were in the bottom 25% picked 1.28."
+
+paper:
+  doi: "10.1093/jcr/ucag033"
+  title: "Consumers with Weaker Applications Are Less Receptive to Algorithmic Evaluation"
+  authors: ["Liu, Q.", "Häubl, G.", "Castelo, N."]
+  authors_full: ["Qiao Liu", "Gerald Häubl", "Noah Castelo"]
+  year: 2026
+  journal: "Journal of Consumer Research"
+  online: "2026-08-24"
+  open_access: true
+  licence: "CC BY-NC-ND 4.0"
+  researchers:   # names and affiliations as printed in the paper; ORCID iDs from OpenAlex (none found for Qiao Liu)
+    - name: "Qiao Liu"
+      affiliation: "Haskayne School of Business, University of Calgary"
+      orcid: ""
+    - name: "Gerald Häubl"
+      affiliation: "Alberta School of Business, University of Alberta"
+      orcid: "0000-0001-9705-0757"
+    - name: "Noah Castelo"
+      affiliation: "Alberta School of Business, University of Alberta"
+      orcid: "0000-0001-8944-9303"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 8
+    basis: "Eight studies as the paper counts them (1, 2A, 2B, 3 to 7): a field study of 207 Upwork applications and seven online experiments with 4,264 valid responses, one with a real bonus. Supplementary studies in the web appendix (B to F) and the opening survey of 300 people are not counted."
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Qiao Liu of the University of Calgary's Haskayne School of Business, with Gerald Häubl and Noah Castelo of the
+      University of Alberta's Alberta School of Business, studied people at the moment they decide whether to apply
+      for something: a credit card, a loan, a job, a rental apartment or a place at university. The work began as
+      Liu's doctoral thesis, supervised by Häubl and Castelo.
+
+      Earlier consumer research on algorithms mostly asked whether people accept their advice. Here the algorithm is the
+      judge, and the question is who still applies once they know it will decide. The authors focus on applicant strength,
+      meaning how strong people believe their own case is against the stated criteria. They either described a strong or
+      weak record to participants or used real records, and varied whether a human or software would make the call.
+    facts:
+      - ["Studies", "Eight: one field study and seven online experiments"]
+      - ["Field study", "Three matched pairs of $100 data-entry jobs posted on Upwork"]
+      - ["Experiments", "4,264 valid responses from Prolific participants"]
+      - ["Decisions studied", "Credit cards, personal loans, rental apartments, graduate school places and a cash bonus"]
+      - ["Data collected", "March 2023 to February 2026"]
+      - ["Open data", "Data files and materials on ResearchBox (no. 3933)"]
+
+  - h: "Weaker applicants apply less when an algorithm decides"
+    body: |
+      On Upwork, a freelance marketplace, one job in each pair said that a recruiting algorithm would review applications
+      and the other that a human recruiter would, both favouring freelancers with more completed jobs, hours and earnings
+      and a higher job success score. The authors combined those four platform metrics into a strength index. Of the 207
+      applications kept for analysis, 82 went to the algorithm-screened jobs, and they came disproportionately from
+      freelancers with stronger records.
+
+      An experiment then asked 1,187 people to imagine a strong or weak credit history and a card issuer whose
+      applications were assessed either by employees or by algorithms. Applicants with a weak history reported a lower
+      likelihood of applying under algorithmic assessment, and stronger applicants hardly changed (Liu et al., 2026). A further study did not say who
+      decides. It asked 400 people who they thought usually approves personal loans, a person or an algorithm, and among those
+      imagining a weak application, the ones who believed an algorithm decides gave a lower likelihood of applying: 2.28
+      against 2.83 out of 5.
+    chart: credit_card
+
+  - h: "With a real bonus at stake, and with several applications to place"
+    body: |
+      Two studies went beyond a single hypothetical application. In the first, 996 people played an online game, opening
+      one of three boxes at a time to find hidden fruit, and learned that about half of the players would receive a bonus
+      for strong performance. The game was arranged so that some found more fruit than chance would give and some fewer.
+      Each player then chose between an algorithmic judge and a human judge for their result, and high scorers picked the
+      algorithm more often.
+
+      In the second, 343 people chose five of ten British universities for a graduate application, knowing that five of
+      the ten used algorithms to assess applicants and that criteria, fees and decision times were the same everywhere.
+      Those told that their record was among the best selected more of the algorithm-assessed universities
+      than those told it was among the weakest.
+
+  - h: "The reason: weaker applicants want an evaluator who can make exceptions"
+    body: |
+      In a loan study, 326 people imagined applying for a personal loan with a strong or weak profile and indicated
+      whether they would rather apply to a bank where employees decide or one where an algorithm decides. With the
+      employees' bank scored 0 and the algorithm's bank 10, stronger applicants averaged 2.98 and weaker ones 1.72. Both
+      groups leaned towards people, but weaker applicants leaned further.
+
+      Participants then rated how much of ten qualities they wanted in the evaluation, and the ratings formed two
+      clusters. One combined flexibility, leniency, subjectivity and empathy, qualities associated with human judges. The
+      other combined consistency, objectivity, fairness, accountability and freedom from bias. Weaker applicants wanted
+      more of the first cluster, and this explained their lower interest in the algorithm's bank. Stronger applicants
+      valued the second cluster more, but it did not explain their choices. Examined individually, the wish for flexibility
+      and the wish for empathy accounted for the effect.
+
+  - h: "Describing the algorithm as able to make exceptions"
+    body: |
+      If weaker applicants avoid algorithms because they expect rigid rules, an algorithm that can make exceptions should
+      appeal to them more. In a study of 416 people applying for a rental apartment, everyone learned that the manager and
+      the algorithm would see the same financial and rental history, decide within a week and allow no appeal. Half also
+      read that this algorithm was designed to depart from the rules case by case when needed.
+
+      With the standard algorithm, applicants with late payments, unpaid utilities and a low credit score strongly
+      preferred the manager. With the flexible algorithm their rating rose to about the level of stronger applicants, and
+      the two groups no longer differed significantly. A supplementary study changed the human side instead: describing
+      the human evaluator as consistent removed weaker applicants' preference for a person.
+    chart: flexible
+
+  - h: "Adding an appeal to a person"
+    body: |
+      The last study tested an arrangement many firms already use. Applying for a credit card, 596 people faced a bank
+      that decided through its staff, through an algorithm, or through an algorithm whose rejections applicants could take
+      to a member of staff for review. Strong applicants were equally willing to apply under all three. Weak applicants were least willing under
+      the algorithm alone, and with the appeal option they were as willing as with human staff.
+    chart: appeal
+
+  - h: "What this means for organisations that screen applicants"
+    body: |
+      Announcing that software screens applications changes the composition of the applicant pool as well as its size.
+      The authors expect algorithmic evaluation to lower the number of applications while raising the share from people
+      who see their case as strong. Whether those people are also objectively stronger depends on how accurately
+      applicants judge themselves, which was outside the scope of these studies.
+
+      Such announcements are becoming common. For job postings made from 1 January 2026, employers in Ontario must say
+      when AI is used to screen, assess or select applicants, and US credit rules already require lenders to give
+      specific reasons for refusals, including those based on complex algorithms. A supplementary study found that
+      applicant strength also shaped attitudes towards the organisation before anyone applied. Services that want to keep
+      applicants with weaker records have two options tested here: state, if it is true, that the system can take
+      individual circumstances into account, or offer a human appeal and say so before people apply.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["List where software decides", "Write down every application your organisation handles, such as credit, memberships, waitlists, rentals or job posts. For each, note who makes the decision (software, a person or both) and exactly what applicants are told before they start."]
+  - ["Count who drops out today", "For one month, count how many people start each application and how many submit it. Split the counts by a simple band you already hold, such as a credit score range or the number of required documents attached."]
+  - ["State what the system can take into account", "If your system or your team can consider individual circumstances, state this in a single plain sentence on the application page. Add a free-text box of up to 500 characters where applicants can explain anything unusual in their record."]
+  - ["Offer a review by a person", "Give every declined applicant the right to ask a named team for a review within 14 days. Show this on the page before people apply, as well as in the decision message, and reply to each request within five working days."]
+  - ["Test the new wording", "Run the old page against the new one for four weeks, splitting visitors at random. Compare how many people start and submit an application in each version, and check the results within each band."]
+  - ["Track the mix every month", "Each month, report the share of applicants in each band, the approval rate and the number of reviews requested. If the share of borderline applicants falls after a change, revise the wording or the review offer."]
+
+expect:
+  - "**Fewer applications from people unsure of their case.** Announcing that an algorithm decides discourages them most; confident applicants barely react."
+  - "**A different applicant mix.** More of those who apply will see themselves as strong candidates, which may suit a lender but works against services meant to reach people with weaker records."
+  - "**Staff time for appeals.** A human review route needs people and reply deadlines, so plan for the share of rejections you expect to be challenged."
+  - "**Claims that must hold.** Saying the system can make exceptions helps only if it really can; a promise the process does not keep invites complaints and regulatory attention."
+
+limits:
+  - "**Mostly stated intentions.** Six of the eight studies asked what people would do in a scenario; only the freelance field study and the bonus game recorded real choices."
+  - "**Strength as people saw it.** The studies set or measured how strong people believed their case was. Whether those who stay away are objectively weaker was not tested."
+  - "**Merit-based decisions.** Every main study involved choosing the best qualified. Need-based support, such as hardship grants, appears only in a small supplementary study."
+  - "**Reasons that overlap.** Flexibility, leniency, empathy and subjectivity move together, and the studies do not separate their effects."
+
+faq:
+  - q: "Do people prefer to be judged by a human or by an algorithm?"
+    a: "It depends on how strong they think their case is. Across eight studies, people with weaker applications showed less interest in applying when an algorithm made the decision, while people with stronger applications were about as willing either way (Liu et al., 2026). In direct choices most people still leaned towards a human evaluator, and that preference was strongest among weaker applicants."
+  - q: "Why are weaker applicants put off by algorithmic evaluation?"
+    a: "They expect a person to be more flexible, lenient and understanding, which could help a case that does not fully meet the criteria. In a loan study, the wish for these qualities, above all flexibility and empathy, explained why weaker applicants were less drawn to a bank that used an algorithm."
+  - q: "Does disclosing AI screening reduce the number of applicants?"
+    a: "It reduces applications mainly among applicants who doubt their own case. In a field study on a freelance platform, workers with stronger track records were more likely to apply to jobs screened by an algorithm. Total numbers may fall, and the mix shifts towards applicants confident of approval."
+  - q: "How can a company use algorithms without discouraging weaker applicants?"
+    a: "Two approaches worked in the experiments. Telling applicants that the algorithm could depart from its rules for individual cases brought weaker applicants' interest close to that of stronger ones, and letting rejected applicants appeal to a person made them as willing to apply as when staff decided. Either statement must be true of the actual process."
+  - q: "Are these findings based on real behaviour?"
+    a: "Partly. A field study on Upwork recorded which jobs freelancers actually applied for, and an online game tied the choice of judge to a real bonus. The other six studies measured intentions in imagined applications for credit, loans, apartments and university places."
+
+also:
+  - doi: "10.1080/02650487.2026.2692228"
+    title: "Beyond the black box: impact of algorithm explainability, control, and literacy on user evaluations of personalized recommendations and advertising"
+    authors: "Ahn, Moon, & Sung"
+    journal: "International Journal of Advertising"
+    year: 2026
+    text: >-
+      Two experiments examined how users of social networking platforms judge personalised recommendations and ads when
+      the platform explains why it shows them and lets users adjust them. Both explanation and control made the algorithm
+      seem more legitimate, and that legitimacy improved attitudes towards the recommendations and the ads. Users with
+      high algorithm literacy responded best when both features were present. Explain to people why a recommendation
+      appears, give them a setting to change it, and offer the two together.
+  - doi: "10.1177/10949968261470801"
+    title: "The Hidden Cost of Data Collection: Data Collection Decreases Consumer-Company Interactions"
+    authors: "Lefkeli, Gürhan-Canlı, & Swaminathan"
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      This research tested what happens to a consumer's dealings with a brand when the brand collects their data. Collecting
+      data reduced consumers' trust, engagement and intention to buy, because the exchange seemed less reciprocal. Offering
+      money or other benefits did not reliably remove the effect, but stating explicitly what the brand gives back for the
+      data reduced it. Before asking for data, explain exactly what the customer receives in exchange.
+
+charts:
+  credit_card:
+    title: "Likelihood of applying for the credit card, by applicant strength and evaluator (0 to 10)"
+    scale: [0, 10]
+    step: 2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Weaker application, employees decide", 6.43, false]
+      - ["Weaker application, algorithms decide", 5.41, true]
+      - ["Stronger application, employees decide", 7.34, false]
+      - ["Stronger application, algorithms decide", 7.18, false]
+    source: "Study 2A, 1,187 online participants. Weaker applicants: significant difference. Stronger applicants: no significant difference."
+  flexible:
+    title: "Preference for the algorithm over the manager to review a rental application (0 = manager, 10 = algorithm)"
+    scale: [0, 10]
+    step: 2
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Weaker application, standard algorithm", 2.42, false]
+      - ["Stronger application, standard algorithm", 4.08, false]
+      - ["Weaker application, flexible algorithm", 4.41, true]
+      - ["Stronger application, flexible algorithm", 3.91, false]
+    source: "Study 6, 416 online participants. The flexible algorithm was described as able to depart from the rules case by case."
+  appeal:
+    title: "Likelihood of applying for the credit card among weaker applicants (0 to 6)"
+    scale: [0, 6]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Staff decide", 2.58, false]
+      - ["Algorithm decides", 1.94, false]
+      - ["Algorithm decides, appeal to a person", 2.57, true]
+    source: "Study 7, 596 online participants. Among stronger applicants the three versions did not differ (2.72 to 2.81)."
+
+related_pages: []   # paper pages on this site worth linking (slugs)
