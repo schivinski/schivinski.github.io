@@ -1,0 +1,219 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md and watch/STYLE_LOG.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 50
+week_of: "2026-11-23"            # the issue's own date (Monday)
+slug: brand-jokes-self-or-rival
+status: live
+
+title: "Is a joke at a rival's expense worth the likes? What three Journal of Research in Interactive Marketing experiments found"
+dek: >-
+  Brands that mock competitors on social media often get plenty of likes for it. Three experiments with almost 1,600
+  people find that the same joke aimed at the brand itself is liked more, seems less mean and leaves a better
+  impression of the brand.
+short_title: "Brand jokes aimed at itself or a rival"
+
+description: >-
+  Moorhouse ran three experiments: brand posts mocking a rival won likes but no better brand ratings, while the same
+  joke about the brand itself improved both.
+
+keywords: [brand humour on social media, self-deprecating humour, self-disparaging brand posts, competitor
+  disparagement, brand rivalry on social media, perceived meanness, brand personality fit, sincere brands, competent
+  brands, social media engagement versus brand evaluation, humorous brand posts, Journal of Research in Interactive
+  Marketing]
+topics: [Social media, Creative, Advertising]
+
+image:
+  file: issue-50-brand-jokes-self-or-rival.jpg
+  og: issue-50-brand-jokes-self-or-rival-og.jpg
+  alt: "A young woman on a dark sofa laughs with her eyes half closed, holding a phone, with a streak of orange and yellow light across the left of the frame"
+  caption: "A laugh at something on screen. Whom the joke targets shapes what viewers then think of the brand behind it. Photo: Yudha Aprilian on Unsplash."
+
+short_answer: >-
+  Usually itself. In three experiments with 1,590 people, a brand post that poked fun at one of the brand's own past
+  decisions was liked more, and lifted opinions of the brand more, than the identical joke pointed at a competitor.
+  Mocking a rival made the brand look mean, and that cost cancelled out the extra likes. The advantage was largest for
+  brands seen as sincere or competent.
+
+takeaways:
+  - "Compared with a plain product post, a jab at a competitor raised post liking by 0.56 points (out of 7) but left opinions of the brand where they were."
+  - "Turning that joke on the posting brand raised post liking by 1.25 over the plain post and brand evaluation by 0.31."
+  - "A fictional coffee roaster rated 5.49 out of 7 for competence but 3.23 for market power still gained from self-directed jokes, so the benefit does not depend on market leadership."
+  - "The fit advantage of self-directed jokes appeared only once a brand's sincerity or competence rating passed about 4.0; for brands rated lower, the target of the joke made no difference to fit."
+
+paper:
+  doi: "10.1108/jrim-04-2026-0274"
+  title: "Laugh with me, not at them: why changing the target of disparaging brand humor on social media matters beyond engagement"
+  authors: ["Moorhouse, M."]
+  authors_full: ["Michael Moorhouse"]
+  year: 2026
+  journal: "Journal of Research in Interactive Marketing"
+  online: "2026-10-07"
+  open_access: false
+  licence: ""
+  researchers:   # name and affiliation as printed in the paper; ORCID iD verified on orcid.org (Wilfrid Laurier University, Assistant Professor of Marketing)
+    - name: "Michael Moorhouse"
+      affiliation: "Lazaridis School of Business and Economics, Wilfrid Laurier University"
+      orcid: "0009-0004-4264-4581"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 2
+    studies: 3
+    basis: "Three randomised online experiments (Studies 1 to 3) with 1,590 participants: 590 Prolific adults rating car brands, 600 university students rating restaurant and coffee chains, and 400 Prolific adults rating a fictitious coffee brand."
+
+sections:
+  - h: "What the researcher did"
+    body: |
+      Michael Moorhouse of Wilfrid Laurier University's Lazaridis School of Business and Economics in Waterloo, Canada,
+      looked at a familiar habit of brands on social media: teasing a competitor in public. Earlier studies mostly varied
+      how harsh such jokes are while keeping a rival as the target. This paper keeps the joke the same and
+      changes only its target, so that the brand either mocks one of its own decisions or the identical decision by a
+      competitor.
+
+      The argument is that the target tells people what kind of character the brand is. Teasing a rival casts the
+      brand as an aggressor, which many people find mean however funny the line. A joke at its own expense can come
+      across as self-assured instead. Each study measured liking for the post, its fit with the brand's
+      personality, how mean it seemed and the resulting opinion of the brand.
+    facts:
+      - ["Studies", "Three online experiments with random assignment"]
+      - ["Participants", "590 Prolific adults, 600 university students and 400 Prolific adults"]
+      - ["Brands", "Four car makers, six restaurant and coffee chains, and a fictitious coffee roaster"]
+      - ["What changed", "Only the target of the joke: the posting brand or a named competitor"]
+      - ["Post format", "Static posts in the style of X"]
+      - ["Published", "Online 7 October 2026 (subscription)"]
+
+  - h: "One joke, two targets"
+    body: |
+      In the first study, participants saw a post from Tesla, Toyota, Mercedes-Benz or Jeep that recalled a design
+      decision: rectangular cupholders, signed off with the hashtag #notallideasaregoodideas. Half saw the brand say it
+      had made that choice, and half saw it blame Ford for the same cupholders. Before the post, everyone rated their
+      familiarity with each brand and their liking for it, so the analysis could account for existing
+      attitudes.
+
+      The self-directed post did better on every outcome measured. People liked it more, found it funnier and
+      rated the brand more favourably afterwards (Moorhouse, 2026). Perceived meanness carried most of the
+      difference: blaming Ford made the post seem mean-spirited, and that pulled down both liking and brand opinion. How well
+      the post suited the brand's personality played a smaller part, and only reached marginal significance in this study.
+
+  - h: "Likes for the rival joke, but no lift for the brand"
+    body: |
+      The second study switched to McDonald's, Burger King, Chick-fil-A, Dairy Queen, Taco Bell and Starbucks, and added a
+      plain post announcing a new avocado toast as a comparison. The two humorous versions joked that the item had once
+      been on the menu, either at the posting brand or at Subway. This time both jokes were judged equally funny, so
+      amusement cannot explain what followed.
+
+      Both jokes earned more liking than the plain announcement, and the self-directed one earned the most. Brand
+      evaluation moved less. Only the self-directed joke improved it; the jab at Subway produced no better
+      brand ratings than the plain post. The mediation analysis showed why: the rival joke gained through higher liking
+      and lost through higher meanness, two pulls in opposite directions with similar force.
+
+  - h: "Which brands gain most from joking about themselves"
+    body: |
+      Participants in the second study also rated each brand's personality on Aaker's five dimensions. Two of them
+      shaped the result. The more sincere a brand seemed, meaning honest, wholesome and down-to-earth, the better a
+      self-directed joke fitted it compared with a jab at a rival. Competence, meaning reliable, intelligent and
+      successful, had the same effect.
+
+      Excitement, sophistication and ruggedness did not change how far the two kinds of joke differed in fit. Rugged brands
+      did, however, get a higher fit score for either joke, which suggests that teasing in general suits a tough,
+      outdoorsy image. The author reads the sincerity and competence results as expectations about conduct: warm
+      brands are expected to avoid public attacks, and capable brands are expected to stay composed.
+    facts:
+      - ["Moderated the effect", "Sincerity, competence"]
+      - ["Did not moderate", "Excitement, sophistication, ruggedness"]
+      - ["Higher fit for any joke", "Ruggedness (excitement marginal)"]
+
+  - h: "A small brand, a minor flaw and a serious one"
+    body: |
+      Real brands come with existing reputations, and market leaders may get more leeway to tease. The third study therefore invented a
+      small, technically minded coffee roaster called Method Roasters and a rival called MasterBlend. The posts joked
+      either about crooked bag labels, a minor flaw, or about espresso extraction times that swing from 30 seconds to
+      5 minutes, a flaw people rated as more important when buying coffee.
+
+      Self-directed jokes beat jokes at MasterBlend on liking, fit, meanness, funniness and brand evaluation, and the
+      importance of the flaw made no significant difference. Looked at separately, the brand evaluation benefit was clear
+      for the bag labels and only marginal for the espresso timing, while liking, fit and meanness still favoured the
+      self-directed post for both.
+    chart: coffee_brand
+
+  - h: "What social media teams can take from it"
+    body: |
+      A dashboard that counts likes, comments and shares would score a dig at a competitor as a success. These experiments
+      suggest the gain stays on the post. The author advises checking how audiences read a post, not only how many
+      react, and treating comments that call the brand petty, mean or off-brand as a sign that engagement figures hide
+      damage to the brand.
+
+      For brands built on honesty or reliability, the practical test before posting is whether the line sounds like
+      something the brand would plausibly say. Many jokes written about a competitor can be rewritten about the brand
+      itself. The paper adds three cautions: brands with a weak quality image may only confirm doubts by mocking
+      themselves, minor flaws are the safest material, and frequent self-mockery can turn into a self-defeating style.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Sort your recent jokes by target", "Pull every humorous post from the last six months and tag each one by whom it mocks: your own brand, a competitor, customers or nobody in particular. Note which ones drew complaints."]
+  - ["Write down how your brand treats others", "Agree three words for the brand's voice and one sentence on how it speaks about rivals and customers. Check every joke against that sentence before it is scheduled."]
+  - ["Rewrite rival jokes about yourself", "Take each draft that mocks a competitor and rewrite it about a small quirk of your own, such as old packaging, a clumsy product name or a past design choice. Keep the wording close to the original so the line stays funny."]
+  - ["Choose safe material", "Keep a short list of approved flaws the team may joke about. Leave out anything touching safety, hygiene, data security or the core quality of what you sell."]
+  - ["Read the comments, not only the counts", "For each humorous post, record likes and shares, then read the first 100 comments and count words such as petty, mean, rude or desperate. Compare the count with your regular posts."]
+  - ["Check brand opinion every quarter", "Run a short follower survey each quarter on how people rate the brand, and set it beside your engagement report. Keep self-directed jokes to roughly one post in ten so they stay fresh."]
+
+expect:
+  - "**More likes, not fewer.** In every study the self-directed version drew more liking than the version aimed at a competitor, so switching targets does not cost engagement."
+  - "**Gains that dashboards miss.** The benefit shows up in brand opinion, which needs a survey or brand-lift test to see."
+  - "**Bigger returns for warm or capable brands.** Brands known for honesty or reliability stand to gain most; for rugged brands, teasing of any kind tends to fit."
+  - "**Limits to self-mockery.** A brand already seen as low in quality risks confirming its flaws, and joking about itself too often can start to look like low confidence."
+
+limits:
+  - "**Single posts, not conversations.** Participants saw one static post; replies from the targeted brand, other users or influencers were not included."
+  - "**One joke format per study.** Each study used a single joke structure, so harsher wording or other formats may behave differently."
+  - "**Students for the personality test.** The brand personality findings come from students at one North American university."
+  - "**Measured in one sitting.** Fit, meanness, liking and brand opinion were all rated in the same survey straight after the post, which limits what the data say about which judgement comes first."
+
+faq:
+  - q: "Should brands make fun of competitors on social media?"
+    a: "It can win likes, but in these experiments it did not help the brand. When a post teasing a rival was set against an ordinary announcement, it drew more liking yet did not improve brand ratings, because people judged it mean (Moorhouse, 2026). A self-directed version of the joke did better on liking and on brand opinion."
+  - q: "What is self-deprecating humour in brand marketing?"
+    a: "It is a brand joking about its own flaws, such as a past design choice, an awkward product or a menu item that did not work. In three experiments, posts of this kind seemed less mean and fitted the brand better than identical jokes aimed at a rival."
+  - q: "Why does mocking a competitor hurt brand evaluation?"
+    a: "People see a brand that belittles another brand in public as having crossed a social line. That sense of meanness lowers how much they like the post and, through it, what they think of the brand. This penalty grew when the jab clashed with the brand's personality."
+  - q: "Which brands benefit most from self-deprecating humour?"
+    a: "Those that people regard as sincere or competent. For them, a self-directed joke fits expectations of warmth or composure far better than an attack on a rival. Brands whose quality is already in doubt should be careful, since joking about their flaws may confirm them."
+  - q: "Do likes show whether a humorous brand post worked?"
+    a: "Not on their own. In one of the experiments, a competitor-directed joke earned more likes than a plain post but left brand opinions unchanged. Measuring brand opinion separately, through surveys or brand-lift tests, shows whether the engagement helped the brand."
+
+also:
+  - doi: "10.1177/10949968261475153"
+    title: "Digital Canvases: How Meme Typologies Reveal Ideological Terrain for Marketers"
+    authors: "Chen, Bradford, Schiele, & Hu"
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      A qualitative analysis of Instagram memes examined how different meme types line up with the ideological
+      positions consumers hold. The authors add two subtypes of expressive memes: one that shows emotional honesty while
+      accepting dominant norms, and one that uses symbolic, often humorous resistance to them. Memes appear as spaces
+      where consumers work out identity and contest norms, and the authors are clear that the analysis does not show memes
+      changing beliefs or behaviour. For brands, the typology offers a way to match tone to the community a meme speaks for.
+  - doi: "10.1177/10949968261418878"
+    title: "Managing Firm Social Media Communications Around Fast-Paced Product Launches"
+    authors: "Ungureanu, van Oest, & Pauwels"
+    journal: "Journal of Interactive Marketing"
+    year: 2026
+    text: >-
+      Using daily social media data on video game launches by major publishers, this study examined engagement when one
+      launch overlaps with the next. Overlaps lowered engagement rates for publishers and product accounts but raised
+      them for the games' creators. Spillovers ran one way: publisher and creator posts lifted engagement on product
+      accounts, and creator posts lifted publishers, but not the reverse. The authors' advice divides the work by
+      timing, with creators posting more before launch and publishers more after it.
+
+charts:
+  coffee_brand:
+    title: "Ratings after a post from a fictitious coffee brand, by target of the joke (1 to 7)"
+    scale: [1, 7]
+    step: 1
+    unit: ""
+    decimals: 2
+    bars:
+      - ["Post liking, joke about itself", 4.05, true]
+      - ["Post liking, joke about a rival", 3.30, false]
+      - ["Brand evaluation, joke about itself", 4.67, true]
+      - ["Brand evaluation, joke about a rival", 4.16, false]
+    source: "Study 3, 400 Prolific participants, results pooled across the minor and the important flaw. Both differences significant (p < 0.001)."
+
+related_pages: [social-media-communication-brand-perceptions]   # paper pages on this site worth linking (slugs)
