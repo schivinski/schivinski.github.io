@@ -2,43 +2,43 @@
 # papers: citations per work on the site (key = DOI, or t:<title> when the work has no DOI).
 # other_counts: citations of Scholar rows that are not a separate site work (duplicate versions, reports, media),
 # kept so the h-index computed here matches Scholar's.
-as_of: '2026-11-01'
+as_of: '2026-11-23'
 profile: https://scholar.google.com/citations?user=f-iKGD8AAAAJ
 totals:
-  citations: 7915
+  citations: 7995
   h_index: 33
   i10_index: 51
 papers:
-  10.1080/13527266.2013.871323: 2150
-  10.2501/jar-2016-004: 1110
-  10.1108/jrim-02-2014-0007: 975
-  10.1007/s11469-019-00088-z: 427
-  10.3389/fpsyg.2020.617140: 242
+  10.1080/13527266.2013.871323: 2178
+  10.2501/jar-2016-004: 1127
+  10.1108/jrim-02-2014-0007: 980
+  10.1007/s11469-019-00088-z: 429
+  10.3389/fpsyg.2020.617140: 246
+  10.1016/j.socscimed.2022.114721: 178
   10.3390/jcm8101691: 177
-  10.1016/j.socscimed.2022.114721: 176
-  10.1080/2153599x.2022.2070255: 173
+  10.1080/2153599x.2022.2070255: 172
   10.1016/j.indmarman.2018.03.009: 159
-  10.1016/j.abrep.2018.06.004: 157
-  10.1080/0965254x.2019.1572641: 156
+  10.1016/j.abrep.2018.06.004: 158
+  10.1080/0965254x.2019.1572641: 157
   10.1016/j.jbusres.2019.08.045: 151
-  10.1057/s41262-020-00207-5: 113
-  10.1108/jpbm-05-2021-3468: 99
-  10.1080/10548408.2024.2317748: 96
+  10.1057/s41262-020-00207-5: 114
+  10.1108/jpbm-05-2021-3468: 101
+  10.1080/10548408.2024.2317748: 98
+  10.1080/08911762.2019.1600094: 88
   10.1007/s11469-021-00590-3: 87
-  10.1080/08911762.2019.1600094: 87
-  10.1002/cb.1833: 86
-  10.1016/j.jclepro.2024.143452: 79
+  10.1002/cb.1833: 85
+  10.1016/j.jclepro.2024.143452: 81
   10.3727/152599518x15403853721268: 66
   10.1186/s12888-022-03708-6: 65
   10.3390/su15031917: 59
   10.1016/j.abrep.2021.100391: 59
-  10.1016/j.abrep.2022.100426: 52
-  10.1002/cb.1988: 51
+  10.1002/cb.1988: 52
+  10.1016/j.abrep.2022.100426: 51
+  t:the consumerbased brand equity inventory scale construct and validation: 51
   10.3390/jcm8101730: 49
-  t:the consumerbased brand equity inventory scale construct and validation: 49
-  10.1007/s11126-020-09727-4: 46
+  10.1007/s11126-020-09727-4: 47
   t:effects of social media communication on brand equity and brand purchase intenti: 42
-  10.1080/13527266.2022.2109056: 38
+  10.1080/13527266.2022.2109056: 39
   10.1016/j.addbeh.2022.107416: 38
   t:antecedents and consequences of brand loyalty: 34
   10.1016/j.fufo.2025.100577: 33
@@ -47,23 +47,23 @@ papers:
   10.3390/nu14112226: 28
   t:usergenerated images and its impact on consumerbased brand equity and on purchas: 27
   10.1016/j.jpsychires.2023.12.038: 25
+  10.1016/j.abrep.2022.100449: 25
   10.3390/nu13082895: 25
   10.7206/cemj.2658-0845.1: 25
-  10.1016/j.abrep.2022.100449: 24
   10.1080/13527266.2022.2152077: 23
+  10.1371/journal.pone.0296162: 14
   t:literature review on conceptualisation of online consumer engagement: 14
-  10.1371/journal.pone.0296162: 13
+  10.1108/jsocm-03-2023-0066: 12
   t:rozwj bada nad kapitaem marki bazujcym na konsumencie  przegld literatury: 12
-  10.1108/jsocm-03-2023-0066: 11
+  10.1371/journal.pone.0273927: 11
   t:wpyw postrzeganego ryzyka oraz czynnikw wizerunkowych na zamiar zakupu marek was: 11
-  10.1371/journal.pone.0273927: 10
   t:smart tv users and interfaces whos in control: 9
   10.1080/2153599x.2022.2070248: 9
   t:knowledge management driven leadership culture and innovation success  an integr: 9
   t:implementing secondorder cfa model for the factorial validity of brand equity: 9
+  10.1108/jpbm-04-2025-5959: 8
   10.1123/jege.2023-0033: 8
   10.1080/0144929x.2025.2504510: 6
-  10.1108/jpbm-04-2025-5959: 6
   10.15611/aoe.2019.2.09: 5
   't:wymiary kapitau marki jako moderatory zwizku pomidzy kapitaem marki bazujcym na ': 5
   10.1080/13284207.2024.2446213: 4
@@ -72,17 +72,17 @@ papers:
   t:typologia aktywnsci online konsumenta w zakresie marki: 4
   10.1038/s41598-025-33991-8: 3
   't:effects of social media communication on purchase intention of endorsed fashion ': 3
+  10.1108/jpbm-09-2025-6337: 2
   10.1037/cbs0000437: 2
   10.1556/2006.2024.00063: 2
   t:place branding and social media in the sharing economy a literature review: 2
   t:pomiar kapitau marek wasnych detalistw: 2
   't:implementing the consumerbased brand equity scale for beer brands  a tyskie and ': 2
-  10.1108/jpbm-09-2025-6337: 1
+  10.1038/s44159-026-00604-8: 1
   t:brand trust as a mediator between perceived risk and electronic wordofmouth: 1
   10.17951/h.2015.49.3.117: 1
   10.15219/em62.1215: 1
   10.36253/wep-19943: 0
-  10.1038/s44159-026-00604-8: 0
   10.1556/2006.2026.00022: 0
   10.1016/j.foodqual.2026.106122: 0
   10.29119/1641-3466.2024.204.33: 0
@@ -91,6 +91,7 @@ papers:
   10.1556/jba.7.2018.suppl.1: 0
   10.17951/h.2017.51.2.169: 0
   t:wpyw postrzeganego ryzyka zwizanego z markami wasnymi na zachowania nabywcwprzeg: 0
+  10.15219/em59.1174: 0
   t:hedging with derivatives  case study of polish market: 0
   t:budowanie wartsci marki w mediach spoecznsciowych jako narzdzie osigania przewag: 0
   t:selected aspects of the evolution of the industry analysis: 0
@@ -105,9 +106,9 @@ papers:
   t:jaks w marketingu kreowanie systemu identyfikacji wizualnej na przykadzie umcs l: 0
 other_counts:
 - 35
-- 23
+- 24
 - 11
-- 8
+- 9
 - 7
 - 6
 - 6
