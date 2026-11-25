@@ -220,6 +220,23 @@ issue is not easy to read and attractive to receive a click".
 - Issue-level data: run the Issue analytics workflow (GitHub Actions, manual run; it emails a snapshot to Bruno's Gmail and
   prints only row counts). The November review is project doc claude/m3-reports/2026-11-traffic-review.md.
 
+## Titles and photos are agreed with Bruno once a month (Bruno, 25 November 2026)
+Bruno: "every time i upload the issues - once a month, we agree on the titles for the monthly issues and on the photos to
+be used. we start from this round". First round: issues 51 to 62 (December 2026).
+- When Bruno sends the month's PDFs, prepare one sign-off sheet for every issue of the batch that is not live yet: issue
+  number and date, paper, the proposed title (it must pass "Easy to read and worth the click") and the proposed hero photo
+  with one alternative, photographer, and whether it shows people (the people rule still applies across the batch). Send
+  it to Bruno as a page he can look through, and wait for his answer before the first issue of the batch runs.
+- Once he agrees (or changes something), write on each slot in watch/PLAN_2026.md an **"Agreed title"** line and an
+  **"Agreed hero"** line (Unsplash page, photographer, the image files). Download the agreed photo, crop it to
+  `watch/images/issue-NN-<slug>.jpg` (1600x900) and `-og.jpg` (1200x630), check the crops, and commit them ahead of the run.
+- **Issue runs use the agreed title and the agreed hero exactly as written in the slot.** They do not pick another photo
+  or reword the title. Only the dek, description and the rest of the page are written at run time. If the agreed photo
+  cannot be used (taken down, or the files are missing and the page cannot be reached), the run uses the alternative from
+  the sign-off sheet and says so in its report; it never picks a new one unasked.
+- Bruno's own papers drafted in advance (such as 52 and 53) are on the sheet too, with the title and hero already in the
+  draft, so he sees the whole month in one place.
+
 ## Bruno's own papers, older work (Bruno, 26 October 2026)
 - When an issue covers one of Bruno's own papers that is not new, it keeps the template but is written in his first person,
   with no disclosure line in the opening (Bruno, 29 Oct 2026; the authors are still named with universities), and adds one personal, reflective section on
