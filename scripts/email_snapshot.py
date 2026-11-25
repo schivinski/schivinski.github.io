@@ -36,7 +36,10 @@ def main(paths):
     msg = EmailMessage()
     msg["From"] = f"Site analytics <{ADDRESS}>"
     msg["To"] = ADDRESS
-    msg["Subject"] = f"[analytics-snapshot] {today}"
+    # SNAPSHOT_TAG lets other pulls reuse this transport (e.g. issue-analytics); the weekly loader reads analytics-snapshot.
+    tag = os.environ.get("SNAPSHOT_TAG", "analytics-snapshot")
+    rows = int(os.environ.get("SNAPSHOT_ROWS", "40"))
+    msg["Subject"] = f"[{tag}] {today}"
     msg.set_content(
         "Weekly analytics snapshot for schivinski.com (JSON attached, gzip-compressed).\n"
         "Automated message; read by the analytics dashboard task."
@@ -44,9 +47,9 @@ def main(paths):
     body = {}
     for p in paths:
         if os.path.exists(p):
-            body[os.path.basename(p).replace("_snapshot.json", "")] = compact(json.load(open(p)))
+            body[os.path.basename(p).replace("_snapshot.json", "")] = compact(json.load(open(p)), rows)
     text = json.dumps(body, separators=(",", ":"), ensure_ascii=False)
-    msg.set_content(msg.get_content() + "\n\n---JSON (compact: top 40 rows per table)---\n" + text)
+    msg.set_content(msg.get_content() + f"\n\n---JSON (compact: top {rows} rows per table)---\n" + text)
     print(f"body json: {len(text)} chars")
     sent = 0
     for p in paths:

@@ -27,6 +27,9 @@ def get(s, path, **params):
         if r.status_code == 429:  # rate limited, wait and retry
             time.sleep(int(r.headers.get("Retry-After", "5")) + 1)
             continue
+        if r.status_code == 404 and attempt < 2:  # /stats/hits answers 404 now and then (5 of 7 runs, Nov 2026)
+            time.sleep(5 * (attempt + 1))
+            continue
         r.raise_for_status()
         return r.json()
     r.raise_for_status()

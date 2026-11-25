@@ -1,0 +1,39 @@
+name: Issue analytics pull
+
+# PRIVATE DATA ON A PUBLIC REPO: logs and artifacts are publicly readable.
+# Prints only row counts; the data goes to Bruno's own Gmail, never to logs or artifacts.
+# Manual only: used to compare Marketing in 3 issues (views, sources, search) when planning.
+on:
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "GA4 and Search Console start date (YYYY-MM-DD)"
+        default: "2026-10-20"
+      gc_since:
+        description: "GoatCounter start date (YYYY-MM-DD)"
+        default: "2026-06-01"
+
+permissions:
+  contents: read
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install google-auth requests
+      - name: Pull issue-level GA4, Search Console and GoatCounter (counts only in logs)
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOATCOUNTER_TOKEN: ${{ secrets.GOALCOUNTER_TOKEN }}
+        run: python scripts/issue_analytics_pull.py --since "${{ inputs.since }}" --gc-since "${{ inputs.gc_since }}" --out "$RUNNER_TEMP/issue_analytics.json"
+      - name: Email to Bruno (private; status only in logs)
+        if: always()
+        env:
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          SNAPSHOT_TAG: issue-analytics
+          SNAPSHOT_ROWS: "60"
+        run: python scripts/email_snapshot.py "$RUNNER_TEMP/issue_analytics.json"
