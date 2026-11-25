@@ -1,0 +1,217 @@
+# Marketing in 3 issue. Schema and writing rules: see watch/WATCH_GUIDE.md and watch/STYLE_LOG.md
+# Built into watch/posts/<slug>/index.qmd by scripts/build_watch.py. Edit this file, not the page.
+issue: 51
+week_of: "2026-11-26"            # the issue's own date (Thursday)
+slug: b2b-sales-online-ordering
+status: live
+
+title: "Why do sales reps keep visiting customers who now order online? What a Journal of Marketing study found"
+dek: >-
+  When a food-service distributor let its restaurant customers order online, the sales force kept turning up in
+  person. Those visits turned from taking orders to giving advice, and each customer became more profitable.
+short_title: "B2B sales reps after customers order online"
+
+description: >-
+  Nahm et al. find B2B customers moved 28% of purchases online, yet reps cut in-person orders by only 9% and
+  quarterly gross margin per customer rose 7%.
+
+keywords: [B2B online ordering, B2B e-commerce and the sales force, hybrid sales model, outside sales reps, sales rep
+  visits after online ordering, gross margin per customer, cross-selling in B2B, product returns, food-service
+  distribution, online channel integration, Journal of Marketing]
+topics: [Retail, Service]
+
+image:
+  file: issue-51-b2b-sales-online-ordering.jpg
+  og: issue-51-b2b-sales-online-ordering-og.jpg
+  alt: "A young woman in a black apron holds a small order pad and pen in a dimly lit restaurant, with bar shelves and tables behind her"
+  caption: "A restaurant manager with her order pad. Business customers like her can now reorder online, and the sales visit has to offer something else. Photo: Vitaly Gariev on Unsplash."
+
+short_answer: >-
+  Because the visits paid off. When small restaurant customers of a large US food distributor started ordering online,
+  they moved 28% of their purchases to the website, yet their sales reps cut in-person order meetings by only 9%.
+  Reps used the time once spent writing up orders to advise customers, and each account's gross margin grew by
+  about 7% a quarter.
+
+takeaways:
+  - "Average sales per in-person order fell by $219, while customers bought from 0.22 more product categories each quarter: visits shifted from order taking to advice."
+  - "A customer that switched to online ordering returned $269 less product a quarter, and the distributor sold $212 less of it below cost."
+  - "Customers whose online orders and rep visits fell in the same week gave a margin lift of $557 a quarter, against $156 for those whose orders and visits rarely coincided."
+  - "For every ten customers who moved online, a rep served one more customer, on a typical book of about 40 accounts."
+
+paper:
+  doi: "10.1177/00222429261436003"
+  title: "High Tech, Not Low Touch: Empowering the B2B Sales Force Through Online Channel Integration"
+  authors: ["Nahm, I.", "Wiseman, P.", "Ahearne, M.", "Tirunillai, S."]
+  authors_full: ["Irene Nahm", "Phillip Wiseman", "Michael Ahearne", "Seshadri Tirunillai"]
+  year: 2026
+  journal: "Journal of Marketing"
+  online: "2026-03-14"
+  open_access: false
+  licence: ""
+  researchers:   # names and affiliations as printed in the paper; ORCID iDs as printed in the paper's ORCID list
+    - name: "Irene Nahm"
+      affiliation: "Carlson School of Management, University of Minnesota"
+      orcid: "0009-0009-6645-0075"
+    - name: "Phillip Wiseman"
+      affiliation: "Rawls College of Business, Texas Tech University"
+      orcid: "0000-0002-8797-3512"
+    - name: "Michael Ahearne"
+      affiliation: "C.T. Bauer College of Business, University of Houston"
+      orcid: "0000-0002-2931-544X"
+    - name: "Seshadri Tirunillai"
+      affiliation: "C.T. Bauer College of Business, University of Houston"
+      orcid: "0000-0002-6385-7189"
+  evidence:   # Bruno, 31 Oct 2026: 1 one study, 2 several studies, 3 meta-analysis; empty = conceptual, theoretical or editorial (no column)
+    level: 1
+    studies: 1
+    basis: "One archival study of a Fortune 500 food-service distributor: 1,866,651 quarterly product purchases by 4,079 small restaurant customers served by 113 salespeople, July 2016 to December 2017, analysed with a staggered difference-in-differences design."
+
+sections:
+  - h: "What the researchers did"
+    body: |
+      Irene Nahm of the University of Minnesota's Carlson School of Management, Phillip Wiseman of Texas Tech
+      University and Michael Ahearne and Seshadri Tirunillai of the University of Houston worked with a Fortune 500
+      company that supplies food, kitchen equipment and cleaning products to restaurants. Until October 2016 every
+      order went through a salesperson who visited the customer's premises. Then the company opened an online store
+      with the same catalogue, the same prices and the same commission for the rep, whichever way the order came in.
+
+      Customers could not sign up on their own. Their salesperson created the account and usually helped with the first
+      online order, and after that the customer was free to buy online, in person or both. Because customers joined at
+      different times over a year, the team could compare each new online buyer with similar customers who had not yet
+      switched, weighting the comparison to allow for the kinds of customers and reps who moved first.
+    facts:
+      - ["Company", "Fortune 500 food-service distributor, one major US metropolitan district"]
+      - ["Customers", "4,079 independently owned small restaurants, mostly $500,000 to $1 million in yearly sales"]
+      - ["Sales force", "113 outside salespeople paid a salary plus commission on gross margin"]
+      - ["Data", "1,866,651 quarterly product purchases, July 2016 to December 2017"]
+      - ["Went online", "1,995 customers between October 2016 and September 2017"]
+      - ["Published", "Online 14 March 2026 (subscription)"]
+
+  - h: "Fewer orders written up, the visits kept"
+    body: |
+      Before going online, a typical customer had about ten and a half in-person order meetings with its rep each
+      quarter. After the switch, that number fell by less than one. Earlier studies found that reps often see an online
+      channel as a threat to their role, and the authors see that uncertainty as the reason they kept coming back:
+      meeting the customer was the surest way to learn what the change meant for the relationship.
+
+      What happened inside those meetings changed more than their number. Less business was written up at each visit,
+      so the time went elsewhere. One rep told the researchers that with ordering moved online, "I can talk to them
+      about how to improve menus." Both reps the team shadowed doubted that customers buy more simply because ordering
+      online is easier, which points to the advice, not the website, as the source of any gain.
+
+  - h: "Where the margin came from"
+    body: |
+      Gross margin from each customer that went online rose by $242.30 a quarter on average (Nahm et al., 2026). Two signs of better advice moved with it. Customers sent back less of what they bought, which suggests
+      orders matched their needs more closely, and fewer products went out below cost, which suggests reps could defend
+      the price of what they sold.
+
+      The lift was not a one-quarter bump. Tracking customers for up to seven quarters after they went online, the
+      authors found a statistically significant gain in four of them and a positive estimate in all. Checks with other
+      estimation methods, sales volume in place of margin, and a comparison against customers who never went online
+      all pointed the same way.
+
+  - h: "When visits and online orders line up"
+    body: |
+      The gain was far from even. It was largest where a rep's visit and the customer's online purchases came close
+      together, which fits a pattern the authors describe: the rep discusses a product on site, and the customer orders it
+      online later without being pressed to buy on the spot. Customers who bought half or more of their volume online,
+      and those who bought new products online, also brought much bigger margin gains.
+
+      For the heaviest online buyers, in-person order meetings fell by about 29%, still less than the share of business
+      that had moved to the website. Even so, the authors warn managers against judging a customer's move online only
+      by how much it is used. Lighter users produced smaller but real gains.
+    chart: margin_by_group
+
+  - h: "Room for more customers"
+    body: |
+      Time saved on order taking was not all spent on the same accounts. Looking across each rep's whole book, the
+      team found that reps whose customers moved online went on to serve more customers in the following quarter. The
+      authors expect the extra accounts to come from new customers and from reviving dormant ones, and they suggest managers use this when setting
+      incentives, deciding how much freed time should go to winning new accounts and how much to growing existing
+      ones.
+
+  - h: "What sales leaders can take from it"
+    body: |
+      The company presented the online store to its reps as support for their work, not a replacement, kept prices and
+      commission identical across channels, and had reps set up each account themselves. The authors cannot test each
+      of these choices separately, but they credit them with avoiding conflict between the two channels and keeping reps
+      on side.
+
+      Their most specific advice is to tell reps when their customers order online. A dashboard or alert that shows
+      recent online orders lets a rep schedule a visit shortly before or after, to talk through how the products are
+      being used and what might go with them. Rolling out to the customers most likely to combine online orders with
+      regular visits first should, the authors suggest, bring the largest early returns.
+
+how_to:                           # 6 steps: 1–2 Ready (decide, prepare), 3–4 Set (build), 5–6 Market (launch, measure)
+  - ["Explain the online store to your reps first", "Tell the sales team, before any customer hears of it, that the online store will handle routine reorders so their visits can focus on advice. Launch only when ordering, delivery and invoicing work end to end."]
+  - ["Pay the same commission on online orders", "Credit every online order from a rep's accounts to that rep at the usual commission rate. Make sure no target or bonus rewards reps only for heavy online use."]
+  - ["Let reps open each customer's account", "Have the rep create the login during a visit and place the first online order together with the customer, so the website arrives as part of the relationship."]
+  - ["Send reps a weekly list of online orders", "Give each rep a dashboard or email every Monday showing what their customers ordered online the week before. Ask them to visit or call each active customer within the same week."]
+  - ["Bring one idea to every visit", "Replace order taking with one concrete suggestion per visit: a product the customer has not tried, a better way to use what they already buy, or a fix for a recent problem with an order."]
+  - ["Track four numbers per account each quarter", "For every account that orders online, compare margin, returns, sales at a loss and the number of product categories bought with the quarter before. Hand reps new accounts as their visit schedules free up."]
+
+expect:
+  - "**Visits continue.** Reps keep meeting customers who order online, and the meetings become about advice and service more than writing up orders."
+  - "**A margin gain that lasts.** In this study the estimated lift stayed positive across the quarters observed, so judge a rollout over a year, not one quarter."
+  - "**Bigger returns where reps follow online activity.** Customers whose visits are timed around their online orders gain the most."
+  - "**Spare capacity for growth.** Reps whose customers go online can take on more accounts, which managers can steer through targets and pay."
+
+limits:
+  - "**One company, one city.** All data come from one distributor's small restaurant customers in a single US metropolitan district."
+  - "**Data from 2016 and 2017.** Customer habits with online ordering have changed since then, so the size of the effects may differ today."
+  - "**Advice inferred, not observed.** Interaction quality is read from sales records such as returns, below-cost sales and product range; nobody recorded what was said in meetings."
+  - "**A particular rollout.** Same prices, same commission and rep-created accounts may be part of why it worked; firms that price online orders differently or bypass reps may see other results."
+
+faq:
+  - q: "Does B2B e-commerce replace sales reps?"
+    a: "Not in this study. After a US food distributor opened an online store, reps kept calling on the restaurants that used it almost as often as before and turned the meetings into advice. Gross margin per customer rose, returns fell and customers bought from more product categories (Nahm et al., 2026)."
+  - q: "Why would a sales rep keep visiting a customer who orders online?"
+    a: "Partly to understand what the change means for the relationship, and partly because the visit becomes more useful. With fewer orders to write up, reps spent the time on advice, which showed up as wider product ranges, fewer returns and fewer sales at a loss."
+  - q: "How much online ordering does a customer need before the benefits show?"
+    a: "Less than many managers assume. The authors report a meaningful margin lift even for customers buying roughly 10% of their volume online, and larger gains for heavier online buyers, so low usage is no reason to write the switch off."
+  - q: "How should sales reps use online order data?"
+    a: "As a prompt for timing visits. Margin gains were largest where a rep's visit came in the same week as the customer's online purchases, so the authors recommend dashboards or alerts that flag new online orders to the rep."
+  - q: "What is online channel integration in B2B sales?"
+    a: "It is the moment a business customer that could only buy through a salesperson also starts buying through the supplier's website, while keeping the same rep. The study tracks what happens to that relationship over the following quarters."
+
+also:
+  - doi: "10.1016/j.ijresmar.2025.10.003"
+    title: "Implementing e-commerce channels in business-to-business selling"
+    authors: "Kassemeier, Alavi, & Habel"
+    journal: "International Journal of Research in Marketing"
+    year: 2025
+    text: >-
+      A natural experiment at an industrial distributor (20,280 observations from 845 salespeople) and two online
+      experiments with 551 salespeople examined what adding an e-commerce channel does to the sales force. Salespeople
+      covered more customers afterwards, but the quality of their consultation fell, and both effects depended on their
+      tenure and past success in winning customers. Paying salespeople on e-commerce revenue strengthened the coverage
+      gain and reduced the loss in consultation quality, while managers' promotion of the channel had no measurable effect.
+      Read beside the lead study, it shows how much depends on the way a rollout is designed and paid.
+  - doi: "10.1177/10946705261449559"
+    title: "Hybrid Selling: The Optimal Mix of Face-to-Face and Remote Sales Calls with Existing B2B Customers"
+    authors: "Ergun & Schmitz"
+    journal: "Journal of Service Research"
+    year: 2026
+    text: >-
+      Two field studies with a leading European B2B manufacturer looked at salespeople who serve the same customer
+      partly in person and partly by video or phone. CRM data on 3,565 customers showed an inverted U: some remote
+      calls helped, too many hurt. A second study matching survey and CRM data for 651 more customers found that the
+      best mix could lift performance by up to 27% over in-person selling alone, while an all-remote approach cut it by
+      up to 32% in some settings. Product complexity, customer channel preferences and the rep's knowledge of past
+      interactions decided where the balance lay.
+
+charts:
+  margin_by_group:
+    title: "Extra gross margin per customer per quarter after going online, by group (US dollars)"
+    scale: [0, 600]
+    step: 100
+    unit: ""
+    decimals: 0
+    bars:
+      - ["Online share of volume: high", 493, true]
+      - ["Online share of volume: low", 175, false]
+      - ["New products bought online: high", 504, true]
+      - ["New products bought online: low", 183, false]
+    source: "Customers split at the 75th percentile of each measure (Table 5); high online share means half or more of volume bought online. All effects significant (p < 0.05); the confidence intervals of high and low groups overlap in part."
+
+related_pages: [social-media-b2b-sales-research-agenda]   # paper pages on this site worth linking (slugs)
