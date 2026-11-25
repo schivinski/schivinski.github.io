@@ -132,6 +132,7 @@ def build(n: int, title: str, journal: str, issue_date: dt.date, salutation: str
   <p style="margin:0 0 14px;{PARA}">It is a great pleasure to let you know that your article, &ldquo;{e(title)}&rdquo;, published in <em>{e(journal)}</em>, will be featured in {m3} on <strong>{e(nice(issue_date))}</strong>.</p>
   <p style="margin:0 0 14px;{PARA}">Would you add a sentence or two for our readers, who are mostly marketing practitioners?</p>
   <p style="margin:0 0 14px;{PARA}"><strong>If a marketing manager could change one thing because of your study, what should it be?</strong></p>
+  <p style="margin:0 0 14px;{PARA}">Simply reply to this email with your answer.</p>
   <p style="margin:0 0 14px;{PARA}">If you are happy to, please also attach a headshot, and I will place it next to your comment.</p>
   <p style="margin:0 0 14px;{PARA}">I will print your comment in the issue as you write it, with your name and university. A short reply by <strong>{e(nice(reply_by))}</strong> is all it takes. If you are busy, there is no need to reply; that is perfectly fine. I will send you the link on the day the issue goes live.</p>
   <p style="margin:0 0 22px;{PARA}">Once again, congratulations on the fascinating study.</p>
@@ -149,6 +150,7 @@ def build(n: int, title: str, journal: str, issue_date: dt.date, salutation: str
         f"will be featured in Marketing in 3 ({SITE}/watch/) on {nice(issue_date)}.\n\n"
         "Would you add a sentence or two for our readers, who are mostly marketing practitioners?\n\n"
         "If a marketing manager could change one thing because of your study, what should it be?\n\n"
+        "Simply reply to this email with your answer.\n\n"
         "If you are happy to, please also attach a headshot, and I will place it next to your comment.\n\n"
         "I will print your comment in the issue as you write it, with your name and university. "
         f"A short reply by {nice(reply_by)} is all it takes. If you are busy, there is no need to reply; "
