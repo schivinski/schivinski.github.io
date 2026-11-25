@@ -105,20 +105,46 @@ def gc_get(s, path, **params):
     last.raise_for_status()
 
 
+GC_VARIANTS = [dict(filter="/watch", daily="true"), dict(filter="/watch"), dict(daily="true"), dict()]
+
+
 def gc_watch_hits(s, window):
-    """Every /watch path with total count and nonzero daily counts, paginated."""
+    """Every /watch path with total count and nonzero daily counts, paginated.
+
+    The API answered 400 to filter+daily on 25 Nov 2026, so try simpler parameter sets in turn
+    (and a shorter window) and keep only /watch paths client-side."""
+    errs = []
+    for start in [window["start"], None]:
+        win = dict(window)
+        if start is None:  # last resort: GoatCounter may reject very long ranges
+            win["start"] = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=89)).strftime("%Y-%m-%dT00:00:00Z")
+        for i, extra in enumerate(GC_VARIANTS):
+            try:
+                out = _gc_watch_hits(s, win, extra)
+                print(f"goatcounter/watch_hits: variant {i} start {'given' if start else '89d'} OK")
+                return out
+            except requests.HTTPError as e:
+                errs.append(getattr(e.response, "status_code", ""))
+                if getattr(e.response, "status_code", None) not in (400, 404):
+                    raise
+    raise RuntimeError(f"all variants failed {errs}")
+
+
+def _gc_watch_hits(s, window, extra):
     paths, seen = [], []
-    for _ in range(20):
-        params = dict(window, limit=100, filter="/watch", daily="true")
+    for _ in range(40):
+        params = dict(window, limit=100, **extra)
         if seen:
             params["exclude_paths"] = ",".join(str(x) for x in seen)
         j = gc_get(s, "/stats/hits", **params)
         batch = j.get("hits", [])
         for h in batch:
+            seen.append(h.get("path_id"))
+            if "/watch" not in (h.get("path") or "") and "watch" not in (h.get("title") or "").lower():
+                continue
             days = [[d.get("day"), d.get("daily")] for d in (h.get("stats") or []) if d.get("daily")]
             paths.append({"path": h.get("path"), "path_id": h.get("path_id"), "title": h.get("title"),
                           "count": h.get("count"), "event": h.get("event"), "days": days})
-            seen.append(h.get("path_id"))
         if not j.get("more") or not batch:
             break
         time.sleep(1)
