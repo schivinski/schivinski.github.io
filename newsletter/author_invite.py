@@ -10,8 +10,8 @@ hello@schivinski.com, and sign with his Gdańsk Tech (PG) signature as in his Ou
 claude/mkt3-author-invite-template.md.
 
 Sent automatically by the Monday task "Marketing in 3: author comment invitations" (7 to 14 days before the issue).
-The email is HTML in the Marketing in 3 design (navy header bar with the red wordmark, serif heading, cream question
-box, footer), like the thank-you; it has no hero picture because the issue is not built yet. It is sent the same way
+The email is HTML in the Marketing in 3 design (navy header bar with the red wordmark, serif heading, the question in bold
+body text (Bruno, 25 Nov 2026: no box, no label), footer), like the thank-you; it has no hero picture because the issue is not built yet. It is sent the same way
 as the thank-you: Gmail connector draft for the addresses, then the exact HTML pasted in Claude in Chrome with the
 generated .paste.js (the connector would rewrite links and drop images), From hello@marketingin3.com.
 
@@ -47,7 +47,6 @@ from send_issue import AMBER, AMBER_TEXT, INK, MUTED, PAPER, RULE, SANS, SERIF, 
 OUT = ROOT / "newsletter" / "out"
 SUBJECT = "One sentence from you for Marketing in 3?"
 ALWAYS_CC = "hello@schivinski.com"   # Bruno, 25 Nov 2026
-CREAM = "#fbf3e2"
 PARA = f"font-family:{SANS};font-size:16px;line-height:1.6;color:#2a3246;"
 SIG_FONT = "Arial,Helvetica,sans-serif"
 
@@ -84,7 +83,7 @@ def sig_html() -> str:
         f'style="display:block;width:260px;max-width:100%;height:auto;border:0;margin:14px 0 12px;">'
         f'<p style="margin:0 0 8px;{small}">Faculty of Management and Economics<br>Gdańsk University of Technology<br>'
         f'G. Narutowicza 11/12, 80-233 Gdańsk, Poland</p>'
-        f'<p style="margin:0 0 14px;{small}"><strong>w</strong>&nbsp;&nbsp;<a href="https://pg.edu.pl/" style="color:#000000;text-decoration:none;">www.pg.edu.pl</a></p>'
+        f'<p style="margin:0 0 14px;{small}"><a href="https://pg.edu.pl/" style="color:#000000;text-decoration:none;">www.pg.edu.pl</a></p>'
         f'<img src="{SITE}/assets/email/pg-accreditations.png" width="330" alt="AMBA accredited, CEEMAN, AACSB Business Education Alliance member, EFMD Global" '
         f'style="display:block;width:330px;max-width:100%;height:auto;border:0;">'
     )
@@ -131,15 +130,8 @@ def build(n: int, title: str, journal: str, issue_date: dt.date, salutation: str
   <p style="margin:0 0 14px;{PARA}">Dear {e(salutation)},</p>
   <p style="margin:0 0 14px;{PARA}">I hope you are well.</p>
   <p style="margin:0 0 14px;{PARA}">It is a great pleasure to let you know that your article, &ldquo;{e(title)}&rdquo;, published in <em>{e(journal)}</em>, will be featured in {m3} on <strong>{e(nice(issue_date))}</strong>.</p>
-  <p style="margin:0 0 16px;{PARA}">Would you add a sentence or two for our readers, who are mostly marketing practitioners?</p>
-</td></tr>
-<tr><td class="px" style="padding:0 32px 8px;">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{CREAM};border-left:4px solid {AMBER};border-radius:6px;"><tr><td style="padding:18px 22px;">
-  <p style="margin:0 0 6px;font-family:{SANS};font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:{AMBER_TEXT};font-weight:700;">Just one question</p>
-  <p style="margin:0;font-family:{SERIF};font-size:20px;line-height:1.45;color:{INK};font-style:italic;">If a marketing manager could change one thing because of your study, what should it be?</p>
-  </td></tr></table>
-</td></tr>
-<tr><td class="px" style="padding:16px 32px 6px;">
+  <p style="margin:0 0 14px;{PARA}">Would you add a sentence or two for our readers, who are mostly marketing practitioners?</p>
+  <p style="margin:0 0 14px;{PARA}"><strong>If a marketing manager could change one thing because of your study, what should it be?</strong></p>
   <p style="margin:0 0 14px;{PARA}">If you are happy to, please also attach a headshot, and I will place it next to your comment.</p>
   <p style="margin:0 0 14px;{PARA}">I will print your comment in the issue as you write it, with your name and university. A short reply by <strong>{e(nice(reply_by))}</strong> is all it takes. If you are busy, there is no need to reply; that is perfectly fine. I will send you the link on the day the issue goes live.</p>
   <p style="margin:0 0 22px;{PARA}">Once again, congratulations on the fascinating study.</p>
@@ -155,8 +147,8 @@ def build(n: int, title: str, journal: str, issue_date: dt.date, salutation: str
         "I hope you are well.\n\n"
         f"It is a great pleasure to let you know that your article, \"{title}\", published in {journal}, "
         f"will be featured in Marketing in 3 ({SITE}/watch/) on {nice(issue_date)}.\n\n"
-        "Would you add a sentence or two for our readers, who are mostly marketing practitioners? "
-        "Just one question: if a marketing manager could change one thing because of your study, what should it be?\n\n"
+        "Would you add a sentence or two for our readers, who are mostly marketing practitioners?\n\n"
+        "If a marketing manager could change one thing because of your study, what should it be?\n\n"
         "If you are happy to, please also attach a headshot, and I will place it next to your comment.\n\n"
         "I will print your comment in the issue as you write it, with your name and university. "
         f"A short reply by {nice(reply_by)} is all it takes. If you are busy, there is no need to reply; "

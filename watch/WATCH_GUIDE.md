@@ -284,10 +284,14 @@ email to see if emails were received from authors ... ensure to check everything
 - **Design, link and signature (Bruno, 25 Nov 2026, after the first mock).** "The link on the end of the email is
   actually looking weird. please add the link to mkt in 3 in the text ... add a nice template to it, so it looks
   professional ... for my signature, please add the PG signature". So: navy header bar with the red wordmark, amber
-  rule, serif heading, the question in a cream box, footer; "Marketing in 3" is linked inside the first paragraph (no
-  bare link at the end); signed with his Gdańsk Tech (PG) signature as in his Outlook (images
-  assets/email/pg-signature-logo.png and pg-accreditations.png on schivinski.com). The PG email address is left out of
-  the signature on purpose: replies must reach hello@marketingin3.com, and his work address is never published.
+  rule, serif heading, footer; "Marketing in 3" is linked inside the first paragraph (no bare link at the end); signed
+  with his Gdańsk Tech (PG) signature as in his Outlook (images assets/email/pg-signature-logo.png and
+  pg-accreditations.png on schivinski.com). The PG email address is left out of the signature on purpose: replies must
+  reach hello@marketingin3.com, and his work address is never published.
+- **The question sits in the body text (Bruno, 25 Nov 2026, after the second mock).** No box and no "Just one question"
+  label: "no need to format this in the orange rectangle. it distracts the reader. Keep all text in the format as the
+  rest of the whole email. You may bold this question." So the question is its own paragraph in the body font, in
+  bold. The signature shows the web address alone ("clean up that floating w").
 - **Always Cc hello@schivinski.com (Bruno, 25 Nov 2026).** `author_invite.py` adds it to every invitation and live note
   (it is not a co-author, so it does not change the greeting). The full Cc list to type is in the `.cc.txt` file.
 - **Which issues.** Each Monday run invites the authors of every planned issue dated 7 to 14 days ahead that is firm
