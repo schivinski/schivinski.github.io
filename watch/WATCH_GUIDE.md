@@ -15,6 +15,12 @@ Issue 1 (`watch/issues/2026-01-12-generative-ai-ad-images.yml`) is the template:
    own words, ending with what a practitioner should do with it.
 3. **Write the data file** `watch/issues/<week_of>-<slug>.yml` (fields as in issue 1):
    - `title`: the question a marketer would type into Google or ask an AI, plus the source ("What a Journal of Marketing study found").
+     **Easy to read and worth the click** (Bruno, 25 November 2026): one short question in everyday words (aim for 12 words or
+     fewer before the source), no terms from the paper's own title that a practitioner would not use ("upward counterfactual
+     thinking", "brand publics"), and the reader can tell what they will learn. Keep the source tail short ("What a Journal of
+     Marketing study found"); sample sizes and counts go in the description and short answer, not the title. Aim for 18 words
+     in total. Attractive means clear and relevant, never a catchy contrast or idiom (see watch/STYLE_LOG.md). If no title of
+     this kind can be written for a planned paper, swap the paper (next section).
    - `description`: 140–160 characters, with the headline number.
    - `short_answer`: 50–80 words that answer the title directly (this is what search and AI engines quote).
    - `paper.evidence`: level (1 one study, 2 several studies, 3 meta-analysis, empty for conceptual, theoretical or editorial papers), number of studies and a
@@ -201,6 +207,18 @@ If the issue is written from an accepted manuscript or pre-print, add `source_ba
   the project docs (claude/m3-reports/YYYY-MM.md), then book the calendar slot as before.
 - From January 2027 the series goes to two issues a week (Monday and Thursday). Batch size, date labels and how Bruno's own
   papers fit are to be settled with him then.
+
+## Swapping planned issues for readership (Bruno, 25 November 2026)
+Bruno: "we do the swaps for issues that are more likely not to attract readership" and "we swap if the proposed title of the
+issue is not easy to read and attractive to receive a click".
+- Before each monthly batch is booked, and when reviewing upcoming slots, test every planned paper twice. (1) Readership: does
+  its topic sit with the topics that draw readers in the latest issue-level data (reading time first, then views and search
+  impressions; ignore one-day bot bursts with no reading time)? (2) Title: can it carry a headline that passes the rule above?
+  Swap the paper if it fails either test. Bruno's own papers are not swapped; tighten their titles instead.
+- Write a "Working headline (click test)" line on every planned slot, so the issue run starts from a title that already passes.
+- Moved-out papers go back to the reserve with the reason. A PDF already received stays in m3-papers for a later slot.
+- Issue-level data: run the Issue analytics workflow (GitHub Actions, manual run; it emails a snapshot to Bruno's Gmail and
+  prints only row counts). The November review is project doc claude/m3-reports/2026-11-traffic-review.md.
 
 ## Bruno's own papers, older work (Bruno, 26 October 2026)
 - When an issue covers one of Bruno's own papers that is not new, it keeps the template but is written in his first person,
