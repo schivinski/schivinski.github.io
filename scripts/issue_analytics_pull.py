@@ -45,6 +45,9 @@ GA4 = {
                           filt=contains("landingPage", "/watch")),
     "issue_countries": dict(dimensions=["pagePath", "country"], metrics=["screenPageViews"],
                             filt=contains("pagePath", "/watch/posts/")),
+    # Where each source (ChatGPT, Google, email) lands across the whole site.
+    "site_landing": dict(dimensions=["landingPage", "sessionSource", "sessionMedium"],
+                         metrics=["sessions", "engagedSessions"], filt=None),
     # Whole site, for context.
     "all_pages": dict(dimensions=["pagePath"],
                       metrics=["screenPageViews", "totalUsers", "userEngagementDuration"], filt=None),
