@@ -267,39 +267,74 @@ Each featured paper's authors are invited to add a sentence or two for readers a
 comment shows as "From the author" (or "From the authors") under the short answer, on the page and in the subscriber
 email. The aim is that authors become contributors and share the issue on LinkedIn. Never for Bruno's own or
 co-authored papers (no email of any kind, see above).
+
+Two scheduled tasks run it (Bruno, 25 Nov 2026: "send them automatically on Monday" and "run once a day a search in my
+email to see if emails were received from authors ... ensure to check everything to avoid problems"):
+- **"Marketing in 3: author comment invitations"**, every Monday at 10:13 Sydney: sends the invitations automatically.
+- **"Marketing in 3: author replies (comments and headshots)"**, every day at 06:41 Sydney: finds replies, checks them
+  and adds them to the right issue.
+
 - **Invitation.** Plain-text email built by `newsletter/author_invite.py --issue N --title ... --journal ... --date
   YYYY-MM-DD --salutation "Professor X" --cc "..."`. Do not reword it: the wording was calibrated by Bruno on 25 Nov 2026
   (project doc claude/mkt3-author-invite-template.md). It asks one question ("if a marketing manager could change one
   thing because of your study, what should it be?"), asks for a headshot if they are happy to send one, and gives a
   reply-by date three days before the issue. Recipients and greeting as for the thank-you: To the corresponding author,
   Cc co-authors whose institutional addresses were actually found; "and colleagues" when anyone is copied.
+- **Which issues.** Each Monday run invites the authors of every planned issue dated 7 to 14 days ahead that is firm
+  (paper text in hand: PDF in m3-papers or an open-access version) and not yet invited (author log "Comment
+  invitations", and Gmail Sent). So a Monday issue gets a week's notice at least, a Thursday issue ten days.
 - **Sending.** From hello@marketingin3.com: create the draft with the Gmail connector (plain body only, includeSignature
   false), open it in Claude in Chrome, pick hello@marketingin3.com in From, check the To and Cc chips, make sure no
   "Pozdrawiam" signature was added, send, close the tab. Label the thread "Mkt3/Author requests" (Label_18). If Chrome is
   unavailable, follow the retry rule (every 3 hours, check Sent first). One invitation per paper, no reminder.
-- **When.** The scheduled task "Marketing in 3: author comment invitations" runs on Mondays and Thursdays and invites the
-  authors of each planned issue dated 8 to 12 days ahead, once the slot is firm and the paper text is in hand (PDF in
-  m3-papers, or an open-access version).
-- **Using a reply (the issue run, before writing).** Search Gmail for replies in the invitation thread (in:anywhere
-  subject:"Marketing in 3" from the invited addresses, newer_than:30d). Print the comment exactly as written; the house
-  style rules (dashes, plain English) apply to our words, not to theirs. If it runs well past 80 words, reply in the
-  thread asking which sentence or two to use and publish without it for now. If it promotes a product or service or is
-  off topic, ask Bruno first. Up to two comments per issue. Add to the issue file:
-  `author_comments: [{name, affiliation, text, photo}]` (name as in paper.researchers; affiliation as the author signs,
-  else as printed; ORCID is taken from paper.researchers).
-- **Headshot.** Use only a photo the author attached for this purpose; never take one from a university page, a social
-  profile or the web. Download the attachment, run `python scripts/author_photo.py FILE YYYY-MM-DD-surname` (square
-  crop, 400 px, all metadata removed), look at the result and re-run with a smaller TOP value if the head is cut, then set
-  `photo: authors/YYYY-MM-DD-surname.jpg`. Do not keep the original file. No photo sent: the comment shows without one.
-- **Late replies** (after the issue is live): the invitation task adds the comment and headshot to the live issue,
-  rebuilds and publishes as usual (commit only the issue file and the photo), then sends the short note from
-  `author_invite.py --live --slug ...` the same way as the invitation.
-- **Thank-you email.** `newsletter/author_email.py` now adds a LinkedIn share block to every thank-you (a one-click
-  LinkedIn share of a tracked link, and a suggested post that quotes the author's comment when there is one). The paste
-  check therefore shows www.linkedin.com among the link hosts, next to schivinski.com.
-- **Log and measurement.** Record the invitation date and the outcome (comment, comment and photo, or no reply) in
-  claude/mkt3-author-log.md. LinkedIn visits arrive tagged utm_source=linkedin, utm_campaign=author-issue-N (Issue
-  analytics workflow). After a month, compare issues with and without a comment; keep the figures in project docs only.
+
+### Checking a reply before anything is published (Bruno, 25 Nov 2026)
+Wrong names, photos or comments on the wrong issue must never happen. Before a reply is used, every one of these must
+hold; if any does not, use nothing, record why in the author log and tell Bruno in one line:
+1. **Right issue.** The email is a reply in an invitation (or thank-you) thread for this paper, or clearly names this
+   paper. Match it to exactly one issue number, date and DOI in watch/PLAN_2026.md and the author log.
+2. **Right person.** The sender is one of this paper's authors: the address is one we wrote to, or the name in the
+   signature matches an author printed in the paper. A colleague, assistant or co-author writing for someone else:
+   attribute the comment only to the person who wrote it, and only if that person is an author.
+3. **Right name.** Print the name exactly as in the paper (paper.researchers, or the PDF's first page): spelling,
+   diacritics, middle initials, no title. Never take the name from the email display name alone.
+4. **Right affiliation.** As the author signs it in the reply; otherwise as printed in the paper. If the two differ,
+   use the signature and note it in the log.
+5. **Right words.** The comment is the author's own text from that email, copied exactly: leave out the greeting,
+   sign-off, signature and any quoted earlier message; no edits beyond that. Our style rules do not apply to it. Well
+   past 80 words: reply asking which sentence or two to use, and wait. Promotional, off topic or about another paper:
+   ask Bruno.
+6. **Right photo.** Only an image attached to that same author's email, sent for this purpose (never one from a
+   university page, a social profile or the web). Look at it: one person, a face, not a logo or a group. Several
+   images or anything unclear: ask the author, do not pick one. Run `python scripts/author_photo.py FILE
+   YYYY-MM-DD-<surname>` (issue date and the author's surname; square crop, 400 px, metadata removed), look at the
+   result, re-run with a smaller TOP if the head is cut. One photo per comment; never reuse a photo across authors or
+   issues. No photo sent: the comment shows without one.
+7. **No duplicates.** The comment is not already on the issue (or staged), and the issue carries at most two comments.
+
+### Where an accepted reply goes
+- **Issue not live yet:** stage it in the private repo schivinski/m3-papers under `authors/`: the processed photo as
+  `authors/YYYY-MM-DD-<surname>.jpg` and the details in `authors/issue-NN.yml` (issue, date, DOI, name as printed,
+  affiliation, the exact text, photo file, the email's date and message id, and "checks: passed"). The issue run uses
+  staged comments first (copy the photo to watch/images/authors/ and add `author_comments` to the issue file), then
+  looks in Gmail for anything newer and checks it the same way.
+- **Issue already live:** add `author_comments` to the live issue file and the photo to watch/images/authors/, rebuild
+  and publish (commit only those two files; never while a publish dispatch is running), open the live page and confirm
+  the name, affiliation, words and photo, then send the short note from `author_invite.py --live --slug ...` the same way
+  as the invitation (plain text, From hello@marketingin3.com, in the same thread where possible). The subscriber email is
+  not sent again: the sender sends each issue number once.
+- Issue file format: `author_comments: [{name, affiliation, text, photo}]` (`photo: authors/YYYY-MM-DD-<surname>.jpg`).
+  ORCID comes from paper.researchers by name.
+- An author's question, a request to see the issue first, or a decline is not a comment: record it and tell Bruno; do
+  not answer it automatically.
+
+- **Thank-you email.** `newsletter/author_email.py` adds a LinkedIn share block to every thank-you (a one-click LinkedIn
+  share of a tracked link, and a suggested post that quotes the author's comment when there is one). The paste check
+  therefore shows www.linkedin.com among the link hosts, next to schivinski.com.
+- **Log and measurement.** Record the invitation date and every reply (comment, photo, staged or published, or why it
+  was not used) in claude/mkt3-author-log.md, "Comment invitations". LinkedIn visits arrive tagged utm_source=linkedin,
+  utm_campaign=author-issue-N (Issue analytics workflow). After a month, compare issues with and without a comment; keep
+  the figures in project docs only. Never commit authors' email addresses or analytics figures to this public repo.
 
 ## Greeting when co-authors are copied (Bruno, 2 November 2026)
 - Any author email (thank-you or paper request) that copies co-authors greets them too: "Dear Professor Yuan and colleagues,".

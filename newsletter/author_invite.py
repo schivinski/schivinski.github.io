@@ -5,7 +5,8 @@
       --salutation "Professor Preiksaitis" --cc "a@uni.edu" [--out DIR]
 
 Bruno, 25 Nov 2026 (wording calibrated by him the same day; project doc claude/mkt3-author-invite-template.md).
-Sent about ten days before the issue date, from hello@marketingin3.com, as a plain-text email (it is a personal ask,
+Sent automatically by the Monday task "Marketing in 3: author comment invitations" (7 to 14 days before the issue),
+from hello@marketingin3.com, as a plain-text email (it is a personal ask,
 so it does not use the newsletter design). The reply-by date is three days before the issue. --cc follows the
 greeting rule of 2 Nov 2026: with co-authors copied the greeting reads "Dear Professor X and colleagues,".
 Never for Bruno's own or co-authored papers.
