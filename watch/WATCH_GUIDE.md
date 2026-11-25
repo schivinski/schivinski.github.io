@@ -274,19 +274,35 @@ email to see if emails were received from authors ... ensure to check everything
 - **"Marketing in 3: author replies (comments and headshots)"**, every day at 06:41 Sydney: finds replies, checks them
   and adds them to the right issue.
 
-- **Invitation.** Plain-text email built by `newsletter/author_invite.py --issue N --title ... --journal ... --date
-  YYYY-MM-DD --salutation "Professor X" --cc "..."`. Do not reword it: the wording was calibrated by Bruno on 25 Nov 2026
-  (project doc claude/mkt3-author-invite-template.md). It asks one question ("if a marketing manager could change one
-  thing because of your study, what should it be?"), asks for a headshot if they are happy to send one, and gives a
-  reply-by date three days before the issue. Recipients and greeting as for the thank-you: To the corresponding author,
-  Cc co-authors whose institutional addresses were actually found; "and colleagues" when anyone is copied.
+- **Invitation.** HTML email in the Marketing in 3 design, built by `newsletter/author_invite.py --issue N --title ...
+  --journal ... --date YYYY-MM-DD --salutation "Professor X" --cc "<co-author addresses or none>"`. Do not reword it:
+  the wording was calibrated by Bruno on 25 Nov 2026 (project doc claude/mkt3-author-invite-template.md). It asks one
+  question ("if a marketing manager could change one thing because of your study, what should it be?"), asks for a
+  headshot if they are happy to send one, and gives a reply-by date three days before the issue. Recipients and
+  greeting as for the thank-you: To the corresponding author, Cc co-authors whose institutional addresses were
+  actually found; "and colleagues" when any co-author is copied.
+- **Design, link and signature (Bruno, 25 Nov 2026, after the first mock).** "The link on the end of the email is
+  actually looking weird. please add the link to mkt in 3 in the text ... add a nice template to it, so it looks
+  professional ... for my signature, please add the PG signature". So: navy header bar with the red wordmark, amber
+  rule, serif heading, the question in a cream box, footer; "Marketing in 3" is linked inside the first paragraph (no
+  bare link at the end); signed with his Gdańsk Tech (PG) signature as in his Outlook (images
+  assets/email/pg-signature-logo.png and pg-accreditations.png on schivinski.com). The PG email address is left out of
+  the signature on purpose: replies must reach hello@marketingin3.com, and his work address is never published.
+- **Always Cc hello@schivinski.com (Bruno, 25 Nov 2026).** `author_invite.py` adds it to every invitation and live note
+  (it is not a co-author, so it does not change the greeting). The full Cc list to type is in the `.cc.txt` file.
 - **Which issues.** Each Monday run invites the authors of every planned issue dated 7 to 14 days ahead that is firm
   (paper text in hand: PDF in m3-papers or an open-access version) and not yet invited (author log "Comment
   invitations", and Gmail Sent). So a Monday issue gets a week's notice at least, a Thursday issue ten days.
-- **Sending.** From hello@marketingin3.com: create the draft with the Gmail connector (plain body only, includeSignature
-  false), open it in Claude in Chrome, pick hello@marketingin3.com in From, check the To and Cc chips, make sure no
-  "Pozdrawiam" signature was added, send, close the tab. Label the thread "Mkt3/Author requests" (Label_18). If Chrome is
-  unavailable, follow the retry rule (every 3 hours, check Sent first). One invitation per paper, no reminder.
+- **Sending.** The same route as the thank-you, From hello@marketingin3.com: create the draft with the Gmail connector
+  (To, the Cc addresses from `.cc.txt`, the subject from `.subject.txt`, the `.txt` as a placeholder body,
+  includeSignature false); open the draft in Claude in Chrome; run the generated `.paste.js` with the javascript tool
+  (it replaces the body with the exact HTML). The paste check must show imgs 2, link hosts schivinski.com and
+  pg.edu.pl only, red true, signature false; anything else, do not send. Then pick "Bruno Schivinski
+  <hello@marketingin3.com>" in From, check that the To and Cc chips are exactly the intended addresses (Cc includes
+  hello@schivinski.com), check again that no "Pozdrawiam" signature was added, send, close the tab, confirm the sender
+  with get_message. Never send the connector draft as it is (its HTML is degraded). Label the thread "Mkt3/Author
+  requests" (Label_18). If Chrome is unavailable or any check fails, follow the retry rule (every 3 hours, check Sent
+  first). One invitation per paper, no reminder.
 
 ### Checking a reply before anything is published (Bruno, 25 Nov 2026)
 Wrong names, photos or comments on the wrong issue must never happen. Before a reply is used, every one of these must
@@ -321,8 +337,9 @@ hold; if any does not, use nothing, record why in the author log and tell Bruno 
 - **Issue already live:** add `author_comments` to the live issue file and the photo to watch/images/authors/, rebuild
   and publish (commit only those two files; never while a publish dispatch is running), open the live page and confirm
   the name, affiliation, words and photo, then send the short note from `author_invite.py --live --slug ...` the same way
-  as the invitation (plain text, From hello@marketingin3.com, in the same thread where possible). The subscriber email is
-  not sent again: the sender sends each issue number once.
+  as the invitation (HTML pasted with its `.paste.js`, From hello@marketingin3.com, Cc from its `.cc.txt`; its paste
+  check shows imgs 2 and link hosts schivinski.com, www.linkedin.com and pg.edu.pl). The subscriber email is not sent
+  again: the sender sends each issue number once.
 - Issue file format: `author_comments: [{name, affiliation, text, photo}]` (`photo: authors/YYYY-MM-DD-<surname>.jpg`).
   ORCID comes from paper.researchers by name.
 - An author's question, a request to see the issue first, or a decline is not a comment: record it and tell Bruno; do
