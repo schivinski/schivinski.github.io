@@ -559,6 +559,52 @@ def answer_html(answer: str, ev) -> str:
     return f'{head}<div class="mw-ans-grid"><p>{answer}</p>{col}</div></section>'
 
 
+def author_comments(d: dict) -> list:
+    """Comments the paper's authors send for readers (Bruno, 25 Nov 2026), from the issue file:
+
+        author_comments:
+          - name: Kimberley Preiksaitis        # as in paper.researchers
+            affiliation: Siena University      # short form, as the author signs
+            text: One or two sentences, printed as the author wrote them.
+            photo: authors/2026-12-10-preiksaitis.jpg   # optional, under watch/images/ (scripts/author_photo.py)
+            orcid: 0000-0000-0000-0000         # optional; otherwise taken from paper.researchers by name
+    Only photos the author sent are used. A comment whose photo file is missing shows without the photo."""
+    return [c for c in (d.get("author_comments") or []) if (c.get("text") or "").strip() and c.get("name")]
+
+
+def comment_photo(c: dict) -> str:
+    ph = (c.get("photo") or "").strip()
+    return ph if ph and (ROOT / "watch" / "images" / ph).exists() else ""
+
+
+def comment_orcid(c: dict, p: dict) -> str:
+    return orcid_url(c.get("orcid") or next((r.get("orcid", "") for r in researchers(p) if r.get("name") == c["name"]), ""))
+
+
+def comments_heading(cs: list) -> str:
+    return "From the author" if len(cs) == 1 else "From the authors"
+
+
+def comments_html(d: dict) -> str:
+    """'From the author' block under the short answer: headshot, the comment as written, name, university, ORCID."""
+    cs = author_comments(d)
+    if not cs:
+        return ""
+    head = comments_heading(cs)
+    items = []
+    for c in cs:
+        ph, ou = comment_photo(c), comment_orcid(c, d["paper"])
+        who = f'<strong>{esc(c["name"])}</strong>' + (f', {esc(c["affiliation"])}' if c.get("affiliation") else "")
+        if ou:
+            who += f' · <a href="{esc(ou)}">ORCID</a>'
+        img = (f'<img src="../../images/{esc(ph)}" alt="{esc(c["name"])}" width="96" height="96" loading="lazy" decoding="async">'
+               if ph else "")
+        items.append(f'<div class="mw-voice-item{"" if ph else " no-photo"}">{img}<div class="mw-voice-txt">'
+                     f'<blockquote><p>&ldquo;{md(c["text"])}&rdquo;</p></blockquote>'
+                     f'<p class="mw-voice-who">{who}</p></div></div>')
+    return f'<section class="mw-voice" aria-label="{head}"><h2>{head}</h2>{"".join(items)}</section>'
+
+
 def body(d: dict, prev_next: tuple, data: list) -> str:
     p = d["paper"]
     img = d["image"]
@@ -569,6 +615,7 @@ def body(d: dict, prev_next: tuple, data: list) -> str:
     out = [f'<p class="mw-kicker">Marketing in 3 · {kick} · {dateline(d)}</p>',
            f'<figure class="mw-hero">{hero_html(img)}<figcaption>{esc(img["caption"])}</figcaption></figure>',
            answer_html(link_names(md(d["short_answer"]), p, used, cites=cites), p.get("evidence")),
+           *([comments_html(d)] if author_comments(d) else []),
            '<section class="mw-takeaways"><h2>Key takeaways</h2><ul>'
            + "".join(f"<li>{md(t)}</li>" for t in d["takeaways"]) + "</ul></section>"]
     charts = d.get("charts", {})

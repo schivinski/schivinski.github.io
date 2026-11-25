@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+from urllib.parse import quote
 from pathlib import Path
 
 import yaml
@@ -31,7 +32,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 sys.path.insert(0, str(ROOT / "newsletter"))
-from build_watch import dateline, esc  # noqa: E402
+from build_watch import author_comments, dateline, esc, plain, researchers  # noqa: E402
 from send_issue import AMBER, AMBER_TEXT, INK, MUTED, PAPER, RULE, SANS, SERIF, SITE  # noqa: E402
 
 OUT = ROOT / "newsletter" / "out"
@@ -53,6 +54,22 @@ def greeting(salutation: str, cc: list[str]) -> str:
     return s
 
 
+def share_kit(d: dict) -> dict:
+    """LinkedIn share prompt for the authors (Bruno, 25 Nov 2026): a tracked link, a one-click LinkedIn share and a short
+    suggested post in the author's voice that quotes their own comment when they sent one."""
+    n, paper = d["issue"], d["paper"]
+    link = f"{SITE}/watch/posts/{d['slug']}/?utm_source=linkedin&utm_medium=social&utm_campaign=author-issue-{n}"
+    cs = author_comments(d)
+    whose = "Our" if len(researchers(paper) or paper.get("authors", [])) > 1 else "My"
+    post = (f"{whose} article \u201c{plain(paper['title'])}\u201d ({plain(paper['journal'])}) is featured in Marketing in 3, "
+            "a plain-English series on new marketing research.")
+    if cs:
+        post += f" My one takeaway for marketers: \u201c{plain(cs[0]['text'])}\u201d"
+    post += " Read the summary here:"   # the LinkedIn button attaches the tracked link as a preview card below the text
+    return {"link": link, "post": post, "commented": bool(cs),
+            "share": "https://www.linkedin.com/sharing/share-offsite/?url=" + quote(link, safe="")}
+
+
 def build(d: dict, salutation: str) -> tuple[str, str, str]:
     e = esc
     n = d["issue"]
@@ -64,6 +81,22 @@ def build(d: dict, salutation: str) -> tuple[str, str, str]:
     when = dateline(d)
     subject = "Your article is now featured in Marketing in 3"
     para = f"font-family:{SANS};font-size:16px;line-height:1.6;color:#2a3246;"
+    kit = share_kit(d)
+    lead = ("Your comment is in the issue, next to your name. Thank you for adding it. " if kit["commented"] else "")
+    ask = ("If you would like to share the issue with your network, the button below opens a LinkedIn post with the link "
+           "already in it. You are welcome to use or change this text:")
+    share_text = (f"{lead}If you would like to share the issue with your network, this link opens a LinkedIn post with the "
+                  f"link already in it: {kit['share']}\nYou are welcome to use or change this text:\n{kit['post']}\n"
+                  "If you tag me, I will happily reshare it.\n\n")
+    share_html = f"""<tr><td class="px" style="padding:0 32px 6px;">
+  <p style="margin:0 0 12px;{para}">{e(lead)}{e(ask)}</p>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f6f4ef;border:1px solid {RULE};border-radius:6px;margin:0 0 14px;"><tr><td style="padding:14px 18px;{para}font-size:15px;font-style:italic;">{e(kit['post'])}</td></tr></table>
+  <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 0 10px;"><tr><td style="border-radius:999px;background:#0a66c2;">
+  <a href="{e(kit['share'])}" style="display:inline-block;padding:12px 24px;font-family:{SANS};font-size:15px;font-weight:700;color:#ffffff;text-decoration:none;border-radius:999px;">Share on LinkedIn</a>
+  </td></tr></table>
+  <p style="margin:0 0 18px;{para}font-size:14px;color:{MUTED};">If you tag me, I will happily reshare it.</p>
+</td></tr>
+<tr><td class="px" style="padding:0 32px 6px;">"""
 
     text = (
         f"Dear {salutation},\n\n"
@@ -74,6 +107,7 @@ def build(d: dict, salutation: str) -> tuple[str, str, str]:
         "This is a fantastic piece of research, and I really enjoyed preparing the post. I hope you like it.\n"
         "In case you are new to Marketing in 3, each issue credits the authors by name with links to their ORCID "
         "profiles, and cites the original article with its DOI, so all the credit goes to you.\n\n"
+        + share_text +
         "Thank you and your research team for your engagement in advancing marketing knowledge, and "
         "congratulations on the fascinating publication.\n\n"
         "Kind regards,\nBruno Schivinski\nAssociate Professor in Marketing\nGdansk University of Technology\nPoland\n\n"
@@ -111,6 +145,8 @@ def build(d: dict, salutation: str) -> tuple[str, str, str]:
 <tr><td class="px" style="padding:0 32px 6px;">
   <p style="margin:0 0 14px;{para}">This is a fantastic piece of research, and I really enjoyed preparing the post. I hope you like it.</p>
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fbf3e2;border-left:4px solid {AMBER};margin:0 0 16px;"><tr><td style="padding:14px 18px;{para}font-size:15px;">In case you are new to Marketing in 3: each issue credits the authors by name with links to their ORCID profiles, and cites the original article with its DOI, so all the credit goes to you.</td></tr></table>
+</td></tr>
+{share_html}
   <p style="margin:0 0 20px;{para}">Thank you and your research team for your engagement in advancing marketing knowledge, and congratulations on the fascinating publication.</p>
   <p style="margin:0 0 26px;{para}">Kind regards,<br><strong style="font-family:{SERIF};font-size:17px;color:{INK};">Bruno Schivinski</strong><br><span style="font-size:14px;color:{MUTED};">Associate Professor in Marketing<br>Gdansk University of Technology, Poland</span></p>
 </td></tr>

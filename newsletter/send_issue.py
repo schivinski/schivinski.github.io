@@ -23,7 +23,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
-from build_watch import dateline, esc, long_date, md, plain  # noqa: E402
+from build_watch import author_comments, comment_photo, comments_heading, dateline, esc, long_date, md, plain  # noqa: E402
 
 SITE = "https://schivinski.com"
 ISSUES = ROOT / "watch" / "issues"
@@ -96,6 +96,21 @@ def build_email(d: dict, unsubscribe: str = "{{amazonSESUnsubscribeUrl}}") -> tu
                     f'<a href="{e(coffee)}" style="color:{AMBER_TEXT};font-weight:700;">buy me a coffee</a>.</td></tr>'
                     if coffee else "")
 
+    cs = author_comments(d)   # "From the author" (Bruno, 25 Nov 2026): the authors' own comment, with headshot if sent
+    voice_rows = "".join(
+        f'<tr>' + (f'<td width="64" valign="top" style="padding:0 14px 14px 0;"><img src="{SITE}/watch/images/{e(comment_photo(c))}" '
+                   f'width="64" height="64" alt="{e(c["name"])}" style="display:block;width:64px;height:64px;border-radius:50%;border:0;"></td>'
+                   if comment_photo(c) else "")
+        + f'<td valign="top" style="padding:0 0 14px;font-family:{SERIF};font-size:17px;line-height:1.5;color:{INK};font-style:italic;">'
+          f'&ldquo;{md(c["text"])}&rdquo;<div style="font-family:{SANS};font-style:normal;font-size:13px;line-height:1.4;color:{MUTED};padding-top:6px;">'
+          f'<strong style="color:{INK};">{e(c["name"])}</strong>' + (f', {e(c["affiliation"])}' if c.get("affiliation") else "")
+        + '</div></td></tr>'
+        for c in cs)
+    voice_block = (f'<tr><td class="px" style="padding:20px 32px 0;"><h2 style="margin:0 0 12px;font-family:{SANS};font-size:12px;'
+                   f'letter-spacing:.08em;text-transform:uppercase;color:{MUTED};font-weight:700;">{comments_heading(cs)}</h2>'
+                   f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0">{voice_rows}</table></td></tr>'
+                   if cs else "")
+
     body = f"""<!doctype html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light">
@@ -121,7 +136,7 @@ def build_email(d: dict, unsubscribe: str = "{{amazonSESUnsubscribeUrl}}") -> tu
   <h2 style="margin:0 0 8px;font-family:{SANS};font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:{AMBER_TEXT};font-weight:700;">The short answer</h2>
   <p style="margin:0;font-family:{SANS};font-size:16px;line-height:1.6;color:{INK};">{md(d['short_answer'])}</p>
   </td></tr></table>
-</td></tr>
+</td></tr>{voice_block}
 <tr><td class="px" style="padding:22px 32px 4px;">
   <h2 style="margin:0 0 14px;font-family:{SANS};font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:{MUTED};font-weight:700;">Key takeaways</h2>
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0">{takeaways}</table>
@@ -143,7 +158,11 @@ def build_email(d: dict, unsubscribe: str = "{{amazonSESUnsubscribeUrl}}") -> tu
 </table></td></tr></table></body></html>"""
 
     lines = [f"MARKETING IN 3 · {kicker}", "", plain(d["title"]), "", plain(d["dek"]), "",
-             "THE SHORT ANSWER", plain(d["short_answer"]), "", "KEY TAKEAWAYS"]
+             "THE SHORT ANSWER", plain(d["short_answer"]), ""]
+    for c in cs:
+        lines += [comments_heading(cs).upper(), f'"{plain(c["text"])}"',
+                  plain(c["name"]) + (f', {plain(c["affiliation"])}' if c.get("affiliation") else ""), ""]
+    lines += ["KEY TAKEAWAYS"]
     lines += [f"* {plain(t)}" for t in d["takeaways"]]
     lines += ["", f"Read the full issue: {issue_url(d)}",
               "Six steps to apply it, what results to expect, and where it does not work."]
@@ -186,7 +205,7 @@ def main() -> int:
         print(f"Email export: issue {out['issue'] or 'none'} for the week of {today.isoformat()}, send={out['send']}")
         return 0
     issues = live_issues()
-    d = next((x for x in issues if x["issue"] == a.issue), None) if a.issue else current_issue(issues, cfg, today)
+    d = next((x for x in issues if x.get("issue") == a.issue), None) if a.issue else current_issue(issues, cfg, today)
     if not d:
         print("No issue to preview.")
         return 1

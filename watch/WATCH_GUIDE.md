@@ -262,6 +262,45 @@ issue is not easy to read and attractive to receive a click".
   claude/mkt3-author-thankyou-template.md). Send it from hello@marketingin3.com through a Gmail draft opened in Chrome. Check the
   real addresses in To and Cc before sending.
 
+## Author comments and headshots (Bruno, 25 November 2026)
+Each featured paper's authors are invited to add a sentence or two for readers and, if they like, a headshot. The
+comment shows as "From the author" (or "From the authors") under the short answer, on the page and in the subscriber
+email. The aim is that authors become contributors and share the issue on LinkedIn. Never for Bruno's own or
+co-authored papers (no email of any kind, see above).
+- **Invitation.** Plain-text email built by `newsletter/author_invite.py --issue N --title ... --journal ... --date
+  YYYY-MM-DD --salutation "Professor X" --cc "..."`. Do not reword it: the wording was calibrated by Bruno on 25 Nov 2026
+  (project doc claude/mkt3-author-invite-template.md). It asks one question ("if a marketing manager could change one
+  thing because of your study, what should it be?"), asks for a headshot if they are happy to send one, and gives a
+  reply-by date three days before the issue. Recipients and greeting as for the thank-you: To the corresponding author,
+  Cc co-authors whose institutional addresses were actually found; "and colleagues" when anyone is copied.
+- **Sending.** From hello@marketingin3.com: create the draft with the Gmail connector (plain body only, includeSignature
+  false), open it in Claude in Chrome, pick hello@marketingin3.com in From, check the To and Cc chips, make sure no
+  "Pozdrawiam" signature was added, send, close the tab. Label the thread "Mkt3/Author requests" (Label_18). If Chrome is
+  unavailable, follow the retry rule (every 3 hours, check Sent first). One invitation per paper, no reminder.
+- **When.** The scheduled task "Marketing in 3: author comment invitations" runs on Mondays and Thursdays and invites the
+  authors of each planned issue dated 8 to 12 days ahead, once the slot is firm and the paper text is in hand (PDF in
+  m3-papers, or an open-access version).
+- **Using a reply (the issue run, before writing).** Search Gmail for replies in the invitation thread (in:anywhere
+  subject:"Marketing in 3" from the invited addresses, newer_than:30d). Print the comment exactly as written; the house
+  style rules (dashes, plain English) apply to our words, not to theirs. If it runs well past 80 words, reply in the
+  thread asking which sentence or two to use and publish without it for now. If it promotes a product or service or is
+  off topic, ask Bruno first. Up to two comments per issue. Add to the issue file:
+  `author_comments: [{name, affiliation, text, photo}]` (name as in paper.researchers; affiliation as the author signs,
+  else as printed; ORCID is taken from paper.researchers).
+- **Headshot.** Use only a photo the author attached for this purpose; never take one from a university page, a social
+  profile or the web. Download the attachment, run `python scripts/author_photo.py FILE YYYY-MM-DD-surname` (square
+  crop, 400 px, all metadata removed), look at the result and re-run with a smaller TOP value if the head is cut, then set
+  `photo: authors/YYYY-MM-DD-surname.jpg`. Do not keep the original file. No photo sent: the comment shows without one.
+- **Late replies** (after the issue is live): the invitation task adds the comment and headshot to the live issue,
+  rebuilds and publishes as usual (commit only the issue file and the photo), then sends the short note from
+  `author_invite.py --live --slug ...` the same way as the invitation.
+- **Thank-you email.** `newsletter/author_email.py` now adds a LinkedIn share block to every thank-you (a one-click
+  LinkedIn share of a tracked link, and a suggested post that quotes the author's comment when there is one). The paste
+  check therefore shows www.linkedin.com among the link hosts, next to schivinski.com.
+- **Log and measurement.** Record the invitation date and the outcome (comment, comment and photo, or no reply) in
+  claude/mkt3-author-log.md. LinkedIn visits arrive tagged utm_source=linkedin, utm_campaign=author-issue-N (Issue
+  analytics workflow). After a month, compare issues with and without a comment; keep the figures in project docs only.
+
 ## Greeting when co-authors are copied (Bruno, 2 November 2026)
 - Any author email (thank-you or paper request) that copies co-authors greets them too: "Dear Professor Yuan and colleagues,".
   Only when nobody is copied does it stay "Dear Professor Yuan,". The corresponding author is the one named.

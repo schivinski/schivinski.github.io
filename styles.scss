@@ -407,6 +407,22 @@ details.table-block[open] summary { margin-bottom: .6rem; }
   .mw-ans-grid { grid-template-columns: minmax(0, 1fr); }
   .mw-ev { border-left: 0; border-top: 1px solid #dde1e8; padding: .8rem 0 0; }
 }
+/* "From the author": a comment and headshot sent by the paper's authors (Bruno, 25 Nov 2026). */
+.mw-voice { margin: -0.6rem 0 2.2rem; }
+.mw-voice h2 { font-size: .8rem; font-family: $font-family-sans-serif; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; color: $muted; margin: 0 0 .8rem; }
+.mw-voice-item { display: flex; gap: 1.1rem; align-items: center; margin: 0 0 1.1rem; }
+.mw-voice-item img { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; flex: none; box-shadow: 0 0 0 3px #fff, 0 0 0 5px $amber; }
+.mw-voice-item.no-photo { border-left: 3px solid $amber; padding-left: 1.1rem; }
+.mw-voice-txt { min-width: 0; }
+main .mw-voice blockquote { margin: 0; padding: 0; border: 0; font-size: inherit; color: inherit; }
+.mw-voice blockquote p { font-family: $headings-font-family; font-style: italic; font-size: 1.2rem; line-height: 1.5; color: $ink; margin: 0 0 .45rem; }
+.mw-voice-who { font-size: .88rem; color: $muted; margin: 0; }
+.mw-voice-who strong { color: $ink; font-weight: 600; }
+@media (max-width: 640px) {
+  .mw-voice-item { align-items: flex-start; gap: .9rem; }
+  .mw-voice-item img { width: 64px; height: 64px; }
+  .mw-voice blockquote p { font-size: 1.08rem; }
+}
 .mw-takeaways { margin: 0 0 2.4rem; }
 .mw-takeaways ul { padding-left: 1.1rem; }
 .mw-takeaways li { margin-bottom: .55rem; }
