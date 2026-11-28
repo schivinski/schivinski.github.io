@@ -135,7 +135,7 @@ courses:
   - id: advertising
     area: "Marketing"
     title: "Advertising"
-    levels: ["Undergraduate"]
+    levels: ["Undergraduate", "Master's"]
     summary: >-
       How advertising works and how it is managed: the theories behind persuasive messages, the work of agencies and
       creative teams, traditional and digital media, audiences and their values, regulation, and how to measure whether
@@ -157,6 +157,38 @@ courses:
         url: "https://www.routledge.com/Introduction-to-Advertising-Understanding-and-Managing-the-Advertising/Mogaji/p/book/9780367441999"
     taught:
       - { inst: gdansk-tech, years: "2012–2015" }
+      - { inst: ntu, as: "Driving Marketing Communications", programme: "MSc Branding and Advertising", years: "2016–2017" }
+
+  - id: brand-management
+    area: "Marketing"
+    title: "Brand Management"
+    levels: ["Master's"]
+    summary: >-
+      How to build, measure and manage strong brands and corporate reputations: brand identity, image and equity,
+      positioning and brand elements, brand architecture, corporate branding and communication with stakeholders, and
+      how reputation is measured and protected.
+    outline:
+      - "Brands and brand management"
+      - "Customer-based brand equity and brand positioning"
+      - "Brand resonance and the brand value chain"
+      - "Choosing brand elements"
+      - "Brand architecture, extensions and portfolios"
+      - "Measuring brand equity"
+      - "The rise and scope of corporate reputation"
+      - "Corporate culture and the corporate brand"
+      - "Measuring corporate reputation"
+      - "The branding–reputation dilemma"
+      - "Corporate communication and stakeholders"
+      - "Managing brands over time and across markets"
+    textbooks:
+      - cite: "Keller, K. L., & Swaminathan, V. (2027). *Strategic brand management: Building, measuring, and managing brand equity* (6th ed.). Pearson."
+        cover: "assets/textbooks/keller-swaminathan-strategic-brand-management-6e.jpg"
+        url: "https://www.pearson.com/en-us/pearsonplus/p/9780135318621"
+      - cite: "Roper, S., & Fill, C. (2012). *Corporate reputation: Brand and communication*. Pearson."
+        cover: "assets/textbooks/roper-fill-corporate-reputation.jpg"
+        url: "https://www.pearson.com/en-gb/subject-catalog/p/corporate-reputation-brand-and-communication/P200000005326/9780273727606"
+    taught:
+      - { inst: ntu, as: "Branding and Corporate Reputation Management", programme: "MSc Branding and Advertising", years: "2016–2017" }
 
   - id: consumer-behaviour
     area: "Marketing"
