@@ -957,11 +957,13 @@ $sponsor: #047af0; $sponsor-text: #0559b8; $collab: #3e6da9; $collab-text: #2f5a
 
 /* Consultancy: logo strip of organisations worked with (monochrome silhouettes, full strength on hover). */
 .partner-strip { margin: 0 0 2.6rem; padding: 1.6rem 0 .4rem; border-top: 1px solid $rule; }
-.partner-strip h2 { font-size: 1.45rem; margin: 0 0 1rem; border: 0; padding: 0; }
-.partner-strip .ps-group { margin: 1.1rem 0 .6rem; font-size: .8rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: $muted; }
-.ps-logos { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 1.1rem 1.75rem; }
+.partner-strip { text-align: center; }
+.partner-strip h2 { font-size: 1.45rem; margin: 0 0 .4rem; border: 0; padding: 0; }
+.partner-strip .ps-lede { margin: 0 auto 1.2rem; max-width: 34rem; color: $muted; font-size: .98rem; }
+.partner-strip .ps-group { margin: 1.4rem 0 .7rem; font-size: .8rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: $muted; }
+.ps-logos { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1.1rem 2rem; }
 .ps-logos li { margin: 0; display: flex; align-items: center; min-height: 44px; }
 .ps-logos a { display: block; line-height: 0; text-decoration: none; }
 .ps-logos img { display: block; max-width: 100%; height: auto; opacity: .62; transition: opacity .2s ease; }
 .ps-logos a:hover img, .ps-logos a:focus-visible img { opacity: 1; }
-@media (max-width: 640px) { .ps-logos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem 1.5rem; } .ps-logos li { min-height: 44px; } .ps-logos img { max-height: 28px; width: auto; } }
+@media (max-width: 640px) { .ps-logos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem 1.5rem; justify-items: center; } .ps-logos li { min-height: 44px; } .ps-logos img { max-height: 28px; width: auto; } }
