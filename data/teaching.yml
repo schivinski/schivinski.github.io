@@ -158,6 +158,7 @@ courses:
     taught:
       - { inst: gdansk-tech, years: "2012–2015" }
       - { inst: ntu, as: "Driving Marketing Communications", programme: "MSc Branding and Advertising", years: "2016–2017" }
+      - { inst: rmit, as: "Advertising Strategy", programme: "Master of Advertising", years: "2024" }
 
   - id: brand-management
     area: "Marketing"
@@ -222,6 +223,7 @@ courses:
     taught:
       - { inst: gdansk-tech, as: "International Consumer Behaviour", programme: "Management (International Business Management)", years: "2025–present" }
       - { inst: ftu, as: "Consumer Behavior in Services", programme: "Advanced Program in International Business Management (bachelor's, taught in English)", years: "2025" }
+      - { inst: rmit, as: "People and Data", programme: "Master of Advertising", years: "2020" }
       - { inst: ntu, as: "The Customer Experience", programme: "MSc Marketing suite", years: "2015–2017" }
 
   - id: digital-marketing
@@ -556,41 +558,11 @@ courses:
         reviewed: true
         tag: "By the SmartPLS team"
     taught:
+      - { inst: rmit, as: "Research Methods in Media and Communication", programme: "Master's, School of Media and Communication", years: "2021, 2024, 2025" }
+      - { inst: rmit, as: "Critical Enquiry in Media and Communication", programme: "Master of Advertising", years: "2020–2021" }
       - { inst: regents, as: "Marketing Research", programme: "BA (Hons) Global Management, year 2", years: "2018–2019" }
       - { inst: birkbeck, as: "Research Methods in Management", programme: "Bachelor's and master's (marketing and management)", years: "2017–2019", partner: smartpls }
     reviewer_note: "Sage Publishing commissioned my expert assessment of two core texts in research methods: *A primer on partial least squares structural equation modeling* and *Netnography*."
-
-  - id: research-methods-media-communication
-    area: "Research methods"
-    title: "Research Methods in Media and Communication"
-    levels: ["Master's"]
-    summary: >-
-      How to design and carry out a research project in media and communication, from research question and proposal
-      to data analysis. Students learn quantitative analysis hands-on in both IBM SPSS Statistics and R, and finish
-      with a research plan for their capstone project.
-    outline:
-      - "Research problems, questions and proposals"
-      - "Finding and evaluating the literature"
-      - "Research design and the logic of statistics"
-      - "Data, variables and visualisation in SPSS and R"
-      - "Bias, assumptions and data screening"
-      - "Correlation"
-      - "Linear regression"
-      - "Comparing two means"
-      - "Moderation and mediation"
-      - "Comparing several means: ANOVA, ANCOVA and factorial designs"
-      - "Exploratory factor analysis and reliability"
-      - "Categorical outcomes: chi-square and logistic regression"
-      - "Writing the research plan"
-    textbooks:
-      - cite: "Field, A. (2024). *Discovering statistics using IBM SPSS Statistics* (6th ed.). Sage."
-        cover: "assets/textbooks/field-discovering-statistics-spss-6e.jpg"
-        url: "https://collegepublishing.sagepub.com/products/285130"
-      - cite: "Field, A., Miles, J., & Field, Z. (2012). *Discovering statistics using R*. Sage."
-        cover: "assets/textbooks/field-miles-field-discovering-statistics-r.jpg"
-        url: "https://www.sagepub.com/shop/buy-a-book/discovering-statistics-using-r-1-236067"
-    taught:
-      - { inst: rmit, programme: "Master's, School of Media and Communication", years: "2021, 2024, 2025" }
 
   - id: structural-equation-modelling
     area: "Research methods"
