@@ -29,4 +29,24 @@ practical questions about how people discover, engage with and choose brands onl
 </div>
 ```
 
+```{=html}
+<section class="partner-strip" aria-labelledby="ps-title">
+  <h2 id="ps-title">Organisations I have worked with</h2>
+  <p class="ps-group">Industry and public sector</p>
+  <ul class="ps-logos">
+    <li><a href="https://www.woolworths.com.au" title="Woolworths" rel="noopener"><img src="assets/partners/mono/woolworths.png" alt="Woolworths" width="114" height="31" loading="lazy"></a></li>
+    <li><a href="https://endfoodwaste.com.au" title="End Food Waste Australia" rel="noopener"><img src="assets/partners/mono/end-food-waste-australia.png" alt="End Food Waste Australia" width="158" height="22" loading="lazy"></a></li>
+    <li><a href="https://eslfaceitgroup.com" title="ESL Gaming" rel="noopener"><img src="assets/partners/mono/esl-gaming.png" alt="ESL Gaming" width="93" height="28" loading="lazy"></a></li>
+    <li><a href="https://lublin.eu" title="City of Lublin" rel="noopener"><img src="assets/partners/mono/city-of-lublin.png" alt="City of Lublin" width="114" height="31" loading="lazy"></a></li>
+    <li><a href="https://www.jamovi.org" title="jamovi" rel="noopener"><img src="assets/partners/mono/jamovi.png" alt="jamovi" width="110" height="33" loading="lazy"></a></li>
+  </ul>
+  <p class="ps-group">Research funders I advise</p>
+  <ul class="ps-logos">
+    <li><a href="https://www.arc.gov.au" title="Australian Research Council" rel="noopener"><img src="assets/partners/mono/arc.png" alt="Australian Research Council" width="127" height="28" loading="lazy"></a></li>
+    <li><a href="https://www.ncn.gov.pl/en" title="National Science Centre, Poland" rel="noopener"><img src="assets/partners/mono/ncn.png" alt="National Science Centre, Poland" width="187" height="17" loading="lazy"></a></li>
+    <li><a href="https://www.snf.ch/en" title="Swiss National Science Foundation" rel="noopener"><img src="assets/partners/mono/snsf.png" alt="Swiss National Science Foundation" width="125" height="28" loading="lazy"></a></li>
+  </ul>
+</section>
+```
+
 {{< include _request-form-consultancy.qmd >}}
