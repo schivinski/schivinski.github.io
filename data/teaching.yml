@@ -111,6 +111,25 @@ institutions:
     units:
       - "Nottingham Business School"
 
+# Software partners shown inside a course card, under the university row they belong to (taught: partner: id).
+partners:
+  smartpls:
+    name: "SmartPLS"
+    url: "https://www.smartpls.com"
+    logo: "assets/partners/smartpls.png"
+    kind: "sponsor"
+    badge: "Sponsored course"
+    label: "Course sponsor · Birkbeck, 2017–2019"
+    text: "Students learned partial least squares structural equation modelling (PLS-SEM) hands-on in SmartPLS."
+  jamovi:
+    name: "jamovi"
+    url: "https://www.jamovi.org"
+    logo: "assets/partners/jamovi.png"
+    kind: "collab"
+    badge: "Software collaboration"
+    label: "Software collaboration · NTU, 2017"
+    text: "In jamovi's early days I advised the jamovi team on communication and marketing, and my NTU students analysed their data in jamovi, the free and open statistics platform."
+
 courses:
   # ---------------- Marketing ----------------
   - id: advertising
@@ -396,9 +415,11 @@ courses:
       - cite: "Kozinets, R. V. (2020). *Netnography: The essential guide to qualitative social media research* (3rd ed.). Sage."
         cover: "assets/textbooks/kozinets-netnography-3e.jpg"
         url: "https://www.sagepub.com/shop/buy-a-book/netnography-3-260905"
+        reviewed: true
     taught:
-      - { inst: gdansk-tech, as: "Marketing Research", programme: "Bachelor's programmes" }
-      - { inst: ntu, as: "Customer Insight through Marketing Research", programme: "MSc Marketing suite", years: "2015–2017" }
+      - { inst: gdansk-tech, as: "Marketing Research", programme: "Bachelor's programmes", years: "2012–2015" }
+      - { inst: ntu, as: "Customer Insight through Marketing Research", programme: "MSc Marketing suite", years: "2015–2017", partner: jamovi }
+    reviewer_note: "Sage Publishing commissioned my expert assessment of *Netnography*, the core text in qualitative social media research, for its third edition."
 
   - id: multivariate-research-methods
     area: "Research methods"
@@ -496,9 +517,16 @@ courses:
       - cite: "Kozinets, R. V. (2020). *Netnography: The essential guide to qualitative social media research* (3rd ed.). Sage."
         cover: "assets/textbooks/kozinets-netnography-3e.jpg"
         url: "https://www.sagepub.com/shop/buy-a-book/netnography-3-260905"
+        reviewed: true
+      - cite: "Hair, J. F., Hult, G. T. M., Ringle, C. M., & Sarstedt, M. (2027). *A primer on partial least squares structural equation modeling (PLS-SEM)* (4th ed.). Sage."
+        cover: "assets/textbooks/hair-hult-ringle-sarstedt-primer-pls-sem-4e.jpg"
+        url: "https://collegepublishing.sagepub.com/products/a-primer-on-partial-least-squares-structural-equation-modeling-pls-sem-4-293282"
+        reviewed: true
+        tag: "By the SmartPLS team"
     taught:
-      - { inst: birkbeck, as: "Research Methods in Management", programme: "Bachelor's and master's (marketing and management)", years: "2017–2019" }
       - { inst: regents, as: "Marketing Research", programme: "BA (Hons) Global Management, year 2", years: "2018–2019" }
+      - { inst: birkbeck, as: "Research Methods in Management", programme: "Bachelor's and master's (marketing and management)", years: "2017–2019", partner: smartpls }
+    reviewer_note: "Sage Publishing commissioned my expert assessment of two core texts in research methods: *A primer on partial least squares structural equation modeling* and *Netnography*."
 
   - id: research-methods-media-communication
     area: "Research methods"
@@ -552,6 +580,10 @@ courses:
       - "Measurement invariance"
       - "Best practices in SEM"
     textbooks:
+      - cite: "Hair, J. F., Hult, G. T. M., Ringle, C. M., & Sarstedt, M. (2027). *A primer on partial least squares structural equation modeling (PLS-SEM)* (4th ed.). Sage."
+        cover: "assets/textbooks/hair-hult-ringle-sarstedt-primer-pls-sem-4e.jpg"
+        url: "https://collegepublishing.sagepub.com/products/a-primer-on-partial-least-squares-structural-equation-modeling-pls-sem-4-293282"
+        reviewed: true
       - cite: "Kline, R. B. (2023). *Principles and practice of structural equation modeling* (5th ed.). Guilford Press."
         cover: "assets/textbooks/kline-principles-practice-sem-5e.jpg"
         url: "https://www.guilford.com/books/Principles-and-Practice-of-Structural-Equation-Modeling/Rex-Kline/9781462551910"
@@ -569,3 +601,4 @@ courses:
         url: "https://www.guilford.com/books/Doing-Statistical-Mediation-and-Moderation/Paul-Jose/9781462508150"
     taught:
       - { inst: gdansk-tech, as: "Structural Equation Modelling", programme: "Doctoral School, years 1–2", years: "2026" }
+    reviewer_note: "Sage Publishing commissioned my expert assessment of *A primer on partial least squares structural equation modeling*, a core text in the field."

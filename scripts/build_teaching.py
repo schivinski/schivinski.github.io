@@ -39,12 +39,24 @@ def book(b: dict) -> str:
         img = f'<img src="{esc(b["cover"])}" alt="Cover of {esc(t)}" loading="lazy" width="150" height="210">'
     else:  # no cover available: typographic stand-in
         img = f'<div class="tb-plain" role="img" aria-label="{esc(t)}"><span>{esc(t)}</span></div>'
-    inner = f'<figure class="tb">{img}<figcaption>{md(b["cite"])}</figcaption></figure>'
+    tag = f'<span class="tb-tag">{esc(b["tag"])}</span>' if b.get("tag") else ""
+    star = '<span class="tb-star" aria-hidden="true">★ </span>' if b.get("reviewed") else ""
+    inner = f'<figure class="tb{" tb-partner" if b.get("tag") else ""}">{img}{tag}<figcaption>{star}{md(b["cite"])}</figcaption></figure>'
     return f'<a class="tb-link" href="{esc(b["url"])}">{inner}</a>' if b.get("url") else inner
 
 
-def course(c: dict, insts: dict, role: str, materials: str = "") -> str:
+def partner_panel(p: dict) -> str:
+    return (f'<div class="cp-partner cp-partner-{esc(p["kind"])}"><a class="cp-partner-logo" href="{esc(p["url"])}">'
+            f'<img src="{esc(p["logo"])}" alt="{esc(p["name"])}" loading="lazy"></a><div>'
+            f'<p class="cp-partner-label">{esc(p["label"])}</p><p class="cp-partner-text">{esc(p["text"])}</p>'
+            f'<a class="cp-partner-link" href="{esc(p["url"])}">Visit {esc(p["url"].split("//")[1].removeprefix("www."))} ↗</a></div></div>')
+
+
+def course(c: dict, insts: dict, role: str, materials: str = "", partners: dict | None = None) -> str:
+    partners = partners or {}
+    used = [partners[t["partner"]] for t in c.get("taught", []) if t.get("partner")]
     levels = "".join(f'<span class="cp-level">{esc(l)}</span>' for l in c.get("levels", []))
+    levels += "".join(f'<span class="cp-level cp-level-{esc(p["kind"])}">{esc(p["badge"])}</span>' for p in used)
     taught = ""
     if c.get("taught"):
         rows = []
@@ -59,15 +71,20 @@ def course(c: dict, insts: dict, role: str, materials: str = "") -> str:
                 bits.append(f'· {esc(t["years"])}')
             rows.append(f'<li><img src="{esc(i.get("mark", i["logo"]))}" alt="{esc(i["name"])}" width="40" height="24" loading="lazy">'
                         f'<span>{" ".join(bits)}</span></li>')
+            if t.get("partner"):
+                rows.append(f'<li class="cp-partner-row">{partner_panel(partners[t["partner"]])}</li>')
         taught = f'<div class="cp-taught"><h4>Taught at</h4><ul>{"".join(rows)}</ul></div>'
     outline = ('<details class="cp-outline"><summary>Course outline</summary><ol>'
                + "".join(f"<li>{esc(o)}</li>" for o in c.get("outline", [])) + "</ol></details>")
     books = "".join(book(b) for b in c.get("textbooks", []))
     label = "Core textbook" if len(c.get("textbooks", [])) == 1 else "Core textbooks"
     own = f'<p class="cp-own">{esc(materials)}</p>' if materials else ""
-    return (f'<article class="cp-course" id="{esc(c["id"])}">'
+    note = (f'<div class="cp-reviewer"><span class="tb-star" aria-hidden="true">★</span><p><strong>Expert reviewer for Sage.</strong> '
+            f'{md(c["reviewer_note"])}</p></div>') if c.get("reviewer_note") else ""
+    kind = f' cp-course-{esc(used[0]["kind"])}' if used else ""
+    return (f'<article class="cp-course{kind}" id="{esc(c["id"])}">'
             f'<div class="cp-main"><div class="cp-levels">{levels}</div><h3>{esc(c["title"])}</h3>'
-            f'<p class="cp-role">{esc(role)}</p><p class="cp-sum">{esc(c["summary"].strip())}</p>{outline}{taught}</div>'
+            f'<p class="cp-role">{esc(role)}</p><p class="cp-sum">{esc(c["summary"].strip())}</p>{outline}{taught}{note}</div>'
             f'<div class="cp-books"><h4>{label}</h4><div class="cp-book-row">{books}</div>'
             f'{own}</div></article>')
 
@@ -127,7 +144,7 @@ def main() -> int:
     portfolio = ""
     for a in d["areas"]:
         cs = sorted([c for c in d["courses"] if c["area"] == a], key=lambda c: c["title"])
-        portfolio += (f'<h3 class="cp-area">{esc(a)}</h3>' + "".join(course(c, insts, role, d.get("materials", "")) for c in cs))
+        portfolio += (f'<h3 class="cp-area">{esc(a)}</h3>' + "".join(course(c, insts, role, d.get("materials", ""), d.get("partners", {})) for c in cs))
     inv = d.get("invite", {})
     invite = (f'<section class="t-invite"><h2>{esc(inv["title"])}</h2><p>{esc(inv["text"])}</p>'
               f'<a class="btn-invite" href="{esc(inv["link"]["url"])}">{esc(inv["link"]["label"])}</a></section>') if inv else ""

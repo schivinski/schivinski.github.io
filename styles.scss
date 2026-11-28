@@ -573,6 +573,33 @@ main section h2 { margin-top: 2.4rem; }
 @media (max-width: 860px) { .cp-course, .t-insts .t-inst { grid-template-columns: 1fr; } .cp-outline ol { columns: 1; } .t-logo { max-width: 12rem; } }
 .teaching-page .quarto-title .description { display: none !important; }
 
+// Teaching partners (SmartPLS sponsor, jamovi collaboration) and Sage reviewer marks
+$sponsor: #047af0; $sponsor-text: #0559b8; $collab: #3e6da9; $collab-text: #2f5a90;
+.cp-course-sponsor { border-color: $sponsor; box-shadow: 0 10px 30px rgba(4, 122, 240, .10); }
+.cp-course-collab { border-color: $collab; box-shadow: 0 10px 30px rgba(62, 109, 169, .10); }
+.cp-level-sponsor { background: #e8f2fe; color: $sponsor-text; }
+.cp-level-collab { background: #eaf0f8; color: $collab-text; }
+.cp-taught li.cp-partner-row { display: block; border-top: 0; padding: .2rem 0 .4rem; }
+.cp-partner { display: flex; flex-wrap: wrap; gap: 1rem 1.25rem; align-items: center; border-radius: 10px; padding: .9rem 1.1rem; }
+.cp-partner-sponsor { background: #f3f8ff; border: 1px solid #cfe3fc; }
+.cp-partner-collab { background: #f1f5fb; border: 1px solid #d3e0f1; }
+.cp-partner > div { flex: 1 1 16rem; min-width: 0; }
+.cp-partner-logo { display: flex; align-items: center; justify-content: center; flex: none; width: 7.5rem; height: 4.75rem; background: $surface; border: 1px solid $rule; border-radius: 8px; }
+.cp-taught .cp-partner-logo img { width: auto; height: auto; max-width: 5.8rem; max-height: 3.4rem; object-fit: contain; }
+.cp-partner-label { margin: 0 0 .25rem; font-size: .75rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.cp-partner-sponsor .cp-partner-label, .cp-partner-sponsor .cp-partner-link { color: $sponsor-text; }
+.cp-partner-collab .cp-partner-label, .cp-partner-collab .cp-partner-link { color: $collab-text; }
+.cp-partner-text { font-size: .92rem; line-height: 1.5; margin: 0 0 .35rem; }
+.cp-partner-link { font-size: .88rem; font-weight: 600; text-decoration: none; }
+.tb-star { color: #c9870f; }
+.tb-tag { display: block; font-size: .7rem; font-weight: 600; color: $sponsor-text; margin-top: .5rem; }
+.tb-partner img { box-shadow: 0 0 0 3px $sponsor, 0 6px 16px rgba(21, 32, 59, .18); }
+.tb-partner figcaption { margin-top: .2rem; }
+.cp-reviewer { display: flex; gap: .6rem; align-items: flex-start; margin-top: .9rem; padding: .75rem 1rem; background: #fdf8ec; border: 1px solid #f1e2bd; border-radius: 10px; font-size: .88rem; line-height: 1.5; }
+.cp-reviewer p { margin: 0; }
+.cp-reviewer .tb-star { font-size: 1.05rem; line-height: 1.3; }
+
+
 /* ---------- Mentoring page ---------- */
 .mentoring-page main.content { max-width: none; }
 .mentoring-page .quarto-title .description { display: none !important; }
