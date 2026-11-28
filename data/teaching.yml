@@ -22,7 +22,7 @@ invite:
   text: >-
     I welcome invitations to teach as a visiting professor, run intensive courses, give guest lectures, and lead
     doctoral workshops on structural equation modelling and survey research methods.
-  link: { label: "Contact me on LinkedIn", url: "https://www.linkedin.com/in/bruno-schivinski-b2baa044" }
+  link: { label: "Get in touch", url: "mentoring.html?service=workshop#request" }
 
 areas: ["Marketing", "Research methods"]
 
